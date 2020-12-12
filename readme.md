@@ -1,7 +1,7 @@
 # vp_kr : 문명 5 Vox Populi에 대한 한글 패치
-목차 : 
-다운로드 방법
-번역에 오류가 있다면 (git 사용법)
+목차 : <br/>
+다운로드 방법 <br/>
+번역에 오류가 있다면 (git 사용법) <br/>
 ## 다운로드 방법
 1. 스팀에서 무결점 검사를 먼저 해야 한다. <br/>
 스팀의 게임 선택 탭에서 문명을 찾아 오른쪽 클릭을 하면 속성 버튼이 나온다.<br/>
@@ -46,4 +46,4 @@
 github에 로그인했다면 글을 바꿀 수 있고 맨 아래에 perpose changes를 눌러 저장할 수 있다.<br/>
 ![풀리퀘](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FUtLMu%2FbtqP0txWlyW%2FMtuwgPyoF6JQ8nFrSuJdnk%2Fimg.png "pull request를 눌러 수정 요청을 할 수 있다")<br/>
 perpose changes 버튼을 누르면 이런 창이 나오는데, Create pull request 버튼을 눌러 수정을 요청할 수 있다.<br/>
-어디 부분에 어디가 잘못됐느니 하는 것보다 여기서 수정해주는게 서로에게 편할 것이다...<br/>
+어디 부분에 어디가 잘못됐느니 하는 것보다 여기서 수정해주는게 훨씬 좋다!<br/>
