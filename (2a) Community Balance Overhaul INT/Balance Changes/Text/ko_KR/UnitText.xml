@@ -232,11 +232,11 @@
 			<Text>지상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR">
-			<Text>포로 수용소</Text>
+			<Text>전쟁 포로</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR_HELP">
-			<Text>50턴 동안 시설 및 도로 건설 속도 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 빨라짐</Text>
+			<Text>50턴 동안 시설 및 도로 건설 속도 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 느려짐</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_I">
 			<Text>엄호 사격 I</Text>
