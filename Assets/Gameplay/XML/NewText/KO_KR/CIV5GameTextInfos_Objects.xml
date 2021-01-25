@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text Objects -->
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_DOMAIN_AIR">
+			<Text>공중 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DOMAIN_IMMOBILE">
+			<Text>고정 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DOMAIN_LAND">
+			<Text>지상 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DOMAIN_SEA">
+			<Text>해상 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_0">
+			<Text>고대 시대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_1">
+			<Text>고전 시대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_6">
+			<Text>미래 시대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_4">
+			<Text>산업 시대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_2">
+			<Text>중세 시대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_5">
+			<Text>현대 시대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_3">
+			<Text>르네상스 시대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_FALLOUT">
+			<Text>낙진</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_FLOOD_PLAINS">
+			<Text>범람원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_FOREST">
+			<Text>숲</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_ICE">
+			<Text>빙하</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_JUNGLE">
+			<Text>정글</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MARSH">
+			<Text>습지</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_OASIS">
+			<Text>오아시스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_EPIC">
+			<Text>서사시</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_MARATHON">
+			<Text>마라톤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_STANDARD">
+			<Text>표준</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_QUICK">
+			<Text>빠름</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOLD">
+			<Text>골드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_DEITY">
+			<Text>신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_IMMORTAL">
+			<Text>불멸자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_EMPEROR">
+			<Text>황제</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_KING">
+			<Text>왕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_PRINCE">
+			<Text>왕자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_WARLORD">
+			<Text>장군</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_CHIEFTAIN">
+			<Text>족장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_SETTLER">
+			<Text>개척자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CAMP">
+			<Text>야영지</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CITY_RUINS">
+			<Text>도시 폐허</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_FARM">
+			<Text>농장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_FISHING_BOATS">
+			<Text>어선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_FORT">
+			<Text>요새</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_GOODY_HUT">
+			<Text>고대 유적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ENCAMPMENT">
+			<Text>야만인 주둔지</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_LUMBERMILL">
+			<Text>제재소</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MINE">
+			<Text>광산</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_OFFSHORE_PLATFORM">
+			<Text>해양 구조물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_PASTURE">
+			<Text>목장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_PLANTATION">
+			<Text>재배지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_QUARRY">
+			<Text>채석장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_TRADING_POST">
+			<Text>교역소</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_WELL">
+			<Text>유정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_LANDMARK">
+			<Text>랜드마크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ACADEMY">
+			<Text>아카데미</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CUSTOMS_HOUSE">
+			<Text>세관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MANUFACTORY">
+			<Text>제조소</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CITADEL">
+			<Text>성채</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_INVISIBLE_SUBMARINE">
+			<Text>잠수함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_RESEARCH">
+			<Text>연구</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_WEALTH">
+			<Text>골드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_APOLLO_PROGRAM">
+			<Text>아폴로 우주 계획</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_MANHATTAN_PROJECT">
+			<Text>맨해튼 프로젝트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SS_CASING">
+			<Text>SS 외장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_COCKPIT">
+			<Text>SS 조종석</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_DOCKING_BAY">
+			<Text>SS 도킹 베이</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SS_ENGINE">
+			<Text>SS 엔진</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_LIFE_SUPPORT">
+			<Text>SS 생명 유지 장치</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SS_STASIS_CHAMBER">
+			<Text>SS 동면실</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_THRUSTERS">
+			<Text>SS 분사장치</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SS_BOOSTER">
+			<Text>SS 추진기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMBAT1">
+			<Text>전투 I</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMBAT2">
+			<Text>전투 II</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMBAT3">
+			<Text>전투 III</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_ALUMINUM">
+			<Text>알루미늄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BANANAS">
+			<Text>바나나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_COAL">
+			<Text>석탄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_CATTLE">
+			<Text>소</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SHEEP">
+			<Text>양</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_DEER">
+			<Text>사슴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_DYES">
+			<Text>염료</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_FISH">
+			<Text>물고기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_GEMS">
+			<Text>보석</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_GOLD">
+			<Text>금</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_HORSES">
+			<Text>말</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_IRON">
+			<Text>철</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_IVORY">
+			<Text>상아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MARBLE">
+			<Text>대리석</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_OIL">
+			<Text>석유</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SILK">
+			<Text>비단</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SPICES">
+			<Text>향신료</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_STONE">
+			<Text>석재</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SUGAR">
+			<Text>설탕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_URANIUM">
+			<Text>우라늄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_WHALES">
+			<Text>고래</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_WHEAT">
+			<Text>밀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_WINE">
+			<Text>와인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_COTTON">
+			<Text>면</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_FURS">
+			<Text>모피</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_INCENSE">
+			<Text>향</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_PEARLS">
+			<Text>진주</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SILVER">
+			<Text>은</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ROUTE_RAILROAD">
+			<Text>철도</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_ROUTE_ROAD">
+			<Text>도로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ARTIST">
+			<Text>예술가|예술가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ARTIST_SLOTS">
+			<Text>예술가 슬롯 :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ARTIST_TITLE">
+			<Text>위대한 예술가 점수 </Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CITIZEN">
+			<Text>실업자|실업자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ENGINEER">
+			<Text>기술자|기술자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ENGINEER_SLOTS">
+			<Text>기술자 슬롯 :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ENGINEER_TITLE">
+			<Text>위대한 기술자 점수 </Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_ARTIST">
+			<Text>위대한 예술가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_ENGINEER">
+			<Text>위대한 기술자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_MERCHANT">
+			<Text>위대한 상인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_PRIEST">
+			<Text>위대한 섡지자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_SCIENTIST">
+			<Text>위대한 과학자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MERCHANT">
+			<Text>상인|상인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MERCHANT_SLOTS">
+			<Text>상인 슬롯 :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MERCHANT_TITLE">
+			<Text>위대한 상인 점수 </Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SCIENTIST">
+			<Text>과학자|과학자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SCIENTIST_SLOTS">
+			<Text>과학자 슬롯 :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SCIENTIST_TITLE">
+			<Text>위대한 과학자 점수 </Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_DESERT">
+			<Text>사막</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_GRASS">
+			<Text>초원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_HILL">
+			<Text>언덕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_MOUNTAIN">
+			<Text>산</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_OCEAN">
+			<Text>대양</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_PLAINS">
+			<Text>평원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_SNOW">
+			<Text>설원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_TUNDRA">
+			<Text>툰드라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_CULTURE">
+			<Text>문화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_RESEARCH">
+			<Text>과학</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_FAST">
+			<Text>빠름</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_MEDIUM">
+			<Text>중간</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_SLOW">
+			<Text>느림</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_DOMINATION">
+			<Text>정복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_CULTURAL">
+			<Text>문화</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_DIPLOMATIC">
+			<Text>외교</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_SPACE_RACE">
+			<Text>과학</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_TIME">
+			<Text>시간</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_DEBUG">
+			<Text>디버그</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_DUEL">
+			<Text>2인용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_TINY">
+			<Text>초소형</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_SMALL">
+			<Text>소형</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_STANDARD">
+			<Text>표준</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_LARGE">
+			<Text>대형</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_HUGE">
+			<Text>초대형</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FOOD">
+			<Text>식량</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_PRODUCTION">
+			<Text>생산</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_GOLD">
+			<Text>골드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_SCIENCE">
+			<Text>과학</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_CULTURED_ADJECTIVE">
+			<Text>문화적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_ADJECTIVE">
+			<Text>군사적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MARITIME_ADJECTIVE">
+			<Text>해양적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY">
+			<Text>호의적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_NEUTRAL">
+			<Text>중립적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE">
+			<Text>배타적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL">
+			<Text>비이성적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MT_EVEREST">
+			<Text>에베레스트산</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_CRATER">
+			<Text>배린저 운석공</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_LAKE_TITICACA">
+			<Text>티티카카 호수</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MT_FUJI">
+			<Text>후지산</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MESA">
+			<Text>그랜드 메사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_REEF">
+			<Text>대보초</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_VOLCANO">
+			<Text>크라카토아 화산</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_GIBRALTAR">
+			<Text>지브롤터 암벽</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_GEYSER">
+			<Text>올드 페이스풀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_ATOLL">
+			<Text>산호섬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_NATURAL_WONDER">
+			<Text>자연 불가사의</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SYDNEY_OPERA_HOUSE">
+			<Text>시드니 오페라하우스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STADIUM_DESC">
+			<Text>경기장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_DESC">
+			<Text>롱하우스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_DESC">
+			<Text>수상정원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_DESC">
+			<Text>바자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SATRAPS_COURT_DESC">
+			<Text>사트라프 관청</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PAPER_MAKER_DESC">
+			<Text>제지소</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONUMENT_DESC">
+			<Text>기념비</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_DESC">
+			<Text>진흙 피라미드 모스크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEMPLE_DESC">
+			<Text>사원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WAT_DESC">
+			<Text>와트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BURIAL_TOMB_DESC">
+			<Text>왕가의 무덤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_DESC">
+			<Text>수도원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PROD_TEXT">
+			<Text>생산</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_GOLD_TEXT">
+			<Text>골드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESEARCH_TEXT">
+			<Text>과학</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CULTURE_TEXT">
+			<Text>문화</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_GREAT_PEOPLE_TEXT">
+			<Text>위인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WONDERS_TEXT">
+			<Text>불가사의</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_SPECIAL_TEXT">
+			<Text>특수 건물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_REGULARBUILDING_TEXT">
+			<Text>건물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CITIZENS_TEXT">
+			<Text>시민</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIAN_UNIT">
+			<Text>민간 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARY_UNIT">
+			<Text>군사 유닛</Text>
+		</Row>
+	</Language_KO_KR>
+</GameData>
