@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_CIV5_ANASAZI_TEXT">
+      <Text>아나사지는 북미 지역의 고대 원주민 문화이다. 현대 푸에블로인들의 선조인 아나사지인들은 절벽 주거지인 메사 베르데를 건설한 것으로 알려진다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_CONQUISTADOR_HELP">
+      <Text>정찰과 외국에 식민지를 건설하는 임무에 특화된 르네상스 시대 유닛입니다. 어떤 도시라도 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_CONQUISTADOR_STRATEGY">
+      <Text>콩키스타도르는 다용도 유닛으로 육지와 바다 모든 지역에서 강합니다. 추가 시야 범위와 새로운 도시를 건설할 수 있는 능력을 지녔기 때문에 육지에서 매우 뛰어난 정찰병입니다. 물에서 콩키스타도르는 방어 승선 업그레이드를 할 수 있어서 적 해상 유닛을 상대로 자신을 방어할 수 있습니다. 기사와 달리 콩키스타도르는 도시를 공격할 때 페널티를 받지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_MUSKETEER_HELP">
+      <Text> 이 유닛은 머스킷 병 보다 더 높은 [ICON_STRENGTH] 전투력을 지녔기 때문에 게임에서 가장 강력한 근접 전투 유닛입니다. 모든 도시에서 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_MUSKETEER_STRATEGY">
+      <Text>총사대는 머스킷 병보다 상당히 강력하기 때문에 게임에서 제일 강력한 보병 유닛이라고 할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_TERCIO_HELP">
+      <Text>르네상스 시대를 주름잡았던 군사 유닛입니다. 이 유닛은 [ICON_STRENGTH] 전투력이 높으며 승급을 통해 기마 유닛에 대한 전투 보너스(100)를 받을 수 있습니다. 모든 도시에서 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_TERCIO_STRATEGY">
+      <Text>이 유닛은 머스킷 병보다 전투에 강하며 기마 유닛을 상대론 두 배의 힘을 발휘합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ABLTY_DECLARE_WAR_ALL">
+      <Text>모든 세력에 대한 선전포고 허용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BRIEFING">
+      <Text>브리핑</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BUILDING_MONASTERY_HELP">
+      <Text>이 도시가 새 타일을 획득하는 데 필요한 [ICON_CULTURE]문화가 75%만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BUILDING_MONASTERY_STRATEGY">
+      <Text>수도원은 도시의 [ICON_CULTURE]문화를 높여주어 영토 확장 속도를 높이고 사회 정책 도입을 앞당깁니다. 수도원이 있으면 문화 경계의 성장 속도가 네 배로 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BUILDING_NAVIGATION_SCHOOL">
+      <Text>항해 학교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BUILDING_NAVIGATION_SCHOOL_HELP">
+      <Text>제국의 모든 해상 유닛에서 괴혈병을 몰아냅니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BUILDING_NAVIGATION_SCHOOL_STRATEGY">
+      <Text>항해 학교 국가 불가사의를 건설하여 해상 유닛을 괴혈병으로부터 보호합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BUILDING_NAVIGATION_SCHOOL_TEXT">
+      <Text>지도 제작자와 조선 기술자 그리고 훌륭한 선장은 하늘에서 그냥 떨어지지 않습니다. 이들은 항해 학교와 같은 곳에서 교육을 받은 자들입니다. 경험 많은 선장과 박식한 학자들은 학교에서 자신들이 익힌 해양 지식을 학생들에게 전수합니다. 학교에서는 새로운 항로에 대한 기상도가 만들어지고, 최신 기구를 사용하여 지도 제작자들을 교육하며, 새로운 종류의 배를 설계하고 건조합니다.[NEWLINE][NEWLINE]일반적으로 항해 학교는 포르투갈의 항해사 앙리에 의해 사그레스에 처음으로 설립되었다고 알려져 있습니다. 앙리가 지도 제작자들을 모아서 아프리카 해안 지도를 만들었다는 기록은 있지만 항해사와 학자들를 전문적으로 양성하는 학교에 대한 기록은 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_CARTIER">
+      <Text>까르티에</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_CHAMPLAIN">
+      <Text>샹플랭</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_CHANCELLOR">
+      <Text>챈슬러</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_DE_LEON">
+      <Text>데 레온</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_DE_SOTO">
+      <Text>데 소토</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_DE_VACA">
+      <Text>데 바카</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_GRENVILLE">
+      <Text>그렌빌</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_HUDSON">
+      <Text>허드슨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_MAGELLAN">
+      <Text>마젤란</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_NARVAEZ">
+      <Text>나르바에스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_ROBERVAL">
+      <Text>로베르발</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_RUT">
+      <Text>루트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_ULLOA">
+      <Text>울로아</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_VESPUCCI">
+      <Text>베스푸치</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CARAVEL_WILLOUGHBY">
+      <Text>윌로비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_ALGONQUIN_TEXT">
+      <Text>알곤킨족은 퀘벡 지역에 거주했던 원주민입니다. 이들은 이로쿼이족의 숙적이 되어 모피 거래에서 경쟁했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_ARAWAK_TEXT">
+      <Text>아라와크족은 서인도 제도에 거주했던 원주민입니다. 이들은 크리스토퍼 콜럼버스가 가장 처음 만났던 원주민이었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_CARIB_TEXT">
+      <Text>카리브 어족은 서인도 제도에 거주했던 일부 원주민입니다. 이들은 스페인을 상대로 한 최초 몇몇의 전투를 치렀습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_CHEROKEE_TEXT">
+      <Text>체로키족은 북미 남동부에 거주했던 원주민입니다. 이들은 이로쿼이족과 밀접한 관계를 맺고 있기 때문에 선사 시대에 5대호로부터 이주한 것으로 추정되고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_AZTECS_TEXT">
+      <Text>
+시나리오 설명[NEWLINE]때는 1492년입니다. 대서양을 건너 중국과 인도제국으로 향하는 새로운 항로를 개척하고 싶어 안달이 난 용감무쌍한 탐험가들이 영국과 프랑스 그리고 스페인의 궁궐로 몰려들었습니다. 이들이 새로운 교역로를 개척하고 아시아의 해안에서 이제껏 알려지지 않은 부를 발견할 수 있을까요? 아니면 탐험 도중에 배가 좌초되어 미지의 땅을 헤매게 될까요? 원주민들이 그들에게 제공된 지식과 교역에 대한 가능성을 선뜻 받아들일까요? 아니면 그들의 모국에 쳐들어온 침략자들에 맞서 싸울까요? 용감하게 미지의 바다를 향해 나가는 자들을 부와 명예 그리고 기회가 기다리고 있을까요? 어떤 길을 선택하시겠습니까? 신세계의 패권을 잡기 위한 싸움에서 누가 승리할까요?[NEWLINE][NEWLINE]승리 조건[NEWLINE]제일 먼저 1,000VP를 달성하는 문명이 승리합니다. 탐험 캐러벨로 중국에 도달하고 수도로 보물 유닛을 가져온 대가로 보너스 VP를 획득했습니다. 여섯 개의 문명을 각각 경험해 보고 원하는 만큼 플레이하십시오. 매번 신규 게임을 시작할 때마다 아메리카 지도가 달라집니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]모든 해군 전투 유닛은 우호적인 지형 밖에서 차례를 마감할 때마다 체력이 깎이는 괴혈병 피해를 봅니다. 심각한 문제에 맞서기 위해 국가의 불가사의인 항해술 학교를 건설하십시오. 유럽의 열강은 해적 기술을 연구하기 전에는 서로에게 전쟁을 선포하지 않습니다. 보물 유닛은 도시가 완전히 파괴됐을 때 생성되거나 엘도라도와 포토시의 자연경관에 의해 생성됩니다. (만약 이 지도에 존재한다면) 금과 VP를 획득하려면 이 시민 유닛을 수도로 이동시키십시오.
+   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_ENGLAND_TEXT">
+      <Text>
+시나리오 설명[NEWLINE]때는 바야흐로 1492년, 대서양을 건너 중국과 인도제국으로 향하는 새로운 항로를 개척하고 싶어 안달이 난 용감무쌍한 탐험가들이 영국과 프랑스 그리고 스페인의 궁전으로 몰려들었습니다. 이들이 새로운 교역로를 개척하고 아시아의 해안에서 이제껏 알려지지 않은 부를 발견할 수 있을까요? 아니면 탐험 도중에 배가 좌초되어 미지의 땅을 헤매게 될까요? 원주민들이 그들에게 제공된 지식과 교역에 대한 가능성을 선뜻 받아들일까요? 아니면 그들의 모국에 쳐들어온 침략자들에 맞서 싸울까요? 용감하게 미지의 바다를 향해 나가는 자들을 부와 명예 그리고 기회가 기다리고 있을까요? 어떤 길을 선택하시겠습니까? 신세계의 패권을 잡기 위한 싸움에서 누가 승리할까요?[NEWLINE][NEWLINE]승리 조건[NEWLINE]제일 먼저 1,000VP를 달성하는 문명이 승리합니다. 탐험 캐러벨로 중국에 도달하고 수도로 보물 유닛을 가져온 대가로 보너스 VP를 획득했습니다. 여섯 개의 문명을 각각 경험해 보고 원하는 만큼 플레이하십시오. 매번 신규 게임을 시작할 때마다 아메리카 지도가 달라집니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]모든 해군 전투 유닛은 우호적인 지형 밖에서 차례를 마감할 때마다 체력이 깎이는 괴혈병 피해를 봅니다. 심각한 문제에 맞서기 위해 국가의 불가사의인 항해술 학교를 건설하십시오. 유럽의 열강은 해적 기술을 연구하기 전에는 서로에게 전쟁을 선포하지 않습니다. 보물 유닛은 도시가 완전히 파괴됐을 때 생성되거나 엘도라도와 포토시의 자연경관에 의해 생성됩니다. (만약 이 지도에 존재한다면) 금과 VP를 획득하려면 이 시민 유닛을 수도로 이동시키십시오.
+   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_FRANCE_TEXT">
+      <Text>
+시나리오 설명[NEWLINE]때는 1492년입니다. 대서양을 건너 중국과 인도제국으로 향하는 새로운 항로를 개척하고 싶어 안달이 난 용감무쌍한 탐험가들이 영국과 프랑스 그리고 스페인의 궁궐로 몰려들었습니다. 이들이 새로운 교역로를 개척하고 아시아의 해안에서 이제껏 알려지지 않은 부를 발견할 수 있을까요? 아니면 탐험 도중에 배가 좌초되어 미지의 땅을 헤매게 될까요? 원주민들이 그들에게 제공된 지식과 교역에 대한 가능성을 선뜻 받아들일까요? 아니면 그들의 모국에 쳐들어온 침략자들에 맞서 싸울까요? 용감하게 미지의 바다를 향해 나가는 자들을 부와 명예 그리고 기회가 기다리고 있을까요? 어떤 길을 선택하시겠습니까? 신세계의 패권을 잡기 위한 싸움에서 누가 승리할까요?[NEWLINE][NEWLINE]승리 조건[NEWLINE]제일 먼저 1,000VP를 달성하는 문명이 승리합니다. 탐험 캐러벨로 중국에 도달하여 수도로 보물을 가져오면 보너스 VP를 획득합니다. 여섯 개의 문명을 각각 경험해 보고 원하는 대로 플레이하십시오. 매번 신규 게임을 시작할 때마다 아메리카 지도가 달라집니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]모든 해군 전투 유닛은 우호적인 지형 밖에서 턴을 종료할 때마다 체력이 줄어드는 괴혈병 피해를 입습니다. 이 문제를 해결하기 위해 국가 불가사의인 항해술 학교를 건설하십시오. 유럽의 열강은 해적 기술을 연구하기 전에는 서로에게 전쟁을 선포하지 않습니다. 보물 유닛은 도시가 완전히 파괴됐을 때 생성되거나 엘도라도와 포토시의 자연경관에 의해 생성됩니다. (만약 이 지도에 존재한다면) 금과 VP를 획득하려면 이 시민 유닛을 수도로 이동시키십시오.
+   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_INCA_TEXT">
+      <Text>
+시나리오 설명[NEWLINE]때는 1492년입니다. 대서양을 건너 중국과 인도제국으로 향하는 새로운 항로를 개척하고 싶어 안달이 난 용감무쌍한 탐험가들이 영국과 프랑스 그리고 스페인의 궁궐로 몰려들었습니다. 이들이 새로운 교역로를 개척하고 아시아의 해안에서 이제껏 알려지지 않은 부를 발견할 수 있을까요? 아니면 탐험 도중에 배가 좌초되어 미지의 땅을 헤매게 될까요? 원주민들이 그들에게 제공된 지식과 교역에 대한 가능성을 선뜻 받아들일까요? 아니면 그들의 모국에 쳐들어온 침략자들에 맞서 싸울까요? 용감하게 미지의 바다를 향해 나가는 자들을 부와 명예 그리고 기회가 기다리고 있을까요? 어떤 길을 선택하시겠습니까? 신세계의 패권을 잡기 위한 싸움에서 누가 승리할까요?[NEWLINE][NEWLINE]승리 조건[NEWLINE]제일 먼저 1,000VP를 달성하는 문명이 승리합니다. 탐험 캐러벨로 중국에 도달하여 수도로 보물을 가져오면 보너스 VP를 획득합니다. 여섯 개의 문명을 각각 경험해 보고 원하는 대로 플레이하십시오. 매번 신규 게임을 시작할 때마다 아메리카 지도가 달라집니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]모든 해군 전투 유닛은 우호적인 지형 밖에서 턴을 종료할 때마다 체력이 줄어드는 괴혈병 피해를 입습니다. 이 문제를 해결하기 위해 국가 불가사의인 항해술 학교를 건설하십시오. 유럽의 열강은 해적 기술을 연구하기 전에는 서로에게 전쟁을 선포하지 않습니다. 보물 유닛은 도시가 완전히 파괴됐을 때 생성되거나 엘도라도와 포토시의 자연경관에 의해 생성됩니다. (만약 이 지도에 존재한다면) 금과 VP를 획득하려면 이 시민 유닛을 수도로 이동시키십시오.
+   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_IROQUOIS_TEXT">
+      <Text>
+시나리오 설명[NEWLINE]때는 1492년입니다. 대서양을 건너 중국과 인도제국으로 향하는 새로운 항로를 개척하고 싶어 안달이 난 용감무쌍한 탐험가들이 영국과 프랑스 그리고 스페인의 궁궐로 몰려들었습니다. 이들이 새로운 교역로를 개척하고 아시아의 해안에서 이제껏 알려지지 않은 부를 발견할 수 있을까요? 아니면 탐험 도중에 배가 좌초되어 미지의 땅을 헤매게 될까요? 원주민들이 그들에게 제공된 지식과 교역에 대한 가능성을 선뜻 받아들일까요? 아니면 그들의 모국에 쳐들어온 침략자들에 맞서 싸울까요? 용감하게 미지의 바다를 향해 나가는 자들을 부와 명예 그리고 기회가 기다리고 있을까요? 어떤 길을 선택하시겠습니까? 신세계의 패권을 잡기 위한 싸움에서 누가 승리할까요?[NEWLINE][NEWLINE]승리 조건[NEWLINE]제일 먼저 1,000VP를 달성하는 문명이 승리합니다. 탐험 캐러벨로 중국에 도달하여 수도로 보물을 가져오면 보너스 VP를 획득합니다. 여섯 개의 문명을 각각 경험해 보고 원하는 대로 플레이하십시오. 매번 신규 게임을 시작할 때마다 아메리카 지도가 달라집니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]모든 해군 전투 유닛은 우호적인 지형 밖에서 턴을 종료할 때마다 체력이 줄어드는 괴혈병 피해를 입습니다. 이 문제를 해결하기 위해 국가 불가사의인 항해술 학교를 건설하십시오. 유럽의 열강은 해적 기술을 연구하기 전에는 서로에게 전쟁을 선포하지 않습니다. 보물 유닛은 도시가 완전히 파괴됐을 때 생성되거나 엘도라도와 포토시의 자연경관에 의해 생성됩니다. (만약 이 지도에 존재한다면) 금과 VP를 획득하려면 이 시민 유닛을 수도로 이동시키십시오.
+   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_NEWWORLD_TEXT">
+      <Text>
+시나리오 설명[NEWLINE]때는 1492년, 대서양을 건너 중국과 인도제국으로 향하는 새로운 항로를 개척하고 싶어 안달이 난 용감무쌍한 탐험가들이 영국과 프랑스 그리고 스페인의 궁궐로 몰려들었습니다. 이들이 새로운 교역로를 개척하고 아시아의 해안에서 이제껏 알려지지 않은 부를 발견할 수 있을까요? 아니면 탐험 도중에 배가 좌초되어 미지의 땅을 헤매게 될까요? 원주민들이 그들에게 제공된 지식과 교역에 대한 가능성을 선뜻 받아들일까요? 아니면 그들의 모국에 쳐들어온 침략자들에 맞서 싸울까요? 용감하게 미지의 바다를 향해 나가는 자들을 부와 명예 그리고 기회가 기다리고 있을까요? 어떤 길을 선택하시겠습니까? 신세계의 패권을 잡기 위한 싸움에서 누가 승리할까요?[NEWLINE][NEWLINE]승리 조건[NEWLINE]제일 먼저 1,000VP를 달성하는 문명이 승리합니다. 탐험 캐러벨로 중국에 도달하고 수도로 보물 유닛을 가져온 대가로 보너스 VP를 획득했습니다. 여섯 개의 문명을 각각 경험해 보고 원하는 만큼 플레이하십시오. 매번 신규 게임을 시작할 때마다 아메리카 지도가 달라집니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]모든 해군 전투 유닛은 우호적인 지형 밖에서 차례를 마감할 때마다 체력이 깎이는 괴혈병 피해를 봅니다. 심각한 문제에 맞서기 위해 국가의 불가사의인 항해술 학교를 건설하십시오. 유럽의 열강은 해적 기술을 연구하기 전에는 서로에게 전쟁을 선포하지 않습니다. 보물 유닛은 도시가 완전히 파괴됐을 때 생성되거나 엘도라도와 포토시의 자연경관에 의해 생성됩니다. (만약 이 지도에 존재한다면) 금과 VP를 획득하려면 이 시민 유닛을 수도로 이동시키십시오.
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_SPAIN_TEXT">
+      <Text>
+시나리오 설명[NEWLINE]때는 1492년입니다. 대서양을 건너 중국과 인도제국으로 향하는 새로운 항로를 개척하고 싶어 안달이 난 용감무쌍한 탐험가들이 영국과 프랑스 그리고 스페인의 궁궐로 몰려들었습니다. 이들이 새로운 교역로를 개척하고 아시아의 해안에서 이제껏 알려지지 않은 부를 발견할 수 있을까요? 아니면 탐험 도중에 배가 좌초되어 미지의 땅을 헤매게 될까요? 원주민들이 그들에게 제공된 지식과 교역에 대한 가능성을 선뜻 받아들일까요? 아니면 그들의 모국에 쳐들어온 침략자들에 맞서 싸울까요? 용감하게 미지의 바다를 향해 나가는 자들을 부와 명예 그리고 기회가 기다리고 있을까요? 어떤 길을 선택하시겠습니까? 신세계의 패권을 잡기 위한 싸움에서 누가 승리할까요?[NEWLINE][NEWLINE]승리 조건[NEWLINE]제일 먼저 1,000VP를 달성하는 문명이 승리합니다. 탐험 캐러벨로 중국에 도달하여 수도로 보물을 가져오면 보너스 VP를 획득합니다. 여섯 개의 문명을 각각 경험해 보고 원하는 대로 플레이하십시오. 매번 신규 게임을 시작할 때마다 아메리카 지도가 달라집니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]모든 해군 전투 유닛은 우호적인 지형 밖에서 턴을 종료할 때마다 체력이 줄어드는 괴혈병 피해를 입습니다. 이 문제를 해결하기 위해 국가 불가사의인 항해술 학교를 건설하십시오. 유럽의 열강은 해적 기술을 연구하기 전에는 서로에게 전쟁을 선포하지 않습니다. 보물 유닛은 도시가 완전히 파괴됐을 때 생성되거나 엘도라도와 포토시의 자연경관에 의해 생성됩니다. (만약 이 지도에 존재한다면) 금과 VP를 획득하려면 이 시민 유닛을 수도로 이동시키십시오.
+   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_HOPI_TEXT">
+      <Text>호피 족은 북미 남서부에 거주했던 원주민의 일부입니다. 이들은 1540년 코로나도 원정대와 최초로 만났습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_HURON_TEXT">
+      <Text>휴런 족은 캐나다의 원주민 중 일부이며 유럽의 개척자들과 만났을 때 이들은 주로 온타리오 호수 북부에서 살았습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INUIT_TEXT">
+      <Text>이뉴이트 족은 그린란드와 북미의 극지방에 사는 원주민입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_LAKOTA_TEXT">
+      <Text>라코타 족은 북미 남동 평원에 거주했던 원주민입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MAPUCHE_TEXT">
+      <Text>마푸치 족은 칠레와 아르헨티나에 거주했던 원주민의 일부입니다. 스페인 식민지인은 이들을 아라우카니언이라고 불렀습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MAYA_TEXT">
+      <Text>마야인은 유카탄 반도에 거주했던 원주민입니다. 이들은 수학과 천문학에 조예가 깊었고 정교하게 조각된 석조 피라미드를 건설하기도 했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MUISCA_TEXT">
+      <Text>무이스카 족은 콜롬비아의 중앙 고원에 거주했던 원주민입니다. 이들은 스페인 탐험가들과 1537년에 최초로 만났으며 엘도라도 전설의 근원일 가능성이 큽니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MUSCOGEE_TEXT">
+      <Text>머스코지 족은 미국 남동부에 거주했던 원주민으로 이들은 미시시피 문화의 후손이었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_PRIVATEER_HELP">
+      <Text>유럽 열강을 공격하고 보물을 훔치는 데 사용하는 르네상스 시대 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_PRIVATEER_STRATEGY">
+      <Text>사략선은 해적 기술을 연구하면 생기는 유닛으로 해적 기술은 유럽 열강이 전쟁을 선포하려면 반드시 연구해야 합니다. 사략선을 사용해 적 선박을 공격하고 보물 유닛을 훔쳐오십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_PRIVATEER_TEXT">
+      <Text>사략선은 다음 목표물을 찾기 위해 바다 위를 부지런히 돌아다니는 합법적인 해적이었으며 국가로부터 전쟁 기간에는 적 선박을 공격해도 좋다는 나포 면허장을 받았습니다. 사략선의 주목적은 적의 교역로를 교란해 경제에 타격을 입히고 해군과 육군에 장비를 공급하지 못하도록 하는 것이었습니다. 보통 사략선은 선박과 선원을 가지고 있고 바다와 교역로를 잘 알고 있는 기업형 상인이 운영하는 선박이었습니다. 일반적으로 사략선은 홀로 작전을 수행했지만 어떤 때는 상대하기 벅찬 목표물을 공격하기 위해 여러 대의 사략선이 모여 큰 함대를 구성하기도 했습니다.[NEWLINE][NEWLINE]사략선의 목표는 적 선박을 나포해 배에 실린 물건을 빼앗는 것이지 가라앉히는 것이 아니었습니다. 노획물은 대부분 경매를 통해 매각했으며 이 과정에서 생긴 이익은 사략선과 투자자 그리고 왕이 나눠 가졌습니다.     </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_SEMINOLE_TEXT">
+      <Text>세미놀 족은 플로리다에 살았던 원주민의 일부로 머스코지와 밀접한 관계가 있었습니다. (양쪽 모두 크리크 족이었음)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_WABANAKI_TEXT">
+      <Text>와바나키 족은 '새벽의 사람들'로 불리기도 하며 캐나다 동부의 연해주에 거주했던 원주민입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_YANOMAMI_TEXT">
+      <Text>야노마모 족은 아마존 유역의 원주민 부족입니다. 이들은 석기 시대의 문화를 갖고 있으며 1929년까지 유럽인과 만난 적이 없었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_NAPOLEON_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_NAPOLEON_LIVED">
+      <Text>1494년 ~ 1547년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_NAPOLEON_SUBTITLE">
+      <Text>프랑스 왕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_NAPOLEON_TEXT_1">
+      <Text>프란시스는 1515년부터 1547년까지 프랑스를 통치한 왕이었으며 이 기간에 술레이만과 힘을 합쳐서 프랑코-오스만 동맹을 형성하기도 했다. 신성 로마 제국의 황제, 찰스 5세는 그가 축출해야 할 가장 큰 목표였으며 이 때문에 수 차례 로마를 상대로 전쟁을 일으켰다. 1525년의 파비의 전투에서 프란시스는 찰스에게 사로잡혔으며 그가 풀려나는 조건으로 자신의 두 아들 헨리와 프란시스를 넘겨줄 때까지 1년 넘게 포로 생활을 해야만 했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_BALBOA">
+      <Text>발보아</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_CORDOVA">
+      <Text>코르도바</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_CORONADO">
+      <Text>코로나도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_CORTES">
+      <Text>코르테스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_DEVEREUX">
+      <Text>데베뢰</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_LAUDONNIERRE">
+      <Text>로도니에르</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_MONTEJO">
+      <Text>몬테호</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_MOUNTJOY">
+      <Text>마운트조이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_NORREYS">
+      <Text>노리스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_ORELLANA">
+      <Text>오레야나</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_PIZARRO">
+      <Text>피사로</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_RIBAULT">
+      <Text>리볼트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_SMITH">
+      <Text>스미스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_VILLEGAGNON">
+      <Text>빌레가뇽</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CONQUISTADOR_WINTHROP">
+      <Text>윈드롭</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DESC">
+      <Text>미지의 세계인 동방으로 가는 뱃길을 찾으십시오. 또는 아메리카 원주민 문명을 플레이하며 바다를 건너온 예상치 못한 적에 맞서십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MAY_NOT_ATTACK_MOD">
+      <Text>해적 기술을 연구할 때까지는 이 플레이어를 공격할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MY_SCORE_FUTURE_TECH">
+      <Text>보물에서 {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MY_SCORE_WONDERS">
+      <Text>불가사의/중국: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_RESCH_AGREEMENT_NO_TECH">
+      <Text>이 시나리오에서는 연구 협정을 맺을 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_FIRST_CIRCUMNAVIGATION">
+      <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} 중국에 도착했습니다! 이 첫 번째 세계 일주로 플레이어는 [ICON_GOLD]금 {2_GoldAmount}개와 승리 점수 {3_VPAmount}점을 받았습니다. 앞으로 두 척이 캐러벨이 더 중국 항해에 대한 보너스를 받을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_FIRST_ENGLISH_EXPLORER">
+      <Text>캐벗</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_FIRST_FRENCH_EXPLORER">
+      <Text>베라자노</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_FIRST_SPANISH_EXPLORER">
+      <Text>콜롬버스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1">
+      <Text>환영합니다. 난 르네상스 예술의 후원자 프란시스라고 합니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_2">
+      <Text>환영합니다. 이방인! 난 프랑스의 황제 프란시스입니다! 난 내 친구들에겐 충직하지만, 적에겐 죽음과도 같은 존재이죠. 당신은 어느 쪽인지?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_3">
+      <Text>아, 결국 만났군요. 난 프랑스의 황제 프란시스입니다. 자 우리 위대한 두 나라가 세상을 어떻게 나눠야 할지 상의를 해보도록 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_4">
+      <Text>반갑습니다. 난 프랑스 발루아 왕가의 황제 프란시스라고 합니다. 최근에 지어진 나의 성을 보겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_MISC_YOU_UNIT_WAS_DAMAGED_ATTRITION">
+      <Text>괴혈병</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_MISC_YOU_UNIT_WAS_DESTROYED_ATTRITION">
+      <Text>아군의 {@1_UnitName}{@1: plural 1?이; 2?가;} 괴혈병으로 인해 파괴되었습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_OTHER_CIRCUMNAVIGATION">
+      <Text>{@1_PlyrName}의 탐험가가 중국에 도착했습니다. 앞으로 {2_Num}척의 캐러벨이 더 중국 항해에 대한 금과 승리 점수를 받을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_CAVENDISH">
+      <Text>카벤디시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_DE_SORES">
+      <Text>데 소레스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_DRAKE">
+      <Text>드레이크</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_FLEURY">
+      <Text>플뢰리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_FROBISHER">
+      <Text>프로비셔</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_GILBERT">
+      <Text>길버트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_HAWKINS">
+      <Text>호킨스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_LE_CLERC">
+      <Text>르 클레르</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_LE_TESTU">
+      <Text>르 테스투</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_MENENDEZ">
+      <Text>메넨데즈</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_RALEIGH">
+      <Text>롤리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PRIVATEER_SANTA_CRUZ">
+      <Text>산타 크루즈</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_SECOND_CIRCUMNAVIGATION">
+      <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} 중국에 도착했습니다! 이 두 번째 세계 일주로 플레이어는 [ICON_GOLD]금 {2_GoldAmount}개와 승리 점수 {3_VPAmount}점을 받았습니다. 앞으로 범선 한 척이 더 중국 항해에 대한 보너스를 받을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_EDUCATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]법원[ENDCOLOR]을 건설할 수 있게 됩니다. 법원은 점령한 도시의 [ICON_HAPPINESS_4] 불만을 [ICON_OCCUPIED] 줄여줍니다.  [ICON_RESEARCH]과학에 여러 가지 혜택을 줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_IMPERIALISM_DESC">
+      <Text>가장 단순한 형태의 제국주의는, 국가와 국가 간의 불평등 관계를 의미합니다. 이때 보통 일종의 제국의 형태로, 한 국가가 다른 국가에 대해 일정한 통제력을 지닙니다. 제국주의 왕조는 중국으로부터 로마, 영국에 이르기까지 세계 모든 역사에서 찾아볼 수 있으며, 수천 년간 존재해 온 개념인 제국주의는 정부 자체만큼이나 오래된 개념이기도 합니다. 그러나 ‘제국주의’라는 용어는 16세기에 만들어진 말로, 스페인, 영국, 벨기에, 네덜란드 등의 국가가 미국과 신속하게 제국 관계를 형성하면서 이들 국가의 대외 정책과 행보를 설명하는 데 사용되었습니다.[NEWLINE][NEWLINE]제국주의는 전통적으로 거대하고 상징적, 군국주의적인 제국과 결부되지만, 더욱 미묘한 방식으로 나타날 수도 있습니다. 제국주의가 성립하기 위해서 약국의 정부를 꼭 공식적으로 통제해야 하는 것은 아니며, 강국이 간접적 경제 관여, 정치적, 또는 종교적 수단을 통해 약국을 마음대로 통제하는 경우도 있습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_IMPERIALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]콩키스타도르[ENDCOLOR]를 생성할 수 있게 됩니다. 콩키스타도르는 해외 정찰 및 정착을 전문으로 하는 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_IMPERIALISM_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"제국주의는 종이 호랑이다."[NEWLINE][TAB][TAB] - 마오 쩌둥[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_MATHEMATICS_HELP">
+      <Text>강력한 공성 무기인 [COLOR_POSITIVE_TEXT]캐터펄트[ENDCOLOR]을 생산할 수 있게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_NAVAL_TRADITION_DESC">
+      <Text>해상 전통은, 해당 문명의 해상 탐험에 대한 열정, 그리고 상설 해군과 해군 각 부대의 개별적인 전통과 관습을 나타냅니다. 영국, 스페인 등 섬 문명이나 바다에 인접한 문명에서는 바다가 경제적, 정치적 발전에 큰 영향을 미치므로, 이들 문명은 오랜 해상 전통을 자랑합니다. 바다에 가까이 있지 않은 나라들이 평화를 지키고 전쟁을 방지하기 위해 직업 군인을 고용했다면, 바다에 익숙한 문명은 지상군보다는 대소규모의 함대를 유지하며 적의 배와 해적을 향해 파도를 갈랐습니다.[NEWLINE][NEWLINE]초기 해군의 배에서 탄생한 전통 중에 현재의 선원도 따르고 있는 것이 많으며, 그중에는 배의 경계를 넘어 육지인에게 확산된 것도 있습니다. 나팔바지를 입거나 재킷에 장식 소매 버튼을 다는 등의 관행은 모두 해상 전통에서 비롯되었습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_NAVAL_TRADITION_HELP">
+      <Text>신세계의 출현</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_NAVAL_TRADITION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"내 앞에서 해상 전통 얘기는 꺼내지 마라. 해상 전통이란 것은 결국 럼주, 남색, 채찍일 뿐이다."[NEWLINE][TAB][TAB] - 윈스턴 처칠[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_NAVIGATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]항해 학교[ENDCOLOR]를 건설할 수 있게 됩니다. 항해 학교는 해상 유닛의 괴혈병을 없애주는 건물입니다.  해안 도시에서는 [COLOR_POSITIVE_TEXT]항구[ENDCOLOR]를 건설할 수 있게 됩니다. 항구는 자원으로부터  [ICON_PRODUCTION]생산을 얻을 수 있게 해줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PIRACY_DESC">
+      <Text>침략, 약탈, 바다에서의 입에 담지도 못할 폭력... 해적의 인생은 매력적입니다. 대중적인 영화나 미디어에서, 해적들은 재치 있고 임담 넘치는 잭 스패로우 선장이나 어린이들의 우상인 해적왕들처럼 매력적인 존재로 그려집니다. 이들 해상의 범죄자들은 다른 배의 화물을 폭력으로 빼앗고, 해안 마을을 침략하는 등 문명화된 사회의 크나큰 골칫거리였습니다. 해적질은 문명이 물자와 사람을 바다 위로 나르기 시작했을 때부터 존재했던 것으로 추정됩니다. 해적이 기록에 처음으로 등장한 것은 기원전 13세기입니다.[NEWLINE][NEWLINE]가장 유명한 해적은 해안의 마을과 물자를 위협했던 유럽의 바이킹과, 금은보화를 잔뜩 실은 스페인 보물선을 나포하기를 좋아했던 카리브 해의 해적입니다. 해적의 ‘고전 시대’라고도 할 수 있을 이 시기는 영화와 책에서 가장 흔히 그려지며, 연도상으로는 1560년에서 1720년 사이입니다. 곡선 형태의 검을 들고 멋진 모자를 쓴 화려한 해적은 픽션 작품의 규칙과도 같이 돼 버렸지만, 해적질은 아직도 여러 바다에서 이루어지고 있으며 아라비아 반도 해안이 특히 심각합니다. 그러나 해적질은 주로 국가 이익을 위해 정부가 승인한 일종의 해상 침략 활동인 사략 행위와 혼동되거나 혼용되어서는 안 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PIRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]사략선[ENDCOLOR]을 건조할 수 있게 되며, 유럽 열강이 서로 선전포고를 할 수 있게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PIRACY_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"중요한 규칙은 이거 하나야. 할 수 있는 일이냐 아니냐... 나는 네가 익사하게 내버려둘 순 있지만, 이 배를 나 혼자서 토르투가로 가져갈 순 없어, 무슨 말인지 알겠어? 자, 넌 해적 밑에서 항해할 수 있겠어, 못 하겠어?"[NEWLINE][TAB][TAB] - 잭 스패로 선장[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_DESC">
+      <Text>문명 초기의 조악한 민병대에 비하면 직업 군인은 눈에 띌 절도로 발전한 병력입니다. 이 정규 군인들은 무장도 훈련도 더 뛰어나며, 전반적으로 가죽조끼를 입고 쇠스랑을 든 농부보다는 훨씬 강력합니다. 로마 제국은 일찍이 직업 군인으로 구성된 상비군을 만들었는데, 그들은 파죽지세를 자랑한 로마군의 일등공신이었습니다. 유럽에서는 1445년에 프랑스의 샤를르 7세가, 그 후에는 1685년에 영국의 제임스 2세가 제일 먼저 직업 군인을 고용했습니다.[NEWLINE][NEWLINE]직업 군인은 현대 문명의 군•방위 체계의 핵심으로, 세계의 여러 선진국이 직업 군인을 고용하고 있습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_HELP">
+      <Text>강력한 근접 유닛인 [COLOR_POSITIVE_TEXT]테르시오[ENDCOLOR]를 생산할 수 있게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"비록 직업은 군인이지만, 나는 결코 전쟁을 좋아한 적이 없고, 평화의 수단으로서가 아니면 옹호한 적도 없다."[NEWLINE][TAB][TAB] - 율리시스 S. 그랜트[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_RELIGIOUS_ORDERS_DESC">
+      <Text>세계의 여러 종교에는, 보통 자신의 특정한 종교적 신념에 더욱 합일된 삶을 살기 위한 목적으로 사회 전반으로부터 고립되어 사는 독실한 사람들로 이루어진 특수한 공동체 또는 단체가 존재합니다. 이들 수도회는 흔히 수도원이라는 물리적인 형태를 띠는데, 이는 종교인들이 일하며 생활할 수 있는 건물 또는 단지를 말합니다.[NEWLINE][NEWLINE]수도회가 생겨난 나라 안에서 기도드리는 데 만족한 수도회가 있는가 하면, 뻗어 나가며 새로운 사람들에게 믿음을 전파하는 것을 유일한 목적으로 설립된 수도회도 있었습니다. 아메리카 대륙의 예수회 전도사들이 한 예였습니다. 예수회 수사들은 대서양을 건너 아메리카 땅에 수도원과 포교 시설을 건립하고, 그곳에서 지역 주민에게 자신들의 교리와 믿음, 그리고 서양식 교육의 기초를 가르쳤습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_RELIGIOUS_ORDERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]수도원[ENDCOLOR]을 지을 수 있게 됩니다. 수도원은 도시의 문화적 경계를 빠른 속도로 확장할 수 있게 해주는 건물입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_RELIGIOUS_ORDERS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"내가 아는 예수회 수사님 중 평생 동안 큰 가르침을 주시고 돌아가신 분들이야말로 가장 덜 추억되는 분들이다."[NEWLINE][TAB][TAB] - 다니엘 베리건[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_DESC">
+      <Text>무장한 가신으로 이루어진 정예 집단인 왕실 근위대는 왕족이나 주요 성직자를 호위하기 위해 고용된 군부대 또는 의례부대입니다. 역사적으로, 이들 정예 부대는 이중적인 정치적 역할을 수행하기도 했습니다. 그 특유의 입장으로 말미암아 군주의 의견을 쥐고 휘두르거나, 쿠데타 또는 반란의 핵심 세력이 되기 쉬웠기 때문입니다.[NEWLINE][NEWLINE]왕실 근위대 소속 부대 중에는 소속 국가 밖에서도 유명세를 타게 된 부대가 있으니, 스페인의 트로파스 데 라 카사 레알과 프랑스의 총사대가 그 예입니다. 프랑스 총사대는 엄밀히 말하면 프랑스 왕실 근위대 산하의 일개 부대에 불과했으며, 실제 호위 임무를 대부분 수행했던 친위대 밑의 부대였습니다. 그러나 알렉상드르 뒤마의 작품 삼총사 덕분에, 총사대는 모든 문명의 왕실 근위대 중 가장 인기 있고 유명한 부대가 되었습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_HELP">
+      <Text>머스킷병이 강화된 것이라 볼 수 있는 [COLOR_POSITIVE_TEXT]총사대[ENDCOLOR]를 생성할 수 있게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"이 세상은 위험으로 가득한 불확실한 영역이다. 권력욕으로 말미암아 명예는 위태로워지고, 약자가 강자에게 억압당하며 자유는 희생된다. 그러나 이 강력한 힘에 대항하여 진실과 명예, 자유에 일생을 바치는 자들이 있으니, 그 이름 총사대라. 일어나라."[NEWLINE][TAB][TAB] - 루이 왕[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_TRAPPING_HELP">
+      <Text>일꾼이 [ICON_RES_DEER] 사슴, [ICON_RES_IVORY] 상아, [ICON_RES_FUR] 모피 자원 위에 [COLOR_POSITIVE_TEXT]야영지[ENDCOLOR]를 건설할 수 있습니다.[ENDCOLOR]이러한 자원은 타일의 [ICON_GOLD] 금 산출량을 증가시킵니.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_TREASURE_FLEET_DESC">
+      <Text>스페인인들이 아메리카 대륙에 도착해 새로 발견한 보물을 유럽으로 운반하기 시작했을 때, 해적 습격의 압박에 맞서기 위해 새롭고 더욱 효율적인 항해 방법을 찾아야 했습니다. 적재 및 항해에 있어 엄격한 규제를 받은 특수 호송 선단인 스페인 보물선 단이 그 해답이었습니다. 남아메리카 북쪽 해안을 따라 아메리카를 떠나는 배들은 단체로 특정 항로를 따라 항해하도록 지시를 받았으며, 따라서 더 적은 군대로도 호위하기가 쉬웠습니다.  이 배들은 출입이 제한되고 보호되는 항구 도시(세비야 등)로만 항해했기에, 해적 습격 가능성이 더 줄어들었습니다.[NEWLINE][NEWLINE]보물선대는 16세기에서 18세기까지 스페인에서 이용되면서 큰 성공을 거두었으며, 아직도 역사상 가장 수익성이 높고 효과적인 해상 작전으로 간주하고 있습니다. 그러나 1700년대 스페인이 남아메리카 북쪽 해안의 중요 해안 도시를 잃으면서 보물선 단의 존폐가 위협받게 되었습니다. 이 상황을 타개하려는 노력의 일환으로, 카를로스 3세는 1765년에 엄격했던 체계를 완화하여, 1780년대에는 더 많은 식민지가 보물선 단을 이용할 수 있게 하였습니다. 그러나 결국은 1790년에 항해한 보물선대가 마지막이 되었고, 두 대륙 간의 해운은 필요할 때마다 소규모 선대가 담당하게 되었습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_TREASURE_FLEET_HELP">
+      <Text>모든 지상 유닛이 [COLOR_POSITIVE_TEXT]방어 승선[ENDCOLOR] 승급을 할 수 있게 되어, 해상 공격을 방어할 수 있게 됩니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_TREASURE_FLEET_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"금은 보물이다. 금을 가진 자는 자기 세상에서 하고자 하는 일은 무엇이든 할 수 있으며, 다른 영혼이 천국에 가도록 도와줄 수 있다."[NEWLINE][TAB][TAB] - 크리스토퍼 콜럼버스[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_WARSHIPS_DESC">
+      <Text>바다를 빨리 가로지르거나 최소한의 공간으로 최대한의 화물을 나를 수 있도록 설계된 배가 많지만, 전함은 단 한 가지 목적, 즉 다른 배의 파괴를 위해 설계되었습니다. 당연한 이야기지만 전함은 일종의 무기(전통적으로 대포 또는 충각)를 탑재하고 있을 뿐 아니라, 훨씬 심한 손상을 견딜 수 있으며 상선이나 여객선보다 훨씬 기동성이 뛰어납니다.[NEWLINE][NEWLINE]해운 기술의 발달과 함께, 전함도 발달해 왔습니다. 갤리선과 삼단노선은 전함의 초기 형태로, 모든 배를 충각으로 들이받을 수 있었지만 보통 실제 전투는 승선한 군대로 이루어졌습니다. 그러나 대포를 빠르게 재장전할 수 있게 되자, 배 양면을 따라 대포를 몇 줄로 배치한 대형 범선이 전함으로 사용되었습니다. 이러한 목재 전함은 점차 철제, 강철제 전함으로 대체되었고, 돛은 증기와 원자력으로 대체되었습니다. 현대 전함은 초기의 갤리선과 전혀 닮은 점이 없지만, 기본적인 설계 원리는 같습니다. 남한테 당하기 전에 남을 파괴할 수 있어야 한다는 거죠.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_WARSHIPS_HELP">
+      <Text>르네상스 시대 최강의 해상 유닛 [COLOR_POSITIVE_TEXT]프리깃[ENDCOLOR]을 건조할 수 있게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_WARSHIPS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"어뢰 따위 신경 끄고, 전속력 전진!"[NEWLINE][TAB][TAB] - 데이빗 글래스고 패러것 제독[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_THIRD_CIRCUMNAVIGATION">
+      <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} 중국에 도착했습니다! 이 세 번째 세계 일주로 플레이어는 [ICON_GOLD]금 {2_GoldAmount}개와 승리 점수 {3_VPAmount}점을 받았습니다. 이제 더 이상 중국 항해에 대한 보너스는 지급되지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TITLE">
+      <Text>신대륙 정복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_CITY_STATE_FRIENDSHIP_SHORT">
+      <Text>원주민 동맹</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_CAPTURED_CITY">
+      <Text>{@1_CityName}{@1: plural 1?을; 2?를;} 점령하여 보물 3개를 획득했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_FOUND">
+      <Text>보물 발견</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_NATURAL_WONDER">
+      <Text>{@1_NWName} 근처에서 보물을 발견했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_RAZED_CITY">
+      <Text>{@1_CityName}{@1: plural 1?을; 2?를;} 파괴하고 보물을 획득했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_RETURNED">
+      <Text>보물이 {@1_CityName}{@1: plural 1?으로; 2?로;} 반환되었습니다. 플레이어는 [ICON_GOLD] 금 {2_GoldAmount}개와 승리 점수 {3_VPAmount}점을 받습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_RETURNED_SHORT">
+      <Text>보물 반환</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TURNSREMAINING">
+      <Text>남은 턴: {1_TurnsRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_PRIVATEER">
+      <Text>사략선</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_TREASURE_STRATEGY">
+      <Text>신대륙의 금이나 은을 실은 수송 열차나 보물선 등의 이 시나리오 전용 시민 유닛입니다. 수도로 귀환하면 금과 승점을 얻습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNITS_TREASURE_TEXT">
+      <Text>보물 유닛은 금광에서 목적지에 이르는 신대륙의 스페인 보물 함대 시스템을 모두 포함합니다. 아메리카 곳곳에서 채굴된 금과 은은 라마나 나귀를 이용해 정해진 경로를 따라 카리브해 연안의 항구 마을로 옮겨졌습니다. 이 항구에서 보물은 갤리온선이나 상업 선박에 실려 군함의 대규모 호위를 받으며 대서양을 건넜습니다. 이 배들은 대서양을 지나 스페인으로 이동할 때 항상 똑같은 경로를 사용하였기에 해적의 공격에 쉽게 노출되었습니다. 이러한 보물 유닛은 스페인을 당대 최고의 부유한 문명으로 만들어주었으며, 세계에서 가장 훌륭한 해상 작전을 창출해내기도 했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_VP_FUTURE_TECH">
+      <Text>보물</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_VP_WONDERS">
+      <Text>불가사의/중국</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_SCURVY">
+      <Text>아군 영토 밖에서는 체력 감소</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCURVY">
+      <Text>괴혈병</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCURVY_HELP">
+      <Text>우호 지역 밖에서 턴을 끝낼 경우 65% 확률로 1의 피해를 받음</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

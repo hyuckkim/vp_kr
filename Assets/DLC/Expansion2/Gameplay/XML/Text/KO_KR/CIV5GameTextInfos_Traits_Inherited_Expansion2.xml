@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_TRAIT_AMPHIB_WARLORD">
+            <Text>야만인 주둔지나 도시를 약탈할 때 얻는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR]로 증가합니다. 지상 유닛은 [COLOR_POSITIVE_TEXT]방어적 승선[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]수륙 양용[ENDCOLOR] 승급을 얻어 승선 시 더욱 강력해 집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_ANNEX_CITY_STATE">
+            <Text>도시 국가와의 동맹이 5턴동안 지속된 후, [ICON_GOLD]골드를 지불하여 도시 국가를 [COLOR_POSITIVE_TEXT]합병[ENDCOLOR]하거나 [COLOR_POSITIVE_TEXT]괴뢰정부[ENDCOLOR]를 수립할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT">
+            <Text>정략 결혼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_BONUS_AGAINST_TECH">
+            <Text>에티오피아보다 도시가 많은 문명의 유닛과 싸울 때 전투 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_BONUS_AGAINST_TECH_SHORT">
+            <Text>아두와 전투의 정신</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE">
+            <Text>도시 국가에 위인을 선물하면 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]90[ENDCOLOR] 증가합니다. 친선 관계가 되면 스웨덴과 동맹국의 위인 출현률이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE_SHORT">
+            <Text>노벨상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_EXTRA_BELIEF">
+            <Text>종교를 창시할 때 교리를 [COLOR_POSITIVE_TEXT]한 개[ENDCOLOR] 더 고를 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_EXTRA_BELIEF_SHORT">
+            <Text>콘스탄티노플 총대주교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE">
+            <Text>도시에 바로 인접한 타일에 시설이 없는 숲이 있다면 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시에 인접한 시설이 없는 숲이 3개 이상일 경우 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE_SHORT">
+            <Text>드루이드교 전승</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LONG_COUNT">
+            <Text>신학을 연구하면 마야 장기력의 한 주기(394년)가 끝날 때마다 보너스로 [COLOR_POSITIVE_TEXT]위인[ENDCOLOR]이 출현합니다. 각 보너스 위인은 한 번만 선택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LONG_COUNT_SHORT">
+            <Text>마야 장기력</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
+            <Text>동일한 사치 자원 중 마지막 것을 다른 문명과 거래하여 사용할 수 없게 되어도 해당 사치 자원으로 얻었던 [ICON_HAPPINESS_1]행복의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]를 유지합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LUXURY_RETENTION_SHORT">
+            <Text>네덜란드 동인도 회사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE">
+            <Text>모든 해안 도시에 [COLOR_POSITIVE_TEXT]항만[ENDCOLOR]이 무료로 제공됩니다. 첫 위대한 장군이 출현하면 유닛이 [COLOR_POSITIVE_TEXT]산맥[ENDCOLOR]을 넘을 수 있지만, 산맥에서 턴을 끝내는 유닛은 [COLOR_NEGATIVE_TEXT]50[ENDCOLOR]만큼의 피해를 받습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE_SHORT">
+            <Text>페니키아의 계승자</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES">
+            <Text>도시를 불태우는 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 증가합니다. 다른 도시의 이름을 빌려 씁니다. [COLOR_POSITIVE_TEXT]목축업[ENDCOLOR] 기술을 연구한 상태로 게임을 시작하고, 목장 하나당 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES_SHORT">
+            <Text>신의 재앙</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SEVEN_CITIES">
+            <Text>자연 불가사의를 발견하면 [ICON_GOLD][COLOR_POSITIVE_TEXT]골드[ENDCOLOR]를 획득합니다. 해당 자연 불가사의를 처음 발견하면 더 많은 보너스를 받습니다. 자연 불가사의 타일이 생산하는 [ICON_CULTURE]문화, [ICON_HAPPINESS_1]행복 및 기타 생산 항목이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SEVEN_CITIES_SHORT">
+            <Text>일곱 개의 황금 도시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_CANNOT_BE_ADJACENT">
+      <Text>{@1_ImprovementName} 시설이 이미 옆에 있어 건설할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NO_ADJACENT_LUXURY">
+      <Text>{@1_ImprovementName} 시설은 사치 자원 옆에 건설해야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_CITY_STATE_TERRITORY">
+      <Text>{@1_ImprovementName}{@1: plural 1?은; 2?는;} 도시 국가의 영토에만 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>[ICON_CAPITAL]수도와 [ICON_CONNECTED]연결된 도시입니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]전투기에 의한 요격 혹은[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]지대공 유닛에 의한 요격은 피해를 늘립니다[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CITY_SAPPED">
+      <Text>공성탑 지원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>문명 [ICON_HAPPINESS_3]불행</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_VERY_UNHAPPY_PENALTY">
+      <Text>문명 [ICON_HAPPINESS_4]매우 불행</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]인식한 적 지대공 유닛 : {1_Number}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_EMPTY_TOOLTIP">
+      <Text>빈 걸작 예술품 또는 유물 슬롯</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_EMPTY_TOOLTIP">
+      <Text>빈 걸작 문학 슬롯</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_EMPTY_TOOLTIP">
+      <Text>빈 걸작 음악 슬롯</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>도시 연결</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>도시 연결</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_ANARCHY">
+      <Text>[COLOR_NEGATIVE_TEXT]이념 변경 때문에 앞으로 {1_Turns}턴간 제국이 무정부주의 상태입니다. 무정부주의 상태에서는 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_PEACE 신앙을 얻을 수 없으며, 도시에서 아무것도 [ICON_PRODUCTION]생산하지 못합니다[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CARNIVAL_EFFECT">
+      <Text>고유 카니발 보너스 덕분에 모든 문명에게 관광으로 얻을 수 있는 이득이 100% 증가하며, 위대한 작가, 예술가, 음악가 출현율이 50% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>문명의 도시가 1개 많아질수록 사회 정책 비용이 {1_Num}% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  최근 세계 대회 프로젝트에서 획득 (남은 턴 : {2_TurnsLeft})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>[ICON_HAPPINESS_4]불행이 20에 도달하여 반란이 일어났습니다!몇몇 도시가 당신의 제국을 배신하고 문화 영향력이 제일 강한 문명으로 돌아설 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>국가가 [ICON_HAPPINESS_3]불행 상태면 도시 성장 속도가 1/4로 감소합니다.[NEWLINE]불행 1마다 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산이 2%씩 감소합니다. 전투 유닛에도 같은 불이익이 적용됩니다!
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>[ICON_HAPPINESS_4]불행이 10에 도달하여 제국이 불안한 상태입니다! 이 상황을 해결하지 않으면 몇 턴에 한 번씩 영토에 반란군(야만인) 유닛이 나타날 것입니다!
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시와 [ICON_CAPITAL]수도의 [ICON_CONNECTED]도시 연결에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_ITR">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시와 다른 문명 도시의 [ICON_TURNS_REMAINING]교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시와 [ICON_CAPITAL]수도의 [ICON_CONNECTED]도시 연결에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TRAITS">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  특성에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Happiness}[ENDCOLOR]  세계 대회에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  다른 문명의 도시와의 교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_CITY_COST">
+      <Text>당신이 소유한 도시 또는 [ICON_PUPPET]괴뢰 도시 하나마다 연구 비용이 {1_Num}% 상승합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  새로운 이념을 원하는 여론에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIQUE_GOLDEN_AGE_ANNOUNCE">
+      <Text>카니발</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY">
+      <Text>적재량</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY_TT">
+      <Text>{1_UnitName}{1: plural 1?이; 2?가;} 수송할 수 있는 유닛의 수입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_TOURISM_STRENGTH_TT">
+      <Text>순회 공연을 할 때의 유닛 능력을 나타냅니다. 이 능력은 해당 음악가가 태어난 문명의 [ICON_TOURISM]관광을 기반으로 합니다.</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

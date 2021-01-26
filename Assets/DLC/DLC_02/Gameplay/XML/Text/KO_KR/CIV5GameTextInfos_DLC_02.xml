@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_CIV5_DAWN_INCA_TEXT">
+            <Text>오, 세상을 재창조하신 파차쿠티 왕이시여, 그대의 충직한 신민이 경배하나이다! 그대는 잉카인의 통치자이십니다. 잉카인은 작은 나라 쿠스코에서 출발하여 수많은 적을 향해 진군하여 적군을 쳐부수고, 에콰도르에서 칠레에 이르는 강대한 제국을 건설함으로써 위대함을 증명했습니다. 이는 실로 콜럼버스 이전 아메리카 대륙에서 유례가 없는 대제국이었습니다. 잉카인은 전쟁뿐 아니라 건축과 예술에도 재능이 있어, 그 작품에 아직도 전 세계가 경탄합니다.[NEWLINE][NEWLINE]그대는 진정한 "대지의 지배자"입니다, 파차쿠티 왕이시여! 다시 한번 대지의 힘과 더불어 싸우시지 않겠습니까? 잉카군이 그대의 신호가 떨어지기만 기다리고 있습니다. 병사들이 그대의 명령만을 기다리고 있습니다. 옛 제국의 영광을 되찾아 주시겠습니까? 세월의 시련을 이겨낼 문명을 건설할 수 있겠습니까?
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_DAWN_INCA_TITLE">
+            <Text>잉카</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_DAWN_SPAIN_TEXT">
+            <Text>신의 종이자 카스티야와 레온의 성스러운 여왕이신 축복 받은 이사벨라 여왕이시여, 그대를 환영합니다! 여왕 폐하는 한쪽으로는 지중해 연안과 다른 한쪽으로는 거대한 대서양을 끼고 있으며 유럽과 아프리카를 연결하는 아름답고 오랜 역사를 자랑하는 스페인의 지배자이십니다. 스페인은 이슬람교와 기독교에 뿌리를 두고 있으며 다양한 문화를 가진 백성이 공존하는 곳입니다. 항해 민족인 스페인의 탐험가들은 신세계의 대부분을 발견하고 정복하였습니다. 신세계의 금은보화는 수백 년간 스페인에 엄청난 부와 권력을 안겨주었으며 스페인 궁정은 전 세계의 시기를 받았습니다.[NEWLINE][NEWLINE]공정하고 고결한 이사벨라시여, 스페인 제국을 재건하고 백성의 위대함을 다시 한 번 세상에 떨치시지 않겠습니까? 성스러운 자의 이름으로 천상의 비호 아래에서 적들을 격파해 주시지 않겠습니까? 그대를 흠모하는 백성이 그대의 명령을 기다리고 있습니다. 시간의 한계를 뛰어넘는 문명을 건설해 주시겠습니까?
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_DAWN_SPAIN_TITLE">
+            <Text>스페인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD">
+            <Text>언덕이 포함된 모든 지형에서 유닛 이동 시의 페널티를 무시합니다. 언덕에 건설된 도로 또는 철도의 유지비가 사라지며, 그 외 모든 지형에 건설된 도로 또는 철도의 유지비가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD_SHORT">
+            <Text>위대한 안데스의 길</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SEVEN_CITIES">
+            <Text>자연 불가사의를 발견 시 [ICON_GOLD]골드를 얻을 수 있습니다. (처음 발견한다면, 더 많이 획득합니다.) 자연 불가사의에서 얻는 [ICON_CULTURE]문화, [ICON_HAPPINESS_1]행복, 타일 산출량이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]가 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SEVEN_CITIES_SHORT">
+            <Text>일곱 개의 황금 도시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>

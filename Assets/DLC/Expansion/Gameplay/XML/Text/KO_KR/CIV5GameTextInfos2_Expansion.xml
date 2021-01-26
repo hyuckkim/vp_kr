@@ -1,0 +1,1840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_ADVISOR_CHOOSE_TECH_TO_STEAL_BODY">
+      <Text>우리 문명의 스파이가 [COLOR_ADVISOR_HIGHLIGHT_TEXT]기술을 훔칠[ENDCOLOR]만큼 정보를 수집했다고 보고했습니다. 어떤 기술을 훔칠지 결정하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CHOOSE_TECH_TO_STEAL_DISPLAY">
+      <Text>기술을 훔칠 수 있습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_ACTIVATE_BUTTON">
+      <Text>{TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_BODY">
+      <Text>목표 도시에서 훔칠만한 기술이 없다는 보고입니다. 스파이를 다른 도시에 잠입시키는 편이 좋겠습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_DISPLAY">
+      <Text>상대에게는 쓸만한 기술이 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_QUESTION">
+      <Text>더 훔칠 기술이 없으면 어떻게하지요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_SUMMARY">
+      <Text>스파이가 목표 문명에 첩보망을 구축하면 자동으로 "정보 수집"을 시작합니다. 해당 문명에 훔칠만한 기술이 없다면 이를 알릴 것입니다. 그럴 경우 스파이를 다른 도시로 잠입시키거나 해당 도시에서 꾸미는 음모를 밝히도록 할 수 있습니다. 음모를 밝히면 이를 다른 문명에 알릴 수 있습니다. 예를 들어 아라비아가 이집트를 침략할 음모를 꾸미고 있다는 사실을 알아내 이를 이집트에 알리면 이집트와의 관계가 좋아집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_TOPIC">
+      <Text>기술력이 떨어지는 문명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_OVERVIEW_BODY">
+      <Text>첩보 화면에서 스파이의 현재 상태 등 첩보망 전반을 살펴볼 수 있을 뿐만 아니라 [COLOR_ADVISOR_HIGHLIGHT_TEXT]스파이에게 명령을 내릴 수도 있습니다[ENDCOLOR]. 스파이에게 다른 도시에 침투하거나 첩보망을 구축하거나 기술을 훔치도록 명령하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_OVERVIEW_DISPLAY">
+      <Text>첩보 개요입니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_ACTIVATE_BUTTON">
+      <Text>{TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_BODY">
+      <Text>스파이가 기술을 훔쳐갔습니다! 경찰대나 경찰서 같은 방어 시설을 건설하거나 우리 스파이로 적 스파이를 색출하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_DISPLAY">
+      <Text>배반!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_QUESTION">
+      <Text>스파이로 다른 문명의 기술을 어떻게 훔치나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_SUMMARY">
+      <Text>스파이를 사용하면 선진 문명의 기술을 훔칠 수 있습니다. 기술을 훔치려면 먼저 스파이를 목표 문명의 도시에 잠입시킵니다. 도시에 잠입한 스파이는 일정한 시간을 들여 "첩보망 구축" 활동을 합니다. 이는 "활동" 열에서 확인할 수 있습니다. 첩보망이 구축되면 목표 도시에 훔칠만한 기술이 있는지 알 수 있습니다. 기술을 훔치는데 걸리는 시간은 해당 도시의 과학과 스파이의 계급에 따라 다릅니다. 해당 도시가 생산하는 과학량이 많을 수록, 스파이의 계급이 높을 수록 기술을 훔치는 데 필요한 시간이 줄어듭니다.[NEWLINE][NEWLINE]해당 도시에 경찰서나 인터넷 검열 시스템이 있다면 스파이가 아예 활동하지 못 할 수도 있습니다.  해당 도시에 대항 스파이가 있다면 플레이어의 스파이가 잡히거나 죽을 수 있습니다. 잡힌 스파이는 여러 턴 동안 활동을 할 수 없게 됩니다. 상대 문명이 플레이어 스파이의 신분을 파악하면 해당 문명과의 관계가 악화됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_TOPIC">
+      <Text>기술 훔치기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_FAITH_POINT_BODY">
+      <Text>처음으로 [ICON_PEACE]신앙 점수를 얻었습니다. [ICON_PEACE]신앙은 종교관을 세우거나 위대한 선지자를 생성할 때 사용하며 종교를 창시했다면 선교사나 이단심문관, 종교 건물을 구매할 수도 있습니다. 상단 메뉴 바에 있는 [ICON_PEACE]신앙 아이콘 위에 마우스를 대면 다음 [ICON_PEACE]신앙 점수를 얻기 위해 필요한 양을 볼 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_FAITH_POINT_DISPLAY">
+      <Text>신앙을 얻었습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_GREAT_PROPHET_BODY">
+      <Text>독실한 신자들에 힘입어 위대한 선지자가 탄생했습니다![NEWLINE][NEWLINE]첫 번째로 탄생한 위대한 선지자로 [COLOR_ADVISOR_HIGHLIGHT_TEXT]종교를 창시[ENDCOLOR]하는 것이 좋습니다. 종교를 창시하면 교리를 마음대로 고를 수 있습니다. 한 게임에 존재할 수 있는 종교 수에 제한이 있으므로 가능한 한 빨리 종교를 창시하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_GREAT_PROPHET_DISPLAY">
+      <Text>위대한 선지자가 탄생했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON">
+      <Text>첩보 개요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_BODY">
+      <Text>스파이는 첩보전에서 공격적으로 또는 방어적으로 사용할 수 있습니다. 화면 오른쪽 상단에 있는 추가 정보 버튼을 누르면 첩보 화면이 나오며 이곳에서 스파이에게 명령을 내릴 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_DISPLAY">
+      <Text>스파이를 얻었습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PROPHET_SPAWN_BODY">
+      <Text>아직 종교관을 세우지 않았다면 위대한 선지자로 종교관을 세울 수 있습니다. 종교관을 세우면 기존 종교를 강화하거나 다른 도시에 자신의 종교를 전도하거나 [ICON_PEACE]신앙을 생산하는 타일 시설을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PROPHET_SPAWN_DISPLAY">
+      <Text>위대한 선지자가 출현했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_PANTHEON_BODY">
+      <Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]종교관을 세우기에[ENDCOLOR] 충분한 [ICON_PEACE]신앙을 모아 사람들이 기뻐하고 있습니다. 왼편에 선택할 수 있는 종교관 교리가 표시되며 전체 목록은 문명 백과사전에서 찾을 수 있습니다. 교리 보너스는 보통 지형에 따라 다르므로 주변 환경을 고려해 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_PANTHEON_DISPLAY">
+      <Text>종교관을 선택하십시오!</Text>
+	</Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_RELIGION_BODY">
+      <Text>사람들이 위대한 선지자의 가르침을 들었습니다. 이제 [COLOR_ADVISOR_HIGHLIGHT_TEXT]종교를 창시할[ENDCOLOR] 수 있습니다. 종교의 상징과 이름을 선택하고 나면 창시자 교리와 신도 교리를 선택할 수 있습니다. 창시자 교리는 해당 종교를 창시한 플레이어에게 주어지는 보너스이며 신도 교리는 종교를 믿는 도시에 주어지는 보너스입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_RELIGION_DISPLAY">
+      <Text>종교를 창시할 수 있습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_OVERVIEW_BODY">
+      <Text>이 개요는 세 부분으로 나뉩니다. 첫 번째는 종교이며 여기에서 종교의 현재 상태와 교리를 볼 수 있으며 원한다면 [ICON_PEACE]신앙으로 구매할 수 있는 유닛이나 건물을 자동으로 구매하도록 설정할 수도 있습니다. 두 번째는 세계 종교에 대한 대략적인 정보이며 마지막은 누가 어떤 교리를 선택했는지 표시하는 부분입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_OVERVIEW_DISPLAY">
+      <Text>종교 개요입니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SPY_SPAWN_BODY">
+      <Text>화면 오른쪽 상단에 있는 추가 정보 버튼을 누르면 나오는 첩보 화면에서 스파이에게 공격적인 명령을 내려 다른 지역을 정찰하거나 다른 문명의 기술을 훔치게 하거나 방어적인 명령을 내려 자신의 도시와 기술을 지키도록 할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SPY_SPAWN_DISPLAY">
+      <Text>스파이를 얻었습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
+      <Text>성소에서 생산하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ASCETISM">
+      <Text>신자가 3명인 도시에 성소가 있으면 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_CATHEDRALS">
+      <Text>[ICON_PEACE]신앙을 사용하여 이 종교를 믿는 도시에 대성당 건설([ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR], [ICON_CULTURE]문화 [COLOR_POSITIVE_TEXT]+3[ENDCOLOR], [ICON_HAPPINESS_1]행복 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR], 예술가 슬롯 1개)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL">
+      <Text>종교를 믿는 도시 하나당 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_CHORAL_MUSIC">
+      <Text>신자가 5명인 도시에 사원이 있으면 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
+      <Text>종교를 믿는 도시 하나당 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_DANCE_AURORA">
+      <Text>숲이 없는 툰드라 타일에서 생산하는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_DEFENDER_FAITH">
+      <Text>이 종교를 믿는 우호적인 도시 근처에서 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE">
+      <Text>사막 타일에서 생산하는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_DIVINE_INSPIRATION">
+      <Text>도시에 건설된 세계 불가사의마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FAITH_HEALERS">
+      <Text>우호적인 도시 주위에서 턴마다 체력 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] 회복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FEED_WORLD">
+      <Text>성소와 사원이 생산하는 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES">
+      <Text>[ICON_FOOD] 성장률이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FLOURISHING_OF_ARTS">
+      <Text>평화 시 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
+      <Text>금이나 은 자원 하나당 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GOD_CRAFTSMEN">
+      <Text>인구가 3명 이상인 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GOD_FESTIVALS">
+      <Text>와인이나 향 자원 하나당 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GOD_SEA">
+      <Text>어선의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GOD_WAR">
+      <Text>도시 주변 4타일 이내에서 전투에 승리하면 [ICON_PEACE]신앙 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
+      <Text>야영지에서 생산하는 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GODDESS_LOVE">
+      <Text>인구가 6명 이상인 도시마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GODDESS_STRATEGY">
+      <Text>도시의 [ICON_RANGE_STRENGTH] 원거리 공격력이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GURUSHIP">
+      <Text>도시에 전문가가 있을 경우 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_HARVEST_FESTIVAL">
+      <Text>Placeholder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_HOLY_ORDER">
+      <Text>선교사와 이단심문관을 생산하는 데 필요한 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR] 감소</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
+      <Text>[ICON_PEACE]신앙을 사용하여 산업 시대 이전 지상 유닛 생산</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_INITIATION_RITES">
+      <Text>처음으로 종교를 전파한 도시 하나당 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] 증가 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_INTERFAITH_DIALOGUE">
+      <Text>선교사가 다른 종교를 믿는 도시에 플레이어의 종교를 전파할 때 [ICON_RESEARCH]과학 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS">
+      <Text>종교의 전파 거리가 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_JUST_WAR">
+      <Text>같은 종교를 믿는 적대적인 도시 주위에서 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA">
+      <Text>신자가 3명인 도시에 원형극장이 있으면 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MESSENGER_GODS">
+      <Text>[ICON_CONNECTED] 교역로와 연결된 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MESSIAH">
+      <Text>선지자의 능력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 생산에 필요한 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MISSIONARY_ZEAL">
+      <Text>선교사의 전도력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MONASTERIES">
+      <Text>[ICON_PEACE]신앙을 사용하여 수도원 건설([ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR], [ICON_CULTURE]문화 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR], [ICON_RES_WINE] 와인 또는 [ICON_RES_INCENSE] 향이 있을 경우 추가 보너스)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MONUMENT_GODS">
+      <Text>고대 및 고전 불가사의를 건설하는 데 필요한 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MOSQUES">
+      <Text>[ICON_PEACE]신앙을 사용하여 모스크 건설([ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]+3[ENDCOLOR], [ICON_CULTURE]문화 [COLOR_POSITIVE_TEXT]+2[EDCOLOR], [ICON_HAPPINESS_1]행복 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
+      <Text>자연 불가사의가 생산하는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_OPEN_SKY">
+      <Text>목장으로부터 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
+      <Text>재배지가 생산하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PAGODAS">
+      <Text>[ICON_PEACE]신앙을 사용하여 파고다 건설([ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR], [ICON_CULTURE]문화 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR], [ICON_HAPPINESS_1]행복 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PAPAL_PRIMACY">
+      <Text>이 종교를 믿는 도시 국가와의 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PEACE_GARDENS">
+      <Text>정원 하나당 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PEACE_LOVING">
+      <Text>적이 아닌 외국 도시에서 이 종교를 믿는 신자 5명마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PILGRIMAGE">
+      <Text>이 종교를 믿는 외국 도시마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
+      <Text>허미타지에서 생산하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]8[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_CENTER">
+      <Text>신자가 5명인 도시에 사원이 있으면 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY">
+      <Text>도시에서 해당 종교를 믿는 시민마다 [ICON_PRODUCTION]생산 [COLOR_POSITIVE_TEXT]+1%[ENDCOLOR](최대 15%)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
+      <Text>국경 확장 속도가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_TEXTS">
+      <Text>종교 전파 속도가 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가(인쇄 기술이 있으면 [COLOR_POSITIVE_TEXT]68%[ENDCOLOR])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_UNITY">
+      <Text>우호적인 도시 국가에 종교가 전파되는 속도 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIQUARY">
+      <Text>위인을 소모할 때마다 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_SACRED_ANIMALS">
+      <Text>Placeholder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_SACRED_PATH">
+      <Text>정글 타일에서 생산하는 [ICON_CULTURE]문화가 1만큼 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_SACRED_WATERS">
+      <Text>강 주위에 세운 도시가 있으면 [ICON_HAPPINESS_1]행복이 1만큼 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_STONE_CIRCLES">
+      <Text>채석장에서 생산하는 [ICON_PEACE]신앙이 2만큼 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_SWORD_PLOWSHARES">
+      <Text>평화 시 [ICON_FOOD]식량이 15% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_TITHE">
+      <Text>이 종교의 신자 4명마다 [ICON_GOLD]골드가 1만큼 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_WORLD_CHURCH">
+      <Text>다른 문명에서 플레이어의 종교를 믿는 신도 5명마다 [ICON_CULTURE]문화 +1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY">
+      <Text>원형극장을 건설하면 도시의 [ICON_CULTURE]문화가 증가하므로 주변 문화 경계가 빨리 확장되어 사회 정책도 빨리 얻을 수 있습니다. 원형극장은 기념비나 스텔레가 있는 도시에만 건설할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ARSENAL_STRATEGY">
+      <Text>군수창고는 도시의 방어력을 9, 체력을 25만큼 올려주는 중반 군사 건물로, 이를 건설한 도시는 적이 점령하기 어려워집니다. 군수창고를 지으려면 도시에 성이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP">
+      <Text>핵 공격을 받았을 때 죽는 인구가 75%만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY">
+      <Text>방공호를 건설하면 도시가 핵 공격을 받았을 때 죽는 인구가 75%만큼 감소합니다. 모두 대피하십시오!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CASTLE_STRATEGY">
+      <Text>성은 도시의 방어력을 7, 체력을 25만큼 올려주는 중세 건물입니다. 성을 건설하려면 도시에 성벽이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CEILIDH_HALL_STRATEGY">
+      <Text>연회장은 오페라 극장을 대체하는 켈트족 고유의 르네상스 시대 건물입니다. 연회장을 건설하면 도시의 [ICON_CULTURE]문화와 [ICON_HAPPINESS_1]행복이 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_COFFEE_HOUSE_HELP">
+      <Text>풍차를 대체하는 오스트리아의 고유 건물입니다. 이 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_COFFEE_HOUSE_STRATEGY">
+      <Text>카페는 풍차를 대체하는 오스트리아 고유의 르네상스 시대 건물입니다. 카페를 건설하면 도시의 [ICON_PRODUCTION]생산이 증가하고 [ICON_GREAT_PEOPLE]위인 출현율이 25% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CONSTABLE_HELP">
+      <Text>적 스파이가 기술을 훔쳐갈 확률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CONSTABLE_STRATEGY">
+      <Text>경찰대를 건설하면 적 스파이가 도시에서 기술을 훔치는 데 걸리는 속도가 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_HELP">
+      <Text>이 도시의 종교 전파 속도가 두 배로 증가합니다.[NEWLINE][NEWLINE]성도에만 건설할 수 있습니다. 모든 도시에 사원이 있어야 합니다. 도시가 많을수록 건설 비용이 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_STRATEGY">
+      <Text>대도시 몇 개로 전 세계에 종교를 전파하려는 문명에 중요한 건물입니다. 성도에만 건설할 수 있습니다. 도시의 종교 전파 속도가 두 배로 증가합니다. 대사원을 건설하려면 모든 도시에 사원이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GREAT_FIREWALL_HELP">
+      <Text>인터넷 검열 시스템을 건설하면 도시에 침투한 적 스파이의 효율성이 99.9%만큼 감소합니다. 다른 모든 도시에 침투한 적 스파이의 효율성도 25%만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP">
+      <Text>스파이가 추가로 한 명 생기며 모든 기존 스파이의 레벨이 오릅니다. 적 스파이의 효율성이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]만큼 감소합니다.[NEWLINE][NEWLINE]모든 도시에 경찰서가 있어야 건설할 수 있습니다. 도시가 많아질수록 건설하는 데 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나씩 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY">
+      <Text>기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 스파이가 추가로 한 명 생기며 모든 기존 스파이의 레벨이 오릅니다. 적 스파이의 효율성이 15%만큼 감소합니다. 모든 도시에 경찰서가 있어야 국가 정보국을 건설할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MAYA_PYRAMID_STRATEGY">
+      <Text>피라미드는 성소를 대체하는 마야 고유의 고대 시대 건물입니다. 피라미드를 건설하면 도시의 [ICON_RESEARCH]과학과 [ICON_PEACE]신앙이 증가하며 연구 속도와 종교 획득 속도가 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY">
+      <Text>군사 기지는 도시의 방어력을 12, 체력을 25만큼 올려주는 중반 건물입니다. 군사 기지를 건설하려면 도시에 군수창고가 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+      <Text>이 도시가 생산하는 [ICON_RES_INCENSE] 향이나 [ICON_RES_WINE] 와인 자원 하나당 [ICON_PEACE]신앙과 [ICON_CULTURE]문화가 1 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY">
+      <Text>수도원을 건설하면 도시의 [ICON_PEACE]신앙과 [ICON_CULTURE]문화가 증가합니다. 향이나 와인을 개발했다면 이들의 생성량이 크게 늘어납니다. 수도원 교리가 있는 종교를 믿는 도시에만 건설할 수 있습니다. 수도원은 [ICON_PEACE]신앙으로만 구입할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_POLICE_STATION_HELP">
+      <Text>적 스파이가 기술을 훔쳐갈 확률이 25%만큼 감소합니다.[NEWLINE][NEWLINE]도시에 경찰대가 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_POLICE_STATION_STRATEGY">
+      <Text>경찰서를 건설하면 적 스파이가 도시에서 기술을 훔치려고 시도하기 전에 기다려야 하는 시간이 증가합니다. 경찰서를 건설하려면 도시에 경찰대가 있어야 합니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_HELP">
+      <Text>[ICON_RES_ALUMINUM]알루미늄 자원 2개를 제공합니다. 이 건물은 문명 전체에 5개까지 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_STRATEGY">
+      <Text>재활용 센터 하나당 [ICON_RES_ALUMINUM]알루미늄 자원 2개를 제공합니다. 문명 전체에 알루미늄 자원을 5개까지 제공할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SHRINE_STRATEGY">
+      <Text>성소는 [ICON_PEACE]신앙을 생산하는 최초의 건물입니다. 성소를 건설하면 종교를 창설하고 전파할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STELE_STRATEGY">
+      <Text>스텔레는 기념비를 대체하는 에티오피아 고유의 고대 시대 건물입니다. 스텔레를 건설하면 도시의 [ICON_CULTURE]문화와 [ICON_PEACE]신앙이 증가하며 문화 경계가 빨리 확장되어 사회 정책과 종교를 그만큼 더 빨리 얻을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TEMPLE_STRATEGY">
+      <Text>사원을 건설하면 도시의 [ICON_PEACE]신앙이 증가하여 종교를 창시하고 전파하는 속도가 빨라집니다. 사원을 건설하려면 도시에 성소 또는 마야 피라미드가 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_WALLS_STRATEGY">
+      <Text>성벽을 건설하면 도시의 방어력이 5, 체력이 50만큼 증가하므로 적이 도시를 점령하기 더 어려워 집니다. 성벽은 국경 지대에 있는 도시에 아주 유용합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDINGS_CAPTUREDCITIES_HEADING2_BODY">
+      <Text>도시를 점령하면 도시에 있는 세계 불가사의를 차지하지만 국가 불가사의는 파괴됩니다.[NEWLINE]도시를 점령하면 기념비나 병영 같은 문화 건물이나 군사 건물도 파괴됩니다. 다른 건물을 온전히 차지할 확률은 66%입니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDINGS_PREREQUISITES_HEADING2_BODY">
+      <Text>선행 조건이 없고 게임을 시작하자마자 건설할 수 있는 기념비를 제외한 모든 다른 건물은 특정한 기술을 연구해야 건설할 수 있습니다. 예를 들어, 병영을 건설하려면 먼저 청동 기술을 연구해야 합니다.[NEWLINE][NEWLINE]특정 자원이 있어야 건설할 수 있는 건물도 있습니다. 예를 들어, 서커스는 말이나 상아를 생산하는 도시에만 건설할 수 있습니다.[NEWLINE][NEWLINE]다른 건물을 먼저 건설해야 건설할 수 있는 건물도 있습니다. 예를 들어, 사원은 성소를 건설한 도시에만 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITIES_CITYBANNER_HEADING2_BODY">
+      <Text>주 지도에 도시 이름표가 표시됩니다. 도시 이름표는 도시 활동을 대략적으로 보여주는 유용한 도구입니다.[NEWLINE][TAB][TAB][TAB][TAB]이름*[NEWLINE][TAB][TAB][TAB][TAB]방어력[NEWLINE][TAB][TAB][TAB][TAB]주둔한 유닛[NEWLINE][TAB][TAB][TAB][TAB]만들고 있는 항목**[NEWLINE][TAB][TAB][TAB][TAB]완성까지 남은 턴**[NEWLINE][TAB][TAB][TAB][TAB]도시 크기[NEWLINE][TAB][TAB][TAB][TAB]도시가 성장할 때까지 남은 턴**[NEWLINE][TAB][TAB][TAB][TAB]도시 종교***[NEWLINE][TAB][TAB][TAB][TAB] *도시 국가의 경우 플레이어의 문명과의 영향력이 (#/30) 형식으로 표시됩니다.[NEWLINE][TAB][TAB][TAB][TAB] **외국 도시는 이 항목이 표시되지 않습니다.[NEWLINE][TAB][TAB][TAB][TAB] ***도시에 종교관이나 종교가 생기기 전까지는 표시되지 않습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITIES_SPECIALISTS_HEADING2_BODY">
+      <Text>전문가는 도시에 건설한 건물에서 일하는 시민입니다. 문명 5에 등장하는 전문가는 과학자와 상인, 예술가, 기술자입니다. 예를 들어, 도시에 박물관을 건설하면 시민 두 명이 예술가로 일할 수 있습니다. 모든 건물에서 시민이 일할 수 있지는 않으므로 자세한 내용을 보려면 각 건물 설명을 보십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYIMPROVEMENTSTRATEGY_PLUG_UP_RESOURCES_HAVE_ZERO">
+      <Text>우리에게는 {1_ResourceName:textkey}{1: plural 1?이; 2?가;} 없지만 {2_CityName:textkey} 근처에는 있습니다. 지상이라면 노동자를, 해상이라면 작업선을 보내 해당 타일에 시설을 건설하면 자원을 얻을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_PERMANENTWAR_HEADING4_BODY">
+      <Text>도시 국가를 분노하게 하면 플레이어의 문명을 경계합니다. 주변 도시 국가들과 자주 전쟁을 벌이면 도시 국가 사이에 소문이 퍼져 거의 모든 도시 국가와의 기본 영향력이 0에서 -20(영향력은 0이하로 떨어질 수 있음)으로 떨어질 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_PERMANENTWAR_HEADING4_TITLE">
+      <Text>경계</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_TYPES_HEADING2_BODY">
+      <Text>도시 국가에는 다섯 가지 "종류"가 있으며 이들과 친선 관계를 맺으면 각기 다른 혜택을 제공합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_WAR_HEADING4_BODY">
+      <Text>플레이어와 전쟁을 벌이는 도시 국가는 영향력이 0 이하로 떨어지며 플레이어의 문명에게 어떤 선물도 주지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_WAROFTHE_HEADING2_BODY">
+      <Text>플레이어는 언제라도 도시 국가에 선전포고할 수 있습니다. 외교 화면을 통해 도시 국가에 선전포고하거나 군사 유닛으로 원하는 도시 국가나 유닛을 공격하면 전쟁이 시작됩니다. 외교 화면에서 또는 해당 도시를 클릭하여 평화 협상을 요청할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_ADV_QUEST">
+      <Text>위대한 선지자는 무엇인가요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_BODY">
+      <Text>[ICON_PEACE]신앙을 모으면 종교를 창시하거나 강화할 수 있는 유일한 유닛인 위대한 선지자를 얻게 됩니다. [ICON_PEACE]신앙을 200 모으면 위대한 선지자가 출현할 수 있습니다. 위대한 선지자가 출현하면 이 유닛의 "종교 창시" 능력을 사용하여 플레이어만의 종교를 창시할 수 있습니다. 다른 위인과 마찬가지로 위대한 선지자도 황금기를 시작하는 등 다른 능력도 가지고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_TITLE">
+      <Text>위대한 선지자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY">
+      <Text>바빌론 성벽은 기존 성벽을 대체하는 바빌론의 고유 건물입니다. 바빌론의 성벽을 건설하면 도시의 방어력이 6, 체력이 100 증가합니다. 이는 기존 성벽보다 훨씬 큰 수치입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GREATPROPHETS_TEXT">
+      <Text>위대한 선지자'는 종교적 믿음의 영역을 탐사하며 문명의 윤리 도덕적 결정을 인도하는 데에 독특한 통찰력을 사용합니다. 종교를 창시하고 신의 말을 전파하며 민중에게 신앙심을 갖게 합니다. 가장 가혹한 시기에도 그들은 국가에 희망을 제공할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_CITYHITPOINTS_HEADING4_BODY">
+      <Text>피해를 전혀 받지 않은 도시는 200의 내구도를 지닙니다. 피해를 받게 되면 내구도가 떨어지며, 내구도가 0이 되면 적 유닛이 타일에 진입하면 도시는 점령당합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_COMBATDAMAGE_HEADING2_BODY">
+      <Text>피해를 전혀 받지 않은 유닛은 100의 ‘체력(HP)'을 지닙니다. 전투에서 피해를 받게 되면 체력이 떨어지며, 체력이 0이 되면 유닛은 파괴됩니다.[NEWLINE][NEWLINE]피해를 받은 유닛은 피해를 전혀 받지 않은 유닛보다 약하며, 더 쉽게 파괴당할 수 있습니다. 항상 가능하지는 않겠지만, 가능할 때마다 피해를 받은 유닛이 다시 전투에 투입되기 전 번갈아가며 체력을 회복시키는 것이 좋습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY">
+      <Text>도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 수 있습니다. 도시에 유닛을 주둔시키면 유닛 전투력 일부가 도시 전투력에 더해집니다. 도시가 공격받아도 주둔한 유닛은 피해를 받지 않습니다. 하지만 적이 도시를 점령하면 주둔한 유닛은 파괴됩니다.[NEWLINE][NEWLINE]도시에 주둔한 유닛이 주변 적 유닛을 공격할 때에도 주둔 보너스를 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_BODY">
+      <Text>피해를 회복하려면 유닛은 1턴 동안 아무 행동도 하지 말아야 합니다. 피해 회복량은 유닛의 위치에 따라 달라집니다.[NEWLINE][NEWLINE]유닛이 도시에 있으면 턴마다 25만큼 HP를 회복합니다.[NEWLINE]우호 지역에 있는 유닛은 턴마다 20만큼 HP를 회복합니다.[NEWLINE]중립 지역이나 적 지역에 있는 유닛은 턴마다 10만큼 HP를 회복합니다.[NEWLINE]승급을 통해 유닛의 회복 속도를 높일 수도 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_HITPOINTS_HEADING3_BODY">
+      <Text>피해를 전혀 입지 않은 유닛은 100의 ‘체력’(HP)을 갖고 있습니다. 전투에서 피해를 입게 되면 체력은 떨어지며, 체력이 0이 되면 유닛은 파괴됩니다.[NEWLINE][NEWLINE]피해를 입은 유닛은 피해를 전혀 입지 않은 유닛보다 약하며, 더 쉽게 파괴당할 수 있습니다. 항상 가능하지는 않겠지만, 가능할 때마다 피해입은 유닛이 다시 전투에 투입되기 전 번갈아가며 체력을 회복시켜주는 것이 좋습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_NAVALDAMAGE_HEADING3_BODY">
+      <Text>해상 유닛은 우호 지역에서만 회복할 수 있으며, 턴마다 20만큼 HP를 회복합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_RANGESTAT_HEADING3_BODY">
+      <Text>유닛의 ‘사정거리’에 따라 유닛이 원거리 공격을 할 수 있는 거리가 결정됩니다. 사정거리가 '2'라면 바로 인접한 타일에 있거나 1타일 떨어져 있는 목표물을 공격할 수 있습니다. 만약에 사정거리가 '1'이라면 목표물이 공격 유닛에 인접해 있어야 합니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_ADVISOR_QUESTION">
+      <Text>공물은 어떻게 요구하나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_CITY_STATE_BULLYING_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_SUMMARY">
+      <Text>공물을 요구할 목적으로 도시 국가를 위협할 수 있습니다. 공물은 노동자나 돈으로 받게 됩니다. 플레이어의 군사력이 다른 문명의 군사력보다 월등하거나 도시 국가 주변에 군사 유닛을 배치하면 도시 국가가 위협을 느낍니다.[NEWLINE][NEWLINE]도시 국가에 공물을 요구하려면 도시 국가 외교 패널을 열고 "공물 요구" 선택지를 클릭합니다. 뒤따라 나오는 선택지가 빨간색이라면 해당 도시 국가가 플레이어를 두려워하지 않는 것입니다. 이럴 경우 공물을 요구할 수 없습니다. 도시 국가가 공물 요구를 받아들이면 노동자나 돈을 받지만 영향력이 떨어집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_TOPIC">
+      <Text>공물 요구</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_ADVISOR_QUESTION">
+      <Text>상업 도시 국가란 무엇인가요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_SUMMARY">
+      <Text>상업 도시 국가는 고유한 사치 자원을 제공하며 행복을 늘려줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_TOPIC">
+      <Text>상업</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_ADVISOR_QUESTION">
+      <Text>종교 도시 국가란 무엇인가요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_SUMMARY">
+      <Text>종교 도시 국가는 문명에 신앙을 제공합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_TOPIC">
+      <Text>종교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_ADVISOR_QUESTION">
+      <Text>종교를 도시 국가에 전파하면 무슨 이득이 있나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_SUMMARY">
+      <Text>플레이어가 창시한 종교가 도시 국가의 대중종교가 되면 해당 도시 국가에 대한 영향력이 25% 천천히 떨어지며 해당 도시 국가와의 영향력이 나쁘다면 회복 속도가 50% 빨라집니다.[NEWLINE][NEWLINE]해당 도시 국가는 종종 특정 종교를 전파해 달라고 부탁하는데, 이에 성공하면 영향력이 상당히 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_TOPIC">
+      <Text>종교 및 도시 국가와의 영향력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_ADVISOR_QUESTION">
+      <Text>대사관은 어떻게 건설하나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_SUMMARY">
+      <Text>다른 문명을 만난 뒤 첫 번째로 할 수 있는 외교적 행동으로 대사관을 건설할 수 있습니다. 대사관은 ‘문자’ 기술을 연구하면 지을 수 있습니다. 대사관을 통해 상대와 방위 조약을 체결하거나 연구 협정을 맺을 수 있으며, 대사관이 완성되고 나면 상대의 수도 위치를 볼 수 있게 됩니다.  플레이어만 ‘문자’를 갖고 있고 상대는 없는 경우에도 게이머는 대사관을 지을 수 있습니다. 이때, 상대는 약간의 금전적 보상을 요구할 수도 있습니다. 상대와 전쟁을 벌이면 대사관은 자동으로 즉시 폐쇄됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_TOPIC">
+      <Text>대사관 건설</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_ADVISOR_QUESTION">
+      <Text>다른 문명의 스파이를 어떻게 막아야 하나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_SUMMARY">
+      <Text>대스파이 정보망을 구축하여 적 스파이로부터 도시를 보호할 수 있습니다. 적 스파이의 목표가 될 것 같은 도시(보통 과학이 높은 도시)에 아군 스파이를 보내십시오. 이렇게 하면 일정한 확률로 적 스파이를 색출할 수 있습니다. 아군 스파이의 계급이 높을수록 적 스파이를 탐지할 확률도 높아집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC">
+      <Text>스파이 색출</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_ADVISOR_QUESTION">
+      <Text>누가 스파이를 보냈는지 어떻게 압니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_SUMMARY">
+      <Text>스파이가 기술을 훔칠 때 이를 들킬 확률이 있습니다. 목표 도시에 대항 스파이가 없다면 기술을 훔친 결과가 '들키지 않았음', '들켰으나 신원을 파악하지 못 했음' 또는 '신원이 파악되었음' 중 하나가 됩니다. 하지만 해당 도시에 대항 스파이가 있다면 그 결과가 '들켰으나 신원을 파악하지 못 했음', '신원이 파악되었음' 또는 '신원이 파악되어 죽었음' 중 하나가 됩니다. 상대 문명이 플레이어 스파이의 신원을 파악하거나 죽인 경우 양 문명의 관계에 부정적인 영향을 줍니다. 스파이가 적에게 잡혀 죽으면 몇 턴 뒤에 새로운 스파이를 모집할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_TOPIC">
+      <Text>스파이 색출</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_ADVISOR_QUESTION">
+      <Text>적 스파이의 활동을 어떻게 늦출 수 있나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_SUMMARY">
+      <Text>인터넷 검열 시스템 불가사의를 건설하면 해당 도시에 잠입한 적 스파이의 효율이 99.9%만큼 감소하며 다른 모든 도시에서의 적 스파이 효율이 25%만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_TOPIC">
+      <Text>인터넷 검열 시스템</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_ADVISOR_QUESTION">
+      <Text>스파이를 더 얻으려면 어떻게 하나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_MORE_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_SUMMARY">
+      <Text>처음에는 스파이 한 명으로 시작하지만 시대가 바뀌면서 스파이를 더 모집할 수 있습니다.  국가 불가사의인 국가 정보국을 건설하면 스파이를 추가로 얻습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_TOPIC">
+      <Text>스파이 더 얻기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_ADVISOR_QUESTION">
+      <Text>스파이를 어떻게 움직이나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_SUMMARY">
+      <Text>"첩보 개요" 화면을 열고 원하는 스파이 옆에 있는 "이동" 단추를 눌러 스파이를 움직입니다. "이동" 단추를 클릭한 다음 화면 우측에 있는 목적지(플레이어 또는 대상 문명의 도시)의 이름을 클릭합니다. 그러면 해당 스파이의 "활동"이 "이동"으로 바뀌며 스파이가 해당 도시로 이동하는 데 걸리는 총 시간이 표시됩니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_TOPIC">
+      <Text>스파이 움직이기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_ADVISOR_QUESTION">
+      <Text>스파이를 더 얻으려면 어떻게 하나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_SUMMARY">
+      <Text>국가 불가사의인 국가 정보국을 건설하면 스파이를 한 명 더 얻을 뿐만 아니라 기존 스파이의 레벨이 오릅니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_TOPIC">
+      <Text>국가 정보국</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_ADVISOR_QUESTION">
+      <Text>적 스파이를 어떻게 지연시키나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_SUMMARY">
+      <Text>도시에 경찰서나 경찰대를 건설하면 적 스파이의 활동을 지연시킬 수 있습니다. 경찰서와 경찰대를 건설하면 침투한 적 스파이가 기술을 훔치는 데 필요한 시간이 각각 25% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_TOPIC">
+      <Text>경찰대와 경찰서</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_ADVISOR_QUESTION">
+      <Text>스파이가 경험치를 얻나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_SUMMARY">
+      <Text>스파이가 임무에 성공하면 경험치를 얻어 레벨이 오릅니다. 레벨이 오를 때마다 임무를 더 빨리 완수할 수 있으며 성공할 확률도 오릅니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_TOPIC">
+      <Text>스파이 경험치</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_ADVISOR_QUESTION">
+      <Text>스파이가 도시 국가에서 무슨 임무를 수행할 수 있습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_SUMMARY">
+      <Text>스파이는 도시 국가에서 부정선거를 조장하거나 쿠데타를 부추겨 당신의 도시 국가에 대한 영향력을 높입니다. 도시 국가에 스파이를 심으려면 먼저 스파이를 도시로 이동시키십시오. 스파이가 도시 국가에 도착하면 그들이 ‘감시망 구축’을 할 때까지 약간의 시간이 걸립니다 (‘행동’에서 확인 가능). 감시망이 구축되고 나면 첩보 작전을 수행할 수 있게 됩니다. 스파이는 매 15턴마다 부정선거를 조장할 수 있습니다. 만약 도시 국가 내에 당신의 스파이밖에 없다면 다른 문명이 해당 도시 국가에 끼치는 영향력은 감소하고, 당신이 해당 도시 국가에 끼치는 영향력은 증가합니다. 도시 국가 내에 만약 당신의 스파이보다 높은 등급의 스파이가 있다면 부정선거 조장이 실패할 수도 있습니다. 하지만 부정선거 조장에 실패하더라도 스파이가 위험해 처하는 일은 없으므로 걱정하지 않아도 됩니다. [NEWLINE][NEWLINE]쿠데타 부추김은 부정선거 조장보다 강력하지만, 더욱 위험하기도 합니다. 도시 국가에서의 성공적인 쿠데타는 해당 도시 국가와 다른 문명과의 동맹 관계를 '빼앗을' 수 있게 해줍니다. 다른 문명과 동맹 관계에 있는 도시 국가에 스파이를 심고, 감시망이 구축되고 나면 '쿠데타' 버튼을 사용할 수 있게 됩니다. 버튼을 클릭하면 성공 확률을 보여주는 새로운 알림창이 표시됩니다. 상대 문명에 대한 영향력이 높을수록 성공률도 높아지게 됩니다. 주의할 점은, 만약 쿠데타가 실패하면 스파이가 처형된다는 점입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC">
+      <Text>스파이와 도시 국가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_ADVISOR_QUESTION">
+      <Text>스파이란 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_SUMMARY">
+      <Text>게임 내의 어떤 문명이든 르네상스 시대에 들어서면 플레이어에게 첫 스파이가 주어집니다. 스파이는 상대 문명의 도시에 잠입해 기술을 훔치고 정보를 모으는 임무를 수행합니다. 플레이어의 도시에 스파이를 배치하면 적 스파이를 지연시키거나 발견하거나 죽일 수 있습니다. 스파이를 보내려면 "첩보 개요"에 있는 "추가 정보" 메뉴를 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC">
+      <Text>스파이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_STEALING_TECHS_SUMMARY">
+      <Text>플레이어의 문명보다 발전한 문명에 스파이를 잠입시켜 기술을 훔칠 수 있습니다. 기술을 훔치려면 먼저 스파이를 목표 도시로 보내십시오. 도시에 잠입한 스파이는 일정한 시간을 들여 "첩보망 구축" 활동을 합니다. 이는 "활동" 열에서 확인할 수 있습니다. 첩보망이 구축되면 목표 도시에 훔칠 만한 기술이 있는지 알 수 있습니다. 기술을 훔치는 데 필요한 시간은 해당 도시가 생산하는 과학량과 스파이의 계급에 따라 다릅니다. 해당 도시가 생산하는 과학량이 많을 수록, 스파이의 계급이 높을 수록 기술을 훔치는 데 필요한 시간이 줄어듭니다.[NEWLINE][NEWLINE]해당 도시에 경찰서나 인터넷 검열 시스템이 있다면 스파이가 아예 활동하지 못할 수도 있습니다.  해당 도시에 대항 스파이가 있다면 플레이어의 스파이가 잡히거나 죽을 수 있습니다. 잡힌 스파이는 여러 턴 동안 활동을 할 수 없게 됩니다. 상대 문명이 플레이어 스파이의 신분을 파악하면 해당 문명과의 관계가 악화됩니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_ADVISOR_QUESTION">
+      <Text>첩보망은 어떻게 구축하나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_SUMMARY">
+      <Text>첩보망을 구축하려면 목표 도시에 스파이를 보내야 합니다. 도시에 잠입한 스파이는 일정한 시간을 들여 "첩보망 구축" 활동을 합니다. 이는 "활동" 열에서 확인할 수 있습니다. 첩보망이 구축되면 목표 도시에 훔칠 만한 기술이 있는지 알 수 있습니다.  해당 도시 내부를 볼 수 있게 되므로 상대 문명의 침략 준비 등 중요한 정보를 가로챌 수도 있습니다</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_TOPIC">
+      <Text>첩보망 구축</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_ADVISOR_QUESTION">
+      <Text>교리란 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_BELIEFS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_SUMMARY">
+      <Text>종교관을 세우거나 게임 후반에 종교를 창시하거나 강화할 때 다양한 교리를 추가할 수 있습니다. 교리에는 종교관 교리, 창시자 교리, 추종자 교리 그리고 강화 교리가 있습니다. 이외에도 추가 교리를 선택할 수 있는 특징이 있는 문명이 있습니다.[NEWLINE][NEWLINE]교리는 선착순입니다. 즉, 어떤 문명이 특정 교리를 선택하면 다른 문명은 종교를 창시하거나 강화할 때 그 교리를 선택할 수 없습니다. 따라서 가장 먼저 종교를 창시하는 문명이 매우 유리합니다.[NEWLINE][NEWLINE]문명 백과사전의 종교 부분에서 플레이어가 선택할 수 있는 전체 교리 목록을 볼 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_TOPIC">
+      <Text>교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_ADVISOR_QUESTION">
+      <Text>종교에 영향을 주는 건물이 있습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_BUILDINGS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_SUMMARY">
+      <Text>종교에 영향을 주는 건물은 크게 두 종류입니다. 건물 건설 조건을 만족하면 도시 화면에서 건설해 [ICON_PEACE]신앙을 생성하는 일반 종교 건물이 있고 신도 교리를 통해서만 건설할 수 있는 건물도 있습니다. 이러한 건물은 시민 대부분이 해당 종교를 믿는 도시에서 [ICON_PEACE]신앙을 소비해 구매합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_TOPIC">
+      <Text>종교 건물</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_ADVISOR_QUESTION">
+      <Text>다른 종교가 퍼지는 것을 어떻게 막나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_DEFENDING_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_SUMMARY">
+      <Text>적 문명이 보낸 선교사나 위대한 선지자가 플레이어의 도시에서 선교활동을 하지 못하도록 하려면 이단심문관을 구매하십시오. 이단심문관은 기본적으로 타종교가 플레이어의 도시에 퍼지지 않도록 막으며 이들을 희생할 경우 해당 도시에 퍼진 다른 모든 종교를 제거합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_TOPIC">
+      <Text>타종교에 대한 방어</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_ADVISOR_QUESTION">
+      <Text>종교 강화 교리란 무엇인가요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_ENHANCER_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_SUMMARY">
+      <Text>이들 효과는 종교 전파 속도를 향상시켜 줍니다. 선택한 교리에 따라 더욱 강력한 종교 유닛을 생산하거나 자연 전파 속도가 빨라지거나 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_TOPIC">
+      <Text>종교 강화 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_ADVISOR_QUESTION">
+      <Text>종교를 어떻게 강화하나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_SUMMARY">
+      <Text>종교를 창시하고 나면 위대한 선지자로 이를 강화할 수 있습니다. 강화는 창시와 비슷지만 신도 교리 한 개와 강화 교리 한 개만을 선택할 수 있다는 점이 다릅니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_TOPIC">
+      <Text>종교 강화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_ADVISOR_QUESTION">
+      <Text>신앙은 어떻게 얻나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_SUMMARY">
+      <Text>[ICON_PEACE]신앙은 종교관을 세우고 위대한 선지자를 출현하게 하고 종교 유닛이나 건물을 구입할 때 쓰는 골드와 같은 기능을 합니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙 점수를 얻는 여러 가지 방법이 있습니다. 먼저, 도시에 건설하면 턴마다 일정한 량의 [ICON_PEACE]신앙을 생산하는 건물이나 불가사의가 있습니다. 시민을 투입하면 [ICON_PEACE]신앙을 생산하는 자연 불가사의도 있습니다. 종교 도시 국가와의 영향력이 높다면 일정한 간격으로 플레이어의 [ICON_PEACE]신앙을 올려주는 선물을 보냅니다. 마지막으로 위대한 선지자로 성지를 건설하면 [ICON_PEACE]신앙을 얻을 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC">
+      <Text>신앙 얻기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_ADVISOR_QUESTION">
+      <Text>신앙으로 무엇을 할 수 있나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_SUMMARY">
+      <Text>다양한 방법으로 [ICON_PEACE]신앙을 소비할 수 있습니다. 종교와 관련된 유닛이나 건물을 구매할 때 사용하며 위대한 선지자가 출현할 때 이를 소모합니다. 산업 시대에 들어서면 위대한 선지자가 아닌 다른 위인이 출현할 수도 있습니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙이 일정량 모이면 온대한 선지자가 자동으로 출현합니다. 상태 바에 있는 [ICON_PEACE]신앙 아이콘 위로 마우스 커서를 가져가면 위대한 선지자가 출현하는 데 필요한 [ICON_PEACE]신앙이 얼마인지 알 수 있습니다. 산업 시대에 특정한 사회 정책을 도입했다면 출현할 위인의 종류를 고를 수 있습니다.[NEWLINE][NEWLINE]위대한 선지자가 필요 없거나 [ICON_PEACE]신앙이 다 모일 때까지 기다리기 싫다면 대신 도시 화면에 있는 구매 메뉴를 통해 유닛이나 건물을 구매할 수 있습니다. 선교사나 이단심문관은 어느 도시에서나 구매할 수 있지만, 종교 건물은 해당 도시의 대중 종교가 종교 건물 구매를 허락하는 교리를 채택한 경우에만 구매할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_TOPIC">
+      <Text>신앙 소비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_ADVISOR_QUESTION">
+      <Text>신도 교리란 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FOLLOWER_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_SUMMARY">
+      <Text>이들 속성은 도시 수준에서 활성화됩니다. 이 종교가 대중종교인 도시에서 그 효과를 발휘합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_TOPIC">
+      <Text>신도 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_ADVISOR_QUESTION">
+      <Text>창시자 교리란 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FOUNDER_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_SUMMARY">
+      <Text>플레이어 수준의 보너스입니다. 종교를 창시한 플레이어가 해당 성도를 보유하고 있으면 이로운 효과를 냅니다. 대부분의 보너스가 종교 전파와 관련 있으므로 종교를 최대한 퍼뜨리는 편이 좋습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_TOPIC">
+      <Text>창시자 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_ADVISOR_QUESTION">
+      <Text>종교는 어떻게 창시하나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_SUMMARY">
+      <Text>종교관을 세운 상태에서 위대한 선지자가 출현하면 이를 희생하여 종교를 창시할 수 있습니다. 도시에 있는 위대한 선지자를 선택한 다음 유닛 패널에서 "종교 창시" 아이콘을 클릭하면 종교를 창시할 수 있습니다. 이렇게 하면 플레이어의 문명에 맞는 종교를 선택할 수 있는 화면이 표시됩니다. 먼저 이름과 상징을 선택한 다음 창시자 교리와 신도 교리를 선택합니다. 화면 우측 하단에 있는 [ICON_RELIGION] 종교 창시 단추를 누르면 선택한 항목으로 새로운 종교를 만듭니다.[NEWLINE][NEWLINE]지도 크기에 따라 게임에서 만들 수 있는 종교 수에는 제한이 있습니다. 이 제한은 언제나 지도에 있는 기본 문명 수보다 적으므로 모든 문명이 종교를 창시할 수는 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_TOPIC">
+      <Text>종교 창시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_ADVISOR_QUESTION">
+      <Text>어떤 종교가 대중 종교로 바뀌나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_MAJORITY_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_SUMMARY">
+      <Text>시민마다 종교가 없거나 믿는 종교가 있습니다. 자연히 또는 선교사 등의 활동 결과 어떤 도시의 시민 대다수가 한 종교를 믿게 된 도시는 해당 종교를 따르는 도시가 되며 이때부터 도시 화면에서 종교 유닛을 생산하거나 건물을 건설할 수 있습니다.[NEWLINE][NEWLINE]시민 대다수가 한 종교를 믿으면 도시 이름표에 그 종교의 상징이 표시됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_TOPIC">
+      <Text>대중 종교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_ADVISOR_QUESTION">
+      <Text>종교관 교리란 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_SUMMARY">
+      <Text>종교관 교리는 특별한 종류의 신도 교리이며 보통 타일이나 건물의 생산을 높여주므로 게임 초반부에 특히 유용합니다. 종교관 교리는 시민 대다수가 해당 종교를 믿는 도시에서 효과를 발휘하며 게임 후반부에 신앙이 증가해 종교를 창시해도 유지됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_TOPIC">
+      <Text>종교관 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_ADVISOR_QUESTION">
+      <Text>종교관이란 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_PANTHEONS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_SUMMARY">
+      <Text>종교관은 종교의 밑거름이 됩니다. [ICON_PEACE]신앙이 일정량 모이면 종교관 교리를 선택할 수 있습니다. 이때 선택한 종교관 교리는 나중에 종교를 창시할 때는 물론이고 게임 끝까지 종교에 영향을 주므로 신중하게 선택해야 합니다. 종교관을 세우는 데 필요한 [ICON_PEACE]신앙은 현재 게임에 존재하는 종교관의 수에 따라 증가합니다.[NEWLINE][NEWLINE]종교관은 종교의 초기 형태이므로 게임 초반부에만 종교관을 세울 수 있습니다. 종교관을 세우면 그 즉시 플레이어의 문명에 속한 도시 전체에 전파되며 진정한 종교를 창시할 때까지 새로 세우는 도시에 전파됩니다.[NEWLINE][NEWLINE]누군가 자신의 종교관을 강화하면 아무도 새로운 종교관을 세울 수 없으며 활성화된 종교관 수는 현재 게임에서 허용하는 종교 수 이상입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_TOPIC">
+      <Text>종교관</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_ADVISOR_QUESTION">
+      <Text>종교는 어떻게 퍼지나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_SUMMARY">
+      <Text>종교는 성도나 종교를 믿는 다른 도시에서부터 자연히 퍼지기도 하지만 플레이어가 직접 다른 도시에 자신의 종교를 전파할 수도 있습니다.[NEWLINE][NEWLINE]자연적인 종교 전파는 단순합니다. 대중종교(반수 이상이 믿는 종교)가 있는 도시는 최대 10타일까지 영향을 미칩니다. 다른 도시가 이 거리 안에 있고 주변에 이 도시에 영향을 주는 도시가 두 개 이상 있는 상태에서 대중종교가 없다면 서서히 종교가 전파됩니다. 주변에서 영향을 주는 도시가 많을수록 전파 속도도 빨라집니다. 다른 도시에 대중종교가 있다면 아무런 영향도 주지 않습니다. 종교관이나 종교가 있는 도시의 이름표에 있는 종교 아이콘에 마우스 커서를 대면 해당 도시가 다른 도시에 주는 종교 영향력과 다른 도시가 해당 도시에 주는 종교 영향력을 확인할 수 있습니다.[NEWLINE][NEWLINE]전파하고 싶은 종교를 믿는 도시에서 [ICON_PEACE]신앙을 소비하여 선교사를 구매할 수 있습니다. 도시 화면의 좌측 하단에 있는 구매 단추를 클릭하면 구매 메뉴가 열립니다. [ICON_PEACE]신앙이 부족해 선교사를 구매할 수 없다면 선교사가 회색으로 표시됩니다. 구매한 선교사를 원하는 도시 바로 옆으로 보낸 다음 선교사 행동 메뉴에서 종교 전파 단추를 누르십시오. 종교 전파 단추를 누르면 선교사가 소모됩니다.[NEWLINE][NEWLINE]위대한 선지자 역시 같은 방법으로 사용할 수 있습니다. 하지만 위대한 선지자는 플레이어의 종교를 전파할 뿐만 아니라 목표 도시의 시민이 믿는 타 종교를 제거합니다. 위대한 선지자는 사라지기 전까지 종교 전파 활동을 여러 번 할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_TOPIC">
+      <Text>종교 전파</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_ADVISOR_QUESTION">
+      <Text>유닛이 종교에 영향을 주나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_UNITS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_SUMMARY">
+      <Text>위대한 선지자와 선교사, 이단심문관은 종교에 영향을 줍니다. 위대한 선지자와 선교사는 종교를 전파할 때 유용하며 이단심문관은 타 종교가 퍼지는 것을 막아줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_TOPIC">
+      <Text>종교 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_PANTHEON">
+      <Text>[COLOR_GREEN]{1_BeliefName}[ENDCOLOR]{1: plural 1?을; 2?를;} 채택하시겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_GETTING_HEADING2_BODY">
+      <Text>문화는 다양한 방법으로 얻을 수 있습니다.[NEWLINE]- 궁전: 궁전(첫 도시를 세울 때 건설됨)은 턴당 문화 점수 1점을 생산합니다.[NEWLINE]- 고대 유적: 고대 유적에서 문화 점수를 많이 얻을 수 있습니다.[NEWLINE]- 건물: 일부 건물은 문화를 생산합니다. 기념비가 그 대표적인 예입니다.[NEWLINE]- 전문가: 전문가, 특히 예술가가 문화를 생산합니다.[NEWLINE]- 불가사의: 일부 불가사의는 문화를 생산합니다. 허미타지나 영웅적 서사시, 건국 서사시가 그 예입니다. 물론 문화를 생산하는 다른 불가사의도 많습니다.[NEWLINE]- 사회 정책: 일부 사회 정책은 문화를 늘려줍니다. "신앙" 계열에는 문화를 겨냥한 사회 정책이 여럿 있습니다.[NEWLINE]- 위대한 예술가: 위대한 예술가로 "랜드마크"라고 하는 타일 시설을 건설할 수 있습니다. 해당 타일에 시민을 배치하면 문화를 많이 생성합니다.[NEWLINE]- 도시 국가: 일부 도시 국가는 영향력이 높을 때 플레이어에게 문화를 제공합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMACY_DISCUSS_HEADING3_BODY">
+      <Text>이 버튼을 누르면 다양한 주제를 다루는 대화상자가 나옵니다. 상황에 따라 다음을 할 수 있습니다. 상대편 지도자는 플레이어와의 관계와 자신의 목적에 따라 플레이어에게 다르게 반응합니다.[NEWLINE]- 상대편 지도자에게 협력하자고 제의[NEWLINE]- 다른 문명에게 공동 선전포고 제의[NEWLINE]- 상대편 지도자에게 플레이어 문명 주변에 도시를 세우지 말라고 요청[NEWLINE]- 마음에 들지 않는 문명의 지도자를 공개적으로 비난[NEWLINE]- 다른 문명의 지도자에게 첩보 활동을 중지하라고 요청</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY">
+      <Text>한쪽 문명이 공공 행정을 연구하면 대사를 파견한 문명과 국경 개방 조약을 체결할 수 있습니다. 도시 국가는 국경 개방 조약을 체결할 수 없습니다. 국경을 개방하면 다른 문명의 유닛이 플레이어의 영토에 들어와도 자동으로 전쟁이 시작되지 않습니다. 상호 국경 개방 조약이라면 양쪽 모두 상대방의 영토에 마음대로 들어갈 수 있습니다. 국경 개방 조약은 반드시 상호적일 필요는 없으며 한쪽이 다른 한쪽에 국경을 일방적으로 개방할 수도 있습니다.[NEWLINE][NEWLINE]국경 개방 조약은 20턴 동안 유지됩니다. 20턴이 지나고 조약을 갱신하지 않으면 무효가 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GA_PROGRESS">
+      <Text>위대한 제독 진행 상황</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY">
+      <Text>다음은 문명의 행복을 늘려줍니다.[NEWLINE][NEWLINE]자연 불가사의: 자연 불가사의를 발견할 때마다 문명의 행복이 영구히 증가합니다.[NEWLINE][NEWLINE]사치 자원: 영토 안에 있는 자원을 개발하거나 타 문명과 교역으로 사치 자원을 얻으면 자원 종류 하나당 행복이 증가합니다. 같은 자원이 여러 개 있다고 행복이 그만큼 증가하지는 않습니다.[NEWLINE][NEWLINE]건물: 특정 건물은 행복을 생산합니다. 콜로세움, 서커스, 극장 등이 그 예입니다. 문명 어디에 건물을 건설하든 보너스가 중첩됩니다. 즉, 문명 전체에 콜로세움이 두 개 있으면 한 개 있을 때보다 행복이 두 배로 증가합니다.[NEWLINE][NEWLINE]불가사의: 노트르담이나 에펠탑과 같은 일부 불가사의를 건설하면 행복이 크게 증가합니다.[NEWLINE][NEWLINE]사회 정책: 행복 증가에 집중하는 사회 정책 계열은 없지만, 다양한 정책으로 행복을 증가시키거나 불행을 감소시킬 수 있습니다.[NEWLINE][NEWLINE]기술: 기술을 개발하는 것 자체로 행복이 증가하지는 않지만, 기술을 개발하면 행복을 증가시켜주는 건물이나 불가사의, 자원, 사회 정책을 사용할 수 있게 됩니다.[NEWLINE][NEWLINE]종교: 일부 교리와 [ICON_PEACE]신앙을 구입하는 종교 건물은 행복을 증가시켜줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOLY_CITY_TOOLTIP_LINE">
+      <Text>{1_ReligionIcon} {2_ReligionName}의 성도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_GIFT_TILE_IMPROVEMENT">
+      <Text>타일 시설 선물 모드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEGAL_BODY">
+      <Text>© 1991-2012 Take-Two Interactive Software 및 자사. Firaxis Games에서 개발. Sid Meier's Civilization V, Civ, Civilization, 2K Games, Firaxis Games, Take-Two Interactive Software 및 각 로고는 모두 Take-Two interactive Software, Inc.의 상표입니다. Fork 저작권 © 2010 Fork Particle, Inc. Rapid XML 저작권 © 2006-2010 Marcin Kalicinski. Lua 저작권 © 1994-2010 Lua.org, PUC-Rio. Uses Granny Animation. 저작권 © 1999-2010 by RAD Game Tools, Inc. Uses Miles Sound System. 저작권 © 1991-2010 by RAD Game Tools, Inc. 등급 아이콘은 Entertainment Software Association의 상표입니다. 다른 모든 표시 및 상표의 소유권은 해당 기업에 있습니다. 모든 권리는 보호됩니다. 이 비디오게임의 콘텐츠는 허구이며 이 게임의 역사적 배경은 실제 사건이나 인물, 단체 등을 나타내거나 묘사하지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_AMAZON_XP">
+      <Text>아마존 플러스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_EUROPE">
+      <Text>유럽</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_EUROPE_HELP">
+      <Text>유럽 지형과 비슷하도록 무작위로 생성한 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_EUROPE_SCENARIO">
+      <Text>유럽(시나리오)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_EUROPE_SCENARIO_HELP">
+      <Text>유럽 지형과 비슷하도록 무작위로 생성한 지도입니다. 각 문명은 정해진 위치에서 시작합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FRONTIER">
+      <Text>개척지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FRONTIER_HELP">
+      <Text>개척지처럼 거친 환경을 만들기 위해 곳곳에 산맥이 펼쳐진 하나의 대륙입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GREAT_PLAINS_XP">
+      <Text>대초원 플러스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ISLANDS_HELP">
+      <Text>크고 작은 섬으로 이루어진 세상입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_NARROW_CONTINENTS_HELP">
+      <Text>길고 좁은 대륙으로 이루어진 세상입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_ARBOREA_ARID_HELP">
+      <Text>보통 지도보다 정글 지형이 적습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_ARBOREA_NORMAL_HELP">
+      <Text>보통 지도와 정글 지형의 크기가 비슷합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_ARBOREA_RAINFALL_HELP">
+      <Text>지도에서 정글 지형이 차지하는 비율과 사막 지형에 있는 오아시스의 수에 영향을 줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_ARBOREA_WET_HELP">
+      <Text>보통 지도보다 정글 지형이 많습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_RAINFOREST_ARID_HELP">
+      <Text>보통 지도보다 숲 지형이 많습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_RAINFOREST_NORMAL_HELP">
+      <Text>보통 지도보다 숲 지형이 조금 적습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_RAINFOREST_RAINFALL_HELP">
+      <Text>지도에서 숲 지형이 차지하는 비율과 사막 지형에 있는 오아시스의 수에 영향을 줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_RAINFOREST_WET_HELP">
+      <Text>숲 지형이 거의 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SHUFFLE">
+      <Text>셔플</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SHUFFLE_HELP">
+      <Text>기본 설정인 지질학적 나이, 강수량 등부터 완전히 무작위로 생성되는 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SMALL_ISLANDS_HELP">
+      <Text>작은 섬으로 이루어진 세상입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WIDE_CONTINENTS_HELP">
+      <Text>넓은 대륙으로 이루어진 세상입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_MADE_PEACE_WITH_MINOR_ALLIES">
+      <Text>{1_CivName:textkey}{1: plural 1?가; 2?이;} 다음 도시 국가와 평화 협상을 했습니다.[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_MADE_PEACE_WITH_MINOR_ALLIES_SUMMARY">
+      <Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 도시 국가와 평화 협상을 했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_MINOR_ALLIES_DECLARED_WAR_ON_YOU">
+      <Text>[COLOR_NEGATIVE_TEXT]{1_CivName:textkey}{1: plural 1?과; 2?와;} 동맹을 맺은 도시 국가가 플레이어에게 전쟁을 선포했습니다![ENDCOLOR][NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_MINOR_ALLIES_DECLARED_WAR_ON_YOU_SUMMARY">
+      <Text>도시 국가가 플레이어에게 전쟁을 선포했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_DECLARED_WAR">
+      <Text>플레이어와 동맹을 맺은 도시 국가가 {1_CivName:textkey}에게 전쟁을 선포했습니다.[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_DECLARED_WAR_SUMMARY">
+      <Text>플레이어와 동맹을 맺은 도시 국가가 전쟁을 선포했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_MADE_PEACE">
+      <Text>플레이어와 동맹을 맺은 도시 국가가 {1_CivName:textkey}{1: plural 1?과; 2?와;} 평화 협상을 했습니다.[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_MADE_PEACE_SUMMARY">
+      <Text>플레이어와 동맹을 맺은 도시 국가가 평화 협상을 했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION">
+      <Text>종교가 강화됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION">
+      <Text>종교가 창시됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY">
+      <Text>이단 제거</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REPAIR_FLEET">
+      <Text>함대 수리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION">
+      <Text>종교 전파</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVEMENT_EMBARKING_HEADING3_BODY">
+      <Text>게임이 시작되면, 지상 유닛들은 물이 있는 타일에는 들어갈 수 없습니다. 하지만 광학 기술이 개발되면, 지상 유닛들이 "승선"한 뒤 물이 있는 타일로 이동시킬 수 있는 기능이 추가됩니다. 유닛을 승선하려면, 유닛을 해안 타일로 이동한 뒤 "승선" 버튼을 클릭합니다. 승선한 상태에서 유닛은 물이 있는 곳으로 반드시 이동해야만 합니다. (광학 기술은 유닛들이 해안가의 물에 이동하는 것만을 가능하게 해줍니다. 이후 등장하는 천문학 기술이 개발되면, 유닛을 심해 타일로 이동할 수 있습니다.)[NEWLINE][NEWLINE]물에서 승선한 유닛들은 매우 느려지며, 거의 무력한 상태가 됩니다. 이들은 어느 정도는 수비를 할 수 있으나, 공격은 가할 수 없으며 사방이 트인 바다에 너무 오랫동안 혼자 놓여서는 안됩니다. 승선한 지상 유닛들은 강력한 해군과 함께 움직이는 것이 매우 중요합니다.[NEWLINE][NEWLINE]승선한 유닛이 다시 지상 타일에 근접하면, "상륙 모드" 버튼을 클릭할 수 있습니다. 그러면 유닛은 다시 지상으로 이동할 수 있게 됩니다.  지상 타일에 오른쪽 마우스 버튼을 클릭한 뒤 유닛을 클릭하면 자동으로 상륙하게 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ALREADY_CREATED_PANTHEON">
+      <Text>이미 종교관을 세웠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ALREADY_CREATED_RELIGION">
+      <Text>이미 종교를 창시했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_AUTOMATIC_FAITH_PURCHASE">
+      <Text>{2_City}에서 {1_Name}을(를) 구입했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_LIBERATED">
+      <Text>{1_PlayerName}이(가) {2_CityName}을(를) 정복해 {3_CivAdj}을(를) 수복했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CIV_LIBERATED_SHORT">
+      <Text>{1_CityName}이(가) {2_PlayerName}에게 돌려주었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED">
+      <Text>{1_PlayerName}이(가) {2_CityName}을(를) 정복해 {3_CivAdj}을(를) 수복했습니다. {4_CivName}이(가) 부활했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED_SHORT">
+      <Text>{2_PlayerName}이(가) {1_PlayerName}을(를) 해방했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DISCOVER_FREE_TECH">
+      <Text>발견할 기술을 선택하십시오!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENHANCE_RELIGION">
+      <Text>플레이어의 종교에 교리를 추가할 수 있습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENHANCED_RELIGION_IN_USE">
+      <Text>다른 플레이어가 종교를 강화했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_FAITH_FOR_MISSIONARY">
+      <Text>유닛이나 건물을 구입할의 [ICON_PEACE]신앙을 모았습니다. 해당 종교를 믿는 도시에서 원하는 항목을 구입하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_FAITH_FOR_PANTHEON">
+      <Text>종교관을 세울의 신앙을 모았습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_RELIGION">
+      <Text>이제 종교를 창시할 수 있습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_NEED_NEW_AUTOMATIC_FAITH_SELECTION">
+      <Text>자동 신앙 구입 항목으로 지정한 ({1_SelectionText}){1: plural 1?이; 2?가;} 더 이상 유효하지 않습니다. 종교 개요 화면에서 다른 항목으로 설정하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_NO_RELIGIONS_AVAILABLE">
+      <Text>더 이상 종교를 창시할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_NOT_ENOUGH_FAITH_FOR_PANTHEON">
+      <Text>종교관을 세우기에 충분한 신앙이 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_BELIEF_IN_USE">
+      <Text>해당 교리는 이미 다른 플레이어가 선택했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_IN_USE">
+      <Text>선택한 종교는 이미 다른 플레이어가 선택했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NAME_IN_USE">
+      <Text>이미 같은 이름의 종교가 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ALREADY_CREATED_PANTHEON">
+      <Text>이미 종교관을 세웠음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ALREADY_CREATED_RELIGION">
+      <Text>이미 종교를 창시했음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_AUTOMATIC_FAITH_PURCHASE">
+      <Text>자동 신앙 구입</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVER_FREE_TECH">
+      <Text>기술 발견</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENHANCE_RELIGION">
+      <Text>종교 강화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENHANCED_RELIGION_IN_USE">
+      <Text>강화 종교가 존재함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_FAITH_FOR_MISSIONARY">
+      <Text>신앙으로 구입 가능</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_FAITH_FOR_PANTHEON">
+      <Text>종교관 세우기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_RELIGION">
+      <Text>종교 창시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NEED_NEW_AUTOMATIC_FAITH_SELECTION">
+      <Text>새 자동 신앙 구입 항목 필요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NO_RELIGIONS_AVAILABLE">
+      <Text>종교 창시 불가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NOT_ENOUGH_FAITH_FOR_PANTHEON">
+      <Text>신앙 부족</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_PANTHEON_BELIEF_IN_USE">
+      <Text>이미 선택한 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RELIGION_IN_USE">
+      <Text>다른 문명이 종교를 창시함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RELIGION_NAME_IN_USE">
+      <Text>이미 사용하는 종교 이름임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]평지[ENDCOLOR](언덕, 숲, 정글 제외)에 있는 유닛과 싸울 때 [ICON_RANGE_STRENGTH] 원거리 공격력 보너스 +15% </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]평지[ENDCOLOR](언덕, 숲, 정글 제외)에 있는 유닛과 싸울 때 [ICON_RANGE_STRENGTH] 원거리 공격력 보너스 +15% </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]평지[ENDCOLOR](언덕, 숲, 정글 제외)에 있는 유닛과 싸울 때 [ICON_RANGE_STRENGTH] 원거리 공격력 보너스 +15% </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_1">
+      <Text>공중 매복 I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]기갑[ENDCOLOR] 유닛을 상대로 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_2">
+      <Text>공중 매복 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR">
+      <Text>공중 수리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR]를 상대로 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR]를 상대로 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR]를 상대로 [ICON_STRENGTH]전투력 보너스 34%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1">
+      <Text>공중 목표 설정 I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛을 상대로 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2">
+      <Text>공중 목표 설정 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMBUSH_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]기갑[ENDCOLOR] 유닛을 상대로 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMBUSH_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]기갑[ENDCOLOR] 유닛을 상대로 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_AIR">
+      <Text>항공기 및 헬리콥터 유닛 대항 보너스(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II">
+      <Text>폭격기 및 헬리콥터 유닛 대항 보너스(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER">
+      <Text>전투기 유닛 대항 보너스 (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I">
+      <Text>잠수함 유닛 공격 시 보너스(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II">
+      <Text>잠수함 유닛 공격 시 보너스(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_TANK">
+      <Text>기갑 유닛 대항 보너스 (100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지[ENDCOLOR](언덕, 숲 또는 정글)에 있는 유닛과 싸울 때 [ICON_RANGE_STRENGTH] 원거리 공격력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지[ENDCOLOR](언덕, 숲 또는 정글)에 있는 유닛과 싸울 때 [ICON_RANGE_STRENGTH] 원거리 공격력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지[ENDCOLOR](언덕, 숲 또는 정글)에 있는 유닛과 싸울 때 [ICON_RANGE_STRENGTH] 원거리 공격력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BLITZ_HELP">
+      <Text>턴마다 추가 공격 1회</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_1">
+      <Text>선박 침투조 I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]해상 유닛[ENDCOLOR]을 근접 공격할 때 [ICON_STRENGTH]전투력이 15% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_2">
+      <Text>선박 침투조 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]해상 유닛[ENDCOLOR]을 근접 공격할 때 [ICON_STRENGTH]전투력이 15% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3">
+      <Text>선박 침투조 III</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]해상 유닛[ENDCOLOR]을 근접 공격할 때 [ICON_STRENGTH]전투력이 15% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR]을 상대로 [ICON_STRENGTH]전투력 33% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR]을 상대로 [ICON_STRENGTH]전투력 33% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR]을 상대로 [ICON_STRENGTH]전투력 34% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CHARGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]부상 유닛[ENDCOLOR]을 상대로 [ICON_STRENGTH]전투력 33% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT">
+      <Text>도시 공격 보너스(300)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT_HELP">
+      <Text>도시 공격 보너스 300%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE">
+      <Text>도시 공격 보너스(200)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE_HELP">
+      <Text>도시 공격 보너스 200%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_1">
+      <Text>해안 강습 I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR]를 공격할 때 [ICON_STRENGTH]전투력이 20% 증가합니다. 도시에 준 피해의 33%만큼에 해당하는 골드를 훔칩니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_2">
+      <Text>해안 강습 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR]를 공격할 때 [ICON_STRENGTH]전투력이 20% 증가합니다. 도시에 준 피해의 33%만큼에 해당하는 골드를 훔칩니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_3">
+      <Text>해안 강습 III</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR]를 공격할 때 [ICON_STRENGTH]전투력이 20% 증가합니다. 도시에 준 피해의 33%만큼에 해당하는 골드를 훔칩니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COVER_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]원거리 공격[ENDCOLOR]에 대한 [COLOR_POSITIVE_TEXT]방어력[ENDCOLOR] 33% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COVER_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]원거리 공격[ENDCOLOR]에 대한 [COLOR_POSITIVE_TEXT]방어력[ENDCOLOR] 33% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL">
+      <Text>수도 근방 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP">
+      <Text>수도에서 싸울 때 30%만큼 더 강합니다. 수도에서 멀어지면 보너스가 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY">
+      <Text>방어 페널티 (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY_HELP">
+      <Text>방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-33%[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]물 타일[ENDCOLOR]에 승선할 수 있습니다. 승선한 유닛의 방어력이 2배가 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DISCIPLINE_HELP">
+      <Text>아군 유닛이 주위에 있을 때 [ICON_STRENGTH]전투력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]대공 무력화[ENDCOLOR]를 수행할 때 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]대공 무력화[ENDCOLOR]를 수행할 때 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]대공 무력화[ENDCOLOR]를 수행할 때 [ICON_STRENGTH]전투력 보너스 34%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지[ENDCOLOR](언덕이나 숲, 정글)에서 싸울 때 [ICON_STRENGTH]전투력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지[ENDCOLOR](언덕이나 숲, 정글)에서 싸울 때 [ICON_STRENGTH]전투력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지[ENDCOLOR](언덕이나 숲, 정글)에서 싸울 때 [ICON_STRENGTH]전투력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EMBARKATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]물 타일[ENDCOLOR]로 승선할 수 있음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EMBARKED_SIGHT">
+      <Text>승선 시 시야 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EMBARKED_SIGHT_HELP">
+      <Text>승선한 보통 유닛보다 더 멀리까지 볼 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FAST_ADMIRAL">
+      <Text>제독 기동성</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FAST_ADMIRAL_HELP">
+      <Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FAST_GENERAL">
+      <Text>장군 기동성</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FAST_GENERAL_HELP">
+      <Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FEARED_ELEPHANT">
+      <Text>코끼리의 위용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FEARED_ELEPHANT_HELP">
+      <Text>이 유닛 근처에 있는 적 유닛의 [ICON_STRENGTH]전투력이 10%만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FIRE_SUPPORT">
+      <Text>도시 공격 보너스 (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS">
+      <Text>향상된 측면 공격</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_HELP">
+      <Text>측면 공격 보너스가 50% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FORMATION_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]기마 유닛[ENDCOLOR] 유닛을 상대로 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FORMATION_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]기마 유닛[ENDCOLOR] 유닛을 상대로 [ICON_STRENGTH]전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GENERAL_STACKING">
+      <Text>위대한 장군 전투 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GENERAL_STACKING_HELP">
+      <Text>위대한 장군과 같은 타일에 있을 경우 15%만큼의 전투 보너스를 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_ADMIRAL">
+      <Text>해상 지도력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_ADMIRAL_HELP">
+      <Text>주위 해상 유닛의 전투력이 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL_HELP">
+      <Text>주변 지상 유닛의 전투력 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+      <Text>유닛 처치 시 체력 회복 (50)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+      <Text>야만인 제외 적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+50[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]이 유닛의 HP를 50만큼 회복[ENDCOLOR] 합니다. 이렇게 하면 [COLOR_POSITIVE_TEXT]승급 기회[ENDCOLOR]를 상실합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAVY_PAYLOAD">
+      <Text>도시 공격 보너스 (50)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_1">
+      <Text>기갑 유닛 대항 보너스(25)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_2">
+      <Text>기갑 유닛 대항 보너스(25)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+      <Text>유닛은 산을 건널 수 있으나 산 위에서 턴을 끝내면 피해를 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1_HELP">
+      <Text>적 항공기를 요격할 때 [ICON_STRENGTH]전투력 33% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2_HELP">
+      <Text>적 항공기를 요격할 때 [ICON_STRENGTH]전투력 33% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3_HELP">
+      <Text>적 항공기를 [COLOR_POSITIVE_TEXT]요격[ENDCOLOR]할 때 [ICON_STRENGTH]전투력 34% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_JAGUAR">
+      <Text>숲/정글 지형 보너스 (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_JAGUAR_HELP">
+      <Text>숲/정글에서 전투력 보너스 33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MEDIC_HELP">
+      <Text>주위 타일에 있는 모든 아군 유닛이 턴당 [COLOR_POSITIVE_TEXT]5만큼의 HP[ENDCOLOR]를 추가로 회복합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MEDIC_II">
+      <Text>의무병 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MEDIC_II_HELP">
+      <Text>주위 타일에 있는 모든 아군 유닛이 턴당 체력 [COLOR_POSITIVE_TEXT]5[ENDCOLOR]를 추가로 회복합니다. 이 유닛이 [COLOR_POSITIVE_TEXT]우호 지역을 떠날 경우[ENDCOLOR] 턴당 [COLOR_POSITIVE_TEXT]5만큼의 HP[ENDCOLOR]를 추가로 회복합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOHAWK">
+      <Text>숲/정글 지형 보너스(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOHAWK_HELP">
+      <Text>숲/정글 타일 에서 전투력 33% 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOUNTED_PENALTY">
+      <Text>기마 유닛 대항 페널티 (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL">
+      <Text>장군에게 이동력 양도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL_HELP">
+      <Text>턴 시작에 위대한 장군과 이 유닛이 같은 타일에 있었다면 위대한 장군은 이번 턴에 이 유닛이 이동하는 이동할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NATIONALISM_HELP">
+      <Text>우호 지역에서 공격력 15% 증가 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_BONUS">
+      <Text>해상 유닛 대항 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_BONUS_HELP">
+      <Text>해상 유닛 대항 보너스 (50)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_PENALTY">
+      <Text>해상 유닛 대항 페널티 (50)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES">
+      <Text>도시만 공격 가능</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES_HELP">
+      <Text>도시만 공격할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+      <Text>유닛 처치 시 채력 25 회복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_PRIZE_SHIPS">
+      <Text>선박 나포</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_PRIZE_SHIPS_HELP">
+      <Text>패배한 적 해상 유닛이 아군에 합류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_2_HELP">
+      <Text>시야 범위 1 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_3_HELP">
+      <Text>이동력 1 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SENTRY_HELP">
+      <Text>시야 범위 1 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]평지[ENDCOLOR](언덕, 숲, 정글 제외)에서 싸울 때 [ICON_STRENGTH]전투력 보너스 +15% </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]평지[ENDCOLOR](언덕, 숲, 정글 제외)에서 싸울 때 [ICON_STRENGTH]전투력 보너스 +15% </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]평지[ENDCOLOR](언덕, 숲, 정글 제외)에서 싸울 때 [ICON_STRENGTH]전투력 보너스 +15% </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SIEGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR]를 상대로 [ICON_STRENGTH]전투력 보너스 50%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SILENT_HUNTER">
+      <Text>공격 시 보너스(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STEAM_POWERED">
+      <Text>해변에서 이동력 2배</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED">
+      <Text>부상당한 적 공격 보너스 (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SUPPLY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]우호 지역 밖에서[ENDCOLOR] 피해를 회복할 수 있습니다. 턴마다 HP를 15만큼 회복합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1_HELP">
+      <Text>우호 지역을 벗어나면 턴마다 HP를 5만큼 회복하며 방어력이 25% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2_HELP">
+      <Text>우호 지역을 벗어나면 턴마다 HP를 5만큼 회복하며 방어력이 25% 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3_HELP">
+      <Text>유닛이 이동력을 소모해도 [COLOR_POSITIVE_TEXT]턴마다 체력을 회복[ENDCOLOR]합니다. 근접 공격을 받으면 후퇴를 시도합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]해상 유닛[ENDCOLOR]을 상대로 [ICON_STRENGTH]전투력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]해상 유닛[ENDCOLOR]을 상대로 [ICON_STRENGTH]전투력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]해상 유닛[ENDCOLOR]을 상대로 [ICON_STRENGTH]전투력 보너스 15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_UNWELCOME_EVANGELIST">
+      <Text>불청객 전도사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_UNWELCOME_EVANGELIST_HELP">
+      <Text>국경 개방 조약이 없어도 상대 영토에 들어갈 수 있지만 상대 영토에 머무는 동안 한 턴에 25%만큼 믿음이 감소합니다. 믿음이 0이 되면 유닛이 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_VOLLEY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]방어 태세를 갖춘 유닛[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]도시[ENDCOLOR]를 상대로 [ICON_STRENGTH]전투력 보너스 50%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WAR_CANOES">
+      <Text>전투용 카누</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WAR_CANOES_HELP">
+      <Text>승선 유닛 방어력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR][NEWLINE]승선 시 시야 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE">
+      <Text>근접전 회피</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP">
+      <Text>유닛이 근접 공격에 직면하면 철수합니다. 적 유닛의 속도가 빠르거나 유닛 뒤에 이동 가능한 타일이 한정되어 있으면 철수할 확률이 줄어듭니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_NO_FOLLOWERS">
+      <Text>도시에 신자가 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_TOOLTIP_LINE">
+      <Text>{1_ReligionIcon} 신자 {2_NumFollowers}명 {3_PressureString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGIOUS_PRESSURE_STRING">
+      <Text>(+{1_Pressure} 포교력)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_ABILITIES_HEADING3_BODY">
+      <Text>
+        위대한 제독(아래 참조)을 제외한 위인은 모두 능력이 두 개 있습니다.[NEWLINE]- 위인을 소모하여 특수 시설을 건설할 수 있습니다.[NEWLINE]- 기타 특수 능력을 사용할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_CITADEL_HEADING4_BODY">
+      <Text>성채를 건설하면 주위 타일이 플레이어의 영토로 변합니다.  성채는 주둔하는 유닛에 큰 방어 보너스를 줍니다. 게다가 성채 주위에서 턴을 끝내는 적 유닛은 피해를 받습니다. 하지만 이 피해는 주위에 성채가 몇 개 있든 한 번만 받게 됩니다. 자신이 건설한 성채라도 다른 문명이 주위 도시를 점령하는 등의 이유로 타일의 소유권이 바뀌면 해당 문명의 성채가 됩니다. 성채를 건설해 다른 문명의 영토를 잠식하면 해당 문명과의 외교 관계가 악화됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_COMBATBONUS_HEADING4_BODY">
+      <Text>위대한 장군은 2타일 이내에 있는 모든 아군 지상 유닛들에 15%의 전투 보너스를 줍니다. 전투 보너스는 근접 공격 유닛, 원거리 공격 유닛 및 모든 종류의 지상 유닛에 같이 적용됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_CULTUREBOMB_HEADING4_BODY">
+      <Text>위대한 예술가는 "황금기"를 시작할 수 있습니다. 황금기는 문명의 생산성이 크게 향상되는 시기입니다. 황금기가 시작되면 골드를 생산하는 타일에서는 추가로 골드를 1만큼 더 생산하며 도시의 생산(망치)이 20%만큼 증가하고 문명 전체에서 [ICON_CULTURE]문화가 20%만큼 더 생산됩니다. 황금기의 지속 기간은 게임의 난이도와 진행 속도에 따라 다릅니다. 황금기를 시작하면 위대한 예술가가 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_CULTUREBOMB_HEADING4_TITLE">
+      <Text>특수 능력: 황금기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_ADV_QUEST">
+      <Text>위대한 제독의 능력은 무엇인가요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_BODY">
+      <Text>위대한 제독은 주위 2타일에 있는 아군 해상 유닛의 전투력을 15%만큼 올려줍니다. 이 보너스는 근접, 원거리, 방어 등 모든 해상 전투에 적용됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_TITLE">
+      <Text>특수 능력: 전투 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_ADV_QUEST">
+      <Text>{TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_ADV_QUEST}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_BODY">
+      <Text>{TXT_KEY_MISSION_REPAIR_FLEET_HELP}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_TITLE">
+      <Text>특수 능력: 함대 수리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ADV_QUEST">
+      <Text>위대한 제독이란 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY">
+      <Text>위대한 제독은 위대한 장군과 동일한 기능을 합니다. 하지만 위대한 제독은 도시에서 전문가가 생산하는 대신 해전을 통해 탄생하게 됩니다. 해상 유닛이 경험치를 얻을 때마다 문명은 위대한 제독 점수를 얻게 됩니다. 그리고 이 점수가 충분히 쌓이게 되면 위대한 제독이 탄생합니다. 이 때 다음 위대한 제독을 탄생시키기 위한 점수 요구치는 함께 상승하게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_TITLE">
+      <Text>위대한 제독</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_ADV_QUEST">
+      <Text>위대한 선지자의 능력은 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_BODY">
+      <Text>위대한 선지자는 종교를 4번까지 전파할 수 있습니다. 도시에 종교를 전파하면 기존 종교가 사라집니다. 위대한 선지자를 이런 식으로 사용하면 소모됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_TITLE">
+      <Text>특수 능력: 종교 전파</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ADV_QUEST">
+      <Text>위대한 선지자란 무엇입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_BODY">
+      <Text>[ICON_PEACE]신앙을 모으면 위대한 선지자가 출현합니다. 종교를 창시하거나 강화하려면 반드시 위대한 선지자가 필요합니다. [ICON_PEACE]신앙을 200 이상 모으면 위대한 선지자가 출현할 확률이 있습니다. 위대한 선지자가 출현하면 "종교 창시" 능력으로 맞춤 종교를 창시할 수 있습니다. 다른 위인과 마찬가지로 위대한 선지자도 특별한 타일 시설을 건설하는 능력 등 다른 능력도 가지고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_ADV_QUEST">
+      <Text>위대한 선지자는 시설을 건설할 수 없나요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_BODY">
+      <Text>위대한 선지자로 [ICON_PEACE]신앙을 추가로 생산하는 특수 시설인 성지를 건설할 수 있습니다. 이렇게 하면 위대한 선지자가 소모됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_TITLE">
+      <Text>특수 시설: 성지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_TITLE">
+      <Text>위대한 선지자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_LEARNNEWTECH_HEADING4_BODY">
+      <Text>위대한 과학자를 사용하여 플레이어 문명이 이전 여덟 턴 동안 생산한 평균 과학에 해당하는 과학을 한 번에 얻을 수 있지만, 이렇게 하면 위대한 과학자가 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_LEARNNEWTECH_HEADING4_TITLE">
+      <Text>특수 능력: 자유 과학</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_MOVINGGREATPEOPLE_HEADING2_BODY">
+      <Text>위인은 다른 유닛과 마찬가지로 지도 위를 돌아다닐 수 있습니다. 이들은 비전투 유닛이므로 노동자나 개척자와 같은 다른 비전투 유닛이 있는 타일에는 들어갈 수 없지만 군사 유닛과 같은 타일에 들어갈 수 있습니다. 적 유닛이 위인이 있는 타일로 이동하면 위인은 파괴됩니다(적은 위인을 얻지 못합니다). 예외적으로 위대한 선지자를 생포할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_GREATSCIENTIST_HEADING4_BODY">
+      <Text>위대한 과학자로 기술 한 개를 바로 얻거나 유닛을 소모해 아카데미 시설을 건설할 수 있습니다. 아카데미 타일에 시민을 배치하면 턴당 비커가 10개 생성됩니다. 더 자세한 내용을 보려면 위인 부분을 참조하십시오. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_DESERT_HEADING3_BODY">
+      <Text>사막 타일은 보통 쓸모없는 땅입니다. 사막 타일은 오아시스나 자원이 있다거나 담수와 연결되지 않았다면 도시에 아무 것도 제공하지 않습니다.[NEWLINE] 단 페트라와 사막의 전설로 이번 확장팩에서는 조금 나아졌습니다. [NEWLINE][NEWLINE]도시 생산: 없음[NEWLINE]이동 비용: 1[NEWLINE]보정치: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_GRASSLAND_HEADING3_BODY">
+      <Text>초원은 보통 다른 지형보다 식량을 많이 생산하므로 초원에 세운 도시는 다른 곳에 세운 도시보다 빨리 성장합니다.[NEWLINE][NEWLINE]도시 생산: 식량 2[NEWLINE]이동 비용: 1[NEWLINE]보정치: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_MOUNTAIN_HEADING3_BODY">
+      <Text>산악 지형은 비행 유닛을 제외한 모든 유닛(카르타고 제외)이 통과할 수 없는 높고 험준한 산맥입니다. 산악 지형은 외세의 침략을 막아주는 방패 역할 외에는 그다지 쓸모가 없습니다.[NEWLINE][NEWLINE]도시 수확량: 없음[NEWLINE]소모 이동력: 이동 불가(비행 유닛과 카르타고 유닛 제외)[NEWLINE]전투 보정치: 25% 방어 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_PLAINS_HEADING3_BODY">
+      <Text>평원은 근처 도시에 식량과 생산을 골고루 제공합니다. 평원에 세운 도시는 초원에 세운 도시보다 성장 속도가 느리지만 보다 생산적입니다.[NEWLINE][NEWLINE]도시 생산: 식량 1, 생산 1[NEWLINE]이동 비용: 1[NEWLINE]보정치: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_SNOW_HEADING3_BODY">
+      <Text>설원은 황량하므로 근처 도시에 식량이나 생산을 제공하지 않습니다. 물론 설원에도 자원이 있을 수 있으나, 보통은 춥고 황량한 지역일 뿐입니다.[NEWLINE][NEWLINE]도시 생산: 없음[NEWLINE]이동 비용: 1[NEWLINE]보정치: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_TUNDRA_HEADING3_BODY">
+      <Text>툰드라는 추운 지역에서 발견되는 반쯤 얼어붙은 땅입니다. 평원이나 초원보다는 쓸모가 없지만 사막보다는 낫습니다. 보통 꼭 필요한 자원이 있다거나 달리 도시를 세울 곳이 없을 경우에만 툰드라에 도시를 세웁니다.[NEWLINE][NEWLINE]도시 생산: 식량 1[NEWLINE]이동 비용: 1[NEWLINE]보정치: 0%
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AUSTRIAN_HUSSAR_STRATEGY">
+      <Text>후사르는 뛰어난 정찰병이며 측면 공격자입니다. 대체하는 기병대보다 약간 빠릅니다. 시야가 1만큼 증가하고 측면 공격 시 보너스가 50% 증가하는 승급을 가지고 시작합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY">
+      <Text>카타프락토이는 기마병을 대체하는 비잔티움 고유 유닛입니다. 카타프락토이는 기마병보다 느리지만 더 강력하여 기사가 등장하기 전까지는 최강의 기마 유닛 중 하나입니다. 공격한 후에도 이동할 수 있습니다. 기마병과는 달리 방어 보너스를 획득할 수 있습니다.  도시 공격에 따르는 페널티도 크지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY">
+      <Text>비잔티움만 만들 수 있는 유닛입니다. 강력한 그리스화염으로 공격하는 이 유닛은 최초로 원거리 공격이 가능한 해상 유닛입니다. 다른 해상 유닛과 전투 시 전투력이 50% 증가합니다. 대양을 항해할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARAVEL_STRATEGY">
+      <Text>캐러벨은 문명의 해군력에 큰 보탬이 됩니다. 근접 공격 유닛으로, 삼단노선보다 강하고 빠르며, 심해 타일에도 들어갈 수 있습니다. 캐러벨의 빠른 속도는 적의 해상 유닛이 근접 공격을 가하기 전 멀리 떨어질 수 있는 기동력을 보강해 줍니다. 캐러벨은 시야도 굉장히 넓어서 게임 중반 해군의 눈과 귀가 되어줍니다. 시야 보너스는 캐러벨이 구축함으로 업그레이 되면 사라지게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY">
+      <Text>북아프리카 숲 코끼리는 기마병을 대체하는 카르타고 고유 유닛입니다. 북아프리카 숲 코끼리는 기마병보다 느리지만 더 강력합니다. 공격한 후에도 이동할 수 있습니다.  인근의 적에게 공포를 심어주어 마이너스 보정치를 줍니다. 코끼리로 적을 물리치면 위대한 장군이 나타날 확률이 더 높아집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME_STRATEGY">
+      <Text>카르타고만 만들 수 있는 유닛입니다. 삼단노선의 강화된 버전으로, 삼단노선과 같이 근접 공격 유닛이며 해상 유닛이나 도시를 공격할 수 있습니다(원거리 공격 불가). 오단노선은 대양을 항해할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY">
+      <Text>픽트족 전사는 켈트족 고유의 유닛입니다. 초반 러시에 이상적인 픽트족 전사는 약탈 후 이동할 수 있으므로 단시간에 적의 영토를 초토화할 수 있습니다.  유닛을 파괴할 때마다 [ICON_PEACE]신앙을 생성하므로 전쟁을 통해 종교를 강화할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_COMPOSITE_BOWMAN_STRATEGY">
+      <Text>합성궁병은 궁병보다 훨씬 더 강력합니다. 원거리 유닛으로서 1~2타일 떨어져 있는 다른 중세 유닛에게 큰 피해를 줄 수 있으나 근접 공격에는 취약합니다. 합성궁병을 도시에 주둔시켜 방어를 강화하고 이동 시에는 근접 유닛으로 보호하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CROSSBOWMAN_STRATEGY">
+      <Text>석궁병는 합성궁병보다 강력합니다. 원거리 유닛으로, 석궁병는 다른 중세 유닛들에게 최대 2칸을 떨어진 곳에서 강력한 공격을 가할 수 있지만, 근접 공격에는 매우 약합니다. 석궁병들은 도시 방어용으로 사용하기에 매우 쉽습니다. 움직이는 중에는 근접 공격 유닛으로 호위해 주는 것이 좋습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_DESTROYER_STRATEGY">
+      <Text>구축함은 적 잠수함과 대공 방어를 지원할 수 있는 해상 근접 공격 유닛입니다. 구축함은 주로 승선 중인 다른 유닛들을 보호하거나, 전함과 항공모함이 적의 항공기나 잠수함의 사정거리 안에 있을 때 보호해 줄 수도 있습니다. 구축함은 빠른 속도를 이용해 적의 해상 유닛이 근접 공격을 가하기 전 멀리 떨어질 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GALLEASS_STRATEGY">
+      <Text>갈레아스는 이 게임에 등장하는 대부분의 문명이 처음 만들 수 있는 원거리 해상 유닛입니다. 초반 해상 유닛보다 훨씬 강하나 약간 느립니다. 근접 공격을 할 수 없습니다. 갈레아스는 얕은 바다에서 적함을 몰아내는 데 유용합니다. 폴리네시아에서 온 갈레아스를 제외한 모든 갈레아스는 대양을 항해할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GALLEY_STRATEGY">
+      <Text>갤리는 야만인 유닛으로, 주로 승선한 유닛들을 제거하기 위해 바닷가에 진을 치고 있습니다. 다른 해상 유닛들에 비해 약하지만, 숫자가 많으면 위협적일 수 있습니다. 근접 공격 유닛으로, 바다 또는 도시에 있는 유닛들을 공격할 수 있습니다. (원거리 공격 불가)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GATLINGGUN_STRATEGY">
+      <Text>개틀링 기관총은 도시를 공격할 수 없는 마지막 원거리 유닛입니다. 석궁병 등의 이전 원거리 유닛보다 훨씬 더 강력합니다. 사정거리는 1타일이지만 반격을 받지 않고 다른 유닛에게 큰 피해를 줄 수 있습니다. 기관총을 도시에 배치해 수비를 강화하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY">
+      <Text>위대한 제독은 자신이 있는 타일과 주변 타일에 있는 모든 해상 유닛의 피해를 즉각 회복시키는 능력이 있습니다. 이 능력을 사용하면 위대한 제독이 사라집니다. 2타일 내에 있는 모든 플레이어 소유의 해상 유닛에게 15%만큼의 전투 보너스를 제공합니다. 전투 보너스를 받는 대상에 위대한 제독은 포함되지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY">
+      <Text>위대한 예술가는 랜드마크라고 하는 특별한 타일 시설을 건설할 수 있습니다. 랜드마크가 있는 도시는 [ICON_CULTURE]문화를 대량으로 생산합니다. 위대한 예술가는  황금기를 시작할 수 있습니다. 위 능력 중 하나를 사용하면 위대한 예술가가 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY">
+      <Text>위대한 기술자는 제조공장이 있는 타일의 [ICON_PRODUCTION]생산을 크게 향상하는 [COLOR_POSITIVE_TEXT]제조공장[ENDCOLOR]을 건설할 수 있습니다.  위대한 기술자는 도시의 건물 생산 속도를 증가시키는 [COLOR_POSITIVE_TEXT]생산 가속[ENDCOLOR]을 할 수 있습니다. 위 능력 중 하나를 사용하면 위대한 기술자가 사라집니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY">
+      <Text>위대한 장군은 성채라는 특수 시설을 건설할 수 있는데, 성채와 같은 타일에 있는 유닛은 큰 방어 보너스를 받습니다. 성채를 건설하면 주변 타일이 플레이어의 영토가 되며 성채 옆에 있는 적 유닛에게 피해를 줍니다. 성채를 건설하면 위대한 장군이 사라집니다. 위대한 장군은 2타일 내의 모든 플레이어 소유 유닛에 15%의 전투력 보너스를 제공합니다. 보너스 제공 때문에 장군이 사라지지는 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY">
+      <Text>위대한 상인은 [ICON_GOLD]골드를 대량으로 생산하는 [COLOR_POSITIVE_TEXT]세관[ENDCOLOR]을 건설할 수 있습니다.  위대한 상인은 도시 국가로 이동해서 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 수행하여 [ICON_GOLD]골드를 생성하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다. 위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_PROPHET_STRATEGY">
+      <Text>위대한 선지자는 종교를 창시하거나 강화할 수 있는 유일한 유닛입니다. 위대한 선지자는 많은 [ICON_PEACE]신앙을 획득할 수 있는 성지를 건설할 수 있습니다.  위대한 선지자는 해당 도시의 이전 종교를 모두 대체하면서 종교를 4번 전파할 수 있습니다. 위의 방법 중 어느 한 가지로 사용하고 나면 위대한 선지자는 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY">
+      <Text>위대한 과학자는 [ICON_RESEARCH]과학을 대량으로 생산하는 [COLOR_POSITIVE_TEXT]아카데미[ENDCOLOR]를 건설할 수 있습니다.  위대한 과학자는 플레이어 문명의 과학을 바탕으로 대량의 [COLOR_POSITIVE_TEXT]과학[ENDCOLOR]을 한꺼번에 생산할 수 있습니다. 위 능력 중 하나를 사용하면 위대한 과학자가 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_WAR_INFANTRY_STRATEGY">
+      <Text>1차 세계대전 보병은 현대 시대의 기본 보병 유닛입니다. 이 유닛은 전 단계 유닛인 소총병보다 훨씬 강력합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_AUSTRIAN_HUSSAR">
+      <Text>기병대를 대체하는 오스트리아의 고유 유닛입니다. 정찰과 치고 빠지기 작전에 알맞도록 이동력이 높은 기마 유닛입니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BATTLESHIP">
+      <Text>미사일 순양함이 나오기 전까지 가장 강력한 해상 원거리 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BYZANTINE_CATAPHRACT">
+      <Text>기마병을 대체하는 비잔티움의 고유 유닛입니다. 빠르고 강한 초반 기마 유닛입니다. 창병에 약합니다. 기마병보다 [ICON_STRENGTH]전투력과 방어 능력이 높고 도시를 공격할 때 효율적입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON">
+      <Text>삼단노선을 대체하는 비잔티움의 고유 유닛입니다. 원거리 공격으로 고전 시대까지 바다를 지배한 고대 시대 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CARAVEL">
+      <Text>르네상스 시대 유닛으로, 빠르고 시야가 넓으며 대양을 건널 수 있어 탐험에 적합합니다. 근접 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT">
+      <Text>기마병을 대체하는 카르타고의 고유 유닛입니다. 강력한 초반 기마 유닛입니다. 창병에 약합니다. 기마병보다 [ICON_STRENGTH]전투력이 높으며 주위 적에게 공포감을 심어줍니다. 위대한 장군이 더 빨리 출현하도록 돕습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_QUINQUEREME">
+      <Text>삼단노선을 대체하는 카르타고의 고유 유닛입니다. 근접 공격으로 해상 유닛과 도시를 공격할 수 있는 강력한 고대 시대 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CAVALRY">
+      <Text>동급 보병과 접근전을 벌일 수 있는 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR">
+      <Text>창병을 대체하는 켈트의 고유 유닛입니다. 우호 지역을 벗어나면 전투 보너스를 받으며 이동력을 소모하지 않고 적 시설을 약탈할 수 있습니다. 죽인 적 유닛 전투력의 50%만큼의 [ICON_PEACE]신앙을 얻습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CHARIOR_ARCHER">
+      <Text>평지에서 매우 효과적인 빠른 원거리 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_COMPOSITE_BOWMAN">
+      <Text>고전 시대 원거리 보병 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_COSSACK">
+      <Text>동급 보병과 접근전을 벌일 수 있는 기마 유닛입니다.[NEWLINE][NEWLINE]러시아만 만들 수 있습니다. 이 유닛은 피해를 입은 유닛을 상대로 전투 보너스를 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_DESTROYER">
+      <Text>게임 후반 해상 유닛으로, 빨라서 정찰에 적합합니다. 적 잠수함을 찾아 파괴하는 데 사용하기도 합니다. 근접 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT">
+      <Text>빠른 원거리 유닛입니다. 이집트만 만들 수 있습니다. 이 유닛은 전차 궁병를 대체하며 만드는데 [ICON_RES_HORSE]말이 필요하지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_FOREIGN_LEGION">
+      <Text>현대 시대의 기본 보병 유닛입니다. 프랑스만 만들 수 있습니다. 이 유닛은 1차 세계대전 보병을 대체하며 우호 지역 밖에서 전투 보너스를 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_GALLEASS">
+      <Text>중세 시대의 제해권을 다툴 수 있는 원거리 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_GATLINGGUN">
+      <Text>공격하려면 적 옆에 붙어야 하는 게임 중반 원거리 보병 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_GREAT_WAR_INFANTRY">
+      <Text>현대 시대의 기본 보병 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+      <Text>현대 전차 유닛과 지상함을 전문으로 상대하는 유닛입니다. 산악 타일 위에 떠 있을 수 있지만, 산악 타일에서 턴을 끝내면 피해를 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_HUN_BATTERING_RAM">
+      <Text>창병을 대체하는 훈의 고유 유닛입니다. 근접전으로 도시에 엄청난 피해를 줄 수 있는 무시무시한 공성 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_HUN_HORSE_ARCHER">
+      <Text>궁전차를 대체하는 훈의 고유 유닛입니다. 치고 빠지기에 적합한 빠른 원거리 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_INFANTRY">
+      <Text>기계화 보병이 출현하기 전까지 가장 강력한 보병 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_INQUISITOR">
+      <Text>도시에 퍼진 다른 종교를 제거하고 주둔 도시에 타 종교의 선교 행위를 막는 유닛입니다. [ICON_PEACE]신앙으로만 구입할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_IRONCLAD">
+      <Text>철갑선은 매우 강력한 해상 유닛이지만 대양 타일에서 다른 유닛보다 느리게 이동합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_LANCER">
+      <Text>다른 기마 유닛을 상대하는 데 특화된 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MACHINE_GUN">
+      <Text>적을 공격하려면 바로 옆에 붙어야 하는 게임 후반 원거리 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MARINE">
+      <Text>바다를 건너 침공하기에 적합한 원자력 시대 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST">
+      <Text>궁병을 대체하는 마야의 고유 유닛입니다. 이 유닛은 궁병보다 이른 시기부터 사용할 수 있으며 가격도 더 저렴합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MECH">
+      <Text>방어 보너스를 받지 못하지만, 게임에 등장하는 가장 강력한 군사 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MEHAL_SEFARI">
+      <Text>소총병을 대체하는 에티오피아의 고유 유닛입니다. 험지나 에티오피아의 수도를 방어하는 데 특화된 강력한 최전방 지상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER">
+      <Text>적 항공기를 막아주는 해상 유닛입니다. 미사일을 3개 탑재할 수 있습니다. 적 잠수함을 찾아 파괴하는 데 사용합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MISSIONARY">
+      <Text>도시에 종교를 전파하는 유닛입니다. [ICON_PEACE]신앙으로만 구입할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MODERN_ARMOR">
+      <Text>빠르고 강력한 게임 후반 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY">
+      <Text>강력한 중세 시대 기마 유닛으로, 장창병에 약합니다. 송가이만 만들 수 있습니다. 기사를 대체하는 이 유닛은 기사와는 달리 도시를 공격해도 페널티를 받지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_SUBMARINE">
+      <Text>구축함이나 미사일 순양함, 다른 잠수함에게 탐지당하며 공격하거나 다른 유닛 바로 옆에 있으면 탐지당합니다. 미사일 2개를 탑재할 수 있으며 해상 유닛을 공격하는 데 특화되어 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+      <Text>빠르고 강력한 게임 후반 유닛입니다.[NEWLINE][NEWLINE]독일만 만들 수 있습니다. 전차를 대체하는 이 유닛은 전차보다 이동력이 1 많습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_PRIVATEER">
+      <Text>해안 도시를 공격해 골드를 얻거나 적 배를 나포하는 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SEA_BEGGAR">
+      <Text>해안 도시를 공격해 골드를 얻거나 적 배를 나포하는 해상 유닛입니다. 네덜란드만 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SIPAHI">
+      <Text>다른 기마 유닛을 상대하는 데 특화된 기마 유닛입니다. 오스만제국만 만들 수 있습니다. 창기병을 대체하는 이 유닛은 창기병보다 빠르고 시야도 더 넓습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SUBMARINE">
+      <Text>구축함이나 미사일 순양함, 다른 잠수함에게 탐지당하며 공격하거나 다른 유닛 바로 옆에 있으면 탐지당합니다. 몰래 다른 배에 접근해 큰 피해를 줄 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN">
+      <Text>소총병을 대체하는 스웨덴의 고유 유닛입니다. 장거리 원정에 적합한 강력한 최전방 지상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA">
+      <Text>창기병을 대체하는 스웨덴의 고유 유닛입니다. 위대한 장군과 궁합이 잘 맞는 정예 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TANK">
+      <Text>빠르고 강력한 게임 후반 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TRIPLANE">
+      <Text>적 항공기를 요격하는 초반 공중 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TRIREME">
+      <Text>해상 유닛과 해안 도시를 상대에 근접하여 싸우는 강력한 고대 시대 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_WWI_BOMBER">
+      <Text>적 유닛과 도시를 폭격할 수 있는 초반 공중 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_WWI_TANK">
+      <Text>게임 후반에 처음 등장하는 이 강력한 유닛은 공격한 다음 이동할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HUN_BATTERING_RAM_STRATEGY">
+      <Text>공성추는 창병을 대체하는 훈 고유 유닛입니다. 도시의 방어를 무너뜨릴 때 공성추를 사용하십시오. 엄폐 I 승급을 하면 원거리 유닛의 공격이 통하지 않습니다. 공성추를 격파하려면 근접 유닛으로 공격하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY">
+      <Text>기마 궁병는 속도가 빠른 원거리 유닛이며 개방 지형에서 특히 강합니다. 전차 궁병보다 약간 방어력이 높으며 전차 궁병와는 달리 험한 지형에서도 추가 이동력 페널티를 받지 않습니다.  정확도 I 승급 상태에서 시작합니다. 기마 궁병는 기마 유닛이므로 창병의 공격에 취약합니다. 전차 궁병와는 달리 기마 궁병는 말이 없어도 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_INFANTRY_STRATEGY">
+      <Text>보병은 전신인 1차 세계대전 보병보다 훨씬 강력합니다. 현대의 전투는 복잡해서 보병 단독으로는 공중, 대포, 전차 공격에 약합니다. 보병은 가능하다면 대포, 전차, 공중 또는 대공 유닛으로부터 보호하는 것이 좋습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_INQUISITOR_STRATEGY">
+      <Text>[ICON_PEACE]신앙을 사용해서 대중 종교가 강화된 도시 어디에서나 구매할 수 있습니다. 플레이어 도시에서 다른 종교를 제거할 수 있으며(이단심문관 사용) 이단 심문관을 도시에 배치하면 다른 종교가 전파되는 것을 막을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_IRONCLAD_STRATEGY">
+      <Text>철갑함은 최초의 증기 군함입니다. 근접 해상 공격 유닛이며, 돛이 달린 배보다 파괴하기가 어렵고 전투력도 더욱 강합니다. 근해 수비나 도시 공격에 이용하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MACHINE_GUN_STRATEGY">
+      <Text>기관총은 도시를 공격할 수 없는 마지막 원거리 유닛입니다. 개틀링 기관총 등의 이전 원거리 유닛보다 훨씬 더 강력합니다. 사정거리는 1타일이지만 반격을 받지 않고 다른 유닛에게 큰 피해를 줄 수 있습니다. 근접 공격에 취약합니다. 기관총을 도시에 배치해 수비를 강화하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MARINE_STRATEGY">
+      <Text>해병대는 보병을 대체하는 유닛입니다. 보병보다 약간 비싸나 바다에서 시야와 공격력이 높아지는 승급을 갖고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY">
+      <Text>아틀라틀병은 궁병를 대체하는 마야의 고유 유닛입니다. 아틀라틀병은 궁병보다 싸며 궁술을 연구하지 않아도 사용할 수 있습니다. 게임 초반에 더 급한 기술을 연구할 수 있으므로 이득입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY">
+      <Text>메할 세파리는 에티오피아군의 중추입니다. 험한 지형과 수도 근처에서 전투할 때 보너스를 받는 승급을 가지고 시작합니다. 대체하는 소총병보다 약간 가격이 쌉니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MISSIONARY_STRATEGY">
+      <Text>[ICON_PEACE]신앙을 사용해서 대중 종교가 강화된 도시 어디에서나 구매할 수 있습니다. 도시에 인접했을 때 그 도시에 종교를 전파할 수 있습니다. 선교사를 이렇게 두 번 사용하면 사라집니다. 국경을 개방하지 않은 문명의 영토에 들어간 선교사는 매 턴 믿음이 감소합니다. 믿음이 0이 되면 유닛이 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_PRIVATEER_STRATEGY">
+      <Text>공격할 때 근접 유닛으로 취급되는 해상 유닛입니다. 해안 강습 I 승급을 가지고 시작하기 때문에 해안 도시를 공격하여 골드를 획득할 수 있으며 적 해상 유닛에게 승리하면 적함을 나포할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY">
+      <Text>해안 도시를 공격하여 골드를 획득하고 적함을 나포하는 데 특화된 해상 유닛입니다. 네덜란드만 생산할 수 있습니다. 우호 지역을 벗어나도 회복할 수 있습니다. 해안 강습 II 승급을 가지고 시작하기 때문에 해안 도시를 공격하여 골드를 획득할 수 있으며 적 해상 유닛에게 승리하면 적함을 나포할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY">
+      <Text>찰스 12세 군은 초반 산업 시대 스웨덴군의 중추입니다. 행군 승급을 가지고 시작하기 때문에 매 턴 회복하며, 행동 후에도 회복할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY">
+      <Text>하카펠리타는 르네상스 후기 스웨덴군의 정예 기마 유닛입니다. 가능하다면 하카펠리타를 위대한 장군과 같은 타일로 움직이십시오. 위대한 장군이 하카펠리타와 같은 타일에서 턴을 시작하면 추가 이동력을 얻게 됩니다. 뿐만 아니라 하카펠리타도 15% 전투 보너스를 받을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TRIPLANE_STRATEGY">
+      <Text>1차 세계대전 전투기는 초반 공중 유닛입니다. 플레이어 소유 도시에 배치하거나 항공모함에 탑재할 수 있습니다. 한 도시에서 다른 도시(또는 항공모함)로 이동할 수 있으며 5타일 내에서 자유롭게 임무를 수행할 수 있습니다. 1차 세계대전 전투기로 적 비행 유닛과 지상 유닛을 공격하고 적의 위치를 정찰하고 적의 공중 공격을 방어하십시오. 자세한 정보는 비행기에 대한 규칙을 참고하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TRIREME_STRATEGY">
+      <Text>삼단노선은 게임 내에서 문명이 이용할 수 있는 최초의 해상 유닛입니다. 근접 공격 유닛으로 바다 및 도시에 있는 유닛들과 싸울 수 있습니다. (원거리 공격 불가). 삼단노선은 아군 영해에서 야만인 배를 몰아내고 약간의 정찰을 하는데 유용합니다. (폴리네시아의 삼단노선을 제외한 다른 삼단노선은 도시 범위 밖의 심해 타일로는 이동할 수 없습니다.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_WWI_BOMBER_STRATEGY">
+      <Text>1차 세계대전 폭격기는 공중 유닛입니다. 해상 유닛보다는 지상 목표물에 더 효과적이며 적 비행기에 취약합니다. 1차 세계대전 폭격기는 플레이어 소유 도시에 배치할 수도 있고, 항공모함에 탑재할 수도 있습니다. 6타일 내에서 다른 기지로 이동하거나 목표물을 공격할 수 있습니다. 1차 세계대전 폭격기로 적 유닛과 도시를 공격하십시오. 가능하면 1차 세계대전 전투기나 전투기를 먼저 보내 해당 턴의 적의 대공 방어 능력을 ‘소진’시키십시오. 자세한 정보는 비행기에 대한 규칙을 참고하십시오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_WWI_TANK_STRATEGY">
+      <Text>지상함은 강력하고 기동성이 뛰어난 지상 유닛입니다. 지상함은 전투 후에 움직일 수 있어 적진에 구멍을 뚫고 빈 타일을 점령할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNITS_MOVEMENT_HEADING2_BODY">
+      <Text>유닛은 보통 타일에서 타일로 이동하며, 새 타일에 들어갈 때마다 일정량의 '이동력'을 소모합니다. 유닛에는 '겹침' 제한이 적용됩니다. 즉 군사 유닛 2개가 같은 타일 내에서 턴을 종료할 수 없으며, 비군사 유닛 2개도 마찬가지입니다. 그러나 군사 유닛 1개와 비군사 유닛 1개는 같은 타일에 겹쳐진 상태에서 턴을 종료할 수 있습니다. 승선한 유닛이나 위대한 장군, 위대한 제독은 비군사 유닛으로 구분되며, 군사 유닛과 겹쳐질 수 있습니다.[NEWLINE][NEWLINE대부분의 유닛은 이동할 수 있는 곳이 제한되어 있습니다. 지상 유닛은 산악 타일에 들어갈 수 없으며, 해상 유닛은 육지 타일에 들어갈 수 없습니다(항구 도시는 예외). 도로나 철로와 같은 시설을 건설하면 유닛의 지상에서의 이동 속도를 높일 수 있습니다.[NEWLINE][NEWLINE]자세한 내용은 이동에 대한 항목을 참고하십시오.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNITS_NONCOMBAT_HEADING2_BODY">
+      <Text>비전투 유닛에는 개척자, 노동자, 작업선, 위인, 우주선 부품, 종교 유닛의 여섯 가지 종류가 있으며 모두 문명의 성공에 없어서는 안 될 존재입니다. ‘비전투’라는 말에서 알 수 있듯이 이 유닛들은 싸우지 못합니다. 타일에 혼자 있다가 적 유닛에 공격당하면 자동으로 생포되거나 파괴됩니다. 따라서 험한 곳으로 내보낼 때는 군사 유닛으로 보호하는 것이 안전합니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP">
+      <Text>이 도시에서 생산하는 근접 지상 유닛 및 해상 유닛은 [COLOR_POSITIVE_TEXT]험지[ENDCOLOR]에서 [ICON_STRENGTH]전투력을 올려주는 [COLOR_POSITIVE_TEXT]훈련 I[ENDCOLOR] 승급을 가지고 시작합니다. 이 불가사의를 건설한 도시에 성을 무료로 제공합니다. 이 불가사의가 건설된 도시의 [ICON_CULTURE]문화가 20% 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_CN_TOWER_HELP">
+      <Text>모든 도시에 방송탑을 무료로 건설할 수 있습니다. 도시마다 [ICON_CITIZEN]인구가 1, [ICON_HAPPINESS_1]행복이 1 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP">
+      <Text>위대한 선지자가 1명 출현합니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
+      <Text>건설한 도시에 정원을 무료로 건설할 수 있습니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HUBBLE_HELP">
+      <Text>위대한 과학자 두 명이 불가사의를 건설한 도시 근처에 출현합니다. 우주선 공장을 도시에 제공합니다. 우주선 부품 생산 시 25%의 [ICON_PRODUCTION]생산 보너스를 받습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_LEANING_TOWER_HELP">
+      <Text>모든 도시에서 [ICON_GREAT_PEOPLE]위인 출현율이 25% 증가합니다. [ICON_CAPITAL]수도 주위에 원하는 위인 한 명이 출현합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+      <Text>이 도시에서 생산하는 선교사는 종교 전파를 세 번 할 수 있습니다. 이 불가사의를 건설한 도시에 모스크를 무료로 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_NEUSCHWANSTEIN_HELP">
+      <Text>성이 있는 모든 도시에서 [ICON_GOLD]골드 3, [ICON_CULTURE]문화 2, [ICON_HAPPINESS_1]행복이 1 증가합니다.[NEWLINE][NEWLINE]도시가 자신의 영토에 있는 산으로부터 2타일 이내에 있어야 합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PETRA_HELP">
+      <Text>도시가 사막 타일에 또는 사막 타일 옆에 있어야 합니다. 도시에서 작업하는 사막 타일 하나당 [ICON_FOOD]식량이 1, [ICON_PRODUCTION]생산이 1, [ICON_GOLD]골드가 1만큼 (범람원 제외) 증가합니다. 고고학을 연구하면 [ICON_CULTURE]문화가 6 증가합니다. 이 불가사의를 건설한 도시에 원형극장을 무료로 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+ 
+  </Language_KO_KR>
+</GameData>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_BULLIED_PROTECTED_CITY_STATE_1">
+      <Text>{@1_MinorCivName}{@1: plural 1?을; 2?를;} 자꾸 괴롭히면 가만히 있지 않겠습니다. 그 도시는 내가 보호하기로 했으니 공물을 요구하지 마십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BULLIED_PROTECTED_CITY_STATE_2">
+      <Text>{@1_MinorCivName}에서 저지른 만행을 들었습니다. 이런 식으로 내가 보호하는 도시를 건드리면 후회하게 될 겁니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_STOP_DIGGING">
+      <Text>저길 파고 싶어서 파겠다는데 무슨 상관이오?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_STOP_DIGGING">
+      <Text>당신의 문화유산을 함부로 가져가려 해서 죄송합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CAUGHT_YOUR_SPY_FRIENDLY_1">
+      <Text>다시는 그러지 않겠다고 맹세하면 최근에 당신이 저지른 절도를 용인할 의사가 있소.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CAUGHT_YOUR_SPY_HOSTILE_1">
+      <Text>감히 우리 문명의 기술을 훔치다니, 다음에는 말로 끝나지 않을 거요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_AI_BY_AUTOCRACY_1">
+      <Text>절대권력을 옹호하는 당신의 메시지에 우리 국민이 동요하고 있습니다. 우리도 끔찍한 독재를 모방해야만 되겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_AI_BY_FREEDOM_1">
+      <Text>우리 국민이 당신이 내세운 자유와 평등의 부르주아 메시지에 타락했습니다. 그들은 거리에서 시위를 펼칠 권리가 있다고 믿는 것 같습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_AI_BY_ORDER_1">
+      <Text>당신의 이념적 음모로 인해 우리는 영토 내 질서를 요구하는 혁명에 대한 두려움에 떨게 되었습니다. 노동자 파업이 과연 끝날까요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_HUMAN_BY_AUTOCRACY_1">
+      <Text>불안해하는 국민을 위해 강한 리더십을 발휘해야 합니다. 지켜만 보지 말고 우리와 함께 새로운 역사를 써내려 갑시다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_HUMAN_BY_FREEDOM_1">
+      <Text>당신의 시민이 자유를 갈망합니다. 이 압제의 벽을 허물고 자유와 진보를 위한 노력에 동참하세요!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_HUMAN_BY_ORDER_1">
+      <Text>당신의 영토에 있는 억압받는 노동자들이 불행해 하고 있습니다. 역사는 분명히 우리 편입니다. 우리는 당신을 축출할 것입니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_CONFRONT_YOU_KILLED_MY_SPY_1">
+      <Text>안녕하시오. 혹시 요전 스파이 사건에 대해 말하려고 오셨소?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_DECLARATION_PROTECT_CITY_STATE_1">
+      <Text>{2_MajorCivName:textkey}{2: plural 1?이; 2?가;} {1_MinorCivName:textkey}{1: plural 1?을; 2?를;} 보호한다고 선언했습니다. 이제 이 도시 국가를 공격하거나 이 도시 국가에 공물을 요구하면 해당 문명과 관계가 악화되고 전쟁으로 이어질 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_EMBASSY_EXCHANGE_1">
+      <Text>피차 대사관을 건설해 더욱 다양한 외교 관계를 맺으면 어떻겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_EMBASSY_OFFER_1">
+      <Text>당신 수도에 대사관을 건설하고 싶군요. 어떻게 생각하십니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_GREETING_WILL_ACCEPT_SURRENDER_1">
+      <Text>당신이 우리에게 무조건 항복을 하기만을 기다리고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_GREETING_WILL_ACCEPT_SURRENDER_2">
+      <Text>당신의 항복 조건은 적당하군요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_GREETING_WILL_ACCEPT_SURRENDER_3">
+      <Text>전멸하지 않으려면 지금 협상해야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_BULLIED_MINOR_BAD_1">
+      <Text>두고 봅시다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_BULLIED_MINOR_GOOD_1">
+      <Text>그렇습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_BULLIED_MINOR_GOOD_1">
+      <Text>좋습니다. 상황을 지켜보도록 하겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_BAD_1">
+      <Text>당신이 경솔하다는 사실은 이미 알고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_GOOD_1">
+      <Text>좀도둑질을 그만두겠다니 기쁘군요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_FOILED_OUR_PROPOSAL_1">
+      <Text>당신이 보낸 대표단이 내가 {1_LeagueName}에 제안한 안건을 부결시키는 데 일조했더군요. 그런 식으로 도발하면 이로울 것이 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_FOILED_OUR_PROPOSAL_2">
+      <Text>당신의 대표단 덕분에 내가 제안한 안건이 {1_LeagueName}에서 부결되었소. 앞으로 우리에게 지원을 요청할 생각은 하지 마시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_STOP_CONVERSIONS_BAD_1">
+      <Text>당신의 광신 때문에 불안합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_STOP_CONVERSIONS_GOOD_1">
+      <Text>선교 활동을 멈추겠다니 다행입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_SUPPORTED_OUR_HOSTING_1">
+      <Text>세계 대회를 우리가 주최할 수 있도록 도와줘서 감사합니다. 앞으로 {1_LeagueName}{1: plural 1?을; 2?를;} 통해 큰일을 도모할 수 있을 겁니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_SUPPORTED_OUR_PROPOSAL_1">
+      <Text>당신이 보낸 대표단 덕분에 우리가 최근에 {1_LeagueName}에 제안한 안건이 통과되었습니다. 앞으로도 많은 협조를 부탁드립니다. 우리도 그쪽을 돕겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_HUMAN_SUPPORTED_OUR_PROPOSAL_2">
+      <Text>우리가 {1_LeagueName}에 제안한 안건이 통과되었습니다. 당신의 도움이 컸습니다. 앞으로도 힘을 합쳐 큰일을 해냅시다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_INFLUENTIAL_ON_AI_1">
+      <Text>우리 국민이 당신네 청바지를 사입고 당신네 대중음악을 즐기고 있습니다. 당신의 문화가 전 세계를 잠식하게 될까 걱정입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_INFLUENTIAL_ON_HUMAN_1">
+      <Text>당신의 영토에서 온 관광객에게 판매한 우리의 기념품 매출이 기록을 경신하였습니다. 우리 문명이 생산하는 뛰어난 상품은 정말 감탄할 만합니다! </Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_KILLED_MY_SPY_1">
+      <Text>우리 스파이 때문에 혼란스러웠다면 유감입니다. 당사자도 죽었으니 이대로 덮어 두는 게 어떻습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_KILLED_YOUR_SPY_1">
+      <Text>우리 기술을 훔치려던 당신 스파이를 처형했습니다. 열심히 정진해서 스스로 기술을 터득하는 편이 더 안전하다는 충고를 드리고 싶군요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_HUMAN_KILLED_MY_SPY_FORGIVEN_1">
+      <Text>곤란한 상황을 덮어주어 감사합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_HUMAN_KILLED_MY_SPY_UNFORGIVEN_1">
+      <Text>용서받지 못하는 행동이 있음을 잘 압니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_CONVERSIONS_AGREE_1">
+      <Text>원한다면 당신 도시에 진정한 종교를 전파하지 않겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_CONVERSIONS_DISAGREE_1">
+      <Text>무지한 백성을 놔두다니, 무책임하군요. 당신이 아무리 백성을 막으려 해도 곧 진실을 알고 따르게 될 것입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_DIGGING_BAD_1">
+      <Text>내가 꼭 이 문제를 들먹여야겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_DIGGING_GOOD_1">
+      <Text>우리 부탁을 들어주어 고맙습니다. 우리 땅에서 나온 유물은 우리 것입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_KNOWN_CITY_1">
+      <Text>{1_PlayerName}의 군대가 호위선과 함께 당신의 도시 {2_CityName}{2: plural 1?을; 2?를;} 기습 공격하려고 이동 중이랍니다. 당신도 나를 상대로 꾸미는 음모를 알아내거든 이를 알려 주십시오.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_UNKNOWN_CITY_1">
+      <Text>{1_PlayerName}의 군대가 호위선과 함께 당신 문명을 공격하려고 이동 중이랍니다. 당신도 나를 상대로 꾸미는 음모를 알아내거든 이를 알려 주십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_KNOWN_CITY_1">
+      <Text>{1_PlayerName}의 군대가 당신의 도시 {2_CityName}{2: plural 1?을; 2?를;} 기습 공격하려고 이동 중이랍니다. 당신도 나를 상대로 꾸미는 음모를 알아내거든 이를 알려 주십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_UNKNOWN_CITY_1">
+      <Text>{1_PlayerName}의 군대가 당신을 기습 공격하려고 이동 중이랍니다. 당신도 나를 상대로 꾸미는 음모를 알아내거든 이를 알려 주십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_DECEPTION_1">
+      <Text>{1_PlayerName}{1: plural 1?이; 2?가;} 당신을 상대로 음모를 꾸미고 있답니다. 당신도 나를 상대로 꾸미는 음모를 알아내거든 이를 알려 주십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_STOP_DIGGING_AGREE_1">
+      <Text>정 그렇다면 당신 영토에서 유물을 발굴하지 않겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_STOP_DIGGING_DISAGREE_1">
+      <Text>미안하지만 우리에게는 장신구 따위로 취소하기에는 중요한 계획이 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_STOP_DIGGINGX_1">
+      <Text>당신이 우리 영토에서 문화 유물을 찾고 있다는 걸 알고 있습니다. 즉시 멈추십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_STOP_SPYING_NO_1">
+      <Text>외부 위협으로부터 우리 문명을 지키려면 요원이 필요합니다. 당신도 예외는 아니지요. 우리 스파이는 우리가 필요할 때 움직이지 당신의 명령이 따라 움직이지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_STOP_SPYING_YES_1">
+      <Text>부탁대로 당신 영토에서 우리 스파이를 철수시키겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_RESPONSE_WARNED_ABOUT_INTRIGUE_1">
+      <Text>{@1_CivAdjective} 음모를 알려주셔서 감사합니다. 그들의 속셈을 알았으니 대처할 수 있겠지요. 이 은혜는 잊지 않겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_SAME_POLICIES_AUTOCRACY_1">
+      <Text>황제 폐하, 독재를 선택하셨다니 기쁩니다. 우리 힘을 합쳐 강대국만이 살아남아 위대한 업적을 이룬다는 사실을 세상에 알립시다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_SAME_POLICIES_FREEDOM_1">
+      <Text>평등의 길을 선택한 현명한 지도자에게 경의를 표합니다. 압제에 맞서 싸우는 우방이 늘 때마다 더 빨리 모든 사람의 자유와 평등을 지킬 수 있겠지요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_SAME_POLICIES_ORDER_1">
+      <Text>환영하오 동무! 질서를 옹호하는 다른 동무를 만나서 기쁘오. 다음 5개년 경제계획에서 서로 도웁시다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_STOP_CONVERSIONS_1">
+      <Text>우리 문명 내부에서 선교 활동을 하더군요. 당장 그만두십시오!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_SUSPECT_YOU_OF_SPYING_1">
+      <Text>최근 누군가 우리 도시에 침입해 기술을 훔쳐갔습니다. 당신이 한 일은 아니라고 믿어도 되겠지요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_SUSPECT_YOU_OF_SPYING_2">
+      <Text>당신이 우리 위대한 문명을 염탐한다고 믿을 만한 증거를 잡았습니다. 누군가 다치기 전에 그만두시지요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_SWITCHED_TO_AUTOCRACY_1">
+      <Text>독재로 방향을 잡은 것을 후회하지 않을 것입니다. 모든 것은 국가를 위해 존재하고, 국가에 반대할 수 있는 것은 없습니다. 오직 강한 국가의 강한 지도자만이 새 시대를 열어 세계를 통합할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_SWITCHED_TO_FREEDOM_1">
+      <Text>자유를 향한 우리의 여정에 참여해주신 당신을 환영합니다. 개인으로써 무엇을 할 수 있는지를 묻지 말고, 공동체로써 무엇을 할 수 있을지 물으십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_SWITCHED_TO_ORDER_1">
+      <Text>아이를 8년간 맡겨주시면 영원한 사회주의자로 양성하겠습니다. 이에 공감하는 당신 문명의 노동자계급이 있습니다. 질서를 위한 혁명 투쟁에 그들을 맞이합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER_1">
+      <Text>그쪽 제안에 맞출 의향이 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER_2">
+      <Text>우리가 뭘 제안해도 그쪽에는 손해일 것입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_WE_BULLIED_MINOR_BAD_1">
+      <Text>우리 문명과 시민을 위한 최선의 결정이었다는 내 믿음은 흔들리지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_WE_DISLIKE_HUMAN_PROPOSAL_1">
+      <Text>당신이 {1_LeagueName}에 제안한 내용은 우리 이익과 상반됩니다. 나중에 이 문제로 갈등이 일어나지 않기만을 바랍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_WE_DISLIKE_HUMAN_PROPOSAL_2">
+      <Text>당신이 {1_LeagueName}에 제안한 내용이 마음에 들지 않습니다. 우리 입장이 다르기는 하지만 정치적인 보복 말고 건설적인 방법으로 문제를 해결하는 게 어떻겠소?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_WE_LIKE_HUMAN_PROPOSAL_1">
+      <Text>당신이 최근에 {1_LeagueName}에 제안한 내용을 듣고 무척 기뻤습니다. 우리는 같은 목표를 추구하고 있는 것 같군요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERIC_WE_LIKE_HUMAN_PROPOSAL_2">
+      <Text>당신이 {1_LeagueName}에 제안한 내용은 우리 생각과 일치합니다. 정말 감사합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOSTILE_WE_ATTACKED_YOUR_MINOR_1">
+      <Text>당신이 끼고 도는 {@1_MinorCivName}{@1: plural 1?을; 2?를;} 점령하려고 군대를 보냈습니다. 알아두시는 게 좋을 것 같아서요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOSTILE_WE_ATTACKED_YOUR_MINOR_2">
+      <Text>이런, 실수로 {@1_MinorCivName}{@1: plural 1?을; 2?를;} 공격했소. 당신이 뭘 어떻게 할 수 있지는 않겠지만 말이오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOSTILE_WE_BULLIED_YOUR_MINOR_1">
+      <Text>당신이 끼고 도는 {@1_MinorCivName}{@1: plural 1?을; 2?를;} 괴롭혔습니다. 그들의 부와 자원은 제가 잘 쓰도록 하지요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOSTILE_WE_BULLIED_YOUR_MINOR_2">
+      <Text>당신과 친한 {@1_MinorCivName}{@1: plural 1?을; 2?를;} 괴롭혔습니다만, 당신으로서는 잠자코 당하는 수밖에 없겠지요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WE_ATTACKED_YOUR_MINOR_1">
+      <Text>내가 당신의 보호를 받는 도시 국가 {@1_MinorCivName}{@1: plural 1?을; 2?를;} 공격했을지도 모르겠습니다. 하지만 당신의 제국과 적대하려는 의도가 아니며, 필요한 조치였을 뿐입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WE_ATTACKED_YOUR_MINOR_2">
+      <Text>우리 제국이 {@1_MinorCivName}{@1: plural 1?을; 2?를;} 공격했다는 사실을 알게 되었습니다. 맹세하건데 이것은 고의가 아니며, 이 사건이 우리 사이를 갈라놓지 않기만을 바랄 뿐입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WE_BULLIED_YOUR_MINOR_1">
+      <Text>내가 당신의 보호를 받는 도시 국가 {@1_MinorCivName}{@1: plural 1?을; 2?를;} 위협했을지도 모르겠습니다. 하지만 그들보단 내 의향을 우선시해 주기를 바랍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WE_BULLIED_YOUR_MINOR_2">
+      <Text>우리 군대가 당신의 보호를 받는 도시 국가 {@1_MinorCivName}에서 공물을 받았다는 사실을 알게 되었습니다. 맹세하건데 이것은 뜻하지 않은 사건이었으며, 이 사건이 우리 사이를 갈라놓지 않기만을 바랄 뿐입니다.</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>
