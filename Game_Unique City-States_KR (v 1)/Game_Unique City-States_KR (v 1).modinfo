@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f0949547-69b8-4851-b57e-de3c7d533e6b" version="1">
+  <Properties>
+    <Name>Game_Unique City-States_KR</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Game_Unique City-States_KR (v 1)</Teaser>
+    <Description>Game_Unique City-States_KR (v 1)</Description>
+    <Authors>molang</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="b2eb6d1e-1fcb-4a0d-829c-51691aa3183a" minversion="0" maxversion="999" title="Unique City-States" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="E45F82D8DA4F7592246ADD3F9C265B71" import="0">Bonuses.sql</File>
+    <File md5="6E79BD4C4B58935EE7274FC5A39A0355" import="0">DarkCrusade.sql</File>
+    <File md5="A795643B09D84DB4F095D371CB41EBD6" import="0">LuaText.sql</File>
+    <File md5="2CA828966472909B68D714B220479791" import="0">OldManWinterCampaign.sql</File>
+    <File md5="70635C482DEBDA9B9173F807F7A330EE" import="0">SpiritGale.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Bonuses.sql</UpdateDatabase>
+      <UpdateDatabase>DarkCrusade.sql</UpdateDatabase>
+      <UpdateDatabase>LuaText.sql</UpdateDatabase>
+      <UpdateDatabase>OldManWinterCampaign.sql</UpdateDatabase>
+      <UpdateDatabase>SpiritGale.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
