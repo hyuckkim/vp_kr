@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="b2eb6d1e-1fcb-4a0d-829c-51691aa3183a" version="6">
+<Mod id="10c8e61b-b309-4b3e-8975-5e21b3214622" version="6">
   <Properties>
-    <Name>Game_Unique City-States</Name>
+    <Name>Unique City-States (Non-EUI)</Name>
     <Teaser>Inspired by Civilization 6's Suzerain concept, this mod intends to bring that concept into Civilization V.</Teaser>
     <Description>Inspired by Civilization 6's Suzerain concept, this mod intends to bring that concept into Vox Populi allowing City-States to feel unique when forming an alliance with them.
 
@@ -20,8 +20,8 @@ Not compatible with Sukritact's Suzerians for obvious reasons since these two ar
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Overhaul" />
-    <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="0" maxversion="999" title="City-State Diplomacy" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="0" maxversion="999" title="CBP CSD" />
     <Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries" />
   </Dependencies>
   <References>
@@ -29,8 +29,8 @@ Not compatible with Sukritact's Suzerians for obvious reasons since these two ar
     <Mod id="e53b3cb8-48a9-4f46-8e1d-c9d3e8fa2233" minversion="0" maxversion="999" title="Pontoon Bridges for VP" />
   </References>
   <Blocks>
-    <Mod id="c1871abe-b596-4028-a121-6568c154cb8d" minversion="0" maxversion="999" title="Sukritact's Suzerainity" />
     <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="(6a) Community Balance Overhaul - Compatibility Files (EUI)" />
+    <Mod id="c1871abe-b596-4028-a121-6568c154cb8d" minversion="0" maxversion="999" title="Sukritact's Suzerainty" />
   </Blocks>
   <Files>
     <File md5="A044CB32A1C21DE33BE15C997E74B091" import="1">Art/AllianceShift.dds</File>
@@ -47,7 +47,7 @@ Not compatible with Sukritact's Suzerians for obvious reasons since these two ar
     <File md5="86E1DF9919272CF88FF8C44B5E3BC108" import="1">Art/UCS_VPPI_045.dds</File>
     <File md5="720DD6F86E42900D217DFACCF5F8FDC5" import="1">Art/UCS_VPPI_064.dds</File>
     <File md5="F63F3B1E773FA9068BE26ED57235AA9A" import="1">Art/UCS_VPPI_256.dds</File>
-    <File md5="7C9C641351C46574E2D7C3DFEBC96D90" import="1">Lua/CityStateStatusHelper.lua</File>
+    <File md5="2AB55944DEEF52BFD9A512B179BEF810" import="1">Lua/CityStateStatusHelper.lua</File>
     <File md5="084A5308FB9CDA0A77E0B2BA35C7CFCE" import="0">Lua/TheBalanceDemandsIt.lua</File>
     <File md5="47FD1DD19298DCDFE7D9D90708313A5A" import="0">SQL/Bonuses.sql</File>
     <File md5="AA87EBC2AFAE3A553FCE75FEEB30FF8D" import="0">SQL/DarkCrusade.sql</File>
@@ -66,8 +66,8 @@ Not compatible with Sukritact's Suzerians for obvious reasons since these two ar
   </Actions>
   <EntryPoints>
     <EntryPoint type="InGameUIAddin" file="Lua/TheBalanceDemandsIt.lua">
-      <Name>asdf</Name>
-      <Description>asdf</Description>
+      <Name>Blahblah</Name>
+      <Description>Blahblah</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>
