@@ -18,7 +18,7 @@
 			<Text>국민 의료보험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
-			<Text>적 유닛을 처치할 때 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 우호 영토 내 유닛은 매 턴 체력을 추가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 더 회복합니다. 연회장의 [ICON_GREAT_PEOPLE]위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>적 유닛을 처치하거나 타일 시설을 약탈할때 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 우호 영토 내 유닛은 매 턴 체력을 추가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 더 회복합니다. 연회장의 [ICON_GREAT_PEOPLE]위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
 			<Text>모리안, 투쟁의 인도자</Text>
@@ -72,7 +72,7 @@
 			<Text>브란, 잠자는 수호자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA">
-			<Text>소유한 도시에서 이 교리를 따르는 신도 4명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>소유한 도시에서 이 교리를 따르는 신도 4명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 유닛이 아군 영토 내에서 회복시 체력을 추가로 5 더 회복합니다. 연회장의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
 			<Text>다그다, 만물의 아버지</Text>
