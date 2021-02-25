@@ -47,6 +47,13 @@
 		<Row Tag="TXT_KEY_YIELD_FROM_EMPIRE_POP_EXTRA">
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
+		<!-- Include City Name in "Work Has Begun On" Notification -->
+		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY">
+			<Text>[SPACE][COLOR_POSITIVE_TEXT]{@2_CityName}[ENDCOLOR] 에서 [COLOR_POSITIVE_TEXT]{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@1_ProdName}}[ENDCOLOR] 생산 작업이 시작됨.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY_LIMITED">
+			<Text>[SPACE][COLOR_POSITIVE_TEXT]{@2_CityName}[ENDCOLOR] 에서 [COLOR_POSITIVE_TEXT]{@1_ProdName}[ENDCOLOR] 생산 작업이 시작됨.</Text>
+		</Row>
 		<!-- America - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_10">
 			<Text>스노든</Text>
