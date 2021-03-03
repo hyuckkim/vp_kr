@@ -3214,9 +3214,6 @@
 		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_MOD_TT">
 			<Text>당신은 이 문명과 항상 전쟁 중입니다!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_VASSAL">
-			<Text>다른 문명의 종속국에 전쟁 선포를 할 수 없습니다. (그들의 종주국에게 전쟁을 선포해야 합니다, {1_CivName})</Text>
-		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DECLARE_WAR_VASSAL_BLOCKED_TT">
 			<Text>종속국은 전쟁을 선포할 수 없습니다. (당신의 종주국이 이 문명과 전쟁을 선포할 때 전쟁은 자동으로 선포됩니다.)</Text>
 		</Row>
@@ -3363,30 +3360,34 @@
 		<Row Tag="TXT_KEY_DIPLO_VERY_BAD_BASE_OPINION">
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 본능적으로 당신을 싫어합니다![ENDCOLOR]</Text>
 		</Row>
-		<!-- Show True Approach Debug Text -->
-		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_WAR">
-			<Text>(숨겨짐): 전쟁 </Text>
+		<!-- Show Real Approach Debug Text -->
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_WAR">
+			<Text>진짜 의도 : 전쟁 </Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_PLANNING_WAR">
-			<Text>(숨겨짐): 전쟁 계획</Text>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_PLANNING_WAR">
+			<Text>진짜 의도 : 전쟁 계획</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_HOSTILE">
-			<Text>(숨겨짐): 적대적</Text>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_HOSTILE">
+			<Text>진짜 의도 : 적대적</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_DECEPTIVE">
-			<Text>(숨겨짐): 기만적</Text>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_DECEPTIVE">
+			<Text>진짜 의도 : 기만적</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_GUARDED">
-			<Text>(숨겨짐): 방어적</Text>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_GUARDED">
+			<Text>진짜 의도 : 방어적</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_AFRAID">
-			<Text>(숨겨짐): 두려워함</Text>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_AFRAID">
+			<Text>(진짜 의도 : 두려워함</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_FRIENDLY">
-			<Text>(숨겨짐): 우호적</Text>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_FRIENDLY">
+			<Text>진짜 의도 : 우호적</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRUE_APPROACH_NEUTRAL">
-			<Text>(숨겨짐): 중립적</Text>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_NEUTRAL">
+			<Text>진짜 의도 : 중립적</Text>
+		</Row>
+		<!-- Previous Friendship Diplo Mod -->
+		<Row Tag="TXT_KEY_DIPLO_PREVIOUSLY_FRIENDS">
+			<Text>우리는 예전에 그들과 친구였습니다.</Text>
 		</Row>
 		<!-- Embassy Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_MUTUAL_EMBASSY">
@@ -3395,6 +3396,12 @@
 		<Row Tag="TXT_KEY_DIPLO_WE_HAVE_EMBASSY">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 그들의 수도에 대사관을 가지고 있습니다.[ENDCOLOR]</Text>
 		</Row>
+		
+		<!-- Diplomat Diplo Mod -->
+		<Row Tag="TXT_KEY_DIPLO_DIPLOMAT">
+			<Text>우리는 그들의 수도에 외교관이 있습니다.</Text>
+		</Row>
+		
 		<!-- Open Borders Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_MUTUAL">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 서로 국경을 개방했습니다.[ENDCOLOR]</Text>
@@ -3419,27 +3426,48 @@
 		<Row Tag="TXT_KEY_DIPLO_MADE_RESEARCH_AGREEMENT">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 연구 협정을 맺었습니다![ENDCOLOR]</Text>
 		</Row>
+		
+		<!-- City Liberation Diplo Mods -->
+		<Row Tag="TXT_KEY_DIPLO_LIBERATED_HOLY_CITY">
+			<Text>당신은 그들의 성도를 해방시켰습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RETURNED_CAPITAL">
+			<Text>당신은 그들의 원래 수도를 되돌려주었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RETURNED_HOLY_CITY">
+			<Text>당신은 그들의 성도를 되돌려주었습니다!</Text>
+		</Row>
+
 		<!-- Denouncement Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_MUTUAL_DENOUNCEMENT">
 			<Text>[COLOR_NEGATIVE_TEXT]우리는 서로를 비난해왔습니다![ENDCOLOR]</Text>
 		</Row>
+		
 		<!-- Tech Dispute Mod (for scientific civs) -->
 		<Row Tag="TXT_KEY_DIPLO_TECH_DISPUTE">
-			<Text>[COLOR_NEGATIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있습니다.</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있습니다.[ENDCOLOR]</Text>
 		</Row>
+		<!-- Cultural Dispute Mod (for cultural civs) -->
+		<Row Tag="TXT_KEY_DIPLO_POLICY_DISPUTE">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 문화 발전을 위해 경쟁하고 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		
 		<!-- Non-Competition Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_NO_WONDER_DISPUTE">
-			<Text>[COLOR_POSITIVE_TEXT]당신은 세계 불가사의를 위해 경쟁하고 있지 않습니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]당신은 세계 불가사의를 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NO_MINOR_CIV_DISPUTE">
-			<Text>[COLOR_POSITIVE_TEXT]당신은 같은 도시 국가들의 호의를 위해 경쟁하고 있지 않습니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]당신은 같은 도시 국가들의 호의를 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NO_TECH_DISPUTE">
-			<Text>[COLOR_POSITIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있지 않습니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_POLICY_DISPUTE">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 문화 발전을 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
 		</Row>
 		<!-- Wonder Spammer Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_WONDER_SPAMMER">
-			<Text>[COLOR_NEGATIVE_TEXT]그들은 우리가 너무 공격적으로 세계 불가사의를 건설하고 있다고 믿습니다.</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]그들은 우리가 너무 공격적으로 세계 불가사의를 건설하고 있다고 믿습니다.[ENDCOLOR]</Text>
 		</Row>
 		<!-- Social Policies Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_SAME_POLICIES">
@@ -3475,6 +3503,10 @@
 		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_HIGH">
 			<Text>[COLOR_NEGATIVE_TEXT]당신의 군사적 배치가 극도로 위협적입니다.[ENDCOLOR]</Text>
 		</Row>
+		<!-- Attacked Resurrected Civ Diplo Mod -->
+		<Row Tag="TXT_KEY_DIPLO_RESURRECTOR_ATTACKED_US">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문명을 복구시킨뒤 그들을 공격했습니다![ENDCOLOR]</Text>
+		</Row>
 		<!-- Religion Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_SAME_MAJORITY_RELIGIONS">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 대부분의 도시에서 같은 종교를 채택했습니다.[ENDCOLOR]</Text>
@@ -3495,6 +3527,27 @@
 		<Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES_VASSAL">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 {1_YourPolicyTree} 이념을 채택했습니다, 그러나 그들은 {2_TheirPolicyTree} 이념을 믿습니다.[ENDCOLOR]</Text>
 		</Row>
+		
+		<!-- World Congress Diplo Mods -->
+		<Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 세계 의회의 개최국이 되도록 도왔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_PREVIOUSLY">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 세계 의회에서 그들의 제안을 통과시켰습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_PREVIOUSLY">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GOOD_LEAGUE_ALIGNMENT">
+			<Text>[COLOR_POSITIVE_TEXT]그들은 세계 의회에서 우리를 아군으로 생각합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BAD_LEAGUE_ALIGNMENT">
+			<Text>[COLOR_NEGATIVE_TEXT]그들은 세계 의회에서 우리를 경쟁자로 생각합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PRIME_LEAGUE_COMPETITOR">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들의 최대 경쟁자입니다.[ENDCOLOR]</Text>
+		</Row>
+		
 		<!-- World Congress >>> United Nations -->
 		<Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL_UN">
 			<Text>[COLOR_POSITIVE_TEXT]그들은 유엔에 대한 우리의 제안을 좋아합니다.[ENDCOLOR]</Text>
@@ -3503,15 +3556,39 @@
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 유엔에 대한 우리의 제안을 싫어합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_UN">
-			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 유엔에서 그들의 제안을 통과하도록 도왔습니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]우리는 유엔에서 그들의 제안을 통과시켰습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_UN">
-			<Text>[COLOR_NEGATIVE_TEXT]우리는 그들의 제안이 유엔에서 실패하도록 도왔습니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING_UN">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 유엔의 개최국이 되도록 도왔습니다.[ENDCOLOR]</Text>
 		</Row>
-		<!-- Special Warmonger Hate Descriptor for Aztecs -->
+		<Row Tag="TXT_KEY_DIPLO_GOOD_LEAGUE_ALIGNMENT_UN">
+			<Text>[COLOR_POSITIVE_TEXT]그들은 유엔에서 우리를 아군으로 생각합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BAD_LEAGUE_ALIGNMENT_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]그들은 유엔에서 우리를 경쟁자로 생각합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PRIME_LEAGUE_COMPETITOR_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들의 최대 경쟁자입니다.[ENDCOLOR]</Text>
+		</Row>
+		<!-- New Warmonger Hate Descriptors -->
+		<Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL_NUCLEAR">
+			<Text>They fear your warmongering will plunge the world into nuclear winter!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_HATE_MAXIMAL">
+			<Text> (They furiously abhor warmongers!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_HATE_EXTREME">
+			<Text> (They hate warmongers!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_HATE_HIGH_CBP">
+			<Text> (They strongly dislike warmongers.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_HATE_MINIMAL">
+			<Text> (They ignore most warmongering.)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_HATE_AZTECS">
 			<Text> (그들은 피에 굶주린 전쟁광이다!)</Text>
 		</Row>
@@ -7135,7 +7212,7 @@
 			<Text>[ICON_PIRATE]군사 유닛 전멸:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BULLY">
-			<Text>[ICON_PIRATE]약소 문명 괴롭힘:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PIRATE]도시 국가 괴롭힘:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SPREAD">
 			<Text>소유한 도시에 [ICON_RELIGION]종교 전파:[NEWLINE]{1_YieldString}</Text>
@@ -7181,6 +7258,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_PRODUCTION_SIPHON">
 			<Text>[ICON_INTERNATIONAL_TRADE]교역로와 연결된 목적지:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_IMPROVEMENT_BUILD">
+			<Text>Building an Improvement:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<!-- Quest Data -->
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
@@ -7847,6 +7927,10 @@
 		<!-- Great person rate modifiers -->
 		<Row Tag="TXT_KEY_MONOPOLY_GP_MOD">
 			<Text>[ICON_BULLET] 자원 독점 보너스: +{1_num}%</Text>
+		</Row>
+		<!-- Build blocked -->
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_RESOURCE_REQUIRED">
+			<Text>{1_Num} {2_ResourceIcon} {3_ResourceName:textkey} is required to construct {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@4_ImprovementName:textkey}}.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>
