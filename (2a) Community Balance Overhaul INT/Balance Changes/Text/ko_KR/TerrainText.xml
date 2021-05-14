@@ -26,20 +26,20 @@
 			<Gender>neuter:a</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA_TEXT">
-			<Text>다른 하시엔다와 서로 인접하여 건설할 수 없습니다.	[ICON_GOLD]골드 및 [ICON_CULTURE_LOCAL]국경 확장 점수가 증가하고 다음 타일과 인접한 하시엔다마다 추가적인 보너스를 제공합니다: [NEWLINE]+2 [ICON_FOOD] - 보너스 자원,[NEWLINE]+2 [ICON_PRODUCTION] - 전략 자원,[NEWLINE]+2 [ICON_GOLD] - 사치 자원,[NEWLINE]+2 [ICON_CULTURE_LOCAL] - 도시.[NEWLINE][NEWLINE]			
+			<Text>다른 하시엔다와 서로 인접하여 건설할 수 없습니다.	[ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드가 증가하고 인접한 다음 타일들이 하시엔다에 추가 산출량을 제공합니다: [NEWLINE]보너스 자원 : +2 [ICON_FOOD]식량[NEWLINE]전략 자원 : +2 [ICON_PRODUCTION]생산[NEWLINE]사치 자원 : +2 [ICON_GOLD]골드[NEWLINE]도시 : +2 [ICON_CULTURE]문화[NEWLINE][NEWLINE]			
 			Haciendas are colonial estates constructed by the Spanish for the administration and extraction of resources from their native subjects. Haciendas were based on grants of property and enterprise, rather than the strict grant of indigenous labor as described by the older Encomienda system. Haciendas were generally large estates, but the nature of the work varied from plantations, to mining, to factories.[NEWLINE][NEWLINE]The owner of a Hacienda was called a Hacendado, but the wealthy landowners rarely visited their holdings and preferred to live in nearby cities. Day-to-day operations of a Hacienda were the responsibility of hired managers. Some unusually large and profitable Haciendas were the property of the Roman Catholic Church, exacerbating tension between native laborers and their Christian taskmasters.[NEWLINE][NEWLINE]The Hacienda system was abolished in most countries after the dissolution of the Spanish Empire, but with mixed results. Efforts to break apart the large estates into individual holdings for subsistence farmers led to crushing poverty in some South American nations. In contrast, Latin American and Filipino Haciendas were mostly left intact, but without the same legal standing or permissions of their colonial past.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA_HELP">
-			<Text>다른 하시엔다와 서로 인접하여 건설할 수 없습니다.	[ICON_GOLD]골드 및 [ICON_CULTURE_LOCAL]국경 확장 점수가 증가하고 다음 타일과 인접한 하시엔다마다 추가적인 보너스를 제공합니다: [NEWLINE]+2 [ICON_FOOD] - 보너스 자원,[NEWLINE]+2 [ICON_PRODUCTION] - 전략 자원,[NEWLINE]+2 [ICON_GOLD] - 사치 자원,[NEWLINE]+2 [ICON_CULTURE_LOCAL] - 도시.</Text>
+			<Text>다른 하시엔다와 서로 인접하여 건설할 수 없습니다.	[ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드가 증가하고 인접한 다음 타일들이 하시엔다에 추가 산출량을 제공합니다: [NEWLINE]보너스 자원 : +2 [ICON_FOOD]식량[NEWLINE]전략 자원 : +2 [ICON_PRODUCTION]생산[NEWLINE]사치 자원 : +2 [ICON_GOLD]골드[NEWLINE]도시 : +2 [ICON_CULTURE]문화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA">
 			<Text>[LINK=IMPROVEMENT_SPAIN_HACIENDA]하시엔다[\LINK] 건설'</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_HELP">
-			<Text>현재 타일에 하시엔다를 건설합니다. [ICON_GOLD]골드 및 [ICON_CULTURE_LOCAL]국경 확장 점수가 증가합니다. 보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE_LOCAL]국경 확장 점수를 제공합니다.</Text>
+			<Text>현재 타일에 하시엔다를 건설합니다. [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드가 증가합니다. 보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE]문화를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_REC">
-			<Text>현재 타일의 [ICON_GOLD]골드 및 [ICON_CULTURE_LOCAL]국경 확장 점수를 증가시킵니다.[NEWLINE]보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE_LOCAL]국경 확장 점수를 제공합니다.</Text>
+			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드를 증가시킵니다.[NEWLINE]보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE]문화를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_KUNA">
 			<Text>쿠나</Text>

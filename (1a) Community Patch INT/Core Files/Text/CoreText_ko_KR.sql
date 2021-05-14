@@ -36,6 +36,17 @@ UPDATE Language_ko_KR
 SET Text = '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] "국왕 경축일"에서 획득' --국왕 경축일이 주는 이익
 WHERE Tag = 'TXT_KEY_FOODMOD_WLTKD';
 -- Units
+-- Movement
+UPDATE Language_ko_KR
+SET Text = '겹쳐진 유닛 이동'
+WHERE Tag = 'TXT_KEY_MOVE_STACKED_UNIT';
+UPDATE Language_ko_KR
+SET Text = '턴을 끝낼 수 있는 위치로 유닛을 이동합니다.'
+WHERE Tag = 'TXT_KEY_MOVE_STACKED_UNIT_TT';
+UPDATE Language_ko_KR
+SET Text = '유닛이 승선하여 물 타일을 건널 수 있게 합니다.'
+WHERE Tag = 'TXT_KEY_ALLOWS_EMBARKING';
+
 -- Capture Chance
 UPDATE Language_ko_KR
 SET Text = '[COLOR_CYAN]전투에서 이길 경우 나포할 확률 : {1_Num}%[ENDCOLOR]'
@@ -318,6 +329,10 @@ UPDATE Language_ko_KR
 SET Text = '토메'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_8';
 -- Trade
+-- Trade Deals
+UPDATE Language_ko_KR
+SET Text = '종료[NEWLINE]{1_turn}턴'
+WHERE Tag = 'TXT_KEY_DO_ENDS_ON';
 -- Trade Routes
 UPDATE Language_ko_KR
 SET Text = '교역로를 소유한 문명과 전쟁 상태여야 합니다.'
@@ -465,6 +480,15 @@ WHERE Tag = 'TXT_KEY_DIPLO_STOP_SPYING_ASKED';
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]스파이가 절도 행각 중 붙잡혔습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_CAUGHT_STEALING';
+
+-- World Congress
+UPDATE Language_ko_KR
+SET Text = '우리는 세계 의회에서 그들의 제안을 지지했습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL';
+UPDATE Language_ko_KR
+SET Text = '우리는 세계 의회에서 그들의 제안을 거부했습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL';
+
 -- Promises
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]당신은 그들이 보호하는 도시 국가를 정복하지 않겠다고 약속했지만, 어겼습니다![ENDCOLOR]'
@@ -493,6 +517,12 @@ WHERE Tag = 'TXT_KEY_DIPLO_MILITARY_PROMISE_BROKEN_WITH_OTHERS';
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]당신은 그들의 유물 발굴을 중단하겠다고 약속했으나 이를 어겼습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_NO_DIG_PROMISE_BROKEN';
+
+-- Denounced by Friend
+UPDATE Language_ko_KR
+SET Text = '그들이 당신보다 더 좋아하는 다른 문명이 당신을 비난했습니다!'
+WHERE Tag = 'TXT_KEY_DIPLO_DENOUNCED_BY_PEOPLE_WE_TRUST_MORE';
+
 -- Friend Betrayal
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]우리는 우호 선언을 하고 나서 그들을 비난했습니다![ENDCOLOR]'
@@ -1102,12 +1132,3 @@ WHERE Tag = 'TXT_KEY_LEADER_SHAKA_AGREE_SHORT_2';
 UPDATE Language_en_US
 SET Text = 'Very well.'
 WHERE Tag = 'TXT_KEY_LEADER_WILLIAM_AGREE_SHORT_2';
-UPDATE Language_ko_KR
-SET Text = '종료[NEWLINE]{1_turn}턴'
-WHERE Tag = 'TXT_KEY_DO_ENDS_ON';
-UPDATE Language_ko_KR
-SET Text = '겹쳐진 유닛 이동'
-WHERE Tag = 'TXT_KEY_MOVE_STACKED_UNIT';
-UPDATE Language_ko_KR
-SET Text = '턴을 끝낼 수 있는 위치로 유닛을 이동합니다.'
-WHERE Tag = 'TXT_KEY_MOVE_STACKED_UNIT_TT';
