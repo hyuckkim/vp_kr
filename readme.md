@@ -2,7 +2,10 @@
 번역 : <br/>
 예니체리없는오스만 <br/>
 첼콩가루<br/>
-기술 : 첼콩가루<br/>
+racraky  
+기술 :  
+첼콩가루<br/>
+racraky  
 저는 숟가락만 얹었습니다<br/>
 목차 : <br/>
 다운로드 방법 <br/>
@@ -25,9 +28,8 @@
 ![파일 옮기기](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOscv7%2FbtqPWZkkyqq%2FfzZptYGuCaNs9vQbuqpBnk%2Fimg.png "Asset.zip 압축 푼 것을 로컬 폴더로 옮긴다")<br/>
 파일을 문명 설치 폴더로 옮겨주면 된다.<br/>
 3. Vox Populi를 설치해야 한다.<br/>
-<https://forums.civfanatics.com/threads/community-patch-how-to-install.528034/><br/>
-![VP 사이트 1](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdJfuRS%2FbtqP0sZ6Pq1%2FUUwQd8axhJqchKGCTTEAh1%2Fimg.png "사이트 메인")<br/>
-![VP 사이트 2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbQdoRK%2FbtqPTC3XXa6%2FpPYuMH19E6jtgiLmtHqOI0%2Fimg.png "다운로드 위치")<br/>
+<https://forums.civfanatics.com/threads/new-beta-version-march-2nd-3-2.668024/ /><br/>
+![VP 사이트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbQdoRK%2FbtqPTC3XXa6%2FpPYuMH19E6jtgiLmtHqOI0%2Fimg.png "다운로드 위치")<br/>
 사이트로 이동해서 Vox Populi Autometic Installer를 다운로드 해주면 된다.<br/><br/>
 ![VP 인스톨러](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdn71Oh%2FbtqPWYscDFv%2FT4tiU1W9Xq1jFzHAZcKh50%2Fimg.png "무조건 Include EUI 사용")<br/>
 다운로드 프로그램에서 EUI를 포함해 설치할 것인지 물어보는데, 이 번역은 EUI를 포함하는 기준으로 만들어져 있으므로 Vox Populi (Including EUI)를 선택해주면 된다.<br/>
