@@ -57,6 +57,9 @@
 		<Row Tag="TXT_KEY_TP_BONUS">
 			<Text>일시적 이벤트</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TP_ESPIONAGE_EVENT">
+			<Text>[ICON_SPY] 도시에서 [COLOR_NEGATIVE_TEXT]스파이 활동[ENDCOLOR]이 일어났습니다.[NEWLINE][NEWLINE]적의 이득:</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_NAME">
 			<Text>이름순</Text>
 		</Row>
@@ -96,6 +99,40 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T">
 			<Text>{2_City}: '{1_Event}' 이벤트는 일어나지 않았습니다.</Text>
 		</Row>
+		<!-- Espionage Version FAILURE -->
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE">
+			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {5_CivAdj}} 요원의 {4_City} 에서의 스파이 활동은 [COLOR_POSITIVE_TEXT]실패했습니다[ENDCOLOR] : '{3_Event}'.[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE">
+			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {2_CivAdj}} 요원이 {1_City}에서 저지됐습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE_UNKNOWN">
+			<Text>알 수 없는 문명의 요원의 {4_City} 에서의 스파이 활동은 [COLOR_POSITIVE_TEXT]실패했습니다[ENDCOLOR] : '{3_Event}'.[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE_UNKNOWN">
+			<Text>알수 없는 문명의 요원이 {1_City}에서 저지됐습니다!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE_US">
+			<Text>{4_City}에서의 스파이 활동이 실패했습니다. '{3_Event}': [NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE_US">
+			<Text>우리 요원이 {1_City}에서 저지됐습니다!</Text>
+		</Row>
+		
+		<!-- Espionage Success -->
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE">
+			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {5_CivAdj}} 요원의 {4_City} 에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : '{3_Event}'.[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_T_ESPIONAGE">
+			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {2_CivAdj}} 요원이 {1_City}에서 임무를 성공했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_UNKNOWN">
+			<Text>알수 없는 문명의 요원의 {4_City} 에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : '{3_Event}'.[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_T_ESPIONAGE_UNKNOWN">
+			<Text>알수 없는 문명의 요원이 {1_City}에서 임무를 성공했습니다!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TITLE">
 			<Text>{1_City}의 이벤트: {2_Event}</Text>
 		</Row>
@@ -103,6 +140,9 @@
 			<Text>[COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR]의 소식:[NEWLINE][NEWLINE]{2_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_IMPROVEMENT_DESTROYED_EVENT">
+			<Text>이벤트로 인한 선택 때문에 {3_City} 주변의 {1_Improvement} {2_Num}개가 약탈되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_STRATEGIC_RESOURCE_PILLAGED_EVENT">
 			<Text>이벤트로 인한 선택 때문에 {3_City} 주변의 {1_Improvement} {2_Num}개가 약탈되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_BUILDING_DESTROYED_EVENT">

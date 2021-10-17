@@ -106,6 +106,9 @@
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_PROTECT">
 			<Text>당신은 종속국인 그들의 도시를 보호했습니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MASTER_LIBERATED_ME_FROM_VASSALAGE">
+			<Text>당신은 그들의 독립 요청이 없었음에도 그들을 해방했습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_FAILED_PROTECT">
 			<Text>당신은 종속국인 그들의 도시를 보호하는 데 실패했습니다.</Text>
 		</Row>
@@ -114,9 +117,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_FORCEFULLY_REVOKED">
 			<Text>그들이 당신에게 독립을 요청했을 때 당신은 거절했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_ATTACKED_MY_VASSAL">
-			<Text>당신은 그들의 종속국에게 전쟁을 선포했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_ATTACKED_VASSAL_ME">
 			<Text>당신은 종속국인 그들에게 전쟁을 선포했습니다.</Text>
@@ -127,9 +127,6 @@
 		<Row Tag="TXT_KEY_DIPLO_TOO_MANY_VASSALS">
 			<Text>그들은 종속국을 많이 보유한 당신을 두려워합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_MASTER_LIBERATED_ME_FROM_VASSALAGE">
-			<Text>당신은 그들의 독립 요청이 없었음에도 그들을 해방했습니다.</Text>
-		</Row>
 		<!-- Diplomacy Screen -->
 		<Row Tag="TXT_KEY_YOUR_CIV">
 			<Text>당신의 문명</Text>
@@ -138,7 +135,7 @@
 			<Text>종속국</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_PEACE_TT">
-			<Text>자발적으로 다른 문명의 종속국이 됩니다. 자발적 종속국은 {1_Num}턴 후 종속국의 지위를 포기할 수 있습니다.</Text>
+			<Text>자발적으로 다른 문명의 종속국이 됩니다. 자발적 종속국은 {1_Num}턴 후 종속국의 지위를 포기할 수 있습니다. [NEWLINE][NEWLINE]경고: 종속국을 받아들이는 주인은 종속국과 전쟁 중인 문명에게 자동으로 전쟁을 선포합니다. 심각한 일이 벌어질 수도 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSALAGE">
 			<Text>항복</Text>

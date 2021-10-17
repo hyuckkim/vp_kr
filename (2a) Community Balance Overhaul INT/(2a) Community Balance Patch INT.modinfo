@@ -40,6 +40,7 @@
 	<File md5="792F242EA724E555DD9BBFD578ECBCD0" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
 	<File md5="A4DB766D4512FA65F276276BCC401D80" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
 	<File md5="E9BC92234752920390343208122C258F" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
+	<File md5="E9BC92234752920390343208122C258F" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
     <File md5="7689EE60AE40E0417FC112FE31FDCF2E" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
 	<File md5="32480D7C96088C1871CABA23ABD14863" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
 	<File md5="DB6AC62D503AD3A29806A65BD9FAB73C" import="0">Modular Elements/Corporations/Text/ko_KR/CorporationOverviewText.xml</File>
@@ -56,6 +57,7 @@
 	  <UpdateDatabase>Modular Elements/TradeUIMod/ko_KR/GlobalCityStatesGifts.xml</UpdateDatabase>
 	  <UpdateDatabase>Modular Elements/Corporations/Text/ko_KR/CorpText.xml</UpdateDatabase>
       <UpdateDatabase>Balance Changes/Text/ko_KR/NewText.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/EspionageEventText.xml</UpdateDatabase>
 	  <UpdateDatabase>Balance Changes/Text/ko_KR/TextChanges.sql</UpdateDatabase>
 	  <UpdateDatabase>Balance Changes/Text/ko_KR/BuildingText.sql</UpdateDatabase>
       <UpdateDatabase>Balance Changes/Text/ko_KR/BuildingText.xml</UpdateDatabase>

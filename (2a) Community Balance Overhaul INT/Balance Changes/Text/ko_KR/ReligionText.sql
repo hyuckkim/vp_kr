@@ -2,7 +2,7 @@
 
 -- Goddess of the Hunt
 UPDATE Language_ko_KR
-SET Text = '야영지의 [ICON_PEACE]신앙, [ICON_CULTURE]문화, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 툰드라 위 자원 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '야영지의 [ICON_PEACE]신앙, [ICON_CULTURE]문화, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 툰드라 위 자원 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_HUNT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Fertility Rites (Now Goddess of Fertility)
@@ -112,7 +112,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_ORAL_TRADITION_SHORT' AND EXISTS (SELECT * FROM COMM
 
 -- Ancestor Worship
 UPDATE Language_ko_KR
-SET Text = '자문회의 [ICON_PEACE]신앙 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 4명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '자문회의 [ICON_PEACE]신앙 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 5명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_ANCESTOR_WORSHIP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Desert Folklore (Now Spirit of the Desert)
@@ -149,7 +149,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Dance of the Aurora (Now God of the Stars and Sky)
 UPDATE Language_ko_KR
-SET Text = '툰드라 위 자원 타일의 [ICON_GOLD]골드, [ICON_FOOD]식량, [ICON_CULTURE]문화, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '툰드라 또는 설원 위 자원 타일의 [ICON_FOOD]식량, [ICON_CULTURE]문화, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -158,7 +158,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA_SHORT' AND EXISTS (SELECT * FROM COMMUN
 
 --  Tears of the Gods (Now God of All Creation)
 UPDATE Language_ko_KR
-SET Text = '기념비의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CAPITAL]수도/성도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 창시된 종교관 2개마다 [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '기념비의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CAPITAL]수도/성도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 창시된 종교관 2개마다 [ICON_CAPITAL]수도/성도의 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_TEARS_OF_GODS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -172,7 +172,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER' AND EXISTS (SELECT * FROM COMMUNITY WH
 
 -- God-King
 UPDATE Language_ko_KR
-SET Text = '[ICON_CAPITAL]수도/성도의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신 문명의 종교관을 따르는 신도 5명마다 [ICON_CAPITAL]수도/성도의 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_PEACE]신앙, [ICON_GOLDEN_AGE]황금기 점수, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_CAPITAL]수도/성도의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], 생산이 2 증가합니다. 당신 문명의 종교관을 따르는 신도 5명마다 [ICON_CAPITAL]수도/성도의 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_PEACE]신앙, [ICON_GOLDEN_AGE]황금기 점수, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_KING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Sun God
@@ -186,7 +186,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD_SHORT' AND EXISTS (SELECT * FROM COMMUNITY W
 
 -- Charitable Missions (Now Missionary Influence)
 UPDATE Language_ko_KR
-SET Text = '세계 대회 주최자일 때 매 턴 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PEACE]신앙, [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다. 결의안이 통과되면 해당 산출량을 즉시 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '종교 전파 속도가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 ([COLOR_RESEARCH_STORED]인쇄술[ENDCOLOR] 연구 시 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]), 세계 대회 주최자일 때 매 턴 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PEACE]신앙, [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다. 결의안이 통과되면 해당 산출량을 즉시 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -295,7 +295,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT' AND EXISTS (SELECT * FROM COMMUNITY 
 
 -- Heathen Conversion (Now Holy Warriors)
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE]신앙으로 지상 유닛을 구매할 수 있습니다. 종교를 따르는 도시 1개마다 전략 자원의 양이 [COLOR_POSITIVE_TEXT]1%[ENDCOLOR] [COLOR:110:110:110:255](한도: 25%)[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_PEACE]신앙으로 지상 유닛을 구매할 수 있습니다. 종교를 따르는 도시 1개마다 전략 자원의 양이 [COLOR_POSITIVE_TEXT]1%[ENDCOLOR] [COLOR:110:110:110:255](한도: 25%)[ENDCOLOR] 증가합니다. [ICON_MISSIONARY]선교사가 종교를 전파할 때 다른 종교의 압력을 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소시킵니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -304,7 +304,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT' AND EXISTS (SELECT * FROM 
 
 -- Itinerant Preachers (Now Iconography)
 UPDATE Language_ko_KR
-SET Text = '성도의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 매 턴 모든 [ICON_GREAT_PEOPLE]위인 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_MISSIONARY]선교사가 종교를 전파할 때 다른 종교의 압력을 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소시킵니다.'
+SET Text = '성도의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 매 턴 모든 [ICON_GREAT_PEOPLE]위인 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -331,7 +331,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Holy Order
 UPDATE Language_ko_KR
-SET Text = '[ICON_RELIGION]종교 전파 속도가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 ([COLOR_RESEARCH_STORED]인쇄술[ENDCOLOR] 연구 시 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]), 전파 거리가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 우호적인 [ICON_CITY_STATE]도시 국가 및 [ICON_INTERNATIONAL_TRADE]교역로가 연결된 다른 문명에 대한 종교 압력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
+SET Text = '전파 거리가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 우호적인 [ICON_CITY_STATE]도시 국가 및 [ICON_INTERNATIONAL_TRADE]교역로가 연결된 다른 문명에 대한 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -495,7 +495,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE_SHORT' AND EXISTS (SELECT * FROM
 
 -- Ceremonial Burial
 UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]마우솔레움[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 당신의 [ICON_RELIGION]종교를 따르는 도시에 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_PEACE]신앙 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_YELLOW]마우솔레움[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 당신의 [ICON_RELIGION]종교를 따르는 도시에 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_PEACE]신앙 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 제공합니다. (시대에 따라 보정) 당신 문명의 [ICON_SPY]스파이가 배치된 도시에 종교 압력을 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:110:110:110:255](표준 속도)[ENDCOLOR] 행사하고 종교를 믿는 전쟁 중이 아닌 외국의 시민 10명당 행복이 1 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_CEREMONIAL_BURIAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Church Property (Now Holy Law)
@@ -513,21 +513,21 @@ SET Text = '[COLOR_YELLOW]성유물함[ENDCOLOR] 국가 불가사의를 건설�
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '순례자의 길'
+SET Text = '진리의 길'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Initiation Rites (Now Way of Transcendence)
 UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]신성한 정원[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 새로운 시대로 진입할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 각 산출량을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_YELLOW]신성한 정원[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 새로운 시대로 진입할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 각 산출량을 [COLOR_POSITIVE_TEXT]12[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '초월의 길'
+SET Text = '초월적인 판단'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Papal Primacy (Now Council of Elders)
 UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]종교 공의회[ENDCOLOR] 국가 불가사의를 제공합니다. 당신 문명의 종교를 처음 채택한 도시는 [COLOR:110:110:110:255](한도: 15도시)[ENDCOLOR] 당신의 성도에 [ICON_RESEARCH]과학 및 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] [COLOR:110:110:110:255](종교를 따르는 도시의 수에 따라 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_YELLOW]종교 공의회[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. 당신 문명의 종교를 처음 채택한 도시는 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 당신의 성도에 [ICON_RESEARCH]과학 및 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:110:110:110:255](종교를 따르는 도시의 수에 따라 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -536,7 +536,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Pilgrimage (Now Apostolic Tradition)
 UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]사도 궁전[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. [ICON_RELIGION]종교 전파로 신도의 수가 늘어날 때 성도에 [ICON_CULTURE]문화 및 [ICON_FOOD]식량을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:110:110:110:255](종교를 따르는 새로운 신도 수에 따라 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. [ICON_RELIGION]종교 전파 시 +20 [ICON_FOOD]식량을 성도에 제공합니다. (새로운 신도 수에 따라 보정) 새로운 [ICON_RESEARCH]기술을 연구하면, [ICON_RELIGION]종교의 신도마다 2 [ICON_PEACE]신앙을 제공합니다. (한도: 250명)'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR

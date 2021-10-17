@@ -2,11 +2,15 @@
 --------------------
 -- AUTOCRACY
 --------------------
+-- Leader title change
+UPDATE Language_ko_KR
+SET Text = '{2_CivName:textkey}의 군주{1_PlayerName:textkey}'
+WHERE Tag = 'TXT_KEY_AUTOCRACY_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Clausewitz's Legacy
 
 UPDATE Language_ko_KR 
-SET Text = '[COLOR_POSITIVE_TEXT]군인 정신[ENDCOLOR]: 정책을 채택한 후 50턴 동안 모든 군사 유닛의 공격 보너스가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소하고 도시를 [ICON_RAZING]불태우는 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 빨라집니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]군인 정신[ENDCOLOR]: 정책을 채택한 후 50턴 동안 근접 유닛의 공격 보너스가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소하고 도시를 [ICON_RAZING]불태우는 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 빨라집니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -165,7 +169,7 @@ WHERE Tag = 'TXT_KEY_POLICY_OPEN_SOCIETY_HELP' AND EXISTS (SELECT * FROM COMMUNI
 -- Civil Society
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]시민 사회[ENDCOLOR]: 전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]시민 사회[ENDCOLOR]: 전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. 농장, 재배지, 야영지, 모든 고유 시설의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Covert Action
@@ -196,7 +200,7 @@ WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP' AND EXISTS (SELECT * FROM 
 
 -- Finest Hour
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]최상의 시간[ENDCOLOR]: 도시의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 도시에서 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 제공합니다. [COLOR_YELLOW]B-17 폭격기[ENDCOLOR] 유닛을 생산할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]최상의 시간[ENDCOLOR]: 도시가 1개의 항공 슬롯을 얻고 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 도시에서 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 제공합니다. [COLOR_YELLOW]B-17 폭격기[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Universal Suffrage
@@ -207,13 +211,21 @@ WHERE Tag = 'TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP' AND EXISTS (SELECT * FROM C
 -- Urbanization
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]도시화[ENDCOLOR]: 농장, 재배지, 야영지, 모든 고유 시설의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]자결권[ENDCOLOR]: 도시를 해방하면 모든 유닛이 15의 경험치를 얻고, 모든 도시국가가 50 [ICON_INFLUENCE]영향력을 얻고, 40 [ICON_RESEARCH] 과학을 얻습니다. (시대와 도시의 인구수에 따라 보정)'
 WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
+
+UPDATE Language_en_US
+SET Text = 'Self-Determination is the idea that every group of people has the right to choose, or determine, how they are ruled. While the idea had already spread, one of the first major declarations of it was the Fourteen Points by US President Woodrow Wilson, which among other things, attempted to establish this principle in post World War I Europe. After World War II the Allies made similar pledges, and the UN holds this as a policy to this day. Self-Determination is a simple idea, but it has had great impacts on many things, most importantly Independence. Though, it can be more complex as what exactly the people determine is not necessarily Independence, and many paths are open. Additionally, what group counts as a single people can further complicate the matter.'
+WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
+
+UPDATE Language_en_US
+SET Text = '자결권'
+WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- New Deal
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]뉴딜 정책[ENDCOLOR]: 랜드마크 및 위인 시설의 산출량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]뉴딜 정책[ENDCOLOR]: 랜드마크 및 위인 시설의 산출량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가하고, 관광이 2 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_DEAL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 
@@ -250,7 +262,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP' AND EXISTS (SELECT * FROM COM
 -- Cultural Revolution
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]문화 대혁명[ENDCOLOR]: 같은 [COLOR_MAGENTA]질서[ENDCOLOR] 이념을 따르는 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가하고 모든 [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_SPY]스파이가 기술을 훔칠 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]문화 대혁명[ENDCOLOR]: 같은 [COLOR_MAGENTA]질서[ENDCOLOR] 이념을 따르는 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가하고 모든 [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_SPY]스파이가 작전을 수행할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Dictatorship of the Proletariat
@@ -327,7 +339,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]인민군[ENDCOLOR]: 사관 학교를 건설할
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'The People''s Liberation Army (PLA) traces its origins to the August 1, 1927, Nanchang Uprising in which Kuomintang (Nationalists, also spelled ''Guomindang'') troops led by Communist Party of China leaders Zhu De and Zhou Enlai (while engaged in the Northern Expedition) rebelled following the violent dissolution of the first Kuomintang-Communist Party of China united front earlier that year. The survivors of that and other abortive communist insurrections, including the Autumn Harvest Uprising led by Mao Zedong, fled to the Jinggang Mountains along the border of Hunan and Jiangxi provinces. Joining forces under the leadership of Mao and Zhu, this collection of communists, bandits, Kuomintang deserters, and impoverished peasants became the First Workers'' and Peasants'' Army, or Red Army—the military arm of the Chinese Communist Party.'
+SET Text = 'The People''s Liberation Army (PLA) traces its origins to the August 1, 1927, Nanchang Uprising in which Kuomintang (Nationalists, also spelled ''Guomindang'') troops led by Communist Party of China leaders Zhu De and Zhou Enlai (while engaged in the Northern Expedition) rebelled following the violent dissolution of the first Kuomintang-Communist Party of China united front earlier that year. The survivors of that and other abortive communist insurrections, including the Autumn Harvest Uprising led by Mao Zedong, fled to the Jinggang Mountains along the border of Hunan and Jiangxi provinces. Joining forces under the leadership of Mao and Zhu, this collection of communists, bandits, Kuomintang deserters, and impoverished peasants became the First Workers'' and Peasants'' Army, or Red Army—the military arm of the Chinese Communist Party.'    
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -466,7 +478,7 @@ SET Text = '{2_CivName:textkey}의 총리 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_COMMERCE_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]산업[ENDCOLOR]은 제국의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산에 초점을 맞춘 보너스를 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]철도역 및 항구 건설 시 [ICON_PRODUCTION]생산 보너스 +100%[NEWLINE][ICON_BULLET]구매에 필요한 [ICON_GOLD]골드 비용 -5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]구매에 필요한 [ICON_GOLD]골드 비용 -5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]브로드웨이[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]모든 사치 자원의 전역 [ICON_HAPPINESS_1]행복 두 배[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드 +2[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_MERCHANT][COLOR_YELLOW]위대한 상인[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]산업[ENDCOLOR]은 제국의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산에 초점을 맞춘 보너스를 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]무료 [ICON_INTERNATIONAL_TRADE]교역로 +2[NEWLINE][ICON_BULLET]구매에 필요한 [ICON_GOLD]골드 비용 -5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]구매에 필요한 [ICON_GOLD]골드 비용 -5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]브로드웨이[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]모든 사치 자원의 전역 [ICON_HAPPINESS_1]행복 두 배[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드 +2[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_MERCHANT][COLOR_YELLOW]위대한 상인[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_COMMERCE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -475,7 +487,7 @@ WHERE Tag = 'TXT_KEY_POLICY_COMMERCE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY W
 
 -- Mercenary Army
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]노동 분업[ENDCOLOR][NEWLINE]모든 대장간, 풍차, 작업장, 공장, 철도역, 항구의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가합니다. 건물에 투자하는 [ICON_GOLD]골드가 [ICON_PRODUCTION]생산 비용을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 더 감소시킵니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]노동 분업[ENDCOLOR][NEWLINE]철도역 및 항구 건설 시 +100%의 [ICON_PRODUCTION]생산 보너스를 얻습니다. 모든 대장간, 풍차, 작업장, 공장, 철도역, 항구의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_TRADE_UNIONS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -513,7 +525,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP' AND EXISTS (SELECT * FROM COM
 --Protectionism
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]보호무역주의[ENDCOLOR][NEWLINE]추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 2개 제공합니다. 국제 교역로의 산출량이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. "국왕 경축일"이 열리는 동안 [ICON_FOOD]식량 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]보호무역주의[ENDCOLOR][NEWLINE] 건물에 투자하는 [ICON_GOLD]골드가 [ICON_PRODUCTION]생산 비용을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 더 감소시킵니다. 국제 교역로의 산출량이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. "국왕 경축일"이 열리는 동안 [ICON_FOOD]식량 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PROTECTIONISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 --------------------
@@ -627,7 +639,7 @@ SET Text = '{2_CivName:textkey}의 강력한 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_HONOR_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]권위[ENDCOLOR]는 호전적이고 팽창을 지향하는 문명에 크게 도움이 됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]야만인 대항 전투력 보너스 +25%[NEWLINE][ICON_BULLET]야만인 주둔지 출현 시 알람[NEWLINE][ICON_BULLET]적 유닛 처치 및 야만인 주둔지 파괴 시 [ICON_CULTURE]문화 획득[NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR] [NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]알함브라 궁전[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET][COLOR_MAGENTA]공물[ENDCOLOR] 정책의 산출량 두 배[NEWLINE][ICON_BULLET][COLOR_YELLOW]란츠크네흐트[ENDCOLOR], [COLOR_YELLOW]외인부대[ENDCOLOR], [COLOR_YELLOW]용병[ENDCOLOR] 구매 가능[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_GENERAL][COLOR_YELLOW]위대한 장군[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]권위[ENDCOLOR]는 호전적이고 팽창을 지향하는 문명에 크게 도움이 됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]야만인 대항 전투력 보너스 +25%[NEWLINE][ICON_BULLET]야만인 주둔지 출현 시 알람[NEWLINE][ICON_BULLET]적 유닛 처치 및 야만인 주둔지 파괴 시 [ICON_CULTURE]문화 획득[NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR] [NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]알함브라 궁전[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET][COLOR_MAGENTA]공물[ENDCOLOR] 정책의 산출량 두 배[NEWLINE][ICON_BULLET][COLOR_YELLOW]자유용병대[ENDCOLOR], [COLOR_YELLOW]외인부대[ENDCOLOR], [COLOR_YELLOW]용병[ENDCOLOR] 구매 가능[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_GENERAL][COLOR_YELLOW]위대한 장군[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_HONOR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -735,7 +747,7 @@ SET Text = '조직화'
 WHERE Tag = 'TXT_KEY_POLICY_COLLECTIVE_RULE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]조직화[ENDCOLOR][NEWLINE]모든 시민 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 노동자 및 교역 유닛을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빠르게 생산할 수 있습니다. 모든 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]조직화[ENDCOLOR][NEWLINE]모든 시민 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 노동자 및 교역 유닛을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빠르게 생산할 수 있습니다. 모든 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_COLLECTIVE_RULE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -761,7 +773,7 @@ SET Text = '전문화'
 WHERE Tag = 'TXT_KEY_POLICY_REPUBLIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]전문화[ENDCOLOR][NEWLINE]건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 건물 건설을 완료하면 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]전문화[ENDCOLOR][NEWLINE]건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 건물 건설을 완료하면 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_REPUBLIC_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -939,7 +951,7 @@ SET Text = '부르주아'
 WHERE Tag = 'TXT_KEY_POLICY_REFORMATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]부르주아[ENDCOLOR][NEWLINE]"국왕 경축일"이 열리는 동안 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 국경 확장 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 제공하지 않습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]부르주아[ENDCOLOR][NEWLINE]황금기 또는 "국왕 경축일"이 열리는 동안 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 국경 확장 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 제공하지 않습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_REFORMATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -971,6 +983,10 @@ WHERE Tag = 'TXT_KEY_BUILDING_MONASTERY_STRATEGY' AND EXISTS (SELECT * FROM COMM
 --------------------
 -- RATIONALISM
 --------------------
+-- Leader title change
+UPDATE Language_ko_KR
+SET Text = '{2_CivName:textkey}의 수상 {1_PlayerName:textkey}'
+WHERE Tag = 'TXT_KEY_RATIONALISM_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Opener -- Free Science per city when happy, additional per policy taken. Closer grants 33% boost to GS, 20% boost to Growth.
 
@@ -1021,7 +1037,7 @@ WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY
 -- Sovereignty
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]경험주의[ENDCOLOR][NEWLINE]모든 도시에서 적[ICON_SPY]스파이의 효율이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 감소합니다. 전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]경험주의[ENDCOLOR][NEWLINE]모든 도시에서 보안 등급이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가합니다. 전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR

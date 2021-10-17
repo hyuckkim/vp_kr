@@ -6,7 +6,7 @@
 			<Text>공공 사업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_HELP">
-			<Text>도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 전역 [ICON_HAPPINESS_1]행복 요구 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다. 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD]빈곤, [ICON_RESEARCH]문맹, [ICON_CULTURE]무료, [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]반복 가능한 프로젝트이지만 시대마다 [ICON_PRODUCTION]생산 비용이 [COLOR_NEGATIVE_TEXT]100[ICON_PRODUCTION][ENDCOLOR] 증가합니다. 프로젝트를 수행할 때마다 [ICON_PRODUCTION]생산 비용이 [COLOR_NEGATIVE_TEXT]100[ICON_PRODUCTION][ENDCOLOR] 증가하고 [ICON_GOLD]유지비가 [COLOR_NEGATIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 전역 [ICON_HAPPINESS_1]행복 요구 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다. 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD]빈곤, [ICON_RESEARCH]문맹, [ICON_CULTURE]무료, [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다. 도시의 보안 등급을 15% 증가시킵니다. [NEWLINE][NEWLINE]반복 가능한 프로젝트이지만 시대마다 [ICON_PRODUCTION]생산 비용이 [COLOR_NEGATIVE_TEXT]100[ICON_PRODUCTION][ENDCOLOR] 증가합니다. 프로젝트를 수행할 때마다 [ICON_PRODUCTION]생산 비용이 [COLOR_NEGATIVE_TEXT]100[ICON_PRODUCTION][ENDCOLOR] 증가하고 [ICON_GOLD]유지비가 [COLOR_NEGATIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_PEDIA">
 			<Text>Public works are a broad category of infrastructure projects, financed and constructed by the government, for recreational, employment, and health and safety uses in the greater community. They include public buildings (municipal buildings, schools, hospitals), transport infrastructure (roads, railroads, bridges, pipelines, canals, ports, airports), public spaces (public squares, parks, beaches), public services (water supply and treatment, sewage treatment, electrical grid, dams), and other, usually long-term, physical assets and facilities. Though often interchangeable with public infrastructure and public capital, public works does not necessarily carry an economic component, thereby being a broader term.</Text>
@@ -54,10 +54,10 @@
 			<Text>Piazza San Marco (often known in English as St Mark's Square), is the principal public square of Venice, Italy, where it is generally known just as "the Piazza" (la Piazza). All other urban spaces in the city (except the Piazzetta and the Piazzale Roma) are called "campi" (fields). The Piazzetta (the 'little Piazza') is an extension of the Piazza towards the lagoon in its south east corner (see plan). The two spaces together form the social, religious and political centre of Venice and are commonly considered together.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_STRATEGY">
-			<Text>Unique Venetian building, replacing the National Monument. Eschews most National Monument abilities in favor of providing a small boost to City yields, a boost to the City's Great People rate, and the ability to ignore all Advanced Actions that can be performed by Spies. This means that your Capital is well-defended against the theft of Gold, Science, and other important resources. Unlocks access to Murano Glassworks, Arsenale di Venezia, and Rialto District once Guilds is researched. Only one of these buildings may be constructed per game.</Text>
+			<Text>Unique Venetian building, replacing the National Monument. Eschews most National Monument abilities in favor of providing a small boost to City yields and a boost to the City's Great People rate. This means that your Capital is well-defended against the theft of Gold, Science, and other important resources. Unlocks access to Murano Glassworks, Arsenale di Venezia, and Rialto District once Guilds is researched. Only one of these buildings may be constructed per game.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_HELP">
-			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 군사 유닛의 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. 적[ICON_SPY]스파이가 이 도시에서 고급 첩보 활동을 수행할 수 없습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]길드[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아스넬 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_CAPITAL][COLOR_YELLOW]수도[ENDCOLOR]에만 건설할 수 있습니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 군사 유닛의 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]길드[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아스넬 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_CAPITAL][COLOR_YELLOW]수도[ENDCOLOR]에만 건설할 수 있습니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS">
 			<Text>무라노 유리공방</Text>
@@ -117,7 +117,7 @@
 			<Text>바실리카</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BASILICA_TEXT">
-			<Text>The Latin word basilica, has three distinct applications in modern English. The word was originally used to describe an open, Roman, public court building, usually located adjacent to the forum of a Roman town. By extension it was applied to Christian buildings of the same form and continues to be used in an architectural sense to describe those buildings with a central nave and aisles. Later, the term came to refer specifically to a large and important church that has been given special ceremonial rights by the Pope.</Text>
+			<Text>Over many centuries, Byzantine architecture gradually drifted away from older Roman forms. Byzantine-style buildings are often noted for their high domes and intricate mosaic work, and far greater use of stone and brick construction. The tetraconch churches, meaning "four shells" in Greek, represent the highest achievement of Byzantine architecture. The floorplan of these buildings incorporates four domed apses, giving the building the shape of a cross, with the central space capped by a high dome. The form was widely used in mausoleums and baptisteries and informed later Ottoman and Renaissance architectural traditions that followed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_STRATEGY">
 			<Text>Unique Byzantine replacement for the Temple. This building does not require maintenance, boosts the city's [ICON_PEACE] Faith output based on the number of [ICON_CITIZEN] Citizens in the city, and doubles Religious Pressure generated by Trade Routes.</Text>
@@ -300,7 +300,7 @@
 			<Text>The Refinery is a Modern-era building which can only be constructed in 5 Cities total. The Refinery helps your Production and produces 1 Coal and 1 Iron Resource, however it has a high maintenance cost. Only construct if you find yourself without these vital late-game strategic resources.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_STRATEGY">
-			<Text>The Minefield is a Modern-era building which can only be constructed if you have enough Iron and you have already built a Harbor in the City. The Minefield increases City Defense and Hit Points, and reduces the movement of enemy naval units and embarked units by 1.</Text>
+			<Text>The Minefield is a Modern-era building which can only be constructed if you have enough Iron and you have already built a Harbor in the City. The Minefield increases City Defense and Hit Points, and reduces the movement of enemy naval units and embarked units by 1 around the city. Also damages enemy naval units for 10 Hit Points every time they end their turn adjacent to a water tile worked by the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROVE_HELP">
 			<Text>[ICON_CITIZEN]시민이 증가할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
@@ -327,7 +327,7 @@
 			<Text>[ICON_RES_COAL]석탄 및 [ICON_RES_IRON]철 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 건물은 문명당 [COLOR_YELLOW]최대 5개[ENDCOLOR]까지 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_HELP">
-			<Text>적 해상 유닛 및 승선 유닛이 이 도시의 영토에서 타일마다 [ICON_MOVES]이동력을 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 더 소모합니다.[NEWLINE][NEWLINE][ICON_RES_IRON]철 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. [COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.</Text>
+			<Text>적 해상 유닛 및 승선 유닛이 이 도시의 영토에서 타일마다 [ICON_MOVES]이동력을 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 더 소모합니다. 이 도시의 대양 타일에서 턴을 마친 적 유닛은 5 피해를 받습니다.[NEWLINE][NEWLINE][ICON_RES_IRON]철 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. [COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROVE_TEXT">
 			<Text>A Council is a governing body in an organised community. It is most common in subsistence cultures, with council membership being the condition or quality of being a political leader of a community. Over time, as communities grew, the importance of councils diminished in favor of larger governing institutions.</Text>
@@ -372,7 +372,7 @@
 			<Text>어머니 조국상</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_STATUE_HELP">
-			<Text>[COLOR_MAGENTA]무료 정책[ENDCOLOR]을 1개 제공합니다. [COLOR_YELLOW]경찰서[ENDCOLOR]를 무료로 제공합니다. 적[ICON_SPY]스파이가 이 불가사의가 지어진 도시에서 [ICON_RESISTANCE]반란을 부추기거나  [ICON_HAPPINESS_3]불행을 야기시킬 수 없습니다.[NEWLINE][NEWLINE][ICON_SPY]스파이가 고급 첩보 활동을 통해 건물의 [ICON_PRODUCTION]생산을 방해하고 [ICON_RESISTANCE]반란을 부추기거나  [ICON_HAPPINESS_3]불행을 야기시킬 가능성이 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 선택할 수 있습니다. [NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_MAGENTA]무료 정책[ENDCOLOR]을 1개 제공합니다. [COLOR_YELLOW]경찰서[ENDCOLOR]를 무료로 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 선택할 수 있습니다. [NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOTHERLAND_STATUE_TEXT">
 			<Text>The Motherland Calls, also called Mother Motherland, Mother Motherland Is Calling, simply The Motherland, or The Mamayev Monument, is a statue in Mamayev Kurgan in Volgograd, Russia, commemorating the Battle of Stalingrad. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin, and declared the largest statue in the world in 1967. Compared with the later higher statues, The Motherland Calls is significantly more complex from an engineering point of view, due to its characteristic posture with a sword raised high in the right hand and the left hand extended in a calling gesture. The technology behind the statue is based on a combination of prestressed concrete with wire ropes structure, a solution which can be found also in another work of Nikitin's, the super-tall Ostankino Tower in Moscow. It is the tallest statue of a woman in the world.</Text>
@@ -384,7 +384,7 @@
 			<Text>블레츨리 파크</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
-			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 과학자 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 2명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시에서 적[ICON_SPY]스파이의 효율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]당신의 문명이 소유한 [ICON_SPY]스파이가 더이상 고급 첩보 활동에 실패하지 않습니다. 고급 첩보 활동을 통해 [ICON_RESEARCH]과학을 훔치거나 세계 불가사의 [ICON_PRODUCTION]건설을 방해할 가능성이 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]합리주의[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 과학자 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 2명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시에서 보안 등급이 15% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
 			<Text>Bletchley Park, in Milton Keynes, Buckinghamshire, was the central site of the United Kingdom's Government Code and Cypher School, which during the Second World War regularly penetrated the secret communications of the Axis Power, most importantly the German Enigma and Lorenz ciphers. The official historian of World War II British Intelligence has written that the "Ultra" intelligence produced at Bletchley shortened the war by two to four years, and that without it the outcome of the war would have been uncertain. The site is now an educational and historical attraction memorialising and celebrating those accomplishments.</Text>
@@ -450,7 +450,7 @@
 			<Text>A Hindu temple is a house of god(s). It is a space and structure designed to bring human beings and gods together, infused with symbolism to express the ideas and beliefs of Hinduism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_HELP">
-			<Text>도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 적[ICON_SPY]스파이가 이 도시에서 [ICON_GREAT_PEOPLE]위인을 암살하거나 유닛의 [ICON_PRODUCTION]생산을 방해할 수 없습니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE">
 			<Text>회당</Text>
@@ -583,7 +583,7 @@
 			<Text>The Flavian Amphitheater, or Colosseum, is one of the most famous venues in all of history. Though Ancient Rome had only one Colosseum, variations on the design were reproduced throughout the empire, and to the present day. A colosseum is an outdoor venue where the public can watch sports events. Depending upon the time and place, the events might be gladiatorial contests, American football games, or soccer matches. Of the three contests mentioned, the gladiatorial battles were perhaps the hardest on the players involved, the soccer matches (occasionally) just about as dangerous for the participants.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_HELP">
-			<Text>투기장을 대체하는 로마의 고유 건물입니다. 도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 적 유닛을 처치할 때 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 유닛이 이 도시에서 생산 되었다면 추가로 [ICON_GREAT_PEOPLE]위대한 장군/위대한 제독 점수를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>투기장을 대체하는 로마의 고유 건물입니다. 도시의 [ICON_TOURISM]관광이 [ICON_CITIZEN]시민 3마다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 적 유닛을 처치할 때 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 유닛이 이 도시에서 생산 되었다면 추가로 [ICON_GREAT_PEOPLE]위대한 장군/위대한 제독 점수를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_STRATEGY">
 			<Text>Unique Roman replacement for the Arena. Build the Colosseum to boost your city's Culture, Tourism, and Production, and to maximize your empire's gain from the victories of your conquering armies. Every Colosseum slightly increases the Gold value of City Connections, thus allowing Rome to benefit from large, sprawling empires.</Text>
@@ -595,10 +595,10 @@
 			<Text>The White Tower is the old keep at the Tower of London. It was built by William the Conqueror during the early 1080s, and was later extended. The White Tower was the castle's strongest defensive point, and originally housed the king and his representatives. Throughout its long history, the Tower has been many things to England: A symbol of tyranny, a treasury, a menagerie, a mint, a palace and a prison. Today, the Tower of London is a vast museum which boasts, amongst its many treasures, the Crown Jewels of the English Monarchy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_HELP">
-			<Text>국가 정보국을 대체하는 영국의 고유 건물입니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 슬롯을 포함합니다. 모든 도시에서 적[ICON_SPY]스파이의 효율이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR] 1명 또는 그 이상을 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. [ICON_SPY]스파이가 고급 첩보 활동을 통해 [ICON_GREAT_PEOPLE]위인을 암살할 가능성이 증가합니다. [NEWLINE][NEWLINE]모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다. [ICON_GREAT_WORK]걸작이나 [ICON_RESEARCH]기술을 훔칠 때, [ICON_CITY_STATE]도시 국가 쿠데타 및 선거 조작 성공 시, 또는 이 도시에 잠입한 적[ICON_SPY]스파이를 처치할 때 [ICON_RESEARCH]과학  [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5) )[ENDCOLOR] 제공합니다. 모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]경찰서[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>국가 정보국을 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 슬롯을 포함합니다. 모든 도시에서 적[ICON_SPY]스파이의 효율이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR] 1명 또는 그 이상을 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. [NEWLINE][NEWLINE]모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다. [ICON_GREAT_WORK]걸작이나 [ICON_RESEARCH]기술을 훔칠 때, [ICON_CITY_STATE]도시 국가 쿠데타 및 선거 조작 성공 시, 또는 이 도시에 잠입한 적[ICON_SPY]스파이를 처치할 때 [ICON_RESEARCH]과학  [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5) )[ENDCOLOR] 제공합니다. 모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]경찰서[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_STRATEGY">
-			<Text>Unique English replacement for the National Intelligence Agency. The White Tower is available significantly earlier than the National Intelligence Agency, however yields from Spy Actions are reduced slightly as a result. In addition to the bonuses from the National Intelligence Agency, the White Tower improves Constabularies and Police Stations, contains a Great Work of Art, and provides yields for enemy Spies killed in the City.</Text>
+			<Text>Unique English replacement for the Ironworks. In addition to the bonuses from the Ironworks, the White Tower improves Constabularies, Castles and Armories, and contains a Great Work of Art. The White Tower provides yields for both offensive and defensive Spy actions, like an early Intelligence Agency.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_WORK_THE_CROWN_JEWELS_QUOTE">
 			<Text>"On the contrary. Every Bison dollar will be worth[NEWLINE] five British pounds. For that is the exchange rate[NEWLINE] that the bank of England will implement after[NEWLINE] I kidnap their queen."[NEWLINE]-M. Bison</Text>
@@ -618,24 +618,6 @@
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_STRATEGY">
 			<Text>Unique Ottoman replacement for the Forge. Generates extra Science from producing military units, produces Siege units much more quickly than normal, and grants them the [COLOR_POSITIVE_TEXT]Volley[ENDCOLOR] Promotion for free. Use these attributes to build a massive force of artillery to take down an enemy's walls and conquer their lands!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MOMA">
-			<Text>스미스소니언</Text>
-		</Row>
-		<Row Tag="TXT_KEY_THEMING_BONUS_MOMA">
-			<Text>스미스소니언 기록 보관소</Text>
-		</Row>
-		<Row Tag="TXT_KEY_MOMA_THEMING_BONUS_HELP">
-			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]다른 시대[ENDCOLOR]에 [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]예술품[ENDCOLOR]으로 채우십시오.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOMA_TEXT">
-			<Text>The Smithsonian Institution, established in 1846 "for the increase and diffusion of knowledge," is a group of museums and research centers administered by the Government of the United States. Originally organized as the "United States National Museum," that name ceased to exist as an administrative entity in 1967. Termed "the nation's attic" for its eclectic holdings of 138 million items, the Institution's nineteen museums, nine research centers, and zoo include historical and architectural landmarks, mostly located in the District of Columbia. Additional facilities are located in Arizona, Maryland, Massachusetts, New York City, Virginia, and Panama. A further 170 museums are Smithsonian Affiliates. The Institution's thirty million annual visitors are admitted without charge. Funding comes from the Institution's endowment, private and corporate contributions, membership dues, government support, as well as retail, concession and licensing revenues. Institution publications include Smithsonian and Air and Space magazines.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MOMA_HELP">
-			<Text>에르미타슈 박물관을 대체하는 미국의 고유 건물입니다. [ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 세계 불가사의, 자연 경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. [NEWLINE][NEWLINE]모든 박물관 및 방송탑의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. 모든 도시의 [ICON_CULTURE]무료에서 오는 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_CULTURE]문화 +5[ICON_RESEARCH]과학 +5[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]오페라 극장[ENDCOLOR] 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MOMA_STRATEGY">
-			<Text>Unique American replacement for the Hermitage. In addition to the bonuses of the Hermitage, the Smithsonian boosts Culture and Tourism in the City greatly. The Smithsonian also boosts the Culture and Science output of all Museums and Broadcast Towers in your Empire. The Smithsonian is available slightly later than the Hermitage, however. The [ICON_PRODUCTION] Production Cost and [ICON_CITIZEN] Population Requirements increase based on the number of cities you own.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_AMPHITHEATER_NATIONAL">
 			<Text>국가서사시</Text>
 		</Row>
@@ -645,6 +627,7 @@
 		<Row Tag="TXT_KEY_AMPHITHEATER_THEMING_BONUS_HELP">
 			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]같은 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]문학[ENDCOLOR]으로 채우십시오.</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_MISSION">
 			<Text>전도관</Text>
 		</Row>
@@ -657,6 +640,7 @@
 		<Row Tag="TXT_KEY_BUILDING_MISSION_STRATEGY">
 			<Text>Unique Spanish replacement for the Castle. It is cheaper than the Castle, has no maintenance, does not require Walls in order to be built, and can be purchased with Faith. Grants a bunch of Faith and Gold when Citizens are born in City (based on the current yields of the city when the new citizen is born). Increases Military Units supplied by this City's population by 10%. Boosts the city's religious pressure by 15% and resistance to foreign conversion by 15%, thus making the city more effective at converting nearby cities. Build these unique Castles to quickly boost a City's Defense, bypass the need for Walls, and to bolster your Religion. Also helps with managing the Empire Needs Modifier in this City.</Text>
 		</Row>
+	-->
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES">
 			<Text>룬스톤</Text>
 		</Row>
@@ -676,7 +660,7 @@
 			<Text>Seowon were the most common educational institution of Korea during the mid- to late Joseon Dynasty. They were private institutions, and combined the functions of a Confucian shrine and a preparatory school. In educational terms, the seowon were primarily occupied with preparing students for the national civil service examinations. In most cases, seowon served only pupils of the aristocratic yangban class.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_HELP">
-			<Text>대학을 대체하는 한국의 고유 건물입니다. 도시 주변 정글 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PRODUCTION]생산 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[ICON_CITIZEN]시민이 증가할 때 현재 [ICON_RESEARCH]과학 산출량의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]를 즉시 제공합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>대학을 대체하는 한국의 고유 건물입니다. 도시 주변 정글 타일과 설원 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PRODUCTION]생산 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[ICON_CITIZEN]시민이 증가할 때 현재 [ICON_RESEARCH]과학 산출량의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]를 즉시 제공합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_STRATEGY">
 			<Text>Unique Korean replacement for the University. Generates more Science and Production than the University, generates Faith, and is available earlier. The increased Great Person rate will help you produce Great People more quickly, thus helping you to maximize Korea's Unique Ability.</Text>
@@ -710,6 +694,60 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PROJECT_STARTED_S">
 			<Text>[COLOR_POSITIVE_TEXT]{1_Building}[ENDCOLOR]{1: plural 1?을; 2?를;} 건설 중입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL">
+			<Text>독립기념관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_HELP">
+			<Text>에르미타쥬 박물관을 대체하는 미국의 고유 건물입니다.[NEWLINE][NEWLINE] 도시의 4 [ICON_CITIZEN]시민당 +1 [ICON_CULTURE] 문화를 얻습니다. 도시의 [ICON_CULTURE]문화가 +10% 증가합니다.[NEWLINE][NEWLINE][ICON_CULTURE] 정책 채택에 필요한 문화가 5% 감소합니다. [COLOR_POSITIVE_TEXT]후버 댐[ENDCOLOR], [COLOR_POSITIVE_TEXT]미국 육군사관학교[ENDCOLOR], and [COLOR_POSITIVE_TEXT]스미스소니언 협회를[ENDCOLOR] [COLOR_CYAN]현대 시대[ENDCOLOR]에 지을 수 있습니다.[NEWLINE][NEWLINE]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. Reduces [ICON_HAPPINESS_3] [ICON_CULTURE]무료로 인한 불행이 10% 감소합니다.[NEWLINE][NEWLINE] 문명에 도시가 많을수록 건설 비용이 증가합니다.완성하면 [NEWLINE][NEWLINE]+3 [ICON_CULTURE]문화와 +3 [ICON_GOLD]골드를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_TEXT">
+			<Text>Originally constructed as the state house of Pennsylvannia, Independence Hall is where the United States Declaration of Independence and Constitution were debated and formally adopted, making it the birthplace of the American nation. Today, Independence Hall is a museum and the centre of the Independence National Park in the heart of Philadelphia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_STRATEGY">
+			<Text>Independence Hall is the unique Hermitage for America. In addition to the bonuses of the Hermitage, Independence Hall reduces the cost of future policies and unlocks the ability for American to build 1 of 3 unique wonders in the Modern Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOMA">
+			<Text>스미스소니언 협회</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOMA_TEXT">
+			<Text>The Smithsonian Institution, established in 1846 "for the increase and diffusion of knowledge," is a group of museums and research centers administered by the Government of the United States. Originally organized as the "United States National Museum," that name ceased to exist as an administrative entity in 1967. Termed "the nation's attic" for its eclectic holdings of 138 million items, the Institution's nineteen museums, nine research centers, and zoo include historical and architectural landmarks, mostly located in the District of Columbia. Additional facilities are located in Arizona, Maryland, Massachusetts, New York City, Virginia, and Panama. A further 170 museums are Smithsonian Affiliates. The Institution's thirty million annual visitors are admitted without charge. Funding comes from the Institution's endowment, private and corporate contributions, membership dues, government support, as well as retail, concession and licensing revenues. Institution publications include Smithsonian and Air and Space magazines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_SMITHSONIAN_HELP">
+			<Text>셋 중[COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해햐 합니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 박물관과 연구소에서 +5 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학을 얻고, 모든 세계 불가사의에서 +2 [ICON_CULTURE] 문화와 [ICON_RESEARCH]과학을 제공합니다. 모든 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 박물관을 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]문화가 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_SMITHSONIAN_STRATEGY">
+			<Text>The Smithsonian Institute is one of three mutually exclusive wonders that America can build after it has completed Independence Hall. It gives major bonuses towards culture and scienge generation on empire, giving powerful theming for Great Artifacts, and boosting the power of Museums.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT">
+			<Text>미국 육군사관학교</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT_HELP">
+			<Text>셋 중[COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 사관 학교와 군사 기지에서 +5 [ICON_PRODUCTION]생산과 [ICON_RESEARCH]과학을 제공하고, 모든 세계 불가사의에서 +2 [ICON_PRODUCTION] 생산과 [ICON_RESEARCH]과학을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]무료[ENDCOLOR]로 야포 3기와 3[ICON_RES_IRON]철을 제공합니다.모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]과학이 증가합니다.[NEWLINE][NEWLINE]모든 지상 유닛이 [COLOR_POSITIVE_TEXT]광역 피해[ENDCOLOR] 진급을 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_BUILDINGS_AMERICA_WESTPOINT_TEXT">
+			<Text>The United States Military Academy, informally known as West Point, is the oldest service academy, educating cadets to become commissioned officers for the United States Army. The academy is notable for producing some of the most renowned generals in modern history in addition to numerous heads of state, both foreign and domestic. The campus is the oldest continuously operating American army post, originally built as a river fort to overlook and control shipping along the Hudson River. As a result, the campus is a national landmark, dotted with numerous monuments and statues representing its long and storied history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT_STRATEGY">
+			<Text>West Point is one of three mutually exclusive wonders that America can build after it has completed Independence Hall. It gives major bonuses towards science and your siege units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_HOOVERDAM">
+			<Text>후버 댐</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_HOOVERDAM_HELP">
+			<Text>셋 중[COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해햐 합니다. 오직 강 옆에 있는 도시에서만 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 공장과 경기장에서 +5 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공하고, 모든 세계 불가사의에서 +2 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공합니다. +[NEWLINE][NEWLINE]이 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 수력 발전소를 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]생산이 증가합니다.[NEWLINE][NEWLINE]세계 불가사의, 자연 불가사의에서 [ICON_CULTURE]문화가 25% 증가하고 그만큼  [ICON_TOURISM관광을 얻습니다. All [ICON_INTERNATIONAL_TRADE] 교역이 25% 빨리 완성됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_BUILDINGS_AMERICA_HOOVERDAM_TEXT">
+			<Text>One of the most ambitious and largest public works projects in American history, the Hoover Dam is a marvel of Modern innovation. At the time of its construction, the Hoover Dam was the largest concrete structure in the world, using ambitious and experimental techniques to pour and cure over 3 million cubic meters of concrete, one inch at a time. the dam impounds Lake Mead, the largest man-made reservoir in the United States, regulates flooding of the Colorado river. Its generators provide power for Nevada, Arizona, and California, and its crest was incorporated into US Route 93, making it a major thoroughfare and tourist attraction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_HOOVERDAM_STRATEGY">
+			<Text>The Hoover Dam is one of three mutually exclusive wonders that America can build after it has completed Independence Hall. It gives major bonuses towards a production and Cultural Victory, increasing the tourism of Wonders and Culture from tiles. The Hoover Dam also halves the time for Trade Routes to complete, greatly increasing your tourism and franchise production towards civilizations you trade with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_INDEPENDENCEHALL">
+			<Text>국보</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_INDEPENDENCEHALL_HELP">
+			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]당신 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]예술품[ENDCOLOR]으로 채우십시오.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

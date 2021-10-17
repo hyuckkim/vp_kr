@@ -174,3 +174,6 @@ UPDATE Language_ko_KR
 SET Text = '향신료는 식물성 물질로 음식의 맛과 색상 질감을 향상하고 보존하는 데 사용합니다. 일부 향신료는 종교적인 의미가 있기도 하는데 일부는 향신료에 의학적인 효능도 있다고 주장합니다. 일반적인 향신료에는 후추, 머스타드, 시나몬, 사프란, 생강 등이 있습니다. 보통 향신료는 음식에 사용하기 전에 반드시 말리고 갈아야 합니다. 잎이 무성하고 녹색인 세이지나 오레가노와 같은 허브는 생으로 또는 말려서 사용해도 되며 이것이 허브와 향신료의 차이라고 할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_SPICES_TEXT'AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
+	UPDATE Language_ko_KR
+	SET Text = '광산은 문명 5에서 가장 중요한 시설입니다. 단지 한 타일의 생산을 향상시키는 것이 아니라 - 유닛, 건물, 불가사의의 빠른 생산을 가능하게 합니다. - 또한 게임의 중요한 자원 철, 석탄, 알루미늄, 기타 등등을 다룰 수 있게 합니다.'
+	WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MINE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );

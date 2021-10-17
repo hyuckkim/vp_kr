@@ -21,11 +21,6 @@ WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_B17_STRATEGY' AND EXISTS (SELECT * FROM COMMU
 UPDATE Language_ko_KR
 SET Text = '적의 유닛과 도시 위로 죽음의 비를 내리는 비행 유닛입니다. 폭격기에 비해 요격을 어느정도 막아낼 수 있으며 도시에 더 큰 피해를 줍니다. 군사 보급을 차지하지 않습니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 따르는 문명만 생산할 수 있고 [COLOR_MAGENTA]최상의 시간[ENDCOLOR] 이념 주의를 채택해야 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_B17' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
-
-UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]상대방의 영토를 훔쳤습니다![ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_DIPLO_CULTURE_BOMB' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
-
 --------------------
 -- Arabia
 --------------------
@@ -40,8 +35,6 @@ WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_STRATEGY' AND EXISTS (SELECT * FROM COMMUNI
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 일어날 때 [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 무작위 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_LAND_TRADE_GOLD2' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
-
--- [ICON_TOURISM] Tourism from Historic Events increased by 30%.
 
 UPDATE Language_ko_KR
 SET Text = '천일야화'
@@ -166,7 +159,7 @@ WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY' AND EXISTS (SELECT * FROM COMM
 --------------------
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GOLDEN_AGE]황금기가 시작되면 [ICON_GOLDEN_AGE]황금기 점수의 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR]가 [ICON_GOLD]골드 및 [ICON_TOURISM]관광으로 전환되고 모든 도시가 10턴 동안 [COLOR_POSITIVE_TEXT]카니발[ENDCOLOR]을 맞이합니다. "카니발"이 열리는 동안 모든 요구에 의한 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 문화가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
+SET Text = '"국왕 경축일"을 대체하는 카니발을 가집니다. [ICON_GOLDEN_AGE]황금기가 시작되면 [ICON_GOLDEN_AGE]황금기 점수의 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]가 [ICON_GOLD]골드 및 [ICON_TOURISM]관광으로 전환되고 모든 도시가 10턴 동안 [COLOR_POSITIVE_TEXT]카니발[ENDCOLOR]을 맞이합니다. "카니발"이 열리는 동안 모든 요구에 의한 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 문화가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CARNIVAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -463,8 +456,16 @@ SET Text = '전차를 대체하는 독일의 고유 유닛입니다. 빠르고 �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_PANZER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '장창병보다 매우 저렴하고 약탈 시 이동력 소모가 없으며 도시 공격 시 [ICON_GOLD]골드를 제공합니다. 구매 시 승급에 필요한 충분한 경험치를 제공하며 구매 후 바로 이동할 수 있습니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]권위[ENDCOLOR] 계열 완성 후 [ICON_GOLD]골드로 구매할 수 있습니다.'
+SET Text = '테르시오를 대체하는 독일의 고유 유닛입니다.[NEWLINE][NEWLINE]구매 시 경험치 패널티가 없으며 즉시 이동할 수 있지만 유닛의 [ICON_GOLD] 비용이 증가합니다..[NEWLINE][NEWLINE]최대 체력인 적에게 주는 피해가 증가합니다. [COLOR_POSITIVE_TEXT]진형 1[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]진형 2[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_LANDSKNECHT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+UPDATE Language_ko_KR
+SET Text = 'Enter the era of pike and shot before anybody else with this early gunpowder unit. In addition to being unlocked a lot sooner and being a little cheaper than normal Tercios, the Landsknecht gain full XP and can move immediately when bought, which allows them to be quickly amassed when needed. However, stay aware of their increased maintenance cost, for their availability has a price.[NEWLINE][NEWLINE]Use their early unlocking and their bonus against full health units to surprise your opponents in the first turns of your wars and break their lines quickly.'
+WHERE Tag = 'TXT_KEY_UNIT_GERMAN_LANDSKNECHT_STRATEGY';
+
+UPDATE Language_ko_KR
+SET Text = 'The landsknecht were German mercenary pike & shot of the 16th century. Created in imitation of the legendary Swiss Reisl�ufer, the landsknecht would eventually supplant them as the best mercenary infantry available in Europe, fighting in almost every major engagement in the 16th century - often on both sides. In battle landsknechts generally carried pikes of up to twenty feet in length. Other weapons included Arquebuses, crossbows, and huge two-handed swords or halberds; these were used to chop the heads off of the pikes of their opponents.'
+WHERE Tag = 'TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_LANDSKNECHT_TEXT';
 
 UPDATE Language_ko_KR
 SET Text = '아헨'
@@ -607,7 +608,7 @@ SET Text = 'A terrifying sight on the battlefield, often as dangerous to its own
 WHERE Tag = 'TXT_KEY_CIV5_ANTIQUITY_INDIANWARELEPHANT_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '흉갑기병을 대체하는 인도의 고유 유닛입니다. 육중한 원거리 기마 유닛으로 평지에서 훨씬 효과적입니다. [COLOR_PLAYER_PURPLE]코끼리 겁주기[ENDCOLOR] 승급을 보유합니다. 일반 흉갑기병보다 전투력이 더 높고 [ICON_RES_HORSE]말을 요구하지 않으며 더 이른 시기에 사용할 수 있습니다.'
+SET Text = '흉갑기병을 대체하는 인도의 고유 유닛입니다. 육중한 원거리 기마 유닛으로 평지에서 훨씬 효과적입니다. [COLOR_PLAYER_PURPLE]코끼리 겁주기[ENDCOLOR] 승급과 [COLOR_PLAYER_PURPLE]탄막 1[ENDCOLOR] 을 보유합니다. 일반 흉갑기병보다 전투력이 더 높고 [ICON_RES_HORSE]말을 요구하지 않으며 더 이른 시기에 사용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -622,7 +623,7 @@ WHERE Type = 'TRAIT_POPULATION_GROWTH' AND EXISTS (SELECT * FROM COMMUNITY WHERE
 -- Indonesia
 --------------------
 UPDATE Language_ko_KR
-SET Text = '정원을 대체하는 인도네시아의 고유 건물입니다. 건물이 완성되면 도시 주변에 [ICON_RES_CLOVES]정향 [ICON_RES_PEPPER]후추 [ICON_RES_NUTMEG]육두구 자원이 나타납니다.[NEWLINE][NEWLINE]도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. "국왕 경축일"이 열리는 동안 도시의 [ICON_PEACE]신앙 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. 도시 주변 오아시스 타일의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_CITRUS] 감귤: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COCOA] 코코아: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1'
+SET Text = '정원을 대체하는 인도네시아의 고유 건물입니다. 건물이 완성되면 도시 주변에 [ICON_RES_CLOVES]정향 [ICON_RES_PEPPER]후추 [ICON_RES_NUTMEG]육두구 자원이 나타납니다.[NEWLINE][NEWLINE]도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시의 음악가, 예술가, 작가 전문가가 1 관광을 제공합니다. [NEWLINE][NEWLINE]"국왕 경축일"이 열리는 동안 도시의 [ICON_PEACE]신앙 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. 도시 주변 오아시스 타일의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_CITRUS] 감귤: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COCOA] 코코아: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_CLOVES] 정향: [ICON_PEACE] 신앙 +1 [ICON_CULTURE]문화 +1.[NEWLINE][ICON_RES_PEPPER] 정향: [ICON_PEACE]신앙 +1 [ICON_GOLD]골드 +1.[NEWLINE][ICON_RES_NUTMEG] 육두구: [ICON_CULTURE] 문화 +1 [ICON_PRODUCTION] 생산 +1'
 WHERE Tag = 'TXT_KEY_BUILDING_CANDI_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -630,7 +631,7 @@ SET Text = 'In addition to the regular abilities of the Garden, the Candi provid
 WHERE Tag = 'TXT_KEY_BUILDING_CANDI_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '도시를 설립하거나 정복할 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] 중 하나가 출현합니다.'
+SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] 중 하나가 출현합니다. 전역 독점으로 인한 황금기 길이가 +5% 증가하고 전역 독점으로 인한 행복이 +2 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -638,11 +639,11 @@ SET Text = '검사를 대체하는 인도네시아의 고유 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDONESIAN_KRIS_SWORDSMAN' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '적 영토에서 턴을 끝낼 경우 50%의 확률로 체력 회복 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]'
+SET Text = '적 영토에서 턴을 끝낼 경우 체력 회복 [COLOR_POSITIVE_TEXT]10[ENDCOLOR], 인접한 적에게 10 피해'
 WHERE Tag = 'TXT_KEY_PROMOTION_ENEMY_BLADE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '적군 회유'
+SET Text = '모집'
 WHERE Tag = 'TXT_KEY_PROMOTION_ENEMY_BLADE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -656,6 +657,22 @@ WHERE Tag = 'TXT_KEY_PROMOTION_EVIL_SPIRITS' AND EXISTS (SELECT * FROM COMMUNITY
 UPDATE Language_ko_KR
 SET Text = '공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR][NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+5%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_AMBITION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]측면 보너스[ENDCOLOR]가 20%로 증가합니다.[NEWLINE][COLOR_POSITIVE_TEXT]지형 특성[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR]를 무시합니다.'
+WHERE Tag = 'TXT_KEY_PROMOTION_SNEAK_ATTACK_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+ 
+--UPDATE Language_en_US
+--SET Text = 'Heals all damage if the Unit kills a [COLOR_POSITIVE_TEXT]non-Barbarian Unit[ENDCOLOR].'
+--WHERE Tag = 'TXT_KEY_PROMOTION_RECRUITMENT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+UPDATE Language_ko_KR
+SET Text = '모든 피해가 2 감소합니다.[NEWLINE]회복할 때 체력을 +20 회복합니다.'
+WHERE Tag = 'TXT_KEY_PROMOTION_INVULNERABIILITY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+ 
+--UPDATE Language_en_US
+--SET Text = 'Unit awards combat bonus to nearby Units as if it is a Great General. Damage from all sources reduced by 10.'
+--WHERE Tag = 'TXT_KEY_PROMOTION_HEROISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_ko_KR
 SET Text = '팔라파 맹세'
@@ -677,7 +694,7 @@ WHERE Tag = 'TXT_KEY_RESOURCE_PEPPER_HELP' AND EXISTS (SELECT * FROM COMMUNITY W
 -- Iroquois
 --------------------
 UPDATE Language_ko_KR
-SET Text = '유닛이 숲 및 정글 타일의 지형 이동 페널티를 무시하고 숲 및 정글 타일을 [ICON_CONNECTED][COLOR_POSITIVE_TEXT]도시 연결[ENDCOLOR]에 사용할 수 있습니다. 지상 군사 유닛에 [COLOR_PLAYER_PURPLE]숲사람[ENDCOLOR] 승급을 부여합니다. 자연 경관 3타일 이내에서 모든 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.'
+SET Text = '유닛이 숲 및 정글 타일에서 도로가 설치된 것처럼 이동하고 숲 및 정글 타일을 [ICON_CONNECTED][COLOR_POSITIVE_TEXT]도시 연결[ENDCOLOR]에 사용할 수 있습니다. 지상 군사 유닛에 [COLOR_PLAYER_PURPLE]숲사람[ENDCOLOR] 승급을 부여합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -751,7 +768,7 @@ WHERE Tag = 'TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY' AND EXISTS (SELECT * FROM CO
 -- Mongols
 --------------------
 UPDATE Language_ko_KR
-SET Text = '기마 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR]를 무시합니다. [ICON_CITY_STATE]도시 국가가 바치는 공물의 산출량이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 도시 국가를 괴롭힐 때 동맹 및 보호 페널티를 무시합니다.'
+SET Text = '기마 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR]를 무시합니다. [ICON_CITY_STATE]도시 국가가 바치는 공물의 산출량이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_TERROR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -770,8 +787,16 @@ SET Text = 'Skirmishers are fast ranged units, deadly on open terrain. Unlike th
 WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KESHIK_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
+SET Text = 'Friendly Units in this tile and in adjacent tiles [COLOR_POSITIVE_TEXT]Heal 10 Additional HP[ENDCOLOR] per turn.[NEWLINE]Adjacent Enemy Units take 10 Damage Each Turn.'
+WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_GENERAL_HELP';
+
+UPDATE Language_ko_KR
 SET Text = '칸은 [ICON_GREAT_GENERAL]위대한 장군을 대체하는 몽골의 고유 위인입니다. 위대한 장군과 같은 [ICON_STRENGTH][COLOR_POSITIVE_TEXT]전투력 보너스[ENDCOLOR]를 제공할 뿐만 아니라 [ICON_MOVES]이동력을 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 가지고 있으며 같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 [COLOR_POSITIVE_TEXT]추가 회복[ENDCOLOR]을 할 수 있게 해줍니다. 이렇게 강화된 장군의 능력은 기마 부대가 항상 전투 태세를 갖추도록 합니다.'
-WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_STRATEGY';
+
+UPDATE Language_ko_KR
+SET Text = 'This Mongolian Unique Great Person replaces the Great General. While providing the same combat bonuses as a normal Great General, the Khan moves at an increased rate, can heal adjacent friendly units, and damage adjacent enemy units.[NEWLINE][NEWLINE]Can be expended to construct an Ordo.'
+WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_HELP';
 
 INSERT INTO Language_ko_KR (
 Tag, Text)
@@ -835,7 +860,7 @@ SET Text = '카스바는 도시에 인접해야만 건설할 수 있습니다. �
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '모로코와 [ICON_INTERNATIONAL_TRADE]교역로를 연결한 문명 1개마다 모로코 [ICON_CAPITAL]수도의 모든 산출량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 모로코의 도시로 들어오고 나가는 [ICON_INTERNATIONAL_TRADE] 교역로는 [COLOR_POSITIVE_TEXT]거리[ENDCOLOR]에 대한 페널티를 받지 않습니다. 전쟁 중이 아닌 다른 문명의 교역로를 [COLOR_POSITIVE_TEXT]약탈[ENDCOLOR]할 수 있습니다.'
+SET Text = '모로코와 [ICON_INTERNATIONAL_TRADE]교역로를 연결한 문명 1개마다 모로코 [ICON_CAPITAL]수도의 모든 산출량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 모로코의 도시로 들어오고 나가는 [ICON_INTERNATIONAL_TRADE] 교역로는 [COLOR_POSITIVE_TEXT]거리[ENDCOLOR]에 대한 페널티를 받지 않습니다. 소유 중이 아닌 도시에 연결된 전쟁 중이 아닌 다른 문명의 교역로를 [COLOR_POSITIVE_TEXT]약탈[ENDCOLOR]할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_GATEWAY_AFRICA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -1028,7 +1053,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_COSSACK' AND EXISTS (SELECT * FROM COMMUNITY WHER
 -- Spain
 --------------------
 UPDATE Language_ko_KR
-SET Text = '타일을 획득하면 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 이단심문관이 더 강력해지고, 더 이른 시기에 생산할 수 있으며 도시를 정복할 때마다 [ICON_INQUISITOR]이단심문관을 무료로 제공합니다. [ICON_PEACE]신앙으로 해상 유닛을 구매할 수 있습니다.'
+SET Text = '타일을 획득하면 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 이단심문관이 더 강력해지고, 더 이른 시기에 생산할 수 있으며 유지비가 들지 않습니다. 도시를 정복할 때마다 [ICON_INQUISITOR]이단심문관을 무료로 제공합니다. [ICON_PEACE]신앙으로 해상 유닛을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -1078,7 +1103,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_GREAT_EXPANSE' AND EXISTS (SELECT * FROM COMMUNITY WH
 -- Siam
 --------------------
 UPDATE Language_ko_KR
-SET Text = '경찰대를 대체하는 시암의 고유 건물입니다. 적[ICON_SPY]스파이의 절도 확률이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 건물 건설을 방해하는 고급 첩보 활동을 예방합니다. [NEWLINE][NEWLINE]성소 및 사원의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 도시 주변 정글 및 숲 타일의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '경찰대를 대체하는 시암의 고유 건물입니다. 적[ICON_SPY]스파이의 절도 확률이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]성소 및 사원의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 도시 주변 정글 및 숲 타일의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -1086,11 +1111,11 @@ SET Text = 'The Wat is the Siamese unique building, replacing the Constabulary. 
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '기사를 대체하는 시암의 고유 유닛입니다. 중세 시대의 강력한 기마 유닛으로 장창병에 약하지만 다른 기마 유닛 대항 시 [ICON_STRENGTH]전투력 보너스가 증가합니다. [COLOR_PLAYER_PURPLE]코끼리 겁주기[ENDCOLOR] 승급을 보유하며 일반 기사에 비해 [ICON_STRENGTH]전투력이 높습니다.'
+SET Text = '기사를 대체하는 시암의 고유 유닛입니다. 중세 시대의 강력한 기마 유닛으로 장창병에 약하지만 다른 기마 유닛 대항 시 [ICON_STRENGTH]전투력 보너스가 증가합니다. 위대한 장군에 겹친 유닛에 큰 전투 보너스를 얻습니다. [COLOR_PLAYER_PURPLE]코끼리 겁주기[ENDCOLOR] 승급을 보유하며 일반 기사에 비해 [ICON_STRENGTH]전투력이 높습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SIAMESE_WARELEPHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]40[ENDCOLOR]부터 시작하고 우호 및 동맹인 도시 국가의 산출량이 [COLOR_POSITIVE_TEXT]75%[ENDCOLOR] 증가합니다. 동맹인 도시 국가 수도의 전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시 국가에서 선물 받는 유닛의 경험치가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.'
+SET Text = '도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]40[ENDCOLOR]부터 시작하고 우호 및 동맹인 도시 국가의 산출량이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 동맹인 도시 국가 수도의 전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시 국가에서 선물 받는 유닛의 경험치가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CITY_STATE_BONUSES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
@@ -1113,15 +1138,15 @@ SET Text = 'Adobe, the Spanish word for mud brick, is a natural building materia
 WHERE Tag = 'TXT_KEY_CIV5_BUILDING_MUD_PYRAMID_MOSQUE_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '야만인 주둔지나 도시를 약탈할 때 획득하는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR]로 증가합니다. 지상 유닛이 [COLOR_PLAYER_PURPLE]전투용 카누[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]수륙 양용[ENDCOLOR] 승급을 보유합니다. 강에 인접 시 지형의 이동 비용을 무시하고 [COLOR_POSITIVE_TEXT]강[ENDCOLOR]을 [ICON_CONNECTED]도시 연결에 사용할 수 있습니다.'
+SET Text = '야만인 주둔지나 도시를 약탈할 때 획득하는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR]로 증가합니다. 지상 유닛이 [COLOR_PLAYER_PURPLE]전투용 카누[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]수륙 양용[ENDCOLOR] 승급을 보유합니다. 강을 도로처럼 이동할 수 있고 [COLOR_POSITIVE_TEXT]강[ENDCOLOR]을 [ICON_CONNECTED]도시 연결에 사용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_AMPHIB_WARLORD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'This is a Songhai unique unit, replacing the Horseman. This unit is stronger than the Horseman, and it gains a significant bonus when attacking cities. The Mandekalu Cavalry can move after attacking. Its speed makes it difficult for an enemy to build a defensive line before the Mandekalu Cavalry reaches the target.'
+SET Text = 'This is a Songhai unique unit, replacing the Knight. This unit gains a significant bonus when attacking cities and flanking other units. The Mandekalu Cavalry can move after attacking. Its speed makes it difficult for an enemy to build a defensive line before the Mandekalu Cavalry reaches the target.'
 WHERE Tag = 'TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '기마병을 대체하는 송가이의 고유 유닛입니다. 강력한 고대 시대 기마 유닛으로 창병에 약합니다. 기마병과 달리 도시 공격 페널티가 없으며 [COLOR_PLAYER_PURPLE]침입자[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '기마병을 대체하는 송가이의 고유 유닛입니다. 강력한 중세 시대 기마 유닛으로 장창병에 약합니다. 기사와 달리 도시 공격 페널티가 없으며 [COLOR_PLAYER_PURPLE]침입자[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
@@ -1130,6 +1155,10 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY' AND EXISTS (SELECT * FROM COMMUNI
 UPDATE Language_ko_KR
 SET Text = '공격 시 근접 지상 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가하고 공성 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_GENERAL]위대한 장군이 출현하면 모든 군사 유닛이 [COLOR_POSITIVE_TEXT]체력[ENDCOLOR]을 회복하고 경험치를 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 획득합니다. [ICON_GREAT_GENERAL]위대한 장군의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+UPDATE Language_ko_KR 
+SET Text = '강력한 전선을 구축하는 스웨덴의 고유 유닛입니다. [COLOR_POSITIVE_TEXT]행군[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]진지 공사[ENDCOLOR] 승급을 보유하고, 적 유닛을 제거 시 주변에 피해를 줍니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN';
 
 UPDATE Language_ko_KR
 SET Text = 'Caroleans are the backbone of the Renaissance era Swedish army. They start with the March promotion that allows it to Heal every turn, even if it performs an action. The Carolean also receives a 15% combat bonus when stacked with a Great General, and deals damage to all adjacent units after advancing from killing a unit.'
@@ -1159,11 +1188,11 @@ SET Text = 'The Great Galleass can only be gifted by Minor Civilizations. Has a 
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'The Merchant of Venice is a unique Great Merchant replacement. Aside from the normal Great Merchant abilities, the Merchant of Venice can acquire a City-State outright, bringing it under Venetian control as a puppet. The Merchant of Venice can also found a Colonia, which is a City that starts Puppeted and with the following bonuses: additional territory, additional population, a Market, and a Monument. Venice can have a maximum of three Colonia Cities at any one time. The Merchant of Venice is expended when used in any of these ways.'
+SET Text = 'The Merchant of Venice is a unique Great Merchant replacement. Aside from the normal Great Merchant abilities, the Merchant of Venice can acquire a City-State outright, bringing it under Venetian control as a puppet. The Merchant of Venice can also found a Colonia, which is a City that starts Puppeted and with the following bonuses: additional territory, additional population, a Market, and a Monument. The Merchant of Venice is expended when used in any of these ways.'
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_MERCHANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_MERCHANT_VENICE]베니스의 상인은 위대한 상인을 대체하는 베네치아의 고유 위인입니다. [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 수행할 수 있는 능력 외에도 도시 국가를 구입해 [ICON_PUPPET][COLOR_POSITIVE_TEXT]괴뢰 정부[ENDCOLOR]를 수립할 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]식민지[ENDCOLOR]를 설립할 수 있습니다. 베니스는 한 번에 최대 3개의 식민지를 가질 수 있으며 식민지는 [ICON_PUPPET]괴뢰 도시로 시작하고 다음의 보너스를 제공합니다 : 추가 영토, 추가 시민, 시장 및 기념비'
+SET Text = '[ICON_GREAT_MERCHANT_VENICE]베니스의 상인은 위대한 상인을 대체하는 베네치아의 고유 위인입니다. [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 수행할 수 있는 능력 외에도 도시 국가를 구입해 [ICON_PUPPET][COLOR_POSITIVE_TEXT]괴뢰 정부[ENDCOLOR]를 수립할 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]식민지[ENDCOLOR]를 설립할 수 있습니다. 식민지는 [ICON_PUPPET]괴뢰 도시로 시작하고 다음의 보너스를 제공합니다 : 추가 영토, 추가 시민, 시장 및 기념비'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_VENETIAN_MERCHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -1187,7 +1216,7 @@ SET Text = '테르시오를 대체하는 줄루의 고유 유닛입니다. 기�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ZULU_IMPI' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '근접 및 화약 유닛의 유지 비용이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 모든 유닛의 다음 승급에 필요한 경험치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. [ICON_CITY_STATE]도시 국가를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 더 효율적으로 위협할 수 있습니다.'
+SET Text = '근접 및 화약 유닛의 유지 비용이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 모든 유닛의 다음 승급에 필요한 경험치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. [ICON_CITY_STATE]도시 국가에서 동맹과 보호 선언을 무시하고 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 더 효율적으로 위협할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_BUFFALO_HORNS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 ----내가추가

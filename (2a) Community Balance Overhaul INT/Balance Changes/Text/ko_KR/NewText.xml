@@ -3,7 +3,7 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]혹독한 처사[ENDCOLOR]: 종속국이 더이상 반란을 일으키거나 다른 문명에 의해 해방될 수 없습니다. [ICON_CITY_STATE]도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 종속국의 공물이 그들의 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 노동자의 타일 시설 건설 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 빨라집니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]혹독한 처사[ENDCOLOR]: 종속국이 다른 문명, 세계 의회에 의해 해방될 수 없고, 항복한 종속국은 반란을 일으킬 수 없습니다. [ICON_CITY_STATE]도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 종속국의 공물이 그들의 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 노동자의 타일 시설 건설 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 빨라집니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
 			<Text>혹독한 처사</Text>
@@ -142,6 +142,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
 			<Text>광역 피해</Text>
+		</Row>
+		<!-- America UA Tweak -->
+		<Row Tag="TXT_KEY_NOTIFICATION_RESET_PLOT_COST">
+			<Text>새 도시 설립으로 모든 도시의 타일 구매 비용이 재조정되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RESET_PLOT_COST">
+			<Text>명백한 운명!</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

@@ -2,6 +2,25 @@
 <!-- Created by ModBuddy on 3/2/2016 4:34:53 PM -->
 <GameData>
 	<Language_ko_KR>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO">
+			<Text>오르도</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_TEXT">
+			<Text>Simply translated, “ordo” means “palace tent.” However, an ordo was something much more than just a simple tent —- it was the center of the tribe for the nomadic Mongolians.[NEWLINE][NEWLINE]An ordo served as the headquarters and main encampment for the Khan and his warriors. Though built for travel, it had style, from simple decorations to carefully sewn patterns. The ordo moved with the Khan and his warriors as they went on campaign, ensuring they always felt at home no matter where they traveled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_HELP">
+			<Text>몽골의 위대한 장군이 건설할 수 있으며 성채를 대체합니다. [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화를 제공합니다.[NEWLINE][NEWLINE]주위로 해당 문명의 영토가 한 타일씩 증가합니다.[NEWLINE][NEWLINE]유닛이 오르도에 주둔하면 50% [ICON_STRENGTH] 방어와 +1 [ICON_MOVES] 이동력을 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO">
+			<Text>[LINK=IMPROVEMENT_MONGOLIA_ORDO]오르도[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_HELP">
+			<Text>[ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화가 증가합니다. 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 증가하고 추가[ICON_MOVES] 이동력을 얻습니다. 주위로 해당 문명의 영토가 한 타일씩 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_REC">
+			<Text>유닛이 소모됩니다.[NEWLINE]몽골 고유 시설입니다. [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화를 제공합니다. 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 증가하고 추가[ICON_MOVES] 이동력을 얻습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_EKI">
 			<Text>에키</Text>
 			<Gender>neuter:an</Gender>
@@ -202,7 +221,7 @@
 			<Text>[NEWLINE][ICON_BULLET]자원 독점에서: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_HAPPINESS">
-			<Text>[COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] +6[ICON_HAPPINESS_1]행복 (전역 사치 자원 가치에 추가)</Text>
+			<Text>[COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] +6[ICON_HAPPINESS_1]문명 전역 행복</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_GA_LENGTH">
 			<Text>[COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] +25%[ICON_GOLDEN_AGE]황금기 길이, +2[ICON_GOLDEN_AGE]황금기 점수 (자원 타일)</Text>
@@ -239,6 +258,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE">
 			<Text>[COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] +10%[ICON_RESEARCH]과학 (모든 도시)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_FAITH">
+			<Text>[COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] +20% [ICON_PEACE] 신앙 (모든 도시)</Text>
 		</Row>
 		<!-- Strategic Help-->
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION_ALUMINUM">

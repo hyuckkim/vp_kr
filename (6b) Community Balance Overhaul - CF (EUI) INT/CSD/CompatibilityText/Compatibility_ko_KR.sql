@@ -88,12 +88,6 @@ UPDATE Language_ko_KR
 SET Text = '[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]면책 특권[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]통신사[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP';
 
--- Grand Temple Help Text
-
-UPDATE Language_ko_KR
-SET Text = '모든 사원의 [ICON_PEACE]신앙 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 모든 도시의 [ICON_PEACE]종교 분쟁에서 오는 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]사원[ENDCOLOR]이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
-WHERE Tag = 'TXT_KEY_BUILDING_GRAND_TEMPLE_HELP';
-
 -- Merchant Mission
 
 UPDATE Language_ko_KR

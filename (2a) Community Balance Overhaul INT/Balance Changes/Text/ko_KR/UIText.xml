@@ -234,7 +234,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
-	         	<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] [ICON_TOURISM]  도시의 수에서 ([ICON_PUPPET]괴뢰 제외)</Text>
+	         	<Text>{1_NumTurns}% 제국 크기 차이에서[NEWLINE]</Text>
 		</Row>
 		
 		<!-- Resource Monopoly Text-->
@@ -273,7 +273,7 @@
 		
 
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
-			<Text>군사 유닛 수: {2_Num}/현재 군사 보급 한도: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]전쟁 피로도 보급 감소율: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]군사 보급:[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{4_Num}[ENDCOLOR]  [ICON_CITY_STATE]소유한 도시에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{3_Num}[ENDCOLOR]  [ICON_CITIZEN]총 시민 수에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{5_Num}[ENDCOLOR]  [ICON_CHECKBOX]난이도에서[NEWLINE]  [NEWLINE][NEWLINE]군사 보급 감소:[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{8_Num}[ENDCOLOR]  [ICON_RESEARCH]기술 수준에서[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{7_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서[NEWLINE][NEWLINE][ICON_WAR]전쟁 피로도 때문에 군사 유닛의 [ICON_PRODUCTION]/[ICON_GOLD]비용이 [COLOR_NEGATIVE_TEXT]{9_Num}%[ENDCOLOR] 증가합니다.[NEWLINE]</Text>
+			<Text>군사 유닛 수: {2_Num}/현재 군사 보급 한도: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]전쟁 피로도 보급 감소율: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]군사 보급:[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{4_Num}[ENDCOLOR]  [ICON_CITY_STATE]소유한 도시에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{3_Num}[ENDCOLOR]  [ICON_CITIZEN]총 시민 수에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{5_Num}[ENDCOLOR]  [ICON_CHECKBOX]난이도에서[NEWLINE]  [NEWLINE][NEWLINE]군사 보급 감소:[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{8_Num}[ENDCOLOR]  [ICON_RESEARCH]기술 수준에서[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{7_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서[NEWLINE][NEWLINE][ICON_WAR]전쟁 피로도 때문에 군사 유닛의 [ICON_GOLD]/[ICON_PEACE]비용이 [COLOR_NEGATIVE_TEXT]{9_Num}%[ENDCOLOR] 증가합니다.[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY">
@@ -742,12 +742,35 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_S">
 			<Text>{1_PlayerAdj} 지역 순회 공연 완료!</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_TARGET">
 			<Text>{1_PlayerAdj} 음악가들이 최근 당신의 문명에 순회 공연을 다녀갔고 열렬한 환영을 받았습니다. 당신에 대한 {1_PlayerAdj} [ICON_TOURISM]문화 영향력이 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_TARGET_S">
 			<Text>{1_PlayerName}의 음악가가 도착했습니다!</Text>
+		</Row>		<!-- Tourism Bonus Turns Change for GM -->
+
+		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS">
+			<Text>당신의 음악가들이 {1_PlayerAdj} 사람들에게 좋은 반응을 얻었습니다. 모든 문명에 대한 [ICON_TOURISM]관광이 {2_Num}턴 동안 +[COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하고, 대상 문명에 대한 [ICON_TOURISM]관광이 {2_Num}턴 동안 +[COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_S">
+			<Text>{1_PlayerAdj} 지역 순회 공연 완료!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET">
+			<Text>{1_PlayerAdj} 음악가들이 최근 당신의 문명에 순회 공연을 다녀갔고 열렬한 환영을 받았습니다. 당신에 대한 {1_PlayerAdj} 문화 영향력이 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 동안 [COLOR_NEGATIVE_TEXT]100%[ENDCOLOR] [ICON_TOURISM] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET_S">
+			<Text>{1_PlayerName}의 음악가가 도착했습니다!</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
+			<Text>+100% 콘서트 투어에서 ({1_NumTurns} 턴 남음)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
+			<Text>+50% 콘서트 투어에서 ({1_NumTurns} 턴 남음)[NEWLINE]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UPANEL_TOURISM_TURNS_TT">
+			<Text>콘서트 투어의 길이를 나타냅니다. 길이는 문명이 소유한 걸작 음악의 개수에 비례합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_FROM_CITY_YIELDS">
@@ -907,7 +930,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_CULTURE]무료에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_DEFENSE">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_FOOD]과[ICON_PRODUCTION]곤경에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_GOLD">
 			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_GOLD]빈곤에서 획득</Text>
@@ -962,7 +985,7 @@
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 무료에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_CULTURE][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_CULTURE]{5_Num:number "#.##"} 증가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 곤경에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_FOOD]/[ICON_PRODUCTION][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_FOOD]/[ICON_PRODUCTION]{5_Num:number "#.##"} 증가 </Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 곤경에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_FOOD]과[ICON_PRODUCTION][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_FOOD]/[ICON_PRODUCTION]{5_Num:number "#.##"} 증가 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOLD_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 빈곤에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_GOLD][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]           [ICON_HAPPINESS_3]-1 마다 [ICON_GOLD]{5_Num:number "#.##"} 증가</Text>
@@ -1016,7 +1039,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리는 [ICON_RESEARCH]문맹입니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_UNDEFENDED">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_FOOD]/[ICON_PRODUCTION]곤경에 빠졌습니다!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_FOOD]과[ICON_PRODUCTION]곤경에 빠졌습니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_POOR">
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_GOLD]빈곤합니다!"</Text>
@@ -1309,10 +1332,6 @@
 			<Text>{1_Build}의 건설을 완료하려면 {2_Turns}턴이 필요합니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_ALLOWS_ADVANCED_ACTIONS">
-			<Text>스파이 고급 행동 가능</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ATTEMPTED_LAST_SESSION">
 			<Text>직전에 제안된 결의안은 다음 대회까지 다시 제안할 수 없습니다.</Text>
 		</Row>
@@ -1426,6 +1445,9 @@
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
 			<Text>Your {@1_UnitName}{@1: plural 1?이; 2?가;} 아무런 저항도 받지 않고 적 공군 유닛 및 지상의 대공 유닛을 공격했습니다!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_MINED">
+			<Text>Deep Water Mine Field Present</Text>
+		</Row>
 	</Language_ko_KR>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_CITY_NAME_CATTARO">
@@ -1464,14 +1486,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_ZADAR">
 			<Text>자다르</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_NAME_VERONAE">
-			<Text>베로나</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_NAME_UDINE">
-			<Text>우디네</Text>
 			<Plurality>2</Plurality>
 		</Row>
 	</Language_ko_KR>

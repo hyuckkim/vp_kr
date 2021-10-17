@@ -47,12 +47,21 @@
 		<Row Tag="TXT_KEY_YIELD_FROM_EMPIRE_POP_EXTRA">
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
+
+
 		<!-- Include City Name in "Work Has Begun On" Notification -->
 		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY">
 			<Text>[SPACE]이제 [COLOR_POSITIVE_TEXT]{@2_CityName}[ENDCOLOR] 에서 [COLOR_POSITIVE_TEXT]{@1_ProdName}[ENDCOLOR] 생산 작업이 시작됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY_LIMITED">
 			<Text>[SPACE]이제 [COLOR_POSITIVE_TEXT]{@2_CityName}[ENDCOLOR] 에서 [COLOR_POSITIVE_TEXT]{@1_ProdName}[ENDCOLOR] 생산 작업이 시작됩니다.</Text>
+		</Row>
+		<!-- Add Defensive Pact Notification -->
+		<Row Tag="TXT_KEY_NOTIFICATION_DEFENSIVE_PACT">
+			<Text>{1_CivName}와 {2_CivName}이 방어 조약을 체결했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEFENSIVE_PACT_S">
+			<Text>새로운 방어 조약</Text>
 		</Row>
 		<!-- America - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_10">
@@ -2890,7 +2899,7 @@
 		</Row>
 		<!-- Steal -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM">
-			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 활동 [COLOR:105:105:105:255](고급 첩보 활동이나 기술 훔치기)[ENDCOLOR]이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
+			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 활동 [COLOR:105:105:105:255](스파이 활동이나 기술 훔치기)[ENDCOLOR]이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_STEAL_FROM">
 			<Text>{@1_Civ}에서 첩보 갱신</Text>
@@ -3162,7 +3171,7 @@
 			<Text>{1_Num}턴 동안 당신이 그들에게 전쟁을 선포하지 않기로 약속했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_TURNS">
-			<Text>{1_Num}턴 동안 그들과 가까운 곳에 도시를 개척하지 않기로 약속했습니다.</Text>
+			<Text>{1_Num}턴 동안 그들과 가까운 곳에 도시를 확장하지 않기로 약속했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
 			<Text>{1_Num}턴 동안 그들과 가까운 영토를 구매하지 않기로 약속했습니다.</Text>
@@ -3213,6 +3222,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_MOD_TT">
 			<Text>당신은 이 문명과 항상 전쟁 중입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_DP">
+			<Text>동맹국(방어 조약 또는 종주국)과의 평화 조약이 만료되기 전까지는 전쟁을 선포할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DECLARE_WAR_VASSAL_BLOCKED_TT">
 			<Text>종속국은 전쟁을 선포할 수 없습니다. (당신의 종주국이 이 문명과 전쟁을 선포할 때 전쟁은 자동으로 선포됩니다.)</Text>
@@ -3283,7 +3295,7 @@
 			<Text>AI와의 평화 협상에서 아이템의 최대 점수입니다. 왼쪽의 점수가 이 점수를 초과하면 AI는 거래를 거절할 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT_ONE_LINE">
-			<Text>턴당 골드와 일시불 골드를 동시에 거래할 수 없습니다.</Text>
+			<Text>턴당 골드/자원/무역 협정과 일시불 골드를 동시에 거래하거나 요구할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CLASS">
 			<Text>[NEWLINE][ICON_BULLET]전투 유형에 따른 수치: {1_Num}%</Text>
@@ -3343,48 +3355,71 @@
 		<Row Tag="TXT_KEY_DIPLO_NEUTRAL_HOSTILE">
 			<Text>그들은 우리가 그들의 이익과 관련이 있다고 생각하지 않습니다.</Text>
 		</Row>
+		<!-- Opinion Indicator If Eliminated -->
+		<Row Tag="TXT_KEY_DIPLO_ELIMINATED_INDICATOR">
+			<Text>그들은 게임에서 제거되었습니다.</Text>
+		</Row>
 		<!-- Opinion Indicator If Untrustworthy -->
 		<Row Tag="TXT_KEY_DIPLO_UNTRUSTWORTHY_FRIEND">
 			<Text>우리는 그들을 완전하게 신뢰할 수 없습니다.</Text>
 		</Row>
 		<!-- Base Opinion Mod -->
 		<Row Tag="TXT_KEY_DIPLO_VERY_GOOD_BASE_OPINION">
-			<Text>[COLOR_POSITIVE_TEXT]그들은 본능적으로 당신을 좋아합니다![ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]난이도에 의해 외교가 매우 쉬워집니다![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_GOOD_BASE_OPINION">
-			<Text>[COLOR_POSITIVE_TEXT]그들은 본능적으로 당신을 더 좋게 봅니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]난이도에 의해 외교가 쉬워집니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_BAD_BASE_OPINION">
-			<Text>[COLOR_NEGATIVE_TEXT]그들은 본능적으로 당신을 경쟁자로 생각합니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]난이도에 의해 외교가 어려워집니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VERY_BAD_BASE_OPINION">
-			<Text>[COLOR_NEGATIVE_TEXT]그들은 본능적으로 당신을 싫어합니다![ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]난이도에 의해 외교가 매우 어려워집니다![ENDCOLOR]</Text>
 		</Row>
 		<!-- Show Real Approach Debug Text -->
 		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_WAR">
-			<Text>진짜 의도 : 전쟁 </Text>
+			<Text>실제 의도는 전쟁입니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_PLANNING_WAR">
-			<Text>진짜 의도 : 전쟁 계획</Text>
+			<Text>실제 의도는 전쟁 계획입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_HOSTILE">
-			<Text>진짜 의도 : 적대적</Text>
+			<Text>실제 의도는 적대적입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_DECEPTIVE">
-			<Text>진짜 의도 : 기만적</Text>
+			<Text>실제 의도는 기만적입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_GUARDED">
-			<Text>진짜 의도 : 방어적</Text>
+			<Text>실제 의도는 방어적입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_AFRAID">
-			<Text>(진짜 의도 : 두려워함</Text>
+			<Text>실제 의도는 두려워함입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_FRIENDLY">
-			<Text>진짜 의도 : 우호적</Text>
+			<Text>실제 의도는 우호적입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_NEUTRAL">
-			<Text>진짜 의도 : 중립적</Text>
+			<Text>실제 의도는 중립적입니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_FRIEND">
+			<Text>최고의 친구:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_ALLY">
+			<Text>최고의 동맹:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_COMPETITOR">
+			<Text>최고의 경쟁자:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_COMPETITOR">
+			<Text>최고의 세계 의회 경쟁자:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_CHOICE_NONE">
+			<Text>없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_CHOICE_YOU">
+			<Text>당신</Text>
+		</Row>
+
 		<!-- Previous Friendship Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_PREVIOUSLY_FRIENDS">
 			<Text>우리는 예전에 그들과 친구였습니다.</Text>
@@ -3442,14 +3477,24 @@
 		<Row Tag="TXT_KEY_DIPLO_MUTUAL_DENOUNCEMENT">
 			<Text>[COLOR_NEGATIVE_TEXT]우리는 서로를 비난해왔습니다![ENDCOLOR]</Text>
 		</Row>
+		<!-- Stolen Territory Diplo Mod (human version) -->
+		<Row Tag="TXT_KEY_DIPLO_CULTURE_BOMB_HUMAN">
+			<Text>당신은 그들의 영토를 훔쳤습니다!</Text>
+		</Row>
 		
 		<!-- Tech Dispute Mod (for scientific civs) -->
-		<Row Tag="TXT_KEY_DIPLO_TECH_DISPUTE">
+		<Row Tag="TXT_KEY_DIPLO_TECH_BLOCK">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TECH_BLOCK_FIERCE">
+			<Text>그들은 우리의 우수한 기술을 질투합니다!</Text>
 		</Row>
 		<!-- Cultural Dispute Mod (for cultural civs) -->
 		<Row Tag="TXT_KEY_DIPLO_POLICY_DISPUTE">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 문화 발전을 위해 경쟁하고 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_POLICY_BLOCK_FIERCE">
+			<Text>그들은 우리의 우수한 문화를 질투합니다!</Text>
 		</Row>
 		
 		<!-- Non-Competition Diplo Mods -->
@@ -3459,10 +3504,10 @@
 		<Row Tag="TXT_KEY_DIPLO_NO_MINOR_CIV_DISPUTE">
 			<Text>[COLOR_POSITIVE_TEXT]당신은 같은 도시 국가들의 호의를 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_TECH_DISPUTE">
+		<Row Tag="TXT_KEY_DIPLO_NO_TECH_BLOCK">
 			<Text>[COLOR_POSITIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_POLICY_DISPUTE">
+		<Row Tag="TXT_KEY_DIPLO_NO_POLICY_BLOCK">
 			<Text>[COLOR_POSITIVE_TEXT]당신은 문화 발전을 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
 		</Row>
 		<!-- Wonder Spammer Diplo Mod -->
@@ -3484,6 +3529,24 @@
 		<Row Tag="TXT_KEY_DIPLO_SAME_MASTER">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 같은 주인의 종속국입니다![ENDCOLOR]</Text>
 		</Row>
+		<!-- New Traitor Opinion Diplo Mods -->
+		<Row Tag="TXT_KEY_DIPLO_ATTACKED_OWN_VASSAL">
+			<Text>당신은 자신의 종속국에게 전쟁을 선포했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ATTACKED_RESURRECTED_CIV">
+			<Text>당신은 당신이 해방한 문명에게 전쟁을 선포했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RESURRECTOR_ATTACKED_US">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문명을 복구시킨뒤 그들을 공격했습니다![ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Civilian Killer Diplo Mods -->
+		<Row Tag="TXT_KEY_DIPLO_RAZED">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RAZED_OTHER">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 전쟁 중 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
+		</Row>
 		<!-- Stolen Artifacts Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_STOLEN_ARTIFACTS">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문화 유물을 발굴했습니다![ENDCOLOR]</Text>
@@ -3502,10 +3565,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_HIGH">
 			<Text>[COLOR_NEGATIVE_TEXT]당신의 군사적 배치가 극도로 위협적입니다.[ENDCOLOR]</Text>
-		</Row>
-		<!-- Attacked Resurrected Civ Diplo Mod -->
-		<Row Tag="TXT_KEY_DIPLO_RESURRECTOR_ATTACKED_US">
-			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문명을 복구시킨뒤 그들을 공격했습니다![ENDCOLOR]</Text>
 		</Row>
 		<!-- Religion Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_SAME_MAJORITY_RELIGIONS">
@@ -3572,6 +3631,14 @@
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_PRIME_LEAGUE_COMPETITOR_UN">
 			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들의 최대 경쟁자입니다.[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEUTRAL">
+			<Text>[NEWLINE][NEWLINE]영향을 거의 받지 않은 문명:</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_END">
+			<Text>[NEWLINE][NEWLINE]문명은 친구를 돕고 경쟁자를 공격하기 위해 투표합니다.</Text>
 		</Row>
 		<!-- New Warmonger Hate Descriptors -->
 		<Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL_NUCLEAR">
@@ -5691,241 +5758,15 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_ADVANCED">
 			<Text>당신의 {1_SpyRank} 스파이 {2_SpyName}{2: plural 1?이; 2?가;} {4_CityName}에서 활동하던 {3_CivAdj} 스파이를 제거했습니다!</Text>
 		</Row>
-		<!-- Building Damaged -->
-		<!-- Spy Owner Notification (Wonder)  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_WONDER_S">
-			<Text>{1_CityName}에서 불가사의 건설을 방해했습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_WONDER">
-			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 불가사의 건설을 방해하여 {4_Setback} [ICON_PRODUCTION]생산 손실을 입혔습니다.</Text>
-		</Row>
-		<!-- Spy Owner Notification (Building)  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_BUILDING_S">
-			<Text>{1_CityName}에서 건물 건설을 방해했습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_BUIDLING">
-			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 건물 건설을 방해하여 {4_Setback} [ICON_PRODUCTION]생산 손실을 입혔습니다.</Text>
-		</Row>
-		<!-- Detected-->
-		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_DAMAGED_SPY_DETECTED_S">
-			<Text>{2_CityName}에서 {1_BuildingName} 사보타주!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_DAMAGED_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {2_CityName}의 {1_Building} 건설을 방해하여  {3_Lost} [ICON_PRODUCTION]생산 손실을 입혔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_DAMAGED_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {2_CityName}의 {1_Building} 건설을 방해하여 {3_Lost} [ICON_PRODUCTION]생산 손실을 입혔습니다!</Text>
-		</Row>
-		<!-- Identified  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_DAMAGED_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc} 문명이 {3_CityName}의 {2_BuildingName} 건설을 방해했습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_DAMAGED_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가 {3_CityName}의 {2_Building} 건설을 방해하여 {4_Lost} [ICON_PRODUCTION]생산 손실을 입혔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_DAMAGED_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가 {3_CityName}의 {2_Building} 건설을 방해하여 {4_Lost} [ICON_PRODUCTION]생산 손실을 입혔습니다!</Text>
-		</Row>
-		<!-- Unit Damaged -->
-		<!-- Spy Owner Notification (Unit)  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_UNIT_S">
-			<Text>{1_CityName}에서 군사 계획을 훔쳤습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_UNIT">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 군사 계획을 훔쳐 군사 유닛 [ICON_PRODUCTION]생산에 {4_Setback}의 손실을 입혔습니다.</Text>
-		</Row>
-		<!-- Detected-->
-		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_DAMAGED_SPY_DETECTED_S">
-			<Text>{2_CityName}에서 {1_UnitName} 생산 지연!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_DAMAGED_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {2_CityName}의 군사 계획을 훔쳐가 {1_Unit} [ICON_PRODUCTION]생산에 {3_Lost}의 손실을 입혔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_DAMAGED_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {2_CityName}의 군사 계획을 훔쳐가 {1_Unit} [ICON_PRODUCTION]생산에 {3_Lost}의 손실을 입혔습니다!</Text>
-		</Row>
-		<!-- Identified  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_DAMAGED_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc} 문명이 {3_CityName}에서 {2_UnitName}의 생산을 지연시켰습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_DAMAGED_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가 {3_CityName}의 군사 계획을 훔쳐가 {2_Unit} [ICON_PRODUCTION]생산에 {4_Lost}의 손실을 입혔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_DAMAGED_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가 {3_CityName}의 군사 계획을 훔쳐가 {2_Unit} [ICON_PRODUCTION]생산에 {4_Lost}의 손실을 입혔습니다!</Text>
-		</Row>
-		<!-- City Damaged -->
-		<!-- Spy Owner Notification (City)  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_RESISTANCE_S">
-			<Text>{1_CityName}의 폭동!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_RESISTANCE">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 폭동을 조장하여 도시에 일시적인 저항과 [ICON_FOOD]식량 공급 단절을 유발했습니다.</Text>
-		</Row>
-		<!-- Detected-->
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_DAMAGED_SPY_DETECTED_S">
-			<Text>{1_CityName}에서 폭동 발생!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_DAMAGED_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {1_CityName}에서 폭동을 조장하여 도시에 일시적인 저항과 [ICON_FOOD]식량 공급 단절을 유발했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_DAMAGED_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {1_CityName}에서 폭동을 조장하여 도시에 일시적인 저항과 [ICON_FOOD]식량 공급 단절을 유발했습니다.</Text>
-		</Row>
-		<!-- Identified  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_DAMAGED_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc} 문명이 {2_CityName}에서 폭동을 조장했습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_DAMAGED_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 폭동을 조장하여 도시에 일시적인 저항과 [ICON_FOOD]식량 공급 단절을 유발했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_DAMAGED_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 폭동을 조장하여 도시에 일시적인 저항과 [ICON_FOOD]식량 공급 단절을 유발했습니다.</Text>
-		</Row>
-		<!-- GP Damaged -->
-		<!-- Spy Owner Notification (City)  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_GP_S">
-			<Text>{1_CityName}에서 암살 성공!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_GP">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 암살에 성공하여 도시의 [ICON_GREAT_PEOPLE]위인 점수를 {4_Num} 감소시켰습니다.</Text>
-		</Row>
-		<!-- Detected-->
-		<Row Tag="TXT_KEY_NOTIFICATION_GP_DAMAGED_SPY_DETECTED_S">
-			<Text>{1_CityName}에서 암살!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GP_DAMAGED_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {2_CityName}에서 위인 암살을 통해 [ICON_GREAT_PEOPLE]{1_Unit} 점수를 {3_Num} 감소시켰습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GP_DAMAGED_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {2_CityName}에서 위인 암살을 통해 도시의 [ICON_GREAT_PEOPLE]{1_Unit} 점수를 {3_Num} 감소시켰습니다.</Text>
-		</Row>
-		<!-- Identified  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_GP_DAMAGED_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc} 문명이 {2_CityName}에서 위인을 암살했습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GP_DAMAGED_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가 {3_CityName}에서 위인 암살을 통해 도시의 [ICON_GREAT_PEOPLE]{2_Unit} 점수를 {4_Num} 감소시켰습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GP_DAMAGED_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가 {3_CityName}에서 위인 암살을 통해 도시의 [ICON_GREAT_PEOPLE]{2_Unit} 점수를 {4_Num} 감소시켰습니다.</Text>
-		</Row>
-		<!-- Rebellion Trigger -->
-		<!-- Spy Owner Notification (Rebellion)  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_REBELLION_S">
-			<Text>{1_CityName}에서 무장 반란!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_REBELLION_RESISTANCE">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 지지자를 무장시켜 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.</Text>
-		</Row>
-		<!-- Detected-->
-		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_DETECTED_S">
-			<Text>{1_CityName}에서 무장 반란!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {1_CityName}에서 지지자를 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {1_CityName}에서 지지자를 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.</Text>
-		</Row>
-		<!-- Identified  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED_S">
-			<Text>{2_CityName}에서 {1_CivShortDesc}의 지원을 받은 무장 반란!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 지지자를 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_REBEL_ARMED_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가  {2_CityName}에서 지지자를 지원하여 도시에 피해를 입히고 도시 주변에 반란군을 형성합니다.</Text>
-		</Row>
-		<!-- Gold Theft -->
-		<!-- Spy Owner Notification (Gold)  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_GOLD_S">
-			<Text>{1_CityName}에서 절도 성공!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_GOLD">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}의 보물을 훔쳐 [ICON_GOLD]골드를 {4_Gold} 획득했습니다.</Text>
-		</Row>
-		<!-- Detected-->
-		<Row Tag="TXT_KEY_NOTIFICATION_GOLD_STOLEN_SPY_DETECTED_S">
-			<Text>{1_CityName}에서 보물 도난!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GOLD_STOLEN_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {1_CityName}의 국고에서 [ICON_GOLD]골드를 {2_Gold} 빼돌렸습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GOLD_STOLEN_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {1_CityName}의 국고에서 [ICON_GOLD]골드를 {2_Gold} 빼돌렸습니다.</Text>
-		</Row>
-		<!-- Identified  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_GOLD_STOLEN_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc} 문명이 {2_CityName}의 보물을 훔쳐갔습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GOLD_STOLEN_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가 {2_CityName}의 국고에서 [ICON_GOLD]골드를 {3_Gold} 빼돌렸습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GOLD_STOLEN_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가 {2_CityName}의 국고에서 [ICON_GOLD]골드를 {3_Gold} 빼돌렸습니다.</Text>
-		</Row>
-		<!-- Science Pilfered -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_SCIENCE_S">
-			<Text>{1_CityName}에서 과학을 훔쳤습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_SCIENCE">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 과학을 훔쳐 [ICON_RESEARCH]과학이 {4_Science} 증가했습니다.</Text>
-		</Row>
-		<!-- Detected-->
-		<Row Tag="TXT_KEY_NOTIFICATION_SCIENCE_STOLEN_SPY_DETECTED_S">
-			<Text>{1_CityName}에서 과학 도난!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SCIENCE_STOLEN_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {1_CityName}에서 {2_Science} 가치의 [ICON_RESEARCH]과학을 훔쳐갔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SCIENCE_STOLEN_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {1_CityName}에서 {2_Science} 가치의 [ICON_RESEARCH]과학을 훔쳐갔습니다.</Text>
-		</Row>
-		<!-- Identified  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SCIENCE_STOLEN_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc} 문명이 {2_CityName}에서 과학을 훔쳐갔습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SCIENCE_STOLEN_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 {3_Science} 가치의 [ICON_RESEARCH]과학을 훔쳐갔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SCIENCE_STOLEN_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 {3_Science} 가치의 [ICON_RESEARCH]과학을 훔쳐갔습니다.</Text>
-		</Row>
-		<!-- Generic Message -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_NOTHING_S">
-			<Text>{1_CityName}에서 스파이 임무 실패!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_SETBACK_NOTHING">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 발각되어 임무에 실패했습니다.</Text>
-		</Row>
-		<!-- Detected-->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_DETECTED_S">
-			<Text>{1_CityName}에서 타국 스파이가 탐지되었습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_DETECTED_W_TIP">
-			<Text>타국 스파이가 {1_CityName}에서 활동하고 있다는 소문이 있습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_DETECTED">
-			<Text>타국 스파이가 {1_CityName}에서 활동하고 있다는 소문이 있습니다.</Text>
-		</Row>
-		<!-- Identified  -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc}의 스파이가 {2_CityName}에서 탐지되었습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 확인되었지만 이번에는 첩보 활동에 실패했습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가 {2_CityName}에서 확인되었지만 이번에는 첩보 활동에 실패했습니다.</Text>
-		</Row>
 		<!-- City Rank Increasing -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING">
-			<Text>{1_CityName}{1: plural 1?이; 2?가;} 적[ICON_SPY]스파이에게 점점 취약해지고 있습니다.[NEWLINE]이 도시의 스파이 등급은 현재 [COLOR_NEGATIVE_TEXT]10단계 중 {2_Num}단계[ENDCOLOR]로, 스파이가 이 도시에서 활동하기 더 쉬워지고 있습니다.[NEWLINE]이 도시에 스파이를 배치하고 방첩 건물을 건설하여 도시의 등급을 낮출 수 있습니다.</Text>
+			<Text>{1_CityName}{1: plural 1?이; 2?가;} 적[ICON_SPY]스파이에게 점점 취약해지고 있습니다.[NEWLINE]이 도시의 보안 등급은 현재 [COLOR_NEGATIVE_TEXT]10단계 중 {2_Num}단계[ENDCOLOR]로, 스파이가 이 도시에서 활동하기 더 쉬워지고 있습니다.[NEWLINE]이 도시에 스파이를 배치하고 방첩 건물을 건설하고, 불행을 해결하여 도시의 등급을 높일 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING_SUMMARY">
-			<Text>{1_CityName}의 스파이 등급 갱신</Text>
+			<Text>{1_CityName}의 보안 등급 갱신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_BUILDING_NETWORK">
+			<Text>네트워크 구축</Text>
 		</Row>
 		<!-- Trade Route for Land Modifiers -->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_LAND_MODIFIER">
@@ -6492,13 +6333,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI_SUMMARY">
 			<Text>{1_Player:textkey}{1: plural 1?이; 2?가;} {@2_UnitName}{@2: plural 1?을; 2?를;} 반환!</Text>
 		</Row>
-		<!-- Razing -->
-		<Row Tag="TXT_KEY_DIPLO_RAZED">
-			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_RAZED_OTHER">
-			<Text>[COLOR_NEGATIVE_TEXT]당신은 전쟁 중 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
-		</Row>
 		<!-- Tooltip for 'You'll Pay' Text -->
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_YOULL_PAY_TT">
 			<Text>이 반응을 선택하면 [COLOR_NEGATIVE_TEXT]전쟁[ENDCOLOR]을 초래할 수 있습니다. 전쟁을 초래하지 않는다면 상대방은 부끄러워하고 일시적으로 당신과 중립적인 관계가 될 것입니다.</Text>
@@ -6773,6 +6607,9 @@
 		<Row Tag="TXT_KEY_FOODMOD_TOURISM">
 			<Text>[NEWLINE][ICON_BULLET][ICON_TOURISM]관광 (교역로): {1_Num}%</Text>
 		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_EVENT">
+			<Text>[NEWLINE][ICON_BULLET][ICON_CITIZEN]이벤트: {1_Num}%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_YIELD_OVER_SUPPLY">
 			<Text>[NEWLINE][ICON_BULLET]군사 유닛의 보급 한도 초과로 인한 [ICON_SILVER_FIST]성장 [COLOR_NEGATIVE_TEXT]페널티[ENDCOLOR]: {1_Num}%</Text>
 		</Row>
@@ -6828,17 +6665,39 @@
 			<Text>최근 쿠데타 시도로 인한 안전 위협이 사라졌고, {1_City}의 안전 상태는 정상으로 돌아왔습니다. 이 도시 국가에서 [COLOR_POSITIVE_TEXT]쿠데타[ENDCOLOR]를 다시금 시도할 수 있습니다.</Text>
 		</Row>
 		<!-- Text for 3rd Party Brokering -->
-		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_NAME">
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR">
 			<Text>정보 기관은 {1_CivName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}에게 당신을 향한 전쟁을 사주했다고 보고했습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_NAME_S">
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR_INFORMED">
+			<Text>{1_CivName}의 정보 기관은 {2_PlayerName}{2: plural 1?이; 2?가;} {3_CivName}에게 당신을 향한 전쟁을 사주했다고 보고했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR_S">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 당신을 향해 전쟁을 사주했습니다!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR_OTHER">
+			<Text>정보 기관은 {1_PlayerName}{1: plural 1?이; 2?가;} {2_CivName}에게 {3_CivName}{3: plural 1?을; 2?를;} 향한 전쟁을 사주했다고 보고했습니다. 이 정보를 동맹과 공유할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR_OTHER_INFORMED">
+			<Text>{1_CivName}의 정보 기관은 {2_PlayerName}{2: plural 1?이; 2?가;} {3_CivName}에게 {4_CivName}{4: plural 1?을; 2?를;} 향한 전쟁을 사주했다고 보고했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR_OTHER_NOT_INFORMED">
+			<Text>정보 기관은 {1_PlayerName}{1: plural 1?이; 2?가;} {2_CivName}에게 {3_CivName}{3: plural 1?을; 2?를;} 향한 전쟁을 사주했다고 보고했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR_OTHER_S">
+			<Text>{1_CivName}{1: plural 1?이; 2?가;} {2_CivName}에게 전쟁을 선포했습니다!</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_PEACE_NAME">
-			<Text>외교관들은 {1_CivName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}에게 당신과 평화를 맺어달라며 비용을 지불했다고 보고했습니다</Text>
+			<Text>외교관들은 {1_CivName:textkey}{1: plural 1?이; 2?가;} {2_CivName:textkey}에게 당신과 평화를 맺어달라며 비용을 지불했다고 보고했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_PEACE_NAME_S">
 			<Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 평화를 위한 거래를 했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_PEACE_OTHER">
+			<Text>정보 기관은{1_PlayerName}{1: plural 1?이; 2?가;} {2_CivName}에게 {3_CivName}{3: plural 1?과; 2?와;} 평화를 맺어달라며 비용을 지불했다고 보고했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_PEACE_OTHER_S">
+			<Text>{1_CivName}{1: plural 1?이; 2?가;} {2_CivName}{2: plural 1?과; 2?와;} {3_CivName}의 평화를 위한 거래를 했습니다!</Text>
 		</Row>
 		<!-- CS -->
 		<Row Tag="TXT_KEY_POP_CSTATE_RECENTLY_LIBERATED">
@@ -6892,11 +6751,17 @@
 		<Row Tag="TXT_KEY_POP_CSTATE_PTP_ANY_CORRECT">
 			<Text>[ENDCOLOR][NEWLINE][NEWLINE]다음 세 가지 [ICON_CHECKBOX] 조건 중 한 가지 이상이 충족되어야 합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_INFLUENCE">
+			<Text>당신을 향한 {1_CSName}의 분노 때문에, 당신의 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 의미있게 여지기 않습니다. 결과적으로 당신의 {1_CSName}을 향한 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_INFLUENCE">
+			<Text>{1_CSName}과의 보호 선언이 무효화되었습니다!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_OPTIONAL">
 			<Text>심사숙고 끝에 {1_CSName}{1: plural 1?은; 2?는;} 당신의 먼 위치 때문에 당신이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 이행하는 데 무리가 있을 것이라 생각하여 당신의 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_OPTIONAL">
-			<Text>{1_CSName}에 의해 보호 선언이 무효화되었습니다!</Text>
+			<Text>{1_CSName}과의 보호 선언이 무효화되었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_OPTIONAL">
 			<Text>당신의 군사 보좌관은 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 거리 상의 이유로 취소될 수 있다고 경고합니다. 이 선언을 이행하기 위해서는 당신의 문명이 그들과 동맹을 맺거나 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 내에 그들과 교역할 수 있는 범위 안에 들어야 합니다.</Text>
@@ -6909,12 +6774,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT_OPTIONAL">
 			<Text>위태로운 보호 선언</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_OPTIONAL">
-			<Text>{1_CSName}{1: plural 1?과; 2?와;}의 동맹, 혹은 교역이 맺어져 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]은 다시금 안전해졌습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT_OPTIONAL">
-			<Text>안전해진 보호 선언</Text>
 		</Row>
 		<!-- LUA for Warscore -->
 		<Row Tag="TXT_KEY_WAR_SCORE">
@@ -6965,28 +6824,28 @@
 		<Row Tag="TXT_KEY_WAR_ECONOMY_IMMENSE">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD]경제력:[ENDCOLOR] 매우 부유합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WAR_DAMAGE_US_MINOR">
+		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MINOR">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR]전황:[ENDCOLOR] 잘 돌아가고 있습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WAR_DAMAGE_US_MAJOR">
+		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MAJOR">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR]전황:[ENDCOLOR] 우리가 이기고 있습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WAR_DAMAGE_US_SERIOUS">
+		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_SERIOUS">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR]전황:[ENDCOLOR] 우리의 승리가 확실합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WAR_DAMAGE_US_CRIPPLED">
+		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_CRIPPLED">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR]전황:[ENDCOLOR] 상대는 압도당하고 있습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MINOR">
+		<Row Tag="TXT_KEY_WAR_DAMAGE_US_MINOR">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING]전황:[ENDCOLOR] 불리하게 돌아가고 있습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MAJOR">
+		<Row Tag="TXT_KEY_WAR_DAMAGE_US_MAJOR">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING]전황:[ENDCOLOR] 지고 있습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_SERIOUS">
+		<Row Tag="TXT_KEY_WAR_DAMAGE_US_SERIOUS">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING]전황:[ENDCOLOR] 패배할 가능성이 높습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_CRIPPLED">
+		<Row Tag="TXT_KEY_WAR_DAMAGE_US_CRIPPLED">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING]전황:[ENDCOLOR] 우리가 압도당하고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_NO_PEACE_OFFER">
@@ -7260,7 +7119,13 @@
 			<Text>[ICON_INTERNATIONAL_TRADE]교역로와 연결된 목적지:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_IMPROVEMENT_BUILD">
-			<Text>Building an Improvement:[NEWLINE]{1_YieldString}</Text>
+			<Text>시설 건설:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_RESEARCH_AGREEMENT">
+			<Text>[ICON_RESEARCH]연구 협약:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_REFUND">
+			<Text>[ICON_PRODUCTION]무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<!-- Quest Data -->
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
@@ -7545,82 +7410,70 @@
 		<!--Policies-->
 		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
 			<Text>[COLOR_WARNING_TEXT]이 계열을 해금하기 위해서는 다른 계열의 정책을 {1_Num}개 더 채택해야 합니다.[ENDCOLOR]</Text>
-		</Row>
-		<!-- Spy GW Theft Text-->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GREAT_WORK">
-			<Text>{@3_CivShortName}{@3: plural 1?이; 2?가;} 어떠한 걸작도 가지고 있지 않거나 당신 문명의 걸작 슬롯이 부족하기 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 걸작을 훔칠 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GREAT_WORK_S">
-			<Text>{@1_CivShortName}에서 걸작을 훔칠 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_GW_S">
-			<Text>{1_SpyName}{1: plural 1?이; 2?가;} 절도 중 살해되었습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_GW">
-			<Text>당신의 스파이 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {4_CityName}에서 걸작을 훔치던 도중 {3_Civ}의 방첩 활동으로 살해되었습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_GW">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {@4_CivShortName}의 걸작을 훔치기 위해 {3_CityName}에서 충분한 정보를 수집했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_GW_S">
-			<Text>걸작 훔치기</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_STATE_PREPARING_HEIST">
-			<Text>절도 준비</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_SPY_HEIST_TT">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 걸작을 훔칠 준비를 하고 있습니다.[NEWLINE][NEWLINE]스파이가 최소 1개 이상의 걸작을 보유한 도시에 있어야 하고 당신의 문명에 해당 걸작 슬롯이 있어야 훔칠 수 있습니다.[NEWLINE][NEWLINE]해당 도시에 상대의 스파이가 있다면 당신의 스파이가 발각되거나 임무 수행 도중 살해될 수 있습니다.[NEWLINE][NEWLINE]당신의 스파이는 절도 도중에도 고급 첩보 활동을 통해 도시를 방해할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_BE_THIEF">
-			<Text>당신의 스파이가 도둑이 되길 원하십니까? 스파이를 다른 문명의 수도가 아닌 도시에 배치시켜 절도를 감행할 수 있습니다. 도둑이 된 스파이는 걸작 훔치기와 같은 고급 첩보 활동을 수행할 것입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLOMAT_PICKER_THIEF">
-			<Text>도둑</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_DETECTED_S">
-			<Text>{1_GW} 도난!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_DETECTED_W_TIP">
-			<Text>정체불명의 스파이가 {2_CityName}에서 {1_GW}{1: plural 1?을; 2?를;} 훔쳐갔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_DETECTED">
-			<Text>정체불명의 스파이가 {2_CityName}에서 {1_GW}{1: plural 1?을; 2?를;} 훔쳐갔습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc}{1: plural 1?이; 2?가;} {2_GW}{2: plural 1?을; 2?를;} 훔쳐갔습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_IDENTIFIED_W_TIP">
-			<Text>{1_CivAdj} 스파이가 {3_CityName}에서 {2_GW}{2: plural 1?을; 2?를;} 훔쳐갔습니다.[NEWLINE]이 도시에 스파이를 배치하여 적 스파이의 활동을 방지할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_IDENTIFIED">
-			<Text>{1_CivAdj} 스파이가 {3_CityName}에서 {2_GW}{2: plural 1?을; 2?를;} 훔쳐갔습니다.</Text>
-		</Row>
+		</Row>		
 		<Row Tag="TXT_KEY_EO_SPY_RANK_TT_SHORT">
-			<Text>{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName} 계급을 달성했습니다.</Text>
+			<Text>{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName}으로 승급했습니다!</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_SPY_RANK">
+			<Text>[NEWLINE] [ICON_BULLET] 이 선택을 할만큼 스파이의 등급이 높지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_SPY_ALREADY_HERE">
+			<Text>[NEWLINE] [ICON_BULLET] 외국 스파이가 이미 이 작전을 수행 중입니다. 쉿!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_NO_TECH_STEAL">
+			<Text>[NEWLINE] [ICON_BULLET] 훔칠 기술이 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_NO_GW_FORGE">
+			<Text>[NEWLINE] [ICON_BULLET] 복사할 불가사의가 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_NO_COUNTERSPY">
+			<Text>[NEWLINE] [ICON_BULLET] 도시에 역스파이가 필요합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_SPY_DURATION_SCALED">
+			<Text>미션 길이: [COLOR_POSITIVE_TEXT]{1_Time}[ENDCOLOR].[NEWLINE]발견될 확률: [COLOR_NEGATIVE_TEXT]{2_ID}%[ENDCOLOR][NEWLINE]처치될 확률: [COLOR_NEGATIVE_TEXT]{3_Death}%[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
-			<Text>{1_CityName}의 잠재력은 {2_Num}입니다.</Text>
+			<Text>{1_CityName}의 보안 레벨은 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT_SHORT">
-			<Text>{1_CityName}의 잠재력은 {2_Num}일 것으로 추정됩니다. [ICON_SPY]스파이를 보내 더 알아보십시오.</Text>
+			<Text>{1_CityName}의 보안 레벨은 {2_Num} 정도라고 생각됩니다. [ICON_SPY]스파이를 보내 더 자세히 알아보십시오.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POTENTIAL_CALCULATION">
+			<Text>[ICON_SPY] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 레벨이 천천히 1까지 [COLOR_NEGATIVE_TEXT]줄어듭니다[ENDCOLOR]. 양수라면, 천천히 10까지 [COLOR_POSITIVE_TEXT]늘어납니다[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_NEGATIVE">
+			<Text>[COLOR_NEGATIVE_TEXT]부정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_GOLD] 경제적 가치 (-{1_Num})[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 인구 (-{2_Num})[NEWLINE]  [ICON_BULLET] [ICON_HAPPINESS_3] 불행 (-{3_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_POSITIVE">
+			<Text>[COLOR_POSITIVE_TEXT]긍정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_CULTURE] 정책과 불가사의 (+{1_Num})[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 지역 효과 (+{2_Num})[NEWLINE]  [ICON_BULLET] [ICON_SPY] 역스파이 (+{3_Num})[NEWLINE]  [ICON_BULLET] [ICON_STRENGTH] 도시 방어 (+{4_Num})</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES_AGAINST">
+			<Text>[NEWLINE]  [ICON_BULLET][ICON_SPY] 스파이 작전: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 천천히 이동합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY">
-			<Text>정책: 적 스파이를 포획할 확률 +{2_Num}% </Text>
+			<Text>[NEWLINE]  [ICON_BULLET]정책: 적 스파이를 포획할 확률 +{1_Num}% </Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_AGAINST">
-			<Text>정책: 당신 문명의 스파이가 잡힐 확률 +{2_Num}%</Text>
+			<Text>[NEWLINE]  [ICON_BULLET]정책: 당신 문명의 스파이가 잡힐 확률 +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_POTENTIAL">
 			<Text>방어 중 가능한 결과:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_POTENTIAL_AA">
-			<Text>방어 중 가능한 결과 (고급 첩보 활동):</Text>
+			<Text>스파이 활동 방어 중 가능한 결과:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RISKS">
-			<Text>스파이 활동에서 가능한 결과:</Text>
+			<Text>작전에서 가능한 결과:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RISKS_AA">
-			<Text>고급 첩보 활동에서 가능한 결과:</Text>
+			<Text>스파이 활동에서 가능한 결과:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_INTRIGUE_DISCOVERED">
 			<Text>[COLOR_POSITIVE_TEXT]음모 발각:[ENDCOLOR][NEWLINE]</Text>
@@ -7646,134 +7499,103 @@
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_UNDETECTED">
 			<Text>[ICON_BULLET] 탐지되지 않을 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_ADVANCED_ACTION_KILL">
-			<Text>[ICON_BULLET] 방첩 활동으로 살해될 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+
+		<Row Tag="TXT_KEY_CITY_ESPIONAGE_RATIO">
+			<Text>현재 당신의 스파이 능력: [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR].[NEWLINE]도시 보안 임계치: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR].[NEWLINE][NEWLINE]당신의 스파이는 매 턴 [COLOR_POSITIVE_TEXT]+{2_Num}[ENDCOLOR]의 능력을 얻습니다. [NEWLINE][NEWLINE]보안 임계치를 넘기면[COLOR_POSITIVE_TEXT]스파이 이벤트[ENDCOLOR]가 발생합니다..</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_ADVANCED_ACTION_CATCH">
-			<Text>[ICON_BULLET] 잡힐 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+
+		<Row Tag="TXT_KEY_ESPIONAGE_CURRENT_MISSION">
+			<Text>[COLOR_POSITIVE_TEXT]현재 임무:[ENDCOLOR][NEWLINE]{1_Mission}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_ADVANCED_ACTION_DETECT">
-			<Text>[ICON_BULLET] 탐지될 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_MISSION_SOON_S">
+			<Text>{1_Title} {2_Name}의 메시지를 해독했습니다!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_ADVANCED_ACTION_KILL">
-			<Text>[ICON_BULLET] [ICON_SPY]스파이를 제거할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_MISSION_SOON">
+			<Text>{1_Title} {2_Name}{1: plural 1?이; 2?가;} 보낸 메시지에는 {3_City}에서 미션을 수항핼 준비가 완려되었다고 쓰여 있었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_ADVANCED_ACTION_CATCH">
-			<Text>[ICON_BULLET] [ICON_SPY]스파이를 식별할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_ADVANCED_ACTION_DETECT">
-			<Text>[ICON_BULLET] [ICON_SPY]스파이를 탐지할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES">
-			<Text>방첩 활동: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_BASE_POWER">
+			<Text>기본 스파이 능력: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES">
-			<Text>첩보 활동: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_CITY_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 도시: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_THEIR_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 상대방: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>스파이 능력 변화: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_OUR_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 당신의 문명: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] 전역에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_UNHAPPINESS_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 도시 불행: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] 도시 불행에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 스파이 계급: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] 스파이 레벨에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_OB">
+			<Text>[NEWLINE]  [ICON_BULLET] 국경 개방에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_INFLUENCE">
+			<Text>[NEWLINE]  [ICON_BULLET] 문화적 영향력에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_BASE_DEFENSE">
+			<Text>보안 임계치: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES">
+			<Text>보안 변화: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_THEIR_MOD">
+			<Text>[NEWLINE]  [ICON_BULLET] 전역에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_CITY_MOD">
+			<Text>[NEWLINE]  [ICON_BULLET] 도시에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_POLICY">
+			<Text>[NEWLINE]  [ICON_BULLET] 정책에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_TECH">
+			<Text>[NEWLINE]  [ICON_BULLET] 기술 차이에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_REPEAT">
+			<Text>[NEWLINE]  [ICON_BULLET] 문명의 스파이 이벤트에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		
+		<!-- Spy Focus -->
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_ECONOMIC">
+			<Text>현재 집중: [COLOR_POSITIVE_TEXT]경제 및 산업[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_MILITARY">
+			<Text>현재 집중: [COLOR_POSITIVE_TEXT]군사 침투[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_SCIENTIFIC">
+			<Text>현재 집중: [COLOR_POSITIVE_TEXT]연구 및 개발[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_URBAN">
+			<Text>현재 집중: [COLOR_POSITIVE_TEXT]시민사회에 흡수[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_ALL">
+			<Text>현재 집중: [COLOR_POSITIVE_TEXT]모든 기회[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_NONE">
+			<Text>현재 집중: [COLOR_POSITIVE_TEXT]집중 없음[ENDCOLOR]</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RELIGOUS_PRESSURE">
-			<Text>[ICON_SPY]스파이로부터 [ICON_RELIGION]종교 압력 보너스: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY]스파이의 종교적 압력: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES">
-			<Text>타국 [ICON_SPY]스파이의 활동이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 더 느려집니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES_AGAINST">
-			<Text>당신 문명의 [ICON_SPY]스파이 활동이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 더 느려집니다.</Text>
-		</Row>
+
 		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE">
-			<Text>쿠데타 성공 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+			<Text>쿠데타 성공 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE_ALLIES">
-			<Text>[NEWLINE][ICON_BULLET]   이미 동맹입니다.</Text>
+			<Text>[NEWLINE][ICON_BULLET]   알림: 이미 동맹입니다!</Text>
 		</Row>
+
 		<Row Tag="TXT_KEY_OFFENSIVE_RIG_CHANCE">
-			<Text>선거 조작 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+			<Text>선거 조작 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_POTENTIAL_LIST_TT">
-			<Text>이 도시의 잠재적 적 스파이 고급 첩보 활동:</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_REBELLION">
-			<Text>[NEWLINE][ICON_BULLET] 도시 반란 조장</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_UNREST">
-			<Text>[NEWLINE][ICON_BULLET] 도시 불안 조성</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_GP_ASSASSINATION">
-			<Text>[NEWLINE][ICON_BULLET] 위인 암살</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_WONDER">
-			<Text>[NEWLINE][ICON_BULLET] 세계 불가사의 건설 방해</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_BUILDING">
-			<Text>[NEWLINE][ICON_BULLET] 건물 건설 방해</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_UNIT">
-			<Text>[NEWLINE][ICON_BULLET] 유닛 생산 방해</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_SCIENCE">
-			<Text>[NEWLINE][ICON_BULLET] 과학 절도</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_GOLD">
-			<Text>[NEWLINE][ICON_BULLET] 골드 빼돌리기</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_FAIL">
-			<Text>[NEWLINE][ICON_BULLET] 실패</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_REBELLION_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 도시 반란 조장: [COLOR_POSITIVE_TEXT]: {1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_UNREST_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 도시 불안 조성: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_GP_ASSASSINATION_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 위인 암살: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_WONDER_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 세계 불가사의 건설 방해: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_BUILDING_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 건물 건설 방해: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_UNIT_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 유닛 생산 방해: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_SCIENCE_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 과학 절도: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_GOLD_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 골드 빼돌리기: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_FAIL_OTHER">
-			<Text>[NEWLINE][ICON_BULLET] 실패: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_FAIL_OTHER_NOTHING">
-			<Text>[NEWLINE][ICON_BULLET] 아무 일도 일어나지 않음: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_DEATH_POSSIBILITY">
-			<Text>[NEWLINE][ICON_BULLET] 암살 자격을 갖춘 다른 문명의 요원이 고급 첩보 활동 중 살해될 가능성이 있습니다.</Text>
-		</Row>
+
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_COUNTERSPY_POSSIBLY_PRESENT">
-			<Text>타국의 방첩 [ICON_SPY]스파이들이 도시에 있을 수 있습니다. 조심하세요!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_HUNTERS">
-			<Text>{2_SpyName}{2: plural 1?을; 2?를;} 찾고 있는 다른 문명의 요원 수: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]. 이 숫자가 [COLOR_POSITIVE_TEXT]0[ENDCOLOR]이 될 때까지 고급 첩보 활동은 자제하고 자세를 낮추세요.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_ACTIONS_POSSIBLE">
-			<Text>{1_SpyName}{1: plural 1?이; 2?가;} 도시에서 고급 첩보 활동을 수행할 수 있습니다.</Text>
+			<Text>외국의 [ICON_SPY] 역스파이가 배치되어 있다는 소문이 있습니다 - 조심하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST">
 			<Text>확인되지 않은 서신</Text>
@@ -7884,15 +7706,6 @@
 		<Row Tag="TXT_KEY_TRADE_WLTKD_RESOURCE_CITIES">
 			<Text>현재 이 자원을 요구하는 도시:</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TECH_ADVANCED_ACTIONS_ENABLED">
-			<Text>당신의 스파이가 이제 골드 빼돌리기나 반란 조장 같은 고급 첩보 활동을 할 수 있습니다. 더 자세한 정보는 첩보 개요에서 확인하세요.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_TECH_ADVANCED_ACTIONS_ENABLED_S">
-			<Text>고급 첩보 활동 활성화</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ALLOWS_ADVANCED_ACTIONS_STRING">
-			<Text>스파이가 고급 첩보 활동을 할 수 있습니다.</Text>
-		</Row>
 		<!-- Tooltip helpers for unhappiness -->
 		<Row Tag="TXT_KEY_POTENTIAL_HAPPINESS_GROWTH">
 			<Text>[NEWLINE][NEWLINE][ICON_CITIZEN]시민 성장에서 오는 [ICON_HAPPINESS_1]행복: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
@@ -7930,7 +7743,56 @@
 		</Row>
 		<!-- Build blocked -->
 		<Row Tag="TXT_KEY_BUILD_BLOCKED_RESOURCE_REQUIRED">
-			<Text>{1_Num} {2_ResourceIcon} {3_ResourceName:textkey} is required to construct {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@4_ImprovementName:textkey}}.</Text>
+			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@4_ImprovementName:textkey}}의 건설에는 {1_Num} {2_ResourceIcon} {3_ResourceName:textkey}이 요구됩니다.</Text>
+		</Row>
+		<!-- Build blocked -->
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_RESOURCE_REQUIRED">
+			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@4_ImprovementName:textkey}}의 건설에는 {1_Num} {2_ResourceIcon} {3_ResourceName:textkey}이 요구됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NUKE_STRIKE_AFFECTED">
+			<Text>{1_CIV}의 핵무기에 맞았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUKE_STRIKE_AFFECTED_S">
+			<Text>핵 공격!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NUKE_STRIKE_OWNED_TERRITORY">
+			<Text>{1_CivName}의 핵무기가 {2_CIV}의 영토에서 폭발했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUKE_STRIKE_UNOWNED_TERRITORY">
+			<Text>{1_CivName}의 핵무기가 {2_CIV}중립 영토에서 폭발했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUKE_STRIKE_S">
+			<Text>핵 공격!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NUKE_INTERCEPTED">
+			<Text>{1_CIV} Nuke was intercepted by {2_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_S">
+			<Text>Nuclear Interception!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_US">
+			<Text>Defenses in {2_City} intercepted our Nuke, destroying it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_US_S">
+			<Text>Nuclear Attack Intercepted!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE">
+			<Text>도시 운명 결정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE_TT">
+			<Text>도시의 운명을 결정하십시오...</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CHOOSE_CITY_CAPTURE">
+			<Text>{1_City}를 점령했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_CITY_CAPTURE_TT">
+			<Text>{1_City}의 운명을 결정하십시오...</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>
