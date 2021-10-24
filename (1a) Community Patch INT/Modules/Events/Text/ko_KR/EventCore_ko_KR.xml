@@ -133,6 +133,7 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_T_ESPIONAGE_UNKNOWN">
 			<Text>알수 없는 문명의 요원이 {1_City}에서 임무를 성공했습니다!</Text>
 		</Row>
+		
 		<Row Tag="TXT_KEY_CITY_EVENT_TITLE">
 			<Text>{1_City}의 이벤트: {2_Event}</Text>
 		</Row>

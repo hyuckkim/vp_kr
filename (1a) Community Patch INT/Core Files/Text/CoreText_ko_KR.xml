@@ -3642,19 +3642,19 @@
 		</Row>
 		<!-- New Warmonger Hate Descriptors -->
 		<Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL_NUCLEAR">
-			<Text>They fear your warmongering will plunge the world into nuclear winter!</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]전쟁 도발 행위 때문에 세계에 핵 겨울이 찾아올 거라고 두려워하고 있습니다![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_HATE_MAXIMAL">
-			<Text> (They furiously abhor warmongers!)</Text>
+			<Text> (전쟁광을 격렬히 혐오합니다!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_HATE_EXTREME">
-			<Text> (They hate warmongers!)</Text>
+			<Text> (전쟁광을 증오합니다!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_HATE_HIGH_CBP">
-			<Text> (They strongly dislike warmongers.)</Text>
+			<Text> (전쟁광을 싫어합니다.)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_HATE_MINIMAL">
-			<Text> (They ignore most warmongering.)</Text>
+			<Text> (가벼운 전쟁 도발은 무시합니다.)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_HATE_AZTECS">
 			<Text> (그들은 피에 굶주린 전쟁광이다!)</Text>
@@ -6752,7 +6752,7 @@
 			<Text>[ENDCOLOR][NEWLINE][NEWLINE]다음 세 가지 [ICON_CHECKBOX] 조건 중 한 가지 이상이 충족되어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_INFLUENCE">
-			<Text>당신을 향한 {1_CSName}의 분노 때문에, 당신의 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 의미있게 여지기 않습니다. 결과적으로 당신의 {1_CSName}을 향한 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
+			<Text>당신을 향한 {1_CSName}의 분노 때문에, 당신의 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 의미있게 여기지 않습니다. 결과적으로 당신의 {1_CSName}을 향한 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_INFLUENCE">
 			<Text>{1_CSName}과의 보호 선언이 무효화되었습니다!</Text>
@@ -7437,14 +7437,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
-			<Text>{1_CityName}의 보안 레벨은 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 입니다.</Text>
+			<Text>{1_CityName}의 보안 등급은 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT_SHORT">
-			<Text>{1_CityName}의 보안 레벨은 {2_Num} 정도라고 생각됩니다. [ICON_SPY]스파이를 보내 더 자세히 알아보십시오.</Text>
+			<Text>{1_CityName}의 보안 등급은 {2_Num} 정도라고 생각됩니다. [ICON_SPY]스파이를 보내 더 자세히 알아보십시오.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_CALCULATION">
-			<Text>[ICON_SPY] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 레벨이 천천히 1까지 [COLOR_NEGATIVE_TEXT]줄어듭니다[ENDCOLOR]. 양수라면, 천천히 10까지 [COLOR_POSITIVE_TEXT]늘어납니다[ENDCOLOR].</Text>
+			<Text>[ICON_SPY] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 1까지 [COLOR_NEGATIVE_TEXT]줄어듭니다[ENDCOLOR]. 양수라면, 천천히 10까지 [COLOR_POSITIVE_TEXT]늘어납니다[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_NEGATIVE">
@@ -7475,9 +7475,13 @@
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RISKS_AA">
 			<Text>스파이 활동에서 가능한 결과:</Text>
 		</Row>
+
 		<Row Tag="TXT_KEY_SPY_INTRIGUE_DISCOVERED">
 			<Text>[COLOR_POSITIVE_TEXT]음모 발각:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
+
+
+
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_KILL">
 			<Text>[ICON_BULLET][ICON_SPY]스파이를 제거할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
@@ -7768,17 +7772,17 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NUKE_INTERCEPTED">
-			<Text>{1_CIV} Nuke was intercepted by {2_City}!</Text>
+			<Text>{1_CIV}의 핵무기가 {2_City}에서 차단되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_S">
-			<Text>Nuclear Interception!</Text>
+			<Text>핵 차단!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_US">
-			<Text>Defenses in {2_City} intercepted our Nuke, destroying it!</Text>
+			<Text>{2_City}의 방비가 우리의 핵무기를 막아 파괴되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_US_S">
-			<Text>Nuclear Attack Intercepted!</Text>
+			<Text>핵 공격 요격!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE">
