@@ -43,17 +43,3 @@ racraky
 모드가 여러 개 나오는데, 사용할 모드를 체크하면 된다. 일반적으로 전부 체크한다.<br/>
 ![모드 활성화된 모습](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FPHlo7%2FbtqPWZEBnyr%2FL6wckkEuSphmCl3sx9Izr1%2Fimg.png "문명 선택 창에서 특성과 고유 유닛, 고유 건물이 바뀌어 있다")<br/>
 짧은 시간 기다린 후에 싱글 플레이를 누르고 문명 선택 탭에서 문명 특성이 바뀌었다면, 축하한다! 이제 즐겁게 문명 5 - Vox Populi를 한글 패치와 함께 즐기면 된다.<br/>
-## 번역에 오류가 있다면 (git 사용법)
-![폴더들](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGdK3M%2FbtqPPBY2j3M%2FuGorYgwcKe7o0kwuCKciT1%2Fimg.png "번역 폴더")<br/>
-번역자에게 오류를 수정하라고 닥달하는 대신, 더 좋은 방법이 있다. 직접 수정하는 것이다.<br/>
-보다시피 이 창에는 다운받은 한글 패치의 각 폴더들이 있다.<br/>
-![파일](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbszUjW%2FbtqPPDbxtWS%2FHgyONRlTy2fxeOyOCT2Va1%2Fimg.png "대충 적당한 파일을 엶")<br/>
-이렇게 파일들을 볼 수 있고, 오른쪽에 연필 버튼도 있다.<br/>
-![파일](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcXH2l8%2FbtqP12tkcFe%2FFtgfldKRJg9jmH8mxJOTLK%2Fimg.png "연필 버튼 클릭하면")<br/>
-github에 로그인했다면 글을 바꿀 수 있고 맨 아래에 perpose changes를 눌러 저장할 수 있다.<br/>
-![풀리퀘](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FUtLMu%2FbtqP0txWlyW%2FMtuwgPyoF6JQ8nFrSuJdnk%2Fimg.png "pull request를 눌러 수정 요청을 할 수 있다")<br/>
-perpose changes 버튼을 누르면 이런 창이 나오는데, Create pull request 버튼을 눌러 수정을 요청할 수 있다.<br/>
-어디 부분에 어디가 잘못됐느니 하는 것보다 여기서 수정해주는게 훨씬 좋다!<br/>
-정 모르겠으면
-<https://gall.dcinside.com/mgallery/board/view/?id=civilization&no=177624&_rk=96k&page=1>
-에 댓글을 남겨도 된다.<br/>
