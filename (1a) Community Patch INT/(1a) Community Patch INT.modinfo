@@ -24,24 +24,27 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="CCE586064AE307E2164988E2AFAE907E" import="0">Core Files/Core Changes/ko_KR/TextChanges.sql</File>
+    <File md5="FE5746DA0B6E9EE05E65611DE8A31E13
+" import="0">Core Files/Core Changes/ko_KR/TextChanges.sql</File>
     <File md5="1C8E4B03DCAF847F9E720006BE4F890E" import="0">Core Files/Core Tables/ko_KR/SampleEvents.xml</File>
-    <File md5="BE61D018F4B4A563B71870EEA1D10B0F" import="0">Core Files/Core Values/ko_KR/CargoShipMod.sql</File>
-    <File md5="1068E7F85BAD2EBD5FC0877D44E7C32B" import="0">Core Files/PNM Mods DB/API/ko_KR/Espionage.xml</File>
-    <File md5="26F405A3634A0844ABEF38B2ED63E615" import="0">Core Files/PNM Mods DB/API/ko_KR/Religion.xml</File>
-    <File md5="165EF8ECE7DDC6400B1B9CE8BCB162D6" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/GoodyHutMessages.xml</File>
-    <File md5="AC8E2D5BABBF69396CD2220D1AB7B117" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/SpyNames.xml</File>
-    <File md5="7F5684B0029D7072F7E8C48D93A93112" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/UnitclassNotUnit.xml</File>
-    <File md5="3D5DAB2B7F7DD8E45C3EE234AA2196D3" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/UnitNaming.xml</File>
-    <File md5="99F6DA4B2DEF5881FA2FBFE14A504AEC" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/VariableRecon.xml</File>
-    <File md5="67CCC7BC95CE95083E26D61C4C740574" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
-    <File md5="CD5192BFF4C0B7D2623546CDA1E1786E" import="0">Core Files/Text/CoreText_ko_KR.sql</File>
-    <File md5="994248C38283F824C43FFF57B7A46F23" import="0">Modules/Events/Text/ko_KR/City_ko_KR.xml</File>
-    <File md5="97A48ACF9AC36792A69F9CE861620E81" import="0">Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</File>
-    <File md5="15F56562B74563A145FD4CD4F723A246" import="0">Modules/Events/Text/ko_KR/Player_ko_KR.xml</File>
+    <File md5="45406FD10C4B902CCA2E29EE995088FA" import="0">Core Files/Core Values/ko_KR/CargoShipMod.sql</File>
+    <File md5="822C1914186AB8578D20C6C55587EC1E" import="0">Core Files/PNM Mods DB/API/ko_KR/Espionage.xml</File>
+    <File md5="6BB6649466F5B7CBED4B3C69268901AE" import="0">Core Files/PNM Mods DB/API/ko_KR/Religion.xml</File>
+    <File md5="841E20BA6CA49CE16C4D6C9C6BADF123" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/GoodyHutMessages.xml</File>
+    <File md5="E4223E451FAA28A4D0C874F307669FBF" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/SpyNames.xml</File>
+    <File md5="BE241C0AC7A744F9644C8A7D1E2468BC" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/UnitclassNotUnit.xml</File>
+    <File md5="6D7FBF03168942B330DF290F20EC983F" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/UnitNaming.xml</File>
+    <File md5="69BD792128FC2B9037C2339F5F6CF1F3" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/VariableRecon.xml</File>
+    <File md5="FAE13EC9540752C2CA387D60EA891B17" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
+    <File md5="E472BACC14D472B8F61FF97D9160CE5A" import="0">Core Files/Text/CoreText_ko_KR.sql</File>
+    <File md5="6D9ACAED3CA8208CB701555C16D08247" import="0">Modules/Events/Text/ko_KR/City_ko_KR.xml</File>
+    <File md5="26729DE52928B7A1FDD90CBC345833D5" import="0">Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</File>
+    <File md5="39EC83881D554D1FDC8E7492DAABE160" import="0">Modules/Events/Text/ko_KR/Player_ko_KR.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
+      <UpdateDatabase>Core Files/Core Changes/ko_KR/TextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Values/ko_KR/CargoShipMod.sql</UpdateDatabase>
       <UpdateDatabase>Core Files/PNM Mods DB/API/ko_KR/Espionage.xml</UpdateDatabase>
       <UpdateDatabase>Core Files/PNM Mods DB/API/ko_KR/Religion.xml</UpdateDatabase>
       <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/ko_KR/GoodyHutMessages.xml</UpdateDatabase>
@@ -49,13 +52,11 @@
       <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/ko_KR/UnitclassNotUnit.xml</UpdateDatabase>
       <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/ko_KR/UnitNaming.xml</UpdateDatabase>
       <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/ko_KR/VariableRecon.xml</UpdateDatabase>
-      <UpdateDatabase>Core Files/Core Changes/ko_KR/TextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Core Files/Text/CoreText_ko_KR.sql</UpdateDatabase>
       <UpdateDatabase>Core Files/Text/CoreText_ko_KR.xml</UpdateDatabase>
       <UpdateDatabase>Modules/Events/Text/ko_KR/City_ko_KR.xml</UpdateDatabase>
       <UpdateDatabase>Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</UpdateDatabase>
       <UpdateDatabase>Modules/Events/Text/ko_KR/Player_ko_KR.xml</UpdateDatabase>
-      <UpdateDatabase>Core Files/Core Values/ko_KR/CargoShipMod.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

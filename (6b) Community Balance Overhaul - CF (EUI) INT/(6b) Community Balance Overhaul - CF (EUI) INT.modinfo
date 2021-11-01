@@ -34,14 +34,14 @@
     <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="CBP Compatibilty Files (No EUI)" />
   </Blocks>
   <Files>
-    <File md5="D0CC11F9DD699BEE18F31465C99B77B6" import="0">C4DFCompatibility/C4DFCompatibility.sql</File>
-    <File md5="12D1D43F5F3F744AFFA1D5B2E67BEA78" import="0">Corporations/Text/CorpText_ko_KR.xml</File>
-    <File md5="031DBA7320417B06AFEED6D8D09ADEF8" import="0">Corporations/Text/CorpText_ko_KR.sql</File>
-    <File md5="1EA7AA5CCE69B055BACFBC661BED9F75" import="0">CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
-    <File md5="AC1AD9AAC29FF2BEF3BD29BAC7880023" import="0">CSD/CompatibilityText/Compatibility_ko_KR.xml</File>
-    <File md5="B0345176A01EC2CD25F8B38FCF4F6B0F" import="0">EUI/EUI_text_ko_KR.xml</File>
-    <File md5="F9CED05C4F7DC240AEFD043F7FF3A7BD" import="0">EUI/ko_KR/NeededText.xml</File>
-    <File md5="7529A64DDB1A494EC35DCE8C24BCBA0E" import="0">MoreLuxuries/Text/Text_ko_KR.sql</File>
+    <File md5="A61C64936513C9E6A0BC7FD4B409367F" import="0">C4DFCompatibility/C4DFCompatibility.sql</File>
+    <File md5="3FF244E3D3DDB858F0E1BCA69D6BD4BE" import="0">Corporations/Text/CorpText_ko_KR.xml</File>
+    <File md5="1741ECD4233205CE49298DE4428E09F7" import="0">Corporations/Text/CorpText_ko_KR.sql</File>
+    <File md5="01ED82A7F67223D9792CA525C650D53F" import="0">CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
+    <File md5="98738B1FDE42D047C22CF77CFC00F7CC" import="0">CSD/CompatibilityText/Compatibility_ko_KR.xml</File>
+    <File md5="83FB148ECC0B62D5C24CB6542C6D3F8D" import="0">EUI/EUI_text_ko_KR.xml</File>
+    <File md5="63A5911DD5C961172BD8D8D9E7904C6F" import="0">EUI/ko_KR/NeededText.xml</File>
+    <File md5="4580CB7B3BA32DDBD0000E1B402D09D5" import="0">MoreLuxuries/Text/Text_ko_KR.sql</File>
   </Files>
   <Actions>
     <OnModActivated>

@@ -1811,5 +1811,5 @@ SET Text = '아주 좋소.'
 WHERE Tag = 'TXT_KEY_LEADER_SHAKA_AGREE_SHORT_2';
 
 UPDATE Language_ko_KR
-SET Text = 그럽시다.'
+SET Text = '그럽시다.'
 WHERE Tag = 'TXT_KEY_LEADER_WILLIAM_AGREE_SHORT_2';

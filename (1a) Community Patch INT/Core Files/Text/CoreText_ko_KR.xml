@@ -7749,10 +7749,6 @@
 		<Row Tag="TXT_KEY_BUILD_BLOCKED_RESOURCE_REQUIRED">
 			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@4_ImprovementName:textkey}}의 건설에는 {1_Num} {2_ResourceIcon} {3_ResourceName:textkey}이 요구됩니다.</Text>
 		</Row>
-		<!-- Build blocked -->
-		<Row Tag="TXT_KEY_BUILD_BLOCKED_RESOURCE_REQUIRED">
-			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@4_ImprovementName:textkey}}의 건설에는 {1_Num} {2_ResourceIcon} {3_ResourceName:textkey}이 요구됩니다.</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_NUKE_STRIKE_AFFECTED">
 			<Text>{1_CIV}의 핵무기에 맞았습니다.</Text>

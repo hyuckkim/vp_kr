@@ -29,9 +29,9 @@
     <Mod id="781d81cf-49e1-4acb-ae5f-b9e3713f98d3" minversion="0" maxversion="999" title="(1a) Civ IV Diplomatic Features - CP" />
   </Blocks>
   <Files>
-    <File md5="efffbf4d19250e75d6f1dd5a193381a7" import="0">XML/Text/ko_KR/ko_KR_Text_CivilopediaC4DF.xml</File>
-    <File md5="46edf03d99d84fea83fe5d12197895c9" import="0">XML/Text/ko_KR/ko_KR_Text_Generic_DiplomacyC4DF.xml</File>
-    <File md5="f6bb7354937015515618b56087187440" import="0">XML/Text/ko_KR/ko_KR_Text_UIC4DF.xml</File>
+    <File md5="70D58C7ADCD672DE7836A36633A0B7C7" import="0">XML/Text/ko_KR/ko_KR_Text_CivilopediaC4DF.xml</File>
+    <File md5="7E150B91AA2DBD44FAEA1419550B8B32" import="0">XML/Text/ko_KR/ko_KR_Text_Generic_DiplomacyC4DF.xml</File>
+    <File md5="37AACDC58A5E7B2276625FC987E5E383" import="0">XML/Text/ko_KR/ko_KR_Text_UIC4DF.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

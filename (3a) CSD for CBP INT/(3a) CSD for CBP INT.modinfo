@@ -28,21 +28,21 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="9D8BDFCDC8EB4C3486B8CF9FC2004660" import="0">Buildings/ko_KR/BuildingRules.sql</File>
-    <File md5="789C2E141B4172741A6042E7FADED0C0" import="0">Buildings/ko_KR/BuildingText.xml</File>
-    <File md5="7F3A24B34711CE0C6E183D0EF3F69CDA" import="0">Buildings/ko_KR/DiploBuildingText.sql</File>
-    <File md5="AED054314BCC0255DBD7F53320441112" import="0">Buildings/ko_KR/VanillaBuildingChanges.sql</File>
-    <File md5="E8F2C8E2830F8B5265710953E3C7A68B" import="0">Gameplay/ko_KR/GameplayText.sql</File>
-    <File md5="D31BFDDDA6C0409AA21A5FF8B88FE67A" import="0">Improvements/ko_KR/ImprovementText.xml</File>
-    <File md5="48379E4FAA55F6778FDFF7F17862ACC6" import="0">Promotions/ko_KR/PromotionText.xml</File>
-    <File md5="32D1AC34FB7E64C8FEDA7107E0334796" import="0">Quests/ko_KR/CityStateQuest.xml</File>
-    <File md5="46176788CF23E82E91C0E18D16A6651C" import="0">Resource/ko_KR/Paper.xml</File>
-    <File md5="755DB618C9543072FD0F2A3CE48FFFE0" import="0">Specialist/ko_KR/CivilServant.xml</File>
-    <File md5="3AFC3F74EF01F6CBB8E1128FE245FC97" import="0">Units/ko_KR/GreatDiplomats.xml</File>
-    <File md5="E0829EBE516E3B95CDD8B48EA2490A8B" import="0">Units/ko_KR/UnitText.xml</File>
-    <File md5="38EAB4B34008A1796B6114A2AF2AD05B" import="0">World Congress/ko_KR/Congress.xml</File>
-    <File md5="ADBEC7C973DBE2098AFF6F6C0365BA58" import="0">World Congress/ko_KR/IdeologyChanges.sql</File>
-    <File md5="026C453C428297857D8F335B5A37376A" import="0">World Congress/ko_KR/Projects.xml</File>
+    <File md5="F87F58CBA2B0236CD0945D01223609A0" import="0">Buildings/ko_KR/BuildingRules.sql</File>
+    <File md5="90062CED1320E6950326E2CBA6A10E49" import="0">Buildings/ko_KR/BuildingText.xml</File>
+    <File md5="C0BF16950ACE56FE12A231EC5A1A87F6" import="0">Buildings/ko_KR/DiploBuildingText.sql</File>
+    <File md5="57376DF142F3C6D5BC32DD02AE7101D7" import="0">Buildings/ko_KR/VanillaBuildingChanges.sql</File>
+    <File md5="38F9B3E36D9DA9EBA04893DD5A2CEC7C" import="0">Gameplay/ko_KR/GameplayText.sql</File>
+    <File md5="33E2957441755E4A011DF1CB840179AD" import="0">Improvements/ko_KR/ImprovementText.xml</File>
+    <File md5="AE3EB2107FEEC4D1097C1A9F5AFB03FD" import="0">Promotions/ko_KR/PromotionText.xml</File>
+    <File md5="83B3A204A02185A99F60C92A1F2432D4" import="0">Quests/ko_KR/CityStateQuest.xml</File>
+    <File md5="F69777C62B75D237E72113D6DCA19E86" import="0">Resource/ko_KR/Paper.xml</File>
+    <File md5="9C53850EA17B35AACDCAA5A06CB454E7" import="0">Specialist/ko_KR/CivilServant.xml</File>
+    <File md5="0795FE1DB18A34F59F6F1A89522C4C2D" import="0">Units/ko_KR/GreatDiplomats.xml</File>
+    <File md5="25EF8C9137FBF0806A8276B39B6D2D05" import="0">Units/ko_KR/UnitText.xml</File>
+    <File md5="D20E73FBB08D549E1D60F5F2CC98E409" import="0">World Congress/ko_KR/Congress.xml</File>
+    <File md5="434C80D04F8A1064D5124DE6214210D4" import="0">World Congress/ko_KR/IdeologyChanges.sql</File>
+    <File md5="43E9BDB17671C9029EC77E1D80A58570" import="0">World Congress/ko_KR/Projects.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
