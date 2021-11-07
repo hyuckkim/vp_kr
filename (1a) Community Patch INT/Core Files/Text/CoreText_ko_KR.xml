@@ -2963,7 +2963,7 @@
 			<Text>미지의 지역을 탐험하십시오 ([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 완료)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_BUILD_X_BUILDINGS_FORMAL">
-			<Text>{@1_Building} [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]를 건설하십시오. ({2_Num}개 건설됨)</Text>
+			<Text>{@1_Building} [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]를 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_STEAL_FROM_FORMAL">
 			<Text>{1_Civ}에 대한 첩보 활동을 수행하십시오 ([COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 남음)</Text>
@@ -7516,7 +7516,7 @@
 			<Text>{1_Title} {2_Name}의 메시지를 해독했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_MISSION_SOON">
-			<Text>{1_Title} {2_Name}{1: plural 1?이; 2?가;} 보낸 메시지에는 {3_City}에서 미션을 수항핼 준비가 완려되었다고 쓰여 있었습니다.</Text>
+			<Text>{1_Title} {2_Name}{1: plural 1?이; 2?가;} 보낸 메시지에는 {3_City}에서 미션을 수항핼 준비가 완료되었다고 쓰여 있었습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_BASE_POWER">
