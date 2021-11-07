@@ -930,7 +930,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_CULTURE]무료에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_DEFENSE">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_FOOD]과[ICON_PRODUCTION]곤경에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_GOLD">
 			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_GOLD]빈곤에서 획득</Text>
@@ -985,7 +985,7 @@
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 무료에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_CULTURE][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_CULTURE]{5_Num:number "#.##"} 증가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 곤경에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_FOOD]과[ICON_PRODUCTION][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_FOOD]/[ICON_PRODUCTION]{5_Num:number "#.##"} 증가 </Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 곤경에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_FOOD]/[ICON_PRODUCTION][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_FOOD]/[ICON_PRODUCTION]{5_Num:number "#.##"} 증가 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOLD_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 빈곤에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_GOLD][COLOR_CYAN]{2_Num}[ENDCOLOR][NEWLINE]           [ICON_HAPPINESS_3]-1 마다 [ICON_GOLD]{5_Num:number "#.##"} 증가</Text>
@@ -1039,7 +1039,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리는 [ICON_RESEARCH]문맹입니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_UNDEFENDED">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_FOOD]과[ICON_PRODUCTION]곤경에 빠졌습니다!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_FOOD]/[ICON_PRODUCTION]곤경에 빠졌습니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_POOR">
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리 도시가 [ICON_GOLD]빈곤합니다!"</Text>

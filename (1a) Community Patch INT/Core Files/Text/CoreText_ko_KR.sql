@@ -615,11 +615,11 @@ WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_PRODUCTION_TT';
 
 -- World Congress Proposals, Which Civs benefit
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][NEWLINE]이 안건을 상정할 경우 관계가 향상될 문명:'
+SET Text = '[NEWLINE][NEWLINE]이 안건을 상정할 경우 관계가 [COLOR_POSITIVE_TEXT]향상될[ENDCOLOR] 문명:'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_POSITIVE';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][NEWLINE]이 안건을 상정할 경우 관계가 악회될 문명:'
+SET Text = '[NEWLINE][NEWLINE]이 안건을 상정할 경우 관계가 [COLOR_NEGATIVE_TEXT]악회될[ENDCOLOR] 문명:'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEGATIVE';
 
 -- Discuss Text
