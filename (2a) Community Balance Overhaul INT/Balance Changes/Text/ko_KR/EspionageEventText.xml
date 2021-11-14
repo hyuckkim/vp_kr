@@ -15,7 +15,7 @@
 			<Text>{1_Rank} {2_Spy}: 작전 취소됨!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AA_EVENT_INVALID_TT">
-			<Text>{3_City}에서 {1_Rank} {2_Spy}가 도시의 최근 변화에 의해 작전을 취소했습니다. 스파이에게 새로운 작전을 지시하십시오.</Text>
+			<Text>{3_City}에서 {1_Rank} {2_Spy}{2_Spy: plural 1?이; 2?가;} 도시의 최근 변화에 의해 작전을 취소했습니다. 스파이에게 새로운 작전을 지시하십시오.</Text>
 		</Row>
 		
 		<!-- FOCUS OPTIONS -->
@@ -136,10 +136,10 @@
 		
 		<!-- Notifications -->
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS">
-			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName} 가 임무를 완료했습니다![NEWLINE][NEWLINE]{4_EventChoiceHelpText}</Text>
+			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 임무를 완료했습니다![NEWLINE][NEWLINE]{4_EventChoiceHelpText}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS_S">
-			<Text>{3_CityName} {1_SpyRank} {2_SpyName} 가 성공했습니다!</Text>
+			<Text>{3_CityName} 에서{1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 성공했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_SPY_DETECTED">
