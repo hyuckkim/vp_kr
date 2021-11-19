@@ -299,7 +299,7 @@
 			<Text>{1_PlyrName}{1: plural 1?은; 2?는;} 더 이상 {2_PlyrName}의 종속국이 아닙니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_TAXES_AVAILABLE">
-			<Text>{1_PlyrName}{1: plural 1?이; 2?가;} 종속국 세금을 변경할 수 있습니다.</Text>
+			<Text>{1_PlyrName}의 종속국 세금을 변경할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_INCREASED_SUMMARY">
 			<Text>세금 상승!</Text>
@@ -517,7 +517,7 @@
 			<Text>종속국의 세율 변경을 적용합니다. 다음 턴에 적용될 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_CONFIRM_TAX_CHANGE">
-			<Text>{1_TaxRate}에서 {2_TeamName}로의 세율 변경을 적용하시겠습니까? 세율을 변경하면 {3_NumTurns}턴간 다시 변경할 수 없습니다. 세율 변경은 다음 턴에 적용될 것입니다. [COLOR_WARNING_TEXT]이 결정은 취소할 수 없습니다.[ENDCOLOR]</Text>
+			<Text>{2_TeamName}에 대한 {1_TaxRate}에서의 세율 변경을 적용하시겠습니까? 세율을 변경하면 {3_NumTurns}턴간 다시 변경할 수 없습니다. 세율 변경은 다음 턴에 적용될 것입니다. [COLOR_WARNING_TEXT]이 결정은 취소할 수 없습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_CONFIRM_LIBERATE">
 			<Text>{1_TeamName}{1: plural 1?을; 2?를;} 해방하시겠습니까? 당신의 통제 하에 있는 모든 문명이 해방될 것입니다. [COLOR_WARNING_TEXT]이 결정은 취소할 수 없습니다.[ENDCOLOR]</Text>
