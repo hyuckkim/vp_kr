@@ -75,35 +75,35 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_UNMET_TT';
 -- Difficulty Names
 
 UPDATE Language_ko_KR
-SET Text = 'Easy. The AI is at a slight disadvantage.'
+SET Text = '쉬운 난이도입니다. AI는 약간 불리한 조건에서 게임을 진행합니다.'
 WHERE Tag = 'TXT_KEY_HANDICAP_SETTLER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'A standard challenge. The AI receives a few bonuses.'
+SET Text = '일반적인 난이도입니다. AI는 약간 유리한 조건에서 게임을 진행합니다.'
 WHERE Tag = 'TXT_KEY_HANDICAP_CHIEFTAIN_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'A little challenging. The AI receives noticeable bonuses.'
+SET Text = '조금 어려운 난이도입니다. AI는 조금 유리한 조건에서 게임을 진행합니다.'
 WHERE Tag = 'TXT_KEY_HANDICAP_WARLORD_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'A good test of skill. The AI has many advantages.'
+SET Text = '솜씨를 확인하기 위한 난이도입니다. AI는 유리한 조건에서 게임을 진행합니다.'
 WHERE Tag = 'TXT_KEY_HANDICAP_PRINCE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Quite hard. The AI has major bonuses.'
+SET Text = '상당히 어려운 난이도입니다. AI는 유리한 조건에서 게임을 진행합니다.'
 WHERE Tag = 'TXT_KEY_HANDICAP_KING_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Very difficult. The AI has substantial bonuses.'
+SET Text = '극도로 어려운 난이도입니다. AI는 매우 유리한 조건에서 게임을 진행합니다.'
 WHERE Tag = 'TXT_KEY_HANDICAP_EMPEROR_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Extremely challenging. AI players have very large advantages.'
+SET Text = '도전적인 난이도입니다. AI는 매우 유리한 조건에서 게임을 진행합니다.'
 WHERE Tag = 'TXT_KEY_HANDICAP_IMMORTAL_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The AI has massive bonuses at all stages of the game. You have been warned!'
+SET Text = 'AI들이 모든 단계마다 엄청난 보너스를 받습니다. 경고했습니다!'
 WHERE Tag = 'TXT_KEY_HANDICAP_DEITY_HELP';
 
 -- Top Panel Tooltip Adjustment (make generic for more than just founder beliefs)
