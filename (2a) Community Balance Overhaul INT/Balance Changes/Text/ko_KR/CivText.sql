@@ -1146,7 +1146,7 @@ SET Text = 'This is a Songhai unique unit, replacing the Knight. This unit gains
 WHERE Tag = 'TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '기마병을 대체하는 송가이의 고유 유닛입니다. 강력한 중세 시대 기마 유닛으로 장창병에 약합니다. 기사와 달리 도시 공격 페널티가 없으며 [COLOR_PLAYER_PURPLE]침입자[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '기사를 대체하는 송가이의 고유 유닛입니다. 강력한 중세 시대 기마 유닛으로 장창병에 약합니다. 기사와 달리 도시 공격 페널티가 없으며 [COLOR_PLAYER_PURPLE]침입자[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
