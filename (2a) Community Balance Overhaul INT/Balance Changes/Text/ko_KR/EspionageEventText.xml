@@ -139,7 +139,7 @@
 			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 임무를 완료했습니다![NEWLINE][NEWLINE]{4_EventChoiceHelpText}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS_S">
-			<Text>{3_CityName} 에서{1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 성공했습니다!</Text>
+			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 성공했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_SPY_DETECTED">
