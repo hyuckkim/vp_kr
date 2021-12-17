@@ -459,6 +459,12 @@
 		<Row Tag="TXT_KEY_VO_TREATMENT_DEMAND">
 			<Text>종속국에게 요구: {1_Num}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_STEALING">
+			<Text>종속국에서 훔침: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_DENOUNCING">
+			<Text>종속국을 비난: {1_Num}</Text>
+		</Row>
 		<Row Tag="TXT_KEY_VO_TREATMENT_TAX">
 			<Text>현재 세금 정책: {1_Num}</Text>
 		</Row>
@@ -470,6 +476,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_VO_TREATMENT_TRADE_ROUTE">
 			<Text>종속국과의 교역로: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_TREATMENT_OPEN_BORDERS">
+			<Text>국경 개방: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_TREATMENT_TOTAL">
 			<Text>총: {1_Sum}</Text>
@@ -717,7 +726,7 @@
 			<Text>[ICON_BULLET] 국경 개방</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_BENEFITS_RELIGION_MOD">
-			<Text>[ICON_BULLET] [ICON_PEACE] 종교 압력 두 배</Text>
+			<Text>[ICON_BULLET] [ICON_PEACE] 종교 압력 +100%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_BENEFITS_TOURISM_MOD">
 			<Text>[ICON_BULLET] [ICON_TOURISM] 관광 전파 속도 +33%</Text>

@@ -24,7 +24,7 @@
 			<Text>{TXT_KEY_TOPIC_MONOPOLY}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MONOPOLY_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]독점[ENDCOLOR]은 Community Balance Patch에서 추가된 새로운 게임 플레이 요소 중 하나입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 사치 자원 독점[ENDCOLOR]: the essence of the Monopoly system is expansion: as your empire expands throughout the game (either through combat or settlement), be on the lookout for Luxury resources that you already have copies of. AS you collect more and more copies of the same Luxury Resources, the percentage of global resources you control goes up. If this value goes over 50% (i.e. you control more than 50% of the world's supply of any resource), you gain a Global Monopoly over that Resource. Each Global Monopoly has a unique bonus - some grant additional yields to your tiles, whereas others boost City yields by a set percentage (see the Resource section of the Civilopedia for details).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 전략 자원 독점[ENDCOLOR]: Strategic Resources operate the same way as Luxury Resources with regards to Monopolies, with one major exception. Due to the vast abundance of these resources, a true 50% Monopoly can be quite difficult. As a result, Strategic Resources have two tiers: 'Strategic' Monopolies and 'True' Monopolies. Strategic Monopolies occur at 25%, and generate special combat bonuses (such as increased health regeneration or increase defense). True Monopolies occur at 50% and, like Luxury Monopolies, they generate bonuses to City and/or tile yields.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]독점[ENDCOLOR]은 Community Balance Overhaul에서 추가된 새로운 게임 플레이 요소 중 하나입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 사치 자원 독점[ENDCOLOR]: the essence of the Monopoly system is expansion: as your empire expands throughout the game (either through combat or settlement), be on the lookout for Luxury resources that you already have copies of. AS you collect more and more copies of the same Luxury Resources, the percentage of global resources you control goes up. If this value goes over 50% (i.e. you control more than 50% of the world's supply of any resource), you gain a Global Monopoly over that Resource. Each Global Monopoly has a unique bonus - some grant additional yields to your tiles, whereas others boost City yields by a set percentage (see the Resource section of the Civilopedia for details).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 전략 자원 독점[ENDCOLOR]: Strategic Resources operate the same way as Luxury Resources with regards to Monopolies, with one major exception. Due to the vast abundance of these resources, a true 50% Monopoly can be quite difficult. As a result, Strategic Resources have two tiers: 'Strategic' Monopolies and 'True' Monopolies. Strategic Monopolies occur at 25%, and generate special combat bonuses (such as increased health regeneration or increase defense). True Monopolies occur at 50% and, like Luxury Monopolies, they generate bonuses to City and/or tile yields.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MONOPOLY_QUESTION">
 			<Text>자원 독점이란 무엇입니까?</Text>
@@ -39,7 +39,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]기업[ENDCOLOR]은 Community Balance Patch에서 추가된 새로운 게임 플레이 요소 중 하나입니다. They can have a great impact on your empire's economic development, especially in the later part of a game.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 설립[ENDCOLOR]: There are seven distinct Corporations in the game, each of which becomes available once you have researched the Corporations Technology during the Modern Age. Each Corporation has a specific set of Resource Monopolies that it relies upon - if you do not have at least one of these Resource Monopolies, you will not be able to found the Corporation. Once these two requirements are met, you need to construct the 'Headquarters' of the Corporation in one of your Cities. These buildings are World Wonders, so only one player in the world may found each Corporation! Furthermore, once you have founded a Corporation, you cannot found another one, so make sure you like the one you pick![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 오피스 설립[ENDCOLOR]: Once you have founded your Corporation, you can begin establishing Corporate Offices in each of your Cities. These buildings come with special bonuses similar to your Corporation's Headquarters, and are thus worthwhile to construct on their own. Most bonuses from Corporations scale with the number of Cities you own, so larger empires benefit greatly from founding a Corporation and building as many Offices as possible!</Text>
+			<Text>[COLOR_POSITIVE_TEXT]기업[ENDCOLOR]은 Community Balance Overhaul에서 추가된 새로운 게임 플레이 요소 중 하나입니다. They can have a great impact on your empire's economic development, especially in the later part of a game.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 설립[ENDCOLOR]: There are seven distinct Corporations in the game, each of which becomes available once you have researched the Corporations Technology during the Modern Age. Each Corporation has a specific set of Resource Monopolies that it relies upon - if you do not have at least one of these Resource Monopolies, you will not be able to found the Corporation. Once these two requirements are met, you need to construct the 'Headquarters' of the Corporation in one of your Cities. These buildings are World Wonders, so only one player in the world may found each Corporation! Furthermore, once you have founded a Corporation, you cannot found another one, so make sure you like the one you pick![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 오피스 설립[ENDCOLOR]: Once you have founded your Corporation, you can begin establishing Corporate Offices in each of your Cities. These buildings come with special bonuses similar to your Corporation's Headquarters, and are thus worthwhile to construct on their own. Most bonuses from Corporations scale with the number of Cities you own, so larger empires benefit greatly from founding a Corporation and building as many Offices as possible!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_QUESTION">
 			<Text>기업이란 무엇입니까?</Text>
@@ -63,7 +63,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_TYPES}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_CORPORATION_TYPES_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]기업 종류[ENDCOLOR]: there are seven Corporations avaialable in the Community Balance Patch. Each of these can only be constructed once (and only one per player), so choose wisely! For more on this, see the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] Tab of the Civilopedia.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]기업 종류[ENDCOLOR]: there are seven Corporations avaialable in the Community Balance Overhaul. Each of these can only be constructed once (and only one per player), so choose wisely! For more on this, see the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] Tab of the Civilopedia.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TYPES_QUESTION">
 			<Text>내 기업을 어떻게 확장시키나요?</Text>
@@ -515,7 +515,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in Foreign Cities if you were the founder of Trader Sid's. To construct this building in a foreign City, send a Trade Route from an owned City with a Trader Sid's Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed.</Text>
+			<Text>This building can only be constructed in foreign Cities if you were the founder of Trader Sid's. To construct this building in a foreign City, send a Trade Route from an owned City with a Trader Sid's Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP">
 			<Text>도시 주변 시드 무역과 관련된 모든 독점 자원의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 시드 무역 오피스에 대한 수익을 창출합니다.</Text>
@@ -564,7 +564,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in Foreign Cities if you were the founder of Centaurus Extractors. To construct this building in a foreign City, send a Trade Route from an owned City with a Centaurus Extractors Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed.</Text>
+			<Text>This building can only be constructed in foreign Cities if you were the founder of Centaurus Extractors. To construct this building in a foreign City, send a Trade Route from an owned City with a Centaurus Extractors Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP">
 			<Text>도시 주변 센타우리 개발와 관련된 모든 독점 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 센타우리 개발 오피스에 대한 수익을 창출합니다.</Text>
@@ -613,7 +613,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in Foreign Cities if you were the founder of Hexxon Refineries. To construct this building in a foreign City, send a Trade Route from an owned City with a Hexxon Refineries Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed.</Text>
+			<Text>This building can only be constructed in foreign Cities if you were the founder of Hexxon Refineries. To construct this building in a foreign City, send a Trade Route from an owned City with a Hexxon Refineries Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_HELP">
 			<Text>도시 주변 헥손 정유와 관련된 모든 독점 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 헥손 정유 오피스에 대한 수익을 창출합니다.</Text>
@@ -668,7 +668,7 @@
 			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in Foreign Cities if you were the founder of Giorgio Armeier . To construct this building in a foreign City, send a Trade Route from an owned City with a Giorgio Armeier Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed.</Text>
+			<Text>This building can only be constructed in foreign Cities if you were the founder of Giorgio Armeier . To construct this building in a foreign City, send a Trade Route from an owned City with a Giorgio Armeier Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_HELP">
 			<Text>도시 주변 조르지오 아르미에와 관련된 모든 독점 자원의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 조르지오 아르미에 오피스에 대한 수익을 창출합니다.</Text>
@@ -720,7 +720,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in Foreign Cities if you were the founder of Firaxite Materials. To construct this building in a foreign City, send a Trade Route from an owned City with a Firaxite Materials Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed.</Text>
+			<Text>This building can only be constructed in foreign Cities if you were the founder of Firaxite Materials. To construct this building in a foreign City, send a Trade Route from an owned City with a Firaxite Materials Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_HELP">
 			<Text>도시 주변 파이락사이트 소재와 관련된 모든 독점 자원의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 파이락사이트 소재 오피스에 대한 수익을 창출합니다.</Text>
@@ -769,7 +769,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in Foreign Cities if you were the founder of TwoKay Foods. To construct this building in a foreign City, send a Trade Route from an owned City with a TwoKay Foods Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed.</Text>
+			<Text>This building can only be constructed in foreign Cities if you were the founder of TwoKay Foods. To construct this building in a foreign City, send a Trade Route from an owned City with a TwoKay Foods Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_HELP">
 			<Text>도시 주변 투케이 푸드와 관련된 모든 독점 자원의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 투케이 푸드 오피스에 대한 수익을 창출합니다.</Text>
@@ -818,7 +818,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in Foreign Cities if you were the founder of Civilized Jewelers. To construct this building in a foreign City, send a Trade Route from an owned City with a Civilized Jewelers Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed.</Text>
+			<Text>This building can only be constructed in foreign Cities if you were the founder of Civilized Jewelers. To construct this building in a foreign City, send a Trade Route from an owned City with a Civilized Jewelers Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP">
 			<Text>도시 주변 시빌 보석과 관련된 모든 독점 자원의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 시빌 보석 오피스에 대한 수익을 창출합니다.</Text>

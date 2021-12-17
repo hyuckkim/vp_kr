@@ -22,7 +22,7 @@ WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT
 
 -- Razing
 UPDATE Language_ko_KR	
-SET Text = '도시를 [COLOR_POSITIVE_TEXT]불태우면[ENDCOLOR] 매 턴 [ICON_CITIZEN]시민이 줄어들며, [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다. [NEWLINE][NEWLINE]도시를 불태우는 것는 상당히 많은 [ICON_HAPPINESS_4]불행을 야기할 뿐만 아니라 상대 문명에 대항하는 당신 문명의 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR] 또한 증가시킵니다.'
+SET Text = '도시를 [COLOR_POSITIVE_TEXT]불태우면[ENDCOLOR] 매 턴 [ICON_CITIZEN]시민이 줄어들며, [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다. [NEWLINE][NEWLINE]도시를 불태우는 것은 [ICON_HAPPINESS_4]불행을 야기할 뿐만 아니라 상대 문명에 대항하는 당신 문명의 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR] 또한 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- Production Queue
@@ -615,25 +615,12 @@ WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_PRODUCTION_TT';
 
 -- World Congress Proposals, Which Civs benefit
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][NEWLINE]이 안건을 상정할 경우 관계가 [COLOR_POSITIVE_TEXT]향상될[ENDCOLOR] 문명:'
+SET Text = '[NEWLINE][NEWLINE]이 안건으로 관계가 [COLOR_POSITIVE_TEXT]향상될[ENDCOLOR] 문명:'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_POSITIVE';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][NEWLINE]이 안건을 상정할 경우 관계가 [COLOR_NEGATIVE_TEXT]악회될[ENDCOLOR] 문명:'
+SET Text = '[NEWLINE][NEWLINE]이 안건으로 관계가 [COLOR_NEGATIVE_TEXT]악회될[ENDCOLOR] 문명:'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEGATIVE';
-
--- Discuss Text
-UPDATE Language_ko_KR
-SET Text = '내 근처에 새로운 도시를 세우지 마시오.'
-WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_MESSAGE_DONT_SETTLE';
-
-UPDATE Language_ko_KR
-SET Text = '사과드리겠소. 앞으로 귀하 주변에 정착하는 것을 피하겠소.'
-WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SETTLING';
-
-UPDATE Language_ko_KR
-SET Text = '우리는 우리가 원하는 곳에 도시를 세울 것이오.'
-WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_SETTLE_WHAT_WE_PLEASE';
 
 -- Diplo Opinion Table Modifiers
 
@@ -761,7 +748,7 @@ WHERE Tag = 'TXT_KEY_DIPLO_CAUGHT_STEALING';
 
 -- Player has asked us to do things we don't like
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]당신의 영토 근처에 정착하지 말라고 요구했습니다![ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]당신의 영토 근처에 개척하지 말라고 요구했습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_NO_SETTLE_ASKED';
 
 UPDATE Language_ko_KR
@@ -811,11 +798,11 @@ SET Text = '[COLOR_NEGATIVE_TEXT]당신은 이들의 국경 밖에 배치한 군
 WHERE Tag = 'TXT_KEY_DIPLO_MILITARY_PROMISE_IGNORED';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]당신은 이들의 영토 근처에 확장을 그만둔다고 한 약속을 어겼습니다![ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]당신은 이들의 영토 근처에 개척을 그만둔다고 한 약속을 어겼습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_EXPANSION_PROMISE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_NEGATIVE_TEXT]당신은 이들의 영토 근처에 확장을 그만 해달라는 요청을 무시했습니다![ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]당신은 이들의 영토 근처에 개척을 그만 해달라는 요청을 무시했습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_EXPANSION_PROMISE_IGNORED';
 
 UPDATE Language_ko_KR

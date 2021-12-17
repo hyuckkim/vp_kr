@@ -3171,7 +3171,7 @@
 			<Text>{1_Num}턴 동안 당신이 그들에게 전쟁을 선포하지 않기로 약속했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_TURNS">
-			<Text>{1_Num}턴 동안 그들과 가까운 곳에 도시를 확장하지 않기로 약속했습니다.</Text>
+			<Text>{1_Num}턴 동안 그들과 가까운 곳에 도시를 개척하지 않기로 약속했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
 			<Text>{1_Num}턴 동안 그들과 가까운 영토를 구매하지 않기로 약속했습니다.</Text>
@@ -3180,7 +3180,7 @@
 			<Text>{1_Num}턴 동안 그들이 당신에게 전쟁을 선포하지 않기로 약속했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_AI_EXPANSION_PROMISE_TURNS">
-			<Text>{1_Num}턴 동안 당신의 주변에 정착하지 않기로 약속했습니다.</Text>
+			<Text>{1_Num}턴 동안 당신의 주변에 개척하지 않기로 약속했습니다.</Text>
 		</Row>
 		<!-- Tourism Lua -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">

@@ -301,18 +301,9 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]당 지도부[ENDCOLOR]: 모든 도시의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Patriotic War
 UPDATE Language_ko_KR
-SET Text = '게릴라 전투'
-WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
-
-UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]게릴라 전투[ENDCOLOR]: 우호 영토 내 전투 시 군사 유닛의 전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 경험치가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [COLOR_YELLOW]게릴라[ENDCOLOR] 유닛을 생산할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]대조국전쟁[ENDCOLOR]: 도시 안 또는 인접 시 군사 유닛의 전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 도시를 처음 정복하면, 모든 군사 유닛이 최대 체력으로 회복됩니다. [COLOR_YELLOW]T-34[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
-
-UPDATE Language_ko_KR
-SET Text = 'Guerrilla warfare is a form of irregular warfare in which a small group of combatants such as armed civilians or irregulars use military tactics including ambushes, sabotage, raids, petty warfare, hit-and-run tactics, and mobility to fight a larger and less-mobile traditional military.'
-WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Resettlement
 
@@ -713,11 +704,11 @@ WHERE Tag = 'TXT_KEY_POLICY_PROFESSIONALARMY_TEXT' AND EXISTS (SELECT * FROM COM
 
 -- Foreign Legion Text
 UPDATE Language_ko_KR
-SET Text = '현대 시대의 특수 보병 유닛입니다. 우호 영토 밖에서 [ICON_STRENGTH]전투력 보너스가 증가하는 것 외에는 소총병과 매우 비슷합니다. 구매 시 승급에 필요한 충분한 경험치를 제공합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]권위[ENDCOLOR] 계열 완성 후 [ICON_GOLD]골드로 구매할 수 있습니다.'
+SET Text = '산업 시대의 특수 보병 유닛입니다. 우호 영토 밖에서 [ICON_STRENGTH]전투력 보너스가 증가하는 것 외에는 수발총병과 매우 비슷합니다. 구매 시 승급에 필요한 충분한 경험치를 제공합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]권위[ENDCOLOR] 계열 완성 후 [ICON_GOLD]골드로 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_FOREIGN_LEGION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'The Foreign Legion is a special Modern Era unit that may only be purchased with [ICON_GOLD] Gold after completing the Authority Policy Branch. It receives a significant combat bonus when operating outside of home territory, making it an excellent unit to use to gain control of foreign lands.'
+SET Text = 'The Foreign Legion is a special Industrial Era unit that may only be purchased with [ICON_GOLD] Gold after completing the Authority Policy Branch. It receives a significant combat bonus when operating outside of home territory, making it an excellent unit to use to gain control of foreign lands.'
 WHERE Tag = 'TXT_KEY_UNIT_FRENCH_FOREIGNLEGION_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 --------------------
