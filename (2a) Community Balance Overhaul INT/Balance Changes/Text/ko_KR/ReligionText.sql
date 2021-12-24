@@ -536,7 +536,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Pilgrimage (Now Apostolic Tradition)
 UPDATE Language_ko_KR
-SET Text = '[ICON_RELIGION]종교 전파 시 +20 [ICON_FOOD]식량을 성도에 제공합니다. (새로운 신도 수에 따라 보정) 새로운 [ICON_RESEARCH]기술을 연구하면, [ICON_RELIGION]종교의 신도마다 2 [ICON_PEACE]신앙을 제공합니다. (한도: 250명) [NEWLINE][COLOR_POSITIVE_TEXT]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +4 [ICON_GOLDEN_AGE] 황금기 점수;  [ICON_RELIGION]성지에서 +5 [ICON_GOLDEN_AGE] 황금기 점수; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '[ICON_RELIGION]종교 전파 시 +20 [ICON_FOOD]식량을 성도에 제공합니다. (새로운 신도 수에 따라 보정) 새로운 [ICON_RESEARCH]기술을 연구하면, [ICON_RELIGION]종교의 신도마다 2 [ICON_PEACE]신앙을 제공합니다. (한도: 250명) [NEWLINE][COLOR_YELLOW]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +4 [ICON_GOLDEN_AGE] 황금기 점수;  [ICON_RELIGION]성지에서 +5 [ICON_GOLDEN_AGE] 황금기 점수; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_ko_KR
