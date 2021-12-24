@@ -52,7 +52,7 @@
 			<Text>다른 하시엔다와 서로 인접하여 건설할 수 없습니다.	[ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드가 증가하고 인접한 다음 타일들이 하시엔다에 추가 산출량을 제공합니다: [NEWLINE]보너스 자원 : +2 [ICON_FOOD]식량[NEWLINE]전략 자원 : +2 [ICON_PRODUCTION]생산[NEWLINE]사치 자원 : +2 [ICON_GOLD]골드[NEWLINE]도시 : +2 [ICON_CULTURE]문화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA">
-			<Text>[LINK=IMPROVEMENT_SPAIN_HACIENDA]하시엔다[\LINK] 건설'</Text>
+			<Text>[LINK=IMPROVEMENT_SPAIN_HACIENDA]하시엔다[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_HELP">
 			<Text>현재 타일에 하시엔다를 건설합니다. [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드가 증가합니다. 보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE]문화를 제공합니다.</Text>
