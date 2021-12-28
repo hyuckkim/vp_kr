@@ -749,7 +749,7 @@ SET Text = '[COLOR_RESEARCH_STORED]수학[ENDCOLOR]을 연구하면 마야 장�
 WHERE Tag = 'TXT_KEY_TRAIT_LONG_COUNT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '합성궁병을 대체하는 마야의 고유 유닛입니다. 일반 합성궁병보다 이른 시기부터 사용할 수 있으며 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
+SET Text = '합성궁병을 대체하는 마야의 고유 유닛입니다. 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_ko_KR
