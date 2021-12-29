@@ -3363,6 +3363,11 @@
 		<Row Tag="TXT_KEY_DIPLO_UNTRUSTWORTHY_FRIEND">
 			<Text>우리는 그들을 완전하게 신뢰할 수 없습니다.</Text>
 		</Row>
+		<!-- Opinion Indicator If Coop War Agreed To Against Them -->
+		<Row Tag="TXT_KEY_DIPLO_COOP_WAR_AGAINST_TURNS">
+			<Text>우리는 {1_Num}턴 후에 그들에게 전쟁을 선포합니다.</Text>
+		</Row>
+
 		<!-- Base Opinion Mod -->
 		<Row Tag="TXT_KEY_DIPLO_VERY_GOOD_BASE_OPINION">
 			<Text>[COLOR_POSITIVE_TEXT]난이도에 의해 외교가 매우 쉬워집니다![ENDCOLOR]</Text>
