@@ -6689,7 +6689,7 @@
 			<Text>정보 기관은 {1_PlayerName}{1: plural 1?이; 2?가;} {2_CivName}에게 {3_CivName}{3: plural 1?을; 2?를;} 향한 전쟁을 사주했다고 보고했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_WAR_OTHER_S">
-			<Text>{1_CivName}{1: plural 1?이; 2?가;} {2_CivName}에게 전쟁을 선포했습니다!</Text>
+			<Text>{1_CivName}{1: plural 1?이; 2?가;} {2_CivName}를 향해 전쟁을 사주했습니다!</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_THIRD_PARTY_BROKER_PEACE_NAME">
