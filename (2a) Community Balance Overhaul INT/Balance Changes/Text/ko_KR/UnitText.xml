@@ -215,7 +215,7 @@
 			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
-			<Text>퇴각 금지</Text>
+			<Text>전-진!</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK">
@@ -469,18 +469,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_COMMANDO_TEXT">
 			<Text>A Commando is an elite light infantry specialized in attacking high-value targets and front-line reconnaissance. The term entered common usage after the Boer Wars and the Great Trek, where Boer Kommando militia employed guerilla and asymmetric tactics to great success against the Xhosa, Zulu, and British armies.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_ZEPPELIN_CBP">
-			<Text>비행선</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_ZEPPELIN_STRATEGY_CBP">
-			<Text>Dirigible are a useful ranged exploration unit that appears during the Industrial Era. Although tough and mobile, they can only attack Cities, and cannot defend themselves. Their reconaissance abilities are unparalleled, especially due to their ability to hover.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_HELP_ZEPPELIN_CBP">
-			<Text>산업 시대 원거리 정찰 유닛으로 국경 주변을 감시 또는 탐험할 수 있습니다. 산과 바다 타일을 통과할 수 있습니다. 도시만 공격할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_ZEPPELIN_TEXT_CBP">
-			<Text>The oldest form of controlled powered flight is the airship, which was originally called the Dirigible Balloon. The first Dirigible was flown from Paris to Élancourt in 1852 by Henri Giffard. It used hydrogen gas and was powered by a steam engine propeller.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_FRIENDLY_CITY_BELIEF_BONUS_CBP">
 			<Text>신앙의 수호자</Text>
@@ -951,7 +939,7 @@
 			<Text>거대함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MECH_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+100[ENDCOLOR][NEWLINE]근접 전투 돌입 전 추가 원거리 공격[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+100[ENDCOLOR][NEWLINE]근접 전투 돌입 전 50%의 [ICON_STRENGTH] 전투력으로 추가 [COLOR_POSITIVE_TEXT]원거리 공격[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA">
 			<Text>이클와</Text>

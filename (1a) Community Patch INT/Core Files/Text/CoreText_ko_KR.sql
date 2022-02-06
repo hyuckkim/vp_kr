@@ -66,7 +66,7 @@ WHERE Tag = 'TXT_KEY_ALLOWS_EMBARKING';
 
 -- Capture Chance
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]전투에서 이길 경우 나포할 확률 : {1_Num}%[ENDCOLOR]'
+SET Text = '[COLOR_CYAN]전투에서 이길 경우 나포 가능[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_EUPANEL_CAPTURE_CHANCE';
 
 -- Interception
@@ -242,11 +242,11 @@ UPDATE Language_ko_KR
 SET Text = '성채는 위대한 장군만 건설할 수 있는 웅장한 요새로 보통 도시나 방어 가능한 지형 근처에 건설합니다. 성채는 당신 문명의 영토 어느 곳에나 건설할 수 있습니다. [NEWLINE][NEWLINE]성채를 건설하면 성채 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. 성채 안에 있는 모든 유닛은 방어력 보너스가 100% 증가하고 성채와 인접해서 턴을 종료하는 모든 적 유닛은 피해를 30 입습니다. 유닛 옆에 성채가 여럿 있어도 이 피해는 한 번만 적용됩니다.[NEWLINE][NEWLINE]그리스 아테네의 아크로폴리스는 강력한 초기 성채의 한 예라고 할 수 있습니다. 전면 공격으로 이러한 구조물을 함락시키는 것은 거의 불가능했으며 함락되기 전까지 오랜 시간을 버틸 수 있었습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '모아이는 타일에 +1 [ICON_CULTURE] 문화를 제공합니다. 인접한 다른 모아이마다 +1 추가 [ICON_CULTURE]문화가 증가합니다. 비행 기술을 연구하면 타일에서 +1 [ICON_GOLD]골드를 추가로 생산합니다. 모아이는 해안에만 건설할 수 있습니다. '
 WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = 'Moai can only be built adjacent to water. If built next to another Moai, it provides additional [ICON_CULTURE] Culture. After the Flight technology is researched it also provides extra [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP';
 
@@ -527,11 +527,11 @@ WHERE Tag = 'TXT_KEY_DIPLO_DEF_PACT_TT';
 -- Lua for Cities
 UPDATE Language_ko_KR
 SET Text = '당신의 문명이 거래 가능한 도시를 가지고 있지 않거나 또는 상대방의 대사관을 가지고 있지 않습니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_TT';
 
 UPDATE Language_ko_KR
 SET Text = '상대방이 거래 가능한 도시를 가지고 있지 않거나 또는 당신 문명의 대사관을 가지고 있지 않습니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM';
 
 -- Civilopedia Refresh
 UPDATE Language_ko_KR
@@ -629,6 +629,12 @@ WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_POSITIVE';
 UPDATE Language_ko_KR
 SET Text = '[NEWLINE][NEWLINE]이 안건으로 관계가 [COLOR_NEGATIVE_TEXT]악회될[ENDCOLOR] 문명:'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEGATIVE';
+
+-- Shorten the overview text to make room
+UPDATE Language_ko_KR
+SET Text = '[NEWLINE][NEWLINE]다른 문명의 욕구에 대한 우리의 지식:'
+WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS';
+
 
 -- Diplo Opinion Table Modifiers
 

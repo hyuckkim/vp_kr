@@ -48,6 +48,10 @@
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
 
+		<!-- Text for Preview Combat Miscellaneous Bonuses -->
+		<Row Tag="TXT_KEY_MISC_BONUS">
+			<Text>기타</Text>
+		</Row>
 
 		<!-- Include City Name in "Work Has Begun On" Notification -->
 		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY">
@@ -56,6 +60,18 @@
 		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY_LIMITED">
 			<Text>[SPACE]이제 [COLOR_POSITIVE_TEXT]{@2_CityName}[ENDCOLOR] 에서 [COLOR_POSITIVE_TEXT]{@1_ProdName}[ENDCOLOR] 생산 작업이 시작됩니다.</Text>
 		</Row>
+		<!-- For compatibility with Wonder consolation prize tweak -->
+		<Row Tag="TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED_S">
+			<Text>{1_CityName}{1: plural 1?이; 2?가;} {2_BldgName}{2: plural 1?을; 2?를;} 더 이상 할 수 없습니다!</Text>
+		</Row>
+
+		<!-- Tourism Bonus Turns for Tooltip -->
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
+			<Text>콘서트 투어에서 +100% Bonus ({1_NumTurns} 턴)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
+			<Text>콘서트 투어에서 +50% Bonus ({1_NumTurns} 턴)[NEWLINE]</Text>
+		</Row>
 		<!-- Add Defensive Pact Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_DEFENSIVE_PACT">
 			<Text>{1_CivName}와 {2_CivName}이 방어 조약을 체결했습니다.</Text>
@@ -63,6 +79,22 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_DEFENSIVE_PACT_S">
 			<Text>새로운 방어 조약</Text>
 		</Row>
+		<!-- Tooltip for Defensive Pacts -->
+		<Row Tag="TXT_KEY_DIPLO_DEFENSE_PACT_UNKNOWN">
+			<Text>[COLOR_NEGATIVE_TEXT]그들은 누군가와 방어 조약을 맺었습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEFENSE_PACT_WITH_US">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 그들과 방어 조약을 맺었습니다![ENDCOLOR]</Text>
+		</Row>
+
+		<!-- New Blue Indicators (Enemy Unit Panel) -->
+		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE">
+			<Text>[COLOR_CYAN]후퇴 확률[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RANGED_SUPPORT">
+			<Text>[COLOR_CYAN]추가 범위 공격[ENDCOLOR]</Text>
+		</Row>
+
 		<!-- America - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_10">
 			<Text>스노든</Text>
@@ -3412,11 +3444,20 @@
 		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_ALLY">
 			<Text>최고의 동맹:</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_COMPETITOR">
-			<Text>최고의 경쟁자:</Text>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_ALLY">
+			<Text>최고의 세계 의회 동맹:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_COMPETITOR">
 			<Text>최고의 세계 의회 경쟁자:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_ALLY_UN">
+			<Text>최고의 유엔 동맹:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_COMPETITOR_UN">
+			<Text>최고의 유엔 경쟁자:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_COMPETITOR">
+			<Text>최고의 경쟁자:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_CHOICE_NONE">
 			<Text>없음</Text>
@@ -3439,7 +3480,7 @@
 		
 		<!-- Diplomat Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_DIPLOMAT">
-			<Text>우리는 그들의 수도에 외교관이 있습니다.</Text>
+			<Text>그들의 수도에 우리의 외교관이 있습니다.</Text>
 		</Row>
 		
 		<!-- Open Borders Diplo Mod -->
@@ -3469,13 +3510,13 @@
 		
 		<!-- City Liberation Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_LIBERATED_HOLY_CITY">
-			<Text>당신은 그들의 성도를 해방시켰습니다!</Text>
+			<Text>[COLOR_POSITIVE_TEXT]당신은 그들의 성도를 해방시켰습니다![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_RETURNED_CAPITAL">
-			<Text>당신은 그들의 원래 수도를 되돌려주었습니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]당신은 그들의 원래 수도를 되돌려주었습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_RETURNED_HOLY_CITY">
-			<Text>당신은 그들의 성도를 되돌려주었습니다!</Text>
+			<Text>[COLOR_POSITIVE_TEXT]당신은 그들의 성도를 되돌려주었습니다![ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Denouncement Diplo Mod -->
@@ -3536,13 +3577,13 @@
 		</Row>
 		<!-- New Traitor Opinion Diplo Mods -->
 		<Row Tag="TXT_KEY_DIPLO_ATTACKED_OWN_VASSAL">
-			<Text>당신은 자신의 종속국에게 전쟁을 선포했습니다!</Text>
+			<Text>[COLOR_POSITIVE_TEXT]당신은 자신의 종속국에게 전쟁을 선포했습니다![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_ATTACKED_RESURRECTED_CIV">
-			<Text>당신은 당신이 해방한 문명에게 전쟁을 선포했습니다!</Text>
+			<Text>[COLOR_POSITIVE_TEXT]당신은 당신이 해방한 문명에게 전쟁을 선포했습니다![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_RESURRECTOR_ATTACKED_US">
-			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문명을 복구시킨뒤 그들을 공격했습니다![ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문명을 복구시킨 뒤 그들을 공격했습니다![ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Civilian Killer Diplo Mods -->
@@ -3572,7 +3613,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]당신의 군사적 배치가 극도로 위협적입니다.[ENDCOLOR]</Text>
 		</Row>
 		<!-- Religion Diplo Mods -->
-		<Row Tag="TXT_KEY_DIPLO_SAME_MAJORITY_RELIGIONS">
+		<Row Tag="TXT_KEY_DIPLO_SAME_STATE_RELIGIONS">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 대부분의 도시에서 같은 종교를 채택했습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_RELIGIOUS_DIFFERENCES">
@@ -3602,14 +3643,23 @@
 		<Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_PREVIOUSLY">
 			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_GOOD_LEAGUE_ALIGNMENT">
-			<Text>[COLOR_POSITIVE_TEXT]그들은 세계 의회에서 우리를 아군으로 생각합니다.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_GOOD_VOTING_HISTORY">
+			<Text>[COLOR_POSITIVE_TEXT]당신의 표가 그들의 제안을 통과되도록 도왔습니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_BAD_LEAGUE_ALIGNMENT">
-			<Text>[COLOR_NEGATIVE_TEXT]그들은 세계 의회에서 우리를 경쟁자로 생각합니다.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_BAD_VOTING_HISTORY">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 표가 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_PRIME_LEAGUE_COMPETITOR">
-			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들의 최대 경쟁자입니다.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_SUCCESSFUL">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들에게 제재를 가했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_UNSUCCESSFUL">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들에게 제재를 가하려고 시도했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_SUCCESSFUL">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 세계 의회에서 그들에게 가해진 제재를 해제했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_UNSUCCESSFUL">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 세계 의회에서 그들에게 가해진 제재를 해제하려고 시도했습니다.[ENDCOLOR]</Text>
 		</Row>
 		
 		<!-- World Congress >>> United Nations -->
@@ -3628,14 +3678,32 @@
 		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING_UN">
 			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 유엔의 개최국이 되도록 도왔습니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_GOOD_LEAGUE_ALIGNMENT_UN">
-			<Text>[COLOR_POSITIVE_TEXT]그들은 유엔에서 우리를 아군으로 생각합니다.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 다시 유엔의 개최국이 되도록 도왔습니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_BAD_LEAGUE_ALIGNMENT_UN">
-			<Text>[COLOR_NEGATIVE_TEXT]그들은 유엔에서 우리를 경쟁자로 생각합니다.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_PREVIOUSLY_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 이전에 유엔에서 그들의 제안을 통과시켰습니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_PRIME_LEAGUE_COMPETITOR_UN">
-			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들의 최대 경쟁자입니다.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_PREVIOUSLY_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GOOD_VOTING_HISTORY_UN">
+			<Text>[COLOR_POSITIVE_TEXT]당신의 표가 유엔에서 그들의 제안을 통과되도록 도왔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BAD_VOTING_HISTORY_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 표가 유엔에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_SUCCESSFUL_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들에게 제재를 가했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_UNSUCCESSFUL_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들에게 제재를 가하려고 시도했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_SUCCESSFUL_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 유엔에서 그들에게 가해진 제재를 해제했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_UNSUCCESSFUL_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 유엔에서 그들에게 가해진 제재를 해제하려고 시도했습니다.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEUTRAL">
@@ -3645,6 +3713,12 @@
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_END">
 			<Text>[NEWLINE][NEWLINE]문명은 친구를 돕고 경쟁자를 공격하기 위해 투표합니다.</Text>
 		</Row>
+
+		<!-- Shorten this to make room for opinion display -->
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_UNKNOWN">
+			<Text>[NEWLINE][ICON_BULLET]알 수 없음: {1_NumDelegates} 사절 ({2_NumCivs} 문명)</Text>
+		</Row>
+		
 		<!-- New Warmonger Hate Descriptors -->
 		<Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL_NUCLEAR">
 			<Text>[COLOR_NEGATIVE_TEXT]전쟁 도발 행위 때문에 세계에 핵 겨울이 찾아올 거라고 두려워하고 있습니다![ENDCOLOR]</Text>
@@ -3915,6 +3989,14 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BULLIED_BY_SOMEONE">
 			<Text>우리 외교관들이 {2_Civ}{2: plural 1?이; 2?가;} 최근에 {1_CS}{1: plural 1?을; 2?를;} 괴롭혔다고 보고했습니다!</Text>
 		</Row>
+		<!-- DENOUNCEMENT: Post-denouncement notes are now separate text keys, for compatibility with the ability to denounce while at war (and to save on memory) -->
+		<!-- Row Tag="TXT_KEY_DENOUNCED_US_NOT_AT_WAR"> -->
+			<!-- <Text>[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text> -->
+		<!-- </Row> -->
+		<!-- <Row Tag="TXT_KEY_DENOUNCED_US_AT_WAR"> -->
+			<!-- <Text>[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us![ENDCOLOR])</Text> -->
+		<!-- </Row> -->
+		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
 		<Row Tag="TXT_KEY_HOSTILE_WE_ATTACKED_YOUR_MINOR_3">
 			<Text>당신의 친구인 {@1_MinorCivName}{@1: plural 1?이; 2?가;} 나와 위대한 제국의 꿈 사이를 방해하고 있습니다. 당신은 이 문제에 개입하겠습니까?</Text>
@@ -7193,6 +7275,9 @@
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_NATIONAL_WONDER_NAME">
 			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 국가 불가사의 건설</Text>
 		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GIFT_SPECIFIC_UNIT_NAME">
+			<Text>{1_CSName}에게 유닛 선물</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_CITY_STATE_NAME">
 			<Text>{1_CSName}{1: plural 1?이; 2?가;} 찾던 도시 국가 발견</Text>
 		</Row>
@@ -7697,8 +7782,9 @@
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_ON_MOVE">
 			<Text>돌림병</Text>
 		</Row>
+		<!-- These Plague and Ignore_ZOC texts are only used by EUPANEL-->
 		<Row Tag="TXT_KEY_UNIT_PLAGUE_CHANCE">
-			<Text>[COLOR_CYAN]상태 이상 확률 ({1_Name}): {2_Num}%[ENDCOLOR]</Text>
+			<Text>[COLOR_CYAN]상태 이상 공격 가능 ({1_Name})[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ALREADY_PLAGUED">
 			<Text>[COLOR_CYAN]상태 이상 {1_Num}[ENDCOLOR]</Text>

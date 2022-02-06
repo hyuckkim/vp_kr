@@ -122,7 +122,7 @@ SET Text = '20턴 동안 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]33%[ENDCOL
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]수정궁[ENDCOLOR] 불가사의가 출현합니다.'
+SET Text = '[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]수정궁[ENDCOLOR] 불가사의가 출현합니다. (모든 도시의 공장이 +2 [ICON_PRODUCTION] 생산과 +2 [ICON_RESEARCH] 과학을 얻습니다.[ICON_GOLDEN_AGE] 황금기를 시작합니다.)'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
@@ -130,6 +130,10 @@ SET Text = '[COLOR_POSITIVE_TEXT]만국 박람회[ENDCOLOR] 프로젝트를 시�
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_FAIR_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- International Space Station
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]국제 우주 정거장[ENDCOLOR] 불가사의가 출현합니다. (과학자에서 +1 [ICON_PRODUCTION] 생산, 기술자에서 +1 [ICON_RESEARCH] 과학, [ICON_GREAT_SCIENTIST] 위대한 과학자가 기술 연구에 사용되면 [ICON_RESEARCH]과학을 33% 더 제공합니다. 기술이 연구될 때 마다 도시에 +100 [ICON_PRODUCTION] 생산을 제공합니다. (시대별 보정))'
+WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]국제 우주 정거장[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면, 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]로켓공학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.'
@@ -146,7 +150,7 @@ SET Text = ' 원하는 [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]위인[ENDCOLOR]�
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]올림픽 선수촌[ENDCOLOR] 불가사의가 출현합니다.'
+SET Text = '[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]올림픽 선수촌[ENDCOLOR] 불가사의가 출현합니다. (건설 시 +3 [ICON_HAPPINESS_1] 행복과 +3 [ICON_CULTURE] 문화를 얻습니다. 세계 불가사의, 자연 불가사의, 시설(랜드마크, 모아이, 샤토) [ICON_CULTURE]문화의 25%가 도시 [ICON_TOURISM] 관광에 추가됩니다. 모든 경기장이 +2 [ICON_GOLD] 골드와 +2 [ICON_TOURISM] 관광을 얻습니다.)'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Arts/Sciences Funding

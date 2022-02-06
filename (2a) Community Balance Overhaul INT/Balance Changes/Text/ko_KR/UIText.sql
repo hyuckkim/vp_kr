@@ -2,26 +2,26 @@
 -- Puppet TT TopPanel
 UPDATE Language_ko_KR
 SET Text = '{1_Num} {2_IconString} 특성 및 기타 출처에서'
-WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC';
 
 -- Puppet TT TopPanel
 UPDATE Language_ko_KR
 SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_RESEARCH]연구 비용이 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] 증가합니다.'
-WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST';
 
 -- Puppet TT TopPanel
 UPDATE Language_ko_KR
 SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_CULTURE]정책 비용이 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] 증가합니다.'
-WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST';
 
 -- Supply Info
 UPDATE Language_ko_KR
 SET Text = '당신의 문명은 [COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR]의 유닛을 보급할 수 있습니다. [COLOR_NEGATIVE_TEXT]{2_Num}개[ENDCOLOR]의 유닛이 보급 한계를 초과하여 모든 도시에서 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 [COLOR_NEGATIVE_TEXT]{3_Num}%[ENDCOLOR] 감소합니다.'
-WHERE Tag = 'TXT_KEY_UNIT_SUPPLY_REACHED_TOOLTIP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_UNIT_SUPPLY_REACHED_TOOLTIP';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_FOOD]/[ICON_PRODUCTION] 페널티'
-WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY';
 
 -- Wonders
 UPDATE Language_ko_KR
@@ -109,45 +109,45 @@ WHERE Tag = 'TXT_KEY_HANDICAP_DEITY_HELP';
 -- Top Panel Tooltip Adjustment (make generic for more than just founder beliefs)
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종교에서 획득'
-WHERE Tag = 'TXT_KEY_TP_FAITH_FROM_RELIGION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_FAITH_FROM_RELIGION';
 
 UPDATE Language_ko_KR
 SET Text = '연구 협정 허용 (활성화 시)'
-WHERE Tag = 'TXT_KEY_ABLTY_R_PACT_STRING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_ABLTY_R_PACT_STRING';
 
 UPDATE Language_ko_KR
 SET Text = 'A city has a Ranged Combat Strength equal to its full Strength at the start of combat, and it has a range of 1. This range increases as the game progresses based on researched technologies (look for the "ranged strike" icon in the tech tree for these technologies). It may attack any one enemy unit within that range. Note that the city''s Ranged Combat Strength doesn''t decline as the city takes damage; it remains equal to the city''s initial Strength until the city is captured.'
-WHERE Tag = 'TXT_KEY_COMBAT_CITYFIRINGATTACKERS_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_COMBAT_CITYFIRINGATTACKERS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = 'A unit gains XPs for surviving a round of combat (or, if a scout, from exploration). The unit doesn''t have to win the combat or destroy the enemy to get the experience; it accrues each round that the unit lives through.[NEWLINE][NEWLINE]The amount of XPs the unit gets depends upon the circumstances of the combat. Generally, units get more XPs for attacking than defending, and more for engaging in melee combat than for other types. Here are some numbers (see the Charts and Tables section for a complete list):[NEWLINE]An Attacking Melee Unit: 5 XPs[NEWLINE]Defending Against a Melee Attack: 4 XPs[NEWLINE]An Attacking Ranged Unit: 2 XPs[NEWLINE]Being Attacked by a Ranged Unit: 2 XPs[NEWLINE]Barbarian Limitations: Once a unit has gotten 45 XPs, it no longer gets any additional XPs for fighting Barbarians.'
-WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = 'Once their civilization has learned certain technologies (see tech tree), workers can remove forests, jungles, and marshes from tiles. Once these features are removed, they are gone forever.'
-WHERE Tag = 'TXT_KEY_WORKERS_CLEARINGLAND_HEADING2_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_WORKERS_CLEARINGLAND_HEADING2_BODY';
 
 UPDATE Language_ko_KR
 SET Text = 'If your civilization is unhappy, then the city will produce less food. The city will produce enough food to feed its citizens, but there is a decrease in growth locally.'
-WHERE Tag = 'TXT_KEY_FOOD_UNHAPPINESS_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_FOOD_UNHAPPINESS_HEADING3_BODY';
 
 -- Resource Limit breached
 UPDATE Language_ko_KR
 SET Text = '당신은 {1_Resource:textkey}{1: plural 1?을; 2?를;} 소유량보다 더 많이 사용하고 있습니다. 해당 자원을 필요로 하는 모든 유닛의 [COLOR_NEGATIVE_TEXT]체력을 회복할 수 없습니다.[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT';
 
 -- Text Changes for Spies in Cities
 UPDATE Language_ko_KR
 SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 훔칠 기술 및 걸작이 없습니다. 그러나 그들은 방해 공작과 같은 추가 행동을 통해 계속해서 방해할 수 있습니다. [NEWLINE][NEWLINE]{4_CityName}의 보안 등급은 {5_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 안전합니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] [COLOR:105:105:105:255](보정됨)[ENDCOLOR] 도시의 전반적인 번영에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 보안 등급이 증가합니다.'
-WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
 
 UPDATE Language_ko_KR
 SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에 있습니다. {4_SpyRank} {5_SpyName}{5: plural 1?은; 2?는;} 해당 도시에서 스파이 활동을 완수하려는 적 스파이를 검거하거나 처치합니다.'
-WHERE Tag = 'TXT_KEY_CITY_SPY_YOUR_CITY_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CITY_SPY_YOUR_CITY_TT';
 
 UPDATE Language_ko_KR
 SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에 있습니다. {4_SpyRank} {5_SpyName}{5: plural 1?은; 2?는;} 해당 도시에 있는 동안 첩보망을 구축한 다음 스파이 활동을 시도합니다. {6_SpyRank} {7_SpyName}{7: plural 1?은; 2?는;} 작전 중 해당 도시에서 꾸미는 음모에 대한 정보를 입수할 수도 있습니다.'
-WHERE Tag = 'TXT_KEY_CITY_SPY_OTHER_CIV_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CITY_SPY_OTHER_CIV_TT';
 
 UPDATE Language_ko_KR
 SET Text = '{1_SpyRank} {2_SpyName}의 스파이 옵션:[NEWLINE][NEWLINE][NEWLINE][NEWLINE][ICON_BULLET] 도시 국가로 이동해서 쿠데타 및 선거조작 가능[NEWLINE][ICON_BULLET] 주요 문명의 수도가 아닌 도시로 이동해서 스파이 활동[NEWLINE][ICON_BULLET] 주요 문명의 수도로 이동해서 스파이 활동, [ICON_DIPLOMAT]외교관 활동'
@@ -162,135 +162,123 @@ WHERE Tag = 'TXT_KEY_EO_SPY_RANK_TT';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  이념 압력에서 획득'
-WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION';
 
 -- Building Purchased
 UPDATE Language_ko_KR
 SET Text = '[ICON_GOLD]골드를 건물에 투자해 [ICON_PRODUCTION]생산 비용을 50% 감소시킬 수 있습니다. (불가사의는 25%)[NEWLINE][ICON_GOLD]골드로 구매한 유닛은 생산된 유닛 경험치의 절반으로 시작합니다.[NEWLINE]몇몇 유닛과 건물은 [ICON_PEACE]신앙으로 구매할 수 있습니다.'
-WHERE Tag = 'TXT_KEY_CITYVIEW_PURCHASE_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CITYVIEW_PURCHASE_TT';
 
 UPDATE Language_ko_KR
 SET Text = 'You can change city construction orders on the City Screen. You can also expend gold to purchase a unit (or invest in a building) on this screen as well. See the City Screen section for details.'
-WHERE Tag = 'TXT_KEY_BUILDINGS_PURCHASING_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_BUILDINGS_PURCHASING_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = 'You can purchase units with gold, or invest gold in buildings to reduce their construction cost, from within your city screen. This can be helpful if you need something in a hurry, like additional units to defend against an invader.'
-WHERE Tag = 'TXT_KEY_CITIES_PURCHASINGITEM_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CITIES_PURCHASINGITEM_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = ' You can spend gold to purchase units or invest in a building in a city. Click on a unit (if you can afford it!) and it will be immediately trained in the city, and the amount deducted from your treasury. If you click on a building, you will invest in it, reducing the production cost of the building by 50%.[NEWLINE][NEWLINE]Note that "projects" - the Manhattan Project, etc. - cannot be purchased.'
-WHERE Tag = 'TXT_KEY_GOLD_PURCHASEUNITS_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_GOLD_PURCHASEUNITS_HEADING3_BODY';
 
 -- Happiness from Policies to Culture/Science change
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  정책에서'
-WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_HAPPINESS';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_RESEARCH]정책에서'
-WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_HAPPINESS';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_RESEARCH][COLOR_MAGENTA]그림자 네트워크[ENDCOLOR]에서'
-WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_MINORS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_MINORS';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_RES_ARTIFACTS]미발굴 사적지: {1_Num}'
-WHERE Tag = 'TXT_KEY_ANTIQUITY_SITES_TO_EXCAVATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_ANTIQUITY_SITES_TO_EXCAVATE';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_RES_HIDDEN_ARTIFACTS]숨겨진 미발굴 사적지: {1_Num}'
-WHERE Tag = 'TXT_KEY_HIDDEN_SITES_TO_EXCAVATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_HIDDEN_SITES_TO_EXCAVATE';
 
 -- Update text for diplomat.
 UPDATE Language_ko_KR
 SET Text = '+{1_Num}% 외교관 선전활동에서[NEWLINE]'
-WHERE Tag = 'TXT_KEY_CO_PLAYER_TOURISM_PROPAGANDA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CO_PLAYER_TOURISM_PROPAGANDA';
 
 UPDATE Language_ko_KR
 SET Text = '이 스파이를 외교관으로 삼으시겠습니까? 전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 선전포고를 하면 스파이는 도시에서 탈출합니다. 외교관은 다른 문명의 기술을 훔치지 않지만 지속적으로 음모를 제공합니다. 세계 대회를 소집하면 외교관의 의견을 제안에 사용할 수 있고 필요하다면 거래할 수 있습니다. 외교관은 자동으로 대상 문명의 [ICON_TOURISM]관광을 대폭 향상시킵니다.'
-WHERE Tag = 'TXT_KEY_SPY_BE_DIPLOMAT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_SPY_BE_DIPLOMAT';
 
 -- Update text for tooltips based on what you changed above.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[NEWLINE][NEWLINE][COLOR_CYAN]영향력 보너스:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]이 문명으로 향하는 교역로:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+5%[ENDCOLOR] 출발 도시 [ICON_FOOD]성장[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_GOLD]골드[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_RESEARCH]과학[NEWLINE][COLOR_POSITIVE_TEXT]이 문명 대항 스파이 활동 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY]스파이 감시망 구축 ([COLOR_POSITIVE_TEXT]5[ENDCOLOR]턴)[NEWLINE][COLOR_POSITIVE_TEXT]도시 정복 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] [ICON_RESISTANCE]저항 시간[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] 손실된 [ICON_CITIZEN]시민' , 'TXT_KEY_CO_INFLUENCE_BONUSES_EXOTIC'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[NEWLINE][NEWLINE][COLOR_CYAN]영향력 보너스:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]이 문명으로 향하는 교역로:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+5%[ENDCOLOR] 출발 도시 [ICON_FOOD]성장[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_GOLD]골드[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_RESEARCH]과학[NEWLINE][COLOR_POSITIVE_TEXT]이 문명 대항 스파이 활동 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY]스파이 감시망 구축 ([COLOR_POSITIVE_TEXT]5[ENDCOLOR]턴)[NEWLINE][COLOR_POSITIVE_TEXT]도시 정복 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] [ICON_RESISTANCE]저항 시간[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] 손실된 [ICON_CITIZEN]시민' , 'TXT_KEY_CO_INFLUENCE_BONUSES_EXOTIC');
 
 -- Update texts for tooltips based on what you changed above.
 UPDATE Language_ko_KR
 SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]영향력 보너스:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]이 문명으로 향하는 교역로:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR] 출발 도시 [ICON_FOOD]성장[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+4[ENDCOLOR] [ICON_GOLD]골드[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+4[ENDCOLOR] [ICON_RESEARCH]과학[NEWLINE][COLOR_POSITIVE_TEXT]이 문명 대항 스파이 활동 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY스파이 감시망 구축 ([COLOR_POSITIVE_TEXT]4[ENDCOLOR]턴)[NEWLINE][COLOR_POSITIVE_TEXT]도시 정복 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-30%[ENDCOLOR] [ICON_RESISTANCE]저항 시간[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-30%[ENDCOLOR] 손실된 [ICON_CITIZEN]시민'
-WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_FAMILIAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_FAMILIAR';
 
 -- Update texts for tooltips based on what you changed above.
 UPDATE Language_ko_KR
 SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]영향력 보너스:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]이 문명으로 향하는 교역로:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR] 출발 도시 [ICON_FOOD]성장[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+6[ENDCOLOR] [ICON_GOLD]골드[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+6[ENDCOLOR] [ICON_RESEARCH]과학[NEWLINE][COLOR_POSITIVE_TEXT]이 문명 대항 스파이 활동 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY]스파이 감시망 구축 ([COLOR_POSITIVE_TEXT]3[ENDCOLOR]턴)[NEWLINE][COLOR_POSITIVE_TEXT]도시 정복 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-55%[ENDCOLOR] [ICON_RESISTANCE]저항 시간[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-55%[ENDCOLOR] 손실된 [ICON_CITIZEN]시민'
-WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_POPULAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_POPULAR';
 
 -- Update texts for tooltips based on what you changed above.
 UPDATE Language_ko_KR
 SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]영향력 보너스:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]이 문명으로 향하는 교역로:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR] 출발 도시 [ICON_FOOD]성장[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+8[ENDCOLOR] [ICON_GOLD]골드[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+8[ENDCOLOR] [ICON_RESEARCH]과학[NEWLINE][COLOR_POSITIVE_TEXT]이 문명 대항 스파이 활동 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY]스파이 감시망 구축 ([COLOR_POSITIVE_TEXT]2[ENDCOLOR]턴)[NEWLINE][COLOR_POSITIVE_TEXT]도시 정복 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-80%[ENDCOLOR] [ICON_RESISTANCE]저항 시간[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-80%[ENDCOLOR] 손실된 [ICON_CITIZEN]시민'
-WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_INFLUENTIAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_INFLUENTIAL';
 
 -- Update texts for tooltips based on what you changed above.
 UPDATE Language_ko_KR
 SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]영향력 보너스:[ENDCOLOR][NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]이 문명으로 향하는 교역로:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR] 출발 도시 [ICON_FOOD]성장[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+10[ENDCOLOR] [ICON_GOLD]골드[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+10[ENDCOLOR] [ICON_RESEARCH]과학[NEWLINE][COLOR_POSITIVE_TEXT]이 문명 대항 스파이 활동 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY]스파이 감시망 구축 ([COLOR_POSITIVE_TEXT]1[ENDCOLOR]턴)[NEWLINE][COLOR_POSITIVE_TEXT]도시 정복 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-100%[ENDCOLOR] [ICON_RESISTANCE]저항 시간[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-100%[ENDCOLOR] 손실된 [ICON_CITIZEN]시민'
-WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT';
 
 -- Text for trade view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '+{2_Num}  {1_CivName}에 대한 당신 문명의 문화적 영향력에서 오는 [ICON_GOLD]골드', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_GOLD_EXPLAINED'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('+{2_Num}  {1_CivName}에 대한 당신 문명의 문화적 영향력에서 오는 [ICON_GOLD]골드', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_GOLD_EXPLAINED');
 
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '+{1_Num}% 정책에서', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('+{1_Num}% 정책에서', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER');
 
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '+{1_Num}% [ICON_PRODUCTION]정책에서', 'TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_PROD'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('+{1_Num}% [ICON_PRODUCTION]정책에서', 'TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_PROD');
 
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '+{1_Num}% [ICON_FOOD]정책에서', 'TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_FOOD'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('+{1_Num}% [ICON_FOOD]정책에서', 'TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_FOOD');
 
 
 
 -- Text for trade view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '+{2_Num} {1_CivName}{1: plural 1?이; 2?가;} 당신의 문명에 미치는 문화적 영향력에서 오는 [ICON_GOLD]골드', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_GOLD_EXPLAINED'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('+{2_Num} {1_CivName}{1: plural 1?이; 2?가;} 당신의 문명에 미치는 문화적 영향력에서 오는 [ICON_GOLD]골드', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_GOLD_EXPLAINED');
 
 -- Text changes for Vote Purchase
 UPDATE Language_ko_KR
 SET Text = '다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIVE_TEXT]{1_NumVotes}명[ENDCOLOR]을 동원해 아래의 제안을 [COLOR_POSITIVE_TEXT]상정[ENDCOLOR]하도록 {2_ChoiceText}{2: plural 1?을; 2?를;} 지원할 것입니다:[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]상기 대표단 수는 이 문명이 통제하는 대표단 수와 외교관의 레벨에 따라 달라집니다. 외교관의 레벨이 높을 수록 더 많은 투표 수를 확보할 수 있습니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT';
 
 UPDATE Language_ko_KR
 SET Text = '다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIVE_TEXT]{1_NumVotes}명[ENDCOLOR]을 동원해 아래의 제안을 [COLOR_POSITIVE_TEXT]폐지[ENDCOLOR]하도록 {2_ChoiceText}{2: plural 1?을; 2?를;} 지원할 것입니다:[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]상기 대표단 수는 이 문명이 통제하는 대표단 수와 외교관의 레벨에 따라 달라집니다. 외교관의 레벨이 높을 수록 더 많은 투표 수를 확보할 수 있습니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT';
 
 UPDATE Language_ko_KR
 SET Text = '야만인 주둔지'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT'
 
 UPDATE Language_ko_KR
 SET Text = '야만인 주둔지'
-WHERE Tag = 'TXT_KEY_IMPROVEMENT_ENCAMPMENT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_IMPROVEMENT_ENCAMPMENT'
 
 UPDATE Language_ko_KR
 SET Text = '야만인 주둔지는 당신의 문명을 뒤집어 엎고 파괴하는데 여념이 없는 광포한 야만인의 무리가 세운 임시 정착지입니다. 문명의 영원한 눈엣가시 같은 이 야만인 주둔지에서는 당신의 도시를 침략하고, 영지를 약탈하며, 부녀자를 외설적인 눈빛으로 바라보는 분노한 야만인이 끝없이 쏟아져 나올 수 있습니다. 당신의 도시 근처에 있는 야만인 주둔지는 무조건 파괴해야 합니다. 당신이 비열한 지도자라면, 경쟁 문명에 더 가까이 있는 야만인 주둔지는 적을 괴롭히기 위해 그대로 놔둘 수도 있습니다.'
-WHERE Tag = 'TXT_KEY_IMPROVEMENT_BARBARIAN_CAMP_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_IMPROVEMENT_BARBARIAN_CAMP_PEDIA'
 
 -- CS Protection Tooltip for new influence perk
 UPDATE Language_ko_KR
 SET Text = '도시 국가를 보호하겠다고 선언하면 게임에 등장하는 다른 문명이 해당 도시 국가를 공격하거나 해당 도시 국가에서 조공을 받으려고 할 때 당신이 이를 막을 것이라고 알리는 것입니다.[NEWLINE][NEWLINE]보호 선언이 유효한 동안 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 {1_InfluenceMinimum} 증가합니다. 또한 해당 도시 국가의 퀘스트를 완료하면 [COLOR_POSITIVE_TEXT]{3_InfluenceBoost}%[ENDCOLOR] [ICON_INFLUENCE]영향력이 증가합니다. 도시 국가 [ICON_CAPITAL]수도의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]{4_DefenseBoost}%[ENDCOLOR] [COLOR:105:105:105:255](한도:세계 최대값의 [COLOR_POSITIVE_TEXT]{5_DefenseTotal}%[ENDCOLOR])[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE]보호 선언 후 {2_TurnsMinimum}턴 동안은 이를 취소할 수 없습니다.'
-WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_TT';
 
 UPDATE Language_ko_KR
 SET Text = '[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 보호 선언을 하려면 {1_InfluenceNeededToPledge} 이상의 [ICON_INFLUENCE]영향력이 필요합니다.[ENDCOLOR]'
@@ -302,34 +290,32 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_INFLUENCE]영향력이 "중립" 정지점 이상임'
-WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE'
 
 UPDATE Language_ko_KR
 SET Text = '총 산출량의 [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]를 공물로 바침'
-WHERE Tag = 'TXT_KEY_CSTATE_CAN_BULLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );	
+WHERE Tag = 'TXT_KEY_CSTATE_CAN_BULLY'
 
 UPDATE Language_ko_KR
 SET Text = '당신의 군대를 두려워하지 않으므로 공물을 바치지 않을 것입니다.(현재 정지점 이하 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR])'
-WHERE Tag = 'TXT_KEY_CSTATE_CANNOT_BULLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_MINORS' AND Value= 1 );	
+WHERE Tag = 'TXT_KEY_CSTATE_CANNOT_BULLY'
 
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]Fallout deals 15 Damage to Units that end their turn on a tile with Fallout.[ENDCOLOR][NEWLINE][NEWLINE]Fallout is the residual radiation left over following a nuclear explosion. The fallout "falls out" of the air as a layer of radioactive particles which are highly dangerous to plants and animals, killing them immediately or damaging their DNA, giving them cancer, other diseases, or unfortunate mutations. Depending upon the type of nuclear explosion, the land may remain poisoned for decades, possibly centuries. Cleanup requires the replacement of the contaminated buildings, soil and vegetation.'
-WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA'
 
 INSERT INTO Language_ko_KR (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_REC', '해당 타일의 [ICON_FOOD]식량을 증가시킵니다. 인접한 농장 2개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 담수와 인접하면 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+VALUES ('TXT_KEY_BUILD_FARM_REC', '해당 타일의 [ICON_FOOD]식량을 증가시킵니다. 인접한 농장 2개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 담수와 인접하면 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.');
 
 UPDATE Language_ko_KR
 SET Text = '농장은 타일의 [ICON_FOOD]식량을 증가시킬 수 있습니다. 인접한 농장 2개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 담수와 인접하면 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]농업은 인간의 직업 중 가장 오래되고 중요한 직업입니다. 농업으로 인해 인류는 이동생활을 접고, 주변 자원을 고갈시키는 일 없이 한 곳에 정착할 수 있게 되었습니다.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FARM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FARM_TEXT';
 
 INSERT INTO Language_ko_KR (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_HELP', '인접한 농장 2개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 담수와 인접하면 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+VALUES ('TXT_KEY_BUILD_FARM_HELP', '인접한 농장 2개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 담수와 인접하면 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.');
 
 -- Trading Post - name change
 
@@ -402,207 +388,178 @@ WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MINOR_CIV';
 
 UPDATE Language_ko_KR
 SET Text = '{@1_Name}{@1: plural 1?을; 2?를;} 발견했습니다!'
-WHERE Tag = 'TXT_KEY_FOUND_NATURAL_WONDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_FOUND_NATURAL_WONDER';
 
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  자연 경관/랜드마크에서 획득'
-WHERE Tag = 'TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS';
 
 -- Theming
 UPDATE Language_ko_KR
 SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_TOURISM]  테마보너스에서 획득'
-WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES';
 
 -- Happiness
 
 UPDATE Language_ko_KR
 SET Text = '비점령 도시의 [ICON_CITIZEN]시민은 직접적으로 [ICON_HAPPINESS_3]불행을 생성하지 않습니다. 각 도시의 [ICON_HAPPINESS_3]불행의 출처를 보려면 툴팁을 참고하십시오.'
-WHERE Tag = 'TXT_KEY_POP_UNHAPPINESS_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_POP_UNHAPPINESS_TT'
 
 UPDATE Language_ko_KR
 SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다.'
-WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT'
 
 UPDATE Language_ko_KR
 SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다. [COLOR:105:105:105:255](보통)[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY'
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_OCCUPIED]점령된 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다.'
-WHERE Tag = 'TXT_KEY_NUMBER_OF_OCCUPIED_CITIES_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_NUMBER_OF_OCCUPIED_CITIES_TT'
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_OCCUPIED]점령 도시의 [ICON_CITIZEN]시민마다 [ICON_HAPPINESS_3]불행이 1 증가합니다.'
-WHERE Tag = 'TXT_KEY_OCCUPIED_POP_UNHAPPINESS_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_OCCUPIED_POP_UNHAPPINESS_TT'
 
 UPDATE Language_ko_KR
 SET Text = '불행 순 정렬'
-WHERE Tag = 'TXT_KEY_EO_SORT_STRENGTH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_EO_SORT_STRENGTH'
 
 UPDATE Language_ko_KR
 SET Text = '도시가 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 뒤에 완전히 [ICON_RAZING]소각되어 재만 남습니다! [ICON_CITIZEN]시민의 100%가 [ICON_HAPPINESS_3]불행을 생성합니다.'
-WHERE Tag = 'TXT_KEY_CITY_BURNING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CITY_BURNING'
 
 UPDATE Language_ko_KR
 SET Text = '도시에서 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 동안 [ICON_RESISTANCE]저항이 발생합니다! 도시는 그동안 아무것도 할 수 없습니다. [ICON_CITIZEN]시민의 100%가 [ICON_HAPPINESS_3]불행을 생성합니다.'
-WHERE Tag = 'TXT_KEY_CITY_RESISTANCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_CITY_RESISTANCE'
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_OCCUPIED]점령/[ICON_RESISTANCE]저항 도시의 [ICON_CITIZEN]시민에서 획득'
-WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION'
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num : number "#.##"}[ENDCOLOR]  [ICON_CITIZEN]도시화에서 획득 (전문가)'
-WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS'
 
 -- Tutorial Text
 
 UPDATE Language_ko_KR
 SET Text = 'The happiness system in the Community Balance Overhaul is completely revised, favoring neither tall nor wide playstyles. Happiness is now wholly localized, and is based on a cause-and-effect mechanism that makes your empire feel far more alive, and dynamic, than ever before. [NEWLINE][NEWLINE]Your happiness is displayed on the status line of the Main Screen (in the upper left-hand corner of the game). Watch it carefully. If it starts to drop below 75%, your population is getting restless. If it starts to dip below 50%, you are in trouble. (Incidentally, you can get an excellent snapshot of your happiness by hovering your cursor over this number.)[NEWLINE][NEWLINE]One important note to remember - happiness generated from city buildings and city-based policies can never exceed its population.'
-WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_BODY'
 
 UPDATE Language_ko_KR
 SET Text = 'The following increase your happiness:[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Luxury Resources[ENDCOLOR]: Improve resources within your territory or trade for them with other civs. Each kind of resource improves your happiness. Luxuries grant happiness as a factor of total empire population. The higher your pop, the more happiness your luxuries provide. This makes luxuries less vital early on, as +1 Happiness is not as big of a deal, yet it does not punish tall or wide strategies because the focus is on overall population, not the number of cities. In short, Luxuries "level up" as your empire grows in population.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Buildings[ENDCOLOR]: Certain buildings increase your happiness, while others reduce Unhappiness from things like Distress and Poverty (thus indirectly boosting your Happiness). These include the Arena, the Circus, the Zoo, and others. Each building constructed anywhere in your civ increases your overall happiness (so two Arenas produce twice as much happiness as one, unlike Luxuries).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Wonders[ENDCOLOR]: Certain wonders like Notre Dame and the Hanging Gardens can give you a big boost in happiness.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Social Policies[ENDCOLOR]: Policies provide a lot of happiness, but in different ways.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Technologies[ENDCOLOR]: Technologies in themselves do not provide happiness, but they do unlock the buildings, wonders, resources and social policies which do.'
-WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY'
 
 UPDATE Language_ko_KR
 SET Text = 'City happiness is no longer directly affected by the number of citizens in a city. Instead, happiness is based on a set of functions that look at economic variables. Overall, population is still key, however per-city unhappiness is a bit easier to manage (and tailor to certain play-styles). This makes Tall and Wide gameplay equally feasible, so long as your empire is well-managed. Furthermore, Citizens can only be "unhappy" for one value at a time, based on a scale of want. If a citizen is unhappy from Poverty, for example, that same citizen cannot be unhappy from anything else until the Poverty issue is resolved (thus the unhappiness generated by any one city is capped at the population of the city).[NEWLINE][NEWLINE]How this works: The yield-based functions combine the yields of your city, dividing this value by its population. This value is then compared to the rate value per citizen as an average of all city yields per pop in your empire. If the empire rate value per citizen is higher than the rate value of your city, (i.e. you are not producing as much as the rate value expects), the difference between the two is factored by the per-citizen unhappiness value and the unhappiness is generated. In other words, if your cities are behind the empire average in yields per pop, the difference will be converted into unhappiness. This Empire Average will gradually increase as the game progresses (all cities become more and more wealthy over time, therefore the Empire Average of what defines Poverty changes), and increases gradually (around 2%) for every City you found or conquer.[NEWLINE][NEWLINE] Sources of Unhappiness: [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Starvation[ENDCOLOR]: This one can be fatal, so be careful. If a city is starving, this function looks at the value of that starvation (i.e. the negative value of food being consumed) and compares that to the rate value of the function.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pillaged tiles[ENDCOLOR]: Similar to city connections, this function will generate unhappiness based on a rate per citizen value which looks at the number of pillaged tiles. The more pillaged tiles there are, the higher this unhappiness.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Poverty[ENDCOLOR]: This looks at gold yields. If these yields do not exceed the rate criteria, your city has some element of poverty. This is largely inevitable in all but the wealthiest cities.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Isolation[ENDCOLOR]: Blockades or a lack of a city connection will generate unhappiness based on a rate per citizen value. Should only be a problem if you are besieged from the sea, your routes are pillaged and/or you have not connected your cities together. If you connect cities to your capital via an internal trade route (daisy chain or individually), this unhappiness penalty is negated (so blockades or long-distance cities can be "connected" to your capital via trade).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Distress[ENDCOLOR]: This function looks at the basic needs of your city (food and employment, represented by [ICON_FOOD] Food and [ICON_PRODUCTION] Production). If these yields do not exceed the rate criteria, your city has some element of distress. This is inevitable in large cities or cities under siege.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Religious Tension[ENDCOLOR]: This looks at the majority religion of the city, and compares it to the number of citizens that are not part of that religion. If that value exceeds the rate value of the function, you will have some religious strife. This is largely inevitable in most large cities, and can become a major source of unhappiness if you are not careful. You can reduce this value further by building more faith-producing buildings in the city (high faith production has the ability to subtract from your minority population), or simply converting people to your one, true faith.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Illiteracy[ENDCOLOR]: This looks at the science yield of the city. If this yield does not exceed the rate criteria, your city has some element of illiteracy. This is largely inevitable in all but the smartest cities. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Boredom[ENDCOLOR]: This looks at the culture yields of the city. If these yields do not exceed the rate criteria, your city has some element of boredom (i.e. your citizenry is not entertained). This is can be circumvented by building Arena and other such buildings, or through Great Works. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Specialists[ENDCOLOR]: Specialists generate unhappiness at a flat rate based on the number of specialists in your empire. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]War Weariness[ENDCOLOR]: Once you have an ideology, you have the potential to gain empire-wide War Weariness (this is in addition to ideological unrest).'
-WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_BODY'
 
 UPDATE Language_ko_KR
 SET Text = 'There are three levels of unhappiness. Unhappy, Unrest, and Revolt. An Unhappy civilization will reduce growth in all cities and the value of your national yields (i.e. your total science per turn). A civilization experiencing Unrest can have many more problems, including combat penalties and open rebellion, and a civilization in Revolt can potentially have cities abandon your empire.'
-WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY'
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] 지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 0 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] 지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY');
 
 
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET]전쟁 피로도에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 0 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[NEWLINE][ICON_BULLET]전쟁 피로도에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD');
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1]지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1]지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY');
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET]행복에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[NEWLINE][ICON_BULLET]행복에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD');
 
 
 -- Text for city view tooltip.
 UPDATE Language_ko_KR
 Set Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3]불행 수치: {1_Num}%[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_FOODMOD_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_FOODMOD_UNHAPPY'
 
 
 -- Text for city view tooltip.
 UPDATE Language_ko_KR
 Set Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_GOLDEN_AGE]황금기에서'
-WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE'
 
 -- Update Text for Very Unhappy and Super Unhappy
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
 SET Text = '당신의 지지율이 35% 이하입니다. 제국 전역에 공공연한 반란이 일어나고 있습니다. 반란군(야만인)이 나타나 반란이 일어날 수도 있고, 도시가 당신의 제국을 버리고 당신의 문명에 가장 문화적으로 영향을 미치는 문명으로 변모할 수도 있습니다. 모든 도시의 [ICON_FOOD]성장이 더 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.'
-WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY'
 
 UPDATE Language_ko_KR
 SET Text = '당신의 지지율이 20% 이하입니다. 제국 전역이 분열되고 있습니다. 반란군(야만인)이 빈번히 나타나고 도시가 빠르게 당신의 제국을 버리고 당신에게 가장 문화적으로 영향을 미치는 문명으로 변모할 것입니다. 모든 도시의 [ICON_FOOD]성장이 더 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.'
-WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY'
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
 SET Text = '당신의 지지율이 50%를 넘지 못했습니다. 모든 도시의 [ICON_FOOD]성장이 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 10% 감소합니다.'
-WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY'
 
 UPDATE Language_ko_KR
 SET Text = '당신의 지지율이 50%를 넘었습니다. [ICON_HAPPINESS_1]행복한 도시는 더 빨리 [ICON_FOOD]성장하지만 [ICON_HAPPINESS_3]불행한 도시는 [ICON_FOOD]성장과 개척자 생산에 불이익을 받을 것입니다.'
-WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS'
 
 -- TOOLTIPS FOR TOP BAR
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_HAPPINESS_1]행복에서 획득', 'TXT_KEY_TP_GOLD_GAINED_FROM_HAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_HAPPINESS_1]행복에서 획득', 'TXT_KEY_TP_GOLD_GAINED_FROM_HAPPINESS');
 
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[COLOR_NEGATIVE_TEXT]-{1_NUM}[ENDCOLOR]  [ICON_HAPPINESS_3]불행에서 손실', 'TXT_KEY_TP_GOLD_LOST_FROM_UNHAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[COLOR_NEGATIVE_TEXT]-{1_NUM}[ENDCOLOR]  [ICON_HAPPINESS_3]불행에서 손실', 'TXT_KEY_TP_GOLD_LOST_FROM_UNHAPPINESS');
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]행복에서 획득', 'TXT_KEY_TP_FAITH_GAINED_FROM_HAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]행복에서 획득', 'TXT_KEY_TP_FAITH_GAINED_FROM_HAPPINESS');
 
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[COLOR_NEGATIVE_TEXT]-{1_NUM}[ENDCOLOR]  [ICON_HAPPINESS_3]불행에서 획득', 'TXT_KEY_TP_FAITH_LOST_FROM_UNHAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[COLOR_NEGATIVE_TEXT]-{1_NUM}[ENDCOLOR]  [ICON_HAPPINESS_3]불행에서 획득', 'TXT_KEY_TP_FAITH_LOST_FROM_UNHAPPINESS');
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_HAPPINESS_1]행복에서 획득', 'TXT_KEY_TP_SCIENCE_GAINED_FROM_HAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_HAPPINESS_1]행복에서 획득', 'TXT_KEY_TP_SCIENCE_GAINED_FROM_HAPPINESS');
 
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_RESEARCH] [ICON_HAPPINESS_3]불행에서 손실', 'TXT_KEY_TP_SCIENCE_LOST_FROM_UNHAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_RESEARCH] [ICON_HAPPINESS_3]불행에서 손실', 'TXT_KEY_TP_SCIENCE_LOST_FROM_UNHAPPINESS');
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[COLOR_NEGATIVE_TEXT]-{1_NUM}[ENDCOLOR] [ICON_HAPPINESS_3]불행에서 손실', 'TXT_KEY_TP_CULTURE_LOST_FROM_UNHAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[COLOR_NEGATIVE_TEXT]-{1_NUM}[ENDCOLOR] [ICON_HAPPINESS_3]불행에서 손실', 'TXT_KEY_TP_CULTURE_LOST_FROM_UNHAPPINESS');
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]행복에서 획득', 'TXT_KEY_TP_CULTURE_GAINED_FROM_HAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+INSERT INTO Language_ko_KR (Text, Tag)
+VALUES ('[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]행복에서 획득', 'TXT_KEY_TP_CULTURE_GAINED_FROM_HAPPINESS');
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_CULTURE]문화로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 2 );
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED'
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_GOLDEN_AGE]황금기 점수로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 3 );
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED'
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_RESEARCH]과학으로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 4 );
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED'
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_PEACE]신앙으로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 5 );
-
-INSERT INTO Language_ko_KR (
-Text, Tag)
-SELECT '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다!', 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED_S'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED'
 
 
 -- Resource Changes

@@ -12,7 +12,25 @@
 			<Text>지역 자원</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_MISC_RESOURCES">
-			<Text>정책, 종교, 기업으로부터의 자원</Text>
+			<Text>기타 자원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_GP_RESOURCES">
+			<Text>위인에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CORP_RESOURCES">
+			<Text>기업에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FRANCHISE_RESOURCES">
+			<Text>기업 프렌차이즈에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CS_ALLY_RESOURCES">
+			<Text>도시국가 동맹 수에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_STRAT_MOD_RESOURCES">
+			<Text>전략 자원 변경자에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_REL_MOD_RESOURCES">
+			<Text>종교 자원 변경자에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CP_DIPLO_DP">
 			<Text>방어 조약</Text>

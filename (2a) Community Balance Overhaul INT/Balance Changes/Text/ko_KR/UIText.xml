@@ -47,9 +47,6 @@
 		<Row Tag="TXT_KEY_MILITARY_SUPPLY_ADV_QUEST">
 			<Text>군사 보급이 무엇입니까?</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE">
-			<Text>[COLOR_CYAN]후퇴 확률: {1_Num}%[ENDCOLOR]</Text>
-		</Row>
 		<Row Tag="TXT_KEY_DUDE_8">
 			<Text>헤로도토스</Text>
 			<Plurality>2</Plurality>
@@ -273,7 +270,7 @@
 		
 
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
-			<Text>군사 유닛 수: {2_Num}/현재 군사 보급 한도: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]전쟁 피로도 보급 감소율: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]군사 보급:[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{4_Num}[ENDCOLOR]  [ICON_CITY_STATE]소유한 도시에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{3_Num}[ENDCOLOR]  [ICON_CITIZEN]총 시민 수에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{5_Num}[ENDCOLOR]  [ICON_CHECKBOX]난이도에서[NEWLINE]  [NEWLINE][NEWLINE]군사 보급 감소:[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{8_Num}[ENDCOLOR]  [ICON_RESEARCH]기술 수준에서[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{7_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서[NEWLINE][NEWLINE][ICON_WAR]전쟁 피로도 때문에 군사 유닛의 [ICON_GOLD]/[ICON_PEACE]비용이 [COLOR_NEGATIVE_TEXT]{9_Num}%[ENDCOLOR] 증가합니다.[NEWLINE]</Text>
+			<Text>군사 유닛 수: {2_Num}/현재 군사 보급 한도: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]전쟁 피로도 보급 감소율: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]군사 보급:[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{4_Num}[ENDCOLOR]  [ICON_CITY_STATE]소유한 도시에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{3_Num}[ENDCOLOR]  [ICON_CITIZEN]총 시민 수에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{5_Num}[ENDCOLOR]  [ICON_CHECKBOX][NEWLINE]  [ICON_BULLET]+{10_Num} [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] 위인에서[NEWLINE]  [NEWLINE][NEWLINE]군사 보급 감소:[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{8_Num}[ENDCOLOR]  [ICON_RESEARCH]기술 수준에서[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{7_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서[NEWLINE][NEWLINE][ICON_WAR]전쟁 피로도 때문에 군사 유닛의 [ICON_GOLD]/[ICON_PEACE]비용이 [COLOR_NEGATIVE_TEXT]{9_Num}%[ENDCOLOR] 증가합니다.[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY">
@@ -285,15 +282,6 @@
 
 		<Row Tag="TXT_KEY_MO_SORT_LEVEL">
 			<Text>유닛 레벨 순 정렬</Text>
-		</Row>
-
-		<!-- Tooltip for Defensive Pacts -->
-		<Row Tag="TXT_KEY_DIPLO_DEFENSE_PACT_UNKNOWN">
-			<Text>[COLOR_NEGATIVE_TEXT]그들은 누군가와 방어 조약을 맺고 있습니다![ENDCOLOR]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_DIPLO_DEFENSE_PACT_WITH_US">
-			<Text>[COLOR_NEGATIVE_TEXT]우리는 그들과 방어 조약을 맺고 있습니다![ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Espionage Tooltip -->
@@ -428,13 +416,6 @@
 
 		<Row Tag="TXT_KEY_EUPANEL_FROM_TERRAIN_BONUS">
 			<Text>지형 방어력</Text>
-		</Row>
-
-
-
-		<!-- Text for Preview Combat Miscellaneous Bonuses -->
-		<Row Tag="TXT_KEY_MISC_BONUS">
-			<Text>기타</Text>
 		</Row>
 
 		<!-- Text for HappinessInfo.lua -->
@@ -747,8 +728,8 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_TARGET_S">
 			<Text>{1_PlayerName}의 음악가가 도착했습니다!</Text>
-		</Row>		<!-- Tourism Bonus Turns Change for GM -->
-
+		</Row>		
+		<!-- Tourism Bonus Turns Change for GM -->
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS">
 			<Text>당신의 음악가들이 {1_PlayerAdj} 사람들에게 좋은 반응을 얻었습니다. 모든 문명에 대한 [ICON_TOURISM]관광이 {2_Num}턴 동안 +[COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하고, 대상 문명에 대한 [ICON_TOURISM]관광이 {2_Num}턴 동안 +[COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
@@ -761,14 +742,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET_S">
 			<Text>{1_PlayerName}의 음악가가 도착했습니다!</Text>
 		</Row>
-		
-		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
-			<Text>+100% 콘서트 투어에서 ({1_NumTurns} 턴 남음)[NEWLINE]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
-			<Text>+50% 콘서트 투어에서 ({1_NumTurns} 턴 남음)[NEWLINE]</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_UPANEL_TOURISM_TURNS_TT">
 			<Text>콘서트 투어의 길이를 나타냅니다. 길이는 문명이 소유한 걸작 음악의 개수에 비례합니다.</Text>
 		</Row>

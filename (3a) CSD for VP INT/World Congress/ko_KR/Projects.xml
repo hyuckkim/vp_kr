@@ -38,7 +38,7 @@
 			<Text>함대의 주인</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP">
-			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]대운하[ENDCOLOR] 불가사의가 출현합니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]대운하[ENDCOLOR] 불가사의가 출현합니다.([COLOR_POSITIVE_TEXT]추가[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] 교역로를 얻습니다. 잠수함과 항공모함을 제외한 모든 해군 유닛이 [COLOR_POSITIVE_TEXT]보물 선단[ENDCOLOR] 승급을 얻어, which grants +10% [ICON_STRENGTH] 공격할 때 +10% 전투력 보너스, 시야 +1을 얻고, [COLOR_POSITIVE_TEXT]아군 영토 밖[ENDCOLOR]에서 회복할 수 있게 됩니다.)</Text>
 		</Row>
 		<!-- Wargames -->
 		<Row Tag="TXT_KEY_PROCESS_WARGAMES">
@@ -76,7 +76,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP">
-			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]메닝 문[ENDCOLOR] 불가사의가 출현합니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]메닝 문[ENDCOLOR] 불가사의가 출현합니다. (건설 시 +2 [ICON_HAPPINESS_1] 행복을 제공합니다. 아군 유닛이 사망할 때마다 +2 [ICON_CULTURE] 문화와 +2 [ICON_GOLDEN_AGE] 황금기 점수를 얻습니다. (시대별 보정) 요새, 성채, 랜드마크가 +2 [ICON_CULTURE] 문화와 +2 [ICON_GOLDEN_AGE] 황금기 점수를 제공합니다.)</Text>
 		</Row>
 		<!-- UNITED_NATIONS -->
 		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS">
@@ -107,13 +107,13 @@
 			<Text>상임이사국</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP">
-			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]영사관[ENDCOLOR] 국가 불가사의가 출현합니다. 모든 도시 국가에 대한 [ICON_INFLUENCE]영향력을 즉시 [COLOR_POSITIVE_TEXT]25[ENDCOLOR]만큼 제공합니다.</Text>
+			<Text>모든 도시 국가에 대한 [ICON_INFLUENCE]영향력을 즉시 [COLOR_POSITIVE_TEXT]25[ENDCOLOR]만큼 제공합니다. [ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]영사관[ENDCOLOR] 국가 불가사의가 출현합니다. (도시 국가 8개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3">
 			<Text>사무 총장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP">
-			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR] 불가사의가 출현합니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR] 불가사의가 출현합니다. (도시 국가 8개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [ICON_GREAT_PEOPLE] 위인을 소모할 때마다, 만난 [ICON_CITY_STATE]모든 도시국가가 25 [ICON_INFLUENCE]영향력을 얻고, [COLOR_POSITIVE_TEXT]유엔[ENDCOLOR] 특별 회기가 열리면 [ICON_GOLDEN_AGE] 황금기를 시작합니다.)</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>
