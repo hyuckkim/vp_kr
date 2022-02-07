@@ -3536,7 +3536,7 @@
 			<Text>그들은 우리의 우수한 기술을 질투합니다!</Text>
 		</Row>
 		<!-- Cultural Dispute Mod (for cultural civs) -->
-		<Row Tag="TXT_KEY_DIPLO_POLICY_DISPUTE">
+		<Row Tag="TXT_KEY_DIPLO_POLICY_BLOCK">
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 문화 발전을 위해 경쟁하고 있습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_POLICY_BLOCK_FIERCE">
@@ -3840,6 +3840,24 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DOF_S_BROKEN">
 			<Text>{1_CivName:textkey}{1: plural 1?과; 2?와;} {2_CivName:textkey}{2: plural 1?은; 2?는;} 더 이상 친구가 아닙니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_S">
+			<Text>합동 전쟁이 취소되었습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_DOF">
+			<Text>당신과 {1_CivName} 사이의 우호 선언으로 인해, 당신과 {2_CivName} 사이의 합동 전쟁 약속이 종료되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_DP">
+			<Text>당신과 {1_CivName} 사이의 방위 조약으로 인해, 당신과 {2_CivName} 사이의 합동 전쟁 약속이 종료되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_INVALID_TARGET">
+			<Text>{1_CivName}{1: plural 1?은; 2?는;} 더 이상 유효한 전쟁 목표가 아니므로, 당신과 {2_CivName} 사이의 합동 전쟁 약속이 종료되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_AGGRESSION">
+			<Text>{1_CivName}{1: plural 1?과; 2?와;} 우호 선언이 조기에 종료됨으로, 약속한 합동 전쟁 약속이 종료되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_ELIMINATED">
+			<Text>{1_CivName}{1: plural 1?이; 2?가;} 더 이상 전쟁을 수행할 수 없으므로, 약속한 합동 전쟁 약속이 종료되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_CBP_WEAK">
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 당신과 경쟁하고 있어 경계하고 있습니다.[ENDCOLOR]</Text>
