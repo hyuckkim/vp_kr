@@ -3854,7 +3854,7 @@
 			<Text>{1_CivName}{1: plural 1?은; 2?는;} 더 이상 유효한 전쟁 목표가 아니므로, 당신과 {2_CivName} 사이의 합동 전쟁 약속이 종료되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_AGGRESSION">
-			<Text>{1_CivName}{1: plural 1?과; 2?와;} 우호 선언이 조기에 종료됨으로, 약속한 합동 전쟁 약속이 종료되었습니다.</Text>
+			<Text>{1_CivName}{1: plural 1?과; 2?와;} 우호 선언이 조기에 종료됨으로, 합동 전쟁 약속이 종료되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_ELIMINATED">
 			<Text>{1_CivName}{1: plural 1?이; 2?가;} 더 이상 전쟁을 수행할 수 없으므로, 약속한 합동 전쟁 약속이 종료되었습니다.</Text>
