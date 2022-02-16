@@ -222,7 +222,7 @@ SET Text = 'The Ceilidh Hall is a Medieval-era building unique to the Celts, rep
 WHERE Tag = 'TXT_KEY_BUILDING_CEILIDH_HALL_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '다른 누구도 혜택을 받을 수 없는 고유의 [COLOR_POSITIVE_TEXT]종교관[ENDCOLOR]을 선택할 수 있습니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시는 다른 종교의 [COLOR_POSITIVE_TEXT]압력[ENDCOLOR]을 받지도 제공하지도 않습니다. 당신 문명의 대중 종교를 따르는 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '다른 누구도 혜택을 받을 수 없는 고유의 [COLOR_POSITIVE_TEXT]종교관[ENDCOLOR]을 선택할 수 있습니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시는 다른 종교의 [COLOR_POSITIVE_TEXT]압력[ENDCOLOR]을 받지도 제공하지도 않습니다. 당신 문명의 종교관이나 대중 종교를 따르는 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_FAITH_FROM_NATURE';
 
 UPDATE Language_ko_KR
