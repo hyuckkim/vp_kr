@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
 <GameData>
 	<Language_ko_KR>
@@ -3857,7 +3857,7 @@
 			<Text>{1_CivName}{1: plural 1?과; 2?와;} 우호 선언이 조기에 종료됨으로, 합동 전쟁 약속이 종료되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COOP_WAR_BROKEN_ELIMINATED">
-			<Text>{1_CivName}{1: plural 1?이; 2?가;} 더 이상 전쟁을 수행할 수 없으므로, 약속한 합동 전쟁 약속이 종료되었습니다.</Text>
+			<Text>{1_CivName}{1: plural 1?이; 2?가;} 더 이상 전쟁을 수행할 수 없으므로, 합동 전쟁 약속이 종료되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_CBP_WEAK">
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 당신과 경쟁하고 있어 경계하고 있습니다.[ENDCOLOR]</Text>
