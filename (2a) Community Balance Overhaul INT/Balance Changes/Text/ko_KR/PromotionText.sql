@@ -546,7 +546,7 @@ UPDATE Language_ko_KR
 SET Text = '턴마다 [COLOR_POSITIVE_TEXT]두 번[ENDCOLOR] 공격 할 수 있고, 공격 후 이동이 가능'
 WHERE Tag = 'TXT_KEY_PROMOTION_BLITZ_HELP';
 
--- Indirect Fire, Blitz, Range Combat Strength Reductions
+-- Indirect Fire, Range Combat Strength Reductions
 
 UPDATE Language_ko_KR
 SET Text = '공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE]장애물 넘어 [ICON_RANGE_STRENGTH]원거리 공격 가능 [COLOR:110:110:110:255](시야 확보 시)[ENDCOLOR]'
