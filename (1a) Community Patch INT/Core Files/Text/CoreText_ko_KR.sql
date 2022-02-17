@@ -1678,6 +1678,10 @@ UPDATE Language_ko_KR
 SET Text = '내가 전쟁보다는 외교를 선호하는 이유가 바로 이겁니다!'
 WHERE Tag = 'TXT_KEY_LEADER_PEDRO_DEFEATED_1';
 
+UPDATE Language_ko_KR
+SET Text = '당신이 비록 이겼지만 나의 국민들은 언제나 진정한 왕인 나를 기억할 것이오.'
+WHERE Tag = 'TXT_KEY_LEADER_CASIMIR_DEFEATED_3';
+
 
 -- Report Coop War Plans to Target AI
 UPDATE Language_ko_KR
