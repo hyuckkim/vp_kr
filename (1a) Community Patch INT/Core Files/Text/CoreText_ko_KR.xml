@@ -3353,10 +3353,10 @@
 		</Row>
 		<!-- No Supply -->
 		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY">
-			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_PRODUCTION]생산할 수 없습니다.</Text>
+			<Text>[NEWLINE]최대 보급 한도 때문에 이 유닛을 [ICON_PRODUCTION]생산할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY_PURCHASE">
-			<Text>[NEWLINE]보급 한도 때문에 이 유닛을 [ICON_GOLD]구매할 수 없습니다.</Text>
+			<Text>[NEWLINE]최대 보급 한도 때문에 이 유닛을 [ICON_GOLD]구매할 수 없습니다.</Text>
 		</Row>
 		<!-- Lack of gross resource (before deductions) -->
 		<Row Tag="TXT_KEY_NO_ACTION_UNIT_LACKS_GROSS_RESOURCES">
