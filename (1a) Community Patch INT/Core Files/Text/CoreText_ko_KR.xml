@@ -6530,10 +6530,10 @@
 			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 당신 문명의 새로운 대중 종교가 되었습니다. 이 종교적 지위의 변화는 당신의 시민 뿐만 아니라 다른 문명과의 관계에도 영향을 미칩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_STATE_RELIGION_S">
-			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 이제 당신의 주요[ICON_RELIGION]종교입니다!</Text>
+			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 이제 당신의 주요 [ICON_RELIGION]종교입니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_STATE_RELIGION">
-			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 당신 문명의 새로운 주요[ICON_RELIGION]종교가 되었습니다. 당신은 이제 이전 [ICON_RELIGION]종교의 교리 대신 {1_ReligionName}의 창시자 및 강화 교리의 혜택을 받습니다.</Text>
+			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 당신 문명의 새로운 주요 [ICON_RELIGION]종교가 되었습니다. 당신은 이제 이전 [ICON_RELIGION]종교의 교리 대신 {1_ReligionName}의 창시자 및 강화 교리의 혜택을 받습니다.</Text>
 		</Row>
 		<!-- Holy City Lost/Gained-->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_LOST_HOLY">
