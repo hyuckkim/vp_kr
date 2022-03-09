@@ -265,15 +265,15 @@ WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT';
 
 UPDATE Language_ko_KR
 SET Text = '야만인 주둔지'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT';
 
 UPDATE Language_ko_KR
 SET Text = '야만인 주둔지'
-WHERE Tag = 'TXT_KEY_IMPROVEMENT_ENCAMPMENT'
+WHERE Tag = 'TXT_KEY_IMPROVEMENT_ENCAMPMENT';
 
 UPDATE Language_ko_KR
 SET Text = '야만인 주둔지는 당신의 문명을 뒤집어 엎고 파괴하는데 여념이 없는 광포한 야만인의 무리가 세운 임시 정착지입니다. 문명의 영원한 눈엣가시 같은 이 야만인 주둔지에서는 당신의 도시를 침략하고, 영지를 약탈하며, 부녀자를 외설적인 눈빛으로 바라보는 분노한 야만인이 끝없이 쏟아져 나올 수 있습니다. 당신의 도시 근처에 있는 야만인 주둔지는 무조건 파괴해야 합니다. 당신이 비열한 지도자라면, 경쟁 문명에 더 가까이 있는 야만인 주둔지는 적을 괴롭히기 위해 그대로 놔둘 수도 있습니다.'
-WHERE Tag = 'TXT_KEY_IMPROVEMENT_BARBARIAN_CAMP_PEDIA'
+WHERE Tag = 'TXT_KEY_IMPROVEMENT_BARBARIAN_CAMP_PEDIA';
 
 -- CS Protection Tooltip for new influence perk
 UPDATE Language_ko_KR
@@ -290,20 +290,20 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_INFLUENCE]영향력이 "중립" 정지점 이상임'
-WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE'
+WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE';
 
 UPDATE Language_ko_KR
 SET Text = '총 산출량의 [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]를 공물로 바침'
-WHERE Tag = 'TXT_KEY_CSTATE_CAN_BULLY'
+WHERE Tag = 'TXT_KEY_CSTATE_CAN_BULLY';
 
 UPDATE Language_ko_KR
 SET Text = '당신의 군대를 두려워하지 않으므로 공물을 바치지 않을 것입니다.(현재 정지점 이하 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR])'
-WHERE Tag = 'TXT_KEY_CSTATE_CANNOT_BULLY'
+WHERE Tag = 'TXT_KEY_CSTATE_CANNOT_BULLY';
 
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]Fallout deals 15 Damage to Units that end their turn on a tile with Fallout.[ENDCOLOR][NEWLINE][NEWLINE]Fallout is the residual radiation left over following a nuclear explosion. The fallout "falls out" of the air as a layer of radioactive particles which are highly dangerous to plants and animals, killing them immediately or damaging their DNA, giving them cancer, other diseases, or unfortunate mutations. Depending upon the type of nuclear explosion, the land may remain poisoned for decades, possibly centuries. Cleanup requires the replacement of the contaminated buildings, soil and vegetation.'
-WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA'
+WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA';
 
 INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILD_FARM_REC', '해당 타일의 [ICON_FOOD]식량을 증가시킵니다. 인접한 농장 2개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 담수와 인접하면 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.');
@@ -402,61 +402,61 @@ WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES';
 
 UPDATE Language_ko_KR
 SET Text = '비점령 도시의 [ICON_CITIZEN]시민은 직접적으로 [ICON_HAPPINESS_3]불행을 생성하지 않습니다. 각 도시의 [ICON_HAPPINESS_3]불행의 출처를 보려면 툴팁을 참고하십시오.'
-WHERE Tag = 'TXT_KEY_POP_UNHAPPINESS_TT'
+WHERE Tag = 'TXT_KEY_POP_UNHAPPINESS_TT';
 
 UPDATE Language_ko_KR
 SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다.'
-WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT'
+WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT';
 
 UPDATE Language_ko_KR
 SET Text = '비점령 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다. [COLOR:105:105:105:255](보통)[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY'
+WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_OCCUPIED]점령된 도시마다 [ICON_HAPPINESS_3]불행을 0 생성합니다.'
-WHERE Tag = 'TXT_KEY_NUMBER_OF_OCCUPIED_CITIES_TT'
+WHERE Tag = 'TXT_KEY_NUMBER_OF_OCCUPIED_CITIES_TT';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_OCCUPIED]점령 도시의 [ICON_CITIZEN]시민마다 [ICON_HAPPINESS_3]불행이 1 증가합니다.'
-WHERE Tag = 'TXT_KEY_OCCUPIED_POP_UNHAPPINESS_TT'
+WHERE Tag = 'TXT_KEY_OCCUPIED_POP_UNHAPPINESS_TT';
 
 UPDATE Language_ko_KR
 SET Text = '불행 순 정렬'
-WHERE Tag = 'TXT_KEY_EO_SORT_STRENGTH'
+WHERE Tag = 'TXT_KEY_EO_SORT_STRENGTH';
 
 UPDATE Language_ko_KR
 SET Text = '도시가 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 뒤에 완전히 [ICON_RAZING]소각되어 재만 남습니다! [ICON_CITIZEN]시민의 100%가 [ICON_HAPPINESS_3]불행을 생성합니다.'
-WHERE Tag = 'TXT_KEY_CITY_BURNING'
+WHERE Tag = 'TXT_KEY_CITY_BURNING';
 
 UPDATE Language_ko_KR
 SET Text = '도시에서 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 동안 [ICON_RESISTANCE]저항이 발생합니다! 도시는 그동안 아무것도 할 수 없습니다. [ICON_CITIZEN]시민의 100%가 [ICON_HAPPINESS_3]불행을 생성합니다.'
-WHERE Tag = 'TXT_KEY_CITY_RESISTANCE'
+WHERE Tag = 'TXT_KEY_CITY_RESISTANCE';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_OCCUPIED]점령/[ICON_RESISTANCE]저항 도시의 [ICON_CITIZEN]시민에서 획득'
-WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION'
+WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num : number "#.##"}[ENDCOLOR]  [ICON_CITIZEN]도시화에서 획득 (전문가)'
-WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS'
+WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS';
 
 -- Tutorial Text
 
 UPDATE Language_ko_KR
 SET Text = 'The happiness system in the Community Balance Overhaul is completely revised, favoring neither tall nor wide playstyles. Happiness is now wholly localized, and is based on a cause-and-effect mechanism that makes your empire feel far more alive, and dynamic, than ever before. [NEWLINE][NEWLINE]Your happiness is displayed on the status line of the Main Screen (in the upper left-hand corner of the game). Watch it carefully. If it starts to drop below 75%, your population is getting restless. If it starts to dip below 50%, you are in trouble. (Incidentally, you can get an excellent snapshot of your happiness by hovering your cursor over this number.)[NEWLINE][NEWLINE]One important note to remember - happiness generated from city buildings and city-based policies can never exceed its population.'
-WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_BODY'
+WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_BODY';
 
 UPDATE Language_ko_KR
 SET Text = 'The following increase your happiness:[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Luxury Resources[ENDCOLOR]: Improve resources within your territory or trade for them with other civs. Each kind of resource improves your happiness. Luxuries grant happiness as a factor of total empire population. The higher your pop, the more happiness your luxuries provide. This makes luxuries less vital early on, as +1 Happiness is not as big of a deal, yet it does not punish tall or wide strategies because the focus is on overall population, not the number of cities. In short, Luxuries "level up" as your empire grows in population.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Buildings[ENDCOLOR]: Certain buildings increase your happiness, while others reduce Unhappiness from things like Distress and Poverty (thus indirectly boosting your Happiness). These include the Arena, the Circus, the Zoo, and others. Each building constructed anywhere in your civ increases your overall happiness (so two Arenas produce twice as much happiness as one, unlike Luxuries).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Wonders[ENDCOLOR]: Certain wonders like Notre Dame and the Hanging Gardens can give you a big boost in happiness.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Social Policies[ENDCOLOR]: Policies provide a lot of happiness, but in different ways.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Technologies[ENDCOLOR]: Technologies in themselves do not provide happiness, but they do unlock the buildings, wonders, resources and social policies which do.'
-WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY'
+WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY';
 
 UPDATE Language_ko_KR
 SET Text = 'City happiness is no longer directly affected by the number of citizens in a city. Instead, happiness is based on a set of functions that look at economic variables. Overall, population is still key, however per-city unhappiness is a bit easier to manage (and tailor to certain play-styles). This makes Tall and Wide gameplay equally feasible, so long as your empire is well-managed. Furthermore, Citizens can only be "unhappy" for one value at a time, based on a scale of want. If a citizen is unhappy from Poverty, for example, that same citizen cannot be unhappy from anything else until the Poverty issue is resolved (thus the unhappiness generated by any one city is capped at the population of the city).[NEWLINE][NEWLINE]How this works: The yield-based functions combine the yields of your city, dividing this value by its population. This value is then compared to the rate value per citizen as an average of all city yields per pop in your empire. If the empire rate value per citizen is higher than the rate value of your city, (i.e. you are not producing as much as the rate value expects), the difference between the two is factored by the per-citizen unhappiness value and the unhappiness is generated. In other words, if your cities are behind the empire average in yields per pop, the difference will be converted into unhappiness. This Empire Average will gradually increase as the game progresses (all cities become more and more wealthy over time, therefore the Empire Average of what defines Poverty changes), and increases gradually (around 2%) for every City you found or conquer.[NEWLINE][NEWLINE] Sources of Unhappiness: [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Starvation[ENDCOLOR]: This one can be fatal, so be careful. If a city is starving, this function looks at the value of that starvation (i.e. the negative value of food being consumed) and compares that to the rate value of the function.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pillaged tiles[ENDCOLOR]: Similar to city connections, this function will generate unhappiness based on a rate per citizen value which looks at the number of pillaged tiles. The more pillaged tiles there are, the higher this unhappiness.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Poverty[ENDCOLOR]: This looks at gold yields. If these yields do not exceed the rate criteria, your city has some element of poverty. This is largely inevitable in all but the wealthiest cities.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Isolation[ENDCOLOR]: Blockades or a lack of a city connection will generate unhappiness based on a rate per citizen value. Should only be a problem if you are besieged from the sea, your routes are pillaged and/or you have not connected your cities together. If you connect cities to your capital via an internal trade route (daisy chain or individually), this unhappiness penalty is negated (so blockades or long-distance cities can be "connected" to your capital via trade).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Distress[ENDCOLOR]: This function looks at the basic needs of your city (food and employment, represented by [ICON_FOOD] Food and [ICON_PRODUCTION] Production). If these yields do not exceed the rate criteria, your city has some element of distress. This is inevitable in large cities or cities under siege.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Religious Tension[ENDCOLOR]: This looks at the majority religion of the city, and compares it to the number of citizens that are not part of that religion. If that value exceeds the rate value of the function, you will have some religious strife. This is largely inevitable in most large cities, and can become a major source of unhappiness if you are not careful. You can reduce this value further by building more faith-producing buildings in the city (high faith production has the ability to subtract from your minority population), or simply converting people to your one, true faith.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Illiteracy[ENDCOLOR]: This looks at the science yield of the city. If this yield does not exceed the rate criteria, your city has some element of illiteracy. This is largely inevitable in all but the smartest cities. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Boredom[ENDCOLOR]: This looks at the culture yields of the city. If these yields do not exceed the rate criteria, your city has some element of boredom (i.e. your citizenry is not entertained). This is can be circumvented by building Arena and other such buildings, or through Great Works. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Specialists[ENDCOLOR]: Specialists generate unhappiness at a flat rate based on the number of specialists in your empire. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]War Weariness[ENDCOLOR]: Once you have an ideology, you have the potential to gain empire-wide War Weariness (this is in addition to ideological unrest).'
-WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_BODY'
+WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_BODY';
 
 UPDATE Language_ko_KR
 SET Text = 'There are three levels of unhappiness. Unhappy, Unrest, and Revolt. An Unhappy civilization will reduce growth in all cities and the value of your national yields (i.e. your total science per turn). A civilization experiencing Unrest can have many more problems, including combat penalties and open rebellion, and a civilization in Revolt can potentially have cities abandon your empire.'
-WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY'
+WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY';
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (Text, Tag)
@@ -478,33 +478,33 @@ VALUES ('[NEWLINE][ICON_BULLET]행복에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE
 -- Text for city view tooltip.
 UPDATE Language_ko_KR
 Set Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3]불행 수치: {1_Num}%[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_FOODMOD_UNHAPPY'
+WHERE Tag = 'TXT_KEY_FOODMOD_UNHAPPY';
 
 
 -- Text for city view tooltip.
 UPDATE Language_ko_KR
 Set Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_GOLDEN_AGE]황금기에서'
-WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE'
+WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE';
 
 -- Update Text for Very Unhappy and Super Unhappy
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
 SET Text = '당신의 지지율이 35% 이하입니다. 제국 전역에 공공연한 반란이 일어나고 있습니다. 반란군(야만인)이 나타나 반란이 일어날 수도 있고, 도시가 당신의 제국을 버리고 당신의 문명에 가장 문화적으로 영향을 미치는 문명으로 변모할 수도 있습니다. 모든 도시의 [ICON_FOOD]성장이 더 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.'
-WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY'
+WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY';
 
 UPDATE Language_ko_KR
 SET Text = '당신의 지지율이 20% 이하입니다. 제국 전역이 분열되고 있습니다. 반란군(야만인)이 빈번히 나타나고 도시가 빠르게 당신의 제국을 버리고 당신에게 가장 문화적으로 영향을 미치는 문명으로 변모할 것입니다. 모든 도시의 [ICON_FOOD]성장이 더 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.'
-WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY'
+WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY';
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
 SET Text = '당신의 지지율이 50%를 넘지 못했습니다. 모든 도시의 [ICON_FOOD]성장이 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 10% 감소합니다.'
-WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY'
+WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY';
 
 UPDATE Language_ko_KR
 SET Text = '당신의 지지율이 50%를 넘었습니다. [ICON_HAPPINESS_1]행복한 도시는 더 빨리 [ICON_FOOD]성장하지만 [ICON_HAPPINESS_3]불행한 도시는 [ICON_FOOD]성장과 개척자 생산에 불이익을 받을 것입니다.'
-WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS'
+WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS';
 
 -- TOOLTIPS FOR TOP BAR
 
@@ -545,19 +545,19 @@ VALUES ('[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]행복에서 
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_CULTURE]문화로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED'
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED';
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_GOLDEN_AGE]황금기 점수로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED'
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED';
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_RESEARCH]과학으로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED'
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED';
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_PEACE]신앙으로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED'
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED';
 
 
 -- Resource Changes
