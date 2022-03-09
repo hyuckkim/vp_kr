@@ -42,7 +42,7 @@
 			<Text>[ICON_CITIZEN]시골 주민 선동</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_HELP">
-			<Text>{6_Spy}도시의 농장, 광산, 대농장, 교역소 중 하나가 약탈됩니다. 개발된 [COLOR_POSITIVE_TEXT]전략 자원[ENDCOLOR] 타일이 약탈됩니다. {5_Turns}턴 동안 [ICON_FOOD]인구 성장률이 25% 감소합니다. </Text>
+			<Text>{6_Spy}도시의 농장, 광산, 재배지, 교역소 중 하나가 약탈됩니다. 개발된 [COLOR_POSITIVE_TEXT]전략 자원[ENDCOLOR] 타일이 약탈됩니다. {5_Turns}턴 동안 [ICON_FOOD]인구 성장률이 25% 감소합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_SCIENCE">
 			<Text>[ICON_RESEARCH]과학 훔치기</Text>
