@@ -3716,7 +3716,7 @@
 
 		<!-- Shorten this to make room for opinion display -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_UNKNOWN">
-			<Text>[NEWLINE][ICON_BULLET]알 수 없음: {1_NumDelegates} 대표단 ({2_NumCivs} 문명)</Text>
+			<Text>[NEWLINE][ICON_BULLET]알 수 없음: {1_NumDelegates}표 ({2_NumCivs} 문명)</Text>
 		</Row>
 		
 		<!-- New Warmonger Hate Descriptors -->
