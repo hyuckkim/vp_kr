@@ -541,7 +541,7 @@ SET Text = '공성추는 오직 [ICON_CITY_STATE]도시 국가에서만 선물�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_HUN_BATTERING_RAM';
 
 UPDATE Language_ko_KR
-SET Text = 'Battering Rams can only be gifted by Minor Civilizations. Use Battering Rams to knock down the defenses of a city. They have the Cover I promotion to keep them safe from ranged units; attack them with melee units to defeat them.'
+SET Text = 'After defenders have been cleared away, use Battering Rams to quickly move to an enemy city and knock down its defenses with melee attacks. Battering Rams exist for a long time and become increasingly vulnerable to the units of newer eras, so keep that in mind when choosing new promotions for it.'
 WHERE Tag = 'TXT_KEY_UNIT_HUN_BATTERING_RAM_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -715,7 +715,7 @@ SET Text = '거북선은 오직 [ICON_CITY_STATE]도시 국가에서만 선물�
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_TURTLESHIP_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Turtle Ship has a more powerful attack than the Caravel, and is extremely difficult to destroy.  However it may not enter deep ocean hexes outside of the city borders.'
+SET Text = 'The Turtle Ship has a more powerful attack than the Caravel, and is extremely difficult to destroy due to its Indomitable promotion.  However, it may not enter deep ocean hexes outside of the city borders.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_TURTLESHIP_STRATEGY';
 
 
@@ -959,7 +959,7 @@ SET Text = '발리스타는 오직 [ICON_CITY_STATE]도시 국가에서만 선�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BALLISTA';
 
 UPDATE Language_ko_KR
-SET Text = ' The Ballista is an excellent siege weapon. It is extremely useful against cities, but it is quite vulnerable to attack. Be sure to protect the Ballista with other military units. Moves at half speed in enemy territory.'
+SET Text = ' The Ballista is an excellent siege weapon. While still very useful against cities, its lack of penalties against land units and free Field I promotion gives it an extra punch against other units. The Ballista is still quite vulnerable to attack, so be sure to protect it with other military units. Moves at half speed in enemy territory, but has normal sight range.'
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1134,7 +1134,7 @@ SET Text = '그레이트 갈레아스는 오직 [ICON_CITY_STATE]도시 국가�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS';
 
 UPDATE Language_ko_KR
-SET Text = 'The Great Galleass can only be gifted by Minor Civilizations. Has a stronger ranged attack, and is more resilient in battle.'
+SET Text = '그레이트 갈레아스는 갈레아스와 비슷하지만, 전투력이 높고 원거리 공격력이 더 높습니다. 유산탄 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY';
 
 UPDATE Language_ko_KR
