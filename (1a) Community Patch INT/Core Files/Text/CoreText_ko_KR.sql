@@ -27,7 +27,7 @@ WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- Production Queue
 UPDATE Language_ko_KR
-SET Text = '클릭 : 대기열 마지막에 아이템 추가[NEWLINE]CTRL+클릭 : 대기열 맨 처음에 아이템 추가[NEWLINE]SHIFT+클릭 : 선택된 아이템으로 대기열 전부 대체'
+SET Text = '클릭 : 대기열 마지막에 아이템 추가[NEWLINE]CTRL+클릭 : 대기열 맨 처음에 아이템 추가[NEWLINE]ALT+클릭: 대기열 맨 마지막에 아이템 추가[NEWLINE]SHIFT+클릭 : 선택된 아이템으로 대기열 전부 대체'
 WHERE Tag = 'TXT_KEY_CITYVIEW_QUEUE_PROD_TT';
 
 -- Avoid Growth
