@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/19/2016 10:53:54 AM -->
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_CPO">
+			<Text>기업 &amp; 독점</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_TAB_CORPORATIONS">
+			<Text>당신 문명의 기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_TAB_WORLD_CORPORATIONS">
+			<Text>세계 기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_TAB_MONOPOLIES">
+			<Text>독점</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_AVAILABLE_CORPORATIONS">
+			<Text>이용 가능한 기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_ESTABLISHED_CORPORATIONS">
+			<Text>설립된 기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MONOPOLY_REQUIRED">
+			<Text>독점 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FOUNDER">
+			<Text>설립자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FOUNDER_NONE">
+			<Text>없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_PROGRESS">
+			<Text>진행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_HEADQUARTERS">
+			<Text>본부</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE">
+			<Text>오피스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FRANCHISE">
+			<Text>프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_BENEFIT">
+			<Text>오피스 혜택</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FRANCHISE_BENEFIT">
+			<Text>프랜차이즈 혜택</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_RIGHT_CLICK_MORE_INFO">
+			<Text>(자세한 정보를 보려면 회사 아이콘을 우클릭 하십시오)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICES">
+			<Text>오피스 설립</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FRANCHISES">
+			<Text>프랜차이즈 설립</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FOUND_CORPORATION_AVAILABLE">
+			<Text>기업을 설립할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FOUND_CORPORATION_UNAVAILABLE">
+			<Text>모든 기업이 이미 설립되었기 때문에 더이상 기업을 설립할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FOUND_CORPORATION_HELP">
+			<Text>기업을 설립하려면 필요한 자원에 대한 글로벌 독점을 가지고 있어야 하며, 당신의 도시 중 하나에 기업 본부를 건설해야 합니다. 문명당 하나의 기업만 이용할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YOUR_CORPORATION_HQ">
+			<Text>본부: {1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YOUR_CORPORATION_ESTABLISHED">
+			<Text>설립: {1_Date} ({2_Turn}턴)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YOUR_OFFICES">
+			<Text>당신 문명의 오피스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YOUR_FRANCHISES">
+			<Text>당신 문명의 프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_RIVAL_FRANCHISES">
+			<Text>라이벌 프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_SORT_TT">
+			<Text>이 도시에서 출발하는 외국 교역로의 수. 교역이 끝난 후에 {1_CorpName} 프랜차이즈가 아직 설립되어 있지 않은 경우 도시에 {1_CorpName}{1: plural 1?이; 2?가;} 설립될 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_TT">
+			<Text>도시에 다음 외국 도시와의 교역로가 있습니다:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_TRADE_ROUTES_INSTANCE_TT">
+			<Text>[ICON_BULLET] {1_FromCity} [ICON_ARROW_RIGHT] {2_ToCity} ({3_Franchise})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_NO_FRANCHISE">
+			<Text>프랜차이즈 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_FRANCHISED">
+			<Text>프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_NUM_OFFICES">
+			<Text>오피스 개설:  {2_Num} 중 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_NUM_FRANCHISES">
+			<Text>프랜차이즈 설립:  {2_Max} 중 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_BUILD_FRANCHISES_HELP">
+			<Text>오피스가 있는 도시에서 외국 도시로 [ICON_INTERNATIONAL_TRADE]교역로를 보내 당신 문명의 회사를 널리 확장시키십시오. 매 턴 상대의 문명에 프랜차이즈가 생겨날 가능성이 생기며, [ICON_INTERNATIONAL_TRADE]교역로의 끝에서 당신 문명은 하나의 새로운 프랜차이즈가 설립되는 것을 보장받을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_CORPORATIONS_NOT_READY">
+			<Text>[COLOR_RESEARCH_STORED]기업[ENDCOLOR] 기술의 연구 전에는 기업을 설립할 수 없습니다.</Text>
+		</Row>
+		<!-- World Corporations -->
+		<Row Tag="TXT_KEY_CPO_WC_NO_FRANCHISES">
+			<Text>세계에는 아직 어떤 프랜차이즈도 설립되어있지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NO_CORPORATIONS">
+			<Text>세계에는 아직 어떤 기업도 설립되어있지 않았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CIVILIZATION">
+			<Text>기업 소유자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CIVILIZATION_SORT_TT">
+			<Text>어떤 문명이 기업을 소유하는지[NEWLINE][NEWLINE]기업 소유자 순으로 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CORPNAME">
+			<Text>기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CORPNAME_SORT_TT">
+			<Text>기업 이름[NEWLINE][NEWLINE]기업 이름 순 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CIVILIZATION_TO">
+			<Text>문명</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CIVILIZATION_TO_SORT_TT">
+			<Text>어떤 문명이 프랜차이즈 도시를 소유하고 있는지[NEWLINE][NEWLINE]소유자 순으로 도시를 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CITY_NAME">
+			<Text>프랜차이즈 도시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WF_CITY_NAME_SORT_TT">
+			<Text>프랜차이즈가 위치한 도시의 이름[NEWLINE][NEWLINE]이름 순으로 프랜차이즈 도시를 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_CORPNAME">
+			<Text>기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_CORPNAME_SORT_TT">
+			<Text>기업 이름[NEWLINE][NEWLINE]회사 이름 순으로 회사를 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_CIVILIZATION">
+			<Text>문명</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_CIVILIZATION_SORT_TT">
+			<Text>기업을 설립한 문명[NEWLINE][NEWLINE]설립자별로 회사를 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_HEADQUARTERS">
+			<Text>본사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_HEADQUARTERS_SORT_TT">
+			<Text>기업 본사가 설립된 도시[NEWLINE][NEWLINE]본사 도시별로 회사를 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_DATE_FOUNDED">
+			<Text>설립일</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_DATE_FOUNDED_SORT_TT">
+			<Text>기업이 설립된 날짜[NEWLINE][NEWLINE]설립 날짜별로 회사를 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NUM_OFFICES">
+			<Text># 오피스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NUM_OFFICES_SORT_TT">
+			<Text>이 기업이 설립한 오피스 수.[NEWLINE][NEWLINE]오피스 수별로 회사를 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NUM_FRANCHISES">
+			<Text># 프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_NUM_FRANCHISES_SORT_TT">
+			<Text>이 기업이 설립한 프랜차이즈 수[NEWLINE][NEWLINE]프랜차이즈 수별로 회사를 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_PULLDOWN_CORPORATIONS">
+			<Text>기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_WC_PULLDOWN_FRANCHISES">
+			<Text>프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_RESOURCE">
+			<Text>자원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_RESOURCE_SORT_TT">
+			<Text>자원 이름[NEWLINE][NEWLINE]자원 이름 순으로 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_CIVILIZATION">
+			<Text>문명</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_CIVILIZATION_SORT_TT">
+			<Text>독점권을 가지고 있는 문명[NEWLINE][NEWLINE]문명 순으로 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY">
+			<Text>독점</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY_SORT_TT">
+			<Text>다음 자원에 대한 문명의 독점 보너스 비율[NEWLINE][NEWLINE]독점 비율 순으로 정렬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY_BONUS">
+			<Text>독점 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_NO_CIVILIZATION">
+			<Text>문명 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_MONOPOLY_PERCENT">
+			<Text>{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_PLAYER">
+			<Text>플레이어 선택</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_LABEL_SELECT_TYPE">
+			<Text>독점 유형 선택</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_DROPDOWN_GREATEST">
+			<Text>최대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_ALL">
+			<Text>총</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_GLOBAL">
+			<Text>글로벌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_STRATEGIC">
+			<Text>전략 자원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_MP_PULLDOWN_TYPE_POTENTIAL">
+			<Text>잠재적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YC_PULLDOWN_TYPE_OVERVIEW">
+			<Text>개요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_YC_PULLDOWN_TYPE_OFFICES">
+			<Text>오피스 및 프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_CORPORATION_BONUSES">
+			<Text>보너스:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_RESOURCE_BONUS">
+			<Text>자원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_OFFICE_BONUS">
+			<Text>오피스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_TRADE_ROUTE_BONUS">
+			<Text>교역로</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

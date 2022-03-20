@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/14/2014 8:42:49 PM -->
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]혹독한 처사[ENDCOLOR]: 종속국이 다른 문명, 세계 의회에 의해 해방될 수 없고, 항복한 종속국은 반란을 일으킬 수 없습니다. [ICON_CITY_STATE]도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 종속국의 공물이 그들의 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 노동자의 타일 시설 건설 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 빨라집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
+			<Text>혹독한 처사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_A">
+			<Text>Ruling with an iron fist generally means to require absolute control when managing other people, often in the workplace. The saying can also refer to situations such as child-rearing or styles of government. This idiom is often used to describe the actions and practices of managers, parents, or leaders who give their subordinates little if any freedom of choice or input regarding decisions. Reasons for ruling with an iron fist can often depend on individual circumstances, such as inexperienced workers or unruly children. The effectiveness of using total control can also vary, depending on the scope of the management style and the situation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR]: 모든 도시에 [COLOR_YELLOW]병원[ENDCOLOR]을 무료로 제공합니다. [ICON_CITIZEN]시민이 증가할 때 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
+			<Text>국민 의료보험</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
+			<Text>적 유닛을 처치하거나 타일 시설을 약탈할때 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 연회장의 [ICON_GREAT_PEOPLE]위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
+			<Text>모리안, 투쟁의 인도자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA">
+			<Text>모든 도시의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 국경이 확장될 때 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_FOOD]식량을 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 연회장의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
+			<Text>에포나, 위대한 암말</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA">
+			<Text>"국왕 경축일"이 열리는 동안 [ICON_RESEARCH]과학 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 제국 전역의 모든 고유 사치 자원 및 사용중인 [ICON_INTERNATIONAL_TRADE]교역로마다 [ICON_GOLD]골드, [ICON_RESEARCH]과학, [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
+			<Text>누아다, 은색 팔의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
+			<Text>숲 타일의 [ICON_GOLD]골드 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 정글 타일의 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 야영지 및 재배지의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
+			<Text>케르눈노스, 뿔난 사슴의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH">
+			<Text>모든 전문가의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_FOOD]식량, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 연회장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3 [ENDCOLOR]증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
+			<Text>루, 만능의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
+			<Text>모든 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2 [ENDCOLOR]증가합니다. 모든 자원 위에 건설된 일반 시설의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1 [ENDCOLOR]증가합니다. 연회장의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
+			<Text>리아논, 군주의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
+			<Text>해안 도시의 [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 2명마다 해양 타일의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_GREAT_PEOPLE]위대한 제독 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
+			<Text>마나난, 바다의 아들</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA">
+			<Text>[ICON_CITIZEN]시민 4명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도의 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GREAT_PEOPLE]위대한 과학자 점수 및 위대한 예술가 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
+			<Text>오그마, 깨달은 자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN">
+			<Text>도시의 [ICON_RANGE_STRENGTH]원거리 전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 도시의 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 탄생할 때 [ICON_GOLD]골드 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 이 교리를 따르는 도시 1개마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
+			<Text>브란, 잠자는 수호자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA">
+			<Text>소유한 도시에서 이 교리를 따르는 신도 4명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 유닛이 아군 영토 내에서 회복시 체력을 추가로 5 더 회복합니다. 연회장의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
+			<Text>다그다, 만물의 아버지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]평화, 대지, 빵[ENDCOLOR]: 모든 도시의 [ICON_GOLD]건물 유지비가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소하고 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
+			<Text>평화, 대지, 빵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_O">
+			<Text>The phrase 'Peace, Land, Bread,' popularized by Lenin and others during the early days of the Soviet Revolution, highlighted their desire to focus on the needs of the impoverished Russian peasantry. The Bolshevik Initial Decrees of the 1910-20s were announced as soon as the Bolsheviks declared their success in the October Revolution (October 26, 1917). The decrees conformed to the popular Bolshevik slogan "Peace, Bread, and Land", taken up by the masses during the July Days (July 1917), an uprising of workers and military forces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE">
+			<Text>문화</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE]문화 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
+			<Text>Investing production in art is a good way to boost your Civilization's cutural output, either to grab that next policy or to stave off a Tourism victory. Also reduces boredom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE">
+			<Text>방어</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]를 도시 [ICON_STRENGTH]방어력 및 체력 회복률로 전환시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
+			<Text>Investing production in defense is a last-ditch method to stave off your city's conquest by a foreign power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD">
+			<Text>농업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]기본 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
+			<Text>Investing production in farming is a good way to boost your City's growth, which can be useful if you are falling behind in technologies, or you simply need bigger cities. Also reduces distress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FIRST_ON_MOON">
+			<Text>달 착륙 개시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MANHATTAN_PROJECT">
+			<Text>원자폭탄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY">
+			<Text>여행 금지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY_HELP">
+			<Text>문명 사이의 국제 여행을 제한합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_NEGATIVE_TEXT]35%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS">
+			<Text>여권 시스템</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS_HELP">
+			<Text>문명 사이의 국제 여행이 증가합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+		<!-- Sweden Grenadiers -->
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE">
+			<Text>지역 피해</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
+			<Text>투창</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
+			<Text>광역 피해</Text>
+		</Row>
+		<!-- America UA Tweak -->
+		<Row Tag="TXT_KEY_NOTIFICATION_RESET_PLOT_COST">
+			<Text>새 도시 설립으로 모든 도시의 타일 구매 비용이 재조정되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RESET_PLOT_COST">
+			<Text>명백한 운명!</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

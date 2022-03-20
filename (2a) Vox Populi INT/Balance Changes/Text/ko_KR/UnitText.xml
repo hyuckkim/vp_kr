@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2016 5:01:33 PM -->
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_PROMOTION_HOVER_UNIT">
+			<Text>호버링 유닛 착수</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOVER_UNIT_HELP">
+			<Text>연안 타일 승선 가능[ENDCOLOR][NEWLINE]승선 유닛 대양 타일 진입 가능[NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
+			<Text>습지 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER_HELP">
+			<Text>습지 및 범람윈에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER">
+			<Text>설원 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER_HELP">
+			<Text>설원에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER">
+			<Text>숲/정글 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER_HELP">
+			<Text>숲 및 정글에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER">
+			<Text>사막 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER_HELP">
+			<Text>사막에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER">
+			<Text>연안 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER_HELP">
+			<Text>승선 가능[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
+			<Text>언덕 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER_HELP">
+			<Text>언덕에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
+			<Text>철갑선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN">
+			<Text>전격전 (화약)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR">
+			<Text>전격전 (기갑)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRIZE_RULES">
+			<Text>전리품</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRIZE_RULES_HELP">
+			<Text>적 유닛 처치 시 [ICON_CAPITAL]수도에 [ICON_GOLD]골드 제공 [NEWLINE]체력 [COLOR_POSITIVE_TEXT]50이하[ENDCOLOR] 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_I">
+			<Text>공중 방어 I</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_I_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]공습 방어 시 적 공중 유닛에 피해 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]비행[ENDCOLOR] 연구 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_II">
+			<Text>공중 방어 II</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_II_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]공습 방어 시 적 공중 유닛에 피해 [COLOR_POSITIVE_TEXT]+20[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_III">
+			<Text>공중 방어 III</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_III_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]공습 방어 시 적 공중 유닛에 피해 [COLOR_POSITIVE_TEXT]+25[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUERILLA">
+			<Text>용병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GUERILLA_TEXT">
+			<Text>Soldiers in private military companies (PMCs) are the contemporary strand of the mercenary trade, providing logistics, soldiers, military training, and other services. Thus, PMC contractors are civilians (in governmental, international, and civil organizations) authorized to accompany an army to the field; hence, the term civilian contractor. Nevertheless, PMCs may use armed force, hence defined as: "legally established enterprises that make a profit, by either providing services involving the potential exercise of [armed] force in a systematic way and by military means, and/or by the transfer of that potential to clients through training and other practices, such as logistics support, equipment procurement, and intelligence gathering."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUERILLA_STRATEGY">
+			<Text>Use Mercenaries as a cheap, if slightly less effective means of defending your land from invaders, or as the flanks of a precision attack. Mercenaries receive a large bonus for flanking, so deploy them wisely! Only available if you have unlocked the Finisher policy of the Authority Branch. Can only be obtained via a [ICON_GOLD] Gold purchase.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUERILLA">
+			<Text>측면 공격 보너스가 증가하고 승선 또는 강 건너 공격 시 전투력 보너스가 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]권위[ENDCOLOR] 계열 완성 후 [ICON_GOLD]골드로 구매할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DESC_FIELD_GUN">
+			<Text>야전포</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_PEDIA">
+			<Text>A field gun is an artillery piece. The term was first used to describe smaller guns that could be taken with an army while marching. In battle the field gun could be quickly moved about the battlefield as needed. Guns installed in a fort, siege cannon and mortars were too large to be moved quickly, and would be used only in a long siege.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_STRATEGY">
+			<Text>Field Guns have greater combat power than Cannons, albeit they lack the ability to see very far on their own. Use Field Guns to support your Industrial Era armies, but be careful about letting the enemy get near them!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_HELP">
+			<Text>강력한 산업 시대 공성 유닛으로 2타일 밖에서 공격할 수 있습니다. 적 영토에서 [ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.</Text>
+		</Row>
+		<!-- Carolean-->
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL">
+			<Text>척탄병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL_HELP">
+			<Text>적 유닛 처치 후 진격 시 새로 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]15[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY">
+			<Text>투창</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY_HELP">
+			<Text>요새화할 경우 매 턴 시작마다 인접한 적 유닛에 피해 [COLOR_POSITIVE_TEXT]10[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
+			<Text>징병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS_HELP">
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL">
+			<Text>유닛 처치 시 체력 회복 (15)</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL_HELP">
+			<Text>적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I">
+			<Text>개척 I</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I_HELP">
+			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]숲 및 정글에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_II">
+			<Text>개척 II</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_II_HELP">
+			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]사막 및 설원에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_III">
+			<Text>개척 III</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_III_HELP">
+			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]승선 가능, 산 타일에서 이동 가능, 적 도로 이용 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_I">
+			<Text>화약 유닛 대항 보너스 (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_I_HELP">
+			<Text>화약 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_II">
+			<Text>공성 유닛 대항 보너스 (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_II_HELP">
+			<Text>공성 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_III">
+			<Text>공격 보너스 (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_III_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_I">
+			<Text>특공대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP_I">
+			<Text>근접 전투 시 60% 확률로 후퇴. 후퇴 확률은 적 유닛의 이동력 또는 뒤 타일의 제한에 따라 낮아질 수 있음.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COERCION">
+			<Text>강압</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
+			<Text>패배한 적 지상 유닛이 아군에 합류</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT">
+			<Text>징집</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT_HELP">
+			<Text>[COLOR_MAGENTA]징집[ENDCOLOR] 정책에서 승급 부여[NEWLINE][ICON_WAR]유닛 공급 한도 차지 안함[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE_II">
+			<Text>돌격 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE_II_HELP">
+			<Text>평지에서 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GUERILLA_FIGHTER_HELP">
+			<Text>부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE]측면 공격 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 내 체력 회복 시 추가 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE]지형에 상관없이 타일마다 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 소모</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GUERILLA_FIGHTER">
+			<Text>게릴라 전투</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
+			<Text>전-진!</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK">
+			<Text>아틀라틀 투척</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK_HELP">
+			<Text>부상 유닛 공격 시 [ICON_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE">
+			<Text>해상 유닛 대항 페널티</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE_HELP">
+			<Text>해상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-20%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY">
+			<Text>부정확성 (공성)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
+			<Text>지상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-33%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
+			<Text>부정확성 (해상)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY_HELP">
+			<Text>지상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR">
+			<Text>전쟁 포로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR_HELP">
+			<Text>50턴 동안 시설 및 도로 건설 속도 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 느려짐</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_I">
+			<Text>엄호 사격 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_I_HELP">
+			<Text>요새화한 유닛, 도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR][NEWLINE]기갑 유닛 대항 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR][NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]2타일 이내의 적 지상 유닛의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_II">
+			<Text>엄호 사격 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_II_HELP">
+			<Text>요새화한 유닛 및 도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]2타일 이내의 적 지상 유닛의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]-10%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT">
+			<Text>파라오의 선물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT_HELP">
+			<Text>유닛 처치 시 유닛을 생산한 도시에 [ICON_PRODUCTION]생산을 제공</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RAIDER">
+			<Text>침입자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RAIDER_HELP">
+			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]도시에 주는 피해의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]만큼 [ICON_GOLD]골드를 약탈[NEWLINE][COLOR:105:105:105:255](한도: 도시[ICON_STRENGTH]전투력의 10배)[ENDCOLOR][NEWLINE]적 도로 이용 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS">
+			<Text>약화 사격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 공격 후 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]의 확률로 적 유닛 후퇴[NEWLINE]후퇴 불가 시 평소보다 피해 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION">
+			<Text>낙진 저항</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION_HELP">
+			<Text>방사능 낙진 피해 [COLOR_POSITIVE_TEXT]-10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_IMMUNITY">
+			<Text>낙진 면역</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_IMMUNITY_HELP">
+			<Text>방사능 낙진 피해 무시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS">
+			<Text>엔지니어링</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS_HELP">
+			<Text>산 및 빙하 타일로 이동 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE">
+			<Text>답사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE_HELP">
+			<Text>지도 탐색 시 경험치 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY">
+			<Text>도시 공격 페널티 (75)</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력 [COLOR_NEGATIVE_TEXT]-75%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL">
+			<Text>빠른 장군</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS">
+			<Text>무차별 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS_HELP">
+			<Text>야만인 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER">
+			<Text>제국주의</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER_HELP">
+			<Text>시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP">
+			<Text>연대 전통</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP_HELP">
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]효과 범위 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
+			<Text>무사도</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
+			<Text>첫 전투를 완료하면 기존 승급이 무작위 승급으로 교체됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS">
+			<Text>정도</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]부상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
+			<Text>용기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
+			<Text>자애</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]체력 회복 시 인접한 타일의 유닛 체력 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
+			<Text>존경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]근접 및 화약 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
+			<Text>진심</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]전투 경험치 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR">
+			<Text>명예</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스[COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
+			<Text>충성심</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]우호 영토 내 전투 시 [ICON_STRENGTH]전투력 보너스[COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
+			<Text>자제력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP">
+			<Text>공중 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II_HELP">
+			<Text>공중 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_MISFIRE">
+			<Text>회피 기동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_MISFIRE_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE]지상 및 해상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_I_HELP">
+			<Text>공중 요격 회피 확률 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_II_HELP">
+			<Text>공중 요격 회피 확률 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_III">
+			<Text>스텔스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_III_HELP">
+			<Text>공중 요격 회피 확률 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]요격에 의한 피해 [COLOR_POSITIVE_TEXT]-25%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+50[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HELI_REPAIR">
+			<Text>빠른 수리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
+			<Text>공중 목표 설정 III</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
+			<Text>해상 및 지상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARSENALE">
+			<Text>베네치아 공작술</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARSENALE_HELP">
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO">
+			<Text>미사일 격납고</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO_HELP">
+			<Text>핵무기로 파괴 불가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXPLORER_CBP">
+			<Text>탐험가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXPLORER_STRATEGY_CBP">
+			<Text>Explorers are a useful counterpart to Caravels when setting out to explore across the ocean during the Medieval and Renaissance periods. They are fairly weak and, therefore, are easily defeated by contemporary military units, but their reconaissance abilities are unparalleled until the advent of the Commando.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EXPLORER_CBP">
+			<Text>게임 중반 더 강력한 정찰 유닛으로 승선 시 추가 시야를 확보할 수 있습니다. 해당 유닛으로 새로운 지역을 발견할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EXPLORER_TEXT_CBP">
+			<Text>Exploration is the act of searching for the purpose of discovery of information or resources. Exploration occurs in all non-sessile animal species, including humans. In human history, its most dramatic rise was during the Age of Discovery when European explorers sailed and charted much of the rest of the world, largely in a pursuit of material wealth. Since then, major explorations after the Age of Discovery have occurred for reasons mostly aimed at information discovery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO">
+			<Text>특공대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO_STRATEGY_CBP">
+			<Text>Commandos are scouts and attack units, specializing in striking vulnerable targets through difficult terrain and quickly withdrawing. Use these units to outflank and disrupt enemies on their back lines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COMMANDO_CBP">
+			<Text>산업 시대 정찰 유닛으로, 공격 시 추가 전투력을 얻고 근접 전투 시 60% 확률로 후퇴합니다. 타일 시설을 약탈할 때 경험치를 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COMMANDO_TEXT">
+			<Text>A Commando is an elite light infantry specialized in attacking high-value targets and front-line reconnaissance. The term entered common usage after the Boer Wars and the Great Trek, where Boer Kommando militia employed guerilla and asymmetric tactics to great success against the Xhosa, Zulu, and British armies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_FRIENDLY_CITY_BELIEF_BONUS_CBP">
+			<Text>신앙의 수호자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ENEMY_CITY_BELIEF_BONUS_CBP">
+			<Text>정의로운 전쟁</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_NAVAL_DEFENSE_CITY">
+			<Text>어려운 목표</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_TRAIT_LOW_POP_BONUS">
+			<Text>적보다 적은 인구</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_PER_ADJACENT_UNIT_COMBAT">
+			<Text>인접 유닛 보너스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER">
+			<Text>전투 코끼리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_STRATEGY">
+			<Text>War Elephants are more expensive and slower than the Horseman, but they are also much more powerful. They can move after attacking and strike fear into nearby enemy units, giving them a negative combat modifier. You must have a source of [ICON_RES_IVORY] Ivory to construct War Elephants, and the city where you wish to build them must have a Barracks. Unlike other Military Units, War Elephants do not consume resources when constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_HELP">
+			<Text>창병에게 약하지만 강력한 게임 초반의 기마 유닛입니다. 일반 기마 유닛보다 [ICON_STRENGTH]전투력이 더 높으며 주변 적 유닛에게 공포를 심어줍니다. 하지만 기마병보다 더 느리고 비싸다는 단점이 있습니다.[NEWLINE][NEWLINE]유닛을 생산하려면 [ICON_RES_IVORY][COLOR_YELLOW]상아[ENDCOLOR]를 보유해야 하고 [COLOR_YELLOW]병영[ENDCOLOR]이 건설되어 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_TEXT">
+			<Text>A War Elephant was an elephant trained and guided by humans for combat. Their main use was to charge the enemy, breaking their ranks and instilling terror. Elephantry are military units with elephant-mounted troops. They were first employed in India, the practice spreading out across south-east Asia and westwards into the Mediterranean. Their most famous use in the West was by the Greek general Pyrrhus of Epirus and in significant numbers by the armies of Carthage, including briefly by Hannibal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR">
+			<Text>초원의 유목민</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY">
+			<Text>발견 항해</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP">
+			<Text>이 명령을 통해 소유한 영토에서 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다. 해당 자원은 지도상에 나타나지 않고 다른 문명과 거래할 수 있습니다. 또한 군사 유닛 보급 한도를 2 증가시킵니다. 위인은 이 과정에서 소모됩니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP_DISABLED">
+			<Text>이 능력을 사용하려면 유닛이 해당 영토에 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER">
+			<Text>선구자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit. When founded, cities built by Pioneers start with 3 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Water Mill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do not apply to the buildings constructed by Pioneers!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PIONEER_TEXT">
+			<Text>
+				Pioneers are any of the people in history who migrated to join in settling and developing new areas. The term especially refers to those who were going to settle any territory which had previously not been settled or developed by European or American society, although the territory may have been inhabited by or utilized by native peoples. The pioneer concept and ethos greatly predate the migration to parts of the United States now called Western, as many places now considered as East were also settled by pioneers from the coast. For example, Daniel Boone, a key figure in American history, settled in Kentucky, when that "Dark and Bloody Ground" was still undeveloped. One important development in the Western settlement was the Homestead Act, which provided formal legislation which regulated the settlement process.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PIONEER">
+			<Text>추가 인프라 및 시민을 갖춘 도시를 세울 수 있습니다. [NEWLINE][NEWLINE]유닛을 생산하는 동안 도시의 [ICON_FOOD]성장이 멈춥니다. 유닛 생산을 완료하면 도시의 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1명[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]국경 바로 근처에 인접했거나 제국이 [ICON_HAPPINESS_3]불행하면 도시를 세울 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>식민지 개척자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
+			<Text>Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit. When founded, cities built by Colonists start with 5 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Water Mill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Windmill[NEWLINE][ICON_BULLET] Harbor[NEWLINE][ICON_BULLET] Lighthouse[NEWLINE][ICON_BULLET] Amphitheater[NEWLINE][ICON_BULLET] Temple[NEWLINE][ICON_BULLET] Workshop[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do not apply to the buildings constructed by Colonists!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COLONIST_TEXT">
+			<Text>
+				Studying throughout history, one can witness how colonists, a type of setter, very often occupied land previously home to long-established peoples, designated as indigenous (also called "natives", "Aborigines" or, in the Americas, "Indians"). In some cases (such as Australia), as colonialist mentalities and laws change, the legal ownership of some lands is contested by indigenous people, who either claim or seek restoration of traditional usage, land rights, native title and related forms of legal ownership or partial control. The word "settler" was not originally usually used in relation to unfree labour immigrants, such as slaves (e.g. in the United States), indentured labourers (such as in Colonial America), or convicts (such as in British America, c. 1615–1775; Australia 1788-1868). More recently descendants of these immigrants may argue that they have as much right to use the word "settler" as the descendants of free immigrants. In the figurative usage, a "person who goes first or does something first" also applies to the American English use of "pioneer" to refer to a settler—a person who has migrated to a less occupied area and established permanent residence there, often to colonize the area; as first recorded in English in 1605. In United States history it refers to those people who helped to settle new lands. In this usage, pioneers are usually among the first to an area, whereas settlers can arrive after first settlement and join others in the process of human settlement.[citation needed] This correlates with the work of military pioneers who were tasked with construction of camps before the main body of troops would arrive at the designated camp site.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
+			<Text>추가 인프라 및 시민을 갖춘 도시를 세울 수 있습니다. [NEWLINE][NEWLINE]유닛을 생산하는 동안 도시의 [ICON_FOOD]성장이 멈춥니다. 유닛 생산을 완료하면 도시의 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1명[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]국경 바로 근처에 인접했거나 제국이 [ICON_HAPPINESS_3]불행하면 도시를 세울 수 없습니다.</Text>
+		</Row>
+		<!-- Bandeirantes -->
+		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES">
+			<Text>기수</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES_HELP">
+			<Text>지도 탐색 시 가장 가까운 도시에 [ICON_GOLD]골드 [ICON_CULTURE]문화 [ICON_RESEARCH]과학 제공</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES">
+			<Text>반데이란테스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_TEXT">
+			<Text>The Bandeirantes ("those who carry the flag") were 17th-century Portuguese settlers in Brazil and fortune hunters. They led expeditions called bandeiras ("flags") which penetrated the interior of Brazil far south and west of the Tordesillas Line of 1494, which officially divided the Castilian or later Spanish (west) domain from the Portuguese (east) domain in South America. Though they originally aimed to capture and force Indigenous Americans into slavery, the bandeirantes later began to focus their expeditions on finding gold, silver, and diamond mines. As they ventured into unmapped regions in search of profit and adventure, they expanded the effective borders of the Brazilian colony.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_STRATEGY">
+			<Text>Medieval-Era Unit that is unique to Brazil, replacing the Explorer. Is faster and stronger than the Explorer, and is available earlier. Generates Gold, Culture, and Science from exploring unrevealed tiles. These yields are added to the nearest owned city. Also has the ability to construct Fort, Quarry, Mine, and Brazilwood Camp Improvements in owned territory, and is stronger versus Barbarians. Use these units to explore, clear any remaining Barbarian Encampments, and generate valuable yields for your frontier cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_HELP">
+			<Text>탐험가를 대체하는 브라질의 고유 유닛 입니다. 이 유닛으로 지도를 밝힐 때 가장 가까운 도시에 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_RESEARCH]과학을 제공합니다. 소유한 영토에 요새, 채석장, 광산, 브라질 소방목 벌목장을 건설할 수 있습니다.</Text>
+		</Row>
+		<!--Free Company-->
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY">
+			<Text>자유용병대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FCOMPANY">
+			<Text>장창병보다 매우 저렴하고 약탈 시 이동력 소모가 없으며 도시 공격 시 [ICON_GOLD]골드를 제공합니다. 구매 시 승급에 필요한 충분한 경험치를 제공하며 구매 후 바로 이동할 수 있습니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]권위[ENDCOLOR] 계열 완성 후 [ICON_GOLD]골드로 구매할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY_STRATEGY">
+			<Text>The Free Company are the first mercenary units made available by the completion of the Authority policy tree. Even though they can't be directly produced, they constitute a direct improvement in term of combat prowess over the Pikeman, while gaining some additionnal advantages.[NEWLINE][NEWLINE]Because they can move immediatly and with full experience when bought, you can field a large number of them very quickly if you have the gold. Furthermore, these scoundrels benefit greatly from offensive warfare thanks to their ability to pillage without movement cost and gain gold whenever they inflict damages to cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FCOMPANY_TEXT">
+			<Text>Where opportunity meets warfare and lawlessness, the life of a soldier can turn quickly to brigandry.[NEWLINE][NEWLINE]The Free Companies, also known as Great Companies or Companies of Adventurers, were bands of mercenary soldiers that operated throughout Europe from the 12th to the early 15th century. Often employed by nobles, they were known for their disregard for the laws of arms and usefulness as raiders. The Free Companies are most famous for their role during the unending conflicts of the 14th century, employed by the English to terrorize the French countryside during the Hundred Years' War.[NEWLINE][NEWLINE]While the Companies had work during wartime, they could become a scourge in times of peace; they often took to pillaging the lands of their former employers as soon as they stopped being paid to pillage someone else's. After the Peace of Bretigny in 1360, the Free Companies were released from their service and became uncontrollable. They went from fief to fief, attacking farms and castles alike, operating throughout western Europe and even managing to win against armies fielded against them. The peace and the Plague helped these bands grow in size and audacity, gaining wealth and infamy as they went abroad. Notable companies of this time included the White Company in Italy, the Catalan Company in Greece, and the Tard-Venus in France. Many of these adventurers gained considerable political power from their exploits, such as the Englishman John Hawkwood, who became a wealthy condottiere hired by several Italian states and the Pope.[NEWLINE][NEWLINE]The rebuilding of Western European states and the formation of professional armies and effective militias during the 15th century brought an end to the use of mercenaries' power. However, the death and destruction wrought by the Free Companies left a deep scar on the European memory.</Text>
+		</Row>
+		<!--Doppelsöldner promotion-->
+		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER">
+			<Text>도펠죌트너</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER_HELP">
+			<Text>최대 체력인 적을 상대로 전투력 +30%[ICON_STRENGTH]</Text>
+		</Row>
+		<!-- Rough Terrain for Ranged Mounted-->
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN">
+			<Text>기마병 교리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN_HELP">
+			<Text>험지에서 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-20%[ENDCOLOR][NEWLINE]평지에서 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+40%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<!-- New Slinger Promotion -->
+		<Row Tag="TXT_KEY_PROMOTION_SLINGER">
+			<Text>손상 타격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SLINGER_HELP">
+			<Text>원거리 공격 시 다른 지상 유닛에 5턴 동안 [COLOR_PLAYER_PURPLE]멍함[ENDCOLOR] 효과 부여[NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAZED">
+			<Text>멍함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAZED_HELP">
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-15%[ENDCOLOR]</Text>
+		</Row>
+		<!-- New CKN Promotion -->
+		<Row Tag="TXT_KEY_PROMOTION_REPEATER">
+			<Text>공성 일제 사격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_REPEATER_HELP">
+			<Text>도시 안/도시와 인접한 타일에서 공격시 [ICON_STRENGTH]원거리 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR]</Text>
+		</Row>
+		<!-- New Pracinha Promotion (A whole bunch of golden age points from kills) -->
+		<Row Tag="TXT_KEY_PROMOTION_MANY_GOLDEN_AGE_POINTS">
+			<Text>국가의 긍지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MANY_GOLDEN_AGE_POINTS_HELP">
+			<Text>적 처치 시 [ICON_GOLDEN_AGE]황금기 점수 제공</Text>
+		</Row>
+		
+		<!-- New Tier 4 Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4">
+			<Text>초과</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4_HELP">
+			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]적 유닛 처치 후 진격 시 새로 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_4">
+			<Text>충실</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_4_HELP">
+			<Text>방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+35%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4">
+			<Text>사격 교리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4_HELP">
+			<Text>체력 [COLOR_POSITIVE_TEXT]50초과[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4">
+			<Text>침투</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4_HELP">
+			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]부상 유닛 공격 시 [ICON_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]우호 유닛 인접 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4">
+			<Text>굳건함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4_HELP">
+			<Text>방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]근접 해상 유닛이 부여하는 [COLOR_PLAYER_PURPLE]승선 I - II[ENDCOLOR] 효과에 면역</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION">
+			<Text>불굴의 정신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION_HELP">
+			<Text>모든 요인에 의한 피해 [COLOR_POSITIVE_TEXT]-5[ENDCOLOR][NEWLINE]체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS">
+			<Text>강요</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS_HELP">
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음 및 약탈 시 체력 완전 회복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PIRACY">
+			<Text>사략</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PIRACY_HELP">
+			<Text>처치한 적 유닛 [ICON_STRENGTH]전투력의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드 제공[NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BREACHER">
+			<Text>위반</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BREACHER_HELP">
+			<Text>방어 시 인접한 적 유닛마다 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]이 유닛이 처치한 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]15[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT">
+			<Text>포위</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT_HELP">
+			<Text>공격 시 인접한 아군 유닛마다 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_I">
+			<Text>승선 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_I_HELP">
+			<Text>매 턴 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]-2[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_II">
+			<Text>승선 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_II_HELP">
+			<Text>매 턴 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]-4[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MINELAYER">
+			<Text>기뢰정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MINELAYER_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE]이 유닛과 인접해서 턴을 시작한 적 해상 유닛의 이동력 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR]
+				[NEWLINE][NEWLINE] [COLOR_CYAN]연소[ENDCOLOR] 연구 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4">
+			<Text>집중 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4_HELP">
+			<Text>도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+40%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4">
+			<Text>봉쇄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]도시에 주는 피해의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드를 약탈[NEWLINE][COLOR:105:105:105:255](한도: 도시[ICON_STRENGTH]전투력의 10배)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
+			<Text>펜치</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4_HELP">
+			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT">
+			<Text>유산탄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT_HELP">
+			<Text>지상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_TERROR">
+			<Text>선봉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_TERROR_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+125%[ENDCOLOR][NEWLINE]도시로부터 받는 피해 [COLOR_POSITIVE_TEXT]-50%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SIEGE">
+			<Text>해상 공성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SIEGE_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+75%[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY">
+			<Text>조종사 I</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_HELP">
+			<Text>[ICON_MOVES]이동력 및 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_II">
+			<Text>조종사 II</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SENTRY_II_HELP">
+			<Text>[ICON_MOVES]이동력 및 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VIKING">
+			<Text>바이킹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
+			<Text>약탈된 타일에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]약탈 시 [ICON_MOVES]이동력 소모 없음[NEWLINE]중립 영토에서 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
+			<Text>롱보트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
+			<Text>연안 타일에서 방어 또는 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]약탈 시 [ICON_MOVES]이동력 소모 없음[NEWLINE]연안 타일에서 체력 회복 속도 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS">
+			<Text>신성한 걸음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH">
+			<Text>영원한 젊음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
+			<Text>체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST">
+			<Text>군사 전통</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST_HELP">
+			<Text>능력 활용 시 영구적으로 군사 유닛 보급 한도 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH">
+			<Text>광역 피해</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_HELP">
+			<Text>목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_II">
+			<Text>광역 피해 II</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_II_HELP">
+			<Text>목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TERROR">
+			<Text>정확성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TERROR_HELP">
+			<Text>체력 [COLOR_POSITIVE_TEXT]50이하[ENDCOLOR] 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TERROR_II">
+			<Text>정확성 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TERROR_II_HELP">
+			<Text>체력 [COLOR_POSITIVE_TEXT]50이하[ENDCOLOR] 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER">
+			<Text>최후의 일격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER_HELP">
+			<Text>체력 [COLOR_POSITIVE_TEXT]50이하[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY">
+			<Text>최후의 전술</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA">
+			<Text>히네테</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_I">
+			<Text>공성 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_I_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_II">
+			<Text>공성 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_II_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_III">
+			<Text>공성 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_III_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_I">
+			<Text>야전 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_I_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]평지에서 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_II">
+			<Text>야전 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_II_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]평지에서 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_III">
+			<Text>야전 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_III_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]평지에서 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS">
+			<Text>트레저 헌터</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS_HELP">
+			<Text>고대 유적 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE">
+			<Text>스캐빈저</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE_HELP">
+			<Text>타일 약탈 시 경험치 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_SPOTTING">
+			<Text>정찰기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_SPOTTING_HELP">
+			<Text>적 영토[COLOR:105:105:105:255](주요 문명)[ENDCOLOR]에 하선 시 경험치 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_I">
+			<Text>야만인 대항 페널티 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_I_HELP">
+			<Text>야만인 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-20%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_II">
+			<Text>야만인 대항 페널티 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_II_HELP">
+			<Text>야만인 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_III">
+			<Text>야만인 대항 페널티 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_III_HELP">
+			<Text>야만인 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
+			<Text>대양 탐험</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING_HELP">
+			<Text>[COLOR_RESEARCH_STORED]천문학[ENDCOLOR] 연구 전 대양 타일 진입 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP">
+			<Text>육중한 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_1">
+			<Text>진지 공사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_1_HELP">
+			<Text>원거리 공격 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_2">
+			<Text>참호</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_2_HELP">
+			<Text>원거리 공격 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+20[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3">
+			<Text>방어 훈련</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3_HELP">
+			<Text>원거리 공격 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+25[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MECH">
+			<Text>거대함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MECH_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+100[ENDCOLOR][NEWLINE]근접 전투 돌입 전 50%의 [ICON_STRENGTH] 전투력으로 추가 [COLOR_POSITIVE_TEXT]원거리 공격[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IKLWA">
+			<Text>이클와</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IKLWA_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<!-- New unit combats -->
+		<Row Tag="TXT_KEY_UNITCOMBAT_SETTLER">
+			<Text>개척자 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_WORKER">
+			<Text>노동자 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_WORKBOAT">
+			<Text>작업선 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_CARGO">
+			<Text>화물선 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_CARAVAN">
+			<Text>대상 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_INQUISITOR">
+			<Text>이단심문관 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_MISSIONARY">
+			<Text>선교사 유닛</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>
