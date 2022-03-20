@@ -242,9 +242,8 @@ UPDATE Language_ko_KR
 SET Text = '대전차 구역'
 WHERE Tag = 'TXT_KEY_PROMOTION_ANTI_TANK';
 
-UPDATE Language_ko_KR
-SET Text = '기갑 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_PROMOTION_ANTI_TANK_HELP';
+INSERT INTO Language_ko_KR (Tag, Text)
+VALUES ('TXT_KEY_PROMOTION_ANTI_TANK_HELP', '기갑 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]');
 
 UPDATE Language_ko_KR
 SET Text = '대전차 구역'
