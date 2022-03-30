@@ -87,6 +87,11 @@ UPDATE Language_ko_KR
 SET Text = '우호 영토 내 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_HELP';
 
+-- updated Pride of the Ancestors
+UPDATE Language_ko_KR
+SET Text = '우호 영토 내 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP';
+
 -- added Near Capital Bonus
 UPDATE Language_ko_KR
 SET Text = '[ICON_CAPITAL]수도에서 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR][NEWLINE][COLOR:110:110:110:255](멀어질수록 전투력 감소)[ENDCOLOR]'
@@ -242,9 +247,8 @@ UPDATE Language_ko_KR
 SET Text = '대전차 구역'
 WHERE Tag = 'TXT_KEY_PROMOTION_ANTI_TANK';
 
-UPDATE Language_ko_KR
-SET Text = '기갑 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_PROMOTION_ANTI_TANK_HELP';
+INSERT INTO Language_ko_KR (Tag, Text)
+VALUES ('TXT_KEY_PROMOTION_ANTI_TANK_HELP', '기갑 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]');
 
 UPDATE Language_ko_KR
 SET Text = '대전차 구역'

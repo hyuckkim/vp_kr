@@ -27,7 +27,7 @@ WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- Production Queue
 UPDATE Language_ko_KR
-SET Text = '클릭 : 대기열 마지막에 아이템 추가[NEWLINE]CTRL+클릭 : 대기열 맨 처음에 아이템 추가[NEWLINE]SHIFT+클릭 : 선택된 아이템으로 대기열 전부 대체'
+SET Text = '클릭 : 대기열 마지막에 아이템 추가[NEWLINE]CTRL+클릭 : 대기열 맨 처음에 아이템 추가[NEWLINE]ALT+클릭: 대기열 맨 마지막에 아이템 추가[NEWLINE]SHIFT+클릭 : 선택된 아이템으로 대기열 전부 대체'
 WHERE Tag = 'TXT_KEY_CITYVIEW_QUEUE_PROD_TT';
 
 -- Avoid Growth
@@ -1522,10 +1522,35 @@ UPDATE Language_ko_KR
 SET Text = '고작 하고자 하는 게 이 방법이오? 아주 좋군. 이번 일은 잊지 않겠소.'
 WHERE Tag = 'TXT_KEY_RESPONSE_TO_BEING_DENOUNCED_1';
 
+-- AI denounces human
+UPDATE Language_ko_KR
+SET Text = '이제 세상에 당신의 악행을 말할 때가 온 것 같소.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])'
+WHERE Tag = 'TXT_KEY_DENOUNCE_1';
+
+UPDATE Language_ko_KR
+SET Text = '다른 지도자에게 당신에 대해 이야기했소. 그들도 당신을 신뢰해서는 안 된다는 걸 알아야 했소.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])'
+WHERE Tag = 'TXT_KEY_DENOUNCE_2';
+
+UPDATE Language_ko_KR
+SET Text = '당신도 아는지 모르겠지만, 다른 지도자도 당신에 대한 잔혹한 진실을 알기 시작했소.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])'
+WHERE Tag = 'TXT_KEY_DENOUNCE_3';
+
+UPDATE Language_ko_KR
+SET Text = '당신에 대해선 이제 충분히 알겠소. 전 세계의 다른 지도자에게 당신과 동맹하는 것은 실수라는 걸 일러줬소.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])'
+WHERE Tag = 'TXT_KEY_DENOUNCING_FRIEND_1';
+
+UPDATE Language_ko_KR
+SET Text = '좋아, 이제 안 되겠군. 모두에게 당신의 악행을 알릴 시간이 너무 지나버린 것 같군.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])'
+WHERE Tag = 'TXT_KEY_DENOUNCING_FRIEND_2';
+
 
 -- Human Refuses Request to Denounce Third Party (Not Forgiven)
 UPDATE Language_ko_KR
-SET Text = '이것이 당신이 동맹한 목적이오? 전 세계의 다른 지도자가 당신의 배신에 대해 알게 될 것이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁선포가 아닙니다.[ENDCOLOR])'
+SET Text = '애처롭구먼. 이제야 본색을 드러내는군. 세상은 당신의 불명예를 기억할 것이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])'
+WHERE Tag = 'TXT_KEY_DOF_NOT_HONORED_1';
+
+UPDATE Language_ko_KR
+SET Text = '이것이 당신이 동맹한 목적이오? 전 세계의 다른 지도자가 당신의 배신에 대해 알게 될 것이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다!)'
 WHERE Tag = 'TXT_KEY_DOF_NOT_HONORED_2';
 
 

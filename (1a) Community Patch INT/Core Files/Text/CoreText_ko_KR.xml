@@ -4007,14 +4007,7 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BULLIED_BY_SOMEONE">
 			<Text>우리 외교관들이 {2_Civ}{2: plural 1?이; 2?가;} 최근에 {1_CS}{1: plural 1?을; 2?를;} 괴롭혔다고 보고했습니다!</Text>
 		</Row>
-		<!-- DENOUNCEMENT: Post-denouncement notes are now separate text keys, for compatibility with the ability to denounce while at war (and to save on memory) -->
-		<!-- Row Tag="TXT_KEY_DENOUNCED_US_NOT_AT_WAR"> -->
-			<!-- <Text>[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text> -->
-		<!-- </Row> -->
-		<!-- <Row Tag="TXT_KEY_DENOUNCED_US_AT_WAR"> -->
-			<!-- <Text>[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us![ENDCOLOR])</Text> -->
-		<!-- </Row> -->
-		
+
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
 		<Row Tag="TXT_KEY_HOSTILE_WE_ATTACKED_YOUR_MINOR_3">
 			<Text>당신의 친구인 {@1_MinorCivName}{@1: plural 1?이; 2?가;} 나와 위대한 제국의 꿈 사이를 방해하고 있습니다. 당신은 이 문제에 개입하겠습니까?</Text>
@@ -4555,16 +4548,16 @@
 			<Text>나는 나와 {1_CivName} 사이의 분쟁을 전쟁을 통해 해결하기로 결정했소. 나의 가장 오래된 우방 중 한 명으로서 나의 전쟁에 동참해주겠소? (선전포고)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DOF_NOT_HONORED_3">
-			<Text>당신은 가치 없고 배신할 궁리만 하는 겁쟁이요. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신은 가치 없고 배신할 궁리만 하는 겁쟁이요. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DOF_NOT_HONORED_4">
-			<Text>당신은 날 배신하지 않을 것이라 생각했소. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신은 날 배신하지 않을 것이라 생각했소. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCING_FRIEND_3">
-			<Text>당신의 잘못된 행동을 눈감아주려 했지만 더 이상은 안되겠습니다. 당신 같은 폭군은 비난받아야 마땅합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 잘못된 행동을 눈감아주려 했지만 더 이상은 안되겠습니다. 당신 같은 폭군은 비난받아야 마땅합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCING_FRIEND_4">
-			<Text>더 이상 감출 필요가 없어 말합니다. 나는 당신은 좋아했지만 지금은 당신을 싫어합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>더 이상 감출 필요가 없어 말합니다. 나는 당신은 좋아했지만 지금은 당신을 싫어합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_TO_BEING_DENOUNCED_5">
 			<Text>당신의 잔인한 말들은 여기서 소용 없소. 꺼지시오!</Text>
@@ -4818,25 +4811,25 @@
 			<Text>우호 선언은 우리 모두에게 큰 이익이 될 것입니다. 자, 세계의 다른 제국들에게 '문명화'가 진정 무엇을 의미하는지 보여줍시다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_4">
-			<Text>당신은 끔찍한 인간입니다. 알고 있습니까?[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신은 끔찍한 인간입니다. 알고 있습니까?[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_5">
-			<Text>당신이 존재하는 한 세계 평화는 있을 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 존재하는 한 세계 평화는 있을 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_6">
-			<Text>왜 그렇게 얼간이처럼 행동하십니까?[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>왜 그렇게 얼간이처럼 행동하십니까?[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_7">
-			<Text>당신을 묘사할 단어도 몇 마디밖에 없고, 그다지 친절하지도 않군요.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신을 묘사할 단어도 몇 마디밖에 없고, 그다지 친절하지도 않군요.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_8">
-			<Text>당신은 폭군입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신은 폭군입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_9">
-			<Text>당신의 죽음이 빨리 왔으면 좋겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 죽음이 빨리 왔으면 좋겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_10">
-			<Text>개인적으로 받아들이진 마세요, 하지만...잠깐, 아니, 개인적으로 생각해봐요. 당신은 끔찍해.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>개인적으로 받아들이진 마세요, 하지만...잠깐, 아니, 개인적으로 생각해봐요. 당신은 끔찍해.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOP_WAR_REQUEST_4">
 			<Text>{1_PlayerName:textkey}{1: plural 1?을; 2?를;} 향한 전쟁의 시간이 다가왔습니다. 우리 군대가 힘을 합쳐 이 악당을 물리치는 것이 어떻습니까?</Text>
@@ -5986,154 +5979,154 @@
 		</Row>
 		<!-- Denounce Statements -->
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WARMONGER_1">
-			<Text>나는 오랫동안 당신을 가만히 지켜봤지만 당신의 군대는 전 세계에 폐를 끼쳤습니다. 이 비난이 당신의 야망을 멈추길 바랄 뿐입니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>나는 오랫동안 당신을 가만히 지켜봤지만 당신의 군대는 전 세계에 폐를 끼쳤습니다. 이 비난이 당신의 야망을 멈추길 바랄 뿐입니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WARMONGER_2">
-			<Text>폭군이여, 당신의 피에 대한 갈망은 혐오스럽습니다. 내가 살아 숨쉬는 한 전 세계는 당신이 저지른 잔혹한 행위들을 알게 될 것입니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>폭군이여, 당신의 피에 대한 갈망은 혐오스럽습니다. 내가 살아 숨쉬는 한 전 세계는 당신이 저지른 잔혹한 행위들을 알게 될 것입니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_IDEOLOGY_1">
-			<Text>당신도 이 세상의 미래를 위한 길은 하나 뿐이라는 것을 알 겁니다. 그런데 당신은 잘못된 길을 가고 있습니다 [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신도 이 세상의 미래를 위한 길은 하나 뿐이라는 것을 알 겁니다. 그런데 당신은 잘못된 길을 가고 있습니다 [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_IDEOLOGY_2">
-			<Text>당신은 잘못된 이념을 받아들임으로써 나뿐만 아니라 당신의 국민도 배신했습니다. 당신의 행동이 더 심각한 분쟁을 초래하기 전에 우리의 말을 들으십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신은 잘못된 이념을 받아들임으로써 나뿐만 아니라 당신의 국민도 배신했습니다. 당신의 행동이 더 심각한 분쟁을 초래하기 전에 우리의 말을 들으십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_FREEDOM_1">
-			<Text>지금까지 나는 당신의 국민이 자유와 정의를 요구하는 것을 들었습니다! 그들의 요구에 귀를 기울이지 않는다면 우리가 말로 하는 건 이게 마지막일 겁니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>지금까지 나는 당신의 국민이 자유와 정의를 요구하는 것을 들었습니다! 그들의 요구에 귀를 기울이지 않는다면 우리가 말로 하는 건 이게 마지막일 겁니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_FREEDOM_2">
-			<Text>민주주의와 자유로운 언론, 자유시장은 모든 이의 권리요. 우리 나라는 당신이 계속 국민의 마음을 짓밟는 것을 더 이상 보고만 있지 않을 것이오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>민주주의와 자유로운 언론, 자유시장은 모든 이의 권리요. 우리 나라는 당신이 계속 국민의 마음을 짓밟는 것을 더 이상 보고만 있지 않을 것이오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_ORDER_1">
-			<Text>당신의 국민이 경제적 정의와 사회적 평등을 요구하고 있습니다. 당신이 올바른 체제의 길을 거부한다면 우리가 더 이상 눈을 마주보고 이야기할 수 없을 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 국민이 경제적 정의와 사회적 평등을 요구하고 있습니다. 당신이 올바른 체제의 길을 거부한다면 우리가 더 이상 눈을 마주보고 이야기할 수 없을 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_ORDER_2">
-			<Text>왜 굶주림과 가난 없이 살 노동자들의 권리를 계속해서 부정하는 것이지요? 이 비난이 그들의 고통을 끝낼 수만 있다면 기꺼이 하겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>왜 굶주림과 가난 없이 살 노동자들의 권리를 계속해서 부정하는 것이지요? 이 비난이 그들의 고통을 끝낼 수만 있다면 기꺼이 하겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_AUTOCRACY_1">
-			<Text>길을 제시할 강력한 지도자가 없는 당신의 나라는 칼날 위를 걷고 있습니다. 너무 늦지 않았으니 지금이라도 안정의 길을 택하십시오. 안 그러면 손을 쓸 수밖에 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>길을 제시할 강력한 지도자가 없는 당신의 나라는 칼날 위를 걷고 있습니다. 너무 늦지 않았으니 지금이라도 안정의 길을 택하십시오. 안 그러면 손을 쓸 수밖에 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_AUTOCRACY_2">
-			<Text>당신의 선택은 오직 나의 국가만이 이 세계를 번영으로 이끌 수 있다는 것을 증명했습니다. 나와 함께하지 않으면 결과를 직면할 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 선택은 오직 나의 국가만이 이 세계를 번영으로 이끌 수 있다는 것을 증명했습니다. 나와 함께하지 않으면 결과를 직면할 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_FREEDOM_1">
-			<Text>당신 국민의 탐욕과 야망은 결국 그들 자신만을 파괴할 것입니다. 그들이 자유의 굴레에서 벗어나도록 하고 너무 늦기 전에 당신의 거짓말을 전파하는 것을 멈추십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신 국민의 탐욕과 야망은 결국 그들 자신만을 파괴할 것입니다. 그들이 자유의 굴레에서 벗어나도록 하고 너무 늦기 전에 당신의 거짓말을 전파하는 것을 멈추십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_FREEDOM_2">
-			<Text>당신의 제국주의 야욕은 진절머리가 납니다. 나의 국민에게 자유의 길을 따르도록 설득하지 마십시오. 계속한다면 극단적인 방법을 쓸 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 제국주의 야욕은 진절머리가 납니다. 나의 국민에게 자유의 길을 따르도록 설득하지 마십시오. 계속한다면 극단적인 방법을 쓸 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_ORDER_1">
-			<Text>내 땅에서 노동자들의 혁명을 부추기려 한다는 것을 알고 있습니다. 나와 당신 국가의 안정을 위해서라도 체제 사상을 다시금 전파하지 마십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>내 땅에서 노동자들의 혁명을 부추기려 한다는 것을 알고 있습니다. 나와 당신 국가의 안정을 위해서라도 체제 사상을 다시금 전파하지 마십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_ORDER_2">
-			<Text>당신의 국민에게서 극단적인 체제 사상을 떨어뜨리십시오. 그렇지 않으면 '공산당을 택하느니 죽음을 택하는 게 낫다'란 말이 무엇을 의미하는지 보여드리겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 국민에게서 극단적인 체제 사상을 떨어뜨리십시오. 그렇지 않으면 '공산당을 택하느니 죽음을 택하는 게 낫다'란 말이 무엇을 의미하는지 보여드리겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_AUTOCRACY_1" >
-			<Text>당신의 군사력이 아무리 강해도 당신의 국민에게 저지른 악행을 세계에서 감출 수는 없소. 우리가 당신에게 전쟁을 선포하기 전에 폭정을 멈추시오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 군사력이 아무리 강해도 당신의 국민에게 저지른 악행을 세계에서 감출 수는 없소. 우리가 당신에게 전쟁을 선포하기 전에 폭정을 멈추시오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_AUTOCRACY_2" >
-			<Text>다른 나라들은 당신을 두려워하여 당신에게 맞서길 주저하겠지만 우리는 이 세계를 위해 당신에게 맞서겠습니다. 너무 늦기 전에 독재에 대한 당신의 믿음을 포기하십시오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>다른 나라들은 당신을 두려워하여 당신에게 맞서길 주저하겠지만 우리는 이 세계를 위해 당신에게 맞서겠습니다. 너무 늦기 전에 독재에 대한 당신의 믿음을 포기하십시오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_FAITH_1">
-			<Text>당신 민족의 불경한 믿음이 이 땅을 전염병처럼 휩쓸고 있습니다. 이 날이 오지는 않길 바랐지만 당신 민족이 빛을 보지 않는다면 우리는 적이 될 운명입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신 민족의 불경한 믿음이 이 땅을 전염병처럼 휩쓸고 있습니다. 이 날이 오지는 않길 바랐지만 당신 민족이 빛을 보지 않는다면 우리는 적이 될 운명입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_FAITH_2">
-			<Text>나는 당신의 역겨운 종교가 지금까지 퍼지도록 내버려 둔 것을 후회합니다. 그런 거짓된 종교를 기꺼이 믿는 국가는 절대 신뢰할 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>나는 당신의 역겨운 종교가 지금까지 퍼지도록 내버려 둔 것을 후회합니다. 그런 거짓된 종교를 기꺼이 믿는 국가는 절대 신뢰할 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_1">
-			<Text>분명히 말하건데 당신이 가까이 지내고 있는 그 도시 국가는 나의 것이지, 당신의 것이 아닙니다. 당신이 도시 국가와 친하게 지낼 수는 있습니다. 그러나 나의 도시 국가와는 그럴 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>분명히 말하건데 당신이 가까이 지내고 있는 그 도시 국가는 나의 것이지, 당신의 것이 아닙니다. 당신이 도시 국가와 친하게 지낼 수는 있습니다. 그러나 나의 도시 국가와는 그럴 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_2">
-			<Text>나와 동맹인 도시 국가를 훔치는 것이 외교라고 생각한다면 오산이오. 당신이 나에게서 도시 국가를 빼앗으려 할 때마다 당신은 또 다른 적을 만드는 것이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>나와 동맹인 도시 국가를 훔치는 것이 외교라고 생각한다면 오산이오. 당신이 나에게서 도시 국가를 빼앗으려 할 때마다 당신은 또 다른 적을 만드는 것이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WONDERS_1">
-			<Text>우리는 그 불가사의를 건설하는 데 많은 세월을 보냈는데 당신 같은 이들은 어떻게 우리보다 먼저 건설할 수 있는 것이오? 분명 우리에게서 비밀을 훔쳤을 것이오. 전 세계는 이 만행을 알게 될 것이오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>우리는 그 불가사의를 건설하는 데 많은 세월을 보냈는데 당신 같은 이들은 어떻게 우리보다 먼저 건설할 수 있는 것이오? 분명 우리에게서 비밀을 훔쳤을 것이오. 전 세계는 이 만행을 알게 될 것이오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WONDERS_2">
-			<Text>당신이 건설한 불가사의 중에는 믿을 수 없는 것들이 몇 가지 있더군요. 정상적이지 않은 방법을 쓴 것이라면 부끄러운 줄 아십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 건설한 불가사의 중에는 믿을 수 없는 것들이 몇 가지 있더군요. 정상적이지 않은 방법을 쓴 것이라면 부끄러운 줄 아십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_DISPUTE_1">
-			<Text>우리는 같은 목표를 바라보고 있지요? 우리가 과거에 서로의 차이를 인지하지 못하고 세계의 발전을 위해 협력했던 것은 어리석은 일이었던 것 같습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>우리는 같은 목표를 바라보고 있지요? 우리가 과거에 서로의 차이를 인지하지 못하고 세계의 발전을 위해 협력했던 것은 어리석은 일이었던 것 같습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_DISPUTE_2">
-			<Text>당신과 나 모두 누가 이 경쟁에서 승리할 운명인지 알고 있습니다. 더 큰 분쟁이 일어나기 전에 우리 양국의 국민을 위해서 당신이 포기하는 것이 좋을 것 같습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신과 나 모두 누가 이 경쟁에서 승리할 운명인지 알고 있습니다. 더 큰 분쟁이 일어나기 전에 우리 양국의 국민을 위해서 당신이 포기하는 것이 좋을 것 같습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_BLOCK_1">
-			<Text>당신은 별다른 어려움을 겪지 않고 승리의 코 앞에 다가갔습니다. 내가 다른 지도자들에게 이 사실을 말했더니 모두 동의하며 당신에게 대항하고자 하더군요.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신은 별다른 어려움을 겪지 않고 승리의 코 앞에 다가갔습니다. 내가 다른 지도자들에게 이 사실을 말했더니 모두 동의하며 당신에게 대항하고자 하더군요.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_BLOCK_2">
-			<Text>당신이 세계를 좌지우지하도록 내버려두는 것은 큰 실수가 될 것입니다. 무슨 수를 써서라도 당신의 야망을 끝낼 때가 왔습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 세계를 좌지우지하도록 내버려두는 것은 큰 실수가 될 것입니다. 무슨 수를 써서라도 당신의 야망을 끝낼 때가 왔습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_NUKE_1">
-			<Text>당신이 전쟁에 사용한 무기들은 인류의 재앙이었습니다. 무고한 시민을 향해 잔학 행위를 주저하지 않는 자는 구원받을 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 전쟁에 사용한 무기들은 인류의 재앙이었습니다. 무고한 시민을 향해 잔학 행위를 주저하지 않는 자는 구원받을 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_NUKE_2">
-			<Text>내가 아무것도 하지 않으면 당신의 범죄로 인한 공포를 막을 수 없을 것이오. 이 비난이 다른 지도자들로 하여금 그 끔찍한 무기를 못 쓰도록 하길 바랄 뿐이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>내가 아무것도 하지 않으면 당신의 범죄로 인한 공포를 막을 수 없을 것이오. 이 비난이 다른 지도자들로 하여금 그 끔찍한 무기를 못 쓰도록 하길 바랄 뿐이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_SPIES_1">
-			<Text>나의 비밀 기술을 훔치려 한 것은 용납할 수 없습니다. 다른 지도자들에게 당신의 스파이 행위에 대해 경고했으니 머지 않아 모든 이들이 당신의 첩보 활동에 대비할 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>나의 비밀 기술을 훔치려 한 것은 용납할 수 없습니다. 다른 지도자들에게 당신의 스파이 행위에 대해 경고했으니 머지 않아 모든 이들이 당신의 첩보 활동에 대비할 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_SPIES_2">
-			<Text>나는 항상 지도자들의 투명성과 정직함을 믿어왔지만 당신은 그렇지 않은 것 같군요. 당신이 암암리에 활동하는 것을 그리 좋아한다면 내가 당신의 행위들에 빛을 비추겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>나는 항상 지도자들의 투명성과 정직함을 믿어왔지만 당신은 그렇지 않은 것 같군요. 당신이 암암리에 활동하는 것을 그리 좋아한다면 내가 당신의 행위들에 빛을 비추겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_DOGPILE_1">
-			<Text>다른 지도자들이 나에게 당신이 믿을 수 없는 인물이라고 경고했습니다. 난 자세한 건 모르겠지만 당신보다는 그들의 말을 믿습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>다른 지도자들이 나에게 당신이 믿을 수 없는 인물이라고 경고했습니다. 난 자세한 건 모르겠지만 당신보다는 그들의 말을 믿습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_DOGPILE_2">
-			<Text>당신이 다른 지도자들에게 화를 끼친 게 무엇이든 간에 당신은 책임을 질 필요가 있습니다. 나의 비난이 당신에게 교훈을 주었길 바랍니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 다른 지도자들에게 화를 끼친 게 무엇이든 간에 당신은 책임을 질 필요가 있습니다. 나의 비난이 당신에게 교훈을 주었길 바랍니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ENEMY_FRIENDSHIP_1">
-			<Text>나는 당신에게 나의 적과 친하게 지내지 말라고 경고했습니다. 그 행동의 결과를 마주하십시오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>나는 당신에게 나의 적과 친하게 지내지 말라고 경고했습니다. 그 행동의 결과를 마주하십시오![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ENEMY_FRIENDSHIP_2">
-			<Text>당신이 나의 적과 우호 관계 선언을 한 것은 나에 대한 배신이오. 나의 궁전에 당신과 당신 문명의 사람들은 더 이상 환영하지 않을 것이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 나의 적과 우호 관계 선언을 한 것은 나에 대한 배신이오. 나의 궁전에 당신과 당신 문명의 사람들은 더 이상 환영하지 않을 것이오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_1">
-			<Text>교활한 자는 폭군보다 더 나쁩니다. 당신이 진실을 말하지 못한다면 내가 진실을 말하겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>교활한 자는 폭군보다 더 나쁩니다. 당신이 진실을 말하지 못한다면 내가 진실을 말하겠습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_2">
-			<Text>당신의 행위는 형용할 수 없는 수준입니다. 이 비난으로 부정직함과 욕심이 대외 정책에서 안 좋은 선례가 된다는 것을 배웠길 바랍니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 행위는 형용할 수 없는 수준입니다. 이 비난으로 부정직함과 욕심이 대외 정책에서 안 좋은 선례가 된다는 것을 배웠길 바랍니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_3">
-			<Text>당신은 나의 국민에게 위험하기에 비난받아야 합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신은 나의 국민에게 위험하기에 비난받아야 합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_4">
-			<Text>이 세계에 어울리지 않는 모든 이들 중에서 당신은 급이 다릅니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>이 세계에 어울리지 않는 모든 이들 중에서 당신은 급이 다릅니다. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_5">
-			<Text>당신의 행동을 눈감아보려 했지만 더는 안되겠습니다. 당신은 폭군이고 폭군은 비난받아야 마땅합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 행동을 눈감아보려 했지만 더는 안되겠습니다. 당신은 폭군이고 폭군은 비난받아야 마땅합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_6">
-			<Text>더는 숨길 수 없습니다. 나는 당신을 좋아했지만 지금은 당신을 싫어합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>더는 숨길 수 없습니다. 나는 당신을 좋아했지만 지금은 당신을 싫어합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_1">
-			<Text>당신과 친구가 되는 건 의미 없다는 것을 당신 스스로가 증명했습니다. 변명하지 마십시오. 우리 사이에 더 할 말은 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신과 친구가 되는 건 의미 없다는 것을 당신 스스로가 증명했습니다. 변명하지 마십시오. 우리 사이에 더 할 말은 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_2">
-			<Text>나는 당신과 달리 누가 나의 친구고 누가 나의 적인지에 대해서는 분명합니다. 당신은 나를 적으로 만들었습니다. 이 궁전에 다시는 오지 않았으면 합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>나는 당신과 달리 누가 나의 친구고 누가 나의 적인지에 대해서는 분명합니다. 당신은 나를 적으로 만들었습니다. 이 궁전에 다시는 오지 않았으면 합니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_3">
-			<Text>당신이 나의 시민에게 저지른 학살은 절대 용서받을 수 없습니다. 당신이 저지른 행위의 심각성을 전 세계에 알릴 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 나의 시민에게 저지른 학살은 절대 용서받을 수 없습니다. 당신이 저지른 행위의 심각성을 전 세계에 알릴 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_4">
-			<Text>당신이 살해한 무고한 이들을 기억합니까? 나의 시민은 사랑하는 사람과 가족들의 복수를 할 것이고 나 또한 마찬가지입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 살해한 무고한 이들을 기억합니까? 나의 시민은 사랑하는 사람과 가족들의 복수를 할 것이고 나 또한 마찬가지입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_COVET_1">
-			<Text>분명히 말하건데 당신이 가져간 땅은 마땅히 나의 것입니다. 우리가 이 영토 분쟁에서 외교적으로 합의를 볼 수 없다면 전장에서 합의를 볼 수밖에 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>분명히 말하건데 당신이 가져간 땅은 마땅히 나의 것입니다. 우리가 이 영토 분쟁에서 외교적으로 합의를 볼 수 없다면 전장에서 합의를 볼 수밖에 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_COVET_2">
-			<Text>당신이 내가 당신의 땅을 '탐낸다'고 얘기하고 싶다면 그럴 수 있습니다. 그러나 빼앗긴 땅을 되찾길 바라는 것을 '탐낸다'고 하지는 않습니다. 다른 지도자들도 나와 같은 생각을 할 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신이 내가 당신의 땅을 '탐낸다'고 얘기하고 싶다면 그럴 수 있습니다. 그러나 빼앗긴 땅을 되찾길 바라는 것을 '탐낸다'고 하지는 않습니다. 다른 지도자들도 나와 같은 생각을 할 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ARTIFACTS_1">
-			<Text>우리의 국경과 문화적 유산을 존중하지 않는 당신의 태도는 한계에 이르렀습니다. 지금부터 당신의 고고학자와 외교관들은 이곳에 올 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>우리의 국경과 문화적 유산을 존중하지 않는 당신의 태도는 한계에 이르렀습니다. 지금부터 당신의 고고학자와 외교관들은 이곳에 올 수 없습니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ARTIFACTS_2">
-			<Text>나의 국민의 문화적 유산은 당신이 가져갈 수 있는 것이 아닙니다. 다른 지도자들도 곧 당신의 뻔뻔한 도둑질을 알게 될 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>나의 국민의 문화적 유산은 당신이 가져갈 수 있는 것이 아닙니다. 다른 지도자들도 곧 당신의 뻔뻔한 도둑질을 알게 될 것입니다.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_BULLY_1">
-			<Text>당신은 포악한 양아치이고 나는 당신이 지긋지긋하오. 겁쟁이여, 당신의 체구에 맞는 이를 상대할 배짱이 있다면 날 상대하시오. 그럴 배짱은 없겠지만.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신은 포악한 양아치이고 나는 당신이 지긋지긋하오. 겁쟁이여, 당신의 체구에 맞는 이를 상대할 배짱이 있다면 날 상대하시오. 그럴 배짱은 없겠지만.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_BULLY_2">
-			<Text>당신의 내가 보호하기로 약속한 도시 국가를 괴롭히고 억압했습니다. 다른 지도자들에게 당신의 비겁한 행동을 알릴 것입니다. 날 더 화나게 하지 마십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다! 참고: 전쟁 선포가 아닙니다.[ENDCOLOR])</Text>
+			<Text>당신의 내가 보호하기로 약속한 도시 국가를 괴롭히고 억압했습니다. 다른 지도자들에게 당신의 비겁한 행동을 알릴 것입니다. 날 더 화나게 하지 마십시오.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]이들은 우리를 공개적으로 비난했습니다![ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_STRATEGIC_TRADE_REQUEST_1">
 			<Text>당신은 나의 문명이 이용할 수 있는 전략 자원을 보유하고 있습니다. 거래하시겠습니까?</Text>
