@@ -330,7 +330,7 @@
 			<Text>[NEWLINE] [ICON_BULLET] {1_Desc}{1_Desc: plural 1?을; 2?를;} 채택해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_SPECIFIC_STATE_RELIGION">
-			<Text>[NEWLINE] [ICON_BULLET] {1_Desc}{1_Desc: plural 1?이; 2?가;} 국교여야 합니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] {1_Desc}{1_Desc: plural 1?이; 2?가;} 주요 종교여야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_HOLY_CITY_SPECIFIC">
 			<Text>[NEWLINE] [ICON_BULLET] {1_Desc}{1_Desc: plural 1?이; 2?가;} 성도를 지배해야 합니다.</Text>

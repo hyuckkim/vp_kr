@@ -135,7 +135,7 @@
 			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL">
-			<Text>유닛 처치 시 체력 회복 (15)</Text>
+			<Text>유지력</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL_HELP">
@@ -204,19 +204,20 @@
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_II_HELP">
 			<Text>평지에서 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_GUERILLA_FIGHTER_HELP">
-			<Text>부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE]측면 공격 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 내 체력 회복 시 추가 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE]지형에 상관없이 타일마다 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 소모</Text>
-		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GUERILLA_FIGHTER">
 			<Text>게릴라 전투</Text>
 			<Plurality>2</Plurality>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_PROMOTION_GUERILLA_FIGHTER_HELP">
+			<Text>부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE]측면 공격 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 내 체력 회복 시 추가 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE]지형에 상관없이 타일마다 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 소모</Text>
 		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
 			<Text>전-진!</Text>
 			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK">
 			<Text>아틀라틀 투척</Text>
@@ -224,6 +225,14 @@
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK_HELP">
 			<Text>부상 유닛 공격 시 [ICON_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE">
+			<Text>때려라!</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE_HELP">
+			<Text>부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR].[NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+25[ENDCOLOR]</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE">
 			<Text>해상 유닛 대항 페널티</Text>
 			<Plurality>2</Plurality>
@@ -622,7 +631,7 @@
 			<Text>국가의 긍지</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MANY_GOLDEN_AGE_POINTS_HELP">
-			<Text>적 처치 시 [ICON_GOLDEN_AGE]황금기 점수 제공</Text>
+			<Text>적 유닛 처치 시 [ICON_GOLDEN_AGE]황금기 점수 제공</Text>
 		</Row>
 		
 		<!-- New Tier 4 Promotions -->

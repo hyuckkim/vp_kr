@@ -57,6 +57,12 @@ WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_3_HELP';
 UPDATE Language_ko_KR
 SET Text = '측면 공격 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_HELP';
+	
+-- added Enhanced Flank Attack
+INSERT INTO Language_ko_KR (Tag, Text)
+VALUES ('TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG', '우수한 측면 공격');
+INSERT INTO Language_ko_KR (Tag, Text)
+VALUES ('TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG_HELP', '측면 공격 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]');
 
 -- added Combat Bonus in forest/jungle (33) Mohawk Warrior
 UPDATE Language_ko_KR
@@ -76,7 +82,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_SKI_INFANTRY_HELP';
 -- added Expeditionary Warfare (Foreign Lands Bonus)
 UPDATE Language_ko_KR
 SET Text = '원정 전쟁'
-WHERE Tag = 'TXT_KEY_PROMOTION_FOREIGN_LANDS';;
+WHERE Tag = 'TXT_KEY_PROMOTION_FOREIGN_LANDS';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]우호 영토 밖[ENDCOLOR]에서 전투시 +20% [ICON_STRENGTH] 전투력.'
@@ -512,6 +518,21 @@ UPDATE Language_ko_KR
 SET Text = '방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE]같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_II_HELP';
 
+-- Heal on Kill Promotions
+UPDATE Language_ko_KR
+SET Text = '강인'
+WHERE Tag = 'PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY';
+UPDATE Language_ko_KR
+SET Text = '적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+25[ENDCOLOR]'
+WHERE Tag = 'PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '결심'
+WHERE Tag = 'PROMOTION_HEAL_IF_DESTROY_ENEMY';
+UPDATE Language_ko_KR
+SET Text = '적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+50[ENDCOLOR]'
+WHERE Tag = 'PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP';
+	
 UPDATE Language_ko_KR
 SET Text = '[COLOR_RESEARCH_STORED]나침반[ENDCOLOR] 연구 전까지 대양에서 턴을 끝낼 수 없음[NEWLINE]연안에서 턴 종료 시 대양 타일 통과 가능[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';

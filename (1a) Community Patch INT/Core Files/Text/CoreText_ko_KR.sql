@@ -1,3 +1,24 @@
+--Texts for New Wonder and Building Production Modifiers, either by Trait, Improvement or UnitPromotion
+INSERT INTO Language_ko_KR
+			(Tag,															Text)
+VALUES		('TXT_KEY_PRODMOD_WONDER_UNITPROMOTION',						'[NEWLINE][ICON_BULLET]Unit Garrison Modifier for Wonders: {1_Num}%'),
+			('TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_UNIT_TRAIT',			'[NEWLINE][ICON_BULLET]Trait Wonder Production Modifier for Buildings (유닛 주둔에서): {1_Num}%'),
+			('TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_IMPROVEMENT_TRAIT',	'[NEWLINE][ICON_BULLET]Trait Wonder Production Modifier for Buildings (시설에서): {1_Num}%'),
+			('TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_POLICY_TRAIT',		'[NEWLINE][ICON_BULLET]Trait Wonder Production Modifier for Buildings (정책에서): {1_Num}%'),
+			('TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_RELIGION_TRAIT',		'[NEWLINE][ICON_BULLET]Trait Wonder Production Modifier for Buildings (교리에서): {1_Num}%'),
+			('TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_RESOURCE_TRAIT',		'[NEWLINE][ICON_BULLET]Trait Wonder Production Modifier for Buildings (자원에서): {1_Num}%'),
+			('TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_PLAYER_TRAIT',		'[NEWLINE][ICON_BULLET]Trait Wonder Production Modifier for Buildings (문명 특성에서): {1_Num}%'),
+			('TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_CITY_TRAIT',			'[NEWLINE][ICON_BULLET]Trait Wonder Production Modifier for Buildings (도시에서): {1_Num}%'),
+			('TXT_KEY_PRODMOD_WONDER_IMPROVEMENT',							'[NEWLINE][ICON_BULLET]Improvement Modifier for Wonders: {1_Num}%'),
+			('TXT_KEY_RELIGION_TOOLTIP_EXTENDED',							'{1_ReligionIcon} 신자 {2_NumFollowers} 명({5_Num} 도시에서 {3_TotalPressure} + {4_PressurePerTurn} 영향력)'),
+			('TXT_KEY_EUPANEL_UNITCLASS_NEAR',								'근처 유닛 전투 보너스'),
+			('TXT_KEY_EUPANEL_NEARBYPROMOTION_COMBAT_BONUS',				'근처 유닛 승급'),
+			('TXT_KEY_EUPANEL_NEARBYPROMOTION_CITY_COMBAT_BONUS',			'근처 도시 승급'),
+			('TXT_KEY_PRODMOD_MILITARY_UNITPROMOTION',						'[NEWLINE][ICON_BULLET]군사 유닛 주둔: {1_Num}%'),
+			('TXT_KEY_PRODMOD_YIELD_UNITPROMOTION',							'[NEWLINE][ICON_BULLET]유닛 주둔 도시: {1_Num}%'),
+			('TXT_KEY_NOTIFICATION_CULTURE_UNIT',							'{1_Resource:textkey}{1: plural 1?이; 2?가;} 제공되어 제국에 문화 보너스가 발생함!'),
+			('TXT_KEY_NOTIFICATION_SUMMARY_CULTURE_UNIT',					'{1_Resource:textkey}{1: plural 1?이; 2?가;} 영감을 주었습니다!');
+
 -- Game Options
 
 INSERT INTO Language_ko_KR
@@ -262,6 +283,10 @@ UPDATE Language_ko_KR
 SET Text = '베니스의 상인이 도시 국가를 구매했습니다!'
 WHERE Tag = 'TXT_KEY_VENETIAN_MERCHANT_BOUGHT_CITY_STATE';
 
+-- Militaristic UU Tooltip
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]군사적[ENDCOLOR] 도시 국가와 친선 관계를 맺으면 때때로 고급 군사 유닛을 제공합니다.[NEWLINE][NEWLINE]해당 도시 국가는 [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]의 비밀을 알고 있습니다. [COLOR_POSITIVE_TEXT]{@2_PrereqTech}[ENDCOLOR] 기술을 연구한 다음 해당 도시 국가와 동맹을 맺으면 다른 방법으로는 얻을 수 없는 고유한 유닛을 받게 됩니다.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_MILITARISTIC_TT';
 -- Bullying/Tribute
 UPDATE Language_ko_KR
 SET Text = '{@1_Unit} 강탈 - [ICON_INFLUENCE]영향력 {2_NumInfluence} 감소'
@@ -1843,3 +1868,32 @@ WHERE Tag = 'TXT_KEY_LEADER_SHAKA_AGREE_SHORT_2';
 UPDATE Language_ko_KR
 SET Text = '그럽시다.'
 WHERE Tag = 'TXT_KEY_LEADER_WILLIAM_AGREE_SHORT_2';
+
+-- Kiev -> Kyiv
+UPDATE Language_ko_KR
+SET Text = '키이우'
+WHERE Tag = 'TXT_KEY_CITYSTATE_KIEV';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR:240:240:140:255]키이우[ENDCOLOR]의'
+WHERE Tag = 'TXT_KEY_CITYSTATE_KIEV_ADJ';
+
+UPDATE Language_ko_KR
+SET Text = '전설에 따르면 키이우는 키, 체크, 호리프라는 슬라브족 삼 형제가 6세기 초에 세웠다고 한다. 그 이후로 키이우는 동유럽에서 가장 오래된 도시 중 하나로서, 명성이 자자했을 때도 있었고 비교적 알려지지 않은 때도 있었다. 그러나 몇 세기를 지나면서 키이우는 슬라브족의 가장 중요한 문화 중심지가 되어, 중세 동슬라브족 문명 발달의 중추적인 역할을 했다.[NEWLINE][NEWLINE]콘스탄티노플과 스칸디나비아 사이의 드네프르강 무역로에 있는 키이우는 인근 바이킹 바랑인 귀족의 지배를 받다가 루시국의 수도가 되었다. 1,000년 동안 영향력이 절정에 달해 400개가 넘는 교회, 8개 시장, 부두, 대상 여관, 장엄한 저주택지를 갖춘 문화 중심지였다. 1632년에 키이우-모길리얀스카야 학교를 창립하면서 키이우는 우크라이나의 교육 및 학문 중심지가 되었다. 그러나 키이우 루시의 수도로서, 여러 번 약탈당하고 점령당하기도 했다.[NEWLINE][NEWLINE]1667년에 러시아 제국에 복속되며 키이우는 기독교와 문화의 중심지로 남을 수 있었지만, 정치와 경제 분야의 영향력은 사라져버렸다. 1800년대에는 러시아인의 이주, 교육 정책, 산업화 때문에 러시아화되었다. 하지만 우크라이나 귀족층, 군 장교, 상인층 속에 있던 열성적인 지킴이들이 출판, 아마추어 연극, 비밀 연회, 민속 축제 같은 비밀스러운 활동을 계속하여 키이우의 토착 문화를 지켰다.[NEWLINE][NEWLINE]소비에트 연방에 강제로 합병된 후에는 온갖 시련을 겪었다. 1932년 ~ 1933년의 기근으로 하층 계급이 엄청난 타격을 입었고, 1937년부터 1938년에 걸친 스탈린의 숙청으로 도시의 지식 계급이 사라지다시피 했다. 1941년부터 1943년까지는 나치가 침략하여 죽음과 파괴를 불러왔다. 그러나 키이우는 살아남았다. 소비에트 연방이 붕괴한 뒤, 우크라이나는 1991년에 독립을 선언했고, 키이우는 수도이자 문화 중심지로서 소생하고 있다.'
+WHERE Tag = 'TXT_KEY_CIV5_KIEV_TEXT';
+
+UPDATE Language_ko_KR
+SET Text = '오늘날 동방정교회는 약 3억에 달하는 신도를 거느린 두 번째로 큰 기독교 교파이다. 동방정교회의 설립 목적은 ‘예수와 같이’ 되기 위해 신화, 영적인 순례를 통해 신에게 근접하는 것이다.[NEWLINE][NEWLINE]교회의 뿌리는 종교 대분열로 돌아가 찾을 수 있다. 9세기외 10세기 사이, 콘스탄티노플의 대주교가 관할하는 기독교 교회는 동유럽의 키이우 러시아와 발칸 반도의 수 많은 사람들을 개종했다. 필리오케 분열과 대주교에 대한 교황의 권한에 대한 종교적 문제들은 로마와 콘스탄티노플의 정치적, 경제적 대립각으로 인해 악화되었고, 결국 종교 대분열로 이어지게 되었다. 로마와 콘스탄티노플로 대표되는 두 종류의 기독교 간의 갈등은 결국 1204년 가톨릭계 십자군에 의해 콘스탄티노플이 약탈당하는 결과로 이어졌다. 뿐만 아니라, 콘스탄티노플이 1453년 오스만 제국에게 함락된 후, 동방정교회는 오스만 제국의 통치 하에 더욱 로마의 기독교와 멀어지게 되었다. 초기 기독교의 가르침을 진정으로 이어받았다고 주장하는 동방정교회는 제정 러시아의 황제에 의해 더욱 살아나게 되었다. 비록 공산주의와 발칸 세속주의에 의해 조금 변질되긴 했으나, 동방정교회는 최근 더욱 살아나며 기독교의 주축으로 남을 수 있었다.'
+WHERE Tag = 'TXT_KEY_RELIGION_ORTHODOXY_PEDIA';
+
+UPDATE Language_ko_KR
+SET Text = 'Kyivan'
+WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_HEADING_4';
+
+UPDATE Language_ko_KR
+SET Text = '8세기에 이르러 "키이우 대공국"의 첫 기록이 있습니다. 이들은 발트 해 해안에서 남쪽으로 이주한 스칸디나비아의 바이킹족이라고 생각됩니다. (그러나 일부 러시아 학자들은 의견이 다른데, 그들은 키이우 러시아인의 원래 뿌리는 슬라브족이라고 생각합니다.) 860년에 이들은 남쪽으로 멀리 콘스탄티노플에까지 습격부대를 보냈고, 1000년에는 발트 해에서 흑해에 이르는 통상로를 장악했는데, 이는 지방 세력이 커가는 경제적 뒷받침이 되었을 것입니다.[NEWLINE][NEWLINE]12세기에 키이우 제국은 동러시아가 된 지역 대부분에 걸쳐 있었고, 서쪽 폴란드에서 동쪽 볼가 강까지, 북쪽 핀란드에서 남쪽 우크라이나까지 확장하였습니다. 하나의 중앙집권화된 지역이 관리하기에는 너무 광대한 영토였는데, 특히 제국의 구성 지역이 각각 독자성을 띠고 국가적 염원을 키웠기 때문입니다.  경제적으로 이 제국은 나누어졌는데, 북쪽 지방은 발트 해 세력과 동조했지만, 서쪽 지역은 폴란드와 헝가리, 남쪽은 소아시아와 지중해에 다가갔습니다. 12세기 말에 키이우 대공국은 이름만 남고 흩어져, 많고 작은 유사봉건국으로 바뀌었습니다.'
+WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_4';
+
+UPDATE Language_ko_KR
+SET Text = '키이우 대공국에 대한 몽골의 첫 침략은 1223년의 일인데, 그해 몽골의 정찰대는 할크 강의 전투에서 이름도 거창한 므스티슬라프 로마노비치 대공(또는 므스티슬라프 볼트)이 이끄는 여러 러시아 국가의 연합 병력과 만났습니다. 러시아군은 처음에는 이겼지만, 패퇴하는 적을 추격합니다가 흐트러졌습니다. 몽골 기병은 재결집해서 추적자들이 재정비하기 전에 남김없이 무찔렀습니다. 많은 러시아군이 목숨만은 살려 준다는 조건에 몽골에 항복했는데, 몽골은 그 조건을 받아들이고는 그들을 대량 학살했습니다. 몽골은 그 후 수년간 러시아를 떠났다가 대군을 이끌고 돌아왔습니다.[NEWLINE][NEWLINE]1237년에 약 30,000명 이상의 궁기병으로 이루어진 거대 몽골군이 다시 한 번 볼가 강을 넘었습니다. 몇 년 지나지 않아 몽골은 수많은 러시아 도시와 마을을 점령하고, 약탈하고, 파괴했는데, 랴잔, 콜롬나, 모스크바, 로스토프, 카신, 드미트로프, 코젤스크, 할리치, 키이우가 해당합니다. 그들은 그들에 맞서는 모든 세력을 철저히 완파했습니다. 1240년에 러시아는 대부분 타다남은 폐허로 변했고, 완전히 몽골의 지배 아래 놓였는데, 그들은 헝가리와 폴란드를 향해 더 서쪽으로 눈을 돌렸습니다.[NEWLINE]'
+WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_5';

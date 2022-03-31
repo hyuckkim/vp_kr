@@ -1419,7 +1419,10 @@
 			<Text>Your {@1_UnitName}{@1: plural 1?이; 2?가;} 아무런 저항도 받지 않고 적 공군 유닛 및 지상의 대공 유닛을 공격했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_MINED">
-			<Text>Deep Water Mine Field Present</Text>
+			<Text>심해 지뢰밭 있음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
+			<Text>공항 있음</Text>
 		</Row>
 	</Language_ko_KR>
 	<Language_ko_KR>
