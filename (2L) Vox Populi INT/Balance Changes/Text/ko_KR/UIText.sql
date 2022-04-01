@@ -753,8 +753,7 @@ WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
 
 
 UPDATE Language_ko_KR
-SET Text = '공물 [ICON_GOLD]골드 {1_NumGold} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
-WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_GOLD_AMOUNT';
+SET Text = '공물 [ICON_GOLD]골드 {1_NumGold} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)';
 
 UPDATE Language_ko_KR
 SET Text = '{@1_Unit} 강탈 ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
