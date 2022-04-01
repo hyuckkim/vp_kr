@@ -46,7 +46,7 @@
 			<Text>[NEWLINE][ICON_BULLET]결의안: +{1_Num}%</Text>
 		</Row>		
 		
-		<!--내가추가-->		
+		<!--내가추가 / Build.xml -->		
 		<Row Tag="TXT_KEY_BUILD_EMBASSY">
 			<Text>[LINK=IMPROVEMENT_EMBASSY]대사관[\LINK] 건설</Text>
 		</Row>
