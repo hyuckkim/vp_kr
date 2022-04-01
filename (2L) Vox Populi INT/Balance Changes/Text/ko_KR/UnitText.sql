@@ -485,3 +485,20 @@
 	WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY';
 		
 	
+
+--내가추가 / UIText에 있어야 하는데 이상하게 거기에 있으면 적용이 안돼서 여기다 놓음. 
+
+UPDATE Language_ko_KR
+SET Text = '모아이는 해안에만 건설할 수 있습니다. 다른 모아이와 인접하여 건설하면 추가 [ICON_CULTURE]문화가 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 모아이 3타일 이내의 모든 폴리네시아 유닛은 [ICON_STRENGTH]전투력 보너스가 20% 증가합니다.'
+WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
+
+
+UPDATE Language_ko_KR
+SET Text = '공물 [ICON_GOLD]골드 {1_NumGold} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
+WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_GOLD_AMOUNT';
+
+UPDATE Language_ko_KR
+SET Text = '{@1_Unit} 강탈 ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
+WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';
+
+
