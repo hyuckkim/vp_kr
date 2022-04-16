@@ -1167,7 +1167,11 @@ SET Text = 'In addition to the regular abilities of the Barracks which it replac
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '테르시오를 대체하는 줄루의 고유 유닛입니다. 기마 유닛을 공격하는 데 특화되었으며 전투 시작 전에 원거리 일격을 가할 수 있습니다. 동시대의 대부분 유닛들보다 전반적으로 더 강력합니다.'
+SET Text = 'Before engaging in melee, the Impi performs a spear throw attack that can damage or kill the enemy unit.  Because they gain experience from both the spear throw and the melee combat, Impis gain promotions very quickly. Lacking the ability to fortify, they fair worse when defending critical positions, so attack early and often.'
+WHERE Tag = 'TXT_KEY_UNIT_ZULU_IMPI_STRATEGY';
+
+UPDATE Language_ko_KR
+SET Text = '테르시오를 대체하는 줄루의 고유 유닛입니다. 원거리 기병 유닛과 화약 유닛을 공격하는 데 특화되었으며 동시대의 대부분 유닛들보다 전반적으로 더 강력합니다. 전투 시작 전에 원거리 일격을 가합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ZULU_IMPI';
 
 UPDATE Language_ko_KR
