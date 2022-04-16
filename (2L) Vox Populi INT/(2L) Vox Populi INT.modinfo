@@ -25,6 +25,7 @@
   <References />
   <Blocks />
   <Files>
+    <File md5="4B86D9973F3ADC27664C2025175418B6" import="0">Art/Improvements/Inca/CBP_Improvements.sql</File>
     <File md5="5C28E8EDB6FEA0DDEA3C40DDE74D3830" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
     <File md5="9AAF24A6BD98E3FD07C54B896225BE3F" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
     <File md5="D0492F15121DF60F020CE0191A902933" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
@@ -74,6 +75,7 @@
   </Files>
   <Actions>
     <OnModActivated>
+      <UpdateDatabase>Art/Improvements/Inca/CBP_Improvements.sql</UpdateDatabase>
       <UpdateDatabase>Modular Elements/TradeUIMod/ko_KR/UITradeRoutesEnhancements.xml</UpdateDatabase>
       <UpdateDatabase>Modular Elements/ArchaeologistUIMods/Text/ko_KR/MiniMapPanelText.xml</UpdateDatabase>
 	    <UpdateDatabase>Modular Elements/ArchaeologistUIMods/Text/ko_KR/UIAntiquities.xml</UpdateDatabase>
