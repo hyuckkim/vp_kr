@@ -24,16 +24,16 @@
     <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="12" maxversion="999" title="(2a) Vox Populi Localized" />
     <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="1" maxversion="999" title="VP - EUI Compatibility Files" />
   </Dependencies>
-  <References/>
-  <Blocks/>
+  <References />
+  <Blocks />
   <Files>
     <File md5="83FB148ECC0B62D5C24CB6542C6D3F8D" import="0">EUI/EUI_text_ko_KR.xml</File>
-    <File md5="63A5911DD5C961172BD8D8D9E7904C6F" import="0">EUI/ko_KR/NeededText.xml</File>
+    <File md5="C3621B2DDE15D7D38424E9FB75B6A0E0" import="0">EUI/ko_KR/NeededText.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>EUI/ko_KR/NeededText.xml</UpdateDatabase>
-	  <UpdateDatabase>EUI/EUI_text_ko_KR.xml</UpdateDatabase>
+      <UpdateDatabase>EUI/EUI_text_ko_KR.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
