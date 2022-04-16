@@ -626,7 +626,7 @@ SET Text = '최대 거리: {1_Num}'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_RANGE';
 
 UPDATE Language_ko_KR
-SET Text = '자원 다양성 수치: {1_Num}%[NEWLINE][ICON_BULLET]   당신 문명의 지역 사치 자원: {2_Num}[NEWLINE][ICON_BULLET]   상대 문명의 지역 사치 자원: {3_Num}[NEWLINE] 고유 사치 자원의 교역은 더 많은 [ICON_GOLD]골드를 확보하고 독점 자원을 두 배로 계산합니다.'
+SET Text = '자원 다양성 수치: {1_Num}%[NEWLINE][ICON_BULLET]   당신 문명의 지역 자원: {2_Num}[NEWLINE][ICON_BULLET]   상대 문명의 지역 사치 자원: {3_Num}[NEWLINE] 고유 사치 자원의 교역은 더 많은 [ICON_GOLD]골드를 확보하고 독점 자원을 두 배로 계산합니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_DIFFERENT';
 
 
