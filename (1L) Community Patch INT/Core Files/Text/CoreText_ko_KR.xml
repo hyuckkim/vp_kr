@@ -3332,6 +3332,9 @@
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CLASS">
 			<Text>[NEWLINE][ICON_BULLET]전투 유형에 따른 수치: {1_Num}%</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_EVENTMOD">
+			<Text>[NEWLINE][ICON_BULLET]지역 이벤트에 따른 수치: {1_Num}%</Text>
+		</Row>
 		<!-- Regular Deal Details - Lua -->
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE">
 			<Text>거래 점수: {1_Num}</Text>
@@ -7515,6 +7518,9 @@
 		<Row Tag="TXT_KEY_EO_SPY_RANK_TT_SHORT">
 			<Text>{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName}으로 승급했습니다!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EO_NO_ACTIONS_POSSIBLE">
+			<Text>이 도시에서 해낼 수 있는 스파이 액션이 없습니다.</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_SPY_RANK">
 			<Text>[NEWLINE] [ICON_BULLET] 이 선택을 할만큼 스파이의 등급이 높지 않습니다.</Text>
@@ -7526,7 +7532,10 @@
 			<Text>[NEWLINE] [ICON_BULLET] 훔칠 기술이 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_NO_GW_FORGE">
-			<Text>[NEWLINE] [ICON_BULLET] 복사할 불가사의가 없습니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] 걸작이 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_MIN_SIPHON_NOT_MET">
+			<Text>[NEWLINE] [ICON_BULLET] 도시가 횡령할 만큼의 산출물을 생산해 내지 않습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_NO_COUNTERSPY">

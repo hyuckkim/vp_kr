@@ -17,6 +17,10 @@
 		<Row Tag="TXT_KEY_AA_EVENT_INVALID_TT">
 			<Text>{3_City}에서 {1_Rank} {2_Spy}{2_Spy: plural 1?이; 2?가;} 도시의 최근 변화에 의해 작전을 취소했습니다. 스파이에게 새로운 작전을 지시하십시오.</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_EO_SPY_EXPERIENCE">
+			<Text>경험치: {1_Num} / {2_Denom}</Text>
+		</Row>
 		
 		<!-- FOCUS OPTIONS -->
 
@@ -26,17 +30,23 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SELECT_FOCUS_HELP">
 			<Text>미션에 필요한 스파이 네트워크가 설치되었습니다. 어떤 작전을 수행할까요?</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_PRODUCTION">
-			<Text>[ICON_PRODUCTION]생산 방해</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM">
+			<Text>[ICON_TOURISM]지역 관광 방해</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_PRODUCTION_HELP">
-			<Text>{6_Spy}목표 도시: {2_InstantYield}[NEWLINE][NEWLINE]도시가 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]프로젝트[ENDCOLOR]를 진행 중이라면 이 미션의 기간은 절반이 됩니다.</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM_HELP">
+			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_TOURISM] 관광의 10%를 수집합니다. 작전이 성공하면, 수집한 [ICON_TOURISM] 관광을 훔칩니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_GOLD">
-			<Text>[ICON_GOLD]골드 훔치기</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE">
+			<Text>[ICON_RESEARCH]과학 단지 침투</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_GOLD_HELP">
-			<Text>{6_Spy}당신의 [ICON_CAPITAL] 수도: {2_InstantYield}</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE_HELP">
+			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_RESEARCH] 과학의 10%를 수집합니다. 작전이 성공하면, 수집한 [ICON_RESEARCH] 과학을 훔칩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD">
+			<Text>[ICON_GOLD]국고 절도</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD_HELP">
+			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_GOLD] 골드의 10%를 수집합니다. 작전이 성공하면, 수집한 [ICON_GOLD] 골드를 훔칩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
 			<Text>[ICON_CITIZEN]시골 주민 선동</Text>
@@ -45,10 +55,10 @@
 			<Text>{6_Spy}도시의 농장, 광산, 재배지, 교역소 중 하나가 약탈됩니다. 개발된 [COLOR_POSITIVE_TEXT]전략 자원[ENDCOLOR] 타일이 약탈됩니다. {5_Turns}턴 동안 [ICON_FOOD]인구 성장률이 25% 감소합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_SCIENCE">
-			<Text>[ICON_RESEARCH]과학 훔치기</Text>
+			<Text>[ICON_HAPPINESS_3]지역 분란 조장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_SCIENCE_HELP">
-			<Text>{6_Spy}당신의 [ICON_CAPITAL] 수도: {2_InstantYield}</Text>
+			<Text>{6_Spy}목표 도시: 모든 불행이 34% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
 			<Text>[ICON_GREAT_PEOPLE]전문가 납치</Text>
@@ -143,7 +153,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_SPY_DETECTED">
-			<Text>[COLOR_POSITIVE_TEXT]임무 결과:[ENDCOLOR] 성공![NEWLINE][NEWLINE]메시지: "요원이 발각되었지만, 누구의 스파이인지는 알지 못합니다. 재배치될 때까지 계속 일하겠습니다."[NEWLINE][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]임무 결과:[ENDCOLOR] 성공![NEWLINE][NEWLINE]메시지: "발각되었지만, 누구의 스파이인지는 알지 못합니다. 재배치될 때까지 계속 일하겠습니다."[NEWLINE][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_SPY_IDENTIFIED">
 			<Text>[COLOR_POSITIVE_TEXT]임무 결과:[ENDCOLOR] 성공했지만 들켰습니다![NEWLINE][NEWLINE]메시지: "장막이 들춰졌습니다. 재배치를 위해 본부로 돌아갑니다."[NEWLINE][NEWLINE]</Text>
