@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="12">
+  <Properties>
+    <Name>(3aL) VP - EUI Compatibility Files Localized</Name>
+    <Teaser>(2.0) [COLOR_GREEN]Translation of VP - EUI Compatibility Files[ENDCOLOR]</Teaser>
+    <Description>Translation of the VP - EUI Compatibility Files into several non-English languages. Currently to Korean only.</Description>
+    <Authors>dcinside Cilization Gallery</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <MinCompatibleSaveVersion>9</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="52" maxversion="999" title="Community Patch - Core" />
+    <Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="12" maxversion="999" title="(1a) Community Patch Localized" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Vox Populi" />
+    <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="12" maxversion="999" title="(2a) Vox Populi Localized" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="1" maxversion="999" title="VP - EUI Compatibility Files" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="83FB148ECC0B62D5C24CB6542C6D3F8D" import="0">EUI/EUI_text_ko_KR.xml</File>
+    <File md5="C3621B2DDE15D7D38424E9FB75B6A0E0" import="0">EUI/ko_KR/NeededText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>EUI/ko_KR/NeededText.xml</UpdateDatabase>
+      <UpdateDatabase>EUI/EUI_text_ko_KR.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
