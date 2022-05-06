@@ -34,19 +34,19 @@
 			<Text>[ICON_TOURISM]지역 관광 방해</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM_HELP">
-			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_TOURISM] 관광의 10%를 수집합니다. 작전이 성공하면, 수집한 [ICON_TOURISM] 관광을 훔칩니다.</Text>
+			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_TOURISM] 관광의 25%를 수집합니다. 작전이 성공하면, 수집한 [ICON_TOURISM] 관광을 훔칩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE">
 			<Text>[ICON_RESEARCH]과학 단지 침투</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE_HELP">
-			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_RESEARCH] 과학의 10%를 수집합니다. 작전이 성공하면, 수집한 [ICON_RESEARCH] 과학을 훔칩니다.</Text>
+			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_RESEARCH] 과학의 15%를 수집합니다. 작전이 성공하면, 수집한 [ICON_RESEARCH] 과학을 훔칩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD">
 			<Text>[ICON_GOLD]국고 절도</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD_HELP">
-			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_GOLD] 골드의 10%를 수집합니다. 작전이 성공하면, 수집한 [ICON_GOLD] 골드를 훔칩니다.</Text>
+			<Text>{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_GOLD] 골드의 15%를 수집합니다. 작전이 성공하면, 수집한 [ICON_GOLD] 골드를 훔칩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
 			<Text>[ICON_CITIZEN]시골 주민 선동</Text>
