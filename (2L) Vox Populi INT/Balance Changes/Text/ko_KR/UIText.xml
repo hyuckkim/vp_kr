@@ -1416,7 +1416,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
-			<Text>Your {@1_UnitName}{@1: plural 1?이; 2?가;} 아무런 저항도 받지 않고 적 공군 유닛 및 지상의 대공 유닛을 공격했습니다!</Text>
+			<Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} 아무런 저항도 받지 않고 적 공군 유닛 및 지상의 대공 유닛을 공격했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_MINED">
 			<Text>심해 지뢰밭 있음</Text>
