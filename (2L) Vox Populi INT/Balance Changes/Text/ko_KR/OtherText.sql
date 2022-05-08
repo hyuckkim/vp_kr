@@ -28,7 +28,7 @@ WHERE Tag = 'TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP';
 
 -- Help Text Changes
 UPDATE Language_ko_KR
-SET Text = '[ICON_TOURISM] Tourism is the primary yield you will use to spread your cultural influence to other civilizations. It is generated passively by [COLOR_POSITIVE_TEXT]Great Works[ENDCOLOR] or [COLOR_POSITIVE_TEXT]Artifacts[ENDCOLOR], and actively by [COLOR_POSITIVE_TEXT]Historic Events[ENDCOLOR] (for more on ''Historic Events,'' see the section with this label) or completing [COLOR_POSITIVE_TEXT]Trade Routes[ENDCOLOR] (if you have constructed buildings that grant such bonuses). As you place more and more Great Works and Artifacts into your Museums, Amphitheaters, Opera Houses, etc., your [ICON_TOURISM] Tourism will continue to increase. Additionally, you can boost your [ICON_TOURISM] Tourism output quite a bit through Open Borders, Trade Routes, shared Religion, and certain Ideological Tenets.'
+SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문명에 퍼뜨리는 데 사용할 주요 재화입니다. [COLOR_POSITIVE_TEXT]걸작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]유물[ENDCOLOR]에 의해 수동적으로 생성되고 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]에 의해, 또는 [COLOR_POSITIVE_TEXT]교역로[ENDCOLOR] 완료(이러한 보너스를 제공하는 건물을 건설한 경우) 능동적으로 생성됩니다(자세한 내용은 이 섹션의''역사적 사건''을 참조하십시오). 박물관, 원형 극장, 오페라 하우스 등에 더 많은 위대한 작품과 유물을 배치하면 [ICON_TOURISM] 관광이 계속 증가할 것입니다. 또한 개방된 국경, 무역로, 종교 공유 및 특정 이념 주의를 통해 [ICON_TOURISM] 관광 산출을 상당히 높일 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY';
 
 -- Capture Popup
@@ -115,19 +115,19 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC';
 -- Change instructions for Ideologies
 
 UPDATE Language_ko_KR
-SET Text = 'The three Ideology trees, Freedom, Order, and Autocracy, have greatly expanded in Brave New World. All civilizations in the game, on acquiring 18 Policies and having advanced at least to the Industrial Era, or upon reaching the Atomic Era, will be required to choose an Ideology for their civilization. Each Ideology tree contains 3 tiers of "tenets" that you use to customize your Ideology, with the third and final tier holding the most powerful benefits. As with regular Social Policies, players use Culture to purchase additional tenets as they move through the game.[NEWLINE][NEWLINE]Civilizations that share a common Ideology will receive benefits with their diplomatic relationships. Civilizations that have conflicting Ideologies have multiple side-effects. For example, a negative effect on their diplomatic relationship and happiness penalties take effect if an opposing Ideology has a stronger Cultural influence on your people. If you let your people become too unhappy, there is a chance that your cities may declare that they are joining your opponents empire. As a last resort, you, or other players, can resort to a "Revolution" to switch Ideologies to one that is preferable to your people.[NEWLINE][NEWLINE]For more information on Ideological Tenets, click on the "Social Policies" tab along the top of the Civilopedia, and scroll down to the Order, Freedom, and Autocracy sections.'
+SET Text = '평등, 체제, 독재 체제가 Brave New World에서 크게 확장되었습니다. 문명이 정책 18개를 채택하거나 원자력 시대에 들어가면 이념을 선택해야 합니다. 각 이념에는 플레이어가 채택할 수 있는 3가지 사상 단계가 있으며, 세 번째와 마지막 단계에 가장 큰 혜택이 있습니다. 일반적인 사회 정책처럼, 플레이어는 게임을 하면서 문화로 추가 주의를 구입할 수 있습니다.[NEWLINE][NEWLINE]공통된 이념을 가진 문명은 외교 관계에 혜택을 받습니다. 대립하는 이념을 가진 문명은 여러 가지 부작용을 겪습니다. 예를 들어 대립하는 이념의 문화적 영향력이 더 강하다면 외교관계는 불리해지고 행복 페널티를 받게 됩니다. 시민이 불행해지면 도시가 적대국에 가담할 가능성이 높아집니다. 마지막 수단으로 혁명에 의지하여 시민이 선호하는 사상으로 이념을 바꿀 수 있습니다.[NEWLINE][NEWLINE]자세한 이념 정보는 문명 백과사전 상단에 있는 ''사회 정책'' 탭을 클릭하고 체제, 평등, 독재 부분을 보십시오.'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = 'Players interested in creating massive, sprawling civs should turn to the Order ideology, as the strength of the empire is determined by the total number of cities it contains. This ideology unlocks upon entering the Atomic Era, or unlocking 18 Policies and have advanced at least to the Industrial Era, whichever comes first.'
+SET Text = '도시 개수가 제국의 힘을 결정하는 질서 이념은, 거대하고 전파력이 강한 문명을 만들고 싶은 플레이어에게 적합합니다. 정책 18개를 채택하거나 원자력 시대에 들어가면 이 이념을 사용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_ORDER_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Autocracy ideology is well suited for those wishing nothing more than to crush their foes under the weight of their iron-plated boots. This ideology unlocks upon entering the Atomic Era, or unlocking 18 Policies and having advanced at least to the Industrial Era, whichever comes first.'
+SET Text = '적을 강철 발굽 아래 깔아뭉개고 싶다면 전제정치 이념이 최고의 선택입니다. 정책 18개를 채택하거나 원자력 시대에 들어가면 이 이념을 사용할 수 있으며, 자유 또는 질서와 함께 활성화할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_AUTOCRACY_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Freedom ideology provides bonuses for Culture, Tourism, Specialist production, and more. This ideology unlocks upon entering the Atomic Era, or unlocking 18 Policies and having advanced at least to the Industrial Era, whichever comes first.'
+SET Text = '평등 이념은 문화, 관광, 전문가 생산 등에 보너스를 제공합니다. 정책 18개를 채택하거나 원자력 시대에 들어가면 이 사상을 사용할 수 있으며, 독재 또는 질서와 함께 활성화할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_FREEDOM_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -147,7 +147,7 @@ SET Text = '맨해튼 프로젝트를 완성하면 도시에서 원자폭탄과 
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Manhattan Project allows a civilization to construct nuclear weapons. Each civilization must construct the Manhattan Project before it can construct nukes. If you are part of the first global team to complete this, you will receive a free Research Lab and Atomic Bomb in your Capital.'
+SET Text = '맨해튼 프로젝트를 완성하면 해당 문명은 핵무기를 제조할 수 있게 됩니다. 핵무기를 제조하려면 각 문명은 맨해튼 프로젝트를 완성해야 합니다. 처음으로 맨해튼 프로젝트를 완료했다면, 수도에 무료 연구소와 원자폭탄을 제공합니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY';
 
 UPDATE Language_ko_KR
