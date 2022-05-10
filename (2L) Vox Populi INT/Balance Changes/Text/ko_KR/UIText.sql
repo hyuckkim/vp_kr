@@ -126,7 +126,6 @@ WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_BODY';
 UPDATE Language_ko_KR
 SET Text = '문명이 특정 기술을 배우면(기술 트리 참조), 일꾼은 타일에서 숲, 정글 및 습지를 제거할 수 있습니다. 이 지형들은 일단 제거되면 영구히 사라집니다.'
 WHERE Tag = 'TXT_KEY_WORKERS_CLEARINGLAND_HEADING2_BODY';
-
 UPDATE Language_ko_KR
 SET Text = '문명이 불행하다면 도시는 식량을 덜 생산할 것입니다. 도시는 시민들을 먹일 만큼 충분한 식량을 생산할 것이지만, 지역 성장은 감소합니다.'
 WHERE Tag = 'TXT_KEY_FOOD_UNHAPPINESS_HEADING3_BODY';
@@ -459,20 +458,13 @@ SET Text = '불행에는 세 가지 수준이 있습니다. 불행, 불안, 그�
 WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY';
 
 -- Text for city view tooltip.
-INSERT INTO Language_ko_KR (Text, Tag)
-VALUES ('[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] 지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY');
+INSERT INTO Language_ko_KR (
+Text, Tag)
+SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] 지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY';
 
-
-INSERT INTO Language_ko_KR (Text, Tag)
-VALUES ('[NEWLINE][ICON_BULLET]전쟁 피로도에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD');
-
--- Text for city view tooltip.
-INSERT INTO Language_ko_KR (Text, Tag)
-VALUES ('[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1]지역 행복: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY');
-
--- Text for city view tooltip.
-INSERT INTO Language_ko_KR (Text, Tag)
-VALUES ('[NEWLINE][ICON_BULLET]행복에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD');
+INSERT INTO Language_ko_KR (
+Text, Tag)
+SELECT '[NEWLINE][ICON_BULLET]행복에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD';
 
 
 -- Text for city view tooltip.
@@ -545,19 +537,19 @@ VALUES ('[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]행복에서 
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_CULTURE]문화로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED';
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 2 );
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_GOLDEN_AGE]황금기 점수로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED';
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 3 );
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_RESEARCH]과학으로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED';
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 4 );
 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_PEACE]신앙으로 돌려 받습니다!'
-WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED';
+WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 5 );
 
 
 -- Resource Changes
@@ -744,3 +736,18 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_PLEDGES_TO_PROTECT';
 UPDATE Language_ko_KR
 SET Text = '이미 이번 턴에 공물을 바침'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
+
+--내가추가
+
+UPDATE Language_ko_KR
+SET Text = '모아이는 해안에만 건설할 수 있습니다. 다른 모아이와 인접하여 건설하면 추가 [ICON_CULTURE]문화가 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 모아이 3타일 이내의 모든 폴리네시아 유닛은 [ICON_STRENGTH]전투력 보너스가 20% 증가합니다.'
+WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
+
+
+UPDATE Language_ko_KR
+SET Text = '공물 [ICON_GOLD]골드 {1_NumGold} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
+WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_GOLD_AMOUNT';
+
+UPDATE Language_ko_KR
+SET Text = '{@1_Unit} 강탈 ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
+WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';

@@ -268,7 +268,7 @@ SET Text = '모아이는 타일에 +1 [ICON_CULTURE] 문화를 제공합니다. 
 WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Moai can only be built adjacent to water. If built next to another Moai, it provides additional [ICON_CULTURE] Culture. After the Flight technology is researched it also provides extra [ICON_GOLD] Gold.'
+SET Text = '모아이는 해안에만 건설할 수 있습니다. 인접한 모아이마다 추가 [ICON_CULTURE]문화를 제공합니다. 비행 기술을 연구하면 타일에서 추가 [ICON_GOLD]골드를 제공합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP';
 
 
