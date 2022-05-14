@@ -3289,78 +3289,210 @@
 		<Row Tag="TXT_KEY_DIPLO_REQUEST_HELP_DEAL_BUTTON">
 			<Text>원조</Text>
 		</Row>
-		<!-- LUA for CBP -->
-		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DOF">
-			<Text>우호 관계 선언 때문에 불가능합니다.</Text>
+		<!-- Peace Out Details - Lua -->
+		<Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR">
+			<Text>평화 협정 점수: {1_Num}.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP">
-			<Text>방위 조약 때문에 불가능합니다.</Text>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR_TT">
+			<Text>평화 협정에서 거래 품목에 대한 지도자의 현재 가치를 나타냅니다. 이 점수가 '불가능'이거나 너무 마이너스 값이면 지도자는 평화 협정을 거절할 것입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_WAR_PTP">
-			<Text>보호 선언 때문에 불가능합니다.</Text>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR_IMPOSSIBLE">
+			<Text>평화 협정 점수: 불가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_MAX_STR">
+			<Text>최대 점수: {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_MAX_STR_TT">
+			<Text>평화 협정에서 지도자의 최대 가치를 나타냅니다. 이 점수를 초과해 제시하면 지도자는 평화 협정을 거절할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_MIN_STR">
+			<Text>요구 점수: {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_MIN_STR_TT">
+			<Text>평화 협정에서 지도자의 요구 가치를 나타냅니다. 이 점수를 초과해 제시하면 지도자는 평화 협정을 거절할 것입니다.</Text>
+		</Row>
+
+		<!-- Regular Deal Details - Lua -->
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR">
+			<Text>거래 점수: {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_TT">
+			<Text>현재 거래에서 거래 품목에 대한 AI의 현재 가치를 나타냅니다. 이 점수가 '불가능'이거나 너무 마이너스 값이면 AI는 거래를 거절할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_ACCEPTABLE">
+			<Text>거래 점수: 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_IMPOSSIBLE">
+			<Text>거래 점수: 불가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_EMBARGO">
+			<Text>세계 대회에 의한 제재</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_EMBARGO_TT">
+			<Text>제재가 풀릴 때까지 평화시에 이 문명과의 거래를 할 수 없습니다.</Text>
+		</Row>
+
+		<!-- Defensive Pact tooltip (no DP limit) -->
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_LIMIT_TT">
+			<Text>만약 어느 한 문명이 다른 주요 문명의 공격을 받게 된다면, 조약을 맺은 상대 문명은 즉시 그리고 자동적으로 침략자와 전쟁을 하게 됩니다. (이 조약은 {1_Num}턴 동안 지속됩니다.)</Text>
+		</Row>
+
+		<!-- Invalid Deal Item Tooltip Text -->
+		<Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
+			<Text>평화 협정에서 항복 외의 방식으로 종속국을 추가할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AGREEMENT_INSUFFICIENT_FUNDS">
+			<Text>둘 중의 누군가 연구 협정을 체결하는 데 필요한 자금이 부족합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT">
+			<Text>일시불 항목 (골드 등) 과 턴당 항목 (자원 등)을 교환할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AI_TEAMMATE_TRADE_TT">
+			<Text>플레이어 팀원에 의해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WARTIME_TRADE_TT">
+			<Text>평화 협정에서는 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_CAPITAL">
+			<Text>우리는 그들의 대사관을 받을 수도가 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_CAPITAL_THEM">
+			<Text>그들은 우리의 대사관을 받을 수도가 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_DENOUNCEMENT">
+			<Text>다른 문명이 비난하면 대사관을 설립할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_INSUFFICIENT_MAJORS">
+			<Text>다른 종속국이 아닌 문명이 남아있지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_DISABLED_BY_OPTIONS">
+			<Text>방어 조약이 게임 옵션에 의해 비활성화되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_EXISTING_VASSALAGE">
+			<Text>종속국은 방어 조약을 맺을 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CONTAINS_INVALID_VASSALAGE">
+			<Text>거래에 종속국이 포함된다면 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEFENSIVE_PACT_LIMIT_REACHED">
+			<Text>당신은 {1_Num}개보다 많이 방어 조약을 맺을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEFENSIVE_PACT_LIMIT_REACHED_THEM">
+			<Text>그들은 {1_Num}개보다 많이 방어 조약을 맺을 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_THEIR_VASSAL">
+			<Text>우리는 이미 그들의 종속국입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_YOUR_VASSAL">
+			<Text>그들은 이미 우리의 종속국입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_HUMAN_DISABLED">
+			<Text>"플레이어 종속국" 옵션을 비활성화했기 때문에 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_ARE_VASSAL">
+			<Text>우리는 이미 {1_CivName}의 종속국이기 때문에 그들의 종속국이 될 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEY_ARE_VASSAL">
+			<Text>그들은 이미 {1_CivName}의 종속국이기 때문에 그들의 종속국이 될 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_NOT_YET_ENABLED">
+			<Text>우리가 종속국을 만들거나 해방하려면 적어도 중세 시대에 진입해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NOT_YET_ENABLED">
+			<Text>그들이 종속국을 만들거나 해방하려면 적어도 중세 시대에 진입해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_A_VASSAL">
+			<Text>우리는 이미 {1_PlayerName:textkey}의 종속국입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_A_VASSAL">
+			<Text>그들은 이미 {1_PlayerName:textkey}의 종속국입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_TOO_SOON">
+			<Text>우리는 종속국 협정을 끝낸 후 {1_Num}턴간 종속국이 될 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_TOO_SOON">
+			<Text>그들은 종속국 협정을 끝낸 후 {1_Num}턴간 종속국이 될 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_NO_POPULATION">
+			<Text>우리는 도시나 시민이 없기 때문에 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NO_POPULATION">
+			<Text>그들은 도시나 시민이 없기 때문에 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_AND_INVALID_ITEM">
+			<Text>거래에 방어 조약이나 해방이 포함된다면 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_NO_VASSALS">
+			<Text>우리는 해방할 종속국이 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_NO_VASSALS">
+			<Text>우리는 해방할 종속국이 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_YOUR_MASTER">
+			<Text>우리는 종주국에게 종속국 해방을 요청할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_THEIR_MASTER">
+			<Text>그들은 종주국에게 종속국 해방을 요청할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_TOO_SOON">
+			<Text>우리는 최근에 종속되어 {1_Num}턴 동안 이 작업을 수행할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_TOO_SOON">
+			<Text>그들은 최근에 종속되어 {1_Num}턴 동안 이 작업을 수행할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT">
+			<Text>평화 협정에는 동맹 도시 국가만 포함할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CANNOT_PEACE_VASSAL">
+			<Text>종속국은 평화 협정을 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BLOCKED_DIPLOMACY">
+			<Text>외교적 상황에 의해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BLOCKED_GAME_RULE">
+			<Text>게임 규칙에 의해 불가능합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
-			<Text>전쟁 점수가 75 이상이어야 합니다. 현재 전쟁 점수: {1_Num}</Text>
+			<Text>전쟁 점수는 {1_Num} 이상이어야 합니다. 현재 전쟁 점수: {2_Num}.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
-			<Text>평화 협상에 항복하지 않는 당사자는 추가할 수 없습니다.</Text>
+		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE_TEAM">
+			<Text>팀의 모든 문명에 대한 전쟁 점수는 {1_Num} 이상이어야 합니다. 가장 낮은 전쟁 점수: {2_Num}.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_WAR_BLOCKED">
-			<Text>외교적 상황 때문에 불가능합니다.</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_VASSAL">
+			<Text>종속국은 전쟁 선포가 할 수 없습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_CANNOT_PEACE">
-			<Text>이 문명과는 거래나 평화 협상이 불가능합니다.</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_VASSAL">
+			<Text>종속국에게 전쟁 사주를 할 수 없습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NEED_EMBASSY">
-			<Text>이 아이템을 거래하려면 대사관이 있어야 합니다.</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_OUR_MASTER">
+			<Text>종주국에게 전쟁 사주를 할 수 없습니다.</Text>
 		</Row>
-		<!-- Peace Out Details - Lua -->
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR">
-			<Text>평화 협상 점수: {1_Num}</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_THEIR_MASTER">
+			<Text>그들의 종주국에게 전쟁 사주를 할 수 없습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_IMPOSSIBLE">
-			<Text>평화 협상 점수: 불가능</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP">
+			<Text>방어 조약에 의해</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_ACCEPTABLE">
-			<Text>평화 협상 점수: 가능</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP_OUR_MASTER">
+			<Text>종주국의 방어 조약에 의해 불가능합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAX_STR">
-			<Text>최대 점수: {1_Num}</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP_THEIR_MASTER">
+			<Text>그들의 종주국의 방어 조약에 의해 불가능합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_TT">
-			<Text>현재 평화 협상에서 AI가 아이템에 대해 매기는 거래 가치입니다. 평화 협상 시 점수가 '불가능'이면 AI가 1개 또는 그 이상의 아이템 거래를 거부한다는 것을 의미합니다.</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DOF">
+			<Text>친선 관계에 의해 불가능합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAX_STR_TT">
-			<Text>AI와의 평화 협상에서 아이템의 최대 점수입니다. 왼쪽의 점수가 이 점수를 초과하면 AI는 거래를 거절할 것입니다.</Text>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_PTP">
+			<Text>보호 선언에 의해 불가능합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT_ONE_LINE">
-			<Text>턴당 골드/자원/무역 협정과 일시불 골드를 동시에 거래하거나 요구할 수 없습니다.</Text>
-		</Row>
+
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CLASS">
 			<Text>[NEWLINE][ICON_BULLET]전투 유형에 따른 수치: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_EVENTMOD">
 			<Text>[NEWLINE][ICON_BULLET]지역 이벤트에 따른 수치: {1_Num}%</Text>
 		</Row>
-		<!-- Regular Deal Details - Lua -->
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE">
-			<Text>거래 점수: {1_Num}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_IMPOSSIBLE">
-			<Text>거래 점수: 불가능</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_EMBARGO">
-			<Text>세계 대회에 의한 제재</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_EMBARGO_TT">
-			<Text>제재가 풀릴 때까지 평화시에 이 문명과의 거래를 할 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_ACCEPTABLE">
-			<Text>거래 점수: 가능</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_TT">
-			<Text>현재 거래에서 거래 품목에 대한 AI의 현재 가치를 나타냅니다. 이 점수가 '불가능'이거나 너무 마이너스 값이면 AI는 거래를 거절할 것입니다.</Text>
-		</Row>
+
 		<!-- No Supply -->
 		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY">
 			<Text>[NEWLINE]최대 보급 한도 때문에 이 유닛을 [ICON_PRODUCTION]생산할 수 없습니다.</Text>
@@ -7056,9 +7188,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MORALE_FALL_BACK_THEM_S">
 			<Text>적 {1_Unit}{1: plural 1?이; 2?가;} 후퇴했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT">
-			<Text>평화 협상에서는 동맹 도시 국가만 포함시킬 수 있습니다.</Text>
 		</Row>
 		<!-- Team Tourism -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_SAME_TEAM">

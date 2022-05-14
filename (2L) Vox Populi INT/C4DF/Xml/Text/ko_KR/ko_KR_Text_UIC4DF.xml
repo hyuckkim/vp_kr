@@ -63,16 +63,10 @@
 			<Text>다른 지도자가 거래할 수 있는 기술을 가지고 있지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_OTHER_PLAYER">
-			<Text>[NEWLINE][NEWLINE]그들은 아직 이 아이템을 판매할 기술(과학 이론)을 가지고 있지 않습니다.</Text>
+			<Text>그들은 아직 이 아이템을 판매할 기술(과학 이론)을 가지고 있지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_PLAYER">
-			<Text>[NEWLINE][NEWLINE]당신은 아직 이 아이템을 판매할 기술(과학 이론)을 가지고 있지 않습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_SCIENCE_OFF">
-			<Text>[NEWLINE][NEWLINE]이 시나리오에서는 과학 시스템이 꺼져 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TECH_TRADING_NOT_ACTIVE">
-			<Text>[NEWLINE][NEWLINE]기술 거래가 불가능합니다!</Text>
+			<Text>당신은 아직 이 아이템을 판매할 기술(과학 이론)을 가지고 있지 않습니다.</Text>
 		</Row>
 		<!-- Vassalage -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_VASSALS">
@@ -141,76 +135,10 @@
 			<Text>해방</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_REVOKE_TT">
-			<Text>이 문명이 모든 종속국에 대한 지배를 포기합니다. 이 문명이 종속국을 가지고 있고 종속국에 대한 지배를 포기할 의향이 있어야 가능합니다.</Text>
+			<Text>이 문명이 모든 종속국에 대한 지배를 포기합니다. 이 문명이 종속국을 가지고 있고 종속국을 해방할 수 있어야 가능합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_TT">
-			<Text>이 문명이 다른 문명의 종속국이 됩니다. 이 문명이 종속국이 되면 {1_Num}턴간 종속국에서 벗어날 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEY_HAVE">
-			<Text>[NEWLINE][NEWLINE]그들은 이미 {1_PlayerName:textkey}의 종속국입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEY_DONT_WANT_TT">
-			<Text>[NEWLINE][NEWLINE]그들은 우리의 종속국이 될 의향이 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_NOT_YET_ENABLED">
-			<Text>[NEWLINE][NEWLINE]우리가 종속국을 만들거나 해방하려면 적어도 중세 시대에 진입해야 합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NOT_YET_ENABLED">
-			<Text>[NEWLINE][NEWLINE]그들이 종속국을 만들거나 해방하려면 적어도 중세 시대에 진입해야 합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_NO_VASSALS">
-			<Text>[NEWLINE][NEWLINE]우리는 해방할 종속국이 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_NO_VASSALS">
-			<Text>[NEWLINE][NEWLINE]우리는 해방할 종속국이 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_THEIR_MASTER">
-			<Text>[NEWLINE][NEWLINE]그들은 종주국에게 종속국 해방을 요청할 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_YOUR_MASTER">
-			<Text>[NEWLINE][NEWLINE]우리는 종주국에게 종속국 해방을 요청할 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_ARE_VASSAL">
-			<Text>[NEWLINE][NEWLINE]우리는 이미 {1_PlayerName:textkey}의 종속국입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEY_ARE_VASSAL">
-			<Text>[NEWLINE][NEWLINE]그들은 이미 {1_PlayerName:textkey}의 종속국입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_TOO_SOON">
-			<Text>[NEWLINE][NEWLINE]우리는 종속국 협정을 끝낸 후 {1_Num}턴간 종속국이 될 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_TOO_SOON">
-			<Text>[NEWLINE][NEWLINE]그들은 종속국 협정을 끝낸 후 {1_Num}턴간 종속국이 될 수 없습니다..</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_SPECIAL_RULE">
-			<Text>[NEWLINE][NEWLINE]우리는 특별한 규칙 때문에 종속국이 될 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_SPECIAL_RULE">
-			<Text>[NEWLINE][NEWLINE]그들은 특별한 규칙 때문에 종속국이 될 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_NO_POPULATION">
-			<Text>[NEWLINE][NEWLINE]우리는 도시나 시민가 없기 때문에 불가능합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NO_POPULATION">
-			<Text>[NEWLINE][NEWLINE]그들은 도시나 시민가 없기 때문에 불가능합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_A_VASSAL">
-			<Text>[NEWLINE][NEWLINE]우리는 이미 {1_CivName}의 종속국이기 때문에 그들의 종속국이 될 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_A_VASSAL">
-			<Text>[NEWLINE][NEWLINE]그들은 이미 {1_CivName}의 종속국이기 때문에 그들의 종속국이 될 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_THEIR_VASSAL">
-			<Text>[NEWLINE][NEWLINE]우리는 이미 그들의 종속국입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_YOUR_VASSAL">
-			<Text>[NEWLINE][NEWLINE]그들은 이미 우리의 종속국입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_TOO_SOON">
-			<Text>[NEWLINE][NEWLINE]이 문명은 최근 종속국 협정을 끝냈기 때문에 {1_Num}턴간 종속국이 될 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_HUMAN_DISABLED">
-			<Text>[NEWLINE][NEWLINE]"플레이어 종속국" 옵션을 비활성화했기 때문에 불가능합니다.</Text>
+			<Text>이 문명이 다른 문명의 종속국이 됩니다. 이 문명이 종속국이 되면 {1_Num}턴간 종속국에서 벗어날 수 없습니다.[NEWLINE][NEWLINE]항복하는 문명에게 종속국이 있다면, 종속국은 해방됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_VASSAL">
 			<Text>{1_PlayerName:textkey}{1: plural 1?과; 2?와;}의 종속국 협정 끝내기</Text>

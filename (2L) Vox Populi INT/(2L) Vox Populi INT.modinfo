@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="12">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(2.0) [COLOR_GREEN]Translation of the Community Balance Overhaul[ENDCOLOR]</Teaser>
+    <Teaser>(2.2) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -30,17 +30,17 @@
     <File md5="953C04641F22594CDAE688E937F32E69" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
     <File md5="3DB548E53FD8E565FA8831DBF9C46E34" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
     <File md5="EC757C60989333983C9912F2C9A0850C" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
-    <File md5="9A21633DCE7D86F3FEBF3700505B23BF" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
+    <File md5="A933B2603806582FCFDB42D83AD03E39" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
     <File md5="DCEBDE236EB482A42B5D20CA1A8A99DE" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="DE3B6F4F0AF7D6646192F932CEC42290" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
     <File md5="A0D12217350F79A03C3C66209940CE50" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
     <File md5="559242448F82351E98E4FA72644F4666" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="1E23C144578D857A965C96AB80E0F9B0" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
     <File md5="76BC4088445989DE029FA5AACD915944" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
-    <File md5="09A81BA06BDD215D9AE8BE83288BE396" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
+    <File md5="1122096A1298528EDE426AAC36B6F1B9" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
     <File md5="AFDC49F1F3BF1C26D663BC941745F7DC" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
     <File md5="726B1F06A538ADBD6BF134E0AF2EBFE3" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
-    <File md5="980905A171F352E3F72D7245A35A3F87" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
+    <File md5="8AC7175D43FBE38BF64F0F2907229B43" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
     <File md5="44DC98C2FD6F4142B45F001A2464CEE8" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
     <File md5="BEFBAF37EE259806D610B0354DF5CA42" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
     <File md5="9447E396D6FAE49475EA168A17AD1E3D" import="0">Modular Elements/Corporations/Text/ko_KR/CorporationOverviewText.xml</File>
@@ -65,12 +65,12 @@
     <File md5="5C79C51899A753A758BA8453226C40AE" import="0">CSD/World Congress/ko_KR/Projects.xml</File>
     <File md5="70D58C7ADCD672DE7836A36633A0B7C7" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_CivilopediaC4DF.xml</File>
     <File md5="7E150B91AA2DBD44FAEA1419550B8B32" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_Generic_DiplomacyC4DF.xml</File>
-    <File md5="77C58D246E34484FF7B39E97003E4554" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_UIC4DF.xml</File>
+    <File md5="E17124C0B000CE5879848CD294BA9632" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_UIC4DF.xml</File>
     <File md5="C5CB2724CBC1871130538366C837FE95" import="0">More Luxuries/XML/ko_KR/NewLuxuries_Text.xml</File>
     <File md5="A61C64936513C9E6A0BC7FD4B409367F" import="0">Compatibility/C4DFCompatibility/C4DFCompatibility.sql</File>
     <File md5="3FF244E3D3DDB858F0E1BCA69D6BD4BE" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.xml</File>
     <File md5="1741ECD4233205CE49298DE4428E09F7" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.sql</File>
-    <File md5="16295BFD46A20FE80966A9920A723801" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
+    <File md5="F1AE2C8315FDC9A15F3637BDC641AAFB" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
     <File md5="98738B1FDE42D047C22CF77CFC00F7CC" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</File>
   </Files>
   <Actions>
