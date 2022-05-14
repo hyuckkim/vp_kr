@@ -1424,6 +1424,12 @@
 		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
 			<Text>공항 있음</Text>
 		</Row>
+		<Row Tag="TXT_KEY_AUTOMATE_PRODUCTION_TT">
+			<Text>도시의 생산을 자동화합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_PRODUCTION_AUTOMATED">
+			<Text>[ICON_AUTOMATED] 생산 자동화됨</Text>
+		</Row>
 	</Language_ko_KR>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_CITY_NAME_CATTARO">

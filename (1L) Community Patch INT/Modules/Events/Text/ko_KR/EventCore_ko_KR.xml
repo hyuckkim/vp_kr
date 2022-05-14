@@ -122,13 +122,13 @@
 		
 		<!-- Espionage Success -->
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE">
-			<Text>{5_CivAdj} 요원의 {4_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : '{3_Event}'.[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+			<Text>{4_CivAdj}의 요원의 {3_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : [NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_T_ESPIONAGE">
-			<Text>{2_CivAdj} 요원이 {1_City}에서 임무를 성공했습니다!</Text>
+			<Text>{2_CivAdj}의 요원이 {1_City}에서 임무를 성공했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_UNKNOWN">
-			<Text>알수 없는 문명의 요원의 {4_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : '{3_Event}'.[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+			<Text>알수 없는 문명의 요원의 {3_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : [NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_T_ESPIONAGE_UNKNOWN">
 			<Text>알수 없는 문명의 요원이 {1_City}에서 임무를 성공했습니다!</Text>
@@ -139,6 +139,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR]의 소식:[NEWLINE][NEWLINE]{2_Event}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_FLED_TITLE">
+			<Text>{1_City}의 뉴스 : {2_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLED_HELP">
+			<Text>우리 요원이 [COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR]에서 다음을 보고했습니다 :[NEWLINE][NEWLINE]{2_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_IMPROVEMENT_DESTROYED_EVENT">
 			<Text>이벤트로 인한 선택 때문에 {3_City} 주변의 {1_Improvement} {2_Num}개가 약탈되었습니다.</Text>
@@ -215,6 +222,13 @@
 		<Row Tag="TXT_KEY_EVENT_YIELD_DURATION">
 			<Text>{1_Num}턴</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SIPHON_PAST">
+			<Text>총 횡령: {3_Value} {2_Icon} {1_Yield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_YIELD_SIPHON_PRESENT">
+			<Text>과거 횡령: {3_Value} {2_Icon} {1_Yield} 얻음 ({4_Turns}) 턴 동안)</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_NEED_OTHER_PLAYER_EVENT_ACTIVE">
 			<Text>[NEWLINE] [ICON_BULLET] 다른 문명의 이벤트나 이벤트 결정 때문에 이 선택을 할 수 없습니다.</Text>
 		</Row>
