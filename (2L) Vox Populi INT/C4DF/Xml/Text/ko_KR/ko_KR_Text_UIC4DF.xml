@@ -345,7 +345,7 @@
 			<Text>그들은 당신의 종속국입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_VASSALS">
-			<Text>종속국에서 {1_Num}</Text>
+			<Text>종속국에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DECLARE_WAR_MASTERS">
 			<Text>종주국</Text>

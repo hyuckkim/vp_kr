@@ -3189,10 +3189,10 @@
 			<Text>매 턴 [ICON_TOURISM]관광</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_ALLIES">
-			<Text>{1_Num} 도시 국가 동맹에서</Text>
+			<Text>도시 국가 동맹에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_MILITARY">
-			<Text>{1_Num} 군사력에서</Text>
+			<Text>군사력에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<!-- CS TEXT CBP -->
 		<Row Tag="TXT_KEY_CSTATE_JERK_STATUS">
