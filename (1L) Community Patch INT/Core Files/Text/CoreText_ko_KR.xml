@@ -3314,7 +3314,7 @@
 
 		<!-- Regular Deal Details - Lua -->
 		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR">
-			<Text>거래 점수: {1_Num}.</Text>
+			<Text>거래 점수: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_TT">
 			<Text>현재 거래에서 거래 품목에 대한 AI의 현재 가치를 나타냅니다. 이 점수가 '불가능'이거나 너무 마이너스 값이면 AI는 거래를 거절할 것입니다.</Text>
