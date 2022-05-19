@@ -334,7 +334,7 @@ SET Text = '{2_CivName:textkey}{2_CivName: plural 1?이; 2?가;} 확실한 승�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_ResourceName}{1: plural 1?을; 2?를;}교역망에 연결했습니다. 그들의 상인들이 기뻐합니다!'
+SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_ResourceName}{1: plural 1?을; 2?를;} 교역망에 연결했습니다. 그들의 상인들이 기뻐합니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE';
 
 UPDATE Language_ko_KR

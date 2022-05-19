@@ -62,7 +62,7 @@
 		</Row>
 		<!-- For compatibility with Wonder consolation prize tweak -->
 		<Row Tag="TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED_S">
-			<Text>{1_CityName}{1: plural 1?이; 2?가;} {2_BldgName}{2: plural 1?을; 2?를;} 더 이상 할 수 없습니다!</Text>
+			<Text>{1_CityName}{1: plural 1?이; 2?가;} {2_BldgName}{2: plural 1?을; 2?를;} 더 이상 건설할 수 없습니다!</Text>
 		</Row>
 		<!-- Destroy Captured City (One City Challenge) -->
 		<Row Tag="TXT_KEY_POPUP_DESTROY_CAPTURED_CITY">
@@ -74,10 +74,10 @@
 
 		<!-- Tourism Bonus Turns for Tooltip -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
-			<Text>콘서트 투어에서 +100% Bonus ({1_NumTurns} 턴)[NEWLINE]</Text>
+			<Text>콘서트 투어에서 +100% 보너스 ({1_NumTurns} 턴)[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
-			<Text>콘서트 투어에서 +50% Bonus ({1_NumTurns} 턴)[NEWLINE]</Text>
+			<Text>콘서트 투어에서 +50% 보너스 ({1_NumTurns} 턴)[NEWLINE]</Text>
 		</Row>
 		<!-- Add Defensive Pact Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_DEFENSIVE_PACT">
