@@ -438,7 +438,7 @@ SET Text = 'The T-34 is unique to the Order Ideology. Requires the Patriotic War
 WHERE Tag = 'TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '테르시오를 대체하는 독일의 고유 유닛입니다.[NEWLINE][NEWLINE]구매 시 경험치 패널티가 없으며 즉시 이동할 수 있지만 유닛의 [ICON_GOLD] 비용이 증가합니다.[NEWLINE][NEWLINE]최대 체력인 적에게 주는 피해가 증가합니다. [COLOR_POSITIVE_TEXT]진형 1[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]진형 2[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '테르시오를 대체하는 독일의 고유 유닛입니다.[NEWLINE][NEWLINE]구매 시 경험치 패널티가 없으며 즉시 이동할 수 있지만 유닛의 [ICON_GOLD] 비용이 증가합니다.[NEWLINE][NEWLINE]최대 체력인 적에게 주는 피해가 증가합니다. [COLOR_POSITIVE_TEXT]진형 I[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]진형 II[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_LANDSKNECHT';
 
 UPDATE Language_ko_KR
