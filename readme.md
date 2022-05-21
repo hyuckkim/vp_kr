@@ -23,3 +23,4 @@ racraky
  - [Even More Resources for Vox Populi](https://gall.dcinside.com/mgallery/board/view/?id=civilization&no=186196&s_type=search_subject_memo&s_keyword=vp&page=4) 더 더 다양한 자원 추가해주는 모드
  - [Promotion Flags EUI for VP](https://forums.civfanatics.com/threads/promotion-flags-eui-for-vp.651957/page-2) 유닛 승급을 머리 위에 띄워주는 모드
  - [(vp) City Distance to 5](https://steamcommunity.com/sharedfiles/filedetails/?id=2304856716) 도시 타일 거리 늘려주는 모드
+ - [Pineappledan Tweaks for VP](https://gall.dcinside.com/civilization/262596) 유닛 밸런스 이것저것 수정하고 비행선 유닛 추가하는 모드  
