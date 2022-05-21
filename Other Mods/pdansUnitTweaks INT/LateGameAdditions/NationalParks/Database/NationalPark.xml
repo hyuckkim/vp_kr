@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by hyuckkim on 21/05/2022 -->
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_IMPROVEMENT_NATIONAL_PARK">
+			<Text>국립 공원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_NATIONAL_PARK_TEXT">
+			<Text>A National Park is a natural landscape conserved and protected by a sovereign government. National Parks are established to preserve relatively untouched wilderness for various reasons, including posterity, national pride, research, and tourism. The oldest National Park is Yellowstone National Park, USA, which was established in 1872. The world's first government bureaucracy with a specific mandate to administer a country's national park was Parks Canada, founded in 1911.[NEWLINE][NEWLINE]National parks are almost always open to visitors. Most national parks provide outdoor recreation and camping opportunities as well as classes designed to educate the public on the importance of conservation and the natural wonders of the land in which the national park is located.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_NATIONAL_PARK_HELP">
+			<Text>국립 공원은 숲, 정글 습지에 건설할 수 있습니다. [NEWLINE][NEWLINE]각 국립 공원은 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_TOURISM] 관광을 제공하고, 자연 경관 또는 둘 이상의 다른 국립 공원에 인접하면 두 배가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_NATIONAL_PARK">
+			<Text>[LINK=IMPROVEMENT_NATIONAL_PARK]국립 공원[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_NATIONAL_PARK_HELP">
+			<Text>국립 공원을 건설하여 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_TOURISM] 관광을 증가시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_NATIONAL_PARK_REC">
+			<Text>[ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_TOURISM] 관광을 증가시킵니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ad45eb98-3576-4b98-908b-ef807b7f84f4" version="1">
+  <Properties>
+    <Name>pdansUnitTweaks INT</Name>
+    <Teaser>Translation of Pineappledan's Vox Populi Tweaks</Teaser>
+    <Description>Pineappledan's Vox Populi Tweaks Localization.
+ Supported langauge : Korean</Description>
+    <Authors>dcinside Cilization Gallery</Authors>
+    <SpecialThanks>William Howard and VP team</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8562c016-f5bb-79hg-b37e-a3b40d3yg13f" minversion="29" maxversion="29" title="Pineappledan's Vox Populi Tweaks" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="3238b0f5af9931fc73a43eb02a2ee528" import="0">Civilizations/BrazilChanges.sql</File>
+    <File md5="d9729feb74992cc3482b350163a1a010" import="0">Civilizations/CarthageChanges.sql</File>
+    <File md5="d97dfkj5j3kf8r8dfjju57ir0sm748vi" import="0">Civilizations/EnglandChanges.sql</File>
+    <File md5="dfjkhkjahjkhfk4jhfakwje4t34438ff" import="0">Civilizations/KoreaChanges.sql</File>
+    <File md5="6226f7cbe59e99a90b5cef6f94f966fd" import="0">Civilizations/IndiaChanges.sql</File>
+    <File md5="e130e5e618f15cee7a519d8b7b8306a0" import="0">Civilizations/SonghaiChanges.sql</File>
+    <File md5="912ec803b2ce49e4a541068d495ab570" import="0">Civilizations/SpainChanges.sql</File>
+    <File md5="6d2eb0254751d64657a6589a748a00fd" import="0">Civilizations/ThiccChina.sql</File>
+    <File md5="9aca6dc1b0a7e13ffec452dfe0c88e74" import="0">Civilizations/GermanyChanges.sql</File>
+    <File md5="3a4a5bfd5114f2278d260887ea4f78cb" import="0">Civilizations/MongoliaChanges.sql</File>
+    <File md5="a11cf6a70083623bf4405b66e8583969" import="0">Units/SwordLineChanges.sql</File>
+    <File md5="00275038aca8ce47573ae2445563555f" import="0">Units/SkirmisherLineChanges.sql</File>
+    <File md5="28cf7f56356350f48559ad848635c7e5" import="0">Units/Slinger/Slinger.sql</File>
+    <File md5="49f0bad299687c62334182178bfd75d8" import="0">Units/ZeppelinLine/Zeppelin.sql</File>
+    <File md5="a7282fe0cf0bfbd152f97bbf7ed5fbf8" import="0">LateGameAdditions/PowerPlants/PowerPlants.sql</File>
+    <File md5="bb619bae6d5316248ccea2165b176e12" import="0">LateGameAdditions/PowerPlants/PowerPlants.xml</File>
+    <File md5="9F6B2A579578EFA25FD0B3349A028556" import="0">LateGameAdditions/NationalParks/Database/NationalPark.sql</File>
+    <File md5="F51A3D79EA84DF7CD59FE217B4F9C20E" import="0">LateGameAdditions/NationalParks/Database/NationalPark.xml</File>
+    <File md5="67dd22ecc3613785bf7bed71a6d023a4" import="0">LateGameAdditions/GrocerRework/Supermarket.sql</File>
+    <File md5="572a1cee0fbdcfa46ae4b2c6a561f852" import="0">LateGameAdditions/TourismBuildings/TourismBuildings.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Civilizations/GermanyChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/BrazilChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/CarthageChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/EnglandChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/KoreaChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/SonghaiChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/SpainChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/IndiaChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/ThiccChina.sql</UpdateDatabase>
+      <UpdateDatabase>Civilizations/MongoliaChanges.sql</UpdateDatabase>
+      <UpdateDatabase>LateGameAdditions/GrocerRework/Supermarket.sql</UpdateDatabase>
+      <UpdateDatabase>LateGameAdditions/NationalParks/Database/NationalPark.sql</UpdateDatabase>
+      <UpdateDatabase>LateGameAdditions/NationalParks/Database/NationalPark.xml</UpdateDatabase>
+      <UpdateDatabase>LateGameAdditions/PowerPlants/PowerPlants.sql</UpdateDatabase>
+      <UpdateDatabase>LateGameAdditions/PowerPlants/PowerPlants.xml</UpdateDatabase>
+      <UpdateDatabase>LateGameAdditions/TourismBuildings/TourismBuildings.sql</UpdateDatabase>
+      <UpdateDatabase>Units/SwordLineChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Units/SkirmisherLineChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Units/ZeppelinLine/Zeppelin.sql</UpdateDatabase>
+      <UpdateDatabase>Units/Slinger/Slinger.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
