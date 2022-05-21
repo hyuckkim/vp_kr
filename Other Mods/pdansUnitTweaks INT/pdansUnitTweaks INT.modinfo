@@ -24,26 +24,26 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="3238b0f5af9931fc73a43eb02a2ee528" import="0">Civilizations/BrazilChanges.sql</File>
-    <File md5="d9729feb74992cc3482b350163a1a010" import="0">Civilizations/CarthageChanges.sql</File>
-    <File md5="d97dfkj5j3kf8r8dfjju57ir0sm748vi" import="0">Civilizations/EnglandChanges.sql</File>
-    <File md5="dfjkhkjahjkhfk4jhfakwje4t34438ff" import="0">Civilizations/KoreaChanges.sql</File>
-    <File md5="6226f7cbe59e99a90b5cef6f94f966fd" import="0">Civilizations/IndiaChanges.sql</File>
-    <File md5="e130e5e618f15cee7a519d8b7b8306a0" import="0">Civilizations/SonghaiChanges.sql</File>
-    <File md5="912ec803b2ce49e4a541068d495ab570" import="0">Civilizations/SpainChanges.sql</File>
-    <File md5="6d2eb0254751d64657a6589a748a00fd" import="0">Civilizations/ThiccChina.sql</File>
-    <File md5="9aca6dc1b0a7e13ffec452dfe0c88e74" import="0">Civilizations/GermanyChanges.sql</File>
-    <File md5="3a4a5bfd5114f2278d260887ea4f78cb" import="0">Civilizations/MongoliaChanges.sql</File>
-    <File md5="a11cf6a70083623bf4405b66e8583969" import="0">Units/SwordLineChanges.sql</File>
-    <File md5="00275038aca8ce47573ae2445563555f" import="0">Units/SkirmisherLineChanges.sql</File>
-    <File md5="28cf7f56356350f48559ad848635c7e5" import="0">Units/Slinger/Slinger.sql</File>
-    <File md5="49f0bad299687c62334182178bfd75d8" import="0">Units/ZeppelinLine/Zeppelin.sql</File>
-    <File md5="a7282fe0cf0bfbd152f97bbf7ed5fbf8" import="0">LateGameAdditions/PowerPlants/PowerPlants.sql</File>
-    <File md5="bb619bae6d5316248ccea2165b176e12" import="0">LateGameAdditions/PowerPlants/PowerPlants.xml</File>
-    <File md5="9F6B2A579578EFA25FD0B3349A028556" import="0">LateGameAdditions/NationalParks/Database/NationalPark.sql</File>
-    <File md5="F51A3D79EA84DF7CD59FE217B4F9C20E" import="0">LateGameAdditions/NationalParks/Database/NationalPark.xml</File>
-    <File md5="67dd22ecc3613785bf7bed71a6d023a4" import="0">LateGameAdditions/GrocerRework/Supermarket.sql</File>
-    <File md5="572a1cee0fbdcfa46ae4b2c6a561f852" import="0">LateGameAdditions/TourismBuildings/TourismBuildings.sql</File>
+    <File md5="09C59F1AB714334D745BC20B2AABD860" import="0">Civilizations/BrazilChanges.sql</File>
+    <File md5="ECA36E3AE64CE9D3F463515320C01920" import="0">Civilizations/CarthageChanges.sql</File>
+    <File md5="71DCDE848D8421173220C0DCD95ADDCD" import="0">Civilizations/EnglandChanges.sql</File>
+    <File md5="F0F764634F00F74E421183CDD73EEBFF" import="0">Civilizations/KoreaChanges.sql</File>
+    <File md5="F6D81E6B4646F42E3EA32B4F5E9C6AD5" import="0">Civilizations/IndiaChanges.sql</File>
+    <File md5="163B9BC89AB062AF7DA81FA1C7BE1590" import="0">Civilizations/SonghaiChanges.sql</File>
+    <File md5="28B427C6DA7E915A8E081EE09FA70CBC" import="0">Civilizations/SpainChanges.sql</File>
+    <File md5="A4027799B8C95083FB74F1D6271F91CD" import="0">Civilizations/ThiccChina.sql</File>
+    <File md5="87BFCDF1E2237B05B3067764825EA0DA" import="0">Civilizations/GermanyChanges.sql</File>
+    <File md5="167ADF4D8C390BFA29DF932E8EB6D505" import="0">Civilizations/MongoliaChanges.sql</File>
+    <File md5="11C96E5F2988D4DC992C8B71F63D471C" import="0">Units/SwordLineChanges.sql</File>
+    <File md5="7C06CD2397070468B4B285A4B1726D60" import="0">Units/SkirmisherLineChanges.sql</File>
+    <File md5="701659A882354398404F247AF5FDDBBD" import="0">Units/Slinger/Slinger.sql</File>
+    <File md5="3408B94E8094AEBC593B46D3688E31CB" import="0">Units/ZeppelinLine/Zeppelin.sql</File>
+    <File md5="739A1249224D29F91F2C7D8B146970CE" import="0">LateGameAdditions/PowerPlants/PowerPlants.sql</File>
+    <File md5="5F63870B5FB3D45E082A72EDEC4DF95C" import="0">LateGameAdditions/PowerPlants/PowerPlants.xml</File>
+    <File md5="52E5468BB1C75CE3A6E3F83995D9A378" import="0">LateGameAdditions/NationalParks/Database/NationalPark.sql</File>
+    <File md5="D72F5B5E8FE36388EC574E6B6D69383E" import="0">LateGameAdditions/NationalParks/Database/NationalPark.xml</File>
+    <File md5="5161BDBC4B1C2BAE952CE038A0D6994A" import="0">LateGameAdditions/GrocerRework/Supermarket.sql</File>
+    <File md5="44C8297D50C8C1FC24D64C8014B5AC7D" import="0">LateGameAdditions/TourismBuildings/TourismBuildings.sql</File>
   </Files>
   <Actions>
     <OnModActivated>
