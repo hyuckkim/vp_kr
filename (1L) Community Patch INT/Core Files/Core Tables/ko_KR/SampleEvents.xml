@@ -5,82 +5,82 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_WANDERER_CHOICE_1_S">
-			<Text>{1_Playername} encountered a wanderer in {2_City}.</Text>
+			<Text>{1_Playername}{1: plural 1?이; 2?가;} {2_City}에서 방랑자를 발견했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_WANDERER_CHOICE_1">
-			<Text>{1_Playername} invited a wandered to settle in {2_City}, increasing its population.</Text>
+			<Text>{1_Playername}{1: plural 1?이; 2?가;} {2_City에 정착하도록 방랑자를 초대하여 인구가 증가했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_COMET_SIGHTING_CHOICE_1_S">
-			<Text>{1_Playername} witnessed a Comet!</Text>
+			<Text>{1_Playername}{1: plural 1?이; 2?가;} 혜성을 목격했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_COMET_SIGHTING_CHOICE_1">
-			<Text>{1_Playername} witnessed a Comet, and their warriors became stronger.</Text>
+			<Text>{1_Playername}{1: plural 1?이; 2?가;} 혜성을 목격하고 전사들이 강해졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_COMET_SIGHTING_CHOICE_2_S">
-			<Text>{1_Playername} witnessed a Comet!</Text>
+			<Text>{1_Playername}{1: plural 1?이; 2?가;} 혜성을 목격했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_COMET_SIGHTING_CHOICE_2">
-			<Text>{1_Playername} witnessed a Comet, and are now closer to a [ICON_GOLDEN_AGE] Golden Age..</Text>
+			<Text>{1_Playername}{1: plural 1?이; 2?가;} 혜성을 목격했으며 [ICON_GOLDONE_AGE] 황금기에 가까워졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_COMET_SIGHTING_CHOICE_3_S">
-			<Text>{1_Playername} witnessed a Comet!</Text>
+			<Text>{1_Playername}{1: plural 1?이; 2?가;} 혜성을 목격했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_COMET_SIGHTING_CHOICE_3">
-			<Text>{1_Playername} witnessed a Comet, and [ICON_RES_IRON] Iron fell from the heavens.</Text>
+			<Text>{1_Playername}{1: plural 1?이; 2?가;} 혜성을 목격하고 [ICON_RES_IRON] 철이 하늘에서 떨어졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_SIGHTING_DESCRIPTION">
-			<Text>Comet Sighted!</Text>
+			<Text>혜성 발견!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_SIGHTING_HELP">
-			<Text>A comet has appeared above your empire! Your soothsayers are not sure how to deal with this, and would greatly appreciate your guidance.[NEWLINE][NEWLINE]Choose from one of the options below...</Text>
+			<Text>당신의 제국 위에 혜성이 나타났습니다! 당신의 예언자들은 이 일을 어떻게 처리해야 할지 잘 모르고, 당신의 지도를 바라고 있습니다.[NEWLINE][NEWLINE]아래 옵션 중 하나를 선택하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_SIGHTING_HELP_CHOICE_1">
-			<Text>Valid Melee Units gain the [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR] Promotion.</Text>
+			<Text>유효한 근거리 유닛은 [COLOR_POSITION_TEXT]드릴 I[ENDCOLOR] 승급을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_SIGHTING_HELP_CHOICE_2">
-			<Text>Gain 100 [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+			<Text>[ICON_GOLDEN_AGE]황금기 점수 100.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_SIGHTING_HELP_CHOICE_3">
-			<Text>Gain 1 [ICON_RES_IRON] Iron.</Text>
+			<Text>[ICON_RES_IRON]철 1개.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_SIGHTING_DESCRIPTION_CHOICE_1">
-			<Text>Our Warriors are inspired..</Text>
+			<Text>우리의 전사들은 영감을 받았습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_SIGHTING_DESCRIPTION_CHOICE_2">
-			<Text>Truly a sign from the heavens.</Text>
+			<Text>정말 하늘에서 온 징조입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_SIGHTING_DESCRIPTION_CHOICE_3">
-			<Text>Did something fall from the sky?</Text>
+			<Text>하늘에서 뭔가 떨어졌나요?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MARKET_DAY_DESCRIPTION_CHOICE_1">
-			<Text>Market Day</Text>
+			<Text>마켓 데이</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_MARKET_DAY_HELP_CHOICE_1">
-			<Text>Market Day has begun in the City. For the next 5 turns, the City receives a free Market.</Text>
+			<Text>그 도시에서 마켓 데이가 시작되었다. 다음 5번 턴에서 시티는 무료 마켓을 받습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WANDERER_DESCRIPTION">
 			<Text>The Lone Wanderer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WANDERER_HELP">
-			<Text>A wanderer has arrived at the City gates, asking for asylum. He claims to have three skills, and will offer you one in exchange for a stay at your inn.[NEWLINE][NEWLINE]Choose from the options below...</Text>
+			<Text>한 방랑자가 망명을 요청하며 성문에 도착했다. 그는 세 가지 기술을 가지고 있다고 주장하며, 당신의 여관에 묵는 대가로 하나를 당신에게 제공할 것입니다.[NEWLINE][NEWLINE]아래 옵션 중에서 선택하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EVENT_WANDERER_DESCRIPTION_CHOICE_1">
-			<Text>We could use more workers.</Text>
+			<Text>우리는 더 많은 일꾼을 필요로 한다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WANDERER_HELP_CHOICE_1">
-			<Text>Receive 50 Great Engineer Points in the City.</Text>
+			<Text>도시에서 50개의 훌륭한 엔지니어 포인트를 받으세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EVENT_WANDERER_DESCRIPTION_CHOICE_2">
-			<Text>You are not welcome, foreigner.</Text>
+			<Text>외국인, 넌 환영받지 못해.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WANDERER_HELP_CHOICE_2">
-			<Text>2 Farm Improvements are destroyed near the City.</Text>
+			<Text>2 도시 근처에서 농장 개선 작업이 파괴되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_EVENT_WANDERER_DESCRIPTION_CHOICE_3">
-			<Text>A wanderer? You and your friends suit up!</Text>
+			<Text>방랑자? 너와 너의 친구들은 잘 어울린다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_WANDERER_HELP_CHOICE_3">
-			<Text>Two warriors appear near the City.</Text>
+			<Text>두 명의 전사가 도시 근처에 나타납니다.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

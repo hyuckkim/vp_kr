@@ -1852,7 +1852,7 @@ SET Text = '오늘날 동방정교회는 약 3억에 달하는 신도를 거느�
 WHERE Tag = 'TXT_KEY_RELIGION_ORTHODOXY_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = 'Kyivan'
+SET Text = '키이우 대공국'
 WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_HEADING_4';
 
 UPDATE Language_ko_KR
