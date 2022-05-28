@@ -23,7 +23,7 @@
 			<Text>더이상 임무를 수행할 수 있는 지역이 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DP_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 방어 조약에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]방어 조약에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GP_DIPLOMAT_DETAILS_COLLAPSE">
 			<Text>[ICON_MINUS] 위대한 외교관</Text>

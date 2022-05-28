@@ -201,7 +201,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ROCKET_ARTILLERY_STRATEGY';
 
 -- "Votes from World Wonders" -> "Votes from Wonders"
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET]세계 불가사의 {1_NumVotes}표'
+SET Text = '[NEWLINE][ICON_BULLET]불가사의 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WONDER_VOTES';
 
 -- National Wonders
