@@ -392,7 +392,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_FULLY_HEALED_UNITS">
-			<Text>100% 체력 유닛 대항 보너스</Text>
+			<Text>최대 체력 유닛 대항 보너스</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_MORE_50_HP_UNITS">
@@ -833,7 +833,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_PATRONAGE_FINISHER_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes}  정책에서 획득</Text>
+			<Text>[NEWLINE][ICON_BULLET]정책에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_RELIGION_POLICIES">
@@ -862,7 +862,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes}  개혁 교리에서 획득</Text>
+			<Text>[NEWLINE][ICON_BULLET]개혁 교리에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_CULTURE_FROM_GWS">
@@ -885,7 +885,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  {2_IconString}도시 국가에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_TRAIT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes}  문명 특성에서 획득</Text>
+			<Text>[NEWLINE][ICON_BULLET]문명 특성에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_CONNECTION">
 			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  {2_IconString}[ICON_CONNECTED]도시 연결에서 획득</Text>
@@ -1423,6 +1423,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
 			<Text>공항 있음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTOMATE_PRODUCTION_TT">
+			<Text>도시의 생산을 자동화합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_PRODUCTION_AUTOMATED">
+			<Text>[ICON_AUTOMATED] 생산 자동화됨</Text>
 		</Row>
 	</Language_ko_KR>
 	<Language_ko_KR>

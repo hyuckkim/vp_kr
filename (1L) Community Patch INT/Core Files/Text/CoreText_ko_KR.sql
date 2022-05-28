@@ -201,7 +201,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ROCKET_ARTILLERY_STRATEGY';
 
 -- "Votes from World Wonders" -> "Votes from Wonders"
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET]세계 불가사의 {1_NumVotes}표'
+SET Text = '[NEWLINE][ICON_BULLET]불가사의 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WONDER_VOTES';
 
 -- National Wonders
@@ -334,7 +334,7 @@ SET Text = '{2_CivName:textkey}{2_CivName: plural 1?이; 2?가;} 확실한 승�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_ResourceName}{1: plural 1?을; 2?를;}교역망에 연결했습니다. 그들의 상인들이 기뻐합니다!'
+SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_ResourceName}{1: plural 1?을; 2?를;} 교역망에 연결했습니다. 그들의 상인들이 기뻐합니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE';
 
 UPDATE Language_ko_KR
@@ -505,49 +505,106 @@ UPDATE Language_ko_KR
 SET Text = '종료[NEWLINE]{1_turn}턴'
 WHERE Tag = 'TXT_KEY_DO_ENDS_ON';
 
+UPDATE Language_ko_KR
+SET Text = '고급 무역 옵션을 해제하고 다른 문명의 수도를 볼 수 있습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_TT';
+
+UPDATE Language_ko_KR
+SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신의 영토를 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]참고 : 당신의 유닛은 다른 문명의 유닛이 차지하고 있는 타일로 이동할 수 없습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
+
+UPDATE Language_ko_KR
+SET Text = '만약 어느 한 문명이 다른 주요 문명의 공격을 받게 된다면, 조약을 맺은 상대 문명은 즉시 그리고 자동적으로 침략자와 전쟁을 하게 됩니다. 이 조약은 {1_Num}턴 동안 지속됩니다.[NEWLINE][NEWLINE]당신은 방어 조약을 최대 [COLOR_CYAN]{2_Num}[ENDCOLOR] 문명까지 맺을 수 있습니다. 이 수치는 생존한, 종속국이 아닌 문명 수에 따라 조정됩니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_DEF_PACT_TT';
+
+UPDATE Language_ko_KR
+SET Text = '이 문명의 수도에 이미 당신의 대사관이 있습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_HAVE';
+
+UPDATE Language_ko_KR
+SET Text = '당신의 수도에 이미 이 문명의 대사관이 있습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_THEY_HAVE';
+
+UPDATE Language_ko_KR
+SET Text = '당신은 대사관을 설립할 수 있는 기술 (문자)을 아직 보유하고 있지 않습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_PLAYER';
+
+UPDATE Language_ko_KR
+SET Text = '그들은 대사관을 설립할 수 있는 기술 (문자)을 아직 보유하고 있지 않습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_OTHER_PLAYER';
+
+UPDATE Language_ko_KR
+SET Text = '당신은 국경을 이미 개방했습니다!'
+WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_HAVE';
+
+UPDATE Language_ko_KR
+SET Text = '상대방은 국경을 이미 개방했습니다!'
+WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_THEY_HAVE';
+
+UPDATE Language_ko_KR
+SET Text = '두 플레이어 모두 이 항목을 거래할 수 있는 기술(공공 행정)을 아직 보유하고 있지 않습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_NO_TECH';
+
+UPDATE Language_ko_KR
+SET Text = '이 항목을 거래하려면 상대 문명에 당신의 대사관이 있어야 합니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_YOU_NEED_EMBASSY_TT';
+
+UPDATE Language_ko_KR
+SET Text = '이 항목을 거래하려면 당신의 문명에 상대 문명의 대사관이 있어야 합니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_THEY_NEED_EMBASSY_TT';
+
+UPDATE Language_ko_KR
+SET Text = '이 항목을 교환하려면 양측에 대사관이 있어야 합니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_BOTH_NEED_EMBASSY_TT';
+
+UPDATE Language_ko_KR
+SET Text = '방위 조약을 이미 체결했습니다!'
+WHERE Tag = 'TXT_KEY_DIPLO_DEF_PACT_EXISTS';
+
+UPDATE Language_ko_KR
+SET Text = '두 플레이어 모두 이 항목을 거래할 수 있는 기술(기사도)을 아직 보유하고 있지 않습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_DEF_PACT_NO_TECH';
+
+UPDATE Language_ko_KR
+SET Text = '연구 협정을 이미 체결했습니다!'
+WHERE Tag = 'TXT_KEY_DIPLO_RESCH_AGREEMENT_EXISTS';
+
+UPDATE Language_ko_KR
+SET Text = '이미 한 명 이상의 문명이 모든 기술을 연구했습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_RESCH_AGREEMENT_ALL_TECHS_RESEARCHED';
+
+UPDATE Language_ko_KR
+SET Text = '두 문명 모두 이 항목을 거래할 수 있는 기술(철학)을 아직 보유하고 있지 않습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH';
+
+UPDATE Language_ko_KR
+SET Text = '이 항목을 거래하려면 친선 관계 선언을 해야 합니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_NEED_DOF_TT';
+
+UPDATE Language_ko_KR
+SET Text = '동맹 도시 국가에 의해 불가능합니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR';
+
+UPDATE Language_ko_KR
+SET Text = '동맹 도시 국가에 의해 불가능합니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_NO_WAR_ALLIES';
+
+UPDATE Language_ko_KR
+SET Text = '평화 협정은 일정 기간 동안 전쟁이 벌어지는 것을 막습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_FORCE_PEACE';
+
 -- Trade Routes
 UPDATE Language_ko_KR
 SET Text = '교역로를 소유한 문명과 전쟁 상태여야 합니다.'
 WHERE Tag = 'TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '당신은 {2_CivName}{2: plural 1?이; 2?가;} 연구하지 못한 {1_Num}개의 기술을 연구하였습니다.[NEWLINE]이 문명은 당신에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 +{3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
+SET Text = '{2_CivName}{2: plural 1?이; 2?가;} 개발하지 못한 {1_Num}개의 기술을 연구하였습니다. [NEWLINE]이 문명은 플레이어에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 연구하지 못한 {2_Num}개의 기술을 연구하였습니다. [NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 +{3_Num} [ICON_RESEARCH]과학을 제공 받습니다.'
+SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 보유하지 못한 {2_Num}개의 기술을 연구하였습니다. [NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED';
-
--- Item Not Tradeable
-UPDATE Language_ko_KR
-SET Text = '상대방이 아직 제삼자를 만나지 못했거나 또는 당신 문명이 상대방의 대사관을 가지고 있지 않습니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS_THEM';
-
-UPDATE Language_ko_KR
-SET Text = '현재 전쟁 중이기 때문에 불가능합니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_ALREADY_AT_WAR';
-
-UPDATE Language_ko_KR
-SET Text = '도시 국가 동맹 때문에 불가능합니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_NO_WAR_ALLIES';
-
-UPDATE Language_ko_KR
-SET Text = '도시 국가 동맹 때문에 불가능합니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR';
-
-UPDATE Language_ko_KR
-SET Text = '도시 국가가 영구적으로 전쟁을 선언했습니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_MINOR_PERMANENT_WAR';
-
--- Tooltip fix for Open Borders
-UPDATE Language_ko_KR
-SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신 문명의 영토를 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]참고 : 당신 문명의 군사 유닛은 다른 문명의 군사 유닛과 겹칠 수 없습니다.'
-WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
-
--- Tooltip fix for Defensive Pact
-UPDATE Language_ko_KR
-SET Text = '만약 어느 한 문명이 다른 주요 문명의 공격을 받게 된다면, 조약을 맺은 상대 문명은 즉시 그리고 자동적으로 침략자와 전쟁을 하게 됩니다. (이 조약은 {1_Num}턴 동안 지속됩니다.)'
-WHERE Tag = 'TXT_KEY_DIPLO_DEF_PACT_TT';
 
 -- Lua for Cities
 UPDATE Language_ko_KR
@@ -1776,98 +1833,6 @@ UPDATE Language_ko_KR
 SET Text = '미안하지만 상호협력 협정을 파기할 때가 온 것 같소.'
 WHERE Tag = 'TXT_KEY_END_WORK_WITH_US_DEFAULT_2';
 
--- Unimportant capitalization fixes
-UPDATE Language_ko_KR
-SET Text = '알겠습니다.'
-WHERE Tag = 'TXT_KEY_LEADER_AHMAD_ALMANSUR_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '좋습니다.'
-WHERE Tag = 'TXT_KEY_LEADER_ASHURBANIPAL_AGREE_SHORT_1';
-
-UPDATE Language_ko_KR
-SET Text = '안 될 말입니다.'
-WHERE Tag = 'TXT_KEY_LEADER_ASHURBANIPAL_DISAGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '좋소.'
-WHERE Tag = 'TXT_KEY_LEADER_ATTILA_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '알았습니다.'
-WHERE Tag = 'TXT_KEY_LEADER_BOUDICCA_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '좋소.'
-WHERE Tag = 'TXT_KEY_LEADER_CASIMIR_AGREE_SHORT_1';
-
-UPDATE Language_ko_KR
-SET Text = '그렇게 합시다.'
-WHERE Tag = 'TXT_KEY_LEADER_DIDO_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '아주 좋소.'
-WHERE Tag = 'TXT_KEY_LEADER_ENRICO_DANDOLO_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '뭐, 좋소.'
-WHERE Tag = 'TXT_KEY_LEADER_GAJAH_MADA_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '그것 참 좋군.'
-WHERE Tag = 'TXT_KEY_LEADER_GENGHIS_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '아주 좋군.'
-WHERE Tag = 'TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '아주 좋군.'
-WHERE Tag = 'TXT_KEY_LEADER_HARALD_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '좋습니다.'
-WHERE Tag = 'TXT_KEY_LEADER_KAMEHAMEHA_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '아주 좋아.'
-WHERE Tag = 'TXT_KEY_LEADER_MARIA_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '좋아요.'
-WHERE Tag = 'TXT_KEY_LEADER_MARIA_I_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '좋습니다.'
-WHERE Tag = 'TXT_KEY_LEADER_PACHACUTI_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '물론 안 될 말입니다.'
-WHERE Tag = 'TXT_KEY_LEADER_PACHACUTI_DISAGREE_SHORT_1';
-
-UPDATE Language_ko_KR
-SET Text = '아주 좋군요.'
-WHERE Tag = 'TXT_KEY_LEADER_PEDRO_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '아주 좋소.'
-WHERE Tag = 'TXT_KEY_LEADER_POCATELLO_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '좋노라.'
-WHERE Tag = 'TXT_KEY_LEADER_SEJONG_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '좋습니다.'
-WHERE Tag = 'TXT_KEY_LEADER_SELASSIE_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '아주 좋소.'
-WHERE Tag = 'TXT_KEY_LEADER_SHAKA_AGREE_SHORT_2';
-
-UPDATE Language_ko_KR
-SET Text = '그럽시다.'
-WHERE Tag = 'TXT_KEY_LEADER_WILLIAM_AGREE_SHORT_2';
 
 -- Kiev -> Kyiv
 UPDATE Language_ko_KR
@@ -1887,7 +1852,7 @@ SET Text = '오늘날 동방정교회는 약 3억에 달하는 신도를 거느�
 WHERE Tag = 'TXT_KEY_RELIGION_ORTHODOXY_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = 'Kyivan'
+SET Text = '키이우 대공국'
 WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_HEADING_4';
 
 UPDATE Language_ko_KR

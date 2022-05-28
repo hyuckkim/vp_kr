@@ -9,22 +9,22 @@
 			<Text>대사관은 [ICON_DIPLOMAT]위대한 외교관을 통해 [ICON_CITY_STATE]도시 국가 영토에만 건설할 수 있으며 자원 위에 건설할 수 없습니다. 도시 국가의 영토에 대사관을 건설한 첫번째 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. 도시 국가 영토에 첫번째로 대사관을 설립한 문명 외의 다른 문명은 추가 대표단을 확보할 수 없습니다. 대사관은 약탈할 수 없으며 일단 건설되면 절대로 제거할 수 없습니다. 만약 대사관의 원래 소유 문명이 정복당하면 정복자는 그들의 대사관과 그들의 대표단을 소유할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_IMPROVEMENT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 도시 국가 대사관에서</Text>
+			<Text>[NEWLINE][ICON_BULLET] 도시 국가 대사관에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLOTROLL_EMBASSY">
 			<Text> ({1_CivName:textkey})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_FAITH_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 종교적 권한에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]종교적 권한에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CAPITALS_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 점령한 수도에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]점령한 수도에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DOF_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 친선 관계 선언에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]친선 관계 선언에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RA_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 연구 협정에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]연구 협정에서 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<!-- Tooltips for Resolutions -->
 		<Row Tag="TXT_KEY_FOODMOD_LEAGUE">
