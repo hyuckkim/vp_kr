@@ -1322,7 +1322,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_SPECIALIST_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_CITIZEN] 도시화 (전문가)에서</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_URBANIZATION] 도시화 (전문가)에서</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EMPIRE_WIDE_UNHAPPINESS">
@@ -1397,10 +1397,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CITYVIEW_FREESPECIALIST_TEXT">
-			<Text>{1_NumSpecialists: plural 1?전문가; other?전문가;}: [ICON_CITIZEN]도시화 없음</Text>
+			<Text>{1_NumSpecialists: plural 1?전문가; other?전문가;}: [ICON_URBANIZATION_GREEN]도시화 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_NOFREESPECIALIST_TEXT">
-			<Text>새로운 전문가마다 [ICON_CITIZEN]도시화</Text>
+			<Text>새로운 전문가마다 [ICON_URBANIZATION]도시화</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_RANGE_STRIKE_CITY">
