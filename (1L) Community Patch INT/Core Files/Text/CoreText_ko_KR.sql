@@ -30,6 +30,11 @@ UPDATE Language_ko_KR
 SET Text = '게임을 불러올 때마다 무작위 숫자 시드가 생성됩니다. 이것은 불러오기를 할 때마다 같은 행동을 하더라도 결과가 각각 다르게 나오는 것을 의미합니다. 처음 게임을 했을 때와 AI 결정이 다를 수 있습니다.'
 WHERE Tag = 'TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED_HELP';
 
+-- Advisors
+UPDATE Language_ko_KR
+SET Text = '{1_LongCivName:textkey}에 군대가 있는지 잘 모르겠군요. 그들과의 모든 적대감은 우습게도 일방적일 것입니다.'
+WHERE Tag = 'TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_PATHETIC';
+
 -- Leaders
 
 -- Assyria UA

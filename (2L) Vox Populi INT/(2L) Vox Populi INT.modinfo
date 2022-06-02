@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="12">
+<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="15">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(2.2.1) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(2.3.1) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -18,9 +18,9 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="102" maxversion="999" title="Community Patch" />
-    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
-    <Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="12" maxversion="999" title="(1a) Community Patch Localized" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="106" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="15" maxversion="999" title="Vox Populi" />
+    <Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="106" maxversion="999" title="(1a) Community Patch Localized" />
   </Dependencies>
   <References />
   <Blocks />
@@ -30,17 +30,17 @@
     <File md5="10E4ED5D89E176A7234454C898286329" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
     <File md5="6C15340BFB8C32558CBD9CD37C87DA39" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
     <File md5="EC757C60989333983C9912F2C9A0850C" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
-    <File md5="3FF5B37C4332A3EC1427274F06973843" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
+    <File md5="99372F24D6FE1D2326E7EF9AD3B372FD" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
     <File md5="DCEBDE236EB482A42B5D20CA1A8A99DE" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="DE3B6F4F0AF7D6646192F932CEC42290" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
     <File md5="F393A0448EB5B985A4C7962F148D61CC" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
-    <File md5="6F331A9F730A43359F7035276426CA62" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
+    <File md5="9A5B827C6BA909DC70581EF24449C3BA" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="1E23C144578D857A965C96AB80E0F9B0" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
     <File md5="45FEB4E875104F1C7F977EC37F31DCDD" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
     <File md5="1122096A1298528EDE426AAC36B6F1B9" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
     <File md5="AFDC49F1F3BF1C26D663BC941745F7DC" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
     <File md5="0F1C050BB13E7C47BE47DCE1741F0F68" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
-    <File md5="8AC7175D43FBE38BF64F0F2907229B43" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
+    <File md5="453394035A6FB6FF37FB4C9018218080" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
     <File md5="44DC98C2FD6F4142B45F001A2464CEE8" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
     <File md5="BEFBAF37EE259806D610B0354DF5CA42" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
     <File md5="9447E396D6FAE49475EA168A17AD1E3D" import="0">Modular Elements/Corporations/Text/ko_KR/CorporationOverviewText.xml</File>
@@ -52,7 +52,7 @@
     <File md5="FDFF359F13CCF83239E86404A02B7C7E" import="0">CSD/Buildings/ko_KR/BuildingText.xml</File>
     <File md5="C0BF16950ACE56FE12A231EC5A1A87F6" import="0">CSD/Buildings/ko_KR/DiploBuildingText.sql</File>
     <File md5="38F9B3E36D9DA9EBA04893DD5A2CEC7C" import="0">CSD/Gameplay/ko_KR/GameplayText.sql</File>
-    <File md5="4004FB6C1D8A313786FF361ACE27BD8B" import="0">CSD/Improvements/ko_KR/ImprovementText.xml</File>
+    <File md5="ED04564F810C792A48CC51BAE40C2FB7" import="0">CSD/Improvements/ko_KR/ImprovementText.xml</File>
     <File md5="AE3EB2107FEEC4D1097C1A9F5AFB03FD" import="0">CSD/Promotions/ko_KR/PromotionText.xml</File>
     <File md5="BEC1B1927BE1DB90E0B9C30D91B6FE49" import="0">CSD/Quests/ko_KR/CityStateQuest.xml</File>
     <File md5="F69777C62B75D237E72113D6DCA19E86" import="0">CSD/Resource/ko_KR/Paper.xml</File>
@@ -71,7 +71,7 @@
     <File md5="3FF244E3D3DDB858F0E1BCA69D6BD4BE" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.xml</File>
     <File md5="1741ECD4233205CE49298DE4428E09F7" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.sql</File>
     <File md5="F1AE2C8315FDC9A15F3637BDC641AAFB" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
-    <File md5="98738B1FDE42D047C22CF77CFC00F7CC" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</File>
+    <File md5="94395F2F4CFA1D56E4D77FC9D33EBE41" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

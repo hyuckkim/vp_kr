@@ -12,10 +12,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_AA_EVENT_INVALID">
-			<Text>{1_Rank} {2_Spy}: 작전 취소됨!</Text>
+			<Text>{1_Rank} {2_Spy}: 새로운 작전 필요함!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AA_EVENT_INVALID_TT">
-			<Text>{3_City}에서 {1_Rank} {2_Spy}{2_Spy: plural 1?이; 2?가;} 도시의 최근 변화에 의해 작전을 취소했습니다. 스파이에게 새로운 작전을 지시하십시오.</Text>
+			<Text>{3_City}에서 {1_Rank} {2_Spy}{2_Spy: plural 1?이; 2?가;} 새 목표를 필요로 하고 있습니다. 스파이에게 새로운 작전을 지시하십시오.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_SPY_EXPERIENCE">
@@ -95,7 +95,7 @@
 			<Text>도시 [ICON_SPY]감시 확대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_REVEAL_AREA_HELP">
-			<Text>{6_Spy}목표 도시: 스파이가 주둔하는 동안 볼 수 있는 영역이 넓어집니다.</Text>
+			<Text>{6_Spy}목표 도시: {5_Turns} 동안 볼 수 있는 영역이 넓어집니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC">
@@ -161,5 +161,11 @@
 		<Row Tag="TXT_KEY_EVENT_SPY_KILLED">
 			<Text>[COLOR_NEGATIVE_TEXT]임무 결과:[ENDCOLOR] 실패[NEWLINE][NEWLINE] 통신이 끊겼습니다.[NEWLINE][NEWLINE]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EXTRA_SIGHT_EVENT_HAS_ENDED_CITY">
+			<Text>{1_City}에 있던 당신의 스파이 네트워크가 제공하던 시야 보너스가 종료되었습니다. 스파이가 임무를 다시 시작하도록 해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_EXTRA_SIGHT_EVENT_HAS_ENDED_CITY_T">
+			<Text>{1_City}의 도시 시야 보너스가 종료되었습니다.</Text>
+		</Row>		
 	</Language_ko_KR>
 </GameData>
