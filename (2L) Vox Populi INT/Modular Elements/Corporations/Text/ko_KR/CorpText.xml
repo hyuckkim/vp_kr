@@ -325,7 +325,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_PEACE]기업에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_FRANCHISES">
-			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  제국 전역의 기업 프랜차이즈 보너스[NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}% 제국 전역의 기업 프랜차이즈 보너스[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_CORPORATION_MODIFIER_SCIENCE">
 			<Text>기업 [ICON_RESEARCH]과학 보너스: +{1_Num}%</Text>
