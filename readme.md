@@ -21,7 +21,7 @@ racraky
 
 **code - download zip**을 누르면 다운로드 받을 수 있습니다.
 
-파일은 세 종류로 이루어져 있습니다 : 
+파일은 두 종류로 이루어져 있습니다 : 
  - Assets.zip  
 압축을 풀어 문명 5 게임 위치의 Assets에 겹치면 됩니다.  
 스팀 창에서 '로컬 파일 보기'로 게임 위치를 열 수 있습니다.  
@@ -36,14 +36,8 @@ racraky
    - (3aL) Vox Populi - EUI Compatibility INT  
 문명 5의 UI를 개선해주는 EUI를 Vox Populi와 호환시키는 모드의 번역용 모드입니다.
    - (4bL) UI - Promotion Tree for VP Localized (v 1)  
-진급 트리를 표시해주는 Promotion Tree의 번역용 모드입니다.
- - Other Mods.zip  
-VP의 모드-모드에 쓰이는 파일들입니다. 각 모드는 '함께 쓰면 좋은 모드'에 적어두었습니다.
-   - Even More Resources for Vox Populi (v 8)  
-VP에 더더욱 많은 자원을 추가하는 모드입니다. 이미 번역이 있지만 vp 2.0 이후 종속성 이슈를 해결하기 위해 modinfo 파일만 수정해서 올려두었습니다.
-   - pdansUnitTweaks INT  
-Vox Populi의 핵심 개발자 PineappleDan이 제작한 Pineappledan Tweaks for VP의 번역용 모드입니다.
-
+진급 트리를 표시해주는 Promotion Tree의 번역용 모드입니다.  
+ - 추가 모드용 Other Mods.zip은 [다른 리포지토리](https://github.com/hyuckkim/vp_modmods_kr)로 옮겼습니다.
 ## 함께 쓰면 좋은 모드
  - [More Unique Components for Vox Populi](http://gall.dcinside.com/civilization/261234) 3 / 4번째 고유 유닛 추가해주는 모드 
  - [Even More Resources for Vox Populi](http://gall.dcinside.com/civilization/186196) 더 더 다양한 자원 추가해주는 모드
