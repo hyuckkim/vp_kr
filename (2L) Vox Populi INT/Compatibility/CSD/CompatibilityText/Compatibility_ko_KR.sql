@@ -37,7 +37,7 @@ SET Text = '모든 성지의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5[ENDC
 WHERE Tag = 'TXT_KEY_BUILDING_GRAND_OSSUARY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Specialists provide the following benefits:[NEWLINE][NEWLINE]Artists increase a city''s cultural output and speed the creation of Great Artists.[NEWLINE][NEWLINE]Merchants increase a city''s gold output and speed the creation of Great Merchants.[NEWLINE][NEWLINE]Scientists increase a city''s science output and speed the creation of Great Scientists.[NEWLINE][NEWLINE]Engineers increase a city''s production output and speed the creation of Great Engineers.[NEWLINE][NEWLINE]Civil Servants provide a small amount of many yields and speed the creation of Great Diplomats.'
+SET Text = '전문가의 장점은 다음과 같습니다:[NEWLINE][NEWLINE]예술가는 도시의 문화를 높여주고 위대한 예술가의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]상인은 도시의 골드 생산을 높여주고 위대한 상인의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]과학자는 도시의 과학을 높여주고 위대한 과학자의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]기술자들은 도시의 생산을 높여주고 위대한 기술자의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]외교관은 여러 산출량을 조금씩 높여주고 위대한 외교관의 탄생을 빠르게 해 줍니다.'
 WHERE Tag = 'TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
