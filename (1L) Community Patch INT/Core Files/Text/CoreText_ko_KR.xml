@@ -3300,7 +3300,7 @@
 			<Text>평화 협정 점수: 불가능</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_PEACE_MAX_STR">
-			<Text>최대 점수: {1_Num}.</Text>
+			<Text>최대 점수: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_PEACE_MAX_STR_TT">
 			<Text>평화 협정에서 지도자의 최대 가치를 나타냅니다. 이 점수를 초과해 제시하면 지도자는 평화 협정을 거절할 것입니다.</Text>
