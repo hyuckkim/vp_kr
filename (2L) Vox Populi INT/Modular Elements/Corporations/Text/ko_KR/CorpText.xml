@@ -514,7 +514,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_STRATEGY">
-			<Text>당신이 시드 무역의 설립자일 때 이 건물은 외국 도시에서만 지을 수 있습니다. 이 건물을 외국 도시에 건설하려면, 시드 무역 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완성되면, 그 건물은 자동으로 건설될 것이다. 무작위의 외국도시에 프랜차이즈가 스스로 등장할 확률도 5%다.</Text>
+			<Text>이 건물은 당신이 시드 무역의 설립자일 때 이 건물은 외국 도시에서만 지을 수 있습니다. 이 건물을 외국 도시에 건설하려면, 시드 무역 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP">
 			<Text>도시 주변 시드 무역과 관련된 모든 독점 자원의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 시드 무역 오피스에 대한 수익을 창출합니다.</Text>
@@ -527,7 +527,7 @@
 			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 시드 무역 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]시드 무역은 팔거나 파괴될 수 없고, 모든 시드 무역 오피스의 [ICON_GOLD]골드 산출을 +4 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HELP">
-			<Text>이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시드 무역 프랜차이즈의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시드 무역 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+			<Text>이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시드 무역 프랜차이즈마다 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시드 무역 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS">
 			<Text>센타우리 개발 주식회사</Text>
@@ -576,7 +576,7 @@
 			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 센타우리 개발 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]센타우리 개발은 팔거나 파괴될 수 없고, 모든 센타우리 개발 오피스의 [ICON_PRODUCTION] 생산 산출을 +3 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HELP">
-			<Text>도시 주변 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 센타우리 개발 프랜차이즈의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]센타우리 개발 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>도시 주변 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 센타우리 개발 프랜차이즈마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]센타우리 개발 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY">
 			<Text>헥손 정유 주식회사</Text>
@@ -680,10 +680,10 @@
 			<Text>법인은 법률상 하나의 실체로서 활동할 수 있는 권한을 부여받은 기업 또는 집단이다. 초기의 법인체는 헌장(즉, 군주로부터 부여받거나 의회나 입법부에 의해 통과된 특별법에 의해)에 의해 설립되었다. 현재 대부분의 관할구역은 등록을 통해 새로운 법인의 설립을 허용하고 있다. 법인은 여러 가지 종류가 있지만 보통 주식의 발행 가능 여부 또는 영리 목적의 여부에 따라 두 종류로 구분된다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_STRATEGY">
-			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 조르지오 아르미에 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]조르지오 아르미에 은 팔거나 파괴될 수 없고, 모든, and increases the [ICON_CULTURE] Culture output of all 조르지오 아르미에 Offices by +2.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 조르지오 아르미에 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]조르지오 아르미에는 팔거나 파괴될 수 없고, 모든 조르지오 아르미에 오피스의 [ICON_CULTURE] 문화 산출량을 +2 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HELP">
-			<Text>다른 문명의 도시에 설립한 모든 조르지오 아르미에 프랜차이즈의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹 및 [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]조르지오 아르미에 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>다른 문명의 도시에 설립한 모든 조르지오 아르미에 프랜차이즈마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹 및 [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]조르지오 아르미에 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS">
 			<Text>파이락사이트 소재 주식회사</Text>
@@ -729,7 +729,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_STRATEGY">
-			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 파이락사이트 소재 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]파이락사이트 소재 은 팔거나 파괴될 수 없고, 모든 파이락사이트 소재 오피스의 [ICON_RESEARCH] 과학 산출을 +2 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 파이락사이트 소재 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]파이락사이트 소재는 팔거나 파괴될 수 없고, 모든 파이락사이트 소재 오피스의 [ICON_RESEARCH] 과학 산출을 +2 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HELP">
 			<Text>도시에 건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 모든 파이락사이트 소재 프랜차이즈의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]파이락사이트 소재 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
@@ -779,9 +779,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_STRATEGY">
 			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 투케이 푸드 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]투케이 푸드는 팔거나 파괴될 수 없고, 모든 투케이 푸드 오피스의 [ICON_FOOD] 식량 산출을 +3 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
-		</Row>TXT_KEY_CORPORATION_RESOURCE_BONUS_FIRAXITE_MATERIALS
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HELP">
-			<Text>모든 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다. 다른 문명의 도시에 설립한 모든 투케이 푸드 프랜차이즈의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]투케이 푸드 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>모든 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다. 다른 문명의 도시에 설립한 모든 투케이 푸드 프랜차이즈마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]투케이 푸드 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS">
 			<Text>시빌 보석 주식회사</Text>
@@ -827,7 +827,7 @@
 			<Plurality>2</Plurality>
 		</Row>	
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_STRATEGY">
-			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 시빌 보석 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]시빌 보석 은 팔거나 파괴될 수 없고, 모든 시빌 보석 오피스에서 [ICON_GREAT_PEOPLE] 위인 출현율을 +5% 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 시빌 보석 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]시빌 보석은 팔거나 파괴될 수 없고, 모든 시빌 보석 오피스에서 [ICON_GREAT_PEOPLE] 위인 출현율을 +5% 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HELP">
 			<Text>[ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가하고 도시의 위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시빌 보석 프랜차이즈 1개마다 위인 출현율이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시빌 보석 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
