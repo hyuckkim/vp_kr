@@ -3291,7 +3291,7 @@
 		</Row>
 		<!-- Peace Out Details - Lua -->
 		<Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR">
-			<Text>평화 협정 점수: {1_Num}.</Text>
+			<Text>평화 협정 점수: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR_TT">
 			<Text>평화 협정에서 거래 품목에 대한 지도자의 현재 가치를 나타냅니다. 이 점수가 '불가능'이거나 너무 마이너스 값이면 지도자는 평화 협정을 거절할 것입니다.</Text>
@@ -3306,7 +3306,7 @@
 			<Text>평화 협정에서 지도자의 최대 가치를 나타냅니다. 이 점수를 초과해 제시하면 지도자는 평화 협정을 거절할 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_PEACE_MIN_STR">
-			<Text>요구 점수: {1_Num}.</Text>
+			<Text>요구 점수: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_PEACE_MIN_STR_TT">
 			<Text>평화 협정에서 지도자의 요구 가치를 나타냅니다. 이 점수를 초과해 제시하면 지도자는 평화 협정을 거절할 것입니다.</Text>
