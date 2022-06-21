@@ -584,7 +584,7 @@ WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL_TEXT';
 -- Navigation School -- Exploration -- +25% to Great Admiral and Great General Production -- Barracks, Armories and Military Academies provide +1 Science.
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]식민주의[ENDCOLOR][NEWLINE]글로벌 독점에서 오는 [ICON_GOLDEN_AGE]황금기 길이 증가 및 산출량의 합이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가하거나 글로벌 독점에서 오는 [ICON_HAPPINESS_1]행복 및 산출량의 합이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 병영, 무기고, 사관 학교, 요새, 성채의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]식민주의[ENDCOLOR][NEWLINE]글로벌 독점에서 오는 [ICON_GOLDEN_AGE]산출량이 비율 기반이면 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR], 아니면 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 병영, 무기고, 사관 학교, 요새, 성채의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP';
 
 UPDATE Language_ko_KR

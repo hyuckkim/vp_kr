@@ -3446,8 +3446,11 @@
 		<Row Tag="TXT_KEY_DIPLO_CANNOT_PEACE_VASSAL">
 			<Text>종속국은 평화 협정을 할 수 없습니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BLOCKED_LOCKED_INTO_WAR">
+			<Text>다른 지도자와의 거래에 의해 할 수 없습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_DIPLO_BLOCKED_DIPLOMACY">
-			<Text>외교적 상황에 의해 불가능합니다.</Text>
+			<Text>당신과 우호 선언 또는 방어 조약을 맺은 문명이 이 문명과도 방어 조약을 맺었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_BLOCKED_GAME_RULE">
 			<Text>게임 규칙에 의해 불가능합니다.</Text>
@@ -3733,7 +3736,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_RAZED_OTHER">
-			<Text>[COLOR_NEGATIVE_TEXT]당신은 전쟁 중 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 다른 문명의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
 		</Row>
 		<!-- Stolen Artifacts Diplo Mod -->
 		<Row Tag="TXT_KEY_DIPLO_STOLEN_ARTIFACTS">
@@ -7655,7 +7658,7 @@
 			<Text>{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName}으로 승급했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_NO_ACTIONS_POSSIBLE">
-			<Text>이 도시에서 해낼 수 있는 스파이 액션이 없습니다.</Text>
+			<Text>이 도시에서 해낼 수 있는 공격적 스파이 활동이 없습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_SPY_RANK">

@@ -300,7 +300,7 @@
 			<Text>The Refinery is a Modern-era building which can only be constructed in 5 Cities total. The Refinery helps your Production and produces 1 Coal and 1 Iron Resource, however it has a high maintenance cost. Only construct if you find yourself without these vital late-game strategic resources.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_STRATEGY">
-			<Text>The Minefield is a Modern-era building which can only be constructed if you have enough Iron and you have already built a Harbor in the City. The Minefield increases City Defense and Hit Points, and reduces the movement of enemy naval units and embarked units by 1 around the city. Also damages enemy naval units for 10 Hit Points every time they end their turn adjacent to a water tile worked by the city.</Text>
+			<Text>The Minefield is a Modern-era building which can only be constructed if you have enough Iron and you have already built a Harbor in the City. With the Minefield in place, enemy ships are stopped immediately after entering the city's territory and are no longer safe to sit back on local ocean tiles outside of range from retaliation from land. Due to their resource requirement, Minefields are best limited to locations particularly vulnerable to naval sieges. Use Minefields to blunt a naval invasion, and then outmaneuver it with your own navy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROVE_HELP">
 			<Text>[ICON_CITIZEN]시민이 증가할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
@@ -327,7 +327,7 @@
 			<Text>[ICON_RES_COAL]석탄 및 [ICON_RES_IRON]철 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 건물은 문명당 [COLOR_YELLOW]최대 5개[ENDCOLOR]까지 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_HELP">
-			<Text>적 해상 유닛 및 승선 유닛이 이 도시의 물 타일에 들어오면 행동력을 모두 소모합니다. 이 도시의 대양 타일에서 턴을 마친 적 유닛은 5 피해를 받습니다.[NEWLINE][NEWLINE][ICON_RES_IRON]철 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. [COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.</Text>
+			<Text>적 해상 유닛 및 승선 유닛이 이 도시의 물 타일에 들어오면 행동력을 모두 소모합니다. 이 도시의 대양 타일에서 턴을 마친 적 유닛은 5 피해를 받습니다.[NEWLINE][NEWLINE][ICON_RES_IRON]철 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. 항만이 있는 [COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROVE_TEXT">
 			<Text>A Council is a governing body in an organised community. It is most common in subsistence cultures, with council membership being the condition or quality of being a political leader of a community. Over time, as communities grew, the importance of councils diminished in favor of larger governing institutions.</Text>
