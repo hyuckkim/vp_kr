@@ -419,7 +419,7 @@
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 괴뢰 정부여야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_BE_WLTKD">
-			<Text>[NEWLINE] [ICON_BULLET] 도시가 국왕 경축일을 맞이한 상태여야 합니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] 도시가 [COLOR_POSITIVE_TEXT]국왕 경축일[ENDCOLOR]을 맞이한 상태여야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_BE_RESISTANCE">
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 저항 상태여야 합니다.</Text>

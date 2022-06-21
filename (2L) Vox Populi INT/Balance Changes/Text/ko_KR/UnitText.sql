@@ -188,7 +188,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_STEALTH_BOMBER_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Guided Missile is a one-shot unit which is destroyed when it attacks an enemy target. The Guided Missile may be based in a player-owned friendly city or aboard a nuclear submarine or missile cruiser. They may move from base to base or attack an enemy unit or city with their range of "6". See the rules on Missiles for more information.'
+	SET Text = 'The Guided Missile is a one-shot unit which is destroyed when it attacks an enemy target. The Guided Missile may be based in a player-owned friendly city or aboard a nuclear submarine or missile cruiser. They may move from base to base or attack an enemy unit. See the rules on Missiles for more information.'
 	WHERE Tag = 'TXT_KEY_UNIT_GUIDED_MISSILE_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -448,7 +448,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_MACHINE_GUN_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = '원자력 시대의 원거리 유닛입니다. 기갑 유닛에 큰 피해를 입힙니다.'
+	SET Text = '정보화 시대의 원거리 유닛입니다. 기갑 유닛에 큰 피해를 입힙니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_BAZOOKA';
 
 	UPDATE Language_ko_KR

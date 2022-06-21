@@ -11,6 +11,7 @@ VALUES		('TXT_KEY_PRODMOD_WONDER_UNITPROMOTION',						'[NEWLINE][ICON_BULLET]Uni
 			('TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_CITY_TRAIT',			'[NEWLINE][ICON_BULLET]Trait Wonder Production Modifier for Buildings (도시에서): {1_Num}%'),
 			('TXT_KEY_PRODMOD_WONDER_IMPROVEMENT',							'[NEWLINE][ICON_BULLET]Improvement Modifier for Wonders: {1_Num}%'),
 			('TXT_KEY_RELIGION_TOOLTIP_EXTENDED',							'{1_ReligionIcon} 신자 {2_NumFollowers} 명({5_Num} 도시에서 {3_TotalPressure} + {4_PressurePerTurn} 영향력)'),
+			('TXT_KEY_EUPANEL_EMBARKATION_DEFENSE',							'적군 회유'),
 			('TXT_KEY_EUPANEL_UNITCLASS_NEAR',								'근처 유닛 전투 보너스'),
 			('TXT_KEY_EUPANEL_NEARBYPROMOTION_COMBAT_BONUS',				'근처 유닛 승급'),
 			('TXT_KEY_EUPANEL_NEARBYPROMOTION_CITY_COMBAT_BONUS',			'근처 도시 승급'),
@@ -200,6 +201,11 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_ROCKET_ARTILLERY';
 UPDATE Language_ko_KR
 SET Text = '다연장 로켓포는 일반적인 대포보다도 훨씬 성능이 좋은 무시무시하게 강력한 공성 유닛입니다. 다연장 로켓포는 적 영토에서 이동력이 감소하지 않으므로 앞선 화포보다 훨씬 빠릅니다. 다연장 로켓포의 시야는 제한적이지만 볼 수 없는 목표도 곡사 능력으로 타격할 수 있습니다. 다른 대포처럼 다연장 로켓포는 보병이나 전차의 공격에 약하므로 적절히 유닛으로 보호해야 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ROCKET_ARTILLERY_STRATEGY';
+
+-- Giant Death Robot
+UPDATE Language_ko_KR
+SET Text = '지형 방어 보너스를 받지 못하지만, 게임의 어떤 유닛보다도 강력한 유닛입니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_MECH';
 
 
 -- Buildings

@@ -396,10 +396,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_MORE_50_HP_UNITS">
-			<Text>체력 50 초과 타겟</Text>
+			<Text>체력 50% 초과 타겟</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_LESS_50_HP_UNITS">
-			<Text>체력 50 이하 타겟</Text>
+			<Text>체력 50% 이하 타겟</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_MULTI_ATTACK_BONUS">
@@ -410,12 +410,12 @@
 			<Text>헬라스 동맹</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
-			<Text>적군 회유</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_EUPANEL_FROM_TERRAIN_BONUS">
 			<Text>지형 방어력</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EUPANEL_RANGED_DEFENSE_MODIFIER">
+			<Text>원거리 공격 방어력</Text>
 		</Row>
 
 		<!-- Text for HappinessInfo.lua -->
@@ -1213,14 +1213,14 @@
 			<Text>{1_Num}% 교역로 부족에 따른 페널티 (쇄국 정책)[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_SAKOKU">
-			<Text>{4_UnitName:textkey}의 출현 때문에, [ICON_CAPITAL]수도 보너스:[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER]위대한 작가 점수[NEWLINE][ICON_BULLET]{2_Num}[ICON_GREAT_ARTIST]위대한 예술가 점수[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN]위대한 음악가 점수</Text>
+			<Text>{4_UnitName:textkey}의 출현 때문에, [ICON_CAPITAL]수도 보너스:[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER]위대한 작가 점수[NEWLINE][ICON_BULLET]{2_Num} [ICON_GREAT_ARTIST]위대한 예술가 점수[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN]위대한 음악가 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_SAKOKU_S">
 			<Text>다이묘의 후원</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_CONQUEST">
-			<Text>{4_CityName}의 점령 때문에 , [ICON_CAPITAL]수도 보너스:[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER]위대한 작가 점수[NEWLINE][ICON_BULLET]{2_Num}[ICON_GREAT_ARTIST]위대한 예술가 점수[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN]위대한 음악가 점수</Text>
+			<Text>{4_CityName}의 점령 때문에 , [ICON_CAPITAL]수도 보너스:[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER]위대한 작가 점수[NEWLINE][ICON_BULLET]{2_Num} [ICON_GREAT_ARTIST]위대한 예술가 점수[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN]위대한 음악가 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_CONQUEST_S">
 			<Text>승리의 영감!</Text>

@@ -576,7 +576,7 @@ WHERE Tag = 'TXT_KEY_CITIES_WHERETOCONSTRUCT_HEADING2_TITLE';
 
 
 UPDATE Language_ko_KR
-SET Text = '도시는 충분한 식량이나 생산을 받을 수 있는 밀, 물고기, 소 등이 있는 타일 근처에 건설되는 것이 좋습니다. 그러나 언덕 위에 있는 도시는 방어력에 보너스를 받는 등 적으로부터 점령되기 어렵다는 이점이 있습니다. 일반적으로 도시는 강이나 해안가에 지어지게 되지만, 각 위치의 도시마다 시작 산출량이 다릅니다:[NEWLINE][ICON_BULLET] 산에 건설된 도시: +2 [ICON_PRODUCTION] 생산. [NEWLINE][ICON_BULLET] 언덕에 건설된 도시: +1 [ICON_PRODUCTION] 생산.[NEWLINE][ICON_BULLET] 담수에 건설된 도시: +1 [ICON_FOOD] 식량. [NEWLINE][ICON_BULLET] 담수나 언덕 없이 건설된 도시: +1 [ICON_GOLD] 골드.[NEWLINE][NEWLINE]여러 산출물, 특히 정책, 교리, 건물 등의 산출물은 [COLOR_POSITIVE_TEXT]''시대별 보정''[ENDCOLOR]이 있습니다. 이것은 산출량이 게임 단계에 따라, 더 정확히는 현재 시대에 따라 선형적으로 증가한다는 뜻입니다:[NEWLINE]1배: 고대 및 고전 시대[NEWLINE]2배: 중세 시대[NEWLINE]3배: 르네상스 시대[NEWLINE]4배: 산업 시대[NEWLINE]5배: 현대 시대[NEWLINE]6배: 원자력 시대[NEWLINE]7배: 정보화 시대'
+SET Text = '도시는 충분한 식량이나 생산을 받을 수 있는 밀, 물고기, 소 등이 있는 타일 근처에 건설되는 것이 좋습니다. 그러나 언덕 위에 있는 도시는 방어력에 보너스를 받는 등 적으로부터 점령되기 어렵다는 이점이 있습니다. 일반적으로 도시는 강이나 해안가에 지어지게 되지만, 각 위치의 도시마다 시작 산출량이 다릅니다:[NEWLINE][ICON_BULLET] 언덕에 건설된 도시: +2 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산.[NEWLINE][ICON_BULLET] 담수에 건설된 도시: +3 [ICON_FOOD] 식량, +1 [ICON_PRODUCTION] 생산. [NEWLINE][ICON_BULLET] 담수 없이 산에 건설된 도시: +2 [ICON_FOOD] 식량, +2 [ICON_PRODUCTION] 생산, +1 [ICON_GOLD] 골드.[NEWLINE][ICON_BULLET] 담수나 언덕 없이 건설된 도시: +2 [ICON_FOOD] 식량, +1 [ICON_PRODUCTION] 생산, +1 [ICON_GOLD] 골드.[NEWLINE][NEWLINE]여러 산출물, 특히 정책, 교리, 건물 등의 산출물은 [COLOR_POSITIVE_TEXT]''시대별 보정''[ENDCOLOR]이 있습니다. 이것은 산출량이 게임 단계에 따라, 더 정확히는 현재 시대에 따라 선형적으로 증가한다는 뜻입니다:[NEWLINE]1배: 고대 및 고전 시대[NEWLINE]2배: 중세 시대[NEWLINE]3배: 르네상스 시대[NEWLINE]4배: 산업 시대[NEWLINE]5배: 현대 시대[NEWLINE]6배: 원자력 시대[NEWLINE]7배: 정보화 시대'
 WHERE Tag = 'TXT_KEY_CITIES_WHERETOCONSTRUCT_HEADING2_BODY';
 
 -- Trade Routes

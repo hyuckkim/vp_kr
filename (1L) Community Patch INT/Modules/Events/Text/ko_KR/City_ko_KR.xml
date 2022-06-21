@@ -20,7 +20,7 @@
 			<Text>이것을 뽐내면 상인들이 사려 할 것이다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_1_HELP">
-			<Text>+{2_InstantYield}, 도시에서 10턴 동안 국왕 경축일을 맞이합니다.</Text>
+			<Text>+{2_InstantYield}, 도시에서 10턴(게임 속도별 보정) 동안 [COLOR_POSITIVE_TEXT]국왕 경축일[ENDCOLOR]을 맞이합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_2">
 			<Text>사원에 기증하라.</Text>

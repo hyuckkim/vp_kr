@@ -11,6 +11,11 @@
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_A">
 			<Text>Ruling with an iron fist generally means to require absolute control when managing other people, often in the workplace. The saying can also refer to situations such as child-rearing or styles of government. This idiom is often used to describe the actions and practices of managers, parents, or leaders who give their subordinates little if any freedom of choice or input regarding decisions. Reasons for ruling with an iron fist can often depend on individual circumstances, such as inexperienced workers or unruly children. The effectiveness of using total control can also vary, depending on the scope of the management style and the situation.</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY"> <!-- For some reason EUI bugs out with the default description TXT_KEY -->
+			<Text>수도원</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR]: 모든 도시에 [COLOR_YELLOW]병원[ENDCOLOR]을 무료로 제공합니다. [ICON_CITIZEN]시민이 증가할 때 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
 		</Row>
@@ -143,6 +148,11 @@
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
 			<Text>광역 피해</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
+			<Text>적 귀순</Text>
+		</Row>
+		
 		<!-- America UA Tweak -->
 		<Row Tag="TXT_KEY_NOTIFICATION_RESET_PLOT_COST">
 			<Text>새 도시 설립으로 모든 도시의 타일 구매 비용이 재조정되었습니다.</Text>
