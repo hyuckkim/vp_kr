@@ -2,6 +2,7 @@
 <!-- This file contains text for NEW Promotions, Units, etc. that did not exist in BRAVE NEW WORLD -->
 <GameData>
 	<Language_ko_KR>
+<!-- Barbarian Promotions -->
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
 			<Text>습지 보행</Text>
 		</Row>
@@ -1019,10 +1020,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_PER_ADJACENT_UNIT_COMBAT">
 			<Text>인접 유닛 보너스</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE">
-			<Text>해상 유닛 대항 페널티</Text>
 			<Plurality>2</Plurality>
 		</Row>
 	
