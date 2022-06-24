@@ -281,7 +281,7 @@
 			<Text>공성 일제 사격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_REPEATER_HELP">
-			<Text>도시 안/도시와 인접한 타일에서 공격시 [ICON_STRENGTH]원거리 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR]</Text>
+			<Text>도시 안/도시와 인접한 타일 공격시 [ICON_STRENGTH]원거리 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR]</Text>
 		</Row>
 		<!-- Cossack -->
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS">
