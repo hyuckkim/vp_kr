@@ -515,7 +515,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_FOODMOD_WLTKD_UA">
-			<Text>[NEWLINE][ICON_BULLET]"황후 경축일": +{1_Num}% [ICON_FOOD] Food</Text>
+			<Text>[NEWLINE][ICON_BULLET]"황후 경축일": [ICON_FOOD] 식량 +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_DEMAND_UA">
 			<Text>{1_CityName:textkey}{1: plural 1?이; 2?가;}  {2_ResourceName:textkey}{2: plural 1?을; 2?를;} 확보하길 원합니다! 해당 자원을 교역로에 연결하면 즉시 "황후 경축일"을 맞이합니다.</Text>
