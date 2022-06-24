@@ -155,7 +155,7 @@ SET Text = '아폴로 우주 계획은 우주 진출 경쟁의 시작을 알립�
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Apollo Program is the start of the space race. It allows construction of spaceship parts. Each civilization must complete this project before they can construct spaceship parts. If you are part of the first global team to complete this, you will receive a free Great Scientist near your Capital, and a Golden Age will begin.'
+SET Text = '아폴로 우주 계획은 우주 경쟁의 시작점입니다. 아폴로 우주 계획을 완성하면 우주선 부품을 건조할 수 있게 됩니다. 각 문명은 각자 이 프로젝트를 완성해야만 우주선 부품을 건조할 수 있습니다. 당신이 가장 먼저 아폴로 우주 계획을 완성한다면, 위대한 과학자를 얻고 곧바로 황금기가 시작됩니다..'
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -163,7 +163,7 @@ SET Text = '어업'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = 'Fishing is the activity of trying to catch fish. Fishing usually takes place in the wild. Techniques for catching fish include hand gathering, spearing, netting, angling and trapping. The term fishing may be applied to catching other aquatic animals such as molluscs, cephalopods, crustaceans, and echinoderms. The term is not normally applied to catching farmed fish, or to aquatic mammals, such as whales, where the term whaling is more appropriate.'
+SET Text = '어업은 물고기를 잡으려 시도하는 활동입니다. 어업은 보통 야생에서 이루어집니다. 물고기를 잡는 기술에는 손모으기, 창잡기, 그물치기, 대낚시, 덫 등이 있습니다. 어업이라는 용어는 연체동물, 두족류, 갑각류, 극피동물과 같은 다른 수생동물들을 잡는 데 적용될 수 있습니다. 이 용어는 보통 양식된 물고기를 잡을 때나 고래와 같은 수생 포유류에게는 적용되지 않으며, 이 경우에는 포경이라는 용어가 더 적절합니다.'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_DESC';
 
 UPDATE Language_ko_KR
@@ -171,7 +171,7 @@ SET Text = '군사 이론'
 WHERE Tag = 'TXT_KEY_TECH_ARCHERY_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = 'Military theory is the analysis of normative behavior and trends in military affairs and military history, beyond simply describing events in war, Military theories, especially since the influence of Clausewitz in the nineteenth century, attempt to encapsulate the complex cultural, political and economic relationships between societies and the conflicts they create. Theories and conceptions of warfare have varied in different places throughout human history. The Chinese Sun Tzu is recognized by scholars to be one of the earliest military theorists. His now-iconic Art of War laid the foundations for operational planning, tactics, strategy and logistics. In India, Chanakya (350  275 BCE) laid the foundations of military theory through his seminal text called Arthashastra. While the views of Clausewitz, Sun Tzu and Kautilya are not directly applicable to the modern battlefield, they are still referenced and acknowledged by military theorists for the insights they provide, which are then adapted to modern times.'
+SET Text = '군사이론은 단순히 전쟁에서의 사건들을 설명하는 것을 넘어 군사이론과 군사역사에서의 규범적 행동과 경향에 대한 분석입니다, 특히 19세기 클라우제비츠의 영향 이후로, 사회와 갈등 사이의 복잡한 문화적, 정치적, 경제적 관계를 요약하고자 시도합니다.그들이 만들어내는 전쟁에 대한 이론과 개념은 인류 역사를 통틀어 여러 장소에서 다양했습니다. 중국의 손자는 학자들에 의해 최초의 군사 이론가들 중 한 명으로 인식됩니다. 이제 상징적인 그의 전쟁 기술은 작전 계획, 전술, 전략 및 물류를 위한 토대를 마련했습니다. 인도에서, 카우틸랴는 실리론이라고 불리는 그의 중요한 글을 통해 군사 이론의 기초를 놓았습니다. 클라우제비츠, 손자, 카우틸랴의 견해는 현대 전장에 직접적으로 적용되지는 않지만, 그것들은 여전히 군사 이론가들에 의해 언급되고 인정되고 있으며, 그것들은 현대에 적응되어 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ARCHERY_DESC';
 
 UPDATE Language_ko_KR
@@ -183,7 +183,7 @@ SET Text = '무역'
 WHERE Tag = 'TXT_KEY_TECH_HORSEBACK_RIDING_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = 'Trade involves the transfer of the ownership of goods or services from one person or entity to another in exchange for other goods or services or for money. Possible synonyms of "trade" include "commerce" and "financial transaction". Types of trade include barter. A network that allows trade is called a market. The original form of trade, barter, saw the direct exchange of goods and services for other goods and services. Later one side of the barter started to involve precious metals, which gained symbolic as well as practical importance. Modern traders generally negotiate through a medium of exchange, such as money. As a result, buying can be separated from selling, or earning. The invention of money (and later credit, paper money and non-physical money) greatly simplified and promoted trade. Trade between two traders is called bilateral trade, while trade between more than two traders is called multilateral trade.'
+SET Text = '무역은 다른 재화나 용역 또는 돈과 교환하여 한 사람이나 단체로부터 다른 사람에게 재화나 서비스의 소유권을 이전하는 것을 포함합니다. "무역"의 가능한 동의어로는 "상업"과 "금융거래"가 있습니다. 거래 유형에는 물물교환이 포함됩니다. 거래를 허용하는 네트워크를 시장이라고 합니다. 무역의 원래 형태인 물물교환은 다른 재화와 용역의 직접적인 교환을 보았습니다. 나중에 이 물물교환의 한 면은 실용적인 중요성뿐만 아니라 상징적인 중요성도 얻은 귀금속을 포함하기 시작했습니다. 현대 무역업자들은 일반적으로 돈과 같은 교환 매체를 통해 협상합니다. 결과적으로, 구매는 판매 또는 수익과 분리될 수 있습니다. 화폐(그리고 나중에 신용, 지폐, 비물리적 화폐)의 발명은 무역을 크게 단순화하고 촉진시켰습니다. 두 무역업자 사이의 무역은 양자 무역이라고 불리는 반면, 두 개 이상의 무역업자 사이의 무역은 다자간 무역이라고 불립니다.'
 WHERE Tag = 'TXT_KEY_TECH_HORSEBACK_RIDING_DESC';
 
 UPDATE Language_ko_KR
@@ -191,7 +191,7 @@ SET Text = '추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]�
 WHERE Tag = 'TXT_KEY_TECH_HORSEBACK_RIDING_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Sailing is the art of harnessing the power of the wind to move a boat over the water. To be successful, sailing required the mastery of a number of diverse skills. First, the culture must be able to construct a seaworthy craft. Second, they must be able to construct some sort of sturdy sheets (sails) which can catch the wind and transmit its energy to the hull. Third they must be able to build the various ropes and cleats and pulleys used to control the sails of the ship, and finally they must be able to successfully navigate the vessel from point to point without getting lost or capsizing or suffering some other misfortune.[NEWLINE][NEWLINE]The earliest recorded evidence of watercraft can be found in illustrations in Egypt which date from around 4,000 BC. As a riparian (river-based) civilization, the Egyptians were excellent sailors. Many of their vessels contained both oars and sails, the former being used when the winds were not strong enough or weren not coming from a favorable direction.[NEWLINE][NEWLINE]By 3000 BC the Egyptians were venturing out into the Mediterranean Sea in their vessels, steering the lengthy journey across the open water to Crete and later Phoenicia. The Egyptians also sailed down the coast of Africa, looking for knowledge, trade and treasure.[NEWLINE][NEWLINE]The earliest warships - biremes and triremes and the like - were powered by oar and sail and possessed rams or beaks on their prows. During battle the helmsman would attempt to ram the enemy vessel at high speed, while avoiding enemy attempts to do the same thing. Some vessels were equipped with archers to fire at enemy craft from longer distance, while others had soldiers aboard; these vessels sought to come alongside the enemy craft so that their soldiers could board the other ship and take it by storm.[NEWLINE][NEWLINE]The Greeks - especially the Athenians and the island colonies - were masters at naval warfare. One of the reasons that they were able to defeat their much larger and more powerful neighbor, Persia, was that the Athenian navy dominated the Aegean Sea and thus constantly threatened the increasingly lengthy supply chain of Persia.'
+SET Text = '항해는 물위에 뜬 배를 이동시키기 위해 바람을 이용하는 기술입니다. 성공적인 항해를 위해서는 많은 다양한 기술을 익혀야 합니다. 첫 번째로 문화는 항해하기 적합한 배를 만들 수 있어야 합니다. 두 번째로 바람을 받아 선체에 동력을 전달하는 튼튼한 천(돛)을 여러 종류 만들 수 있어야 합니다. 마지막으로 항해를 통제하는데 사용되는 다양한 로프와 도르래 그리고 밧줄걸이를 만들 수 있어야 합니다. 그리고 마지막으로 길을 잃거나 전복 또는 다른 불행이 없이 목표를 향해 배를 성공적으로 조정해야만 합니다.[NEWLINE][NEWLINE]최초로 기록된 배는 기원전 4000년 경에 그려진 것으로 추정되는 이집트 벽화에서 발견됩니다. 강 주위에서 발달된 문명으로 이집트인들은 훌륭한 항해사였습니다. 많은 배들에 노와 돛 둘 다 설치되었는데, 전자는 바람이 충분히 불지 않을 때 또는 가고자 하는 방향으로 가지 않을 때 사용되었습니다.[NEWLINE][NEWLINE]기원전 3000년 경 이집트인들은 지중해를 탐험하였으며, 바다를 가로질러 크레테와 후에 페니키아까지 긴 여행을 하였습니다. 이집트인들은  지식, 무역 그리고 부를 찾기 위해 아프리카 해안을 따라 내려갔습니다.[NEWLINE][NEWLINE]2단노 갤리선이나 삼단노선 같은 최초의 전함은 노와 돛으로 움직였으며, 뱃머리에 충각을 달았습니다. 전투 중에 조타수는 빠른 속도로 적 전함을 들이 받으려고 하였으며, 동일한 적의 공격은 피하려고 하였습니다. 어떤 배에는 더 먼 거리에서 적 전함에 불화살을 쏘아댈 궁수를 배치했습니다. 반면 또 다른 배에는 갑판에 군인을 배치했는데 이러한 배는 군인들이 적 전함으로 건너가서 배를 점령할 수 있도록 바짝 붙습니다.[NEWLINE][NEWLINE]그리스인, 특히 아테네인과 섬 식민지인들은 해군력이 강했습니다. 그들이 훨씬 크고 강대한 인접국인 페르시아를 물리칠 수 있었던 이유 중에 하나는 아테네 해군이 에게 해를 장악하고 있어서 끊임없이 페르시아 군의 늘어난 보급로를 위협했기 때문입니다.'
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_DESC';
 
 UPDATE Language_ko_KR
@@ -340,19 +340,19 @@ SET Text = '추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]�
 WHERE Tag = 'TXT_KEY_TECH_RAILROAD_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Allows Workers to construct [COLOR_POSITIVE_TEXT]Pastures[ENDCOLOR] on [ICON_RES_COW] [COLOR_POSITIVE_TEXT]Cows[ENDCOLOR] and [ICON_RES_SHEEP] [COLOR_POSITIVE_TEXT]Sheep[ENDCOLOR]. Also reveals [ICON_RES_HORSE] Horses, which are used to build powerful mounted units.'
+SET Text = '노동자가 [ICON_RES_COW][COLOR_POSITIVE_TEXT]소[ENDCOLOR]와 [ICON_RES_SHEEP][COLOR_POSITIVE_TEXT]양[ENDCOLOR]이 있는 곳에 [COLOR_POSITIVE_TEXT]목장[ENDCOLOR]을 만들 수 있습니다. [ICON_RES_HORSE][COLOR_POSITIVE_TEXT]말[ENDCOLOR]을 이용해 강력한 기마 유닛을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Allows Workers to construct [COLOR_POSITIVE_TEXT]Mines[ENDCOLOR] to increase the [ICON_PRODUCTION] Production of map tiles.'
+SET Text = '노동자가 타일의 [ICON_PRODUCTION]생산을 높이는 [COLOR_POSITIVE_TEXT]광산[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_MINING_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Reveals [ICON_RES_IRON] [COLOR_POSITIVE_TEXT]Iron[ENDCOLOR]. Also allows you to build the [COLOR_POSITIVE_TEXT]Spearman[ENDCOLOR], a military unit strong against mounted enemies.'
+SET Text = '지도에 [ICON_RES_IRON]철 자원을 표시합니다. 기마 유닛에 강한 [COLOR_POSITIVE_TEXT]창병[ENDCOLOR]을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_BRONZE_WORKING_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build [COLOR_POSITIVE_TEXT]Walls[ENDCOLOR], which greatly improve the defense of cities from attack. Also allows Workers to construct Quarries on [ICON_RES_MARBLE] [COLOR_POSITIVE_TEXT]Marble[ENDCOLOR] and [ICON_RES_STONE] [COLOR_POSITIVE_TEXT]Stone[ENDCOLOR].'
+SET Text = '적의 공격으로부터 도시의 방어를 크게 개선시킬 수 있는 [COLOR_POSITIVE_TEXT]성벽[ENDCOLOR]을 만들 수 있습니다. [COLOR_POSITIVE_TEXT]채석장[ENDCOLOR]을 [ICON_RES_MARBLE]대리석과 [ICON_RES_STONE] [COLOR_POSITIVE_TEXT]석재[ENDCOLOR]에 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_MASONRY_HELP';
 
 UPDATE Language_ko_KR
@@ -394,5 +394,5 @@ SET Text = 'All Workers receive the [COLOR_POSITIVE_TEXT]Fallout Immunity[ENDCOL
 WHERE Tag = 'TXT_KEY_TECH_NANOTECHNOLOGY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Who knows what the future holds?[NEWLINE][NEWLINE]A repeating technology that will increase your score and create 1 [ICON_HAPPINESS_1] Happiness in every City each time it is researched.'
+SET Text = '그 누가 감히 미래를 예측할 수 있겠습니까?[NEWLINE][NEWLINE]계속 연구할 수 있는 기술로 연구 될 때마다 정수가 올라가고 모든 도시의 [ICON_HAPPINESS_1] 행복이 1 증가합니다.'
 WHERE Tag = 'TXT_KEY_TECH_FUTURE_TECH_HELP';
