@@ -292,7 +292,7 @@ SET Text = '진리의 길'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '외국 도시에 당신 문명의 [ICON_RELIGION]종교를 전파할 때 [ICON_TOURISM]관광 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:110:110:110:255](다른 종교의 신도 수에 따라 보정)[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]성유물함[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +2 [ICON_CULTURE] 문화, 4 [ICON_GREAT_WORK]걸작 예술품 슬롯;  [ICON_RELIGION]성지에서 +5 [ICON_TOURISM] 관광; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '외국 도시에 당신 문명의 [ICON_RELIGION]종교를 전파할 때 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] [COLOR:110:110:110:255](다른 종교의 신도 수에 따라 보정)[ENDCOLOR] 제공합니다. 도시 국가에  [ICON_RELIGION]종교를 전파할 때 +10 [ICON_INFLUENCE]영향력을 얻고 [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR], 평화로운 외국 문명의 신도 10명마다 전역 [ICON_HAPPINESS_1] 행복이 +1 증가합니다.[NEWLINE][COLOR_YELLOW]성유물함[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +2 [ICON_CULTURE] 문화, 4 [ICON_GREAT_WORK]걸작 예술품 슬롯;  [ICON_RELIGION]성지에서 +5 [ICON_TOURISM] 관광; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE';
 
 
