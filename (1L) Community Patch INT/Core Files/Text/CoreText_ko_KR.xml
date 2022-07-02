@@ -3223,7 +3223,7 @@
 		</Row>
 		<!-- Tourism Lua -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
-			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_TOURISM]  도시에서 획득</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM]  도시에서 획득</Text>
 		</Row>
 		<!-- City Over Resource Need Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT_CITY">
