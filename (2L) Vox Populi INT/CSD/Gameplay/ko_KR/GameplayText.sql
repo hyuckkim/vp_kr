@@ -36,10 +36,6 @@ UPDATE Language_ko_KR
 SET Text = '외교 임무를 수행하여 {1_Num} [ICON_GOLD]골드와 {2_Num} [ICON_INFLUENCE]영향력을 획득했습니다!'
 WHERE Tag = 'TXT_KEY_MERCHANT_RESULT' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
-INSERT INTO Language_ko_KR (Text, Tag)
-SELECT '외교 임무를 수행하여 {1_Num} [ICON_INFLUENCE]영향력을 획득했습니다!', 'TXT_KEY_DIPLOMATIC_MISSION_RESULT_NO_GOLD'
-WHERE EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
-
 UPDATE Language_ko_KR
 SET Text = '다음 외교 임무 중 하나를 시작할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POPUP_MINOR_GOLD_GIFT' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
