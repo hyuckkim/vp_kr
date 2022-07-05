@@ -328,11 +328,11 @@ Tag, Text)
 VALUES ('TXT_KEY_BUILDING_COLOSSEUM_HELP', '시민 4명마다 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.');
 
 UPDATE Language_ko_KR
-SET Text = 'The Arena generates Tourism, reduces Boredom in a city, and grants additional Culture. Build these to combat Unhappiness from Boredom, to increase your Culture, and to improve the production of your military buildings.'
+SET Text = '투기장은 관광을 창출하고, 도시의 무료를 줄이고, 추가 문화를 제공합니다. 무료에서 오는 불행과 싸우고, 문화를 발전시키고, 군사 건물의 생산을 향상시키려면 투기장을 건설하십시오.'
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'An arena is an enclosed area, often circular or oval-shaped, designed to showcase theater, musical performances, or sporting events. The word derives from Latin harena, a particularly fine/smooth sand used to absorb blood in ancient arenas such as the Colosseum in Rome. It is composed of a large open space surrounded on most or all sides by tiered seating for spectators. The key feature of an arena is that the event space is the lowest point, allowing for maximum visibility. Arenas are usually designed to accommodate a large number of spectators.'
+SET Text = '투기장은 연극, 음악 공연, 스포츠 행사를 보여주기 위해 설계된 원형 또는 타원형의 폐쇄된 공간이다. 이 단어는 로마의 콜로세움과 같은 고대 경기장에서 피를 흡수하기 위해 사용되었던 특히 고운/매끈한 모래인 라틴 하레나에서 유래되었습니다. 관중석을 위한 계단식 좌석으로 둘러싸인 넓은 공터로 구성되어 있다. 경기장의 주요 특징은 이벤트 공간이 최저점이어서 시야를 최대한 확보할 수 있다는 점이다. 투기장은 보통 많은 관중을 수용할 수 있도록 설계됩니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BUILDINGS_COLISEUM_TEXT';
 
 UPDATE Language_ko_KR
@@ -344,7 +344,7 @@ SET Text = '건설을 완료하면 알려진 모든 문명에 대한 [ICON_TOURI
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Zoo reduces Boredom in a city, produces additional Culture, and boosts the Culture value of nearby Jungle and Forest tiles. Generates a large sum of Tourism with all known Civilizations when completed.'
+SET Text = '동물원은 도시의 무료를 줄이고, 추가 문화를 생산하며, 근처의 정글과 숲 타일의 문화 산출량을 증가시킵니다. 완료 시 모든 알려진 문명에 많은 양의 관광을 생성합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -352,7 +352,7 @@ SET Text = '[ICON_TOURISM]관광을 증가시켜주는 [COLOR_POSITIVE_TEXT]글�
 WHERE Tag = 'TXT_KEY_TECH_PRINTING_PRESS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Build the Stadium if you are going for a [COLOR_POSITIVE_TEXT]Culture Victory[ENDCOLOR], or you are having problems with happiness from Boredom in your empire. Provides a huge sum of Tourism when completed.'
+SET Text = '[COLOR_POSITION_TEXT]문화 승리[ENDCOLOR]를 목표로 하거나 제국의 무료로 인해 행복에 문제가 있는 경우 경기장을 건설하십시오. 완성 시 막대한 관광 비용을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -360,7 +360,7 @@ SET Text = '건설을 완료하면 알려진 모든 문명에 대한 [ICON_TOURI
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_HAPPINESS_1]행복도가 1 증가합니다. 도시의 [ICON_SPY]보안 등급이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]적[ICON_SPY]스파이가 이 도시에서 사망하면 [ICON_RESEARCH]과학 및 [ICON_CULTURE]문화를 [COLOR:105:105:105:255](시대 및 살해된 스파이의 레벨에 따라 보정)[ENDCOLOR] 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD] 빈곤, [ICON_RESEARCH] 문맹, and [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '도시의 [ICON_HAPPINESS_1]행복이 1 증가합니다. 도시의 [ICON_SPY]보안 등급이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]적[ICON_SPY]스파이가 이 도시에서 사망하면 [ICON_RESEARCH]과학 및 [ICON_CULTURE]문화를 [COLOR:105:105:105:255](시대 및 살해된 스파이의 레벨에 따라 보정)[ENDCOLOR] 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD] 빈곤, [ICON_RESEARCH] 문맹, [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_HELP';
 
 UPDATE Language_ko_KR
@@ -384,7 +384,7 @@ SET Text = '국가 기념비'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_EPIC';
 
 UPDATE Language_ko_KR
-SET Text = 'A National monument is a monument constructed in order to commemorate something of national importance such as a war or the founding of the country. The term may also refer to a specific monument status, such as a national heritage site, which most national monuments are by reason of their cultural importance rather than age. The National monument aims to represent the nation, and serve as a focus for national identity.'
+SET Text = '국가 기념비 전쟁이나 건국 같은 국가적 중요성을 기념하기 위해 세워진 기념물이다. 이 용어는 또한 국가 유산과 같은 특정한 기념물 지위를 의미할 수 있는데, 대부분의 국가 기념비는 건설된 연도보다는 문화적 중요성 때문에 그러하다. 그 국가 기념비는 국가를 대표하고, 국가 정체성을 위한 초점 역할을 하는 것을 목표로 한다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_EPIC_PEDIA';
 
 UPDATE Language_ko_KR
@@ -392,39 +392,39 @@ SET Text = '국립 대학'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE';
 
 UPDATE Language_ko_KR
-SET Text = 'Philosophy is the study of general and fundamental problems, such as those connected with reality, existence, knowledge, values, reason, mind, and language. Philosophy is organized into schools of thought and distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument. In more casual speech, by extension, philosophy can refer to the most basic beliefs, concepts, and attitudes of an individual or group. The word philosophy comes from the Ancient Greek philosophia, which literally means "love of wisdom". The introduction of the terms philosopher and philosophy has been ascribed to the Greek thinker Pythagoras.'
+SET Text = '철학은 현실, 존재, 지식, 가치, 이성, 마음, 언어와 관련된 문제들과 같은 일반적이고 근본적인 문제들에 대한 학문입니다. 철학은 비판적이고, 일반적으로 체계적인 접근과 합리적인 주장에 대한 의존에 의해 그러한 문제들을 다루는 다른 방법들과 구별됩니다. 더 캐주얼한 말에서, 더 나아가, 철학은 개인이나 집단의 가장 기본적인 믿음, 개념, 그리고 태도를 언급할 수 있습니다. 철학이라는 단어는 문자 그대로 "지혜에 대한 사랑"을 의미하는 고대 그리스 철학에서 유래했습니다. 철학자와 철학이라는 용어의 도입은 그리스 사상가 피타고라스에 기인합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder gives all land units built in this city (past and future) the "Morale" promotion, increasing their combat strength by +10%. +1 [ICON_PRODUCTION] Production in the City for every 5 [ICON_CITIZEN] Citizens. Increases the Military Unit Supply Cap from Population in the City by 10%. Also creates a free Great Writer upon completion. The Heroic Epic can be constructed when a city has a barracks.'
+SET Text = '이 국가 불가사의는 이 도시에서 생산된/생산될 모든 지상 유닛에게 전투력을 +10% 증가시키는 "사기" 승급을 제공합니다. 도시의 시민 5명당 +1 [ICON_PRODUCTION] 생산을 얻습니다.  군사 유닛 보급 한도을 도시 인구의 10% 만큼 늘립니다. 또한 작성 시 무료 위대한 작가를 제공합니다. 영웅 서사시를 건설하려면 도시에 병영이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder increases the [ICON_GREAT_PEOPLE] Great People generation of a city by 25%. Receive [ICON_CULTURE] Culture when a [ICON_CITIZEN] Citizen is born in the City, and [ICON_GOLDEN_AGE] Golden Age Points whenever you unlock a policy. It also provides +1 [ICON_CULTURE] Culture. A city must have a monument before it can construct a National Monument.'
+SET Text = '이 국가 불가사의는 도시의 [ICON_GREAT_PEOPLE] 위인 출현율을 25% 증가시킵니다. 도시에 [ICON_CITIZEN] 시민이 태어날 때 [ICON_CULTURE] 문화를 제공하고, 정책을 채택하면 [ICON_GOLDEN_AGE] 황금기 점수를 제공합니다. +1 [ICON_CULTURE] 문화를 제공합니다. 국가 기념비를 건설하려면 도시에 기념비가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_EPIC_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder provides +2 [ICON_HAPPINESS_1] Happiness, +1 [ICON_CULTURE] Culture, and reduces [ICON_HAPPINESS_3] Boredom, and generates +10% [ICON_CULTURE] Culture and [ICON_GOLD] Gold during "We Love the King Day" in the City where it is built. A city must have an Arena before it can construct a Circus Maximus.'
+SET Text = '이 국가 불가사의는 +2 [ICON_HAPPINESS_1] 행복, +1 [ICON_CULTURE] 문화를 제공하고 [ICON_HAPPINESS_3] 무료가 감소하고, 국왕 경축일 동안 이 도시의 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드가 10% 증가합니다. 원형 경기장을 건설하려면 도시에 투기장이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The East India Company increases the amount of [ICON_GOLD] Gold a city generates and reduces [ICON_HAPPINESS_3] Poverty. Resource Diversity Modifiers for Trade Routes from this City increase by 25% if positive, and decrease by 25% if negative. You also receive a free copy of all Luxury Resources around the City.[NEWLINE][NEWLINE]Trade routes other players make to a city with an East India Company will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route.'
+SET Text = '동인도 회사는 도시가 생성하는 [ICON_GOLD] 골드를 증가시키고 [ICON_HAPPINESS_3] 빈곤을 감소시킵니다. 이 도시 교역로의 자원 다양성 수치가 양수면 25% 증가시키고 음수면 25% 감소시킵니다. 동인도 회사가 건설된 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로는 도시의 주인에게 [ICON_GOLD]골드를 추가로 4 생성하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 2 증가합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_TREASURY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The School of Philosophy National Wonder produces [ICON_RESEARCH] Science and [ICON_CULTURE] Culture, especially during [ICON_GOLDEN_AGE] Golden Ages. A city must have a library before it can construct a School of Philosophy.'
+SET Text = '국립 대학 국가 불가사의는 [ICON_RESEARCH] 과학과 [ICON_CULTURE] 문화를 생성하고, [ICON_GOLDEN_AGE] 황금기에 추가로 생성합니다. 국립 대학을 건설하려면 도시에 도서관이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Ironworks National Wonder provides 2 [ICON_RES_IRON] Iron, increases [ICON_PRODUCTION] Production in a city by 10, and generates [ICON_RESEARCH] Science every time you construct a building. A city must have a Forge before it can construct an Ironworks.'
+SET Text = '제철소 국가 불가사의는 [ICON_RES_IRON] 철 2개를 제공하고, 도시의 [ICON_PRODUCTION] 생산을 10 증가시키며 건물을 건설할 때마다 [ICON_RESEARCH] 과학을 제공합니다. 제철소를 건설하려면 도시에 대장간이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_IRONWORKS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Oxford University National Wonder provides +1 [ICON_CULTURE] Culture, and reduces [ICON_HAPPINESS_3] Illiteracy. +50 [ICON_CULTURE] Culture every time you research a Technology. The city must have a university before it can construct Oxford University.'
+SET Text = '옥스포드 대학교 국가 불가사의는 +1 [ICON_CULTURE] 문화를 제공하고, [ICON_HAPPINESS_3] 문맹을 감소시킵니다. 기술을 연구할 때마다 +50 [ICON_CULTURE] 문화를 얻습니다. 옥스포드 대학교를 건설하려면 도시에 대학이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder produces +1 [ICON_CULTURE] Culture for every 4 [ICON_CITIZEN] Citizens in the City, and +10% [ICON_CULTURE] Culture for the City. It cannot be constructed unless the city has an Opera House.'
+SET Text = '이 국가 불가사의는 도시의  [ICON_CITIZEN] 시민 4명마다 +1 문화를 제공하고, 도시의 [ICON_CULTURE] 문화를 +10% 증가시킵니다. 에르미타슈 박물관을 건설하려면 도시에 오페라 하우스가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -455,7 +455,7 @@ SET Text = '"국왕 경축일"이 열리는 동안 도시의 [ICON_CULTURE]문�
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_MAXIMUS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]합니다. 이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 이 도시의 모든 도시의 [ICON_GOLD]빈곤에서 오는 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]세관[ENDCOLOR]이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
+SET Text = '이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]합니다. 이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 모든 도시의 [ICON_GOLD]빈곤에서 오는 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]세관[ENDCOLOR]이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP';
 
 UPDATE Language_ko_KR
@@ -555,7 +555,7 @@ SET Text = '상코레 대학'
 WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_OF_DJENNE';
 
 UPDATE Language_ko_KR
-SET Text = 'As the center of an Islamic scholarly community, the University of Sankore was very different in organization from the universities of medieval Europe. It had no central administration other than the Emperor. It had no student registers but kept copies of its student publishings. It was composed of several entirely independent schools or colleges, each run by a single master or imam. Students associated themselves with a single teacher, and courses took place in the open courtyard of the mosque or at private residences.'
+SET Text = '이슬람 학자들의 공동체의 중심으로서, 상코레 대학은 중세 유럽의 대학들과는 조직적으로 매우 달랐습니다. 황제 외에는 중앙 행정이 없었습니다. 학생부는 없었지만 학생 출판물의 사본을 보관하고 있었습니다. 각각 한 명의 마스터나 이맘에 의해 운영되는, 완전히 독립적인 몇몇 학교나 대학들로 구성되었습니다. 학생들은 한 명의 선생님과 결부되었고, 수업은 모스크의 열린 뜰이나 개인 주택에서 열렸습니다.'
 WHERE Tag = 'TXT_KEY_WONDER_MOSQUE_OF_DJENNE_DESC';
 
 UPDATE Language_ko_KR
@@ -713,11 +713,11 @@ SET Text = '세계 시민 의정서를 완료하면 [ICON_VICTORY_CULTURE][COLOR
 WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Global citizenship is idea of all persons having rights and civic responsibilities that come with being a member of the World, with whole-world philosophy and sensibilities, rather than as a citizen of a particular nation or place. The idea is that ones identity transcends geography or political borders and that responsibilities or rights are derived from membership in a broader class: ''humanity.'' This does not mean that such a person denounces or waives their nationality or other, more local identities, but such identities are given ''second place'' to their membership in a global community. Extended, the idea leads to questions about the state of global society in the age of globalization. In general usage, the term may have much the same meaning as ''world citizen'' or cosmopolitan, but it also has additional, specialized meanings in differing contexts. Various organizations, such as the World Service Authority, have advocated global citizenship.'
+SET Text = '세계 시민권은 특정 국가나 지역의 시민으로서가 아니라, 전 세계의 철학과 감성을 가진 세계의 일원이 되는 것과 함께 오는 권리와 시민적 책임을 가진 모든 사람들의 아이디어입니다. 한 사람의 정체성은 지리나 정치적 경계를 초월하고 책임이나 권리는 더 넓은 계급: "인류"의 구성원 자격에서 파생된다는 생각입니다. 이것은 그러한 사람이 그들의 국적이나 다른, 더 많은 지역 정체성을 부정하거나 포기한다는 것을 의미하지는 않지만, 그러한 정체성은 그들의 구성원 자격에 "제2의 자리"를 부여하고 글로벌 커뮤니티를 구축합니다. 확대된, 그 아이디어는 세계화 시대의 지구 사회의 상태에 대한 질문으로 이어집니다. 일반적으로, 이 용어는 "세계 시민" 또는 "범세계주의"과 같은 의미를 가질 수 있지만, 또다른 맥락에서 추가적인, 전문화된 의미를 가지고 있습니다. 세계 서비스 기관과 같은 다양한 기관들은 세계 시민권을 주장해 왔습니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = 'You must have an Ideology (with a [COLOR_POSITIVE_TEXT]Content[ENDCOLOR] population), two Tier 3 Tenets in this Ideology, and be [ICON_TOURISM] Influential with all other Civilizations in the world in order to construct this. Once you have completed these tasks, construct this project to win a Cultural Victory!'
+SET Text = '이념을 채택하고 (여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR] 상태), 3티어 이념 주의를 둘 채택하고, 다른 모든 문명에 대한 관광 단계가 [ICON_TOURISM] 매우 유명함 이상이면 건설할 수 있습니다. 이러한 작업을 완료했다면 이 프로젝트를 건설하여 문화 승리를 해내십시오!'
 WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_STRATEGY';
 
 ----내가추가
