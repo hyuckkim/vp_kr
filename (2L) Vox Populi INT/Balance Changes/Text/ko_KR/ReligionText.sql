@@ -635,7 +635,7 @@ SET Text = '성역'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '성지와 랜드마크마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. 이 종교를 따르는 우호적/동맹인 [ICON_CITY_STATE]도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.'
+SET Text = '성지 또는 랜드마크 2개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. 이 종교를 따르는 우호적/동맹인 [ICON_CITY_STATE]도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR';
 
 
