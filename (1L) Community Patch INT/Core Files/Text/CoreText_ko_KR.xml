@@ -3223,7 +3223,7 @@
 		</Row>
 		<!-- Tourism Lua -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
-			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_TOURISM]  도시에서 획득</Text>
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM]  도시에서 획득</Text>
 		</Row>
 		<!-- City Over Resource Need Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT_CITY">
@@ -6044,7 +6044,7 @@
 			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}에게서 세계 대회 추가 대표단 1명을 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_MARRIED_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_Num} 정략 결혼에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]정략 결혼에서 [COLOR_POSITIVE_TEXT]{1_Num}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_TT">
 			<Text>{1_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 세계 대회 추가 대표단 1명을 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하며 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.</Text>
