@@ -306,10 +306,10 @@
 
 
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_CULTURE">
-			<Text>가장 높은 문화</Text>
+			<Text>최대 문화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_CULTURE_DELTA">
-			<Text>가장 높은 문화 변동</Text>
+			<Text>최대 문화 변동치</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_BOREDOM">
 			<Text>[ICON_CULTURE]무료: {1_Num}</Text>
