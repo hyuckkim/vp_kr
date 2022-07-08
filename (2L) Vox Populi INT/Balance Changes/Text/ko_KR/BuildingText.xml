@@ -699,7 +699,7 @@
 			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]당신 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]유물 또는 예술품[ENDCOLOR]으로 채우십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_THEMING_BONUS_HELP">
-			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 당신 문명을 제외한 [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]유물 또는 예술품[ENDCOLOR]으로 채우십시오.</Text>
+			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 당신의 문명을 제외한 [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]유물 또는 예술품[ENDCOLOR]으로 채우십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PROJECT_STARTED">
 			<Text>{1_Player}{1: plural 1?이; 2?가;} [COLOR_NEGATIVE_TEXT]{2_Building}[ENDCOLOR]의 건설을 시작했습니다. [COLOR_NEGATIVE_TEXT]{3_Turns}[ENDCOLOR]턴 뒤에 완성될 예정입니다! 건물이 완성되면 {1_Player}{1: plural 1?은; 2?는;} [COLOR_NEGATIVE_TEXT]문화 승리[ENDCOLOR]를 달성하게 됩니다!</Text>
