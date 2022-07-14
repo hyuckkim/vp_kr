@@ -369,6 +369,13 @@
 		<Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP_I">
 			<Text>근접 전투 시 60% 확률로 후퇴. 후퇴 확률은 적 유닛의 이동력 또는 뒤 타일의 제한에 따라 낮아질 수 있음.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
+		<!-- Explorer -->
+			<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
+				<Text>해양 탐험가</Text>
+			</Row>
+			<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING_HELP">
+				<Text>천문학 연구 전에도 대양 탐험 가능</Text>
+			</Row>
 		<!-- Giant Death Robot -->
 		<Row Tag="TXT_KEY_PROMOTION_MECH">
 			<Text>거대함</Text>
