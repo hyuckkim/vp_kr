@@ -102,6 +102,11 @@
 			<Text>[COLOR_CYAN]추가 범위 공격[ENDCOLOR]</Text>
 		</Row>
 
+		<!-- Diplomatic Mission (No Gold) -->
+		<Row Tag="TXT_KEY_DIPLOMATIC_MISSION_RESULT_NO_GOLD">
+			<Text>외교 임무를 수행하여 {1_Num} [ICON_INFLUENCE]영향력을 획득했습니다!</Text>
+		</Row>
+
 		<!-- America - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_10">
 			<Text>스노든</Text>

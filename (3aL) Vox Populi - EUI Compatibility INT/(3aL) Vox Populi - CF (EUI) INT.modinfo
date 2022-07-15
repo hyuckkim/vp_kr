@@ -29,11 +29,15 @@
   <Files>
     <File md5="83FB148ECC0B62D5C24CB6542C6D3F8D" import="0">EUI/EUI_text_ko_KR.xml</File>
     <File md5="D6762C7CE1B48D4E9E0C7F9E9861BA66" import="0">EUI/ko_KR/NeededText.xml</File>
+    <File md5="3665A2A8307A8C41D908752BF88AC4BF" import="0">ImprovedTopPanel/Text.sql</File>
+    <File md5="B6B1F764CC6E8C876BA6D7F23AF7C906" import="0">ImprovedTopPanel/Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>EUI/ko_KR/NeededText.xml</UpdateDatabase>
       <UpdateDatabase>EUI/EUI_text_ko_KR.xml</UpdateDatabase>
+      <UpdateDatabase>ImprovedTopPanel/Text.sql</UpdateDatabase>
+      <UpdateDatabase>ImprovedTopPanel/Text.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
