@@ -2908,12 +2908,27 @@
 			<Text>{@2_CivName}의 전술 전문가들이 {@1_CityName}{@1: plural 1?이; 2?가;} 전략적으로 중요한 요충지라고 생각합니다. 어떻게든 이 도시를 얻으면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CAPTURE_CITY">
-			<Text>{@2_CivName}의 전술가들은 당신이 {@1_CityName}{@1: plural 1?을; 2?를;} 정복하길 바랍니다.</Text>
+			<Text>{@2_CivName}{@2 plural 1?은; 2?는;} 당신이 {@1_CityName}{@1: plural 1?을; 2?를;} 정복하길 바랍니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_COMPLETE">
 			<Text>{@1_CivName}의 전술 전문가들이 당신의 노고를 칭찬하며 그들이 예상한 것처럼 이 도시가 전략적으로 유용한 곳이 되기를 기대합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_COMPLETE">
+			<Text>{@1_CivName}{@1: plural 1?을; 2?를;} 위한 도시 정복!</Text>
+		</Row>
+		
+		<!-- Capture City (OCC) -->
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_UNIT_GET_CITY_OCC">
+			<Text>{@2_CivName}의 전술 전문가들은 {@1_CityName}{@1: plural 1?이; 2?가;} 그들 안전의 중대한 위협이라고 믿습니다. 어떻게든 이 도시를 정복하면 큰 보상을 얻을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UNIT_GET_CITY_OCC">
+			<Text>{@2_CivName}{@2 plural 1?은; 2?는;} 당신이 {@1_CityName}{@1: plural 1?을; 2?를;} 정복하길 바랍니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_OCC_COMPLETE">
+			<Text>{@1_CivName}의 전술 전문가들이 당신의 노고를 칭찬합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_OCC_COMPLETE">
 			<Text>{@1_CivName}{@1: plural 1?을; 2?를;} 위한 도시 정복!</Text>
 		</Row>
 		<!-- Coup -->
@@ -3016,6 +3031,9 @@
 			<Text>{1_Civ}에서 쿠데타를 지원하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_GET_CITY_FORMAL">
+			<Text>{1_City}{1: plural 1?을; 2?를;} 정복해주길 바랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GET_CITY_OCC_FORMAL">
 			<Text>{1_City}{1: plural 1?을; 2?를;} 정복해주길 바랍니다.</Text>
 		</Row>
 		<!-- Plot Helpers -->
