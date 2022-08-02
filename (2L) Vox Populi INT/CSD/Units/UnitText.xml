@@ -9,10 +9,10 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
-			<Text>The Emissary is the first diplomatic unit available to a player, and represents the early attempts at peaceful cooperation between civilizations. As the culture of diplomacy is, in the Ancient Era, still quite crude, the Emissary is not terribly effective. Earning only around 20 Influence from a Diplomatic Mission, the Emissary has not yet mastered the art of statecraft, nor, unsurprisingly, the foreign languages of neighbouring city-states. Production cost scales with Era.</Text>
+			<Text>특사는 플레이어가 이용할 수 있는 최초의 외교 유닛이며, 문명 간의 평화적인 협력을 위한 초기 시도를 나타냅니다. 고대에는 외교 문화가 여전히 조잡하기 때문에, 사절단은 그다지 효과적이지 않습니다. 외교 사절단으로부터 겨우 20여개의 영향력만을 얻는 특사는 아직 외국 무역이나 이웃 도시 국가들을 다루는 기술을 익히지 못했습니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_EMISSARY_TEXT">
-			<Text>Though the cheapest and earliest-available diplomatic unit, Emissaries are not terribly reliable as a source of steady Influence. Players should only use Emissaries to secure or maintain relations with a city-state you are already friendly or allied with. As such, it is best to use these units simply to augment your efforts to fulfill city-state quests.</Text>
+			<Text>가장 저렴하고 가장 빨리 이용할 수 있는 외교 단위임에도 불구하고, 특사는 꾸준한 영향력의 원천으로서 매우 신뢰할 수 있는 것은 아닙니다. 플레이어는 이미 우호적이거나 동맹 관계에 있는 도시 국가와의 관계를 확보하거나 유지하기 위해 특사를 사용해야 합니다. 따라서 이러한 단위를 사용하여 도시 국가 목표를 달성하기 위한 노력을 강화하는 것이 가장 좋습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_EMISSARY">
 			<Text>[COLOR_PLAYER_PURPLE]개시[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
@@ -23,10 +23,10 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_MEDIEVAL_ENVOY_TEXT">
-			<Text>During the Medieval period, the art of diplomacy finally came of age. New theories on foreign affairs emerged during this time that were no longer based on 'might is right,' but rather the arts of flattery, sophistication and, if necessary, intimidation. The Envoy represents this leap in diplomatic power and, as such, is both more effective than Emissaries and also more expensive. Production cost scales with Era.</Text>
+			<Text>중세시대에 외교술은 마침내 충분히 성숙했습니다. 이 시기에 외교 문제에 대한 새로운 이론들이 등장했는데, 그것은 더 이상 '아마도 옳을지도 모른다'가 아니라 아첨, 교양, 그리고 필요하다면 협박의 예술에 바탕을 두고 있습니다. 사절은 이러한 외교력의 비약을 상징하며, 따라서 특사보다 효과적이면서도 비용이 많이 듭니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ENVOY_STRATEGY">
-			<Text>Envoys are much more useful as sources of diplomatic influence with city-states. This utility, however, comes with increased cost. Players will need ample Paper to supply the demand of their burgeoning diplomatic service. City-state quests are still very important for maintaining friendly or allied relations, however their importance is waning.</Text>
+			<Text>사절은 도시 국가들과의 외교적인 영향력의 원천으로서 훨씬 더 유용합니다. 그러나 이 능력은 비용이 큽니다. 플레이어들은 급성장하는 외교 서비스에 대한 수요를 충족시키기 위해 충분한 종이가 필요합니다. 도시 국가 퀘스트는 우호적이거나 동맹적인 관계를 유지하는 데 여전히 매우 중요하지만, 그 중요성은 점점 떨어지고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_ENVOY">
 			<Text>[COLOR_PLAYER_PURPLE]능숙[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
@@ -36,10 +36,10 @@
 			<Text>외교관</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_DIPLOMAT_TEXT">
-			<Text>With the philosophies of the Enlightenment and the might of modern industry in tow, diplomats during the Industrial Age are powerhouses of diplomacy and influence. Though increasingly expensive, Diplomats enable a player to greatly expand the scope of their influence on city-states around the world. Production cost scales with Era.</Text>
+			<Text>계몽주의의 철학과 현대 산업의 힘을 인정받으면서 외교관들은 산업화 시대 외교의 동력입니다. 외교관은 비용이 점점 더 많이 들지만, 플레이어가 전 세계 도시 국가에 미치는 영향력의 범위를 크게 확장할 수 있도록 합니다. 생산 비용은 시대에 따라 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_STRATEGY">
-			<Text>Diplomats are very expensive relative to Emissaries and Envoys. Players that have not continually increased their supply of Paper will have a difficult time continuing to have influence on city-states around the world. If, however, you have the resources, and the production, to build diplomats in great numbers, the world will bow before your empire of soft power and persuasive influence.</Text>
+			<Text>외교관은 대사나 특사에 비해 매우 비쌉니다. Paper의 공급을 지속적으로 늘리지 않은 플레이어는 전 세계 도시 국가에 계속 영향력을 행사하는 데 어려움을 겪을 것입니다. 하지만, 만약 여러분이 많은 수의 외교관을 만들 수 있는 자원과 생산량을 가지고 있다면, 세계는 소프트 파워와 설득력 있는 영향력을 가진 여러분의 제국 앞에 굴복할 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_DIPLOMAT">
 			<Text>[COLOR_PLAYER_PURPLE]프로페셔널[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
@@ -51,10 +51,10 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_MODERN_AMBASSADOR_TEXT">
-			<Text>The modern Ambassador, born out of the tensions created by the rise of atomic warfare, represents the pinnacle of diplomatic power. Years of formal training in linguistics, politics, culture and economics enable Ambassadors to control whatever city-state they choose. These talents, however, make Ambassadors the most costly diplomatic unit in the game - each Ambassador costs almost as much as a Tank! This investment may seem high, however, if a player chooses to abstain from city-state diplomacy, they will quickly see their influence on the global stage decline, as other players will undoubtedly come to dominate the World Congress. Production cost scales with Era.</Text>
+			<Text>핵전쟁의 등장으로 인한 긴장감 속에서 탄생한 현대 대사는 외교력의 정점을 상징합니다. 언어학, 정치, 문화 및 경제 분야에서 수년간 정규 교육을 받은 대사는 자신이 선택한 도시 국가를 통제할 수 있습니다. 그러나 이러한 재능으로 인해 앰배서더들은 이 게임에서 가장 비싼 외교 단위가 됩니다. 앰배서더 한 대당 비용은 거의 탱크 한 대와 같습니다! 그러나 이러한 투자는 높아 보일 수 있지만, 만약 한 플레이어가 도시 국가 외교에서 기권하기로 선택한다면, 다른 플레이어들이 의심할 여지 없이 세계 회의를 지배하게 될 것이기 때문에, 그들은 세계 무대에서 그들의 영향력이 빠르게 감소하는 것을 보게 될 것입니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_STRATEGY">
-			<Text>Ambassadors, though expensive, are essential to winning a Diplomatic Victory. Use them to wrest control of city-states from other players, maintain your own alliances, and, generally, keep the power of the World Congress in your hands. This power will enable you to enact any resolutions you choose, thus placing global supremacy within your grasp.</Text>
+			<Text>대사들은 비용이 많이 들지만, 외교적인 승리를 거두기 위해서는 필수적입니다. 도시 국가들에 대한 통제권을 다른 참가자들로부터 빼앗고, 당신 자신의 동맹을 유지하며, 일반적으로 세계 의회의 권력을 당신 손에 쥐게 하는 데 그것들을 사용하십시오. 이 힘은 여러분이 선택한 모든 결심을 실행할 수 있게 해 줄 것이고, 따라서 세계 패권을 여러분의 손아귀에 넣을 것입니다. 세계 의회입니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_AMBASSADOR">
 			<Text>[COLOR_PLAYER_PURPLE]전권 대사[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
@@ -64,7 +64,7 @@
 			<Text>위대한 외교관</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_GREAT_DIPLOMAT_TEXT">
-			<Text>Throughout every civilization's history, great mediators, counsellors, and dignitaries have emerged during times of strife or times of great power. Great Diplomats represent these important historical figures and, as such, have the ability to greatly increase a player's diplomatic power. Players may use them to immediately gain a large amount of influence with a city-state, or, if they are looking towards the future, they may be used to build an Embassy in a city-state's land, thus granting the player an additional vote in the World Congress when it is founded.</Text>
+			<Text>모든 문명의 역사를 통해, 위대한 중재자, 상담자, 그리고 관료들은 분쟁의 시기나 위대한 힘의 시기에 등장했습니다. 위대한 외교관은 이러한 중요한 역사적 인물들을 대표하며, 따라서 선수의 외교력을 크게 높일 수 있는 능력을 가지고 있습니다. 플레이어는 도시국가와 함께 즉시 큰 영향력을 얻기 위해 사용할 수 있으며, 미래를 내다보고 있는 경우 도시국가 땅에 대사관을 건설하는 데 사용할 수 있으며, 따라서 설립 시 세계 의회에서 플레이어에게 추가 투표권을 부여할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT_STRATEGY">
 			<Text>[ICON_DIPLOMAT]위대한 외교관은 외교력을 크게 증가시킬 수 있는 능력을 가지고 있습니다. [COLOR_PLAYER_PURPLE]마스터 외교[ENDCOLOR] 승급이 부여된 채 시작하며 위대한 외교관을 전쟁 중이 아닌 도시 국가로 이동시켜 다음의 임무를 수행할 수 있습니다. 우선 [COLOR_POSITIVE_TEXT]외교 임무[ENDCOLOR]를 통해 [ICON_INFLUENCE]영향력을 증가시키고 다른 문명의 [ICON_INFLUENCE]영향력을 감소시킬 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]대사관[ENDCOLOR]을 건설해 세계 대회 추가 대표단을 확보할 수 있습니다. [NEWLINE][NEWLINE]위 능력중 하나를 사용하면 위대한 외교관이 사라지고 [ICON_RES_PAPER][COLOR_POSITIVE_TEXT]종이[ENDCOLOR] 자원 1개를 획득합니다.</Text>
