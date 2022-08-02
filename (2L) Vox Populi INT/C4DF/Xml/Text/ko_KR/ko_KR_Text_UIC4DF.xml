@@ -328,7 +328,7 @@
 			<Text>[TAB][ICON_BULLET]종속국 협정을 체결 당시 종속국 팀이 보유한 도시가 {1_CityPercent}% 이상이어야 합니다. (현재 {2_Percent})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_POP_PERCENT_TT">
-			<Text>[TAB][ICON_BULLET]종속국 협정을 체결 당시 종속국 팀이 보유한 시민가 {1_PopPercent}% 이상이어야 합니다. (현재 {2_Percent})</Text>
+			<Text>[TAB][ICON_BULLET]종속국 협정을 체결 당시 종속국 팀이 보유한 시민이 {1_PopPercent}% 이상이어야 합니다. (현재 {2_Percent})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_INDEPENDENCE_POSSIBLE_MASTER_PERCENT_TT">
 			<Text>[TAB][ICON_BULLET]종속국 팀의 도시 수가 종주국 팀의 {1_CityPercent}% 이상이어야 하고 [ICON_CITIZEN] 시민 수가 종주국 팀의 {2_PopPercent}% 이상이어야 합니다. (현재 각각 {3_Percent}, {4_Percent})</Text>
