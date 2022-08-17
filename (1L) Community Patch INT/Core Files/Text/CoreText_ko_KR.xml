@@ -6034,6 +6034,18 @@
 		<Row Tag="TXT_KEY_SPY_STATE_BUILDING_NETWORK">
 			<Text>네트워크 구축</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED_TT">
+			<Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 지정되지 않았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_BUILDING_NETWORK_TT">
+			<Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 스파이 네트워크를 구축 중입니다. 곧 이 스파이를 임무에 투입할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_TERMINATED_TT">
+			<Text>{1_RankName} {2_SpyName}의 작전이 끝났습니다.</Text>
+		</Row>
+
+
 		<!-- Trade Route for Land Modifiers -->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_LAND_MODIFIER">
 			<Text>육상 교역로: {1_Num}x</Text>
@@ -7716,14 +7728,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_CALCULATION">
-			<Text>[ICON_SPY] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 1까지 [COLOR_NEGATIVE_TEXT]줄어듭니다[ENDCOLOR]. 양수라면, 천천히 10까지 [COLOR_POSITIVE_TEXT]늘어납니다[ENDCOLOR].</Text>
+			<Text>[ICON_SPY] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][ICON_CAPITAL] 보안 등급: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 0 (0 [ICON_CAPITAL])까지 [COLOR_NEGATIVE_TEXT]줄어들어[ENDCOLOR] 적 스파이가 더욱 빠르게 활동합니다. 양수라면, 천천히 1000 (5 [ICON_CAPITAL])까지 [COLOR_POSITIVE_TEXT]늘어나[ENDCOLOR] 적 스파이가 작전을 느리게 수행합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_NEGATIVE">
-			<Text>[COLOR_NEGATIVE_TEXT]부정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_GOLD] 경제적 가치 (-{1_Num})[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 인구 (-{2_Num})[NEWLINE]  [ICON_BULLET] [ICON_HAPPINESS_3] 불행 (-{3_Num})</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]부정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_GOLD] 경제적 가치 (-{1_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 인구 (-{2_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_HAPPINESS_3] 불행 (-{3_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_POSITIVE">
-			<Text>[COLOR_POSITIVE_TEXT]긍정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_CULTURE] 정책과 불가사의 (+{1_Num})[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 지역 효과 (+{2_Num})[NEWLINE]  [ICON_BULLET] [ICON_SPY] 역스파이 (+{3_Num})[NEWLINE]  [ICON_BULLET] [ICON_STRENGTH] 도시 방어 (+{4_Num})</Text>
+			<Text>[COLOR_POSITIVE_TEXT]긍정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_CULTURE] 정책과 불가사의 (+{1_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 지역 효과 (+{2_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_SPY] 역스파이 (+{3_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_STRENGTH] 도시 방어 (+{4_Num}%)</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES_AGAINST">
