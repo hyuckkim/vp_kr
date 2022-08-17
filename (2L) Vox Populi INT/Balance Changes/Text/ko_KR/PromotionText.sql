@@ -56,11 +56,14 @@ SET Text = '측면 공격 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_HELP';
 	
 -- added Enhanced Flank Attack
-INSERT INTO Language_ko_KR (Tag, Text)
-VALUES ('TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG', '우수한 측면 공격');
-INSERT INTO Language_ko_KR (Tag, Text)
+INSERT INTO Language_ko_KR (Tag, Text) VALUES 
+('TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG', '우수한 측면 공격'),
 VALUES ('TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG_HELP', '측면 공격 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]');
 
+-- added Professional Soldier
+	INSERT INTO Language_en_US (Tag, Text) VALUES
+	('TXT_KEY_PROMOTION_PROFESSIONAL_SOLDIER', '전문 군인'),
+	('TXT_KEY_PROMOTION_PROFESSIONAL_SOLDIER_HELP',	' [COLOR_POSITIVE_TEXT]원거리 공격[ENDCOLOR] 방어시 [ICON_STRENGTH] 전투력 +10%[NEWLINE]체력 +10');
 -- added Combat Bonus in forest/jungle (33) Mohawk Warrior
 UPDATE Language_ko_KR
 SET Text = '숲 및 정글에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR]'
