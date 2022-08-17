@@ -7728,7 +7728,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_CALCULATION">
-			<Text>[ICON_SPY] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][ICON_CAPITAL] 보안 등급: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 0 (0 [ICON_CAPITAL])까지 [COLOR_NEGATIVE_TEXT]줄어들어[ENDCOLOR] 적 스파이가 더욱 빠르게 활동합니다. 양수라면, 천천히 1000 (5 [ICON_CAPITAL])까지 [COLOR_POSITIVE_TEXT]늘어나[ENDCOLOR] 적 스파이가 작전을 느리게 수행합니다.</Text>
+			<Text>[ICON_SPY] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][ICON_CAPITAL] 보안 등급: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 100 (1/2 [ICON_CAPITAL])까지 [COLOR_NEGATIVE_TEXT]줄어들어[ENDCOLOR] 적 스파이가 더욱 빠르게 활동합니다. 양수라면, 천천히 1000 (5 [ICON_CAPITAL])까지 [COLOR_POSITIVE_TEXT]늘어나[ENDCOLOR] 적 스파이가 작전을 느리게 수행합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_NEGATIVE">
