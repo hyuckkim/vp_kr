@@ -676,17 +676,17 @@ UPDATE Language_ko_KR
 SET Text = 'Power - or dominance - is the ability to influence behavior, and may not be fully assessable until it is challenged with equal force. Unlike power, which can be latent, dominance is a manifest condition characterized by individual, situational and relationship patterns in which attempts to control another party or parties may or may not be accepted.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARYTRADITION_TEXT';
 
--- Military Caste (Now Conscription)
+-- Military Caste (Now Militterism)
 UPDATE Language_ko_KR
-SET Text = '규율'
+SET Text = '군국주의'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]규율[ENDCOLOR][NEWLINE]유닛이 주군한 도시에서 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 유닛 유지비가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소하고 도로 유지비가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]군국주의[ENDCOLOR][NEWLINE]유닛이 주군한 도시에서 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 유닛 유지비가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소하고 도로 유지비가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'In a military structure, discipline refers to a soldier''s willingness to follow legitimate orders, to respect superior officers, and to put their life in jeopardy or even die when required. Disciplined soldiers are expected to uphold the dignity of their uniform when off-duty and to protect the weak and helpless. Lapses in discipline may lead to military punishment or even courts-martial and discharge.'
+SET Text = 'Militarism is defined as "the belief or desire of a government or people that the nation maintain a strong military capability and be prepared to use it aggressively." Militarism has been a significant element of policy in most imperialistic or expansionist nations throughout history, from Ancient Assyria and Sparta to Nazi Germany. This philosophy has many components that include: glorification of the military and of the ideals of a professional military class, idealizing personal military accomplishments, and government policies that devote a significant portion of the nation''s resources to supporting and expanding its military forces.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARYCASTE_TEXT';
 
 -- Professional Army (Now Martial Law)

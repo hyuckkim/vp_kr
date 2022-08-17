@@ -60,10 +60,6 @@ INSERT INTO Language_ko_KR (Tag, Text) VALUES
 ('TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG', '우수한 측면 공격'),
 VALUES ('TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG_HELP', '측면 공격 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]');
 
--- added Professional Soldier
-	INSERT INTO Language_en_US (Tag, Text) VALUES
-	('TXT_KEY_PROMOTION_PROFESSIONAL_SOLDIER', '전문 군인'),
-	('TXT_KEY_PROMOTION_PROFESSIONAL_SOLDIER_HELP',	' [COLOR_POSITIVE_TEXT]원거리 공격[ENDCOLOR] 방어시 [ICON_STRENGTH] 전투력 +10%[NEWLINE]체력 +10');
 -- added Combat Bonus in forest/jungle (33) Mohawk Warrior
 UPDATE Language_ko_KR
 SET Text = '숲 및 정글에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR]'
@@ -81,7 +77,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_SKI_INFANTRY';
 
 -- added Bonuses in Snow, Tundra, and Hills
 UPDATE Language_ko_KR
-SET Text = '설원, 툰드라, 언덕에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE][COLOR:110:110:110:255](숲 또는 정글 존재 시 보너스 없음)[ENDCOLOR][NEWLINE]설원, 툰드라, 언덕에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]'
+SET Text = '설원, 툰드라, 언덕 타일에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE][COLOR:110:110:110:255](숲 또는 정글 존재 시 보너스 없음)[ENDCOLOR][NEWLINE]설원, 툰드라, 언덕 타일에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_SKI_INFANTRY_HELP';
 
 -- added Expeditionary Warfare (Foreign Lands Bonus)
@@ -138,6 +134,11 @@ UPDATE Language_ko_KR
 SET Text = '기마 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_ANTI_MOUNTED_I_HELP';
 
+-- added Text change for Khan ability
+UPDATE Language_ko_KR
+SET Text = '이 타일과 인접 타일에 있는 아군 유닛은 매 턴 [COLOR_POSITIVE_TEXT]HP를 +10 회복[ENDCOLOR]합니다.[NEWLINE]인접한 적 유닛은 매 턴마다 10의 피해를 입습니다.'
+WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_GENERAL_HELP';
+
 -- Adjust Sortie
 
 UPDATE Language_ko_KR
@@ -180,12 +181,6 @@ UPDATE Language_ko_KR
 SET Text = '[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]측면 공격 보너스 [COLOR_POSITIVE_TEXT]+5%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_SHOCK_3_HELP';
 
--- Survivalism
-UPDATE Language_ko_KR
-SET Text = '행동 여부에 상관없이 매 턴 체력 회복[NEWLINE]약탈에 이동력 소모 없음'
-WHERE Tag = 'TXT_KEY_PROMOTION_SURVIVALISM_3_HELP';
-
-
 -- Replace Accuracy
 UPDATE Language_ko_KR
 SET Text = '[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]50% 초과[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]'
@@ -219,7 +214,7 @@ SET Text = '평지에서 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_PO
 WHERE Tag = 'TXT_KEY_PROMOTION_CHARGE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '험지에서 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]숲 및 정글에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]'
+SET Text = '험지에서 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]숲 및 정글 타일에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_WOODSMAN_HELP';
 
 UPDATE Language_ko_KR
@@ -276,6 +271,10 @@ WHERE Tag = 'TXT_KEY_PROMOTION_COVER_1_HELP';
 UPDATE Language_ko_KR
 SET Text = '원거리 공격 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_COVER_2_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '통일'
+WHERE Tag = 'TXT_KEY_PROMOTION_DISCIPLINE';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]인접한 아군 유닛마다 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]'
@@ -392,9 +391,6 @@ WHERE Tag = 'TXT_KEY_PROMOTION_ANTI_SUBMARINE_I';
 UPDATE Language_ko_KR
 SET Text = '잠수함 대항 보너스 (33)'
 WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_ANTI_SUBMARINE_I';
-	
-INSERT INTO Language_ko_KR (Tag, Text)
-VALUES ('TXT_KEY_PROMOTION_ANTI_SUBMARINE_I_HELP', '잠수함 대항 시 전투력 보너스 [ICON_STRENGTH]+33%[COLOR_POSITIVE_TEXT][ENDCOLOR]잠수함 공격 시 [ICON_STRENGTH] 전투력 보너스 +33%');
 
 UPDATE Language_ko_KR
 SET Text = '잠수함 대항 보너스 (75)'
@@ -405,7 +401,8 @@ SET Text = '잠수함 대항 보너스 (75)'
 WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_ANTI_SUBMARINE_II';
 
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES ('TXT_KEY_PROMOTION_ANTI_SUBMARINE_II_HELP', '잠수함 대항 시 전투력 보너스 [ICON_STRENGTH]+75%[COLOR_POSITIVE_TEXT][ENDCOLOR]잠수함 공격 시 [ICON_STRENGTH] 전투력 보너스 +75%');
+VALUES ('TXT_KEY_PROMOTION_ANTI_SUBMARINE_I_HELP', '잠수함 대항 시 전투력 보너스 [ICON_STRENGTH]+33%[COLOR_POSITIVE_TEXT][ENDCOLOR]잠수함 공격 시 [ICON_STRENGTH] 전투력 보너스 +33%'),
+('TXT_KEY_PROMOTION_ANTI_SUBMARINE_II_HELP', '잠수함 대항 시 전투력 보너스 [ICON_STRENGTH]+75%[COLOR_POSITIVE_TEXT][ENDCOLOR]잠수함 공격 시 [ICON_STRENGTH] 전투력 보너스 +75%');
 
 -- Air Ambush - Bomber vs Armor
 UPDATE Language_ko_KR
@@ -497,6 +494,11 @@ UPDATE Language_ko_KR
 SET Text = '방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_SURVIVALISM_2_HELP';
 
+UPDATE Language_ko_KR
+SET Text = '행동 여부에 상관없이 [COLOR_POSITIVE_TEXT]매 턴 체력 회복[ENDCOLOR][NEWLINE]약탈 시 [ICON_MOVES] 이동력 소모 없음.'
+WHERE Tag = 'TXT_KEY_PROMOTION_SURVIVALISM_3_HELP';
+
+
 -- Amphibious Change
 
 UPDATE Language_ko_KR
@@ -532,13 +534,13 @@ SET Text = '[COLOR_RESEARCH_STORED]나침반[ENDCOLOR] 연구 전까지 대양�
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_RESEARCH_STORED]나침반[ENDCOLOR] 필요'
+SET Text = '국내 집중'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO';
 
 -- Text change for Khan ability
 UPDATE Language_ko_KR
-SET Text = '같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_GENERAL_HELP';
+	SET Text = '해양 위험'
+	WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE';
 
 -- Fix Anti-Air Promotion Info
 UPDATE Language_ko_KR
