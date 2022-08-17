@@ -137,7 +137,7 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT';
 
 -- Text Changes for Spies in Cities
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 훔칠 기술 및 걸작이 없습니다. 그러나 그들은 방해 공작과 같은 추가 행동을 통해 계속해서 방해할 수 있습니다. [NEWLINE][NEWLINE]{4_CityName}의 보안 등급은 {5_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 안전합니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] [COLOR:105:105:105:255](보정됨)[ENDCOLOR] 도시의 전반적인 번영에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 보안 등급이 증가합니다.'
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 훔칠 기술 및 걸작이 없습니다. 그러나 그들은 방해 공작과 같은 추가 행동을 통해 계속해서 방해할 수 있습니다. [NEWLINE][NEWLINE]{4_CityName}의 스파이 저항은 {5_Num}입니다.[NEWLINE][NEWLINE]스파이 저항은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 안전합니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] [COLOR:105:105:105:255](보정됨)[ENDCOLOR] 도시의 전반적인 번영에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 보안 등급이 증가합니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
 
 UPDATE Language_ko_KR
