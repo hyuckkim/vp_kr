@@ -73,6 +73,7 @@
     <File md5="1741ECD4233205CE49298DE4428E09F7" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.sql</File>
     <File md5="F1AE2C8315FDC9A15F3637BDC641AAFB" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
     <File md5="94395F2F4CFA1D56E4D77FC9D33EBE41" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</File>
+    <File md5="94395F2F4CFA1D56E4D77FC9D33EBE41" import="0">Core Files/Core Changes/LinkUnits.sql</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -124,6 +125,7 @@
       <UpdateDatabase>Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</UpdateDatabase>
       <UpdateDatabase>Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</UpdateDatabase>
       <UpdateDatabase>Compatibility/MoreLuxuries/Text/Text_ko_KR.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Core Changes/LinkUnits.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

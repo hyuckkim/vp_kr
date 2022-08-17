@@ -1,0 +1,2 @@
+UPDATE Language_en_US SET Text = "그룹 이동" WHERE Tag = "TXT_KEY_INTERFACEMODE_MOVE_TO_ALL";
+UPDATE Language_en_US SET Text = "선택된 유닛과 근처 전투 유닛을 모두 같은 범위로 이동시킵니다." WHERE Tag = "TXT_KEY_INTERFACEMODE_MOVE_TO_ALL_HELP";
