@@ -122,20 +122,20 @@ WHERE Tag = 'TXT_KEY_UNIT_GALLEASS_STRATEGY';
 
 -- Ocean travel change
 UPDATE Language_ko_KR
-SET Text = '대양 타일에서 턴을 끝낼 수 없습니다. 연안 타일에서 끝나는 경우 대양 타일을 통과해 이동할 수 있습니다.'
-WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_OCEAN_IMPASSABLE_HELP';
+SET Text = '대양 지형 턴 종료 불가'
+WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE';
+
+INSERT INTO Language_ko_KR
+		(Tag,										Text)
+VALUES	('TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_HELP', '대양 타일에서 턴을 끝낼 수 없습니다. 연안 타일에서 끝나는 경우 대양 타일을 통과해 이동할 수 있습니다.');
+
+UPDATE Language_ko_KR
+SET Text = '천문학 연구시까지 대양 지형 턴 종료 불가'
+WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_RESEARCH_STORED]천문학[ENDCOLOR]의 연구를 마칠 때까지 대양 타일에서 턴을 끝낼 수 없습니다. 연안 타일에서 끝나는 경우 대양 타일을 통과해 이동할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
-
-UPDATE Language_ko_KR
-SET Text = '천문학 연구시까지 대양 지형 턴 종료 불가'
-WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
-
-UPDATE Language_ko_KR
-SET Text = '대양 지형 턴 종료 불가'
-WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE';
 
 -- Siege Units
 UPDATE Language_ko_KR
