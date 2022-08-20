@@ -1430,6 +1430,12 @@
 		<Row Tag="TXT_KEY_CITY_PRODUCTION_AUTOMATED">
 			<Text>[ICON_AUTOMATED] 생산 자동화됨</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESET_SPEC">
+			<Text>전문가 초기화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESET_SPEC_TT">
+			<Text>클릭하면 전문가를 모두 초기화하고 기본값으로 설정합니다.</Text>
+		</Row>
 	</Language_ko_KR>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_CITY_NAME_CATTARO">
