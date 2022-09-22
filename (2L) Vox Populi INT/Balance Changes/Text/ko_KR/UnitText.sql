@@ -204,7 +204,7 @@
 		('TXT_KEY_UNIT_VP_SLINGER_STRATEGY',	'Slingers are the first ranged unit available in the game. Although they lack damage and range, a Slinger can still prevent a barbarian encampment from healing, and gives you a cheap, early option for fighting off small waves of invading barbarians.'),
 		('TXT_KEY_UNIT_VP_SLINGER_HELP',		'게임 시작부터 사용할 수 있는 첫 원거리 유닛입니다.');
 
-	UPDATE Language_en_US
+	UPDATE Language_ko_KR
 	SET Text = '고전 시대의 원거리 유닛입니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHER';
 
