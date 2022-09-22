@@ -12,7 +12,7 @@
 			<Text>기업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_BLURB">
-			<Text>[NEWLINE]"If you don't drive your business, you will be driven out of business."[NEWLINE]  - B.C. Forbes[NEWLINE]</Text>
+			<Text>[NEWLINE]"당신이 사업을 추진하지 않으면, 당신은 사업에서 쫓겨날 것이다."[NEWLINE]  - B. C. 포브스[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_TEXT1">
 			<Text>무역과 상업은 고대부터 문명의 중심지 역할을 해왔습니다. 기업은 단체 또는 단일 그룹이 단일 독립체로 활동할 수 있도록 권한을 부여하는 현대적 조합입니다. 기업은 오늘날 사회에서 무역과 영향력을 촉진하는 가장 큰 조력자가 되었습니다. 문명 V에서 기업은 문명의 부를 강화하고 문명에 강력한 무역 혜택을 제공합니다.[NEWLINE][NEWLINE]기업을 설립하려면 특정 자원에 대한 글로벌 독점을 확보해야 하며, 기업 본부를 설립해야 합니다. 기업이 설립된 후 당신 문명의 도시에 오피스를 건설하고 [ICON_INTERNATIONAL_TRADE]교역로를 통해 다른 문명의 도시에 프랜차이즈를 건설할 수 있습니다.</Text>
@@ -24,7 +24,7 @@
 			<Text>{TXT_KEY_TOPIC_MONOPOLY}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MONOPOLY_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]독점[ENDCOLOR]은 Community Balance Overhaul에서 추가된 새로운 게임 플레이 요소 중 하나입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 사치 자원 독점[ENDCOLOR]: the essence of the Monopoly system is expansion: as your empire expands throughout the game (either through combat or settlement), be on the lookout for Luxury resources that you already have copies of. AS you collect more and more copies of the same Luxury Resources, the percentage of global resources you control goes up. If this value goes over 50% (i.e. you control more than 50% of the world's supply of any resource), you gain a Global Monopoly over that Resource. Each Global Monopoly has a unique bonus - some grant additional yields to your tiles, whereas others boost City yields by a set percentage (see the Resource section of the Civilopedia for details).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 전략 자원 독점[ENDCOLOR]: Strategic Resources operate the same way as Luxury Resources with regards to Monopolies, with one major exception. Due to the vast abundance of these resources, a true 50% Monopoly can be quite difficult. As a result, Strategic Resources have two tiers: 'Strategic' Monopolies and 'True' Monopolies. Strategic Monopolies occur at 25%, and generate special combat bonuses (such as increased health regeneration or increase defense). True Monopolies occur at 50% and, like Luxury Monopolies, they generate bonuses to City and/or tile yields.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]독점[ENDCOLOR]은 Community Balance Overhaul에서 추가된 새로운 게임 플레이 요소 중 하나입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 사치 자원 독점[ENDCOLOR]: 독점 시스템의 핵심은 확장입니다: 게임 전반에 걸쳐(전투나 정착을 통해) 제국이 확장됨에 따라 이미 가지고 있는 사치 자원을 살펴보십시오. 같은 사치 자원을 더 많이 얻을수록 제어하는 글로벌 자원이 늘어날 것입니다. 이 값이 50%를 초과하는 경우(즉, 모든 자원에 대한 세계 공급량의 50% 이상을 제어하는 경우), 당신은 그 자원에 대한 글로벌 독점을 얻습니다. 각 글로벌 모노폴리에는 고유한 보너스가 있습니다. 일부는 타일에 추가 수확량을 제공하는 반면 다른 일부는 도시 생산량을 일정 비율만큼 증가시킵니다(자세한 내용은 자원 섹션을 참조하십시오).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 전략 자원 독점[ENDCOLOR]: 전략 자원은 한 가지 주요 예외를 제외하고 독점과 관련하여 사치 자원 동일한 방식으로 운영됩니다. 이러한 자원이 엄청나게 풍부하기 때문에 진정한 50% 독점은 상당히 어려울 수 있습니다. 결과적으로 전략 자원에는 '전략적' 독점과 '진정한' 독점이라는 두 가지 계층이 있습니다. 전략적 독점은 25%에서 발생하며 특별한 전투 보너스(예: 체력 재생 증가 또는 방어 증가)를 생성합니다. 진정한 독점은 50%에서 발생하며 사치 자원 독점과 마찬가지로 도시 및/또는 타일 수확량에 보너스를 생성합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MONOPOLY_QUESTION">
 			<Text>자원 독점이란 무엇입니까?</Text>
@@ -39,7 +39,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]기업[ENDCOLOR]은 Community Balance Overhaul에서 추가된 새로운 게임 플레이 요소 중 하나입니다. They can have a great impact on your empire's economic development, especially in the later part of a game.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 설립[ENDCOLOR]: There are seven distinct Corporations in the game, each of which becomes available once you have researched the Corporations Technology during the Modern Age. Each Corporation has a specific set of Resource Monopolies that it relies upon - if you do not have at least one of these Resource Monopolies, you will not be able to found the Corporation. Once these two requirements are met, you need to construct the 'Headquarters' of the Corporation in one of your Cities. These buildings are World Wonders, so only one player in the world may found each Corporation! Furthermore, once you have founded a Corporation, you cannot found another one, so make sure you like the one you pick![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 오피스 설립[ENDCOLOR]: Once you have founded your Corporation, you can begin establishing Corporate Offices in each of your Cities. These buildings come with special bonuses similar to your Corporation's Headquarters, and are thus worthwhile to construct on their own. Most bonuses from Corporations scale with the number of Cities you own, so larger empires benefit greatly from founding a Corporation and building as many Offices as possible!</Text>
+			<Text>[COLOR_POSITIVE_TEXT]기업[ENDCOLOR]은 Community Balance Overhaul에서 추가된 새로운 게임 플레이 요소 중 하나입니다. 그들은 특히 게임 후반부에 제국의 경제 발전에 큰 영향을 미칠 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 설립[ENDCOLOR]: 게임에는 7개의 별개의 기업이 있으며, 각각은 현대 시대에 기업 기술을 연구하면 사용할 수 있게 됩니다. 각 회사에는 의존하는 특정 자원 독점 세트가 있습니다. 이러한 자원 독점 중 하나 이상이 없으면 회사를 찾을 수 없습니다. 이 두 가지 요구 사항이 충족되면 도시 중 하나에 회사의 '본부'를 건설해야 합니다. 이 건물은 세계 불가사의이므로 세계에서 단 한 명의 플레이어만 각 얻을 수 있습니다! 또한, 한 번 회사를 설립하면 다른 회사를 얻을 수 없으므로 선택한 회사가 마음에 드는지 확인하십시오![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 오피스 설립[ENDCOLOR]: 기업을 설립한 후에는 각 도시에 오피스를 설립할 수 있습니다. 이 건물에는 회사의 본부와 유사한 특별 보너스가 제공되므로 자체적으로 건설할 가치가 있습니다. 기업의 대부분의 보너스는 소유한 도시의 수에 따라 확장되므로 더 큰 제국은 기업을 설립하고 가능한 한 많은 오피스를 건설함으로써 큰 이점을 얻습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_QUESTION">
 			<Text>기업이란 무엇입니까?</Text>
@@ -51,7 +51,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_SPREADING}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_SPREADING_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]기업 확장[ENDCOLOR]: to foreign cities is an essential element of reaping the most benefit from your Corporation.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]능동적인 확산[ENDCOLOR]: Corporations actively spread their influence via owned Trade Routes, but only if the origin City (your City) has a Corporate Office in it. If your City has a Corporate Office, and you send a Trade Route from that City to a foreign City, a Corporate 'Franchise' will be built in that foreign City when the Trade Route completes. There is also a random chance (~5%) that a Franchise will be created in a nearby Foreign city each turn, if you are currently trading with that Civilization. You can only spread your Corporation to each foreign City once, and you cannot have more Franchises than the maximum number of Trade Routes you can support.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]수동적인 확산[ENDCOLOR]: Corporations passively spread their influence via foreign Trade Routes, but only if the destination City (your City) has a Corporate Office in it. If your City has a Corporate Office, and another player sends a Trade Route to that City from one of their Cities, a Corporate 'Franchise' will be built in the foreign City when their Trade Route completes. Your Corporation can only spread to each foreign City once.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 확장 혜택[ENDCOLOR]: As listed in the details of each Corporation, the spread of your Corporation to foreign cities has a direct impact on the productivity of your Corporate Offices. For every 'Franchise' of your Corporation in a foreign City, your Corporate Offices gain unique bonuses, be it additional City yields, free resources, or improved Trade Route yields. Furthermore, many Corporations gain additional bonuses if you send Trade Routes to foreign Cities that already have your Corporation in them. Make sure to study the details of your Corporation once you have founded it so that you can maximize your benefit![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 관리[ENDCOLOR]: As your Corporation grows, it can be hard to keep up with where you have Franchises, and where you have Offices. Never fear! In the Economic Overview panel, you can find detailed information on your Corporation in the bottom-left corner. There, you can see the total number of Offices and Corporations you currently control, as well as drop-down lists of the locations of all Corporate Offices and Franchises, as well as the size of foreign Corporations. In addition to these elements, you can also find information about your Corporation while choosing a destination for your Trade Routes. Each City with a Franchise in it is clearly indicated.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]기업 확장[ENDCOLOR]:해외 도시로의 진출은 기업이 최대의 혜택을 누리기 위한 필수 요소입니다.[NEWLINE][NEWLINE]능동적인 확산: 기업은 소유 무역로를 통해 적극적으로 영향력을 퍼뜨리지만, 출발 도시(귀하의 도시)에 기업 오피스가 있는 경우에만 가능합니다. 당신의 도시에 기업 오피스가 있고 그 도시에서 외국 도시로 무역로를 보낸다면 무역 루트가 완성될 때 그 외국 도시에 기업 '프랜차이즈'가 건설될 것입니다. 현재 해당 문명과 거래하고 있는 경우 매 턴 가까운 외국 도시에서 프랜차이즈가 생성될 임의의 기회(~5%)가 있습니다. 각 외국 도시에 회사를 한 번만 퍼뜨릴 수 있으며, 지원할 수 있는 최대 무역로 수보다 더 많은 프랜차이즈를 가질 수 없습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]수동적인 확산[ENDCOLOR]: 기업은 해외 무역로를 통해 수동적으로 영향력을 퍼뜨리지만 목적지 도시(귀하의 도시)에 기업 오피스가 있는 경우에만 가능합니다. 당신의 도시에 기업 오피스가 있고 다른 플레이어가 그들의 도시 중 하나에서 그 도시로 무역로를 보낸다면 그들의 무역 루트가 완성될 때 외국 도시에 기업 '프랜차이즈'가 건설될 것입니다. 당신의 회사는 각 외국 도시에 한 번만 퍼질 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 확장 혜택[ENDCOLOR]: 각 기업의 세부 정보에 나열된 것처럼 외국 도시로의 기업 확산은 기업 오피스의 생산성에 직접적인 영향을 미칩니다. 외국 도시에 있는 회사의 모든 '프랜차이즈'에 대해 회사 사무실은 추가 도시 생산량, 무료 자원 또는 개선된 무역로 생산량과 같은 고유한 보너스를 얻습니다. 또한, 이미 기업이 있는 외국 도시에 무역로를 보내면 많은 기업이 추가 보너스를 얻습니다. 회사를 설립한 후에는 귀하의 이익을 극대화할 수 있도록 회사의 세부 사항을 반드시 연구하십시오![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 관리[ENDCOLOR]: 회사가 성장함에 따라 프랜차이즈가 있는 위치와 사무실이 있는 위치를 따라잡기가 어려울 수 있습니다. 절대 두려워하지 마십시오! 경제 개요 패널의 왼쪽 하단에서 회사에 대한 자세한 정보를 찾을 수 있습니다. 여기에서 현재 제어하는 총 사무소 및 기업 수, 모든 기업 사무소 및 프랜차이즈 위치의 드롭다운 목록, 외국 기업의 규모를 볼 수 있습니다. 이러한 요소 외에도 무역로의 목적지를 선택하는 동안 회사에 대한 정보를 찾을 수도 있습니다. 프랜차이즈가 있는 각 도시는 명확하게 표시됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_SPREADING_QUESTION">
 			<Text>내 기업을 어떻게 확장시키나요?</Text>
@@ -63,7 +63,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_TYPES}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_CORPORATION_TYPES_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]기업 종류[ENDCOLOR]: there are seven Corporations avaialable in the Community Balance Overhaul. Each of these can only be constructed once (and only one per player), so choose wisely! For more on this, see the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] Tab of the Civilopedia.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]기업 종류[ENDCOLOR]: Community Balance Overhaul에서 사용할 수 있는 7개의 기업이 있습니다. 이들 각각은 한 번만 건설할 수 있으므로(플레이어당 하나만) 현명하게 선택하십시오! 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 탭을 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TYPES_QUESTION">
 			<Text>내 기업을 어떻게 확장시키나요?</Text>
@@ -124,7 +124,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_FOUNDING}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDING_BODY">
-			<Text>In order to establish a Corporation, you need to construct its associated Headquarters in one of your cities, and the Corporation must not be actively founded by another civilization. Headquarters may only be established after you have a Global Monopoly on one of its required Monopoly Resources. Once you've constructed the Headquarters, you will automatically found the Corporation and immediately receive its Corporation benefits. You also receive a free Office in the city that constructed it. You can only establish one Corporation at a time, so choose carefully!</Text>
+			<Text>회사를 설립하기 위해서는 당신의 도시 중 한 곳에 그 회사의 본부를 건설해야 하며, 회사는 다른 문명에 의해 건설되지 않아야 합니다. 본사는 필요한 독점 자원 중 하나에 대한 글로벌 독점을 가진 후에만 설립될 수 있습니다. 본부를 구성하면 자동으로 회사를 얻고 즉시 회사의 혜택을 받게 됩니다. 당신은 또한 그것을 건설한 도시에서 무료 오피스를 얻을 수 있습니다. 한 번에 하나의 회사만 설립할 수 있으므로 신중하게 선택하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDING_QUESTION">
 			<Text>기업을 설립하려면 어떻게 해야하나요?</Text>
@@ -136,7 +136,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_DESTROYING}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_DESTROYING_BODY">
-			<Text>When a city that has constructed a Corporation Headquarters is acquired or destroyed through any means by another civilization, that Corporation is immediately destroyed. All Offices and Franchises around the world are immediately closed, and the founding Civilization immediately loses all benefits from that Corporation. It is extremely important to protect your Corporation, as you will lose all of your progress in spreading that Corporation![NEWLINE][NEWLINE]A destroyed Corporation immediately becomes available to be founded again by any civilization in the world. There is no restriction in the number of times a Corporation may be established in a game.</Text>
+			<Text>기업 본부를 건설한 도시가 다른 문명에 의해 어떤 방법으로든 획득되거나 파괴되면, 그 기업은 즉시 파괴됩니다. 전 세계의 모든 오피스와 프랜차이즈는 즉시 폐쇄되고, 창립 문명은 즉시 그 회사의 모든 혜택을 잃게 됩니다. 회사를 보호하는 것은 매우 중요한데, 본부를 잃는다면 회사의 전파 성과 또한 모두 잃게 됩니다![NEWLINE][NEWLINE]파괴된 회사는 즉시 세계 어느 문명에서도 다시 설립될 수 있게 됩니다. 게임에서 회사를 설립할 수 있는 횟수에는 제한이 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_DESTROYING_QUESTION">
 			<Text>기업을 파괴하려면 어떻게 해야하나요?</Text>
@@ -148,7 +148,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_OFFICES}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICES_BODY">
-			<Text>Offices can be established in any of your empire's cities after you've established a Corporation. Offices allow you to spread your Corporation through [ICON_INTERNATIONAL_TRADE] Trade Routes. Each [ICON_INTERNATIONAL_TRADE] Trade Route you establish from a city with an Office to a foreign city without your Corporation's Franchise will spread your Corporation's Franchise to that city at the completion of the [ICON_INTERNATIONAL_TRADE] Trade Route. In addition to a base effect, each Office has a benefit that stacks based on the number of Franchises you've established in foreign cities. The more Offices you own in the empire, the faster your Corporation can spread. Spread your Corporation to enhance its benefit to your Civilization!</Text>
+			<Text>회사를 설립한 후에는 제국의 모든 도시에 사무소를 설치할 수 있습니다. 사무실이[ICON_INTERNATIONAL_TRADE] 교역로를 통해 회사를 확장시킬 수 있게 합니다. 당신의 오피스가 설립된 도시의 [ICON_INTERNATIONAL_TRADE] 교역로는 당신 회사의 프랜차이즈가 없는 외국 도시에 [ICON_INTERNATIONAL_TRADE] 교역로를 통해 프랜차이즈를 퍼뜨립니다. 기본 효과 외에도 각 사무실에는 외국 도시에 설립한 프랜차이즈 수에 따라 쌓이는 능력이 있습니다. 제국 내에 많은 사무실을 소유할수록 기업은 더욱 빠르게 확산됩니다. 문명에 대한 혜택을 강화하기 위해 회사를 확산시키십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICES_QUESTION">
 			<Text>오피스란 무엇입니까?</Text>
@@ -160,7 +160,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_FRANCHISES}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FRANCHISES_BODY">
-			<Text>Franchises cannot be constructed in any city. Instead they are created after a [ICON_INTERNATIONAL_TRADE] Trade Route from a city you own with an Office to a foreign city that does not already contain your Corporation's Franchise is completed. Franchises increase the Empire's overall Office benefit, so use them to strengthen your Corporation's effect. You can only build a maximum number of Franchises, determined by the size of the map, the number of [ICON_INTERNATIONAL_TRADE] Trade Routes you can establish, and any bonuses from any [ICON_CULTURE] Social Policies you have unlocked.</Text>
+			<Text>프랜차이즈는 아무 도시에도 건설할 수 없습니다. 대신 [ICON_INTERNATIONAL_TRADE] 교역로가 사무실이 있는 도시에서 회사의 프랜차이즈를 아직 하지 않은 외국 도시로 완료된 후에 생성됩니다. 프랜차이즈는 제국의 전반적인 오피스 혜택을 증가시키므로 이를 사용하여 회사의 효과를 강화하십시오. 지도의 크기, 설정할 수 있는 [ICON_INTERNATIONAL_TRAD] 교역로의 수 및 채택한 [ICON_CULTURE] 사회 정책의 보너스에 따라 결정되는 최대 수의 프랜차이즈만 구축할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FRANCHISES_QUESTION">
 			<Text>프랜차이즈란 무엇입니까?</Text>
@@ -172,7 +172,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_MONOPOLIES}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_MONOPOLIES_BODY">
-			<Text>Monopolies represent the amount of a particular Luxury or Strategic Resource you own vs. the amount of that resource on the map. As you obtain more copies of a resource, your Monopoly Percentage will increase. If you obtain 50% or more of a Monopoly over a resource, you obtain a [COLOR_POSITIVE_TEXT]Global Monopoly[ENDCOLOR] over that resource. Obtaining a Global Monopoly grants a unique bonus per resource, so you should make it a priority to obtain Monopolies over as many Resources as possible.[NEWLINE][NEWLINE]Due to the vast abundance of Strategic Resources, it can be difficult to obtain a 50% Monopoly over a Strategic Resource. Because of this, you can also obtain a [COLOR_POSITIVE_TEXT] Strategic Monopoly[ENDCOLOR] at 25% Monopoly, which grants a special combat bonus (different for each resource). You can still achieve a Global Monopoly at 50% Monopoly for a Strategic Resource.</Text>
+			<Text>독점은 사용자가 소유한 특정 사치 또는 전략 자원의 양과 지도 상의 해당 자원의 양을 나타냅니다. 자원을 더 많이 얻을수록 독점 비율이 증가합니다. 자원을 50% 이상을 획득하면 해당 자원에 대한 [COLOR_POSITION_TEXT]글로벌 독점[ENDCOLOR]을 획득합니다. 글로벌 독점 획득은 자원당 고유한 보너스를 부여하므로 가능한 한 많은 자원에 대해 독점을 획득하는 것을 우선시해야 합니다. [NEXLINE][NEWLINE]전략 자원은 풍부하기 때문에 전략 자원을 50% 독점하는 것은 어려울 수 있습니다. 따라서 25% 독점으로 [COLOR_POSITION_TEXT]전략적 독점[ENDCOLOR]을 획득할 수 있으며, 이 경우 특별한 전투 보너스(자원마다 다름)가 부여됩니다. 전략 자원에 대한 50% 독점으로도 글로벌 독점을 달성할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_MONOPOLIES_QUESTION">
 			<Text>독점이란 무엇입니까?</Text>
@@ -184,7 +184,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_SPREAD}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_SPREAD_BODY">
-			<Text>You can spread your Corporation through [ICON_INTERNATIONAL_TRADE] Trade Routes from a city with your Corporation's Office built to a foreign city without a Corporation Franchise built. At the completion of the [ICON_INTERNATIONAL_TRADE] Trade Route, a Franchise will be constructed. There is also a random chance every turn (around 5%) that a Franchise will be constructed in a nearby foriegn City, if you are trading with that Civilization already.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] 교역로를 통해 회사의 오피스가 있는 도시에서 기업 프랜차이즈가 없는 외국 도시로 회사를 전파할 수 있습니다. [ICON_INTERNATIONAL_TRAD] 교역로가 완공되면 프랜차이즈가 구축됩니다. 또한 만약 당신이 이미 그 문명과 거래하고 있다면, 모든 턴마다 (약 5%의) 프랜차이즈가 가까운 외국 도시에 건설될 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_SPREAD_QUESTION">
 			<Text>내 기업을 어떻게 확장시키나요?</Text>
@@ -196,7 +196,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_RESOURCE_BONUS}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_BODY">
-			<Text>Most Corporations have a resource bonus which applies to all Cities with a Corporation Franchise. Each resource bonus provides a bonus to a specific yield, such as [ICON_CULTURE] Culture, [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, or [ICON_RESEARCH] Science.</Text>
+			<Text>대부분의 기업은 기업 프랜차이즈가 있는 모든 도시에 적용되는 자원 보너스를 가지고 있습니다. 각의 자원 보너스는 [ICON_CULTURE] 문화, [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산 또는 [ICON_RESearch] 과학과 같은 특정 수익률에 보너스를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_QUESTION">
 			<Text>자원 보너스란 무엇입니까?</Text>
@@ -208,7 +208,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_OFFICE_BONUS}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_BODY">
-			<Text>Your Corporation Offices receive incremental affects the more Franchises you establish in foreign cities, so be sure to keep spreading your Corporation to reap its benefits!</Text>
+			<Text>외국 도시에 프랜차이즈를 많이 설립할수록 회사 오피스가 점점 더 많은 효과를 받으므로 회사의 이익을 위해 회사를 계속 확장하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_QUESTION">
 			<Text>오피스 보너스란 무엇입니까?</Text>
@@ -220,7 +220,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_TRADE_ROUTE_BONUS}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_BODY">
-			<Text>All Corporations provide some benefit to your [ICON_INTERNATIONAL_TRADE] Trade Routes. These bonuses generally affect your [ICON_INTERNATIONAL_TRADE] Trade benefits to cities that have your Corporation Franchise already established, but they may also grant some sort of special benefit (like increase trade distance, or invulnerable trade units).</Text>
+			<Text>모든 기업은 [ICON_INTERNATIONAL_TRADE] 교역로에 일부 혜택을 제공합니다. 이러한 보너스는 일반적으로 기업 프랜차이즈가 이미 구축된 도시에 대한 [ICON_INTERNATIONAL_TRADE] 교역로 혜택에 영향을 미치지만, 일종의 특별 혜택(무역 거리 증가 또는 무역 유닛의 안전)을 부여할 수도 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_QUESTION">
 			<Text>교역로 보너스란 무엇입니까?</Text>
@@ -292,10 +292,10 @@
 			<Text>[NEWLINE]제국의 다른 곳에 {2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하는 동안에는 {1_BuildingName:textkey}{1: plural 1?을; 2?를;} 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORP_GP_CHANGE">
-			<Text>Additional +{1_Num}% [ICON_GREAT_PEOPLE] Great Person Rate from Corporation</Text>
+			<Text>기업에서 [ICON_GREAT_PEOPLE] 위인 출현률 +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET]City Modifier from your Corporation: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]기업에서: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_CORPORATIONS">
 			<Text>{1_Num} {2_IconString} 기업에서</Text>
@@ -394,7 +394,7 @@
 			<Text>소유 도시의 오피스 목록.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORP_HERE">
-			<Text>  [ICON_INVEST] [COLOR_MAGENTA](프랜차이즈 현황)[ENDCOLOR]</Text>
+			<Text>[ICON_INVEST] [COLOR_MAGENTA](프랜차이즈 현황)[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_FOREIGN_CORPS_DETAILS_COLLAPSE">
 			<Text>[ICON_MINUS] 외국 기업</Text>
@@ -413,7 +413,7 @@
 			<Text>기업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_CORPORATIONS_DESC">
-			<Text>The word "corporation" derives from corpus, the Latin word for body, or a body of people. By the time of Justinian (reigned 527–565), Roman Law recognized a range of corporate entities under the names universitas, corpus or collegium. These included the state itself (the populus Romanus), municipalities, and such private associations as sponsors of a religious cult, burial clubs, political groups, and guilds of craftsmen or traders. Such bodies commonly had the right to own property and make contracts, to receive gifts and legacies, to sue and be sued, and, in general, to perform legal acts through representatives. Private associations were granted designated privileges and liberties by the emperor.</Text>
+			<Text>"회사"라는 단어는 라틴어로 신체 또는 사람들의 몸을 의미하는 코퍼스에서 유래했다. 유스티니아누스(재위 527년 ~ 565년) 시대에 로마법원은 유니버시티타스, 코퍼스, 콜레지엄이라는 이름으로 다양한 법인체를 인정하였다. 여기에는 국가 자체(포퓰리즘 로마누스), 지방 자치 단체, 종교 숭배의 후원자, 매장 클럽, 정치 단체, 장인 또는 상인의 길드 등의 민간 단체가 포함되었다. 이러한 기관들은 일반적으로 재산을 소유하고 계약을 체결하며, 증여와 유산을 받고, 소송과 고소를 할 수 있으며, 일반적으로 대리인을 통해 법적 행위를 할 수 있는 권리를 가지고 있었다. 민간 협회는 황제에 의해 지정된 특권과 자유를 부여받았다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_CORPORATIONS_HELP">
 			<Text>문명의 교역로와 글로벌 파워를 크게 향상시키는 기업을 설립할 수 있습니다.</Text>
@@ -450,7 +450,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_TEXT">
-			<Text>Nationalization is the process of taking a private industry or private assets into public ownership by a national government or state. Nationalization usually refers to private assets, but may also mean assets owned by lower levels of government, such as municipalities, being transferred to be the state. The opposite of nationalization is usually privatization or de-nationalization, but may also be municipalization. Industries that are usually subject to nationalization include transport, communications, energy, banking and natural resources.</Text>
+			<Text>국유화는 국가 정부나 국가가 사유 산업이나 사유 자산을 공공 소유로 하는 과정이다. 국유화는 보통 민간 자산을 의미하지만, 지방 자치 단체와 같은 낮은 수준의 정부가 소유한 자산이 국가로 이전되는 것을 의미할 수도 있다. 국유화의 반대는 보통 민영화 또는 탈국유화이지만, 지방자치화일 수도 있다. 보통 국유화의 대상이 되는 산업으로는 교통, 통신, 에너지, 은행, 천연자원이 있다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]다국적주의[ENDCOLOR]: 매 턴 다른 문명의 도시에 기업 프랜차이즈가 나타날 확률이 [COLOR_NEGATIVE_TEXT]5%[ENDCOLOR]에서 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]로 증가합니다. 모든 소도시가 프랜차이즈로 간주됩니다. 글로벌 프랜차이즈 한도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 모든 기업 오피스의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
@@ -460,25 +460,24 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_TEXT">
-			<Text>Transnationalism as an economic process involves the global reorganization of the production process, in which various stages of the production of any product can occur in various countries, typically with the aim of minimizing costs. Economic transnationalism, commonly known as Globalization, was spurred in the latter half of the 20th century by the development of the internet and wireless communication, as well as the reduction in global transportation costs caused by containerization. Multinational corporations could be seen as a form of transnationalism, in that they seek to minimize costs, and hence maximize profits, by organizing their operations in the most efficient means possible irrespective of political boundaries.</Text>
+			<Text>경제적 과정으로서의 초국가주의는 일반적으로 비용을 최소화할 목적으로 다양한 국가에서 생산의 다양한 단계가 발생할 수 있는 생산 과정의 세계적인 재편성을 수반한다. 일반적으로 세계화로 알려진 경제적 초국가주의는 컨테이너화로 인한 세계 운송 비용의 감소뿐만 아니라 인터넷과 무선 통신의 발달에 의해 20세기 후반에 촉진되었다. 다국적 기업은 정치적 경계에 관계없이 가능한 한 효율적인 방법으로 사업을 조직함으로써 비용을 최소화하고, 따라서 이익을 극대화하는 것을 추구한다는 점에서 초국가주의의 한 형태로 보일 수 있다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_INFILTRATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]신디칼리즘[ENDCOLOR]: 당신의 문명이 최소 [COLOR_POSITIVE_TEXT]유명한[ENDCOLOR] 도시에서는 기업 프랜차이즈가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 계산되고, 이러한 추가 프랜차이즈는
-				글로벌 프랜차이즈 한도에 포함되지 않습니다. 다른 문명에 추가 프랜차이즈를 [COLOR_POSITIVE_TEXT]5개[ENDCOLOR] 더 건설할 수 있습니다. 모든 기업 오피스의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]신디칼리즘[ENDCOLOR]: 당신의 문명이 최소 [COLOR_POSITIVE_TEXT]유명한[ENDCOLOR] 도시에서는 기업 프랜차이즈가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 계산되고, 이러한 추가 프랜차이즈는 글로벌 프랜차이즈 한도에 포함되지 않습니다. 다른 문명에 추가  프랜차이즈를 [COLOR_POSITIVE_TEXT]5개[ENDCOLOR] 더 건설할 수 있습니다. 모든 기업 오피스의  [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_INFILTRATION">
 			<Text>신디칼리즘</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_INFILTRATION_TEXT">
-			<Text>National syndicalism is an adaptation of syndicalism to suit the social agenda of integral nationalism. National syndicalism suggests that the people must defend themselves through the development of Syndicalist sections into massive economic worker movements. These should take immediate action to expropriate the capitalists. These should also take direct action to let the workers lead the production and to form peoples communes. National syndicalism seeks out principled reasons for direct economic action and denounces parliamentary action by representatives. The goal is not to make capitalism bearable, but the realisation of a free Nationalist and Socialist nation. National syndicalism aims to move the attention from the political terrain to the economic terrain. It wants the socialisation from the basis: a system of distribution from local units, in consultation with the National federation, on the fundament of a production and consumption statistic. As well as the organisation of the production by national industrial federations.</Text>
+			<Text>국가 신디칼리즘은 통합적 민족주의의 사회적 의제에 적합하도록 신디칼리즘을 각색한 것이다. 국가 신디칼리즘은 신디칼리즘 부문을 대규모 경제노동자운동으로 발전시킴으로써 국민이 스스로를 방어해야 함을 시사한다. 그들은 자본가를 수용하기 위해 즉각적인 조치를 취해야 한다. 이들은 또한 노동자들이 생산을 주도하고 사람들의 공동체를 형성하기 위한 직접적인 행동을 취해야 한다. 국가신디칼리즘은 직접적인 경제행동에 대한 원론적 이유를 찾고 대표자들의 의회행동을 비난한다. 목표는 자본주의를 견딜 수 있게 만드는 것이 아니라 자유 민족주의와 사회주의 국가를 실현하는 것이다. 국가 신디칼리즘은 정치적 지형에서 경제적 지형으로 관심을 옮기는 것을 목표로 한다. 그것은 생산과 소비 통계의 기초에 관한 지역 단위로부터의 분배 시스템인 기초로부터 사회화를 원한다. 또한 국가 산업 연맹에 의한 생산 조직도 포함된다.</Text>
 		</Row>
 		<!-- 정책파트끝 -->
 		<!-- Wonder Splash Quote -->
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_SPLASH">
-			<Text>[NEWLINE][TAB][TAB]"I don't build in order to have clients. I have clients in order to build."[NEWLINE][TAB][TAB]  - Howard Roark[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"나는 고객을 갖기 위해 건물을 짓지 않는다. 건물을 짓기 위해 고객을 갖는다."[NEWLINE][TAB][TAB]  - 하워드 로크[NEWLINE][TAB]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CORP_TEXT">
-			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
+			<Text>법인은 법률상 하나의 실체로서 활동할 수 있는 권한을 부여받은 기업 또는 집단이다. 초기의 법인체는 헌장(즉, 군주로부터 부여받거나 의회나 입법부에 의해 통과된 특별법에 의해)에 의해 설립되었다. 현재 대부분의 관할구역은 등록을 통해 새로운 법인의 설립을 허용하고 있다. 법인은 여러 가지 종류가 있지만 보통 주식의 발행 가능 여부 또는 영리 목적의 여부에 따라 두 종류로 구분된다.</Text>
 		</Row>
 		<!-- Corporations -->
 		<Row Tag="TXT_KEY_CORPORATION_TRADER_SIDS">
@@ -505,7 +504,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ_STRATEGY">
-			<Text>Construct this building in one of your cities to found the Trader Sid's Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
+			<Text>시드 무역 주식회사를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ_HELP">
 			<Text>시드 무역 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]시드 무역 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 시드 무역 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
@@ -515,7 +514,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in foreign Cities if you were the founder of Trader Sid's. To construct this building in a foreign City, send a Trade Route from an owned City with a Trader Sid's Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
+			<Text>이 건물은 당신이 시드 무역의 설립자일 때 이 건물은 외국 도시에서만 지을 수 있습니다. 이 건물을 외국 도시에 건설하려면, 시드 무역 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP">
 			<Text>도시 주변 시드 무역과 관련된 모든 독점 자원의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 시드 무역 오피스에 대한 수익을 창출합니다.</Text>
@@ -525,10 +524,10 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Trader Sid's Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Trader Sid's cannot be sold or destroyed by the player, and increases the [ICON_GOLD] Gold output of all Trader Sid's Offices by +4.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 시드 무역 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]시드 무역은 팔거나 파괴될 수 없고, 모든 시드 무역 오피스의 [ICON_GOLD]골드 산출을 +4 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HELP">
-			<Text>이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시드 무역 프랜차이즈의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시드 무역 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+			<Text>이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시드 무역 프랜차이즈마다 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시드 무역 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS">
 			<Text>센타우리 개발 주식회사</Text>
@@ -554,7 +553,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ_STRATEGY">
-			<Text>Construct this building in one of your cities to found the Centaurus Extractor's Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
+			<Text>센타우리 개발을 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ_HELP">
 			<Text>센타우리 개발 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]센타우리 개발 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 센타우리 개발 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
@@ -564,7 +563,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in foreign Cities if you were the founder of Centaurus Extractors. To construct this building in a foreign City, send a Trade Route from an owned City with a Centaurus Extractors Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
+			<Text>이 건물은 당신이 센타우리 개발의 설립자일 때 이 건물은 외국 도시에서만 지을 수 있습니다. 이 건물을 외국 도시에 건설하려면, 센타우리 개발 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP">
 			<Text>도시 주변 센타우리 개발와 관련된 모든 독점 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 센타우리 개발 오피스에 대한 수익을 창출합니다.</Text>
@@ -574,10 +573,10 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Centaurus Extractors Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Centaurus Extractors cannot be sold or destroyed by the player, and increases the [ICON_PRODUCTION] Production output of all Centaurus Extractors Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 센타우리 개발 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]센타우리 개발은 팔거나 파괴될 수 없고, 모든 센타우리 개발 오피스의 [ICON_PRODUCTION] 생산 산출을 +3 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HELP">
-			<Text>도시 주변 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 센타우리 개발 프랜차이즈의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]센타우리 개발 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>도시 주변 해양 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 센타우리 개발 프랜차이즈마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]센타우리 개발 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_HEXXON_REFINERY">
 			<Text>헥손 정유 주식회사</Text>
@@ -603,7 +602,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ_STRATEGY">
-			<Text>Construct this building in one of your cities to found the Hexxon Refineries Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
+			<Text>헥손 정유를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ_HELP">
 			<Text>헥손 정유 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]헥손 정유 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 헥손 정유 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
@@ -613,7 +612,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in foreign Cities if you were the founder of Hexxon Refineries. To construct this building in a foreign City, send a Trade Route from an owned City with a Hexxon Refineries Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
+			<Text>이 건물은 당신이 헥손 정유의 설립자일 때만 외국 도시에 건설할 수 있습니다. 이 건물을 외국 도시에 건설하려면, 헥손 정유 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_HELP">
 			<Text>도시 주변 헥손 정유와 관련된 모든 독점 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 헥손 정유 오피스에 대한 수익을 창출합니다.</Text>
@@ -623,7 +622,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Hexxon Refineries Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Hexxon Refineries cannot be sold or destroyed by the player, and grants +1 [ICON_RES_OIL] Oil and +1 [ICON_RES_COAL] Coal for every[COLOR_POSITIVE_TEXT]three[ENDCOLOR] Hexxon Refineries Franchises.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 헥손 정유 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]헥손 정유는 팔거나 파괴될 수 없고, 헥손 정유 프랜차이즈 [COLOR_POSITIVE_TEXT]셋[ENDCOLOR] 마다 +1 [ICON_RES_OIL] 석유와 +1 [ICON_RES_COAL] 석탄을 얻습니다. [NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HELP">
 			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 헥손 정유 프랜차이즈 3개마다 [ICON_RES_OIL] 석유 및 [ICON_RES_COAL] 석탄 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]헥손 정유 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
@@ -652,10 +651,10 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GIORGIO_ARMEIER_HQ_TEXT">
-			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
+			<Text>법인은 법률상 하나의 실체로서 활동할 수 있는 권한을 부여받은 기업 또는 집단이다. 초기의 법인체는 헌장(즉, 군주로부터 부여받거나 의회나 입법부에 의해 통과된 특별법에 의해)에 의해 설립되었다. 현재 대부분의 관할구역은 등록을 통해 새로운 법인의 설립을 허용하고 있다. 법인은 여러 가지 종류가 있지만 보통 주식의 발행 가능 여부 또는 영리 목적의 여부에 따라 두 종류로 구분된다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ_STRATEGY">
-			<Text>Construct this building in one of your cities to found the Giorgio Armeier Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
+			<Text>조르지오 아르미에를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ_HELP">
 			<Text>조르지오 아르미에 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]조르지오 아르미에 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 조르지오 아르미에 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
@@ -665,10 +664,10 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_GIORGIO_ARMEIER_FRANCHISE_TEXT">
-			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
+			<Text>법인은 법률상 하나의 실체로서 활동할 수 있는 권한을 부여받은 기업 또는 집단이다. 초기의 법인체는 헌장(즉, 군주로부터 부여받거나 의회나 입법부에 의해 통과된 특별법에 의해)에 의해 설립되었다. 현재 대부분의 관할구역은 등록을 통해 새로운 법인의 설립을 허용하고 있다. 법인은 여러 가지 종류가 있지만 보통 주식의 발행 가능 여부 또는 영리 목적의 여부에 따라 두 종류로 구분된다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in foreign Cities if you were the founder of Giorgio Armeier . To construct this building in a foreign City, send a Trade Route from an owned City with a Giorgio Armeier Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
+			<Text>이 건물은 당신이 조르지오 아르미에의 설립자일 때만 외국 도시에 건설할 수 있습니다. 이 건물을 외국 도시에 건설하려면, 조르지오 아르미에 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_HELP">
 			<Text>도시 주변 조르지오 아르미에와 관련된 모든 독점 자원의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 조르지오 아르미에 오피스에 대한 수익을 창출합니다.</Text>
@@ -678,13 +677,13 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_GIORGIO_ARMEIER_TEXT">
-			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
+			<Text>법인은 법률상 하나의 실체로서 활동할 수 있는 권한을 부여받은 기업 또는 집단이다. 초기의 법인체는 헌장(즉, 군주로부터 부여받거나 의회나 입법부에 의해 통과된 특별법에 의해)에 의해 설립되었다. 현재 대부분의 관할구역은 등록을 통해 새로운 법인의 설립을 허용하고 있다. 법인은 여러 가지 종류가 있지만 보통 주식의 발행 가능 여부 또는 영리 목적의 여부에 따라 두 종류로 구분된다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Giorgio Armeier Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Giorgio Armeier cannot be sold or destroyed by the player, and increases the [ICON_CULTURE] Culture output of all Giorgio Armeier Offices by +2.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 조르지오 아르미에 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]조르지오 아르미에는 팔거나 파괴될 수 없고, 모든 조르지오 아르미에 오피스의 [ICON_CULTURE] 문화 산출량을 +2 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HELP">
-			<Text>다른 문명의 도시에 설립한 모든 조르지오 아르미에 프랜차이즈의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹 및 [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]조르지오 아르미에 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>다른 문명의 도시에 설립한 모든 조르지오 아르미에 프랜차이즈마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹 및 [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]조르지오 아르미에 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS">
 			<Text>파이락사이트 소재 주식회사</Text>
@@ -710,7 +709,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ_STRATEGY">
-			<Text>Construct this building in one of your cities to found the Firaxite Materials Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
+			<Text>파이락사이트 소재를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ_HELP">
 			<Text>파이락사이트 소재 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]파이락사이트 소재 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 파이락사이트 소재 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
@@ -720,7 +719,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in foreign Cities if you were the founder of Firaxite Materials. To construct this building in a foreign City, send a Trade Route from an owned City with a Firaxite Materials Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
+			<Text>이 건물은 당신이 파이락사이트 소재의 설립자일 때만 외국 도시에 건설할 수 있습니다. 이 건물을 외국 도시에 건설하려면, 파이락사이트 소재 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_HELP">
 			<Text>도시 주변 파이락사이트 소재와 관련된 모든 독점 자원의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 파이락사이트 소재 오피스에 대한 수익을 창출합니다.</Text>
@@ -730,7 +729,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Firaxite Materials Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Firaxite Materials cannot be sold or destroyed by the player, and increases the [ICON_RESEARCH] Science output of all Firaxite Materials Offices by +2.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 파이락사이트 소재 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]파이락사이트 소재는 팔거나 파괴될 수 없고, 모든 파이락사이트 소재 오피스의 [ICON_RESEARCH] 과학 산출을 +2 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HELP">
 			<Text>도시에 건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 다른 문명의 도시에 설립한 모든 파이락사이트 소재 프랜차이즈의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]파이락사이트 소재 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
@@ -759,7 +758,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ_STRATEGY">
-			<Text>Construct this building in one of your cities to found the TwoKay Foods Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
+			<Text>투케이 푸드를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ_HELP">
 			<Text>투케이 푸드 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]투케이 푸드 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 투케이 푸드 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
@@ -769,7 +768,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in foreign Cities if you were the founder of TwoKay Foods. To construct this building in a foreign City, send a Trade Route from an owned City with a TwoKay Foods Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
+			<Text>이 건물은 당신이 투케이 푸드의 설립자일 때만 외국 도시에 건설할 수 있습니다. 이 건물을 외국 도시에 건설하려면, 투케이 푸드 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_HELP">
 			<Text>도시 주변 투케이 푸드와 관련된 모든 독점 자원의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 투케이 푸드 오피스에 대한 수익을 창출합니다.</Text>
@@ -779,10 +778,10 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a TwoKay Foods Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]TwoKay Foods cannot be sold or destroyed by the player, and increases the [ICON_FOOD] Food output of all TwoKay Foods Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
-		</Row>TXT_KEY_CORPORATION_RESOURCE_BONUS_FIRAXITE_MATERIALS
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 투케이 푸드 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]투케이 푸드는 팔거나 파괴될 수 없고, 모든 투케이 푸드 오피스의 [ICON_FOOD] 식량 산출을 +3 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HELP">
-			<Text>모든 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다. 다른 문명의 도시에 설립한 모든 투케이 푸드 프랜차이즈의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]투케이 푸드 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>모든 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다. 다른 문명의 도시에 설립한 모든 투케이 푸드 프랜차이즈마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]투케이 푸드 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS">
 			<Text>시빌 보석 주식회사</Text>
@@ -808,7 +807,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_STRATEGY">
-			<Text>Construct this building in one of your cities to found the Civilized Jewelers Corporation. See the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] section of the Civilopedia for more information.[NEWLINE][NEWLINE]Remember that each Civilization may only found [COLOR_POSITIVE_TEXT]one[ENDCOLOR] Corporation, so make sure the benefits are applicable to your Victory Strategy!</Text>
+			<Text>시빌 보석를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_HELP">
 			<Text>시빌 보석 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]시빌 보석 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 시빌 보석 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
@@ -818,7 +817,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_STRATEGY">
-			<Text>This building can only be constructed in foreign Cities if you were the founder of Civilized Jewelers. To construct this building in a foreign City, send a Trade Route from an owned City with a Civilized Jewelers Office in it to a foreign City. When the Trade Route is complete, the building will automatically be constructed. There is also a 5% chance each turn that a franchise will appear on its own in a random foreign City.</Text>
+			<Text>이 건물은 당신이 시빌 보석의 설립자일 때만 외국 도시에 건설할 수 있습니다. 이 건물을 외국 도시에 건설하려면, 시빌 보석 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP">
 			<Text>도시 주변 시빌 보석과 관련된 모든 독점 자원의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 문명이 설립한 시빌 보석 오피스에 대한 수익을 창출합니다.</Text>
@@ -828,7 +827,7 @@
 			<Plurality>2</Plurality>
 		</Row>	
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Civilized Jewelers Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Civilized Jewelers cannot be sold or destroyed by the player, and increases the [ICON_GREAT_PEOPLE] Great Person rate of all Civilized Jewelers's Offices by +5%.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 시빌 보석 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]시빌 보석은 팔거나 파괴될 수 없고, 모든 시빌 보석 오피스에서 [ICON_GREAT_PEOPLE] 위인 출현율을 +5% 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HELP">
 			<Text>[ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가하고 도시의 위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 다른 문명의 도시에 설립한 모든 시빌 보석 프랜차이즈 1개마다 위인 출현율이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]시빌 보석 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>

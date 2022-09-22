@@ -5,7 +5,7 @@ SET Text = '외교 임무는 우리 관계에 어떤 영향을 미치나요?'
 WHERE Tag = 'TXT_KEY_CITYSTATE_GIVEGOLD_ADV_QUEST' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = 'The most effective method of raising your Influence with a city-state is to create a Diplomatic Unit and send it on a Diplomatic Mission. A Diplomatic Mission allows diplomatic units to directly raise your Influence with city-states. To conduct a Diplomatic Mission, move your Diplomatic Unit into city-state territory and press the Diplomatic Mission button. The base amount of Influence gained from a Diplomatic Mission increases as a player unlocks new promotions for Diplomatic Units through new unit types, wonders and buildings. [ENDLINE][ENDLINE]Players may only have a limited number of Diplomatic Units active at any given time. The maximum number of active Diplomatic Units increases based on the amount of the [ICON_RES_PAPER] Paper a player controls. Once used to generate influence, Diplomatic Units are expended and must be rebuilt to use again.'
+SET Text = '도시국가에서 영향력을 높이는 가장 효과적인 방법은 외교 유닛을 만들어 외교 임무로 보내는 것입니다. 외교 사절단은 외교 부서가 도시 국가들에 대한 영향력을 직접 높일 수 있도록 합니다. 외교 임무를 수행하려면 외교 부서를 도시 국가 영토로 이동하고 외교 임무 버튼을 누르십시오. 플레이어가 새로운 유닛 유형, 불가사의 및 건물을 통해 외교 유닛에 대한 새로운 프로모션을 열수록 외교 미션에서 얻는 영향력의 기본 양이 증가합니다. [ENDLINE][ENDLINE]플레이어는 지정된 시간에 제한된 수의 외교 단위만 사용할 수 있습니다. 최대 활성 외교 단위 수는 플레이어가 제어하는 [ICON_RES_PAPER] 종이의 양에 따라 증가합니다. 영향력을 행사하는 데 사용되면 외교 유닛이 소모되고 다시 사용하려면 다시 만들어야 합니다.'
 WHERE Tag = 'TXT_KEY_CITYSTATE_GIVEGOLD_HEADING3_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE Language_ko_KR

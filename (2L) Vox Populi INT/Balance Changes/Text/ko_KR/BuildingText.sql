@@ -16,7 +16,7 @@ SET Text = '[ICON_CITIZEN]시민 4명마다 [ICON_PRODUCTION]생산이 [COLOR_PO
 WHERE Tag = 'TXT_KEY_BUILDING_WATERMILL_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Water Mill can only be constructed in a city located next to a river. The Water Mill increases the city''s [ICON_PRODUCTION] Production more efficiently (per Citizen in the City) than the Well.'
+SET Text = '물레방앗간은 오직 강 옆에 있는 도시에서만 건설할 수 있습니다. 물레방앗간은 도시의 [ICON_PRODUCTION] 생산을 우물보다 더 효율적으로 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_WATERMILL_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -24,7 +24,7 @@ SET Text = '[ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의
 WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Aqueduct decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 15%. Build Aqueducts in cities that you want to grow large over time.'
+SET Text = '송수로는 도시가 규모를 늘리기 데 필요한 [ICON_FOOD]식량의 양을 15% 감소시킵니다. 당신이 크게 성장하길 원하는 도시에 송수로를 건설하십시오.'
 WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -32,7 +32,7 @@ SET Text = '건설을 완료하면 [ICON_CITIZEN]시민이 [COLOR_POSITIVE_TEXT]
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Medical Lab is a late-game building which decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 15% and boosts the City''s Science production from specialists. The city needs to have a Hospital in order to construct the Medical Lab.'
+SET Text = '의학연구소는 게임 후반 건물입니다. 이것은 도시 성장에 필요한 [ICON_FOOD] 식량을 15% 감소시키고 도시 전문가의 과학 생산량을 증가시킵니다. 도시는 의학연구소를 건설하기 위해서는 병원을 보유해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -40,7 +40,7 @@ SET Text = '도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEX
 WHERE Tag = 'TXT_KEY_BUILDING_GARDEN_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Garden increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated in the city by 25%, and buffs the food output of Oases. Gardens require an Aqueduct in the City in order to be built.'
+SET Text = '정원은 도시에서 위인이 탄생하는 속도를 25% 증가시키고, 오아시스의 식량 생산을 증가시킵니다. 정원은 강이나 호수가 인접해 있는 도시에서만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_GARDEN_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
@@ -56,18 +56,18 @@ INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_AMPHITHEATER_HELP', '도시의 [ICON_GREAT_WRITER]위대한 작가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 작가 길드의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE][ICON_RES_DYE] 염료: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_SILK] 비단: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_LAPIS] 청금석: [ICON_CULTURE] 문화 +2[NEWLINE][NEWLINE]테마보너스:  [ICON_CULTURE]문화 +2');
 
 UPDATE Language_ko_KR
-SET Text = 'The Amphitheater increases the [ICON_CULTURE] Culture of a city and grants bonuses to nearby [ICON_RES_DYE] Dye and [ICON_RES_SILK] Silk. Also boosts the City''s Great Writer rate and the value of Writers'' Guilds. Contains 2 slots for a Great Work of Writing.'
+SET Text = '원형극장을 건설하면 도시의 [ICON_CULTURE]문화가 증가하고 [ICON_RES_DYE] 염료와 [ICON_RES_SILK] 비단에 보너스를 제공합니다. 도시의 위대한 작가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 문학 슬롯 2개를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_OPERA_HOUSE_HELP', '도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 도시의 [ICON_GREAT_WORK]불가사의의 [ICON_TOURISM]관광이 1 증가합니다. [ICON_GREAT_MUSICIAN]위대한 음악가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 음악가 길드의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.');
 
 UPDATE Language_ko_KR
-SET Text = 'The Opera House is a Renaissance-era building which increases the [ICON_CULTURE] Culture of a city. Also boosts the City''s Great Musician rate and the value of Musicians'' Guilds. Contains 1 slot for a Great Work of Music. Requires an Amphitheater in the city before it can be constructed.'
+SET Text = '오페라 극장은 도시의 [ICON_CULTURE]문화를 늘려주는 르네상스 시대 건물입니다. 도시의 위대한 음악가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 음악 슬롯 1개를 제공합니다. 오페라 극장을 건설하려면 도시에 원형극장이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Museum is a mid-game building which increases [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism output and reduces Boredom. Also boosts the City''s Great Artist rate and the value of Artists'' Guilds. Contains 2 slots for Great Works of Art.  Requires an Opera House in the city before it can be constructed.'
+SET Text = '박물관은 게임 중반부에 도시의 [ICON_CULTURE]문화와 [ICON_TOURISM]관광을 증가시키고 도시의 무료를 감소시키는 건물입니다. 도시의 위대한 예술가 출현율이 증가하고 예술가 길드에 보너스를 제공합니다. 걸작 예술품 슬롯 2개를 제공합니다. 도시에 오페라 극장이 있어야 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUSEUM_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
@@ -78,7 +78,7 @@ SET Text = '[ICON_CITIZEN]시민 2명마다 [ICON_CULTURE]문화 및 [ICON_TOURI
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'A Broadcast Tower is a late-game building which increases [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism output of the city, and reduces Boredom. Requires a Museum in the city before it can be constructed.'
+SET Text = '방송탑은 현대 시대 건물로 방송탑이 있는 도시의 [ICON_CULTURE]문화와 [ICON_TOURISM]관광을 증가시키고 무료를 감소시킵니다. 방송탑을 건설하려면 도시에 박물관이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -102,7 +102,7 @@ SET Text = '광산의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR
 WHERE Tag = 'TXT_KEY_BUILDING_FORGE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Forge improves sources of [ICON_RES_IRON] Iron and [ICON_RES_COPPER] Copper nearby, and boosts the [ICON_PRODUCTION] Production of Mines.'
+SET Text = '대장간은 근처의 [ICON_RES_IRON] 철과 [ICON_RES_COPPER] 구리에 보너스를 제공하고, 광산에 [ICON_PRODUCTION] 생산을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_FORGE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -113,7 +113,7 @@ SET Text = '국내 교역로를 통해 당신 문명의 다른 도시로 [ICON_P
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Stone Works can only be constructed in a city near an improved [ICON_RES_STONE] Stone, [ICON_RES_SALT] Salt, [ICON_RES_MARBLE] Marble, or [ICON_RES_URANIUM] Uranium resource. Stone Works increase [ICON_PRODUCTION] Production and allow [ICON_PRODUCTION] Production to be moved from this city along trade routes inside your civilization.'
+SET Text = '석재공장을 건설하려면 도시 근처에 개발된 [ICON_RES_STONE] 석재. [ICON_RES_SALT] 소금, [ICON_RES_MARBLE] 대리석 또는 [ICON_RES_URANIUM] 우라늄 자원이 있어야 합니다. 석재공장은 도시의 생산을 증가시키고 교역로를 통해 당신의 다른 도시로 생산력을 옮길 수 있도록 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -121,11 +121,11 @@ SET Text = '도시 주변 해양 타일의 [ICON_FOOD]식량 및 [ICON_GOLD]골�
 WHERE Tag = 'TXT_KEY_BUILDING_LIGHTHOUSE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Lighthouse can only be constructed in a city next to a coastal tile. It increases the [ICON_FOOD] Food and [ICON_GOLD] Gold output of water tiles. Also allows for City Connections over Water (see Concepts for more details).'
+SET Text = '등대는 해안가 도시에서만 건설할 수 있습니다. 등대는 해양 타일의 [ICON_FOOD] 식량과 [ICON_GOLD] 골드를 증가시킵니다. 도시 간에 "해상 무역로"가 연결되도록 합니다. (개념에서 더 자세히 알아보십시오).'
 WHERE Tag = 'TXT_KEY_BUILDING_LIGHTHOUSE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'If a city is connected by a road and/or Lighthouse to your capital city (i.e. both cities have a Lighthouse), that city has a "trade route" with the capital. Each trade route is worth a certain amount of gold each turn, the amount determined by the size of the two cities.'
+SET Text = '만일 한 도시가 수도의 등대나 도로로 연결되어 있다면 (각 도시에 등대가 있어야 합니다) 그 도시는 수도와 "무역로"를 가지고 있다고 말합니다. 각각의 무역로는 두 도시의 크기에 따라 일정량의 골드를 턴당 벌게 됩니다.'
 WHERE Tag = 'TXT_KEY_GOLD_TRADE_ROUTES_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -133,7 +133,7 @@ SET Text = '이 도시에서 다른 문명으로 출발하는 해상 [ICON_INTER
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Harbor is a Medieval-era building, requiring a Lighthouse. It improves the range and [ICON_GOLD] Gold yield of sea trade routes, and boosts the value of sea tiles and resources. The Harbor also increases the [ICON_PRODUCTION] Production of Naval units by 15%, and increases Military Units Supplied by this City''s population by 10%.'
+SET Text = '항만은 중세 시대 건물입니다. 항만을 건설하려면 등대를 건설해야 합니다. 항만을 건설하면 해상 교역로의 범위와 [ICON_GOLD]골드가 증가하며 해양 타일과 해양 자원의 산출량이 증가합니다. 항만은 도시에서 해양 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 도시의 군사 유닛 보급 한도를 도시 인구의 10%만큼 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -141,14 +141,14 @@ SET Text = '도시 주변 해양 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOL
 WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Provides a massive boost to City Production and Sea Resource yields during the Industrial Era. Increases the Military Unit Supply Cap from Population in the City by 10%. Requires a Harbor, and cannot be built in the same City as a Train Station.'
+SET Text = '항구는 도시의 생산을 증가시키고 해양 자원의 산출량을 증가시키는 산업 시대 건물입니다. 군사 보급 한도를 도시 인구의 10%만큼 증가시킵니다. 도시에 항만이 있어야 건설할 수 있고, 도시에 철도역이 없어야 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_MARKET_HELP', '이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_SPICES] 향신료: [ICON_FOOD]식량 +1 [ICON_PRODUCTION]생산 +1[NEWLINE][ICON_RES_SUGAR] 설탕: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1');
 
 UPDATE Language_ko_KR
-SET Text = 'Markets increase the amount of [ICON_GOLD] Gold a city generates, and improves nearby [ICON_RES_SPICES] Cinnamon and [ICON_RES_SUGAR] Sugar. Incoming [ICON_INTERNATIONAL_TRADE] Trade Routes generate +1 [ICON_GOLD] Gold for the City, and +1 [ICON_GOLD] Gold for Trade Route owner.'
+SET Text = '시장을 건설하면 도시의 [ICON_GOLD] 골드가 증가하고, [ICON_RES_SPICES] 향신료와 [ICON_RES_SUGAR] 설탕에 보너스를 제공합니다. [ICON_INTERNATIONAL_TRADE] 교역로가 도시에 +1 [ICON_GOLD] 골드를 제공하고, 교역로 소유주도 +1 [ICON_GOLD] 골드를 얻습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MARKET_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -156,7 +156,7 @@ SET Text = '이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 �
 WHERE Tag = 'TXT_KEY_BUILDING_MINT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Customs House boosts the Gold value of Trade Routes, and boosts the Tourism you generate from Trade Routes to foreign Civilizations. Build these buildings in all Cities if you wish to improve your Gold ouput as well as the cultural value of your Trade Routes.'
+SET Text = '세관은 교역로의 골드를 증가시키고, 다른 문명과의 교역에서 관광을 증가시킵니다. 교역로의 골드와 문화를 향상시키려면 모든 도시에 건설하십시오.'
 WHERE Tag = 'TXT_KEY_BUILDING_MINT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -164,7 +164,7 @@ SET Text = '세관'
 WHERE Tag = 'TXT_KEY_BUILDING_MINT';
 
 UPDATE Language_ko_KR
-SET Text = 'A custom house or customs house was a building housing the offices for the government officials who processed the paperwork for the import and export of goods into and out of a country. Customs officials also collected customs duty on imported goods. The custom house was typically located in a seaport or in a city on a major river with access to the ocean. These cities acted as a port of entry into a country. The government had officials at such locations to collect taxes and regulate commerce. Due to advances in electronic information systems, the increased volume of international trade and the introduction of air travel, the custom house is now often a historical anachronism. There are many examples of buildings around the world whose former use was as a custom house but that have since been converted for other use, such as museums or civic buildings.'
+SET Text = '세관은 국가의 수출입 서류를 처리하는 공무원의 사무실이 있는 건물이었습니다. 세관 공무원은 수입품에 대한 관세도 징수했습니다. 세관은 일반적으로 바다에 접근할 수 있는 주요 강의 항구 또는 도시에 위치했습니다. 이 도시들은 한 나라로 들어가는 창구 역할을 했습니다. 정부는 세금을 징수하고 상업을 규제하기 위해 그러한 장소에 관리를 두었습니다. 전자 정보 시스템의 발전, 국제 무역의 증가 및 항공 여행의 도입으로 인해 세관은 이제 종종 역사적이고 시대착오적인 사고가 되었습니다. 이전에는 세관으로 사용되었지만 이후 박물관이나 시민 건물과 같은 다른 용도로 개조된 건물의 예가 전 세계적으로 많이 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BUILDINGS_MINT_TEXT';
 
 UPDATE Language_ko_KR
@@ -172,7 +172,7 @@ SET Text = '[ICON_GOLD]골드로 유닛을 구매하거나 건물의 건설에 �
 WHERE Tag = 'TXT_KEY_BUILDING_BANK_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Bank is a Renaissance-era building which increases the city''s output of [ICON_GOLD] Gold, boosts the value of investments in the City, and reduces Poverty. A city must possess a Market or Bazaar before a Bank may be constructed.'
+SET Text = '은행은 도시의 골드 생산을 증가시키는 르네상스 시대 건물입니다. 도시의 투자의 가치를 증가시키고, 빈곤을 감소시킵니다. 은행을 건설하려면 도시에 시장 또는 바자가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_BANK_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -204,7 +204,7 @@ SET Text = '도시 주변 3타일 이내의 산 1개마다 [ICON_RESEARCH]과학
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Observatory increases [ICON_RESEARCH] Science output, especially for Cities near lots of Mountains. Requires ''Scientific Revolution'' Policy to unlock.'
+SET Text = '천문대는 과학 산출을 증가시키고, 특히 도시 근처에 산이 있을 때 과학을 특히 더 증가시킵니다. 건설하려면 ''과학 혁명'' 정책을 채택해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -212,7 +212,7 @@ SET Text = '도시에 건물을 건설할 때 [ICON_PRODUCTION]생산 보너스�
 WHERE Tag = 'TXT_KEY_BUILDING_WINDMILL_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Windmill is a Renaissance-era building which increases the [ICON_PRODUCTION] Production output of a city when constructing buildings.'
+SET Text = '풍차는 건물을 건설할 때 도시의 [ICON_PRODUCTION] 생산을 증가시키는 르네상스 시대 건물입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_WINDMILL_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -220,7 +220,7 @@ SET Text = '도시 주변 강, 호수, 해양 타일의 [ICON_PRODUCTION]생산,
 WHERE Tag = 'TXT_KEY_BUILDING_HYDRO_PLANT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Hydroelectric Power is a Modern-era power system that greatly improves the yield output of water tiles. Construct this building in cities near the ocean or lots of lakes.'
+SET Text = '수력 발전소는 물 타일을 매우 강화시키는 현대 시대 건물입니다. 수력 발전소를 건설하려면 도시가 바다 또는 호수 근처에 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HYDRO_PLANT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -248,7 +248,7 @@ SET Text = '점령 후 [ICON_OCCUPIED]합병한 도시에서 발생하는 추가
 WHERE Tag = 'TXT_KEY_BUILDING_COURTHOUSE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Walls increase a city Defense Strength and Hit Points, making the city more difficult to capture. Increases Military Units supplied by this City''s population by 10%, and increases the City''s Ranged Strike range by 1. Also helps with managing the Empire Needs Modifier in this City. Walls are quite useful for cities located along a frontier.'
+SET Text = '성벽은 도시의 방어력과 체력을 증가시켜, 적이 도시를 점령하기 더 어렵게 합니다. 군사 유닛 보급 한도를 도시 인구의 10%만큼 늘리고, 도시 공격 범위를 1 증가시킵니다. 또한 도시의 요구를 만족시키는 데 도움을 줍니다. 성벽은 국경 지대에 있는 도시에 아주 유용합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_WALLS_STRATEGY';
 
 INSERT INTO Language_ko_KR (
@@ -256,7 +256,7 @@ Tag, Text)
 VALUES ('TXT_KEY_BUILDING_WALLS_HELP', '도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.');
 
 UPDATE Language_ko_KR
-SET Text = 'The Castle is a Medieval-era building which increases Defensive Strength and Hit Points. Increases Military Units supplied by this City''s population by 10%, and increases Production for all nearby Quarries by 1. Also helps with managing the Empire Needs Modifier in this City. The city must possess Walls before the Castle can be constructed.'
+SET Text = '성은 도시의 방어력과 체력을 증가시키는 중세 시대 건물입니다. 군사 유닛 보급 한도를 도시 인구의 10%만큼 증가시키고, 채석장의 생산을 1 증가시킵니다. 또한 도시의 요구를 만족시키는 데 도움을 줍니다. 성을 건설하려면 먼저 성벽을 건설해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -264,7 +264,7 @@ SET Text = '채석장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCO
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Arsenal is an Industrial-era military building that increases Defense Strength and Hit Points, making the city more difficult to capture. Increases the City''s [ICON_RANGE_STRENGTH] Ranged Strike Range by 1, and also allows the City to Ranged Strike indirectly, ignoring Line of Sight. Increases Military Units supplied by this City''s population by 15%. Also helps with managing the Empire Needs Modifier in this City. The city must possess a Castle before it can construct an Arsenal.'
+SET Text = '군수창고는 도시의 방어력과 체력을 증가시켜 도시를 더욱 점령하기 어렵게 만드는 산업 시대 건물입니다. 도시 공격 범위가 1 증가하고, 도시가 시야 범위를 무시하고 간접 사격을 가능하게 합니다. 군사 유닛 보급 한도를 도시 인구의 15%만큼 증가시킵니다. 또한 도시의 요구를 만족시키는 데 도움을 줍니다. 군수창고를 건설하려면 먼저 성을 건설해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -276,7 +276,7 @@ SET Text = '공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Military Base is a late-game building which increases Defensive Strength and Hit Points, and improves defense against air units. The city must possess an Arsenal before a Military Base may be constructed. Garrisoned units receive an additional 10 Health when healing in this city. Increases Military Units supplied by this City''s population by 25%. Also helps with managing the Empire Needs Modifier in this City. City must have an Arsenal.'
+SET Text = '군사 기지는 도시의 방어력과 체력을 증가시키고, 공중 유닛에 대한 방어를 증가시키는 게임 후반 건물입니다. 군사 기지를 건설하려면 도시에 군수창고가 있어야 합니다. 도시 안에 주둔중인 유닛은 체력을 10 더 회복합니다. 군사 유닛 보급 한도를 도시 인구의 25%만큼 증가시킵니다. 또한 도시의 요구를 만족시키는 데 도움을 줍니다. 도시는 군사 기지가 필요합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -284,7 +284,7 @@ SET Text = '도시 또는 주변 타일의 피해 없이 핵무기를 파괴할 
 WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Strategic Defense Systems have a 50% chance to detonate nuclear weapons without damaging the city or surrounding tiles, reduce population loss from a nuclear attack on this city by 75% if a missile does strike. Duck and Cover!'
+SET Text = '전략정 방어 시스템은 50%의 확률로 핵무기를 도시와 주변 타일의 피해 없이 막아내고, 도시가 핵 공격을 받았을 때 죽는 인구가 75%만큼 감소합니다. 모두 대피하십시오!'
 WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -292,7 +292,7 @@ SET Text = '전략적 방어 시스템'
 WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER';
 
 UPDATE Language_ko_KR
-SET Text = 'The Strategic Defense Initiative (SDI) was a proposed missile defense system intended to protect the United States from attack by ballistic strategic nuclear weapons (intercontinental ballistic missiles and submarine-launched ballistic missiles). The concept was first announced publicly by President Ronald Reagan on 23 March 1983. Reagan was a vocal critic of the doctrine of mutual assured destruction (MAD), which he described as a ''suicide pact,'' and he called upon the scientists and engineers of the United States to develop a system that would render nuclear weapons obsolete.'
+SET Text = 'SDI(Strategic Defense Initiative)는 탄도 전략 핵무기(대륙간 탄도 미사일 및 잠수함 발사 탄도 미사일)의 공격으로부터 미국을 보호하기 위해 제안된 미사일 방어 시스템입니다. 이 개념은 1983년 3월 23일 로널드 레이건 대통령에 의해 처음 공개적으로 발표되었습니다. 레이건은 상호확증파괴(MAD)의 교리를 강력하게 비판했으며, 이를 ''자살 협정''이라고 표현했으며 과학자들과 기술자들에게 핵무기를 쓸모없게 만들 시스템을 개발하도록 촉구했습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BUILDINGS_BOMB_SHELTER_TEXT';
 
 UPDATE Language_ko_KR
@@ -304,7 +304,7 @@ SET Text = '우주선 부품을 생산할 때 [ICON_PRODUCTION]생산 보너스�
 WHERE Tag = 'TXT_KEY_BUILDING_SPACESHIP_FACTORY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Spaceship Factory increases the speed at which a city constructs spaceship parts, and greatly boosts Science in the City. The Spaceship Factory requires one [ICON_RES_ALUMINUM] Aluminum resource, and the city must possess a Factory before it can be constructed.'
+SET Text = '우주선 공장은 도시에서 우주선 부품 제작 속도를 증가시켜줍니다. 우주선 공장은 하나의 알루미늄 자원을 필요로 하며, 도시는 항공우주국을 건설하기 전에 공장을 보유하여야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_SPACESHIP_FACTORY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -320,7 +320,7 @@ SET Text = '건설을 완료하면 알려진 모든 문명에 대한 [ICON_TOURI
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Circus reduces Boredom in a city and improves the Culture output of [ICON_RES_IVORY] Ivory. It also starts 10 turns of "We Love the King Day" in the City. Build these to combat Unhappiness from Boredom, and gain quick bursts of Culture.'
+SET Text = '서커스 극단은 도시의 무료를 감소시키고 [ICON_RES_IVORY] 상아에 문화 보너스를 제공합니다. 또한 도시에서 10턴동안 "황제 사랑 주간"을 시작합니다. 서커스 극단을 지어 불행을 감소시키고, 문화 폭발을 가져올 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_STRATEGY';
 
 INSERT INTO Language_ko_KR (
@@ -328,11 +328,11 @@ Tag, Text)
 VALUES ('TXT_KEY_BUILDING_COLOSSEUM_HELP', '시민 4명마다 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.');
 
 UPDATE Language_ko_KR
-SET Text = 'The Arena generates Tourism, reduces Boredom in a city, and grants additional Culture. Build these to combat Unhappiness from Boredom, to increase your Culture, and to improve the production of your military buildings.'
+SET Text = '투기장은 관광을 창출하고, 도시의 무료를 줄이고, 추가 문화를 제공합니다. 무료에서 오는 불행과 싸우고, 문화를 발전시키고, 군사 건물의 생산을 향상시키려면 투기장을 건설하십시오.'
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'An arena is an enclosed area, often circular or oval-shaped, designed to showcase theater, musical performances, or sporting events. The word derives from Latin harena, a particularly fine/smooth sand used to absorb blood in ancient arenas such as the Colosseum in Rome. It is composed of a large open space surrounded on most or all sides by tiered seating for spectators. The key feature of an arena is that the event space is the lowest point, allowing for maximum visibility. Arenas are usually designed to accommodate a large number of spectators.'
+SET Text = '투기장은 연극, 음악 공연, 스포츠 행사를 보여주기 위해 설계된 원형 또는 타원형의 폐쇄된 공간이다. 이 단어는 로마의 콜로세움과 같은 고대 경기장에서 피를 흡수하기 위해 사용되었던 특히 고운/매끈한 모래인 라틴 하레나에서 유래되었습니다. 관중석을 위한 계단식 좌석으로 둘러싸인 넓은 공터로 구성되어 있다. 경기장의 주요 특징은 이벤트 공간이 최저점이어서 시야를 최대한 확보할 수 있다는 점이다. 투기장은 보통 많은 관중을 수용할 수 있도록 설계됩니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BUILDINGS_COLISEUM_TEXT';
 
 UPDATE Language_ko_KR
@@ -344,7 +344,7 @@ SET Text = '건설을 완료하면 알려진 모든 문명에 대한 [ICON_TOURI
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Zoo reduces Boredom in a city, produces additional Culture, and boosts the Culture value of nearby Jungle and Forest tiles. Generates a large sum of Tourism with all known Civilizations when completed.'
+SET Text = '동물원은 도시의 무료를 줄이고, 추가 문화를 생산하며, 근처의 정글과 숲 타일의 문화 산출량을 증가시킵니다. 완료 시 모든 알려진 문명에 많은 양의 관광을 생성합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -352,7 +352,7 @@ SET Text = '[ICON_TOURISM]관광을 증가시켜주는 [COLOR_POSITIVE_TEXT]글�
 WHERE Tag = 'TXT_KEY_TECH_PRINTING_PRESS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Build the Stadium if you are going for a [COLOR_POSITIVE_TEXT]Culture Victory[ENDCOLOR], or you are having problems with happiness from Boredom in your empire. Provides a huge sum of Tourism when completed.'
+SET Text = '[COLOR_POSITION_TEXT]문화 승리[ENDCOLOR]를 목표로 하거나 제국의 무료로 인해 행복에 문제가 있는 경우 경기장을 건설하십시오. 완성 시 막대한 관광 비용을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -364,7 +364,7 @@ SET Text = '도시의 [ICON_HAPPINESS_1]행복도가 1 증가합니다. 도시�
 WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '도시의 [ICON_SPY]보안 등급이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE_HELP';
 
 UPDATE Language_ko_KR
@@ -384,7 +384,7 @@ SET Text = '국가 기념비'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_EPIC';
 
 UPDATE Language_ko_KR
-SET Text = 'A National monument is a monument constructed in order to commemorate something of national importance such as a war or the founding of the country. The term may also refer to a specific monument status, such as a national heritage site, which most national monuments are by reason of their cultural importance rather than age. The National monument aims to represent the nation, and serve as a focus for national identity.'
+SET Text = '국가 기념비 전쟁이나 건국 같은 국가적 중요성을 기념하기 위해 세워진 기념물이다. 이 용어는 또한 국가 유산과 같은 특정한 기념물 지위를 의미할 수 있는데, 대부분의 국가 기념비는 건설된 연도보다는 문화적 중요성 때문에 그러하다. 그 국가 기념비는 국가를 대표하고, 국가 정체성을 위한 초점 역할을 하는 것을 목표로 한다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_EPIC_PEDIA';
 
 UPDATE Language_ko_KR
@@ -392,51 +392,51 @@ SET Text = '국립 대학'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE';
 
 UPDATE Language_ko_KR
-SET Text = 'Philosophy is the study of general and fundamental problems, such as those connected with reality, existence, knowledge, values, reason, mind, and language. Philosophy is organized into schools of thought and distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument. In more casual speech, by extension, philosophy can refer to the most basic beliefs, concepts, and attitudes of an individual or group. The word philosophy comes from the Ancient Greek philosophia, which literally means "love of wisdom". The introduction of the terms philosopher and philosophy has been ascribed to the Greek thinker Pythagoras.'
+SET Text = '철학은 현실, 존재, 지식, 가치, 이성, 마음, 언어와 관련된 문제들과 같은 일반적이고 근본적인 문제들에 대한 학문입니다. 철학은 비판적이고, 일반적으로 체계적인 접근과 합리적인 주장에 대한 의존에 의해 그러한 문제들을 다루는 다른 방법들과 구별됩니다. 더 캐주얼한 말에서, 더 나아가, 철학은 개인이나 집단의 가장 기본적인 믿음, 개념, 그리고 태도를 언급할 수 있습니다. 철학이라는 단어는 문자 그대로 "지혜에 대한 사랑"을 의미하는 고대 그리스 철학에서 유래했습니다. 철학자와 철학이라는 용어의 도입은 그리스 사상가 피타고라스에 기인합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder gives all land units built in this city (past and future) the "Morale" promotion, increasing their combat strength by +10%. +1 [ICON_PRODUCTION] Production in the City for every 5 [ICON_CITIZEN] Citizens. Increases the Military Unit Supply Cap from Population in the City by 10%. Also creates a free Great Writer upon completion. The Heroic Epic can be constructed when a city has a barracks.'
+SET Text = '이 국가 불가사의는 이 도시에서 생산된/생산될 모든 지상 유닛에게 전투력을 +10% 증가시키는 "사기" 승급을 제공합니다. 도시의 시민 5명당 +1 [ICON_PRODUCTION] 생산을 얻습니다.  군사 유닛 보급 한도을 도시 인구의 10% 만큼 늘립니다. 또한 작성 시 무료 위대한 작가를 제공합니다. 영웅 서사시를 건설하려면 도시에 병영이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder increases the [ICON_GREAT_PEOPLE] Great People generation of a city by 25%. Receive [ICON_CULTURE] Culture when a [ICON_CITIZEN] Citizen is born in the City, and [ICON_GOLDEN_AGE] Golden Age Points whenever you unlock a policy. It also provides +1 [ICON_CULTURE] Culture. A city must have a monument before it can construct a National Monument.'
+SET Text = '이 국가 불가사의는 도시의 [ICON_GREAT_PEOPLE] 위인 출현율을 25% 증가시킵니다. 도시에 [ICON_CITIZEN] 시민이 태어날 때 [ICON_CULTURE] 문화를 제공하고, 정책을 채택하면 [ICON_GOLDEN_AGE] 황금기 점수를 제공합니다. +1 [ICON_CULTURE] 문화를 제공합니다. 국가 기념비를 건설하려면 도시에 기념비가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_EPIC_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder provides +2 [ICON_HAPPINESS_1] Happiness, +1 [ICON_CULTURE] Culture, and reduces [ICON_HAPPINESS_3] Boredom, and generates +10% [ICON_CULTURE] Culture and [ICON_GOLD] Gold during "We Love the King Day" in the City where it is built. A city must have an Arena before it can construct a Circus Maximus.'
+SET Text = '이 국가 불가사의는 +2 [ICON_HAPPINESS_1] 행복, +1 [ICON_CULTURE] 문화를 제공하고 [ICON_HAPPINESS_3] 무료가 감소하고, 국왕 경축일 동안 이 도시의 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드가 10% 증가합니다. 원형 경기장을 건설하려면 도시에 투기장이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The East India Company increases the amount of [ICON_GOLD] Gold a city generates and reduces [ICON_HAPPINESS_3] Poverty. Resource Diversity Modifiers for Trade Routes from this City increase by 25% if positive, and decrease by 25% if negative. You also receive a free copy of all Luxury Resources around the City.[NEWLINE][NEWLINE]Trade routes other players make to a city with an East India Company will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route.'
+SET Text = '동인도 회사는 도시가 생성하는 [ICON_GOLD] 골드를 증가시키고 [ICON_HAPPINESS_3] 빈곤을 감소시킵니다. 이 도시 교역로의 자원 다양성 수치가 양수면 25% 증가시키고 음수면 25% 감소시킵니다. 동인도 회사가 건설된 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로는 도시의 주인에게 [ICON_GOLD]골드를 추가로 4 생성하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 2 증가합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_TREASURY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The School of Philosophy National Wonder produces [ICON_RESEARCH] Science and [ICON_CULTURE] Culture, especially during [ICON_GOLDEN_AGE] Golden Ages. A city must have a library before it can construct a School of Philosophy.'
+SET Text = '국립 대학 국가 불가사의는 [ICON_RESEARCH] 과학과 [ICON_CULTURE] 문화를 생성하고, [ICON_GOLDEN_AGE] 황금기에 추가로 생성합니다. 국립 대학을 건설하려면 도시에 도서관이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Ironworks National Wonder provides 2 [ICON_RES_IRON] Iron, increases [ICON_PRODUCTION] Production in a city by 10, and generates [ICON_RESEARCH] Science every time you construct a building. A city must have a Forge before it can construct an Ironworks.'
+SET Text = '제철소 국가 불가사의는 [ICON_RES_IRON] 철 2개를 제공하고, 도시의 [ICON_PRODUCTION] 생산을 10 증가시키며 건물을 건설할 때마다 [ICON_RESEARCH] 과학을 제공합니다. 제철소를 건설하려면 도시에 대장간이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_IRONWORKS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Oxford University National Wonder provides +1 [ICON_CULTURE] Culture, and reduces [ICON_HAPPINESS_3] Illiteracy. +50 [ICON_CULTURE] Culture every time you research a Technology. The city must have a university before it can construct Oxford University.'
+SET Text = '옥스포드 대학교 국가 불가사의는 +1 [ICON_CULTURE] 문화를 제공하고, [ICON_HAPPINESS_3] 문맹을 감소시킵니다. 기술을 연구할 때마다 +50 [ICON_CULTURE] 문화를 얻습니다. 옥스포드 대학교를 건설하려면 도시에 대학이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder produces +1 [ICON_CULTURE] Culture for every 4 [ICON_CITIZEN] Citizens in the City, and +10% [ICON_CULTURE] Culture for the City. It cannot be constructed unless the city has an Opera House.'
+SET Text = '이 국가 불가사의는 도시의  [ICON_CITIZEN] 시민 4명마다 +1 문화를 제공하고, 도시의 [ICON_CULTURE] 문화를 +10% 증가시킵니다. 에르미타슈 박물관을 건설하려면 도시에 오페라 하우스가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'An important defensive National Wonder for a technology-driven civilization. Reduces [ICON_HAPPINESS_3] Distress in all Cities. The National Intelligence Agency provides an additional spy, levels up all your existing spies, and improves city Security Level by 15%. Empires with a lot of offensive spies will benefit greatly from this building. A city must have a Police Station before it can construct the National Intelligence Agency.'
+SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 모든 도시의 [ICON_HAPPINESS_3] 곤경이 감소합니다.  추가 [ICON_SPY]스파이 1명이 생기며 모든 기존 [ICON_SPY]스파이의 레벨이 오릅니다. 이 도시에서 [ICON_SPY]보안 등급이 15% 증가합니다. 공격용 스파이가 많은 제국은 이 건물에서 큰 이익을 얻을 것입니다. 국가정보원을 건설하려면 도시에 경찰서가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'An important building for a civilization trying to spread their religion world-wide from an empire with few, populous cities. A city must have a Temple before it can construct the Grand Temple.'
+SET Text = '도시 인구가 적은 제국으로부터 그들의 종교를 전 세계에 전파하려는 문명에게 중요한 건물입니다. 대사원을 건설하려면 도시에 사원이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_GRAND_TEMPLE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'With its massive boost to [ICON_TOURISM] Tourism, the National Visitor Center is an excellent choice for civilizations that are trying to achieve a Culture victory, or attempting to increase your ideological impact on other civilizations. Build it in your top [ICON_TOURISM] Tourism city that has a Hotel.'
+SET Text = '[ICON_TOURISM] 관광에 엄청난 보너스를 주어, 외국인 관광 안내소는 문화 승리를 달성하기 위해 노력하고 있거나 다른 문명들에 대한 이념 압력을 증가시키려는 문명들을 위한 훌륭한 선택입니다. 이 건물을 건설하려면 도시에 호텔이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_TOURIST_CENTER_STRATEGY';
 
 -- Help Text
@@ -455,7 +455,7 @@ SET Text = '"국왕 경축일"이 열리는 동안 도시의 [ICON_CULTURE]문�
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_MAXIMUS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]합니다. 이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 이 도시의 모든 도시의 [ICON_GOLD]빈곤에서 오는 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]세관[ENDCOLOR]이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
+SET Text = '이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]합니다. 이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 모든 도시의 [ICON_GOLD]빈곤에서 오는 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]세관[ENDCOLOR]이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP';
 
 UPDATE Language_ko_KR
@@ -555,7 +555,7 @@ SET Text = '상코레 대학'
 WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_OF_DJENNE';
 
 UPDATE Language_ko_KR
-SET Text = 'As the center of an Islamic scholarly community, the University of Sankore was very different in organization from the universities of medieval Europe. It had no central administration other than the Emperor. It had no student registers but kept copies of its student publishings. It was composed of several entirely independent schools or colleges, each run by a single master or imam. Students associated themselves with a single teacher, and courses took place in the open courtyard of the mosque or at private residences.'
+SET Text = '이슬람 학자들의 공동체의 중심으로서, 상코레 대학은 중세 유럽의 대학들과는 조직적으로 매우 달랐습니다. 황제 외에는 중앙 행정이 없었습니다. 학생부는 없었지만 학생 출판물의 사본을 보관하고 있었습니다. 각각 한 명의 마스터나 이맘에 의해 운영되는, 완전히 독립적인 몇몇 학교나 대학들로 구성되었습니다. 학생들은 한 명의 선생님과 결부되었고, 수업은 모스크의 열린 뜰이나 개인 주택에서 열렸습니다.'
 WHERE Tag = 'TXT_KEY_WONDER_MOSQUE_OF_DJENNE_DESC';
 
 UPDATE Language_ko_KR
@@ -713,11 +713,11 @@ SET Text = '세계 시민 의정서를 완료하면 [ICON_VICTORY_CULTURE][COLOR
 WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Global citizenship is idea of all persons having rights and civic responsibilities that come with being a member of the World, with whole-world philosophy and sensibilities, rather than as a citizen of a particular nation or place. The idea is that ones identity transcends geography or political borders and that responsibilities or rights are derived from membership in a broader class: ''humanity.'' This does not mean that such a person denounces or waives their nationality or other, more local identities, but such identities are given ''second place'' to their membership in a global community. Extended, the idea leads to questions about the state of global society in the age of globalization. In general usage, the term may have much the same meaning as ''world citizen'' or cosmopolitan, but it also has additional, specialized meanings in differing contexts. Various organizations, such as the World Service Authority, have advocated global citizenship.'
+SET Text = '세계 시민권은 특정 국가나 지역의 시민으로서가 아니라, 전 세계의 철학과 감성을 가진 세계의 일원이 되는 것과 함께 오는 권리와 시민적 책임을 가진 모든 사람들의 아이디어입니다. 한 사람의 정체성은 지리나 정치적 경계를 초월하고 책임이나 권리는 더 넓은 계급: "인류"의 구성원 자격에서 파생된다는 생각입니다. 이것은 그러한 사람이 그들의 국적이나 다른, 더 많은 지역 정체성을 부정하거나 포기한다는 것을 의미하지는 않지만, 그러한 정체성은 그들의 구성원 자격에 "제2의 자리"를 부여하고 글로벌 커뮤니티를 구축합니다. 확대된, 그 아이디어는 세계화 시대의 지구 사회의 상태에 대한 질문으로 이어집니다. 일반적으로, 이 용어는 "세계 시민" 또는 "범세계주의"과 같은 의미를 가질 수 있지만, 또다른 맥락에서 추가적인, 전문화된 의미를 가지고 있습니다. 세계 서비스 기관과 같은 다양한 기관들은 세계 시민권을 주장해 왔습니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = 'You must have an Ideology (with a [COLOR_POSITIVE_TEXT]Content[ENDCOLOR] population), two Tier 3 Tenets in this Ideology, and be [ICON_TOURISM] Influential with all other Civilizations in the world in order to construct this. Once you have completed these tasks, construct this project to win a Cultural Victory!'
+SET Text = '이념을 채택하고 (여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR] 상태), 3티어 이념 주의를 둘 채택하고, 다른 모든 문명에 대한 관광 단계가 [ICON_TOURISM] 매우 유명함 이상이면 건설할 수 있습니다. 이러한 작업을 완료했다면 이 프로젝트를 건설하여 문화 승리를 해내십시오!'
 WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_STRATEGY';
 
 ----내가추가
