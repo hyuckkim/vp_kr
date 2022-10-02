@@ -529,7 +529,7 @@ SET Text = '도시 국가에 대한 [ICON_INFLUENCE]영향력이 줄어드는 �
 WHERE Tag = 'TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP';
 
 UPDATE Language_ko_KR
-SET Text = '창병을 대체하는 그리스의 고유 유닛입니다. 기마 유닛을 물리치는 데 효과적인 고대 시대 유닛으로 일반 창병에 비해 [ICON_STRENGTH]전투력이 높습니다. 전투 시 [ICON_GREAT_GENERAL]위대한 장군의 출현을 앞당길 수 있으며 [COLOR_PLAYER_PURPLE]규율[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '창병을 대체하는 그리스의 고유 유닛입니다. 기마 유닛을 물리치는 데 효과적인 고대 시대 유닛으로 일반 창병에 비해 [ICON_STRENGTH]전투력이 높습니다. 전투 시 [ICON_GREAT_GENERAL]위대한 장군의 출현을 앞당길 수 있으며 [COLOR_PLAYER_PURPLE]통일[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_HOPLITE';
 
 UPDATE Language_ko_KR
