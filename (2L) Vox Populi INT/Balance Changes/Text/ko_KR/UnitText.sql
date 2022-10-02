@@ -7,27 +7,27 @@
 	
 	-- Great Merchant Text
 
-	UPDATE Language_ko_KR SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 국왕 경축일은 보유한 소도시의 수에 따라 달라집니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
+	UPDATE Language_ko_KR SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 위인은 이 과정에서 소모됩니다. 소유한 소도시마다 골드와 국왕 경축일의 길이가 25% 증가합니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
-	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MERCHANT]위대한 상인은 특별한 [COLOR_POSITIVE_TEXT]소도시[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 소도시는 많은 [ICON_GOLD]골드를 제공하고 소도시 1개마다 위대한 상인의 무역 임무에서 오는 국왕 경축일의 길이를 1턴씩 증가시킵니다. 또한 위대한 상인은 도시 국가로 이동하여 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 할 수 있습니다. 무역 임무는 대량의 [ICON_GOLD]골드를 벌어들이고 즉시 모든 도시가 국왕 경축일을 맞이하게 합니다. (만약 CSD모드를 사용하지 않았다면 도시 국가에 대한 대량의 영향력을 제공합니다.) [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY';
+	UPDATE Language_en_US SET Text = '[ICON_GREAT_MERCHANT]위대한 상인은 특별한 [COLOR_POSITIVE_TEXT]소도시[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 소도시는 많은 [ICON_GOLD]골드와 [ICON_FOOD]식량을 제공합니다. 또한 위대한 상인은 도시 국가로 이동하여 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 할 수 있습니다. 무역 임무는 대량의 [ICON_GOLD]골드를 벌어들이고 즉시 모든 도시가 국왕 경축일을 맞이하게 합니다. 무역 임무는 소유한 소도시마다 효과가 25% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.[NEWLINE][NEWLINE]소도시는 두 도시 사이를 연결하는 도로 위에 있다면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +1 제공합니다. 철도라면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +2 제공합니다. 소도시를 지나가는 교역로가 있다면 추가 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 제공합니다(도로에서 +1, 철도에서 +2).' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY';
 
 	-- Great Engineer Text
 
 	UPDATE Language_ko_KR SET Text = '이 명령을 통해 현재 도시에서 생산하고 있는 생산 활동을 가속합니다. 소유한 모든 제조소마다 가속하는 생산의 양이 25%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_HURRY_PRODUCTION_HELP';
 
-	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ENGINEER]위대한 기술자는 특별한 [COLOR_POSITIVE_TEXT]제조소[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 제조소는 대량의 [ICON_PRODUCTION]생산을 제공하고 제조소 1개마다 위대한 기술자의 생산 가속 능력을 25% 증가시킵니다. 또한 위대한 기술자로 도시의 유닛, 건물, 불가사의의 생산 속도를 증가시키는 [COLOR_POSITIVE_TEXT]생산 가속[ENDCOLOR]을 수행할 수 있습니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 기술자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY';
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ENGINEER]위대한 기술자는 특별한 [COLOR_POSITIVE_TEXT]제조소[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 제조소는 대량의 [ICON_PRODUCTION]생산을 제공합니다. 또한 위대한 기술자로 도시의 유닛, 건물, 불가사의의 생산 속도를 증가시키는 [COLOR_POSITIVE_TEXT]생산 가속[ENDCOLOR]을 수행할 수 있습니다. 생산 가속은 소유한 제조소마다 효과가 25% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 기술자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY';
 
-	-- Great Engineer Text
+	-- Great Scientist Text
 
 	UPDATE Language_ko_KR SET Text = '이 명령을 통해 기술 연구를 가속할 수 있습니다. 소유한 모든 아카데미마다 가속하는 연구의 양이 10%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_DISCOVER_TECH_HELP';
 
-	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_SCIENTIST]위대한 과학자는 특별한 [COLOR_POSITIVE_TEXT]아카데미[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 아카데미는 대량의 [ICON_RESEARCH]과학을 제공하고 아카데미 1개마다 위대한 과학자의 연구 가속 능력을 10%씩 증가시킵니다. 또한 위대한 과학자로 다음 기술의 발견을 돕는 [COLOR_POSITIVE_TEXT]연구 가속[ENDCOLOR]을 수행할 수 있습니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 과학자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY';
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_SCIENTIST]위대한 과학자는 특별한 [COLOR_POSITIVE_TEXT]아카데미[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 아카데미는 대량의 [ICON_RESEARCH]과학을 제공합니다. 또한 위대한 과학자로 다음 기술의 발견을 돕는 [COLOR_POSITIVE_TEXT]연구 가속[ENDCOLOR]을 수행할 수 있습니다. 연구 가속은 소유한 아카데미마다 효과가 10% 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 과학자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY';
 
 
 	-- Changed how Musician Great Tour Works
-	UPDATE Language_ko_KR SET Text = '이 명령의 가치는 제작한 [ICON_GREAT_WORK]걸작의 수에 따라 달라집니다. 소유한 걸작 음악이 많을수록 순회 공연의 위력이 더 강해집니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안 100% 증가하고, (소유한 걸작 음악 1개마다 1턴씩 증가) [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다. 위인은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE]해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 이 명령을 수행할 수 없습니다.' WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP';
+	UPDATE Language_ko_KR SET Text = '순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안 100% 증가하고, (소유한 걸작 음악 1개마다 1턴씩 증가) [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다. 위인은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE]해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 이 명령을 수행할 수 없습니다.' WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP';
 
-	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가는 [COLOR_POSITIVE_TEXT]걸작 음악[ENDCOLOR]([ICON_CULTURE]문화 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 음악은 빈 슬롯이 있는 적절한 건물(오페라 극장, 방송탑 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 음악가는 다른 문명으로 건너가 [COLOR_POSITIVE_TEXT]순회 공연[ENDCOLOR]을 열 수 있습니다. 해당 수치는 제작한 [ICON_GREAT_WORK]걸작의 수 및 해당 문명에 관련된 관광 수치에 따라 달라집니다. 소유한 걸작 음악이 많을수록 순회 공연의 위력이 더 강해집니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안 100% 증가하고, (소유한 걸작 음악 1개마다 1턴씩 증가) [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 음악가는 사라집니다. 해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 공연을 열 수 없습니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY';
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가는 [COLOR_POSITIVE_TEXT]걸작 음악[ENDCOLOR]([ICON_CULTURE]문화 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 음악은 빈 슬롯이 있는 적절한 건물(오페라 극장, 방송탑 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 음악가는 다른 문명으로 건너가 [COLOR_POSITIVE_TEXT]순회 공연[ENDCOLOR]을 열 수 있습니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안, 소유한 걸작 음악 1개마다 1턴씩 더 100% 증가하고 [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 음악가는 사라집니다. 해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 공연을 열 수 없습니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY';
 
 	-- Artist
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ARTIST]위대한 예술가는 [COLOR_POSITIVE_TEXT]걸작 예술품[ENDCOLOR]([ICON_CULTURE]문화 및 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 예술품은 빈 슬롯이 있는 적절한 건물(궁전, 박물관, 대성당 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 예술가는 대량의 황금기를 제공합니다. 이 점수는 [ICON_GOLDEN_AGE]황금기 점수 산출량, [ICON_TOURISM]관광 산출량, 테마가 맞춰진 [ICON_GREAT_WORK]걸작의 세트 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 예술가는 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY';
