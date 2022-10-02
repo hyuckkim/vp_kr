@@ -737,7 +737,7 @@
 			<Text>{1_PlayerAdj} 지역 순회 공연 완료!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET">
-			<Text>{1_PlayerAdj} 음악가들이 최근 당신의 문명에 순회 공연을 다녀갔고 열렬한 환영을 받았습니다. 당신에 대한 {1_PlayerAdj} 문화 영향력이 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 동안 [COLOR_NEGATIVE_TEXT]100%[ENDCOLOR] [ICON_TOURISM] 증가합니다.</Text>
+			<Text>{1_PlayerAdj} 음악가들이 최근 당신의 문명에 순회 공연을 다녀갔고 열렬한 환영을 받았습니다. 당신에 대한 {2_Player} 문화 영향력이 [COLOR_NEGATIVE_TEXT]{3_Num}[ENDCOLOR]턴 동안 [COLOR_NEGATIVE_TEXT]100%[ENDCOLOR] [ICON_TOURISM] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET_S">
 			<Text>{1_PlayerName}의 음악가가 도착했습니다!</Text>
