@@ -399,7 +399,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_IRONCLAD';
 
 	UPDATE Language_ko_KR
-	SET Text = '현대 기갑 유닛과 전차를 전문으로 상대하는 유닛입니다. 산악 타일 위에 떠 있을 수 있습니다.'
+	SET Text = '현대 기갑 유닛과 전차를 전문으로 상대하는 유닛입니다. 산악과 해안 타일 위에 떠 있을 수 있습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP';
 
 	UPDATE Language_ko_KR
@@ -442,7 +442,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_LANCER';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Cavalry mounted units are devastating against all units, but somewhat vulnerable on the defensive. Use them to destroy other units and escape via their ability to move after attacking.'
+	SET Text = 'Ranged Industrial-Era mounted unit, useful for flanking, harassment, and hit-and-run tactics.'
 	WHERE Tag = 'TXT_KEY_UNIT_CAVALRY_STRATEGY';
 	
 	INSERT INTO Language_ko_KR (Tag, Text)
@@ -452,10 +452,10 @@
 	VALUES ('TXT_KEY_CIV5_CUIRASSIER_PEDIA', 'Cuirassiers, from French cuirassier, were cavalry equipped with armour and firearms, first appearing in late 15th-century Europe. This French term means "the one with a cuirass" (cuirasse), the breastplate armour which they wore. The first cuirassiers were produced as a result of armoured cavalry, such as the man-at-arms and demi-lancer, discarding their lances and adopting the use of pistols as their primary weapon. In the later 17th century, the cuirassier lost his limb armour and subsequently employed only the cuirass (breastplate and backplate), and sometimes a helmet. By this time, the sword was the primary weapon of the cuirassier, pistols being relegated to a secondary function.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_CUIRASSIER_STRATEGY', 'Cuirassiers are powerful Renaissance-Era units capable of rapid movement and deadly ranged attacks. Use them to harass the enemy and support your war effort.');
+	VALUES ('TXT_KEY_CIV5_CUIRASSIER_STRATEGY', 'Cuirassiers are Renaissance-Era units capable of rapid movement and ranged attacks. Use them to harass the enemy and support your war effort.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_CUIRASSIER_HELP', '르네상스 시대의 강력한 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.');
+	VALUES ('TXT_KEY_CIV5_CUIRASSIER_HELP', '르네상스 시대의 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
 	VALUES ('TXT_KEY_DESC_MOUNTED_BOWMAN', '중산병');
@@ -464,10 +464,10 @@
 	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_PEDIA', 'Mounted knights armed with lances proved ineffective against formations of pikemen combined with crossbowmen whose weapons could penetrate most knights'' armor. The invention of pushlever and ratchet drawing mechanisms enabled the use of crossbows on horseback, leading to the development of new cavalry tactics. Knights and mercenaries deployed in triangular formations, with the most heavily armored knights at the front. Some of these riders would carry small, powerful all-metal crossbows of their own. Crossbows were eventually replaced in warfare by more powerful gunpowder weapons, although early guns had slower rates of fire and much worse accuracy than contemporary crossbows. Later, similar competing tactics would feature harquebusiers or musketeers in formation with pikemen (pike and shot), pitted against cavalry firing pistols or carbines.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_STRATEGY', 'Heavy Skirmishers are powerful Medieval-Era units capable of rapid movement and deadly ranged attacks. Use them to harass the enemy and support your war effort, but be careful about letting them get caught alone.');
+	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_STRATEGY', 'Heavy Skirmishers are Medieval-Era units capable of rapid movement and ranged attacks. Use them to harass the enemy and support your war effort, but be careful about letting them get caught alone.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_HELP', '강력한 중세 시대의 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.');
+	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_HELP', '중세 시대의 원거리 기마 유닛입니다. 치고 빠지기, 측면 공격, 적을 괴롭히는 전술에 유용합니다.');
 
 	-- Ranged
 	UPDATE Language_ko_KR

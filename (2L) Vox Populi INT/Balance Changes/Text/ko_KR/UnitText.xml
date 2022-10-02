@@ -152,7 +152,7 @@
 			<Text>초원의 유목민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]공격 시[ENDCOLOR]측면 공격 보너스 적용.[NEWLINE][COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR] 10% 증가.</Text>
 		</Row>
 		<!-- Sweden -->
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
@@ -477,11 +477,17 @@
 		</Row>
 		<!-- Ranged Mounted Line -->
 		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN">
+			<Text>빔 액슬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN_HELP">
+			<Text>험지 (숲, 정글, 언덕) 이동 시 추가 이동력 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE">
 			<Text>기마병 교리</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN_HELP">
-			<Text>험지에서 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-20%[ENDCOLOR][NEWLINE]평지에서 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+40%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>측면 공격 시 2기로 취급[ENDCOLOR][NEWLINE]원거리 유닛 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<!-- Civilian -->
 		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST">
