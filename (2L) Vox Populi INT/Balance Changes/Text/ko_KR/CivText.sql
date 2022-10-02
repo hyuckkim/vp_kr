@@ -161,7 +161,7 @@ WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY';
 --------------------
 
 UPDATE Language_ko_KR
-SET Text = '"국왕 경축일"을 대체하는 카니발을 가집니다. [ICON_GOLDEN_AGE]황금기가 시작되면 [ICON_GOLDEN_AGE]황금기 점수의 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]가 [ICON_GOLD]골드 및 [ICON_TOURISM]관광으로 전환되고 모든 도시가 10턴 동안 [COLOR_POSITIVE_TEXT]카니발[ENDCOLOR]을 맞이합니다. "카니발"이 열리는 동안 모든 요구에 의한 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 문화가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
+SET Text = '"국왕 경축일"을 대체하는 카니발을 가집니다. [ICON_GOLDEN_AGE]황금기가 시작되면 [ICON_GOLDEN_AGE]황금기 점수의 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]가 [ICON_GOLD]골드 및 [ICON_TOURISM]관광으로 전환되고 모든 도시가 10턴 동안 [COLOR_POSITIVE_TEXT]카니발[ENDCOLOR]을 맞이합니다. "카니발"이 열리는 동안 모든 요구에 의한 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CARNIVAL';
 
 UPDATE Language_ko_KR
@@ -173,7 +173,7 @@ SET Text = 'This melee unit earns points toward starting a Golden Age when it de
 WHERE Tag = 'TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '브라질 소방목 벌목장을 건설합니다. 숲 및 정글 타일의 특성을 온전히 유지한 채 [ICON_RES_BRAZILWOOD]브라질 소방목원 타일의 산출량을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가시킵니다. 사치 자원에 인접하여 건설할 수 있고 다른 브라질 소방목 벌목장에 인접하여 건설할 수 없습니다.'
+SET Text = '브라질 소방목 벌목장을 건설합니다. 숲 및 정글 타일의 특성을 온전히 유지한 채 [ICON_RES_BRAZILWOOD]브라질 소방목원 타일의 산출량을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가시킵니다. 담수에는 건설할 수 없고 다른 브라질 소방목 벌목장에 인접하여 건설할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_BUILD_BRAZILWOOD_CAMP_HELP';
 
 UPDATE Language_ko_KR
@@ -181,11 +181,11 @@ SET Text = '숲 및 정글 타일의 특성을 온전히 유지한 채 해당 �
 WHERE Tag = 'TXT_KEY_BUILD_BRAZILWOOD_CAMP_REC';
 
 UPDATE Language_ko_KR
-SET Text = '브라질 소방목 벌목장은 숲 및 정글 타일에만 건설할 수 있으며 반드시 사치 자원과 인접해야 합니다. 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_GOLD]골드가 증가하고 [ICON_RES_BRAZILWOOD]브라질 소방목을 제공합니다.'
+SET Text = '브라질 소방목 벌목장은 담수가 아닌 숲 및 정글 타일에만 건설할 수 있으며 반드시 사치 자원과 인접해야 합니다. 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_GOLD]골드가 증가하고 [ICON_RES_BRAZILWOOD]브라질 소방목을 제공합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '브라질 소방목 벌목장은 숲 및 정글 타일에만 건설할 수 있으며 반드시 사치 자원과 인접해야 합니다. 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_GOLD]골드가 증가하고 [ICON_RES_BRAZILWOOD]브라질 소방목을 제공합니다.[NEWLINE][NEWLINE]브라질 소방목은 열대 지역에서 나는 재질이 단단한 나무로, 나무껍질에서 선명한 진홍색과 깊은 보라색을 추출하여 염료로 사용합니다. 재질이 치밀하여서 현악기, 특히 활과 고급 가구 제작에 귀중하게 쓰였습니다. 브라질 소방목 벌목은 1875년에 합성염료가 섬유 산업을 장악하고, 악기 제작에 더 좋은 목재가 발견될 때까지 계속되었습니다.'
+SET Text = '브라질 소방목 벌목장은 담수가 아닌 숲 및 정글 타일에만 건설할 수 있으며 반드시 사치 자원과 인접해야 합니다. 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_GOLD]골드가 증가하고 [ICON_RES_BRAZILWOOD]브라질 소방목을 제공합니다.[NEWLINE][NEWLINE]브라질 소방목은 열대 지역에서 나는 재질이 단단한 나무로, 나무껍질에서 선명한 진홍색과 깊은 보라색을 추출하여 염료로 사용합니다. 재질이 치밀하여서 현악기, 특히 활과 고급 가구 제작에 귀중하게 쓰였습니다. 브라질 소방목 벌목은 1875년에 합성염료가 섬유 산업을 장악하고, 악기 제작에 더 좋은 목재가 발견될 때까지 계속되었습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_TEXT';
 
 --------------------
@@ -681,7 +681,7 @@ SET Text = '유닛이 숲 및 정글 타일에서 도로가 설치된 것처럼 
 WHERE Tag = 'TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST';
 
 UPDATE Language_ko_KR
-SET Text = '약초상을 대체하는 이로쿼이의 고유 건물입니다. 도시 주변 모든 정글 및 숲 타일의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 재배지의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]숲 또는 정글 타일[ENDCOLOR]이 있어야 건설할 수 있습니다.'
+SET Text = '약초상을 대체하는 이로쿼이의 고유 건물입니다. 도시 주변 모든 정글 및 숲 타일의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 재배지의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_HELP';
 
 UPDATE Language_ko_KR
@@ -1032,18 +1032,18 @@ SET Text = 'This Tercio represents the advent of early gunpowder (''Pike and Sho
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Conquistador is a multi-purpose unit that is strong both on land and at sea. Replacing the Knight, it is an exceptional scout on land with extra visibility. It also has the ability to found new cities, but only on a foreign continent that does not contain the Spanish capital. When founded, cities built by Conquistadors start with 3 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Water Mill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Mission (Castle)[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do not apply to the buildings constructed by Conquistadors![NEWLINE][NEWLINE]In the water, the Conquistador has the defensive embarkation promotion that allows it to defend itself against naval units. It also suffers no penalty when attacking cities, unlike the Knight.'
+SET Text = 'The Conquistador is a multi-purpose unit that is strong both on land and at sea. It also has the ability to found new cities, but only on a foreign continent that does not contain the Spanish capital. When founded, cities built by Conquistadors start with 3 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Water Mill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Mission[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do not apply to the buildings constructed by Conquistadores! The Mission is a special religious and defensive building only granted by settling Conquistadores.[NEWLINE][NEWLINE]Conquistador is much stronger than the Explorer it replaces, with much higher Combat Strength, and large bonuses to Flanking and attacking Cities. Combined with its great mobility, the Conquistador is a formidable unit, able to augment or replace your existing Medieval military.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '기사를 대체하는 스페인의 고유 유닛입니다. 정찰과 해외 식민지 건설에 특화된 중세 시대 유닛입니다.'
+SET Text = '기사를 대체하는 스페인의 고유 유닛입니다. 정찰과 해외 식민지 건설에 특화된 중세 시대 유닛입니다. 초과 승급과 선봉 승급을 얻습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_HELP';
 
 --------------------
 -- Shoshone
 --------------------
 UPDATE Language_ko_KR
-SET Text = '기병대를 대체하는 쇼쇼니의 고유 유닛입니다. 기병대보다 이른 시기에 생산할 수 있습니다. 기병대보다 빠르고, 약탈 시 이동력 소모가 없으며 근접 공격을 받으면 후퇴할 수 있습니다.'
+SET Text = '기병대를 대체하는 쇼쇼니의 고유 유닛입니다. 기병대보다 빠르고, 근접 공격을 받으면 후퇴할 수 있으며 약탈 시 과학을 획득합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHOSHONE_COMANCHE_RIDERS';
 
 UPDATE Language_ko_KR
