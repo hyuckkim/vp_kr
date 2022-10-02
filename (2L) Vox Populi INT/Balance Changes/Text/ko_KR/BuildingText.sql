@@ -125,8 +125,12 @@ SET Text = '등대는 해안가 도시에서만 건설할 수 있습니다. 등�
 WHERE Tag = 'TXT_KEY_BUILDING_LIGHTHOUSE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '만일 한 도시가 수도의 등대나 도로로 연결되어 있다면 (각 도시에 등대가 있어야 합니다) 그 도시는 수도와 "무역로"를 가지고 있다고 말합니다. 각각의 무역로는 두 도시의 크기에 따라 일정량의 골드를 턴당 벌게 됩니다.'
+SET Text = '만일 한 도시가 수도의 [COLOR_YELLOW]등대나[ENDCOLOR] 도로로 연결되어 있다면 (각 도시에 등대가 있어야 합니다) 그 도시는 수도와 "무역로"를 가지고 있다고 말합니다. 각각의 무역로는 두 도시의 크기에 따라 일정량의 골드를 턴당 벌게 됩니다.'
 WHERE Tag = 'TXT_KEY_GOLD_TRADE_ROUTES_HEADING3_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]도시 연결[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GOLD_TRADE_ROUTES_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
 SET Text = '이 도시에서 다른 문명으로 출발하는 해상 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면 현재 [ICON_CULTURE]문화 및 [ICON_TOURISM]관광 산출량에 기반한 [ICON_TOURISM]관광을 제공합니다.[NEWLINE][NEWLINE]도시 주변 해양 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 해양 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 해상 교역로 범위가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하고 교역로의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 해상 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 도시의 체력이 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.'

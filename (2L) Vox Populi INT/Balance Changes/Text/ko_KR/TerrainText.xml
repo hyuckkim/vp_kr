@@ -134,7 +134,7 @@
 			<Text>가장 가까운 도시 주변에 영토를 제공하는 부족을 발견하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_TITLE">
-			<Text>황금기 점수</Text>
+			<Text>[COLOR_YELLOW]황금기 점수[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_BODY">
 			<Text>고대 유적에는 [ICON_GOLDEN_AGE]황금기 점수를 제공하는 유물이 포함되어 있습니다.</Text>
@@ -143,7 +143,7 @@
 			<Text>황금기 점수?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_TITLE">
-			<Text>생산</Text>
+			<Text>[COLOR_YELLOW]생산[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_BODY">
 			<Text>고대 유적에는 가까운 도시에 [ICON_PRODUCTION]생산을 제공하는 물자가 들어있습니다.</Text>
@@ -152,7 +152,7 @@
 			<Text>생산?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_TITLE">
-			<Text>타일</Text>
+			<Text>[COLOR_YELLOW]타일[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_BODY">
 			<Text>고대 유적에는 정착민들이 있습니다. 이 정착민들은 당신의 가장 가까운 도시에 무료 영토를 제공합니다.</Text>

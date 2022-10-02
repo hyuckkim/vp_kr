@@ -3,7 +3,7 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT">
-			<Text>역사적 사건</Text>
+			<Text>[COLOR_GREEN]역사적 사건[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_BODY">
 			<Text>역사적 사건은 게임 중에 발생할 수 있는 기념비적인 업적을 말합니다. 역사적 사건은 계획 또는 사용자 상호 작용이 필요하므로 다른 문명에 대한 문화적 영향력을 얻는 역동적인 방법입니다. 다음 역사적 이벤트 중 하나가 완료되면 최근 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 산출을 기반으로 알려진 모든 문명에게 [ICON_TOURISM] 관광 부스트를 받습니다: [NEWLINE][NEWLINE][ICON_BULLET] [ICON_GREAT_PEOPLE] 위인 획득[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 세계 불가사의 건설[NEWLINE][ICON_BULLET] [ICON_WAR] 전쟁 승리 (전쟁 점수 25+)[NEWLINE][ICON_BULLET] 새 [ICON_RESEARCH] 시대 진입[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 황금기 시작 ('문화유산' 정책 채택 시)[NEWLINE][ICON_BULLET] [ICON_RES_ARTIFACTS] 유적 발굴 완료 ('문화유산' 정책 채택 시)[NEWLINE][ICON_BULLET] [ICON_CITY_STATE] 도시 국가와 교역 완료 ('영사관' 정책 채택 시)[NEWLINE][NEWLINE]이 이벤트에서 받는 관광의 양은 지난 몇 턴 동안의 턴당 문화 및 관광을 기반으로 합니다. 이 값은 제국의 도시 수와 대상 문명의 관광 보정치에 따라 조정됩니다. 마지막으로, 당신이 받는 관광의 양은 또한 몇 가지 사회 정책과 이데올로기적 신조뿐만 아니라 지도자 특성, 건물, 제국의 도시 수에 의해 수정됩니다.</Text>
@@ -12,7 +12,7 @@
 			<Text>역사적 사건이 무엇입니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE">
-			<Text>저항</Text>
+			<Text>[COLOR_GREEN]저항[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE_BODY">
 			<Text>저항은 하나 이상의 수도를 정복한 문명이 추가 수도를 점령하는 것이 점점 더 어려워지는 메커니즘입니다. 전투 중에 보정치 [COLOR_POSITIVE_TEXT]저항(지배)[ENDCOLOR]이 자신(보너스) 또는 적(페널티)에 표시되는 것을 볼 수 있습니다. 이 보정치는 당신이나 당신의 상대가 적 수도를 점령한 후에만 나타납니다. 보정치는 소유한 외국(도시 국가가 아닌) 수도의 수와 총 외국 수도의 수에 따라 변경됩니다. 한 플레이어가 더 많은 수도를 점령할수록 이 페널티는 더 높아집니다!</Text>
@@ -21,7 +21,7 @@
 			<Text>저항이 무엇입니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_PARTISANS">
-			<Text>반란군</Text>
+			<Text>[COLOR_GREEN]반란군[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_PARTISANS_BODY">
 			<Text>도시를 파괴하기로 선택하면 매 턴마다 도시가 이 도시를 정복한 문명에 충성하는 반란군이 생성될 수 있습니다. 이 유닛은 문명과 아직 전쟁 중인 경우에만 생성됩니다. 더 이상 전쟁 중이 아닌 경우 생성된 반란군은 야만인으로 간주됩니다. 반란군의 갑작스러운 출현으로 전세를 역전시킬 수 있으므로 공격적으로 파괴하는 적의 도시에 주의하십시오!</Text>
@@ -30,7 +30,7 @@
 			<Text>반란군이 무엇입니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_WAR_WEARINESS_HEADING3_TITLE">
-			<Text>전쟁 피로도</Text>
+			<Text>[COLOR_GREEN]전쟁 피로도[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_WAR_WEARINESS_HEADING3_BODY">
 			<Text>전쟁, 전쟁은 절대 변하지 않습니다. 글쎄요, 실제로 그렇습니다. 게임이 진행됨에 따라 제국의 시민들은 장기간의 분쟁의 위험을 점점 더 인식하게 되며 [COLOR_NEGATIVE_TEXT]전쟁 피로도[ENDCOLOR]를 증가시킬 것입니다. 전쟁 피로도는 두 가지 요인을 기반으로 계산됩니다. 현재 가장 긴 전쟁 기간(그 길이에 상관없이)과 현재 싸우고 있는 적과의 단일 전투에서 도시와 군대가 입은 최대 피해량입니다. 도시를 잃거나 유닛이 파괴될 때마다 전쟁 피로도가 증가하여 세 가지 주요 효과가 발생합니다.[NEWLINE][ICON_BULLET] 전쟁 피로로 인한 불행[NEWLINE][ICON_BULLET] 군사 유닛의 생산 및 금 비용 증가[NEWLINE][ICON_BULLET] 군사 보급 한도 최대값 감소[NEWLINE]후자의 두 상한은 75%입니다. 단일 충돌 시 과도한 확장에 주의하십시오!</Text>
@@ -39,7 +39,7 @@
 			<Text>전쟁 피로도가 무엇입니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MILITARY_SUPPLY_HEADING3_TITLE">
-			<Text>군사 보급</Text>
+			<Text>[COLOR_GREEN]군사 보급[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MILITARY_SUPPLY_HEADING3_BODY">
 			<Text>한 번에 배치할 수 있는 최대 군사 유닛 수를 군사 보급 한도라고 합니다. 상단 패널의 [ICON_WAR] 기호 옆에 표시된 이 숫자는 두 가지 요인에 따라 증가합니다. 모든 도시의 총 인구와 군사 보급 한도를 증가시키는 건물 또는 정책입니다. 병영과 같은 일부 건물은 보급 한도를 고정된 양만큼 늘립니다. 성벽과 같은 다른 것들은 도시 인구의 일정 비율만큼 보급 한도를 증가시킵니다.[NEWLINE][NEWLINE] 군사 보급 한도는 병영과 같은 정적 요소에서 증가하고 시간이 지남에 따라 인구로 인한 퍼센트 보너스는 제국의 기술 수준에 따라 감소합니다. 이를 극복하고 대규모 군대를 배치하려면 점점 더 많은 퍼센트 보너스가 필요합니다![NEWLINE][NEWLINE]어떤 이유로든 군사 유닛 보급 한도를 초과하면 모든 도시에서 5%의 생산 및 식량이 감소합니다(모자란 유닛 당).</Text>

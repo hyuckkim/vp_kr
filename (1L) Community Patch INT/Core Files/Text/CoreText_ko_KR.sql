@@ -627,20 +627,41 @@ SET Text = '상대방이 거래 가능한 도시를 가지고 있지 않거나 �
 WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM';
 
 -- Civilopedia Refresh
+
+UPDATE Language_ko_KR
+SET Text = '문명 백과사전에 잘 오셨습니다! 여기서 게임에 대한 자세한 설명을 찾아볼 수 있습니다. 특정 주제에 대한 항목을 검색하려면 "검색" 버튼을 이용해 주십시오. 화면 상단의 주제를 클릭하면, 해당하는 각 항목으로 이동하게 됩니다. 화면의 왼쪽에 있는 탐색바를 통해 항목의 세부 내용을 찾아볼 수 있습니다.[NEWLINE][NEWLINE]화면 왼쪽 상단에 위치한 "앞으로" "뒤로" 버튼을 이용하시면 탐색에 도움이 될 것입니다. "X" 버튼을 누르시면 문명 백과사전을 닫고 게임으로 돌아갑니다.[NEWLINE][NEWLINE]Community Patch에 잘 오셨습니다. Community Patch는 버그 수정과 AI 향상을 위한 모드입니다. [COLOR_YELLOW]Community Patch에서 바뀐 내용은 시빌로피디아에서 노란색으로 하이라이트됩니다[ENDCOLOR].[NEWLINE][NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]문명메트로폴리스 2016 한글 패치 v2.4[ENDCOLOR][NEWLINE][COLOR_MAGENTA]디시인사이드 문명 갤러리 Vox populi 한글패치[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_PEDIA_HOME_PAGE_HELP_TEXT';
+
+UPDATE Language_ko_KR
+SET Text = '문명 V는 먼 옛날부터 훗날 멀지 않은 미래까지 모든 인간 역사를 다룹니다. 문명 백과사전의 "게임 개념" 부분은 게임에서 가장 중요한 부분 중에서 도시를 건설하고 관리하는 방법, 전쟁에서 싸우는 방법, 기술을 연구하는 방법, 그 외 기타 등등을 설명합니다. 왼쪽 탐색바는 주요 개념을 표시하며, 개념의 세세한 부분을 보기 위해서는 항목을 클릭하십시오.[NEWLINE][NEWLINE]게임 개념 전체를 처음부터 하나하나 볼 수도 있겠지만, 이 게임의 개발 책임자가 아닌 이상, 웬만하면 게임을 시작한 후 필요할 때마다 확인하는 것을 추천합니다. 당신이 게임 개념을 다 읽었더라도, 게임 초반에 진행하는 방법을 이해하기 위해서는 게임 속 튜토리얼이 필요하게 될 것입니다.[NEWLINE][NEWLINE][COLOR_YELLOW]커뮤니티 패치에서 바뀐 내용은 시빌로피디아에서 노란 색으로 하이라이트됩니다[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_PEDIA_GAME_CONCEPT_HELP_TEXT';
+
 UPDATE Language_ko_KR
 SET Text = '입힌 피해가 받은 피해보다 더 큰 경우 적 유닛 후퇴[NEWLINE]후퇴 불가 시 평소보다 피해 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '하나의 전투 유닛만이 동시에 한 도시에 주둔하는 것이 가능합니다. 만약 군사 유닛이 도시에 "주둔"하면 도시에 상당한 방어력 보너스를 추가하게 됩니다. 만약 도시가 주둔군이 있는 동안 공격을 받는다면, 주둔군은 그 피해의 일부를 도시에 분산시킬 것이고 따라서 그 도시는 훨씬 더 많은 보호를 제공할 것입니다. 그러나 주둔군은 이런 식으로 파괴될 수 있으니 주의하십시오.[NEWLINE][NEWLINE]추가적인 전투 유닛이 도시를 통과할 수 있지만, 거기서 턴을 끝낼 수는 없습니다. (그래서 수비대가 있는 도시에 전투 유닛을 생산하면 두 유닛 중 하나를 밖으로 옮겨야 턴이 끝납니다.)'
+SET Text = '하나의 전투 유닛만이 동시에 한 도시에 주둔하는 것이 가능합니다. 만약 군사 유닛이 도시에 "주둔"하면 도시에 상당한 방어력 보너스를 추가하게 됩니다. 만약 도시가 주둔군이 있는 동안 공격을 받는다면, [COLOR_YELLOW]주둔군은 도시의 피해의 일부를 분산시킬 것이고 따라서 그 도시는 훨씬 더 많은 보호를 제공할 것입니다. 그러나 주둔군은 이런 식으로 파괴될 수 있으니 주의하십시오.[ENDCOLOR][NEWLINE][NEWLINE]추가적인 전투 유닛이 도시를 통과할 수 있지만, 거기서 턴을 끝낼 수는 없습니다. (그래서 수비대가 있는 도시에 전투 유닛을 생산하면 두 유닛 중 하나를 밖으로 옮겨야 턴이 끝납니다.)'
 WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 수 있습니다. 도시에 유닛을 주둔시키면 유닛 전투력 일부가 도시 전투력에 더해집니다. 도시가 공격받으면 주둔군이 받는 모든 피해의 일부가 도시로 분산됩니다. 이렇게 하면 주둔군이 파괴될 수 있으니 조심하십시오! 만약 적이 도시를 정복하면 주둔한 유닛은 파괴됩니다.[NEWLINE][NEWLINE]도시에 주둔한 유닛이 주변 적 유닛을 공격할 수 있지만 도시는 주둔 보너스를 잃게됩니다. 만약 근접 공격일 경우 유닛은 평상시처럼 전투중 유닛이 피해를 입을 수 있습니다.'
+SET Text = '[COLOR_YELLOW]도시와 전투 부대[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]도시와 주둔군[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 수 있습니다. 도시에 유닛을 주둔시키면 유닛 전투력 일부가 도시 전투력에 더해집니다. [COLOR_YELLOW]도시가 공격받으면 주둔군이 받는 모든 피해의 일부가 도시로 분산됩니다. 이렇게 하면 주둔군이 파괴될 수 있으니 조심하십시오![ENDCOLOR] 만약 적이 도시를 정복하면 주둔한 유닛은 파괴됩니다.[NEWLINE][NEWLINE][COLOR_YELLOW]도시에 주둔한 유닛이 주변 적 유닛을 공격할 수 있지만 도시는 주둔 보너스를 잃게됩니다. 만약 근접 공격일 경우 유닛은 평상시처럼 전투중 유닛이 피해를 입을 수 있습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '근접 전투가 끝나면 양측 유닛은 피해를 받고 체력이 감소하게 됩니다. 체력이 0까지 떨어지게 되면 그 유닛은 파괴됩니다. 근접 전투 후에 방어측 유닛이 파괴되고 공격측 유닛이 살아남았다면 성채, 요새, 도시에서 방어하지 않는한 공격측 유닛은 방어측 유닛이 있던 타일로 이동하게 됩니다. 만약 그 타일에 민간 유닛이 있었다면 그 유닛은 공격측 유닛에게 사로잡히게 됩니다. 만약 방어측 유닛이 파괴되지 않는다면 방어측 유닛은 그 타일과 타일에 있던 민간 유닛을 보호하게 됩니다.[NEWLINE][NEWLINE]대부분의 유닛은 공격시 모든 이동력을 사용하게 됩니다. 그러나 어떤 유닛은 공격 후에 이동 가능한 능력을 갖고 있습니다. 이런 유닛은 공격 후에 파괴되지 않고 이동력이 남아있다면 이동 가능합니다.[NEWLINE][NEWLINE]전투에 참가했던 유닛들 중 살아남은 모든 유닛은 승급하기 위해 필요한 경험치를 얻게 됩니다.'
+SET Text = '[COLOR_YELLOW]근접 전투의 결과[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_MELEERESULTS_HEADING3_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '근접 전투가 끝나면 양측 유닛은 피해를 받고 체력이 감소하게 됩니다. 체력이 0까지 떨어지게 되면 그 유닛은 파괴됩니다. 근접 전투 후에 방어측 유닛이 파괴되고 공격측 유닛이 살아남았다면  [COLOR_YELLOW]성채, 요새, 도시에서 방어하지 않는 한[ENDCOLOR] 공격측 유닛은 방어측 유닛이 있던 타일로 이동하게 됩니다. 만약 그 타일에 민간 유닛이 있었다면 그 유닛은 공격측 유닛에게 사로잡히게 됩니다. 만약 방어측 유닛이 파괴되지 않는다면 방어측 유닛은 그 타일과 타일에 있던 민간 유닛을 보호하게 됩니다.[NEWLINE][NEWLINE]대부분의 유닛은 공격시 모든 이동력을 사용하게 됩니다. 그러나 어떤 유닛은 공격 후에 이동 가능한 능력을 갖고 있습니다. 이런 유닛은 공격 후에 파괴되지 않고 이동력이 남아있다면 이동 가능합니다.[NEWLINE][NEWLINE]전투에 참가했던 유닛들 중 살아남은 모든 유닛은 승급하기 위해 필요한 경험치를 얻게 됩니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_MELEERESULTS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -648,7 +669,7 @@ SET Text = '위대한 장군은 전술에 탁월한 재능을 지닌 "위인" �
 WHERE Tag = 'TXT_KEY_COMBAT_GREATGENERALS_HEADING2_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '전쟁 점수'
+SET Text = '[COLOR_GREEN]전쟁 점수[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
@@ -664,8 +685,12 @@ SET Text = '유적은 가장 가깝고 드러나지 않은 도시의 지도를 �
 WHERE Tag = 'TXT_KEY_BARBARIAN_MAP_HEADING4_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '그들이 야만인 유닛과 싸울 때, 당신의 잘 훈련된 유닛은 경험치를 얻을 것입니다. 그러나 어떤 유닛이든지 간에 이미 45의 경험치를 얻었다면, (또는 그만큼의 경험치를 승급으로 교환했던지) 이제는 경험치를 야만인과의 싸움에서 얻지 못합니다.'
+SET Text = '그들이 야만인 유닛과 싸울 때, 당신의 잘 훈련된 유닛은 경험치를 얻을 것입니다. 그러나 어떤 유닛이든지 간에 이미 [COLOR_YELLOW]45의 경험치[ENDCOLOR]를 얻었다면, (또는 그만큼의 경험치를 승급으로 교환했던지) 이제는 경험치를 야만인과의 싸움에서 얻지 못합니다.'
 WHERE Tag = 'TXT_KEY_BARBARIAN_POINTLIMITS_HEADING3_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]경험치 한계[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_BARBARIAN_POINTLIMITS_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
 SET Text = '문명 V에 등장하는 각 문명은 하나 이상의 특수한 "국가 유닛"을 가지고 있습니다. 이 유닛은 각 문명의 고유한 유닛이며, 어떤 식으로든 해당 유닛의 표준형 보다 뛰어납니다. 예를 들어 미국 문명은 다른 문명이 사용하는 일반적인 머스킷총병 보다 뛰어난 민병대 유닛을 가지고 있습니다. 그리스 문명은 다른 문명의 창병을 대체하는 호플리테스를 가지고 있습니다.[NEWLINE][NEWLINE]각 문명의 특수 유닛을 찾아보려면 해당 문명의 문명백과사전 항목을 보십시오.'

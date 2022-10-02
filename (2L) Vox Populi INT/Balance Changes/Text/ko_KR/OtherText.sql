@@ -28,8 +28,12 @@ WHERE Tag = 'TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP';
 
 -- Help Text Changes
 UPDATE Language_ko_KR
-SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문명에 퍼뜨리는 데 사용할 주요 재화입니다. [COLOR_POSITIVE_TEXT]걸작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]유물[ENDCOLOR]에 의해 수동적으로 생성되고 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]에 의해, 또는 [COLOR_POSITIVE_TEXT]교역로[ENDCOLOR] 완료(이러한 보너스를 제공하는 건물을 건설한 경우) 능동적으로 생성됩니다(자세한 내용은 이 섹션의''역사적 사건''을 참조하십시오). 박물관, 원형 극장, 오페라 하우스 등에 더 많은 위대한 작품과 유물을 배치하면 [ICON_TOURISM] 관광이 계속 증가할 것입니다. 또한 개방된 국경, 무역로, 종교 공유 및 특정 이념 주의를 통해 [ICON_TOURISM] 관광 산출을 상당히 높일 수 있습니다.'
+SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문명에 퍼뜨리는 데 사용할 주요 재화입니다. [COLOR_POSITIVE_TEXT]걸작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]유물[ENDCOLOR]에 의해 수동적으로 생성되고 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR][COLOR_YELLOW]에 의해, 또는 [ENDCOLOR][COLOR_POSITIVE_TEXT]교역로[ENDCOLOR][COLOR_YELLOW] 완료(이러한 보너스를 제공하는 건물을 건설한 경우) 능동적으로 생성됩니다(자세한 내용은 이 섹션의''역사적 사건''을 참조하십시오).[ENDCOLOR] 박물관, 원형 극장, 오페라 하우스 등에 더 많은 위대한 작품과 유물을 배치하면 [ICON_TOURISM] 관광이 계속 증가할 것입니다. 또한 개방된 국경, 무역로, 종교 공유 및 특정 이념 주의를 통해 [ICON_TOURISM] 관광 산출을 상당히 높일 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]관광[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_TITLE';
 
 -- Capture Popup
 
@@ -115,19 +119,23 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC';
 -- Change instructions for Ideologies
 
 UPDATE Language_ko_KR
-SET Text = '평등, 체제, 독재 체제가 Brave New World에서 크게 확장되었습니다. 문명이 정책 18개를 채택하거나 원자력 시대에 들어가면 이념을 선택해야 합니다. 각 이념에는 플레이어가 채택할 수 있는 3가지 사상 단계가 있으며, 세 번째와 마지막 단계에 가장 큰 혜택이 있습니다. 일반적인 사회 정책처럼, 플레이어는 게임을 하면서 문화로 추가 주의를 구입할 수 있습니다.[NEWLINE][NEWLINE]공통된 이념을 가진 문명은 외교 관계에 혜택을 받습니다. 대립하는 이념을 가진 문명은 여러 가지 부작용을 겪습니다. 예를 들어 대립하는 이념의 문화적 영향력이 더 강하다면 외교관계는 불리해지고 행복 페널티를 받게 됩니다. 시민이 불행해지면 도시가 적대국에 가담할 가능성이 높아집니다. 마지막 수단으로 혁명에 의지하여 시민이 선호하는 사상으로 이념을 바꿀 수 있습니다.[NEWLINE][NEWLINE]자세한 이념 정보는 문명 백과사전 상단에 있는 ''사회 정책'' 탭을 클릭하고 체제, 평등, 독재 부분을 보십시오.'
+SET Text = '평등, 체제, 독재 체제가 Brave New World에서 크게 확장되었습니다. [COLOR_YELLOW]문명이 정책 18개를 채택하거나 원자력 시대에 들어가면 [ENDCOLOR]이념을 선택해야 합니다. 각 이념에는 플레이어가 채택할 수 있는 3가지 사상 단계가 있으며, 세 번째와 마지막 단계에 가장 큰 혜택이 있습니다. 일반적인 사회 정책처럼, 플레이어는 게임을 하면서 문화로 추가 주의를 구입할 수 있습니다.[NEWLINE][NEWLINE]공통된 이념을 가진 문명은 외교 관계에 혜택을 받습니다. 대립하는 이념을 가진 문명은 여러 가지 부작용을 겪습니다. 예를 들어 대립하는 이념의 문화적 영향력이 더 강하다면 외교관계는 불리해지고 행복 페널티를 받게 됩니다. 시민이 불행해지면 도시가 적대국에 가담할 가능성이 높아집니다. 마지막 수단으로 혁명에 의지하여 시민이 선호하는 사상으로 이념을 바꿀 수 있습니다.[NEWLINE][NEWLINE]자세한 이념 정보는 문명 백과사전 상단에 있는 ''사회 정책'' 탭을 클릭하고 체제, 평등, 독재 부분을 보십시오.'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '도시 개수가 제국의 힘을 결정하는 질서 이념은, 거대하고 전파력이 강한 문명을 만들고 싶은 플레이어에게 적합합니다. 정책 18개를 채택하거나 원자력 시대에 들어가면 이 이념을 사용할 수 있습니다.'
+SET Text = '[COLOR_YELLOW]이념[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '도시 개수가 제국의 힘을 결정하는 질서 이념은, 거대하고 전파력이 강한 문명을 만들고 싶은 플레이어에게 적합합니다. [COLOR_YELLOW]정책 18개를 채택하거나 원자력 시대에 들어가면 이 이념을 사용할 수 있습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_ORDER_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '적을 강철 발굽 아래 깔아뭉개고 싶다면 전제정치 이념이 최고의 선택입니다. 정책 18개를 채택하거나 원자력 시대에 들어가면 이 이념을 사용할 수 있으며, 자유 또는 질서와 함께 활성화할 수 없습니다.'
+SET Text = '적을 강철 발굽 아래 깔아뭉개고 싶다면 전제정치 이념이 최고의 선택입니다. [COLOR_YELLOW]정책 18개를 채택하거나 원자력 시대에 들어가면 이 이념을 사용할 수 있으며, [ENDCOLOR]평등 또는 질서와 함께 활성화할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_AUTOCRACY_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '평등 이념은 문화, 관광, 전문가 생산 등에 보너스를 제공합니다. 정책 18개를 채택하거나 원자력 시대에 들어가면 이 사상을 사용할 수 있으며, 독재 또는 질서와 함께 활성화할 수 없습니다.'
+SET Text = '평등 이념은 문화, 관광, 전문가 생산 등에 보너스를 제공합니다. [COLOR_YELLOW]정책 18개를 채택하거나 원자력 시대에 들어가면 이 사상을 사용할 수 있으며, [ENDCOLOR]독재 또는 질서와 함께 활성화할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_FREEDOM_HEADING3_BODY';
 
 UPDATE Language_ko_KR

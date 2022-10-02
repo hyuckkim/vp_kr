@@ -37,16 +37,28 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED';
 -- Culture Victory changes
 
 UPDATE Language_ko_KR
-SET Text = '세계 시민 의정서를 구성하려면 3티어 이념 주의를 [COLOR_POSITIVE_TEXT]둘[ENDCOLOR] 채택하고, 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR], 다른 모든 모든 문명에 대한 관광이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이어야 합니다. 자세한 내용은 승리 섹션을 참조하십시오.'
+SET Text = '세계 시민 의정서를 구성하려면 [COLOR_YELLOW]3티어 이념 주의를 [ENDCOLOR][COLOR_POSITIVE_TEXT]둘[ENDCOLOR] [COLOR_YELLOW]채택하고, 여론이 [ENDCOLOR][COLOR_POSITIVE_TEXT]만족[ENDCOLOR][COLOR_YELLOW], 다른 모든 모든 문명에 대한 관광이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이어야 합니다.[ENDCOLOR] 자세한 내용은 승리 섹션을 참조하십시오.'
 WHERE Tag = 'TXT_KEY_CULTURE_VICTORY_HEADING2_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]한 상태이며, 3티어 이념 주의를 둘 채택해야 합니다. 이것은 당신이 만든 걸작과 당신이 발견한 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 세계 시민 의정서를 구성할 수 있습니다.'
+SET Text = '[COLOR_YELLOW]문화 승리[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CULTURE_VICTORY_HEADING2_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 [COLOR_YELLOW]세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [ENDCOLOR][COLOR_POSITIVE_TEXT]만족[ENDCOLOR][COLOR_YELLOW]한 상태이며, 3티어 이념 주의를 둘 채택해야 합니다. [ENDCOLOR]이것은 당신이 만든 걸작과 당신이 발견한 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 [COLOR_YELLOW]세계 시민 의정서를 구성할 수 있습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_CULTUREVICTORY_HEADING2_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]한 상태여야 합니다. 이것은 당신이 만든 걸작과 당신이 발견한 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 세계 시민 의정서를 구성할 수 있습니다.'
+SET Text = '[COLOR_YELLOW]문화 승리[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_SOCIALPOLICY_CULTUREVICTORY_HEADING2_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 [COLOR_YELLOW]세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [ENDCOLOR][COLOR_POSITIVE_TEXT]만족[ENDCOLOR][COLOR_YELLOW]한 상태여야 합니다. [ENDCOLOR]이것은 당신이 만든 걸작과 당신이 발견한 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 [COLOR_YELLOW]세계 시민 의정서를 구성할 수 있습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_VICTORY_CULTURAL_HEADING3_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]문화 승리[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CULTURE_VICTORY_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
 SET Text = '이념의 3 티어 정책을 둘 채택하고, 여론이 만족한 상태라면 문화 승리를 쟁취하기 위해서 당신의 문명은 세계 시민 의정서를 구성하고 1개 이상의 문명에 영향력 있는 문명이 되어야 합니다.'
@@ -116,7 +128,11 @@ SET Text = '연구 협정 허용 (활성화 시)'
 WHERE Tag = 'TXT_KEY_ABLTY_R_PACT_STRING';
 
 UPDATE Language_ko_KR
-SET Text = '각 도시는 한 턴당 한 번씩 1칸까지 원거리 공격을 가할 수 있습니다. 범위는 기술 연구에 따른 게임 진행 단계마다 증가합니다(연구 트리의 도시 공격 범위 아이콘 참조). 이 때 도시의 공격력은 도시의 체력에 관계없이 항상 100% 라는 것을 항상 염두에 두어야 합니다.'
+SET Text = '[COLOR_YELLOW]도시로 공격하기[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_CITYFIRINGATTACKERS_HEADING3_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '각 도시는 한 턴당 한 번씩  [COLOR_YELLOW]1칸까지 원거리 공격을 가할 수 있습니다. 범위는 기술 연구에 따른 게임 진행 단계마다 증가합니다(연구 트리의 도시 공격 범위 아이콘 참조).[ENDCOLOR] 이 때 도시의 공격력은 도시의 체력에 관계없이 항상 100% 라는 것을 항상 염두에 두어야 합니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_CITYFIRINGATTACKERS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -173,12 +189,20 @@ SET Text = '도시 화면에서 도시 건설 명령을 변경할 수 있습니�
 WHERE Tag = 'TXT_KEY_BUILDINGS_PURCHASING_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '도시 화면 내에서 금으로 유닛을 구매하거나 건물에 금을 투자하여 건설 비용을 줄일 수 있습니다. 이것은 침입자로부터 방어할 추가 유닛과 같이 급하게 무언가가 필요한 경우에 유용할 수 있습니다.'
+SET Text = '도시 화면 내에서 금으로 유닛을 구매하거나[COLOR_YELLOW] 건물에 금을 투자하여 건설 비용을 줄일 수 있습니다.[ENDCOLOR] 이것은 침입자로부터 방어할 추가 유닛과 같이 급하게 무언가가 필요한 경우에 유용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CITIES_PURCHASINGITEM_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '골드를 사용하여 유닛을 구매하거나 도시의 건물에 투자할 수 있습니다. 유닛을 클릭하면(골드가 있다면!) 해당 유닛은 즉시 해당 도시에서 훈련되며 해당 금액은 귀하의 국고에서 공제됩니다. 건물을 클릭하면 해당 건물에 투자하여 건물의 생산 비용을 50% 절감합니다.[NEWLINE][NEWLINE]"프로젝트"(맨해튼 프로젝트 등)는 구매할 수 없습니다.'
+SET Text = '[COLOR_YELLOW]유닛이나 건물 구매하기[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CITIES_PURCHASINGITEM_HEADING3_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '골드를 사용하여 유닛을 구매하거나[COLOR_YELLOW] 도시의 건물에 투자할 수 있습니다.[ENDCOLOR] 유닛을 클릭하면(골드가 있다면!) 해당 유닛은 즉시 해당 도시에서 훈련되며 해당 금액은 귀하의 국고에서 공제됩니다. [COLOR_YELLOW]건물을 클릭하면 해당 건물에 투자하여 건물의 생산 비용을 50% 절감합니다.[ENDCOLOR][NEWLINE][NEWLINE]"프로젝트"(맨해튼 프로젝트 등)는 구매할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_GOLD_PURCHASEUNITS_HEADING3_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]유닛, 건물, 불가사의 구매[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GOLD_PURCHASEUNITS_HEADING3_TITLE';
 
 -- Happiness from Policies to Culture/Science change
 UPDATE Language_ko_KR
@@ -345,11 +369,15 @@ SET Text = '마을은 해당 타일의 골드를 3, 문화를 1 늘려주지만 
 WHERE Tag = 'TXT_KEY_WORKERS_TRADINGPOST_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '플레이어의 수도와 다른 도시 사이에 길이 있다면, 그 도시는 ''도시 연결'' 상태입니다. 도시 연결이 되어 있으면 턴마다 금을 보너스로 받습니다. 보너스로 받는 금의 양은 연결된 도시의 크기에 따라 달라집니다(등대과 해안 도시 사이도 연결할 수 있음). 자세한 사항은 도시 연결 섹션을 참고하십시오.'
+SET Text = '플레이어의 수도와 다른 도시 사이에 길이 있다면, 그 도시는 ''도시 연결'' 상태입니다. 도시 연결이 되어 있으면 턴마다 금을 보너스로 받습니다. 보너스로 받는 금의 양은 연결된 도시의 크기에 따라 달라집니다([COLOR_YELLOW]등대와 해안 도시 사이[ENDCOLOR]도 연결할 수 있음). 자세한 사항은 도시 연결 섹션을 참고하십시오.'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_BODY';
 
-UPDATE Language_ko_KR
-SET Text = '마을'
+UPDATE Language_en_US
+SET Text = '[COLOR_YELLOW]도로와 무역로[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_TITLE';
+
+UPDATE Language_en_US
+SET Text = '[COLOR_GREEN]마을[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
@@ -446,16 +474,32 @@ SET Text = '행복 시스템은 Community Balance Overhaul에서 완전히 수�
 WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_BODY';
 
 UPDATE Language_ko_KR
+SET Text = '[COLOR_GREEN]행복도[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_TITLE';
+
+UPDATE Language_ko_KR
 SET Text = '다음은 행복을 증가시킵니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR]: 영토 내의 자원을 개선하거나 다른 문명과 교환하십시오. 모든 종류의 자원은 당신의 행복을 향상시킵니다. 사치품은 전체 제국 인구에 기반해 행복을 부여합니다. 인구가 높을수록 사치품이 제공하는 행복도 커집니다. 이것은 사치품을 초기에 덜 중요하게 만듭니다. +1 행복은 그다지 중요하지 않지만 초점이 도시 수가 아니라 전체 인구에 있기 때문에 크거나 광범위한 전략을 제한하지 않습니다. 간단히 말해서 제국의 인구가 증가함에 따라 사치품이 "레벨 업"됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]건물[ENDCOLOR]: 특정 건물은 행복을 증가시키는 반면, 다른 건물은 곤경 및 빈곤과 같은 것으로 인한 불행을 줄여줍니다. (따라서 간접적으로 당신의 행복을 높입니다). 여기에는 투기장, 서커스, 동물원 등이 포함됩니다. 문명의 어느 위치에나 건설된 건물은 전반적인 행복도를 높입니다. 따라서 두 개의 투기장은 사치 자원과 달리 하나보다 두 배 더 많은 행복을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT] 불가사의[ENDCOLOR]: 노트르담 및 공중정원과 같은 특정 불가사의는 행복을 크게 높일 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]사회 정책[ENDCOLOR]: 정책은 많은 행복을 제공하지만 다른 방식으로 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기술[ENDCOLOR]: 기술 자체는 행복을 제공하지 않지만 행복을 제공하는 건물, 불가사의, 자원 및 사회 정책의 잠금을 해제합니다.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY';
+
+UPDATE Language_en_US
+SET Text = '[COLOR_GREEN]행복을 만드는 것[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_TITLE';
 
 UPDATE Language_ko_KR
 SET Text = '도시의 행복은 더 이상 도시의 시민 수에 직접적인 영향을 받지 않습니다. 대신 행복은 경제적 변수를 보는 일련의 기능을 기반으로 합니다. 전반적으로 인구가 여전히 중요하지만 도시별 불행은 관리하기가 더 쉽습니다(특정 플레이 스타일에 맞게 조정). 이것은 제국이 잘 관리되는 한 전통 및 확장 게임 플레이를 동등하게 실현 가능하게 만듭니다. 게다가 시민은 욕구의 규모에 따라 한 번에 하나의 가치에 대해서만 "불만족"할 수 있습니다. 예를 들어 한 시민이 빈곤으로 인해 불행하다면 빈곤 문제가 해결될 때까지 그 시민은 다른 어떤 것에서도 불행할 수 없습니다(따라서 한 도시에서 발생하는 불행은 도시 인구로 제한됩니다).[NEWLINE][NEWLINE][NEWLINE][NEWLINE]작동 원리: 수확량 기반 함수는 도시의 수확량을 결합하여 이 값을 인구로 나눕니다. 그런 다음 이 값은 제국의 팝당 모든 도시 생산량의 평균인 시민당 비율 값과 비교됩니다. 시민당 제국 비율 값이 도시의 비율 값보다 높으면(즉, 비율 값이 예상하는 만큼 많이 생산하지 못하는 경우), 둘 사이의 차이는 시민 1인당 불행 값으로 나뉘어 불행이 생성됩니다. 즉, 도시가 인구당 산출량에서 제국 평균보다 뒤처지면 그 차이가 불행으로 전환됩니다. 이 제국 평균은 게임이 진행됨에 따라 점진적으로 증가하고(모든 도시는 시간이 지남에 따라 점점 더 부유해지기 때문에 빈곤을 정의하는 제국 평균은 변경됨), 발견하거나 정복한 모든 도시에 대해 점진적으로(약 2%) 증가합니다.[NEWLINE][NEWLINE] 불행 유발치: [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]굶주림[ENDCOLOR]: 이것은 치명적일 수 있으므로 주의해야 합니다. 도시가 굶주림 상태에 있다면 이 함수는 그 기아의 값(즉, 소비되는 음식의 음수 값)을 보고 함수의 비율 값과 비교합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]약탈된 타일[ENDCOLOR]: 도시 연결과 유사하게 이 함수는 약탈된 타일의 수를 보는 시민당 비율 값을 기반으로 불행을 생성합니다. 약탈된 타일이 많을수록 이 불행이 높아집니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]빈곤[ENDCOLOR]: 금 수확량을 나타냅니다. 이 수확량이 비율 기준을 초과하지 않으면 당신의 도시는 빈곤을 얻습니다. 이것은 가장 부유한 도시를 제외한 모든 도시에서 대체로 불가피합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]고립[ENDCOLOR]: 봉쇄 또는 도시 연결의 부족은 시민 가치당 비율에 따라 불행을 생성합니다. 바다에서 포위되어 경로가 약탈되거나 도시를 연결하지 않은 경우에만 문제가 됩니다. 내부 무역 경로(데이지 체인 또는 개별적으로)를 통해 도시를 수도에 연결하면 이 불행 패널티가 무효화됩니다(따라서 봉쇄 또는 장거리의 도시는 무역을 통해 수도에 "연결"될 수 있음).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]곤경[ENDCOLOR]: 이 기능은 도시의 기본 요구 사항(식량 및 고용, [ICON_FOOD] 식품 및 [ICON_PRODUCTION] 생산으로 대표됨)을 살펴봅니다. 이 수확량이 비율 기준을 초과하지 않으면 귀하의 도시에 약간의 어려움이 있습니다. 이것은 대도시나 포위된 도시에서 불가피합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]종교적 긴장[ENDCOLOR]: 도시의 대다수 종교를 보고 해당 종교에 속하지 않은 시민의 수와 비교합니다. 그 값이 함수값을 초과하면 종교적 갈등이 생길 것입니다. 이것은 대부분의 대도시에서 피할 수 없는 일이며 주의하지 않으면 불행의 주요 원인이 될 수 있습니다. 도시에 더 많은 신앙을 생산하는 건물을 짓거나(높은 신앙 생산은 소수 인구에서 뺄 수 있음) 단순히 사람들을 진정한 신앙으로 전환함으로써 이 값을 더 줄일 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]문맹[ENDCOLOR]: 도시의 과학 생산량을 나타냅니다. 이 수확량이 비율 기준을 초과하지 않으면 당신의 도시는 문맹을 얻습니다. 이것은 가장 똑똑한 도시를 제외한 모든 도시에서 대체로 불가피합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]무료[ENDCOLOR]: 도시의 문화 수확량을 보여줍니다. 이러한 수확량이 비율 기준을 초과하지 않으면 당신의 도시는 무료를 얻습니다 (즉, 귀하의 시민이 즐겁게 지낼 수 없음). 이는 투기장 및 기타 건물을 짓거나 걸작을 통해 우회할 수 있습니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]전문가[ENDCOLOR]: 전문가는 제국의 전문가 수에 따라 일정 비율로 불행을 생성합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]전쟁 피로도[ENDCOLOR]: 일단 이념이 있으면 제국 전체가 전쟁 피로도를 얻을 가능성이 있습니다(이는 이념적 불안에 추가됨).'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_BODY';
 
+UPDATE Language_en_US
+SET Text = '[COLOR_GREEN]불행을 야기하는 것[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_TITLE';
+
 UPDATE Language_ko_KR
-SET Text = '불행에는 세 가지 수준이 있습니다. 불행, 불안, 그리고 반란. 불행한 문명은 모든 도시의 성장과 국가 생산량(즉, 턴당 총 과학)의 가치를 감소시킵니다. 불안을 겪고 있는 문명은 전투 페널티 및 공개적인 반란을 포함하여 더 많은 문제를 가질 수 있으며 문명이 반란에 들어서면 잠재적으로 도시가 제국을 포기하게 만들 수 있습니다.'
+SET Text = '불행에는 세 가지 수준이 있습니다. 불행, 불안, 그리고 반란. 불행한 문명은 모든 도시의 성장과 [COLOR_YELLOW]국가 생산량(즉, 턴당 총 과학)[ENDCOLOR]의 가치를 감소시킵니다. 불안을 겪고 있는 문명은 전투 페널티 및 공개적인 반란을 포함하여 더 많은 문제를 가질 수 있으며 문명이 반란에 들어서면 잠재적으로 도시가 제국을 포기하게 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY';
+
+UPDATE Language_en_US
+SET Text = '[COLOR_YELLOW]불행의 단계[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_TITLE';
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
