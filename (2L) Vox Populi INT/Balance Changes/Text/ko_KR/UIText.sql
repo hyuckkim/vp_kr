@@ -691,11 +691,11 @@ WHERE Tag = 'TXT_KEY_DEMOGRAPHICS_TITLE';
 -- Happiness
 
 UPDATE Language_ko_KR
-SET Text = '총 전역 [ICON_HAPPINESS_3]불행: {2_Num} (도시당 평균: {1_Num})[NEWLINE]불행 총계:'
+SET Text = '총 전역 [ICON_HAPPINESS_3]불행: {2_Num} [NEWLINE]불행 총계:'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_TOTAL';
 
 UPDATE Language_ko_KR
-SET Text = '총 전역 [ICON_HAPPINESS_1]행복: {2_Num} (도시당 평균: {1_Num})[NEWLINE]행복 총계:'
+SET Text = '총 전역 [ICON_HAPPINESS_1]행복: {2_Num} [NEWLINE]행복 총계:'
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_SOURCES';
 
 UPDATE Language_ko_KR
