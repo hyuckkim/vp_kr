@@ -6,7 +6,7 @@
 			<Text>역사적 사건</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_BODY">
-			<Text>역사적 사건은 게임 중에 발생할 수 있는 기념비적인 업적을 말합니다. 역사적 사건은 계획 또는 사용자 상호 작용이 필요하므로 다른 문명에 대한 문화적 영향력을 얻는 역동적인 방법입니다. 다음 역사적 이벤트 중 하나가 완료되면 최근 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 산출을 기반으로 알려진 모든 문명에게 [ICON_TOURISM] 관광 부스트를 받습니다: [NEWLINE][NEWLINE][ICON_BULLET] [ICON_GREAT_PEOPLE] 위인 획득[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 세계 불가사의 건설[NEWLINE][ICON_BULLET] [ICON_WAR] 전쟁 승리 (전쟁 점수 25+)[NEWLINE][ICON_BULLET] 새 [ICON_RESEARCH] 시대 진입[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 황금기 시작 ('문화유산' 정책 채택 시)[NEWLINE][ICON_BULLET] [ICON_RES_ARTIFACTS] 유적 발굴 완료 ('문화유산' 정책 채택 시)[NEWLINE][ICON_BULLET] [ICON_CITY_STATE] 도시 국가와 교역 완료 ('영사관' 정책 채택 시)[NEWLINE][NEWLINE]이 이벤트에서 받는 관광의 양은 지난 몇 턴 동안의 턴당 문화 및 관광을 기반으로 합니다. 이 값은 제국의 도시 수와 대상 문명의 관광 수정자에 따라 조정됩니다. 마지막으로, 당신이 받는 관광의 양은 또한 몇 가지 사회 정책과 이데올로기적 신조뿐만 아니라 지도자 특성, 건물, 제국의 도시 수에 의해 수정됩니다.</Text>
+			<Text>역사적 사건은 게임 중에 발생할 수 있는 기념비적인 업적을 말합니다. 역사적 사건은 계획 또는 사용자 상호 작용이 필요하므로 다른 문명에 대한 문화적 영향력을 얻는 역동적인 방법입니다. 다음 역사적 이벤트 중 하나가 완료되면 최근 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 산출을 기반으로 알려진 모든 문명에게 [ICON_TOURISM] 관광 부스트를 받습니다: [NEWLINE][NEWLINE][ICON_BULLET] [ICON_GREAT_PEOPLE] 위인 획득[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 세계 불가사의 건설[NEWLINE][ICON_BULLET] [ICON_WAR] 전쟁 승리 (전쟁 점수 25+)[NEWLINE][ICON_BULLET] 새 [ICON_RESEARCH] 시대 진입[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 황금기 시작 ('문화유산' 정책 채택 시)[NEWLINE][ICON_BULLET] [ICON_RES_ARTIFACTS] 유적 발굴 완료 ('문화유산' 정책 채택 시)[NEWLINE][ICON_BULLET] [ICON_CITY_STATE] 도시 국가와 교역 완료 ('영사관' 정책 채택 시)[NEWLINE][NEWLINE]이 이벤트에서 받는 관광의 양은 지난 몇 턴 동안의 턴당 문화 및 관광을 기반으로 합니다. 이 값은 제국의 도시 수와 대상 문명의 관광 보정치에 따라 조정됩니다. 마지막으로, 당신이 받는 관광의 양은 또한 몇 가지 사회 정책과 이데올로기적 신조뿐만 아니라 지도자 특성, 건물, 제국의 도시 수에 의해 수정됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HISTORIC_EVENT_QUEST">
 			<Text>역사적 사건이 무엇입니까?</Text>
@@ -15,7 +15,7 @@
 			<Text>저항</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE_BODY">
-			<Text>저항은 하나 이상의 수도를 정복한 문명이 추가 수도를 점령하는 것이 점점 더 어려워지는 메커니즘입니다. 전투 중에 수정자 [COLOR_POSITIVE_TEXT]저항(지배)[ENDCOLOR]이 자신(보너스) 또는 적(페널티)에 표시되는 것을 볼 수 있습니다. 이 수정자는 당신이나 당신의 상대가 적 수도를 점령한 후에만 나타납니다. 수정자는 소유한 외국(도시 국가가 아닌) 수도의 수와 총 외국 수도의 수에 따라 변경됩니다. 한 플레이어가 더 많은 수도를 점령할수록 이 페널티는 더 높아집니다!</Text>
+			<Text>저항은 하나 이상의 수도를 정복한 문명이 추가 수도를 점령하는 것이 점점 더 어려워지는 메커니즘입니다. 전투 중에 보정치 [COLOR_POSITIVE_TEXT]저항(지배)[ENDCOLOR]이 자신(보너스) 또는 적(페널티)에 표시되는 것을 볼 수 있습니다. 이 보정치는 당신이나 당신의 상대가 적 수도를 점령한 후에만 나타납니다. 보정치는 소유한 외국(도시 국가가 아닌) 수도의 수와 총 외국 수도의 수에 따라 변경됩니다. 한 플레이어가 더 많은 수도를 점령할수록 이 페널티는 더 높아집니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE_QUEST">
 			<Text>저항이 무엇입니까?</Text>

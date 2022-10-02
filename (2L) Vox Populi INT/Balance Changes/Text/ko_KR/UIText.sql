@@ -37,7 +37,7 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED';
 -- Culture Victory changes
 
 UPDATE Language_ko_KR
-SET Text = '세계 시민 의정서를 구성하려면 3티어 이념 주의를 [COLOR_POSITIVE_TEXT]둘[ENDCOLOR] 채택하고, 여론이 만족[COLOR_POSITIVE_TEXT]만족[ENDCOLOR], 다른 모든 모든 문명에 대한 관광이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이어야 합니다. 자세한 내용은 승리 섹션을 참조하십시오.'
+SET Text = '세계 시민 의정서를 구성하려면 3티어 이념 주의를 [COLOR_POSITIVE_TEXT]둘[ENDCOLOR] 채택하고, 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR], 다른 모든 모든 문명에 대한 관광이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이어야 합니다. 자세한 내용은 승리 섹션을 참조하십시오.'
 WHERE Tag = 'TXT_KEY_CULTURE_VICTORY_HEADING2_BODY';
 
 UPDATE Language_ko_KR
@@ -116,11 +116,11 @@ SET Text = '연구 협정 허용 (활성화 시)'
 WHERE Tag = 'TXT_KEY_ABLTY_R_PACT_STRING';
 
 UPDATE Language_ko_KR
-SET Text = 'A city has a Ranged Combat Strength equal to its full Strength at the start of combat, and it has a range of 1. This range increases as the game progresses based on researched technologies (look for the "ranged strike" icon in the tech tree for these technologies). It may attack any one enemy unit within that range. Note that the city''s Ranged Combat Strength doesn''t decline as the city takes damage; it remains equal to the city''s initial Strength until the city is captured.'
+SET Text = '각 도시는 한 턴당 한 번씩 1칸까지 원거리 공격을 가할 수 있습니다. 범위는 기술 연구에 따른 게임 진행 단계마다 증가합니다(연구 트리의 도시 공격 범위 아이콘 참조). 이 때 도시의 공격력은 도시의 체력에 관계없이 항상 100% 라는 것을 항상 염두에 두어야 합니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_CITYFIRINGATTACKERS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = 'A unit gains XPs for surviving a round of combat (or, if a scout, from exploration). The unit doesn''t have to win the combat or destroy the enemy to get the experience; it accrues each round that the unit lives through.[NEWLINE][NEWLINE]The amount of XPs the unit gets depends upon the circumstances of the combat. Generally, units get more XPs for attacking than defending, and more for engaging in melee combat than for other types. Here are some numbers (see the Charts and Tables section for a complete list):[NEWLINE]An Attacking Melee Unit: 5 XPs[NEWLINE]Defending Against a Melee Attack: 4 XPs[NEWLINE]An Attacking Ranged Unit: 2 XPs[NEWLINE]Being Attacked by a Ranged Unit: 2 XPs[NEWLINE]Barbarian Limitations: Once a unit has gotten 45 XPs, it no longer gets any additional XPs for fighting Barbarians.'
+SET Text = '각 유닛은 전투에서 살아남으면(혹은, 정찰병의 경우 정찰하면) 경험치를 얻게 됩니다. 이 때 전투에서 이기건 지건, 상대 유닛을 파괴하느냐의 여부와는 관계 없이 전투를 해서 살아남기만 하면 경험치를 얻게 됩니다.[NEWLINE][NEWLINE]각 유닛이 얻는 경험치의 양은 전투의 양상에 따라 달라지게 됩니다. 일반적으로 유닛은 공방에 의해 경험치를 얻게 되나, 근접 전투 유닛이 얻는 경험치가 다른 유닛들이 얻는 경험치에 비해 많은 편입니다. 이하의 목록을 참고하십시오.[NEWLINE]근접 전투 유닛을 공격함: 5[NEWLINE]근접 전투 유닛에게 공격당함: 4[NEWLINE]원거리 공격 유닛을 공격함: 2[NEWLINE]원거리 공격 유닛에게 공격당함: 2[NEWLINE]야만인 제한: 각 유닛의 획득경험치가 45 이상인 경우에는 야만인을 공격해서 경험치를 얻을 수 없습니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -341,11 +341,11 @@ SET Text = '타일에 마을을 건설해 [ICON_GOLD]골드를 증가시킵니�
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = 'The village increases output of a tile by 3 gold and 1 culture. It does not access a resource. It generates additional gold and production if on a route and/or if built on a trade route.[NEWLINE]Technology Required: Currency[NEWLINE]Construction Time: 5 Turns[NEWLINE]May Be Constructed On: Any land tile but ice. Cannot be built adjacent to one another.'
+SET Text = '마을은 해당 타일의 골드를 3, 문화를 1 늘려주지만 어떤 자원도 획득할 수 없습니다. 길과 교역로 위에 건설되면 각각 추가 골드와 생산을 얻습니다. [NEWLINE]요구 기술: 화폐[NEWLINE]건설 소요 시간: 5 턴[NEWLINE]건설 가능 장소: 빙하 위를 제외한 모든 곳. 다른 마을에 인접할 수 없음.'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADINGPOST_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = 'If there is a road between your capital and another of your cities, those cities have a "city connection." City connections give your civilization gold bonuses each turn, the amount depending upon the size of the cities involved. (Lighthouses can also create city connections between coastal cities.) See the section on City Connections for details.'
+SET Text = '플레이어의 수도와 다른 도시 사이에 길이 있다면, 그 도시는 ''도시 연결'' 상태입니다. 도시 연결이 되어 있으면 턴마다 금을 보너스로 받습니다. 보너스로 받는 금의 양은 연결된 도시의 크기에 따라 달라집니다(등대과 해안 도시 사이도 연결할 수 있음). 자세한 사항은 도시 연결 섹션을 참고하십시오.'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -700,7 +700,7 @@ SET Text = '대체 에너지'
 WHERE Tag = 'TXT_KEY_TECH_ECOLOGY_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = 'Renewable, or alternative energy is energy that is collected from renewable resources, which are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat. Renewable energy often provides energy in four important areas: electricity generation, air and water heating/cooling, transportation, and rural (off-grid) energy services.'
+SET Text = '재생 가능 에너지 또는 대체 에너지는 햇빛, 바람, 비, 조류, 파도, 지열과 같은 인간의 시간 척도로 자연적으로 보충되는 재생 가능한 자원으로부터 수집되는 에너지이다. 재생 가능 에너지는 네 가지 중요한 영역에서 에너지를 제공한다: 전력 발전, 온도 조절, 교통 및 지방 에너지 서비스.'
 WHERE Tag = 'TXT_KEY_TECH_ECOLOGY_DESC';
 
 UPDATE Language_ko_KR
