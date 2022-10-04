@@ -53,12 +53,6 @@
 		<Row Tag="TXT_KEY_CITYVIEW_CORPSBUILDING_TEXT">
 			<Text>기업</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TP_HAPPINESS_STATE_RELIGION_CBO">
-			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종교에서 획득</Text>
-		</Row>
-		<Row Tag="TXT_KEY_TP_HAPPINESS_CITY_LOCAL">
-			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  지역 원인에서 획득 (종교, 건물 등)</Text>
-		</Row>
 		<!-- Condensed Help Texts -->
 		<Row>
 			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_BUILDING</Tag>

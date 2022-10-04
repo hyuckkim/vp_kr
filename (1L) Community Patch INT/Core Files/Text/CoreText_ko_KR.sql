@@ -641,7 +641,7 @@ SET Text = '입힌 피해가 받은 피해보다 더 큰 경우 적 유닛 후�
 WHERE Tag = 'TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '하나의 전투 유닛만이 동시에 한 도시에 주둔하는 것이 가능합니다. 만약 군사 유닛이 도시에 "주둔"하면 도시에 상당한 방어력 보너스를 추가하게 됩니다. 만약 도시가 주둔군이 있는 동안 공격을 받는다면, [COLOR_YELLOW]주둔군은 도시의 피해의 일부를 분산시킬 것이고 따라서 그 도시는 훨씬 더 많은 보호를 제공할 것입니다. 그러나 주둔군은 이런 식으로 파괴될 수 있으니 주의하십시오.[ENDCOLOR][NEWLINE][NEWLINE]추가적인 전투 유닛이 도시를 통과할 수 있지만, 거기서 턴을 끝낼 수는 없습니다. (그래서 수비대가 있는 도시에 전투 유닛을 생산하면 두 유닛 중 하나를 밖으로 옮겨야 턴이 끝납니다.)'
+SET Text = '하나의 지상 유닛과 하나의 해상 유닛만이 동시에 한 도시에 주둔하는 것이 가능합니다. 만약 군사 유닛이 도시에 "주둔"하면 도시에 상당한 방어력 보너스를 추가하게 됩니다. [COLOR_YELLOW]만약 도시가 주둔군이 있는 동안 공격을 받는다면, 주둔군은 도시의 피해의 일부를 분산시킬 것이고 따라서 그 도시는 훨씬 더 많은 보호를 제공할 것입니다. 그러나 주둔군은 이런 식으로 파괴될 수 있으니 주의하십시오.[ENDCOLOR][NEWLINE][NEWLINE]추가적인 전투 유닛이 도시를 통과할 수 있지만, 거기서 턴을 끝낼 수는 없습니다. (그래서 수비대가 있는 도시에 전투 유닛을 생산하면 두 유닛 중 하나를 밖으로 옮겨야 턴이 끝납니다.)[NEWLINE][NEWLINE][COLOR_YELLOW]또한 해상 유닛은 도시에 정박한 동안 공격할 수 없다는 것을 기억하십시오.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -653,8 +653,25 @@ SET Text = '[COLOR_YELLOW]도시와 주둔군[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 수 있습니다. 도시에 유닛을 주둔시키면 유닛 전투력 일부가 도시 전투력에 더해집니다. [COLOR_YELLOW]도시가 공격받으면 주둔군이 받는 모든 피해의 일부가 도시로 분산됩니다. 이렇게 하면 주둔군이 파괴될 수 있으니 조심하십시오![ENDCOLOR] 만약 적이 도시를 정복하면 주둔한 유닛은 파괴됩니다.[NEWLINE][NEWLINE][COLOR_YELLOW]도시에 주둔한 유닛이 주변 적 유닛을 공격할 수 있지만 도시는 주둔 보너스를 잃게됩니다. 만약 근접 공격일 경우 유닛은 평상시처럼 전투중 유닛이 피해를 입을 수 있습니다.[ENDCOLOR]'
+SET Text = '도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 수 있습니다. 도시에 유닛을 주둔시키면 유닛 전투력 일부가 도시 전투력에 더해집니다. [COLOR_YELLOW]도시가 공격받으면 주둔군이 받는 피해의 일부가 도시로 분산됩니다. 이렇게 하면 주둔군이 파괴될 수 있으니 조심하십시오![ENDCOLOR] 만약 적이 도시를 정복하면 주둔한 유닛은 파괴됩니다.[NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]요새[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_FORT_HEADING3_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '기술트리에서 "공학"을 개발하면 자신의 세력권이나 중간지대에 요새를 지을 수 있습니다. 요새는 들어가 있는 유닛에게 방어측면의 보너스를 제공합니다. 요새는 적의 세력권에는 지을 수 없습니다. 요새에 적 유닛이 들어가면 그 요새는 파괴됩니다. 요새는 자원 채취시설 위에 지을 수 있습니다. [COLOR_YELLOW]요새에서 공격한 근접 유닛은 적 유닛을 처치해도 요새를 벗어나지 않습니다.[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_FORT_HEADING3_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]공성 유닛[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_SEIGEWEAPONS_HEADING2_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '투석기, 발리스타, 트레뷰셋 등은 원거리 공격 유닛 중에서도 공성 유닛으로 분류됩니다. 이런 공성 유닛들은 도시를 공격할 시 전투력에 보너스를 받습니다. 그러나 공성 유닛들은 근접 공격에 엄청나게 약하기 때문에 아군의 근접 공격 유닛을 이용해 적들의 공격으로부터 방어를 해 주어야만 합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]Vox Populi와 Community Patch에서, 공성 유닛은 더 이상 조립이 필요하지 않습니다. 대신, 공성 유닛은 적 영토에서 절반의 속도로 이동하게 됩니다.[ENDCOLOR][NEWLINE][NEWLINE]공성 유닛들은 아주 중요합니다. 이들 없이 방어력이 높은 도시들을 공략한다는 것은 거의 불가능합니다.'
+WHERE Tag = 'TXT_KEY_COMBAT_SEIGEWEAPONS_HEADING2_BODY';
+
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]근접 전투의 결과[ENDCOLOR]'
@@ -665,7 +682,7 @@ SET Text = '근접 전투가 끝나면 양측 유닛은 피해를 받고 체력�
 WHERE Tag = 'TXT_KEY_COMBAT_MELEERESULTS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '위대한 장군은 전술에 탁월한 재능을 지닌 "위인" 입니다. 위대한 장군으로부터 2타일 내에 있는 아군 유닛은 공격 및 방어 보너스를 받습니다. 위대한 장군 자체는 비전투 유닛이므로 전투 유닛과 겹쳐 보호할 수 있습니다. 적 유닛이 위대한 장군이 있는 타일 내에 들어오면 장군은 파괴됩니다. [NEWLINE][NEWLINE]위대한 장군과 같은 타일 내에 있는 유닛과 2타일 내에 있는 모든 아군 지상 유닛에는 20%의 전투 보너스가 적용됩니다.[NEWLINE][NEWLINE]위대한 장군은 유닛이 전투 중일 때에 생성되기도 하고, 건물, 사회 정책, 종교, 이념등으로부터 획득할 수 있습니다. 자세한 내용은 ‘위인’에 대한 항목을 참고하십시오.'
+SET Text = '위대한 장군은 전술에 탁월한 재능을 지닌 "위인" 입니다. 위대한 장군으로부터 2타일 내에 있는 아군 유닛은 공격 및 방어 보너스를 받습니다. 위대한 장군 자체는 비전투 유닛이므로 전투 유닛과 겹쳐 보호할 수 있습니다. 적 유닛이 위대한 장군이 있는 타일 내에 들어오면 장군은 파괴됩니다. [NEWLINE][NEWLINE]위대한 장군과 같은 타일 내에 있는 유닛과 2타일 내에 있는 모든 아군 지상 유닛에는 15%의 전투 보너스가 적용됩니다.[NEWLINE][NEWLINE]위대한 장군은 유닛이 전투 중일 때에 생성되기도 하고, 건물, 사회 정책, 종교, 이념등으로부터 획득할 수 있습니다. 자세한 내용은 ‘위인’에 대한 항목을 참고하십시오.'
 WHERE Tag = 'TXT_KEY_COMBAT_GREATGENERALS_HEADING2_BODY';
 
 UPDATE Language_ko_KR

@@ -2,7 +2,7 @@
 <Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="110">
   <Properties>
     <Name>(1L) Community Patch Localized</Name>
-    <Teaser>(2.7) Translation of the Community Patch</Teaser>
+    <Teaser>(2.7.2) Translation of the Community Patch</Teaser>
     <Description>Translation of the Community Patch to different languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -33,7 +33,7 @@
     <File md5="6D7FBF03168942B330DF290F20EC983F" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/UnitNaming.xml</File>
     <File md5="69BD792128FC2B9037C2339F5F6CF1F3" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/VariableRecon.xml</File>
     <File md5="175F71F73EDC1894ED38ED031A64876C" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
-    <File md5="1221DAD49CBA126DBFD6D61781890425" import="0">Core Files/Text/CoreText_ko_KR.sql</File>
+    <File md5="73CD15F096F591D13E00E989E97A0705" import="0">Core Files/Text/CoreText_ko_KR.sql</File>
     <File md5="F8A6E046E72FB4847F9F000245ED2C70" import="0">Modules/Events/Text/ko_KR/City_ko_KR.xml</File>
     <File md5="F0767120DEBB35832039D102CF6D9904" import="0">Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</File>
     <File md5="E947E2FD2541EE121A16A1F2D622F1B8" import="0">Modules/Events/Text/ko_KR/Player_ko_KR.xml</File>

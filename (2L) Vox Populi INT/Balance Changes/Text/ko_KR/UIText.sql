@@ -146,6 +146,20 @@ UPDATE Language_ko_KR
 SET Text = '문명이 불행하다면 도시는 식량을 덜 생산할 것입니다. 도시는 시민들을 먹일 만큼 충분한 식량을 생산할 것이지만, 지역 성장은 감소합니다.'
 WHERE Tag = 'TXT_KEY_FOOD_UNHAPPINESS_HEADING3_BODY';
 
+UPDATE Language_ko_KR
+SET Text = '개척자는 시민 2명 이상에서만 [COLOR_YELLOW]도예를 연구한 이후[ENDCOLOR] 생산 가능합니다. 개척자의 생산 중에는 도시의 모든 생산과 잉여식량을 소비합니다. 개척자를 생산하는데 오래 걸릴수록 도시 성장의 중지와 함께 성장바구니도 채워지지 않을 것입니다. (개척자가 바구니의 식량을 비운다는 의미가 아닌, 생산되고 있는 잉여생산물을 소비하며 바구니에 식량이 채워지지 않게 한다는 것을 알아두십시오.) [COLOR_YELLOW]개척자의 생산이 완료되면, 도시는 시민을 1 잃습니다. 게임 단계가 더 진행되면, 개척자는 추가 기반 시설을 갖춘 도시를 건설할 수 있는 고급 유닛으로 대체됩니다.[ENDCOLOR] 더 자세한 사항을 알기 위해서는 개척자 영역 참고하십시오.'
+WHERE Tag = 'TXT_KEY_FOOD_SETTLERS_HEADING2_BODY';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]개척자와 식량 산출량[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_FOOD_SETTLERS_HEADING2_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '가끔씩 각 도시는 플레이어가 맵에서 얻을 수 있는 특정한 몇몇 사치 자원들을 요구할 때가 있습니다. 만약 플레이어가 그 자원들을 공급해 준다면, 도시는 [COLOR_YELLOW]10 턴[ENDCOLOR]동안 도시의 성장속도를 25% 높여주는 "국왕 경축일"로 진입합니다. [COLOR_YELLOW]10 턴[ENDCOLOR]이 지나면 각 도시는 또다른 사치 자원들을 요구할 것입니다. 이러한 사치 자원에 대한 요구들을 다시 만족시켜 주면 또 [COLOR_YELLOW]10 턴[ENDCOLOR]동안 "국왕 경축일"로 진입합니다.'
+WHERE Tag = 'TXT_KEY_RESOURCES_CITYREQUESTS_HEADING3_BODY';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]"국왕 경축일"[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_RESOURCES_CITYREQUESTS_HEADING3_TITLE';
+
 -- Resource Limit breached
 UPDATE Language_ko_KR
 SET Text = '당신은 {1_Resource:textkey}{1: plural 1?을; 2?를;} 소유량보다 더 많이 사용하고 있습니다. 해당 자원을 필요로 하는 모든 유닛의 [COLOR_NEGATIVE_TEXT]체력을 회복할 수 없습니다.[ENDCOLOR]'
@@ -470,7 +484,7 @@ WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS';
 -- Tutorial Text
 
 UPDATE Language_ko_KR
-SET Text = '행복 시스템은 Community Balance Overhaul에서 완전히 수정되어, 확장이 없는 몰아주기식 플레이 스타일을 선호하지 않습니다. 행복은 이제 완전히 지역화되었으며, 당신의 제국이 그 어느 때보다 훨씬 더 생생하고 역동적으로 느껴지도록 하는 인과 메커니즘을 기반으로 합니다. [NEWLINE][NEWLINE]당신의 행복은 메인 화면의 상태 표시줄(게임의 왼쪽 상단 모서리에 있음)에 표시됩니다. 주의 깊게 관찰하십시오. 행복이 75% 아래로 떨어지기 시작하면 시민들이 불안해집니다. 50% 이하로 떨어지기 시작하면 문제가 있는 것입니다. (참고로 이 숫자 위로 커서를 가져가면 행복에 대한 훌륭한 요약을 얻을 수 있습니다.)[NEWLINE][NEWLINE]기억해야 할 한 가지 중요한 사항 - 도시 건물과 도시 기반 정책에서 생성되는 행복이 인구를 초과할 수는 없습니다.'
+SET Text = '행복 시스템은 Vox Populi에서 완전히 수정되어, 확장이 없는 몰아주기식 플레이 스타일을 선호하지 않습니다. 행복은 이제 완전히 지역화되었으며, 당신의 제국이 그 어느 때보다 훨씬 더 생생하고 역동적으로 느껴지도록 하는 인과 메커니즘을 기반으로 합니다. [NEWLINE][NEWLINE]당신의 행복은 메인 화면의 상태 표시줄(게임의 왼쪽 상단 모서리에 있음)에 표시됩니다. 주의 깊게 관찰하십시오. 행복이 50% 아래로 떨어지기 시작하면 시민들이 불안해집니다. 35% 이하로 떨어지기 시작하면 문제가 있는 것입니다. (참고로 이 숫자 위로 커서를 가져가면 행복에 대한 훌륭한 요약을 얻을 수 있습니다.)[NEWLINE][NEWLINE]기억해야 할 한 가지 중요한 사항 - 도시 건물과 도시 기반 정책에서 생성되는 행복이 인구를 초과할 수는 없습니다.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_BODY';
 
 UPDATE Language_ko_KR
@@ -620,7 +634,7 @@ WHERE Tag = 'TXT_KEY_CITIES_WHERETOCONSTRUCT_HEADING2_TITLE';
 
 
 UPDATE Language_ko_KR
-SET Text = '도시는 충분한 식량이나 생산을 받을 수 있는 밀, 물고기, 소 등이 있는 타일 근처에 건설되는 것이 좋습니다. 그러나 언덕 위에 있는 도시는 방어력에 보너스를 받는 등 적으로부터 점령되기 어렵다는 이점이 있습니다. 일반적으로 도시는 강이나 해안가에 지어지게 되지만, 각 위치의 도시마다 시작 산출량이 다릅니다:[NEWLINE][ICON_BULLET] 언덕에 건설된 도시: +2 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산.[NEWLINE][ICON_BULLET] 담수에 건설된 도시: +3 [ICON_FOOD] 식량, +1 [ICON_PRODUCTION] 생산. [NEWLINE][ICON_BULLET] 담수 없이 산에 건설된 도시: +2 [ICON_FOOD] 식량, +2 [ICON_PRODUCTION] 생산, +1 [ICON_GOLD] 골드.[NEWLINE][ICON_BULLET] 담수나 언덕 없이 건설된 도시: +2 [ICON_FOOD] 식량, +1 [ICON_PRODUCTION] 생산, +1 [ICON_GOLD] 골드.[NEWLINE][NEWLINE]여러 산출물, 특히 정책, 교리, 건물 등의 산출물은 [COLOR_POSITIVE_TEXT]''시대별 보정''[ENDCOLOR]이 있습니다. 이것은 산출량이 게임 단계에 따라, 더 정확히는 현재 시대에 따라 선형적으로 증가한다는 뜻입니다:[NEWLINE]1배: 고대 및 고전 시대[NEWLINE]2배: 중세 시대[NEWLINE]3배: 르네상스 시대[NEWLINE]4배: 산업 시대[NEWLINE]5배: 현대 시대[NEWLINE]6배: 원자력 시대[NEWLINE]7배: 정보화 시대'
+SET Text = '도시는 충분한 식량이나 생산을 받을 수 있는 밀, 물고기, 소 등이 있는 타일 근처에 건설되는 것이 좋습니다. 그러나 언덕 위에 있는 도시는 방어력에 보너스를 받는 등 적으로부터 점령되기 어렵다는 이점이 있습니다. 일반적으로 도시는 강이나 해안가에 지어지게 되지만, 각 위치의 도시마다 시작 산출량이 다릅니다:[NEWLINE][ICON_BULLET] 언덕에 건설된 도시: +2 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산.[NEWLINE][ICON_BULLET] 담수에 건설된 도시: +3 [ICON_FOOD] 식량, +1 [ICON_PRODUCTION] 생산. [NEWLINE][ICON_BULLET] 담수 없이 산에 건설된 도시: +2 [ICON_FOOD] 식량, +2 [ICON_PRODUCTION] 생산, +1 [ICON_GOLD] 골드.[NEWLINE][ICON_BULLET] 담수나 언덕 없이 건설된 도시: +2 [ICON_FOOD] 식량, +1 [ICON_PRODUCTION] 생산, +1 [ICON_GOLD] 골드.'
 WHERE Tag = 'TXT_KEY_CITIES_WHERETOCONSTRUCT_HEADING2_BODY';
 
 -- Trade Routes

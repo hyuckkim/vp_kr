@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="15">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(2.7) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(2.7.2) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -29,12 +29,12 @@
     <File md5="ED3B8F212C9DE4845518FBF67E49BD1D" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
     <File md5="B8ECCE9FC7138539E40AB1AA0955D366" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
     <File md5="B4F6C987A498C8077547346397BED02F" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
-    <File md5="85FEDBF0BC215E0CDC237DAE64CFF7FD" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
-    <File md5="4DE6414669750622F7150B1A326D334A" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
+    <File md5="40E71613C419BD0A0D3ECC8D583351F2" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
+    <File md5="32B836D29A8BDFA435F38611872067C4" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
     <File md5="4EA0503F86D5E58E8B01F9E18115BD90" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="5B8229557C76CC967D49228C22FD79D4" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
     <File md5="B6A444F0A68C290A34AAE9AA57A57CC3" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
-    <File md5="405EBB2E3882B6FC3E897386BAEC8A14" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
+    <File md5="5D035BD716C7D939B839D3FA3271204A" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="59F6083EA5D024257D440A3809674EAC" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
     <File md5="A2065483C50F189E6514D92CD90F49ED" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
     <File md5="59FE511EAAD8F28C141B78B9738F28B5" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
@@ -44,7 +44,7 @@
     <File md5="44DC98C2FD6F4142B45F001A2464CEE8" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
     <File md5="BEFBAF37EE259806D610B0354DF5CA42" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
     <File md5="9447E396D6FAE49475EA168A17AD1E3D" import="0">Modular Elements/Corporations/Text/ko_KR/CorporationOverviewText.xml</File>
-    <File md5="C390E36DF5C64CD0234F99CA9A0578F2" import="0">Modular Elements/Corporations/Text/ko_KR/CorpText.xml</File>
+    <File md5="742CEC12449C4E5010326DF910457DA2" import="0">Modular Elements/Corporations/Text/ko_KR/CorpText.xml</File>
     <File md5="8B1A476CE1DED6EDF27CE1C656269023" import="0">Modular Elements/Events/Text/EventText_ko_KR.xml</File>
     <File md5="CF15978AAA5E8C7E27B9EEB1C62D256A" import="0">Modular Elements/TradeUIMod/ko_KR/GlobalCityStatesGifts.xml</File>
     <File md5="5FDD2B351204FF536E9B196161A8BAC3" import="0">Modular Elements/TradeUIMod/ko_KR/UITradeRoutesEnhancements.xml</File>
@@ -69,7 +69,7 @@
     <File md5="C5CB2724CBC1871130538366C837FE95" import="0">Balance Changes/Terrain/NewLuxuries_Text.xml</File>
     <File md5="D7AA6F344F96A1C807BFE3EF518FCCB8" import="0">Balance Changes/Terrain/NewFarmResources_Text.xml</File>
     <File md5="A61C64936513C9E6A0BC7FD4B409367F" import="0">Compatibility/C4DFCompatibility/C4DFCompatibility.sql</File>
-    <File md5="58929C2EBF88CAFBC2669FDDE66D225D" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.xml</File>
+    <File md5="6310D8F0DDA5758D7554AE7FA81F8BE3" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.xml</File>
     <File md5="1741ECD4233205CE49298DE4428E09F7" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.sql</File>
     <File md5="AA17AD2DEA0ACBB4FBE90DCD8C0B20D0" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
     <File md5="2A001A2AF3C827E24A63922640862604" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</File>
