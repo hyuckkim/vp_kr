@@ -1,0 +1,1439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text Objects -->
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_SPECIALUNIT_FIGHTER">
+			<Text>전투기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALUNIT_MISSILE">
+			<Text>미사일</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALUNIT_PEOPLE">
+			<Text>정찰병, 탐험가, 선교사, 정보원, 위인</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_B17">
+			<Text>B-17 폭격기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN">
+			<Text>민병대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ANTI_AIRCRAFT_GUN">
+			<Text>대공포</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARABIAN_CAMELARCHER">
+			<Text>낙타궁병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARCHER">
+			<Text>궁병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARTILLERY">
+			<Text>야포</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AT_GUN">
+			<Text>대전차포</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATOMIC_BOMB">
+			<Text>원자폭탄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AZTEC_JAGUAR">
+			<Text>재규어 전사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BATTLESHIP">
+			<Text>전함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOMBER">
+			<Text>폭격기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CANNON">
+			<Text>대포</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARAVEL">
+			<Text>캐러벨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARRIER">
+			<Text>항공모함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CATAPULT">
+			<Text>투석기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CAVALRY">
+			<Text>기병대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHARIOT_ARCHER">
+			<Text>궁전차</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHINESE_CHUKONU">
+			<Text>연노병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CROSSBOWMAN">
+			<Text>석궁병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DESTROYER">
+			<Text>구축함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EGYPT_WARCHARIOT">
+			<Text>이륜전차</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENGLISH_LONGBOWMAN">
+			<Text>장궁병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE">
+			<Text>전열함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIGHTER">
+			<Text>전투기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRENCH_FOREIGNLEGION">
+			<Text>외인부대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRENCH_MUSKETEER">
+			<Text>총사대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRIGATE">
+			<Text>프리깃</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GALLEY">
+			<Text>갤리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GERMAN_LANDSKNECHT">
+			<Text>란츠크네히트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GERMAN_PANZER">
+			<Text>팬저</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_ARTIST">
+			<Text>위대한 예술가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_ENGINEER">
+			<Text>위대한 기술자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_GENERAL">
+			<Text>위대한 장군</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_MERCHANT">
+			<Text>위대한 상인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_SCIENTIST">
+			<Text>위대한 과학자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY">
+			<Text>헤타이로이</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREEK_HOPLITE">
+			<Text>호플리테스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUIDED_MISSILE">
+			<Text>유도미사일</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP">
+			<Text>전투헬기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSEMAN">
+			<Text>기마병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDIAN_WARELEPHANT">
+			<Text>전투코끼리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INFANTRY">
+			<Text>보병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IRONCLAD">
+			<Text>철갑함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR">
+			<Text>모호크 전사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPANESE_SAMURAI">
+			<Text>사무라이</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPANESE_ZERO">
+			<Text>제로센</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JET_FIGHTER">
+			<Text>제트기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KNIGHT">
+			<Text>기사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LANCER">
+			<Text>창기병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LONGSWORDSMAN">
+			<Text>장검병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MECH">
+			<Text>대학살 로봇</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MECHANIZED_INFANTRY">
+			<Text>기계화 보병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_CRUISER">
+			<Text>미사일 순양함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOBILE_SAM">
+			<Text>이동식 SAM 발사대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_ARMOR">
+			<Text>현대 전차</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MUSKETMAN">
+			<Text>머스킷총병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NUCLEAR_MISSILE">
+			<Text>핵미사일</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NUCLEAR_SUBMARINE">
+			<Text>핵잠수함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMAN_JANISSARY">
+			<Text>예니체리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMAN_SIPAHI">
+			<Text>시파히 기병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PARATROOPER">
+			<Text>공수부대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PERSIAN_IMMORTAL">
+			<Text>이모탈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIKEMAN">
+			<Text>장창병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RIFLEMAN">
+			<Text>소총병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_ARTILLERY">
+			<Text>다연장 로켓포</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROMAN_BALLISTA">
+			<Text>발리스타</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROMAN_LEGION">
+			<Text>군단병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RUSSIAN_COSSACK">
+			<Text>코사크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SCOUT">
+			<Text>정찰병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SETTLER">
+			<Text>개척자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SIAMESE_WARELEPHANT">
+			<Text>나레수안 전투코끼리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY">
+			<Text>만데칼루 기병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPEARMAN">
+			<Text>창병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STEALTH_BOMBER">
+			<Text>스텔스 폭격기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUBMARINE">
+			<Text>잠수함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWORDSMAN">
+			<Text>검사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TANK">
+			<Text>전차</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TREBUCHET">
+			<Text>트레뷰셋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TRIREME">
+			<Text>삼단노선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WARRIOR">
+			<Text>전사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BRUTE">
+			<Text>야만인 전사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WORK_BOAT">
+			<Text>작업선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WORKER">
+			<Text>노동자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_FIGHTER">
+			<Text>전투기 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_BOMBER">
+			<Text>폭격기 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_ARMOR">
+			<Text>기갑 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_MOUNTED">
+			<Text>기마 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_NAVAL">
+			<Text>해상 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_SIEGE">
+			<Text>공성 유닛</Text>
+		</Row>
+		<!-- Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_EMBARKATION">
+			<Text>승선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EMBARKATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해상 타일[ENDCOLOR]에서 이동할 수 있고, 승선한 유닛을 적이 공격하면 파괴당합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION">
+			<Text>방어적 승선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해상 타일[ENDCOLOR]에서 이동할 수 있고, 승선한 유닛은 방어가 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALLWATER_EMBARKATION">
+			<Text>대양 항해 승선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해상 타일[ENDCOLOR]에서 이동할 수 있고, 승선한 유닛이 대양 타일에 갈 수 있으며, 시야가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY">
+			<Text>즉시 회복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY_HELP">
+			<Text>승급하는 대신에 유닛의 체력을 [COLOR_POSITIVE_TEXT]즉시 회복[ENDCOLOR]하고, 이번 [COLOR_POSITIVE_TEXT]승급 기회[ENDCOLOR]를 잃습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_1">
+			<Text>충격 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_1_HELP">
+			<Text>평지 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글 제외)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_2">
+			<Text>충격 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_2_HELP">
+			<Text>평지 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글 제외)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_3">
+			<Text>충격 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_3_HELP">
+			<Text>평지 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글 제외)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_1">
+			<Text>훈련 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_1_HELP">
+			<Text>험지 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_2">
+			<Text>훈련 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_2_HELP">
+			<Text>험지 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_3">
+			<Text>훈련 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_3_HELP">
+			<Text>험지 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_1">
+			<Text>정확성 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_1_HELP">
+			<Text>평지 공격 시 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글 제외)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_2">
+			<Text>정확성 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_2_HELP">
+			<Text>평지 공격 시 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글 제외)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_3">
+			<Text>정확성 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_3_HELP">
+			<Text>평지 공격 시 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_1">
+			<Text>탄막 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_1_HELP">
+			<Text>험지 공격 시 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_2">
+			<Text>탄막 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_2_HELP">
+			<Text>험지 공격 시 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_3">
+			<Text>탄막 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_3_HELP">
+			<Text>험지 공격 시 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. (언덕, 숲, 정글)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_1">
+			<Text>표적 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_1_HELP">
+			<Text>해상 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_2">
+			<Text>표적 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_2_HELP">
+			<Text>해상 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_3">
+			<Text>표적 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_3_HELP">
+			<Text>해상 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE">
+			<Text>공성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENTRY">
+			<Text>감시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENTRY_HELP">
+			<Text>시야가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MEDIC">
+			<Text>의무병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MEDIC_HELP">
+			<Text>인접한 타일에서 체력 회복 중인 모든 유닛들의 턴당 체력 회복량을 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMPHIBIOUS">
+			<Text>수륙양용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMPHIBIOUS_HELP">
+			<Text>바다에서 지상으로 공격하거나 강을 건너 공격할 때 받는 페널티가 사라집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE">
+			<Text>돌격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE_HELP">
+			<Text>부상당한 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VOLLEY">
+			<Text>일제 사격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VOLLEY_HELP">
+			<Text>요새화된 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_1">
+			<Text>엄폐 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_1_HELP">
+			<Text>원거리 공격에 대한 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_2">
+			<Text>엄폐 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_2_HELP">
+			<Text>원거리 공격에 대한 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_1">
+			<Text>진형 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_1_HELP">
+			<Text>기마 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_2">
+			<Text>진형 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_2_HELP">
+			<Text>기마 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_1">
+			<Text>매복 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_1_HELP">
+			<Text>기갑 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_2">
+			<Text>매복 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_2_HELP">
+			<Text>기갑 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARCH">
+			<Text>행군</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARCH_HELP">
+			<Text>유닛이 행동 여부와 상관없이 체력을 턴당 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]씩 회복합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLITZ">
+			<Text>전격전</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLITZ_HELP">
+			<Text>한 턴에 [COLOR_POSITIVE_TEXT]공격을 한 번 더[ENDCOLOR] 할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODSMAN">
+			<Text>숲사람</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODSMAN_HELP">
+			<Text>숲과 정글에서 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOGISTICS">
+			<Text>병참</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOGISTICS_HELP">
+			<Text>턴당 [COLOR_POSITIVE_TEXT]한 번[ENDCOLOR]의 추가 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RANGE">
+			<Text>사거리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RANGE_HELP">
+			<Text>사거리가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INDIRECT_FIRE">
+			<Text>간접 사격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INDIRECT_FIRE_HELP">
+			<Text>시야가 확보됐을 때 장애물을 넘어서 원거리 공격합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOBILITY">
+			<Text>기동성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOBILITY_HELP">
+			<Text>[ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY">
+			<Text>보급</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_HELP">
+			<Text>우호적인 타일 밖에서 체력을 턴당 [COLOR_POSITIVE_TEXT]2[ENDCOLOR]씩 회복합니다. [ICON_MOVES]이동력을 조금이라도 소모하면 회복되지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1">
+			<Text>요격 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1_HELP">
+			<Text>공중 유닛 요격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2">
+			<Text>요격 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2_HELP">
+			<Text>공중 유닛 요격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3">
+			<Text>요격 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3_HELP">
+			<Text>공중 유닛 요격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1">
+			<Text>공중전 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1_HELP">
+			<Text>제공 임무 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2">
+			<Text>공중전 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2_HELP">
+			<Text>제공 임무 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3">
+			<Text>공중전 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3_HELP">
+			<Text>제공 임무 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1">
+			<Text>공성 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2">
+			<Text>공성 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3">
+			<Text>공성 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1">
+			<Text>폭격 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1_HELP">
+			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2">
+			<Text>폭격 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2_HELP">
+			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3">
+			<Text>폭격 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3_HELP">
+			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_RANGE">
+			<Text>범위</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_RANGE_HELP">
+			<Text>작전 범위 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SORTIE">
+			<Text>출격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SORTIE_HELP">
+			<Text>턴당 [COLOR_POSITIVE_TEXT]한 번[ENDCOLOR]의 추가 요격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_REPAIR">
+			<Text>수리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR">
+			<Text>공중 수리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION">
+			<Text>회피</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_HELP">
+			<Text>요격에 의한 피해 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_1">
+			<Text>정찰 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_1_HELP">
+			<Text>시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_2">
+			<Text>정찰 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_2_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_3">
+			<Text>정찰 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_3_HELP">
+			<Text>시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1">
+			<Text>생존 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1_HELP">
+			<Text>우호적인 타일 밖에서 [ICON_MOVES]이동력을 소모하지 않는다면, 체력을 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]씩 추가 회복합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2">
+			<Text>생존 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2_HELP">
+			<Text>[ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3">
+			<Text>생존 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3_HELP">
+			<Text>[ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하고, [ICON_MOVES]이동력을 소모하더라도 무조건 체력을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 추가 회복합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOBILITY_1">
+			<Text>기동성 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOBILITY_2">
+			<Text>기동성 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MORALE_HELP">
+			<Text>[ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MORALE">
+			<Text>사기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DISCIPLINE_HELP">
+			<Text>우호적인 유닛이 인접했을 때, [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DISCIPLINE">
+			<Text>규율</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OLIGARCHY_HELP">
+			<Text>우호적인 영토 내에서 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OLIGARCHY">
+			<Text>과두제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HIMEJI_CASTLE_HELP">
+			<Text>우호적인 영토 내에서 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HIMEJI_CASTLE">
+			<Text>히메지 성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION_HELP">
+			<Text>[ICON_MOVES]이동력과 시야가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION">
+			<Text>해군전통</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_LIGHTHOUSE_HELP">
+			<Text>[ICON_MOVES]이동력과 시야가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_LIGHTHOUSE">
+			<Text>파로스 등대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NATIONALISM_HELP">
+			<Text>우호적인 영토에서 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NATIONALISM">
+			<Text>애국심</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_I_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_I">
+			<Text>이동력 증가 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_I_HELP">
+			<Text>시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_I">
+			<Text>추가 시야 (1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_II_HELP">
+			<Text>시야 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_III_HELP">
+			<Text>시야 [COLOR_POSITIVE_TEXT]+3[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_II">
+			<Text>추가 시야 (2)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_III">
+			<Text>추가 시야 (3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_IV">
+			<Text>추가 시야 (4)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_IV_HELP">
+			<Text>시야 [COLOR_POSITIVE_TEXT]+4[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIGHT_PENALTY">
+			<Text>시야 감소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIGHT_PENALTY_HELP">
+			<Text>시야 [COLOR_NEGATIVE_TEXT]-1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_RECON">
+			<Text>공중 정찰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_RECON_HELP">
+			<Text>지형에 상관없이 모든 방향의 시야 [COLOR_POSITIVE_TEXT]+6[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_I">
+			<Text>기마 유닛 대항 보너스 (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_I_HELP">
+			<Text>기마 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_II">
+			<Text>기마 유닛 대항 보너스 (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_II_HELP">
+			<Text>기마 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE">
+			<Text>도시 공격 보너스 ([COLOR_POSITIVE_TEXT]+20%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT">
+			<Text>도시 공격 보너스 ([COLOR_POSITIVE_TEXT]+50%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY">
+			<Text>방어 페널티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTED_PENALTY">
+			<Text>기마 유닛 대항 페널티 (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_PENALTY">
+			<Text>도시 공격 페널티 (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_PENALTY_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SMALL_PROMOTION_CITY_PENALTY">
+			<Text>도시 공격 페널티 (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SMALL_PROMOTION_CITY_PENALTY_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_NEGATIVE_TEXT]25%[ENDCOLOR] 감소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_I">
+			<Text>공중 유닛 요격 시 보너스([COLOR_POSITIVE_TEXT]+20%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_II">
+			<Text>공중 유닛 요격 시 보너스([COLOR_POSITIVE_TEXT]+40%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_III">
+			<Text>공중 유닛 요격 시 보너스([COLOR_POSITIVE_TEXT]+50%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_IV">
+			<Text>공중 유닛 요격 시 보너스([COLOR_POSITIVE_TEXT]+100%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SWEEP">
+			<Text>제공</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SWEEP_HELP">
+			<Text>요격 유닛을 격추하여 제공권을 확보합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WEAK_RANGED">
+			<Text>원거리 공격력 감소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WEAK_RANGED_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR">
+			<Text>항공기 공격 시 보너스 ([COLOR_POSITIVE_TEXT]+100%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_HELICOPTER">
+			<Text>헬리콥터 유닛 대항 보너스 (150)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER">
+			<Text>전투기 유닛 대항 보너스 (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I">
+			<Text>잠수함 공격 시 보너스 ([COLOR_POSITIVE_TEXT]+50%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II">
+			<Text>잠수함 공격 시 보너스 ([COLOR_POSITIVE_TEXT]+100%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_TANK">
+			<Text>전차 공격 시 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_I">
+			<Text>회피력 ([COLOR_POSITIVE_TEXT]+50%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_II">
+			<Text>회피력 ([COLOR_POSITIVE_TEXT]+100%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_PENALTY">
+			<Text>해상 유닛 공격 시 페널티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RIVAL_TERRITORY">
+			<Text>영토 침입 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_I">
+			<Text>유닛 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 배치 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_II">
+			<Text>유닛 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 배치 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_III">
+			<Text>유닛 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR] 배치 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_IV">
+			<Text>유닛 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR] 배치 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOLIAGE_IMPASSABLE">
+			<Text>숲 및 정글 타일 이동 불가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_ENDS">
+			<Text>험지 페널티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_ENDS_HELP">
+			<Text>험지로 이동 시 모든 [ICON_MOVES]이동력 소모</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO">
+			<Text>천문학 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]천문학[ENDCOLOR]을 얻을때까지 대양 타일로 나갈 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE">
+			<Text>대양으로 이동 불가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVISIBLE_SUBMARINE">
+			<Text>보이지 않음 (잠수함)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_SUBMARINE">
+			<Text>잠수함 탐지 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IGNORE_TERRAIN_COST">
+			<Text>지형 페널티 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT">
+			<Text>호버링 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+			<Text>산을 넘을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST">
+			<Text>지형에 상관없이 타일당 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 소모</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CAN_MOVE_IMPASSABLE">
+			<Text>빙하 타일로 이동 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NO_CAPTURE">
+			<Text>도시 점령 불가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ONLY_DEFENSIVE">
+			<Text>근접 공격 불가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NO_DEFENSIVE_BONUSES">
+			<Text>[ICON_STRENGTH]방어력 보너스 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PARADROP">
+			<Text>공중 투하</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MUST_SET_UP">
+			<Text>원거리 공격을 하려면 설치 작업이 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE">
+			<Text>원거리 지원 사격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE_HELP">
+			<Text>요새화한 경우 우호적인 유닛에 지원 사격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CAN_MOVE_AFTER_ATTACKING">
+			<Text>공격 후 이동 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OPEN_TERRAIN">
+			<Text>평지에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SECOND_ATTACK">
+			<Text>[COLOR_POSITIVE_TEXT]두 번[ENDCOLOR] 공격함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT">
+			<Text>해상 이동력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT_HELP">
+			<Text>해상 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL">
+			<Text>지도력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL_HELP">
+			<Text>근처 유닛의 [ICON_STRENGTH]전투력이 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_I">
+			<Text>위대한 장군 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II">
+			<Text>위대한 장군 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_I_HELP">
+			<Text>전투 시 위대한 장군 출현율 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP">
+			<Text>전투 시 위대한 장군 출현율 크게 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FREE_PILLAGE_MOVES">
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+			<Text>적을 전멸시킬 때마다 모든 체력 회복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]야만인[ENDCOLOR]을 제외한 유닛을 전멸시켰을 때 모든 체력이 회복합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>유닛을 전멸시킬 때마다 [COLOR_POSITIVE_TEXT]2[ENDCOLOR]씩 체력을 회복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 ([COLOR_POSITIVE_TEXT]+25%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOHAWK">
+			<Text>숲이나 정글에서 전투 시 보너스 ([COLOR_POSITIVE_TEXT]+25%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JAGUAR">
+			<Text>정글에서 전투 시 보너스 ([COLOR_POSITIVE_TEXT]+50%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_LANDS">
+			<Text>타국 지역 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_LANDS_HELP">
+			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED">
+			<Text>피해받은 적을 공격 시 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED_HELP">
+			<Text>피해받은 적을 공격 시 보너스가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 방어할 땐 적용되지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_HEAL">
+			<Text>[COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]의 체력 회복 속도</Text>
+		</Row>
+		<!-- Unit Help and Rollover Text-->
+		<Row Tag="TXT_KEY_UNIT_HELP_WORKER">
+			<Text>도시 근처의 타일에 시설을 건설하여 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드 등을 증가시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SETTLER">
+			<Text>새로운 도시를 세워 국가를 확장시킵니다.[NEWLINE]이 유닛이 생산되는 동안 도시의 [ICON_CITIZEN]시민 증가가 멈춥니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WORKBOAT">
+			<Text>[ICON_RES_FISH]물고기와 같은 해양 자원에 [COLOR_POSITIVE_TEXT]어선[ENDCOLOR] 시설을 건설합니다. 시설이 건설되면 작업선을 소모합니다. 작업선은 수비 능력이 없어서 적에게 쉽게 파괴당합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SS_PART">
+			<Text>[COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]를 하려면 반드시 만들어서 [ICON_CAPITAL]수도로 보내야 하는 우주선의 부품 중 하나입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SS_BOOSTER">
+			<Text>[COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]를 하려면 반드시 만들어서 [ICON_CAPITAL]수도로 보내야 하는 우주선의 부품 중 하나입니다. 다른 부품과 달리 SS 추진기는 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER">
+			<Text>적 항공기 유닛 방어에 효과적인 해상 유닛입니다. [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]의 미사일을 탑재할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_SUBMARINE">
+			<Text>구축함과 잠수함을 제외한 모든 유닛에게 감지되지 않습니다. [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]의 미사일을 탑재할 수 있으며, 잠수함 격추에 효과적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CARRIER">
+			<Text>[COLOR_POSITIVE_TEXT]3대[ENDCOLOR]의 비행 유닛을 탑재할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BATTLESHIP">
+			<Text>게임 내 해상전에서 가장 강력한 해상 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SUBMARINE">
+			<Text>구축함과 잠수함을 제외한 모든 유닛에게 감지되지 않습니다. 감지되지 않은 채로 적의 해상 유닛에게 접근하면 막대한 피해를 줄 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DESTROYER">
+			<Text>게임 후반에 등장하는 유닛이며, 매우 효과적인 정찰을 가능케 하는 해상 유닛입니다.  적의 잠수함 추적과 파괴에 효과적입니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_IRONCLAD">
+			<Text>프리깃보다 더 강력한 유닛입니다. [ICON_STRENGTH]전투력을 위해 기동성과 대양에 나가는 능력을 포기했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FRIGATE">
+			<Text>해상을 장악하는 데 사용됐던 르네상스 시대의 강력한 해상 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE">
+			<Text>프리깃을 대체하는 영국의 고유 유닛입니다. 해상을 장악하는 데 사용됐던 르네상스 시대의 강력한 해상 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CARAVEL">
+			<Text>넓은 시야를 지닌 르네상스 초기의 탐험용 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TRIREME">
+			<Text>고대 시대의 해상을 장악하는 데 사용됐던 해상 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MECH">
+			<Text>방어를 하거나 도시를 공격할 때 페널티를 받지만, 그 외에는 게임 내에서 어떤 군사 유닛보다 강력합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_MISSILE">
+			<Text>핵미사일을 적에게 선사하여 파괴하십시오. 도시에는 엄청난 피해를 입히고, 폭발 범위 내에선 어떠한 유닛도 살아남기 힘듭니다. 미사일 순양함과 핵잠수함에 탑재할 수 있습니다.[NEWLINE][NEWLINE]맨해튼 프로젝트 연구와 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]의 [ICON_RES_URANIUM]우라늄이 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_STEALTH_BOMBER">
+			<Text>적의 유닛과 도시 위로 죽음의 비를 내리는 장거리 비행 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JET_FIGHTER">
+			<Text>적의 비행 유닛을 요격하고, 제공권 장악을 목적으로 설계된 비행 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUIDED_MISSILE">
+			<Text>적의 도시나 유닛에게 한 번의 피해를 입히는데 사용되는 저렴한 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MODERN_ARMOR">
+			<Text>빠르고 강력한 정보화시대 유닛입니다. 방어를 하거나 도시를 공격할 때 페널티를 받지만, 평지에선 믿기 힘든 활약을 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+			<Text>지상의 기갑 유닛을 상대하는데 특화된 유닛입니다. 호버링이 가능하고 산을 넘을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MOBILE_SAM">
+			<Text>주변에 폭격을 시도하는 적의 비행 유닛을 요격합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ROCKET_ARTILLERY">
+			<Text>원자력 시대의 빠른 공성 유닛입니다. 다른 공성 유닛과 달리 발포에 사전 설치 작업이 필요하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MECHANIZED_INFANTRY">
+			<Text>특별한 자원을 필요로 하지 않는 빠르고 기초적인 정보화 시대 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ATOMIC_BOMB">
+			<Text>원자폭탄을 적에게 선사하여 파괴하십시오. 도시에 엄청난 피해를 입히고, 폭발 범위 내에선 어떠한 유닛도 살아남기 힘듭니다. 핵미사일과는 달리 항공모함에도 배치할 수 있습니다.[NEWLINE][NEWLINE]맨해튼 프로젝트를 연구해야 생산할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BOMBER">
+			<Text>적의 유닛과 도시 위로 죽음의 비를 내리는 비행 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_B17">
+			<Text>폭격기를 대체하는 미국의 고유 유닛입니다. 적의 유닛과 도시 위로 죽음의 비를 내리는 비행 유닛입니다. 폭격기에 비해 요격을 어느정도 막아낼 수 있으며 도시에 더 큰 피해를 줍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FIGHTER">
+			<Text>적의 비행 유닛을 요격하고, 제공권 장악을 목적으로 설계된 비행 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ZERO">
+			<Text>전투기를 대체하는 일본의 고유 유닛입니다. 적의 비행 유닛을 요격하고, 제공권 장악을 목적으로 설계된 비행 유닛입니다. 전투기에 비해 [ICON_STRENGTH]전투력이 높습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PARATROOPER">
+			<Text>우호적인 영토에서 [COLOR_POSITIVE_TEXT]5타일[ENDCOLOR] 떨어진 곳까지 공중 투하할 수 있는 강한 보병 유닛입니다. 공수부대는 강하 후에도 이동할 수 있지만 전투에는 참여할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TANK">
+			<Text>빠르고 강력한 원자력 시대 유닛입니다. 방어를 하거나 도시를 공격할 때 페널티를 받지만, 평지에선 믿기 힘든 활약을 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+			<Text>빠르고 강력한 원자력 시대 유닛입니다. 방어를 하거나 도시를 공격할 때 페널티를 받지만, 평지에선 믿기 힘든 활약을 합니다. 독일에서만 생산할 수 있습니다. 팬저는 전차에 비해 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 높습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ARTILLERY">
+			<Text>3타일 밖의 공격이 가능한 첫번째 공성 유닛입니다. 발포에 사전 설치 작업이 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ANTI_AIRCRAFT_GUN">
+			<Text>주변에 폭격을 시도하는 적의 비행 유닛을 요격합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ANTI_TANK_GUN">
+			<Text>전차와의 전투에 특화된 상대적으로 저렴한 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_INFANTRY">
+			<Text>산업 시대의 기본 보병 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FOREIGN_LEGION">
+			<Text>산업 시대의 기본 보병 유닛입니다. 프랑스에서만 생산할 수 있습니다. 외인부대는 보병과 달리 우호적인 영토 밖에서 전투 시 보너스를 받습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CAVALRY">
+			<Text>동시대의 보병 유닛에게 맞설 수 있는 르네상스 시대의 기마 유닛입니다. 다른 기마 유닛과의 전투에선 약한 모습을 보입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COSSACK">
+			<Text>동시대의 보병 유닛에게 맞설 수 있는 르네상스 시대의 기마 유닛입니다. 다른 기마 유닛과의 전투에선 약한 모습을 보입니다. 러시아에서만 생산할 수 있습니다. 코사크는 기병대와 달리 다친 유닛을 상대할 때 [ICON_STRENGTH]전투력 보너스를 받습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_RIFLEMAN">
+			<Text>최전선에서 활약하는 산업 시대의 강력한 지상 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LANCER">
+			<Text>공격에 중점을 둔 기마 유닛이기 때문에 자신이 방어할 때는 전투 페널티를 받습니다. 적 기마 유닛을 공격하는 데 좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SIPAHI">
+			<Text>공격에 중점을 둔 기마 유닛이기 때문에 자신이 방어할 때는 전투 페널티를 받습니다. 적 기마 유닛을 공격하는 데 좋습니다. 오스만에서만 생산할 수 있습니다. 시파히 기병은 창기병에 비해 더 빠르고 멀리 볼 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CANNON">
+			<Text>르네상스 시대의 강력한 공성 유닛입니다. 발포에 사전 설치 작업이 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MUSKETMAN">
+			<Text>게임에서 최초로 등장하는 화약 유닛입니다. 상당히 저렴하고 강력합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MINUTEMAN">
+			<Text>머스킷총병을 대체하는 미국의 고유 유닛입니다. 험지에서도 평지처럼 이동합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MUSKETEER">
+			<Text>머스킷총병을 대체하는 프랑스의 고유 유닛입니다. 머스킷총병에 비해 [ICON_STRENGTH]전투력이 높습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JANISSARY">
+			<Text>머스킷총병을 대체하는 오스만의 고유 유닛입니다. 머스킷총병에 비해 [ICON_STRENGTH]전투력이 높고, 적을 전멸시킬 때마다 체력을 회복합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LONGSWORDSMAN">
+			<Text>중세 시대의 강력한 보병 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SAMURAI">
+			<Text>장검병을 대체하는 일본의 고유 유닛입니다. 중세 시대의 강력한 보병 유닛입니다. 장검병보다 효과적으로 전투를 하며 위대한 장군의 탄생에 도움을 줍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TREBUCHET">
+			<Text>중세 시대의 강력한 공성 유닛입니다. 적의 도시 방어도를 감소시키 데 효과적입니다. 발포 전에 사전 설치 작업이 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_KNIGHT">
+			<Text>중세 시대의 강력한 기마 유닛입니다. 장창병에 약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CAMEL_ARCHER">
+			<Text>기사를 대체하는 아라비아의 고유 유닛입니다. 중세 시대의 빠른 원거리 유닛입니다. 장창병에 약합니다. 기사와 달리 원거리 공격을 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SIAMESE_WARELEPHANT">
+			<Text>기사를 대체하는 시암의 고유 유닛입니다. 중세 시대의 강력한 기마 유닛입니다. 장창병에 약합니다. 기사에 비해 [ICON_STRENGTH]전투력이 높고, 다른 기마 유닛과 전투 시 보너스를 받습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY">
+			<Text>기사를 대체하는 송가이의 고유 유닛입니다. 중세 시대의 강력한 기마 유닛입니다. 장창병에 약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CROSSBOWMAN">
+			<Text>중세 시대의 원거리 보병 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CHUKONU">
+			<Text>석궁병을 대체하는 중국의 고유 유닛입니다. 중세 시대의 원거리 보병 유닛입니다. 석궁병과 달리 한 턴에 두 번 공격할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LONGBOWMAN">
+			<Text>석궁병을 대체하는 영국의 고유 유닛입니다. 중세 시대의 원거리 보병 유닛입니다. 석궁병에 비해 사거리가 1 깁니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PIKEMAN">
+			<Text>기마 유닛을 물리치는 데 효과적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LANDSKNECHT">
+			<Text>장창병을 대체하는 독일의 고유 유닛입니다. 기마 유닛을 물리치는 데 효과적입니다. 장창병에 비해 저렴합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CATAPULT">
+			<Text>게임 내에서 최초로 등장하는 공성 유닛입니다. 원거리에서 도시와 유닛에게 큰 피해를 줍니다. 포격 전에 사전 설치 작업이 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BALLISTA">
+			<Text>투석기를 대체하는 로마의 고유 유닛입니다. 원거리에서 도시와 유닛에게 큰 피해를 줍니다. 포격 전에 사전 설치 작업이 필요합니다. 투석기에 비해 [ICON_STRENGTH]전투력이 높습니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HORSEMAN">
+			<Text>게임 초반의 빠르고 강력한 기마 유닛입니다. 창병에 약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COMPANION_CAVALRY">
+			<Text>기마병을 대체하는 그리스의 고유 유닛입니다. 게임 초반의 빠르고 강력한 기마 유닛입니다. 창병에 약합니다. 기마병보다 [ION_STRENGTH]전투력이 좋을 뿐만 아니라 더 빠르게 움직이며, 위대한 장군이 좀 더 빨리 탄생하도록 돕습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SWORDSMAN">
+			<Text>최전선에서 활약하는 고전 시대의 강력한 지상 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR">
+			<Text>검사를 대체하는 이로쿼이의 고유 유닛입니다. 최전선에서 활약하는 고전 시대의 강력한 지상 유닛으로 일반 검사와 달리 숲 및 정글 타일에서 [ICON_STRENGTH]전투력 보너스가 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ROMAN_LEGION">
+			<Text>검사를 대체하는 로마의 고유 유닛입니다. 최전선에서 활약하는 고전 시대의 강력한 지상 유닛입니다. 검사에 비해 [ICON_STRENGTH]전투력이 높습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CHARIOR_ARCHER">
+			<Text>평지에서 훨씬 효과적인 빠른 원거리 유닛입니다. 하지만 험한 지형에선 크게 느려집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT">
+			<Text>평지에서 훨씬 효과적인 빠른 원거리 유닛입니다. 하지만 험한 지형에선 크게 느려집니다. 이집트에서만 생산할 수 있습니다. 이륜전차는 궁전차와 달리 [ICON_RES_HORSE][COLOR_POSITIVE_TEXT]말[ENDCOLOR]이 필요하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT">
+			<Text>궁전차를 대체하는 인도의 고유 유닛입니다. 평지에서 훨씬 효과적인 빠른 원거리 유닛이지만 험한 지형에선 크게 느려집니다. 궁전차에 비해 [ICON_STRENGTH]전투력이 높습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SPEARMAN">
+			<Text>기마 유닛을 물리치는 데 효과적인 고대 시대 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HOPLITE">
+			<Text>창병을 대체하는 그리스의 고유 유닛입니다. 기마 유닛을 물리치는 데 효과적인 고대 시대 유닛입니다. 일반 창병에 비해 [ICON_STRENGTH]전투력이 높습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_IMMORTAL">
+			<Text>창병을 대체하는 페르시아의 고유 유닛입니다. 기마 유닛을 물리치는 데 효과적인 고대 시대 유닛입니다. 일반 창병에 비해 [ICON_STRENGTH]전투력이 좋고 체력을 더 빨리 회복합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ARCHER">
+			<Text>원거리에서 적을 공격할 수 있는 고대 시대의 강력한 원거리 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SCOUT">
+			<Text>험지에서 느려지지 않아 탐험에 적합하지만 공격에는 취약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WARRIOR">
+			<Text>게임 초반에 등장하는 상당히 약한 군사 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JAGUAR">
+			<Text>전사를 대체하는 아즈텍의 고유 유닛입니다. 게임 초반에 등장하는 상당히 약한 군사 유닛입니다. 전사와 달리 적을 전멸시킬 때마다 체력을 회복합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BARBARIAN_WARRIOR">
+			<Text>게임 초반 [COLOR_NEGATIVE_TEXT]야만인[ENDCOLOR]의 가장 기본적인 군사 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_REPAIR_HELP">
+			<Text>항공기 수리</Text>
+		</Row>
+		<!-- Great General Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_KHUSRO">
+			<Text>쿠스로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AYABHATA">
+			<Text>아야브하타</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GOTTFREID_LEIBNIZ">
+			<Text>고트프리트 폰 라이프니츠</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRIEDRICH_GAUSS">
+			<Text>프리드리히 가우스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ERICO_DANDOLO">
+			<Text>엔리코 단돌로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RICHARD_WHITTINGTON">
+			<Text>리처드 위팅턴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TODAR_MAL">
+			<Text>토다르 말</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VAN_DIEMEN">
+			<Text>반 디멘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_MORTON">
+			<Text>윌리엄 모턴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FERDINAND_DA_LESSEPS">
+			<Text>페르디낭 드 레셉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SARGON">
+			<Text>사르곤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUN_TZU">
+			<Text>손자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEONIDAS">
+			<Text>레오니다스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LYSANDER">
+			<Text>리산드로스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHANDRAGUPTA_MAURYA">
+			<Text>찬드라굽타 마우리야</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HAMILCAR_BARCA">
+			<Text>하밀카르 바르카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GAIUS_MARIUS">
+			<Text>가이우스 마리우스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SCIPIO_AFRICANUS">
+			<Text>스키피오 아프리카누스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VERCINGETORIX">
+			<Text>웨르킨게토릭스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARMINIUS">
+			<Text>아르미니우스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CAO_CAO">
+			<Text>조조</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZHUGE_LIANG">
+			<Text>제갈량</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BELISARIUS">
+			<Text>벨리사리우스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KHALED_IBN_AL_WALID">
+			<Text>할리드 이븐 알 왈리드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_MARTEL">
+			<Text>카롤루스 마르텔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EL_CID">
+			<Text>엘 시드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_THE_CONQUEROR">
+			<Text>정복자 윌리엄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUBUTAI">
+			<Text>수부타이</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TIMUR">
+			<Text>티무르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JEANNE_DARC">
+			<Text>잔 다르크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AUITZOTL">
+			<Text>아우이초틀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HERNAN_CORTES">
+			<Text>코르테스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANCISCO_PIZARRO">
+			<Text>프란시스코 피사로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_IVAN_THE_TERRIBLE">
+			<Text>폭군 이반</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AKBAR">
+			<Text>아크바르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GUSTAVUS_ADOLPHUS">
+			<Text>구스타프 아돌프</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MICHEL_DE_RUYTER">
+			<Text>미힐 더 라이테르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CROMWELL">
+			<Text>올리버 크롬웰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EUGENE_OF_SAVOY">
+			<Text>외젠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LORD_NELSON">
+			<Text>넬슨 제독</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GERONIMO">
+			<Text>제로니모</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROBERT_LEE">
+			<Text>로버트 리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YAMAMOTO">
+			<Text>야마모토</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PATTON">
+			<Text>패튼</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MONTGOMERY">
+			<Text>몽고메리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GUERDIAN">
+			<Text>구데리안</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROMMEL">
+			<Text>롬멜</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZHUKOV">
+			<Text>주코프</Text>
+			<Plurality>2</Plurality>
+		</Row>
+	</Language_KO_KR>
+</GameData>

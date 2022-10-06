@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+<!--File created by Paul Murphy-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_CIV_AMERICA_ADJECTIVE">
+            <Text>[COLOR:70:120:200:255]미국[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_AMERICA_DESC">
+            <Text>미국 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_AMERICA_SHORT_DESC">
+            <Text>[COLOR:70:120:200:255]미국[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ARABIA_ADJECTIVE">
+            <Text>[COLOR:100:150:100:255]아라비아[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ARABIA_DESC">
+            <Text>아라비아 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ARABIA_SHORT_DESC">
+            <Text>[COLOR:100:150:100:255]아라비아[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_AZTEC_ADJECTIVE">
+            <Text>[COLOR:140:80:80:255]아즈텍[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_AZTEC_DESC">
+            <Text>아즈텍 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_AZTEC_SHORT_DESC">
+            <Text>[COLOR:140:80:80:255]아즈텍[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_BARBARIAN_ADJECTIVE">
+            <Text>[COLOR_NEGATIVE_TEXT]야만족[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_BARBARIAN_DESC">
+            <Text>야만족</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_BARBARIAN_SHORT_DESC">
+            <Text>[COLOR_NEGATIVE_TEXT]야만족[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_CHINA_ADJECTIVE">
+            <Text>[COLOR:90:210:90:255]중국[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_CHINA_DESC">
+            <Text>중국 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_CHINA_SHORT_DESC">
+            <Text>[COLOR:90:210:90:255]중국[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_EGYPT_ADJECTIVE">
+            <Text>[COLOR:240:220:70:255]이집트[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_EGYPT_DESC">
+            <Text>이집트 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_EGYPT_SHORT_DESC">
+            <Text>[COLOR:240:220:70:255]이집트[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ENGLAND_ADJECTIVE">
+            <Text>[COLOR:190:80:70:255]영국[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ENGLAND_DESC">
+            <Text>영국 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ENGLAND_SHORT_DESC">
+            <Text>[COLOR:190:80:70:255]영국[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_FRANCE_ADJECTIVE">
+            <Text>[COLOR:70:160:220:255]프랑스[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_FRANCE_DESC">
+            <Text>프랑스 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_FRANCE_SHORT_DESC">
+            <Text>[COLOR:70:160:220:255]프랑스[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_GERMANY_ADJECTIVE">
+            <Text>[COLOR:120:120:120:255]독일[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_GERMANY_DESC">
+            <Text>독일 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_GERMANY_SHORT_DESC">
+            <Text>[COLOR:120:120:120:255]독일[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_GREECE_ADJECTIVE">
+            <Text>[COLOR:130:190:230:255]그리스[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_GREECE_DESC">
+            <Text>그리스 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_GREECE_SHORT_DESC">
+            <Text>[COLOR:130:190:230:255]그리스[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_INDIA_ADJECTIVE">
+            <Text>[COLOR:60:210:60:255]인도[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_INDIA_DESC">
+            <Text>인도 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_INDIA_SHORT_DESC">
+            <Text>[COLOR:60:210:60:255]인도[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_IROQUOIS_ADJECTIVE">
+            <Text>[COLOR:150:150:160:255]이로쿼이[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_IROQUOIS_DESC">
+            <Text>이로쿼이 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_IROQUOIS_SHORT_DESC">
+            <Text>[COLOR:150:150:160:255]이로쿼이[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_JAPAN_ADJECTIVE">
+            <Text>[COLOR:255:0:0:255]일본[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_JAPAN_DESC">
+            <Text>일본 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_JAPAN_SHORT_DESC">
+            <Text>[COLOR:255:0:0:255]일본[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_MINOR_ADJECTIVE">
+            <Text>도시 국가의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_MINOR_DESC">
+            <Text>도시 국가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_MINOR_SHORT_DESC">
+            <Text>도시 국가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_OTTOMAN_ADJECTIVE">
+            <Text>[COLOR:60:140:70:255]오스만[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_OTTOMAN_DESC">
+            <Text>오스만 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_OTTOMAN_SHORT_DESC">
+            <Text>[COLOR:60:140:70:255]오스만[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_PERSIA_ADJECTIVE">
+            <Text>[COLOR:230:50:0:255]페르시아[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_PERSIA_DESC">
+            <Text>페르시아 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_PERSIA_SHORT_DESC">
+            <Text>[COLOR:230:50:0:255]페르시아[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ROME_ADJECTIVE">
+            <Text>[COLOR:150:120:255:255]로마[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ROME_DESC">
+            <Text>로마 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_ROME_SHORT_DESC">
+            <Text>[COLOR:150:120:255:255]로마[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_RUSSIA_ADJECTIVE">
+            <Text>[COLOR:240:210:110:255]러시아[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_RUSSIA_DESC">
+            <Text>러시아 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_RUSSIA_SHORT_DESC">
+            <Text>[COLOR:240:210:110:255]러시아[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_SIAM_ADJECTIVE">
+            <Text>[COLOR:255:210:0:255]시암[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_SIAM_DESC">
+            <Text>시암 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_SIAM_SHORT_DESC">
+            <Text>[COLOR:255:210:0:255]시암[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_SONGHAI_ADJECTIVE">
+            <Text>[COLOR:220:140:10:255]송가이[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_SONGHAI_DESC">
+            <Text>송가이 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_SONGHAI_SHORT_DESC">
+            <Text>[COLOR:220:140:10:255]송가이[ENDCOLOR]</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_SECTION_1">
+            <Text>문명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_SECTION_2">
+            <Text>지도자</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>
