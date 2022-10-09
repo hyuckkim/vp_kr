@@ -2936,7 +2936,7 @@
 			<Text>{@2_CivName}에서 온 정보원의 보고에 따르면 {@1_CityName}에서의 쿠데타가 무르익었다고 합니다. 이 쿠데타를 완수하면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COUP">
-			<Text>{@1_CivName}에서 온 보고</Text>
+			<Text>{@1_Civ}에서 온 보고</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP_CITY_COMPLETE">
 			<Text>{@1_Civname}{@1: plural 1?이; 2?가;} 당신의 쿠데타 성공을 칭찬합니다.</Text>

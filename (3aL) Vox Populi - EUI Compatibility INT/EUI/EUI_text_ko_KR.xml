@@ -473,6 +473,11 @@
 		<Row Tag="TXT_KEY_EUI_EMPIRE">
 			<Text>[COLOR_HIGHLIGHT_TEXT]제국[ENDCOLOR]</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_VP_PUPPET_CITIES">
+			<Text>[ICON_PUPPET] 괴뢰 도시</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED">
 			<Text>접근 필요</Text>
 		</Row>

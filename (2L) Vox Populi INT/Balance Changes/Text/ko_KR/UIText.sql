@@ -625,6 +625,11 @@ UPDATE Language_ko_KR
 SET Text = '제재소를 통해 숲 타일의 [ICON_PRODUCTION]생산을 증가시킬 수 있습니다. 인접한 제재소 2개마다 [ICON_PRODUCTION]생산이 추가로 증가합니다. 가능한 경우 3개씩 묶어 건설하십시오.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT';
 
+-- We Love the King Day
+
+UPDATE Language_en_US
+SET Text = '{1_Resource:textkey}{1: plural 1?을; 2?를;} 보유해 {2_CityName:textkey}에서 국왕 경축일이 시작됐습니다. 도시의 [ICON_FOOD]식량이 증가합니다!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_WLTKD';
 
 -- Founding Cities
 
