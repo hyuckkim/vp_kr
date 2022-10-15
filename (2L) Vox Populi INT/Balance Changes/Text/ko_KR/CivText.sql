@@ -7,7 +7,7 @@ SET Text = '지상 군사 유닛이 [COLOR_POSITIVE_TEXT]감시[ENDCOLOR] 승급
 WHERE Tag = 'TXT_KEY_TRAIT_RIVER_EXPANSION';
 
 UPDATE Language_ko_KR
-SET Text = 'The Minuteman is the American unique unit, replacing the Musketman. The Minuteman can move through difficult terrain without penalty, gains Golden Age Points from destroying units, and can shoot up to 2 hexes away.'
+SET Text = '민병대는 머스킷총병을 대체하는 미국의 고유 유닛입니다. 민병대는 험지를 패널티 없이 이동할 수 없고, 적을 처치하면 황금기 접수를 얻습니다. 2칸 너머를 공격할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -15,7 +15,7 @@ SET Text = '머스킷총병을 대체하는 미국의 고유 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MINUTEMAN';
 
 UPDATE Language_ko_KR
-SET Text = 'The B17 Bomber is unique to the Freedom Ideology. Requires the Their Finest Hour Tenet to be unlocked. It is similar to the bomber, but it is more difficult for enemy anti-aircraft and fighters to target. The B17 also receives a bonus when attacking enemy cities. Unlike the bomber, its range is 10. See the rules on Aircraft for more details.'
+SET Text = 'B-17 폭격기는 평등 정책의 고유 유닛입니다. 최상의 시간 이념을 채택해야 합니다. 폭격기와 매우 비슷하지만, 적의 대공 능력과 전투기로 제압하기 어렵습니다. B-17은 또한 적 도시를 공격할 때 보너스를 받습니다. 폭격기와는 다르게 범위가 10입니다. 자세한 내용은 공중전 규칙을 참조하세요.'
 WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_B17_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -29,7 +29,7 @@ SET Text = '시장을 대체하는 아라비아의 고유 건물입니다. 이 �
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Bazaar is the Arabian unique building, replacing the Market. The Bazaar provides [ICON_GOLD] Gold and boosts Trade Route range. The Bazaar also boosts the yields of [ICON_RES_SPICES] Cinnamon and [ICON_RES_SUGAR] Sugar.'
+SET Text = '바자는 시장을 대체하는 아라비아의 고유 유닛입니다. 바자는 [ICON_GOLD] 골드를 제공하고 교역로 범위를 향상시킵니다. 바자는 또한 [ICON_RES_SPICES] 향신료와 [ICON_RES_SUGAR] 설탕에 보너스를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -45,7 +45,7 @@ SET Text = '중산병을 대체하는 아라비아의 고유 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CAMEL_ARCHER';
 
 UPDATE Language_ko_KR
-SET Text = 'The Camel Archer is the Arabian unique unit, replacing the Heavy Skirmisher. The Camel Archer is a powerful ranged attack unit that starts with Splash Damage I, allowing it to do damage to groups of enemies 1 hex away. It retreats from melee combat and does not require [ICON_RES_HORSE] Horses to be constructed. As a mounted unit, the Camel Archer is still vulnerable to Pikemen.'
+SET Text = '낙타궁병은 중산병을 대체하는 아라비아의 고유 유닛입니다. 낙타궁병은 광역 피해 I 승급을 가지고 시작해 강력한 범위 공격을 가하여, 한 타일 안 범위의 여러 적을 동시에 공격할 수 있습니다. 또한 근접 전투에서 후퇴할 수 있고, 말을 요구하지 않습니다. 하지만 기병이므로, 낙타궁병은 여전히 장창병에게 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ARABIAN_CAMELARCHER_STRATEGY';
 
 --------------------
@@ -56,7 +56,7 @@ SET Text = '국립대학을 대체하는 아시리아의 고유 건물입니다.
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'In addition to the [ICON_RESEARCH] Science output of the School of Philosophy it replaces, the Royal Library has three Great Work of Writing slots, comes with a free Great Work and Library in the City, and is available earlier. Provides a global bonus to all Libraries, and all owned cities generate extra XP for Units trained in them based on the number of Great Works of Writing in your empire (up to 45 XP). Only the Assyrians may build it.'
+SET Text = '대체하는 국립 대학의 과학 산출 외에도, 왕립 도서관은 세 개의 작가 슬롯을 가지고, 걸작 문학 한 개와 도서관을 도시에 제공하며 더 이른 시기에 건설할 수 있습니다. 모든 도서관에 보너스를 제공하고, 모든 도시의 유닛이 걸작 문학의 개수에 비례해 경험치 보너스를 받습니다. (최대 45) 아시리아만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -64,7 +64,7 @@ SET Text = '아시리아의 고유 유닛입니다. 공성탑이 적 도시에 �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER';
 
 UPDATE Language_ko_KR
-SET Text = 'Unique Assyrian support Unit. This unit must move close to an enemy city to be effective, but once it has, it is devastating. It [COLOR_NEGATIVE_TEXT]cannot attack or defend itself[ENDCOLOR], so protect it at all costs! You cannot have more than 2 active Siege Towers at one time.[NEWLINE][NEWLINE]If adjacent to a city, the Siege Tower confers a huge combat bonus to all nearby units also attacking the city. If the Siege Tower is two tiles away from the City, all nearby units attacking the city receive half of this bonus. Complement a Siege Tower with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly.'
+SET Text = '아시리아의 고유 지원 유닛입니다. 이 유닛은 적 도시에 붙어야 하지만, 그렇게 된다면 매우 효과적이고 파괴적입니다. [COLOR_NEGATIVE_TEXT]스스로를 보호할 수 없습니다.[ENDCOLOR] 온 힘을 다해 공성탑을 보호하십시오! 한 번에 둘을 넘는 공성탑을 가질 수 없습니다. [NEWLINE][NEWLINE]도시에 붙는다면, 공성탑은 근처 모든 유닛이 도시를 공격할 때 보너스를 제공합니다. 공성탑을 근거리 또는 원거리 유닛으로 보호하며 목표물에 도달하십시오. 도시가 더욱 빨리 함락될 것입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -91,7 +91,7 @@ SET Text = '식료품 상점을 대체하는 오스트리아의 고유 건물입
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Coffee House is a Renaissance-era building unique to Austria, replacing the Grocer. It increases the city''s [ICON_GROWTH] Growth and speed at which [ICON_GREAT_PEOPLE] Great People are generated by 33%.'
+SET Text = '카페는 식료품 상점을 대체하는 오스트리아의 고유 건물입니다. 도시의 [ICON_GROWTH] 성장을 늘리고 [ICON_GREAT_PEOPLE] 위인 탄생을 33% 가속시킵니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -99,7 +99,7 @@ SET Text = '흉갑기병을 대체하는 오스트리아의 고유 유닛입니�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_AUSTRIAN_HUSSAR';
 
 UPDATE Language_ko_KR
-SET Text = 'Hussars are great scouts and flank attackers. They are slightly faster than Cuirassier which they replace. They start with Promotions improving their sight range and allow them to ignore Zone of Control.'
+SET Text = '후사르는 훌륭한 정찰병이자 측면 공격수입니다. 그들은 그들이 대체하는 흉갑기병보다 약간 빠릅니다. 시야를 넓히고 통제 구역을 무시할 수 있게 하는 승급을 가지고 시작합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_AUSTRIAN_HUSSAR_STRATEGY';
 
 
@@ -111,7 +111,7 @@ SET Text = '우물 또는 물레방앗간을 대체하는 아즈텍의 고유 �
 WHERE Tag = 'TXT_KEY_BUILDING_FLOATING_GARDENS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Floating Gardens is the Aztec unique building, replacing both the Well and the Water Mill (as it can be constructed anywhere). It increases the city''s [ICON_FOOD] Food and [ICON_PRODUCTION] Production output, especially during Golden Ages, and should be built if the city is near a lake or river.'
+SET Text = '수상정원은 우물과 물레방앗간을 모두 대체하는 아즈텍의 고유 건물입니다. (따라서 어디에서든 건설할 수 있습니다) 도시의 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 증가시키고, 황금기 동안 강화되며, 도시를 호수나 강 근처에 짓게 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -123,7 +123,7 @@ SET Text = '전사를 대체하는 아즈텍의 고유 유닛입니다. 게임 �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_JAGUAR';
 
 UPDATE Language_ko_KR
-SET Text = 'The Jaguar is the Aztec Unique Unit, replacing the Warrior. Create several units as early as possible and fight with the nearest neighbour to make best use of the Aztecs'' [ICON_GOLD] Gold and [ICON_PEACE] Faith on kill, preferably luring enemies into Jungles and Forests where the Jaguar can make best use of its bonuses.'
+SET Text = '재규어 전사는 전사를 대체하는 아즈텍의 고유 유닛입니다. 이 유닛을 최대한 빨리 생산해 이웃과 전투하여, 아즈텍의 처치시 [ICON_GOLD] 골드와 [ICON_PEACE] 신앙 제공 능력을 활용하십시오. 재규어 전사의 보너스를 이용하려면 가급적 숲 또는 정글에서 전투하는 것이 좋습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_AZTEC_JAGUAR_STRATEGY';
 
 --------------------
