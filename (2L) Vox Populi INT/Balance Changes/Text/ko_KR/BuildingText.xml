@@ -9,10 +9,10 @@
 			<Text>도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 전역 [ICON_HAPPINESS_1]행복 요구 수치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다. 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD]빈곤, [ICON_RESEARCH]문맹, [ICON_CULTURE]무료, [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다. 도시의 스파이 저항을 15% 증가시킵니다. [NEWLINE][NEWLINE]반복 가능한 프로젝트이지만 시대마다 [ICON_PRODUCTION]생산 비용이 [COLOR_NEGATIVE_TEXT]100[ICON_PRODUCTION][ENDCOLOR] 증가합니다. 프로젝트를 수행할 때마다 [ICON_PRODUCTION]생산 비용이 [COLOR_NEGATIVE_TEXT]100[ICON_PRODUCTION][ENDCOLOR] 증가하고 [ICON_GOLD]유지비가 [COLOR_NEGATIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_PEDIA">
-			<Text>Public works are a broad category of infrastructure projects, financed and constructed by the government, for recreational, employment, and health and safety uses in the greater community. They include public buildings (municipal buildings, schools, hospitals), transport infrastructure (roads, railroads, bridges, pipelines, canals, ports, airports), public spaces (public squares, parks, beaches), public services (water supply and treatment, sewage treatment, electrical grid, dams), and other, usually long-term, physical assets and facilities. Though often interchangeable with public infrastructure and public capital, public works does not necessarily carry an economic component, thereby being a broader term.</Text>
+			<Text>공공 사업은 정부가 공동체의 오락, 고용, 보건 및 안전을 위해 기반 시설에 투자하는 것을 말합니다. 공공 사업에는 공공건물 (시립 건물, 학교, 병원), 교통시설 (도로, 철도, 다리, 지하철, 운하, 항구, 공항), 공원시설 (광장, 공원, 해변), 공공 서비스 (상하수도, 전력망, 댐) 및 기타 시설들이 포함됩니다. 공익사업으로 종종 대치할 수 있지만 공공 사업이 항상 사회간접자본에 대한 투자이지는 않아 공공 사업이 지칭하는 범위가 더 넓습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_STRATEGY">
-			<Text>Construct this Project in cities that are suffering from chronic [ICON_HAPPINESS_3] Unhappiness caused by Needs, and you have run out options to deal with it. Watch out, however, as this project becomes more expensive to build every time you construct it in this City, and it costs Gold to upkeep. Use this as a last resort, not as a first solution, when dealing with Unhappiness from Needs.</Text>
+			<Text>만성적인 요구 [ICON_HAPPINESS_3]불행에 시달리고 있다면 이 프로젝트를 완료하여 불행을 조절할 수 있습니다. 하지만 프로젝트를 완료할 때마다 프로젝트의 비용이 증가하고 추가 유지비가 필요합니다. 공공 사업은 요구 불행을 다룰 때의 최후의 해결책으로 사용하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_ROYAL_LIBRARY">
 			<Text>전 세계에서 온 지식</Text>
@@ -27,10 +27,10 @@
 			<Text>리알토 지구</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_RIALTO_DISTRICT_TEXT">
-			<Text> The Rialto is and has been for many centuries the financial and commercial centre of Venice. It is an area of the San Polo sestiere of Venice, Italy, also known for its markets and for the Rialto Bridge across the Grand Canal. The area was settled by the ninth century, when a small area in the middle of the Realtine Islands on either side of the Rio Businiacus was known as the Rivoaltus, or "high bank". Eventually the Businiacus became known as the Grand Canal, and the district the Rialto, referring only to the area on the left bank.</Text>
+			<Text>리알토는 수세기 동안 베네치아의 금융과 상업의 중심지였고 지금도 그렇습니다. 리알토는 시장과 대운하를 가로지르는 리알토 다리로도 유명한 이탈리아 베네치아의 산 폴로 세스티에 지역입니다. 이 지역은 리오 부시니아쿠스의 양쪽에 있는 레알티네 제도 중앙의 작은 지역이 리보알투스 또는 "높은 은행"으로 알려졌을 때 9세기에 정착했습니다. 결국 부시니아쿠스는 대운하로 알려지게 되었고, 리알토 지역은 왼쪽 둑의 지역만을 지칭하게 되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_STRATEGY">
-			<Text>Unique Venetian building, only buildable in Venice's Capital. This building boosts the value of Trade Routes to and from the City, and generates 1 World Congress Delegate for every 100 Gold Per Turn that Venice produces, up to 25% of all City-States ever alive in the game (minimum of 1 Delegate). In addition, this building reduces the Gold cost of purchasing Units and Buildings in the City by 10%. Cannot be constructed if the Arsenale di Venezia or Murano Glassworks are present in the City.</Text>
+			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 교역로의 가치를 증가시키고, 베니스가 생산하는 턴당 골드 100마다 세계 의회 대표단을 하나 얻고, 생존한 도시국가마다 25% 증가합니다. (최소 대표단 1) 또한, 유닛과 건물의 투자 비용을 10% 감소시킵니다. 아스넬 디 베네치아 또는 무라노 유리공방과 함께 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_HELP">
 			<Text>베네치아의 고유 건물입니다. 모든 도시에서 [ICON_GOLD]골드로 유닛을 구매하거나 건물 건설에 투자하는 비용이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] [COLOR:105:105:105:255]([ICON_CAPITAL]수도는 15%)[ENDCOLOR] 감소합니다. 도시의 턴당 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 [COLOR:105:105:105:255](한도: 현존 모든 도시 국가 수의 [COLOR_NEGATIVE_TEXTTIVE_TEXT]25%[ENDCOLOR])[ENDCOLOR] 확보합니다. [NEWLINE][NEWLINE]이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 도시에 [COLOR_NEGATIVE_TEXT]아스넬 디 베네치아[ENDCOLOR] 또는 [COLOR_NEGATIVE_TEXT]무라노 유리공방[ENDCOLOR]이 없어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -39,10 +39,10 @@
 			<Text>아스넬 디 베네치아</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_VENETIAN_ARSENALE_TEXT">
-			<Text>The Venetian Arsenal is a complex of former shipyards and armories clustered together in the city of Venice in northern Italy. Owned by the state, the Arsenal was responsible for the bulk of the Venetian republic's naval power during the middle part of the second millennium AD. It was one of the earliest large-scale industrial enterprises in history.</Text>
+			<Text>아스넬 디 베네치아는 이탈리아 북부 베네치아 시에 있는 옛 조선소와 무기고가 모여 있는 복합 건물입니다. 국가 소유의 이 건물은 서기 2천년 중반 동안 베네치아 공화국의 해군 전력 대부분을 책임졌습니다. 그것은 역사상 최초의 대규모 산업체 중 하나였습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE_STRATEGY">
-			<Text>Unique Venetian building, only buildable in Venice's Capital. This building boosts Production, increases City Defense, increases Military Supply, and provides all Naval Units with the 'Venetian Craftsmanship' promotion, which increases Combat Strength and Movement. Cannot be constructed if the Rialto District or Murano Glassworks are present in the City.</Text>
+			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 생산을 가속시키고, 도시 방어를 향상시키고, 군사 유닛 보급 한도를 증가시키며 해군 유닛에게 베네치아 공작술 승급을 부여해 전투력과 이동력을 향상시킵니다. 리알토 지구 또는 무라노 유리공방과 함께 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE_HELP">
 			<Text>베네치아의 고유 건물입니다. 도시의 생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 군사 유닛의 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고, [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 모든 해상 유닛에 [COLOR_PLAYER_PURPLE]베네치아 공작술[ENDCOLOR] 승급을 부여합니다. [NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 도시에 [COLOR_NEGATIVE_TEXT]리알토 지구[ENDCOLOR] 또는 [COLOR_NEGATIVE_TEXT]무라노 유리공방[ENDCOLOR]이 없어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -51,10 +51,10 @@
 			<Text>피아자 산 마르코</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_PIAZZA_SAN_MARCO_TEXT">
-			<Text>Piazza San Marco (often known in English as St Mark's Square), is the principal public square of Venice, Italy, where it is generally known just as "the Piazza" (la Piazza). All other urban spaces in the city (except the Piazzetta and the Piazzale Roma) are called "campi" (fields). The Piazzetta (the 'little Piazza') is an extension of the Piazza towards the lagoon in its south east corner (see plan). The two spaces together form the social, religious and political centre of Venice and are commonly considered together.</Text>
+			<Text>피아자 산 마르코(산 마르코 광장)는 이탈리아 베네치아의 광장입니다. 도시의 다른 모든 공간은 "캄피"(밭)라고 불립니다. 피아제타('작은 광장')는 광장의 남동쪽 구석에 있는 석호를 향해 연장된 것입니다. 이 두 공간은 함께 베네치아의 사회적, 종교적, 정치적 중심지를 형성하며 일반적으로 함께 건설됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_STRATEGY">
-			<Text>Unique Venetian building, replacing the National Monument. Eschews most National Monument abilities in favor of providing a small boost to City yields and a boost to the City's Great People rate. This means that your Capital is well-defended against the theft of Gold, Science, and other important resources. Unlocks access to Murano Glassworks, Arsenale di Venezia, and Rialto District once Guilds is researched. Only one of these buildings may be constructed per game.</Text>
+			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 국가 기념비의 능력 대신 도시 다양한 산출을 약간씩 증가시키고 위인을 가속시키는 능력이 있습니다. 이것은 당신의 수도이 골드, 과학, 기타 중요한 자원들의 도난으로부터 더 안전해 졌다는 것을 뜻합니다. 길드를 연구하면 무라노 유리공방, 아스넬 디 베네치아, 리알토 지구를 건설할 수 있습니다. 한 게임 안에서 셋 중 하나만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_HELP">
 			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 군사 유닛의 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]길드[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아스넬 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_CAPITAL][COLOR_YELLOW]수도[ENDCOLOR]에만 건설할 수 있습니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -63,10 +63,10 @@
 			<Text>무라노 유리공방</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_MURANO_GLASSWORKS_TEXT">
-			<Text>Murano's reputation as a center for glassmaking was born when the Venetian Republic, fearing fire and the destruction of the city’s mostly wooden buildings, ordered glassmakers to move their foundries to Murano in 1291. Murano glass is still associated with Venetian glass. Murano's glassmakers were soon numbered among the island’s most prominent citizens. By the fourteenth century, glassmakers were allowed to wear swords, enjoyed immunity from prosecution by the Venetian state and found their daughters married into Venice’s most affluent families. While benefiting from certain statutory privileges, glassmakers were forbidden to leave the Republic. However, many of them took the risks associated with migration and established glass furnaces in surrounding cities and farther afield, even in England and the Netherlands.</Text>
+			<Text>유리 제조의 중심지로서의 무라노의 명성은 화재와 도시의 대부분 목조 건물의 파괴를 두려워한 베네치아 공화국이 1291년 유리 제조자들에게 그들의 주조 공장을 무라노로 옮기라고 명령하면서 탄생했습니다. 무라노 유리공방은 여전히 베네치아 유리와 관련이 있습니다. 무라노의 유리 제조업자들은 곧 섬의 가장 유명한 시민들 중 한 명으로 꼽혔습니다. 14세기까지 유리 제조업자들은 검을 착용할 수 있었고, 베네치아 국가로부터 기소 면제를 받았으며, 그들의 딸들은 베네치아의 가장 부유한 가문과 결혼했습니다. 특정 법적 특권의 혜택을 받는 대신, 유리 제조업자들은 공화국을 떠나는 것이 금지되었습니다. 하지만, 그들 중 다수는 이주와 관련된 위험을 감수하고 주변 도시와 더 먼 곳, 심지어 영국과 네덜란드에도 유리 용광로를 설립했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_STRATEGY">
-			<Text>Unique Venetian building, only buildable in Venice's Capital. Boosts the value of Great Person Improvements and Villages for all Cities, and provides two Art/Artifact slots. Construct this building if you are pursuing a Cultural Victory. Cannot be constructed if the Arsenale di Venezia or Rialto District are present in the City.</Text>
+			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 모든 도시의 위인 시설과 마을의 가치를 증가시키고, 예술품/유물 슬롯을 둘 제공합니다. 문화 승리를 노릴 때 이 건물을 건설하십시오. 아스넬 디 베네치아나 리알토 지구와 함께 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_HELP">
 			<Text>베네치아의 고유 건물입니다. 모든 [ICON_GREAT_PEOPLE]위인 시설 및 마을의 [ICON_FOOD]식량 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_RESEARCH]과학 +5[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다.도시에 [COLOR_NEGATIVE_TEXT]리알토 지구[ENDCOLOR] 또는 [COLOR_NEGATIVE_TEXT]아스날 디 베네치아[ENDCOLOR]가 없어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -81,10 +81,10 @@
 			<Text>철도역</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TRAINSTATION_TEXT">
-			<Text>A train station, railway station, railroad station, or depot (see below) is a railway facility where trains regularly stop to load or unload passengers or freight. It generally consists of at least one track-side platform and a station building (depot) providing such ancillary services as ticket sales and waiting rooms. If a station is on a single-track line, it often has a passing loop to facilitate traffic movements. The smallest stations are most often referred to as "stops" or, in some parts of the world, as "halts" (flag stops). Stations may be at ground level, underground, or elevated. Connections may be available to intersecting rail lines or other transport modes such as buses, trams or other rapid transit systems.</Text>
+			<Text>철도역, 기차역, 정차장은 열차가 승객이나 화물을 싣거나 내리기 위해 정기적으로 정차하는 철도 시설입니다. 일반적으로 적어도 하나의 선로 측 플랫폼과 티켓 판매 및 대기실과 같은 보조 서비스를 제공하는 역사로 구성됩니다. 역이 단선 노선에 있는 경우, 교통 이동을 용이하게 하기 위해 대피선이 있는 경우가 많은데, 작은 역들에서는 열차를 세우거나, 일부 지역에서는 깃발을 흔들어 멈추기도 합니다. 역은 지상, 지하 또는 고가일 수 있습니다. 교차하는 철도 노선 또는 버스, 트램 또는 기타 고속 교통 시스템과 같은 다른 운송 시스템에 연결될 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRAINSTATION_STRATEGY">
-			<Text>Provides a massive boost to City Production and Gold during the Industrial Era. Requires a direct Railroad connection, with railroad tiles, to the Capital (Harbor connections do not count!) before it can be constructed, so you need to invest in your Railroad infrastructure before you can reap the benefits of this building! Cannot be built in the same City as a Seaport.</Text>
+			<Text>도시의 생산과 골드를 크게 증가시키는 산업 시대 건물입니다. 수도와의 직접적인 철도 연결을 필요로 합니다 (항만 연결은 포함하지 않습니다!) 따라서 이 건물을 활용하려면 먼저 철도 인프라에 투자해아 합니다. 항구와 같은 도시에 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRAINSTATION_HELP">
 			<Text>이 도시에서 출발하는 국내 [ICON_TURNS_REMAINING]교역로의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_CAPITAL]수도와 [COLOR_YELLOW]철도로 [ICON_CITY_CONNECTED]연결된 도시[ENDCOLOR]에만 건설할 수 있습니다. [ICON_RES_COAL]석탄 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. 도시에 [COLOR_NEGATIVE_TEXT]항구[ENDCOLOR]가 없어야 건설할 수 있습니다.</Text>
@@ -105,10 +105,10 @@
 			<Text>스콜라</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SKOLA_TEXT">
-			<Text>Swedish state schools are funded by tax money. This goes for both primary and secondary school (Swedish: grundskola), high school (Swedish: gymnasium) and universities. When studying at a university, however, you might have to pay for accommodation and literature. There are private schools as well who also receive funding from the government, but they may charge a fee from the parents.[NEWLINE][NEWLINE]Compulsory education starts at seven years of age, with an optional year in förskola (pre-school). The Swedish primary school is split into three parts; Lågstadiet – “the low stage”, which covers grades 1 to 3. This is where you learn the basics of the three main subjects – in Swedish called kärnämnen – Swedish, English and mathematics. It also includes some natural science. Mellanstadiet – “the middle stage”, which covers grades 4 to 6, introduces the children to more detailed subjects. Woodwork and needlework, social and domestic science, and even a second, foreign language in grade 6, a B-språk (B-language). The languages available are usually French, Spanish or German depending on the school. Högstadiet, “the high stage”, is the last stage of the compulsory education, between grades 7 and 9. This is when studies get more in-depth and are taken to an international level.[NEWLINE][NEWLINE]Swedish children take national exams at grades 3, 6 and 9. Children at grade 3 take these exams in two of the three main subjects: Swedish and mathematics. In grade 5 the exams extend to the third main subject, English, and in grade 9 the exams also extend to natural science, foreign languages, and one of the four subjects in "Samhällsorientering" (geography, history, religious studies, and civics). They first receive grades in grade 6. The grading system is letter-based, ranging from A-F, where F is the lowest grade and A is the highest. F means "not approved", while all other ratings above F mean "approved". There are only objectives for E, C and A; D means the person has met most (but not all) objectives for C, while B means the person has met most objectives for A. When applying to gymnasium (high schools) or universities, a meritvärde (“meritous point value”) is calculated. E is worth 10 points, D 12.5 points, C 15 points, and so on. Children not being approved in Swedish, English and mathematics will have to study at a special high school program called the “individual program”. Once they are approved, they may apply to an ordinary high school program. Swedes study at high school for three years, between the ages of 16 and 18.</Text>
+			<Text>스웨덴 공립학교는 세금으로 운영됩니다. 이는 초등학교와 중학교(스웨덴어: grundskola), 고등학교(스웨덴어: 김나지움) 및 대학교 모두에 해당됩니다. 하지만, 대학에서 공부할 때, 숙소와 문학에 대한 비용을 지불해야 할 수도 있습니다. 정부로부터 지원금을 받는 사립학교들도 있지만, 그들은 학부모들로부터 비용을 청구할 수도 있습니다.[NEWLINE][NEWLINE]필수 교육은 7세부터 시작되며, Förskola(취학 전)에서 선택적인 해를 가집니다. 스웨덴 초등학교는 3개의 부분으로 나뉘는데, "낮은 단계"인 "Logstadiet"는 1학년부터 3학년까지를 포함합니다. 여기서 스웨덴어, 영어, 수학이라는 세 가지 주요 과목의 기초를 배울 수 있습니다. 그것은 또한 약간의 자연 과학도 포함합니다. "중간 단계"인 "멜란슈타디트"는 4~6학년을 대상으로 아이들에게 더 자세한 주제를 소개합니다. 목공과 바느질, 사회와 국내 과학, 그리고 심지어 제2외국어인 6학년 B-스프락 (B-language)도 있습니다. 사용 가능한 언어는 보통 학교에 따라 프랑스어, 스페인어 또는 독일어입니다. Högstadiet, "고등 단계"는 7학년에서 9학년 사이의 의무 교육의 마지막 단계입니다. 이것은 연구가 더 깊이 있게 되고 국제적인 수준으로 옮겨질 때입니다.[NEWLINE][NEWLINE]스웨덴 어린이들은 3학년, 6학년, 9학년에 국가 시험을 봅니다. 3학년 아이들은 세 가지 주요 과목 중 두 가지에서 이러한 시험을 치릅니다. 스웨덴어와 수학입니다. 5학년에서는 시험이 세 번째 주요 과목인 영어, 9학년에서는 자연과학, 외국어, 그리고 "삼헬소리엔트리"(지리, 역사, 종교학, 시민학)의 네 가지 과목 중 하나로 확장됩니다. 그들은 우선 6학년 때 성적을 받습니다. 등급 시스템은 문자 기반이며, F가 가장 낮은 등급이고 A가 가장 높은 등급입니다. F는 "승인되지 않음"을 의미하며, F 위의 다른 모든 등급은 "승인됨"을 의미합니다. E, C 및 A에는 목표만 있습니다. D는 C에 대한 목표를 대부분 달성했다는 의미이고, B는 A에 대한 목표를 대부분 달성했다는 의미입니다. 체육관(고등학교)이나 대학에 지원할 때, 메리트바르드("메리트 포인트 값")가 계산됩니다. E는 10점, D는 12.5점, C는 15점 등의 가치가 있습니다. 스웨덴어, 영어, 수학에서 승인을 받지 못한 아이들은 "개인 프로그램"이라고 불리는 특별한 고등학교 프로그램에서 공부해야 합니다. 일단 승인되면, 그들은 평범한 고등학교 프로그램에 지원할 수 있습니다. 스웨덴 사람들은 16세에서 18세 사이의 3년 동안 고등학교에서 공부합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SKOLA_STRATEGY">
-			<Text>Unique Swedish replacement for the Public School. This building is cheaper, more effective, and costs less maintenance than the building it replaces, and also boosts the city's [ICON_CULTURE] Culture.</Text>
+			<Text>공립학교를 대체하는 스웨덴의 고유 건물입니다. 더 저렴하고, 더 효과적이고 유지비도 더 낮으며 추가로 [ICON_CULTURE]문화도 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SKOLA_HELP">
 			<Text>공립학교를 대체하는 스웨덴의 고유 건물입니다. 도시에서 [COLOR_POSITIVE_TEXT]고고학자[ENDCOLOR]를 생산할 수 있습니다. [ICON_CITIZEN]시민 3명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CITIZEN]시민 1명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
@@ -117,10 +117,10 @@
 			<Text>테트라콘치</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BASILICA_TEXT">
-			<Text>Over many centuries, Byzantine architecture gradually drifted away from older Roman forms. Byzantine-style buildings are often noted for their high domes and intricate mosaic work, and far greater use of stone and brick construction. The tetraconch churches, meaning "four shells" in Greek, represent the highest achievement of Byzantine architecture. The floorplan of these buildings incorporates four domed apses, giving the building the shape of a cross, with the central space capped by a high dome. The form was widely used in mausoleums and baptisteries and informed later Ottoman and Renaissance architectural traditions that followed.</Text>
+			<Text>수세기에 걸쳐, 비잔틴 건축은 점차 더 오래된 로마 양식에서 멀어져 갔습니다. 비잔틴 양식의 건물들은 종종 높은 돔과 복잡한 모자이크 작업과 훨씬 더 많은 돌과 벽돌 건축물로 유명합니다. 그리스어로 "네 개의 껍질"을 의미하는 테트라콘 교회들은 비잔틴 건축의 가장 높은 업적을 나타냅니다. 이 건물들의 평면도는 4개의 돔형 아파스를 포함하고 있으며, 중앙 공간은 높은 돔으로 덮인 십자가 모양을 하고 있습니다. 그 형태는 무덤과 세례원에서 널리 사용되었고 이후의 오스만과 르네상스의 건축 전통을 알렸습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_STRATEGY">
-			<Text>Unique Byzantine replacement for the Temple. This building does not require maintenance, boosts the city's [ICON_PEACE] Faith output based on the number of [ICON_CITIZEN] Citizens in the city, and doubles Religious Pressure generated by Trade Routes.</Text>
+			<Text>사원을 대체하는 비잔티움의 고유 건물입니다. 유지비가 필요하지 않으며, 도시의 [ICON_CITIZEN] 시민의 수에 기반해 [ICON_PEACE] 신앙을 제공합니다. 교역로에서 오는 종교 압력이 두 배로 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_HELP">
 			<Text>사원을 대체하는 비잔틴의 고유 건물입니다. [ICON_CITIZEN]시민 3명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE] 교역로가 제공하는 종교 압력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1</Text>
@@ -129,13 +129,13 @@
 			<Text>코톤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_PEDIA">
-			<Text>A cothon is an artificial, protected inner harbor such as that in Carthage during the Punic Wars around 200 BC. The cothon at Carthage was divided into a rectangular merchant harbor followed by an inner protected harbor reserved for military use only. This inner harbor was circular and surrounded by an outer ring of structures divided into a series of docking bays for ship maintenance, along with an island structure at its centre that also housed navy ships. Each individual docking bay featured a raised slipway. Above the raised docking bays was a second level consisting of warehouses where oars and rigging were kept along with supplies such as wood and canvas. On the island structure there existed a raised 'cabin' where the admiral in command could observe the whole harbor along with the surrounding sea. Altogether the inner docking complex could house up to 220 ships. The entire harbor was protected by an outer wall and the main entrance could be closed off with iron chains.</Text>
+			<Text>코톤은 기원전 200년 경 포에니 전쟁 동안 카르타고에 있었던 것과 같은 인공적이고 보호된 내부 항구입니다. 카르타고의 코톤은 직사각형 모양의 상항으로 나뉘었고 군사용으로만 사용 가능한 내부 보호 항구가 이어졌습니다. 이 내부 항구는 원형이었고 선박 정비를 위한 일련의 도킹 베이로 분할된 구조의 외부 링으로 둘러싸여 있었고, 그 중심에는 해군 선박도 수용된 섬 구조물이 있었습니다. 각각의 도킹 베이는 상승된 슬립웨이를 특징으로 합니다. 높이 솟은 도킹 베이 위에는 나무와 캔버스 같은 보급품과 함께 노와 장비들이 보관되어 있는 창고로 구성된 2층이 있었습니다. 섬 구조에는 사령관이 주변 바다와 함께 항만 전체를 관찰할 수 있는 높은 오두막이 있었습니다. 내부 도킹 단지는 모두 합쳐서 최대 220척의 선박을 수용할 수 있습니다. 전체 항구는 외벽으로 보호되었고 주요 입구는 쇠사슬로 막을 수 있었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_STRATEGY">
-			<Text>Unique Carthaginian replacement for the East India Company. Must have built a Market in the city. In addition to the normal bonuses provided by the East India Company, the Great Cothon provides additional gold for both recipient and target of trade routes from the city where it is built, and two additional trade routes. All Harbors in your empire also gain +3 Production, and all Lighthouses gain +2 Culture. Unlike the East India Company, the Great Cothon is made available in the Classical Era with the discovery of Currency.</Text>
+			<Text>동인도 회사를 대체하는 카르타고의 고유 건물입니다. 도시에 시장이 있어야 건설할 수 있습니다. 동인도 회사의 기본 보너스에 더해, 코톤은 교역로를 보낼 때와 교역로의 대상이 되었을 때의 양측의 골드를 증가시키고, 교역로를 추가로 둘 제공합니다. 모든 항만의 생산이 +3 증가하고, 모든 등대의 문화가 +2 증가합니다. 동인도 회사와 다르게, 코톤은 고전 시대부터 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_HELP">
-			<Text>동인도 회사를 대체하는 카르타고의 고유 건물입니다. 이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]합니다. 이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다. 모든 항만의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고, 모든 등대의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]세관[ENDCOLOR]이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>동인도 회사를 대체하는 카르타고의 고유 건물입니다. 이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]합니다. 이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다. 모든 항만의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고, 모든 등대의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]시장[ENDCOLOR]이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_HELP">
 			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -144,10 +144,10 @@
 			<Text>마우솔레움</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_STRATEGY">
-			<Text>Build the Mausoleum to gain [ICON_PEACE] Faith from casualties in war and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size).</Text>
+			<Text>마우솔레움을 건설해 전쟁의 희생자에서 신앙을 얻고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_TEXT">
-			<Text>A mausoleum is an external free-standing building constructed as a monument enclosing the interment space or burial chamber of a deceased person or people. A monument without the interment is a cenotaph. A mausoleum may be considered a type of tomb, or the tomb may be considered to be within the mausoleum. A Christian mausoleum sometimes includes a chapel.</Text>
+			<Text>마우솔레움은 죽은 사람이나 사람들의 매장 공간이나 묘실을 둘러싼 기념물로 지어진 외부 독립 건물입니다. 장막이 없는 기념비는 위령비입니다. 마우솔레움은 무덤의 한 종류로 여겨질 수도 있고, 무덤이 마우솔레움 안에 있다고 여겨질 수도 있습니다. 마우솔레움에는 때때로 예배당이 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_HELP">
 			<Text>모든 성지의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -156,10 +156,10 @@
 			<Text>천상의 옥좌</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_STRATEGY">
-			<Text>Build the Celestial Throne for a big boost to your Holy City's base yields and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.</Text>
+			<Text>천상의 옥좌를 건설해 성도의 산출을 크게 증가시키고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_TEXT">
-			<Text>A throne is the seat of state of a potentate or dignitary, especially the seat occupied by a sovereign on state occasions; or the seat occupied by a pope or bishop on ceremonial occasions. "Throne" in an abstract sense can also refer to the monarchy or the Crown itself, an instance of metonymy, and is also used in many expressions such as "the power behind the throne".</Text>
+			<Text>왕좌는 국가의 권력자나 고위 관료가 앉는 자리이며, 특히 국가 행사에서는 군주가 차지하는 자리 또는 의례적인 행사에서는 교황이나 주교가 차지하는 자리입니다. "왕좌"는 추상적인 의미에서 군주제나 왕위 그 자체를 의미할 수도 있으며, "왕좌 뒤에 있는 권력"과 같은 많은 표현에도 사용됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
 			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -168,10 +168,10 @@
 			<Text>위대한 제단</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_STRATEGY">
-			<Text>Build the Great Altar for a boost to Military Unit production and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.</Text>
+			<Text>위대한 제단을 건설해 군사 유닛 생산 보너스를 받고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_TEXT">
-			<Text>An altar is any structure upon which offerings such as sacrifices are made for religious purposes. Altars are usually found at shrines, and they can be located in temples, churches and other places of worship. Today they are used particularly in Christianity, Buddhism, Hinduism, Shinto, Taoism, as well as in Neopaganism and Ceremonial Magic. Judaism used such a structure until the destruction of the Second Temple. Many historical faiths also made use of them, including Greek and Norse religion.</Text>
+			<Text>제단은 종교적인 목적을 위해 제물과 같은 것들을 제공하는 모든 구조물입니다. 제단은 보통 성지에서 발견되며, 그것들은 사원, 교회 그리고 다른 예배 장소에 위치할 수 있습니다. 오늘날 그것들은 특히 기독교, 불교, 힌두교, 신도, 도교뿐만 아니라 신이교주의와 의식 마법에서 사용됩니다. 유대교는 제2성전이 파괴될 때까지 그러한 구조를 사용했습니다. 그리스와 노르드 종교를 포함한 많은 역사적인 신앙들도 그것들을 사용했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_HELP">
 			<Text>모든 성지의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 4개를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_PEACE]신앙 +10[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -180,10 +180,10 @@
 			<Text>성유물함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_STRATEGY">
-			<Text>Build the Reliquary for a powerful Tourism-centric bonus and bonuses for all Holy Sites. The building's Tourism bonus is only possible if all four Works of Art/Artifacts come from differing players. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.</Text>
+			<Text>성유물함을 건설해 강력한 관광 보너스를 받고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_TEXT">
-			<Text>A reliquary is a container for relics. These may be the purported physical remains of saints, such as bones, pieces of clothing, or some object associated with saints or other religious figures. The authenticity of any given relic is often a matter of debate; for that reason, some churches require documentation of the relic's provenance. Relics have long been important to Buddhists, Christians, Hindus and many other religions. In these cultures, reliquaries are often presented in shrines, churches, or temples to which the faithful make pilgrimages in order to gain blessings. In Central West Africa, reliquaries used in the Bwete rituals contain objects considered magical, or the bones of ancestors, and are commonly constructed with a guardian figure attached to the reliquary.</Text>
+			<Text>유물함은 유물을 담는 용기입니다. 이것들은 뼈, 옷 조각, 또는 성인이나 다른 종교적 인물과 관련된 어떤 물건과 같은 성인들의 신체적인 유골일 수 있습니다. 주어진 유물의 진위 여부는 종종 논쟁의 여지가 있습니다. 그러한 이유로, 일부 교회는 유물의 출처에 대한 문서를 요구합니다. 유물들은 불교, 기독교, 힌두교 그리고 많은 다른 종교들에게 오랫동안 중요했습니다. 이러한 문화에서, 유골함은 종종 신자들이 축복을 얻기 위해 순례하는 신사, 교회 또는 사원에 제시됩니다. 중앙 서아프리카에서, 부에테 의식에 사용되는 유골들은 마법으로 여겨지는 물건들, 또는 조상들의 뼈들을 포함하고, 보통 유골에 보호자 형상을 부착하여 지어집니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_RELIQUARY_HELP">
 			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]유물 또는 예술품[ENDCOLOR]으로 채우십시오.</Text>
@@ -198,10 +198,10 @@
 			<Text>성스러운 법정</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_STRATEGY">
-			<Text>Build the Divine Court for a boost to Gold output and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.</Text>
+			<Text>성스러운 법정을 건설하여 골드 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_TEXT">
-			<Text>A beth din ("house of judgment," or divine court) is a rabbinical court of Judaism. In ancient times, it was the building block of the legal system in the Biblical Land of Israel. Today, it is invested with legal powers in a number of religious matters (din Torah, "matter of litigation," plural dinei Torah) both in Israel and in Jewish communities in the Diaspora, where its judgments hold varying degrees of authority (depending upon the jurisdiction and subject matter) in matters specifically related to Jewish religious life.</Text>
+			<Text>베스딘 (심판의 집)은 유대교의 랍비 궁정입니다. 고대에, 그것은 성경의 이스라엘 땅에서 법체계의 기초가 되었습니다. 오늘날, 그것은 이스라엘과 디아스포라의 유대인 공동체 모두에서 많은 종교적 문제에 법적 권력이 투자되고 있으며, 판결은 유대인 종교 생활과 특별히 관련된 문제에 대해 다양한 권한(관할권과 주제에 따라)을 보유하고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_HELP">
 			<Text>모든 성지의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -210,10 +210,10 @@
 			<Text>신성한 정원</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_STRATEGY">
-			<Text>Build the Sacred Garden for a boost to Culture output and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.</Text>
+			<Text>신성한 정원을 건설하여 문화 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_TEXT">
-			<Text>Religion has been an important influence on garden design. Temple gardens were made in Mesopotamia and Ancient Egypt. Sacred groves were made in ancient India, Greece, Rome, China and Japan. Sacred trees were important in Celtic and Germanic Europe and still are important in India. Many groves or forests were sacred in ancient India and continue to be so in modern Hindu worship. Buddhism had a significant influence on garden design, with the Zen gardens of China and Japan as famous examples. In Christianity, particularly Catholicism and Anglicanism, Mary gardens are common among churches and institutions. The practise of creating sacred gardens is re-invigorated and adapted for modern times in the Ringing Cedars Series of books by Russian author Vladimir Megre.</Text>
+			<Text>종교는 정원 디자인에 중요한 영향을 끼쳤습니다. 사원 정원은 메소포타미아와 고대 이집트에서 처음 만들어졌습니다. 신성한 숲은 고대 인도, 그리스, 로마, 중국 그리고 일본에서 만들어졌습니다. 성스러운 나무는 켈트족과 게르만족 유럽에서는 중요했고 인도에서는 여전히 중요합니다. 숲은 고대 인도에서 신성했고 현대 힌두교 예배에서도 여전히 신성했습니다. 불교는 중국과 일본의 선정원을 유명한 예로 들며 정원 디자인에 큰 영향을 끼쳤습니다. 기독교, 특히 가톨릭과 성공회에서, 마리아 정원은 교회와 기관들 사이에서 흔합니다. 신성한 정원을 만드는 관습은 러시아 작가 블라디미르 메그레의 책 링잉 시더스 시리즈에 현대 시대에 맞게 재활성화되고 각색되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_HELP">
 			<Text>모든 성지의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -222,10 +222,10 @@
 			<Text>종교 공의회</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_STRATEGY">
-			<Text>Build the Holy Council for a boost to Food output and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.</Text>
+			<Text>종교 공의회를 건설하여 식량 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_TEXT">
-			<Text>An ecumenical council (or holy council) is a conference of ecclesiastical dignitaries and theological experts convened to discuss and settle matters of Church doctrine and practice in which those entitled to vote are convoked from the whole world (oikoumene) and which secures the approbation of the whole Church.</Text>
+			<Text>기독교 의회(또는 공의회)는 투표권이 있는 사람들이 전 세계에서 소집되고 교회 전체의 승인을 확보하는 교회 교리와 실천 문제를 논의하고 해결하기 위해 소집된 교회 고위 인사들과 신학 전문가들로 구성된 회의입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP">
 			<Text>도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 모든 성지의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -234,10 +234,10 @@
 			<Text>사도 궁전</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_STRATEGY">
-			<Text>Build the Apostolic Palace for more rapid Golden Ages and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.</Text>
+			<Text>사도 궁전을 건설하여 황금기를 더 많이 이어가고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_TEXT">
-			<Text>The Latin word basilica has three distinct applications in modern English. The word was originally used to describe an open, Roman, public court building, usually located adjacent to the forum of a Roman town. By extension it was applied to Christian buildings of the same form and continues to be used in an architectural sense to describe those buildings with a central nave and aisles. Later, the term came to refer specifically to a large and important church, the Apostolic Palace, that has been given special ceremonial rights by the Pope.</Text>
+			<Text>바실리카는 현대 영어에서 세 가지 다른 용법을 가지고 있습니다. 이 단어는 원래 개방적이고 로마적인 공공 법원 건물을 묘사하기 위해 사용되었는데, 보통 로마 마을의 포럼 근처에 위치해 있습니다. 그 연장선상에서 그것은 같은 형태의 기독교 건물들에 적용되었고 중앙의 마당과 통로를 가진 그 건물들을 묘사하기 위해 건축적인 의미로 계속 사용되고 있습니다. 나중에, 그 용어는 특별히 교황에 의해 특별한 의식권을 부여받은 크고 중요한 교회인 사도 궁전을 지칭하게 되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
 			<Text>모든 성지의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
@@ -246,10 +246,10 @@
 			<Text>대 납골당</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_STRATEGY">
-			<Text>Build the Ossuary for lots of Faith and to improve all Holy Sites. Constructing this National Wonder will also allow you to choose a Reformation Belief. May only be constructed in a Holy City, and only if at least 15% of the global population follows your Religion (scaling with map size). Reduces [ICON_HAPPINESS_3] Religious Unrest, and allows you to select a Reformation Belief.</Text>
+			<Text>대 납골당을 건설하여 많은 신앙을 얻고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_TEXT">
-			<Text>An ossuary is a chest, box, building, well, or site made to serve as the final resting place of human skeletal remains. They are frequently used where burial space is scarce. A body is first buried in a temporary grave, then after some years the skeletal remains are removed and placed in an ossuary. The greatly reduced space taken up by an ossuary means that it is possible to store the remains of many more people in a single tomb than if the original coffins were left as is. In Persia, the Zoroastrians used a deep well for this function from the earliest times (circa 3,000 years ago) and called it astudan (literally, "the place for the bones"). There are many rituals and regulations in the Zoroastrian faith concerning the astudans. Among the pre-7th-century Sogdians in the region of central Asia, the name for an ossuary was tanbar.</Text>
+			<Text>유골함은 사람의 유골의 마지막 안식처 역할을 하기 위해 만들어진 상자, 상자, 건물, 우물 또는 장소입니다. 그것들은 매장 공간이 부족한 곳에서 자주 사용됩니다. 시신은 먼저 임시 무덤에 묻히고, 몇 년 후에 뼈의 잔해가 제거되어 유골함에 안치됩니다. 유골함이 차지하는 공간이 작다는 것은 원래의 관을 그대로 두었을 때보다 더 많은 사람들의 유해를 한 무덤에 보관할 수 있다는 것을 의미합니다. 페르시아에서, 조로아스터인들은 초기 (약 3,000년 전)부터 이 기능을 위해 깊은 우물을 사용했고, 그것을 말 그대로, "뼈가 있는 장소"라고 불렀습니다. 조로아스터교 신앙에는 아스투단들에 관한 많은 의식과 규정이 있습니다. 중앙아시아 지역의 7세기 이전의 소그드인들 사이에서, 유골함의 이름은 탄바르였습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH">
 			<Text>목욕탕</Text>
@@ -285,40 +285,40 @@
 			<Text>자료관</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROVE_STRATEGY">
-			<Text>The Council generates Science every time city grows, and is availble very early. Build this building if you wish to have a technological advantage over your rivals, though the value of this advantage diminishes as the city becomes larger.</Text>
+			<Text>자문회는 도시가 성장할 때마다 과학을 얻을 수 있고, 매우 이르게 건설할 수 있습니다. 라이벌과의 과학 차이를 만들려면 이 건물을 건설하십시오. 이 보너스의 가치는 도시가 성장할 수록 상대적으로 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LODGE_STRATEGY">
-			<Text>The Lodge boosts production from Camps and camp resources, and provides food to your city whenever it claims new tiles. Build Lodges throughout your empire to boost local yields from camps.</Text>
+			<Text>오두막은 야영지와 야영지 자원의 생산을 증가시키고, 도시가 새 타일을 얻을 때마다 식량을 제공합니다. 야영지의 산출을 늘리려면 이 건물을 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH_STRATEGY">
-			<Text>The Bath generates Culture, and boosts the Gold and Culture yield of Temples, Gardens, and Amphitheaters in the City. Also generates additional Culture during Golden Ages. Baths can be constructed only in cities next to fresh water.</Text>
+			<Text>목욕탕은 문화를 제공하며, 사원, 원형극장, 정원의 골드와 문화를 증가시킵니다. 또한 황금기에 추가 문화를 제공합니다. 목욕탕은 오직 담수 옆에 있는 도시에서만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST_STRATEGY">
-			<Text>The Herbalist increases City growth, and improves the yields on nearby Jungle and Forest tiles as well as Plantations. Build them early to maximize the bonus, and to take advantage of regions with a large number of features.</Text>
+			<Text>약초상은 도시 성장을 가속시키고, 숲과 정글, 대농장을 강화합니다. 이 건물을 빠르게 건설하여 보너스를 극대화하고, 많은 자원이 있는 지역을 활용하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WELL_STRATEGY">
-			<Text>The Well can only be constructed in a city not on a river. The Well increases the city's Production based on the city's population, but less efficiently than the Water Mill.</Text>
+			<Text>우물은 강 옆에 없는 도시에마 건설할 수 있습니다. 우물은 도시의 인구에 기반해 생산을 제공하지만, 물레방앗간보다는 효과가 낮습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WIND_PLANT_STRATEGY">
-			<Text>The Wind Plant increases the Production and Culture output of all workable tiles near the city and increases the efficiency of working processes.</Text>
+			<Text>풍력 발전소는 모든 작업 가능한 타일의 생산과 문화를 증가시키고 생산 작업의 효율을 증가시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TIDAL_PLANT_STRATEGY">
-			<Text>The Tidal Plant is an Atomic-era building which can only be constructed in a coastal city. The Tidal Plant increases the [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_FOOD] Food, and [ICON_GOLD] Gold output of every Ocean tile the city works and increases the efficiency of working processes.</Text>
+			<Text>조력 발전소는 해안에만 건설할 수 있는 원자력 시대 건물입니다. 조력 발전소는 해양 타일의 [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_FOOD] 식량, [ICON_GOLD] 골드 산출을 증가시키며 생산 작업의 효율을 증가시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROCER_STRATEGY">
-			<Text>The Grocer is a Renaissance-era building which can only be constructed if you have already built an Aqueduct in the City. The Grocer helps your City grow more quickly, combats Poverty, and improves the tile yield of Bananas.</Text>
+			<Text>식료품 상점은 송수로를 건설한 도시에만 지을 수 있는 르네상스 시대 건물입니다. 식료품 상점은 도시의 인구 성장을 돕고, 빈곤을 줄이고, 바나나의 산출을 증가시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STOCKYARD_STRATEGY">
-			<Text>The Agribusiness is an Industrial-era building which can only be constructed if you have already built a Grocer in the City. An Agribusiness greatly improves the yields on your city's Farm and Pasture tiles, and boosts GPT significantly if your city has high Food yields. However, the use of Horses is a risky tradeoff during an era in which Cavalry is still quite powerful.</Text>
+			<Text>기업형 농장은 식료품 상점을 건설한 도시에만 지을 수 있는 산업 시대 건물입니다. 기업형 농장은 도시의 농장과 목장을 강화하고, 도시의 식량 생산량이 많다면 턴 당 골드를 크게 높일 수 있습니다. 하지만, 말을 사용한다는 점에서, 기병대는 아직 충분히 강하므로 이 건물은 큰 리스크를 지니게 됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COAL_PLANT_STRATEGY">
-			<Text>The Refinery is a Modern-era building which can only be constructed in 5 Cities total. The Refinery helps your Production and produces 1 Coal and 1 Iron Resource, however it has a high maintenance cost. Only construct if you find yourself without these vital late-game strategic resources.</Text>
+			<Text>제련소는 총 다섯 도시에만 지을 수 있는 현대 시대 건물입니다. 제련소는 당신의 생산을 돕고 석탄과 철을 하나씩 제공하지만, 유지비가 높습니다. 자원을 스스로 찾을 수 없을 때에만 이 건물을 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_STRATEGY">
-			<Text>The Minefield is a Modern-era building which can only be constructed if you have enough Iron and you have already built a Harbor in the City. With the Minefield in place, enemy ships are stopped immediately after entering the city's territory and are no longer safe to sit back on local ocean tiles outside of range from retaliation from land. Due to their resource requirement, Minefields are best limited to locations particularly vulnerable to naval sieges. Use Minefields to blunt a naval invasion, and then outmaneuver it with your own navy.</Text>
+			<Text>지뢰밭은 항만을 건설한 도시에서 철을 소비해 지을 수 있는 현대 시대 건물입니다. 지뢰밭이 있으면, 적의 함선은 도시 영역에 접근한 시점에 즉시 멈춰 안전하게 후퇴할 수 없게 됩니다. 자원 요구량에 의해, 지뢰밭은 해군 공세에 취약한 지역에만 건설해야 합니다. 지뢰밭으로 해군의 침공을 무디게 한 후 자신의 해군으로 제압하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERPRETIVE_CENTER_STRATEGY">
-			<Text>The Interpretive Center greatly increases the power of Landmark improvements, and converts Culture from tiles into Tourism, greatly aiding a Cultural Victory.</Text>
+			<Text>자료관은 랜드마크 시설물의 능력을 크게 증가시키고, 타일 문화를 관광으로 전환해 문화 승리를 크게 돕습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROVE_HELP">
 			<Text>[ICON_CITIZEN]시민이 증가할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
@@ -357,40 +357,40 @@
 			<Text>세계 불가사의, 자연 경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. 제국 전역의 모든 랜드마크의 [ICON_CULTURE] 문화와 [ICON_TOURISM] 관광이 +1 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROVE_TEXT">
-			<Text>A Council is a governing body in an organised community. It is most common in subsistence cultures, with council membership being the condition or quality of being a political leader of a community. Over time, as communities grew, the importance of councils diminished in favor of larger governing institutions.</Text>
+			<Text>자문회는 조직된 공동체의 통치 기구입니다. 그것은 공동체의 정치적 지도자가 되기 위한 조건 또는 자질로서 자문회 회원 자격이 있는 자급자족 문화에서 가장 흔합니다. 시간이 지남에 따라, 공동체가 성장함에 따라, 더 큰 통치 기관에 유리하게 자문회의 중요성은 감소했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LODGE_TEXT">
-			<Text>A lodge is a small dwelling set apart from a main dwelling, used for recreation. The term has become associated with recreational hunting, especially in relation to nobility and the recreational sportsmen in modern times. In many cultures, wild preserves were set aside for kings and their entourages to engage in hunting for pleausre.</Text>
+			<Text>오두막은 주 주거지와 떨어져 있는 작은 주거지로, 레크리에이션에 사용됩니다. 이 용어는 특히 현대의 귀족과 레크리에이션 스포츠맨과 관련하여 레크리에이션 사냥과 관련이 있습니다. 많은 문화에서, 야생 보호 구역은 왕들과 그들의 수행원들이 쾌락을 위해 사냥에 참여하기 위해 따로 남겨졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BATH_TEXT">
-			<Text>Throughout history, societies devised systems to enable water to be brought to population centres. Ancient Greece utilized small bathtubs, wash basins, and foot baths for personal cleanliness. The earliest findings of baths date from the mid-2nd millennium BC in the palace complex at Knossos, Crete, and the luxurious alabaster bathtubs excavated in Akrotiri, Santorini. The Greeks established public baths and showers within gymnasiums for relaxation and personal hygiene. In fact, the word gymnasium comes from the Greek word gymnos, meaning naked. Ancient Rome developed a network of aqueducts to supply water to all large towns and population centres and had indoor plumbing, with pipes that terminated in homes and at public wells and fountains. The Roman public baths were called thermae. With the fall of the Roman Empire the aqueduct network fell into disrepair and most of it ceased to be used. In the Middle Ages, bathing commonly took place in public bathhouses. However, public nudity was frowned upon by liturgical factions of the period. Public baths were also havens for prostitution, which created opposition to the public baths. Rich people bathed at home, most likely in their bedroom, as 'bath' rooms were not common. Bathing was done in large, wooden tubs with a linen cloth laid in it to protect the bather from splinters. Additionally, during the Renaissance and Protestant Reformation, the quality and condition of the clothing (as opposed to the actual cleanliness of the body itself) were thought to reflect the soul of an individual. Clean clothing also reflected one's social status; clothes made the man or woman. Additionally, from the late Middle Ages through to the end of the 18th century, etiquette and medical manuals advised people to only wash the parts of the body that were visible to the public; for example, the ears, hands, feet, and face and neck. This did away with the public baths and left the cleaning of oneself to the privacy of one's home.</Text>
+			<Text>역사를 통틀어, 사회는 시민 구역에 물을 가져올 수 있는 시스템을 고안했습니다. 고대 그리스는 개인적인 청결을 위해 작은 욕조, 세면대, 족욕을 사용했습니다. 목욕에 대한 최초의 발견은 크레타의 크노소스에 있는 궁전 단지의 기원전 2천년 중반과 산토리니의 아크로티리에서 출토된 호화로운 알라바스터 욕조에서 비롯됩니다. 그리스인들은 휴식과 개인 위생을 위해 체육관 내에 공중 목욕탕과 샤워 시설을 설치했습니다. 사실, gymnos라는 단어는 벌거벗은 것을 의미하는 그리스어에서 왔습니다. 고대 로마는 모든 큰 마을과 인구 센터에 물을 공급하는 수도관 네트워크를 개발했고, 가정과 공공 우물, 분수에서 끝나는 파이프로 실내 배관을 갖추었습니다. 로마의 대중 목욕탕은 테르마에라고 불렸습니다. 로마 제국의 몰락과 함께 수도관 네트워크는 황폐해졌고 대부분의 수도관 네트워크는 더 이상 사용되지 않았습니다. 중세에는 목욕이 대중 목욕탕에서 흔히 행해졌습니다. 하지만, 대중들의 노출은 그 시대의 전례 파벌들에 의해 눈살을 찌푸리게 했습니다. 공중 목욕탕은 또한 매춘의 피난처였으며, 이것은 공중 목욕탕에 대한 반대를 낳았습니다. 부자들은 '목욕' 방이 흔하지 않았기 때문에, 대부분 그들의 침실에서 집에서 목욕을 했습니다. 목욕은 큰 나무 욕조에서 행해졌고, 그 안에 린넨 천을 깔아놓아서 가시가 박힌 것들로부터 목욕자를 보호했습니다. 게다가, 르네상스와 개신교 개혁 기간 동안, 옷의 질과 상태는 (신체 자체의 실제 청결함과는 반대로) 개인의 영혼을 반영하는 것으로 생각되었습니다. 깨끗한 옷은 또한 사람의 사회적 지위를 반영했습니다; 옷은 남자 또는 여자를 만들었습니다. 게다가, 중세 후반부터 18세기 말까지, 에티켓과 의학 매뉴얼은 사람들에게 보이는 신체 부분, 예를 들어 귀, 손, 발, 얼굴과 목만 씻으라고 조언했습니다. 이것은 대중 목욕탕을 없애버렸고, 자신의 청소는 집의 사생활에 맡겼습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_HERBALIST_TEXT">
-			<Text>Herbalism is use of plants for medicinal purposes, and the study of such use. Plants have been the basis for medical treatments through much of human history, and such traditional medicine is still widely practiced today. Modern medicine recognizes herbalism as a form of alternative medicine, as the practice of herbalism is not strictly based on evidence gathered using the scientific method. Modern medicine, does, however, make use of many plant-derived compounds as the basis for evidence-tested pharmaceutical drugs, and phytotherapy works to apply modern standards of effectiveness testing to herbs and medicines that are derived from natural sources.</Text>
+			<Text>약초학은 약용으로 식물을 사용하는 것, 그리고 그러한 사용에 대한 연구입니다. 식물은 인류 역사의 많은 부분을 통해 의학 치료의 기초가 되었고, 그러한 전통적인 의학은 오늘날에도 여전히 널리 행해지고 있습니다. 현대의학에서는 한약의 실천이 과학적 방법을 사용하여 수집된 증거에 엄격하게 근거하는 것이 아니기 때문에 한의학을 대체 의학의 한 형태로 인정하고 있습니다. 그러나 현대 의학은 증거 테스트된 제약 약물의 기초로 많은 식물 유래 화합물을 사용하고, 식물 치료는 자연 공급원에서 파생된 약초와 약물에 현대적 효과 테스트 표준을 적용하기 위해 작업합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WELL_TEXT">
-			<Text>Wood-lined wells are known from the early Neolithic Linear Pottery culture, for example in Kückhoven (an outlying centre of Erkelenz), dated 5090 BC and Eythra, dated 5200 BC in Schletz (an outlying centre of Asparn an der Zaya) in Austria. Australian Aborigines relied on wells to survive the harsh Australian desert. They would dig down, scooping out sand and mud to reach clean water, then cover the source with spinifex to prevent spoilage. Non-Aborigines call these native wells, soaks or soakages. Stepwells are common in the west of India. In these wells, the water may be reached by descending a set of steps. They may be covered and are often of architectural significance. Many stepwells were also used for leisure, providing relief from the daytime heat. A qanat is an ancient water collection system made up of a series of wells and linked underground water channels that collects flowing water from a source usually a distance away, stores it, and then brings the water to the surface using gravity. Much of the population of Iran and other arid countries in Asia and North Africa historically depended upon the water from qanats; the areas of population corresponded closely to the areas where qanats are possible. In Egypt, shadoofs and sakiehs are used. When compared to each other however, the Sakkieh is much more efficient, as it can bring up water from a depth of 10 metres (versus the 3 metres of the shadoof). The Sakieh is the Egyptian version of the Noria. From the Iron Age onwards, wells are common archaeological features, both with wooden shafts and shaft linings made from wickerwork. The world's oldest known wells, located in Cyprus, date to 7500 BC. Two wells from the Neolithic period, around 6500 BC, have been discovered in Israel. One is in Atlit, on the northern coast of Israel, and the other is the Jezreel Valley.</Text>
+			<Text>목조 우물은 신석기 시대 초기 선형 도기 문화로 알려져 있는데, 예를 들어 기원전 5090년의 ck호벤(Erkhoven, 에르켈렌츠 외곽의 중심)과 기원전 5200년의 에이트라(Eythra, 기원전 5200년의 슐레츠(Asparn and der Zaya 외곽의 중심)에 있습니다. 호주 원주민들은 가혹한 호주의 사막에서 살아남기 위해 우물에 의존했습니다. 그들은 땅을 파고, 깨끗한 물에 도달하기 위해 모래와 진흙을 퍼낸 다음, 부패를 막기 위해 그 근원을 스피니펙스로 덮었습니다. 원주민이 아닌 사람들은 이러한 토종 우물, 담금질 또는 담금질이라고 부릅니다. 스텝웰은 인도 서부에서 흔합니다. 이러한 우물에서는 일련의 계단을 내려와 물을 얻을 수 있습니다. 그것들은 커버될 수 있고 종종 구조적으로 중요합니다. 또한 많은 스텝웰이 레저용으로 사용되어, 낮의 더위를 완화시켰습니다. 콰나트는 일련의 우물과 연결된 지하수로로 구성된 고대 집수 시스템으로, 보통 멀리 떨어진 원천에서 흐르는 물을 모아 저장한 다음 중력을 사용하여 지표면으로 물을 가져옵니다. 이란과 아시아와 북아프리카의 다른 건조한 국가들의 인구의 대부분은 역사적으로 콰나트의 물에 의존했습니다; 인구 영역은 콰나트가 가능한 지역에 가깝게 대응했습니다. 이집트에서는 셰도우프와 사키에가 사용됩니다. 그러나 서로 비교했을 때, Sakkieh는 10m 깊이에서 물을 끌어올 수 있기 때문에 훨씬 더 효율적입니다. 사키에는 이집트 버전의 노리아입니다. 철기 시대부터 우물은 나무 축과 고리걸이로 만든 축 안감이 있는 일반적인 고고학적 특징입니다. 키프로스에 위치한 세계에서 가장 오래된 우물은 기원전 7500년으로 거슬러 올라갑니다. 기원전 6500년경 신석기 시대의 두 개의 우물이 이스라엘에서 발견되었습니다. 하나는 이스라엘의 북쪽 해안에 있는 아틀리트에 있고, 다른 하나는 이스릴 계곡입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROCER_TEXT">
-			<Text>Beginning as early as the 14th century, a grocer (or "purveyor") was a dealer in comestible dry goods such as spices, peppers, sugar, and (later) cocoa, tea and coffee. These items were bought in bulk, hence the term grocer from the French "grossier" meaning wholesaler, this term derived from Medieval Latin "grossarius" from which we also derive the word gross (meaning a quantity of twelve dozen, or 144). As increasing numbers of staple foodstuffs became available in cans and other less-perishable packaging, the trade expanded its province. Today, grocers deal in a wide range of staple food-stuffs including such perishables as meats, produce and dairy products. Such goods are, hence, groceries.</Text>
+			<Text>14세기 초, 식료품점(또는 "조달 회사")은 향신료, 후추, 설탕, 그리고 (나중에) 코코아, 차, 커피와 같은 만족스러운 건조품을 파는 상인이었습니다. 이 품목들은 대량으로 구매되었고, 따라서 도매상을 의미하는 프랑스 "그로시에"에서 식료품점이라는 용어는 중세 라틴어의 "그로사리우스"에서 파생되었으며, 우리는 또한 그로스 (12다스의 수량을 의미하거나 144를 의미)라는 단어를 파생했습니다. 점점 더 많은 수의 주요 식품이 캔과 다른 부패하기 쉬운 포장으로 이용 가능해짐에 따라, 무역은 그 지역을 확장했습니다. 오늘날, 식료품점들은 고기, 농산물, 유제품과 같은 부패하기 쉬운 음식들을 포함한 광범위한 주요 식품들을 취급합니다. 따라서 그러한 상품은 식료품입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WIND_PLANT_TEXT">
-			<Text>Wind power is the conversion of wind energy into a useful form of energy, such as using wind turbines to produce electrical power, windmills for mechanical power, windpumps for water pumping or drainage, or sails to propel ships. Large wind farms consist of hundreds of individual wind turbines which are connected to the electric power transmission network. For new constructions, onshore wind is an inexpensive source of electricity, competitive with or in many places cheaper than fossil fuel plants. Small onshore wind farms provide electricity to isolated locations. Utility companies increasingly buy surplus electricity produced by small domestic wind turbines. Offshore wind is steadier and stronger than on land, and offshore farms have less visual impact, but construction and maintenance costs are considerably higher. Wind power, as an alternative to fossil fuels, is plentiful, renewable, widely distributed, clean, produces no greenhouse gas emissions during operation and uses little land. The effects on the environment are generally less problematic than those from other power sources. As of 2011, Denmark is generating more than a quarter of its electricity from wind and 83 countries around the world are using wind power to supply the electricity grid. In 2010 wind energy production was over 2.5% of total worldwide electricity usage, and growing rapidly at more than 25% per annum. Wind power is very consistent from year to year but has significant variation over shorter time scales. As the proportion of windpower in a region increases, a need to upgrade the grid, and a lowered ability to supplant conventional production can occur. Power management techniques such as having excess capacity storage, geographically distributed turbines, dispatchable backing sources, storage such as pumped-storage hydroelectricity, exporting and importing power to neighboring areas or reducing demand when wind production is low, can greatly mitigate these problems.</Text>
+			<Text>풍력은 바람 에너지를 유용한 형태의 에너지로 변환하는 것입니다. 예를 들어, 풍력 터빈을 사용하여 전기를 생산하고, 풍력 발전용 풍차, 양수 또는 배수를 위한 풍력 펌프 또는 선박을 추진하기 위한 돛을 사용합니다. 대형 풍력 발전소는 전력 전송 네트워크에 연결된 수백 개의 개별 풍력 터빈으로 구성됩니다. 새로운 건설의 경우, 해안 바람은 화석 연료 발전소보다 더 저렴한 많은 곳에서 경쟁할 수 있는 저렴한 전기 공급원입니다. 소규모 육상 풍력 발전소는 고립된 지역에 전기를 공급합니다. 전력회사들은 소형 가정용 풍력 터빈으로 생산되는 잉여 전기를 점점 더 많이 구입하고 있습니다. 해상풍은 육지에 비해 안정적이고 강하며, 해상농장은 시각적 영향은 적지만, 건설 및 유지관리 비용은 상당히 높습니다. 화석 연료의 대안으로 풍력은 풍부하고, 재생 가능하고, 널리 분포되고, 깨끗하며, 운영 중에 온실 가스 배출이 발생하지 않으며, 토지를 거의 사용하지 않습니다. 환경에 미치는 영향은 일반적으로 다른 전원의 영향보다 덜 문제가 됩니다. 2011년 현재, 덴마크는 전력의 4분의 1 이상을 풍력으로 생산하고 있으며, 전 세계 83개국이 풍력을 사용하여 전력망을 공급하고 있습니다. 2010년 풍력에너지 생산량은 전 세계 총 전기 사용량의 2.5%를 넘었으며, 연간 25% 이상의 빠른 속도로 증가하고 있습니다. 풍력은 해마다 매우 일관적이지만 더 짧은 시간 동안 상당한 변동을 보입니다. 한 지역에서 풍력 발전의 비율이 증가함에 따라, 송전망을 업그레이드해야 할 필요성과 기존 생산을 대체할 수 있는 능력이 저하될 수 있습니다. 과잉 용량 스토리지, 지리적으로 분산된 터빈, 파견 가능한 백업 소스, 펌프식 수력 전기와 같은 스토리지, 인접 지역에 대한 전력 수출 및 수입 또는 풍력 생산량이 적을 때 수요 감소와 같은 전력 관리 기술은 이러한 문제를 크게 완화할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TIDAL_PLANT_TEXT">
-			<Text>A Tidal Power Plant is renewable energy source which harnesses the energy of tides to produce usable electric energy. Tidal energy can take many forms, including stationary or tethered turbines similar to undersea wind turbines, or tidal barrages that mimic traditional hydroelectric stations. Tidal energy solutions are especially attractive in comparison to wind and solar because of their consistency and predictability.[NEWLINE][NEWLINE]Of the various renewable energy solutions available, tidal energy is the youngest and still the most problematic. Corrosion and wear are costly hurdles to wide deployment of tidal power, as well as the limited number of potential sites with high flow velocities. Today, tidal power contributes less than 1% of total global power generation, with facilities in France, the UK, South Korea, and Canada.</Text>
+			<Text>조력 발전소는 사용 가능한 전기 에너지를 생산하기 위해 조수의 에너지를 이용하는 재생 가능한 에너지원입니다. 조석 에너지는 해저 풍력 터빈과 유사한 정지 터빈 또는 테더 터빈, 또는 전통적인 수력 발전소를 모방한 조석 보루를 포함하여 많은 형태를 취할 수 있습니다. 조석 에너지 솔루션은 일관성과 예측 가능성 때문에 바람과 태양에 비해 특히 매력적입니다.[NEWLINE][NEWLINE]이용 가능한 다양한 재생 에너지 솔루션 중 조력 에너지는 가장 젊고 가장 문제가 많습니다. 부식 및 마모는 조력 발전의 광범위한 배치에 비용이 많이 드는 장애물이 될 뿐만 아니라 유속이 빠른 잠재적 발전소의 수도 제한적입니다. 오늘날 조력 발전은 프랑스, 영국, 한국 및 캐나다에 시설이 있고, 전체 세계 발전의 1% 미만입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STOCKYARD_TEXT">
-			<Text>Agribusiness is the business of agricultural production. The term was coined in 1957 by Goldberg and Davis. It includes agrichemicals, breeding, crop production (farming and contract farming), distribution, farm machinery, processing, and seed supply, as well as marketing and retail sales. All agents of the food and fiber value chain and those institutions that influence it are part of the agribusiness system. Within the agriculture industry, "agribusiness" is used simply as a portmanteau of agriculture and business, referring to the range of activities and disciplines encompassed by modern food production. There are academic degrees in and departments of agribusiness, agribusiness trade associations, agribusiness publications, and so forth, worldwide. Examples of agribusinesses include seed and agrichemical producers like Dow AgroSciences, DuPont, Monsanto, and Syngenta; AB Agri (part of Associated British Foods) animal feeds, biofuels, and micro-ingredients, ADM, grain transport and processing; John Deere, farm machinery producer; Ocean Spray, farmer's cooperative; and Purina Farms, agritourism farm.</Text>
+			<Text>농업 사업은 농업 생산품의 사업입니다. 이 용어는 1957년 골드버그와 데이비스에 의해 만들어졌습니다. 여기에는 농업 화학, 사육, 농작물 생산(농사 및 계약 농업), 유통, 농기계, 가공, 종자 공급뿐만 아니라 마케팅 및 소매 판매가 포함됩니다. 식품 및 섬유 가치 사슬의 모든 대리인과 그것에 영향을 미치는 기관들은 농업 비즈니스 시스템의 일부입니다. 농업 산업 내에서, "농업 사업"은 현대 식량 생산에 포함되는 활동 범위와 분야를 가리키며, 단순히 농업과 비즈니스의 항구로서 사용됩니다. 전 세계적으로 농업 사업, 농업 무역 협회, 농업 사업 출판물 등의 학위와 학과가 있습니다. 농업 사업의 예로는 다우 아그로 사이언스, 듀폰, 몬산토, 신겐타와 같은 종자 및 농약 생산업체, AB 아그리(Associated British Foods의 일부) 동물 사료, 바이오 연료 및 미세 재료, ADM, 곡물 운송 및 가공업체, 농업 기계 생산업체, 오션 스프레이, 농업협동조합, 그리고 퓨리나 농장, 농업농장 등이 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COAL_PLANT_TEXT">
-			<Text>Refined coal is the product of the application of a coal upgrading technology that removes moisture and certain pollutants from lower-rank coals such as sub-bituminous and lignite (brown) coals and raising their calorific values. Coal refining or upgrading technologies are typically pre-combustion treatments and/or processes that alter the characteristics of a coal before it is burned. The goals of pre-combustion coal upgrading technologies are to increase efficiency and reduce emissions when coal is burned. Depending on the situation, pre-combustion technology can be used in place of or as a supplement to post-combustion technologies to control emissions from coal-fueled boilers. A primary benefit of refined coal is the capacity to reduce the net volume of carbon emissions that is currently emitted from power generators and would reduce the amount of emissions that is proposed to be managed via emerging carbon sequestration methodologies. Refined coal technologies have primarily been developed in the United States, several similar technologies have been researched, developed and tested in Victoria, Australia, including the Densified coal technology (Coldry Process) developed to alter the chemical bonds of brown coal to create a product that is cleaner, stable (not prone to spontaneous combustion), exportable and of sufficiently high calorific value to be a black coal equivalent.</Text>
+			<Text>정제탄은 아염화탄과 갈탄(갈색)탄 등 하위 석탄의 수분과 특정 오염물질을 제거하고 그 열량을 높이는 석탄 고도화 기술이 적용된 산물입니다. 석탄 정제 또는 업그레이드 기술은 일반적으로 석탄이 연소되기 전에 석탄의 특성을 변경하는 연소 전 처리 및/또는 공정입니다. 석탄을 연소하기 전 업그레이드 기술의 목표는 석탄을 연소할 때 효율을 높이고 배출량을 줄이는 것입니다. 상황에 따라 석탄 연료 보일러의 배출량을 제어하기 위해 연소 전 기술을 대체하거나 연소 후 기술의 보완으로 사용할 수 있습니다. 정제된 석탄의 주요 이점은 현재 발전기에서 배출되는 순 탄소 배출량을 줄일 수 있는 능력과 새로운 탄소 격리 방법론을 통해 관리하도록 제안된 배출량을 줄일 수 있다는 것입니다. 정제된 석탄 기술은 주로 미국에서 개발되었으며, 갈색 석탄의 화학 결합을 변화시켜 더 깨끗하고 안정적인(자발적으로 생성되지 않는) 제품을 만들기 위해 개발된 Densized 석탄 기술(Coldry Process)을 포함하여 호주 빅토리아에서 여러 유사한 기술이 연구, 개발 및 테스트되었습니다.수출 가능하며 흑탄 등가물이 될 수 있을 정도로 열량이 높습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MINEFIELD_TEXT">
-			<Text>A naval mine is a self-contained explosive device placed in water to damage or destroy surface ships or submarines. Unlike depth charges, mines are deposited and left to wait until they are triggered by the approach of, or contact with, an enemy vessel. Naval mines can be used offensively—to hamper enemy shipping movements or lock vessels into a harbour; or defensively—to protect friendly vessels and create "safe" zones.</Text>
+			<Text>해군 기뢰는 수상 함정이나 잠수함을 손상시키거나 파괴하기 위해 수중에 두는 자급식 폭발 장치입니다. 깊이 전하와 달리, 지뢰는 퇴적되어 적 함정의 접근이나 접촉에 의해 촉발될 때까지 기다리게 됩니다. 해군 기뢰는 적의 선박 운송 움직임을 방해하거나 선박을 항구에 가두는 데 공격적으로 사용될 수 있으며, 우방 함정을 보호하고 "안전" 구역을 만드는 데 방어적으로 사용될 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERPRETIVE_CENTER_TEXT">
-			<Text>An interpretive center is an institution for public education about a nearby cultural, historic, or natural sites. Unlike museums, interpretive centers rarely contain artifacts or collections, but mainly exist to give visitors background information for understanding the history or relevance of something on the landscape. Because preservation and protection is not part of an interpretive center''s job, they can often be more interactive and make better use of modern media than traditional museums.</Text>
+			<Text>자료관은 근처의 문화, 역사 또는 자연 유적지에 대한 공교육을 위한 기관입니다. 박물관과 달리, 해석 센터는 유물이나 수집품을 거의 포함하지 않지만, 주로 방문객들에게 풍경 위의 어떤 것의 역사나 관련성을 이해하기 위한 배경 정보를 제공하기 위해 존재합니다. 보존과 보호가 자료관의 일이 아니기 때문에, 그들은 종종 전통적인 박물관보다 더 상호 작용하고 현대 미디어를 더 잘 활용할 수 있습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN">
@@ -400,7 +400,7 @@
 			<Text>[COLOR_YELLOW]기사단[ENDCOLOR]을 무료로 제공합니다. 일반적으로 필요한 전 세계의 신도 수 [COLOR:105:105:105:255](보통 20%)[ENDCOLOR] 보다 5% 낮은 수준으로 [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다.이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_KARLSTEJN_TEXT">
-			<Text>Karlstejn Castle is a picturesque Bohemian fortification a short distance outside Prague in the modern Czech Republic. The castle was completed in 1365, and has housed the Imperial Regalia and Crown Jewels of Bohemia as well as numerous other relics and treasures. The castle was sieged by Hussites during the Hussite Wars, the first major Protestant movement in Europe, which began more than a century before Martin Luther and the Protestant Reformation.</Text>
+			<Text>카를스테인 성은 현대 체코의 프라하 외곽에 있는 그림 같은 보헤미안 요새입니다. 그 성은 1365년에 완성되었고, 보헤미아의 제국 레갈리아와 왕관 보석뿐만 아니라 많은 다른 유물들과 보물들을 보관하고 있습니다. 그 성은 마르틴 루터와 개신교 종교 개혁보다 한 세기 이상 전에 시작된 유럽의 첫 번째 주요 개신교 운동인 후스 전쟁 동안 후스파 사람들에 의해 포위되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KARLSTEJN_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"진실만을 찾아라. 진실만을 들어라. 진실만을 배워라. 진실만을 사랑하라. 진실만을 말하라. 진실만을 지켜라. 죽음을 두려워 말고 진실만을 사수하라."[NEWLINE][TAB][TAB] - 얀 후스[NEWLINE][TAB]</Text>
@@ -412,7 +412,7 @@
 			<Text>[COLOR_YELLOW]공장[ENDCOLOR]을 무료로 제공합니다. 이 불가사의가 지어진 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_RES_COAL]석탄 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]강과 인접한 도시[ENDCOLOR]에만 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SLATER_MILL_TEXT">
-			<Text>A National Historic Landmark, the Slater Mill is located next to the Blackstone River in Pawtucket, Rhode Island. Modeled after cotton spinning mills first established in England, the Slater Mill is the first water-powered cotton spinning mill in North America to utilize the Arkwright system of cotton spinning as developed by Richard Arkwright. Samuel Slater, the mill's founder, apprenticed as a young man in Belper, England with industrialist Jedediah Strutt. Shortly after immigrating to the United States, Slater was hired by Moses Brown of Providence, Rhode Island to produce a working set of machines necessary to spin cotton yarn using water-power. Construction of the machines, as well as a dam, waterway, waterwheel and mill was completed in 1793. Manufacturing was based on Richard Arkwright's cotton spinning system which included carding, drawing, and spinning machines. Slater initially hired children and families to work in his mill, establishing a pattern that was replicated throughout the Blackstone Valley and known as the "Rhode Island System". It was later eclipsed by Francis Cabot Lowell's Waltham System. Slater Mill was the first property to be listed on the National Register of Historic Places, and was designated a National Historic Landmark on November 13, 1966.</Text>
+			<Text>국가 역사 랜드마크인 슬레이터 밀은 로드아일랜드의 포투켓에 있는 블랙스톤 강 옆에 위치해 있습니다. 영국에 처음 설립된 면방적 공장을 본떠 만든 슬레이터 밀은 리처드 아크라이트가 개발한 면방적 아크라이트 시스템을 활용한 북미 최초의 수력 면방적 공장입니다. 제분소의 설립자인 새뮤얼 슬레이터는 영국 벨퍼에서 산업가 제다이아 스트럿과 함께 젊은 시절 견습생으로 일했습니다. 미국으로 이민 온 직후, 슬레이터는 로드 아일랜드 프로비던스의 모세 브라운에 고용되어 수력을 사용하여 면사를 방적하는 데 필요한 작업 기계를 생산했습니다. 댐, 수로, 물레방아, 방앗간뿐만 아니라 기계들의 건설은 1793년에 완료되었습니다. 제조는 카드, 드로잉, 그리고 방적 기계를 포함하는 리차드 아크라이트의 면방적 시스템을 기반으로 했습니다. 슬레이터는 처음에 아이들과 가족들을 고용하여 그의 방앗간에서 일하게 했고, 블랙스톤 계곡 전체에 복제되어 "로드 아일랜드 시스템"으로 알려진 패턴을 확립했습니다. 그것은 나중에 프랜시스 카봇 로웰의 월섬 시스템에 의해 가려졌습니다. 슬레이터 밀은 미국 국립 사적지에 등재된 첫 번째 재산이었고, 1966년 11월 13일 미국 국립 역사 랜드마크로 지정되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_SLATER_MILL_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"영국에서만큼 방적을 해내지 못한다면 내게 아무 것도 남지 않겠지만, 나는 모든 걸 걸었다네."[NEWLINE][TAB][TAB] - 새뮤얼 슬레이터[NEWLINE][TAB]</Text>
@@ -424,7 +424,7 @@
 			<Text>[COLOR_YELLOW]경찰서[ENDCOLOR]를 무료로 제공합니다. 인구에서 오는 군사 유닛 보급 한도가 100% 증가합니다. [NEWLINE][NEWLINE]모든 도시의 건물 비용이 10% 감소합니다. 적 유닛이 약탈할 때 [ICON_GOLD]골드 획득과 체력 회복을 막습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOTHERLAND_STATUE_TEXT">
-			<Text>The Motherland Calls, also called Mother Motherland, Mother Motherland Is Calling, simply The Motherland, or The Mamayev Monument, is a statue in Mamayev Kurgan in Volgograd, Russia, commemorating the Battle of Stalingrad. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin, and declared the largest statue in the world in 1967. Compared with the later higher statues, The Motherland Calls is significantly more complex from an engineering point of view, due to its characteristic posture with a sword raised high in the right hand and the left hand extended in a calling gesture. The technology behind the statue is based on a combination of prestressed concrete with wire ropes structure, a solution which can be found also in another work of Nikitin's, the super-tall Ostankino Tower in Moscow. It is the tallest statue of a woman in the world.</Text>
+			<Text>어머니 조국상은 러시아 볼고그라드의 마마예프 쿠르간에 있는 스탈린그라드 전투를 기념하는 동상입니다. 조각가 예브게니 부셰티치와 구조 엔지니어 니콜라이 니키틴에 의해 디자인되었고, 1967년에 세계에서 가장 큰 조각상으로 선언되었습니다. 이후 더 높은 조각상들과 비교했을 때, 마더랜드 콜은 오른손에 검을 높이 들고 왼손을 부르는 동작으로 뻗은 독특한 자세 때문에 공학적인 관점에서 훨씬 더 복잡합니다. 동상 뒤에 있는 기술은 와이어 로프 구조와 프리스트레스 콘크리트를 조합한 것에 기반을 두고 있는데, 이 방식은 모스크바에 있는 초고층 오스탄키노 타워인 니키틴의 또 다른 작품에서도 찾을 수 있습니다. 그것은 세계에서 가장 높은 여성의 동상입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND_STATUE_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"위대한 국가의 특징 중 하나는 넘어진 후 제발로 일어설 수 있는 능력이다."</Text>
@@ -436,7 +436,7 @@
 			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 과학자 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 2명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시에서 스파이 저항이 15% 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
-			<Text>Bletchley Park, in Milton Keynes, Buckinghamshire, was the central site of the United Kingdom's Government Code and Cypher School, which during the Second World War regularly penetrated the secret communications of the Axis Powers, most importantly the German Enigma and Lorenz ciphers. The official historian of World War II British Intelligence has written that the "Ultra" intelligence produced at Bletchley shortened the war by two to four years, and that without it the outcome of the war would have been uncertain. The site is now an educational and historical attraction memorialising and celebrating those accomplishments.</Text>
+			<Text>버킹엄 밀턴 케인스에 있는 블레츨리 공원은 제2차 세계 대전 동안 추축국의 비밀 통신, 특히 독일의 에니그마와 로렌츠 암호를 정기적으로 관통한 영국의 정부 암호와 사이퍼 학교의 중심 장소였습니다. 제2차 세계 대전 영국 정보국의 공식 역사학자는 블레츨리에서 제작된 "울트라" 첩보가 전쟁을 2년에서 4년 단축시켰으며, 그것이 없었다면 전쟁의 결과는 불확실했을 것이라고 썼습니다. 그 장소는 이제 그러한 업적을 기념하고 기념하는 교육적이고 역사적인 명소가 되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_BLETCHLEY_PARK_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"블레츨리 파크: 황금알을 낳았지만 결코 울지 않았던 거위."[NEWLINE][TAB][TAB] - 윈스턴 처칠[NEWLINE][TAB]</Text>
@@ -448,7 +448,7 @@
 			<Text>[COLOR_YELLOW]증권거래소[ENDCOLOR]를 무료로 제공합니다. 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. 모든 전문가의 [ICON_GOLD] 골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EMPIRE_STATE_BUILDING_TEXT">
-			<Text>The Empire State Building is a 103-story skyscraper located in Midtown Manhattan, New York City, at the intersection of Fifth Avenue and West 34th Street. It has a roof height of 1,250 feet (380 m), and with its antenna spire included, it stands a total of 1,454 feet (443 m) high.[6] Its name is derived from the nickname for New York, the Empire State. It stood as the world's tallest building for nearly 40 years, from its completion in early 1931 until the topping out of the original World Trade Center's North Tower in late 1970. Following the September 11 attacks in 2001, the Empire State Building was again the tallest building in New York (although it was no longer the tallest in the US or the world), until One World Trade Center reached a greater height on April 30, 2012. The Empire State Building is currently the fourth-tallest completed skyscraper in the United States (after the One World Trade Center, the Willis Tower and Trump International Hotel and Tower, both in Chicago), and the 25th-tallest in the world (the tallest now is Burj Khalifa, located in Dubai). It is also the fifth-tallest freestanding structure in the Americas.</Text>
+			<Text>엠파이어 스테이트 빌딩은 5번가와 웨스트 34번가의 교차점에 있는 뉴욕 맨해튼 미드타운에 위치한 103층짜리 초고층 빌딩입니다. 그것의 지붕 높이는 1,250 피트 (380 미터)이고, 그것의 안테나 첨탑을 포함하여, 그것은 총 1,454 피트 (443 미터) 높이입니다.[6] 그것의 이름은 엠파이어 스테이트인 뉴욕의 별명에서 유래되었습니다. 그것은 1931년 초에 완공된 후 1970년 말에 원래의 세계 무역 센터의 북쪽 타워에서 꼭대기까지 거의 40년 동안 세계에서 가장 높은 빌딩으로 서 있었습니다. 2001년 9·11 테러 이후, 엠파이어 스테이트 빌딩은 2012년 4월 30일 원 월드 트레이드 센터가 더 높은 높이에 도달할 때까지 뉴욕에서 다시 가장 높은 빌딩이 되었습니다. 엠파이어 스테이트 빌딩은 현재 미국에서 네 번째로 높은 마천루이며(시카고에 있는 원 월드 트레이드 센터, 윌리스 타워, 트럼프 인터내셔널 호텔 앤 타워에 이어), 세계에서 25번째로 높은 마천루입니다(현재 가장 높은 마천루는 두바이에 위치한 부르즈 칼리파입니다). 그것은 또한 아메리카에서 다섯 번째로 높은 자립식 건물입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_EMPIRE_STATE_BUILDING_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"돈의 중요성은 현재와 미래를 잇는 연결고리에서 비롯된다."[NEWLINE][TAB][TAB] - 존 메이너드 케인스[NEWLINE][TAB]</Text>
@@ -460,7 +460,7 @@
 			<Text>[COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다. 모든 [ICON_CITY_STATE]도시 국가에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CERN_TEXT">
-			<Text>The European Organization for Nuclear Research, known as CERN, is a European research organization whose purpose is to operate the world's largest particle physics laboratory. Established in 1954, the organization is based in the northwest suburbs of Geneva on the Franco–Swiss border, and has 21 European member states. Israel is the first (and currently only) non-European country granted full membership. The term CERN is also used to refer to the laboratory, which in 2013 counted 2513 staff members, and hosted some 12,313 fellows, associates, apprentices as well as visiting scientists and engineers representing 608 universities and research facilities and 113 nationalities. CERN's main function is to provide the particle accelerators and other infrastructure needed for high-energy physics research – as a result, numerous experiments have been constructed at CERN following international collaborations. It is also the birthplace of the World Wide Web. The main site at Meyrin has a large computer centre containing powerful data processing facilities, primarily for experimental-data analysis; because of the need to make these facilities available to researchers elsewhere, it has historically been a major wide area networking hub.</Text>
+			<Text>CERN으로 알려진 유럽 핵 연구 기구는 세계에서 가장 큰 입자 물리학 실험실을 운영하는 것을 목적으로 하는 유럽의 연구 기관입니다. 1954년에 설립된 이 단체는 프랑스-스위스 국경의 제네바 북서부 교외에 기반을 두고 있으며 21개의 유럽 회원국이 있습니다. 이스라엘은 정회원 자격을 부여받은 첫 번째(현재 유일한) 비유럽 국가입니다. CERN이라는 용어는 또한 2013년에 2513명의 직원을 거느리고 608개의 대학과 연구 시설 및 113개 국가를 대표하는 방문 과학자 및 엔지니어뿐만 아니라 약 12,313명의 펠로우, 동료, 견습생을 수용한 연구소를 지칭하는 데 사용됩니다. CERN의 주요 기능은 고에너지 물리학 연구에 필요한 입자 가속기 및 기타 인프라를 제공하는 것입니다. 그 결과 국제적인 협력에 따라 CERN에서 수많은 실험이 구성되었습니다. 이곳은 또한 월드 와이드 웹의 발상지이기도 합니다. Meyrin의 주요 사이트에는 주로 실험 데이터 분석을 위한 강력한 데이터 처리 시설이 들어 있는 대규모 컴퓨터 센터가 있습니다. 이러한 시설을 다른 곳의 연구자들이 이용할 수 있도록 해야 하는 필요성 때문에 역사적으로 주요 광역 네트워킹 허브였습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CERN_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"양자론적 장의 관점에서 진공을 본다면, 그것은 정확히 아무것도 아니다."[NEWLINE][TAB][TAB] - 피터 힉스 박사[NEWLINE][TAB]</Text>
@@ -469,10 +469,10 @@
 			<Text>사리탑</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_STRATEGY">
-			<Text>Can only be built in cities following a religion with the Stupas belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Build the Stupa to gain Faith, Golden Age Points and Tourism in the City.</Text>
+			<Text>사리탑 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 사리탑은 도시에 신앙, 황금기 점수와 관광을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_TEXT">
-			<Text>A stupa is a mound-like or hemispherical structure containing Buddhist relics, typically the ashes of Buddhist monks, used by Buddhists as a place of meditation.</Text>
+			<Text>사리탑은 불교에서 명상의 장소로 사용되는, 일반적으로 승려의 유골인 불교 유물을 담고 있는 봉분이나 반구형의 구조입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
 			<Text>도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
@@ -481,10 +481,10 @@
 			<Text>교회</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_STRATEGY">
-			<Text>Can only be built in cities following a religion with the Churches belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Build the Church to gain Faith and a Great Work of Music slot in the City. Also makes missionaries more effective and begins "We Love the King Day" in the City.</Text>
+			<Text>교회 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 교회는 도시에 신앙과 음악 슬롯을 제공합니다. 선교사의 효과를 증가시키고 국왕 경축일을 시작합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_TEXT">
-			<Text>A church building, often simply called a church, is a building used for religious activities, particularly worship services. The term in its architectural sense is most often used by Christians to refer to their religious buildings but can be used by other religions. In traditional Christian architecture, the church is often arranged in the shape of a Christian cross. When viewed from plan view the longest part of a cross is represented by the aisle and the junction of the cross is located at the altar area.</Text>
+			<Text>교회 건물은 종교 활동, 특히 예배에 사용되는 건물입니다. 건축적인 의미에서 이 용어는 기독교인들이 그들의 종교적 건물을 언급하기 위해 가장 자주 사용되지만 다른 종교에서도 사용될 수 있습니다. 전통적인 기독교 건축에서, 교회는 종종 기독교 십자가 모양으로 배열됩니다. 평면뷰에서 볼 때 십자가의 가장 긴 부분은 통로로 표현되며 십자가의 접합부는 제단 영역에 위치합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_HELP">
 			<Text>건물이 완성되면 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
@@ -493,10 +493,10 @@
 			<Text>만디르</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_STRATEGY">
-			<Text>Can only be built in cities following a religion with the Mandirs belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Build the Mandir to gain Faith, Food, and a Great Work of Music slot in the City. Protects your City from certain Advanced Spy Actions.</Text>
+			<Text>만디르 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 만디르는 도시에 신앙, 식량, 음악 슬롯을 제공합니다. 도시를 스파이로부터 예방할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_TEXT">
-			<Text>A Hindu temple is a house of god(s). It is a space and structure designed to bring human beings and gods together, infused with symbolism to express the ideas and beliefs of Hinduism.</Text>
+			<Text>힌두 사원은 신의 집입니다. 그것은 힌두교의 사상과 신념을 표현하기 위한 상징성이 배어 있는 인간과 신을 하나로 모으기 위해 고안된 공간이자 구조입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_HELP">
 			<Text>도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
@@ -505,10 +505,10 @@
 			<Text>회당</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_STRATEGY">
-			<Text>Can only be built in cities following a religion with the Synagogues belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Build the Synagogue to gain Faith, Production, and a Great Work of Writing slot in the City. The City generates more Science during "We Love the King Day."</Text>
+			<Text>회당 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 회당은 신앙, 생산, 문학 슬롯을 제공합니다. 도시가 국왕 경축일에 과학을 더 많이 생성합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TEXT">
-			<Text>A synagogue, also spelled synagog, is a Jewish house of prayer. Synagogues have a large hall for prayer (the main sanctuary), and may also have smaller rooms for study and sometimes a social hall and offices. Some have a separate room for Torah study, called the beth midrash.</Text>
+			<Text>사당이라고도 불리는 시나고그는 유대인들의 기도의 집입니다. 유대교 회당에는 기도할 수 있는 큰 홀(주 성역)이 있고, 공부하기 위한 작은 방도 있고 때로는 사교장과 사무실도 있습니다. 일부는 베스 미드래쉬라고 불리는 토라 서재를 위한 별도의 방을 가지고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_HELP">
 			<Text>"국왕 경축일"이 열리는 동안 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
@@ -517,13 +517,13 @@
 			<Text>기사단</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_STRATEGY">
-			<Text>Can only be built in cities following a religion with the Orders belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Build the Order to gain Faith, additional City Hit Points and [ICON_STRENGTH] Strength, +15 XP for all Military units, and the Morale promotion for your land Military units. Also grants +3 [ICON_PEACE] Faith when you kill an enemy Unit, scaling with Era.</Text>
+			<Text>기사단 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 기사단은 신앙, 도시의 추가 체력과 공격력을 제공하고 전투 유닛에 +15 경헙치과 열의 승급을 제공합니다. 적 유닛 처치시 +3 [ICON_PEACE] 신앙을 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
 			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시에서 생산하는 모든 군사 유닛의 경험치가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 도시에서 생산하는 모든 지상 유닛에 [COLOR_PLAYER_PURPLE]사기[ENDCOLOR] 승급을 부여합니다. 도시의 체력과 [ICON_STRENGTH]전투력이 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_TEXT">
-			<Text>A military order is any one of a variety of Christian societies of knights that were founded from the Middle Ages onwards for the purpose of crusading – propagating or defending the faith (originally Catholic, and after the Reformation sometimes Protestant), either in the Holy Land or against Islam (as, for example, during the Reconquista) or pagans (mainly in the Baltic region) in Europe. Many orders have, since the end of the Crusades and the Ottoman incursions, become secularized, and are usually represented by Roman Catholic ceremonial, missionary and charitable organizations in modern times.</Text>
+			<Text>기사단은 중세부터 십자군 원정을 목적으로 설립된 다양한 기독교 단체 중 하나이며, 성지 또는 이슬람교(예를 들어 레콘키스타 기간 동안) 또는 이교도들 (주로 발트해 지역)에 대항하여 신앙을 전파하거나 방어합니다. 십자군 전쟁이 끝나고 오스만 제국이 침공한 이후 많은 수도회가 세속화되었으며, 현대에 와서는 보통 로마 가톨릭의 의식, 선교 및 자선 단체로 대표됩니다.</Text>
 		</Row>
 		<!-- Cathedral/Mosque/Pagoda-->
 		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
@@ -542,7 +542,7 @@
 			<Text>[ICON_CAPITAL]수도에 음악가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 모든 도시의 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.  [NEWLINE][NEWLINE][COLOR_MAGENTA]전통[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_PEDIA">
-			<Text>A throne room is the room, often rather a hall, in the official residence of the crown, either a palace or a fortified castle, where the throne of a senior figure (usually a monarch) is set up with elaborate pomp— usually raised, often with steps, and under a canopy, both of which are part of the original notion of the Greek word thronos.</Text>
+			<Text>알현실은 왕관의 공식 관저에 있는 방, 종종 홀보다는 궁전이나 요새화된 성으로, 고위 인물의 왕좌가 정교한 장엄함으로 세워지는 곳입니다. - 보통 계단식으로, 그리고 캐노피 아래, 둘 다 그리스 단어 thronos의 원래 개념의 일부입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY">
 			<Text>국고</Text>
@@ -551,7 +551,7 @@
 			<Text>[ICON_CAPITAL]수도에 상인 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]존엄[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_PEDIA">
-			<Text>The term treasury was first used in Classical times to describe the votive buildings erected to house gifts to the gods, such as the Siphnian Treasury in Delphi or many similar buildings erected in Olympia, Greece by competing city-states to impress others during the ancient Olympic Games. In Ancient Greece treasuries were almost always physically incorporated within religious buildings such as temples, thus making state funds sacrosanct and adding moral constraints to the penal ones to those who would have access to these funds.</Text>
+			<Text>금고라는 용어는 고대 올림픽 기간 동안 다른 사람들에게 깊은 인상을 주기 위해 그리스 올림피아에 세워진 시프니안 금고나 그리스 올림피아에 세워진 많은 유사한 건물과 같이 신들에게 선물을 보관하기 위해 세워진 봉헌적인 건물을 설명하기 위해 처음 사용되었습니다. 고대 그리스에서 국고는 거의 항상 신전과 같은 종교적인 건물 안에 물리적으로 통합되었습니다. 따라서 국가 기금을 신성시하고 이러한 기금에 접근하는 사람들에게 형벌에 도덕적 제약을 더했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_ENGINEER">
 			<Text>근위병 초소</Text>
@@ -560,7 +560,7 @@
 			<Text>[ICON_CAPITAL]수도에 기술자 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 도시의 방어력 및 체력이 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]정의[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_ENGINEER_PEDIA">
-			<Text>A Royal Guard describes any group of military bodyguards, soldiers or armed retainers responsible for the protection of a royal person, such as Emperor/Empress, King/Queen, or Prince/Princess. They often are an elite unit of the regular armed forces, or are designated as such, and may maintain special rights or privileges.</Text>
+			<Text>왕실 근위대는 황제/황후, 왕/여왕 또는 왕자/공주와 같이 왕자의 보호를 책임지는 모든 군 경호원, 군인 또는 무장 가신들을 말합니다. 그들은 종종 정규군의 정예 부대이거나, 그렇게 지정되며, 특별한 권리나 특권을 유지할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN">
 			<Text>궁전 정원</Text>
@@ -569,7 +569,7 @@
 			<Text>[ICON_CAPITAL]수도에 작가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 모든 기념비, 정원, 목욕탕의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]탁월[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_PEDIA">
-			<Text>A garden is a planned space, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature. The garden can incorporate both natural and man-made materials. The most common form today is known as a residential garden, but the term garden has traditionally been a more general one. Zoos, which display wild animals in simulated natural habitats, were formerly called zoological gardens.[1][2] Western gardens are almost universally based on plants, with garden often signifying a shortened form of botanical garden.</Text>
+			<Text>정원은 식물과 다른 형태의 자연을 전시, 재배, 즐기기 위해 마련된 계획된 공간입니다. 그 정원은 천연 재료와 인공 재료를 모두 포함할 수 있습니다. 오늘날 가장 일반적인 형태는 주거용 정원으로 알려져 있지만, 전통적으로 정원이라는 용어는 더 일반적인 것이었습니다. 야생 동물들을 모의 자연 서식지에 전시하는 동물원은 이전에는 동물학적인 정원이라고 불렸습니다. 서양의 정원은 거의 보편적으로 식물에 기반을 두고 있으며, 정원은 종종 식물원의 단축된 형태를 나타냅니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL">
 			<Text>궁정 예배당</Text>
@@ -578,7 +578,7 @@
 			<Text>[ICON_CAPITAL]수도에 예술가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]주권[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_PEDIA">
-			<Text>A chapel is a religious place of fellowship, prayer and worship that is attached to a larger, often nonreligious institution or that is considered an extension of a primary religious institution. It may be part of a larger structure or complex, such as a college, hospital, palace, prison, funeral home, church, synagogue or mosque, located on board a military or commercial ship, or it may be an entirely free-standing building, sometimes with its own grounds. Many military installations have chapels for the use of military personnel, normally under the leadership of a military chaplain.</Text>
+			<Text>예배당은 더 크고 종종 비종교적인 기관에 붙어 있거나 주요 종교 기관의 연장선으로 여겨지는 교제, 기도, 예배의 종교적인 장소입니다. 그것은 대학, 병원, 궁전, 감옥, 장례식장, 교회, 유대교 회당 또는 모스크와 같은 더 큰 구조물이나 복합체의 일부일 수도 있고, 군함이나 상업 선박에 위치해 있을 수도 있고, 때로는 그 기반이 있는 완전히 독립된 건물일 수도 있습니다. 많은 군사 시설에는 보통 군 목사의 지도 아래 군인들을 사용하기 위한 예배당이 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_ASTROLOGER">
 			<Text>궁정 점술가</Text>
@@ -587,67 +587,67 @@
 			<Text>[ICON_CAPITAL]수도에 과학자 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 모든 자문회 및 약초상의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]의식[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_ASTROLOGER_PEDIA">
-			<Text>Astrology, in its broadest sense, is the search for meaning in the sky. Early evidence for humans making conscious attempts to measure, record, and predict seasonal changes by reference to astronomical cycles, appears as markings on bones and cave walls, which show that lunar cycles were being noted as early as 25,000 years ago. This was a first step towards recording the Moon's influence upon tides and rivers, and towards organising a communal calendar. Farmers addressed agricultural needs with increasing knowledge of the constellations that appear in the different seasons—and used the rising of particular star-groups to herald annual floods or seasonal activities. By the 3rd millennium BCE, civilisations had sophisticated awareness of celestial cycles, and may have oriented temples in alignment with heliacal risings of the stars.</Text>
+			<Text>점성술은, 가장 넓은 의미에서, 하늘에서 의미를 찾는 것입니다. 인류가 천문 주기를 참조하여 계절 변화를 측정하고, 기록하고, 예측하려고 의식적으로 시도했다는 초기 증거는 뼈와 동굴 벽에 있는 표시로 나타나는데, 이것은 달의 주기가 이미 25,000년 전에 기록되었다는 것을 보여줍니다. 이것은 조수와 강에 대한 달의 영향을 기록하고, 공동 달력을 조직하기 위한 첫 번째 단계였습니다. 농부들은 다양한 계절에 나타나는 별자리에 대한 증가하는 지식으로 농업의 필요를 해결했고, 매년 홍수나 계절적 활동을 예고하기 위해 특정 별들의 증가를 사용했습니다. 기원전 3천년 무렵, 문명은 천체의 주기에 대한 정교한 인식을 가지고 있었고, 별들의 태양 상승과 맞춰 신전을 필요로 했을지도 모릅니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDUS_CANAL">
 			<Text>하라파 저수지</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_INDUS_CANAL_TEXT">
-			<Text>The ancient Harappan and Indus Valley Civilizations of Northwest South Asia, including Pakistan and parts of India, were prominent in hydraulic engineering, and had many water supply and sanitation devices that were the first of their kind. Among other things, they contained the world's earliest known system of flush toilets. These existed in many homes, and were connected to a common sewerage pipe. Most houses also had private wells. City walls functioned as a barrier against floods, and massive reservoirs were often constructed along these walls to collect this floodwater to save for droughts.</Text>
+			<Text>파키스탄과 인도의 일부를 포함한 서북남아시아의 고대 하라판 및 인더스 계곡 문명은 수력 공학에서 두드러졌고, 최초의 물 공급과 위생 장치를 많이 가지고 있었습니다. 무엇보다도, 그것들은 세계에서 가장 오래된 수세식 화장실 시스템을 포함하고 있었습니다. 이것들은 많은 가정에서 존재했고, 일반적인 하수관과 연결되어 있었습니다. 대부분의 집에는 개인 우물도 있었습니다. 도시 성벽은 홍수에 대한 장벽으로 기능했고, 가뭄을 막기 위해 이 홍수 물을 모으기 위해 거대한 저수지가 종종 이 벽을 따라 건설되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDUS_CANAL_HELP">
 			<Text>송수로를 대체하는 인도의 고유 건물입니다. [ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 다음 [ICON_CITIZEN]시민을 위해 사용할 수 있습니다. [ICON_CITIZEN]시민이 증가할 때 현재 [ICON_PRODUCTION]생산 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 즉시 제공합니다.[NEWLINE][NEWLINE]도시 주변 범람원 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 도시 주변 오아시스 및 호수 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 농장의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDUS_CANAL_STRATEGY">
-			<Text>Build these unique Aqueducts to rapidly increase your city's population size and productivity, especially if the city is settled on or near Flood Plainss.</Text>
+			<Text>이 독특한 송수로를 건설해 인구를 성장시키십시오. 이 건물은 특히 범람원에 세워진 도시에 유용합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO">
 			<Text>도조</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DOJO_TEXT">
-			<Text>A dojo is a Japanese term which literally means "place of the way". Initially, dōjōs were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts[which?] but typically it is considered the formal gathering place for students of any Japanese martial arts style such as karate, judo, or samurai, to conduct training, examinations and other related encounters. The concept of a dōjō only referring to a training place specifically for Asian martial arts is a Western concept; in Japan, any physical training facility, including professional wrestling schools, may be called dōjō because of its close martial arts roots.</Text>
+			<Text>도조는 문자 그대로 "길의 장소"를 의미하는 일본 용어입니다. 처음에, 도조는 절에 부속된 것이었습니다. 이 용어는 일본의 도예에 대한 공식적인 훈련 장소를 의미할 수 있지만, 일반적으로 가라테, 유도, 사무라이와 같은 모든 일본 무술 스타일의 학생들이 훈련, 시험 및 기타 관련 만남을 수행하는 공식적인 집합 장소로 여겨집니다. 도조의 개념은 서양의 개념이며, 일본에서는 프로레슬링 학교를 포함한 어떤 신체 훈련 시설도 도조라고 불릴 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
 			<Text>무기고를 대체하는 일본의 고유 건물입니다. 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시에서 생산하는 모든 유닛의 경험치가 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시에서 생산하는 모든 기마, 근접, 화약, 장갑 유닛에 [COLOR_PLAYER_PURPLE]무사도[ENDCOLOR] 승급을 부여합니다. 유닛이 승급할 때 현재의 레벨에 기반한 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학을 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
-			<Text>Build these unique Armories to produce dominant military units. Does not require a Barracks. All Melee, Mounted, Gun, and Armor units trained in this city receive the Eight Virtues of Bushido Promotion, which offers one of eight possible promotions to these unit types after their first combat and increases the Unit's power as it takes damage.</Text>
+			<Text>이 독특한 무기고로 군사를 훈련시키십시오. 이 건물은 병영을 요구하지 않습니다. 모든 근접, 기마, 화약, 장갑 유닛이 무사도의 여덟 길 승급을 얻어, 유닛이 피해를 주면 피해를 받았을 때 유용한 여덟 개의 승급 중 하나의 승급을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON">
 			<Text>아크로폴리스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ODEON_TEXT">
-			<Text>An acropolis is a settlement, especially a citadel, built upon an area of elevated ground—frequently a hill with precipitous sides, chosen for purposes of defense. In many parts of the world, acropoleis became the nuclei of large cities of classical antiquity, such as ancient Rome, and for this reason they are sometimes prominent landmarks in modern cities with ancient pasts, such as modern Rome. The word acropolis literally means in Greek "upper city," and though associated primarily with the Greek cities Athens, Argos ( with Larissa), Thebes (with Cadmea), and Corinth (with its Acrocorinth), may be applied generically to all such citadels, including Rome, Jerusalem, Celtic Bratislava, many in Asia Minor, or even Castle Rock in Edinburgh. An example in Ireland is the Rock of Cashel. Acropolis is also the term used by archaeologists and historians for the urban Castro culture settlements located in Northwestern Iberian hilltops.</Text>
+			<Text>아크로폴리스는 고지대에 지어진 정착지, 특히 성채로, 방어 목적으로 선택된 가파른 면이 있는 언덕을 말합니다. 세계의 많은 곳에서, 아크로폴리스는 고대 로마와 같은 고전 고대 대도시의 핵이 되었고, 이러한 이유로 그들은 때때로 현대 로마와 같은 고대 도시들의 두드러진 랜드마크입니다. 아크로폴리스라는 단어는 문자 그대로 그리스어로 "상층 도시"를 의미하며, 주로 그리스 도시 아테네, 아르고스와 관련이 있지만, 테베(카드메아 포함)와 코린토스(아크로코린트 포함)는 로마, 예루살렘, 켈트 브라티슬라바, 소아시아의 많은 지역, 또는 에든버러 성의 바위를 포함한 모든 도시들에 일반적으로 적용될 수 있습니다. 아일랜드의 예로는 카셸의 바위가 있습니다. 아크로폴리스는 또한 북서 이베리아 언덕 꼭대기에 위치한 도시 카스트로 문화 정착지를 위해 고고학자들과 역사가들에 의해 사용되는 용어입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON_HELP">
 			<Text>원형극장을 대체하는 그리스의 고유 건물입니다. 도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 도시의 [ICON_GREAT_WRITER]위대한 작가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 작가 길드의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE]적 유닛을 처치할 때 이 도시에 [ICON_CULTURE_LOCAL]국경 확장 점수를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 유닛이 이 도시에서 생산 되었다면 추가로 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE][ICON_RES_DYE] 염료: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_SILK] 비단: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_LAPIS] 청금석: [ICON_CULTURE]문화 +2[NEWLINE][ICON_RES_BRAZILWOOD] 브라질 소방목: [ICON_CULTURE]문화 +1, [ICON_GOLD]골드 +1[NEWLINE][NEWLINE]테마보너스: [ICON_CULTURE]문화 +2</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
-			<Text>Unique Greek replacement for the Amphitheater. Build Acropoli to boost your city's Defense, Culture, and Tourism, especially while at war for the latter two. Also boosts the City''s Great Writer rate and the value of Writers'' Guilds. Produces +3 [ICON_TOURISM] Tourism.</Text>
+			<Text>원형 극장을 대체하는 그리스의 고유 건물입니다. 아크로폴리스를 건설해 도시의 방어력, 문화, 관광을, 특히 전쟁 시에 더욱 향상시키십시오. 위대한 작가 생성률과 작가 길드의 가치를 증가시키고 또한 [ICON_TOURISM] 관광을 +3 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM">
 			<Text>콜로세움</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_FLAVIAN_COLOSSEUM_TEXT">
-			<Text>The Flavian Amphitheater, or Colosseum, is one of the most famous venues in all of history. Though Ancient Rome had only one Colosseum, variations on the design were reproduced throughout the empire, and to the present day. A colosseum is an outdoor venue where the public can watch sports events. Depending upon the time and place, the events might be gladiatorial contests, American football games, or soccer matches. Of the three contests mentioned, the gladiatorial battles were perhaps the hardest on the players involved, the soccer matches (occasionally) just about as dangerous for the participants.</Text>
+			<Text>플라비안 원형극장 또는 콜로세움은 모든 역사에서 가장 유명한 장소 중 하나입니다. 고대 로마에는 콜로세움이 하나밖에 없었지만, 그 디자인의 변형은 제국 전역과 오늘날까지 재현되었습니다. 콜로세움은 대중들이 스포츠 경기를 볼 수 있는 야외 장소입니다. 시간과 장소에 따라, 그 행사는 검투사 대회, 미식축구 경기 또는 축구 경기가 될 수 있습니다. 언급된 세 개의 대회 중 검투사 전투는 아마도 관련된 선수들에게 가장 어려웠을 것이고, 축구 경기는 참가자들에게 (때로는) 거의 위험했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_HELP">
 			<Text>투기장을 대체하는 로마의 고유 건물입니다. 도시의 [ICON_TOURISM]관광이 [ICON_CITIZEN]시민 3명마다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 적 유닛을 처치할 때 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 유닛이 이 도시에서 생산 되었다면 추가로 [ICON_GREAT_PEOPLE]위대한 장군/위대한 제독 점수를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_STRATEGY">
-			<Text>Unique Roman replacement for the Arena. Build the Colosseum to boost your city's Culture, Tourism, and Production, and to maximize your empire's gain from the victories of your conquering armies. Every Colosseum slightly increases the Gold value of City Connections, thus allowing Rome to benefit from large, sprawling empires.</Text>
+			<Text>투기장을 대체하는 로마의 고유 건물입니다. 콜로세움을 건설해 도시의 문화, 관광, 생산을, 향상시키고, 적을 처치하고 승리해 효과를 최대화하십시오. 모든 콜로세움은 모든 도시 연결에 약간의 보너스를 주어, 로마가 거대한 제국을 형성할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER">
 			<Text>화이트 타워</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WHITE_TOWER_TEXT">
-			<Text>The White Tower is the old keep at the Tower of London. It was built by William the Conqueror during the early 1080s, and was later extended. The White Tower was the castle's strongest defensive point, and originally housed the king and his representatives. Throughout its long history, the Tower has been many things to England: A symbol of tyranny, a treasury, a menagerie, a mint, a palace and a prison. Today, the Tower of London is a vast museum which boasts, amongst its many treasures, the Crown Jewels of the English Monarchy.</Text>
+			<Text>화이트 타워는 런던 타워의 오래된 건물입니다. 그것은 1080년대 초에 정복자 윌리엄에 의해 지어졌고 나중에 확장되었습니다. 하얀 탑은 성의 가장 강력한 방어 지점이었고, 원래 왕과 그의 대리인들을 수용했습니다. 오랜 역사를 통해, 타워는 영국에 많은 것들이 되었습니다. 폭정의 상징, 금고, 관리소, 조폐소, 궁전, 감옥입니다. 오늘날, 런던탑은 많은 보물들 중, 영국 왕실의 왕관 보석을 자랑하는 거대한 박물관입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_HELP">
-			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 슬롯을 포함합니다. [NEWLINE][NEWLINE][ICON_GREAT_WORK]걸작이나 [ICON_RESEARCH]기술을 훔칠 때, [ICON_CITY_STATE]도시 국가 쿠데타 및 선거 조작 성공 시, 또는 이 도시에 잠입한 적[ICON_SPY]스파이를 처치할 때 [ICON_RESEARCH]과학과  [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다[COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5) )[ENDCOLOR]. [NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 슬롯을 포함합니다. [NEWLINE][NEWLINE][ICON_GREAT_WORK]걸작이나 [ICON_RESEARCH]기술을 훔칠 때, [ICON_CITY_STATE]도시 국가 쿠데타 및 선거 조작 성공 시, 또는 이 도시에 잠입한 적[ICON_SPY]스파이를 처치할 때 [ICON_RESEARCH]과학과 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다[COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5) )[ENDCOLOR]. [NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_STRATEGY">
-			<Text>Unique English replacement for the Ironworks. In addition to the bonuses from the Ironworks, the White Tower improves Constabularies, Castles and Armories, and contains a Great Work of Art. The White Tower provides yields for both offensive and defensive Spy actions, like an early Intelligence Agency.</Text>
+			<Text>제철소를 대체하는 영국의 고유 건물입니다. 제철소의 보너스에 더해, 화이트 타워는 경찰대와 성, 무기고를 강화하고 걸작 예술품을 포함합니다. 공격적 또는 방어적 스파이 액션에 보너스를 국가 정보원보다 일찍 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_WORK_THE_CROWN_JEWELS_QUOTE">
 			<Text>"천만에! 바이슨 1달러가 곧[NEWLINE] 영국의 5파운드와 맞먹게 될거야[NEWLINE] 내가 영국 여왕을 납치하고 나면...[NEWLINE]영국 은행은 그걸 환율 시세로 잡을수 밖에 없을걸"[NEWLINE]-M. 바이슨</Text>
@@ -659,13 +659,13 @@
 			<Text>공성 주조 공장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SIEGE_WORKSHOP_TEXT">
-			<Text>A foundry is a factory that produces metal castings. Metals are cast into shapes by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. The most common metals processed are aluminium and cast iron. However, other metals, such as bronze, brass, steel, magnesium, and zinc, are also used to produce castings in foundries. In this process, parts of desired shapes and sizes can be formed. In the context of war, foundries were essential to the production of cannonry and other essential siege equipment.</Text>
+			<Text>주조 공장은 금속 주물을 생산하는 공장입니다. 금속은 액체로 녹여 금형에 부은 다음 금속이 냉각되면서 굳어진 후 금형 재료나 주물을 제거함으로써 모양으로 주조됩니다. 가장 일반적으로 가공되는 금속은 알루미늄과 주철입니다. 그러나 청동, 황동, 강철, 마그네슘 및 아연과 같은 다른 금속도 주조 공장에서 주물을 생산하는 데 사용됩니다. 이 과정에서 원하는 모양과 크기의 부품이 형성될 수 있습니다. 전쟁 상황에서 주조 공장은 대포 및 기타 필수 포위 장비 생산에 필수적이었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_HELP">
 			<Text>대장간을 대체하는 오스만의 고유 건물입니다. 광산의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]일제 사격[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_STRATEGY">
-			<Text>Unique Ottoman replacement for the Forge. Generates extra Science from producing military units, produces Siege units much more quickly than normal, and grants them the [COLOR_POSITIVE_TEXT]Volley[ENDCOLOR] Promotion for free. Use these attributes to build a massive force of artillery to take down an enemy's walls and conquer their lands!</Text>
+			<Text>대장간을 대체하는 오스만의 고유 건물입니다. 군사 유닛을 생산하면 추가 과학을 제공하고, 공성 유닛을 매우 빠르게 생산하며 공성 유닛에 [COLOR_POSITIVE_TEXT]일제 사격[ENDCOLOR] 승급을 부여합니다. 적의 방어벽을 무너뜨리고 영토를 정복하기 위해 대규모 포병력을 구축하려면 공성 주조 공장을 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_AMPHITHEATER_NATIONAL">
 			<Text>국가서사시</Text>
@@ -681,49 +681,49 @@
 			<Text>전도관</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MISSION_TEXT">
-			<Text>According to the Catholic Church, Missions are religious communities devoted to teaching, tending, and helping the local populace, thus supporting Christ’s ideals. In practice, however, the missions were devoted to converting the locals and then “civilizing” them through cultural assimilation. The Spanish missions serve as the traditional template, self-supporting enclaves with churches, dormitories, workrooms, and schools. In places these were even fortified, ready to defend themselves from opposition. Most of the missions in the Americas, Asia, and Africa were administered by religious orders such as the Franciscans, Jesuits, Dominicans, and Augustinians rather than the Church itself, but the effects were the same. Missions often served as a nucleus around which Spanish, French, and Portuguese colonizing efforts could coalesce.</Text>
+			<Text>가톨릭 교회에 따르면 선교회는 지역 주민들을 가르치고 보살피고 돕는 데 헌신하는 종교 공동체로서 그리스도의 이상을 지지합니다. 그러나, 실제로, 그 임무는 지역 주민들을 개종시키고 문화적 동화를 통해 그들을 "문명화"하는 데 전념했습니다. 스페인 선교단은 교회, 기숙사, 작업실 및 학교가 있는 자급자족하는 전통적인 본보기 역할을 합니다. 어떤 곳에서는 심지어 요새화되어 있었고, 반격으로부터 스스로를 방어할 준비가 되어 있었습니다. 미주, 아시아, 아프리카의 선교는 대부분 교회 자체보다는 프란치스코회, 예수회, 도미니카회, 아우구스티누스 등 종교 교단에 의해 이뤄졌지만 효과는 마찬가지였습니다. 선교는 종종 스페인, 프랑스, 포르투갈의 식민지화 노력이 합쳐질 수 있는 핵심 역할을 했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MISSION_HELP">
 			<Text>수비적인 종교 건물입니다. 스페인 콩기스타도르로 정착한 도시에서만 신앙으로 구매할 수 있습니다.[NEWLINE][NEWLINE]하시엔다가 [ICON_PEACE] +1 신앙을 얻습니다. 건설을 완료하면, 이 도시를 [ICON_CAPITAL] 수도의 대중 종교로 개종합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MISSION_STRATEGY">
-			<Text>A Mission is only available for purchase in cities settled by a Spanish Conquistador. They give a small amount of Faith and Defense and boost the yields of nearby Haciendas. The Mission performs a missionary spread action when it is built, converting it to the Majority Religion in your Capital.</Text>
+			<Text>전도관은 콩기스타도르로 개척한 도시에서만 구매 가능한 건물입니다. 작은 신앙 보너스와 도시 방어력 보너스를 주고 주변 하시엔다의 산출량을 증가시킵니다. 전도관은 건설될 때 선교를 수행해 도시의 종교를 수도의 종교로 개종합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES">
 			<Text>룬스톤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_PEDIA">
-			<Text>A runestone is typically a raised stone with a runic inscription, but the term can also be applied to inscriptions on boulders and on bedrock. The tradition began in the 4th century and lasted into the 12th century, but most of the runestones date from the late Viking Age. Most runestones are located in Scandinavia, but there are also scattered runestones in locations that were visited by Norsemen during the Viking Age. Runestones are often memorials to dead men. Runestones were usually brightly coloured when erected, though this is no longer evident as the colour has worn off.</Text>
+			<Text>룬스톤은 일반적으로 룬 문자가 새겨진 돌출된 돌이지만, 이 용어는 바위와 암반에 새겨진 글에도 적용될 수 있습니다. 그 전통은 4세기에 시작되었고 12세기까지 지속되었지만, 대부분의 룬돌들은 바이킹 시대 후기로 거슬러 올라갑니다. 대부분의 룬돌은 스칸디나비아에 있지만, 바이킹 시대에 노르드인들이 방문했던 장소에도 산재해 있습니다. 룬돌은 종종 죽은 사람의 기념물입니다. 룬돌은 세울 때 대개 밝은 색을 띠었지만, 색이 닳아 더 이상 뚜렷하지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_HELP">
 			<Text>등대를 대체하는 덴마크의 고유 건물입니다. 이 도시에서 생산하는 유닛이 타일을 약탈할 때 [ICON_GOLD]골드 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 지상 및 해상 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]도시 주변 해양 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 이 도시에서 출발하는 국내 [ICON_TURNS_REMAINING]교역로의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_CONNECTED]육상으로 연결되지 않은 도시와 [ICON_CAPITAL]수도를 [ICON_CONNECTED]해안 도시로 연결합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_STRATEGY">
-			<Text>Unique Danish replacement for the Lighthouse. In addition to the Lighthouse's bonuses, Runestones produce [ICON_CULTURE] Culture and [ICON_GOLD] Gold when units from this City pillage tiles (Roads and Railroads do not count), generates more Food from ocean tiles, and increases production of melee land and naval units. Unlike the Lighthouse, the City does not have to be built on the coast.</Text>
+			<Text>등대를 대체하는 덴마크의 고유 건물입니다. 기존 등대의 보너스에 추가로 룬스톤은 이 도시에서 생산된 유닛이 약탈할 때 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드를 얻습니다. (도로와 철도 제외) 해양 타일에 추가 식량을 생성하고, 근접과 해양 유닛의 생산을 가속시킵니다. 등대와는 다르게, 해안 도시가 아니어도 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON">
 			<Text>서원</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SEOWON_TEXT">
-			<Text>Seowon were the most common educational institution of Korea during the mid- to late Joseon Dynasty. They were private institutions, and combined the functions of a Confucian shrine and a preparatory school. In educational terms, the seowon were primarily occupied with preparing students for the national civil service examinations. In most cases, seowon served only pupils of the aristocratic yangban class.</Text>
+			<Text>서원은 조선 중후기에 한국에서 가장 흔한 교육 기관이었습니다. 그들은 사립 기관이었고, 유교 사당과 예비 학교의 기능을 결합했습니다. 교육적인 측면에서, 서원은 주로 국가 공무원 시험을 준비하는 학생들로 채워졌습니다. 대부분의 경우, 서원은 귀족 양반 계급의 학생들만 섬겼습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_HELP">
 			<Text>대학을 대체하는 한국의 고유 건물입니다. 도시 주변 정글 타일과 설원 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PRODUCTION]생산 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[ICON_CITIZEN]시민이 증가할 때 현재 [ICON_RESEARCH]과학 산출량의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]를 즉시 제공합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_STRATEGY">
-			<Text>Unique Korean replacement for the University. Generates more Science and Production than the University, generates Faith, and is available earlier. The increased Great Person rate will help you produce Great People more quickly, thus helping you to maximize Korea's Unique Ability.</Text>
+			<Text>대학을 대체하는 한국의 고유 건물입니다. 대학보다 과학과 생산을 더 많이 생산하고, 신앙을 제공하며, 더 이른 시기에 건설할 수 있습니다. 위인 생성 속도를 증가시켜 위인을 더 많이 생산하도록 하고, 한국의 고유 능력에 도움을 줍니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_YURT">
 			<Text>게르</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_YURT_TEXT">
-			<Text>A yurt, called a 'Ger' by Mongolians, is a portable, bent dwelling structure traditionally used by nomads in the steppes of Central Asia as their home. The structure comprises a crown or compression wheel, usually steam bent, supported by roof ribs which are bent down at the end where they meet the lattice wall (again, steam bent). The top of the wall is prevented from spreading by means of a tension band which opposes the force of the roof ribs. The structure is usually covered by layers of fabric and sheep's wool felt for insulation and weatherproofing. The traditional decoration within a yurt is primarily pattern based. These patterns are generally not according to taste, but are derived from sacred ornaments with certain symbolism. Symbols representing strength are among the most common, including the khas (swastika) and four powerful beasts (lion, tiger, garuda and dragon), as well as stylized representations of the five elements (fire, water, earth, metal, and wood), considered to be the fundamental, unchanging elements of the cosmos. Such patterns are commonly used in the home with the belief that they will bring strength and offer protection.</Text>
+			<Text>몽골 사람들에 의해 '게르'라고 불리는 유르트는 중앙아시아 스텝의 유목민들에 의해 전통적으로 그들의 보금자리로 사용되는 이동 가능하고 구부러진 주거 구조입니다. 구조는 크라운 또는 압축 휠(보통 증기가 휘어짐)로 구성되며, 루프 리브에 의해 지지되며, 루프 리브는 격자 벽과 만나는 단부에서 아래로 휘어집니다(다시 증기가 휘어짐). 루프 리브의 힘에 대항하는 장력 밴드를 사용하여 벽 상단이 퍼지는 것을 방지합니다. 그 구조물은 보통 단열과 내후성을 위해 천과 양의 털 펠트 층으로 덮여 있습니다. 유르트의 전통적인 장식은 주로 패턴에 기반합니다. 이러한 문양은 일반적으로 취향에 따라 만들어진 것이 아니라, 특정한 상징성을 지닌 신성한 장신구에서 파생된 것입니다. 힘을 나타내는 상징은 카(사자, 호랑이, 가루다, 용)와 다섯 가지 요소(불, 물, 흙, 금속, 나무)의 양식화된 표현뿐만 아니라 우주의 기본적이고 변하지 않는 요소라고 여겨지는 카(사자, 호랑이, 가루다, 용)를 포함한 가장 일반적인 것들 중 하나입니다. 이러한 패턴은 힘을 가져오고 보호를 제공한다는 믿음과 함께 가정에서 일반적으로 사용됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_YURT_HELP">
 			<Text>오두막을 대체하는 몽골의 고유 건물입니다. 야영지에서 [ICON_PRODUCTION] 생산을 +1 얻습니다. 도시 영역이 확장될 때 [ICON_FOOD] 식량을 5 얻습니다 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR].[NEWLINE][NEWLINE][ICON_RES_COW] 소: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_SHEEP] 양: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_HORSE] 말: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_DEER] 사슴: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_BISON] 들소: [ICON_FOOD] 식량 +1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_YURT_STRATEGY">
-			<Text>Unique Mongolian replacement for the Lodge. In addition to the Lodge's bonuses, the Ger provides Food from livestock. It also provides a small amount of Faith, and has no maintenance. Build Gers in your cities to maximize their growth, and to get an early Pantheon.</Text>
+			<Text>오두막을 대체하는 몽골의 고유 건물입니다. 오두막의 보너스에 더해, 게르는 가축에도 식량 보너스를 제공합니다. 또한 약간의 신앙을 제공하고, 유지비가 없습니다. 게르를 지어 도시의 성장을 최대화하고 빠르게 종교관을 얻으십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_BUILDING_PARTHENON">
 			<Text>고대의 전당</Text>
@@ -750,22 +750,22 @@
 			<Text>에르미타쥬 박물관을 대체하는 미국의 고유 건물입니다.[NEWLINE][NEWLINE]도시의 4 [ICON_CITIZEN]시민당 +1 [ICON_CULTURE] 문화를 얻습니다. 도시의 [ICON_CULTURE]문화가 +10% 증가합니다.[NEWLINE][NEWLINE][ICON_CULTURE] 정책 채택에 필요한 문화가 5% 감소합니다. [COLOR_POSITIVE_TEXT]후버 댐[ENDCOLOR], [COLOR_POSITIVE_TEXT]미국 육군사관학교[ENDCOLOR], [COLOR_POSITIVE_TEXT]스미스소니언 협회[ENDCOLOR]를 [COLOR_CYAN]현대 시대[ENDCOLOR]에 지을 수 있습니다.[NEWLINE][NEWLINE]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [ICON_HAPPINESS_3] [ICON_CULTURE]무료로 인한 불행이 10% 감소합니다.[NEWLINE][NEWLINE] 문명에 도시가 많을수록 건설 비용이 증가합니다.완성하면 +3 [ICON_CULTURE]문화와 +3 [ICON_GOLD]골드를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_TEXT">
-			<Text>Originally constructed as the state house of Pennsylvannia, Independence Hall is where the United States Declaration of Independence and Constitution were debated and formally adopted, making it the birthplace of the American nation. Today, Independence Hall is a museum and the centre of the Independence National Park in the heart of Philadelphia.</Text>
+			<Text>원래 펜실베니아 주의 저택으로 지어진 독립기념관은 미국 독립 선언과 헌법 선언이 논의되고 공식적으로 채택되어 미국의 탄생지가 된 곳입니다. 오늘날 독립기념관은 박물관이자 필라델피아 중심부에 있는 독립국립공원의 중심입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_STRATEGY">
-			<Text>Independence Hall is the unique Hermitage for America. In addition to the bonuses of the Hermitage, Independence Hall reduces the cost of future policies and unlocks the ability for American to build 1 of 3 unique wonders in the Modern Era.</Text>
+			<Text>독립기념관은 에르미타쥬 박물관을 대체하는 미국의 고유 건물입니다. 에르미타쥬 박물관의 보너스에 더해, 독립기념관은 미래 정책의 비용을 감소시키고 현대 시대에 세 개의 미국의 고유 불가사의 중 하나를 건설할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOMA">
 			<Text>스미스소니언 협회</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOMA_TEXT">
-			<Text>The Smithsonian Institution, established in 1846 "for the increase and diffusion of knowledge," is a group of museums and research centers administered by the Government of the United States. Originally organized as the "United States National Museum," that name ceased to exist as an administrative entity in 1967. Termed "the nation's attic" for its eclectic holdings of 138 million items, the Institution's nineteen museums, nine research centers, and zoo include historical and architectural landmarks, mostly located in the District of Columbia. Additional facilities are located in Arizona, Maryland, Massachusetts, New York City, Virginia, and Panama. A further 170 museums are Smithsonian Affiliates. The Institution's thirty million annual visitors are admitted without charge. Funding comes from the Institution's endowment, private and corporate contributions, membership dues, government support, as well as retail, concession and licensing revenues. Institution publications include Smithsonian and Air and Space magazines.</Text>
+			<Text>1846년 "지식의 증가와 확산을 위해" 설립된 스미스소니언 협회는 미국 정부에 의해 운영되는 박물관과 연구 센터들의 모임입니다. 원래 "미국 국립 박물관"으로 조직된 그 이름은 1967년에 행정 기관으로서 존재하지 않게 되었습니다. 1억 3천 8백만 점의 다양한 소장품들로 인해 "국가의 다락방"이라고 불리는 이 연구소의 19개의 박물관, 9개의 연구 센터, 그리고 동물원은 대부분 콜롬비아 특별구에 위치한 역사적, 건축적 랜드마크를 포함합니다. 애리조나, 메릴랜드, 매사추세츠, 뉴욕, 버지니아 및 파나마에 추가 시설이 있습니다. 추가로 170개의 박물관이 스미스소니언 제휴사입니다. 그 기관의 연간 3천만 명의 방문객은 무료로 입장할 수 있습니다. 기금은 기관의 기부금, 개인 및 기업 기부금, 회비, 정부 지원, 소매, 양허 및 라이센스 수익에서 나옵니다. 기관 간행물에는 스미스소니언과 항공 우주 잡지가 포함되어 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_SMITHSONIAN_HELP">
 			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해야 합니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 박물관과 연구소에서 +5 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학을 얻고, 모든 세계 불가사의에서 +2 [ICON_CULTURE] 문화와 [ICON_RESEARCH]과학을 제공합니다. 모든 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 박물관을 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]문화가 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_SMITHSONIAN_STRATEGY">
-			<Text>The Smithsonian Institute is one of three mutually exclusive wonders that America can build after it has completed Independence Hall. It gives major bonuses towards culture and scienge generation on empire, giving powerful theming for Great Artifacts, and boosting the power of Museums.</Text>
+			<Text>스미스소니언 협회는 미국이 독립기념관을 완성하면 지을 수 있는 세 불가사의 중 하나입니다. 제국의 문화와 과학에 큰 보너스를 제공하고, 박물관과 유물을 강화합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT">
 			<Text>미국 육군사관학교</Text>
@@ -774,22 +774,22 @@
 			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해야 합니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 사관 학교와 군사 기지에서 +5 [ICON_PRODUCTION]생산과 [ICON_RESEARCH]과학을 제공하고, 모든 세계 불가사의에서 +2 [ICON_PRODUCTION] 생산과 [ICON_RESEARCH]과학을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]무료[ENDCOLOR]로 야포 3기와 3[ICON_RES_IRON]철을 제공합니다.모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]과학이 증가합니다.[NEWLINE][NEWLINE]모든 공성 유닛이 [COLOR_POSITIVE_TEXT]광역 피해[ENDCOLOR] 진급을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_BUILDINGS_AMERICA_WESTPOINT_TEXT">
-			<Text>The United States Military Academy, informally known as West Point, is the oldest service academy, educating cadets to become commissioned officers for the United States Army. The academy is notable for producing some of the most renowned generals in modern history in addition to numerous heads of state, both foreign and domestic. The campus is the oldest continuously operating American army post, originally built as a river fort to overlook and control shipping along the Hudson River. As a result, the campus is a national landmark, dotted with numerous monuments and statues representing its long and storied history.</Text>
+			<Text>비공식적으로 웨스트포인트로 알려진 미국 육군사관학교는 생도들이 미국 육군의 임관 장교가 되도록 교육하는 가장 오래된 사관학교입니다. 이 아카데미는 외국과 국내의 수많은 국가 원수와 더불어 현대사에서 가장 유명한 장군들을 배출한 것으로 유명합니다. 이 캠퍼스는 허드슨 강을 따라 항해하는 것을 내려다보고 통제하기 위해 강 요새로 지어진, 지속적으로 운영되는 가장 오래된 미군 기지입니다. 결과적으로, 그 캠퍼스는 길고 오래된 역사를 대표하는 수많은 기념물과 조각상들로 점철된 국가적인 랜드마크입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT_STRATEGY">
-			<Text>West Point is one of three mutually exclusive wonders that America can build after it has completed Independence Hall. It gives major bonuses towards science and your siege units.</Text>
+			<Text>미국 육군사관학교는 미국이 독립기념관을 완성하면 지을 수 있는 세 불가사의 중 하나입니다.과학과 공성 유닛에 큰 보너스를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_HOOVERDAM">
 			<Text>후버 댐</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_HOOVERDAM_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해야 합니다. 오직 강 옆에 있는 도시에서만 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 공장과 경기장에서 +5 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공하고, 모든 세계 불가사의에서 +2 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공합니다.[NEWLINE][NEWLINE]이 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 수력 발전소를 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]생산이 증가합니다.[NEWLINE][NEWLINE]세계 불가사의, 자연 불가사의에서 [ICON_CULTURE]문화가 25% 증가하고 그만큼  [ICON_TOURISM관광을 얻습니다. All [ICON_INTERNATIONAL_TRADE] 교역이 25% 빨리 완성됩니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해야 합니다. 오직 강 옆에 있는 도시에서만 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 공장과 경기장에서 +5 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공하고, 모든 세계 불가사의에서 +2 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공합니다.[NEWLINE][NEWLINE]이 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 수력 발전소를 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]생산이 증가합니다.[NEWLINE][NEWLINE]세계 불가사의, 자연 불가사의에서 [ICON_CULTURE]문화가 25% 증가하고 그만큼  [ICON_TOURISM관광을 얻습니다. [ICON_INTERNATIONAL_TRADE] 교역이 25% 빨리 완성됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_BUILDINGS_AMERICA_HOOVERDAM_TEXT">
-			<Text>One of the most ambitious and largest public works projects in American history, the Hoover Dam is a marvel of Modern innovation. At the time of its construction, the Hoover Dam was the largest concrete structure in the world, using ambitious and experimental techniques to pour and cure over 3 million cubic meters of concrete, one inch at a time. the dam impounds Lake Mead, the largest man-made reservoir in the United States, regulates flooding of the Colorado river. Its generators provide power for Nevada, Arizona, and California, and its crest was incorporated into US Route 93, making it a major thoroughfare and tourist attraction.</Text>
+			<Text>미국 역사상 가장 야심차고 가장 큰 공공 사업 중 하나인 후버 댐은 현대 혁신의 경이입니다. 후버 댐은 건설 당시 세계에서 가장 큰 콘크리트 구조물이었고, 한번에 1인치씩 3백만 입방미터가 넘는 콘크리트를 붓고 경화시키는 야심차고 실험적인 기술을 사용했습니다. 미국 최대의 인공 저수지인 미드 호수가 콜로라도 강의 범람을 통제하고 있습니다. 발전기는 네바다, 애리조나, 캘리포니아에 전력을 공급하고, 그 꼭대기는 미국 93번 국도에 통합되어 주요 도로이자 관광 명소가 되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_HOOVERDAM_STRATEGY">
-			<Text>The Hoover Dam is one of three mutually exclusive wonders that America can build after it has completed Independence Hall. It gives major bonuses towards a production and Cultural Victory, increasing the tourism of Wonders and Culture from tiles. The Hoover Dam also halves the time for Trade Routes to complete, greatly increasing your tourism and franchise production towards civilizations you trade with.</Text>
+			<Text>후버 댐은 미국이 독립기념관을 완성하면 지을 수 있는 세 불가사의 중 하나입니다. 생산과 문화 승리에 큰 보너스를 제공하고, 불가사의의 관광과 타일의 문화를 증가시킵니다. 후버 댐은 교역로의 시간을 단축하고, 당신이 거래하는 문명을 향한 당신의 관광과 프랜차이즈 생산을 크게 증가시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_INDEPENDENCEHALL">
 			<Text>국보</Text>

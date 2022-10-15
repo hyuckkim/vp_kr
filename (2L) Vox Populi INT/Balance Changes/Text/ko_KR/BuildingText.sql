@@ -244,7 +244,7 @@ SET Text = '모든 도시가 [ICON_PRODUCTION]생산을 다른 산출량으로 �
 WHERE Tag = 'TXT_KEY_BUILDING_SOLAR_PLANT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Solar Power is an Atomic-era electrical system which can only be constructed in a city near a Desert. The Solar Plant increases the [ICON_PRODUCTION] Production and [ICON_RESEARCH] Science output of every land tile the city works, but provides triple yields on Desert tiles. The Solar Plant also increases the efficiency of working processes.'
+SET Text = '태양열 발전소는 사막 근처에만 건설할 수 있는 원자력 시대 전력 건물입니다. 태양열 발전소는 모든 지상 타일에 [ICON_PRODUCTION] 생산과 [ICON_RESEARCH] 과학을 제공하며, 사막에서는 세 배로 제공합니다. 태양열 발전소는 생산 작업의 효율을 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_SOLAR_PLANT_STRATEGY';
 
 UPDATE Language_ko_KR
