@@ -87,7 +87,7 @@
 			<Text>도시의 생산과 골드를 크게 증가시키는 산업 시대 건물입니다. 수도와의 직접적인 철도 연결을 필요로 합니다 (항만 연결은 포함하지 않습니다!) 따라서 이 건물을 활용하려면 먼저 철도 인프라에 투자해아 합니다. 항구와 같은 도시에 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRAINSTATION_HELP">
-			<Text>이 도시에서 출발하는 국내 [ICON_TURNS_REMAINING]교역로의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_CAPITAL]수도와 [COLOR_YELLOW]철도로 [ICON_CITY_CONNECTED]연결된 도시[ENDCOLOR]에만 건설할 수 있습니다. [ICON_RES_COAL]석탄 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. 도시에 [COLOR_NEGATIVE_TEXT]항구[ENDCOLOR]가 없어야 건설할 수 있습니다.</Text>
+			<Text>이 도시에서 출발하는 국내 [ICON_TURNS_REMAINING]교역로의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_CAPITAL]수도와 [COLOR_YELLOW]철도 또는 바다로 [ICON_CITY_CONNECTED]연결된 도시[ENDCOLOR]에만 건설할 수 있습니다. [ICON_RES_COAL]석탄 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. 도시에 [COLOR_NEGATIVE_TEXT]항구[ENDCOLOR]가 없어야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_BROADCAST_TOWER_NATIONAL">
 			<Text>KCIV 101.5FM - #1 클래식 JAM</Text>

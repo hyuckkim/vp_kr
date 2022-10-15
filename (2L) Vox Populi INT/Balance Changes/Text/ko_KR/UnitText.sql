@@ -216,35 +216,6 @@
 	SET Text = '적에서 2타일 떨어져 반격 없이 공격할 수 있는 고대 시대의 원거리 유닛입니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHER';
 
-
-	UPDATE Language_ko_KR
-	SET Text = '와라칵'
-	WHERE Tag = 'TXT_KEY_UNIT_INCAN_SLINGER';
-
-	UPDATE Language_ko_KR
-	SET Text = '투석병을 대체하는 잉카의 고유 유닛입니다. 적에게 멍함 효과를 부여하는 [COLOR_PLAYER_PURPLE]손상 타격[ENDCOLOR] 승급을 보유합니다.'
-	WHERE Tag = 'TXT_KEY_CIV5_INCA_SLINGER_HELP';
-
-	UPDATE Language_ko_KR
-	SET Text = 'The Waraq''Ak is an Ancient Era ranged infantry Unit that can strike foes from afar. This Incan Unique Unit can daze enemy units; use it to harass your foes and take down Barbarian camps quickly.'
-	WHERE Tag = 'TXT_KEY_CIV5_INCA_SLINGER_STRATEGY';
-
-	UPDATE Language_ko_KR
-	SET Text = '궁병을 대체하는 바빌론의 고유 유닛입니다. 일반 궁병보다 더 강력하고 근접 공격을 더 잘 견뎌냅니다. [COLOR_PLAYER_PURPLE]간접 사격[ENDCOLOR] 승급을 보유합니다.'
-	WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_HELP';
-
-	UPDATE Language_ko_KR
-	SET Text = 'The Bowman is the Babylonian Unique Unit, replacing the Archer. This Unit is defensively stronger than the Archer, allowing placement in the front line. The Bowman''s improved combat prowess helps ameliorate any concern that it may be quickly overrun.'
-	WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_STRATEGY';
-
-	UPDATE Language_ko_KR
-	SET Text = '합성궁병을 대체하는 마야의 고유 유닛입니다. 합성궁병보다 더 이른 시기에 생산할 수 있으며 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
-	WHERE Tag = 'TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST';
-
-	UPDATE Language_ko_KR
-	SET Text = 'The Atlatlist is the Mayan unique unit, replacing the Composite Bowman. Atlatlists are cheaper and available earlier than Composite Bowmen, and gain bonus damage from attacking wounded units. This advantage allows your archers to engage in hit-and-run skirmish tactics.'
-	WHERE Tag = 'TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY';
-
 	-- Melee
 
 	UPDATE Language_ko_KR

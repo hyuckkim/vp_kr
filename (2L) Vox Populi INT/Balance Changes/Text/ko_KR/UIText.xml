@@ -938,6 +938,9 @@
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_MINORITY">
 			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_RELIGION]종교 분쟁에서 획득</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_PUPPET_CITIES_SPECIALISTS">
+			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_PUPPET]괴뢰 도시의 [ICON_URBANIZATION]도시화에서 획득</Text>
+		</Row>
 
 		<!-- Economic Overview -->
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS">
