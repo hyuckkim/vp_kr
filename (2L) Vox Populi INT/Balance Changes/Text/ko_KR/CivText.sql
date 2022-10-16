@@ -1024,7 +1024,7 @@ SET Text = '르네상스 시대의 강력한 근접 유닛으로 연약한 원�
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_TERCIO_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'This Tercio represents the advent of early gunpowder (''Pike and Shot'') tactics during the Renaissance Era. Fights at double-strength against mounted units, making them an effective counter to Lancers, as well as any Knights still lingering on the battlefield.'
+SET Text = '테르시오는 르네상스 시대의 초기 화약 유닛입니다. (파이크와 총) 기마 유닛 상대로 두배의 전투력으로 전투해 창기병과 전장에 남아있는 기사에게 효과적입니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY';
 
 UPDATE Language_ko_KR
