@@ -49,7 +49,7 @@
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_GENERAL]위대한 장군은 특별한 [COLOR_POSITIVE_TEXT]성채[ENDCOLOR] 시설을 건설할 수 있습니다. 성채는 해당 타일 위에 주둔한 유닛에 큰 방어력 보너스를 제공하며 인접한 적 유닛에 피해를 주고 인접한 주변 타일을 자신의 영토로 확보할 수 있고 군사 유닛 보급 한도를 2 증가시킵니다. 또한 위대한 장군은 2타일 내의 모든 아군 지상 유닛에 [ICON_STRENGTH][COLOR_POSITIVE_TEXT]전투력 보너스[ENDCOLOR]를 15% 제공합니다.[NEWLINE][NEWLINE]성채를 건설하면 위대한 장군은 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY';
 
 	-- Inquisitor
-	UPDATE Language_ko_KR SET Text = 'Can be purchased with [ICON_PEACE] Faith in any city with a majority Religion that has been enhanced. They can remove other religions from your cities (expending the Inquisitor) or be placed inside a city to reduce Missionary and Prophet spread power in that City by 50%. Removing Heresy causes 1 turn of [ICON_RESISTANCE] Resistance in the City.' WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
+	UPDATE Language_ko_KR SET Text = '[ICON_PEACE]신앙을 사용해서 대중 종교가 강화된 도시 어디에서나 구매할 수 있습니다. 플레이어 도시에서 다른 종교를 제거할 수 있으며(이단심문관 사용) 이단 심문관을 도시에 배치하면 다른 종교의 전파 속도를 50% 감소시킬 수 있습니다. 이단 제거는 도시를 한 턴 동안 [ICON_RESISTANCE] 저항 상태로 만듭니다.' WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 	
 	UPDATE Language_ko_KR SET Text = '도시에 퍼진 다른 종교를 제거하는 유닛입니다. 도시에 주둔한 이단심문관은 다른 종교의 [ICON_MISSIONARY]선교사와 [ICON_PROPHET]위대한 선지자의 전도력을 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소시킵니다. 이단 제거는 해당 도시에 1턴 동안 [ICON_RESISTANCE]저항을 발생시킵니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙으로만 구입할 수 있습니다.' WHERE Tag = 'TXT_KEY_UNIT_HELP_INQUISITOR';
 
@@ -63,7 +63,7 @@
 	WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CUSTOMS_HOUSE_TEXT';
 
 	UPDATE Language_ko_KR
-	SET Text = 'You can expend a Great Merchant to create a Town. When worked, a Town generates a lot of gold and food per turn for its city, and increases the "We Love the King Day" duration from Great Merchant Trade Missions.[NEWLINE][NEWLINE]Towns gain additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production if built on a Road or Railroad that connects two owned Cities[NEWLINE][NEWLINE]Receive additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production (+1 pre-Industrial Era, +2 Industrial Era or later) if a Trade Route, either internal or international, passes over this Town.'
+	SET Text = '위대한 상인을 투입하여 소도시를 만들 수 있습니다. 작업하면, 소도시는 도시를 위해 한 번에 많은 골드와 식량을 생산하고, 위대한 상인 무역 임무의 국왕 경축일 기간을 늘립니다.[NEWLINE][NEWLINE]두 소유 도시를 연결하는 도로 또는 철도에 건설되면 소도시는 [ICON_GOLD] 골드 및 [ICON_PRODUCTION] 생산을 추가로 획득합니다.[NEWLINE][NEWLINE]내부 또는 국제 교역로가 이 도시를 통과하는 경우 [ICON_GOLD] 골드 및 [ICON_PRODUCTION] 생산(+1 산업화 시대 이전, +2 산업화 시대 이후)을 추가로 받을 수 있습니다.'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_CUSTOMSHOUSE_HEADING4_BODY';
 
 	UPDATE Language_ko_KR
@@ -119,7 +119,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_ATOMIC_BOMB';
 	
 	UPDATE Language_ko_KR
-	SET Text = 'An Atomic Bomb is an extremely powerful unit. The Atomic Bomb can be based in a player-owned city or aboard a carrier. It can move from base to base or attack a target within its range of 6 tiles. When it detonates, an Atomic Bomb will damage or possibly destroy units, and cities will be severely damaged, within its blast radius of 2 tiles. It is automatically destroyed when it attacks. See the rules on Nuclear Weapons for more details.'
+	SET Text = '원자폭탄은 매우 강력한 유닛입니다. 원자폭탄은 플레이어가 소유한 도시나 항공모함에 주둔할 수 있습니다. 기지에서 기지로 이동하거나 대상 근처 6개의 타일을 공격할 수 있습니다. 원자 폭탄이 폭발하면 유닛이 손상되거나 파괴될 수 있으며, 도시들은 폭발 반경 2 타일 내에 있다면 심각한 피해를 입을 것입니다. 공격하면 자동으로 파괴됩니다. 자세한 내용은 핵무기에 관한 규칙을 참조하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_ATOMIC_BOMB_STRATEGY';
 	
 	-- Nuclear Missile
@@ -137,11 +137,11 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_WWI_BOMBER';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Bomber is an early air unit. It is effective against ground targets, less so against naval targets, and it is quite vulnerable to enemy aircraft. The Bomber can be based on a player-owned city or aboard a carrier. It can move from base to base and perform missions within its range. Use it to attack enemy units and cities. When possible, send in triplanes or fighters first to "use up" enemy anti-aircraft defenses for that turn. See the rules on Aircraft for more information.'
+	SET Text = '폭격기는 초기 비행 유닛입니다. 지상 목표물에는 효과적이며, 해군 목표물에는 효과적이지 않으며, 적 항공기에 상당히 취약합니다. 폭격기는 플레이어가 소유한 도시에 주둔하거나 항공모함에 탑승할 수 있습니다. 그것은 기지 사이를 이동할 수 있고 범위 내에서 임무를 수행할 수 있습니다. 적의 부대와 도시를 공격할 때 사용합니다. 가능하면 먼저 1차 세계대전 전투기나 전투기를 보내 적의 대공 방어선을 "소모"하도록 하십시오. 자세한 내용은 항공기 규칙을 참조하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_WWI_BOMBER_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Fighter is a moderately-powerful air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from city to city (or carrier) and can perform "missions" within its range. Use fighters to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. Fighters are especially effective against enemy helicopters. See the rules on Aircraft for more information.'
+	SET Text = '전투기는 적당한 힘을 가진 비행 유닛입니다. 그것은 당신이 소유하거나 항공모함에 탑승하는 모든 도시에 주둔할 수 있습니다. 도시에서 도시로 이동할 수 있으며 범위 내에서 "작전"을 수행할 수 있습니다. 전투기를 사용하여 적의 항공기와 지상 부대를 공격하고, 적의 위치를 정찰하며, 적의 공습으로부터 방어하십시오. 전투기는 특히 적의 헬리콥터에 대해 효과적입니다. 자세한 내용은 항공기 규칙을 참조하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_FIGHTER_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -149,7 +149,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_FIGHTER';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Jet Fighter is a powerful air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from base to base and can perform "missions" within its range. Use Jet Fighters to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. Jet Fighters are especially effective against enemy helicopters. The Jet Fighter has the "air recon" ability, which means that everything within 6 tiles of its starting location is visible at the beginning of the turn. See the rules on Aircraft for more information.'
+	SET Text = '제트기는 강력한 비행 유닛입니다. 그것은 당신이 소유하거나 항공모함에 탑승하는 모든 도시에 주둔할 수 있습니다. 그것은 도시에서 도시로 이동할 수 있고 범위 내에서 "작전"을 수행할 수 있습니다. 제트 전투기를 사용하여 적의 항공기와 지상 부대를 공격하고, 적의 위치를 정찰하며, 적의 공습으로부터 방어하십시오. 제트 전투기는 특히 적의 헬리콥터에 대해 효과적입니다. 제트 전투기는 "공중 정찰" 기능을 가지고 있는데, 이것은 회전의 시작 부분에서 6개의 타일 안에 있는 모든 것을 볼 수 있다는 것을 의미합니다. 자세한 내용은 항공기 규칙을 참조하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_JET_FIGHTER_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -157,7 +157,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_JET_FIGHTER';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Triplane is an early air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from city to city (or carrier) and can perform "missions" within its range. Use triplanes to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. See the rules on Aircraft for more information.'
+	SET Text = '1차 세계대전 전투기는 초기 비행 유닛입니다. 그것은 당신이 소유하거나 항공모함에 탑승하는 모든 도시에 주둔할 수 있습니다. 도시에서 도시로 이동할 수 있으며 범위 내에서 "작전"을 수행할 수 있습니다. 1차 세계대전 전투기를 사용하여 적의 항공기와 지상 부대를 공격하고, 적의 위치를 정찰하며, 적의 공습으로부터 방어합니다. 자세한 내용은 항공기 규칙을 참조하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_TRIPLANE_STRATEGY';
 	
 	UPDATE Language_ko_KR
@@ -180,15 +180,15 @@
 
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Heavy Bomber is an air unit. It is effective against ground targets, less so against naval targets, and it is quite vulnerable to enemy aircraft. The Heavy Bomber can be based on a player-owned city or aboard a carrier. It can move from base to base and perform missions within its range. Use Bombers to attack enemy units and cities. When possible, send in fighters first to "use up" enemy anti-aircraft defenses for that turn. See the rules on Aircraft for more information.'
+	SET Text = '중폭격기는 비행 유닛입니다. 지상 목표물에는 효과적이며, 해군 목표물에는 효과적이지 않으며, 적 항공기에 상당히 취약합니다. 중폭격기는 플레이어가 소유한 도시에 주둔하거나 항공모함에 탑승할 수 있습니다. 그것은 기지 사이를 이동할 수 있고 범위 내에서 임무를 수행할 수 있습니다. 중폭격기를 사용하여 적의 부대와 도시를 공격하십시오. 가능하면 전투기를 먼저 투입하여 적의 대공 방어선을 "소모"하십시오. 자세한 내용은 항공기 규칙을 참조하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_BOMBER_STRATEGY';
 	
 	UPDATE Language_ko_KR
-	SET Text = ' The Stealth Bomber is an upgraded bomber, possessing increased range, a greater Ranged Combat Strength, and an increased ability to avoid enemy anti-aircraft and fighters. The Stealth Bomber has the "air recon" ability, which means that everything within 6 tiles of its starting location is visible at the beginning of the turn. See the rules on Aircraft for more information.'
+	SET Text = ' 스텔스 폭격기는 향상된 폭격기로, 사거리, 전투력, 적의 대공과 전투기를 피할 수 있는 능력을 갖추고 있습니다. 스텔스 폭격기는 "공중 정찰" 기능을 가지고 있는데, 이것은 턴 시작 부분에서 6개의 타일 안에 있는 모든 것을 볼 수 있다는 것을 의미합니다. 자세한 내용은 항공기 규칙을 참조하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_STEALTH_BOMBER_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Guided Missile is a one-shot unit which is destroyed when it attacks an enemy target. The Guided Missile may be based in a player-owned friendly city or aboard a nuclear submarine or missile cruiser. They may move from base to base or attack an enemy unit. See the rules on Missiles for more information.'
+	SET Text = '유도 미사일은 원샷 유닛으로 적의 표적을 공격할 때 파괴됩니다. 유도 미사일은 플레이어가 소유한 우호적인 도시에 기반을 두거나 핵잠수함 또는 미사일 순양함에 장착할 수 있습니다. 그들은 기지 사이를 이동하거나 적 부대를 공격할 수 있습니다. 자세한 내용은 항공기 규칙을 참조하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_GUIDED_MISSILE_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -200,8 +200,8 @@
 	INSERT INTO Language_ko_KR (Tag, Text)
 	VALUES
 		('TXT_KEY_UNIT_VP_SLINGER',				'투석병'),
-		('TXT_KEY_UNIT_VP_SLINGER_TEXT',		'Like most early weapon systems, the sling evolved from a tool for hunting game to one for killing people. Simply a pouch between two lengths of cord, the sling was used to swing a projectile – a stone, lump of lead, or anything else convenient – in an arc until it was launched. Although a thrown stone doesn’t have the lethality of an arrow or bullet, it can still do a lot of damage. If nothing else, a rain of well-aimed stones gives an enemy pause before rushing in. In addition, it wasn’t hard to find ammunition. With the exception of Australia, ancient slings have been found in archaeological digs all over the world. Slings are cheap, portable, and as the First Book of Samuel points out, a slinger can bring down even a Goliath...'),
-		('TXT_KEY_UNIT_VP_SLINGER_STRATEGY',	'Slingers are the first ranged unit available in the game. Although they lack damage and range, a Slinger can still prevent a barbarian encampment from healing, and gives you a cheap, early option for fighting off small waves of invading barbarians.'),
+		('TXT_KEY_UNIT_VP_SLINGER_TEXT',		'대부분의 초기 무기들과 마찬가지로, 슬링은 사냥을 위한 도구에서 사람을 죽이는 도구로 진화했습니다. 단순히 두 길이의 끈 사이에 있는 주머니인 슬링은 발사될 때까지 발사체(돌, 납 덩어리 또는 기타 편리한 것)를 호 모양으로 휘두르는 데 사용되었습니다. 비록 던져진 돌은 화살이나 총알처럼 치명적이지 않지만, 여전히 많은 피해를 줄 수 있습니다. 다른 건 몰라도, 잘 조준된 돌멩이의 비는 적에게 돌진하기 전에 잠시 멈추게 합니다. 게다가, 탄약을 찾는 것은 어렵지 않았습니다. 호주를 제외하고, 고대 슬링은 전 세계의 고고학 발굴에서 발견되었습니다. 새뮤얼의 첫 번째 책에서 지적했듯이 투석은 골리앗을 쓰러뜨릴 수 있습니다.'),
+		('TXT_KEY_UNIT_VP_SLINGER_STRATEGY',	'투석병은 게임 시작부터 사용할 수 있는 첫 원거리 유닛입니다. 비록 범위와 피해가 부족하지만, 야만인의 치유를 막을 수 있으며 야만인들을 막을 수 있는 저렴한 초기 옵션이 됩니다.'),
 		('TXT_KEY_UNIT_VP_SLINGER_HELP',		'게임 시작부터 사용할 수 있는 첫 원거리 유닛입니다.');
 
 	UPDATE Language_ko_KR
@@ -209,7 +209,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHER';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Archer is an early ranged unit. It is the first in the unit line to have 2 range, allowing it to initiate fights and keep away from melee attackers. Use archers to soften up stargets before a melee strike.'
+	SET Text = '궁수는 초기 원거리 유닛입니다. 유닛 중 처음으로 사거리가 2로 전투를 벌이면서 근접 유닛으로부터 떨어질 수 있습니다. 아치를 사용하여 근거리 공격 전에 목표물을 부드럽게 만드십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_ARCHER_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -219,7 +219,7 @@
 	-- Melee
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Spearman is the first melee unit available after the Warrior. It is more powerful than the Warrior, and gets a significant combat bonus against mounted units (Chariot Archer, Horsemen and so forth).'
+	SET Text = '창병은 전사 다음으로 사용할 수 있는 첫 근접 유닛입니다. 전사보다 강하고, 기마 유닛 상대로 눈에 띄게 강합니다. (전투 전차, 기마병 등)'
 	WHERE Tag = 'TXT_KEY_UNIT_SPEARMAN_STRATEGY';
 
 	-- Change Name of Great War Infantry/Bomber to be more 'generic'
@@ -228,7 +228,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_GREAT_WAR_INFANTRY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Rifleman is the basic Modern era combat unit. It is significantly stronger than its predecessor, the Fusilier.'
+	SET Text = '소총병은 현대 시대의 기본 근접 유닛입니다. 직전 근접 유닛인 수발총병보다 훨씬 강력합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_GREAT_WAR_INFANTRY_STRATEGY';
 
 	-- Musketman
@@ -242,7 +242,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSKETMAN';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Musketman is the first ranged gunpowder unit in the game, and it replaces all of the older ranged foot-soldier types - Crossbowmen, Archers, and the like. Because it is a ranged unit, it can attack an enemy that is up to two hexes away.'
+	SET Text = '머스킷병은 첫 원거리 화약 유닛입니다. 오래된 원거리 병종 - 석궁병, 궁병 등을 대체합니다. 원거리 유닛이므로 두 타일 너머를 공격할 수 있습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_MUSKETMAN_STRATEGY';
 
 	-- Borrowed for WWI Infantry - Fusiliers more fiting.
@@ -252,11 +252,11 @@
 	WHERE Tag = 'TXT_KEY_UNIT_RIFLEMAN';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Fusilier is the gunpowder unit following the Tercio. It is significantly more powerful than the Tercio, giving the army with the advanced units a big advantage over civs which have not yet upgraded to the new unit. Furthermore, as the first gunpowder melee unit, it comes equipped with promotions designed to help it hold and push the front lines of a fight.'
+	SET Text = '수발총병은 테르시오 다음의 화약 유닛입니다. 테르시오보다 눈에 띄게 강해 이 유닛으로 발전하지 못한 문명을 상대로 큰 이득을 얻습니다. 또한, 이 유닛은 첫 화약 유닛으로 싸움의 최전선을 밀고 나아가기 위한 새 승급 트리가 있습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_RIFLEMAN_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'Infantry is the basic Industrial era combat unit. It is significantly stronger than its predecessor, the Rifleman. Modern combat is increasingly complex, and on its own an Infantry unit is vulnerable to air, artillery and tank attack. When possible Infantry should be supported by artillery, tanks, and air (or anti-air) units.'
+	SET Text = '보병은 원자력 시대의 근접 윤닛입니다. 직전 근접 유닛인 소총병보다 훨씬 강력합니다. 하지만 현대 전투는 점점 더 복잡해지고 있으며, 보병 부대 자체는 공중, 포병 및 탱크 공격에 취약합니다. 가능한 경우 보병은 포병, 탱크 및 공군의 지원을 받아야 합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_INFANTRY_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -264,7 +264,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_PARATROOPER';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Paratrooper is a late-game infantryman. It can parachute up to 9 tiles away (when starting in friendly territory). This allows the paratrooper to literally jump over enemy positions and destroy road networks, pillage vital resources and so forth, wrecking havoc behind his lines. The Paratrooper is at great risk when on such missions, so make sure the target is worth it!'
+	SET Text = '공수부대는 게임 후반 보병입니다. 9타일 너머로 강하할 수 있습니다. (아군 영토에서 시작해야 합니다) 이것은 공숩대가 적 위치를 넘어 도로를 파괴하고, 자원을 약탈하고 전선을 붕괴시킬 수 있습니다. 공수부대는 매우 큰 리스크로 작전을 수행합니다. 목표가 그럴만한 가치가 있는지 확인하십시오!'
 	WHERE Tag = 'TXT_KEY_UNIT_PARATROOPER_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -276,26 +276,26 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_MARINE';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Special Forces unit possesses promotions that enhance its Sight and attack strength when embarked at sea. It is also stronger versus Gun (Melee) units, and can paradrop up to 9 tiles away from friendly territory.'
+	SET Text = '특수 부대는 해양에 승선 시 전투력과 시야가 높아지는 승급을 보유합니다. 또한 일반적인 유닛들보다 강하고, 아군 영토의 9 타일 이내에 낙하할 수 있습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_MARINE_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'Special forces and special operations forces are military units trained to perform unconventional missions. Special forces, as they would now be recognised, emerged in the early 20th century, with a significant growth in the field during the Second World War. Depending on the country, special forces may perform some of the following functions: airborne operations, counter-insurgency, "counter-terrorism", covert ops, direct action, hostage rescue, high-value targets/manhunting, intelligence operations, mobility operations, and unconventional warfare.'
+	SET Text = '특수 부대와 특수 작전 부대는 비전통적인 임무를 수행하기 위해 훈련된 군부대입니다. 현재 인식되고 있는 특수부대는 제2차 세계 대전 동안 그 분야에서 상당한 성장과 함께 20세기 초에 등장했습니다. 국가에 따라 특수부대는 공중작전, 반항쟁, "대테러", 은밀한 작전, 직접 행동, 인질 구출, 고부가가치 목표물/인질 구출, 정보 작전, 기동 작전 및 비전통적인 전쟁 등의 기능을 수행할 수 있습니다.'
 	WHERE Tag = 'TXT_KEY_CIV5_MARINE_TEXT';
 	
 	UPDATE Language_ko_KR
-	SET Text = 'These specialized artillery units will automatically attack any air unit bombing a target within 3 tiles. (They can only intercept one unit per turn.) They are quite weak in combat against other ground units and should be defended by stronger units when under threat of ground attack.'
+	SET Text = '이 특수 포병 부대는 3개의 타일 안에 있는 목표물을 폭격하는 모든 공군 부대를 자동으로 공격할 것입니다. (한 턴에 한 유닛만 막아낼 수 있습니다.) 그들은 다른 지상 부대에 대한 전투에서 매우 약하며 지상 공격의 위협을 받을 때 더 강한 부대에 의해 방어되어야 합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_ANTI_AIRCRAFT_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'Mobile SAM (surface-to-air) units provide an advancing army with anti-air defense. Mobile SAM units can intercept and shoot at enemy aircraft bombing targets within 4 hexes (but only one unit per turn). These units are fairly vulnerable to non-air attack and should be accompanied by infantry or armor.'
+	SET Text = '이동식 SAM(지상 대 공중) 유닛은 방공으로 전진하는 군대를 제공합니다. 이동식 SAM 유닛은 4개의 타일 이내의 적 항공기 폭격 목표물을 요격할 수 있습니다(한 턴에 한 유닛만 막아낼 수 있습니다.). 이러한 부대는 공습이 아닌 공격에 상당히 취약하므로 보병이나 기갑 유닛을 동반해야 합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_MOBILE_SAM_STRATEGY';
 	
 	UPDATE Language_ko_KR SET Text = '경전차' WHERE Tag = 'TXT_KEY_UNIT_AT_GUN';
 	
-	UPDATE Language_ko_KR SET Text = 'A light tank is a tank variant initially designed for rapid movement, and now primarily employed in the reconnaissance role, or in support of expeditionary forces where main battle tanks cannot be made available. Early light tanks were generally armed and armored similar to an armored car, but used tracks in order to provide better cross-country mobility. The fast light tank was a major feature of the pre-WWII buildup, where it was expected they would be used to exploit breakthroughs in enemy lines created by slower, heavier tanks. Numerous small tank designs and "tankettes" were developed during this period and known under a variety of names, including the ''combat car''.' WHERE Tag = 'TXT_KEY_CIV5_INDUSTRIAL_ANTITANKGUN_TEXT';
+	UPDATE Language_ko_KR SET Text = '경전차는 처음에는 신속한 이동을 위해 설계되었으며, 현재는 주로 정찰 역할이나 주요 전차를 사용할 수 없는 원정군을 지원하기 위해 사용됩니다. 초기의 경전차는 일반적으로 장갑차와 비슷하게 무장되고 무장되었지만, 더 나은 국가 간 이동성을 제공하기 위해 선로를 사용했습니다. 고속 경전차는 제2차 세계 대전 이전 구축전차의 주요 특징이었는데, 이 경전차는 더 느리고 무거운 전차에 의해 만들어진 적진의 돌파구를 이용하는 데 사용될 것으로 예상되었습니다. 이 기간 동안 수많은 소형 전차 디자인과 "전차"가 개발되었으며 "전차"를 포함한 다양한 이름으로 알려져 있습니다.' WHERE Tag = 'TXT_KEY_CIV5_INDUSTRIAL_ANTITANKGUN_TEXT';
 	
-	UPDATE Language_ko_KR SET Text = 'The Light Tank is a specialized combat unit designed for hit-and-run tactics. Back them up with Riflemen, Tanks, and Artillery for a potent Modern Era fighting force.' WHERE Tag = 'TXT_KEY_UNIT_AT_GUN_STRATEGY';
+	UPDATE Language_ko_KR SET Text = '경전차는 치고 빠지기 전술을 위해 고안된 특수 전투 부대입니다. 강력한 현대 시대의 전투력을 위해 소총병, 탱크, 포병을 지원하십시오.' WHERE Tag = 'TXT_KEY_UNIT_AT_GUN_STRATEGY';
 	
 	UPDATE Language_ko_KR SET Text = '치고 빠지기 전술과 소규모 접전을 전문으로 하는 기동성이 뛰어난 원거리 유닛입니다' WHERE Tag = 'TXT_KEY_UNIT_HELP_ANTI_TANK_GUN';
 	
@@ -305,10 +305,10 @@
 	VALUES ('TXT_KEY_DESC_CRUISER', '순양함');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_CRUISER_PEDIA', 'A cruiser is a type of warship. The term has been in use for several hundred years, and has had different meanings throughout this period. During the Age of Sail, the term cruising referred to certain kinds of missions: independent scouting, raiding or commerce protection fulfilled by a frigate or sloop, which were the cruising warships of a fleet. In the middle of the 19th century, cruiser came to be a classification for the ships intended for this kind of role, though cruisers came in a wide variety of sizes, from the small protected cruiser to armored cruisers which were as large (though not as powerful) as a battleship. By the early 20th century, cruisers could be placed on a consistent scale of warship size, smaller than a battleship but larger than a destroyer. In 1922, the Washington Naval Treaty placed a formal limit on cruisers, which were defined as warships of up to 10,000 tons displacement carrying guns no larger than 8 inches in calibre. These limits shaped cruisers up until the end of World War II. The very large battlecruisers of the World War I era were now classified, along with battleships, as capital ships.');
+	VALUES ('TXT_KEY_CIV5_CRUISER_PEDIA', '순양함은 군함의 한 종류입니다. 이 용어는 수백 년 동안 사용되어 왔고, 이 기간 동안 다른 의미를 가지고 있었습니다. 항해 시대 동안, 순항이라는 용어는 특정한 종류의 임무를 의미했습니다: 프리깃함이나 슬루프에 의해 수행되는 독립적인 정찰, 습격 또는 상업 보호, 즉 함대의 순항 군함입니다. 19세기 중반에 순양함은 이러한 역할을 위한 선박의 분류가 되었지만, 순양함은 소형 보호 순양함에서 장갑 순양함까지 다양한 크기로 제공되었습니다. 20세기 초까지, 순양함은 전함보다는 작지만 구축함보다는 큰, 군함 크기의 일관된 규모로 배치될 수 있었습니다. 1922년, 워싱턴 해군 조약은 8인치 이하의 총을 운반하는 만 톤의 배수량의 군함으로 정의된 순양함에 공식적인 제한을 두었습니다. 이러한 제한은 2차 세계대전이 끝날 때까지 순양함을 형성했습니다. 제1차 세계 대전 시대의 매우 큰 순양함들은 이제 전함들과 함께 수도 함선으로 분류되었습니다.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_CRUISER_STRATEGY', 'Build Cruisers to augment your Ironclads, and to take control of the seas! Make sure you have plenty of Iron, however.');
+	VALUES ('TXT_KEY_CIV5_CRUISER_STRATEGY', '순양함을 건조하여 철갑함을 증강하고 바다를 장악하십시오! 하지만 철을 충분히 가지고 있는지 확인하십시오.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
 	VALUES ('TXT_KEY_CIV5_CRUISER_HELP', '해상 침입과 이전 시대의 해상 유닛에 피해를 주기위해 고안된 산업 시대 원거리 해상 유닛입니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]육지 공격은 연안 타일에서만 감행할 수 있습니다.[ENDCOLOR]');
@@ -326,19 +326,19 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_BYZANTINE_DROMON';
 
 	UPDATE Language_ko_KR
-	SET Text = 'Attacks with lethal Greek Fire, making it the first naval unit with a ranged attack. It cannot end its turn in Deep Ocean tiles outside of the city borders.'
+	SET Text = '치명적인 그리스의 불로, 원거리 공격을 한 최초의 해군 유닛입니다. 그것은 도시 경계 밖의 심해 타일에서 턴을 끝낼 수 없습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Galleass is the second naval unit with a ranged attack available to the civilizations in the game. It is much stronger than earlier naval ships, and can enter the ocean. The Galleass is useful for clearing enemy ships out of shallow waters and supporting sieges.'
+	SET Text = '갈레아스는 게임의 문명들이 이용할 수 있는 원거리 공격을 가진 두 번째 해군 유닛입니다. 그것은 이전의 해군 함정들보다 훨씬 더 강하고, 심해로 들어갈 수 있습니다. 갤리어스는 연안에서 적함을 제거하고 포위를 지원하는 데 유용합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_GALLEASS_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'A corvette is a small warship. It is traditionally the smallest class of vessel considered to be a proper (or "rated") warship. The warship class above is that of frigate. The class below is historically sloop-of-war. The modern types of ship below a corvette are coastal patrol craft and fast attack craft. In modern terms, a corvette is typically between 500 tons and 2,000 tons although recent designs may approach 3,000 tons, which might instead be considered a small frigate.'
+	SET Text = '코르벳은 작은 군함입니다. 전통적으로 적정한(또는 "정격") 군함으로 간주되는 선박 중 가장 작은 등급입니다. 위의 군함 등급은 프리깃함의 등급입니다. 아래 계급은 역사적으로 전쟁터입니다. 코르벳 아래에 있는 현대적인 형태의 배는 해안 경비정과 빠른 공격정입니다. 현대의 관점에서, 코르벳은 일반적으로 500톤에서 2,000톤 사이이지만, 최근의 디자인은 3,000톤에 근접할 수 있고, 대신 작은 프리깃함으로 여겨질 수 있습니다.'
 	WHERE Tag = 'TXT_KEY_CIV5_PRIVATEER_TEXT';
 	
 	UPDATE Language_ko_KR
-	SET Text = 'The Caravel is a significant upgrade to your naval power. A Melee unit, it is stronger and faster than the ageing Trireme, and it can enter Deep Ocean hexes.Use it to explore the world, or to defend your home cities.'
+	SET Text = '캐러벨은 당신의 해군력을 크게 향상시킵니다. 근접 유닛으로, 나이든 삼단노선보다 더 강하고 빠르며, 심해로 들어갈 수 있습니다. 세계를 탐험하거나 당신의 도시를 지키는 데 사용됩니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_CARAVEL_STRATEGY';
 	
 	UPDATE Language_ko_KR
@@ -346,7 +346,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_CARAVEL';
 	
 	UPDATE Language_ko_KR
-	SET Text = 'The Frigate is an upgrade over the Galleass. Its Range, Combat and Ranged Combat strengths are much larger than the older naval unit. The Frigate can clear the seas of any Caravels, Triremes, and Barbarian units still afloat. It cannot, however, fire on non-coastal land tiles.'
+	SET Text = '프리깃은 갈레아스의 업그레이드입니다. 사거리, 전투력, 원거리 전투력이 구형 해군 부대보다 훨씬 큽니다. 프리깃함은 아직 떠 있는 캐러벨, 트리렘, 야만인 부대의 모든 바다를 청소할 수 있습니다. 그러나 해안이 아닌 육지 타일에는 발사할 수 없습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_FRIGATE_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -382,7 +382,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_CARRIER';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Carrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and atomic bombs. The Carrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat. Defensively, however, the Carrier is weak and should be escorted by destroyers and submarines. Carriers are, however, armed with anti-air weaporny, and will automatically attack any air unit bombing a target within 4 tiles. (They can only intercept one unit per turn.)'
+	SET Text = '항공모함은 전투기, 폭격기(스텔스 폭격기는 아니지만) 및 원자폭탄을 운반하는 전문 선박입니다. 항공모함 자체는 공격할 수 없지만, 항공모함을 탑재한 항공기는 공중에서 가장 강력한 공격 무기가 됩니다. 그러나 방어적으로, 항공모함은 약하기 때문에 구축함과 잠수함의 호위를 받아야 합니다. 그러나 항공모함은 대공무기로 무장하고 있으며, 4타일 이내에 목표물을 폭격하는 모든 공군부대를 자동으로 공격할 것입니다. (그들은 한 번에 한 유닛만 막아낼 수 있습니다.)'
 	WHERE Tag = 'TXT_KEY_UNIT_CARRIER_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -398,14 +398,14 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_DESTROYER';
 	
 	UPDATE Language_ko_KR
-	SET Text = 'The Missile Cruiser is a modern warship. It''s fast and tough, carries a mean punch and is pretty good at intercepting enemy aircraft. Most importantly, the Missile Cruiser can carry Guided Missiles and Nuclear Missiles, allowing you to carry these deadly weapons right up to the enemy''s shore. Missile Cruisers combined with carriers, submarines, and battleships make a fiendishly powerful armada.'
+	SET Text = '미사일 순양함은 현대적인 군함입니다. 빠르고 질기고, 비열한 펀치를 날리고, 적기를 요격하는 데 꽤 능숙합니다. 가장 중요한 것은 미사일 순양함이 유도탄과 핵미사일을 운반할 수 있기 때문에 이러한 치명적인 무기를 적의 해안까지 운반할 수 있다는 것입니다. 미사일 순양함은 항공모함, 잠수함, 그리고 전함들과 결합하여 악마처럼 강력한 함대를 만듭니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY';
 
 
 	-- Mounted
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Lancer is the Renaissance horse unit that comes between the Knight and the first mechanized vehicle, the Landship. It is faster and more powerful than the Knight, able to sweep those once-mighty units from the map. The Lancer is a powerful offensive weapon.'
+	SET Text = '기병대는 기사와 최초의 기계화된 차량인 지상함 사이에 있는 르네상스 시대의 기마 유닛입니다. 그것은 기사보다 더 빠르고 강력하며 한때 강력했던 유닛들을 지도에서 쓸어버릴 수 있습니다. 기병대는 강력한 공격 무기입니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_LANCER_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -413,17 +413,17 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_LANCER';
 
 	UPDATE Language_ko_KR
-	SET Text = 'Ranged Industrial-Era mounted unit, useful for flanking, harassment, and hit-and-run tactics.'
+	SET Text = '측면 공격, 괴롭힘, 치고 빠지기 전술에 유용한 산업 시대의 원거리 기마 유닛입니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_CAVALRY_STRATEGY';
 	
 	INSERT INTO Language_ko_KR (Tag, Text)
 	VALUES ('TXT_KEY_DESC_CUIRASSIER', '흉갑기병');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_CUIRASSIER_PEDIA', 'Cuirassiers, from French cuirassier, were cavalry equipped with armour and firearms, first appearing in late 15th-century Europe. This French term means "the one with a cuirass" (cuirasse), the breastplate armour which they wore. The first cuirassiers were produced as a result of armoured cavalry, such as the man-at-arms and demi-lancer, discarding their lances and adopting the use of pistols as their primary weapon. In the later 17th century, the cuirassier lost his limb armour and subsequently employed only the cuirass (breastplate and backplate), and sometimes a helmet. By this time, the sword was the primary weapon of the cuirassier, pistols being relegated to a secondary function.');
+	VALUES ('TXT_KEY_CIV5_CUIRASSIER_PEDIA', '프랑스 퀴라시에 출신의 흉갑기병은 갑옷과 화기를 갖춘 기병이었으며, 15세기 후반 유럽에서 처음 등장했습니다. 이 프랑스 용어는 그들이 착용했던 가슴판 갑옷인 "쿠이라스"(쿠이라스)를 의미합니다. 최초의 흉갑기병들은 중기병이나 데미랜서와 같은 기갑기병들이 랜스를 버리고 권총을 주요 무기로 사용한 결과로 만들어졌습니다. 17세기 후반에, 흉갑기병은 사지 갑옷을 잃어버렸고, 그 후 쿠이라스(가슴판과 등판)만 사용했고, 때로는 헬멧도 사용했습니다. 이 무렵, 칼은 흉갑기병의 주요 무기였고, 권총은 부차적인 기능으로 밀려났습니다.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_CUIRASSIER_STRATEGY', 'Cuirassiers are Renaissance-Era units capable of rapid movement and ranged attacks. Use them to harass the enemy and support your war effort.');
+	VALUES ('TXT_KEY_CIV5_CUIRASSIER_STRATEGY', '흉갑기병은 빠른 움직임과 원거리 공격이 가능한 르네상스 시대의 부대입니다. 적을 괴롭히고 당신의 전쟁을 지원하기 위해 사용하십시오.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
 	VALUES ('TXT_KEY_CIV5_CUIRASSIER_HELP', '르네상스 시대의 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.');
@@ -432,10 +432,10 @@
 	VALUES ('TXT_KEY_DESC_MOUNTED_BOWMAN', '중산병');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_PEDIA', 'Mounted knights armed with lances proved ineffective against formations of pikemen combined with crossbowmen whose weapons could penetrate most knights'' armor. The invention of pushlever and ratchet drawing mechanisms enabled the use of crossbows on horseback, leading to the development of new cavalry tactics. Knights and mercenaries deployed in triangular formations, with the most heavily armored knights at the front. Some of these riders would carry small, powerful all-metal crossbows of their own. Crossbows were eventually replaced in warfare by more powerful gunpowder weapons, although early guns had slower rates of fire and much worse accuracy than contemporary crossbows. Later, similar competing tactics would feature harquebusiers or musketeers in formation with pikemen (pike and shot), pitted against cavalry firing pistols or carbines.');
+	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_PEDIA', '랜스로 무장한 기마 기사는 대부분의 기사의 갑옷을 관통할 수 있는 무기가 석궁병과 결합된 창병 편성에 대해 비효율적인 것으로 입증되었습니다. 푸쉬 레버와 래칫 드로잉 메커니즘의 발명은 말에 석궁을 사용할 수 있게 하여 새로운 기병 전술의 발전을 이끌었습니다. 기사들과 용병들은 삼각형 형태로 배치되었고, 가장 중무장한 기사들이 전면에 배치되었습니다. 이 라이더들 중 일부는 작고 강력한 금속 석궁을 가지고 다닐 것입니다. 비록 초기의 총이 현대의 석궁보다 발사 속도가 느리고 정확도가 훨씬 나빴지만, 석궁은 결국 더 강력한 화약 무기로 대체되었습니다. 나중에, 유사한 경쟁 전술은 권총이나 카빈을 발사하는 기병을 상대로 장창병(파이크와 총)과 함께 하크뷔지 또는 머스킷총병을 배치하는 것을 특징으로 합니다.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_STRATEGY', 'Heavy Skirmishers are Medieval-Era units capable of rapid movement and ranged attacks. Use them to harass the enemy and support your war effort, but be careful about letting them get caught alone.');
+	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_STRATEGY', '중산병은 빠른 이동과 원거리 공격이 가능한 중세 시대의 유닛입니다. 적을 괴롭히고 당신의 전쟁 노력을 지지하기 위해 그것들을 사용하되, 그들이 혼자 잡히는 것을 조심하십시오.');
 
 	INSERT INTO Language_ko_KR (Tag, Text)
 	VALUES ('TXT_KEY_CIV5_MOUNTED_BOWMAN_HELP', '중세 시대의 원거리 기마 유닛입니다. 치고 빠지기, 측면 공격, 적을 괴롭히는 전술에 유용합니다.');
@@ -446,7 +446,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_GATLINGGUN';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Gatling Gun is a mid-game non-siege ranged unit that can lay down a terrifying hail of bullets. It is much more powerful than earlier ranged units like the Musketman, but it is much weaker than other military units of its era. As such, it should be used as a source of attrition. It weakens nearby enemy units, and gains bonus strength when defending. When attacking, the Gatling Gun deals less damage to Armored or fortified Units, as well as cities. Put Gatling Guns in your cities or on chokepoints for optimal defensive power.'
+	SET Text = '개틀링 건은 무시무시한 총알을 쏟아낼 수 있는 게임 중반의 공성전 보너스가 없는 원거리 유닛입니다. 머스킷맨과 같은 이전의 원거리 유닛보다는 훨씬 강력하지만, 그 시대의 다른 군사 부대보다 훨씬 약합니다. 따라서 소모의 원인으로 사용해야 합니다. 개틀링 건처럼 주변의 적 유닛을 약화시킵니다. 공격 시 기관총은 도시뿐만 아니라 기갑부대나 요새화된 부대에도 더 적은 피해를 입힙니다. 근거리 공격에 취약합니다. 방어를 위해 도시에 기관총을 배치하는 것이 유용합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_GATLINGGUN_STRATEGY';
 	
 	UPDATE Language_ko_KR
@@ -454,7 +454,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_MACHINE_GUN';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Machine Gun is the penultimate non-siege ranged unit, and can lay down a terrifying hail of suppressive fire. It is more powerful than earlier ranged units, but it is much weaker than other military units of its era. As such, it should be used as a source of attrition. Like the Gatling Gun, it weakens nearby enemy units. When attacking, the Machine Gun deals less damage to Armored or fortified Units, as well as cities. It is vulnerable to melee attack. Put Machine Guns in your city for defense, or use them to control chokepoints.'
+	SET Text = '기관총은 공성전 보너스가 없는 두 번째 원거리 유닛으로, 무시무시한 폭격을 가할 수 있습니다. 그것은 이전의 원거리 부대보다 더 강력하지만, 그 시대의 다른 군사 부대보다 훨씬 약합니다. 따라서 소모의 원인으로 사용해야 합니다. 개틀링 건처럼 주변의 적 유닛을 약화시킵니다. 공격 시 기관총은 도시뿐만 아니라 기갑부대나 요새화된 부대에도 더 적은 피해를 입힙니다. 근거리 공격에 취약합니다. 방어를 위해 도시에 기관총을 배치하는 것이 유용합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_MACHINE_GUN_STRATEGY';
 
 	UPDATE Language_ko_KR
@@ -462,11 +462,11 @@
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_BAZOOKA';
 
 	UPDATE Language_ko_KR
-	SET Text = 'The Bazooka is the last non-siege ranged unit, and is capable of truly terrfiying amounts of damage, especially to Armor units. It is the most powerful ranged unit, but it is much weaker than other military units of its era. As such, it should be used as a source of attrition. Like the Machine Gun, it weakens nearby enemy units. When attacking, the Bazooka deals less damage to fortified Units and cities, but deals additional damage to Armored units. This makes it a great defense unit.'
+	SET Text = '바주카는 공성전 보너스가 없는 두 번째 원거리 유닛으로, 특히 기갑 부대에게 엄청난 피해를 입힐 수 있습니다. 그것은 가장 강력한 원거리 유닛이지만, 그 시대의 다른 군사 부대들보다 훨씬 약합니다. 따라서 소모의 원인으로 사용해야 합니다. 기관총처럼 주변의 적 유닛을 약화시킵니다. 공격 시 바주카는 요새화된 유닛과 도시에 피해를 덜 입히지만 기갑부대에 피해를 더 입힙니다. 이것은 훌륭한 방어 부대가 됩니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_BAZOOKA_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = 'Artillery is a deadly siege weapon, more powerful than a cannon and with a longer range. Like the cannon it has limited visibility and must set up (1 mp) to attack, but its Ranged Combat strength is tremendous. Artillery also has the "indirect fire" ability, allowing it to shoot over obstructions at targets it cannot see (as long as other friendly units can see them). Like other siege weapons, Artillery is vulnerable to melee attack.'
+	SET Text = '포병대는 대포보다 더 강력하고 사거리가 더 긴 치명적인 공성 무기입니다. 대포처럼 시야가 제한되지만 원거리 전투력은 엄청납니다. 포병대는 또한 "간접 사격" 능력을 가지고 있어 보이지 않는 목표물을 향해 장애물을 쏠 수 있습니다(다른 아군 유닛이 볼 수 있다면). 다른 공성 무기들과 마찬가지로 포병대는 근거리 공격에 취약합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY_STRATEGY';
 
 	UPDATE Language_ko_KR
