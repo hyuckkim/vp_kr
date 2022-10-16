@@ -15,7 +15,7 @@ SET Text = '머스킷총병을 대체하는 미국의 고유 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MINUTEMAN';
 
 UPDATE Language_ko_KR
-SET Text = 'B-17 폭격기는 평등 정책의 고유 유닛입니다. 최상의 시간 이념을 채택해야 합니다. 폭격기와 매우 비슷하지만, 적의 대공 능력과 전투기로 제압하기 어렵습니다. B-17은 또한 적 도시를 공격할 때 보너스를 받습니다. 폭격기와는 다르게 범위가 10입니다. 자세한 내용은 공중전 규칙을 참조하세요.'
+SET Text = 'B-17 폭격기는 평등 이념의 고유 유닛입니다. 최상의 시간 이념 주의를 채택해야 합니다. 폭격기와 매우 비슷하지만, 적의 대공 능력과 전투기로 제압하기 어렵습니다. B-17은 또한 적 도시를 공격할 때 보너스를 받습니다. 폭격기와는 다르게 범위가 10입니다. 자세한 내용은 공중전 규칙을 참조하세요.'
 WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_B17_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -138,11 +138,11 @@ SET Text = '궁병을 대체하는 바빌론의 고유 유닛입니다. 일반 �
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Bowman is the Babylonian Unique Unit, replacing the Archer. This Unit is defensively stronger than the Archer, allowing placement in the front line. The Bowman''s improved combat prowess helps ameliorate any concern that it may be quickly overrun.'
+SET Text = '바빌론 궁병은 궁병을 대체하는 바빌론의 고유 유닛입니다. 궁병보다 방어할 때 더 강해, 최전선 유닛으로 설 수 있습니다. 향상된 전투력으로 기술에 의해 빠르게 뒤쳐짌 수 있다는 고민을 완화시킵니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Walls of Babylon increase the damage output of all the city''s ranged attacks and increase the city''s defense. Increases Military Units supplied by this City''s population by 10%. Also helps with managing the Empire Needs Modifier in this City.'
+SET Text = '바빌론 성벽은 성벽을 대체하는 바빌론의 고유 건물입니다. 바빌론 성벽은 도시 범위 공격을 강화하고 도시 방어력을 향상시킵니다. 군사 유닛 보급 한도가 시민의 10%만큼 증가하며 도시의 요구 관리에도 도움을 줍니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_INFO';
 
 UPDATE Buildings
@@ -153,7 +153,7 @@ INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_BABYLON_WALLS_HELP', '성벽을 대체하는 바빌론의 고유 건물입니다. 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 과학자 전문가의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.');
 
 UPDATE Language_ko_KR
-SET Text = 'The Walls of Babylon are a Babylonian Unique Building, replacing the standard city Walls. The Walls of Babylon increase Defense Strength in a city by 15 and Hit Points by 75, both VALUES much higher than standard Walls. Increases Military Unit Supply Cap from City Population by 10%, and increases the City''s Ranged Strike range by 1. The Walls of Babylon also provide a Scientist specialist slot and improve the Gold yields of all Scientist specialists in the City. Also helps with managing the Empire Needs Modifier in this City.'
+SET Text = '바빌론 성벽은 성벽을 대체하는 바빌론의 고유 건물입니다. 바빌론 성벽은 도시의 방어력을 15, 체력을 75 올려, 각 값이 둘 모두 기본 성벽보다 높습니다. 군사 유닛 보급 한도가 인구의 10%만큼 증가하고, 도시의 사격 범위가 1 증가합니다. 바빌론 성벽은 과학자 슬롯을 제공하며 모든 과학자 전문가의 골드 산출을 증가시킵니다. 지어진 도시에서의 불행 관리에도 도움을 줍니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY';
 
 --------------------
@@ -169,7 +169,7 @@ SET Text = '프라싱야는 오직 [ICON_CITY_STATE]도시 국가에서만 선�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA';
 
 UPDATE Language_ko_KR
-SET Text = 'This melee unit earns points toward starting a Golden Age when it defeats an enemy. Use them to fight wars in foreign lands to push your Civilization towards a Culture victory. May only be gifted by Minor Civilizations.'
+SET Text = '적 유닛을 처치해 황금기를 불러오는 근접 유닛입니다. 해외 영토에서 적을 처치해 당신의 문명이 문화 승리를 달성하도록 도우십시오. 도시 국가에서만 선물로 받을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -200,7 +200,7 @@ SET Text = '기사를 대체하는 비잔티움의 고유 유닛입니다. 빠�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BYZANTINE_CATAPHRACT';
 
 UPDATE Language_ko_KR
-SET Text = 'The Cataphract is a Byzantine unique unit, replacing the Knight. Cataphracts are slower but more powerful than the Knight unit, making them one of the most dangerous cavalry units until the arrival of the Lancer. They can move after attacking. They are able to gain defensive bonuses, unlike the Knight. Also their penalty for attacking cities is not as severe.'
+SET Text = '카타프락토이는 기사를 대체하는 비잔티움의 고유 유닛입니다. 카타프락토이는 기사보다 느리지만, 창병이 도착할 때까지 가장 위협적인 기병 부대 중 하나입니다. 공격한 후 이동할 수 있고, 기사와 다르게 방어 보너스를 받을 수 있습니다. 도시 공격 패널티가 별로 심하지 않습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY';
 
 --------------------
@@ -222,7 +222,7 @@ INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_CEILIDH_HALL_HELP', '서커스를 대체하는 켈트의 고유 건물입니다. 건물이 완성되면 도시에 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] 제공하고 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_IVORY] 상아: [ICON_CULTURE]문화 +3');
 
 UPDATE Language_ko_KR
-SET Text = 'The Ceilidh Hall is a Medieval-era building unique to the Celts, replacing the Circus. Reduces [ICON_HAPPINESS_3] Boredom slightly and increases City [ICON_CULTURE] Culture and [ICON_PEACE] Faith. Nearby sources of Ivory gain +3 [ICON_CULTURE] Culture. Provides 1 Musician Specialist slot, and contains a slot for a Great Work of Music.'
+SET Text = '연회장은 서커스를 대체하는 켈트의 중세 시대 건물입니다. [ICON_HAPPINESS_3] 무료를 약간 감소시키고 도시의 [ICON_CULTURE] 문화와 [ICON_PEACE] 신앙을 증가시킵니다. 상아에 +3 문화를 제공하고, 1개의 음악가 슬롯, 걸작 음악 슬롯을 가지고 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CEILIDH_HALL_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -241,7 +241,7 @@ SET Text = '도서관을 대체하는 중국의 고유 건물입니다. "황후 
 WHERE Tag = 'TXT_KEY_BUILDING_PAPER_MAKER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Paper Maker is the Chinese unique building, replacing the Library. In addition to its normal [ICON_RESEARCH] Science bonuses, the Paper Maker increases the [ICON_GOLD] Gold output of the City, especially during "We Love the Empress Day." Requires a Council in order to be constructed.'
+SET Text = '제지소는 도서관을 대체하는 중국의 고유 건물입니다. 기본 과학 보너스 외에도, 제지소는 추가 골드를 제공하고 황후 경축일에 더 강력합니다. 자문회가 있어야 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_PAPER_MAKER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -253,7 +253,7 @@ SET Text = '천명'
 WHERE Tag = 'TXT_KEY_TRAIT_ART_OF_WAR_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = 'The Chu-Ko-Nu is the Chinese unique unit, replacing the Crossbowman. The Chu-Ko-Nu deals splash damage and additional damage near cities, giving it a hefty punch on offense and defense. This unit is particularly deadly when garrisoned in a city that is under attack.'
+SET Text = '연노병은 석궁병을 대체하는 중국의 고유 유닛입니다. 연노병은 광역 피해를 주고 도시에 추가 피해를 줍니다. 그것은 공격과 수비에 모두 강합니다. 공격을 받는 도시에 주둔할 때 치명적입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_CHINESE_CHUKONU_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -268,11 +268,11 @@ SET Text = '승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[END
 WHERE Tag = 'TXT_KEY_TRAIT_VIKING_FURY';
 
 UPDATE Language_ko_KR
-SET Text = '장검병을 대체하는 덴마크의 고유 유닛입니다. 강력한 중세 시대의 최전선 지상 유닛으로 해상 공격에 특화된 유닛입니다. 더 이른 시기에 사용할 수 있습니다.'
+SET Text = '장창병을 대체하는 덴마크의 고유 유닛입니다. 강력한 중세 시대의 최전선 지상 유닛으로 해상 공격에 특화된 유닛입니다. 더 이른 시기에 사용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_DENMARK_BERSERKER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Berserker is the Danish Unique Unit, replacing the Pikeman. This Unit has +1 Movement [ICON_MOVES] compared to the Pikeman and possesses the Amphibious and Charge promotions, allowing it to attack onto land from a Coast tile with no penalty and punish wounded units. Available after researching Metal Casting instead of Steel.'
+SET Text = '광전사는 장창병을 대체하는 덴마크의 고유 유닛입니다. 광전사는 장창병과 비교해 [ICON_MOVEMENT] 이동력이 +1 더 높고 돌격 승급과 수륙양용 승급을 얻어, 바다에서 해안으로 패널티 없이 공격할 수 있게 합니다. 생산에 강철 대신 주조를 필요로 합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_DENMARK_BERSERKER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -280,7 +280,7 @@ SET Text = '노르웨이 스키 보병은 도시 국가의 선물로만 얻을 �
 WHERE Tag = 'TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Norwegian Ski Infantry moves through Snow, Tundra, and Hills at double speed. It also has +25% [ICON_STRENGTH] Combat Strength in Snow, Tundra or Hill terrain if neither Forest nor Jungle are present.'
+SET Text = '노르웨이 스키 보병은 설원, 툰드라, 언덕에서 두 배의 속도로 이동합니다. 또한 숲이나 정글이 없는 설원, 툰드라, 언덕에서 +25%의 전투력 보너스를 얻습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_STRATEGY';
 
 --------------------
@@ -291,7 +291,7 @@ SET Text = '대상 숙소를 대체하는 이집트의 고유 건물입니다. �
 WHERE Tag = 'TXT_KEY_BUILDING_BURIAL_TOMB_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Burial Tomb is a Classical-era building which increases your output of [ICON_PEACE] Faith, [ICON_TOURISM] Tourism, and [ICON_CULTURE] Culture, and comes with a free Artifact. It also greatly boosts the value of Trade Routes that target the City. It replaces the Caravansary.'
+SET Text = '왕가의 무덤은 고전 시대 건물로 당신의 [ICON_PEACE] 신앙, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 증가시키고 무료 유물을 제공합니다. 도시의 무역 가치를 크게 증가시킵니다. 대상 숙소를 대체합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_BURIAL_TOMB_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -319,7 +319,7 @@ SET Text = '장궁병은 오직 [ICON_CITY_STATE]도시 국가에서만 선물�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_LONGBOWMAN';
 
 UPDATE Language_ko_KR
-SET Text = ' The Longbowman has a greater range than the Crossbowman, allowing it to attack enemies three hexes away, often destroying them before they can strike back. Like other ranged units, Longbowmen are vulnerable to melee attack, but have increased [ICON_STRENGTH] against Mounted and Armor Units.'
+SET Text = '장궁병은 석궁병보다 더 긴 사거리를 가져, 세 타일 너머의 적을 공격할 수 있어 공격 받기 전에 적을 처치할 수 있습니다. 많은 원거리 유닛과 비슷하게 근접 공격에 약하지만, 기마 유닛 또는 기갑 유닛을 상대로 [ICON_STRENGTH] 전투력을 얻습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ENGLISH_LONGBOWMAN_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -327,7 +327,7 @@ SET Text = '프리깃을 대체하는 영국의 고유 유닛입니다. 해상�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHIPOFTHELINE';
 
 UPDATE Language_ko_KR
-SET Text = 'The Ship of the Line is the English unique unit, replacing the Frigate.  Use its [COLOR_POSITIVE_TEXT]Splash[ENDCOLOR] promotions to clear out masses of enemy ships. It can also see one hex farther than the Frigate, allowing it to spot enemies in a significantly larger section of ocean. Like the frigate, it cannot fire on non-coastal land tiles.'
+SET Text = '전열함은 프리깃을 대체하는 영국의 고유 유닛입니다. [COLOR_POSITIVE_TEXT]광역 피해[ENDCOLOR] 승급으로 적을 대량으로 쓸어 버릴 수 있습니다. 또한 프리깃보다 한 타일 더 멀리 볼 수 있어 적을 발견하는데 도움을 줍니다. 프리깃처럼, 해안이 아닌 육지 타일에는 공격할 수 없습니다. The Ship of the Line is the English unique unit, replacing the Frigate.  Use its promotions to clear out masses of enemy ships. It can also see one hex farther than the Frigate, allowing it to spot enemies in a significantly larger section of ocean. Like the frigate, it cannot fire on non-coastal land tiles.'
 WHERE Tag = 'TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE_STRATEGY';
 
 --------------------
@@ -346,7 +346,7 @@ SET Text = '수발총병을 대체하는 에티오피아의 고유 유닛입니�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MEHAL_SEFARI';
 
 UPDATE Language_ko_KR
-SET Text = 'Mehal Sefari are the backbone of the Ethiopian army. They start with promotions that give them bonuses fighting in owned land. They are slightly cheaper to build than the Fusiliers that they replace.'
+SET Text = '메할 세파리는 에티오피아 군대의 중추입니다. 소유한 영토에서 전투 시 보너스를 얻는 승급을 가지고 시작합니다. 대체하는 수발총병보다 약간 더 저렴합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
@@ -364,7 +364,7 @@ SET Text = '단결심'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = 'The Musketeer is the French unique unit, replacing the Tercio. The Musketeer is significantly more powerful than the Tercio, gains +1 [ICON_MOVES] Movement, and ignores Zone of Control.'
+SET Text = '총사대는 테르시오를 대체하는 프랑스의 고유 유닛입니다. 총사대는 테르시오보다 눈에 띄게 강하고, [ICON_MOVES] 이동력이 +1 더 높고, 통제 구역을 무시합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_FRENCH_MUSKETEER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -422,7 +422,7 @@ SET Text = '세관을 대체하는 독일의 고유 건물입니다. 매 턴 [IC
 WHERE Tag = 'TXT_KEY_BUILDING_HANSE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'In addition to the regular abilities of the Customs House (additional [ICON_GOLD] Gold output, and additional [ICON_GOLD] Gold from Trade Routes), the Hanse provides extra [ICON_GOLD] Gold and an additional Specialist. Also, [ICON_PRODUCTION] Production for each Trade Route within your civilization that connects to a City-State. The Trade Routes can come from any combination of cities, even cities without the Hanse (Example: If you have trade routes from Berlin to Geneva, Munich to Geneva, Munich to Berlin, and Berlin to Brussels, then all cities with the Hanse would get +12% [ICON_PRODUCTION] Production). Only Germany may build it.'
+SET Text = '세관의 기본 능력 (추가 [ICON_GOLD] 골드, 교역로에서 추가 [ICON_GOLD] 골드)에 더해, 한자는 더 많은 [ICON_GOLD] 골드와 추가 전문가를 제공합니다. 또한, 도시국가와의 교역로마다 [ICON_PRODUCTION] 생산을 제공합니다. 교역로는 어떤 도시에서 보내든 계산하며 심지어 한자가 없는 도시에서 보낸 교역로도 계산합니다. (예를 들어: 베를린에서 제네바로, 뮌헨에서 베를린으로, 베를린에서 브뤼셀로 고역로를 보낸다면 한자가 지어진 모든 도시에서 +12%의 [ICON_PRODUCTION] 생산을 제공합니다. ) 독일만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HANSE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -442,7 +442,7 @@ SET Text = '빠르고 강력한 현대 시대 유닛으로 평지에서 전투 �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_PANZER';
 
 UPDATE Language_ko_KR
-SET Text = 'The T-34 is unique to the Order Ideology. Requires the Patriotic War Tenet to be unlocked. The T-34 is stronger, faster, and has more defense than the tank. It can move after combat, allowing it to blow huge holes in enemy lines and then barrel through before the enemy can repair the gap.'
+SET Text = 'T-34는 질서 이념의 고유 유닛입니다. 대조국 전쟁 이념 주의를 채택해야 합니다. T-34는 탱크보다 더 강하고, 빠르고, 방어에 뛰어납니다. 공격한 뒤 움직여, 적의 전선에 큰 구멍을 내고 매꾸기 전에 뚫을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -450,11 +450,11 @@ SET Text = '테르시오를 대체하는 독일의 고유 유닛입니다.[NEWLI
 WHERE Tag = 'TXT_KEY_UNIT_HELP_LANDSKNECHT';
 
 UPDATE Language_ko_KR
-SET Text = 'In addition to being unlocked being cheaper than normal Tercios, the Landsknecht gain full XP and can move immediately when bought, which allows them to be quickly amassed when needed.[NEWLINE][NEWLINE]Use their fast deployment and their bonus against full health units to surprise your opponents in the first turns of your wars and break their lines quickly.[NEWLINE][NEWLINE]The Landsknecht''s cheap cost also makes them excellent gifts. Buy several units at once, walk them over to a nearby City State, and reap the benefits of both short- and long-term influence.'
+SET Text = '일반 테르시오보다 더 저렴하다는 점에 더해, 란츠크네히트는 구매 시 최대 경험치를 받고 즉시 이동할 수 있어 빠르게 필요한 만큼 모을 수 있습니다.[NEWLINE][NEWLINE]빠른 충원 속도와 최대 채력 상대 보너스로 적을 첫 턴에 크게 놀래키고 전선을 빠르게 붕괴시키십시오.[NEWLINE][NEWLINE]란츠크네히트의 낮은 가격은 선물하기에 뛰어납니다. 한 번에 유닛을 여럿 구매하여 가까운 도시 국가에 보내면 단기적, 장기적인 영향력을 모두 얻을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GERMAN_LANDSKNECHT_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The landsknecht were German mercenary pike and shot of the 15th and 16th century. Created in imitation of the legendary Swiss Reisläufer, the landsknecht would eventually supplant them as the best mercenary infantry available in Europe, fighting in almost every major engagement in the 16th century - often on both sides. Landsknechts carried a variety of weapons into battle in addition to their pikes, which could be as long as twenty feet, including halberds, massive two-handed swords, and ranged weapons. The landsknechts pioneered the inclusion of crossbows into their pike formations to break the momentum of heavy cavalry charges, a popular tactic at the time. By the late 15th century, Arquebuses replaced crossbows as the weapon of choice, making the Landsknechts the earliest example of Pike & Shot formations, ushering in a new era of infantry tactics.'
+SET Text = '란츠크네히트는 15세기와 16세기의 파이크와 총을 사용하는 용병이었습니다. 전설적인 스위스의 라이슬로이퍼를 모방하여 만들어진 란츠크네히트는 결국 그들을 유럽에서 이용 가능한 최고의 용병 보병으로 대체했고, 16세기에 거의 모든 주요 전투에서 싸웠습니다 - 종종 양측 모두에서 싸우기도 했습니다. 란츠크네히트는 할버드, 거대한 양손 칼, 그리고 원거리 무기를 포함하여 20피트나 될 수 있는 그들의 창 외에도 다양한 무기를 가지고 전투에 참여했습니다. 육지 네크네크들은 당시 인기 있었던 전술인 중무장 기병 돌격의 기세를 꺾기 위해 석궁을 창 대열에 포함시키는 전술을 개발했습니다. 15세기 후반까지 아르케부스는 석궁을 선택 무기로 대체했고, 랜즈크네크츠는 파이크와 총의 초기 사례가 되었고, 보병 전술의 새로운 시대를 열었습니다.'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_LANDSKNECHT_TEXT';
 
 UPDATE Language_ko_KR
@@ -537,7 +537,7 @@ SET Text = '헤타이로이는 오직 [ICON_CITY_STATE]도시 국가에서만 �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_COMPANION_CAVALRY';
 
 UPDATE Language_ko_KR
-SET Text = 'Companion Cavalry are faster and more powerful than the Horseman unit, making them the most dangerous mounted units until the arrival of the Knight. They help generate Great Generals more rapidly than other units, and benefit greatly from being stacked with one. Use a stacked Great General''s increased movement speed to keep up with its Companion Cavalry retinue.'
+SET Text = '헤타이로이는 기마병보다 더 빠르고 강해, 기사가 등장하기 전까지 가장 강한 기마 유닛입니다. 다른 유닛들보다 위대한 장군의 생성 속도가 빠르고, 위대한 장군과 겹쳐지면 보너스를 받습니다. 겹쳐진 위대한 장군에게 이동력 보너스를 제공합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY_STRATEGY';
 
 
@@ -554,7 +554,7 @@ SET Text = '공성추는 오직 [ICON_CITY_STATE]도시 국가에서만 선물�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_HUN_BATTERING_RAM';
 
 UPDATE Language_ko_KR
-SET Text = 'After defenders have been cleared away, use Battering Rams to quickly move to an enemy city and knock down its defenses with melee attacks. Battering Rams exist for a long time and become increasingly vulnerable to the units of newer eras, so keep that in mind when choosing new promotions for it.'
+SET Text = '방어 병력이 정리된 뒤에, 공성추를 적 도시 근처로 빠르게 이동시켜 근거리 유닛으로 함락시키십시오. 공성추는 오랫동안 남고 시대가 갈수록 점점 취약해지므로, 새 승급을 선택할 때 명심하십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_HUN_BATTERING_RAM_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -562,7 +562,7 @@ SET Text = '야만인 주둔지의 야만인이 당신의 군대로 합류했습
 WHERE Tag = 'TXT_KEY_NOTIFICATION_BARB_CAMP_CONVERTS';
 
 UPDATE Language_ko_KR
-SET Text = 'Horse Archers are fast ranged units that do not require Horses. They start with the Accuracy I promotion and are strong flankers. As a mounted unit, the Horse Archer is vulnerable to Spearmen.'
+SET Text = '궁기병은 재빠른 원거리 유닛이며 말이 필요하지 않습니다. 정확성 I 승급으로 시작해 강력한 측면 공격수입니다. 궁기병은 기병이므로, 창병에게 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 
 --------------------
@@ -577,7 +577,7 @@ SET Text = '투석병을 대체하는 잉카의 고유 유닛입니다. 적에�
 WHERE Tag = 'TXT_KEY_CIV5_INCA_SLINGER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Waraq''Ak is an Ancient Era ranged infantry Unit that can strike foes from afar. This Incan Unique Unit can daze enemy units; use it to harass your foes and take down Barbarian camps quickly.'
+SET Text = '와라칵은 먼 곳에서 적을 공격할 수 있는 고대 시대 유닛입니다. 이 잉카의 고유 유닛은 적을 멍들게 할 수 있습니다. 이른 시기의 적들과 야만인들을 괴롭히는 데 사용하십시오.'
 WHERE Tag = 'TXT_KEY_CIV5_INCA_SLINGER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -595,7 +595,7 @@ UPDATE Language_ko_KR
 SET Text = '나가-말라' WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT';
 
 UPDATE Language_ko_KR
-SET Text = 'A terrifying sight on the battlefield, often as dangerous to its own side as it was to the enemy, the Naga-Malla (the Hindu term for Fighting Elephant) could be considered the first weapon of mass destruction. Indians used elephants in war until the advent of gunpowder rendered them obsolete. In pre-gunpowder battle the war elephant served two primary purposes. First, their scent absolutely terrified horses, rendering enemy cavalry useless. Second, they could break through even the strongest line of infantry, crushing a wall of spears that no horse could ever surmount. Elephants were incredibly difficult to kill and history records them surviving sixty or more arrows. The primary problem with elephants was their tendency to go berserk with pain or rage, at which point they became impossible for their rider to control. Elephant riders often carried a spike and mallet that they could use to kill the animals if they attacked their own forces.'
+SET Text = '전쟁터에서 종종 적에게 그랬던 것처럼 자기 편에게도 위험한 무서운 광경인 나가-말라(전투 코끼리를 뜻하는 힌두어 용어)는 대량 살상 무기의 첫 번째 무기로 여겨질 수 있습니다. 인도인들은 화약의 출현으로 코끼리가 쓸모없게 될 때까지 코끼리를 전쟁에 사용했습니다. 화약전 전투에서 전투 코끼리는 두 가지 주요 목적을 달성했습니다. 먼저, 그들의 냄새는 말들을 완전히 겁먹게 했고, 적 기병을 쓸모없게 만들었습니다. 둘째, 그들은 어떤 말도 넘을 수 없는 창들의 벽을 부수면서 가장 강력한 보병 대열도 뚫을 수 있었습니다. 코끼리는 죽이기 매우 어려웠고 역사는 코끼리가 60개 이상의 화살에서 살아남았다고 기록하고 있습니다. 코끼리의 주된 문제는 고통이나 분노로 광란하는 그들의 성향이었습니다. 그 때 코끼리는 타는 사람이 통제할 수 없게 되었습니다. 코끼리 기수들은 종종 그들의 병력을 공격하면 동물을 죽이는 데 사용할 수 있는 스파이크와 망치를 들고 다녔습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_ANTIQUITY_INDIANWARELEPHANT_TEXT';
 
 UPDATE Language_ko_KR
@@ -603,12 +603,8 @@ SET Text = '흉갑기병을 대체하는 인도의 고유 유닛입니다. 육�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT';
 
 UPDATE Language_ko_KR
-SET Text = 'The Naga-Malla (Fighting Elephant) is the Indian unique unit, replacing the Cuirassier. It is more powerful than the Cuirassier as it does not require Horses, and is available earlier than the Cuirassier. A mounted unit, the Naga-Malla is quite vulnerable to the Pikeman.'
+SET Text = '나가-말라 (전투 코끼리)는 흉갑기병을 대체하는 인도의 고유 유닛입니다. 흉갑기병보다 더 강하고 말을 요구하지 않으며, 더 이른 시기에 사용할 수 있습니다. 기병 유닛이므로, 장창병에게 약간 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT_STRATEGY';
-
-UPDATE Traits
-SET ShortDescription = 'TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT_CBP'
-WHERE Type = 'TRAIT_POPULATION_GROWTH';
 
 --------------------
 -- Indonesia
@@ -618,7 +614,7 @@ SET Text = '정원을 대체하는 인도네시아의 고유 건물입니다. �
 WHERE Tag = 'TXT_KEY_BUILDING_CANDI_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'In addition to the regular abilities of the Garden, the Candi provides additional [ICON_PEACE] Faith and [ICON_CULTURE] Culture, and gains an additional boost to these yields during "We Love the King Day." Only Indonesia may build it.'
+SET Text = '정원의 기본 능력에 추가로, 찬디는 추가 [ICON_PEACE] 신앙과 [ICON_CULTURE] 문화, 국왕 경축일에 추가 보너스를 제공합니다. 인도네시아만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CANDI_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -685,7 +681,7 @@ SET Text = '약초상을 대체하는 이로쿼이의 고유 건물입니다. �
 WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Longhouse is the Iroquois unique building, replacing the Herbalist. It increases the city''s Food and Production output for each forest within the city''s radius, and improves Plantations.'
+SET Text = '롱하우스는 약초상을 대체하는 이로쿼이의 고유 건물입니다. 도시 범위의 숲마다 식량과 생산을 증가시키고, 재배지를 강화합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_STRATEGY';
 
 --------------------
@@ -700,7 +696,7 @@ SET Text = '쇼군'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = 'The Samurai are the Japanese unique unit, replacing the Longswordsman. It is more powerful as the Swordsman, generates more Great Generals, and gains more experience from combat.'
+SET Text = '사무라이는 장검병을 대체하는 일본의 고유 유닛입니다. 검사보다 더 강하고, 장군을 더 많이 생성하며 전투에서 경험치를 더 많이 받습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_JAPANESE_SAMURAI_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -713,7 +709,7 @@ SET Text = '다가오는 적 공중 유닛을 요격하고 제공권을 장악�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ZERO';
 
 UPDATE Language_ko_KR
-SET Text = 'The Zero is unique to the Autocracy Ideology. Requires the Air Supremacy Tenet to be unlocked. The Zero is a moderately-powerful air unit. It is like the standard fighter, except that it gets a significant combat bonus when battling other fighters and [COLOR_POSITIVE_TEXT]does not require the Oil resource[ENDCOLOR]. It can be based in any city you own or aboard an aircraft carrier. It can move from city to city (or carrier) and can perform "missions" within its range of 8 tiles. See the rules on Aircraft for more information.'
+SET Text = '제로센은 독재 이념의 고유 유닛입니다. 제공권 이념 주의를 채택해야 합니다. 제로센은 적당히 강안 공중 유닛입니다. 일반적인 전투기와 비슷하게, 다른 전투기와 전투 시 전투력 보너스를 얻고, [COLOR_POSITIVE_TEXT]석유를 소모하지 않습니다[ENDCOLOR]. 도시에서 도시로 (혹은 항공모함으로) 이동할 수 있으며 8 타일 안에서 "작전"을 수행할 수 있습니다.  자세한 내용은 공중전 규칙을 참조하세요.'
 WHERE Tag = 'TXT_KEY_UNIT_JAPANESE_ZERO_STRATEGY';
 
 --------------------
@@ -728,7 +724,7 @@ SET Text = '거북선은 오직 [ICON_CITY_STATE]도시 국가에서만 선물�
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_TURTLESHIP_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Turtle Ship has a more powerful attack than the Caravel, and is extremely difficult to destroy due to its Indomitable promotion.  However, while it can end its movement in Ocean Tiles, the Turtle Ship still travels at half speed through them.'
+SET Text = '거북선은 캐러밸보다 더 강력하며, 굳건함 승급 때문에 파괴하기가 매우 어렵습니다. 하지만, 거북선은 대양 타일에서 절반 속도로 움직이게 됩니다.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_TURTLESHIP_STRATEGY';
 
 
@@ -744,7 +740,7 @@ SET Text = '합성궁병을 대체하는 마야의 고유 유닛입니다. 합�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST';
 
 UPDATE Language_ko_KR
-SET Text = 'The Atlatlist is the Mayan unique unit, replacing the Composite Bowman. Atlatlists are cheaper and available earlier than Composite Bowmen, and gain bonus damage from attacking wounded units. This advantage allows your archers to engage in hit-and-run skirmish tactics.'
+SET Text = '아틀라틀 투척병은 합성궁병을 대체하는 마야의 고유 유닛입니다. 아틀라틀은 합성궁병보다 더 저렴하고 이른 시기에 등장하고, 부상 유닛을 상대로 추가 피해를 줍니다. 이 이점은 당신의 궁수가 치고 빠지는 궁기병 전략을 시도하도록 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY';
 
 --------------------
@@ -758,7 +754,7 @@ UPDATE Language_ko_KR
 SET Text = '산병' WHERE Tag = 'TXT_KEY_UNIT_MONGOL_KESHIK';
 
 UPDATE Language_ko_KR
-SET Text = 'In the 12th century, nomadic tribes came boiling out of Central Asia, conquering most of Asia, Eastern Europe and a large portion of the Middle East within a century. Their primary weapon was their incomparable mounted bowmen. The Mongols were one such nomadic tribe, and their children were almost literally "raised in the saddle." Riding on their small but hearty steppe ponies, the lightly-armed and armored Mongol Keshiks, a type of skirmisher, could cover an astonishing amount of territory in a day, far outpacing any infantry or even the heavier European cavalry.[NEWLINE][NEWLINE]In battle the Mongol Keshiks would shoot from horseback with deadly accuracy, disrupting and demoralizing the enemy formations. Once the enemy was suitably weakened, the Mongol heavy cavalry units would charge into the wavering foe to deliver the coup de grace. When facing armored European knights the Mongols would simply shoot their horses, then ignore or destroy the unhorsed men as they wished.'
+SET Text = '12세기에 유목민은 중앙 아시아에서 뛰쳐나와 한 세기 안에 아시아, 동부 유럽, 중동 대부분을 정복했다. 그들의 뛰어난 무기는 견줄 자 없는 궁기병이었다. 몽골인들은 유목민족으로, 아이들은 거의 말 그대로 ''안장 위에서'' 성장한다. 작지만 원기왕성한 초원지대 조랑말을 타고 경무장한 몽골인들은 하루에 엄청난 거리를 달릴 수 있어서, 어떤 보병이나 무거운 유럽 기병을 아득히 앞질렀다.[NEWLINE][NEWLINE]전투에서 몽골 케식텐은 말 등에서 아주 정확하게 사격하여 적 진형을 방해하고 사기를 꺾었다. 적이 약해지면 몽골 중장기마 유닛이 흔들리는 적에게 돌진하여 최후의 일격을 선사한다. 무장한 유럽 기사들을 만나면 몽골군은 간단하게 기사의 말을 쏴버리고 마음 내키는 대로 말에서 떨어진 기사들을 무시하거나 죽여버렸다.'
 WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KESHIK_TEXT';
 
 UPDATE Language_ko_KR
@@ -766,11 +762,11 @@ SET Text = '원거리 공격과 빠른 이동력, 측면 공격 가능성을 바
 WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KESHIK_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Skirmishers are fast ranged units, deadly on open terrain. Unlike the Chariot before them, they can move through rough terrain without a movement penalty and can strengthen the attacks of flanking units. As a mounted unit, the Skirmisher is vulnerable to units equipped with spears.'
+SET Text = '산병은 빠른 범위 유닛으로, 개방된 지역에서 강합니다. 궁전차와 다르게, 이동력 패널티 없이 험지에 들어갈 수 있으며 측면 공격에 강합니다. 기병 유닛이므로 산병은 창병에 취약합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KESHIK_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'This Mongolian Unique Great Person replaces the Great General. While providing the same combat bonuses as a normal Great General, the Khan moves at an increased rate, can heal adjacent friendly units, and damage adjacent enemy units.[NEWLINE][NEWLINE]Can be expended to construct an Ordo.'
+SET Text = '위대한 장군을 대체하는 몽골의 고유 위인입니다. 일반 위대한 장군과 같은 전투력 보너스를 제공하지만, 칸은 더 많이 이동할 수 있고, 주변 아군 유닛을 회복시키고, 인접한 적 유닛에게 피해를 줍니다. [NEWLINE][NEWLINE]오르도를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -827,7 +823,7 @@ SET Text = '기병대를 대체하는 모로코의 고유 유닛입니다. 모�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BERBER_CAVALRY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Berber Cavalry gives the Moroccans an edge when defending their territory. They they move quickly in the desert, in addition to other difficult terrains. This also allows them to perform raids deep into rough enemy territory but other forces will need to stabilize any gains.'
+SET Text = '베르베르 기병대는 그들의 영토를 방어하는 모로코의 고유 유닛입니다. 사막과 기타 험지에서 더 빠르게 이동할 수 있습니다. 적 영토의 험지에 자유롭게 움직일 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BERBER_CAVALRY_STRATEGY';
 
 
@@ -839,7 +835,7 @@ SET Text = '다른 문명이나 도시 국가로부터 수입 또는 수출하�
 WHERE Tag = 'TXT_KEY_TRAIT_LUXURY_RETENTION';
 
 UPDATE Language_ko_KR
-SET Text = 'Naval Unit used to specializes in attacking coastal cities and capturing enemy ships. Only the Dutch may build it. Heals outside friendly territory. Starts with the Vanguard promotion allowing it to be more effective at attacking coastal cities. May capture any enemy naval units it defeats as prize ships.'
+SET Text = '적 유닛을 나포하거나 해안 도시를 공격하는 데 특화된 해양 유닛입니다. 네덜란드만 생산할 수 있습니다. 아군 영토 밖에서도 회복할 수 있습니다. 선봉 승급으로 해안 도시를 공격할 때 더욱 효과적입니다. 전리품 선박 승급으로 적 유닛을 나포할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY';
 
 
@@ -859,7 +855,7 @@ SET Text = '카누니'
 WHERE Tag = 'TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = 'The Janissary is an Ottoman unique unit, replacing the Musketman. The Janissary is stronger than the Musketman, available earlier, and heals every turn. This can give a Janissary army a crushing advantage against an enemy force.'
+SET Text = '예니체리는 머스킷병을 대체하는 오스만의 고유 유닛입니다. 예니체리는 머스킷병보다 더 강하고 이른 시기에 생산할 수 있으며, 매 턴 회복합니다. 예니체리 군대로 적 군대의 이점을 분쇄하십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_OTTOMAN_JANISSARY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -867,11 +863,11 @@ SET Text = '머스킷총병을 대체하는 오스만의 고유 유닛입니다.
 WHERE Tag = 'TXT_KEY_UNIT_HELP_JANISSARY';
 
 UPDATE Language_ko_KR
-SET Text = '사파히 기병은 오직 [ICON_CITY_STATE]도시 국가에서만 선물로 받을 수 있습니다.'
+SET Text = '시파히 기병은 오직 [ICON_CITY_STATE]도시 국가에서만 선물로 받을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SIPAHI';
 
 UPDATE Language_ko_KR
-SET Text = 'The Sipahi is stronger than the Lancer and has massive flanking bonuses. Pin your opponent''s army down using your Gunpowder Units'' Zone Of Control while attacking with your Sipahi from the side. Defeat weakened units to trigger the Overrun bonus damage, then retreat to safety.'
+SET Text = '시파히 기병은 창기병보다 강하고 강력한 측면 공격을 가합니다. 측면에서 사피히로 공격하면서 확약 부대의 통제 구역을 사용해 적을 고정하십시오. 적의 약한 유닛들을 처치해 초과 승급을 발동시키고 안전하게 후퇴하십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_OTTOMAN_SIPAHI_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -887,7 +883,7 @@ SET Text = '법원을 대체하는 페르시아의 고유 건물입니다. [ICON
 WHERE Tag = 'TXT_KEY_BUILDING_SATRAPS_COURT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Satrap''s Court is the Persian unique building. It replaces the Courthouse. Unlike a Courthouse, this Building can be built in any City. It increases Gold output in the City, Happiness, and increases your Golden Age Point rate by +1 for every 5 Citizens in the City.'
+SET Text = '사트라프 관청은 페르시아의 고유 건물입니다. 법원을 대체하지만 법원과는 다르게 아무 곳에나 건설할 수 있습니다. 도시의 골드와 행복을 증가시키고 시민 5명마다 황금기 점수를 +1 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_SATRAPS_COURT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -922,7 +918,7 @@ SET Text = '장검병을 대체하는 폴리네시아의 고유 유닛입니다.
 WHERE Tag = 'TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Unique Longswordsman that only Polynesia may build. The Maori Warrior is similar to a Great General; however instead of increasing the strength of friendly units, it decreases the strength of adjacent enemy units. Build plenty of these units, for their promotion stays with them as they are upgraded and they are not limited by [ICON_RES_IRON] Iron.'
+SET Text = '폴리네시아만 생산할 수 있는 고유 장검병입니다. 마오리 전사는 위대한 장군과 닮았습니다. 하지만 아군의 전투력을 증가시키는 대신, 적의 전투력을 감소시킵니다. 철 제한 없이 업그레이드 될 유닛들에도 이러한 승급을 부여하려면 마오리 전사를 미리 생산하십시오.'
 WHERE Tag = 'TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -972,7 +968,7 @@ SET Text = '발리스타는 오직 [ICON_CITY_STATE]도시 국가에서만 선�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BALLISTA';
 
 UPDATE Language_ko_KR
-SET Text = ' The Ballista is an excellent siege weapon. While still very useful against cities, its lack of penalties against land units and free Field I promotion gives it an extra punch against other units. The Ballista is still quite vulnerable to attack, so be sure to protect it with other military units. Moves at half speed in enemy territory, but has normal sight range.'
+SET Text = '발리스타는 훌륭한 공성 기구입니다. 여전히 도시를 상대하는 데 유용하고, 야전 I 승급을 받아 유닛과의 전투에서도 유용합니다. 발리스타는 여전히 공격에 약하므로, 군사 유닛으로 보호해야 합니다. 적 영토에서 이동력이 절반이 되지만, 기본 시야 범위를 유지합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -980,7 +976,7 @@ SET Text = '검사를 대체하는 로마의 고유 유닛입니다. 최전선�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ROMAN_LEGION';
 
 UPDATE Language_ko_KR
-SET Text = 'The Legion is the Roman unique unit, replacing the Swordsman. The Legion is more powerful than the Swordsman, making it the one of the most powerful melee units of the Classical Era. The Legion can also construct roads and forts and is the only non-Worker unit able to do so.'
+SET Text = '군단병은 검사를 대체하는 로마의 고유 유닛입니다. 군단병은 검사보다 더 강하므로, 고전 시대의 최강의 유닛이 됩니다. 군단병은 노동자가 아니지만 도로와 요새를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY';
 
 
@@ -997,11 +993,11 @@ SET Text = '오스트로그'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_DESC';
 
 UPDATE Language_ko_KR
-SET Text = 'The Ostrog is the Russian unique building, replacing the Arsenal. In addition to the normal bonuses of the Arsenal, the Ostrog is cheaper, unlocks earlier, and grants +1 Production and Gold to Camps, Mines, Lumbermills, and Strategic Resources. Increases Military Units supplied by this City''s population by 15%. It also causes enemy land units to expend 1 extra movement per tile if they move into a tile worked by this city. The Production, Gold and Maintenance requirements of the Ostrog are also greatly reduced, allowing you to quickly build it in newly-founded Cities. It is quite worthwhile to construct these useful buildings in all Russian cities, but especially in cities on the the Russian frontier.'
+SET Text = '오스트로그는 군수창고를 대체하는 러시아의 고유 건물입니다. 군수창고의 기본 보너스에 더해, 오스트로그는 더 저렴하고, 더 빨리 건설할 수 있고, 야영지, 광산, 재재소, 전략 자원에 +1 생산과 +1 골드를 제공합니다. 도시 인구의 15% 만큼 군사 유닛 보급 한도를 증가시킵니다. 적 지상 유닛이 이 도시에서 타일 이동에 이동력을 1 더 사용하게 만듭니다. 생산, 골드를 제공하고 오스트로그가 지어진 도시의 요구를 훌륭히 해소해, 새로 개척되는 도시가 빠르게 건설할 수 있도록 합니다. 모든 러시아 도시에, 특히 국경 도시에 이런 유용한 건물을 짓는 것은 꽤 가치 있는 일입니다.'
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'Ostrog is a Russian term for a small fort, typically wooden and often non-permanently manned. Ostrogs were widely used during the age of Russian imperial expansion, particularly during the 18th and early 19th centuries. Ostrogs were encircled by 6 metres high palisade walls made from sharpened trunks. The name derives from the Russian word strogat, "to shave the wood". Ostrogs were smaller and exclusively military forts, compared to larger kremlins that were the cores of Russian cities. Ostrogs were often built in remote areas or within the fortification lines, such as the Great Abatis Line.'
+SET Text = '오스트로그는 작은 요새를 뜻하는 러시아어 용어로, 일반적으로 나무로 되어 있고 종종 영구적으로 사람이 살지 않기도 합니다. 오스트로그는 특히 18세기와 19세기 초에 러시아 제국의 팽창 시대에 널리 사용되었습니다. 오스트로그는 뾰족한 줄기로 만들어진 6미터 높이의 팔리세이드 벽으로 둘러싸여 있었습니다. 이 이름은 러시아어로 "목재를 깎다"라는 뜻에서 유래되었습니다. 러시아 도시의 핵심이었던 크렘린에 비해 오스트로그는 작고 배타적인 군사 요새였습니다. 오스트로그는 종종 대아바티스 선과 같은 외딴 지역이나 방어선 안에 지어졌습니다.'
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_PEDIA';
 
 UPDATE Language_ko_KR
@@ -1032,11 +1028,11 @@ SET Text = 'This Tercio represents the advent of early gunpowder (''Pike and Sho
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Conquistador is a multi-purpose unit that is strong both on land and at sea. It also has the ability to found new cities, but only on a foreign continent that does not contain the Spanish capital. When founded, cities built by Conquistadors start with 3 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Water Mill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Mission[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do not apply to the buildings constructed by Conquistadores! The Mission is a special religious and defensive building only granted by settling Conquistadores.[NEWLINE][NEWLINE]The Conquistador is much stronger than the Explorer it replaces, with much higher Combat Strength, and large bonuses to Flanking and attacking Cities. Combined with its great mobility, the Conquistador is a formidable unit, able to augment or replace your existing Medieval military.'
+SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용도 유닛입니다. 신도시를 찾아내는 능력이 있지만 타 대륙에만 적용되며 스페인 수도는 포함하지 않습니다. 건설하면, 콩키스타도르로 건설한 도시는 3 시민으로 시작하며, 추가 영토를 얻습니다. 자동으로 다음 건물들이 지어집니다:[NEWLINE][NEWLINE][ICON_BULLET]자문회[NEWLINE][ICON_BULLET]약초상[NEWLINE][ICON_BULLET]시장[NEWLINE][ICON_BULLET]기념비[NEWLINE][ICON_BULLET]성소[NEWLINE][ICON_BULLET]병영[NEWLINE][ICON_BULLET]물레방앗간(가능하다면)[NEWLINE][ICON_BULLET]도서관[NEWLINE][ICON_BULLET]대장간[NEWLINE][ICON_BULLET]우물(가능하다면)[NEWLINE][ICON_BULLET]전도관[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 콩키스타도르로 건설한 건물에 적용되지 않습니다! 전도관은 콩키스타도르로 개척한 도시에서만 사용할 수 있는 특별한 종교적 방어적 건물입니다. [NEWLINE][NEWLINE]콩키스타도르는 대체하는 탐험가보다 더 강하고, 전투력이 높으며 측면 공격에 보너스를 받습니다. 훌륭한 이동력과 조합하면, 콩키스타도르는 기존 중세 군대를 증강하고나 대체할 수 있는 어마어마한 부대입니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '기사를 대체하는 스페인의 고유 유닛입니다. 정찰과 해외 식민지 건설에 특화된 중세 시대 유닛입니다. 초과 승급과 선봉 승급을 얻습니다.'
+SET Text = '탐험가를 대체하는 스페인의 고유 유닛입니다. 정찰과 해외 식민지 건설에 특화된 중세 시대 유닛입니다. 초과 승급과 선봉 승급을 얻습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_HELP';
 
 --------------------
@@ -1047,7 +1043,7 @@ SET Text = '기병대를 대체하는 쇼쇼니의 고유 유닛입니다. 기�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHOSHONE_COMANCHE_RIDERS';
 
 UPDATE Language_ko_KR
-SET Text = 'The Comanche Riders replaces the Cavalry, and only the Shoshone may build it. Used judiciously, this unit can enter enemy territory to destroy infrastructure with ease and escape with only minor damage.'
+SET Text = '코만치 기마병은 기병대를 대체하는 유닛입니다. 쇼쇼니만 생산할 수 있습니다. 신중하게 사용하면, 적 영토에 빠르게 진입해 기반 시설을 파괴하고 적은 피해만으로 후퇴할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SHOSHONE_COMANCHE_RIDERS_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1055,7 +1051,7 @@ SET Text = '탐사 능력이 뛰어난 게임 초반 유닛입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHOSHONE_PATHFINDER';
 
 UPDATE Language_ko_KR
-SET Text = 'The Pathfinder is the game''s first reconaissance unit. It fights poorly compared to a Warrior, but has better movement and vision.'
+SET Text = '길잡이는 게임의 첫 번째 정찰 유닛입니다. 전사에 비해 전투력은 형편없지만, 이동과 시야 확보에는 더 낫습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SHOSHONE_PATHFINDER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1070,7 +1066,7 @@ SET Text = '경찰대를 대체하는 시암의 고유 건물입니다. 성소 �
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Wat is the Siamese unique building, replacing the Constabulary. It is available much earlier than the building it replaces. The Wat increases the [ICON_CULTURE] Culture and [ICON_RESEARCH] Science of a City, increases the [ICON_RESEARCH] Science output of Temples and Shrines, and reduces spy stealing rates much more than the Constabulary. It also receives an additional Scientist Specialist, thus allowing it to produce Great Scientists more rapidly than other Civilizations.'
+SET Text = '와트는 경찰대를 대체하는 시암의 고유 건물입니다. 대체하는 건물보다 더 빠르게 건설할 수 있습니다. 와트는 도시의 [ICON_CULTURE] 문화와 [ICON_RESEARCH] 과학을 증가시키고, 성소와 사원의 [ICON_RESEARCH] 과학을 증가시키며, 스파이 활동을 경찰대보다 더 잘 예방합니다. 과학자 슬롯을 추가로 얻어, 다른 문명보다 위대한 과학자를 더 빨리 얻을 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1089,7 +1085,7 @@ SET Text = '석재 공장을 대체하는 송가이의 고유 건물입니다. �
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'The Tabya is a Songhai unique building, replacing the Stone Works. The Tabya greatly increases the [ICON_PRODUCTION] Production of Cities on rivers, boosts the value of Stone, Marble, and Salt, and boosts the production of future Buildings in the City by 10%. Also allows [ICON_PRODUCTION] Production to be moved from this city along trade routes inside your civilization.'
+SET Text = '타브야는 석재 공장을 대체하는 송가이의 고유 건물입니다. 타브야는 강 근처의 [ICON_PRODUCTION] 생산을 엄청나게 증가시키고, 석재, 대리석, 소금의 가치를 증가시키며, 건물들의 건설 속도를 10% 증가시킵니다. [ICON_PRODUCTION] 도시의 생산을 당신 문명의 다른 도시로 제공할 수 있게 만듭니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1097,7 +1093,7 @@ SET Text = '타브야'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_DESC';
 
 UPDATE Language_ko_KR
-SET Text = 'Adobe, the Spanish word for mud brick, is a natural building material made from sand, clay, water and some kind of fibrous or organic material (sticks, straw or manure) and the bricks made with adobe material using molds and dried in the sun. The Great Mosque of Djenné, in central Mali, is largest mudbrick structure in the world. It, like much Sahelian architecture, is built with a mudbrick called Banco: a recipe of mud and grain husks, fermented, and either formed into bricks or applied on surfaces as a plaster like paste in broad strokes. This plaster must be reapplied annually. The facilities where these material were created were called Tabya (Cobworks), and played an essential role in West African architecture.'
+SET Text = '스페인어로 진흙 벽돌을 뜻하는 어도비는 모래, 점토, 물과 섬유질 또는 유기 재료(막대, 짚 또는 거름)로 만들어진 천연 건축 자재와 곰팡이를 사용하여 만든 어도비 재료로 만든 벽돌을 햇볕에 말려 만든 것입니다. 말리 중부에 있는 젠네 모스크는 세계에서 가장 큰 진흙 벽돌 건물입니다. 다른 많은 사헬리안 건축물과 마찬가지로, 그것은 Banco라고 불리는 진흙 벽돌로 지어졌습니다: 진흙과 곡물 껍질의 레시피로 발효되고, 벽돌로 형성되거나 넓은 획에서 페이스트와 같은 회반죽으로 표면에 발라집니다. 이 회반죽은 매년 다시 발라야 합니다. 이 재료들이 만들어진 시설들은 타브야 라고 불렸고, 서아프리카 건축에서 필수적인 역할을 했습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BUILDING_MUD_PYRAMID_MOSQUE_PEDIA';
 
 UPDATE Language_ko_KR
@@ -1105,7 +1101,7 @@ SET Text = '야만인 주둔지나 도시를 약탈할 때 획득하는 [ICON_GO
 WHERE Tag = 'TXT_KEY_TRAIT_AMPHIB_WARLORD';
 
 UPDATE Language_ko_KR
-SET Text = 'This is a Songhai unique unit, replacing the Knight. This unit gains a significant bonus when attacking cities and flanking other units. The Mandekalu Cavalry can move after attacking. Its speed makes it difficult for an enemy to build a defensive line before the Mandekalu Cavalry reaches the target.'
+SET Text = '기사를 대체하는 송가이의 고유 유닛입니다. 도시를 공격하고 유닛을 포위할 때 눈에 띄는 보너스를 얻습니다. 만데칼루 기병은 공격 후 이동할 수 있습니다. 유닛의 속도는 적이 만데칼루 기병이 목표에 접근하기 전에 방어하기 어렵게 만듭니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1124,7 +1120,7 @@ SET Text = '수발총병을 대체하는 스웨덴의 고유 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN';
 
 UPDATE Language_ko_KR
-SET Text = 'Caroleans are the backbone of the Renaissance era Swedish army. They start with the March promotion that allows it to Heal every turn, even if it performs an action. The Carolean also receives a 15% combat bonus when stacked with a Great General, and deals damage to all adjacent units after advancing from killing a unit.'
+SET Text = '카롤린넬은 스웨덴 군대의 중추입니다. 행군 승급을 가지고 시작해 행동하도라도 매 턴 회복합니다. 카롤린넬은 장군과 겹쳐지면 15%의 공격 보너스를 받고, 유닛을 처치할 때 주변 유닛들에게 피해를 줍니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1132,7 +1128,7 @@ SET Text = '하카펠리타는 오직 [ICON_CITY_STATE]도시 국가에서만 �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA';
 
 UPDATE Language_ko_KR
-SET Text = 'The Hakkapeliitta is much faster and can see one hex farther than the Lancer. It pillages enemy improvements at no additional cost, so foray into enemy lands to knock out key improvements, using its improved sight and speed to minimize retaliatory attacks. Keep the unit healthy by pillaging and defeating weakened units, as it has lower [ICON_STRENGTH] Combat Strength than its contemporary Lancers.'
+SET Text = '하카펠리타는 창기병보다 빠르고 한 타일 더 멀리 볼 수 있습니다. 약탈에 이동력을 소모하지 않으므로, 시설을 파괴하기 위해 적 영토에 침입하고, 향상된 시야와 속도를 이용해 반격을 최소화할 수 있습니다. 약탈로 유닛의 체력을 유지하며 약해져 [ICON_STRENGTH] 전투력이 낮아진 적들을 처치하십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1151,7 +1147,7 @@ SET Text = '그레이트 갈레아스는 갈레아스와 비슷하지만, 전투
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'The Merchant of Venice is a unique Great Merchant replacement. Aside from the normal Great Merchant abilities, the Merchant of Venice can acquire a City-State outright, bringing it under Venetian control as a puppet. The Merchant of Venice can also found a Colonia, which is a City that starts Puppeted and with the following bonuses: additional territory, additional population, a Market, and a Monument. The Merchant of Venice is expended when used in any of these ways.'
+SET Text = '베니스의 상인은 위대한 상인을 대체하는 고유 위인입니다. 위대한 상인과 다르게, 베니스의 상인은 도시 국가를 사들여 베네치아의 괴뢰 도시로 만들 수 있습니다. 베니스의 상인은 또한 식민지를 만들 수 있는데, 세워진 도시는 괴뢰 도시로 시작하며 다음 보너스를 얻습니다: 추가 영토, 추가 시민, 시장, 기념비. 베니스의 상인은 다음 능력 중 하나를 사용하면 소모됩니다.'
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_MERCHANT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1171,11 +1167,11 @@ SET Text = '병영을 대체하는 줄루의 고유 건물입니다. 도시에�
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'In addition to the regular abilities of the Barracks which it replaces, the Ikanda grants a unique set of promotions to all melee units created within the city. These include faster movement, better flanking, and greater combat strength. Only the Zulu may build it.'
+SET Text = '병영의 기본 능력에 추가로, 이칸다는 생성된 유닛이 고유 승급 트리를 뷰여합니다. 승급에는 이동력 증가, 측면 공격 강화, 더 큰 전투력 보너스가 있습니다. 줄루만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'Before engaging in melee, the Impi performs a spear throw attack that can damage or kill the enemy unit.  Because they gain experience from both the spear throw and the melee combat, Impis gain promotions very quickly. Lacking the ability to fortify, they fair worse when defending critical positions, so attack early and often.'
+SET Text = '공격하기 전, 임피는 창을 던져 적을 공격하거나 처치할 수 있습니다. 창을 던지고 근접 공격을 수행하므로, 임피는 매우 빨리 승급을 얻습니다. 방어 능력이 부족하기 때문에 중요한 위치를 공격하기 보다는 먼저, 자주 공격하는 것이 좋습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ZULU_IMPI_STRATEGY';
 
 UPDATE Language_ko_KR
