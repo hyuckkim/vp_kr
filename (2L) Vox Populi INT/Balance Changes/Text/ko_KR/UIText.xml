@@ -944,7 +944,7 @@
 
 		<!-- Economic Overview -->
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS">
-			<Text>도시는 [ICON_CITIZEN]시민 수 보다 더 많은 [ICON_HAPPINESS_3]불행을 생성할 수 없습니다 ([ICON_GREAT_PEOPLE] 도시화를 제외하고).[NEWLINE][NEWLINE]지역 [ICON_HAPPINESS_3] 불행: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] ({2_NUM}턴)</Text>
+			<Text>도시는 [ICON_CITIZEN]시민 수 보다 더 많은 [ICON_HAPPINESS_3]불행을 생성할 수 없습니다 ([ICON_URBANIZATION] 도시화를 제외하고).[NEWLINE][NEWLINE]지역 [ICON_HAPPINESS_3] 불행: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] ({2_NUM}턴)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CAPITAL_UNHAPPINESS_MOD">
