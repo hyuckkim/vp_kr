@@ -50,16 +50,16 @@ Source: "..\(1L) Community Patch INT\*"; DestDir: "{app}\(1L) Community Patch IN
 Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\(3aL) Vox Populi - EUI Compatibility INT\*"; DestDir: "{app}\(3aL) Vox Populi - EUI Compatibility INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\(4bL) UI - Promotion Tree for VP Localized (v 1)\*"; DestDir: "{app}\(4bL) UI - Promotion Tree for VP Localized (v 1)"; Flags: ignoreversion createallsubdirs recursesubdirs;
-Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: FullColor
+Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VoteColor
 
 [Components]
 Name: "FullColor"; Description: "Vox Populi INT"; Types: FullColor; Flags: exclusive disablenouninstallwarning  
-Name: "VoteColor"; Description: "Vox Populi INT with vote color patch"; Types: VoteColor; Flags: exclusive disablenouninstallwarning
+Name: "VoteColor"; Description: "Vox Populi INT with disable civ color for votes"; Types: VoteColor; Flags: exclusive disablenouninstallwarning
 
 [Types]
 Name: "FullColor"; Description: "Vox Populi INT"
-Name: "VoteColor"; Description: "Vox Populi INT with vote color patch"
+Name: "VoteColor"; Description: "Vox Populi INT with disable civ color for votes"
 
 [InstallDelete]
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\cache"
