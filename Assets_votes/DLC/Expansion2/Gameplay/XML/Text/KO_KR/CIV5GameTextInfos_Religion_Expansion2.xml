@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
+            <Text>도시 국가에 [ICON_GOLD]골드를 선물하면 얻는 영향력이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT">
+            <Text>자선 임무</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_EARTH_MOTHER">
+            <!--땅의여신-->
+            <Text>[ICON_RES_COPPER]구리 [ICON_RES_IRON]철 [ICON_RES_SALT]소금의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_EARTH_MOTHER_SHORT">
+            <Text>땅의 여신</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_EVANGELISM">
+            <Text>다른 종교를 믿는 도시에 종교 전파 시 다른 종교의 압력이 감소</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_EVANGELISM_SHORT">
+            <Text>복음주의</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_GOD_KING">
+            <!--신왕-->
+            <Text>궁전의 [ICON_CULTURE]문화 [ICON_PEACE]신앙 [ICON_GOLD]골드 [ICON_PRODUCTION]생산 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_GOD_KING_SHORT">
+            <Text>신왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_HEATHEN_CONVERSION">
+            <Text>선교사가 주위에 있는 야만인 유닛을 아군으로 편입</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT">
+            <Text>이교도 개종</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION">
+            <Text>[ICON_PEACE]신앙을 사용하여 대학, 공립학교 및 연구소를 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT">
+            <Text>예수회 교육</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
+            <Text>에르미타슈 박물관의 [ICON_CULTURE]문화와 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_FERVOR">
+            <Text>[ICON_PEACE]신앙을 사용하여 산업 시대 이후 지상 유닛 생산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT">
+            <Text>종교적 열정</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SACRED_SITES">
+            <Text>[ICON_PEACE]신앙으로 건설한 건물 하나당 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SACRED_SITES_SHORT">
+            <Text>성지</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SUN_GOD">
+            <!--태양의 신-->
+            <Text>[ICON_RES_BANANA]바나나 [ICON_RES_CITRUS]감귤 [ICON_RES_WHEAT]밀의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SUN_GOD_SHORT">
+            <Text>태양의 신</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_TEARS_OF_GODS">
+            <!--신들의 눈물-->
+            <Text>[ICON_RES_GEMS]보석 [ICON_RES_PEARLS]진주의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_TEARS_OF_GODS_SHORT">
+            <Text>신들의 눈물</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_TO_GLORY_OF_GOD">
+            <Text>산업 시대부터 [ICON_PEACE]신앙을 사용하여 원하는 [ICON_GREAT_PEOPLE]위인을 구입</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_TO_GLORY_OF_GOD_SHORT">
+            <Text>신의 영광</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_UNDERGROUND_SECT">
+            <Text>도시에 잠입한 [ICON_SPY]스파이가 도시에 종교적 압력을 가함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_UNDERGROUND_SECT_SHORT">
+            <Text>지하 종교 단체</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_UNITY_OF_PROPHETS">
+            <Text>이단심문관과 선지자가 이 종교의 영향을 완전히 제거하지 못하고 절 반으로 감소시킴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_UNITY_OF_PROPHETS_SHORT">
+            <Text>선지자 협의회</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_CATHOLICISM">
+            <Text>가톨릭</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_ORTHODOXY">
+            <Text>동방 정교회</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_PROTESTANTISM">
+            <Text>개신교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>

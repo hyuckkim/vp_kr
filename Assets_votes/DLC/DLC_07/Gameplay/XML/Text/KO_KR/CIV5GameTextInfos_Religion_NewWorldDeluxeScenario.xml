@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_APU_SHORT">
+            <Text>아푸</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_APU">
+            <Text>[ICON_CONNECTED]도시 연결이 성립된 도시의 [ICON_PEACE]신앙이 3 증가하고, 교역소의 [ICON_GOLD]골드 산출량이 1 증가하며, [ICON_PEACE]신앙을 사용해 노동자를 생산할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_COQUIHANI">
+            <Text>채석장의 [ICON_PEACE]신앙이 2 증가하고, 불가사의의 [ICON_PRODUCTION]생산 속도가 15% 증가하며, [ICON_PEACE]신앙을 사용해 작업장을 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_COYOTE">
+            <Text>재배지의 [ICON_PEACE]신앙과 [ICON_RESEARCH]과학이 1 증가하고, [ICON_PEACE]신앙을 사용해 도서관을 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_DANCE_AURORA_NWS">
+            <Text>숲이 없는 툰드라 타일의 [ICON_PEACE]신앙이 2 증가하고, 눈 타일의 [ICON_PEACE]신앙이 4 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE_NWS">
+            <Text>사막 타일의 [ICON_PEACE]신앙이 2 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_EARTHS_BOUNTY">
+            <Text>[ICON_RES_IRON]철, [ICON_RES_GEMS]보석, [ICON_RES_GOLD]금, [ICON_RES_SILVER]은, [ICON_RES_COPPER]구리, [ICON_RES_SALT]소금 자원 하나당 [ICON_PEACE]신앙이 2 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_HOLY_ANIMALS">
+            <Text>목장 타일의 [ICON_PEACE]신앙이 3 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_HOLY_HIGH_GROUND">
+            <Text>언덕 타일의 [ICON_PEACE]신앙이 1 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_HOLY_LOW_GROUND">
+            <Text>습지와 범람원 타일의 [ICON_PEACE]신앙이 3 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_HUNAHPU">
+            <Text>캠프의 [ICON_FOOD]식량 산출량이 1 증가하고, [ICON_RES_BANANA]바나나, [ICON_RES_CITRUS]감귤, [ICON_RES_WHEAT]밀 자원 하나당 [ICON_PEACE]신앙이 1 증가하며, [ICON_PEACE]신앙을 사용해 사원을 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_INTI">
+            <Text>국경 확장 속도가 15% 증가하고, 사원에서 제공하는 [ICON_HAPPINESS_1]행복이 2, 사원에서 제공하는 [ICON_PEACE]신앙이 1 증가하며, [ICON_PEACE]신앙을 사용해 개척자를 생산할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_MEETING_HOUSES">
+            <Text>[ICON_PEACE]신앙을 사용해 예배당을 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_MEETING_HOUSES_SHORT">
+            <Text>예배당</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE_NWS">
+            <Text>자연 경관의 [ICON_PEACE]신앙이 8 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION_NWS">
+            <Text>재배지의 [ICON_PEACE]신앙이 2 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_QUETZALCOATL">
+            <Text>[ICON_FOOD]식량이 10% 증가하고, 정원의 [ICON_PEACE]신앙이 3 증가하며, [ICON_PEACE]신앙을 사용해 물레방앗간과 송수로를 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SACRED_PATH_NWS">
+            <Text>정글 타일의 [ICON_PEACE]신앙이 2 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SACRED_WATERS_NWS">
+            <Text>호수, 해안, 바다 타일의 [ICON_PEACE]신앙이 2 증가합니다. 강 주위에 세운 도시가 있으면 [ICON_HAPPINESS_1]행복이 1 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SEDNA">
+            <Text>어선의 [ICON_PEACE]신앙이 1 증가하고, 호수, 해안, 바다 타일의 [ICON_PRODUCTION]생산이 1 증가하며, [ICON_PEACE]신앙을 사용해 등대를 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SOSONDOWAH">
+            <Text>성채의 [ICON_PEACE]신앙이 4 증가하고, 요새의 [ICON_PEACE]신앙이 2 증가하며, 도시 내의 [ICON_RANGE_STRENGTH]원거리 전투력이 30% 증가하고, [ICON_PEACE]신앙을 사용해 성벽을 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_TOTEMISM">
+            <Text>캠프의 [ICON_PEACE]신앙이 2 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_WORLD_TREES">
+            <Text>숲 타일의 [ICON_PEACE]신앙이 2 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_XBALANQUE">
+            <Text>전투에 승리하면 [ICON_PEACE]신앙을 획득하고, [ICON_PEACE]신앙을 사용해 고전 시대의 전투 유닛을 생산할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COQUIHANI_SHORT">
+            <Text>코키하니</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COYOTE_SHORT">
+            <Text>불을 훔친 코요테</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EARTHS_BOUNTY_SHORT">
+            <Text>지구의 너그러움</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HOLY_ANIMALS_SHORT">
+            <Text>신성한 동물들</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HOLY_HIGH_GROUND_SHORT">
+            <Text>신성한 고지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HOLY_LOW_GROUND_SHORT">
+            <Text>신성한 저지대</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HUNAHPU_SHORT">
+            <Text>후나푸</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTI_SHORT">
+            <Text>인티</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BELIEF_HOLY_WARRIORS">
+            <Text>[ICON_PEACE]신앙을 사용해 늦은 수평선(및 더 늦은 수평선) 지상 유닛을 생산할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_QUETZALCOATL_SHORT">
+            <Text>케찰코아틀</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_AZTEC_PANTHEON">
+            <Text>아즈텍 종교관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_INCA_PANTHEON">
+            <Text>잉카 종교관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_IROQUOIS_PANTHEON">
+            <Text>이로쿼이 종교관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_MAYA_PANTHEON">
+            <Text>마야 종교관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_PANTHEON_NWS_PEDIA">
+            <Text>무료 소수 종교를 줍니다. 종교에 대한 자세한 정보를 보려면 화면 상단에 있는 정보 바의 신앙 정보에 마우스 커서를 올려놓으십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_SHOSHONE_PANTHEON">
+            <Text>쇼숀 종교관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SEDNA_SHORT">
+            <Text>세드나</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SOSONDOWAH_SHORT">
+            <Text>소손도와</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TOTEMISM_SHORT">
+            <Text>토테미즘</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORLD_TREES_SHORT">
+            <Text>세상의 나무</Text>
+        </Row>
+        <Row Tag="TXT_KEY_XBALANQUE_SHORT">
+            <Text>츠바란쿠</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

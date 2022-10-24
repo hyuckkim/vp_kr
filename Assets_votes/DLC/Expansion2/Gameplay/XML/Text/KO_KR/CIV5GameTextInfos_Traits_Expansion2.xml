@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_TRAIT_BUFFALO_HORNS">
+            <Text>근접 유닛의 유지 비용이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다. 모든 유닛이 다음 승급에 필요한 경험치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_BUFFALO_HORNS_SHORT">
+            <Text>이클와</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CARNIVAL">
+            <Text>[ICON_GOLDEN_AGE]황금기의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. [ICON_GOLDEN_AGE]황금기에 위대한 예술가, 음악가, 작가를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 더 빨리 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CARNIVAL_SHORT">
+            <Text>카니발</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
+            <Text>야만인 주둔지 내의 야만인을 처치하면 [COLOR_POSITIVE_TEXT]67%[ENDCOLOR] 확률로 야만인이 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [ICON_GOLD]골드와 함께 당신의 문명에 합류합니다. 지상 유닛의 유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+            <Text>수도에서 얻을 수 있는 박물관과 세계 불가사의의 테마 보너스가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT">
+            <Text>빛의 도시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_EXTRA_TRADE">
+            <Text>[ICON_INTERNATIONAL_TRADE]교역로에서 다양한 자원을 통해 얻는 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 더 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_EXTRA_TRADE_SHORT">
+            <Text>닫힌 지중해</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED">
+            <Text>유닛이 피해를 받아도 항상 최대 [ICON_STRENGTH]전투력을 유지합니다. 어선이 생산하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], 산호섬이 생산하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA">
+            <Text>다른 문명이나 도시 국가와 연결된 [ICON_INTERNATIONAL_TRADE]교역로마다 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]3[ENDCOLOR]씩, [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 획득합니다. 모로코와 [ICON_INTERNATIONAL_TRADE]교역로를 연결한 문명은 교역로 하나마다 [ICON_GOLD]골드를 2씩 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA_SHORT">
+            <Text>아프리카의 관문</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_GREAT_EXPANSE">
+            <Text>도시를 건설할 때 [COLOR_POSITIVE_TEXT]추가 영역[ENDCOLOR]을 가지고 시작합니다. 자신의 영역에서 싸우는 유닛은 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]의 전투력 보너스를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_GREAT_EXPANSE_SHORT">
+            <Text>대확장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2">
+            <Text>대상의 범위가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 당신의 [ICON_INTERNATIONAL_TRADE]교역로에서 종교를 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 더 효율적으로 전파합니다. [ICON_OIL]석유 자원이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]가 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT">
+            <Text>사막의 배</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SLAYER_OF_TIAMAT">
+            <Text>도시를 정복한 후 해당 도시의 소유자가 발견한 기술 중 [COLOR_POSITIVE_TEXT]하나[ENDCOLOR]를 획득합니다. 거래로 도시를 얻는 것은 해당하지 않으며, 적 도시 하나당 한 번만 일어납니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SLAYER_OF_TIAMAT_SHORT">
+            <Text>니네베의 보물</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SOLIDARITY">
+            <Text>다음 시대로 넘어갈 때 사회 정책 [COLOR_POSITIVE_TEXT]하나[ENDCOLOR]를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SOLIDARITY_SHORT">
+            <Text>연대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SPICE">
+            <Text>인도네시아가 속하지 않은 대륙에 건설한 첫 3개의 도시에서 도시별 고유 사치 자원을 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]씩 제공합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SPICE_SHORT">
+            <Text>향료의 섬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE">
+            <Text>개척자를 얻거나 도시를 합병할 수 없지만, 괴뢰 도시에서 구매할 수 있습니다. 사용할 수 있는 [ICON_INTERNATIONAL_TRADE]교역로의 수를 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 늘립니다. 광학을 연구하면 베니스의 상인이 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE_SHORT">
+            <Text>세레니시마</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_1">
+			<Text>아주 좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_2">
+			<Text>알았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_3">
+			<Text>기꺼이 그러겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_4">
+			<Text>알겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_5">
+			<Text>오, 좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_6">
+			<Text>그러겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_7">
+			<Text>훌륭합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_ATTACKED_1">
+			<Text>도전하는 것입니까? 당신을 박살내주겠습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_ATTACKED_2">
+			<Text>불한당 같군요! 나는 당신의 더러운 머리를 궁전의 벽에 걸어서 비둘기 모이로 만들겠습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_ATTACKED_3">
+			<Text>멍청하군요! 단언컨대 당신은 이 결정을 후회하게 될 것입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DECLAREWAR_1">
+			<Text>당신은 우리의 훌륭한 자연을 모욕하였습니다! 전쟁을 준비하십시오!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DECLAREWAR_2">
+			<Text>당신의 존재는 알라신에 대한 모욕입니다. 전쟁을 준비하십시오, 역겨운 야만인이여!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DECLAREWAR_3">
+			<Text>당신이 없어지면 이 땅은 살기에 더 좋아질 것입니다. 전쟁을 준비하십시오!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DEFEATED_1">
+			<Text>나는 끝났습니다. 이제 마음대로 하십시오. 후세에 나의 위대한 패배가 서사시로 남을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DEFEATED_2">
+			<Text>당신은 세계의 가장 아름답고 계몽적인 곳을 빼앗았습니다. 만족하기를 바랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DEFEATED_3">
+			<Text>축하합니다. 당신은 승리했습니다. 나의 궁전은 당신의 것이랍니다. 공작새를 잘 보살펴주십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DEMANDTRIBUTE_ANGRY">
+			<Text>당신의 존재가 나를 화나게 만들고 있군요. 나는 값에 대해서라면 조금 자비로워질 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DEMANDTRIBUTE_HAPPY">
+			<Text>나의 친구여, 도와줄 수 있겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DEMANDTRIBUTE_NEUTRAL">
+			<Text>당신의 독립이 계속되기를 원한다면, 우리에게 이것을 주어야 할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_1">
+			<Text>싫습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_2">
+			<Text>절대 안됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_3">
+			<Text>거절하겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_4">
+			<Text>물론, 안 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_5">
+			<Text>받아들일 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_6">
+			<Text>좀 진지해질 수 없습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_7">
+			<Text>다시 말씀해 주시겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_FIRSTGREETING_1">
+			<Text>환영합니다! 나는 아랍인 하룬 알 라시드라고 한답니다. 이리 와서 우리 궁전의 호화로움에 감탄하십시오!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_FIRSTGREETING_2">
+			<Text>아! 지평선에 나타난 새로운 별이군요. 나는 아라비아의 하룬 알 라시드라고 한답니다! 나는 우리의 역사적 만남을 기념하여 서사시를 쓸 것입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_FIRSTGREETING_3">
+			<Text>이방인이여, 환영합니다! 나는 아라비아의 지도자, 하룬 알 라시드라고 한답니다. 이리 와서 당신의 제국에 대해 말해보십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_1">
+			<Text>좋은 날 되십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_2">
+			<Text>안녕히 가십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_3">
+			<Text>잘 가십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_4">
+			<Text>다시 만날 때까지 잘 계십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_5">
+			<Text>공작에게 모이를 줄 시간입니다. 어서 가십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_6">
+			<Text>끝났습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_7">
+			<Text>우리의 회의는 끝났습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GREETING_1">
+			<Text>어서 오십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GREETING_2">
+			<Text>안녕하시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GREETING_3">
+			<Text>좋은 날입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GREETING_4">
+			<Text>당신에게 하늘의 은총이 있기를!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GREETING_5">
+			<Text>오, 당신이군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GREETING_6">
+			<Text>흠?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_GREETING_7">
+			<Text>뭘 원합니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_1">
+			<Text>어서 말해보세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_2">
+			<Text>계속하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_3">
+			<Text>듣고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_4">
+			<Text>음?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_5">
+			<Text>아, 말하고 있었습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_6">
+			<Text>그리고요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_7">
+			<Text>계속해보시죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_LOSEWAR_1">
+			<Text>당신이 아량을 베풀어준다면, 은혜를 잊지 않겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_ANGRY_1">
+			<Text>더 제시해 보십시오. 당신은 현명한 지도자요, 아니면 단 것을 달라고 보채는 어린아이입니까? 더 나은 조건을 제시해 보란 말입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_ANGRY_2">
+			<Text>충분하지 않군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_ANGRY_3">
+			<Text>더 제시해야 할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_HAPPY_1">
+			<Text>친구여, 나는 당신의 조건을 수락할 수 없습니다. 조금 더 제시할 수 없습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_HAPPY_2">
+			<Text>음... 이게 당신의 최선입니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_HAPPY_3">
+			<Text>거의 되었습니다... 조금만 더 제시해 보십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_NEUTRAL_1">
+			<Text>알다시피 우리는 최고의 상인입니다. 당신은 우리에게 이익을 챙길 수 없습니다. 조금 더 제시할 생각은 없습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_NEUTRAL_2">
+			<Text>더 잘 제시할 수는 없습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_NEUTRAL_3">
+			<Text>아직 충분하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_NEUTRAL_4">
+			<Text>거의...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NO_ANGRY">
+			<Text>혹시 당신 어린아이인가요? 이 제안은 말도 안 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NO_HAPPY">
+			<Text>뭐든지 물어보십시오, 친구여. 뭐든지요! 그것만 제외하고 말입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NO_NEUTRAL">
+			<Text>뭐라고요? 혹시 술 마셨습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_YES_ANGRY">
+			<Text>생각보다 현명하군요. 알겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_YES_HAPPY">
+			<Text>당신의 지혜와 총명함에 감탄하였습니다. 알겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADE_YES_NEUTRAL">
+			<Text>공평한 거래는 이 세계를 더욱 더 아름답게 만들고는 하지요. 알겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADEREQUEST_ANGRY">
+			<Text>이 제안에 관심 있어요? 당신에게 너무 복잡하다면, 당신의 고문이 설명해줄 것이랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADEREQUEST_HAPPY">
+			<Text>친구여, 우리 공동의 번영을 위해 거래하는 게 어떻겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRADEREQUEST_NEUTRAL">
+			<Text>이리 오시오. 담화를 나눠봅시다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_NO_ANGRY">
+			<Text>당신은 못생기고 멍청한 사람이며, 그런 당신의 존재는 나를 화나게 하는군요. 가 버리시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_NO_HAPPY">
+			<Text>나의 친구여, 심장에 비수가 꽂히는 것 같지만, 당신의 제안을 거절할 수밖에 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_NO_NEUTRAL">
+			<Text>절대 안 됩니다! 우리는 평화를 좋아하지만, 우리의 생존을 위해 보물과 명예를 지킬 것입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_YES_ANGRY">
+			<Text>좋아요. 훌륭한 문명은 열등한 자에게 자비로운 법이거든요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_YES_HAPPY">
+			<Text>오, 당연합니다! 우리와 같이 훌륭한 부를 누리고 있는 자라면 자비롭게 베풀어야 합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_YES_NEUTRAL">
+			<Text>좋습니다. 우리의 관대함을 기억할 것이라 믿습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_1">
+			<Text>위험한 게임을 하고 있군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_2">
+			<Text>좋습니다. 다음부턴 이제 공손하게 대하지 않을 것이랍니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_3">
+			<Text>실망스럽군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_4">
+			<Text>정말 실망스럽군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_5">
+			<Text>정말인가요? 당신의 짧은 생각을 후회할 생각조차 없을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_6">
+			<Text>멍청하군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN_WINWAR_1">
+			<Text>세상이 더 좋아졌군요. 교훈을 얻길 바랍니다.</Text>
+		</Row>
+	</Language_KO_KR>
+</GameData>

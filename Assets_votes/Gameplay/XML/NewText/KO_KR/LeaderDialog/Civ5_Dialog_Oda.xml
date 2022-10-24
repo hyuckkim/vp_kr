@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_1">
+			<Text>매우 좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_2">
+			<Text>좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_3">
+			<Text>물론입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_4">
+			<Text>좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_5">
+			<Text>오, 매우 좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_6">
+			<Text>그러는게 좋을 것 같습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_7">
+			<Text>좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_ATTACKED_1">
+			<Text>불쌍한 멍청이군요! 이제 우리는 당신을 파괴할 겁니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_ATTACKED_2">
+			<Text>이런 쓸모없는 야만인이여, 언젠가 당신의 선택에 대가를 치르게 될 겁니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_ATTACKED_3">
+			<Text>욕심만 많은 어리석은 놈이여! 이제 당신은 파멸할 겁니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DECLAREWAR_1">
+			<Text>난 당신의 위대한 국가를 이 세상의 표면에서 쓸어버리겠고 말하는 것에 대해 스스로 혐오감을 가지고 있었지만, 어쩔 수 없이 말해야겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DECLAREWAR_2">
+			<Text>몹시 슬프지만, 나는 이 세상에서 두 위대한 문명이 나누기엔 크지 않다고 결정했습니다. 당신은 멸망해줘야겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DECLAREWAR_3">
+			<Text>생존의 긴박함이 나로 하여금 지금 즉시 당신의 문명에서 가능한 많은 것을 전부 다 빼앗으라고 합니다. 유감입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DEFEATED_1">
+			<Text>당신은 내가 평가했던 것보다 매우 영리합니다. 축하합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DEFEATED_2">
+			<Text>당신은 뛰어난 기술과 대담무쌍함을 보여주었습니다. 누군가는 당신을 일본인일 것으로 생각할 겁니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DEFEATED_3">
+			<Text>잘 해주었습니다. 나의 대적자여. 당신은 날 패배시켰습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DEFEATED_4">
+			<Text>나는 패배했습니다. 당신은 축하받아야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DEMANDTRIBUTE_ANGRY">
+			<Text>내가 생각하기에 우리에게 우리의 우정을 유지하는 데 당신이 이 공물을 주는 것보다 더 나은 방법이 없는 것 같습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DEMANDTRIBUTE_HAPPY">
+			<Text>겸손하고 친절한 이 일본인이 우리의 친구와 동맹에 조그마한 호의를 구할 수 있겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DEMANDTRIBUTE_NEUTRAL">
+			<Text>당신은 우리에게 무한한 관대함으로 우리에게 기부해 줌으로써 큰 영광을 줄 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_1">
+			<Text>미안합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_2">
+			<Text>겸손하게 거절합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_3">
+			<Text>후회할 것 같지만, 거절해야만 하겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_4">
+			<Text>그런건 나중에 말하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_5">
+			<Text>뭐라고 했습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_FIRSTGREETING_1">
+			<Text>우린 위대한 지도자와 장군을 만나 매우 기쁘고 영광스러울 따름입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_FIRSTGREETING_2">
+			<Text>나 전사는 그대 같은 강한 전사에게 인사를 올리겠으며, 공평하고 정당한 동맹을 무척 기대하겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_FIRSTGREETING_3">
+			<Text>사실, 그대와 같은 위대한 존재에게 우리를 이끌어 주신 것에 대해 하늘이 우리에게 미소를 지어주었다고 생각할 수밖에 없습니다. 얼마나 그대를 도울 수 있겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_1">
+			<Text>좋은 날입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_2">
+			<Text>안녕히 계십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_3">
+			<Text>그럼 안녕히 계십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_4">
+			<Text>다음에 다시 만날 때까지 안녕히 계십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_5">
+			<Text>이제 가보십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_6">
+			<Text>그럼 이만 가보겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_7">
+			<Text>우리 볼일은 여기서 끝난 것 같습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GREETING_1">
+			<Text>환영합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GREETING_2">
+			<Text>안녕하십니까.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GREETING_3">
+			<Text>안녕하신지요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GREETING_4">
+			<Text>좋은 날입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GREETING_5">
+			<Text>오, 당신이군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GREETING_6">
+			<Text>예?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_GREETING_7">
+			<Text>제가 얼마나 많이 당신을 도와줬습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_1">
+			<Text>여기 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_2">
+			<Text>계속하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_3">
+			<Text>그리고요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_4">
+			<Text>듣고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_5">
+			<Text>네?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_6">
+			<Text>다음은요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_7">
+			<Text>계속하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_8">
+			<Text>그리고요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_LOSEWAR_1">
+			<Text>우리가 본 적 중 제일 강하고 용감한 적이었습니다. 당신과 싸우게 되어 영광이었습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_QUOTE_1">
+			<Text>이마가와가 40,000명을 이곳으로 보낸다고? 난 그렇게 믿지 않아 그는 오직 25,000명의 병력을 가지고 있어. 그래, 그들은 여전히 많아. 그래, 사도, 당신은 나를 항복시키고 싶겠지. 우리가 항복하면 어찌할 건가? 당신은 그렇게 당신 삶을 그런 식으로 만족할 건가? 만약 우리가 카츠이에가 원하는 것 같은 것을 가지면 어떻게 될까? 만약 우리가 성 안에 기다려서, 문을 잠그고, 이마가와가 그들의 탐욕을 잃을 때까지 기다려서 공성을 멈추고 집에 돌아갈 때까지 기다리면 어떻게 될까? 우리는 우리의 생명을 5~10일동안은 연장할 수 있겠지, 하지만 우리는 더 방어할 수 없겠지. 우리는 구렁텅이의 밑바닥에 있네. 그리고 우리의 운명은 흥미로워. 물론 비참함  엄청나겠지. 그러나 나는 이것을 이렇게 보고 있어. 이것은 평생의 기회라고. 난 놓치지 않을 거야. 당신은 정말로 당신의 평생의 삶을 당신의 장수를 기원하며 지낼 건가? 우리는 죽기 위해 태어났어! 누구든 날 따르는 자는, 전장에서 내일 아침을 볼걸세. 그렇지 않은 자는, 그가 있는 곳에서 내가 이긴 걸 볼 걸세!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_ANGRY_1">
+			<Text>정말로 부끄럽고 자기혐오스러우며, 우리는 정말 유감스럽게도 당신의 무한한 아낌없이 주는 제안을 거절해야만 했습니다. 우리는 겸손하게 당신에게 적당히 당신의 제안을 우리의 나쁜 상태를 위해 개선할 것을 청합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_ANGRY_2">
+			<Text>부족한 제안입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_ANGRY_3">
+			<Text>그것보다는 나은 제안이 있을 거 같습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_ANGRY_4">
+			<Text>아직은...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_HAPPY_1">
+			<Text>우리는 유감스럽게도 당신의 아주 친절한 제안을 거절해야 합니다. 좀 개선 시킬 수 없습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_HAPPY_2">
+			<Text>그것이 당신이 최대로 할 수 있는 것입니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_HAPPY_3">
+			<Text>조금만 더 합의 보면 될 거 같습니다...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_HAPPY_4">
+			<Text>아직은...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_NEUTRAL_1">
+			<Text>우리는 유감스럽게도 현 상태의 제안이라면 거절해야 합니다. 당신이 그것을 개선하도록 제안해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_NEUTRAL_2">
+			<Text>이것보다 나은 제안은 없습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_NEUTRAL_3">
+			<Text>그것 갖고는 안됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_NEUTRAL_4">
+			<Text>아직은...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NO_ANGRY">
+			<Text>아아, 우리의 위대한 친구이자 동맹이여, 우리는 당신의 가장 공정하고 자비로운 제안을 이번에는 동의할 수 없습니다. 우리의 비천한 몸에 당신의 분노로 파괴를 내리지 말아 주십시오!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NO_HAPPY">
+			<Text>불운하게도, 우리는 이번에는 당신의 친절하고 관대한 제안에 동의할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_NO_NEUTRAL">
+			<Text>우리는 정말로 유감스럽게도 당신의 제안을 거절해야만 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_YES_ANGRY">
+			<Text>우리는 경의를 다해 당신의 은혜와 정당함에 대해 절하겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_YES_HAPPY">
+			<Text>우리는 당신의 제안을 받아들이게 되어 아주 기쁘고 자랑스럽습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADE_YES_NEUTRAL">
+			<Text>우리는 당신의 공정한 제안을 받아들이게 되어 영광입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADEREQUEST_ANGRY">
+			<Text>우리는 가장 공손하게 당신이 우리의 제안에 호의를 베풀어 동의하길 요청합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADEREQUEST_HAPPY">
+			<Text>나의 친구여, 이 계획에 동의합니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRADEREQUEST_NEUTRAL">
+			<Text>우리에게 이 제안을 허락받는 영광을 베풀어 주시겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_NO_ANGRY">
+			<Text>내가 당신의 합리적이고 공정한 요청에 동의할 수 없는 것은 나를 죽을 만큼 아프게 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_NO_HAPPY">
+			<Text>우리가 당신의 제안을 거절하는 것은 몹시 내키지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_NO_NEUTRAL">
+			<Text>우리는 이번엔 유감스럽게도 당신의 제안을 거절해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_YES_ANGRY">
+			<Text>당신의 제일 작은 소망에 동의하는 것은 우리의 최고의 꿈입니다! 당신은 우리의 쓸모없는 삶을 의미 있게 해주었습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_YES_HAPPY">
+			<Text>감사합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_YES_NEUTRAL">
+			<Text>우리는 당신의 자비롭고 합리적인 제안을 받아들이게 되어 몹시 영광스럽습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_1">
+			<Text>나는 공손하게 당신의 고려에 고마워합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_2">
+			<Text>별수 없지요. 우리는 애당초 이것이 필요치 않았을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_3">
+			<Text>당신이 옳습니다. 우리는 이런 관용을 가질 가치가 없습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_4">
+			<Text>어쨌든 고맙습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_5">
+			<Text>알았습니다. 당신 나름대로 이유가 있다고 확신합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_WINWAR_1">
+			<Text>이렇게 일본군은 언제나 승리를 거둡니다!</Text>
+		</Row>
+	</Language_KO_KR>
+</GameData>

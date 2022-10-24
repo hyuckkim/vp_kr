@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_CITYSTATE_BORNU">
+			<Text>보르누</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BORNU_ADJ">
+			<Text>보르누의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BUNKEYA">
+			<Text>번케야</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BUNKEYA_ADJ">
+			<Text>번케야의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_LUBA">
+			<Text>루바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_LUBA_ADJ">
+			<Text>루바의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_OUGADOUGOU">
+			<Text>와가두구</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_OUGADOUGOU_ADJ">
+			<Text>와가두구의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SEGOU">
+			<Text>세구</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SEGOU_ADJ">
+			<Text>세구의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SOKOTO">
+			<Text>소코토</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SOKOTO_ADJ">
+			<Text>소코토의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ABIDJAN">
+			<Text>아비장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ACCRA">
+			<Text>아크라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ADI_UGRI">
+			<Text>아디우그리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_AL_FASHIR">
+			<Text>알파시르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_AL_JAWF">
+			<Text>알자우프</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_AL_QADARIF">
+			<Text>알콰다리프</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ALBERTVILLE">
+			<Text>알베르빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ALEXANDRIA">
+			<Text>알렉산드리아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ALGIERS">
+			<Text>알제</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ASMARA">
+			<Text>아스마라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ASSAB">
+			<Text>아사브</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ASWAN">
+			<Text>아스완</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ASYUT">
+			<Text>아시우트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_AWJILA">
+			<Text>아우지라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BAGAMOYO">
+			<Text>바가모요</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BAIDOA">
+			<Text>바이도아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BAKWANGA">
+			<Text>바콴가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BAMAKO">
+			<Text>바마코</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BAMENDA">
+			<Text>바멘다</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BANANA">
+			<Text>바나나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BANGUI">
+			<Text>방기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BANNINGVILLE">
+			<Text>반닝빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BARDERA">
+			<Text>바데라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BECHAR">
+			<Text>베샤르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BEIRA">
+			<Text>베이라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BELEDWEYNE">
+			<Text>벨레드웨인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BENGHAZI">
+			<Text>벵가지</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BENGUELA">
+			<Text>벵겔라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BENONI">
+			<Text>베노니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BERTOUA">
+			<Text>버투아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BISSAU">
+			<Text>비사우</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BLOEMFONTEIN">
+			<Text>블룸폰테인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BOBO_DIOULASSO">
+			<Text>보보디울라소</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BOKSBURG">
+			<Text>복스버그</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BOMA">
+			<Text>보마</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BOSASO">
+			<Text>보사소</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BOUAKE">
+			<Text>부아케</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BRAK">
+			<Text>브라크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_BRAZZAVILLE">
+			<Text>브라자빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_CAGLIARI">
+			<Text>칼리아리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_CAIRO">
+			<Text>카이로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_CAPE_TOWN">
+			<Text>케이프타운</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_CATANZARO">
+			<Text>카탄자로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_CONAKRY">
+			<Text>코나크리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_COQUILHATVILLE">
+			<Text>코키야빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_COSTERMANSVILLE">
+			<Text>코스터맨즈빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_DAKAR">
+			<Text>다카르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_DJIBOUTI">
+			<Text>지부티</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_DJOUGOU">
+			<Text>주구</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_DODOMA">
+			<Text>도도마</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_DOUALA">
+			<Text>두알라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_EDFU">
+			<Text>이드푸</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ELIZABETHVILLE">
+			<Text>엘리자베스빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ENTEBBE">
+			<Text>엔테베</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_FORT_DAUPHIN">
+			<Text>포르도우팽</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_FREETOWN">
+			<Text>프리타운</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_GALKAYO">
+			<Text>갈카요</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_GAROOWE">
+			<Text>가루웨</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_GAROUA">
+			<Text>가루아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_GAT">
+			<Text>가트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_GIBRALTAR">
+			<Text>지브롤터</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_HARGEISA">
+			<Text>하르게이사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_HEIDELBERG">
+			<Text>하이델베르크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_HENRIQUE">
+			<Text>엔리케 데카르발류</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_HUN">
+			<Text>훈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_JADOTVILLE">
+			<Text>자도빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_JOHANNESBURG">
+			<Text>요하네스버그</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_JOWHAR">
+			<Text>조화르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KAMPALA">
+			<Text>캄팔라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KARA">
+			<Text>카라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KASSALA">
+			<Text>캇살라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KEREN">
+			<Text>케렌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KHARTOUM">
+			<Text>하르툼</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KIGALI">
+			<Text>키갈리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KINDU">
+			<Text>킨두</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KISMAYO">
+			<Text>키스마요</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KISUMU">
+			<Text>키수무</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KLEIN_VRYSTAAT">
+			<Text>클레인 브리스탓</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_KOSTI">
+			<Text>코스티</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LAGOS">
+			<Text>라고스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LEOPOLDVILLE">
+			<Text>레오폴드빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LIBREVILLE">
+			<Text>리브르빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LILONGWE">
+			<Text>릴롱웨</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LOME">
+			<Text>로메</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LOURENCO_MARQUES">
+			<Text>로렌소마르케스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LUANDA">
+			<Text>루안다</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LUEDERITZ">
+			<Text>루데리츠</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LULUABOURG">
+			<Text>룰롸부르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LUSAKA">
+			<Text>루사카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LUSO">
+			<Text>루소</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_LUXOR">
+			<Text>룩소르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MAFEKING">
+			<Text>마페킹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MALANJE">
+			<Text>말란제</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MAROUA">
+			<Text>마로우아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MASERU">
+			<Text>마세루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MASSAWA">
+			<Text>마사와</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MESSINA">
+			<Text>메시나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MOCAMEDES">
+			<Text>모카메데스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MOMBASA">
+			<Text>몸바사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MORONI">
+			<Text>모로니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MOZAMBIQUE">
+			<Text>모잠비크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_MURZUK">
+			<Text>무르주크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_NAIROBI">
+			<Text>나이로비</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_NALUT">
+			<Text>나루트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_NDJAMENA">
+			<Text>엔자메나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_NEW_LAMEGO">
+			<Text>뉴라메구</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_NEW_LISBON">
+			<Text>뉴리스본</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_NIAMEY">
+			<Text>니아메</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_NOUAKCHOTT">
+			<Text>누악쇼트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_NYALA">
+			<Text>니얄라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_PALERMO">
+			<Text>팔레르모</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_PIETERSBURG">
+			<Text>피에터스버그</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_POINT_NOIRE">
+			<Text>푸앵트누아르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_PORT_ELIZABETH">
+			<Text>포트 엘리자베스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_PORT_SUDAN">
+			<Text>포트 수단</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_PORTO_AMELIA">
+			<Text>포르토아멜리아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_PORTO_NOVO">
+			<Text>포르토노보</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_POTCHEFSTROOM">
+			<Text>포체프스트룸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_PRETORIA">
+			<Text>프레토리아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_QAMINIS">
+			<Text>콰미니스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_QARDHO">
+			<Text>콰드호</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SA_DA_BANDEIRA">
+			<Text>사다반데이라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SABHA">
+			<Text>사바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SALISBURY">
+			<Text>솔즈베리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SAO_TOME">
+			<Text>상투메 프린시페</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SFAX">
+			<Text>스파크스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SILVA_PORTO">
+			<Text>실바 포르투</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SIRTE">
+			<Text>시르테</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_STANLEYVILLE">
+			<Text>스탠리빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SUEZ">
+			<Text>수에즈</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_SWAKOPMUND">
+			<Text>스바코프문트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_TAMALE">
+			<Text>타말레</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_TETE">
+			<Text>테테</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_THYSVILLE">
+			<Text>티스빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_TOBRUK">
+			<Text>토브루크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_TRIPOLI">
+			<Text>트리폴리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_TSHIKAPA">
+			<Text>시카파</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_TUNIS">
+			<Text>튀니스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_UBARI">
+			<Text>유바리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_UJIJI">
+			<Text>우지지</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_VICTORIA">
+			<Text>빅토리아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_VILA_BABRAL">
+			<Text>빌라 카브랄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_VILA_JUNQUEIRO">
+			<Text>빌라 훈케이로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_VILA_PERY">
+			<Text>빌라 페리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_VIRGINIA">
+			<Text>버지니아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_VRYBURG">
+			<Text>브라이버그</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_WAD_MADANI">
+			<Text>와드 마다니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_WINBURG">
+			<Text>윈버그</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_WINDHOEK">
+			<Text>빈트후크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_XAI_XAI">
+			<Text>샤이샤이</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_YAOUNDE">
+			<Text>야운데</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ZELLA">
+			<Text>젤라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ZOMBA">
+			<Text>좀바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CITY_NAME_ZUNGERU">
+			<Text>젱게루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+	</Language_KO_KR>
+</GameData>

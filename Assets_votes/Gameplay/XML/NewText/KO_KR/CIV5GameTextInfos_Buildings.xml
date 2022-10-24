@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--CIV METROPOLIS KOREAN PATCH-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_BUILDING_ACADEMY">
+            <Text>아카데미</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ANGKOR_WAT">
+            <Text>앙코르와트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_AQUEDUCT">
+            <Text>송수로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ARMORY">
+            <Text>무기고</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ARSENAL">
+            <Text>군수창고</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_BANK">
+            <Text>은행</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_BARRACKS">
+            <Text>병영</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_BIG_BEN">
+            <Text>빅 벤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_BRANDENBURG_GATE">
+            <Text>브란덴부르크 문</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER">
+            <Text>방송탑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CASTLE">
+            <Text>성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHICHEN_ITZA">
+            <Text>치첸이트사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CIRCUS">
+            <Text>서커스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS">
+            <Text>원형 경기장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_COLOSSEUM">
+            <Text>콜로세움</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_COLOSSUS">
+            <Text>로도스의 거상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_COURTHOUSE">
+            <Text>법원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CRISTO_REDENTOR">
+            <Text>구세주 그리스도상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_EIFFEL_TOWER">
+            <Text>에펠탑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_FACTORY">
+            <Text>공장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_FORBIDDEN_PALACE">
+            <Text>자금성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_FORGE">
+            <Text>대장간</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_GARDEN">
+            <Text>정원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_GRANARY">
+            <Text>곡창</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_GREAT_LIBRARY">
+            <Text>알렉산드리아 도서관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_GREAT_LIGHTHOUSE">
+            <Text>알렉산드리아 등대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_GREAT_WALL">
+            <Text>만리장성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_GROCER">
+            <Text>식료품 상점</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HAGIA_SOPHIA">
+            <Text>아야 소피아</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HANGING_GARDEN">
+            <Text>공중 정원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HARBOR">
+            <Text>항만</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HERMITAGE">
+            <Text>에르미타슈 박물관</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC">
+            <Text>영웅 서사시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HIMEJI_CASTLE">
+            <Text>히메지 성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HOSPITAL">
+            <Text>병원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HYDRO_PLANT">
+            <Text>수력 발전소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_IRONWORKS">
+            <Text>제철소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_KREMLIN">
+            <Text>크렘린</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_KREPOST_DESC">
+            <Text>크리아포스츠</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_LABORATORY">
+            <Text>연구소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_LIBRARY">
+            <Text>도서관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_LIGHTHOUSE">
+            <Text>등대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_LOUVRE">
+            <Text>루브르 박물관</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MACHU_PICHU">
+            <Text>마추픽추</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MARKET">
+            <Text>시장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MEDICAL_LAB">
+            <Text>의학 연구소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY">
+            <Text>사관 학교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MILITARY_BASE">
+            <Text>군사 기지</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MINT">
+            <Text>화폐 주조소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_DESC">
+            <Text>무굴 요새</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MUSEUM">
+            <Text>박물관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE">
+            <Text>국립대학</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NATIONAL_EPIC">
+            <Text>건국 서사시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NATIONAL_TREASURY">
+            <Text>재무부</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NOTRE_DAME">
+            <Text>노트르담 대성당</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT">
+            <Text>원자력 발전소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_OBSERVATORY">
+            <Text>천문대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE">
+            <Text>오페라 극장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ORACLE">
+            <Text>오라클</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY">
+            <Text>옥스퍼드 대학</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PALACE">
+            <Text>궁전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PARK">
+            <Text>공원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PENTAGON">
+            <Text>펜타곤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PORCELAIN_TOWER">
+            <Text>영곡탑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL">
+            <Text>공립학교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PYRAMID">
+            <Text>피라미드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SEAPORT">
+            <Text>항구</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SISTINE_CHAPEL">
+            <Text>시스티나 성당</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SOLAR_PLANT">
+            <Text>태양력 발전소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY">
+            <Text>우주선 공장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STABLE">
+            <Text>마구간</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STATUE_OF_LIBERTY">
+            <Text>자유의 여신상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE">
+            <Text>증권 거래소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STONE_WORKS">
+            <Text>석재 공장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STONEHENGE">
+            <Text>스톤헨지</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TAJ_MAHAL">
+            <Text>타지마할</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TEMPLE">
+            <Text>사원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_THEATRE">
+            <Text>극장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_UNITED_NATIONS">
+            <Text>국제 연합</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_UNIVERSITY">
+            <Text>대학</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_WALLS">
+            <Text>성벽</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_WATERMILL">
+            <Text>물레방앗간</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_WINDMILL">
+            <Text>풍차</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_WORKSHOP">
+            <Text>작업장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROJECT_UTOPIA_PROJECT">
+            <Text>유토피아 프로젝트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>

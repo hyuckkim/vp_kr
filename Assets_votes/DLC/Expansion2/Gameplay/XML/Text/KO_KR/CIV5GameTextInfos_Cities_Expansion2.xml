@@ -1,0 +1,962 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_CITY_NAME_AGADIR">
+			<Text>아가디르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AGAIDIKA">
+			<Text>아가이디카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AMBON">
+			<Text>암본</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ARACAJU">
+			<Text>아라카주</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ARPAD">
+			<Text>아르파드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ASSUR">
+			<Text>아수르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AVEIRO">
+			<Text>아베이로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BABANANGO">
+			<Text>바바난고</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BALIKPAPAN">
+			<Text>발릭파판</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BANDAR_LAMPUNG">
+			<Text>반다르람풍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BANDUNG">
+			<Text>반둥</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BANJARMASIN">
+			<Text>반자르마신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BANNOCK">
+			<Text>배넉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BATAM">
+			<Text>바탐</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BEJA">
+			<Text>베자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BELEM">
+			<Text>벨렘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BELO_HORIZONTE">
+			<Text>벨로 리존테</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BEN_GUERIR">
+			<Text>벤 구에리르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENI_MELLAL">
+			<Text>베니 멜랄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BERRECHID">
+			<Text>배르시드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BIALYSTOK">
+			<Text>비알리스토크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BIELSKO_BIALA">
+			<Text>비엘스코비알라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BIG_PINE">
+			<Text>빅 파인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BISSAU">
+			<Text>비사우</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BOGOR">
+			<Text>보고르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BRAGA">
+			<Text>브라가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BRAGANZA">
+			<Text>브라간사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BRASILIA">
+			<Text>브라질리아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BULAWAYO">
+			<Text>불라와요</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BYDGOSZCZ">
+			<Text>비드고슈치</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BYTOM">
+			<Text>비톰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CAMPINAS">
+			<Text>캄피나스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CAMPO_GRANDE">
+			<Text>캄포 그란데</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CARCHEMISH">
+			<Text>카르케미슈</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CASABLANCA">
+			<Text>카사블랑카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CASTELO_BRANCO">
+			<Text>카스텔루브랑쿠</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHEFCHAOUEN">
+			<Text>샤프샤우엔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIMAHI">
+			<Text>씨마히</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_COIMBRA">
+			<Text>쿠임브라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CONTAGEM">
+			<Text>콘타징</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CUIABA">
+			<Text>쿠이아바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CURITIBA">
+			<Text>쿠리티바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CZESTOCHOWA">
+			<Text>쳉스토호바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DAKHLA">
+			<Text>다흐라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DEHEYAEKA">
+			<Text>데헤예카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DENPASAR">
+			<Text>덴파사르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DEPOK">
+			<Text>데폭</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DILI">
+			<Text>딜리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DUCK_VALLEY">
+			<Text>덕 벨리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DUCKWATER">
+			<Text>덕워터</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DUMAZULU">
+			<Text>두마줄루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DUQUE_DE_CAXIAS">
+			<Text>두 케데카시아스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DUR_SHARRUKIN">
+			<Text>두르샤루킨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EL_AAIUN">
+			<Text>엘 아이운</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EL_JADIA">
+			<Text>엘 자디아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EL_KELAA_DES_SRAGHNA">
+			<Text>엘 켈라 드 스라그나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ELBLAG">
+			<Text>엘블롱</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ELY">
+			<Text>일리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EMANGWENI">
+			<Text>에망웨니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EMPANGENI">
+			<Text>엠파제니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ERBIL">
+			<Text>이르빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ERFOUD">
+			<Text>에르포드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ESSAOUIRA">
+			<Text>에사우이라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ETHEKWINI">
+			<Text>이텍퀴니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EVORA">
+			<Text>에보라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EZIQWAQWENI">
+			<Text>에지콰퀴니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FARO">
+			<Text>파로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FEIRA_DE_SANTANA">
+			<Text>페이라데산타나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FES">
+			<Text>페스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FIGUEIRA_DA_FOZ">
+			<Text>피게이라다포스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIANOPOLIS">
+			<Text>플로리아노폴리스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FORTALEZA">
+			<Text>포르탈레자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FQUIH_BEN_SALAH">
+			<Text>퀴 벤 살라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FUNCHAL">
+			<Text>풍샬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GDANSK">
+			<Text>그단스크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GDYNIA">
+			<Text>그디니아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GLIWICE">
+			<Text>글리비체</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GOA">
+			<Text>고아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GOIANIA">
+			<Text>고이아니아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GORZOW_WIELKOPOLSKI">
+			<Text>고주프비엘코폴스키</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GOSHUTE">
+			<Text>고슈트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GUARDA">
+			<Text>과르다</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GUARULHOS">
+			<Text>과룰류스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GUELMIM">
+			<Text>구엘밈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GUZANA">
+			<Text>구자나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HALAB">
+			<Text>할랍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HAMATH">
+			<Text>하마스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HARRAN">
+			<Text>하란</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HIT">
+			<Text>히트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HLATIKULU">
+			<Text>흘라티쿨루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HLOBANE">
+			<Text>흘로벤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HLUHLUWE">
+			<Text>흘루흘루웨</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HUKANDEKA">
+			<Text>후칸데카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IMGUR_ENLIL">
+			<Text>임구르 엔릴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_INGWAVUMA">
+			<Text>잉와부마</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ISIPHEZI">
+			<Text>이시페지</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JABOATAO_DOS_GUARARAPES">
+			<Text>자보타오 도스 구아라라페</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JAKARTA">
+			<Text>자카르타</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JAMBI">
+			<Text>잠비</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JAYAPURA">
+			<Text>자야푸라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JOAO_PESSOA">
+			<Text>주앙 페소아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JOINVILLE">
+			<Text>주앵빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JUIZ_DE_FORA">
+			<Text>주이즈 데포라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KAMUDEKA">
+			<Text>카무데카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KANESH">
+			<Text>카네시</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KAR_TUKULTI_NINURTA">
+			<Text>카르 투쿨티 니누르타</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KATOWICE">
+			<Text>카토비체</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KAUNAS">
+			<Text>카우나스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KELASHIN">
+			<Text>켈라신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KENITRA">
+			<Text>케니트라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KHANGELA">
+			<Text>칸젤라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KHEMISSET">
+			<Text>크미셋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KHOURIBGA">
+			<Text>호리부가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KIELC">
+			<Text>퀠체</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KLAIPEDA">
+			<Text>클라이페다</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KOMODO">
+			<Text>코모도</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KRAKOW">
+			<Text>크라쿠프</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KSAR_EL_KEBIR">
+			<Text>사르엘케비르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KUCHUNDEKA">
+			<Text>쿠춘데카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KUPANG">
+			<Text>쿠팡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KWADUKUZA">
+			<Text>콰두쿠자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KWAHLOMENDLINI">
+			<Text>콸로멘들리니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KWAMASHU">
+			<Text>콰마슈</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LAMEGO">
+			<Text>라메구</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LARACHE">
+			<Text>라라슈</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEIRIA">
+			<Text>레이리아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LISBON">
+			<Text>리스본</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LOBAMBA">
+			<Text>로밤바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LODZ">
+			<Text>루지</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LUANDA">
+			<Text>루안다</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LUBLIN">
+			<Text>루블린</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MACAPA">
+			<Text>마카파</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MACEIO">
+			<Text>마세이우</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MAKASSAR">
+			<Text>마카사르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MALANG">
+			<Text>말랑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MANAUS">
+			<Text>마나우스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MAPUTO">
+			<Text>마푸토</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASERU">
+			<Text>마세루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASOTSHENI">
+			<Text>마소트셰니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MATARAM">
+			<Text>마타람</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MEDAN">
+			<Text>메단</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MEKNES">
+			<Text>메크네스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MHLAHLANDLELA">
+			<Text>음흘랄란들렐라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MLAMBONGWENYA">
+			<Text>음람보그웨냐</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MOHAMMEDIA">
+			<Text>모하메디아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MOSON_KAHNI">
+			<Text>모손 카흐니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MTHATHA">
+			<Text>움타타</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MTHONJANENI">
+			<Text>움손자네니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MTUBATUBA">
+			<Text>므투바투바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MTUNZINI">
+			<Text>음툰지니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NADOR">
+			<Text>나도르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NAMPA">
+			<Text>남파</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NASIBINA">
+			<Text>나시비나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NATAL">
+			<Text>나탈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NDONDAKUSUKA">
+			<Text>돈다쿠수카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NIMRUD">
+			<Text>니므루드</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NINEVEH">
+			<Text>니네베</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NOBAMBA">
+			<Text>노밤바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NODWENGU">
+			<Text>노드웽구</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NONGOMA">
+			<Text>논고마</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NOVA_IGUACU">
+			<Text>노바이구아수</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYAKAMUBI">
+			<Text>냐카무비</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OLSZTYN">
+			<Text>올슈틴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ONDINI">
+			<Text>오느디니</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OPOLE">
+			<Text>오폴레</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OSASCO">
+			<Text>우사스쿠</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OUARZAZATE">
+			<Text>와르자자트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OUJDA">
+			<Text>우지다</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PADANG">
+			<Text>파당</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PALEMBANG">
+			<Text>팔렘방</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PEKANBARU">
+			<Text>페칸바루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENGWIDEKA">
+			<Text>펭위데카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PLOCK">
+			<Text>프워츠크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_POHOKWI">
+			<Text>포호퀴</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PONGOLA">
+			<Text>퐁골라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PONTA_DELGADA">
+			<Text>퐁타델가다</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PONTIANAK">
+			<Text>폰티아나크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PORTO">
+			<Text>포르투</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PORTO_ALEGRE">
+			<Text>포르투알레그레</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_POZNAN">
+			<Text>포즈난</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PRAIA">
+			<Text>프라이아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_QARQAR">
+			<Text>카르카르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_QATNA">
+			<Text>카트나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_QUNU">
+			<Text>쿠누</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RABAT">
+			<Text>라바트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RADOM">
+			<Text>라돔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RECIFE">
+			<Text>레시페</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RIO_DE_JANEIRO">
+			<Text>리오데자네이루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RUDA_SLASKA">
+			<Text>루다 슬라스카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RYBNIK">
+			<Text>리브니크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RZESZOW">
+			<Text>제슈프</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SABATA">
+			<Text>사바타</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAFI">
+			<Text>사피</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SALE">
+			<Text>살레</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SALVADOR">
+			<Text>살바도르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAM_AL">
+			<Text>사말</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAMARINDA">
+			<Text>사마린다</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAO_BERNARDO_DO_CAMPO">
+			<Text>상베르나르두 두캄푸</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAO_JOSE_DOS_CAMPOS">
+			<Text>상조제 두스캄푸스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAO_LUIS">
+			<Text>상루이스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAO_PAULO">
+			<Text>상파울루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAO_TOME_AND_PRINCIPE">
+			<Text>상투메 프린시페</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAREISA">
+			<Text>사레이사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SEMARANG">
+			<Text>세마랑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SETTAT">
+			<Text>세타트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SHUBAT_ENLIL">
+			<Text>슈바 엔릴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SIAULIAI">
+			<Text>시아울리아이</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SILVES">
+			<Text>실브쉬</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SINTRA">
+			<Text>신트라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SKULL_VALLEY">
+			<Text>스컬 벨리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SULTANTEPE">
+			<Text>술탄테페</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SURABAYA">
+			<Text>수라바야</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SWEIDNITZ">
+			<Text>시베니츠</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SZCZECIN">
+			<Text>슈체친</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TADMOR">
+			<Text>타드모르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TANGERANG">
+			<Text>탕거렝</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TANGIER">
+			<Text>탕헤르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAROUDANNT">
+			<Text>타로단트</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAVIRA">
+			<Text>타비라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAZA">
+			<Text>타자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TE_MOAK">
+			<Text>테모악</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TERESINA">
+			<Text>테레지나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TERNATE">
+			<Text>테르나테</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TETADEKA">
+			<Text>테타데카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TETOUAN">
+			<Text>테투안</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIL_BARSIP">
+			<Text>틸바십</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIMBISHA">
+			<Text>팀비샤</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TOMAR">
+			<Text>토마르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TORUN">
+			<Text>토룬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TROWULAN">
+			<Text>트로울란</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TUKUDEKA">
+			<Text>투쿠데카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TUNGELA">
+			<Text>툰젤라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TURUSPA">
+			<Text>투루스파</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UBERLANDIA">
+			<Text>우베르랑디아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ULUNDI">
+			<Text>울룬디</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UMGUNGUNDLOVU">
+			<Text>움군군들로부</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_URARTU">
+			<Text>우라르투</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VENICE">
+			<Text>베네치아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VIANA_DO_CASTELO">
+			<Text>비아나두 카스텔루</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VILA_NOVA_DE_GAIA">
+			<Text>빌라노바 드가이아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VISEU">
+			<Text>비제우</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WALBRZYCH">
+			<Text>바우브지흐</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WARSAW">
+			<Text>바르샤바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WASHAKIE">
+			<Text>와샤키</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WINNEMUCCA">
+			<Text>위네뮤카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WLOCLAWEK">
+			<Text>브워츠와베크</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WROCLAW">
+			<Text>브로츠와프</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_YAHANDEKA">
+			<Text>야한데카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_YAMBADEKA">
+			<Text>얌바데카</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_YOMBA">
+			<Text>욤바</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ZIELONA_GORA">
+			<Text>지엘로나구라</Text>
+			<Plurality>2</Plurality>
+		</Row>
+	</Language_KO_KR>
+</GameData>
