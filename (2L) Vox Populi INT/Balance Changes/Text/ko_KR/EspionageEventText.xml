@@ -60,10 +60,10 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_HELP">
 			<Text>{6_Spy}도시의 농장, 광산, 재배지, 교역소 중 하나가 약탈됩니다. 개발된 [COLOR_POSITIVE_TEXT]전략 자원[ENDCOLOR] 타일이 약탈됩니다. {5_Turns}턴 동안 [ICON_FOOD]인구 성장률이 25% 감소합니다. </Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_SCIENCE">
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STOKE">
 			<Text>[ICON_HAPPINESS_3]지역 분란 조장</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_SCIENCE_HELP">
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STOKE_HELP">
 			<Text>{6_Spy}목표 도시: 모든 불행이 34% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
@@ -135,7 +135,7 @@
 			<Text>현지인 연결망 구축</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_QUELL_HELP">
-			<Text>외국 [ICON_SPY] 스파이를 찾거나 처치할 확률이 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR] 증가합니다. 도시에 +2 [ICON_HAPPINESS_1] 행복이 증가하고, 모든 요인으로부터의 불행이 25% 감소합니다.</Text>
+			<Text>외국 [ICON_SPY] 스파이를 찾거나 처치할 확률이 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR] 증가합니다. 도시에 +2 [ICON_HAPPINESS_1] 행복이 증가하고, 모든 요구 불행이 25% 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_SPECIALIST">
 			<Text>전문가 감사 파견</Text>
