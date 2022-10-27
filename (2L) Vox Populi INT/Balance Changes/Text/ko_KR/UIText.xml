@@ -59,6 +59,50 @@
 		<Row Tag="TXT_KEY_MILITARY_SUPPLY_ADV_QUEST">
 			<Text>군사 보급이 무엇입니까?</Text>
 		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_TITLE">
+			<Text>[COLOR_GREEN]도시의 지역 행복[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_BODY">
+			<Text>도시의 지역 행복은 다음과 같이 결정됩니다: [NEWLINE][NEWLINE]일부 행복은 도시에서 직접 발생합니다. 건물, 정책, 세계 불가사의, 작업 중인 랜드마크가 가능합니다. [NEWLINE][NEWLINE]제국 전체에서 오는 행복은 모든 도시에 분산됩니다. 이것은 자동으로 결정되는데, 인구보다 지역 행복이 적은 도시들을 우선합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_ADV_QUEST">
+			<Text>지역 도시 행복은 어떻게 결정되나요?</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_TITLE">
+			<Text>[COLOR_GREEN]요구 임계값 계산[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_BODY">
+			<Text>
+				요구 불행은 인구당 도시의 산출량을 특정 기준인 요구 임계값과 비교해 발생합니다. 이러한 값은 인구당 산출량의 전역 중간값 (즉, 전 세계 도시의 정확히 50%를 초과하는 인구당 산출량)을 기반으로 합니다. 중앙값을 계산할 때 인구가 최소 3명인 도시만 계산해 극초반 불행이 완화됩니다. 요구 입계값은 각 도시의 여러 보정치에 의해 수정됩니다. 긍정적인 요구 보정치는 임계값에 도달하는 것을 어렵계 하는 반면 부정적인 요구 보정치는 임계값을 감소시킵니다. 다음 보정치들이 항상 적용됩니다: [NEWLINE] [COLOR_NEGATIVE_TEXT]수도 상태[ENDCOLOR]: 수도에서는 요구 임계값이 25% 증가합니다.[NEWLINE] [COLOR_NEGATIVE_TEXT]제국 크기[ENDCOLOR]: 제국의 각 도시 (수도 및 괴뢰 도시 제외)마다 요구 임계값이 9% 증가합니다. 제국의 각 시민 (수도 및 괴뢰 도시 제외)마다 1% 증가합니다.[NEWLINE] [COLOR_POSITIVE_TEXT]도시 크기[ENDCOLOR]: 각 도시에서, 시민 1명당 요구 임계값이 1% 감소합니다.[NEWLINE] [COLOR_POSITIVE_TEXT]난이도[ENDCOLOR]: "개척자" 난이도와 "족장" 난이도에서 플레이어의 임계값이 줄어들고 AI의 임계값은 늘어납니다. 족장 난이도보다 높은 난이도에서는 이 변동치는 없습니다.[NEWLINE][NEWLINE]특정 정책 및 스파이 이벤트는 도시의 요구 임계값을 바꿀 수 있습니다. 또한 생산을 다른 산출로 변환하면 변환 비율과 동일하게 요구 임계값을 감소시킵니다. (발전소를 사용해 비율을 증가시킬 수 있습니다) 예를 들어 농업은 생산의 25%를 식량으로 바꾸고 곤경 요구 임계값을 25% 감소시킵니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_ADV_QUEST">
+			<Text>요구 임계값은 어떻게 결정되나요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_HAPPINESS_PUPPET_CITIES_TITLE">
+			<Text>[COLOR_GREEN]괴뢰 도시의 불행[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_PUPPET_CITIES_BODY">
+			<Text>괴뢰 도시에서는 행복과 불행에 대한 특별한 규칙이 적용됩니다. 괴뢰 도시의 시민 4명 당 1 불행이 발생합니다. 괴뢰 도시의 불행 중 다른 도시와 같은 유일한 원인은 도시화입니다. 괴뢰 도시에서는 전문가의 할당을 제어할 수 없으므로 도시를 합병하지 않는 한 도시화에 대응할 수 없습니다. 괴뢰 도시는 어떤 지역 행복도 생산하지 않습니다. 또한 행복 체계와 별개로 그들만의 성장 규칙을 따릅니다. 따라서 괴뢰 도시의 불행은 제국 전역 불행에서만 차이를 발생시킵니다.=</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_PUPPET_CITIES_ADV_QUEST">
+			<Text>괴뢰 도시의 불행은 어떻게 발생하나요?</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIED_CITIES_TITLE">
+			<Text>[COLOR_GREEN]점령되어 저항하는 도시[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIED_CITIES_BODY">
+			<Text>저항하는 도시들은 어떤 지역적 행복도 만들어내지 못합니다. 대신, 그들은 도시의 인구와 동등한 불행을 만들어냅니다. 제국의 지지율을 크게 낮출 수 있습니다.[NEWLINE][NEWLINE]점령된 도시들은 또한 어떠한 행복도 만들어내지 않습니다. 그들은 도시 인구와 동등한 불행을 발생시키고, 여기에 도시화로 인한 불행을 더합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIEDCITIES_ADV_QUEST">
+			<Text>점령되고 저항하는 도시의 불행은 무엇 때문인가요?</Text>
+		</Row>
+		
+		
+
 		<Row Tag="TXT_KEY_DUDE_8">
 			<Text>헤로도토스</Text>
 			<Plurality>2</Plurality>
@@ -321,7 +365,7 @@
 			<Text>최대 문화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_CULTURE_DELTA">
-			<Text>최대 문화 변동치</Text>
+			<Text>최대 문화 보정치</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_BOREDOM">
 			<Text>[ICON_CULTURE]무료: {1_Num}</Text>

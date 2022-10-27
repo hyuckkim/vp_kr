@@ -488,7 +488,7 @@ WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS';
 -- Tutorial Text
 
 UPDATE Language_ko_KR
-SET Text = '행복 시스템은 Vox Populi에서 완전히 수정되어, 확장이 없는 몰아주기식 플레이 스타일을 선호하지 않습니다. 행복은 이제 완전히 지역화되었으며, 당신의 제국이 그 어느 때보다 훨씬 더 생생하고 역동적으로 느껴지도록 하는 인과 메커니즘을 기반으로 합니다. [NEWLINE][NEWLINE]당신의 행복은 메인 화면의 상태 표시줄(게임의 왼쪽 상단 모서리에 있음)에 표시됩니다. 주의 깊게 관찰하십시오. 행복이 50% 아래로 떨어지기 시작하면 시민들이 불안해집니다. 35% 이하로 떨어지기 시작하면 문제가 있는 것입니다. (참고로 이 숫자 위로 커서를 가져가면 행복에 대한 훌륭한 요약을 얻을 수 있습니다.)[NEWLINE][NEWLINE]기억해야 할 한 가지 중요한 사항 - 도시 건물과 도시 기반 정책에서 생성되는 행복이 인구를 초과할 수는 없습니다.'
+SET Text = '행복 시스템은 Vox Populi에서 완전히 수정되어, 확장 또는 몰아주기 둘 중 하나를 선호하지 않습니다. 행복은 이제 완전히 지역화되었으며, 당신의 제국이 그 어느 때보다 훨씬 더 생생하고 역동적으로 느껴지도록 하는 인과 메커니즘을 기반으로 합니다. [NEWLINE][NEWLINE]행복과 불행은 제국의 각 도시에 대해 지역별로 계산됩니다. 도시의 지역 불행이 지역 행복을 초과할 때, 도시는 평소보다 느리게 성장합니다. 이는 도시 배너 아래에 표시되는 [ICON_HAPPINESS_3] 불행 아이콘으로도 표시됩니다. 괴뢰 도시와 점령된 도시에는 특별한 규칙이 적용됩니다. [NEWLINE][NEWLINE]제국 내 모든 도시의 행복 합계를 모든 도시의 불행 합계와 비교하여 상태 표시줄에 표시되는 지지율을 결정합니다. 주의 깊게 관찰하십시오. 행복이 50% 아래로 떨어지기 시작하면 인구가 불안해져서 모든 도시의 성장이 감소하고 전투력도 저하됩니다. 35% 이하로 떨어지기 시작하면 문제가 있는 것입니다. 당신의 제국에서는 야만인이 생성될 것이고, 도시들은 당신의 제국을 버리고 다른 문명에 합류할지도 모릅니다. 상태 표시줄 위에 커서를 놓으면 행복과 불행의 다양한 원천에 대한 개요를 얻을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_BODY';
 
 UPDATE Language_ko_KR
@@ -496,7 +496,7 @@ SET Text = '[COLOR_GREEN]행복도[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '다음은 행복을 증가시킵니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR]: 영토 내의 자원을 개선하거나 다른 문명과 교환하십시오. 모든 종류의 자원은 당신의 행복을 향상시킵니다. 사치품은 전체 제국 인구에 기반해 행복을 부여합니다. 인구가 높을수록 사치품이 제공하는 행복도 커집니다. 이것은 사치품을 초기에 덜 중요하게 만듭니다. +1 행복은 그다지 중요하지 않지만 초점이 도시 수가 아니라 전체 인구에 있기 때문에 크거나 광범위한 전략을 제한하지 않습니다. 간단히 말해서 제국의 인구가 증가함에 따라 사치품이 "레벨 업"됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]건물[ENDCOLOR]: 특정 건물은 행복을 증가시키는 반면, 다른 건물은 곤경 및 빈곤과 같은 것으로 인한 불행을 줄여줍니다. (따라서 간접적으로 당신의 행복을 높입니다). 여기에는 투기장, 서커스, 동물원 등이 포함됩니다. 문명의 어느 위치에나 건설된 건물은 전반적인 행복도를 높입니다. 따라서 두 개의 투기장은 사치 자원과 달리 하나보다 두 배 더 많은 행복을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT] 불가사의[ENDCOLOR]: 노트르담 및 공중정원과 같은 특정 불가사의는 행복을 크게 높일 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]사회 정책[ENDCOLOR]: 정책은 많은 행복을 제공하지만 다른 방식으로 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기술[ENDCOLOR]: 기술 자체는 행복을 제공하지 않지만 행복을 제공하는 건물, 불가사의, 자원 및 사회 정책의 잠금을 해제합니다.'
+SET Text = '제국의 행복은 다음에 의해 증가합니다:[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]시작 행복[ENDCOLOR]: 시작 시 문명에 주어지는 행복은 게임의 난이도에 따라 결정됩니다. 시작 행복은 시간이 지나 성장함에 따라 비교적 덜 중요해질 것입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]자연 불가사의와 랜드마크[ENDCOLOR]: 자연 불가사의를 발견하거나 고고학자를 사용하여 랜드마크를 건설하면 (자신의 땅 및 다른 플레이어의 땅 모두) 약간의 행복을 얻을 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]도시 국가[ENDCOLOR]: 상업적 도시 국가는 우호적 또는 동맹 상태일 때 당신에게 행복을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]종속국[ENDCOLOR]: 만약 다른 문명을 종속국으로 만들었다면, 그들의 행복 레벨에 기반하 약간의 행복을 제공할 것입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR]: 제국에 연결된 사치 자원 종류당 행복을 얻을 수 있습니다. 사치 자원으로 얻는 행복은 제국의 총 인구에 따라 조절됩니다. 따라서 사치 자원은 초반에 덜 중요하고 후반에는 쓸모있어집니다. 또한, 사치 자원 독점 중 일부는 제국에 추가 행복이 부여됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]지역 행복[ENDCOLOR]: 특정 건물은 건물이 지어진 도시의 지역 행복을 증가시킵니다. 종교 교리, 정책, 세계 불가사의 또는 이벤트로도 지역 행복이 증가할 수 있습니다. 이는 절대 행복을 얻을 수 없는 괴뢰 도시 또는 점령 도시에는 적용되지 않습니다.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY';
 
 UPDATE Language_en_US
@@ -504,20 +504,25 @@ SET Text = '[COLOR_GREEN]행복을 만드는 것[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '도시의 행복은 더 이상 도시의 시민 수에 직접적인 영향을 받지 않습니다. 대신 행복은 경제적 변수를 보는 일련의 기능을 기반으로 합니다. 전반적으로 인구가 여전히 중요하지만 도시별 불행은 관리하기가 더 쉽습니다(특정 플레이 스타일에 맞게 조정). 이것은 제국이 잘 관리되는 한 전통 및 확장 게임 플레이를 동등하게 실현 가능하게 만듭니다. 게다가 시민은 욕구의 규모에 따라 한 번에 하나의 가치에 대해서만 "불만족"할 수 있습니다. 예를 들어 한 시민이 빈곤으로 인해 불행하다면 빈곤 문제가 해결될 때까지 그 시민은 다른 어떤 것에서도 불행할 수 없습니다(따라서 한 도시에서 발생하는 불행은 도시 인구로 제한됩니다).[NEWLINE][NEWLINE][NEWLINE][NEWLINE]작동 원리: 수확량 기반 함수는 도시의 수확량을 결합하여 이 값을 인구로 나눕니다. 그런 다음 이 값은 제국의 팝당 모든 도시 생산량의 평균인 시민당 비율 값과 비교됩니다. 시민당 제국 비율 값이 도시의 비율 값보다 높으면(즉, 비율 값이 예상하는 만큼 많이 생산하지 못하는 경우), 둘 사이의 차이는 시민 1인당 불행 값으로 나뉘어 불행이 생성됩니다. 즉, 도시가 인구당 산출량에서 제국 평균보다 뒤처지면 그 차이가 불행으로 전환됩니다. 이 제국 평균은 게임이 진행됨에 따라 점진적으로 증가하고(모든 도시는 시간이 지남에 따라 점점 더 부유해지기 때문에 빈곤을 정의하는 제국 평균은 변경됨), 발견하거나 정복한 모든 도시에 대해 점진적으로(약 2%) 증가합니다.[NEWLINE][NEWLINE] 불행 유발치: [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]굶주림[ENDCOLOR]: 이것은 치명적일 수 있으므로 주의해야 합니다. 도시가 굶주림 상태에 있다면 이 함수는 그 기아의 값(즉, 소비되는 음식의 음수 값)을 보고 함수의 비율 값과 비교합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]약탈된 타일[ENDCOLOR]: 도시 연결과 유사하게 이 함수는 약탈된 타일의 수를 보는 시민당 비율 값을 기반으로 불행을 생성합니다. 약탈된 타일이 많을수록 이 불행이 높아집니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]빈곤[ENDCOLOR]: 금 수확량을 나타냅니다. 이 수확량이 비율 기준을 초과하지 않으면 당신의 도시는 빈곤을 얻습니다. 이것은 가장 부유한 도시를 제외한 모든 도시에서 대체로 불가피합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]고립[ENDCOLOR]: 봉쇄 또는 도시 연결의 부족은 시민 가치당 비율에 따라 불행을 생성합니다. 바다에서 포위되어 경로가 약탈되거나 도시를 연결하지 않은 경우에만 문제가 됩니다. 내부 무역 경로(데이지 체인 또는 개별적으로)를 통해 도시를 수도에 연결하면 이 불행 패널티가 무효화됩니다(따라서 봉쇄 또는 장거리의 도시는 무역을 통해 수도에 "연결"될 수 있음).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]곤경[ENDCOLOR]: 이 기능은 도시의 기본 요구 사항(식량 및 고용, [ICON_FOOD] 식품 및 [ICON_PRODUCTION] 생산으로 대표됨)을 살펴봅니다. 이 수확량이 비율 기준을 초과하지 않으면 귀하의 도시에 약간의 어려움이 있습니다. 이것은 대도시나 포위된 도시에서 불가피합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]종교적 긴장[ENDCOLOR]: 도시의 대다수 종교를 보고 해당 종교에 속하지 않은 시민의 수와 비교합니다. 그 값이 함수값을 초과하면 종교적 갈등이 생길 것입니다. 이것은 대부분의 대도시에서 피할 수 없는 일이며 주의하지 않으면 불행의 주요 원인이 될 수 있습니다. 도시에 더 많은 신앙을 생산하는 건물을 짓거나(높은 신앙 생산은 소수 인구에서 뺄 수 있음) 단순히 사람들을 진정한 신앙으로 전환함으로써 이 값을 더 줄일 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]문맹[ENDCOLOR]: 도시의 과학 생산량을 나타냅니다. 이 수확량이 비율 기준을 초과하지 않으면 당신의 도시는 문맹을 얻습니다. 이것은 가장 똑똑한 도시를 제외한 모든 도시에서 대체로 불가피합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]무료[ENDCOLOR]: 도시의 문화 수확량을 보여줍니다. 이러한 수확량이 비율 기준을 초과하지 않으면 당신의 도시는 무료를 얻습니다 (즉, 귀하의 시민이 즐겁게 지낼 수 없음). 이는 투기장 및 기타 건물을 짓거나 걸작을 통해 우회할 수 있습니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]전문가[ENDCOLOR]: 전문가는 제국의 전문가 수에 따라 일정 비율로 불행을 생성합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]전쟁 피로도[ENDCOLOR]: 일단 이념이 있으면 제국 전체가 전쟁 피로도를 얻을 가능성이 있습니다(이는 이념적 불안에 추가됨).'
+SET Text = '비록 인구가 여전히 불행에 영향을 미치지만, 도시의 불행은 더 이상 시민의 수에 의해서만 결정되지는 않습니다. Vox Populi의 불행은 여러 이유로 야기되는데, 각각이 도시의 전체 불행에 기여합니다. 구체적인 정보는 도시 화면에서 "[ICON_HAPPINESS_3] 불행" 탭에 마우스를 올리면 확인할 수 있습니다. 총 불행은 도시 인구를 넘을 수 없습니다. 유일한 예외는 도시화로 인한 불행입니다. 불행의 원인은 다음과 같습니다: [NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]요구에 의한 불행[ENDCOLOR]: 대부분의 불행은 요구로 인해 발생합니다. 요구는 인구 수 당 특정 산출이 (인구수 당 골드, 인구수 당 과학 등) 전 세계 다른 도시의 산출을 기준으로 계산되는 각각의 요구 임계값보다 낮으면 발생합니다. 1인당 생산량이 낮을수록 발생하는 불행은 더 높아질 것입니다. 따라서 경쟁이 심화될수록 (다른 도시도 성장하므로 요구 임계값도 증가합니다) 요구가 점점 까다로워짐으로 도시의 생산량을 계속 증가시켜야 합니다. 인구 제한으로 요구 불행을 관리 가능한 수준으로 제한할 수 있고, 일부 건물과 정책은 특정 요구를 고정값만큼 감소시킵니다. 다음은 각각의 산출에 기반하는 4가지의 요구 불행임니다:[NEWLINE]
+[COLOR_NEGATIVE_TEXT]빈곤[ENDCOLOR]: 빈곤은 도시의 [ICON_GOLD] 골드 산출에 기반합니다. 빈곤을 없애려면, 골드를 제공하는 타일에서 작업하거나 시장 같은 건물을 지어 골드 생산량을 증가시키십시오. 국제 교역로는 출발한 도시에 골드를 제공하므로, 빈곤을 없애려는 도시에서 교역로를 보내는 것이 도움이 될 수 있습니다.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]곤경[ENDCOLOR]: 곤경은 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산 산출의 평균에 기반합니다. 식량을 대부분 소비하는 대도시는 곤경을 없애기 어려울 수 있습니다. 국내 교역로가 식량 또는 생산을 증가시켜 빈곤을 없애는 대 도움을 줄 수 있습니다.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]문맹[ENDCOLOR]: 문맹은 도시의 [ICON_RESEARCH] 과학 산출에 기반합니다. 과학 건물을 건설하거나 더 발전한 국가에 교역로를 보내 문맹을 줄일 수 있습니다.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]무료[ENDCOLOR]: 무료는 도시의 [ICON_CULTURE] 문화 산출에 기반합니다. 무료는 특히 중요한데, 무료가 높다면 다른 문명이 관광 보너스를 받을 수 있기 때문입니다. 턴마다 문화를 제공하는 건물을 건설하거나 더 문화적으로 발전한 국가에 교역로를 보내 무료를 없앨 수 있습니다. 걸작 또한 무료를 감소시키기 위해 옮겨질 수 있습니다.
+
+
+[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]불행의 다른 원인들[ENDCOLOR]: 요구로 인한 불행 외에도, 도시에 영향을 미치는 불행의 다른 원인들도 있습니다.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]기아[ENDCOLOR]: 도시의 식량 생산이 0보다 낮으면, 각 식량마다 1 불행이 발생합니다. 따라서 굶주린 도시는 불행이 매우 크게 증가합니다. 주로 적 유닛이 작업중인 타일을 약탈하고 막으면 기아가 발생하게 됩니다.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]약탈된 타일[ENDCOLOR]: 도시 주변의 약탈된 타일 두 개 당 1의 불행이 발생합니다. 사람들은 자신의 집이 불타는 것을 보는 것을 좋아하지 않으며, 어떤 조치가 취해질 때까지 계속 불행은 생성됩니다.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]고립[ENDCOLOR]: 고립된 도시는 시민 3명 당 1 불행이 발생합니다. 도시가 도로/등대 또는 교역로로 수도와 연결되지 않으면 고립됩니다. 도로 또는 등대 연결은 군사 봉쇄로 끊어질 수 있고, 교역로는 군사 봉쇄에 직접적인 영향을 받지 않지만 보호받지 못하면 군사에 의해 약탈될 수 있다는 점을 주의하세요.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]종교 분쟁[ENDCOLOR]: 종교 분쟁은 도시 내의 종교적 다양성에 의해 발생합니다. 만약 도시에 대중 종교가 있다면, 너무 많은 시민들이 대중 종교를 따르지 않을 때 불행이 생성됩니다. 선교사 또는 이단심문관으로 소수 종교를 없애 해결할 수 있습니다.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]도시화[ENDCOLOR]: 도시의 각 전문가는 1의 불행을 발생시키는데, 이것은 대도시 시민의 삶, 오염과 고밀도를 반영하는 것입니다. 다른 불행과 다르게, 도시화로 인한 불행은 도시 인구보다 총 불행이 많더라도 항상 불행에 추가됩니다.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]전쟁 피로도[ENDCOLOR]: 당신이 오랜 시간 전쟁 상태이거나 전쟁에서 큰 손실을 입는다면, 전쟁 피로도에 의해 시민들은 불행해질 것입니다. 전쟁 피로도는 모든 도시에서 늘어나며 제국의 총 불행을 크게 증가시킵니다. 전쟁 피로도의 자세한 내용은 전투 규칙 섹션의 해당 내용을 살펴보십시오.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_BODY';
 
 UPDATE Language_en_US
 SET Text = '[COLOR_GREEN]불행을 야기하는 것[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_TITLE';
-
-UPDATE Language_ko_KR
-SET Text = '불행에는 세 가지 수준이 있습니다. 불행, 불안, 그리고 반란. 불행한 문명은 모든 도시의 성장과 [COLOR_YELLOW]국가 생산량(즉, 턴당 총 과학)[ENDCOLOR]의 가치를 감소시킵니다. 불안을 겪고 있는 문명은 전투 페널티 및 공개적인 반란을 포함하여 더 많은 문제를 가질 수 있으며 문명이 반란에 들어서면 잠재적으로 도시가 제국을 포기하게 만들 수 있습니다.'
-WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY';
-
-UPDATE Language_en_US
-SET Text = '[COLOR_YELLOW]불행의 단계[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_TITLE';
 
 -- Text for city view tooltip.
 INSERT INTO Language_ko_KR (
@@ -531,13 +536,13 @@ SELECT '[NEWLINE][ICON_BULLET]행복에서: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_
 
 -- Text for city view tooltip.
 UPDATE Language_ko_KR
-Set Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3]불행 수치: {1_Num}%[ENDCOLOR]'
+SET Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3]불행 수치: {1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_FOODMOD_UNHAPPY';
 
 
 -- Text for city view tooltip.
 UPDATE Language_ko_KR
-Set Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_GOLDEN_AGE]황금기에서'
+SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_GOLDEN_AGE]황금기에서'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE';
 
 -- Update Text for Very Unhappy and Super Unhappy
