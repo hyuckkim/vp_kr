@@ -102,6 +102,11 @@
 			<Text>[COLOR_CYAN]추가 범위 공격[ENDCOLOR]</Text>
 		</Row>
 
+		<!-- New Text for Enemy Unit Panel-->
+		<Row Tag="TXT_KEY_EUPANEL_NO_FRIENDLY_UNIT_ADJACENT_BONUS">
+			<Text>근처에 아군 유닛 없음</Text>
+		</Row>
+
 		<!-- Diplomatic Mission (No Gold) -->
 		<Row Tag="TXT_KEY_DIPLOMATIC_MISSION_RESULT_NO_GOLD">
 			<Text>외교 임무를 수행하여 {1_Num} [ICON_INFLUENCE]영향력을 획득했습니다!</Text>
