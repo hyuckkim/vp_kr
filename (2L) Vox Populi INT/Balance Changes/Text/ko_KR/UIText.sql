@@ -699,7 +699,7 @@ SET Text = '유물이 가장 가까이에 있는 걸작 예술품 슬롯에 자�
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT';
 
 UPDATE Language_ko_KR
-SET Text = '고대의 문학 작품이 가장 가까운 걸작 문학 슬롯에 배치됩니다. [ICON_CULTURE]문화가 3 [ICON_CULTURE]관광이 4 증가합니다. 고고학자가 소모됩니다.'
+SET Text = '고대의 문학 작품이 가장 가까운 걸작 문학 슬롯에 배치됩니다. [ICON_CULTURE]문화가 3 [ICON_TOURISM]관광이 4 증가합니다. 고고학자가 소모됩니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 
 

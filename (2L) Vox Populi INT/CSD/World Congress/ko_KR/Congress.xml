@@ -66,7 +66,7 @@
 			<Text>세계는 외교 분쟁을 해결하기 위한 정당한 전쟁의 필요성을 인식하고 있습니다. [NEWLINE][NEWLINE]이 결의안이 활성되면, 유닛 유지 [ICON_GOLD]비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다. 도시를 정복하고 전쟁을 선포할 때 [ICON_VICTORY_DOMINATION]전쟁광 페널티가 크게 감소하고 [ICON_VICTORY_DOMINATION]전쟁광 수치가 평소보다 빠르게 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_WAR">
-			<Text>유닛 유지 [ICON_GOLD]비용 [COLOR_POSITIVE_TEXT]-{1_UnitMaintenancePercent}%[ENDCOLOR]. [ICON_VICTORY_DOMINATION]전쟁광 페널티 크게 감소</Text>
+			<Text>유닛 유지 [ICON_GOLD]비용 [COLOR_POSITIVE_TEXT]{1_UnitMaintenancePercent}%[ENDCOLOR]. [ICON_VICTORY_DOMINATION]전쟁광 페널티 크게 감소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WAR_PEACE">
 			<Text>유닛 유지 [ICON_GOLD]비용 [COLOR_NEGATIVE_TEXT]+{1_UnitMaintenancePercent}%[ENDCOLOR]. [ICON_VICTORY_DOMINATION]전쟁광 페널티 변동.</Text>
