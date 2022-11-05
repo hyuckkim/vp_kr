@@ -549,16 +549,16 @@ WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE';
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
-SET Text = '당신의 지지율이 35% 이하입니다. 제국 전역에 공공연한 반란이 일어나고 있습니다. 반란군(야만인)이 나타나 반란이 일어날 수도 있고, 도시가 당신의 제국을 버리고 당신의 문명에 가장 문화적으로 영향을 미치는 문명으로 변모할 수도 있습니다. 모든 도시의 [ICON_FOOD]성장이 더 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.'
+SET Text = '당신의 지지율이 35% 이하입니다. 제국 전역에 공공연한 반란이 일어나고 있습니다. 반란군(야만인)이 나타나 반란이 일어날 수도 있고, 도시가 당신의 제국을 버리고 당신의 문명에 가장 문화적으로 영향을 미치는 문명으로 변모할 수도 있습니다..'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY';
 
 UPDATE Language_ko_KR
-SET Text = '당신의 지지율이 20% 이하입니다. 제국 전역이 분열되고 있습니다. 반란군(야만인)이 빈번히 나타나고 도시가 빠르게 당신의 제국을 버리고 당신에게 가장 문화적으로 영향을 미치는 문명으로 변모할 것입니다. 모든 도시의 [ICON_FOOD]성장이 더 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.'
+SET Text = '당신의 지지율이 20% 이하입니다. 제국 전역이 분열되고 있습니다. 반란군(야만인)이 빈번히 나타나고 도시가 빠르게 당신의 제국을 버리고 당신에게 가장 문화적으로 영향을 미치는 문명으로 변모할 것입니다.'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY';
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_ko_KR
-SET Text = '당신의 지지율이 50%를 넘지 못했습니다. 모든 도시의 [ICON_FOOD]성장이 느려지고 개척자의 생산 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 10% 감소합니다.'
+SET Text = '당신의 지지율이 50%를 넘지 못했습니다.'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY';
 
 UPDATE Language_ko_KR

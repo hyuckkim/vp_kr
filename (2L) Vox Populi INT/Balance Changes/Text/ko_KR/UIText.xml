@@ -1499,7 +1499,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPINESS_TOP_PANEL_VP">
-			<Text>[ICON_CITIZEN] {1_Val}% ([ICON_HAPPINESS_1]{3_Val}/[ICON_HAPPINESS_3]{2_Val})</Text>
+			<Text>{1_Val} ([ICON_HAPPINESS_1][COLOR_POSITIVE_TEXT]{3_Val}[ENDCOLOR]/[ICON_HAPPINESS_3][COLOR_NEGATIVE_TEXT]{2_Val}[ENDCOLOR] )</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_UNHAPPINESS_FLAT">
@@ -1507,12 +1507,17 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY_NO_REBELS">
-			<Text>당신의 지지율이 35%를 넘지 못하기 때문에 제국 전체가 공공연한 반란을 겪고 있습니다. 도시들은 당신의 제국을 버리고 당신의 민족에 가장 문화적으로 영향을 미치는 문명으로 변절할지도 모릅니다! 또한 모든 도시가 매우 느리게 [ICON_FOOD]성장하고 군사 유닛 및 개척자의 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.</Text>
+			<Text>당신의 지지율이 35%를 넘지 못하기 때문에 제국 전체가 공공연한 반란을 겪고 있습니다. 도시들은 당신의 제국을 버리고 당신의 민족에 가장 문화적으로 영향을 미치는 문명으로 변절할지도 모릅니다!</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY_NO_REBELS">
-			<Text>당신의 지지율이 20%를 넘지 못하기 때문에 제국 전체가 빠르게 무너지고 있습니다. 도시들은 당신의 제국을 버리고 당신의 민족에 가장 문화적으로 영향을 미치는 문명으로 변절할지도 모릅니다! 또한 모든 도시가 매우 느리게 [ICON_FOOD]성장하고 군사 유닛 및 개척자의 비용이 증가합니다. [ICON_STRENGTH]전투 효율성이 20% 감소합니다.</Text>
+			<Text>당신의 지지율이 20%를 넘지 못하기 때문에 제국 전체가 빠르게 무너지고 있습니다. 도시들은 당신의 제국을 버리고 당신의 민족에 가장 문화적으로 영향을 미치는 문명으로 변절할지도 모릅니다!</Text>
 		</Row>
+
+		<Row TAG="TXT_KEY_TP_UNHAPPINESS_EMPIRE_PENALTIES">
+			<Text>모든 도시의 [ICON_FOOD] 성장이 {1_NumGrowth}% 만큼 감소하고 개척자의 비용이 {2_NumSettlerCost}% 만큼 증가합니다! [ICON_STRENGTH] 전투 효율성이 {3_NumCombatStrength}% 만큼 감소합니다!</Text>
+		</Row>
+
 
 		<Row Tag="TXT_KEY_CITYVIEW_FREESPECIALIST_TEXT">
 			<Text>{1_NumSpecialists: plural 1?전문가; other?전문가;}: [ICON_URBANIZATION_GREEN]도시화 없음</Text>
