@@ -36,15 +36,15 @@ UPDATE Language_ko_KR
 SET Text = '모든 성지의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_GRAND_OSSUARY_HELP';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '전문가는 도시 내 건물에 배정되어 임무를 수행합니다. 문명 5에 등장하는 전문가는 과학자, 상인, 예술가, 기술자, 그리고 [COLOR_YELLOW]공무원[ENDCOLOR]입니다. 예를 들어 박물관에 시민 한두 명을 배정해 예술 전문가로 활동하게 할 수 있습니다. 전문가를 배정할 수 있는 건물은 한정되어 있습니다. 자세한 사항은 건물 부분을 참고하십시오.'
 WHERE Tag = 'TXT_KEY_CITIES_SPECIALISTS_HEADING2_BODY';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]전문가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITIES_SPECIALISTS_HEADING2_TITLE';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]전문가의 장점[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_TITLE';
 

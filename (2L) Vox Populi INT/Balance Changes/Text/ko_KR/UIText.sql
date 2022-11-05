@@ -386,11 +386,11 @@ UPDATE Language_ko_KR
 SET Text = '플레이어의 수도와 다른 도시 사이에 길이 있다면, 그 도시는 ''도시 연결'' 상태입니다. 도시 연결이 되어 있으면 턴마다 금을 보너스로 받습니다. 보너스로 받는 금의 양은 연결된 도시의 크기에 따라 달라집니다([COLOR_YELLOW]등대와 해안 도시 사이[ENDCOLOR]도 연결할 수 있음). 자세한 사항은 도시 연결 섹션을 참고하십시오.'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_BODY';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]도로와 무역로[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_TITLE';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_GREEN]마을[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_TITLE';
 
@@ -477,7 +477,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_OCCUPIED]점령/[ICON_RESISTANCE]저항/[ICON_RAZING]불태우는 도시의 [ICON_CITIZEN]시민에서 획득'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num : number "#.##"}[ENDCOLOR]  [ICON_OCCUPIED]점령한 도시의 [ICON_CITIZEN]시민에서 획득'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_PUPPET_CITIES';
 
@@ -499,7 +499,7 @@ UPDATE Language_ko_KR
 SET Text = '제국의 행복은 다음에 의해 증가합니다:[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]시작 행복[ENDCOLOR]: 시작 시 문명에 주어지는 행복은 게임의 난이도에 따라 결정됩니다. 시작 행복은 시간이 지나 성장함에 따라 비교적 덜 중요해질 것입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]자연 불가사의와 랜드마크[ENDCOLOR]: 자연 불가사의를 발견하거나 고고학자를 사용하여 랜드마크를 건설하면 (자신의 땅 및 다른 플레이어의 땅 모두) 약간의 행복을 얻을 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]도시 국가[ENDCOLOR]: 상업적 도시 국가는 우호적 또는 동맹 상태일 때 당신에게 행복을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]종속국[ENDCOLOR]: 만약 다른 문명을 종속국으로 만들었다면, 그들의 행복 레벨에 기반하 약간의 행복을 제공할 것입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR]: 제국에 연결된 사치 자원 종류당 행복을 얻을 수 있습니다. 사치 자원으로 얻는 행복은 제국의 총 인구에 따라 조절됩니다. 따라서 사치 자원은 초반에 덜 중요하고 후반에는 쓸모있어집니다. 또한, 사치 자원 독점 중 일부는 제국에 추가 행복이 부여됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]지역 행복[ENDCOLOR]: 특정 건물은 건물이 지어진 도시의 지역 행복을 증가시킵니다. 종교 교리, 정책, 세계 불가사의 또는 이벤트로도 지역 행복이 증가할 수 있습니다. 이는 절대 행복을 얻을 수 없는 괴뢰 도시 또는 점령 도시에는 적용되지 않습니다.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_GREEN]행복을 만드는 것[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_TITLE';
 
@@ -520,7 +520,7 @@ SET Text = '비록 인구가 여전히 불행에 영향을 미치지만, 도시�
 [COLOR_NEGATIVE_TEXT]전쟁 피로도[ENDCOLOR]: 당신이 오랜 시간 전쟁 상태이거나 전쟁에서 큰 손실을 입는다면, 전쟁 피로도에 의해 시민들은 불행해질 것입니다. 전쟁 피로도는 모든 도시에서 늘어나며 제국의 총 불행을 크게 증가시킵니다. 전쟁 피로도의 자세한 내용은 전투 규칙 섹션의 해당 내용을 살펴보십시오.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_BODY';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_GREEN]불행을 야기하는 것[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_TITLE';
 
@@ -636,7 +636,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT';
 
 -- We Love the King Day
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '{1_Resource:textkey}{1: plural 1?을; 2?를;} 보유해 {2_CityName:textkey}에서 국왕 경축일이 시작됐습니다. 도시의 [ICON_FOOD]식량이 증가합니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_WLTKD';
 

@@ -52,7 +52,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]국제 연합 프로젝트가 완료되면 세계 대회는 국제 연합이 되며 외교 승리가 가능해지고 세계 이념이 활성화됩니다.[ENDCOLOR] [ICON_VICTORY_DIPLOMACY]외교 승리를 쟁취하기 위해서는 문명이 [COLOR_POSITIVE_TEXT]세계 패권 결의안[ENDCOLOR]에 대한 대표단의 지지를 충분히 확보해야 합니다.[NEWLINE][NEWLINE]다른 결의안과는 달리 세계 패권 결의안은 어느 한 문명이 상정할 수 없습니다. 그대신 세계 대회 2회기마다 세계 패권에 대한 논의가 이루어집니다. 일반 상정 결의안을 다루는 회기와 교대로 진행되는 이 회기 동안, 세계 지도자 결의안이 대회에 자동으로 상정되며 그 외의 결의안은 상정되지 않습니다. [NEWLINE][NEWLINE]외교 승리를 달성하는 데 필요한 대표단 수는 게임 내 문명과 도시 국가 수에 따라 달라지며 세계 대회와 승리 진척도 화면에서 확인할 수 있습니다. 만약 어느 문명도 세계 지도자 결의안의 조건을 충족시킬 정도의 지지를 확보하지 못하면, 가장 많은 지지를 확보한 상위 두 개의 문명이 영구적으로 추가 대표단을 확보하게 됩니다.'
 WHERE Tag = 'TXT_KEY_CONGRESS_VICTORY_HEADING2_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]외교 승리[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONGRESS_VICTORY_HEADING2_TITLE' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
