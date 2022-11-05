@@ -361,7 +361,7 @@ WHERE Tag = 'TXT_KEY_AESTHETICS_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]미학[ENDCOLOR]은 [ICON_GREAT_WORK]걸작, [ICON_GREAT_PEOPLE]위인, [ICON_GOLDEN_AGE]황금기에 대한 잠재력을 극대화하는 능력을 강화합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_GREAT_PEOPLE]위인 출현율 +25%[NEWLINE][ICON_BULLET]모든 길드 건설 시 [ICON_PRODUCTION]생산 보너스 +100%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_GOLDEN_AGE]황금기 점수 +2 [ICON_RESEARCH]과학 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]루브르 박물관[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]사적지 발굴 또는 [ICON_GOLDEN_AGE]황금기 시작 시 알려진 모든 문명에 대한 [ICON_TOURISM]관광 증가[NEWLINE][ICON_BULLET]숨겨진 사적지 발굴 가능[NEWLINE][ICON_BULLET]랜드마크의 [ICON_RESEARCH]과학 및 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_MUSICIAN][COLOR_YELLOW]위대한 음악가[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]미학[ENDCOLOR]은 [ICON_GREAT_WORK]걸작과 [ICON_GOLDEN_AGE]황금기에 대한 잠재력을 극대화하는 능력을 강화합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_GREAT_PEOPLE]위대한 작가, 예술가, 음악가 출현율 +25%[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] 황금기 동안 모든 도시의 [ICON_CULTURE] 문화 +10%.[NEWLINE][ICON_BULLET]모든 길드 건설 시 [ICON_PRODUCTION]생산 보너스 +100%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_GOLDEN_AGE]황금기 점수 +2 [ICON_RESEARCH]과학 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]루브르 박물관[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]사적지 발굴 또는 [ICON_GOLDEN_AGE]황금기 시작 시 알려진 모든 문명에 대한 [ICON_TOURISM]관광 증가[NEWLINE][ICON_BULLET]숨겨진 사적지 발굴 가능[NEWLINE][ICON_BULLET]랜드마크의 [ICON_RESEARCH]과학 및 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_MUSICIAN][COLOR_YELLOW]위대한 음악가[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP';
 
 UPDATE Language_ko_KR
@@ -374,7 +374,7 @@ SET Text = '인본주의' --문화센터
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE]걸작 예술품의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], 유물의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], 걸작 음악의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR], 걸작 문학의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 모든 전문가의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE][ICON_GREAT_WORK] 걸작 문학의[ICON_GOLDEN_AGE] 황금기 점수가 +3 증가합니다. [ICON_GOLDEN_AGE] 황금기를 시작하기 위해 필요한 [ICON_GOLDEN_AGE] 황금기 점수가 25% 감소합니다. 모든 길드의 [ICON_HAPPINESS_1] 행복이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS_HELP';
 
 UPDATE Language_ko_KR
@@ -387,7 +387,7 @@ SET Text = '세련'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]세련[ENDCOLOR][NEWLINE]모든 길드의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 3개마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]세련[ENDCOLOR][NEWLINE][ICON_GREAT_WORK] 걸작 예술품의 [ICON_CULTURE] 문화가 +2 증가합니다. 전문가에서 [ICON_CULTURE] 문화를 +1 얻습니다. 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS_HELP';
 
 UPDATE Language_ko_KR
@@ -400,7 +400,7 @@ SET Text = '문화유산'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]문화유산[ENDCOLOR][NEWLINE]세계 불가사의 또는 국가 불가사의 건설을 완료하면 황금기 점수를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 모든 대학의 [ICON_GOLDEN_AGE]황금기 점수 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]문화유산[ENDCOLOR][NEWLINE][ICON_GREAT_WORK] 걸작 음악의 [ICON_GOLD] 골드가 +4 증가합니다. 모든 대학의 [ICON_GOLDEN_AGE]황금기 점수 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 세계 불가사의, 국가 불가사의, 시설의 [ICON_CULTURE] 문화의 25%가 도시의 [ICON_TOURISM] 관광에 추가됩니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP';
 
 UPDATE Language_ko_KR
@@ -413,7 +413,7 @@ SET Text = '국보'
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]국보[ENDCOLOR][NEWLINE][ICON_CAPITAL]수도 근처에 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]국보[ENDCOLOR][NEWLINE]유물의 [ICON_RESEARCH] 과학이 +2 증가합니다. [ICON_CAPITAL]수도 근처에 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. [ICON_GREAT_PEOPLE]세계 불가사의 또는 국가 불가사의를 건설할 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]250[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP';
 
 UPDATE Language_ko_KR
@@ -422,7 +422,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_TEXT';
 
 -- Cultural Exchange
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]문화 교류[ENDCOLOR][NEWLINE]다른 문명과의 국경 개방에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 모든 원형극장 및 오페라 극장의 [ICON_CULTURE]문화 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_GOLDEN_AGE]황금기 동안 모든 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]문화 교류[ENDCOLOR][NEWLINE]도시의 [ICON_GREAT_WORK] 걸작 3개마다 [ICON_HAPPINESS_1] 행복이 1 증가합니다. 다른 문명과의 국경 개방에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 모든 원형극장 및 오페라 극장의 [ICON_CULTURE]문화 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ETHICS_HELP';
 
 --------------------
@@ -899,17 +899,17 @@ UPDATE Language_ko_KR
 SET Text = '신권 정치는 왕권과 정치적 정당성에 대한 정치적, 종교적 교리입니다. 그것은 군주는 지상의 권위에 속하지 않으며, 신의 뜻에서 직접 통치할 권리를 얻었다고 주장합니다. 그러므로 왕은 (특히 개신교 국가에서) 교회를 포함한 그의 국민, 귀족 또는 왕국의 다른 어떤 재산에도 영향을 받지 않습니다. 이 교리에 따르면, 오직 하나님만이 불공평한 왕을 심판할 수 있습니다. 그 교리는 왕을 퇴위시키거나 그의 권력을 제한하려는 어떠한 시도도 신의 뜻에 어긋나며 신성모독적인 행위를 구성할 수 있다는 것을 암시합니다. 그것은 종종 군주의 칭호에 붙은 "신의 은총에 의해"라는 문구로 표현됩니다.'
 WHERE Tag = 'TXT_KEY_POLICY_THEOCRACY_TEXT';
 
--- Reformation (now Burghers)
+-- Reformation (now Fiefdoms)
 UPDATE Language_ko_KR
-SET Text = '부르주아'
+SET Text = '영지'
 WHERE Tag = 'TXT_KEY_POLICY_REFORMATION';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]부르주아[ENDCOLOR][NEWLINE]황금기 또는 "국왕 경축일"이 열리는 동안 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 국경 확장 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]영지[ENDCOLOR][NEWLINE]"국왕 경축일"이 열리는 동안 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 국경 확장 속도가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 제국의 군사 유닛 10개마다 [ICON_HAPPINESS_1] 행복이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_REFORMATION_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '부르주아는 11세기에 중서유럽의 부르주아들이 상업에 전념하는 도시로 발전하면서 역사적, 정치적 현상으로 등장했습니다. 이러한 도시 확장이 가능했던 것은 길드로의 보호적 자기 조직화의 출현으로 인한 경제적 집중 덕분이었습니다. 길드는 개인 사업가들(장인, 장인, 상인 등)이 이전에 합의했던 것보다 더 많은 임대료를 요구하는 그들의 봉건적 지주들과 충돌하면서 생겨났습니다. 중세 말기(ca)까지입니다. 서기 1500년), 서유럽의 초기 국가 군주정권 하에서 부르주아 계급은 사리사욕을 위해 행동했고, 봉건 영주들의 탐욕으로 인한 법적, 재정적 무질서에 맞서 왕이나 여왕을 정치적으로 지지했습니다.'
+SET Text = '봉건제는 왕이 충성 서약의 대가로 하급 귀족에게 부여한 재산 또는 수입원에 대한 상속 제도입니다. 영지는 보통 귀족들이 세금을 부과할 수 있는 수익을 창출하는 토지의 형태를 취했는데, 이 경우 영지는 단지 영지라고 불렸지만, 광업과 같은 무역 독점이나 자원 권리와 같은 다른 형태도 취할 수 있었습니다. 이 영지는 중세 봉건제도의 중심이었고, 왕들이 대규모의 관료주의와 상비군 비용 없이 기사들을 그들의 영지에 묶을 수 있게 해주었습니다; 일단 그들이 그렇게 되고 나면 그들의 생계를 유지하는 것은 기사들에게 달려 있었습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_REFORMATION_TEXT';
 
 -- Free Religion (now Serfdom)
