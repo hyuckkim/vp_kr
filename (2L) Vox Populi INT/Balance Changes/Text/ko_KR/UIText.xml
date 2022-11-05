@@ -1576,6 +1576,14 @@
 			<Row Tag="TXT_KEY_RO_TAB_MAP">
 				<Text>지도</Text>
 			</Row>
+			<!-- UI - Improved Military Overview -->
+				<Row Tag="TXT_KEY_XP">
+					<Text>경험치</Text>
+				</Row>
+		
+				<Row Tag="TXT_KEY_MO_SORT_XP">
+					<Text>경험치순 정렬</Text>
+				</Row>
 	</Language_ko_KR>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_CITY_NAME_CATTARO">
