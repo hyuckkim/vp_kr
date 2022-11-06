@@ -272,15 +272,15 @@ SET Text = '채석장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCO
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '군수창고는 도시의 방어력과 체력을 증가시켜 도시를 더욱 점령하기 어렵게 만드는 산업 시대 건물입니다. 도시 공격 범위가 1 증가하고, 도시가 시야 범위를 무시하고 간접 사격을 가능하게 합니다. 군사 유닛 보급 한도를 도시 인구의 15%만큼 증가시킵니다. 또한 도시 규모 요구치를 조절하는 데 도움을 줍니다. 군수창고를 건설하려면 먼저 성을 건설해야 합니다.'
+SET Text = '군수창고는 도시의 방어력과 체력을 증가시켜 도시를 더욱 점령하기 어렵게 만드는 현대 시대 건물입니다. 도시 공격 범위가 1 증가합니다. 군사 유닛 보급 한도를 도시 인구의 10%만큼 증가시킵니다. 또한 도시 규모 요구치를 조절하는 데 도움을 줍니다. 군수창고를 건설하려면 먼저 성형 요새를 건설해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]간접 사격[ENDCOLOR]이 가능해집니다.[NEWLINE][NEWLINE]이 도시에 주둔한 유닛은 체력을 추가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 더 회복합니다. [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.'
+SET Text = '군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 도시에 주둔한 유닛은 체력을 추가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 더 회복합니다. [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 도시 공습을 하는 공중 유닛에게 주는 [ICON_STRENGTH]피해가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 도시의 스파이 저항이 25% 증가합니다. 도시의 원거리 전투력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 이 도시에 주둔한 유닛은 체력을 추가 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] 더 회복합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소하고 [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.'
+SET Text = '공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 도시 공습을 하는 공중 유닛에게 주는 [ICON_STRENGTH]피해가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 도시의 스파이 저항이 25% 증가합니다. 도시의 원거리 전투력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]만큼 증가합니다. 이 도시에 주둔한 유닛은 체력을 추가 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] 더 회복합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소하고 [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_HELP';
 
 UPDATE Language_ko_KR
@@ -571,7 +571,7 @@ SET Text = '[COLOR_YELLOW]사리탑[ENDCOLOR]을 무료로 제공합니다. 무�
 WHERE Tag = 'TXT_KEY_WONDER_BOROBUDUR_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]성[ENDCOLOR]을 무료로 제공합니다. 우호 영토 내 전투 시 유닛의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 모든 도시의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
+SET Text = '[COLOR_YELLOW]성형 요새[ENDCOLOR]를 무료로 제공합니다. 우호 영토 내 전투 시 유닛의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 모든 도시의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_WONDER_HIMEJI_CASTLE_HELP';
 
 UPDATE Language_ko_KR

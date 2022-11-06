@@ -985,7 +985,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY';
 -- Russia
 --------------------
 UPDATE Language_ko_KR
-SET Text = '군수창고를 대체하는 러시아의 고유 건물입니다. 야영지, 광산, 제재소, 전략 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]간접 사격[ENDCOLOR]이 가능해집니다. [NEWLINE][NEWLINE]군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]만큼 증가합니다. 적 지상 유닛이 이 도시의 영토에서 타일마다 [ICON_MOVES]이동력을 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 더 소모합니다. [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.'
+SET Text = '군수창고를 대체하는 러시아의 고유 건물입니다. 야영지, 광산, 제재소, 전략 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시가 시야를 무시하고 공격할 수 있게 됩니다. [NEWLINE][NEWLINE]군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]만큼 증가합니다. 적 지상 유닛이 이 도시의 영토에서 타일마다 [ICON_MOVES]이동력을 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 더 소모합니다. [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_HELP';
 
 UPDATE Language_ko_KR
@@ -993,7 +993,7 @@ SET Text = '오스트로그'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_DESC';
 
 UPDATE Language_ko_KR
-SET Text = '오스트로그는 군수창고를 대체하는 러시아의 고유 건물입니다. 군수창고의 기본 보너스에 더해, 오스트로그는 더 저렴하고, 더 빨리 건설할 수 있고, 야영지, 광산, 재재소, 전략 자원에 +1 생산과 +1 골드를 제공합니다. 도시 인구의 15% 만큼 군사 유닛 보급 한도를 증가시킵니다. 적 지상 유닛이 이 도시에서 타일 이동에 이동력을 1 더 사용하게 만듭니다. 생산, 골드를 제공하고 오스트로그가 지어진 도시의 요구를 훌륭히 해소해, 새로 개척되는 도시가 빠르게 건설할 수 있도록 합니다. 모든 러시아 도시에, 특히 국경 도시에 이런 유용한 건물을 짓는 것은 꽤 가치 있는 일입니다.'
+SET Text = '오스트로그는 성형 요새를 대체하는 러시아의 고유 건물입니다. 성형 요새의 기본 보너스에 더해, 오스트로그는 더 저렴하고, 더 빨리 건설할 수 있고, 야영지, 광산, 재재소, 전략 자원에 +1 생산과 +1 골드를 제공합니다. 도시 인구의 15% 만큼 군사 유닛 보급 한도를 증가시킵니다. 적 지상 유닛이 이 도시에서 타일 이동에 이동력을 1 더 사용하게 만듭니다. 생산, 골드를 제공하고 오스트로그가 지어진 도시의 요구를 훌륭히 해소해, 새로 개척되는 도시가 빠르게 건설할 수 있도록 합니다. 모든 러시아 도시에, 특히 국경 도시에 이런 유용한 건물을 짓는 것은 꽤 가치 있는 일입니다.'
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_STRATEGY';
 
 UPDATE Language_ko_KR
