@@ -14,6 +14,20 @@
 		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_ADVISOR_QUESTION">
 			<Text>시대별 보정이 무엇입니까?</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_TOPIC">
+			<Text>[COLOR_GREEN]도시 국가 대사관[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_SUMMARY">
+			<Text>도시 국가 대사관은 세계 회의에서 대표를 얻기 위한 추가적인 방법입니다. 도시 국가에 대사관을 설립하려면 위대한 외교관을 도시 국가의 지상 타일로 이동하고 "대사관 설립"을 선택하십시오. 대사관은 세계 의회에서 1명의 대표단을 추가로 부여합니다. 각 도시 국가에서는 문명에 의해 하나의 대사관만 설립될 수 있습니다. 그러니 서두르십시오. 문명이 정복되면, 모든 도시 국가 대사관은 정복 중인 문명으로 옮겨집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_QUESTION">
+			<Text>도시 국가 대사관이 무엇입니까?</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_HISTORIC_EVENT">
 			<Text>[COLOR_GREEN]역사적 사건[ENDCOLOR]</Text>
 		</Row>
