@@ -115,7 +115,7 @@ SET Text = 'AI들이 모든 단계마다 엄청난 보너스를 받습니다. �
 WHERE Tag = 'TXT_KEY_HANDICAP_IMMORTAL_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '최고의 플레이어만이 이 난이도에서 승리할 수 있습니다.'
+SET Text = '으하하하! 행운이 있기를, 풋내기!'
 WHERE Tag = 'TXT_KEY_HANDICAP_DEITY_HELP';
 
 -- Top Panel Tooltip Adjustment (make generic for more than just founder beliefs)
