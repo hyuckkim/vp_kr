@@ -60,6 +60,9 @@
 		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_REC">
 			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드를 증가시킵니다.[NEWLINE]보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE]문화를 제공합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_MACHU_PICCHU">
+			<Text>산악 도시</Text>
+		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_KUNA">
 			<Text>쿠나</Text>
 		</Row>
