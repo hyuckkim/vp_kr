@@ -427,6 +427,14 @@
 		<Row Tag="TXT_KEY_NEED_BE_RESISTANCE">
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 저항 상태여야 합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NEED_BARBARIANS_ENABLED">
+			<Text>[NEWLINE] [ICON_BULLET] 야만인이 횔성화되어야 합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOO_EARLY_FOR_BARBARIANS">
+			<Text>[NEWLINE] [ICON_BULLET] 소유한 영토에 야만인이 들어갈 수 없습니다.</Text>
+		</Row>
+	
 		<Row Tag="TXT_KEY_NEED_BE_RIVER">
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 강과 인접해야 합니다.</Text>
 		</Row>
