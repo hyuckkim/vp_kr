@@ -77,7 +77,7 @@
 			<Text>[COLOR_GREEN]도시의 지역 행복[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_BODY">
-			<Text>도시의 지역 행복은 다음과 같이 결정됩니다: [NEWLINE][NEWLINE]일부 행복은 도시에서 직접 발생합니다. 건물, 정책, 세계 불가사의, 작업 중인 랜드마크가 가능합니다. [NEWLINE][NEWLINE]제국 전체에서 오는 행복은 모든 도시에 분산됩니다. 이것은 자동으로 결정되는데, 인구보다 지역 행복이 적은 도시들을 우선합니다.</Text>
+			<Text>도시의 지역 행복은 다음과 같이 결정됩니다: [NEWLINE][NEWLINE]일부 행복은 도시에서 직접 발생합니다. 건물, 정책, 세계 불가사의, 작업 중인 랜드마크가 가능합니다. [NEWLINE][NEWLINE]제국 전체에서 오는 행복은 모든 도시에 분산됩니다. 이것은 자동으로 결정되는데, 인구와 행복이 같아질 때까지는 인구보다 지역 행복이 적은 도시들을 우선합니다. 모든 도시의 인구와 행복이 같아지면, 가장 높은 인구부터 순서대로 나머지 행복이 분배됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_ADV_QUEST">
 			<Text>지역 도시 행복은 어떻게 결정되나요?</Text>
@@ -109,7 +109,7 @@
 			<Text>[COLOR_GREEN]점령되어 저항하는 도시[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIED_CITIES_BODY">
-			<Text>저항하는 도시들은 어떤 지역적 행복도 만들어내지 못합니다. 대신, 그들은 도시의 인구와 동등한 불행을 만들어냅니다. 제국의 지지율을 크게 낮출 수 있습니다.[NEWLINE][NEWLINE]점령된 도시들은 또한 어떠한 행복도 만들어내지 않습니다. 그들은 도시 인구와 동등한 불행을 발생시키고, 여기에 도시화로 인한 불행을 더합니다.</Text>
+			<Text>저항하거나 불타는 도시들은 어떤 지역적 행복도 만들어내지 못합니다. 대신, 그들은 도시의 인구와 동등한 불행을 만들어냅니다. 제국의 지지율을 크게 낮출 수 있습니다.[NEWLINE][NEWLINE]점령된 도시들은 또한 어떠한 행복도 만들어내지 않습니다. 그들은 도시 인구와 동등한 불행을 발생시키고, 여기에 도시화로 인한 불행을 더합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIEDCITIES_ADV_QUEST">
 			<Text>점령되고 저항하는 도시의 불행은 무엇 때문인가요?</Text>
