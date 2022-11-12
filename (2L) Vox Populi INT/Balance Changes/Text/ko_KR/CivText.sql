@@ -7,7 +7,7 @@ SET Text = '지상 군사 유닛이 [COLOR_POSITIVE_TEXT]감시[ENDCOLOR] 승급
 WHERE Tag = 'TXT_KEY_TRAIT_RIVER_EXPANSION';
 
 UPDATE Language_ko_KR
-SET Text = '민병대는 머스킷총병을 대체하는 미국의 고유 유닛입니다. 민병대는 험지를 패널티 없이 이동할 수 없고, 적을 처치하면 황금기 접수를 얻습니다. 2칸 너머를 공격할 수 있습니다.'
+SET Text = '민병대는 미국의 고유 유닛으로 민병대를 대체합니다. 민병대는 험지를 패널티 없이 이동할 수 없고, 적을 처치하면 황금기 접수를 얻습니다. 2칸 너머를 공격할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -29,7 +29,7 @@ SET Text = '시장을 대체하는 아라비아의 고유 건물입니다. 이 �
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '바자는 시장을 대체하는 아라비아의 고유 유닛입니다. 바자는 [ICON_GOLD] 골드를 제공하고 교역로 범위를 향상시킵니다. 바자는 또한 [ICON_RES_SPICES] 향신료와 [ICON_RES_SUGAR] 설탕에 보너스를 제공합니다.'
+SET Text = '바자는 아라비아의 고유 건물로 시장을 대체합니다. 바자는 [ICON_GOLD] 골드를 제공하고 교역로 범위를 향상시킵니다. 바자는 또한 [ICON_RES_SPICES] 향신료와 [ICON_RES_SUGAR] 설탕에 보너스를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -45,7 +45,7 @@ SET Text = '중산병을 대체하는 아라비아의 고유 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CAMEL_ARCHER';
 
 UPDATE Language_ko_KR
-SET Text = '낙타궁병은 중산병을 대체하는 아라비아의 고유 유닛입니다. 낙타궁병은 광역 피해 I 승급을 가지고 시작해 강력한 범위 공격을 가하여, 한 타일 안 범위의 여러 적을 동시에 공격할 수 있습니다. 또한 근접 전투에서 후퇴할 수 있고, 말을 요구하지 않습니다. 하지만 기병이므로, 낙타궁병은 여전히 장창병에게 취약합니다.'
+SET Text = '낙타궁병은 아라비아의 고유 유닛으로 중산병을 대체합니다. 낙타궁병은 광역 피해 I 승급을 가지고 시작해 강력한 범위 공격을 가하여, 한 타일 안 범위의 여러 적을 동시에 공격할 수 있습니다. 또한 근접 전투에서 후퇴할 수 있고, 말을 요구하지 않습니다. 하지만 기병이므로, 낙타궁병은 여전히 장창병에게 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ARABIAN_CAMELARCHER_STRATEGY';
 
 --------------------
@@ -91,7 +91,7 @@ SET Text = '식료품 상점을 대체하는 오스트리아의 고유 건물입
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '카페는 식료품 상점을 대체하는 오스트리아의 고유 건물입니다. 도시의 [ICON_GROWTH] 성장을 늘리고 [ICON_GREAT_PEOPLE] 위인 탄생을 33% 가속시킵니다.'
+SET Text = '카페는 오스트리아의 고유 건물로 식료품 상점을 대체합니다. 도시의 [ICON_GROWTH] 성장을 늘리고 [ICON_GREAT_PEOPLE] 위인 탄생을 33% 가속시킵니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -111,7 +111,7 @@ SET Text = '우물 또는 물레방앗간을 대체하는 아즈텍의 고유 �
 WHERE Tag = 'TXT_KEY_BUILDING_FLOATING_GARDENS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '수상정원은 우물과 물레방앗간을 모두 대체하는 아즈텍의 고유 건물입니다. (따라서 어디에서든 건설할 수 있습니다) 도시의 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 증가시키고, 황금기 동안 강화되며, 도시를 호수나 강 근처에 짓게 합니다.'
+SET Text = '수상정원은 아즈텍의 고유 건물로 우물과 물레방앗간을 모두 대체합니다. (따라서 어디에서든 건설할 수 있습니다) 도시의 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 증가시키고, 황금기 동안 강화되며, 도시를 호수나 강 근처에 짓게 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -123,7 +123,7 @@ SET Text = '전사를 대체하는 아즈텍의 고유 유닛입니다. 게임 �
 WHERE Tag = 'TXT_KEY_UNIT_HELP_JAGUAR';
 
 UPDATE Language_ko_KR
-SET Text = '재규어 전사는 전사를 대체하는 아즈텍의 고유 유닛입니다. 이 유닛을 최대한 빨리 생산해 이웃과 전투하여, 아즈텍의 처치시 [ICON_GOLD] 골드와 [ICON_PEACE] 신앙 제공 능력을 활용하십시오. 재규어 전사의 보너스를 이용하려면 가급적 숲 또는 정글에서 전투하는 것이 좋습니다.'
+SET Text = '재규어 전사는 아즈텍의 고유 유닛으로 전사를 대체합니다. 이 유닛을 최대한 빨리 생산해 이웃과 전투하여, 아즈텍의 처치시 [ICON_GOLD] 골드와 [ICON_PEACE] 신앙 제공 능력을 활용하십시오. 재규어 전사의 보너스를 이용하려면 가급적 숲 또는 정글에서 전투하는 것이 좋습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_AZTEC_JAGUAR_STRATEGY';
 
 --------------------
@@ -138,7 +138,7 @@ SET Text = '궁병을 대체하는 바빌론의 고유 유닛입니다. 일반 �
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '바빌론 궁병은 궁병을 대체하는 바빌론의 고유 유닛입니다. 궁병보다 방어할 때 더 강해, 최전선 유닛으로 설 수 있습니다. 향상된 전투력으로 기술에 의해 빠르게 뒤쳐짌 수 있다는 고민을 완화시킵니다.'
+SET Text = '바빌론 궁병은 바빌론의 고유 유닛으로 궁병을 대체합니다. 궁병보다 방어할 때 더 강해, 최전선 유닛으로 설 수 있습니다. 향상된 전투력으로 기술에 의해 빠르게 뒤쳐짌 수 있다는 고민을 완화시킵니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -153,7 +153,7 @@ INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_BABYLON_WALLS_HELP', '성벽을 대체하는 바빌론의 고유 건물입니다. 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 과학자 전문가의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.');
 
 UPDATE Language_ko_KR
-SET Text = '바빌론 성벽은 성벽을 대체하는 바빌론의 고유 건물입니다. 바빌론 성벽은 도시의 방어력을 15, 체력을 75 올려, 각 값이 둘 모두 기본 성벽보다 높습니다. 군사 유닛 보급 한도가 인구의 10%만큼 증가하고, 도시의 사격 범위가 1 증가합니다. 바빌론 성벽은 과학자 슬롯을 제공하며 모든 과학자 전문가의 골드 산출을 증가시킵니다. 지어진 도시에서의 불행 관리에도 도움을 줍니다.'
+SET Text = '바빌론 성벽은 바빌론의 고유 건물로 성벽을 대체합니다. 바빌론 성벽은 도시의 방어력을 15, 체력을 75 올려, 각 값이 둘 모두 기본 성벽보다 높습니다. 군사 유닛 보급 한도가 인구의 10%만큼 증가하고, 도시의 사격 범위가 1 증가합니다. 바빌론 성벽은 과학자 슬롯을 제공하며 모든 과학자 전문가의 골드 산출을 증가시킵니다. 지어진 도시에서의 불행 관리에도 도움을 줍니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY';
 
 --------------------
@@ -200,7 +200,7 @@ SET Text = '기사를 대체하는 비잔티움의 고유 유닛입니다. 빠�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BYZANTINE_CATAPHRACT';
 
 UPDATE Language_ko_KR
-SET Text = '카타프락토이는 기사를 대체하는 비잔티움의 고유 유닛입니다. 카타프락토이는 기사보다 느리지만, 창병이 도착할 때까지 가장 위협적인 기병 부대 중 하나입니다. 공격한 후 이동할 수 있고, 기사와 다르게 방어 보너스를 받을 수 있습니다. 도시 공격 패널티가 별로 심하지 않습니다.'
+SET Text = '카타프락토이는 비잔티움의 고유 유닛으로 기사를 대체합니다. 카타프락토이는 기사보다 느리지만, 창병이 도착할 때까지 가장 위협적인 기병 부대 중 하나입니다. 공격한 후 이동할 수 있고, 기사와 다르게 방어 보너스를 받을 수 있습니다. 도시 공격 패널티가 별로 심하지 않습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY';
 
 --------------------
@@ -222,7 +222,7 @@ INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_CEILIDH_HALL_HELP', '서커스를 대체하는 켈트의 고유 건물입니다. 건물이 완성되면 도시에 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] 제공하고 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_IVORY] 상아: [ICON_CULTURE]문화 +3');
 
 UPDATE Language_ko_KR
-SET Text = '연회장은 서커스를 대체하는 켈트의 중세 시대 건물입니다. [ICON_HAPPINESS_3] 무료를 약간 감소시키고 도시의 [ICON_CULTURE] 문화와 [ICON_PEACE] 신앙을 증가시킵니다. 상아에 +3 문화를 제공하고, 1개의 음악가 슬롯, 걸작 음악 슬롯을 가지고 있습니다.'
+SET Text = '연회장은 켈트의 중세 시대 건물로 서커스를 대체합니다. [ICON_HAPPINESS_3] 무료를 약간 감소시키고 도시의 [ICON_CULTURE] 문화와 [ICON_PEACE] 신앙을 증가시킵니다. 상아에 +3 문화를 제공하고, 1개의 음악가 슬롯, 걸작 음악 슬롯을 가지고 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CEILIDH_HALL_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -241,7 +241,7 @@ SET Text = '도서관을 대체하는 중국의 고유 건물입니다. "황후 
 WHERE Tag = 'TXT_KEY_BUILDING_PAPER_MAKER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '제지소는 도서관을 대체하는 중국의 고유 건물입니다. 기본 과학 보너스 외에도, 제지소는 추가 골드를 제공하고 황후 경축일에 더 강력합니다. 자문회가 있어야 건설할 수 있습니다.'
+SET Text = '제지소는 중국의 고유 건물로 도서관을 대체합니다. 기본 과학 보너스 외에도, 제지소는 추가 골드를 제공하고 황후 경축일에 더 강력합니다. 자문회가 있어야 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_PAPER_MAKER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -253,7 +253,7 @@ SET Text = '천명'
 WHERE Tag = 'TXT_KEY_TRAIT_ART_OF_WAR_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '연노병은 석궁병을 대체하는 중국의 고유 유닛입니다. 연노병은 광역 피해를 주고 도시에 추가 피해를 줍니다. 그것은 공격과 수비에 모두 강합니다. 공격을 받는 도시에 주둔할 때 치명적입니다.'
+SET Text = '연노병은 중국의 고유 유닛으로 석궁병을 대체합니다. 연노병은 광역 피해를 주고 도시에 추가 피해를 줍니다. 그것은 공격과 수비에 모두 강합니다. 공격을 받는 도시에 주둔할 때 치명적입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_CHINESE_CHUKONU_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -272,7 +272,7 @@ SET Text = '장창병을 대체하는 덴마크의 고유 유닛입니다. 강�
 WHERE Tag = 'TXT_KEY_CIV5_DENMARK_BERSERKER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '광전사는 장창병을 대체하는 덴마크의 고유 유닛입니다. 광전사는 장창병과 비교해 [ICON_MOVEMENT] 이동력이 +1 더 높고 돌격 승급과 수륙양용 승급을 얻어, 바다에서 해안으로 패널티 없이 공격할 수 있게 합니다. 생산에 강철 대신 주조를 필요로 합니다.'
+SET Text = '광전사는 덴마크의 고유 유닛으로 장창병을 대체합니다. 광전사는 장창병과 비교해 [ICON_MOVEMENT] 이동력이 +1 더 높고 돌격 승급과 수륙양용 승급을 얻어, 바다에서 해안으로 패널티 없이 공격할 수 있게 합니다. 생산에 강철 대신 주조를 필요로 합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_DENMARK_BERSERKER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -327,7 +327,7 @@ SET Text = '프리깃을 대체하는 영국의 고유 유닛입니다. 해상�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHIPOFTHELINE';
 
 UPDATE Language_ko_KR
-SET Text = '전열함은 프리깃을 대체하는 영국의 고유 유닛입니다. [COLOR_POSITIVE_TEXT]광역 피해[ENDCOLOR] 승급으로 적을 대량으로 쓸어 버릴 수 있습니다. 또한 프리깃보다 한 타일 더 멀리 볼 수 있어 적을 발견하는데 도움을 줍니다. 프리깃처럼, 해안이 아닌 육지 타일에는 공격할 수 없습니다. The Ship of the Line is the English unique unit, replacing the Frigate.  Use its promotions to clear out masses of enemy ships. It can also see one hex farther than the Frigate, allowing it to spot enemies in a significantly larger section of ocean. Like the frigate, it cannot fire on non-coastal land tiles.'
+SET Text = '전열함은 영국의 고유 유닛으로 프리깃을 대체합니다. [COLOR_POSITIVE_TEXT]광역 피해[ENDCOLOR] 승급으로 적을 대량으로 쓸어 버릴 수 있습니다. 또한 프리깃보다 한 타일 더 멀리 볼 수 있어 적을 발견하는데 도움을 줍니다. 프리깃처럼, 해안이 아닌 육지 타일에는 공격할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE_STRATEGY';
 
 --------------------
@@ -364,7 +364,7 @@ SET Text = '단결심'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '총사대는 테르시오를 대체하는 프랑스의 고유 유닛입니다. 총사대는 테르시오보다 눈에 띄게 강하고, [ICON_MOVES] 이동력이 +1 더 높고, 통제 구역을 무시합니다.'
+SET Text = '총사대는 프랑스의 고유 유닛으로 테르시오를 대체합니다. 총사대는 테르시오보다 눈에 띄게 강하고, [ICON_MOVES] 이동력이 +1 더 높고, 통제 구역을 무시합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_FRENCH_MUSKETEER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -603,7 +603,7 @@ SET Text = '흉갑기병을 대체하는 인도의 고유 유닛입니다. 육�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT';
 
 UPDATE Language_ko_KR
-SET Text = '나가-말라 (전투 코끼리)는 흉갑기병을 대체하는 인도의 고유 유닛입니다. 흉갑기병보다 더 강하고 말을 요구하지 않으며, 더 이른 시기에 사용할 수 있습니다. 기병 유닛이므로, 장창병에게 약간 취약합니다.'
+SET Text = '나가-말라 (전투 코끼리)는 인도의 고유 유닛으로 흉갑기병을 대체합니다. 흉갑기병보다 더 강하고 말을 요구하지 않으며, 더 이른 시기에 사용할 수 있습니다. 기병 유닛이므로, 장창병에게 약간 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT_STRATEGY';
 
 --------------------
@@ -681,7 +681,7 @@ SET Text = '약초상을 대체하는 이로쿼이의 고유 건물입니다. �
 WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '롱하우스는 약초상을 대체하는 이로쿼이의 고유 건물입니다. 도시 범위의 숲마다 식량과 생산을 증가시키고, 재배지를 강화합니다.'
+SET Text = '롱하우스는 이로쿼이의 고유 건물로 약초상을 대체합니다. 도시 범위의 숲마다 식량과 생산을 증가시키고, 재배지를 강화합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_STRATEGY';
 
 --------------------
@@ -696,7 +696,7 @@ SET Text = '쇼군'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '사무라이는 장검병을 대체하는 일본의 고유 유닛입니다. 검사보다 더 강하고, 장군을 더 많이 생성하며 전투에서 경험치를 더 많이 받습니다.'
+SET Text = '사무라이는 일본의 고유 유닛으로 장검병을 대체합니다. 검사보다 더 강하고, 장군을 더 많이 생성하며 전투에서 경험치를 더 많이 받습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_JAPANESE_SAMURAI_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -740,7 +740,7 @@ SET Text = '합성궁병을 대체하는 마야의 고유 유닛입니다. 합�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST';
 
 UPDATE Language_ko_KR
-SET Text = '아틀라틀 투척병은 합성궁병을 대체하는 마야의 고유 유닛입니다. 아틀라틀은 합성궁병보다 더 저렴하고 이른 시기에 등장하고, 부상 유닛을 상대로 추가 피해를 줍니다. 이 이점은 당신의 궁수가 치고 빠지는 궁기병 전략을 시도하도록 합니다.'
+SET Text = '아틀라틀 투척병은 마야의 고유 유닛으로 합성궁병을 대체합니다. 아틀라틀은 합성궁병보다 더 저렴하고 이른 시기에 등장하고, 부상 유닛을 상대로 추가 피해를 줍니다. 이 이점은 당신의 궁수가 치고 빠지는 궁기병 전략을 시도하도록 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY';
 
 --------------------
@@ -855,7 +855,7 @@ SET Text = '카누니'
 WHERE Tag = 'TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '예니체리는 머스킷병을 대체하는 오스만의 고유 유닛입니다. 예니체리는 머스킷병보다 더 강하고 이른 시기에 생산할 수 있으며, 매 턴 회복합니다. 예니체리 군대로 적 군대의 이점을 분쇄하십시오.'
+SET Text = '예니체리는 오스만의 고유 유닛으로 머스킷총병을 대체합니다. 예니체리는 머스킷병보다 더 강하고 이른 시기에 생산할 수 있으며, 매 턴 회복합니다. 예니체리 군대로 적 군대의 이점을 분쇄하십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_OTTOMAN_JANISSARY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -976,7 +976,7 @@ SET Text = '검사를 대체하는 로마의 고유 유닛입니다. 최전선�
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ROMAN_LEGION';
 
 UPDATE Language_ko_KR
-SET Text = '군단병은 검사를 대체하는 로마의 고유 유닛입니다. 군단병은 검사보다 더 강하므로, 고전 시대의 최강의 유닛이 됩니다. 군단병은 노동자가 아니지만 도로와 요새를 건설할 수 있습니다.'
+SET Text = '군단병은 로마의 고유 유닛으로 검사를 대체합니다. 군단병은 검사보다 더 강하므로, 고전 시대의 최강의 유닛이 됩니다. 군단병은 노동자가 아니지만 도로와 요새를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY';
 
 
@@ -993,7 +993,7 @@ SET Text = '오스트로그'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_DESC';
 
 UPDATE Language_ko_KR
-SET Text = '오스트로그는 성형 요새를 대체하는 러시아의 고유 건물입니다. 성형 요새의 기본 보너스에 더해, 오스트로그는 더 저렴하고, 더 빨리 건설할 수 있고, 야영지, 광산, 재재소, 전략 자원에 +1 생산과 +1 골드를 제공합니다. 도시 인구의 15% 만큼 군사 유닛 보급 한도를 증가시킵니다. 적 지상 유닛이 이 도시에서 타일 이동에 이동력을 1 더 사용하게 만듭니다. 생산, 골드를 제공하고 오스트로그가 지어진 도시의 요구를 훌륭히 해소해, 새로 개척되는 도시가 빠르게 건설할 수 있도록 합니다. 모든 러시아 도시에, 특히 국경 도시에 이런 유용한 건물을 짓는 것은 꽤 가치 있는 일입니다.'
+SET Text = '오스트로그는 러시아의 고유 건물로 성형 요새를 대체합니다. 성형 요새의 기본 보너스에 더해, 오스트로그는 더 저렴하고, 더 빨리 건설할 수 있고, 야영지, 광산, 재재소, 전략 자원에 +1 생산과 +1 골드를 제공합니다. 도시 인구의 15% 만큼 군사 유닛 보급 한도를 증가시킵니다. 적 지상 유닛이 이 도시에서 타일 이동에 이동력을 1 더 사용하게 만듭니다. 생산, 골드를 제공하고 오스트로그가 지어진 도시의 요구를 훌륭히 해소해, 새로 개척되는 도시가 빠르게 건설할 수 있도록 합니다. 모든 러시아 도시에, 특히 국경 도시에 이런 유용한 건물을 짓는 것은 꽤 가치 있는 일입니다.'
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1028,7 +1028,7 @@ SET Text = '테르시오는 르네상스 시대의 초기 화약 유닛입니다
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용도 유닛입니다. 신도시를 찾아내는 능력이 있지만 타 대륙에만 적용되며 스페인 수도는 포함하지 않습니다. 건설하면, 콩키스타도르로 건설한 도시는 3 시민으로 시작하며, 추가 영토를 얻습니다. 자동으로 다음 건물들이 지어집니다:[NEWLINE][NEWLINE][ICON_BULLET]자문회[NEWLINE][ICON_BULLET]약초상[NEWLINE][ICON_BULLET]시장[NEWLINE][ICON_BULLET]기념비[NEWLINE][ICON_BULLET]성소[NEWLINE][ICON_BULLET]병영[NEWLINE][ICON_BULLET]물레방앗간(가능하다면)[NEWLINE][ICON_BULLET]도서관[NEWLINE][ICON_BULLET]대장간[NEWLINE][ICON_BULLET]우물(가능하다면)[NEWLINE][ICON_BULLET]전도관[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 콩키스타도르로 건설한 건물에 적용되지 않습니다! 전도관은 콩키스타도르로 개척한 도시에서만 사용할 수 있는 특별한 종교적 방어적 건물입니다. [NEWLINE][NEWLINE]콩키스타도르는 대체하는 탐험가보다 더 강하고, 전투력이 높으며 측면 공격에 보너스를 받습니다. 훌륭한 이동력과 조합하면, 콩키스타도르는 기존 중세 군대를 증강하고나 대체할 수 있는 어마어마한 부대입니다.'
+SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용도 유닛입니다. 도시를 세우는 능력이 있지만 스페인의 수도가 없는 도시에서만 가능합니다. 도시를 건설하면, 콩키스타도르로 건설한 도시는 3 시민으로 시작하며, 추가 영토를 얻습니다. 자동으로 다음 건물들이 지어집니다:[NEWLINE][NEWLINE][ICON_BULLET]자문회[NEWLINE][ICON_BULLET]약초상[NEWLINE][ICON_BULLET]시장[NEWLINE][ICON_BULLET]기념비[NEWLINE][ICON_BULLET]성소[NEWLINE][ICON_BULLET]병영[NEWLINE][ICON_BULLET]물레방앗간(가능하다면)[NEWLINE][ICON_BULLET]도서관[NEWLINE][ICON_BULLET]대장간[NEWLINE][ICON_BULLET]우물(가능하다면)[NEWLINE][ICON_BULLET]전도관[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 콩키스타도르로 건설한 건물에 적용되지 않습니다! 전도관은 콩키스타도르로 개척한 도시에서만 사용할 수 있는 특별한 종교적 방어적 건물입니다. [NEWLINE][NEWLINE]콩키스타도르는 대체하는 탐험가보다 더 강하고, 전투력이 높으며 측면 공격에 보너스를 받습니다. 훌륭한 이동력과 조합하면, 콩키스타도르는 기존 중세 군대를 증강하고나 대체할 수 있는 어마어마한 부대입니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1066,7 +1066,7 @@ SET Text = '경찰대를 대체하는 시암의 고유 건물입니다. 성소 �
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '와트는 경찰대를 대체하는 시암의 고유 건물입니다. 대체하는 건물보다 더 빠르게 건설할 수 있습니다. 와트는 도시의 [ICON_CULTURE] 문화와 [ICON_RESEARCH] 과학을 증가시키고, 성소와 사원의 [ICON_RESEARCH] 과학을 증가시키며, 스파이 활동을 경찰대보다 더 잘 예방합니다. 과학자 슬롯을 추가로 얻어, 다른 문명보다 위대한 과학자를 더 빨리 얻을 수 있게 합니다.'
+SET Text = '와트는시암의 고유 건물로 경찰대를 대체합니다. 대체하는 건물보다 더 빠르게 건설할 수 있습니다. 와트는 도시의 [ICON_CULTURE] 문화와 [ICON_RESEARCH] 과학을 증가시키고, 성소와 사원의 [ICON_RESEARCH] 과학을 증가시키며, 스파이 활동을 경찰대보다 더 잘 예방합니다. 과학자 슬롯을 추가로 얻어, 다른 문명보다 위대한 과학자를 더 빨리 얻을 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1085,7 +1085,7 @@ SET Text = '석재 공장을 대체하는 송가이의 고유 건물입니다. �
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '타브야는 석재 공장을 대체하는 송가이의 고유 건물입니다. 타브야는 강 근처의 [ICON_PRODUCTION] 생산을 엄청나게 증가시키고, 석재, 대리석, 소금의 가치를 증가시키며, 건물들의 건설 속도를 10% 증가시킵니다. [ICON_PRODUCTION] 도시의 생산을 당신 문명의 다른 도시로 제공할 수 있게 만듭니다.'
+SET Text = '타브야는 송가이의 고유 건물로 석재 공장을 대체합니다. 타브야는 강 근처의 [ICON_PRODUCTION] 생산을 엄청나게 증가시키고, 석재, 대리석, 소금의 가치를 증가시키며, 건물들의 건설 속도를 10% 증가시킵니다. [ICON_PRODUCTION] 도시의 생산을 당신 문명의 다른 도시로 제공할 수 있게 만듭니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1101,7 +1101,7 @@ SET Text = '야만인 주둔지나 도시를 약탈할 때 획득하는 [ICON_GO
 WHERE Tag = 'TXT_KEY_TRAIT_AMPHIB_WARLORD';
 
 UPDATE Language_ko_KR
-SET Text = '기사를 대체하는 송가이의 고유 유닛입니다. 도시를 공격하고 유닛을 포위할 때 눈에 띄는 보너스를 얻습니다. 만데칼루 기병은 공격 후 이동할 수 있습니다. 유닛의 속도는 적이 만데칼루 기병이 목표에 접근하기 전에 방어하기 어렵게 만듭니다.'
+SET Text = '송가이의 고유 유닛으로 기사를 대체합니다. 도시를 공격하고 유닛을 포위할 때 눈에 띄는 보너스를 얻습니다. 만데칼루 기병은 공격 후 이동할 수 있습니다. 유닛의 속도는 적이 만데칼루 기병이 목표에 접근하기 전에 방어하기 어렵게 만듭니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY';
 
 UPDATE Language_ko_KR
