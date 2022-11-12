@@ -25,22 +25,21 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="4B86D9973F3ADC27664C2025175418B6" import="0">Art/Improvements/Inca/CBP_Improvements.sql</File>
-    <File md5="ED3B8F212C9DE4845518FBF67E49BD1D" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
-    <File md5="B8ECCE9FC7138539E40AB1AA0955D366" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
-    <File md5="B4F6C987A498C8077547346397BED02F" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
-    <File md5="40E71613C419BD0A0D3ECC8D583351F2" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
-    <File md5="FF84C97537FE4CDF21F5EEED87279DB2" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
-    <File md5="4EA0503F86D5E58E8B01F9E18115BD90" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
+    <File md5="3CE57835D0A75064A169F91FE98C9EF5" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
+    <File md5="37E0D99EE19925659A677958BBE5B789" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
+    <File md5="B41E97043D6ADF0F9ADEF886A30205D1" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
+    <File md5="F86A5A9FA30EE71EB3D8A09F8F9729B4" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
+    <File md5="69382C1AA30BFEF6EEC03B04DFA09591" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
+    <File md5="5E321C4164D08B082DB93A92FA8D22E6" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="5B8229557C76CC967D49228C22FD79D4" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
-    <File md5="B6A444F0A68C290A34AAE9AA57A57CC3" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
-    <File md5="5436A513352EDBB5FB1238DF54041DB4" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
-    <File md5="59F6083EA5D024257D440A3809674EAC" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
-    <File md5="A2065483C50F189E6514D92CD90F49ED" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
-    <File md5="59FE511EAAD8F28C141B78B9738F28B5" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
-    <File md5="5103D6406197C2C5E96C66C8F6EC7C4D" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
-    <File md5="0949126766F7989F6348E6A358323ACE" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
-    <File md5="C020EF0CC24FCA157846560BDF1E0520" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
+    <File md5="970A2784259DD008BF5B31AB70D9C9DE" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
+    <File md5="4EF7E0A079A15373821D449AE598CC50" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
+    <File md5="F74DBFB5341AA0960A3597065301C26B" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
+    <File md5="3BAD91AE0D72BDB14929C1CEFDACC29B" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
+    <File md5="9B9AC1AA2F701DBE8457958BFA502C4F" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
+    <File md5="E4AE4828D4F01B8137C8FF8BFC5913DE" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
+    <File md5="02AFF91003046977FBAF601E17B91D79" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
+    <File md5="ABB4BF947E51C4A6383E80C14AA844A0" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
     <File md5="44DC98C2FD6F4142B45F001A2464CEE8" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
     <File md5="BEFBAF37EE259806D610B0354DF5CA42" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
     <File md5="9447E396D6FAE49475EA168A17AD1E3D" import="0">Modular Elements/Corporations/Text/ko_KR/CorporationOverviewText.xml</File>
@@ -49,9 +48,9 @@
     <File md5="CF15978AAA5E8C7E27B9EEB1C62D256A" import="0">Modular Elements/TradeUIMod/ko_KR/GlobalCityStatesGifts.xml</File>
     <File md5="5FDD2B351204FF536E9B196161A8BAC3" import="0">Modular Elements/TradeUIMod/ko_KR/UITradeRoutesEnhancements.xml</File>
     <File md5="F87F58CBA2B0236CD0945D01223609A0" import="0">CSD/Buildings/ko_KR/BuildingRules.sql</File>
-    <File md5="B657A5ECE60E38420599982A6487867C" import="0">CSD/Buildings/ko_KR/BuildingText.xml</File>
+    <File md5="F77C1717D7C7734ABAD862769F40D4BF" import="0">CSD/Buildings/ko_KR/BuildingText.xml</File>
     <File md5="33D7E25411B20EE8AC1F198B7DC3982E" import="0">CSD/Buildings/ko_KR/DiploBuildingText.sql</File>
-    <File md5="E1B8EAAAC91DD045A5D98B45D5781E8D" import="0">CSD/Gameplay/ko_KR/GameplayText.sql</File>
+    <File md5="1F55E8671F84358D517018AB95911400" import="0">CSD/Gameplay/ko_KR/GameplayText.sql</File>
     <File md5="ED04564F810C792A48CC51BAE40C2FB7" import="0">CSD/Improvements/ko_KR/ImprovementText.xml</File>
     <File md5="AE3EB2107FEEC4D1097C1A9F5AFB03FD" import="0">CSD/Promotions/ko_KR/PromotionText.xml</File>
     <File md5="BEC1B1927BE1DB90E0B9C30D91B6FE49" import="0">CSD/Quests/ko_KR/CityStateQuest.xml</File>
@@ -60,9 +59,9 @@
     <File md5="0795FE1DB18A34F59F6F1A89522C4C2D" import="0">CSD/Units/GreatDiplomats.xml</File>
     <File md5="9631E1A7C60502CEFDBCAB2C4D76F527" import="0">CSD/Units/UnitText.xml</File>
     <File md5="A149101EBCF140ED8D990C858108D440" import="0">CSD/Units/MoreGreatDiplomats.sql</File>
-    <File md5="D20E73FBB08D549E1D60F5F2CC98E409" import="0">CSD/World Congress/ko_KR/Congress.xml</File>
-    <File md5="7BF72630B2B27E39562324BB44E0740F" import="0">CSD/World Congress/ko_KR/IdeologyChanges.sql</File>
-    <File md5="46312C8243630FF3B45E84E46A296904" import="0">CSD/World Congress/ko_KR/Projects.xml</File>
+    <File md5="5D5CBC75A96D34413E363C88261C4448" import="0">CSD/World Congress/ko_KR/Congress.xml</File>
+    <File md5="D3A921187C17B03BDB3290B63F4A026E" import="0">CSD/World Congress/ko_KR/IdeologyChanges.sql</File>
+    <File md5="122280CDAE7072D7247EF68584CDDCDE" import="0">CSD/World Congress/ko_KR/Projects.xml</File>
     <File md5="38AEFAA3D89B764B4F4360331F452FAA" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_CivilopediaC4DF.xml</File>
     <File md5="7E150B91AA2DBD44FAEA1419550B8B32" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_Generic_DiplomacyC4DF.xml</File>
     <File md5="0BCA1DC742F5683DC737A45F4774FCE8" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_UIC4DF.xml</File>
@@ -71,7 +70,7 @@
     <File md5="A61C64936513C9E6A0BC7FD4B409367F" import="0">Compatibility/C4DFCompatibility/C4DFCompatibility.sql</File>
     <File md5="6310D8F0DDA5758D7554AE7FA81F8BE3" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.xml</File>
     <File md5="1741ECD4233205CE49298DE4428E09F7" import="0">Compatibility/Corporations/Text/CorpText_ko_KR.sql</File>
-    <File md5="AA17AD2DEA0ACBB4FBE90DCD8C0B20D0" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
+    <File md5="19CA9434069FCDEECC65AD124539B40D" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</File>
     <File md5="2A001A2AF3C827E24A63922640862604" import="0">Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</File>
   </Files>
   <Actions>
