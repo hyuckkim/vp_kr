@@ -662,7 +662,7 @@
 			<Text>주조 공장은 금속 주물을 생산하는 공장입니다. 금속은 액체로 녹여 금형에 부은 다음 금속이 냉각되면서 굳어진 후 금형 재료나 주물을 제거함으로써 모양으로 주조됩니다. 가장 일반적으로 가공되는 금속은 알루미늄과 주철입니다. 그러나 청동, 황동, 강철, 마그네슘 및 아연과 같은 다른 금속도 주조 공장에서 주물을 생산하는 데 사용됩니다. 이 과정에서 원하는 모양과 크기의 부품이 형성될 수 있습니다. 전쟁 상황에서 주조 공장은 대포 및 기타 필수 포위 장비 생산에 필수적이었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_HELP">
-			<Text>대장간을 대체하는 오스만의 고유 건물입니다. 광산의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]일제 사격[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_GOLD]골드 +2</Text>
+			<Text>대장간을 대체하는 오스만의 고유 건물입니다. 광산의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]일제 사격[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_STRATEGY">
 			<Text>대장간을 대체하는 오스만의 고유 건물입니다. 군사 유닛을 생산하면 추가 과학을 제공하고, 공성 유닛을 매우 빠르게 생산하며 공성 유닛에 [COLOR_POSITIVE_TEXT]일제 사격[ENDCOLOR] 승급을 부여합니다. 적의 방어벽을 무너뜨리고 영토를 정복하기 위해 대규모 포병력을 구축하려면 공성 주조 공장을 건설하십시오.</Text>
