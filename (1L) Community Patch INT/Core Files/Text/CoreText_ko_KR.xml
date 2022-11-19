@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
 <GameData>
 	<Language_ko_KR>
@@ -6135,7 +6135,7 @@
 		</Row>
 		<!-- Brazil LUA-->
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD">
-			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 {1_Num}턴 동안 모든 도시의 [ICON_CULTURE]문화 및 [ICON_FOOD]성장률이 25% 증가합니다.</Text>
+			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 {1_Num}턴 동안 모든 도시의 [ICON_FOOD]성장률이 50% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD_S">
 			<Text>카니발 시작!</Text>
