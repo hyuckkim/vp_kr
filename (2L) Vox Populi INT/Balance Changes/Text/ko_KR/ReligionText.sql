@@ -338,7 +338,7 @@ SET Text = '협력'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITIZEN]시민이 태어날 때 모든 도시의 산출량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] (시대별 보정) 증가합니다.'
+SET Text = '[ICON_CITIZEN]시민이 태어날 때 모든 도시의 산출량이 [COLOR_POSITIVE_TEXT]8[ENDCOLOR] (시대별 보정) 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS';
 
 

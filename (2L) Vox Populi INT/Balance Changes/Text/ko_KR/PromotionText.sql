@@ -156,7 +156,7 @@
 
 	-- March
 	UPDATE Language_ko_KR
-	SET Text = '방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-15%[ENDCOLOR][NEWLINE]행동 여부에 상관없이 매 턴 체력 회복'
+	SET Text = '[NEWLINE]행동 여부에 상관없이 매 턴 체력 회복'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MARCH_HELP';
 
 	-- Replace Drill
@@ -507,16 +507,16 @@
 	-- Amphibious Change
 
 	UPDATE Language_ko_KR
-	SET Text = '해양 또는 강 건너 공격 페널티 제거[NEWLINE]강 건너 이동 시 [ICON_MOVES] 이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]만 소모'
+	SET Text = '해양 또는 강 건너 공격 페널티 제거[NEWLINE]강 건너 이동 시 [ICON_MOVES] 이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]만 소모, 습지에서 [ICON_MOVES] 이동력 두 배'
 	WHERE Tag = 'TXT_KEY_PROMOTION_AMPHIBIOUS_HELP';
 
 	-- Medic I/II
 	UPDATE Language_ko_KR
-	SET Text = '방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE]같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
+	SET Text = '[NEWLINE]같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_HELP';
 
 	UPDATE Language_ko_KR
-	SET Text = '방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE]같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
+	SET Text = '[NEWLINE]같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_II_HELP';
 
 	-- Heal on Kill Promotions

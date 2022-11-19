@@ -6532,6 +6532,9 @@
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION_CBP">
 			<Text>현재 적용 중이거나 제안 중인 안건으로 인해 불가능합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_WRONG_SPHERE_PROPOSER">
+			<Text>이 도시국가와 동맹 상태여야 이 안건을 제안할 수 있습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TOURISM">
 			<Text>전 세계의 [ICON_TOURISM]관광을 {1_UnitMaintenancePercent}%로 조정</Text>
 		</Row>
