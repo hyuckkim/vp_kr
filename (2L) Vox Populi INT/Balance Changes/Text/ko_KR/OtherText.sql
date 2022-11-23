@@ -46,7 +46,7 @@ SET Text = '도시를 [COLOR_POSITIVE_TEXT]합병[ENDCOLOR] 하면 :[NEWLINE][IC
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX';
 
 UPDATE Language_ko_KR	
-SET Text = '도시를 [COLOR_POSITIVE_TEXT]불태우면[ENDCOLOR] :[NEWLINE][ICON_BULLET] 매 턴 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] 줄어들며 시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다.[NEWLINE][ICON_BULLET] 도시의 [ICON_CITIZEN]시민 수만큼 [ICON_HAPPINESS_4]불행을 생성합니다.[NEWLINE][ICON_BULLET] 시민이 감소할 때마다 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR]가 크게 증가합니다.[NEWLINE][ICON_BULLET] 이전 소유주에게 충성하는 [COLOR_NEGATIVE_TEXT]반란군[ENDCOLOR]이 생성되거나 (아직 이 문명과 전쟁 중인 경우) 매 턴 야만인이 등장할 수 있습니다.'
+SET Text = '도시를 [COLOR_POSITIVE_TEXT]불태우면[ENDCOLOR] :[NEWLINE][ICON_BULLET] 매 턴 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1[ENDCOLOR] 줄어들며 시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다.[NEWLINE][ICON_BULLET] 도시의 [ICON_CITIZEN]시민 수만큼 [ICON_HAPPINESS_4]불행을 생성합니다.[NEWLINE][ICON_BULLET] 시민이 감소할 때마다 [COLOR_POSITIVE_TEXT]전쟁 점수[ENDCOLOR]가 크게 증가합니다. 도시 경계 내의 아군 유닛은 도시 내부에서처럼 회복됩니다. (약탈로)[NEWLINE][ICON_BULLET] [NEWLINE][ICON_BULLET] 이전 소유주에게 충성하는 [COLOR_NEGATIVE_TEXT]반란군[ENDCOLOR]이 생성되거나 (아직 이 문명과 전쟁 중인 경우) 매 턴 야만인이 등장할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- Citizen Food Consumption
@@ -364,41 +364,50 @@ SET Text = '적의 공격으로부터 도시의 방어를 크게 개선시킬 �
 WHERE Tag = 'TXT_KEY_TECH_MASONRY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows you to build the [COLOR_POSITIVE_TEXT]Caravan[ENDCOLOR], used to establish lucrative Trade Routes, and the [COLOR_POSITITVE_TEXT]Settler, a unit essential to expanding your empire. Also allows your cities to build the [COLOR_POSITIVE_TEXT]Granary[ENDCOLOR], which provides [ICON_FOOD] Food, helping your cities grow larger.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE] 교역로를 얻습니다. [COLOR_POSITIVE_TEXT]대상[ENDCOLOR]을 생산해 교역로를 연결할 수 있고, [COLOR_POSITIVE_TEXT]개척자[ENDCOLOR]를 생산해 제국을 확장할 수 있습니다. [COLOR_POSITIVE_TEXT]곡창[ENDCOLOR]을 건설해 식량을 늘려 도시를 크게 성장시킬 수도 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_POTTERY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Customs House[ENDCOLOR] and [COLOR_POSITIVE_TEXT]East India Company[ENDCOLOR], improving [ICON_GOLD] Gold in your cities.'
+SET Text = '[COLOR_POSITIVE_TEXT]세관[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]동인도 회사[ENDCOLOR]를 건설해 도시의 [ICON_GOLD] 골드를 증가시킬 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_GUILDS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Allows land units to [COLOR_POSITIVE_TEXT]Embark[ENDCOLOR] onto water tiles and travel along the coast. Also allows you to build economic ships, useful for exploration and harvesting resources in the water like [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]Fish[ENDCOLOR] and [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]Pearls[ENDCOLOR].'
+SET Text = '지상 유닛이 [COLOR_POSITIVE_TEXT]승선[ENDCOLOR]할 수 있게 합니다. 작업선을 생산해 [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]물고기[ENDCOLOR]나 [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]진주[ENDCOLOR]같은 자원을 개발할 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Lighthouse[ENDCOLOR] in coastal cities, improving [ICON_FOOD] Food output from water tiles, speeding their growth. Also grants you access to the [COLOR_POSITIVE_TEXT]Cargo Ship[ENDCOLOR].'
+SET Text = '해안 도시에 [COLOR_POSITIVE_TEXT]등대[ENDCOLOR]를 건설해 물 타일의 식량 생산을 늘리고 성장을 보조할 수 있게 됩니다. 또한 [COLOR_POSITIVE_TEXT]화물선[ENDCOLOR]을 생산할 수 있게 됩니다.'
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Observatory[ENDCOLOR], a powerful [ICON_RESEARCH] Science building. Also allows embarked land units to cross ocean tiles.'
+SET Text = '강력한 [ICON_RESEARCH] 과학 건물 [COLOR_POSITIVE_TEXT]천문대[ENDCOLOR]를 지을 수 있게 됩니다. 승선한 유닛이 대양을 지날 수 있게 됩니다.'
 WHERE Tag = 'TXT_KEY_TECH_ASTRONOMY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Frigate[ENDCOLOR] and the [COLOR_POSITIVE_TEXT]Corvette[ENDCOLOR], powerful Renaissance-era warships. Also allows coastal cities to build the [COLOR_POSITIVE_TEXT]Seaport[ENDCOLOR], which provides [ICON_PRODUCTION] Production from sea resources.'
+SET Text = '강력한 르네상스 시대의 군함인 [COLOR_POSITIVE_TEXT]프리깃[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]코르벳[ENDCOLOR]을 생산할 수 있습니다. 해안 도시에서 [COLOR_POSITIVE_TEXT]항구[ENDCOLOR]를 건설해 해양 자원에 [ICON_PRODUCTION] 생산을 제공할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_NAVIGATION_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Reveals [ICON_RES_ALUMINUM] Aluminum, a resource used for many late-game units. Also allows Cities to build the [COLOR_POSITIVE_TEXT]Stock Exchange[ENDCOLOR], a building which boosts [ICON_GOLD] Gold. Also allows you to build the [COLOR_POSITIVE_TEXT]Hydro Plant[ENDCOLOR], which increases [ICON_PRODUCTION] Production from tiles next to a River.'
+SET Text = '추가 [ICON_INTERNATIONAL_TRADE] 교역로를 제공합니다. 다양한 게임 후반 유닛에 사용되는 [ICON_RES_ALUMINUM] 알루미늄을 발견합니다. 도시가 [COLOR_POSITIVE_TEXT]증권 거래소[ENDCOLOR]를 건설해 골드를 증가시킬 수 있게 됩니다. [COLOR_POSITIVE_TEXT]수력 발전소[ENDCOLOR]를 건설해, 강 근처의 생산을 증가시킬 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ELECTRICITY_HELP';
+
+-- Tech Tree small icon fixes
+
+UPDATE Language_ko_KR
+SET Text = '숲/정글 제거: +{1_Num}[ICON_PRODUCTION] 생산'
+WHERE Tag = 'TXT_KEY_ABLTY_TECH_BOOST_CHOP';
+
+INSERT INTO Language_ko_KR (Tag, Text) VALUES
+('TXT_KEY_REMOVE_FOREST_JUNGLE_COST_REDUCTION', "숲/정글 제거가 완료에 {1_Turns}턴 소요" );
 
 -- Penicilin and Nanotech 
 
 UPDATE Language_ko_KR
-SET Text = 'All Workers receive the [COLOR_POSITIVE_TEXT]Fallout Reduction[ENDCOLOR] Promotion, which reduces the amount of damage they take while scrubbing Fallout. Allows you to build the [COLOR_POSITIVE_TEXT]Marine[ENDCOLOR], a Unit that specializes in amphibious assaults. Also allows you to build the [COLOR_POSITIVE_TEXT]Medical Lab[ENDCOLOR], a building which speeds the [ICON_FOOD] growth of your Cities.'
+SET Text = '모든 노동자가 [COLOR_POSITIVE_TEXT]낙진 제거[ENDCOLOR] 승급을 얻어, 낙진을 처리할 수 있게 됩니다. 상륙 작전에 특화된 [COLOR_POSITIVE_TEXT]해병대[ENDCOLOR]를 생산할 수 있습니다. [COLOR_POSITIVE_TEXT]의학 연구소[ENDCOLOR]를 건설해, 도시의 인구를 성장시킬 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_PENICILIN_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'All Workers receive the [COLOR_POSITIVE_TEXT]Fallout Immunity[ENDCOLOR] Promotion, which eliminates any damage they would take while scrubbing Fallout. Allows you to build the [COLOR_POSITIVE_TEXT]XCOM Squad[ENDCOLOR], and the [COLOR_POSITIVE_TEXT]SS Stasis Chamber[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR].'
+SET Text = '모든 노동자가 [COLOR_POSITIVE_TEXT]낙진 면역[ENDCOLOR] 승급을 얻어, 낙진에서 피해를 입지 않게 됩니다. [COLOR_POSITIVE_TEXT]XCOM 분대[ENDCOLOR]를 생산할 수 있게 되고, SS 동면실을 생산해 [COLOR_POSITIVE_TEXT]과학 승리[ENDCOLOR]에 필요한 우주선의 조각을 맞출 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_NANOTECHNOLOGY_HELP';
 
 UPDATE Language_ko_KR

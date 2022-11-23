@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Vox Populi INT"
-#define MyAppVersion "2.7.3"
+#define MyAppVersion "3.0"
 #define MyAppPublisher "civilization gallery"
 #define MyAppURL "https://github.com/hyuckkim/vp_kr"
 
@@ -51,12 +51,15 @@ Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\(2L) Vox Populi INT"; Flags:
 Source: "..\(3aL) Vox Populi - EUI Compatibility INT\*"; DestDir: "{app}\(3aL) Vox Populi - EUI Compatibility INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\(4bL) UI - Promotion Tree for VP Localized (v 1)\*"; DestDir: "{app}\(4bL) UI - Promotion Tree for VP Localized (v 1)"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs;
+Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VoteColor
 
 [Components]
-Name: "Install"; Description: "Full Version (EUI)"; Types: FullEUI; Flags: exclusive disablenouninstallwarning
+Name: "FullColor"; Description: "Vox Populi INT"; Types: FullColor; Flags: exclusive disablenouninstallwarning  
+Name: "VoteColor"; Description: "Vox Populi INT with disable civ color for votes"; Types: VoteColor; Flags: exclusive disablenouninstallwarning
 
 [Types]
-Name: "FullEUI"; Description: "Vox Populi (with EUI)"
+Name: "FullColor"; Description: "Vox Populi INT"
+Name: "VoteColor"; Description: "Vox Populi INT with disable civ color for votes"
 
 [InstallDelete]
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\cache"
@@ -113,11 +116,8 @@ begin
   S := '';
 
   S := S + MemoDirInfo + NewLine + NewLine;
-  if WizardIsComponentSelected('FullEUI') or WizardIsComponentSelected('Civ43EUI') or WizardIsComponentSelected('FullNoEUI') or WizardIsComponentSelected('Civ43NoEUI') then
-  begin
-   S := S + 'Civilization V path' + NewLine;
-   S := S + Space + CIVDirPage.Values[0] + NewLine + NewLine;
-  end;
+  S := S + 'Civilization V path' + NewLine;
+  S := S + Space + CIVDirPage.Values[0] + NewLine + NewLine;
 
   S := S + MemoComponentsInfo
   Result := S;

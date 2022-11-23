@@ -12,7 +12,7 @@
 			<Text>영향권</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
-			<Text>도시 국가에 대한 [COLOR_POSITIVE_TEXT]영향권[ENDCOLOR]을 청구합니다. 이 결의안이 활성되면, 이를 제안한 문명은 해당 도시 국가의 영구적인 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]이 됩니다. [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]증기력[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>도시 국가에 대한 [COLOR_POSITIVE_TEXT]영향권[ENDCOLOR]을 청구합니다. 이 결의안이 활성되면, 이를 제안한 문명은 해당 도시 국가의 영구적인 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]이 됩니다. (안건이 폐지되면 효과가 사라집니다) 제안자는 도시 국가와 동맹 상태여야 합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]증기력[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
 			<Text>영향권: {1_CivsList}</Text>
@@ -66,7 +66,7 @@
 			<Text>세계는 외교 분쟁을 해결하기 위한 정당한 전쟁의 필요성을 인식하고 있습니다. [NEWLINE][NEWLINE]이 결의안이 활성되면, 유닛 유지 [ICON_GOLD]비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다. 도시를 정복하고 전쟁을 선포할 때 [ICON_VICTORY_DOMINATION]전쟁광 페널티가 크게 감소하고 [ICON_VICTORY_DOMINATION]전쟁광 수치가 평소보다 빠르게 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_WAR">
-			<Text>유닛 유지 [ICON_GOLD]비용 [COLOR_POSITIVE_TEXT]-{1_UnitMaintenancePercent}%[ENDCOLOR]. [ICON_VICTORY_DOMINATION]전쟁광 페널티 크게 감소</Text>
+			<Text>유닛 유지 [ICON_GOLD]비용 [COLOR_POSITIVE_TEXT]{1_UnitMaintenancePercent}%[ENDCOLOR]. [ICON_VICTORY_DOMINATION]전쟁광 페널티 크게 감소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WAR_PEACE">
 			<Text>유닛 유지 [ICON_GOLD]비용 [COLOR_NEGATIVE_TEXT]+{1_UnitMaintenancePercent}%[ENDCOLOR]. [ICON_VICTORY_DOMINATION]전쟁광 페널티 변동.</Text>

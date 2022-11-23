@@ -102,6 +102,11 @@
 			<Text>[COLOR_CYAN]추가 범위 공격[ENDCOLOR]</Text>
 		</Row>
 
+		<!-- New Text for Enemy Unit Panel-->
+		<Row Tag="TXT_KEY_EUPANEL_NO_FRIENDLY_UNIT_ADJACENT_BONUS">
+			<Text>근처에 아군 유닛 없음</Text>
+		</Row>
+
 		<!-- Diplomatic Mission (No Gold) -->
 		<Row Tag="TXT_KEY_DIPLOMATIC_MISSION_RESULT_NO_GOLD">
 			<Text>외교 임무를 수행하여 {1_Num} [ICON_INFLUENCE]영향력을 획득했습니다!</Text>
@@ -6130,7 +6135,7 @@
 		</Row>
 		<!-- Brazil LUA-->
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD">
-			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 {1_Num}턴 동안 모든 도시의 [ICON_CULTURE]문화 및 [ICON_FOOD]성장률이 25% 증가합니다.</Text>
+			<Text>카니발이 시작되었습니다. 카니발을 맞이하여 {1_Num}턴 동안 모든 도시의 [ICON_FOOD]성장률이 50% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD_S">
 			<Text>카니발 시작!</Text>
@@ -6526,6 +6531,9 @@
 		<!-- Tourism and League Stuff -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION_CBP">
 			<Text>현재 적용 중이거나 제안 중인 안건으로 인해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_WRONG_SPHERE_PROPOSER">
+			<Text>이 도시국가와 동맹 상태여야 이 안건을 제안할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TOURISM">
 			<Text>전 세계의 [ICON_TOURISM]관광을 {1_UnitMaintenancePercent}%로 조정</Text>
@@ -7402,6 +7410,9 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_REFUND">
 			<Text>[ICON_PRODUCTION]무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_REFUND">
+			<Text>[ICON_PEACE]무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
+		</Row>
 		<!-- Quest Data -->
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
 			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 도로 설립</Text>
@@ -7717,7 +7728,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_SPY_DURATION_SCALED">
-			<Text>미션 길이: [COLOR_POSITIVE_TEXT]{1_Time}[ENDCOLOR].[NEWLINE][ICON_VIEW_CITY] 발견: [COLOR_NEGATIVE_TEXT]{2_ID}%[ENDCOLOR][NEWLINE][ICON_PIRATE] 처치(역스파이가 있다면): [COLOR_NEGATIVE_TEXT]{3_Death}%[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+			<Text>[NEWLINE][ICON_VIEW_CITY] 발견: [COLOR_NEGATIVE_TEXT]{2_ID}%[ENDCOLOR][NEWLINE][ICON_PIRATE] 처치(역스파이): [COLOR_NEGATIVE_TEXT]{3_Death}%[ENDCOLOR][NEWLINE][NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
@@ -7735,7 +7746,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]부정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_INTERNATIONAL_TRADE] 교역로 (-{1_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 인구 (-{2_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_HAPPINESS_3] 불행 (-{3_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_POSITIVE">
-			<Text>[COLOR_POSITIVE_TEXT]긍정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_CULTURE] 정책과 불가사의 (+{1_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 지역 건물 (+{2_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_SPY] 역스파이 (+{3_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_STRENGTH] 도시 방어 (+{4_Num}%)</Text>
+			<Text>[COLOR_POSITIVE_TEXT]긍정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_CULTURE] 정책과 불가사의 (+{1_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 지역 건물 (+{2_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_SPY] 역스파이 (+{3_Num}%)[NEWLINE]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES_AGAINST">
@@ -7793,7 +7804,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_ESPIONAGE_CURRENT_MISSION">
-			<Text>[COLOR_POSITIVE_TEXT]현재 임무:[ENDCOLOR][NEWLINE]{1_Mission}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]현재 임무:[ENDCOLOR] {1_Mission}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_MISSION_SOON_S">
@@ -7807,7 +7818,7 @@
 			<Text>기본 스파이 능력: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES">
-			<Text>스파이 능력 변화: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>스파이 속도 변화: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_OUR_MOD">
 			<Text>[NEWLINE]  [ICON_BULLET] 전역에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
@@ -7826,10 +7837,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_BASE_DEFENSE">
-			<Text>보안 임계치: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
+			<Text>미션 길이 변화: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES">
-			<Text>보안 변화: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>미션 길이 변화: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_THEIR_MOD">
 			<Text>[NEWLINE]  [ICON_BULLET] 전역에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>

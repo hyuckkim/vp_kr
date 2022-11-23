@@ -48,17 +48,39 @@ UPDATE Language_ko_KR
 SET Text = '도시 국가의 [ICON_INFLUENCE]영향력을 증가시키는 외교 임무를 수행할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_GIFT_GOLD_TT' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
-UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]국제 연합 프로젝트가 완료되면 세계 대회는 국제 연합이 되며 외교 승리가 가능해지고 세계 이념이 활성화됩니다.[ENDCOLOR] [ICON_VICTORY_DIPLOMACY]외교 승리를 쟁취하기 위해서는 문명이 [COLOR_POSITIVE_TEXT]세계 패권 결의안[ENDCOLOR]에 대한 대표단의 지지를 충분히 확보해야 합니다.[NEWLINE][NEWLINE]다른 결의안과는 달리 세계 패권 결의안은 어느 한 문명이 상정할 수 없습니다. 그대신 세계 대회 2회기마다 세계 패권에 대한 논의가 이루어집니다. 일반 상정 결의안을 다루는 회기와 교대로 진행되는 이 회기 동안, 세계 지도자 결의안이 대회에 자동으로 상정되며 그 외의 결의안은 상정되지 않습니다. [NEWLINE][NEWLINE]외교 승리를 달성하는 데 필요한 대표단 수는 게임 내 문명과 도시 국가 수에 따라 달라지며 세계 대회와 승리 진척도 화면에서 확인할 수 있습니다. 만약 어느 문명도 세계 지도자 결의안의 조건을 충족시킬 정도의 지지를 확보하지 못하면, 가장 많은 지지를 확보한 상위 두 개의 문명이 영구적으로 추가 대표단을 확보하게 됩니다.'
-WHERE Tag = 'TXT_KEY_CONGRESS_VICTORY_HEADING2_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+-- Civilopedia Updates
 
 UPDATE Language_en_US
-SET Text = '[COLOR_YELLOW]외교 승리[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_CONGRESS_VICTORY_HEADING2_TITLE' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+SET Text = '결의안이란 게임에 발생하는 변경사항이며 이는 세계 대회의 참여 문명이 상정하고 결정할 수 있습니다. 예를 들어, 결의안을 통해 특정 교역로에 통상 금지령을 내릴 수 있고, 불가사의로부터 얻는 문화를 증가시킬 수 있습니다.  핵무기 생산의 금지나 특정 문명에 외교 승리를 안길 수도 있습니다. 결의안을 통해 이미 통과된 결의안을 폐지하거나 효력을 되돌리는 일도 가능합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]문명 셋만이 결의안을 제안할 수 있습니다: 현재 세계 대회의 주최 문명과 가장 많은 대표단을 보유하고 있는 문명 둘만이 결의안을 상정할 수 있습니다.[ENDCOLOR][NEWLINE][NEWLINE]세계 대회가 개최되면 모든 문명이 상정된 결의안에 대한 결정과정에 참여합니다. 각 문명은 상정된 결의안을 원하는 결과로 이끌기 위해 대표단을 배분합니다. 결의안 통과를 위해 대표단은 "찬성"을 하거나 그 반대의 경우 "거부"를 할 수 있습니다. 일부 결의안은 "찬성" 또는 "반대" 외의 선택을 해야 하는 경우도 있습니다.[NEWLINE][NEWLINE]모든 문명이 대표단을 모두 사용하고 나면 지지한 대표단의 수에 따라 결의안의 결과가 결정됩니다. 만약 찬성과 반대가 동률을 이루면 해당 결의안은 통과하지 못합니다.'
+WHERE Tag = 'TXT_KEY_CONGRESS_RESOLUTIONS_HEADING2_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+
+UPDATE Language_en_US
+SET Text = '[COLOR_YELLOW]결의안[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONGRESS_RESOLUTIONS_HEADING2_TITLE' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+
+UPDATE Language_en_US
+SET Text = '대표단은 대회에 상정된 결의안에 대한 결정권을 가집니다. 일단 대회가 시작되면, 각 문명은 상정된 결의안을 원하는 결과로 이끌기 위해 대표단을 배분합니다. 결의안 통과를 위해 대표단은 "찬성"하거나 그 반대의 경우 "반대"할 수 있습니다. 일부 결의안은 "찬성" 또는 "반대" 외의 선택을 해야 하는 경우도 있습니다.[NEWLINE][NEWLINE]대표단은 다음과 같은 방법으로 얻을 수 있습니다:[NEWLINE][NEWLINE]  [COLOR_GREEN]기본값[ENDCOLOR]: 모든 문명이 시대마다 기본적으로 대표단을 얻습니다. (세계 의회가 시작될 때 대표단 1명, 시대마다 1명씩 추가)[NEWLINE][NEWLINE] [COLOR_GREEN]개최국[ENDCOLOR]: 세계 대회를 개최하게 되면 시대에 따라 1-2명의 대표단을 얻습니다.[NEWLINE] The Host of the World Congress gets 1-2 additional Delegates, depending on Era.[NEWLINE][NEWLINE]  [COLOR_GREEN]도시 국가 동맹[ENDCOLOR]: 도시 국가 동맹마다 1명의 대표단을 얻습니다. 국제 연합이 설립되면, 동맹당 2명으로 증가합니다.[NEWLINE][NEWLINE] [COLOR_GREEN]도시 국가 대사관[ENDCOLOR]: [COLOR_YELLOW]도시 국가에 건설한 대사관마다 1명의 대표단을 얻습니다.[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]세계 종교[ENDCOLOR]: 만약 어떤 종교가 세계 의회에서 세계 종교로 지정되면, 그 종교를 따르는 모든 문명들은 추가 대표단을 얻습니다. [COLOR_YELLOW]세계 종교의 창시자는  그 세계 종교를 따르는 외국 문명마다 추가 대포단을 얻습니다.[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]종교적 권한[ENDCOLOR]: [COLOR_YELLOW]종교를 설립하고 그에 맞는 국가 불가사의를 건설한 문명은 종교를 따르는 도시 10개마다 1명의 대표단을 얻습니다.[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]세계 이념[ENDCOLOR]: 세계 의회에서 세계 이념이 지정되면, 그 이념을 따르는 모든 문명이 1명의 대표단을 얻고 [COLOR_YELLOW]세계 이념을 따르는 외국 문명마다 1명의 대표단을 얻습니다.[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]정책과 불가사의[ENDCOLOR]: 일부 사회 정책, 국가 불가사의와 세계 불가사의는 각각의 방식으로 추가 대표단을 제공합니다.[NEWLINE][NEWLINE]  [COLOR_GREEN]세계화[ENDCOLOR]: "세계화" 가 연구되면, 각 외교관 하나마다 대표단을 하나씩 얻습니다.'
+WHERE Tag = 'TXT_KEY_CONGRESS_DELEGATES_HEADING2_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+
+UPDATE Language_en_US
+SET Text = '[COLOR_YELLOW]대표단[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONGRESS_DELEGATES_HEADING2_TITLE' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+
+UPDATE Language_en_US
+SET Text = '외교 승리는 세계회의가 국제 연합이 된 후에만 가능합니다. 국제 연합은 게임 내 문명의 절반이 원자력 시대(또는 하나의 문명이 정보화 시대에 도달)에 도달한 후에 설립됩니다.  [COLOR_YELLOW]추가 요구 사항으로, 세계회의 결의안 "국제 연합"이 통과되고 국제 연합 세계 불가사의가 문명에 의해 건설되어야 합니다. 국제 연합을 직접 건설하지 않았더라도 외교 승리를 거둘 수 있습니다.[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONGRESS_UN_HEADING2_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+
+UPDATE Language_en_US
+SET Text = '[COLOR_YELLOW]국제 연합[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONGRESS_UN_HEADING2_TITLE' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE Language_ko_KR
-SET Text = '국제 연합 프로젝트가 완료되면 세계 대회가 국제 연합으로 바뀌며 [ICON_VICTORY_DIPLOMACY]외교 승리 투표를 시작할 수 있고 세계 이념이 활성화됩니다. 이 전제 조건들은 세계 지도자 선출 결의안을 상정하고 그 결의안의 승자는 외교 승리를 달성할 수 있습니다.'
-WHERE Tag = 'TXT_KEY_CONGRESS_UN_HEADING2_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+SET Text = '[COLOR_YELLOW]세계 대회가 국제 연합이 되고  세계 이념이 활성화되면, 외교 승리가 가능해집니다.[ENDCOLOR] [ICON_VICTORY_DIPLOMACY]외교 승리를 쟁취하기 위해서는 문명이 [COLOR_POSITIVE_TEXT]세계 패권 결의안[ENDCOLOR]에 대한 대표단의 지지를 충분히 확보해야 합니다.[NEWLINE][NEWLINE]다른 결의안과는 달리 세계 패권 결의안은 어느 한 문명이 상정할 수 없습니다. 그대신 세계 이념이 활성화되면 세계 대회 2회기마다 세계 패권에 대한 논의가 이루어집니다. 일반 상정 결의안을 다루는 회기와 교대로 진행되는 이 회기 동안, 세계 지도자 결의안이 대회에 자동으로 상정되며 그 외의 결의안은 상정되지 않습니다. [NEWLINE][NEWLINE]외교 승리를 달성하는 데 필요한 대표단 수는 게임 내 문명과 도시 국가 수에 따라 달라지며 세계 대회와 승리 진척도 화면에서 확인할 수 있습니다. 만약 어느 문명도 세계 지도자 결의안의 조건을 충족시킬 정도의 지지를 확보하지 못하면, 가장 많은 지지를 확보한 상위 두 개의 문명이 영구적으로 추가 대표단을 확보하게 됩니다.'
+WHERE Tag = 'TXT_KEY_CONGRESS_VICTORY_HEADING2_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]외교 승리[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONGRESS_VICTORY_HEADING2_TITLE' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE Language_ko_KR
 SET Text = '새로운 신도의 수가 가장 많은 문명에게 보상하겠다고 합니다.'

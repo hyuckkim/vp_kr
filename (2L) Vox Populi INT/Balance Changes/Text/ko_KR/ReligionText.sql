@@ -312,7 +312,7 @@ SET Text = '[ICON_PEACE]신앙으로 대성당을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_CATHEDRALS';
 
 UPDATE Language_ko_KR
-SET Text = 'Can only be built in cities following a religion with the Cathedrals belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Reduces [ICON_HAPPINESS_3] Poverty and boosts the [ICON_GOLD] Gold yield of nearby farms and pastures. Gain [ICON_GOLD] Gold in the City when its borders expand.'
+SET Text = '대성당 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 빈곤을 감소시키고 농장과 목장의 [ICON_GOLD] 골드를 증가시킵니다. 국경이 확장될 때 [ICON_GOLD] 골드를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CATHEDRAL_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text) 
@@ -338,7 +338,7 @@ SET Text = '협력'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITIZEN]시민이 태어날 때 모든 도시의 산출량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] (시대별 보정) 증가합니다.'
+SET Text = '[ICON_CITIZEN]시민이 태어날 때 모든 도시의 산출량이 [COLOR_POSITIVE_TEXT]8[ENDCOLOR] (시대별 보정) 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS';
 
 
@@ -391,7 +391,7 @@ SET Text = '[ICON_PEACE]신앙으로 모스크를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MOSQUES';
 
 UPDATE Language_ko_KR
-SET Text = 'Can only be built in cities following a religion with the Mosques belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Reduces [ICON_HAPPINESS_3] Illiteracy and generates [ICON_CULTURE] Culture during [ICON_GOLDEN_AGE] Golden Ages.'
+SET Text = '모스크 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 문맹을 감소시키고 [ICON_GOLDEN_AGE] 황금기 동안 문화를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
@@ -417,7 +417,7 @@ SET Text = '[ICON_PEACE]신앙으로 파고다를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_PAGODAS';
 
 UPDATE Language_ko_KR
-SET Text = 'Can only be built in cities following a religion with the Pagodas belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Reduces [ICON_HAPPINESS_3] Boredom and [ICON_HAPPINESS_3] Religious Unrest, and generates yields based on the number of Religions present in the City.'
+SET Text = '파고다 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 무료를 감소시키고 도시의 종교의 수에 따라 추가 산출을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_PAGODA_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)

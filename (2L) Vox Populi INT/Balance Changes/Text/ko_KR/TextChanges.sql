@@ -45,13 +45,13 @@ UPDATE Language_ko_KR
 SET Text = '가장 눈부신 도시'
 WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_CITY_TOURISM';
 
-	UPDATE Language_ko_KR
-	SET Text = '문명 백과사전에 잘 오셨습니다! 여기서 게임에 대한 자세한 설명을 찾아볼 수 있습니다. 특정 주제에 대한 항목을 검색하려면 "검색" 버튼을 이용해 주십시오. 화면 상단의 주제를 클릭하면, 해당하는 각 항목으로 이동하게 됩니다. 화면의 왼쪽에 있는 탐색바를 통해 항목의 세부 내용을 찾아볼 수 있습니다.[NEWLINE][NEWLINE]화면 왼쪽 상단에 위치한 "앞으로" "뒤로" 버튼을 이용하시면 탐색에 도움이 될 것입니다. "X" 버튼을 누르시면 문명 백과사전을 닫고 게임으로 돌아갑니다.[NEWLINE][NEWLINE]Vox populi에 잘 오셨습니다. Vox Populi는 게임을 완전히 바꾸어, 정책, 지도자, 건물, 불가사의 등을 완전히 뒤바꾸는 모드입니다. [COLOR_YELLOW]Vox Populi에서 바뀐 내용은 시빌로피디아에서 노란색으로 하이라이트됩니다[ENDCOLOR].[COLOR_GREEN] 게임의 완전히 새로운 내용은 초록색으로 하이라이트됩니다[ENDCOLOR].[NEWLINE][NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]문명메트로폴리스 2016 한글 패치 v2.4[ENDCOLOR][NEWLINE][COLOR_MAGENTA]디시인사이드 문명 갤러리 Vox populi 한글패치[ENDCOLOR]'
-	WHERE Tag = 'TXT_KEY_PEDIA_HOME_PAGE_HELP_TEXT';
+UPDATE Language_ko_KR
+SET Text = '문명 백과사전에 잘 오셨습니다! 여기서 게임에 대한 자세한 설명을 찾아볼 수 있습니다. 특정 주제에 대한 항목을 검색하려면 "검색" 버튼을 이용해 주십시오. 화면 상단의 주제를 클릭하면, 해당하는 각 항목으로 이동하게 됩니다. 화면의 왼쪽에 있는 탐색바를 통해 항목의 세부 내용을 찾아볼 수 있습니다.[NEWLINE][NEWLINE]화면 왼쪽 상단에 위치한 "앞으로" "뒤로" 버튼을 이용하시면 탐색에 도움이 될 것입니다. "X" 버튼을 누르시면 문명 백과사전을 닫고 게임으로 돌아갑니다.[NEWLINE][NEWLINE]Vox populi에 잘 오셨습니다. Vox Populi는 게임을 완전히 바꾸어, 정책, 지도자, 건물, 불가사의 등을 완전히 뒤바꾸는 모드입니다. [COLOR_YELLOW]Vox Populi에서 바뀐 내용은 시빌로피디아에서 노란색으로 하이라이트됩니다[ENDCOLOR].[COLOR_GREEN] 게임의 완전히 새로운 내용 또는 완전히 바뀐 내용은 초록색으로 하이라이트됩니다[ENDCOLOR].[NEWLINE][NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]문명메트로폴리스 2016 한글 패치 v2.4[ENDCOLOR][NEWLINE][COLOR_MAGENTA]디시인사이드 문명 갤러리 Vox populi 한글패치[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_PEDIA_HOME_PAGE_HELP_TEXT';
 
-	UPDATE Language_ko_KR
-	SET Text = '문명 V는 먼 옛날부터 훗날 멀지 않은 미래까지 모든 인간 역사를 다룹니다. 문명 백과사전의 "게임 개념" 부분은 게임에서 가장 중요한 부분 중에서 도시를 건설하고 관리하는 방법, 전쟁에서 싸우는 방법, 기술을 연구하는 방법, 그 외 기타 등등을 설명합니다. 왼쪽 탐색바는 주요 개념을 표시하며, 개념의 세세한 부분을 보기 위해서는 항목을 클릭하십시오.[NEWLINE][NEWLINE]게임 개념 전체를 처음부터 하나하나 볼 수도 있겠지만, 이 게임의 개발 책임자가 아닌 이상, 웬만하면 게임을 시작한 후 필요할 때마다 확인하는 것을 추천합니다. 당신이 게임 개념을 다 읽었더라도, 게임 초반에 진행하는 방법을 이해하기 위해서는 게임 속 튜토리얼이 필요하게 될 것입니다.[NEWLINE][NEWLINE][COLOR_YELLOW]Vox Populi에서 바뀐 내용은 시빌로피디아에서 노란 색으로 하이라이트됩니다[ENDCOLOR].[COLOR_GREEN] 게임의 완전히 새로운 내용은 초록색으로 하이라이트됩니다[ENDCOLOR].'
-	WHERE Tag = 'TXT_KEY_PEDIA_GAME_CONCEPT_HELP_TEXT';
+UPDATE Language_ko_KR
+SET Text = '문명 V는 먼 옛날부터 훗날 멀지 않은 미래까지 모든 인간 역사를 다룹니다. 문명 백과사전의 "게임 개념" 부분은 게임에서 가장 중요한 부분 중에서 도시를 건설하고 관리하는 방법, 전쟁에서 싸우는 방법, 기술을 연구하는 방법, 그 외 기타 등등을 설명합니다. 왼쪽 탐색바는 주요 개념을 표시하며, 개념의 세세한 부분을 보기 위해서는 항목을 클릭하십시오.[NEWLINE][NEWLINE]게임 개념 전체를 처음부터 하나하나 볼 수도 있겠지만, 이 게임의 개발 책임자가 아닌 이상, 웬만하면 게임을 시작한 후 필요할 때마다 확인하는 것을 추천합니다. 당신이 게임 개념을 다 읽었더라도, 게임 초반에 진행하는 방법을 이해하기 위해서는 게임 속 튜토리얼이 필요하게 될 것입니다.[NEWLINE][NEWLINE][COLOR_YELLOW]Vox Populi에서 바뀐 내용은 시빌로피디아에서 노란 색으로 하이라이트됩니다[ENDCOLOR].[COLOR_GREEN] 게임의 완전히 새로운 내용 또는 완전히 바뀐 내용은 초록색으로 하이라이트됩니다[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_PEDIA_GAME_CONCEPT_HELP_TEXT';
 
 
 -- Spy Stuff

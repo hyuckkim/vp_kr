@@ -222,6 +222,9 @@
 		<Row Tag="TXT_KEY_EVENT_YIELD_DURATION">
 			<Text>{1_Num}턴</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_DURATION">
+			<Text>({1_Num}턴)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SIPHON_PAST">
 			<Text>총 횡령: {3_Value} {2_Icon} {1_Yield}</Text>
 		</Row>
@@ -299,10 +302,10 @@
 			<Text>[NEWLINE] [ICON_BULLET] {1_Desc} 유닛이 1개 이상 있어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_SUPER_UNHAPPY">
-			<Text>[NEWLINE] [ICON_BULLET] 매우 불행해야 합니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] 제국이 매우 불행해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_UNHAPPY">
-			<Text>[NEWLINE] [ICON_BULLET] 불행해야 합니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] 제국이 불행해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_TRADE_SLOT">
 			<Text>[NEWLINE] [ICON_BULLET] 교역 유닛 슬롯이 있어야 합니다.</Text>
@@ -424,6 +427,14 @@
 		<Row Tag="TXT_KEY_NEED_BE_RESISTANCE">
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 저항 상태여야 합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NEED_BARBARIANS_ENABLED">
+			<Text>[NEWLINE] [ICON_BULLET] 야만인이 횔성화되어야 합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOO_EARLY_FOR_BARBARIANS">
+			<Text>[NEWLINE] [ICON_BULLET] 소유한 영토에 야만인이 들어갈 수 없습니다.</Text>
+		</Row>
+	
 		<Row Tag="TXT_KEY_NEED_BE_RIVER">
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 강과 인접해야 합니다.</Text>
 		</Row>

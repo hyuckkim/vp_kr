@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="110">
   <Properties>
     <Name>(1L) Community Patch Localized</Name>
-    <Teaser>(2.7.3) Translation of the Community Patch</Teaser>
+    <Teaser>(3.0) Translation of the Community Patch</Teaser>
     <Description>Translation of the Community Patch to different languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>110</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>111</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -18,7 +18,7 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="110" maxversion="999" title="Community Patch" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="111" maxversion="999" title="Community Patch" />
   </Dependencies>
   <References />
   <Blocks />
@@ -32,12 +32,12 @@
     <File md5="BE241C0AC7A744F9644C8A7D1E2468BC" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/UnitclassNotUnit.xml</File>
     <File md5="6D7FBF03168942B330DF290F20EC983F" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/UnitNaming.xml</File>
     <File md5="69BD792128FC2B9037C2339F5F6CF1F3" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/VariableRecon.xml</File>
-    <File md5="854E1CF9B64BA9CF71FAFB12F37E8222" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
-    <File md5="73CD15F096F591D13E00E989E97A0705" import="0">Core Files/Text/CoreText_ko_KR.sql</File>
+    <File md5="F19FA954A6238C037C6A569F0451686A" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
+    <File md5="3531DF366043EA4785D8655A16429D32" import="0">Core Files/Text/CoreText_ko_KR.sql</File>
     <File md5="F8A6E046E72FB4847F9F000245ED2C70" import="0">Modules/Events/Text/ko_KR/City_ko_KR.xml</File>
-    <File md5="F0767120DEBB35832039D102CF6D9904" import="0">Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</File>
+    <File md5="1041286E14B604447434C48FF4CCB5B9" import="0">Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</File>
     <File md5="E947E2FD2541EE121A16A1F2D622F1B8" import="0">Modules/Events/Text/ko_KR/Player_ko_KR.xml</File>
-    <File md5="265202CDAA2890BE9678B1FD08FFCCAF" import="0">Modules/MoreGP/ExtraGPs.sql</File>
+    <File md5="9C139DBE3759D2C3B2770555CDA1A6F9" import="0">Modules/MoreGP/ExtraGPs.sql</File>
   </Files>
   <Actions>
     <OnModActivated>
