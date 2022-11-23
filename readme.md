@@ -8,7 +8,7 @@ overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 ## Vox populi 받기
 [Vox Populi 인스톨러 받기](https://drive.google.com/file/d/163l_8h_9iUNLUg42U--90VgzXwJov5_m/view)  
-[한글 패치 인스톨러 받기](https://github.com/hyuckkim/vp_kr/releases/download/v3.0/Vox.Populi.INT.3.0.exe)
+[한글 패치 인스톨러 받기](https://github.com/hyuckkim/vp_kr/releases/download/v3.0a/Vox.Populi.INT.3.0.exe)
 
 ## 번역
 예니체리없는오스만  
