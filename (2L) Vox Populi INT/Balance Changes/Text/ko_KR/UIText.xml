@@ -1025,7 +1025,7 @@
 			<Text>[ICON_BULLET] 문화: [ICON_CITIZEN] 당 {1_Num} [ICON_CULTURE] (+{2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_RELIGIOUS_UNREST_POS">
-			<Text>[ICON_BULLET] 종교 분쟁: 소수자마다 {1_Num:number "#.##"} [ICON_HAPPINESS_3] (+{2_Num})%</Text>
+			<Text>[ICON_BULLET]{1_Icon} 분쟁: 소수자마다 {2_Num:number "#.##"} [ICON_HAPPINESS_3] (+{3_Num})%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_BASIC_NEEDS">
@@ -1041,7 +1041,7 @@
 			<Text>[ICON_BULLET] 문화: [ICON_CITIZEN] 당 {1_Num:number "#.##"} [ICON_CULTURE] (+{2_Num}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_MEDIAN_RELIGIOUS_UNREST">
-			<Text>[ICON_BULLET] 종교 분쟁: 소수자마다 {1_Num:number "#.##"} [ICON_HAPPINESS_3] (+{2_Num})%</Text>
+			<Text>[ICON_BULLET]{1_Icon} 분쟁: 소수자마다 {2_Num:number "#.##"} [ICON_HAPPINESS_3] (+{3_Num})%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_MEDIAN_MODS_BREAKDOWN">
