@@ -1,20 +1,30 @@
-# vp_kr : 문명 5 Vox Populi의 한글 패치
+# vp_kr
+문명 5의 모드인 Vox Populi의 한글 패치 저장소입니다.
+
+## Vox Populi가 뭔가요?
+[Vox Populi](https://forums.civfanatics.com/forums/community-patch-project.497/)는 문명 5의 유명 overhaul 모드입니다.
+overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말합니다.
+즉, Vox Populi는 문명 5의 모든 게임 요소인 기술, 문화 트리, 유닛, 문명 특성, 승급, 전투 전략 등을 모두 바꿉니다.
 
 ## Vox populi 받기
-[Community Patch Project](https://forums.civfanatics.com/forums/community-patch-project.497/)  
-이 모드는 한글패치만 포함되어있음!!! 
+[Vox Populi 인스톨러 받기](https://drive.google.com/file/d/1eoAs5xxkMucn3rUKjNPu9FXkhaff40mf/view)  
+[한글 패치 인스톨러 받기](https://github.com/hyuckkim/vp_kr/releases/download/v2.7.3/Vox.Populi.INT_2.7.3.exe)
 
 ## 번역
 예니체리없는오스만  
 첼콩가루  
 racraky  
+hyuckkim  
 
 기술 :  
 첼콩가루  
 racraky  
-저는 숟가락만 얹었습니다
+hyuckkim  
 
 ## 설치법 
+
+Inno Setup Script로 빌드된 인스톨러 프로그램으로 자동으로 설치할 수 있습니다.  
+다만, 인스톨러를 꺼리시는 분이나 수동으로 설치하기를 원하시는 분들은 직접 설치하실 수 있습니다.
 
 [http://gall.dcinside.com/civilization/208041](http://gall.dcinside.com/civilization/208041)  
 여기에 설치 방법이 안내되어 있습니다.  
@@ -22,8 +32,8 @@ racraky
 **code - download zip**을 누르면 다운로드 받을 수 있습니다.
 
 파일은 두 종류로 이루어져 있습니다 : 
- - Assets.zip  
-압축을 풀어 문명 5 게임 위치의 Assets에 겹치면 됩니다.  
+ - Assets  
+문명 5 게임 위치의 Assets에 겹치면 됩니다.  
 스팀 창에서 '로컬 파일 보기'로 게임 위치를 열 수 있습니다.  
 기본 경로는 `C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V`입니다.
  - 모드 폴더들  
@@ -39,8 +49,8 @@ racraky
 진급 트리를 표시해주는 Promotion Tree의 번역용 모드입니다.  
  - 추가 모드용 Other Mods.zip은 [다른 리포지토리](https://github.com/hyuckkim/vp_modmods_kr)로 옮겼습니다.
 ## 함께 쓰면 좋은 모드
- - [More Unique Components for Vox Populi](http://gall.dcinside.com/civilization/261234) 3 / 4번째 고유 유닛 추가해주는 모드 
- - [Even More Resources for Vox Populi](http://gall.dcinside.com/civilization/186196) 더 더 다양한 자원 추가해주는 모드
- - [Promotion Flags EUI for VP](https://forums.civfanatics.com/threads/promotion-flags-eui-for-vp.651957/page-2) 유닛 승급을 머리 위에 띄워주는 모드
- - [(vp) City Distance to 5](https://steamcommunity.com/sharedfiles/filedetails/?id=2304856716) 도시 타일 거리 늘려주는 모드
- - [Pineappledan Tweaks for VP](https://gall.dcinside.com/civilization/262596) 유닛 밸런스 이것저것 수정하고 비행선 유닛 추가하는 모드  
+ - [More Unique Components for Vox Populi](http://gall.dcinside.com/civilization/261234) 3 / 4번째 고유 유닛 추가해주는 모드   
+ - [Even More Resources for Vox Populi](http://gall.dcinside.com/civilization/186196) 더 더 다양한 자원 추가해주는 모드  
+ - [Promotion Flags EUI for VP](https://forums.civfanatics.com/threads/promotion-flags-eui-for-vp.651957/page-2) 유닛 승급을 머리 위에 띄워주는 모드  
+ - [(vp) City Distance to 5](https://steamcommunity.com/sharedfiles/filedetails/?id=2304856716) 도시 타일 거리 늘려주는 모드  
+ - [Pineappledan Tweaks for VP](https://gall.dcinside.com/civilization/262596) vp의 핵심 개발자가 개발하는 다음 버전 미리보기  
