@@ -391,6 +391,15 @@ UPDATE Language_ko_KR
 SET Text = '추가 [ICON_INTERNATIONAL_TRADE] 교역로를 제공합니다. 다양한 게임 후반 유닛에 사용되는 [ICON_RES_ALUMINUM] 알루미늄을 발견합니다. 도시가 [COLOR_POSITIVE_TEXT]증권 거래소[ENDCOLOR]를 건설해 골드를 증가시킬 수 있게 됩니다. [COLOR_POSITIVE_TEXT]수력 발전소[ENDCOLOR]를 건설해, 강 근처의 생산을 증가시킬 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ELECTRICITY_HELP';
 
+-- Tech Tree small icon fixes
+
+UPDATE Language_ko_KR
+SET Text = '숲/정글 제거: +{1_Num}[ICON_PRODUCTION] 생산'
+WHERE Tag = 'TXT_KEY_ABLTY_TECH_BOOST_CHOP';
+
+INSERT INTO Language_ko_KR (Tag, Text) VALUES
+('TXT_KEY_REMOVE_FOREST_JUNGLE_COST_REDUCTION', "숲/정글 제거가 완료에 {1_Turns}턴 소요" );
+
 -- Penicilin and Nanotech 
 
 UPDATE Language_ko_KR

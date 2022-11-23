@@ -557,7 +557,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_GREAT_WORK">
-			<Text>[ICON_GREAT_WORK]걸작의 완성으로 {2_CityName:textkey}{2: plural 1?이; 2?가;} {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>[ICON_GREAT_WORK]걸작의 완성으로 {2_CityName:textkey}{2: plural 1?이; 2?가;} {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_GREAT_WORK">
 			<Text>천명</Text>
@@ -967,37 +967,40 @@
 
 		<!-- Top Panel -->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_STATE_RELIGION_VP">
-			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종교에서 획득</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  종교에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_CITY_LOCAL">
-			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  지역 원인에서 획득 (종교, 건물 등)</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  지역 원인에서 획득 (종교, 건물 등)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_MILITARY_UNITS">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  군사 유닛에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_ILLITERACY">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_RESEARCH]문맹에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_RESEARCH]문맹에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_BOREDOM">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_CULTURE]무료에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_CULTURE]무료에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_DISTRESS">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_POVERTY">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_GOLD]빈곤에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_GOLD]빈곤에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_ISOLATION">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_BLOCKADED]고립에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_BLOCKADED]고립에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_PILLAGED">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_RAZING]약탈된 타일에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_RAZING]약탈된 타일에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_FAMINE">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_FOOD]기근에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_FOOD]기근에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_RELIGIOUS_UNREST">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_RELIGION]종교 분쟁에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_RELIGION]종교 분쟁에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_PUPPET_CITIES_SPECIALISTS">
-			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_PUPPET]괴뢰 도시의 [ICON_URBANIZATION]도시화에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_PUPPET]괴뢰 도시의 [ICON_URBANIZATION]도시화에서 획득</Text>
 		</Row>
 
 		<!-- Economic Overview -->
