@@ -550,48 +550,48 @@
 		<!-- New -->
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_ERA_CHANGE">
-			<Text>새로운 시대로 접어 들면서 제국이 새로운 지배 왕조의 등장으로 인한 불안정에 휩싸였습니다. 천명에서 오는 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 절반으로 감소합니다.</Text>
+			<Text>새로운 시대로 접어 들면서 제국이 새로운 지배 왕조의 등장으로 인한 불안정에 휩싸였습니다. 천명에서 오는 모든 도시의 [ICON_FOOD]식량이 절반으로 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_SUMMARY_WLTKD_UA_ERA_CHANGE">
 			<Text>왕조 전환...</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_GREAT_WORK">
-			<Text>[ICON_GREAT_WORK]걸작의 완성으로 {2_CityName:textkey}{2: plural 1?이; 2?가;} {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>[ICON_GREAT_WORK]걸작의 완성으로 {2_CityName:textkey}{2: plural 1?이; 2?가;} {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]성장이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_GREAT_WORK">
 			<Text>천명</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_RESOURCE">
-			<Text>{1_Resource:textkey}의 확보로 {2_CityName:textkey}{2: plural 1?이; 2?가;} {3_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{4_Num}%[ENDCOLOR] 증가합니다.</Text>
+			<Text>{1_Resource:textkey}의 확보로 {2_CityName:textkey}{2: plural 1?이; 2?가;} {3_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]성장이 [COLOR_POSITIVE_TEXT]{4_Num}%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_RESOURCE">
 			<Text>천명</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_CITY_SETTLING">
-			<Text>새로운 도시를 설립했기 때문에 모든 도시가 {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>새로운 도시를 설립했기 때문에 모든 도시가 {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]성장이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_CITY_SETTLING">
 			<Text>천명</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_CITY_CONQUEST">
-			<Text>도시를 점령했기 때문에 모든 도시가 {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>도시를 점령했기 때문에 모든 도시가 {1_Num}턴 동안 "황후 경축일"을 맞이합니다. [ICON_FOOD]성장이 [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] 증가합니다! 모든 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_CITY_CONQUEST">
 			<Text>천명</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_FOODMOD_WLTKD_UA">
-			<Text>[NEWLINE][ICON_BULLET]"황후 경축일": [ICON_FOOD] 식량 +{1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]"황후 경축일": [ICON_FOOD] 성장 +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_DEMAND_UA">
 			<Text>{1_CityName:textkey}{1: plural 1?이; 2?가;}  {2_ResourceName:textkey}{2: plural 1?을; 2?를;} 확보하길 원합니다! 해당 자원을 교역로에 연결하면 즉시 "황후 경축일"을 맞이합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA">
-			<Text>"황후 경축일"을 맞이합니다, 도시의 [ICON_FOOD]식량이 증가합니다!</Text>
+			<Text>"황후 경축일"을 맞이합니다, 도시의 [ICON_FOOD]성장이 증가합니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA">
 			<Text>해당 자원을 교역로에 연결하면 즉시 "황후 경축일"을 맞이합니다.</Text>
