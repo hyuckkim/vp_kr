@@ -44,7 +44,7 @@ SET Text = '정원은 도시에서 위인이 탄생하는 속도를 25% 증가�
 WHERE Tag = 'TXT_KEY_BUILDING_GARDEN_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES ('TXT_KEY_BUILDING_HOSPITAL_HELP', '[ICON_CITIZEN]시민 10명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 매 턴 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다. 행동 여부에 상관 없이 이 도시 내부의 지상 유닛은 매 턴 체력을 추가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 더 회복합니다. [NEWLINE][NEWLINE]군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.');
+VALUES ('TXT_KEY_BUILDING_HOSPITAL_HELP', '[ICON_CITIZEN]시민 10명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 매 턴 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다. 행동 여부에 상관 없이 이 도시 내부의 지상 유닛은 매 턴 체력을 추가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 더 회복합니다. [NEWLINE][NEWLINE][ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.');
 
 INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_TEMPLE_HELP', '[ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1 [NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1');
