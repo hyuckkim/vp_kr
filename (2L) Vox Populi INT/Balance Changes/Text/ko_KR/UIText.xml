@@ -541,7 +541,7 @@
 
 		<!--Old China UA Text-->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA">
-			<Text>{1_Resource:textkey}의 확보로 {2_CityName:textkey}{2: plural 1?이; 2?가;} "황후 경축일"을 맞이합니다. 모든 도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>{1_Resource:textkey}의 확보로 {2_CityName:textkey}{2: plural 1?이; 2?가;} "황후 경축일"을 맞이합니다. 모든 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA">
 			<Text>{1_CityName:textkey}{1: plural 1?이; 2?가;} 황후를 찬양합니다!</Text>
