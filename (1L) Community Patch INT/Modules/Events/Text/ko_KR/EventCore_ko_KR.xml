@@ -122,10 +122,10 @@
 		
 		<!-- Espionage Success -->
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE">
-			<Text>{4_CivAdj}의 요원의 {3_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : [NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+			<Text>{4_CivAdj} 요원의 {3_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : [NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_T_ESPIONAGE">
-			<Text>{2_CivAdj}의 요원이 {1_City}에서 임무를 성공했습니다!</Text>
+			<Text>{2_CivAdj} 요원이 {1_City}에서 임무를 성공했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_UNKNOWN">
 			<Text>알수 없는 문명의 요원의 {3_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : [NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>

@@ -119,7 +119,7 @@
             <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} 현재 1위 문명이 연구한 기술은 {1_LeaderScore}개이며 플레이어 문명이 연구한 기술은 [COLOR_POSITIVE_TEXT]{2_PlayerScore}개[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_WINNING_FORMAL">
-            <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} 현재 플레이어 문명이 1위이며 연구한 기술은 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR] 개입니다.</Text>
+            <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} 현재 플레이어 문명이 1위이며 연구한 기술은 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]개입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR">
             <Text>최근에 우리를 괴롭힌 문명을 공개적으로 비난해 주십시오. 그들이 저지른 만행을 세상에 알려야 합니다.</Text>

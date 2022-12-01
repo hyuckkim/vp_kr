@@ -575,7 +575,7 @@
             <Text>{@1_CivName}{@1: plural 1?이; 2?가;} 세계의 모든 문명을 발견했습니다. 이 사실을 기념하기 위해 전 세계의 지도자가 {3_TurnsUntilSession}턴 후에 {2_LeagueName}에 모여 다국적 외교에 관해 토론합니다. 문명이 발전할수록 세계 대회는 변화하게 되며 새로운 개최국 선거가 이루어질 것입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_GAME_ERA">
-            <Text>세계가 {@1_EraName}로 접어들었습니다. 105:105:105:255 이상의 문명이 해당 시대로 발전한 상태이거나 한 문명이 {@1_EraName}보다 1단계 더 발전한 상태입니다.</Text>
+            <Text>세계가 {@1_EraName}로 접어들었습니다. 절반 이상의 문명이 해당 시대로 발전한 상태이거나 한 문명이 {@1_EraName}보다 1단계 더 발전한 상태입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_NEXT_ERA">
             <Text>다음 시대 :</Text>

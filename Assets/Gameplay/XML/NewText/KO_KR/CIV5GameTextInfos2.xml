@@ -1877,7 +1877,7 @@
             <Text>이 도시를 합병하면 상당히 많은 [ICON_HAPPINESS_4]불행을 제공하는 도시가 됩니다.[NEWLINE][NEWLINE]합병한 이 도시는 [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_HAPPINESS_4]불행을 증가시킬 것입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE">
-            <Text>이이 도시는 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 도시였습니다. 이 도시를 해방해주게 되면 그들은 영원히 감사를 표할 것입니다.</Text>
+            <Text>이 도시는 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 도시였습니다. 이 도시를 해방해주게 되면 그들은 영원히 감사를 표할 것입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_RESURRECT">
             <Text>이 도시는 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 도시였습니다. 도시를 돌려준다면 상대는 은혜를 영원히 않을 것입니다.</Text>
