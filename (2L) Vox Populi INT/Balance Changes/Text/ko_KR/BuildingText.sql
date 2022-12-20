@@ -288,11 +288,11 @@ SET Text = '군사 기지는 도시의 방어력과 체력을 증가시키고, �
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '도시 또는 주변 타일의 피해 없이 핵무기를 파괴할 확률이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 핵 공격을 받았을 때 손실되는 [ICON_CITIZEN]시민이 [COLOR_POSITIVE_TEXT]75%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]도시의 방어력이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 도시의 공격력이 [COLOR_POSITIVE_TEXT]200[ENDCOLOR] 증가합니다. 도시 공습을 하는 공중 유닛에게 주는 [ICON_STRENGTH]피해가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.'
+SET Text = '핵무기를 선제적으로 파괴할 확률이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 파괴하면 원자폭탄은 제거되고 핵미사일은 원자폭탄 수준의 피해만 입히게 됩니다. 핵 공격을 받았을 때 손실되는 [ICON_CITIZEN]시민이 [COLOR_POSITIVE_TEXT]75%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]도시의 방어력이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 도시의 공격력이 [COLOR_POSITIVE_TEXT]200[ENDCOLOR] 증가합니다. 도시 공습을 하는 공중 유닛에게 주는 [ICON_STRENGTH]피해가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '전략정 방어 시스템은 50%의 확률로 핵무기를 도시와 주변 타일의 피해 없이 막아내고, 도시가 핵 공격을 받았을 때 죽는 인구가 75%만큼 감소합니다. 모두 대피하십시오!'
+SET Text = '전략적 방어 시스템은 50%의 확률로 핵무기를 선제적으로 막아내어, 원자폭탄은 제거되고 핵미사일은 원자폭탄 수준의 피해만 입히게 합니다. 도시가 핵 공격을 받았을 때 죽는 인구가 75%만큼 감소하고, 도시 공습을 하는 공중 유닛에게 10의 피해를 줍니다. 모두 대피하십시오!'
 WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY';
 
 UPDATE Language_ko_KR
