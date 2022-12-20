@@ -72,6 +72,13 @@
 			<Text>도시가 즉시 파괴됩니다. 단일 도시로 도전 시 인간 플레이어는 점령한 도시를 유지할 수 없습니다.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_POPUP_REMOVE_SPHERE_CAPTURED_CITY">
+			<Text>배치된 영향권 제거</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_REMOVE_SPHERE">
+			<Text>{1_CivName}에 배치된 영향권을 제거합니다. 도시는 도시국가로 되돌아가지만 그들은 여전히 당신에게 화를 낼 것입니다.</Text>
+		</Row>
+
 		<!-- Tourism Bonus Turns for Tooltip -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
 			<Text>콘서트 투어에서 +100% 보너스 ({1_NumTurns} 턴)[NEWLINE]</Text>
@@ -8063,18 +8070,32 @@
 			<Text>핵 공격!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NUKE_INTERCEPTED">
-			<Text>{1_CIV}의 핵무기가 {2_City}에서 차단되었습니다.</Text>
+		<Row Tag="TXT_KEY_ATOMIC_BOMB_INTERCEPTED">
+			<Text>{1_CIV}의 원자폭탄이 {2_City}에서 차단되었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_S">
-			<Text>핵 차단!</Text>
+		<Row Tag="TXT_KEY_ATOMIC_BOMB_INTERCEPTED_S">
+			<Text>원자폭탄 차단!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_US">
-			<Text>{2_City}의 방비가 우리의 핵무기를 막아 파괴되었습니다.</Text>
+		<Row Tag="TXT_KEY_ATOMIC_BOMB_INTERCEPTED_US">
+			<Text>{2_City}의 방비가 우리의 원자폭탄을 막아 파괴되었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_US_S">
-			<Text>핵 공격 요격!</Text>
+		<Row Tag="TXT_KEY_ATOMIC_BOMB_INTERCEPTED_US_S">
+			<Text>원자폭탄 요격!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NUCLEAR_MISSILE_INTERCEPTED">
+			<Text>{1_CIV}의 핵미사일이 {2_City}에서 차단되어 피해가 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUCLEAR_MISSILE_INTERCEPTED_S">
+			<Text>핵미사일 차단!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NUCLEAR_MISSILE_INTERCEPTED_US">
+			<Text>{2_City}의 방비가 우리의 핵미사일을 막아 피해가 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUCLEAR_MISSILE_INTERCEPTED_US_S">
+			<Text>핵미사일 요격!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE">
