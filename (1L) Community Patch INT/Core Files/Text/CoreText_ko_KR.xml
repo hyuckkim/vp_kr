@@ -7985,10 +7985,10 @@
 		</Row>
 		<!-- Hopefully removed if option is not needed or better solution in place -->
 		<Row Tag="TXT_KEY_FORCE_MP_SAVE">
-			<Text>Force Mid-Turn New Save (Not recommended - may corrupt save game!)</Text>
+			<Text>턴 중간 강제 저장 (권장하지 않음 - 저장 게임을 손상시킬 수 있습니다!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FORCE_MP_SAVE_TOOLTIP">
-			<Text>DANGER! Emulate vanilla where a save of the current turn state could be made mid-turn by exploiting a bug in the overwrite file check. Normally a save is/was just a renamed copy of the most recent autosave. With this option enabled mid-turn state can be saved BUT Firaxis explicitly tried to prevent this, presumably because it can cause issues. This option is in NO WAY recommended and to use at own risk.</Text>
+			<Text>위험! 파일 덮어쓰기 검사의 버그를 악용하여 턴 중간에 현재 턴 상태를 저장할 수 있는 바닐라를 에뮬레이트합니다. 일반적으로 저장은 가장 최근 자동 저장의 이름이 변경된 복사본입니다. 이 옵션을 활성화하면 턴 중간 상태를 저장할 수 있지만 Firaxis는 명시적으로 이를 방지하려고 시도했습니다. 아마도 문제를 일으킬 수 있기 때문일 것입니다. 이 옵션은 절대 권장되지 않으며 사용에 따른 위험은 스스로 감수해야 합니다.</Text>
 		</Row>
 		<!-- Splash Damage popup texts -->
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_ON_MOVE">
