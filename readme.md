@@ -31,11 +31,14 @@ Inno Setup Script로 빌드된 인스톨러 프로그램으로 자동으로 설�
 
 **code - download zip**을 누르면 다운로드 받을 수 있습니다.
 
-파일은 두 종류로 이루어져 있습니다 : 
+파일들은 다음과 같습니다 : 
  - Assets  
 문명 5 게임 위치의 Assets에 겹치면 됩니다.  
 스팀 창에서 '로컬 파일 보기'로 게임 위치를 열 수 있습니다.  
 기본 경로는 `C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V`입니다.
+ - Assets_votes  
+ 투표시 텍스트 잘림을 해결하기 위해 문명 이름의 색을 비활성화 시키는 옵션입니다.  
+ 활성화하려면 폴더 이름을 Assets로 바꾸고 Assets와 같이 겹치면 됩니다.  
  - 모드 폴더들  
 내 문서의 문명 5 모드 폴더에 넣으면 됩니다.  
 기본 경로는 `C:\Users\<유저 이름>\Documents\My Games\Sid Meier's Civilization 5\MODS`입니다.
