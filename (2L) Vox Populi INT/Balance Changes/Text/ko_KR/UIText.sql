@@ -135,8 +135,12 @@ UPDATE Language_ko_KR
 SET Text = '각 도시는 한 턴당 한 번씩  [COLOR_YELLOW]1칸까지 원거리 공격을 가할 수 있습니다. 범위는 기술 연구에 따른 게임 진행 단계마다 증가합니다(연구 트리의 도시 공격 범위 아이콘 참조).[ENDCOLOR] 이 때 도시의 공격력은 도시의 체력에 관계없이 항상 100% 라는 것을 항상 염두에 두어야 합니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_CITYFIRINGATTACKERS_HEADING3_BODY';
 
+UPDATE Language_en_US
+SET Text = '[COLOR_YELLOW]전투를 통하여 경험치 얻기[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_TITLE';
+
 UPDATE Language_ko_KR
-SET Text = '각 유닛은 전투에서 살아남으면(혹은, 정찰병의 경우 정찰하면) 경험치를 얻게 됩니다. 이 때 전투에서 이기건 지건, 상대 유닛을 파괴하느냐의 여부와는 관계 없이 전투를 해서 살아남기만 하면 경험치를 얻게 됩니다.[NEWLINE][NEWLINE]각 유닛이 얻는 경험치의 양은 전투의 양상에 따라 달라지게 됩니다. 일반적으로 유닛은 공방에 의해 경험치를 얻게 되나, 근접 전투 유닛이 얻는 경험치가 다른 유닛들이 얻는 경험치에 비해 많은 편입니다. 이하의 목록을 참고하십시오.[NEWLINE]근접 전투 유닛을 공격함: 5[NEWLINE]근접 전투 유닛에게 공격당함: 4[NEWLINE]원거리 공격 유닛을 공격함: 2[NEWLINE]원거리 공격 유닛에게 공격당함: 2[NEWLINE]야만인 제한: 각 유닛의 획득경험치가 45 이상인 경우에는 야만인을 공격해서 경험치를 얻을 수 없습니다.'
+SET Text = '각 유닛은 전투에서 살아남으면(혹은, 정찰병의 경우 정찰하면) 경험치를 얻게 됩니다. 이 때 전투에서 이기건 지건, 상대 유닛을 파괴하느냐의 여부와는 관계 없이 전투를 해서 살아남기만 하면 경험치를 얻게 됩니다.[NEWLINE][NEWLINE]각 유닛이 얻는 경험치의 양은 전투의 양상에 따라 달라지게 됩니다. 일반적으로 유닛은 공방에 의해 경험치를 얻게 되나, 근접 전투 유닛이 얻는 경험치가 다른 유닛들이 얻는 경험치에 비해 많은 편입니다. 이하의 목록을 참고하십시오.[NEWLINE]근접 전투 유닛을 공격함: 5[NEWLINE]근접 전투 유닛에게 공격당함: 4[NEWLINE]원거리 공격 유닛을 공격함: 2[NEWLINE]원거리 공격 유닛에게 공격당함: 2[NEWLINE]야만인 제한: 각 유닛의 획득경험치가 45 이상인 경우에는 야만인을 공격해서 경험치를 얻을 수 없습니다.[COLOR_YELLOW] 각 유닛의 획득경험치가 70 이상인 경우에는 도시국가를 공격해서 경험치를 얻을 수 없습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_BODY';
 
 UPDATE Language_ko_KR

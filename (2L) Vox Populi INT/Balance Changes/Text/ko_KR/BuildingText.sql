@@ -56,7 +56,7 @@ INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_AMPHITHEATER_HELP', '도시의 [ICON_GREAT_WRITER]위대한 작가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 작가 길드의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE][ICON_RES_DYE] 염료: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_SILK] 비단: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_LAPIS] 청금석: [ICON_CULTURE] 문화 +2[NEWLINE][ICON_RES_BRAZILWOOD] 브라질 소방목: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][NEWLINE]테마보너스:  [ICON_CULTURE]문화 +2');
 
 UPDATE Language_ko_KR
-SET Text = '원형극장을 건설하면 도시의 [ICON_CULTURE]문화가 증가합니다. 주변의 모든 [ICON_RES_DYE] 염료, [ICON_RES_SILK] 비단, [ICON_RES_LAPIS] 청금석, and [ICON_RES_BRAZILWOOD] 브라질 소방목에 보너스를 제공합니다. 도시의 위대한 작가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 문학 슬롯 2개를 제공합니다.'
+SET Text = '원형극장을 건설하면 도시의 [ICON_CULTURE]문화가 증가합니다. 주변의 모든 [ICON_RES_DYE] 염료, [ICON_RES_SILK] 비단, [ICON_RES_LAPIS] 청금석, [ICON_RES_BRAZILWOOD] 브라질 소방목에 보너스를 제공합니다. 도시의 위대한 작가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 문학 슬롯 2개를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
@@ -377,7 +377,7 @@ SET Text = '건설을 완료하면 [ICON_GOLDEN_AGE] 황금기 점수를 [COLOR_
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_HAPPINESS_1]행복도가 1 증가합니다. 도시의 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]적[ICON_SPY]스파이가 이 도시에서 사망하면 [ICON_RESEARCH]과학 및 [ICON_CULTURE]문화를 [COLOR:105:105:105:255](시대 및 살해된 스파이의 레벨에 따라 보정)[ENDCOLOR] 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD] 빈곤, [ICON_RESEARCH] 문맹, and [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '도시의 [ICON_HAPPINESS_1]행복도가 1 증가합니다. 도시의 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]적[ICON_SPY]스파이가 이 도시에서 사망하면 [ICON_RESEARCH]과학 및 [ICON_CULTURE]문화를 [COLOR:105:105:105:255](시대 및 살해된 스파이의 레벨에 따라 보정)[ENDCOLOR] 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD] 빈곤, [ICON_RESEARCH] 문맹, [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_HELP';
 
 UPDATE Language_ko_KR

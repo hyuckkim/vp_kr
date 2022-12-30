@@ -73,6 +73,17 @@
 		<Row Tag="TXT_KEY_MILITARY_SUPPLY_ADV_QUEST">
 			<Text>군사 보급이 무엇입니까?</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_CANALS_TITLE">
+			<Text>[COLOR_GREEN]운하[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CANALS_BODY">
+			<Text>해안 타일 옆에 건설된 소유한 요새 및 성채는 운하로 간주되며 군함이 지나갈 수 있습니다. 운하를 건설하여 호수(그리고 호수 옆의 도시)와 바다를 연결할 수 있습니다. 인접한 2개의 요새나 인접한 2개의 성채를 갖는 것은 불가능하지만, 하나의 요새와 하나의 성채는 서로 옆에 지을 수 있습니다. 운하로 바다와 연결된 호수 옆의 도시는 해상 유닛을 생산할 수 있으며 (해안 건물은 지을 수 없음), 운하는 소유 및 외국 화물선에 의해 사용될 수도 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CANALS_ADV_QUEST">
+			<Text>운하가 무엇입니까?</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_TITLE">
 			<Text>[COLOR_GREEN]도시의 지역 행복[ENDCOLOR]</Text>
 		</Row>
