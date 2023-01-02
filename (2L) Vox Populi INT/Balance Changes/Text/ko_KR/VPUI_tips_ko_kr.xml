@@ -2,107 +2,107 @@
 <GameData>
 	<Language_ko_KR>
 		<!-- VPUI Tip Titles -->
-		<Replace Tag="TXT_KEY_VPUI_TITLE_TIP">
+		<Row Tag="TXT_KEY_VPUI_TITLE_TIP">
 			<Text>Tip</Text>
-		</Replace>
+		</Row>
 		<!-- VPUI Tips -->
 		<!-- Make sure all numbers are filled, refer the amount of number on the ContentSwitch.lua file -->
 		<!-- Otherwise you may see something like TXT_KEY_VPUI_TIP_19 on the tip text -->
-		<Replace Tag="TXT_KEY_VPUI_TIP_1">
+		<Row Tag="TXT_KEY_VPUI_TIP_1">
 			<Text>위인의 산출량은 위인이 생성될 때 고정됩니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_2">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_2">
 			<Text>지역 불행은 도시 인구를 넘지 않습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_3">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_3">
 			<Text>대규모 군대의 유지비는 제국의 절반을 잃는 것보다 저렴합니다. AI는 당신의 군대의 규모를 정확히 알고 있으니 군대를 작게 유지하지 마십시오.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_4">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_4">
 			<Text>도로와 요새는 공격과 방어 전쟁 모두에서 큰 도움을 주지만, 그 비용은 조심해야 합니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_5">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_5">
 			<Text>스노우볼을 굴리는 문명을 상대하려면, 외교적으로 고립시키고 한 번에 한 단계씩 약화시켜야 합니다. 천리 길도 한 걸음부터라는 말을 기억하십시오.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_6">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_6">
 			<Text>공격적인 전쟁광에 맞서려면, 변방 도시들은 산출 대신 방어적 위치를 고려하십시오. 잃은 도시는 산출을 제공하지 않습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_7">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_7">
 			<Text>관광은 단순히 승리 조건이 아닙니다. 교역로를 지원하고 정복한 도시의 건물과 인구를 보존하게 합니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_8">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_8">
 			<Text>야만인이나 공격적인 이웃이 있다면 내부 교역로는 경제를 보존할 신뢰할 수 있는 방법이 될 수 있습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_9">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_9">
 			<Text>개척자나 위인의 보호를 잊지 마십시오.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_10">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_10">
 			<Text>당신의 정찰 유닛들은 해안이나 산악 타일 근처에서 가장 취약합니다. 야만인들은 종종 기습하거나 덫을 놓습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_11">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_11">
 			<Text>이웃의 성도를 차지할 수 있다면 종교 창시는 별로 중요하지 않습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_12">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_12">
 			<Text>외교 승리를 노리지 않더라도, 세계 의회를 영향력 있는 문명에 맡기지 않기 위해 위대한 외교관은 중요합니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_13">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_13">
 			<Text>공격은 최선의 방어이고, 특히 전쟁광에 대한 전투력이 급상승하는 후반에 더욱 그렇습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_14">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_14">
 			<Text>전투력은 전투를 이길 수 있게, 회복은 전쟁을 이길 수 있게 합니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_15">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_15">
 			<Text>골드가 적자이면서 전혀 없다면, 그만큼 과학이 줄어들고 일부 유닛이 해체됩니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_16">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_16">
 			<Text>다른 플레이어가 연구한 기술은 연구한 플레이어 마다 비용이 감소합니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_17">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_17">
 			<Text>'다음 턴' 버튼을 누르기 전에 항상 신앙과 골드를 확인하십시오. 무언가 구매하기 위해 남겨 놓은 것을 잊기 쉽습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_18">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_18">
 			<Text>공격 시 혹은 근거리 공격 방어 시에, 받은 피해 1당 0.3%의 전투력 패널티를 받습니다. 근거리 공격 전에 원거리 공격으로 적을 물렁하게 만드십시오.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_19">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_19">
 			<Text>도시, 요새 또는 성채를 방어하던 근거리 부대는 공격으로 적을 처치해도 이동하지 않습니다. 유닛이 너무 앞서나가는 것을 방지할 수 있습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_20">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_20">
 			<Text>요구로 인한 불행은 괴뢰 도시가 이닌 도시마다 다소 기하급수적으로 증가합니다. 상당한 잉여 행복 없이 제국을 확장하지 마십시오.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_21">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_21">
 			<Text>해안 타일의 도시, 요새, 성채는 해군 부대와 해상 무역로를 위한 운하로 간주됩니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_22">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_22">
 			<Text>다른 문명의 타일에서 턴을 마친 선교사는 힘을 잃습니다. 국경 밖에서 턴을 마치십시오.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_23">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_23">
 			<Text>위대한 작가를 쓸 때, 문화로 새로운 타일을 얻으려는 도시에서 사용하는 것이 좋습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_24">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_24">
 			<Text>SHIFT+RCLICK과 함께 이동해 경유지를 만들 수 있습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_25">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_25">
 			<Text>CTRL+RCLICK으로 '이동과 행동' 명령을 할 수 있습니다. '행동' 은 다음과 같습니다: 노동자들은 타일을 수리하거나 개발하고, 선교사들은 종교를 퍼뜨리고, 외교관은 영향력을 퍼뜨리고, 고고학자들은 발굴하고, 전투 부대는 요새화 또는 경계합니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_26">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_26">
 			<Text>세계 의회에서 투표할 때, 오른쪽 버튼으로 모든 표를, 가운데 버튼으로 10표를 던질 수 있습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_27">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_27">
 			<Text>다음 턴 버튼에 SHIFT+LCLICK으로 모든 선택과 모든 대기중인 유닛을 넘길 수 있습니다. 다음 턴을 진행하는 것을 막는 오류를 겪을 때 사용할 수 있습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_28">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_28">
 			<Text>Vox Populi에서 전문가는 도시 화면의 빈 전문가 슬롯을 클릭해 잠글 수 있습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_29">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_29">
 			<Text>농장, 재재소, 벌목장, 훈족의 에키는 인접한 같은 두 시설마다 추가 산출을 제공합니다. 생산을 최대화하기 위해 삼각형 모양으로 건설하십시오.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_30">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_30">
 			<Text>랜드마크는 어디에 짓던지 당신에게 행복을 제공합니다. 다른 문명에 랜드마크를 건설해주고 행복을 얻으며 외교 관계 보너스를 얻으십시오.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_31">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_31">
 			<Text>모든 유닛에 명령이 내려지면 W를 눌러 현재 선택된 유닛의 선택을 해제할 수 있습니다. 이렇게 하면 지도를 탐색하는 동안 실수로 이동 명령을 내리는 것을 방지할 수 있습니다.</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_VPUI_TIP_32">
+		</Row>
+		<Row Tag="TXT_KEY_VPUI_TIP_32">
 			<Text>동인도 회사를 건설하기 전에 독점 개요를 살펴보십시오. 추가 사치 자원도 새 독점을 만들어낼 수 있습니다.</Text>
-		</Replace>
+		</Row>
 	</Language_ko_KR>
 </GameData>
