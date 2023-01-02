@@ -72,6 +72,13 @@
 			<Text>도시가 즉시 파괴됩니다. 단일 도시로 도전 시 인간 플레이어는 점령한 도시를 유지할 수 없습니다.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_POPUP_REMOVE_SPHERE_CAPTURED_CITY">
+			<Text>배치된 영향권 제거</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_REMOVE_SPHERE">
+			<Text>{1_CivName}에 배치된 영향권을 제거합니다. 도시는 도시국가로 되돌아가지만 그들은 여전히 당신에게 화를 낼 것입니다.</Text>
+		</Row>
+
 		<!-- Tourism Bonus Turns for Tooltip -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
 			<Text>콘서트 투어에서 +100% 보너스 ({1_NumTurns} 턴)[NEWLINE]</Text>
@@ -3175,10 +3182,10 @@
 		</Row>
 		<!-- Concepts -->
 		<Row Tag="TXT_KEY_CONCEPT_THEMING_BONUSES">
-			<Text>테마와 테마보너스</Text>
+			<Text>[COLOR_YELLOW]테마와 테마보너스[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_THEMING_BONUSES_BODY">
-			<Text>건물의 걸작 슬롯이 2개 이상이면 걸작들의 특정 결합이 건물에 '테마' 보너스를 줄 수 있는 좋은 기회입니다. 테마보너스는 강력한 산출량 보너스를 가져다줍니다. 테마는 건물에서 특정 기준을 충족하는 서로 다른 시대, 다른 문명, 다른 유형의 걸작들을 요구합니다. 이 정보는 도시 화면에서 건물의 테마보너스를 확인할 때 나타납니다.[NEWLINE][NEWLINE]테마는 도시 화면에서 명시된 수치에 기반하여 문명에 추가적인 [ICON_TOURISM]관광과 [ICON_CULUTRE]문화를 제공합니다. 일부 건물들은 추가적인 테마보너스를 제공할 수 있으며, 이 보너스는 건물의 툴팁에서 나타납니다.</Text>
+			<Text>건물의 걸작 슬롯이 2개 이상이면 걸작들의 특정 결합이 건물에 '테마' 보너스를 줄 수 있는 좋은 기회입니다. 테마보너스는 강력한 산출량 보너스를 가져다줍니다. 테마는 건물에서 특정 기준을 충족하는 서로 다른 시대, 다른 문명, 다른 유형의 걸작들을 요구합니다. 이 정보는 도시 화면에서 건물의 테마보너스를 확인할 때 나타납니다.[NEWLINE][NEWLINE]테마는 도시 화면에서 명시된 수치에 기반하여 문명에 추가적인 [ICON_TOURISM]관광과 [ICON_CULUTRE]문화를 제공합니다. [COLOR_YELLOW]일부 건물들은 추가적인 테마보너스를 제공할 수 있으며, 이 보너스는 건물의 툴팁에서 나타납니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_THEMING_BONUSES_QUEST">
 			<Text>테마가 무엇인가요?</Text>
@@ -7978,10 +7985,10 @@
 		</Row>
 		<!-- Hopefully removed if option is not needed or better solution in place -->
 		<Row Tag="TXT_KEY_FORCE_MP_SAVE">
-			<Text>Force Mid-Turn New Save (Not recommended - may corrupt save game!)</Text>
+			<Text>턴 중간 강제 저장 (권장하지 않음 - 저장 게임을 손상시킬 수 있습니다!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FORCE_MP_SAVE_TOOLTIP">
-			<Text>DANGER! Emulate vanilla where a save of the current turn state could be made mid-turn by exploiting a bug in the overwrite file check. Normally a save is/was just a renamed copy of the most recent autosave. With this option enabled mid-turn state can be saved BUT Firaxis explicitly tried to prevent this, presumably because it can cause issues. This option is in NO WAY recommended and to use at own risk.</Text>
+			<Text>위험! 파일 덮어쓰기 검사의 버그를 악용하여 턴 중간에 현재 턴 상태를 저장할 수 있는 바닐라를 에뮬레이트합니다. 일반적으로 저장은 가장 최근 자동 저장의 이름이 변경된 복사본입니다. 이 옵션을 활성화하면 턴 중간 상태를 저장할 수 있지만 Firaxis는 명시적으로 이를 방지하려고 시도했습니다. 아마도 문제를 일으킬 수 있기 때문일 것입니다. 이 옵션은 절대 권장되지 않으며 사용에 따른 위험은 스스로 감수해야 합니다.</Text>
 		</Row>
 		<!-- Splash Damage popup texts -->
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_ON_MOVE">
@@ -8063,18 +8070,32 @@
 			<Text>핵 공격!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NUKE_INTERCEPTED">
-			<Text>{1_CIV}의 핵무기가 {2_City}에서 차단되었습니다.</Text>
+		<Row Tag="TXT_KEY_ATOMIC_BOMB_INTERCEPTED">
+			<Text>{1_CIV}의 원자폭탄이 {2_City}에서 차단되었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_S">
-			<Text>핵 차단!</Text>
+		<Row Tag="TXT_KEY_ATOMIC_BOMB_INTERCEPTED_S">
+			<Text>원자폭탄 차단!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_US">
-			<Text>{2_City}의 방비가 우리의 핵무기를 막아 파괴되었습니다.</Text>
+		<Row Tag="TXT_KEY_ATOMIC_BOMB_INTERCEPTED_US">
+			<Text>{2_City}의 방비가 우리의 원자폭탄을 막아 파괴되었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NUKE_INTERCEPTED_US_S">
-			<Text>핵 공격 요격!</Text>
+		<Row Tag="TXT_KEY_ATOMIC_BOMB_INTERCEPTED_US_S">
+			<Text>원자폭탄 요격!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NUCLEAR_MISSILE_INTERCEPTED">
+			<Text>{1_CIV}의 핵미사일이 {2_City}에서 차단되어 피해가 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUCLEAR_MISSILE_INTERCEPTED_S">
+			<Text>핵미사일 차단!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NUCLEAR_MISSILE_INTERCEPTED_US">
+			<Text>{2_City}의 방비가 우리의 핵미사일을 막아 피해가 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NUCLEAR_MISSILE_INTERCEPTED_US_S">
+			<Text>핵미사일 요격!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE">

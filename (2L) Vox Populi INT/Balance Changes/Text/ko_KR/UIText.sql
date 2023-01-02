@@ -84,6 +84,16 @@ UPDATE Language_ko_KR
 SET Text = '이념의 3 티어 정책을 둘 채택하고, 여론이 만족한 상태라면 문화 승리를 쟁취하기 위해서 아직 만나지 못한 문명은 세계 시민 의정서를 구성하고 2개 이상의 문명에 영향력 있는 문명이 되어야 합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_UNMET_TT';
 
+-- Healing
+
+UPDATE Language_ko_KR
+SET Text = '피해를 회복하려면 유닛은 1턴 동안 아무 행동도 하지 말아야 합니다. 피해 회복량은 유닛의 위치에 따라 달라집니다.[NEWLINE][NEWLINE]우호 도시에서: 턴마다 [COLOR_YELLOW]20[ENDCOLOR] 회복[NEWLINE]우호 지역에서: 턴마다 [COLOR_YELLOW]15[ENDCOLOR] 회복[NEWLINE]중립 지역에서: 턴마다 [COLOR_YELLOW]10[ENDCOLOR] 회복[NEWLINE]적 지역에서: 턴마다 [COLOR_YELLOW]5[ENDCOLOR] 회복[NEWLINE][NEWLINE][COLOR_YELLOW]저항 중인 도시 영역 내의 유닛은 턴마다 피해를 5만 회복합니다. 파괴중인 도시 영역 내의 유닛은 턴마다 피해를 20 회복합니다. (약탈)[ENDCOLOR][NEWLINE][NEWLINE]승급을 통해 유닛의 회복 속도를 높일 수도 있습니다.'
+WHERE Tag = 'TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_BODY';		
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]피해 회복하기[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_TITLE';
+		
 -- Difficulty Names
 
 UPDATE Language_ko_KR
@@ -136,7 +146,11 @@ SET Text = '각 도시는 한 턴당 한 번씩  [COLOR_YELLOW]1칸까지 원거
 WHERE Tag = 'TXT_KEY_COMBAT_CITYFIRINGATTACKERS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '각 유닛은 전투에서 살아남으면(혹은, 정찰병의 경우 정찰하면) 경험치를 얻게 됩니다. 이 때 전투에서 이기건 지건, 상대 유닛을 파괴하느냐의 여부와는 관계 없이 전투를 해서 살아남기만 하면 경험치를 얻게 됩니다.[NEWLINE][NEWLINE]각 유닛이 얻는 경험치의 양은 전투의 양상에 따라 달라지게 됩니다. 일반적으로 유닛은 공방에 의해 경험치를 얻게 되나, 근접 전투 유닛이 얻는 경험치가 다른 유닛들이 얻는 경험치에 비해 많은 편입니다. 이하의 목록을 참고하십시오.[NEWLINE]근접 전투 유닛을 공격함: 5[NEWLINE]근접 전투 유닛에게 공격당함: 4[NEWLINE]원거리 공격 유닛을 공격함: 2[NEWLINE]원거리 공격 유닛에게 공격당함: 2[NEWLINE]야만인 제한: 각 유닛의 획득경험치가 45 이상인 경우에는 야만인을 공격해서 경험치를 얻을 수 없습니다.'
+SET Text = '[COLOR_YELLOW]전투를 통하여 경험치 얻기[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '각 유닛은 전투에서 살아남으면(혹은, 정찰병의 경우 정찰하면) 경험치를 얻게 됩니다. 이 때 전투에서 이기건 지건, 상대 유닛을 파괴하느냐의 여부와는 관계 없이 전투를 해서 살아남기만 하면 경험치를 얻게 됩니다.[NEWLINE][NEWLINE]각 유닛이 얻는 경험치의 양은 전투의 양상에 따라 달라지게 됩니다. 일반적으로 유닛은 공방에 의해 경험치를 얻게 되나, 근접 전투 유닛이 얻는 경험치가 다른 유닛들이 얻는 경험치에 비해 많은 편입니다. 이하의 목록을 참고하십시오.[NEWLINE]근접 전투 유닛을 공격함: 5[NEWLINE]근접 전투 유닛에게 공격당함: 4[NEWLINE]원거리 공격 유닛을 공격함: 2[NEWLINE]원거리 공격 유닛에게 공격당함: 2[NEWLINE]야만인 제한: 각 유닛의 획득경험치가 45 이상인 경우에는 야만인을 공격해서 경험치를 얻을 수 없습니다.[COLOR_YELLOW] 각 유닛의 획득경험치가 70 이상인 경우에는 도시국가를 공격해서 경험치를 얻을 수 없습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_BODY';
 
 UPDATE Language_ko_KR

@@ -2,6 +2,18 @@
 <!-- This file contains text for NEW Promotions, Units, etc. that did not exist in BRAVE NEW WORLD -->
 <GameData>
 	<Language_ko_KR>
+		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_TOPIC">
+			<Text>[COLOR_GREEN]위대한 외교관[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_SUMMARY">
+			<Text>[COLOR_CYAN]특수 능력: 대사관 설립[ENDCOLOR][NEWLINE]당신은 위대한 외교관을 도시국가로 이동시키고 지상 타일에 대사관을 건설할 수 있습니다. 단 대사관이 설립되지 않은 도시국가에만 가능합니다. 각 대사관은 세계 의회에서 1표를 받습니다. 대사관 설립은 위대한 외교관을 소모합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 외교 임무[ENDCOLOR][NEWLINE]도시 국가에서 위대한 외교관을 사용해 외교 임무를 수행할 수 있습니다. 도시 국가에 대한 많은 영량력을 얻게 되고, 그만큼 다른 문명의 영향력이 감소합니다. 추가로, 당신은 영구적으로 종이를 1 얻게 됩니다. 이 작업은 위대한 외교관을 소모합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_GREAT_DIPLOMAT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_QUEST">
+			<Text>위대한 외교관이 무엇인가요?</Text>
+		</Row>
 <!-- Barbarian Promotions -->
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
 			<Text>습지 보행</Text>

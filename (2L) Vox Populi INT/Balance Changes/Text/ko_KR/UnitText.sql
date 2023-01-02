@@ -11,11 +11,25 @@
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MERCHANT]위대한 상인은 특별한 [COLOR_POSITIVE_TEXT]소도시[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 소도시는 많은 [ICON_GOLD]골드와 [ICON_FOOD]식량을 제공합니다. 또한 위대한 상인은 도시 국가로 이동하여 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 할 수 있습니다. 무역 임무는 대량의 [ICON_GOLD]골드를 벌어들이고 즉시 모든 도시가 국왕 경축일을 맞이하게 합니다. 무역 임무는 소유한 소도시마다 효과가 25% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.[NEWLINE][NEWLINE]소도시는 두 도시 사이를 연결하는 도로 위에 있다면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +1 제공합니다. 철도라면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +2 제공합니다. 소도시를 지나가는 교역로가 있다면 추가 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 제공합니다(도로에서 +1, 철도에서 +2).' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY';
 
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 시설: 소도시[ENDCOLOR][NEWLINE]위대한 상인을 사용하여 작업 시 [ICON_GOLD] 골드와 [COLOR_YELLOW][ICON_FOOD] 식량[ENCDOLOR]을 공급하는 소도시 시설을 만들 수 있습니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무역 임무[ENDCOLOR][NEWLINE]만약 위대한 상인이 당신이 전쟁 중이 아닌 도시 국가 영토 안에 있다면, 무역 임무를 수행하기 위해 사용할 수 있습니다.[NEWLINE][NEWLINE]당신은 많은 [ICON_GOLD] 골드를 얻고 [COLOR_YELLOW]즉시 모든 도시에서 국왕 경축일이 시작됩니다. 보유한 소도시마다 골드와 국왕 경축일의 길이가 25% 증가합니다.[ENDCOLOR] 이 능력은 유닛을 소모합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMERCHANT_HEADING3_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위대한 상인[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMERCHANT_HEADING3_TITLE';
+
 	-- Great Engineer Text
 
 	UPDATE Language_ko_KR SET Text = '이 명령을 통해 현재 도시에서 생산하고 있는 생산 활동을 가속합니다. 소유한 모든 제조소마다 가속하는 생산의 양이 25%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_HURRY_PRODUCTION_HELP';
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ENGINEER]위대한 기술자는 특별한 [COLOR_POSITIVE_TEXT]제조소[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 제조소는 대량의 [ICON_PRODUCTION]생산을 제공합니다. 또한 위대한 기술자로 도시의 유닛, 건물, 불가사의의 생산 속도를 증가시키는 [COLOR_POSITIVE_TEXT]생산 가속[ENDCOLOR]을 수행할 수 있습니다. 생산 가속은 소유한 제조소마다 효과가 25% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 기술자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY';
+
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 시설: 제조소[ENDCOLOR][NEWLINE]위대한 기술자를 사용하여 제조소를 만들 수 있습니다. 작업 중인 제조소는 많은 생산(망치)을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 생산 가속[ENDCOLOR][NEWLINE]위대한 기술자를 도시의 생산 가속을 위해 사용할 수 있습니다. [COLOR_YELLOW]가속하면 가장 생산이 높은 도시의 최근 5턴 분량의 생산을 제공합니다. 보유한 제조소마다 생산 가속의 효과가 25% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATENGINEER_HEADING3_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위대한 기술자[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATENGINEER_HEADING3_TITLE';
 
 	-- Great Scientist Text
 
@@ -23,30 +37,92 @@
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_SCIENTIST]위대한 과학자는 특별한 [COLOR_POSITIVE_TEXT]아카데미[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 아카데미는 대량의 [ICON_RESEARCH]과학을 제공합니다. 또한 위대한 과학자로 다음 기술의 발견을 돕는 [COLOR_POSITIVE_TEXT]연구 가속[ENDCOLOR]을 수행할 수 있습니다. 연구 가속은 소유한 아카데미마다 효과가 10% 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 과학자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY';
 
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 시설: 아카데미[ENDCOLOR][NEWLINE]위대한 과학자를 사용해 아카데미를 만들 수 있습니다. 작업 중인 아카데미는 도시에 많은 과학을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무료 과학[ENDCOLOR][NEWLINE]위대한 과학자를 일시불 과학을 얻기 위해 사용할 수 있습니다. [COLOR_YELLOW]보유한 아카데미마다 무료 과학의 효과가 10% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위대한 과학자[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_TITLE';
 
 	-- Changed how Musician Great Tour Works
 	UPDATE Language_ko_KR SET Text = '순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안 100% 증가하고, (소유한 걸작 음악 1개마다 1턴씩 증가) [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다. 위인은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE]해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 이 명령을 수행할 수 없습니다.' WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP';
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가는 [COLOR_POSITIVE_TEXT]걸작 음악[ENDCOLOR]([ICON_CULTURE]문화 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 음악은 빈 슬롯이 있는 적절한 건물(오페라 극장, 방송탑 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 음악가는 다른 문명으로 건너가 [COLOR_POSITIVE_TEXT]순회 공연[ENDCOLOR]을 열 수 있습니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안, 소유한 걸작 음악 1개마다 1턴씩 더 100% 증가하고 [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 음악가는 사라집니다. 해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 공연을 열 수 없습니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY';
 
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 하우스 또는 방송탑)이 있는 가장 가까운 도시에 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 10턴 동안 100% 증가시킵니다. (보유한 [ICON_GREAT_WORK] 걸작 음악마다 1턴 추가) 또한 수도에서 2 [ICON_HAPPINESS_1] 행복을 얻습니다. 대상 문명과 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위대한 음악가[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_TITLE';
+
 	-- Artist
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ARTIST]위대한 예술가는 [COLOR_POSITIVE_TEXT]걸작 예술품[ENDCOLOR]([ICON_CULTURE]문화 및 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 예술품은 빈 슬롯이 있는 적절한 건물(궁전, 박물관, 대성당 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 예술가는 대량의 황금기를 제공합니다. 이 점수는 [ICON_GOLDEN_AGE]황금기 점수 산출량, [ICON_TOURISM]관광 산출량, 테마가 맞춰진 [ICON_GREAT_WORK]걸작의 세트 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 예술가는 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY';
 	
-	UPDATE Language_ko_KR SET Text = '이 명령을 통해 [ICON_GOLDEN_AGE]황금기(추가 [ICON_PRODUCTION]생산, [ICON_GOLD]골드, [ICON_CULTURE]문화)를 촉발하는 [ICON_GOLDEN_AGE]황금기 점수를 {1_Num} 제공합니다. 해당 점수는 지난 15턴 동안의 황금기 점수 산출량 및 관광에 따라 달라집니다. 또한 테마가 맞춰진 걸작의 세트 수마다 20%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_START_GOLDENAGE_HELP';
+	UPDATE Language_ko_KR SET Text = '이 명령을 통해 [ICON_GOLDEN_AGE]황금기(추가 [ICON_PRODUCTION]생산, [ICON_GOLD]골드, [ICON_CULTURE]문화)를 촉발하는 [ICON_GOLDEN_AGE]황금기 점수를 {1_Num} 제공합니다. 해당 점수는 지난 15턴 동안의 황금기 점수 산출량 및 관광에 따라 달라집니다. 또한 테마가 맞춰진 걸작의 세트 수마다 20%씩 증가합니다. 위대한 예술가는 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_START_GOLDENAGE_HELP';
+
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 예술가는 걸작 예술품 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성) 을 만들 수 있고, 예술품은 빈 슬롯이 있는 적절한 건물 (궁전, 박물관, 대성당 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 예술가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 황금기 점수[ENDCOLOR][NEWLINE]
+	위대한 예술가를 소모해 [COLOR_YELLOW]황금기 점수를 얻을 수 있고, 이것은 [ICON_GOLDEN_AGE] 황금기를 시작할 수 있습니다. (추가 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화). 생성되는 황금기 점수의 양은 직전 15턴 동안의 [ICON_TOURISM] 관광과 [ICON_GOLDEN_AGE] 황금기 점수로 결정되며, 걸작 예술품마다 20%씩 증가합니다.[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위대한 예술가[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_TITLE';
 
 	-- Writer
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_WRITER]위대한 작가는 [COLOR_POSITIVE_TEXT]걸작 문학[ENDCOLOR]([ICON_CULTURE]문화 및 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 문학은 빈 슬롯이 있는 적절한 건물(원형극장, 영웅 서사시, 왕립 도서관 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 작가는 [COLOR_POSITIVE_TEXT]정치 논문[ENDCOLOR]을 집필하여 대량의 [ICON_CULTURE]문화를 획득할 수도 있습니다. 해당 문화는 소유한 [ICON_GREAT_WORK]걸작의 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 작가는 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_WRITER_STRATEGY';
 	
 	UPDATE Language_ko_KR SET Text = '이 명령을 통해 대량의 [ICON_CULTURE]문화를 제공합니다. 이는 소유한 걸작 1개마다 3%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_GIVE_POLICIES_HELP';
 
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (원형극장, 국가 서사시, 영웅 서사시, 왕립 도서관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 정치 논문[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위대한 작가[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_TITLE';
+
 	-- Admiral 
 
-	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ADMIRAL]위대한 제독은 즉시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있어 유용한 탐사선이 될 수 있습니다. 국내 영토에서 [COLOR_POSITIVE_TEXT]발견 항해[ENDCOLOR]를 수행할 수 있습니다. 이는 위인을 소모해 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다. 또한	위대한 제독은 자신과 같은 타일과 주변 타일의 모든 해상 및 승선 유닛의 피해를 즉시 회복시키는 [COLOR_POSITIVE_TEXT]함대 수리[ENDCOLOR]를 수행할 수 있습니다. 2타일 이내의 모든 아군 해상 유닛에 [ICON_STRENGTH]전투력 보너스를 15% 제공합니다. [NEWLINE][NEWLINE]함대 수리 또는 발견 항해 능력을 사용한 위대한 제독은 소모되어 사라지며 군사 유닛 보급한도를 2 증가시킵니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY';
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ADMIRAL]위대한 제독은 즉시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있어 유용한 탐사선이 될 수 있습니다. 국내 영토에서 [COLOR_POSITIVE_TEXT]발견 항해[ENDCOLOR]를 수행할 수 있습니다. 이는 위인을 소모해 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다. 또한 위대한 제독은 자신과 같은 타일과 주변 타일의 모든 해상 및 승선 유닛의 피해를 즉시 회복시키는 [COLOR_POSITIVE_TEXT]함대 수리[ENDCOLOR]를 수행할 수 있습니다. 2타일 이내의 모든 아군 해상 유닛에 [ICON_STRENGTH]전투력 보너스를 15% 제공합니다. [NEWLINE][NEWLINE]함대 수리 또는 발견 항해 능력을 사용한 위대한 제독은 소모되어 사라지며 군사 유닛 보급 한도를 1 증가시킵니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY';
 
-	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 같은 타일과 주변 타일에 있는 모든 해상 및 승선 유닛이 받은 피해를 완전히 회복하고 군사 유닛 보급 한도를 2 증가시킵니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_REPAIR_FLEET_HELP';
+	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 같은 타일과 주변 타일에 있는 모든 해상 및 승선 유닛이 받은 피해를 완전히 회복하고 군사 유닛 보급 한도를 1 증가시킵니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_REPAIR_FLEET_HELP';
 
-	-- General
-	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_GENERAL]위대한 장군은 특별한 [COLOR_POSITIVE_TEXT]성채[ENDCOLOR] 시설을 건설할 수 있습니다. 성채는 해당 타일 위에 주둔한 유닛에 큰 방어력 보너스를 제공하며 인접한 적 유닛에 피해를 주고 인접한 주변 타일을 자신의 영토로 확보할 수 있고 군사 유닛 보급 한도를 2 증가시킵니다. 또한 위대한 장군은 2타일 내의 모든 아군 지상 유닛에 [ICON_STRENGTH][COLOR_POSITIVE_TEXT]전투력 보너스[ENDCOLOR]를 15% 제공합니다.[NEWLINE][NEWLINE]성채를 건설하면 위대한 장군은 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 제독 근처 2타일의 모든 아군 해상 유닛은 15%의 전투력 보너스를 얻습니다. 이 보너스는 모든 해상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 함대 수리[ENDCOLOR][NEWLINE]위대한 제독을 사용하여 이 타일과 인접한 모든 타일의 모든 해상 유닛과 승선한 유닛을 치료할 수 있습니다.[COLOR_YELLOW]이 명령은 또한 군사 유닛 보급 한도를 1 증가시킵니다.[ENDCOLOR] 위대한 제독은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 발견 항해[ENDCOLOR][NEWLINE][COLOR_GREEN]위대한 제독을 발견 항해에 보낼 수 있습니다. 그러면 현재 지도에 없는 사치 자원을 둘 제공합니다. 또한 군사 유닛 보급 한도를 1 증가시킵니다. 위대한 제독은 이 과정에서 소모됩니다.[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위대한 제독[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_TITLE';
+
+	-- Great General
+	UPDATE Language_ko_KR
+	SET Text = '위대한 장군은 [COLOR_POSITIVE_TEXT]성채[ENDCOLOR]라는 특수 시설을 건설할 수 있는데, 성채와 같은 타일에 있는 유닛은 큰 방어 보너스를 받습니다. 성채를 건설하면 주변 타일이 플레이어의 영토가 되며 성채 옆에서 턴을 마치는 적 유닛에게 피해를 주고, 군사 유닛 보급 한도를 1 증가시킵니다. 성채를 건설하면 위대한 장군이 사라집니다. 위대한 장군은 2타일 내의 모든 플레이어 소유 유닛에 [ICON_STRENGY] 15%의 전투력 보너스를 제공합니다. 보너스 제공 때문에 장군이 사라지지는 않습니다.'
+	WHERE Tag = 'TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY';
+
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 장군 근처 2타일의 모든 지상 유닛은 15%의 전투력 보너스를 얻습니다. 이 보너스는 모든 지상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 시설: 성채[ENDCOLOR][NEWLINE]성채를 건설하면 당신의 문화 경계가 성채에 맞춰 확장되어 주변 타일의 소유권을 얻습니다. 추가로, 성채는 차지한 유닛에게 큰 방어 보너스를 제공합니다. 또한, 성채 근처에서 턴을 마치는 유닛은 피해를 입습니다. (성채 피해가 중복되지는 않습니다) 성채는 자신의 영역에서만 효과적이라는 점을 명심하십시오. 인근 도시가 정복되었을 때 성채의 소유권이 바뀐다면 새로운 주인에게만 효과가 있을 것입니다. 만약 성채로 인해 확장되는 문화 경계가 다른 문명의 타일을 침범한다면, 당신은 그 결과로 외교적 처벌을 받게 됩니다. 성채를 건설하면 위대한 장군이 소모되고 [COLOR_YELLOW]군사 유닛 보급 한도가 1 증가합니다[ENDCOLOR].'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATGENERAL_HEADING3_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위대한 장군[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATGENERAL_HEADING3_TITLE';
+	
+	-- Great Prophet
+
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]특수 능력: 종교 창시[ENDCOLOR][NEWLINE]만약 당신이 아직 종교를 창시하지 않았고 아직도 설립될 종교가 남아 있다면, 위대한 선지자를 소모해 종교를 창시하고 교리를 선택할 수 있습니다. 종교를 창시한 도시의 종교는 새로 창시한 종교로 바뀝니다. 위대한 선지자는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 종교 강화	[ENDCOLOR][NEWLINE]당신은 위대한 선지자로 두 추가 교리를 얻어 당신의 종교를 향상시킬 수 있습니다. 위대한 선지자는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 시설: 성지[ENDCOLOR][NEWLINE]위대한 선지자를 사용해 성지를 건설해 작업시 추가 [ICON_PEACE] 신앙을 얻을 수 있습니다. 위대한 선지자는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 종교 전파[ENDCOLOR][NEWLINE]위대한 선지자는 종교를 4회 전파할 수 있고, 전도된 도시에서 이전 종교는 사라집니다. 위대한 선지자는 이 과정에서 소모됩니다'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '위대한 선지자'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_TITLE';
+
+	-- Great People Generation
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_CYAN]위대한 작가, 예술가, 음악가, 기술자, 과학자, 상인[ENDCOLOR]은 전문가와 불가사의가 생산한 위인 점수에 의해 생성됩니다. 각 도시의 위인 점수는 별도로 계산되며, 각 위인 점수는 합쳐지지 않습니다.[NEWLINE][NEWLINE]도시가 특정 위인의 위인 점수를 충분히 보유하면, 해당 유형의 위인을 생성하기 위해 점수가 소모됩니다. 다른 도시의 위인 점수는 사용되지 않습니다. 위인이 생성되면 모든 도시에서 해당 유형의 다음 위인을 생성하기 위한 요구 위인 점수가 증가합니다. 일부 건물 및 정책은 위인을 생성하는 속도를 증가시킵니다.[NEWLINE][NEWLINE][COLOR_CYAN]위대한 장군과 제독[ENDCOLOR]은 다른 위인과 조금 다르게 생성됩니다. 도시의 전문가 대신, 위대한 장군과 제독은 전투를 통해 생성됩니다. 지상 유닛이 경험치를 얻으면, 당신 문명의 위대한 장군 점수가 증가합니다. (야만인과의 전투를 제외하고) 해상 유닛이 경험치를 얻으면, 당신 문명의 위대한 제독 점수가 증가합니다. 충분한 점수를 얻으면, 위인을 얻고 다음 위인을 생성하기 위한 요구 위인 점수가 증가합니다.[NEWLINE][NEWLINE][COLOR_CYAN]위대한 선지자[ENDCOLOR]는 [ICON_PEACE] 신앙을 모은 결과로 등장하며, 종교를 창시하거나 강화할 수 있는 유일한 유닛입니다. 충분한 신앙 (표준 속도에서 [COLOR_YELLOW]800[ENDCOLOR])을 얻으면, 위대한 선지자가 생성됩니다. 다음 선지자에 필요한 신앙이 증가합니다. [COLOR_YELLOW]첫 선지자는 항상 수도에 등장하며, 이후 선지자는 가장 신앙 생산이 높은 도시에서 생성됩니다.[ENDCOLOR] 산업 시대에 진입하면, 위대한 선지자는 자동으로 생성되지 않으며, 도시에서 신앙으로 즉시 구매할 수 있습니다.[NEWLINE][NEWLINE]또한, 산업 시대에 진입하면, 선택한 사회 정책에 따라 남는 신앙을 사용해 위인을 즉시 구매할 수 있습니다.'
+	WHERE Tag="TXT_KEY_SPECIALISTSANDGP_GENERATING_HEADING3_BODY";
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위인 탄생[ENDCOLOR]'
+	WHERE Tag="TXT_KEY_SPECIALISTSANDGP_GENERATING_HEADING3_TITLE";
+
 
 	-- Inquisitor
 	UPDATE Language_ko_KR SET Text = '[ICON_PEACE]신앙을 사용해서 대중 종교가 강화된 도시 어디에서나 구매할 수 있습니다. 플레이어 도시에서 다른 종교를 제거할 수 있으며(이단심문관 사용) 이단 심문관을 도시에 배치하면 다른 종교의 전파 속도를 50% 감소시킬 수 있습니다. 이단 제거는 도시를 한 턴 동안 [ICON_RESISTANCE] 저항 상태로 만듭니다.' WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
@@ -83,24 +159,31 @@
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_CUSTOMSHOUSE_HEADING4_TITLE';
 
 	UPDATE Language_ko_KR
-	SET Text = '[COLOR_GREEN]전문가 산출량[ENDCOLOR]'
-	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_HEADING1_TITLE';
-
-	UPDATE Language_ko_KR
-	SET Text = '[COLOR_GREEN]위인 시설 산출량'
+	SET Text = '[COLOR_GREEN]전문가와 도시 성장[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_TITLE[ENDCOLOR]';
 
 	UPDATE Language_ko_KR
-	SET Text = '[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]전문가는 현재 속한 시대에 따라 다양한 양의 식량을 소비합니다.[ENDCOLOR][NEWLINE][NEWLINE]    [COLOR_CYAN]고대-중세[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 3[NEWLINE]    [COLOR_CYAN]르네상스[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 4[NEWLINE]    [COLOR_CYAN]산업[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 5[NEWLINE]    [COLOR_CYAN]현대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 6[NEWLINE]    [COLOR_CYAN]원자력[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 7[NEWLINE]    [COLOR_CYAN]정보화[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 8[NEWLINE][NEWLINE]모든 전문가들은 기본 산출량으로 게임을 시작합니다. 해당 산출량은 게임이 진행됨에 따라 기술, 정책, 건물, 이념별로 달라집니다.'
-	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_HEADING1_BODY';
-
-	UPDATE Language_ko_KR
-	SET Text = '모든 위인 시설은 기본 산출량을 가지고 시작합니다. 이러한 산출량은 게임이 진행됨에 따라 기술, 정책, 건물 및 신앙을 기반으로 달라집니다.'
+	SET Text = '특정 건물은 "전문가"를 배치할 수 있게 합니다. 전문가는 건물의 생산량을 늘리고, 위인 점수를 증가시킵니다. [COLOR_YELLOW] 하지만 전문가는 식량을 생산할 수 없고 다른 시민들보다 더 많은 식량을 소모하므로 도시의 성장을 감소시킵니다. 전문가의 식량 소모량은 현재 시대를 기반으로 합니다.[NEWLINE][NEWLINE]    [COLOR_CYAN]고대-중세[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 3[NEWLINE]    [COLOR_CYAN]르네상스[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 4[NEWLINE]    [COLOR_CYAN]산업[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 5[NEWLINE]    [COLOR_CYAN]현대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 6[NEWLINE]    [COLOR_CYAN]원자력[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 7[NEWLINE]    [COLOR_CYAN]정보화[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 8[NEWLINE][NEWLINE]모든 전문가들은 기본 산출량으로 게임을 시작합니다. 해당 산출량은 게임이 진행됨에 따라 기술, 정책, 건물, 이념별로 달라집니다.'
 	WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_BODY';
 
 	UPDATE Language_ko_KR
 	SET Text = '시간과 역사 속에는 항상 세계에 변화를 가져오는 남성과 여성들이 있었습니다. 이들은 예술가, 과학자, 장군, 상인 등 누구보다도 뛰어난 사람으로 역사 속에 등장했습니다. 이 게임에서 이들은 "위인"으로 등장합니다.[NEWLINE][NEWLINE]게임에는 위대한 상인, 위대한 예술가, 위대한 음악가, 위대한 작가, 위대한 과학자, 위대한 기술자, 위대한 장군, 위대한 제독, 위대한 선지자 이렇게 총 9종류의 위인이 등장합니다. (CSD모드를 사용한다면 위대한 외교관이 포함됩니다.) 각각의 위인에게는 특수 능력이 있습니다.[NEWLINE][NEWLINE]당신의 문명은 특정 건물과 불가사의를 짓고 이들 건물에 "전문가"를 배치함으로써 위인들을 얻을 수 있습니다. "전문가"는 일반적인 타일이나 광산에서 일하지 않는 사람들을 뜻합니다. 전문가는 도시 주변 타일에서 일하지는 않지만, 위인들이 탄생하는 데 큰 도움을 줍니다. 도시를 운영할 때 식량 생산이나 위인 출현을 위한 전문가를 적절히 배치하는 것은 매우 중요합니다.[NEWLINE][NEWLINE]{TXT_KEY_SPECIALISTSANDGP_HEADING1_BODY}'
 	WHERE Tag = 'TXT_KEY_PEDIA_SPEC_HELP_TEXT';
+
+	UPDATE Language_ko_KR
+	SET Text = '각 위인별로 국경 안 타일에 특수 시설을 건설할 수 있습니다. 특수 시설의 효과는 위인의 종류에 따라 달라집니다. 예를 들어 위대한 기술자의 특수 건물은 생산력을 생산하고, 위대한 상인의 특수 건물은 골드를 생산합니다. [COLOR_YELLOW]이 산출량은 기술, 정책, 건물, 종교 교리에 의해 게임이 진행됨에 따라 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]특수 시설의 효과를 얻으려면 대상 타일에서 작업해야 합니다. 특수 시설 또한 다른 시설과 마찬가지로 약탈되고 수리될 수 있습니다. 특수 시설이 자원 위에 건설되면, 그 자원이 전략 자원인 경우에만 그 자원을 제공합니다.[NEWLINE][NEWLINE]특수 시설을 건설하려면 위인을 도시 밖으로, 건설할 타일로 이동시켜야 합니다.'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_SPECIALIMPROVEMENT_HEADING4_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]특수 시설[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_SPECIALIMPROVEMENT_HEADING4_TITLE';
+
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]열[ENDCOLOR] 종류의 위인이 있습니다. 위대한 예술가, 위대한 음악가, 위대한 작가, 위대한 기술자, 위대한 상인, 위대한 과학자, [COLOR_YELLOW]위대한 외교관[ENDCOLOR], 위대한 장군, 위대한 제독, 그리고 위대한 선지자입니다. 처음 일곱 종류의 위인은 아주 비슷한 기능을 가지고 있는 반면, 위대한 장군과 위대한 제독, 위대한 선지자는 다소 다릅니다. 그들은 다르게 탄생되며 게임 상에 다른 효과를 미칩니다. 위대한 장군과 위대한 제독은 전투 시 지상 및 해상 유닛에 전투력 보너스를 제공하고, 위대한 선지자는 종교를 창시할 수 있게 합니다.'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATPEOPLE_HEADING2_BODY';
+	UPDATE Language_ko_KR
+	SET Text = '[COLOR_YELLOW]위인[ENDCOLOR]'
+	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATPEOPLE_HEADING2_TITLE';
+
 
 	UPDATE Language_ko_KR
 	SET Text = '게임 중 "노동자"를 생산할 수 있습니다. 노동자는 비군사 유닛이며 당신 도시의 타일을 "개발"하고 타일의 산출량을 증가시키며 근처의 "자원"을 사용 하도록 해 줄 것입니다. 시설에는 농장, 제재소, 채석장, 광산, 마을 등을 포함합니다 전쟁 중에 적은 당신 문명의 시설을 "약탈"(파괴) 할 수 있습니다. 약탈당한 시설은 노동자가 "수리"할 때까지 사용할 수 없게 됩니다.[NEWLINE][NEWLINE]{TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_BODY}'
