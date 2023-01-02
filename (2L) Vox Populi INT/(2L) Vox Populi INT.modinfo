@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="16">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(3.1) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(3.1.1) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -39,7 +39,7 @@
     <File md5="E713AEEADD8F86A4512C7EF6F7E70FA5" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
     <File md5="E4AE4828D4F01B8137C8FF8BFC5913DE" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
     <File md5="02AFF91003046977FBAF601E17B91D79" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
-    <File md5="29BF6D7B901758521B4CAF083814D9CC" import="0">Balance Changes/Text/ko_KR/VPUI_tips_en_us.xml</File>
+    <File md5="29BF6D7B901758521B4CAF083814D9CC" import="0">Balance Changes/Text/ko_KR/VPUI_tips_ko_kr.xml</File>
     <File md5="ABB4BF947E51C4A6383E80C14AA844A0" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
     <File md5="44DC98C2FD6F4142B45F001A2464CEE8" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
     <File md5="BEFBAF37EE259806D610B0354DF5CA42" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
@@ -125,6 +125,7 @@
       <UpdateDatabase>Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</UpdateDatabase>
       <UpdateDatabase>Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</UpdateDatabase>
       <UpdateDatabase>Core Files/Core Changes/LinkUnits.sql</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/VPUI_tips_ko_kr.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
