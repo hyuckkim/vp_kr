@@ -84,6 +84,16 @@ UPDATE Language_ko_KR
 SET Text = '이념의 3 티어 정책을 둘 채택하고, 여론이 만족한 상태라면 문화 승리를 쟁취하기 위해서 아직 만나지 못한 문명은 세계 시민 의정서를 구성하고 2개 이상의 문명에 영향력 있는 문명이 되어야 합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_UNMET_TT';
 
+-- Healing
+
+UPDATE Language_ko_KR
+SET Text = '피해를 회복하려면 유닛은 1턴 동안 아무 행동도 하지 말아야 합니다. 피해 회복량은 유닛의 위치에 따라 달라집니다.[NEWLINE][NEWLINE]우호 도시에서: 턴마다 [COLOR_YELLOW]20[ENDCOLOR] 회복[NEWLINE]우호 지역에서: 턴마다 [COLOR_YELLOW]15[ENDCOLOR] 회복[NEWLINE]중립 지역에서: 턴마다 [COLOR_YELLOW]10[ENDCOLOR] 회복[NEWLINE]적 지역에서: 턴마다 [COLOR_YELLOW]5[ENDCOLOR] 회복[NEWLINE][NEWLINE][COLOR_YELLOW]저항 중인 도시 영역 내의 유닛은 턴마다 피해를 5만 회복합니다. 파괴중인 도시 영역 내의 유닛은 턴마다 피해를 20 회복합니다. (약탈)[ENDCOLOR][NEWLINE][NEWLINE]승급을 통해 유닛의 회복 속도를 높일 수도 있습니다.'
+WHERE Tag = 'TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_BODY';		
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]피해 회복하기[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_TITLE';
+		
 -- Difficulty Names
 
 UPDATE Language_ko_KR
