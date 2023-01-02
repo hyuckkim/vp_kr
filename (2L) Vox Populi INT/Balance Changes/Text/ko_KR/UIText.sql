@@ -135,7 +135,7 @@ UPDATE Language_ko_KR
 SET Text = '각 도시는 한 턴당 한 번씩  [COLOR_YELLOW]1칸까지 원거리 공격을 가할 수 있습니다. 범위는 기술 연구에 따른 게임 진행 단계마다 증가합니다(연구 트리의 도시 공격 범위 아이콘 참조).[ENDCOLOR] 이 때 도시의 공격력은 도시의 체력에 관계없이 항상 100% 라는 것을 항상 염두에 두어야 합니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_CITYFIRINGATTACKERS_HEADING3_BODY';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]전투를 통하여 경험치 얻기[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_TITLE';
 
