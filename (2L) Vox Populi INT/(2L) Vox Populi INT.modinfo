@@ -25,21 +25,21 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="7A817E7A75749828C6B73AE12EACF22F" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
-    <File md5="7C38F46C70B84DD0A302880DD850D952" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
-    <File md5="5CDFA4AE9900976938E989E2A9204DF5" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
-    <File md5="57C4F12AF342EA3D08F866A2EF6F3533" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
-    <File md5="FBA26DB1DF1BDAB7B7FFFC0D607792CB" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
+    <File md5="6E57B43C5110F8B81504E5222FFE1FF9" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
+    <File md5="E1B4E8150A617513E37488CC4A47B6DB" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
+    <File md5="EE0C8779D874F15A00485AA48AE12196" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
+    <File md5="8CC470F84498B5359465D3D4182F16FF" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
+    <File md5="B849CC88F05B2D2A941EEBC2F80EC09B" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
     <File md5="5E321C4164D08B082DB93A92FA8D22E6" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="2F326C9F649EB92597C2FE7A0DE6F0AA" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
-    <File md5="512F4E675259942D9F42851F79A2347A" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
-    <File md5="AEBB86B8FF2A2C2C6F0E65A5D9FF541F" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
+    <File md5="C14C6397205C1C092EAC45148A20B854" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
+    <File md5="466AF0744E8D81C3F3B849E9A1ECD05A" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="76500FF07BD3DC276212AF6CFC97B4F9" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
-    <File md5="72C51B03B4E94718D4DABDE7AE3BAC12" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
+    <File md5="924E21DB9B85562974F674672E4AB995" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
     <File md5="E713AEEADD8F86A4512C7EF6F7E70FA5" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
-    <File md5="E4AE4828D4F01B8137C8FF8BFC5913DE" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
+    <File md5="9EBB60368C3B0F1A52E98C35EFAA83CE" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
     <File md5="02AFF91003046977FBAF601E17B91D79" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
-    <File md5="29BF6D7B901758521B4CAF083814D9CC" import="0">Balance Changes/Text/ko_KR/VPUI_tips_ko_kr.xml</File>
+    <File md5="B81BE4F4505F7A5CD45D7D3BA8A9662D" import="0">Balance Changes/Text/ko_KR/UIShortcutsCivilopedia_ko_KR.xml</File>
     <File md5="ABB4BF947E51C4A6383E80C14AA844A0" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
     <File md5="44DC98C2FD6F4142B45F001A2464CEE8" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
     <File md5="BEFBAF37EE259806D610B0354DF5CA42" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
@@ -125,7 +125,7 @@
       <UpdateDatabase>Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.sql</UpdateDatabase>
       <UpdateDatabase>Compatibility/CSD/CompatibilityText/Compatibility_ko_KR.xml</UpdateDatabase>
       <UpdateDatabase>Core Files/Core Changes/LinkUnits.sql</UpdateDatabase>
-      <UpdateDatabase>Balance Changes/Text/ko_KR/VPUI_tips_ko_kr.xml</UpdateDatabase>
+      <UpdateDatabase>Balance Changes/Text/ko_KR/UIShortcutsCivilopedia_ko_KR.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
