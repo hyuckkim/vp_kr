@@ -160,5 +160,10 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RESET_PLOT_COST">
 			<Text>명백한 운명!</Text>
 		</Row>
+		
+		<!-- Forced City-State Annex (Rome UA) -->
+		<Row Tag="TXT_KEY_CONFIRM_BULLYANNEX">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?을; 2?를;} 강제로 합병하시겠습니까?</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>

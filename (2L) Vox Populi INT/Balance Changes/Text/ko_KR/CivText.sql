@@ -798,7 +798,7 @@ INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT_ANNEX', '도시 국가 강제 합병');
 
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES ('TXT_KEY_POP_CSTATE_BULLY_UNIT_TT_ANNEX', '당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 합병할 수 있습니다. 해당 도시 국가에 따라 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산, [ICON_PEACE]신앙, [ICON_FOOD]식량을 공물로 요구할 수 있습니다. [NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}  {1_FearLevel}{2_FactorDetails}');
+VALUES ('TXT_KEY_POP_CSTATE_BULLY_UNIT_TT_ANNEX', '당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 합병할 수 있습니다. {1_FearLevel}{2_FactorDetails}');
 
 INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BALANCE_ANNEXED_CS_SUMMARY', '{1_CS}{1: plural 1?을; 2?를;} 위협했습니다!');
