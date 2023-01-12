@@ -914,22 +914,6 @@
 			<Text>{2_Unit}{2: plural 1?이; 2?가;} {1_CityName:textkey}에서 징집됨!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_JUNGLE">
-			<Text>벌목장</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT_JUNGLE">
-			<Text>벌목장을 통해 정글 타일의 [ICON_GOLD]골드를 증가시킬 수 있습니다. 인접한 벌목장 2개마다 [ICON_GOLD]골드가 추가로 증가합니다. 가능한 경우 3개씩 묶어 건설하십시오.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_JUNGLE">
-			<Text>[LINK=IMPROVEMENT_LUMBERMILL]벌목장[\LINK] 건설</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_REC_JUNGLE">
-			<Text>현재 타일의 [ICON_PRODUCTION]생산을 증가시킵니다. 정글의 지형 특성은 유지됩니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_LUMBERMILL_JUNGLE">
-			<Text>벌목장</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_SCIENCE_FROM_RELIGION">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종교에서 획득</Text>
 		</Row>

@@ -646,7 +646,7 @@ WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_STONE_TEXT';
 
 
 UPDATE Language_ko_KR
-SET Text = '제재소를 통해 숲 타일의 [ICON_PRODUCTION]생산을 증가시킬 수 있습니다. 인접한 제재소 2개마다 [ICON_PRODUCTION]생산이 추가로 증가합니다. 가능한 경우 3개씩 묶어 건설하십시오.'
+SET Text = '제재소를 통해 숲과 정글 타일의 [ICON_PRODUCTION]생산과 [ICON_GOLD]골드를 증가시킬 수 있습니다. 인접한 제재소 2개마다 [ICON_PRODUCTION]생산이 추가로 증가합니다. 가능한 경우 3개씩 묶어 건설하십시오.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT';
 
 -- We Love the King Day
