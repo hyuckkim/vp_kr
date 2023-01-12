@@ -649,6 +649,10 @@ UPDATE Language_ko_KR
 SET Text = '제재소를 통해 숲과 정글 타일의 [ICON_PRODUCTION]생산과 [ICON_GOLD]골드를 증가시킬 수 있습니다. 인접한 제재소 2개마다 [ICON_PRODUCTION]생산이 추가로 증가합니다. 가능한 경우 3개씩 묶어 건설하십시오.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT';
 
+UPDATE Language_ko_KR
+SET Text = '숲/정글을 그대로 유지하면서 이 타일에서 제공하는 [ICON_PRODUCTION] 생산(숲) 또는 [ICON_GOLD] 골드(정글)의 양이 증가합니다. 두 개의 다른 제재소에 인접한 제재소는 +1 [ICON_PRODUCTION] 생산 및 [ICON_GOLD] 골드를 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILD_LUMBERMILL_REC';
+
 -- We Love the King Day
 
 UPDATE Language_ko_KR
