@@ -208,8 +208,12 @@
 	-- Nuclear Missile
 	
 	UPDATE Language_ko_KR
-	SET Text = '적에게 핵공격을 감행합니다. 도시에 및 폭발 범위 내 모든 유닛에 엄청난 피해를 입힙니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]맨하튼 프로젝트[ENDCOLOR]를 수행해야 생산할 수 있습니다. [ICON_RES_URANIUM]우라늄 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]가 필요합니다.'
+	SET Text = '적에게 핵공격을 감행합니다. 도시에 및 폭발 범위 내 모든 유닛에 엄청난 피해를 입힙니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]맨하튼 프로젝트[ENDCOLOR]를 수행해야 생산할 수 있습니다. [ICON_RES_URANIUM]우라늄 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]가 필요합니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_NUCLEAR_MISSILE';
+	
+	UPDATE Language_ko_KR
+	SET Text = '핵미사일은 업그레이드된 더 강력한 원자폭탄입니다. 핵 미사일은 핵 잠수함이나 미사일 순양함을 소유한 모든 도시에 배치될 수 있습니다. 기지에서 기지로 이동하거나 24타일 범위 내에서 대상을 공격할 수 있습니다. 핵 미사일이 폭발하면 도시에 피해를 입히고(아마도 파괴할 수도 있음) 폭발 반경 2타일 내에 있는 모든 유닛을 파괴합니다. 공격 시 자동으로 파괴됩니다. 자세한 내용은 핵무기에 관한 규칙을 참조하십시오.'
+	WHERE Tag = 'TXT_KEY_UNIT_NUCLEAR_MISSILE_STRATEGY';
 
 	UPDATE Language_ko_KR
 	SET Text = '폭격기'
