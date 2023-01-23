@@ -650,7 +650,7 @@
 
 
 	UPDATE Language_ko_KR 
-	SET Text = '요격에 의한 피해 -50%.'
+	SET Text = '[COLOR_POSITIVE_TEXT]공습[ENDCOLOR] 작전 중 받는 피해 -50%'
 	WHERE Tag = 'TXT_KEY_PROMOTION_EVASION_HELP';
 	
 	-- Evasion
