@@ -138,7 +138,7 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_GUNBOAT_DIPLOMACY';
 
 -- United Front
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]통일 전선[ENDCOLOR]: 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]만큼 증가합니다. 전쟁 중일 때 동맹인 [ICON_CITY_STATE]도시 국가와의 [ICON_INFLUENCE]영향력이 더이상 감소하지 않고 군사적 도시 국가의 유닛 선물 비율이 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]통일 전선[ENDCOLOR]: 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]만큼 증가합니다. 전쟁 중일 때 동맹인 [ICON_CITY_STATE]도시 국가와의 [ICON_INFLUENCE]영향력이 100까지 증가하며, 군사적 도시 국가의 유닛 선물 비율이 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_UNITED_FRONT_HELP';
 
 --------------------
