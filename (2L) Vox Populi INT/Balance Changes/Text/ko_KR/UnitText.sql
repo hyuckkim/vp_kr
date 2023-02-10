@@ -359,11 +359,11 @@
 	WHERE Tag = 'TXT_KEY_UNIT_MARINE';
 
 	UPDATE Language_ko_KR
-	SET Text = '화약 근접 유닛을 제거하고 해양을 건너 승선하거나 침입할 때 특히 유용한 정보화 시대 유닛입니다. 적진의 후방으로 공중 투하 할 수 있습니다.'
+	SET Text = '화약 유닛을 제거하고 해양을 건너 승선하거나 침입할 때 특히 유용한 정보화 시대 유닛입니다. 적진의 후방으로 공중 투하 할 수 있습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_MARINE';
 
 	UPDATE Language_ko_KR
-	SET Text = '특수 부대는 해양에 승선 시 전투력과 시야가 높아지는 승급을 보유합니다. 또한 일반적인 유닛들보다 강하고, 아군 영토의 9 타일 이내에 낙하할 수 있습니다.'
+	SET Text = '특수 부대는 해양에 승선 시 전투력과 시야가 높아지는 승급을 보유합니다. 또한 일반적인 화약 유닛들보다 강하고, 아군 영토의 9 타일 이내에 낙하할 수 있습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_MARINE_STRATEGY';
 
 	UPDATE Language_ko_KR
