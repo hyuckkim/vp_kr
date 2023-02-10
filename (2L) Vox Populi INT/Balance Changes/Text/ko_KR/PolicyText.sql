@@ -167,7 +167,7 @@ WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 -- Covert Action
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: 도시 국가의 선거 조작 및 쿠데타 성공 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가가 20개 이상이라면 10개마다 하나씩 추가로)[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: 도시 국가의 선거 조작 및 쿠데타 성공 확률이 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가가 20개 이상이라면 10개마다 하나씩 추가로)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP';
 
 -- Creative Expression
