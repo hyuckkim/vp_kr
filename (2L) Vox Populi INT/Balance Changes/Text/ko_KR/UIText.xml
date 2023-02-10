@@ -1359,6 +1359,12 @@
 		<Row Tag="TXT_KEY_POLICYSCREEN_POLICIES_NEEDED_UNTIL_IDEOLOGY">
 			<Text>이념이 활성화 될 때까지 남은 정책 수: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_CIVS_WITH_OTHER_IDEOLOGY">
+			<Text>우리의 이념을 따르지 않는 문명의 수에 영향을 받음:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_RECENTLY_ADOPTED">
+			<Text>최근에 채택/전환한 이데올로기로 인한 영향:</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_PEDIA_ERA_YIELD">
 			<Text>시대별 산출량 증가:</Text>
