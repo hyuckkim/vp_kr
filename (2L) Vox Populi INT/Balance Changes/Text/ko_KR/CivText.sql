@@ -1028,7 +1028,7 @@ SET Text = '테르시오는 르네상스 시대의 초기 화약 유닛입니다
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용도 유닛입니다. 도시를 세우는 능력이 있지만 스페인의 수도가 없는 도시에서만 가능합니다. 도시를 건설하면, 콩키스타도르로 건설한 도시는 3 시민으로 시작하며, 추가 영토를 얻습니다. 자동으로 다음 건물들이 지어집니다:[NEWLINE][NEWLINE][ICON_BULLET]자문회[NEWLINE][ICON_BULLET]약초상[NEWLINE][ICON_BULLET]시장[NEWLINE][ICON_BULLET]기념비[NEWLINE][ICON_BULLET]성소[NEWLINE][ICON_BULLET]병영[NEWLINE][ICON_BULLET]물레방앗간(가능하다면)[NEWLINE][ICON_BULLET]도서관[NEWLINE][ICON_BULLET]대장간[NEWLINE][ICON_BULLET]우물(가능하다면)[NEWLINE][ICON_BULLET]전도관[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 콩키스타도르로 건설한 건물에 적용되지 않습니다! 전도관은 콩키스타도르로 개척한 도시에서만 사용할 수 있는 특별한 종교적 방어적 건물입니다. [NEWLINE][NEWLINE]콩키스타도르는 대체하는 탐험가보다 더 강하고, 전투력이 높으며 측면 공격에 보너스를 받습니다. 훌륭한 이동력과 조합하면, 콩키스타도르는 기존 중세 군대를 증강하고나 대체할 수 있는 어마어마한 부대입니다.'
+SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용도 유닛입니다. 도시를 세우는 능력이 있지만 스페인의 수도가 없는 도시에서만 가능합니다. 도시를 건설하면, 콩키스타도르로 건설한 도시는 3 시민으로 시작하며, 추가 영토를 얻습니다. 자동으로 다음 건물들이 지어집니다:[NEWLINE][NEWLINE][ICON_BULLET] 무기고[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 전도관[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 등대[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 콩키스타도르로 건설한 건물에 적용되지 않습니다! 전도관은 콩키스타도르로 개척한 도시에서만 사용할 수 있는 특별한 종교적 방어적 건물입니다. [NEWLINE][NEWLINE]콩키스타도르는 대체하는 탐험가보다 더 강하고, 전투력이 높으며 측면 공격에 보너스를 받습니다. 훌륭한 이동력과 조합하면, 콩키스타도르는 기존 중세 군대를 증강하고나 대체할 수 있는 어마어마한 부대입니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 
 UPDATE Language_ko_KR
