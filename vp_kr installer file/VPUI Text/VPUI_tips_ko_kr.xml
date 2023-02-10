@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_ko_KR>
+		<!-- VP EUI Texts -->
+		<Replace Tag="TXT_KEY_EUI_REQUIRES_RELOAD">
+			<Text>(적용하려면 다시 시작해야 합니다!)</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_PROMOTION_FLAGS_DISPLAY">
+			<Text>승급 깃발</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_PROMOTION_FLAGS_BODY">
+			<Text>유닛 깃발 위에 승급을 표시합니다.[NEWLINE][COLOR_NEGATIVE_TEXT]{TXT_KEY_EUI_REQUIRES_RELOAD}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_SEPARATE_CITY_PRODUCTION_DISPLAY">
+			<Text>도시 생산 아이템 분리</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_SEPARATE_CITY_PRODUCTION_BODY">
+			<Text>도시에서 생산하는 아이템을 일정 기준에 따라 분리합니다. (예: 위인 유닛, 종교 유닛, 군사 유닛, 프로젝트, 국가 불가사의, 세계 불가사의)[NEWLINE][COLOR_NEGATIVE_TEXT]{TXT_KEY_EUI_REQUIRES_RELOAD}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_SEPARATE_GP_RELIGIOUS_DISPLAY">
+			<Text>위인 유닛과 종교 유닛 분리</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_SEPARATE_MILITARY_DOMAIN_DISPLAY">
+			<Text>군사 유닛을 영역별로 분리</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_SEPARATE_PROJECTS_WONDERS_DISPLAY">
+			<Text>프로젝트와 불가사의 분리</Text>
+		</Replace>
 		<!-- VPUI Tip Titles -->
 		<Replace Tag="TXT_KEY_VPUI_TITLE_TIP">
 			<Text>Tip</Text>
