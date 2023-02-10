@@ -23,7 +23,7 @@
 			<Text>국민 의료보험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
-			<Text>적 유닛을 처치하거나 타일 시설을 약탈할때 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 연회장의 [ICON_GREAT_PEOPLE]위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>적 유닛을 처치할 때 ([ICON_STRENGTH] 전투력의 200%) 타일 시설을 약탈할 때 (20, [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]) [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 연회장의 [ICON_GREAT_PEOPLE]위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
 			<Text>모리안, 투쟁의 인도자</Text>

@@ -115,7 +115,7 @@ SET Text = '수상정원은 아즈텍의 고유 건물로 우물과 물레방앗
 WHERE Tag = 'TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '적 유닛을 처치할 때 [ICON_PEACE]신앙 및 [ICON_GOLD]골드를 제공합니다. 유리한 [COLOR_POSITIVE_TEXT]평화 조약[ENDCOLOR]을 맺으면 (전쟁 점수 25+) [ICON_GOLDEN_AGE]황금기를 맞이합니다.'
+SET Text = '적 유닛을 처치할 때 [ICON_STRENGTH] 전투력의 150%만큼 [ICON_PEACE]신앙 및 [ICON_GOLD]골드를 제공합니다. 유리한 [COLOR_POSITIVE_TEXT]평화 조약[ENDCOLOR]을 맺으면 (전쟁 점수 25+) [ICON_GOLDEN_AGE]황금기를 맞이합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CULTURE_FROM_KILLS';
 
 UPDATE Language_ko_KR

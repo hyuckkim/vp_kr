@@ -30,7 +30,7 @@ SET Text = '상업의 신'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSENGER_GODS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로 1개마다 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 수도/성도의 [ICON_GREAT_PEOPLE]위대한 상인 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고, 두번째 도시를 개척하면 수도/성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로 1개마다 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 수도/성도의 [ICON_GREAT_MERCHANT]위대한 상인 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고, 두번째 도시를 개척하면 수도/성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSENGER_GODS';
 
 
@@ -182,7 +182,7 @@ SET Text = '지혜의 여신'
 WHERE Tag = 'TXT_KEY_BELIEF_FORMAL_LITURGY_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '모든 도시의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 수도/성도의 [ICON_GREAT_PEOPLE]위대한 과학자 점수가 [COLOR_POSITIVE_TEXT]2 [ENDCOLOR]증가합니다. 전문가가 있는 도시의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '모든 도시의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 수도/성도의 [ICON_GREAT_SCIENTIST]위대한 과학자 점수가 [COLOR_POSITIVE_TEXT]2 [ENDCOLOR]증가합니다. 전문가가 있는 도시의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_FORMAL_LITURGY';
 
 
@@ -252,7 +252,7 @@ SET Text = '영웅 숭배'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 정복했을 때 [ICON_GOLDEN_AGE]황금기 점수, [ICON_PEACE]신앙, [ICON_GREAT_PEOPLE]위대한 장군/제독 점수를 제공합니다. [COLOR:110:110:110:255](시대 및 시민 수에 따라 보정)[ENDCOLOR].[NEWLINE][COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙, 군사 유닛 [ICON_PRODUCTION]생산 +15%; [ICON_RELIGION]성지에서 +5 [ICON_PRODUCTION] 생산; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '도시를 정복했을 때 [ICON_GOLDEN_AGE]황금기 점수, [ICON_PEACE]신앙을 100, [ICON_GREAT_PEOPLE]위대한 장군/제독 점수를 25 제공합니다. [COLOR:110:110:110:255](시대 및 시민 수에 따라 보정)[ENDCOLOR].[NEWLINE][COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙, 군사 유닛 [ICON_PRODUCTION]생산 +15%; [ICON_RELIGION]성지에서 +5 [ICON_PRODUCTION] 생산; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE';
 
 
@@ -589,7 +589,7 @@ SET Text = '십자군 정신'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 정복했을 때 [ICON_GOLD]골드 및 [ICON_PEACE]신앙을 제공합니다. 적 영토 내 지상 유닛과 전투 시 또는 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 지상 유닛의 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 정복했을 때 [ICON_GOLD]골드 및 [ICON_PEACE]신앙을 50 제공합니다. (시대와 도시의 인구수에 따라 보정) 적 영토 내 지상 유닛과 전투 시 또는 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 지상 유닛의 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM';
 
 
