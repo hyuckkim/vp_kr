@@ -646,22 +646,22 @@
 
 		<!-- Bully Metric Values -->
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_FOOD_AMOUNT">
-			<Text>공물 [ICON_FOOD]식량 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_FOOD]식량 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_CULTURE_AMOUNT">
-			<Text>공물 [ICON_CULTURE]문화 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_CULTURE]문화 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_SCIENCE_AMOUNT">
-			<Text>공물 [ICON_RESEARCH]과학 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_RESEARCH]과학 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_PRODUCTION_AMOUNT">
-			<Text>공물 [ICON_PRODUCTION]생산 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_PRODUCTION]생산 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_FAITH_AMOUNT">
-			<Text>공물 [ICON_PEACE]신앙 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_PEACE]신앙 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_VARIABLE_CBP">
-			<Text>당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 상당한 공물을 요구할 수 있습니다. 해당 도시 국가에 따라 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산, [ICON_PEACE]신앙, [ICON_FOOD]식량을 공물로 요구할 수 있습니다.[NEWLINE][NEWLINE]공물의 양은 게임 속도 및 당신 문명 수도의 산출량에 따라 달라집니다. 지역 산출량은 수도로 전달됩니다.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
+			<Text>당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 상당한 공물을 요구할 수 있습니다. 해당 도시 국가에 따라 [ICON_GOLD]골드와 같은 양의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산, [ICON_PEACE]신앙, [ICON_FOOD]식량을 공물로 요구할 수 있습니다.[NEWLINE][NEWLINE]공물의 양은 게임 속도 및 당신 문명 수도의 산출량에 따라 달라집니다. 지역 산출량은 수도로 전달됩니다.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
 		</Row>
 		
 		<!-- City-State Diplo Popup -->
