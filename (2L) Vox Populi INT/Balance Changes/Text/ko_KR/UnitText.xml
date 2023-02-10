@@ -1118,5 +1118,15 @@
 		<Row Tag="TXT_KEY_UNITCOMBAT_MISSIONARY">
 			<Text>선교사 유닛</Text>
 		</Row>
+
+		<!-- Belief Promotion Text -->
+		   <Row Tag="TXT_KEY_PROMOTION_GOD_WAR">
+				<Text>전쟁의 신</Text>
+			</Row>
+			<Row Tag="TXT_KEY_PROMOTION_GOD_WAR_HELP">
+				<Text>적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+			</Row>
+	
+			
 	</Language_ko_KR>
 </GameData>
