@@ -154,6 +154,14 @@ SET Text = '각 유닛은 전투에서 살아남으면(혹은, 정찰병의 경�
 WHERE Tag = 'TXT_KEY_COMBAT_ACQUIRINGXP_HEADING3_BODY';
 
 UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]야만인 유닛[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_BARBARIAN_UNITS_HEADING2_TITLE';
+
+UPDATE Language_ko_KR
+SET Text = '야만인 주둔지는 게임에 나오는 대부분 종류의 유닛을 생성할 수 있습니다 - 전사와 창병에서부터 대포와 전차까지. (그들은 가장 발달한 문명이 만들 수 있는 유닛과 같은 것을 만들 수 있습니다.)[NEWLINE][NEWLINE]한번 만들어진 야만인 유닛은 주둔지 주변을 돌아다니던지 가장 가까운 문명 또는 도시 국가로 향해 말썽을 일으킵니다. 그들은 유닛을 공격하고, 시설을 파괴하고 도시를 위협합니다. COLOR_YELLOW]주둔군이 없는 도시 옆으로 이동한 야만인은 식량, 문화, 생산 또는 과학을 훔칠 수 있습니다. 또한 방어가 허술한 도시는 점령해 야만인 도시로 만들 수 있습니다.[ENDCOLOR][NEWLINE][NEWLINE]이런 위협이 일어나기 전에 주기적으로 당신 문명 주변을 정리하고, 주둔지를 파괴하는 것이 중요합니다.'
+WHERE Tag = 'TXT_KEY_BARBARIAN_UNITS_HEADING2_BODY';
+
+UPDATE Language_ko_KR
 SET Text = '문명이 특정 기술을 배우면(기술 트리 참조), 일꾼은 타일에서 숲, 정글 및 습지를 제거할 수 있습니다. 이 지형들은 일단 제거되면 영구히 사라집니다.'
 WHERE Tag = 'TXT_KEY_WORKERS_CLEARINGLAND_HEADING2_BODY';
 UPDATE Language_ko_KR
@@ -201,27 +209,27 @@ UPDATE Language_ko_KR
 SET Text = '{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName}{2: plural 1?으로; 2?로;} 승급했습니다.[NEWLINE][NEWLINE]스파이는 신병, 요원, 특수요원, 이렇게 세 가지 계급으로 나뉩니다. 계급이 높은 스파이일수록 작전을 빨리 수행하고 적 스파이를 더 잘 찾아 죽이며 도시 국가의 선거를 조작하거나 다른 문명과 동맹을 맺은 도시 국가에서 쿠데타를 일으키기도 더 쉽습니다.[NEWLINE][NEWLINE]스파이는 스파이 활동을 완료하거나 적 스파이를 처치하거나, 외교관 수다 떨기 활동 또는 음모 폭로를 할 때마다 경험치를 획득합니다.'
 WHERE Tag = 'TXT_KEY_EO_SPY_RANK_TT';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 쿠데타를 일으켜 {4_CivAdjective} 지지자들을 몰아내게 하려면 클릭하십시오.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]성공률은 {5_Num}%입니다. (역스파이가 없을 때)[ENDCOLOR] {6_SpyRank} {7_SpyName}{7: plural 1?이; 2?가;} 임무에 성공하면 {8_CityName}{8: plural 1?과; 2?와;} 동맹이 되며 {9_CivShortDesc}{9: plural 1?이; 2?가;} 당신의 현재 영향력만큼으로 감소하며 다른 모든 문명과의 영향력이 떨어집니다. {10_SpyRank} {11_SpyName}{11: plural 1?이; 2?가;} 임무에 실패하면 사망하며 {12_CityName}와의 영향력이 크게 떨어집니다.[NEWLINE][NEWLINE]성공률을 올리려면 해당 도시 국가와의 영향력을 높이거나 선거 조작을 하거나 레벨이 더 높은 스파이를 쓰거나 현재 동맹국의 영향력이 떨어지기를 기다리십시오.'
 WHERE Tag = 'TXT_KEY_EO_SPY_COUP_ENABLED_TT';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 쿠데타를 일으켜 {4_CivShotDesc} 지지자들을 몰아내게 할 수 있습니다.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]이 임무의 성공률은 {5_PERCENT}%입니다. (역스파이가 없을 때)[ENDCOLOR]임무에 성공하면 {6_CityName}의 동맹이 되며 {7_CivShortDesc}의 영향력이 떨어집니다. 실패하면 스파이는 죽고 {8_CityName}와의 영향력이 감소합니다.[NEWLINE][NEWLINE]{9_SpyRank} {10_SpyName}에게 {11_CityName}에서 쿠데타를 일으키라고 지시하시겠습니까?'
 WHERE Tag = 'TXT_KEY_EO_STAGE_COUP_QUESTION';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과를 조작해 영향력이 증가했습니다.[NEWLINE][NEWLINE]한 문명만이 선거 결과를 조작할 수 있습니다. 한 도시 국가에 스파이가 여러 명 있다면 가장 계급이 높은 스파이 중 가장 그곳에 오래 머문 스파이가 선거 결과를 조작할 확률이 가장 높습니다. 선거 조작은 또한 도시 국가의 쿠데타 성공 확률을 상승시킵니다.'
 WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '스파이는 도시 국가에서 부정선거를 조장하거나 쿠데타를 부추겨 당신의 도시 국가에 대한 영향력을 높입니다. 도시 국가에 스파이를 심으려면 먼저 스파이를 도시로 이동시키십시오. 스파이가 도시 국가에 도착하면 그들이 ‘감시망 구축’을 할 때까지 약간의 시간이 걸립니다 (‘행동’에서 확인 가능). 감시망이 구축되고 나면 첩보 작전을 수행할 수 있게 됩니다. 스파이는 매 15턴마다 부정선거를 조장할 수 있습니다. 만약 도시 국가 내에 당신의 스파이밖에 없다면 다른 문명이 해당 도시 국가에 끼치는 영향력은 감소하고, 당신이 해당 도시 국가에 끼치는 영향력은 증가합니다. 도시 국가 내에 만약 당신의 스파이보다 높은 등급의 스파이가 있다면 부정선거 조장이 실패할 수도 있습니다. 하지만 부정선거 조장에 실패하더라도 스파이가 위험해 처하는 일은 없으므로 걱정하지 않아도 됩니다. [NEWLINE][NEWLINE]쿠데타 부추김은 부정선거 조장보다 강력하지만, 더욱 위험하기도 합니다. 도시 국가에서의 성공적인 쿠데타는 해당 도시 국가와 다른 문명과의 동맹 관계를 ''빼앗을'' 수 있게 해줍니다. 다른 문명과 동맹 관계에 있는 도시 국가에 스파이를 심고, 감시망이 구축되고 나면 ''쿠데타'' 버튼을 사용할 수 있게 됩니다. 버튼을 클릭하면 성공 확률을 보여주는 새로운 알림창이 표시됩니다. 상대 문명에 대한 영향력이 높을수록 성공률도 높아지게 됩니다. 높은 레벨의 스파이 [COLOR_YELLOW]또는 도시 국가의 선거 조작 성공[ENDCOLOR]으로 쿠데타 성공 확률을 높일 수 있습니다. 주의할 점은, 만약 쿠데타가 실패하면 스파이가 처형된다는 점입니다. '
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_SUMMARY';
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]스파이와 도시 국가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC';
 
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]이 도시 국가는 강력한 문화적 영향을 받고 있는 문명과 동맹 관계이기 때문에, 선거 조작 중 스파이의 등급이 {1_SpyBonus} {1_SpyBonus: plural 1?Rank; other?Ranks;} 상승합니다. 쿠데타의 성공 확률도 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPY_BONUS_CITY_STATE';
 
