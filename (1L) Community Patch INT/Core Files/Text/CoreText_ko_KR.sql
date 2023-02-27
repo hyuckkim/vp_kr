@@ -718,6 +718,11 @@ SET Text = '다른 문명이 정복한 도시 국가를 당신이 다시 정복�
 WHERE Tag = 'TXT_KEY_CITYSTATE_LIBERATING_HEADING2_BODY';
 
 -- Miscellaneous
+
+UPDATE Language_ko_KR
+SET Text = '그들은 당신이 그들의 영토를 침범하는 야만인 부대를 물리쳐주기를 원합니다. 야만인을 처리할 때까지 그들의 영토에 들어갈 수 있습니다.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS_FORMAL';
+
 UPDATE Language_ko_KR
 SET Text = '[COLOR_PLAYER_PURPLE]{@1_PromotionName}[ENDCOLOR] 승급 부여: [NEWLINE]({@2_PromotionHelp})'
 WHERE Tag = 'TXT_KEY_FREE_PROMOTION_FROM_TECH';
