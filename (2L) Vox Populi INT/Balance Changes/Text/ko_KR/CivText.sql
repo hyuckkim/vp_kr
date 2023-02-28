@@ -79,7 +79,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_SLAYER_OF_TIAMAT';
 -- Austria
 --------------------
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITY_STATE]도시 국가 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [ICON_GOLD]골드를 지불하여 동맹인 [ICON_CITY_STATE]도시 국가와 [COLOR_POSITIVE_TEXT]정략 결혼[ENDCOLOR]을 맺을 수 있습니다. 정략 결혼 시 도시 국가와의 [ICON_INFLUENCE]영향력이 감소하지 않으며 세계 대회 추가[ICON_DIPLOMAT][COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_CITY_STATE]도시 국가 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [ICON_GOLD]골드를 지불하여 동맹인 [ICON_CITY_STATE]도시 국가와 [COLOR_POSITIVE_TEXT]정략 결혼[ENDCOLOR]을 맺을 수 있습니다. 정략 결혼 시 도시 국가와의 [ICON_INFLUENCE]영향력이 200 증가하며 세계 대회 추가[ICON_DIPLOMAT][COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE';
 
 UPDATE Language_ko_KR
@@ -960,7 +960,7 @@ WHERE Tag = 'TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP';
 -- Rome
 --------------------
 UPDATE Language_ko_KR
-SET Text = '도시를 정복할 때 해당 도시의 건물이 모두 [COLOR_POSITIVE_TEXT]보존[ENDCOLOR]되고 (다른 문명의 고유 건물 포함) 즉시 주변 [COLOR_POSITIVE_TEXT]영토[ENDCOLOR]를 추가로 획득합니다. [ICON_CAPITAL]수도에 건설된 건물을 다른 도시에 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다.'
+SET Text = '무거운 공물을 요구할 수 있을 때 도시 국가를 강제로 합병할 수 있습니다. 정복된 도시 국가는 동맹 수준의 산출을 제공합니다. [ICON_CAPITAL]수도에 건설된 건물을 다른 도시에 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER';
 
 UPDATE Language_ko_KR
