@@ -960,7 +960,7 @@ WHERE Tag = 'TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP';
 -- Rome
 --------------------
 UPDATE Language_ko_KR
-SET Text = '무거운 공물을 요구할 수 있을 때 도시 국가를 강제로 합병할 수 있습니다. 정복된 도시 국가는 동맹 수준의 산출을 제공합니다. [ICON_CAPITAL]수도에 건설된 건물을 다른 도시에 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다.'
+SET Text = '무거운 공물을 요구할 수 있을 때 도시 국가를 강제로 합병할 수 있습니다. 정복된 도시 국가는 우호적인 수준의 산출을 제공합니다. (군사 도시 국가는 동맹 수준의 유닛 또한 제공합니다) [ICON_CAPITAL]수도에 건설된 건물을 다른 도시에 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER';
 
 UPDATE Language_ko_KR
