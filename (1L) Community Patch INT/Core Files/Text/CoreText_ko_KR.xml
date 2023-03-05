@@ -6038,7 +6038,7 @@
 		</Row>
 		<!-- City Rank Increasing -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING">
-			<Text>{1_CityName}{1: plural 1?이; 2?가;} 적[ICON_SPY]스파이에게 점점 취약해지고 있습니다.[NEWLINE]이 도시의 보안 등급은 현재 [COLOR_NEGATIVE_TEXT]10단계 중 {2_Num}단계[ENDCOLOR]로, 스파이가 이 도시에서 활동하기 더 쉬워지고 있습니다.[NEWLINE]이 도시에 스파이를 배치하고 방첩 건물을 건설하고, 불행을 해결하여 도시의 등급을 높일 수 있습니다.</Text>
+			<Text>{1_CityName}{1: plural 1?이; 2?가;} 적[ICON_SPY]스파이에게 점점 취약해지고 있습니다.[NEWLINE]이 도시의 보안 등급은 현재 [COLOR_NEGATIVE_TEXT]50단계 중 {2_Num}단계[ENDCOLOR]로, 스파이가 이 도시에서 활동하기 더 쉬워지고 있습니다.[NEWLINE]이 도시에 스파이를 배치하고 방첩 건물을 건설하고, 불행을 해결하여 도시의 등급을 높일 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING_SUMMARY">
 			<Text>{1_CityName}의 보안 등급 갱신</Text>
@@ -7734,19 +7734,26 @@
 			<Text>[NEWLINE] [ICON_BULLET] 도시에 역스파이가 필요합니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_EVENT_SPY_DURATION_SCALED">
-			<Text>[NEWLINE][ICON_VIEW_CITY] 발견: [COLOR_NEGATIVE_TEXT]{2_ID}%[ENDCOLOR][NEWLINE][ICON_PIRATE] 처치(역스파이): [COLOR_NEGATIVE_TEXT]{3_Death}%[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		<Row Tag="TXT_KEY_EVENT_SPY_KILL_CHANCE">
+			<Text>[NEWLINE][ICON_VIEW_CITY] 발견: [COLOR_NEGATIVE_TEXT]{1_ID}%[ENDCOLOR][NEWLINE][ICON_PIRATE] 처치(역스파이): [COLOR_NEGATIVE_TEXT]{2_Death}%[ENDCOLOR][NEWLINE][NEWLINE]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_SHORT_TT">
+			<Text>{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} {3_CityName}에서 우리의 영향력을 늘리기 위해 선거 조작을 시도하고 있습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
 			<Text>{1_CityName}의 보안 등급은 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 입니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EO_ENEMY_CITY_POTENTIAL_SHORT_TT">
+			<Text>{1_CityName}의 보안 등급은 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 입니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT_SHORT">
-			<Text>{1_CityName}의 보안 등급은 {2_Num} 정도라고 생각됩니다. [ICON_SPY]스파이를 보내 더 자세히 알아보십시오.</Text>
+			<Text>{1_CityName}의 보안 등급은 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 정도라고 생각됩니다. [ICON_SPY]스파이를 보내 더 자세히 알아보십시오.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_CALCULATION">
-			<Text>[ICON_SPY] 보안 등급: [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR][NEWLINE][ICON_CAPITAL] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 100 (1/2 [ICON_CAPITAL])까지 [COLOR_NEGATIVE_TEXT]줄어들어[ENDCOLOR] 적 스파이가 더욱 빠르게 활동합니다. 양수라면, 천천히 1000 (5 [ICON_CAPITAL])까지 [COLOR_POSITIVE_TEXT]늘어나[ENDCOLOR] 적 스파이가 작전을 느리게 수행합니다.</Text>
+			<Text>[ICON_SPY] 보안 등급: [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR][NEWLINE][ICON_CAPITAL] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 1까지 [COLOR_NEGATIVE_TEXT]줄어들어[ENDCOLOR] 적 스파이가 더욱 빠르게 활동합니다. 양수라면, 천천히 10까지 [COLOR_POSITIVE_TEXT]늘어나[ENDCOLOR] 적 스파이가 작전을 느리게 수행합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_NEGATIVE">
@@ -7760,29 +7767,18 @@
 			<Text>[NEWLINE]  [ICON_BULLET][ICON_SPY] 스파이 작전: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 천천히 이동합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY">
-			<Text>[NEWLINE]  [ICON_BULLET]정책: 적 스파이를 포획할 확률 +{1_Num}% </Text>
+			<Text>[COLOR_POSITIVE_TEXT][NEWLINE]적 스파이를 포획할 확률이 정책에 의해 {1_Num}% 증가했습니다. [ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_AGAINST">
-			<Text>[NEWLINE]  [ICON_BULLET]정책: 당신 문명의 스파이가 잡힐 확률 +{1_Num}%</Text>
+			<Text>[COLOR_NEGATIVE_TEXT][NEWLINE]아군 스파이가 잡힐 확률이 정책에 의해 {1_Num}% 증가했습니다. [ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_POTENTIAL">
-			<Text>방어 중 가능한 결과:</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_POTENTIAL_AA">
-			<Text>스파이 활동 방어 중 가능한 결과:</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RISKS">
-			<Text>작전에서 가능한 결과:</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RISKS_AA">
-			<Text>스파이 활동에서 가능한 결과:</Text>
+			<Text>[COLOR_POSITIVE_TEXT]방어 중 가능한 결과:[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_SPY_INTRIGUE_DISCOVERED">
 			<Text>[COLOR_POSITIVE_TEXT]음모 발각:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
-
-
 
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_KILL">
 			<Text>[ICON_BULLET][ICON_SPY]스파이를 제거할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
@@ -7790,99 +7786,77 @@
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_CATCH">
 			<Text>[ICON_BULLET][ICON_SPY]스파이를 식별할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETECT">
-			<Text>[ICON_BULLET][ICON_SPY]스파이를 탐지할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_KILL">
-			<Text>[ICON_BULLET] 방첩 활동으로 살해될 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_CATCH">
-			<Text>[ICON_BULLET] 잡힐 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_DETECT">
-			<Text>[ICON_BULLET] 탐지될 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_UNDETECTED">
-			<Text>[ICON_BULLET] 탐지되지 않을 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_CITY_ESPIONAGE_RATIO">
-			<Text>현재 당신의 스파이 능력: [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR].[NEWLINE]도시 보안 임계치: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR].[NEWLINE][NEWLINE]당신의 스파이는 매 턴 [COLOR_POSITIVE_TEXT]+{2_Num}[ENDCOLOR]의 능력을 얻습니다. [NEWLINE][NEWLINE]보안 임계치를 넘기면[COLOR_POSITIVE_TEXT]스파이 이벤트[ENDCOLOR]가 발생합니다..</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_ESPIONAGE_CURRENT_MISSION">
 			<Text>[COLOR_POSITIVE_TEXT]현재 임무:[ENDCOLOR] {1_Mission}</Text>
 		</Row>
-
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_MISSION_SOON_S">
-			<Text>{1_Title} {2_Name}의 메시지를 해독했습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_MISSION_SOON">
-			<Text>{1_Title} {2_Name}{1: plural 1?이; 2?가;} 보낸 메시지에는 {3_City}에서 미션을 수항핼 준비가 완료되었다고 쓰여 있었습니다.</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_TURNS_COMPLETED">
+			<Text>({1_Turns} 완료)</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_BASE_DURATION">
+			<Text>기본 활동 시간: {1_Num}턴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_POWER">
+			<Text>[COLOR_POSITIVE_TEXT]이 도시의 총 스파이 능력:[ENDCOLOR] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SECURITY_MODIFIER">
+			<Text>[NEWLINE]  [ICON_BULLET] 도시 저항력에서: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_BASE_POWER">
 			<Text>기본 스파이 능력: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES">
-			<Text>스파이 속도 변화: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_GAMESPEED_NEGATIVE_MOD">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_STAR] 게임 속도에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_OUR_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 전역에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_UNHAPPINESS_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 도시 불행에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 스파이 레벨에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_OB">
-			<Text>[NEWLINE]  [ICON_BULLET] 국경 개방에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_INFLUENCE">
-			<Text>[NEWLINE]  [ICON_BULLET] 문화적 영향력에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_GAMESPEED_POSITIVE_MOD">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_STAR] 게임 속도에서: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_BASE_DEFENSE">
-			<Text>미션 길이 변화: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_OUR_MOD">
+			<Text>[NEWLINE]  [ICON_BULLET] 전역에서: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES">
-			<Text>미션 길이 변화: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_UNHAPPINESS_MOD">
+			<Text>[NEWLINE]  [ICON_BULLET] 도시 불행에서: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_THEIR_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 전역에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD">
+			<Text>[NEWLINE]  [ICON_BULLET] 스파이 레벨에서: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_CITY_MOD">
-			<Text>[NEWLINE]  [ICON_BULLET] 도시에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_OB">
+			<Text>[NEWLINE]  [ICON_BULLET] 국경 개방에서: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_POLICY">
-			<Text>[NEWLINE]  [ICON_BULLET] 정책에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_INFLUENCE">
+			<Text>[NEWLINE]  [ICON_BULLET] 문화적 영향력에서: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_TECH">
-			<Text>[NEWLINE]  [ICON_BULLET] 기술 차이에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_RESISTANCE_MOD_POSITIVE">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] 스파이 저항에서: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_REPEAT">
-			<Text>[NEWLINE]  [ICON_BULLET] 문명의 스파이 이벤트에서: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_RESISTANCE_MOD_NEGATIVE">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] 스파이 저항에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		
-		<!-- Spy Focus -->
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_ECONOMIC">
-			<Text>현재 집중: [COLOR_POSITIVE_TEXT]경제 및 산업[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_POLICY_POSITIVE">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_CULTURE] 우리보다 적은 정책 수에서: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_MILITARY">
-			<Text>현재 집중: [COLOR_POSITIVE_TEXT]군사 침투[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_POLICY_NEGATIVE">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_CULTURE] 우리보다 많은 정책 수에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_SCIENTIFIC">
-			<Text>현재 집중: [COLOR_POSITIVE_TEXT]연구 및 개발[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_TECH_POSITIVE">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_RESEARCH] 우리보다 낮은 기술에서: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_URBAN">
-			<Text>현재 집중: [COLOR_POSITIVE_TEXT]시민사회에 흡수[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_TECH_NEGATIVE">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_RESEARCH] 우리보다 높은 기술에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_ALL">
-			<Text>현재 집중: [COLOR_POSITIVE_TEXT]모든 기회[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_MOD_REPEAT">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] 직전 스파이 작전에서: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_FOCUS_NONE">
-			<Text>현재 집중: [COLOR_POSITIVE_TEXT]집중 없음[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_WONDERCONSTRUCT_POSITIVE">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] 불가사의 건설에서: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETAIL_SPY_WONDERCONSTRUCT_NEGATIVE">
+			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY] 불가사의 건설에서: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SECURITY">
+			<Text>[COLOR_NEGATIVE_TEXT]스파이에 대한 총 도시 저항: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RELIGOUS_PRESSURE">
@@ -7896,13 +7870,6 @@
 			<Text>[NEWLINE][ICON_BULLET]   알림: 이미 동맹입니다!</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_OFFENSIVE_RIG_CHANCE">
-			<Text>선거 조작 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_COUNTERSPY_POSSIBLY_PRESENT">
-			<Text>외국의 [ICON_SPY] 역스파이가 배치되어 있다는 소문이 있습니다 - 조심하십시오!</Text>
-		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST">
 			<Text>확인되지 않은 서신</Text>
 		</Row>
