@@ -196,7 +196,7 @@ SET Text = '보안 등급'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL';
 
 UPDATE Language_ko_KR
-SET Text = '보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 낮을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~10값,보정됨)[ENDCOLOR] 도시의 전반적인 경제적 가치에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 보안 등급이 증가합니다. 레벨이 높은 역스파이를 사용할 경우 보안 등급이 증가할 수 있습니다.[NEWLINE][NEWLINE]잠재력 순으로 도시를 정렬하려면 클릭하십시오.'
+SET Text = '보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 낮을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~50,보정됨)[ENDCOLOR] 도시의 전반적인 경제적 가치에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 보안 등급이 증가합니다. 레벨이 높은 역스파이를 사용할 경우 보안 등급이 증가할 수 있습니다.[NEWLINE][NEWLINE]잠재력 순으로 도시를 정렬하려면 클릭하십시오.'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL_SORT_TT';
 
 UPDATE Language_ko_KR
@@ -204,15 +204,15 @@ SET Text = '만약 당신 문명의 도시의 보안 등급이 낮다면 그들�
 WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 절도를 수행하고 있습니다.[NEWLINE]{3_CityName}의 현재 보안 등급은 {4_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 절도를 수행하고 있습니다.[NEWLINE]{3_CityName}의 현재 보안 등급은 {4_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]1~50[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 기술을 훔칠 수 없습니다.[NEWLINE][NEWLINE]{4_CityName}의 기본 보안 등급은 {5_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 기술을 훔칠 수 없습니다.[NEWLINE][NEWLINE]{4_CityName}의 기본 보안 등급은 {5_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]5~50[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityName}의 추정 보안 등급은 {2_Num}입니다.[NEWLINE][NEWLINE]자세한 내용을 보려면 이 도시에 [ICON_SPY]스파이를 보내십시오. [NEWLINE][NEWLINE][NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
+SET Text = '{1_CityName}의 추정 보안 등급은 {2_Num}입니다.[NEWLINE][NEWLINE]자세한 내용을 보려면 이 도시에 [ICON_SPY]스파이를 보내십시오. [NEWLINE][NEWLINE][NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]5~50[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
