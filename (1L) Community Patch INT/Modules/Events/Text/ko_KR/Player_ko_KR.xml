@@ -99,7 +99,7 @@
 			<Text>확신이 서지 않는다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_HELP">
-			<Text>{2_InstantYield}, 25% 확률로 {1_YieldCost}</Text>
+			<Text>{1_YieldCost}, 25% 확률로 {2_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL">
 			<Text>안 좋은 징조입니다. {4_Help}</Text>
