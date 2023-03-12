@@ -57,11 +57,11 @@ SET Text = '[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]
 WHERE Tag = 'TXT_KEY_BUILDING_COURT_SCRIBE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder gives a small production boost when building diplomatic units in the capital, and one [ICON_RES_PAPER] Paper resource. Build this building if you want to secure a city-state ally or two during the first few eras of the game. The additional yields from City-State Friends and Allies increases the value of early positive City-State relations.'
+SET Text = '이 국가 불가사의는 수도에서 외교 유닛을 생산할 때 약간의 생산 보너스를 제공하고 하나의 [ICON_RES_PAPER] 종이 자원을 제공합니다. 게임의 처음 몇 시대 동안 도시 국가 동맹을 한두 개 확보하고 싶다면 이 건물을 건설하십시오 우호적인 도시 국가 및 동맹국의 추가 산출로 초기의 도시 국가와의 관계의 가치를 높입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder cannot be built unless the city has a Public School. Build this national wonder to receive additional Delegates in the World Congress based on the number of Defensive Pacts and Vassals you currently have. You will also receive a large boost to the Culture and Science output of the city where it is built.'
+SET Text = '이 국가 불가사의는 도시에 공립학교가 있어야 건설할 수 있습니다. 이 국가적 불가사의를 건설하여 현재 보유한 방어 조약 및 종속국 수에 따라 세계 의회에서 추가 표를 받습니다. 또한 도시가 건설된 도시의 문화 및 과학 생산량에 큰 부스트를 받게 됩니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -69,7 +69,7 @@ SET Text = '도시의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_P
 WHERE Tag = 'TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder cannot be built unless the city has a Military Academy. Build this national wonder to receive additional Delegates in the World Congress based on the number of enemy Capitals you have conquered. You will also receive a large boost to the Tourism and Production output of the city where it is built.'
+SET Text = '이 국가 불가사의는 도시에 육군 사관학교가 있어야 건설할 수 있습니다. 이 국가적 불가사의를 건설하여 정복한 적 수도의 수에 따라 세계 의회에서 추가 표를 받습니다. 또한 도시가 건설된 도시의 관광 및 생산 산출량이 크게 증가합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_EHRENHALLE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -77,7 +77,7 @@ SET Text = '도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 
 WHERE Tag = 'TXT_KEY_BUILDING_EHRENHALLE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder cannot be built unless the city has a Stock Exchange. Build this national wonder to receive additional Delegates in the World Congress based on the number of Declaration of Friendships you currently have with other players. You will also receive a large boost to the Food and Gold output of the city where it is built.'
+SET Text = '이 국가 불가사의는 도시에 증권 거래소가 있어야 건설할 수 있습니다. 현재 다른 문명과 맺은 우호 선언 수에 따라 세계 대회에서 추가 표를 받으려면 이 국가 불가사의를 건설하십시오. 또한 건설된 도시의 식량과 금 생산이 크게 증가합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_FINANCE_CENTER_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -85,16 +85,8 @@ SET Text = '도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE
 WHERE Tag = 'TXT_KEY_BUILDING_FINANCE_CENTER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = 'This National Wonder cannot be built unless the city has a Chancery. Build it to receive a production speed increase for Diplomatic Units in the city where it is built, increased movement and influence for all your Diplomatic Units and the ability to allow your Diplomatic Units to ignore terrain penalties.'
-WHERE Tag = 'TXT_KEY_BUILDING_PRINTING_PRESS_STRATEGY';
-
-UPDATE Language_ko_KR
 SET Text = '[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]문자 해독[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]외교 청사[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_PRINTING_PRESS_HELP';
-
-UPDATE Language_ko_KR
-SET Text = 'This National Wonder cannot be built unless the city has a Wire Service. Build it to receive a production speed increase for Diplomatic Units in the city where it is built, increased movement and influence for all your Diplomatic Units and the ability to send your Diplomatic Units through rival territory without an [COLOR_POSITIVE_TEXT]Open Borders[ENDCOLOR] agreement.'
-WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_STRATEGY';
 
 UPDATE Language_ko_KR
 SET Text = '[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]면책 특권[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]통신사[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'

@@ -128,10 +128,10 @@
 		</Row>-->
 		<!--Diplo National Wonder Strategy-->
 		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_STRATEGY">
-			<Text>이 국가 불가사의는 모든 도시에 외교 청사를 건설해야 건설할 수 있습니다. 외교 유닛 생산 속도 향상, 외교 유닛의 이동력 및 영향력 증가, 지형 패널티 무시를 위해 이 건물을 건설하십시오.</Text>
+			<Text>이 국가 불가사의는 외교 청사가 건설된 도시에만 건설할 수 있습니다. 외교 유닛 생산 속도 향상, 외교 유닛의 이동력 및 영향력 증가, 지형 패널티 무시를 위해 이 건물을 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_STRATEGY">
-			<Text>이 국가 불가사의는 모든 도시에 통신사를 건설해야 건설할 수 있습니다. 외교 유닛 생산 속도 향상, 외교 유닛의 이동력 및 영향력 증가, 외교관이 [COLOR_POSITIVE_TEXT]국경 개방[ENDCOLOR] 없이 경쟁국을 통과할 수 있는 능력을 위해 이 건물을 건설하십시오.</Text>
+			<Text>이 국가 불가사의는 통신사가 건설된 도시에만 건설할 수 있습니다. 외교 유닛 생산 속도 향상, 외교 유닛의 이동력 및 영향력 증가, 외교관이 [COLOR_POSITIVE_TEXT]국경 개방[ENDCOLOR] 없이 경쟁국을 통과할 수 있는 능력을 위해 이 건물을 건설하십시오.</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY">

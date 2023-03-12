@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/23/2015 12:21:44 AM -->
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_28">
+			<Text>[COLOR_GREEN]단축키[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOPIC_SHORTCUT_INTRODUCTION">
+			<Text>단축키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_INTRODUCTION_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_INTRODUCTION}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_INTRODUCTION_BODY">
+			<Text>Vox Populi에서는 많은 작업을 간소화하기 위해 다양한 마우스 및 키보드 단축키를 사용할 수 있습니다! 기본 지도에서 유닛 제어와 관련된 단축키는 [COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_WORLD_VIEW}[ENDCOLOR]를 참조하십시오. 건물 건설 등 도시 관리와 관련된 단축키는 [COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_CITY_VIEW}[ENDCOLOR]를 참조하십시오. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOPIC_SHORTCUT_CITY_VIEW">
+			<Text>도시 단축키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_CITY_VIEW_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_CITY_VIEW}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_CITY_VIEW_BODY">
+			<Text>
+				[COLOR_POSITIVE_TEXT]생산에 제어 키 사용:[ENDCOLOR] 건물을 왼쪽 클릭하면 현재 도시 건설 대기열의 맨 아래에 배치되지만 제어 키를 사용하여 다른 작업을 수행할 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대기열 맨 위에 추가[ENDCOLOR]: [COLOR_YELLOW]CTRL+LCLICK[ENDCOLOR]으로 대기열의 맨 위에 추가합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]생산 대체[ENDCOLOR]: [COLOR_YELLOW]SHIFT+LCLICK[ENDCOLOR]으로 현재 생산 중인 항목을 대체합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]반복[ENDCOLOR]: [COLOR_YELLOW]ALT+LCLICK[ENDCOLOR]으로 항목을 반복합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대기열 아래에 모두 추가[ENDCOLOR]: [COLOR_YELLOW]SHIFT+ALT+LCLICK[ENDCOLOR]으로 가능한 모든 도시에서 대기열 맨 아래에 항목을 추가합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대기열 위에 모두 추가[ENDCOLOR]: [COLOR_YELLOW]SHIFT+CTRL+LCLICK[ENDCOLOR]으로 가능한 모든 도시에서 대기열 맨 위에 항목을 추가합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]모두 투자[ENDCOLOR]: [COLOR_YELLOW]SHIFT+LCLICK[ENDCOLOR]으로 모든 도시에서 대기열의 이 건물을 투자합니다.[NEWLINE]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOPIC_SHORTCUT_WORLD_VIEW">
+			<Text>기본 단축키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_WORLD_VIEW_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_WORLD_VIEW}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_WORLD_VIEW_BODY">
+			<Text>
+				[COLOR_POSITIVE_TEXT]특수 이동 작업:[ENDCOLOR] 재배치와 같은 대부분의 특수 이동 작업은 유닛을 선택하고 유효한 대상 타일을 [COLOR_YELLOW]마우스 오른쪽 버튼으로 클릭[ENDCOLOR]하여 실행할 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]공수 작전[ENDCOLOR]: 공수 작전이 가능한 지상 유닛을 선택한 상태에서 공수할 대상 타일을 마우스 오른쪽 버튼으로 클릭합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]거점 도시 변경[ENDCOLOR]: 교역 유닛을 선택하고 도시를 마우스 오른쪽 버튼으로 클릭하면 거점 도시를 변경할 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]제독 항구 변경[ENDCOLOR]: 도시 안의 위대한 제독을 선택하고 해안 도시를 마우스 오른쪽 버튼으로 클릭하면 항구를 변경할 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]재배치[ENDCOLOR]: 공중 유닛을 선택하고 적절한 공수 대상 타일을 마우스 오른쪽 버튼으로 클릭하여 재배치 작업을 수행합니다.[NEWLINE]
+
+				[NEWLINE][COLOR_POSITIVE_TEXT]이동 및 행동 명령:[ENDCOLOR] [COLOR_YELLOW]CTRL+RCLICK[ENDCOLOR]으로 '이동 및 행동' 명령을 내려 유닛에게 목적지 타일로 이동한 다음 행동을 수행하도록 지시합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]고고학자[ENDCOLOR]: 유적을 발굴합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]전투 유닛[ENDCOLOR]: 경계/요새화합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]외교 유닛[ENDCOLOR]: 외교 임무를 수행합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]위인[ENDCOLOR]: 타일 시설을 건설합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]이단심문관[ENDCOLOR]: 이단을 제거합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]선교사[ENDCOLOR]: 종교를 전파합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]노동자/작업선[ENDCOLOR]: 수리하거나 시설을 건설합니다.[NEWLINE]
+
+				[NEWLINE][COLOR_POSITIVE_TEXT]이동 대기열:[ENDCOLOR] [COLOR_YELLOW]SHIFT+RCLICK[ENDCOLOR]으로 경유지를 만들 수 있습니다.[NEWLINE]
+
+				[NEWLINE][COLOR_POSITIVE_TEXT]공중 유닛 그룹 행동:[ENDCOLOR]공중 유닛을 선택한 상태에서 보조 키로 동일한 공군 기지의 동일한 유형의 모든 항공기에 명령을 내릴 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대규모 전진 배치[ENDCOLOR]: [COLOR_YELLOW]SHIFT+RCLICK[ENDCOLOR]으로 공군 기지에서 더 이상 사용할 수 있는 슬롯이 없거나 모든 항공기가 재배치될 때까지 모든 항공기를 해당 공군 기지로 이동합니다. 체력이 높은 항공기가 우선 순위가 지정되며, 유닛 레벨로 구분됩니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대규모 후퇴 배치[ENDCOLOR]: [COLOR_YELLOW]ALT+RCLICK[ENDCOLOR]으로 더 이상 사용 가능한 슬롯이 없거나 모든 항공기가 재배치될 때까지 피해를 입은 모든 항공기를 대상 공군 기지로 이동합니다. 체력이 낮은 항공기가 우선입니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대규모 타격[ENDCOLOR]: [COLOR_YELLOW]SHIFT+RCLICK[ENDCOLOR]적군은 모든 항공기가 공격하거나 목표물이 죽을 때까지 목표 타일에 있는 유닛을 공습합니다. 공격 순서는 내구도가 높은 항공기에 우선순위를 두며, 유닛 레벨로 구분됩니다. 두 번 공격할 수 있는 항공기는 다음 항공기가 공격을 시작하기 전에 공격합니다. [NEWLINE]
+			</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

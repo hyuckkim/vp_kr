@@ -141,7 +141,7 @@ SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_PRO
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_SOLOMONS_MINES_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '젊음의 샘을 소유한 문명이 생산하는 모든 근접 지상 및 기마 근접 유닛에 [COLOR_PLAYER_PURPLE]영원한 젊음[ENDCOLOR] 승급을 부여합니다.'
+SET Text = '젊음의 샘을 소유한 문명이 생산하는 모든 근접, 정찰, 기마, 화약, 기갑 유닛에 [COLOR_PLAYER_PURPLE]영원한 젊음[ENDCOLOR] 승급을 부여합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_FOUNTAIN_YOUTH_HELP';
 
 UPDATE Language_ko_KR

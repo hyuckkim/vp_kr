@@ -223,6 +223,27 @@
 			<Text>총: {1_Num} [ICON_RESEARCH] 과학 (도시 국가에 대한 [ICON_INFLUENCE] 영향력 때문에)</Text>
 		</Row>
 
+		<!-- Annexed City States -->
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">
+			<Text>[ICON_BULLET]합병된 도시 국가에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_ANNEXED_MINORS">
+			<Text>[ICON_BULLET]합병된 도시 국가에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ANNEXED_MINORS">
+			<Text>합병된 도시 국가에서 {1_Num} [ICON_RESEARCH] 과학</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_FROM_ANNEXED_MINORS">
+			<Text>[ICON_BULLET]합병된 도시 국가에서 [ICON_RESEARCH] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_ANNEXED_CITY_STATE_UNIT_SPAWN">
+			<Text>합병된 도시 국가 {1_CivName:textkey}에서 새 유닛을 제공합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ANNEXED_CITY_STATE_UNIT_SPAWN">
+			<Text>{1_CivName:textkey}에서의 새 유닛!</Text>
+		</Row>
+
 		<!-- WLTKD LUA -->
 		<Row Tag="TXT_KEY_PRODUCTION_WLTKD_BUILDING">
 			<Text>[NEWLINE] [ICON_BULLET]"국왕 경축일"에서 오는 건물/정책: {1_Num}%</Text>
@@ -368,6 +389,9 @@
 		<!-- Espionage Tooltip -->
 		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_PERMA_TT">
 			<Text>그들의 현재 동맹이 아직 영향권을 가지고 있기 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 아직 쿠데타를 시도하지 않았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_NUMBER_ELECTION_RIGGINGS">
+			<Text>[COLOR_CYAN]지난 쿠데타 이후 성공한 선거 조작: {1_NumElectionsRigged}[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Feitoria Production Tooltip-->
@@ -625,22 +649,22 @@
 
 		<!-- Bully Metric Values -->
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_FOOD_AMOUNT">
-			<Text>공물 [ICON_FOOD]식량 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_FOOD]식량 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_CULTURE_AMOUNT">
-			<Text>공물 [ICON_CULTURE]문화 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_CULTURE]문화 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_SCIENCE_AMOUNT">
-			<Text>공물 [ICON_RESEARCH]과학 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_RESEARCH]과학 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_PRODUCTION_AMOUNT">
-			<Text>공물 [ICON_PRODUCTION]생산 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_PRODUCTION]생산 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_FAITH_AMOUNT">
-			<Text>공물 [ICON_PEACE]신앙 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
+			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_PEACE]신앙 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_VARIABLE_CBP">
-			<Text>당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 상당한 공물을 요구할 수 있습니다. 해당 도시 국가에 따라 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산, [ICON_PEACE]신앙, [ICON_FOOD]식량을 공물로 요구할 수 있습니다.[NEWLINE][NEWLINE]공물의 양은 게임 속도 및 당신 문명 수도의 산출량에 따라 달라집니다. 지역 산출량은 수도로 전달됩니다.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
+			<Text>당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 상당한 공물을 요구할 수 있습니다. 해당 도시 국가에 따라 [ICON_GOLD]골드와 같은 양의 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산, [ICON_PEACE]신앙, [ICON_FOOD]식량을 공물로 요구할 수 있습니다.[NEWLINE][NEWLINE]공물의 양은 게임 속도 및 당신 문명 수도의 산출량에 따라 달라집니다. 지역 산출량은 수도로 전달됩니다.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
 		</Row>
 		
 		<!-- City-State Diplo Popup -->
@@ -891,22 +915,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CONSCRIPTION_SPAWN_SUMMARY">
 			<Text>{2_Unit}{2: plural 1?이; 2?가;} {1_CityName:textkey}에서 징집됨!</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_JUNGLE">
-			<Text>벌목장</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT_JUNGLE">
-			<Text>벌목장을 통해 정글 타일의 [ICON_GOLD]골드를 증가시킬 수 있습니다. 인접한 벌목장 2개마다 [ICON_GOLD]골드가 추가로 증가합니다. 가능한 경우 3개씩 묶어 건설하십시오.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_JUNGLE">
-			<Text>[LINK=IMPROVEMENT_LUMBERMILL]벌목장[\LINK] 건설</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_REC_JUNGLE">
-			<Text>현재 타일의 [ICON_PRODUCTION]생산을 증가시킵니다. 정글의 지형 특성은 유지됩니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_LUMBERMILL_JUNGLE">
-			<Text>벌목장</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_SCIENCE_FROM_RELIGION">
@@ -1351,6 +1359,12 @@
 		<Row Tag="TXT_KEY_POLICYSCREEN_POLICIES_NEEDED_UNTIL_IDEOLOGY">
 			<Text>이념이 활성화 될 때까지 남은 정책 수: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_CIVS_WITH_OTHER_IDEOLOGY">
+			<Text>우리의 이념을 따르지 않는 문명의 수에 영향을 받음:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_RECENTLY_ADOPTED">
+			<Text>최근에 채택/전환한 이데올로기로 인한 영향:</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_PEDIA_ERA_YIELD">
 			<Text>시대별 산출량 증가:</Text>
@@ -1592,6 +1606,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REVOKED_WAR">
 			<Text>{1_MinorCivName:textkey}의 퀘스트 취소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_VASSALS">
+			<Text>종속국</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_CITYSTATES">
+			<Text>동맹 도시 국가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_MILITARY">
+			<Text>군사력</Text>
 		</Row>
 		<!-- UI - Religion Spread -->
 				<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">

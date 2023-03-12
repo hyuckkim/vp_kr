@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Vox Populi INT"
-#define MyAppVersion "3.1.1"
+#define MyAppVersion "3.2"
 #define MyAppPublisher "civilization gallery"
 #define MyAppURL "https://github.com/hyuckkim/vp_kr"
 
@@ -25,7 +25,7 @@ VersionInfoProductName={#MyAppName}
 VersionInfoProductVersion={#MyAppVersion}
 VersionInfoCopyright=2022
 OutputBaseFilename={#MyAppName} ({#MyAppVersion})
-DefaultDirName={userdocs}\My Games\Sid Meier's Civilization 5\MODS\
+DefaultDirName={userdocs}\My Games\Sid Meier's Civilization 5\
 LicenseFile=License.rtf
 InfoBeforeFile=Opener.rtf
 SetupIconFile=installer.ico
@@ -46,12 +46,13 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 FinishedLabel=Setup has finished installing [name] on your computer. To launch the mod, open Civilization V and enable all installed mods in the MODS menu, and click 'Next.' Have fun!
 
 [Files]
-Source: "..\(1L) Community Patch INT\*"; DestDir: "{app}\(1L) Community Patch INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
-Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
-Source: "..\(3aL) Vox Populi - EUI Compatibility INT\*"; DestDir: "{app}\(3aL) Vox Populi - EUI Compatibility INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
-Source: "..\(4bL) UI - Promotion Tree for VP Localized (v 1)\*"; DestDir: "{app}\(4bL) UI - Promotion Tree for VP Localized (v 1)"; Flags: ignoreversion createallsubdirs recursesubdirs;
+Source: "..\(1L) Community Patch INT\*"; DestDir: "{app}\MODS\(1L) Community Patch INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
+Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\MODS\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
+Source: "..\(3aL) Vox Populi - EUI Compatibility INT\*"; DestDir: "{app}\MODS\(3aL) Vox Populi - EUI Compatibility INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
+Source: "..\(4bL) UI - Promotion Tree for VP Localized (v 1)\*"; DestDir: "{app}\MODS\(4bL) UI - Promotion Tree for VP Localized (v 1)"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VoteColor
+Source: "VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion;
 
 [Components]
 Name: "FullColor"; Description: "Vox Populi INT"; Types: FullColor; Flags: exclusive disablenouninstallwarning  
@@ -63,6 +64,7 @@ Name: "VoteColor"; Description: "Vox Populi INT with disable civ color for votes
 
 [InstallDelete]
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\cache"
+Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\Text\VPUI_tips_ko_kr.xml"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(1L) Community Patch INT" 
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(2L) Vox Populi INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(3aL) Vox Populi - EUI Compatibility INT"

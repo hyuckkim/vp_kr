@@ -452,45 +452,6 @@ UPDATE Language_ko_KR
 SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 통해 구매할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 위대한 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 
-
--- Espionage
-
-UPDATE Language_ko_KR
-SET Text = '스파이 활동 중'
-WHERE Tag = 'TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE';
-
-UPDATE Language_ko_KR
-SET Text = '계획 중단'
-WHERE Tag = 'TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR';
-
-UPDATE Language_ko_KR
-SET Text = '보안 등급'
-WHERE Tag = 'TXT_KEY_EO_POTENTIAL';
-
-UPDATE Language_ko_KR
-SET Text = '보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 낮을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~10값,보정됨)[ENDCOLOR] 도시의 전반적인 경제적 가치에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 보안 등급이 증가합니다. 레벨이 높은 역스파이를 사용할 경우 보안 등급이 증가할 수 있습니다.[NEWLINE][NEWLINE]잠재력 순으로 도시를 정렬하려면 클릭하십시오.'
-WHERE Tag = 'TXT_KEY_EO_POTENTIAL_SORT_TT';
-
-UPDATE Language_ko_KR
-SET Text = '만약 당신 문명의 도시의 보안 등급이 낮다면 그들을 보호하는 것을 고려해야 합니다. 두 가지 방법으로 도시를 보호할 수 있습니다. 당신 문명의 스파이를 소유한 도시로 보내 대항 스파이로 활동하게 하면 적 스파이가 무언가 훔치기 전에 잡아 처치할 확률이 있습니다. 경찰대나 경찰서, 인터넷 검열 시스템을 건설해 보호할 수 있습니다.'
-WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
-
-UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 절도를 수행하고 있습니다.[NEWLINE]{3_CityName}의 현재 보안 등급은 {4_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
-WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_TT';
-
-UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 기술을 훔칠 수 없습니다.[NEWLINE][NEWLINE]{4_CityName}의 기본 보안 등급은 {5_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
-WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
-
-UPDATE Language_ko_KR
-SET Text = '{1_CityName}의 추정 보안 등급은 {2_Num}입니다.[NEWLINE][NEWLINE]자세한 내용을 보려면 이 도시에 [ICON_SPY]스파이를 보내십시오. [NEWLINE][NEWLINE][NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]1~10[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
-WHERE Tag = 'TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT';
-
-UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName} 옵션:	[NEWLINE][NEWLINE][ICON_BULLET] 도시 국가로 이동해서 [COLOR_POSITIVE_TEXT]선거 조작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]쿠데타[ENDCOLOR]를 시도	[NEWLINE][ICON_BULLET] 다른 문명의 도시로 이동해서 [COLOR_POSITIVE_TEXT]기술 훔치기[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT음모 폭로[ENDCOLOR]를 시도	[NEWLINE][ICON_BULLET] 다른 문명의 수도로 이동해서	[COLOR_POSITIVE_TEXT]기술 훔치기[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT음모 폭로[ENDCOLOR]를 시도, 또는 외교관의 형태로 [COLOR_POSITIVE_TEXT]수다 떨기[ENDCOLOR] 시도'
-WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
-
 -- Fixed diacritics for spy names.
 UPDATE Language_ko_KR
 SET Text = '안토니오'
@@ -507,8 +468,6 @@ WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_4';
 UPDATE Language_ko_KR
 SET Text = '토메'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_8';
-
--- Trade
 
 -- Trade Deals
 
@@ -641,7 +600,7 @@ SET Text = '입힌 피해가 받은 피해보다 더 큰 경우 적 유닛 후�
 WHERE Tag = 'TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '하나의 지상 유닛과 하나의 해상 유닛만이 동시에 한 도시에 주둔하는 것이 가능합니다. 만약 군사 유닛이 도시에 "주둔"하면 도시에 상당한 방어력 보너스를 추가하게 됩니다. [COLOR_YELLOW]만약 도시가 주둔군이 있는 동안 공격을 받는다면, 주둔군은 도시의 피해의 일부를 분산시킬 것이고 따라서 그 도시는 훨씬 더 많은 보호를 제공할 것입니다. 그러나 주둔군은 이런 식으로 파괴될 수 있으니 주의하십시오.[ENDCOLOR][NEWLINE][NEWLINE]추가적인 전투 유닛이 도시를 통과할 수 있지만, 거기서 턴을 끝낼 수는 없습니다. (그래서 수비대가 있는 도시에 전투 유닛을 생산하면 두 유닛 중 하나를 밖으로 옮겨야 턴이 끝납니다.)[NEWLINE][NEWLINE][COLOR_YELLOW]또한 해상 유닛은 도시에 정박한 동안 공격할 수 없다는 것을 기억하십시오.[ENDCOLOR]'
+SET Text = '하나의 지상 유닛과 하나의 해상 유닛만이 동시에 한 도시에 주둔하는 것이 가능합니다. 만약 지상 군사 유닛이 도시에 "주둔"하면 도시에 상당한 방어력 보너스를 추가하게 됩니다. [COLOR_YELLOW]만약 도시가 주둔군이 있는 동안 공격을 받는다면, 주둔군은 도시의 피해의 일부를 분산시킬 것이고 따라서 그 도시는 훨씬 더 많은 보호를 제공할 것입니다. 그러나 주둔군은 이런 식으로 파괴될 수 있으니 주의하십시오.[ENDCOLOR][NEWLINE][NEWLINE]추가적인 전투 유닛이 도시를 통과할 수 있지만, 거기서 턴을 끝낼 수는 없습니다. (그래서 수비대가 있는 도시에 전투 유닛을 생산하면 두 유닛 중 하나를 밖으로 옮겨야 턴이 끝납니다.)[NEWLINE][NEWLINE][COLOR_YELLOW]또한 해상 유닛은 도시에 정박한 동안 공격할 수 없다는 것을 기억하십시오.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -718,6 +677,11 @@ SET Text = '다른 문명이 정복한 도시 국가를 당신이 다시 정복�
 WHERE Tag = 'TXT_KEY_CITYSTATE_LIBERATING_HEADING2_BODY';
 
 -- Miscellaneous
+
+UPDATE Language_ko_KR
+SET Text = '그들은 당신이 그들의 영토를 침범하는 야만인 부대를 물리쳐주기를 원합니다. 야만인을 처리할 때까지 그들의 영토에 들어갈 수 있습니다.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS_FORMAL';
+
 UPDATE Language_ko_KR
 SET Text = '[COLOR_PLAYER_PURPLE]{@1_PromotionName}[ENDCOLOR] 승급 부여: [NEWLINE]({@2_PromotionHelp})'
 WHERE Tag = 'TXT_KEY_FREE_PROMOTION_FROM_TECH';

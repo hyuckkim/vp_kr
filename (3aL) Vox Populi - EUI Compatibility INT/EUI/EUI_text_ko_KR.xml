@@ -6,6 +6,34 @@
 		<Replace Tag="TXT_KEY_C4DF_VASSAL_OVERVIEW">
 			<Text>종속국 개요</Text>
 		</Replace>
+<!-- UI additions -->
+		<Replace Tag="TXT_KEY_POP_GREAT_PERSON_UNITS">
+			<Text>위인 유닛</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_RELIGIOUS_UNITS">
+			<Text>종교 유닛</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_LAND_UNITS">
+			<Text>지상 군사 유닛</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_SEA_UNITS">
+			<Text>해상 군사 유닛</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_AIR_UNITS">
+			<Text>공중 군사 유닛</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_MILITARY_UNITS">
+			<Text>군사 유닛</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_NATIONAL_WONDERS">
+			<Text>국가 불가사의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_WORLD_WONDERS">
+			<Text>세계 불가사의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_PROJECTS">
+			<Text>프로젝트</Text>
+		</Replace>
 		<!-- UNIT attributes -->
 		<Replace Tag="TXT_KEY_EUI_UNIT_MOVEAFTERPURCHASE">
 			<Text>구매 후 이동 가능</Text>

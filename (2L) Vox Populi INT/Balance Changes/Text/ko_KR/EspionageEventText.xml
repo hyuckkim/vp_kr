@@ -34,85 +34,89 @@
 			<Text>[ICON_TOURISM]지역 관광 방해</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_TOURISM] 관광의 50%를 수집합니다. 작전이 성공하면, 수집한 [ICON_TOURISM] 관광을 훔칩니다.</Text>
+			<Text>스파이가 작전 중 목표 도시 [ICON_TOURISM] 관광의 75%를 수집합니다. 작전이 성공하면, 수집한 [ICON_TOURISM] 관광을 훔칩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE">
 			<Text>[ICON_RESEARCH]과학 단지 침투</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_RESEARCH] 과학의 25%를 수집합니다. 작전이 성공하면, 수집한 [ICON_RESEARCH] 과학을 훔칩니다.</Text>
+			<Text>스파이가 작전 중 목표 도시 [ICON_RESEARCH] 과학의 25%를 수집합니다. 작전이 성공하면, 수집한 [ICON_RESEARCH] 과학을 훔칩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_FAITH">
 			<Text>[ICON_PEACE]종교 유물 빼내기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_FAITH_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_PEACE] 신앙의 50%를 수집합니다. 작전이 성공하면, 수집한 [ICON_PEACE] 신앙을 훔칩니다.</Text>
+			<Text>스파이가 작전 중 목표 도시 [ICON_PEACE] 신앙의 50%를 수집합니다. 작전이 성공하면, 수집한 [ICON_PEACE] 신앙을 훔칩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD">
 			<Text>[ICON_GOLD]국고 절도</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 도시: 스파이가 작전 중 도시 [ICON_GOLD] 골드의 15%를 수집합니다. 작전이 성공하면, 수집한 [ICON_GOLD] 골드를 훔칩니다.</Text>
+			<Text>스파이가 작전 중 목표 도시 [ICON_GOLD] 골드의 15%를 수집합니다. 작전이 성공하면, 수집한 [ICON_GOLD] 골드를 훔칩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
 			<Text>[ICON_CITIZEN]시골 주민 선동</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}도시의 농장, 광산, 재배지, 교역소 중 하나가 약탈됩니다. 개발된 [COLOR_POSITIVE_TEXT]전략 자원[ENDCOLOR] 타일이 약탈됩니다. {5_Turns} 동안 [ICON_FOOD]인구 성장률이 25% 감소합니다. </Text>
+			<Text>목표 도시의 농장, 광산, 재배지, 교역소 중 하나가 약탈됩니다. 개발된 [COLOR_POSITIVE_TEXT]전략 자원[ENDCOLOR] 타일이 약탈됩니다. {5_Turns} 동안 [ICON_FOOD]인구 성장률이 25% 감소합니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STOKE">
 			<Text>[ICON_HAPPINESS_3]지역 분란 조장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STOKE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 도시: 모든 불행이 34% 증가합니다.</Text>
+			<Text>목표 도시의 모든 불행이 34% 증가합니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
 			<Text>[ICON_GREAT_PEOPLE]전문가 납치</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 도시: 과학자에서 -1 [ICON_RESEARCH] 과학; 상인에서 -1 [ICON_GOLD] 골드; 기술자에서 -1 [ICON_PRODUCTION] 생산; 음악가, 예술가, 작가에서 -1 [ICON_CULTURE] 문화.[NEWLINE]당신의 이득: {7_PlayerEventEffect}</Text>
+			<Text>목표 도시의 과학자에서 -1 [ICON_RESEARCH] 과학; 상인에서 -1 [ICON_GOLD] 골드; 기술자에서 -1 [ICON_PRODUCTION] 생산; 음악가, 예술가, 작가에서 -1 [ICON_CULTURE] 문화. {7_PlayerEventEffect}.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_BENEFIT">
+			<Text>[COLOR_POSITIVE_TEXT]당신의 이득:[ENDCOLOR]</Text>
+		</Row>
+		Your Benefit:
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_MILITARY_GARRISON">
 			<Text>[ICON_STRENGTH]방어시설 파괴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_MILITARY_GARRISON_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}대상 도시는 [COLOR_NEGATIVE_TEXT]100[ENDCOLOR] 피해를 입고 주둔군은 (존재한다면) [COLOR_NEGATIVE_TEXT]25[ENDCOLOR] 피해를 입습니다. 도시는 [COLOR_NEGATIVE_TEXT] 5턴 동안 삽질 [ENDCOLOR] (회복 불가)을 합니다.</Text>
+			<Text>대상 도시는 [COLOR_NEGATIVE_TEXT]100[ENDCOLOR] 피해를 입고 주둔군은 (존재한다면) [COLOR_NEGATIVE_TEXT]25[ENDCOLOR] 피해를 입습니다. 도시는 [COLOR_NEGATIVE_TEXT] 5턴 동안 삽질 [ENDCOLOR] (회복 불가)을 합니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST">
 			<Text>[ICON_RESISTANCE]반란 획책</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}도시가 [ICON_RESISTANCE] 2턴동안 저항합니다. 반란군 유닛이 다섯 등장합니다.</Text>
+			<Text>목표 도시가 [ICON_RESISTANCE] 2턴동안 저항합니다. 반란군 유닛이 다섯 등장합니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH">
 			<Text>[ICON_RESEARCH]기술 훔치기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 플레이어: [ICON_RESEARCH]기술 하나를 훔칩니다. 목표 도시: {3_CityYield}[NEWLINE][NEWLINE]훔칠 기술이 없다면, [ICON_GOLDEN_AGE]황금기가 시작됩니다.</Text>
+			<Text>목표 플레이어: [ICON_RESEARCH]기술 하나를 훔칩니다. [NEWLINE][NEWLINE]훔칠 기술이 없다면, [ICON_GOLDEN_AGE]황금기가 시작됩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW">
 			<Text>[ICON_GREAT_WORK]걸작 복사</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 도시: [ICON_GREAT_WORK]걸작을 하나 복사합니다. 목표 도시: {3_CityYield}[NEWLINE][NEWLINE]훔칠 수 있는 완성된 걸작이 없다면, [ICON_GOLDEN_AGE] 황금기가 시작됩니다.</Text>
+			<Text>목표 도시의 [ICON_GREAT_WORK]걸작을 하나 복사합니다. [NEWLINE][NEWLINE]훔칠 수 있는 완성된 걸작이 없다면, [ICON_GOLDEN_AGE] 황금기가 시작됩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_REVEAL_AREA">
 			<Text>도시 [ICON_SPY]감시 확대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_REVEAL_AREA_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]{8_MissionLength}[ENDCOLOR][NEWLINE]{6_Spy}목표 도시: {5_Turns} 동안 볼 수 있는 영역이 넓어집니다.</Text>
+			<Text>목표 도시에서 {5_Turns} 동안 볼 수 있는 영역이 넓어집니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC">
-			<Text>송환 전문가 (스파이 이벤트)</Text>
+			<Text>송환 전문가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC_HELP">
 			<Text>[ICON_CAPITAL]수도에서: 과학자에서 +2 [ICON_RESEARCH] 과학; 상인에서 +2 [ICON_GOLD] 골드; 기술자에서 +2 [ICON_PRODUCTION] 생산; 음악가, 예술가, 작가에서 +2 [ICON_CULTURE] 문화. 기간: {4_Turns}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC_PARENT">
-			<Text>송환 전문가 (스파이 이벤트)</Text>
+			<Text>송환 전문가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC_PARENT_HELP">
 			<Text>[ICON_CAPITAL]수도에서: 과학자에서 +2 [ICON_RESEARCH] 과학; 상인에서 +2 [ICON_GOLD] 골드; 기술자에서 +2 [ICON_PRODUCTION] 생산; 음악가, 예술가, 작가에서 +2 [ICON_CULTURE] 문화. 기간: {4_Turns}</Text>
@@ -151,8 +155,24 @@
 		</Row>
 		
 		<!-- Notifications -->
+		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_DURATION">
+			<Text>[COLOR_POSITIVE_TEXT]추정 작전 길이:[ENDCOLOR] {1_Num}턴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PAST">
+			<Text>[COLOR_POSITIVE_TEXT]총 횡령:[ENDCOLOR] {1_Yield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PAST_ENEMY">
+			<Text>[COLOR_NEGATIVE_TEXT]총 횡령:[ENDCOLOR] {1_Yield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PRESENT">
+			<Text>직전 절도: {1_Yield} 획득.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ESTIMATED">
+			<Text>[COLOR_POSITIVE_TEXT]추정 절도 총량:[ENDCOLOR] {1_Yield}</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS">
-			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 임무를 완료했습니다![NEWLINE][NEWLINE]{4_EventChoiceHelpText}</Text>
+			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 임무를 완료했습니다: {4_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS_S">
 			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 성공했습니다!</Text>
