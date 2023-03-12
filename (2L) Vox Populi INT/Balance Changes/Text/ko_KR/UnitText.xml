@@ -746,7 +746,7 @@
 			<Text>유산탄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR]과 전투시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION">
 			<Text>불굴의 정신</Text>
@@ -868,7 +868,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
-			<Text>해상 및 지상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+			<Text>해상 및 지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
 		</Row>
 		<!-- Anti-Air Defense -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_I">
@@ -895,24 +895,24 @@
 
 		<!-- Siege / Ranged / Naval Ranged / Submarine domain penalties -->
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE">
-			<Text>해상 유닛 대항 페널티</Text>
+			<Text>해상 목표 페널티</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE_HELP">
-			<Text>해상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-20%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>해상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-20%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY">
 			<Text>공성 부정확성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
-			<Text>지상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-33%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-33%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
 			<Text>해상 부정확성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY_HELP">
-			<Text>지상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY">
 			<Text>도시 공격 페널티 (75)</Text>

@@ -113,6 +113,21 @@
 		<Row Tag="TXT_KEY_EUPANEL_NO_FRIENDLY_UNIT_ADJACENT_BONUS">
 			<Text>근처에 아군 유닛 없음</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_PENALTY_VS_DOMAIN">
+			<Text>지역 패널티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_BONUS_VS_DOMAIN">
+			<Text>지역 공격 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_PENALTY_VS_DOMAIN">
+			<Text>지역 공격 패널티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_DEFENSE_BONUS_VS_DOMAIN">
+			<Text>지역 방어 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_DEFENSE_PENALTY_VS_DOMAIN">
+			<Text>지역 방어 패널티</Text>
+		</Row>
 
 		<!-- Diplomatic Mission (No Gold) -->
 		<Row Tag="TXT_KEY_DIPLOMATIC_MISSION_RESULT_NO_GOLD">
