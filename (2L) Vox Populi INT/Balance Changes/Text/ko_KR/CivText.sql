@@ -562,7 +562,7 @@ SET Text = '야만인 주둔지의 야만인이 당신의 군대로 합류했습
 WHERE Tag = 'TXT_KEY_NOTIFICATION_BARB_CAMP_CONVERTS';
 
 UPDATE Language_ko_KR
-SET Text = '궁기병은 재빠른 원거리 유닛이며 말이 필요하지 않습니다. 정확성 I 승급으로 시작해 강력한 측면 공격수입니다. 궁기병은 기병이므로, 창병에게 취약합니다.'
+SET Text = '궁기병은 재빠른 원거리 유닛이며 말이 필요하지 않습니다. 탄막 I 승급으로 시작해 강력한 측면 공격수입니다. 궁기병은 기병이므로, 창병에게 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 
 --------------------
@@ -599,7 +599,7 @@ SET Text = '전쟁터에서 종종 적에게 그랬던 것처럼 자기 편에�
 WHERE Tag = 'TXT_KEY_CIV5_ANTIQUITY_INDIANWARELEPHANT_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '흉갑기병을 대체하는 인도의 고유 유닛입니다. 육중한 원거리 기마 유닛으로 평지에서 훨씬 효과적입니다. [COLOR_PLAYER_PURPLE]코끼리 겁주기[ENDCOLOR] 승급과 [COLOR_PLAYER_PURPLE]탄막 1[ENDCOLOR] 을 보유합니다. 일반 흉갑기병보다 전투력이 더 높고 [ICON_RES_HORSE]말을 요구하지 않으며 더 이른 시기에 사용할 수 있습니다.'
+SET Text = '흉갑기병을 대체하는 인도의 고유 유닛입니다. 육중한 원거리 기마 유닛으로 평지에서 훨씬 효과적입니다. [COLOR_PLAYER_PURPLE]코끼리 겁주기[ENDCOLOR] 승급과 [COLOR_PLAYER_PURPLE]정확성 1[ENDCOLOR] 을 보유합니다. 일반 흉갑기병보다 전투력이 더 높고 [ICON_RES_HORSE]말을 요구하지 않으며 더 이른 시기에 사용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT';
 
 UPDATE Language_ko_KR

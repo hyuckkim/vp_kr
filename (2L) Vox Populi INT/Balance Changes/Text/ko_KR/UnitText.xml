@@ -657,18 +657,18 @@
 		</Row>
 		<!-- Ranged Line -->
 		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4">
-			<Text>사격 교리</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4_HELP">
-			<Text>체력 [COLOR_POSITIVE_TEXT]50% 초과[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4">
 			<Text>침투</Text>
 			<Plurality>2</Plurality>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4_HELP">
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4_HELP">
 			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]부상 유닛 공격 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]우호 유닛이 인접하지 않을 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4">
+			<Text>사격 교리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4_HELP">
+			<Text>체력 [COLOR_POSITIVE_TEXT]50% 초과[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
 		</Row>
 		<!-- Siege Line -->
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_I">
