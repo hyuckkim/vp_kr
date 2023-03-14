@@ -597,37 +597,37 @@ WHERE Tag = 'TXT_KEY_HONOR_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]권위[ENDCOLOR]는 호전적이고 팽창을 지향하는 문명에 크게 도움이 됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]야만인 대항 전투력 보너스 +25%[NEWLINE][ICON_BULLET]야만인 주둔지 출현 시 알람 및 파괴 시 [ICON_CULTURE] 문화 25 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][ICON_BULLET]적 유닛 처치 시 [ICON_STRENGTH] 전투력의 100%만큼 [ICON_CULTURE]문화 획득[NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR] [NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]알함브라 궁전[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]도시 국가 공물과 국경 확장 시 권위 정책 보너스 두 배[NEWLINE][ICON_BULLET][COLOR_YELLOW]자유용병대[ENDCOLOR], [COLOR_YELLOW]외인부대[ENDCOLOR], [COLOR_YELLOW]용병[ENDCOLOR] 구매 가능[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_GENERAL][COLOR_YELLOW]위대한 장군[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]권위[ENDCOLOR]는 호전적이고 팽창을 지향하는 문명에 크게 도움이 됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]야만인 대항 전투력 보너스 +25%[NEWLINE][ICON_BULLET]야만인 주둔지 출현 시 알람 및 파괴 시 [ICON_CULTURE] 문화 25 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][ICON_BULLET]적 유닛 처치 시 [ICON_STRENGTH] 전투력의 100%만큼 [ICON_CULTURE]문화 획득[NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR] [NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]알함브라 궁전[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]도시 국가의 무거운 공물에서 오는 골드가 아닌 산출이 25% 증가[NEWLINE][ICON_BULLET] 국경 확장 시 권위 정책 보너스 두 배[NEWLINE][ICON_BULLET][COLOR_YELLOW]자유용병대[ENDCOLOR], [COLOR_YELLOW]외인부대[ENDCOLOR], [COLOR_YELLOW]용병[ENDCOLOR] 구매 가능[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_GENERAL][COLOR_YELLOW]위대한 장군[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_HONOR_HELP';
 
 UPDATE Language_ko_KR
 SET Text = '권위라는 단어는 국가(정부, 판사, 경찰 등의 형태로)가 부여한 권력을 의미하거나 한 분야에 대한 학문적 지식(누군가가 주제에 대한 권위일 수 있음)을 의미하기 위해 사용될 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_HONOR_TEXT';
 
--- Warrior Code (now Imperium)
+-- Warrior Code (now Tribute)
 UPDATE Language_ko_KR
-SET Text = '집행권'
+SET Text = '공물'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]집행권[ENDCOLOR][NEWLINE][ICON_CAPITAL]수도 근처에 무료 [COLOR_YELLOW]개척자[ENDCOLOR]가 1명 출현합니다. 도시 국가에 무거운 공물을 요구하면 골드가 아닌 산출량이 두 배가 됩니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]공물[ENDCOLOR][NEWLINE][ICON_CAPITAL]수도 근처에 무료 [COLOR_YELLOW]개척자[ENDCOLOR]가 1명 출현합니다. 도시 국가에 무거운 공물을 요구하면 골드가 아닌 산출량이 25% 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '임페리움은 넓은 의미로는 대략 ''명령하는 힘''으로 번역되는 라틴어입니다. 고대 로마에서, 다른 종류의 권력이나 권위는 다른 용어로 구별되었습니다. 임페리움은 개인에 대한 국가의 주권을 가리킵니다.'
+SET Text = '공물은 한 당사자가 존경의 표시 또는 역사적으로 종종 그랬던 것처럼 복종 또는 충성의 표시로 다른 당사자에게 주는 재산입니다. 여러 고대 국가들은 국가가 정복하거나 다른 방법으로 정복하겠다고 위협한 땅의 통치자들에게 공물을 요구했습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIORCODE_TEXT';
 
--- Discipline (now Tribute)
+-- Discipline (now Imperium)
 UPDATE Language_ko_KR
-SET Text = '공물'
+SET Text = '집행권'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]공물[ENDCOLOR][NEWLINE]도시의 국경이 확장될 때 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 새로운 도시를 설립하거나 정복할 때 [ICON_RESEARCH]과학 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]40[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 정복 보너스는 도시의 [ICON_CITIZEN]시민 수에 따라 달라집니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]집행권[ENDCOLOR][NEWLINE]도시의 국경이 확장될 때 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 새로운 도시를 설립하거나 정복할 때 [ICON_RESEARCH]과학 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]40[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 정복 보너스는 도시의 [ICON_CITIZEN]시민 수에 따라 달라집니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '공물은 한 당사자가 존경의 표시 또는 역사적 맥락에서 종종 그랬던 것처럼 복종 또는 충성의 표시로 다른 당사자에게 주는 재산입니다. 여러 고대 국가들은 국가가 정복하거나 다른 방법으로 정복하겠다고 위협한 땅의 통치자들에게 공물을 요구했습니다.'
+SET Text = '임페리움은 넓은 의미로는 대략 ''명령하는 힘''으로 번역되는 라틴어입니다. 고대 로마에서, 다른 종류의 권력과 권위는 다른 용어로 구별되었습니다. 집행권은 개인에 대한 국가의 주권을 가리킵니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE_TEXT';
 
 -- Military Tradition (now Dominance)
@@ -649,7 +649,7 @@ SET Text = '군국주의'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]군국주의[ENDCOLOR][NEWLINE]유닛이 주군한 도시에서 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 유닛 유지비가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소하고 도로 유지비가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]군국주의[ENDCOLOR][NEWLINE]병영이 건설된 도시에서 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 유닛 유지비가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소하고 도로 유지비가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE_HELP';
 
 UPDATE Language_ko_KR
