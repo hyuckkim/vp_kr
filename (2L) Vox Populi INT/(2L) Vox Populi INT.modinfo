@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="16">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(3.2.2) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(3.3) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -18,9 +18,9 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="113" maxversion="999" title="Community Patch" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="114" maxversion="999" title="Community Patch" />
     <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="16" maxversion="999" title="Vox Populi" />
-    <Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="113" maxversion="999" title="(1a) Community Patch Localized" />
+    <Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="114" maxversion="999" title="(1a) Community Patch Localized" />
   </Dependencies>
   <References />
   <Blocks />
@@ -33,7 +33,7 @@
     <File md5="5E321C4164D08B082DB93A92FA8D22E6" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="122BD82BC0C39CD1BB0E039355BC90B5" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
     <File md5="00166256A8C425B2CDD8D6381A3E7DF4" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
-    <File md5="A434128764C721F055F283564DFD66C7" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
+    <File md5="B47358516C216FDF27E046606A91E3EC" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="32AD0BFAE6A09E0E1E1A9405DDAAB220" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
     <File md5="357A3391096F3130AB9E58C22C556100" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
     <File md5="3DF460AC030FF2DC8289B6977EFC0D94" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
