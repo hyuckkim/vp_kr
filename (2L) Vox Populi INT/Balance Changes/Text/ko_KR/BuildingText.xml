@@ -487,62 +487,90 @@
 			<Text>사리탑은 불교에서 명상의 장소로 사용되는, 일반적으로 승려의 유골인 불교 유물을 담고 있는 봉분이나 반구형의 구조입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
-			<Text>도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH">
 			<Text>교회</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_STRATEGY">
-			<Text>교회 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 교회는 도시에 신앙과 음악 슬롯을 제공합니다. 선교사의 효과를 증가시키고 국왕 경축일을 시작합니다.</Text>
+			<Text>교회 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 교회는 도시의 종교 압력을 증가시킵니다. 국왕 경축일을 시작합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_TEXT">
 			<Text>교회 건물은 종교 활동, 특히 예배에 사용되는 건물입니다. 건축적인 의미에서 이 용어는 기독교인들이 그들의 종교적 건물을 언급하기 위해 가장 자주 사용되지만 다른 종교에서도 사용될 수 있습니다. 전통적인 기독교 건축에서, 교회는 종종 기독교 십자가 모양으로 배열됩니다. 평면뷰에서 볼 때 십자가의 가장 긴 부분은 통로로 표현되며 십자가의 접합부는 제단 영역에 위치합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_HELP">
-			<Text>건물이 완성되면 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>건물이 완성되면 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR">
 			<Text>만디르</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_STRATEGY">
-			<Text>만디르 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 만디르는 도시에 신앙, 식량, 음악 슬롯을 제공합니다. 도시를 스파이로부터 예방할 수 있습니다.</Text>
+			<Text>만디르 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 만디르는 도시에 신앙과 식량을 제공합니다. 도시가 성장할 때 산출을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_TEXT">
 			<Text>힌두 사원은 신의 집입니다. 그것은 힌두교의 사상과 신념을 표현하기 위한 상징성이 배어 있는 인간과 신을 하나로 모으기 위해 고안된 공간이자 구조입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_HELP">
-			<Text>도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>[ICON_FOOD]식량이 5 증가하고 도시에 새 시민이 탄생하면 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙을 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE">
 			<Text>회당</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_STRATEGY">
-			<Text>회당 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 회당은 신앙, 생산, 문학 슬롯을 제공합니다. 도시가 국왕 경축일에 과학을 더 많이 생성합니다.</Text>
+			<Text>회당 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 회당은 신앙, 생산을 제공합니다. 도시가 국왕 경축일에 과학을 더 많이 생성합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TEXT">
 			<Text>사당이라고도 불리는 시나고그는 유대인들의 기도의 집입니다. 유대교 회당에는 기도할 수 있는 큰 홀(주 성역)이 있고, 공부하기 위한 작은 방도 있고 때로는 사교장과 사무실도 있습니다. 일부는 베스 미드래쉬라고 불리는 토라 서재를 위한 별도의 방을 가지고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_HELP">
-			<Text>"국왕 경축일"이 열리는 동안 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>"국왕 경축일"이 열리는 동안 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER">
 			<Text>기사단</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_STRATEGY">
-			<Text>기사단 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 기사단은 신앙, 도시의 추가 체력과 공격력을 제공하고 전투 유닛에 +15 경헙치과 열의 승급을 제공합니다. 적 유닛 처치시 +3 [ICON_PEACE] 신앙을 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]</Text>
+			<Text>기사단 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 기사단은 신앙과 골드를 제공하고 전투 유닛에 열의 승급을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
-			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시에서 생산하는 모든 군사 유닛의 경험치가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 도시에서 생산하는 모든 지상 유닛에 [COLOR_PLAYER_PURPLE]사기[ENDCOLOR] 승급을 부여합니다. 도시의 체력과 [ICON_STRENGTH]전투력이 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>이 도시에서 유닛을 생산하면, 유닛의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_PEACE] 신앙을 제공합니다. 유닛을 [ICON_PEACE] 신앙으로 구매하면 유닛을 생산했을 때의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_GOLD] 골드를 제공합니다. 이 도시에서 생산한 유닛이 열의 승급을 얻습니다. [NEWLINE][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 3 증가하고 [ICON_RANGE_STRENGTH] 포격의 공격력이 10% 증가합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_TEXT">
 			<Text>기사단은 중세부터 십자군 원정을 목적으로 설립된 다양한 기독교 단체 중 하나이며, 성지 또는 이슬람교(예를 들어 레콘키스타 기간 동안) 또는 이교도들 (주로 발트해 지역)에 대항하여 신앙을 전파하거나 방어합니다. 십자군 전쟁이 끝나고 오스만 제국이 침공한 이후 많은 수도회가 세속화되었으며, 현대에 와서는 보통 로마 가톨릭의 의식, 선교 및 자선 단체로 대표됩니다.</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI">
+			<Text>테오칼리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_PEDIA">
+			<Text>테오칼리는 아즈텍인들의 사원입니다. 테오칼리는 메소 아메리카의 전형적인 구조를 따르는데, 한 쪽에 계단이 있는 거대한 계단식 피라미드 꼭대기에 작은 폐쇄 공간이 있습니다. 이 피라미드 중 가장 큰 것은 기자의 이집트 피라미드보다 부피가 큽니다. 메소포타미아 종교에서처럼 아즈텍인들은 테오칼리를 신들의 거처로 여겼고, 사제들만이 의식과 특별한 행사를 위해서만 오를 수 있었습니다. 의식 중 가장 악명 높은 것은 아즈텍 신들을 달래기 위해 매월 행햊지는 인간 제사로, 그곳에서 전쟁 포로들의 심장을 적출하고 참수했습니다. 제물의 두개골은 촘판틀리라고 불리는 두개골 선반에 전시되었고, 내장과 살은 신에게 바쳐졌습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_HELP">
+			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시의 [ICON_SILVER_FIST] 군사 유닛 보급 한도를 1 증가시킵니다. 도시에서 생산하는 모든 군사 유닛의 경험치가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_STRATEGY">
+			<Text>테오칼리 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 테오칼리는 신앙을 제공하고 전투 유닛을 훈련시킵니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA">
+			<Text>구루드와라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_PEDIA">
+			<Text>"구루의 문"을 의미하는 구루드와라는 시크교도의 예배 장소입니다. 모든 구루드와라에는 높은 연단에 놓인 신성한 시크교 경전인 구루 그란트 사히브가 포함되어 있습니다. 이 연단에서 라디스는 회중을 위해 경전을 암송하고 노래하고 설명합니다. 모든 구루드와라의 또 다른 보편적인 기능은 랑가르라는 커뮤니티 식당입니다. 시크교도는 인종, 카스트, 지위 또는 종교에 관계없이 모든 커뮤니티 구성원이 무료로 식사와 자원 봉사를 할 수 있도록 무료 채식 식사를 제공하는 것을 매우 중요하게 생각합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
+			<Text>
+			곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량이 +10% 증가하고 도시의 [ICON_STRENGTH] 방어력이 +10% 증가합니다. [ICON_GREAT_WORK] 걸작 음악 슬롯을 포함합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_STRATEGY">
+			<Text>구루드와라 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 구루드와라는 성장과 방어에 보너스를 제공합니다.</Text>
+		</Row>
+
 		<!-- Cathedral/Mosque/Pagoda-->
 		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
-			<Text>농장, 목장, 채석장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 국경이 확장될 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>농장, 목장, 채석장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 국경이 확장될 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
-			<Text>[ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>[ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PAGODA_HELP">
 			<Text>도시의 [ICON_CITIZEN]시민이 따르는 세계 종교 1개마다 모든 도시의 산출량이  [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_RELIGION]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 감소합니다.</Text>
