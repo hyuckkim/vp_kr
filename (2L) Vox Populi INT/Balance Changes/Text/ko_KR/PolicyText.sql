@@ -192,7 +192,7 @@ WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP';
 
 -- Finest Hour
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]최상의 시간[ENDCOLOR]: 도시가 1개의 항공 슬롯을 얻고 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 도시에서 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 제공합니다. [COLOR_YELLOW]B-17 폭격기[ENDCOLOR] 유닛을 생산할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]최상의 시간[ENDCOLOR]: 도시가 2개의 항공 슬롯을 얻고 배치된 공중 유닛 하나 당 도시의 [ICON_STRENGTH] 전투력이 +3 증가합니다. [COLOR_YELLOW]B-17 폭격기[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP';
 
 -- Universal Suffrage

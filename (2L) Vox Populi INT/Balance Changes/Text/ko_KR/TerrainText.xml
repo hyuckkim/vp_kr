@@ -2,21 +2,36 @@
 <!-- Created by ModBuddy on 3/2/2016 4:34:53 PM -->
 <GameData>
 	<Language_ko_KR>
+		<Row Tag="TXT_KEY_BUILD_TRADING_POST_HELP">
+			<Text>'두 도시를 연결하는 [COLOR_POSITIVE_TEXT]도로[ENDCOLOR] 위에 건설된 마을은 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]철도[ENDCOLOR] 위에 건설하면 두 배가 됩니다. 해당 마을을 지나가는 국내 및 국제 [COLOR_POSITIVE_TEXT]교역로[ENDCOLOR]가 있으면 소도시의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 추가로 1 증가하고 산업 시대부터는 2 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_HELP">
+			<Text>인접한 재재소 둘 마다 [ICON_PRODUCTION] 생산 및 [ICON_GOLD] 골드가 +1 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_TERRACE_FARM_HELP">
+			<Text>인접한 계단식 농장 또는 산 마다 [ICON_FOOD] 식량이 +1 증가합니다. 모든 인접한 농장의 [ICON_FOOD] 식량이 +1 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_POLDER_HELP">
+			<Text>근처 마을과 소도시 타일의 [ICON_GOLD] 골드가 +1 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_POLDER_WATER_HELP">
+			<Text>지상 유닛이 해양 타일을 지날 수 있게 합니다. 근처 마을과 소도시 타일의 [ICON_GOLD] 골드가 +1 증가합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO">
 			<Text>오르도</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_TEXT">
-			<Text>간단히 번역하면, "오르도"는 "궁전의 텐트"를 의미합니다. 하지만, 오르도는 단순한 텐트 이상의 것이었습니다. 그것은 유목민 몽골인 부족의 중심이었습니다.[NEWLINE][NEWLINE]오르도는 칸과 그의 전사들을 위한 본부이자 주요 야영지 역할을 했습니다. 비록 여행을 위해 지어졌지만, 그것은 단순한 장식에서부터 정성스럽게 바느질된 패턴에 이르기까지 스타일을 가지고 있었습니다. 오르도는 칸과 그의 전사들과 함께 그들이 어디를 여행하든 항상 편안함을 느끼도록 했습니다.</Text>
+			<Text>간단히 번역하면, "오르도"는 "궁전의 텐트"를 의미합니다. 하지만, 오르도는 단순한 텐트 이상의 것이었습니다. 그것은 유목민 몽골인 부족의 중심이었습니다.[NEWLINE][NEWLINE]오르도는 칸과 그의 전사들을 위한 본부이자 주요 야영지 역할을 했습니다. 비록 여행을 위해 지어졌지만, 그것은 단순한 장식에서부터 정성스럽게 바느질된 패턴에 이르기까지 스타일을 가지고 있었습니다. 오르도는 칸과 그의 전사들과 함께 그들이 어디를 여행하든 항상 편안함을 느끼도록 했습니다.[NEWLINE][NEWLINE]영토 내의 아무 곳 또는 영토와 안접한 타일에 오르도를 건설할 수 있습니다. 오르도를 건설하면, 당신의 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 새 문화 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. 오르도에 주둔한 유닛은 방어력 보너스가 50% 증가하고 이동력 +1을 얻습니다. 하지만, 오르도 옆에서 턴을 마친 적 유닛은 피해를 입지 않습니다. (성채 옆에서는 피해를 입는 것과 다르게)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_HELP">
-			<Text>몽골의 위대한 장군이 건설할 수 있으며 성채를 대체합니다. [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화를 제공합니다.[NEWLINE][NEWLINE]주위로 해당 문명의 영토가 한 타일씩 증가합니다.[NEWLINE][NEWLINE]유닛이 오르도에 주둔하면 50% [ICON_STRENGTH] 방어와 +1 [ICON_MOVES] 이동력을 제공합니다.</Text>
+			<Text>몽골의 위대한 장군이 건설할 수 있으며 성채를 대체합니다. [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화를 제공합니다.[NEWLINE][NEWLINE]주위로 해당 문명의 영토가 한 타일씩 증가합니다.[NEWLINE][NEWLINE]유닛이 오르도에 주둔하면 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]5-%[ENDCOLOR] 증가하고 +1 [ICON_MOVES] 이동력을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO">
 			<Text>[LINK=IMPROVEMENT_MONGOLIA_ORDO]오르도[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_HELP">
-			<Text>[ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화가 증가합니다. 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 증가하고 추가[ICON_MOVES] 이동력을 얻습니다. 주위로 해당 문명의 영토가 한 타일씩 증가합니다.</Text>
+			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50과 [ICON_MOVES] 이동력 +1을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_REC">
 			<Text>유닛이 소모됩니다.[NEWLINE]몽골 고유 시설입니다. [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화를 제공합니다. 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 증가하고 추가[ICON_MOVES] 이동력을 얻습니다.</Text>
