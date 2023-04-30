@@ -50,7 +50,7 @@
 			<Text>[LINK=IMPROVEMENT_EKI]에키[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_EKI_HELP">
-			<Text>현재 타일에 에키를 건설합니다. [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량이 증가합니다. 담수와 인접하지 않은 평지에만 건설할 수 있습니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산이 추가로 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
+			<Text>담수와 인접하지 않은 평지에만 건설할 수 있습니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산이 추가로 증가합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.[NEWLINE][NEWLINE]중립 영토에 건설하면 영토가 확장됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_EKI_REC">
 			<Text>현재 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량을 증가시킵니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산이 추가로 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
@@ -70,7 +70,7 @@
 			<Text>[LINK=IMPROVEMENT_SPAIN_HACIENDA]하시엔다[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_HELP">
-			<Text>현재 타일에 하시엔다를 건설합니다. [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드가 증가합니다. 보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE]문화를 제공합니다.</Text>
+			<Text>보너스 자원과 인접 시 [ICON_FOOD]식량 +2, 전략 자원과 인접 시 [ICON_PRODUCTION]생산 +2, 사치 자원과 인접 시 [ICON_GOLD]골드 +2, 도시와 인접 시 [ICON_CULTURE]문화 +2를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_REC">
 			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드를 증가시킵니다.[NEWLINE]보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE]문화를 제공합니다.</Text>
@@ -128,7 +128,7 @@
 			<Text>[LINK=IMPROVEMENT_SIHEYUAN]쓰허위안[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SIHEYUAN_HELP">
-			<Text>현재 타일에 쓰허위안을 건설합니다. 타일의 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 증가합니다. 모든 타일의 특성을 제거합니다. 황후 경축일 동안 더 많은 산출을 제공합니다.</Text>
+			<Text>[ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 1 증가합니다. 황후 경축일 동안 더 많은 산출을 제공합니다. 도시 또는 두 쓰허위안에 인접해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SIHEYUAN_REC">
 			<Text>현재 타일의 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 황후 경축일 동안 더 많은 산출을 제공합니다.</Text>
