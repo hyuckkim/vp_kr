@@ -94,7 +94,7 @@
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ADMIRAL]위대한 제독은 즉시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있어 유용한 탐사선이 될 수 있습니다. 국내 영토에서 [COLOR_POSITIVE_TEXT]발견 항해[ENDCOLOR]를 수행할 수 있습니다. 이는 위인을 소모해 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다. 또한 위대한 제독은 자신과 같은 타일과 주변 타일의 모든 해상 및 승선 유닛의 피해를 즉시 회복시키는 [COLOR_POSITIVE_TEXT]함대 수리[ENDCOLOR]를 수행할 수 있습니다. 2타일 이내의 모든 아군 해상 유닛에 [ICON_STRENGTH]전투력 보너스를 15% 제공합니다. [NEWLINE][NEWLINE]함대 수리 또는 발견 항해 능력을 사용한 위대한 제독은 소모되어 사라지며 군사 유닛 보급 한도를 1 증가시킵니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY';
 
-	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 같은 타일과 주변 타일에 있는 모든 해상 및 승선 유닛이 받은 피해를 완전히 회복하고 군사 유닛 보급 한도를 1 증가시킵니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_REPAIR_FLEET_HELP';
+	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 같은 타일과 주변 타일에 있는 모든 해상 및 승선 유닛이 받은 피해를 완전히 회복하고 [ICON_WAR] 군사 유닛 보급 한도를 1 증가시킵니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_REPAIR_FLEET_HELP';
 
 	UPDATE Language_ko_KR
 	SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 제독 근처 2타일의 모든 아군 해상 유닛은 15%의 전투력 보너스를 얻습니다. 이 보너스는 모든 해상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 함대 수리[ENDCOLOR][NEWLINE]위대한 제독을 사용하여 이 타일과 인접한 모든 타일의 모든 해상 유닛과 승선한 유닛을 치료할 수 있습니다.[COLOR_YELLOW]이 명령은 또한 군사 유닛 보급 한도를 1 증가시킵니다.[ENDCOLOR] 위대한 제독은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 발견 항해[ENDCOLOR][NEWLINE][COLOR_GREEN]위대한 제독을 발견 항해에 보낼 수 있습니다. 그러면 현재 지도에 없는 사치 자원을 둘 제공합니다. 또한 군사 유닛 보급 한도를 1 증가시킵니다. 위대한 제독은 이 과정에서 소모됩니다.[ENDCOLOR]'
