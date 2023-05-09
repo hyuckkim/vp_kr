@@ -501,7 +501,7 @@ SET Text = '평화의 거주지'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '이 [ICON_RELIGION]종교를 따르는 다른 문명의 신도 10명마다 성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신의 종교를 따르는 도시 국가 [ICON_INFLUENCE]영향력 정지점이 [COLOR_POSITIVE_TEXT]35[ENDCOLOR]로 증가하며 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.'
+SET Text = '이 [ICON_RELIGION]종교를 따르는 도시 국가의 신도 2명마다 성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신의 종교를 따르는 도시 국가 [ICON_INFLUENCE]영향력 정지점이 [COLOR_POSITIVE_TEXT]35[ENDCOLOR]로 증가하며 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR';
 
 
