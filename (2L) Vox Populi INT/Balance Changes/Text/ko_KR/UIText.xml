@@ -393,8 +393,11 @@
 		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_PERMA_TT">
 			<Text>그들의 현재 동맹이 아직 영향권을 가지고 있기 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 아직 쿠데타를 시도하지 않았습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_SPY_NUMBER_ELECTION_RIGGINGS">
-			<Text>[COLOR_CYAN]지난 쿠데타 이후 성공한 선거 조작: {1_NumElectionsRigged}[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_EO_SPY_RIGGING_COUP_CHANCE_INCREASE">
+			<Text>[COLOR_CYAN]선거 조작에 성공할 때마다 쿠데타 성공 확률이 {1_CoupChanceIncrease}% 증가합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_RIGGING_NO_COUP_POSSIBLE">
+			<Text>[COLOR_NEGATIVE_TEXT]도시 국가에서 쿠데타가 불가능하므로 선거 조작이 쿠데타의 성공률을 증가시키지 않습니다.[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Feitoria Production Tooltip-->

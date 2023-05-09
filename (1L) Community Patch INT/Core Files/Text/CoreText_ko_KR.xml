@@ -7733,7 +7733,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_SHORT_TT">
-			<Text>{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} {3_CityName}에서 우리의 영향력을 늘리기 위해 선거 조작을 시도하고 있습니다.</Text>
+			<Text>{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} {3_CityName}에서 우리의 영향력을 늘리기 위해 선거 조작을 시도하고 있습니다. 쿠데타가 가능하다면 (대기시간은 무시하고) 선거 조작이 성공하면 쿠데타의 성공 확률을 증가시킵니다. 쿠데타의 성공 확률은 높은 등급의 스파이일수록 더 많이 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
