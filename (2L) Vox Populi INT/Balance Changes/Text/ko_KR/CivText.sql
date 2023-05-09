@@ -72,7 +72,7 @@ SET Text = '적 도시에 인접 시 2타일 이내에 있는 다른 아군 유�
 WHERE Tag = 'TXT_KEY_PROMOTION_SAPPER_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 정복한 후 해당 도시의 소유자가 발견한 [COLOR_RESEARCH_STORED]기술[ENDCOLOR] 중 1개를 획득하고, 기술을 획득할 수 없다면 대량의 [ICON_RESEARCH]과학 보너스를 제공합니다. 모든 [ICON_GREAT_WORK]걸작에서 오는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 정복한 후 해당 도시의 소유자가 발견한 [COLOR_RESEARCH_STORED]기술[ENDCOLOR] 중 1개를 획득하고, 기술을 획득할 수 없다면 [ICON_CITIZEN]시민당 +20의 [ICON_RESEARCH]과학 보너스를 제공합니다.[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 모든 [ICON_GREAT_WORK]걸작에서 오는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SLAYER_OF_TIAMAT';
 
 --------------------
@@ -356,7 +356,7 @@ VALUES ('TXT_KEY_BUILDING_STELE_HELP', '기념비를 대체하는 에티오피�
 -- France
 --------------------
 UPDATE Language_ko_KR
-SET Text = '이전 턴에 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시를 정복하면 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 작가/예술가/음악가 점수가 증가하고 일시적으로 모든 도시의 [ICON_CULTURE]문화 및 [ICON_PRODUCTION]생산이 증가합니다.'
+SET Text = '이전 턴에 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시를 정복하면 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 작가/예술가/음악가 점수가 증가하고 일시적으로 모든 도시의 [ICON_CULTURE]문화 및 [ICON_PRODUCTION]생산이 +40% 증가합니다.[COLOR:105:105:105:255](도시의 인구수에 따라 보정)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE';
 
 UPDATE Language_ko_KR
@@ -529,7 +529,7 @@ WHERE Tag = 'TXT_KEY_CITY_NAME_BRAUNSCHWEIG';
 -- Greece
 --------------------
 UPDATE Language_ko_KR
-SET Text = '도시 국가에 대한 [ICON_INFLUENCE]영향력이 줄어드는 속도가 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR] 감소하고 회복하는 속도는 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]인 [ICON_CITY_STATE]도시 국가 1개마다 아군 유닛 및 동맹 도시 국가 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] [COLOR:105:105:105:255](한도: 25%)[ENDCOLOR] 증가합니다. 아군 유닛이 도시 국가 영토에서 우호적인 유닛으로 취급됩니다.'
+SET Text = '도시 국가에 대한 [ICON_INFLUENCE]영향력이 줄어드는 속도가 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR] 감소하고 회복하는 속도는 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]인 [ICON_CITY_STATE]도시 국가 1개마다 아군 유닛 및 동맹 도시 국가 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] [COLOR:105:105:105:255](한도: 25%)[ENDCOLOR] 증가합니다. 아군 유닛이 도시 국가 영토를 우호적인 영토로 사용합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP';
 
 UPDATE Language_ko_KR
@@ -572,6 +572,10 @@ WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 --------------------
 -- Inca
 --------------------
+UPDATE Language_ko_KR
+SET Text = '언덕이 포함된 모든 지형의 유닛 이동 페널티를 무시하고 산 타일로 이동할 수 있습니다. 산 타일에 도시/도로/철도를 건설할 수 있고 산 타일의 [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_RESEARCH]과학이 증가합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD';
+
 UPDATE Language_ko_KR
 SET Text = '와라칵'
 WHERE Tag = 'TXT_KEY_UNIT_INCAN_SLINGER';
@@ -692,7 +696,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_STRATEGY';
 -- Japan
 --------------------
 UPDATE Language_ko_KR
-SET Text = '방어 및 군사 건물의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 출현할 때 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가/작가/음악가 점수가 증가합니다.'
+SET Text = '방어 및 군사 건물의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 출현할 때 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가/작가/음악가 점수가 50% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED';
 
 UPDATE Language_ko_KR
@@ -1023,7 +1027,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_COSSACK';
 -- Spain
 --------------------
 UPDATE Language_ko_KR
-SET Text = '타일을 획득하면 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 이단심문관이 더 강력해지고, 더 이른 시기에 생산할 수 있으며 유지비가 들지 않습니다. 도시를 정복할 때마다 [ICON_INQUISITOR]이단심문관을 무료로 제공합니다. [ICON_PEACE]신앙으로 해상 유닛을 구매할 수 있습니다.'
+SET Text = '타일을 획득하면 [ICON_GOLD]골드가 10, [ICON_PEACE]신앙이 4 증가합니다.[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 이단심문관이 더 강력해지고, 더 이른 시기에 생산할 수 있으며 유지비가 들지 않습니다. 도시를 정복할 때마다 [ICON_INQUISITOR]이단심문관을 무료로 제공합니다. [ICON_PEACE]신앙으로 해상 유닛을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES';
 
 UPDATE Language_ko_KR
@@ -1043,7 +1047,7 @@ SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '탐험가를 대체하는 스페인의 고유 유닛입니다. 정찰과 해외 식민지 건설에 특화된 중세 시대 유닛입니다. 초과 승급과 선봉 승급을 얻습니다.'
+SET Text = '탐험가를 대체하는 스페인의 고유 유닛입니다. 정찰과 해외 식민지 건설에 특화된 중세 시대 유닛입니다. 초과 승급과 선봉 승급을 얻습니다. 이 유닛으로 건설된 도시는 [ICON_PEACE]신앙으로 [COLOR_POSITIVE_TEXT]전도관[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_HELP';
 
 --------------------
@@ -1066,7 +1070,7 @@ SET Text = '길잡이는 게임의 첫 번째 정찰 유닛입니다. 전사에 
 WHERE Tag = 'TXT_KEY_UNIT_SHOSHONE_PATHFINDER_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 설립할 때 [COLOR_POSITIVE_TEXT]추가 영역[ENDCOLOR]을 가지고 시작합니다. 자신의 영역에서 전투 시 지상 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 모든 정찰 유닛이 [COLOR_POSITIVE_TEXT]고대 유적[ENDCOLOR]에서 오는 보상을 선택할 수 있습니다.'
+SET Text = '도시를 설립할 때 8타일, 정복할 때 4타일의 [COLOR_POSITIVE_TEXT]추가 영역[ENDCOLOR]을 얻습니다. 자신의 영역에서 전투 시 지상 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 모든 정찰 유닛이 [COLOR_POSITIVE_TEXT]고대 유적[ENDCOLOR]에서 오는 보상을 선택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_EXPANSE';
 
 --------------------
