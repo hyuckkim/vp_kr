@@ -511,7 +511,7 @@
 			<Text>힌두 사원은 신의 집입니다. 그것은 힌두교의 사상과 신념을 표현하기 위한 상징성이 배어 있는 인간과 신을 하나로 모으기 위해 고안된 공간이자 구조입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_HELP">
-			<Text>[ICON_FOOD]식량이 5 증가하고 도시에 새 시민이 탄생하면 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙을 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>[ICON_FOOD]식량이 5 증가하고 도시에 새 시민이 탄생하면 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙을 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE">
 			<Text>회당</Text>
@@ -559,7 +559,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
 			<Text>
-			곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량이 +10% 증가하고 도시의 [ICON_STRENGTH] 방어력이 +10% 증가합니다. [ICON_GREAT_WORK] 걸작 음악 슬롯을 포함합니다.</Text>
+			곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량이 +10% 증가하고 도시의 [ICON_STRENGTH] 방어력이 +10% 증가합니다. [ICON_GREAT_WORK] 걸작 음악 슬롯을 포함합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_STRATEGY">
 			<Text>구루드와라 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 구루드와라는 성장과 방어에 보너스를 제공합니다.</Text>
