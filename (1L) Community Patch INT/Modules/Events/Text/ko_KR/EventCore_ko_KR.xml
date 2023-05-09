@@ -304,6 +304,15 @@
 		<Row Tag="TXT_KEY_NEED_UNHAPPY">
 			<Text>[NEWLINE] [ICON_BULLET] 제국이 불행해야 합니다.</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_NEED_ENEMY_SUPER_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] 목표 문명이 매우 불행해야 합니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NEED_ENEMY_UNHAPPY">
+			<Text>[NEWLINE] [ICON_BULLET] 목표 문명이 불행해야 합니다.</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_NEED_TRADE_SLOT">
 			<Text>[NEWLINE] [ICON_BULLET] 교역 유닛 슬롯이 있어야 합니다.</Text>
 		</Row>

@@ -30,6 +30,12 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SELECT_FOCUS_HELP">
 			<Text>미션에 필요한 스파이 네트워크가 설치되었습니다. 어떤 작전을 수행할까요?</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ESTABLISH_SURVEILLANCE">
+			<Text>임무 선택 연기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ESTABLISH_SURVEILLANCE_HELP">
+			<Text>임무 선택이 연기되면 다음 턴에 미션 선택 화면을 다시 표시합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM">
 			<Text>[ICON_TOURISM]지역 관광 방해</Text>
 		</Row>
@@ -105,7 +111,7 @@
 			<Text>도시 [ICON_SPY]감시 확대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_REVEAL_AREA_HELP">
-			<Text>목표 도시에서 {5_Turns} 동안 볼 수 있는 영역이 넓어집니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>작전이 완료되면 목표 도시에서 {5_Turns} 동안 볼 수 있는 영역이 넓어집니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC">
