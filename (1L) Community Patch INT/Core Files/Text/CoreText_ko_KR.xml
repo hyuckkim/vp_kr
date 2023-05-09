@@ -7014,35 +7014,11 @@
 		<Row Tag="TXT_KEY_POP_CSTATE_RECENTLY_LIBERATED">
 			<Text>최근 해방됨</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED">
-			<Text>심사숙고 끝에 {1_CSName}{1: plural 1?은; 2?는;} 당신의 먼 위치 때문에 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 이행하는 데 무리가 있을 것이라 생각하여 당신의 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT">
-			<Text>{1_CSName}에 의해 보호 선언이 무효화되었습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING">
-			<Text>당신의 군사 보좌관은 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 당신의 약해진 군사력 때문에 취소될 수 있다고 경고합니다. 이 선언을 이행하기 위해서는 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 내에 군사력을 {3_Num}% 증강해야 합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT">
-			<Text>보호 선언 경고</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER">
-			<Text>{2_Num}턴 내에 군사력을 {3_Num}% 증강하지 않으면 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 무효화될 것입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT">
-			<Text>위태로운 보호 선언</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED">
-			<Text>당신의 군사력이 회복되어 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]은 다시금 안전해졌습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT">
-			<Text>안전해진 보호 선언</Text>
-		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_RECENT_BROKEN_TT">
 			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET]당신이 약속을 위반한 적이 있기 때문에 {1_Turns}턴 동안 기다려야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_MORE_MILITARY_TT">
-			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 군사력이 상위 60% 안에 들어야 합니다. 당신의 군사력은 상위 {1_Num}% 입니다.[ENDCOLOR]</Text>
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 군사력이 평균 이상이어야 합니다. 당신의 군사력은 상위 {1_Num}% 입니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
 			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 동맹</Text>
