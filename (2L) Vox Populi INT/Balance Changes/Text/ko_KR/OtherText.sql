@@ -215,7 +215,7 @@ SET Text = '피사의 사탑을 건설할 수 있으며, 르네상스 시대의 
 WHERE Tag = 'TXT_KEY_TECH_CHEMISTRY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '르네상스 시대의 강력한 공성 유닛인 [COLOR_YELLOW]대포[ENDCOLOR]를 만들 수 있고 도시의 방어력을 증가시켜주는 [COLOR_POSITIVE_TEXT]무기고[ENDCOLOR]를 건설할 수 있습니다.'
+SET Text = '르네상스 시대의 강력한 공성 유닛인 [COLOR_YELLOW]대포[ENDCOLOR]를 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_METALLURGY_HELP';
 
 UPDATE Language_ko_KR
@@ -234,13 +234,13 @@ WHERE Tag = 'TXT_KEY_TECH_RIFLING_HELP';
 
 -- Fix Replaceable Parts Text
 UPDATE Language_ko_KR
-SET Text = '기본 지상 유닛인 [COLOR_YELLOW]소총병[ENDCOLOR]을 만들 수 있고 도시 방어를 증가시키는 [COLOR_POSITIVE_TEXT]군수창고[ENDCOLOR]를 건설할 수 있습니다.'
+SET Text = '현대 시대의 강력한 화약 유닛인 [COLOR_YELLOW]소총병[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_REPLACEABLE_PARTS_HELP';
 
 -- Fix Combustion Text
 
 UPDATE Language_ko_KR
-SET Text = '공격 후 움직일 수 있는 놀라울 정도로 강력한 장갑 유닛 [COLOR_YELLOW]지상함[ENDCOLOR]을 만들 수 있습니다.'
+SET Text = '공격 후 움직일 수 있는 놀라울 정도로 강력한 장갑 유닛 [COLOR_YELLOW]지상함[ENDCOLOR]을 만들 수 있고 도시의 방어력을 증가시켜주는 [COLOR_POSITIVE_TEXT]무기고[ENDCOLOR]를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_COMBUSTION_HELP';
 
 -- Fix Plastics Text
@@ -384,12 +384,20 @@ SET Text = '강력한 [ICON_RESEARCH] 과학 건물 [COLOR_POSITIVE_TEXT]천문�
 WHERE Tag = 'TXT_KEY_TECH_ASTRONOMY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '강력한 르네상스 시대의 군함인 [COLOR_POSITIVE_TEXT]프리깃[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]코르벳[ENDCOLOR]을 생산할 수 있습니다. 해안 도시에서 [COLOR_POSITIVE_TEXT]항구[ENDCOLOR]를 건설해 해양 자원에 [ICON_PRODUCTION] 생산을 제공할 수 있습니다.'
+SET Text = '강력한 르네상스 시대의 군함인 [COLOR_POSITIVE_TEXT]프리깃[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]코르벳[ENDCOLOR]을 생산할 수 있고 도시의 방어력을 증가시키는 [COLOR_POSITIVE_TEXT]성형 요새[ENDCOLOR]를 건설할 수 있습니다. 해안 도시에서 [COLOR_POSITIVE_TEXT]항구[ENDCOLOR]를 건설해 해양 자원에 [ICON_PRODUCTION] 생산을 제공할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_NAVIGATION_HELP';
 
 UPDATE Language_ko_KR
 SET Text = '추가 [ICON_INTERNATIONAL_TRADE] 교역로를 제공합니다. 다양한 게임 후반 유닛에 사용되는 [ICON_RES_ALUMINUM] 알루미늄을 발견합니다. 도시가 [COLOR_POSITIVE_TEXT]증권 거래소[ENDCOLOR]를 건설해 골드를 증가시킬 수 있게 됩니다. [COLOR_POSITIVE_TEXT]수력 발전소[ENDCOLOR]를 건설해, 강 근처의 생산을 증가시킬 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_ELECTRICITY_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '도시의 [ICON_CULTURE] 문화 생산을 크게 증가시켜주는 [COLOR_POSITIVE_TEXT]방송탑[ENDCOLOR]을 건설할 수 있습니다.'
+WHERE Tag = 'TXT_KEY_TECH_RADIO_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '모든 도시의 [ICON_TOURISM] 관광을 50% 증가시켜, [ICON_VICTORY_CULTURE] [COLOR_POSITIVE_TEXT]문화 승리[ENDCOLOR]를 달성하는 데 도움을 줍니다.'
+WHERE Tag = 'TXT_KEY_TECH_INTERNET_HELP';
 
 -- Tech Tree small icon fixes
 

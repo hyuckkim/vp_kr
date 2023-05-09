@@ -626,7 +626,7 @@ SET Text = '대중의 신앙'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE]신앙으로 원형극장, 오페라 극장, 박물관, 방송탑, 경기장을 구매할 수 있고, 해당 건물의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 종교를 따르는 도시 2개마다 성도의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_PEACE]신앙으로 원형극장, 오페라 극장, 박물관, 방송탑을 구매할 수 있고, 해당 건물의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 종교를 따르는 도시 2개마다 성도의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT';
 
 

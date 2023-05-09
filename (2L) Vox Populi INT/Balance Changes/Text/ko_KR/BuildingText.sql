@@ -24,7 +24,7 @@ SET Text = '[ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의
 WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '송수로는 도시가 규모를 늘리기 데 필요한 [ICON_FOOD]식량의 양을 15% 감소시킵니다. 당신이 크게 성장하길 원하는 도시에 송수로를 건설하십시오.'
+SET Text = '송수로는 도시가 규모를 늘리기 데 필요한 [ICON_FOOD]식량의 양을 15% 감소시킵니다. 당신이 크게 성장하길 원하는 도시에 송수로를 건설하십시오. 송수로는 곡창이 있는 도시에만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_STRATEGY';
 
 UPDATE Language_ko_KR
