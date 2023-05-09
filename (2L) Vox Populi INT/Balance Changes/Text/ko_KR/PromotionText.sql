@@ -32,7 +32,7 @@
 
 	-- added Statue Of Zeus Promotion
 	UPDATE Language_ko_KR
-	SET Text = '도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]'
+	SET Text = '도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_STATUE_ZEUS_HELP';
 
 	-- added 1 Extra Movement

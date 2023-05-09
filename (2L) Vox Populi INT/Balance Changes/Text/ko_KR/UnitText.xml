@@ -276,7 +276,7 @@
 	<!-- Unit Free Promotions -->
 		<!-- Atatlist -->
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK">
-			<Text>아틀라틀 투척</Text>
+			<Text>사격 솜씨</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK_HELP">
 			<Text>부상 유닛 공격 시 [ICON_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
@@ -765,7 +765,7 @@
 			<Text>사략</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PIRACY_HELP">
-			<Text>처치한 적 유닛 [ICON_STRENGTH]전투력의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드 제공[NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]</Text>
+			<Text>처치한 적 유닛 [ICON_STRENGTH]전투력의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드 제공[NEWLINE]도시에 주는 피해의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드를 약탈[NEWLINE][COLOR:105:105:105:255](한도: 도시[ICON_STRENGTH]전투력의 10배)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER">
 			<Text>위반</Text>
@@ -803,7 +803,7 @@
 			<Text>봉쇄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
-			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]도시에 주는 피해의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드를 약탈[NEWLINE][COLOR:105:105:105:255](한도: 도시[ICON_STRENGTH]전투력의 10배)</Text>
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">

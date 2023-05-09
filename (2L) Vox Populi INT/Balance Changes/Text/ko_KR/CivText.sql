@@ -134,7 +134,7 @@ SET Text = '[COLOR_RESEARCH_STORED]문자[ENDCOLOR]를 연구하면 [ICON_GREAT_
 WHERE Tag = 'TXT_KEY_TRAIT_INGENIOUS';
 
 UPDATE Language_ko_KR
-SET Text = '궁병을 대체하는 바빌론의 고유 유닛입니다. 일반 궁병보다 더 강력하고 근접 공격을 더 잘 견뎌냅니다. [COLOR_PLAYER_PURPLE]간접 사격[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '궁병을 대체하는 바빌론의 고유 유닛입니다. 일반 궁병보다 더 강력하고 근접 공격을 더 잘 견뎌냅니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_ATLATL_ATTACK}[ENDCOLOR] 승급으로 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_HELP';
 
 UPDATE Language_ko_KR
@@ -150,10 +150,10 @@ SET Help = 'TXT_KEY_BUILDING_BABYLON_WALLS_HELP'
 WHERE Type = 'BUILDING_WALLS_OF_BABYLON';
 
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES ('TXT_KEY_BUILDING_BABYLON_WALLS_HELP', '성벽을 대체하는 바빌론의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 과학자 전문가의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.');
+VALUES ('TXT_KEY_BUILDING_BABYLON_WALLS_HELP', '성벽을 대체하는 바빌론의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 위대한 과학자의 기술 가속이 과학을 10% 추가로 제공합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.');
 
 UPDATE Language_ko_KR
-SET Text = '바빌론 성벽은 바빌론의 고유 건물로 성벽을 대체합니다. 바빌론 성벽은 도시의 방어력을 15, 체력을 75 올려, 각 값이 둘 모두 기본 성벽보다 높습니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 인구의 10%만큼 증가하고, 도시의 사격 범위가 1 증가합니다. 바빌론 성벽은 과학자 슬롯을 제공하며 모든 과학자 전문가의 골드 산출을 증가시킵니다. 지어진 도시에서의 불행 관리에도 도움을 줍니다.'
+SET Text = '바빌론 성벽은 바빌론의 고유 건물로 성벽을 대체합니다. 바빌론 성벽은 도시의 방어력을 15, 체력을 75 올려, 각 값이 둘 모두 기본 성벽보다 높습니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 인구의 10%만큼 증가하고, 도시의 사격 범위가 1 증가합니다. 바빌론 성벽은 과학자 점수를 제공하며 위대한 과학자의 기술 가속의 효과를 10% 증가시킵니다. 지어진 도시에서의 불행 관리에도 도움을 줍니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY';
 
 --------------------
@@ -744,11 +744,11 @@ SET Text = '[COLOR_RESEARCH_STORED]수학[ENDCOLOR]을 연구하면 마야 장�
 WHERE Tag = 'TXT_KEY_TRAIT_LONG_COUNT';
 
 UPDATE Language_ko_KR
-SET Text = '합성궁병을 대체하는 마야의 고유 유닛입니다. 합성궁병보다 더 이른 시기에 생산할 수 있으며 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
+SET Text = '합성궁병을 대체하는 마야의 고유 유닛입니다. 합성궁병보다 더 이른 시기에 생산할 수 있으며 [COLOR_PLAYER_PURPLE]간접 사격[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST';
 
 UPDATE Language_ko_KR
-SET Text = '아틀라틀 투척병은 마야의 고유 유닛으로 합성궁병을 대체합니다. 아틀라틀은 합성궁병보다 더 저렴하고 이른 시기에 등장하고, 부상 유닛을 상대로 추가 피해를 줍니다. 이 이점은 당신의 궁수가 치고 빠지는 궁기병 전략을 시도하도록 합니다.'
+SET Text = '아틀라틀 투척병은 마야의 고유 유닛으로 합성궁병을 대체합니다. 아틀라틀은 합성궁병보다 더 저렴하고 이른 시기에 등장하고, 장애물을 넘어 공격할 수 있습니다. 이 이점은 당신의 궁수가 치고 빠지는 궁기병 전략을 시도하도록 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY';
 
 --------------------
