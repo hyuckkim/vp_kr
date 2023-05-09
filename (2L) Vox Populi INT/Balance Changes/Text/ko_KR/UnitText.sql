@@ -134,11 +134,11 @@
 
 
 	-- Inquisitor
-	UPDATE Language_ko_KR SET Text = '[ICON_PEACE]신앙을 사용해서 대중 종교가 강화된 도시 어디에서나 구매할 수 있습니다. 플레이어 도시에서 다른 종교를 제거할 수 있으며(이단심문관 사용) 이단 심문관을 도시에 배치하면 다른 종교의 전파 속도를 50% 감소시킬 수 있습니다. 이단 제거는 도시를 한 턴 동안 [ICON_RESISTANCE] 저항 상태로 만듭니다.' WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
+	UPDATE Language_ko_KR SET Text = '[ICON_PEACE]신앙을 사용해서 대중 종교가 강화된 도시 어디에서나 구매할 수 있습니다. 플레이어 도시에서 다른 종교를 제거할 수 있으며(이단심문관 사용) 이단 심문관을 도시에 배치하면 다른 종교의 전파 속도를 50% 감소시킬 수 있습니다.' WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 	
-	UPDATE Language_ko_KR SET Text = '도시에 퍼진 다른 종교를 제거하는 유닛입니다. 도시에 주둔한 이단심문관은 다른 종교의 [ICON_MISSIONARY]선교사와 [ICON_PROPHET]위대한 선지자의 전도력을 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소시킵니다. 이단 제거는 해당 도시에 1턴 동안 [ICON_RESISTANCE]저항을 발생시킵니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙으로만 구입할 수 있습니다.' WHERE Tag = 'TXT_KEY_UNIT_HELP_INQUISITOR';
+	UPDATE Language_ko_KR SET Text = '도시에 퍼진 다른 종교를 제거하는 유닛입니다. 도시에 주둔한 이단심문관은 다른 종교의 [ICON_MISSIONARY]선교사와 [ICON_PROPHET]위대한 선지자의 전도력을 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소시킵니다. [NEWLINE][NEWLINE][ICON_PEACE]신앙으로만 구입할 수 있습니다.' WHERE Tag = 'TXT_KEY_UNIT_HELP_INQUISITOR';
 
-	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 해당 유닛을 소모하여 우호적인 도시 주변에서 다른 종교를 제거합니다. 1턴 동안 해당 도시에 저항이 발생합니다. ' WHERE Tag = 'TXT_KEY_MISSION_REMOVE_HERESY_HELP';
+	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 해당 유닛을 소모하여 우호적인 도시 주변에서 다른 종교를 제거합니다. ' WHERE Tag = 'TXT_KEY_MISSION_REMOVE_HERESY_HELP';
 	-- Archaeologist Text
 
 	UPDATE Language_ko_KR SET Text = '사적지를 발굴하여 랜드마크 시설을 건설하거나 유물을 발굴하여 걸작 예술품 슬롯을 채울 수 있습니다. 어떤 문명의 영토에서도 유물을 발굴 할 수 있습니다. 사적지에서 고고학 발굴을 완료하면 고고학자는 소모됩니다. [NEWLINE][NEWLINE]한 번에 최대 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]까지만 활성할 수 있습니다.[COLOR_NEGATIVE_TEXT][ICON_GOLD]골드로 구매할 수 없으며[ENDCOLOR] [COLOR_POSITIVE_TEXT]공립학교[ENDCOLOR]가 있는 도시에서만 생산할 수 있습니다.' WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHAEOLOGIST';
