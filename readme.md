@@ -7,8 +7,8 @@ overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 즉, Vox Populi는 문명 5의 모든 게임 요소인 기술, 문화 트리, 유닛, 문명 특성, 승급, 전투 전략 등을 모두 바꿉니다.
 
 ## Vox populi 받기
-[Vox Populi 인스톨러 받기](https://github.com/LoneGazebo/Community-Patch-DLL/releases/download/Release-3.3/Vox.Populi.3.3.exe)  
-[한글 패치 인스톨러 받기](https://github.com/hyuckkim/vp_kr/releases/download/v3.3/Vox.Populi.INT.3.3.exe)  
+[Vox Populi 인스톨러 받기](https://github.com/LoneGazebo/Community-Patch-DLL/releases/download/Release-3.4/Vox.Populi.3.4.exe)  
+[한글 패치 인스톨러 받기](https://github.com/hyuckkim/vp_kr/releases/download/v3.4/Vox.Populi.INT.3.4.exe)  
 
 ## 번역
 예니체리없는오스만  
@@ -50,6 +50,8 @@ Inno Setup Script로 빌드된 인스톨러 프로그램으로 자동으로 설�
 문명 5의 UI를 개선해주는 EUI를 Vox Populi와 호환시키는 모드의 번역용 모드입니다.
    - (4bL) UI - Promotion Tree for VP Localized (v 1)  
 진급 트리를 표시해주는 Promotion Tree의 번역용 모드입니다.  
+ - vp_kr installer file  
+exe 파일을 만들기 위한 inno setup용 설정 파일입니다. 게임에는 영향이 없습니다.  
  - 추가 모드용 Other Mods.zip은 [다른 리포지토리](https://github.com/hyuckkim/vp_modmods_kr)로 옮겼습니다.
 ## 함께 쓰면 좋은 모드
  - [More Unique Components for Vox Populi](http://gall.dcinside.com/civilization/261234) 3 / 4번째 고유 유닛 추가해주는 모드   

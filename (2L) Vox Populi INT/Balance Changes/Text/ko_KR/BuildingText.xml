@@ -150,7 +150,7 @@
 			<Text>마우솔레움은 죽은 사람이나 사람들의 매장 공간이나 묘실을 둘러싼 기념물로 지어진 외부 독립 건물입니다. 장막이 없는 기념비는 위령비입니다. 마우솔레움은 무덤의 한 종류로 여겨질 수도 있고, 무덤이 마우솔레움 안에 있다고 여겨질 수도 있습니다. 마우솔레움에는 때때로 예배당이 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_HELP">
-			<Text>모든 성지의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_GOLDEN_AGE] 황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE">
 			<Text>천상의 옥좌</Text>
@@ -192,7 +192,7 @@
 			<Text>{2_CivAdjective} 성유물함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_HELP">
-			<Text>모든 성지의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_CULUTRE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT">
 			<Text>성스러운 법정</Text>
@@ -240,7 +240,7 @@
 			<Text>바실리카는 현대 영어에서 세 가지 다른 용법을 가지고 있습니다. 이 단어는 원래 개방적이고 로마적인 공공 법원 건물을 묘사하기 위해 사용되었는데, 보통 로마 마을의 포럼 근처에 위치해 있습니다. 그 연장선상에서 그것은 같은 형태의 기독교 건물들에 적용되었고 중앙의 마당과 통로를 가진 그 건물들을 묘사하기 위해 건축적인 의미로 계속 사용되고 있습니다. 나중에, 그 용어는 특별히 교황에 의해 특별한 의식권을 부여받은 크고 중요한 교회인 사도 궁전을 지칭하게 되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
-			<Text>모든 성지의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY">
 			<Text>대 납골당</Text>
@@ -559,7 +559,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
 			<Text>
-			곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량이 +10% 증가하고 도시의 [ICON_STRENGTH] 방어력이 +10% 증가합니다. [ICON_GREAT_WORK] 걸작 음악 슬롯을 포함합니다.</Text>
+			도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량이 +10% 증가하고 도시의 [ICON_STRENGTH] 방어력이 +10% 증가합니다. 곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_STRATEGY">
 			<Text>구루드와라 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 구루드와라는 성장과 방어에 보너스를 제공합니다.</Text>

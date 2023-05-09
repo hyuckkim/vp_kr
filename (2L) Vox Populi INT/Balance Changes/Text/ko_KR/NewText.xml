@@ -96,7 +96,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
-			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE]문화 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE] 무료를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
 			<Text>생산으로 문화를 향상시키는 것은 문명의 문화를 가속하는 훌륭한 수단이고, 다음 정책을 얻거나 다른 문명의 문화 승리를 막기 위한 선택이기도 합니다. 또한 도시의 무료를 감소시킵니다.</Text>
@@ -115,7 +115,7 @@
 			<Text>농업</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
-			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]기본 요구 수치를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
 			<Text>생산으로 농업을 향상시키는 것은 기술이 뒤떨어졌거나 단순히 거대한 도시를 만들고 싶을 때 좋은 선택지입니다. 곤경을 감소시킵니다.</Text>
