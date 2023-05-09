@@ -224,21 +224,24 @@
 		</Row>
 
 		<!-- Annexed City States -->
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ANNEXED_MINORS">
+			<Text>[ICON_CITY_STATE]정복된 도시 국가에서 {1_Num}</Text>
+		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET]합병된 도시 국가에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET]정복된 도시 국가에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_FAITH_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET]합병된 도시 국가에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET]정복된 도시 국가에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ANNEXED_MINORS">
-			<Text>합병된 도시 국가에서 {1_Num} [ICON_RESEARCH] 과학</Text>
+			<Text>정복된 도시 국가에서 {1_Num} [ICON_RESEARCH] 과학</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET]합병된 도시 국가에서 [ICON_RESEARCH] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET]정복된 도시 국가에서 [ICON_RESEARCH] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_ANNEXED_CITY_STATE_UNIT_SPAWN">
-			<Text>합병된 도시 국가 {1_CivName:textkey}에서 새 유닛을 제공합니다!</Text>
+			<Text>정복된 도시 국가 {1_CivName:textkey}에서 새 유닛을 제공합니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ANNEXED_CITY_STATE_UNIT_SPAWN">
 			<Text>{1_CivName:textkey}에서의 새 유닛!</Text>
