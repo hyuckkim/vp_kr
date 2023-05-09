@@ -6949,6 +6949,9 @@
 		<Row Tag="TXT_KEY_PRODMOD_SPIES">
 			<Text>[NEWLINE][ICON_BULLET]활동 중인 스파이: {1_Num}%</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]특성: {1_Num}%</Text>
+		</Row>
 		<!-- Lua for Buildings -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_FEATURE">
 			<Text>[NEWLINE]도시 주변 {1_FeatureName:textkey} 필요</Text>

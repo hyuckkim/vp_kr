@@ -1635,6 +1635,13 @@
 				<Row Tag="TXT_KEY_MO_SORT_XP">
 					<Text>경험치순 정렬</Text>
 				</Row>
+	<!-- City Damage Reduction -->
+		<Row Tag="TXT_KEY_PEDIA_DAMAGE_REDUCTION">
+			<Text>-{1_Num} 피해</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
+			<Text>피해 감소: +{1_Num}</Text>
+		</Row>
 	</Language_ko_KR>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_CITY_NAME_CATTARO">

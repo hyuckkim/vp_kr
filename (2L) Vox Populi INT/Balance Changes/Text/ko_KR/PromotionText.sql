@@ -2,7 +2,7 @@
 
 	-- added Hovering Unit
 	UPDATE Language_ko_KR
-	SET Text = '산 타일 상공 통과 가능'
+	SET Text = '산 타일 상공 통과 가능, 승선 없이 물 타일 통과 가능. 해양 타일에서 [COLOR_NEGATIVE_TEXT]공격 불가[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_HOVERING_UNIT_HELP';
 
 	-- added Withdraw Before Melee
@@ -617,8 +617,8 @@
 	WHERE Tag = 'TXT_KEY_PROMOTION_HELI_AMBUSH_2';
 
 	INSERT INTO Language_ko_KR (Tag, Text)
-	VALUES	('TXT_KEY_PROMOTION_HELI_AMBUSH_1_HELP', '기갑 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT] +25%[ENDCOLOR]'),
-			('TXT_KEY_PROMOTION_HELI_AMBUSH_2_HELP', '기갑 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT] +25%[ENDCOLOR]');
+	VALUES	('TXT_KEY_PROMOTION_HELI_AMBUSH_1_HELP', '기갑 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT] +50%[ENDCOLOR]'),
+			('TXT_KEY_PROMOTION_HELI_AMBUSH_2_HELP', '기갑 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT] +50%[ENDCOLOR]');
 
 	UPDATE Language_ko_KR
 	SET Text = '이글 헌터'
