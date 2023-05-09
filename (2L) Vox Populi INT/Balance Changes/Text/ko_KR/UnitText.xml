@@ -39,12 +39,12 @@
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER_HELP">
 			<Text>사막에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER">
+		<!-- <Row Tag="TXT_KEY_PROMOTION_COAST_WALKER">
 			<Text>연안 보행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER_HELP">
 			<Text>승선 가능[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
-		</Row>
+		</Row> -->
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
 			<Text>언덕 보행</Text>
 		</Row>
