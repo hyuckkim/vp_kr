@@ -153,7 +153,7 @@ INSERT INTO Language_ko_KR (Tag, Text)
 VALUES ('TXT_KEY_BUILDING_BABYLON_WALLS_HELP', '성벽을 대체하는 바빌론의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 위대한 과학자의 기술 가속이 과학을 10% 추가로 제공합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.');
 
 UPDATE Language_ko_KR
-SET Text = '바빌론 성벽은 바빌론의 고유 건물로 성벽을 대체합니다. 바빌론 성벽은 도시의 방어력을 15, 체력을 75 올려, 각 값이 둘 모두 기본 성벽보다 높습니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 인구의 10%만큼 증가하고, 도시의 사격 범위가 1 증가합니다. 바빌론 성벽은 과학자 점수를 제공하며 위대한 과학자의 기술 가속의 효과를 10% 증가시킵니다. 지어진 도시에서의 불행 관리에도 도움을 줍니다.'
+SET Text = '바빌론 성벽은 바빌론의 고유 건물로 성벽을 대체합니다. 바빌론 성벽은 도시의 방어력을 8, 체력을 150 올려, 기본 성벽보다 더 많은 방어를 제공합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 인구의 10%만큼 증가하고, 도시의 사격 범위가 1 증가합니다. 바빌론 성벽은 과학자 점수를 제공하며 위대한 과학자의 기술 가속의 효과를 10% 증가시킵니다. 지어진 도시에서의 불행 관리에도 도움을 줍니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY';
 
 --------------------
@@ -1000,7 +1000,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY';
 -- Russia
 --------------------
 UPDATE Language_ko_KR
-SET Text = '군수창고를 대체하는 러시아의 고유 건물입니다. 야영지, 광산, 제재소, 전략 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시가 시야를 무시하고 공격할 수 있게 됩니다. [NEWLINE][NEWLINE][ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]만큼 증가합니다. 적 지상 유닛이 이 도시의 영토에서 타일마다 [ICON_MOVES]이동력을 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 더 소모합니다. [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.'
+SET Text = '군수창고를 대체하는 러시아의 고유 건물입니다. 도시가 공격으로부터 받는 피해를 2 감소시킵니다. 야영지, 광산, 제재소, 전략 자원의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시가 시야를 무시하고 공격할 수 있게 됩니다. [NEWLINE][NEWLINE][ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]만큼 증가합니다. 적 지상 유닛이 이 도시의 영토에서 타일마다 [ICON_MOVES]이동력을 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 더 소모합니다. [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_HELP';
 
 UPDATE Language_ko_KR

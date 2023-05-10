@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="16">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(3.4) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(3.4.1) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -25,18 +25,18 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="65E915DD47FC0FEF04C0CBF0F22D113C" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
-    <File md5="DAB75F5D1BEF333D5D3DF5429AF33D69" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
-    <File md5="3DD5E1244E261AD457A2036985F7DFCC" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
+    <File md5="B12AFA75F3F335AF517D72E77EA2D15E" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
+    <File md5="AEB7D8724A9D7062845CA7A3643C0BBD" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
+    <File md5="4DC45E67049285DA85194C7BEFA5EC65" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
     <File md5="7EC3F6D3A1C533D4285C77B4B7C60C57" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
     <File md5="3E235ED6FFABBAE34933F7712355AEAF" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
     <File md5="BC99D8DE56AD8909FC137D80D23E1B9F" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="40C9DB866AF6807E71634B40B00046D2" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
-    <File md5="AF26BE0591DDBF6F5178A4F94939ADE8" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
+    <File md5="B742F77589F32B1AA7688E0AE9B76C3F" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
     <File md5="B47358516C216FDF27E046606A91E3EC" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="AB26A63005D1096917A075B0FDB91DF8" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
     <File md5="A78BB4FA58F699FD253C8E407317D8EA" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
-    <File md5="0BF42E26EEEADBD9E6379B81CFCA60CD" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
+    <File md5="3105EE3812A707F8F9E647E264C68BFD" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
     <File md5="65EE06C699DB270275CC9FB3B3885C0E" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
     <File md5="510529CF0F7C0A9B350F01D72FAE5306" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
     <File md5="B81BE4F4505F7A5CD45D7D3BA8A9662D" import="0">Balance Changes/Text/ko_KR/UIShortcutsCivilopedia_ko_KR.xml</File>
