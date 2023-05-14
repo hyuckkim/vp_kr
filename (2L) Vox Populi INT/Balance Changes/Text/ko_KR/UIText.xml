@@ -1630,17 +1630,29 @@
 				<Text>신자</Text>
 			</Row>
 	
-			<Row Tag="TXT_KEY_RO_TAB_MAP">
-				<Text>지도</Text>
-			</Row>
-			<!-- UI - Improved Military Overview -->
-				<Row Tag="TXT_KEY_XP">
-					<Text>경험치/레벨</Text>
-				</Row>
+		<Row Tag="TXT_KEY_RO_WR_YEAR_FOUNDED">
+			<Text>창시</Text>
+		</Row>
 		
-				<Row Tag="TXT_KEY_MO_SORT_XP">
-					<Text>경험치순 정렬</Text>
-				</Row>
+		<Row Tag="TXT_KEY_RO_WR_OWNED_CITIES">
+			<Text>[COLOR_POSITIVE_TEXT]모든 도시의 {1_Num}%[ENDCOLOR]가 {2_Name}{2: plural 1?을; 2?를;} 따릅니다. [NEWLINE][NEWLINE]당신의 {3_Num}개 도시에서 {4_Name}{4: plural 1?이; 2?가;} [ICON_RELIGION] 대중 종교입니다. 이는 전체 도시의 [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR]를 차지합니다. 이 도시들은 {7_Name}{7: plural 1?을; 2?를;} 믿는 도시의 [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR]를 차지합니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_RO_WR_OWNED_FOLLOWERS">
+			<Text>[COLOR_POSITIVE_TEXT]모든 시민의 {1_Num}%[ENDCOLOR]가 {2_Name}{4: plural 1?을; 2?를;} 따릅니다.[NEWLINE][NEWLINE]당신의 [ICON_CITIZEN] 시민 {3_Num}명이 {4_Name}{4: plural 1?을; 2?를;} 따릅니다. 이는 전체 [ICON_CITIZEN] 인구의 [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR]를 차지합니다. 이 신도들은 {7_Name}{7: plural 1?을; 2?를;} 믿는 신도의 [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR]를 차지합니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_RO_TAB_MAP">
+			<Text>지도</Text>
+		</Row>
+		<!-- UI - Improved Military Overview -->
+			<Row Tag="TXT_KEY_XP">
+				<Text>경험치/레벨</Text>
+			</Row>
+	
+			<Row Tag="TXT_KEY_MO_SORT_XP">
+				<Text>경험치순 정렬</Text>
+			</Row>
 	<!-- City Damage Reduction -->
 		<Row Tag="TXT_KEY_PEDIA_DAMAGE_REDUCTION">
 			<Text>-{1_Num} 피해</Text>
