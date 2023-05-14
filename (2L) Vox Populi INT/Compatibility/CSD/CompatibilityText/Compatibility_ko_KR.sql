@@ -92,12 +92,6 @@ UPDATE Language_ko_KR
 SET Text = '[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]면책 특권[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]통신사[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP';
 
--- Merchant Mission
-
-UPDATE Language_ko_KR
-SET Text = '유닛이 전쟁 중이 아닌 도시 국가 영토 안에서 이 명령을 수행하면 유닛이 소모됩니다. 이 임무를 수행할 수 있는 유닛은 3종류가 있습니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]외교 유닛:[ENDCOLOR] 도시 국가에 대한 [ICON_INFLUENCE]영향력을 증가시킵니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 외교관:[ENDCOLOR] 도시 국가에 대한 대량의 [ICON_INFLUENCE]영향력을 증가시키고 다른 모든 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시킵니다. [ICON_RES_PAPER]종이 자원 1개를 제공합니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 상인:[ENDCOLOR] 대량의 [ICON_GOLD]골드를 [COLOR:105:105:105:255][ENDCOLOR] 제공하고 모든 도시가 즉시 "국왕 경축일"을 맞이합니다. 국왕 경축일은 소유한 모든 소도시만큼 길이가 증가합니다.'
-WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
-
 -- Philanthropy
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET]추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공합니다. [NEWLINE][ICON_BULLET]위대한 외교관 출현율이 50% 증가합니다. [NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가 3개마다 모든 전략 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [NEWLINE][ICON_BULLET]도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.'

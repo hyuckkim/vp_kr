@@ -76,7 +76,7 @@
 			<Text>배치된 영향권 제거</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_REMOVE_SPHERE">
-			<Text>{1_CivName}에 배치된 영향권을 제거합니다. 도시는 도시국가로 되돌아가지만 그들은 여전히 당신에게 화를 낼 것입니다.</Text>
+			<Text>{1_CivName}에 배치된 영향권을 제거합니다. 도시는 도시 국가로 되돌아가고, 그들에 대한 [ICON_INFLUENCE] 영향력이 0으로 초기화됩니다. 영향권을 없애는 데에는 전쟁광 패널티가 없습니다.</Text>
 		</Row>
 
 		<!-- Tourism Bonus Turns for Tooltip -->

@@ -206,7 +206,7 @@ SET Text = '자결권'
 WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]자결권[ENDCOLOR]: 도시를 해방하면 모든 유닛이 15의 경험치를 얻고, 모든 도시국가가 50 [ICON_INFLUENCE]영향력을 얻고, 40 [ICON_RESEARCH] 과학을 얻습니다. (시대와 도시의 인구수에 따라 보정)'
+SET Text = '[COLOR_POSITIVE_TEXT]자결권[ENDCOLOR]: 도시를 해방하면(''도시 국가 정복으로 다른 문명 영향권 없애기'' 포함) 모든 유닛이 15의 경험치를 얻고, 모든 도시국가가 50 [ICON_INFLUENCE]영향력을 얻고, 40 [ICON_RESEARCH] 과학을 얻습니다. (시대와 도시의 인구수에 따라 보정)'
 WHERE Tag = 'TXT_KEY_POLICY_URBANIZATION_HELP';
 
 UPDATE Language_ko_KR
