@@ -49,5 +49,70 @@
 		<Row Tag="TXT_KEY_WORKSHOP">
 			<Text>[ICON_BULLET] [ICON_PRODUCTION]생산 교역 </Text>
 		</Row>
+	<!-- Filters in Trade Route Overview -->
+			<Row Tag="TXT_KEY_TROE_COL_RANGE">
+			<Text>[ICON_RANGE_STRENGTH]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_RANGE_TT">
+			<Text>도시의 최대 교역 [COLOR_POSITIVE_TEXT]범위[ENDCOLOR] 순으로 정렬하려면 클릭하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_LENGTH">
+			<Text>[ICON_WTF2]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_LENGTH_TT">
+			<Text>이 교역로에서의 [COLOR_POSITIVE_TEXT]거리[ENDCOLOR] 순으로 정렬하려면 클릭하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_TURNS">
+			<Text>[ICON_SWAP]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_COL_TURNS_TT">
+			<Text>이 교역로의 [COLOR_POSITIVE_TEXT]턴[ENDCOLOR] 순으로 정렬하려면 클릭하십시오.</Text>
+		</Row>
+        <!-- UndeadDevel: need some additional strings and add the Checkbox strings -->
+ 		<Row Tag="TXT_KEY_TROE_CHECKBOX_LAND">
+			<Text>지상</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_CHECKBOX_SEA">
+			<Text>해양</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_CHECKBOX_INTERNAL_FOOD">
+			<Text>국내/식량</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_CHECKBOX_INTERNAL_PRODUCTION">
+			<Text>국내/생산</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_CHECKBOX_FOREIGN_MINOR">
+			<Text>해외/도시 국가</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_CHECKBOX_FOREIGN_MAJOR">
+			<Text>해외/문명</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_CHECKBOX_BLOCKED">
+			<Text>차단됨 ([COLOR_RED]![ENDCOLOR])</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_CHECKBOX_UNIT">
+			<Text>선택된 유닛의 교역로만 보기</Text>
+		</Row>
+ 		<Row Tag="TXT_KEY_TROE_SEND_TR">
+			<Text>클릭해서 교역을 시작시킵니다.</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_WRONG_DOMAIN">
+			<Text>유닛의 교역로 타입이 다릅니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_INVALID_UNIT">
+			<Text>이 화면에서 교역을 시작하려면 적절한 교역 유닛을 사용해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROE_RELOCATE_UNIT">
+			<Text>클릭해서 교역 유닛을 재배치합니다.</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_TRADE_QUEST">
+			<Text>교역로 퀘스트 가능!</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_FRANCHISE_PRESENT">
+			<Text>기업 프랜차이즈 있음</Text>
+		</Row>
+        <Row Tag="TXT_KEY_TROE_FRANCHISE_AVAILABLE">
+			<Text>기업 프랜차이즈 설립 가능</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>
