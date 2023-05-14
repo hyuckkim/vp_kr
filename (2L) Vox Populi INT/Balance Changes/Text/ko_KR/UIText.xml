@@ -288,14 +288,14 @@
 
 		<!-- CSD -->
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT">
-			<Text>{1_UnitType}{1: plural 1?이; 2?가;} {3_CivShortDesc}에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가시키고 도시 국가에 알려진 다른 모든 주요 문명에 대한 영향력을 같은 양만큼 감소시켰습니다!</Text>
+			<Text>{1_UnitType}{1: plural 1?이; 2?가;} {3_CivShortDesc}에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가시키고 도시 국가에 알려진 다른 모든 주요 문명에 대한 영향력을 같은 양만큼 감소시켰습니다! 이 도시에 대한 당신의 최소 [ICON_INFLUENCE]영향력 또한 [COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR]로 상승했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_SUMMARY">
 			<Text>당신의 {1_UnitType}{1: plural 1?이; 2?가;} 임무를 완료했습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER">
-			<Text>{4_OwnerAdj} {1_UnitType}{1: plural 1?이; 2?가;} {3_CivShortDesc}에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가시키고 당신 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시켰습니다!</Text>
+			<Text>{4_OwnerAdj} {1_UnitType}{1: plural 1?이; 2?가;} {3_CivShortDesc}에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가시키고 당신 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시켰습니다! 이 도시에 대한 그들의 최소 [ICON_INFLUENCE]영향력 또한 [COLOR_POSITIVE_TEXT]{5_Num}[ENDCOLOR]로 상승했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER_SUMMARY">
 			<Text>다른 문명의 {1_UnitType}{1: plural 1?이; 2?가;} 임무를 완료했습니다!</Text>
