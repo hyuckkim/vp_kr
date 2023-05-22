@@ -50,12 +50,16 @@ Inno Setup Script로 빌드된 인스톨러 프로그램으로 자동으로 설�
 문명 5의 UI를 개선해주는 EUI를 Vox Populi와 호환시키는 모드의 번역용 모드입니다.
    - (4bL) UI - Promotion Tree for VP Localized (v 1)  
 진급 트리를 표시해주는 Promotion Tree의 번역용 모드입니다.  
+ - VPUI Text  
+모드와 게임을 로딩하는 동안의 툴팁들의 텍스트입니다. 모드 로딩 전부터 로드되어야 하므로, 모드 폴더에 넣을 수 없습니다.  
+기본 경로는 `C:\Users\<유저 이름>\Documents\My Games\Sid Meier's Civilization 5\Text` 입니다.
  - vp_kr installer file  
 exe 파일을 만들기 위한 inno setup용 설정 파일입니다. 게임에는 영향이 없습니다.  
  - 추가 모드용 Other Mods.zip은 [다른 리포지토리](https://github.com/hyuckkim/vp_modmods_kr)로 옮겼습니다.
 ## 함께 쓰면 좋은 모드
- - [More Unique Components for Vox Populi](http://gall.dcinside.com/civilization/261234) 3 / 4번째 고유 유닛 추가해주는 모드   
- - [Even More Resources for Vox Populi](http://gall.dcinside.com/civilization/186196) 더 더 다양한 자원 추가해주는 모드  
- - [Promotion Flags EUI for VP](https://forums.civfanatics.com/threads/promotion-flags-eui-for-vp.651957/page-2) 유닛 승급을 머리 위에 띄워주는 모드  
+ - [More Unique Components for Vox Populi](http://gall.dcinside.com/civilization/261234) 3 / 4번째 고유 유닛 추가해주는 모드  
  - [(vp) City Distance to 5](https://steamcommunity.com/sharedfiles/filedetails/?id=2304856716) 도시 타일 거리 늘려주는 모드  
- - [Pineappledan Tweaks for VP](https://gall.dcinside.com/civilization/262596) vp의 핵심 개발자가 개발하는 다음 버전 미리보기  
+
+ - [Bare Necessities](https://forums.civfanatics.com/threads/bare-necessities.645157/) 신앙 건물 추가 모드
+ - [Enhanced Naval Warfare for Vox Populi](https://forums.civfanatics.com/resources/enhanced-naval-warfare-for-vox-populi.26569/) 현대 시대 이후 해군 추가 모드
+ - [Better Lakes for VP](https://forums.civfanatics.com/threads/better-lakes-for-vp.662230/) 호수 개선 모드

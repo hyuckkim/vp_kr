@@ -52,7 +52,7 @@ Source: "..\(3aL) Vox Populi - EUI Compatibility INT\*"; DestDir: "{app}\MODS\(3
 Source: "..\(4bL) UI - Promotion Tree for VP Localized (v 1)\*"; DestDir: "{app}\MODS\(4bL) UI - Promotion Tree for VP Localized (v 1)"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VoteColor
-Source: "VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion;
+Source: "..\VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion;
 
 [Components]
 Name: "FullColor"; Description: "Vox Populi INT"; Types: FullColor; Flags: exclusive disablenouninstallwarning  
