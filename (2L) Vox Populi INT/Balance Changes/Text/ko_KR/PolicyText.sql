@@ -870,7 +870,7 @@ WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PIETY_HELP';
 
 -- Organized Religion
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]종교 체제[ENDCOLOR][NEWLINE][ICON_BULLET]당신 문명의 대중 종교를 따르지 않는 주변 도시에 대한 종교 압력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 전문가의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]종교 체제[ENDCOLOR][NEWLINE][ICON_BULLET]당신의 종교를 대중 종교로 따르는 도시들의 그 종교를 믿지 않는 도시에 대한 종교 압력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 전문가의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP';
 
 -- Mandate of Heaven (now Nobility)

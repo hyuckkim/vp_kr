@@ -261,7 +261,7 @@
 			<Text>전리품</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRIZE_RULES_HELP">
-			<Text>적 유닛 처치 시 [ICON_CAPITAL]수도에 [ICON_GOLD]골드 제공 [NEWLINE]체력 [COLOR_POSITIVE_TEXT]50% 이하[ENDCOLOR] 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+			<Text>적 유닛 처치 시 [ICON_STRENGTH] 전투력의 100%만큼 [ICON_GOLD] 골드 제공 [NEWLINE]체력 [COLOR_POSITIVE_TEXT]50% 이하[ENDCOLOR] 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
 		</Row>
 		
 	<!-- Order -->
@@ -384,7 +384,7 @@
 			<Text>파라오의 선물</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT_HELP">
-			<Text>유닛 처치 시 유닛을 생산한 도시에 [ICON_PRODUCTION]생산을 제공</Text>
+			<Text>유닛 처치 시 [ICON_STRENGTH] 전투력의 150%만큼 유닛을 생산한 도시에 [ICON_PRODUCTION]생산을 제공</Text>
 		</Row>
 
 		<!-- Commando -->
