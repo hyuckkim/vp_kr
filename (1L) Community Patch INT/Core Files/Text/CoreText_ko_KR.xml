@@ -20,6 +20,9 @@
 		<Row Tag="TXT_KEY_TOP_PANEL_ITR_GOLDEN_AGE_POINTS_YIELD_TT">
 			<Text>{1_Num} [ICON_GOLDEN_AGE]황금기 점수</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_TURNS_UNTIL_GOLDEN_AGE">
+			<Text>다음 황금기: {1_Num}턴</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GOLDEN_AGE_POINTS_FROM_TRADE_ROUTES">
 			<Text>{1_perTurn:number "#.##"} [ICON_GOLDEN_AGE]이 도시에 설립된 교역로에서</Text>
 		</Row>
