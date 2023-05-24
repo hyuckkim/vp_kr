@@ -230,7 +230,7 @@
 			<Text>이제 회사를 설립하는 것이 가능합니다! 현재 자원 독점, 설립 가능한 모든 기업 및 해당 기업에 대한 정보는 기업 및 독점 개요를 참조하십시오.[NEWLINE][NEWLINE]기업을 설립하기 위해 당신 문명의 도시 중 하나에 기업 본부를 건설하십시오! 오직 [COLOR_POSITIVE_TEXT]하나[ENDCOLOR]의 회사만 설립할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_CORP_ENABLED_S">
-			<Text>기업을 설립했습니다!</Text>
+			<Text>기업을 설립할 수 있습니다</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDED">
 			<Text>당신 문명이 [COLOR_POSITIVE_TEXT]{@1_CorporationName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 설립했습니다! 당신 문명의 기업을 널리 확장시키기 위해, 소유 도시에 기업 오피스를 설립하고 이 도시에서 외국 도시로[ICON_INTERNATIONAL_TRADE] 교역로를 보내십시오.</Text>
