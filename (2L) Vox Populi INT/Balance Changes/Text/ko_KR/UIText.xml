@@ -225,20 +225,47 @@
 
 		<!-- Annexed City States -->
 		<Row Tag="TXT_KEY_TP_GOLD_FROM_ANNEXED_MINORS">
-			<Text>[ICON_CITY_STATE]정복된 도시 국가에서 {1_Num}</Text>
+			<Text>{1_Num} [ICON_CITY_STATE]정복된 도시 국가에서 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET]정복된 도시 국가에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]정복된 도시 국가에서 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_FAITH_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET]정복된 도시 국가에서 [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]정복된 도시 국가에서 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ANNEXED_MINORS">
-			<Text>정복된 도시 국가에서 {1_Num} [ICON_RESEARCH] 과학</Text>
+			<Text>{1_Num} [ICON_RESEARCH] 과학 정복된 도시 국가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_FROM_ANNEXED_MINORS">
-			<Text>[ICON_BULLET]정복된 도시 국가에서 [ICON_RESEARCH] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_BULLET]정복된 도시 국가에서 [ICON_RESEARCH]</Text>
 		</Row>
+		
+		<!-- Espionage Events -->
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ESPIONAGE_INCOMING">
+			<Text>{1_Num} [ICON_SPY] 첩보에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ESPIONAGE_OUTGOING">
+			<Text>{1_Num} [ICON_SPY] 첩보에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 첩보에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 첩보에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 첩보에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_FAITH_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 첩보에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_POSITIVE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] 첩보에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_NEGATIVE">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] 첩보에서</Text>
+		</Row>
+		
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_ANNEXED_CITY_STATE_UNIT_SPAWN">
 			<Text>정복된 도시 국가 {1_CivName:textkey}에서 새 유닛을 제공합니다!</Text>
@@ -399,6 +426,39 @@
 		<Row Tag="TXT_KEY_EO_SPY_RIGGING_NO_COUP_POSSIBLE">
 			<Text>[COLOR_NEGATIVE_TEXT]도시 국가에서 쿠데타가 불가능하므로 선거 조작이 쿠데타의 성공률을 증가시키지 않습니다.[ENDCOLOR]</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS">
+			<Text>스파이 효과 활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_START_TURN">
+			<Text>턴 시작</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_END_TURN">
+			<Text>턴 종료</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_TARGET">
+			<Text>목표 플레이어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_SPY_OWNER">
+			<Text>스파이 소유자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_EFFECT">
+			<Text>효과</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NO_SPY_MISSIONS_ACTIVE">
+			<Text>활성화된 스파이 효과 없음</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_FRIENDLY">
+			<Text>내 건물과 정책에서: -{1_Num}턴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_ENEMY">
+			<Text>적 건물과 정책에서: +{1_Num}턴</Text>
+		</Row>
+		
+		
+		
+		
 
 		<!-- Feitoria Production Tooltip-->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_PRODUCTION">

@@ -40,25 +40,25 @@
 			<Text>[ICON_TOURISM]지역 관광 방해</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM_HELP">
-			<Text>스파이가 작전 중 목표 도시 [ICON_TOURISM] 관광의 75%를 수집합니다. 작전이 성공하면, 수집한 [ICON_TOURISM] 관광을 훔칩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>작전이 성공하면, {5_Turns} 동안의 [ICON_TOURISM] 관광을 훔칩니다. 스파이가 훔치는 관광은 목표 도시의 턴 당 평균 [ICON_TOURISM]관광 생산량의 75%입니다. {8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE">
 			<Text>[ICON_RESEARCH]과학 단지 침투</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE_HELP">
-			<Text>스파이가 작전 중 목표 도시 [ICON_RESEARCH] 과학의 25%를 수집합니다. 작전이 성공하면, 수집한 [ICON_RESEARCH] 과학을 훔칩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>작전이 성공하면, {5_Turns} 동안의 [ICON_RESEARCH] 과학을 훔칩니다. 스파이가 훔치는 과학은 목표 도시의 턴 당 평균 [ICON_RESEARCH]과학 생산량의 50%입니다. {8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_FAITH">
 			<Text>[ICON_PEACE]종교 유물 빼내기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_FAITH_HELP">
-			<Text>스파이가 작전 중 목표 도시 [ICON_PEACE] 신앙의 50%를 수집합니다. 작전이 성공하면, 수집한 [ICON_PEACE] 신앙을 훔칩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>작전이 성공하면, {5_Turns} 동안의 [ICON_PEACE] 신앙을 훔칩니다. 스파이가 훔치는 신앙은 목표 도시의 턴 당 평균 [ICON_PEACE]신앙 생산량의 75%입니다. {8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD">
 			<Text>[ICON_GOLD]국고 절도</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD_HELP">
-			<Text>스파이가 작전 중 목표 도시 [ICON_GOLD] 골드의 15%를 수집합니다. 작전이 성공하면, 수집한 [ICON_GOLD] 골드를 훔칩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>작전이 성공하면, {5_Turns} 동안의 [ICON_GOLD] 골드를 훔칩니다. 스파이가 훔치는 신앙은 목표 도시의 턴 당 평균 [ICON_GOLD]골드 생산량의 50%입니다. {8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
 			<Text>[ICON_CITIZEN]시골 주민 선동</Text>
@@ -165,16 +165,31 @@
 			<Text>[COLOR_POSITIVE_TEXT]추정 작전 길이:[ENDCOLOR] {1_Num}턴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PAST">
-			<Text>[COLOR_POSITIVE_TEXT]총 횡령:[ENDCOLOR] {1_Yield}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]횡령:[ENDCOLOR] {1_Yield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PAST_ENEMY">
-			<Text>[COLOR_NEGATIVE_TEXT]총 횡령:[ENDCOLOR] {1_Yield}</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]횡령:[ENDCOLOR] {1_Yield}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PRESENT">
-			<Text>직전 절도: {1_Yield} 획득.</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE">
+			<Text>[COLOR_POSITIVE_TEXT]턴 당 {1_Yield} 횡령[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE_ENEMY">
+			<Text>[COLOR_NEGATIVE_TEXT]턴 당 {1_Yield} 횡령[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED">
+			<Text>{2_Civ}에서의 첩보 작전 효과 종료: 턴 당 {1_MissionResult} 횡령</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_T">
+			<Text>첩보 효과 종료</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_ENEMY">
+			<Text>당신을 향한 첩보 작전 효과 종료: 턴 당 {1_MissionResult} 횡령</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_ENEMY_T">
+			<Text>외국 첩보 효과 종료</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ESTIMATED">
-			<Text>[COLOR_POSITIVE_TEXT]추정 절도 총량:[ENDCOLOR] {1_Yield}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]예상 횡령 양:[ENDCOLOR] {2_Turns} 동안 매 턴 {1_Yield}</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS">
@@ -199,5 +214,14 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_EXTRA_SIGHT_EVENT_HAS_ENDED_CITY_T">
 			<Text>{1_City}의 도시 시야 보너스가 종료되었습니다.</Text>
 		</Row>		
+		
+		<!-- Mission Durations -->
+		<Row Tag="TXT_KEY_SPY_DURATION_LEVEL_MODIFIER">
+			<Text>[NEWLINE]  [ICON_BULLET] 스파이 등급에서: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_DURATION_TRAIT_MODIFIER">
+			<Text>[NEWLINE]  [ICON_BULLET] 플레이어 특성에서: {1_Num}%</Text>
+		</Row>
+		
 	</Language_ko_KR>
 </GameData>

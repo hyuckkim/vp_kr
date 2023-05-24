@@ -307,7 +307,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 -- England
 --------------------
 UPDATE Language_ko_KR
-SET Text = '모든 해상 및 승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 해상 유닛의 [ICON_GOLD]유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 모든 도시에서 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_SPY]스파이가 [COLOR_POSITIVE_TEXT]1레벨[ENDCOLOR] 더 높은 상태로 첩보 활동을 수행합니다. 스파이 하나를 보유하고 게임을 시작합니다.'
+SET Text = '모든 해상 및 승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 해상 유닛의 [ICON_GOLD]유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 모든 도시에서 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_SPY]스파이가 스파이가 +10% 강해지고 [COLOR_POSITIVE_TEXT]1레벨[ENDCOLOR] 더 높은 상태로 첩보 활동을 수행합니다. 스파이 하나를 보유하고 게임을 시작합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_OCEAN_MOVEMENT';
 
 UPDATE Language_ko_KR
@@ -403,7 +403,7 @@ VALUES ('({1_Num}턴 남음)' , 'TXT_KEY_PRODMOD_TRAIT_BONUS_CONQUEST_TURNS');
 
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  일시적인 [ICON_CULTURE]문화 보너스에서 획득 (남은 턴: {2_TurnsLeft})'
+SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  일시적인 [ICON_CULTURE]문화 보너스에서 (남은 턴: {2_TurnsLeft})'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS';
 
 UPDATE Language_ko_KR

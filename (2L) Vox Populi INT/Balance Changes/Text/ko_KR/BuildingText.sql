@@ -377,11 +377,11 @@ SET Text = '건설을 완료하면 [ICON_GOLDEN_AGE] 황금기 점수를 [COLOR_
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_HAPPINESS_1]행복도가 1 증가합니다. 도시의 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_CULTURE]문화 및 [ICON_GOLD]골드를 25 [COLOR:105:105:105:255](시대 및 외국 스파이의 레벨에 따라 보정)[ENDCOLOR] 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD] 빈곤, [ICON_RESEARCH] 문맹, [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '도시의 [ICON_HAPPINESS_1]행복도가 1 증가합니다. 도시의 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 외국 스파이의 작전 기간이 1턴 증가합니다.[NEWLINE][NEWLINE]외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_CULTURE]문화 및 [ICON_GOLD]골드를 25 [COLOR:105:105:105:255](시대 및 외국 스파이의 레벨에 따라 보정)[ENDCOLOR] 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경, [ICON_GOLD] 빈곤, [ICON_RESEARCH] 문맹, [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_SPY]보안 등급이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '도시의 [ICON_SPY]보안 등급이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 외국 스파이의 작전 기간이 1턴 증가합니다.[ICON_FOOD]/[ICON_PRODUCTION]곤경에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE_HELP';
 
 UPDATE Language_ko_KR
@@ -445,7 +445,7 @@ SET Text = '이 국가 불가사의는 도시의  [ICON_CITIZEN] 시민 4명마�
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 모든 도시의 [ICON_HAPPINESS_3] 곤경이 감소합니다.  추가 [ICON_SPY]스파이 1명이 생기며 모든 기존 [ICON_SPY]스파이의 레벨이 오릅니다. 이 도시에서 [ICON_SPY]보안 등급이 15% 증가합니다. 공격용 스파이가 많은 제국은 이 건물에서 큰 이익을 얻을 것입니다. 국가정보원을 건설하려면 도시에 경찰서가 있어야 합니다.'
+SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 모든 도시의 [ICON_HAPPINESS_3] 곤경이 감소합니다.  추가 [ICON_SPY]스파이 1명이 생기며 모든 기존 [ICON_SPY]스파이의 레벨이 오릅니다. 이 도시에서 [ICON_SPY]보안 등급이 15% 증가합니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. 공격용 스파이가 많은 제국은 이 건물에서 큰 이익을 얻을 것입니다. 국가정보원을 건설하려면 도시에 경찰서가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -488,7 +488,7 @@ SET Text = '[ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화가 [COLOR_POSIT
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '이 도시에서 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. [NEWLINE][NEWLINE]모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다. [ICON_CITY_STATE]도시 국가 쿠데타 및 선거 조작 성공 시, 또는 이 도시에 잠입한 외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_RESEARCH]과학 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. (스파이 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]25).[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]경찰서[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다.이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
+SET Text = '이 도시에서 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. [NEWLINE][NEWLINE]모든 도시의 [ICON_FOOD]/[ICON_PRODUCTION]곤경 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. 스파이 작전을 성공하면 [ICON_RESEARCH]과학 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. (스파이 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]25).[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]경찰서[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다.이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP';
 
 UPDATE Language_ko_KR
