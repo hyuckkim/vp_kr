@@ -350,7 +350,7 @@ SET Text = '메할 세파리는 에티오피아 군대의 중추입니다. 소�
 WHERE Tag = 'TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY';
 
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES ('TXT_KEY_BUILDING_STELE_HELP', '기념비를 대체하는 에티오피아의 고유 건물입니다. 국경 확장 속도가 34% 증가합니다. [ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.');
+VALUES ('TXT_KEY_BUILDING_STELE_HELP', '기념비를 대체하는 에티오피아의 고유 건물입니다. [ICON_CULTURE_LOCAL] 국경 확장 속도가 34% 증가합니다. [ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.');
 
 --------------------
 -- France
