@@ -913,6 +913,37 @@ UPDATE Language_ko_KR
 SET Text = '이미 이번 턴에 공물을 바침'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
 
+-- Victory Panel
+INSERT INTO Language_ko_KR (Tag, Text)
+VALUES  ('TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_YOU', ' {1_PlayerName}{1: plural 1?이; 2?가;} 당신을 종속국으로 두었습니다.'),
+	('TXT_KEY_VP_DIPLO_TT_YOU_VASSALIZE_OTHER_PLAYER', ' 당신이 {1_CivName}{1: plural 1?을; 2?를;} 종속국으로 두었습니다.'),
+	('TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_OTHER_PLAYER', ' {1_PlayerName}{1: plural 1?이; 2?가;} {2_CivName}{1: plural 1?을; 2?를;} 종속국으로 두었습니다.'),
+	('TXT_KEY_VP_DIPLO_TT_UNMET_PLAYER_VASSALIZE_UNMET_PLAYER', ' 만나지 못한 플레이어가 다른 만나지 못한 플레이어를 종속국으로 두었습니다.'),
+	('TXT_KEY_VP_DIPLO_CAPITALS_TEAM_LEADING_TT', '팀 {1_Team}{1: plural 1?이; 2?가;} {2_num}개의 [ICON_CAPITAL] 수도/종속국을 지배합니다.'),
+	('TXT_KEY_VP_DIPLO_CAPITALS_ACTIVE_PLAYER_LEADING_TT', '당신이 {1_num}개의 원래 [ICON_CAPITAL] 수도/종속국을 지배합니다.'),
+	('TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING_TT', '{1_player}{1: plural 1?이; 2?가;} {2_num}개의 원래 [ICON_CAPITAL] 수도/종속국을 지배합니다.'),
+	('TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING_TT', '만나지 못한 플레이어가 {1_num}개의 [ICON_CAPITAL] 수도/종속국을 지배합니다.'),
+	('TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_ALLY', '도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}개를 지배합니다. 이는 그들의 동맹에 기여됩니다. 그들간의 동맹을 깨거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]'),
+	('TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_VASSAL_ALLY', '도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}개를 지배합니다. 이는 그들의 동맹의 종주국에 기여됩니다. 그들간의 동맹을 깨거나 동맹 국가를 해방하거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]'),
+	('TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_NO_ALLY', '도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}개를 지배합니다. 그들은 동맹이 없습니다. 그들과 동맹이 되거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]'),
+	('TXT_KEY_VP_DIPLO_TT_MINOR_VASSAL_CONTROLS_CAPITAL', '{1_Name}{1: plural 1?이; 2?가;} {2_Num}개를 지배합니다. 이는 그들의 종주국에 기여합니다. 그들을 해방하거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]');
+
+UPDATE Language_ko_KR
+SET Text = '{1_Team}의 승리를 위해 원래 [ICON_CAPITAL] 수도/종속국 [COLOR_POSITIVE_TEXT]{2_num}[ENDCOLOR]개가 필요합니다!'
+WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_TEAM_LEADING';
+
+UPDATE Language_ko_KR 
+SET Text = '원래 [ICON_CAPITAL] 수도/종속국 [COLOR_POSITIVE_TEXT]{1_num}[ENDCOLOR]개를 추가로 지배하면 승리합니다!' 
+WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_ACTIVE_PLAYER_LEADING';
+
+UPDATE Language_ko_KR 
+SET Text = '{1_player}의 승리를 위해 원래 [ICON_CAPITAL] 수도/종속국 [COLOR_POSITIVE_TEXT]{2_num}[ENDCOLOR]개가 필요합니다!' 
+WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING';
+
+UPDATE Language_ko_KR 
+SET Text = '만나지 못한 플레이어의 승리를 위해 원래 [ICON_CAPITAL] 수도/종속국 [COLOR_POSITIVE_TEXT]{1_num}[ENDCOLOR]개가 필요합니다!' 
+WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING';
+
 --내가추가
 
 UPDATE Language_ko_KR
