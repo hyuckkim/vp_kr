@@ -433,16 +433,16 @@
 			<Text>{1}개 건설 시 이념 선택</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEADISTANCEMODIFIER">
-			<Text>해상 교역로 거리: + {1}%</Text>
+			<Text>[ICON_CARGO_SHIP] 해상 교역로 거리: + {1}%</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEAGOLDBONUS">
-			<Text>해상 교역로 골드: + {1}[ICON_GOLD]</Text>
+			<Text>[ICON_CARGO_SHIP] 해상 교역로 골드: + {1}[ICON_GOLD]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDDISTANCEMODIFIER">
-			<Text>육상 교역로 거리: + {1}%</Text>
+			<Text>[ICON_CARAVAN] 육상 교역로 거리: + {1}%</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDGOLDBONUS">
-			<Text>육상 교역로 골드: + {1}[ICON_GOLD]</Text>
+			<Text>[ICON_CARAVAN] 육상 교역로 골드: + {1}[ICON_GOLD]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYSTATETRADEROUTEPRODUCTIONMODIFIER">
 			<Text>도시 국가 교역로 생산: + {1}%[ICON_PRODUCTION]</Text>

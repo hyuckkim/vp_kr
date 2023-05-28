@@ -6103,22 +6103,22 @@
 			<Text>{@2_MinorCivName}{@2: plural 1?과; 2?와;} {@1_CivName} 사이의 결혼!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_1">
-			<Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;}  {@2_MinorCivName}에게서 세계 대회 추가 대표단 1명을 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.</Text>
+			<Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;}  {@2_MinorCivName}에게서 세계 대회 추가 대표단 1명을 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 200 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_2">
-			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}에게서 세계 대회 추가 대표단 1명을 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.</Text>
+			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}에게서 세계 대회 추가 대표단 1명을 확보하며, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 증가하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 200 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_MARRIED_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]정략 결혼에서 [COLOR_POSITIVE_TEXT]{1_Num}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_TT">
-			<Text>{1_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 세계 대회 추가 대표단 1명을 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하며 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.</Text>
+			<Text>{1_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 세계 대회 추가 대표단 1명을 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하며 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 200 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_TT">
-			<Text>{2_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 세계 대회 추가 대표단 1명을 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하며 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 정략 결혼에 필요한 {2_BuyoutCost} [ICON_GOLD]골드가 있어야 합니다.[ENDCOLOR]</Text>
+			<Text>{2_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 세계 대회 추가 대표단 1명을 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하며 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 200 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 정략 결혼에 필요한 {2_BuyoutCost} [ICON_GOLD]골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_ALLY_TT">
-			<Text>{3_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 세계 대회 추가 대표단 1명을 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하며 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 떨어지지 않습니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 (현재 {2_TurnsAllied}턴 동안 지속됨) 정략 결혼에 필요한 {3_BuyoutCost} [ICON_GOLD]골드가 있어야 합니다.[ENDCOLOR]</Text>
+			<Text>{3_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 세계 대회 추가 대표단 1명을 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가하며 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 200 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 (현재 {2_TurnsAllied}턴 동안 지속됨) 정략 결혼에 필요한 {3_BuyoutCost} [ICON_GOLD]골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<!-- Venice Tooltip -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
