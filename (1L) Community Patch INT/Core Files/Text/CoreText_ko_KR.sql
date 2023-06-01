@@ -315,6 +315,15 @@ UPDATE Language_ko_KR
 SET Text = '매우 최근 누군가가 공물을 요구함'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
 
+-- Quest Changes
+UPDATE Language_ko_KR
+SET Text = '교역로를 연결해달라고 부탁했습니다.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE_FORMAL';
+
+UPDATE Language_ko_KR
+SET Text = '교역로를 연결해 주시겠습니까?'
+WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE';
+
 INSERT INTO Language_ko_KR
 			(Tag,										Text)
 SELECT		'TXT_KEY_POP_CSTATE_BULLY_FACTOR_MONGOL_TERROR',	'당신은 최근 도시 국가를 합병했습니다.';
