@@ -406,7 +406,7 @@ SET Text = '숲/정글 제거: +{1_Num}[ICON_PRODUCTION] 생산'
 WHERE Tag = 'TXT_KEY_ABLTY_TECH_BOOST_CHOP';
 
 INSERT INTO Language_ko_KR (Tag, Text) VALUES
-('TXT_KEY_REMOVE_FOREST_JUNGLE_COST_REDUCTION', "숲/정글 제거를 완료하려면 {1_Turns}턴이 필요합니다." );
+('TXT_KEY_REMOVE_FOREST_JUNGLE_COST_REDUCTION', "숲/정글 제거에 {1_Turns}% 턴이 필요합니다." );
 
 -- Penicilin and Nanotech 
 
