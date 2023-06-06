@@ -899,7 +899,7 @@ SET Text = '[COLOR_NEGATIVE_TEXT]당신은 이들과 친선 관계에 있는 지
 WHERE Tag = 'TXT_KEY_DIPLO_HUMAN_DENOUNCED_FRIEND';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]우리는 같은 지도자를 비난했습니다![ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT]우리는 그들이 적이라고 선언한 지도자를 비난했습니다![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_MUTUAL_ENEMY';
 
 UPDATE Language_ko_KR
