@@ -1683,12 +1683,15 @@
 			<Text>군사력</Text>
 		</Row>
 		<!-- UI - Religion Spread -->
-				<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
-				<Text>도시</Text>
-			</Row>
-			<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
-				<Text>신자</Text>
-			</Row>
+		<Row Tag="TXT_KEY_RELIGION_CHOOSER_ADISOR_RECOMMENDATION">
+			<Text>[COLOR_POSITIVE_TEXT]보좌관은 이 교리를 추천합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
+			<Text>도시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
+			<Text>신자</Text>
+		</Row>
 	
 		<Row Tag="TXT_KEY_RO_WR_YEAR_FOUNDED">
 			<Text>창시</Text>
