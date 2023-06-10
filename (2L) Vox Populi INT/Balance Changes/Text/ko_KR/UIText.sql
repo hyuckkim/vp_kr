@@ -913,6 +913,15 @@ UPDATE Language_ko_KR
 SET Text = '이미 이번 턴에 공물을 바침'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
 
+-- Quest Changes
+UPDATE Language_ko_KR
+SET Text = '교역로를 연결해달라고 부탁했습니다.'
+WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE_FORMAL';
+
+UPDATE Language_ko_KR
+SET Text = '교역로를 연결해 주시겠습니까?'
+WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE';
+
 -- Victory Panel
 INSERT INTO Language_ko_KR (Tag, Text)
 VALUES  ('TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_YOU', ' {1_PlayerName}{1: plural 1?이; 2?가;} 당신을 종속국으로 두었습니다.'),
