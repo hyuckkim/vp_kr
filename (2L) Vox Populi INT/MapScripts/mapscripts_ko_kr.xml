@@ -107,10 +107,10 @@
             <Text>일부 추가 보너스 추가</Text>
         </Row>
         <Row Tag="TXT_KEY_MAP_STRATEGIC_DEPOSIT_SIZE">
-            <Text>전략 자원 크기</Text>
+            <Text>전략 자원 개수</Text>
         </Row>
         <Row Tag="TXT_KEY_MAP_STRATEGIC_DEPOSIT_SIZE_DESCRIPTION">
-            <Text>각 전략 자원의 크기를 조절합니다.</Text>
+            <Text>각 전략 자원의 개수 조절합니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_MAP_SMALL">
             <Text>작음</Text>
@@ -131,7 +131,7 @@
             <Text>풍부함</Text>
         </Row>
         <Row Tag="TXT_KEY_MAP_STRATEGIC_RESOURCE_DENSITY">
-            <Text>전략적 자원 밀도</Text>
+            <Text>전략 자원 밀도</Text>
         </Row>
         <Row Tag="TXT_KEY_MAP_STRATEGIC_RESOURCE_DENSITY_DESCRIPTION">
             <Text>지도 상의 전략 자원 양을 설정합니다.</Text>
