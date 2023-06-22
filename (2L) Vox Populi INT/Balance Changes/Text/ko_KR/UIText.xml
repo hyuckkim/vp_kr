@@ -3,7 +3,7 @@
 <GameData>
 	<Language_ko_KR>
 		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_TOPIC">
-			<Text>[COLOR_GREEN]시대별 보정[ENDCOLOR]</Text>
+			<Text>[COLOR_GREEN]시대별 산출 보정[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_SUMMARY">
 			<Text>여러 산출물, 특히 정책, 교리, 건물 등의 산출물은 [COLOR_POSITIVE_TEXT]''시대별 보정''[ENDCOLOR]이 있습니다. 이것은 산출량이 게임 단계에 따라, 더 정확히는 현재 시대에 따라 선형적으로 증가한다는 뜻입니다:[NEWLINE]1배: 고대 및 고전 시대[NEWLINE]2배: 중세 시대[NEWLINE]3배: 르네상스 시대[NEWLINE]4배: 산업 시대[NEWLINE]5배: 현대 시대[NEWLINE]6배: 원자력 시대[NEWLINE]7배: 정보화 시대[NEWLINE][NEWLINE]한국과 같은 특수한 경우, 홀수 시대마다 보정을 받기도 합니다:[NEWLINE]1배: 고대 및 고전 시대[NEWLINE]2배: 중세 및 르네상스 시대[NEWLINE]3배: 산업 및 현대 시대[NEWLINE]4배: 원자력 및 정보화 시대</Text>
@@ -713,6 +713,19 @@
 			<Text>해당 자원을 교역로에 연결하면 "카니발"이 시작됩니다. 이는 도시의 [ICON_FOOD]성장률을 증가시키고 [ICON_HAPPINESS_3]불행이 감소시킵니다!</Text>
 		</Row>
 
+		<!-- Deny Quest Influence -->
+		<Row Tag="TXT_KEY_CITY_STATE_DIABLED_QUEST_INFLUENCE_YES_TT">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]에서 퀘스트 완료 [ICON_INFLUENCE] 영향력 제공을 거부했습니다. 입장을 바꾸어 퀘스트 완료로 인한 [ICON_INFLUENCE] 영향력을 보상으로 받을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIABLED_QUEST_INFLUENCE_NO_TT">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]에서 퀘스트 완료 [ICON_INFLUENCE] 영향력 제공을 거부할 수 있습니다. 이것으로 당신이 이 도시 국가의 [ICON_INFLUENCE] 영향력을 놓고 경쟁하는 지도자와의 정치적 갈등을 피하려고 시도합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIABLED_QUEST_INFLUENCE_YES">
+			<Text>퀘스트 영향력 보상 [ICON_INFLUENCE] 활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIABLED_QUEST_INFLUENCE_NO">
+			<Text>퀘스트 영향력 보상 [ICON_VP_NOINFLUENCE] 비활성화</Text>
+		</Row>
 		<!-- Bully Metric Values -->
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_FOOD_AMOUNT">
 			<Text>공물 [ICON_GOLD]골드 {1_GoldValue}, [ICON_FOOD]식량 {1_Value} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)</Text>
@@ -1649,11 +1662,14 @@
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
 			<Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} 아무런 저항도 받지 않고 적 공군 유닛 및 지상의 대공 유닛을 공격했습니다!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_SAPPED">
+			<Text>도시가 [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 [ICON_VP_SAPPED] 붕괴되었습니다. [ICON_BLOCKADED] 봉쇄와 같은 효과를 내지만, 적 유닛으로 포위되지 않아도 유지됩니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_MINED">
-			<Text>심해 지뢰밭 있음</Text>
+			<Text>적 해군 유닛과 승선한 유닛이 이 도시의 해양 영토에 진입할 때 [ICON_MOVEMENT]모든 이동력을 잃습니다. 이 도시의 해양 타일에서 턴을 마치는 유닛은 [COLOR_NEGATIVE_TEXT]5의 피해[ENDCOLOR]를 입습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
-			<Text>공항 있음</Text>
+			<Text>이 도시에서 [COLOR_POSITIVE_TEXT]공중 강하[ENDCOLOR]를 할 수 있습니다. 도시의 공중 유닛 한도가 증가합니다. 도시의 폭격 대항 [ICON_STRENGTH] 피해량이 +10 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AUTOMATE_PRODUCTION_TT">
 			<Text>도시의 생산을 자동화합니다.</Text>

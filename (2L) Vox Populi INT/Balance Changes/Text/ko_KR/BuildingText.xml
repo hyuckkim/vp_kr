@@ -123,7 +123,7 @@
 			<Text>사원을 대체하는 비잔티움의 고유 건물입니다. 유지비가 필요하지 않으며, 도시의 [ICON_CITIZEN] 시민의 수에 기반해 [ICON_PEACE] 신앙을 제공합니다. 교역로에서 오는 종교 압력이 두 배로 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_HELP">
-			<Text>사원을 대체하는 비잔틴의 고유 건물입니다. [ICON_CITIZEN]시민 3명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE] 교역로가 제공하는 종교 압력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_AMBER] 호박석: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1</Text>
+			<Text>사원을 대체하는 비잔틴의 고유 건물입니다. [ICON_CITIZEN]시민 3명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE] 교역로가 제공하는 종교 압력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_AMBER] 호박석: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON">
 			<Text>코톤</Text>
@@ -445,7 +445,7 @@
 			<Text>블레츨리 파크</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
-			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 과학자 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 2명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시에서 스파이 저항이 15% 증가합니다. 아군 스파이의 작전 기간이 2턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 [ICON_VP_SCIENTIST] 과학자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 2명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시에서 스파이 저항이 15% 증가합니다. 아군 스파이의 작전 기간이 2턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
 			<Text>버킹엄 밀턴 케인스에 있는 블레츨리 공원은 제2차 세계 대전 동안 추축국의 비밀 통신, 특히 독일의 에니그마와 로렌츠 암호를 정기적으로 관통한 영국의 정부 암호와 사이퍼 학교의 중심 장소였습니다. 제2차 세계 대전 영국 정보국의 공식 역사학자는 블레츨리에서 제작된 "울트라" 첩보가 전쟁을 2년에서 4년 단축시켰으며, 그것이 없었다면 전쟁의 결과는 불확실했을 것이라고 썼습니다. 그 장소는 이제 그러한 업적을 기념하고 기념하는 교육적이고 역사적인 명소가 되었습니다.</Text>
@@ -579,7 +579,7 @@
 			<Text>알현실</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_HELP">
-			<Text>[ICON_CAPITAL]수도에 음악가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 도시의 작업 범위가 +1 증가하고 도시의 모든 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [COLOR_MAGENTA]전통[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 음악가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 도시의 작업 범위가 +1 증가하고 도시의 모든 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [COLOR_MAGENTA]전통[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_PEDIA">
 			<Text>알현실은 왕관의 공식 관저에 있는 방, 종종 홀보다는 궁전이나 요새화된 성으로, 고위 인물의 왕좌가 정교한 장엄함으로 세워지는 곳입니다. - 보통 계단식으로, 그리고 캐노피 아래, 둘 다 그리스 단어 thronos의 원래 개념의 일부입니다.</Text>
@@ -606,7 +606,7 @@
 			<Text>궁전 정원</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_HELP">
-			<Text>[ICON_CAPITAL]수도에 작가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 모든 기념비, 정원, 목욕탕의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]탁월[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 작가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 모든 기념비, 정원, 목욕탕의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]탁월[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_PEDIA">
 			<Text>정원은 식물과 다른 형태의 자연을 전시, 재배, 즐기기 위해 마련된 계획된 공간입니다. 그 정원은 천연 재료와 인공 재료를 모두 포함할 수 있습니다. 오늘날 가장 일반적인 형태는 주거용 정원으로 알려져 있지만, 전통적으로 정원이라는 용어는 더 일반적인 것이었습니다. 야생 동물들을 모의 자연 서식지에 전시하는 동물원은 이전에는 동물학적인 정원이라고 불렸습니다. 서양의 정원은 거의 보편적으로 식물에 기반을 두고 있으며, 정원은 종종 식물원의 단축된 형태를 나타냅니다.</Text>
@@ -615,7 +615,7 @@
 			<Text>궁정 예배당</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_HELP">
-			<Text>[ICON_CAPITAL]수도에 예술가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [COLOR_MAGENTA]주권[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 예술가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [COLOR_MAGENTA]주권[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_PEDIA">
 			<Text>예배당은 더 크고 종종 비종교적인 기관에 붙어 있거나 주요 종교 기관의 연장선으로 여겨지는 교제, 기도, 예배의 종교적인 장소입니다. 그것은 대학, 병원, 궁전, 감옥, 장례식장, 교회, 유대교 회당 또는 모스크와 같은 더 큰 구조물이나 복합체의 일부일 수도 있고, 군함이나 상업 선박에 위치해 있을 수도 있고, 때로는 그 기반이 있는 완전히 독립된 건물일 수도 있습니다. 많은 군사 시설에는 보통 군 목사의 지도 아래 군인들을 사용하기 위한 예배당이 있습니다.</Text>
@@ -684,7 +684,7 @@
 			<Text>화이트 타워는 런던 타워의 오래된 건물입니다. 그것은 1080년대 초에 정복자 윌리엄에 의해 지어졌고 나중에 확장되었습니다. 하얀 탑은 성의 가장 강력한 방어 지점이었고, 원래 왕과 그의 대리인들을 수용했습니다. 오랜 역사를 통해, 타워는 영국에 많은 것들이 되었습니다. 폭정의 상징, 금고, 관리소, 조폐소, 궁전, 감옥입니다. 오늘날, 런던탑은 많은 보물들 중, 영국 왕실의 왕관 보석을 자랑하는 거대한 박물관입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_HELP">
-			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 슬롯을 포함합니다. [NEWLINE][NEWLINE] 이 도시에 잠입한 외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_RESEARCH]과학과 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다[COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5) )[ENDCOLOR]. [NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 포함합니다. [NEWLINE][NEWLINE] 이 도시에 잠입한 외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_RESEARCH]과학과 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다[COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5) )[ENDCOLOR]. [NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_STRATEGY">
 			<Text>제철소를 대체하는 영국의 고유 건물입니다. 제철소의 보너스에 더해, 화이트 타워는 경찰대와 성, 무기고를 강화하고 걸작 예술품을 포함합니다. 공격적 또는 방어적 스파이 액션에 보너스를 국가 정보원보다 일찍 제공합니다.</Text>
@@ -702,7 +702,7 @@
 			<Text>주조 공장은 금속 주물을 생산하는 공장입니다. 금속은 액체로 녹여 금형에 부은 다음 금속이 냉각되면서 굳어진 후 금형 재료나 주물을 제거함으로써 모양으로 주조됩니다. 가장 일반적으로 가공되는 금속은 알루미늄과 주철입니다. 그러나 청동, 황동, 강철, 마그네슘 및 아연과 같은 다른 금속도 주조 공장에서 주물을 생산하는 데 사용됩니다. 이 과정에서 원하는 모양과 크기의 부품이 형성될 수 있습니다. 전쟁 상황에서 주조 공장은 대포 및 기타 필수 포위 장비 생산에 필수적이었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_HELP">
-			<Text>도시의 광산과 기술자 전문가의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]일제 사격[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_GOLD]골드 +2</Text>
+			<Text>도시의 광산과 [ICON_VP_ENGINEER] 기술자의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]일제 사격[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_GOLD]골드 +2</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_STRATEGY">
 			<Text>대장간을 대체하는 오스만의 고유 건물입니다. 군사 유닛을 생산하면 추가 과학을 제공하고, 공성 유닛을 매우 빠르게 생산하며 공성 유닛에 [COLOR_POSITIVE_TEXT]일제 사격[ENDCOLOR] 승급을 부여합니다. 적의 방어벽을 무너뜨리고 영토를 정복하기 위해 대규모 포병력을 구축하려면 공성 주조 공장을 건설하십시오.</Text>
