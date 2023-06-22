@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_ko_KR>
+        <Row Tag="TXT_KEY_MAP_PLAYERS_START_IN">
+            <Text>플레이어 시작 위치</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_TERRA_LARGEST_CONTINENT">
+            <Text>테라 - 가장 큰 대륙</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_CONTINENTS_EVERYWHERE">
+            <Text>대륙 - 어디든지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OCEAN_SHAPES">
+            <Text>해양 모양</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OCEAN_SHAPES_DESCRIPTION">
+            <Text>대륙을 나누는 수직 해양 틈</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_2_ATLANTIC">
+            <Text>2 대서양</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_PACIFIC_AND_ATLANTIC">
+            <Text>태평양과 대서양</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_2_PACIFIC">
+            <Text>2 태평양</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_2_RANDOM">
+            <Text>2 무작위</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_1_RANDOM">
+            <Text>1 무작위</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_NONE">
+            <Text>없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_RANDOM">
+            <Text>무작위</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_RIFT_WIDTH">
+            <Text>해협 폭</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_RIFT_WIDTH_DESCRIPTION">
+            <Text>통과할 수 없는 해양 폭을 설정합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_NARROW">
+            <Text>좁음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_NORMAL">
+            <Text>보통</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_WIDE">
+            <Text>넓음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_CIRCUMNAVIGATION">
+            <Text>항해 일주</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_CIRCUMNAVIGATION_DESCRIPTION">
+            <Text>세계를 수평으로 가로지를 수 있게 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_ON">
+            <Text>켜짐</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OFF">
+            <Text>꺼짐</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_FORCE_COASTAL_START">
+            <Text>강제 해안 시작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_FORCE_COASTAL_START_DESCRIPTION">
+            <Text>모든 주요 문명이 해안에서 시작합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_YES">
+            <Text>예</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_NO">
+            <Text>아니오</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_LAND_SHAPES">
+            <Text>대륙 형태</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_LAND_SHAPES_DESCRIPTION">
+            <Text>대륙과 섬의 형태를 조절</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_BLOCKY">
+            <Text>뭉툭함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_STRINGY">
+            <Text>거침</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_EXTREMELY_STRINGY">
+            <Text>매우 거침</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_STARTING_RESOURCES">
+            <Text>시작 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_STARTING_RESOURCES_DESCRIPTION">
+            <Text>시작 위치에 전략 자원 및 추가 보너스를 제공합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_ADD_BOTH">
+            <Text>둘 다 추가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_ADD_SOME_STRATEGICS">
+            <Text>일부 전략 자원 추가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_ADD_SOME_EXTRA_BONUS">
+            <Text>일부 추가 보너스 추가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_STRATEGIC_DEPOSIT_SIZE">
+            <Text>전략 자원 크기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_STRATEGIC_DEPOSIT_SIZE_DESCRIPTION">
+            <Text>각 전략 자원의 크기를 조절합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_SMALL">
+            <Text>작음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_LARGE">
+            <Text>큼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_BONUS_RESOURCE_DENSITY">
+            <Text>보너스 자원 밀도</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_BONUS_RESOURCE_DENSITY_DESCRIPTION">
+            <Text>지도 상의 보너스 자원 양을 설정합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_SPARSE">
+            <Text>희박함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_ABUNDANT">
+            <Text>풍부함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_STRATEGIC_RESOURCE_DENSITY">
+            <Text>전략적 자원 밀도</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_STRATEGIC_RESOURCE_DENSITY_DESCRIPTION">
+            <Text>지도 상의 전략 자원 양을 설정합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_LUXURY_RESOURCE_DENSITY">
+            <Text>사치 자원 밀도</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_LUXURY_RESOURCE_DENSITY_DESCRIPTION">
+            <Text>지도 상의 사치 자원 양을 설정합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS">
+            <Text>AssignStartingPlots 덮어쓰기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS_DESCRIPTION">
+            <Text>켜면 지도에 추가 최적화가 적용됩니다. 표준 VP 성능을 필요로 한다면 꺼주세요.</Text>
+        </Row>
+    </Language_ko_KR>
+</GameData>

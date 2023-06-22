@@ -3244,6 +3244,10 @@
 		<Row Tag="TXT_KEY_PEDIA_IMPROVEMENT_RESOURCE_CBP_LABEL">
 			<Text>시설 산출량</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PEDIA_YIELDPERERA_LABEL">
+			<Text>시대별 산출:</Text>
+		</Row>
+
 		<!-- Score Text -->
 		<Row Tag="TXT_KEY_REPLAY_DATA_TOURISMPERTURN">
 			<Text>매 턴 [ICON_TOURISM]관광</Text>
@@ -3933,7 +3937,7 @@
 		<Row Tag="TXT_KEY_WARMONGER_HATE_MINIMAL">
 			<Text> (가벼운 전쟁 도발은 무시합니다.)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WARMONGER_HATE_AZTECS">
+		<Row Tag="TXT_KEY_WARMONGER_HATE_BLOODTHIRSTY">
 			<Text> (그들은 피에 굶주린 전쟁광이다!)</Text>
 		</Row>
 		<!-- :) -->

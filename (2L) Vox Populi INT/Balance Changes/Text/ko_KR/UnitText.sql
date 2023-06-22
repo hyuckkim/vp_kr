@@ -7,10 +7,10 @@
 	
 	-- Great Merchant Text
 	INSERT INTO Language_ko_KR (Tag, Text)
-	SELECT 'TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE', '유닛이 소모됩니다. 두 도시를 연결하는 도로 위에 건설되면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 철도 위에서는 두 배가 됩니다. 이 소도시를 지나는 교역로가 있다면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 산업 시대부터는 두 배가 됩니다.[NEWLINE][NEWLINE] 위인 시설은 전략 자원을 교역망에 연결합니다. 소도시는 위대한 상인의 외교 임무에서 오는 골드 생산량을 25% 늘리고 국왕 경축일의 기간을 1턴 증가시킵니다.';
+	SELECT 'TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE', '유닛이 소모됩니다. 두 도시를 연결하는 도로 위에 건설되면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 철도 위에서는 두 배가 됩니다. 이 소도시를 지나는 교역로가 있다면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 산업 시대부터는 두 배가 됩니다.[NEWLINE][NEWLINE] 위인 시설은 전략 자원을 교역망에 연결합니다. 소도시는 위대한 상인의 외교 임무에서 오는 골드 생산량과 국왕 경축일 기간을 [COLOR_POSITIVE]25%[ENDCOLOR] 증가시킵니다.';
 	UPDATE Builds SET Help = 'TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE' WHERE Type = 'BUILD_CUSTOMS_HOUSE';
 
-	UPDATE Language_ko_KR SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 이 임무를 수행할 수 있는 유닛은 3종류가 있습니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]외교 유닛:[ENDCOLOR] 도시 국가에 대한 [ICON_INFLUENCE]영향력을 증가시킵니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 외교관:[ENDCOLOR] 도시 국가에 대한 대량의 [ICON_INFLUENCE]영향력을 증가시키고 다른 모든 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시킵니다. [ICON_RES_PAPER]종이 자원 1개를 제공하고 도시 국가에 {1_Num}의 [ICON_INFLUENCE] 최소 영향력을 부여합니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 상인:[ENDCOLOR] 대량의 [ICON_GOLD]골드를 [COLOR:105:105:105:255][ENDCOLOR] 제공하고 모든 도시가 즉시 "국왕 경축일"을 맞이합니다. 국왕 경축일은 소유한 모든 소도시만큼 길이가 증가합니다.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]위대한 상인:[ENDCOLOR] 대량의 [ICON_GOLD] 골드를 얻고 모든 도시에서 국왕 경축일을 5턴동안 시작합니다. 국왕 경축일은 소유한 소도시마다 1턴씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
+	UPDATE Language_ko_KR SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 이 임무를 수행할 수 있는 유닛은 3종류가 있습니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]외교 유닛:[ENDCOLOR] 도시 국가에 대한 [ICON_INFLUENCE]영향력을 증가시킵니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 외교관:[ENDCOLOR] 도시 국가에 대한 대량의 [ICON_INFLUENCE]영향력을 증가시키고 다른 모든 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시킵니다. [ICON_RES_PAPER]종이 자원 1개를 제공하고 도시 국가에 {1_Num}의 [ICON_INFLUENCE] 최소 영향력을 부여합니다.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]위대한 상인:[ENDCOLOR] 대량의 [ICON_GOLD] 골드를 얻고 모든 도시에서 국왕 경축일을 5턴동안 시작합니다. 국왕 경축일은 소유한 소도시마다 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MERCHANT]위대한 상인은 특별한 [COLOR_POSITIVE_TEXT]소도시[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 소도시는 많은 [ICON_GOLD]골드와 [ICON_FOOD]식량을 제공합니다. 또한 위대한 상인은 도시 국가로 이동하여 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 할 수 있습니다. 무역 임무는 대량의 [ICON_GOLD]골드를 벌어들이고 즉시 모든 도시가 국왕 경축일을 맞이하게 합니다. 무역 임무는 소유한 소도시마다 효과가 25% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.[NEWLINE][NEWLINE]소도시는 두 도시 사이를 연결하는 도로 위에 있다면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +1 제공합니다. 철도라면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +2 제공합니다. 소도시를 지나가는 교역로가 있다면 추가 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 제공합니다(도로에서 +1, 철도에서 +2).' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY';
 
@@ -23,10 +23,10 @@
 
 	-- Great Engineer Text
 	INSERT INTO Language_ko_KR (Tag, Text)
-	SELECT 'TXT_KEY_BUILD_CONSUMED_HELP_MANUFACTORY', '유닛이 소모됩니다.[NEWLINE][NEWLINE]위인 시설이 전략 자원 위에 건설되면 무역망에 연결됩니다. 제조소는 위대한 기술자의 생산 가속 능력을 10%씩 증가시킵니다.';
+	SELECT 'TXT_KEY_BUILD_CONSUMED_HELP_MANUFACTORY', '유닛이 소모됩니다.[NEWLINE][NEWLINE]위인 시설이 전략 자원 위에 건설되면 무역망에 연결됩니다. 제조소는 위대한 기술자의 생산 가속 능력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]씩 증가시킵니다.';
 	UPDATE Builds SET Help = 'TXT_KEY_BUILD_CONSUMED_HELP_MANUFACTORY' WHERE Type = 'BUILD_MANUFACTORY';
 
-	UPDATE Language_ko_KR SET Text = '이 명령을 통해 현재 도시에서 생산하고 있는 생산 활동을 가속합니다. 소유한 모든 제조소마다 가속하는 생산의 양이 10%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_HURRY_PRODUCTION_HELP';
+	UPDATE Language_ko_KR SET Text = '이 명령을 통해 현재 도시에서 생산하고 있는 생산 활동을 가속합니다. 소유한 모든 제조소마다 가속하는 생산의 양이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_HURRY_PRODUCTION_HELP';
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_ENGINEER]위대한 기술자는 특별한 [COLOR_POSITIVE_TEXT]제조소[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 제조소는 대량의 [ICON_PRODUCTION]생산을 제공합니다. 또한 위대한 기술자로 도시의 유닛, 건물, 불가사의의 생산 속도를 증가시키는 [COLOR_POSITIVE_TEXT]생산 가속[ENDCOLOR]을 수행할 수 있습니다. 생산 가속은 소유한 제조소마다 효과가 10% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 기술자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY';
 
@@ -39,27 +39,27 @@
 
 	-- Great Scientist Text
 	INSERT INTO Language_ko_KR (Tag, Text)
-	SELECT 'TXT_KEY_BUILD_CONSUMED_HELP_ACADEMY', '유닛이 소모됩니다.[NEWLINE][NEWLINE]위인 시설이 전략 자원 위에 건설되면 무역망에 연결됩니다. 제조소는 위대한 과학자의 연구 가속 능력을 10%씩 증가시킵니다.';
+	SELECT 'TXT_KEY_BUILD_CONSUMED_HELP_ACADEMY', '유닛이 소모됩니다.[NEWLINE][NEWLINE]위인 시설이 전략 자원 위에 건설되면 무역망에 연결됩니다. 제조소는 위대한 과학자의 연구 가속 능력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]씩 증가시킵니다.';
 	UPDATE Builds SET Help = 'TXT_KEY_BUILD_CONSUMED_HELP_ACADEMY' WHERE Type = 'BUILD_ACADEMY';
 
-	UPDATE Language_ko_KR SET Text = '이 명령을 통해 기술 연구를 가속할 수 있습니다. 소유한 모든 아카데미마다 가속하는 연구의 양이 10%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_DISCOVER_TECH_HELP';
+	UPDATE Language_ko_KR SET Text = '이 명령을 통해 기술 연구를 가속할 수 있습니다. 소유한 모든 아카데미마다 가속하는 연구의 양이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_DISCOVER_TECH_HELP';
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_SCIENTIST]위대한 과학자는 특별한 [COLOR_POSITIVE_TEXT]아카데미[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 아카데미는 대량의 [ICON_RESEARCH]과학을 제공합니다. 또한 위대한 과학자로 다음 기술의 발견을 돕는 [COLOR_POSITIVE_TEXT]연구 가속[ENDCOLOR]을 수행할 수 있습니다. 연구 가속은 소유한 아카데미마다 효과가 10% 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 과학자가 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = '[COLOR_CYAN]특수 시설: 아카데미[ENDCOLOR][NEWLINE]위대한 과학자를 사용해 아카데미를 만들 수 있습니다. 작업 중인 아카데미는 도시에 많은 과학을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무료 과학[ENDCOLOR][NEWLINE]위대한 과학자를 일시불 과학을 얻기 위해 사용할 수 있습니다. [COLOR_YELLOW]보유한 아카데미마다 무료 과학의 효과가 10% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+	SET Text = '[COLOR_CYAN]특수 시설: 아카데미[ENDCOLOR][NEWLINE]위대한 과학자를 사용해 아카데미를 만들 수 있습니다. 작업 중인 아카데미는 도시에 많은 과학을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무료 과학[ENDCOLOR][NEWLINE]위대한 과학자를 일시불 과학을 얻기 위해 사용할 수 있습니다. [COLOR_YELLOW]보유한 아카데미마다 무료 과학의 효과가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_BODY';
 	UPDATE Language_ko_KR
 	SET Text = '[COLOR_YELLOW]위대한 과학자[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_TITLE';
 
 	-- Changed how Musician Great Tour Works
-	UPDATE Language_ko_KR SET Text = '순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안 100% 증가하고, (소유한 걸작 음악 1개마다 1턴씩 증가) [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다. 위인은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE]해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 이 명령을 수행할 수 없습니다.' WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP';
+	UPDATE Language_ko_KR SET Text = '순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안 100% 증가하고, (소유한 [ICON_VP_GREATMUSIC]걸작 음악 1개마다 1턴씩 증가) [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다. 위인은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE]해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 이 명령을 수행할 수 없습니다.' WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP';
 
-	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가는 [COLOR_POSITIVE_TEXT]걸작 음악[ENDCOLOR]([ICON_CULTURE]문화 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 음악은 빈 슬롯이 있는 적절한 건물(오페라 극장, 방송탑 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 음악가는 다른 문명으로 건너가 [COLOR_POSITIVE_TEXT]순회 공연[ENDCOLOR]을 열 수 있습니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안, 소유한 걸작 음악 1개마다 1턴씩 더 100% 증가하고 [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 음악가는 사라집니다. 해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 공연을 열 수 없습니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY';
+	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가는 [COLOR_POSITIVE_TEXT]걸작 음악[ENDCOLOR]([ICON_CULTURE]문화 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 음악은 빈 슬롯이 있는 적절한 건물(오페라 극장, 방송탑 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 음악가는 다른 문명으로 건너가 [COLOR_POSITIVE_TEXT]순회 공연[ENDCOLOR]을 열 수 있습니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안, 소유한 [ICON_VP_GREATMUSIC]걸작 음악 1개마다 1턴씩 더 100% 증가하고 [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 음악가는 사라집니다. 해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 공연을 열 수 없습니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY';
 
 	UPDATE Language_ko_KR
-	SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 하우스 또는 방송탑)이 있는 가장 가까운 도시에 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 10턴 동안 100% 증가시킵니다. (보유한 [ICON_GREAT_WORK] 걸작 음악마다 1턴 추가) 또한 수도에서 2 [ICON_HAPPINESS_1] 행복을 얻습니다. 대상 문명과 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
+	SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 하우스 또는 방송탑)이 있는 가장 가까운 도시에 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 10턴 동안 100% 증가시킵니다. (보유한 [ICON_VP_GREATMUSIC] 걸작 음악마다 1턴 추가) 또한 수도에서 2 [ICON_HAPPINESS_1] 행복을 얻습니다. 대상 문명과 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_BODY';
 	UPDATE Language_ko_KR
 	SET Text = '[COLOR_YELLOW]위대한 음악가[ENDCOLOR]'
@@ -81,7 +81,9 @@
 	-- Writer
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_WRITER]위대한 작가는 [COLOR_POSITIVE_TEXT]걸작 문학[ENDCOLOR]([ICON_CULTURE]문화 및 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 문학은 빈 슬롯이 있는 적절한 건물(원형극장, 영웅 서사시, 왕립 도서관 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 작가는 [COLOR_POSITIVE_TEXT]정치 논문[ENDCOLOR]을 집필하여 대량의 [ICON_CULTURE]문화를 획득할 수도 있습니다. 해당 문화는 소유한 [ICON_GREAT_WORK]걸작의 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 작가는 사라집니다.' WHERE Tag = 'TXT_KEY_UNIT_GREAT_WRITER_STRATEGY';
 	
-	UPDATE Language_ko_KR SET Text = '이 명령을 통해 대량의 [ICON_CULTURE]문화를 제공합니다. 이는 소유한 걸작 1개마다 3%씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_GIVE_POLICIES_HELP';
+	UPDATE Language_ko_KR SET Text = '이 명령을 통해 대량의 [ICON_CULTURE]문화를 제공합니다. 이는 소유한 [ICON_GREAT_WORK] 걸작 1개마다 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_GIVE_POLICIES_HELP';
+	
+	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 위인을 소모해서 걸작을 만들 수 있습니다. 만든 걸작은 해당 유형의 걸작 슬롯이 있는 가장 가까운 도시에 배치됩니다. 걸작은 위인의  [COLOR_MAGENTA]{TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR] 능력, 테마가 맞춰지면 [COLOR_MAGENTA]{TXT_KEY_MISSION_START_GOLDENAGE}[ENDCOLOR] 능력, 걸작 음악이라면 [COLOR_MAGENTA]{TXT_KEY_MISSION_ONE_SHOT_TOURISM}[ENDCOLOR] 능력을 강화합니다.' WHERE Tag = 'TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP';
 
 	UPDATE Language_ko_KR
 	SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (원형극장, 국가 서사시, 영웅 서사시, 왕립 도서관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 정치 논문[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
@@ -141,7 +143,7 @@
 	UPDATE Language_ko_KR SET Text = '이 명령을 내리면 해당 유닛을 소모하여 우호적인 도시 주변에서 다른 종교를 제거합니다. ' WHERE Tag = 'TXT_KEY_MISSION_REMOVE_HERESY_HELP';
 	-- Archaeologist Text
 
-	UPDATE Language_ko_KR SET Text = '사적지를 발굴하여 랜드마크 시설을 건설하거나 유물을 발굴하여 걸작 예술품 슬롯을 채울 수 있습니다. 어떤 문명의 영토에서도 유물을 발굴 할 수 있습니다. 사적지에서 고고학 발굴을 완료하면 고고학자는 소모됩니다. [NEWLINE][NEWLINE]한 번에 최대 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]까지만 활성할 수 있습니다.[COLOR_NEGATIVE_TEXT][ICON_GOLD]골드로 구매할 수 없으며[ENDCOLOR] [COLOR_POSITIVE_TEXT]공립학교[ENDCOLOR]가 있는 도시에서만 생산할 수 있습니다.' WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHAEOLOGIST';
+	UPDATE Language_ko_KR SET Text = '한 번에 최대 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]의 고고학자를 활성할 수 있습니다. 고고학자는 유물을 발굴할 수 있는 특별한 노동자로, 랜드마크 시설을 건설하거나 [ICON_VP_ARTIFACT] 유물을 발굴해 박물관, 궁전, 에르미타슈 박물관, 특정 불가사의의 [ICON_GREAT_WORK] 걸작 슬롯을 채울 수 있습니다. 고고학자는 어떤 문명의 영토에서도 유물을 발굴 할 수 있습니다. 사적지에서 고고학 발굴을 완료하면 고고학자는 소모됩니다. [COLOR_NEGATIVE_TEXT][ICON_GOLD]골드로 구매할 수 없으며[ENDCOLOR] [COLOR_POSITIVE_TEXT]공립학교[ENDCOLOR]가 있는 도시에서만 생산할 수 있습니다.' WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHAEOLOGIST';
 
 	UPDATE Language_ko_KR
 	SET Text = '두 도시를 [ICON_CONNECTED]연결하는 [COLOR_POSITIVE_TEXT]도로[ENDCOLOR] 위에 건설된 소도시는 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]철도[ENDCOLOR] 위에 건설하면 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 해당 소도시를 지나가는 국내 및 국제 [COLOR_POSITIVE_TEXT]교역로[ENDCOLOR]가 있으면 소도시의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 추가로 [COLOR:105:105:105:255](산업 시대 이전 +2 , 산업 시대부터 +4)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]소도시는 마을보다 크지만 도시보다 작은 인간의 정착지 입니다. "소도시"를 구성하는 크기에 대한 정의는 세계 각지에 따라 상당히 다릅니다. 소도시라는 단어는 독일어 Zaun, 네덜란드어 tuin, Old Norse tune과 기원을 공유합니다. 독일어 Zaun은 어떤 물질의 울타리라는 단어 본래의 뜻에 가장 가깝습니다.'

@@ -82,7 +82,7 @@
 			<Text>쿠나</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KUNA_TEXT">
-			<Text>쿠나는 숲 또는 정글 타일에만 건설할 수 있습니다. 다른 쿠나와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 증가합니다.[NEWLINE][NEWLINE]'쿠나'는 마야어로 사원이나 교회를 뜻합니다. 쿠나는 유라시아의 지구라트나 피라미드와 디자인이 비슷했습니다. 쿠나 그 자체로도 이러한 고대 유적지들 중 대부분으로 남아있지만, 한때는 대도시의 중심지이기도 했습니다. 가장 유명한 것은 치첸이사인데, 세계 불가사의의 자격이 될 정도로 웅장합니다!</Text>
+			<Text>{TXT_KEY_CIV5_IMPROVEMENTS_KUNA_HELP}[NEWLINE][NEWLINE]'쿠나'는 마야어로 사원이나 교회를 뜻합니다. 쿠나는 유라시아의 지구라트나 피라미드와 디자인이 비슷했습니다. 쿠나 그 자체로도 이러한 고대 유적지들 중 대부분으로 남아있지만, 한때는 대도시의 중심지이기도 했습니다. 가장 유명한 것은 치첸이사인데, 세계 불가사의의 자격이 될 정도로 웅장합니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KUNA_HELP">
 			<Text>쿠나는 숲 또는 정글 타일에만 건설할 수 있습니다. 다른 쿠나와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 증가합니다.</Text>
@@ -91,7 +91,7 @@
 			<Text>[LINK=IMPROVEMENT_KUNA]쿠나[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_KUNA_HELP">
-			<Text>현재 타일에 쿠나를 건설합니다. [ICON_RESEARCH]과학 및 [ICON_PEACE]신앙이 증가합니다.</Text>
+			<Text>다른 쿠나에 인접하게 건설할 수 없습니다. 타일의 특성을 제거하지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_KUNA_REC">
 			<Text>현재 타일의 [ICON_RESEARCH]과학 및 [ICON_PEACE]신앙을 증가시킵니다.</Text>

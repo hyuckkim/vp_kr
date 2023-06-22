@@ -33,7 +33,7 @@
 			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 교역로의 가치를 증가시키고, 베니스가 생산하는 턴당 골드 100마다 세계 의회 대표단을 하나 얻고, 생존한 도시국가마다 25% 증가합니다. (최소 대표단 1) 또한, 유닛과 건물의 투자 비용을 10% 감소시킵니다. 아스넬 디 베네치아 또는 무라노 유리공방과 함께 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_HELP">
-			<Text>베네치아의 고유 건물입니다. 모든 도시에서 [ICON_GOLD]골드로 유닛을 구매하거나 건물 건설에 투자하는 비용이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] [COLOR:105:105:105:255]([ICON_CAPITAL]수도는 15%)[ENDCOLOR] 감소합니다. 도시의 턴당 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 [COLOR:105:105:105:255](한도: 현존 모든 도시 국가 수의 [COLOR_NEGATIVE_TEXTTIVE_TEXT]25%[ENDCOLOR])[ENDCOLOR] 확보합니다. [NEWLINE][NEWLINE]이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 도시에 [COLOR_NEGATIVE_TEXT]아스넬 디 베네치아[ENDCOLOR] 또는 [COLOR_NEGATIVE_TEXT]무라노 유리공방[ENDCOLOR]이 없어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 모든 도시에서 [ICON_GOLD]골드로 유닛을 구매하거나 건물 건설에 투자하는 비용이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] [COLOR:105:105:105:255]([ICON_CAPITAL]수도는 15%)[ENDCOLOR] 감소합니다. 도시의 턴당 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 [COLOR:105:105:105:255](한도: 현존 모든 도시 국가 수의 [COLOR_NEGATIVE_TEXTTIVE_TEXT]25%[ENDCOLOR])[ENDCOLOR] 확보합니다. [NEWLINE][NEWLINE]이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시에 [COLOR_NEGATIVE_TEXT]아스넬 디 베네치아[ENDCOLOR] 또는 [COLOR_NEGATIVE_TEXT]무라노 유리공방[ENDCOLOR]이 없어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE">
 			<Text>아스넬 디 베네치아</Text>
@@ -45,7 +45,7 @@
 			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 생산을 가속시키고, 도시 방어를 향상시키고, 군사 유닛 보급 한도를 증가시키며 해군 유닛에게 베네치아 공작술 승급을 부여해 전투력과 이동력을 향상시킵니다. 리알토 지구 또는 무라노 유리공방과 함께 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE_HELP">
-			<Text>베네치아의 고유 건물입니다. 도시의 생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고, [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 모든 해상 유닛에 [COLOR_PLAYER_PURPLE]베네치아 공작술[ENDCOLOR] 승급을 부여합니다. [NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 도시에 [COLOR_NEGATIVE_TEXT]리알토 지구[ENDCOLOR] 또는 [COLOR_NEGATIVE_TEXT]무라노 유리공방[ENDCOLOR]이 없어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 도시의 생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고, [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼 증가합니다. 모든 해상 유닛에 [COLOR_PLAYER_PURPLE]베네치아 공작술[ENDCOLOR] 승급을 부여합니다. [NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO">
 			<Text>피아자 산 마르코</Text>
@@ -57,7 +57,7 @@
 			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 국가 기념비의 능력 대신 도시 다양한 산출을 약간씩 증가시키고 위인을 가속시키는 능력이 있습니다. 이것은 당신의 수도이 골드, 과학, 기타 중요한 자원들의 도난으로부터 더 안전해 졌다는 것을 뜻합니다. 길드를 연구하면 무라노 유리공방, 아스넬 디 베네치아, 리알토 지구를 건설할 수 있습니다. 한 게임 안에서 셋 중 하나만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_HELP">
-			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]길드[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아스넬 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_CAPITAL][COLOR_YELLOW]수도[ENDCOLOR]에만 건설할 수 있습니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 도시에 [ICON_CITIZEN] 시민이 탄생할 때마다 [ICON_CULTURE] 문화를 15 얻습니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]길드[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아스넬 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_CAPITAL][COLOR_YELLOW]수도[ENDCOLOR]에만 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS">
 			<Text>무라노 유리공방</Text>
@@ -69,7 +69,7 @@
 			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 모든 도시의 위인 시설과 마을의 가치를 증가시키고, 예술품/유물 슬롯을 둘 제공합니다. 문화 승리를 노릴 때 이 건물을 건설하십시오. 아스넬 디 베네치아나 리알토 지구와 함께 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_HELP">
-			<Text>베네치아의 고유 건물입니다. 모든 [ICON_GREAT_PEOPLE]위인 시설 및 마을의 [ICON_FOOD]식량 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_RESEARCH]과학 +5[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다.도시에 [COLOR_NEGATIVE_TEXT]리알토 지구[ENDCOLOR] 또는 [COLOR_NEGATIVE_TEXT]아스날 디 베네치아[ENDCOLOR]가 없어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 모든 [ICON_GREAT_PEOPLE]위인 시설 및 마을의 [ICON_FOOD]식량 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_RESEARCH]과학 +5[NEWLINE][NEWLINE] 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_THEMING_BONUS_HELP">
 			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]건물 소유자[ENDCOLOR]가 만든 [COLOR_YELLOW]예술품[ENDCOLOR]으로 채우십시오.</Text>
@@ -123,7 +123,7 @@
 			<Text>사원을 대체하는 비잔티움의 고유 건물입니다. 유지비가 필요하지 않으며, 도시의 [ICON_CITIZEN] 시민의 수에 기반해 [ICON_PEACE] 신앙을 제공합니다. 교역로에서 오는 종교 압력이 두 배로 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_HELP">
-			<Text>사원을 대체하는 비잔틴의 고유 건물입니다. [ICON_CITIZEN]시민 3명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE] 교역로가 제공하는 종교 압력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_AMBER] 호박석: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1</Text>
+			<Text>사원을 대체하는 비잔틴의 고유 건물입니다. [ICON_CITIZEN]시민 3명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE] 교역로가 제공하는 종교 압력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_AMBER] 호박석: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON">
 			<Text>코톤</Text>
@@ -363,7 +363,7 @@
 			<Text>적 해상 유닛 및 승선 유닛이 이 도시의 물 타일에 들어오면 행동력을 모두 소모합니다. 이 도시의 대양 타일에서 턴을 마친 적 유닛은 5 피해를 받습니다.[NEWLINE][NEWLINE][ICON_RES_IRON]철 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. 항만이 있는 [COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERPRETIVE_CENTER_HELP">
-			<Text>세계 불가사의 및 타일이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. 제국 전역의 모든 랜드마크의 [ICON_CULTURE] 문화와 [ICON_TOURISM] 관광이 +1 증가합니다.</Text>
+			<Text>[ICON_WONDER] 세계 불가사의 및 타일이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. 제국 전역의 모든 랜드마크의 [ICON_CULTURE] 문화와 [ICON_TOURISM] 관광이 +1 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROVE_TEXT">
 			<Text>자문회는 조직된 공동체의 통치 기구입니다. 그것은 공동체의 정치적 지도자가 되기 위한 조건 또는 자질로서 자문회 회원 자격이 있는 자급자족 문화에서 가장 흔합니다. 시간이 지남에 따라, 공동체가 성장함에 따라, 더 큰 통치 기관에 유리하게 자문회의 중요성은 감소했습니다.</Text>
@@ -445,7 +445,7 @@
 			<Text>블레츨리 파크</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
-			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 과학자 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 2명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시에서 스파이 저항이 15% 증가합니다. 아군 스파이의 작전 기간이 2턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 [ICON_VP_SCIENTIST] 과학자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 2명 또는 그 이상 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가 수에 기반)[ENDCOLOR] 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시에서 스파이 저항이 15% 증가합니다. 아군 스파이의 작전 기간이 2턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
 			<Text>버킹엄 밀턴 케인스에 있는 블레츨리 공원은 제2차 세계 대전 동안 추축국의 비밀 통신, 특히 독일의 에니그마와 로렌츠 암호를 정기적으로 관통한 영국의 정부 암호와 사이퍼 학교의 중심 장소였습니다. 제2차 세계 대전 영국 정보국의 공식 역사학자는 블레츨리에서 제작된 "울트라" 첩보가 전쟁을 2년에서 4년 단축시켰으며, 그것이 없었다면 전쟁의 결과는 불확실했을 것이라고 썼습니다. 그 장소는 이제 그러한 업적을 기념하고 기념하는 교육적이고 역사적인 명소가 되었습니다.</Text>
@@ -579,7 +579,7 @@
 			<Text>알현실</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_HELP">
-			<Text>[ICON_CAPITAL]수도에 음악가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 도시의 작업 범위가 +1 증가하고 도시의 모든 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [COLOR_MAGENTA]전통[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 음악가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 도시의 작업 범위가 +1 증가하고 도시의 모든 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [COLOR_MAGENTA]전통[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_PEDIA">
 			<Text>알현실은 왕관의 공식 관저에 있는 방, 종종 홀보다는 궁전이나 요새화된 성으로, 고위 인물의 왕좌가 정교한 장엄함으로 세워지는 곳입니다. - 보통 계단식으로, 그리고 캐노피 아래, 둘 다 그리스 단어 thronos의 원래 개념의 일부입니다.</Text>
@@ -606,7 +606,7 @@
 			<Text>궁전 정원</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_HELP">
-			<Text>[ICON_CAPITAL]수도에 작가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 모든 기념비, 정원, 목욕탕의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]탁월[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 작가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 모든 기념비, 정원, 목욕탕의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]탁월[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_PEDIA">
 			<Text>정원은 식물과 다른 형태의 자연을 전시, 재배, 즐기기 위해 마련된 계획된 공간입니다. 그 정원은 천연 재료와 인공 재료를 모두 포함할 수 있습니다. 오늘날 가장 일반적인 형태는 주거용 정원으로 알려져 있지만, 전통적으로 정원이라는 용어는 더 일반적인 것이었습니다. 야생 동물들을 모의 자연 서식지에 전시하는 동물원은 이전에는 동물학적인 정원이라고 불렸습니다. 서양의 정원은 거의 보편적으로 식물에 기반을 두고 있으며, 정원은 종종 식물원의 단축된 형태를 나타냅니다.</Text>
@@ -615,7 +615,7 @@
 			<Text>궁정 예배당</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_HELP">
-			<Text>[ICON_CAPITAL]수도에 예술가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [COLOR_MAGENTA]주권[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 예술가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [COLOR_MAGENTA]주권[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_PEDIA">
 			<Text>예배당은 더 크고 종종 비종교적인 기관에 붙어 있거나 주요 종교 기관의 연장선으로 여겨지는 교제, 기도, 예배의 종교적인 장소입니다. 그것은 대학, 병원, 궁전, 감옥, 장례식장, 교회, 유대교 회당 또는 모스크와 같은 더 큰 구조물이나 복합체의 일부일 수도 있고, 군함이나 상업 선박에 위치해 있을 수도 있고, 때로는 그 기반이 있는 완전히 독립된 건물일 수도 있습니다. 많은 군사 시설에는 보통 군 목사의 지도 아래 군인들을 사용하기 위한 예배당이 있습니다.</Text>
@@ -684,7 +684,7 @@
 			<Text>화이트 타워는 런던 타워의 오래된 건물입니다. 그것은 1080년대 초에 정복자 윌리엄에 의해 지어졌고 나중에 확장되었습니다. 하얀 탑은 성의 가장 강력한 방어 지점이었고, 원래 왕과 그의 대리인들을 수용했습니다. 오랜 역사를 통해, 타워는 영국에 많은 것들이 되었습니다. 폭정의 상징, 금고, 관리소, 조폐소, 궁전, 감옥입니다. 오늘날, 런던탑은 많은 보물들 중, 영국 왕실의 왕관 보석을 자랑하는 거대한 박물관입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_HELP">
-			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 슬롯을 포함합니다. [NEWLINE][NEWLINE] 이 도시에 잠입한 외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_RESEARCH]과학과 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다[COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5) )[ENDCOLOR]. [NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 포함합니다. [NEWLINE][NEWLINE] 이 도시에 잠입한 외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_RESEARCH]과학과 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다[COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5) )[ENDCOLOR]. [NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_STRATEGY">
 			<Text>제철소를 대체하는 영국의 고유 건물입니다. 제철소의 보너스에 더해, 화이트 타워는 경찰대와 성, 무기고를 강화하고 걸작 예술품을 포함합니다. 공격적 또는 방어적 스파이 액션에 보너스를 국가 정보원보다 일찍 제공합니다.</Text>
@@ -702,7 +702,7 @@
 			<Text>주조 공장은 금속 주물을 생산하는 공장입니다. 금속은 액체로 녹여 금형에 부은 다음 금속이 냉각되면서 굳어진 후 금형 재료나 주물을 제거함으로써 모양으로 주조됩니다. 가장 일반적으로 가공되는 금속은 알루미늄과 주철입니다. 그러나 청동, 황동, 강철, 마그네슘 및 아연과 같은 다른 금속도 주조 공장에서 주물을 생산하는 데 사용됩니다. 이 과정에서 원하는 모양과 크기의 부품이 형성될 수 있습니다. 전쟁 상황에서 주조 공장은 대포 및 기타 필수 포위 장비 생산에 필수적이었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_HELP">
-			<Text>도시의 광산과 기술자 전문가의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]일제 사격[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_GOLD]골드 +2</Text>
+			<Text>도시의 광산과 [ICON_VP_ENGINEER] 기술자의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]일제 사격[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_GOLD]골드 +2</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_STRATEGY">
 			<Text>대장간을 대체하는 오스만의 고유 건물입니다. 군사 유닛을 생산하면 추가 과학을 제공하고, 공성 유닛을 매우 빠르게 생산하며 공성 유닛에 [COLOR_POSITIVE_TEXT]일제 사격[ENDCOLOR] 승급을 부여합니다. 적의 방어벽을 무너뜨리고 영토를 정복하기 위해 대규모 포병력을 구축하려면 공성 주조 공장을 건설하십시오.</Text>
@@ -802,7 +802,7 @@
 			<Text>1846년 "지식의 증가와 확산을 위해" 설립된 스미스소니언 협회는 미국 정부에 의해 운영되는 박물관과 연구 센터들의 모임입니다. 원래 "미국 국립 박물관"으로 조직된 그 이름은 1967년에 행정 기관으로서 존재하지 않게 되었습니다. 1억 3천 8백만 점의 다양한 소장품들로 인해 "국가의 다락방"이라고 불리는 이 연구소의 19개의 박물관, 9개의 연구 센터, 그리고 동물원은 대부분 콜롬비아 특별구에 위치한 역사적, 건축적 랜드마크를 포함합니다. 애리조나, 메릴랜드, 매사추세츠, 뉴욕, 버지니아 및 파나마에 추가 시설이 있습니다. 추가로 170개의 박물관이 스미스소니언 제휴사입니다. 그 기관의 연간 3천만 명의 방문객은 무료로 입장할 수 있습니다. 기금은 기관의 기부금, 개인 및 기업 기부금, 회비, 정부 지원, 소매, 양허 및 라이센스 수익에서 나옵니다. 기관 간행물에는 스미스소니언과 항공 우주 잡지가 포함되어 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_SMITHSONIAN_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해야 합니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 박물관과 연구소에서 +5 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학을 얻고, 모든 세계 불가사의에서 +2 [ICON_CULTURE] 문화와 [ICON_RESEARCH]과학을 제공합니다. 모든 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 박물관을 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]문화가 증가합니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 도시에 [COLOR_YELLOW]독립기념관[ENDCOLOR]이 있어야 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 박물관과 연구소에서 +5 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학을 얻고, 모든 [ICON_WONDER] 세계 불가사의에서 +2 [ICON_CULTURE] 문화와 [ICON_RESEARCH]과학을 제공합니다. 모든 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 박물관을 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]문화가 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_SMITHSONIAN_STRATEGY">
 			<Text>스미스소니언 협회는 미국이 독립기념관을 완성하면 지을 수 있는 세 불가사의 중 하나입니다. 제국의 문화와 과학에 큰 보너스를 제공하고, 박물관과 유물을 강화합니다.</Text>
@@ -811,7 +811,7 @@
 			<Text>미국 육군사관학교</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해야 합니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 사관 학교와 군사 기지에서 +5 [ICON_PRODUCTION]생산과 [ICON_RESEARCH]과학을 제공하고, 모든 세계 불가사의에서 +2 [ICON_PRODUCTION] 생산과 [ICON_RESEARCH]과학을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]무료[ENDCOLOR]로 야포 3기와 3[ICON_RES_IRON]철을 제공합니다.모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]과학이 증가합니다.[NEWLINE][NEWLINE]모든 공성 유닛이 [COLOR_POSITIVE_TEXT]광역 피해[ENDCOLOR] 진급을 얻습니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 도시에 [COLOR_YELLOW]독립기념관[ENDCOLOR]이 있어야 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 사관 학교와 군사 기지에서 +5 [ICON_PRODUCTION]생산과 [ICON_RESEARCH]과학을 제공하고, 모든 [ICON_WONDER] 세계 불가사의에서 +2 [ICON_PRODUCTION] 생산과 [ICON_RESEARCH]과학을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]무료[ENDCOLOR]로 야포 3기와 3[ICON_RES_IRON]철을 제공합니다.모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]과학이 증가합니다.[NEWLINE][NEWLINE]모든 공성 유닛이 [COLOR_POSITIVE_TEXT]광역 피해[ENDCOLOR] 진급을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_BUILDINGS_AMERICA_WESTPOINT_TEXT">
 			<Text>비공식적으로 웨스트포인트로 알려진 미국 육군사관학교는 생도들이 미국 육군의 임관 장교가 되도록 교육하는 가장 오래된 사관학교입니다. 이 아카데미는 외국과 국내의 수많은 국가 원수와 더불어 현대사에서 가장 유명한 장군들을 배출한 것으로 유명합니다. 이 캠퍼스는 허드슨 강을 따라 항해하는 것을 내려다보고 통제하기 위해 강 요새로 지어진, 지속적으로 운영되는 가장 오래된 미군 기지입니다. 결과적으로, 그 캠퍼스는 길고 오래된 역사를 대표하는 수많은 기념물과 조각상들로 점철된 국가적인 랜드마크입니다.</Text>
@@ -823,7 +823,7 @@
 			<Text>후버 댐</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_HOOVERDAM_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 독립기념관을 건설해야 합니다. 오직 강 옆에 있는 도시에서만 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 공장과 경기장에서 +5 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공하고, 모든 세계 불가사의에서 +2 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공합니다.[NEWLINE][NEWLINE]이 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 수력 발전소를 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]생산이 증가합니다.[NEWLINE][NEWLINE]세계 불가사의와 타일에서 [ICON_CULTURE]문화가 25% 증가하고 그만큼 [ICON_TOURISM] 관광을 얻습니다. [ICON_INTERNATIONAL_TRADE] 교역이 25% 빨리 완성됩니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 도시에 [COLOR_YELLOW]독립기념관[ENDCOLOR]이 있어야 건설할 수 있습니다. 오직 강 옆에 있는 도시에서만 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 공장과 경기장에서 +5 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공하고, 모든 [ICON_WONDER] 세계 불가사의에서 +2 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공합니다.[NEWLINE][NEWLINE]이 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 수력 발전소를 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]생산이 증가합니다.[NEWLINE][NEWLINE]세계 불가사의와 타일에서 [ICON_CULTURE]문화가 25% 증가하고 그만큼 [ICON_TOURISM] 관광을 얻습니다. [ICON_INTERNATIONAL_TRADE] 교역이 25% 빨리 완성됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_BUILDINGS_AMERICA_HOOVERDAM_TEXT">
 			<Text>미국 역사상 가장 야심차고 가장 큰 공공 사업 중 하나인 후버 댐은 현대 혁신의 경이입니다. 후버 댐은 건설 당시 세계에서 가장 큰 콘크리트 구조물이었고, 한번에 1인치씩 3백만 입방미터가 넘는 콘크리트를 붓고 경화시키는 야심차고 실험적인 기술을 사용했습니다. 미국 최대의 인공 저수지인 미드 호수가 콜로라도 강의 범람을 통제하고 있습니다. 발전기는 네바다, 애리조나, 캘리포니아에 전력을 공급하고, 그 꼭대기는 미국 93번 국도에 통합되어 주요 도로이자 관광 명소가 되었습니다.</Text>
