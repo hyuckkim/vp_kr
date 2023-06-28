@@ -7610,7 +7610,7 @@
 			<Text>[COLOR_POSITIVE_TEXT][ICON_GOLD]골드를 유닛에 투자하면 해당 유닛의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_COST_INCREASE_METRIC">
-			<Text>보유한 세계 불가사의로 인한 추가적인 [ICON_PRODUCTION]생산 비용: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][ICON_PRODUCTION] 다음에서 생산 비용 증가:[NEWLINE][ICON_BULLET] 같은 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]25%[ENDCOLOR][NEWLINE][ICON_BULLET] 이전 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] 2시대 전에 건설한 불가사의: [COLOR_POSITIVE_TEXT]10%[ENDCOLOR][NEWLINE][ICON_BULLET] 참고: 3시대 전의 불가사의나 그보다 더 오래된 불가사의는 비용을 부과하지 않습니다.</Text>
+			<Text>보유한 세계 불가사의로 인한 추가적인 [ICON_PRODUCTION]생산 비용: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][ICON_PRODUCTION] 다음에서 생산 비용 증가:[NEWLINE][ICON_BULLET] 같은 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]25%[ENDCOLOR][NEWLINE][ICON_BULLET] 이전 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] 2시대 전에 건설한 불가사의: [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS">
 			<Text>이벤트 시스템 활성화</Text>
