@@ -3260,7 +3260,7 @@
 		</Row>
 		<!-- CS TEXT CBP -->
 		<Row Tag="TXT_KEY_CSTATE_JERK_STATUS">
-			<Text>[COLOR_NEGATIVE_TEXT]이 도시 국가를 공격했습니다.[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]다음 {1_JerkRate}[ENDCOLOR]턴 동안 도시 국가로부터 퀘스트를 받을 수 없으며, 당신의 [ICON_INFLUENCE]영향력 정지점이 감소하게 될 것입니다.[NEWLINE]이 시기 동안 이 도시 국가와 [COLOR_POSITIVE_TEXT]친구가 된다면[ENDCOLOR] 이 페널티는 조기에 없어질 것입니다.[NEWLINE][NEWLINE]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]이 도시 국가를 공격했습니다.[ENDCOLOR][NEWLINE]다음 [COLOR_NEGATIVE_TEXT]{1_JerkRate}[ENDCOLOR]턴 동안 도시 국가로부터 퀘스트를 받을 수 없으며, 당신의 [ICON_INFLUENCE]영향력 정지점이 감소하게 될 것입니다.[NEWLINE]이 시기 동안 이 도시 국가와 [COLOR_POSITIVE_TEXT]친구가 된다면[ENDCOLOR] 이 페널티는 조기에 없어질 것입니다.[NEWLINE][NEWLINE]</Text>
 		</Row>
 		<!-- Promises LUA -->
 		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_TURNS">
@@ -6126,7 +6126,7 @@
 		</Row>
 		<!-- Venice Tooltip -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_Num} 턴당[ICON_GOLD]골드에서 획득</Text>
+			<Text>[NEWLINE][ICON_BULLET]턴당 [ICON_GOLD]골드에서 [COLOR_POSITIVE_TEXT]{1_Num}표[ENDCOLOR]</Text>
 		</Row>
 		<!-- Attack City -->
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACKED_CITY_CP">
