@@ -7,8 +7,8 @@ overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 즉, Vox Populi는 문명 5의 모든 게임 요소인 기술, 문화 트리, 유닛, 문명 특성, 승급, 전투 전략 등을 모두 바꿉니다.
 
 ## Vox populi 받기
-[Vox Populi 인스톨러 받기](https://github.com/LoneGazebo/Community-Patch-DLL/releases/download/Release-3.7.4/Vox.Populi.3.7.4.exe)  
-[한글 패치 인스톨러 받기](https://github.com/hyuckkim/vp_kr/releases/download/v3.7.4/Vox.Populi.INT.3.7.4.exe)  
+[Vox Populi 인스톨러 받기](https://github.com/LoneGazebo/Community-Patch-DLL/releases/download/Release-3.7.5/Vox.Populi.3.7.5.exe)  
+[한글 패치 인스톨러 받기](https://github.com/hyuckkim/vp_kr/releases/download/v3.7.5/Vox.Populi.INT.3.7.5.exe)  
 
 ## 번역
 예니체리없는오스만  
