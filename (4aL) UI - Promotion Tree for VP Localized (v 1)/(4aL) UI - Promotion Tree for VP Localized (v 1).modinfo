@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="dbf896aa-27fd-4510-87d7-f797391250db" version="1">
+<Mod id="dbf896aa-27fd-4510-87d7-f797391250db" version="2">
   <Properties>
-    <Name>(4bL) UI - Promotion Tree for VP Localized</Name>
+    <Name>(4aL) UI - Promotion Tree for VP Localized</Name>
     <Teaser>Translation of Community Balance Overhaul - Promotion Tree for VP</Teaser>
-    <Description>(4b) UI - Promotion Tree for VP Localization.
+    <Description>(4a) UI - Promotion Tree for VP Localization.
  Supported langauge : Korean</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <SpecialThanks>William Howard and VP team</SpecialThanks>
@@ -19,7 +19,7 @@
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="1f0a153b-26ae-4496-a2c0-a106d9b43c95" minversion="22" maxversion="22" title="(4b) UI - Promotion Tree for VP" />
+    <Mod id="1f0a153b-26ae-4496-a2c0-a106d9b43c95" minversion="23" maxversion="999" title="(4a) UI - Promotion Tree for VP" />
   </Dependencies>
   <References />
   <Blocks />

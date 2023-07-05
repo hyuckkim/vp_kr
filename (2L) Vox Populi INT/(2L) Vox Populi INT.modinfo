@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="16">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(3.7.3) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(3.7.4) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -35,7 +35,7 @@
     <File md5="FF225BAF0CD17D2FCCE3CDC2B1B91716" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
     <File md5="888DB58BA20844CD24217E97EEC567B5" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="A51FFB86E5A11DB10F9E06C01B69E4F2" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
-    <File md5="B9B1845867EEB802BBAF9BB2FD2A91DD" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
+    <File md5="C39450A57F4F96F6849B62235F0CBB05" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
     <File md5="4C8865BF1C3BAB35F08DDDBB6E4A52BC" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
     <File md5="4C176AEF0EEC266FACE1960EE8F855EC" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
     <File md5="510529CF0F7C0A9B350F01D72FAE5306" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
@@ -61,7 +61,7 @@
     <File md5="9631E1A7C60502CEFDBCAB2C4D76F527" import="0">CSD/Units/UnitText.xml</File>
     <File md5="E0D48D42BE0EF9266ADD0355F1FF6FB8" import="0">CSD/Units/MoreGreatDiplomats.sql</File>
     <File md5="4879F1A90E18BC798DACA49B75BCED52" import="0">CSD/World Congress/ko_KR/Congress.xml</File>
-    <File md5="D3A921187C17B03BDB3290B63F4A026E" import="0">CSD/World Congress/ko_KR/IdeologyChanges.sql</File>
+    <File md5="10FA19A549F835230F4358049BCBB49D" import="0">CSD/World Congress/ko_KR/IdeologyChanges.sql</File>
     <File md5="122280CDAE7072D7247EF68584CDDCDE" import="0">CSD/World Congress/ko_KR/Projects.xml</File>
     <File md5="38AEFAA3D89B764B4F4360331F452FAA" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_CivilopediaC4DF.xml</File>
     <File md5="7E150B91AA2DBD44FAEA1419550B8B32" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_Generic_DiplomacyC4DF.xml</File>
