@@ -48,7 +48,7 @@ Inno Setup Script로 빌드된 인스톨러 프로그램으로 자동으로 설�
 문명 특성 변경, 유닛 트리 개선, 경제 시스템, 다양한 외교 옵션이 추가된 Vox Populi의 번역용 모드입니다.
    - (3aL) Vox Populi - EUI Compatibility INT  
 문명 5의 UI를 개선해주는 EUI를 Vox Populi와 호환시키는 모드의 번역용 모드입니다.
-   - (4bL) UI - Promotion Tree for VP Localized (v 1)  
+   - (4aL) UI - Promotion Tree for VP Localized (v 1)  
 진급 트리를 표시해주는 Promotion Tree의 번역용 모드입니다.  
  - VPUI Text  
 모드와 게임을 로딩하는 동안의 툴팁들의 텍스트입니다. 모드 로딩 전부터 로드되어야 하므로, 모드 폴더에 넣을 수 없습니다.  
