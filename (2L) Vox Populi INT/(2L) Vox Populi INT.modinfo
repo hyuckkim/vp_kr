@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="16">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(3.7.5) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(3.7.8) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -25,11 +25,11 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="60848B4A0BBE48450C93F42489BF5D78" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
+    <File md5="52415A44F3766CDD0F1710485EA8A48B" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
     <File md5="811251996D46122B60DE9B7DC17264C2" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
     <File md5="353F1AA2E5D5177D39D58803EB59CB0D" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
     <File md5="A8C9BAD497BBEE743D48FB257A55712D" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
-    <File md5="9ED1DCFD7BD76F80E65C8F9295CDE1A6" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
+    <File md5="57756C3660D418A6D125975801A5DACA" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
     <File md5="82D119016755002E5012D7DEB6972DED" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="40C9DB866AF6807E71634B40B00046D2" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
     <File md5="FF225BAF0CD17D2FCCE3CDC2B1B91716" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
@@ -47,7 +47,7 @@
     <File md5="EA930CAA800518D35CA4BA1D48ECC343" import="0">Modular Elements/Corporations/Text/ko_KR/CorpText.xml</File>
     <File md5="8B1A476CE1DED6EDF27CE1C656269023" import="0">Modular Elements/Events/Text/EventText_ko_KR.xml</File>
     <File md5="CF15978AAA5E8C7E27B9EEB1C62D256A" import="0">Modular Elements/TradeUIMod/ko_KR/GlobalCityStatesGifts.xml</File>
-    <File md5="256FEDD1148F592E8978B6D32925494E" import="0">Modular Elements/TradeUIMod/ko_KR/UITradeRoutesEnhancements.xml</File>
+    <File md5="82DA79B268D721EE8C0B97731179A0E0" import="0">Modular Elements/TradeUIMod/ko_KR/UITradeRoutesEnhancements.xml</File>
     <File md5="F87F58CBA2B0236CD0945D01223609A0" import="0">CSD/Buildings/ko_KR/BuildingRules.sql</File>
     <File md5="4809FDFDEC8B5CF0F2365EC87E9AF6FC" import="0">CSD/Buildings/ko_KR/BuildingText.xml</File>
     <File md5="2F08E3769E3EAD71F2B8C03BE89E8D99" import="0">CSD/Buildings/ko_KR/DiploBuildingText.sql</File>
