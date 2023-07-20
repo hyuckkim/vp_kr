@@ -4210,6 +4210,11 @@
 			<Text>우리 외교관들이 {2_Civ}{2: plural 1?이; 2?가;} 최근에 {1_CS}{1: plural 1?을; 2?를;} 괴롭혔다고 보고했습니다!</Text>
 		</Row>
 
+		<!-- Bully popup texts -->
+		<Row Tag="TXT_KEY_MISC_BULLIED_POPUP">
+			<Text>공물:</Text>
+		</Row>
+		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
 		<Row Tag="TXT_KEY_HOSTILE_WE_ATTACKED_YOUR_MINOR_3">
 			<Text>당신의 친구인 {@1_MinorCivName}{@1: plural 1?이; 2?가;} 나와 위대한 제국의 꿈 사이를 방해하고 있습니다. 당신은 이 문제에 개입하겠습니까?</Text>
