@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="16">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(3.7.11) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(3.7.12) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -27,13 +27,13 @@
   <Files>
     <File md5="52415A44F3766CDD0F1710485EA8A48B" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
     <File md5="811251996D46122B60DE9B7DC17264C2" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
-    <File md5="353F1AA2E5D5177D39D58803EB59CB0D" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
+    <File md5="1183C9FCA2589B35D43917C923E7C02A" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
     <File md5="A8C9BAD497BBEE743D48FB257A55712D" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
-    <File md5="57756C3660D418A6D125975801A5DACA" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
+    <File md5="A7D9CC6CD7169891687CBE1214514154" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
     <File md5="82D119016755002E5012D7DEB6972DED" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
     <File md5="40C9DB866AF6807E71634B40B00046D2" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
     <File md5="FF225BAF0CD17D2FCCE3CDC2B1B91716" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
-    <File md5="888DB58BA20844CD24217E97EEC567B5" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
+    <File md5="05704987FD5466C77B2E354EBF7870C8" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="A51FFB86E5A11DB10F9E06C01B69E4F2" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
     <File md5="C39450A57F4F96F6849B62235F0CBB05" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
     <File md5="4C8865BF1C3BAB35F08DDDBB6E4A52BC" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
