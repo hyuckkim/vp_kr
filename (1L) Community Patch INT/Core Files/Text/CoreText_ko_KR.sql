@@ -64,7 +64,7 @@ WHERE Tag = 'TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT';
 
 -- All Growth Modifier Tooltips with Icons
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET][ICON_CONNECTED] 문명 전역에서 획득: {1_Num}%'
+SET Text = '[NEWLINE][ICON_BULLET][ICON_CONNECTED] 문명 전역에서 기타 정책으로 획득: {1_Num}%'
 WHERE Tag = 'TXT_KEY_FOODMOD_PLAYER';
 
 UPDATE Language_ko_KR

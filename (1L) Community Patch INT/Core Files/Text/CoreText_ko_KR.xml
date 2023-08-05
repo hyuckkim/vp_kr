@@ -6910,13 +6910,13 @@
 		</Row>
 		<!-- Tooltips for Growth Modifiers -->
 		<Row Tag="TXT_KEY_FOODMOD_EATEN_FOOD">
-			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민이 소비</Text>
+			<Text>[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민이 소비</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_EXCESS_FOOD_POSITIVE">
-			<Text>[NEWLINE][COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 과잉 [ICON_FOOD] 식량 조정 (성장)</Text>
+			<Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 과잉 [ICON_FOOD] 식량 조정 (성장)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_EXCESS_FOOD_NEGATIVE">
-			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 과잉 [ICON_FOOD] 식량 조정 (기아)</Text>
+			<Text>[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 과잉 [ICON_FOOD] 식량 조정 (기아)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_PUPPET">
 			<Text>[NEWLINE][ICON_BULLET][ICON_PUPPET]괴뢰 도시: {1_Num}%</Text>
@@ -6941,16 +6941,16 @@
 		</Row>
 		<!-- Tooltips for Standard Base Modifiers -->
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_BUILDINGS">
-			<Text>[NEWLINE][ICON_BULLET]황금기 (건물): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE]황금기 (건물): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_POLICIES">
-			<Text>[NEWLINE][ICON_BULLET]황금기 (정책): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE]황금기 (정책): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_RELIGION">
-			<Text>[NEWLINE][ICON_BULLET]황금기 (교리): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE]황금기 (교리): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_TRAITS">
-			<Text>[NEWLINE][ICON_BULLET]황금기 (특성): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE]황금기 (특성): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WLTKD">
 			<Text>[NEWLINE][ICON_BULLET]국왕 경축일: {1_Num}%</Text>
