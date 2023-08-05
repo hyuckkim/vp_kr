@@ -1010,47 +1010,47 @@ SET Text = Text
 WHERE Tag = 'TXT_KEY_CITY_STATE_RELIGIOUS_TT';
 
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES	('TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED', 'A conquered [COLOR_POSITIVE_TEXT]Cultured[ENDCOLOR] City-State will provide you gifts of [ICON_CULTURE] Culture, allowing you to obtain Social Policies more quickly.'),
-	('TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT_ANNEXED', 'A conquered [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State will provide you occasional gifts of advanced military units.'),
-	('TXT_KEY_CITY_STATE_MILITARISTIC_TT_ANNEXED', 'A conquered [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State will provide you occasional gifts of advanced military units.[NEWLINE][NEWLINE]They know the secrets of the [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]. If you have researched [COLOR_CYAN]{@2_PrereqTech}[ENDCOLOR], they will provide that unit as their gift.'),
-	('TXT_KEY_CITY_STATE_MARITIME_TT_ANNEXED', 'A conquered [COLOR_POSITIVE_TEXT]Maritime[ENDCOLOR] City-State will boost the [ICON_FOOD] Food of your [ICON_CAPITAL] Capital greatly, and all of your cities.'),
-	('TXT_KEY_CITY_STATE_MERCANTILE_TT_ANNEXED', 'A conquered [COLOR_POSITIVE_TEXT]Mercantile[ENDCOLOR] City-State will provide extra [ICON_HAPPINESS_1] Happiness in your empire, and manufactures special luxury resources which cannot be acquired any other way.'),
-	('TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED', 'A conquered [COLOR_POSITIVE_TEXT]Religious[ENDCOLOR] City-State will increase your [ICON_PEACE] Faith, allowing you to empower your religion with new beliefs and units.');
+VALUES	('TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]문화적[ENDCOLOR] 도시 국가는 [ICON_CULTURE] 문화를 제공하여, 사회 정책을 더 빨리 채택할 수 있게 합니다.'),
+	('TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]군사적[ENDCOLOR] 도시 국가는 가끔 추가 군사 유닛을 제공합니다.'),
+	('TXT_KEY_CITY_STATE_MILITARISTIC_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]군사적[ENDCOLOR] 도시 국가는 가끔 추가 군사 유닛을 제공합니다.[NEWLINE][NEWLINE]해당 도시 국가는 [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]의 비밀을 알고 있습니다. [COLOR_POSITIVE_TEXT]{@2_PrereqTech}[ENDCOLOR] 기술을 연구하면 다른 방법으로는 얻을 수 없는 고유한 유닛을 받게 됩니다.'),
+	('TXT_KEY_CITY_STATE_MARITIME_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]해양적[ENDCOLOR] 도시 국가는 [ICON_CAPITAL] 수도의 [ICON_FOOD] 식량 생산을 크게 증가시키고 모든 도시에 추가로 식량을 제공합니다.'),
+	('TXT_KEY_CITY_STATE_MERCANTILE_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]상업적[ENDCOLOR] 도시 국가는 제국의 [ICON_HAPPINESS_1] 행복을 증가시키고, 다른 방법으로는 얻을 수 없는 사치 자원을 제공합니다.'),
+	('TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]종교적[ENDCOLOR] 도시 국가는 [ICON_PEACE] 신앙을 증가시켜, 당신의 종교가 새 교리를 채택하고 유닛을 생산하도록 돕습니다.');
 	
 -- Culture Overview
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES  ('TXT_KEY_CO_TAB_HISTORIC_EVENTS', ' Historic Events'),
-	('TXT_KEY_CO_HISTORIC_EVENTS_HEADER', ' Historic Events'),
-	('TXT_KEY_CO_CULTURE_OUTPUT', 'Current [ICON_CULTURE] Culture Output: '),
-	('TXT_KEY_CO_HISTORIC_EVENTS_COUNTER', 'Total Historic Events Achieved: '),
-	('TXT_KEY_CO_CULTURE_OUTPUT_TT', 'A fraction of [ICON_CULTURE] Culture generated per turn and instant yields of [ICON_CULTURE] Culture gained in the prior 10 turns influences the amount of [ICON_TOURISM] Tourism generated from [COLOR_POSITIVE_TEXT]Historic Events[ENDCOLOR].'),
-	('TXT_KEY_CO_TOURISM_OUTPUT_TT', '[ICON_TOURISM] Tourism generated per turn and instant yields of [ICON_TOURISM] Tourism gained in the prior 10 turns influences the amount of Tourism generated from [COLOR_POSITIVE_TEXT]Historic Events[ENDCOLOR].'),
-	('TXT_KEY_CO_HISTORIC_EVENTS_COUNTER_TT', 'This is how many [COLOR_POSITIVE_TEXT]Historic Events[ENDCOLOR] you have accomplished with your Civilization in total of all types!'),
-	('TXT_KEY_CO_HISTORIC_EVENTS_HEADER_TT', 'This is the list of [COLOR_POSITIVE_TEXT]Historic Events[ENDCOLOR] available for you to achieve. You can unlock some more through Buildings or Social Policies.'),
-	('TXT_KEY_CO_HISTORIC_EVENTS_TOURISM_HEADER_TT', 'This is the amount of [ICON_TOURISM] Tourism you will generate from this [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR] to all known Civilizations unless stated otherwise!'),
-	('TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE', '[ICON_RESEARCH] Era Transition'),
-	('TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER', '[ICON_WONDER] World Wonder Construction'),
-	('TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON', '[ICON_GREAT_PEOPLE] Great People Birth'),
-	('TXT_KEY_CO_HISTORIC_EVENT_WON_WAR', '[ICON_WAR] Favorable Peace Treaty'),
-	('TXT_KEY_CO_HISTORIC_EVENT_GOLDEN_AGE', '[ICON_GOLDEN_AGE] Entering a Golden Age'),
-	('TXT_KEY_CO_HISTORIC_EVENT_DIG', '[ICON_RES_ARTIFACTS] Digging Archaeological Sites'),
-	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND', '[ICON_CARAVAN] Trade with a Major City'), --Also Unused kinda it uses City Name
-	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA', '[ICON_CARGO_SHIP] Trade with a Major City'), --Also Unused kinda it uses City Name
-	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS', '[ICON_CARAVAN]/[ICON_CARGO_SHIP] Trade with a [ICON_CITY_STATE] City-State'),
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND_CAPITAL', 'Founding Capital ([ICON_CAPITAL])'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE_TT', 'Each [ICON_RESEARCH] Era you advance to will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]!'),
-	('TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER_TT', 'Each [ICON_WONDER] World Wonders you finish will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]!'),
-	('TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON_TT', 'Each [ICON_GREAT_PEOPLE] Great Person born in your Civilization will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]!'),
-	('TXT_KEY_CO_HISTORIC_EVENT_WON_WAR_TT', 'Each [ICON_PEACE] favorable peace treaty ([COLOR_POSITIVE_TEXT]War Score 25+[ENDCOLOR]) you complete will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]!'),
-	('TXT_KEY_CO_HISTORIC_EVENT_GOLDEN_AGE_TT', 'Each [ICON_GOLDEN_AGE] Golden Age you enter will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]!'),
-	('TXT_KEY_CO_HISTORIC_EVENT_DIG_TT', 'Each [ICON_RES_ARTIFACTS] Archaeological Sites evacuated will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]!'),
-	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND_TT', 'Each [ICON_CARAVAN] Land Trade Route completed from [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] to another foreign Major City will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]! The amount here will be sent toward the targeted Major Civilization and one-third of the amount will be sent to every other Civilizations.'),
-	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA_TT', 'Each [ICON_CARGO_SHIP] Sea Trade Route completed from [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] to another foreign Major City will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]! The amount here will be sent toward the targeted Major Civilization and one-third of the amount will be sent to every other Civilizations.'),
-	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS_TT', 'Each [ICON_INTERNATIONAL_TRADE] Trade Route completed either by land or sea with a [ICON_CITY_STATE] City-State will be a [COLOR_POSITIVE_TEXT]Historic Event[ENDCOLOR]! Unlike trading with a foreign Major City, this amount will be the same sent to all other Civilizations.'),
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND', 'Founding a City'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_CONQUEST', 'City Conquest'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_PLAYER_TURNS_PASSED', 'Time Passage'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_AI_TURNS_PASSED', 'Time Passage'); --Unused
+VALUES  ('TXT_KEY_CO_TAB_HISTORIC_EVENTS', ' 역사적 사건'),
+	('TXT_KEY_CO_HISTORIC_EVENTS_HEADER', ' 역사적 사건'),
+	('TXT_KEY_CO_CULTURE_OUTPUT', '현재 [ICON_CULTURE] 문화 생산: '),
+	('TXT_KEY_CO_HISTORIC_EVENTS_COUNTER', '총 역사적 사건: '),
+	('TXT_KEY_CO_CULTURE_OUTPUT_TT', '턴 당 생산되는 [ICON_CULTURE] 문화와 10턴 동안의 일시적 [ICON_CULTURE] 문화의 양이 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]의 [ICON_TOURISM] 관광에 반영됩니다.'),
+	('TXT_KEY_CO_TOURISM_OUTPUT_TT', '턴 당 생산되는 [ICON_TOURISM] 관광과 10턴 동안의 일시적 [ICON_TOURISM] 관광의 양이 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]의 [ICON_TOURISM] 관광에 반영됩니다.'),
+	('TXT_KEY_CO_HISTORIC_EVENTS_COUNTER_TT', '당신 문명으로 달성한 모든 종류의 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR] 수입니다!'),
+	('TXT_KEY_CO_HISTORIC_EVENTS_HEADER_TT', '당신이 달설할 수 있는 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR] 목록입니다. 건물이나 사회 정책으로 더 해금할 수 있습니다.'),
+	('TXT_KEY_CO_HISTORIC_EVENTS_TOURISM_HEADER_TT', '일반적으로 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR] 역사적 사건에서, 알려진 모든 문명에 생성할 관광의 양입니다!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE', '[ICON_RESEARCH] 새 시대 진입'),
+	('TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER', '[ICON_WONDER] 세계 불가사의 건설'),
+	('TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON', '[ICON_GREAT_PEOPLE] 위인 획득'),
+	('TXT_KEY_CO_HISTORIC_EVENT_WON_WAR', '[ICON_WAR] 유리한 평화 협정'),
+	('TXT_KEY_CO_HISTORIC_EVENT_GOLDEN_AGE', '[ICON_GOLDEN_AGE] 황금기 진입'),
+	('TXT_KEY_CO_HISTORIC_EVENT_DIG', '[ICON_RES_ARTIFACTS] 유적 발굴'),
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND', '[ICON_CARAVAN] 주요 도시와 교역'), --Also Unused kinda it uses City Name
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA', '[ICON_CARGO_SHIP] 주요 도시와 교역'), --Also Unused kinda it uses City Name
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS', '[ICON_CARAVAN]/[ICON_CARGO_SHIP] [ICON_CITY_STATE] 도시 국가와 교역'),
+	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND_CAPITAL', '수도 건설 ([ICON_CAPITAL])'), --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE_TT', '각 [ICON_RESEARCH] 시대에 진입하면 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER_TT', '각 [ICON_WONDER] 세계 불가사의를 건설하면 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON_TT', '각 [ICON_GREAT_PEOPLE] Great Person born in your Civilization will be a [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_WON_WAR_TT', '각 [ICON_PEACE] 유리한 평화 조약([COLOR_POSITIVE_TEXT]전쟁 점수 25+[ENDCOLOR])을 맺을 때마다 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_GOLDEN_AGE_TT', '각 [ICON_GOLDEN_AGE] 황금기 진입 시 마다 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_DIG_TT', '각 [ICON_RES_ARTIFACTS] 유적을 발굴하면 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND_TT', '외국 도시와의 각 [ICON_CARAVAN] 육상 교역로 완료마다 [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR][COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다! 목표 도시와 다른 문명에게는 관광이 3분의 1만 적용됩니다.'),
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA_TT', '외국 도시와의 각 [ICON_CARGO_SHIP] 해상 교역로 완료마다 [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다! 목표 도시와 다른 문명에게는 관광이 3분의 1만 적용됩니다.'),
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS_TT', '[ICON_CITY_STATE] 도시 국가와의 각 [ICON_INTERNATIONAL_TRADE] 육상 혹은 해상 교역로 완료마다 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다! 주요 도시와 교역과 달리, 다른 모든 문명에게 동일한 관광이 적용됩니다.'),
+	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND', '도시 설립'), --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_CITY_CONQUEST', '도시 정복'), --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_PLAYER_TURNS_PASSED', '시간 흐름'), --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_AI_TURNS_PASSED', '시간 흐름'); --Unused
 
 -- Victory Panel
 INSERT INTO Language_ko_KR (Tag, Text)
