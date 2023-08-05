@@ -225,7 +225,7 @@
 
 		<!-- Annexed City States -->
 		<Row Tag="TXT_KEY_TP_GOLD_FROM_ANNEXED_MINORS">
-			<Text>{1_Num} [ICON_CITY_STATE]정복된 도시 국가에서 </Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CITY_STATE]정복된 도시 국가에서 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]정복된 도시 국가에서 </Text>
