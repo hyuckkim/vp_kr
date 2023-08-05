@@ -1607,7 +1607,7 @@
             <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Num}){@2: plural 1?을; 2?를;} 공격하려다 전멸했습니다!</Text>
         </Row>
         <Row Tag="TXT_KEY_MISC_YOU_UNIT_DIED_ATTACKING_CITY">
-            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Num}){@2: plural 1?을; 2?를;} 공격합니다 전멸했습니다!</Text>
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Num}){@2: plural 1?을; 2?를;} 공격하려다 전멸했습니다!</Text>
         </Row>
         <Row Tag="TXT_KEY_MISC_YOU_UNIT_RANSOM_KILL_BY_BARBARIANS">
             <Text>야만인들이 몸값 지불 거절에 대한 보복으로 {@1_UnitName}{@1: plural 1?을; 2?를;} 죽였습니다!</Text>
