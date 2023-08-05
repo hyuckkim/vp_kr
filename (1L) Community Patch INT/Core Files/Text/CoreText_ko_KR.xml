@@ -6912,6 +6912,12 @@
 		<Row Tag="TXT_KEY_FOODMOD_EATEN_FOOD">
 			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민이 소비</Text>
 		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_EXCESS_FOOD_POSITIVE">
+			<Text>[NEWLINE][COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 과잉 [ICON_FOOD] 식량 조정 (성장)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_EXCESS_FOOD_NEGATIVE">
+			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 과잉 [ICON_FOOD] 식량 조정 (기아)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_PUPPET">
 			<Text>[NEWLINE][ICON_BULLET][ICON_PUPPET]괴뢰 도시: {1_Num}%</Text>
 		</Row>
