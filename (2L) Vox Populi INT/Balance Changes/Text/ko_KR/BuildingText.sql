@@ -369,11 +369,11 @@ SET Text = '[ICON_TOURISM]관광을 증가시켜주는 [COLOR_POSITIVE_TEXT]글�
 WHERE Tag = 'TXT_KEY_TECH_PRINTING_PRESS_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '완성시 막대한 황금기 점수를 생성하고 모든 도시 국가의 영향력을 20 증가시킵니다. 제국 전역에 경기장을 건설해 세계와의 외교 관계를 증진시키십시오.'
+SET Text = '완성시 모든 도시 국가의 영향력을 20 증가시킵니다. 제국 전역에 경기장을 건설해 세계와의 외교 관계를 증진시키십시오.'
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '건설을 완료하면 [ICON_GOLDEN_AGE] 황금기 점수를 [COLOR_POSITIVE_TEXT]2500[ENDCOLOR] 제공하고 모든 도시 국가의 [ICON_INFLUENCE] 영향력을 +20 증가시킵니다. [ICON_CITIZEN]시민 2명마다 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]세계 불가사의, 자연 경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다.[ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 건설하려면 동물원이 필요합니다.'
+SET Text = '건설을 완료하면 모든 도시 국가의 [ICON_INFLUENCE] 영향력을 +20 증가시킵니다. [ICON_CITIZEN]시민 2명마다 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]세계 불가사의, 자연 경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다.[ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 건설하려면 동물원이 필요합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_HELP';
 
 UPDATE Language_ko_KR
