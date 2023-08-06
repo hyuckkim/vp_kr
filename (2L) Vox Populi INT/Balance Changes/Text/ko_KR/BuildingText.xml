@@ -111,7 +111,7 @@
 			<Text>공립학교를 대체하는 스웨덴의 고유 건물입니다. 더 저렴하고, 더 효과적이고 유지비도 더 낮으며 추가로 [ICON_CULTURE]문화도 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SKOLA_HELP">
-			<Text>공립학교를 대체하는 스웨덴의 고유 건물입니다. 도시에서 [COLOR_POSITIVE_TEXT]고고학자[ENDCOLOR]를 생산할 수 있습니다. [ICON_CITIZEN]시민 3명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CITIZEN]시민 1명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>공립학교를 대체하는 스웨덴의 고유 건물입니다. [ICON_CITIZEN]시민 2명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CITIZEN]시민 2명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_DESC">
 			<Text>테트라콘치</Text>
@@ -260,6 +260,9 @@
 		<Row Tag="TXT_KEY_BUILDING_LODGE">
 			<Text>오두막</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GALLERY">
+			<Text>갤러리</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST">
 			<Text>약초상</Text>
 		</Row>
@@ -292,6 +295,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LODGE_STRATEGY">
 			<Text>오두막은 야영지와 야영지 자원의 생산을 증가시키고, 도시가 새 타일을 얻을 때마다 식량을 제공합니다. 야영지의 산출을 늘리려면 이 건물을 건설하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GALLERY_STRATEGY">
+			<Text>갤러리는 위대한 예술가의 생성 속도를 증가시키고, 예술가 길드와 걸작을 강화합니다. 갤러리를 건설해 길드가 있는 도시의 예술가와 걸작을 강화하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH_STRATEGY">
 			<Text>목욕탕은 문화를 제공하며, 사원, 원형극장, 정원의 골드와 문화를 증가시킵니다. 또한 황금기에 추가 문화를 제공합니다. 목욕탕은 오직 담수 옆에 있는 도시에서만 건설할 수 있습니다.</Text>
@@ -332,6 +338,9 @@
 		<Row Tag="TXT_KEY_BUILDING_LODGE_HELP">
 			<Text>야영지에서 [ICON_PRODUCTION] 생산을 +1 얻습니다. 도시 영역이 확장될 때 [ICON_FOOD] 식량을 5 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] [ICON_CULTURE_LOCAL] 국경 확장 속도가 +2 증가합니다.[NEWLINE][NEWLINE][ICON_RES_DEER] 사슴: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_BISON] 들소: [ICON_FOOD] 식량 +1</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GALLERY_HELP">
+			<Text>도시의 [ICON_GREAT_WORK] 걸작이 [ICON_TOURISM] 관광을 +1 얻습니다. [ICON_GREAT_ARTIST] 위대한 예술가 생성 속도가 +33% 증가하고, 모든 예술가 길드가 [ICON_GOLD] 골드를 +1 얻습니다.[NEWLINE][NEWLINE] [ICON_GREAT_WORK] 걸작 예술품 또는 유물 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WELL_HELP">
 			<Text>[ICON_CITIZEN]시민 5명마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]강과 인접한 도시[ENDCOLOR]에는 건설할 수 없습니다. 도시에 [COLOR_NEGATIVE_TEXT]물레방앗간[ENDCOLOR]이 없어야 건설할 수 있습니다.</Text>
 		</Row>
@@ -370,6 +379,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LODGE_TEXT">
 			<Text>오두막은 주 주거지와 떨어져 있는 작은 주거지로, 레크리에이션에 사용됩니다. 이 용어는 특히 현대의 귀족과 레크리에이션 스포츠맨과 관련하여 레크리에이션 사냥과 관련이 있습니다. 많은 문화에서, 야생 보호 구역은 왕들과 그들의 수행원들이 쾌락을 위해 사냥에 참여하기 위해 따로 남겨졌습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GALLERY_TEXT">
+			<Text>아트 갤러리는 그림이나 조각과 같은 시각 예술을 전시하는 전용 공간입니다. 원래 갤러리는 개인 궁전과 교회의 긴 복도로 신분을 표시하기 위해 개인 미술 컬렉션이 늘어서 있습니다. 오늘날 많은 아트 갤러리는 공공 소유이며 역사적, 교육적, 미적 가치를 위해 대중에게 예술을 전시합니다. 갤러리는 지역 예술가, 예술품 수집가, 순수 예술계의 유행을 선도하는 사람들의 네트워킹과 홍보를 위한 장소 역할을 계속하고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BATH_TEXT">
 			<Text>역사를 통틀어, 사회는 시민 구역에 물을 가져올 수 있는 시스템을 고안했습니다. 고대 그리스는 개인적인 청결을 위해 작은 욕조, 세면대, 족욕을 사용했습니다. 목욕에 대한 최초의 발견은 크레타의 크노소스에 있는 궁전 단지의 기원전 2천년 중반과 산토리니의 아크로티리에서 출토된 호화로운 알라바스터 욕조에서 비롯됩니다. 그리스인들은 휴식과 개인 위생을 위해 체육관 내에 공중 목욕탕과 샤워 시설을 설치했습니다. 사실, gymnos라는 단어는 벌거벗은 것을 의미하는 그리스어에서 왔습니다. 고대 로마는 모든 큰 마을과 인구 센터에 물을 공급하는 수도관 네트워크를 개발했고, 가정과 공공 우물, 분수에서 끝나는 파이프로 실내 배관을 갖추었습니다. 로마의 대중 목욕탕은 테르마에라고 불렸습니다. 로마 제국의 몰락과 함께 수도관 네트워크는 황폐해졌고 대부분의 수도관 네트워크는 더 이상 사용되지 않았습니다. 중세에는 목욕이 대중 목욕탕에서 흔히 행해졌습니다. 하지만, 대중들의 노출은 그 시대의 전례 파벌들에 의해 눈살을 찌푸리게 했습니다. 공중 목욕탕은 또한 매춘의 피난처였으며, 이것은 공중 목욕탕에 대한 반대를 낳았습니다. 부자들은 '목욕' 방이 흔하지 않았기 때문에, 대부분 그들의 침실에서 집에서 목욕을 했습니다. 목욕은 큰 나무 욕조에서 행해졌고, 그 안에 린넨 천을 깔아놓아서 가시가 박힌 것들로부터 목욕자를 보호했습니다. 게다가, 르네상스와 개신교 개혁 기간 동안, 옷의 질과 상태는 (신체 자체의 실제 청결함과는 반대로) 개인의 영혼을 반영하는 것으로 생각되었습니다. 깨끗한 옷은 또한 사람의 사회적 지위를 반영했습니다; 옷은 남자 또는 여자를 만들었습니다. 게다가, 중세 후반부터 18세기 말까지, 에티켓과 의학 매뉴얼은 사람들에게 보이는 신체 부분, 예를 들어 귀, 손, 발, 얼굴과 목만 씻으라고 조언했습니다. 이것은 대중 목욕탕을 없애버렸고, 자신의 청소는 집의 사생활에 맡겼습니다.</Text>
