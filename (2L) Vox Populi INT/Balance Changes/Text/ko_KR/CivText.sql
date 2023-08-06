@@ -203,6 +203,14 @@ UPDATE Language_ko_KR
 SET Text = '카타프락토이는 비잔티움의 고유 유닛으로 기사를 대체합니다. 카타프락토이는 기사보다 느리지만, 창병이 도착할 때까지 가장 위협적인 기병 부대 중 하나입니다. 공격한 후 이동할 수 있고, 기사와 다르게 방어 보너스를 받을 수 있습니다. 도시 공격 패널티가 별로 심하지 않습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY';
 
+UPDATE Language_en_US
+SET Text = '드로몬은 도시 국가의 선물로만 얻을 수 있습니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_BYZANTINE_DROMON';
+
+UPDATE Language_en_US
+SET Text = '드로몬은 리부나와 비슷하지만, 유닛 상대로 더 강합니다. [COLOR_POSITIVE_TEXT]광역 피해 I[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]표적 I[ENDCOLOR] 승급을 보유합니다.'
+WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY';
+
 --------------------
 -- Carthage
 --------------------
