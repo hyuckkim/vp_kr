@@ -212,11 +212,11 @@ WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_LOVE';
 
 -- Apostolic Tradition (now Pilgrimage)
 UPDATE Language_ko_KR
-SET Text = '사도 전승'
+SET Text = '복음 전도'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_RELIGION]종교 전파 시 +20 [ICON_FOOD]식량을 성도에 제공합니다. (새로운 신도 수에 따라 보정) 새로운 [ICON_RESEARCH]기술을 연구하면, [ICON_RELIGION]종교의 신도마다 2 [ICON_PEACE]신앙을 제공합니다. (한도: 250명) [NEWLINE][COLOR_YELLOW]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +4 [ICON_GOLDEN_AGE] 황금기 점수;  [ICON_RELIGION]성지에서 +5 [ICON_GOLDEN_AGE] 황금기 점수; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '외국 도시에 당신 문명의 [ICON_RELIGION]종교를 전파할 때 +15 [ICON_FOOD]식량을 성도에 제공하고, [COLOR:110:110:110:255](새로운 신도 수에 따라 보정)[ENDCOLOR] [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:110:110:110:255](다른 종교의 신도 수에 따라 보정) 제공합니다. [NEWLINE][COLOR_YELLOW]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +4 [ICON_GOLDEN_AGE] 황금기 점수;  [ICON_RELIGION]성지에서 +5 [ICON_TOURISM] 관광; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE';
 
 
@@ -288,11 +288,11 @@ WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES';
 
 -- Way of Noble Truths (formerly Tithe)
 UPDATE Language_ko_KR
-SET Text = '진리의 길'
+SET Text = '시현'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '외국 도시에 당신 문명의 [ICON_RELIGION]종교를 전파할 때 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] [COLOR:110:110:110:255](다른 종교의 신도 수에 따라 보정)[ENDCOLOR] 제공합니다. 도시 국가에  [ICON_RELIGION]종교를 전파할 때 +10 [ICON_INFLUENCE]영향력을 얻고 [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR], 평화로운 외국 문명의 신도 10명마다 전역 [ICON_HAPPINESS_1] 행복이 +1 증가합니다.[NEWLINE][COLOR_YELLOW]성유물함[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +2 [ICON_CULTURE] 문화, 4 [ICON_GREAT_WORK]걸작 예술품 슬롯;  [ICON_RELIGION]성지에서 +5 [ICON_TOURISM] 관광; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = ' 새로운 [ICON_RESEARCH]기술을 연구하면, [ICON_RELIGION]종교의 신도마다 [ICON_GOLDEN_AGE] 황금기 점수 +2, [ICON_PEACE]신앙 +2, [ICON_CULTURE] 문화 +2를 제공합니다. (한도: 250명) [NEWLINE][COLOR_YELLOW]기록저장소[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. ([ICON_RELIGION]성지에서 +5 [ICON_RESEARCH] 과학; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE';
 
 

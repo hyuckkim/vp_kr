@@ -173,23 +173,23 @@
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_TEXT">
 			<Text>제단은 종교적인 목적을 위해 제물과 같은 것들을 제공하는 모든 구조물입니다. 제단은 보통 성지에서 발견되며, 그것들은 사원, 교회 그리고 다른 예배 장소에 위치할 수 있습니다. 오늘날 그것들은 특히 기독교, 불교, 힌두교, 신도, 도교뿐만 아니라 신이교주의와 의식 마법에서 사용됩니다. 유대교는 제2성전이 파괴될 때까지 그러한 구조를 사용했습니다. 그리스와 노르드 종교를 포함한 많은 역사적인 신앙들도 그것들을 사용했습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_HELP">
-			<Text>모든 성지의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 4개를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_PEACE]신앙 +10[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_HELP">
+			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 3개를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE]테마보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_RELIQUARY">
-			<Text>성유물함</Text>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_STRATEGY">
+			<Text>기록실을 건설해 기술을 연구할 때마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 얻고, 모든 성지를 강화하십시오. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_STRATEGY">
-			<Text>성유물함을 건설해 강력한 관광 보너스를 받고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_PEDIA">
+			<Text>기록실은 교황청에서 개인적으로 보관하는 서신과 의사록의 모음집이었습니다. 이 컬렉션은 바티칸 비밀 기록 보관소의 시초가 되었습니다.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY">
+			<Text>기록실</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_TEXT">
-			<Text>유물함은 유물을 담는 용기입니다. 이것들은 뼈, 옷 조각, 또는 성인이나 다른 종교적 인물과 관련된 어떤 물건과 같은 성인들의 신체적인 유골일 수 있습니다. 주어진 유물의 진위 여부는 종종 논쟁의 여지가 있습니다. 그러한 이유로, 일부 교회는 유물의 출처에 대한 문서를 요구합니다. 유물들은 불교, 기독교, 힌두교 그리고 많은 다른 종교들에게 오랫동안 중요했습니다. 이러한 문화에서, 유골함은 종종 신자들이 축복을 얻기 위해 순례하는 신사, 교회 또는 사원에 제시됩니다. 중앙 서아프리카에서, 부에테 의식에 사용되는 유골들은 마법으로 여겨지는 물건들, 또는 조상들의 뼈들을 포함하고, 보통 유골에 보호자 형상을 부착하여 지어집니다.</Text>
+		<Row Tag="TXT_KEY_THEMING_BONUS_RELIGIOUS_LIBRARY">
+			<Text>비밀 {2_CivAdjective} 서신 저장소</Text>
 		</Row>
-		<Row Tag="TXT_KEY_THEMING_BONUS_RELIQUARY_HELP">
-			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]유물 또는 예술품[ENDCOLOR]으로 채우십시오.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_THEMING_BONUS_RELIQUARY">
-			<Text>{2_CivAdjective} 성유물함</Text>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_THEMING_BONUS_HELP">
+			<Text>보너스를 극대화 하려면, 모든 슬롯을 같은 문명의 걸작 문학으로 채우십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_HELP">
 			<Text>모든 성지의 [ICON_CULUTRE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>

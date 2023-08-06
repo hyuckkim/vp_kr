@@ -5,8 +5,8 @@ SET Text = '적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR:105:105:105
 WHERE Tag = 'TXT_KEY_BUILDING_MAUSOLEUM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '모든 성지의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 4개를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE]테마보너스:  [ICON_PEACE]신앙 +10[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
-WHERE Tag = 'TXT_KEY_BUILDING_RELIQUARY_HELP';
+SET Text = '모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 3개를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE]테마보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_HELP';
 
 UPDATE Language_ko_KR
 SET Text = '군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
@@ -29,7 +29,7 @@ SET Text = '모든 성지의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[END
 WHERE Tag = 'TXT_KEY_BUILDING_HOLY_COUNCIL_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 모든 성지의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
+SET Text = '도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 모든 성지의 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP';
 
 UPDATE Language_ko_KR
