@@ -360,7 +360,7 @@
 			<Text>도시가 공격으로부터 받는 피해를 2 감소시킵니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 시민의 10%만큼 증가합니다. 도시가 시야에 상관 없이 [ICON_RANGE_STRENGTH] 범위 공격을 할 수 있습니다. [NEWLINE][NEWLINE]주둔한 유닛이 체력을 추가로 5 회복합니다.[NEWLINE][NEWLINE][ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_HELP">
-			<Text>적 해상 유닛 및 승선 유닛이 이 도시의 물 타일에 들어오면 행동력을 모두 소모합니다. 이 도시의 대양 타일에서 턴을 마친 적 유닛은 5 피해를 받습니다.[NEWLINE][NEWLINE][ICON_RES_IRON]철 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. 항만이 있는 [COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.</Text>
+			<Text>적 해상 유닛 및 승선 유닛이 이 도시의 물 타일에 들어오면 이동력을 모두 소모합니다. 이 도시의 대양 타일에서 턴을 마친 적 유닛은 5 피해를 받습니다.[NEWLINE][NEWLINE][ICON_RES_IRON]철 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. 항만이 있는 [COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERPRETIVE_CENTER_HELP">
 			<Text>[ICON_WONDER] 세계 불가사의 및 타일이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. 제국 전역의 모든 랜드마크의 [ICON_CULTURE] 문화와 [ICON_TOURISM] 관광이 +1 증가합니다.</Text>
