@@ -191,6 +191,14 @@
 		</Row>
 
 <!-- Policy Promotion -->
+	<!-- Progress -->
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER">
+			<Text>빠른 노동자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER_HELP">
+			<Text>[ICON_MOVES] 이동력 +1</Text>
+		</Row>
+
 	<!-- Authority -->
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
 			<Text>징병</Text>
