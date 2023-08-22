@@ -421,7 +421,7 @@
 			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER} + {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_LANDMARKSTOURISMPERCENT">
-			<Text>랜드마크 관광: + {1}[ICON_TOURISM]</Text>
+			<Text>랜드마크 관광: + {1}%[ICON_TOURISM]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_INSTANTMILITARYINCREASE">
 			<Text>즉각적 군사력 증가: {1}</Text>

@@ -24,7 +24,7 @@
 			<Text>탈식민지화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION_HELP">
-			<Text>해당 문명에 강제로 탈식민지화를 시행합니다. 이 결의안이 활성되면, 모든 비영구적인 도시 국가 동맹에 대한 해당 문명의 [ICON_INFLUENCE]영향력이 [COLOR_NEGATIVE_TEXT]50[ENDCOLOR]으로 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+			<Text>모든 문명에 강제로 탈식민지화를 시행합니다. 이 결의안이 활성되면, 모든 비영구적인 도시 국가 동맹에 대한 모든 문명의 [ICON_INFLUENCE]영향력이 [COLOR_NEGATIVE_TEXT]50[ENDCOLOR]으로 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR">
 			<Text>문호 개방</Text>

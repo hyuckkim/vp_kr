@@ -84,10 +84,10 @@
 
 		<!-- Tourism Bonus Turns for Tooltip -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
-			<Text>콘서트 투어에서 +100% 보너스 ({1_NumTurns} 턴)[NEWLINE]</Text>
+			<Text>콘서트 투어에서 보너스 +100% ({1_NumTurns} 턴)[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
-			<Text>콘서트 투어에서 +50% 보너스 ({1_NumTurns} 턴)[NEWLINE]</Text>
+			<Text>콘서트 투어에서 보너스 +50% ({1_NumTurns} 턴)[NEWLINE]</Text>
 		</Row>
 		<!-- Add Defensive Pact Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_DEFENSIVE_PACT">
@@ -3492,10 +3492,10 @@
 			<Text>그들은 종주국에게 종속국 해방을 요청할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_TOO_SOON">
-			<Text>우리는 최근에 종속되어 {1_Num}턴 동안 이 작업을 수행할 수 없습니다.</Text>
+			<Text>우리는 최근에 종속시켜 {1_Num}턴 동안 이 작업을 수행할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_TOO_SOON">
-			<Text>그들은 최근에 종속되어 {1_Num}턴 동안 이 작업을 수행할 수 없습니다.</Text>
+			<Text>그들은 최근에 종속시켜 {1_Num}턴 동안 이 작업을 수행할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT">
 			<Text>평화 협정에는 동맹 도시 국가만 포함할 수 있습니다.</Text>
@@ -6784,22 +6784,22 @@
 		</Row>
 		<!-- Great Work Gold (LUA)-->
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP">
-			<Text>+{1_Num} {2_IconString} 걸작 및 테마에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num} {2_IconString}[ENDCOLOR] 걸작 및 테마에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP_CULTURE">
-			<Text>+{1_Num} [ICON_CULTURE]걸작 및 테마에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]걸작 및 테마에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_ART_CBP_FAITH">
-			<Text>+{1_Num} [ICON_PEACE]걸작 및 테마에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_PEACE]걸작 및 테마에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_TRAIT_BONUS">
 			<Text>+{1_Num} {2_IconString}특성에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE">
-			<Text>+{1_Num}% 적극적인 안건 제안 때문에 보너스[NEWLINE]</Text>
+			<Text>적극적인 안건 제안 때문에 보너스 +{1_Num}%[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE_NEGATIVE">
-			<Text>-{1_Num}% 적극적인 안건 제안 때문에 페널티[NEWLINE]</Text>
+			<Text>적극적인 안건 제안 때문에 페널티 {1_Num}%[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SOMEONE_NO_LONGER_INFLUENTIAL">
 			<Text>세계적인 영향력 변화</Text>

@@ -254,7 +254,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]{1_ResourceNames}[ENDCOLOR]의 글로벌 독점을 잃었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_MONOPOLY_RESOURCE">
-			<Text>[NEWLINE][ICON_BULLET]자원 독점에서: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE]+{1_Num}%[ENDCOLOR] 자원 독점에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_HAPPINESS">
 			<Text>[COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] +6[ICON_HAPPINESS_1]문명 전역 행복</Text>
