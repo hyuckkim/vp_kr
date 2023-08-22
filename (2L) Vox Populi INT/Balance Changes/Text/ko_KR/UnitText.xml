@@ -628,6 +628,13 @@
 		<Row Tag="TXT_KEY_PROMOTION_FROGMAN_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]승선[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]하선[ENDCOLOR]이 [ICON_MOVES] 이동력을 1만 소모합니다.[NEWLINE]바다에서 지상으로 공격하거나 강을 건너 공격할 때 받는 페널티가 사라집니다.</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING">
+			<Text>선별</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR]가 10% 증가합니다.[NEWLINE]측면 공격 시 2기로 취급</Text>
+		</Row>
 		<!-- Mounted Line -->
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_II">
 			<Text>돌격 II</Text>
