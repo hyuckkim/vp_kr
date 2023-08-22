@@ -859,7 +859,7 @@ WHERE Tag = 'TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY';
 
 
 UPDATE Language_ko_KR
-SET Text = '간척지는 습지 또는 지상 타일에 세 타일 이상 인접한 물 타일에만 건설할 수 있습니다. 해당 타일의  [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산이 증가하고 인접한 마을 또는 소도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 타일의 특성을 제거하지 않습니다.[NEWLINE][NEWLINE]간척지는 지상 유닛이 지상 타일을 이동하듯 이동할 수 있습니다. '
+SET Text = '간척지는 습지 또는 지상 타일에 세 타일 이상 인접한 물 타일에만 건설할 수 있습니다. 해당 타일의  [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산이 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 타일의 특성을 제거하지 않습니다.[NEWLINE][NEWLINE]간척지는 지상 유닛이 지상 타일을 이동하듯 이동할 수 있습니다. '
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP';
 
 UPDATE Language_ko_KR
