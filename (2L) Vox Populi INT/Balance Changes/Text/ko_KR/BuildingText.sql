@@ -617,7 +617,7 @@ WHERE Tag = 'TXT_KEY_WONDER_PYRAMIDS_HELP';
 
 -- Here is in fact the CHICHEN ITZA, in the original files is wrong defined 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 모든 도시의 [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
+SET Text = '무료 [COLOR_POSITIVE_TEXT]테오칼리[ENDCOLOR]를 제공합니다. [ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 모든 도시의 [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_WONDER_TAJ_MAHAL_HELP';
 
 -- Here is in fact the PYRAMIDS, in the original files is wrong defined 
