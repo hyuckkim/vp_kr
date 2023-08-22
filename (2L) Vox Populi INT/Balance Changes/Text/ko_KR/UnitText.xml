@@ -655,6 +655,13 @@
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT">
+			<Text>포위</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공격할 때[ENDCOLOR] 측면 공격으로 인한 이득을 얻습니다.[NEWLINE][COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR] +10%.</Text>
+		</Row>
 		<!-- Melee Line -->
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4">
 			<Text>초과</Text>
