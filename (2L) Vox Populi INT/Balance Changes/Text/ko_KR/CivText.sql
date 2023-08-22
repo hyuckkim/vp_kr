@@ -945,7 +945,7 @@ SET Text = '인접 타일 전투 보너스'
 WHERE Tag = 'TXT_KEY_EUPANEL_IMPROVEMENT_NEAR';
 
 UPDATE Language_ko_KR
-SET Text = '모든 인접한 모아이마다 [ICON_CULTURE] 문화를 +1 얻습니다. 물 타일에 인접해야 건설할 수 있습니다. [NEWLINE][NEWLINE]3타일 범위의 모든 폴리네시아 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다.'
+SET Text = '모든 인접한 모아이 또는 도시마다 [ICON_CULTURE] 문화를 +1 얻습니다. 물 타일에 인접해야 건설할 수 있습니다. [NEWLINE][NEWLINE]3타일 범위의 모든 폴리네시아 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다.'
 WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
 
 --------------------
