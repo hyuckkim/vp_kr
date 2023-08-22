@@ -88,7 +88,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD';
 
 -- God of War
 UPDATE Language_ko_KR
-SET Text = '전투 유닛을 처치 시 [ICON_PEACE]신앙을 유닛 [ICON_STRENGTH] 전투력의 175%만큼 획득하고, 근접 유닛이 전투 유닛을 처치 시 체력을 10 회복합니다. 병영의 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '전투 유닛을 처치 시 [ICON_PEACE]신앙을 유닛 [ICON_STRENGTH] 전투력의 175%만큼 획득합니다. 병영의 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_WAR';
 
 
