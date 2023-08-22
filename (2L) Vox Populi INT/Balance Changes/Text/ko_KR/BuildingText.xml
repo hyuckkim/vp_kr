@@ -591,7 +591,7 @@
 			<Text>알현실</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_HELP">
-			<Text>[ICON_CAPITAL]수도에 음악가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 도시의 작업 범위가 +1 증가하고 도시의 모든 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [COLOR_MAGENTA]전통[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 음악가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 도시의 작업 범위가 +1 증가하고 도시의 모든 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.  [COLOR_MAGENTA]전통[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_PEDIA">
 			<Text>알현실은 왕관의 공식 관저에 있는 방, 종종 홀보다는 궁전이나 요새화된 성으로, 고위 인물의 왕좌가 정교한 장엄함으로 세워지는 곳입니다. - 보통 계단식으로, 그리고 캐노피 아래, 둘 다 그리스 단어 thronos의 원래 개념의 일부입니다.</Text>
@@ -600,7 +600,7 @@
 			<Text>국고</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_HELP">
-			<Text>[ICON_CAPITAL]수도에 상인 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]존엄[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 상인 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 모든 도시의 정원과 기념비의 [ICON_CULTURE] 문화가 +2 증가합니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]존엄[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_PEDIA">
 			<Text>금고라는 용어는 고대 올림픽 기간 동안 다른 사람들에게 깊은 인상을 주기 위해 그리스 올림피아에 세워진 시프니안 금고나 그리스 올림피아에 세워진 많은 유사한 건물과 같이 신들에게 선물을 보관하기 위해 세워진 봉헌적인 건물을 설명하기 위해 처음 사용되었습니다. 고대 그리스에서 국고는 거의 항상 신전과 같은 종교적인 건물 안에 물리적으로 통합되었습니다. 따라서 국가 기금을 신성시하고 이러한 기금에 접근하는 사람들에게 형벌에 도덕적 제약을 더했습니다.</Text>
@@ -618,7 +618,7 @@
 			<Text>궁전 정원</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_HELP">
-			<Text>[ICON_CAPITAL]수도에 작가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 모든 기념비, 정원, 목욕탕의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]탁월[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_CAPITAL]수도에 작가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [COLOR_MAGENTA]탁월[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_PEDIA">
 			<Text>정원은 식물과 다른 형태의 자연을 전시, 재배, 즐기기 위해 마련된 계획된 공간입니다. 그 정원은 천연 재료와 인공 재료를 모두 포함할 수 있습니다. 오늘날 가장 일반적인 형태는 주거용 정원으로 알려져 있지만, 전통적으로 정원이라는 용어는 더 일반적인 것이었습니다. 야생 동물들을 모의 자연 서식지에 전시하는 동물원은 이전에는 동물학적인 정원이라고 불렸습니다. 서양의 정원은 거의 보편적으로 식물에 기반을 두고 있으며, 정원은 종종 식물원의 단축된 형태를 나타냅니다.</Text>
