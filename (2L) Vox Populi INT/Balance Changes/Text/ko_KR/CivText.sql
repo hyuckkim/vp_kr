@@ -364,7 +364,7 @@ VALUES ('TXT_KEY_BUILDING_STELE_HELP', '기념비를 대체하는 에티오피�
 -- France
 --------------------
 UPDATE Language_ko_KR
-SET Text = '이전 턴에 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시를 정복하면 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 작가/예술가/음악가 점수가 증가하고 일시적으로 모든 도시의 [ICON_CULTURE]문화 및 [ICON_PRODUCTION]생산이 +40% 증가합니다.[COLOR:105:105:105:255](도시의 인구수에 따라 보정)[ENDCOLOR]'
+SET Text = '근접 및 화약 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 보급을 필요로 하지 않습니다. 군사 유닛 10명마다 [ICON_CULTURE] 문화 +1을 얻습니다. [ICON_CITIZEN] 시민에 의한 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 25% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE';
 
 UPDATE Language_ko_KR
@@ -415,7 +415,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  일시적인 [ICON_CULTURE]
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS';
 
 UPDATE Language_ko_KR
-SET Text = '샤토는 사치 자원과 인접한 타일에만 건설할 수 있습니다. 다른 샤토와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_FOOD]식량이 증가합니다. 요새처럼 주둔 시 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 프랑스 영토에만 건설할 수 있습니다.'
+SET Text = '샤토는 사치 자원과 인접한 타일에만 건설할 수 있습니다. 다른 샤토와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_FOOD]식량이 증가합니다. 요새처럼 주둔 시 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.  [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]처럼, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. 프랑스 영토에만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP';
 
 UPDATE Language_ko_KR
@@ -423,7 +423,7 @@ SET Text = '샤토는 사치 자원과 인접한 타일에만 건설할 수 있�
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '이 타일에 주둔한 유닛의 [ICON_STRENGTH] 방어력 보너스가 +50% 증가합니다. 사치 자원에 인접해야 합니다.'
+SET Text = '이 타일에 주둔한 유닛의 [ICON_STRENGTH] 방어력 보너스가 +50% 증가합니다. 사치 자원에 인접해야 합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]처럼, 공격 후에도 그 타일에 계속 주둔할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILD_CHATEAU_HELP';
 
 --------------------
@@ -558,7 +558,7 @@ WHERE Tag = 'TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY_STRATEGY';
 -- Huns
 --------------------
 UPDATE Language_ko_KR
-SET Text = '당신 문명의 [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 적 문명의 [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 기마 및 기갑 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 보급을 필요로 하지 않습니다. 도시가 타일을 획득할 때 소유자가 없는 동일한 종류의 인접 지상 타일도 같이 획득합니다.'
+SET Text = '당신 문명의 [ICON_WAR][COLOR_POSITIVE_TEXT]전쟁 피로도[ENDCOLOR]가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 적 문명의 [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 이 턴 동안 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시가 타일을 획득할 때 소유자가 없는 동일한 종류의 인접 지상 타일도 같이 획득합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_RAZE_AND_HORSES';
 
 UPDATE Language_ko_KR
@@ -965,7 +965,7 @@ WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
 --------------------
 
 UPDATE Language_ko_KR
-SET Text = '해당 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 증가합니다. 나우를 사용해 도시 국가에도 건설할 수 있습니다. ([COLOR_POSITIVE_TEXT]이국적인 화물 판매[ENDCOLOR]로) 도시 국가가 보유한 사치 자원의 교환할 수 없는 복제품을 제공합니다. 해당 도시 국가와의 [ICON_INTERNATIONAL_TRADE]교역로의 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 증가합니다. 이는 교역로에서 오는 골드 수입 및 도시 국가와의 현재 관계[COLOR:105:105:105:255](중립/우호/동맹)[ENDCOLOR]에 따라 달라집니다.[NEWLINE][NEWLINE]페이토리아는 해당 타일 및 2타일 이내에 있는 모든 타일에 시야를 제공하고 [ICON_STRENGTH]방어력 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 오직 포르투갈 문명만 건설할 수 있으며 반드시 해안 타일에 건설해야 합니다. 서로 인접하여 건설할 수 없고 자원 타일 위에 건설할 수 없습니다.'
+SET Text = '해당 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 증가합니다. 나우를 사용해 도시 국가에도 건설할 수 있습니다. ([COLOR_POSITIVE_TEXT]이국적인 화물 판매[ENDCOLOR]로) 도시 국가가 보유한 사치 자원의 교환할 수 없는 복제품을 제공합니다. 해당 도시 국가와의 [ICON_INTERNATIONAL_TRADE]교역로의 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 증가합니다. 이는 교역로에서 오는 골드 수입 및 도시 국가와의 현재 관계[COLOR:105:105:105:255](중립/우호/동맹)[ENDCOLOR]에 따라 달라집니다.[NEWLINE][NEWLINE]페이토리아는 해당 타일 및 2타일 이내에 있는 모든 타일에 시야를 제공하고 [ICON_STRENGTH]방어력 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 오직 포르투갈 문명만 건설할 수 있으며 반드시 해안 타일에 건설해야 합니다. 서로 인접하여 건설할 수 없고 자원 타일 위에 건설할 수 없습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FEITORIA_HELP';
 
 UPDATE Language_ko_KR
