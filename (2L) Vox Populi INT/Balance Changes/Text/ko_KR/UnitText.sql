@@ -400,18 +400,18 @@
 
 	-- Naval Units
 
-	INSERT INTO Language_en_US (Tag, Text)
+	INSERT INTO Language_ko_KR (Tag, Text)
 		VALUES 	('TXT_KEY_UNIT_GALLEY_HELP', '재해권을 위한 고대 시대 해양 유닛입니다.');
 	
-	UPDATE Language_en_US
+	UPDATE Language_ko_KR
 	SET Text = '갤리선은 주로 노에 의해 추진되는 모든 유형의 선박입니다. 많은 갤리선도 바람이 부는 날에는 돛을 사용했지만 노를 젓는 것은 조종과 풍력으로부터의 독립을 의미했습니다. 갤리선의 구조와 크기는 고대부터 매우 다양했지만 초기 선박은 종종 사용하지 않을 때 집어 들고 해안으로 운반할 수 있을 만큼 작았으며 무역과 전쟁 모두에 사용되는 다목적 선박이었습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_GALLEY_PEDIA';
 	
-	UPDATE Language_en_US
+	UPDATE Language_ko_KR
 	SET Text = '갤리는 최초의 해군 유닛입니다. 그들은 느리고 약하지만 초기 재해권 확보에 사용할 수 있습니다. 초기 야만인의 침입으로부터 도시를 보호하기 위해 갤리선을 사용하십시오.'
 	WHERE Tag = 'TXT_KEY_UNIT_GALLEY_STRATEGY';
 
-	INSERT INTO Language_en_US (Tag, Text)
+	INSERT INTO Language_ko_KR (Tag, Text)
 		VALUES 	('TXT_KEY_UNIT_LIBURNA', 			'리부나'),
 				('TXT_KEY_UNIT_LIBURNA_HELP', 		'원거리 공격으로 중세 시대까지 바다를 지배하는 고전 시대 해양 유닛입니다.'),
 				('TXT_KEY_UNIT_LIBURNA_PEDIA', 		'리부나는 지중해에서 습격과 순찰에 사용되는 작고 빠른 유형의 갤리였습니다. 오늘날의 달마티아에서 리부르니아인들에 의해 처음 발명된 리부나는 나중에 로마 해군이 해적에 대항하는 민첩한 순찰선으로 채택했습니다.'), 
