@@ -246,12 +246,24 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]과학 아카데미[ENDCOLOR]: 모든 도시의 [ICON_RESEARCH]문맹 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR] 감소합니다. 연구소를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 제공하고 제국 전역에 [COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 5개 제공합니다. 연구소의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP';
 
--- Cultural Revolution
+-- Cultural Revolution (now Socialist Realism)
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]문화 대혁명[ENDCOLOR]: 같은 [COLOR_MAGENTA]질서[ENDCOLOR] 이념을 따르는 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가하고 모든 [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_SPY]스파이가 작전을 수행할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
+SET Text = '사회주의 리얼리즘'
+WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]사회주의 리얼리즘[ENDCOLOR]: 생산을 관광으로 전환할 수 있게 합니다. 같은 [COLOR_MAGENTA]질서[ENDCOLOR] 이념을 따르는 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 모든 [ICON_GREAT_WORK]걸작의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP';
 
--- Dictatorship of the Proletariat
+UPDATE Language_ko_KR
+SET Text = '사회주의 리얼리즘이란 소련에서 시작된 ''현실적 표현'' 방법이며, 사회주의의 승리를 예술, 사진, 영화 및 대중 운동으로 표현하는 것이다. 사회주의 리얼리즘은 소련뿐만이 아니라 전 세계의 공산주의 국가에서 주류가 되었다. 60년간 소련에서는 고전 사회주의와 사회주의 리얼리즘의 두 방법으로만 대중 예술을 제작할 수 있었다. 극적이고 최소주의적인 기념비는 프롤레타리아 독재와 공산주의 이념을 알리는 강력한 선동 도구가 되었다.'
+WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION_TEXT';
+
+-- Dictatorship of the Proletariat (now Cultural Revolution)
+UPDATE Language_ko_KR
+SET Text = '문화대혁명'
+WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT';
+
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]프롤레타리아 독재[ENDCOLOR]: 당신의 문명보다 [ICON_HAPPINESS_1]행복이 적은 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 모든 공장의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP';
@@ -260,6 +272,10 @@ WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP';
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_SPY] 스파이 포인트를 300 제공합니다. 당신 문명의 [ICON_SPY]스파이가 적[ICON_SPY]스파이를 포획할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 1턴 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '프롤레타리아 문화 대혁명은 1966년부터 1976년까지 중화민국에서 일어난 사회 운동이다. 모택동과 공산당이 시작한 문화 대혁명은 체포와 폭력을 동원해서라도 자본주의적, 전통적, 종교적 요소를 제거하여 국민을 재사회화하는 것이 목표였다. 모든 사회, 학교, 군대, 정당과 노동자 사이에서 문화 투쟁이 발생하였으며, 이후 몇십 년간 중국은 국제무대에서 영향력을 발휘할 수 없었다.'
+WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_TEXT';
 
 -- Hero of the People
 UPDATE Language_ko_KR
@@ -276,10 +292,17 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]우주 비행 개척자[ENDCOLOR]: [ICON_GREAT_ENGINEER][COLOR_YELLOW]위대한 기술자[ENDCOLOR] 및 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR]가 1명 출현합니다.[ICON_GREAT_ENGINEER]위대한 기술자로 [COLOR_POSITIVE_TEXT]우주선 부품[ENDCOLOR]을 완성할 수 있고 [ICON_GREAT_PEOPLE]위인을 소모할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [ICON_GREAT_ENGINEER]위대한 기술자를 소모해 생산 가속 시  [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 더 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP';
 
--- Party Leadership
+-- Party Leadership (now Dictatorship of the Proletariat)
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]당 지도부[ENDCOLOR]: 모든 도시의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR] 증가합니다.'
+SET Text = '프롤레타리아 독재'
+WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]프롤레타리아 독재[ENDCOLOR]: 모든 도시의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP';
+
+UPDATE Language_en_US
+SET Text = '마르크스주의 사회정치 이론에서 프롤레타리아 독재란 노동자 계급이 직접적인 정치권력을 가진 사회 상태를 의미한다. 이 경우 ''독재''라는 표현은 일반적인 의미가 아니라 모든 사회 계급이 국가를 통치한다는 것을 의미한다. 마르크스와 엥겔스에 따르면 자본가 또는 다른 계급이 노동자의 권리를 박탈하는 것으로 이러한 정치 체계가 오는 것을 늦출 수는 있겠지만, 노동자 계급은 폭력을 동원하여 이러한 정치 체계를 불러올 수 있으며, 결국 최후에는 프롤레타리아가 부르주아를 대체하게 될 것이라고 한다.'
+WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_TEXT';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]대조국전쟁[ENDCOLOR]: 도시 안 또는 인접 시 군사 유닛의 전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 도시를 처음 정복하면, 근처 세 타일 안의 군사 유닛들이 최대 체력으로 회복됩니다. [COLOR_YELLOW]T-34[ENDCOLOR] 유닛을 생산할 수 있습니다.'
@@ -327,7 +350,7 @@ SET Text = '대약진 운동'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR] 2개를 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. [ICON_SPY]스파이가 작전을 수행할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 전문가가 아닌 [ICON_CITIZEN] 시민 3명마다 [ICON_RESEARCH] 과학이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS_HELP';
 
 UPDATE Language_ko_KR

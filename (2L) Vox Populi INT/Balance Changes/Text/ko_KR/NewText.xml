@@ -168,5 +168,16 @@
 		<Row Tag="TXT_KEY_CONFIRM_BULLYANNEX">
 			<Text>{1_MinorCivName:textkey}{1: plural 1?을; 2?를;} 강제로 합병하시겠습니까?</Text>
 		</Row>
+
+		<!-- Propaganda Process -->
+		<Row Tag="TXT_KEY_PROCESS_TOURISM">
+			<Text>관광</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TOURISM_HELP">
+			<Text>도시 [ICON_PRODUCTION] 생산의 15%를 [ICON_TOURISM] 관광으로 전환합니다.[NEWLINE][NEWLINE]사회주의 리얼리즘 이념 주의를 채택해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TOURISM_STRATEGY">
+			<Text>{TXT_KEY_PROCESS_TOURISM_HELP}[NEWLINE][NEWLINE]선전에 생산을 투자하는 것은 세계에서 도시의 영향력을 높이는 좋은 방법입니다. 이는 현재 혁명의 물결 속에 있거나 다른 문명에 이를 강요하려는 경우 유용할 수 있습니다.</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>
