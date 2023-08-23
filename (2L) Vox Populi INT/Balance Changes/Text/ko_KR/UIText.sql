@@ -1089,7 +1089,8 @@ SET Text = '만나지 못한 플레이어의 승리를 위해 원래 [ICON_CAPIT
 WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING';
 
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES  ('TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_NO', '이 도시는 이전에 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 소유였습니다. [COLOR_NEGATIVE_TEXT]과거에 그들에게 적대적인 행동을 취했기 때문에 이를 되돌릴 기회가 없습니다.[ENDCOLOR]');
+VALUES  ('TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_NO', '이 도시는 이전에 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 소유였습니다. [COLOR_NEGATIVE_TEXT]과거에 그들에게 적대적인 행동을 취했기 때문에 이를 되돌릴 기회가 없습니다.[ENDCOLOR]'),
+	('TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_CAPTURED', '이 도시는 이전에 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 소유였습니다. [COLOR_NEGATIVE_TEXT]당신이 그들을 해방시키지 않기로 선택했기 때문에 이 도시를 그들에게 돌려줄 기회는 없습니다.[ENDCOLOR]');
 
 
 --내가추가
