@@ -23,6 +23,11 @@ UPDATE Language_ko_KR
 SET Text = '[ICON_FOOD]/[ICON_PRODUCTION] 페널티'
 WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY';
 
+-- Fortifications
+UPDATE Language_ko_KR
+SET Text = '많은 유닛은 요새화 능력을 갖고 있습니다. 이는 현재 위치에서 방어태세를 취하라는 것을 의미합니다. 요새화하면 전투시 방어보너스를 받게 되고 그 유닛은 파괴되기 어려워집니다. 그러나 요새화는 너무 방어적으로 치우쳐있습니다. 해당 유닛은 움직이거나 다른 유닛을 공격해서는 안되며, 그런 행동을 하면 요새화가 풀립니다. 요새화 중에는 당신이 유닛을 선택해서 명령을 내리기 전에는 유닛이 활성화되지 않습니다.[NEWLINE][NEWLINE]시설이 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공한다면, 그 시설에 주둔한 유닛은 전투에서 승리해도 그 위치로 따라가지 않습니다.'
+WHERE Tag = 'TXT_KEY_COMBAT_FORTIFICATION_HEADING3_BODY';
+
 -- Wonders
 UPDATE Language_ko_KR
 SET Text = '불가사의는 역사를 통해 영원히 기억될 유일하고 독특한 건물입니다. 불가사의는 사람들의 마음을 사로잡고 정신을 고양시켜 줍니다.[NEWLINE][NEWLINE]피라미드, 노트르담 성당, 스톤헨지 등이 불가사의입니다. 불가사의를 짓기 위해서는 많은 시간과 에너지가 필요합니다. 그러나 한번 짓게 되면, 불가사의는 당신의 문명에 많은 이익을 가져다줍니다.[NEWLINE][NEWLINE]불가사의에는 세 가지 기본 유형이 있습니다: 세계 불가사의, 국가 불가사의 그리고 프로젝트 불가사의입니다. 세계 불가사의는 장소 불문하고 세계에서 오직 단 하나만 지어질 수 있습니다. 국가 불가사의는 보다 짓기가 자유롭긴 하지만, 국가에서 단 하나만 지을 수 있습니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]세계 불가사의 생산[ENDCOLOR]: 특정한 특성과 정책 외에도 주변에  [ICON_RES_MARBLE]대리석 및 [ICON_RES_STONE]석재 자원이 있는 있는 도시는 불가사의의 [ICON_PRODUCTION]생산 보너스가 증가합니다. [ICON_RES_MARBLE]대리석은 산업 시대 이전의 모든 불가사의에 대한 생산 보너스를 15% 제공하는 반면, [ICON_RES_STONE]석재는 중세 시대 이전의 불가사의에 대한 생산 보너스를 10% 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]세계 불가사의 생산 비용[ENDCOLOR]: 현재 소유한 불가사의마다 미래에 건설할 불가사의의 생산 비용이 증가합니다. 이 비용은 불가사의의 시대에따라 달라집니다.[NEWLINE][ICON_BULLET] 같은 시대의 소유한 불가사의마다 : 25%. [NEWLINE][ICON_BULLET] 직전 시대부터 소유한 불가사의마다: 15%. [NEWLINE][ICON_BULLET] 두 시대 이전으로부터 소유한 불가사의마다: 10% (두 시대보다 이전의 불가사의는 계산하지 않음).[NEWLINE][NEWLINE]만약 여러분이 한 시대에 너무 많은 불가사의를 건설한다면, 미래의 불가사의를 얻는 능력이 손상될 것입니다, 그러니 너무 욕심을 부리지 마십시오!'
@@ -503,7 +508,7 @@ WHERE Tag = 'TXT_KEY_BUILD_RAILROAD_HELP';
 
 -- Fort
 UPDATE Language_ko_KR
-SET Text = '요새는 해당 타일 위 주둔한 유닛의 [ICON_STRENGTH]방어력 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 향상시키는 특별한 시설입니다. 하지만 적의 영지에 있는 유닛에게는 방어 보너스를 제공하지 않습니다. 서로 인접하여 건설할 수 없습니다.'
+SET Text = '요새는 해당 타일 위 주둔한 유닛의 [ICON_STRENGTH]방어력 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 향상시키는 특별한 시설입니다. 하지만 적의 영지에 있는 유닛에게는 방어 보너스를 제공하지 않습니다. 서로 인접하여 건설할 수 없습니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FORT_TEXT';
 
 -- Landmark
@@ -759,15 +764,6 @@ WHERE Tag = 'TXT_KEY_CITIES_WHERETOCONSTRUCT_HEADING2_BODY';
 UPDATE Language_ko_KR
 SET Text = '교역로는 서로 다른 문명의 두 도시 사이에 설립할 수 있으며, 턴마다 금을 제공합니다. 교역로 시작지 도시의 문명이 교역로 목적지 도시의 문명보다 더 많은 금을 획득합니다. 교역로에서 획득할 수 있는 금의 양은 시작지 도시의 자원 다양성과 수입에 따라 다릅니다.[NEWLINE][NEWLINE]같은 문명의 두 도시 사이에도 교역로를 설립할 수 있습니다. 시작지 도시에 곡창이 있다면 목적지 도시로 식량을 보낼 수 있으며, 시작지 도시에 작업장이 있다면 생산을 보낼 수 있습니다. 이러한 국내 교역로는 시작지 도시에 혜택을 가져다주지 않습니다.[NEWLINE][NEWLINE]교역로의 개수에는 제한이 있습니다. 특정 기술을 연구하면 사용할 수 있는 교역로 수가 늘어납니다. 이미 설립한 교역로의 상세 정보를 보려면, 추가 정보 드롭다운 메뉴에 있는 교역로 개요 화면을 여십시오.[NEWLINE][NEWLINE]교역로가 이동할 수 있는 거리는 도로, 지형, 적 병력 및 특성에 따라 달라집니다. 확장 시, 그리고 교역로를 통해 도시를 연결하려고 할 때 이 점을 명심하십시오.'
 WHERE Tag = 'TXT_KEY_TRADE_ROUTES_HEADING2_BODY';
-
--- Moai
-UPDATE Language_ko_KR
-SET Text = '모아이는 해안에만 건설할 수 있습니다. 인접한 모아이 또는 도시마다 [ICON_CULTURE]문화가 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 모아이 3타일 이내의 모든 폴리네시아 유닛은 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP';
-
-UPDATE Language_ko_KR
-SET Text = '모아이는 해안에만 건설할 수 있습니다. 인접한 모아이 또는 도시마다 [ICON_CULTURE]문화가 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 모아이 3타일 이내의 모든 폴리네시아 유닛은 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]대개 "이스터 섬의 석상"으로 더 잘 알려져 있는 모아이는 대부분 응회암과 같은 화강암 재질의 바위를 인간 형태로 깎아 만든 커다란 석상입니다. 이스터 섬 전역에 총 887개의 석상이 여기저기 흩어져 있으며 이들은 대부분 서기 1250년에서 1500년 사이에 만들어진 것으로 추정됩니다. 이 중 거의 반에 달하는 석상이 처음 만들어진 채석장에 남아 있는 상태이지만 나머지는 섬의 해안가로 운반되어 세워져 있습니다.  이 석상은 가늘고 긴 형태로 된 큰 머리를 가지고 있어 쉽게 알아볼 수 있는데, 아마도 그들의 조상들과 강력한 족장들의 모습을 본따 만든 것으로 추정됩니다. 대부분의 학자는 석상이 무슨 이유로 어떻게 만들어졌는지에 대해서는 동의하지만 석상을 운반한 방법은 여전히 미스터리로 남아 있습니다.  각 석상은 9~86톤이 나가며 채석장에서 현재 석상이 있는 장소까지 옮기는 데에는 놀랄만한 공학적 계산이 필요했을 것으로 추정됩니다. 모아이 석상은 1994년 유네스코 세계 유적지 목록에 등재됐으며  유네스코의 보호를 받고 있습니다.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_TEXT';
 
 -- Warscore Diplo
 

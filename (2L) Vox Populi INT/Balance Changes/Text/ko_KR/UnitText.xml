@@ -99,6 +99,13 @@
 		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
 			<Text>패배한 적 지상 유닛이 보급 소모 없이 아군으로 합류함</Text>
 		</Row>
+		<!-- Huns -->
+			<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE">
+				<Text>화력 집중</Text>
+			</Row>
+			<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE_HELP">
+				<Text>이 턴 동안 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			</Row>
 		<!-- Japan -->
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
 			<Text>무사도</Text>

@@ -65,10 +65,18 @@ SET Text = '다시는 이런 일이 없을 거라고 엄숙하게 약속한다�
 WHERE Tag = 'TXT_KEY_GENERIC_CAUGHT_YOUR_SPY_FRIENDLY_1';
 
 UPDATE Language_ko_KR
-SET Text = '내 백성들을 염탐하는 걸 그만두기로 동의하다니 기쁘군요'
+SET Text = '내 백성들을 염탐하는 걸 그만두기로 동의하다니 기쁘군요.'
 WHERE Tag = 'TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_GOOD_1';
 
 -- Citadel Stuff
+
+UPDATE Language_ko_KR
+SET Text = '이 타일에 주둔하는 유닛의 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'
+WHERE Tag = 'TXT_KEY_BUILD_FORT_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '요새는 타일의 방어 보너스를 높여주는 특이한 시설입니다. 하지만 적의 영지에 있는 유닛에게는 방어 보너스를 제공하지 않습니다. 다른 요새에 인접하여 건설할 수 없습니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FORT_TEXT';
 
 UPDATE Language_ko_KR
 SET Text = '성채는 [ICON_GREAT_GENERAL]위대한 장군만 건설할 수 있는 웅장한 요새로 보통 도시나 방어 가능한 지형 근처에 건설합니다. 그리스 아테네의 아크로폴리스는 강력한 초기 성채의 한 예라고 할 수 있습니다. 전면 공격으로 이러한 구조물을 함락시키는 것은 거의 불가능했으며 함락되기 전까지 오랜 시간을 버틸 수 있었습니다. [NEWLINE][NEWLINE]성채는 당신 문명의 영토 내의 아무 곳 또는 영토와 인접한 타일에 건설할 수 있습니다. 성채를 건설하면, 군사 유닛 보급 한도가 1 증가하고 성채 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. 성채 안에 있는 모든 유닛은 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가하고 성채와 인접해서 턴을 종료하는 모든 적 유닛은 피해를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] 입습니다. 유닛 옆에 성채가 여럿 있어도 이 피해는 한 번만 적용됩니다.'
