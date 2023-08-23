@@ -567,11 +567,11 @@ WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS';
 
 -- Syncretism (formerly Religious Unity)
 UPDATE Language_ko_KR
-SET Text = '혼합주의'
+SET Text = '보편주의'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '소유한 도시에서 다른 종교를 믿는 신도 2명마다 성도의 [ICON_PEACE]신앙, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 턴당 [ICON_RESEARCH]과학 [COLOR_POSITIVE_TEXT]15[ENDCOLOR]마다 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [COLOR:110:110:110:255](한도: 도시 내 신도 수의 절반)[ENDCOLOR]'
+SET Text = '소유한 도시에서 다른 종교를 믿는 신도 5명마다 성도의 [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 외국 도시의 신도 10명마다 성도의 [ICON_GOLD] 골드와 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY';
 
 
