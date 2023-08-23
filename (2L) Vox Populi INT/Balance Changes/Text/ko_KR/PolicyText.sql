@@ -167,7 +167,7 @@ WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 -- Covert Action
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: 도시 국가의 선거 조작 및 쿠데타 성공 확률이 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가가 20개 이상이라면 10개마다 하나씩 추가로)[ENDCOLOR] 제공합니다. 외국 스파이의 작전 기간이 2턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: 도시 국가의 선거 조작 및 쿠데타 성공 확률이 증가합니다. [ICON_SPY] 스파이 포인트를 100 제공합니다. 외국 스파이의 작전 기간이 2턴 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP';
 
 -- Creative Expression
@@ -258,7 +258,7 @@ WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP';
 
 -- Double Agents
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 3명 ([ICON_CITY_STATE]도시 국가가 20개 이상이라면 10개마다 하나씩 추가로)[ENDCOLOR] 제공합니다. 당신 문명의 [ICON_SPY]스파이가 적[ICON_SPY]스파이를 포획할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 1턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_SPY] 스파이 포인트를 300 제공합니다. 당신 문명의 [ICON_SPY]스파이가 적[ICON_SPY]스파이를 포획할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 1턴 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
 
 -- Hero of the People
@@ -796,7 +796,7 @@ SET Text = '외교국'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET]추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 ([ICON_CITY_STATE]도시 국가가 20개 이상이라면 10개마다 하나씩 추가로 더) 제공합니다. 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_SPY] 스파이 포인트를 100 제공합니다. 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 UPDATE Language_ko_KR
@@ -814,7 +814,7 @@ SET Text = '그림자 네트워크'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]그림자 네트워크[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가가 산출하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 획득합니다. [NEWLINE][ICON_BULLET]모든 활동중인 [ICON_SPY]스파이 또는 [ICON_DIPLOMAT]외교관 1명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] [COLOR:105:105:105:255](한도: 30%)[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 경찰대 및 경찰서의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]그림자 네트워크[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가가 산출하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 획득합니다. [NEWLINE][ICON_BULLET]스파이 포인트 100마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] [COLOR:105:105:105:255](한도: 30%)[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 경찰대 및 경찰서의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';
 
 UPDATE Language_ko_KR
