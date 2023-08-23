@@ -68,7 +68,7 @@ UPDATE Language_ko_KR
 SET Text = '내 백성들을 염탐하는 걸 그만두기로 동의하다니 기쁘군요.'
 WHERE Tag = 'TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_GOOD_1';
 
--- Citadel Stuff
+-- Fort & Citadel Stuff
 
 UPDATE Language_ko_KR
 SET Text = '이 타일에 주둔하는 유닛의 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'

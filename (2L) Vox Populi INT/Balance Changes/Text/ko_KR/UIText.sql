@@ -25,7 +25,7 @@ WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY';
 
 -- Fortifications
 UPDATE Language_ko_KR
-SET Text = '많은 유닛은 요새화 능력을 갖고 있습니다. 이는 현재 위치에서 방어태세를 취하라는 것을 의미합니다. 요새화하면 전투시 방어보너스를 받게 되고 그 유닛은 파괴되기 어려워집니다. 그러나 요새화는 너무 방어적으로 치우쳐있습니다. 해당 유닛은 움직이거나 다른 유닛을 공격해서는 안되며, 그런 행동을 하면 요새화가 풀립니다. 요새화 중에는 당신이 유닛을 선택해서 명령을 내리기 전에는 유닛이 활성화되지 않습니다.[NEWLINE][NEWLINE]시설이 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공한다면, 그 시설에 주둔한 유닛은 전투에서 승리해도 그 위치로 따라가지 않습니다.'
+SET Text = '많은 유닛은 요새화 능력을 갖고 있습니다. 이는 현재 위치에서 방어태세를 취하라는 것을 의미합니다. 요새화하면 전투시 방어보너스를 받게 되고 그 유닛은 파괴되기 어려워집니다. 그러나 요새화는 너무 방어적으로 치우쳐있습니다. 해당 유닛은 움직이거나 다른 유닛을 공격해서는 안되며, 그런 행동을 하면 요새화가 풀립니다. 요새화 중에는 당신이 유닛을 선택해서 명령을 내리기 전에는 유닛이 활성화되지 않습니다.[NEWLINE][NEWLINE]시설이 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공한다면, 그 시설에 주둔한 근접 유닛은 전투에서 승리해도 그 위치로 따라가지 않습니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_FORTIFICATION_HEADING3_BODY';
 
 -- Wonders
@@ -509,11 +509,6 @@ WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT';
 UPDATE Language_ko_KR
 SET Text = '매 턴 [COLOR_NEGATIVE_TEXT]2[ENDCOLOR] [ICON_GOLD]골드가 유지비로 지출됩니다.[NEWLINE][NEWLINE]철도는 유닛을 엄청난 속도로 이동시켜줍니다.'
 WHERE Tag = 'TXT_KEY_BUILD_RAILROAD_HELP';
-
--- Fort
-UPDATE Language_ko_KR
-SET Text = '요새는 해당 타일 위 주둔한 유닛의 [ICON_STRENGTH]방어력 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 향상시키는 특별한 시설입니다. 하지만 적의 영지에 있는 유닛에게는 방어 보너스를 제공하지 않습니다. 서로 인접하여 건설할 수 없습니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FORT_TEXT';
 
 -- Landmark
 UPDATE Language_ko_KR
@@ -1037,7 +1032,6 @@ VALUES  ('TXT_KEY_CO_TAB_HISTORIC_EVENTS', ' 역사적 사건'),
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND', '[ICON_CARAVAN] 주요 도시와 교역'), --Also Unused kinda it uses City Name
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA', '[ICON_CARGO_SHIP] 주요 도시와 교역'), --Also Unused kinda it uses City Name
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS', '[ICON_CARAVAN]/[ICON_CARGO_SHIP] [ICON_CITY_STATE] 도시 국가와 교역'),
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND_CAPITAL', '수도 건설 ([ICON_CAPITAL])'), --Unused
 	('TXT_KEY_CO_HISTORIC_EVENT_ERA_CHANGE_TT', '각 [ICON_RESEARCH] 시대에 진입하면 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
 	('TXT_KEY_CO_HISTORIC_EVENT_WORLD_WONDER_TT', '각 [ICON_WONDER] 세계 불가사의를 건설하면 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
 	('TXT_KEY_CO_HISTORIC_EVENT_GREAT_PERSON_TT', '각 [ICON_GREAT_PEOPLE] Great Person born in your Civilization will be a [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
@@ -1046,11 +1040,18 @@ VALUES  ('TXT_KEY_CO_TAB_HISTORIC_EVENTS', ' 역사적 사건'),
 	('TXT_KEY_CO_HISTORIC_EVENT_DIG_TT', '각 [ICON_RES_ARTIFACTS] 유적을 발굴하면 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다!'),
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_LAND_TT', '외국 도시와의 각 [ICON_CARAVAN] 육상 교역로 완료마다 [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR][COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다! 목표 도시와 다른 문명에게는 관광이 3분의 1만 적용됩니다.'),
 	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_SEA_TT', '외국 도시와의 각 [ICON_CARGO_SHIP] 해상 교역로 완료마다 [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다! 목표 도시와 다른 문명에게는 관광이 3분의 1만 적용됩니다.'),
-	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS_TT', '[ICON_CITY_STATE] 도시 국가와의 각 [ICON_INTERNATIONAL_TRADE] 육상 혹은 해상 교역로 완료마다 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다! 주요 도시와 교역과 달리, 다른 모든 문명에게 동일한 관광이 적용됩니다.'),
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_FOUND', '도시 설립'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_CITY_CONQUEST', '도시 정복'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_PLAYER_TURNS_PASSED', '시간 흐름'), --Unused
-	('TXT_KEY_CO_HISTORIC_EVENT_AI_TURNS_PASSED', '시간 흐름'); --Unused
+	('TXT_KEY_CO_HISTORIC_EVENT_TRADE_CS_TT', '[ICON_CITY_STATE] 도시 국가와의 각 [ICON_INTERNATIONAL_TRADE] 육상 혹은 해상 교역로 완료마다 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]이 발동합니다! 주요 도시와 교역과 달리, 다른 모든 문명에게 동일한 관광이 적용됩니다.');
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_CITY_FOUND_CAPITAL', '수도 건설 ([ICON_CAPITAL])'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_CITY_FOUND', '도시 설립'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_CITY_CONQUEST', '도시 정복'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_RESEARCHED_TECH', '새 기술 연구'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_ADOPTED_POLICY', '새 정책 채택'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_COMPLETED_POLICY_TREE', '사회 정책 계열 완성'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_KILLED_MAJOR_UNIT', '주요 문명의 유닛 처치'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_KILLED_CITY_STATE_UNIT', '도시 국가 유닛 처치'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_KILLED_BARBARIAN_UNIT', '야만인 유닛 처치'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_PLAYER_TURNS_PASSED', '시간 흐름'), --Unused
+	--('TXT_KEY_CO_DIFFICULTY_BONUS_AI_TURNS_PASSED', '시간 흐름'), --Unused
 
 -- Victory Panel
 INSERT INTO Language_ko_KR (Tag, Text)
