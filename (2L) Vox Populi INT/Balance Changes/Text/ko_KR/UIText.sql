@@ -507,8 +507,12 @@ SET Text = '게임 중 "노동자"를 생산할 수 있습니다. 노동자는 �
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '매 턴 [COLOR_NEGATIVE_TEXT]2[ENDCOLOR] [ICON_GOLD]골드가 유지비로 지출됩니다.[NEWLINE][NEWLINE]철도는 유닛을 엄청난 속도로 이동시켜줍니다.'
+SET Text = '매 턴 [COLOR_NEGATIVE_TEXT]3[ENDCOLOR] [ICON_GOLD]골드가 유지비로 지출됩니다.[NEWLINE][NEWLINE]철도는 유닛을 엄청난 속도로 이동시켜줍니다.'
 WHERE Tag = 'TXT_KEY_BUILD_RAILROAD_HELP';
+
+UPDATE Language_en_US
+SET Text = '건설하거나 관리하는 도로와 철도의 총 유지비입니다. 도로는 턴 당 1 [ICON_GOLD] 골드, 철도는 3 [ICON_GOLD] 골드입니다.'
+WHERE Tag = 'TXT_KEY_EO_EX_IMPROVEMENTS';
 
 -- Landmark
 UPDATE Language_ko_KR
@@ -1083,6 +1087,10 @@ WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING';
 UPDATE Language_ko_KR 
 SET Text = '만나지 못한 플레이어의 승리를 위해 원래 [ICON_CAPITAL] 수도/종속국 [COLOR_POSITIVE_TEXT]{1_num}[ENDCOLOR]개가 필요합니다!' 
 WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING';
+
+INSERT INTO Language_ko_KR (Tag, Text)
+VALUES  ('TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_NO', '이 도시는 이전에 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 소유였습니다. [COLOR_NEGATIVE_TEXT]과거에 그들에게 적대적인 행동을 취했기 때문에 이를 되돌릴 기회가 없습니다.[ENDCOLOR]');
+
 
 --내가추가
 
