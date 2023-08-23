@@ -779,7 +779,7 @@ WHERE Tag = 'TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY';
 -- Mongols
 --------------------
 UPDATE Language_ko_KR
-SET Text = '원거리 기마 유닛이 추가로 공격할 수 있습니다. [ICON_CITY_STATE]도시 국가가 바치는 공물의 산출량이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.'
+SET Text = '원거리 기마 유닛이 추가로 공격할 수 있습니다. [ICON_CITY_STATE]도시 국가가 바치는 [ICON_GOLD] 골드만큼 모든 산출량을 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 얻습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_TERROR';
 
 UPDATE Language_ko_KR

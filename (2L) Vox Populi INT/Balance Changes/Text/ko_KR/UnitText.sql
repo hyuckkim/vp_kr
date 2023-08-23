@@ -432,10 +432,6 @@
 	UPDATE Language_ko_KR
 	SET Text = '해상을 장악하는 데 사용됐던 르네상스 시대의 강력한 해상 유닛입니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]육지 공격은 연안 타일에서만 감행할 수 있습니다.[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_FRIGATE';
-	
-	UPDATE Language_ko_KR
-	SET Text = '갤리는 [COLOR_NEGATIVE_TEXT]야만인[ENDCOLOR] 유닛으로 주로 승선한 유닛들을 제거하기 위해 해안 타일에 진을 치고 있습니다. 해안 근처의 유닛 및 도시를 괴롭힐 수 있습니다.'
-	WHERE Tag = 'TXT_KEY_UNIT_GALLEY_STRATEGY';
 
 	UPDATE Language_ko_KR
 	SET Text = '갈레아스는 게임의 문명들이 이용할 수 있는 원거리 공격을 가진 두 번째 해군 유닛입니다. 그것은 이전의 해군 함정들보다 훨씬 더 강하고, 심해로 들어갈 수 있습니다. 갤리어스는 연안에서 적함을 제거하고 포위를 지원하는 데 유용합니다.'
