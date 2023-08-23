@@ -660,10 +660,10 @@
 			<Text>도조는 문자 그대로 "길의 장소"를 의미하는 일본 용어입니다. 처음에, 도조는 절에 부속된 것이었습니다. 이 용어는 일본의 도예에 대한 공식적인 훈련 장소를 의미할 수 있지만, 일반적으로 가라테, 유도, 사무라이와 같은 모든 일본 무술 스타일의 학생들이 훈련, 시험 및 기타 관련 만남을 수행하는 공식적인 집합 장소로 여겨집니다. 도조의 개념은 서양의 개념이며, 일본에서는 프로레슬링 학교를 포함한 어떤 신체 훈련 시설도 도조라고 불릴 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
-			<Text>무기고를 대체하는 일본의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시에서 생산하는 모든 유닛의 경험치가 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시에서 생산하는 모든 기마, 근접, 화약, 장갑, 해양 근접 유닛에 [COLOR_PLAYER_PURPLE]무사도[ENDCOLOR] 승급을 부여합니다. 유닛이 승급할 때 현재의 레벨에 기반한 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학을 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>무기고를 대체하는 일본의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시에서 생산하는 모든 유닛의 경험치가 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시에서 생산하는 모든 기마, 근접, 화약, 기갑 유닛에 [COLOR_PLAYER_PURPLE]무사도[ENDCOLOR] 승급을 부여합니다. 유닛이 전투로 경험치를 얻을 때 동일한 양의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학을 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
-			<Text>이 독특한 무기고로 군사를 훈련시키십시오. 이 건물은 병영을 요구하지 않습니다. 모든 근접, 기마, 화약, 장갑, 해양 근접 유닛이 무사도의 여덟 길 승급을 얻어, 유닛이 피해를 주면 피해를 받았을 때 유용한 여덟 개의 승급 중 하나의 승급을 얻습니다.</Text>
+			<Text>이 독특한 무기고로 군사를 훈련시키십시오. 이 건물은 병영을 요구하지 않습니다. 모든 근접, 기마, 화약, 기갑 유닛이 무사도의 여덟 길 승급을 얻어, 유닛이 피해를 주면 피해를 받았을 때 유용한 여덟 개의 승급 중 하나의 승급을 얻습니다. 유닛이 전투로 경험치를 얻을 때 과학과 문화를 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON">
 			<Text>아크로폴리스</Text>
