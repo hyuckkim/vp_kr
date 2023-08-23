@@ -282,7 +282,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]당 지도부[ENDCOLOR]: 모든 도시의 [ICON
 WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]대조국전쟁[ENDCOLOR]: 도시 안 또는 인접 시 군사 유닛의 전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 도시를 처음 정복하면, 모든 군사 유닛이 최대 체력으로 회복됩니다. [COLOR_YELLOW]T-34[ENDCOLOR] 유닛을 생산할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]대조국전쟁[ENDCOLOR]: 도시 안 또는 인접 시 군사 유닛의 전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 도시를 처음 정복하면, 근처 세 타일 안의 군사 유닛들이 최대 체력으로 회복됩니다. [COLOR_YELLOW]T-34[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR_HELP';
 
 -- Resettlement
