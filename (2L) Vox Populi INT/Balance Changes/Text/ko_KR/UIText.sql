@@ -441,6 +441,10 @@ UPDATE Language_ko_KR
 SET Text = '당신의 군대를 두려워하지 않으므로 공물을 바치지 않을 것입니다.(현재 정지점 이하 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR])'
 WHERE Tag = 'TXT_KEY_CSTATE_CANNOT_BULLY';
 
+UPDATE Language_ko_KR
+SET Text = '공물 [ICON_GOLD]골드 {1_NumGold} + 퀘스트 보상 일부 ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
+WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';
+
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]낙진은 낙진 위에서 차례를 끝내는 유닛에게 15의 피해를 입힙니다.[ENDCOLOR][NEWLINE][NEWLINE]낙진이란 핵폭발을 따라 생기는 잔여 방사능을 뜻합니다. 낙진은 방사성 입자의 형태로 공기중에 퍼지면서 식물과 생명체들을 순식간에 죽음에 이르게 하거나 DNA에 해를 입히고 암이나 여러 질병, 불쾌한 돌연변이를 일으키는 매우 위험한 현상입니다. 대지는 핵폭발의 종류에 따라서 수십년에서 길게는 수세기까지 오염된 상태로 남아있을수 있습니다. 정화를 위해서는 오염된 건물들과 토양 식물의 대체가 필요합니다.'
@@ -1081,15 +1085,7 @@ WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING';
 
 --내가추가
 
-UPDATE Language_ko_KR
-SET Text = '모아이는 해안에만 건설할 수 있습니다. 다른 모아이와 인접하여 건설하면 추가 [ICON_CULTURE]문화가 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 모아이 3타일 이내의 모든 폴리네시아 유닛은 [ICON_STRENGTH]전투력 보너스가 20% 증가합니다.'
-WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
-
 
 UPDATE Language_ko_KR
 SET Text = '공물 [ICON_GOLD]골드 {1_NumGold} ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
 WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_GOLD_AMOUNT';
-
-UPDATE Language_ko_KR
-SET Text = '{@1_Unit} 강탈 ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
-WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';
