@@ -289,7 +289,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]정략 결혼[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED_TT">
-			<Text>[COLOR_POSITIVE_TEXT]정략 결혼:[ENDCOLOR] 당신의 [ICON_INFLUENCE]영향력이 감소하지 않습니다. 세계 대회 추가 대표단을 1명 확보하고 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]정략 결혼:[ENDCOLOR] 당신의 최소 [ICON_INFLUENCE]영향력이 75[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]가 됩니다. [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<!-- America! -->
 		<Row Tag="TXT_KEY_NOTIFICATION_UA_STOLE_PLOT">
