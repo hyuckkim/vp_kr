@@ -74,31 +74,38 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]</Text>
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]가능하다면 각 턴 첫 근접 공격 후퇴</Text>
 		</Row>
 		
 <!-- Civilization Promotions -->
 	<!-- Denmark -->
 		<Row Tag="TXT_KEY_PROMOTION_VIKING">
-			<Text>바이킹</Text>
+			<Text>바이킹 (지상)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
-			<Text>약탈된 타일에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]약탈 시 [ICON_MOVES]이동력 소모 없음[NEWLINE]중립 영토에서 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 약탈 시 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 피해</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
-			<Text>롱보트</Text>
+			<Text>바이킹 (해상)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
-			<Text>연안 타일에서 방어 또는 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]약탈 시 [ICON_MOVES]이동력 소모 없음[NEWLINE]연안 타일에서 체력 회복 속도 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]</Text>
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 약탈 시 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 피해</Text>
 		</Row>
-		<!-- Huns -->
+		<!-- France -->
 		<Row Tag="TXT_KEY_PROMOTION_COERCION">
-			<Text>강압</Text>
+			<Text>흘린 피로써</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
 			<Text>패배한 적 지상 유닛이 보급 소모 없이 아군으로 합류함</Text>
 		</Row>
+		<!-- Huns -->
+			<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE">
+				<Text>화력 집중</Text>
+			</Row>
+			<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE_HELP">
+				<Text>이 턴 동안 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			</Row>
 		<!-- Japan -->
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
 			<Text>무사도</Text>
@@ -164,7 +171,7 @@
 			<Text>초원의 유목민</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]공격 시[ENDCOLOR]측면 공격 보너스 적용.[NEWLINE][COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR] 10% 증가.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]두 번[ENDCOLOR] 공격 가능</Text>
 		</Row>
 		<!-- Sweden -->
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
@@ -191,6 +198,14 @@
 		</Row>
 
 <!-- Policy Promotion -->
+	<!-- Progress -->
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER">
+			<Text>빠른 노동자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER_HELP">
+			<Text>[ICON_MOVES] 이동력 +1</Text>
+		</Row>
+
 	<!-- Authority -->
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
 			<Text>징병</Text>
@@ -300,7 +315,7 @@
 			<Text>약화 사격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS_HELP">
-			<Text>[ICON_RANGE_STRENGTH]원거리 공격 후 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]의 확률로 적 유닛 후퇴[NEWLINE]후퇴 불가 시 평소보다 피해 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+			<Text>후퇴 불가 시 평소보다 피해 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
 		</Row>
 		<!--Doppelsöldner-->
 		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER">
@@ -392,7 +407,7 @@
 			<Text>특공대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP_I">
-			<Text>근접 전투 시 60% 확률로 후퇴. 후퇴 확률은 적 유닛의 이동력 또는 뒤 타일의 제한에 따라 낮아질 수 있음.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>유닛 뒤에 공간이 있다면 매 턴 첫 근접 공격을 피해 후퇴[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<!-- Explorer -->
 			<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
@@ -429,7 +444,7 @@
 			<Text>무차별 공격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS_HELP">
-			<Text>야만인 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR]</Text>
+			<Text>야만인 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Recon Line -->
@@ -582,13 +597,6 @@
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_III_HELP">
 			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]승선 가능, 산 타일에서 이동 가능, 적 도로 이용 가능</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS">
-			<Text>트레저 헌터</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS_HELP">
-			<Text>고대 유적 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
-		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE">
 			<Text>스캐빈저</Text>
 			<Plurality>2</Plurality>
@@ -621,6 +629,20 @@
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_III_HELP">
 			<Text>야만인 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_FROGMAN">
+			<Text>잠수부</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FROGMAN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]승선[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]하선[ENDCOLOR]이 [ICON_MOVES] 이동력을 1만 소모합니다.[NEWLINE]바다에서 지상으로 공격하거나 강을 건너 공격할 때 받는 페널티가 사라집니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING">
+			<Text>선별</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR]가 10% 증가합니다.[NEWLINE]측면 공격 시 2기로 취급</Text>
+		</Row>
 		<!-- Mounted Line -->
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_II">
 			<Text>돌격 II</Text>
@@ -640,6 +662,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT">
+			<Text>포위</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공격할 때[ENDCOLOR] 측면 공격으로 인한 이득을 얻습니다.[NEWLINE][COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR] +10%.</Text>
 		</Row>
 		<!-- Melee Line -->
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4">
@@ -803,7 +832,7 @@
 			<Text>봉쇄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
-			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]</Text>
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]가능하다면 각 턴의 첫 근접 공격을 피해 후퇴</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
@@ -952,7 +981,7 @@
 			<Text>특공대는 정찰과 공격을 할 수 있는 유닛으로, 험지를 빠르게 건너 약한 유닛을 공격하는 데 특화되어 있습니다. 이 유닛을 사용해 후방의 적을 측면에서 공격해 교란하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_COMMANDO_CBP">
-			<Text>산업 시대 정찰 유닛으로, 공격 시 추가 전투력을 얻고 근접 전투 시 60% 확률로 후퇴합니다. 타일 시설을 약탈할 때 경험치를 얻습니다.</Text>
+			<Text>산업 시대 정찰 유닛으로, 공격 시 추가 전투력을 얻고 가능하다면 각 턴의 첫 근접 공격을 피해 후퇴합니다. 타일 시설을 약탈할 때 경험치를 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_COMMANDO_TEXT">
 			<Text>특공대는 가치가 높은 목표물을 공격하고 최전방 정찰에 특화된 정예 경보병입니다. 이 용어는 보어 전쟁과 그레이트 트렉 이후 공통적으로 사용되었으며, 보어 코만도 민병대는 호사, 줄루, 영국 군대에 대항하여 큰 성공을 거두기 위해 게릴라 및 비대칭 전술을 사용했습니다.</Text>
@@ -1032,7 +1061,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
-			<Text>이 유닛으로 도시를 세울 수 있습니다. 스스로를 방어할 수 없으므로, 전투 유닛으로 보호해야 합니다. 도시를 세우면, 선구자로 세워진 도시는 3 시민으로 시작하고, 추가 영토를 얻고 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 오두막[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 선구자로 건설한 건물에 적용되지 않습니다!</Text>
+			<Text>이 유닛으로 도시를 세울 수 있습니다. 스스로를 방어할 수 없으므로, 전투 유닛으로 보호해야 합니다. 도시를 세우면, 선구자로 세워진 도시는 3 시민으로 시작하고, 추가 영토를 얻고 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 훈제실[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 선구자로 건설한 건물에 적용되지 않습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_PIONEER_TEXT">
 			<Text>
@@ -1048,7 +1077,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
-			<Text>이 유닛으로 도시를 세울 수 있습니다. 스스로를 방어할 수 없으므로, 전투 유닛으로 보호해야 합니다. 도시를 세우면, 식민지 개척자로 세워진 도시는 5 시민으로 시작하고, 추가 영토를 얻고 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 원형 극장[NEWLINE][ICON_BULLET] 송수로[NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 항만[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 등대[NEWLINE][ICON_BULLET] 오두막[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 사원[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][ICON_BULLET] 풍차[NEWLINE][ICON_BULLET] 작업장[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 식민지 개척자로 건설한 건물에 적용되지 않습니다!</Text>
+			<Text>이 유닛으로 도시를 세울 수 있습니다. 스스로를 방어할 수 없으므로, 전투 유닛으로 보호해야 합니다. 도시를 세우면, 식민지 개척자로 세워진 도시는 5 시민으로 시작하고, 추가 영토를 얻고 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 등대[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 사원[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 송수로[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][ICON_BULLET] 원형 극장[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 작업장[NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 풍차[NEWLINE][ICON_BULLET] 항만[NEWLINE][ICON_BULLET] 훈제실[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 식민지 개척자로 건설한 건물에 적용되지 않습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_COLONIST_TEXT">
 			<Text>

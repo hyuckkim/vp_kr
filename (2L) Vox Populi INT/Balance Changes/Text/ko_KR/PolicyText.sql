@@ -167,7 +167,7 @@ WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 -- Covert Action
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: 도시 국가의 선거 조작 및 쿠데타 성공 확률이 증가합니다. 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 [COLOR:105:105:105:255]([ICON_CITY_STATE]도시 국가가 20개 이상이라면 10개마다 하나씩 추가로)[ENDCOLOR] 제공합니다. 외국 스파이의 작전 기간이 2턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: 도시 국가의 선거 조작 및 쿠데타 성공 확률이 증가합니다. [ICON_SPY] 스파이 포인트를 100 제공합니다. 외국 스파이의 작전 기간이 2턴 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP';
 
 -- Creative Expression
@@ -246,20 +246,36 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]과학 아카데미[ENDCOLOR]: 모든 도시의 [ICON_RESEARCH]문맹 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR] 감소합니다. 연구소를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 제공하고 제국 전역에 [COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 5개 제공합니다. 연구소의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP';
 
--- Cultural Revolution
+-- Cultural Revolution (now Socialist Realism)
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]문화 대혁명[ENDCOLOR]: 같은 [COLOR_MAGENTA]질서[ENDCOLOR] 이념을 따르는 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가하고 모든 [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_SPY]스파이가 작전을 수행할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
+SET Text = '사회주의 리얼리즘'
+WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]사회주의 리얼리즘[ENDCOLOR]: 생산을 관광으로 전환할 수 있게 합니다. 같은 [COLOR_MAGENTA]질서[ENDCOLOR] 이념을 따르는 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 모든 [ICON_GREAT_WORK]걸작의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP';
 
--- Dictatorship of the Proletariat
+UPDATE Language_ko_KR
+SET Text = '사회주의 리얼리즘이란 소련에서 시작된 ''현실적 표현'' 방법이며, 사회주의의 승리를 예술, 사진, 영화 및 대중 운동으로 표현하는 것이다. 사회주의 리얼리즘은 소련뿐만이 아니라 전 세계의 공산주의 국가에서 주류가 되었다. 60년간 소련에서는 고전 사회주의와 사회주의 리얼리즘의 두 방법으로만 대중 예술을 제작할 수 있었다. 극적이고 최소주의적인 기념비는 프롤레타리아 독재와 공산주의 이념을 알리는 강력한 선동 도구가 되었다.'
+WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_REVOLUTION_TEXT';
+
+-- Dictatorship of the Proletariat (now Cultural Revolution)
+UPDATE Language_ko_KR
+SET Text = '문화대혁명'
+WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT';
+
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]프롤레타리아 독재[ENDCOLOR]: 당신의 문명보다 [ICON_HAPPINESS_1]행복이 적은 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 모든 공장의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP';
 
 -- Double Agents
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: 추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 3명 ([ICON_CITY_STATE]도시 국가가 20개 이상이라면 10개마다 하나씩 추가로)[ENDCOLOR] 제공합니다. 당신 문명의 [ICON_SPY]스파이가 적[ICON_SPY]스파이를 포획할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 1턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_SPY] 스파이 포인트를 300 제공합니다. 당신 문명의 [ICON_SPY]스파이가 적[ICON_SPY]스파이를 포획할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 1턴 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '프롤레타리아 문화 대혁명은 1966년부터 1976년까지 중화민국에서 일어난 사회 운동이다. 모택동과 공산당이 시작한 문화 대혁명은 체포와 폭력을 동원해서라도 자본주의적, 전통적, 종교적 요소를 제거하여 국민을 재사회화하는 것이 목표였다. 모든 사회, 학교, 군대, 정당과 노동자 사이에서 문화 투쟁이 발생하였으며, 이후 몇십 년간 중국은 국제무대에서 영향력을 발휘할 수 없었다.'
+WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_TEXT';
 
 -- Hero of the People
 UPDATE Language_ko_KR
@@ -276,13 +292,20 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]우주 비행 개척자[ENDCOLOR]: [ICON_GREAT_ENGINEER][COLOR_YELLOW]위대한 기술자[ENDCOLOR] 및 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR]가 1명 출현합니다.[ICON_GREAT_ENGINEER]위대한 기술자로 [COLOR_POSITIVE_TEXT]우주선 부품[ENDCOLOR]을 완성할 수 있고 [ICON_GREAT_PEOPLE]위인을 소모할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [ICON_GREAT_ENGINEER]위대한 기술자를 소모해 생산 가속 시  [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 더 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP';
 
--- Party Leadership
+-- Party Leadership (now Dictatorship of the Proletariat)
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]당 지도부[ENDCOLOR]: 모든 도시의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR] 증가합니다.'
+SET Text = '프롤레타리아 독재'
+WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]프롤레타리아 독재[ENDCOLOR]: 모든 도시의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP';
 
+UPDATE Language_en_US
+SET Text = '마르크스주의 사회정치 이론에서 프롤레타리아 독재란 노동자 계급이 직접적인 정치권력을 가진 사회 상태를 의미한다. 이 경우 ''독재''라는 표현은 일반적인 의미가 아니라 모든 사회 계급이 국가를 통치한다는 것을 의미한다. 마르크스와 엥겔스에 따르면 자본가 또는 다른 계급이 노동자의 권리를 박탈하는 것으로 이러한 정치 체계가 오는 것을 늦출 수는 있겠지만, 노동자 계급은 폭력을 동원하여 이러한 정치 체계를 불러올 수 있으며, 결국 최후에는 프롤레타리아가 부르주아를 대체하게 될 것이라고 한다.'
+WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_TEXT';
+
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]대조국전쟁[ENDCOLOR]: 도시 안 또는 인접 시 군사 유닛의 전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 도시를 처음 정복하면, 모든 군사 유닛이 최대 체력으로 회복됩니다. [COLOR_YELLOW]T-34[ENDCOLOR] 유닛을 생산할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]대조국전쟁[ENDCOLOR]: 도시 안 또는 인접 시 군사 유닛의 전투력이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 도시를 처음 정복하면, 근처 세 타일 안의 군사 유닛들이 최대 체력으로 회복됩니다. [COLOR_YELLOW]T-34[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PATRIOTIC_WAR_HELP';
 
 -- Resettlement
@@ -327,7 +350,7 @@ SET Text = '대약진 운동'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR] 2개를 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. [ICON_SPY]스파이가 작전을 수행할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 전문가가 아닌 [ICON_CITIZEN] 시민 3명마다 [ICON_RESEARCH] 과학이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS_HELP';
 
 UPDATE Language_ko_KR
@@ -361,7 +384,7 @@ WHERE Tag = 'TXT_KEY_AESTHETICS_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]미학[ENDCOLOR]은 [ICON_GREAT_WORK]걸작과 [ICON_GOLDEN_AGE]황금기에 대한 잠재력을 극대화하는 능력을 강화합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 위대한 [ICON_GREAT_WRITER] 작가, [ICON_GREAT_ARTIST] 예술가, [ICON_GREAT_MUSICIAN]음악가 출현율 +25%[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] 황금기 동안 [ICON_CULTURE] 문화 +10%.[NEWLINE][ICON_BULLET]모든 길드 건설 시 [ICON_PRODUCTION]생산 보너스 +100%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_GOLDEN_AGE]황금기 점수 +2 [ICON_RESEARCH]과학 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]루브르 박물관[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET][ICON_RES_ARTIFACTS] 사적지 발굴 또는 [ICON_GOLDEN_AGE]황금기 시작 시 알려진 모든 문명에  [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR] 발동[NEWLINE][ICON_BULLET]숨겨진 사적지 발굴 가능[NEWLINE][ICON_BULLET]랜드마크의 [ICON_RESEARCH]과학 및 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_MUSICIAN][COLOR_YELLOW]위대한 음악가[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]미학[ENDCOLOR]은 [ICON_GREAT_WORK]걸작과 [ICON_GOLDEN_AGE]황금기에 대한 잠재력을 극대화하는 능력을 강화합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 위대한 [ICON_GREAT_WRITER] 작가, [ICON_GREAT_ARTIST] 예술가, [ICON_GREAT_MUSICIAN]음악가 출현율 +25%[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] 황금기 동안 [ICON_CULTURE] 문화 +10%.[NEWLINE][ICON_BULLET]모든 길드 건설 시 [ICON_PRODUCTION]생산 보너스 +100%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +1, 과잉 [ICON_HAPPINESS_1] 행복으로 인한 [ICON_GOLDEN_AGE] 황금기 점수 +20%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]루브르 박물관[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET][ICON_RES_ARTIFACTS] 사적지 발굴 또는 [ICON_GOLDEN_AGE]황금기 시작 시 알려진 모든 문명에 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR] 발동[NEWLINE][ICON_BULLET]숨겨진 사적지 발굴 가능[NEWLINE][ICON_BULLET]랜드마크의 [ICON_RESEARCH]과학 및 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_MUSICIAN][COLOR_YELLOW]위대한 음악가[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP';
 
 UPDATE Language_ko_KR
@@ -374,7 +397,7 @@ SET Text = '인본주의' --문화센터
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_GREATWRITING] 걸작 문학의 [ICON_GOLDEN_AGE] 황금기 점수가 +3 증가합니다. [NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] 황금기를 시작하기 위해 필요한 [ICON_GOLDEN_AGE] 황금기 점수가 25% 감소합니다. [NEWLINE][ICON_BULLET]모든 길드의 [ICON_HAPPINESS_1] 행복이 +1 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_GREATWRITING] 걸작 문학의 [ICON_PEACE] 신앙이 +3 증가합니다. [NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] 황금기를 시작하기 위해 필요한 [ICON_GOLDEN_AGE] 황금기 점수가 25% 감소합니다. [NEWLINE][ICON_BULLET]모든 길드의 [ICON_HAPPINESS_1] 행복이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS_HELP';
 
 UPDATE Language_ko_KR
@@ -400,7 +423,7 @@ SET Text = '문화유산'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]문화유산[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_GREATMUSIC] 걸작 음악의 [ICON_GOLD] 골드가 +4 증가합니다. [NEWLINE][ICON_BULLET]모든 대학의 [ICON_GOLDEN_AGE]황금기 점수 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET][ICON_WONDER] 세계 불가사의, 타일 [ICON_CULTURE] 문화의 25%가 도시의 [ICON_TOURISM] 관광에 추가됩니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]문화유산[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_GREATMUSIC] 걸작 음악의 [ICON_GOLD] 골드가 +4 증가합니다. [NEWLINE][ICON_BULLET]모든 [ICON_TOURISM]/[ICON_CULTURE] 테마 보너스가 50% 증가합니다. [NEWLINE][ICON_BULLET][ICON_WONDER] 세계 불가사의, 타일의 [ICON_CULTURE] 문화의 25%가 도시의 [ICON_TOURISM] 관광에 추가됩니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP';
 
 UPDATE Language_ko_KR
@@ -422,7 +445,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_TEXT';
 
 -- Cultural Exchange
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]문화 교류[ENDCOLOR][NEWLINE][ICON_BULLET]도시의 [ICON_GREAT_WORK] 걸작 3개마다 [ICON_HAPPINESS_1] 행복이 1 증가합니다. [NEWLINE][ICON_BULLET]다른 문명과의 국경 개방에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 원형극장 및 오페라 극장의 [ICON_CULTURE]문화 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]문화 교류[ENDCOLOR][NEWLINE][ICON_BULLET]도시의 [ICON_GREAT_WORK] 걸작 3개마다 [ICON_HAPPINESS_1] 행복이 1 증가합니다. [NEWLINE][ICON_BULLET]다른 문명과의 국경 개방에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 원형극장, 갤러리 및 오페라 극장의 [ICON_CULTURE]문화 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ETHICS_HELP';
 
 --------------------
@@ -610,7 +633,7 @@ SET Text = '공물'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]공물[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL]수도 근처에 무료 [COLOR_YELLOW]개척자[ENDCOLOR]가 1명 출현합니다. [NEWLINE][ICON_BULLET][ICON_CITY_STATE] 도시 국가에 무거운 공물을 요구하면 골드가 아닌 산출량이 25% 증가합니다. ([COLOR_YELLOW]모든 {TXT_KEY_POLICY_BRANCH_HONOR} 정책을 채택하면 50%로 증가합니다[ENDCOLOR])'
+SET Text = '[COLOR_POSITIVE_TEXT]공물[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL]수도 근처에 무료 [COLOR_YELLOW]개척자[ENDCOLOR]가 1명 출현합니다. [NEWLINE][ICON_BULLET][ICON_CITY_STATE] 도시 국가에 무거운 공물을 요구하면 골드 공물의 25%만큼 [ICON_CULTURE] 문화를 제공합니다. ([COLOR_YELLOW]모든 {TXT_KEY_POLICY_BRANCH_HONOR} 정책을 채택하면 50%로 증가합니다[ENDCOLOR])'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE_HELP';
 
 UPDATE Language_ko_KR
@@ -706,7 +729,7 @@ SET Text = '조직화'
 WHERE Tag = 'TXT_KEY_POLICY_COLLECTIVE_RULE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]조직화[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 시민 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]개척자, 노동자 및 교역 유닛을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빠르게 생산할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]조직화[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]노동자의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]노동자 및 교역 유닛을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빠르게 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_COLLECTIVE_RULE_HELP';
 
 UPDATE Language_ko_KR
@@ -796,7 +819,7 @@ SET Text = '외교국'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET]추가 [ICON_SPY][COLOR_YELLOW]스파이[ENDCOLOR]를 1명 ([ICON_CITY_STATE]도시 국가가 20개 이상이라면 10개마다 하나씩 추가로 더) 제공합니다. 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_SPY] 스파이 포인트를 100 제공합니다. 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 UPDATE Language_ko_KR
@@ -814,7 +837,7 @@ SET Text = '그림자 네트워크'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]그림자 네트워크[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가가 산출하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 획득합니다. [NEWLINE][ICON_BULLET]모든 활동중인 [ICON_SPY]스파이 또는 [ICON_DIPLOMAT]외교관 1명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] [COLOR:105:105:105:255](한도: 30%)[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 경찰대 및 경찰서의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]그림자 네트워크[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가가 산출하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 획득합니다. [NEWLINE][ICON_BULLET]스파이 포인트 100마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] [COLOR:105:105:105:255](한도: 30%)[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 경찰대 및 경찰서의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';
 
 UPDATE Language_ko_KR
@@ -945,7 +968,7 @@ WHERE Tag = 'TXT_KEY_RATIONALISM_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]합리주의[ENDCOLOR]는 도시 성장 및 과학 산출량을 극대화 합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 전략 자원의 [ICON_PRODUCTION]생산 +2 [ICON_RESEARCH]과학 +3[NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +5%[NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행 -1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +2%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행 -1[NEWLINE][ICON_BULLET][COLOR_YELLOW]블레츨리 파크[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET][ICON_GREAT_SCIENTIST]위대한 과학자 출현율 +33%[NEWLINE][ICON_BULLET]모든 도시의 성장률 +25%[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]합리주의[ENDCOLOR]는 도시 성장 및 과학 산출량을 극대화 합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 전략 자원의 [ICON_PRODUCTION]생산 +2 [ICON_RESEARCH]과학 +3[NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +2%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행 -1[NEWLINE][ICON_BULLET][COLOR_YELLOW]블레츨리 파크[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]모든 도시에서 스파이 저항 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가[NEWLINE][ICON_BULLET]외국 스파이의 작전 기간이 2턴 증가[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP';
 
 -- Humanism (now Enlightenment)
@@ -954,7 +977,7 @@ SET Text = '계몽'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]계몽[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 1개 제공합니다. [NEWLINE][ICON_BULLET]모든 대학의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]황금기 동안 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]계몽[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 1개 제공합니다. [NEWLINE][ICON_BULLET]모든 대학의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_HELP';
 
 UPDATE Language_ko_KR
@@ -963,15 +986,15 @@ WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_TEXT';
 
 -- Scientific Revolution (now Rights of Man)
 UPDATE Language_ko_KR
-SET Text = '천부인권'
+SET Text = '경험주의'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]천부인권[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 비전문가 [ICON_CITIZEN]시민 2명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 마을의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]천부인권[ENDCOLOR][NEWLINE][ICON_BULLET]전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET]모든 도시의 성장률이 +25% 증가합니다.[NEWLINE][ICON_BULLET]현재 소유한 [ICON_GREAT_WORK]걸작 1개마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가합니다.[COLOR:105:105:105:255](한도: 20%)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '이 선언문은 라파예트 장군, 토마스 제퍼슨, 그리고 오노레 미라보에 의해 초안이 작성되었습니다. 인간의 권리는 ''자연적 권리''라는 교리에 영향을 받아 보편적이며, 인간의 본성 그 자체와 관련하여 언제 어디서나 유효합니다. 그것은 법에 의해 동등하게 보호되는 자유로운 개인의 국가의 기초가 되었습니다. 그것은 프랑스 제4공화국(1946년)과 제5공화국(1958년)의 헌법의 시작에 포함되었고 여전히 현재에 이르고 있습니다. 계몽주의 철학자들에게 영감을 받은 이 선언문은 프랑스 혁명의 가치에 대한 핵심 진술이었으며 유럽과 전 세계의 자유와 민주주의 발전에 큰 영향을 끼쳤습니다.'
+SET Text = '경험론은 지식은 감각 경험에서만 또는 주로 나온다고 말하는 이론입니다. 합리주의와 회의주의와 함께 인간 지식에 대한 연구인 인식론의 여러 관점 중 하나는 경험론과 증거, 특히 감각적 경험의 역할을 선천적인 생각이나 전통에 대한 개념보다 강조합니다. 그러나 경험론자들은 전통(또는 관습)이 관계 때문에 발생한다고 주장할 수 있습니다. 이전 감각 경험의 일부입니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFICREVOLUTION_TEXT';
 
 -- Secularism (now Scientific Revolution)
@@ -980,29 +1003,29 @@ SET Text = '과학혁명'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]과학혁명[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시에 천문대를 건설할 수 있습니다. ([ICON_RESEARCH] 과학 +6, 근처 산마다 [ICON_RESEARCH] 과학 1, [ICON_VP_SCIENTIST] 과학자 슬롯 +2)[NEWLINE][ICON_BULLET]현재 소유한 [ICON_GREAT_WORK]걸작 1개마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가합니다.[COLOR:105:105:105:255](한도: 20%)[ENDCOLOR][NEWLINE][ICON_BULLET]모든 정글과 설원 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]경험주의[ENDCOLOR][NEWLINE]모든 도시에 천문대를 건설할 수 있습니다. ([ICON_RESEARCH] 과학 +6, 근처 산마다 [ICON_RESEARCH] 과학 1, [ICON_VP_SCIENTIST] 과학자 슬롯 +2)[NEWLINE][ICON_BULLET]모든 정글과 설원 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_HELP';
 
 UPDATE Language_ko_KR
 SET Text = '과학 혁명은 인간의 지식이나 기술의 빠른 발전이 현재의 세계관을 뒤엎는 시기이며, 그 결과 사상과 지식의 더 많은 발전을 촉발합니다. 니콜라우스 코페르니쿠스의 작품인 "천구의 회전에 관하여"와 안드레아스 비살리우스의 "7권의 책들 중 인체의 구조에 관하여"의 출판에 이어, 유럽의 많은 지역이 16세기에 과학 혁명을 겪었습니다. 둘 다 그들 주변의 세계의 일부를 조사하기 위해 현대의 (그 기간 동안) 과학적 관행을 사용했고 일부는 고대 그리스로 거슬러 올라가는 부정확한 과학 이론을 뒤집었습니다. 이 책들의 성공에 이어, 수문이 열렸고, 과학자들은 그들 주변의 모든 것을 주의 깊게 조사하기 시작했고, 인간의 지식은 다음 세기에 걸쳐 기하급수적으로 증가했습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_TEXT';
 
--- Sovereignty (now Empiricism)
+-- Sovereignty (Rights of Man)
 UPDATE Language_ko_KR
-SET Text = '경험주의'
+SET Text = '천부인권'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]경험주의[ENDCOLOR][NEWLINE][ICON_BULLET]전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET]모든 도시에서 스파이 저항이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]외국 스파이의 작전 기간이 2턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]천부인권[ENDCOLOR][NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행이 -1 감소합니다.[NEWLINE][ICON_BULLET]모든 마을의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]황금기 동안 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '경험론은 지식은 감각 경험에서만 또는 주로 나온다고 말하는 이론입니다. 합리주의와 회의주의와 함께 인간 지식에 대한 연구인 인식론의 여러 관점 중 하나는 경험론과 증거, 특히 감각적 경험의 역할을 선천적인 생각이나 전통에 대한 개념보다 강조합니다. 그러나 경험론자들은 전통(또는 관습)이 관계 때문에 발생한다고 주장할 수 있습니다. 이전 감각 경험의 일부입니다.'
+SET Text = '이 선언문은 라파예트 장군, 토마스 제퍼슨, 그리고 오노레 미라보에 의해 초안이 작성되었습니다. 인간의 권리는 ''자연적 권리''라는 교리에 영향을 받아 보편적이며, 인간의 본성 그 자체와 관련하여 언제 어디서나 유효합니다. 그것은 법에 의해 동등하게 보호되는 자유로운 개인의 국가의 기초가 되었습니다. 그것은 프랑스 제4공화국(1946년)과 제5공화국(1958년)의 헌법의 시작에 포함되었고 여전히 현재에 이르고 있습니다. 계몽주의 철학자들에게 영감을 받은 이 선언문은 프랑스 혁명의 가치에 대한 핵심 진술이었으며 유럽과 전 세계의 자유와 민주주의 발전에 큰 영향을 끼쳤습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_TEXT';
 
 -- Free Thought
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]자유사상[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_GREAT_SCIENTIST]위대한 과학자를 소모해 기술 연구 시 얻는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]자유사상[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 감소합니다. [NEWLINE]위대한 과학자를 소모해 기술 연구 시 얻는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[ICON_BULLET][ICON_GREAT_SCIENTIST]위대한 과학자 출현율이 +33% 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FREE_THOUGHT_HELP';
 
 --------------------
@@ -1050,7 +1073,7 @@ SET Text = '존엄'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]존엄[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL]수도의 전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]국고[ENDCOLOR]가 출현합니다.([ICON_GOLD]골드 +4, [ICON_GREAT_PEOPLE]위인 출현율 +25%, [ICON_VP_MERCHANT] 상인 슬롯 +1)'
+SET Text = '[COLOR_POSITIVE_TEXT]존엄[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL]수도의 전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]궁정 정원[ENDCOLOR]이 출현합니다.([ICON_URBANIZATION] 도시화 [ICON_HAPPINESS_3] 불행 -2, [ICON_FOOD]식량 +5, [ICON_VP_GREATWRITING]걸작 문학 슬롯 +1, [ICON_VP_WRITER] 작가 슬롯 +1)'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY_HELP';
 
 UPDATE Language_ko_KR
@@ -1063,7 +1086,7 @@ SET Text = '탁월'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]탁월[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GREAT_PEOPLE]위인을 소모할 때  [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]궁정 정원[ENDCOLOR]이 출현합니다.([ICON_FOOD]식량 +5, [ICON_VP_GREATWRITING]걸작 문학 슬롯 +1, 모든 도시에서 기념비, 정원, 목욕탕에 [ICON_CULTURE]문화 +2, [ICON_VP_WRITER] 작가 슬롯 +1)'
+SET Text = '[COLOR_POSITIVE_TEXT]탁월[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GREAT_PEOPLE]위인을 소모할 때  [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]국고[ENDCOLOR]가 출현합니다.([ICON_GOLD]골드 +4, 모든 도시에서 기념비, 정원, 목욕탕에 [ICON_CULTURE]문화 +2, [ICON_VP_MERCHANT] 상인 슬롯 +1)'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_HELP';
 
 UPDATE Language_ko_KR
@@ -1076,7 +1099,7 @@ SET Text = '의식'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]의식[ENDCOLOR][NEWLINE][ICON_BULLET]모든 국가 불가사의의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]궁정 점술사[ENDCOLOR]가 출현합니다.([ICON_RESEARCH]과학 +3, 모든 도시에서 자문회, 오두막, 약초상에 [ICON_RESEARCH]과학 +1, [ICON_VP_SCIENTIST] 과학자 슬롯 +1)'
+SET Text = '[COLOR_POSITIVE_TEXT]의식[ENDCOLOR][NEWLINE][ICON_BULLET]모든 국가 불가사의의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]국가 불가사의 건설 시 [ICON_PRODUCTION] 생산이 +25% 증가합니다.[NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]궁정 점술사[ENDCOLOR]가 출현합니다.([ICON_RESEARCH]과학 +3, 모든 도시에서 자문회, 훈제실, 약초상에 [ICON_RESEARCH]과학 +1, [ICON_VP_SCIENTIST] 과학자 슬롯 +1)'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM_HELP';
 
 UPDATE Language_ko_KR

@@ -150,7 +150,7 @@ SET Help = 'TXT_KEY_BUILDING_BABYLON_WALLS_HELP'
 WHERE Type = 'BUILDING_WALLS_OF_BABYLON';
 
 INSERT INTO Language_ko_KR (Tag, Text)
-VALUES ('TXT_KEY_BUILDING_BABYLON_WALLS_HELP', '성벽을 대체하는 바빌론의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 위대한 과학자의 기술 가속이 과학을 10% 추가로 제공합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.');
+VALUES ('TXT_KEY_BUILDING_BABYLON_WALLS_HELP', '성벽을 대체하는 바빌론의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 위대한 과학자의 기술 가속이 과학을 5% 추가로 제공합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.');
 
 UPDATE Language_ko_KR
 SET Text = '바빌론 성벽은 바빌론의 고유 건물로 성벽을 대체합니다. 바빌론 성벽은 도시의 방어력을 8, 체력을 150 올려, 기본 성벽보다 더 많은 방어를 제공합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 인구의 10%만큼 증가하고, 도시의 사격 범위가 1 증가합니다. 바빌론 성벽은 과학자 점수를 제공하며 위대한 과학자의 기술 가속의 효과를 10% 증가시킵니다. 지어진 도시에서의 불행 관리에도 도움을 줍니다.'
@@ -203,6 +203,14 @@ UPDATE Language_ko_KR
 SET Text = '카타프락토이는 비잔티움의 고유 유닛으로 기사를 대체합니다. 카타프락토이는 기사보다 느리지만, 창병이 도착할 때까지 가장 위협적인 기병 부대 중 하나입니다. 공격한 후 이동할 수 있고, 기사와 다르게 방어 보너스를 받을 수 있습니다. 도시 공격 패널티가 별로 심하지 않습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY';
 
+UPDATE Language_ko_KR
+SET Text = '드로몬은 도시 국가의 선물로만 얻을 수 있습니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_BYZANTINE_DROMON';
+
+UPDATE Language_ko_KR
+SET Text = '드로몬은 리부나와 비슷하지만, 유닛 상대로 더 강합니다. [COLOR_POSITIVE_TEXT]광역 피해 I[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]표적 I[ENDCOLOR] 승급을 보유합니다.'
+WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY';
+
 --------------------
 -- Carthage
 --------------------
@@ -212,7 +220,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE';
 
 
 UPDATE Language_ko_KR
-SET Text = '삼단노선을 대체하는 카르타고의 고유 유닛입니다. 삼단 노선보다 더 저렴하고 이른 시기에 생산할 수 있으며 근접 공격으로 해상 유닛과 도시를 공격할 수 있는 강력한 고대 시대 해상 유닛입니다. [COLOR_PLAYER_PURPLE]답사[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]육중한 공격[ENDCOLOR] 승급을 보유한 채 시작하기 때문에 보다 강력하고 정찰을 통해 경험치를 획득할 수 있습니다. 해당 승급은 업그레이드 시 소멸됩니다.'
+SET Text = '삼단노선을 대체하는 고전 시대 카르타고의 고유 유닛입니다. 다른 해양 유닛들보다 더 강하고, 도시 상대로 특히 강합니다. [COLOR_PLAYER_PURPLE]펜치[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]육중한 공격[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CARTHAGINIAN_QUINQUEREME';
 
 --------------------
@@ -264,7 +272,11 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_CHUKONU';
 -- Denmark
 --------------------
 UPDATE Language_ko_KR
-SET Text = '승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 하선 [COLOR:105:105:105:255](해양->지상)[ENDCOLOR] 시 [ICON_MOVES]이동력을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]만 소모합니다. 근접 지상 유닛에 [COLOR_PLAYER_PURPLE]바이킹[ENDCOLOR] 승급을 부여하고 모든 근접 해상 유닛에 [COLOR_PLAYER_PURPLE]롱보트[ENDCOLOR] 승급을 부여합니다.'
+SET Text = '이교도 대군세'
+WHERE Tag = 'TXT_KEY_TRAIT_VIKING_FURY_SHORT';
+
+UPDATE Language_ko_KR
+SET Text = '승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 승선 및 하선 시 [ICON_MOVES]이동력을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]만 소모합니다. 근접 유닛이 약탈 시 HP를 10 회복하고 인접한 적에게 피해를 주며 [ICON_GOLD]골드를 획득하고 이동력을 소비하지 않습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_VIKING_FURY';
 
 UPDATE Language_ko_KR
@@ -356,7 +368,7 @@ VALUES ('TXT_KEY_BUILDING_STELE_HELP', '기념비를 대체하는 에티오피�
 -- France
 --------------------
 UPDATE Language_ko_KR
-SET Text = '이전 턴에 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시를 정복하면 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 작가/예술가/음악가 점수가 증가하고 일시적으로 모든 도시의 [ICON_CULTURE]문화 및 [ICON_PRODUCTION]생산이 +40% 증가합니다.[COLOR:105:105:105:255](도시의 인구수에 따라 보정)[ENDCOLOR]'
+SET Text = '근접 및 화약 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 보급을 필요로 하지 않습니다. 군사 유닛 10명마다 [ICON_CULTURE] 문화 +1을 얻습니다. [ICON_CITIZEN] 시민에 의한 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 25% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE';
 
 UPDATE Language_ko_KR
@@ -407,15 +419,15 @@ SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  일시적인 [ICON_CULTURE]
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS';
 
 UPDATE Language_ko_KR
-SET Text = '샤토는 사치 자원과 인접한 타일에만 건설할 수 있습니다. 다른 샤토와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_FOOD]식량이 증가합니다. 요새처럼 주둔 시 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 프랑스 영토에만 건설할 수 있습니다.'
+SET Text = '샤토는 사치 자원과 인접한 타일에만 건설할 수 있습니다. 다른 샤토와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_FOOD]식량이 증가합니다. 요새처럼 주둔 시 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.  [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. 프랑스 영토에만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '샤토는 사치 자원과 인접한 타일에만 건설할 수 있습니다. 다른 샤토와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_FOOD]식량이 증가합니다. 요새처럼 주둔 시 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 프랑스 영토에만 건설할 수 있습니다.[NEWLINE][NEWLINE]샤토는 영주나 귀족 계급의 거처 또는 전원주택이며 성채화되지 않았습니다. 중세 시대 샤토는 대개 영주의 장원(세습 영토)에 의지했으므로 자급자족이 가능했습니다. 1600년대 부유한 귀족 계급의 프랑스 영주들은 시골지역에 메이슨 성과 같은 뛰어난 건축기술을 자랑하는 우아하고 화려한 대저택을 지었습니다. 이러한 샤토를 일컫는 "Chateau"가 현재는 포도주 양조장이나 여관 등의 이름에도 흔히 사용되는 단어가 되었습니다.'
+SET Text = '{TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP}[NEWLINE][NEWLINE]샤토는 영주나 귀족 계급의 거처 또는 전원주택이며 성채화되지 않았습니다. 중세 시대 샤토는 대개 영주의 장원(세습 영토)에 의지했으므로 자급자족이 가능했습니다. 1600년대 부유한 귀족 계급의 프랑스 영주들은 시골지역에 메이슨 성과 같은 뛰어난 건축기술을 자랑하는 우아하고 화려한 대저택을 지었습니다. 이러한 샤토를 일컫는 "Chateau"가 현재는 포도주 양조장이나 여관 등의 이름에도 흔히 사용되는 단어가 되었습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '이 타일에 주둔한 유닛의 [ICON_STRENGTH] 방어력 보너스가 +50% 증가합니다. 사치 자원에 인접해야 합니다.'
+SET Text = '이 타일에 주둔한 유닛의 [ICON_STRENGTH] 방어력 보너스가 +50% 증가합니다. 사치 자원에 인접해야 합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILD_CHATEAU_HELP';
 
 --------------------
@@ -442,7 +454,7 @@ SET Text = 'T-34'
 WHERE Tag = 'TXT_KEY_UNIT_GERMAN_PANZER';
 
 UPDATE Language_ko_KR
-SET Text = '빠르고 강력한 현대 시대 유닛으로 평지에서 전투 시 믿을 수 없을 정도로 효과적입니다. [NEWLINE][NEWLINE] [COLOR_POSITIVE_TEXT]철갑 I[ENDCOLOR], [COLOR_POSITIVE_TEXT]철갑 II[ENDCOLOR], [COLOR_POSITIVE_TEXT]기동성[ENDCOLOR] 승급을 보유합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 따르는 문명만 생산할 수 있고 [COLOR_MAGENTA]대조국전쟁[ENDCOLOR] 이념 주의를 채택해야 합니다.'
+SET Text = '빠르고 강력한 현대 시대 유닛으로 평지에서 전투 시 믿을 수 없을 정도로 효과적입니다. [NEWLINE][NEWLINE] [COLOR_POSITIVE_TEXT]철갑 I[ENDCOLOR], [COLOR_POSITIVE_TEXT]기동성[ENDCOLOR] 승급을 보유합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 따르는 문명만 생산할 수 있고 [COLOR_MAGENTA]대조국전쟁[ENDCOLOR] 이념 주의를 채택해야 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_PANZER';
 
 UPDATE Language_ko_KR
@@ -550,7 +562,7 @@ WHERE Tag = 'TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY_STRATEGY';
 -- Huns
 --------------------
 UPDATE Language_ko_KR
-SET Text = '당신 문명의 [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 적 문명의 [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 기마 및 기갑 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 보급을 필요로 하지 않습니다. 도시가 타일을 획득할 때 소유자가 없는 동일한 종류의 인접 지상 타일도 같이 획득합니다.'
+SET Text = '당신 문명의 [ICON_WAR][COLOR_POSITIVE_TEXT]전쟁 피로도[ENDCOLOR]가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 적 문명의 [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 이 턴 동안 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시가 타일을 획득할 때 소유자가 없는 동일한 종류의 인접 지상 타일도 같이 획득합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_RAZE_AND_HORSES';
 
 UPDATE Language_ko_KR
@@ -566,8 +578,12 @@ SET Text = '야만인 주둔지의 야만인이 당신의 군대로 합류했습
 WHERE Tag = 'TXT_KEY_NOTIFICATION_BARB_CAMP_CONVERTS';
 
 UPDATE Language_ko_KR
-SET Text = '궁기병은 재빠른 원거리 유닛이며 말이 필요하지 않습니다. 탄막 I 승급으로 시작해 강력한 측면 공격수입니다. 궁기병은 기병이므로, 창병에게 취약합니다.'
+SET Text = '궁기병은 재빠른 원거리 유닛이며 말이 필요하지 않습니다. [COLOR_POSITIVE_TEXT]탄막 I[ENDCOLOR], [COLOR_POSITIVE_TEXT]화력 집중[ENDCOLOR]승급으로 시작해 강력한 측면 공격수입니다. 궁기병은 기병이므로, 창병에게 취약합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
+
+UPDATE Language_ko_KR
+SET Text = '치고 빠지기에 특화된 훈족의 고유 유닛입니다. 화력 집중 승급을 보유합니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_HUN_HORSE_ARCHER';
 
 --------------------
 -- Inca
@@ -589,14 +605,26 @@ SET Text = '와라칵은 먼 곳에서 적을 공격할 수 있는 고대 시대
 WHERE Tag = 'TXT_KEY_CIV5_INCA_SLINGER_STRATEGY';
 
 UPDATE Language_ko_KR
+SET Text = '계단식 농장' -- Pata-Pata
+WHERE Tag = 'TXT_KEY_IMPROVEMENT_TERRACE_FARM';
+
+UPDATE Language_ko_KR
 SET Text = '계단식 농장은 언덕 위에만 건설할 수 있으며 어떠한 담수의 영향도 받지 않습니다. 산과 인접하여 건설 시 인접한 산타일 1개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. 인접한 계단식 농장마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 인접한 모든 농장마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '계단식 농장은 언덕 위에만 건설할 수 있으며 어떠한 담수의 영향도 받지 않습니다. 산과 인접하여 건설 시 인접한 산타일 1개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. 인접한 계단식 농장마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 인접한 모든 농장마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]계단식 농장은 발리, 필리핀, 중국, 페루를 포함한 전 세계 산간 지역에서 동시에 발달했습니다. 이 폭이 좁은 계단식 농장은 언덕과 산허리를 깎아 관개용수가 흘러 넘치는 것을 방지하고 경작할 수 있는 토지를 제공했으며, 이전에는 일반적으로 불가능한 일이었습니다. 잉카인은 특히 계단식 농장의 달인이었으며, 자신의 계단식 농장을 제 위치에 고정하기 위해 크고 자연석으로 된 벽을 세웠습니다. 잉카인은 계단식 모양을 갖추고 난 후, 일정한 용수를 계단식 농장에 제공할 수 있도록 수로 방식을 도입하여, 토지의 비옥함을 증대시켰습니다. 고대 잉카인의 계단식 기법은 성공적이었으며, 오늘날 현대 페루의 농부는 자신의 농장에 여전히 이 기법을 채택하고 있습니다.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_TEXT';
+
+UPDATE Language_ko_KR
+SET Text = '[LINK=IMPROVEMENT_TERRACE_FARM]계단식 농장[\LINK] 건설'
+WHERE Tag = 'TXT_KEY_BUILD_TERRACE_FARM';
 
 --------------------
 -- India
 --------------------
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT][ICON_RELIGION_PANTHEON] 종교관[ENDCOLOR]을 보유하고 시작합니다. [ICON_PROPHET]위대한 선지자의 출현에 필요한 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]35%[ENDCOLOR] 감소합니다. [ICON_RELIGION] 종교를 창시하면 모든 도시가 해당 종교를 따르게 됩니다. 당신 문명의 주요 [ICON_RELIGION]종교를 따르는 도시마다 신도 수 1명마다 [ICON_RELIGION]종교 압력이 1, [ICON_FOOD]도시 성장이 1% 증가합니다. [ICON_RELIGION] 종교 불안으로 인한 [ICON_HAPPINESS_3] 불행을 받지 않습니다. [COLOR_NEGATIVE_TEXT]선교사를 생산할 수 없습니다.[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT][ICON_RELIGION_PANTHEON] 종교관[ENDCOLOR]을 보유하고 시작합니다. [ICON_PROPHET]위대한 선지자의 출현에 필요한 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]35%[ENDCOLOR] 감소합니다. [ICON_RELIGION] 종교를 창시하면 모든 도시가 해당 종교를 따르게 됩니다. 기본 종교 압력이 +10% 증가하고 당신 문명의 주요 [ICON_RELIGION]종교를 따르는 신도 수 1명마다 [ICON_FOOD]도시 성장이 1% 증가합니다. [COLOR_NEGATIVE_TEXT]선교사를 생산할 수 없습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TRAIT_POPULATION_GROWTH';
 
 UPDATE Language_ko_KR
@@ -696,7 +724,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_STRATEGY';
 -- Japan
 --------------------
 UPDATE Language_ko_KR
-SET Text = '방어 및 군사 건물의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 출현할 때 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가/작가/음악가 점수가 50% 증가합니다.'
+SET Text = '방어 건물의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 출현할 때 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가/작가/음악가 점수가 50% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED';
 
 UPDATE Language_ko_KR
@@ -755,7 +783,7 @@ WHERE Tag = 'TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY';
 -- Mongols
 --------------------
 UPDATE Language_ko_KR
-SET Text = '원거리 기마 유닛이 [COLOR_POSITIVE_TEXT]공격할 때[ENDCOLOR] 측면 공격으로 인한 이득을 얻습니다. [ICON_CITY_STATE]도시 국가가 바치는 공물의 산출량이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.'
+SET Text = '원거리 기마 유닛이 추가로 공격할 수 있습니다. [ICON_CITY_STATE]도시 국가가 바치는 [ICON_GOLD] 골드만큼 모든 산출량을 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 얻습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_TERROR';
 
 UPDATE Language_ko_KR
@@ -851,7 +879,7 @@ WHERE Tag = 'TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY';
 
 
 UPDATE Language_ko_KR
-SET Text = '간척지는 습지 또는 지상 타일에 세 타일 이상 인접한 물 타일에만 건설할 수 있습니다. 해당 타일의  [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산이 증가하고 인접한 마을 또는 소도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 타일의 특성을 제거하지 않습니다.[NEWLINE][NEWLINE]간척지는 지상 유닛이 지상 타일을 이동하듯 이동할 수 있습니다. '
+SET Text = '간척지는 습지 또는 지상 타일에 세 타일 이상 인접한 물 타일에만 건설할 수 있습니다. 해당 타일의  [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산이 증가합니다. 추후 기술을 연구해서 산출량을 증가시킬 수 있습니다. 타일의 특성을 제거하지 않습니다.[NEWLINE][NEWLINE]간척지는 지상 유닛이 지상 타일을 이동하듯 이동할 수 있습니다. '
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP';
 
 UPDATE Language_ko_KR
@@ -909,7 +937,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_IMMORTAL';
 -- Poland
 --------------------
 UPDATE Language_ko_KR
-SET Text = '마구간을 대체하는 폴란드의 고유 건물입니다. 도시에 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]을 제공하고 [ICON_RES_HORSE]말 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 기마 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공합니다. 도시에서 생산하는 기마 유닛의 경험치가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다.[NEWLINE][NEWLINE]이 도시에서 출발하는 국내 [ICON_TURNS_REMAINING]교역로의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_HORSE] 말: [ICON_PRODUCTION]생산 +3 [ICON_GOLD]골드 +3[NEWLINE][ICON_RES_SHEEP] 양: [ICON_PRODUCTION]생산 +3 [ICON_GOLD]골드 +3[NEWLINE][ICON_RES_COW] 소: [ICON_PRODUCTION]생산 +3 [ICON_GOLD]골드 +3'
+SET Text = '마구간을 대체하는 폴란드의 고유 건물입니다. [ICON_RES_HORSE]말 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 기마 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공합니다. 도시에서 생산하는 기마 유닛의 경험치가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다.[NEWLINE][NEWLINE]이 도시에서 출발하는 국내 [ICON_TURNS_REMAINING]교역로의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_HORSE] 말: [ICON_PRODUCTION]생산 +3 [ICON_GOLD]골드 +3[NEWLINE][ICON_RES_SHEEP] 양: [ICON_PRODUCTION]생산 +3 [ICON_GOLD]골드 +3[NEWLINE][ICON_RES_COW] 소: [ICON_PRODUCTION]생산 +3 [ICON_GOLD]골드 +3'
 WHERE Tag = 'TXT_KEY_BUILDING_DUCAL_STABLE_HELP';
 
 UPDATE Language_ko_KR
@@ -937,23 +965,31 @@ SET Text = '인접 타일 전투 보너스'
 WHERE Tag = 'TXT_KEY_EUPANEL_IMPROVEMENT_NEAR';
 
 UPDATE Language_ko_KR
-SET Text = '모든 인접한 모아이마다 [ICON_CULTURE] 문화를 +1 얻습니다. 물 타일에 인접해야 건설할 수 있습니다. [NEWLINE][NEWLINE]3타일 범위의 모든 폴리네시아 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다.'
+SET Text = '모든 인접한 모아이 또는 도시마다 [ICON_CULTURE] 문화를 +1 얻습니다. 물 타일에 인접해야 건설할 수 있습니다. [NEWLINE][NEWLINE]3타일 범위의 모든 폴리네시아 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다.'
 WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '모아이는 해안에만 건설할 수 있습니다.  만약 다른 모아이 또는 도시 옆에 건설하면 추가 [ICON_CULTURE]문화 보너스를 제공합니다. [NEWLINE][NEWLINE]모아이에서 3타일 이내의 모든 폴리네시아 유닛은 [ICON_STRENGTH] 전투력이 +20% 증가합니다.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP}[NEWLINE][NEWLINE]대개 ''이스터 섬의 석상''으로 더 잘 알려져 있는 모아이는 대부분 응회암과 같은 화강암 재질의 바위를 인간 형태로 깎아 만든 커다란 석상입니다. 이스터 섬 전역에 총 887개의 석상이 여기저기 흩어져 있으며 이들은 대부분 서기 1250년에서 1500년 사이에 만들어진 것으로 추정됩니다. 이 중 거의 반에 달하는 석상이 처음 만들어진 채석장에 남아 있는 상태이지만 나머지는 섬의 해안가로 운반되어 세워져 있습니다.  이 석상은 가늘고 긴 형태로 된 큰 머리를 가지고 있어 쉽게 알아볼 수 있는데, 아마도 그들의 조상들과 강력한 족장들의 모습을 본따 만든 것으로 추정됩니다.[NEWLINE][NEWLINE]대부분의 학자는 석상이 무슨 이유로 어떻게 만들어졌는지에 대해서는 동의하지만 석상을 운반한 방법은 여전히 미스터리로 남아 있습니다.  각 석상은 9~86톤이 나가며 채석장에서 현재 석상이 있는 장소까지 옮기는 데에는 놀랄만한 공학적 계산이 필요했을 것으로 추정됩니다.[NEWLINE][NEWLINE]모아이 석상은 1994년 유네스코 세계 유적지 목록에 등재됐으며  유네스코의 보호를 받고 있습니다.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_TEXT';
 
 --------------------
 -- Portugal
 --------------------
 
 UPDATE Language_ko_KR
-SET Text = '해당 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 증가합니다. 해안 및 호수 타일과 인접하면 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 어선에 인접하면 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]나우를 사용해 도시 국가에도 건설할 수 있습니다. ([COLOR_POSITIVE_TEXT]이국적인 화물 판매[ENDCOLOR]로) 도시 국가가 보유한 사치 자원의 교환할 수 없는 복제품을 제공합니다. 해당 도시 국가와의 [ICON_INTERNATIONAL_TRADE]교역로의 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 증가합니다. 이는 교역로에서 오는 골드 수입 및 도시 국가와의 현재 관계[COLOR:105:105:105:255](중립/우호/동맹)[ENDCOLOR]에 따라 달라집니다.[NEWLINE][NEWLINE]페이토리아는 해당 타일 및 2타일 이내에 있는 모든 타일에 시야를 제공하고 [ICON_STRENGTH]방어력 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 오직 포르투갈 문명만 건설할 수 있으며 반드시 해안 타일에 건설해야 합니다. 서로 인접하여 건설할 수 없고 자원 타일 위에 건설할 수 없습니다.'
+SET Text = '해당 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 증가합니다. 노동자로 소유한 도시에 건설하거나 나우를 사용해 도시 국가에도 건설할 수 있습니다. ([COLOR_POSITIVE_TEXT]이국적인 화물 판매[ENDCOLOR]로) 도시 국가가 보유한 사치 자원의 교환할 수 없는 복제품을 제공합니다. 해당 도시 국가와의 [ICON_INTERNATIONAL_TRADE]교역로의 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 증가합니다. 이는 교역로에서 오는 골드 수입 및 도시 국가와의 현재 관계[COLOR:105:105:105:255](중립/우호/동맹)[ENDCOLOR]에 따라 달라집니다.[NEWLINE][NEWLINE]페이토리아는 해당 타일 및 2타일 이내에 있는 모든 타일에 시야를 제공하고 [ICON_STRENGTH]방어력 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. 오직 포르투갈 문명만 건설할 수 있으며 반드시 해안 타일에 건설해야 합니다. 서로 인접하여 건설할 수 없고 자원 타일 위에 건설할 수 없습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FEITORIA_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '페이토리아는 소유한 영토에서는 노동자로, 도시 국가에서는 나우 [COLOR:105:105:105:255](이국적인 화물 판매)[ENDCOLOR]를 통해서 건설할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]노동자:[ENDCOLOR] 해당 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 증가합니다. 해안 및 호수 타일과 인접하면 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 어선에 인접하면 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][COLOR_YELLOW]나우:[ENDCOLOR] 도시 국가가 보유한 사치 자원의 복제품을 제공합니다. 해당 자원은 거래할 수 없습니다. 해당 도시 국가와의 [ICON_INTERNATIONAL_TRADE]교역로의 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 증가합니다. 이는 교역로에서 오는 골드 수입 및 도시 국가와의 현재 관계[COLOR:105:105:105:255](중립/우호/동맹)[ENDCOLOR]에 따라 달라집니다.[NEWLINE][NEWLINE]페이토리아는 해당 타일 및 2타일 이내에 있는 모든 타일에 시야를 제공하고 [ICON_STRENGTH]방어력 보너스를 25% 제공합니다. 오직 포르투갈 문명만 건설할 수 있으며 반드시 해안 타일에 건설해야 합니다. 서로 인접하여 건설할 수 없고 자원 타일 위에 건설할 수 없습니다.[NEWLINE][NEWLINE]포르투갈어로 "공장"이라는 뜻의 페이토리아는 중세 시대 외국에 세웠던 교역소입니다. 페이토리아는 시장이자 창고이자 정착지이자 탐험을 떠나는 출발지였습니다. 주로 포르투갈 왕실에서 지원을 받아 세워졌으며, 민간 기업은 왕실을 대신하여 상품을 사고팔고, 교역소를 지내는 무역상에게서 세금을 거둬 빚을 갚았습니다. 15세기와 16세기에는 50여 개의 페이토리아가 서쪽과 동쪽 아프리카, 인도, 말레이 반도, 중국, 일본 해안선을 따라 세워졌습니다. 페이토리아 덕분에 포르투갈은 3세기 동안이나 대서양과 인도양 교역로를 지배할 수 있었습니다.'
+SET Text = '{TXT_KEY_CIV5_IMPROVEMENTS_FEITORIA_HELP}[NEWLINE][NEWLINE]포르투갈어로 "공장"이라는 뜻의 페이토리아는 중세 시대 외국에 세웠던 교역소입니다. 페이토리아는 시장이자 창고이자 정착지이자 탐험을 떠나는 출발지였습니다. 주로 포르투갈 왕실에서 지원을 받아 세워졌으며, 민간 기업은 왕실을 대신하여 상품을 사고팔고, 교역소를 지내는 무역상에게서 세금을 거둬 빚을 갚았습니다. 15세기와 16세기에는 50여 개의 페이토리아가 서쪽과 동쪽 아프리카, 인도, 말레이 반도, 중국, 일본 해안선을 따라 세워졌습니다. 페이토리아 덕분에 포르투갈은 3세기 동안이나 대서양과 인도양 교역로를 지배할 수 있었습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FEITORIA_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '해당 타일에 페이토리아를 건설합니다. 도시 국가의 영토에 페이토리아를 건설하면 도시 국가와의 관계에 상관없이 해당 도시 국가와 연결된 모든 사치 자원의 복제품을 제공하며 [ICON_STRENGTH]방어력 보너스가 증가합니다. 인접한 어선의 [ICON_PRODUCTION] 생산이 +1 증가합니다. 인접한 해안 타일의 [ICON_GOLD] 골드가 +1 증가합니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛의 [ICON_STRENGTH] 전투력이 +25% 증가합니다. 2타일 범위의 시야를 제공합니다.'
+SET Text = '해당 타일에 페이토리아를 건설합니다. 도시 국가의 영토에 페이토리아를 건설하면 도시 국가와의 관계에 상관없이 해당 도시 국가와 연결된 모든 사치 자원의 거래가 불가능한 복제품을 제공합니다. 도시 국가와의 [ICON_INTERNATIONAL_TRADE] 교역로는 교역로에서 얻는 [ICON_GOLD] 골드와 도시 국가의 우호도 (중립, 우호적, 동맹) 에 비례해 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 제공합니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛의 [ICON_STRENGTH] 방어력이 +25% 증가합니다. 2타일 범위의 시야를 제공합니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_BUILD_FEITORIA_HELP';
 
 UPDATE Language_ko_KR 
@@ -1016,7 +1052,7 @@ SET Text = '오스트로그는 작은 요새를 뜻하는 러시아어 용어로
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = '모든 전략 자원의 획득량이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]가 됩니다. 자연적으로 타일을 획득할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 새로운 타일을 확보하기 위해 필요한 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.'
+SET Text = '모든 전략 자원의 획득량이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]가 됩니다. 타일을 획득할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 새로운 타일을 확보하기 위해 필요한 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_STRATEGIC_RICHES';
 
 UPDATE Language_ko_KR
@@ -1043,7 +1079,7 @@ SET Text = '테르시오는 르네상스 시대의 초기 화약 유닛입니다
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용도 유닛입니다. 도시를 세우는 능력이 있지만 스페인의 수도가 없는 도시에서만 가능합니다. 도시를 건설하면, 콩키스타도르로 건설한 도시는 3 시민으로 시작하며, 추가 영토를 얻습니다. 자동으로 다음 건물들이 지어집니다:[NEWLINE][NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 무기고[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 등대[NEWLINE][ICON_BULLET] 오두막[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 콩키스타도르로 건설한 건물에 적용되지 않습니다! [NEWLINE][NEWLINE]콩키스타도르로 개척한 도시에서는 [ICON_PEACE] 신앙으로 특별한 종교적 방어적 건물 [COLOR_POSITIVE_TEXT]전도관[ENDCOLOR]을 건설할 수 있습니다. [NEWLINE][NEWLINE]콩키스타도르는 대체하는 탐험가보다 더 강하고, 전투력이 높으며 측면 공격에 보너스를 받습니다. 훌륭한 이동력과 조합하면, 콩키스타도르는 기존 중세 군대를 증강하고나 대체할 수 있는 어마어마한 부대입니다.'
+SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용도 유닛입니다. 도시를 세우는 능력이 있지만 스페인의 수도가 없는 대륙에서만 가능합니다. 도시를 건설하면, 콩키스타도르로 건설한 도시는 3 시민으로 시작하며, 추가 영토를 얻습니다. 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 등대[NEWLINE][ICON_BULLET] 무기고[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 훈제실[NEWLINE][NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 콩키스타도르로 건설한 건물에 적용되지 않습니다! [NEWLINE][NEWLINE]콩키스타도르로 개척한 도시에서는 [ICON_PEACE] 신앙으로 특별한 종교적 방어적 건물 [COLOR_POSITIVE_TEXT]전도관[ENDCOLOR]을 건설할 수 있습니다. [NEWLINE][NEWLINE]콩키스타도르는 대체하는 탐험가보다 더 강하고, 전투력이 높으며 측면 공격에 보너스를 받습니다. 훌륭한 이동력과 조합하면, 콩키스타도르는 기존 중세 군대를 증강하고나 대체할 수 있는 어마어마한 부대입니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -1210,9 +1246,4 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_HUN_HORSE_ARCHER';
 UPDATE Language_ko_KR
 SET Text = '그레이트 갈레아스'
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_GALLEASS';
-
-UPDATE Language_ko_KR
-SET Text = '계단식 농장은 언덕 위에만 건설할 수 있으며 어떠한 담수의 영향도 받지 않습니다. 산과 인접하여 건설 시 인접한 산타일 1개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. 인접한 계단식 농장마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 인접한 모든 농장마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]계단식 농장은 발리, 필리핀, 중국, 페루를 포함한 전 세계 산간 지역에서 동시에 발달했습니다. 이 폭이 좁은 계단식 농장은 언덕과 산허리를 깎아 관개용수가 흘러 넘치는 것을 방지하고 경작할 수 있는 토지를 제공했으며, 이전에는 일반적으로 불가능한 일이었습니다. 잉카인은 특히 계단식 농장의 달인이었으며, 자신의 계단식 농장을 제 위치에 고정하기 위해 크고 자연석으로 된 벽을 세웠습니다. 잉카인은 계단식 모양을 갖추고 난 후, 일정한 용수를 계단식 농장에 제공할 수 있도록 수로 방식을 도입하여, 토지의 비옥함을 증대시켰습니다. 고대 잉카인의 계단식 기법은 성공적이었으며, 오늘날 현대 페루의 농부는 자신의 농장에 여전히 이 기법을 채택하고 있습니다.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_TEXT';
-
 

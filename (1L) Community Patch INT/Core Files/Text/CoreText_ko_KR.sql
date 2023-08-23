@@ -325,26 +325,6 @@ SET Text = '{1_MinorCivName:textkey}{1_MinorCivName: plural 1?이; 2?가;} 부�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP';
 
 UPDATE Language_ko_KR
-SET Text = '{2_CivName:textkey}{2_CivName: plural 1?과; 2?와;} {1_TargetName:textkey} 사이에 전쟁이 발발했습니다.'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
-
-UPDATE Language_ko_KR
-SET Text = '{3_TargetName:textkey}{3_TargetName: plural 1?이; 2?가;} 외교상의 우려를 이유로 {1_CivName:textkey}에게 전쟁을 선포했습니다, {1_TargetName:textkey}의 요청대로 {3_CivName:textkey}{3_CivName: plural 1?을; 2?를;} [COLOR_NEGATIVE_TEXT]멸망[ENDCOLOR]시켜 완전한 보상을 받거나 또는 두 도시 국가와의 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 통해 부분적인 보상을 받으십시오.  국제적인 압력이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 후 평화를 강요할 것입니다. 개입할 의도가 있다면 빠르게 행동하십시오!'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
-
-UPDATE Language_ko_KR
-SET Text = '{1_CityStateName:textkey}{1_CityStateName: plural 1?을; 2?를;} 정복하거나 (완전한 보상) 두 도시 국가 모두와 동맹을 (부분적 보상) 맺으십시오. '
-WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL';
-
-UPDATE Language_ko_KR
-SET Text = '{1_TargetName:textkey}{1_TargetName: plural 1?이; 2?가;} {2_CivName:textkey}에게 패배함!'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE';
-
-UPDATE Language_ko_KR
-SET Text = '{2_CivName:textkey}{2_CivName: plural 1?이; 2?가;} 확실한 승자로 떠오르면서 {2_CivName:textkey}{2_CivName: plural 1?과; 2?와;} {1_TargetName:textkey} 사이의 전쟁이 끝났습니다. 당신의 조언자들은 이 결과가 미래의 갈등으로 이어질 수도 있다고 걱정합니다.'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
-
-UPDATE Language_ko_KR
 SET Text = '{2_MinorCivName:textkey}의 요청대로 {1_ResourceName}{1: plural 1?을; 2?를;} 교역망에 연결했습니다. 그들의 상인들이 기뻐합니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE';
 
