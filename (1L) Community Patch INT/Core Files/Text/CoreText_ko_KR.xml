@@ -2936,6 +2936,23 @@
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_RESEARCH]과학 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<!-- NEW CS Quests -->
+
+		<!-- Find City -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_FORMAL">
+			<Text>{@1_CityName}를 찾아주길 원합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_CITY">
+			<Text>{@2_CivName}{@2: plural 1?은; 2?는;} 새로운 교역 지점을 원합니다. 그들은 "{@1_CityName}"라고 이름 지어진 도시에 대해 전해들었습니다. {@1_CityName}{@1: plural 1?을; 2?를;} 발견한다면 보상할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_CITY">
+			<Text>{@2_CivName}{@2: plural 1?은; 2?는;} {@1_CityName}를 찾습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_CITY">
+			<Text>당신의 {@1_CityName} 발견에 {@2_MinorCivName}{@1: plural 1?이; 2?가;} 크게 감사해합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_CITY">
+			<Text>{@2_CivName}{@2: plural 1?을; 2?를;} 위한 {@1_CityName} 발견!</Text>
+		</Row>
 		<!-- Capture City -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CAPTURE_CITY">
 			<Text>{@2_CivName}의 전술 전문가들이 {@1_CityName}{@1: plural 1?이; 2?가;} 전략적으로 중요한 요충지라고 생각합니다. 어떻게든 이 도시를 얻으면 큰 보상을 얻을 것입니다.</Text>
@@ -4216,6 +4233,9 @@
 		<!-- Bully popup texts -->
 		<Row Tag="TXT_KEY_MISC_BULLIED_POPUP">
 			<Text>공물:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT_VARIABLE_THRESHOLD">
+			<Text>필수 공물 기준인 [COLOR_CYAN]+{2_Threshold}%[ENDCOLOR]보다 {1_FactorScore}% 낮아 [COLOR_WARNING_TEXT]복원[ENDCOLOR]중입니다: </Text>
 		</Row>
 		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
@@ -6115,10 +6135,10 @@
 			<Text>{@2_MinorCivName}{@2: plural 1?과; 2?와;} {@1_CivName} 사이의 결혼!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_1">
-			<Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}으로의 기본 [ICON_INFLUENCE] 영향력이 {@3_RestingInfluence}로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.</Text>
+			<Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}으로의 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_2">
-			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}으로의 기본 [ICON_INFLUENCE] 영향력이 {@3_RestingInfluence}로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.</Text>
+			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}으로의 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_MARRIED_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]정략 결혼에서 [COLOR_POSITIVE_TEXT]{1_Num}표[ENDCOLOR]</Text>
@@ -7455,106 +7475,109 @@
 		</Row>
 		<!-- Quest Data -->
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 도로 설립</Text>
+			<Text>도로 설립</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_KILL_CAMP_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 주둔지 파괴</Text>
+			<Text>주둔지 파괴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONNECT_RESOURCE_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 자원 확보</Text>
+			<Text>자원 확보</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_WONDER_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 불가사의 건설</Text>
+			<Text>불가사의 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GREAT_PERSON_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 위인</Text>
+			<Text>위인 출현</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_KILL_CITY_STATE_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위해 도시 국가 제거</Text>
+			<Text>도시 국가 제거</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_PLAYER_NAME">
-			<Text>{1_CSName}{1: plural 1?이; 2?가;} 찾던 문명 발견</Text>
+			<Text>문명 발견</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_CITY_NAME">
+			<Text>도시 발견</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_NATURAL_WONDER_NAME">
-			<Text>{1_CSName}{1: plural 1?이; 2?가;} 찾던 자연 경관 발견</Text>
+			<Text>자연 경관 발견</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GIVE_GOLD_NAME">
-			<Text>{1_CSName}에게 골드 선물</Text>
+			<Text>골드 선물</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_PLEDGE_TO_PROTECT_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 보호 선언</Text>
+			<Text>보호 선언</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_CULTURE_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 [ICON_CULTURE]문화 경쟁</Text>
+			<Text>[ICON_CULTURE]문화 경쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_FAITH_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 [ICON_PEACE]신앙 경쟁</Text>
+			<Text>[ICON_PEACE]신앙 경쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_TECHS_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 [ICON_SCIENCE]기술 경쟁</Text>
+			<Text>[ICON_SCIENCE]기술 경쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_INVEST_NAME">
-			<Text>{1_CSName}에 투자</Text>
+			<Text>투자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BULLY_CITY_STATE_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위해 도시 국가 괴롭히기</Text>
+			<Text>도시 국가 괴롭히기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_DENOUNCE_MAJOR_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위해 지도자 비난</Text>
+			<Text>지도자 비난</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_SPREAD_RELIGION_NAME">
-			<Text>{1_CSName}에 종교 전파</Text>
+			<Text>종교 전파</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_TRADE_ROUTE_NAME">
-			<Text>{1_CSName}에 교역로 설립</Text>
+			<Text>교역로 설립</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_WAR_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 전쟁</Text>
+			<Text>전쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_NATIONAL_WONDER_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 국가 불가사의 건설</Text>
+			<Text>국가 불가사의 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GIFT_SPECIFIC_UNIT_NAME">
-			<Text>{1_CSName}에게 유닛 선물</Text>
+			<Text>유닛 선물</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_CITY_STATE_NAME">
-			<Text>{1_CSName}{1: plural 1?이; 2?가;} 찾던 도시 국가 발견</Text>
+			<Text>도시 국가 발견</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_INFLUENCE_NAME">
-			<Text>{1_CSName}에 대한 영향력</Text>
+			<Text>영향력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_TOURISM_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 [ICON_TOURISM]관광 경쟁</Text>
+			<Text>[ICON_TOURISM]관광 경쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ARCHAEOLOGY_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 유물 발굴</Text>
+			<Text>유물 발굴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CIRCUMNAVIGATION_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 항해</Text>
+			<Text>항해</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_LIBERATION_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 해방</Text>
+			<Text>해방</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_HORDE_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 폭도 진압</Text>
+			<Text>폭도 진압</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_REBELLION_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 반란 진압</Text>
+			<Text>반란 진압</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_DISCOVER_PLOT_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 탐험</Text>
+			<Text>탐험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BUILD_X_BUILDINGS_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 건물 건설</Text>
+			<Text>건물 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_STEAL_FROM_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 스파이</Text>
+			<Text>스파이</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_COUP_CITY_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 쿠데타</Text>
+			<Text>쿠데타</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_GET_CITY_NAME">
-			<Text>{1_CSName}{1: plural 1?을; 2?를;} 위한 정복</Text>
+			<Text>정복</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
 			<Text>+{1_Num} [ICON_HAPPINESS_1]행복</Text>
