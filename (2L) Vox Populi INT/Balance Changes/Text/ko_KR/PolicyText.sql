@@ -945,7 +945,7 @@ WHERE Tag = 'TXT_KEY_RATIONALISM_TITLE';
 
 -- Opener/Finisher
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]합리주의[ENDCOLOR]는 도시 성장 및 과학 산출량을 극대화 합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 전략 자원의 [ICON_PRODUCTION]생산 +2 [ICON_RESEARCH]과학 +3[NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +5%[NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행 -1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +2%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행 -1[NEWLINE][ICON_BULLET][COLOR_YELLOW]블레츨리 파크[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET][ICON_GREAT_SCIENTIST]위대한 과학자 출현율 +33%[NEWLINE][ICON_BULLET]모든 도시의 성장률 +25%[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]합리주의[ENDCOLOR]는 도시 성장 및 과학 산출량을 극대화 합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 전략 자원의 [ICON_PRODUCTION]생산 +2 [ICON_RESEARCH]과학 +3[NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +2%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행 -1[NEWLINE][ICON_BULLET][COLOR_YELLOW]블레츨리 파크[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]모든 도시에서 스파이 저항 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가[NEWLINE][ICON_BULLET]외국 스파이의 작전 기간이 2턴 증가[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP';
 
 -- Humanism (now Enlightenment)
@@ -954,7 +954,7 @@ SET Text = '계몽'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]계몽[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 1개 제공합니다. [NEWLINE][ICON_BULLET]모든 대학의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]황금기 동안 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]계몽[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 1개 제공합니다. [NEWLINE][ICON_BULLET]모든 대학의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_HELP';
 
 UPDATE Language_ko_KR
@@ -963,15 +963,15 @@ WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_TEXT';
 
 -- Scientific Revolution (now Rights of Man)
 UPDATE Language_ko_KR
-SET Text = '천부인권'
+SET Text = '경험주의'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]천부인권[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 비전문가 [ICON_CITIZEN]시민 2명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 마을의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]천부인권[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 비전문가 [ICON_CITIZEN]시민 2명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '이 선언문은 라파예트 장군, 토마스 제퍼슨, 그리고 오노레 미라보에 의해 초안이 작성되었습니다. 인간의 권리는 ''자연적 권리''라는 교리에 영향을 받아 보편적이며, 인간의 본성 그 자체와 관련하여 언제 어디서나 유효합니다. 그것은 법에 의해 동등하게 보호되는 자유로운 개인의 국가의 기초가 되었습니다. 그것은 프랑스 제4공화국(1946년)과 제5공화국(1958년)의 헌법의 시작에 포함되었고 여전히 현재에 이르고 있습니다. 계몽주의 철학자들에게 영감을 받은 이 선언문은 프랑스 혁명의 가치에 대한 핵심 진술이었으며 유럽과 전 세계의 자유와 민주주의 발전에 큰 영향을 끼쳤습니다.'
+SET Text = '경험론은 지식은 감각 경험에서만 또는 주로 나온다고 말하는 이론입니다. 합리주의와 회의주의와 함께 인간 지식에 대한 연구인 인식론의 여러 관점 중 하나는 경험론과 증거, 특히 감각적 경험의 역할을 선천적인 생각이나 전통에 대한 개념보다 강조합니다. 그러나 경험론자들은 전통(또는 관습)이 관계 때문에 발생한다고 주장할 수 있습니다. 이전 감각 경험의 일부입니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFICREVOLUTION_TEXT';
 
 -- Secularism (now Scientific Revolution)
@@ -980,29 +980,29 @@ SET Text = '과학혁명'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]과학혁명[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시에 천문대를 건설할 수 있습니다. ([ICON_RESEARCH] 과학 +6, 근처 산마다 [ICON_RESEARCH] 과학 1, [ICON_VP_SCIENTIST] 과학자 슬롯 +2)[NEWLINE][ICON_BULLET]현재 소유한 [ICON_GREAT_WORK]걸작 1개마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가합니다.[COLOR:105:105:105:255](한도: 20%)[ENDCOLOR][NEWLINE][ICON_BULLET]모든 정글과 설원 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]경험주의[ENDCOLOR][NEWLINE][NEWLINE][ICON_BULLET]전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET]현재 소유한 [ICON_GREAT_WORK]걸작 1개마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가합니다. [COLOR:105:105:105:255](한도: 20%)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_HELP';
 
 UPDATE Language_ko_KR
 SET Text = '과학 혁명은 인간의 지식이나 기술의 빠른 발전이 현재의 세계관을 뒤엎는 시기이며, 그 결과 사상과 지식의 더 많은 발전을 촉발합니다. 니콜라우스 코페르니쿠스의 작품인 "천구의 회전에 관하여"와 안드레아스 비살리우스의 "7권의 책들 중 인체의 구조에 관하여"의 출판에 이어, 유럽의 많은 지역이 16세기에 과학 혁명을 겪었습니다. 둘 다 그들 주변의 세계의 일부를 조사하기 위해 현대의 (그 기간 동안) 과학적 관행을 사용했고 일부는 고대 그리스로 거슬러 올라가는 부정확한 과학 이론을 뒤집었습니다. 이 책들의 성공에 이어, 수문이 열렸고, 과학자들은 그들 주변의 모든 것을 주의 깊게 조사하기 시작했고, 인간의 지식은 다음 세기에 걸쳐 기하급수적으로 증가했습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_TEXT';
 
--- Sovereignty (now Empiricism)
+-- Sovereignty (Rights of Man)
 UPDATE Language_ko_KR
-SET Text = '경험주의'
+SET Text = '천부인권'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]경험주의[ENDCOLOR][NEWLINE][ICON_BULLET]전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET]모든 도시에서 스파이 저항이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]외국 스파이의 작전 기간이 2턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]인간의 권리[ENDCOLOR][NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행이 -1 감소합니다.[NEWLINE][ICON_BULLET]모든 마을의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]황금기 동안 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '경험론은 지식은 감각 경험에서만 또는 주로 나온다고 말하는 이론입니다. 합리주의와 회의주의와 함께 인간 지식에 대한 연구인 인식론의 여러 관점 중 하나는 경험론과 증거, 특히 감각적 경험의 역할을 선천적인 생각이나 전통에 대한 개념보다 강조합니다. 그러나 경험론자들은 전통(또는 관습)이 관계 때문에 발생한다고 주장할 수 있습니다. 이전 감각 경험의 일부입니다.'
+SET Text = '이 선언문은 라파예트 장군, 토마스 제퍼슨, 그리고 오노레 미라보에 의해 초안이 작성되었습니다. 인간의 권리는 ''자연적 권리''라는 교리에 영향을 받아 보편적이며, 인간의 본성 그 자체와 관련하여 언제 어디서나 유효합니다. 그것은 법에 의해 동등하게 보호되는 자유로운 개인의 국가의 기초가 되었습니다. 그것은 프랑스 제4공화국(1946년)과 제5공화국(1958년)의 헌법의 시작에 포함되었고 여전히 현재에 이르고 있습니다. 계몽주의 철학자들에게 영감을 받은 이 선언문은 프랑스 혁명의 가치에 대한 핵심 진술이었으며 유럽과 전 세계의 자유와 민주주의 발전에 큰 영향을 끼쳤습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_TEXT';
 
 -- Free Thought
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]자유사상[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_GREAT_SCIENTIST]위대한 과학자를 소모해 기술 연구 시 얻는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]자유사상[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_GREAT_SCIENTIST]위대한 과학자 출현율이 +33% 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FREE_THOUGHT_HELP';
 
 --------------------
