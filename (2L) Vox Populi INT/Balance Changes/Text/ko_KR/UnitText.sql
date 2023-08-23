@@ -485,6 +485,10 @@
 	SET Text = '고전 시대 제해권을 장악한 해상 유닛입니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_TRIREME';
 
+	UPDATE Language_en_US
+	SET Text = '삼단노선은 갤리에서 업그레이드 할 수 있는 해상 유닛입니다. 근접 공격 유닛으로 해군 유닛 및 해안 도시와 싸울 수 있습니다. 삼단노선은 아군 영해에서 야만인 배를 몰아내고 약간의 정찰을 하는데 유용합니다. (폴리네시아의 삼단노선을 제외한 다른 삼단노선은 도시 범위 밖의 심해 타일에서 턴을 마칠 수 없습니다.)'
+	WHERE Tag = 'TXT_KEY_UNIT_TRIREME_STRATEGY';
+
 	UPDATE Language_ko_KR
 	SET Text = '처음에는 항공기 2대를 적재합니다. 승급하면 적재량이 증가합니다. 근처 유닛을 공격하려는 적 항공기를 요격합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]연안 타일에서만 지상 공격을 할 수 있습니다.[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_CARRIER';
