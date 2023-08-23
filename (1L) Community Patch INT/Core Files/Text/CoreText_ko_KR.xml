@@ -6112,10 +6112,10 @@
 			<Text>{@2_MinorCivName}{@2: plural 1?과; 2?와;} {@1_CivName} 사이의 결혼!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_1">
-			<Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}으로의 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.</Text>
+			<Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}으로의 기본 [ICON_INFLUENCE] 영향력이 {@3_RestingInfluence}로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_2">
-			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}으로의 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.</Text>
+			<Text>{@1_CivName}의 잘생긴 왕자가 {@2_MinorCivName}의 귀족과 결혼했습니다. 결혼으로 둘 사이의 외교 관계가 통합되어 {@1_CivName}{@1: plural 1?은; 2?는;} {@2_MinorCivName}으로의 기본 [ICON_INFLUENCE] 영향력이 {@3_RestingInfluence}로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_MARRIED_VOTES">
 			<Text>[NEWLINE][ICON_BULLET]정략 결혼에서 [COLOR_POSITIVE_TEXT]{1_Num}표[ENDCOLOR]</Text>
