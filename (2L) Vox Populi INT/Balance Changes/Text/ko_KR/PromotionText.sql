@@ -7,7 +7,7 @@
 
 	-- added Withdraw Before Melee
 	UPDATE Language_ko_KR
-	SET Text = '근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]80%[ENDCOLOR] [COLOR:110:110:110:255](빠른 적 유닛 또는 유닛 뒤에 제한된 평지가 있을 경우 후퇴 확률 감소)'
+	SET Text = '유닛 뒤에 공간이 있다면 매 턴 첫 근접 공격을 피해 후퇴'
 	WHERE Tag = 'TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP';
 
 	-- added Great Himeji Castle
@@ -368,7 +368,7 @@
 	WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_2_HELP';
 
 	UPDATE Language_ko_KR
-	SET Text = '공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR][NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR]'
+	SET Text = '공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR][NEWLINE]가능하다면 각 턴의 첫 근접 공격을 피해 후퇴'
 	WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_3_HELP';
 
 	UPDATE Language_ko_KR

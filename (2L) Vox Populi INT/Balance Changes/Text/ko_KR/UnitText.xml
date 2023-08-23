@@ -74,7 +74,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]</Text>
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]가능하다면 각 턴 첫 근접 공격 후퇴</Text>
 		</Row>
 		
 <!-- Civilization Promotions -->
@@ -407,7 +407,7 @@
 			<Text>특공대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP_I">
-			<Text>근접 전투 시 60% 확률로 후퇴. 후퇴 확률은 적 유닛의 이동력 또는 뒤 타일의 제한에 따라 낮아질 수 있음.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>유닛 뒤에 공간이 있다면 매 턴 첫 근접 공격을 피해 후퇴[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		<!-- Explorer -->
 			<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
@@ -832,7 +832,7 @@
 			<Text>봉쇄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
-			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]근접 전투 시 후퇴 확률 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]</Text>
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]가능하다면 각 턴의 첫 근접 공격을 피해 후퇴</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
@@ -981,7 +981,7 @@
 			<Text>특공대는 정찰과 공격을 할 수 있는 유닛으로, 험지를 빠르게 건너 약한 유닛을 공격하는 데 특화되어 있습니다. 이 유닛을 사용해 후방의 적을 측면에서 공격해 교란하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_COMMANDO_CBP">
-			<Text>산업 시대 정찰 유닛으로, 공격 시 추가 전투력을 얻고 근접 전투 시 60% 확률로 후퇴합니다. 타일 시설을 약탈할 때 경험치를 얻습니다.</Text>
+			<Text>산업 시대 정찰 유닛으로, 공격 시 추가 전투력을 얻고 가능하다면 각 턴의 첫 근접 공격을 피해 후퇴합니다. 타일 시설을 약탈할 때 경험치를 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_COMMANDO_TEXT">
 			<Text>특공대는 가치가 높은 목표물을 공격하고 최전방 정찰에 특화된 정예 경보병입니다. 이 용어는 보어 전쟁과 그레이트 트렉 이후 공통적으로 사용되었으며, 보어 코만도 민병대는 호사, 줄루, 영국 군대에 대항하여 큰 성공을 거두기 위해 게릴라 및 비대칭 전술을 사용했습니다.</Text>
