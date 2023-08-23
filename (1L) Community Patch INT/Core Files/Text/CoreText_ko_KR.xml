@@ -2954,31 +2954,31 @@
 			<Text>{@2_CivName}{@2: plural 1?을; 2?를;} 위한 {@1_CityName} 발견!</Text>
 		</Row>
 		<!-- Capture City -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CAPTURE_CITY">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ACQUIRE_CITY">
 			<Text>{@2_CivName}의 전술 전문가들이 {@1_CityName}{@1: plural 1?이; 2?가;} 전략적으로 중요한 요충지라고 생각합니다. 어떻게든 이 도시를 얻으면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CAPTURE_CITY">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ACQUIRE_CITY">
 			<Text>{@2_CivName}{@2: plural 1?은; 2?는;} 당신이 {@1_CityName}{@1: plural 1?을; 2?를;} 정복하길 바랍니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ACQUIRE_CITY_COMPLETE">
 			<Text>{@1_CivName}의 전술 전문가들이 당신의 노고를 칭찬하며 그들이 예상한 것처럼 이 도시가 전략적으로 유용한 곳이 되기를 기대합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ACQUIRE_CITY_COMPLETE">
 			<Text>{@1_CivName}{@1: plural 1?을; 2?를;} 위한 도시 정복!</Text>
 		</Row>
 		
 		<!-- Capture City (OCC) -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_UNIT_GET_CITY_OCC">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ACQUIRE_CITY_OCC">
 			<Text>{@2_CivName}의 전술 전문가들은 {@1_CityName}{@1: plural 1?이; 2?가;} 그들 안전의 중대한 위협이라고 믿습니다. 어떻게든 이 도시를 정복하면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UNIT_GET_CITY_OCC">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ACQUIRE_CITY_OCC">
 			<Text>{@2_CivName}{@2 plural 1?은; 2?는;} 당신이 {@1_CityName}{@1: plural 1?을; 2?를;} 정복하길 바랍니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_OCC_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ACQUIRE_CITY_OCC_COMPLETE">
 			<Text>{@1_CivName}의 전술 전문가들이 당신의 노고를 칭찬합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_OCC_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ACQUIRE_CITY_OCC_COMPLETE">
 			<Text>{@1_CivName}{@1: plural 1?을; 2?를;} 위한 도시 정복!</Text>
 		</Row>
 		<!-- Coup -->
@@ -3007,42 +3007,42 @@
 			<Text>당신의 스파이가 죽었거나 {@1_City}{@1: plural 1?이; 2?가;} 더 이상 유효한 목표가 아니어서 당신의 쿠데타는 실패했습니다. {@1_Civname}의 퀘스트는 철회되었습니다.</Text>
 		</Row>
 		<!-- Steal -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_ON_MAJOR">
 			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 활동 [COLOR:105:105:105:255](스파이 활동이나 기술 훔치기)[ENDCOLOR]이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_STEAL_FROM">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPY_ON_MAJOR">
 			<Text>{@1_Civ}에서 첩보 갱신</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_ON_MAJOR_COMPLETE">
 			<Text>{@2_Civ}의 비밀 요원들이 {@1_Civ}에 대한 당신의 성공적인 첩보 활동을 자랑스러워합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STEAL_FROM_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_ON_MAJOR_COMPLETE">
 			<Text>첩보 활동 완료!</Text>
 		</Row>
 		<!-- Construction -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_X_BUILDING">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_BUILDINGS">
 			<Text>{3_Civ}의 건축업자들이 {1_Building}의 가치를 연구하고자 합니다. {3_Civ}{3: plural 1?은; 2?는;} 당신이 이 건물을 당신의 문명에서 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]개 건설해주면 엄청난 보상을 주겠다고 약속했습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_X_BUILDING">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_BUILD_X_BUILDINGS">
 			<Text>{@1_Civ}의 건설 프로젝트</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_BUILDINGS_COMPLETE">
 			<Text>{@1_Civ}의 건축업자들이 당신의 기념비적인 건축 노고에 경이로워합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BUILD_X_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BUILD_X_BUILDINGS_COMPLETE">
 			<Text>건설 프로젝트 완료!</Text>
 		</Row>
 		<!-- Discovery -->
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_DISCOVERY_PLOT">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_DISCOVER_AREA">
 			<Text>{@1_Civ}의 지도 제작자들이 당신에게 지도 제작 프로젝트를 완수해달라고 요청합니다. 표시된 지역의 빈 공간을 그들이 필요한 만큼 많이 탐험하면 그들이 가지고 있는 선물을 당신에게 줄 것입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVERY_PLOT">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVER_AREA">
 			<Text>지도 제작 위원회</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_DISCOVERY_PLOT_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_DISCOVER_AREA_COMPLETE">
 			<Text>{@1_Civ}의 지도 제작자들이 당신의 지도 제작 프로젝트 협조에 감사해합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVERY_PLOT_COMPLETE">
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVER_AREA_COMPLETE">
 			<Text>지도 제작 임무 완료!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PLOT_DISCOVERY_FAILED">
@@ -7564,19 +7564,19 @@
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_REBELLION_NAME">
 			<Text>반란 진압</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_DISCOVER_PLOT_NAME">
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_DISCOVER_AREA_NAME">
 			<Text>탐험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BUILD_X_BUILDINGS_NAME">
 			<Text>건물 건설</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_STEAL_FROM_NAME">
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_SPY_ON_MAJOR_NAME">
 			<Text>스파이</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_COUP_CITY_NAME">
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_COUP_NAME">
 			<Text>쿠데타</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_GET_CITY_NAME">
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ACQUIRE_CITY_NAME">
 			<Text>정복</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
