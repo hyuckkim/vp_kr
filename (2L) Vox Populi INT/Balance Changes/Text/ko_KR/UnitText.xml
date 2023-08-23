@@ -80,17 +80,17 @@
 <!-- Civilization Promotions -->
 	<!-- Denmark -->
 		<Row Tag="TXT_KEY_PROMOTION_VIKING">
-			<Text>바이킹</Text>
+			<Text>바이킹 (지상)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
-			<Text>약탈된 타일에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]약탈 시 [ICON_MOVES]이동력 소모 없음[NEWLINE]중립 영토에서 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 약탈 시 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 피해</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
-			<Text>롱보트</Text>
+			<Text>바이킹 (해상)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
-			<Text>연안 타일에서 방어 또는 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]약탈 시 [ICON_MOVES]이동력 소모 없음[NEWLINE]연안 타일에서 체력 회복 속도 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]</Text>
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 약탈 시 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 피해</Text>
 		</Row>
 		<!-- France -->
 		<Row Tag="TXT_KEY_PROMOTION_COERCION">
