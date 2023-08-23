@@ -582,6 +582,11 @@
 	SET Text = '공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-20%[ENDCOLOR][NEWLINE]사거리 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_RANGE_HELP';
 
+	-- Heavy Charge
+	UPDATE Language_ko_KR
+	SET Text = '후퇴할 수 없는 적 상대로 [ICON_STRENGTH] 전투력이 50% 증가합니다. 적이 이 유닛보다 최종 [ICON_STRENGTH] 전투력이 낮다면 강제로 후퇴합니다.'
+	WHERE Tag = 'TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP';
+
 	-- Changed English UA
 	UPDATE Language_ko_KR
 	SET Text = '[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
