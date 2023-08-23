@@ -138,7 +138,10 @@
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS_HELP">
 			<Text>문명 사이의 국제 여행이 증가합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
 		</Row>
-		<!-- Sweden Grenadiers -->
+		
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_PILLAGE">
+			<Text>바이킹</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE">
 			<Text>지역 피해</Text>
 		</Row>
