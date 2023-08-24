@@ -2,7 +2,7 @@
 <Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="12">
   <Properties>
     <Name>(3aL) VP - EUI Compatibility Files Localized</Name>
-    <Teaser>(3.8) Translation of VP - EUI Compatibility Files</Teaser>
+    <Teaser>(3.8.1) Translation of VP - EUI Compatibility Files</Teaser>
     <Description>Translation of the VP - EUI Compatibility Files into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -27,7 +27,7 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="163BBDF4C0AF1BD04FEA2024271C17AA" import="0">EUI/EUI_text_ko_KR.xml</File>
+    <File md5="33885C441FE9CA7A7E41677FBFCF7DE5" import="0">EUI/EUI_text_ko_KR.xml</File>
     <File md5="0D1D216221BEADAD6CE2743B450270C9" import="0">EUI/ko_KR/NeededText.xml</File>
     <File md5="3665A2A8307A8C41D908752BF88AC4BF" import="0">ImprovedTopPanel/Text.sql</File>
     <File md5="C7B0F3F3F6CF0D731618849691C17EFE" import="0">ImprovedTopPanel/Text.xml</File>
