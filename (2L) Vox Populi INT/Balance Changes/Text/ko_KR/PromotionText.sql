@@ -17,7 +17,7 @@
 
 	-- added Great Lighthouse Promotion
 	UPDATE Language_ko_KR
-	SET Text = '[ICON_MOVES]이동력 및 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
+	SET Text = '[ICON_MOVES]이동력 및 [ICON_VP_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_GREAT_LIGHTHOUSE_HELP';
 
 	-- added Damaged Enemy Bonus (33)
@@ -360,7 +360,7 @@
 	-- Wolfpack extremely strong
 
 	UPDATE Language_ko_KR
-	SET Text = '공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR][NEWLINE]시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
+	SET Text = '공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR][NEWLINE][ICON_VP_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_WOLFPACK_1_HELP';
 
 	UPDATE Language_ko_KR
@@ -679,7 +679,7 @@
 
 	-- Embarkation
 	UPDATE Language_ko_KR
-	SET Text = '연안 및 대양 타일 승선 가능[ENDCOLOR][NEWLINE]승선 유닛 대양 타일 진입 가능[NEWLINE]승선 시 시야 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]'
+	SET Text = '연안 및 대양 타일 승선 가능[ENDCOLOR][NEWLINE]승선 유닛 대양 타일 진입 가능[NEWLINE]승선 시 [ICON_VP_VISION] 시야 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP';
 
 	-- Golden Age Points from Kills

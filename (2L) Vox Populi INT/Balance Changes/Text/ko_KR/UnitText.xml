@@ -249,7 +249,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER_HELP">
-			<Text>시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+			<Text>[ICON_VP_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP">
 			<Text>연대 전통</Text>
@@ -288,6 +288,31 @@
 		<Row Tag="TXT_KEY_PROMOTION_GUERILLA_FIGHTER_HELP">
 			<Text>부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE]측면 공격 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 내 체력 회복 시 추가 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE]지형에 상관없이 타일마다 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 소모</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK">
+			<Text>폭탄 현수가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR] 대항 시 [ICON_STRENGTH] 전투력 +20%.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO">
+			<Text>공중 어뢰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]헤싱 유닛[ENDCOLOR] 대항 시 [ICON_STRENGTH] 전투력 +20%.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_RECON_SMALL_INCREASE">
+			<Text>공중 정찰력 소폭 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_SMALL_INCREASE">
+			<Text>항공 정찰 범위 +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_SMALL_INCREASE_HELP">
+			<Text>항공 정찰 범위가 7로 상승</Text>
+		</Row>
+		
 	<!-- Unit Free Promotions -->
 		<!-- Atatlist -->
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK">

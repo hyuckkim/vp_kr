@@ -291,6 +291,10 @@ UPDATE Language_ko_KR
 SET Text = '[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]이 도시 국가는 강력한 문화적 영향을 받고 있는 문명과 동맹 관계이기 때문에, 선거 조작 중 스파이의 등급이 {1_SpyBonus} {1_SpyBonus: plural 1?Rank; other?Ranks;} 상승합니다. 쿠데타의 성공 확률도 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPY_BONUS_CITY_STATE';
 
+UPDATE Language_ko_KR
+SET Text = '임무가 없는 스파이가 {1_Num}명 있습니다.[NEWLINE][NEWLINE]스파이는 다른 문명에서 사보타주를 하거나 절도를 하거나 다른 문명의 음모를 파헤치거나 도시 국가의 선거를 조작해 영향력을 올릴 수 있습니다. 첩보 개요 화면에서 스파이에게 임무를 주십시오!'
+WHERE Tag = 'TXT_KEY_EO_UNASSIGNED_SPIES_TT';
+
 -- Public Opinion
 
 UPDATE Language_ko_KR
