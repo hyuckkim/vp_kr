@@ -83,6 +83,16 @@
 		<Row Tag="TXT_KEY_CONCEPT_CANALS_ADV_QUEST">
 			<Text>운하가 무엇입니까?</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_TITLE">
+			<Text>[COLOR_GREEN]스파이 포인트[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_BODY">
+			<Text>[ICON_VP_SPY_POINTS] 스파이 포인트가 특정 임계치 (기본: 100)에 다다랐을 때 새로운 스파이를 얻습니다. 이 값은 게임이 시작할 때의 주요 문명과 도시 국가의 수에 따라 감소합니다. 어떤 문명이 처음으로 르네상스 시대에 도달하거나 당신이 그 다음 시대에 도달할 때마다 [ICON_VP_SPY_POINTS] 스파이 포인트를 100 얻습니다. 일부 건물과 시설도 [ICON_VP_SPY_POINTS] 스파이 포인트를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_ADV_QUEST">
+			<Text>스파이 포인트가 무엇입니까?</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_TITLE">
 			<Text>[COLOR_GREEN]도시의 지역 행복[ENDCOLOR]</Text>
@@ -1085,7 +1095,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_PUPPET]괴뢰 도시의 [ICON_URBANIZATION]도시화에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_POINTS_TT">
-			<Text>현재 스파이 포인트: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE]스파이 포인트 수가 임계값 {2_Threshold}을(를) 초과할 때마다 새로운 스파이를 얻게 됩니다. 임계값은 게임 시작 시 플레이어 수와 도시 국가 수에 따라 달라집니다. 첫 번째 플레이어가 르네상스 시대에 도달할 때나 당신이 이후 시대에 도달할 때 스파이 포인트 100점을 얻습니다. 일부 건물과 정책은 스파이 포인트도 제공합니다.[NEWLINE][NEWLINE]지금까지 누적된 총 스파이 포인트: {3_NumTotal}
+			<Text>현재 [ICON_VP_SPY_POINTS] 스파이 포인트: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE][ICON_VP_SPY_POINTS] 스파이 포인트가 임계값 {2_Threshold}을(를) 넘을 때마다 새로운 스파이를 얻게 됩니다. 임계값은 게임 시작 시 플레이어 수와 도시 국가 수에 따라 달라집니다. 어떤 문명이 처음으로 르네상스 시대에 도달하거나 당신이 그 다음 시대에 도달할 때마다 [ICON_VP_SPY_POINTS] 스파이 포인트를 100 얻습니다. 일부 건물과 시설도 [ICON_VP_SPY_POINTS] 스파이 포인트를 제공합니다.[NEWLINE][NEWLINE]지금까지 누적된 총 [ICON_VP_SPY_POINTS] 스파이 포인트: {3_NumTotal}
 			</Text>
 		</Row>
 
