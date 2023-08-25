@@ -4235,7 +4235,7 @@
 			<Text>공물:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT_VARIABLE_THRESHOLD">
-			<Text>필수 공물 기준인 [COLOR_CYAN]+{2_Threshold}%[ENDCOLOR]보다 {1_FactorScore}% 낮아 [COLOR_WARNING_TEXT]복원[ENDCOLOR]중입니다: </Text>
+			<Text>공물 요구에 필요한 기준인 [COLOR_CYAN]+{2_Threshold}%[ENDCOLOR]보다 {1_FactorScore}% 낮아 [COLOR_WARNING_TEXT]불복[ENDCOLOR]합니다: </Text>
 		</Row>
 		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->

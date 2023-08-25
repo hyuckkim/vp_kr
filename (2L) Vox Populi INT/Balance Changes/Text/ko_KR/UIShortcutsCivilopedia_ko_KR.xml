@@ -64,5 +64,14 @@
 				[ICON_BULLET][COLOR_CYAN]대규모 타격[ENDCOLOR]: [COLOR_YELLOW]SHIFT+RCLICK[ENDCOLOR]적군은 모든 항공기가 공격하거나 목표물이 죽을 때까지 목표 타일에 있는 유닛을 공습합니다. 공격 순서는 내구도가 높은 항공기에 우선순위를 두며, 유닛 레벨로 구분됩니다. 두 번 공격할 수 있는 항공기는 다음 항공기가 공격을 시작하기 전에 공격합니다. [NEWLINE]
 			</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PREFERSTARTBIAS_LABEL">
+			<Text>시작 위치 (선호):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PRIORITYSTARTBIAS_LABEL">
+			<Text>시작 위치 (우선):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_AVOIDSTARTBIAS_LABEL">
+			<Text>시작 위치 (회피):</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>
