@@ -300,7 +300,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]프롤레타리아 독재[ENDCOLOR]: 모든 도시의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '마르크스주의 사회정치 이론에서 프롤레타리아 독재란 노동자 계급이 직접적인 정치권력을 가진 사회 상태를 의미한다. 이 경우 ''독재''라는 표현은 일반적인 의미가 아니라 모든 사회 계급이 국가를 통치한다는 것을 의미한다. 마르크스와 엥겔스에 따르면 자본가 또는 다른 계급이 노동자의 권리를 박탈하는 것으로 이러한 정치 체계가 오는 것을 늦출 수는 있겠지만, 노동자 계급은 폭력을 동원하여 이러한 정치 체계를 불러올 수 있으며, 결국 최후에는 프롤레타리아가 부르주아를 대체하게 될 것이라고 한다.'
 WHERE Tag = 'TXT_KEY_POLICY_PARTY_LEADERSHIP_TEXT';
 

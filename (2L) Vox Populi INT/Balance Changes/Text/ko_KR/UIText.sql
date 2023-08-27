@@ -514,7 +514,7 @@ UPDATE Language_ko_KR
 SET Text = '매 턴 [COLOR_NEGATIVE_TEXT]3[ENDCOLOR] [ICON_GOLD]골드가 유지비로 지출됩니다.[NEWLINE][NEWLINE]철도는 유닛을 엄청난 속도로 이동시켜줍니다.'
 WHERE Tag = 'TXT_KEY_BUILD_RAILROAD_HELP';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '건설하거나 관리하는 도로와 철도의 총 유지비입니다. 도로는 턴 당 1 [ICON_GOLD] 골드, 철도는 3 [ICON_GOLD] 골드입니다.'
 WHERE Tag = 'TXT_KEY_EO_EX_IMPROVEMENTS';
 
@@ -1095,6 +1095,18 @@ WHERE Tag = 'TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING';
 INSERT INTO Language_ko_KR (Tag, Text)
 VALUES  ('TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_NO', '이 도시는 이전에 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 소유였습니다. [COLOR_NEGATIVE_TEXT]과거에 그들에게 적대적인 행동을 취했기 때문에 이를 되돌릴 기회가 없습니다.[ENDCOLOR]'),
 	('TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_CAPTURED', '이 도시는 이전에 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 소유였습니다. [COLOR_NEGATIVE_TEXT]당신이 그들을 해방시키지 않기로 선택했기 때문에 이 도시를 그들에게 돌려줄 기회는 없습니다.[ENDCOLOR]');
+	
+UPDATE Language_ko_KR 
+SET Text = '도시가 적의 유닛에게 [ICON_BLOCKADED]봉쇄당했습니다![NEWLINE][ICON_BULLET]도시의 체력이 회복되지 않습니다.[NEWLINE][ICON_BULLET]적 유닛이 도시 상대로 [COLOR_POSITIVE_TEXT]+' || (SELECT Value FROM Defines WHERE Name = 'BLOCKADED_CITY_ATTACK_MODIFIER') || '%[ENDCOLOR]의 전투력 보너스를 얻습니다.' 
+WHERE Tag = 'TXT_KEY_CITY_BLOCKADED';
+
+UPDATE Language_ko_KR 
+SET Text = '교역로 기본 {1_Num} [ICON_GOLD] 골드[NEWLINE]각 [ICON_CAPITAL] 수도 시민 당 {2_Num} [ICON_GOLD]골드 ({3_Num})[NEWLINE]각 [ICON_CITIZEN]시민 당 {4_Num} [ICON_GOLD]골드' 
+WHERE Tag = 'TXT_KEY_TRADE_ROUTE_INCOME_INFO';
+
+UPDATE Language_ko_KR 
+SET Text = '[ICON_CONNECTED] 도시 연결 [ICON_GOLD] 골드 보정치 {1_Num}%' 
+WHERE Tag = 'TXT_KEY_EGI_TRADE_ROUTE_MOD_INFO';
 
 
 --내가추가
