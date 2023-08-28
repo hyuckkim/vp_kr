@@ -31,6 +31,12 @@
 				<Text>[SPACE] {1_Num} [ICON_GOLD]골드를 획득했습니다!</Text>
 			</Set>
 		</Update>
+		<Row Tag="TXT_KEY_GOODY_SCIENCE">
+			<Text>당신 문명을 진보시킬 기술을 담고 있는 유물을 발견했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_SCIENCE">
+			<Text>[SPACE] {1_Num} [ICON_RESEARCH]과학을 획득했습니다!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MISC_RECEIVED_CULTURE">
 			<Text>[SPACE] {1_Num} [ICON_CULTURE]문화를 획득했습니다!</Text>
 		</Row>
