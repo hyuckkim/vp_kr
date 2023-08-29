@@ -2,7 +2,7 @@
 <Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="119">
   <Properties>
     <Name>(1L) Community Patch Localized</Name>
-    <Teaser>(3.8.3) Translation of the Community Patch</Teaser>
+    <Teaser>(3.8.4) Translation of the Community Patch</Teaser>
     <Description>Translation of the Community Patch to different languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -27,12 +27,12 @@
     <File md5="45406FD10C4B902CCA2E29EE995088FA" import="0">Core Files/Core Values/ko_KR/CargoShipMod.sql</File>
     <File md5="822C1914186AB8578D20C6C55587EC1E" import="0">Core Files/PNM Mods DB/API/ko_KR/Espionage.xml</File>
     <File md5="6BB6649466F5B7CBED4B3C69268901AE" import="0">Core Files/PNM Mods DB/API/ko_KR/Religion.xml</File>
-    <File md5="EC7BF069A06DD1942CCADE1CD4DC4635" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/GoodyHutMessages.xml</File>
+    <File md5="4859D8344FD8D36D8044C8BB6207D133" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/GoodyHutMessages.xml</File>
     <File md5="E4223E451FAA28A4D0C874F307669FBF" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/SpyNames.xml</File>
     <File md5="BE241C0AC7A744F9644C8A7D1E2468BC" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/UnitclassNotUnit.xml</File>
     <File md5="6D7FBF03168942B330DF290F20EC983F" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/UnitNaming.xml</File>
     <File md5="69BD792128FC2B9037C2339F5F6CF1F3" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/VariableRecon.xml</File>
-    <File md5="190CA7572F386936F600D632A9EB7368" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
+    <File md5="11C5D616F3EAF54B820D0940FB4C127F" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
     <File md5="89C32E7434EF7A2CDDF528C2A221311F" import="0">Core Files/Text/CoreText_ko_KR.sql</File>
     <File md5="F8A6E046E72FB4847F9F000245ED2C70" import="0">Modules/Events/Text/ko_KR/City_ko_KR.xml</File>
     <File md5="43E288C5741FB1212BC770755FB8AB09" import="0">Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</File>

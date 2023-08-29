@@ -394,6 +394,14 @@
 			<Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서 획득</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_GREAT_PEOPLE_SUPPLY_TT">
+			<Text>위인에 따른 보급량</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GREAT_PEOPLE_SUPPLY">
+			<Text>위인</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_WAR_WEARINESS_SUPPLY_TT">
 			<Text>현재의 전쟁 때문에 감소됨</Text>
 		</Row>
