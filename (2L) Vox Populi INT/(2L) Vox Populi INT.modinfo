@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="16">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(3.8.4) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(3.9) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -35,7 +35,7 @@
     <File md5="0054A7AA1BE3387BB59E5A94431E95FB" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
     <File md5="B0FEA69C621696C5B502CB4080BD0294" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="24781055F8DE826D0E2E45209FF70C51" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
-    <File md5="22B0358ECFB917C0A09A3526D57CF363" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
+    <File md5="F9CFA5F582F0EB3244D6585BA216BD62" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
     <File md5="A6C45DA8A2DEB8CD93D90A209F75A98B" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
     <File md5="2830FB5EE0CE3A064295297D14814FE3" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
     <File md5="595209BCBB6AE18711F6657F57117EF3" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
