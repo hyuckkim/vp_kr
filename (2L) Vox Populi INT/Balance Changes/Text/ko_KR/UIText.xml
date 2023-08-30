@@ -1657,12 +1657,8 @@
 			<Text>원거리 공격</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_EMPIRE_PROXIMITY">
-			<Text>거리</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_FRIENDS">
-			<Text>친선 관계</Text>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NO_CAPITAL">
+			<Text>수도가 아님</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">

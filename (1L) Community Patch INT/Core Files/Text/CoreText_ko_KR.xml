@@ -51,6 +51,14 @@
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
 
+		<!-- No Peace With City-State -->
+		<Row Tag="TXT_KEY_PEACE_BLOCKED_TURNS">
+			<Text>{1_Num}턴 동안 평화 협정 불가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEACE_BLOCKED_CSTATE_TURNS_TT">
+			<Text>당신이 이 도시 국가를 공격해 {1_Num}턴 동안 평화 협정을 맺을 수 없습니다!</Text>
+		</Row>
+
 		<!-- Text for Preview Combat Miscellaneous Bonuses -->
 		<Row Tag="TXT_KEY_MISC_BONUS">
 			<Text>기타</Text>
