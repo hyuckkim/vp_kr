@@ -69,7 +69,7 @@
 			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 모든 도시의 위인 시설과 마을의 가치를 증가시키고, 예술품/유물 슬롯을 둘 제공합니다. 문화 승리를 노릴 때 이 건물을 건설하십시오. 아스넬 디 베네치아나 리알토 지구와 함께 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 모든 [ICON_GREAT_PEOPLE]위인 시설 및 마을의 [ICON_FOOD]식량 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CARAVAN]/[ICON_CARGO_SHIP] 교역로 완료 시 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]을 발동시켜, 대상 문명에 [ICON_TOURISM] 관광을 생산하고 다른 알려진 문명에도 3분의 1만큼 생산합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_RESEARCH]과학 +5[NEWLINE][NEWLINE] 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 모든 [ICON_GREAT_PEOPLE]위인 시설 및 마을의 [ICON_FOOD]식량 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CARAVAN]/[ICON_CARGO_SHIP] 교역로 완료 시 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]을 발동시킵니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_RESEARCH]과학 +5[NEWLINE][NEWLINE] 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_THEMING_BONUS_HELP">
 			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]건물 소유자[ENDCOLOR]가 만든 [COLOR_YELLOW]예술품[ENDCOLOR]으로 채우십시오.</Text>
@@ -591,7 +591,7 @@
 			<Text>알현실</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_HELP">
-			<Text>[ICON_CAPITAL]수도에 음악가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 도시의 작업 범위가 +1 증가하고 도시의 모든 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.  [COLOR_MAGENTA]전통[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_VP_GREATMUSIC]걸작 음악 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. 도시의 작업 범위가 +1 증가하고 도시의 모든 산출량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_CIV5_POLICY_TRADITION_HEADING}[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_PEDIA">
 			<Text>알현실은 왕관의 공식 관저에 있는 방, 종종 홀보다는 궁전이나 요새화된 성으로, 고위 인물의 왕좌가 정교한 장엄함으로 세워지는 곳입니다. - 보통 계단식으로, 그리고 캐노피 아래, 둘 다 그리스 단어 thronos의 원래 개념의 일부입니다.</Text>
@@ -600,7 +600,7 @@
 			<Text>국고</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_HELP">
-			<Text>[ICON_CAPITAL]수도에 상인 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 모든 도시의 정원과 기념비의 [ICON_CULTURE] 문화가 +2 증가합니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]존엄[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>모든 {TXT_KEY_BUILDING_MONUMENT_DESC}, {TXT_KEY_BUILDING_BATH}, {TXT_KEY_BUILDING_GARDEN}의 [ICON_CULTURE] 문화가 +2 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_MONARCHY}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_PEDIA">
 			<Text>금고라는 용어는 고대 올림픽 기간 동안 다른 사람들에게 깊은 인상을 주기 위해 그리스 올림피아에 세워진 시프니안 금고나 그리스 올림피아에 세워진 많은 유사한 건물과 같이 신들에게 선물을 보관하기 위해 세워진 봉헌적인 건물을 설명하기 위해 처음 사용되었습니다. 고대 그리스에서 국고는 거의 항상 신전과 같은 종교적인 건물 안에 물리적으로 통합되었습니다. 따라서 국가 기금을 신성시하고 이러한 기금에 접근하는 사람들에게 형벌에 도덕적 제약을 더했습니다.</Text>
@@ -609,7 +609,7 @@
 			<Text>근위병 초소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_ENGINEER_HELP">
-			<Text>[ICON_CAPITAL]수도에 기술자 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]만큼 증가합니다. [COLOR_MAGENTA]정의[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]만큼 증가합니다. [COLOR_MAGENTA]{TXT_KEY_POLICY_ARISTOCRACY}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CAPITAL_ENGINEER_PEDIA">
 			<Text>왕실 근위대는 황제/황후, 왕/여왕 또는 왕자/공주와 같이 왕자의 보호를 책임지는 모든 군 경호원, 군인 또는 무장 가신들을 말합니다. 그들은 종종 정규군의 정예 부대이거나, 그렇게 지정되며, 특별한 권리나 특권을 유지할 수 있습니다.</Text>
@@ -618,7 +618,7 @@
 			<Text>궁전 정원</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_HELP">
-			<Text>[ICON_CAPITAL]수도에 작가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [COLOR_MAGENTA]탁월[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_LANDED_ELITE}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_PEDIA">
 			<Text>정원은 식물과 다른 형태의 자연을 전시, 재배, 즐기기 위해 마련된 계획된 공간입니다. 그 정원은 천연 재료와 인공 재료를 모두 포함할 수 있습니다. 오늘날 가장 일반적인 형태는 주거용 정원으로 알려져 있지만, 전통적으로 정원이라는 용어는 더 일반적인 것이었습니다. 야생 동물들을 모의 자연 서식지에 전시하는 동물원은 이전에는 동물학적인 정원이라고 불렸습니다. 서양의 정원은 거의 보편적으로 식물에 기반을 두고 있으며, 정원은 종종 식물원의 단축된 형태를 나타냅니다.</Text>
@@ -627,7 +627,7 @@
 			<Text>궁정 예배당</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_HELP">
-			<Text>[ICON_CAPITAL]수도에 예술가 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [COLOR_MAGENTA]주권[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>[ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_OLIGARCHY}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_PEDIA">
 			<Text>예배당은 더 크고 종종 비종교적인 기관에 붙어 있거나 주요 종교 기관의 연장선으로 여겨지는 교제, 기도, 예배의 종교적인 장소입니다. 그것은 대학, 병원, 궁전, 감옥, 장례식장, 교회, 유대교 회당 또는 모스크와 같은 더 큰 구조물이나 복합체의 일부일 수도 있고, 군함이나 상업 선박에 위치해 있을 수도 있고, 때로는 그 기반이 있는 완전히 독립된 건물일 수도 있습니다. 많은 군사 시설에는 보통 군 목사의 지도 아래 군인들을 사용하기 위한 예배당이 있습니다.</Text>
@@ -636,7 +636,7 @@
 			<Text>궁정 점술가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_ASTROLOGER_HELP">
-			<Text>[ICON_CAPITAL]수도에 과학자 전문가 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. [COLOR_MAGENTA]의식[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>모든 {TXT_KEY_BUILDING_GROVE}, {TXT_KEY_BUILDING_LODGE}, {TXT_KEY_BUILDING_HERBALIST}이 [ICON_RESEARCH] 과학을 +1 얻습니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_LEGALISM}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_ASTROLOGER_PEDIA">
 			<Text>점성술은, 가장 넓은 의미에서, 하늘에서 의미를 찾는 것입니다. 인류가 천문 주기를 참조하여 계절 변화를 측정하고, 기록하고, 예측하려고 의식적으로 시도했다는 초기 증거는 뼈와 동굴 벽에 있는 표시로 나타나는데, 이것은 달의 주기가 이미 25,000년 전에 기록되었다는 것을 보여줍니다. 이것은 조수와 강에 대한 달의 영향을 기록하고, 공동 달력을 조직하기 위한 첫 번째 단계였습니다. 농부들은 다양한 계절에 나타나는 별자리에 대한 증가하는 지식으로 농업의 필요를 해결했고, 매년 홍수나 계절적 활동을 예고하기 위해 특정 별들의 증가를 사용했습니다. 기원전 3천년 무렵, 문명은 천체의 주기에 대한 정교한 인식을 가지고 있었고, 별들의 태양 상승과 맞춰 신전을 필요로 했을지도 모릅니다.</Text>
