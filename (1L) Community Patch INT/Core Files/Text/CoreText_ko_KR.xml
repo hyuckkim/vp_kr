@@ -204,7 +204,10 @@
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
 
-		<!-- No Peace With City-State -->
+		<!-- City-State UI -->
+		<Row Tag="TXT_KEY_NEUTRAL_CSTATE">
+			<Text>중립적</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PEACE_BLOCKED_TURNS">
 			<Text>{1_Num}턴 동안 평화 협정 불가</Text>
 		</Row>

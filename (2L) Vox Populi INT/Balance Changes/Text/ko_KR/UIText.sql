@@ -927,19 +927,35 @@ WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE';
 
 -- City-State
 UPDATE Language_ko_KR
-SET Text = Text 
+SET Text = '호의적'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]호의적[ENDCOLOR]인 도시 국가는 주로 그들과 도로를 연결하거나, 교역로를 개설하거나, 자원을 확보하기를 원합니다. 외교 임무의 효율성을 증가시키는 정상회담을 더 자주 개최합니다.' 
 	|| '[NEWLINE][NEWLINE]퀘스트 보상 변동:'
 	|| '[NEWLINE][ICON_BULLET] 모든 [ICON_CITY_STATE] 도시 국가 퀘스트 보상 [COLOR_POSITIVE_TEXT]+' || (SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_FRIENDLY') || '%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY_TT';
 
 UPDATE Language_ko_KR
-SET Text = Text 
+SET Text = '배타적'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE';
+
+UPDATE Language_ko_KR
+SET Text = '배타적 성격'
+WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_HOSTILE';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]배타적[ENDCOLOR]인 성격의 도시 국가는 일반적인 도시 국가보다 [ICON_INFLUENCE]영향력이 더 빨리 감소하며, 공물 요구에 대한 저항이 강합니다. 그들은 주로 당신이 도시를 정복하거나, 야만인 주둔지를 파괴하거나, 유닛을 보내기를 원합니다. 이웃 도시 국가 상대로 전쟁을 더 자주 일으킵니다.'
 	|| '[NEWLINE][NEWLINE]퀘스트 보상 변동:'
 	|| '[NEWLINE][ICON_BULLET] 모든 [ICON_CITY_STATE] 도시 국가 퀘스트 보상 [COLOR_NEGATIVE_TEXT]' || (SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_HOSTILE') || '%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE_TT';
 
 UPDATE Language_ko_KR
-SET Text = Text 
+SET Text = '비이성적'
+WHERE Tag = 'TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]비이성적[ENDCOLOR]인 성격의 도시 국가는 다른 도시 국가와 달리, 무슨 요청을 할지 알 수 없습니다.' 
 	|| '[NEWLINE][NEWLINE]퀘스트 보상 변동:'
 	|| '[NEWLINE][ICON_BULLET] [ICON_CULTURE] 문화 [COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_CULTURE_IRRATIONAL')/100.0 AS NUMERIC) || '배[ENDCOLOR]'
 	|| '[NEWLINE][ICON_BULLET] [ICON_TOURISM] 관광 [COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_TOURISM_IRRATIONAL')/100.0 AS NUMERIC) || '배[ENDCOLOR]'
