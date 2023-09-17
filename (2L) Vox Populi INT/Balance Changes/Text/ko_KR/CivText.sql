@@ -7,11 +7,11 @@ SET Text = '지상 군사 유닛이 [COLOR_POSITIVE_TEXT]감시[ENDCOLOR] 승급
 WHERE Tag = 'TXT_KEY_TRAIT_RIVER_EXPANSION';
 
 UPDATE Language_ko_KR
-SET Text = '민병대는 미국의 고유 유닛으로 민병대를 대체합니다. 민병대는 험지를 패널티 없이 이동할 수 없고, 적을 처치하면 황금기 접수를 얻습니다. 2칸 너머를 공격할 수 있습니다.'
+SET Text = '민병대는 미국의 고유 유닛으로 민병대를 대체합니다. 민병대는 험지를 패널티 없이 이동할 수 없고, [ICON_GOLDEN_AGE] 적을 처치하면 황금기 접수를 얻습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '머스킷총병을 대체하는 미국의 고유 유닛입니다. 최초의 원거리 화약 유닛 중 하나로 지형 [ICON_MOVES]이동 비용을 무시하고 적 유닛을 처치할 때 [ICON_GOLDEN_AGE]황금기 점수를 제공합니다.'
+SET Text = '{TXT_KEY_UNIT_MUSKETMAN}을 대체하는 미국의 고유 유닛입니다. 최초의 원거리 화약 유닛 중 하나로 지형 [ICON_MOVES]이동 비용을 무시하고 적 유닛을 처치할 때 [ICON_GOLDEN_AGE] 황금기 점수를 제공합니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BARRAGE_1}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MINUTEMAN';
 
 UPDATE Language_ko_KR
@@ -41,7 +41,7 @@ SET Text = '천일야화'
 WHERE Tag = 'TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '중산병을 대체하는 아라비아의 고유 유닛입니다. 중세 시대의 빠른 원거리 유닛으로 장창병에 약합니다. 일반 중산병보다 더 강력하며 근접 유닛 대항 시 후퇴 할 수 있습니다. [ICON_RES_HORSE]말을 요구하지 않습니다. [COLOR_PLAYER_PURPLE]광역 피해 I[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_DESC_MOUNTED_BOWMAN}을 대체하는 아라비아의 고유 유닛입니다. 특유의 광역 피해로 적진을 혼란시키는 데 유용합니다. [ICON_RES_HORSE]{TXT_KEY_RESOURCE_HORSES}을 요구하지 않습니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_SPLASH}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CAMEL_ARCHER';
 
 UPDATE Language_ko_KR
@@ -95,7 +95,7 @@ SET Text = '카페는 오스트리아의 고유 건물로 식료품 상점을 �
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '흉갑기병을 대체하는 오스트리아의 고유 유닛입니다. 정찰 및 측면 공격, 치고 빠지기 작전에 적합하며 ZOC를 무시합니다.'
+SET Text = '{TXT_KEY_DESC_CUIRASSIER}을 대체하는 오스트리아의 고유 유닛입니다. 측면 공격을 담당하는 강력한 유닛입니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LIGHTNING_WARFARE}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_AUSTRIAN_HUSSAR';
 
 UPDATE Language_ko_KR
@@ -119,7 +119,7 @@ SET Text = '적 유닛을 처치할 때 [ICON_STRENGTH] 전투력의 150%만큼 
 WHERE Tag = 'TXT_KEY_TRAIT_CULTURE_FROM_KILLS';
 
 UPDATE Language_ko_KR
-SET Text = '전사를 대체하는 아즈텍의 고유 유닛입니다. 게임 초반에 등장하는 상당히 약한 군사 유닛이지만 대체하는 전사보다 전투력이 더 높으며 숲 및 정글 타일에서 [ICON_STRENGTH]전투력 보너스가 증가합니다. 적 유닛을 처치할 때 체력을 회복합니다.'
+SET Text = '{TXT_KEY_UNIT_WARRIOR}를 대체하는 아즈텍의 고유 유닛입니다. 숲 및 정글 타일에서 더 강하며 적 유닛을 처치할 때 체력을 회복합니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WOODSMAN}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_JAGUAR';
 
 UPDATE Language_ko_KR
@@ -134,7 +134,7 @@ SET Text = '[COLOR_RESEARCH_STORED]문자[ENDCOLOR]를 연구하면 [ICON_GREAT_
 WHERE Tag = 'TXT_KEY_TRAIT_INGENIOUS';
 
 UPDATE Language_ko_KR
-SET Text = '궁병을 대체하는 바빌론의 고유 유닛입니다. 일반 궁병보다 더 강력하고 근접 공격을 더 잘 견뎌냅니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_ATLATL_ATTACK}[ENDCOLOR] 승급으로 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
+SET Text = '{TXT_KEY_UNIT_ARCHER}을 대체하는 바빌론의 고유 유닛입니다. 일반 궁병보다 더 강력하고 근접 공격을 더 잘 견뎌냅니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_ATLATL_ATTACK}[ENDCOLOR] 승급으로 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_HELP';
 
 UPDATE Language_ko_KR
@@ -196,7 +196,7 @@ SET Text = '무조건 [ICON_RELIGION]종교를 창시할 수 있습니다. 종�
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_BELIEF';
 
 UPDATE Language_ko_KR
-SET Text = '기사를 대체하는 비잔티움의 고유 유닛입니다. 빠르고 강한 게임 중반의 기마 유닛으로 장창병에 약합니다. 일반 기사보다 [ICON_STRENGTH]전투력과 방어력이 높고 도시를 공격할 때 효율적입니다.'
+SET Text = '{TXT_KEY_UNIT_KNIGHT}를 대체하는 비잔티움의 고유 유닛입니다. 느리지만 더 강력하고, 방어력 보너스를 얻으며 도시를 공격할 때 효율적입니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COVER_1}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BYZANTINE_CATAPHRACT';
 
 UPDATE Language_ko_KR
@@ -220,7 +220,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE';
 
 
 UPDATE Language_ko_KR
-SET Text = '삼단노선을 대체하는 고전 시대 카르타고의 고유 유닛입니다. 다른 해양 유닛들보다 더 강하고, 도시 상대로 특히 강합니다. [COLOR_PLAYER_PURPLE]펜치[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]육중한 공격[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_TRIREME}을 대체하는 고전 시대 카르타고의 고유 유닛입니다. 도시를 점령하는 데 특화되어 있습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BOARDING_PARTY_4}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_HEAVY_SHIP}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CARTHAGINIAN_QUINQUEREME';
 
 --------------------
@@ -238,7 +238,7 @@ SET Text = '다른 누구도 혜택을 받을 수 없는 고유의 [COLOR_POSITI
 WHERE Tag = 'TXT_KEY_TRAIT_FAITH_FROM_NATURE';
 
 UPDATE Language_ko_KR
-SET Text = '창병을 대체하는 켈트의 고유 유닛입니다. 숲이나 정글이 없는 언덕, 설원, 툰드라 타일에서 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 추가 [ICON_MOVES]이동력을 소모하지 않고 적 시설을 약탈할 수 있고 처치한 적 유닛 [ICON_STRENGTH]전투력의 [COLOR_POSITIVE_TEXT]200%[ENDCOLOR]만큼 신앙을 제공합니다.'
+SET Text = '{TXT_KEY_UNIT_SPEARMAN}을 대체하는 켈트의 고유 유닛입니다. 숲이나 정글이 없는 언덕, 설원, 툰드라 타일에서 유용합니다. 약탈이 이동력을 소모하지 않으며 처치한 적 유닛 [ICON_STRENGTH]전투력의 [COLOR_POSITIVE_TEXT]200%[ENDCOLOR]만큼 신앙을 제공합니다. {TXT_KEY_UNIT_SPEARMAN}보다 더 일찍 등장합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR';
 
 --------------------
@@ -265,7 +265,7 @@ SET Text = '연노병은 중국의 고유 유닛으로 석궁병을 대체합니
 WHERE Tag = 'TXT_KEY_UNIT_CHINESE_CHUKONU_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '석궁병을 대체하는 중국의 고유 유닛입니다. 중세 시대의 원거리 보병 유닛으로 일반 석궁병과는 달리 적 유닛 주변에 광역 피해를 입힙니다.'
+SET Text = '{TXT_KEY_UNIT_CROSSBOWMAN}을 대체하는 중국의 고유 유닛입니다. 도시를 방어하는 데 특화되어 적 유닛 주변에 광역 피해를 입힙니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CHUKONU';
 
 --------------------
@@ -280,7 +280,7 @@ SET Text = '승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[END
 WHERE Tag = 'TXT_KEY_TRAIT_VIKING_FURY';
 
 UPDATE Language_ko_KR
-SET Text = '장창병을 대체하는 덴마크의 고유 유닛입니다. 강력한 중세 시대의 최전선 지상 유닛으로 해상 공격에 특화된 유닛입니다. 더 이른 시기에 사용할 수 있습니다.'
+SET Text = '{TXT_KEY_UNIT_PIKEMAN}을 대체하는 덴마크의 고유 유닛입니다. 해상 공격에 특화되어 있으며 {TXT_KEY_UNIT_PIKEMAN}보다 더 이른 시기에 사용할 수 있습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_AMPHIBIOUS}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_CHARGE}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_DENMARK_BERSERKER_HELP';
 
 UPDATE Language_ko_KR
@@ -307,7 +307,7 @@ SET Text = '왕가의 무덤은 고전 시대 건물로 당신의 [ICON_PEACE] �
 WHERE Tag = 'TXT_KEY_BUILDING_BURIAL_TOMB_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '궁전차를 대체하는 이집트의 고유 유닛입니다. 빠른 원거리 유닛으로 일반 궁전차와 달리 [ICON_RES_HORSE]말을 요구하지 않고 보다 강력하며 [COLOR_PLAYER_PURPLE]파라오의 선물[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_CHARIOT_ARCHER}를 대체하는 이집트의 고유 유닛입니다. [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}을 요구하지 않고 적 처치 시 [ICON_PRODUCTION] 생산을 제공합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT';
 
 UPDATE Language_ko_KR
@@ -335,7 +335,7 @@ SET Text = '장궁병은 석궁병보다 더 긴 사거리를 가져, 세 타일
 WHERE Tag = 'TXT_KEY_UNIT_ENGLISH_LONGBOWMAN_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '프리깃을 대체하는 영국의 고유 유닛입니다. 해상을 장악하는 데 사용됐던 르네상스 시대의 강력한 해상 유닛으로 프리깃보다 [ICON_RANGE_STRENGTH]원거리 전투력이 높고, 더 멀리 볼 수 있으며 공격 시 근처 유닛에게도 피해를 줍니다.[NEWLINE][NEWLINE]지상 공격은 [COLOR_YELLOW]연안 타일[ENDCOLOR]에서만 감행할 수 있습니다.'
+SET Text = '{TXT_KEY_UNIT_FRIGATE}을 대체하는 영국의 고유 유닛입니다. [ICON_RANGE_STRENGTH]원거리 전투력이 높고, 더 멀리 볼 수 있으며 공격 시 근처 유닛에게도 피해를 줍니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SPLASH}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SPLASH_II}[ENDCOLOR] 승급을 보유합니다.[NEWLINE][NEWLINE]지상 공격은 [COLOR_YELLOW]연안 타일[ENDCOLOR]에서만 감행할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHIPOFTHELINE';
 
 UPDATE Language_ko_KR
@@ -354,7 +354,7 @@ SET Text = '솔로몬의 지혜'
 WHERE Tag = 'TXT_KEY_TRAIT_BONUS_AGAINST_TECH_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '수발총병을 대체하는 에티오피아의 고유 유닛입니다. 우호 영토 내 전투 및 에티오피아의 [ICON_CAPITAL]수도 방어에 특화된 최전방 지상 유닛입니다.'
+SET Text = '{TXT_KEY_UNIT_RIFLEMAN}을 대체하는 에티오피아의 고유 유닛입니다. 우호 영토 내 전투 및 에티오피아의 [ICON_CAPITAL]수도 방어에 특화된 최전방 지상 유닛입니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COVER_1}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MEHAL_SEFARI';
 
 UPDATE Language_ko_KR
@@ -380,7 +380,7 @@ SET Text = '총사대는 프랑스의 고유 유닛으로 테르시오를 대체
 WHERE Tag = 'TXT_KEY_UNIT_FRENCH_MUSKETEER_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '테르시오를 대체하는 프랑스의 고유 유닛입니다. 게임에 등장하는 첫번째 화약 유닛 중 하나로 일반 테르시오보다 전투력이 더 높고 [COLOR_PLAYER_PURPLE]전격전[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_SPANISH_TERCIO}를 대체하는 프랑스의 고유 유닛입니다. 적에게 공격하기 위해 빠르게 이동할 수 있습니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_LIGHTNING_WARFARE}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSKETEER';
 
 INSERT INTO Language_ko_KR (Text, Tag)
@@ -462,7 +462,7 @@ SET Text = 'T-34는 질서 이념의 고유 유닛입니다. 대조국 전쟁 �
 WHERE Tag = 'TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '테르시오를 대체하는 독일의 고유 유닛입니다.[NEWLINE][NEWLINE]구매 시 경험치 패널티와 구매 쿨타임이 없으며 즉시 이동할 수 있지만 유닛의 [ICON_GOLD] 비용이 증가합니다.[NEWLINE][NEWLINE]최대 체력인 적에게 주는 피해가 증가합니다. [COLOR_POSITIVE_TEXT]진형 I[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]진형 II[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_SPANISH_TERCIO}를 대체하는 독일의 고유 유닛입니다. 용병처럼 구매 시 경험치 패널티와 구매 쿨타임이 없으며 즉시 이동할 수 있습니다. 최대 체력인 적에게 주는 피해가 증가합니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_FORMATION_2}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_LANDSKNECHT';
 
 UPDATE Language_ko_KR
@@ -545,7 +545,7 @@ SET Text = '도시 국가에 대한 [ICON_INFLUENCE]영향력이 줄어드는 �
 WHERE Tag = 'TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP';
 
 UPDATE Language_ko_KR
-SET Text = '창병을 대체하는 그리스의 고유 유닛입니다. 기마 유닛을 물리치는 데 효과적인 고대 시대 유닛으로 일반 창병에 비해 [ICON_STRENGTH]전투력이 높습니다. 전투 시 [ICON_GREAT_GENERAL]위대한 장군의 출현을 앞당길 수 있으며 [COLOR_PLAYER_PURPLE]통일[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_SPEARMAN}을 대체하는 그리스의 고유 유닛입니다. 더 강하고 [ICON_GREAT_GENERAL] 위대한 장군의 출현을 앞당길 수 있습니다. 인접한 아군 유닛마다 [ICON_STRENGTH] 전투력을 얻습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_HOPLITE';
 
 UPDATE Language_ko_KR
@@ -582,7 +582,7 @@ SET Text = '궁기병은 재빠른 원거리 유닛이며 말이 필요하지 �
 WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '치고 빠지기에 특화된 훈족의 고유 유닛입니다. 화력 집중 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_MONGOL_KESHIK}을 대체하는 훈족의 고유 유닛입니다. 치고 빠지기에 특화되어 있으며 이 턴에 같은 대상을 공격한 횟수마다 전투력 보너스를 얻습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BARRAGE_1}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_HUN_HORSE_ARCHER';
 
 --------------------
@@ -597,7 +597,7 @@ SET Text = '와라칵'
 WHERE Tag = 'TXT_KEY_UNIT_INCAN_SLINGER';
 
 UPDATE Language_ko_KR
-SET Text = '투석병을 대체하는 잉카의 고유 유닛입니다. 적에게 멍함 효과를 부여하는 [COLOR_PLAYER_PURPLE]손상 타격[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_VP_SLINGER}을 대체하는 잉카의 고유 유닛입니다. [ICON_RANGE_STRENGTH] 사거리가 더 길고, 적의 [COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR]를 무시하며, 적에게 멍함 효과를 부여해 전투력을 약화시킬 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_INCA_SLINGER_HELP';
 
 UPDATE Language_ko_KR
@@ -635,7 +635,7 @@ SET Text = '전쟁터에서 종종 적에게 그랬던 것처럼 자기 편에�
 WHERE Tag = 'TXT_KEY_CIV5_ANTIQUITY_INDIANWARELEPHANT_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '흉갑기병을 대체하는 인도의 고유 유닛입니다. 육중한 원거리 기마 유닛으로 평지에서 훨씬 효과적입니다. [COLOR_PLAYER_PURPLE]코끼리 겁주기[ENDCOLOR] 승급과 [COLOR_PLAYER_PURPLE]정확성 1[ENDCOLOR] 을 보유합니다. 일반 흉갑기병보다 전투력이 더 높고 [ICON_RES_HORSE]말을 요구하지 않으며 더 이른 시기에 사용할 수 있습니다.'
+SET Text = '{TXT_KEY_DESC_CUIRASSIER}을 대체하는 인도의 고유 유닛입니다. [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}을 요구하지 않지만 [COLOR_NEGATIVE_TEXT]{TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE}[ENDCOLOR] 승급의 효과도 없습니다. {TXT_KEY_DESC_CUIRASSIER}보다 더 이른 시기에 사용할 수 있습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ACCURACY_1}[ENDCOLOR] 승급을 보유하고, [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_FEARED_ELEPHANT}[ENDCOLOR] 승급을 보유하여 적을 약화시킬 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT';
 
 UPDATE Language_ko_KR
@@ -654,12 +654,16 @@ SET Text = '정원의 기본 능력에 추가로, 찬디는 추가 [ICON_PEACE] 
 WHERE Tag = 'TXT_KEY_BUILDING_CANDI_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] 중 하나가 출현합니다. 글로벌 독점에서 오는 [ICON_GOLDEN_AGE]산출량이 비율 기반이면 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR], 아니면 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] 중 하나가 출현합니다. [ICON_VP_MONOPOLY] 글로벌 독점에서 오는 [ICON_GOLDEN_AGE]산출량이 비율 기반이면 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR], 아니면 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE';
 
 UPDATE Language_ko_KR
-SET Text = '검사를 대체하는 인도네시아의 고유 유닛입니다. 첫 전투를 해야 드러나는 능력을 지닌 신비로운 무기를 사용하는 고전 시대 근접 유닛입니다.'
+SET Text = '{TXT_KEY_UNIT_SWORDSMAN}를 대체하는 인도네시아의 고유 유닛입니다. 첫 전투를 해야 드러나는 능력을 지닌 [COLOR:30:200:255:255]{TXT_KEY_PROMOTION_MYSTIC_BLADE}[ENDCOLOR]를 사용합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDONESIAN_KRIS_SWORDSMAN';
+
+UPDATE Language_ko_KR
+SET Text = Text || '[NEWLINE][NEWLINE][ICON_BULLET][COLOR:30:200:255:255]{TXT_KEY_PROMOTION_INVULNERABIILITY}[ENDCOLOR]: 모든 피해 2 감소. 회복 시 체력 20 추가 회복[NEWLINE][ICON_BULLET][COLOR:30:200:255:255]{TXT_KEY_PROMOTION_SNEAK_ATTACK}[ENDCOLOR]: [COLOR_POSITIVE_TEXT]측면 공격[ENDCOLOR] +20%. [COLOR_POSITIVE_TEXT]지형 이동 비용[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시.[NEWLINE][ICON_BULLET][COLOR:30:200:255:255]{TXT_KEY_PROMOTION_AMBITION}[ENDCOLOR]: 공격 시 [ICON_STRENGTH] 전투력 보너스 +30%. 방어 시[ICON_STRENGTH] 전투력 보너스 +5%.[NEWLINE][ICON_BULLET][COLOR:30:200:255:255]{TXT_KEY_PROMOTION_RESTLESSNESS}[ENDCOLOR]: [COLOR_POSITIVE_TEXT]두 번[ENDCOLOR] 공격 가능. [ICON_MOVES] 이동력 +1.[NEWLINE][ICON_BULLET][COLOR:30:200:255:255]{TXT_KEY_PROMOTION_ENEMY_BLADE}[ENDCOLOR]: [COLOR_POSITIVE_TEXT]적 영토[ENDCOLOR]에서 턴 시작 시 체력 +10 회복. [COLOR_POSITIVE_TEXT]매 턴[ENDCOLOR] 인접한 적 유닛에게 피해 10[NEWLINE][ICON_BULLET][COLOR:30:200:255:255]{TXT_KEY_PROMOTION_EVIL_SPIRITS}[ENDCOLOR]: 공격 시 [ICON_STRENGTH] 전투력 보너스 +5%. 방어 시[ICON_STRENGTH] 전투력 보너스 +30%.'
+WHERE Tag = 'TXT_KEY_PROMOTION_MYSTIC_BLADE_HELP';
 
 UPDATE Language_ko_KR
 SET Text = '적 영토에서 턴을 시작할 경우 체력 회복 [COLOR_POSITIVE_TEXT]10[ENDCOLOR], 인접한 적에게 10 피해'
@@ -720,6 +724,10 @@ UPDATE Language_ko_KR
 SET Text = '롱하우스는 이로쿼이의 고유 건물로 약초상을 대체합니다. 도시 범위의 숲마다 식량과 생산을 증가시키고, 재배지를 강화합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_STRATEGY';
 
+UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_UNIT_SWORDSMAN}를 대체하는 이로쿼이의 고유 유닛입니다. 숲과 정글에서 강하며 [ICON_RES_IRON] {TXT_KEY_RESOURCE_IRON}을 소모하지 않습니다.' /*Starts with [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WOODSMAN}[ENDCOLOR]. Technically it should say that.. but the UA also grants it...*/
+WHERE Tag = 'TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR';
+
 --------------------
 -- Japan
 --------------------
@@ -736,7 +744,7 @@ SET Text = '사무라이는 일본의 고유 유닛으로 장검병을 대체합
 WHERE Tag = 'TXT_KEY_UNIT_JAPANESE_SAMURAI_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '장검병을 대체하는 일본의 고유 유닛입니다. 강력한 중세 시대의 보병 유닛으로 일반 장검병보다 더 효과적으로 싸우고 전투 시 더 많은 경험치를 획득하며 [ICON_GREAT_GENERAL]위대한 장군의 출현율을 앞당길 수 있습니다.'
+SET Text = '{TXT_KEY_UNIT_LONGSWORDSMAN}을 대체하는 일본의 고유 유닛입니다. 전투 시 더 많은 경험치를 획득하며 [ICON_GREAT_GENERAL]위대한 장군의 출현율을 앞당길 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SAMURAI';
 
 UPDATE Language_ko_KR
@@ -756,6 +764,10 @@ SET Text = '모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[
 WHERE Tag = 'TXT_KEY_TRAIT_SCHOLARS_JADE_HALL';
 
 UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_UNIT_TREBUCHET}을 대체하는 한국의 고유 유닛입니다. 지상 유닛 상대로 더 강하지만 도시 상대로는 약합니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LOGISTICS}[ENDCOLOR] 승급을 보유합니다.'
+WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_HELP';
+
+UPDATE Language_ko_KR
 SET Text = '거북선은 오직 [ICON_CITY_STATE]도시 국가에서만 선물로 받을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_TURTLESHIP_HELP';
 
@@ -772,7 +784,7 @@ SET Text = '[COLOR_RESEARCH_STORED]수학[ENDCOLOR]을 연구하면 마야 장�
 WHERE Tag = 'TXT_KEY_TRAIT_LONG_COUNT';
 
 UPDATE Language_ko_KR
-SET Text = '합성궁병을 대체하는 마야의 고유 유닛입니다. 합성궁병보다 더 이른 시기에 생산할 수 있으며 [COLOR_PLAYER_PURPLE]간접 사격[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_COMPOSITE_BOWMAN}을 대체하는 마야의 고유 유닛입니다. {TXT_KEY_UNIT_COMPOSITE_BOWMAN}보다 더 이른 시기에 생산할 수 있으며 [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_INDIRECT_FIRE}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST';
 
 UPDATE Language_ko_KR
@@ -806,7 +818,7 @@ SET Text = '위대한 장군을 대체하는 몽골의 고유 위인입니다. �
 WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '칸은 [ICON_GREAT_GENERAL]위대한 장군을 대체하는 몽골의 고유 위인입니다. 위대한 장군과 같은 [ICON_STRENGTH][COLOR_POSITIVE_TEXT]전투력 보너스[ENDCOLOR]를 제공할 뿐만 아니라 [ICON_MOVES]이동력을 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 가지고 있으며 같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 [COLOR_POSITIVE_TEXT]추가 회복[ENDCOLOR]을 할 수 있게 해줍니다. 이렇게 강화된 장군의 능력은 기마 부대가 항상 전투 태세를 갖추도록 합니다.'
+SET Text = '{TXT_KEY_UNIT_GREAT_GENERAL}을 대체하는 몽골의 고유 위인입니다. 위대한 장군과 같은 [ICON_STRENGTH][COLOR_POSITIVE_TEXT]전투력 보너스[ENDCOLOR]를 제공할 뿐만 아니라 [ICON_MOVES]이동력을 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 가지고 있으며 같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 [COLOR_POSITIVE_TEXT]추가 회복[ENDCOLOR]을 할 수 있게 해줍니다. [NEWLINE][NEWLINE]몽골의 고유 [COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_CITADEL}[ENDCOLOR]인 {TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO}를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_HELP';
 
 INSERT INTO Language_ko_KR (Tag, Text)
@@ -855,7 +867,7 @@ SET Text = '모로코와 [ICON_INTERNATIONAL_TRADE]교역로를 연결한 문명
 WHERE Tag = 'TXT_KEY_TRAIT_GATEWAY_AFRICA';
 
 UPDATE Language_ko_KR
-SET Text = '기병대를 대체하는 모로코의 고유 유닛입니다. 모로코 영토를 보호하는 데 특화된 기마 유닛으로 모로코 영토 내 [ICON_STRENGTH]전투 시 전투력 보너스가 증가합니다. 지형 페널티를 무시합니다.'
+SET Text = '{TXT_KEY_UNIT_CAVALRY}를 대체하는 모로코의 고유 유닛입니다. 모로코 영토를 보호하는 데 특화된 기마 유닛으로 모로코 영토 내 [ICON_STRENGTH]전투 시 전투력 보너스가 증가합니다. 지형 페널티를 무시합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BERBER_CAVALRY';
 
 UPDATE Language_ko_KR
@@ -870,12 +882,16 @@ WHERE Tag = 'TXT_KEY_BUILD_KASBAH_HELP';
 -- Netherlands
 --------------------
 UPDATE Language_ko_KR
-SET Text = '다른 문명이나 도시 국가로부터 수입 또는 수출하는 사치 자원 1종류마다 [ICON_CULTURE]문화 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]중복[ENDCOLOR] 사치 자원을 수입할 수 있으며 수입한 사치 자원도 [COLOR_POSITIVE_TEXT]독점[ENDCOLOR]에 포함할 수 있습니다.'
+SET Text = '다른 문명이나 도시 국가로부터 수입 또는 수출하는 사치 자원 1종류마다 [ICON_CULTURE]문화 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]중복[ENDCOLOR] 사치 자원을 수입할 수 있으며 수입한 사치 자원도 [ICON_VP_MONOPOLY] [COLOR_POSITIVE_TEXT]독점[ENDCOLOR]에 포함할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_LUXURY_RETENTION';
 
 UPDATE Language_ko_KR
 SET Text = '적 유닛을 나포하거나 해안 도시를 공격하는 데 특화된 해양 유닛입니다. 네덜란드만 생산할 수 있습니다. 아군 영토 밖에서도 회복할 수 있습니다. 선봉 승급으로 해안 도시를 공격할 때 더욱 효과적입니다. 전리품 선박 승급으로 적 유닛을 나포할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY';
+
+UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_UNIT_PRIVATEER}을 대체하는 네덜란드의 고유 유닛입니다. 해안 도시를 점령하거나 적 선박을 나포하는 데 특화되어 있습니다. {TXT_KEY_UNIT_PRIVATEER}보다 더 이른 시기에 생산할 수 있습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COASTAL_TERROR}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SUPPLY}[ENDCOLOR] 승급을 보유합니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_SEA_BEGGAR';
 
 
 UPDATE Language_ko_KR
@@ -894,11 +910,11 @@ SET Text = '카누니'
 WHERE Tag = 'TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '예니체리는 오스만의 고유 유닛으로 머스킷총병을 대체합니다. 예니체리는 머스킷병보다 더 강하고 이른 시기에 생산할 수 있으며, 매 턴 회복합니다. 예니체리 군대로 적 군대의 이점을 분쇄하십시오.'
+SET Text = '예니체리는 오스만의 고유 유닛으로 머스킷총병을 대체합니다. 예니체리는 머스킷병보다 더 강하고 이른 시기에 생산할 수 있으며, 공격 시 전투력 보너스를 가지고 매 턴 회복합니다. 예니체리 군대로 적 군대의 이점을 분쇄하십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_OTTOMAN_JANISSARY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '예니체리는 다른 머스킷총병보다 강력하고 더 이른 시기에 사용 할 수 있습니다.'
+SET Text = '{TXT_KEY_UNIT_MUSKETMAN}을 대체하는 오스만의 고유 유닛입니다. {TXT_KEY_UNIT_MUSKETMAN}보다 더 이른 시기에 사용할 수 있습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MARCH}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_JANISSARY';
 
 UPDATE Language_ko_KR
@@ -930,7 +946,7 @@ SET Text = '[ICON_GOLDEN_AGE]황금기의 지속 기간이 [COLOR_POSITIVE_TEXT]
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES';
 
 UPDATE Language_ko_KR
-SET Text = '창병을 대체하는 페르시아의 고유 유닛입니다. 기마 유닛을 물리치는 데 효과적인 고대 시대 유닛으로 일반 창병에 비해 [ICON_STRENGTH]전투력이 더 높고 방어 시 [ICON_STRENGTH]전투력 보너스가 증가하며 체력을 더 빨리 회복합니다.'
+SET Text = '{TXT_KEY_UNIT_SPEARMAN}을 대체하는 페르시아의 고유 유닛입니다. 더 강하고, 빠르게 회복합니다. 방어 시 보너스가 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_IMMORTAL';
 
 --------------------
@@ -944,6 +960,10 @@ UPDATE Language_ko_KR
 SET Text = '고전 시대에 진입할 때, 그리고 그 이후 두 시대마다 [COLOR_MAGENTA]무료 정책[ENDCOLOR] 1개를 획득합니다. 처음으로 이념을 채택하면 무료 이념 주의 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 추가로 제공합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SOLIDARITY';
 
+UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_UNIT_LANCER}을 대체하는 폴란드의 고유 유닛입니다. 더 빠르고 {TXT_KEY_UNITCOMBAT_MOUNTED} 상대로 더 강력합니다. 공격한 적보다 [ICON_STRENGTH] 전투력이 더 높다면 적을 밀어냅니다. (밀어낼 수 없다면 추가 피해를 줍니다) [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_FORMATION_1}[ENDCOLOR] 승급을 보유합니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_WINGED_HUSSAR';
+
 
 --------------------
 -- Polynesia
@@ -953,7 +973,7 @@ SET Text = '승선 시 [ICON_VP_VISION] 시야가 [COLOR_POSITIVE_TEXT]1[ENDCOLO
 WHERE Tag = 'TXT_KEY_TRAIT_WAYFINDING';
 
 UPDATE Language_ko_KR
-SET Text = '장검병을 대체하는 폴리네시아의 고유 유닛입니다. 게임 중반의 강력한 유닛으로 주변 적에게 공포를 심어주어 [ICON_STRENGTH]전투력을 감소시킵니다.[NEWLINE][NEWLINE]일반 장검병과 달리 [COLOR_RESEARCH_STORED]기사도[ENDCOLOR] 연구가 필요하고 철이 필요하지 않습니다.'
+SET Text = '{TXT_KEY_UNIT_LONGSWORDSMAN}을 대체하는 폴리네시아의 고유 유닛입니다. [ICON_RES_IRON] {TXT_KEY_RESOURCE_IRON}을 요구하지 않으며, 전혀 다른 기술인 [COLOR_CYAN]{TXT_KEY_TECH_CHIVALRY}[ENDCOLOR] 연구가 필요하고 생산 비용이 저렴합니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_HAKA_WAR_DANCE}[ENDCOLOR] 승급을 보유하여 근처 적을 약화시킵니다.'
 WHERE Tag = 'TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP';
 
 UPDATE Language_ko_KR
@@ -993,7 +1013,7 @@ SET Text = '해당 타일에 페이토리아를 건설합니다. 도시 국가�
 WHERE Tag = 'TXT_KEY_BUILD_FEITORIA_HELP';
 
 UPDATE Language_ko_KR 
-SET Text = '캐러벨을 대체하는 포르투갈의 고유 유닛입니다. 다른 캐러벨보다 [ICON_STRENGTH]전투력이 높아 해양 탐사에 탁월합니다. 도시 국가와 인접하면 [ICON_GOLD]골드 및 경험치를 획득할 수 있는 능력을 사용할 수 있습니다.[NEWLINE][NEWLINE]도시 국가에 이국적인 화물을 판매 하면 [COLOR_POSITIVE_TEXT]페이토이라[ENDCOLOR]가 해당 영토에 자동으로 건설됩니다. [COLOR:105:105:105:255](가능한 경우)[ENDCOLOR]'
+SET Text = '{TXT_KEY_UNIT_CARAVEL}을 대체하는 포르투갈의 고유 유닛입니다. [ICON_STRENGTH]전투력이 높아 해양 탐사에 탁월합니다. [NEWLINE][NEWLINE]도시 국가와 인접하면 이국적인 화물 판매 능력을 사용해 [ICON_CAPITAL] 수도와의 거리에 비례해 [ICON_GOLD]골드 및 경험치를 획득하고 [COLOR_POSITIVE_TEXT]페이토이라[ENDCOLOR]를 건설할 수 있습니다. [COLOR:105:105:105:255](가능한 경우)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_PORTUGUESE_NAU';
 
 UPDATE Language_ko_KR
@@ -1023,7 +1043,7 @@ SET Text = '발리스타는 훌륭한 공성 기구입니다. 여전히 도시�
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '검사를 대체하는 로마의 고유 유닛입니다. 최전선에서 활약하는 고전 시대의 강력한 지상 유닛으로 일반 검사에 비해 [ICON_STRENGTH]전투력이 높습니다.기술을 연구하면 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]도로[ENDCOLOR]를 건설할 수 있으며 [COLOR_PLAYER_PURPLE]엄폐 II[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]투창[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_SWORDSMAN}를 대체하는 로마의 고유 유닛입니다.  [COLOR_POSITIVE_TEXT]{TXT_KEY_CIV5_IMPROVEMENTS_FORT}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_CIV5_IMPROVEMENTS_ROAD}[ENDCOLOR]를 건설할 수 있으며 요새화 시 인접한 적에 10 피해를 줍니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_COVER_1}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ROMAN_LEGION';
 
 UPDATE Language_ko_KR
@@ -1056,7 +1076,7 @@ SET Text = '모든 전략 자원의 획득량이 [COLOR_POSITIVE_TEXT]두 배[EN
 WHERE Tag = 'TXT_KEY_TRAIT_STRATEGIC_RICHES';
 
 UPDATE Language_ko_KR
-SET Text = '기병대를 대체하는 러시아의 고유 유닛입니다. 피해를 입은 유닛과 전투 시 [ICON_STRENGTH]전투력 보너스가 증가하고 공격 시 적을 후퇴시킬 수 있습니다.'
+SET Text = '{TXT_KEY_UNIT_CAVALRY}를 대체하는 러시아의 고유 유닛입니다. 피해를 입은 유닛과 전투 시 [ICON_STRENGTH]전투력 보너스가 증가하고 후퇴하지 못하는 적 상대로 더 많은 피해를 줍니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_COSSACK';
 
 --------------------
@@ -1083,14 +1103,14 @@ SET Text = '콩키스타도르는 육지와 바다 양쪽에서 강력한 다용
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '탐험가를 대체하는 스페인의 고유 유닛입니다. 정찰과 해외 식민지 건설에 특화된 중세 시대 유닛입니다. 초과 승급과 선봉 승급을 얻습니다. 이 유닛으로 건설된 도시는 [ICON_PEACE]신앙으로 [COLOR_POSITIVE_TEXT]전도관[ENDCOLOR]을 건설할 수 있습니다.'
+SET Text = '{TXT_KEY_UNIT_EXPLORER}를 대체하는 스페인의 고유 유닛입니다. 정찰과 해외 식민지 건설에 특화된 중세 시대 유닛입니다. 초과 승급과 선봉 승급을 얻습니다. [NEWLINE][NEWLINE]이 유닛으로 건설된 도시는 [ICON_PEACE]신앙으로 [COLOR_POSITIVE_TEXT]전도관[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_HELP';
 
 --------------------
 -- Shoshone
 --------------------
 UPDATE Language_ko_KR
-SET Text = '기병대를 대체하는 쇼쇼니의 고유 유닛입니다. 기병대보다 빠르고, 근접 공격을 받으면 후퇴할 수 있으며 약탈 시 과학을 획득합니다.'
+SET Text = '{TXT_KEY_UNIT_CAVALRY}를 대체하는 쇼쇼니의 고유 유닛입니다. 치고 빠지기 전략과 약탈에 특화되어 있습니다. 약탈 시 [ICON_MOVES] 이동력을 소모하지 않고 [ICON_RESEARCH] 과학을 생산합니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE}[ENDCOLOR]승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHOSHONE_COMANCHE_RIDERS';
 
 UPDATE Language_ko_KR
@@ -1121,7 +1141,7 @@ SET Text = '와트는시암의 고유 건물로 경찰대를 대체합니다. �
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '기사를 대체하는 시암의 고유 유닛입니다. 중세 시대의 강력한 기마 유닛으로 장창병에 약하지만 다른 기마 유닛 대항 시 [ICON_STRENGTH]전투력 보너스가 증가합니다. 위대한 장군에 겹친 유닛에 큰 전투 보너스를 얻습니다. [COLOR_PLAYER_PURPLE]코끼리 겁주기[ENDCOLOR] 승급을 보유하며 일반 기사에 비해 [ICON_STRENGTH]전투력이 높습니다.'
+SET Text = '{TXT_KEY_UNIT_KNIGHT}를 대체하는 시암의 고유 유닛입니다. [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}을 소모하지 않습니다. {TXT_KEY_UNIT_GREAT_GENERAL}과 겹치면 큰 전투력 보너스를 얻습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_FEARED_ELEPHANT}[ENDCOLOR] 승급을 보유해, 적을 약화시킵니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SIAMESE_WARELEPHANT';
 
 UPDATE Language_ko_KR
@@ -1156,7 +1176,7 @@ SET Text = '송가이의 고유 유닛으로 기사를 대체합니다. 도시�
 WHERE Tag = 'TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '기사를 대체하는 송가이의 고유 유닛입니다. 강력한 중세 시대 기마 유닛으로 장창병에 약합니다. 기사와 달리 도시 공격 페널티가 없으며 [COLOR_PLAYER_PURPLE]침입자[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_UNIT_KNIGHT}를 대체하는 송가이의 고유 유닛입니다. 도시 공격과 측면 공격에 특화되어 있습니다.도시 공격 페널티가 없으며 도시 공격 시 골드를 훔칩니다. 적 도로를 이용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY';
 
 --------------------
@@ -1167,7 +1187,7 @@ SET Text = '공격 시 근접 지상 유닛의 [ICON_STRENGTH]전투력 보너�
 WHERE Tag = 'TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE';
 
 UPDATE Language_ko_KR 
-SET Text = '수발총병을 대체하는 스웨덴의 고유 유닛입니다. 장거리 원정에 적합한 강력한 최전방 지상 유닛입니다. [COLOR_POSITIVE_TEXT]행군[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]진지 공사[ENDCOLOR] 승급을 보유하고, 적 유닛을 제거 시 주변에 피해를 줍니다.'
+SET Text = '{TXT_KEY_UNIT_RIFLEMAN}을 대체하는 스웨덴의 고유 유닛입니다. 적 유닛을 제거 시 주변에 피해를 줍니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MARCH}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN';
 
 UPDATE Language_ko_KR
@@ -1198,11 +1218,11 @@ SET Text = '그레이트 갈레아스는 갈레아스와 비슷하지만, 전투
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '베니스의 상인은 위대한 상인을 대체하는 고유 위인입니다. 위대한 상인과 다르게, 베니스의 상인은 도시 국가를 사들여 베네치아의 괴뢰 도시로 만들 수 있습니다. 베니스의 상인은 또한 식민지를 만들 수 있는데, 세워진 도시는 괴뢰 도시로 시작하며 다음 보너스를 얻습니다: 추가 영토, 추가 시민, 시장, 기념비. 베니스의 상인은 다음 능력 중 하나를 사용하면 소모됩니다.'
+SET Text = '베니스의 상인은 위대한 상인을 대체하는 고유 위인입니다. 위대한 상인과 다르게, 베니스의 상인은 도시 국가를 사들여 베네치아의 괴뢰 도시로 만들 수 있습니다. 베니스의 상인은 또한 식민지를 만들 수 있는데, 세워진 도시는 괴뢰 도시로 시작하며 추가 영토, 추가 시민, 시장, 기념비를 얻습니다. 베니스의 상인은 다음 능력 중 하나를 사용하면 소모됩니다.'
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_MERCHANT_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_MERCHANT_VENICE]베니스의 상인은 위대한 상인을 대체하는 베네치아의 고유 위인입니다. [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 수행할 수 있는 능력 외에도 도시 국가를 구입해 [ICON_PUPPET][COLOR_POSITIVE_TEXT]괴뢰 정부[ENDCOLOR]를 수립할 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]식민지[ENDCOLOR]를 설립할 수 있습니다. 식민지는 [ICON_PUPPET]괴뢰 도시로 시작하고 다음의 보너스를 제공합니다 : 추가 영토, 추가 시민, 시장 및 기념비'
+SET Text = '{TXT_KEY_UNIT_GREAT_MERCHANT}을 대체하는 베네치아의 고유 위인입니다. [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 수행할 수 있는 능력 외에도 [ICON_CITY_STATE]도시 국가를 구입해 [ICON_PUPPET][COLOR_POSITIVE_TEXT]괴뢰 정부[ENDCOLOR]를 수립할 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]식민지[ENDCOLOR]를 설립할 수 있습니다. 식민지는 [ICON_PUPPET]괴뢰 도시로 시작하고 추가 영토, 추가 시민, {TXT_KEY_BUILDING_MARKET} 및 {TXT_KEY_BUILDING_MONUMENT_DESC}를 제공합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_VENETIAN_MERCHANT';
 
 UPDATE Language_ko_KR
@@ -1226,7 +1246,7 @@ SET Text = '공격하기 전, 임피는 창을 던져 적을 공격하거나 처
 WHERE Tag = 'TXT_KEY_UNIT_ZULU_IMPI_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '테르시오를 대체하는 줄루의 고유 유닛입니다. 원거리 기병 유닛과 화약 유닛을 공격하는 데 특화되었으며 동시대의 대부분 유닛들보다 전반적으로 더 강력합니다. 전투 시작 전에 원거리 일격을 가합니다.'
+SET Text = '{TXT_KEY_UNIT_SPANISH_TERCIO}를 대체하는 줄루의 고유 유닛입니다. {TXT_KEY_UNITCOMBAT_GUN}을 공격하는 데 특화되었습니다. 전투 시작 전에 ([COLOR_POSITIVE_TEXT]전투력의 50%로[ENDCOLOR])원거리 일격을 가합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ZULU_IMPI';
 
 UPDATE Language_ko_KR

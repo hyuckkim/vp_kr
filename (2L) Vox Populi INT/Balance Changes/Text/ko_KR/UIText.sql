@@ -802,11 +802,11 @@ WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_DIFFERENT
 
 
 UPDATE Language_ko_KR
-SET Text = '유물이 가장 가까이에 있는 걸작 예술품 슬롯에 자동으로 배치됩니다. 걸작 슬롯에 유물을 배치하면 [ICON_CULTURE]문화가 3 [ICON_TOURISM]관광이 4 증가합니다. 고고학자를 소모합니다.'
+SET Text = '유물이 가장 가까이에 있는 걸작 예술품 슬롯에 자동으로 배치됩니다. 걸작 슬롯에 유물을 배치하면 [ICON_CULTURE]문화가 ' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_TOURISM]관광이 ' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' 증가합니다. 고고학자를 소모합니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT';
 
 UPDATE Language_ko_KR
-SET Text = '고대의 문학 작품이 가장 가까운 걸작 문학 슬롯에 배치됩니다. [ICON_CULTURE]문화가 3 [ICON_TOURISM]관광이 4 증가합니다. 고고학자가 소모됩니다.'
+SET Text = '고대의 문학 작품이 가장 가까운 걸작 문학 슬롯에 배치됩니다. [ICON_CULTURE]문화가 ' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_TOURISM]관광이 ' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' 증가합니다. 고고학자가 소모됩니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 
 
@@ -1034,7 +1034,12 @@ VALUES	('TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEX
 	('TXT_KEY_CITY_STATE_MILITARISTIC_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]군사적[ENDCOLOR] 도시 국가는 가끔 추가 군사 유닛을 제공합니다.[NEWLINE][NEWLINE]해당 도시 국가는 [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]의 비밀을 알고 있습니다. [COLOR_POSITIVE_TEXT]{@2_PrereqTech}[ENDCOLOR] 기술을 연구하면 다른 방법으로는 얻을 수 없는 고유한 유닛을 받게 됩니다.'),
 	('TXT_KEY_CITY_STATE_MARITIME_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]해양적[ENDCOLOR] 도시 국가는 [ICON_CAPITAL] 수도의 [ICON_FOOD] 식량 생산을 크게 증가시키고 모든 도시에 추가로 식량을 제공합니다.'),
 	('TXT_KEY_CITY_STATE_MERCANTILE_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]상업적[ENDCOLOR] 도시 국가는 제국의 [ICON_HAPPINESS_1] 행복을 증가시키고, 다른 방법으로는 얻을 수 없는 사치 자원을 제공합니다.'),
-	('TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]종교적[ENDCOLOR] 도시 국가는 [ICON_PEACE] 신앙을 증가시켜, 당신의 종교가 새 교리를 채택하고 유닛을 생산하도록 돕습니다.');
+	('TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED', '정복된 [COLOR_POSITIVE_TEXT]종교적[ENDCOLOR] 도시 국가는 [ICON_PEACE] 신앙을 증가시켜, 당신의 종교가 새 교리를 채택하고 유닛을 생산하도록 돕습니다.'),
+	('TXT_KEY_VP_RESTING_INFLUENCE', '[ICON_INFLUENCE] 영향력 회복');
+	
+UPDATE Language_ko_KR
+SET Text = '인구 증가에 문제가 있기 때문에 도시에 성장 건물을 지을 필요가 없습니다.'
+WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS';
 	
 -- Culture Overview
 INSERT INTO Language_ko_KR (Tag, Text)

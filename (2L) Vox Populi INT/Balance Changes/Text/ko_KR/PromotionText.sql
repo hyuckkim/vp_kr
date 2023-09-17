@@ -684,7 +684,7 @@
 
 	-- Golden Age Points from Kills
 	UPDATE Language_ko_KR
-	SET Text = '적 유닛 처치 시 [ICON_GOLDEN_AGE]황금기 점수 제공'
+	SET Text = '적 유닛 처치 시 [ICON_STRENGTH] 전투력의 100%만큼 [ICON_GOLDEN_AGE]황금기 점수 제공'
 	WHERE Tag = 'TXT_KEY_PROMOTION_GOLDEN_AGE_POINTS_HELP';
 
 	-- Naval Leadership

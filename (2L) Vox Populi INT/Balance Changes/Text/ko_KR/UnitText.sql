@@ -10,7 +10,7 @@
 	SELECT 'TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE', '유닛이 소모됩니다. 두 도시를 연결하는 도로 위에 건설되면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 철도 위에서는 두 배가 됩니다. 이 소도시를 지나는 교역로가 있다면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 산업 시대부터는 두 배가 됩니다.[NEWLINE][NEWLINE] 위인 시설은 전략 자원을 교역망에 연결합니다. 소도시는 위대한 상인의 외교 임무에서 오는 골드 생산량과 국왕 경축일 기간을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가시킵니다.';
 	UPDATE Builds SET Help = 'TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE' WHERE Type = 'BUILD_CUSTOMS_HOUSE';
 
-	UPDATE Language_ko_KR SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 이 임무를 수행할 수 있는 유닛은 3종류가 있습니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]외교 유닛:[ENDCOLOR] 도시 국가에 대한 [ICON_INFLUENCE]영향력을 증가시킵니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 외교관:[ENDCOLOR] 도시 국가에 대한 대량의 [ICON_INFLUENCE]영향력을 증가시키고 다른 모든 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시킵니다. [ICON_RES_PAPER]종이 자원 1개를 제공하고 도시 국가에 {1_Num}의 [ICON_INFLUENCE] 최소 영향력을 부여합니다.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]위대한 상인:[ENDCOLOR] 대량의 [ICON_GOLD] 골드를 얻고 모든 도시에서 국왕 경축일을 5턴동안 시작합니다. 국왕 경축일은 소유한 소도시마다 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
+	UPDATE Language_ko_KR SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 이 임무를 수행할 수 있는 유닛은 3종류가 있습니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]외교 유닛:[ENDCOLOR] 도시 국가에 대한 [ICON_INFLUENCE]영향력을 증가시킵니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 외교관:[ENDCOLOR] 도시 국가에 대한 대량의 [ICON_INFLUENCE]영향력을 증가시키고 다른 모든 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시킵니다. [NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]위대한 상인:[ENDCOLOR] 대량의 [ICON_GOLD] 골드를 얻고 모든 도시에서 국왕 경축일을 5턴동안 시작합니다. 국왕 경축일은 소유한 소도시마다 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
 	UPDATE Language_ko_KR SET Text = '[ICON_GREAT_MERCHANT]위대한 상인은 특별한 [COLOR_POSITIVE_TEXT]소도시[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 소도시는 많은 [ICON_GOLD]골드와 [ICON_FOOD]식량을 제공합니다. 또한 위대한 상인은 도시 국가로 이동하여 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 할 수 있습니다. 무역 임무는 대량의 [ICON_GOLD]골드를 벌어들이고 즉시 모든 도시가 국왕 경축일을 맞이하게 합니다. 무역 임무는 소유한 소도시마다 효과가 25% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.[NEWLINE][NEWLINE]소도시는 두 도시 사이를 연결하는 도로 위에 있다면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +1 제공합니다. 철도라면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +2 제공합니다. 소도시를 지나가는 교역로가 있다면 추가 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 제공합니다(도로에서 +1, 철도에서 +2).' WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY';
 
@@ -452,10 +452,6 @@
 	UPDATE Language_ko_KR
 	SET Text = '프리깃은 갈레아스의 업그레이드입니다. 사거리, 전투력, 원거리 전투력이 구형 해군 부대보다 훨씬 큽니다. 프리깃함은 아직 떠 있는 캐러벨, 트리렘, 야만인 부대의 모든 바다를 청소할 수 있습니다. 그러나 해안이 아닌 육지 타일에는 발사할 수 없습니다.'
 	WHERE Tag = 'TXT_KEY_UNIT_FRIGATE_STRATEGY';
-
-	UPDATE Language_ko_KR
-	SET Text = '코르벳을 대체하는 네덜란드의 고유 유닛입니다. 해안 도시를 공격하거나 적 함선을 나포하는 해상 유닛으로 일반 코르벳보다 이른 시기에 사용할 수 있습니다.'
-	WHERE Tag = 'TXT_KEY_UNIT_HELP_SEA_BEGGAR';
 
 	UPDATE Language_ko_KR
 	SET Text = '코르벳'

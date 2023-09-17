@@ -112,7 +112,16 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
-			<Text>첫 전투를 완료하면 기존 승급이 무작위 승급으로 교체됩니다.</Text>
+			<Text>첫 전투를 완료하면 기존 승급이 무작위 승급으로 교체됩니다.
+			[NEWLINE][NEWLINE]모든 승급은 [COLOR_POSITIVE_TEXT]피해를 받은[ENDCOLOR] 만큼 [ICON_STRENGTH] 전투력 보너스를 증가시키며 적 처치 시 체력 10 회복 능력을 가집니다.
+			[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR]: 체력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 이하인 적 공격 시 [ICON_STRENGTH] 전투력 보너스 +20%
+			[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR]: 인접 유닛 회복 시 체력 +5 추가 회복
+			[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR]: 체력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 이상인 적 공격 시 [ICON_STRENGTH] 전투력 보너스 +20%
+			[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR]: 전투 경험치 +50%
+			[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_BUSHIDO_HONOR}[ENDCOLOR]: [COLOR_POSITIVE_TEXT]아군 영토[ENDCOLOR] 밖에서 [ICON_STRENGTH] 전투력 보너스 +15%
+			[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR]:[COLOR_POSITIVE_TEXT]아군 영토[ENDCOLOR] 안에서 [ICON_STRENGTH] 전투력 보너스 +15%
+			[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR]: 방어 시 [ICON_STRENGTH] 전투력 보너스 +15%
+			[NEWLINE][ICON_BULLET][COLOR_SELECTED_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR]: 공격 시 [ICON_STRENGTH] 전투력 보너스 +15%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS">
 			<Text>정도</Text>
@@ -996,7 +1005,7 @@
 			<Text>탐험가를 대체하는 브라질의 중세 시대 유닛입니다. 탐험가보다 더 빠르고 강하며, 더 일찍 등장합니다. 밝혀지지 않은 영역을 탐험하면, 골드, 문화, 과학을 생성합니다. 이 산출은 소유한 가장 가까운 도시에 더해집니다. 또한 내 영토에 요새, 채석장, 광산, 브라질 소방목 벌목장을 건설할 수 있는 능력이 있으며 야만인과 전투시 더 강합니다. 이 유닛으로 탐험하고, 야만인을 정리하고, 국경 도시에 산출을 제공하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_HELP">
-			<Text>탐험가를 대체하는 브라질의 고유 유닛 입니다. 이 유닛으로 지도를 밝힐 때 가장 가까운 도시에 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_RESEARCH]과학을 제공합니다. 소유한 영토에 요새, 채석장, 광산, 브라질 소방목 벌목장을 건설할 수 있습니다.</Text>
+			<Text>{TXT_KEY_UNIT_EXPLORER}를 대체하는 브라질의 고유 유닛 입니다. 이 유닛으로 지도를 밝힐 때 가장 가까운 도시에 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_RESEARCH]과학을 제공합니다. 소유한 영토에 {TXT_KEY_CIV5_IMPROVEMENTS_FORT}, {TXT_KEY_CIV5_IMPROVEMENTS_QUARRY}, {TXT_KEY_IMPROVEMENT_MINE}, {TXT_KEY_IMPROVEMENT_BRAZILWOOD_CAMP}을 건설할 수 있습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SURVIVALISM_3}[ENDCOLOR] 승급을 보유합니다.</Text>
 		</Row>
 		<!-- Commando -->
 		<Row Tag="TXT_KEY_UNIT_COMMANDO">

@@ -213,11 +213,11 @@ SET Text = '[ICON_RES_OIL] 석유, [ICON_RES_ALUMINUM]알루미늄, [ICON_RES_UR
 WHERE Tag = 'TXT_KEY_BUILDING_LABORATORY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '도시 주변 작업 가능한 범위의 산 1개마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]과학 혁명[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.'
+SET Text = '도시 주변 작업 가능한 범위의 산 1개마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_SECULARISM}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '천문대는 과학 산출을 증가시키고, 특히 도시 근처에 산이 있을 때 과학을 특히 더 증가시킵니다. 건설하려면 ''과학 혁명'' 정책을 채택해야 합니다.'
+SET Text = '천문대는 과학 산출을 증가시키고, 특히 도시 근처에 산이 있을 때 과학을 특히 더 증가시킵니다. 건설하려면 ''{TXT_KEY_POLICY_SECULARISM}'' 정책을 채택해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_STRATEGY';
 
 UPDATE Language_ko_KR
