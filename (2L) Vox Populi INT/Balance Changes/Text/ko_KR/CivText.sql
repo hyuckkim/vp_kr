@@ -1118,7 +1118,7 @@ SET Text = '코만치 기마병은 기병대를 대체하는 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_SHOSHONE_COMANCHE_RIDERS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '탐사 능력이 뛰어난 게임 초반 유닛입니다.'
+SET Text = '이 유닛과 같은 {TXT_KEY_UNITCOMBAT_RECON}만이 [COLOR_POSITIVE_TEXT]{TXT_KEY_ANTIQUITY_LEGEND_GOODY_HUT}[ENDCOLOR]의 비밀을 드러낼 수 있습니다. 탐험을 위한 유닛이므로 야만인을 상대해야 한다면 주의하십시오!'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHOSHONE_PATHFINDER';
 
 UPDATE Language_ko_KR
