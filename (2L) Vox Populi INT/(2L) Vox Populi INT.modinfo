@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="16">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(3.10) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(3.10.4) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -25,24 +25,24 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="40D5FC38B73353E0CF98C0462694725F" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
-    <File md5="7CE752CCCCAEA9583D6E17A0B5B729E9" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
+    <File md5="D2AAE6DE9E7F47E38E6A0131DDA61561" import="0">Balance Changes/Text/ko_KR/BuildingText.sql</File>
+    <File md5="4554353108D2BC880C815524D5BDAB4A" import="0">Balance Changes/Text/ko_KR/CivText.sql</File>
     <File md5="75D6181C099E25CB40ABB689216B31D1" import="0">Balance Changes/Text/ko_KR/BuildingText.xml</File>
-    <File md5="35699473D2B689E740DAC4288290DDA8" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
+    <File md5="55B34174273B9ADBDDCD336A80124463" import="0">Balance Changes/Text/ko_KR/UnitText.xml</File>
     <File md5="CCD8EBB5F78FEDDC74B0CF3E45F89BF5" import="0">Balance Changes/Text/ko_KR/UIText.xml</File>
     <File md5="E8078A870A7F5F415D4EE191CD284EAB" import="0">Balance Changes/Text/ko_KR/TerrainText.xml</File>
-    <File md5="B61B55091B1635467C0FB7948C01D4E0" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
-    <File md5="24A580BB644B3DF3D5B80736D97F33F2" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
-    <File md5="9528813E4193B4B62B2BC5C57C087CD3" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
+    <File md5="799CEDD21A4446C3E461ABBE3358B89D" import="0">Balance Changes/Text/ko_KR/PromotionText.sql</File>
+    <File md5="1CD0CD57EC6266974EB1708C0198FE2C" import="0">Balance Changes/Text/ko_KR/PolicyText.sql</File>
+    <File md5="2967FA57812B17808A8A16936D38704F" import="0">Balance Changes/Text/ko_KR/UIText.sql</File>
     <File md5="24781055F8DE826D0E2E45209FF70C51" import="0">Balance Changes/Text/ko_KR/OtherText.sql</File>
-    <File md5="F9CFA5F582F0EB3244D6585BA216BD62" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
+    <File md5="437D4463BE8924ABF9200C563A6E1FBD" import="0">Balance Changes/Text/ko_KR/UnitText.sql</File>
     <File md5="A6C45DA8A2DEB8CD93D90A209F75A98B" import="0">Balance Changes/Text/ko_KR/ReligionText.sql</File>
     <File md5="2830FB5EE0CE3A064295297D14814FE3" import="0">Balance Changes/Text/ko_KR/NewText.xml</File>
     <File md5="595209BCBB6AE18711F6657F57117EF3" import="0">Balance Changes/Text/ko_KR/TextChanges.sql</File>
     <File md5="CFEBA117E903EC8302F5CD2769C4C859" import="0">Balance Changes/Text/ko_KR/UIShortcutsCivilopedia_ko_KR.xml</File>
     <File md5="5BFE9D3BDC16D48F44958208F35EA25E" import="0">Balance Changes/Text/ko_KR/EspionageEventText.xml</File>
     <File md5="44DC98C2FD6F4142B45F001A2464CEE8" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/MiniMapPanelText.xml</File>
-    <File md5="BEFBAF37EE259806D610B0354DF5CA42" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
+    <File md5="673A40AD2F4B63738F26C5A597E103EC" import="0">Modular Elements/ArchaeologistUIMods/ko_KR/UIAntiquities.xml</File>
     <File md5="9447E396D6FAE49475EA168A17AD1E3D" import="0">Modular Elements/Corporations/Text/ko_KR/CorporationOverviewText.xml</File>
     <File md5="76BCC96DB5775D1F349D52A827D5C2EE" import="0">Modular Elements/Corporations/Text/ko_KR/CorpText.xml</File>
     <File md5="8B1A476CE1DED6EDF27CE1C656269023" import="0">Modular Elements/Events/Text/EventText_ko_KR.xml</File>
@@ -65,7 +65,7 @@
     <File md5="122280CDAE7072D7247EF68584CDDCDE" import="0">CSD/World Congress/ko_KR/Projects.xml</File>
     <File md5="38AEFAA3D89B764B4F4360331F452FAA" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_CivilopediaC4DF.xml</File>
     <File md5="E075D42CDBFB60A2960349F2EAAB72E0" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_Generic_DiplomacyC4DF.xml</File>
-    <File md5="6356D6DEF3799800BED434F4E3F5F909" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_UIC4DF.xml</File>
+    <File md5="22790FE8407EE9B3ADD30D8E4FA260C2" import="0">C4DF/XML/Text/ko_KR/ko_KR_Text_UIC4DF.xml</File>
     <File md5="C5CB2724CBC1871130538366C837FE95" import="0">Balance Changes/Terrain/NewLuxuries_Text.xml</File>
     <File md5="D7AA6F344F96A1C807BFE3EF518FCCB8" import="0">Balance Changes/Terrain/NewFarmResources_Text.xml</File>
     <File md5="A61C64936513C9E6A0BC7FD4B409367F" import="0">Compatibility/C4DFCompatibility/C4DFCompatibility.sql</File>
