@@ -512,11 +512,11 @@
 
 	-- Medic I/II
 	UPDATE Language_ko_KR
-	SET Text = '[NEWLINE]같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
+	SET Text = '같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_HELP';
 
 	UPDATE Language_ko_KR
-	SET Text = '[NEWLINE]같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
+	SET Text = '같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_II_HELP';
 
 	-- Heal on Kill Promotions
