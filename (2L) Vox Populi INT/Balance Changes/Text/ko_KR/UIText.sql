@@ -23,6 +23,11 @@ UPDATE Language_ko_KR
 SET Text = '[ICON_FOOD]/[ICON_PRODUCTION] 페널티'
 WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY';
 
+-- Culture
+UPDATE Language_ko_KR
+SET Text = '[ICON_CULTURE]문화는 도시의 [ICON_CULTURE_LOCAL] 영토를 확장시켜 도시 산출량을 높일 수 있게 합니다.  [COLOR_POSITIVE_TEXT]사회 정책[ENDCOLOR]을 채택하는 데에도 필요합니다.'
+WHERE Tag = 'TXT_KEY_CULTURE_HELP_INFO';
+
 -- Fortifications
 UPDATE Language_ko_KR
 SET Text = '많은 유닛은 요새화 능력을 갖고 있습니다. 이는 현재 위치에서 방어태세를 취하라는 것을 의미합니다. 요새화하면 전투시 방어보너스를 받게 되고 그 유닛은 파괴되기 어려워집니다. 그러나 요새화는 너무 방어적으로 치우쳐있습니다. 해당 유닛은 움직이거나 다른 유닛을 공격해서는 안되며, 그런 행동을 하면 요새화가 풀립니다. 요새화 중에는 당신이 유닛을 선택해서 명령을 내리기 전에는 유닛이 활성화되지 않습니다.[NEWLINE][NEWLINE]시설이 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공한다면, 그 시설에 주둔한 근접 유닛은 전투에서 승리해도 그 위치로 따라가지 않습니다.'
