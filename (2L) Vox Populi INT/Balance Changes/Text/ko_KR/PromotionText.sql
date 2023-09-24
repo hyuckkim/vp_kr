@@ -156,7 +156,7 @@
 
 	-- March
 	UPDATE Language_ko_KR
-	SET Text = '[NEWLINE]행동 여부에 상관없이 매 턴 체력 회복'
+	SET Text = '행동 여부에 상관없이 매 턴 체력 회복'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MARCH_HELP';
 
 	-- Replace Drill
