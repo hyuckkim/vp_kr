@@ -47,7 +47,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 작가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (원형극장, 국가 서사시, 영웅 서사시, 왕립 도서관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 정치 논문[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (원형극장, 국가 서사시, 영웅 서사시, 왕립 도서관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_BODY';
 
 UPDATE Language_ko_KR
