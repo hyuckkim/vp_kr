@@ -552,9 +552,6 @@ UPDATE Language_ko_KR
 SET Text = '{2_CivName}{2: plural 1?이; 2?가;} 개발하지 못한 {1_Num}개의 기술을 연구하였습니다. [NEWLINE]이 문명은 플레이어에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED';
 
-UPDATE Language_ko_KR
-SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 보유하지 못한 {2_Num}개의 기술을 연구하였습니다. [NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 받습니다.'
-WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED';
 
 -- Lua for Cities
 UPDATE Language_ko_KR
@@ -674,6 +671,10 @@ WHERE Tag = 'TXT_KEY_CULTURE_FROM_GREAT_WORKS';
 UPDATE Language_ko_KR
 SET Text = '너무 많은 수의 군사 때문에 경제가 위축되고 있습니다. 보급 한도 이상의 불필요한 유닛을 해산해야 합니다.'
 WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_TOO_MANY_UNITS';
+
+UPDATE Language_ko_KR
+SET Text = '인구 증가에 문제가 있기 때문에 도시에 성장 건물을 지을 필요가 없습니다.'
+WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS';
 
 -- Reversed Tourism for Open Borders
 UPDATE Language_ko_KR

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_RESOLUTION_SOI">
+			<Text>영향권</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
+			<Text>도시 국가에 대한 [COLOR_POSITIVE_TEXT]영향권[ENDCOLOR]을 청구합니다. 이 결의안이 활성되면, 이를 제안한 문명은 해당 도시 국가의 영구적인 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]이 됩니다. (안건이 폐지되면 효과가 사라집니다) 제안자는 도시 국가와 동맹 상태여야 합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]증기력[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR">
+			<Text>문호 개방</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR_HELP">
+			<Text>도시 국가를 위한 문호 개방을 제안합니다. 이 결의안이 활성되면, 도시 국가에 대한 모든 문명의 [ICON_INFLUENCE]영향력을 즉시 [COLOR_POSITIVE_TEXT]40[ENDCOLOR]으로 설정합니다. 이 제안이 철회되기 전까지는 아무도 도시 국가와 동맹을 맺을 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECISION_CITY_CSD">
+			<Text>이 결의안에 영향을 미칠 도시 국가를 선택합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION">
+			<Text>탈식민지화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION_HELP">
+			<Text>모든 문명에 강제로 탈식민지화를 시행합니다. 이 결의안이 활성되면, 모든 비영구적인 도시 국가 동맹에 대한 모든 문명의 [ICON_INFLUENCE]영향력이 [COLOR_NEGATIVE_TEXT]50[ENDCOLOR]으로 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR">
+			<Text>카수스 벨리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR_HELP">
+			<Text>세계는 외교 분쟁을 해결하기 위한 정당한 전쟁의 필요성을 인식하고 있습니다. [NEWLINE][NEWLINE]이 결의안이 활성되면, 유닛 유지 [ICON_GOLD]비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다. 도시를 정복하고 전쟁을 선포할 때 [ICON_VICTORY_DOMINATION]전쟁광 페널티가 크게 감소하고 [ICON_VICTORY_DOMINATION]전쟁광 수치가 평소보다 빠르게 감소합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY">
+			<Text>여행 금지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY_HELP">
+			<Text>문명 사이의 국제 여행을 제한합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_NEGATIVE_TEXT]35%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS">
+			<Text>여권 시스템</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS_HELP">
+			<Text>문명 사이의 국제 여행이 증가합니다. 모든 문명의 [ICON_TOURISM]관광 수치가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]비행[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR">
+			<Text>냉전</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR_HELP">
+			<Text>이념의 차이가 세계를 냉전으로 몰아붙였고 이념에 기반한 경제적, 정치적인 파벌이 형성되었습니다.[NEWLINE][NEWLINE]이 결의안이 활성되면, [COLOR_POSITIVE_TEXT]같은 이념[ENDCOLOR]을 따르는 문명 또는 동맹인 도시 국가에만 [ICON_INTERNATIONAL_TRADE]교역로를 보낼 수 있습니다. 동맹인 도시 국가와의 [ICON_INFLUENCE]영향력이 감소하지 않습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION">
+			<Text>우주 비행 규제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]우주 비행 규제[ENDCOLOR]는 현대 탄도 기술의 확산을 통제하고 국가 우주 프로그램을 감독하며 잠재적으로 위험한 기술의 발전을 제한합니다.[NEWLINE][NEWLINE]이 결의안이 활성되면, 모든 문명의 우주선 부품 [ICON_PRODUCTION]생산 페널티가 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR] 발생하고 우주선 부품을 구매하는 [ICON_GOLD]비용이 [COLOR_NEGATIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_GREAT_ENGINEER]위대한 기술자를 구매하기 위해 필요한 [ICON_PEACE]신앙이 [COLOR_NEGATIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_PLAYER_VASSAL_TAX">
+			<Text>세계 해방</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_PLAYER_VASSAL_TAX_HELP">
+			<Text>모든 속주 관계가 평화적으로 즉시 [COLOR_POSITIVE_TEXT]무효화[ENDCOLOR]됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_TREASURE_FLEET">
+			<Text>보물 선단</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TREASURE_FLEET_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]보물 선단[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면, 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1_HELP}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_WARGAMES">
+			<Text>국제 군사 훈련</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WARGAMES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]국제 군사 훈련[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면, 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1_HELP} [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]교환부품[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS">
+			<Text>국제 연합</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면, 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1_HELP} [NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]원자론[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

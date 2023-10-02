@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING">
+			<Text>기술 거래 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING_HELP">
+			<Text>문명 간의 기술 거래를 비활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS">
+			<Text>연구 협정 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS_HELP">
+			<Text>다른 문명과 연구 협정을 체결할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING">
+			<Text>기술 중개 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP">
+			<Text>거래를 통해 얻은 기술을 다른 문명에게 팔 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE">
+			<Text>종속국 협정 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE_HELP">
+			<Text>종속국 시스템을 비활성화합니다. 종속국이 만들어질 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS">
+			<Text>플레이어 종속국 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS_HELP">
+			<Text>플레이어가 다른 문명의 종속국이 될 수 있습니다.[NEWLINE][NEWLINE]참고: "종속국 비활성화" 옵션에 체크했다면 무효합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY">
+			<Text>투명한 외교</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY_HELP">
+			<Text>외교적 변수 옆에 수치가 표시됩니다. 또한, AI 지도자들이 부정적 변수를 감추지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION">
+			<Text>AI 승리 경쟁 비활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION_HELP">
+			<Text>AI 지도자가 다른 플레이어를 승리 경쟁 진행상황을 통해 적대하지 않습니다. 게임을 매우 쉽게 만듭니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION">
+			<Text>AI 게임 후반 공격성 비활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION_HELP">
+			<Text>AI 지도자가 승리에 가까운 플레이어를 적대하지 않습니다. 참고: 이 옵션은 '승리 경쟁 비활성화'가 활성화되면 아무 일도 일어나지 않습니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

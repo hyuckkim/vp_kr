@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<!-- America -->
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL">
+			<Text>독립기념관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_HELP">
+			<Text>에르미타쥬 박물관을 대체하는 미국의 고유 건물입니다.[NEWLINE][NEWLINE]도시의 4 [ICON_CITIZEN]시민당 +1 [ICON_CULTURE] 문화를 얻습니다. 도시의 [ICON_CULTURE]문화가 +10% 증가합니다.[NEWLINE][NEWLINE][ICON_CULTURE] 정책 채택에 필요한 문화가 5% 감소합니다. [COLOR_POSITIVE_TEXT]슬레이터 밀[ENDCOLOR], [COLOR_POSITIVE_TEXT]미국 육군사관학교[ENDCOLOR], [COLOR_POSITIVE_TEXT]스미스소니언 협회[ENDCOLOR]를 [COLOR_CYAN]현대 시대[ENDCOLOR]에 지을 수 있습니다.[NEWLINE][NEWLINE]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [ICON_HAPPINESS_3] [ICON_CULTURE]무료 [ICON_HAPPINESS_3] 불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE] 문명에 도시가 많을수록 건설 비용이 증가합니다.완성하면 +3 [ICON_CULTURE]문화와 +3 [ICON_GOLD]골드를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_TEXT">
+			<Text>원래 펜실베니아 주의 저택으로 지어진 독립기념관은 미국 독립 선언과 헌법 선언이 논의되고 공식적으로 채택되어 미국의 탄생지가 된 곳입니다. 오늘날 독립기념관은 박물관이자 필라델피아 중심부에 있는 독립국립공원의 중심입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_STRATEGY">
+			<Text>독립기념관은 에르미타쥬 박물관을 대체하는 미국의 고유 건물입니다. 에르미타쥬 박물관의 보너스에 더해, 독립기념관은 미래 정책의 비용을 감소시키고 현대 시대에 세 개의 미국의 고유 불가사의 중 하나를 건설할 수 있게 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_INDEPENDENCEHALL">
+			<Text>국보</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_INDEPENDENCEHALL_HELP">
+			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]당신 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]예술품[ENDCOLOR]으로 채우십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOMA">
+			<Text>스미스소니언 협회</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOMA_TEXT">
+			<Text>1846년 "지식의 증가와 확산을 위해" 설립된 스미스소니언 협회는 미국 정부에 의해 운영되는 박물관과 연구 센터들의 모임입니다. 원래 "미국 국립 박물관"으로 조직된 그 이름은 1967년에 행정 기관으로서 존재하지 않게 되었습니다. 1억 3천 8백만 점의 다양한 소장품들로 인해 "국가의 다락방"이라고 불리는 이 연구소의 19개의 박물관, 9개의 연구 센터, 그리고 동물원은 대부분 콜롬비아 특별구에 위치한 역사적, 건축적 랜드마크를 포함합니다. 애리조나, 메릴랜드, 매사추세츠, 뉴욕, 버지니아 및 파나마에 추가 시설이 있습니다. 추가로 170개의 박물관이 스미스소니언 제휴사입니다. 그 기관의 연간 3천만 명의 방문객은 무료로 입장할 수 있습니다. 기금은 기관의 기부금, 개인 및 기업 기부금, 회비, 정부 지원, 소매, 양허 및 라이센스 수익에서 나옵니다. 기관 간행물에는 스미스소니언과 항공 우주 잡지가 포함되어 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_SMITHSONIAN_HELP">
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 도시에 [COLOR_YELLOW]독립기념관[ENDCOLOR]이 있어야 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 박물관과 연구소에서 +5 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학을 얻고, 모든 [ICON_WONDER] 세계 불가사의에서 +2 [ICON_CULTURE] 문화와 [ICON_RESEARCH]과학을 제공합니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 박물관을 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]문화가 증가합니다.[NEWLINE][NEWLINE]모든 랜드마크의 [ICON_RESEARCH] 과학이 +5 증가하고 모든 [ICON_GREAT_WORK] 걸작의 [ICON_RESEARCH] 과학이 +1 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_SMITHSONIAN_STRATEGY">
+			<Text>스미스소니언 협회는 미국이 독립기념관을 완성하면 지을 수 있는 세 불가사의 중 하나입니다. 제국의 문화와 과학에 큰 보너스를 제공하고, 박물관과 유물을 강화합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT">
+			<Text>미국 육군사관학교</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT_HELP">
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 도시에 [COLOR_YELLOW]독립기념관[ENDCOLOR]이 있어야 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 사관 학교와 성형 요새에서 +5 [ICON_PRODUCTION]생산과 [ICON_RESEARCH]과학을 제공하고, 모든 [ICON_WONDER] 세계 불가사의에서 +2 [ICON_PRODUCTION] 생산과 [ICON_RESEARCH]과학을 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 사관 학교를 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]과학이 증가합니다.[NEWLINE][NEWLINE]모든 공성 유닛과 원거리 해군 유닛이 [COLOR_POSITIVE_TEXT]광역 피해[ENDCOLOR] 진급을 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_BUILDINGS_AMERICA_WESTPOINT_TEXT">
+			<Text>비공식적으로 웨스트포인트로 알려진 미국 육군사관학교는 생도들이 미국 육군의 임관 장교가 되도록 교육하는 가장 오래된 사관학교입니다. 이 아카데미는 외국과 국내의 수많은 국가 원수와 더불어 현대사에서 가장 유명한 장군들을 배출한 것으로 유명합니다. 이 캠퍼스는 허드슨 강을 따라 항해하는 것을 내려다보고 통제하기 위해 강 요새로 지어진, 지속적으로 운영되는 가장 오래된 미군 기지입니다. 결과적으로, 그 캠퍼스는 길고 오래된 역사를 대표하는 수많은 기념물과 조각상들로 점철된 국가적인 랜드마크입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_WESTPOINT_STRATEGY">
+			<Text>미국 육군사관학교는 미국이 독립기념관을 완성하면 지을 수 있는 세 불가사의 중 하나입니다.과학과 공성 유닛에 큰 보너스를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_SLATERMILL">
+			<Text>슬레이터 밀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_SLATERMILL_HELP">
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 미국의 고유 국가 불가사의입니다. 도시에 [COLOR_YELLOW]독립기념관[ENDCOLOR]이 있어야 건설할 수 있습니다. 오직 강 옆에 있는 도시에서만 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 타일 [ICON_GOLD]구매 비용이 25% 감소합니다. 모든 공장과 증권거래소에서 +5 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공하고, 모든 [ICON_WONDER] 세계 불가사의에서 +2 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산을 제공합니다.[NEWLINE][NEWLINE]이 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 공장을 제공합니다. 모든 도시의 [ICON_GOLD]골드의 10%만큼 [ICON_CULTURE]생산이 증가합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]추가[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] 교역로를 제공하고, [ICON_INTERNATIONAL_TRADE] 교역이 25% 빨리 완성됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_BUILDINGS_AMERICA_SLATERMILL_TEXT">
+			<Text>국가 역사 랜드마크인 슬레이터 밀은 로드아일랜드의 포투켓에 있는 블랙스톤 강 옆에 위치해 있습니다. 영국에 처음 설립된 면방적 공장을 본떠 만든 슬레이터 밀은 리처드 아크라이트가 개발한 면방적 아크라이트 시스템을 활용한 북미 최초의 수력 면방적 공장입니다. 제분소의 설립자인 새뮤얼 슬레이터는 영국 벨퍼에서 산업가 제다이아 스트럿과 함께 젊은 시절 견습생으로 일했습니다. 미국으로 이민 온 직후, 슬레이터는 로드 아일랜드 프로비던스의 모세 브라운에 고용되어 수력을 사용하여 면사를 방적하는 데 필요한 작업 기계를 생산했습니다. 댐, 수로, 물레방아, 방앗간뿐만 아니라 기계들의 건설은 1793년에 완료되었습니다. 제조는 카드, 드로잉, 그리고 방적 기계를 포함하는 리차드 아크라이트의 면방적 시스템을 기반으로 했습니다. 슬레이터는 처음에 아이들과 가족들을 고용하여 그의 방앗간에서 일하게 했고, 블랙스톤 계곡 전체에 복제되어 "로드 아일랜드 시스템"으로 알려진 패턴을 확립했습니다. 그것은 나중에 프랜시스 카봇 로웰의 월섬 시스템에 의해 가려졌습니다. 슬레이터 밀은 미국 국립 사적지에 등재된 첫 번째 재산이었고, 1966년 11월 13일 미국 국립 역사 랜드마크로 지정되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_SLATERMILL_STRATEGY">
+			<Text>슬레이터 밀은 미국이 독립기념관을 완성하면 지을 수 있는 세 불가사의 중 하나입니다. 생산과 교역에 큰 보너스를 제공합니다. 슬레이터 밀은 교역로의 시간을 단축하고, 당신이 거래하는 문명을 향한 당신의 관광과 프랜차이즈 설립률을 크게 증가시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_AMERICA_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"나의 조국은 그분의 땅이요,[NEWLINE]달콤한 자유의 땅이니.[NEWLINE][TAB][TAB] - 새뮤얼 프랜시스 스미스[NEWLINE][TAB]</Text>
+		</Row>
+		<!-- Assyria -->
+		<Row Tag="TXT_KEY_THEMING_BONUS_ROYAL_LIBRARY">
+			<Text>전 세계에서 온 지식</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_THEMING_BONUS_HELP">
+			<Text>보너스를 극대화 하려면 세 개의 걸작 슬롯을 [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]문학[ENDCOLOR]으로 채우십시오.</Text>
+		</Row>
+		<!-- Babylon -->
+		<Row Tag="TXT_KEY_BUILDING_BABYLON_WALLS_HELP">
+			<Text>성벽을 대체하는 바빌론의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 위대한 과학자의 기술 가속이 과학을 5% 추가로 제공합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		<!-- Byzantium -->
+		<Row Tag="TXT_KEY_BUILDING_BASILICA_DESC">
+			<Text>테트라콘치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BASILICA_TEXT">
+			<Text>수세기에 걸쳐, 비잔틴 건축은 점차 더 오래된 로마 양식에서 멀어져 갔습니다. 비잔틴 양식의 건물들은 종종 높은 돔과 복잡한 모자이크 작업과 훨씬 더 많은 돌과 벽돌 건축물로 유명합니다. 그리스어로 "네 개의 껍질"을 의미하는 테트라콘 교회들은 비잔틴 건축의 가장 높은 업적을 나타냅니다. 이 건물들의 평면도는 4개의 돔형 아파스를 포함하고 있으며, 중앙 공간은 높은 돔으로 덮인 십자가 모양을 하고 있습니다. 그 형태는 무덤과 세례원에서 널리 사용되었고 이후의 오스만과 르네상스의 건축 전통을 알렸습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BASILICA_STRATEGY">
+			<Text>사원을 대체하는 비잔티움의 고유 건물입니다. 유지비가 필요하지 않으며, 도시의 [ICON_CITIZEN] 시민의 수에 기반해 [ICON_PEACE] 신앙을 제공합니다. 교역로에서 오는 종교 압력이 두 배로 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BASILICA_HELP">
+			<Text>사원을 대체하는 비잔틴의 고유 건물입니다. [ICON_CITIZEN]시민 3명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE] 교역로가 제공하는 종교 압력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_AMBER] 호박석: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1</Text>
+		</Row>	
+		<!-- Carthage -->
+		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON">
+			<Text>코톤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_PEDIA">
+			<Text>코톤은 기원전 200년 경 포에니 전쟁 동안 카르타고에 있었던 것과 같은 인공적이고 보호된 내부 항구입니다. 카르타고의 코톤은 직사각형 모양의 상항으로 나뉘었고 군사용으로만 사용 가능한 내부 보호 항구가 이어졌습니다. 이 내부 항구는 원형이었고 선박 정비를 위한 일련의 도킹 베이로 분할된 구조의 외부 링으로 둘러싸여 있었고, 그 중심에는 해군 선박도 수용된 섬 구조물이 있었습니다. 각각의 도킹 베이는 상승된 슬립웨이를 특징으로 합니다. 높이 솟은 도킹 베이 위에는 나무와 캔버스 같은 보급품과 함께 노와 장비들이 보관되어 있는 창고로 구성된 2층이 있었습니다. 섬 구조에는 사령관이 주변 바다와 함께 항만 전체를 관찰할 수 있는 높은 오두막이 있었습니다. 내부 도킹 단지는 모두 합쳐서 최대 220척의 선박을 수용할 수 있습니다. 전체 항구는 외벽으로 보호되었고 주요 입구는 쇠사슬로 막을 수 있었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_STRATEGY">
+			<Text>동인도 회사를 대체하는 카르타고의 고유 건물입니다. 도시에 시장이 있어야 건설할 수 있습니다. 동인도 회사의 기본 보너스에 더해, 코톤은 교역로를 보낼 때와 교역로의 대상이 되었을 때의 양측의 골드를 증가시키고, 교역로를 추가로 둘 제공합니다. 모든 항만의 생산이 +3 증가하고, 모든 등대의 문화가 +2 증가합니다. 동인도 회사와 다르게, 코톤은 고전 시대부터 건설할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_HELP">
+			<Text>동인도 회사를 대체하는 카르타고의 고유 건물입니다. 이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]합니다. 이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다. 모든 항만의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고, 모든 등대의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 도시에서 [ICON_GOLD]빈곤 [ICON_HAPPINESS_3] 불행이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 감소하고, 다른 모든 도시에서 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]시장[ENDCOLOR]이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		<!-- Celts -->
+		<Row Tag="TXT_KEY_BUILDING_CEILIDH_HALL_HELP">
+			<Text>서커스를 대체하는 켈트의 고유 건물입니다. 건물이 완성되면 도시에 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] 제공하고 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_IVORY] 상아: [ICON_CULTURE]문화 +3</Text>
+		</Row>
+		<!-- Denmark -->
+		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES">
+			<Text>룬스톤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_PEDIA">
+			<Text>룬스톤은 일반적으로 룬 문자가 새겨진 돌출된 돌이지만, 이 용어는 바위와 암반에 새겨진 글에도 적용될 수 있습니다. 그 전통은 4세기에 시작되었고 12세기까지 지속되었지만, 대부분의 룬돌들은 바이킹 시대 후기로 거슬러 올라갑니다. 대부분의 룬돌은 스칸디나비아에 있지만, 바이킹 시대에 노르드인들이 방문했던 장소에도 산재해 있습니다. 룬돌은 종종 죽은 사람의 기념물입니다. 룬돌은 세울 때 대개 밝은 색을 띠었지만, 색이 닳아 더 이상 뚜렷하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_HELP">
+			<Text>등대를 대체하는 덴마크의 고유 건물입니다. 이 도시에서 생산하는 유닛이 타일을 약탈할 때 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 근접 및 해상 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]도시 주변 해양 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 이 도시에서 출발하는 국내 [ICON_TURNS_REMAINING]교역로의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_CONNECTED]육상으로 연결되지 않은 도시와 [ICON_CAPITAL]수도를 [ICON_CONNECTED]해안 도시로 연결합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_STRATEGY">
+			<Text>등대를 대체하는 덴마크의 고유 건물입니다. 기존 등대의 보너스에 추가로 룬스톤은 이 도시에서 생산된 유닛이 약탈할 때 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드를 얻습니다. (도로와 철도 제외) 해양 타일에 추가 식량을 생성하고, 근접과 해양 유닛의 생산을 가속시킵니다. 등대와는 다르게, 해안 도시가 아니어도 건설할 수 있습니다.</Text>
+		</Row>
+		<!-- England -->
+		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER">
+			<Text>화이트 타워</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WHITE_TOWER_TEXT">
+			<Text>화이트 타워는 런던 타워의 오래된 건물입니다. 그것은 1080년대 초에 정복자 윌리엄에 의해 지어졌고 나중에 확장되었습니다. 하얀 탑은 성의 가장 강력한 방어 지점이었고, 원래 왕과 그의 대리인들을 수용했습니다. 오랜 역사를 통해, 타워는 영국에 많은 것들이 되었습니다. 폭정의 상징, 금고, 관리소, 조폐소, 궁전, 감옥입니다. 오늘날, 런던탑은 많은 보물들 중, 영국 왕실의 왕관 보석을 자랑하는 거대한 박물관입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_HELP">
+			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 포함합니다. [NEWLINE][NEWLINE] 이 도시에 잠입한 외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_RESEARCH]과학과 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다[COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5)[ENDCOLOR]. [NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_STRATEGY">
+			<Text>제철소를 대체하는 영국의 고유 건물입니다. 제철소의 보너스에 더해, 화이트 타워는 경찰대와 성, 무기고를 강화하고 걸작 예술품을 포함합니다. 공격적 또는 방어적 스파이 액션에 보너스를 국가 정보원보다 일찍 제공합니다.</Text>
+		</Row>
+		<!-- Ethiopia -->
+		<Row Tag="TXT_KEY_BUILDING_STELE_HELP">
+			<Text>기념비를 대체하는 에티오피아의 고유 건물입니다. [ICON_CULTURE_LOCAL] 국경 확장 속도가 34% 증가합니다. [ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<!-- Greece -->
+		<Row Tag="TXT_KEY_BUILDING_ODEON">
+			<Text>아크로폴리스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ODEON_TEXT">
+			<Text>아크로폴리스는 고지대에 지어진 정착지, 특히 성채로, 방어 목적으로 선택된 가파른 면이 있는 언덕을 말합니다. 세계의 많은 곳에서, 아크로폴리스는 고대 로마와 같은 고전 고대 대도시의 핵이 되었고, 이러한 이유로 그들은 때때로 현대 로마와 같은 고대 도시들의 두드러진 랜드마크입니다. 아크로폴리스라는 단어는 문자 그대로 그리스어로 "상층 도시"를 의미하며, 주로 그리스 도시 아테네, 아르고스와 관련이 있지만, 테베(카드메아 포함)와 코린토스(아크로코린트 포함)는 로마, 예루살렘, 켈트 브라티슬라바, 소아시아의 많은 지역, 또는 에든버러 성의 바위를 포함한 모든 도시들에 일반적으로 적용될 수 있습니다. 아일랜드의 예로는 카셸의 바위가 있습니다. 아크로폴리스는 또한 북서 이베리아 언덕 꼭대기에 위치한 도시 카스트로 문화 정착지를 위해 고고학자들과 역사가들에 의해 사용되는 용어입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_HELP">
+			<Text>원형극장을 대체하는 그리스의 고유 건물입니다. 도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 도시의 [ICON_GREAT_WRITER]위대한 작가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 작가 길드의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE]적 유닛을 처치할 때 이 도시에 [ICON_CULTURE_LOCAL]국경 확장 점수를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 유닛이 이 도시에서 생산 되었다면 추가로 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE][ICON_RES_DYE] 염료: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_SILK] 비단: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_LAPIS] 청금석: [ICON_CULTURE]문화 +2[NEWLINE][ICON_RES_BRAZILWOOD] 브라질 소방목: [ICON_CULTURE]문화 +1, [ICON_GOLD]골드 +1[NEWLINE][NEWLINE]테마보너스: [ICON_CULTURE]문화 +2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
+			<Text>원형 극장을 대체하는 그리스의 고유 건물입니다. 아크로폴리스를 건설해 도시의 방어력, 문화, 관광을, 특히 전쟁 시에 더욱 향상시키십시오. 위대한 작가 생성률과 작가 길드의 가치를 증가시키고 또한 [ICON_TOURISM] 관광을 +3 제공합니다.</Text>
+		</Row>
+		<!-- India -->
+		<Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT_CBP">
+			<Text>다르마</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDUS_CANAL">
+			<Text>하라파 저수지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_INDUS_CANAL_TEXT">
+			<Text>파키스탄과 인도의 일부를 포함한 서북남아시아의 고대 하라판 및 인더스 계곡 문명은 수력 공학에서 두드러졌고, 최초의 물 공급과 위생 장치를 많이 가지고 있었습니다. 무엇보다도, 그것들은 세계에서 가장 오래된 수세식 화장실 시스템을 포함하고 있었습니다. 이것들은 많은 가정에서 존재했고, 일반적인 하수관과 연결되어 있었습니다. 대부분의 집에는 개인 우물도 있었습니다. 도시 성벽은 홍수에 대한 장벽으로 기능했고, 가뭄을 막기 위해 이 홍수 물을 모으기 위해 거대한 저수지가 종종 이 벽을 따라 건설되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDUS_CANAL_HELP">
+			<Text>송수로를 대체하는 인도의 고유 건물입니다. [ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 다음 [ICON_CITIZEN]시민을 위해 사용할 수 있습니다. [ICON_CITIZEN]시민이 증가할 때 현재 [ICON_PRODUCTION]생산 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 즉시 제공합니다.[NEWLINE][NEWLINE]도시 주변 범람원 타일의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 도시 주변 오아시스 및 호수 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 농장의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDUS_CANAL_STRATEGY">
+			<Text>이 독특한 송수로를 건설해 인구를 성장시키십시오. 이 건물은 특히 범람원에 세워진 도시에 유용합니다.</Text>
+		</Row>
+		<!-- Japan -->
+		<Row Tag="TXT_KEY_BUILDING_DOJO">
+			<Text>도조</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DOJO_TEXT">
+			<Text>도조는 문자 그대로 "길의 장소"를 의미하는 일본 용어입니다. 처음에, 도조는 절에 부속된 것이었습니다. 이 용어는 일본의 도예에 대한 공식적인 훈련 장소를 의미할 수 있지만, 일반적으로 가라테, 유도, 사무라이와 같은 모든 일본 무술 스타일의 학생들이 훈련, 시험 및 기타 관련 만남을 수행하는 공식적인 집합 장소로 여겨집니다. 도조의 개념은 서양의 개념이며, 일본에서는 프로레슬링 학교를 포함한 어떤 신체 훈련 시설도 도조라고 불릴 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
+			<Text>무기고를 대체하는 일본의 고유 건물입니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시에서 생산하는 모든 유닛의 경험치가 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시에서 생산하는 모든 기마, 근접, 화약, 기갑 유닛에 [COLOR_PLAYER_PURPLE]무사도[ENDCOLOR] 승급을 부여합니다. 유닛이 전투로 경험치를 얻을 때 동일한 양의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학을 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
+			<Text>이 독특한 무기고로 군사를 훈련시키십시오. 이 건물은 병영을 요구하지 않습니다. 모든 근접, 기마, 화약, 기갑 유닛이 무사도의 여덟 길 승급을 얻어, 유닛이 피해를 주면 피해를 받았을 때 유용한 여덟 개의 승급 중 하나의 승급을 얻습니다. 유닛이 전투로 경험치를 얻을 때 과학과 문화를 얻습니다.</Text>
+		</Row>
+		<!-- Korea -->
+		<Row Tag="TXT_KEY_BUILDING_SEOWON">
+			<Text>서원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SEOWON_TEXT">
+			<Text>서원은 조선 중후기에 한국에서 가장 흔한 교육 기관이었습니다. 그들은 사립 기관이었고, 유교 사당과 예비 학교의 기능을 결합했습니다. 교육적인 측면에서, 서원은 주로 국가 공무원 시험을 준비하는 학생들로 채워졌습니다. 대부분의 경우, 서원은 귀족 양반 계급의 학생들만 섬겼습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEOWON_HELP">
+			<Text>대학을 대체하는 한국의 고유 건물입니다. 도시 주변 정글 타일과 설원 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작과 근처 위인 타일에서 오는 [ICON_PRODUCTION]생산 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 증가할 때 현재 [ICON_RESEARCH]과학 산출량의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]를 즉시 제공합니다. [NEWLINE][NEWLINE][ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEOWON_STRATEGY">
+			<Text>대학을 대체하는 한국의 고유 건물입니다. 대학보다 과학과 생산을 더 많이 생산합니다. 위인 생성 속도를 증가시켜 위인을 더 많이 생산하도록 하고, 위인 타일과 걸작의 산출을 증가시켜 한국의 고유 능력에 도움을 줍니다.</Text>
+		</Row>
+		<!-- Mongolia -->
+		<Row Tag="TXT_KEY_BUILDING_YURT">
+			<Text>게르</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_YURT_TEXT">
+			<Text>몽골 사람들에 의해 '게르'라고 불리는 유르트는 중앙아시아 스텝의 유목민들에 의해 전통적으로 그들의 보금자리로 사용되는 이동 가능하고 구부러진 주거 구조입니다. 구조는 크라운 또는 압축 휠(보통 증기가 휘어짐)로 구성되며, 루프 리브에 의해 지지되며, 루프 리브는 격자 벽과 만나는 단부에서 아래로 휘어집니다(다시 증기가 휘어짐). 루프 리브의 힘에 대항하는 장력 밴드를 사용하여 벽 상단이 퍼지는 것을 방지합니다. 그 구조물은 보통 단열과 내후성을 위해 천과 양의 털 펠트 층으로 덮여 있습니다. 유르트의 전통적인 장식은 주로 패턴에 기반합니다. 이러한 문양은 일반적으로 취향에 따라 만들어진 것이 아니라, 특정한 상징성을 지닌 신성한 장신구에서 파생된 것입니다. 힘을 나타내는 상징은 카(사자, 호랑이, 가루다, 용)와 다섯 가지 요소(불, 물, 흙, 금속, 나무)의 양식화된 표현뿐만 아니라 우주의 기본적이고 변하지 않는 요소라고 여겨지는 카(사자, 호랑이, 가루다, 용)를 포함한 가장 일반적인 것들 중 하나입니다. 이러한 패턴은 힘을 가져오고 보호를 제공한다는 믿음과 함께 가정에서 일반적으로 사용됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_YURT_HELP">
+			<Text>훈제실을 대체하는 몽골의 고유 건물입니다. 야영지와 목장에서 [ICON_PRODUCTION] 생산을 +1 얻습니다. 이 도시의 [ICON_CULTURE_LOCAL] 국경 확장 속도가 34% 증가하고 확장에 필요한 [ICON_GOLD] 골드기 25% 감소합니다. 도시 영역이 확장될 때 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 5 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 이 도시의 [ICON_CULTURE_LOCAL] 국경 확장 속도가 +2 증가합니다.[NEWLINE][NEWLINE][ICON_RES_DEER] 사슴: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_BISON] 들소: [ICON_FOOD] 식량 +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_YURT_STRATEGY">
+			<Text>훈제실을 대체하는 몽골의 고유 건물입니다. 훈제실의 보너스에 더해, 게르는 목장에도 식량 보너스를 제공합니다. 또한 약간의 신앙을 제공하고, 유지비가 없습니다. 게르를 지어 도시의 성장을 최대화하고 빠르게 종교관을 얻으십시오.</Text>
+		</Row>
+		<!-- Ottoman -->
+		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP">
+			<Text>공성 주조 공장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SIEGE_WORKSHOP_TEXT">
+			<Text>주조 공장은 금속 주물을 생산하는 공장입니다. 금속은 액체로 녹여 금형에 부은 다음 금속이 냉각되면서 굳어진 후 금형 재료나 주물을 제거함으로써 모양으로 주조됩니다. 가장 일반적으로 가공되는 금속은 알루미늄과 주철입니다. 그러나 청동, 황동, 강철, 마그네슘 및 아연과 같은 다른 금속도 주조 공장에서 주물을 생산하는 데 사용됩니다. 이 과정에서 원하는 모양과 크기의 부품이 형성될 수 있습니다. 전쟁 상황에서 주조 공장은 대포 및 기타 필수 포위 장비 생산에 필수적이었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_HELP">
+			<Text>도시의 광산과 [ICON_VP_ENGINEER] 기술자의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]일제 사격[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_GOLD]골드 +2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_STRATEGY">
+			<Text>대장간을 대체하는 오스만의 고유 건물입니다. 군사 유닛을 생산하면 추가 과학을 제공하고, 공성 유닛을 매우 빠르게 생산하며 공성 유닛에 [COLOR_POSITIVE_TEXT]일제 사격[ENDCOLOR] 승급을 부여합니다. 적의 방어벽을 무너뜨리고 영토를 정복하기 위해 대규모 포병력을 구축하려면 공성 주조 공장을 건설하십시오.</Text>
+		</Row>
+		<!-- Rome -->
+		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM">
+			<Text>콜로세움</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_FLAVIAN_COLOSSEUM_TEXT">
+			<Text>플라비안 원형극장 또는 콜로세움은 모든 역사에서 가장 유명한 장소 중 하나입니다. 고대 로마에는 콜로세움이 하나밖에 없었지만, 그 디자인의 변형은 제국 전역과 오늘날까지 재현되었습니다. 콜로세움은 대중들이 스포츠 경기를 볼 수 있는 야외 장소입니다. 시간과 장소에 따라, 그 행사는 검투사 대회, 미식축구 경기 또는 축구 경기가 될 수 있습니다. 언급된 세 개의 대회 중 검투사 전투는 아마도 관련된 선수들에게 가장 어려웠을 것이고, 축구 경기는 참가자들에게 (때로는) 거의 위험했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_HELP">
+			<Text>투기장을 대체하는 로마의 고유 건물입니다. 시민 3명마다 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 적 유닛을 처치할 때 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 유닛이 이 도시에서 생산 되었다면 추가로 [ICON_GREAT_PEOPLE]위대한 장군/제독 점수를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_PERFUME] 향수: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_OLIVE] 올리브: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_STRATEGY">
+			<Text>투기장을 대체하는 로마의 고유 건물입니다. 콜로세움을 건설해 도시의 문화, 관광, 생산을 향상시키고, 적을 처치하고 승리해 효과를 최대화하십시오. 모든 콜로세움은 모든 도시 연결에 약간의 보너스를 주어, 로마가 거대한 제국을 형성할 수 있게 합니다.</Text>
+		</Row>
+		<!-- Spain -->
+		<Row Tag="TXT_KEY_BUILDING_MISSION">
+			<Text>전도관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MISSION_TEXT">
+			<Text>가톨릭 교회에 따르면 선교회는 지역 주민들을 가르치고 보살피고 돕는 데 헌신하는 종교 공동체로서 그리스도의 이상을 지지합니다. 그러나, 실제로, 그 임무는 지역 주민들을 개종시키고 문화적 동화를 통해 그들을 "문명화"하는 데 전념했습니다. 스페인 선교단은 교회, 기숙사, 작업실 및 학교가 있는 자급자족하는 전통적인 본보기 역할을 합니다. 어떤 곳에서는 심지어 요새화되어 있었고, 반격으로부터 스스로를 방어할 준비가 되어 있었습니다. 미주, 아시아, 아프리카의 선교는 대부분 교회 자체보다는 프란치스코회, 예수회, 도미니카회, 아우구스티누스 등 종교 교단에 의해 이뤄졌지만 효과는 마찬가지였습니다. 선교는 종종 스페인, 프랑스, 포르투갈의 식민지화 노력이 합쳐질 수 있는 핵심 역할을 했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSION_HELP">
+			<Text>수비적인 종교 건물입니다. 스페인 콩기스타도르로 정착한 도시에서만 신앙으로 구매할 수 있습니다.[NEWLINE][NEWLINE]하시엔다가 [ICON_PEACE] +1 신앙을 얻습니다. 건설을 완료하면, 이 도시를 [ICON_CAPITAL] 수도의 대중 종교로 개종합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSION_STRATEGY">
+			<Text>전도관은 콩기스타도르로 개척한 도시에서만 구매 가능한 건물입니다. 작은 신앙 보너스와 도시 방어력 보너스를 주고 주변 하시엔다의 산출량을 증가시킵니다. 전도관은 건설될 때 선교를 수행해 도시의 종교를 수도의 종교로 개종합니다.</Text>
+		</Row>
+		<!-- Sweden -->
+		<Row Tag="TXT_KEY_BUILDING_SKOLA">
+			<Text>스콜라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SKOLA_TEXT">
+			<Text>스웨덴 공립학교는 세금으로 운영됩니다. 이는 초등학교와 중학교(스웨덴어: grundskola), 고등학교(스웨덴어: 김나지움) 및 대학교 모두에 해당됩니다. 하지만, 대학에서 공부할 때, 숙소와 문학에 대한 비용을 지불해야 할 수도 있습니다. 정부로부터 지원금을 받는 사립학교들도 있지만, 그들은 학부모들로부터 비용을 청구할 수도 있습니다.[NEWLINE][NEWLINE]필수 교육은 7세부터 시작되며, Förskola(취학 전)에서 선택적인 해를 가집니다. 스웨덴 초등학교는 3개의 부분으로 나뉘는데, "낮은 단계"인 "Logstadiet"는 1학년부터 3학년까지를 포함합니다. 여기서 스웨덴어, 영어, 수학이라는 세 가지 주요 과목의 기초를 배울 수 있습니다. 그것은 또한 약간의 자연 과학도 포함합니다. "중간 단계"인 "멜란슈타디트"는 4~6학년을 대상으로 아이들에게 더 자세한 주제를 소개합니다. 목공과 바느질, 사회와 국내 과학, 그리고 심지어 제2외국어인 6학년 B-스프락 (B-language)도 있습니다. 사용 가능한 언어는 보통 학교에 따라 프랑스어, 스페인어 또는 독일어입니다. Högstadiet, "고등 단계"는 7학년에서 9학년 사이의 의무 교육의 마지막 단계입니다. 이것은 연구가 더 깊이 있게 되고 국제적인 수준으로 옮겨질 때입니다.[NEWLINE][NEWLINE]스웨덴 어린이들은 3학년, 6학년, 9학년에 국가 시험을 봅니다. 3학년 아이들은 세 가지 주요 과목 중 두 가지에서 이러한 시험을 치릅니다. 스웨덴어와 수학입니다. 5학년에서는 시험이 세 번째 주요 과목인 영어, 9학년에서는 자연과학, 외국어, 그리고 "삼헬소리엔트리"(지리, 역사, 종교학, 시민학)의 네 가지 과목 중 하나로 확장됩니다. 그들은 우선 6학년 때 성적을 받습니다. 등급 시스템은 문자 기반이며, F가 가장 낮은 등급이고 A가 가장 높은 등급입니다. F는 "승인되지 않음"을 의미하며, F 위의 다른 모든 등급은 "승인됨"을 의미합니다. E, C 및 A에는 목표만 있습니다. D는 C에 대한 목표를 대부분 달성했다는 의미이고, B는 A에 대한 목표를 대부분 달성했다는 의미입니다. 체육관(고등학교)이나 대학에 지원할 때, 메리트바르드("메리트 포인트 값")가 계산됩니다. E는 10점, D는 12.5점, C는 15점 등의 가치가 있습니다. 스웨덴어, 영어, 수학에서 승인을 받지 못한 아이들은 "개인 프로그램"이라고 불리는 특별한 고등학교 프로그램에서 공부해야 합니다. 일단 승인되면, 그들은 평범한 고등학교 프로그램에 지원할 수 있습니다. 스웨덴 사람들은 16세에서 18세 사이의 3년 동안 고등학교에서 공부합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SKOLA_STRATEGY">
+			<Text>공립학교를 대체하는 스웨덴의 고유 건물입니다. 더 저렴하고, 더 효과적이고 유지비도 더 낮으며 추가로 [ICON_CULTURE]문화도 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SKOLA_HELP">
+			<Text>공립학교를 대체하는 스웨덴의 고유 건물입니다. [ICON_CITIZEN]시민 2명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CITIZEN]시민 2명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		<!-- Venice -->
+		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT">
+			<Text>리알토 지구</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_RIALTO_DISTRICT_TEXT">
+			<Text>리알토는 수세기 동안 베네치아의 금융과 상업의 중심지였고 지금도 그렇습니다. 리알토는 시장과 대운하를 가로지르는 리알토 다리로도 유명한 이탈리아 베네치아의 산 폴로 세스티에 지역입니다. 이 지역은 리오 부시니아쿠스의 양쪽에 있는 레알티네 제도 중앙의 작은 지역이 리보알투스 또는 "높은 은행"으로 알려졌을 때 9세기에 정착했습니다. 결국 부시니아쿠스는 대운하로 알려지게 되었고, 리알토 지역은 왼쪽 둑의 지역만을 지칭하게 되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_STRATEGY">
+			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 교역로의 가치를 증가시키고, 베니스가 생산하는 턴당 골드 100마다 세계 의회 대표단을 하나 얻고, 생존한 도시국가마다 25% 증가합니다. (최소 대표단 1) 또한, 유닛과 건물의 투자 비용을 10% 감소시킵니다. 아스넬 디 베네치아 또는 무라노 유리공방과 함께 건설할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_HELP">
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 모든 도시에서 [ICON_GOLD]골드로 유닛을 구매하거나 건물 건설에 투자하는 비용이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] [COLOR:105:105:105:255]([ICON_CAPITAL]수도는 15%)[ENDCOLOR] 감소합니다. 도시의 턴당 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 [COLOR:105:105:105:255](한도: 현존 모든 도시 국가 수의 [COLOR_NEGATIVE_TEXTTIVE_TEXT]25%[ENDCOLOR])[ENDCOLOR] 확보합니다. 제국 전체의 [ICON_CITIZEN] 시민 3명마다 [ICON_GOLD] 골드를 +1 얻습니다. [COLOR_POSITIVE_TEXT]추가[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] 교역로 슬롯을 얻습니다. [NEWLINE][NEWLINE]이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시에 [COLOR_NEGATIVE_TEXT]아스넬 디 베네치아[ENDCOLOR] 또는 [COLOR_NEGATIVE_TEXT]무라노 유리공방[ENDCOLOR]이 없어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE">
+			<Text>아스넬 디 베네치아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_VENETIAN_ARSENALE_TEXT">
+			<Text>아스넬 디 베네치아는 이탈리아 북부 베네치아 시에 있는 옛 조선소와 무기고가 모여 있는 복합 건물입니다. 국가 소유의 이 건물은 서기 2천년 중반 동안 베네치아 공화국의 해군 전력 대부분을 책임졌습니다. 그것은 역사상 최초의 대규모 산업체 중 하나였습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE_STRATEGY">
+			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 생산을 가속시키고, 도시 방어를 향상시키고, 군사 유닛 보급 한도를 증가시키며 해군 유닛에게 베네치아 공작술 승급을 부여해 전투력과 이동력을 향상시킵니다. 리알토 지구 또는 무라노 유리공방과 함께 건설할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE_HELP">
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시의 [ICON_STRENGTH] 전투력과 [ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 +10% 증가합니다. ([ICON_CAPITAL] 수도는 15%).[NEWLINE][NEWLINE]이 도시에서 출발하는 [ICON_INTERNATIONAL_TRADE] 국제 교역로의 [ICON_PRODUCTION] 생산이 +4 증가합니다.[NEWLINE][NEWLINE]모든 해상 유닛에 [COLOR_PLAYER_PURPLE]베네치아 공작술[ENDCOLOR] 승급을 부여해, [ICON_STRENGTH] 전투력 +10%와 [ICON_MOVES] 이동력 +1을 얻습니다.[NEWLINE][NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 필요 [ICON_CITIZEN] 인구수가 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO">
+			<Text>피아자 산 마르코</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_PIAZZA_SAN_MARCO_TEXT">
+			<Text>피아자 산 마르코(산 마르코 광장)는 이탈리아 베네치아의 광장입니다. 도시의 다른 모든 공간은 "캄피"(밭)라고 불립니다. 피아제타('작은 광장')는 광장의 남동쪽 구석에 있는 석호를 향해 연장된 것입니다. 이 두 공간은 함께 베네치아의 사회적, 종교적, 정치적 중심지를 형성하며 일반적으로 함께 건설됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_STRATEGY">
+			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 국가 기념비의 능력 대신 도시 다양한 산출을 약간씩 증가시키고 위인을 가속시키는 능력이 있습니다. 이것은 당신의 수도이 골드, 과학, 기타 중요한 자원들의 도난으로부터 더 안전해 졌다는 것을 뜻합니다. 길드를 연구하면 무라노 유리공방, 아스넬 디 베네치아, 리알토 지구를 건설할 수 있습니다. 한 게임 안에서 셋 중 하나만 건설할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_HELP">
+			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 도시에 [ICON_CITIZEN] 시민이 탄생할 때마다 [ICON_CULTURE] 문화를 15 얻습니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. 도시의 민간 유닛 구매 대기시간이 3턴으로 감소하고, 군사 유닛 구매 대기시간은 사라집니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]길드[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아스넬 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_CAPITAL][COLOR_YELLOW]수도[ENDCOLOR]에만 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS">
+			<Text>무라노 유리공방</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_MURANO_GLASSWORKS_TEXT">
+			<Text>유리 제조의 중심지로서의 무라노의 명성은 화재와 도시의 대부분 목조 건물의 파괴를 두려워한 베네치아 공화국이 1291년 유리 제조자들에게 그들의 주조 공장을 무라노로 옮기라고 명령하면서 탄생했습니다. 무라노 유리공방은 여전히 베네치아 유리와 관련이 있습니다. 무라노의 유리 제조업자들은 곧 섬의 가장 유명한 시민들 중 한 명으로 꼽혔습니다. 14세기까지 유리 제조업자들은 검을 착용할 수 있었고, 베네치아 국가로부터 기소 면제를 받았으며, 그들의 딸들은 베네치아의 가장 부유한 가문과 결혼했습니다. 특정 법적 특권의 혜택을 받는 대신, 유리 제조업자들은 공화국을 떠나는 것이 금지되었습니다. 하지만, 그들 중 다수는 이주와 관련된 위험을 감수하고 주변 도시와 더 먼 곳, 심지어 영국과 네덜란드에도 유리 용광로를 설립했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_STRATEGY">
+			<Text>베네치아의 수도에만 지을 수 있는 고유 건물입니다. 모든 도시의 위인 시설과 마을의 가치를 증가시키고, 예술품/유물 슬롯을 둘 제공합니다. 문화 승리를 노릴 때 이 건물을 건설하십시오. 아스넬 디 베네치아나 리알토 지구와 함께 건설할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_HELP">
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 [COLOR_YELLOW]피아자 산 마르코[ENDCOLOR]가 있어야 건설할 수 있습니다. 모든 [ICON_GREAT_PEOPLE]위인 시설 및 마을의 [ICON_FOOD]식량 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CARAVAN]/[ICON_CARGO_SHIP] 교역로 완료 시 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]을 발동시킵니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_RESEARCH]과학 +5[NEWLINE][NEWLINE] 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MURANO_GLASSWORKS">
+			<Text>무라노 명작 컬렉션</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_THEMING_BONUS_HELP">
+			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]건물 소유자[ENDCOLOR]가 만든 [COLOR_YELLOW]예술품[ENDCOLOR]으로 채우십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CATTARO">
+			<Text>카타로 </Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CORFU">
+			<Text>코르푸</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CORON">
+			<Text>코론</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CANDIA">
+			<Text>칸디아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CHIOGGIA">
+			<Text>키오자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MODON">
+			<Text>모돈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ERACLEA">
+			<Text>에라끌레아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AQUILEA">
+			<Text>아퀼리아</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SPALATO">
+			<Text>스팔라토</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ZADAR">
+			<Text>자다르</Text>
+			<Plurality>2</Plurality>
+		</Row>
+	</Language_ko_KR>
+</GameData>

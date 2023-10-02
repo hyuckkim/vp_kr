@@ -3258,9 +3258,6 @@
 			<Text>{1_Civ}{1: plural 1?은; 2?는;} 당신이 이 타일 주변을 탐험하길 바랍니다.</Text>
 		</Row>
 		<!-- Update resurrection text (voluntary vassals) -->
-		<Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED_VOLUNTARY_VASSAL">
-			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} {2_CityName}를 점령했고, {3_CivAdj}{3: plural 1?이; 2?가;} 주권을 회복했습니다. 꺼졌던 {4_CivName}의 불꽃이 다시 타오르기 시작합니다. {4_CivName}{4: plural 1?은; 2?는;} {1_PlayerName}의 종주국 입니다.</Text>
-		</Row>
 		<!-- Automation -->
 		<!-- Automation Text -->
 		<Row Tag="TXT_KEY_ACTION_AUTOMATE_MISSIONARY">
@@ -4446,6 +4443,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT_VARIABLE_THRESHOLD">
 			<Text>공물 요구에 필요한 기준인 [COLOR_CYAN]+{2_Threshold}%[ENDCOLOR]보다 {1_FactorScore}% 낮아 [COLOR_WARNING_TEXT]불복[ENDCOLOR]합니다: </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NO_CAPITAL">
+			<Text>수도가 아님</Text>
 		</Row>
 		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
@@ -7520,6 +7520,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_DAMAGE_REDUCTION_LABEL">
 			<Text>피해 감소:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
+			<Text>피해 감소: +{1_Num}</Text>
 		</Row>
 
 		<!-- Great Person Progress -->
