@@ -204,6 +204,11 @@
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
 
+		<!-- Multiplayer Desync Warning -->
+		<Row Tag="TXT_KEY_VP_MP_WARNING_DESYNC">
+			<Text>클라이언트가 비동기화 되었습니다. 정의되지 않은 동작이 발생할 수 있습니다. Github에 버그를 제보해주세요: https://github.com/LoneGazebo/Community-Patch-DLL/issues</Text>
+		</Row>
+
 		<!-- City-State UI -->
 		<Row Tag="TXT_KEY_NEUTRAL_CSTATE">
 			<Text>중립적</Text>
