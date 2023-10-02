@@ -2,12 +2,12 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="17">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(4.0) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(4.1.1) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>9</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>17</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -44,7 +44,7 @@
     <File md5="F6C1329200BF3B40AB014EDCB81DA6AB" import="0">Database Changes/Text/ko_KR/City/SpecialistTextChanges.sql</File>
     <File md5="ED30776EF5CB926B03F9CAEE270B8357" import="0">Database Changes/Text/ko_KR/Civilizations/CivilizationTextChanges.sql</File>
     <File md5="3E6D04A14EBFFDE72EB7CB32B521EDCC" import="0">Database Changes/Text/ko_KR/Civilizations/NewCivilizationText.xml</File>
-    <File md5="8B1DA4FA8BA842B082433C8883FBCD22" import="0">Database Changes/Text/ko_KR/Concepts/ConceptTextChanges.sql</File>
+    <File md5="63C7FC02BB7561C256C2AED4BBC2BA6C" import="0">Database Changes/Text/ko_KR/Concepts/ConceptTextChanges.sql</File>
     <File md5="6EA8FE1B9EF39715EBD34EA26B1FB434" import="0">Database Changes/Text/ko_KR/Concepts/NewConceptText.xml</File>
     <File md5="BBAA961DCD8DCFFE95C85F7FEF41E06E" import="0">Database Changes/Text/ko_KR/Corporations/NewCorporationText.xml</File>
     <File md5="A12CCE32BEEECA72737C26A2BE2D95E6" import="0">Database Changes/Text/ko_KR/Difficulty/DifficultyTextChanges.sql</File>
