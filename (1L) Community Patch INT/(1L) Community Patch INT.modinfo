@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="121">
+<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="122">
   <Properties>
     <Name>(1L) Community Patch Localized</Name>
-    <Teaser>(3.10.14) Translation of the Community Patch</Teaser>
+    <Teaser>(4.0) Translation of the Community Patch</Teaser>
     <Description>Translation of the Community Patch to different languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>121</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>122</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -32,7 +32,7 @@
     <File md5="BE241C0AC7A744F9644C8A7D1E2468BC" import="0">Core Files/PNM Mods DB/BUGFIX/ko_KR/UnitclassNotUnit.xml</File>
     <File md5="6D7FBF03168942B330DF290F20EC983F" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/UnitNaming.xml</File>
     <File md5="69BD792128FC2B9037C2339F5F6CF1F3" import="0">Core Files/PNM Mods DB/PROMOTIONS/ko_KR/VariableRecon.xml</File>
-    <File md5="51EAF7DDBBFA379D47EC37171C37667B" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
+    <File md5="5BB787F9D0BEF21905A52DB54AA1086C" import="0">Core Files/Text/CoreText_ko_KR.xml</File>
     <File md5="C87ACB4863AB93318B86E0C7BDA8776A" import="0">Core Files/Text/CoreText_ko_KR.sql</File>
     <File md5="E9AA6ACEE70DFEE17670856029EA633A" import="0">Modules/Events/Text/ko_KR/City_ko_KR.xml</File>
     <File md5="1EAE281F7F8B6C7C2A03B74A9148DC7F" import="0">Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</File>
@@ -51,9 +51,6 @@
       <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/ko_KR/VariableRecon.xml</UpdateDatabase>
       <UpdateDatabase>Core Files/Text/CoreText_ko_KR.sql</UpdateDatabase>
       <UpdateDatabase>Core Files/Text/CoreText_ko_KR.xml</UpdateDatabase>
-      <UpdateDatabase>Modules/Events/Text/ko_KR/City_ko_KR.xml</UpdateDatabase>
-      <UpdateDatabase>Modules/Events/Text/ko_KR/EventCore_ko_KR.xml</UpdateDatabase>
-      <UpdateDatabase>Modules/Events/Text/ko_KR/Player_ko_KR.xml</UpdateDatabase>
       <UpdateDatabase>Modules/MoreGP/ExtraGPs.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
