@@ -63,7 +63,7 @@ SET Text = '적 유닛 또는 도시에 주둔한 유닛을 손상시키는 데 
 WHERE Tag = 'TXT_KEY_UNIT_HELP_GUIDED_MISSILE';
 
 UPDATE Language_ko_KR
-SET Text = '유도 미사일은 원샷 유닛으로 적의 표적을 공격할 때 파괴됩니다. 유도 미사일은 플레이어가 소유한 우호적인 도시에 기반을 두거나 핵잠수함 또는 미사일 순양함에 장착할 수 있습니다. 그들은 기지 사이를 이동하거나 적 부대를 공격할 수 있습니다. 자세한 내용은 항공기 규칙을 참조하십시오.'
+SET Text = '유도 미사일은 원샷 유닛으로 적의 표적을 공격할 때 파괴됩니다. 유도 미사일은 플레이어가 소유한 우호적인 도시에 기반을 두거나 핵잠수함, 미사일 구축함 또는 미사일 순양함에 장착할 수 있습니다. 그들은 기지 사이를 이동하거나 적 부대를 공격할 수 있습니다. 자세한 내용은 항공기 규칙을 참조하십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_GUIDED_MISSILE_STRATEGY';
 
 -- Atomic Bomb
@@ -309,21 +309,33 @@ WHERE Tag = 'TXT_KEY_UNIT_CARRIER_STRATEGY';
 
 -- Battleship
 UPDATE Language_ko_KR
-SET Text = '가장 강력한 원거리 해상 유닛입니다. [COLOR_PLAYER_PURPLE]간접 사격[ENDCOLOR] 승급을 가지고 시작합니다.'
+SET Text = '매우 강력한 원거리 해상 유닛입니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_INDIRECT_FIRE}[ENDCOLOR] 승급을 가지고 시작합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BATTLESHIP';
+
+UPDATE Language_ko_KR
+SET Text = '전함은 강력한 전투력을 갖춘 강력한 원거리 해상 유닛입니다. 공중 유닛을 요격하지 않습니다. 간접 사격 능력으로 볼 수 없는 목표물을 폭격할 수 있습니다(다른 아군 유닛이 볼 수 있는 한). 전함은 공중 및 잠수함 공격에 취약합니다.'
+WHERE Tag = 'TXT_KEY_UNIT_BATTLESHIP_STRATEGY';
 
 -- Missile Cruiser
 UPDATE Language_ko_KR
-SET Text = '적 항공기를 방어하는 근접 해상 유닛입니다. 승급을 통해 적 잠수함을 찾아 파괴하는 데 사용합니다. 미사일을 [COLOR_POSITIVE_TEXT]3기[ENDCOLOR] 탑재할 수 있습니다.'
+SET Text = '견고한 방패를 가진 가장 강력한 해군 원거리 유닛입니다. 3개의 미사일을 탑재합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MISSILE_CRUISER';
 
 UPDATE Language_ko_KR
-SET Text = '미사일 순양함은 현대적인 군함입니다. 빠르고 질기고, 비열한 펀치를 날리고, 적기를 요격하는 데 꽤 능숙합니다. 가장 중요한 것은 미사일 순양함이 유도탄과 핵미사일을 운반할 수 있기 때문에 이러한 치명적인 무기를 적의 해안까지 운반할 수 있다는 것입니다. 미사일 순양함은 항공모함, 잠수함, 그리고 전함들과 결합하여 적 해군의 근접 공격이 시작되기 전에 철수할 수 있는 매우 강력한 함대를 구성할 수 있습니다.'
+SET Text = '미사일 순양함은 현대 군함입니다. 빠르고 강력한 펀치를 날립니다. 가장 중요한 것은 미사일 순양함이 유도 미사일과 핵 미사일을 운반할 수 있다는 것입니다. 따라서 이 치명적인 무기를 적의 해안까지 운반할 수 있습니다. 미사일 순양함은 항공모함, 잠수함 및 전함과 결합하여 무시무시한 강력한 함대를 만듭니다.'
 WHERE Tag = 'TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY';
+
+UPDATE Language_ko_KR
+SET Text = '현대 구축함'
+WHERE Tag = 'TXT_KEY_UNIT_DESTROYER';
 
 UPDATE Language_ko_KR
 SET Text = '게임 후반의 근접 해상 유닛으로 빨라서 정찰에 적합합니다. 승급할 경우 적 잠수함을 찾아 파괴하는 데 사용하기도 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_DESTROYER';
+
+UPDATE Language_ko_KR
+SET Text = '현대 구축함은 잠수함을 추적하고, 주변에 폭격을 시도하는 적의 비행 유닛을 요격하는 근접 해상 유닛입니다.'
+WHERE Tag = 'TXT_KEY_UNIT_DESTROYER_STRATEGY';
 
 UPDATE Language_ko_KR
 SET Text = '산병'

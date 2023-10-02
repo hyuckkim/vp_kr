@@ -174,6 +174,32 @@
 			<Text>재해권을 위한 고대 시대 해양 유닛입니다.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER">
+			<Text>호위함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_STRATEGY">
+			<Text>선박을 호위하고 더 작고 강력한 근접의 적으로부터 방어하기 위한 빠르고 기동성 있는 군함입니다. 다른 유닛을 공격하고 호위하는 데 사용하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_PEDIA">
+			<Text>호위함은 함대, 호송대 또는 전투 그룹에서 더 큰 선박을 호위하고 더 작고 강력한 단거리 공격자로부터 방어하기 위한 빠르고 기동성 있는 군함입니다. 원래 19세기 후반에 어뢰정에 대한 방어용으로 개발되었기 때문에 원래 이름은 "어뢰정 구축함"이었습니다. 제1차 세계 대전이 되자 거의 모든 해군은 이름을 간단히 "구축함"으로 줄였습니다.[NEWLINE]1910년대와 1920년대에 건조된 전형적인 구축함은 길이가 100m이고 배수량이 약 100m였습니다. 1200톤. 무장은 4~6문의 102mm 구경 함포와 다수의 533mm 어뢰 발사관으로 구성되어 있습니다. 배는 65km/h의 속력을 낼 수 있었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_HELP">
+			<Text>현대 시대의 바다를 지배한 강력한 해군 근접 유닛입니다. 잠수함을 물리치는 데 효과적인 근접 해상 유닛입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER">
+			<Text>미사일 구축함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_STRATEGY">
+			<Text>미사일 구축함은 3개의 미사일을 탑재할 수 있고 공중 차단 범위가 증가된 구축함의 현대적 버전입니다. 공격 또는 호위 유닛으로 사용해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_PEDIA">
+			<Text>유도 미사일 구축함(NATO 명칭 "DDG")은 유도 미사일을 발사하도록 설계된 구축함입니다. 일반적으로 수직 발사 셀에 두 개의 대형 미사일 탄창이 장착되어 있습니다. 미사일과 총 외에도 대잠, 대공 및 대수상 작전을 수행할 수 있는 장비도 많이 있습니다. 일부는 강력한 레이더 시스템을 포함하며 미사일 방어 또는 탄도 미사일 방어 역할에 사용하기 위해 채택될 수 있습니다. 이는 특히 순양함을 운용하지 않는 해군의 경우에 해당됩니다. 그 격차를 메우기 위해 다른 선박을 채택해야 하기 때문입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_HELP">
+			<Text>미사일 구축함은 3개의 미사일을 탑재할 수 있으며, 공중 요격 범위와 확률이 증가했으며 잠수함에 대한 추가 공격력이 있습니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_UNIT_LIBURNA">
 			<Text>리부나</Text>
 			<Plurality>2</Plurality>
@@ -201,6 +227,57 @@
 			<Text>해상 침입과 이전 시대의 해상 유닛에 피해를 주기위해 고안된 산업 시대 원거리 해상 유닛입니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]육지 공격은 연안 타일에서만 감행할 수 있습니다.[ENDCOLOR]</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT">
+			<Text>노급전함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_STRATEGY">
+			<Text>노급전함은 2타일 사거리에서 발사할 수 있지만 시야가 필요합니다. 공격에 매우 강하고 수비에 약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_PEDIA">
+			<Text>노급전함은 20세기 초반에 가장 많이 사용된 전함 유형입니다. 그것의 디자인은 두 가지 혁명적인 특징을 가지고 있습니다. 이전 배보다 더 많은 중구경을 가진 전대포(all-big-gun) 무장 계획과 증기 터빈 추진력입니다. 최초의 영국 해군의 노급전함은 12인치(305mm) 함포 10문을 탑재했습니다. 미 해군은 1910년에 처음으로 석유 연소 방식을 채택하기로 결정하고 1911년에 Nevada 급에 석유 연소 보일러를 주문했습니다. 다른 주요 해군은 제1차 세계 대전이 끝날 때까지 석탄과 석유 혼합 연소 방식을 유지했습니다. .[NEWLINE]노급전함의 시운전 후 5년 이내에 더욱 강력한 차세대 전함이 건조되었습니다. 최초의 전함은 일반적으로 영국의 오리온급으로 간주됩니다. 그들을 슈퍼로 만든 것은 더 무거운 13.5인치(343mm) 주포의 도입과 모든 주포가 중앙선에 배치되었기 때문입니다. 1917년 일본의 "Nagato"급이 주문되었으며, 이는 16인치(406mm) 함포를 탑재한 최초의 드레드노트였으며, 이는 틀림없이 세계에서 가장 강력한 전함입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_HELP">
+			<Text>해상 침입과 이전 시대의 해상 유닛에 피해를 주기 위해 고안된 현대 시대 원거리 해상 유닛입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE">
+			<Text>공격 잠수함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_STRATEGY">
+			<Text>공격 잠수함은 기본 잠수함보다 강력하고 빠른 해군 공격 유닛입니다. 미사일도 탑재할 수 있다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_PEDIA">
+			<Text>공격 잠수함 또는 헌터 킬러 잠수함은 다른 잠수함과 해군 함정을 공격하고 침몰시키기 위해 특별히 설계된 잠수함입니다. 일부 공격 잠수정은 수직 발사관에 장착된 순항 미사일로 무장하여 지상 목표물을 포함하는 잠재적 임무의 범위를 늘립니다.[NEWLINE]1950년대까지 전 세계적으로 대부분의 비핵 잠수함 설계의 기초는 Type XXI U-boat, Walter 과산화수소 연료 가스터빈과 높은 배터리 용량을 갖춘 2차 세계 대전의 독일 고급 잠수함으로, 높은 지속 수중 속력을 허용합니다.[NEWLINE]1960년대에 미국과 미국이 최초의 탄도 미사일 잠수함을 운용했습니다(George 냉전 핵 억제 전략의 일환으로 워싱턴 급)과 소련(골프 급)이 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_HELP">
+			<Text>공격 잠수함은 1개의 미사일을 운반할 수 있으며 1[ICON_RES_ALUMINUM]개의 알루미늄이 필요합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER">
+			<Text>대형항공모함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_STRATEGY">
+			<Text>대형항공모함은 전투기, 폭격기(스텔스 폭격기 제외) 및 원자폭탄을 탑재한 특수 선박입니다. 그것이 운반하는 항공기는 그것을 가장 강력한 공격 무기로 만듭니다. 방어 면에서 대형항공모함은 이전 모델보다 훨씬 강력하지만 여전히 구축함과 잠수함의 호위를 받아야 합니다. 최대 4개의 유닛을 건설할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_PEDIA">
+			<Text>대형항공모함은 일반적으로 배수량이 70,000톤 이상인 가장 큰 유형의 항공모함을 나타내는 비공식 설명 용어입니다. 슈퍼캐리어는 지금까지 건조된 가장 큰 전함입니다.[NEWLINE]니미츠급 슈퍼캐리어는 미 해군에서 운용 중인 10척의 핵 추진 항공모함입니다. 이 급의 선두 함선은 미 해군의 마지막 함대 제독인 제2차 세계 대전 미 태평양 함대 사령관 체스터 W. 니미츠(Chester W. Nimitz)의 이름을 따서 명명되었습니다. 전체 길이가 1,092피트(333m)이고 만재 배수량이 100,000톤이 넘는 이 군함은 건조되어 운용 중인 가장 큰 전함이지만 곧 출시될 Gerald R. Ford급 항공모함에 의해 가려지고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_HELP">
+			<Text>5대의 항공기(최대 8대)를 탑재하고 공중 요격 범위가 5로 증가하고 잠수함을 탐지할 수 있습니다. 문명당 4개로 제한됩니다. 건설하려면 [ICON_RES_URANIUM] 우라늄이 필요합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE">
+			<Text>로켓 미사일</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_STRATEGY">
+			<Text>로켓 미사일은 적의 목표물을 공격할 때 파괴되는 일회성 유닛입니다. 건설하려면 [ICON_RES_OIL] 석유가 필요합니다.[NEWLINE][COLOR_POSITIVE_TEXT]군사 보급한도를 차지않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_PEDIA">
+			<Text로켓은 로켓 모터로 구동되는 자체 추진 무유도 무기 시스템입니다. 역사적으로 그들은 주로 공대지 및 공대공 무기로 사용되었습니다.[NEWLINE]작전적으로 사용된 최초의 미사일은 제2차 세계 대전 중 나치 독일이 개발한 일련의 미사일이었습니다. 이들 중 가장 유명한 것은 V-1 비행 폭탄과 V-2 로켓으로, 둘 다 단순한 기계식 자동 조종 장치를 사용하여 미리 선택된 경로를 따라 미사일을 계속 비행하게 했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_HELP">
+			<Text>한 번만 사용하여 적 유닛이나 도시에 피해를 줄 수 있는 값싼 유닛입니다. 건설하려면 [ICON_RES_OIL] 석유가 필요합니다.[NEWLINE][COLOR_POSITIVE_TEXT]군사 보급 한도를 차지않습니다.[ENDCOLOR]</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_EMISSARY">
 			<Text>특사</Text>
