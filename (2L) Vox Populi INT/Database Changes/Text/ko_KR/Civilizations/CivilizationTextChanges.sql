@@ -646,7 +646,7 @@ WHERE Tag = 'TXT_KEY_BUILD_KASBAH_HELP';
 -- Netherlands
 --------------------
 UPDATE Language_ko_KR
-SET Text = '+3 [ICON_CULTURE] Culture and [ICON_GOLD] Gold for each unique Luxury Resource you import or export from/to other Civilizations and [ICON_CITY_STATE] City-States, scaling with Era. Can import duplicate Luxuries from Civilizations which count toward [ICON_VP_MONOPOLY] Monopolies.'
+SET Text = '다른 문명이나 도시 국가로부터 수입 또는 수출하는 사치 자원 1종류마다 [ICON_CULTURE]문화 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]중복[ENDCOLOR] 사치 자원을 수입할 수 있으며 수입한 사치 자원도 [ICON_VP_MONOPOLY] [COLOR_POSITIVE_TEXT]독점[ENDCOLOR]에 포함할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_LUXURY_RETENTION';
 
 UPDATE Language_ko_KR
