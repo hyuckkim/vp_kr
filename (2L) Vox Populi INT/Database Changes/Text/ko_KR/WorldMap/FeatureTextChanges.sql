@@ -12,6 +12,14 @@ SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_CUL
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_FUJI_TEXT';
 
 UPDATE Language_ko_KR
+SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_GOLD]골드가 +2 증가합니다.[NEWLINE][NEWLINE]지브롤터는 지중해 입구에 있는 경이로운 바위 형성물입니다. 1704년 영국와 네덜란드가 스페인으로부터 강점해 1713년 영국이 완전히 양도받은 이후 지금까지 영국령으로 남아 있습니다. (물론 스페인은 반환을 요구하고 있다) 지중해에서 대서양으로 나서는 출구이라는 지리적 요소 때문에 300년간 영국의 주요 해군기지로서 역할을 하고 있습니다.[NEWLINE]지브롤터 대부분의 지역은 지각운동 결과 밀려 올라온 셰일과 석회암으로 이루어진 "암석"으로 구성되어 있습니다. 이 암석 형성물은 높이가 425m에 달합니다. 지브롤터가 한때 지중해-대서양을 연결하는 좁은 통로로 영국군의 주요 군사 요충지였다고는 하지만, 오늘날엔 군부대 보다는 하나의 자연 보호 구역이자 관광지에 가깝다.'
+WHERE Tag = 'TXT_KEY_CIV5_FEATURES_GIBRALTER_TEXT';
+
+UPDATE Language_ko_KR
+SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_FOOD]식량이 +2 증가합니다.[NEWLINE][NEWLINE]그랜드 메사는 미국 콜로라도에 있는 거대한 지형으로 주변 환경 위로 1,500m 높이로 솟아 오른 1,300km2 면적의 지역으로 메사 지형 중 세계 최대 크기입니다. 그랜드 메사의 상층부에는 현무암 지층이 있어서 부식을 막아줍니다. 원래 지금처럼 높지 않았지만, 현무암 지층이 있는 부분은 더이상 침식되지 않고 주변 지형만 콜로라도와 거니슨 강의 영향으로 침식되어 메사 지형을 형성하게 되었습니다.'
+WHERE Tag = 'TXT_KEY_CIV5_FEATURES_GRANDMESA_TEXT';
+
+UPDATE Language_ko_KR
 SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_RESEARCH]과학이 +2 증가합니다.[NEWLINE][NEWLINE]대보초는 세계에서 가장 큰 암초입니다. 호주 남해에 위치하여 거의 3,000개의 암초와 1,000개의 섬이 연결되어 길이가 약 2,000km에 이릅니다. 50만년보다도 더 이전에 수많은 산호충으로 형성되기 시작하여 현존하는 단일 생명체의 구조로는 세계에서 가장 큽니다. 대보초는 셀 수 없이 많은 다양한 고래, 돌고래, 거북이, 물고기, 문어, 뱀은 물론 200종이 넘는 새들의 서식지입니다.'
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_GREATBARRIERREEF_TEXT';
 
@@ -21,14 +29,6 @@ WHERE Tag = 'TXT_KEY_CIV5_FEATURES_KRAKATOA_TEXT';
 
 UPDATE Language_ko_KR
 SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_CULTURE]문화가 +2 증가합니다.[NEWLINE][NEWLINE]올드 페이스풀은 미국 와이오밍 주의 옐로스톤 국립 공원에 있는 간헐천입니다. 1870년에 유럽인들이 발견하여 (형성된 것은 아마 그보다 1만년 이전일 것) 올드 페이스풀이라 이름 지었는데 그 이유는 온천의 분출 주기가 일정하였기 때문입니다. 올드 페이스풀이 매 60-90분마다 뿜어내는 물줄기는 30 ~ 60m 높이까지 올라가고 이 주기는 이전 분출이 얼마나 맹렬했느냐에 따라서 달라집니다. 간헐천의 분출은 지하수가 지하의 마그마에 닿으면서 물이 순식간에 끓는점까지 가열되어 극히 높은 압력을 받고 가장 가까운 분출지점을 찾아 뿜어져 나가기 때문에 일어납니다. 옐로스톤 국립 공원의 올드 페이스풀을 포함한 250여개의 간헐천을 방문하는 이들은 연간 3백만명이나 됩니다.'
-WHERE Tag = 'TXT_KEY_CIV5_FEATURES_OLDFAITHFUL_TEXT';
-
-UPDATE Language_ko_KR
-SET Text = '+2 [ICON_RESEARCH] Science from this Natural Wonder for every Era after the Ancient Era.[NEWLINE][NEWLINE]Krakatoa is a volcanic island located in Indonesia, between the islands of Java and Sumatra. The volcano exploded violently in August 1883 with a force equivalent to 13,000 times the power of the Hiroshima nuclear bomb. The eruption destroyed over half of the island, and was heard in parts of Australia, some 2,000 miles away. Some 37,000 people were killed by the eruption and subsequent tsunamis. The volcano has been emitting lava steadily for the past eighty years, rebuilding the cone at a rate of about 15 feet per year.'
-WHERE Tag = 'TXT_KEY_CIV5_FEATURES_KRAKATOA_TEXT';
-
-UPDATE Language_ko_KR
-SET Text = '+2 [ICON_CULTURE] Culture from this Natural Wonder for every Era after the Ancient Era.[NEWLINE][NEWLINE]Old Faithful is a geyser found in Yellowstone National Park, in Wyoming, United States of America. First seen by Europeans in 1870 (and by natives some 10,000 years before that), Old Faithful was thus named because of the regularity of its eruption. The geyser shoots a column of boiling water to a height of some 100-175 feet every 60-90 minutes (the interval determined by the ferocity of the previous eruption). Geysers occur when subterranean water hits magma (molten rock). The water is instantly turned to steam, which rushes out the nearest available opening at tremendously high pressure. Old Faithful and the other 250 geysers in Yellowstone are enjoyed by some three million visitors each year.'
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_OLDFAITHFUL_TEXT';
 
 UPDATE Language_ko_KR
