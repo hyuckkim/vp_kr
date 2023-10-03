@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="17">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(4.1.1) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(4.1.2) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -42,7 +42,7 @@
     <File md5="6D7D2224EB0D1D7F2B7F907FD21A0B91" import="0">Database Changes/Text/ko_KR/City/ProcessTextChanges.sql</File>
     <File md5="E5524DB01775B7099456D4EC88539099" import="0">Database Changes/Text/ko_KR/City/ProjectTextChanges.sql</File>
     <File md5="F6C1329200BF3B40AB014EDCB81DA6AB" import="0">Database Changes/Text/ko_KR/City/SpecialistTextChanges.sql</File>
-    <File md5="ED30776EF5CB926B03F9CAEE270B8357" import="0">Database Changes/Text/ko_KR/Civilizations/CivilizationTextChanges.sql</File>
+    <File md5="7801B9FAE620ED0A3899FBA88FCD0E48" import="0">Database Changes/Text/ko_KR/Civilizations/CivilizationTextChanges.sql</File>
     <File md5="3E6D04A14EBFFDE72EB7CB32B521EDCC" import="0">Database Changes/Text/ko_KR/Civilizations/NewCivilizationText.xml</File>
     <File md5="63C7FC02BB7561C256C2AED4BBC2BA6C" import="0">Database Changes/Text/ko_KR/Concepts/ConceptTextChanges.sql</File>
     <File md5="6EA8FE1B9EF39715EBD34EA26B1FB434" import="0">Database Changes/Text/ko_KR/Concepts/NewConceptText.xml</File>
@@ -71,11 +71,11 @@
     <File md5="DB1B39788D686FE892B4B2C85D5084EA" import="0">Database Changes/Text/ko_KR/WorldCongress/ProjectTextChanges.sql</File>
     <File md5="5CE1B8C5EEFDA622A4F0637E92A94DCE" import="0">Database Changes/Text/ko_KR/WorldCongress/ResolutionTextChanges.sql</File>
     <File md5="6962B9D92AE428BA1C43BEE7DB7FE04C" import="0">Database Changes/Text/ko_KR/WorldCongress/SpecialSessionTextChanges.sql</File>
-    <File md5="D26C866F27914F20036D3E59743612DA" import="0">Database Changes/Text/ko_KR/WorldMap/FeatureTextChanges.sql</File>
+    <File md5="864D17BAB57338C53D66138C3082296A" import="0">Database Changes/Text/ko_KR/WorldMap/FeatureTextChanges.sql</File>
     <File md5="0200ED2A68FCD385C0D52B1D8224EFBE" import="0">Database Changes/Text/ko_KR/WorldMap/ImprovementTextChanges.sql</File>
     <File md5="EFE2EA8957FF910725E409C3686BFA47" import="0">Database Changes/Text/ko_KR/WorldMap/NewGoodyHutText.xml</File>
     <File md5="79409F59CCD4409FE86BA564D27D14DB" import="0">Database Changes/Text/ko_KR/WorldMap/NewImprovementText.xml</File>
-    <File md5="8558D7C6F58E990365AF1E280FA6F6A3" import="0">Database Changes/Text/ko_KR/WorldMap/NewResourceText.xml</File>
+    <File md5="DEE67BF09AB53C5462BCE059F8AF8067" import="0">Database Changes/Text/ko_KR/WorldMap/NewResourceText.xml</File>
     <File md5="898EACBF8051D95162754B5A7C3C3233" import="0">Database Changes/Text/ko_KR/WorldMap/ResourceTextChanges.sql</File>
     <File md5="F5F087DF969F29786A16FA6E59B60BFF" import="0">Database Changes/Text/ko_KR/WorldMap/RouteTextChanges.sql</File>
   </Files>
