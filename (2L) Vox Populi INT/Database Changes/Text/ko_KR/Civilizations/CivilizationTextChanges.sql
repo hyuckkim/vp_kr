@@ -650,10 +650,6 @@ SET Text = '+3 [ICON_CULTURE] Culture and [ICON_GOLD] Gold for each unique Luxur
 WHERE Tag = 'TXT_KEY_TRAIT_LUXURY_RETENTION';
 
 UPDATE Language_ko_KR
-SET Text = '해안 도시를 공격해 골드를 얻거나 적 배를 나포하는 해상 유닛입니다. 네덜란드만 만들 수 있습니다.'
-WHERE Tag = 'TXT_KEY_UNIT_HELP_SEA_BEGGAR';
-
-UPDATE Language_ko_KR
 SET Text = '적 유닛을 나포하거나 해안 도시를 공격하는 데 특화된 해양 유닛입니다. 네덜란드만 생산할 수 있습니다. 아군 영토 밖에서도 회복할 수 있습니다. 선봉 승급으로 해안 도시를 공격할 때 더욱 효과적입니다. 전리품 선박 승급으로 적 유닛을 나포할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY';
 
