@@ -648,6 +648,11 @@ UPDATE Language_ko_KR
 SET Text = '승선 시 [ICON_STRENGTH] 전투력 +100%'
 WHERE Tag = 'TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP';
 
+-- Embarkation with Ocean Movement
+UPDATE Language_en_US
+SET Text = '[COLOR_POSITIVE_TEXT]연안[ENDCOLOR] 타일로 승선할 수 있음[NEWLINE]승선 시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR] 타일로 이동 가능, [ICON_VP_VISION] 시야 +2'
+WHERE Tag = 'TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP';
+
 -- Sapper
 UPDATE Language_ko_KR
 SET Text = '적 도시에 인접 시 2타일 이내에 있는 다른 아군 유닛의 도시 공격 [ICON_STRENGTH]보너스 [COLOR_POSITIVE_TEXT]+40%[ENDCOLOR][NEWLINE]적 도시에 2타일 이내에 인접 시 2타일 이내에 있는 다른 아군 유닛의 도시 공격 [ICON_STRENGTH]보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]보너스 중첩 불가[ENDCOLOR]'
