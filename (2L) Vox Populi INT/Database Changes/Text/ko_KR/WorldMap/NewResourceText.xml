@@ -170,5 +170,23 @@
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE_URANIUM">
 			<Text>무시무시한 대량 살상 무기의 생산에 사용됩니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]전략 자원 독점 보너스 (25%):[ENDCOLOR] 공격 시 +10% [ICON_STRENGTH]전투력 보너스[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 독점 보너스 (50%):[ENDCOLOR] +10%[ICON_RESEARCH]과학 (모든 도시)</Text>
 		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_HORSE">
+			<Text>[COLOR_POSITIVE_TEXT]전략 자원 독점 보너스:[ENDCOLOR] 공격 시 +10% [ICON_STRENGTH]전투력 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_IRON">
+			<Text>[COLOR_POSITIVE_TEXT]전략 자원 독점 보너스:[ENDCOLOR] 방어 시 +10% [ICON_STRENGTH]전투력 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_COAL">
+			<Text>[COLOR_POSITIVE_TEXT]전략 자원 독점 보너스:[ENDCOLOR] 해상 유닛 +1[ICON_MOVES]이동력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_ALUMINUM">
+			<Text>[COLOR_POSITIVE_TEXT]전략 자원 독점 보너스:[ENDCOLOR] 체력 회복 시 추가 +5 HP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_OIL">
+			<Text>[COLOR_POSITIVE_TEXT]전략 자원 독점 보너스:[ENDCOLOR] 전투 후 추가 +2 XP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_URANIUM">
+			<Text>[COLOR_POSITIVE_TEXT]전략 자원 독점 보너스:[ENDCOLOR] 공격 시 +10% [ICON_STRENGTH]전투력 보너스</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>

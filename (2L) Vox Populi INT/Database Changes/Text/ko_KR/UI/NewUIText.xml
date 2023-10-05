@@ -190,11 +190,6 @@
 			<Text>그들의 동맹에 대항하는 혁명이 발생하고 있습니다!</Text>
 		</Row>
 
-		<!-- Resting Influence -->
-		<Row Tag="TXT_KEY_VP_RESTING_INFLUENCE">
-			<Text> [ICON_INFLUENCE] 영향력 정지점</Text>
-		</Row>
-
 		<!-- Cultural overview -->
 		<!-- Great Works summary -->
 		<Row Tag="TXT_KEY_OPTIMIZE">
@@ -838,6 +833,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_UPANEL_TOURISM_TURNS_TT">
 			<Text>콘서트 투어의 길이를 나타냅니다. 길이는 문명이 소유한 걸작 음악의 개수에 비례합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RESTING_INFLUENCE">
+			<Text> [ICON_INFLUENCE] 영향력 정지점</Text>
 		</Row>
 
 		<!-- Tech tree -->
