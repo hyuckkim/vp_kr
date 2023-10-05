@@ -225,6 +225,12 @@
 			<Text>투기장을 대체하는 로마의 고유 건물입니다. 콜로세움을 건설해 도시의 문화, 관광, 생산을 향상시키고, 적을 처치하고 승리해 효과를 최대화하십시오. 모든 콜로세움은 모든 도시 연결에 약간의 보너스를 주어, 로마가 거대한 제국을 형성할 수 있게 합니다.</Text>
 		</Row>
 		<!-- Spain -->
+		<Row Tag="TXT_KEY_UNIT_SPAIN_INQUISITOR">
+			<Text>이단심문관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SPAIN_INQUISITOR">
+			<Text>{TXT_KEY_UNIT_HELP_INQUISITOR}[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]스페인 종교재판은 아무도 예상 못하지![ENDCOLOR]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MISSION">
 			<Text>전도관</Text>
 		</Row>
