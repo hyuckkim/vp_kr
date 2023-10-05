@@ -190,6 +190,11 @@
 			<Text>그들의 동맹에 대항하는 혁명이 발생하고 있습니다!</Text>
 		</Row>
 
+		<!-- Resting Influence -->
+		<Row Tag="TXT_KEY_VP_RESTING_INFLUENCE">
+			<Text> [ICON_INFLUENCE] 영향력 정지점</Text>
+		</Row>
+
 		<!-- Cultural overview -->
 		<!-- Great Works summary -->
 		<Row Tag="TXT_KEY_OPTIMIZE">
