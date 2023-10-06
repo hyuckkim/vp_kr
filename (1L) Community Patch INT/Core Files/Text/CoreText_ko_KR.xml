@@ -204,11 +204,6 @@
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}제국 전역의 [ICON_CITIZEN]시민에서</Text>
 		</Row>
 
-		<!-- Multiplayer Desync Warning -->
-		<Row Tag="TXT_KEY_VP_MP_WARNING_DESYNC">
-			<Text>클라이언트가 비동기화 되었습니다. 정의되지 않은 동작이 발생할 수 있습니다. Github에 버그를 제보해주세요: https://github.com/LoneGazebo/Community-Patch-DLL/issues</Text>
-		</Row>
-
 		<!-- City-State UI -->
 		<Row Tag="TXT_KEY_NEUTRAL_CSTATE">
 			<Text>중립적</Text>
@@ -3240,29 +3235,29 @@
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_EXPLORE_AREA_FORMAL">
 			<Text>미지의 지역을 탐험하십시오 ([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 완료)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_BUILD_X_BUILDINGS_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_BUILD_X_BUILDINGS_FORMAL">
 			<Text>{@1_Building} [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]를 건설하십시오.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_STEAL_FROM_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
 			<Text>{1_Civ}에 대한 첩보 활동을 수행하십시오 ([COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 남음)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_COUP_CITY_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_COUP_FORMAL">
 			<Text>{1_Civ}에서 쿠데타를 지원하십시오.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_GET_CITY_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ACQUIRE_CITY_FORMAL">
 			<Text>{1_City}{1: plural 1?을; 2?를;} 정복해주길 바랍니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GET_CITY_OCC_FORMAL">
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ACQUIRE_CITY_OCC_FORMAL">
 			<Text>{1_City}{1: plural 1?을; 2?를;} 정복해주길 바랍니다.</Text>
 		</Row>
 		<!-- Plot Helpers -->
-		<Row Tag="TXT_KEY_CITY_STATE_GET_CITY_QUEST_LONG">
+		<Row Tag="TXT_KEY_CITY_STATE_ACQUIRE_CITY_QUEST_LONG">
 			<Text>{1_Civ}{1: plural 1?은; 2?는;} 당신이 이 도시를 가져가길 바랍니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_FIND_PLOT_QUEST_LONG">
+		<Row Tag="TXT_KEY_CITY_STATE_EXPLORE_AREA_QUEST_LONG">
 			<Text>{1_Civ}{1: plural 1?은; 2?는;} 당신이 이 타일 주변을 탐험하길 바랍니다.</Text>
 		</Row>
-		<!-- Update resurrection text (voluntary vassals) -->
+		
 		<!-- Automation -->
 		<!-- Automation Text -->
 		<Row Tag="TXT_KEY_ACTION_AUTOMATE_MISSIONARY">
@@ -4448,9 +4443,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT_VARIABLE_THRESHOLD">
 			<Text>공물 요구에 필요한 기준인 [COLOR_CYAN]+{2_Threshold}%[ENDCOLOR]보다 {1_FactorScore}% 낮아 [COLOR_WARNING_TEXT]불복[ENDCOLOR]합니다: </Text>
-		</Row>
-		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NO_CAPITAL">
-			<Text>수도가 아님</Text>
 		</Row>
 		
 		<!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
@@ -7525,9 +7517,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_DAMAGE_REDUCTION_LABEL">
 			<Text>피해 감소:</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
-			<Text>피해 감소: +{1_Num}</Text>
 		</Row>
 
 		<!-- Great Person Progress -->
