@@ -251,6 +251,7 @@ UPDATE Language_ko_KR
 SET Text = '타일에 마을을 건설해 [ICON_GOLD]골드를 증가시킵니다. 두 개의 도시를 연결하는 도로 또는 철도 위에 건설하거나 국내 또는 국제 교역로가 이를 통과하면 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 추가로 증가합니다. 서로 인접하여 건설할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_BODY';
 
+UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]도로와 무역로[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_TITLE';
 UPDATE Language_ko_KR

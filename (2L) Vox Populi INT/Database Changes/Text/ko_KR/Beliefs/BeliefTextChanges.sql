@@ -439,6 +439,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION';
 -- Reformations
 ----------------------------------------------
 UPDATE Language_ko_KR
+SET Text = '당신의 종교에 개혁 교리를 추가할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_ADD_REFORMATION_BELIEF';
 
 UPDATE Language_ko_KR
