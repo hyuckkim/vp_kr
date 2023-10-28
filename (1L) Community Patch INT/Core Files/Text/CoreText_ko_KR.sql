@@ -1868,3 +1868,41 @@ WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_4';
 UPDATE Language_ko_KR
 SET Text = '키이우 대공국에 대한 몽골의 첫 침략은 1223년의 일인데, 그해 몽골의 정찰대는 할크 강의 전투에서 이름도 거창한 므스티슬라프 로마노비치 대공(또는 므스티슬라프 볼트)이 이끄는 여러 러시아 국가의 연합 병력과 만났습니다. 러시아군은 처음에는 이겼지만, 패퇴하는 적을 추격하다가 흐트러졌습니다. 몽골 기병은 재결집해서 추적자들이 재정비하기 전에 남김없이 무찔렀습니다. 많은 러시아군이 목숨만은 살려 준다는 조건에 몽골에 항복했는데, 몽골은 그 조건을 받아들이고는 그들을 대량 학살했습니다. 몽골은 그 후 수년간 러시아를 떠났다가 대군을 이끌고 돌아왔습니다.[NEWLINE][NEWLINE]1237년에 약 30,000명 이상의 궁기병으로 이루어진 거대 몽골군이 다시 한 번 볼가 강을 넘었습니다. 몇 년 지나지 않아 몽골은 수많은 러시아 도시와 마을을 점령하고, 약탈하고, 파괴했는데, 랴잔, 콜롬나, 모스크바, 로스토프, 카신, 드미트로프, 코젤스크, 할리치, 키이우가 해당합니다. 그들은 그들에 맞서는 모든 세력을 철저히 완파했습니다. 1240년에 러시아는 대부분 타다남은 폐허로 변했고, 완전히 몽골의 지배 아래 놓였는데, 그들은 헝가리와 폴란드를 향해 더 서쪽으로 눈을 돌렸습니다.[NEWLINE]'
 WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_5';
+
+-- singular/plural forms
+
+UPDATE Language_ko_KR
+SET Text = '다음 정책 채택 : [COLOR_POSITIVE_TEXT]{1_Num: number #} 턴[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_NEXT_POLICY_TURN_LABEL';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_NEGATIVE_TEXT]이념 변경 때문에 앞으로 {1_Turns}턴간 제국이 무정부주의 상태입니다. 무정부주의 상태에서는 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_PEACE 신앙을 얻을 수 없으며, 도시에서 아무것도 [ICON_PRODUCTION]생산하지 못합니다[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_TP_ANARCHY';
+
+UPDATE Language_ko_KR
+SET Text = '당신의 문명은 현재 무정부 상태입니다! 이 상태는 {1_num}턴 동안 지속될 것입니다.'
+WHERE Tag = 'TXT_KEY_ANARCHY_BEGINS';
+
+UPDATE Language_ko_KR
+SET Text = '이번 턴에 유닛이 [COLOR_POSITIVE_TEXT]{1_Num}타일[ENDCOLOR] 더 이동할 수 있습니다.'
+WHERE Tag = 'TXT_KEY_UPANEL_UNIT_MAY_MOVE';
+
+UPDATE Language_ko_KR
+SET Text = '유닛이 [COLOR_POSITIVE_TEXT]{1_Num}타일[ENDCOLOR] 내에서 공격을 하거나 [COLOR_POSITIVE_TEXT]{2_Num}타일[ENDCOLOR] 내에서 주둔지를 옮길 수 있습니다.'
+WHERE Tag = 'TXT_KEY_UPANEL_UNIT_MAY_STRIKE_REBASE';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_BUILD_NUM_TURNS';
+
+UPDATE Language_ko_KR
+SET Text = '{1_Num}턴 이후 매우 유명해짐(관광 산출량에 변화가 없을 경우)'
+WHERE Tag = 'TXT_KEY_CO_INFLUENTIAL_TURNS_TT';
+
+UPDATE Language_ko_KR
+SET Text = '교역 유닛이 [COLOR_POSITIVE_TEXT]{1_TradeRoutesUsedNum}개[ENDCOLOR] 있습니다.[NEWLINE]사용할 수 있는 교역로가 [COLOR_POSITIVE_TEXT]{2_TradeRoutesAvailableNum}개[ENDCOLOR] 있습니다.'
+WHERE Tag = 'TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT';
+
+UPDATE Language_ko_KR
+SET Text = '배정하지 않은 {2_UnitName}{2: plural 1?이; 2?가;} [COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR] 있습니다.[NEWLINE]'
+WHERE Tag = 'TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT_UNASSIGNED';
