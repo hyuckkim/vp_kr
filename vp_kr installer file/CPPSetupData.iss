@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Vox Populi INT"
-#define MyAppVersion "4.2"
+#define MyAppVersion "4.2.5"
 #define MyAppPublisher "civilization gallery"
 #define MyAppURL "https://github.com/hyuckkim/vp_kr"
 
