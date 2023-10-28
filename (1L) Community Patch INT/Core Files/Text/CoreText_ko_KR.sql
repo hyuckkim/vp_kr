@@ -429,6 +429,14 @@ SET Text = '{1_ReligionName}의 창시자'
 WHERE Tag = 'TXT_KEY_RO_STATUS_FOUNDER';
 
 UPDATE Language_ko_KR
+SET Text = '다음 종교관을 세우려면 [ICON_PEACE]신앙이 적어도 {1_Num}만큼 필요합니다. 게임에 다른 문명의 강화된 종교가 등장하기 전에 종교관을 세워야 합니다. 하지만 게임에 존재할 수 있는 종교의 수를 초과하지 않는다면 나중에 종교관을 세울 수 있습니다.'
+WHERE Tag = 'TXT_KEY_TP_FAITH_NEXT_PANTHEON';
+
+UPDATE Language_ko_KR
+SET Text = '다음 위대한 선지자가 출현하려면 [ICON_PEACE]신앙이 적어도 {1_MinFaith}만큼 필요합니다.'
+WHERE Tag = 'TXT_KEY_TP_FAITH_NEXT_PROPHET';
+
+UPDATE Language_ko_KR
 SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 통해 구매할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 위대한 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 
