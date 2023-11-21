@@ -1,0 +1,14 @@
+name: inno setup build to .exe
+on: push
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        run: iscc "vp_kr installer file/CPPSetupData.iss" /O"out_githubaction" /F"vox populi kor"
+      - uses: actions/upload-artifact@v3
+        with:
+          name: "vox populi kor"
+          path: "out_githubaction/vox populi kor.exe"
