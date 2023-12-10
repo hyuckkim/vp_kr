@@ -1356,6 +1356,9 @@
 		<Row Tag="TXT_KEY_HAPPY_RELIGION_CBO">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] 종교에서 획득</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_UNHAPPY">
+			<Text>도시의 [ICON_HAPPINESS_3] 불행이 {1_Num} 초과합니다!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS_EXPLANATION_PUPPET">
 			<Text>[ICON_PUPPET]괴뢰 도시, [ICON_OCCUPIED]점령 도시, [ICON_RAZE]불타는 도시, 또는 [ICON_RESISTANCE]저항 도시는 [ICON_HAPPINESS_1]행복을 제공하지 못하거나 제국 전역 [ICON_HAPPINESS_1]행복의 혜택을 받지 못합니다.</Text>
 		</Row>
