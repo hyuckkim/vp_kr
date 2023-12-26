@@ -495,7 +495,11 @@ SET Text = '도시 국가에게서 대량의 산출량을 빼앗을 수 있습�
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_TT';
 
 UPDATE Language_ko_KR
-SET Text = '공물 [ICON_GOLD]골드 {1_NumGold} + 퀘스트 보상 일부 ([ICON_INFLUENCE]영향력 -{2_NumInfluence} 감소)'
+SET Text = '공물 [ICON_GOLD]골드 {1_GoldValue} (-{2_Influence} [ICON_INFLUENCE])'
+WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_GOLD_AMOUNT';
+
+UPDATE Language_ko_KR
+SET Text = '공물 [ICON_GOLD]골드 {1_NumGold} + 퀘스트 보상 일부 (-{2_NumInfluence} [ICON_INFLUENCE])'
 WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';
 
 UPDATE Language_ko_KR
