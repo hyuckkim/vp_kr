@@ -368,7 +368,7 @@ SET Text = '평화의 거주지'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '이 [ICON_RELIGION]종교를 따르는 도시 국가의 신도 2명마다 성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신의 종교를 따르는 도시 국가 [ICON_INFLUENCE]영향력 정지점이 [COLOR_POSITIVE_TEXT]35[ENDCOLOR]로 증가하며 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
+SET Text = '우호적인 [ICON_CITY_STATE]도시 국가의 종교 압력이 +100% 증가합니다. 이 [ICON_RELIGION]종교를 따르는 도시 국가의 신도 2명마다 성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신의 종교를 따르는 도시 국가 [ICON_INFLUENCE]영향력 정지점이 [COLOR_POSITIVE_TEXT]35[ENDCOLOR]로 증가하며 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR';
 
 UPDATE Language_ko_KR
@@ -392,7 +392,7 @@ SET Text = '정교'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '전파 거리가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 우호적인 [ICON_CITY_STATE]도시 국가 및 [ICON_INTERNATIONAL_TRADE]교역로가 연결된 다른 문명에 대한 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
+SET Text = '전파 거리가 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로가 연결된 다른 문명에 대한 종교 압력이 [COLOR_POSITIVE_TEXT]200%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER';
 
 UPDATE Language_ko_KR
