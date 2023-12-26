@@ -12,7 +12,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]전문가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITIES_SPECIALISTS_HEADING2_TITLE';
 UPDATE Language_ko_KR
-SET Text = '전문가는 도시 내 건물에 배정되어 임무를 수행합니다. 문명 5에 등장하는 전문가는 과학자, 상인, 예술가, 기술자, 그리고 [COLOR_YELLOW]공무원[ENDCOLOR]입니다. 예를 들어 박물관에 시민 한두 명을 배정해 예술 전문가로 활동하게 할 수 있습니다. 전문가를 배정할 수 있는 건물은 한정되어 있습니다. 자세한 사항은 건물 부분을 참고하십시오.'
+SET Text = '전문가는 도시 내 건물에 배정되어 임무를 수행합니다. 문명 5에 등장하는 전문가는 작가, 예술가, 음악가, 과학자, 상인, 기술자 그리고 [COLOR_YELLOW]공무원[ENDCOLOR]입니다. 예를 들어 예술가 길드 시민 한두 명을 배정해 예술 전문가로 활동하게 할 수 있습니다. 전문가를 배정할 수 있는 건물은 한정되어 있습니다. 자세한 사항은 건물 부분을 참고하십시오.'
 WHERE Tag = 'TXT_KEY_CITIES_SPECIALISTS_HEADING2_BODY';
 
 UPDATE Language_ko_KR
@@ -26,7 +26,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]전문가의 장점[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '전문가의 장점은 다음과 같습니다:[NEWLINE][NEWLINE]예술가는 도시의 문화를 높여주고 위대한 예술가의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]상인은 도시의 골드 생산을 높여주고 위대한 상인의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]과학자는 도시의 과학을 높여주고 위대한 과학자의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]기술자들은 도시의 생산을 높여주고 위대한 기술자의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE][COLOR_YELLOW]외교관은 여러 산출량을 조금씩 높여주고 위대한 외교관의 탄생을 빠르게 해 줍니다.[ENDCOLOR]'
+SET Text = '전문가의 장점은 다음과 같습니다:[NEWLINE][NEWLINE]작가는 도시의 문화를 높여주고 위대한 작가의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]예술가는 도시의 문화를 높여주고 위대한 예술가의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]음악가는 도시의 문화를 높여주고 위대한 음악가의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]상인은 도시의 골드 생산을 높여주고 위대한 상인의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]과학자는 도시의 과학을 높여주고 위대한 과학자의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE]기술자들은 도시의 생산을 높여주고 위대한 기술자의 탄생을 빠르게 해 줍니다.[NEWLINE][NEWLINE][COLOR_YELLOW]외교관은 여러 산출량을 조금씩 높여주고 위대한 외교관의 탄생을 빠르게 해 줍니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_BODY';
 
 UPDATE Language_ko_KR
