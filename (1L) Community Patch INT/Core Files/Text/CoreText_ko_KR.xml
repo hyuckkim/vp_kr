@@ -275,6 +275,9 @@
 		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE_100_PERCENT">
 			<Text>[COLOR_CYAN]유닛이 후퇴함[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_CAPTURE_CHANCE_100_PERCENT">
+			<Text>[COLOR_CYAN]유닛이 패배 시 적에게 합류함[ENDCOLOR]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_RANGED_SUPPORT">
 			<Text>[COLOR_CYAN]추가 범위 공격[ENDCOLOR]</Text>
 		</Row>
