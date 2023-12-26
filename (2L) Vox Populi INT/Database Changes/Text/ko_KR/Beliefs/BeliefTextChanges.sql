@@ -1,12 +1,18 @@
 ----------------------------------------------
 -- Pantheons
 ----------------------------------------------
+
+-- Ancestor Worship
 UPDATE Language_ko_KR
 SET Text = '자문회의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 5명마다 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_ANCESTOR_WORSHIP';
 
 UPDATE Language_ko_KR
-SET Text = '기념비의 [ICON_PRODUCTION]생산 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 광산이 건설된 자원 타일의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '불의 신'
+WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER_SHORT';
+
+UPDATE Language_ko_KR
+SET Text = '대장간의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 광산이 건설된 자원 타일의 [ICON_CULTURE]문화, [ICON_PRODUCTION] 생산 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER';
 
 UPDATE Language_ko_KR
