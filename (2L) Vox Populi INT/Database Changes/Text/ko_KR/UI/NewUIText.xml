@@ -234,8 +234,11 @@
 			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<!-- CV progress screen -->
+		<Row Tag="TXT_KEY_CO_TAB_PLAYER_INFLUENCE2">
+			<Text>영향력을 받는 플레이어</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
-	         	<Text>{1_NumTurns}% 제국 크기 차이에서[NEWLINE]</Text>
+	         	<Text>{1_NumTurns}% 제국 크기 차이에서 ({2_NumCity} 도시 차이)[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_WARSCORE">
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_TOURISM]  최고 전쟁 점수에서[NEWLINE]</Text>

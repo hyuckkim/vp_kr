@@ -71,3 +71,44 @@ SELECT 'TXT_KEY_CORPORATION_OFFICEHQ_TT', '[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLO
 SELECT 'TXT_KEY_CORPORATION_OFFICEHQ_TT2', '[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] 점령 시 본부가 파괴되어 모든 오피스와 프랜차이즈가 문을 닫지만, 본부는 다른 플레이어에 의해 다시 건설될 수 있습니다.' UNION ALL
 SELECT 'TXT_KEY_CORPORATION_OFFICE_TT', '[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] 오피스' UNION ALL
 SELECT 'TXT_KEY_CORPORATION_OFFICE_TT2', '[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]로 출발하거나 도착하는 [ICON_INTERNATIONAL_TRADE] 국제 교역로를 완료하면 외국 도시로 [ICON_VP_FRANCHISE] [COLOR_POSITIVE_TEXT]프랜차이즈[ENDCOLOR]를 설립할 수 있습니다.';
+
+--INFLUENTIAL DOMINANT NOTIFICATION
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]신비하지[ENDCOLOR] 않습니다. 그들에게서 보너스를 더 이상 얻을 수 없습니다.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_1_BAD';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]신비합니다[ENDCOLOR]. 문화 개요에서 보너스를 확인하십시오.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_1';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]친숙하지[ENDCOLOR] 않습니다. 그들이 제공하는 보너스가 약해집니다.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_2_BAD';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]친숙합니다[ENDCOLOR]. 문화 개요에서 증가한 보너스를 확인하십시오.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_2';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]유명하지[ENDCOLOR] 않습니다. 그들이 제공하는 보너스가 약해집니다.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_3_BAD';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]유명합니다[ENDCOLOR]. 문화 개요에서 증가한 보너스를 확인하십시오.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_3';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]매우 유명하지[ENDCOLOR] 않습니다. 그들이 제공하는 보너스가 약해집니다.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_4_BAD';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]매우 유명합니다[ENDCOLOR]. 문화 개요에서 증가한 보너스를 확인하십시오.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_4';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]가장 유명하지[ENDCOLOR] 않습니다. 그들이 제공하는 보너스가 약해집니다.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_5_BAD';
+
+UPDATE Language_ko_KR
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]가장 유명합니다[ENDCOLOR]. 문화 개요에서 증가한 보너스를 확인하십시오.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_5';
