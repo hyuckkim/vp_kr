@@ -190,6 +190,16 @@
 			<Text>그들의 동맹에 대항하는 혁명이 발생하고 있습니다!</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GLOBAL_HEADER">
+			<Text>전역 퀘스트:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LOCAL_HEADER">
+			<Text>개인 퀘스트:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_OTHER_HEADER">
+			<Text>기타 정보:</Text>
+		</Row>
+
 		<!-- Cultural overview -->
 		<!-- Great Works summary -->
 		<Row Tag="TXT_KEY_OPTIMIZE">
