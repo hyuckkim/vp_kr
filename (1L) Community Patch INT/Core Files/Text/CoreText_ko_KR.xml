@@ -7276,6 +7276,10 @@
 		<Row Tag="TXT_KEY_POP_CSTATE_RECENTLY_LIBERATED">
 			<Text>최근 해방됨</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_NO_CAPITAL">
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 당신과 도시 국가 모두 최소한 도시 하나가 있어야 합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_RECENT_BROKEN_TT">
 			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET]당신이 약속을 위반한 적이 있기 때문에 {1_Turns}턴 동안 기다려야 합니다.[ENDCOLOR]</Text>
 		</Row>
