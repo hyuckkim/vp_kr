@@ -733,11 +733,11 @@ SET Text = '폴리네시아만 생산할 수 있는 고유 장검병입니다. �
 WHERE Tag = 'TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '모든 인접한 모아이 또는 도시마다 [ICON_CULTURE] 문화를 +1 얻습니다. 물 타일에 인접해야 건설할 수 있습니다. [NEWLINE][NEWLINE]3타일 범위의 모든 폴리네시아 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다.'
+SET Text = '모든 인접한 모아이 또는 도시마다 [ICON_CULTURE] 문화를 +1 얻습니다. 물 타일에 인접해야 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILD_MOAI_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '모아이는 해안에만 건설할 수 있습니다.  만약 다른 모아이 또는 도시 옆에 건설하면 추가 [ICON_CULTURE]문화 보너스를 제공합니다. [NEWLINE][NEWLINE]모아이에서 3타일 이내의 모든 폴리네시아 유닛은 [ICON_STRENGTH] 전투력이 +20% 증가합니다.'
+SET Text = '모아이는 해안에만 건설할 수 있습니다. 만약 다른 모아이 또는 도시 옆에 건설하면 추가 [ICON_CULTURE]문화 보너스를 제공합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP';
 
 UPDATE Language_ko_KR

@@ -142,19 +142,19 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_TEXT">
-			<Text>티피는 평지 타일에만 건설할 수 있습니다. 다른 티피와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화가 증가합니다. 시설 위에 주둔한 유닛에 약간의 [ICON_STRENGTH]방어력 보너스를 제공하고 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다. 쇼쇼니 영토에만 건설할 수 있습니다.[NEWLINE][NEWLINE]티피는 전통적으로 동물의 가죽과 나무 막대기로 만들어진 원뿔형 텐트이다. 티피는 북아메리카의 대평원의 유목민 부족들의 야영지에서 사용되었다. 티피는 일반적으로 미국 원주민과 연관되어 있지만, 그레이트 플레인스 이외의 지역에서 온 아메리카 원주민들은 대부분 다른 종류의 주거지를 사용했다. 티피는 내구성이 강하고, 겨울에는 따뜻함과 편안함을 제공하며, 여름의 더위에는 시원하고, 폭우 시에는 건조하다. 티피스는 한 부족이 이주하기로 결정했을 때 빠르게 분해되고 포장될 수 있었고 새로운 지역에 정착했을 때 빠르게 재건될 수 있었다. 이러한 이동성은 유목 생활을 하는 평원 인디언들에게 중요했다. 현대의 티피 커버는 보통 캔버스로 만들어진다. 현대의 티피 이용자는 역사적 재현자, 전원 생활의 신자, 그리고 그들의 유산과 전통의 일부를 보존하고 물려주기를 원하는 집회나 캠프에 참석하는 아메리카 원주민 가족들을 포함한다.</Text>
+			<Text>{TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_HELP}[NEWLINE][NEWLINE]티피는 전통적으로 동물의 가죽과 나무 막대기로 만들어진 원뿔형 텐트이다. 티피는 북아메리카의 대평원의 유목민 부족들의 야영지에서 사용되었다. 티피는 일반적으로 미국 원주민과 연관되어 있지만, 그레이트 플레인스 이외의 지역에서 온 아메리카 원주민들은 대부분 다른 종류의 주거지를 사용했다. 티피는 내구성이 강하고, 겨울에는 따뜻함과 편안함을 제공하며, 여름의 더위에는 시원하고, 폭우 시에는 건조하다. 티피스는 한 부족이 이주하기로 결정했을 때 빠르게 분해되고 포장될 수 있었고 새로운 지역에 정착했을 때 빠르게 재건될 수 있었다. 이러한 이동성은 유목 생활을 하는 평원 인디언들에게 중요했다. 현대의 티피 커버는 보통 캔버스로 만들어진다. 현대의 티피 이용자는 역사적 재현자, 전원 생활의 신자, 그리고 그들의 유산과 전통의 일부를 보존하고 물려주기를 원하는 집회나 캠프에 참석하는 아메리카 원주민 가족들을 포함한다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_HELP">
-			<Text>티피는 평지 타일에만 건설할 수 있습니다. 다른 티피와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화가 증가합니다. 시설 위에 주둔한 유닛에 약간의 [ICON_STRENGTH]방어력 보너스를 제공하고 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다. 쇼쇼니 영토에만 건설할 수 있습니다.</Text>
+			<Text>티피는 평지 타일에만 건설할 수 있습니다. 다른 티피와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화가 증가합니다. 시설 위에 주둔한 유닛에 약간의 [ICON_STRENGTH]방어력 보너스를 제공하고 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다. 쇼쇼니 영토에만 건설할 수 있습니다 [NEWLINE][NEWLINE]3타일 범위의 모든 쇼쇼니 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다..</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE">
 			<Text>[LINK=IMPROVEMENT_ENCAMPMENT_SHOSHONE]티피[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_HELP">
-			<Text>현재 타일에 티피를 건설합니다. [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화가 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 시설 위에 주둔한 유닛에 약간의 방어력 보너스와 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다.</Text>
+			<Text>현재 타일에 티피를 건설합니다. [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화가 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. [NEWLINE][NEWLINE]3타일 범위의 모든 쇼쇼니 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다. [NEWLINE][NEWLINE]시설 위에 주둔한 유닛에 약간의 방어력 보너스와 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_REC">
-			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 증가시킵니다. 건설 시 모든 타일의 특성을 제거합니다. 약간의 방어력 보너스와 인접한 적 유닛에 소량의 피해를 입힙니다.</Text>
+			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 증가시킵니다. 건설 시 모든 타일의 특성을 제거합니다. 근처 쇼숀 유닛에게 전투력을 제공하고 주둔한 유닛에 방어력 보너스를 제공하며 인접한 적 유닛에 소량의 피해를 입힙니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN">
