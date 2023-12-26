@@ -3113,5 +3113,10 @@
 		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_HIDDEN_SITE">
 			<Text>숨겨진 사적지</Text>
 		</Row>
+		
+		<!-- EUI_tooltip_library -->
+		<Row Tag="TXT_KEY_PEDIA_EXC_BLDG_LABEL">
+			<Text>차단하는 건물:</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>
