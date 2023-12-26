@@ -14,7 +14,7 @@ UPDATE Language_ko_KR
 SET Text = '{1_CivName:textkey} 근처의 야만인을 처리했습니다! {1_CivName:textkey}에 대한 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '고대 유적을 발견했습니다. {TXT_KEY_UNITCOMBAT_RECON}을 보내 숨겨진 비밀을 밝혀내십시오!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_FOUND_GOODY_HUT';
 
