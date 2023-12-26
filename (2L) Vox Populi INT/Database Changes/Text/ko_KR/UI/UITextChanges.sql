@@ -628,10 +628,6 @@ SET Text = Text
 	|| '[NEWLINE][ICON_BULLET] 경험치 [COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_EXPERIENCE_RELIGIOUS')/100.0 AS NUMERIC) || '배[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITY_STATE_RELIGIOUS_TT';
 
-UPDATE Language_en_US
-SET Text = '도시 국가에서 약 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR]마다 새로운 [COLOR_POSITIVE_TEXT]군사 유닛[ENDCOLOR]을 제공합니다. [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 턴 뒤에 새 군사 유닛이 도착합니다.'
-WHERE Tag = 'TXT_KEY_CSTATE_MILITARY_BONUS';
-
 -- Quests
 UPDATE Language_ko_KR
 SET Text = '새로운 신도의 수가 가장 많은 문명에게 보상하겠다고 합니다.'
