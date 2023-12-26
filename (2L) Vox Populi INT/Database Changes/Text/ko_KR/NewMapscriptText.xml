@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_ko_KR>
+		<!-- Mapscripts for VP -->
+		<Row Tag="TXT_KEY_MAP_AMAZON_XP_VP">
+			<Text>아마존 플러스 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ARBOREA_VP">
+			<Text>아르보레아 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BOREAL_VP">
+			<Text>아한대 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_EUROPE_VP">
+			<Text>유럽 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FOUR_CORNERS_VP">
+			<Text>네 귀퉁이 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FRONTIER_VP">
+			<Text>개척지 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_GREAT_PLAINS_XP_VP">
+			<Text>대초원 플러스 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_HIGHLANDS_VP">
+			<Text>산악 지대 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_INLAND_SEA_VP">
+			<Text>내해 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LAKES_VP">
+			<Text>호수 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LARGE_ISLANDS_VP">
+			<Text>대형 섬 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NORTH_VS_SOUTH_VP">
+			<Text>남북대결 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RAINFOREST_VP">
+			<Text>열대우림 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RING_VP">
+			<Text>고리 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CW_MAP_PACK_CHINA_VP">
+			<Text>중국 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_SKIRMISH_VP">
+			<Text>교전 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_TERRA_VP">
+			<Text>테라 for VP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_WEST_VS_EAST_VP">
+			<Text>동서분쟁 for VP</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MAP_PLAYERS_START_IN">
             <Text>플레이어 시작 위치</Text>
         </Row>
