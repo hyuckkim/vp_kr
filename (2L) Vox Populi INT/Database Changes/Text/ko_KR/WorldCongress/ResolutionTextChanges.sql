@@ -43,7 +43,7 @@ SET Text = '세계 패권'
 WHERE Tag = 'TXT_KEY_RESOLUTION_DIPLO_VICTORY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]세계 패권[ENDCOLOR]을 위한 투표를 시행합니다. 한 문명이 세계 대회에서 충분한 표를 확보하면 [ICON_VICTORY_DIPLOMACY][COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]를 달성하게 됩니다. 외교 승리를 달성하는 데 필요한 대표단의 수는 게임 내 문명과 도시 국가의 수에 따라 달라지며 세계 대회 화면에서 확인할 수 있습니다.[NEWLINE][NEWLINE]해당 결의안 조건을 충족시킬 정도의 지지를 확보한 문명이 없다면 가장 많은 지지를 확보한 상위 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]의 문명이 향후 회기에서 사용할 수 있는 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 1명을 영구히 확보합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]한 문명이 단독으로 제안할 수 없습니다.[ENDCOLOR] [COLOR_POSITIVE_TEXT]세계 이념[ENDCOLOR]이 활성화되면 정기적으로 자동 제안이 이루어집니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]세계 패권[ENDCOLOR]을 위한 투표를 시행합니다. 한 문명이 세계 대회에서 충분한 표를 확보하면 [ICON_VICTORY_DIPLOMACY][COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]를 달성하게 됩니다. 외교 승리를 달성하는 데 필요한 대표단의 수는 게임 내 문명과 도시 국가의 수에 따라 달라지며 세계 대회 화면에서 확인할 수 있습니다.[NEWLINE][NEWLINE]해당 결의안 조건을 충족시킬 정도의 지지를 확보한 문명이 없다면 가장 많은 지지를 확보한 상위 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]의 문명이 향후 회기에서 사용할 수 있는 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR] 5명을 영구히 확보합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]한 문명이 단독으로 제안할 수 없습니다.[ENDCOLOR] [COLOR_POSITIVE_TEXT]세계 이념[ENDCOLOR]이 활성화되면 정기적으로 자동 제안이 이루어집니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP';
 
 -- World Religion
