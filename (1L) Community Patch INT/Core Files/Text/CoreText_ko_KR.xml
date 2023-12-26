@@ -7284,7 +7284,7 @@
 			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET]당신이 약속을 위반한 적이 있기 때문에 {1_Turns}턴 동안 기다려야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_MORE_MILITARY_TT">
-			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 군사력이 평균 이상이어야 합니다. 당신의 군사력은 상위 {1_Num}% 입니다.[ENDCOLOR]</Text>
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 군사력이 평균 이상이어야 합니다. (거리에 따라 조정됨) 당신의 군사력은 상위 {1_Num}% 입니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
 			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 동맹</Text>
