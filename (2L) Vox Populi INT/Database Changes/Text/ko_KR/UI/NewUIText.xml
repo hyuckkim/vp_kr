@@ -1009,6 +1009,15 @@
 		<Row Tag="TXT_KEY_VP_RESTING_INFLUENCE">
 			<Text> [ICON_INFLUENCE] 영향력 정지점</Text>
 		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_PLAYER_UNITCLASS_LIMIT">
+			<Text>플레이어 당 {1_Num}개만 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_TEAM_UNITCLASS_LIMIT">
+			<Text>팀 당{1_Num}개만 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_GLOBAL_UNITCLASS_LIMIT">
+			<Text>세계에서 {1_Num}개만 가능합니다.</Text>
+		</Row>
 
 		<!-- Tech tree -->
 		<Row Tag="TXT_KEY_SPECIALIST_YIELD_CHANGE">
