@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="17">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(4.3) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(4.4) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -51,13 +51,13 @@
     <File md5="0F58AE9F6D639FA8E7B648ED822432FB" import="0">Database Changes/Text/ko_KR/Events/NewEventText.xml</File>
     <File md5="73D9CD9663997F66ACA3E8241C64F48E" import="0">Database Changes/Text/ko_KR/Notifications/NewNotificationText.xml</File>
     <File md5="F437E4D998ACA492B390CA64687A3B01" import="0">Database Changes/Text/ko_KR/Notifications/NotificationTextChanges.sql</File>
-    <File md5="900C73D2CBE3E7C47C720FA5801A5D46" import="0">Database Changes/Text/ko_KR/Policies/NewPolicyText.xml</File>
+    <File md5="245B643212E4E351279F22BA4B478D05" import="0">Database Changes/Text/ko_KR/Policies/NewPolicyText.xml</File>
     <File md5="4FC06E2E2047F5D2E6F7129BF0269E40" import="0">Database Changes/Text/ko_KR/Policies/PolicyTextChanges.sql</File>
     <File md5="496E228FE914649A108F2C0B76DF8385" import="0">Database Changes/Text/ko_KR/Tech/NewTechText.xml</File>
     <File md5="858FD54BD55A23A3C312560FC6EA0DAA" import="0">Database Changes/Text/ko_KR/Tech/TechTextChanges.sql</File>
     <File md5="6048F2549BA5E6F204D1C8F447F5CA55" import="0">Database Changes/Text/ko_KR/UI/InterfaceModeTextChanges.sql</File>
     <File md5="500E936683B612C2F917D0ADA51E1A0A" import="0">Database Changes/Text/ko_KR/UI/NewUIText.sql</File>
-    <File md5="89174A36B916327028460E8805C2D430" import="0">Database Changes/Text/ko_KR/UI/NewUIText.xml</File>
+    <File md5="B7DE33D220E850EF1D643651547CD4EC" import="0">Database Changes/Text/ko_KR/UI/NewUIText.xml</File>
     <File md5="FEBE4E4F1D732CA84C02A9534F8AB5EC" import="0">Database Changes/Text/ko_KR/UI/UITextChanges.sql</File>
     <File md5="7893FE70739DBFEB193D41D84D986E77" import="0">Database Changes/Text/ko_KR/UnitPromotions/NewPromotionText.xml</File>
     <File md5="4026D2A9F0675ED990F2B479A012353E" import="0">Database Changes/Text/ko_KR/UnitPromotions/PromotionTextChanges.sql</File>

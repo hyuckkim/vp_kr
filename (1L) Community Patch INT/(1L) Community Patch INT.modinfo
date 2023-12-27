@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="125">
+<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="126">
   <Properties>
     <Name>(1L) Community Patch Localized</Name>
-    <Teaser>(4.3) Translation of the Community Patch</Teaser>
+    <Teaser>(4.4) Translation of the Community Patch</Teaser>
     <Description>Translation of the Community Patch to different languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>125</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>126</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -18,7 +18,7 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="125" maxversion="999" title="Community Patch" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="126" maxversion="999" title="Community Patch" />
   </Dependencies>
   <References />
   <Blocks />
