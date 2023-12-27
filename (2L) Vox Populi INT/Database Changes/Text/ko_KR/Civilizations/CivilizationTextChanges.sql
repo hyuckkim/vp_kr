@@ -494,8 +494,12 @@ WHERE Tag = 'TXT_KEY_BUILD_TERRACE_FARM';
 -- India
 --------------------
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT][ICON_RELIGION_PANTHEON] 종교관[ENDCOLOR]을 보유하고 시작합니다. [ICON_PROPHET]위대한 선지자의 출현에 필요한 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]35%[ENDCOLOR] 감소합니다. [ICON_RELIGION] 종교를 창시하면 모든 도시가 해당 종교를 따르게 됩니다. 기본 종교 압력이 +10% 증가하고 당신 문명의 주요 [ICON_RELIGION]종교를 따르는 신도 수 1명마다 [ICON_FOOD]도시 성장이 1% 증가합니다. [COLOR_NEGATIVE_TEXT]선교사를 생산할 수 없습니다.[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT][ICON_RELIGION_PANTHEON] 종교관[ENDCOLOR]을 보유하고 시작합니다. 위대한 선지자의 첫 번째 종교 전파 행동을 사용해 [ICON_RELIGION] 종교를 창시하거나 강화하거나, 성지를 건설할 수 있으며 이 경우 선지자가 소모되지 않습니다. [COLOR_NEGATIVE_TEXT]선교사를 생산할 수 없습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TRAIT_POPULATION_GROWTH';
+
+UPDATE Language_en_US
+SET Text = '마하트마'
+WHERE Tag = 'TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT';
 
 UPDATE Language_ko_KR
 SET Text = '나가-말라'
