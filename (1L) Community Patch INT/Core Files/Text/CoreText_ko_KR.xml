@@ -3072,6 +3072,9 @@
 		<Row Tag="TXT_KEY_CS_QUEST_EXPERIENCE">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET]모든 군사 유닛에 경험치 {1_Num}[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CS_QUEST_JUGGERNAUTS">
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] 강력한 {1_Num} 유닛 ([COLOR_POSITIVE_TEXT]추가 경험치 {2_Num})[ENDCOLOR]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_FAITH">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_PEACE]신앙 {1_Num}[ENDCOLOR]</Text>
 		</Row>

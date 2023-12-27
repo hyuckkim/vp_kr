@@ -223,6 +223,13 @@
 			<Text>[ICON_WAR]유닛 보급 한도를 차지하지 않음[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT">
+			<Text>절대적인 힘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT_HELP">
+			<Text>체력 +25.[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MARCH}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MORALE}[ENDCOLOR] 승급을 얻습니다.</Text>
+		</Row>
+
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
 			<Text>반자이!</Text>
