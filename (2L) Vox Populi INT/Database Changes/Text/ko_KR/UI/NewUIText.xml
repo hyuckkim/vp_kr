@@ -2873,6 +2873,15 @@
 		<Row Tag="TXT_KEY_VO_BENEFITS_YIELD_PERCENTAGE">
 			<Text>[ICON_BULLET] 종속국의 [ICON_RESEARCH], [ICON_CULTURE], [ICON_PEACE] 20% 제공</Text>
 		</Row>
+		<Row Tag="TXT_KEY_VO_BENEFITS_HAPPINESS_PERCENTAGE">
+			<Text>[ICON_BULLET] 종속국의 추가 [ICON_HAPPINESS_1] 행복 +10%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_UNIT_MAINTENANCE">
+			<Text>종주국은 종속국 유닛 유지비의 10%만큼을 [ICON_GOLD] 유지비로 지불합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VO_POPULATION_MAINTENANCE">
+			<Text>종주국은 종속국 [ICON_CITIZEN] 인구의 80% [ENDCOLOR] 만큼을 [ICON_GOLD] 유지비로 지불합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_VO_BENEFITS_IDEOLOGY">
 			<Text>[ICON_BULLET] 종속국이 종주국의 이념 채택</Text>
 		</Row>
