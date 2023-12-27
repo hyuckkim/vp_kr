@@ -314,36 +314,28 @@ SET Text = '보안 등급'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL';
 
 UPDATE Language_ko_KR
-SET Text = '보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 낮을수록 도시는 취약합니다. 기본값은 [COLOR_POSITIVE_TEXT](1~50,보정됨)[ENDCOLOR] 도시의 전반적인 경제적 가치에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물을 건설하면 보안 등급이 증가합니다. 레벨이 높은 역스파이를 사용할 경우 보안 등급이 증가할 수 있습니다.[NEWLINE][NEWLINE]잠재력 순으로 도시를 정렬하려면 클릭하십시오.'
+SET Text = '보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높다면, 외국 스파이가 작전을 완료하는 데 더 오랜 시간이 걸립니다. 보안 등급을 증가시키기 위해 경찰대나 경찰서 등의 첩보 건물을 건설할 수 있습니다.[NEWLINE][NEWLINE]잠재력 순으로 도시를 정렬하려면 클릭하십시오.'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL_SORT_TT';
 
 UPDATE Language_ko_KR
-SET Text = '만약 당신 문명의 도시의 보안 등급이 낮다면 그들을 보호하는 것을 고려해야 합니다. 두 가지 방법으로 도시를 보호할 수 있습니다. 당신 문명의 스파이를 소유한 도시로 보내 대항 스파이로 활동하게 하면 적 스파이가 무언가 훔치기 전에 잡아 처치할 확률이 있습니다. 경찰대나 경찰서, 인터넷 검열 시스템을 건설해 보호할 수 있습니다.'
-WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
-
-UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 절도를 수행하고 있습니다.[NEWLINE]{3_CityName}의 현재 보안 등급은 {4_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]1~50[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
+SET Text = '{1_CityName}의 보안 등급은 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 입니다. 스파이의 네트워크 포인트 생성 속도를 [COLOR_NEGATIVE_TEXT]{3_PercentReduction}%[ENDCOLOR] 낮춥니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 기술을 훔칠 수 없습니다.[NEWLINE][NEWLINE]{4_CityName}의 기본 보안 등급은 {5_Num}입니다.[NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]5~50[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
-WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
+SET Text = '{1_CityName}의 보안 등급은 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 입니다. 스파이의 네트워크 포인트 생성 속도를 [COLOR_NEGATIVE_TEXT]{3_PercentReduction}%[ENDCOLOR] 낮춥니다.[NEWLINE]{4_SecurityDetails}'
+WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CityName}의 추정 보안 등급은 {2_Num}입니다.[NEWLINE][NEWLINE]자세한 내용을 보려면 이 도시에 [ICON_SPY]스파이를 보내십시오. [NEWLINE][NEWLINE][NEWLINE][NEWLINE]보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높을수록 도시는 보호받습니다. 기본값은 [COLOR_POSITIVE_TEXT]5~50[ENDCOLOR] (보정됨) 도시의 전반적인 번영과 행복에 기초합니다. 도시에 경찰대나 경찰서와 같은 방어 건물이 있으면 보안 등급이 증가합니다.'
-WHERE Tag = 'TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT';
+SET Text = '시 국가에서는 기술을 훔칠 수 없으므로 보안 등급도 없습니다.[NEWLINE][NEWLINE]도시 국가에 스파이를 보내면 선거 결과를 조작할 수 있습니다. 한 도시 국가에 스파이가 여러 명 있다면 가장 레벨이 높은 스파이 중 해당 도시에 가장 오래 잠입했던 스파이가 선거 결과를 조작할 확률이 가장 높습니다. 다른 문명과 동맹을 맺은 도시 국가에 잠입한 스파이는 쿠데타를 시도할 수도 있습니다.'
+WHERE Tag = 'TXT_KEY_EO_CITY_STATE_POTENTIAL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_SPY] 보안 등급: [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR][NEWLINE][ICON_CAPITAL] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 5까지 [COLOR_NEGATIVE_TEXT]줄어들어[ENDCOLOR] 적 스파이가 더욱 빠르게 활동합니다. 양수라면, 천천히 50까지 [COLOR_POSITIVE_TEXT]늘어나[ENDCOLOR] 적 스파이가 작전을 느리게 수행합니다. [NEWLINE][NEWLINE]적 스파이가 작전을 완료하면 보안 등급은 50으로 돌아갑니다.'
-WHERE Tag = 'TXT_KEY_POTENTIAL_CALCULATION';
+SET Text = '도시의 인구입니다.[NEWLINE][NEWLINE]인구별로 도시를 정렬하려면 클릭하십시오.'
+WHERE Tag = 'TXT_KEY_EO_POPULATION_SORT_TT';
 
 UPDATE Language_ko_KR
-SET Text = '스파이 작전 수행'
-WHERE Tag = 'TXT_KEY_SPY_STATE_GATHERING_INTEL';
-
-UPDATE Language_ko_KR
-SET Text = '{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} {3_CityName}에서 우리의 영향력을 늘리기 위해 선거 조작을 시도하고 있습니다. 선거 조작이 성공하면 도시 국가에서 쿠데타를 일으킬 확률이 증가합니다.'
-WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_SHORT_TT';
+SET Text = '{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} {3_CityName}에서 우리의 영향력을 늘리기 위해 선거 조작을 시도하고 있습니다. 선거 조작이 성공하면 도시 국가에서 쿠데타를 성공할 확률이 증가합니다.[NEWLINE][NEWLINE]한 문명만이 선거 결과를 조작할 수 있습니다.한 도시 국가에 스파이가 여러 명 있다면 가장 계급이 높은 스파이 중 가장 그곳에 오래 머문 스파이가 선거 결과를 조작할 확률이 가장 높습니다. 연속으로 선거 조작에 성공하면 더 많은 영향력을 얻을 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]선거 조작에 성공하면  {4_Influence} 영향력을 얻습니다.[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT';
 
 UPDATE Language_ko_KR
 SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 스파이 작전을 수행하고 있습니다. 도시 소유주가 해당 도시에 스파이를 가지고 있다면 당신의 스파이가 작전을 수행하다가 발각당하거나 죽을 확률이 높아지므로 주의하십시오!'
@@ -358,7 +350,7 @@ SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되�
 WHERE Tag = 'TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 스파이 색출 임무를 수행하고 있습니다.[NEWLINE][NEWLINE]적 스파이가 플레이어가 스파이를 잠입시킨 도시에서 스파이 작전을 수행하려 한다면 이를 탐지할 것입니다. 정보를 훔쳐간 스파이의 신원을 파악하거나 현장에서 죽일 수 있습니다. 색출 임무를 수행하는 스파이의 레벨이 높을 수록 적 스파이를 죽일 확률도 올라갑니다.'
+SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 스파이 색출 임무를 수행하고 있습니다.'
 WHERE Tag = 'TXT_KEY_EO_SPY_COUNTER_INTEL_TT';
 
 UPDATE Language_ko_KR
@@ -370,31 +362,19 @@ SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에 있
 WHERE Tag = 'TXT_KEY_CITY_SPY_OTHER_CIV_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}의 스파이 옵션:[NEWLINE][NEWLINE][NEWLINE][NEWLINE][ICON_BULLET] 도시 국가로 이동해서 쿠데타 및 선거조작 가능[NEWLINE][ICON_BULLET] 주요 문명의 수도가 아닌 도시로 이동해서 스파이 활동[NEWLINE][ICON_BULLET] 주요 문명의 수도로 이동해서 스파이 활동, [ICON_DIPLOMAT]외교관 활동'
+SET Text = '{1_SpyRank} {2_SpyName}의 스파이 옵션:[NEWLINE][NEWLINE][NEWLINE][NEWLINE][ICON_BULLET] 도시 국가로 이동해서 선거조작 가능[NEWLINE][ICON_BULLET] 주요 문명의 도시로 이동해서 기밀을 얻고 스파이 활동[NEWLINE][ICON_BULLET] 주요 문명의 수도로 이동해서 [ICON_DIPLOMAT]외교관 활동'
 WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName}{2: plural 1?으로; 2?로;} 승급했습니다.[NEWLINE][NEWLINE]스파이는 신병, 요원, 특수요원, 이렇게 세 가지 계급으로 나뉩니다. 계급이 높은 스파이일수록 작전을 빨리 수행하고 적 스파이를 더 잘 찾아 죽이며 도시 국가의 선거를 조작하거나 다른 문명과 동맹을 맺은 도시 국가에서 쿠데타를 일으키기도 더 쉽습니다.[NEWLINE][NEWLINE]스파이는 스파이 활동을 완료하거나 적 스파이를 처치하거나, 외교관 수다 떨기 활동 또는 음모 폭로를 할 때마다 경험치를 획득합니다.'
+SET Text = '{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName}{2: plural 1?으로; 2?로;} 승급했습니다.[NEWLINE][NEWLINE]스파이는 신병, 요원, 특수요원, 이렇게 세 가지 계급으로 나뉩니다. 계급이 높은 스파이일수록 더 효과적입니다.[NEWLINE][NEWLINE]스파이 미션을 수행하거나 정보를 수집하거나, 외교관으로서 잡담하거나 방첩 활동을 수행하며 매 턴 소량의 경험치를 얻습니다.'
 WHERE Tag = 'TXT_KEY_EO_SPY_RANK_TT';
-
-UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 쿠데타를 일으켜 {4_CivAdjective} 지지자들을 몰아내게 하려면 클릭하십시오.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]성공률은 {5_Num}%입니다. (역스파이가 없을 때)[ENDCOLOR] {6_SpyRank} {7_SpyName}{7: plural 1?이; 2?가;} 임무에 성공하면 {8_CityName}{8: plural 1?과; 2?와;} 동맹이 되며 {9_CivShortDesc}{9: plural 1?이; 2?가;} 당신의 현재 영향력만큼으로 감소하며 다른 모든 문명과의 영향력이 떨어집니다. {10_SpyRank} {11_SpyName}{11: plural 1?이; 2?가;} 임무에 실패하면 사망하며 {12_CityName}와의 영향력이 크게 떨어집니다.[NEWLINE][NEWLINE]성공률을 올리려면 해당 도시 국가와의 영향력을 높이거나 선거 조작을 하거나 레벨이 더 높은 스파이를 쓰거나 현재 동맹국의 영향력이 떨어지기를 기다리십시오.'
-WHERE Tag = 'TXT_KEY_EO_SPY_COUP_ENABLED_TT';
-
-UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 쿠데타를 일으켜 {4_CivShotDesc} 지지자들을 몰아내게 할 수 있습니다.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]이 임무의 성공률은 {5_PERCENT}%입니다. (역스파이가 없을 때)[ENDCOLOR]임무에 성공하면 {6_CityName}의 동맹이 되며 {7_CivShortDesc}의 영향력이 떨어집니다. 실패하면 스파이는 죽고 {8_CityName}와의 영향력이 감소합니다.[NEWLINE][NEWLINE]{9_SpyRank} {10_SpyName}에게 {11_CityName}에서 쿠데타를 일으키라고 지시하시겠습니까?'
-WHERE Tag = 'TXT_KEY_EO_STAGE_COUP_QUESTION';
-
-UPDATE Language_ko_KR
-SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과를 조작해 영향력이 증가했습니다.[NEWLINE][NEWLINE]한 문명만이 선거 결과를 조작할 수 있습니다. 한 도시 국가에 스파이가 여러 명 있다면 가장 계급이 높은 스파이 중 가장 그곳에 오래 머문 스파이가 선거 결과를 조작할 확률이 가장 높습니다. 선거 조작은 또한 도시 국가의 쿠데타 성공 확률을 상승시킵니다.'
-WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT';
 
 UPDATE Language_ko_KR
 SET Text = '[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]이 도시 국가는 강력한 문화적 영향을 받고 있는 문명과 동맹 관계이기 때문에, 선거 조작 중 스파이의 등급이 {1_SpyBonus} {1_SpyBonus: plural 1?Rank; other?Ranks;} 상승합니다. 쿠데타의 성공 확률도 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPY_BONUS_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '이 스파이를 외교관으로 삼으시겠습니까? 전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 선전포고를 하면 스파이는 도시에서 탈출합니다. 외교관은 다른 문명의 기술을 훔치지 않지만 지속적으로 음모를 제공합니다. 세계 대회를 소집하면 외교관의 의견을 제안에 사용할 수 있고 필요하다면 거래할 수 있습니다. 외교관은 자동으로 대상 문명의 [ICON_TOURISM]관광을 대폭 향상시킵니다.'
+SET Text = '이 스파이를 외교관으로 삼으시겠습니까? 전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 선전포고를 하면 스파이는 도시에서 탈출합니다. 외교관은 대상 문명의 기밀을 제공합니다. 세계 대회를 소집하면 외교관의 의견을 제안에 사용할 수 있고 필요하다면 거래할 수 있습니다. 외교관은 자동으로 대상 문명의 [ICON_TOURISM]관광을 대폭 향상시킵니다.'
 WHERE Tag = 'TXT_KEY_SPY_BE_DIPLOMAT';
 
 -- Button tooltip

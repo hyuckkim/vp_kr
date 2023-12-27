@@ -572,7 +572,7 @@
 			<Text>세계 대회 결의안 또는 이념 주의 때문에 {2_City}에 있는 {3_Civ}의 {@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 강제적으로 문을 닫았습니다.</Text>
 		</Row>
 
-		<!-- Events -->
+		<!-- Events and Espionage -->
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_T">
 			<Text>이벤트가 끝났습니다.</Text>
 		</Row>
@@ -584,6 +584,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_CITY">
 			<Text>{2_City}에서 사라지는 이벤트 효과:[NEWLINE]{1_Event}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ESPIONAGE_EVENT_HAS_ENDED_CITY_T">
+			<Text>{1_City}에서 첩보 이벤트가 끝났습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ESPIONAGE_EVENT_HAS_ENDED_CITY">
+			<Text>{2_City}에서 사라지는 첩보 이벤트 효과:[NEWLINE]{1_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_T">
 			<Text>'{1_Event}' 이벤트는 일어나지 않았습니다.</Text>
@@ -615,42 +621,6 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_ENEMY">
 			<Text>당신을 향한 첩보 작전 효과 종료: 턴 당 {1_MissionResult} 횡령</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ESTIMATED">
-			<Text>[COLOR_POSITIVE_TEXT]예상 횡령 양:[ENDCOLOR] {2_Turns} 동안 매 턴 {1_Yield}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE">
-			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {2_CivAdj}} 요원이 {1_City}에서 저지됐습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE">
-			<Text>{3_CivAdj} 요원의 {2_City} 에서의 스파이 활동은 [COLOR_POSITIVE_TEXT]실패했습니다[ENDCOLOR] : {1_EventChoice}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE_UNKNOWN">
-			<Text>알수 없는 문명의 요원이 {1_City}에서 저지됐습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE_UNKNOWN">
-			<Text>알 수 없는 문명의 요원의 {2_City} 에서의 스파이 활동은 [COLOR_POSITIVE_TEXT]실패했습니다[ENDCOLOR] : {1_EventChoice}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T_ESPIONAGE_US">
-			<Text>우리 요원이 {1_City}에서 저지됐습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_ESPIONAGE_US">
-			<Text>{2_City}에서의 스파이 활동이 실패했습니다. {1_EventChoice}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_DETECTED">
-			<Text>[COLOR_POSITIVE_TEXT]임무 결과:[ENDCOLOR] 성공![NEWLINE][NEWLINE]메시지: "발각되었지만, 누구의 스파이인지는 알지 못합니다. 재배치될 때까지 계속 일하겠습니다."[NEWLINE][NEWLINE]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_IDENTIFIED">
-			<Text>[COLOR_POSITIVE_TEXT]임무 결과:[ENDCOLOR] 성공했지만 들켰습니다![NEWLINE][NEWLINE]메시지: "장막이 들춰졌습니다. 재배치를 위해 본부로 돌아갑니다."[NEWLINE][NEWLINE]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_KILLED">
-			<Text>[COLOR_NEGATIVE_TEXT]임무 결과:[ENDCOLOR] 실패[NEWLINE][NEWLINE] 통신이 끊겼습니다.[NEWLINE][NEWLINE]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EXTRA_SIGHT_EVENT_HAS_ENDED_CITY">
-			<Text>{1_City}에 있던 당신의 스파이 네트워크가 제공하던 시야 보너스가 종료되었습니다. 스파이가 임무를 다시 시작하도록 해야 합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_EXTRA_SIGHT_EVENT_HAS_ENDED_CITY_T">
-			<Text>{1_City}의 도시 시야 보너스가 종료되었습니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS_S">
 			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 성공했습니다!</Text>
 		</Row>
@@ -658,17 +628,89 @@
 			<Text>{3_CityName}에서 {1_SpyRank} {2_SpyName}{2_SpyName: plural 1?이; 2?가;} 임무를 완료했습니다: {4_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_T_ESPIONAGE">
-			<Text>{2_CivAdj} 요원이 {1_City}에서 임무를 성공했습니다!</Text>
+			<Text>{2_CivAdj} 스파이가 {1_City}에서 임무를 성공했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE">
-			<Text>{2_CivAdj} 요원의 {1_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : {3_MissionResult}</Text>
+			<Text>{2_CivAdj} 스파이의 {1_City}에서의 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : {3_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_T_ESPIONAGE_UNKNOWN">
-			<Text>알수 없는 문명의 요원이 {1_City}에서 임무를 성공했습니다!</Text>
+			<Text>알수 없는 문명의 스파이가 {1_City}에서 임무를 성공했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_UNKNOWN">
-			<Text>알수 없는 문명의 요원의 {1_City}에서의 스파이 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : {2_MissionResult}</Text>
+			<Text>알수 없는 문명의 스파이의 {1_City}에서의 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : {2_MissionResult}</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_CAUGHT_S">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 발각되어 붙잡힘!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_CAUGHT">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]발각되어 붙잡혔습니다![ENDCOLOR] {3_CivName}와의 외교 관계가 악화되고 {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 투옥되었습니다. 헤제되어 다시 임무를 수행하기까지 시간이 걸립니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_S">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 발각됨!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]발각되었습니다![ENDCOLOR] {3_CivName}와의 외교 관계가 악화됩니다. {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 다른 작전을 위해 대기합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_CAUGHT_S">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 발각되어 붙잡힘!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_CAUGHT">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]붙잡혔습니다![ENDCOLOR] 다시 임무를 수행하기까지 시간이 걸립니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED_S">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 들키지 않음!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전을 완료했으며 [COLOR_POSITIVE_TEXT]들키지 않았습니다.[ENDCOLOR]. 다른 작전을 위해 대기합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RELEASED_PRISON_S">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 석방됨!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RELEASED_PRISON">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 석방되엇습니다. 스파이를 다음 작전에 보낼 수 있습니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_NO_TOURISM_EVENT_ENDED_S">
+			<Text>{1_City}의 관광지 재가동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NO_TOURISM_EVENT_ENDED">
+			<Text>스파이가 일으킨 {1_City}에서의 폭동이 끝났습니다. 도시가 다시 관광을 생산하기 시작합니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_DETECTED_S">
+			<Text>{1_City}의 역스파이!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_DETECTED">
+			<Text>{2_SpyRank} {3_SpyName}{3: plural 1?이; 2?가;} {1_City}에 도착했고, [ICON_SPY] 역스파이를 발견했습니다! 다음 효과가 적용됩니다:[NEWLINE][NEWLINE]{4_MissionEffect}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_STARTED_S">
+			<Text>{1_City}의 역스파이!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_STARTED">
+			<Text>{1_City}에서 [ICON_SPY] 역스파이 작전을 시작했습니다. 다음 효과가 적용됩니다:[NEWLINE][NEWLINE]{2_MissionEffect}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_ENDED_S">
+			<Text>{1_City}의 역스파이 작전 종료!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_ENDED">
+			<Text>{1_City}의 [ICON_SPY] 역스파이가 도시를 떠나거나 작전을 변경했습니다. 다음 효과는 이제 적용되지 않습니다:[NEWLINE][NEWLINE]{2_MissionEffect}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_MISSIONS_AVAILABLE_S">
+			<Text>새 스파이 작전 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_MISSIONS_AVAILABLE">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_City}에서 다음 작전을 수행할 수 있는 네트워크 포인트를 얻었습니다. 다른 임무 조건이 충족되면:[NEWLINE]{5_Missions}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS_S">
+			<Text>스파이 패시브 보너스 잠금 해제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_City}에서 패시브를 획득할 수 있는 네트워크 포인트를 얻었습니다:[NEWLINE][NEWLINE] {4_Missions}</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT">
 			<Text>이벤트 결정</Text>
 		</Row>

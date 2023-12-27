@@ -1,60 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_ko_KR>
-		<!-- Espionage overview -->
-		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_PERMA_TT">
-			<Text>그들의 현재 동맹이 아직 영향권을 가지고 있기 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 아직 쿠데타를 시도하지 않았습니다.</Text>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
+			<Text>[COLOR_WARNING_TEXT]이 정책 트리를 해제하기 위해서는 {1_Num}개의 정책이 더 필요합니다.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_SPY_RIGGING_COUP_CHANCE_INCREASE">
-			<Text>[COLOR_CYAN]선거 조작에 성공할 때마다 쿠데타 성공 확률이 {1_CoupChanceIncrease}% 증가합니다.[ENDCOLOR]</Text>
+
+		<!-- Espionage -->
+		
+		<Row Tag="TXT_KEY_SPY_POINTS_TT">
+			<Text>현재 [ICON_VP_SPY_POINTS] 스파이 포인트: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE][ICON_VP_SPY_POINTS] 스파이 포인트가 임계값 {2_Threshold}을(를) 넘을 때마다 새로운 스파이를 얻게 됩니다. 임계값은 게임 시작 시 플레이어 수와 도시 국가 수에 따라 달라집니다. 어떤 문명이 처음으로 르네상스 시대에 도달하거나 당신이 그 다음 시대에 도달할 때마다 [ICON_VP_SPY_POINTS] 스파이 포인트를 100 얻습니다. 일부 건물과 시설도 [ICON_VP_SPY_POINTS] 스파이 포인트를 제공합니다.[NEWLINE][NEWLINE]지금까지 누적된 총 [ICON_VP_SPY_POINTS] 스파이 포인트: {3_NumTotal}
+			</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_SPY_RIGGING_NO_COUP_POSSIBLE">
-			<Text>[COLOR_NEGATIVE_TEXT]도시 국가에서 쿠데타가 불가능하므로 선거 조작이 쿠데타의 성공률을 증가시키지 않습니다.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_EVENT_NO_TECH_STEAL">
+			<Text>[NEWLINE] [ICON_BULLET] 훔칠 기술이 없습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS">
-			<Text>스파이 효과 활성화</Text>
+		<Row Tag="TXT_KEY_EVENT_NO_GW_FORGE">
+			<Text>[NEWLINE] [ICON_BULLET] 걸작이 없습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_START_TURN">
-			<Text>턴 시작</Text>
+		<Row Tag="TXT_KEY_EVENT_SPY_RANK">
+			<Text>[NEWLINE] [ICON_BULLET] 이 선택을 할만큼 스파이의 등급이 높지 않습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_END_TURN">
-			<Text>턴 종료</Text>
+		<Row Tag="TXT_KEY_EVENT_MIN_SIPHON_FAITH_NOT_MET">
+			<Text>[NEWLINE] [ICON_BULLET] 훔칠 만큼의 충분한 신앙을 생산하지 않습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_TARGET">
-			<Text>목표 플레이어</Text>
+		<Row Tag="TXT_KEY_EVENT_MIN_SIPHON_OTHER_NOT_MET">
+			<Text>[NEWLINE] [ICON_BULLET] 훔칠 만큼의 충분한 산출을 생산하지 않습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_SPY_OWNER">
-			<Text>스파이 소유자</Text>
+		<Row Tag="TXT_KEY_EVENT_NOT_ENOUGH_NP">
+			<Text>[NEWLINE] [ICON_BULLET] 네트워크 포인트가 충분하지 않습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_ACTIVE_SPY_MISSIONS_EFFECT">
-			<Text>효과</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_NO_SPY_MISSIONS_ACTIVE">
-			<Text>활성화된 스파이 효과 없음</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_FRIENDLY">
-			<Text>내 건물과 정책에서: -{1_Num}턴</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_MISSION_TURN_MODIFIER_ENEMY">
-			<Text>적 건물과 정책에서: +{1_Num}턴</Text>
-		</Row>
+		
 		<Row Tag="TXT_KEY_EO_SPY_EXPERIENCE">
 			<Text>경험치: {1_Num} / {2_Denom}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE">
-			<Text>[COLOR_POSITIVE_TEXT]턴 당 {1_Yield} 횡령[ENDCOLOR]</Text>
+		
+		<!-- Offensive Spies -->
+		<Row Tag="TXT_KEY_EO_MISSIONS_TRAVELING_TOOLTIP">
+			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} {3_City}에 도착했으며, 네트워크 포인트를 모으기 시작합니다. 네트워크 포인트는 스파이가 도시에 있는 동안 패시브 보너스를 제공하거나, 스파이 미션을 수행하는데 사용할 수 있습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_ACTIVE_ENEMY">
-			<Text>[COLOR_NEGATIVE_TEXT]턴 당 {1_Yield} 횡령[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_EO_MISSIONS">
+			<Text>작전</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_DURATION">
-			<Text>[COLOR_POSITIVE_TEXT]추정 작전 길이:[ENDCOLOR] {1_Num}턴</Text>
+		<Row Tag="TXT_KEY_EO_MISSIONS_TOOLTIP_SHORT">
+			<Text>스파이 작전 선택</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SPY_DURATION_LEVEL_MODIFIER">
-			<Text>[NEWLINE]  [ICON_BULLET] 스파이 등급에서: {1_Num}%</Text>
+		<Row Tag="TXT_KEY_EO_MISSIONS_DISABLED_REASONS_HEADER">
+			<Text>[COLOR_NEGATIVE_TEXT]다음 이유로 작전이 불가능합니다:[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SPY_DURATION_TRAIT_MODIFIER">
-			<Text>[NEWLINE]  [ICON_BULLET] 플레이어 특성에서: {1_Num}%</Text>
+		<Row Tag="TXT_KEY_EO_MISSION_COST">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num} 네트워크 포인트:[ENDCOLOR] {2_Text}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MISSIONS_TOOLTIP">
+			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} {3_City}에서 모은 정보로 얻은 패시브 보너스를 확인하거나, 네트워크 포인트를 사용해 스파이 미션을 실행하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CONDUCT_MISSION">
+			<Text>임무 수행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUS_THRESHOLDS">
+			<Text>패시브 보너스 기준치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUS_THRESHOLD_TT">
+			<Text>기준치를 넘어 보너스:[NEWLINE]{1_Text}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES">
+			<Text>패시브 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUS_NP_REQUIRED">
+			<Text>{1_Num} 네트워크 포인트: {2_Text}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES_UNLOCKED">
+			<Text>스파이가 [COLOR_CYAN]{1_Num} 네트워크 포인트[ENDCOLOR]를 수집했습니다. 새로운 [COLOR_CYAN]패시브 보너스[ENDCOLOR]를 잠금 해제합니다:[NEWLINE][NEWLINE][COLOR_CYAN]{2_PassiveBonuses}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES_UNLOCKED_FROM_EARLIER">
+			<Text>스파이가 이 도시에서 머무는 동안 수집한 최대 네트워크 포인트는 [COLOR_CYAN]{1_Num}[ENDCOLOR] 입니다. 새로운 [COLOR_CYAN]패시브 보너스[ENDCOLOR]를 잠금 해제합니다:[NEWLINE][NEWLINE][COLOR_CYAN]{2_PassiveBonuses}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES_UNLOCKED_NOTHING_YET">
+			<Text>스파이가 총 [COLOR_CYAN]{1_Num} 네트워크 포인트[ENDCOLOR]를 수집했습니다. 이 도시에 스파이를 계속 유지하고 더 많은 네트워크 포인트를 얻어 새 패시브 보너스를 활성화하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SCREEN_NOT_ENOUGH_NP">
+			<Text>도시 화면을 확인하기 위해 {1_Num} 네트워크 포인트가 더 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MISSIONS_HELP">
+			<Text>임무 요구 사항이 충족되면 스파이가 스파이 임무를 수행하도록 할 수 있습니다. 임무 수행은 [COLOR_NEGATIVE_TEXT]네트워크 포인트를 소모[ENDCOLOR]하며, 스파이가 [COLOR_NEGATIVE_TEXT]발견[ENDCOLOR]되어 외교 관계가 악하될 수 있습니다. 또한 스파이가 [COLOR_NEGATIVE_TEXT]체포[ENDCOLOR]될 수도 있으며, 이 경우 임무는 계속 수행되지만 스파이는 잠시 투옥된 후 은신처로 돌아갑니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_IMPRISONED_TT">
+			<Text>{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} 현재 투옥되어 있습니다.[NEWLINE][NEWLINE]풀려나면 은신처로 돌아가며 다시 임무를 수행시킬 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_IMPRISONED">
+			<Text>투옥됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_IMPRISONED">
+			<Text>{1_Turns}턴 간 투옥되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ID_CAPTURE_CHANCE">
+			<Text>[COLOR_NEGATIVE_TEXT]발견[ENDCOLOR]될 확률: {1_IDChance}%
+			[NEWLINE][COLOR_NEGATIVE_TEXT]체포[ENDCOLOR]될 확률: {2_CaptureChance}%</Text>
+		</Row>
+		
+		<!-- Counterspies -->
+		<Row Tag="TXT_KEY_EO_COUNTERSPY">
+			<Text>목표 변경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_TOOLTIP_SHORT">
+			<Text>역스파이 목표 변경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_TOOLTIP">
+			<Text>{1_Rank} {2_Spy}에게 새로운 목표를 지정하십시오. {3_NumTurns}턴 동안 새로운 목표를 지정할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_TRAVELING_TOOLTIP">
+			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} {3_City}에 도착했습니다. 역스파이 목표를 지정할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_CANNOT_MOVE_TT">
+			<Text>최근에 역스파이 목표를 지정했으므로, {1_Rank} {2_Spy}{2: plural 1?은; 2?는;} {3_NumTurns}턴 동안 이동할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_CANNOT_CHANGE_FOCUS_TT">
+			<Text>최근에 역스파이 목표를 지정했으므로, {1_Rank} {2_Spy}{2: plural 1?은; 2?는;} {3_NumTurns}턴 동안 목표를 변경할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_ACTIVE_FOCUS_TT">
+			<Text>현재 목표: {1_StrMission}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_COUNTERSPY_CANNOT_CHANGE_ACTIVE_FOCUS_TT">
+			<Text>현재 수행 중인 목표입니다.</Text>
+		</Row>
+		<!-- Diplomats -->
+		<Row Tag="TXT_KEY_EO_DIPLOMAT">
+			<Text>기밀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_DIPLOMAT_TOOLTIP_SHORT">
+			<Text>외교 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_DIPLOMAT_TOOLTIP">
+			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} 수집한 기밀 정보를 확인하십시오. [COLOR_NEGATIVE_TEXT](아직 구현되지 않음)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_DIPLOMAT_TRAVELING_TOOLTIP">
+			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} {3_City}에 도착했으며, 네트워크 포인트를 모으기 시작합니다. 네트워크 포인트는 스파이가 도시에 있는 동안 패시브 보너스를 제공하고, {1_Rank} {2_Spy}{2: plural 1?이; 2?가;} 도시에 머무는 동안 기밀 정보를 제공합니다.</Text>
+		</Row>
+		
+		<!-- City Security -->
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_BASE_TT">
+			<Text>[NEWLINE][ICON_BULLET]기본 보안: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_DIFFICULTY_TT">
+			<Text>[NEWLINE][ICON_BULLET]난이도 단계: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_NOT_ALL_HAVE_SPIES_TT">
+			<Text>[NEWLINE][ICON_BULLET]모든 플레이어가 스파이를 보유하지 않음: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_BUILDINGS_TT">
+			<Text>[NEWLINE][ICON_BULLET]도시 건물: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_POLICIES_WONDERS_TT">
+			<Text>[NEWLINE][ICON_BULLET]정책 및 불가사의: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_PREVIOUS_SPY_MISSIONS_TT">
+			<Text>[NEWLINE][ICON_BULLET]도시에서의 이전 작전: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_POPULATION_TT">
+			<Text>[NEWLINE][ICON_BULLET]도시 인구: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_TRADE_ROUTES_TT">
+			<Text>[NEWLINE][ICON_BULLET]도시를 거치는 교역로: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_UNHAPPINESS_TT">
+			<Text>[NEWLINE][ICON_BULLET]초과 불행: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<!-- Network Points -->
+		<Row Tag="TXT_KEY_NETWORK_POINTS">
+			<Text>{1_NumStored} 네트워크 보너스 (+{2_NumPerTurn})</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_BASE_TT">
+			<Text>[NEWLINE][ICON_BULLET]턴 당 기본 네트워크 포인트: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_SPY_RANK_TT">
+			<Text>[NEWLINE][ICON_BULLET]스파이 등급: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_CULTURAL_INFLUENCE_TT">
+			<Text>[NEWLINE][ICON_BULLET]대상에 대한 문화적 영향력: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_TECH_DIFFERENCE_TT">
+			<Text>[NEWLINE][ICON_BULLET]대상과의 기술 차이: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_POLICIES_TT">
+			<Text>[NEWLINE][ICON_BULLET]정책: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_COUNTERSPY_NETWORK_TT">
+			<Text>[NEWLINE][ICON_BULLET]적의 역스파이망: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_POLICYMOD_FASTER_TT">
+			<Text>[NEWLINE][ICON_BULLET]정책으로: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_BEFORE_SECURITY_TT">
+			<Text>[NEWLINE]총 기본 네트워크 포인트: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_SECURITY_MOD_TT">
+			<Text>[NEWLINE][ICON_BULLET]도시 보안에 의해 감소: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_FINAL_TT">
+			<Text>[NEWLINE][COLOR_POSITIVE_TEXT]턴당 최종 네트워크 포인트: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- City-State screen/tooltip -->
@@ -534,11 +695,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY">
 			<Text>군사 유닛 수: {11_Num} (군사 보급 {2_Num} 사용) [NEWLINE] 총 군사 보급 한도: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]전쟁 피로도 보급 감소율: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]군사 보급:[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{4_Num}[ENDCOLOR]  [ICON_CITY_STATE]소유한 도시에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{3_Num}[ENDCOLOR]  [ICON_CITIZEN]총 시민 수에서[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{5_Num}[ENDCOLOR]  [ICON_CHECKBOX][NEWLINE]  [ICON_BULLET]+{10_Num} [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] 위인에서[NEWLINE]  [NEWLINE][NEWLINE]군사 보급 감소:[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{8_Num}[ENDCOLOR]  [ICON_RESEARCH]기술 수준에서[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{7_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서[NEWLINE][NEWLINE][ICON_WAR]전쟁 피로도 때문에 군사 유닛의 [ICON_GOLD]/[ICON_PEACE]비용이 [COLOR_NEGATIVE_TEXT]{9_Num}%[ENDCOLOR] 증가합니다.</Text>
-		</Row>
-		<!-- Spy Points -->
-		<Row Tag="TXT_KEY_SPY_POINTS_TT">
-			<Text>현재 [ICON_VP_SPY_POINTS] 스파이 포인트: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE][ICON_VP_SPY_POINTS] 스파이 포인트가 임계값 {2_Threshold}을(를) 넘을 때마다 새로운 스파이를 얻게 됩니다. 임계값은 게임 시작 시 플레이어 수와 도시 국가 수에 따라 달라집니다. 어떤 문명이 처음으로 르네상스 시대에 도달하거나 당신이 그 다음 시대에 도달할 때마다 [ICON_VP_SPY_POINTS] 스파이 포인트를 100 얻습니다. 일부 건물과 시설도 [ICON_VP_SPY_POINTS] 스파이 포인트를 제공합니다.[NEWLINE][NEWLINE]지금까지 누적된 총 [ICON_VP_SPY_POINTS] 스파이 포인트: {3_NumTotal}
-			</Text>
 		</Row>
 
 		<!-- Trade Route picker -->

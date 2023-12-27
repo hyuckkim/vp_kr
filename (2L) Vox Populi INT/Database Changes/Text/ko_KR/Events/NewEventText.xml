@@ -1303,105 +1303,110 @@
 
 		<!-- Espionage events -->
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SELECT_FOCUS">
-			<Text>작전 선택</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SELECT_FOCUS_HELP">
-			<Text>미션에 필요한 스파이 네트워크가 설치되었습니다. 어떤 작전을 수행할까요?</Text>
+			<Text></Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ESTABLISH_SURVEILLANCE">
-			<Text>임무 선택 연기</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ESTABLISH_SURVEILLANCE_HELP">
-			<Text>임무 선택이 연기되면 다음 턴에 미션 선택 화면을 다시 표시합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM">
-			<Text>[ICON_TOURISM]지역 관광 방해</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_TOURISM_HELP">
-			<Text>작전이 성공하면, {5_Turns} 동안의 [ICON_TOURISM] 관광을 훔칩니다. 스파이가 훔치는 관광은 목표 도시의 턴 당 평균 [ICON_TOURISM]관광 생산량의 75%입니다. {8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE">
-			<Text>[ICON_RESEARCH]과학 단지 침투</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_SCIENCE_HELP">
-			<Text>작전이 성공하면, {5_Turns} 동안의 [ICON_RESEARCH] 과학을 훔칩니다. 스파이가 훔치는 과학은 목표 도시의 턴 당 평균 [ICON_RESEARCH]과학 생산량의 50%입니다. {8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_FAITH">
-			<Text>[ICON_PEACE]종교 유물 빼내기</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_FAITH_HELP">
-			<Text>작전이 성공하면, {5_Turns} 동안의 [ICON_PEACE] 신앙을 훔칩니다. 스파이가 훔치는 신앙은 목표 도시의 턴 당 평균 [ICON_PEACE]신앙 생산량의 75%입니다. {8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD">
-			<Text>[ICON_GOLD]국고 절도</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SIPHON_GOLD_HELP">
-			<Text>작전이 성공하면, {5_Turns} 동안의 [ICON_GOLD] 골드를 훔칩니다. 스파이가 훔치는 신앙은 목표 도시의 턴 당 평균 [ICON_GOLD]골드 생산량의 50%입니다. {8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
-			<Text>[ICON_CITIZEN]시골 주민 선동</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_HELP">
-			<Text>목표 도시의 농장, 광산, 재배지, 교역소 중 하나가 약탈됩니다. 개발된 [COLOR_POSITIVE_TEXT]전략 자원[ENDCOLOR] 타일이 약탈됩니다. {5_Turns} 동안 [ICON_FOOD]인구 성장률이 25% 감소합니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STOKE">
-			<Text>[ICON_HAPPINESS_3]지역 분란 조장</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STOKE_HELP">
-			<Text>목표 도시의 모든 불행이 34% 증가합니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
-			<Text>[ICON_GREAT_PEOPLE]전문가 납치</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_HELP">
-			<Text>목표 도시의 과학자에서 -1 [ICON_RESEARCH] 과학; 상인에서 -1 [ICON_GOLD] 골드; 기술자에서 -1 [ICON_PRODUCTION] 생산; 음악가, 예술가, 작가에서 -1 [ICON_CULTURE] 문화. {7_PlayerEventEffect}.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_BENEFIT">
-			<Text>[COLOR_POSITIVE_TEXT]당신의 이득:[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_MILITARY_GARRISON">
-			<Text>[ICON_STRENGTH]방어시설 파괴</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_MILITARY_GARRISON_HELP">
-			<Text>대상 도시는 [COLOR_NEGATIVE_TEXT]100[ENDCOLOR] 피해를 입고 주둔군은 (존재한다면) [COLOR_NEGATIVE_TEXT]25[ENDCOLOR] 피해를 입습니다. 도시는 [COLOR_NEGATIVE_TEXT] 5턴 동안 삽질 [ENDCOLOR] (회복 불가)을 합니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST">
-			<Text>[ICON_RESISTANCE]반란 획책</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
-			<Text>목표 도시가 [ICON_RESISTANCE] 2턴동안 저항합니다. 반란군 유닛이 다섯 등장합니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH">
-			<Text>[ICON_RESEARCH]기술 훔치기</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_HELP">
-			<Text>목표 플레이어: [ICON_RESEARCH]기술 하나를 훔칩니다. [NEWLINE][NEWLINE]훔칠 기술이 없다면, [ICON_GOLDEN_AGE]황금기가 시작됩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
-		</Row>
+		
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW">
-			<Text>[ICON_GREAT_WORK]걸작 복사</Text>
+			<Text>[ICON_GREAT_WORK] 걸작 훔치기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_HELP">
-			<Text>목표 도시의 [ICON_GREAT_WORK]걸작을 하나 복사합니다. [NEWLINE][NEWLINE]훔칠 수 있는 완성된 걸작이 없다면, [ICON_GOLDEN_AGE] 황금기가 시작됩니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+			<Text>목표 도시의 무작위 [ICON_GREAT_WORK] 걸작을 훔칩니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_REVEAL_AREA">
-			<Text>도시 [ICON_SPY]감시 확대</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_EFFECT">
+			<Text>[ICON_GREAT_WORK] 걸작 "{2_GWName}" 을 훔쳐냈습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_REVEAL_AREA_HELP">
-			<Text>작전이 완료되면 목표 도시에서 {5_Turns} 동안 볼 수 있는 영역이 넓어집니다.{8_MissionLength}{6_Spy}{3_YieldCityTip}</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION">
+			<Text>[ICON_PRODUCTION] 도시 생산 사보타주</Text>
 		</Row>
-
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC">
-			<Text>송환 전문가</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_HELP">
+			<Text>{8_Num} 턴 동안의 [ICON_PRODUCTION] 생산 진행 상황을 삭제합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC_HELP">
-			<Text>[ICON_CAPITAL]수도에서: 과학자에서 +2 [ICON_RESEARCH] 과학; 상인에서 +2 [ICON_GOLD] 골드; 기술자에서 +2 [ICON_PRODUCTION] 생산; 음악가, 예술가, 작가에서 +2 [ICON_CULTURE] 문화. 기간: {4_Turns}</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_EFFECT">
+			<Text>{8_Num} 턴간의 [ICON_PRODUCTION] 생산이 사라졌습니다.</Text>
 		</Row>
-
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC_PARENT">
-			<Text>송환 전문가</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH">
+			<Text>[ICON_PEACE] 종교 유물 빼내기</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_PLAYER_YIELD_BASIC_PARENT_HELP">
-			<Text>[ICON_CAPITAL]수도에서: 과학자에서 +2 [ICON_RESEARCH] 과학; 상인에서 +2 [ICON_GOLD] 골드; 기술자에서 +2 [ICON_PRODUCTION] 생산; 음악가, 예술가, 작가에서 +2 [ICON_CULTURE] 문화. 기간: {4_Turns}</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_HELP">
+			<Text>목표 도시의 턴 당 [ICON_PEACE] 신앙의 50%를 훔칩니다. 목표 도시의 종교 압력이 -50% 감소합니다. {5_Duration}턴간 지속됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_EFFECT">
+			<Text>각 턴마다, 50%의 신앙을 [ICON_PEACE] 훔쳤습니다. 도시의 종교 압력이 50% 감소했습니다. {5_DurationText}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
+			<Text>[ICON_GREAT_PEOPLE] 도시 전문가 납치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_HELP">
+			<Text>전문가의 [ICON_GREAT_PEOPLE] 위인 점수 -1.  {6_PlayerEventEffect}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_EFFECT">
+			<Text>전문가의 턴 당 [ICON_GREAT_PEOPLE] 위인 점수 -1. {5_Duration}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS">
+			<Text>전문가 송환</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_HELP">
+			<Text>수도의 전문가의 [ICON_GREAT_PEOPLE] 위인 점수 +1.{4_Duration}턴간 지속됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_PARENT">
+			<Text>전문가 송환</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_PARENT_HELP">
+			<Text>수도 전문가의 턴 당 [ICON_GREAT_PEOPLE] 위인 점수 +1. </Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY">
+			<Text>[ICON_GOLD] 국고 절도</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_HELP">
+			<Text>제국 국고 [ICON_GOLD] 골드의 {8_Num}%를 훔칩니다. {7_AmountToSteal}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_EFFECT">
+			<Text>국고에서 {3_Num} [ICON_GOLD] 골드를 훔쳐냈습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_STEAL_TREASURY_AMOUNT">
+			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]훔친 양:[ENDCOLOR] {1_Num} [ICON_GOLD] 골드</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH">
+			<Text>[ICON_RESEARCH] 기술 훔치기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_HELP">
+			<Text>선택된 무작위 기술을 훔칩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_EFFECT">
+			<Text>기술 "{1_TechName}" 을 훔쳐냈습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
+			<Text>[ICON_CITIZEN] 시골 주민 선동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_HELP">
+			<Text>개발된 모든 자원 타일을 약탈합니다. 도로나 철도가 50% 확률로 약탈됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_EFFECT">
+			<Text>도시의 모든 자원 타일과 일부 도로 및 철도가 약탈되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST">
+			<Text>[ICON_RESISTANCE] 지역 분란 조장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
+			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항하며 근처에 반란군 유닛이 출현합니다. 도시는 {8_Num}턴 동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_EFFECT">
+			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항했으며 반란군 유닛이 지역에 출현했습니다. 도시는 {8_Num}턴동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES">
+			<Text>[ICON_STRENGTH] 방어 시설 파괴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_HELP">
+			<Text>이 도시의 모든 요새를 약탈합니다. 도시를 봉쇄해 {8_Num}턴 동안 원거리 공격을 막습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_EFFECT">
+			<Text>도시 주변의 요새가 약탈당했습니다. 도시가 봉쇄되어 {8_Num} 턴 동안 원거리 공격을 수행할 수 없습니다.</Text>
 		</Row>
 
 		<!-- Counterspy -->
@@ -1409,31 +1414,44 @@
 			<Text>대적 첩보 활동</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_FOCUS_HELP">
-			<Text>스파이가 새로운 대적 첩보 활동을 개발했습니다. 명령하십시오:</Text>
+			<Text>스파이가 새로운 대적 첩보 활동을 개발했습니다. 어느 부문에 초점으르 맞추시겠습니까?</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_BASIC">
-			<Text>대 첩보망 개설</Text>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK">
+			<Text>[ICON_SPY] 대 첩보망 개설</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_BASIC_HELP">
-			<Text> 외국 [ICON_SPY] 스파이를 찾거나 처치할 확률이 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR] 증가합니다.</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_HELP">
+			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -10만큼 얻습니다. [COLOR:110:110:110:255](역스파이 레벨에 따라 보정)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_EFFECT">
+			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -10만큼 얻습니다. [COLOR:110:110:110:255](역스파이 레벨에 따라 보정)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_MISSION">
+			<Text>첩보망 개설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE">
-			<Text>주둔군 시찰 및 도시 방비</Text>
+			<Text>[ICON_STRENGTH] 도시 방비 강화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_HELP">
-			<Text>외국 [ICON_SPY] 스파이를 찾거나 처치할 확률이 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR] 증가합니다. 스파이가 주둔하는 동안 도시 [ICON_RANGE] 범위 공격이 50% 강해집니다.</Text>
+			<Text>도시의 [ICON_RANGE_STRENGTH] 범위 공격이 20% 강화되고, 역스파이 레벨마다 10%씩 더 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_QUELL">
-			<Text>현지인 연결망 구축</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_EFFECTS">
+			<Text>도시 [ICON_RANGE_STRENGTH] 범위 공격이 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_QUELL_HELP">
-			<Text>외국 [ICON_SPY] 스파이를 찾거나 처치할 확률이 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR] 증가합니다. 도시에 +2 [ICON_HAPPINESS_1] 행복이 증가하고, 모든 요구 불행이 25% 감소합니다.</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_MISSION">
+			<Text>방비 강화</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_SPECIALIST">
-			<Text>전문가 감사 파견</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_CHASE">
+			<Text>[ICON_PIRATE] 외국 스파이 추적</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_SPECIALIST_HELP">
-			<Text>외국 [ICON_SPY] 스파이를 찾거나 처치할 확률이 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR] 증가합니다. 상인, 기술자, 과학자, 음악가, 예술가, 작가가 +1의 추가 산출을 제공합니다.</Text>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_CHASE_HELP">
+			<Text>외국 스파이가 작전을 완료하면 항상 발견됩니다. 잡힌 스파이는 항상 처치됩니다. 외국 스파이를 처치하면 [ICON_RESEARCH] 과학을 50 [COLOR:110:110:110:255](게임 속도별 보정)[ENDCOLOR] 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_CHASE_EFFECT">
+			<Text>외국 스파이가 작전을 완료하면 항상 발견됩니다. 잡힌 스파이는 항상 처치됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_CHASE_MISSION">
+			<Text>스파이 추적</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

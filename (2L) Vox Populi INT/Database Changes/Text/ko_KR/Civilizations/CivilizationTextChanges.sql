@@ -270,7 +270,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 -- England
 --------------------
 UPDATE Language_ko_KR
-SET Text = '모든 해상 및 승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 해상 유닛의 [ICON_GOLD]유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 모든 도시에서 [ICON_SPY]스파이 저항이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_SPY]스파이가 스파이가 +10% 강해지고 [COLOR_POSITIVE_TEXT]1레벨[ENDCOLOR] 더 높은 상태로 첩보 활동을 수행합니다. 스파이 하나를 보유하고 게임을 시작합니다.'
+SET Text = '모든 해상 및 승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 해상 유닛의 [ICON_GOLD]유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 모든 도시의 [ICON_SPY] 도시 보안이 15 증가합니다. [ICON_SPY]스파이가 1턴 빨리 이동하고 [COLOR_POSITIVE_TEXT]1레벨[ENDCOLOR] 더 높은 상태로 첩보 활동을 수행합니다. 스파이 하나를 보유하고 게임을 시작합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_OCEAN_MOVEMENT';
 
 UPDATE Language_ko_KR
@@ -847,11 +847,11 @@ WHERE Tag = 'TXT_KEY_TRAIT_GREAT_EXPANSE';
 -- Siam
 --------------------
 UPDATE Language_ko_KR
-SET Text = '경찰대를 대체하는 시암의 고유 건물입니다. 성소 및 사원의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 이 도시에서 생산된 외교 유닛이 [ICON_INFLUENCE] +10 [ICON_INFLUENCE] 영향력을 얻습니다. [NEWLINE][NEWLINE]도시의 [ICON_SPY] 보안 등급이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '경찰대를 대체하는 시암의 고유 건물입니다. 성소 및 사원의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 이 도시에서 생산된 외교 유닛이 [ICON_INFLUENCE] +10 [ICON_INFLUENCE] 영향력을 얻습니다. [NEWLINE][NEWLINE]도시 보안이 20 증가하고, 적 스파이를 찾아내면 [ICON_CULTURE] 문화 및 [ICON_RESEARCH] 과학을 25 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '와트는 시암의 고유 건물로 경찰대를 대체합니다. 대체하는 건물보다 더 빠르게 건설할 수 있습니다. 와트는 도시의 [ICON_CULTURE] 문화와 [ICON_RESEARCH] 과학을 증가시키고, 성소와 사원의 [ICON_RESEARCH] 과학을 증가시키며, 스파이 활동을 경찰대보다 더 잘 예방합니다. 과학자 슬롯을 추가로 얻어, 다른 문명보다 위대한 과학자를 더 빨리 얻을 수 있게 합니다. 또한, 이 도시에서 생산된 외교 유닛이 수행하는 외교 임무의 [ICON_INFLUENCE] 영향력을 증가시킵니다.'
+SET Text = '와트는 시암의 고유 건물로 경찰대를 대체합니다. 대체하는 건물보다 더 빠르게 건설할 수 있습니다. 와트는 도시의 [ICON_CULTURE] 문화와 [ICON_RESEARCH] 과학을 증가시키고, 성소와 사원의 [ICON_RESEARCH] 과학을 증가시키며, 도시 보안을 경찰대보다 더 증가시킵니다. 과학자 슬롯을 추가로 얻어, 다른 문명보다 위대한 과학자를 더 빨리 얻을 수 있게 합니다. 또한, 이 도시에서 생산된 외교 유닛이 수행하는 외교 임무의 [ICON_INFLUENCE] 영향력을 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_STRATEGY';
 
 UPDATE Language_ko_KR

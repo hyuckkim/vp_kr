@@ -121,7 +121,7 @@
 			<Text>화이트 타워는 런던 타워의 오래된 건물입니다. 그것은 1080년대 초에 정복자 윌리엄에 의해 지어졌고 나중에 확장되었습니다. 하얀 탑은 성의 가장 강력한 방어 지점이었고, 원래 왕과 그의 대리인들을 수용했습니다. 오랜 역사를 통해, 타워는 영국에 많은 것들이 되었습니다. 폭정의 상징, 금고, 관리소, 조폐소, 궁전, 감옥입니다. 오늘날, 런던탑은 많은 보물들 중, 영국 왕실의 왕관 보석을 자랑하는 거대한 박물관입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_HELP">
-			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 포함합니다. [NEWLINE][NEWLINE] 이 도시에 잠입한 외국 [ICON_SPY]스파이에 대한 역스파이 작전을 성공하면 [ICON_RESEARCH]과학과 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다[COLOR:105:105:105:255](시대별 보정, 고급 첩보 활동은 추가 [ICON_GOLD]/[ICON_RESEARCH]5)[ENDCOLOR]. [NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>제철소를 대체하는 영국의 고유 건물입니다. [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_RES_IRON]철 2개를 무료로 제공합니다. [ICON_GREAT_WORK]걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 포함합니다. [NEWLINE][NEWLINE] 스파이를 체포하거나, 발견하거나 스파이 작전을 성공하면 [ICON_RESEARCH]과학 및 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]40[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시 국가에서 선거 조작에 성공하면 [ICON_RESEARCH]과학 및 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_STRATEGY">
 			<Text>제철소를 대체하는 영국의 고유 건물입니다. 제철소의 보너스에 더해, 화이트 타워는 경찰대와 성, 무기고를 강화하고 걸작 예술품을 포함합니다. 공격적 또는 방어적 스파이 액션에 보너스를 국가 정보원보다 일찍 제공합니다.</Text>
@@ -288,10 +288,10 @@
 			<Text>피아자 산 마르코(산 마르코 광장)는 이탈리아 베네치아의 광장입니다. 도시의 다른 모든 공간은 "캄피"(밭)라고 불립니다. 피아제타('작은 광장')는 광장의 남동쪽 구석에 있는 석호를 향해 연장된 것입니다. 이 두 공간은 함께 베네치아의 사회적, 종교적, 정치적 중심지를 형성하며 일반적으로 함께 건설됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_STRATEGY">
-			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 국가 기념비의 능력 대신 도시 다양한 산출을 약간씩 증가시키고 위인을 가속시키는 능력이 있습니다. 이것은 당신의 수도이 골드, 과학, 기타 중요한 자원들의 도난으로부터 더 안전해 졌다는 것을 뜻합니다. 길드를 연구하면 무라노 유리공방, 아스넬 디 베네치아, 리알토 지구를 건설할 수 있습니다. 한 게임 안에서 셋 중 하나만 건설할 수 있습니다.</Text>
+			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 국가 기념비의 능력 대신 도시 다양한 산출을 약간씩 증가시키고 위인을 가속시키는 능력과 대스파이 보안 기능이 있습니다. 이것은 당신의 수도이 골드, 과학, 기타 중요한 자원들의 도난으로부터 더 안전해 졌다는 것을 뜻합니다. 길드를 연구하면 무라노 유리공방, 아스넬 디 베네치아, 리알토 지구를 건설할 수 있습니다. 한 게임 안에서 셋 중 하나만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_HELP">
-			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 도시에 [ICON_CITIZEN] 시민이 탄생할 때마다 [ICON_CULTURE] 문화를 15 얻습니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. 도시의 민간 유닛 구매 대기시간이 3턴으로 감소하고, 군사 유닛 구매 대기시간은 사라집니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]길드[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아스넬 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_CAPITAL][COLOR_YELLOW]수도[ENDCOLOR]에만 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>국가 기념비를 대체하는 베네치아의 고유 건물입니다. 도시에 [ICON_CITIZEN] 시민이 탄생할 때마다 [ICON_CULTURE] 문화를 15 얻습니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_SPY] 도시 보안이 10 증가합니다. 도시의 민간 유닛 구매 대기시간이 3턴으로 감소하고, 군사 유닛 구매 대기시간은 사라집니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]길드[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아스넬 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_CAPITAL][COLOR_YELLOW]수도[ENDCOLOR]에만 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS">
 			<Text>무라노 유리공방</Text>

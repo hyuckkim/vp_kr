@@ -3175,7 +3175,7 @@
 		</Row>
 		<!-- Steal -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_ON_MAJOR">
-			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 활동 [COLOR:105:105:105:255](스파이 활동이나 기술 훔치기)[ENDCOLOR]이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
+			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 작전이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPY_ON_MAJOR">
 			<Text>{@1_Civ}에서 첩보 갱신</Text>
@@ -6284,39 +6284,11 @@
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_GLOBAL_FOLLOWER_POP">
 			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 전 세계에  당신의 [ICON_RELIGION]종교를 따르는 신도가 {1_Num}% 더 있어야 합니다.</Text>
 		</Row>
-		<!-- New Spy Action Texts -->
-		<!-- Spy Killed -->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S_ADVANCED">
-			<Text>{2_CityName}에서 스파이 {1_SpyName}{1: plural 1?이; 2?가;} 살해되었습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_ADVANCED">
-			<Text>당신의 {1_SpyRank} 스파이 {2_SpyName}{2: plural 1?이; 2?가;} {4_CityName}에서 활동하던 도중 {3_CivAdj} 방첩 활동으로 살해되었습니다!</Text>
-		</Row>
-		<!-- Killed a Spy -->
-		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_ADVANCED">
-			<Text>당신의 {1_SpyRank} 스파이 {2_SpyName}{2: plural 1?이; 2?가;} {4_CityName}에서 활동하던 {3_CivAdj} 스파이를 제거했습니다!</Text>
-		</Row>
-		<!-- City Rank Increasing -->
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING">
-			<Text>{1_CityName}{1: plural 1?이; 2?가;} 적[ICON_SPY]스파이에게 점점 취약해지고 있습니다.[NEWLINE]이 도시의 보안 등급은 현재 [COLOR_NEGATIVE_TEXT]50단계 중 {2_Num}단계[ENDCOLOR]로, 스파이가 이 도시에서 활동하기 더 쉬워지고 있습니다.[NEWLINE]이 도시에 스파이를 배치하고 방첩 건물을 건설하고, 불행을 해결하여 도시의 등급을 높일 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RANK_INCREASING_SUMMARY">
-			<Text>{1_CityName}의 보안 등급 갱신</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_STATE_BUILDING_NETWORK">
-			<Text>네트워크 구축</Text>
-		</Row>
 
+		<!-- Unassigned Spy -->
 		<Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED_TT">
 			<Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 지정되지 않았습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SPY_STATE_BUILDING_NETWORK_TT">
-			<Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 스파이 네트워크를 구축 중입니다. 곧 이 스파이를 임무에 투입할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_STATE_TERMINATED_TT">
-			<Text>{1_RankName} {2_SpyName}의 작전이 끝났습니다.</Text>
-		</Row>
-
 
 		<!-- Trade Route for Land Modifiers -->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_LAND_MODIFIER">
@@ -7220,12 +7192,6 @@
 		<Row Tag="TXT_KEY_ALLY_CBP_SPY">
 			<Text>{1_Player}{1: plural 1?과; 2?와;} 동맹을 맺었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_NOW_POSSIBLE_S">
-			<Text>{1_City}의 국경 안전 상태가 정상으로 돌아왔습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_NOW_POSSIBLE">
-			<Text>최근 쿠데타 시도로 인한 안전 위협이 사라졌고, {1_City}의 안전 상태는 정상으로 돌아왔습니다. 이 도시 국가에서 [COLOR_POSITIVE_TEXT]쿠데타[ENDCOLOR]를 다시금 시도할 수 있습니다.</Text>
-		</Row>
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_UNKNOWN_SUCCESS_S">
 			<Text>{1_CityName}에서의 누군가의 쿠데타</Text>
@@ -7973,111 +7939,7 @@
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_17">
 			<Text>프톨레마이오스 1세의 석관</Text>
 		</Row>
-		<!--Policies-->
-		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
-			<Text>[COLOR_WARNING_TEXT]이 계열을 해금하기 위해서는 다른 계열의 정책을 {1_Num}개 더 채택해야 합니다.[ENDCOLOR]</Text>
-		</Row>		
-		<Row Tag="TXT_KEY_EO_SPY_RANK_TT_SHORT">
-			<Text>{1_SpyName}{1: plural 1?이; 2?가;} {2_RankName}으로 승급했습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_NO_ACTIONS_POSSIBLE">
-			<Text>이 도시에서 해낼 수 있는 공격적 스파이 활동이 없습니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EVENT_SPY_RANK">
-			<Text>[NEWLINE] [ICON_BULLET] 이 선택을 할만큼 스파이의 등급이 높지 않습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_SPY_ALREADY_HERE">
-			<Text>[NEWLINE] [ICON_BULLET] 외국 스파이가 이미 이 작전을 수행 중입니다. 쉿!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_NO_TECH_STEAL">
-			<Text>[NEWLINE] [ICON_BULLET] 훔칠 기술이 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_NO_GW_FORGE">
-			<Text>[NEWLINE] [ICON_BULLET] 걸작이 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EVENT_MIN_SIPHON_NOT_MET">
-			<Text>[NEWLINE] [ICON_BULLET] 도시가 횡령할 만큼의 산출물을 생산해 내지 않습니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EVENT_NO_COUNTERSPY">
-			<Text>[NEWLINE] [ICON_BULLET] 도시에 역스파이가 필요합니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EVENT_SPY_KILL_CHANCE">
-			<Text>[NEWLINE][ICON_VIEW_CITY] 발견: [COLOR_NEGATIVE_TEXT]{1_ID}%[ENDCOLOR][NEWLINE][ICON_PIRATE] 처치(역스파이): [COLOR_NEGATIVE_TEXT]{2_Death}%[ENDCOLOR][NEWLINE][NEWLINE]</Text>
-		</Row>
 		
-		<Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_SHORT_TT">
-			<Text>{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} {3_CityName}에서 우리의 영향력을 늘리기 위해 선거 조작을 시도하고 있습니다. 쿠데타가 가능하다면 (대기시간은 무시하고) 선거 조작이 성공하면 쿠데타의 성공 확률을 증가시킵니다. 쿠데타의 성공 확률은 높은 등급의 스파이일수록 더 많이 증가합니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_SHORT_TT">
-			<Text>{1_CityName}의 보안 등급은 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_ENEMY_CITY_POTENTIAL_SHORT_TT">
-			<Text>{1_CityName}의 보안 등급은 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT_SHORT">
-			<Text>{1_CityName}의 보안 등급은 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 정도라고 생각됩니다. [ICON_SPY]스파이를 보내 더 자세히 알아보십시오.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_POTENTIAL_CALCULATION">
-			<Text>[ICON_SPY] 보안 등급: [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR][NEWLINE][ICON_CAPITAL] 스파이 저항: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE][NEWLINE]만약 [ICON_SPY] 스파이 저항이 음수라면, 도시의 보안 등급이 천천히 1까지 [COLOR_NEGATIVE_TEXT]줄어들어[ENDCOLOR] 적 스파이가 더욱 빠르게 활동합니다. 양수라면, 천천히 10까지 [COLOR_POSITIVE_TEXT]늘어나[ENDCOLOR] 적 스파이가 작전을 느리게 수행합니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_NEGATIVE">
-			<Text>[COLOR_NEGATIVE_TEXT]부정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_INTERNATIONAL_TRADE] 교역로 (-{1_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 인구 (-{2_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_HAPPINESS_3] 불행 (-{3_Num}%)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_POTENTIAL_BREAKDOWN_POSITIVE">
-			<Text>[COLOR_POSITIVE_TEXT]긍정적 효과[ENDCOLOR][NEWLINE]  [ICON_BULLET] [ICON_CULTURE] 정책과 불가사의 (+{1_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_CITIZEN] 지역 건물 (+{2_Num}%)[NEWLINE]  [ICON_BULLET] [ICON_SPY] 역스파이 (+{3_Num}%)[NEWLINE]</Text>
-		</Row>
-		
-		<Row Tag="TXT_KEY_CITY_DEFENSIVE_BONUSES_AGAINST">
-			<Text>[NEWLINE]  [ICON_BULLET][ICON_SPY] 스파이 작전: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 천천히 이동합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY">
-			<Text>[COLOR_POSITIVE_TEXT][NEWLINE]적 스파이를 포획할 확률이 정책에 의해 {1_Num}% 증가했습니다. [ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_AGAINST">
-			<Text>[COLOR_NEGATIVE_TEXT][NEWLINE]아군 스파이가 잡힐 확률이 정책에 의해 {1_Num}% 증가했습니다. [ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_POTENTIAL">
-			<Text>[COLOR_POSITIVE_TEXT]방어 중 가능한 결과:[ENDCOLOR]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_SPY_INTRIGUE_DISCOVERED">
-			<Text>[COLOR_POSITIVE_TEXT]음모 발각:[ENDCOLOR][NEWLINE]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_KILL">
-			<Text>[ICON_BULLET][ICON_SPY]스파이를 제거할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_CATCH">
-			<Text>[ICON_BULLET][ICON_SPY]스파이를 식별할 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_ESPIONAGE_CURRENT_MISSION">
-			<Text>[COLOR_POSITIVE_TEXT]현재 임무:[ENDCOLOR] {1_Mission}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_TURNS_COMPLETED">
-			<Text>({1_Turns} 완료)</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_ESPIONAGE_MISSION_BASE_DURATION">
-			<Text>기본 활동 시간: {1_Num}턴</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_OFFENSIVE_SPY_RELIGOUS_PRESSURE">
-			<Text>[NEWLINE]  [ICON_BULLET] [ICON_SPY]스파이의 종교적 압력: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE">
-			<Text>쿠데타 성공 확률: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OFFENSIVE_COUP_CHANCE_ALLIES">
-			<Text>[NEWLINE][ICON_BULLET]   알림: 이미 동맹입니다!</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST">
 			<Text>확인되지 않은 서신</Text>

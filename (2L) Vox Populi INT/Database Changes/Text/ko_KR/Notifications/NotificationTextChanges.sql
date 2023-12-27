@@ -1,4 +1,16 @@
 UPDATE Language_ko_KR
+SET Text = '당신의 역스파이 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {4_CityName}에서 {3_CivAdj} 스파이를 작전 중 처치했습니다. {5_MissionText}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_KILLED_A_SPY';
+
+UPDATE Language_ko_KR
+SET Text = '그들의 작전으로, {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CivAdj} 스파이에 의해 처치되었습니다!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_WAS_KILLED';
+
+UPDATE Language_ko_KR
+SET Text = '{1_SpyRank} {2_SpyName} 처치됨!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S';
+
+UPDATE Language_ko_KR
 SET Text = '{3_MinorCivName:textkey}의 시민들이 자신들을 이끌 종교 지도자를 찾고 있습니다. {2_TurnsDuration}턴 동안 가장 많은 [ICON_PEACE]신도를 확보하는 세계 종교는 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 증가합니다. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남았습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_CONTEST_FAITH';
 

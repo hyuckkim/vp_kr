@@ -330,7 +330,7 @@ SET Text = '외교국'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_SPY_POINTS] 스파이 포인트를 100 제공합니다. 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_SPY_POINTS] 스파이 포인트를 100 제공합니다. 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 UPDATE Language_ko_KR
@@ -346,7 +346,7 @@ SET Text = '그림자 네트워크'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]그림자 네트워크[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가가 산출하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 획득합니다. [NEWLINE][ICON_BULLET][ICON_VP_SPY_POINTS] 스파이 포인트 100마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] [COLOR:105:105:105:255](한도: 30%)[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 경찰대 및 경찰서의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]그림자 네트워크[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가가 산출하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 획득합니다. [NEWLINE][ICON_BULLET][ICON_VP_SPY_POINTS] 스파이 포인트 100마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] [COLOR:105:105:105:255](한도: 30%)[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 경찰대 및 경찰서의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';
 
 UPDATE Language_ko_KR
@@ -598,7 +598,7 @@ SET Text = '{2_CivName:textkey}의 수상 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_RATIONALISM_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]합리주의[ENDCOLOR]는 도시 성장 및 과학 산출량을 극대화 합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 전략 자원의 [ICON_PRODUCTION]생산 +2 [ICON_RESEARCH]과학 +3[NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +2%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행 -1[NEWLINE][ICON_BULLET][COLOR_YELLOW]블레츨리 파크[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]모든 도시에서 스파이 저항 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가[NEWLINE][ICON_BULLET]외국 스파이의 작전 기간이 2턴 증가[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]합리주의[ENDCOLOR]는 도시 성장 및 과학 산출량을 극대화 합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 전략 자원의 [ICON_PRODUCTION]생산 +2 [ICON_RESEARCH]과학 +3[NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_RESEARCH]과학 +2%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]모든 요구 [ICON_HAPPINESS_3]불행 -1[NEWLINE][ICON_BULLET][COLOR_YELLOW]블레츨리 파크[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP';
 
 UPDATE Language_ko_KR
@@ -674,7 +674,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]시민 사회[ENDCOLOR]: 전문가가 소모하
 WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: 도시 국가의 선거 조작 및 쿠데타 성공 확률이 증가합니다. [ICON_VP_SPY_POINTS] 스파이 포인트를 100 제공합니다. 외국 스파이의 작전 기간이 2턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: [ICON_VP_SPY_POINTS] 스파이 포인트를 100 제공합니다. 도시 국가 선거 조작이 성공하면 당신이 얻는 영향력과 다른 플레이어가 잃는 영향력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 스파이가 매 턴 네트워크 포인트를 +10 얻습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP';
 
 UPDATE Language_ko_KR
@@ -761,7 +761,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]프롤레타리아 독재[ENDCOLOR]: 당신의 
 WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_VP_SPY_POINTS] 스파이 포인트를 300 제공합니다. 당신 문명의 [ICON_SPY]스파이가 적[ICON_SPY]스파이를 포획할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 1턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_VP_SPY_POINTS] 스파이 포인트를 200 제공합니다. 적 스파이를 확인 시 [ICON_RESEARCH] 과학을 125 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
 
 UPDATE Language_ko_KR
@@ -833,7 +833,7 @@ SET Text = '대약진 운동'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. [ICON_SPY]스파이가 작전을 수행할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 전문가가 아닌 [ICON_CITIZEN] 시민 3명마다 [ICON_RESEARCH] 과학이 +1 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. [ICON_SPY]스파이의 네트워크 포인트가 두 배로 증가합니다. 전문가가 아닌 [ICON_CITIZEN] 시민 3명마다 [ICON_RESEARCH] 과학이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS_HELP';
 
 UPDATE Language_ko_KR
@@ -940,7 +940,7 @@ SET Text = '상선 강습은 전투원을 동원하거나 봉쇄하는 대신 �
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 법원 1개마다 지역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 평소의 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR] 속도로 법원을 건설할 수 있습니다. 외국 스파이의 작전 기간이 2턴 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 법원 1개마다 지역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1]도시 보안이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다. 평소의 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR] 속도로 법원과 경찰서를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_POLICE_STATE_HELP';
 
 UPDATE Language_ko_KR

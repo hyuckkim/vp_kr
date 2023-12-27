@@ -319,6 +319,27 @@ INSERT INTO Language_ko_KR
 			(Tag,										Text)
 SELECT		'TXT_KEY_POP_CSTATE_BULLY_FACTOR_MONGOL_TERROR',	'당신은 최근 도시 국가를 합병했습니다.';
 
+-- Show influence change for rigged elections
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]적 스파이 처치 확률: {1_Num}%[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_EO_SPY_COUNTER_INTEL_SUM_TT';
+
+UPDATE Language_ko_KR
+SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과를 조작해 영향력이 증가했습니다.[NEWLINE][NEWLINE]한 문명만이 선거 결과를 조작할 수 있습니다. 한 도시 국가에 스파이가 여러 명 있다면 가장 계급이 높은 스파이 중 가장 그곳에 오래 머문 스파이가 선거 결과를 조작할 확률이 가장 높습니다. 선거 조작은 또한 도시 국가의 쿠데타 성공 확률을 상승시킵니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]다음 선거 조작이 성공한낟면, 당신의 영향력은 {4_Influence} 증가합니다.[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT';
+
+UPDATE Language_ko_KR
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과를 조작헸습니다. 당신의 영향력이 {4_Num} 증가하고 다른 문명의 영향력을 낮추었습니다.'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS';
+
+UPDATE Language_ko_KR
+SET Text = '{1_CityName}의 선거 결과 해당 도시 국가와의 영향력이 {2_Num}만큼 떨어졌습니다. 적 스파이가 선거 결과를 조작했을 수 있습니다.'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT';
+
+UPDATE Language_ko_KR
+SET Text = '{1_SpyRank}{2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과 조작에 실패했습니다. {4_CivShortDesc}{4: plural 1?이; 2?가;} 선거 결과를 조작해 해당 도시 국가와의 영향력이 증가했습니다. 당신의 영향력은 {5_Num} 만큼 감소했습니다.'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE';
+
 -- Fixed quest text - transitioned to new 'quest rewards' panel
 UPDATE Language_ko_KR
 SET Text = '{1_MinorCivName:textkey}{1_MinorCivName: plural 1?이; 2?가;} 부탁한대로 야만인 주둔지를 파괴했습니다!'
