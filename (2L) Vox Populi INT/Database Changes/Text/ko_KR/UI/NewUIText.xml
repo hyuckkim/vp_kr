@@ -57,10 +57,10 @@
 			<Text>임무 수행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_PASSIVE_BONUS_THRESHOLDS">
-			<Text>패시브 보너스 기준치</Text>
+			<Text>패시브 보너스 단계</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_PASSIVE_BONUS_THRESHOLD_TT">
-			<Text>기준치를 넘어 보너스:[NEWLINE]{1_Text}</Text>
+			<Text>포인트 초과 시 보너스:[NEWLINE]{1_Text}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES">
 			<Text>패시브 보너스</Text>
@@ -603,13 +603,13 @@
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_BULLET]정복된 도시 국가에서 [ICON_RESEARCH]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_STATE_RELIGION_VP">
-			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  종교에서 획득</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종교에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_CITY_LOCAL">
-			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  지역 원인에서 획득 (종교, 건물 등)</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  지역 원인에서 획득 (종교, 건물 등)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_MILITARY_UNITS">
-			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  군사 유닛에서 획득</Text>
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  군사 유닛에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_VASSALS">
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국에서 획득</Text>

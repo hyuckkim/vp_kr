@@ -329,7 +329,7 @@ SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서
 WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과를 조작헸습니다. 당신의 영향력이 {4_Num} 증가하고 다른 문명의 영향력을 낮추었습니다.'
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과를 조작했습니다. 당신의 영향력이 {4_Num} 증가하고 다른 문명의 영향력을 낮추었습니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS';
 
 UPDATE Language_ko_KR
