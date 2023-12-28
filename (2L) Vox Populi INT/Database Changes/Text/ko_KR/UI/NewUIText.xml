@@ -240,6 +240,12 @@
 		<Row Tag="TXT_KEY_POP_CSTATE_LABEL_CONTENDER">
 			<Text>도전자:</Text>
 		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_LABEL_CONTENDER_TT_HEADER">
+			<Text>이 문명들은 [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]에 추가 [ICON_INFLUENCE] 영향력을 투자했습니다:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_LABEL_CONTENDER_TT_HEADER2">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]에 추가 [ICON_INFLUENCE] 영향력을 투자한 문명은 없습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CSTATE_GOLD_BONUS">
 			<Text>그들이 매 턴 [COLOR_POSITIVE_TEXT] {1_Num} [ICON_GOLD]골드[ENDCOLOR]를 제공합니다.</Text>
 		</Row>
