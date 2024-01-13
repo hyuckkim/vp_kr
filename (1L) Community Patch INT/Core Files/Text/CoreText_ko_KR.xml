@@ -4242,10 +4242,10 @@
 		</Row>
 		<!-- Embark String for Less/No City Cost-->
 		<Row Tag="TXT_KEY_ABLTY_CITY_LESS_EMBARK_COST_STRING">
-			<Text>보유 도시에서 승선/상륙 시 [ICON_MOVES]이동력 1 소모</Text>
+			<Text>보유 도시 및 요새에서 승선/상륙 시 [ICON_MOVES]이동력 1 소모</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ABLTY_CITY_NO_EMBARK_COST_STRING">
-			<Text>보유 도시에서 승선/상륙 시 [ICON_MOVES]이동력 소모 없음</Text>
+			<Text>보유 도시 및 요새에서 승선/상륙 시 [ICON_MOVES]이동력 소모 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ABLTY_CITY_RANGE_INCREASE">
 			<Text>도시 공격 범위: +1</Text>

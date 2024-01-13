@@ -653,7 +653,7 @@
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]발각되었습니다![ENDCOLOR] {3_CivName}와의 외교 관계가 악화됩니다. {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 다른 작전을 위해 대기합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_CAUGHT_S">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 발각되어 붙잡힘!</Text>
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 붙잡힘!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_CAUGHT">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]붙잡혔습니다![ENDCOLOR] 다시 임무를 수행하기까지 시간이 걸립니다.</Text>
