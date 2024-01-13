@@ -2,7 +2,7 @@
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="17">
   <Properties>
     <Name>(2L) Community Balance Overhaul Localized</Name>
-    <Teaser>(4.4) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(4.4.2) Translation of the Community Balance Overhaul</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to Korean only.</Description>
     <Authors>dcinside Cilization Gallery</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -31,10 +31,10 @@
     <File md5="99ECB63EA007D87BD1145526877A490E" import="0">Database Changes/Text/ko_KR/NewMapscriptText.xml</File>
     <File md5="91EA30067A01B6A388F3F5B590557608" import="0">Database Changes/Text/ko_KR/AI/DiplomacyResponseTextChanges.sql</File>
     <File md5="A5942BF606C7F442C2CDA8DA31439480" import="0">Database Changes/Text/ko_KR/AI/NewDiplomacyResponseText.xml</File>
-    <File md5="B813CDD8450C625C2363E165E9BA2B04" import="0">Database Changes/Text/ko_KR/Beliefs/BeliefTextChanges.sql</File>
+    <File md5="8BC4A6317B25F0571C4CBE8541EB342C" import="0">Database Changes/Text/ko_KR/Beliefs/BeliefTextChanges.sql</File>
     <File md5="61352C38416B9FB721BE8B2AA23D81CE" import="0">Database Changes/Text/ko_KR/Beliefs/NewBeliefText.xml</File>
-    <File md5="B2218002A4B8124660E075F70EF702CA" import="0">Database Changes/Text/ko_KR/City/BuildingTextChanges.sql</File>
-    <File md5="41A15C3C4653591DDD742FBB77A188A8" import="0">Database Changes/Text/ko_KR/City/NewBuildingText.xml</File>
+    <File md5="69EA06C962A2EBCD430D0C3E4B2804C1" import="0">Database Changes/Text/ko_KR/City/BuildingTextChanges.sql</File>
+    <File md5="7C9AD25012BE367380FF626E67A389F7" import="0">Database Changes/Text/ko_KR/City/NewBuildingText.xml</File>
     <File md5="1CDA209D9C59AFFD839A451F0C96A5A2" import="0">Database Changes/Text/ko_KR/City/NewGreatWorkText.xml</File>
     <File md5="A3EE502CEFC9493F630E4E25D51E690D" import="0">Database Changes/Text/ko_KR/City/NewProcessText.xml</File>
     <File md5="FC0CC8A6854F79FA30C8E60BA9E6A99C" import="0">Database Changes/Text/ko_KR/City/NewProjectText.xml</File>
@@ -42,13 +42,13 @@
     <File md5="6D7D2224EB0D1D7F2B7F907FD21A0B91" import="0">Database Changes/Text/ko_KR/City/ProcessTextChanges.sql</File>
     <File md5="E5524DB01775B7099456D4EC88539099" import="0">Database Changes/Text/ko_KR/City/ProjectTextChanges.sql</File>
     <File md5="74EA508852BC4402615B5085E58CDCBE" import="0">Database Changes/Text/ko_KR/City/SpecialistTextChanges.sql</File>
-    <File md5="E6E0C27E4F7B572C9A389426E80CA45C" import="0">Database Changes/Text/ko_KR/Civilizations/CivilizationTextChanges.sql</File>
-    <File md5="52AB1B918AB3AF2B35474CCD3427C97C" import="0">Database Changes/Text/ko_KR/Civilizations/NewCivilizationText.xml</File>
+    <File md5="34A29FB969162A3DAB1B813DCA6669B8" import="0">Database Changes/Text/ko_KR/Civilizations/CivilizationTextChanges.sql</File>
+    <File md5="7BB261C058FD1D559BCC153D8715F954" import="0">Database Changes/Text/ko_KR/Civilizations/NewCivilizationText.xml</File>
     <File md5="E72DC58EBAAAE8A8A965A5E1983FB82C" import="0">Database Changes/Text/ko_KR/Concepts/ConceptTextChanges.sql</File>
     <File md5="F048771F5B6D7E08370B4878D6027DE7" import="0">Database Changes/Text/ko_KR/Concepts/NewConceptText.xml</File>
     <File md5="8F7F9829B167A8B278D6112D84BF819D" import="0">Database Changes/Text/ko_KR/Corporations/NewCorporationText.xml</File>
     <File md5="A12CCE32BEEECA72737C26A2BE2D95E6" import="0">Database Changes/Text/ko_KR/Difficulty/DifficultyTextChanges.sql</File>
-    <File md5="0F58AE9F6D639FA8E7B648ED822432FB" import="0">Database Changes/Text/ko_KR/Events/NewEventText.xml</File>
+    <File md5="29968566C80602916FAA61FE5396FEEA" import="0">Database Changes/Text/ko_KR/Events/NewEventText.xml</File>
     <File md5="73D9CD9663997F66ACA3E8241C64F48E" import="0">Database Changes/Text/ko_KR/Notifications/NewNotificationText.xml</File>
     <File md5="F437E4D998ACA492B390CA64687A3B01" import="0">Database Changes/Text/ko_KR/Notifications/NotificationTextChanges.sql</File>
     <File md5="245B643212E4E351279F22BA4B478D05" import="0">Database Changes/Text/ko_KR/Policies/NewPolicyText.xml</File>
@@ -57,8 +57,8 @@
     <File md5="858FD54BD55A23A3C312560FC6EA0DAA" import="0">Database Changes/Text/ko_KR/Tech/TechTextChanges.sql</File>
     <File md5="6048F2549BA5E6F204D1C8F447F5CA55" import="0">Database Changes/Text/ko_KR/UI/InterfaceModeTextChanges.sql</File>
     <File md5="500E936683B612C2F917D0ADA51E1A0A" import="0">Database Changes/Text/ko_KR/UI/NewUIText.sql</File>
-    <File md5="B7DE33D220E850EF1D643651547CD4EC" import="0">Database Changes/Text/ko_KR/UI/NewUIText.xml</File>
-    <File md5="FEBE4E4F1D732CA84C02A9534F8AB5EC" import="0">Database Changes/Text/ko_KR/UI/UITextChanges.sql</File>
+    <File md5="8494F914799E317BF11D9E97D8729823" import="0">Database Changes/Text/ko_KR/UI/NewUIText.xml</File>
+    <File md5="234930D16967445C142AA579180A3D88" import="0">Database Changes/Text/ko_KR/UI/UITextChanges.sql</File>
     <File md5="7893FE70739DBFEB193D41D84D986E77" import="0">Database Changes/Text/ko_KR/UnitPromotions/NewPromotionText.xml</File>
     <File md5="4026D2A9F0675ED990F2B479A012353E" import="0">Database Changes/Text/ko_KR/UnitPromotions/PromotionTextChanges.sql</File>
     <File md5="30CBE429D3318F5263508BF97470F90A" import="0">Database Changes/Text/ko_KR/Units/MissionTextChanges.sql</File>
