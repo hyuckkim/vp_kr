@@ -55,6 +55,9 @@ WHERE Tag = 'TXT_KEY_EUPANEL_IMPROVEMENT_NEAR';
 ------------------------------------------------
 -- Top panel
 ------------------------------------------------
+UPDATE Language_en_US
+SET Text = '당신 문명의 과학자와 신학자들이 먀야력이라는 불가사의를 발명했습니다. 마야력의 완성을 축하하는 의미로, 현재 박툰이 끝나면 원하는 위인 한 명을 선택할 수 있습니다.[NEWLINE][NEWLINE]박툰은 보통 속도 기준으로 33턴에 시작되며, 42/52/62/72/86/101/117/133/152/183/234/432 턴에 반복됩니다.[NEWLINE][NEWLINE]현재 마야 장기력은[NEWLINE]{1_LongMayaCalendarString}[NEWLINE][NEWLINE]({2_TraditionalDateString})입니다.'
+WHERE Tag = 'TXT_KEY_MAYA_DATE_TOOLTIP';
 
 -- Science
 UPDATE Language_ko_KR
