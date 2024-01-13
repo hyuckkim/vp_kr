@@ -844,7 +844,7 @@ SET Text = '코만치 기마병은 기병대를 대체하는 유닛입니다. �
 WHERE Tag = 'TXT_KEY_UNIT_SHOSHONE_COMANCHE_RIDERS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 설립할 때 8타일, 정복할 때 4타일의 [COLOR_POSITIVE_TEXT]추가 영역[ENDCOLOR]을 얻습니다. 자신의 영역에서 전투 시 지상 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 모든 정찰 유닛이 [COLOR_POSITIVE_TEXT]고대 유적[ENDCOLOR]에서 오는 보상을 선택할 수 있습니다.'
+SET Text = '도시를 설립할 때 8타일, 정복할 때 4타일의 [COLOR_POSITIVE_TEXT]추가 영역[ENDCOLOR]을 얻습니다. 모든 정찰 유닛이 [COLOR_POSITIVE_TEXT]고대 유적[ENDCOLOR]에서 오는 보상을 선택할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_EXPANSE';
 
 --------------------

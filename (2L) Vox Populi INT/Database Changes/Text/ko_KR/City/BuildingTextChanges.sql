@@ -574,7 +574,7 @@ WHERE Tag = 'TXT_KEY_WONDER_ORACLE_HELP';
 
 -- Angkor Wat
 UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]만디르[ENDCOLOR]를 무료로 제공합니다. 모든 도시의 [ICON_CULTURE_LOCAL] 국경 확장 속도가 50% 증가하고 새 타일을 구매하기 위해 필요한 [ICON_GOLD]골드가 25% 감소합니다. [NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
+SET Text = '[COLOR_YELLOW]만디르[ENDCOLOR]를 무료로 제공합니다. 모든 도시의 [ICON_CULTURE_LOCAL] 국경 확장 속도가 40% 증가하고 새 타일을 구매하기 위해 필요한 [ICON_GOLD]골드가 25% 감소합니다. [NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_WONDER_ANGKOR_WAT_HELP';
 
 -- Great Wall

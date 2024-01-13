@@ -47,7 +47,7 @@
 			<Text>훈제실은 야영지와 야영지 자원의 생산을 증가시키고, 도시가 새 타일을 얻을 때마다 식량을 제공합니다. 야영지의 산출을 늘리려면 훈제실을 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LODGE_HELP">
-			<Text>야영지에서 [ICON_PRODUCTION] 생산을 +1 얻습니다. 도시 영역이 확장될 때 [ICON_FOOD] 식량을 5 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] [ICON_CULTURE_LOCAL] 국경 확장 속도가 +2 증가합니다.[NEWLINE][NEWLINE][ICON_RES_DEER] 사슴: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_BISON] 들소: [ICON_FOOD] 식량 +1</Text>
+			<Text>야영지에서 [ICON_PRODUCTION] 생산을 +1 얻습니다. 도시 영역이 확장될 때 [ICON_FOOD] 식량을 5 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE][ICON_RES_DEER] 사슴: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_BISON] 들소: [ICON_FOOD] 식량 +1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LODGE_TEXT">
 			<Text>훈제실은 고기나 생선을 연기로 숙성시키는 건물입니다. 훈제가 완료되면, 1년 이상 건물에 보관될 수 있습니다. 연기를 사용하지 않는 경우에도 이러한 건물을 "smokehouse"라고 합니다. 고기는 해충의 손이 닿지 않도록 매달려 있습니다. 전통적으로 훈제실은 종종 환풍구, 단일 입구, 창문이 없는 작은 밀폐형 별채이며 박공 또는 피라미드 스타일의 지붕이 있는 경우가 많습니다. 매우 느린 활엽수 장작불에서 나오는 약간 따뜻하고 건조한 공기를 사용하면 육류가 적절하게 건조됩니다.</Text>

@@ -128,7 +128,7 @@
 		</Row>
 		<!-- Ethiopia -->
 		<Row Tag="TXT_KEY_BUILDING_STELE_HELP">
-			<Text>기념비를 대체하는 에티오피아의 고유 건물입니다. [ICON_CULTURE_LOCAL] 국경 확장 속도가 34% 증가합니다. [ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+			<Text>기념비를 대체하는 에티오피아의 고유 건물입니다. [ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<!-- Greece -->
 		<Row Tag="TXT_KEY_BUILDING_ODEON">
@@ -190,7 +190,7 @@
 			<Text>몽골 사람들에 의해 '게르'라고 불리는 유르트는 중앙아시아 스텝의 유목민들에 의해 전통적으로 그들의 보금자리로 사용되는 이동 가능하고 구부러진 주거 구조입니다. 구조는 크라운 또는 압축 휠(보통 증기가 휘어짐)로 구성되며, 루프 리브에 의해 지지되며, 루프 리브는 격자 벽과 만나는 단부에서 아래로 휘어집니다(다시 증기가 휘어짐). 루프 리브의 힘에 대항하는 장력 밴드를 사용하여 벽 상단이 퍼지는 것을 방지합니다. 그 구조물은 보통 단열과 내후성을 위해 천과 양의 털 펠트 층으로 덮여 있습니다. 유르트의 전통적인 장식은 주로 패턴에 기반합니다. 이러한 문양은 일반적으로 취향에 따라 만들어진 것이 아니라, 특정한 상징성을 지닌 신성한 장신구에서 파생된 것입니다. 힘을 나타내는 상징은 카(사자, 호랑이, 가루다, 용)와 다섯 가지 요소(불, 물, 흙, 금속, 나무)의 양식화된 표현뿐만 아니라 우주의 기본적이고 변하지 않는 요소라고 여겨지는 카(사자, 호랑이, 가루다, 용)를 포함한 가장 일반적인 것들 중 하나입니다. 이러한 패턴은 힘을 가져오고 보호를 제공한다는 믿음과 함께 가정에서 일반적으로 사용됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_YURT_HELP">
-			<Text>훈제실을 대체하는 몽골의 고유 건물입니다. 야영지와 목장에서 [ICON_PRODUCTION] 생산을 +1 얻습니다. 이 도시의 [ICON_CULTURE_LOCAL] 국경 확장 속도가 34% 증가하고 확장에 필요한 [ICON_GOLD] 골드기 25% 감소합니다. 도시 영역이 확장될 때 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 5 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 이 도시의 [ICON_CULTURE_LOCAL] 국경 확장 속도가 +2 증가합니다.[NEWLINE][NEWLINE][ICON_RES_DEER] 사슴: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_BISON] 들소: [ICON_FOOD] 식량 +1</Text>
+			<Text>훈제실을 대체하는 몽골의 고유 건물입니다. 야영지와 목장에서 [ICON_PRODUCTION] 생산을 +1 얻습니다. 이 도시의 [ICON_CULTURE_LOCAL] 국경 확장 속도가 40% 증가하고 확장에 필요한 [ICON_GOLD] 골드기 25% 감소합니다. 도시 영역이 확장될 때 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 5 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] [NEWLINE][NEWLINE][ICON_RES_DEER] 사슴: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_BISON] 들소: [ICON_FOOD] 식량 +1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_YURT_STRATEGY">
 			<Text>훈제실을 대체하는 몽골의 고유 건물입니다. 훈제실의 보너스에 더해, 게르는 목장에도 식량 보너스를 제공합니다. 또한 약간의 신앙을 제공하고, 유지비가 없습니다. 게르를 지어 도시의 성장을 최대화하고 빠르게 종교관을 얻으십시오.</Text>
