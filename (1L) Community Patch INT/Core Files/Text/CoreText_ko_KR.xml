@@ -6876,7 +6876,7 @@
 			<Text>+{1_Num}% 문명 전역의 무료에서[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
-			<Text>[COLOR_POSITIVE_TEXT]적용 중인 테마보너스:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]적용 중인 [COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS_NEEDED">
 			<Text>[COLOR_POSITIVE_TEXT]이 건물의 테마 조건을 충족시키면:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>

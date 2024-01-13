@@ -60,7 +60,7 @@
 			<Text>갤러리는 위대한 예술가의 생성 속도를 증가시키고, 예술가 길드와 걸작을 강화합니다. 갤러리를 건설해 길드가 있는 도시의 예술가와 걸작을 강화하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GALLERY_HELP">
-			<Text>도시의 [ICON_GREAT_WORK] 걸작이 [ICON_TOURISM] 관광을 +1 얻습니다. [ICON_GREAT_ARTIST] 위대한 예술가 생성 속도가 +33% 증가하고, 모든 예술가 길드가 [ICON_GOLD] 골드를 +1 얻습니다.[NEWLINE][NEWLINE] [ICON_GREAT_WORK] 걸작 예술품 또는 유물 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.</Text>
+			<Text>도시의 [ICON_GREAT_WORK] 걸작이 [ICON_TOURISM] 관광을 +1 얻습니다. [ICON_GREAT_ARTIST] 위대한 예술가 생성 속도가 +33% 증가합니다.[NEWLINE][NEWLINE] [ICON_GREAT_WORK] 걸작 예술품 또는 유물 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GALLERY_TEXT">
 			<Text>아트 갤러리는 그림이나 조각과 같은 시각 예술을 전시하는 전용 공간입니다. 원래 갤러리는 개인 궁전과 교회의 긴 복도로 신분을 표시하기 위해 개인 미술 컬렉션이 늘어서 있습니다. 오늘날 많은 아트 갤러리는 공공 소유이며 역사적, 교육적, 미적 가치를 위해 대중에게 예술을 전시합니다. 갤러리는 지역 예술가, 예술품 수집가, 순수 예술계의 유행을 선도하는 사람들의 네트워킹과 홍보를 위한 장소 역할을 계속하고 있습니다.</Text>
@@ -162,7 +162,7 @@
 			<Text>성형 요새는 도시의 전투력을 높이고 받는 피해를 2 줄여, 도시를 점령하기 어렵게 만드는 르네상스 시대 방어 건물입니다.  도시가 시야에 상관 없이 공격할 수 있게 합니다. 도시의 군사 유닛 보급 한도가 인구의 10%만큼 증가합니다. 또한 도시 규모 요구치를 조절하는 데 도움을 줍니다. 성형 요새를 건설하려면 성이 건설되어 있어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FORTRESS_HELP">
-			<Text>도시가 공격으로부터 받는 피해를 2 감소시킵니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 시민의 10%만큼 증가합니다. 도시가 시야에 상관 없이 [ICON_RANGE_STRENGTH] 범위 공격을 할 수 있습니다. [NEWLINE][NEWLINE]주둔한 유닛이 체력을 추가로 5 회복합니다.[NEWLINE][NEWLINE][ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.</Text>
+			<Text>도시가 받는 모든 피해를 2 감소시킵니다. [ICON_SILVER_FIST] 군사 유닛 보급 한도가 시민의 10%만큼 증가합니다. 도시가 시야에 상관 없이 [ICON_RANGE_STRENGTH] 범위 공격을 할 수 있습니다. [NEWLINE][NEWLINE]주둔한 유닛이 체력을 추가로 5 회복합니다.[NEWLINE][NEWLINE][ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDINGS_FORTRESS_TEXT">
 			<Text>대포들이 전장을 지배하게 되면서, 군사 기술자들에게 더 오래된 돌 성의 외벽을 뚫을 수 있는 무기를 견딜 수 있는 정적 요새를 설계하라는 압력이 가해졌습니다. 토공과 경사진, 또는 대포알의 타격을 흡수하거나 빗나가게 하는 각진 벽이 새롭게 강조되었습니다. 새로운 요새는 다각형 모양과 수많은 보루와 난간, 항상 적을 각진 표면을 나타내는 삼각형 돌출부를 자랑했습니다. 이 요새들은 공격자가 대포가 가장 큰 피해를 줄 수 있는 평평한 방향으로 직접 명중하는 것을 거부했습니다. 한편, 이 방벽들은 인근 성벽의 길이를 따라 겹겹이 포화를 제공했고, 공격자들이 여러 성벽의 총성에 노출되는 '사각지대'를 만들었습니다.[NEWLINE][NEWLINE]이 새로운 요새들은 1500년대 초 프랑스의 이탈리아 침공에 대한 대응책으로 만들어졌습니다. 다름아닌 미켈란젤로 그 자신이 프랑스로부터 그의 고향 피렌체를 방어하기 위한 최초의 요새 중 하나를 설계한 공로를 인정받고 있으며, 설계는 이탈리아에서 유럽으로, 그리고 전 세계로 퍼져나갔습니다.</Text>
@@ -211,22 +211,22 @@
 
 		<!-- Amphitheater -->
 		<Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_HELP">
-			<Text>도시의 [ICON_GREAT_WRITER]위대한 작가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 작가 길드의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE][ICON_RES_DYE] 염료: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_SILK] 비단: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_LAPIS] 청금석: [ICON_CULTURE] 문화 +2[NEWLINE][ICON_RES_BRAZILWOOD] 브라질 소방목: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][NEWLINE]테마보너스:  [ICON_CULTURE]문화 +2</Text>
+			<Text>도시의 [ICON_GREAT_WRITER]위대한 작가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE][ICON_RES_DYE] 염료: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_SILK] 비단: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_LAPIS] 청금석: [ICON_CULTURE] 문화 +2[NEWLINE][ICON_RES_BRAZILWOOD] 브라질 소방목: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_CULTURE]문화 +2</Text>
 		</Row>
 
 		<!-- Opera House -->
 		<Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE_HELP">
-			<Text>도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 도시의 [ICON_GREAT_WORK]불가사의의 [ICON_TOURISM]관광이 1 증가합니다. [ICON_GREAT_MUSICIAN]위대한 음악가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 음악가 길드의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.</Text>
+			<Text>도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 도시의 [ICON_GREAT_WORK]불가사의의 [ICON_TOURISM]관광이 1 증가합니다. [ICON_GREAT_MUSICIAN]위대한 음악가 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.</Text>
 		</Row>
 
 		<!-- Museum -->
 		<Row Tag="TXT_KEY_BUILDING_MUSEUM_HELP">
-			<Text>도시에서 [COLOR_POSITIVE_TEXT]고고학자[ENDCOLOR]를 생산할 수 있습니다. [ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화와 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_CULTURE]문화 +4</Text>
+			<Text>도시에서 [COLOR_POSITIVE_TEXT]고고학자[ENDCOLOR]를 생산할 수 있습니다. [ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화와 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_CULTURE]문화 +4</Text>
 		</Row>
 
 		<!-- Market -->
 		<Row Tag="TXT_KEY_BUILDING_MARKET_HELP">
-			<Text>이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_SPICES] 향신료: [ICON_FOOD]식량 +1 [ICON_PRODUCTION]생산 +1[NEWLINE][ICON_RES_SUGAR] 설탕: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1</Text>
+			<Text>이 도시로 향하는 [ICON_ARROW_LEFT]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_ARROW_RIGHT] 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_SPICES] 향신료: [ICON_FOOD]식량 +1 [ICON_PRODUCTION]생산 +1[NEWLINE][ICON_RES_SUGAR] 설탕: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1</Text>
 		</Row>
 
 		<!-- Walls -->
@@ -367,7 +367,7 @@
 
 		<!-- Notre Dame -->
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_HELP">
-			<Text>[COLOR_YELLOW]대성당[ENDCOLOR]을 무료로 제공합니다. 당신의 [COLOR_POSITION_TEXT]대중 종교[ENDCOLOR]를 믿는 모든 도시의 종교 압력이 +30% 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE]테마보너스:  [ICON_PEACE]신앙 +3 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]대성당[ENDCOLOR]을 무료로 제공합니다. 당신의 [COLOR_POSITION_TEXT]대중 종교[ENDCOLOR]를 믿는 모든 도시의 종교 압력이 +30% 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE]신앙 +3 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN">
@@ -960,7 +960,7 @@
 			<Text>기록실을 건설해 기술을 연구할 때마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 얻고, 모든 성지를 강화하십시오. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_HELP">
-			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 3개를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE]테마보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 3개를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_PEDIA">
 			<Text>기록실은 교황청에서 개인적으로 보관하는 서신과 의사록의 모음집이었습니다. 이 컬렉션은 바티칸 비밀 기록 보관소의 시초가 되었습니다.</Text>
