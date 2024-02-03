@@ -741,7 +741,7 @@ SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]도시 국가의 영토에 랜드마�
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MINOR_CIV';
 
 UPDATE Language_ko_KR
-SET Text = '유물이 가장 가까이에 있는 걸작 예술품 슬롯에 자동으로 배치됩니다. 걸작 슬롯에 유물을 배치하면 [ICON_CULTURE]문화가 ' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_TOURISM]관광이 ' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' 증가합니다. 고고학자를 소모합니다.'
+SET Text = '유물이 가장 가까이에 있는 걸작 예술품 또는 유물 슬롯에 자동으로 배치됩니다. 걸작 슬롯에 유물을 배치하면 [ICON_CULTURE]문화가 ' || (SELECT Value FROM Defines WHERE Name = 'BASE_CULTURE_PER_GREAT_WORK') || ' [ICON_TOURISM]관광이 ' || (SELECT Value FROM Defines WHERE Name = 'BASE_TOURISM_PER_GREAT_WORK') || ' 증가합니다. 고고학자를 소모합니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT';
 
 UPDATE Language_ko_KR

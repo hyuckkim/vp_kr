@@ -27,20 +27,6 @@
 			<Text>르네상스 시대의 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES">
-			<Text>반데이란테스</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_TEXT">
-			<Text>반다이란테스(국기를 들고 다니는 사람들)는 17세기 브라질에 정착한 포르투갈인 정착민이자 행운의 사냥꾼이었습니다. 그들은 공식적으로 카스티야 또는 후에 스페인 (서쪽) 영토를 남아메리카의 포르투갈 (동쪽) 영토로부터 분할한 1494년 토르데시야스 선의 남쪽과 서쪽 멀리 브라질 내륙을 관통하는 반데이라스 ("깃발")라고 불리는 탐험대를 이끌었습니다. 비록 그들이 원래 아메리카 원주민들을 사로잡고 노예로 강제하는 것을 목표로 했지만, 밴더란테들은 나중에 금, 은, 그리고 다이아몬드 광산을 찾는 데 그들의 탐험에 초점을 맞추기 시작했습니다. 그들이 이윤과 모험을 찾아 지도에 없는 지역으로 모험을 떠나면서, 그들은 브라질 식민지의 효과적인 국경을 확장했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_STRATEGY">
-			<Text>탐험가를 대체하는 브라질의 중세 시대 유닛입니다. 탐험가보다 더 빠르고 강하며, 더 일찍 등장합니다. 밝혀지지 않은 영역을 탐험하면, 골드, 문화, 과학을 생성합니다. 이 산출은 소유한 가장 가까운 도시에 더해집니다. 또한 내 영토에 요새, 채석장, 광산, 브라질 소방목 벌목장을 건설할 수 있는 능력이 있으며 야만인과 전투시 더 강합니다. 이 유닛으로 탐험하고, 야만인을 정리하고, 국경 도시에 산출을 제공하십시오.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_HELP">
-			<Text>{TXT_KEY_UNIT_EXPLORER}를 대체하는 브라질의 고유 유닛 입니다. 이 유닛으로 지도를 밝힐 때 가장 가까운 도시에 [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_RESEARCH]과학을 제공합니다. 소유한 영토에 {TXT_KEY_CIV5_IMPROVEMENTS_FORT}, {TXT_KEY_CIV5_IMPROVEMENTS_QUARRY}, {TXT_KEY_IMPROVEMENT_MINE}, {TXT_KEY_IMPROVEMENT_BRAZILWOOD_CAMP}을 건설할 수 있습니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SURVIVALISM_3}[ENDCOLOR] 승급을 보유합니다.</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_UNIT_COMMANDO">
 			<Text>특공대</Text>
 			<Plurality>2</Plurality>

@@ -16,17 +16,6 @@
 			<Text>인접한 재재소 둘 마다 [ICON_PRODUCTION] 생산 및 [ICON_GOLD] 골드가 +1 증가합니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_BUILD_TERRACE_FARM_HELP">
-			<Text>인접한 계단식 농장 또는 산 마다 [ICON_FOOD] 식량이 +1 증가합니다. 모든 인접한 농장의 [ICON_FOOD] 식량이 +1 증가합니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_BUILD_POLDER_HELP">
-			<Text>근처 마을과 소도시 타일의 [ICON_GOLD] 골드가 +1 증가합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_POLDER_WATER_HELP">
-			<Text>지상 유닛이 해양 타일을 지날 수 있게 합니다. 근처 마을과 소도시 타일의 [ICON_GOLD] 골드가 +1 증가합니다.</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE">
 			<Text>유닛이 소모됩니다. 두 도시를 연결하는 도로 위에 건설되면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 철도 위에서는 두 배가 됩니다. 이 소도시를 지나는 교역로가 있다면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 산업 시대부터는 두 배가 됩니다.[NEWLINE][NEWLINE] 위인 시설은 전략 자원을 교역망에 연결합니다. 소도시는 위대한 상인의 외교 임무에서 오는 골드 생산량과 국왕 경축일 기간을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가시킵니다.</Text>
 		</Row>
@@ -52,128 +41,8 @@
 			<Text>유닛이 소모됩니다.[NEWLINE][NEWLINE]시설을 건설하면 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. [ICON_RES_PAPER] 종이를 +1 얻습니다.</Text>
 		</Row>
 
-		
-		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO">
-			<Text>오르도</Text>
-			<Gender>neuter:an</Gender>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_TEXT">
-			<Text>{TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_HELP}[NEWLINE][NEWLINE]간단히 번역하면, "오르도"는 "궁전의 텐트"를 의미합니다. 하지만, 오르도는 단순한 텐트 이상의 것이었습니다. 그것은 유목민 몽골인 부족의 중심이었습니다.[NEWLINE][NEWLINE]오르도는 칸과 그의 전사들을 위한 본부이자 주요 야영지 역할을 했습니다. 비록 여행을 위해 지어졌지만, 그것은 단순한 장식에서부터 정성스럽게 바느질된 패턴에 이르기까지 스타일을 가지고 있었습니다. 오르도는 칸과 그의 전사들과 함께 그들이 어디를 여행하든 항상 편안함을 느끼도록 했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_MONGOLIA_ORDO_HELP">
-			<Text>몽골의 위대한 장군이 건설할 수 있으며 성채를 대체합니다. [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화를 제공합니다.[NEWLINE][NEWLINE]주위로 해당 문명의 영토가 한 타일씩 증가합니다.[NEWLINE][NEWLINE]유닛이 오르도에 주둔하면 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]5-%[ENDCOLOR] 증가하고 +1 [ICON_MOVES] 이동력을 제공합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO">
-			<Text>[LINK=IMPROVEMENT_MONGOLIA_ORDO]오르도[\LINK] 건설</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_HELP">
-			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50과 [ICON_MOVES] 이동력 +1을 얻습니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_REC">
-			<Text>유닛이 소모됩니다.[NEWLINE]몽골 고유 시설입니다. [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화를 제공합니다. 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 증가하고 추가[ICON_MOVES] 이동력을 얻습니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_IMPROVEMENT_EKI">
-			<Text>에키</Text>
-			<Gender>neuter:an</Gender>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EKI_TEXT">
-			<Text>{TXT_KEY_CIV5_IMPROVEMENTS_EKI_HELP}[NEWLINE][NEWLINE][NEWLINE]'에키'는 훈족들이 지구, 특히 가축 방목에 필수적인 지구를 묘사하기 위해 사용한 것으로 보인다. 유목민 목축은 목축이 목축할 수 있는 새로운 목초지를 찾기 위해 가축이 모여 사는 목축의 한 형태이다. 엄밀히 말하면, 진정한 유목민들은 계절의 목초지가 고정된 방목과 대조적으로 불규칙한 이동 패턴을 따른다. 그러나 이러한 구별은 종종 관찰되지 않으며, 유목민이라는 용어는 두 가지 모두에 사용된다. 사육되는 가축은 소, 야크, 양, 염소, 순록, 말, 당나귀, 낙타, 또는 잡종을 포함한다. 유목민들의 목축은 경작지가 거의 없는 지역, 특히 개발도상국에서 흔히 행해진다. 전 세계적으로 3천만에서 4천만 명으로 추정되는 유목민들 중 대부분은 중앙아시아와 서아프리카의 사헬 지역에서 발견된다. 한 방목 기간과 다음 방목 기간 사이에 토지가 완전히 복구되지 않을 경우, 가축의 증가는 그 지역의 과도한 방목과 사막화로 이어질 수 있다. 토지 울타리의 증가와 인클로저 운동으로 이 관례에 사용할 수 있는 토지의 양이 감소하였다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EKI_HELP">
-			<Text>에키는 담수와 인접하지 않은 평지에만 건설할 수 있습니다. 해당 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량이 증가합니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_EKI">
-			<Text>[LINK=IMPROVEMENT_EKI]에키[\LINK] 건설</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_EKI_HELP">
-			<Text>담수와 인접하지 않은 평지에만 건설할 수 있습니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.[NEWLINE][NEWLINE]중립 영토에 건설하면 영토가 확장됩니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_EKI_REC">
-			<Text>현재 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량을 증가시킵니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
-		</Row>
-		
-		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA">
-			<Text>하시엔다</Text>
-			<Gender>neuter:a</Gender>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA_TEXT">
-			<Text>다른 하시엔다와 서로 인접하여 건설할 수 없습니다. [ICON_CULTURE] 문화가 증가하고 인접한 다음 타일들이 하시엔다에 추가 산출량을 제공합니다:[NEWLINE]보너스 자원 : +3 [ICON_FOOD] 식량[NEWLINE]전략 자원 : +3 [ICON_PRODUCTION] 생산[NEWLINE]사치 자원 : +3 [ICON_GOLD] 골드[NEWLINE][NEWLINE]			
-			하시엔다는 스페인인들이 원주민들로부터 자원을 얻고 관리하기 위해 건설한 식민지이다. 하시엔다는 이전의 엔코미엔다 제도에 의해 기술된 토착 노동력의 엄격한 부여보다는 재산과 기업의 부여에 기반을 두었다. 하시엔다는 일반적으로 큰 사유지였지만, 그 일의 성격은 플랜테이션, 광업, 공장까지 다양했다.[NEWLINE][NEWLINE]하시엔다의 소유자는 하켄다도라고 불렸지만, 부유한 지주들은 그들의 소유지를 거의 방문하지 않았고 근처의 도시에서 사는 것을 선호했다. 하시엔다의 일상적인 운영은 고용된 관리자의 책임이었다. 몇몇 비정상적으로 크고 수익성이 높은 아시엔다들은 로마 가톨릭교회의 재산이었고, 토착 노동자들과 그들의 기독교 작업 주인들 사이의 긴장을 악화시켰다.[NEWLINE][NEWLINE]아시엔다 제도는 스페인 제국이 해체된 후 대부분의 국가에서 폐지되었지만, 결과는 엇갈렸다. 대규모 사유지를 자급자족하는 농부들을 위한 개별 소유지로 분리하려는 노력은 일부 남미 국가들에서 극심한 빈곤을 초래했다. 이와는 대조적으로, 라틴 아메리카와 필리핀의 하시엔다는 대부분 온전하게 남아있었지만, 그들의 식민지 시대에 대한 동일한 법적 지위나 허가가 없었다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA_HELP">
-			<Text>다른 하시엔다와 서로 인접하여 건설할 수 없습니다.	[ICON_CULTURE] 문화가 증가하고 인접한 다음 타일들이 하시엔다에 추가 산출량을 제공합니다: [NEWLINE]보너스 자원 : +3 [ICON_FOOD]식량[NEWLINE]전략 자원 : +3 [ICON_PRODUCTION]생산[NEWLINE]사치 자원 : +3 [ICON_GOLD]골드</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA">
-			<Text>[LINK=IMPROVEMENT_SPAIN_HACIENDA]하시엔다[\LINK] 건설</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_HELP">
-			<Text>인접한 보너스 자원마다 [ICON_FOOD]식량 +3, 인접한 전략 자원마다 [ICON_PRODUCTION]생산 +3, 인접한 사치 자원마다 [ICON_GOLD]골드 +3을 제공합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_SPAIN_HACIENDA_REC">
-			<Text>현재 타일의 [ICON_CULTURE] 문화를 증가시킵니다.[NEWLINE]보너스 자원과 인접 시 [ICON_FOOD]식량, 전략 자원과 인접 시 [ICON_PRODUCTION]생산, 사치 자원과 인접 시 [ICON_GOLD]골드, 도시와 인접 시 [ICON_CULTURE]문화를 제공합니다.</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_MACHU_PICCHU">
 			<Text>산악 도시</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_IMPROVEMENT_KUNA">
-			<Text>쿠나</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KUNA_TEXT">
-			<Text>{TXT_KEY_CIV5_IMPROVEMENTS_KUNA_HELP}[NEWLINE][NEWLINE]'쿠나'는 마야어로 사원이나 교회를 뜻합니다. 쿠나는 유라시아의 지구라트나 피라미드와 디자인이 비슷했습니다. 쿠나 그 자체로도 이러한 고대 유적지들 중 대부분으로 남아있지만, 한때는 대도시의 중심지이기도 했습니다. 가장 유명한 것은 치첸이사인데, 세계 불가사의의 자격이 될 정도로 웅장합니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KUNA_HELP">
-			<Text>쿠나는 숲 또는 정글 타일에만 건설할 수 있습니다. 다른 쿠나와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 증가합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_KUNA">
-			<Text>[LINK=IMPROVEMENT_KUNA]쿠나[\LINK] 건설</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_KUNA_HELP">
-			<Text>다른 쿠나에 인접하게 건설할 수 없습니다. 타일의 특성을 제거하지 않습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_KUNA_REC">
-			<Text>현재 타일의 [ICON_RESEARCH]과학 및 [ICON_PEACE]신앙을 증가시킵니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_IMPROVEMENT_ENCAMPMENT_SHOSHONE">
-			<Text>티피</Text>
-			<Gender>neuter:an</Gender>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_TEXT">
-			<Text>{TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_HELP}[NEWLINE][NEWLINE]티피는 전통적으로 동물의 가죽과 나무 막대기로 만들어진 원뿔형 텐트이다. 티피는 북아메리카의 대평원의 유목민 부족들의 야영지에서 사용되었다. 티피는 일반적으로 미국 원주민과 연관되어 있지만, 그레이트 플레인스 이외의 지역에서 온 아메리카 원주민들은 대부분 다른 종류의 주거지를 사용했다. 티피는 내구성이 강하고, 겨울에는 따뜻함과 편안함을 제공하며, 여름의 더위에는 시원하고, 폭우 시에는 건조하다. 티피스는 한 부족이 이주하기로 결정했을 때 빠르게 분해되고 포장될 수 있었고 새로운 지역에 정착했을 때 빠르게 재건될 수 있었다. 이러한 이동성은 유목 생활을 하는 평원 인디언들에게 중요했다. 현대의 티피 커버는 보통 캔버스로 만들어진다. 현대의 티피 이용자는 역사적 재현자, 전원 생활의 신자, 그리고 그들의 유산과 전통의 일부를 보존하고 물려주기를 원하는 집회나 캠프에 참석하는 아메리카 원주민 가족들을 포함한다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_HELP">
-			<Text>티피는 평지 타일에만 건설할 수 있습니다. 다른 티피와 서로 인접하여 건설할 수 없습니다. 해당 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화가 증가합니다. 시설 위에 주둔한 유닛에 약간의 [ICON_STRENGTH]방어력 보너스를 제공하고 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다. 쇼쇼니 영토에만 건설할 수 있습니다 [NEWLINE][NEWLINE]3타일 범위의 모든 쇼쇼니 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다..</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE">
-			<Text>[LINK=IMPROVEMENT_ENCAMPMENT_SHOSHONE]티피[\LINK] 건설</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_HELP">
-			<Text>현재 타일에 티피를 건설합니다. [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화가 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. [NEWLINE][NEWLINE]3타일 범위의 모든 쇼쇼니 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다. [NEWLINE][NEWLINE]시설 위에 주둔한 유닛에 약간의 방어력 보너스와 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_REC">
-			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 증가시킵니다. 건설 시 모든 타일의 특성을 제거합니다. 근처 쇼숀 유닛에게 전투력을 제공하고 주둔한 유닛에 방어력 보너스를 제공하며 인접한 적 유닛에 소량의 피해를 입힙니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN">
-			<Text>쓰허위안</Text>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN_TEXT">
-			<Text>쓰허위안은 도시 또는 다른 두 쓰허위안에 인접한 평지에 지어질 수 있지만, 자원 위에는 건설할 수 없습니다. [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학을 제공합니다. 도시가 황후 경축일을 겪는 동안 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학이 추가로 1 증가합니다. [NEWLINE][NEWLINE]위풍당당한 쓰허위안은 고대로 거슬러 올라가는 중국 건축의 기둥입니다. 이 양식은 종종 중국의 사각형으로 불리며, 상대적으로 주거지와 수도원에서 가장 웅장한 궁궐까지 사용됩니다. 베이징의 자금성은 거대한 쓰허위안으로 디자인되었습니다. 모든 스허위안은 동쪽과 서쪽 축을 따라 위치해 있으며, 주요 입구는 남쪽을 향하고 있습니다. 이 계획의 보편성은 순차적인 시허위안을 긴 줄로 배열할 수 있게 하여 중국의 많은 대도시에 광범위한 교외를 만듭니다. 사허위안 사이의 좁은 골목길은 중국 북부에서 후통으로 알려져 있으며, 중동 바자르처럼 긴 시장 거리를 형성합니다. 최근 도시 계획과 건설의 변화로 인해 많은 역사적인 지역들이 철거되었지만, 일부 지역을 중국 문화적 정체성의 귀중한 부분으로 보존하려는 협력적인 노력이 있었습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN_HELP">
-			<Text>쓰허위안은 도시 또는 다른 두 쓰허위안에 인접한 평지에 지을 수 있지만, 자원 위에는 건설할 수 없습니다. [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학을 제공합니다. 도시가 황후 경축일을 겪는 동안 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학이 추가로 1 증가합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_SIHEYUAN">
-			<Text>[LINK=IMPROVEMENT_SIHEYUAN]쓰허위안[\LINK] 건설</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_SIHEYUAN_HELP">
-			<Text>[ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 1 증가합니다. 황후 경축일 동안 더 많은 산출을 제공합니다. 도시 또는 두 쓰허위안에 인접해야 합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILD_SIHEYUAN_REC">
-			<Text>현재 타일의 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 황후 경축일 동안 더 많은 산출을 제공합니다.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

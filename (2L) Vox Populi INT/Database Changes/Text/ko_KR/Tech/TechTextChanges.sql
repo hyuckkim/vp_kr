@@ -91,7 +91,7 @@ WHERE Tag = 'TXT_KEY_TECH_REPLACEABLE_PARTS_HELP';
 
 -- Combustion
 UPDATE Language_ko_KR
-SET Text = '공격 후 움직일 수 있는 놀라울 정도로 강력한 장갑 유닛 [COLOR_YELLOW]지상함[ENDCOLOR]을 만들 수 있고 도시의 방어력을 증가시켜주는 [COLOR_POSITIVE_TEXT]무기고[ENDCOLOR]를 건설할 수 있습니다.'
+SET Text = '공격 후 움직일 수 있는 놀라울 정도로 강력한 장갑 유닛 [COLOR_YELLOW]지상함[ENDCOLOR]을 만들 수 있고 도시의 전투력을 증가시켜주는 [COLOR_POSITIVE_TEXT]무기고[ENDCOLOR]를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_COMBUSTION_HELP';
 
 -- Plastics
@@ -241,7 +241,7 @@ WHERE Tag = 'TXT_KEY_TECH_ASTRONOMY_HELP';
 
 -- Navigation
 UPDATE Language_ko_KR
-SET Text = '강력한 르네상스 시대의 군함인 [COLOR_POSITIVE_TEXT]프리깃[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]코르벳[ENDCOLOR]을 생산할 수 있고 도시의 방어력을 증가시키는 [COLOR_POSITIVE_TEXT]성형 요새[ENDCOLOR]를 건설할 수 있습니다. 해안 도시에서 [COLOR_POSITIVE_TEXT]항구[ENDCOLOR]를 건설해 해양 자원에 [ICON_PRODUCTION] 생산을 제공할 수 있습니다.'
+SET Text = '강력한 르네상스 시대의 군함인 [COLOR_POSITIVE_TEXT]프리깃[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]코르벳[ENDCOLOR]을 생산할 수 있고 도시의 전투력을 증가시키는 [COLOR_POSITIVE_TEXT]성형 요새[ENDCOLOR]를 건설할 수 있습니다. 해안 도시에서 [COLOR_POSITIVE_TEXT]항구[ENDCOLOR]를 건설해 해양 자원에 [ICON_PRODUCTION] 생산을 제공할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_NAVIGATION_HELP';
 
 -- Electricity

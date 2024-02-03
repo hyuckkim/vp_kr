@@ -47,14 +47,14 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 작가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (원형극장, 국가 서사시, 영웅 서사시, 왕립 도서관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 [ICON_VP_GREATWRITING] 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (원형극장, 국가 서사시, 영웅 서사시, 왕립 도서관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 예술가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 예술가는 걸작 예술품 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성) 을 만들 수 있고, 예술품은 빈 슬롯이 있는 적절한 건물 (궁전, 박물관, 대성당 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 예술가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 황금기 점수[ENDCOLOR][NEWLINE]
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 예술가는 [ICON_VP_GREATART] 걸작 예술품 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성) 을 만들 수 있고, 예술품은 빈 슬롯이 있는 적절한 건물 (궁전, 박물관, 대성당 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 예술가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 황금기 점수[ENDCOLOR][NEWLINE]
 위대한 예술가를 소모해 [COLOR_YELLOW]황금기 점수를 얻을 수 있고, 이것은 [ICON_GOLDEN_AGE] 황금기를 시작할 수 있습니다. (추가 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화). 생성되는 황금기 점수의 양은 직전 15턴 동안의 [ICON_TOURISM] 관광과 [ICON_GOLDEN_AGE] 황금기 점수로 결정되며, 걸작 예술품마다 20%씩 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_BODY';
 
@@ -62,7 +62,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 음악가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 극장 또는 방송탑)이 있는 가장 가까운 도시에 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 10턴 동안 100% 증가시킵니다. (보유한 [ICON_VP_GREATMUSIC] 걸작 음악마다 1턴 추가) 또한 수도에서 2 [ICON_HAPPINESS_1] 행복을 얻습니다. 대상 문명과 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 극장 또는 방송탑)이 있는 가장 가까운 도시에 [ICON_VP_GREATMUSIC] 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 10턴 동안 100% 증가시킵니다. (보유한 [ICON_VP_GREATMUSIC] 걸작 음악마다 1턴 추가) 또한 수도에서 2 [ICON_HAPPINESS_1] 행복을 얻습니다. 대상 문명과 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -170,7 +170,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]문화 승리[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CULTURE_VICTORY_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 [COLOR_YELLOW]세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [ENDCOLOR][COLOR_POSITIVE_TEXT]만족[ENDCOLOR][COLOR_YELLOW]한 상태여야 합니다. [ENDCOLOR]이것은 당신이 만든 걸작과 당신이 발견한 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 [COLOR_YELLOW]세계 시민 의정서를 구성할 수 있습니다.[ENDCOLOR]'
+SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 [COLOR_YELLOW]세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [ENDCOLOR][COLOR_POSITIVE_TEXT]만족[ENDCOLOR][COLOR_YELLOW]한 상태여야 합니다. [ENDCOLOR]이것은 당신이 만든 [ICON_GREAT_WORK] 걸작과 당신이 발견한 [ICON_VP_ARTIFACT] 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 [COLOR_YELLOW]세계 시민 의정서를 구성할 수 있습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_VICTORY_CULTURAL_HEADING3_BODY';
 
 UPDATE Language_ko_KR

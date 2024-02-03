@@ -32,10 +32,6 @@ SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_CUL
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_OLDFAITHFUL_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '노동자, 작업선, 선교사, 이단심문관, 개척자가 [ICON_MOVES] 이동력을 +2 얻는 [COLOR_POSITIVE_TEXT]신성한 걸음[ENDCOLOR] 승급을 부여합니다.'
-WHERE Tag = 'TXT_KEY_CIV5_FEATURES_SRI_PADA_HELP';
-
-UPDATE Language_ko_KR
 SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_FOOD]식량이 +2 증가합니다.[NEWLINE][NEWLINE]스리랑카에 우뚝 솟은 스리파다는 특이한 원뿔 모양을 한 봉우리로 많은 종교에서 이곳 정상에 있는 "발자국"을 신성시합니다. 산 정상에 있는 바위에 움푹 박힌 이 자국은 부처, 시바 신 또는 성경에 나오는 아담의 발자국이라 불리며 수많은 불교, 힌두교, 이슬람교 신자들에게 있어 숭배의 대상입니다. 매년 수천 명의 순례자가 이 발자국을 경배하러 찾아옵니다.'
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_SRI_PADA_TEXT';
 

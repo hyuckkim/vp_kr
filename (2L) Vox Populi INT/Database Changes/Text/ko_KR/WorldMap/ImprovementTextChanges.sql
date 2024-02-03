@@ -58,7 +58,7 @@ SET Text = '성채는 [ICON_GREAT_GENERAL]위대한 장군만 건설할 수 있�
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '소유 영토 내부 또는 소유하지 않은 국경 타일과 인접한 곳에 건설할 수 있으며 다른 성채와 서로 인접하여 건설할 수 없습니다. 성채를 건설하면 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 성채 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 건설 시 유닛이 소모됩니다. [NEWLINE][NEWLINE]해당 타일에 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 성채와 인접하여 턴을 종료하는 모든 적 유닛은 피해를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] 입습니다. (유닛 옆에 성채가 여럿 있어도 이 피해는 한 번만 적용됩니다.)'
+SET Text = '소유 영토 내부 또는 소유하지 않은 국경 타일과 인접한 곳에 건설할 수 있으며 다른 성채와 서로 인접하여 건설할 수 없습니다. 성채를 건설하면 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 성채 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 건설 시 유닛이 소모됩니다. [NEWLINE][NEWLINE]해당 타일에 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 이 타일에 인접하여 턴을 종료하는 모든 적 유닛은 피해를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] 입습니다. (유닛 옆에 시설물이 여럿 있어도 이 피해는 한 번만 적용됩니다.)'
 WHERE Tag = 'TXT_KEY_BUILD_CITADEL_HELP';
 
 -- Landmark

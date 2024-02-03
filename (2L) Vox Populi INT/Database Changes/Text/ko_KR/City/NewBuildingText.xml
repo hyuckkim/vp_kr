@@ -123,7 +123,7 @@
 			<Text>식료품 상점은 송수로를 건설한 도시에만 지을 수 있는 르네상스 시대 건물입니다. 식료품 상점은 도시의 인구 성장을 돕고, 빈곤을 줄이고, 바나나의 산출을 증가시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROCER_HELP">
-			<Text>[ICON_CITIZEN]시민 5명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]를 다음 [ICON_CITIZEN]시민을 위해 사용할 수 있습니다. [COLOR:105:105:105:255](이 효과는 송수로와 중첩됩니다.)[ENDCOLOR] [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>[ICON_CITIZEN]시민 5명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]가 저장됩니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROCER_TEXT">
 			<Text>14세기 초, 식료품점(또는 "조달 회사")은 향신료, 후추, 설탕, 그리고 (나중에) 코코아, 차, 커피와 같은 만족스러운 건조품을 파는 상인이었습니다. 이 품목들은 대량으로 구매되었고, 따라서 도매상을 의미하는 프랑스 "그로시에"에서 식료품점이라는 용어는 중세 라틴어의 "그로사리우스"에서 파생되었으며, 우리는 또한 그로스 (12다스의 수량을 의미하거나 144를 의미)라는 단어를 파생했습니다. 점점 더 많은 수의 주요 식품이 캔과 다른 부패하기 쉬운 포장으로 이용 가능해짐에 따라, 무역은 그 지역을 확장했습니다. 오늘날, 식료품점들은 고기, 농산물, 유제품과 같은 부패하기 쉬운 음식들을 포함한 광범위한 주요 식품들을 취급합니다. 따라서 그러한 상품은 식료품입니다.</Text>
@@ -869,7 +869,7 @@
 			<Text>기사단은 중세부터 십자군 원정을 목적으로 설립된 다양한 기독교 단체 중 하나이며, 성지 또는 이슬람교(예를 들어 레콘키스타 기간 동안) 또는 이교도들 (주로 발트해 지역)에 대항하여 신앙을 전파하거나 방어합니다. 십자군 전쟁이 끝나고 오스만 제국이 침공한 이후 많은 수도회가 세속화되었으며, 현대에 와서는 보통 로마 가톨릭의 의식, 선교 및 자선 단체로 대표됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
-			<Text>이 도시에서 유닛을 생산하면, 유닛의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_PEACE] 신앙을 제공합니다. 유닛을 [ICON_PEACE] 신앙으로 구매하면 유닛을 생산했을 때의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_GOLD] 골드를 제공합니다. 이 도시에서 생산한 유닛이 열의 승급을 얻습니다. [NEWLINE][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 3 증가하고 [ICON_RANGE_STRENGTH] 포격의 공격력이 10% 증가합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>이 도시에서 군사 유닛을 생산하면, 유닛의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_PEACE] 신앙을 제공합니다. 유닛을 [ICON_PEACE] 신앙으로 구매하면 유닛을 생산했을 때의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_GOLD] 골드를 제공합니다. 이 도시에서 생산한 유닛이 열의 승급을 얻습니다. [NEWLINE][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 3 증가하고 [ICON_RANGE_STRENGTH] 포격의 공격력이 10% 증가합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI">
@@ -960,7 +960,7 @@
 			<Text>기록실을 건설해 기술을 연구할 때마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 얻고, 모든 성지를 강화하십시오. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_HELP">
-			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 3개를 포함합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE][ICON_VP_GREATWRITING] 걸작 문학 슬롯 3개를 포함합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_PEDIA">
 			<Text>기록실은 교황청에서 개인적으로 보관하는 서신과 의사록의 모음집이었습니다. 이 컬렉션은 바티칸 비밀 기록 보관소의 시초가 되었습니다.</Text>
