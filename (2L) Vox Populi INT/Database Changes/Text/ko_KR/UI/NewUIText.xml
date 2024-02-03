@@ -130,10 +130,46 @@
 			<Text>외교 보너스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_DIPLOMAT_TOOLTIP">
-			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} 수집한 기밀 정보를 확인하십시오. [COLOR_NEGATIVE_TEXT](아직 구현되지 않음)[ENDCOLOR]</Text>
+			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} 수집한 기밀 정보를 확인하십시오. [COLOR_NEGATIVE_TEXT][ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_DIPLOMAT_TRAVELING_TOOLTIP">
 			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} {3_City}에 도착했으며, 네트워크 포인트를 모으기 시작합니다. 네트워크 포인트는 스파이가 도시에 있는 동안 패시브 보너스를 제공하고, {1_Rank} {2_Spy}{2: plural 1?이; 2?가;} 도시에 머무는 동안 기밀 정보를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_PASSIVE_BONUSES_UNLOCKED_DIPLOMAT">
+			<Text>당신의 외교관이 [COLOR_CYAN]{1_Num} 네트워크 포인트[ENDCOLOR]를 모았습니다. 다음 보너스가 해금됩니다:[NEWLINE][NEWLINE]{2_PassiveBonuses}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VIEW_TECH_SCREEN">
+			<Text>기술 화면 확인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VIEW_TECH_SCREEN_NOT_ENOUGH_NP">
+			<Text>기술 화면을 확인하기 위해 {1_Num} 네트워크 포인트가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_VIEW_POLICY_SCREEN">
+			<Text>정책 화면 확인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_VIEW_POLICY_SCREEN_NOT_ENOUGH_NP">
+			<Text>정책 화면을 확인하기 위해 {1_Num} 네트워크 포인트가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_VIEW_UNIT_LIST">
+			<Text>유닛 목록 확인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_VIEW_UNIT_LIST_NOT_ENOUGH_NP">
+			<Text>군사 유닛의 목록을 확인하기 위해 {1_Num} 네트워크 포인트가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NUMBER_UNITS">
+			<Text>유닛 수</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_UNIT_LIST">
+			<Text>유닛 리스트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_VIEW_TRADE_DEALS">
+			<Text>활성화된 거래 확인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_VIEW_TRADE_DEALS_NOT_ENOUGH_NP">
+			<Text>활성화된 거래를 확인하기 위해 {1_Num} 네트워크 포인트가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_ACTIVE_TRADE_DEALS">
+			<Text>활성화된 거래</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_DIPLOMAT_MODIFIER">
 			<Text>외교관: +{1_Num}%</Text>
