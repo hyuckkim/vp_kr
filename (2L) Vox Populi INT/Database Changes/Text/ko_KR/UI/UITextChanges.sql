@@ -341,16 +341,12 @@ SET Text = '{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} {3_CityName}에서
 WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 스파이 작전을 수행하고 있습니다. 도시 소유주가 해당 도시에 스파이를 가지고 있다면 당신의 스파이가 작전을 수행하다가 발각당하거나 죽을 확률이 높아지므로 주의하십시오!'
+SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 활동 중입니다. 매 턴 스파이 포인트를 수집하며, 스파이 포인트를 모아 패시브 보너스를 얻거나 스파이 미션에 사용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_EO_SPY_GATHERING_INTEL_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 잡담을 하고 있습니다.[NEWLINE][NEWLINE]전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 만약 전쟁이 선포되면 스파이는 도시에서 탈출합니다. 외교관은 스파이 작전을 수행하지 않지만 계속 음모를 제공합니다. 세계 대회가 설립되고 외교관이 잡담을 시작했을 때, 당신은 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다.  외교관은 대상 문명의 [ICON_TOURISM]관광을 대폭 향상하는 선동을 사용할 수 있습니다.'
+SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 잡담을 하고 있습니다. 대상을 향한 [ICON_TOURISM] 관광 산출이 증가합니다.[NEWLINE][NEWLINE]세계대회가 열리면 제안에 대한 의견을 결정할 수 있고 필요한 경우 표를 교환할 수 있습니다. {1_RankName} {2_SpyName}도 매 턴마다 네트워크 포인트를 수집하고 있으며, 축적된 네트워크 포인트를 통해 대상 문명에 대한 추가 정보를 얻을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_SPY_STATE_SCHMOOZING_TT';
-
-UPDATE Language_ko_KR
-SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 연결 고리를 만들고 있습니다. 외교관이 소개를 끝마치면 잡담을 할 수 있습니다.[NEWLINE][NEWLINE]다른 문명의 수도에 스파이를 배치하면 외교관이 될 수 있습니다. 외교관은 스파이 작전을 수행하지 않지만 계속 음모를 제공합니다. 세계 대회가 설립되고 외교관이 잡담을 시작했을 때, 당신은 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다.'
-WHERE Tag = 'TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS_TT';
 
 UPDATE Language_ko_KR
 SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 스파이 색출 임무를 수행하고 있습니다.'

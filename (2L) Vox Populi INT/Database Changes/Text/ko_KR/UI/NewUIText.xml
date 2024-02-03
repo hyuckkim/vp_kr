@@ -135,6 +135,9 @@
 		<Row Tag="TXT_KEY_EO_DIPLOMAT_TRAVELING_TOOLTIP">
 			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} {3_City}에 도착했으며, 네트워크 포인트를 모으기 시작합니다. 네트워크 포인트는 스파이가 도시에 있는 동안 패시브 보너스를 제공하고, {1_Rank} {2_Spy}{2: plural 1?이; 2?가;} 도시에 머무는 동안 기밀 정보를 제공합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_DIPLOMAT_MODIFIER">
+			<Text>외교관: +{1_Num}%</Text>
+		</Row>
 		
 		<!-- City Security -->
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_BASE_TT">
