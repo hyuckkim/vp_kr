@@ -2152,6 +2152,9 @@
 		<Row Tag="TXT_KEY_PLOTROLL_EMBASSY">
 			<Text> ({1_CivName:textkey})</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_EMBASSY_UNMET">
+			<Text>만나지 못한 플레이어</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_ARCHAEOLOGY_QUEST_LONG">
 			<Text>{1_CivName:textkey}의 도시 국가에서 이 타일을 연구하기 위해 당신에게 고고학자를 보내줄 것을 요청합니다.</Text>
 		</Row>

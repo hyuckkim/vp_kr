@@ -37,7 +37,7 @@ SET Text = '외교 임무 수행'
 WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION';
 
 UPDATE Language_ko_KR 
-SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 이 임무를 수행할 수 있는 유닛은 3종류가 있습니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]외교 유닛:[ENDCOLOR] 도시 국가에 대한 [ICON_INFLUENCE]영향력을 증가시킵니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 외교관:[ENDCOLOR] 도시 국가에 대한 대량의 [ICON_INFLUENCE]영향력을 증가시키고 다른 모든 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시킵니다. [NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]위대한 상인:[ENDCOLOR] 대량의 [ICON_GOLD] 골드를 얻고 모든 도시에서 국왕 경축일을 5턴동안 시작합니다. 국왕 경축일은 소유한 소도시마다 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' 
+SET Text = '당신과 전쟁 중이 아닌 도시 국가의 영토에서 이 명령을 통해 대량의 골드를 벌어들이고 모든 도시가 국왕 경축일을 맞이합니다. 이 임무를 수행할 수 있는 유닛은 3종류가 있습니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]외교 유닛:[ENDCOLOR] 도시 국가에 대한 [ICON_INFLUENCE]영향력을 증가시킵니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]위대한 외교관:[ENDCOLOR] 도시 국가에 대한 대량의 [ICON_INFLUENCE]영향력 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 을 증가시키고 다른 모든 문명의 [ICON_INFLUENCE]영향력을 같은 양만큼 감소시킵니다. 이 도시 국가에 대한 [ICON_INFLUENCE] 영향력 정지점이 30으로 증가합니다. [NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]위대한 상인:[ENDCOLOR] 대량의 [ICON_GOLD] 골드를 얻고 모든 도시에서 국왕 경축일을 5턴동안 시작합니다. 국왕 경축일은 소유한 소도시마다 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' 
 WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
 -- Hurry Production

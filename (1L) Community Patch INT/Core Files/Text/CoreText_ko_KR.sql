@@ -103,11 +103,11 @@ WHERE Tag = 'TXT_KEY_EUPANEL_VISIBLE_AA_UNITS';
 
 -- Great Generals I/II Promotions
 UPDATE Language_ko_KR
-SET Text = '전투 시 위대한 장군 출현율 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가'
+SET Text = '전투 시 위대한 장군 출현율 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_SPAWN_GENERALS_I_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '전투 시 위대한 장군 출현율 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가'
+SET Text = '전투 시 위대한 장군 출현율 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP';
 
 -- Naval Melee Units

@@ -61,7 +61,7 @@ SET Text = '{TXT_KEY_BUILDING_NATIONAL_COLLEGE}을 대체하는 아라비아의 
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '아시리아의 고유 유닛입니다. 공성탑이 적 도시에 인접하면 2타일 이내에 있는 다른 아군 유닛의 도시 공격 [ICON_STRENGTH]보너스가 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가하고, 2타일 이내에 인접하면 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. [COLOR_PLAYER_PURPLE]의무병[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]의무병 II[ENDCOLOR] 승급을 보유하고 시작합니다. [COLOR_NEGATIVE_TEXT]스스로 공격하거나 방어할 수 없습니다.[ENDCOLOR][NEWLINE][NEWLINE]한 번에 [COLOR_YELLOW]2기[ENDCOLOR]만 보유할 수 있습니다.'
+SET Text = '아시리아의 고유 유닛입니다. 공성탑이 적 도시에 인접하면 2타일 이내에 있는 다른 아군 유닛의 도시 공격 [ICON_STRENGTH]보너스가 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가하고, 2타일 이내에 인접하면 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_MEDIC}[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_MEDIC_II}[ENDCOLOR] 승급을 보유하고 시작합니다. [COLOR_NEGATIVE_TEXT]스스로 공격하거나 방어할 수 없습니다.[ENDCOLOR][NEWLINE][NEWLINE]한 번에 [COLOR_YELLOW]2기[ENDCOLOR]만 보유할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER';
 
 UPDATE Language_ko_KR
@@ -968,11 +968,11 @@ SET Text = '스페인어로 진흙 벽돌을 뜻하는 어도비는 모래, 점�
 WHERE Tag = 'TXT_KEY_CIV5_BUILDING_MUD_PYRAMID_MOSQUE_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_KNIGHT}를 대체하는 송가이의 고유 유닛입니다. 도시 공격과 측면 공격에 특화되어 있습니다. 도시 공격 [ICON_STRENGTH] 페널티가 없으며 [ICON_GOLD] 도시 공격 시 골드를 훔칩니다. 적 도로를 이용할 수 있습니다.'
+SET Text = '{TXT_KEY_UNIT_KNIGHT}를 대체하는 송가이의 고유 유닛입니다. 도시 공격과 측면 공격에 특화되어 있습니다. 도시 공격 [ICON_STRENGTH] 페널티가 없으며 [ICON_GOLD] 도시 공격 시 골드를 훔칩니다. 적의 도로와 철도를 이용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY}은 {TXT_KEY_UNIT_KNIGHT}를 대체하는 송가이의 고유 유닛입니다. 적 도로를 이용할 수 있고 유닛을 포위할 때 눈에 띄는 보너스를 얻습니다. {TXT_KEY_UNIT_KNIGHT}와 달리 도시 공격 시 [ICON_STRENGTH] 전투력 패널티가 없습니다. 도시를 공격할 때 도시에 준 피해에 비례해 [ICON_GOLD]  골드를 훔칩니다.'
+SET Text = '{TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY}은 {TXT_KEY_UNIT_KNIGHT}를 대체하는 송가이의 고유 유닛입니다. 적 도로/철도를 이용할 수 있고 유닛을 포위할 때 눈에 띄는 보너스를 얻습니다. {TXT_KEY_UNIT_KNIGHT}와 달리 도시 공격 시 [ICON_STRENGTH] 전투력 패널티가 없습니다. 도시를 공격할 때 도시에 준 피해에 비례해 [ICON_GOLD]  골드를 훔칩니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY';
 
 --------------------

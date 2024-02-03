@@ -606,7 +606,7 @@ WHERE Tag = 'TXT_KEY_WONDER_HAGIA_SOPHIA_HELP';
 
 -- Kremlin
 UPDATE Language_ko_KR
-SET Text = '[COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. 이 도시에서 기갑 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 제공합니다. [COLOR_MAGENTA]무료 사회 정책[ENDCOLOR] 1개를 제공합니다. [ICON_PRODUCTION]/[ICON_FOOD]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
+SET Text = '[COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. 이 도시에서 [COLOR_POSITIVE_TEXT]기갑[ENDCOLOR] 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 제공합니다. [COLOR_MAGENTA]무료 사회 정책[ENDCOLOR] 1개를 제공합니다. [ICON_PRODUCTION]/[ICON_FOOD]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_WONDER_KREMLIN_HELP';
 
 -- Borobudur
