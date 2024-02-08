@@ -1054,6 +1054,12 @@
 		<Row Tag="TXT_KEY_VP_RESTING_INFLUENCE">
 			<Text> [ICON_INFLUENCE] 영향력 정지점</Text>
 		</Row>
+		<Row Tag="TXT_KEY_UNIT_DELETE_DISABLED_GAME_OPTION">
+			<Text>유닛 삭제가 게임 옵션에 의해 비활성화되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DELETE_DISABLED_ENEMIES">
+			<Text>적이 근처에 있다면 유닛을 삭제할 수 없습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_PLAYER_UNITCLASS_LIMIT">
 			<Text>플레이어 당 {1_Num}개만 가능합니다.</Text>
 		</Row>
