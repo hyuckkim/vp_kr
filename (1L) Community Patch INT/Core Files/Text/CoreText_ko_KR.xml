@@ -8155,5 +8155,66 @@
 		<Row Tag="TXT_KEY_CHOOSE_CITY_CAPTURE_TT">
 			<Text>{1_City}의 운명을 결정하십시오...</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED">
+			<Text>당신은 {1_TeamName} 지도자와 평화 협정을 맺었습니다! 서로의 모든 동맹과 종속국 또한 평화 협정을 맺었습니다. {2_OurAllies} {3_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_MINOR_DETAILED">
+			<Text>당신은 {1_TeamName} 지도자와 평화 협정을 맺었습니다! 당신의 모든 동맹과 종속국 또한 평화 협정을 맺었습니다. {2_OurAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_MADE_PEACE_DETAILED">
+			<Text>{1_PlyrName} 지도자가 {2_PlyrName} 지도자와 평화 협정을 맺었습니다! 서로의 모든 동맹과 종속국 또한 평화 협정을 맺었습니다. {3_FirstPlayerAllies} {4_SecondPlayerAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_MADE_PEACE_MINOR_DETAILED">
+			<Text>{1_PlyrName} 지도자가 {2_PlyrName} 지도자와 평화 협정을 맺었습니다! {1_PlyrName}의 모든 동맹과 종속국 또한 평화 협정을 맺었습니다. {3_FirstPlayerAllies}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_MISC_YOU_DECLARED_WAR_ON_DETAILED">
+			<Text>{1_TeamName}에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다! 서로의 모든 동맹과 종속국 또한 전쟁에 돌입합니다. {2_OurAllies} {3_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_DECLARED_WAR_ON_DEFENSIVE_PACT_DETAILED">
+			<Text>방위 조약에 의해, {2_PlyrName} 지도자가 {1_DefensivePactTeam}의 당신을 향한 전쟁에 참여합니다! 서로의 모든 동맹과 종속국 또한 전쟁에 돌입합니다. {3_OurAllies} {4_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_DECLARED_WAR_ON_MINOR_DETAILED">
+			<Text>{1_TeamName}에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다! 당신의 모든 동맹과 종속국 또한 전쟁에 돌입합니다. {2_OurAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DECLARED_WAR_ON_YOU_DETAILED">
+			<Text>{1_PlyrName} 지도자가 당신에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다! 서로의 모든 동맹과 종속국 또한 전쟁에 돌입합니다. {2_OurAllies} {3_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DECLARED_WAR_ON_YOU_DEFENSIVE_PACT_DETAILED">
+			<Text>방위 조약에 의해, 당신은 {1_DefensivePactTeam}의 {2_TeamName}{2: plural 1?을; 2?를;} 향한 전쟁에 참여합니다! 서로의 모든 동맹과 종속국 또한 전쟁에 돌입합니다. {3_OurAllies} {4_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_MINOR_DECLARED_WAR_ON_YOU_DETAILED">
+			<Text>{1_PlyrName} 지도자가 당신에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다! 당신의 모든 동맹과 종속국 또한 {1_PlyrName}{1: plural 1?과; 2?와;} 전쟁에 돌입합니다. {2_OurAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_DECLARED_WAR_DETAILED">
+			<Text>{1_PlyrName} 지도자가 {2_PlyrName}에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다! 서로의 모든 동맹과 종속국 또한 전쟁에 돌입합니다. {3_FirstPlayerAllies} {4_SecondPlayerAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_DECLARED_WAR_DEFENSIVE_PACT_DETAILED">
+			<Text>방위 조약에 의해, {3_PlyrName}는 {1_DefensivePactTeam}의 {2_PlyrName}{2: plural 1?을; 2?를;} 향한 전쟁에 참여합니다! 서로의 모든 동맹과 종속국 또한 전쟁에 돌입합니다. {4_FirstPlayerAllies} {5_SecondPlayerAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_DECLARED_WAR_DEFENSIVE_PACT_WITH_YOU_DETAILED">
+			<Text>방위 조약에 의해, {2_PlyrName}는 당신의 {1_PlyrName}{1: plural 1?을; 2?를;} 향한 전쟁에 참여합니다! 서로의 모든 동맹과 종속국 또한 전쟁에 돌입합니다. {3_FirstPlayerAllies} {4_SecondPlayerAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_DECLARED_WAR_MINOR_DETAILED">
+			<Text>{1_PlyrName} 지도자가 {2_PlyrName}에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다! {1_PlyrName}의 모든 동맹과 종속국 또한 {2_PlayerName}{2: plural 1?과; 2?와;} 전쟁에 돌입합니다. {3_FirstPlayerAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOME_MINOR_DECLARED_WAR_DETAILED">
+			<Text>{1_PlyrName} 지도자가 {2_PlyrName}{2: plural 1?과; 2?와;} 그들의 모든 동맹 및 종속국에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다! {3_SecondPlayerAllies}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_YOUR_ALLIES">
+			<Text>[NEWLINE][NEWLINE]당신의 모든 동맹과 종속국: {1_Str}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OTHER_PLAYER_ALLIES">
+			<Text>[NEWLINE][NEWLINE]{1_Civ}의 모든 동맹과 종속국: {2_Str}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_PEACE_WITH_MINOR_POSSIBLE">
+			<Text>{1_Civ}는 더 이상 당신과 전쟁 중인 문명의 동맹이 아닙니다. {1_Civ}{1: plural 1?과; 2?와;} 평화 협정을 진행할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PEACE_WITH_MINOR_POSSIBLE_S">
+			<Text>{1_Civ}{1: plural 1?과; 2?와;} 평화 협정 가능</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>
