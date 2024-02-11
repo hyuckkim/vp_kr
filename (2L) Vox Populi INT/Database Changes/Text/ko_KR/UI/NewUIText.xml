@@ -1877,6 +1877,9 @@
 		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_CRIPPLED">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR]피로도:[ENDCOLOR] 그들은 완전히 녹초가 되었습니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_WAR_WEARINESS_US_PERCENT">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 전쟁 피로도: {1_Num}%, {2_Num}턴 지남[ENDCOLOR]</Text>
+		</Row>
 
 		<!-- Discussion/Dialogue options -->
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_TT">
