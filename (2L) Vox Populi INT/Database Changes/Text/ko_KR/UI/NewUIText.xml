@@ -1283,6 +1283,13 @@
 		<Row Tag="TXT_KEY_CITY_MINED">
 			<Text>적 해군 유닛과 승선한 유닛이 이 도시의 해양 영토에 진입할 때 [ICON_MOVEMENT]모든 이동력을 잃습니다. 이 도시의 해양 타일에서 턴을 마치는 유닛은 [COLOR_NEGATIVE_TEXT]5의 피해[ENDCOLOR]를 입습니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_HAS_OBSTACLE">
+			<Text>적 지상 유닛이 이 도시의 영토에 진입할 때 모든 [ICON_MOVES] 이동력을 소모합니다.</Text>
+		</Row>
+		<!-- water not used atm -->
+		<Row Tag="TXT_KEY_CITY_HAS_OBSTACLE_WATER">
+			<Text>적 해양 유닛이 이 도시의 영토에 진입할 때 모든 [ICON_MOVES] 이동력을 소모합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
 			<Text>이 도시에서 [COLOR_POSITIVE_TEXT]공중 강하[ENDCOLOR]를 할 수 있습니다. 도시의 공중 유닛 한도가 증가합니다. 도시의 폭격 대항 [ICON_STRENGTH] 피해량이 +10 증가합니다.</Text>
 		</Row>
