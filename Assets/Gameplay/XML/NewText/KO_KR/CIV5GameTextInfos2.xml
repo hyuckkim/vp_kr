@@ -1547,7 +1547,7 @@
             <Text>{@2_CityName}{@2: plural 1?이; 2?가;} 당신의 {@1_UnitName}(-{3_Num}){@1: plural 1?을; 2?를;} 공격했습니다!</Text>
         </Row>
         <Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR">
-            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Damage}){@2: plural 1?을; 2?를;} 공격했습니다!)</Text>
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Damage}){@2: plural 1?을; 2?를;} 공격했습니다!</Text>
         </Row>
         <Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_AND_DEATH">
             <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}{@2: plural 1?을; 2?를;} 전멸시켰습니다!</Text>

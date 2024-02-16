@@ -319,7 +319,7 @@
 			<Text>{@2_CivName}의 {1_UnitName}에 대한 갈망</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIFT_SPECIFIC_UNIT">
-			<Text>{@2_CivName}의 지도자들이 군대를 강화하고자 합니다. {1_UnitName}이 그들을 제국의 웅장함으로 구속하고, 그것으로 이 도시 국가의 호의를 얻을 수 있을 것입니다.</Text>
+			<Text>{@3_CivName}의 지도자들이 군대를 강화하고자 합니다. {2_XP} 경험치 이상의 {1_UnitName}{@1: plural 1?을; 2?를;} 보낸다면 그들에게 제국의 위엄을 보이고, 이 도시 국가의 호의를 얻을 수 있을 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GIFT_SPECIFIC_UNIT">
 			<Text>{1_UnitName}을 {@2_CivName}에 보냈습니다!</Text>

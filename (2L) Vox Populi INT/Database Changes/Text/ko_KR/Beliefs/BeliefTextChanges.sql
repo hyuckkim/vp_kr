@@ -500,7 +500,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS';
 
 -- Sacred Sites
 UPDATE Language_ko_KR
-SET Text = '호텔 및 [ICON_PEACE] 신앙으로 구매하는 모든 건물의 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 세계 불가사의 및 자연 경관의 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 에르미타슈 박물관의 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.'
+SET Text = '호텔 및 [ICON_PEACE] 신앙으로 구매하는 모든 건물의 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 세계 불가사의 및 자연 경관의 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 왕실 컬렉션의 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_SITES';
 
 -- To the Glory of God

@@ -1331,7 +1331,7 @@
 			<Text>[ICON_PEACE] 종교 유물 빼내기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_HELP">
-			<Text>목표 도시의 턴 당 [ICON_PEACE] 신앙의 50%를 훔칩니다. 목표 도시의 종교 압력이 -50% 감소합니다. {5_Duration}턴간 지속됩니다.</Text>
+			<Text>목표 도시의 턴 당 [ICON_PEACE] 신앙의 50%를 훔칩니다. 목표 도시의 종교 압력이 -50% 감소합니다. {5_Duration}간 지속됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_EFFECT">
 			<Text>각 턴마다, 50%의 신앙을 [ICON_PEACE] 훔쳤습니다. 도시의 종교 압력이 50% 감소했습니다. {5_DurationText}</Text>
@@ -1350,7 +1350,7 @@
 			<Text>전문가 송환</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_HELP">
-			<Text>수도의 전문가의 [ICON_GREAT_PEOPLE] 위인 점수 +1.{4_Duration}턴간 지속됩니다.</Text>
+			<Text>수도 전문가의 [ICON_GREAT_PEOPLE] 위인 점수가 +1 증가합니다. {4_Duration}간 지속됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_PARENT">
 			<Text>전문가 송환</Text>
@@ -1369,7 +1369,7 @@
 			<Text>국고에서 {3_Num} [ICON_GOLD] 골드를 훔쳐냈습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_STEAL_TREASURY_AMOUNT">
-			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]훔친 양:[ENDCOLOR] {1_Num} [ICON_GOLD] 골드</Text>
+			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]훔칠 양:[ENDCOLOR] {1_Num} [ICON_GOLD] 골드</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH">

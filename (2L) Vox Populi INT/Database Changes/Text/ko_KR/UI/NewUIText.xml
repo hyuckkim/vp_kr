@@ -402,7 +402,7 @@
 		</Row>
 		<!-- CV progress screen -->
 		<Row Tag="TXT_KEY_CO_TAB_PLAYER_INFLUENCE2">
-			<Text>영향력을 받는 플레이어</Text>
+			<Text>플레이어가 받는 영향력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
 	         	<Text>{1_NumTurns}% 제국 크기 차이에서 ({2_NumCity} 도시 차이)[NEWLINE]</Text>
@@ -1233,7 +1233,7 @@
 			<Text>해당 자원을 교역로에 연결하면 "카니발"이 시작됩니다. 이는 도시의 [ICON_FOOD]성장률을 증가시키고 [ICON_HAPPINESS_3]불행이 감소시킵니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_SAPPED">
-			<Text>도시가 [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 [ICON_VP_SAPPED] 붕괴되었습니다. [ICON_BLOCKADED] 봉쇄와 같은 효과를 내지만, 적 유닛으로 포위되지 않아도 유지됩니다.</Text>
+			<Text>적의 스파이 작전에 의해, 도시가 [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 [ICON_VP_SAPPED] 붕괴되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_MINED">
 			<Text>적 해군 유닛과 승선한 유닛이 이 도시의 해양 영토에 진입할 때 [ICON_MOVEMENT]모든 이동력을 잃습니다. 이 도시의 해양 타일에서 턴을 마치는 유닛은 [COLOR_NEGATIVE_TEXT]5의 피해[ENDCOLOR]를 입습니다.</Text>
@@ -1770,7 +1770,7 @@
 			<Text> 당신이 {1_CivName}{1: plural 1?을; 2?를;} 종속국으로 두었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_VASSALIZE_OTHER_PLAYER">
-			<Text> {1_PlayerName}{1: plural 1?이; 2?가;} {2_CivName}{1: plural 1?을; 2?를;} 종속국으로 두었습니다.</Text>
+			<Text> {1_PlayerName}{1:plural 1?이; 2?가;} {2_CivName}{1: plural 1?을; 2?를;} 종속국으로 두었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VP_DIPLO_TT_UNMET_PLAYER_VASSALIZE_UNMET_PLAYER">
 			<Text> 만나지 못한 플레이어가 다른 만나지 못한 플레이어를 종속국으로 두었습니다.</Text>
@@ -1788,16 +1788,16 @@
 			<Text>만나지 못한 플레이어가 {1_num}개의 [ICON_CAPITAL] 수도/종속국을 지배합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_ALLY">
-			<Text>도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}개를 지배합니다. 이는 그들의 동맹에 기여됩니다. 그들간의 동맹을 깨거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]</Text>
+			<Text>도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}{2: plural 1?을; 2?를;} 지배합니다. 이는 그들의 동맹에 기여됩니다. 그들간의 동맹을 깨거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_VASSAL_ALLY">
-			<Text>도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}개를 지배합니다. 이는 그들의 동맹의 종주국에 기여됩니다. 그들간의 동맹을 깨거나 동맹 국가를 해방하거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]</Text>
+			<Text>도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}{2: plural 1?을; 2?를;} 지배합니다. 이는 그들의 동맹의 종주국에 기여됩니다. 그들간의 동맹을 깨거나 동맹 국가를 해방하거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VP_DIPLO_TT_MINOR_PLAYER_CONTROLS_CAPITAL_NO_ALLY">
-			<Text>도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}개를 지배합니다. 그들은 동맹이 없습니다. 그들과 동맹이 되거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]</Text>
+			<Text>도시 국가 {1_Name}{1: plural 1?이; 2?가;} {2_Num}{2: plural 1?을; 2?를;} 지배합니다. 그들은 동맹이 없습니다. 그들과 동맹이 되거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VP_DIPLO_TT_MINOR_VASSAL_CONTROLS_CAPITAL">
-			<Text>{1_Name}{1: plural 1?이; 2?가;} {2_Num}개를 지배합니다. 이는 그들의 종주국에 기여합니다. 그들을 해방하거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]</Text>
+			<Text>{1_Name}{1: plural 1?이; 2?가;} {2_Num}{2: plural 1?을; 2?를;} 지배합니다. 이는 그들의 종주국에 기여합니다. 그들을 해방하거나 그들에게서 [ICON_CAPITAL]수도를 차지하십시오![NEWLINE][NEWLINE]</Text>
 		</Row>
 
 		<!-- Policy tree -->
@@ -3054,6 +3054,9 @@
 		<Row Tag="TXT_KEY_NEED_ANY_IDEOLOGY">
 			<Text>[NEWLINE] [ICON_BULLET] 이념이 있어야 합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOT_ENOUGH_GOLD">
+			<Text>[NEWLINE] [ICON_BULLET] 국고에 충분한 골드가 없습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NEED_SPECIFIC_RELIGION">
 			<Text>[NEWLINE] [ICON_BULLET] {1_Desc}{1_Desc: plural 1?을; 2?를;} 채택해야 합니다.</Text>
 		</Row>
@@ -3065,6 +3068,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_NEED_HOLY_CITY_SPECIFIC_LOCAL">
 			<Text>[NEWLINE] [ICON_BULLET] {1_Desc}{1_Desc: plural 1?이; 2?가;} 성도여야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_PRODUCTION_NO_PROCESS">
+			<Text>[NEWLINE] [ICON_BULLET] 도시가 산출량 전환을 하고 있지 않아야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_PRODUCE_SOMETHING">
+			<Text>[NEWLINE] [ICON_BULLET] 도시가 무언가를 생산 중이어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_RESOURCE_IMPROVEMENT">
+			<Text>[NEWLINE] [ICON_BULLET] 도시가 개발된 타일을 소유해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_NO_PLAYER_MAJORITY_RELIGION">
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 당신의 대중 종교를 따르지 않아야 합니다.</Text>
@@ -3156,14 +3168,29 @@
 		<Row Tag="TXT_KEY_EVENT_ONESHOT">
 			<Text>[NEWLINE] [ICON_BULLET] 게임 중 한 번만 선택할 수 있습니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_BLOCKED_BY_COUNTERSPY">
+			<Text>[NEWLINE] [ICON_BULLET] 적의 역스파이에 의해 차단되었습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_EVENT_ACTIVE">
 			<Text>[NEWLINE] [ICON_BULLET] 이미 적용 중입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_ACTIVE">
+			<Text>[NEWLINE] [ICON_BULLET] 작전이 최근에 수행되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_ACTIVE_RELATED">
+			<Text>[NEWLINE] [ICON_BULLET] 관련 선택이 이미 활성화되어 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_ACTIVE_RELATED">
+			<Text>[NEWLINE] [ICON_BULLET] 관련 작전이 최근에 수행되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT">
 			<Text>[NEWLINE] [ICON_BULLET] 적용 중이지 않은 도시 이벤트가 있어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT_CHOICE">
 			<Text>[NEWLINE] [ICON_BULLET] 적용 중이지 않은 도시 이벤트 선택지가 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_RECENT_SPY_MISSION">
+			<Text>[NEWLINE] [ICON_BULLET] 스파이가 최근에 작전을 수행했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_NO_ACTIVE_CITY_EVENT">
 			<Text>[NEWLINE] [ICON_BULLET] 적용 중인 도시 이벤트는 불가능합니다.</Text>

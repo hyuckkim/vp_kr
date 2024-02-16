@@ -54,7 +54,7 @@ WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 
 -- Archaeologist
 UPDATE Language_ko_KR
-SET Text = '한 번에 최대 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]의 고고학자를 활성할 수 있습니다. 고고학자는 유물을 발굴할 수 있는 특별한 노동자로, 랜드마크 시설을 건설하거나 [ICON_VP_ARTIFACT] 유물을 발굴해 박물관, 궁전, 에르미타슈 박물관, 특정 불가사의의 [ICON_GREAT_WORK] 걸작 슬롯을 채울 수 있습니다. 고고학자는 어떤 문명의 영토에서도 유물을 발굴 할 수 있습니다. 사적지에서 고고학 발굴을 완료하면 고고학자는 소모됩니다. [COLOR_NEGATIVE_TEXT][ICON_GOLD]골드로 구매할 수 없으며[ENDCOLOR] [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_MUSEUM}[ENDCOLOR]가 있는 도시에서만 생산할 수 있습니다.'
+SET Text = '한 번에 최대 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]의 고고학자를 활성할 수 있습니다. 고고학자는 유물을 발굴할 수 있는 특별한 노동자로, 랜드마크 시설을 건설하거나 [ICON_VP_ARTIFACT] 유물을 발굴해 박물관, 궁전, 왕실 컬렉션, 특정 불가사의의 [ICON_GREAT_WORK] 걸작 슬롯을 채울 수 있습니다. 고고학자는 어떤 문명의 영토에서도 유물을 발굴 할 수 있습니다. 사적지에서 고고학 발굴을 완료하면 고고학자는 소모됩니다. [COLOR_NEGATIVE_TEXT][ICON_GOLD]골드로 구매할 수 없으며[ENDCOLOR] [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_MUSEUM}[ENDCOLOR]가 있는 도시에서만 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHAEOLOGIST';
 
 -- Guided Missile
