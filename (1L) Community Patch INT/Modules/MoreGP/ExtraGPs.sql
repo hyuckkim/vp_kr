@@ -552,7 +552,7 @@ VALUES
 	('TXT_KEY_GREAT_WORK_AW_620', 'A Bigger Splash'),
 	('TXT_KEY_GREAT_WORK_AW_630', 'Vega 200'),
 	('TXT_KEY_GREAT_WORK_AW_640', 'Thunderbird'),
-	('TXT_KEY_GREAT_WORK_AW_650', 'Quamrul Hassan'),
+	('TXT_KEY_GREAT_WORK_AW_650', 'Uki'),
 	('TXT_KEY_GREAT_WORK_AW_660', 'Untitled'),
 	('TXT_KEY_GREAT_WORK_AW_670', 'Patatt ranting'),
 	('TXT_KEY_GREAT_WORK_AW_680', 'Still life with crystal bowl'),
