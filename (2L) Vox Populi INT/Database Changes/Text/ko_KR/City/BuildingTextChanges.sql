@@ -439,11 +439,11 @@ SET Text = '철학은 현실, 존재, 지식, 가치, 이성, 마음, 언어와 
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = '왕실 소장품'
+SET Text = '왕실 컬렉션'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE';
 
 UPDATE Language_ko_KR
-SET Text = '미술 작품의 가장 큰 개인 컬렉션은 역사적으로 왕족에게 귀속되었으며, 왕족은 명성을 행사하기 위해 예술 작품을 구입하고 후원합니다. 세계에서 가장 큰 예술 컬렉션 중 다수는 여러 세대에 걸쳐 전해진 군주의 개인 컬렉션에서 시작되었습니다. 더 강력한 국가적 정체성에 대한 대중의 압력과 대중의 요구에 부응하여 많은 왕실 소장품(및 종종 이를 소장하고 있는 개인 주택)이 해당 정부에 의해 국유화되어 현대의 주립 갤러리와 국립 미술관을 형성했습니다.'
+SET Text = '미술 작품의 가장 큰 개인 컬렉션은 역사적으로 왕족에게 귀속되었으며, 왕족은 명성을 행사하기 위해 예술 작품을 구입하고 후원합니다. 세계에서 가장 큰 예술 컬렉션 중 다수는 여러 세대에 걸쳐 전해진 군주의 개인 컬렉션에서 시작되었습니다. 더 강력한 국가적 정체성에 대한 대중의 압력과 대중의 요구에 부응하여 많은 왕실 컬렉션(및 종종 이를 소장하고 있는 개인 주택)이 해당 정부에 의해 국유화되어 현대의 주립 갤러리와 국립 미술관을 형성했습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_PEDIA';
 
 UPDATE Language_ko_KR
@@ -451,7 +451,7 @@ SET Text = '[ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화가 [COLOR_POSIT
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '이 국가 불가사의는 도시의  [ICON_CITIZEN] 시민 4명마다 +1 문화를 제공하고, 도시의 [ICON_CULTURE] 문화를 +10% 증가시킵니다. 왕실 소장품을 건설하려면 도시에 갤러리가 있어야 합니다.'
+SET Text = '이 국가 불가사의는 도시의  [ICON_CITIZEN] 시민 4명마다 +1 문화를 제공하고, 도시의 [ICON_CULTURE] 문화를 +10% 증가시킵니다. 왕실 컬렉션을 건설하려면 도시에 갤러리가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_STRATEGY';
 
 -- Heroic Epic
@@ -636,12 +636,12 @@ WHERE Tag = 'TXT_KEY_WONDER_GLOBE_THEATER_HELP';
 
 -- Uffizi
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_ARTIST][COLOR_YELLOW]위대한 예술가[ENDCOLOR]가 1명 출현하고 도시에 [COLOR_POSITIVE_TEXT]무료[ENCOLOR] 갤러리를 제공합니다. 모든 도시의 [ICON_GREAT_WORK]걸작에서 오는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_CULTURE]문화 +10[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
+SET Text = '[ICON_GREAT_ARTIST][COLOR_YELLOW]위대한 예술가[ENDCOLOR]가 1명 출현하고 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 갤러리를 제공합니다. 모든 도시의 [ICON_GREAT_WORK]걸작에서 오는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_CULTURE]문화 +10[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_WONDER_UFFIZI_HELP';
 
 -- Taj Mahal
 UPDATE Language_ko_KR
-SET Text = '무료 [COLOR_POSITIVE_TEXT]테오칼리[ENDCOLOR]를 제공합니다. [ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 모든 도시의 [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
+SET Text = '이 불가사의가 완성되면 제국이 즉시 [ICON_GOLDEN_AGE]황금기를 맞이합니다. [ICON_CITIZEN]시민 2명마다 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 이 불가사의가 지어진 도시에 존재하는 [ICON_RELIGION]종교 1개마다 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_WONDER_TAJ_MAHAL_HELP';
 
 -- Chichen Itza

@@ -821,10 +821,10 @@
       <Text>개혁</Text>
     </Row>
     <Row Tag="TXT_KEY_SPY_BONUS_CITY_STATE">
-      <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]이 도시 국가는 강력한 문화적 영향을 받고 있는 문명과 동맹 관계이기 때문에, 스파이의 등급이 {1_SpyBonus} {1_SpyBonus: plural 1?Rank; other?Ranks;} 상승합니다.[ENDCOLOR]</Text>
+      <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]이 도시 국가는 강력한 문화적 영향을 받고 있는 문명과 동맹 관계이기 때문에, 스파이의 등급이 {1_SpyBonus}단계 상승합니다.[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_SPY_BONUS_MAJOR_CIV">
-      <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]이 문명은 강력한 문화적 영향을 받고 있기 때문에, 스파이의 등급이 {1_SpyBonus} {1_SpyBonus: plural 1?Rank; other?Ranks;} 상승합니다.[ENDCOLOR]</Text>
+      <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]이 문명은 강력한 문화적 영향을 받고 있기 때문에, 스파이의 등급이 {1_SpyBonus}단계 상승합니다.[ENDCOLOR]</Text>
     </Row>
     <Row Tag="TXT_KEY_SWAP_ART_HEADER">
       <Text>예술</Text>
