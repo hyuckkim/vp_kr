@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_ko_KR>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCTING_WONDER_ANY_CITY">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_PlayerName}{3: plural 1?이; 2?가;} 도시 중 하나에서 {4_WonderOrProject}{4: plural 1?을; 2?를;} 건설하고 있다고 보고했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCTING_WONDER_ANY_CITY_S">
+			<Text>{1_PlayerName}의 {2_WonderOrProject} 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BOUGHT_VOTES">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_PlayerName}{3: plural 1?이; 2?가;} {4_PlayerName}에게 다음 세계 의회의 표를 구매했다고 보고했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BOUGHT_VOTES_S">
+			<Text>{1_CivName}{2: plural 1?이; 2?가;} {2_CivName}에게 표 구매</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SOLD_VOTES">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_PlayerName}{3: plural 1?이; 2?가;} {4_PlayerName}에게 다음 세계 의회의 표를 판매했다고 보고했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SOLD_VOTES_S">
+			<Text>{1_CivName}{2: plural 1?이; 2?가;} {2_CivName}에게 표 판매.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD_LATE">
 			<Text>이제 {1_CityName:textkey}에서 {2_ResourceName:textkey}{2: plural 1?을; 2?를;} 사용할 수 있습니다. 이 도시에서 산업 시대 이전 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR] 제공합니다!</Text>
 		</Row>
