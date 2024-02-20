@@ -15,7 +15,7 @@ WHERE Tag = 'TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY';
 
 -- Great Musician
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가는 [ICON_VP_GREATMUSIC] [COLOR_POSITIVE_TEXT]걸작 음악[ENDCOLOR]([ICON_CULTURE]문화 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 음악은 빈 슬롯이 있는 적절한 건물(오페라 극장, 방송탑 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 음악가는 다른 문명으로 건너가 [COLOR_POSITIVE_TEXT]순회 공연[ENDCOLOR]을 열 수 있습니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안, 소유한 [ICON_VP_GREATMUSIC]걸작 음악 1개마다 1턴씩 더 100% 증가하고 [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 2 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 음악가는 사라집니다. 해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 공연을 열 수 없습니다.'
+SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가는 [ICON_VP_GREATMUSIC] [COLOR_POSITIVE_TEXT]걸작 음악[ENDCOLOR]([ICON_CULTURE]문화 [ICON_TOURISM]관광 제공)을 만들 수 있습니다. 걸작 음악은 빈 슬롯이 있는 적절한 건물(오페라 극장, 방송탑 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 음악가는 다른 문명으로 건너가 [COLOR_POSITIVE_TEXT]순회 공연[ENDCOLOR]을 열 수 있습니다. 순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안, 소유한 [ICON_VP_GREATMUSIC]걸작 음악 1개마다 1턴씩 더 100% 증가하고 [ICON_CAPITAL]모든 도시의 [ICON_HAPPINESS_1]행복이 1 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 음악가는 사라집니다. 해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 공연을 열 수 없습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY';
 
 -- Great Scientist

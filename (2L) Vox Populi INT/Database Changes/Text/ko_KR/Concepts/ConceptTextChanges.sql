@@ -62,7 +62,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 음악가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 극장 또는 방송탑)이 있는 가장 가까운 도시에 [ICON_VP_GREATMUSIC] 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 10턴 동안 100% 증가시킵니다. (보유한 [ICON_VP_GREATMUSIC] 걸작 음악마다 1턴 추가) 또한 수도에서 2 [ICON_HAPPINESS_1] 행복을 얻습니다. 대상 문명과 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 극장 또는 방송탑)이 있는 가장 가까운 도시에 [ICON_VP_GREATMUSIC] 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 10턴 동안 100% 증가시킵니다. (보유한 [ICON_VP_GREATMUSIC] 걸작 음악마다 1턴 추가) 또한 모든 도시에서 [ICON_HAPPINESS_1] 행복을 1 얻습니다. 대상 문명과 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_BODY';
 
 UPDATE Language_ko_KR
