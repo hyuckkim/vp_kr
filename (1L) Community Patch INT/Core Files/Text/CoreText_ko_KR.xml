@@ -7328,30 +7328,59 @@
 		<Row Tag="TXT_KEY_POP_CSTATE_PTP_ANY_CORRECT">
 			<Text>[ENDCOLOR][NEWLINE][NEWLINE]다음 세 가지 [ICON_CHECKBOX] 조건 중 한 가지 이상이 충족되어야 합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_INFLUENCE">
-			<Text>당신을 향한 {1_CSName}의 분노 때문에, 당신의 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 의미있게 여기지 않습니다. 결과적으로 당신의 {1_CSName}을 향한 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED">
+			<Text>
+			Your military status in the world and/or alliance and/or trade connection to {1_CSName} has been restored, thus your [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] to {1_CSName} is once again secure.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT">
+			<Text>안전해진 보호 선언</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_INFLUENCE">
 			<Text>{1_CSName}과의 보호 선언이 무효화되었습니다!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_OPTIONAL">
-			<Text>심사숙고 끝에 {1_CSName}{1: plural 1?은; 2?는;} 당신의 먼 위치 때문에 당신이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 이행하는 데 무리가 있을 것이라 생각하여 당신의 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_OPTIONAL">
-			<Text>{1_CSName}과의 보호 선언이 무효화되었습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_OPTIONAL">
-			<Text>당신의 군사 보좌관은 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 거리 상의 이유로 취소될 수 있다고 경고합니다. 이 선언을 이행하기 위해서는 당신의 문명이 그들과 동맹을 맺거나 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 내에 그들과 교역할 수 있는 범위 안에 들어야 합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT_OPTIONAL">
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT">
 			<Text>보호 선언 경고</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_OPTIONAL">
-			<Text>{2_Num}턴 내에 {1_CSName}{1: plural 1?과; 2?와;} 동맹을 맺거나 그들과 교역할 수 있는 범위 안에 들지 못하면 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 무효화될 것입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT_OPTIONAL">
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT">
 			<Text>위태로운 보호 선언</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_INFLUENCE">
+			<Text>당신을 향한 {1_CSName}의 분노 때문에, 당신의 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 의미있게 여기지 않습니다. 결과적으로 당신의 {1_CSName}을 향한 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_MILITARY_AND_DISTANCE">
+			<Text>심사숙고 끝에 {1_CSName}{1: plural 1?은; 2?는;} 당신의 먼 위치 및 군사력 때문에 당신이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 이행하는 데 무리가 있을 것이라 생각하여 당신의 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_MILITARY_AND_DISTANCE">
+			<Text>당신의 군사 보좌관은 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 군사력 및 거리 상의 이유로 취소될 수 있다고 경고합니다. 이 선언을 이행하기 위해서는 당신의 문명이 그들과 동맹을 맺거나 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 내에 그들과 교역할 수 있는 범위 안에 들고 군사력을 {3_Num}% 증강시켜야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_MILITARY_AND_DISTANCE">
+			<Text>{2_Num}턴 내에 {1_CSName}{1: plural 1?과; 2?와;} 동맹을 맺거나 그들과 교역할 수 있는 범위 안에 들고 군사력을 {3_Num}% 증강시키지 못하면 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 무효화될 것입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_MILITARY">
+			<Text>심사숙고 끝에, {1_CSName}{1: plural 1?은; 2?는;} 당신의 군대가 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 이행하는 데 무리가 있을 것이라 생각하여 당신의 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_MILITARY">
+			<Text>당신의 군사 보좌관은 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 군사력 및 거리 상의 이유로 취소될 수 있다고 경고합니다. 이 선언을 이행하기 위해서는 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 내에 군사력을 {3_Num}% 증강시켜야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_MILITARY">
+			<Text>{2_Num}턴 내에 군사력을 {3_Num}% 증강하지 않으면 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 무효화될 것입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_DISTANCE">
+			<Text>심사숙고 끝에 {1_CSName}{1: plural 1?은; 2?는;} 당신의 먼 위치 때문에 당신이 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]을 이행하는 데 무리가 있을 것이라 생각하여 당신의 보호 선언을 [COLOR_NEGATIVE_TEXT]무효화[ENDCOLOR]했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_DISTANCE">
+			<Text>당신의 군사 보좌관은 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 거리 상의 이유로 취소될 수 있다고 경고합니다. 이 선언을 이행하기 위해서는 당신의 문명이 그들과 동맹을 맺거나 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]턴 내에 그들과 교역할 수 있는 범위 안에 들어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_DISTANCE">
+			<Text>{2_Num}턴 내에 {1_CSName}{1: plural 1?과; 2?와;} 동맹을 맺거나 그들과 교역할 수 있는 범위 안에 들지 못하면 당신이 {1_CSName}에게 약속한 [COLOR_POSITIVE_TEXT]보호 선언[ENDCOLOR]이 무효화될 것입니다.</Text>
+		</Row>
+	
 		<!-- LUA for Warscore -->
 		<Row Tag="TXT_KEY_WAR_SCORE">
 			<Text>[COLOR_POSITIVE_TEXT]전쟁 점수: {1_Num}[ENDCOLOR]</Text>
