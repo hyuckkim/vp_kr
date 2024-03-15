@@ -794,6 +794,13 @@
 			<Text>타일 약탈 시 경험치 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO">
+			<Text>특공대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_HELP">
+			<Text>이 유닛 뒤에 빈 타일이 있을 시 매 턴 1번 회피 가능[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
 			<Text>해상 부정확성</Text>
 		</Row>
