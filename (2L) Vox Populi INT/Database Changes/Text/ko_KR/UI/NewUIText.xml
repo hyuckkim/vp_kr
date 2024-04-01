@@ -3229,13 +3229,13 @@
 			<Text>[NEWLINE] [ICON_BULLET] 이미 적용 중입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_ACTIVE">
-			<Text>[NEWLINE] [ICON_BULLET] 작전이 최근에 수행되었습니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] 작전이 최근에 수행되었습니다. ({1_Num}턴 남음)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_ACTIVE_RELATED">
 			<Text>[NEWLINE] [ICON_BULLET] 관련 선택이 이미 활성화되어 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_ACTIVE_RELATED">
-			<Text>[NEWLINE] [ICON_BULLET] 관련 작전이 최근에 수행되었습니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] 관련 작전이 최근에 수행되었습니다. ({1_Num}턴 남음)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_ACTIVE_CITY_EVENT">
 			<Text>[NEWLINE] [ICON_BULLET] 적용 중이지 않은 도시 이벤트가 있어야 합니다.</Text>
