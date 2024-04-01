@@ -420,7 +420,7 @@
       <Text>{1_TerrainName:textkey}에서의 이동 속도 증가</Text>
     </Row>
     <Row Tag="TXT_KEY_FREE_HAPP_PER_CITY">
-      <Text>도시당 무료 [ICON_HAPPINESS_1]행복</Text>
+      <Text>도시당 유료 [ICON_HAPPINESS_1]행복</Text>
     </Row>
     <Row Tag="TXT_KEY_FRESH_WATER">
       <Text>{1_ImprovementName:textkey}{1: plural 1?이; 2?가;} 담수 지역에 있다면, {2_YieldType:textkey}{2: plural 1?이; 2?가;} [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR] 증가합니다.</Text>

@@ -678,7 +678,7 @@
       <Text>다른 문명의 도시와 해상 교역로를 설립하여 [ICON_GOLD]골드와 [ICON_RESEARCH]과학을 증가시킵니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]곡창[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]작업장[ENDCOLOR]을 건설한 도시에서 자신의 다른 도시로 [ICON_FOOD]식량 또는 [ICON_PRODUCTION]생산 보너스를 [ICON_TURNS_REMAINING]제공할 수 있습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_UNIT_HELP_FOREIGN_LEGION"> <!--외인부대-->
-      <Text>현대 시대의 특수 보병 유닛입니다. [COLOR_MAGENTA]평등[ENDCOLOR] 이념의 의용군 주의를 채택하면 무료로 제공됩니다. 이 유닛은 우호 지역 밖에서 [ICON_STRENGTH]전투력 보너스를 받는 것 외에는 1차 세계대전 보병과 매우 비슷합니다.</Text>
+      <Text>현대 시대의 특수 보병 유닛입니다. [COLOR_MAGENTA]평등[ENDCOLOR] 이념의 의용군 주의를 채택하면 유료로 제공됩니다. 이 유닛은 우호 지역 밖에서 [ICON_STRENGTH]전투력 보너스를 받는 것 외에는 1차 세계대전 보병과 매우 비슷합니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_UNIT_HELP_INDONESIAN_KRIS_SWORDSMAN">
       <Text>검사를 대체하는 인도네시아의 고유 유닛입니다. 첫 전투를 해야 드러나는 능력을 지닌 신비로운 무기를 사용하는 고전 시대 근접 유닛입니다.</Text>
@@ -729,22 +729,22 @@
       <Text>추가 [ICON_INTERNATIONAL_TRADE]교역로를 얻을 수 있으며 도시에 화물선 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]가 출현합니다. 다른 문명이 로도스의 거상이 있는 도시에 연결한 교역로는 도시 소유자에게 추가로 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 더 제공하며 교역로 소유자는 교역로마다 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 더 획득합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_KREMLIN_HELP"> <!--크렘린-->
-      <Text>[ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다.[NEWLINE]이 도시에서 기갑 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공합니다. [COLOR_MAGENTA]무료 사회 정책[ENDCOLOR] 1개를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>[ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다.[NEWLINE]이 도시에서 기갑 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공합니다. [COLOR_MAGENTA]유료 사회 정책[ENDCOLOR] 1개를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_PARTHENON_HELP"> <!--파르테논-->
       <Text>걸작 예술품이 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 들어 있는 걸작 슬롯을 포함합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_PETRA_HELP"> <!--페트라-->
-      <Text>이 도시의 범람원을 제외한 사막 타일의 [ICON_FOOD]식량과 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공하고 무료 [COLOR_POSITIVE_TEXT]대상[ENDCOLOR]이 출현합니다. [COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구하면 제공하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR]로 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]사막과 인접한 도시[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>이 도시의 범람원을 제외한 사막 타일의 [ICON_FOOD]식량과 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 추가 [ICON_INTERNATIONAL_TRADE]교역로 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공하고 유료 [COLOR_POSITIVE_TEXT]대상[ENDCOLOR]이 출현합니다. [COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구하면 제공하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]7[ENDCOLOR]로 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]사막과 인접한 도시[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_PRORA_RESORT_HELP"> <!--프로라-->
-      <Text>[ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다.[NEWLINE]전역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 채택한 정책 2개마다 추가로 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]무료 사회 정책[ENDCOLOR]을 제공합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>[ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다.[NEWLINE]전역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 채택한 정책 2개마다 추가로 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]유료 사회 정책[ENDCOLOR]을 제공합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_RED_FORT_HELP"> <!--붉은요새-->
       <Text>모든 도시의 [ICON_STRENGTH]방어 시설 효과가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 상승합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP"> <!--자유의여신상-->
-      <Text>[ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다.[NEWLINE]모든 도시의 전문가 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [COLOR_MAGENTA]무료 사회 정책[ENDCOLOR]을 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>[ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다.[NEWLINE]모든 도시의 전문가 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [COLOR_MAGENTA]유료 사회 정책[ENDCOLOR]을 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP"> <!--병마용-->
       <Text>문명의 모든 지상 군사 유닛을 종류별로 하나씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]해서 병마용이 건설된 도시 근처에 배치합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>

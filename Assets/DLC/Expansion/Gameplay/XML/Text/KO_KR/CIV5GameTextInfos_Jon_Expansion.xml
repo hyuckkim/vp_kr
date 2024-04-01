@@ -760,10 +760,10 @@
             <Text>[COLOR_POSITIVE_TEXT]신앙[ENDCOLOR]은 제국의 [ICON_PEACE]신앙과 [ICON_CULTURE]문화를 늘려줍니다.[NEWLINE][NEWLINE]신앙을 채택하면 성소와 사원을 짓는 데 걸리는 시간이 반으로 줄어듭니다.[NEWLINE][NEWLINE]신앙 계열의 모든 정책을 채택하면 [ICON_PEACE]신앙으로 구입하는 종교 유닛과 건물의 가격이 20%만큼 감소하며 성지에서 [ICON_GOLD]골드와 [ICON_CULTURE]문화를 3만큼 생산합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]신앙은 합리와 동시에 활성화할 수 없습니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]합리[ENDCOLOR]는 [ICON_RESEARCH]과학을 사용하고 생성하는 능력을 강화합니다.[NEWLINE][NEWLINE]합리를 채택하면 행복시 15%의 [ICON_RESEARCH]과학이 증가합니다.[NEWLINE][NEWLINE]합리 계열의 모든 정책을 채택하면 두개의 무료 기술을 얻습니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙으로 위대한 과학자를 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]합리는 신앙과 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
+            <Text>[COLOR_POSITIVE_TEXT]합리[ENDCOLOR]는 [ICON_RESEARCH]과학을 사용하고 생성하는 능력을 강화합니다.[NEWLINE][NEWLINE]합리를 채택하면 행복시 15%의 [ICON_RESEARCH]과학이 증가합니다.[NEWLINE][NEWLINE]합리 계열의 모든 정책을 채택하면 두개의 유료 기술을 얻습니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙으로 위대한 과학자를 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]합리는 신앙과 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]전통[ENDCOLOR]은 소규모 제국에 적합합니다.[NEWLINE][NEWLINE]전통을 채택하면 국경 확장 속도가 크게 증가하며 [ICON_CAPITAL]수도에서 [ICON_CULTURE]문화를 3만큼 생산합니다.[NEWLINE][NEWLINE]전통 계열의 모든 정책을 채택하면 첫 네 도시의 [ICON_FOOD] 성장이 15%만큼 증가하고 송수로를 무료로 건설할 수 있습니다.</Text>
+            <Text>[COLOR_POSITIVE_TEXT]전통[ENDCOLOR]은 소규모 제국에 적합합니다.[NEWLINE][NEWLINE]전통을 채택하면 국경 확장 속도가 크게 증가하며 [ICON_CAPITAL]수도에서 [ICON_CULTURE]문화를 3만큼 생산합니다.[NEWLINE][NEWLINE]전통 계열의 모든 정책을 채택하면 첫 네 도시의 [ICON_FOOD] 성장이 15%만큼 증가하고 송수로를 유료로 건설할 수 있습니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
             <Text>[COLOR_POSITIVE_TEXT]공산주의[ENDCOLOR][NEWLINE]도시당 [ICON_PRODUCTION]생산이 2만큼 증가하며 광산이나 채석장마다 [ICON_PRODUCTION]생산이 1 증가합니다.</Text>

@@ -281,7 +281,7 @@
             <Text>산 옆에 있는 도시에서 건설할 수 있습니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]1개[ENDCOLOR]의 무료기술을 제공합니다.[NEWLINE][NEWLINE]모든 도시에 대학이 있어야 건설할 수 있습니다. 도시가 많아질수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나씩 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>[COLOR_POSITIVE_TEXT]1개[ENDCOLOR]의 유료기술을 제공합니다.[NEWLINE][NEWLINE]모든 도시에 대학이 있어야 건설할 수 있습니다. 도시가 많아질수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나씩 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_PALACE_HELP">
             <Text>궁전은 이 도시가 국가의 [ICON_CAPITAL]수도라는 것을 나타냅니다. 최초 도시 건설 시 자동으로 건설됩니다.[NEWLINE][NEWLINE][ICON_CONNECTED]무역로를 통해 [ICON_CAPITAL]수도가 다른 도시와 연결되면 [ICON_GOLD]골드 수입이 증가합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]3 [ENDCOLOR][ICON_PRODUCTION]생산, [COLOR_POSITIVE_TEXT]3 [ENDCOLOR][ICON_RESEARCH]과학, [COLOR_POSITIVE_TEXT]3 [ENDCOLOR][ICON_GOLD]골드</Text>
@@ -1305,7 +1305,7 @@
             <Text>당신은 {@1_Name}{@1: plural 1?을; 2?를;} 발견했습니다![NEWLINE][NEWLINE][ICON_HAPPINESS_1]행복을 추가로 얻습니다!</Text>
         </Row>
         <Row Tag="TXT_KEY_FREE_POLICIES_LABEL">
-            <Text>무료 정책 수 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+            <Text>유료 정책 수 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_FRIENDS">
             <Text>우호적</Text>
@@ -1680,10 +1680,10 @@
             <Text>[COLOR_POSITIVE_TEXT]{1_ResourceName:textkey}[ENDCOLOR]{1: plural 1?을; 2?를;} 발견했습니다!</Text>
         </Row>
         <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY">
-            <Text>무료 사회 정책을 채택할 수 있습니다!</Text>
+            <Text>유료 사회 정책을 채택할 수 있습니다!</Text>
         </Row>
         <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY_SUMMARY">
-            <Text>무료 사회 정책!</Text>
+            <Text>유료 사회 정책!</Text>
         </Row>
         <Row Tag="TXT_KEY_NOTIFICATION_FRIENDSHIP_EXPIRED">
             <Text>당신과 {1_LeaderName}의 친선 관계가 시간이 지남에 따라 사라졌고, 다시 재개될 필요가 있을 것입니다.</Text>
@@ -2677,7 +2677,7 @@
             <Text>시민권</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]시민권[ENDCOLOR][NEWLINE]타일 시설의 건설 속도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 빨라지고, [ICON_CAPITAL]수도 근처에서 무료로 노동자가 나타납니다.</Text>
+            <Text>[COLOR_POSITIVE_TEXT]시민권[ENDCOLOR][NEWLINE]타일 시설의 건설 속도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 빨라지고, [ICON_CAPITAL]수도 근처에서 유료로 노동자가 나타납니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_CIVIL_SOCIETY">
             <Text>시민 사회</Text>
@@ -2690,7 +2690,7 @@
             <Plurality>2</Plurality>
         </Row>
         <Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]집단통치[ENDCOLOR][NEWLINE][ICON_CAPITAL]수도에서 [COLOR_POSITIVE_TEXT]개척자[ENDCOLOR]생산 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하고, [ICON_CAPITAL]수도 근처에서 무료로 개척자가 나타납니다.</Text>
+            <Text>[COLOR_POSITIVE_TEXT]집단통치[ENDCOLOR][NEWLINE][ICON_CAPITAL]수도에서 [COLOR_POSITIVE_TEXT]개척자[ENDCOLOR]생산 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하고, [ICON_CAPITAL]수도 근처에서 유료로 개척자가 나타납니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_COMMUNISM">
             <Text>공산주의</Text>
@@ -2742,7 +2742,7 @@
             <Plurality>2</Plurality>
         </Row>
         <Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]종교의 자유[ENDCOLOR][NEWLINE]각 기념비, 사원 및 수도원의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고, 추가적으로 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]의 무료정책을 얻습니다.</Text>
+            <Text>[COLOR_POSITIVE_TEXT]종교의 자유[ENDCOLOR][NEWLINE]각 기념비, 사원 및 수도원의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고, 추가적으로 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]의 유료정책을 얻습니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_FREE_SPEECH">
             <Text>언론의 자유</Text>
@@ -2772,7 +2772,7 @@
             <Text>율법 정치</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_LEGALISM_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]율법주의[ENDCOLOR][NEWLINE]당신의 최초 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR] 도시에 하나의 문화 건물을 무료로 건설할 수 있습니다. 도시에 이미 기념비 이상의 문화 건물이 건설되어 있고 다음 단계의 문화 건물을 건설할 수 있다면, 다음 단계의 문화 건물을 무료로 건설할 수 있습니다.</Text>
+            <Text>[COLOR_POSITIVE_TEXT]율법주의[ENDCOLOR][NEWLINE]당신의 최초 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR] 도시에 하나의 문화 건물을 유료로 건설할 수 있습니다. 도시에 이미 기념비 이상의 문화 건물이 건설되어 있고 다음 단계의 문화 건물을 건설할 수 있다면, 다음 단계의 문화 건물을 유료로 건설할 수 있습니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN">
             <Text>천명</Text>
@@ -2910,7 +2910,7 @@
             <Text>과학 혁명</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]과학 혁명[ENDCOLOR][NEWLINE]무료기술을 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 얻습니다.</Text>
+            <Text>[COLOR_POSITIVE_TEXT]과학 혁명[ENDCOLOR][NEWLINE]유료기술을 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 얻습니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POLICY_SECULARISM">
             <Text>세속주의</Text>
@@ -3301,22 +3301,22 @@
             <Text>자금성은 점령되지 않은 도시의 [ICON_CITIZEN]시민 수로 인해 생성되는 [ICON_HAPPINESS_4]불행이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_GREAT_LIBRARY_HELP">
-            <Text>무료 기술을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]도서관[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>유료 기술을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]도서관[ENDCOLOR]을 유료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_GREAT_LIGHTHOUSE_HELP">
-            <Text>해상 유닛의 [ICON_MOVES]이동력과 시야를 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가시킵니다. 건설된 도시에 등대를 무료로 제공합니다.[NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에서만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>해상 유닛의 [ICON_MOVES]이동력과 시야를 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가시킵니다. 건설된 도시에 등대를 유료로 제공합니다.[NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에서만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_GREAT_WALL_HELP">
-            <Text>적의 지상 유닛이 당신의 영토 내에서 이동할 때, 타일마다 [ICON_MOVES]이동력을 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 소모시킵니다. 이 불가사의를 건설한 문명이 [COLOR_POSITIVE_TEXT]다이너마이트[ENDCOLOR]를 연구하면 만리장성은 기능을 잃습니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]성벽[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>적의 지상 유닛이 당신의 영토 내에서 이동할 때, 타일마다 [ICON_MOVES]이동력을 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 소모시킵니다. 이 불가사의를 건설한 문명이 [COLOR_POSITIVE_TEXT]다이너마이트[ENDCOLOR]를 연구하면 만리장성은 기능을 잃습니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]성벽[ENDCOLOR]을 유료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP">
-            <Text>아야 소피아를 건설하면 모든 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 무료로 선택 가능한 위인이 [ICON_CAPITAL]수도 근처에 나타납니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>아야 소피아를 건설하면 모든 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 유료로 선택 가능한 위인이 [ICON_CAPITAL]수도 근처에 나타납니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
             <Text>공중정원은 모든 도시에서 [COLOR_POSITIVE_TEXT]1 [ENDCOLOR][ICON_CITIZEN]시민을 증가시킵니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_HIMEJI_CASTLE_HELP">
-            <Text>우호적인 영토에서 전투하는 유닛의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]성[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>우호적인 영토에서 전투하는 유닛의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]성[ENDCOLOR]을 유료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_KREMLIN_HELP">
             <Text>크렘린 궁전은 모든 도시에 건설한 방어용 건물의 [ICON_STRENGTH]방어력을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가시킵니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
@@ -3328,7 +3328,7 @@
             <Text>마추픽추는 [ICON_CONNECTED]교역로에서 얻는 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가시킵니다.[NEWLINE][NEWLINE]도시가 당신의 영토 안에 있는 산으로부터 2타일 이내에 건설되어 있어야만 합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_ORACLE_HELP">
-            <Text>[COLOR_POSITIVE_TEXT]1개[ENDCOLOR]의 무료 사회 정책을 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>[COLOR_POSITIVE_TEXT]1개[ENDCOLOR]의 유료 사회 정책을 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_PENTAGON_HELP">
             <Text>군사 유닛의 업그레이드에 필요한 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
@@ -3346,7 +3346,7 @@
             <Text>자유의 여신상은 모든 도시의 전문가로부터 [COLOR_POSITIVE_TEXT]1 [ENDCOLOR][ICON_PRODUCTION]생산을 추가로 얻습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
-            <Text>시드니 오페라하우스는 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]의 무료 사회 정책을 제공하며, 추가로 이것이 건설된 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 해안가 도시에서 건설되야 합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>시드니 오페라하우스는 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]의 유료 사회 정책을 제공하며, 추가로 이것이 건설된 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 해안가 도시에서 건설되야 합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_TAJ_MAHAL_HELP">
             <Text>[ICON_GOLDEN_AGE]황금기의 지속 기간이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>

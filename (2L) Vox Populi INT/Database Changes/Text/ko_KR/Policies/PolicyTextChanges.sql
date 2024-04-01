@@ -127,7 +127,7 @@ SET Text = '평등'
 WHERE Tag = 'TXT_KEY_POLICY_REPRESENTATION';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]평등[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CITIZEN]시민 15명마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 도시의 [ICON_GOLD]빈곤, [ICON_RESEARCH]문맹, [ICON_CULTURE]무료, [ICON_FOOD]/[ICON_PRODUCTION]낙후 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]평등[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CITIZEN]시민 15명마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 도시의 [ICON_GOLD]빈곤, [ICON_RESEARCH]문맹, [ICON_CULTURE]유료, [ICON_FOOD]/[ICON_PRODUCTION]낙후 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_REPRESENTATION_HELP';
 
 UPDATE Language_ko_KR
@@ -172,7 +172,7 @@ SET Text = '공물'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]공물[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL]수도 근처에 무료 [COLOR_YELLOW]개척자[ENDCOLOR]가 1명 출현합니다. [NEWLINE][ICON_BULLET][ICON_CITY_STATE] 도시 국가에 무거운 공물을 요구하면 골드 공물의 25%만큼 [ICON_CULTURE] 문화를 제공합니다. ([COLOR_YELLOW]모든 {TXT_KEY_POLICY_BRANCH_HONOR} 정책을 채택하면 50%로 증가합니다[ENDCOLOR])'
+SET Text = '[COLOR_POSITIVE_TEXT]공물[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL]수도 근처에 유료 [COLOR_YELLOW]개척자[ENDCOLOR]가 1명 출현합니다. [NEWLINE][ICON_BULLET][ICON_CITY_STATE] 도시 국가에 무거운 공물을 요구하면 골드 공물의 25%만큼 [ICON_CULTURE] 문화를 제공합니다. ([COLOR_YELLOW]모든 {TXT_KEY_POLICY_BRANCH_HONOR} 정책을 채택하면 50%로 증가합니다[ENDCOLOR])'
 WHERE Tag = 'TXT_KEY_POLICY_WARRIOR_CODE_HELP';
 
 UPDATE Language_ko_KR
@@ -265,7 +265,7 @@ SET Text = '신성한 권리'
 WHERE Tag = 'TXT_KEY_POLICY_THEOCRACY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]신성한 권리[ENDCOLOR][NEWLINE][ICON_BULLET]매 턴 도시 [ICON_HAPPINESS_1]행복의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]가 [ICON_CULTURE]문화로 전환됩니다. [NEWLINE][ICON_BULLET]모든 도시의 [ICON_CULTURE]무료 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]신성한 권리[ENDCOLOR][NEWLINE][ICON_BULLET]매 턴 도시 [ICON_HAPPINESS_1]행복의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]가 [ICON_CULTURE]문화로 전환됩니다. [NEWLINE][ICON_BULLET]모든 도시의 [ICON_CULTURE]유료 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_THEOCRACY_HELP';
 
 UPDATE Language_ko_KR
@@ -468,7 +468,7 @@ SET Text = '산업'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_COMMERCE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]산업[ENDCOLOR]은 제국의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산에 초점을 맞춘 보너스를 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]무료 [ICON_INTERNATIONAL_TRADE]교역로 +2[NEWLINE][ICON_BULLET]구매에 필요한 [ICON_INVEST] 골드 비용 -5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]구매에 필요한 [ICON_INVEST] 골드 비용 -5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]브로드웨이[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]모든 사치 자원당 [ICON_HAPPINESS_1]행복 +3[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드 +2[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_MERCHANT][COLOR_YELLOW]위대한 상인[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]산업[ENDCOLOR]은 제국의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산에 초점을 맞춘 보너스를 제공합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]유료 [ICON_INTERNATIONAL_TRADE]교역로 +2[NEWLINE][ICON_BULLET]구매에 필요한 [ICON_INVEST] 골드 비용 -5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]구매에 필요한 [ICON_INVEST] 골드 비용 -5%[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]브로드웨이[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]모든 사치 자원당 [ICON_HAPPINESS_1]행복 +3[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드 +2[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_MERCHANT][COLOR_YELLOW]위대한 상인[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_COMMERCE_HELP';
 
 UPDATE Language_ko_KR
@@ -606,7 +606,7 @@ SET Text = '계몽'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]계몽[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 1개 제공합니다. [NEWLINE][ICON_BULLET]모든 대학의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. '
+SET Text = '[COLOR_POSITIVE_TEXT]계몽[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_RESEARCH_STORED]유료 기술[ENDCOLOR]을 1개 제공합니다. [NEWLINE][ICON_BULLET]모든 대학의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_HELP';
 
 UPDATE Language_ko_KR
@@ -666,7 +666,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]자본주의[ENDCOLOR]: 도시마다 전문가 
 WHERE Tag = 'TXT_KEY_POLICY_CAPITALISM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]아방가르드[ENDCOLOR]: 모든 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]아방가르드[ENDCOLOR]: 모든 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. [ICON_CULTURE]유료 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_OPEN_SOCIETY_HELP';
 
 UPDATE Language_ko_KR
@@ -737,7 +737,7 @@ WHERE Tag = 'TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP';
 -- Order
 --------------------
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]과학 아카데미[ENDCOLOR]: 모든 도시의 [ICON_RESEARCH]문맹 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR] 감소합니다. 연구소를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 제공하고 제국 전역에 [COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 5개 제공합니다. 연구소의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]과학 아카데미[ENDCOLOR]: 모든 도시의 [ICON_RESEARCH]문맹 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR] 감소합니다. 연구소를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 제공하고 제국 전역에 [COLOR_YELLOW]연구소[ENDCOLOR]를 유료로 5개 제공합니다. 연구소의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP';
 
 UPDATE Language_ko_KR
@@ -773,7 +773,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]인민 영웅[ENDCOLOR]: 모든 도시의 [ICON
 WHERE Tag = 'TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]철의 장막[ENDCOLOR]: 도시를 점령할 때 [COLOR_YELLOW]법원[ENDCOLOR]을 무료로 제공하고 즉시 도시를 합병합니다. [ICON_TURNS_REMAINING]국내 교역로의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]200%[ENDCOLOR] 증가합니다. [ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]철의 장막[ENDCOLOR]: 도시를 점령할 때 [COLOR_YELLOW]법원[ENDCOLOR]을 유료로 제공하고 즉시 도시를 합병합니다. [ICON_TURNS_REMAINING]국내 교역로의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]200%[ENDCOLOR] 증가합니다. [ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_IRON_CURTAIN_HELP';
 
 UPDATE Language_ko_KR
@@ -817,7 +817,7 @@ SET Text = '인민군'
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]인민군[ENDCOLOR]: 사관 학교를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 제공하고 제국 전역에 [COLOR_YELLOW]사관 학교[ENDCOLOR]를 무료로 5개 제공합니다. 공립 학교의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]인민군[ENDCOLOR]: 사관 학교를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 제공하고 제국 전역에 [COLOR_YELLOW]사관 학교[ENDCOLOR]를 유료로 5개 제공합니다. 공립 학교의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_HELP';
 
 UPDATE Language_ko_KR
@@ -825,7 +825,7 @@ SET Text = '인민해방군은 1927년 8월 1일 난창 봉기로 거슬러 올�
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]노동자 시설[ENDCOLOR]: 모든 공장의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 공장을 건설할 때 [ICON_PRODUCTION] 생산이 +100% 증가하고 제국 전역에 [COLOR_YELLOW]공장[ENDCOLOR]을 무료로 5개 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]노동자 시설[ENDCOLOR]: 모든 공장의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 공장을 건설할 때 [ICON_PRODUCTION] 생산이 +100% 증가하고 제국 전역에 [COLOR_YELLOW]공장[ENDCOLOR]을 유료로 5개 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_WORKERS_FACULTIES_HELP';
 
 UPDATE Language_ko_KR
@@ -833,7 +833,7 @@ SET Text = '대약진 운동'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. [ICON_SPY]스파이의 네트워크 포인트가 두 배로 증가합니다. 전문가가 아닌 [ICON_CITIZEN] 시민 3명마다 [ICON_RESEARCH] 과학이 +1 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]유료 기술[ENDCOLOR]을 제공합니다. [ICON_SPY]스파이의 네트워크 포인트가 두 배로 증가합니다. 전문가가 아닌 [ICON_CITIZEN] 시민 3명마다 [ICON_RESEARCH] 과학이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS_HELP';
 
 UPDATE Language_ko_KR
@@ -908,7 +908,7 @@ SET Text = '제공권'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]제공권[ENDCOLOR]: 모든 도시에 [COLOR_YELLOW]공항[ENDCOLOR]을 무료로 제공합니다. 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. [COLOR_YELLOW]제로센[ENDCOLOR] 유닛을 생산할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]제공권[ENDCOLOR]: 모든 도시에 [COLOR_YELLOW]공항[ENDCOLOR]을 유료로 제공합니다. 공중 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다. [COLOR_YELLOW]제로센[ENDCOLOR] 유닛을 생산할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARISM_HELP';
 
 UPDATE Language_ko_KR

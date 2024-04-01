@@ -1809,16 +1809,16 @@
 </Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP">
-      <Text>이 도시에서 생산하는 근접 지상 유닛 및 해상 유닛은 [COLOR_POSITIVE_TEXT]험지[ENDCOLOR]에서 [ICON_STRENGTH]전투력을 올려주는 [COLOR_POSITIVE_TEXT]훈련 I[ENDCOLOR] 승급을 가지고 시작합니다. 이 불가사의를 건설한 도시에 성을 무료로 제공합니다. 이 불가사의가 건설된 도시의 [ICON_CULTURE]문화가 20% 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>이 도시에서 생산하는 근접 지상 유닛 및 해상 유닛은 [COLOR_POSITIVE_TEXT]험지[ENDCOLOR]에서 [ICON_STRENGTH]전투력을 올려주는 [COLOR_POSITIVE_TEXT]훈련 I[ENDCOLOR] 승급을 가지고 시작합니다. 이 불가사의를 건설한 도시에 성을 유료로 제공합니다. 이 불가사의가 건설된 도시의 [ICON_CULTURE]문화가 20% 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_CN_TOWER_HELP">
-      <Text>모든 도시에 방송탑을 무료로 건설할 수 있습니다. 도시마다 [ICON_CITIZEN]인구가 1, [ICON_HAPPINESS_1]행복이 1 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>모든 도시에 방송탑을 유료로 건설할 수 있습니다. 도시마다 [ICON_CITIZEN]인구가 1, [ICON_HAPPINESS_1]행복이 1 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP">
-      <Text>위대한 선지자가 1명 출현합니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>위대한 선지자가 1명 출현합니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]을 유료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
-      <Text>건설한 도시에 정원을 무료로 건설할 수 있습니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>건설한 도시에 정원을 유료로 건설할 수 있습니다. [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_HUBBLE_HELP">
       <Text>위대한 과학자 두 명이 불가사의를 건설한 도시 근처에 출현합니다. 우주선 공장을 도시에 제공합니다. 우주선 부품 생산 시 25%의 [ICON_PRODUCTION]생산 보너스를 받습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
@@ -1827,13 +1827,13 @@
       <Text>모든 도시에서 [ICON_GREAT_PEOPLE]위인 출현율이 25% 증가합니다. [ICON_CAPITAL]수도 주위에 원하는 위인 한 명이 출현합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
-      <Text>이 도시에서 생산하는 선교사는 종교 전파를 세 번 할 수 있습니다. 이 불가사의를 건설한 도시에 모스크를 무료로 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>이 도시에서 생산하는 선교사는 종교 전파를 세 번 할 수 있습니다. 이 불가사의를 건설한 도시에 모스크를 유료로 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_NEUSCHWANSTEIN_HELP">
       <Text>성이 있는 모든 도시에서 [ICON_GOLD]골드 3, [ICON_CULTURE]문화 2, [ICON_HAPPINESS_1]행복이 1 증가합니다.[NEWLINE][NEWLINE]도시가 자신의 영토에 있는 산으로부터 2타일 이내에 있어야 합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_PETRA_HELP">
-      <Text>도시가 사막 타일에 또는 사막 타일 옆에 있어야 합니다. 도시에서 작업하는 사막 타일 하나당 [ICON_FOOD]식량이 1, [ICON_PRODUCTION]생산이 1, [ICON_GOLD]골드가 1만큼 (범람원 제외) 증가합니다. 고고학을 연구하면 [ICON_CULTURE]문화가 6 증가합니다. 이 불가사의를 건설한 도시에 원형극장을 무료로 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>도시가 사막 타일에 또는 사막 타일 옆에 있어야 합니다. 도시에서 작업하는 사막 타일 하나당 [ICON_FOOD]식량이 1, [ICON_PRODUCTION]생산이 1, [ICON_GOLD]골드가 1만큼 (범람원 제외) 증가합니다. 고고학을 연구하면 [ICON_CULTURE]문화가 6 증가합니다. 이 불가사의를 건설한 도시에 원형극장을 유료로 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
  
   </Language_KO_KR>

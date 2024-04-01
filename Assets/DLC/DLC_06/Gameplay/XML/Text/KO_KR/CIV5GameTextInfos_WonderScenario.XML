@@ -47,7 +47,7 @@
             <Text>최초 철기 문화</Text>
         </Row>
         <Row Tag="TXT_KEY_TRAIT_TWO_RIVERS">
-            <Text>문자를 개발하면 위대한 과학자를 무료로 받습니다. 모든 유닛은 타일에 관계없이 강에 인접한 타일로 이동할 때 [ICON_MOVES]이동력을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]만 소모합니다.</Text>
+            <Text>문자를 개발하면 위대한 과학자를 유료로 받습니다. 모든 유닛은 타일에 관계없이 강에 인접한 타일로 이동할 때 [ICON_MOVES]이동력을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]만 소모합니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_TRAIT_TWO_RIVERS_SHORT">
             <Text>두 강의 땅</Text>
@@ -275,7 +275,7 @@
             <Text>불가사의 건설 완료!</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_SCENARIO_WONDER_ORACLE_HELP">
-            <Text>사회정책 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]가 무료로 제공됩니다.[NEWLINE]오라클이 건설된 도시 가까이에 위인을 데려가면 다른 플레이어의 불가사의 건설 진척도를 알 수 있습니다. 누구든 이런 방식으로 오라클에게 자문할 수 있습니다.</Text>
+            <Text>사회정책 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]가 유료로 제공됩니다.[NEWLINE]오라클이 건설된 도시 가까이에 위인을 데려가면 다른 플레이어의 불가사의 건설 진척도를 알 수 있습니다. 누구든 이런 방식으로 오라클에게 자문할 수 있습니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_SCENARIO_WONDER_STATUS">
             <Text>불가사의 상태</Text>

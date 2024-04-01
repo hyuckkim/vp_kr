@@ -71,7 +71,7 @@
         </Row>
         <Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP">
             <!--옥스포드-->
-            <Text>[COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]모든 도시에 대학이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>[COLOR_RESEARCH_STORED]유료 기술[ENDCOLOR]을 제공합니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]모든 도시에 대학이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_PALACE_HELP">
             <!--궁전-->
@@ -147,7 +147,7 @@
             <Text>{2_CivName:textkey}의 사령관 {1_PlayerName:textkey}</Text>
         </Row>
         <Row Tag="TXT_KEY_FREE_TENETS_LABEL">
-            <Text>무료 주의 수 : {1_Num}</Text>
+            <Text>유료 주의 수 : {1_Num}</Text>
         </Row>
         <Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT_HELP">
             <Text>이 명령을 내리면 해당 유닛을 공항이 있는 우방 도시 또는 인접한 지역의 육상 타일에 재배치할 수 있습니다. 적 유닛이 있거나 적 유닛과 인접한 타일로는 이동할 수 없습니다.</Text>
@@ -228,7 +228,7 @@
             <Text>[COLOR_HIGHLIGHT_TEXT]숨겨진 사적지[ENDCOLOR]를 발견했습니다!</Text>
         </Row>
         <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY">
-            <Text>무료 사회 정책이나 이념 주의 중 하나를 고르십시오!</Text>
+            <Text>유료 사회 정책이나 이념 주의 중 하나를 고르십시오!</Text>
         </Row>
         <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_ART_SWAP">
             <Text>{1_LeaderName}{1: plural 1?이; 2?가;} 당신의 걸작 예술품 "{2_Work1Name}"{2: plural 1?을; 2?를;} "{3_Work2Name}"{3: plural 1?으로; 2?로;} 교체했습니다.</Text>
@@ -957,11 +957,11 @@
         </Row>
         <Row Tag="TXT_KEY_WONDER_GREAT_LIBRARY_HELP">
             <!--알렉-->
-            <Text>[COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다. 이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]도서관[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>[COLOR_RESEARCH_STORED]유료 기술[ENDCOLOR]을 제공합니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다. 이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]도서관[ENDCOLOR]을 유료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
             <!--공중 정원-->
-            <Text>[COLOR_MAGENTA]전통[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]정원[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>[COLOR_MAGENTA]전통[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]정원[ENDCOLOR]을 유료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
             <!--루브르-->
@@ -973,7 +973,7 @@
         </Row>
         <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
             <!--젠네-->
-            <Text>[COLOR_MAGENTA]신앙[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]이 도시에서 생산되는 모든 [ICON_MISSIONARY]선교사는 종교를 [COLOR_POSITIVE_TEXT]세 번[ENDCOLOR] 전파할 수 있습니다. 이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]모스크[ENDCOLOR]를 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>[COLOR_MAGENTA]신앙[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]이 도시에서 생산되는 모든 [ICON_MISSIONARY]선교사는 종교를 [COLOR_POSITIVE_TEXT]세 번[ENDCOLOR] 전파할 수 있습니다. 이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]모스크[ENDCOLOR]를 유료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_PORCELAIN_TOWER_HELP">
             <!--영곡탑-->
@@ -985,7 +985,7 @@
         </Row>
         <Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
             <!--시드니-->
-            <Text>[COLOR_MAGENTA]무료 사회 정책[ENDCOLOR]을 제공합니다. 이 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>[COLOR_MAGENTA]유료 사회 정책[ENDCOLOR]을 제공합니다. 이 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_UFFIZI_HELP">
             <!--우피치-->

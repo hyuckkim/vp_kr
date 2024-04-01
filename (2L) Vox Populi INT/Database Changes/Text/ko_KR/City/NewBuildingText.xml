@@ -221,7 +221,7 @@
 
 		<!-- Museum -->
 		<Row Tag="TXT_KEY_BUILDING_MUSEUM_HELP">
-			<Text>도시에서 [COLOR_POSITIVE_TEXT]고고학자[ENDCOLOR]를 생산할 수 있습니다. [ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화와 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_CULTURE]문화 +4</Text>
+			<Text>도시에서 [COLOR_POSITIVE_TEXT]고고학자[ENDCOLOR]를 생산할 수 있습니다. [ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화와 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다.[ICON_CULTURE]유료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_CULTURE]문화 +4</Text>
 		</Row>
 
 		<!-- Market -->
@@ -236,7 +236,7 @@
 
 		<!-- Arena -->
 		<Row Tag="TXT_KEY_BUILDING_COLOSSEUM_HELP">
-			<Text>시민 4명마다 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_PERFUME] 향수: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_OLIVE] 올리브: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1</Text>
+			<Text>시민 4명마다 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CULTURE]유료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_PERFUME] 향수: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_OLIVE] 올리브: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CHANCERY">
@@ -269,7 +269,7 @@
 
 		<!-- Stonehenge -->
 		<Row Tag="TXT_KEY_BUILDING_STONEHENGE_HELP">
-			<Text>[COLOR_YELLOW]자문회[ENDCOLOR]를 무료로 제공합니다. 이 불가사의가 지어진 도시에 [ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]60[ENDCOLOR]을 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]자문회[ENDCOLOR]를 유료로 제공합니다. 이 불가사의가 지어진 도시에 [ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]60[ENDCOLOR]을 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE">
@@ -280,7 +280,7 @@
 			<Text>이 국가 불가사의는 수도에서 외교 유닛을 생산할 때 약간의 생산 보너스를 제공하고 하나의 [ICON_RES_PAPER] 종이 자원을 제공합니다. 게임의 처음 몇 시대 동안 도시 국가 동맹을 한두 개 확보하고 싶다면 이 건물을 건설하십시오 우호적인 도시 국가 및 동맹국의 추가 산출로 초기의 도시 국가와의 관계의 가치를 높입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 무료 [COLOR_YELLOW]특사[ENDCOLOR]가 1명 출현합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]도시국가 [COLOR_POSITIVE_TEXT]우호 단계[ENDCOLOR] 보너스: 각각 +1 [ICON_FOOD] 식량[NEWLINE][ICON_CITY_STATE] 도시국가 [COLOR_CYAN]동맹[ENDCOLOR] 보너스: 각각 +1 [ICON_FOOD] 식량, +1 [ICON_PEACE] 신앙[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 유료 [COLOR_YELLOW]특사[ENDCOLOR]가 1명 출현합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]도시국가 [COLOR_POSITIVE_TEXT]우호 단계[ENDCOLOR] 보너스: 각각 +1 [ICON_FOOD] 식량[NEWLINE][ICON_CITY_STATE] 도시국가 [COLOR_CYAN]동맹[ENDCOLOR] 보너스: 각각 +1 [ICON_FOOD] 식량, +1 [ICON_PEACE] 신앙[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COURT_SCRIBE_TEXT">
 			<Text>왕실 서기관, 그리고 그 안에 있는 관직은 공무원 중에서 가장 오래되고 중요한 직책 중 하나입니다. 현대 국가는 정부 문서를 작성하고, 편집하고, 발행하는 수백 명의 공무원들이 있지만, 고대 세계에서 이러한 업무들은 보통 한 개인, 즉 서기관에게 주어졌습니다. 서기관은 그 나라의 법률의 표현, 번역, 해석을 통제하기 때문에 엄청난 권력을 휘둘렀습니다. 이 위대한 힘 때문에, 선량하고 충성스러운 서기는 매우 귀중한 자원이었습니다.</Text>
@@ -367,14 +367,14 @@
 
 		<!-- Notre Dame -->
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_HELP">
-			<Text>[COLOR_YELLOW]대성당[ENDCOLOR]을 무료로 제공합니다. 당신의 [COLOR_POSITION_TEXT]대중 종교[ENDCOLOR]를 믿는 모든 도시의 종교 압력이 +30% 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE]신앙 +3 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]대성당[ENDCOLOR]을 유료로 제공합니다. 당신의 [COLOR_POSITION_TEXT]대중 종교[ENDCOLOR]를 믿는 모든 도시의 종교 압력이 +30% 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE]신앙 +3 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN">
 			<Text>카를슈테인 성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN_HELP">
-			<Text>[COLOR_YELLOW]기사단[ENDCOLOR]을 무료로 제공합니다. 일반적으로 필요한 전 세계의 신도 수 [COLOR:105:105:105:255](보통 20%)[ENDCOLOR] 보다 5% 낮은 수준으로 [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다.이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]기사단[ENDCOLOR]을 유료로 제공합니다. 일반적으로 필요한 전 세계의 신도 수 [COLOR:105:105:105:255](보통 20%)[ENDCOLOR] 보다 5% 낮은 수준으로 [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다.이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_KARLSTEJN_TEXT">
 			<Text>카를스테인 성은 현대 체코의 프라하 외곽에 있는 그림 같은 보헤미안 요새입니다. 그 성은 1365년에 완성되었고, 보헤미아의 제국 레갈리아와 왕관 보석뿐만 아니라 많은 다른 유물들과 보물들을 보관하고 있습니다. 그 성은 마르틴 루터와 개신교 종교 개혁보다 한 세기 이상 전에 시작된 유럽의 첫 번째 주요 개신교 운동인 후스 전쟁 동안 후스파 사람들에 의해 포위되었습니다.</Text>
@@ -387,7 +387,7 @@
 			<Text>소호 제작소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SOHO_FOUNDRY_HELP">
-			<Text>[COLOR_YELLOW]공장[ENDCOLOR]을 무료로 제공합니다. 이 불가사의가 지어진 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_RES_COAL]석탄 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]공장[ENDCOLOR]을 유료로 제공합니다. 이 불가사의가 지어진 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_RES_COAL]석탄 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SOHO_FOUNDRY_TEXT">
 			<Text>소호 파운드리는 1795년 제임스 와트와 매튜 볼튼이 와트의 최신 발명품: 바로 증기 기관을 생산하기 위해 설립한 회사입니다. 독창적인 땜장이였던 제임스 와트는 기존의 뉴코멘 설계를 몇 가지 개선하여 마모가 적고 석탄의 4분의 1만 사용하면서 회전 운동을 일으키는 새로운 증기 기관을 만들었습니다. 와트는 새로운 기계에 특허를 내고 사업가이자 발명가인 매튜 볼튼과 함께 영국 스메스윅에 새로운 공장을 설립했습니다. 소호 파운드리는 당시로서는 전례가 없던 방식으로, 대규모 작업을 소규모 전문 작업으로 나누는 등 새로운 기술을 사용하여 표준화되고 상호 교환 가능한 부품을 생산했습니다. 소호 파운드리의 경영진은 직원들에게 병가 혜택은 물론 전문성 개발 및 복지 프로그램을 제공하는 등 시대를 앞서 나갔습니다. 소호 파운드리에서 생산된 경영 이론, 대량 생산 기술 및 증기 기관은 영국 산업화에 결정적인 역할을 했으며 전 세계에 지속적인 영향을 미쳤습니다.</Text>
@@ -400,7 +400,7 @@
 			<Text>어머니 조국상</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_STATUE_HELP">
-			<Text>[COLOR_YELLOW]경찰서[ENDCOLOR]를 무료로 제공합니다. 인구에서 오는 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 100% 증가합니다. [NEWLINE][NEWLINE]모든 도시의 건물 비용이 10% 감소합니다. 적 유닛이 약탈할 때 [ICON_GOLD]골드 획득과 체력 회복을 막습니다.</Text>
+			<Text>[COLOR_YELLOW]경찰서[ENDCOLOR]를 유료로 제공합니다. 인구에서 오는 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 100% 증가합니다. [NEWLINE][NEWLINE]모든 도시의 건물 비용이 10% 감소합니다. 적 유닛이 약탈할 때 [ICON_GOLD]골드 획득과 체력 회복을 막습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOTHERLAND_STATUE_TEXT">
 			<Text>어머니 조국상은 러시아 볼고그라드의 마마예프 쿠르간에 있는 스탈린그라드 전투를 기념하는 동상입니다. 조각가 예브게니 부셰티치와 구조 엔지니어 니콜라이 니키틴에 의해 디자인되었고, 1967년에 세계에서 가장 큰 조각상으로 선언되었습니다. 이후 더 높은 조각상들과 비교했을 때, 마더랜드 콜은 오른손에 검을 높이 들고 왼손을 부르는 동작으로 뻗은 독특한 자세 때문에 공학적인 관점에서 훨씬 더 복잡합니다. 동상 뒤에 있는 기술은 와이어 로프 구조와 프리스트레스 콘크리트를 조합한 것에 기반을 두고 있는데, 이 방식은 모스크바에 있는 초고층 오스탄키노 타워인 니키틴의 또 다른 작품에서도 찾을 수 있습니다. 그것은 세계에서 가장 높은 여성의 동상입니다.</Text>
@@ -413,7 +413,7 @@
 			<Text>블레츨리 파크</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
-			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 [ICON_VP_SCIENTIST] 과학자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_VP_SPY_POINTS] 스파이 포인트를 200 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시의 도시 [ICON_SPY] 보안이 10 증가합니다. 아군 스파이의 작전 기간이 2턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 유료로 제공합니다. 모든 [ICON_VP_SCIENTIST] 과학자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_VP_SPY_POINTS] 스파이 포인트를 200 제공하고 존재하는 모든 [ICON_SPY]스파이의 레벨이 상승합니다. 모든 도시의 도시 [ICON_SPY] 보안이 10 증가합니다. 아군 스파이의 작전 기간이 2턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
 			<Text>버킹엄 밀턴 케인스에 있는 블레츨리 공원은 제2차 세계 대전 동안 추축국의 비밀 통신, 특히 독일의 에니그마와 로렌츠 암호를 정기적으로 관통한 영국의 정부 암호와 사이퍼 학교의 중심 장소였습니다. 제2차 세계 대전 영국 정보국의 공식 역사학자는 블레츨리에서 제작된 "울트라" 첩보가 전쟁을 2년에서 4년 단축시켰으며, 그것이 없었다면 전쟁의 결과는 불확실했을 것이라고 썼습니다. 그 장소는 이제 그러한 업적을 기념하고 기념하는 교육적이고 역사적인 명소가 되었습니다.</Text>
@@ -426,7 +426,7 @@
 			<Text>엠파이어 스테이트 빌딩</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EMPIRE_STATE_BUILDING_HELP">
-			<Text>[COLOR_YELLOW]증권거래소[ENDCOLOR]를 무료로 제공합니다. 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. 모든 전문가의 [ICON_GOLD] 골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]증권거래소[ENDCOLOR]를 유료로 제공합니다. 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. 모든 전문가의 [ICON_GOLD] 골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EMPIRE_STATE_BUILDING_TEXT">
 			<Text>엠파이어 스테이트 빌딩은 5번가와 웨스트 34번가의 교차점에 있는 뉴욕 맨해튼 미드타운에 위치한 103층짜리 초고층 빌딩입니다. 그것의 지붕 높이는 1,250 피트 (380 미터)이고, 그것의 안테나 첨탑을 포함하여, 그것은 총 1,454 피트 (443 미터) 높이입니다.[6] 그것의 이름은 엠파이어 스테이트인 뉴욕의 별명에서 유래되었습니다. 그것은 1931년 초에 완공된 후 1970년 말에 원래의 세계 무역 센터의 북쪽 타워에서 꼭대기까지 거의 40년 동안 세계에서 가장 높은 빌딩으로 서 있었습니다. 2001년 9·11 테러 이후, 엠파이어 스테이트 빌딩은 2012년 4월 30일 원 월드 트레이드 센터가 더 높은 높이에 도달할 때까지 뉴욕에서 다시 가장 높은 빌딩이 되었습니다. 엠파이어 스테이트 빌딩은 현재 미국에서 네 번째로 높은 마천루이며(시카고에 있는 원 월드 트레이드 센터, 윌리스 타워, 트럼프 인터내셔널 호텔 앤 타워에 이어), 세계에서 25번째로 높은 마천루입니다(현재 가장 높은 마천루는 두바이에 위치한 부르즈 칼리파입니다). 그것은 또한 아메리카에서 다섯 번째로 높은 자립식 건물입니다.</Text>
@@ -439,7 +439,7 @@
 			<Text>유럽 입자물리 연구소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CERN_HELP">
-			<Text>[COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다. 모든 [ICON_CITY_STATE]도시 국가에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_RESEARCH_STORED]유료 기술[ENDCOLOR]을 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다. 모든 [ICON_CITY_STATE]도시 국가에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CERN_TEXT">
 			<Text>CERN으로 알려진 유럽 핵 연구 기구는 세계에서 가장 큰 입자 물리학 실험실을 운영하는 것을 목적으로 하는 유럽의 연구 기관입니다. 1954년에 설립된 이 단체는 프랑스-스위스 국경의 제네바 북서부 교외에 기반을 두고 있으며 21개의 유럽 회원국이 있습니다. 이스라엘은 정회원 자격을 부여받은 첫 번째(현재 유일한) 비유럽 국가입니다. CERN이라는 용어는 또한 2013년에 2513명의 직원을 거느리고 608개의 대학과 연구 시설 및 113개 국가를 대표하는 방문 과학자 및 엔지니어뿐만 아니라 약 12,313명의 펠로우, 동료, 견습생을 수용한 연구소를 지칭하는 데 사용됩니다. CERN의 주요 기능은 고에너지 물리학 연구에 필요한 입자 가속기 및 기타 인프라를 제공하는 것입니다. 그 결과 국제적인 협력에 따라 CERN에서 수많은 실험이 구성되었습니다. 이곳은 또한 월드 와이드 웹의 발상지이기도 합니다. Meyrin의 주요 사이트에는 주로 실험 데이터 분석을 위한 강력한 데이터 처리 시설이 들어 있는 대규모 컴퓨터 센터가 있습니다. 이러한 시설을 다른 곳의 연구자들이 이용할 수 있도록 해야 하는 필요성 때문에 역사적으로 주요 광역 네트워킹 허브였습니다.</Text>
@@ -452,7 +452,7 @@
 			<Text>로마 포럼</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FORUM_STRATEGY">
-			<Text>더 잘 훈련된 외교 부대를 통해 도시 국가들과의 관계를 영원히 증진시킬 수 있는 세계 불가사의입니다.  인근 도시 국가로 보낼 수 있는 무료 위대한 외교관을 얻기 위해 이 불가사의를 건설하십시오.</Text>
+			<Text>더 잘 훈련된 외교 부대를 통해 도시 국가들과의 관계를 영원히 증진시킬 수 있는 세계 불가사의입니다.  인근 도시 국가로 보낼 수 있는 유료 위대한 외교관을 얻기 위해 이 불가사의를 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FORUM_HELP">
 			<Text>[ICON_DIPLOMAT][COLOR_YELLOW]위대한 외교관[ENDCOLOR]이 1명 출현합니다. [ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]황실 봉인[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
@@ -570,7 +570,7 @@
 			<Text>시드 무역 주식회사를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ_HELP">
-			<Text>시드 무역 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]시드 무역 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 시드 무역 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
+			<Text>시드 무역 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]시드 무역 오피스[ENDCOLOR]를 유료로 제공하고 소유한 도시에 시드 무역 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_TRADER_SIDS">
 			<Text>[NEWLINE][TAB][TAB]"머천다이징, 머천다이징, 영화에서 나오는 진짜 돈이 만들어지는 곳."[NEWLINE][TAB][TAB]  - 요구르트[NEWLINE][TAB]</Text>
@@ -605,7 +605,7 @@
 			<Text>센타우리 개발을 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ_HELP">
-			<Text>센타우리 개발 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]센타우리 개발 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 센타우리 개발 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
+			<Text>센타우리 개발 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]센타우리 개발 오피스[ENDCOLOR]를 유료로 제공하고 소유한 도시에 센타우리 개발 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_LANDSEA">
 			<Text>[NEWLINE][TAB][TAB]"첫 번째 교훈: 상대방의 욕심을 과소평가하지 마라."[NEWLINE][TAB][TAB]  - 프랭크 로페즈[NEWLINE][TAB]</Text>
@@ -640,7 +640,7 @@
 			<Text>헥손 정유를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ_HELP">
-			<Text>헥손 정유 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]헥손 정유 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 헥손 정유 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
+			<Text>헥손 정유 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]헥손 정유 오피스[ENDCOLOR]를 유료로 제공하고 소유한 도시에 헥손 정유 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_HEXXON">
 			<Text>[NEWLINE][TAB][TAB]"나는 당신에게 단 한마디만 말하고 싶습니다. 플라스틱이라는 단 한마디."[NEWLINE][TAB][TAB]  - 맥과이어[NEWLINE][TAB]</Text>
@@ -675,7 +675,7 @@
 			<Text>조르지오 아르미에를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ_HELP">
-			<Text>조르지오 아르미에 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]조르지오 아르미에 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 조르지오 아르미에 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
+			<Text>조르지오 아르미에 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]조르지오 아르미에 오피스[ENDCOLOR]를 유료로 제공하고 소유한 도시에 조르지오 아르미에 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_GA">
 			<Text>[NEWLINE][TAB][TAB]"패션은 꿈을 꾸고 다른 사람들을 꿈꾸게 하는 것이다."[NEWLINE][TAB][TAB]  - 도나텔라 베르사체[NEWLINE][TAB]</Text>
@@ -689,7 +689,7 @@
 			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 조르지오 아르미에 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]조르지오 아르미에는 팔거나 파괴될 수 없고, 모든 조르지오 아르미에 오피스의 [ICON_CULTURE] 문화 산출량을 +2 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HELP">
-			<Text>다른 문명의 도시에 설립한 모든 조르지오 아르미에 프랜차이즈마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹 및 [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]조르지오 아르미에 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>다른 문명의 도시에 설립한 모든 조르지오 아르미에 프랜차이즈마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](한도: 문명의 프랜차이즈 한도까지만 증가)[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹 및 [ICON_CULTURE]유료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]조르지오 아르미에 프랜차이즈를 설립한 다른 문명의 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE">
@@ -710,7 +710,7 @@
 			<Text>파이락사이트 소재를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ_HELP">
-			<Text>파이락사이트 소재 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]파이락사이트 소재 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 파이락사이트 소재 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
+			<Text>파이락사이트 소재 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]파이락사이트 소재 오피스[ENDCOLOR]를 유료로 제공하고 소유한 도시에 파이락사이트 소재 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_FIRAXITE">
 			<Text>[NEWLINE][TAB][TAB]"우리가 어떤 좋은 것을 만들든 결국 우리를 만들죠."[NEWLINE][TAB][TAB]  - 짐 론[NEWLINE][TAB]</Text>
@@ -745,7 +745,7 @@
 			<Text>투케이 푸드를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ_HELP">
-			<Text>투케이 푸드 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]투케이 푸드 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 투케이 푸드 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
+			<Text>투케이 푸드 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]투케이 푸드 오피스[ENDCOLOR]를 유료로 제공하고 소유한 도시에 투케이 푸드 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_TWOKAY">
 			<Text>[NEWLINE][TAB][TAB]"음식에 대한 사랑보다 더 진실한 사랑은 없다."[NEWLINE][TAB][TAB]  - 조지 버나드 쇼[NEWLINE][TAB]</Text>
@@ -780,7 +780,7 @@
 			<Text>시빌 보석를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_HELP">
-			<Text>시빌 보석 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]시빌 보석 오피스[ENDCOLOR]를 무료로 제공하고 소유한 도시에 시빌 보석 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
+			<Text>시빌 보석 기업을 설립합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]시빌 보석 오피스[ENDCOLOR]를 유료로 제공하고 소유한 도시에 시빌 보석 오피스를 건설할 수 있는 능력을 해제합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_CIVILIZED">
 			<Text>[NEWLINE][TAB][TAB]"더 싼 좌석에 앉은 사람들이 박수를 칠까요? 나머지 분들은 보석을 좀 딸랑여 보세요."[NEWLINE][TAB][TAB]  - 존 레논[NEWLINE][TAB]</Text>
@@ -827,7 +827,7 @@
 			<Text>교회 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 교회는 도시의 종교 압력을 증가시킵니다. 국왕 경축일을 시작합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_HELP">
-			<Text>건물이 완성되면 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>건물이 완성되면 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가합니다. [ICON_CULTURE]유료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_TEXT">
 			<Text>교회 건물은 종교 활동, 특히 예배에 사용되는 건물입니다. 건축적인 의미에서 이 용어는 기독교인들이 그들의 종교적 건물을 언급하기 위해 가장 자주 사용되지만 다른 종교에서도 사용될 수 있습니다. 전통적인 기독교 건축에서, 교회는 종종 기독교 십자가 모양으로 배열됩니다. 평면뷰에서 볼 때 십자가의 가장 긴 부분은 통로로 표현되며 십자가의 접합부는 제단 영역에 위치합니다.</Text>
@@ -896,7 +896,7 @@
 			도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량이 +10% 증가하고 도시의 [ICON_STRENGTH] 방어력이 +10% 증가합니다. 낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_PEDIA">
-			<Text>"구루의 문"을 의미하는 구루드와라는 시크교도의 예배 장소입니다. 모든 구루드와라에는 높은 연단에 놓인 신성한 시크교 경전인 구루 그란트 사히브가 포함되어 있습니다. 이 연단에서 라디스는 회중을 위해 경전을 암송하고 노래하고 설명합니다. 모든 구루드와라의 또 다른 보편적인 기능은 랑가르라는 커뮤니티 식당입니다. 시크교도는 인종, 카스트, 지위 또는 종교에 관계없이 모든 커뮤니티 구성원이 무료로 식사와 자원 봉사를 할 수 있도록 무료 채식 식사를 제공하는 것을 매우 중요하게 생각합니다.</Text>
+			<Text>"구루의 문"을 의미하는 구루드와라는 시크교도의 예배 장소입니다. 모든 구루드와라에는 높은 연단에 놓인 신성한 시크교 경전인 구루 그란트 사히브가 포함되어 있습니다. 이 연단에서 라디스는 회중을 위해 경전을 암송하고 노래하고 설명합니다. 모든 구루드와라의 또 다른 보편적인 기능은 랑가르라는 커뮤니티 식당입니다. 시크교도는 인종, 카스트, 지위 또는 종교에 관계없이 모든 커뮤니티 구성원이 유료로 식사와 자원 봉사를 할 수 있도록 유료 채식 식사를 제공하는 것을 매우 중요하게 생각합니다.</Text>
 		</Row>
 
 		<!-- Cathedral -->
@@ -911,7 +911,7 @@
 
 		<!-- Pagoda -->
 		<Row Tag="TXT_KEY_BUILDING_PAGODA_HELP">
-			<Text>도시의 [ICON_CITIZEN]시민이 따르는 세계 종교 1개마다 모든 도시의 산출량이  [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_RELIGION]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 감소합니다.</Text>
+			<Text>도시의 [ICON_CITIZEN]시민이 따르는 세계 종교 1개마다 모든 도시의 산출량이  [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CULTURE]유료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_RELIGION]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM">

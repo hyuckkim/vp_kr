@@ -1,9 +1,9 @@
 UPDATE Language_ko_KR
-SET Text = '맨해튼 프로젝트를 완성하면 도시에서 원자폭탄과 핵미사일을 생산할 수 있습니다.[NEWLINE][NEWLINE]당신의 문명이 처음으로 프로젝트를 완료했다면 [ICON_CAPITAL]수도에 무료 [COLOR_YELLOW]원자폭탄[ENDCOLOR] 1개가 출현하고 [COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다.'
+SET Text = '맨해튼 프로젝트를 완성하면 도시에서 원자폭탄과 핵미사일을 생산할 수 있습니다.[NEWLINE][NEWLINE]당신의 문명이 처음으로 프로젝트를 완료했다면 [ICON_CAPITAL]수도에 유료 [COLOR_YELLOW]원자폭탄[ENDCOLOR] 1개가 출현하고 [COLOR_YELLOW]연구소[ENDCOLOR]를 유료로 제공합니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '맨해튼 프로젝트를 완성하면 해당 문명은 핵무기를 제조할 수 있게 됩니다. 핵무기를 제조하려면 각 문명은 맨해튼 프로젝트를 완성해야 합니다. 처음으로 맨해튼 프로젝트를 완료했다면, 수도에 무료 연구소와 원자폭탄을 제공합니다.'
+SET Text = '맨해튼 프로젝트를 완성하면 해당 문명은 핵무기를 제조할 수 있게 됩니다. 핵무기를 제조하려면 각 문명은 맨해튼 프로젝트를 완성해야 합니다. 처음으로 맨해튼 프로젝트를 완료했다면, 수도에 유료 연구소와 원자폭탄을 제공합니다.'
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY';
 
 UPDATE Language_ko_KR

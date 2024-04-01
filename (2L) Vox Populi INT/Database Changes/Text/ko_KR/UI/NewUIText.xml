@@ -572,7 +572,7 @@
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]정복된 도시 국가에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECHS_NEEDED_FOR_NEXT_FREE_POLICY">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]무료 사회 정책의 채택까지 남은 기술: {1_Num}[ENDCOLOR]</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]유료 사회 정책의 채택까지 남은 기술: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_VASSALS">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  종속국에서 획득</Text>
@@ -660,7 +660,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_RESEARCH]문맹에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_BOREDOM">
-			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_CULTURE]무료에서 획득</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_CULTURE]유료에서 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_DISTRESS">
 			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]  [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 획득</Text>
@@ -869,7 +869,7 @@
 
 		<!-- Trade unit move-to picker -->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_BOREDOM">
-			<Text>[ICON_CULTURE]무료: {1_Num}</Text>
+			<Text>[ICON_CULTURE]유료: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_ITEM_CITY_TT">
 			<Text>[COLOR_POSITIVE_TEXT]{1_CityName}에서 출발 가능한 교역로:[ENDCOLOR]</Text>
@@ -1468,7 +1468,7 @@
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 문맹에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_RESEARCH][COLOR_CYAN]{2_Num:number "#.##"}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_RESEARCH]{5_Num:number "#.##"} 증가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BOREDOM_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 무료에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_CULTURE][COLOR_CYAN]{2_Num:number "#.##"}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_CULTURE]{5_Num:number "#.##"} 증가</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 유료에서[NEWLINE]          실제[ICON_HAPPINESS_3]: {3_Num} ({4_Num} 감소)[NEWLINE]          총 부족: [ICON_CULTURE][COLOR_CYAN]{2_Num:number "#.##"}[ENDCOLOR][NEWLINE]          [ICON_HAPPINESS_3]-1 마다 [ICON_CULTURE]{5_Num:number "#.##"} 증가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RELIGIOUS_UNREST_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 종교 분쟁에서 [NEWLINE]           감소: {3_Num}, {2_Icon} 신도 필요</Text>
@@ -1687,7 +1687,7 @@
 			<Text>프랜차이즈</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_FREE_TR_LABEL">
-			<Text>무료 교역로</Text>
+			<Text>유료 교역로</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATION_RESOURCE_BONUS_LABEL">
 			<Text>프랜차이즈 자원 보너스</Text>
@@ -1861,7 +1861,7 @@
 			<Text>시대별 산출량 증가:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_PROMOTE_OWNED">
-			<Text>[NEWLINE]새로 생산된 유닛에 무료 승급:[NEWLINE]{1_PromoteString}</Text>
+			<Text>[NEWLINE]새로 생산된 유닛에 유료 승급:[NEWLINE]{1_PromoteString}</Text>
 		</Row>
 
 		<!-- Leader screen -->
@@ -2928,7 +2928,7 @@
 			<Text>[ICON_BULLET] [ICON_TOURISM] 관광 전파 속도 +33%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_BENEFITS_DIPLOMAT">
-			<Text>[ICON_BULLET] [ICON_CAPITAL] 수도에 무료 [ICON_DIPLOMAT]외교관 1명</Text>
+			<Text>[ICON_BULLET] [ICON_CAPITAL] 수도에 유료 [ICON_DIPLOMAT]외교관 1명</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_BENEFITS_YIELD_PERCENTAGE">
 			<Text>[ICON_BULLET] 종속국의 [ICON_RESEARCH], [ICON_CULTURE], [ICON_PEACE] 20% 제공</Text>
@@ -3357,13 +3357,13 @@
 
 		<!-- Choose tech button -->
 		<Row Tag ="TXT_KEY_MISC_COMPLETED_POLICY_UA_CHOOSE_TECH">
-			<Text>정책을 완성했습니다! 무료 기술을 선택할 수 있습니다...</Text>
+			<Text>정책을 완성했습니다! 유료 기술을 선택할 수 있습니다...</Text>
 		</Row>
 		<Row Tag ="TXT_KEY_MISC_CHOSE_IDEOLOGY_UA_CHOOSE_TECH">
-			<Text>이념을 선택할 수 있습니다! 무료 기술을 선택할 수 있습니다...</Text>
+			<Text>이념을 선택할 수 있습니다! 유료 기술을 선택할 수 있습니다...</Text>
 		</Row>
 		<Row Tag ="TXT_KEY_MISC_CHOSE_BELIEF_UA_CHOOSE_TECH">
-			<Text>종교를 채택했습니다! 무료 기술을 선택할 수 있습니다...</Text>
+			<Text>종교를 채택했습니다! 유료 기술을 선택할 수 있습니다...</Text>
 		</Row>
 
 		<!-- Long Count picker -->

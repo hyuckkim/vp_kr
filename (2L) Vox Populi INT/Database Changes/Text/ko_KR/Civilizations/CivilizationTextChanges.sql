@@ -53,11 +53,11 @@ SET Text = '도시를 정복한 후 해당 도시의 소유자가 발견한 [COL
 WHERE Tag = 'TXT_KEY_TRAIT_SLAYER_OF_TIAMAT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 2명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 모든 도서관의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 도시에 [ICON_VP_GREATWRITING][COLOR_POSITIVE_TEXT]걸작 문학[ENDCOLOR] 1개와 [COLOR_YELLOW]{TXT_KEY_BUILDING_LIBRARY}[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE] 당신의 문명이 통제하고 있는 모든 [ICON_VP_GREATWRITING]걸작 문학마다 모든 도시에서 생산하는 유닛의 경험치가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](한도: 45)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]모든 도시의 [ICON_RESEARCH] 문맹 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다. 이 도시의 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.[NEWLINE][NEWLINE][ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. [COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PRODUCTION]생산 +3 [ICON_RESEARCH]과학 +3[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
+SET Text = '[ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민 2명마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 모든 도서관의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 도시에 [ICON_VP_GREATWRITING][COLOR_POSITIVE_TEXT]걸작 문학[ENDCOLOR] 1개와 [COLOR_YELLOW]{TXT_KEY_BUILDING_LIBRARY}[ENDCOLOR]을 유료로 제공합니다.[NEWLINE][NEWLINE] 당신의 문명이 통제하고 있는 모든 [ICON_VP_GREATWRITING]걸작 문학마다 모든 도시에서 생산하는 유닛의 경험치가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255](한도: 45)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]모든 도시의 [ICON_RESEARCH] 문맹 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다. 이 도시의 전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.[NEWLINE][NEWLINE][ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. [COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PRODUCTION]생산 +3 [ICON_RESEARCH]과학 +3[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_BUILDING_NATIONAL_COLLEGE}을 대체하는 아라비아의 고유 건물입니다. 대체하는{TXT_KEY_BUILDING_NATIONAL_COLLEGE} 의 과학 산출 외에도, {TXT_KEY_BUILDING_ROYAL_LIBRARY_DESC}은 추가[ICON_RESEARCH] 과학과 [ICON_CULTURE] 문화를 생성하며 모든 도서관을 강화합니다. 세 개의 [ICON_VP_GREATWRITING] 작가 슬롯을 가지고, 걸작 문학 한 개와 도서관을 도시에 제공하며 더 이른 시기에 건설할 수 있습니다. 모든 도서관에 보너스를 제공하고, 모든 도시의 유닛이 걸작 문학의 개수에 비례해 경험치 보너스를 받습니다. (최대 45) {TXT_KEY_BUILDING_NATIONAL_COLLEGE}와 달리, {TXT_KEY_BUILDING_ROYAL_LIBRARY_DESC}는 [COLOR_CYAN]{TXT_KEY_TECH_WRITING_TITLE}[ENDCOLOR] 연구 시 생산할 수 있고, {TXT_KEY_BUILDING_LIBRARY}를 요구하는 대신 무료로 제공합니다.'
+SET Text = '{TXT_KEY_BUILDING_NATIONAL_COLLEGE}을 대체하는 아라비아의 고유 건물입니다. 대체하는{TXT_KEY_BUILDING_NATIONAL_COLLEGE} 의 과학 산출 외에도, {TXT_KEY_BUILDING_ROYAL_LIBRARY_DESC}은 추가[ICON_RESEARCH] 과학과 [ICON_CULTURE] 문화를 생성하며 모든 도서관을 강화합니다. 세 개의 [ICON_VP_GREATWRITING] 작가 슬롯을 가지고, 걸작 문학 한 개와 도서관을 도시에 제공하며 더 이른 시기에 건설할 수 있습니다. 모든 도서관에 보너스를 제공하고, 모든 도시의 유닛이 걸작 문학의 개수에 비례해 경험치 보너스를 받습니다. (최대 45) {TXT_KEY_BUILDING_NATIONAL_COLLEGE}와 달리, {TXT_KEY_BUILDING_ROYAL_LIBRARY_DESC}는 [COLOR_CYAN]{TXT_KEY_TECH_WRITING_TITLE}[ENDCOLOR] 연구 시 생산할 수 있고, {TXT_KEY_BUILDING_LIBRARY}를 요구하는 대신 유료로 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -185,7 +185,7 @@ WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY';
 -- Carthage
 --------------------
 UPDATE Language_ko_KR
-SET Text = '도시를 설립할 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]125[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 모든 해안 도시에 [COLOR_POSITIVE_TEXT]등대[ENDCOLOR]를 무료로 제공합니다. 교역로에서 오는 자원 다양성 수치가 양수면 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 설립할 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]125[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 모든 해안 도시에 [COLOR_POSITIVE_TEXT]등대[ENDCOLOR]를 유료로 제공합니다. 교역로에서 오는 자원 다양성 수치가 양수면 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE';
 
 
@@ -300,7 +300,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE_STRATEGY';
 -- Ethiopia
 --------------------
 UPDATE Language_ko_KR
-SET Text = '정책 계열을 완성하거나 교리를 채택하거나 또는 첫 이념을 선택할 때 [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 1개 제공합니다. 전략 자원의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '정책 계열을 완성하거나 교리를 채택하거나 또는 첫 이념을 선택할 때 [COLOR_RESEARCH_STORED]유료 기술[ENDCOLOR]을 1개 제공합니다. 전략 자원의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_BONUS_AGAINST_TECH';
 
 UPDATE Language_ko_KR
@@ -759,7 +759,7 @@ WHERE Tag = 'TXT_KEY_UNIT_PERSIAN_IMMORTAL_STRATEGY';
 -- Poland
 --------------------
 UPDATE Language_ko_KR
-SET Text = '고전 시대에 진입할 때, 그리고 그 이후 두 시대마다 [COLOR_MAGENTA]무료 정책[ENDCOLOR] 1개를 획득합니다. 처음으로 이념을 채택하면 무료 이념 주의 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 추가로 제공합니다.'
+SET Text = '고전 시대에 진입할 때, 그리고 그 이후 두 시대마다 [COLOR_MAGENTA]유료 정책[ENDCOLOR] 1개를 획득합니다. 처음으로 이념을 채택하면 유료 이념 주의 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 추가로 제공합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SOLIDARITY';
 
 UPDATE Language_ko_KR
@@ -767,7 +767,7 @@ SET Text = '[ICON_RES_HORSE]말 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합
 WHERE Tag = 'TXT_KEY_BUILDING_DUCAL_STABLE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_BUILDING_STABLE}을 대체하는 폴란드의 고유 건물입니다. {TXT_KEY_BUILDING_DUCAL_STABLE_DESC}는 {TXT_KEY_BUILDING_STABLE}의 보너스에 더해 기마 유닛 생산 시 [ICON_PRODUCTION] 생산력 보너스와 추가 경험치를 얻고, 목장 자원들을 크게 강화합니다. 또한 건설 시 목장을 요구하는 대신 무료 [ICON_RES_HORSE] 말을 획득합니다.'
+SET Text = '{TXT_KEY_BUILDING_STABLE}을 대체하는 폴란드의 고유 건물입니다. {TXT_KEY_BUILDING_DUCAL_STABLE_DESC}는 {TXT_KEY_BUILDING_STABLE}의 보너스에 더해 기마 유닛 생산 시 [ICON_PRODUCTION] 생산력 보너스와 추가 경험치를 얻고, 목장 자원들을 크게 강화합니다. 또한 건설 시 목장을 요구하는 대신 유료 [ICON_RES_HORSE] 말을 획득합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -894,7 +894,7 @@ SET Text = '레콩키스타'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '타일을 획득하면 [ICON_GOLD]골드가 10, [ICON_PEACE]신앙이 4 증가합니다.[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 이단심문관이 더 강력해지고, 더 이른 시기에 생산할 수 있으며 유지비가 들지 않습니다. 도시를 정복할 때마다 [ICON_INQUISITOR]이단심문관을 무료로 제공합니다. [ICON_PEACE]신앙으로 해상 유닛을 구매할 수 있습니다.'
+SET Text = '타일을 획득하면 [ICON_GOLD]골드가 10, [ICON_PEACE]신앙이 4 증가합니다.[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 이단심문관이 더 강력해지고, 더 이른 시기에 생산할 수 있으며 유지비가 들지 않습니다. 도시를 정복할 때마다 [ICON_INQUISITOR]이단심문관을 유료로 제공합니다. [ICON_PEACE]신앙으로 해상 유닛을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES';
 
 UPDATE Language_ko_KR
@@ -1006,7 +1006,7 @@ SET Text = '{TXT_KEY_UNIT_GREAT_MERCHANT}을 대체하는 베네치아의 고유
 WHERE Tag = 'TXT_KEY_UNIT_HELP_VENETIAN_MERCHANT';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_VENETIAN_MERCHANT}은 {TXT_KEY_UNIT_GREAT_MERCHANT}을 대체하는 베네치아의 고유 유닛입니다. 무역 임무 시 더 많은 [ICON_GOLD] 골드를 생성합니다. 또한 도시 국가를 사들여, 베네치아의 괴뢰 도시로 만들 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]식민지[ENDCOLOR]를 설립할 수 있습니다. 식민지는 3 [ICON_CITIZEN] 시민으로 시작하고, 3 타일을 추가로 얻고, {TXT_KEY_BUILDING_MONUMENT_DESC} 및 {TXT_KEY_BUILDING_MARKET}을 무료로 얻습니다. {TXT_KEY_UNIT_VENETIAN_MERCHANT}는 이 중 하나를 사용하면 소모됩니다.[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 자동으로 건설된 건물에 적용되지 않습니다!'
+SET Text = '{TXT_KEY_UNIT_VENETIAN_MERCHANT}은 {TXT_KEY_UNIT_GREAT_MERCHANT}을 대체하는 베네치아의 고유 유닛입니다. 무역 임무 시 더 많은 [ICON_GOLD] 골드를 생성합니다. 또한 도시 국가를 사들여, 베네치아의 괴뢰 도시로 만들 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]식민지[ENDCOLOR]를 설립할 수 있습니다. 식민지는 3 [ICON_CITIZEN] 시민으로 시작하고, 3 타일을 추가로 얻고, {TXT_KEY_BUILDING_MONUMENT_DESC} 및 {TXT_KEY_BUILDING_MARKET}을 유료로 얻습니다. {TXT_KEY_UNIT_VENETIAN_MERCHANT}는 이 중 하나를 사용하면 소모됩니다.[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 자동으로 건설된 건물에 적용되지 않습니다!'
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_MERCHANT_STRATEGY';
 
 UPDATE Language_ko_KR ----내가추가

@@ -367,13 +367,13 @@
 			<Text>기술 공유 {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_FREETECHS">
-			<Text>무료 [COLOR_CYAN]기술 {1}[ENDCOLOR]</Text>
+			<Text>유료 [COLOR_CYAN]기술 {1}[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_FREEPOLICIES">
-			<Text>무료 [COLOR_MAGENTA]정책 {1}[ENDCOLOR]</Text>
+			<Text>유료 [COLOR_MAGENTA]정책 {1}[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_FREEGREATPEOPLE">
-			<Text>무료 [COLOR_UNIT_TEXT]위인 {1}[ENDCOLOR]</Text>
+			<Text>유료 [COLOR_UNIT_TEXT]위인 {1}[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_MEDIANTECHPERCENTCHANGE">
 			<Text>기술력 중간값: {1}%</Text>
@@ -464,7 +464,7 @@
 			<Text>전역 군사 보급 한도:</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_GRANTED_BY">
-			<Text>다음 건물 건설 시 무료로 제공</Text>
+			<Text>다음 건물 건설 시 유료로 제공</Text>
 		</Replace>
 		<!-- VP end -->
 		<!-- MISC EUI tooltips -->

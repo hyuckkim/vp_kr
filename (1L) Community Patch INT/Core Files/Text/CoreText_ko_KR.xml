@@ -6907,7 +6907,7 @@
 			<Text>+{1_Num}% 더 적은 도시 수에서[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_BOREDOM">
-			<Text>+{1_Num}% 문명 전역의 무료에서[NEWLINE]</Text>
+			<Text>+{1_Num}% 문명 전역의 유료에서[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
 			<Text>[COLOR_POSITIVE_TEXT]적용 중인 [COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
@@ -7732,10 +7732,10 @@
 			<Text>[ICON_RESEARCH]연구 협약:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_REFUND">
-			<Text>[ICON_PRODUCTION]무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PRODUCTION]유료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_REFUND">
-			<Text>[ICON_PEACE]무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PEACE]유료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<!-- Quest Data -->
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
@@ -8149,7 +8149,7 @@
 			<Text>[NEWLINE]   [ICON_BULLET] [ICON_RESEARCH]문맹에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_CULTURE">
-			<Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE]무료에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE]유료에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_DEFENSE">
 			<Text>[NEWLINE]   [ICON_BULLET] [ICON_PRODUCTION]/[ICON_FOOD]낙후에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
@@ -8161,7 +8161,7 @@
 			<Text>[NEWLINE]   [ICON_BULLET] [ICON_RESEARCH]문맹에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_CULTURE_POS">
-			<Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE]무료에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE]유료에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_DEFENSE_POS">
 			<Text>[NEWLINE]   [ICON_BULLET] [ICON_PRODUCTION]/[ICON_FOOD]낙후에서: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>

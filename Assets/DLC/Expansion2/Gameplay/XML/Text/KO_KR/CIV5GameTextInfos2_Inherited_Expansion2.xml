@@ -1705,16 +1705,16 @@
       <Text>비전투 유닛에는 개척자, 노동자, 작업선, 위인, 우주선 부품, 종교 유닛의 여섯 가지 종류가 있으며 모두 문명의 성공에 없어서는 안 될 존재입니다. ‘비전투’라는 말에서 알 수 있듯이 이 유닛들은 싸우지 못합니다. 타일에 혼자 있다가 적 유닛에 공격당하면 자동으로 생포되거나 파괴됩니다. 따라서 험한 곳으로 내보낼 때는 군사 유닛으로 보호하는 것이 안전합니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP"> <!--알함브라-->
-      <Text>이 도시에서 생산하는 지상 유닛은 [COLOR_PLAYER_PURPLE]훈련 I[ENDCOLOR] ([COLOR_POSITIVE_TEXT]험지[ENDCOLOR]에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]) 승급이 부여됩니다. 이 불가사의를 건설한 도시에 [COLOR_POSITIVE_TEXT]성[ENDCOLOR]을 무료로 제공합니다. 이 불가사의가 건설된 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>이 도시에서 생산하는 지상 유닛은 [COLOR_PLAYER_PURPLE]훈련 I[ENDCOLOR] ([COLOR_POSITIVE_TEXT]험지[ENDCOLOR]에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]) 승급이 부여됩니다. 이 불가사의를 건설한 도시에 [COLOR_POSITIVE_TEXT]성[ENDCOLOR]을 유료로 제공합니다. 이 불가사의가 건설된 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_CN_TOWER_HELP"> <!--CN타워-->
-      <Text>모든 도시에 [COLOR_POSITIVE_TEXT]방송탑[ENDCOLOR]을 무료로 제공합니다. 모든 도시의 [ICON_CITIZEN]시민이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>모든 도시에 [COLOR_POSITIVE_TEXT]방송탑[ENDCOLOR]을 유료로 제공합니다. 모든 도시의 [ICON_CITIZEN]시민이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP"> <!--아야-->
-      <Text>[ICON_PROPHET]위대한 선지자 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다. 이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>[ICON_PROPHET]위대한 선지자 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다. 이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]을 유료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_HUBBLE_HELP"> <!--허블-->
-      <Text>이 불가사의가 건설된 도시에 [ICON_GREAT_SCIENTIST]위대한 과학자 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 출현하고 [COLOR_POSITIVE_TEXT]우주선 공장[ENDCOLOR]을 무료로 제공합니다. 우주선 부품을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>이 불가사의가 건설된 도시에 [ICON_GREAT_SCIENTIST]위대한 과학자 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 출현하고 [COLOR_POSITIVE_TEXT]우주선 공장[ENDCOLOR]을 유료로 제공합니다. 우주선 부품을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_WONDER_LEANING_TOWER_HELP"> <!--피사-->
       <Text>모든 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도에 원하는 위인 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
