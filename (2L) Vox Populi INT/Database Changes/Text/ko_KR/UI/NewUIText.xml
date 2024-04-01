@@ -390,7 +390,7 @@
 			<Text>그들은 당신이 {1_CityStateName:textkey}{1: plural 1?을; 2?를;} 해방해주길 요청합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE_FORMAL">
-			<Text>야만인 무리로부터 그들을 보호하십시오!</Text>
+			<Text>야만인 무리로부터 그들을 보호하십시오! 퀘스트가 끝날 때에 야만인이 이 도시에 인접해 있다면, 도시가 야만인으로 전락할 것입니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION_FORMAL">
 			<Text>그들의 동맹에 대항하는 혁명이 발생하고 있습니다!</Text>
