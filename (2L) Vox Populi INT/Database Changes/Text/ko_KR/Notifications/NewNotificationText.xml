@@ -107,13 +107,13 @@
 			<Text>{1_PlayerName} 음악가가 도착했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MONOPOLY_GAINED">
-			<Text>전 세계 [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]의 50% 이상을 장악하고 있기 때문에 현재 글로벌 독점을 가지고 있습니다![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+			<Text>전 세계 [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]의 50%를 초과해 장악하고 있기 때문에 현재 글로벌 독점을 가지고 있습니다![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MONOPOLY_GAINED">
 			<Text>[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]의 글로벌 독점을 가지고 있습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_MONOPOLY_GAINED">
-			<Text>{3_CivName}{3: plural 1?이; 2?가;} 전 세계 [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]의 50% 이상을 장악하고 있기 때문에 현재 글로벌 독점을 가지고 있습니다![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+			<Text>{3_CivName}{3: plural 1?이; 2?가;} 전 세계 [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]의 50%를 초과해 장악하고 있기 때문에 현재 글로벌 독점을 가지고 있습니다![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OTHER_PLAYER_MONOPOLY_GAINED">
 			<Text>{2_CivName}{2: plural 1?이; 2?가;} [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]의 글로벌 독점을 가지고 있습니다!</Text>
