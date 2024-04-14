@@ -869,7 +869,7 @@
 			<Text>기사단은 중세부터 십자군 원정을 목적으로 설립된 다양한 기독교 단체 중 하나이며, 성지 또는 이슬람교(예를 들어 레콘키스타 기간 동안) 또는 이교도들 (주로 발트해 지역)에 대항하여 신앙을 전파하거나 방어합니다. 십자군 전쟁이 끝나고 오스만 제국이 침공한 이후 많은 수도회가 세속화되었으며, 현대에 와서는 보통 로마 가톨릭의 의식, 선교 및 자선 단체로 대표됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
-			<Text>이 도시에서 군사 유닛을 생산하면, 유닛의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_PEACE] 신앙을 제공합니다. 유닛을 [ICON_PEACE] 신앙으로 구매하면 유닛을 생산했을 때의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_GOLD] 골드를 제공합니다. 이 도시에서 생산한 유닛이 열의 승급을 얻습니다. [NEWLINE][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 3 증가하고 [ICON_RANGE_STRENGTH] 포격의 공격력이 10% 증가합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>이 도시에서 군사 유닛을 생산하면, 유닛의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_PEACE] 신앙을 제공합니다. [ICON_PEACE] 신앙 구매 시 10%만큼 [ICON_PRODUCTION] 생산을 제공합니다. 이 도시에서 생산한 유닛이 열의 승급을 얻습니다. [NEWLINE][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 3 증가하고 [ICON_RANGE_STRENGTH] 포격의 공격력이 10% 증가합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI">
