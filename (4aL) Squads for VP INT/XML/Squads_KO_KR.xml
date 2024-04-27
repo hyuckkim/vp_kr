@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/30/2023 12:08:52 PM -->
+<GameData>
+
+    <Language_ko_KR>
+        <Row Tag="TXT_KEY_SQUADS">
+            <Text>부대</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_TITLE">
+            <Text>부대 for VP</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MANAGE_SQUAD">
+            <Text>부대 관리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVE_SQUAD">
+            <Text>부대 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_RESET_SQUAD">
+            <Text>부대 초기화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_NAME">
+            <Text>부대 이름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_OPTIONS">
+            <Text>관리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_OPTION_HIGHLIGHT">
+            <Text>부대 유닛 강조</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_OPTION_FLAGS_NUMBER">
+            <Text>유닛 깃발에 부대 번호 표시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE">
+            <Text>부대 이동 종료시 행동:</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE_ALERT_ON_ARRIVAL">
+            <Text>도착 시 알림</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE_WAKE_ON_UNIT_ARRIVAL">
+            <Text>각 유닛 도착 시 활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE_WAKE_ON_SQUAD_ARRIVAL">
+            <Text>부대 도착 시 활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_TT_MANAGE_SQUAD">
+            <Text>관리 모드에 진입해, 유닛 또는 유닛 깃발에 [COLOR_YELLOW]좌클릭[ENDCOLOR]으로 추가하거나 제거합니다. [COLOR_YELLOW]우클릭[ENDCOLOR] 후 드래그하면 모든 유닛을 추가할 수 있습니다. 관리 모드는 부대별로 [COLOR_YELLOW]CTRL+숫자[ENDCOLOR] 키로 진입할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_TT_MOVE_SQUAD">
+            <Text>이동 모드에 진입해, 지형에 [COLOR_YELLOW]우클릭[ENDCOLOR]해 모든 유닛을 해당 구역으로 이동시킵니다. 이동 모드는 부대에 맞는 숫자 키를 두 번 눌러 진입할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_TT_RESET_SQUAD">
+            <Text>부대에서 모든 유닛을 해제합니다. 유닛 리스트에서 [COLOR_YELLOW]우클릭[ENDCOLOR]해 삭제할 수도 있습니다.</Text>
+        </Row>
+    </Language_ko_KR>
+  
+</GameData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b305a47e-dcb1-4e19-ac5d-9b8b3d5ceb3d" version="1">
+  <Properties>
+    <Name>(4aL) Squads for VP INT</Name>
+    <Teaser>Korean Translate of (4a) Squads for VP</Teaser>
+    <Description>Korean Translate of (4a) Squads for VP</Description>
+    <Authors>me</Authors>
+    <SpecialThanks>you</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="3645dbca-bdfb-4d86-bdc5-46cb5a426cc2" minversion="1" maxversion="999" title="(4a) Squads for VP" />
+  </Dependencies>
+  <Files>
+    <File md5="EB35397F372B6055CAAEFFE4D2F63EF1" import="0">XML/Squads_KO_KR.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Squads_KO_KR.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
