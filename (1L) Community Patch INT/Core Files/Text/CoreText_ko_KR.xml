@@ -7614,6 +7614,9 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH_RETROACTIVE">
 			<Text>도시의 총 [ICON_CITIZEN]시민 :[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TECH_RETROACTIVE">
+			<Text>연구한 총 기술 수 :[NEWLINE]{1_YieldString}</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH_CAPITAL">
 			<Text>[ICON_CAPITAL]수도에서 [ICON_CITIZEN]시민 탄생:[NEWLINE]{1_YieldString}</Text>
 		</Row>
