@@ -51,12 +51,12 @@
 			<Text>공중 유닛과 헬리콥터 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER">
+		<Replace Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER">
 			<Text>독수리 사냥</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER_HELP">
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER_HELP">
 			<Text>전투기 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR]</Text>
-		</Row>
+		</Replace>
 
 		<!-- Can See Submarine -->
 		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_SUBMARINE_HELP">
