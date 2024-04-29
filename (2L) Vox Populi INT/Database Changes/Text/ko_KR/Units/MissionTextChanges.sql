@@ -24,7 +24,7 @@ SET Text = '순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관
 WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '유닛이 다른 주요 문명이 소유한 타일에 있어야 하고 당신 문명과 전쟁 상태가 아니어야 합니다.'
+SET Text = '유닛이 다른 주요 문명이 소유한 타일에 있어야 하고 당신 문명과 전쟁 상태가 아니며 영향력이 매우 유명함 이상이 아니어야 합니다.'
 WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_DISABLED_HELP';
 
 -- Discover Technology
