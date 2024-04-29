@@ -1049,7 +1049,7 @@
 			<Text>국고</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_HELP">
-			<Text>모든 {TXT_KEY_BUILDING_MONUMENT_DESC}, {TXT_KEY_BUILDING_BATH}, {TXT_KEY_BUILDING_GARDEN}의 [ICON_CULTURE] 문화가 +2 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_MONARCHY}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>모든 {TXT_KEY_BUILDING_MONUMENT_DESC}, {TXT_KEY_BUILDING_BATH}, {TXT_KEY_BUILDING_GARDEN}의 [ICON_CULTURE] 문화가 +2 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_LANDED_ELITE}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_PEDIA">
 			<Text>금고라는 용어는 고대 올림픽 기간 동안 다른 사람들에게 깊은 인상을 주기 위해 그리스 올림피아에 세워진 시프니안 금고나 그리스 올림피아에 세워진 많은 유사한 건물과 같이 신들에게 선물을 보관하기 위해 세워진 봉헌적인 건물을 설명하기 위해 처음 사용되었습니다. 고대 그리스에서 국고는 거의 항상 신전과 같은 종교적인 건물 안에 물리적으로 통합되었습니다. 따라서 국가 기금을 신성시하고 이러한 기금에 접근하는 사람들에게 형벌에 도덕적 제약을 더했습니다.</Text>
@@ -1069,7 +1069,7 @@
 			<Text>궁전 정원</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_HELP">
-			<Text>전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_LANDED_ELITE}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
+			<Text>전문가 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_MONARCHY}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_PEDIA">
 			<Text>정원은 식물과 다른 형태의 자연을 전시, 재배, 즐기기 위해 마련된 계획된 공간입니다. 그 정원은 천연 재료와 인공 재료를 모두 포함할 수 있습니다. 오늘날 가장 일반적인 형태는 주거용 정원으로 알려져 있지만, 전통적으로 정원이라는 용어는 더 일반적인 것이었습니다. 야생 동물들을 모의 자연 서식지에 전시하는 동물원은 이전에는 동물학적인 정원이라고 불렸습니다. 서양의 정원은 거의 보편적으로 식물에 기반을 두고 있으며, 정원은 종종 식물원의 단축된 형태를 나타냅니다.</Text>
