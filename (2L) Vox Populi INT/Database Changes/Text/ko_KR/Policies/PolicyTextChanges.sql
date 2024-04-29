@@ -296,14 +296,6 @@ UPDATE Language_ko_KR
 SET Text = '농노는 봉건제 하에서 특히 장원제와 관련된 많은 소작농들의 지위입니다. 그것은 주로 유럽의 중세 고대에 발달하여 19세기 중반까지 일부 국가에서 지속된 속박 조건이었습니다. 땅을 차지한 농노들은 그 땅을 소유한 장원의 영주를 위해 일해야 했습니다. 그 대가로 그들은 보호, 정의, 그리고 장원 내에서 특정 분야를 경작하거나 그들 자신의 생계를 유지할 권리가 주어졌습니다. 농노들은 종종 주의 밭에서뿐만 아니라 광산과 숲에서도 일을 해야 했고 도로를 유지하기 위해 노동을 해야 했습니다. 장원은 봉건 사회의 기본 단위를 형성했고, 장원과 빌린의 영주, 그리고 농노들은 어느 정도 법적 구속을 받았습니다. 전자의 경우 세금으로, 후자의 경우 경제적, 사회적으로.'
 WHERE Tag = 'TXT_KEY_POLICY_FREERELIGION_TEXT';
 
-UPDATE Language_ko_KR
-SET Text = '종교 건물을 [ICON_PEACE]신앙으로 구매할 수 있습니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_BRANCH_PIETY}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.'
-WHERE Tag = 'TXT_KEY_BUILDING_MONASTERY_HELP';
-
-UPDATE Language_ko_KR
-SET Text = '수도원은 [ICON_PEACE] 신앙, [ICON_FOOD] 식량, [ICON_RESACH] 과학 생산량을 증가시킵니다. 충성 정책을 개방한 경우에만 작성할 수 있습니다. [ICON_PEACE] 신앙으로 이 건물을 구입하여 건설하십시오.'
-WHERE Tag = 'TXT_KEY_BUILDING_MONASTERY_STRATEGY';
-
 --------------------
 -- Statecraft
 --------------------

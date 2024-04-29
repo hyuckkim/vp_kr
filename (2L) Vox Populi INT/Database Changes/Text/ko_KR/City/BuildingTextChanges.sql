@@ -391,6 +391,14 @@ UPDATE Language_ko_KR
 SET Text = '[ICON_SPY] 도시 보안이 15 증가하고, 적 스파이를 찾아내면 [ICON_CULTURE] 문화 및 [ICON_RESEARCH] 과학을 25 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE][ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE_HELP';
 
+UPDATE Language_ko_KR
+SET Text = '종교 건물을 [ICON_PEACE]신앙으로 구매할 수 있습니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_BRANCH_PIETY}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_MONASTERY_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '수도원은 [ICON_PEACE] 신앙, [ICON_FOOD] 식량, [ICON_RESACH] 과학 생산량을 증가시킵니다. 충성 정책을 개방한 경우에만 건설할 수 있습니다. [ICON_PEACE] 신앙으로 이 건물을 구입하여 건설하십시오.'
+WHERE Tag = 'TXT_KEY_BUILDING_MONASTERY_STRATEGY';
+
 -- Musicians' Guild
 UPDATE Language_ko_KR
 SET Text = '[ICON_GREAT_MUSICIAN]위대한 음악가가 출현하기 위해 필요한 [ICON_GREAT_PEOPLE]위대한 음악가 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. 전문가를 최대 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]까지 투입해 [ICON_CULTURE]문화를 증가시키고 [ICON_GREAT_MUSICIAN]위대한 음악가의 출현을 앞당길 수 있습니다.[NEWLINE][NEWLINE]전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.[NEWLINE][NEWLINE]이 건물은 문명당 [COLOR_YELLOW]최대 3개[ENDCOLOR]까지 건설할 수 있습니다.'
