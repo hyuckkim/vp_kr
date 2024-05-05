@@ -502,7 +502,11 @@ UPDATE Language_ko_KR
 SET Text = '제철소 국가 불가사의는 [ICON_RES_IRON] 철 2개를 제공하고, 도시의 [ICON_PRODUCTION] 생산을 10 증가시키며 건물을 건설할 때마다 [ICON_RESEARCH] 과학을 제공합니다. 제철소를 건설하려면 도시에 대장간이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_IRONWORKS_STRATEGY';
 
--- Oxford University
+-- Imperial College
+UPDATE Language_ko_KR
+SET Text = '제국 대학'
+WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY';
+
 UPDATE Language_ko_KR
 SET Text = '[ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR]가 1명 출현합니다. 기술 연구를 완료할 때 도시에 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [ICON_VP_GREATWRITING]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_RESEARCH]과학 +4[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP';
