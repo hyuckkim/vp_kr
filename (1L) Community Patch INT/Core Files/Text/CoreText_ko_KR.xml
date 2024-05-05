@@ -3181,7 +3181,7 @@
 		</Row>
 		<!-- Steal -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_ON_MAJOR">
-			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 작전이 [COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 성공한다면 큰 보상을 얻을 것입니다.</Text>
+			<Text>{@3_Civ}의 비밀 요원들이 {@1_Civ}{@1: plural 1?이; 2?가;} 현재 스파이에 매우 취약하다고 보고했습니다. {@1_Civ}에 대한 당신의 첩보 작전이 성공한다면 큰 보상을 얻을 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPY_ON_MAJOR">
 			<Text>{@1_Civ}에서 첩보 갱신</Text>
@@ -3248,7 +3248,7 @@
 			<Text>{@1_Building} [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]를 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
-			<Text>{1_Civ}에 대한 첩보 활동을 수행하십시오 ([COLOR_POSITIVE_TEXT]{2_Num}회[ENDCOLOR] 남음)</Text>
+			<Text>{1_Civ}에 대한 첩보 활동을 수행하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_COUP_FORMAL">
 			<Text>{1_Civ}에서 쿠데타를 지원하십시오.</Text>
