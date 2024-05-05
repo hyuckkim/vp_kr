@@ -480,7 +480,11 @@ UPDATE Language_ko_KR
 SET Text = '이 국가 불가사의는 +2 [ICON_HAPPINESS_1] 행복, +2 [ICON_RES_HORSE] 말, +1 [ICON_CULTURE] 문화를 제공하고 [ICON_HAPPINESS_3] 무료가 감소하고, 국왕 경축일 동안 이 도시의 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드가 10% 증가합니다. 원형 경기장을 건설하려면 도시에 투기장이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY';
 
--- East India Company
+-- Chartered Company
+UPDATE Language_ko_KR
+SET Text = '위탁회사'
+WHERE Tag = 'TXT_KEY_BUILDING_EAST_INDIA';
+
 UPDATE Language_ko_KR
 SET Text = '이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]합니다. 이 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 모든 도시의 [ICON_GOLD]빈곤 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP';
