@@ -1323,10 +1323,10 @@
 			<Text>[ICON_PEACE] 종교 유물 빼내기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_HELP">
-			<Text>목표 도시의 턴 당 [ICON_PEACE] 신앙의 50%를 훔칩니다. 목표 도시의 종교 압력이 -50% 감소합니다. {5_Duration}간 지속됩니다.</Text>
+			<Text>목표 도시의 턴 당 [ICON_PEACE] 신앙의 100%를 훔칩니다. 목표 도시의 종교 압력이 -100% 감소합니다. {5_Duration}간 지속됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_EFFECT">
-			<Text>각 턴마다, 50%의 신앙을 [ICON_PEACE] 훔쳤습니다. 도시의 종교 압력이 50% 감소했습니다. {5_DurationText}</Text>
+			<Text>각 턴마다, 100%의 [ICON_PEACE] 신앙을 훔쳤습니다. 도시의 종교 압력이 100% 감소했습니다. {5_DurationText}</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
