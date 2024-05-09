@@ -944,11 +944,11 @@ SET Text = '[COLOR_POSITIVE_TEXT]총력전[ENDCOLOR]: 지상 유닛을 생산할
 WHERE Tag = 'TXT_KEY_POLICY_TOTAL_WAR_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '전제정치'
+SET Text = '공영권'
 WHERE Tag = 'TXT_KEY_POLICY_GUNBOAT_DIPLOMACY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]전제정치[ENDCOLOR]: 우호적인 [ICON_CITY_STATE]도시 국가에 공물을 요구할 때 페널티가 없습니다. 그렇게 하는 것은 도시 국가에 대한 다른 모든 문명의 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소시키고 당신 문명의 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가시킵니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]공영권[ENDCOLOR]: 우호적인 [ICON_CITY_STATE]도시 국가에 공물을 요구할 때 페널티가 없습니다. 그렇게 하는 것은 도시 국가에 대한 다른 모든 문명의 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소시키고 당신 문명의 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP';
 
 UPDATE Language_ko_KR
