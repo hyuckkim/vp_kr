@@ -191,6 +191,12 @@
 			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]승선 가능, 산 타일에서 이동 가능, 적 도로 이용 가능</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_ARTILLERY">
+			<Text>해안 포병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_ARTILLERY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해상 근접[ENDCOLOR], [COLOR_POSITIVE_TEXT]해상 원거리[ENDCOLOR], [COLOR_POSITIVE_TEXT]항공모함[ENDCOLOR] 유닛과 전투 시 [ICON_STRENGTH] 전투력 +50%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_1">
 			<Text>광역 피해 I</Text>
 		</Row>
