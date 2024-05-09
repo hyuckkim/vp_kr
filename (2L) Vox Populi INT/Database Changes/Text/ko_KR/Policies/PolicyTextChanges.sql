@@ -833,7 +833,7 @@ SET Text = '대약진 운동'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. [ICON_SPY]스파이의 네트워크 포인트가 두 배로 증가합니다. 전문가가 아닌 [ICON_CITIZEN] 시민 3명마다 [ICON_RESEARCH] 과학이 +1 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]대약진 운동[ENDCOLOR]: [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. [ICON_SPY]스파이가 얻는 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 전문가가 아닌 [ICON_CITIZEN] 시민 3명마다 [ICON_RESEARCH] 과학이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_YOUNG_PIONEERS_HELP';
 
 UPDATE Language_ko_KR
