@@ -468,7 +468,7 @@ WHERE Tag = 'TXT_KEY_UNIT_GREEK_HOPLITE_STRATEGY';
 -- Huns
 --------------------
 UPDATE Language_ko_KR
-SET Text = '당신 문명의 [ICON_WAR][COLOR_POSITIVE_TEXT]전쟁 피로도[ENDCOLOR]가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 적 문명의 [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 이 턴 동안 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시가 타일을 획득할 때 소유자가 없는 동일한 종류의 인접 지상 타일도 같이 획득합니다.'
+SET Text = '당신 문명의 [ICON_WAR][COLOR_POSITIVE_TEXT]전쟁 피로도[ENDCOLOR]가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소하고 적 문명의 [ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 이 턴 동안 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 적 도시에 가한 피해 2마다 [ICON_GOLD]골드와 [ICON_CULTURE]문화를 1 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 얻습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_RAZE_AND_HORSES';
 
 UPDATE Language_ko_KR
@@ -909,7 +909,7 @@ WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 -- Shoshone
 --------------------
 UPDATE Language_ko_KR
-SET Text = '도시를 설립할 때 8타일, 정복할 때 4타일의 [COLOR_POSITIVE_TEXT]추가 영역[ENDCOLOR]을 얻습니다. 모든 정찰 유닛이 [COLOR_POSITIVE_TEXT]고대 유적[ENDCOLOR]에서 오는 보상을 선택할 수 있습니다. {TXT_KEY_IMPROVEMENT_ENCAMPMENT_SHOSHONE} 근처 3타일에서 20%의 [ICON_STRENGTH] 전투력 보너스를 얻습니다.'
+SET Text = '도시를 얻으면 4타일의 [COLOR_POSITIVE_TEXT]추가 영역[ENDCOLOR]을 얻습니다. 도시가 타일을 획득할 때 소유자가 없는 동일한 종류의 인접 지상 타일도 같이 획득합니다. 모든 정찰 유닛이 [COLOR_POSITIVE_TEXT]고대 유적[ENDCOLOR]에서 오는 보상을 선택할 수 있습니다. {TXT_KEY_IMPROVEMENT_ENCAMPMENT_SHOSHONE} 근처 2타일에서 20%의 [ICON_STRENGTH] 전투력 보너스를 얻습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_EXPANSE';
 
 UPDATE Language_ko_KR

@@ -188,16 +188,16 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EKI_TEXT">
-			<Text>{TXT_KEY_CIV5_IMPROVEMENTS_EKI_HELP}[NEWLINE][NEWLINE]'에키'는 훈족들이 지구, 특히 가축 방목에 필수적인 지구를 묘사하기 위해 사용한 것으로 보인다. 유목민 목축은 목축이 목축할 수 있는 새로운 목초지를 찾기 위해 가축이 모여 사는 목축의 한 형태이다. 엄밀히 말하면, 진정한 유목민들은 계절의 목초지가 고정된 방목과 대조적으로 불규칙한 이동 패턴을 따른다. 그러나 이러한 구별은 종종 관찰되지 않으며, 유목민이라는 용어는 두 가지 모두에 사용된다. 사육되는 가축은 소, 야크, 양, 염소, 순록, 말, 당나귀, 낙타, 또는 잡종을 포함한다. 유목민들의 목축은 경작지가 거의 없는 지역, 특히 개발도상국에서 흔히 행해진다. 전 세계적으로 3천만에서 4천만 명으로 추정되는 유목민들 중 대부분은 중앙아시아와 서아프리카의 사헬 지역에서 발견된다. 한 방목 기간과 다음 방목 기간 사이에 토지가 완전히 복구되지 않을 경우, 가축의 증가는 그 지역의 과도한 방목과 사막화로 이어질 수 있다. 토지 울타리의 증가와 인클로저 운동으로 이 관례에 사용할 수 있는 토지의 양이 감소하였다.</Text>
+			<Text>{TXT_KEY_CIV5_IMPROVEMENTS_EKI_HELP}[NEWLINE][NEWLINE]'에키'는 훈족이 땅, 특히 가축을 방목하는 데 필수적인 땅을 묘사할 때 사용했을 가능성이 높은 용어입니다. 유목 목축은 새로운 방목지를 찾기 위해 가축을 몰고 이동하는 목축의 한 형태입니다. 엄밀히 말하면, 진정한 유목민은 계절에 따라 목초지가 고정되어 있는 트랜스휴먼과 달리 불규칙한 이동 패턴을 따릅니다. 그러나 이러한 구분이 지켜지지 않는 경우가 많으며, 역사적으로 유목민이라는 용어는 두 가지 모두에 사용되어 이동의 규칙성을 알 수 없는 경우가 많습니다. 가축은 소, 야크, 양, 염소, 순록, 말, 당나귀, 낙타 또는 여러 종의 혼합 가축을 포함합니다. 유목 목축은 일반적으로 경작지가 거의 없는 지역, 일반적으로 개발도상국에서 이루어집니다. 전 세계적으로 약 3,000만~4,000만 명으로 추정되는 유목 목축업자 중 대부분은 중앙 아시아와 서아프리카의 사헬 지역에 거주하고 있습니다. 한 방목 기간과 다음 방목 기간 사이에 토지가 완전히 회복되지 않으면 가축의 수가 증가하면 해당 지역의 과도한 방목과 사막화로 이어질 수 있습니다. 토지의 울타리와 울타리 설치가 증가하면서 방목할 수 있는 토지가 줄어들고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EKI_HELP">
-			<Text>담수와 인접하지 않은 평지에만 건설할 수 있습니다. 해당 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량이 증가합니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
+			<Text>담수와 인접하지 않은 평지에만 건설할 수 있습니다. 해당 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량이 증가합니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다. [COLOR_POSITIVE_TEXT]중립 영토[ENDCOLOR]에 건설 시 그 타일을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_EKI">
 			<Text>[LINK=IMPROVEMENT_EKI]에키[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_EKI_HELP">
-			<Text>담수와 인접하지 않은 평지에만 건설할 수 있습니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 훈 영토 [COLOR_POSITIVE_TEXT]내부 또는 영토에 인접한 타일[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]중립 영토에 건설하면 영토가 확장됩니다.</Text>
+			<Text>담수와 인접하지 않은 평지에만 건설할 수 있습니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 훈 영토 [COLOR_POSITIVE_TEXT]내부 또는 영토에 인접한 타일[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]중립 영토에 건설하면 즉시 훈 제국이 그 타일을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_EKI_REC">
 			<Text>현재 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량을 증가시킵니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
@@ -351,13 +351,13 @@
 			<Text>{TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_HELP}[NEWLINE][NEWLINE]티피는 전통적으로 동물의 가죽과 나무 막대기로 만들어진 원뿔형 텐트이다. 티피는 북아메리카의 대평원의 유목민 부족들의 야영지에서 사용되었다. 티피는 일반적으로 미국 원주민과 연관되어 있지만, 그레이트 플레인스 이외의 지역에서 온 아메리카 원주민들은 대부분 다른 종류의 주거지를 사용했다. 티피는 내구성이 강하고, 겨울에는 따뜻함과 편안함을 제공하며, 여름의 더위에는 시원하고, 폭우 시에는 건조하다. 티피스는 한 부족이 이주하기로 결정했을 때 빠르게 분해되고 포장될 수 있었고 새로운 지역에 정착했을 때 빠르게 재건될 수 있었다. 이러한 이동성은 유목 생활을 하는 평원 인디언들에게 중요했다. 현대의 티피 커버는 보통 캔버스로 만들어진다. 현대의 티피 이용자는 역사적 재현자, 전원 생활의 신자, 그리고 그들의 유산과 전통의 일부를 보존하고 물려주기를 원하는 집회나 캠프에 참석하는 아메리카 원주민 가족들을 포함한다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_HELP">
-			<Text>평지 타일에만 건설할 수 있습니다. 다른 티피와 서로 인접하여 건설할 수 없습니다.[NEWLINE][NEWLINE] 시설 위에 주둔한 유닛에 [ICON_STRENGTH]방어력 보너스를 15% 제공하고 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다. (피해는 중첩되지 않습니다) [NEWLINE][NEWLINE]3타일 범위의 모든 쇼쇼니 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다.</Text>
+			<Text>평지 타일에만 건설할 수 있습니다. 다른 티피와 서로 인접하여 건설할 수 없습니다.[NEWLINE][NEWLINE] 시설 위에 주둔한 유닛에 [ICON_STRENGTH]방어력 보너스를 15% 제공하고 인접한 적 유닛에 피해를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 입힙니다. (피해는 중첩되지 않습니다) [NEWLINE][NEWLINE]2타일 범위의 모든 쇼쇼니 유닛이 [ICON_STRENGTH]전투력 보너스를 +20% 받습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE">
 			<Text>[LINK=IMPROVEMENT_ENCAMPMENT_SHOSHONE]티피[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_HELP">
-			<Text>이 타일에 주둔한 유닛의 [ICON_STRENGTH] 전투력이 +15% 증가합니다. 3 타일 이내 쇼쇼니 유닛의[ICON_STRENGTH] 전투력이 +20% 증가합니다. 티피 근처 타일에서 턴을 마치는 적은 피해를 5 입습니다. [NEWLINE][NEWLINE]평지 타일에만 건설할 수 있고 다른 티피와 인접하게 건설할 수 없습니다.</Text>
+			<Text>이 타일에 주둔한 유닛의 [ICON_STRENGTH] 전투력이 +15% 증가합니다. 2타일 이내 쇼쇼니 유닛의[ICON_STRENGTH] 전투력이 +20% 증가합니다. 티피 근처 타일에서 턴을 마치는 적은 피해를 5 입습니다. [NEWLINE][NEWLINE]평지 타일에만 건설할 수 있고 다른 티피와 인접하게 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_REC">
 			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 증가시킵니다. 건설 시 모든 타일의 특성을 제거합니다. [NEWLINE]근처 쇼숀 유닛에게 전투력을 제공하고 주둔한 유닛에 방어력 보너스를 제공하며 인접한 적 유닛에 소량의 피해를 입힙니다.</Text>
