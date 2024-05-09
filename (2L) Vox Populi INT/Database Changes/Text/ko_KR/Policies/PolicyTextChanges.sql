@@ -682,8 +682,16 @@ SET Text = '[COLOR_POSITIVE_TEXT]미디어 문화[ENDCOLOR]: 모든 방송탑의
 WHERE Tag = 'TXT_KEY_POLICY_MEDIA_CULTURE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]조약 기구[ENDCOLOR]: [ICON_INTERNATIONAL_TRADE]교역로가 연결된 도시 국가 1개마다 [COLOR:105:105:105:255](한도: 10)[ENDCOLOR] 해당 도시 국가에 대한 [ICON_INFLUENCE]영향력이 매 턴 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 세계의 원래 도시 국가 2개마다 세계 대회 추가 [ICON_DIPLOMAT]대표단을 1명 확보합니다.'
+SET Text = '봉쇄 정책'
+WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]봉쇄 정책[ENDCOLOR]: [ICON_INTERNATIONAL_TRADE]교역로가 연결된 도시 국가 1개마다 [COLOR:105:105:105:255](한도: 10)[ENDCOLOR] 해당 도시 국가에 대한 [ICON_INFLUENCE]영향력이 매 턴 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 세계의 원래 도시 국가 2개마다 세계 대회 추가 [ICON_DIPLOMAT]대표단을 1명 확보합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP';
+
+UPDATE Language_en_US
+SET Text = '냉전 시대에는 자유주의와 경쟁하는 이데올로기를 세계 질서의 안전을 위해 확산을 억제해야 하는 질병과 유사한 것으로 생각했습니다. 봉쇄는 미국이 공산주의의 확산을 막기 위해 가장 강력하게 고수한 외교 정책 원칙으로, 전후 유럽과 일본에 대한 관대한 원조와 사면의 기본 원칙으로 작용했지만 라틴 아메리카에서는 폭력적인 쿠데타와 탄압의 형태로 나타나기도 했습니다. 정책의 사용은 공산주의가 전 세계에 권력과 영향력을 행사하는 능력을 가장 효과적으로 제한할 수 있는 것이 무엇이냐에 따라 결정되었습니다.'
+WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_TEXT';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]최상의 시간[ENDCOLOR]: 도시가 2개의 항공 슬롯을 얻고 배치된 공중 유닛 하나 당 도시의 [ICON_STRENGTH] 전투력이 +3 증가합니다. [COLOR_YELLOW]B-17 폭격기[ENDCOLOR] 유닛을 생산할 수 있습니다.'
