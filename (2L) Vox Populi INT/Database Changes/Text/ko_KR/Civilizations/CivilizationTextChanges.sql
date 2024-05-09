@@ -782,15 +782,15 @@ WHERE Tag = 'TXT_KEY_UNIT_POLISH_WINGED_HUSSAR_STRATEGY';
 -- Polynesia
 --------------------
 UPDATE Language_ko_KR
-SET Text = '승선 시 [ICON_VP_VISION] 시야가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있습니다. 어선 및 산호섬의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 근접, 화약 유닛이 [COLOR_POSITIVE_TEXT]어선[ENDCOLOR]을 건설할 수 있습니다. 더이상 [COLOR_POSITIVE_TEXT]고립[ENDCOLOR]에서 오는 [ICON_HAPPINESS_3]불행이 증가하지 않습니다.'
+SET Text = '승선 시 [ICON_VP_VISION] 시야가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있습니다. 어선 및 산호섬의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 근접, 화약 유닛이 [COLOR_POSITIVE_TEXT]어선[ENDCOLOR]을 건설할 수 있습니다. 더이상 [COLOR_POSITIVE_TEXT]고립[ENDCOLOR]에서 오는 [ICON_HAPPINESS_3]불행이 증가하지 않습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_WAYFINDING';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_LONGSWORDSMAN}을 대체하는 폴리네시아의 고유 유닛입니다. 근처 적을 약화시키는 능력이 있습니다. [ICON_RES_IRON] {TXT_KEY_RESOURCE_IRON}이 필요하지 않습니다.'
+SET Text = '{TXT_KEY_UNIT_SCOUT}을 대체하는 폴리네시아의 고유 유닛입니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_AMPHIBIOUS}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_POLYNESIAN_MAORI_WARRIOR}는 {TXT_KEY_UNIT_LONGSWORDSMAN}을 대체하는 폴리네시아의 고유 유닛입니다. 고유의 아우라로 인접한 적의 [ICON_STRENGTH] 전투력을 감소시킵니다. 더 저렴하며 생산에 [ICON_RES_IRON] {TXT_KEY_RESOURCE_IRON}이 필요하지 않습니다. [COLOR_CYAN]{TXT_KEY_TECH_STEEL_TITLE}[ENDCOLOR] 대신 [COLOR_CYAN]{TXT_KEY_TECH_CHIVALRY_TITLE}[ENDCOLOR] 연구 시 생산이 가능합니다.'
+SET Text = '{TXT_KEY_UNIT_SCOUT}는 {TXT_KEY_UNIT_LONGSWORDSMAN}을 대체하는 폴리네시아의 고유 유닛입니다. 더 강력하며 승선 시 및 강을 건널 때 패널티 없이 공격할 수 있습니다. 고유의 아우라로 인접한 적의 [ICON_STRENGTH] 전투력을 감소시킵니다.'
 WHERE Tag = 'TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY';
 
 UPDATE Language_ko_KR
