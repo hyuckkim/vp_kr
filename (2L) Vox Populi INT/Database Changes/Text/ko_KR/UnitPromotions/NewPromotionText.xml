@@ -565,6 +565,13 @@
 			<Text>적 유닛 처치 시 [ICON_STRENGTH] 전투력의 100%만큼 [ICON_GOLD] 골드 제공 [NEWLINE]체력 [COLOR_POSITIVE_TEXT]50% 이하[ENDCOLOR] 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM">
+			<Text>마레 노스트룸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 보너스 +25%.[NEWLINE][COLOR_POSITIVE_TEXT]아군 영토[ENDCOLOR]에서 회복 시 체력 +5</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS">
 			<Text>엔지니어링</Text>
 		</Row>

@@ -920,15 +920,15 @@ SET Text = '군사-산업 복합체 또는 군사-산업-의회 복합체는 입
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '통상 파괴'
+SET Text = '마레 노스트룸'
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]통상 파괴[ENDCOLOR]: 모든 항구의 생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 동맹인 [ICON_CITY_STATE]도시 국가 1개마다 [ICON_RES_OIL]석유 및 [ICON_RES_COAL]석탄 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 잠수함 및 근접 해상 유닛에 [COLOR_PLAYER_PURPLE]전리품[ENDCOLOR] 승급을 부여합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]마레 노스트룸[ENDCOLOR]: 동맹인 [ICON_CITY_STATE]도시 국가 1개마다 [ICON_RES_OIL]석유 및 [ICON_RES_COAL]석탄 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다. 산호섬, 어선, 유정의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 해상 원거리 유닛에  [COLOR_PLAYER_PURPLE]마레 노스트룸[ENDCOLOR] 승급을 부여합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '상선 강습은 전투원을 동원하거나 봉쇄하는 대신 상선을 공격하여 공해상에서 적의 물류를 파괴하거나 방해하기 위해 사용되는 해전의 한 형태입니다. 또한 프랑스에서는 "추격의 전쟁"으로, 독일에서는 역사적으로 전략으로 가장 많이 헌신한 국가들로부터 "무역 전쟁"으로 알려져 있습니다.'
+SET Text = '"우리의 바다"라는 뜻의 마레 노스트룸은 로마 제국이 지중해 유역 전체를 지배한 것을 의미합니다. 이탈리아 통일 이후, 이 용어는 로마 제국의 진정한 후계자에 걸맞게 이탈리아의 확장과 정복을 위한 결집의 외침이 되었습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_TEXT';
 
 UPDATE Language_ko_KR
