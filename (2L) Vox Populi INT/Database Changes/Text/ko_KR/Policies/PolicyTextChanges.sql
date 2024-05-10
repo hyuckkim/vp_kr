@@ -192,27 +192,27 @@ SET Text = '임페리움은 넓은 의미로는 대략 ''명령하는 힘''으�
 WHERE Tag = 'TXT_KEY_POLICY_DISCIPLINE_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '지배'
+SET Text = '군국주의'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_TRADITION';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]지배[ENDCOLOR][NEWLINE][ICON_BULLET]군사 유닛 10개마다 모든 도시의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]근접 유닛이 적 군사 유닛을 처치할 때 체력을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 회복합니다. [NEWLINE][ICON_BULLET][ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]군국주의[ENDCOLOR][NEWLINE][ICON_BULLET]전투력이 10 이상인 도시에서 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]유닛 유지비가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET]도로 유지비가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_TRADITION_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '권력 - 또는 지배력 - 은 행동에 영향을 미치는 능력이며, 동등한 힘으로 도전하기 전에는 완전히 평가되지 않을 수 있습니다. 잠재력이 있을 수 있는 권력과 달리, 지배력은 다른 정당이나 정당을 통제하려는 시도가 받아들여질 수도 있고 받아들여지지 않을 수도 있는 개인, 상황 및 관계 패턴으로 특징지어지는 명백한 조건입니다.'
+SET Text = '군국주의는 "국가가 강력한 군사력을 유지하고 그것을 공격적으로 사용할 준비가 되어 있는 정부나 국민의 믿음 또는 소망"으로 정의됩니다. 군국주의는 고대 아시리아와 스파르타에서 나치 독일에 이르기까지 역사를 통틀어 대부분의 제국주의 또는 팽창주의 국가에서 정책의 중요한 요소였습니다. 이 철학은 군대를 미화하고 전문적인 군대 계급의 이상에 대한 미화, 개인의 군사적 성취를 이상화하며, 국가 자원의 상당 부분을 군대를 지원하고 확장하는 데 바치는 정부 정책을 포함합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARYTRADITION_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '군국주의'
+SET Text = '지배'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]군국주의[ENDCOLOR][NEWLINE][ICON_BULLET]병영이 건설된 도시에서 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]유닛 유지비가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET]도로 유지비가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]지배[ENDCOLOR][NEWLINE][ICON_BULLET]군사 유닛 10개마다 모든 도시의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]근접 유닛이 적 군사 유닛을 처치할 때 체력을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 회복합니다. [NEWLINE][ICON_BULLET][ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '군국주의는 "국가가 강력한 군사력을 유지하고 그것을 공격적으로 사용할 준비가 되어 있는 정부나 국민의 믿음 또는 소망"으로 정의됩니다. 군국주의는 고대 아시리아와 스파르타에서 나치 독일에 이르기까지 역사를 통틀어 대부분의 제국주의 또는 팽창주의 국가에서 정책의 중요한 요소였습니다. 이 철학은 군대를 미화하고 전문적인 군대 계급의 이상에 대한 미화, 개인의 군사적 성취를 이상화하며, 국가 자원의 상당 부분을 군대를 지원하고 확장하는 데 바치는 정부 정책을 포함합니다.'
+SET Text = '권력 - 또는 지배력 - 은 행동에 영향을 미치는 능력이며, 동등한 힘으로 도전하기 전에는 완전히 평가되지 않을 수 있습니다. 잠재력이 있을 수 있는 권력과 달리, 지배력은 다른 정당이나 정당을 통제하려는 시도가 받아들여질 수도 있고 받아들여지지 않을 수도 있는 개인, 상황 및 관계 패턴으로 특징지어지는 명백한 조건입니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARYCASTE_TEXT';
 
 UPDATE Language_ko_KR
