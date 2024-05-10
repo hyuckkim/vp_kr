@@ -3189,6 +3189,9 @@
 		<Row Tag="TXT_KEY_NEED_BE_PUPPET">
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 괴뢰 정부여야 합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_MUST_NOT_BE_PUPPET">
+			<Text>[NEWLINE] [ICON_BULLET] 도시가 괴뢰 정부가 아니여야 합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NEED_BE_WLTKD">
 			<Text>[NEWLINE] [ICON_BULLET] 도시가 [COLOR_POSITIVE_TEXT]국왕 경축일[ENDCOLOR]을 맞이한 상태여야 합니다.</Text>
 		</Row>

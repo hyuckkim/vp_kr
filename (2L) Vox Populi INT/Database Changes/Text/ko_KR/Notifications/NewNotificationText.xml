@@ -694,6 +694,12 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_NO_TOURISM_EVENT_ENDED">
 			<Text>스파이가 일으킨 {1_City}에서의 폭동이 끝났습니다. 도시가 다시 관광을 생산하기 시작합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GPP_EVENT_ENDED_S">
+			<Text>첩보 효과 종료됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GPP_EVENT_ENDED">
+			<Text>스파이 작전으로 인한 효과 종료: 수도의 전문가가 산출하는 [ICON_GREAT_PEOPLE] 위인 점수 +1.</Text>
+		</Row>
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_DETECTED_S">
 			<Text>{1_City}의 역스파이!</Text>
