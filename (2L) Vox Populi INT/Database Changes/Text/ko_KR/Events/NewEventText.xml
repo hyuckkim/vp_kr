@@ -1314,10 +1314,10 @@
 			<Text>[ICON_PRODUCTION] 도시 생산 사보타주</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_HELP">
-			<Text>{8_Num} 턴 동안의 [ICON_PRODUCTION] 생산 진행 상황을 삭제합니다.</Text>
+			<Text>도시가 {8_Num}턴간 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_EFFECT">
-			<Text>{8_Num} 턴간의 [ICON_PRODUCTION] 생산이 사라졌습니다.</Text>
+			<Text>도시가 {8_Num}턴간 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH">
 			<Text>[ICON_PEACE] 종교 유물 빼내기</Text>
