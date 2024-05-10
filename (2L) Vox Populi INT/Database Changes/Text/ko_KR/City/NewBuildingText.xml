@@ -269,7 +269,7 @@
 
 		<!-- Stonehenge -->
 		<Row Tag="TXT_KEY_BUILDING_STONEHENGE_HELP">
-			<Text>[COLOR_YELLOW]자문회[ENDCOLOR]를 무료로 제공합니다. 이 불가사의가 지어진 도시에 [ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]60[ENDCOLOR]을 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]자문회[ENDCOLOR]를 무료로 제공합니다. 이 불가사의가 지어진 도시에 [ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]60[ENDCOLOR]을 제공합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE">
@@ -280,7 +280,7 @@
 			<Text>이 국가 불가사의는 수도에서 외교 유닛을 생산할 때 약간의 생산 보너스를 제공하고 하나의 [ICON_RES_PAPER] 종이 자원을 제공합니다. 게임의 처음 몇 시대 동안 도시 국가 동맹을 한두 개 확보하고 싶다면 이 건물을 건설하십시오 우호적인 도시 국가 및 동맹국의 추가 산출로 초기의 도시 국가와의 관계의 가치를 높입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 무료 [COLOR_YELLOW]특사[ENDCOLOR]가 1명 출현합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]도시국가 [COLOR_POSITIVE_TEXT]우호 단계[ENDCOLOR] 보너스: 각각 +1 [ICON_FOOD] 식량[NEWLINE][ICON_CITY_STATE] 도시국가 [COLOR_CYAN]동맹[ENDCOLOR] 보너스: 각각 +1 [ICON_FOOD] 식량, +1 [ICON_PEACE] 신앙[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 무료 [COLOR_YELLOW]특사[ENDCOLOR]가 1명 출현합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]도시국가 [COLOR_POSITIVE_TEXT]우호 단계[ENDCOLOR] 보너스: 각각 +1 [ICON_FOOD] 식량[NEWLINE][ICON_CITY_STATE] 도시국가 [COLOR_CYAN]동맹[ENDCOLOR] 보너스: 각각 +1 [ICON_FOOD] 식량, +1 [ICON_PEACE] 신앙[NEWLINE][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COURT_SCRIBE_TEXT">
 			<Text>왕실 서기관, 그리고 그 안에 있는 관직은 공무원 중에서 가장 오래되고 중요한 직책 중 하나입니다. 현대 국가는 정부 문서를 작성하고, 편집하고, 발행하는 수백 명의 공무원들이 있지만, 고대 세계에서 이러한 업무들은 보통 한 개인, 즉 서기관에게 주어졌습니다. 서기관은 그 나라의 법률의 표현, 번역, 해석을 통제하기 때문에 엄청난 권력을 휘둘렀습니다. 이 위대한 힘 때문에, 선량하고 충성스러운 서기는 매우 귀중한 자원이었습니다.</Text>
@@ -293,7 +293,7 @@
 			<Text>이 국가 불가사의는 외교 청사가 건설된 도시에만 건설할 수 있습니다. 외교 유닛 생산 속도 향상, 외교 유닛의 이동력 및 영향력 증가, 지형 패널티 무시를 위해 이 건물을 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]문자 해독[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]모든 도시에 외교 청사가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]문자 해독[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]모든 도시에 외교 청사가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PRINTING_PRESS_TEXT">
 			<Text>독일 마인츠에 있는 한 인쇄소에서 인쇄는 15세기 말까지 중부, 서부, 동유럽의 약 270개 도시로 퍼져나갔습니다. 1480년 초, "인쇄된 책은 유럽에서 보편적으로 사용되었다"고 추정됩니다. 1500년까지 서유럽 전역에서 운영되는 인쇄기는 이미 2천만 부 이상을 생산했습니다. 1600년 경의 유럽 인쇄기는 하루에 3,600개의 인쇄물을 생산할 수 있었습니다. 이에 비해 극동지역의 활자 인쇄는 인쇄기를 알지 못하고 종이 뒷면을 손으로 문지르는 것만으로 이루어졌는데, 하루에 40페이지를 넘지 않았습니다. 인쇄본 제작의 빠른 속도와 단가의 급격한 하락은 대중에게 최신 정보를 전달하는 완전히 새로운 분야를 열어준 최초의 신문의 발행으로 이어졌습니다.</Text>
@@ -306,7 +306,7 @@
 			<Text>이 국가 불가사의는 통신사가 건설된 도시에만 건설할 수 있습니다. 외교 유닛 생산 속도 향상, 외교 유닛의 이동력 및 영향력 증가, 외교관이 [COLOR_POSITIVE_TEXT]국경 개방[ENDCOLOR] 없이 경쟁국을 통과할 수 있는 능력을 위해 이 건물을 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]면책 특권[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]모든 도시에 통신사가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]면책 특권[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]모든 도시에 통신사가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FOREIGN_OFFICE_TEXT">
 			<Text>외무성은 현대 제국의 중심에 자리잡고 있습니다. 방대한 수의 공무원, 외교관, 보좌관들로 가득 찬 이 모든 뉴스는 비판적이고 일상적인 뉴스들이 외무부의 홀을 통과합니다.</Text>
@@ -320,7 +320,7 @@
 			<Text>이 국가 불가사의는 문명이 모든 도시에 증권거래소를 건설해야 건설할 수 있습니다. 현재 다른 플레이어들과 맺은 우호 선언의 수에 따라 세계 의회에서 추가 투표를 받을 수 있도록 이 국가 불가사의를 건설하십시오. 건설된 도시의 식량과 금 생산량이 크게 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_HELP">
-			<Text>도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]친선 관계[ENDCOLOR]를 맺은 문명 2개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 증권거래소가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]친선 관계[ENDCOLOR]를 맺은 문명 2개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 증권거래소가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FINANCE_CENTER_TEXT">
 			<Text>금융 센터는 국제적으로 중요한 은행, 기업 및 증권 거래소가 많이 있는 글로벌 도시입니다. 국제 금융 센터는 국제 금융 시장 거래의 중요한 참가자를 묘사하기 위해 사용되는 비특이적인 용어이며, 보통 적어도 하나의 주요 주식 시장을 가지고 있습니다. 20세기 대부분의 기간 동안, 미국과 금융 수도 뉴욕시가 리더였습니다. 그러나 1990년대 이후, 새로운 지역 강국들과 글로벌 자본주의의 부상과 함께, 많은 금융 센터들이 월스트리트의 우위에 도전해 왔습니다. 특히 일부 분석가들은 월스트리트가 새로운 세계 성장의 초점이 될 것이라고 믿고 있습니다.</Text>
@@ -333,7 +333,7 @@
 			<Text>이 국가 불사가의는 모든 도시에 공립대학을 건설해야 건설할 수 있습니다. 다른 플레이어와 맺은 연구 협정마다 세계 의회의 추가 투표를 얻기 위해 이 국가 불사가의를 건설하십시오. 건설된 도시의 문화와 과학 생산량이 크게 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
-			<Text>도시의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 다른 문명과 맺은 모든 [COLOR_POSITIVE_TEXT]연구 협약[ENDCOLOR] 1개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 공립 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>도시의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 다른 문명과 맺은 모든 [COLOR_POSITIVE_TEXT]연구 협약[ENDCOLOR] 1개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 공립 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALACE_SCIENCE_CULTURE_TEXT">
 			<Text>바르샤바에 있는 문화과학궁전은 폴란드에서 가장 높은 건물이며, 유럽연합에서 8번째로 높은 건물입니다. 이 건물은 원래 요제프 스탈린 문화 과학 궁전으로 알려졌으나, 스탈린에 대한 헌납은 취소되었습니다. 스탈린의 이름은 내부 로비에서 제거되었고 건물의 조각품 중 하나였습니다. 현재 그것은 세계에서 187번째로 높은 건물입니다.</Text>
@@ -346,7 +346,7 @@
 			<Text>이 국가 불가사의는 문명이 모든 도시에 사관학교를 건설해야 건설할 수 있습니다. 정복한 적국의 수도의 수에 따라 세계 의회에서 추가 투표를 받을 수 있도록 이 국가 불가사의를 건설하십시오. 건설된 도시의 관광과 신앙 생산량이 크게 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_HELP">
-			<Text>도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 당신 문명의 통제하는 적 수도 1개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 사관 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 당신 문명의 통제하는 적 수도 1개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 사관 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EHRENHALLE_TEXT">
 			<Text>영예의 전당은 독일 건축가 프리츠 메이어의 계획에 따라 뉘른베르크 시에 의해 지어졌습니다. 그것은 바이마르 공화국 기간 동안 히틀러 시대 이전인 1930년에 설립되었습니다. 그것은 화덕을 위한 두 줄의 받침대가 있는 인접한 자갈돌 테라스가 있는 아케이드 홀입니다. 14개의 기둥들 모두 사실상 온전한 상태로 남아 있고 1938년 9월 마지막 나치당 집회 이후로 점화되지 않았습니다. 원래 이 홀은 제1차 세계 대전에서 전사한 뉘른베르크 출신 군인 9,855명의 기념비가 될 예정이었습니다. 1929년 당 대회 동안, 당시 완성되지 않은 "영예의 전당"은 국가사회주의자들에 의한 죽은 사람에 대한 숭배의 제정으로 처음으로 사용되었습니다. 제3제국 시기, 나치는 주로 제1차 세계 대전의 전사자들을 추모하는 장소와 1923년 11월 9일 뮌헨에서 16명의 사망자를 추모하는 장소로 사용하였습니다. 히틀러는 친위대 지도자 하인리히 힘러와 SA 지도자 빅토르 루체와 함께 메인 스탠드부터 에렌할레 테라스까지 240미터 길이의 화강암 길을 지나 경기장 안을 성큼성큼 거닐며 나치의 경례를 보여주었습니다. 그 의식은 그 기념행사의 절정이엇습니다.</Text>
@@ -367,14 +367,14 @@
 
 		<!-- Notre Dame -->
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_HELP">
-			<Text>[COLOR_YELLOW]대성당[ENDCOLOR]을 무료로 제공합니다. 당신의 [COLOR_POSITION_TEXT]대중 종교[ENDCOLOR]를 믿는 모든 도시의 종교 압력이 +30% 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE]신앙 +3 [ICON_GOLDEN_AGE]황금기 점수 +3[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]대성당[ENDCOLOR]을 무료로 제공합니다. 당신의 [COLOR_POSITION_TEXT]대중 종교[ENDCOLOR]를 믿는 모든 도시의 종교 압력이 +30% 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE]신앙 +3 [ICON_GOLDEN_AGE]황금기 점수 +3</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN">
 			<Text>카를슈테인 성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN_HELP">
-			<Text>[COLOR_YELLOW]기사단[ENDCOLOR]을 무료로 제공합니다. 일반적으로 필요한 전 세계의 신도 수 [COLOR:105:105:105:255](보통 20%)[ENDCOLOR] 보다 5% 낮은 수준으로 [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다.이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]기사단[ENDCOLOR]을 무료로 제공합니다. 일반적으로 필요한 전 세계의 신도 수 [COLOR:105:105:105:255](보통 20%)[ENDCOLOR] 보다 5% 낮은 수준으로 [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_KARLSTEJN_TEXT">
 			<Text>카를스테인 성은 현대 체코의 프라하 외곽에 있는 그림 같은 보헤미안 요새입니다. 그 성은 1365년에 완성되었고, 보헤미아의 제국 레갈리아와 왕관 보석뿐만 아니라 많은 다른 유물들과 보물들을 보관하고 있습니다. 그 성은 마르틴 루터와 개신교 종교 개혁보다 한 세기 이상 전에 시작된 유럽의 첫 번째 주요 개신교 운동인 후스 전쟁 동안 후스파 사람들에 의해 포위되었습니다.</Text>
@@ -387,7 +387,7 @@
 			<Text>소호 제작소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SOHO_FOUNDRY_HELP">
-			<Text>[COLOR_YELLOW]공장[ENDCOLOR]을 무료로 제공합니다. 이 불가사의가 지어진 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_RES_COAL]석탄 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]공장[ENDCOLOR]을 무료로 제공합니다. 이 불가사의가 지어진 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_RES_COAL]석탄 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SOHO_FOUNDRY_TEXT">
 			<Text>소호 파운드리는 1795년 제임스 와트와 매튜 볼튼이 와트의 최신 발명품: 바로 증기 기관을 생산하기 위해 설립한 회사입니다. 독창적인 땜장이였던 제임스 와트는 기존의 뉴코멘 설계를 몇 가지 개선하여 마모가 적고 석탄의 4분의 1만 사용하면서 회전 운동을 일으키는 새로운 증기 기관을 만들었습니다. 와트는 새로운 기계에 특허를 내고 사업가이자 발명가인 매튜 볼튼과 함께 영국 스메스윅에 새로운 공장을 설립했습니다. 소호 파운드리는 당시로서는 전례가 없던 방식으로, 대규모 작업을 소규모 전문 작업으로 나누는 등 새로운 기술을 사용하여 표준화되고 상호 교환 가능한 부품을 생산했습니다. 소호 파운드리의 경영진은 직원들에게 병가 혜택은 물론 전문성 개발 및 복지 프로그램을 제공하는 등 시대를 앞서 나갔습니다. 소호 파운드리에서 생산된 경영 이론, 대량 생산 기술 및 증기 기관은 영국 산업화에 결정적인 역할을 했으며 전 세계에 지속적인 영향을 미쳤습니다.</Text>
@@ -413,7 +413,7 @@
 			<Text>블레츨리 파크</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
-			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 [ICON_VP_SCIENTIST] 과학자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_VP_SPY_POINTS] 스파이 포인트를 200 제공합니다. 모든 도시의 도시 [ICON_SPY] 보안이 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 2턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. 이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]연구소[ENDCOLOR]를 무료로 제공합니다. 모든 [ICON_VP_SCIENTIST] 과학자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_VP_SPY_POINTS] 스파이 포인트를 200 제공합니다. 모든 도시의 도시 [ICON_SPY] 보안이 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 2턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]합리[ENDCOLOR] 정책을 완성해야 건설할 수 있습니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
 			<Text>버킹엄 밀턴 케인스에 있는 블레츨리 공원은 제2차 세계 대전 동안 추축국의 비밀 통신, 특히 독일의 에니그마와 로렌츠 암호를 정기적으로 관통한 영국의 정부 암호와 사이퍼 학교의 중심 장소였습니다. 제2차 세계 대전 영국 정보국의 공식 역사학자는 블레츨리에서 제작된 "울트라" 첩보가 전쟁을 2년에서 4년 단축시켰으며, 그것이 없었다면 전쟁의 결과는 불확실했을 것이라고 썼습니다. 그 장소는 이제 그러한 업적을 기념하고 기념하는 교육적이고 역사적인 명소가 되었습니다.</Text>
@@ -426,7 +426,7 @@
 			<Text>엠파이어 스테이트 빌딩</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EMPIRE_STATE_BUILDING_HELP">
-			<Text>[COLOR_YELLOW]증권거래소[ENDCOLOR]를 무료로 제공합니다. 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. 모든 전문가의 [ICON_GOLD] 골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_YELLOW]증권거래소[ENDCOLOR]를 무료로 제공합니다. 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. 모든 전문가의 [ICON_GOLD] 골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EMPIRE_STATE_BUILDING_TEXT">
 			<Text>엠파이어 스테이트 빌딩은 5번가와 웨스트 34번가의 교차점에 있는 뉴욕 맨해튼 미드타운에 위치한 103층짜리 초고층 빌딩입니다. 그것의 지붕 높이는 1,250 피트 (380 미터)이고, 그것의 안테나 첨탑을 포함하여, 그것은 총 1,454 피트 (443 미터) 높이입니다.[6] 그것의 이름은 엠파이어 스테이트인 뉴욕의 별명에서 유래되었습니다. 그것은 1931년 초에 완공된 후 1970년 말에 원래의 세계 무역 센터의 북쪽 타워에서 꼭대기까지 거의 40년 동안 세계에서 가장 높은 빌딩으로 서 있었습니다. 2001년 9·11 테러 이후, 엠파이어 스테이트 빌딩은 2012년 4월 30일 원 월드 트레이드 센터가 더 높은 높이에 도달할 때까지 뉴욕에서 다시 가장 높은 빌딩이 되었습니다. 엠파이어 스테이트 빌딩은 현재 미국에서 네 번째로 높은 마천루이며(시카고에 있는 원 월드 트레이드 센터, 윌리스 타워, 트럼프 인터내셔널 호텔 앤 타워에 이어), 세계에서 25번째로 높은 마천루입니다(현재 가장 높은 마천루는 두바이에 위치한 부르즈 칼리파입니다). 그것은 또한 아메리카에서 다섯 번째로 높은 자립식 건물입니다.</Text>
@@ -439,7 +439,7 @@
 			<Text>유럽 입자물리 연구소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CERN_HELP">
-			<Text>[COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다. 모든 [ICON_CITY_STATE]도시 국가에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다. 모든 [ICON_CITY_STATE]도시 국가에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] 제공합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CERN_TEXT">
 			<Text>CERN으로 알려진 유럽 핵 연구 기구는 세계에서 가장 큰 입자 물리학 실험실을 운영하는 것을 목적으로 하는 유럽의 연구 기관입니다. 1954년에 설립된 이 단체는 프랑스-스위스 국경의 제네바 북서부 교외에 기반을 두고 있으며 21개의 유럽 회원국이 있습니다. 이스라엘은 정회원 자격을 부여받은 첫 번째(현재 유일한) 비유럽 국가입니다. CERN이라는 용어는 또한 2013년에 2513명의 직원을 거느리고 608개의 대학과 연구 시설 및 113개 국가를 대표하는 방문 과학자 및 엔지니어뿐만 아니라 약 12,313명의 펠로우, 동료, 견습생을 수용한 연구소를 지칭하는 데 사용됩니다. CERN의 주요 기능은 고에너지 물리학 연구에 필요한 입자 가속기 및 기타 인프라를 제공하는 것입니다. 그 결과 국제적인 협력에 따라 CERN에서 수많은 실험이 구성되었습니다. 이곳은 또한 월드 와이드 웹의 발상지이기도 합니다. Meyrin의 주요 사이트에는 주로 실험 데이터 분석을 위한 강력한 데이터 처리 시설이 들어 있는 대규모 컴퓨터 센터가 있습니다. 이러한 시설을 다른 곳의 연구자들이 이용할 수 있도록 해야 하는 필요성 때문에 역사적으로 주요 광역 네트워킹 허브였습니다.</Text>
@@ -455,7 +455,7 @@
 			<Text>더 잘 훈련된 외교 부대를 통해 도시 국가들과의 관계를 영원히 증진시킬 수 있는 세계 불가사의입니다.  인근 도시 국가로 보낼 수 있는 무료 위대한 외교관을 얻기 위해 이 불가사의를 건설하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FORUM_HELP">
-			<Text>[ICON_DIPLOMAT][COLOR_YELLOW]위대한 외교관[ENDCOLOR]이 1명 출현합니다. [ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]황실 봉인[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_DIPLOMAT][COLOR_YELLOW]위대한 외교관[ENDCOLOR]이 1명 출현합니다. [ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]황실 봉인[ENDCOLOR] 승급을 부여합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FORUM_TEXT">
 			<Text>로마 포럼은 로마 시의 중심에 있는 몇몇 중요한 고대 정부 건물들의 폐허로 둘러싸인 직사각형 포럼입니다. 이곳은 수세기 동안 로마 공공 생활: 개선 행렬과 선거, 대중 연설의 장소, 형사 재판, 검투사 경기, 그리고 상업적인 사건들의 중심이었습니다. 고대 로마의 들끓는 중심지인 이곳은 세계에서 가장 유명한 만남의 장소이자 역사상 가장 유명한 만남의 장소라고 불렸습니다.</Text>
@@ -471,7 +471,7 @@
 			<Text>외교 유닛이 국경 개방 없이 경쟁국의 영토에 들어갈 수 있도록 이 국가 불가사의를 건설하십시오. 제국의 모든 능력을 향상시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
-			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 모든 도시에서 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]귀족[ENDCOLOR] 승급을 부여합니다. 모든 외교 청사의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>[ICON_RES_PAPER]종이 자원을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 제공합니다. 모든 도시에서 외교 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 제공합니다. 모든 외교 유닛에 [COLOR_PLAYER_PURPLE]귀족[ENDCOLOR] 승급을 부여합니다. 모든 외교 청사의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SUMMER_PALACE_TEXT">
 			<Text>중세 후기와 근대에 단계적으로 지어진 이화원은 청나라 초기의 힘과 힘을 보여주는 크고 화려한 건물이었고 베이징에 있는 황제의 주요 궁전과 맞닿아 있었습니다. 절묘한 조경, 무성한 정원, 화려한 경치로 유명한 이화원은 근대 중국 초기 힘의 중요한 상징이자 인기 있는 관광지로 남아 있습니다.</Text>
@@ -921,7 +921,7 @@
 			<Text>마우솔레움을 건설해 전쟁의 희생자에서 신앙을 얻고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_HELP">
-			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_TEXT">
 			<Text>마우솔레움은 죽은 사람이나 사람들의 매장 공간이나 묘실을 둘러싼 기념물로 지어진 외부 독립 건물입니다. 장막이 없는 기념비는 위령비입니다. 마우솔레움은 무덤의 한 종류로 여겨질 수도 있고, 무덤이 마우솔레움 안에 있다고 여겨질 수도 있습니다. 마우솔레움에는 때때로 예배당이 있습니다.</Text>
@@ -934,7 +934,7 @@
 			<Text>천상의 옥좌를 건설해 성도의 산출을 크게 증가시키고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_HELP">
-			<Text>모든 성지의 [ICON_GOLDEN_AGE] 황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_GOLDEN_AGE] 황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_TEXT">
 			<Text>왕좌는 국가의 권력자나 고위 관료가 앉는 자리이며, 특히 국가 행사에서는 군주가 차지하는 자리 또는 의례적인 행사에서는 교황이나 주교가 차지하는 자리입니다. "왕좌"는 추상적인 의미에서 군주제나 왕위 그 자체를 의미할 수도 있으며, "왕좌 뒤에 있는 권력"과 같은 많은 표현에도 사용됩니다.</Text>
@@ -947,7 +947,7 @@
 			<Text>위대한 제단을 건설해 군사 유닛 생산 보너스를 받고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
-			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_TEXT">
 			<Text>제단은 종교적인 목적을 위해 제물과 같은 것들을 제공하는 모든 구조물입니다. 제단은 보통 성지에서 발견되며, 그것들은 사원, 교회 그리고 다른 예배 장소에 위치할 수 있습니다. 오늘날 그것들은 특히 기독교, 불교, 힌두교, 신도, 도교뿐만 아니라 신이교주의와 의식 마법에서 사용됩니다. 유대교는 제2성전이 파괴될 때까지 그러한 구조를 사용했습니다. 그리스와 노르드 종교를 포함한 많은 역사적인 신앙들도 그것들을 사용했습니다.</Text>
@@ -960,7 +960,7 @@
 			<Text>기록실을 건설해 기술을 연구할 때마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 얻고, 모든 성지를 강화하십시오. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_HELP">
-			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE][ICON_VP_GREATWRITING] 걸작 문학 슬롯 3개를 포함합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE][ICON_VP_GREATWRITING] 걸작 문학 슬롯 3개를 포함합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_PEDIA">
 			<Text>기록실은 교황청에서 개인적으로 보관하는 서신과 의사록의 모음집이었습니다. 이 컬렉션은 바티칸 비밀 기록 보관소의 시초가 되었습니다.</Text>
@@ -973,7 +973,7 @@
 			<Text>성스러운 법정을 건설하여 골드 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_HELP">
-			<Text>모든 성지의 [ICON_CULUTRE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_CULUTRE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_TEXT">
 			<Text>베스딘 (심판의 집)은 유대교의 랍비 궁정입니다. 고대에, 그것은 성경의 이스라엘 땅에서 법체계의 기초가 되었습니다. 오늘날, 그것은 이스라엘과 디아스포라의 유대인 공동체 모두에서 많은 종교적 문제에 법적 권력이 투자되고 있으며, 판결은 유대인 종교 생활과 특별히 관련된 문제에 대해 다양한 권한(관할권과 주제에 따라)을 보유하고 있습니다.</Text>
@@ -986,7 +986,7 @@
 			<Text>신성한 정원을 건설하여 문화 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_HELP">
-			<Text>모든 성지의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_TEXT">
 			<Text>종교는 정원 디자인에 중요한 영향을 끼쳤습니다. 사원 정원은 메소포타미아와 고대 이집트에서 처음 만들어졌습니다. 신성한 숲은 고대 인도, 그리스, 로마, 중국 그리고 일본에서 만들어졌습니다. 성스러운 나무는 켈트족과 게르만족 유럽에서는 중요했고 인도에서는 여전히 중요합니다. 숲은 고대 인도에서 신성했고 현대 힌두교 예배에서도 여전히 신성했습니다. 불교는 중국과 일본의 선정원을 유명한 예로 들며 정원 디자인에 큰 영향을 끼쳤습니다. 기독교, 특히 가톨릭과 성공회에서, 마리아 정원은 교회와 기관들 사이에서 흔합니다. 신성한 정원을 만드는 관습은 러시아 작가 블라디미르 메그레의 책 링잉 시더스 시리즈에 현대 시대에 맞게 재활성화되고 각색되었습니다.</Text>
@@ -999,7 +999,7 @@
 			<Text>종교 공의회를 건설하여 식량 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_HELP">
-			<Text>모든 성지의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_TEXT">
 			<Text>기독교 의회(또는 공의회)는 투표권이 있는 사람들이 전 세계에서 소집되고 교회 전체의 승인을 확보하는 교회 교리와 실천 문제를 논의하고 해결하기 위해 소집된 교회 고위 인사들과 신학 전문가들로 구성된 회의입니다.</Text>
@@ -1012,7 +1012,7 @@
 			<Text>사도 궁전을 건설하여 황금기를 더 많이 이어가고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP">
-			<Text>도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 모든 성지의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 모든 성지의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_TEXT">
 			<Text>바실리카는 현대 영어에서 세 가지 다른 용법을 가지고 있습니다. 이 단어는 원래 개방적이고 로마적인 공공 법원 건물을 묘사하기 위해 사용되었는데, 보통 로마 마을의 포럼 근처에 위치해 있습니다. 그 연장선상에서 그것은 같은 형태의 기독교 건물들에 적용되었고 중앙의 마당과 통로를 가진 그 건물들을 묘사하기 위해 건축적인 의미로 계속 사용되고 있습니다. 나중에, 그 용어는 특별히 교황에 의해 특별한 의식권을 부여받은 크고 중요한 교회인 사도 궁전을 지칭하게 되었습니다.</Text>
@@ -1025,7 +1025,7 @@
 			<Text>대 납골당을 건설하여 많은 신앙을 얻고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
-			<Text>모든 성지의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+			<Text>모든 성지의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_TEXT">
 			<Text>유골함은 사람의 유골의 마지막 안식처 역할을 하기 위해 만들어진 상자, 상자, 건물, 우물 또는 장소입니다. 그것들은 매장 공간이 부족한 곳에서 자주 사용됩니다. 시신은 먼저 임시 무덤에 묻히고, 몇 년 후에 뼈의 잔해가 제거되어 유골함에 안치됩니다. 유골함이 차지하는 공간이 작다는 것은 원래의 관을 그대로 두었을 때보다 더 많은 사람들의 유해를 한 무덤에 보관할 수 있다는 것을 의미합니다. 페르시아에서, 조로아스터인들은 초기 (약 3,000년 전)부터 이 기능을 위해 깊은 우물을 사용했고, 그것을 말 그대로, "뼈가 있는 장소"라고 불렀습니다. 조로아스터교 신앙에는 아스투단들에 관한 많은 의식과 규정이 있습니다. 중앙아시아 지역의 7세기 이전의 소그드인들 사이에서, 유골함의 이름은 탄바르였습니다.</Text>
