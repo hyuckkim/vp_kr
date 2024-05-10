@@ -285,7 +285,7 @@ SET Text = '불신의 알비온'
 WHERE Tag = 'TXT_KEY_TRAIT_OCEAN_MOVEMENT_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '모든 해상 및 승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 해상 유닛의 [ICON_GOLD]유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 모든 도시의 [ICON_SPY] 도시 보안이 15 증가합니다. [ICON_SPY]스파이가 1턴 빨리 이동하고 [COLOR_POSITIVE_TEXT]1레벨[ENDCOLOR] 더 높은 상태로 첩보 활동을 수행합니다. 스파이 하나를 보유하고 게임을 시작합니다.'
+SET Text = '모든 해상 및 승선 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 해상 유닛의 [ICON_GOLD]유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 모든 도시의 [ICON_SPY] 도시 보안이 15 증가합니다. [ICON_SPY]스파이가 1턴 빨리 이동하고 외국 도시에서 25% 강해집니다. 스파이 하나를 보유하고 게임을 시작합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_OCEAN_MOVEMENT';
 
 UPDATE Language_ko_KR

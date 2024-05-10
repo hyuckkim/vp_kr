@@ -3,7 +3,7 @@ SET Text = '당신의 역스파이 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_KILLED_A_SPY';
 
 UPDATE Language_ko_KR
-SET Text = '그들의 작전으로, {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CivAdj} 스파이에 의해 처치되었습니다!'
+SET Text = '{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]처치[ENDCOLOR]당했습니다! {3_CivName}{2: plural 1?과; 2?와;}의 외교 관계가 악화됩니다. {1_SpyRank} {2_SpyName}의 대체 스파이를 모집하기까지 시간이 걸립니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SPY_WAS_KILLED';
 
 UPDATE Language_ko_KR

@@ -81,20 +81,11 @@
 			<Text>도시 화면을 확인하기 위해 {1_Num} 네트워크 포인트가 더 필요합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_MISSIONS_HELP">
-			<Text>임무 요구 사항이 충족되면 스파이가 스파이 임무를 수행하도록 할 수 있습니다. 임무 수행은 [COLOR_NEGATIVE_TEXT]네트워크 포인트를 소모[ENDCOLOR]하며, 스파이가 [COLOR_NEGATIVE_TEXT]발견[ENDCOLOR]되어 외교 관계가 악하될 수 있습니다. 또한 스파이가 [COLOR_NEGATIVE_TEXT]체포[ENDCOLOR]될 수도 있으며, 이 경우 임무는 계속 수행되지만 스파이는 잠시 투옥된 후 은신처로 돌아갑니다.</Text>
+			<Text>임무 요구 사항이 충족되면 스파이가 스파이 임무를 수행하도록 할 수 있습니다. 임무 수행은 [COLOR_NEGATIVE_TEXT]네트워크 포인트를 소모[ENDCOLOR]하며, 스파이가 [COLOR_NEGATIVE_TEXT]발견[ENDCOLOR]되어 외교 관계가 악하될 수 있습니다. 또한 스파이가 [COLOR_NEGATIVE_TEXT]처치[ENDCOLOR]될 수도 있으며, 이 경우 임무는 계속 수행되지만 대체 스파이를 고용할 때까지 시간이 걸립니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_EO_SPY_IMPRISONED_TT">
-			<Text>{1_RankName} {2_SpyName}{2: plural 1?은; 2?는;} 현재 투옥되어 있습니다.[NEWLINE][NEWLINE]풀려나면 은신처로 돌아가며 다시 임무를 수행시킬 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPY_STATE_IMPRISONED">
-			<Text>투옥됨</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_IMPRISONED">
-			<Text>{1_Turns}턴 간 투옥되었습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_EO_ID_CAPTURE_CHANCE">
+		<Row Tag="TXT_KEY_EO_ID_KILL_CHANCE">
 			<Text>[COLOR_NEGATIVE_TEXT]발견[ENDCOLOR]될 확률: {1_IDChance}%
-			[NEWLINE][COLOR_NEGATIVE_TEXT]체포[ENDCOLOR]될 확률: {2_CaptureChance}%</Text>
+			[NEWLINE][COLOR_NEGATIVE_TEXT]처치[ENDCOLOR]될 확률: {2_KillChance}%</Text>
 		</Row>
 		
 		<!-- Counterspies -->
@@ -240,6 +231,9 @@
 		
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_POLICYMOD_FASTER_TT">
 			<Text>[NEWLINE][ICON_BULLET]정책으로: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_TRAIT_MOD_TT">
+			<Text>[NEWLINE][ICON_BULLET]특성으로: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_BEFORE_SECURITY_TT">

@@ -315,6 +315,15 @@ WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT';
 -- Espionage overview
 ------------------------------------------------
 UPDATE Language_ko_KR
+SET Text = '이름'
+WHERE Tag = 'TXT_KEY_EO_NAME_RANK';
+
+-- no ranks anymore in VP, so every Recruit is now an Agent
+UPDATE Language_ko_KR
+SET Text = '요원'
+WHERE Tag = 'TXT_KEY_SPY_RANK_0';
+
+UPDATE Language_ko_KR
 SET Text = '보안 등급'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL';
 
@@ -769,11 +778,11 @@ WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_RESURRECT';
 -- Trade screen
 ------------------------------------------------
 UPDATE Language_ko_KR
-SET Text = '다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIVE_TEXT]{1_NumVotes}명[ENDCOLOR]을 동원해 아래의 제안을 [COLOR_POSITIVE_TEXT]상정[ENDCOLOR]하도록 {2_ChoiceText}{2: plural 1?을; 2?를;} 지원할 것입니다:[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]상기 대표단 수는 이 문명이 통제하는 대표단 수와 외교관의 레벨에 따라 달라집니다. 외교관의 레벨이 높을 수록 더 많은 투표 수를 확보할 수 있습니다.'
+SET Text = '다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIVE_TEXT]{1_NumVotes}명[ENDCOLOR]을 동원해 아래의 제안을 [COLOR_POSITIVE_TEXT]상정[ENDCOLOR]하도록 {2_ChoiceText}{2: plural 1?을; 2?를;} 지원할 것입니다:[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]상기 대표단 수는 이 문명이 통제하는 대표단 수와 [ICON_DIPLOMAT] 외교관이 얻은 네트워크 포인트에 따라 달라집니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT';
 
 UPDATE Language_ko_KR
-SET Text = '다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIVE_TEXT]{1_NumVotes}명[ENDCOLOR]을 동원해 아래의 제안을 [COLOR_POSITIVE_TEXT]폐지[ENDCOLOR]하도록 {2_ChoiceText}{2: plural 1?을; 2?를;} 지원할 것입니다:[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]상기 대표단 수는 이 문명이 통제하는 대표단 수와 외교관의 레벨에 따라 달라집니다. 외교관의 레벨이 높을 수록 더 많은 투표 수를 확보할 수 있습니다.'
+SET Text = '다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIVE_TEXT]{1_NumVotes}명[ENDCOLOR]을 동원해 아래의 제안을 [COLOR_POSITIVE_TEXT]폐지[ENDCOLOR]하도록 {2_ChoiceText}{2: plural 1?을; 2?를;} 지원할 것입니다:[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]상기 대표단 수는 이 문명이 통제하는 대표단 수와 [ICON_DIPLOMAT] 외교관이 얻은 네트워크 포인트에 따라 달라집니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT';
 
 UPDATE Language_ko_KR

@@ -658,35 +658,34 @@
 			<Text>알수 없는 문명의 스파이의 {1_City}에서의 활동은 [COLOR_NEGATIVE_TEXT]성공했습니다[ENDCOLOR] : {2_MissionResult}</Text>
 		</Row>
 		
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_CAUGHT_S">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 발각되어 붙잡힘!</Text>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_KILLED_S">
+			<Text>{1_SpyRank} {2_SpyName} 발각되어 처치됨!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_CAUGHT">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]발각되어 붙잡혔습니다![ENDCOLOR] {3_CivName}와의 외교 관계가 악화되고 {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 투옥되었습니다. 헤제되어 다시 임무를 수행하기까지 시간이 걸립니다.</Text>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_KILLED">
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중[COLOR_NEGATIVE_TEXT]발각되어 처치[ENDCOLOR]되었습니다!{3_CivName} 와의 외교 관계가 악화됩니다. {1_SpyRank} {2_SpyName}의 대체 스파이 모집까지 시간이 걸립니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_VP">
+			<Text>{2_CityName}에서 {1_CivAdj}의 스파이가 [COLOR_NEGATIVE_TEXT]스파이 임무[ENDCOLOR]를 완료하고 사망했습니다: {3_MissionText}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_VP_S">
+			<Text>{1_CivAdj} 스파이 처치!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_NOT_IDENTIFIED">
+			<Text>{1_CityName}에서 알려지지 않은 문명의 스파이가 [COLOR_NEGATIVE_TEXT]스파이 임무[ENDCOLOR]를 완료하고 사망했습니다: {3_MissionText}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_NOT_IDENTIFIED_S">
+			<Text>외국 스파이 처치!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_S">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 발각됨!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]발각되었습니다![ENDCOLOR] {3_CivName}와의 외교 관계가 악화됩니다. {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 다른 작전을 위해 대기합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_CAUGHT_S">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 붙잡힘!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_CAUGHT">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]붙잡혔습니다![ENDCOLOR] 다시 임무를 수행하기까지 시간이 걸립니다.</Text>
-		</Row>
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]발각되었습니다![ENDCOLOR] {3_CivName}와의 외교 관계가 악화됩니다. {1_SpyRank} {2_SpyName}{2: plural 
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED_S">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 들키지 않음!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전을 완료했으며 [COLOR_POSITIVE_TEXT]들키지 않았습니다.[ENDCOLOR]. 다른 작전을 위해 대기합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RELEASED_PRISON_S">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 석방됨!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RELEASED_PRISON">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 석방되엇습니다. 스파이를 다음 작전에 보낼 수 있습니다.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NOTIFICATION_NO_TOURISM_EVENT_ENDED_S">

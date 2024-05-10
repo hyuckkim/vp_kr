@@ -1413,10 +1413,10 @@
 			<Text>[ICON_SPY] 대 첩보망 개설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_HELP">
-			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -10만큼 얻습니다. [COLOR:110:110:110:255](역스파이 레벨에 따라 보정)[ENDCOLOR]</Text>
+			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -20만큼 얻습니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_EFFECT">
-			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -10만큼 얻습니다. [COLOR:110:110:110:255](역스파이 레벨에 따라 보정)[ENDCOLOR]</Text>
+			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -20만큼 얻습니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_MISSION">
 			<Text>첩보망 개설</Text>
@@ -1425,25 +1425,13 @@
 			<Text>[ICON_STRENGTH] 도시 방비 강화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_HELP">
-			<Text>도시의 [ICON_RANGE_STRENGTH] 범위 공격이 20% 강화되고, 역스파이 레벨마다 10%씩 더 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
+			<Text>도시의 [ICON_RANGE_STRENGTH] 범위 공격이 30% 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_EFFECTS">
-			<Text>도시 [ICON_RANGE_STRENGTH] 범위 공격이 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
+			<Text>도시 [ICON_RANGE_STRENGTH] 범위 공격이 30% 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_MISSION">
 			<Text>방비 강화</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_CHASE">
-			<Text>[ICON_PIRATE] 외국 스파이 추적</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_CHASE_HELP">
-			<Text>외국 스파이가 작전을 완료하면 항상 발견됩니다. 잡힌 스파이는 항상 처치됩니다. 외국 스파이를 처치하면 [ICON_RESEARCH] 과학을 50 [COLOR:110:110:110:255](게임 속도별 보정)[ENDCOLOR] 얻습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_CHASE_EFFECT">
-			<Text>외국 스파이가 작전을 완료하면 항상 발견됩니다. 잡힌 스파이는 항상 처치됩니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_CHASE_MISSION">
-			<Text>스파이 추적</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>
