@@ -1413,7 +1413,7 @@
 			<Text>[ICON_SPY] 대 첩보망 개설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_HELP">
-			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -20만큼 얻습니다. </Text>
+			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -20만큼 얻습니다. [NEWLINE][NEWLINE]적 [ICON_SPY] 스파이 발견 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 50 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 처치 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 150 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_EFFECT">
 			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -20만큼 얻습니다. </Text>
@@ -1425,7 +1425,7 @@
 			<Text>[ICON_STRENGTH] 도시 방비 강화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_HELP">
-			<Text>도시의 [ICON_RANGE_STRENGTH] 범위 공격이 30% 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
+			<Text>도시의 [ICON_RANGE_STRENGTH] 범위 공격이 30% 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다. 적 [ICON_SPY] 스파이 발견 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 50 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 처치 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 150 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_EFFECTS">
 			<Text>도시 [ICON_RANGE_STRENGTH] 범위 공격이 30% 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
