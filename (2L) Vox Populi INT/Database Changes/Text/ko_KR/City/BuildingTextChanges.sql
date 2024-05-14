@@ -117,7 +117,7 @@ SET Text = '도시 주변 해양 타일의 [ICON_FOOD]식량 및 [ICON_GOLD]골�
 WHERE Tag = 'TXT_KEY_BUILDING_LIGHTHOUSE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '등대는 해안가 도시에서만 건설할 수 있습니다. 등대는 해양 타일의 [ICON_FOOD] 식량과 [ICON_GOLD] 골드를 증가시킵니다. 도시 간에 "해상 무역로"가 연결되도록 합니다. (개념에서 더 자세히 알아보십시오).'
+SET Text = '등대는 해안가 도시에서만 건설할 수 있습니다. 등대는 해양 타일의 [ICON_FOOD] 식량과 [ICON_GOLD] 골드를 증가시킵니다. 도시 간에 해상 도시 연결을 수행합니다. (개념에서 더 자세히 알아보십시오).'
 WHERE Tag = 'TXT_KEY_BUILDING_LIGHTHOUSE_STRATEGY';
 
 -- Harbor
@@ -131,11 +131,11 @@ WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_STRATEGY';
 
 -- Seaport
 UPDATE Language_ko_KR
-SET Text = '도시 주변 해양 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시 주변 해양 자원의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_COAL]석탄 [COLOR_NEGATIVE_TEXT]1개[ENDCOLOR]가 필요합니다. [COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다. 도시에 [COLOR_NEGATIVE_TEXT]철도역[ENDCOLOR]이 없어야 건설할 수 있습니다.'
+SET Text = '도시 주변 해양 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시 주변 해양 자원의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]항구가 있는 도시와 산업 도시 연결을 수행합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '항구는 도시의 생산을 증가시키고 해양 자원의 산출량을 증가시키는 산업 시대 건물입니다. 군사 보급 한도를 도시 인구의 10%만큼 증가시킵니다. 도시에 항만이 있어야 건설할 수 있고, 도시에 철도역이 없어야 건설할 수 있습니다.'
+SET Text = '항구는 항만을 요구하는 산업 시대 건물입니다. 해양 타일의 [ICON_PRODUCTION] 생산과 [ICON_GOLD] 골드 산출을 증가시키고, 군사 보급 한도를 도시 인구의 20%만큼 증가시킵니다. 물 타일을 넘어 산업 도시 연결을 할 수 있게 합니다. (개념에서 더 자세히 알아보십시오)'
 WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_STRATEGY';
 
 -- Market
@@ -641,7 +641,7 @@ WHERE Tag = 'TXT_KEY_WONDER_HIMEJI_CASTLE_HELP';
 
 -- Machu Picchu
 UPDATE Language_ko_KR
-SET Text = '[ICON_CONNECTED]도시 연결에서 오는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 이 불가사의가 지어진 도시 주변 3타일 이내의 산 1개마다 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시 주변 [COLOR_YELLOW]2타일 이내에 산[ENDCOLOR]이 있어야 건설할 수 있습니다. '
+SET Text = '[ICON_CONNECTED]도시 연결 및 [ICON_INDUSTRIAL_CONNECTED]산업 도시 연결 에서 오는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 이 불가사의가 지어진 도시 주변 3타일 이내의 산 1개마다 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시 주변 [COLOR_YELLOW]2타일 이내에 산[ENDCOLOR]이 있어야 건설할 수 있습니다. '
 WHERE Tag = 'TXT_KEY_WONDER_MACHU_PICHU_HELP';
 
 -- Forbidden Palace

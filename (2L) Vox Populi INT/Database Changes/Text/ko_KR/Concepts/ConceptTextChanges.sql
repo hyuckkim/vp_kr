@@ -238,7 +238,7 @@ SET Text = '[COLOR_YELLOW]도시 연결[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_GOLD_TRADE_ROUTES_HEADING3_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '만일 한 도시가 수도의 [COLOR_YELLOW]등대나[ENDCOLOR] 도로로 연결되어 있다면 (각 도시에 등대가 있어야 합니다) 그 도시는 수도와 "무역로"를 가지고 있다고 말합니다. 각각의 무역로는 두 도시의 크기에 따라 일정량의 골드를 턴당 벌게 됩니다.'
+SET Text = '만일 한 도시가 수도의 [COLOR_YELLOW]등대나[ENDCOLOR] (각 도시에 등대가 있어야 합니다) 도로로 연결되어 있다면 그 도시는 수도와 도시 연결이 되어 있다고 말합니다. 각각의 도시 연결은 두 도시의 크기에 따라 일정량의 골드를 턴당 벌게 됩니다. [NEWLINE][NEWLINE]도시가 수도의 [COLOR_YELLOW]항구[ENDCOLOR]나 (각 도시에 항구가 있어야 합니다) 철도로 연결되어 있다면 그 도시는 수도와 산업 도시 연결이 되어 있다고 말합니다. 각각의 산업 도시 연결은 두 도시의 크기에 따라 생산 보너스를 얻게 됩니다. 산업 도시 연결은 [COLOR_YELLOW]석탄 저장소[ENDCOLOR]를 건설할 수 있게 해, 도시에 높은 생산 보너스를 부여합니다.'
 WHERE Tag = 'TXT_KEY_GOLD_TRADE_ROUTES_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -252,7 +252,7 @@ SET Text = '타일에 마을을 건설해 [ICON_GOLD]골드를 증가시킵니�
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_BODY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_YELLOW]도로와 무역로[ENDCOLOR]'
+SET Text = '[COLOR_YELLOW]도로와 도시 연결[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_TITLE';
 UPDATE Language_ko_KR
 SET Text = '플레이어의 수도와 다른 도시 사이에 길이 있다면, 그 도시는 ''도시 연결'' 상태입니다. 도시 연결이 되어 있으면 턴마다 금을 보너스로 받습니다. 보너스로 받는 금의 양은 연결된 도시의 크기에 따라 달라집니다([COLOR_YELLOW]등대와 해안 도시 사이[ENDCOLOR]도 연결할 수 있음). 자세한 사항은 도시 연결 섹션을 참고하십시오.'

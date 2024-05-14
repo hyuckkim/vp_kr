@@ -1240,6 +1240,9 @@
 		<Row Tag="TXT_KEY_YIELD_FROM_CONNECTION">
 			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString}[ICON_CONNECTED]도시 연결에서 획득</Text>
 		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_INDUSTRIAL_CITY_CONNECTION">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString} [ICON_INDUSTRIAL_CONNECTED]산업 도시 연결에서 획득</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_CORPORATIONS_TEXT">
 			<Text>기업</Text>
 		</Row>

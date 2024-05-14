@@ -213,6 +213,12 @@
 		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSWATERROUTES">
 			<Text>해안 도시 연결 가능</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSINDUSTRIALWATERROUTES">
+			<Text>해안 산업 도시 연결 가능</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSAIRROUTES">
+			<Text>항공 연결 가능</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRALUXURIES">
 			<Text>추가 사치 자원</Text>
 		</Replace>
