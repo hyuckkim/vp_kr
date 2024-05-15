@@ -7,8 +7,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        run: iscc "vp_kr installer file/CPPSetupData.iss" /O"out_githubaction" /F"vox populi kor"
-      - uses: actions/upload-artifact@v3
+        run: iscc "vp_kr installer file/CPPSetupData.iss" /O"out_githubaction" /F"Vox Populi INT"
+      - uses: actions/upload-artifact@v4
         with:
-          name: "vox populi kor"
-          path: "out_githubaction/vox populi kor.exe"
+          name: "Vox Populi INT"
+          path: "out_githubaction/Vox Populi INT.exe"
