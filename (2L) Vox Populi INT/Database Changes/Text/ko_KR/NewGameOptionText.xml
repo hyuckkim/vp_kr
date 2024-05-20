@@ -29,13 +29,6 @@
 			<Text>종속국 시스템을 비활성화합니다. 종속국이 만들어질 수 없습니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS">
-			<Text>플레이어 종속국 허용</Text>
-		</Row>
-		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS_HELP">
-			<Text>플레이어가 다른 문명의 종속국이 될 수 있습니다.[NEWLINE][NEWLINE]참고: "종속국 비활성화" 옵션에 체크했다면 무효합니다.</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY">
 			<Text>투명한 외교</Text>
 		</Row>

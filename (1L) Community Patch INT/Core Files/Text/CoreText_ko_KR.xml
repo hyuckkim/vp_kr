@@ -3679,9 +3679,6 @@
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_YOUR_VASSAL">
 			<Text>그들은 이미 우리의 종속국입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_VASSAL_HUMAN_DISABLED">
-			<Text>"플레이어 종속국" 옵션을 비활성화했기 때문에 불가능합니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_ARE_VASSAL">
 			<Text>우리는 이미 {1_CivName}의 종속국이기 때문에 그들의 종속국이 될 수 없습니다.</Text>
 		</Row>
