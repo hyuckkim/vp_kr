@@ -370,18 +370,6 @@
 		<Row Tag="TXT_KEY_UNIT_HELP_SPAIN_INQUISITOR">
 			<Text>{TXT_KEY_UNIT_HELP_INQUISITOR}[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]스페인 종교재판은 아무도 예상 못하지![ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MISSION">
-			<Text>전도관</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MISSION_TEXT">
-			<Text>가톨릭 교회에 따르면 선교회는 지역 주민들을 가르치고 보살피고 돕는 데 헌신하는 종교 공동체로서 그리스도의 이상을 지지합니다. 그러나, 실제로, 그 임무는 지역 주민들을 개종시키고 문화적 동화를 통해 그들을 "문명화"하는 데 전념했습니다. 스페인 선교단은 교회, 기숙사, 작업실 및 학교가 있는 자급자족하는 전통적인 본보기 역할을 합니다. 어떤 곳에서는 심지어 요새화되어 있었고, 반격으로부터 스스로를 방어할 준비가 되어 있었습니다. 미주, 아시아, 아프리카의 선교는 대부분 교회 자체보다는 프란치스코회, 예수회, 도미니카회, 아우구스티누스 등 종교 교단에 의해 이뤄졌지만 효과는 마찬가지였습니다. 선교는 종종 스페인, 프랑스, 포르투갈의 식민지화 노력이 합쳐질 수 있는 핵심 역할을 했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MISSION_HELP">
-			<Text>하시엔다가 [ICON_PEACE] +1 신앙을 얻습니다. 건설을 완료하면, 이 도시를 [ICON_CAPITAL] 수도의 대중 종교로 개종합니다.[NEWLINE][NEWLINE]스페인 콩기스타도르로 정착한 도시에서만 신앙으로 구매할 수 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_MISSION_STRATEGY">
-			<Text>전도관은 콩기스타도르로 개척한 도시에서만 [ICON_PEACE] 신앙으로 구매 가능한 건물입니다. 작은 신앙 보너스와 도시 방어력 보너스를 주고 주변 하시엔다의 산출량을 증가시킵니다. 전도관은 건설될 때 선교를 수행해 도시의 종교를 수도의 종교로 개종합니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_SPAIN_HACIENDA">
 			<Text>하시엔다</Text>
 		</Row>
