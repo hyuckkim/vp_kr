@@ -6,7 +6,15 @@
 		</Row>
 
 		<!-- Espionage -->
-		
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE">
+			<Text>소극적인 스파이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE_HELP">
+			<Text>고급 첩보 임무가 비활성화됩니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_MISSIONS_DISABLED">
+			<Text>[NEWLINE] [ICON_BULLET]고급 첩보 임무가 비활성화되었습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_SPY_POINTS_TT">
 			<Text>현재 [ICON_VP_SPY_POINTS] 스파이 포인트: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE][ICON_VP_SPY_POINTS] 스파이 포인트가 임계값 {2_Threshold}을(를) 넘을 때마다 새로운 스파이를 얻게 됩니다. 임계값은 게임 시작 시 플레이어 수와 도시 국가 수에 따라 달라집니다. 어떤 문명이 처음으로 르네상스 시대에 도달하거나 당신이 그 다음 시대에 도달할 때마다 [ICON_VP_SPY_POINTS] 스파이 포인트를 100 얻습니다. 일부 건물과 시설도 [ICON_VP_SPY_POINTS] 스파이 포인트를 제공합니다.[NEWLINE][NEWLINE]지금까지 누적된 총 [ICON_VP_SPY_POINTS] 스파이 포인트: {3_NumTotal}
 			</Text>
