@@ -36,10 +36,10 @@
 			<Text>플레이어가 다른 문명의 종속국이 될 수 있습니다.[NEWLINE][NEWLINE]참고: "종속국 비활성화" 옵션에 체크했다면 무효합니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY">
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY">
 			<Text>투명한 외교</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GAME_OPTION_ADVANCED_DIPLOMACY_HELP">
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY_HELP">
 			<Text>외교적 변수 옆에 수치가 표시됩니다. 또한, AI 지도자들이 부정적 변수를 감추지 않습니다.</Text>
 		</Row>
 
@@ -55,6 +55,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION_HELP">
 			<Text>AI 지도자가 승리에 가까운 플레이어를 적대하지 않습니다. 참고: 이 옵션은 'AI 승리 경쟁 비활성화'가 활성화되면 아무 일도 일어나지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE">
+			<Text>소극적인 스파이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE_HELP">
+			<Text>고급 첩보 임무가 비활성화됩니다</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

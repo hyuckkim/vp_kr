@@ -6,12 +6,6 @@
 		</Row>
 
 		<!-- Espionage -->
-		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE">
-			<Text>소극적인 스파이</Text>
-		</Row>
-		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE_HELP">
-			<Text>고급 첩보 임무가 비활성화됩니다</Text>
-		</Row>
 		<Row Tag="TXT_KEY_SPY_MISSIONS_DISABLED">
 			<Text>[NEWLINE] [ICON_BULLET]고급 첩보 임무가 비활성화되었습니다.</Text>
 		</Row>
