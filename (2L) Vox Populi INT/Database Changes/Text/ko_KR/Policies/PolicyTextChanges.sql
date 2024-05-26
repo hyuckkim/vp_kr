@@ -920,7 +920,7 @@ SET Text = '군산복합체'
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]군산복합체[ENDCOLOR]: [ICON_GOLD]골드로 유닛을 구매하거나 업그레이드 하는 비용이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다. 모든 방어 건물, 성채, 요새, 고유 시설의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]군산복합체[ENDCOLOR]: [ICON_GOLD]골드로 유닛을 구매하는 비용이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다. 모든 방어 건물, 성채, 요새, 고유 시설의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION_HELP';
 
 UPDATE Language_ko_KR
