@@ -264,15 +264,15 @@ WHERE Tag = 'TXT_KEY_PROMOTION_EVASION_HELP';
 
 -- Scouting
 UPDATE Language_ko_KR
-SET Text = '[ICON_VP_VISION] 시야 +1'
+SET Text = '[ICON_VP_VISION] 시야 및 승선 시 시야 +1'
 WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_1_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_VP_VISION] 시야 +1'
+SET Text = '[ICON_VP_VISION] 시야 및 승선 시 시야 +1'
 WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_2_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
+SET Text = '[ICON_MOVES]이동력 및 승선 시 이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_3_HELP';
 
 -- Survivalism
@@ -672,7 +672,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_GAIN_EXPERIENCE_HELP';
 
 -- Trade Mission Bonus
 UPDATE Language_ko_KR
-SET Text = '외교 임무에서 [ICON_GOLD] 골드 +100%'
+SET Text = '외교 임무에서 [ICON_GOLD] 골드 +100%. [NEWLINE]승선 시 [ICON_MOVES]시야 +2'
 WHERE Tag = 'TXT_KEY_PROMOTION_TRADE_MISSION_BONUS_HELP';
 
 -- Heavy Charge
