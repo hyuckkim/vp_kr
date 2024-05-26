@@ -185,7 +185,7 @@ WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY';
 -- Carthage
 --------------------
 UPDATE Language_ko_KR
-SET Text = '소유한 사치 자원의 수가 증가할 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [ICON_GOLD]골드로 구매한 군사 유닛의 경험치가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 교역로에서 오는 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
+SET Text = '당신이 국제 무역망에 연결한 사치 자원의 수가 증가할 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [ICON_GOLD]골드로 구매한 군사 유닛의 경험치가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 교역로에서 오는 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE';
 
 
@@ -947,7 +947,7 @@ WHERE Tag = 'TXT_KEY_UNIT_SIAMESE_WARELEPHANT_STRATEGY';
 -- Songhai
 --------------------
 UPDATE Language_ko_KR
-SET Text = '야만인 주둔지를 파괴할 때 또는 도시를 약탈할 때 획득하는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR]로 증가합니다. 지상 유닛이 [COLOR_PLAYER_PURPLE]수륙 양용[ENDCOLOR] 승급을 보유합니다. 강을 도로처럼 이동할 수 있고 [COLOR_POSITIVE_TEXT]강[ENDCOLOR]을 [ICON_CONNECTED]도시 연결에 사용할 수 있습니다.'
+SET Text = '야만인 주둔지를 파괴할 때 또는 도시를 약탈할 때 획득하는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR]로 증가합니다. 지상 유닛이 [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_AMPHIBIOUS}[ENDCOLOR] 승급과 [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_WAR_CANOES}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_AMPHIB_WARLORD';
 
 UPDATE Language_ko_KR

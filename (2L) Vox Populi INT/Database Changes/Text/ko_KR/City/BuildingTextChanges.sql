@@ -480,7 +480,6 @@ UPDATE Language_ko_KR
 SET Text = '이 국가 불가사의는 +2 [ICON_HAPPINESS_1] 행복, +2 [ICON_RES_HORSE] 말, +1 [ICON_CULTURE] 문화를 제공하고 [ICON_HAPPINESS_3] 무료가 감소하고, 국왕 경축일 동안 이 도시의 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드가 10% 증가합니다. 원형 경기장을 건설하려면 도시에 투기장이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY';
 
--- Chartered Company
 UPDATE Language_ko_KR
 SET Text = '위탁회사'
 WHERE Tag = 'TXT_KEY_BUILDING_EAST_INDIA';
@@ -502,7 +501,6 @@ UPDATE Language_ko_KR
 SET Text = '제철소 국가 불가사의는 [ICON_RES_IRON] 철 2개를 제공하고, 도시의 [ICON_PRODUCTION] 생산을 10 증가시키며 건물을 건설할 때마다 [ICON_RESEARCH] 과학을 제공합니다. 제철소를 건설하려면 도시에 대장간이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_IRONWORKS_STRATEGY';
 
--- Imperial College
 UPDATE Language_ko_KR
 SET Text = '제국 대학'
 WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY';

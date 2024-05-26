@@ -318,7 +318,7 @@ UPDATE Language_ko_KR
 SET Text = '이름'
 WHERE Tag = 'TXT_KEY_EO_NAME_RANK';
 
--- no ranks anymore in VP, so every Recruit is now an Agent
+-- No ranks anymore in VP, so every Recruit is now an Agent
 UPDATE Language_ko_KR
 SET Text = '요원'
 WHERE Tag = 'TXT_KEY_SPY_RANK_0';

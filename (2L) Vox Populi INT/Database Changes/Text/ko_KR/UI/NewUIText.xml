@@ -13,9 +13,6 @@
 			<Text>현재 [ICON_VP_SPY_POINTS] 스파이 포인트: {1_Num}/{2_Threshold}[NEWLINE][NEWLINE][ICON_VP_SPY_POINTS] 스파이 포인트가 임계값 {2_Threshold}을(를) 넘을 때마다 새로운 스파이를 얻게 됩니다. 임계값은 게임 시작 시 플레이어 수와 도시 국가 수에 따라 달라집니다. 어떤 문명이 처음으로 르네상스 시대에 도달하거나 당신이 그 다음 시대에 도달할 때마다 [ICON_VP_SPY_POINTS] 스파이 포인트를 100 얻습니다. 일부 건물과 시설도 [ICON_VP_SPY_POINTS] 스파이 포인트를 제공합니다.[NEWLINE][NEWLINE]지금까지 누적된 총 [ICON_VP_SPY_POINTS] 스파이 포인트: {3_NumTotal}
 			</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NO_ACTION_PRODUCTION_SPY_BLOCKED">
-			<Text>[NEWLINE]스파이 작전에 의해 차단됨 ({1_Num}턴 남음)</Text>
-		</Row>
 		<Row Tag="TXT_KEY_EVENT_NO_TECH_STEAL">
 			<Text>[NEWLINE] [ICON_BULLET] 훔칠 기술이 없습니다.</Text>
 		</Row>
@@ -1281,7 +1278,6 @@
 		<Row Tag="TXT_KEY_CITY_HAS_OBSTACLE">
 			<Text>적 지상 유닛이 이 도시의 영토에 진입할 때 모든 [ICON_MOVES] 이동력을 소모합니다.</Text>
 		</Row>
-		<!-- water not used atm -->
 		<Row Tag="TXT_KEY_CITY_HAS_OBSTACLE_WATER">
 			<Text>적 해양 유닛이 이 도시의 영토에 진입할 때 모든 [ICON_MOVES] 이동력을 소모합니다.</Text>
 		</Row>
@@ -1308,6 +1304,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_ONE_CORP_ONLY">
 			<Text>[NEWLINE]제국의 다른 곳에 {2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하는 동안에는 {1_BuildingName:textkey}{1: plural 1?을; 2?를;} 건설할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PRODUCTION_SPY_BLOCKED">
+			<Text>[NEWLINE]스파이 작전에 의해 차단됨 ({1_Num}턴 남음)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AUTOMATE_PRODUCTION_TT">
 			<Text>도시의 생산을 자동화합니다.</Text>
