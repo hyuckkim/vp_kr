@@ -220,7 +220,7 @@
 			<Text>종속국에서 온 공물</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_VASSAL_LEVY">
-			<Text>당신이 새로운 시대에 진입하여 당신의 종속국이 공물로 {1_Num} 유닛을 보냈습니다.</Text>
+			<Text>당신이 새로운 시대에 진입하여 당신의 종속국 {1_TeamName}{1: plural 1?이; 2?가;} 공물로 {3_CityName}에게 {2_Num}개 유닛을 보냈습니다.</Text>
 		</Row>
 		<!-- Resurrection -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED_VOLUNTARY_VASSAL">
