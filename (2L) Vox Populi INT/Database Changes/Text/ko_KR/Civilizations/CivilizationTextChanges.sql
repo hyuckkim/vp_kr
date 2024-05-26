@@ -327,7 +327,7 @@ SET Text = '단결심'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '근접 및 화약 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 보급을 필요로 하지 않습니다. 군사 유닛 10명마다 [ICON_CULTURE] 문화 +1을 얻습니다. [ICON_CITIZEN] 시민에 의한 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 25% 증가합니다.'
+SET Text = '근접 및 화약 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 보급을 필요로 하지 않습니다. 군사 유닛 10명마다 [ICON_CULTURE] 문화 및 [ICON_TOURISM]관광 +1을 얻습니다. [ICON_CITIZEN] 시민에 의한 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 25% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE';
 
 UPDATE Language_ko_KR
