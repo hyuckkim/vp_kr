@@ -38,7 +38,7 @@ SET Text = '아라비아의 고유 건물로 {TXT_KEY_BUILDING_MARKET}을 대체
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_DESC_MOUNTED_BOWMAN}을 대체하는 아라비아의 고유 유닛입니다. 특유의 광역 피해로 적진을 혼란시키는 데 유용합니다. [ICON_RES_HORSE]{TXT_KEY_RESOURCE_HORSES}을 요구하지 않습니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_SPLASH_1}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE}[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '{TXT_KEY_DESC_MOUNTED_BOWMAN}을 대체하는 아라비아의 고유 유닛입니다. 특유의 광역 피해로 적진을 혼란시키는 데 유용합니다. [ICON_RES_HORSE]{TXT_KEY_RESOURCE_HORSES}을 요구하지 않습니다. [COLOR_PLAYER_PURPLE]광역 피해 I[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE}[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CAMEL_ARCHER';
 
 UPDATE Language_ko_KR
@@ -128,7 +128,7 @@ SET Text = '[COLOR_RESEARCH_STORED]문자[ENDCOLOR]를 연구하면 [ICON_GREAT_
 WHERE Tag = 'TXT_KEY_TRAIT_INGENIOUS';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_ARCHER}을 대체하는 바빌론의 고유 유닛입니다. 일반 궁병보다 더 강력하고 근접 공격을 더 잘 견뎌냅니다. 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
+SET Text = '{TXT_KEY_UNIT_ARCHER}을 대체하는 바빌론의 고유 유닛입니다. 일반 궁병보다 더 강력하고 근접 공격을 더 잘 견뎌냅니다. [COLOR_PLAYER_PURPLE]마크스맨쉽[ENDCOLOR] 승급으로 부상 당한 유닛을 공격하면 측면 공격력이 증가합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_HELP';
 
 UPDATE Language_ko_KR
@@ -289,7 +289,7 @@ SET Text = '모든 해상 및 승선 유닛의 [ICON_MOVES]이동력이 [COLOR_P
 WHERE Tag = 'TXT_KEY_TRAIT_OCEAN_MOVEMENT';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_FRIGATE}을 대체하는 영국의 고유 유닛입니다. [ICON_RANGE_STRENGTH]원거리 전투력이 높고, 더 멀리 볼 수 있으며 공격 시 근처 유닛에게도 피해를 줍니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SPLASH_1}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SPLASH_2}[ENDCOLOR] 승급을 보유합니다.[NEWLINE][NEWLINE]지상 공격은 [COLOR_YELLOW]연안 타일[ENDCOLOR]에서만 감행할 수 있습니다.'
+SET Text = '{TXT_KEY_UNIT_FRIGATE}을 대체하는 영국의 고유 유닛입니다. [ICON_RANGE_STRENGTH]원거리 전투력이 높고, 더 멀리 볼 수 있으며 공격 시 근처 유닛에게도 피해를 줍니다. [COLOR_POSITIVE_TEXT]광역 피해 I[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]광역 피해 II[ENDCOLOR] 승급을 보유합니다.[NEWLINE][NEWLINE]지상 공격은 [COLOR_YELLOW]연안 타일[ENDCOLOR]에서만 감행할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SHIPOFTHELINE';
 
 UPDATE Language_ko_KR
@@ -782,7 +782,7 @@ WHERE Tag = 'TXT_KEY_UNIT_POLISH_WINGED_HUSSAR_STRATEGY';
 -- Polynesia
 --------------------
 UPDATE Language_ko_KR
-SET Text = '승선 시 [ICON_VP_VISION] 시야가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있습니다. 어선 및 산호섬의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 근접, 화약 유닛이 [COLOR_POSITIVE_TEXT]어선[ENDCOLOR]을 건설할 수 있습니다. 더이상 [COLOR_POSITIVE_TEXT]고립[ENDCOLOR]에서 오는 [ICON_HAPPINESS_3]불행이 증가하지 않습니다.'
+SET Text = '승선 시 [ICON_VP_VISION] 시야가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있습니다. 어선 및 산호섬의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 근접, 화약 유닛이 [COLOR_POSITIVE_TEXT]어선[ENDCOLOR]을 건설할 수 있습니다. 더이상 [COLOR_POSITIVE_TEXT]고립[ENDCOLOR]에서 오는 [ICON_HAPPINESS_3]불행이 증가하지 않습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_WAYFINDING';
 
 UPDATE Language_ko_KR
@@ -848,7 +848,7 @@ SET Text = '[ICON_CITY_STATE] 도시 국가와 전투 시 +30%의 [ICON_STRENGTH
 WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_SWORDSMAN}를 대체하는 로마의 고유 유닛입니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_CIV5_IMPROVEMENTS_FORT}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_CIV5_IMPROVEMENTS_ROAD}[ENDCOLOR]를 건설할 수 있으며 요새화 시 인접한 적에 10 피해를 줍니다. [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_COVER_1}[ENDCOLOR] 승급을 보유합니다.'
+SET Text = '검사를 대체하는 로마의 고유 유닛입니다. 최전선에서 활약하는 고전 시대의 강력한 지상 유닛으로 일반 검사에 비해 [ICON_STRENGTH]전투력이 높습니다.기술을 연구하면 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]도로[ENDCOLOR]를 건설할 수 있으며 [COLOR_POSITIVE_TEXT]엄폐 I[ENDCOLOR] 및 [COLOR_PLAYER_PURPLE]투창[ENDCOLOR] 승급을 보유합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ROMAN_LEGION';
 
 UPDATE Language_ko_KR

@@ -45,10 +45,10 @@
 
 		<!-- Air Supremacy -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP">
-			<Text>공중 유닛과 헬리콥터 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+			<Text>공중 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II_HELP">
-			<Text>공중 유닛과 헬리콥터 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+			<Text>공중 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Eagle Hunter -->
@@ -78,10 +78,10 @@
 
 		<!-- Depth Charges -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I_HELP">
-			<Text>잠수함 대항 시 전투력 보너스 [ICON_STRENGTH]+33%[COLOR_POSITIVE_TEXT][ENDCOLOR]잠수함 공격 시 [ICON_STRENGTH] 전투력 보너스 +25%</Text>
+			<Text>잠수함 유닛 공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR][NEWLINE]잠수함 유닛 방어 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II_HELP">
-			<Text>잠수함 대항 시 전투력 보너스 [ICON_STRENGTH]+66%[COLOR_POSITIVE_TEXT][ENDCOLOR]잠수함 공격 시 [ICON_STRENGTH] 전투력 보너스 +50%</Text>
+			<Text>잠수함 유닛 공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+66%[ENDCOLOR][NEWLINE]잠수함 유닛 방어 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Cargo -->

@@ -28,11 +28,11 @@ WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_STRATEGY';
 
 -- Medical Lab
 UPDATE Language_ko_KR
-SET Text = '건설을 완료하면 [ICON_CITIZEN]시민이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]를 다음 [ICON_CITIZEN]시민을 위해 사용할 수 있습니다.[ICON_VP_SCIENTIST] 과학자, [ICON_VP_MERCHANT] 상인, [ICON_VP_ENGINEER] 기술자 전문가의 산출량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '건설을 완료하면 [ICON_CITIZEN]시민이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고, 도시에 있는 시민당 과학이 [COLOR_POSITIVE_TEXT]50[ENDCOLOR]증가합니다. 도시에 있는 시민 [ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]를 다음 [ICON_CITIZEN]시민을 위해 사용할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '의학연구소는 게임 후반 건물입니다. 이것은 도시 성장에 필요한 [ICON_FOOD] 식량을 15% 감소시키고 도시 전문가의 과학 생산량을 증가시킵니다. 도시는 의학연구소를 건설하기 위해서는 병원을 보유해야 합니다.'
+SET Text = '의학연구소는 게임 후반 건물입니다. 이것은 도시 성장에 필요한 [ICON_FOOD] 식량을 15% 감소시키고 도시가 확장되며, 도시의 시민당 과학이 50 증가합니다. 도시는 의학연구소를 건설하기 위해서는 병원을 보유해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY';
 
 -- Garden
@@ -383,7 +383,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_STRATEGY';
 
 -- Police Station
 UPDATE Language_ko_KR
-SET Text = '[ICON_SPY] 도시 보안이 +10 증가하고, [ICON_CITIZEN] 시민 둘마다 1씩 추가로 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD]/[ICON_PRODUCTION]낙후, [ICON_GOLD] 빈곤, [ICON_RESEARCH] 문맹, [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
+SET Text = '[ICON_SPY] 도시 보안이 +10 증가하고, 도시의 [ICON_CITIZEN] 시민 2명마다 1씩 추가로 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD]/[ICON_PRODUCTION]낙후, [ICON_GOLD] 빈곤, [ICON_RESEARCH] 문맹, [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_HELP';
 
 -- Constabulary
@@ -455,7 +455,7 @@ SET Text = '미술 작품의 가장 큰 개인 컬렉션은 역사적으로 왕�
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_PEDIA';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE]모든 도시의 [ICON_CULTURE]무료 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_CULTURE]문화 +4 [ICON_GOLD]골드 +4[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. '
+SET Text = '[ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE]모든 도시의 [ICON_CULTURE]무료 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_CULTURE]문화 +4 [ICON_GOLD]골드 +4[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]갤러리[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_HELP';
 
 UPDATE Language_ko_KR
