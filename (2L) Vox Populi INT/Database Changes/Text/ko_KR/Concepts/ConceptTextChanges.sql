@@ -161,14 +161,14 @@ WHERE Tag = 'TXT_KEY_CULTURE_VICTORY_HEADING2_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]문화 승리[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_SOCIALPOLICY_CULTUREVICTORY_HEADING2_TITLE';
+WHERE Tag = 'TXT_KEY_VICTORY_CULTURAL_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 [COLOR_YELLOW]세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [ENDCOLOR][COLOR_POSITIVE_TEXT]만족[ENDCOLOR][COLOR_YELLOW]한 상태이며, 3티어 이념 주의를 둘 채택해야 합니다. [ENDCOLOR]이것은 당신이 만든 걸작과 당신이 발견한 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 [COLOR_YELLOW]세계 시민 의정서를 구성할 수 있습니다.[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_SOCIALPOLICY_CULTUREVICTORY_HEADING2_BODY';
+SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 [COLOR_YELLOW]세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [ENDCOLOR][COLOR_POSITIVE_TEXT]만족[ENDCOLOR][COLOR_YELLOW]한 상태이며, 3티어 이념 주의를 둘 채택해야 합니다. [ENDCOLOR]이것은 당신이 만든 걸작과 당신이 발견한 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 [COLOR_YELLOW]세계 시민 의정서를 구성해 승리할 수 있습니다.[ENDCOLOR] 자세한 내용은 승리 섹션을 참고하십시오.'
+WHERE Tag = 'TXT_KEY_VICTORY_CULTURAL_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]문화 승리[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_CULTURE_VICTORY_HEADING3_TITLE';
+WHERE Tag = 'TXT_KEY_VICTORY_CULTURAL_HEADING3_TITLE';
 UPDATE Language_ko_KR
 SET Text = '문화 승리를 하려면, 문명에 지배적인 문화 영향력을 행사하고 [COLOR_YELLOW]세계 시민 의정서를 완료해야 합니다. 이념을 채택하고 여론이 [ENDCOLOR][COLOR_POSITIVE_TEXT]만족[ENDCOLOR][COLOR_YELLOW]한 상태여야 합니다. [ENDCOLOR]이것은 당신이 만든 [ICON_GREAT_WORK] 걸작과 당신이 발견한 [ICON_VP_ARTIFACT] 유물에 의해 생성된 관광을 통해 달성됩니다. 당신이 생성하는 관광은 다른 문명에 지속적으로 영향을 미치며, 그 효과는 국경 개방, 무역로, 종교와 이념 공유, 연구 협정 등을 통해 증폭됩니다.[NEWLINE][NEWLINE]전체 게임에 대한 누적 관광 출력이 게임에 남아 있는 각 문명의 누적 문화 출력을 초과할 때 여론이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR]하면 [COLOR_YELLOW]세계 시민 의정서를 구성할 수 있습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_VICTORY_CULTURAL_HEADING3_BODY';
@@ -177,7 +177,20 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]관광[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문명에 퍼뜨리는 데 사용할 주요 재화입니다. [COLOR_POSITIVE_TEXT]걸작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]유물[ENDCOLOR]에 의해 수동적으로 생성되고 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR][COLOR_YELLOW]에 의해, 또는 [ENDCOLOR][COLOR_POSITIVE_TEXT]교역로[ENDCOLOR][COLOR_YELLOW] 완료(이러한 보너스를 제공하는 건물을 건설한 경우) 능동적으로 생성됩니다(자세한 내용은 이 섹션의''역사적 사건''을 참조하십시오).[ENDCOLOR] 박물관, 원형 극장, 오페라 극장 등에 더 많은 위대한 작품과 유물을 배치하면 [ICON_TOURISM] 관광이 계속 증가할 것입니다. 또한 개방된 국경, 무역로, 종교 공유 및 특정 이념 주의를 통해 [ICON_TOURISM] 관광 산출을 상당히 높일 수 있습니다.'
+SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문명에 퍼뜨리는 데 사용할 주요 재화입니다. [COLOR_POSITIVE_TEXT]걸작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]유물[ENDCOLOR]에 의해 수동적으로 생성되고 [COLOR_POSITIVE_TEXT]역사적 사건[COLOR_YELLOW]에 의해, 또는 [COLOR_POSITIVE_TEXT]교역로[COLOR_YELLOW] 완료(이러한 보너스를 제공하는 건물을 건설한 경우) 능동적으로 생성됩니다(자세한 내용은 이 섹션의''역사적 사건''을 참조하십시오).[ENDCOLOR] 박물관, 원형 극장, 오페라 극장 등에 더 많은 위대한 작품과 유물을 배치하면 [ICON_TOURISM] 관광이 계속 증가할 것입니다. 또한 개방된 국경, 무역로, 종교 공유 및 특정 이념 주의를 통해 [ICON_TOURISM] 관광 산출을 상당히 높일 수 있습니다. 
+
+[NEWLINE][NEWLINE]당신의 [ICON_TOURISM] 관광은 다음과 같은 이유로 각 플레이어별로 변화할 수 있습니다. [COLOR_YELLOW](최소 [COLOR_NEGATIVE_TEXT]-100%[COLOR_YELLOW])[ENDCOLOR]:
+[NEWLINE][ICON_BULLET]당신의 도시에서 그들의 도시로 교역로 연결 [COLOR_YELLOW]([COLOR_POSITIVE_TEXT]+10%[COLOR_YELLOW])[ENDCOLOR]
+[NEWLINE][ICON_BULLET][COLOR_YELLOW]서로간 국경 개방 ([COLOR_POSITIVE_TEXT]+15%[COLOR_YELLOW])[ENDCOLOR]
+[NEWLINE][ICON_BULLET]플레이어와 종교 공유 [COLOR_YELLOW]([COLOR_POSITIVE_TEXT]+X%[COLOR_YELLOW], 신자의 수에 비례하며 최대 [COLOR_POSITIVE_TEXT]+50%[COLOR_YELLOW])[ENDCOLOR]
+[NEWLINE][ICON_BULLET][COLOR_YELLOW]수도에 외교관 보유 ([COLOR_POSITIVE_TEXT]+20%[COLOR_YELLOW]).[ENDCOLOR]
+[NEWLINE][ICON_BULLET][COLOR_YELLOW]당신이 그들보다 더 적은 무료를 가짐 ([COLOR_POSITIVE_TEXT]+X%[COLOR_YELLOW], 두 제국의 무료 차이만큼)[ENDCOLOR]
+[NEWLINE][ICON_BULLET][COLOR_YELLOW]그들의 국경 안에서 위대한 음악가 발동 ([COLOR_POSITIVE_TEXT]+100%[COLOR_YELLOW], 다른 국가의 국경에서 발동 시 [COLOR_POSITIVE_TEXT]+50%[COLOR_YELLOW]).[ENDCOLOR]
+[NEWLINE][ICON_BULLET][COLOR_YELLOW]그들을 종속국으로 지배 ([COLOR_POSITIVE_TEXT]+33%[COLOR_YELLOW]).[ENDCOLOR]
+[NEWLINE][ICON_BULLET]서로 다른 이념 채택 [COLOR_YELLOW]([COLOR_NEGATIVE_TEXT]-10%[COLOR_YELLOW])[ENDCOLOR].
+[NEWLINE][ICON_BULLET][COLOR_YELLOW]그들의 원래 도시를 괴뢰 도시가 아닌 도시로 소유 ([COLOR_NEGATIVE_TEXT]도시당 -5%[COLOR_YELLOW]).[ENDCOLOR]
+
+[NEWLINE][NEWLINE][COLOR_YELLOW]추가로 고유 능력, 정책, 이념 주의, 기업, 세계 의회 결의안에 따라 변동될 수 있습니다. [ENDCOLOR]다른 능력은 도시의 관광을 직접 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY';
 
 UPDATE Language_ko_KR

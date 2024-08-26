@@ -705,11 +705,6 @@ UPDATE Language_ko_KR
 SET Text = '인구 증가에 문제가 있기 때문에 도시에 성장 건물을 지을 필요가 없습니다.'
 WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS';
 
--- Reversed Tourism for Open Borders
-UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_TOURISM]  국경 개방에서 획득 : '
-WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_OPEN_BORDERS_BONUS';
-
 -- Barbarians
 UPDATE Language_ko_KR
 SET Text = '야만인 우두머리'
