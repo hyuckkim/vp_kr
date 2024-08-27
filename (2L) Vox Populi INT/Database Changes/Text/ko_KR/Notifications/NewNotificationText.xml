@@ -680,7 +680,8 @@
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 발각됨!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED">
-			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]발각되었습니다![ENDCOLOR] {3_CivName}와의 외교 관계가 악화됩니다. {1_SpyRank} {2_SpyName}{2: plural 
+			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 작전 중 [COLOR_NEGATIVE_TEXT]발각되었습니다![ENDCOLOR] {3_CivName}와의 외교 관계가 악화됩니다. {1_SpyRank} {2_SpyName}{2: plural 1?은; 2?는;} 도시에서 다음 임무 수행을 위해 대기합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED_S">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 들키지 않음!</Text>
 		</Row>
