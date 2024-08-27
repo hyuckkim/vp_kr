@@ -93,7 +93,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_II_HELP';
 
 -- Amphibious
 UPDATE Language_ko_KR
-SET Text = '해양 또는 강 건너 공격 페널티 제거[NEWLINE]강 건너 이동 시 [ICON_MOVES] 이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]만 소모, 습지에서 [ICON_MOVES] 이동력 두 배'
+SET Text = '해양 또는 강 건너 공격 페널티 제거[NEWLINE]강 건너 이동 시 [ICON_MOVES] 이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]만 소모, 습지에서 지형 패널티 무시'
 WHERE Tag = 'TXT_KEY_PROMOTION_AMPHIBIOUS_HELP';
 
 -- Cover
@@ -268,12 +268,8 @@ SET Text = '[ICON_VP_VISION] 시야 및 승선 시 시야 +1'
 WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_1_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_VP_VISION] 시야 및 승선 시 시야 +1'
+SET Text = '[ICON_MOVES] 이동력 및 승선 시 이동력 +1'
 WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_2_HELP';
-
-UPDATE Language_ko_KR
-SET Text = '[ICON_MOVES]이동력 및 승선 시 이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_3_HELP';
 
 -- Survivalism
 UPDATE Language_ko_KR
@@ -660,9 +656,8 @@ UPDATE Language_ko_KR
 SET Text = '인접한 적 유닛의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_HAKA_WAR_DANCE_HELP';
 
--- Enhanced Medic
 UPDATE Language_ko_KR
-SET Text = '이 타일과 인접 타일에 있는 아군 유닛은 매 턴 [COLOR_POSITIVE_TEXT]HP를 +10 회복[ENDCOLOR]합니다.[NEWLINE]인접한 적 유닛은 매 턴마다 10의 피해를 입습니다.'
+SET Text = '인접한 적 유닛은 매 턴마다 10의 피해를 입습니다.[NEWLINE]이 피해는 대미지 감소를 무시하며, [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와 [COLOR_NEGATIVE_TEXT]주둔한 유닛에게는 영향을 주지 못합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_GENERAL_HELP';
 
 -- Quick Study

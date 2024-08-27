@@ -6802,8 +6802,15 @@
 			<Text>{2_CivName:textkey}에게 {1_CivName:textkey}의 전쟁 준비를 알립니다. 이는 외교 기밀 누설이기 때문에 {1_CivName:textkey}{1_CivName: plural 1?을; 2?를;} 화나게 할 반면, {2_CivName:textkey}의 환심을 살 것입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_TT">
-			<Text>만약 AI가 상대 문명과 친하고 당신을 돕길 거부한다면 상대 문명에게 당신의 전쟁 준비를 알릴 것입니다.</Text>
+			<Text>만약 AI가 상대 문명과 친하고 당신을 돕길 거부한다면 상대 문명에게 당신의 전쟁 준비를 알릴 것입니다. 이는 외교적 영향을 미칠 수 있습니다! [NEWLINE][NEWLINE]지도자의 반응에 따라 협력 전쟁은 즉시 시작되거나, 10턴이 지난 후 또는 한 명이 대상과 전쟁을 시작하자마자 시작될 수 있습니다. [NEWLINE][NEWLINE]이 리더와의 협력을 조기에 종료하면(비난이나 전쟁을 통해) 협력 전쟁은 취소됩니다.[NEWLINE][NEWLINE]대상과 친선 관계 또는 방어 조약을 맺거나 전쟁을 선포할 수 없게 되면 이 지도자와의 계약도 취소됩니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_NOT_FRIENDS_TT">
+			<Text>이를 위해서는 친선 관계 선언이 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_NO_TARGET_TT">
+			<Text>두 플레이어가 전쟁을 선포할 수 있는 문명이 하나 이상 있어야 합니다. 참고: 대상 문명에는 도시가 하나 이상 있어야 합니다.</Text>
+		</Row>
+		
 		<!-- Tourism and League Stuff -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION_CBP">
 			<Text>현재 적용 중이거나 제안 중인 안건으로 인해 불가능합니다.</Text>

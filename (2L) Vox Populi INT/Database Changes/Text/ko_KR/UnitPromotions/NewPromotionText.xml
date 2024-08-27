@@ -174,21 +174,21 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_1_HELP">
-			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]숲 및 정글에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]</Text>
+			<Text>[ICON_VP_VISION]시야 및 승선 시 시야 +1[NEWLINE]숲, 정글 및 언덕에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]패널티 무시[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_2">
 			<Text>개척 II</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_2_HELP">
-			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]사막 및 설원에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+			<Text>[ICON_VP_VISION]시야 및 승선 시 시야 +1[NEWLINE]사막, 설원 및 습지에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]패널티 무시[ENDCOLOR][NEWLINE]강을 건널 시 [ICON_MOVES] 이동력 및 전투력 패널티 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_3">
 			<Text>개척 III</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_3_HELP">
-			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]승선 가능, 산 타일에서 이동 가능, 적 도로 이용 가능</Text>
+			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]승선 가능, 산 타일에서 이동 가능, 적 도로 이용 가능. [NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_ARTILLERY">
@@ -417,7 +417,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FROGMAN_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]승선[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]하선[ENDCOLOR]이 [ICON_MOVES] 이동력을 1만 소모합니다.[NEWLINE]바다에서 지상으로 공격하거나 강을 건너 공격할 때 받는 페널티가 사라집니다.</Text>
+			<Text>해양에서 공격 시 전투력 패널티 없음[COLOR_POSITIVE_TEXT]승선[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]하선[ENDCOLOR]이 [ICON_MOVES] 이동력을 1만 소모합니다.[NEWLINE]승선 중 방어 시 [ICON_STRENGTH]전투력 +50%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SCREENING">

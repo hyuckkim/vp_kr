@@ -740,7 +740,7 @@ SET Text = '랜드마크를 건설하면 타일 소유주 및 건설 문명의 �
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_RESULT';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]다른 문명의 영토에 랜드마크를 건설하면 타일 소유주 및 건설 문명의 전역 [ICON_HAPPINESS_1]행복이 3 증가하고 해당 국가와의 영향력이 영구히 증가합니다.[ENDCOLOR]'
+SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]다른 문명의 영토에 랜드마크를 건설하면 타일 소유주 및 건설 문명의 전역 [ICON_HAPPINESS_1]행복이 3 증가하고 해당 국가와의 외교 관계가 임시적으로 개선됩니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MAJOR_CIV';
 
 UPDATE Language_ko_KR
