@@ -1881,17 +1881,6 @@
 		<Row Tag="TXT_KEY_WAR_WEARINESS_US_PERCENT">
 			<Text>[COLOR_NEGATIVE_TEXT]당신의 전쟁 피로도: {1_Num}%, {2_Num}턴 지남[ENDCOLOR]</Text>
 		</Row>
-
-		<!-- Discussion/Dialogue options -->
-		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_TT">
-			<Text>이 지도자에게 병력을 당신의 국경에서 철수시켜달라고 요청합니다. 이 지도자가 요청을 거부한다면 당신에게 전쟁 선포를 택할 것이니 주의하세요.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS">
-			<Text>우리 국경에서 당신의 군대를 철수시켜주십시오.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_HOSTILE">
-			<Text>우리를 공격하려는 것이냐?</Text>
-		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_ALLOW_VASSAL_INDEPENDENCE">
 			<Text>당신은 약간의 존중을 배워야 할 때입니다. (전쟁 선포!)</Text>
 		</Row>

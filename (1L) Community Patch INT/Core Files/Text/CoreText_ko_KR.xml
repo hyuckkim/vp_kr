@@ -5,6 +5,15 @@
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_OPINION">
 			<Text>...에 대해 어떻게 생각하십니까?</Text>
 		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_TT">
+			<Text>이 지도자에게 병력을 당신의 국경에서 철수시켜달라고 요청합니다. 이 지도자가 요청을 거부한다면 당신에게 전쟁 선포를 택할 것이니 주의하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS">
+			<Text>우리 국경에서 당신의 군대를 철수시켜주십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_HOSTILE">
+			<Text>우리를 공격하려는 것이냐?</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GENERIC_MOVE_TROOPS_ACCEPT_1">
 			<Text>당신이 바라는 대로 당신의 국경에서 나의 군대를 철수시키겠습니다. 이 사건으로 불화가 발생했다면 사과드리겠습니다.</Text>
 		</Row>
@@ -3416,6 +3425,13 @@
 		<Row Tag="TXT_KEY_ABLTY_HAPPINESS_BUMP">
 			<Text>모든 도시의 [ICON_HAPPINESS_1]행복: +{1_Num}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DURATION_MILITARY_PROMISE">
+			<Text>이 선택지는 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]턴 동안 [COLOR_WARNING_TEXT]상호[ENDCOLOR]간에 전쟁을 선포하지 않겠다고 약속합니다. 약속을 어긴다면 다른 지도자들이 당신을 배신자로 볼 것입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DURATION_ATTACK_MINOR_PROMISE">
+			<Text>이 약속은 [COLOR_WARNING_TEXT]만료되지 않습니다[ENDCOLOR]. 약속을 어긴다면 다른 지도자들이 당신을 배신자로 볼 것입니다!</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PEDIA_TRADEROUTE_CBP_LABEL">
 			<Text>도시 연결 보너스</Text>
 		</Row>
