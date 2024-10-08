@@ -356,7 +356,7 @@
 			<Text>그들은 당신이 {1_NationalWonderName:textkey}{1: plural 1?을; 2?를;} 건설하길 원합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_SPECIFIC_UNIT_FORMAL">
-			<Text>그들은 당신이 {1_UnitName}{@1: plural 1?을; 2?를;} 보내길 원합니다.</Text>
+			<Text>그들은 당신이 최소 {2_XP} 경험치의 {1_UnitName}{@1: plural 1?을; 2?를;} 보내길 원합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
 			<Text>그들은 당신이 {1_CityStateName:textkey}{1: plural 1?을; 2?를;} 발견하길 원합니다.</Text>
