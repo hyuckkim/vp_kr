@@ -728,11 +728,23 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_MISSIONS_AVAILABLE">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_City}에서 다음 작전을 수행할 수 있는 네트워크 포인트를 얻었습니다. 다른 임무 조건이 충족되면:[NEWLINE]{5_Missions}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_CREATED_VASSAL_DIPLOMAT">
+			<Text>외교관이 고용됨!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CREATED_VASSAL_DIPLOMAT">
+			<Text>{1_SpyName}{1: plural 1?이; 2?가;} 당신이 새로 식민지로 삼은 {2_CivName}의 수도에 외교관으로 고용되었습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS_S">
 			<Text>스파이 패시브 보너스 잠금 해제</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS">
 			<Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_City}에서 패시브를 획득할 수 있는 네트워크 포인트를 얻었습니다:[NEWLINE][NEWLINE] {4_Missions}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS_DIPLOMAT_S">
+			<Text>외교관 보너스 잠금 해제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS_DIPLOMAT">
+			<Text>외교관 {2_SpyName}{2: plural 1?이; 2?가;} {3_City}에서 보너스를 획득할 수 있는 네트워크 포인트를 얻었습니다:[NEWLINE][NEWLINE] {4_Missions}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT">
