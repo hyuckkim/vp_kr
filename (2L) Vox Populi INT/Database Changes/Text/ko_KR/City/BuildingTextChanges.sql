@@ -391,6 +391,7 @@ UPDATE Language_ko_KR
 SET Text = '[ICON_SPY] 도시 보안이 20 증가하고, [ICON_CITIZEN] 시민 둘마다 1씩 추가로 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE_HELP';
 
+-- Monastery
 UPDATE Language_ko_KR
 SET Text = '종교 건물을 [ICON_PEACE]신앙으로 구매할 수 있습니다. [NEWLINE][NEWLINE][COLOR_MAGENTA]{TXT_KEY_POLICY_BRANCH_PIETY}[ENDCOLOR] 정책을 채택해야 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MONASTERY_HELP';
@@ -451,10 +452,6 @@ SET Text = '왕실 컬렉션'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE';
 
 UPDATE Language_ko_KR
-SET Text = '미술 작품의 가장 큰 개인 컬렉션은 역사적으로 왕족에게 귀속되었으며, 왕족은 명성을 행사하기 위해 예술 작품을 구입하고 후원합니다. 세계에서 가장 큰 예술 컬렉션 중 다수는 여러 세대에 걸쳐 전해진 군주의 개인 컬렉션에서 시작되었습니다. 더 강력한 국가적 정체성에 대한 대중의 압력과 대중의 요구에 부응하여 많은 왕실 컬렉션(및 종종 이를 소장하고 있는 개인 주택)이 해당 정부에 의해 국유화되어 현대의 주립 갤러리와 국립 미술관을 형성했습니다.'
-WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_PEDIA';
-
-UPDATE Language_ko_KR
 SET Text = '[ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE]모든 도시의 [ICON_CULTURE]무료 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]-1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]테마보너스:  [ICON_CULTURE]문화 +4 [ICON_GOLD]골드 +4[NEWLINE][NEWLINE]도시에 [COLOR_YELLOW]갤러리[ENDCOLOR]가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_HELP';
 
@@ -462,6 +459,9 @@ UPDATE Language_ko_KR
 SET Text = '이 국가 불가사의는 도시의  [ICON_CITIZEN] 시민 4명마다 +1 문화를 제공하고, 도시의 [ICON_CULTURE] 문화를 +10% 증가시킵니다. 왕실 컬렉션을 건설하려면 도시에 갤러리가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_STRATEGY';
 
+UPDATE Language_ko_KR
+SET Text = '미술 작품의 가장 큰 개인 컬렉션은 역사적으로 왕족에게 귀속되었으며, 왕족은 명성을 행사하기 위해 예술 작품을 구입하고 후원합니다. 세계에서 가장 큰 예술 컬렉션 중 다수는 여러 세대에 걸쳐 전해진 군주의 개인 컬렉션에서 시작되었습니다. 더 강력한 국가적 정체성에 대한 대중의 압력과 대중의 요구에 부응하여 많은 왕실 컬렉션(및 종종 이를 소장하고 있는 개인 주택)이 해당 정부에 의해 국유화되어 현대의 주립 갤러리와 국립 미술관을 형성했습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_PEDIA';
 -- Heroic Epic
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW][ICON_GREAT_WRITER]위대한 작가[ENDCOLOR]가 1명 출현합니다. 도시에서 생산하는 모든 지상 유닛에 [COLOR_PLAYER_PURPLE]사기[ENDCOLOR] 승급을 부여합니다. [ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다. [NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. '
@@ -481,7 +481,7 @@ SET Text = '이 국가 불가사의는 +2 [ICON_HAPPINESS_1] 행복, +2 [ICON_RE
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '위탁회사'
+SET Text = '특허 회사'
 WHERE Tag = 'TXT_KEY_BUILDING_EAST_INDIA';
 
 UPDATE Language_ko_KR
@@ -492,6 +492,9 @@ UPDATE Language_ko_KR
 SET Text = '동인도 회사는 도시가 생성하는 [ICON_GOLD] 골드를 증가시키고 [ICON_HAPPINESS_3] 빈곤을 감소시킵니다. 이 도시 교역로의 자원 다양성 수치가 양수면 25% 증가시키고 음수면 25% 감소시킵니다. 동인도 회사가 건설된 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로는 도시의 주인에게 [ICON_GOLD]골드를 추가로 4 생성하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 2 증가합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_TREASURY_STRATEGY';
 
+UPDATE Language_en_US
+SET Text = '특허 회사는 초기 근대의 기업 조직 형태로, 주로 유럽, 대서양 세계, 아시아에서 장거리 무역을 담당했습니다.[NEWLINE]많은 특허 회사는 합자 회사였습니다. 양도 가능한 주식의 도움으로 자본이 축적되었으며, 회사가 수익성이 있으면 주주는 배당금을 받았습니다. 소유자의 책임은 회사에 투자했거나 보증한 금액으로 제한되었습니다. [NEWLINE]이들 회사는 왕실 헌장을 통해 독점적인 권리를 부여받아 특정 지역을 거래, 탐험, 식민지화할 수 있었습니다. 준주권 기관의 역할을 하는 특허 회사는 정착지를 건설하고, 군대를 모집하고, 원주민과 외교를 수행하여, 상당한 정치적 권력을 행사하고 모국에 막대한 부를 창출했습니다.[NEWLINE]주목할 만한 사례로는 네덜란드 동인도 회사(VOC, 1602-1799)와 영국 동인도 회사(EIC, 1600-1874)가 있으며, 이들은 유럽의 확장과 남아시아 및 동아시아의 식민지 개척에 중추적인 역할을 했습니다.[NEWLINE][NEWLINE]다양한 지리적 지역에서 운영되는 특허 회사들은 서로 다른 수준의 성공을 거두었습니다. 네덜란드 동인도 회사 및 영국 동인도 회사와 같은 아시아 지역은 대규모 투자와 국가 지원으로 번창한 반면, 대서양 지역은 민간 경쟁과 제한된 수익성으로 인해 어려움을 겪었습니다. 성공적인 예외는 허드슨 베이 회사(HBC)였습니다. 1670년에 설립된 이 회사는 강이 만으로 이어지는 지역 내에서 모피와 유럽 상품을 거래했습니다.[NEWLINE][NEWLINE]특허 회사는 16세기 스페인과 포르투갈의 확장에 대한 반응을 반영하여 초기 근대 정치 경제에 필수적인 요소였습니다. 그들은 국가의 부와 권력을 증진하는 도구로 인식되었지만, 특히 영국 동인도 회사의 경우 국가 경제를 고갈시키고 민간 재산을 창출한다는 비판에 직면했습니다.[NEWLINE]18세기 후반에 특허 회사는 유럽에서 인기를 잃었지만, 영국이 19세기 후반 아프리카의 식민지 사업에서 이 개념을 부활시켰습니다.'
+WHERE Tag = 'TXT_KEY_CIV5_BUILDINGS_EAST_INDIA_TEXT';
 -- Ironworks
 UPDATE Language_ko_KR
 SET Text = '[ICON_RES_IRON]철 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다. 도시에 건물을 건설할 때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. '
@@ -784,3 +787,60 @@ WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_STRATEGY';
 UPDATE Language_ko_KR
 SET Text = '파고다 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 무료를 감소시키고 도시의 종교의 수에 따라 추가 산출을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_PAGODA_STRATEGY';
+
+-- Corporation franchises
+-- Modmodders can copy this code if they're adding more resources toward a corporation!
+UPDATE Language_en_US
+SET Text = '+1 [ICON_GOLD] Gold on all Trader Sid''s Monopoly Resources ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_TRADER_SIDS' AND c.ResourceType = r.Type)
+	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TRADER_SIDS}'
+WHERE Tag = 'TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP';
+
+UPDATE Language_en_US
+SET Text = '+1 [ICON_PRODUCTION] Production on all Centaurus Extractors'' Monopoly Resources ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_LANDSEA_EXTRACTORS' AND c.ResourceType = r.Type)
+	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_LANDSEA_EXTRACTORS}'
+WHERE Tag = 'TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP';
+
+UPDATE Language_en_US
+SET Text = '+1 [ICON_PRODUCTION] Production on Hexxon Refineries Monopoly Resources ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_HEXXON_REFINERY' AND c.ResourceType = r.Type)
+	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_HEXXON_REFINERY}'
+WHERE Tag = 'TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_HELP';
+
+UPDATE Language_en_US
+SET Text = '+1 [ICON_CULTURE] Culture on all Giorgio Armeier''s Monopoly Resources ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_GIORGIO_ARMEIER' AND c.ResourceType = r.Type)
+	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER}'
+WHERE Tag = 'TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_HELP';
+
+UPDATE Language_en_US
+SET Text = '+1 [ICON_RESEARCH] Science on all Firaxite Materials'' Monopoly Resources ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_FIRAXITE_MATERIALS' AND c.ResourceType = r.Type)
+	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS}'
+WHERE Tag = 'TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_HELP';
+
+UPDATE Language_en_US
+SET Text = '+1 [ICON_FOOD] Food on all TwoKay Foods'' Monopoly Resources ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_TWOKAY_FOODS' AND c.ResourceType = r.Type)
+	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS}'
+WHERE Tag = 'TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_HELP';
+
+UPDATE Language_en_US
+SET Text = '+1 [ICON_GOLDEN_AGE] Golden Age Points on all Civilized Jewelers'' Monopoly Resources ('
+	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_CIVILIZED_JEWELERS' AND c.ResourceType = r.Type)
+	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS}'
+WHERE Tag = 'TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP';
+
+-- Theming bonuses
+UPDATE Language_en_US
+SET Text = '{2_CivAdjective} Museum of the {1_EraAdjective} Era'
+WHERE Tag = 'TXT_KEY_THEMING_BONUS_MUSEUM_5';
+
+UPDATE Language_en_US
+SET Text = 'Museum of {2_CivAdjective} Art'
+WHERE Tag = 'TXT_KEY_THEMING_BONUS_MUSEUM_7';
+
+UPDATE Language_en_US
+SET Text = 'Museum of {2_CivAdjective} Warfare'
+WHERE Tag = 'TXT_KEY_THEMING_BONUS_MUSEUM_8';

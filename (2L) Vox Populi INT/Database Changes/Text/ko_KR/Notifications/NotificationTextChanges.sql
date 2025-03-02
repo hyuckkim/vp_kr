@@ -134,3 +134,85 @@ WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT 1 FROM 
 UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_PEACE]신앙으로 돌려 받습니다!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT 1 FROM Community WHERE Type = 'COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value = 5);
+
+-- Cultural influence level changes
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Exotic[ENDCOLOR] to {1_Num}. We will no longer get any bonuses from them.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_1_BAD';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Exotic[ENDCOLOR] to {1_Num}! See Culture Overview for the bonuses!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_1';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Familiar[ENDCOLOR] to {1_Num}. Our bonuses have weakened from them.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_2_BAD';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Familiar[ENDCOLOR] to {1_Num}!  See Culture Overview for the increased bonuses!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_2';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Popular[ENDCOLOR] to {1_Num}. Our bonuses have weakened from them.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_3_BAD';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Popular[ENDCOLOR] to {1_Num}! See Culture Overview for the increased bonuses!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_3';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Influential[ENDCOLOR] to {1_Num}. Our bonuses have weakened from them.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_4_BAD';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Influential[ENDCOLOR] to {1_Num}! See Culture Overview for the increased bonuses!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_4';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Dominant[ENDCOLOR] to {1_Num}. Our bonuses have weakened from them.'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_5_BAD';
+
+UPDATE Language_ko_KR
+SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Dominant[ENDCOLOR] to {1_Num}! See Culture Overview for the increased bonuses!'
+WHERE Tag = 'TXT_KEY_INFLUENCE_US_5';
+
+-- City-State quests
+UPDATE Language_ko_KR
+SET Text = 'War breaks out between {2_CivName:textkey} and {1_TargetName:textkey}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
+
+UPDATE Language_ko_KR
+SET Text = '{3_TargetName:textkey} has declared war on {1_CivName:textkey}, citing diplomatic concerns. Receive the [COLOR_POSITIVE_TEXT]full[ENDCOLOR] Quest Reward from {1_TargetName:textkey} by [COLOR_NEGATIVE_TEXT]destroying[ENDCOLOR] {3_CivName:textkey}, or a [COLOR_POSITIVE_TEXT]partial[ENDCOLOR] Quest Reward through [COLOR_POSITIVE_TEXT]allying[ENDCOLOR] both City-States. International pressure will force peace in [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {2_Num: plural 1?Turn; other?Turns;}, so act fast if you intend to intervene!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
+
+UPDATE Language_ko_KR
+SET Text = '{1_TargetName:textkey} defeated by {2_CivName:textkey}!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE';
+
+UPDATE Language_ko_KR
+SET Text = 'The war between {2_CivName:textkey} and {1_TargetName:textkey} has ended, with {2_CivName:textkey} emerging as the clear victor. Your advisors worry that this outcome may lead to future conflict.'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
+
+-- City Revolt Brewing
+UPDATE Language_ko_KR
+SET Text = 'Because your Empire''s approval rating is below 35%, a City will revolt in [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] turns. Based on current Unhappiness levels and Cultural/Ideological pressure, the City most likely to revolt is {2_CityName} and it will join {3_CivName}. Try to get your Empire''s Happiness level out of this range as soon as possible!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT';
+
+-- Revolutionary Unrest Brewing
+UPDATE Language_ko_KR
+SET Text = 'Because your Empire''s approval rating is below 35%, a City will revolt in [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] {1_Turns: plural 1?Turn; other?Turns;}. Based on current Unhappiness levels, the City most likely to revolt is {2_CityName}. If this City revolts, it will restore the sovereignty of {3_CivName}. Try to get your Empire''s Happiness level out of this range as soon as possible!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP';
+
+UPDATE Language_ko_KR
+SET Text = 'Because your Empire''s approval rating is below 35%, a City will revolt in [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] {1_Turns: plural 1?Turn; other?Turns;}. Based on current Unhappiness levels, the City most likely to revolt is {2_CityName}. If this City revolts, it will become an independent City-State. Try to get your Empire''s Happiness level out of this range as soon as possible!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP_FREE_CITY';
+
+-- A City Revolts!
+UPDATE Language_ko_KR
+SET Text = 'Because your Empire''s approval rating is below 35%, the City of {1_CityName} has revolted and joined {2_CivName}!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_REVOLT';
+
+-- Rebels Appear!
+UPDATE Language_ko_KR
+SET Text = 'Because your Empire''s approval rating is below 35%, an uprising has occurred in your territory!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS';

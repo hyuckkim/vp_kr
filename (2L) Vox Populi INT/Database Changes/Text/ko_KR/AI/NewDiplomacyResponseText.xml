@@ -17,13 +17,13 @@
 		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_3">
 			<Text>음? 내 앞에 폭군이 무슨 일로 찾아온 것이죠? 우리, 더 나아가 우리의 자존심에 침 뱉기 위해?</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_1">
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_1">
 			<Text>나의 땅에 오신 것을 환영합니다. 어떻게 도와드릴까요?</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_2">
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_2">
 			<Text>반갑습니다! 우리 노동자들이 당신이 이용할 자원을 만들기 위해 열심히 노력하고 있다는 사실에 당신이 흐뭇해하길 바랍니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_3">
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_3">
 			<Text>환영합니다! 우리가 어떻게 돕길 원하시나요?</Text>
 		</Row>
 		<!-- AI master greets human vassal -->
@@ -55,13 +55,13 @@
 		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_3">
 			<Text>우리 민족은 독립을 원하며, 당신이 우리를 막을 방법은 없습니다. 독립을 쉽게 얻느냐, 어렵게 얻느냐의 차이만 있을 뿐입니다. 선택은 당신 몫입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_1">
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_1">
 			<Text>우리 민족이 이 세계에서 스스로의 길을 찾을 때가 왔습니다. 우리는 독립된 국가를 갈망합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_2">
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_2">
 			<Text>나의 백성들은 당신의 지배를 더 이상 참을 수 없기에 나는 당신에게 공식적으로 개별적인 자주 국가 수립을 허용할 것을 요청합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_3">
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_3">
 			<Text>우리는 우리의 종속국 협정을 무효화할 때가 왔다고 생각합니다. 우리는 독립적인 지배를 원합니다. 받아들여주시겠습니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_1">

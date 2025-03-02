@@ -302,12 +302,12 @@ WHERE Tag = 'TXT_KEY_POLICY_FREERELIGION_TEXT';
 
 -- Leader title change
 UPDATE Language_ko_KR
-SET Text = '외교'
-WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE';
+SET Text = '{@1: gender feminine?Mistress; other?Master;} {2_CivName:textkey}의 주인 {1_PlayerName:textkey}'
+WHERE Tag = 'TXT_KEY_PATRONAGE_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '{2_CivName:textkey}의 주인 {1_PlayerName:textkey}'
-WHERE Tag = 'TXT_KEY_PATRONAGE_TITLE';
+SET Text = '외교'
+WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]외교[ENDCOLOR]는 [ICON_INTERNATIONAL_TRADE]교역로, [ICON_CITY_STATE]도시 국가, [ICON_SPY]스파이, [ICON_DIPLOMAT]세계 대회에서 오는 보너스를 극대화하는 능력을 향상시킵니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]전역 [ICON_CITIZEN]시민 20명마다 [ICON_CAPITAL]수도의 모든 산출량 +1[NEWLINE][ICON_BULLET]모든 도시의 [ICON_GOLD]골드 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET]{TXT_KEY_POP_CSTATE_GIFT_GOLD}의 [ICON_INFLUENCE]영향력 +10%[NEWLINE][ICON_BULLET]모든 도시의 [ICON_GOLD]골드 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]웨스트민스터 궁전[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET]세계 대회가 열릴 때마다 확보한 [ICON_DIPLOMAT]대표단 수마다 [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_GOLD]골드 5 제공 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가 3개마다 [ICON_WONDER] 불가사의 건설에 필요한 정책 수 -1'
@@ -761,12 +761,12 @@ SET Text = '[COLOR_POSITIVE_TEXT]문화대혁명[ENDCOLOR]: 당신의 문명보�
 WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_VP_SPY_POINTS] 스파이 포인트를 200 제공합니다. 적 스파이를 확인 시 [ICON_RESEARCH] 과학을 125 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
-WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
-
-UPDATE Language_ko_KR
 SET Text = '프롤레타리아 문화 대혁명은 1966년부터 1976년까지 중화민국에서 일어난 사회 운동이다. 모택동과 공산당이 시작한 문화 대혁명은 체포와 폭력을 동원해서라도 자본주의적, 전통적, 종교적 요소를 제거하여 국민을 재사회화하는 것이 목표였다. 모든 사회, 학교, 군대, 정당과 노동자 사이에서 문화 투쟁이 발생하였으며, 이후 몇십 년간 중국은 국제무대에서 영향력을 발휘할 수 없었다.'
 WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_TEXT';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_VP_SPY_POINTS] 스파이 포인트를 200 제공합니다. 적 스파이를 확인 시 [ICON_RESEARCH] 과학을 125 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]인민 영웅[ENDCOLOR]: 모든 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_CAPITAL]수도 근처에 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다.'

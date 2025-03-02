@@ -226,6 +226,13 @@ SET Text = '야만인 주둔지는 게임에 나오는 대부분 종류의 유�
 WHERE Tag = 'TXT_KEY_BARBARIAN_UNITS_HEADING2_BODY';
 
 UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]경험치 제한[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_BARBARIAN_POINTLIMITS_HEADING3_TITLE';
+UPDATE Language_ko_KR
+SET Text = '야만인 유닛과 싸울 때, 훈련이 덜 된 유닛은 경험치를 얻습니다. 그러나 이미 [COLOR_YELLOW]45 XP[ENDCOLOR]를 획득한 (또는 그만큼을 진급으로 교환한) 유닛은 더 이상 야만인과의 전투에서 XP를 얻을 수 없습니다.'
+WHERE Tag = 'TXT_KEY_BARBARIAN_POINTLIMITS_HEADING3_BODY';
+
+UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]개척자와 식량 산출량[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_FOOD_SETTLERS_HEADING2_TITLE';
 UPDATE Language_ko_KR
@@ -373,3 +380,50 @@ WHERE Tag = 'TXT_KEY_SOCIALPOLICY_ORDER_HEADING3_BODY';
 UPDATE Language_ko_KR
 SET Text = '적을 강철 발굽 아래 깔아뭉개고 싶다면 전제 이념이 최고의 선택입니다. [COLOR_YELLOW]정책 18개를 채택하거나 원자력 시대에 들어가면 이 이념을 사용할 수 있으며, [ENDCOLOR]평등 또는 질서와 함께 활성화할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_AUTOCRACY_HEADING3_BODY';
+
+-- Headings whose topics have mechanics changes
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Cities[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_1';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Combat Rules[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_2';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Resources[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_4';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Constructing Improvements[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_5';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Food and City Growth[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_6';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Culture[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_8';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Diplomacy[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_9';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_GREEN]Happiness[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_10';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Social Policies[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_12';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Gold and the Economy[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_13';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Great People and Specialists[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_15';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]City-States[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_16';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Ruins and Barbarians[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_19';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Units[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_20';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]Victory[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_21';

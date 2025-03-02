@@ -83,6 +83,10 @@ WHERE Tag = 'TXT_KEY_PROMOTION_VOLLEY_HELP';
 
 -- Medic
 UPDATE Language_ko_KR
+SET Text = '위생병 I'
+WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC';
+
+UPDATE Language_ko_KR
 SET Text = '같은 타일 및 인접 타일의 아군 유닛이 체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_HELP';
 
@@ -552,6 +556,11 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_RESEARCH_STORED]나침반[ENDCOLOR] 연구 전까지 대양에서 턴을 끝낼 수 없음[NEWLINE]연안에서 턴 종료 시 대양 타일 통과 가능'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
 
+-- Unwelcome Evangelist
+UPDATE Language_ko_KR
+SET Text = '국경 개방 없이 경쟁자의 영토에 들어갈 수 있지만, 해당 영토에서 턴을 마치면 원래 종교적 힘의 25%를 잃습니다. 종교력이 0이 되면 유닛이 [COLOR_NEGATIVE_TEXT]제거[ENDCOLOR]됩니다.'
+WHERE Tag = 'TXT_KEY_PROMOTION_UNWELCOME_EVANGELIST_HELP';
+
 -- Leadership
 UPDATE Language_ko_KR
 SET Text = '이 타일 근처 2타일의 유닛 [ICON_STRENGTH] 전투력 +15%'
@@ -559,7 +568,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_GREAT_GENERAL_HELP';
 
 -- Naval Leadership
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]함대 수리[ENDCOLOR] 사용 가능[NEWLINE]주변 해상 유닛의 전투력 증가[NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]'
+SET Text = '+15% [ICON_STRENGTH] Combat Strength for [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR] within 2 tiles of this Unit.[NEWLINE]May use the [COLOR_POSITIVE_TEXT]{TXT_KEY_MISSION_REPAIR_FLEET}[ENDCOLOR] Ability, expending this Unit and fully healing all [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Embarked Units[ENDCOLOR] on or adjacent to this tile.'
 WHERE Tag = 'TXT_KEY_PROMOTION_GREAT_ADMIRAL_HELP';
 
 -- Withdraw Before Melee
@@ -619,7 +628,8 @@ UPDATE Language_ko_KR
 SET Text = '숲 및 정글에서 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_JAGUAR_HELP';
 
-UPDATE Language_en_US
+-- War Canoes
+UPDATE Language_ko_KR
 SET Text = '강을 따라 이동 시 [ICON_MOVES] 이동력 두 배'
 WHERE Tag = 'TXT_KEY_PROMOTION_WAR_CANOES_HELP';
 
@@ -655,6 +665,10 @@ WHERE Tag = 'TXT_KEY_PROMOTION_SKI_INFANTRY_HELP';
 UPDATE Language_ko_KR
 SET Text = '인접한 적 유닛의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_HAKA_WAR_DANCE_HELP';
+
+UPDATE Language_ko_KR
+SET Text = 'Khaaaan!'
+WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_GENERAL';
 
 UPDATE Language_ko_KR
 SET Text = '인접한 적 유닛은 매 턴마다 10의 피해를 입습니다.[NEWLINE]이 피해는 대미지 감소를 무시하며, [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와 [COLOR_NEGATIVE_TEXT]주둔한 유닛에게는 영향을 주지 못합니다.[ENDCOLOR]'

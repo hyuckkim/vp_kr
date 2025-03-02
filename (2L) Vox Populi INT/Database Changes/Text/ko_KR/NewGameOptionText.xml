@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_ko_KR>
+		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY">
+			<Text>무작위 승리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY_HELP">
+			<Text>임의의 플레이어가 원자력 시대에 진입하면 하나의 무작위 승리 유형(문화, 외교 또는 과학)이 활성화됩니다. 다른 모든 승리는 비활성화됩니다. (참고: 시간 및 정복 승리는 항상 가능합니다.)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING">
 			<Text>기술 거래 없음</Text>
 		</Row>

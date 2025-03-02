@@ -1,4 +1,8 @@
 UPDATE Language_ko_KR
+SET Text = '습지는 생물학적 다양성이 풍부하지만, 배고프고 성장하는 문명에 제공할 수 있는 것은 음식 외에는 거의 없습니다. 도시 보너스를 제공하기 전에 물을 빼내거나 다른 방식으로 변경해야 하기 때문입니다.'
+WHERE Tag = 'TXT_KEY_CIV5_FEATURES_MARSH_TEXT';
+
+UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]낙진은 낙진 위에서 차례를 끝내는 유닛에게 15의 피해를 입힙니다.[ENDCOLOR][NEWLINE][NEWLINE]낙진이란 핵폭발을 따라 생기는 잔여 방사능을 뜻합니다. 낙진은 방사성 입자의 형태로 공기중에 퍼지면서 식물과 생명체들을 순식간에 죽음에 이르게 하거나 DNA에 해를 입히고 암이나 여러 질병, 불쾌한 돌연변이를 일으키는 매우 위험한 현상입니다. 대지는 핵폭발의 종류에 따라서 수십년에서 길게는 수세기까지 오염된 상태로 남아있을수 있습니다. 정화를 위해서는 오염된 건물들과 토양 식물의 대체가 필요합니다.'
 WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA';
 

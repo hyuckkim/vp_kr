@@ -33,13 +33,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3_HELP">
 			<Text>50% 확률로 {2_InstantYield}.</Text>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL_S">
+			<Text>점복술 성공!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL">
 			<Text>사제들이 점을 치는 데 성공하여 문명의 [ICON_PEACE]신앙이 증가합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL_S">
-			<Text>점복술 성공!</Text>
-		</Row>
+
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4">
 			<Text>우리 관측가들이 많은 것을 배울 것이다.</Text>
 		</Row>
@@ -58,13 +58,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_HELP">
 			<Text>50% 확률로 [ICON_RES_IRON]철 2개.</Text>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL_S">
+			<Text>운석에서 [ICON_RES_IRON]철 추출!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL">
 			<Text>당신의 대장장이들이 운석으로부터 큰 철 덩어리를 얻을 수 있었습니다. 이 물질로부터 섬세한 검과 창을 만들 수 있습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL_S">
-			<Text>운석에서 [ICON_RES_IRON]철 추출!</Text>
-		</Row>
+
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_2">
 			<Text>하늘로부터 온 선물은 분할하여 사제들에게 나눠줘야 한다.</Text>
 		</Row>
@@ -101,13 +101,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_HELP">
 			<Text>{1_YieldCost}, 25% 확률로 {2_InstantYield}</Text>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL_S">
+			<Text>나쁜 징조!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL">
 			<Text>안 좋은 징조입니다. {4_Help}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL_S">
-			<Text>나쁜 징조!</Text>
-		</Row>
+
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_2">
 			<Text>서둘러 희생제를 치러야 한다.</Text>
 		</Row>
@@ -269,12 +269,13 @@
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_HELP">
 			<Text>75% 확률로 {4_Turns} 동안 모든 도시의 [ICON_HAPPINESS_1]행복 -1.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL">
-			<Text>연설은 시민들의 마음을 움직이지 못했고 그들은 더 불행해졌습니다. 모든 도시의 [ICON_HAPPINESS_1]행복 -1. {4_Help}</Text>
-		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL_S">
 			<Text>연설 실패!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL">
+			<Text>연설은 시민들의 마음을 움직이지 못했고 그들은 더 불행해졌습니다. 모든 도시의 [ICON_HAPPINESS_1]행복 -1. {4_Help}</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_2">
 			<Text>우리 종교 지도자에게 사상자들을 위해 기도하도록 하라.</Text>
 		</Row>
@@ -287,24 +288,26 @@
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_HELP">
 			<Text>25% 확률로 모든 도시의 [ICON_HAPPINESS_1]행복 -2.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL">
-			<Text>라디오 방송은 시민들의 마음을 움직이지 못했고 그들은 더 불행해졌습니다. 모든 도시의 [ICON_HAPPINESS_1]행복 -2. {4_Help}</Text>
-		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL_S">
 			<Text>라디오 방송 실패!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL">
+			<Text>라디오 방송은 시민들의 마음을 움직이지 못했고 그들은 더 불행해졌습니다. 모든 도시의 [ICON_HAPPINESS_1]행복 -2. {4_Help}</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4">
 			<Text>우리는 이겨야 한다. 징병을 시작하라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_HELP">
 			<Text>50% 확률로 모든 도시에서 군사 유닛이 생성되고 2턴 동안 모든 도시가 [ICON_RESISTANCE]저항 상태가 됩니다.</Text>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL_S">
+			<Text>징병!</Text>
+		</Row>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL">
 			<Text>징병은 성공적이었지만 당신의 시민들이 더욱 분노했습니다. 모든 도시가 2턴 동안 [ICON_RESISTANCE]저항 상태가 되고 군사 유닛 1개를 생성합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL_S">
-			<Text>징병!</Text>
-		</Row>
+
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT">
 			<Text>외국인들로 혼잡한 시장</Text>
@@ -524,12 +527,14 @@
 		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_HELP">
 			<Text>세계 스포츠 조직이 당신의 문명을 국제 토너먼트의 개최지로 선정했습니다. {4_Turns} 동안 경기장이 있는 도시가 경기를 개최하여 해당 도시의 [ICON_TOURISM]관광을 증진시킬 것입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_SUCCESSFUL">
-			<Text>세계 스포츠 조직이 {3_PlayerName} 문명을 국제 토너먼트의 개최지로 선정했습니다. 그들의 경기장이 많은 [ICON_GOLD]골드와 [ICON_TOURISM]관광을 생산할 것입니다. {4_Help}</Text>
-		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_SUCCESSFUL_S">
 			<Text>{3_PlayerName} 문명이 국제 토너먼트를 개최했습니다!</Text>
 		</Row>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_SUCCESSFUL">
+			<Text>세계 스포츠 조직이 {3_PlayerName} 문명을 국제 토너먼트의 개최지로 선정했습니다. 그들의 경기장이 많은 [ICON_GOLD]골드와 [ICON_TOURISM]관광을 생산할 것입니다. {4_Help}</Text>
+		</Row>
+
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CORRUPTION_SCIENCE_FAILURE_CHOICE_1">
 			<Text>연구 차질</Text>
@@ -570,6 +575,13 @@
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_HELP">
 			<Text>{1_YieldCost}, 16.66% 확률로 무료 기술.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_SUCCESSFUL_S">
+			<Text>연구 기증</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_SUCCESSFUL">
+			<Text>과학 보좌관은 국제 연구 회의에 대한 우리의 영향력이 새 기술을 가져왔다고 보고했습니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_3">
 			<Text>이같은 정상 회담은 우리가 국경을 초월한 화폐 정책을 시행할 전례 없는 기회를 제공할 것이다. 경제 보좌관을 지도자로 임명한다. 우리는 이제부터 거대한 자본을 풀어야 한다.</Text>
 		</Row>
@@ -582,12 +594,7 @@
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_4_HELP">
 			<Text>{2_InstantYield}, [ICON_CAPITAL]수도 주변에 새로운 군대가 출현합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_SUCCESSFUL">
-			<Text>과학 보좌관은 국제 연구 회의에 대한 우리의 영향력이 새 기술을 가져왔다고 보고했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_SUCCESSFUL_S">
-			<Text>연구 기증</Text>
-		</Row>
+
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT">
 			<Text>상인의 죽음</Text>
@@ -703,12 +710,13 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_HELP">
 			<Text>{1_Scaled} 투자합니다. 50% 확률로 도시에 항만이 건설됩니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL">
-			<Text>{2_City}에 투자가 성공하여 항만 건설을 이루어냈습니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL_S">
 			<Text>항만 건설!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL">
+			<Text>{2_City}에 투자가 성공하여 항만 건설을 이루어냈습니다.</Text>
+		</Row>
+
 
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA">
 			<Text>극적인 명작</Text>
@@ -722,6 +730,13 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_HELP">
 			<Text>{1_YieldCost}. 모든 문명에 대한 관광이 {2_InstantYield} 증가합니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL_S">
+			<Text>{2_CityName}의 작가들이 명작을 만들었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL">
+			<Text>{2_City}의 작가들이 극적인 작품을 창작하여 전 세계에서 방문자들을 끌어모았습니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_2">
 			<Text>이를 기념하자.</Text>
 		</Row>
@@ -740,12 +755,7 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_4_HELP">
 			<Text>{2_InstantYield}.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL">
-			<Text>{2_City}의 작가들이 극적인 작품을 창작하여 전 세계에서 방문자들을 끌어모았습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL_S">
-			<Text>{2_CityName}의 작가들이 명작을 만들었습니다.</Text>
-		</Row>
+
 
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS">
 			<Text>사원의 문제</Text>
@@ -771,12 +781,13 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_HELP">
 			<Text>50% 확률로 사원이 파괴될 것입니다. 그 결과 도시의 [ICON_PEACE]신앙 +1, [ICON_HAPPINESS_1]행복 +1.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL">
-			<Text>{2_City}에서 불신자들이 항의의 표시로 사원을 불태웠습니다. 하지만 당신의 시민들은 흔들리지 않았습니다. 도시의 [ICON_HAPPINESS_1]행복 +1, {5_Help}</Text>
-		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL_S">
 			<Text>{2_City}의 사원이 파괴되었습니다!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL">
+			<Text>{2_City}에서 불신자들이 항의의 표시로 사원을 불태웠습니다. 하지만 당신의 시민들은 흔들리지 않았습니다. 도시의 [ICON_HAPPINESS_1]행복 +1, {5_Help}</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4">
 			<Text>더 크게 생각해야 한다.</Text>
 		</Row>
@@ -1151,11 +1162,20 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1_HELP">
 			<Text>{1_YieldCost} 손실. 도시가 허리케인에 잘 대처할 것입니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_SUCCESSFUL_S">
+			<Text>{2_City}에서 허리케인이 덮쳤습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 다행히도 도시는 잘 대처하여 손실을 최소화했습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2">
 			<Text>행운을 빈다. 우리가 할 수 있는 건 없다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2_HELP">
 			<Text>아무런 준비가 안됐습니다. 행운을 빕니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시는 대비를 하지 못해 큰 손실을 입었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3">
 			<Text>군사들을 보내 재산을 지키도록 하라.</Text>
@@ -1163,11 +1183,17 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3_HELP">
 			<Text>{1_YieldCost} 손실. 허리케인이 덮치면 많은 인명 피해가 생길 것입니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시는 잘 보호되었지만 시민들이 피해를 입었습니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4">
 			<Text>군사들을 보내 시민들을 보호하도록 하라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4_HELP">
 			<Text>{1_YieldCost} 손실. 허리케인이 덮치면 많은 재산 피해가 생길 것입니다.</Text>
+		</Row>
+				<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 시민들은 잘 보호되었지만 도시가 큰 피해를 입었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5">
 			<Text>우리 강의 제방이 밀려오는 물을 막아줄 것이다!</Text>
@@ -1175,22 +1201,7 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_HELP">
 			<Text>{1_YieldCost} 손실, 허리케인이 덮치면 많은 재산 피해가 생길 것입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_SUCCESSFUL_S">
-			<Text>{2_City}에서 허리케인이 덮쳤습니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1_SUCCESSFUL">
-			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 다행히도 도시는 잘 대처하여 손실을 최소화했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2_SUCCESSFUL">
-			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시는 대비를 하지 못해 큰 손실을 입었습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3_SUCCESSFUL">
-			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시는 잘 보호되었지만 시민들이 피해를 입었습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4_SUCCESSFUL">
-			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 시민들은 잘 보호되었지만 도시가 큰 피해를 입었습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_SUCCESSFUL">
+				<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_SUCCESSFUL">
 			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시의 제방이 견디지 못해 도시가 황폐화되었습니다.</Text>
 		</Row>
 
@@ -1250,6 +1261,12 @@
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_HELP">
 			<Text>{1_Cost}. 50% 확률로 도시 근처에 야만인 유닛 2개가 생성됩니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL_S">
+			<Text>{2_City}에서 유목민들이 반기를 들었습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL">
+			<Text>당신의 뻔뻔한 행동이 유목민들을 화나게 했고 그들은 당신을 향해 전쟁을 선언했습니다. {2_City} 근처에 야만인 유닛 2개가 생성됩니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_3">
 			<Text>그들을 받아들이는 대신 그들 중 뛰어난 군인들은 우리 군에 들어오도록 하라.</Text>
 		</Row>
@@ -1261,12 +1278,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_4_HELP">
 			<Text>도시의 [ICON_CITIZEN]시민 +1.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL">
-			<Text>당신의 뻔뻔한 행동이 유목민들을 화나게 했고 그들은 당신을 향해 전쟁을 선언했습니다. {2_City} 근처에 야만인 유닛 2개가 생성됩니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL_S">
-			<Text>{2_City}에서 유목민들이 반기를 들었습니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS">

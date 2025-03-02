@@ -300,12 +300,12 @@ WHERE Tag = 'TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE_STRATEGY';
 -- Ethiopia
 --------------------
 UPDATE Language_ko_KR
-SET Text = '정책 계열을 완성하거나 교리를 채택하거나 또는 첫 이념을 선택할 때 [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 1개 제공합니다. 전략 자원의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
-WHERE Tag = 'TXT_KEY_TRAIT_BONUS_AGAINST_TECH';
-
-UPDATE Language_ko_KR
 SET Text = '솔로몬의 지혜'
 WHERE Tag = 'TXT_KEY_TRAIT_BONUS_AGAINST_TECH_SHORT';
+
+UPDATE Language_ko_KR
+SET Text = '정책 계열을 완성하거나 교리를 채택하거나 또는 첫 이념을 선택할 때 [COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 1개 제공합니다. 전략 자원의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+WHERE Tag = 'TXT_KEY_TRAIT_BONUS_AGAINST_TECH';
 
 UPDATE Language_ko_KR
 SET Text = '{TXT_KEY_UNIT_RIFLEMAN}을 대체하는 에티오피아의 고유 유닛입니다. 우호 영토 내 전투 및 에티오피아의 [ICON_CAPITAL]수도 방어에 특화된 최전방 지상 유닛입니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COVER_1}[ENDCOLOR] 승급을 보유합니다.'
@@ -549,6 +549,10 @@ SET Text = '팔라파 맹세'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE_SHORT';
 
 UPDATE Language_ko_KR
+SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 출현합니다. [ICON_VP_MONOPOLY] 글로벌 독점에서 오는 [ICON_GOLDEN_AGE] 산출량이 비율 기반이면 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR], 아니면 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+WHERE Tag = 'TXT_KEY_TRAIT_SPICE';
+
+UPDATE Language_ko_KR
 SET Text = '정원을 대체하는 인도네시아의 고유 건물입니다. 건물이 완성되면 도시 주변에 [ICON_RES_CLOVES]정향 [ICON_RES_PEPPER]후추 [ICON_RES_NUTMEG]육두구 자원이 나타납니다.[NEWLINE][NEWLINE]도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. "국왕 경축일"이 열리는 동안 도시의 [ICON_PEACE]신앙 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 [ICON_URBANIZATION] 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [NEWLINE][NEWLINE]오아시스: [ICON_GOLD]골드 +2[NEWLINE][ICON_RES_CITRUS] 감귤: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COCOA] 코코아: [ICON_FOOD]식량 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_CLOVES] 정향: [ICON_PEACE] 신앙 +1 [ICON_CULTURE]문화 +1.[NEWLINE][ICON_RES_PEPPER] 후추: [ICON_PEACE]신앙 +1 [ICON_GOLD]골드 +1.[NEWLINE][ICON_RES_NUTMEG] 육두구: [ICON_CULTURE] 문화 +1 [ICON_PRODUCTION] 생산 +1'
 WHERE Tag = 'TXT_KEY_BUILDING_CANDI_HELP';
 
@@ -556,9 +560,7 @@ UPDATE Language_ko_KR
 SET Text = '{TXT_KEY_BUILDING_GARDEN}을 대체하는 인도네시아의 고유 건물입니다. {TXT_KEY_BUILDING_GARDEN}의 기본 능력에 추가로, {TXT_KEY_BUILDING_CANDI_DESC}는 추가 [ICON_PEACE] 신앙과 [ICON_CULTURE] 문화, 국왕 경축일에 추가 보너스를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CANDI_STRATEGY';
 
-UPDATE Language_ko_KR
-SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 출현합니다. [ICON_VP_MONOPOLY] 글로벌 독점에서 오는 [ICON_GOLDEN_AGE] 산출량이 비율 기반이면 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR], 아니면 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
-WHERE Tag = 'TXT_KEY_TRAIT_SPICE';
+
 
 UPDATE Language_ko_KR
 SET Text = '{TXT_KEY_UNIT_SWORDSMAN}를 대체하는 인도네시아의 고유 유닛입니다. 첫 전투를 해야 드러나는 능력을 지닌 [COLOR:30:200:255:255]{TXT_KEY_PROMOTION_MYSTIC_BLADE}[ENDCOLOR]를 사용합니다.'
@@ -601,10 +603,6 @@ WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT';
 UPDATE Language_ko_KR
 SET Text = '방어 건물의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 출현할 때 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가/작가/음악가 점수가 50% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED';
-
-UPDATE Language_ko_KR
-SET Text = '사무라이는 일본의 고유 유닛으로 장검병을 대체합니다. 검사보다 더 강하고, 장군을 더 많이 생성하며 전투에서 경험치를 더 많이 받습니다.'
-WHERE Tag = 'TXT_KEY_UNIT_JAPANESE_SAMURAI_STRATEGY';
 
 UPDATE Language_ko_KR
 SET Text = '{TXT_KEY_UNIT_LONGSWORDSMAN}을 대체하는 일본의 고유 유닛입니다. 전투 시 50% 많은 경험치를 획득하며 [ICON_GREAT_GENERAL]위대한 장군의 출현율을 100%만큼 앞당깁니다.'
