@@ -192,8 +192,8 @@
 				[ICON_BULLET][COLOR_CYAN]대기열 위에 모두 추가[ENDCOLOR]: [COLOR_YELLOW]SHIFT+CTRL+LCLICK[ENDCOLOR]으로 가능한 모든 도시에서 대기열 맨 위에 항목을 추가합니다.[NEWLINE]
 				[ICON_BULLET][COLOR_CYAN]모두 투자[ENDCOLOR]: [COLOR_YELLOW]SHIFT+LCLICK[ENDCOLOR]으로 모든 도시에서 대기열의 이 건물을 투자합니다.[NEWLINE]
 
-				[NEWLINE][COLOR_POSITIVE_TEXT]Citizen Management Modifiers:[ENDCOLOR][NEWLINE]
-				[ICON_BULLET][COLOR_CYAN]Set Yield Focus All[ENDCOLOR]: [COLOR_YELLOW]SHIFT+LCLICK[ENDCOLOR] a focus type to have all cities emphasize the production of that yield type.
+				[NEWLINE][COLOR_POSITIVE_TEXT]시민 관리 단축키:[ENDCOLOR][NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]모든 도시에서 집중[ENDCOLOR]: 집중할 산출에 [COLOR_YELLOW]SHIFT+LCLICK[ENDCOLOR]로 모든 도시의 산출 집중을 변경할 수 있습니다.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOPIC_SHORTCUT_WORLD_VIEW">

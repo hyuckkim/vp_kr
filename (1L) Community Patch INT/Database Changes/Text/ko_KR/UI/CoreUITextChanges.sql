@@ -122,7 +122,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]걸작 및 테
 WHERE Tag = 'TXT_KEY_CULTURE_FROM_GREAT_WORKS';
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num} [ICON_TOURISM] Tourism from {2_Num} [ICON_GREAT_WORK] {2_Num: plural 1?Great Work; other?Great Works;}'
+SET Text = '[COLOR_POSITIVE_TEXT]+{2_Num}[ENDCOLOR] [ICON_TOURISM]  [ICON_GREAT_WORK]걸작 [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]에서'
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_GREAT_WORKS';
 
 UPDATE Language_ko_KR
@@ -130,11 +130,11 @@ SET Text = '{1_Num} [ICON_PEACE]신앙으로 구매한 건물에서의 [ICON_TOU
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_FAITH_BUILDINGS';
 
 UPDATE Language_ko_KR
-SET Text = '{1_ReligionIcon} {2_NumFollowers} {2_NumFollowers: plural 1?Follower; other?Followers;} {3_PressureString}'
+SET Text = '{1_ReligionIcon} 신자 {2_NumFollowers}명 {3_PressureString}'
 WHERE Tag = 'TXT_KEY_RELIGION_TOOLTIP_LINE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_ReligionIcon} {2_NumFollowers} {2_NumFollowers: plural 1?Follower; other?Followers;} {3_PressureString} ({4_Num} trade routes)'
+SET Text = '{1_ReligionIcon} 신자 {2_NumFollowers}명 {3_PressureString}(교역로 {4_Num}개)'
 WHERE Tag = 'TXT_KEY_RELIGION_TOOLTIP_LINE_WITH_TRADE';
 
 ------------------------------------------------
@@ -148,7 +148,7 @@ WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 -- Great Person panel
 ------------------------------------------------
 UPDATE Language_ko_KR
-SET Text = '{1_Progress}/{2_Threshold}, {3_Turns} {3_Turns: plural 1?Turn; other?Turns;} Remaining'
+SET Text = '{1_Progress}/{2_Threshold}, {3_Turns} 턴 남음'
 WHERE Tag = 'TXT_KEY_GPLIST_PROGRESS';
 
 ------------------------------------------------
@@ -159,7 +159,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_BUILD_NUM_TURNS';
 
 UPDATE Language_ko_KR
-SET Text = 'After this action is performed, [COLOR_POSITIVE_TEXT]{2_NumFollowers}[ENDCOLOR] {2_NumFollowers: plural 1?Citizens; other?Citizens;} will be following [COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR].'
+SET Text = '이 행동을 하면 [COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]{1: plural 1?을; 2?를;} 믿는 시민이 [COLOR_POSITIVE_TEXT]{2_NumFollowers}명[ENDCOLOR]으로 늘어납니다.'
 WHERE Tag = 'TXT_KEY_MISSION_SPREAD_RELIGION_RESULT';
 
 UPDATE Language_ko_KR
@@ -532,7 +532,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]군사적[ENDCOLOR] 도시 국가와 친선 관
 WHERE Tag = 'TXT_KEY_CITY_STATE_MILITARISTIC_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CivName:textkey} {1_CivName: plural 1?is; other?are;} their current Ally. You need another {2_NumInfluence} [ICON_INFLUENCE] Influence to surpass {1_CivName:textkey} and become their Ally.[NEWLINE][NEWLINE]If a player becomes the Ally of a City-State, they receive extra bonuses relating to that City-State''s trait, and they will also receive any luxury and strategic Resources the City-State has connected.'
+SET Text = '{1_CivName:textkey}{1: plural 1?은; 2?는;} 현재 도시 국가의 동맹입니다. {1_CivName:textkey}{1: plural 1?을; 2?를;} 대신해서 동맹을 맺으려면 {2_NumInfluence} [ICON_INFLUENCE]영향력이 필요합니다.[NEWLINE][NEWLINE]당신이 도시 국가의 동맹이 되면 해당 도시 국가의 특성에 따른 보너스와 사치 자원, 전략 자원을 제공받습니다.'
 WHERE Tag = 'TXT_KEY_CITY_STATE_ALLY_TT';
 
 UPDATE Language_ko_KR
@@ -548,11 +548,11 @@ SET Text = '그들은 당신이 그들의 영토를 침범하는 야만인 부�
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS_FORMAL';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} So far, you have the lead with [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR] {1_PlayerScore: plural 1?Technology; other?Technologies;}.'
+SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} 현재 당신의 문명이 1위이며 연구한 기술은 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]개입니다.'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_WINNING_FORMAL';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} So far, the leader has {1_LeaderScore} {1_LeaderScore: plural 1?Technology; other?Technologies;} and you have [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].'
+SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} 현재 1위 문명이 연구한 기술은 {1_LeaderScore}개이며 당신의 문명이 연구한 기술은 [COLOR_POSITIVE_TEXT]{2_PlayerScore}개[ENDCOLOR]입니다.'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_LOSING_FORMAL';
 
 ------------------------------------------------
@@ -602,7 +602,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]적 스파이 처치 확률: {1_Num}%[ENDCOLOR]
 WHERE Tag = 'TXT_KEY_EO_SPY_COUNTER_INTEL_SUM_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과를 조작해 영향력이 증가했습니다.[NEWLINE][NEWLINE]한 문명만이 선거 결과를 조작할 수 있습니다. 한 도시 국가에 스파이가 여러 명 있다면 가장 계급이 높은 스파이 중 가장 그곳에 오래 머문 스파이가 선거 결과를 조작할 확률이 가장 높습니다. 선거 조작은 또한 도시 국가의 쿠데타 성공 확률을 상승시킵니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]다음 선거 조작이 성공한낟면, 당신의 영향력은 {4_Influence} 증가합니다.[ENDCOLOR]'
+SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 선거 결과를 조작해 영향력이 증가했습니다.[NEWLINE][NEWLINE]한 문명만이 선거 결과를 조작할 수 있습니다. 한 도시 국가에 스파이가 여러 명 있다면 가장 계급이 높은 스파이 중 가장 그곳에 오래 머문 스파이가 선거 결과를 조작할 확률이 가장 높습니다. 선거 조작은 또한 도시 국가의 쿠데타 성공 확률을 상승시킵니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]다음 선거 조작이 성공한다면, 당신의 영향력은 {4_Influence} 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT';
 
 UPDATE Language_ko_KR
@@ -644,7 +644,7 @@ SET Text = '{2_CivName}{2: plural 1?이; 2?가;} 개발하지 못한 {1_Num}개�
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CivName} {1_CivName: plural 1?has; other?have;} discovered {2_Num} {2_Num: plural 1?Technology; other?Technologies;} that you do not know.[NEWLINE]You are receiving +{3_Num} [ICON_RESEARCH] Science on this route due to your Cultural Influence over them.'
+SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 보유하지 못한 {2_Num}개의 기술을 연구하였습니다. [NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED';
 
 ------------------------------------------------

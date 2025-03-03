@@ -63,7 +63,6 @@
     <File md5="CE30D99830E8EC637B0E560B57919058" import="0">Database Changes/Text/ko_KR/UnitPromotions/PromotionTextChanges.sql</File>
     <File md5="83B6D1EF63621F3920C39AB6C3590278" import="0">Database Changes/Text/ko_KR/Units/MissionTextChanges.sql</File>
     <File md5="BB7ABA7D22D3FAAFE5466CF44F96629F" import="0">Database Changes/Text/ko_KR/Units/NewMissionText.xml</File>
-    <File md5="A869F3E9D53E57F5F93F48F037A3DB41" import="0">Database Changes/Text/ko_KR/Units/NewUnitText.sql</File>
     <File md5="1DB6CBD1FD5B1288A34E9BAB787FF51E" import="0">Database Changes/Text/ko_KR/Units/NewUnitText.xml</File>
     <File md5="40475D96144835BCAE3C53C683307ABB" import="0">Database Changes/Text/ko_KR/Units/UnitTextChanges.sql</File>
     <File md5="834ED1F523EC44BA005DF4554215CA9B" import="0">Database Changes/Text/ko_KR/WorldCongress/NewProjectText.xml</File>
@@ -121,7 +120,6 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/PromotionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/MissionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/NewMissionText.xml</UpdateDatabase>
-      <UpdateDatabase>Database Changes/Text/ko_KR/Units/NewUnitText.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/NewUnitText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/UnitTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldCongress/NewProjectText.xml</UpdateDatabase>

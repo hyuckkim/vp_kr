@@ -790,57 +790,57 @@ WHERE Tag = 'TXT_KEY_BUILDING_PAGODA_STRATEGY';
 
 -- Corporation franchises
 -- Modmodders can copy this code if they're adding more resources toward a corporation!
-UPDATE Language_en_US
-SET Text = '+1 [ICON_GOLD] Gold on all Trader Sid''s Monopoly Resources ('
-	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_TRADER_SIDS' AND c.ResourceType = r.Type)
-	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TRADER_SIDS}'
+UPDATE Language_ko_KR
+SET Text = '도시 주변 시드 무역 독점 자원의 [ICON_GOLD] 골드가 +1 증가합니다. ('
+	|| (SELECT GROUP_CONCAT(r.IconString, ", ") FROM Corporation_ResourceMonopolyOrs c, Resources r WHERE c.CorporationType = 'CORPORATION_TRADER_SIDS' AND c.ResourceType = r.Type) 
+	|| ') {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TRADER_SIDS}'
 WHERE Tag = 'TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP';
 
-UPDATE Language_en_US
-SET Text = '+1 [ICON_PRODUCTION] Production on all Centaurus Extractors'' Monopoly Resources ('
-	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_LANDSEA_EXTRACTORS' AND c.ResourceType = r.Type)
-	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_LANDSEA_EXTRACTORS}'
+UPDATE Language_ko_KR
+SET Text = '도시 주변 센타우리 개발 독점 자원의 [ICON_PRODUCTION] 생산이 +1 증가합니다. ('
+	|| (SELECT GROUP_CONCAT(r.IconString, ", ") FROM Corporation_ResourceMonopolyOrs c, Resources r WHERE c.CorporationType = 'CORPORATION_LANDSEA_EXTRACTORS' AND c.ResourceType = r.Type) 
+	|| ') {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_LANDSEA_EXTRACTORS}'
 WHERE Tag = 'TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP';
 
-UPDATE Language_en_US
-SET Text = '+1 [ICON_PRODUCTION] Production on Hexxon Refineries Monopoly Resources ('
-	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_HEXXON_REFINERY' AND c.ResourceType = r.Type)
-	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_HEXXON_REFINERY}'
+UPDATE Language_ko_KR
+SET Text = '도시 주변 헥손 졍유 독점 자원의 [ICON_PRODUCTION] 생산이 +1 증가합니다. ('
+	|| (SELECT GROUP_CONCAT(r.IconString, ", ") FROM Corporation_ResourceMonopolyOrs c, Resources r WHERE c.CorporationType = 'CORPORATION_HEXXON_REFINERY' AND c.ResourceType = r.Type) 
+	|| ') {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_HEXXON_REFINERY}'
 WHERE Tag = 'TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_HELP';
 
-UPDATE Language_en_US
-SET Text = '+1 [ICON_CULTURE] Culture on all Giorgio Armeier''s Monopoly Resources ('
-	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_GIORGIO_ARMEIER' AND c.ResourceType = r.Type)
-	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER}'
+UPDATE Language_ko_KR
+SET Text = '도시 주변 조르지오 아르미에 독점 자원의 [ICON_CULTURE] 문화가 +1 증가합니다. ('
+	|| (SELECT GROUP_CONCAT(r.IconString, ", ") FROM Corporation_ResourceMonopolyOrs c, Resources r WHERE c.CorporationType = 'CORPORATION_GIORGIO_ARMEIER' AND c.ResourceType = r.Type) 
+	|| ') {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER}'
 WHERE Tag = 'TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_HELP';
 
-UPDATE Language_en_US
-SET Text = '+1 [ICON_RESEARCH] Science on all Firaxite Materials'' Monopoly Resources ('
-	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_FIRAXITE_MATERIALS' AND c.ResourceType = r.Type)
-	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS}'
+UPDATE Language_ko_KR
+SET Text = '도시 주변 파이락사이트 소재 독점 자원의 [ICON_RESEARCH] 과학이 +1 증가합니다. ('
+	|| (SELECT GROUP_CONCAT(r.IconString, ", ") FROM Corporation_ResourceMonopolyOrs c, Resources r WHERE c.CorporationType = 'CORPORATION_FIRAXITE_MATERIALS' AND c.ResourceType = r.Type) 
+	|| ') {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS}'
 WHERE Tag = 'TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_HELP';
 
-UPDATE Language_en_US
-SET Text = '+1 [ICON_FOOD] Food on all TwoKay Foods'' Monopoly Resources ('
-	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_TWOKAY_FOODS' AND c.ResourceType = r.Type)
-	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS}'
+UPDATE Language_ko_KR
+SET Text = '도시 주변 투케이 푸드 독점 자원의 [ICON_FOOD] 식량이 +1 증가합니다. ('
+	|| (SELECT GROUP_CONCAT(r.IconString, ", ") FROM Corporation_ResourceMonopolyOrs c, Resources r WHERE c.CorporationType = 'CORPORATION_TWOKAY_FOODS' AND c.ResourceType = r.Type) 
+	|| ') {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS}'
 WHERE Tag = 'TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_HELP';
 
-UPDATE Language_en_US
-SET Text = '+1 [ICON_GOLDEN_AGE] Golden Age Points on all Civilized Jewelers'' Monopoly Resources ('
-	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_CIVILIZED_JEWELERS' AND c.ResourceType = r.Type)
-	|| ') near the City. {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS}'
+UPDATE Language_ko_KR
+SET Text = '도시 주변 시빌 보석 독점 자원의 [ICON_GOLDEN_AGE] 황금기 점수가 +1 증가합니다. ('
+	|| (SELECT GROUP_CONCAT(r.IconString, ", ") FROM Corporation_ResourceMonopolyOrs c, Resources r WHERE c.CorporationType = 'CORPORATION_CIVILIZED_JEWELERS' AND c.ResourceType = r.Type) 
+	|| ') {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS}'
 WHERE Tag = 'TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP';
 
 -- Theming bonuses
 UPDATE Language_en_US
-SET Text = '{2_CivAdjective} Museum of the {1_EraAdjective} Era'
+SET Text = '{2_CivAdjective} {1_EraAdjective} 시대 박물관'
 WHERE Tag = 'TXT_KEY_THEMING_BONUS_MUSEUM_5';
 
 UPDATE Language_en_US
-SET Text = 'Museum of {2_CivAdjective} Art'
+SET Text = '{2_CivAdjective} 예술 박물관'
 WHERE Tag = 'TXT_KEY_THEMING_BONUS_MUSEUM_7';
 
 UPDATE Language_en_US
-SET Text = 'Museum of {2_CivAdjective} Warfare'
+SET Text = '{2_CivAdjective} 전쟁 박물관'
 WHERE Tag = 'TXT_KEY_THEMING_BONUS_MUSEUM_8';

@@ -209,29 +209,29 @@
 			<Text>도시 국가 관광</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_TRADE_CS_BONUS">
-			<Text>당신의 문명이 {2_Name}에 [ICON_INTERNATIONAL_TRADE]교역로를 설립하여,  당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (before Tourism modifiers)</Text>
+			<Text>당신의 문명이 {2_Name}에 [ICON_INTERNATIONAL_TRADE]교역로를 설립하여,  당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY">
 			<Text>역사적 사건</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_ERA">
-			<Text>당신의 문명이 새로운 [ICON_RESEARCH]시대에 진입하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (before Tourism modifiers)</Text>
+			<Text>당신의 문명이 새로운 [ICON_RESEARCH]시대에 진입하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_WAR">
-			<Text>당신의 문명이 [ICON_VICTORY_DOMINATION] 전쟁에서 승리하여(전쟁 점수 25+) ,당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (before Tourism modifiers)</Text>
+			<Text>당신의 문명이 [ICON_VICTORY_DOMINATION] 전쟁에서 승리하여(전쟁 점수 25+) ,당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP">
-			<Text>당신의 문명에서 [ICON_GREAT_PEOPLE]위인이 탄생하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (before Tourism modifiers)</Text>
+			<Text>당신의 문명에서 [ICON_GREAT_PEOPLE]위인이 탄생하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_WW">
-			<Text>당신의 문명이 [ICON_GOLDEN_AGE]세계 불가사의를 건설하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (before Tourism modifiers)</Text>
+			<Text>당신의 문명이 [ICON_GOLDEN_AGE]세계 불가사의를 건설하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_ARCHAEOLOGY">
-			<Text>당신의 문명이 [ICON_RES_ARTIFACTS]유물 발굴을 완료하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (before Tourism modifiers)</Text>
+			<Text>당신의 문명이 [ICON_RES_ARTIFACTS]유물 발굴을 완료하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GOLDEN_AGE">
-			<Text>당신의 문명이 [ICON_GOLDEN_AGE]황금기에 진입하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (before Tourism modifiers)</Text>
+			<Text>당신의 문명이 [ICON_GOLDEN_AGE]황금기에 진입하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI_SUMMARY">

@@ -243,10 +243,10 @@
 			<Text>자원 확보!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_CLAIMED_RESOURCE">
-			<Text>On construction of {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_BldgName}}, your City of {2_City} has claimed a Tile with {3_ResourceName:textkey} on it!</Text>
+			<Text>{1_BldgName}의 개발에 의해, {2_City}{2_City: plural 1?이; 2?가;} {3_ResourceName:textkey} 타일을 획득했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_BUILDING_CLAIMED_RESOURCE_FROM_OTHER_PLAYER">
-			<Text>On construction of {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_BldgName}}, your City of {2_City} has claimed a Tile with {3_ResourceName:textkey} on it! The Tile previously belonged to {4_CivName}, and [COLOR_NEGATIVE_TEXT]diplomatic relations with them have worsened![ENDCOLOR]</Text>
+			<Text>{1_BldgName}의 개발에 의해, {2_City}{2_City: plural 1?이; 2?가;} {3_ResourceName:textkey} 타일을 획득했습니다! 이 타일은 {4_CivName}의 것이었으므로, 그들과의 [COLOR_NEGATIVE_TEXT]외교 관계가 악화됩니다![ENDCOLOR]</Text>
 		</Row>
 
 

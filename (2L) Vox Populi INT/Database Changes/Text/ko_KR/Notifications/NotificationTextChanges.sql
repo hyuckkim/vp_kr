@@ -135,45 +135,45 @@ UPDATE Language_ko_KR
 SET Text = '{1_CityName}에서 더이상 {2_BldgName}{2: plural 1?을; 2?를;} 건설할 수 없습니다! 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_PEACE]신앙으로 돌려 받습니다!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT 1 FROM Community WHERE Type = 'COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value = 5);
 
--- Cultural influence level changes
+--INFLUENTIAL DOMINANT NOTIFICATION
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Exotic[ENDCOLOR] to {1_Num}. We will no longer get any bonuses from them.'
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]신비하지[ENDCOLOR] 않습니다. 그들에게서 보너스를 더 이상 얻을 수 없습니다.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_1_BAD';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Exotic[ENDCOLOR] to {1_Num}! See Culture Overview for the bonuses!'
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]신비합니다[ENDCOLOR]. 문화 개요에서 보너스를 확인하십시오.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_1';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Familiar[ENDCOLOR] to {1_Num}. Our bonuses have weakened from them.'
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]친숙하지[ENDCOLOR] 않습니다. 그들이 제공하는 보너스가 약해집니다.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_2_BAD';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Familiar[ENDCOLOR] to {1_Num}!  See Culture Overview for the increased bonuses!'
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]친숙합니다[ENDCOLOR]. 문화 개요에서 증가한 보너스를 확인하십시오.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_2';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Popular[ENDCOLOR] to {1_Num}. Our bonuses have weakened from them.'
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]유명하지[ENDCOLOR] 않습니다. 그들이 제공하는 보너스가 약해집니다.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_3_BAD';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Popular[ENDCOLOR] to {1_Num}! See Culture Overview for the increased bonuses!'
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]유명합니다[ENDCOLOR]. 문화 개요에서 증가한 보너스를 확인하십시오.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_3';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Influential[ENDCOLOR] to {1_Num}. Our bonuses have weakened from them.'
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]매우 유명하지[ENDCOLOR] 않습니다. 그들이 제공하는 보너스가 약해집니다.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_4_BAD';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Influential[ENDCOLOR] to {1_Num}! See Culture Overview for the increased bonuses!'
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]매우 유명합니다[ENDCOLOR]. 문화 개요에서 증가한 보너스를 확인하십시오.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_4';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Dominant[ENDCOLOR] to {1_Num}. Our bonuses have weakened from them.'
+SET Text = '우리 [ICON_CULTURE]문화가 {1_Num}에게 [COLOR_NEGATIVE_TEXT]더 이상[ENDCOLOR] [COLOR_MAGENTA]가장 유명하지[ENDCOLOR] 않습니다. 그들이 제공하는 보너스가 약해집니다.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_5_BAD';
 
 UPDATE Language_ko_KR
-SET Text = 'Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Dominant[ENDCOLOR] to {1_Num}! See Culture Overview for the increased bonuses!'
+SET Text = '우리 [ICON_CULTURE]문화가 이제 {1_Num}에게 [COLOR_MAGENTA]가장 유명합니다[ENDCOLOR]. 문화 개요에서 증가한 보너스를 확인하십시오.'
 WHERE Tag = 'TXT_KEY_INFLUENCE_US_5';
 
 -- City-State quests
@@ -182,37 +182,41 @@ SET Text = 'War breaks out between {2_CivName:textkey} and {1_TargetName:textkey
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{3_TargetName:textkey} has declared war on {1_CivName:textkey}, citing diplomatic concerns. Receive the [COLOR_POSITIVE_TEXT]full[ENDCOLOR] Quest Reward from {1_TargetName:textkey} by [COLOR_NEGATIVE_TEXT]destroying[ENDCOLOR] {3_CivName:textkey}, or a [COLOR_POSITIVE_TEXT]partial[ENDCOLOR] Quest Reward through [COLOR_POSITIVE_TEXT]allying[ENDCOLOR] both City-States. International pressure will force peace in [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {2_Num: plural 1?Turn; other?Turns;}, so act fast if you intend to intervene!'
+SET Text = '{2_CivName:textkey}{2_CivName: plural 1?과; 2?와;} {1_TargetName:textkey} 사이에 전쟁이 발발했습니다.'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
+
+UPDATE Language_ko_KR
+SET Text = '{3_TargetName:textkey}{3_TargetName: plural 1?이; 2?가;} 외교상의 우려를 이유로 {1_CivName:textkey}에게 전쟁을 선포했습니다, {1_TargetName:textkey}의 요청대로 {3_CivName:textkey}{3_CivName: plural 1?을; 2?를;} [COLOR_NEGATIVE_TEXT]멸망[ENDCOLOR]시켜 완전한 보상을 받거나 또는 두 도시 국가와의 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]을 통해 부분적인 보상을 받으십시오.  국제적인 압력이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]턴 후 평화를 강요할 것입니다. 개입할 의도가 있다면 빠르게 행동하십시오!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_TargetName:textkey} defeated by {2_CivName:textkey}!'
+SET Text = '{1_TargetName:textkey}{1_TargetName: plural 1?이; 2?가;} {2_CivName:textkey}에게 패배함!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE Language_ko_KR
-SET Text = 'The war between {2_CivName:textkey} and {1_TargetName:textkey} has ended, with {2_CivName:textkey} emerging as the clear victor. Your advisors worry that this outcome may lead to future conflict.'
+SET Text = '{2_CivName:textkey}{2_CivName: plural 1?이; 2?가;} 확실한 승자로 떠오르면서 {2_CivName:textkey}{2_CivName: plural 1?과; 2?와;} {1_TargetName:textkey} 사이의 전쟁이 끝났습니다. 당신의 조언자들은 이 결과가 미래의 갈등으로 이어질 수도 있다고 걱정합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
 
 -- City Revolt Brewing
 UPDATE Language_ko_KR
-SET Text = 'Because your Empire''s approval rating is below 35%, a City will revolt in [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] turns. Based on current Unhappiness levels and Cultural/Ideological pressure, the City most likely to revolt is {2_CityName} and it will join {3_CivName}. Try to get your Empire''s Happiness level out of this range as soon as possible!'
+SET Text = '제국의 지지율이 35% 미만이기 때문에 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 도시에 폭동이 일어날 것입니다. 현재 불행 수준과 문화/이념적 압력을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT';
 
 -- Revolutionary Unrest Brewing
 UPDATE Language_ko_KR
-SET Text = 'Because your Empire''s approval rating is below 35%, a City will revolt in [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] {1_Turns: plural 1?Turn; other?Turns;}. Based on current Unhappiness levels, the City most likely to revolt is {2_CityName}. If this City revolts, it will restore the sovereignty of {3_CivName}. Try to get your Empire''s Happiness level out of this range as soon as possible!'
+SET Text = '제국의 지지율이 35% 미만이기 때문에 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 도시에 폭동이 일어날 것입니다. 현재의 불행 수준을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP';
 
 UPDATE Language_ko_KR
-SET Text = 'Because your Empire''s approval rating is below 35%, a City will revolt in [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] {1_Turns: plural 1?Turn; other?Turns;}. Based on current Unhappiness levels, the City most likely to revolt is {2_CityName}. If this City revolts, it will become an independent City-State. Try to get your Empire''s Happiness level out of this range as soon as possible!'
+SET Text = '제국의 지지율이 35% 미만이기 때문에 도시가 {1_Turns}턴 동안 폭동이 발생합니다. 현재의 불행 수준을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}입니다. 해당 도시에 폭동이 발생하면 독립적인 도시 국가가 될 것입니다. 가능한 한 빨리 전역 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오! '
 WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP_FREE_CITY';
 
 -- A City Revolts!
 UPDATE Language_ko_KR
-SET Text = 'Because your Empire''s approval rating is below 35%, the City of {1_CityName} has revolted and joined {2_CivName}!'
+SET Text = '제국의 지지율이 35% 미만이기 때문에 {1_CityName}에서 폭동이 일어나 {2_CivName}에 합류했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_REVOLT';
 
 -- Rebels Appear!
 UPDATE Language_ko_KR
-SET Text = 'Because your Empire''s approval rating is below 35%, an uprising has occurred in your territory!'
+SET Text = '제국의 지지율이 35% 미만이기 때문에 당신의 영토에 폭동이 발생했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS';
