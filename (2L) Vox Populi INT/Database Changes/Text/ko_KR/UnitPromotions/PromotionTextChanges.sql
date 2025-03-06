@@ -568,7 +568,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_GREAT_GENERAL_HELP';
 
 -- Naval Leadership
 UPDATE Language_ko_KR
-SET Text = '+15% [ICON_STRENGTH] Combat Strength for [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR] within 2 tiles of this Unit.[NEWLINE]May use the [COLOR_POSITIVE_TEXT]{TXT_KEY_MISSION_REPAIR_FLEET}[ENDCOLOR] Ability, expending this Unit and fully healing all [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Embarked Units[ENDCOLOR] on or adjacent to this tile.'
+SET Text = '이 타일 근처 2타일의 해양 유닛 [ICON_STRENGTH] 전투력 +15%[NEWLINE]이 유닛을 소모해 [COLOR_POSITIVE_TEXT]{TXT_KEY_MISSION_REPAIR_FLEET}[ENDCOLOR] 능력을 사용하여, 이 타일과 인접 타일의 모든 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]승선[ENDCOLOR] 유닛을 최대 체력으로 회복 가능'
 WHERE Tag = 'TXT_KEY_PROMOTION_GREAT_ADMIRAL_HELP';
 
 -- Withdraw Before Melee
@@ -756,7 +756,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES_HELP';
 
 -- Prize Ships
 UPDATE Language_ko_KR
-SET Text = 'Enlist defeated Enemy Units surrounded in half or more of adjacent traversable tiles.[NEWLINE]Captured Units start with 25% of their max HP, 0 XP, and can immediately move (but not attack).'
+SET Text = '인접한 이동 가능한 타일의 절반 이상을 둘러싸고 처치한 적 유닛이 아군으로 합류함[NEWLINE]합류한 유닛은 [COLOR_POSITIVE_TEXT]보급 한도를 차지하지 않고[ENDCOLOR] 25%의 체력과 경험치 0으로 시작하며 즉시 이동할 수 있습니다. (단 공격은 불가)'
 WHERE Tag = 'TXT_KEY_PROMOTION_PRIZE_SHIPS_HELP';
 
 -- Invulnerability

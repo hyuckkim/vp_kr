@@ -286,19 +286,19 @@
 			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] 최소한 중간 수준의 군사력을 가져야 합니다.  (근접도에 따라 조정됨) 약속을 하려면 당신의 군대가 {1_Num}% 더 강해야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PTP_ANY_CORRECT">
-			<Text>[ENDCOLOR][NEWLINE][NEWLINE]One of these attributes must have a [ICON_CHECKBOX] next to it:</Text>
+			<Text>[ENDCOLOR][NEWLINE][NEWLINE]다음 세 가지 [ICON_CHECKBOX] 조건 중 한 가지 이상이 충족되어야 합니다:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_ACHIEVED">
 			<Text>[SPACE][SPACE][ICON_CHECKBOX]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
-			<Text>[NEWLINE]   [ICON_BULLET] Allied with City-State.</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 동맹</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NOT_CLOSE_ENOUGH_TT">
-			<Text>[NEWLINE]   [ICON_BULLET] Can trade with City-State.</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가와 교역할 수 있어야함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NO_TRADE_TT">
-			<Text>[NEWLINE]   [ICON_BULLET] City-State connected via trade.</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] 도시 국가에 교역로를 연결한 상태</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_DISABLED_QUEST_INFLUENCE_YES_TT">
 			<Text>[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]에서 퀘스트 완료 [ICON_INFLUENCE] 영향력 제공을 거부했습니다. 입장을 바꾸어 퀘스트 완료로 인한 [ICON_INFLUENCE] 영향력을 보상으로 받을 수 있습니다.</Text>
@@ -337,13 +337,13 @@
 			<Text>[COLOR_POSITIVE_TEXT]대사관 건설 가능[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_TT">
-			<Text>You may spend {1_BuyoutCost} [ICON_GOLD] Gold to arrange a Diplomatic Marriage with this City-State. Doing so grants an increase of resting [ICON_INFLUENCE] Influence with the City-State of 75, scaling with Era, and +15% [ICON_GREAT_PEOPLE] Great Person rate in your [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE] This can be only be done once per City-State, and the [ICON_GOLD] Gold cost increases with each Diplomatic Marriage.</Text>
+			<Text>{1_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_TT">
-			<Text>You may spend {2_BuyoutCost} [ICON_GOLD] Gold to arrange a Diplomatic Marriage with this City-State. Doing so grants an increase of resting [ICON_INFLUENCE] Influence with the City-State of 75, scaling with Era, and +15% [ICON_GREAT_PEOPLE] Great Person rate in your [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE] This can be only be done once per City-State, and the [ICON_GOLD] Gold cost increases with each Diplomatic Marriage.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be allied for {1_NumTurns} turns and have {2_BuyoutCost} [ICON_GOLD] Gold to perform this action.[ENDCOLOR]</Text>
+			<Text>{2_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 정략 결혼에 필요한 {2_BuyoutCost} [ICON_GOLD]골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_ALLY_TT">
-			<Text>You may spend {3_BuyoutCost} [ICON_GOLD] Gold to arrange a Diplomatic Marriage with this City-State. Doing so grants an increase of resting [ICON_INFLUENCE] Influence with the City-State of 75, scaling with Era, and +15% [ICON_GREAT_PEOPLE] Great Person rate in your [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE] This can be only be done once per City-State, and the [ICON_GOLD] Gold cost increases with each Diplomatic Marriage.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be allied for {1_NumTurns} turns ({2_TurnsAllied} {2_TurnsAllied: plural 1?turn; other?turns;} so far) and have {3_BuyoutCost} [ICON_GOLD] Gold to perform this action.[ENDCOLOR]</Text>
+			<Text>{3_BuyoutCost} [ICON_GOLD]골드를 소비하여 이 도시 국가와의 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 (현재 {2_TurnsAllied}턴 동안 지속됨) 정략 결혼에 필요한 {3_BuyoutCost} [ICON_GOLD]골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT_ANNEX">
 			<Text>도시 국가 강제 합병</Text>
@@ -1292,19 +1292,19 @@
 			<Text>이 도시에서 [COLOR_POSITIVE_TEXT]공중 강하[ENDCOLOR]를 할 수 있습니다. 도시의 공중 유닛 한도가 증가합니다. 도시의 폭격 대항 [ICON_STRENGTH] 피해량이 +10 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_INDUSTRIAL_CONNECTED">
-			<Text>City has an [ICON_INDUSTRIAL_CONNECTED] Industrial City Connection with the [ICON_CAPITAL] Capital!</Text>
+			<Text>도시가 [ICON_CAPITAL] 수도와 [ICON_INDUSTRIAL_CONNECTED] 산업 도시 연결로 연결되었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICEHQ_TT">
-			<Text>[ICON_CAPITAL] Headquarters of [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] [ICON_CAPITAL] 본부</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICEHQ_TT2">
-			<Text>Capturing [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] will always result in the destruction of the Headquarters, closing all active Offices and Franchises but permits others to rebuild its Headquarters once more.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] 점령 시 본부가 파괴되어 모든 오피스와 프랜차이즈가 문을 닫지만, 본부는 다른 플레이어에 의해 다시 건설될 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_TT">
-			<Text>Office of [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] 오피스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_TT2">
-			<Text>A completed [ICON_INTERNATIONAL_TRADE] Trade Route from or to [COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR] will attempt to establish a [ICON_VP_FRANCHISE] [COLOR_POSITIVE_TEXT]Franchise[ENDCOLOR] in foreign cities.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Name}[ENDCOLOR]로 출발하거나 도착하는 [ICON_INTERNATIONAL_TRADE] 국제 교역로를 완료하면 외국 도시로 [ICON_VP_FRANCHISE] [COLOR_POSITIVE_TEXT]프랜차이즈[ENDCOLOR]를 설립할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_CULTURED_TT_ANNEXED">
 			<Text>정복된 [COLOR_POSITIVE_TEXT]문화적[ENDCOLOR] 도시 국가는 [ICON_CULTURE] 문화를 제공하여, 사회 정책을 더 빨리 채택할 수 있게 합니다.</Text>
@@ -1829,22 +1829,22 @@
 			<Text>차단하는 건물:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POLICY_NEEDED_LABEL">
-			<Text>Policies Required: [COLOR_MAGENTA]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+			<Text>필요한 정책 수: [COLOR_MAGENTA]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_NATIONAL_NEEDED_LABEL">
-			<Text>National Population Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+			<Text>필요한 전역 시민: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_LOCAL_NEEDED_LABEL">
-			<Text>Local Population Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+			<Text>필요한 지역 시민: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (현재 {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
-			<Text>[COLOR_POSITIVE_TEXT]Investing [ICON_GOLD] Gold in a Building reduces its [ICON_PRODUCTION] Production cost by {1_Num}%, or {2_Num}% if a Wonder.[ENDCOLOR]</Text>
+			<Text>[COLOR:105:105:105:255][ICON_GOLD]골드를 건물에 투자하면 해당 건물의 [ICON_PRODUCTION]생산 비용이 {1_Num}% 감소하고, 불가사의에 투자하면 해당 불가사의의 생산 비용이 {2_Num}% 감소합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_COST_INCREASE_METRIC">
-			<Text>Additional [ICON_PRODUCTION] Production cost due to owned World Wonders: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] Production cost increase metric:[NEWLINE][ICON_BULLET] Wonders from the same Era: [COLOR_POSITIVE_TEXT]25%.[ENDCOLOR][NEWLINE][ICON_BULLET] Wonders from the previous Era: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] Wonders from two Eras earlier: [COLOR_POSITIVE_TEXT]10%.[ENDCOLOR]</Text>
+			<Text>보유한 세계 불가사의로 인한 추가적인 [ICON_PRODUCTION]생산 비용: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][ICON_PRODUCTION] 다음에서 생산 비용 증가:[NEWLINE][ICON_BULLET] 같은 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]25%[ENDCOLOR][NEWLINE][ICON_BULLET] 이전 시대에 건설한 불가사의: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] 2시대 전에 건설한 불가사의: [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INVESTED">
-			<Text>[COLOR_POSITIVE_TEXT] (INVESTED) [ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT] (투자됨)[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Victory overview -->
