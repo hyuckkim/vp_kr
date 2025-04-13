@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS">
+			<Text>공공 사업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_HELP">
+			<Text>도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다. 도시의 모든 요구가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [ICON_SPY] 도시 보안이 5 증가합니다. [NEWLINE][NEWLINE]반복 가능한 프로젝트이지만 시대마다 [ICON_PRODUCTION]생산 비용이 [COLOR_NEGATIVE_TEXT]100[ICON_PRODUCTION][ENDCOLOR] 증가합니다. 프로젝트를 수행할 때마다 [ICON_PRODUCTION]생산 비용이 [COLOR_NEGATIVE_TEXT]100[ICON_PRODUCTION][ENDCOLOR] 증가하고 [ICON_GOLD]유지비가 [COLOR_NEGATIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_PEDIA">
+			<Text>공공 사업은 정부가 공동체의 오락, 고용, 보건 및 안전을 위해 기반 시설에 투자하는 것을 말합니다. 공공 사업에는 공공건물 (시립 건물, 학교, 병원), 교통시설 (도로, 철도, 다리, 지하철, 운하, 항구, 공항), 공원시설 (광장, 공원, 해변), 공공 서비스 (상하수도, 전력망, 댐) 및 기타 시설들이 포함됩니다. 공익사업으로 종종 대치할 수 있지만 공공 사업이 항상 사회간접자본에 대한 투자이지는 않아 공공 사업이 지칭하는 범위가 더 넓습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_STRATEGY">
+			<Text>만성적인 요구 [ICON_HAPPINESS_3]불행에 시달리고 있다면 이 프로젝트를 완료하여 불행을 조절할 수 있습니다. 하지만 프로젝트를 완료할 때마다 프로젝트의 비용이 증가하고 추가 유지비가 필요합니다. 공공 사업은 요구 불행을 다룰 때의 최후의 해결책으로 사용하십시오.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
+			<Text>적 유닛을 처치할 때 ([ICON_STRENGTH] 전투력의 200%) 타일 시설을 약탈할 때 (20, [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]) [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_GOLDEN_AGE]황금기 점수를 제공합니다. 연회장의 [ICON_GREAT_GENERAL] 위대한 장군 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
+			<Text>모리안, 투쟁의 인도자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA">
+			<Text>모든 도시의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 국경이 확장될 때 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_FOOD]식량을 [COLOR_POSITIVE_TEXT]8[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 연회장의 [ICON_CULTURE_LOCAL]국경 확장 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
+			<Text>에포나, 위대한 암말</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA">
+			<Text>"국왕 경축일"이 열리는 동안 [ICON_RESEARCH]과학 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 제국 전역의 모든 고유 사치 자원 및 사용중인 [ICON_INTERNATIONAL_TRADE]교역로마다 [ICON_GOLD]골드, [ICON_RESEARCH]과학, [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
+			<Text>누아다, 은색 팔의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
+			<Text>숲 타일의 [ICON_GOLD] 골드 및 [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 정글 타일의 [ICON_PRODUCTION] 생산 및 [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 야영지 및 재배지의 [ICON_CULTURE] 문화 및 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
+			<Text>케르눈노스, 뿔난 사슴의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH">
+			<Text>모든 전문가의 [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_FOOD] 식량, [ICON_GOLD] 골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_WONDER] 불가사의를 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공하고, 불가사의의 [ICON_CULTURE] 문화와 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 연회장의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]3 [ENDCOLOR]증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
+			<Text>루, 만능의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
+			<Text>모든 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2 [ENDCOLOR]증가합니다. [COLOR_POSITIVE_TEXT]개발된[ENDCOLOR] 자원 타일의 [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1 [ENDCOLOR]증가합니다. 연회장의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
+			<Text>리아논, 군주의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
+			<Text>해안 도시의 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 해양 타일의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 어선의 [ICON_GOLD] 골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_GREAT_ADMIRAL] 위대한 제독 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
+			<Text>마나난, 바다의 아들</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA">
+			<Text>[ICON_CITIZEN] 시민 4명마다 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK] 걸작에서 오는 [ICON_CULTURE] 문화와 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CAPITAL] 수도의 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_GREAT_SCIENTIST] 위대한 과학자 점수 및 [ICON_GREAT_ARTIST] 위대한 예술가 점수가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 연회장의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
+			<Text>오그마, 깨달은 자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA">
+			<Text>도시의 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_CITIZEN]시민이 탄생할 때 [ICON_CULTURE]문화, [ICON_PRODUCTION] 생산 및 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]12[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시의 [ICON_HAPPINESS_1] 행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
+			<Text>다그다, 만물의 아버지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN">
+			<Text>소유한 도시에서 이 교리를 따르는 신도 4명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 유닛이 아군 영토 내에서 회복시 체력을 추가로 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 더 회복하며 도시의 [ICON_RANGE_STRENGTH]원거리 전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 연회장의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
+			<Text>브란, 잠자는 수호자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CAILLEACH">
+			<Text>작업 중인 툰드라 타일 두 개마다 [ICON_FOOD] 식량 및 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 자원이 있는 설원 타일의 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 채석장 및 광산 자원의 [ICON_GOLD] 골드와 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 연회장의 [ICON_TOURISM] 관광이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CAILLEACH_SHORT">
+			<Text>카이아흐, 겨울의 여신</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA">
+			<Text>[ICON_PEACE] 신앙으로 구르드와라를 구매할 수 있습니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA_SHORT">
+			<Text>구루드와라</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_TEOCALLI">
+			<Text>[ICON_PEACE] 신앙으로 테오칼리를 구매할 수 있습니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TEOCALLI_SHORT">
+			<Text>테오칼리</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM">
+			<Text>국내 교역로의 [ICON_FOOD] 식량 또는 [ICON_PRODUCTION] 생산 산출이 +3 증가합니다.[COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 도시에 전문가가 있다면 [ICON_PRODUCTION] 생산을 +2 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM_SHORT">
+			<Text>협력</Text>
+		</Row>
+
+		<!-- Tooltips -->
+		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP">
+			<Text>+2 [ICON_PEACE] 신앙[NEWLINE]+2 [ICON_GOLD] 골드[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CATHEDRAL_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHURCH_TOOLTIP">
+			<Text>+4 [ICON_PEACE] 신앙[NEWLINE]+2 [ICON_CULTURE] 문화[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CHURCH_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_TOOLTIP">
+			<Text>+2 [ICON_PEACE] 신앙[NEWLINE]+3 [ICON_FOOD] 식량[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GURDWARA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANDIR_TOOLTIP">
+			<Text>+3 [ICON_PEACE] 신앙[NEWLINE]+2 [ICON_FOOD] 식량[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MANDIR_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOSQUE_TOOLTIP">
+			<Text>+3 [ICON_PEACE] 신앙[NEWLINE]+2 [ICON_RESEARCH] 과학[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MOSQUE_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ORDER_TOOLTIP">
+			<Text>+2 [ICON_PEACE] 신앙[NEWLINE]+3 [ICON_GOLD] 골드[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_ORDER_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PAGODA_TOOLTIP">
+			<Text>+2 [ICON_PEACE] 신앙[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_PAGODA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_TOOLTIP">
+			<Text>+3 [ICON_PEACE] 신앙[NEWLINE]+3 [ICON_GOLDEN_AGE] 황금기 점수[NEWLINE]+5 [ICON_TOURISM] 관광[NEWLINE]+1 [ICON_HAPPINESS_1] 행복[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_STUPA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TOOLTIP">
+			<Text>+2 [ICON_PEACE] 신앙[NEWLINE]+3 [ICON_PRODUCTION] 생산[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_SYNAGOGUE_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
+			<Text>+2 [ICON_PEACE] 신앙[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_TEOCALLI_HELP}</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

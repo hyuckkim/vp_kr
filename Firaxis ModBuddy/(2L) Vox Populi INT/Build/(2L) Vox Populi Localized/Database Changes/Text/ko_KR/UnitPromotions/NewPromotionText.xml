@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<!-- Air Repair -->
+		<Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR_HELP">
+			<Text>행동 여부에 상관없이 매 턴 체력 회복</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AIR_LOGISTICS">
+			<Text>병참 지원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_LOGISTICS_HELP">
+			<Text>[ICON_WAR] 공격 횟수 +1</Text>
+		</Row>
+
+		<!-- Tank Hunter -->
+		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_1_HELP">
+			<Text>기갑 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT] +50%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_2_HELP">
+			<Text>기갑 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT] +50%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Air Penetration -->
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_I_HELP">
+			<Text>공중 요격 회피 확률 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_II_HELP">
+			<Text>공중 요격 회피 확률 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Interceptor -->
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_I_HELP">
+			<Text>적 공중 유닛 요격 확률 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_II_HELP">
+			<Text>적 공중 유닛 요격 확률 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_III_HELP">
+			<Text>적 공중 유닛 요격 확률 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_IV_HELP">
+			<Text>적 공중 유닛 요격 확률 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Air Supremacy -->
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP">
+			<Text>공중 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II_HELP">
+			<Text>공중 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Eagle Hunter -->
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER_HELP">
+			<Text>전투기 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Can See Submarine -->
+		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_SUBMARINE_HELP">
+			<Text>[ICON_VP_VISION] 시야 범위 내에서 보이지 않는 잠수함을 [COLOR_POSITIVE_TEXT]드러냄[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Anti-Tank Rounds -->
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_TANK_HELP">
+			<Text>기갑 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Moves at half-speed in enemy territory -->
+		<Row Tag="TXT_KEY_PROMOTION_MUST_SET_UP_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]적 영토에서 [ENDCOLOR] [ICON_MOVES] 이동력 절반</Text>
+		</Row>
+
+		<!-- May Paradrop -->
+		<Row Tag="TXT_KEY_PROMOTION_PARADROP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]아군 영토 내에서[ENDCOLOR] 9타일 이내에 [COLOR_POSITIVE_TEXT]공중 강하[ENDCOLOR] 가능</Text>
+		</Row>
+
+		<!-- Depth Charges -->
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I_HELP">
+			<Text>잠수함 유닛 공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+33%[ENDCOLOR][NEWLINE]잠수함 유닛 방어 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II_HELP">
+			<Text>잠수함 유닛 공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+66%[ENDCOLOR][NEWLINE]잠수함 유닛 방어 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Cargo -->
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_I_HELP">
+			<Text>화물 슬롯 +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_II_HELP">
+			<Text>화물 슬롯 +2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_III_HELP">
+			<Text>화물 슬롯 +3</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_IV_HELP">
+			<Text>화물 슬롯 +4</Text>
+		</Row>
+
+		<!-- Silent Hunter -->
+		<Row Tag="TXT_KEY_PROMOTION_SILENT_HUNTER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해군[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 보너스 +50%</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY">
+			<Text>큰 도시 공격 페널티</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력 [COLOR_NEGATIVE_TEXT]-75%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Bonus vs Helicopters (150) -->
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_HELICOPTER_HELP">
+			<Text>헬리콥터 유닛 대항 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+150%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Open Terrain Bonus (30) -->
+		<Row Tag="TXT_KEY_PROMOTION_OPEN_TERRAIN_HELP">
+			<Text>평지에서 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Tenacity -->
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+25[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Faster Healing -->
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_HEAL_HELP">
+			<Text>체력 회복 시 추가 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_1">
+			<Text>공성 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_1_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_2">
+			<Text>공성 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_2_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_3">
+			<Text>공성 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_3_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_1">
+			<Text>야전 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_1_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]평지에서 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_2">
+			<Text>야전 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_2_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]평지에서 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_3">
+			<Text>야전 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_3_HELP">
+			<Text>[ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]평지에서 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_1">
+			<Text>개척 I</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_1_HELP">
+			<Text>[ICON_VP_VISION]시야 및 승선 시 시야 +1[NEWLINE]숲, 정글 및 언덕에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]패널티 무시[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_2">
+			<Text>개척 II</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_2_HELP">
+			<Text>[ICON_MOVES]이동력 및 승선 시 이동력 +1[NEWLINE]사막, 설원 및 습지에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]패널티 무시[ENDCOLOR][NEWLINE]강을 건널 시 [ICON_MOVES] 이동력 및 전투력 패널티 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_3">
+			<Text>개척 III</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_3_HELP">
+			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]승선 가능, 산 타일에서 이동 가능, 적 도로 이용 가능. [NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_ARTILLERY">
+			<Text>해안 포병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_ARTILLERY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해상 근접[ENDCOLOR], [COLOR_POSITIVE_TEXT]해상 원거리[ENDCOLOR], [COLOR_POSITIVE_TEXT]항공모함[ENDCOLOR] 유닛과 전투 시 [ICON_STRENGTH] 전투력 +50%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_1">
+			<Text>광역 피해 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_1_HELP">
+			<Text>목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_2">
+			<Text>광역 피해 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_2_HELP">
+			<Text>목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_1">
+			<Text>조종사 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_1_HELP">
+			<Text>[ICON_MOVES]이동력 및 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_2">
+			<Text>조종사 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_2_HELP">
+			<Text>[ICON_MOVES]이동력 및 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_1">
+			<Text>공중 방어 I</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_1_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]공습 방어 시 적 공중 유닛에 피해 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]비행[ENDCOLOR] 연구 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_2">
+			<Text>공중 방어 II</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_2_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]공습 방어 시 적 공중 유닛에 피해 [COLOR_POSITIVE_TEXT]+20[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_3">
+			<Text>공중 방어 III</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_3_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]공습 방어 시 적 공중 유닛에 피해 [COLOR_POSITIVE_TEXT]+25[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE_2">
+			<Text>돌격 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE_2_HELP">
+			<Text>평지에서 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
+			<Text>공중 목표 설정 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
+			<Text>해상 및 지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4">
+			<Text>초과</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4_HELP">
+			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]적 유닛 처치 후 진격 시 새로 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_4">
+			<Text>충실</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_4_HELP">
+			<Text>방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+35%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4">
+			<Text>사격 교리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4_HELP">
+			<Text>체력 [COLOR_POSITIVE_TEXT]50% 초과[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4">
+			<Text>침투</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4_HELP">
+			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]부상 유닛 공격 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]우호 유닛이 인접하지 않을 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4">
+			<Text>굳건함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4_HELP">
+			<Text>방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]근접 해상 유닛이 부여하는 [COLOR_PLAYER_PURPLE]승선 I - II[ENDCOLOR] 효과에 면역</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4">
+			<Text>집중 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4_HELP">
+			<Text>도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+40%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4">
+			<Text>봉쇄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]가능하다면 각 턴의 첫 근접 공격을 피해 후퇴</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
+			<Text>펜치</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4_HELP">
+			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION">
+			<Text>불굴의 정신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION_HELP">
+			<Text>모든 요인에 의한 피해 [COLOR_POSITIVE_TEXT]-5[ENDCOLOR][NEWLINE]체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS">
+			<Text>강요</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS_HELP">
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음 및 약탈 시 체력 완전 회복</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PIRACY">
+			<Text>사략</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PIRACY_HELP">
+			<Text>처치한 적 유닛 [ICON_STRENGTH]전투력의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드 제공[NEWLINE]도시에 주는 피해의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드를 약탈[NEWLINE][COLOR:105:105:105:255](한도: 도시[ICON_STRENGTH]전투력의 10배)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY">
+			<Text>파르티안 전술</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER">
+			<Text>최후의 일격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER_HELP">
+			<Text>체력 [COLOR_POSITIVE_TEXT]50% 이하[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT">
+			<Text>유산탄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_TERROR">
+			<Text>선봉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_TERROR_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+125%[ENDCOLOR][NEWLINE]도시로부터 받는 피해 [COLOR_POSITIVE_TEXT]-50%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SIEGE">
+			<Text>해상 공성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SIEGE_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+75%[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BREACHER">
+			<Text>위반</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BREACHER_HELP">
+			<Text>방어 시 인접한 아군 유닛마다 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]이 유닛이 처치한 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]15[ENDCOLOR][NEWLINE]This Damage ignores damage reduction, but does not affect Units in [COLOR_NEGATIVE_TEXT]Cities[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Fortification[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT">
+			<Text>포위</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT_HELP">
+			<Text>공격 시 인접한 아군 유닛마다 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MINELAYER">
+			<Text>기뢰정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MINELAYER_HELP">
+			<Text>원거리 공격 방어 시 [ICON_STRENGTH]전투력 [COLOR_NEGATIVE_TEXT]-10%[ENDCOLOR][NEWLINE]이 유닛과 인접해서 턴을 시작한 적 해상 유닛의 이동력 [COLOR_POSITIVE_TEXT]-2[ENDCOLOR][NEWLINE][NEWLINE] [COLOR_CYAN]연소[ENDCOLOR] 연구 필요</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO">
+			<Text>공중 어뢰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]헤싱 유닛[ENDCOLOR] 대항 시 [ICON_STRENGTH] 전투력 +33%.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK">
+			<Text>폭탄 현수가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR] 대항 시 [ICON_STRENGTH] 전투력 +33%.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FROGMAN">
+			<Text>잠수부</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FROGMAN_HELP">
+			<Text>해양에서 공격 시 전투력 패널티 없음[COLOR_POSITIVE_TEXT]승선[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]하선[ENDCOLOR]이 [ICON_MOVES] 이동력을 1만 소모합니다.[NEWLINE]승선 중 방어 시 [ICON_STRENGTH]전투력 +50%</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING">
+			<Text>선별</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR]가 10% 증가합니다.[NEWLINE]측면 공격 시 2기로 취급</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT">
+			<Text>포위</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공격할 때[ENDCOLOR] 측면 공격으로 인한 이득을 얻습니다.[NEWLINE][COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR] +10%.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_HUNTER_KILLER">
+			<Text>헌터 킬러</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HUNTER_KILLER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]잠수함 유닛[ENDCOLOR]과 전투 시 [ICON_STRENGTH] 전투력 보너스 +50%[NEWLINE][ICON_VP_VISION] 시야 범위 내에서 보이지 않는 잠수함을 [COLOR_POSITIVE_TEXT]드러냄[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_TRUE_WOLFPACK">
+			<Text>군랑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TRUE_WOLFPACK_HELP">
+			<Text>공격 시 [COLOR_POSITIVE_TEXT]인접한 잠수함마다 [ENDCOLOR] [ICON_STRENGTH] 전투력 보너스 +30%</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PREDATOR">
+			<Text>프레데터</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PREDATOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]적 처치[ENDCOLOR] 시 생명력 15 회복[NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PERISCOPE_DEPTH">
+			<Text>깊은 잠망경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PERISCOPE_DEPTH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]원거리 공격 방어 시[ENDCOLOR] [ICON_STRENGTH] 전투력 +40%[NEWLINE]매 턴 한 번 근접 공격 회피 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR">
+			<Text>초원의 유목민</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR_HELP">
+			<Text>[ICON_WAR] 공격 횟수 +1</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
+			<Text>전-진!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COERCION">
+			<Text>흘린 피로써</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
+			<Text>패배한 적 지상 유닛이 아군으로 합류함[NEWLINE]합류한 유닛은 [COLOR_POSITIVE_TEXT]보급 한도를 차지하지 않고[ENDCOLOR] 25%의 체력과 경험치 0으로 시작하며 즉시 이동할 수 있습니다. (단 공격은 불가)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_VIKING">
+			<Text>바이킹 (지상)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 약탈 시 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 피해</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
+			<Text>바이킹 (해상)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
+			<Text>약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 약탈 시 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 피해</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER">
+			<Text>빠른 노동자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER_HELP">
+			<Text>[ICON_MOVES] 이동력 +1</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL">
+			<Text>유지력</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL_HELP">
+			<Text>적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
+			<Text>징병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS_HELP">
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER">
+			<Text>제국주의</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER_HELP">
+			<Text>[ICON_VP_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL">
+			<Text>빠른 장군</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP">
+			<Text>연대 전통</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP_HELP">
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]효과 범위 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
+			<Text>반자이!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST_HELP">
+			<Text>최대 체력에서 감소한 체력 3마다 
+			[ICON_STRENGTH] 전투력 보너스 +1%[NEWLINE][ICON_POSITIVE_TEXT]승선[ENDCOLOR] 시 전투력 패널티 삭제.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN">
+			<Text>전격전 (화약)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR">
+			<Text>전격전 (기갑)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM">
+			<Text>마레 노스트룸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 보너스 +25%.[NEWLINE][COLOR_POSITIVE_TEXT]아군 영토[ENDCOLOR]에서 회복 시 체력 +5</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS">
+			<Text>엔지니어링</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS_HELP">
+			<Text>산 및 빙하 타일로 이동 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION">
+			<Text>낙진 저항</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION_HELP">
+			<Text>방사능 낙진 피해 [COLOR_POSITIVE_TEXT]-10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_IMMUNITY">
+			<Text>낙진 면역</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_IMMUNITY_HELP">
+			<Text>방사능 낙진 피해 무시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS">
+			<Text>신성한 걸음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH">
+			<Text>영원한 젊음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
+			<Text>체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SIGNET">
+			<Text>국왕 인장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIGNET_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_EXPRESS">
+			<Text>통신 서비스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXPRESS_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_LITERACY">
+			<Text>문자 해독</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LITERACY_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE]지형 이동 비용 무시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_IMMUNITY">
+			<Text>면책 특권</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMMUNITY_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR][NEWLINE]국경 개방 협정 없이 상대 영토 진입 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PAX">
+			<Text>황실 봉인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PAX_HELP">
+			<Text>도시 국가와의 외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NOBILITY">
+			<Text>귀족</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NOBILITY_HELP">
+			<Text>도시 국가와의 외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR][NEWLINE]국경 개방 협정 없이 상대 영토 진입 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA">
+			<Text>히네테</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]가능하다면 각 턴 첫 근접 공격 후퇴</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_IKLWA">
+			<Text>이클와</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IKLWA_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
+			<Text>무사도</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
+			<Text>첫 전투를 완료하면 기존 승급이 다음 승급 중 무작위 승급으로 교체됩니다:
+			[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BUSHIDO_HONOR}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ARSENALE">
+			<Text>베네치아 공작술</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARSENALE_HELP">
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET">
+			<Text>보물 선단</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
+			<Text>시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE]공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS">
+			<Text>무차별 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS_HELP">
+			<Text>야만인 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_0">
+			<Text>규율</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_0_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]원거리 유닛[ENDCOLOR] 상대 시 [ICON_STRENGTH] 전투력 +10%.[NEWLINE] 체력 +10.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_1">
+			<Text>진지 공사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_1_HELP">
+			<Text>원거리 공격 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_2">
+			<Text>참호</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_2_HELP">
+			<Text>원거리 공격 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+20[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3">
+			<Text>방어 훈련</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3_HELP">
+			<Text>원거리 공격 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+25[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE">
+			<Text>해상 목표 페널티</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE_HELP">
+			<Text>해상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-20%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_1">
+			<Text>엄호 사격 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_1_HELP">
+			<Text>요새화한 유닛, 도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR][NEWLINE]기갑 유닛 대항 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR][NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]2타일 이내의 적 지상 유닛의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_2">
+			<Text>엄호 사격 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_2_HELP">
+			<Text>요새화한 유닛 및 도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]2타일 이내의 적 지상 유닛의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MECH">
+			<Text>거대함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MECH_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]체력 [COLOR_POSITIVE_TEXT]+100[ENDCOLOR][NEWLINE]근접 전투 돌입 전 50%의 [ICON_STRENGTH] 전투력으로 추가 [COLOR_POSITIVE_TEXT]원거리 공격[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN">
+			<Text>빔 액슬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN_HELP">
+			<Text>[ICON_NEGATIVE_TEXT]숲[ENDCOLOR], [ICON_NEGATIVE_TEXT]정글[ENDCOLOR], [ICON_NEGATIVE_TEXT]습지[ENDCOLOR], [ICON_NEGATIVE_TEXT]언덕[ENDCOLOR]으로 이동 시 [ICON_MOVES] 이동력 소모 +1 (중복되지 않음)[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE">
+			<Text>기마병 교리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE_HELP">
+			<Text>측면 공격 시 2기로 취급[ENDCOLOR][NEWLINE]원거리 유닛 방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY">
+			<Text>공성 부정확성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
+			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-33%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE">
+			<Text>답사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE_HELP">
+			<Text>지도 탐색 시 경험치 획득 [NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_ANTIQUITY_LEGEND_GOODY_HUT}[ENDCOLOR] 획득 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
+			<Text>해양 탐험가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING_HELP">
+			<Text>천문학 연구 전에도 대양 탐험 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE">
+			<Text>스캐빈저</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE_HELP">
+			<Text>타일 약탈 시 경험치 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO">
+			<Text>특공대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_HELP">
+			<Text>이 유닛 뒤에 빈 타일이 있을 시 매 턴 1번 회피 가능[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
+			<Text>해상 부정확성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY_HELP">
+			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_HALF_MOVES">
+			<Text>얕은 초안</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_HALF_MOVES_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]대양 타일[ENDCOLOR]에서 [ICON_MOVES] 이동력 절반</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AIR_MISFIRE">
+			<Text>회피 기동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_MISFIRE_HELP">
+			<Text>도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE]지상 및 해상 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_RECON_RANGE_1">
+			<Text>공중 정찰력 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_RANGE_1_HELP">
+			<Text>항공 정찰 범위 +1</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_RECON_RANGE_2">
+			<Text>공중 정찰력 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_RANGE_2_HELP">
+			<Text>항공 정찰 범위 +2</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_STEALTH">
+			<Text>스텔스</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STEALTH_HELP">
+			<Text>공중 요격 회피 확률 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]공습[ENDCOLOR] 중 받는 피해 -25%[NEWLINE]체력 [COLOR_POSITIVE_TEXT]+50[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_EMISSARY">
+			<Text>개시</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EMISSARY_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]40[ENDCOLOR] 제공</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ENVOY">
+			<Text>능숙</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVOY_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] 제공[NEWLINE]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DIPLOMAT">
+			<Text>프로페셔널</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DIPLOMAT_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]60[ENDCOLOR] 제공[NEWLINE]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AMBASSADOR">
+			<Text>전권 대사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBASSADOR_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]70[ENDCOLOR] 제공</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST">
+			<Text>군사 전통</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST_HELP">
+			<Text>능력 활용 시 영구적으로 군사 유닛 보급 한도 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT">
+			<Text>마스터 외교</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT_HELP">
+			<Text>외교 임무 수행 시 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] 제공[NEWLINE]해당 도시 국가에 대한 다른 문명의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]같은 양[ENDCOLOR]만큼 감소[NEWLINE]시대가 끝날 때마다 [ICON_INFLUENCE]영향력 증가[NEWLINE]국경 개방 협정 없이 상대 영토 진입 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO">
+			<Text>미사일 격납고</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO_HELP">
+			<Text>핵무기로 파괴 불가</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG">
+			<Text>우수한 측면 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG_HELP">
+			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT">
+			<Text>파라오의 선물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT_HELP">
+			<Text>유닛 처치 시 [ICON_STRENGTH] 전투력의 150%만큼 유닛을 생산한 도시에 [ICON_PRODUCTION]생산을 제공</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_RAIDER">
+			<Text>침입자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RAIDER_HELP">
+			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]도시에 주는 피해의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]만큼 [ICON_GOLD]골드를 약탈[NEWLINE][COLOR:105:105:105:255](한도: 도시[ICON_STRENGTH]전투력의 10배)[ENDCOLOR][NEWLINE]적 도로 이용 가능</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES">
+			<Text>기수</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES_HELP">
+			<Text>지도 탐색 시 가장 가까운 도시에 [ICON_GOLD]골드 [ICON_CULTURE]문화 [ICON_RESEARCH]과학 제공</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ASSIZE_OF_ARMS">
+			<Text>무기의 크기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ASSIZE_OF_ARMS_HELP">
+			<Text> [COLOR_POSITIVE_TEXT]기갑 유닛[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]기마 유닛[ENDCOLOR] 상대 시 [ICON_STRENGTH] 전투력 +20%.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE">
+			<Text>때려라!</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE_HELP">
+			<Text>부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR].[NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+50[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_CAVALRY">
+			<Text>정찰 기병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_CAVALRY_HELP">
+			<Text>[ICON_STRENGTH] 전투력 보너스 -20%[NEWLINE]시야 +1, 약탈에 [ICON_MOVES] 이동력 소모 없음.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE">
+			<Text>화력 집중</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE_HELP">
+			<Text>이 턴 동안 도시 또는 유닛에 공격을 가한 횟수 1회마다 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT">
+			<Text>파심바</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_HELP">
+			<Text>화약 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS">
+			<Text>약화 사격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS_HELP">
+			<Text>후퇴 불가 시 평소보다 피해 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL">
+			<Text>척탄병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL_HELP">
+			<Text>적 유닛 처치 후 진격 시 새로 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]15[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와  [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY">
+			<Text>투창</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY_HELP">
+			<Text>요새화할 경우 매 턴 시작마다 인접한 적 유닛에 피해 [COLOR_POSITIVE_TEXT]10[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와  [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER">
+			<Text>도펠죌트너</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER_HELP">
+			<Text>최대 체력인 적을 상대로 전투력 +30%[ICON_STRENGTH]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SLINGER">
+			<Text>손상 타격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SLINGER_HELP">
+			<Text>원거리 공격 시 다른 지상 유닛에 5턴 동안 [COLOR_PLAYER_PURPLE]멍함[ENDCOLOR] 효과를 부여해 전투력 15% 감소[NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_REPEATER">
+			<Text>공성 일제 사격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_REPEATER_HELP">
+			<Text>도시 안/도시와 인접한 타일 공격시 [ICON_STRENGTH]원거리 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와  [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP">
+			<Text>육중한 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP_HELP">
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]도시 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MANY_GOLDEN_AGE_POINTS">
+			<Text>국가의 긍지</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MANY_GOLDEN_AGE_POINTS_HELP">
+			<Text>적 유닛 처치 시 [ICON_GOLDEN_AGE]황금기 점수 제공</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS">
+			<Text>정도</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]체력이 50% 이하인 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
+			<Text>용기</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
+			<Text>자애</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]체력 회복 시 인접한 타일의 유닛 체력 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
+			<Text>존경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]체력이 50% 이상인 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
+			<Text>진심</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]전투 경험치 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR">
+			<Text>명예</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스[COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
+			<Text>충성심</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]우호 영토 내 전투 시 [ICON_STRENGTH]전투력 보너스[COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
+			<Text>자제력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1">
+			<Text>승선함 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1_HELP">
+			<Text>1턴동안 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]-2[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_2">
+			<Text>승선함 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_2_HELP">
+			<Text>1턴동안 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]-4[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DAZED">
+			<Text>멍함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAZED_HELP">
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-15%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR">
+			<Text>전쟁 포로</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR_HELP">
+			<Text>50턴 동안 시설 및 도로 건설 속도 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 느려짐</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MORALE_EVENT">
+			<Text>열의</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
+			<Text>습지 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER_HELP">
+			<Text>습지 및 범람윈에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER">
+			<Text>설원 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER_HELP">
+			<Text>설원에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER">
+			<Text>숲/정글 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER_HELP">
+			<Text>숲 및 정글에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER">
+			<Text>사막 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER_HELP">
+			<Text>사막에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
+			<Text>언덕 보행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER_HELP">
+			<Text>언덕에서 [ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT">
+			<Text>징집</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT_HELP">
+			<Text>[ICON_WAR]유닛 보급 한도를 차지하지 않음[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT">
+			<Text>절대적인 힘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT_HELP">
+			<Text>체력 +25.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

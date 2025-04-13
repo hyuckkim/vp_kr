@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
+			<Text>혹독한 처사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]혹독한 처사[ENDCOLOR]: 종속국이 다른 문명, 세계 의회에 의해 해방될 수 없고, 항복한 종속국은 반란을 일으킬 수 없습니다. [ICON_CITY_STATE]도시 국가에서 오는 산출량이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 종속국의 공물이 그들의 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]만큼, 추가 [ICON_HAPPINESS_1] 행복만큼 더 증가합니다. 노동자의 타일 시설 건설 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 빨라집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_A">
+			<Text>철권통치는 일반적으로 직장에서 다른 사람들을 관리할 때 절대적인 통제력을 요구하는 것을 의미합니다. 이 속담은 또한 육아나 정부의 스타일과 같은 상황을 가리킬 수 있습니다. 이 관용구는 종종 결정에 대한 선택이나 입력의 자유를 부하에게 거의 주지 않는 관리자, 부모 또는 리더의 행동과 관행을 묘사하기 위해 사용됩니다. 철권통치를 하는 이유는 미숙한 노동자나 제멋대로인 아이들과 같은 개인의 상황에 따라 달라질 수 있습니다. 토털 컨트롤을 사용하는 효과도 관리 스타일의 범위와 상황에 따라 달라질 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
+			<Text>국민 의료보험</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR]: 모든 도시에 [COLOR_YELLOW]병원[ENDCOLOR]을 무료로 제공합니다. [ICON_CITIZEN]시민이 증가할 때 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
+			<Text>평화, 대지, 빵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]평화, 대지, 빵[ENDCOLOR]: 모든 도시의 [ICON_GOLD] 빈곤 [ICON_HAPPINESS_3] 불행이 -2 감소하고 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 건물 유지비가 20% 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_O">
+			<Text>소련혁명 초기 레닌 등이 유행시킨 '평화, 대지, 빵'이라는 문구는 빈곤한 러시아 농민들의 필요에 초점을 맞추려는 그들의 열망을 부각시켰습니다. 1910-20년대의 볼셰비키 초기 법령은 볼셰비키가 10월 혁명(1917년 10월 26일)에서 성공을 선언하자마자 발표되었습니다. 이 법령은 노동자와 군대의 봉기인 7월 며칠 동안 대중이 점령한 인기 있는 볼셰비키 슬로건 "평화, 대지, 빵"에 부합했습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION">
+			<Text>국유화</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]국유화[ENDCOLOR]: 각 [ICON_VP_OFFICE] 기업 오피스가 프랜차이즈로 간주되고 프랜차이즈를 설립한 도시의 기업 [ICON_INTERNATIONAL_TRADE]교역로 보너스가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 다른 문명의 [ICON_VP_FRANCHISE]프랜차이즈가 더이상 당신 문명의 회사에 혜택을 제공하지 않습니다. 당신의 문명은 더이상 다른 문명 (종속국 제외)에 프랜차이즈를 설립할 수 없고 다른 문명(종주국 제외)의 기업 또한 당신의 도시에 프랜차이즈를 설립할 수 없습니다. 모든 기업 오피스의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_TEXT">
+			<Text>국유화는 국가 정부나 국가가 사유 산업이나 사유 자산을 공공 소유로 하는 과정이다. 국유화는 보통 민간 자산을 의미하지만, 지방 자치 단체와 같은 낮은 수준의 정부가 소유한 자산이 국가로 이전되는 것을 의미할 수도 있다. 국유화의 반대는 보통 민영화 또는 탈국유화이지만, 지방자치화일 수도 있다. 보통 국유화의 대상이 되는 산업으로는 교통, 통신, 에너지, 은행, 천연자원이 있다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION">
+			<Text>다국적주의</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]다국적주의[ENDCOLOR]: 매 턴 다른 문명의 도시에 기업 [ICON_VP_FRANCHISE]프랜차이즈가 나타날 확률이 [COLOR_NEGATIVE_TEXT]5%[ENDCOLOR]에서 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]로 증가합니다. 모든 소도시가 프랜차이즈로 간주됩니다. 글로벌 프랜차이즈 한도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 모든 기업  [ICON_VP_OFFICE]오피스의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_TEXT">
+			<Text>경제적 과정으로서의 초국가주의는 일반적으로 비용을 최소화할 목적으로 다양한 국가에서 생산의 다양한 단계가 발생할 수 있는 생산 과정의 세계적인 재편성을 수반한다. 일반적으로 세계화로 알려진 경제적 초국가주의는 컨테이너화로 인한 세계 운송 비용의 감소뿐만 아니라 인터넷과 무선 통신의 발달에 의해 20세기 후반에 촉진되었다. 다국적 기업은 정치적 경계에 관계없이 가능한 한 효율적인 방법으로 사업을 조직함으로써 비용을 최소화하고, 따라서 이익을 극대화하는 것을 추구한다는 점에서 초국가주의의 한 형태로 보일 수 있다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_INFILTRATION">
+			<Text>신디칼리즘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_INFILTRATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]신디칼리즘[ENDCOLOR]: 당신의 문명이 최소 [COLOR_POSITIVE_TEXT]유명한[ENDCOLOR] 도시에서는 기업 [ICON_VP_FRANCHISE]프랜차이즈가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 계산되고, 이러한 추가 프랜차이즈는 글로벌 프랜차이즈 한도에 포함되지 않습니다. 다른 문명에 추가 프랜차이즈를 [COLOR_POSITIVE_TEXT]5개[ENDCOLOR] 더 건설할 수 있습니다. 모든 기업 [ICON_VP_OFFICE]오피스의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_INFILTRATION_TEXT">
+			<Text>국가 신디칼리즘은 통합적 민족주의의 사회적 의제에 적합하도록 신디칼리즘을 각색한 것이다. 국가 신디칼리즘은 신디칼리즘 부문을 대규모 경제노동자운동으로 발전시킴으로써 국민이 스스로를 방어해야 함을 시사한다. 그들은 자본가를 수용하기 위해 즉각적인 조치를 취해야 한다. 이들은 또한 노동자들이 생산을 주도하고 사람들의 공동체를 형성하기 위한 직접적인 행동을 취해야 한다. 국가신디칼리즘은 직접적인 경제행동에 대한 원론적 이유를 찾고 대표자들의 의회행동을 비난한다. 목표는 자본주의를 견딜 수 있게 만드는 것이 아니라 자유 민족주의와 사회주의 국가를 실현하는 것이다. 국가 신디칼리즘은 정치적 지형에서 경제적 지형으로 관심을 옮기는 것을 목표로 한다. 그것은 생산과 소비 통계의 기초에 관한 지역 단위로부터의 분배 시스템인 기초로부터 사회화를 원한다. 또한 국가 산업 연맹에 의한 생산 조직도 포함된다.</Text>
+		</Row>
+
+		<!-- Dummy policies -->
+		<Row Tag="TXT_KEY_POLICY_FIRST_ON_MOON">
+			<Text>달 착륙 개시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MANHATTAN_PROJECT">
+			<Text>원자폭탄</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

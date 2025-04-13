@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_BUILD_FARM_HELP">
+			<Text>인접한 농장 2개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 담수와 인접하면 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FARM_REC">
+			<Text>해당 타일의 [ICON_FOOD]식량을 증가시킵니다. 인접한 농장 2개마다 [ICON_FOOD]식량이 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가하고 담수와 인접하면 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_TRADING_POST_HELP">
+			<Text>두 도시를 연결하는 [COLOR_POSITIVE_TEXT]도로[ENDCOLOR] 위에 건설된 마을은 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]철도[ENDCOLOR] 위에 건설하면 두 배가 됩니다. 해당 마을을 지나가는 국내 및 국제 [COLOR_POSITIVE_TEXT]교역로[ENDCOLOR]가 있으면 소도시의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 추가로 1 증가하고 산업 시대부터는 2 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_HELP">
+			<Text>인접한 재재소 둘 마다 [ICON_PRODUCTION] 생산 및 [ICON_GOLD] 골드가 +1 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE">
+			<Text>유닛이 소모됩니다. 두 도시를 연결하는 도로 위에 건설되면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 철도 위에서는 두 배가 됩니다. 이 소도시를 지나는 교역로가 있다면 [ICON_PRODUCTION] 생산 +2, [ICON_GOLD] 골드 +2를 얻고, 산업 시대부터는 두 배가 됩니다.[NEWLINE][NEWLINE] 위인 시설은 전략 자원을 교역망에 연결합니다. 소도시는 위대한 상인의 외교 임무에서 오는 골드 생산량과 국왕 경축일 기간을 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가시킵니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_MANUFACTORY">
+			<Text>유닛이 소모됩니다.[NEWLINE][NEWLINE]위인 시설이 전략 자원 위에 건설되면 무역망에 연결됩니다. 제조소는 위대한 기술자의 생산 가속 능력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]씩 증가시킵니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_ACADEMY">
+			<Text>유닛이 소모됩니다.[NEWLINE][NEWLINE]위인 시설이 전략 자원 위에 건설되면 무역망에 연결됩니다. 제조소는 위대한 과학자의 연구 가속 능력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]씩 증가시킵니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IMPROVEMENT_EMBASSY">
+			<Text>대사관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EMBASSY_TEXT">
+			<Text>대사관은 [ICON_DIPLOMAT]위대한 외교관을 통해 [ICON_CITY_STATE]도시 국가 영토에만 건설할 수 있습니다. 도시 국가의 영토에 대사관을 건설한 첫번째 문명은 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. 도시 국가 영토에 첫번째로 대사관을 설립한 문명 외의 다른 문명은 추가 대표단을 확보할 수 없습니다. 대사관은 약탈할 수 없으며 일단 건설되면 절대로 제거할 수 없습니다. 만약 대사관의 원래 소유 문명이 정복당하면 정복자는 그들의 대사관과 그들의 대표단을 소유할 수 있습니다.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_BUILD_EMBASSY">
+			<Text>[LINK=IMPROVEMENT_EMBASSY]대사관[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_EMBASSY">
+			<Text>유닛이 소모됩니다.[NEWLINE][NEWLINE]시설을 건설하면 세계 대회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. [ICON_RES_PAPER] 종이를 +1 얻습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_MACHU_PICCHU">
+			<Text>산악 도시</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

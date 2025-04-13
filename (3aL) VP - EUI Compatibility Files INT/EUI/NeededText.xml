@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2015 4:17:17 PM -->
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_DEBUG_X_Y">
+			<Text>X: {1_Num} / Y: {2_Num} / Plot Danger: {3_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_HAPPINESS_EXPLANATION">
+			<Text>제국 전역의 행복/불행을 반영합니다.[ICON_HAPPINESS_1]행복은 각 도시의 [ICON_HAPPINESS_3]불행에 대항합니다. 불행은 도시화를 제외하면 도시의 규모에 의해 제한됩니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CBP">
+			<Text>지역 자원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MISC_RESOURCES">
+			<Text>기타 자원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_GP_RESOURCES">
+			<Text>위인에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CORP_RESOURCES">
+			<Text>기업에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_FRANCHISE_RESOURCES">
+			<Text>기업 프랜차이즈에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CS_ALLY_RESOURCES">
+			<Text>도시국가 동맹 수에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_STRAT_MOD_RESOURCES">
+			<Text>전략 자원 변경자에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_REL_MOD_RESOURCES">
+			<Text>종교 자원 변경자에서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_DP">
+			<Text>방어 조약</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_MARRIAGE">
+			<Text>정략 결혼</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_MASTER_OF">
+			<Text> [COLOR_POSITIVE_TEXT]종주국 : [ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_VASSAL_OF">
+			<Text> [COLOR_POSITIVE_TEXT]종속국 :[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WARSCORE_CP">
+			<Text>전쟁 점수:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AT_WAR_WITH_CP">
+			<Text> [COLOR_NEGATIVE_TEXT]{1_enemy}{1: plural 1?과; 2?와;} 전쟁 중[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CORPSBUILDING_TEXT">
+			<Text>기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNHIDE_BUILDINGS">
+			<Text>숨기지 않기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNHIDE_BUILDINGS_TT">
+			<Text>이 도시의 생산 옵션에서 숨겨진 건물을 다시 볼 수 있도록 합니다.</Text>
+		</Row>
+		<!-- Condensed Help Texts -->
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_BUILDING</Tag>
+			<Text>[ICON_GOLD]골드를 건물에 투자해 [ICON_PRODUCTION]생산 비용을 50% 감소시킬 수 있습니다. (불가사의는 25%)</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_UNIT</Tag>
+			<Text>골드로 구매한 유닛은 생산된 유닛 경험치의 절반으로 시작합니다.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_FAITH</Tag>
+			<Text>이 유닛 또는 건물은 [ICON_PEACE]신앙으로 구매할 수 있습니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

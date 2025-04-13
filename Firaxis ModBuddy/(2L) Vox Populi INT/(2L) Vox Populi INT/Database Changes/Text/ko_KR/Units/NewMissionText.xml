@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY">
+			<Text>발견 항해</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP">
+			<Text>이 명령을 통해 소유한 영토에서 무작위 사치 자원 [COLOR_POSITIVE_TEXT]복제품[ENDCOLOR] 2개를 제공합니다. 지도상에 없는 사치 자원이 우선해서 제공됩니다.[NEWLINE][NEWLINE]해당 자원은 지도상에 없다면 독점에 계산되지 않지만, 다른 문명과 거래할 수 있습니다. 또한 [ICON_WAR] 군사 유닛 보급 한도를 1 증가시킵니다. 위인은 이 과정에서 소모됩니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP_DISABLED">
+			<Text>이 능력을 사용하려면 유닛이 해당 영토에 있어야 합니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>
