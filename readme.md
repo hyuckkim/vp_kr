@@ -35,7 +35,7 @@ Inno Setup Script로 빌드된 설치 프로그램으로 자동으로 설치할 
    활성화하려면 폴더 이름을 Assets로 바꾸고 Assets와 같이 겹치면 됩니다.  
  - 모드 폴더들  
    내 문서의 문명 5 모드 폴더에 넣으면 됩니다.  
-   기본 경로는 `C:\Users\<유저 이름>\Documents\My Games\Sid Meier's Civilization 5\MODS`입니다.
+   기본 경로는 `C:\Users\<사용자 계정명>\Documents\My Games\Sid Meier's Civilization 5\MODS`입니다.
    - (1L) Community Patch INT  
      큰 변경 없이 이벤트 추가, AI 개선 등만이 이루어진 Community Patch의 번역용 모드입니다.
    - (2L) Vox Populi INT  
@@ -43,10 +43,14 @@ Inno Setup Script로 빌드된 설치 프로그램으로 자동으로 설치할 
    - (3aL) Vox Populi - EUI Compatibility INT  
      문명 5의 UI를 개선해주는 EUI를 Vox Populi와 호환시키는 모드의 번역용 모드입니다.
    - (4aL) UI - Promotion Tree for VP Localized (v 1)  
-     진급 트리를 표시해주는 Promotion Tree의 번역용 모드입니다.  
+     진급 트리를 표시해주는 Promotion Tree의 번역용 모드입니다.
+   - (overL) More Unique Components for VP (v 88) INT
+     본래 CAYM님의 계몽 모드용으로 번역되었던 모드를 VP에 맞게 수정한 모드입니다.
+ - Firaxis ModBuddy
+   비주얼 스튜디오 2010을 기반으로 만들어진 모드 개발 도구인 파이락시스 모드버디의 솔루션 파일들입니다. 한국어 모드 또한 이 솔루션 파일들로 빌드 및 컴파일해 제작합니다.
  - VPUI Text  
    모드와 게임을 로딩하는 동안의 툴팁들의 텍스트입니다. 모드 로딩 전부터 로드되어야 하므로, 모드 폴더에 넣을 수 없습니다.  
-   기본 경로는 `C:\Users\<유저 이름>\Documents\My Games\Sid Meier's Civilization 5\Text` 입니다.
+   기본 경로는 `C:\Users\<사용자 계정명>\Documents\My Games\Sid Meier's Civilization 5\Text` 입니다.
  - vp_kr installer file  
    설치 프로그램인 .exe 파일을 만들기 위한 Inno Setup Script용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.  
  - 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)로 옮겼습니다.
