@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<!-- Player events -->
+		<!-- Do nothing -->
+		<Row Tag="TXT_KEY_PLAYER_EVENT_NO_CHOICE">
+			<Text>관심 없다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_NO_CHOICE_HELP">
+			<Text>아무런 효과도 발생하지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_DESCRIPTION">
+			<Text>혜성 관측!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_HELP">
+			<Text>혜성이 밤하늘에 나타났습니다. 일부는 기적이라고 믿고, 다른 이들은 재앙의 징조라고 믿고 있습니다. 당신의 보좌관들은 확신이 없지만, 당신의 설명을 기대하고 있습니다. 이건 무엇을 의미하는 것일까요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_1">
+			<Text>이건 좋은 징조다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_1_HELP">
+			<Text>{2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_2">
+			<Text>신의 호의다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_2_HELP">
+			<Text>{4_Turns} 동안 모든 도시의 [ICON_HAPPINESS_1]행복 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3">
+			<Text>이것이 긍정적인 신호인지 알아보기 위해 사제들에게 점을 쳐 보도록 할 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3_HELP">
+			<Text>50% 확률로 {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL_S">
+			<Text>점복술 성공!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL">
+			<Text>사제들이 점을 치는 데 성공하여 문명의 [ICON_PEACE]신앙이 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4">
+			<Text>우리 관측가들이 많은 것을 배울 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4_HELP">
+			<Text>[ICON_RESEARCH]과학 +500.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_DESCRIPTION">
+			<Text>유성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_HELP">
+			<Text>지난밤 밝은 섬광들이 하늘을 메웠습니다. 마치 운석이 우리 행성에 떨어지는 것 같았습니다. 큰 운석들이 전 세계에 떨어졌습니다. 당신의 관료들은 연구를 위해 견본을 수집하여 수도에 가져왔습니다. 이것으로 뭘 할까요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1">
+			<Text>부숴서 대장간에 보내라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_HELP">
+			<Text>50% 확률로 [ICON_RES_IRON]철 2개.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL_S">
+			<Text>운석에서 [ICON_RES_IRON]철 추출!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL">
+			<Text>당신의 대장장이들이 운석으로부터 큰 철 덩어리를 얻을 수 있었습니다. 이 물질로부터 섬세한 검과 창을 만들 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_2">
+			<Text>하늘로부터 온 선물은 분할하여 사제들에게 나눠줘야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_2_HELP">
+			<Text>모든 성소에서 [ICON_PEACE]신앙 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_3">
+			<Text>장식을 새겨서 내 옥좌 앞에 둬라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_3_HELP">
+			<Text>궁전에서 [ICON_CULTURE]문화 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_4">
+			<Text>연구를 위해 대학에 기증해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_4_HELP">
+			<Text>모든 대학에서 [ICON_RESEARCH]과학 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_5">
+			<Text>박물관에 기증하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_5_HELP">
+			<Text>모든 박물관에서 [ICON_CULTURE]문화 +1.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_DESCRIPTION">
+			<Text>개기일식!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_HELP">
+			<Text>우리 시민들이 오늘 개기일식을 목격하여 놀라워했습니다. 우리 문명에 무엇을 의미하는 것일까요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1">
+			<Text>확신이 서지 않는다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_HELP">
+			<Text>{1_YieldCost}, 25% 확률로 {2_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL_S">
+			<Text>나쁜 징조!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL">
+			<Text>안 좋은 징조입니다. {4_Help}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_2">
+			<Text>서둘러 희생제를 치러야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_2_HELP">
+			<Text>[ICON_CAPITAL]수도에서 {1_YieldCost}. {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_3">
+			<Text>과학만이 설명할 수 있다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_3_HELP">
+			<Text>{2_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_4">
+			<Text>빨리 사진 찍어야 해!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_4_HELP">
+			<Text>{2_InstantYield}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_DESCRIPTION">
+			<Text>폭염!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_HELP">
+			<Text>이번 여름은 지난 번보다 더운 것 같습니다. 우리 호수와 강이 말랐고 머지 않아 가뭄이 올 것입니다. 어떻게 해야 할까요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_1">
+			<Text>농장을 보조해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_1_HELP">
+			<Text>{1_YieldCost}. 가뭄을 피할 수 있을 것이라 확신합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_2">
+			<Text>비상금은 남겨둬라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_2_HELP">
+			<Text>{1_YieldCost}. 가뭄을 피할 수 있길 희망합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_3">
+			<Text>지역 관리들에게 돈을 보내라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_3_HELP">
+			<Text>{1_YieldCost}. 가뭄을 피하기 어려워 보입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_4">
+			<Text>웃고 견뎌내라. 우리가 할 수 있는 건 없다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_4_HELP">
+			<Text>가뭄이 걱정됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_DESCRIPTION">
+			<Text>빙하기!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_HELP">
+			<Text>평균 온도의 급격한 하락은 소빙하기가 온 것을 의미합니다. 어떻게 준비할까요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_1">
+			<Text>시민들에게 상업이 줄어들더라도 실내에 머물라고 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_1_HELP">
+			<Text>{4_Turns} 동안 모든 도시의 [ICON_GOLD]골드 -2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_2">
+			<Text>산업 단지에서 연료를 가져와 어려운 사람들에게 나눠줘라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_2_HELP">
+			<Text>{4_Turns} 동안 모든 도시의 [ICON_PRODUCTION]생산력 -2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_3">
+			<Text>기차와 증기력이 추위를 막아줄 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_3_HELP">
+			<Text>부정적인 효과가 발생하지 않습니다.</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_4">
+			<Text>문제가 발생하는 대로 처리합시다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_4_HELP">
+			<Text>추운 날씨가 우리 도시에 문제를 일으킬 것으로 예상됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_DESCRIPTION">
+			<Text>혁명!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_HELP">
+			<Text>무장하라! 우리 문명의 반동 분자들이 무장하여 당신의 통치에 반기를 들었습니다! 어떻게 할까요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_1">
+			<Text>케익을 먹으라 해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_1_HELP">
+			<Text>모든 도시에서 야만인 유닛 2개가 생성됩니다. 5턴 동안 모든 도시가 [ICON_RESISTANCE]저항 상태가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_2">
+			<Text>도시 국가 연결망을 이용해 공통점을 찾아라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_2_HELP">
+			<Text>3턴 동안 모든 도시가 [ICON_RESISTANCE]저항 상태가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_3">
+			<Text>우리 모두는 진보의 형제자매들이다. 그렇지 않나?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_3_HELP">
+			<Text>모든 도시에서 야만인 유닛 1개가 생성됩니다. 2턴 동안 모든 도시가 [ICON_RESISTANCE]저항 상태가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_4">
+			<Text>그들의 지도자와 교섭하겠다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_4_HELP">
+			<Text>{1_YieldCost}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_DESCRIPTION">
+			<Text>전쟁의 열기!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_HELP">
+			<Text>당신의 시민들이 전쟁을 요구합니다. 우리 시민들의 전쟁 정신은 높으며, 군사 보좌관은 이 정신을 어떻게 쏟아부을 수 있을지 물어봅니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_1">
+			<Text>우리 시민들을 집결시켜라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_1_HELP">
+			<Text>모든 유닛에 [COLOR_POSITIVE_TEXT]열의[ENDCOLOR] 승급을 부여합니다. {4_Turns} 동안 [ICON_HAPPINESS_1]행복 +5.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_2">
+			<Text>그 정신을 산업에 쏟아부어라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_2_HELP">
+			<Text>{4_Turns} 동안 모든 도시에서 +{3_CityYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_3">
+			<Text>새로운 세계 질서가 시작된다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_3_HELP">
+			<Text>모든 도시에서 10턴 동안 [COLOR_POSITIVE_TEXT]국왕 경축일[ENDCOLOR]을 맞이합니다. {4_Turns} 동안 모든 사관학교에서 [ICON_RESEARCH]과학 +5.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_4">
+			<Text>모국을 위해!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_4_HELP">
+			<Text>{4_Turns} 동안 모든 공장에서 [ICON_PRODUCTION]생산력 +10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_5">
+			<Text>승리의 채권을 사라!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_5_HELP">
+			<Text>{4_Turns} 동안 모든 은행에서 [ICON_GOLD]골드 +20%.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_DESCRIPTION">
+			<Text>전쟁 피로!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_HELP">
+			<Text>우리 시민들은 전쟁의 비용을 감당하기 어려워합니다. 그들은 파괴와 패배를 직면하여 안도를 찾고자 하며, 당신의 결정을 바라고 있습니다. 어떻게 하겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1">
+			<Text>궁전에서 연설을 하겠다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_HELP">
+			<Text>75% 확률로 {4_Turns} 동안 모든 도시의 [ICON_HAPPINESS_1]행복 -1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL_S">
+			<Text>연설 실패!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL">
+			<Text>연설은 시민들의 마음을 움직이지 못했고 그들은 더 불행해졌습니다. 모든 도시의 [ICON_HAPPINESS_1]행복 -1. {4_Help}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_2">
+			<Text>우리 종교 지도자에게 사상자들을 위해 기도하도록 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_2_HELP">
+			<Text>{1_YieldCost}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3">
+			<Text>전국에 라디오 방송을 해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_HELP">
+			<Text>25% 확률로 모든 도시의 [ICON_HAPPINESS_1]행복 -2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL_S">
+			<Text>라디오 방송 실패!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL">
+			<Text>라디오 방송은 시민들의 마음을 움직이지 못했고 그들은 더 불행해졌습니다. 모든 도시의 [ICON_HAPPINESS_1]행복 -2. {4_Help}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4">
+			<Text>우리는 이겨야 한다. 징병을 시작하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_HELP">
+			<Text>50% 확률로 모든 도시에서 군사 유닛이 생성되고 2턴 동안 모든 도시가 [ICON_RESISTANCE]저항 상태가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL_S">
+			<Text>징병!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL">
+			<Text>징병은 성공적이었지만 당신의 시민들이 더욱 분노했습니다. 모든 도시가 2턴 동안 [ICON_RESISTANCE]저항 상태가 되고 군사 유닛 1개를 생성합니다.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT">
+			<Text>외국인들로 혼잡한 시장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_HELP">
+			<Text>다양한 언어를 사용하는 군중들이 시장에 모여 거래를 합니다. 일부는 화나 있고 외국인들이 우리 무역을 방해할 것이라 생각합니다. 다른 이들은 그들이 우리 문화를 배우길 바라며 외국 무역을 장려합니다.[NEWLINE][NEWLINE]이에 대해 어떻게 생각합니까? 다음 선택지에서 고르십시오:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_1">
+			<Text>외국인들이 계속 교역하도록 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_1_HELP">
+			<Text>모든 시장에서 [ICON_CULTURE]문화 +1, [ICON_GOLD]골드 -1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_2">
+			<Text>수입품에 높은 관세를 부과하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_2_HELP">
+			<Text>모든 시장에서 [ICON_GOLD]골드 +1.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT">
+			<Text>과거의 상징</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_HELP">
+			<Text>기념비는 우리 문화의 가장 중요한 상징입니다. 당신의 시민들은 기념비를 조상들이나 신들에게 바쳐 이를 기념하고자 합니다.[NEWLINE][NEWLINE]이에 대해 어떻게 생각합니까? 다음 선택지에서 고르십시오:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_1">
+			<Text>기념비를 바쳐 우리의 풍요를 기원하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_1_HELP">
+			<Text>모든 기념비에서 [ICON_FOOD]식량 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_2">
+			<Text>지금 중요한 건 신들이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_2_HELP">
+			<Text>모든 기념비에서 [ICON_PEACE]신앙 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_3">
+			<Text>어느 것도 충분치 않다. 기념비는 수익을 올려야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_3_HELP">
+			<Text>모든 기념비에서 [ICON_GOLD]골드 +1.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_DESCRIPTION">
+			<Text>성 원칙</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_HELP">
+			<Text>시민들이 전쟁 중 피난처를 위해 당신의 성문 앞에 모여듭니다. 당신의 성은 시민들을 모두 수용할 만큼 크지 않아 당신은 결정해야 합니다. 전쟁 중 어떤 자들이 성에 들어올 수 있나요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_1">
+			<Text>물론 귀족이지.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_1_HELP">
+			<Text>모든 성에서 [ICON_CULTURE]문화 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_2">
+			<Text>이익에 따라 뛰어난 상인과 장인들이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_2_HELP">
+			<Text>모든 성에서 [ICON_PRODUCTION]생산력 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_3">
+			<Text>성은 시민들을 위한 곳이 아니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_3_HELP">
+			<Text>모든 성에서 [ICON_FOOD]식량 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_4">
+			<Text>신의 뜻에 따라 성직자들이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_4_HELP">
+			<Text>모든 성에서 [ICON_PEACE]신앙 +1.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_DESCRIPTION">
+			<Text>대학 교육과정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_HELP">
+			<Text>우리 국립 대학의 학부와 행정이 우리 문명의 현재와 미래의 대학들을 위한 통합된 교육 과정을 만들고자 합니다. 그리고 국가의 통수권자인 당신이 최종 결정을 하길 바랍니다. 어떻게 하길 원합니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_1">
+			<Text>자연 과학에 초점을 맞춰라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_1_HELP">
+			<Text>모든 대학에서 [ICON_RESEARCH]과학 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_2">
+			<Text>교양 교육이 가장 중요하다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_2_HELP">
+			<Text>모든 대학에서 [ICON_CULTURE]문화 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_3">
+			<Text>신학 교육이 가장 큰 도움이 될 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_3_HELP">
+			<Text>모든 대학에서 [ICON_PEACE]신앙 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_4">
+			<Text>군사 교육이 가장 중요하다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_4_HELP">
+			<Text>모든 대학에서 [ICON_PRODUCTION]생산력 +2.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP">
+			<Text>공장 협력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_HELP">
+			<Text>사업가들이 당신의 정부에 접근하여 공장과의 협력 사업을 허용해달라고 요청했습니다. 5건의 협력 제의가 있었고 정부의 조치가 필요합니다. 어떻게 하길 원합니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_1">
+			<Text>호화로운 옷감을 생산하자.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_1_HELP">
+			<Text>모든 공장에서 [ICON_CULTURE]문화 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_2">
+			<Text>값싼 직물이 수익성 있어 보이는군.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_2_HELP">
+			<Text>공장에서 [ICON_GOLD]골드 +3.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_3">
+			<Text>화학품은 가치 있는 자산이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_3_HELP">
+			<Text>모든 공장에서 [ICON_PRODUCTION]생산력 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_4">
+			<Text>약품은 우리 과학자들에게 도움을 줄 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_4_HELP">
+			<Text>모든 공장에서 [ICON_RESEARCH]과학 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_5">
+			<Text>통조림은 도시 성장을 도울 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_5_HELP">
+			<Text>모든 공장에서 [ICON_FOOD]식량 +2.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_DESCRIPTION">
+			<Text>새로운 은행 체계</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_HELP">
+			<Text>우리 은행 복합 단지가 성장하고 있으며, 당신의 경제 보좌관은 국가 단위 은행 규정을 세울 것을 추천합니다. 현재 길드가 우리 문명의 모든 돈을 관리하고 있지만 일부는 이것이 구시대적인 관리 방식이며 집중화가 최선의 선택이라고 믿습니다. 하지만 당신의 다른 보좌관들은 이에 대해 고민할 것입니다. 다음 선택지 중 어느 것을 원합니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_1">
+			<Text>더 분산해라. 우리 시민들은 자기 돈을 관리할 능력이 있다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_1_HELP">
+			<Text>모든 노동자 및 상인마다 [ICON_GOLD]골드 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_2">
+			<Text>길드가 계속해서 돈을 관리해야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_2_HELP">
+			<Text>모든 은행에서 [ICON_GOLD]골드 +5%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_3">
+			<Text>집중화해라. 돈은 시민 개인에게 맡기기에는 너무 중요하다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_3_HELP">
+			<Text>모든 은행에서 [ICON_GOLD]골드 +3.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION">
+			<Text>교육청 설립</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_HELP">
+			<Text>최근 당신의 도시들이 교육청을 세워 당신의 공공 학교 체계를 개혁하려 하고 있습니다. 그들은 당신의 결정을 기다립니다. 모든 학생들에게 무상 교육을 제공해야 합니까, 아니면 교육을 민영화해야 합니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_1">
+			<Text>교육은 모든 이에게 무료로 제공되어야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_1_HELP">
+			<Text>모든 공립학교에서 [ICON_CULTURE]문화 +10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_2">
+			<Text>교육은 금전적 여유가 있는 사람에게 제공되어야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_2_HELP">
+			<Text>모든 공립학교에서 [ICON_GOLD]골드 +10%.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_DESCRIPTION">
+			<Text>노후화된 풍차</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_HELP">
+			<Text>산업 설계의 첨탑인 풍차가 현재 많이 구식인 것 같습니다. 일부 경영자들은 이 문제로 당신에게 접근하여 당신이 풍차의 현대화를 지원해주길 바라고 있습니다. 당신의 기술자들은 다음의 제안들을 제시했습니다. 어느 것을 원합니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_1">
+			<Text>풍차의 완전한 재설계를 즉시 시행한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_1_HELP">
+			<Text>{1_YieldCost}. 모든 풍차에서 [ICON_PRODUCTION]생산력 보너스 +10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_2">
+			<Text>제조업과 결부시켜 현대적인 산업 과정으로 통합한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_2_HELP">
+			<Text>{1_YieldCost}, [ICON_RES_IRON]철 4개 소비. 모든 풍차에서 [ICON_PRODUCTION]생산력 보너스 +15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_3">
+			<Text>상태가 괜찮지 않은 것들은 손볼 수 있는 것들을 개조한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_3_HELP">
+			<Text>{1_YieldCost}. 모든 풍차에서 [ICON_PRODUCTION]생산력 +3.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1">
+			<Text>국제 토너먼트!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_HELP">
+			<Text>세계 스포츠 조직이 당신의 문명을 국제 토너먼트의 개최지로 선정했습니다. {4_Turns} 동안 경기장이 있는 도시가 경기를 개최하여 해당 도시의 [ICON_TOURISM]관광을 증진시킬 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_SUCCESSFUL_S">
+			<Text>{3_PlayerName} 문명이 국제 토너먼트를 개최했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_SUCCESSFUL">
+			<Text>세계 스포츠 조직이 {3_PlayerName} 문명을 국제 토너먼트의 개최지로 선정했습니다. 그들의 경기장이 많은 [ICON_GOLD]골드와 [ICON_TOURISM]관광을 생산할 것입니다. {4_Help}</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CORRUPTION_SCIENCE_FAILURE_CHOICE_1">
+			<Text>연구 차질</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CORRUPTION_SCIENCE_FAILURE_CHOICE_1_HELP">
+			<Text>당신의 연구자들이 당신에게 최근 연구가 결함이 있으며, 폐기되어야 한다고 알렸습니다. {1_YieldCost}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BABY_BOOM_CHOICE_1">
+			<Text>베이비 붐!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BABY_BOOM_CHOICE_1_HELP">
+			<Text>우리 문명의 인구가 높은 출산율로 급속히 성장하고 있습니다. 모든 도시에서 [ICON_CITIZEN]시민 +1, 5턴 동안 국왕 경축일을 맞이합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PLAGUE_CHOICE_1">
+			<Text>전염병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_PLAGUE_CHOICE_1_HELP">
+			<Text>당신의 보좌관들은 멀리 있는 다른 문명에 큰 손상을 입힌 치명적인 전염병을 알려주었습니다. 이 전염병이 우리 문명에 찾아오지 않기를 바랍니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE">
+			<Text>특별 회기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_HELP">
+			<Text>각국의 외교 정상들이 세계 대회 예산을 평가하기 위해 초청 받았습니다. 당신을 좌절시키기 위해 모든 경쟁 국가들이 참석할 것입니다. 우리가 뭔가를 얻으려면 민첩해져야 합니다.[NEWLINE][NEWLINE]목표들 중 한 가지만 선택할 수 있습니다. 누구를 대표단의 지도자로 임명하겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_1">
+			<Text>국제 무역과 우호 관계는 세계의 선을 위한 궁극적인 원동력이다. 외교 보좌관을 지도자로 임명한다. 우리는 관세와 폐쇄된 국경, 그 외 장벽들을 무효화하여 더 가까운 협력과 이해를 도모해야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_1_HELP">
+			<Text>모든 세관에서 [ICON_TOURISM]관광 +2, 모든 도시에서 {4_Turns} 동안 [COLOR_POSITIVE_TEXT]국왕 경축일[ENDCOLOR]을 맞이합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2">
+			<Text>오직 협력을 통해 우주의 비밀을 풀어낼 수 있다. 과학 보좌관을 지도자로 임명한다. 우리는 세계 최고의 과학 기구에서 주도적인 역할을 해야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_HELP">
+			<Text>{1_YieldCost}, 16.66% 확률로 무료 기술.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_SUCCESSFUL_S">
+			<Text>연구 기증</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_2_SUCCESSFUL">
+			<Text>과학 보좌관은 국제 연구 회의에 대한 우리의 영향력이 새 기술을 가져왔다고 보고했습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_3">
+			<Text>이같은 정상 회담은 우리가 국경을 초월한 화폐 정책을 시행할 전례 없는 기회를 제공할 것이다. 경제 보좌관을 지도자로 임명한다. 우리는 이제부터 거대한 자본을 풀어야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_3_HELP">
+			<Text>{2_InstantYield}, 은행의 [ICON_GOLD]골드 생산량이 영구적으로 5% 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_4">
+			<Text>국제 평화 기구의 사상이 전 세계의 지원을 받았다. 이런 압력이 없어지도록 하려면 우리가 선두에 있어야 한다. 군사 보좌관을 지도자로 임명한다. 지도자로서 우리 군대와 병사들을 위해 강력하게 논의하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_ADVISOR_DEBATE_CHOICE_4_HELP">
+			<Text>{2_InstantYield}, [ICON_CAPITAL]수도 주변에 새로운 군대가 출현합니다.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT">
+			<Text>상인의 죽음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_HELP">
+			<Text>우리 문명의 한 부유한 상인이 죽었고 그는 모호한 유언을 남겼습니다. 그의 두 아들들은 법적 상속권을 주장하며 국가에 결정을 요청했습니다. 한 명은 선원이고 한 명은 은행원입니다. 어떤 결정을 하겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_1">
+			<Text>관심 없다. 다만 상속세를 부과할 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_1_HELP">
+			<Text>+{2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_2">
+			<Text>은행원의 투자가 아버지의 투자와 맞기 때문에 그의 주장이 더 설득력 있군.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_2_HELP">
+			<Text>수도에 대상 1명이 무료로 출현합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_3">
+			<Text>선원이 우리의 모든 해안 도시에 이익을 줄 것 같군.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_3_HELP">
+			<Text>모든 해안 도시에서 +{3_CityYieldGlobal}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION">
+			<Text>위생 문제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_HELP">
+			<Text>목욕의 인기가 계속 상승함에 따라 수요도 증가하고 있습니다. 당신 제국의 시민들은 목욕탕을 더 요구하지만 엘리트들과 귀족들은 목욕이 사치라고 말하면서 이에 항의합니다. 조언자들은 이것에 대한 당신의 의견을 필요로 합니다. 어떻게 생각하세요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_1">
+			<Text>씻지 않은 대중은 씻지 않은 채로 있어야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_1_HELP">
+			<Text>원하는 위인이 출현합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_2">
+			<Text>비용을 아끼지 마라. 사람은 깨끗해야한다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_2_HELP">
+			<Text>모든 도시에 [ICON_HAPPINESS_1] 행복 +1. 모든 목욕탕의 [ICON_GOLD] 유지비 +3 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_3">
+			<Text>사람들이 더 많은... 창조적인 청결 방법을 찾도록 장려한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_3_HELP">
+			<Text>모든 도시의 송수로에서: +1 [ICON_CULTURE] 문화.</Text>
+		</Row>
+
+		<!-- City events -->
+		<!-- Do Nothing -->
+		<Row Tag="TXT_KEY_CITY_EVENT_DO_NOTHING">
+			<Text>관심 없다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_DO_NOTHING_HELP">
+			<Text>아무 일도 일어나지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY">
+			<Text>풍부한 광맥</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_HELP">
+			<Text>파란 대리석의 풍부한 광맥이 도시 근처의 채석장에서 발견되었습니다. 당신의 광부들과 석공들은 당신에게 찾아와 어떻게 하면 좋겠냐고 물어봅니다.[NEWLINE][NEWLINE]아래에서 선택하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_1">
+			<Text>이것을 뽐내면 상인들이 사려 할 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_1_HELP">
+			<Text>+{2_InstantYield}, 도시에서 10턴(게임 속도별 보정) 동안 [COLOR_POSITIVE_TEXT]국왕 경축일[ENDCOLOR]을 맞이합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_2">
+			<Text>사원에 기증하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_2_HELP">
+			<Text>{2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_3">
+			<Text>성유물을 새기고 숭배하도록 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_3_HELP">
+			<Text>{2_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_4">
+			<Text>우리 최고의 예술가들에게 보내라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STONE_WORKS_DISCOVERY_CHOICE_4_HELP">
+			<Text>도시에서 {5_Turns} 동안 [ICON_CULTURE]문화 +2</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION">
+			<Text>노인과 바다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_HELP">
+			<Text>한 어부 집단이 계절 낙시 탐험 기금을 마련하기 위해 도시에 나타났습니다.[NEWLINE][NEWLINE]다음 선택지 중 선택하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_1">
+			<Text>단순한 것에 초점을 맞추자.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_1_HELP">
+			<Text>{1_Scaled} 보냅니다. 도시에서 식량 {2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_2">
+			<Text>큰 투자는 배당금을 가져올 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_2_HELP">
+			<Text>{1_Scaled} 보냅니다. {5_Turns} 동안 도시 근처의 어선들이 제공하는 [ICON_FOOD]식량 +5.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3">
+			<Text>훨씬 더 수익성 있는 것에 투자할 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_HELP">
+			<Text>{1_Scaled} 투자합니다. 50% 확률로 도시에 항만이 건설됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL_S">
+			<Text>항만 건설!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL">
+			<Text>{2_City}에 투자가 성공하여 항만 건설을 이루어냈습니다.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA">
+			<Text>극적인 명작</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_HELP">
+			<Text>도시의 작가들이 새로운 작품을 지었고 평단은 이것을 명작이라 부르고 있습니다. 당신은 이 소식을 접했고 보좌관들은 당신의 반응을 기다립니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1">
+			<Text>다른 문명에 소식을 전해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_HELP">
+			<Text>{1_YieldCost}. 모든 문명에 대한 관광이 {2_InstantYield} 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL_S">
+			<Text>{2_CityName}의 작가들이 명작을 만들었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_1_SUCCESSFUL">
+			<Text>{2_City}의 작가들이 극적인 작품을 창작하여 전 세계에서 방문자들을 끌어모았습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_2">
+			<Text>이를 기념하자.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_2_HELP">
+			<Text>{2_InstantYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_3">
+			<Text>작가들을 칭찬하자.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_3_HELP">
+			<Text>도시에서 {4_GPChange}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_4">
+			<Text>그들은 대신 기도를 해야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA_CHOICE_4_HELP">
+			<Text>{2_InstantYield}.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS">
+			<Text>사원의 문제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_HELP">
+			<Text>도시의 사제들이 당신에게 종교적 논란에 개입해달라고 요청합니다. 도시가 성장하면서 다양한 신앙을 가진 점점 더 많은 사람들이 사원을 사용할 권리를 요구하고 있습니다. 당신이 그들을 사원에 들이면 대중 종교의 신자들은 이에 분개하며 폭력을 행사할 것입니다. 반면 불신자들은 당신이 사원 출입을 불허하면 떠날 것입니다. 어떻게 하겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_1">
+			<Text>잘 가게.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_1_HELP">
+			<Text>도시의 [ICON_CITIZEN]시민 -1, {2_InstantYield}. 도시가 2턴 동안 [ICON_RESISTANCE]저항합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_2">
+			<Text>그들을 들여라. 다만 비용을 내야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_2_HELP">
+			<Text>사원에서 [ICON_GOLD]골드 +2, [ICON_PEACE]신앙 +1. 도시의 [ICON_HAPPINESS_1]행복 -1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3">
+			<Text>불신자들을 거부해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_HELP">
+			<Text>50% 확률로 사원이 파괴될 것입니다. 그 결과 도시의 [ICON_PEACE]신앙 +1, [ICON_HAPPINESS_1]행복 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL_S">
+			<Text>{2_City}의 사원이 파괴되었습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL">
+			<Text>{2_City}에서 불신자들이 항의의 표시로 사원을 불태웠습니다. 하지만 당신의 시민들은 흔들리지 않았습니다. 도시의 [ICON_HAPPINESS_1]행복 +1, {5_Help}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4">
+			<Text>더 크게 생각해야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4_HELP">
+			<Text>{1_YieldCost}. 사원이 파괴되고 그 자리에 대사원이 건설됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE">
+			<Text>희망의 봉화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_HELP">
+			<Text>도시의 어부들이 도시의 등대를 걱정하고 있습니다. 최근 무너지기 직전이고 보수가 필요합니다 이걸 어떻게 하겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_1">
+			<Text>시민들이 관리하도록 하자.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_1_HELP">
+			<Text>등대에서 [ICON_GOLD]골드 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_2">
+			<Text>도시가 관리해야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_2_HELP">
+			<Text>{1_YieldCost}. 등대에서 [ICON_PRODUCTION]생산력 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_3">
+			<Text>철거하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_LIGHTHOUSE_CHOICE_3_HELP">
+			<Text>{2_InstantYield}. 등대가 파괴됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING">
+			<Text>병동 인원 초과</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_HELP">
+			<Text>전선의 군인들이 매일 이 도시의 병동에 실려가고 있지만 병동은 환자들로 가득 찼습니다. 도시의 의사들은 정부의 지원을 요청했습니다. 어떻게 하겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_1">
+			<Text>비상금을 보내라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_1_HELP">
+			<Text>{5_Turns}턴 동안 도시의 [ICON_GOLD]골드 -5, [ICON_HAPPINESS_1]행복 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_2">
+			<Text>부상자 분류가 답이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_2_HELP">
+			<Text>부상자 분류를 시행하여 구할 수 있는 사람부터 구합니다. 도시의 [ICON_CITIZEN]시민 -1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_3">
+			<Text>우리 문제 아니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_3_HELP">
+			<Text>도시에서 영구적으로 [ICON_HAPPINESS_1]행복 -1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_4">
+			<Text>의사들에게 영구 급료를 주겠다고 해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_4_HELP">
+			<Text>도시의 [ICON_GOLD]골드 -5, 영구적으로 [ICON_HAPPINESS_1]행복 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5">
+			<Text>모든 사상자들을 실험실로 보내라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_HELP">
+			<Text>50% 확률로 도시가 3턴 동안 [ICON_RESISTANCE]저항 상태가 되고 병원에서 [ICON_RESEARCH]과학 +4.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_SUCCESSFUL_S">
+			<Text>병원의 과학 실험이 드러났습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_SUCCESSFUL">
+			<Text>사상자들이 실험실에 보내졌지만 대중들은 이에 분노했습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_WORLD_EVENT_CHOICE_1">
+			<Text>경기장 매진!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_WORLD_EVENT_CHOICE_1_HELP">
+			<Text>당신의 경기장에서 국제 토너먼트가 열립니다. 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광 500, [ICON_GOLD]골드 500 골드를 얻습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT">
+			<Text>경기날</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_HELP">
+			<Text>도시 경기장이 경기 당일을 준비하고 있습니다. 불행히도 매니저가 스케줄을 잘못 잡아서 무슨 일이 있는지 기억하지 못한 듯합니다. 이곳은 어떻게 할까요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_1">
+			<Text>스키 경기를 열어야지.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_1_HELP">
+			<Text>[ICON_GOLD]골드 100 골드, [ICON_CULTURE]문화 75. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_2">
+			<Text>수상 스포츠를 열어야지.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_2_HELP">
+			<Text>[ICON_GOLD]골드 100 골드, [ICON_RESEARCH]과학 75.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_3">
+			<Text>미식축구 경기를 열어야지.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_3_HELP">
+			<Text>[ICON_GOLD]골드 200 골드.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_4">
+			<Text>축구 경기를 열어야지.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_4_HELP">
+			<Text>[ICON_GOLD]골드 200 골드.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_5">
+			<Text>스포츠 경기? 안돼, 이건 세레모니였어.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_5_HELP">
+			<Text>[ICON_GOLDEN_AGE]황금기 점수 400.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_NUCLEAR_MELTDOWN_CHOICE_1">
+			<Text>원자로 용해!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NUCLEAR_MELTDOWN_CHOICE_1_HELP">
+			<Text>최악의 사건이 일어났습니다. 도시의 원자로가 용해되어 도시를 살 수 없는 곳으로 만들었습니다. 원자력 발전소가 파괴되며, 도시의 모든 건물들이 파괴될 위험에 처합니다. 도시의 [ICON_CITIZEN]시민이 5 감소합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_DROUGHT_CHOICE_1_DESCRIPTION">
+			<Text>가뭄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_DROUGHT_CHOICE_1_HELP">
+			<Text>가뭄이 도시의 [ICON_FOOD]식량 생산량에 큰 손실을 입혀 {5_Turns} 동안 농장의 [ICON_FOOD]식량 생산량이 1 감소합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_SEVERE_DROUGHT_CHOICE_1_DESCRIPTION">
+			<Text>심각한 가뭄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_SEVERE_DROUGHT_CHOICE_1_HELP">
+			<Text>가뭄이 도시의 [ICON_FOOD]식량 생산량에 큰 손실을 입혀 {5_Turns} 동안 농장의 [ICON_FOOD]식량 생산량이 1 감소하고 근처의 농장 1개가 약탈됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_CRITICAL_DROUGHT_CHOICE_1_DESCRIPTION">
+			<Text>치명적인 가뭄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CRITICAL_DROUGHT_CHOICE_1_HELP">
+			<Text>가뭄이 도시의 [ICON_FOOD]식량 생산량에 큰 손실을 입혀 {5_Turns} 동안 농장의 [ICON_FOOD]식량 생산량이 2 감소하고 근처의 농장 2개가 약탈됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_EXPOSURE_CHOICE_1_DESCRIPTION">
+			<Text>노출</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_EXPOSURE_CHOICE_1_HELP">
+			<Text>영하 온도가 도시의 많은 시민들을 노출의 위험에 빠뜨렸습니다. 도시의 [ICON_CITIZEN]시민이 1 감소합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_NO_FUEL_CHOICE_1_DESCRIPTION">
+			<Text>연료 고갈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_NO_FUEL_CHOICE_1_HELP">
+			<Text>극심한 추위로 도시가 현재 연료 고갈을 겪고 있습니다. 이를 보충하기 위해 우리 산업으로부터 더 많은 연료가 공급되고 있습니다. 도시의 과제로 인해 {1_YieldCost}의 비용을 부담합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_FROZEN_WATER_CHOICE_1_DESCRIPTION">
+			<Text>얼어붙은 물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_FROZEN_WATER_CHOICE_1_HELP">
+			<Text>도시의 강이 얼어붙어 상업을 방해하고 있습니다. {5_Turns} 동안 도시의 [ICON_GOLD]골드가 3 감소합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_BITTER_WINDS_CHOICE_1_DESCRIPTION">
+			<Text>매서운 바람</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_ICE_AGE_BITTER_WINDS_CHOICE_1_HELP">
+			<Text>매섭게 추운 바람이 지역의 생산을 방해하고 있습니다. {5_Turns} 동안 모든 채석장, 목장, 농장, 제재소의 [ICON_PRODUCTION]생산력이 1 감소합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE">
+			<Text>광산 사고</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_HELP">
+			<Text>도시 주변의 갱도에서 액체 저장고가 터져 액체가 차오르고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_1">
+			<Text>터널을 무너뜨려라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_1_HELP">
+			<Text>광산의 위태로운 터널을 묻습니다. 광산이 약탈된 상태가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_2">
+			<Text>도시의 기술자들을 배치하여 터널 출입의 손실을 최소화하면서 파괴를 막아라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_2_HELP">
+			<Text>현재 건물 건설이 {1_YieldCost}의 손실을 입지만 광산을 지킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_3">
+			<Text>액체가 석유로 풍부해 보이는군. 지하 투시 레이더를 이용해 매장량을 알아보고 추출을 시작하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_3_HELP">
+			<Text>{1_YieldCost}, [ICON_RES_OIL]석유 1개.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE">
+			<Text>연기를 견디며</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_HELP">
+			<Text>숲 근처의 덤불에 불이 붙어 노동자들은 불이 꺼질 때까지 숲에 들어갈 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_1">
+			<Text>우리가 할 수 있는 일은 없다. 벌목 작업보다 인명이 더 중요하니 기다려라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_1_HELP">
+			<Text>도시 주변의 제재소가 최대 2개 약탈됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_2">
+			<Text>소방관들을 보내 무슨 수를 써서라도 시설을 보호해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_2_HELP">
+			<Text>사상자들이 발생하여 {1_YieldCost} 손실.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_3">
+			<Text>예비 항공기를 요청하여 공중에서 물과 지연성 비료를 뿌려라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_3_HELP">
+			<Text>{1_YieldCost}. 숲이 급성장하여 숲 타일에서 [ICON_PRODUCTION]생산력 +1.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_AVALANCHE_CHOICE_1">
+			<Text>눈사태</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_AVALANCHE_CHOICE_1_HELP">
+			<Text>산 근처의 눈이 녹아내려 큰 눈사태가 일어났습니다. 도시 주변의 마을과 농장이 최대 2개씩 약탈됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION">
+			<Text>도시 부패</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_HELP">
+			<Text>이 도시의 행정관들이 현재 부패 문제를 직면하고 있습니다. 시민들은 화나 있고 정의를 요구합니다. 누구에게 본보기를 보여주겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_1">
+			<Text>농업장관을 비난해야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_1_HELP">
+			<Text>{5_Turns} 동안 도시에서 {3_CityYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_2">
+			<Text>기술 부서를 비난해야 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_2_HELP">
+			<Text>{5_Turns} 동안 도시에서 {3_CityYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_3">
+			<Text>누가 금고에서 돈을 빼돌리고 있지?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_3_HELP">
+			<Text>{5_Turns} 동안 도시에서 {3_CityYield}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_4">
+			<Text>비난하지 않겠다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_4_HELP">
+			<Text>{5_Turns} 동안 도시에서 [ICON_HAPPINESS_1]행복 -2.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_FOOD_SPOILED_CHOICE_1">
+			<Text>상한 식량</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_FOOD_SPOILED_CHOICE_1_HELP">
+			<Text>곡창의 많은 식량이 관리 미숙으로 상했습니다. 도시에서 {1_YieldCost}의 손실을 입습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_BANDITS_CHOICE_1">
+			<Text>도적!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_BANDITS_CHOICE_1_HELP">
+			<Text>도적들이 당신의 세금 징수원을 습격하여 돈을 훔쳐갔습니다. 도시에서 {1_YieldCost}의 손실을 입습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_GOOD_HARVEST_CHOICE_1">
+			<Text>대풍년</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_GOOD_HARVEST_CHOICE_1_HELP">
+			<Text>도시의 농부들이 훌륭한 풍년을 알렸습니다. 도시에서 +{2_InstantYield}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_MARKET_DAY_CHOICE_1">
+			<Text>장날</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MARKET_DAY_CHOICE_1_HELP">
+			<Text>장날이 시작되어 도시의 장터가 소비자들로 가득 찼습니다. {5_Turns} 동안 도시의 시장에서 [ICON_GOLD]골드가 2 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_CHOICE_1">
+			<Text>화산 분출!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_CHOICE_1_HELP">
+			<Text>이럴 수가, 도시 주변의 휴면기에 있던 화산이 갑자기 분출하여 도시와 주변 지역에 용암을 솓아냈습니다! 도시에서 [ICON_CITIZEN]시민이 3 감소하고 많은 시설이 약탈되며, 도시의 건물들이 피해를 입습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_SPECIAL_CHOICE_1">
+			<Text>크라카토아 분출!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_VOLCANO_SPECIAL_CHOICE_1_HELP">
+			<Text>크라카토아가 분출했습니다! 엄청난 화산재와 연기, 용암이 근처에 있는 도시와 주변 지역을 덮쳤습니다. 도시에서 [ICON_CITIZEN]시민이 3 감소하고 많은 시설들이 약탈되며, 도시의 건물들이 피해를 입습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_HOTEL_ESTABLISHED_CHOICE_1">
+			<Text>자연 경관 휴양</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HOTEL_ESTABLISHED_CHOICE_1_HELP">
+			<Text>주변의 자연 경관에서 관광이 형성된 결과, 사업 협력단이 이 도시에 호텔을 건설하기로 결정했습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE">
+			<Text>병충해</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_HELP">
+			<Text>이 땅에서 작물이 썩고 있습니다. 감염이 얼마나 퍼졌는지는 알 수 없지만 대량의 작물이 손상을 입었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_1">
+			<Text>병든 논밭을 태워라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_1_HELP">
+			<Text>도시 주변의 농촌이 파괴됩니다. 도시 주변의 농촌이 최대 2개 약탈됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_2">
+			<Text>겨울이 되기 전에 다시 심도록 해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_2_HELP">
+			<Text>다른 작물을 심기 위해 곡창에서 {1_YieldCost}의 비용이 들며, 지역의 농업이 정상으로 돌아갑니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_3">
+			<Text>살균제를 만들어 병충해를 없애라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_3_HELP">
+			<Text>{1_YieldCost}의 비용을 할당하여 농장에서 영구적으로 [ICON_FOOD]식량 +1.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING">
+			<Text>홍수</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_HELP">
+			<Text>도시의 강 높이가 위험한 수준으로 올라 도시와 주변 지역을 위협하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_1">
+			<Text>홍수를 견뎌내라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_1_HELP">
+			<Text>농장이 최대 3개 약탈됩니다. 건물이 파괴될 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_2">
+			<Text>노동자들을 보내 댐을 건설하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_2_HELP">
+			<Text>{1_YieldCost}, 건물이 파괴될 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_3">
+			<Text>수력발전 체계를 만들어 강 높이를 조절하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_3_HELP">
+			<Text>{1_YieldCost}, {4_GPChange} 보너스.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE">
+			<Text>허리케인 접근</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_HELP">
+			<Text>허리카인에 당신의 도시를 향해 다가오고 있습니다. 만약 도시를 덮친다면 많은 인명과 재산에 피해가 갈 것입니다. 도시 의회는 대응책을 찾으며 당신의 결정을 기대하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1">
+			<Text>시민들에게 모든 짐을 싸서 대피하라고 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1_HELP">
+			<Text>{1_YieldCost} 손실. 도시가 허리케인에 잘 대처할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_SUCCESSFUL_S">
+			<Text>{2_City}에서 허리케인이 덮쳤습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_1_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 다행히도 도시는 잘 대처하여 손실을 최소화했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2">
+			<Text>행운을 빈다. 우리가 할 수 있는 건 없다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2_HELP">
+			<Text>아무런 준비가 안됐습니다. 행운을 빕니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_2_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시는 대비를 하지 못해 큰 손실을 입었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3">
+			<Text>군사들을 보내 재산을 지키도록 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3_HELP">
+			<Text>{1_YieldCost} 손실. 허리케인이 덮치면 많은 인명 피해가 생길 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_3_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시는 잘 보호되었지만 시민들이 피해를 입었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4">
+			<Text>군사들을 보내 시민들을 보호하도록 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4_HELP">
+			<Text>{1_YieldCost} 손실. 허리케인이 덮치면 많은 재산 피해가 생길 것입니다.</Text>
+		</Row>
+				<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_4_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 시민들은 잘 보호되었지만 도시가 큰 피해를 입었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5">
+			<Text>우리 강의 제방이 밀려오는 물을 막아줄 것이다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_HELP">
+			<Text>{1_YieldCost} 손실, 허리케인이 덮치면 많은 재산 피해가 생길 것입니다.</Text>
+		</Row>
+				<Row Tag="TXT_KEY_CITY_EVENT_HURRICANE_CHOICE_5_SUCCESSFUL">
+			<Text>{2_City}에서 매우 강력한 허리케인이 덮쳤습니다. 도시의 제방이 견디지 못해 도시가 황폐화되었습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_PLAGUE_CHOICE_1">
+			<Text>전염병!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PLAGUE_CHOICE_1_HELP">
+			<Text>우리가 가장 우려하는 것이 현실이 되었습니다. 전염병이 도시를 휩쓸었습니다. 시민들이 거리에서 죽어 수백명이 매일 사망했습니다. {5_Turns} 동안 도시의 [ICON_FOOD]식량이 15 감소합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER">
+			<Text>불가사의한 모험가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_HELP">
+			<Text>망토를 두른 인물이 성벽 밖을 배회합니다. 이 도시에 왜 왔는지 물었더니 그는 너덜너덜한 편지를 건네주었습니다:[NEWLINE][NEWLINE]"나는 많은 재능을 가진 남자지만 집이 없다. 태어날 때부터 말을 못한 나는 말 없는 교육과 훈련을 받았다. 나에게 보금자리를 주는 대가로 그대에게 4가지 재능 중 한 가지를 제공하겠다."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_1">
+			<Text>"예술가의 재능"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_1_HELP">
+			<Text>도시에서 {4_GPChange}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_2">
+			<Text>"장인의 재능"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_2_HELP">
+			<Text>도시에서 {4_GPChange}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_3">
+			<Text>"예언자의 재능"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_3_HELP">
+			<Text>도시에서 {4_GPChange}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_4">
+			<Text>"상인의 재능."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_WANDERER_CHOICE_4_HELP">
+			<Text>도시에서 {4_GPChange}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS">
+			<Text>유목민의 등장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_HELP">
+			<Text>한 유목민 집단이 당신의 국경에 나타나 당신의 영토에 터전을 만들 권리를 요구합니다. 그들은 우호적인 듯하며, 자신들이 바라는 것을 얻기 위해 협상하고자 합니다. 어떻게 하시겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_1">
+			<Text>그들에게 땅을 주는 대신 우리 문화에 적응하도록 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_1_HELP">
+			<Text>도시에서 국경 확장 점수 {2_Instant} (국경 확장 점수에만 영향을 줍니다).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2">
+			<Text>쫓아내고 그들이 가진 것을 빼앗아라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_HELP">
+			<Text>{1_Cost}. 50% 확률로 도시 근처에 야만인 유닛 2개가 생성됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL_S">
+			<Text>{2_City}에서 유목민들이 반기를 들었습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL">
+			<Text>당신의 뻔뻔한 행동이 유목민들을 화나게 했고 그들은 당신을 향해 전쟁을 선언했습니다. {2_City} 근처에 야만인 유닛 2개가 생성됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_3">
+			<Text>그들을 받아들이는 대신 그들 중 뛰어난 군인들은 우리 군에 들어오도록 하라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_3_HELP">
+			<Text>도시 근처에 군사 유닛 1개가 무료로 출현합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_4">
+			<Text>그들을 받아들이고 도시에 흡수시켜라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_4_HELP">
+			<Text>도시의 [ICON_CITIZEN]시민 +1.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS">
+			<Text>위대한 혁명</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_HELP">
+			<Text>도시에서 당신의 통치를 향한 위협은 계속해서 커지고 있고 당신의 보좌관들은 폭력 사태가 일어날 것을 우려합니다. 세력이 너무 강해지기 전에 혁명을 뿌리 뽑아야 합니다. 하지만 당신의 선택은 한정되어 있습니다:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_1">
+			<Text>그들은 이단심문관을 예상할 수 없겠지.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_1_HELP">
+			<Text>도시의 [ICON_CITIZEN]시민 -3.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2">
+			<Text>반란 세력을 꾀어내어 군사력을 동원한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2_HELP">
+			<Text>도시 주변에 반군 유닛 3개가 출현하고 도시가 1턴 동안 [ICON_RESISTANCE]저항 상태가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_3">
+			<Text>반란 세력을 격리시킨다. 그들이 도시를 점령할 수 있지만 어쩔 수 없다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_3_HELP">
+			<Text>10% 확률로 도시의 건물이 파괴됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_EVENT_PLANTATION_RARE_CROP_CHOICE_1">
+			<Text>희귀한 표본</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PLANTATION_RARE_CROP_CHOICE_1_HELP">
+			<Text>당신의 농부들은 도시 근처의 재배지에서 전에 본 적이 없는 희귀한 식물을 발견했습니다다. 연구원들은 그것을 연구하는 것에 흥분하고 있습니다! +{2_InstantYield} 획득.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW">
+			<Text>[ICON_GREAT_WORK] 걸작 훔치기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_HELP">
+			<Text>목표 도시의 무작위 [ICON_GREAT_WORK] 걸작을 훔칩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_EFFECT">
+			<Text>[ICON_GREAT_WORK] 걸작 "{2_GWName}" 을 훔쳐냈습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION">
+			<Text>[ICON_PRODUCTION] 도시 생산 사보타주</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_HELP">
+			<Text>도시가 {8_Num}턴간 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_EFFECT">
+			<Text>도시가 {8_Num}턴간 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH">
+			<Text>[ICON_PEACE] 종교 유물 빼내기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_HELP">
+			<Text>목표 도시의 턴 당 [ICON_PEACE] 신앙의 100%를 훔칩니다. 목표 도시의 종교 압력이 -100% 감소합니다. {5_Duration}간 지속됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_EFFECT">
+			<Text>각 턴마다, 100%의 [ICON_PEACE] 신앙을 훔쳤습니다. 도시의 종교 압력이 100% 감소했습니다. {5_DurationText}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
+			<Text>[ICON_GREAT_PEOPLE] 도시 전문가 납치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_HELP">
+			<Text>전문가의 [ICON_GREAT_PEOPLE] 위인 점수 -1.  {6_PlayerEventEffect}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_EFFECT">
+			<Text>전문가의 턴 당 [ICON_GREAT_PEOPLE] 위인 점수 -1. {5_Duration}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS">
+			<Text>전문가 송환</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_HELP">
+			<Text>수도 전문가의 [ICON_GREAT_PEOPLE] 위인 점수가 +1 증가합니다. {4_Duration}간 지속됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_PARENT">
+			<Text>전문가 송환</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_REPATRIATED_SPECIALISTS_PARENT_HELP">
+			<Text>수도 전문가의 턴 당 [ICON_GREAT_PEOPLE] 위인 점수 +1. </Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY">
+			<Text>[ICON_GOLD] 국고 절도</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_HELP">
+			<Text>제국 국고 [ICON_GOLD] 골드의 {8_Num}%를 훔칩니다. {7_AmountToSteal}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_EFFECT">
+			<Text>국고에서 {3_Num} [ICON_GOLD] 골드를 훔쳐냈습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_STEAL_TREASURY_AMOUNT">
+			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]훔칠 양:[ENDCOLOR] {1_Num} [ICON_GOLD] 골드</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH">
+			<Text>[ICON_RESEARCH] 기술 훔치기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_HELP">
+			<Text>선택된 무작위 기술을 훔칩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_EFFECT">
+			<Text>기술 "{1_TechName}" 을 훔쳐냈습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
+			<Text>[ICON_CITIZEN] 시골 주민 선동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_HELP">
+			<Text>개발된 모든 자원 타일을 약탈합니다. 도로나 철도가 50% 확률로 약탈됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_EFFECT">
+			<Text>도시의 모든 자원 타일과 일부 도로 및 철도가 약탈되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST">
+			<Text>[ICON_RESISTANCE] 지역 분란 조장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
+			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항하며 근처에 반란군 유닛이 출현합니다. 도시는 {8_Num}턴 동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_EFFECT">
+			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항했으며 반란군 유닛이 지역에 출현했습니다. 도시는 {8_Num}턴동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES">
+			<Text>[ICON_STRENGTH] 방어 시설 파괴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_HELP">
+			<Text>이 도시의 모든 요새를 약탈합니다. 도시를 봉쇄해 {8_Num}턴 동안 원거리 공격을 막습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_EFFECT">
+			<Text>도시 주변의 요새가 약탈당했습니다. 도시가 봉쇄되어 {8_Num} 턴 동안 원거리 공격을 수행할 수 없습니다.</Text>
+		</Row>
+
+		<!-- Counterspy -->
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_FOCUS">
+			<Text>대적 첩보 활동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_FOCUS_HELP">
+			<Text>스파이가 새로운 대적 첩보 활동을 개발했습니다. 어느 부문에 초점을 맞추시겠습니까?</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK">
+			<Text>[ICON_SPY] 대 첩보망 개설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_HELP">
+			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -20만큼 얻습니다. [NEWLINE][NEWLINE]적 [ICON_SPY] 스파이 발견 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 50 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 처치 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 150 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_EFFECT">
+			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -20만큼 얻습니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_MISSION">
+			<Text>첩보망 개설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE">
+			<Text>[ICON_STRENGTH] 도시 방비 강화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_HELP">
+			<Text>도시의 [ICON_RANGE_STRENGTH] 범위 공격이 30% 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다. 적 [ICON_SPY] 스파이 발견 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 50 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 처치 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 150 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_EFFECTS">
+			<Text>도시 [ICON_RANGE_STRENGTH] 범위 공격이 30% 강화됩니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_MISSION">
+			<Text>방비 강화</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

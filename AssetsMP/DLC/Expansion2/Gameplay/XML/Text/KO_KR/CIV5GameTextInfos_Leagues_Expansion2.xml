@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ALREADY_COMMITTED">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이번 세계 대회에서 이미 다른 문명과 대표단을 교환했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ALREADY_USED_VOTES">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이번 세계 대회에 이미 대표단을 보냈습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT">
+            <Text>다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIVE_TEXT]{1_NumVotes}명[ENDCOLOR]을 동원해 아래 [COLOR_POSITIVE_TEXT]상정이 {2_ChoiceText}[ENDCOLOR]되도록 지원할 것입니다:[NEWLINE][NEWLINE]{3_ProposalText} </Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_IN_SESSION">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]세계 대회가 진행 중일 때는 거래할 수 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO">
+            <Text>당신이 지원할 수 있는 대표단이 없어 거래할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_LEAGUE">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]아직 세계 대회가 창설되지 않았습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_PROPOSALS">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이번 세계 대회에 상정된 안건이 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_SPY">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]상대의 [ICON_CAPITAL]수도에서 [ICON_DIPLOMAT]외교관으로 활동하는 당신의 스파이가 필요합니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_SPY_ACTIVE_PLAYER">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]당신의 [ICON_CAPITAL]수도에서 [ICON_DIPLOMAT]외교관으로 활동하는 상대의 스파이가 필요합니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_THEM">
+            <Text>상대가 지원할 수 있는 대표단이 없어 거래할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NOT_MEMBER">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]세계 대회 참가국이 아닙니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT">
+            <Text>다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIVE_TEXT]{1_NumVotes}명[ENDCOLOR]을 동원해 {3_ProposalText}{3: plural 1?이; 2?가;} [COLOR_POSITIVE_TEXT]폐지되도록[ENDCOLOR] {2_ChoiceText}{2: plural 1?을; 2?를;} 지원할 것입니다.[NEWLINE][NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_YES">
+            <Text>당신이 지원할 수 있는 대표단이 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_YES_THEM">
+            <Text>상대가 지원할 수 있는 대표단이 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_ALWAYS">
+            <Text>최고로 좋아함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_DISLIKE">
+            <Text>꽤 싫어함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_LIKE">
+            <Text>꽤 좋아함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_NEUTRAL">
+            <Text>중립</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_NEVER">
+            <Text>최악으로 싫어함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_STRONG_DISLIKE">
+            <Text>매우 싫어함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_STRONG_LIKE">
+            <Text>매우 좋아함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_WEAK_DISLIKE">
+            <Text>조금 싫어함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_DESIRE_WEAK_LIKE">
+            <Text>조금 좋아함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_NOT_FOUNDED">
+            <Text>아직 세계 대회가 창설되지 않았습니다. 문명 중 하나가 {@1_TechName} 연구를 완료하고 게임에 등장하는 다른 모든 문명을 만나면 세계 대회가 시작됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_NOT_FOUNDED_GAME_SETTINGS">
+            <Text>세계 대회가 비활성화되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_1">
+            <Text>1</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_10">
+            <Text>10</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_2">
+            <Text>2</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_3">
+            <Text>3</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_4">
+            <Text>4</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_5">
+            <Text>5</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_6">
+            <Text>6</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_7">
+            <Text>7</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_8">
+            <Text>8</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_ORDINAL_9">
+            <Text>9</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW">
+            <Text>세계 대회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS">
+            <Text>비준된 결의안</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS_TT">
+            <Text>현재 효력을 발휘하는 결의안입니다. 어느 문명이든 결의안 폐지를 요청할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CHANGE_NAME">
+            <Text>이름 바꾸기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_COMMIT_PROPOSALS">
+            <Text>제의하기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_COMMIT_VOTES">
+            <Text>대표단 보내기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CONFIRM">
+            <Text>확실합니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CONFIRM_MISSING_VOTES">
+            <Text>[COLOR_WARNING_TEXT]아직 배정하지 않은 대표단이 있습니다.[ENDCOLOR] 이대로 진행하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CURRENT_PROPOSALS">
+            <Text>현재 안건</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CURRENT_PROPOSALS_TT">
+            <Text>다음 대회에서 결정할 안건입니다. 대표단의 찬반 투표로 가부가 결정됩니다. 찬성표와 반대표가 반반일 경우 안건은 무효가 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_ACTIVE_PROJECTS">
+            <Text>진행 중인 프로젝트 : {1_ProjectsList}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_ACTIVE_PROJECTS_ENTRY">
+            <Text>{@1_ProjectName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS">
+            <Text>자연 경관이 생성하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]{1_CulturePerWorldWonder}[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_WONDERS">
+            <Text>세계 불가사의가 생성하는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]{1_CulturePerWorldWonder}[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER">
+            <Text>다른 문명이 이미 연구한 기술의 [ICON_RESEARCH]연구 비용이 [COLOR_POSITIVE_TEXT]{1_ResearchCostPercent}%[ENDCOLOR] 감소</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_CITY_STATES">
+            <Text>도시 국가와 [ICON_INTERNATIONAL_TRADE]교역 [COLOR_NEGATIVE_TEXT]불가[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS">
+            <Text>다음 국가와 [ICON_INTERNATIONAL_TRADE]교역 [COLOR_NEGATIVE_TEXT]불가[ENDCOLOR] : {1_CivsList}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS_ENTRY">
+            <Text>{@1_CivName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GPT">
+            <Text>턴당 [ICON_GOLD]골드 : {1_GoldPerTurn}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_RATE_ENTRY">
+            <Text>{@1_GreatPersonType}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_TILE_IMPROVEMENT_CULTURE">
+            <Text>모든 위인 타일 시설에서 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_HOST">
+            <Text>주최국 : {@1_CivName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_LANDMARK_CULTURE">
+            <Text>모든 랜드마크에서 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NEGATIVE_GREAT_PERSON_RATE">
+            <Text>{2_GreatPersonList}의 출현율 [COLOR_NEGATIVE_TEXT]{1_GreatPersonRateMod}%[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_NUCLEAR_WEAPONS">
+            <Text>핵무기 개발 [COLOR_NEGATIVE_TEXT]금지[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_RESOURCE_HAPPINESS">
+            <Text>다음 자원으로부터 얻는 [ICON_HAPPINESS_1]행복 [COLOR_NEGATIVE_TEXT]없음[ENDCOLOR] : {1_ResourceList}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_RESOURCE_HAPPINESS_ENTRY">
+            <Text>{@1_ResourceName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NONE">
+            <Text>효과 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE">
+            <Text>{2_GreatPersonList}의 출현율 [COLOR_POSITIVE_TEXT]+{1_GreatPersonRateMod}%[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_RESOURCE_QUANTITIES">
+            <Text>추가 자원 : {1_ResourcesList}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_RESOURCE_QUANTITIES_ENTRY">
+            <Text>{@1_ResourceName}({2_ResourceQuantity})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TITLE">
+            <Text>현재 효과</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TT">
+            <Text>세계 대회의 진행으로 인하여 현재 발휘되는 효과입니다. 새 결의안이 채택되거나 기존 결의안이 폐지되면 효과가 변경됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE">
+            <Text>유닛 유지에 필요한 [ICON_GOLD]골드 [COLOR_NEGATIVE_TEXT]{1_UnitMaintenancePercent}%[ENDCOLOR] 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_IDEOLOGY">
+            <Text>세계 이념 : {@1_IdeologyName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_RELIGION">
+            <Text>세계 종교 : {1_IconString}{@2_ReligionName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ENTER_NAME">
+            <Text>새 이름 입력</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ERROR_NAME_EMPTY">
+            <Text>이름은 비워 둘 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_IN_SESSION">
+            <Text>진행 중</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_IN_SPECIAL_SESSION">
+            <Text>[COLOR_POSITIVE_TEXT]특별 회기[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INACTIVE_RESOLUTIONS">
+            <Text>가능한 안건</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INACTIVE_RESOLUTIONS_TT">
+            <Text>다른 문명이 제안할 가능성이 있는 안건입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ALREADY_ENACTED">
+            <Text>이미 효력이 발생했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ALREADY_PROPOSED">
+            <Text>이미 상정하였습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_BUTTON_TT">
+            <Text>[COLOR_GREY]지금은 이 제안을 상정할 수 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CHOICE_BUTTON_TT">
+            <Text>[COLOR_GREY]이 제안은 이미 상정되었으므로 결과가 나올 때까지 다시 상정할 수 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_GAMEOPTION">
+            <Text>이 게임에서는 사용할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_CHOICES">
+            <Text>안건의 목표를 선택할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_PLAYER_PROPOSAL">
+            <Text>단독으로 제안할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_TECH">
+            <Text>아직 {@1_TechName}{@1: plural 1?을; 2?를;} 연구한 문명이 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS">
+            <Text>{@2_CivName}의 {@1_LeaderName}{@1: plural 1?을; 2?를;} 지지하는 대표는 {3_VotesRemaining}명입니다. 이 수는 회기가 시작되면 해당 회기가 끝날 때까지 고정됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_BASE_VOTES">
+            <Text>[NEWLINE][ICON_BULLET]참가국 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CS_VOTES">
+            <Text>[NEWLINE][ICON_BULLET]도시 국가(동맹당 {2_VotesPerCityState}표) [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DIPLOMAT_VOTES">
+            <Text>[NEWLINE][ICON_BULLET]세계화 연구([ICON_DIPLOMAT]외교관 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]당 {2_VotesPerDiplomat}표) [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_EXTRA_VOTES">
+            <Text>[NEWLINE][ICON_BULLET]이전 세계 지도자 출마 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_HOST_VOTES">
+            <Text>[NEWLINE][ICON_BULLET]주최국 특권 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WONDER_VOTES">
+            <Text>[NEWLINE][ICON_BULLET]세계 불가사의 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_IDEOLOGY_VOTES">
+            <Text>[NEWLINE][ICON_BULLET]세계 이념 채택 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_RELIGION_VOTES">
+            <Text>[NEWLINE][ICON_BULLET]세계 종교 채택 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_DOF">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]상대방과의 친선 관계를 선언했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_IDEOLOGY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]상대방과 채택한 이념이 같습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_INTIMATE">
+            <Text>[NEWLINE][NEWLINE]상대방의 안건을 잘 알고 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_DOF">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]상대방과 친선 관계를 선언하지 않았습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_IDEOLOGY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]상대방과 다른 이념을 믿습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_SPY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]상대방 [ICON_CAPITAL]수도에 [ICON_DIPLOMAT]외교관으로 활동 중인 [ICON_SPY]스파이가 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NONE">
+            <Text>[NEWLINE][NEWLINE]상대방이 원하는 것을 알 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_PARTIAL">
+            <Text>[NEWLINE][NEWLINE]상대방이 원하는 것을 대략 알고 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_SPY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]상대방 [ICON_CAPITAL]수도에 [ICON_DIPLOMAT]외교관으로 활동 중인 [ICON_SPY]스파이가 있습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_COMMITMENT">
+            <Text>[NEWLINE][NEWLINE]거래로 인해 그들은 {1_Proposal}에 {2_VoteChoice}하기 위해 {3_NumDelegates}표를 지원하기로 했습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_INTIMATE">
+            <Text>[NEWLINE][ICON_BULLET]{1_Proposal}에 {2_VoteChoice}[ENDCOLOR]{1: plural 1?을; 2?를;} [COLOR_POSITIVE_TEXT]{3_DesireLevel}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_NONE">
+            <Text>[NEWLINE][ICON_BULLET]{1_Proposal}에 대해 예상할 수 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_PARTIAL">
+            <Text>[NEWLINE][ICON_BULLET]{1_Proposal}에 {2_VoteChoice}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTES">
+            <Text>[NEWLINE][NEWLINE]상대방이 현재 안건에 대해 취할 행동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_VOTES">
+            <Text>{1_VotesRemaining}표 남음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_OTHER_RESOLUTIONS">
+            <Text>다른 결의안</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_OTHER_RESOLUTIONS_TT">
+            <Text>현재 상정할 수 없는 결의안입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_ENACT">
+            <Text>[COLOR_POSITIVE_TEXT]제정 : [ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_REPEAL">
+            <Text>[COLOR_WARNING_TEXT]폐지 : [ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_ON_HOLD_TT">
+            <Text>세계 대회가 특별 회기를 종료할 때까지 이 결의안은 보류됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINION">
+            <Text>[NEWLINE][ICON_BULLET]{@1_CivName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEGATIVE">
+            <Text>[NEWLINE][NEWLINE][COLOR:255:255:255:255]이 안건을 상정할 경우 관계가 [COLOR_NEGATIVE_TEXT]악화[ENDCOLOR]될 문명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_POSITIVE">
+            <Text>[NEWLINE][NEWLINE][COLOR:255:255:255:255]이 안건을 상정할 경우 관계가 [COLOR_POSITIVE_TEXT]향상[ENDCOLOR]될 문명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_BUTTON">
+            <Text>상정하려면 클릭</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_BUTTON_TT">
+            <Text>결의안을 상정하려면 클릭하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_RESOLUTION">
+            <Text>안건 상정</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_DELEGATION_SIZE">
+            <Text>상대방이 이번 대회에 개최국이 아니었고 가장 많은 지지를 받은 문명이므로 다음 대회에 안건을 상정할 수 있습니다. 이번 대회가 끝나기 전에 지지율이 바뀌면 다른 문명이 다음 대회에서 안건을 상정하게 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_HOSTING">
+            <Text>상대방이 개최국이므로 다음 대회에서 안건을 상정할 수 있습니다. 이번 대회가 끝나기 전에 개최국이 바뀌면 새로운 개최국이 안건을 상정하게 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_ROTATION">
+            <Text>상대방이 다음에 안건을 상정할 차례입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSERS_LIST">
+            <Text>다음으로부터 상정되기를 기다리는 결의안 : </Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RENAME">
+            <Text>이름 바꾸기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RENAME_TT">
+            <Text>세계 대회의 새로운 이름을 선택하세요.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RESET_PROPOSALS">
+            <Text>안건 초기화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RESET_VOTES">
+            <Text>대표단 초기화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_TURNS_UNTIL_SESSION">
+            <Text>다음 세계 대회까지 남은 턴 : {1_NumTurnsUntilNextVote}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VIEW_ALL_RESOLUTIONS">
+            <Text>모든 결의안 보기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_ABSTAIN">
+            <Text>기권</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_NAY">
+            <Text>[COLOR_RED]반대[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS">
+            <Text>[NEWLINE][NEWLINE]다른 문명이 원하는 바를 토대로 예상한 우리 문명 지지율 :</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_CHOICE">
+            <Text>[NEWLINE][ICON_BULLET]{3_VoteChoice} : {1_NumDelegates}표(문명 {2_NumCivs}개)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_COMMITMENTS">
+            <Text>[NEWLINE][ICON_BULLET]{3_VoteChoice} : {2_NumCivs}개 문명 ({1_NumDelegates}표)이 지지합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_OURS">
+            <Text>[NEWLINE][ICON_BULLET]우리 문명은 {1_NumDelegates}표의 영향력을 행사할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_UNACCOUNTED">
+            <Text>[NEWLINE][ICON_BULLET]{2_NumCivs}개 문명({1_NumDelegates}표)에서 아직 태도를 정하지 않았습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_YAY">
+            <Text>[COLOR_GREEN]찬성[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTES_REMAINING">
+            <Text>남은 표 : {1_VotesRemaining}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_SESSION">
+            <Text>다음 세계 지도자 제안까지 남은 턴 : [COLOR_POSITIVE_TEXT]{1_DelegatesForWin}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_TT">
+            <Text>세계 대회가 국제 연합이 되었으므로 이제 외교 승리가 가능합니다. 외교 승리를 위해서는 반드시 {1_DelegatesForWin}표 이상의 지지를 받아야 하며, 필요한 표의 수는 게임 내 문명과 도시 국가의 수에 따라 달라집니다.[NEWLINE][NEWLINE]세계 지도자 안건은 2회기 마다 한 번씩 다루어지며 일반 안건들을 처리하는 일반 회기와 번갈아 가며 열립니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_VOTES">
+            <Text>세계 지도자가 되는 데 필요한 표 : [COLOR_POSITIVE_TEXT]{1_DelegatesForWin}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_COST_PER_PLAYER">
+            <Text>문명당 {1_ProductionCostPerPlayer} [ICON_PRODUCTION]생산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION">
+            <Text>국제 우주 정거장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION_SPLASH">
+            <Text>국제 우주 정거장이 완성되어 대기권 밖으로 발사되었습니다. 우주를 개척하는 새로운 시대가 열렸습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_COMPLETE">
+            <Text>완료!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_PROGRESS_COST">
+            <Text>이 프로젝트는 {1_PercentComplete}% 완료되었습니다. 당신 문명의 기여도는 [ICON_PRODUCTION] [COLOR_POSITIVE_TEXT]{2_PlayerContribution}[ENDCOLOR]입니다. 기여도가 높을수록 프로젝트가 완료되었을 때 받는 보상이 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_TOTAL_COST">
+            <Text>이 프로젝트를 완료하려면 {1_TotalCost} [ICON_PRODUCTION]생산이 필요합니다. 기여도가 높을수록 프로젝트가 완료되었을 때 받는 보상이 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_DESC">
+            <Text>{1_RewardIconString} {2_RewardDescription} {3_Contribution} : {4_RewardDetails}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1">
+            <Text>부품 완성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP">
+            <Text>한 번의 [COLOR_POSITIVE_TEXT]연구 가속[ENDCOLOR]이 발생합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2">
+            <Text>승무원 탑승</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP">
+            <Text>[ICON_GREAT_SCIENTIST][COLOR_POSITIVE_TEXT]위대한 과학자[ENDCOLOR]가 1명 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3">
+            <Text>우주 비행 관제 센터</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP">
+            <Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]국제 우주 정거장[ENDCOLOR] 불가사의가 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_NONE">
+            <Text>보상 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_NONE_HELP">
+            <Text>보상을 받을 만큼 프로젝트에 기여하지 않았습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_1">
+            <Text>([ICON_PRODUCTION]생산 {1_ContributionThreshold} 이상)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_2">
+            <Text>([ICON_PRODUCTION]생산 {1_ContributionThreshold} 이상)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_3">
+            <Text>(최다 공로자)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1">
+            <Text>전시회 주최</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP">
+            <Text>다음 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]500[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2">
+            <Text>새로운 발명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP">
+            <Text>[COLOR_MAGENTA]무료 사회 정책[ENDCOLOR]이 제공됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3">
+            <Text>박람회 주최</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP">
+            <Text>20턴 동안 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1">
+            <Text>만국 행진</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP">
+            <Text>[ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2">
+            <Text>메달 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP">
+            <Text>[ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 도시 국가 [ICON_INFLUENCE]영향력이 한 번 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3">
+            <Text>경기 개최</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]20턴[ENDCOLOR] 동안 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. [COLOR_MAGENTA]무료 사회 정책[ENDCOLOR]이 제공됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR">
+            <Text>만국 박람회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR_SPLASH">
+            <Text>전 세계의 사상가와 발명가가 모여 서로의 생각을 공유하는 박람회입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES">
+            <Text>국제 스포츠 대회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES_SPLASH">
+            <Text>전 세계의 문명을 대표하는 운동선수가 모여 힘과 기량, 예술성을 겨루는 국제 경기입니다. 전 세계가 지켜보는 경기에서 각 문명은 메달의 영광을 얻기 위해 경쟁합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL">
+            <Text>세계 대회 기반 확장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL_HELP">
+            <Text>각국이 크고 작은 사안에 대해 내는 목소리와 국제 정세가 더욱 복잡해지고 있습니다. 세계 대회를 이끌 차기 개최국을 선정하기 위한 특별 회기가 마련되었습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS">
+            <Text>국제 연합이 된 세계 대회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS_HELP">
+            <Text>지속적인 세계 평화에 대한 염원이 뿌리를 내리고 있는 국제 대회가 국제 연합으로 새롭게 태어났습니다. 새롭게 탄생한 강력한 외교 기관인 국제 연합의 개최국 선정을 위한 특별 회기가 소집되었습니다. 국제 연합은 국제 대회와 같은 방식으로 의사결정을 진행할 것입니다. 하지만 일반 회기와 교대로 열리는 세계 지도자 선출을 위한 회기가 교대로 열리며 [COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]가 가능해집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS">
+            <Text>세계 대회 창설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS_HELP">
+            <Text>국제 문제에 대한 논의를 시작하기 위해 전 세계의 지도자들이 세계 대회에 모였습니다. 세계 대회의 첫 번째 결정 사항은 개최지 선정입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES">
+            <Text>도시 국가를 맞이하는 세계 대회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES_HELP">
+            <Text>도시 국가가 세계 무대에서 입지를 다지며 공식적으로 국제 외교 무대에 발을 들였습니다. 이제 도시 국가와 동맹을 맺은 문명은 추가 대표단을 확보할 수 있습니다. 이와 같은 변화에 따라 세계 대회는 차기 개최지 선정을 위한 특별 회기를 소집했습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_CITYSTATE_DELEGATES">
+            <Text>[ICON_BULLET] 도시 국가 동맹당 {1_NumDelegates}표 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_CIV_DELEGATES">
+            <Text>[ICON_BULLET] 다른 문명 {1_NumDelegates}표</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_DIPLO_VICTORY_POSSIBLE">
+            <Text>[ICON_BULLET] 교차 회기에 [COLOR_POSITIVE_TEXT]세계 지도자[ENDCOLOR] 제안</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_HOST_DELEGATES">
+            <Text>[ICON_BULLET] 개최국 {1_NumDelegates}표</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_NO_CHANGE">
+            <Text>[ICON_BULLET] 변화 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_FOUNDED">
+            <Text>{@1_CivName}{@1: plural 1?이; 2?가;} 세계의 모든 문명을 발견했습니다. 이 사실을 기념하기 위해 전 세계의 지도자가 {3_TurnsUntilSession}턴 후에 {2_LeagueName}에 모여 다국적 외교에 관해 토론합니다. 문명이 발전할수록 세계 대회는 변화하게 되며 새로운 개최국 선거가 이루어질 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_GAME_ERA">
+            <Text>세계가 {@1_EraName}로 접어들었습니다. 절반 이상의 문명이 해당 시대로 발전한 상태이거나 한 문명이 {@1_EraName}보다 1단계 더 발전한 상태입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_NEXT_ERA">
+            <Text>다음 시대 :</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_THIS_ERA">
+            <Text>현재 시대 :</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_SPLASH_TITLE_FOUNDED">
+            <Text>세계 대회 창설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_UNITED_NATIONS">
+            <Text>국제 연합</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_1">
+            <Text>{@1_Ordinal}차 {@2_CityName} 회의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_2">
+            <Text>{@1_Ordinal}차 {@2_CityName} 회의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_3">
+            <Text>{@1_Ordinal}차 {@2_CityName} 회의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_GENERIC">
+            <Text>세계 대회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_COMPLETE">
+            <Text>{@1_ProjectName} 완료</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_COMPLETE_TT">
+            <Text>{@1_ProjectName} 프로젝트를 완료했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_PROGRESS">
+            <Text>{@1_ProjectName} 업데이트</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_PROGRESS_TT">
+            <Text>{@1_ProjectName} 프로젝트가 현재 [COLOR_POSITIVE_TEXT]{2_PercentComplete}[ENDCOLOR]% 완료되었습니다. 프로젝트에 기여하고 보상을 받으려면 도시의 생산 목록에서 해당 프로젝트를 선택하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROPOSALS_NEEDED">
+            <Text>제안하기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROPOSALS_NEEDED_TT">
+            <Text>이제 {1_LeagueName}에 제안할 차례입니다. 새 안건을 제안하거나 기존 결의안을 폐지할 수 있습니다. 당신과 {1_LeagueName}의 다른 회원이 다음 회의에서 당신이 상정한 안건을 투표합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTES_NEEDED">
+            <Text>대표단 선정</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTES_NEEDED_TT">
+            <Text>{1_LeagueName}에 보낼 당신의 대표단이 명령을 기다리고 있습니다. 현재 안건에 대표단을 배분하여 지원하면 좋은 결과를 얻을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_DONE">
+            <Text>대회 종료</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_DONE_TT">
+            <Text>{1_LeagueName}에 상정한 안건의 결과가 나왔습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_ENACT_FAIL">
+            <Text>아래 안건은 부결되었습니다[NEWLINE]{1_ResolutionName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_ENACT_PASS">
+            <Text>아래 안건이 제정되었습니다[NEWLINE]{@1_ResolutionName}[NEWLINE]해당 결의안의 효과가 [COLOR_POSITIVE_TEXT]활성화[ENDCOLOR]되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_FAIL_SUMMARY">
+            <Text>{1_ResolutionName} 실패</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_CHANGED_SUMMARY">
+            <Text>{@1_CivName}{@1: plural 1?이; 2?가;} 개최지로 선정되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_DETAILS">
+            <Text>{1_LeagueName}의 특별 회기에서 {@2_CivName}{@2: plural 1?이; 2?가;} 차기 개최지로 선정되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_SAME_SUMMARY">
+            <Text>{@1_CivName}{@1: plural 1?이; 2?가;} 개최지를 연임합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_MEMBER_VOTE">
+            <Text>[ICON_BULLET]{@3_CivName}[ENDCOLOR]에서 {2_ResolutionChoiceText}[ENDCOLOR] [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_PASS_SUMMARY">
+            <Text>{1_ResolutionName} 통과</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_REPEAL_FAIL">
+            <Text>아래 안건은 통과되지 않았습니다[NEWLINE]{1_ResolutionName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_REPEAL_PASS">
+            <Text>아래 안건이 통과되었습니다[NEWLINE]{1_ResolutionName}[NEWLINE]해당 결의안의 효과가 [COLOR_WARNING_TEXT]비활성화[ENDCOLOR]되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL">
+            <Text>선출된 세계 지도자 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL_DETAILS">
+            <Text>어느 문명도 세계 지도자 결의안의 조건을 충족시킬 {1_NumDelegates}표를 얻지 못했습니다. 대신 가장 많은 지지를 확보한 상위 {2_NumCivilizations}개의 문명이 영구적으로 추가 대표단을 확보했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS">
+            <Text>{@1_CivName}{@1: plural 1?이; 2?가;} 세계 지도자가 되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS_DETAILS">
+            <Text>{1_NumDelegates}표를 확보한 {@2_CivName}{@2: plural 1?이; 2?가;} 세계 지도자로 선출되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_SOON">
+            <Text>다음 대회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_SOON_TT">
+            <Text>{2_TurnsUntilSession}턴 후에 {1_LeagueName}에서 다음 제안에 대해 논의할 예정입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO">
+            <Text>도시 국가와 무역 금지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO_HELP">
+            <Text>회원국은 도시 국가와 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없습니다. 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_ARTS_FUNDING">
+            <Text>예술 기금</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP">
+            <Text>위대한 작가, 예술가 및 음악가의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 과학자, 기술자 및 상인의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS">
+            <Text>사치 자원 수입 금지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP">
+            <Text>비도덕적이거나 멸종 위기에 처했거나 기타 이유가 있는 사치 자원은 일반 대중이 구매할 수 없습니다. 금지령이 내려져 있는 한, 이 사치 자원으로부터 [ICON_HAPPINESS_1]행복을 얻을 수 [COLOR_NEGATIVE_TEXT]없습니다[ENDCOLOR].</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST">
+            <Text>주최국 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST_HELP">
+            <Text>세계 대회 주최국을 선정합니다. 주최국이 되면 [COLOR_POSITIVE_TEXT]추가 대표단[ENDCOLOR]을 확보하며 결의안을 제안할 수 있습니다.[NEWLINE][NEWLINE]한 문명이 단독으로 제안할 수 없습니다. 후기 시대로 접어들면 자동으로 제안이 이루어집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY">
+            <Text>(자리표시자)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_IDEOLOGY">
+            <Text>{@1_IdeologyName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_IDEOLOGY_YOU">
+            <Text>{@1_IdeologyName}(당신)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_NO">
+            <Text>거부</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_PLAYER">
+            <Text>{@1_CivName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_PLAYER_YOU">
+            <Text>{@1_CivName}(당신)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RELIGION">
+            <Text>{1_IconString}{@2_ReligionName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RELIGION_YOU">
+            <Text>{1_IconString}{@2_ReligionName}(당신)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RESOURCE">
+            <Text>{1_IconString}{@2_ResourceName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CHOICE_YES">
+            <Text>찬성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CITY_STATE_AID">
+            <Text>도시 국가 원조</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CITY_STATE_AID_HELP">
+            <Text>도시 국가가 아닌 모든 회원국은 소유한 [ICON_GOLD]골드의 20%를 도시 국가 회원에게 기부합니다. 도시 국가와의 관계가 안 좋았다면 [ICON_INFLUENCE]영향력이 0으로 재설정됩니다. 반복하면 아무 효과도 발휘하지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES">
+            <Text>문화 유산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES_HELP">
+            <Text>세계 불가사의의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_ANY_LUXURY_RESOURCE">
+            <Text>결의안의 목표 사치 자원 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_ANY_MEMBER">
+            <Text>결의안의 목표 회원국 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_CITY">
+            <Text>결의안의 목표 도시 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_HIGH_DELEGATE_MEMBER">
+            <Text>많은 표를 확보한 문명을 선택({1_NumDelegates}표 이상)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_IDEOLOGY">
+            <Text>결의안이 효력을 발휘하기 위해 이념을 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_MAJOR_CIV_MEMBER">
+            <Text>결의안의 목표 문명 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_NONE">
+            <Text>결정 사항 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_OTHER_MAJOR_CIV_MEMBER">
+            <Text>결의안의 목표 문명(자신 제외) 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_RELIGION">
+            <Text>결의안이 효력을 발휘하기 위해 종교를 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_REPEAL">
+            <Text>이 결의안의 폐기 여부</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DECISION_YES_OR_NO">
+            <Text>찬성 또는 반대 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DIPLO_VICTORY">
+            <Text>세계 지도자</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP">
+            <Text>세계 지도자를 선출합니다. 한 문명이 세계 대회에서 충분한 표를 확보하면 [ICON_VICTORY_DIPLOMACY][COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]를 달성하게 됩니다. 외교 승리를 달성하는 데 필요한 대표단의 수는 게임 내 문명과 도시 국가의 수에 따라 달라지며, 세계 대회 화면에서 확인할 수 있습니다.[NEWLINE][NEWLINE]세계 지도자 결의안 조건을 충족시킬 정도의 지지를 확보한 문명이 없다면, 가장 많은 지지를 확보한 상위 두 개의 문명이 향후 회기에서 사용할 수 있는 추가 대표단 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]을 영구히 확보합니다.[NEWLINE][NEWLINE]한 문명이 단독으로 제안할 수 없습니다. 세계 대회가 국제 연합이 되면 정기적으로 자동 제안이 이루어집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_GOLD_FOR_EVERYONE">
+            <Text>모두를 위한 골드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_GOLD_FOR_EVERYONE_HELP">
+            <Text>회원국 전원이 [ICON_GOLD]골드를 100만큼 획득합니다. 반복하면 아무 효과도 발휘하지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_GPT_FOR_EVERYONE">
+            <Text>도시 국가 세금</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_GPT_FOR_EVERYONE_HELP">
+            <Text>도시 국가의 [ICON_INFLUENCE]영향력이 더 빨리 낮아지지만 도시 국가와 연결된 [ICON_INTERNATIONAL_TRADE]교역로는 추가 [ICON_GOLD]골드를 생산합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS">
+            <Text>역사적 랜드마크</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP">
+            <Text>위인 타일의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 고고학자가 건설하는 랜드마크의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고고학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION">
+            <Text>국제 우주 정거장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP">
+            <Text>국제 우주 정거장 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD] : {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER] : {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE] : {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]인공위성을 연구한 문명이 생기면 프로젝트를 시작할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT">
+            <Text>상주 학자</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+            <Text>최소한 한 문명에 의해 연구된 기술을 개발할 때 필요한 연구 비용이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES">
+            <Text>자연 문화 유산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP">
+            <Text>시민을 투입한 자연 경관의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION">
+            <Text>핵 확산 금지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+            <Text>모든 문명은 새로운 [COLOR_NEGATIVE_TEXT]원자폭탄[ENDCOLOR] 및 [COLOR_NEGATIVE_TEXT]핵미사일[ENDCOLOR]을 생산할 수 없습니다. 이미 제조된 핵무기는 유지할 수 있습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]고등 탄도학[ENDCOLOR]을 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_PLAYER_EMBARGO">
+            <Text>통상 금지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP">
+            <Text>해당 문명과 [ICON_INTERNATIONAL_TRADE]교역로를 연결할 수 없습니다. 기존 교역로는 [COLOR_NEGATIVE_TEXT]취소[ENDCOLOR]되며 다른 장소와 연결해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_RESOURCE_FOR_EVERYONE">
+            <Text>모두를 위한 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_RESOURCE_FOR_EVERYONE_HELP">
+            <Text>이 결의안이 효과를 발휘하는 한, 모든 회원국은 무작위 자원 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 추가로 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_SCIENCES_FUNDING">
+            <Text>과학 기금</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP">
+            <Text>위대한 과학자, 기술자 및 상인의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 작가, 예술가 및 음악가의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX">
+            <Text>상비군 세금</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP">
+            <Text>유닛 유지에 필요한 [ICON_GOLD]골드가 [COLOR_NEGATIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_WORLD_FAIR">
+            <Text>만국 박람회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_WORLD_FAIR_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]만국 박람회[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면, 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD] : {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER] : {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE] : {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_WORLD_GAMES">
+            <Text>국제 스포츠 대회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_WORLD_GAMES_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]국제 스포츠 대회[ENDCOLOR] 프로젝트를 시작합니다. 프로젝트가 시작되면 도시의 생산 목록에서 해당 프로젝트를 선택해 프로젝트에 기여할 수 있습니다. 프로젝트가 완료되면, 프로젝트에 참여한 문명은 기여한 [ICON_PRODUCTION]생산에 따라 보너스를 받게 됩니다.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD] : {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP}[NEWLINE][ICON_TROPHY_SILVER] : {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE] : {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP}[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY">
+            <Text>세계 이념</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP">
+            <Text>한 이념을 공식 세계 이념으로 지정합니다. 해당 이념을 따르는 문명은 추가 대표단 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]을 확보합니다. 해당 이념을 지지하는 여론이 모든 문명에서 증가합니다. 세계 이념은 한 번에 하나만 존재할 수 있습니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]라디오[ENDCOLOR]를 연구한 문명이 있어야 안건으로 채택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION">
+            <Text>세계 종교</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP">
+            <Text>한 종교를 공식 세계 종교로 지정합니다. 제국 안의 도시 다수가 해당 종교를 따르는 문명은 추가 대표단 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]을 확보합니다. 해당 종교는 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 빨리 전파되며, 해당 종교의 성도는 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 더 획득합니다. 세계 종교는 한 번에 하나만 존재할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRADE_ITEM_VOTES">
+            <Text>세계 대회</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_TOPIC">
+			<Text>[COLOR_GREEN]시대별 보정[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_SUMMARY">
+			<Text>여러 산출물, 특히 정책, 교리, 건물 등의 산출물은 [COLOR_POSITIVE_TEXT]''시대별 보정''[ENDCOLOR]이 있습니다. 이것은 산출량이 게임 단계에 따라, 더 정확히는 현재 시대에 따라 선형적으로 증가한다는 뜻입니다:[NEWLINE]1배: 고대 및 고전 시대[NEWLINE]2배: 중세 시대[NEWLINE]3배: 르네상스 시대[NEWLINE]4배: 산업 시대[NEWLINE]5배: 현대 시대[NEWLINE]6배: 원자력 시대[NEWLINE]7배: 정보화 시대[NEWLINE][NEWLINE]한국과 같은 특수한 경우, 홀수 시대마다 보정을 받기도 합니다:[NEWLINE]1배: 고대 및 고전 시대[NEWLINE]2배: 중세 및 르네상스 시대[NEWLINE]3배: 산업 및 현대 시대[NEWLINE]4배: 원자력 및 정보화 시대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_ADVISOR_QUESTION">
+			<Text>시대별 보정이 무엇입니까?</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_TOPIC">
+			<Text>[COLOR_GREEN]도시 국가 대사관[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_SUMMARY">
+			<Text>도시 국가 대사관은 세계 의회에서 대표를 얻기 위한 추가적인 방법입니다. 도시 국가에 대사관을 설립하려면 위대한 외교관을 도시 국가의 지상 타일로 이동하고 "대사관 설립"을 선택하십시오. 대사관은 세계 의회에서 1명의 대표단을 추가로 부여합니다. 각 도시 국가에서는 문명에 의해 하나의 대사관만 설립될 수 있습니다. 그러니 서두르십시오. 문명이 정복되면, 모든 도시 국가 대사관은 정복 중인 문명으로 옮겨집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_QUESTION">
+			<Text>도시 국가 대사관이 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_HISTORIC_EVENT">
+			<Text>[COLOR_GREEN]역사적 사건[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HISTORIC_EVENT_BODY">
+			<Text>역사적 사건은 게임 중에 발생할 수 있는 기념비적인 업적을 말합니다. 역사적 사건은 계획 또는 사용자 상호 작용이 필요하므로 다른 문명에 대한 문화적 영향력을 얻는 역동적인 방법입니다. 다음 역사적 이벤트 중 하나가 완료되면 최근 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 산출을 기반으로 알려진 모든 문명에게 [ICON_TOURISM] 관광 부스트를 받습니다: [NEWLINE][NEWLINE][ICON_BULLET] [ICON_GREAT_PEOPLE] 위인 획득[NEWLINE][ICON_BULLET] [ICON_WONDER] 세계 불가사의 건설[NEWLINE][ICON_BULLET] [ICON_WAR] 전쟁 승리 (전쟁 점수 25+)[NEWLINE][ICON_BULLET] [ICON_RESEARCH] 새 시대 진입[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 황금기 진입 (미학)[NEWLINE][ICON_BULLET] [ICON_RES_ARTIFACTS] / [ICON_RES_HIDDEN_ARTIFACTS] 고대 유적지 발굴 완료 (미학)[NEWLINE][ICON_BULLET] [ICON_CARAVAN] 주요 문명과 교역 (대상 숙소 등)[NEWLINE][ICON_BULLET] [ICON_CARGO_SHIP] 주요 문명과 교역 (항만 등)[NEWLINE][ICON_BULLET] [ICON_CARAVAN]/[ICON_CARGO_SHIP] [ICON_CITY_STATE] 도시 국가와 교역 (정책)[NEWLINE][NEWLINE]이 이벤트에서 받는 관광의 양은 지난 몇 턴 동안의 턴당 문화 및 관광을 기반으로 합니다. 이 값은 제국의 도시 수와 대상 문명의 관광 보정치에 따라 조정됩니다. 마지막으로, 당신이 받는 관광의 양은 또한 몇 가지 사회 정책과 이데올로기적 신조뿐만 아니라 지도자 특성, 건물, 제국의 도시 수에 의해 수정됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HISTORIC_EVENT_QUEST">
+			<Text>역사적 사건이 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE">
+			<Text>[COLOR_GREEN]저항[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE_BODY">
+			<Text>저항은 하나 이상의 수도를 정복한 문명이 추가 수도를 점령하는 것이 점점 더 어려워지는 메커니즘입니다. 전투 중에 보정치 [COLOR_POSITIVE_TEXT]저항(지배)[ENDCOLOR]이 자신(보너스) 또는 적(페널티)에 표시되는 것을 볼 수 있습니다. 이 보정치는 당신이나 당신의 상대가 적 수도를 점령한 후에만 나타납니다. 보정치는 소유한 외국(도시 국가가 아닌) 수도의 수와 총 외국 수도의 수에 따라 변경됩니다. 한 플레이어가 더 많은 수도를 점령할수록 이 페널티는 더 높아집니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE_QUEST">
+			<Text>저항이 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_PARTISANS">
+			<Text>[COLOR_GREEN]반란군[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_PARTISANS_BODY">
+			<Text>도시를 파괴하기로 선택하면 매 턴마다 도시가 이 도시를 정복한 문명에 충성하는 반란군이 생성될 수 있습니다. 이 유닛은 문명과 아직 전쟁 중인 경우에만 생성됩니다. 더 이상 전쟁 중이 아닌 경우 생성된 반란군은 야만인으로 간주됩니다. 반란군의 갑작스러운 출현으로 전세를 역전시킬 수 있으므로 공격적으로 파괴하는 적의 도시에 주의하십시오!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_PARTISANS_QUEST">
+			<Text>반란군이 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_COMBAT_WAR_WEARINESS_HEADING3_TITLE">
+			<Text>[COLOR_GREEN]전쟁 피로도[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_WAR_WEARINESS_HEADING3_BODY">
+			<Text>전쟁, 전쟁은 절대 변하지 않습니다. 글쎄요, 실제로 그렇습니다. 전쟁 진행됨에 따라 제국의 시민들은 장기간의 분쟁의 위험을 점점 더 인식하게 되며 [COLOR_NEGATIVE_TEXT]전쟁 피로도[ENDCOLOR]를 증가시킬 것입니다. 전쟁 피로도는 우선 각 플레이어마다 세 가지 요인을 기반으로 계산됩니다. 그 플레이어와의 전쟁 턴수, 당신이 그 플레이어에게 입은 피해, 그들에게 입힌 피해의 절반입니다. 이 값을 유닛 및 도시의 현재 전력과 비교하여 (최대 100%) 각 플레이어 중 가장 높은 % 패널티를 당신 제국에 적용합니다. 플레이어의 유리한 평화 협정을 막기 위해, 플레이어가 도시 점령 시 해당 플레이어와의 전쟁 피로도 갱신은 2턴 동안 일시 중지됩니다. AI는 평화 협정이 가능하지만, 평화 협정을 원하지 않는다면 마찬가지로 무시될 것입니다. [NEWLINE][NEWLINE]추가로, 평화 협정을 진행하면 다른 문명과의 전쟁 피로도가 즉시 절반으로 줄어들고, 도시를 해방하면 모든 문명과의 전쟁 피로도가 25% 줄어듭니다. [NEWLINE][NEWLINE]전쟁 피로도가 발생하면 세 가지 주요 효과가 발생합니다.[NEWLINE][ICON_BULLET] 전쟁 피로로 인한 불행[NEWLINE][ICON_BULLET] 군사 유닛의 생산 및 골드 비용 증가[NEWLINE][ICON_BULLET] 군사 보급 한도 최대값 감소[NEWLINE]후자의 두 상한은 75%입니다. 단일 충돌 시 과도한 확장에 주의하십시오!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_WAR_WEARINESS_ADV_QUEST">
+			<Text>전쟁 피로도가 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MILITARY_SUPPLY_HEADING3_TITLE">
+			<Text>[COLOR_GREEN]군사 보급[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARY_SUPPLY_HEADING3_BODY">
+			<Text>한 번에 배치할 수 있는 최대 군사 유닛 수를 군사 보급 한도라고 합니다. 상단 패널의 [ICON_WAR] 기호 옆에 표시된 이 숫자는 두 가지 요인에 따라 증가합니다. 모든 도시의 총 인구와 군사 보급 한도를 증가시키는 건물 또는 정책입니다. 병영과 같은 일부 건물은 보급 한도를 고정된 양만큼 늘립니다. 성벽과 같은 다른 것들은 도시 인구의 일정 비율만큼 보급 한도를 증가시킵니다.[NEWLINE][NEWLINE] 군사 보급 한도는 병영과 같은 정적 요소에서 증가하고 시간이 지남에 따라 인구로 인한 퍼센트 보너스는 제국의 기술 수준에 따라 감소합니다. 이를 극복하고 대규모 군대를 배치하려면 점점 더 많은 퍼센트 보너스가 필요합니다![NEWLINE][NEWLINE]어떤 이유로든 군사 유닛 보급 한도를 초과하면 모자란 유닛마다 모든 도시에서 5%의 생산 및 식량이 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARY_SUPPLY_ADV_QUEST">
+			<Text>군사 보급이 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_CANALS_TITLE">
+			<Text>[COLOR_GREEN]운하[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CANALS_BODY">
+			<Text>해안 타일 옆에 건설된 소유한 요새 및 성채는 운하로 간주되며 군함이 지나갈 수 있습니다. 운하를 건설하여 호수(그리고 호수 옆의 도시)와 바다를 연결할 수 있습니다. 인접한 2개의 요새나 인접한 2개의 성채를 갖는 것은 불가능하지만, 하나의 요새와 하나의 성채는 서로 옆에 지을 수 있습니다. 운하로 바다와 연결된 호수 옆의 도시는 해상 유닛을 생산할 수 있으며 (해안 건물은 지을 수 없음), 운하는 소유 및 외국 화물선에 의해 사용될 수도 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CANALS_ADV_QUEST">
+			<Text>운하가 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_TITLE">
+			<Text>[COLOR_GREEN]스파이 포인트[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_BODY">
+			<Text>[ICON_VP_SPY_POINTS] 스파이 포인트가 특정 임계치 (기본: 100)에 다다랐을 때 새로운 스파이를 얻습니다. 이 값은 게임이 시작할 때의 주요 문명과 도시 국가의 수에 따라 감소합니다. 어떤 문명이 처음으로 르네상스 시대에 도달하거나 당신이 그 다음 시대에 도달할 때마다 [ICON_VP_SPY_POINTS] 스파이 포인트를 100 얻습니다. 일부 건물과 시설도 [ICON_VP_SPY_POINTS] 스파이 포인트를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_ADV_QUEST">
+			<Text>스파이 포인트가 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_TITLE">
+			<Text>[COLOR_GREEN]도시의 지역 행복[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_BODY">
+			<Text>도시의 지역 행복은 다음과 같이 결정됩니다: [NEWLINE][NEWLINE]일부 행복은 도시에서 직접 발생합니다. 건물, 정책, 세계 불가사의, 작업 중인 랜드마크가 가능합니다. [NEWLINE][NEWLINE]제국 전체에서 오는 행복은 모든 도시에 분산됩니다. 이것은 자동으로 결정되는데, 인구와 행복이 같아질 때까지는 인구보다 지역 행복이 적은 도시들을 우선합니다. 모든 도시의 인구와 행복이 같아지면, 가장 높은 인구부터 순서대로 나머지 행복이 분배됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_ADV_QUEST">
+			<Text>지역 도시 행복은 어떻게 결정되나요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_TITLE">
+			<Text>[COLOR_GREEN]요구 임계값 계산[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_BODY">
+			<Text>요구 불행은 인구당 도시의 산출량을 특정 기준인 요구 임계값과 비교해 발생합니다. 이러한 값은 인구당 산출량의 전역 중간값 (즉, 전 세계 도시의 정확히 50%를 초과하는 인구당 산출량)을 기반으로 합니다. 중앙값을 계산할 때 인구가 최소 3명인 도시만 계산해 극초반 불행이 완화됩니다. 요구 입계값은 각 도시의 여러 보정치에 의해 수정됩니다. 긍정적인 요구 보정치는 임계값에 도달하는 것을 어렵계 하는 반면 부정적인 요구 보정치는 임계값을 감소시킵니다. 다음 보정치들이 항상 적용됩니다: [NEWLINE] [COLOR_NEGATIVE_TEXT]수도 상태[ENDCOLOR]: 수도에서는 요구 임계값이 25% 증가합니다.[NEWLINE] [COLOR_NEGATIVE_TEXT]제국 크기[ENDCOLOR]: 제국의 각 도시 (수도 및 괴뢰 도시 제외)마다 요구 임계값이 5% 증가합니다. 또한, 제국의 각 시민 (수도 및 괴뢰 도시 제외) 8명마다 1% 증가합니다.[NEWLINE] [COLOR_POSITIVE_TEXT]난이도[ENDCOLOR]: "개척자" 난이도와 "족장" 난이도에서 플레이어의 임계값이 줄어들고 AI의 임계값은 늘어납니다. 족장 난이도보다 높은 난이도에서는 이 변동치는 없습니다.[NEWLINE][NEWLINE]특정 정책 및 스파이 이벤트는 도시의 요구 임계값을 바꿀 수 있습니다. 또한 생산을 다른 산출로 변환하면 변환 비율과 동일하게 요구 임계값을 감소시킵니다. (발전소를 사용해 비율을 증가시킬 수 있습니다) 예를 들어 농업은 생산의 25%를 식량으로 바꾸고 낙후 요구 임계값을 25% 감소시킵니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_ADV_QUEST">
+			<Text>요구 임계값은 어떻게 결정되나요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_HAPPINESS_PUPPET_CITIES_TITLE">
+			<Text>[COLOR_GREEN]괴뢰 도시의 불행[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_PUPPET_CITIES_BODY">
+			<Text>괴뢰 도시에서는 행복과 불행에 대한 특별한 규칙이 적용됩니다. 괴뢰 도시의 시민 4명 당 1 불행이 발생합니다. 괴뢰 도시의 불행 중 다른 도시와 같은 유일한 원인은 도시화입니다. 괴뢰 도시에서는 전문가의 할당을 제어할 수 없으므로 도시를 합병하지 않는 한 도시화에 대응할 수 없습니다. 괴뢰 도시는 어떤 지역 행복도 생산하지 않습니다. 또한 행복 체계와 별개로 그들만의 성장 규칙을 따릅니다. 따라서 괴뢰 도시의 불행은 제국 전역 불행에서만 차이를 발생시킵니다.=</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_PUPPET_CITIES_ADV_QUEST">
+			<Text>괴뢰 도시의 불행은 어떻게 발생하나요?</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIED_CITIES_TITLE">
+			<Text>[COLOR_GREEN]점령되어 저항하는 도시[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIED_CITIES_BODY">
+			<Text>저항하거나 불타는 도시들은 어떤 지역적 행복도 만들어내지 못합니다. 대신, 그들은 도시의 인구와 동등한 불행을 만들어냅니다. 제국의 지지율을 크게 낮출 수 있습니다.[NEWLINE][NEWLINE]점령된 도시들은 또한 어떠한 행복도 만들어내지 않습니다. 그들은 도시 인구와 동등한 불행을 발생시키고, 여기에 도시화로 인한 불행을 더합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIEDCITIES_ADV_QUEST">
+			<Text>점령되고 저항하는 도시의 불행은 무엇 때문인가요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_TITLE">
+			<Text>[COLOR_YELLOW]황금기 점수[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_BODY">
+			<Text>고대 유적에는 [ICON_GOLDEN_AGE]황금기 점수를 제공하는 유물이 포함되어 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_ADV_QUEST">
+			<Text>황금기 점수?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_TITLE">
+			<Text>[COLOR_YELLOW]생산[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_HEADING4_BODY">
+			<Text>고대 유적에는 가까운 도시에 [ICON_PRODUCTION]생산을 제공하는 물자가 들어있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_ADV_QUEST">
+			<Text>생산?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_TITLE">
+			<Text>[COLOR_YELLOW]타일[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_HEADING4_BODY">
+			<Text>고대 유적에는 정착민들이 있습니다. 이 정착민들은 당신의 가장 가까운 도시에 무료 영토를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BARBARIAN_TILES_ADV_QUEST">
+			<Text>타일?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOPIC_SHORTCUT_INTRODUCTION">
+			<Text>단축키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_INTRODUCTION_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_INTRODUCTION}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_INTRODUCTION_BODY">
+			<Text>Vox Populi에서는 많은 작업을 간소화하기 위해 다양한 마우스 및 키보드 단축키를 사용할 수 있습니다! 기본 지도에서 유닛 제어와 관련된 단축키는 [COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_WORLD_VIEW}[ENDCOLOR]를 참조하십시오. 건물 건설 등 도시 관리와 관련된 단축키는 [COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_CITY_VIEW}[ENDCOLOR]를 참조하십시오. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOPIC_SHORTCUT_CITY_VIEW">
+			<Text>도시 단축키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_CITY_VIEW_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_CITY_VIEW}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_CITY_VIEW_BODY">
+			<Text>
+				[COLOR_POSITIVE_TEXT]생산에 제어 키 사용:[ENDCOLOR] 건물을 왼쪽 클릭하면 현재 도시 건설 대기열의 맨 아래에 배치되지만 제어 키를 사용하여 다른 작업을 수행할 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대기열 맨 위에 추가[ENDCOLOR]: [COLOR_YELLOW]CTRL+LCLICK[ENDCOLOR]으로 대기열의 맨 위에 추가합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]생산 대체[ENDCOLOR]: [COLOR_YELLOW]SHIFT+LCLICK[ENDCOLOR]으로 현재 생산 중인 항목을 대체합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]반복[ENDCOLOR]: [COLOR_YELLOW]ALT+LCLICK[ENDCOLOR]으로 항목을 반복합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대기열 아래에 모두 추가[ENDCOLOR]: [COLOR_YELLOW]SHIFT+ALT+LCLICK[ENDCOLOR]으로 가능한 모든 도시에서 대기열 맨 아래에 항목을 추가합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대기열 위에 모두 추가[ENDCOLOR]: [COLOR_YELLOW]SHIFT+CTRL+LCLICK[ENDCOLOR]으로 가능한 모든 도시에서 대기열 맨 위에 항목을 추가합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]모두 투자[ENDCOLOR]: [COLOR_YELLOW]SHIFT+LCLICK[ENDCOLOR]으로 모든 도시에서 대기열의 이 건물을 투자합니다.[NEWLINE]
+
+				[NEWLINE][COLOR_POSITIVE_TEXT]시민 관리 단축키:[ENDCOLOR][NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]모든 도시에서 집중[ENDCOLOR]: 집중할 산출에 [COLOR_YELLOW]SHIFT+LCLICK[ENDCOLOR]로 모든 도시의 산출 집중을 변경할 수 있습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOPIC_SHORTCUT_WORLD_VIEW">
+			<Text>기본 단축키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_WORLD_VIEW_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_SHORTCUT_WORLD_VIEW}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHORTCUT_WORLD_VIEW_BODY">
+			<Text>
+				[COLOR_POSITIVE_TEXT]특수 이동 작업:[ENDCOLOR] 재배치와 같은 대부분의 특수 이동 작업은 유닛을 선택하고 유효한 대상 타일을 [COLOR_YELLOW]마우스 오른쪽 버튼으로 클릭[ENDCOLOR]하여 실행할 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]공수 작전[ENDCOLOR]: 공수 작전이 가능한 지상 유닛을 선택한 상태에서 공수할 대상 타일을 마우스 오른쪽 버튼으로 클릭합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]거점 도시 변경[ENDCOLOR]: 교역 유닛을 선택하고 도시를 마우스 오른쪽 버튼으로 클릭하면 거점 도시를 변경할 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]제독 항구 변경[ENDCOLOR]: 도시 안의 위대한 제독을 선택하고 해안 도시를 마우스 오른쪽 버튼으로 클릭하면 항구를 변경할 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]재배치[ENDCOLOR]: 공중 유닛을 선택하고 적절한 공수 대상 타일을 마우스 오른쪽 버튼으로 클릭하여 재배치 작업을 수행합니다.[NEWLINE]
+
+				[NEWLINE][COLOR_POSITIVE_TEXT]이동 및 행동 명령:[ENDCOLOR] [COLOR_YELLOW]CTRL+RCLICK[ENDCOLOR]으로 '이동 및 행동' 명령을 내려 유닛에게 목적지 타일로 이동한 다음 행동을 수행하도록 지시합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]고고학자[ENDCOLOR]: 유적을 발굴합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]전투 유닛[ENDCOLOR]: 경계/요새화합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]외교 유닛[ENDCOLOR]: 외교 임무를 수행합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]위인[ENDCOLOR]: 타일 시설을 건설합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]이단심문관[ENDCOLOR]: 이단을 제거합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]선교사[ENDCOLOR]: 종교를 전파합니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]노동자/작업선[ENDCOLOR]: 수리하거나 시설을 건설합니다.[NEWLINE]
+
+				[NEWLINE][COLOR_POSITIVE_TEXT]이동 대기열:[ENDCOLOR] [COLOR_YELLOW]SHIFT+RCLICK[ENDCOLOR]으로 경유지를 만들 수 있습니다.[NEWLINE]
+
+				[NEWLINE][COLOR_POSITIVE_TEXT]공중 유닛 그룹 행동:[ENDCOLOR]공중 유닛을 선택한 상태에서 보조 키로 동일한 공군 기지의 동일한 유형의 모든 항공기에 명령을 내릴 수 있습니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대규모 전진 배치[ENDCOLOR]: [COLOR_YELLOW]SHIFT+RCLICK[ENDCOLOR]으로 공군 기지에서 더 이상 사용할 수 있는 슬롯이 없거나 모든 항공기가 재배치될 때까지 모든 항공기를 해당 공군 기지로 이동합니다. 체력이 높은 항공기가 우선 순위가 지정되며, 유닛 레벨로 구분됩니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대규모 후퇴 배치[ENDCOLOR]: [COLOR_YELLOW]ALT+RCLICK[ENDCOLOR]으로 더 이상 사용 가능한 슬롯이 없거나 모든 항공기가 재배치될 때까지 피해를 입은 모든 항공기를 대상 공군 기지로 이동합니다. 체력이 낮은 항공기가 우선입니다.[NEWLINE]
+				[ICON_BULLET][COLOR_CYAN]대규모 타격[ENDCOLOR]: [COLOR_YELLOW]SHIFT+RCLICK[ENDCOLOR]적군은 모든 항공기가 공격하거나 목표물이 죽을 때까지 목표 타일에 있는 유닛을 공습합니다. 공격 순서는 내구도가 높은 항공기에 우선순위를 두며, 유닛 레벨로 구분됩니다. 두 번 공격할 수 있는 항공기는 다음 항공기가 공격을 시작하기 전에 공격합니다. [NEWLINE]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_TOPIC">
+			<Text>[COLOR_GREEN]위대한 외교관[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_SUMMARY">
+			<Text>[COLOR_CYAN]특수 능력: 대사관 설립[ENDCOLOR][NEWLINE]당신은 위대한 외교관을 도시국가로 이동시키고 지상 타일에 대사관을 건설할 수 있습니다. 단 대사관이 설립되지 않은 도시국가에만 가능합니다. 각 대사관은 세계 의회에서 1표를 받습니다. 대사관 설립은 위대한 외교관을 소모합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 외교 임무[ENDCOLOR][NEWLINE]도시 국가에서 위대한 외교관을 사용해 외교 임무를 수행할 수 있습니다. 도시 국가에 대한 많은 영량력을 얻게 되고, 그만큼 다른 문명의 영향력이 감소합니다. 추가로, 당신은 영구적으로 종이를 1 얻게 됩니다. 이 작업은 위대한 외교관을 소모합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_GREAT_DIPLOMAT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_QUEST">
+			<Text>위대한 외교관이 무엇인가요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_HEADING3_TITLE">
+			<Text>[COLOR_GREEN]공무원[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_HEADING3_BODY">
+			<Text>외교관은 여러 산출량을 조금씩 높여주고 위대한 외교관의 탄생을 빠르게 해 줍니다. 이 유닛은 외교 승리를 달성하거나 도시국가 동맹을 몇 개 더 얻고자 하는 경우에 필수적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_ADV_QUEST">
+			<Text>공무원은 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_TOPIC">
+			<Text>[COLOR_GREEN]지도 거래[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_SUMMARY">
+			<Text>문명의 세계 지도는 모든 섬, 바다, 자연 경관 및 거래한 문명이 발견하고 기록한 문명을 상세히 보여줍니다. 문명의 세계 지도 거래는 군사 과학의 발견 이후 가능하며, 거래한 문명이 발견한 모든 타일을 드러낼 것입니다. 세계 지도로 만나지 못한 문명과 접촉할 수는 없지만 해당 문명의 위치를 파악할 수는 있습니다. 세계 지도의 가치는 지도를 제공할 문명이 당신이 발견하지 못한 땅을 얼마나 발견했는지에 따라 달라집니다. 자연 경관, 자원에 대한 정보는 아무 것도 없는 대양에 대한 정보보다 훨씬 귀중합니다. 세계 지도는 비싸질 수 있으므로 세계를 발견하여 지도 거래를 통해 수익을 얻을 수도 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_MAP_TRADING_ADVISOR_QUESTION">
+			<Text>지도 거래가 무엇인가요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_TOPIC">
+			<Text>[COLOR_GREEN]기술 거래[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_SUMMARY">
+			<Text>당신이 교환할 수 있는 기술을 얻으면 그 기술을 수도에 당신의 대사관이 있는 다른 문명에게 팔 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_TECH_TRADING_ADVISOR_QUESTION">
+			<Text>기술 거래가 무엇인가요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_TOPIC">
+			<Text>[COLOR_GREEN]종속국 협정[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_SUMMARY">
+			<Text>종속국 협정은 두 문명 중 한 문명이 다른 문명에게 충성을 맹세하여 종속국이 되도록 하는 협정입니다. 종속국은 보호를 대가로 세계 대회나 국제 연합의 지도자가 될 권리, 전쟁을 선포할 권리, 전쟁에서 중립을 유지할 권리를 비롯한 정치적 실권을 넘겨주게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_ADV_QUEST">
+			<Text>종속국 협정이 무엇인가요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_TOPIC">
+			<Text>[COLOR_GREEN]종속국 얻기[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_SUMMARY">
+			<Text>종속국은 중세 시대에 진입하고 상대 문명이 종속국이 되는 데 동의해야만 얻을 수 있습니다. 종속국 협정은 외교 거래 화면에서 체결할 수 있습니다. 종속국이 되는 수단에는 두 가지 종류가 있는데, 그것은 자발적 종속국화와 항복입니다.[NEWLINE][NEWLINE]자발적 종속국화는 오직 선택에 의한 것이며, 평화 시 가능합니다. 약한 문명은 한 문명이 강하고 자신들을 보호할 수 있을 만큼 가까우면 그 문명의 종속국이 될 가능성이 높습니다. 이 경우 종속국은 10턴 후 종속국의 지위를 포기할 수 있습니다.[NEWLINE][NEWLINE]항복, 다른 말로 "강제적 종속국화"는 한 문명이 전쟁에서 진 후에 일어납니다. 이긴 문명은 그들의 생존을 허락하는 조건으로 그들을 포로로 만듭니다. 포로는 주인 문명에게 더 많은 것을 제공합니다. 항복한 문명은 주인 문명과의 부정적 관계를 포기하고 많은 조건이 충족될 때까지 종속국으로 남도록 강요받습니다. 종속국 개요에서 그 조건들을 확인할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OBTAINING_VASSALS_ADVISOR_QUESTION">
+			<Text>어떻게 종속국을 얻을 수 있나요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_TOPIC">
+			<Text>[COLOR_GREEN]종속국 협정 끝내기[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_SUMMARY">
+			<Text>두 문명 사이의 종속국 협정은 다양한 방법으로 끝낼 수 있습니다. 종주국은 종속국을 해방하거나 종속국에게 전쟁을 선포하여 종속국 협정을 즉시 끝낼 수 있습니다. 종속국을 해방하면 해당 문명과의 관계가 크게 향상됩니다.[NEWLINE][NEWLINE]종속국은 종주국에게 독립을 요청할 수 있습니다. 독립을 요청하려면 몇 가지 조건을 충족해야 합니다. 독립을 요청받은 종주국은 받아들이거나 거부하고 종속국에 전쟁을 선포하는 방법밖에 없습니다. 어느 쪽을 택하든 종속국 협정은 끝납니다.[NEWLINE][NEWLINE]종속국 해방과 독립 요청는 종속국 개요에서 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_ENDING_VASSALS_ADVISOR_QUESTION">
+			<Text>어떻게 종속국 협정을 끝낼 수 있나요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_TOPIC">
+			<Text>[COLOR_GREEN]종속국의 이점[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_SUMMARY">
+			<Text>종속국은 종주국에게 많은 이익을 가져다줍니다. 종주국은 종속국의 영토를 자유롭게 드나들 수 있고 종속국의 [ICON_CAPITAL]수도에 무료 [ICON_DIPLOMAT]외교관이 1명 출현합니다. 종속국의 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙의 일정 비율이 종주국 문명에게 기여하며 새로운 시대에 진입할 때마다 약간의 징집 유닛을 제공합니다. 종주국의 [ICON_RELIGION] 종교와 [ICON_TOURISM] 관광이 종속국의 영토에 더욱 빨리 전파됩니다. 종속국은 종주국의 이념 채택을 강요받으며 이미 주최자가 될 예정이 아니라면 세계 대회 및 국제 연합을 주최할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_ADVISOR_QUESTION">
+			<Text>왜 종속국을 얻어야 하나요?</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_TOPIC">
+			<Text>[COLOR_GREEN]종속국에 세금 부과[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_SUMMARY">
+			<Text>한 팀에 있는 모든 문명들이 각자에 맞게 세금이 부과됩니다. 이 세금은 종속국 협정 이후 즉시 부과할 수 있습니다. 모든 세금은 턴 시작 시 적용됩니다. 세금은 종속국의 턴당 [ICON_GOLD]골드 수입에서 공제되어 종주국 팀에 공평하게 분배됩니다. 종속국 세금은 5% 간격으로 0%부터 25%까지 가능합니다. 종속국 세금이 준비되면 알림이 뜨고 종속국 개요에서 미납세인 문명의 수가 표시됩니다.[NEWLINE][NEWLINE]세금을 높게 부과하면 종속국이 당신을 싫어할 것이고 종속국을 끝낼 조건이 충족되면 당신에게 반기를 들 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_TAXES_ADVISOR_QUESTION">
+			<Text>왜 종속국을 얻어야 하나요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOPIC_CORPORATION">
+			<Text>기업</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_CORPORATION}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CORPORATION_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]기업[ENDCOLOR]은 Vox Populi에서 추가된 새로운 게임 플레이 요소 중 하나입니다. 그들은 특히 게임 후반부에 제국의 경제 발전에 큰 영향을 미칠 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 설립[ENDCOLOR]: 게임에는 7개의 별개의 기업이 있으며, 각각은 현대 시대에 기업 기술을 연구하면 사용할 수 있게 됩니다. 각 회사에는 의존하는 특정 자원 독점 세트가 있습니다. 이러한 자원 독점 중 하나 이상이 없으면 회사를 찾을 수 없습니다. 이 두 가지 요구 사항이 충족되면 도시 중 하나에 회사의 '본부'를 건설해야 합니다. 이 건물은 세계 불가사의이므로 세계에서 단 한 명의 플레이어만 각 얻을 수 있습니다! 또한, 한 번 회사를 설립하면 다른 회사를 얻을 수 없으므로 선택한 회사가 마음에 드는지 확인하십시오![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 오피스 설립[ENDCOLOR]: 기업을 설립한 후에는 각 도시에 오피스를 설립할 수 있습니다. 이 건물에는 회사의 본부와 유사한 특별 보너스가 제공되므로 자체적으로 건설할 가치가 있습니다. 기업의 대부분의 보너스는 소유한 도시의 수에 따라 확장되므로 더 큰 제국은 기업을 설립하고 가능한 한 많은 오피스를 건설함으로써 큰 이점을 얻습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_QUESTION">
+			<Text>기업이란 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOPIC_MONOPOLY">
+			<Text>독점</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MONOPOLY_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_MONOPOLY}[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MONOPOLY_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]독점[ENDCOLOR]은 Vox Populi에서 추가된 새로운 게임 플레이 요소 중 하나입니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 사치 자원 독점[ENDCOLOR]: 독점 시스템의 핵심은 확장입니다: 게임 전반에 걸쳐(전투나 정착을 통해) 제국이 확장됨에 따라 이미 가지고 있는 사치 자원을 살펴보십시오. 같은 사치 자원을 더 많이 얻을수록 제어하는 글로벌 자원이 늘어날 것입니다. 이 값이 50%를 초과하는 경우(즉, 모든 자원에 대한 세계 공급량의 50%를 초과해 제어하는 경우), 당신은 그 자원에 대한 글로벌 독점을 얻습니다. 각 글로벌 모노폴리에는 고유한 보너스가 있습니다. 일부는 타일에 추가 수확량을 제공하는 반면 다른 일부는 도시 생산량을 일정 비율만큼 증가시킵니다(자세한 내용은 자원 섹션을 참조하십시오).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]글로벌 전략 자원 독점[ENDCOLOR]: 전략 자원은 한 가지 주요 예외를 제외하고 독점과 관련하여 사치 자원 동일한 방식으로 운영됩니다. 이러한 자원이 엄청나게 풍부하기 때문에 진정한 50% 독점은 상당히 어려울 수 있습니다. 결과적으로 전략 자원에는 '전략적' 독점과 '진정한' 독점이라는 두 가지 계층이 있습니다. 전략적 독점은 25%에서 발생하며 특별한 전투 보너스(예: 체력 재생 증가 또는 방어 증가)를 생성합니다. 진정한 독점은 50%에서 발생하며 사치 자원 독점과 마찬가지로 도시 및/또는 타일 수확량에 보너스를 생성합니다.[NEWLINE][NEWLINE]또한 자원 독점은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR]을 설립하는 데 필요합니다. 각 기업은 특정 자원들의 독점을 요구합니다. 이러한 자원 독점 중 하나 이상이 없으면 기업을 설립할 수 없습니다. 각 사치 및 전략 자원에 대해 글로벌 자원 비율을 "기업 및 독점" 화면에서 확인할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MONOPOLY_QUESTION">
+			<Text>자원 독점이란 무엇입니까?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOPIC_CORPORATION_TYPES">
+			<Text>기업 종류</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_TYPES_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_CORPORATION_TYPES}[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_HAPPINESS_CORPORATION_TYPES_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]기업 종류[ENDCOLOR]: Vox Populi에서 사용할 수 있는 7개의 기업이 있습니다. 이들 각각은 한 번만 건설할 수 있으므로(플레이어당 하나만) 현명하게 선택하십시오! 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 탭을 참조하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_TYPES_QUESTION">
+			<Text>내 기업을 어떻게 확장시키나요?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TOPIC_CORPORATION_SPREADING">
+			<Text>기업 확장</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CORPORATION_SPREADING_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_CORPORATION_SPREADING}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CORPORATION_SPREADING_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]기업 확장[ENDCOLOR]은 해외 도시로의 진출은 기업이 최대의 혜택을 누리기 위한 필수 요소입니다.[NEWLINE][NEWLINE]능동적인 확산: 기업은 소유 무역로를 통해 적극적으로 영향력을 퍼뜨리지만, 출발 도시(귀하의 도시)에 기업 오피스가 있는 경우에만 가능합니다. 당신의 도시에 기업 오피스가 있고 그 도시에서 외국 도시로 무역로를 보낸다면 무역 루트가 완성될 때 그 외국 도시에 기업 '프랜차이즈'가 건설될 것입니다. 현재 해당 문명과 거래하고 있는 경우 매 턴 가까운 외국 도시에서 프랜차이즈가 생성될 임의의 기회(~5%)가 있습니다. 각 외국 도시에 회사를 한 번만 퍼뜨릴 수 있으며, 지원할 수 있는 최대 무역로 수보다 더 많은 프랜차이즈를 가질 수 없습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]수동적인 확산[ENDCOLOR]: 기업은 해외 무역로를 통해 수동적으로 영향력을 퍼뜨리지만 목적지 도시(귀하의 도시)에 기업 오피스가 있는 경우에만 가능합니다. 당신의 도시에 기업 오피스가 있고 다른 플레이어가 그들의 도시 중 하나에서 그 도시로 무역로를 보낸다면 그들의 무역 루트가 완성될 때 외국 도시에 기업 '프랜차이즈'가 건설될 것입니다. 당신의 회사는 각 외국 도시에 한 번만 퍼질 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 확장 혜택[ENDCOLOR]: 각 기업의 세부 정보에 나열된 것처럼 외국 도시로의 기업 확산은 기업 오피스의 생산성에 직접적인 영향을 미칩니다. 외국 도시에 있는 회사의 모든 '프랜차이즈'에 대해 회사 사무실은 추가 도시 생산량, 무료 자원 또는 개선된 무역로 생산량과 같은 고유한 보너스를 얻습니다. 또한, 이미 기업이 있는 외국 도시에 무역로를 보내면 많은 기업이 추가 보너스를 얻습니다. 회사를 설립한 후에는 귀하의 이익을 극대화할 수 있도록 회사의 세부 사항을 반드시 연구하십시오![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]기업 관리[ENDCOLOR]: 회사가 성장함에 따라 프랜차이즈가 있는 위치와 사무실이 있는 위치를 따라잡기가 어려울 수 있습니다. 절대 두려워하지 마십시오! 경제 개요 패널의 왼쪽 하단에서 회사에 대한 자세한 정보를 찾을 수 있습니다. 여기에서 현재 제어하는 총 사무소 및 기업 수, 모든 기업 사무소 및 프랜차이즈 위치의 드롭다운 목록, 외국 기업의 규모를 볼 수 있습니다. 이러한 요소 외에도 무역로의 목적지를 선택하는 동안 회사에 대한 정보를 찾을 수도 있습니다. 프랜차이즈가 있는 각 도시는 명확하게 표시됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_SPREADING_QUESTION">
+			<Text>내 기업을 어떻게 확장시키나요?</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

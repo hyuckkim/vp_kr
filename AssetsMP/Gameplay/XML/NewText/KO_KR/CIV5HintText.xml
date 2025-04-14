@@ -1,0 +1,1380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+<!--File created by Paul Murphy-->
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_CIV5_HINT_13">
+			<Text>잘 만들어진 도로망은 전쟁 시 매우 유용하게 사용됩니다. 예를 들면, 적당한 상황에서 이동력이 2인 원거리 유닛이 도로 위에 있다면, 적을 공격한 후 바로 강한 유닛의 뒤로 숨을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HINT_14">
+			<Text>속성과 관계없이 세 가지의 제법 강한 유닛들은 얼마만큼 강한가와 상관없이 거의 모든 도시를 점령할 수 있습니다. 도시 밖에 다른 유닛들이 방어하고 있지 않은 한 말입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HINT_2">
+			<Text>진보한 사회 제도를 사용하기 위해서는, 사원이나 극장과 같은 문화 건물들을 건설하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HINT_3">
+			<Text>어떠한 타일이 한 문명의 국경 내에 있었다면, 그 타일은 앞으로 계속 그 문명의 영토로 존재하게 됩니다. 그 영토의 지배권을 얻기 위해서는 영토를 가지고 있는 도시를 파괴하거나 점령하는 수밖에 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HINT_6">
+			<Text>정찰병 유닛은 다른 초기 유닛에 비해 한 칸 더 멀리 볼 수 있으므로 훌륭한 감시자가 됩니다. 그리고 그들로 세계를 탐험하려면, 그들을 당신 국가 주변의 언덕에 배치하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HINT_7">
+			<Text>칼을 가지고 총한테 절대 덤비지 마십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HINT_8">
+			<Text>국가의 행복도를 주시하십시오. 당신의 국가가 불행하다면, 행복도를 높이기 전까지는 도시의 성장이 거의 멈출 것입니다.</Text>
+		</Row>
+
+
+		<!--IGE V37 -->
+		<!--Panels -->
+		<Row Tag="TXT_KEY_IGE_EDIT">
+			<Text>편집</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PAINT">
+			<Text>수정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CHANGE">
+			<Text>변경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLAYER">
+			<Text>플레이어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_EDIT_PANEL">
+			<Text>지형 (F1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_EDIT_PANEL_HELP">
+			<Text>[ICON_BULLET]타일을 선택하려면 좌클릭하세요.[NEWLINE][ICON_BULLET]선택을 취소하려면 우클릭하세요.[NEWLINE][ICON_BULLET]변경 사항을 취소하려면 Ctrl + Z, 취소 사항을 복구하려면 Ctrl + Y를 누르세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITIES_AND_UNITS_PANEL">
+			<Text>도시와 유닛 (F2)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITIES_AND_UNITS_PANEL_HELP">
+			<Text>[ICON_BULLET]타일을 선택하려면 좌클릭하세요.[NEWLINE][ICON_BULLET]선택을 취소하려면 우클릭하세요.[NEWLINE][ICON_BULLET]도시를 바로 지으려면 Shift + 좌클릭하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_PAINT_PANEL">
+			<Text>지형 (F3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_PAINT_PANEL_HELP">
+			<Text>[ICON_BULLET]타일을 수정하려면 우클릭하세요.[NEWLINE][ICON_BULLET]주변 7타일을 같이 수정하려면 Shift + 우클릭하세요.[NEWLINE][ICON_BULLET]변경 사항을 취소하려면 Ctrl + Z, 취소 사항을 복구하려면 Ctrl + Y를 누르세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_PANEL">
+			<Text>유닛 (F4)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_PANEL_HELP">
+			<Text>[ICON_BULLET]유닛을 소환하려면 우클릭하세요.[NEWLINE][ICON_BULLET]마우스 아래 있는 유닛을 제거하려면 Shift + 우클릭하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_PANEL">
+			<Text>기술 (F7)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_PANEL_HELP">
+			<Text>[ICON_BULLET]기술을 연구/연구 취소하려면 좌클릭하세요.[NEWLINE][ICON_BULLET]이 기술의 연구에 필요한 기술들까지 연구/연구 취소하려면 Shift + 좌클릭하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLAYERS_PANEL">
+			<Text>플레이어 (F6)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SOCIAL_POLICIES_PANEL">
+			<Text>사회 정책 (F8)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ACTIVE_PLAYER_BUTTON_HELP">
+			<Text>활성 플레이어를 바꾸려면 클릭하세요.[NEWLINE][COLOR_NEGATIVE_TEXT]플레이어를 바꿀 때 충돌이 일어난다면, [ICON_CAPITAL]IGE[ICON_CAPITAL]를 우클릭하시고 안전 모드를 활성화하세요.[ENDCOLOR]</Text>
+		</Row>
+
+		
+		<!-- Common -->
+		<Row Tag="TXT_KEY_IGE_NONE">
+			<Text>없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ERA">
+			<Text>시대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLOT_SELECTION_PROMPT">
+			<Text>[COLOR_POSITIVE_TEXT]타일을 선택하려면 클릭하세요.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLOT_SELECTION_HINT">
+			<Text>[COLOR_POSITIVE_TEXT]지형 변경을 확인하기 위해서는 전략적 보기로 들어갔다가 나오십시오.[ENDCOLOR]</Text>
+		</Row>
+
+
+		<!--IGE_Window.xml-->
+		<Row Tag="TXT_KEY_IGE_IGE">
+			<Text>[ICON_CAPITAL] IGE [ICON_CAPITAL]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_IGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]IGE를 열거나 닫습니다. (Ctrl + i)[ENDCOLOR][NEWLINE]설정을 열려면 우클릭하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAFE_MODE">
+			<Text>안전 모드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAFE_MODE_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]다른 플레이어를 선택할 때 충돌이 일어나면 선택합니다. 안개가 시점에 따라 바뀌지 않고 유닛이 보이지 않을 수 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_YIELDS">
+			<Text>산출량 보기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_YIELDS_HELP">
+			<Text>IGE가 열려있을 때 산출량을 표시합니다.[NEWLINE][COLOR_POSITIVE_TEXT]IGE 속도가 느리다면 체크 해제하세요.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_RESOURCES">
+			<Text>자원 아이콘 보이기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_RESOURCES_HELP">
+			<Text>IGE가 열려있을 때 자원 아이콘을 표시합니다.[NEWLINE][COLOR_POSITIVE_TEXT]IGE 속도가 느리다면 체크 해제하세요.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AUTO_SAVE">
+			<Text>IGE를 열 때 자동저장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLEAN_UP_FILES">
+			<Text>불필요한 파일 제거</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLEAN_UP_FILES_HELP">
+			<Text>오래된 IGEn과 같은 파일을 지울수 있게 합니다.[NEWLINE][COLOR_NEGATIVE_TEXT]일부 컴퓨터에서는 충돌이 일어날 수 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_UNKNOWN_RESOURCES">
+			<Text>보이지 않는 자원 보이기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_UNKNOWN_RESOURCES_HELP">
+			<Text>기술을 개발하지 않고도 자원을 볼 수 있게 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISABLE_STRATEGIC_VIEW">
+			<Text>IGE 전략적 보기 비활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISABLE_STRATEGIC_VIEW_HELP">
+			<Text>When IGE is opened, it replaces the strategic map with a clone that reacts to any terrain change. On some computers, it may cause crashes when you zoom far away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AUTO_SAVE_HELP">
+			<Text>IGE가 열릴 때 IGEn과 같은 이름을 가진 파일을 저장합니다.[NEWLINE][COLOR_POSITIVE_TEXT]IGE 로딩 속도가 느리다면 체크 해제하세요.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLOSE">
+			<Text>닫기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLOSE_BUTTON_HELP">
+			<Text>IGE 닫기 (Esc)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELOAD_BUTTON_HELP">
+			<Text>저장하고 게임 다시 불러오기 (Ctrl + F5).[NEWLINE][COLOR_NEGATIVE_TEXT]일부 컴퓨터에서 충돌이 일어날 수 있습니다. 어떤 모드는 이런 충돌을 일으킬 수 있으나 모드가 없어도 충돌을 일어날 수 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVE_BUTTON_HELP">
+			<Text>'IGEn' 이름으로 저장 (F5)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAMERA_BUTTON_HELP">
+			<Text>카메라 가져오기.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GLANCE_AT_MAP_BUTTON">
+			<Text>지도 힐끗 보기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GLANCE_AT_MAP_BUTTON_HELP">
+			<Text>지도를 힐끗 봅니다.[NEWLINE]모든 곳을 볼 수 있지만 외교에 영향을 미치지 않습니다. IGE를 닫으면 안개가 다시 생길 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COVER_MAP_BUTTON_HELP">
+			<Text>지도 힐끗 보기 중지</Text>
+		</Row>
+
+
+		<!--IGE_Window.lua-->
+		<Row Tag="TXT_KEY_IGE_CONFIRM_SAVE_AND_RELOAD">
+			<Text>정말로 저장 후 다시 불러오시겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOADING_ERROR">
+			<Text>IGE가 아마도 다른 모드 때문에 시작할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MORE_THAN_ONE_VERSION_ERROR">
+			<Text>IGE가 두개 이상 있습니다.[NEWLINE]이것은 IGE가 제대로 작동하지 못하게 합니다.[NEWLINE]예전 버전을 지워주세요.</Text>
+		</Row>
+
+
+		<!--IGE_TerrainPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_PILLAGE_CB">
+			<Text>약탈됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PILLAGE_CB_HELP">
+			<Text>약탈된 시설인가요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_STRATEGIC_RESOURCE_QTY">
+			<Text>전략 자원의 양.</Text>
+		</Row>
+
+
+		<!--IGE_TerrainPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_UNEXPLORED_SETTING">
+			<Text>탐험되지 않음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORED_SETTING_HELP">
+			<Text>이 문명에게 탐험되지 않은 상태로 설정합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORED_SETTING">
+			<Text>탐험됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORED_SETTING_HELP">
+			<Text>이 문명에게 탐험된 상태로 설정합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_LAND_SETTING">
+			<Text>소유주 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_LAND_SETTING_HELP">
+			<Text>이 타일의 소유주를 없앱니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_YOUR_LAND_SETTING">
+			<Text>영토</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_YOUR_LAND_SETTING_HELP">
+			<Text>이 문명의 영토로 설정합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN">
+			<Text>지형</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FEATURES_AND_WONDERS">
+			<Text>특징과 자연 불가사의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RESOURCES">
+			<Text>자원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_IMPROVEMENTS">
+			<Text>시설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OTHERS">
+			<Text>기타</Text>
+		</Row>
+		
+		
+		<!--IGE_CitiesPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_NO_UNIT_ON_PLOT">
+			<Text>[COLOR_POSITIVE_TEXT]이곳에 유닛 없음[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_CITY_ON_PLOT">
+			<Text>[COLOR_POSITIVE_TEXT]이곳에 도시 없음[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_UNIT_BUTTON">
+			<Text>유닛 삭제</Text>
+		</Row>			
+		<Row Tag="TXT_KEY_IGE_PROMOTE_UNIT_BUTTON">
+			<Text>유닛 승급</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HEAL_UNIT_BUTTON">
+			<Text>회복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITY_POPULATION">
+			<Text>도시 인구.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HURRY_CITY_BUTTON">
+			<Text>생산 가속</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HURRY_CITY_BUTTON_HELP">
+			<Text>도시의 생산을 가속합니다. 다음 턴에 생산이 완료됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAPTURE_CITY_BUTTON">
+			<Text>차지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAPTURE_CITY_BUTTON_HELP">
+			<Text>당신의 도시로 만듭니다. 외교 페널티를 주지 않으며 전쟁 상태로 만들지도 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_CITY_BUTTON">
+			<Text>지우기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_CITY_BUTTON_HELP">
+			<Text>이 도시를 지웁니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HEAL_CITY_BUTTON">
+			<Text>회복</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_IGE_HEAL_CITY_BUTTON_HELP">
+			<Text>도시의 체력을 채웁니다.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_10_BUTTON">
+			<Text>국왕 경축일 (20턴)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_10_BUTTON_HELP">
+			<Text>20턴간의 국왕 경축일을 엽니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_250_BUTTON">
+			<Text>국왕 경축일 (250턴)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_250_BUTTON_HELP">
+			<Text>250턴간의 국왕 경축일을 엽니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPAND_CITY_BUTTON">
+			<Text>국경 확장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPAND_CITY_BUTTON_HELP">
+			<Text>한 타일의 국경을 확장합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NEVER_LOST_CITY_CB">
+			<Text>내 도시 (점령되지 않았음)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NEVER_LOST_CITY_CB_HELP">
+			<Text>이 도시가 당신의 도시이고 점령되지 않았다고 설정합니다. (정복 패배를 방지하기 위함)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RECONQUERED_CITY_CB">
+			<Text>내 도시 (수복함)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RECONQUERED_CITY_CB_HELP">
+			<Text>이 도시가 당신이 세운 도시이고 빼앗겼다가 수복한 도시라고 설정합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OCCUPIED_CITY_CB">
+			<Text>점령함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OCCUPIED_CITY_CB_HELP">
+			<Text>이 도시를 다른 문명으로부터 빼았은 도시라고 설정합니다. 법원을 지어주기 전까지 추가 불행이 발생합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PUPPET_CITY_CB">
+			<Text>괴뢰정부</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PUPPET_CITY_CB_HELP">
+			<Text>괴뢰정부로 만듭니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_RELIGION">
+			<Text>종교 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS">
+			<Text>{1_Religion}의 신자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MIN">
+			<Text>최소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MIN_HELP">
+			<Text>{1_Religion}의 모든 신자를 없앱니다. (그들을 무교로 만듭니다.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MAX">
+			<Text>최대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MAX_HELP">
+			<Text>{1_Religion}의 신자를 최대로 만듭니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT">
+			<Text>순간이동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_HELP">
+			<Text>순간이동 모드에 진입합니다. 우클릭하면 유닛이 순간이동합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_MESSAGE">
+			<Text>유닛을 순간이동하려면 지도에 우클릭하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_CANCEL">
+			<Text>취소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_INTELLIGENCE_AGENCY_WARNING">
+			<Text>[COLOR_NEGATIVE_TEXT]이 건물을 여러번 짓지 마십시오! 게임에 허용된 숫자보다 많은 수의 스파이가 생기면 게임이 불안정해집니다.[ENDCOLOR]</Text>
+		</Row>
+		
+
+
+
+		<!--IGE_PlayersPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_CURRENT_FAITH">
+			<Text>현재 신앙</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CURRENT_CULTURE">
+			<Text>현재 문화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AVAILABLE_GOLD">
+			<Text>현재 골드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TAKE_SEAT_BUTTON">
+			<Text>통제권 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TAKE_SEAT_BUTTON_HELP">
+			<Text>이 문명으로 플레이합니다.[NEWLINE][COLOR_NEGATIVE_TEXT]당신은 모든 컨트롤을 얻지는 못하며 원래 당신의 문명으로만 턴을 끝낼수 있습니다. 이 기능은 일부 컴퓨터에서 충돌을 일으킬 수 있습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_REVEAL_MAP_BUTTON">
+			<Text>모든 지도 밝히기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_REVEAL_MAP_BUTTON_HELP">
+			<Text>모든 지도를 밝힙니다. 자연 불가사의, 고대 유적, 문명 만남 등이 활성화됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORE_MAP_BUTTON">
+			<Text>모든 지도 탐험</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORE_MAP_BUTTON_HELP">
+			<Text>모든 지도의 안개를 없앱니다. 자연 불가사의 등은 발견되지만 문명 만남이 활성화되지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON">
+			<Text>모든 지도 탐험 안됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON_HELP">
+			<Text>모든 지도를 탐험하지 않은 상태로 만듭니다. 자연 불가사의 발견과 문명 만남 등이 이전 상태로 되돌아가지는 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_UNITS_BUTTON">
+			<Text>유닛 지우기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_UNITS_BUTTON_HELP">
+			<Text>이 문명의 모든 유닛을 지웁니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_CIV_BUTTON">
+			<Text>멸망</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_CIV_BUTTON_HELP">
+			<Text>이 문명을 없앱니다. 외교 페널티는 생기지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_TECH_BUTTON">
+			<Text>무료 기술</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_TECH_BUTTON_HELP">
+			<Text>무료 기술을 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_POLICY_BUTTON">
+			<Text>무료 정책</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_POLICY_BUTTON_HELP">
+			<Text>무료 정책을 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_10_BUTTON">
+			<Text>황금기 (10턴)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_10_BUTTON_HELP">
+			<Text>10턴의 황금기를 엽니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_250_BUTTON">
+			<Text>황금기 (250턴)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_250_BUTTON_HELP">
+			<Text>250턴의 황금기를 엽니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALL_BUTTON">
+			<Text>전체</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALL_BUTTON_HELP">
+			<Text>가능한 모든 대상에 이 행동을 적용합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_INVALID_BUTTON">
+			<Text>[COLOR_POSITIVE_TEXT]No valid candidate.[ENDCOLOR]</Text>
+		</Row>
+		
+	
+		<!--IGE_PlayersPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_MEET">
+			<Text>만남</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MEET_NONE">
+			<Text>당신은 모든 문명과 만났습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FORM_TEAM">
+			<Text>팀을 형성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FORM_TEAM_NONE">
+			<Text>모든 문명이 한 팀입니다?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAKE_PEACE">
+			<Text>평화 협정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAKE_PEACE_NONE">
+			<Text>당신과 전쟁 중인 문명이 없습니다. :(</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SIGN_DOF">
+			<Text>친선 관계 선언</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SIGN_DOF_NONE">
+			<Text>당신은 모든 문명과 친선 관계입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE">
+			<Text>도시 국가 영향력 최대화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE_NONE">
+			<Text>당신은 모든 도시 국가에 최대 영향력을 가집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAG_STATE_LIBERATED">
+			<Text>도시 국가를 해방시킨 것처럼 설정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAG_STATE_LIBERATED_NONE">
+			<Text>버그 :(</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCE">
+			<Text>비난</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCE_NONE">
+			<Text>당신은 모든 문명을 비난했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCED_BY">
+			<Text>비난받음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCED_BY_NONE">
+			<Text>당신은 모든 문명에게 비난받았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DECLARE_WAR">
+			<Text>선전포고</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DECLARE_WAR_BY">
+			<Text>선전포고 당함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SET_EMBARGO">
+			<Text>경제 봉쇄(작동하지 않음)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TWO_SIDES_NONE">
+			<Text>모든 문명이 당신의 팀이거나 당신과 전쟁 중입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_IN_TEAM_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]이 문명은 이미 당신의 팀입니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_UNDER_DOF_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]이 문명은 이미 친선 관계 선언을 했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 영향력이 이미 최대입니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAME_TEAM_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]당신과 이 문명은 같은 팀입니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_AT_WAR_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]이미 전쟁 중입니다..[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_DENOUNCED_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]이미 이 문명을 비난했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_DENOUNCED_BY_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]이 문명은 이미 당신을 비난했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_ALLIANCE_SHORT">
+			<Text>{1_PlyrName} 지도자와 동맹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_ALLIANCE_LONG">
+			<Text>{1_PlyrName} 지도자와 동맹을 맺었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_DOF_SHORT">
+			<Text>{1_PlyrName} 지도자와 친선 관계 선언.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_DOF_LONG">
+			<Text>{1_PlyrName} 지도자와 친선 관계 선언을 했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_EMBARGO_SHORT">
+			<Text>{1_PlyrName} 경제 봉쇄.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_EMBARGO_LONG">
+			<Text>{1_PlyrName} 지도자와 거래를 멈췄습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOUND_PANTHEON">
+			<Text>종교관 세우기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOUND_RELIGION">
+			<Text>종교 창시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ENHANCE_RELIGION">
+			<Text>종교 강화</Text>
+		</Row>
+
+
+		<!--IGE_UnitsPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_CIVILIAN_UNITS">
+			<Text>민간 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_LEVEL">
+			<Text>유닛 승급</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS">
+			<Text>종교 유닛*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_HELP">
+			<Text>이 유닛들은 종교가 있는 도시가 있어야 구매할 수 있습니다. 인간 플레이어가 선택되야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_WARNING">
+			<Text>[COLOR_NEGATIVE_TEXT]주의 : 이 유닛들은 구매하는 겁니다(공짜로요). 이 과정은 어느 도시도 유닛이 구매 불가능하면 이루어지지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_ERROR">
+			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]에러 : 어느 도시도 이 유닛을 구매할 수 없습니다.[ENDCOLOR]</Text>
+		</Row>
+
+
+		<!--IGE_API_Data.lua-->
+		<Row Tag="TXT_KEY_IGE_NO_GRAPHICAL_UPDATE">
+			<Text>[COLOR_NEGATIVE_TEXT]버그 : 당신이 타일을 변경하면 데이터는 갱신되지만, 일부 그래픽은 게임을 저장하고 다시 불러오기 전까진 갱신되지 않습니다. 파이락시스에 불만을 호소하세요.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVE_GAME_CORRUPTION">
+			<Text>[COLOR_NEGATIVE_TEXT]버그 : 이것을 변경한다면 세이브 게임에 악영향을 줄 것입니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAT_LAND">
+			<Text>평지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COAST_OR_LAKE">
+			<Text>연안 또는 호수</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COAST_OR_LAKE_HELP">
+			<Text>호수나 연안을 생성합니다. 호수 타일은 9타일보다 작아야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AFRICA">
+			<Text>아프리카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AFRICA_HELP">
+			<Text>아프리카 타일셋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AMERICA">
+			<Text>아메리카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AMERICA_HELP">
+			<Text>아메리카 타일셋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ASIA">
+			<Text>아시아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ASIA_HELP">
+			<Text>아시아 타일셋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EUROPE">
+			<Text>유럽</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EUROPE_HELP">
+			<Text>유럽 타일셋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NATIONAL_WONDER">
+			<Text>[COLOR_CYAN]자연 불가사의[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_WONDER">
+			<Text>[COLOR_CYAN]불가사의[ENDCOLOR]</Text>
+		</Row>
+
+		<!--IGE_TechsPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_TECH_PREREQ">
+			<Text>필요 :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_ERA_HEADER_HELP">
+			<Text>이 시대의 모든 기술을 연구하려면 클릭하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY">
+			<Text>모드 호환성 필터 :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_NONE">
+			<Text>없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_STANDARD">
+			<Text>표준</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_NIGHTS">
+			<Text>문명 Nights</Text>
+		</Row>
+
+
+		<!--IGE_API_Misc.lua -->
+		<Row Tag="TXT_KEY_IGE_YIELD_CHANGE_TEMPLATE">
+			<Text>{1_Amount} with {2_Cause}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_YIELD_CHANGE_TEMPLATE">
+			<Text>No bonus from {1_Cause}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVED_AS">
+			<Text>'{1_FileName}' 게임 저장됨.</Text>
+		</Row>
+
+		<!-- Info Addict -->
+		<!-- Titles in the main info addict screen -->
+		<Row Tag="TXT_KEY_INFOADDICT_MAIN_TITLE">
+			<Text>Info Addict</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_HISTORICAL_TITLE">
+			<Text>역사적 그래프</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_FACTBOOK_TITLE">
+			<Text>세계 통계연보</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_GLOBALRELATIONS_TITLE">
+			<Text>세계 관계 현황</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_TITLE">
+			<Text>설정</Text>
+		</Row>
+
+
+		<!-- This is text for the reset selections button in the graph screens-->
+		<Row Tag="TXT_KEY_INFOADDICT_RESET_SELECTIONS">
+			<Text>선택 초기화</Text>
+		</Row>
+
+		<!-- Text displayed when no data is available -->
+		<Row Tag="TXT_KEY_INFOADDICT_NODATA">
+			<Text>아직 데이터 없음</Text>
+		</Row>
+
+		<!-- Button text during leader discussions -->
+		<Row Tag="TXT_KEY_INFOADDICT_CHECK_INFOADDICT">
+			<Text>정보 확인</Text>
+		</Row>
+
+		<!-- "of the" used when building a leader title, as in "Bismark of the German Empire" -->
+		<Row Tag="TXT_KEY_INFOADDICT_OF_THE">
+			<Text>지도자의</Text>
+		</Row>
+
+		<!-- "Turn" as in "Turn 145 of the game" -->
+		<Row Tag="TXT_KEY_INFOADDICT_TURN">
+			<Text>턴</Text>
+		</Row>
+
+		<!-- "Next", as in, "next page" -->
+		<Row Tag="TXT_KEY_INFOADDICT_NEXT">
+			<Text>다음</Text>
+		</Row>
+
+		<!-- "Previous", as in, "previous page" -->
+		<Row Tag="TXT_KEY_INFOADDICT_PREVIOUS">
+			<Text>이전</Text>
+		</Row>
+
+
+
+		<!-- Category titles for the historical graphs -->
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_SCORE">
+			<Text>점수</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_MILITARY">
+			<Text>군사</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_NETGOLD">
+			<Text>골드 순수익</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_GNP">
+			<Text>GNP</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_TREASURY">
+			<Text>국고</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_HAPPINESS">
+			<Text>행복도</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_SCIENCE">
+			<Text>과학</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_CULTURE">
+			<Text>문화</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_MANUFACTURING">
+			<Text>물품 생산</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_POPULATION">
+			<Text>인구</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_CROPYIELD">
+			<Text>식량 생산</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_LANDAREA">
+			<Text>영토 크기</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_NUMCITIES">
+			<Text>도시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_TECHS">
+			<Text>문명률</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_POLICIES">
+			<Text>정책</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_WONDERS">
+			<Text>불가사의</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_INCOME">
+			<Text>수입</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_FAITH">
+			<Text>총 신앙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_FAITHPERTURN">
+			<Text>턴당 신앙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_INFLUENCE">
+			<Text>영향력</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_GREATWORKS">
+			<Text>걸작</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_TRADEROUTES">
+			<Text>교역로</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_CATEGORY_TOURISM">
+			<Text>관광</Text>
+		</Row>
+
+
+		<!-- Headers for the rank tables in the world factbook -->
+		<Row Tag="TXT_KEY_INFOADDICT_HEADER_RANK">
+			<Text>순위</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_HEADER_EMPIRE">
+			<Text>문명</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_HEADER_VALUE">
+			<Text>가치</Text>
+		</Row>
+
+
+
+		<!-- Rank titles in the world factbook (left bar menu and table title) -->
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_POPULATION">
+			<Text>인구</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_CROPYIELD">
+			<Text>식량 생산</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_MANUFACTUREDGOODS">
+			<Text>식량 생산</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_GNP">
+			<Text>GNP</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_LANDAREA">
+			<Text>영토 크기</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_MILITARYMANPOWER">
+			<Text>군사력</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_APPROVAL">
+			<Text>지지율</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_LITERACY">
+			<Text>문명률</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_SOCIALSTANDING">
+			<Text>사회 정책</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_HAPPINESS">
+			<Text>행복도</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_TECHNOLOGIES">
+			<Text>기술 연구</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_NETGOLD">
+			<Text>기술 연구</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_NUMCITIES">
+			<Text>도시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_SCIENCE">
+			<Text>과학</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_CULTURE">
+			<Text>문화</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_WONDERS">
+			<Text>불가사의</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_TREASURY">
+			<Text>국고</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_INCOME">
+			<Text>수입</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_FAITH">
+			<Text>총 신앙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_FAITHPERTURN">
+			<Text>턴당 신앙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_INFLUENCE">
+			<Text>영향력</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_GREATWORKS">
+			<Text>걸작</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_TRADEROUTES">
+			<Text>교역로</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKTITLE_TOURISM">
+			<Text>관광</Text>
+		</Row>
+
+		<!-- Rank units in the world factbook (shows up as table header) -->
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_PEOPLE">
+			<Text>명 (사람)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_BUSHELS">
+			<Text>부셸 (백만)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_TONS">
+			<Text>톤 (백만)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_GOLD">
+			<Text>골드 (백만)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_SQUAREKILOMETERS">
+			<Text>제곱 킬로미터</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_SOLDIERS">
+			<Text>명 (병사)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_PERCENTOFPOP">
+			<Text>인구 백분율</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_POLICIESADOPTED">
+			<Text>채택된 정책</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_NETHAPPY">
+			<Text>순수 행복도</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_TECHDISCOVERED">
+			<Text>연구된 기술</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_NUMCITIES">
+			<Text>도시 수</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_SCIENCE">
+			<Text>과학</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_CULTURE">
+			<Text>문화</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_WONDERS">
+			<Text>소유 중인 불가사의</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_FAITH">
+			<Text>신앙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_FAITHPERTURN">
+			<Text>턴당 신앙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_INFLUENCE">
+			<Text>영향을 준 문명</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_GREATWORKS">
+			<Text>걸작</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_TRADEROUTES">
+			<Text>교역로</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RANKUNITS_TOURISM">
+			<Text>관광</Text>
+		</Row>
+
+
+		<!-- Menu titles for the world factbook (left bar) -->
+		<Row Tag="TXT_KEY_INFOADDICT_MENUTITLE_WORLDRANKINGS">
+			<Text>세계 순위</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_MENUTITLE_EMPIRES">
+			<Text>문명</Text>
+		</Row>
+
+
+
+		<!-- Attribute names in the Empire factbook screen -->
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_HEADOFSTATE">
+			<Text>국가 지도자</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_POPULATION">
+			<Text>인구</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_LANDAREA">
+			<Text>영토 크기 (제곱 킬로미터)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_GNP">
+			<Text>GNP (백만 골드)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_NETGOLD">
+			<Text>골드 순수익 (백만 골드)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_MILITARY">
+			<Text>군사력</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_CROPYIELD">
+			<Text>식량 생산 (백만 부셸)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_INDUSTRIALOUTPUT">
+			<Text>제품 생산 (백만 톤)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_APPROVALRATE">
+			<Text>국가 지도자의 지지율</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_NETHAPPY">
+			<Text>순수 행복도</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_LITERACY">
+			<Text>문명률</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_TECHDISCOVERED">
+			<Text>기술 개발</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_POLICIES">
+			<Text>채택된 사회 정책</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_NUMCITIES">
+			<Text>도시 수</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_SCIENCE">
+			<Text>과학</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_CULTURE">
+			<Text>문화</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_WONDERS">
+			<Text>소유 중인 불가사의</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_TREASURY">
+			<Text>국고의 골드 (백만 골드)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_INCOME">
+			<Text>수입 (백만 골드)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_FAITH">
+			<Text>총 신앙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_FAITHPERTURN">
+			<Text>턴당 신앙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_INFLUENCE">
+			<Text>영향을 준 문명</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_GREATWORKS">
+			<Text>걸작</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_TRADEROUTES">
+			<Text>교역로</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_EMPIREATTR_TOURISM">
+			<Text>관광</Text>
+		</Row>
+
+
+		<!-- Relationship view titles -->
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONVIEW_ECONOMIC">
+			<Text>경제</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONVIEW_POLITICAL">
+			<Text>정치</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONVIEW_ATTITUDE">
+			<Text>태도</Text>
+		</Row>
+
+
+
+		<!-- Relationship view key (bottom right) -->
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_WAR">
+			<Text>전쟁</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_OPEN_BORDERS">
+			<Text>국경 개방 조약</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_DECLARATION_OF_FRIENDSHIP">
+			<Text>친선 관계</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_DENOUNCEMENT">
+			<Text>비난</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_DEFENSIVE_PACT">
+			<Text>방위 조약</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_RESEARCH_AGREEMENT">
+			<Text>연구 협정</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_GPT">
+			<Text>턴당 골드</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_RESOURCE">
+			<Text>자원</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_TRADEROUTE">
+			<Text>교역로</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_HOSTILE">
+			<Text>적대적</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_GUARDED">
+			<Text>신중함</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_AFRAID">
+			<Text>두려워함</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_FRIENDLY">
+			<Text>우호적</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONKEY_NEUTRAL">
+			<Text>중립적</Text>
+		</Row>
+
+
+
+		<!-- Tooltip text fragments for the relationship graphs -->
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_GPT_TO">
+			<Text>골드를 턴당 줘야 하는 국가 :</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_GPT_FROM">
+			<Text>골드를 턴당 받아야 하는 국가 :</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_RESEARCH_WITH">
+			<Text>연구 협정국 :</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_TO">
+			<Text>수출국 :</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_FROM">
+			<Text>수입국 :</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_EXPORTS">
+			<Text>수출</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_IMPORTS">
+			<Text>수입</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_TRADEROUTES">
+			<Text>교역로</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_RESEARCH_AGREEMENTS">
+			<Text>연구 협정</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_HOSTILE">
+			<Text>적대적</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_GUARDED">
+			<Text>신중함</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_AFRAID">
+			<Text>두려워함</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_FRIENDLY">
+			<Text>우호적</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_RELATIONTOOLTIP_NEUTRAL">
+			<Text>중립적</Text>
+		</Row>
+
+
+		<!-- Text for the options screen -->
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_FIELD_TOOLTIPS">
+			<Text>역사적 그래프의 툴팁 표시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_FIELD_TOOLTIPS_TT">
+			<Text>역사적 그래프 위에 마우스를 가져다 댈 경우, 각 턴 마다 하이라이트 되어 툴팁에 수치 값이 표시됩니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_YAXIS">
+			<Text>역사적 그래프의 세로축 표시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_YAXIS_TT">
+			<Text>역사적 그래프의 좌측에 세로축을 표시합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_XAXIS_LABEL_COUNT">
+			<Text>가로축 항목 수 : {1_Num}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_XAXIS_LABEL_COUNT_TT">
+			<Text>역사적 그래프에서 표시될 가로축 항목 수를 정합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_YAXIS_LABEL_COUNT">
+			<Text>세로축 항목 수 : {1_Num}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_YAXIS_LABEL_COUNT_TT">
+			<Text>역사적 그래프에서 표시될 세로축 항목 수를 정합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_LINEOFFSET">
+			<Text>역사적 그래프의 라인 오프셋</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_LINEOFFSET_TT">
+			<Text>역사적 그래프에서 2개의 문명이 같은 수치 값에 있을 때, 각 문명의 그래프 라인을 보이게 하기 위해 각 라인에 작은 오프셋을 추가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_SMOOTHLINES">
+			<Text>역사적 그래프 부드러운 라인</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_SMOOTHLINES_TT">
+			<Text>역사적 그래프에서 그래프 라인의 수평선과 수직선 부분을 부드럽게 만듭니다.</Text>
+		</Row>
+
+		<!--QuickTurnsText.xml-->		
+		<Row Tag="TXT_KEY_QUICKTURNS_TITLE">
+			<Text>Quick Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_QUICKMOVEMENT">
+			<Text>빠른 이동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_QUICKMOVEMENT_TOOLTIP">
+			<Text>이동 애니메이션 사용안함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_QUICKCOMBAT">
+			<Text>빠른 전투</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_QUICKCOMBAT_TOOLTIP">
+			<Text>전투 애니메이션 사용안함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_PLAYER">
+			<Text>플레이어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_PLAYER_TOOLTIP">
+			<Text>플레이어의 턴 동안 빠른 애니메이션 사용 여부. 설정 메뉴의 빠른 이동/전투 설정 대신 이 모드의 설정을 사용합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_BARBARIAN">
+			<Text>야만인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_BARBARIAN_TOOLTIP">
+			<Text>야만인의 턴 동안 빠른 애니메이션 사용 여부. 그들은 언제나 전쟁 상태이기 때문에 이 설정은 항상 적용됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_CITYSTATE_PEACE">
+			<Text>도시국가 - 평화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_CITYSTATE_PEACE_TOOLTIP">
+			<Text>도시국가의 턴 동안 빠른 애니메이션 사용 여부. 이 설정은 도시국가가 플레이어와 평화 상태일 때만 적용됩니다. 전쟁 상태일 때는 "AI - 전쟁"의 설정이 적용됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_CITYSTATE_ALLY">
+			<Text>도시국가 - 동맹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_CITYSTATE_ALLY_TOOLTIP">
+			<Text>동맹 도시국가의 턴 동안 빠른 애니메이션 사용 여부. 이 설정은 플레이어와 동맹을 맺은 도시국가가 전쟁 상태일 때만 적용됩니다, 평화 상태일 때는 "도시국가 - 평화"의 설정이 적용됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_PEACE">
+			<Text>AI - 평화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_PEACE_TOOLTIP">
+			<Text>AI 문명의 턴 동안 빠른 애니메이션 사용 여부. 이 설정은 AI 문명이 플레이어와 평화 상태일 때만 적용됩니다, 전쟁 상태일 때는 "AI - 전쟁"의 설정이 적용됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_WAR">
+			<Text>AI - 전쟁</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_WAR_TOOLTIP">
+			<Text>AI 문명과 도시국가의 턴 동안 빠른 애니메이션 사용 여부. 이 설정은 AI 문명 혹은 도시국가가 플레이어와 전쟁 중일 때 적용됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_COMMON_ENEMY">
+			<Text>AI - 공공의 적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_COMMON_ENEMY_TOOLTIP">
+			<Text>활성화 된 경우, 플레이어와 적을 공유하는 AI 문명이나 도시국가에게 "AI - 전쟁"을 적용합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_AGGRESSOR">
+			<Text>AI - 침략자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_AGGRESSOR_TOOLTIP">
+			<Text>활성화 된 경우, 플레이어의 동맹 도시국가와 전쟁 중인 AI 문명에게 "AI - 전쟁"을 적용합니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_HOVER_INFO">
+			<Text>보다 자세한 정보는 마우스 커서를 올려보세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_HOVER_INFO_TOOLTIP">
+			<Text>네! 이렇게요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_ENABLED">
+			<Text>활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_ENABLED_TOOLTIP">
+			<Text>이 설정을 사용하려면 선택.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_CLOSE">
+			<Text>닫기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUICKTURNS_CLOSE_TOOLTIP">
+			<Text>일부 설정은 현재 턴이 끝나고 적용됩니다.</Text>
+		</Row>		
+	</Language_KO_KR>
+</GameData>

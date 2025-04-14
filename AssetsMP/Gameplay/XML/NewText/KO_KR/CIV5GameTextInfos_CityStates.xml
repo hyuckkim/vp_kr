@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--CIV METROPOLIS KOREAN PATCH-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_CITYSTATE_ALMATY">
+            <Text>알마티</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_ALMATY_ADJ">
+            <Text>[COLOR:240:240:140:255]알마티[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_BELGRADE">
+            <Text>베오그라드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_BELGRADE_ADJ">
+            <Text>[COLOR:240:240:140:255]베오그라드[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_BRUSSELS">
+            <Text>브뤼셀</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_BRUSSELS_ADJ">
+            <Text>[COLOR:240:240:140:255]브뤼셀[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_BUCHAREST">
+            <Text>부쿠레슈티</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_BUCHAREST_ADJ">
+            <Text>[COLOR:240:240:140:255]부쿠레슈티[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_BUDAPEST">
+            <Text>부다페스트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_BUDAPEST_ADJ">
+            <Text>[COLOR:240:240:140:255]부다페스트[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_CAPE_TOWN">
+            <Text>케이프타운</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_CAPE_TOWN_ADJ">
+            <Text>[COLOR:240:240:140:255]케이프 타운[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_COPENHAGEN">
+            <Text>코펜하겐</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_COPENHAGEN_ADJ">
+            <Text>[COLOR:240:240:140:255]코펜하겐[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_DUBLIN">
+            <Text>더블린</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_DUBLIN_ADJ">
+            <Text>[COLOR:240:240:140:255]더블린[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_EDINBURGH">
+            <Text>에든버러</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_EDINBURGH_ADJ">
+            <Text>[COLOR:240:240:140:255]에든버러[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_FLORENCE">
+            <Text>피렌체</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_FLORENCE_ADJ">
+            <Text>[COLOR:240:240:140:255]피렌체[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_GENEVA">
+            <Text>제네바</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_GENEVA_ADJ">
+            <Text>[COLOR:240:240:140:255]제네바[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_GENOA">
+            <Text>제노바</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_GENOA_ADJ">
+            <Text>[COLOR:240:240:140:255]제누아즈[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_HANOI">
+            <Text>하노이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_HANOI_ADJ">
+            <Text>[COLOR:240:240:140:255]하노이[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_HELSINKI">
+            <Text>헬싱키</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_HELSINKI_ADJ">
+            <Text>[COLOR:240:240:140:255]헬싱키[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_KUALA_LUMPUR">
+            <Text>쿠알라룸푸르</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_KUALA_LUMPUR_ADJ">
+            <Text>[COLOR:240:240:140:255]쿠알라룸푸르[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_LHASA">
+            <Text>라사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_LHASA_ADJ">
+            <Text>[COLOR:240:240:140:255]라사[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_MONACO">
+            <Text>모나코</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_MONACO_ADJ">
+            <Text>[COLOR:240:240:140:255]모나코[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_OSLO">
+            <Text>오슬로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_OSLO_ADJ">
+            <Text>[COLOR:240:240:140:255]오슬로[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_RAGUSA">
+            <Text>라구사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_RAGUSA_ADJ">
+            <Text>[COLOR:240:240:140:255]라구사[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_RIO_DE_JANEIRO">
+            <Text>리우데자네이루</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_RIO_DE_JANEIRO_ADJ">
+            <Text>[COLOR:240:240:140:255]리우데자네이루[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_SEOUL">
+            <Text>서울</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_SEOUL_ADJ">
+            <Text>[COLOR:240:240:140:255]서울[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_SIDON">
+            <Text>시돈</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_SIDON_ADJ">
+            <Text>[COLOR:240:240:140:255]시돈[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_SINGAPORE">
+            <Text>싱가포르</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_SINGAPORE_ADJ">
+            <Text>[COLOR:240:240:140:255]싱가포르[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_STOCKHOLM">
+            <Text>스톡홀름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_STOCKHOLM_ADJ">
+            <Text>[COLOR:240:240:140:255]스톡홀름[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_TYRE">
+            <Text>티레</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_TYRE_ADJ">
+            <Text>[COLOR:240:240:140:255]티레[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_VENICE">
+            <Text>베네치아</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_VENICE_ADJ">
+            <Text>[COLOR:240:240:140:255]베네치아[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_VIENNA">
+            <Text>빈</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_VIENNA_ADJ">
+            <Text>[COLOR:240:240:140:255]빈[ENDCOLOR]의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_WARSAW">
+            <Text>바르샤바</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_WARSAW_ADJ">
+            <Text>[COLOR:240:240:140:255]바르샤바[ENDCOLOR]의</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

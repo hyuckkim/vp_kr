@@ -1,0 +1,51 @@
+
+			<Type>PROMOTION_MECH</Type>
+			<Description>TXT_KEY_PROMOTION_MECH</Description>
+			<Help>TXT_KEY_PROMOTION_MECH_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<OrderPriority>6</OrderPriority>
+			<AttackMod>25</AttackMod>
+			<MaxHitPointsChange>100</MaxHitPointsChange>
+			<RangedSupportFire>true</RangedSupportFire>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MOUNTED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MECH</PediaEntry> 거대함
+			
+			
+			<Type>PROMOTION_ANTI_GUNPOWDER</Type>
+			<Description>TXT_KEY_PROMOTION_ANTI_GUNPOWDER</Description>
+			<Help>TXT_KEY_PROMOTION_ANTI_GUNPOWDER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_ANTI_GUNPOWDER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<RangedSupportFire>true</RangedSupportFire>
+			<LostWithUpgrade>true</LostWithUpgrade> 창 던지기
+		</Replace>
+			<Type>PROMOTION_RANGED_SUPPORT_FIRE</Type>
+			<Description>TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE</Description>
+			<Help>TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<RangedSupportFire>true</RangedSupportFire>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_RANGED</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_RANGED_SUPPORT_FIRE</PediaEntry>
+			
+			도시 공격 보너스
+			도시 공격 페널티
+			유닛 대항 페널티
+			유닛 대항 보너스
+			공격 보너스
+			방어 페널티
+			
+			위반 이 유닛이 처치한 유닛과 인접한 모든 유닛에 피해 15 15AOEDAMAGEONKILL
+			
+			<Row Tag="TXT_KEY_PROMOTION_MOUNTED_PENALTY">
+      <Text>기마 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-33%[ENDCOLOR]</Text>
+    </Row>

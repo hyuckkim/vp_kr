@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY">
+			<Text>무작위 승리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY_HELP">
+			<Text>임의의 플레이어가 원자력 시대에 진입하면 하나의 무작위 승리 유형(문화, 외교 또는 과학)이 활성화됩니다. 다른 모든 승리는 비활성화됩니다. (참고: 시간 및 정복 승리는 항상 가능합니다.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING">
+			<Text>기술 거래 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING_HELP">
+			<Text>문명 간의 기술 거래를 비활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS">
+			<Text>연구 협정 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS_HELP">
+			<Text>다른 문명과 연구 협정을 체결할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING">
+			<Text>기술 중개 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP">
+			<Text>거래를 통해 얻은 기술을 다른 문명에게 팔 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE">
+			<Text>종속국 협정 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE_HELP">
+			<Text>종속국 시스템을 비활성화합니다. 종속국이 만들어질 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY">
+			<Text>투명한 외교</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY_HELP">
+			<Text>외교적 변수 옆에 수치가 표시됩니다. 또한, AI 지도자들이 부정적 변수를 감추지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION">
+			<Text>AI 승리 경쟁 비활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_VICTORY_COMPETITION_HELP">
+			<Text>AI 지도자가 다른 플레이어를 승리 경쟁 진행상황을 통해 적대하지 않습니다. 게임을 매우 쉽게 만듭니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION">
+			<Text>AI 게임 후반 공격성 비활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_ENDGAME_AGGRESSION_HELP">
+			<Text>AI 지도자가 승리에 가까운 플레이어를 적대하지 않습니다. 참고: 이 옵션은 'AI 승리 경쟁 비활성화'가 활성화되면 아무 일도 일어나지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE">
+			<Text>소극적인 스파이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE_HELP">
+			<Text>고급 첩보 임무가 비활성화됩니다</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

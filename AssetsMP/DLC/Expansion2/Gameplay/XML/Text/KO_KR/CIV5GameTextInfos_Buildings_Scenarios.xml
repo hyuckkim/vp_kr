@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_BUILDING_STAATSMUSEUM">
+      <Text>주립 박물관</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUEZ_CANAL">
+      <Text>수에즈 운하</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TURKISH_BATH_DESC">
+      <Text>터키탕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARMY_BASE">
+      <Text>군 기지</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARMY_BASE_HELP">
+      <Text>[ICON_RES_MANPOWER]인력이 2 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARMY_BASE_STRATEGY">
+      <Text>군 기지는 [ICON_RES_MANPOWER]인력을 2 제공합니다. 군 기지는 건설할 수 없습니다. 적 도시를 점령하면 [ICON_RES_MANPOWER]인력이 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARSENAL">
+      <Text>군수창고</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARSENAL_HELP">
+      <Text>도시에서 보병 유닛을 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARSENAL_STRATEGY">
+      <Text>도시에서 보병 유닛을 생산할 수 있습니다. 군수창고은 건설할 수 없습니다. 점령한 적 도시를 새로운 생산 기지로 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_BARRACKS">
+      <Text>병영</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_BARRACKS_HELP">
+      <Text>[ICON_RES_MANPOWER]인력이 1 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_BARRACKS_STRATEGY">
+      <Text>병영은 [ICON_RES_MANPOWER]인력을 1 제공합니다. 병영은 건설할 수 없습니다. 적 도시를 점령하면 [ICON_RES_MANPOWER]인력이 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_IRON_WORKS">
+      <Text>제철소</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_IRON_WORKS_HELP">
+      <Text>도시에서 포병 유닛을 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_IRON_WORKS_STRATEGY">
+      <Text>도시에서 포병 유닛을 생산할 수 있습니다. 제철소는 건설할 수 없습니다. 점령한 적 도시를 새로운 생산 기지로 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_NAVY_YARD">
+      <Text>해군 공창</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_NAVY_YARD_HELP">
+      <Text>도시에서 해상 유닛을 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_NAVY_YARD_STRATEGY">
+      <Text>도시에서 해상 유닛을 생산할 수 있습니다. 해군 공창은 건설할 수 없습니다. 점령한 적 도시를 새로운 생산 기지로 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_STABLE">
+      <Text>마구간</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_STABLE_HELP">
+      <Text>도시에서 기마 유닛을 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_STABLE_STRATEGY">
+      <Text>도시에서 기마 유닛을 생산할 수 있습니다. 마구간은 건설할 수 없습니다. 점령한 적 도시를 새로운 생산 기지로 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_WALLS">
+      <Text>수도 방어 요새</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_WALLS_STRATEGY">
+      <Text>수도 방어 요새는 수도 주위에 둥글게 배치하는 흙으로 만든 요새로, 도시의 방어력을 10, 체력을 100만큼 올려주는 방어시설입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_FEATURE_FOUNTAIN_YOUTH">
+      <Text>나일강의 수원</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

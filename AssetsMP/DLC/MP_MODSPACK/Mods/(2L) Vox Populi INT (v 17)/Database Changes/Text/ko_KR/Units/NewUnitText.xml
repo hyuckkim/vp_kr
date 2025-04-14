@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_DESC_MOUNTED_BOWMAN">
+			<Text>중산병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MOUNTED_BOWMAN_STRATEGY">
+			<Text>중산병은 빠른 이동과 원거리 공격이 가능한 중세 시대의 유닛입니다. 적을 괴롭히고 당신의 전쟁 노력을 지지하기 위해 그것들을 사용하되, 그들이 혼자 잡히는 것을 조심하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MOUNTED_BOWMAN_PEDIA">
+			<Text>랜스로 무장한 기마 기사는 대부분의 기사의 갑옷을 관통할 수 있는 무기가 석궁병과 결합된 창병 편성에 대해 비효율적인 것으로 입증되었습니다. 푸쉬 레버와 래칫 드로잉 메커니즘의 발명은 말에 석궁을 사용할 수 있게 하여 새로운 기병 전술의 발전을 이끌었습니다. 기사들과 용병들은 삼각형 형태로 배치되었고, 가장 중무장한 기사들이 전면에 배치되었습니다. 이 라이더들 중 일부는 작고 강력한 금속 석궁을 가지고 다닐 것입니다. 비록 초기의 총이 현대의 석궁보다 발사 속도가 느리고 정확도가 훨씬 나빴지만, 석궁은 결국 더 강력한 화약 무기로 대체되었습니다. 나중에, 유사한 경쟁 전술은 권총이나 카빈을 발사하는 기병을 상대로 장창병(파이크와 총)과 함께 하크뷔지 또는 머스킷총병을 배치하는 것을 특징으로 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MOUNTED_BOWMAN_HELP">
+			<Text>중세 시대의 원거리 기마 유닛입니다. 치고 빠지기, 측면 공격, 적을 괴롭히는 전술에 유용합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DESC_CUIRASSIER">
+			<Text>흉갑기병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CUIRASSIER_STRATEGY">
+			<Text>흉갑기병은 빠른 움직임과 원거리 공격이 가능한 르네상스 시대의 부대입니다. 적을 괴롭히고 당신의 전쟁을 지원하기 위해 사용하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CUIRASSIER_PEDIA">
+			<Text>프랑스 퀴라시에 출신의 흉갑기병은 갑옷과 화기를 갖춘 기병이었으며, 15세기 후반 유럽에서 처음 등장했습니다. 이 프랑스 용어는 그들이 착용했던 가슴판 갑옷인 "쿠이라스"(쿠이라스)를 의미합니다. 최초의 흉갑기병들은 중기병이나 데미랜서와 같은 기갑기병들이 랜스를 버리고 권총을 주요 무기로 사용한 결과로 만들어졌습니다. 17세기 후반에, 흉갑기병은 사지 갑옷을 잃어버렸고, 그 후 쿠이라스(가슴판과 등판)만 사용했고, 때로는 헬멧도 사용했습니다. 이 무렵, 칼은 흉갑기병의 주요 무기였고, 권총은 부차적인 기능으로 밀려났습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CUIRASSIER_HELP">
+			<Text>르네상스 시대의 원거리 기마 유닛입니다. 치고 빠지면서 적을 괴롭히는 전술에 유용합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_COMMANDO">
+			<Text>특공대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO_STRATEGY_CBP">
+			<Text>특공대는 정찰과 공격을 할 수 있는 유닛으로, 험지를 빠르게 건너 약한 유닛을 공격하는 데 특화되어 있습니다. 이 유닛을 사용해 후방의 적을 측면에서 공격해 교란하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COMMANDO_CBP">
+			<Text>산업 시대 정찰 유닛으로, 공격 시 추가 전투력을 얻고 가능하다면 각 턴의 첫 근접 공격을 피해 후퇴합니다. 타일 시설을 약탈할 때 경험치를 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COMMANDO_TEXT">
+			<Text>특공대는 가치가 높은 목표물을 공격하고 최전방 정찰에 특화된 정예 경보병입니다. 이 용어는 보어 전쟁과 그레이트 트렉 이후 공통적으로 사용되었으며, 보어 코만도 민병대는 호사, 줄루, 영국 군대에 대항하여 큰 성공을 거두기 위해 게릴라 및 비대칭 전술을 사용했습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_EXPLORER_CBP">
+			<Text>탐험가</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXPLORER_STRATEGY_CBP">
+			<Text>탐험가는 중세와 르네상스 시대에 대양을 건널 수 있는 유닛으로 캐러밸의 경쟁자입니다. 동시대의 전투 유닛에게 쉽게 처치당하지만, 특공대가 등장하기 전까지는 그들의 생존 능력을 이기기 어렵습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EXPLORER_CBP">
+			<Text>게임 중반 더 강력한 정찰 유닛으로 승선 시 추가 시야를 확보할 수 있습니다. 해당 유닛으로 새로운 지역을 발견할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EXPLORER_TEXT_CBP">
+			<Text>탐구는 정보나 자원의 발견의 목적을 찾는 행위입니다. 탐험은 인간을 포함한 모든 비침습 동물 종에서 일어납니다. 인류 역사에서, 그것의 가장 극적인 상승은 유럽 탐험가들이 주로 물질적인 부를 추구하기 위해 항해하고 세계의 많은 부분을 도표로 만들었던 발견의 시대였습니다. 그 이후로, 주로 정보 발견을 목표로 하는 이유로 발견 시대 이후의 주요 탐사가 이루어졌습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DESC_FIELD_GUN">
+			<Text>야전포</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_PEDIA">
+			<Text>야전포는 포병입니다. 이 용어는 행진하는 동안 군대와 함께 가져갈 수 있는 더 작은 총을 묘사하기 위해 처음 사용되었습니다. 전투에서 야전포는 필요에 따라 신속하게 전장을 이동할 수 있습니다. 요새에 설치된 대포와 포격포는 너무 커서 빨리 움직일 수 없었고, 긴 포위전에서만 사용되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_STRATEGY">
+			<Text>야전포는 대포보다 강한 공성 능력을 가지지만, 충분히 멀리 볼 수 있는 능력이 부족합니다. 야전포로 산업 시대의 군대를 지원하고, 적이 근처에 오지 못하도록 조심하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_HELP">
+			<Text>강력한 산업 시대 공성 유닛으로 2타일 밖에서 공격할 수 있습니다. 적 영토에서 [ICON_MOVES]이동 속도가 [COLOR_NEGATIVE_TEXT]두 배[ENDCOLOR] 느려집니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY">
+			<Text>자유용병대</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FCOMPANY">
+			<Text>장창병보다 매우 저렴하고 약탈 시 이동력 소모가 없으며 도시 공격 시 [ICON_GOLD]골드를 제공합니다. 구매 시 승급에 필요한 충분한 경험치를 제공하며 구매 후 바로 이동할 수 있습니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]권위[ENDCOLOR] 계열 완성 후 [ICON_GOLD]골드로 구매할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY_STRATEGY">
+			<Text>자유용병대는 권위 정책을 완료하면 생산할 수 있는 첫 용병 유닛입니다. 직접 생산할 수는 없지만, 장창병보다 더 강하고 일부 추가 능력이 있습니다.[NEWLINE][NEWLINE]구매하자마자 최대 경험치를 가지고 바로 이동할 수 있기 때문에, 골드만 충분하다면 단번에 병력을 채울 수 있습니다. 게다가 이 악당들은 이동력 소모 없이 약탈하고 도시에 피해를 줄 때마다 골드를 얻으므로 공격전에서 큰 이득을 얻을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FCOMPANY_TEXT">
+			<Text>전쟁과 무법천지가 만나는 곳에서 군인의 삶은 빠르게 강도의 삶으로 바뀔 수 있습니다.[NEWLINE][NEWLINE]그레이트 컴퍼니 또는 모험가 용병대로도 알려진 자유용병대는 12세기부터 15세기 초까지 유럽 전역에서 활동한 용병들의 무리였습니다. 종종 귀족들에게 고용되어, 그들은 무기의 법칙을 무시하고 약탈자로서 유용하기로 유명했습니다. 자유용병대는 백년 전쟁 동안 프랑스 시골 지역을 공포에 떨게 하기 위해 영국에 의해 고용된 14세기의 끝없는 분쟁 동안 그들의 역할로 가장 유명합니다.[NEWLINE][NEWLINE]회사가 전시 동안 일을 하는 동안, 그들은 평화로운 시기에 재앙이 될 수 있었습니다. 그들은 종종 다른 사람의 땅을 약탈하기 위해 돈을 받는 것을 멈추자마자 이전 고용주의 땅을 약탈하기 시작했습니다. 1360년 브레티니 조약 이후, 자유 회사는 그들의 고용에서 풀려났고 통제할 수 없게 되었습니다. 그들은 영지에서 영지로 옮겨 농장과 성을 똑같이 공격했고, 서유럽 전역에서 작전을 펼쳤고 심지어 그들을 상대로 야전된 군대들을 상대로 승리를 거두기도 했습니다. 평화와 역병은 이 밴드들이 해외로 나가면서 부와 명예를 얻으면서 규모와 대담성을 키우도록 도왔습니다. 이 시기의 주목할 만한 기업으로는 이탈리아의 화이트 컴퍼니, 그리스의 카탈루냐 컴퍼니, 프랑스의 타르비누스가 있습니다. 이 모험가들 중 많은 사람들은 그들의 업적으로 상당한 정치적 힘을 얻었는데, 몇몇 이탈리아 국가들과 교황에 의해 고용된 부유한 콘도티에가 된 영국인 존 호크우드와 같은 사람들이었습니다.[NEWLINE][NEWLINE]15세기 동안 서유럽 국가의 재건과 전문 군대와 효과적인 민병대의 형성은 용병들의 힘의 사용을 중단시켰습니다. 하지만, 자유 회사가 일으킨 죽음과 파괴는 유럽의 기억에 깊은 상처를 남겼습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_GUERILLA">
+			<Text>용병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GUERILLA_TEXT">
+			<Text>민간 군사 회사(PMC)의 병사들은 물류, 군인, 군사 훈련 및 기타 서비스를 제공하는 용병 무역의 현대적 가닥입니다. 따라서 PMC 계약자는 군대를 현장에 동반할 수 있는 권한을 부여받은 민간인(정부, 국제 및 민간 단체)입니다. 따라서 민간 계약자라는 용어를 사용합니다. 그럼에도 불구하고 PMC는 다음과 같이 정의된 무장력을 사용할 수 있습니다. "조직적인 방법과 군사적 수단을 통해 무력의 잠재적 행사와 관련된 서비스를 제공하고/또는 그 잠재력을 물류 지원과 같은 훈련 및 기타 관행을 통해 고객에게 이전함으로써 수익을 창출하는 합법적으로 설립된 기업" "장비 조달 및 정보 수집"이라고 말합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUERILLA_STRATEGY">
+			<Text>용병을 침략자로부터 땅을 지키는 값싼 수단이나 정밀 공격용으로 사용하십시오. 용병은 측면 공격 시 많은 보너스를 받으니 현명하게 배치해야 합니다. 권위를 완성해야 사용할 수 있습니다. [ICON_GOLD] 골드로만 구매할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUERILLA">
+			<Text>측면 공격 보너스가 증가하고 승선 또는 강 건너 공격 시 전투력 보너스가 증가합니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]권위[ENDCOLOR] 계열 완성 후 [ICON_GOLD]골드로 구매할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER">
+			<Text>전투 코끼리</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_STRATEGY">
+			<Text>전투 코끼리는 기마병보다 더 비싸고 느리지만 더 강합니다. 공격하고 이동할 수 있으며 주변 적들에게 공포를 심어, 적 전투력에 부정적인 보정치를 부여합니다. [ICON_RES_IVORY] 상아 자원 타일이 있고 병영이 있어야 전투 코끼리를 생산할 수 있습니다. 다른 전투 유닛과는 다르게, 생산 시 자원을 소모하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_HELP">
+			<Text>창병에게 약하지만 강력한 게임 초반의 기마 유닛입니다. 일반 기마 유닛보다 [ICON_STRENGTH]전투력이 더 높으며 주변 적 유닛에게 공포를 심어줍니다. 하지만 기마병보다 더 느리고 비싸다는 단점이 있습니다.[NEWLINE][NEWLINE]유닛을 생산하려면 [ICON_RES_IVORY][COLOR_YELLOW]상아[ENDCOLOR]를 보유해야 하고 [COLOR_YELLOW]병영[ENDCOLOR]이 건설되어 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_TEXT">
+			<Text>전투 코끼리는 전투를 위해 인간에 의해 훈련되고 인도된 코끼리였습니다. 그들의 주된 용도는 적을 공격하고, 그들의 대열을 부수고, 공포를 불어넣는 것이었습니다. 코끼리는 코끼리가 탄 군대를 가진 군대입니다. 그들은 처음에 인도에서 고용되었고, 그 관습은 동남아시아 전역과 서쪽으로 지중해로 퍼졌습니다. 서양에서 그들의 가장 유명한 용도는 그리스의 에피로스의 피로스 장군이었고, 잠시 한니발을 포함한 카르타고의 군대에서도 상당한 수가 사용되었습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_PIONEER">
+			<Text>선구자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>이 유닛으로 도시를 세울 수 있습니다. 스스로를 방어할 수 없으므로, 전투 유닛으로 보호해야 합니다. 도시를 세우면, 선구자로 세워진 도시는 3 시민으로 시작하고, 추가 영토를 얻고 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 훈제실[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 선구자로 건설한 건물에 적용되지 않습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PIONEER_TEXT">
+			<Text>선구자들은 새로운 영역을 개척하고 개발하는 데 동참하기 위해 이주한 역사 속의 사람들 중 하나입니다. 이 용어는 특히 유럽이나 미국 사회가 이전에 정착하거나 개발하지 않은 영토를 정착하려는 사람들을 지칭합니다. 비록 그 영토는 원주민들이 거주하거나 사용했을 수 있지만요. 개척자의 개념과 정신은 현재 서부라고 불리는 미국의 일부 지역으로 이주하기 훨씬 이전입니다. 왜냐하면 현재 동부로 간주되는 많은 장소들이 또한 해안의 개척자들에 의해 정착되었기 때문입니다. 예를 들어, 미국 역사의 핵심 인물인 다니엘 분(Daniel Boone)은 "어두운 피비린내 나는 땅"이 아직 개발되지 않은 켄터키에 정착했습니다. 서구 정착지에서 중요한 발전 중 하나는 정착 과정을 규제하는 공식적인 입법을 제공한 홈스테드 법이었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PIONEER">
+			<Text>추가 인프라 및 시민을 갖춘 도시를 세울 수 있습니다. [NEWLINE][NEWLINE]유닛을 생산하는 동안 도시의 [ICON_FOOD]성장이 멈춥니다. 유닛 생산을 완료하면 도시의 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1명[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]국경 바로 근처에 인접했거나 제국이 [ICON_HAPPINESS_3]불행하면 도시를 세울 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>식민지 개척자</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
+			<Text>이 유닛으로 도시를 세울 수 있습니다. 스스로를 방어할 수 없으므로, 전투 유닛으로 보호해야 합니다. 도시를 세우면, 식민지 개척자로 세워진 도시는 5 시민으로 시작하고, 추가 영토를 얻고 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 등대[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 사원[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 송수로[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][ICON_BULLET] 원형 극장[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 작업장[NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 풍차[NEWLINE][ICON_BULLET] 항만[NEWLINE][ICON_BULLET] 훈제실[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 식민지 개척자로 건설한 건물에 적용되지 않습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COLONIST_TEXT">
+			<Text>역사를 통해 연구하면, 정착민의 일종인 식민지 개척자들이 원주민으로 지정된 오랜 정착민들의 고향인 땅을 얼마나 자주 점령했는지 목격할 수 있습니다('원주민', '토착민', 또는 아메리카에서 '인디언'이라고도 합니다). 일부 경우(호주 등) 식민주의적 사고방식과 법이 바뀌면서 일부 토지의 법적 소유권은 원주민들이 전통적인 사용법, 토지 권리, 원주민 소유권 및 관련 형태의 법적 소유권 또는 부분적 통제의 복원을 주장하거나 요구하는 것에 대해 이의를 제기합니다. "정착자"라는 단어는 원래 노예(예: 미국), 계약 노동자(예: 식민지 아메리카), 또는 죄수(예: 영국 아메리카, c. 1615–1775; 호주 1788-1868)와 같은 자유 노동 이민자와 관련하여 사용되지 않았습니다. 더 최근에 이러한 이민자들의 후손들은 자유 이민자들의 후손들만큼 "정착자"라는 단어를 사용할 권리가 있다고 주장할 수 있습니다. 비유적 용법에서, "먼저 가거나 무언가를 먼저 하는 사람"은 1605년에 영어로 처음 기록되었듯이 정착민을 지칭하기 위해 "개척자"를 사용하는 미국 영어에도 적용됩니다. 미국 역사에서 그것은 새로운 땅에 정착하는 것을 도운 사람들을 말합니다. 이 용법에서 개척자들은 보통 한 지역에 처음 온 사람들 중 하나이지만, 정착자들은 첫 번째 정착 후에 도착하고 다른 사람들과 함께 인간 정착의 과정에 참여할 수 있습니다. 이것은 군대의 주체가 지정된 야영지에 도착하기 전에 야영지를 건설하는 임무를 맡았던 군사 개척자들의 작업과 관련이 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
+			<Text>추가 인프라 및 시민을 갖춘 도시를 세울 수 있습니다. [NEWLINE][NEWLINE]유닛을 생산하는 동안 도시의 [ICON_FOOD]성장이 멈춥니다. 유닛 생산을 완료하면 도시의 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1명[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]국경 바로 근처에 인접했거나 제국이 [ICON_HAPPINESS_3]불행하면 도시를 세울 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_VP_SLINGER">
+			<Text>투석병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VP_SLINGER_STRATEGY">
+			<Text>투석병은 게임 시작부터 사용할 수 있는 첫 원거리 유닛입니다. 비록 범위와 피해가 부족하지만, 야만인의 치유를 막을 수 있으며 야만인들을 막을 수 있는 저렴한 초기 옵션이 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VP_SLINGER_TEXT">
+			<Text>대부분의 초기 무기들과 마찬가지로, 슬링은 사냥을 위한 도구에서 사람을 죽이는 도구로 진화했습니다. 단순히 두 길이의 끈 사이에 있는 주머니인 슬링은 발사될 때까지 발사체(돌, 납 덩어리 또는 기타 편리한 것)를 호 모양으로 휘두르는 데 사용되었습니다. 비록 던져진 돌은 화살이나 총알처럼 치명적이지 않지만, 여전히 많은 피해를 줄 수 있습니다. 다른 건 몰라도, 잘 조준된 돌멩이의 비는 적에게 돌진하기 전에 잠시 멈추게 합니다. 게다가, 탄약을 찾는 것은 어렵지 않았습니다. 호주를 제외하고, 고대 슬링은 전 세계의 고고학 발굴에서 발견되었습니다. 새뮤얼의 첫 번째 책에서 지적했듯이 투석은 골리앗을 쓰러뜨릴 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VP_SLINGER_HELP">
+			<Text>게임 시작부터 사용할 수 있는 첫 원거리 유닛입니다.</Text>
+		</Row>
+
+		<!-- Galley -->
+		<Row Tag="TXT_KEY_UNIT_GALLEY_HELP">
+			<Text>재해권을 위한 고대 시대 해양 유닛입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER">
+			<Text>호위함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_STRATEGY">
+			<Text>선박을 호위하고 더 작고 강력한 근접의 적으로부터 방어하기 위한 빠르고 기동성 있는 군함입니다. 다른 유닛을 공격하고 호위하는 데 사용하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_PEDIA">
+			<Text>호위함은 함대, 호송대 또는 전투 그룹에서 더 큰 선박을 호위하고 더 작고 강력한 단거리 공격자로부터 방어하기 위한 빠르고 기동성 있는 군함입니다. 원래 19세기 후반에 어뢰정에 대한 방어용으로 개발되었기 때문에 원래 이름은 "어뢰정 구축함"이었습니다. 제1차 세계 대전이 되자 거의 모든 해군은 이름을 간단히 "구축함"으로 줄였습니다.[NEWLINE]1910년대와 1920년대에 건조된 전형적인 구축함은 길이가 100m이고 배수량이 약 100m였습니다. 1200톤. 무장은 4~6문의 102mm 구경 함포와 다수의 533mm 어뢰 발사관으로 구성되어 있습니다. 배는 65km/h의 속력을 낼 수 있었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_HELP">
+			<Text>현대 시대의 바다를 지배한 강력한 해군 근접 유닛입니다. 잠수함을 물리치는 데 효과적인 근접 해상 유닛입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER">
+			<Text>미사일 구축함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_STRATEGY">
+			<Text>미사일 구축함은 3개의 미사일을 탑재할 수 있고 공중 차단 범위가 증가된 구축함의 현대적 버전입니다. 공격 또는 호위 유닛으로 사용해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_PEDIA">
+			<Text>유도 미사일 구축함(NATO 명칭 "DDG")은 유도 미사일을 발사하도록 설계된 구축함입니다. 일반적으로 수직 발사 셀에 두 개의 대형 미사일 탄창이 장착되어 있습니다. 미사일과 총 외에도 대잠, 대공 및 대수상 작전을 수행할 수 있는 장비도 많이 있습니다. 일부는 강력한 레이더 시스템을 포함하며 미사일 방어 또는 탄도 미사일 방어 역할에 사용하기 위해 채택될 수 있습니다. 이는 특히 순양함을 운용하지 않는 해군의 경우에 해당됩니다. 그 격차를 메우기 위해 다른 선박을 채택해야 하기 때문입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_HELP">
+			<Text>미사일 구축함은 3개의 미사일을 탑재할 수 있으며, 공중 요격 범위와 확률이 증가했으며 잠수함에 대한 추가 공격력이 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LIBURNA">
+			<Text>리부나</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_STRATEGY">
+			<Text>치명적인 화살로, 원거리 공격이 가능한 최초의 해양 유닛입니다. 도시 범위 밖의 대양 타일에서 턴을 끝낼 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_PEDIA">
+			<Text>리부나는 지중해에서 습격과 순찰에 사용되는 작고 빠른 유형의 갤리였습니다. 오늘날의 달마티아에서 리부르니아인들에 의해 처음 발명된 리부나는 나중에 로마 해군이 해적에 대항하는 민첩한 순찰선으로 채택했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_HELP">
+			<Text>원거리 공격으로 중세 시대까지 바다를 지배하는 고전 시대 해양 유닛입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DESC_CRUISER">
+			<Text>순양함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CRUISER_STRATEGY">
+			<Text>순양함을 건조하여 철갑함을 증강하고 바다를 장악하십시오! 하지만 철을 충분히 가지고 있는지 확인하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CRUISER_PEDIA">
+			<Text>순양함은 군함의 한 종류입니다. 이 용어는 수백 년 동안 사용되어 왔고, 이 기간 동안 다른 의미를 가지고 있었습니다. 항해 시대 동안, 순항이라는 용어는 특정한 종류의 임무를 의미했습니다: 프리깃함이나 슬루프에 의해 수행되는 독립적인 정찰, 습격 또는 상업 보호, 즉 함대의 순항 군함입니다. 19세기 중반에 순양함은 이러한 역할을 위한 선박의 분류가 되었지만, 순양함은 소형 보호 순양함에서 장갑 순양함까지 다양한 크기로 제공되었습니다. 20세기 초까지, 순양함은 전함보다는 작지만 구축함보다는 큰, 군함 크기의 일관된 규모로 배치될 수 있었습니다. 1922년, 워싱턴 해군 조약은 8인치 이하의 총을 운반하는 만 톤의 배수량의 군함으로 정의된 순양함에 공식적인 제한을 두었습니다. 이러한 제한은 2차 세계대전이 끝날 때까지 순양함을 형성했습니다. 제1차 세계 대전 시대의 매우 큰 순양함들은 이제 전함들과 함께 수도 함선으로 분류되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CRUISER_HELP">
+			<Text>해상 침입과 이전 시대의 해상 유닛에 피해를 주기위해 고안된 산업 시대 원거리 해상 유닛입니다.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]육지 공격은 연안 타일에서만 감행할 수 있습니다.[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT">
+			<Text>노급전함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_STRATEGY">
+			<Text>노급전함은 2타일 사거리에서 발사할 수 있지만 시야가 필요합니다. 공격에 매우 강하고 수비에 약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_PEDIA">
+			<Text>노급전함은 20세기 초반에 가장 많이 사용된 전함 유형입니다. 그것의 디자인은 두 가지 혁명적인 특징을 가지고 있습니다. 이전 배보다 더 많은 중구경을 가진 전대포(all-big-gun) 무장 계획과 증기 터빈 추진력입니다. 최초의 영국 해군의 노급전함은 12인치(305mm) 함포 10문을 탑재했습니다. 미 해군은 1910년에 처음으로 석유 연소 방식을 채택하기로 결정하고 1911년에 Nevada 급에 석유 연소 보일러를 주문했습니다. 다른 주요 해군은 제1차 세계 대전이 끝날 때까지 석탄과 석유 혼합 연소 방식을 유지했습니다. .[NEWLINE]노급전함의 시운전 후 5년 이내에 더욱 강력한 차세대 전함이 건조되었습니다. 최초의 전함은 일반적으로 영국의 오리온급으로 간주됩니다. 그들을 슈퍼로 만든 것은 더 무거운 13.5인치(343mm) 주포의 도입과 모든 주포가 중앙선에 배치되었기 때문입니다. 1917년 일본의 "Nagato"급이 주문되었으며, 이는 16인치(406mm) 함포를 탑재한 최초의 드레드노트였으며, 이는 틀림없이 세계에서 가장 강력한 전함입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_HELP">
+			<Text>해상 침입과 이전 시대의 해상 유닛에 피해를 주기 위해 고안된 현대 시대 원거리 해상 유닛입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE">
+			<Text>공격 잠수함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_STRATEGY">
+			<Text>공격 잠수함은 기본 잠수함보다 강력하고 빠른 해군 공격 유닛입니다. 미사일도 탑재할 수 있다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_PEDIA">
+			<Text>공격 잠수함 또는 헌터 킬러 잠수함은 다른 잠수함과 해군 함정을 공격하고 침몰시키기 위해 특별히 설계된 잠수함입니다. 일부 공격 잠수함은 수직 발사관에 장착된 순항 미사일로 무장하여 지상 목표물을 포함하는 잠재적 임무의 범위를 늘립니다.[NEWLINE]1950년대까지 전 세계적으로 대부분의 비핵 잠수함 설계는 21형 유보트를 기반으로 했는데, 발터 과산화수소 연료 가스터빈과 높은 배터리 용량을 갖춘 2차 세계 대전의 독일 고급 잠수함으로, 높은 지속 수중 속력을 허용합니다.[NEWLINE]1960년대에 냉전 핵 억제 전략의 일환으로 미국(조지 워싱턴 급)과 소련(골프 급)이 최초의 탄도 미사일 잠수함을 운용했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_HELP">
+			<Text>공격 잠수함은 1개의 미사일을 운반할 수 있으며 1개의 [ICON_RES_ALUMINUM] 알루미늄이 필요합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER">
+			<Text>대형항공모함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_STRATEGY">
+			<Text>대형항공모함은 전투기, 폭격기(스텔스 폭격기 제외) 및 원자폭탄을 탑재한 특수 선박입니다. 그것이 운반하는 항공기는 그것을 가장 강력한 공격 무기로 만듭니다. 방어 면에서 대형항공모함은 이전 모델보다 훨씬 강력하지만 여전히 구축함과 잠수함의 호위를 받아야 합니다. 최대 4개의 유닛을 건설할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_PEDIA">
+			<Text>대형항공모함은 일반적으로 배수량이 70,000톤 이상인 가장 큰 유형의 항공모함을 나타내는 비공식 설명 용어입니다. 대형항공모함은 지금까지 건조된 가장 큰 전함입니다.[NEWLINE]니미츠급 대형항공모함은 미 해군에서 운용 중인 10척의 핵 추진 항공모함입니다. 이 급의 선두 함선은 미 해군의 마지막 함대 제독인 제2차 세계 대전 미 태평양 함대 사령관 체스터 W. 니미츠(Chester W. Nimitz)의 이름을 따서 명명되었습니다. 전체 길이가 1,092피트(333m)이고 만재 배수량이 100,000톤이 넘는 이 군함은 건조되어 운용 중인 가장 큰 전함이지만 곧 출시될 제럴드 R. 포드급 항공모함에 의해 가려지고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_HELP">
+			<Text>5대의 항공기(최대 8대)를 탑재하고 공중 요격 범위가 5로 증가하고 잠수함을 탐지할 수 있습니다. 문명당 2개로 제한됩니다. 건설하려면 [ICON_RES_URANIUM] 우라늄이 필요합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE">
+			<Text>로켓 미사일</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_STRATEGY">
+			<Text>로켓 미사일은 적의 목표물을 공격할 때 파괴되는 일회성 유닛입니다. 건설하려면 [ICON_RES_OIL] 석유가 필요합니다.[NEWLINE][COLOR_POSITIVE_TEXT]군사 보급한도를 차지않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_PEDIA">
+			<Text>로켓은 로켓 모터로 구동되는 자체 추진 무유도 무기 시스템입니다. 역사적으로 그들은 주로 공대지 및 공대공 무기로 사용되었습니다.[NEWLINE]작전적으로 사용된 최초의 미사일은 제2차 세계 대전 중 나치 독일이 개발한 일련의 미사일이었습니다. 이들 중 가장 유명한 것은 V-1 비행 폭탄과 V-2 로켓으로, 둘 다 단순한 기계식 자동 조종 장치를 사용하여 미리 선택된 경로를 따라 미사일을 계속 비행하게 했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_HELP">
+			<Text>한 번만 사용하여 적 유닛이나 도시에 피해를 줄 수 있는 값싼 유닛입니다. 건설하려면 [ICON_RES_OIL] 석유가 필요합니다.[NEWLINE][COLOR_POSITIVE_TEXT]군사 보급 한도를 차지않습니다.[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_EMISSARY">
+			<Text>특사</Text>
+			<Plurality>2</Plurality>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
+			<Text>특사는 플레이어가 이용할 수 있는 최초의 외교 유닛이며, 문명 간의 평화적인 협력을 위한 초기 시도를 나타냅니다. 고대에는 외교 문화가 여전히 조잡하기 때문에, 사절단은 그다지 효과적이지 않습니다. 외교 사절단으로부터 겨우 20여개의 영향력만을 얻는 특사는 아직 외국 무역이나 이웃 도시 국가들을 다루는 기술을 익히지 못했습니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_EMISSARY_TEXT">
+			<Text>가장 저렴하고 가장 빨리 이용할 수 있는 외교 단위임에도 불구하고, 특사는 꾸준한 영향력의 원천으로서 매우 신뢰할 수 있는 것은 아닙니다. 플레이어는 이미 우호적이거나 동맹 관계에 있는 도시 국가와의 관계를 확보하거나 유지하기 위해 특사를 사용해야 합니다. 따라서 이러한 단위를 사용하여 도시 국가 목표를 달성하기 위한 노력을 강화하는 것이 가장 좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EMISSARY">
+			<Text>[COLOR_PLAYER_PURPLE]개시[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ENVOY">
+			<Text>사절</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MEDIEVAL_ENVOY_TEXT">
+			<Text>중세시대에 외교술은 마침내 충분히 성숙했습니다. 이 시기에 외교 문제에 대한 새로운 이론들이 등장했는데, 그것은 더 이상 '아마도 옳을지도 모른다'가 아니라 아첨, 교양, 그리고 필요하다면 협박의 예술에 바탕을 두고 있습니다. 사절은 이러한 외교력의 비약을 상징하며, 따라서 특사보다 효과적이면서도 비용이 많이 듭니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENVOY_STRATEGY">
+			<Text>사절은 도시 국가들과의 외교적인 영향력의 원천으로서 훨씬 더 유용합니다. 그러나 이 능력은 비용이 큽니다. 플레이어들은 급성장하는 외교 서비스에 대한 수요를 충족시키기 위해 충분한 종이가 필요합니다. 도시 국가 퀘스트는 우호적이거나 동맹적인 관계를 유지하는 데 여전히 매우 중요하지만, 그 중요성은 점점 떨어지고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ENVOY">
+			<Text>[COLOR_PLAYER_PURPLE]능숙[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT">
+			<Text>외교관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_DIPLOMAT_TEXT">
+			<Text>계몽주의의 철학과 현대 산업의 힘을 인정받으면서 외교관들은 산업화 시대 외교의 동력입니다. 외교관은 비용이 점점 더 많이 들지만, 플레이어가 전 세계 도시 국가에 미치는 영향력의 범위를 크게 확장할 수 있도록 합니다. 생산 비용은 시대에 따라 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_STRATEGY">
+			<Text>외교관은 대사나 특사에 비해 매우 비쌉니다. Paper의 공급을 지속적으로 늘리지 않은 플레이어는 전 세계 도시 국가에 계속 영향력을 행사하는 데 어려움을 겪을 것입니다. 하지만, 만약 여러분이 많은 수의 외교관을 만들 수 있는 자원과 생산량을 가지고 있다면, 세계는 소프트 파워와 설득력 있는 영향력을 가진 여러분의 제국 앞에 굴복할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DIPLOMAT">
+			<Text>[COLOR_PLAYER_PURPLE]프로페셔널[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR">
+			<Text>대사</Text>
+			<Plurality>2</Plurality>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MODERN_AMBASSADOR_TEXT">
+			<Text>핵전쟁의 등장으로 인한 긴장감 속에서 탄생한 현대 대사는 외교력의 정점을 상징합니다. 언어학, 정치, 문화 및 경제 분야에서 수년간 정규 교육을 받은 대사는 자신이 선택한 도시 국가를 통제할 수 있습니다. 그러나 이러한 재능으로 인해 앰배서더들은 이 게임에서 가장 비싼 외교 단위가 됩니다. 앰배서더 한 대당 비용은 거의 탱크 한 대와 같습니다! 그러나 이러한 투자는 높아 보일 수 있지만, 만약 한 플레이어가 도시 국가 외교에서 기권하기로 선택한다면, 다른 플레이어들이 의심할 여지 없이 세계 의회를 지배하게 될 것이기 때문에, 그들은 세계 무대에서 그들의 영향력이 빠르게 감소하는 것을 보게 될 것입니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_STRATEGY">
+			<Text>대사들은 비용이 많이 들지만, 외교적인 승리를 거두기 위해서는 필수적입니다. 도시 국가들에 대한 통제권을 다른 참가자들로부터 빼앗고, 당신 자신의 동맹을 유지하며, 일반적으로 세계 의회의 권력을 당신 손에 쥐게 하는 데 그것들을 사용하십시오. 이 힘은 여러분이 선택한 모든 결심을 실행할 수 있게 해 줄 것이고, 따라서 세계 패권을 여러분의 손아귀에 넣을 것입니다. 세계 의회입니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMBASSADOR">
+			<Text>[COLOR_PLAYER_PURPLE]전권 대사[ENDCOLOR] 승급이 부여된 채 시작합니다. 이 유닛을 전쟁 중이 아닌 도시 국가로 [ICON_MOVES]이동시켜 외교 임무를 수행해 [ICON_INFLUENCE]영향력을 증가시킬 수 있습니다.[NEWLINE][NEWLINE]시대에 따라 생산 비용이 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT">
+			<Text>위대한 외교관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREAT_DIPLOMAT_TEXT">
+			<Text>모든 문명의 역사를 통해, 위대한 중재자, 상담자, 그리고 관료들은 분쟁의 시기나 위대한 힘의 시기에 등장했습니다. 위대한 외교관은 이러한 중요한 역사적 인물들을 대표하며, 따라서 선수의 외교력을 크게 높일 수 있는 능력을 가지고 있습니다. 플레이어는 도시국가와 함께 즉시 큰 영향력을 얻기 위해 사용할 수 있으며, 미래를 내다보고 있는 경우 도시국가 땅에 대사관을 건설하는 데 사용할 수 있으며, 따라서 설립 시 세계 의회에서 플레이어에게 추가 투표권을 부여할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT_STRATEGY">
+			<Text>[ICON_DIPLOMAT]위대한 외교관은 외교력을 크게 증가시킬 수 있는 능력을 가지고 있습니다. [COLOR_PLAYER_PURPLE]마스터 외교[ENDCOLOR] 승급이 부여된 채 시작하며 위대한 외교관을 전쟁 중이 아닌 도시 국가로 이동시켜 다음의 임무를 수행할 수 있습니다. 우선 [COLOR_POSITIVE_TEXT]외교 임무[ENDCOLOR]를 통해 [ICON_INFLUENCE]영향력을 증가시키고 다른 문명의 [ICON_INFLUENCE]영향력을 감소시킬 수 있습니다. 또한 [COLOR_POSITIVE_TEXT]대사관[ENDCOLOR]을 건설해 세계 대회 추가 대표단을 확보할 수 있습니다. [NEWLINE][NEWLINE]위 능력중 하나를 사용하면 위대한 외교관이 사라지고 [ICON_RES_PAPER][COLOR_POSITIVE_TEXT]종이[ENDCOLOR] 자원 1개를 획득합니다.</Text>
+		</Row>
+
+		<!-- Unit Combats -->
+		<Row Tag="TXT_KEY_UNITCOMBAT_SETTLER">
+			<Text>개척자 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_WORKER">
+			<Text>노동자 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_WORKBOAT">
+			<Text>작업선 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_CARGO">
+			<Text>화물선 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_CARAVAN">
+			<Text>대상 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_INQUISITOR">
+			<Text>이단심문관 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_MISSIONARY">
+			<Text>선교사 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_DIPLOMACY">
+			<Text>외교 유닛</Text>
+		</Row>
+
+		<!-- Great Diplomat names -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_KISSINGER">
+			<Text>헨리 키신저</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALBRIGHT">
+			<Text>매들린 올브라이트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANNAN">
+			<Text>코피 아난</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BAN">
+			<Text>반 기문</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BELL">
+			<Text>거트루드 벨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DAG">
+			<Text>다그 함마르셸드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DINTEVILLE">
+			<Text>장 드 댕트빌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DURRELL">
+			<Text>로렌스 더럴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAY">
+			<Text>존 제이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KOLLONTAI">
+			<Text>알렉산드라 콜론타이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LAWRENCE">
+			<Text>토머스 에드워드 로렌스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_METTERNICH">
+			<Text>클레멘스 폰 메테르니히</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NERUDA">
+			<Text>파블로 네루다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ODO">
+			<Text>오도 러셀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SELVE">
+			<Text>조르주 드 셀브</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SEWARD">
+			<Text>윌리엄 헨리 수어드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SHIGERU">
+			<Text>요시다 시게루</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SZABO">
+			<Text>바이올렛 스자보</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TALLEYRAND">
+			<Text>샤를모리스 드 탈레랑페리고르</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_THANT">
+			<Text>우 탄트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WALDHEIM">
+			<Text>쿠르트 발트하임</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WALLENBERG">
+			<Text>라울 발렌베리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WEIJUN">
+			<Text>구 웨이쥔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WHOWARD">
+			<Text>윌리엄 하워드 태프트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZIMMERMAN">
+			<Text>아서 짐머만</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__010">
+			<Text>하투실리 3세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__020">
+			<Text>티투스 퀸투스 플라미니누스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__025">
+			<Text>장 건</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__030">
+			<Text>교황 레오 1세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__035">
+			<Text>왕 현책</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__040">
+			<Text>지궁흐사세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__050">
+			<Text>발다사레 카스틸리오네</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__060">
+			<Text>유스티스 차퍼이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__070">
+			<Text>카메하메하 3세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__080">
+			<Text>파르갈르 이브라힘 파샤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__090">
+			<Text>토마스 로 경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__100">
+			<Text>후고 그로티우스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__110">
+			<Text>요한 루돌프 베트슈타인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__120">
+			<Text>코사 판</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__130">
+			<Text>매카트니 경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__140">
+			<Text>모셰셰 1세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__150">
+			<Text>스트랫포드 캐닝 경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__160">
+			<Text>알베르트 폰 멘스도르프</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__170">
+			<Text>호세 마리아 다 실바 파라노스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__180">
+			<Text>오레스테스 페라라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__190">
+			<Text>사무엘 에베네제르 룬가나단 경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__200">
+			<Text>로버트 앤서니 이든</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__210">
+			<Text>트란 반 추옹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__220">
+			<Text>미겔 앙헬 아스투리아스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__230">
+			<Text>나르시소 라모스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__240">
+			<Text>수잔 보렐</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__250">
+			<Text>조지 프로스트 케넌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__260">
+			<Text>야코프 말리크</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__270">
+			<Text>샹카르 샴셰르 정 바하두르 라나</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__280">
+			<Text>아담 말릭</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__290">
+			<Text>스테판 헤셀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__300">
+			<Text>하비에르 페레스 데 케야르</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__310">
+			<Text>부트로스 부트로스갈리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__320">
+			<Text>맥스 제이콥슨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__330">
+			<Text>제라르 우에드라오고</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__340">
+			<Text>예두아르드 셰바르드나제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__350">
+			<Text>즈비그니에프 카지미에시 브레진스키 </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__360">
+			<Text>로렌스 이글버거</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__370">
+			<Text>레다 말렉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__380">
+			<Text>파트릭 노통브</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__390">
+			<Text>라르비 메사리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__400">
+			<Text>도널드 맥헨리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__410">
+			<Text>피터 제이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__420">
+			<Text>알리 트레키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__430">
+			<Text>마르티 오이바 칼레비 아티사리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__440">
+			<Text>자크 디우프</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__450">
+			<Text>조지 그루사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__460">
+			<Text>엔디미온 윌킨슨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__470">
+			<Text>마운타가 디알로</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__480">
+			<Text>미고네트 패트리샤 듀런트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__490">
+			<Text>아서 J. 콜링스워스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__500">
+			<Text>로블레 올하예</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__510">
+			<Text>세자르 페르난도 마요랄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__520">
+			<Text>무토 마사토시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__530">
+			<Text>베네딕트 아스게이르손</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__540">
+			<Text>후안 마누엘 산토스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__550">
+			<Text>비탈리 초르킨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__560">
+			<Text>안드레이 카를로프</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__570">
+			<Text>매츠 포이어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__580">
+			<Text>사에브 에라캇</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__590">
+			<Text>자말 알자말</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__600">
+			<Text>자오 리젠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__610">
+			<Text>레이첼 오마모</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__620">
+			<Text>수잔 라이스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__630">
+			<Text>아메드 사리어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__640">
+			<Text>서맨사 리드 스미스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__650">
+			<Text>니콜라 디미트로프</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__660">
+			<Text>캐롤린 앨리슨 로드리게스 버킷</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__670">
+			<Text>부크 제레믹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__680">
+			<Text>아비 아머드 알리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__690">
+			<Text>줄리 샤펠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__700">
+			<Text>나디아 무라드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__710">
+			<Text>말랄라 유사프자이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__720">
+			<Text>알라야 이스트먼드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D__730">
+			<Text>그레타 툰베리</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

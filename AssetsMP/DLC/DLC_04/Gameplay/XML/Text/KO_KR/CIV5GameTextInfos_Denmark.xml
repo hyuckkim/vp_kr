@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_TRAIT_VIKING_FURY">
+            <Text>승선한 유닛은 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하며, 해양 타일에서 지상 타일로 이동하는 데 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_MOVES]이동력만 소모합니다. 근접 유닛이 약탈 시 [ICON_MOVES]이동력을 소모하지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_VIKING_FURY_SHORT">
+            <Text>바이킹의 맹위</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>

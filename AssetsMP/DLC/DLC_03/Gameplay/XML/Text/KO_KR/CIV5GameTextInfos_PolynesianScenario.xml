@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_CIV5_POLYNESIA_SCENARIO_MAORI_HELP">
+            <Text>화약이 발명되기 전까지는 폴리네시아에서 가장 강한 전투 유닛입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_POLYNESIA_SCENARIO_MAORI_STRATEGY">
+            <Text>마오리 전사는 전장을 누비는 폴리네시아의 강력한 유닛입니다. 이 강인한 근접 전사는 하카 전쟁 의식으로 인근의 적에게 공포를 심어주어 근처에 있는 적의 [ICON_STRENGTH]전투력을 감소시킵니다. 다른 전사와 창병을 상대로 승리할 가능성이 비교적 큰 편입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BRIEFING">
+            <Text>브리핑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILD_MOAI_HELP">
+            <Text>타일에 모아이([ICON_CULTURE]문화 +1)를 건설합니다. 해안을 따라 모아이 열을 세워 추가 문화를 획득하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILD_MOAI_REC">
+            <Text>타일에 배치된 시민이 [ICON_CULTURE]문화를 생산할 수 있도록 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_HEROIC_EPIC_HELP">
+            <Text>이 도시에서 생산하는 모든 신규 유닛이 바다나 강에서 공격할 때 페널티를 받지 않는 [COLOR_POSITIVE_TEXT]수륙 양용[ENDCOLOR] 유닛으로 승급합니다.[NEWLINE][NEWLINE]반드시 모든 도시에 병영이 건설돼 있어야 합니다. 국가에 속해있는 도시의 수가 늘어날수록 건설에 필요한 생산이 증가합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_HEROIC_EPIC_STRATEGY">
+            <Text>이 국가 불가사의는 도시에서 만들어진 모든 유닛에게 페널티 없이 물 타일에서 공격할 수 있는 수륙 양용이 부여됩니다.  도시에 문화를 1만큼 제공합니다. 문명의 모든 도시에 병영이 있어야 영웅 서사시를 건설할 수 있습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_OBSERVATORY_HELP">
+            <Text>도시의 [ICON_RESEARCH]과학을 증가시킵니다. 이 시나리오에서는 굳이 산이 근처에 있지 않아도 천문대를 세울 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CAPTAIN_COOK">
+            <Text>쿡 선장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CEREMONY_TITLE">
+            <Text>{2_CivName:textkey}의 카후나 {1_PlayerName:textkey}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA">
+            <Text>히바</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA_TEXT_1">
+            <Text>모국어로 히바는 '인간의 대지'라고 불립니다. 마르키즈제도는 프랑스령 폴리네시아 일부로 폴리네시아 동족 끝에 위치해 있습니다.[NEWLINE][NEWLINE]이 험준한 화산섬들은 사화산의 중심부에서 분출된 현무암으로 구성돼 있으며 지리학적으로 생성된 지 얼마 안 된 신생 섬입니다. 기후는 매우 좋은 편으로, 한 번의 우기를 제외하곤 일 년 내내 온화한 날씨를 자랑합니다.[NEWLINE][NEWLINE]아마도 서기 100년경에 폴리네시아인이 이곳에 정착한 것으로 보이며 언어학적 증거와 인류학적 증거에 의하면 이들이 통가와 사모아로부터 이주해 온 것으로 보입니다.[NEWLINE][NEWLINE]히바는 서양 열강이 여러 번 차지하고 합병한 불행한 역사를 가지고 있다. 스페인 탐험가 알바로 데 멘다나 데 네이라가 1595년에 처음 발견한 뒤 이곳을 차지했으며(그는 자신의 후원자를 위해 이곳의 이름을 마르키즈 제도라고 지었습니다.) 이후 1870년에 미국인(워싱턴 제도라는 이름을 붙인 이들)들과 프랑스인들이 다양한 방법으로 히바를 식민지화했습니다. 폴리네시아의 모든 섬을 통틀어 가장 많은 사람들이 히바에서 전염병으로 인해 사망했습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA">
+            <Text>사모아</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA_TEXT_1">
+            <Text>사모아는 폴리네시아 전통의 중심지이며 지금까지 항상 폴리네시아 문화중심지 중 하나로 남아있었다고 합니다. 거의 3500년에 걸쳐 이 제도로 많은 사람이 이주해 왔으며 지역 및 국제적 권력 다툼의 중심이기도 했고, 독립 후에는 식민화 종결 시대의 선봉 국가로 부상했습니다.[NEWLINE][NEWLINE]사모아는 다른 폴리네시아 제도의 섬과 마찬가지로 따뜻하고 온화한 날씨와 짧은 폭풍우기로 축복받은 곳입니다. 사모아 군도는 남태평양의 총면적 중 2,850 제곱 km에 달하는 면적을 차지하고 있으며 폴리네시아 사람은 이곳이 자신들의 문화의 중심지라고 믿고 있다고 합니다.[NEWLINE][NEWLINE]기원전 1500년경에 라피테스인이 사모아에 정착한 것으로 추정됩니다. 최초의 사모아인은 대규모 토분과 석조물을 세웠습니다. 사모아는 폴리네시아의 여러 국가와 교역을 했기 때문에 이들을 이어주는 교차로 역할을 수행했을 가능성도 배제할 수 없습니다.[NEWLINE][NEWLINE]사모아는 식민 세력의 이간질로 더욱 악화된 사모아 내란의 여파로 1898년에 미국과 독일에 의해 둘로 나누어졌으며 이는 삼국협정의 결과물이었습니다. 독일령 사모아는 1962년에 독립했지만, 미국령 사모아는 아직도 미국의 지배하에 있다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI">
+            <Text>타히티</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI_TEXT_1">
+            <Text>타히티는 소시에테 제도에서 가장 큰 섬이며 현재는 모두가 인정하는 과거 프랑스령 폴리네시아의 중심으로 자리매김하고 있습니다. 타히티는 오랜 기간 동안 폴리네시아 문화에서 가장 우호적이고 개방적인 장소 중 한 곳으로 여겨져 왔습니다.[NEWLINE][NEWLINE]타히티는 타히티 누이(큰 타히티)와 타히티 이티(작은 타히티) 두 개의 섬으로 이루어져 있습니다. 이 두 섬의 상대적 크기는 쉽게 비교할 수 있다고 합니다. 폴리네시아 동부 끝자락에 위치한 타히티 날씨는 일 년 내내 따뜻하며 온화한 편입니다.[NEWLINE][NEWLINE]타히티는 폴리네시아 동쪽 가장 끝에 있기 때문에 비교적 사람이 늦게 정착했으며 라피테스 문화가 쇠약해지고 한참 지나서인 서기 300년에서 800년 사이가 돼서야 폴리네시아인이 정착했다고 합니다.[NEWLINE][NEWLINE]처음으로 타히티를 방문한 서양인은 1767년에 이곳에 온 영국인으로, 이는 반박의 여지가 없는 사실입니다. 영국인은 도착한 직후 원주민의 온화하고 개방적이며 부드러운 성향에 깊은 인상을 받았다고 합니다. 그러나 이방인들이 들여온 질병 때문에 타히티 원주민 대부분이 사망했으며 선교사들은 타히티 모국어를 문서화하거나 보존하지도 않은 채 전통적인 문화적 관습을 막았습니다. 찰스 다윈은 HMS 비글호로 세계를 탐험 하던 중 타히티를 방문했다고 합니다. 프랑스는 1847년에 타히티를 프랑스령으로 합병했지만, 타히티 원주민은 1946년까지 정식으로 프랑스 시민권을 얻을 수 없었다고 합니다. 현재 타히티의 공식 언어는 프랑스어 입니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA">
+            <Text>통가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA_TEXT_1">
+            <Text>통가는 폴리네시아 군도에서 비교적 커다란 문화 중심지 중 하나로 태평양제도의 패권을 위해 다른 지역과 분쟁을 치러왔습니다. 통가는 14세기에 이 지역의 패권을 거머쥐며 그 절정에 달하였고 이 기간 동안 족장과 항해사들은 지역의 주도권을 손에 거머쥐었습니다. 뉴질랜드로부터는 북동쪽으로, 하와이로부터는 남서쪽에 위치한 통가 왕국의 군도는 태평양의 18만 평방 km에 달하는 지역에 흩어진 176개의 섬으로 구성돼 있습니다.[NEWLINE][NEWLINE]통가 군도에 언제 사람이 최초로 도착했는지는 정확히 가늠하기 어렵습니다. 통가타푸 섬에 있는 가장 오래되고 확실한 발굴지는 피아 마을에서 찾아볼 수 있는데, 이곳은 약 3000년 정도 된 것으로 추정됩니다. 통가에서 라피타 시대의 도기 유물이 발견되기는 했지만, 이것은 당시 라피타 문화는 이곳으로 이동할 수 있을 정도의 항해술을 보유하지 못했었다는 사실에 들어맞지 않습니다.[NEWLINE][NEWLINE] 1616년에 네덜란드인이 이곳에 처음 온 것으로 기록되어 있기는 하지만 제임스 쿡이 태평양을 조사하던 중 이곳의 원주민을 만난 일화가 가장 유명하다고 합니다. 쿡은 통가 원주민의 환대 때문에 '친근한 섬'이라는 이름으로 통가를 불렀습니다. 흥미롭게도 원주민들은 쿡을 암살하려고 계획했지만 사람들 간의 의견차가 분분해 실행하지 못했으며, 쿡은 자신에 대한 암살 기도를 눈치 채지 못한 채 아무 탈 없이 섬을 떠날 수 있었다고 합니다. 18세기 말부터 19세기 초까지 유럽 선교사들이 통가 원주민을 광범위하게 기독교로 개종시켰습니다.[NEWLINE][NEWLINE] 1799년에 최고 족장이 암살된 후 통가는 50년간 내전에 휘말렸습니다. 하지만, 1845년에 전사 타우파하우가 최고 족장의 자리에 등극하였고, 자신을 조지 튜포우 1세라는 세례명의 왕으로 선포하였습니다. 이후 그는 사회의 최하위 계급층을 해방시키고 법령을 제정하였으며 영국과 우호 조약을 맺어 다른 족장들의 권력을 제한하였습니다. 이로써 통가는 완전한 영국의 식민지가 되지 않고, 영국의 군사적 보호를 받는 동시에 자치권을 확보한 채로 남아있을 수 있었습니다. [NEWLINE][NEWLINE]남태평양의 교차로 역할을 하는 통가의 지리적 위치 때문에 제2차 세계대전에서 통가는 전략적으로 중요한 요충지였습니다. 통가 병사들은 솔로몬제도에서 싸웠으며 통카타푸 섬은 북미에서 뉴질랜드와 호주로 연결되는 중요한 보급 요충지가 되었습니다. 현재 통가는 헌정 군주제 독립국가(폴리네시아 국가 중 유일하게 군주제를 포기하지 않은 나라임)로 민주주의 개혁을 받아들이고 있으며 정부를 현대화하고 있다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV5_DAWN_POLYNESIAN_TEXT">
+            <Text>알로하. 위대한 폴리네시아의 왕이시여! 당신은 지금 아름다운 열대 섬 하나만을 통치하고 있지만 곧 바다를 가로질러 위대한 업적을 쌓으실 명운을 타고나셨나이다. 폴리네시아인은 밤하늘의 별과 새떼 그리고 광대한 태평양 해류를 보고 정확하게 길을 찾는 방법을 알아냈습니다. 용감한 우리 뱃사람들은 이제 카누를 타고 새로 정착할 섬을 찾기 위해 대양을 누빌 것입니다. 고향을 등지고 거친 파도를 넘어 멀리 식민지를 건설하여 폴리네시아 전체에 길이 빛날 문화를 퍼뜨리십시오![NEWLINE][NEWLINE]승리 조건[NEWLINE]가장 먼저 사회 정책을 모두 채택하는 문명이 승리합니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]전체적으로 태평양을 중심으로 펼쳐지는 바다가 많은 지형이므로 새로운 기술 및 사회 정책 발전표도 이에 맞게 준비되어있습니다. 네 개의 주요 문명은 각각 고유한 특성을 갖고 시작하며 일반적인 폴리네시아 고유 보너스(모아이 시설 및 마오리 전사 유닛) 적용받으며 시작합니다. 도시 숫자는 사회 정책 채택에 필요한 문화요구량에 영향을 주지 않으므로 마음껏 세력을 늘리셔도 괜찮습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV5_IMPROVEMENTS_MOAI_HELP">
+            <Text>모아이는 해안에만 건설할 수 있습니다. 만약 다른 모아이를 옆에 또 건설하면 추가적인 [ICON_CULTURE]문화 보너스를 제공할 것 입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_LIVED">
+            <Text>10세기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_NAME">
+            <Text>아오에투</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_SUBTITLE">
+            <Text>투이 통가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_TEXT_1">
+            <Text>아오에투는 니우와 하늘의 신 탕갈로아 아이투마투푸아의 딸 이라헤바 바에포푸아의 장남이었다고 합니다. 아오에투에게는 그의 외모를 시기하는 네 명의 이복형이 있었는데, 이들은 비밀리에 아오에투의 머리를 잘라 독이 있는 호이 덤불 안에 감추었다고 합니다. 그리고 그런 뒤 아오에투를 불에 구워 먹었다고 합니다.[NEWLINE][NEWLINE]이후 하늘에서 탕칼로아 아이투마투푸아가 내려와 네 명의 형제에게 아오에투에게 무슨 일이 생겼는지 물었다고 합니다. 이에 형제들은 부끄러워하며 반성했고 아오에투를 부활시켜달라고 부탁했다고 합니다. 탕칼로아 아이투마투푸아는 네 형제를 커다란 그릇에 집어넣은 뒤 거적으로 그릇을 덮었고, 아오에투는 마법을 통해 다시 살아났다고 합니다.[NEWLINE][NEWLINE]탕칼로아 아이투마투푸아는 아오에투의 네 형제에게 벌을 내렸다고 합니다. 형제들과 그들의 후손은 통가 섬에서 아오에투를 섬기도록 명을 받았으며 이로 인해 아오에투는 첫 투이 통가가 되었다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_LIVED">
+            <Text>300년경 ~ 800년</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_NAME">
+            <Text>호투 마투아</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_SUBTITLE">
+            <Text>히바의 탐험가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_TEXT_1">
+            <Text>호투 마투아는 라파 누이(이스터 섬)의 아리키 마우(족장 또는 왕)이었습니다. 그는 거대한 쌍동선 카누에 국민을 태우고 모국 히바로부터 동쪽으로 항해를 시작했습니다. 그들은 발견한 섬의 이름을 크기와 지리적인 상황에 딱 어울리는 이름인 '테 피토 오 테 카인가'라고 지었는데 이 말은 '조그마한 땅 쪼가리'를 의미합니다.[NEWLINE][NEWLINE]항해사 하우 마카는 족장 호투를 위해 자신의 영혼이 신대륙을 발견하는 꿈을 꾸었다고 한다고 전해집니다. 하우 마카는 운명적으로 호투와 부족민에게 상당히 중요한 의미를 가지게 될 28곳의 장소와 거대한 화산 분화구가 있는 세 개의 섬을 꿈에서 보았다고 합니다. 호투는 꿈에 대한 얘기를 들은 후 하우 마카에게 거대한 카누를 타고 동쪽으로 항해해 꿈속에서 본 섬을 찾으라고 명령했습니다. 하우 마카는 끝내 그곳에서 꿈에 그리던 섬을 발견했습니다.[NEWLINE][NEWLINE]하지만, 호투 마투아와 부족민들이 테 피투 오 테 카인가로 이주할 때 히바에서 호투의 가족 중 일부를 살해한 원수 오로이가 몰래 이주민들 틈에 섞여 들어왔습니다. 섬에 도착한 오로이는 발각되지 않았고 결국 호투 마투아의 증손자를 살해하고 호투 마투아를 목표로 함정을 팠다고 합니다. 호투 마투아는 덫에 걸려들었고 이때 오로이가 뼈 단검을 들고 그에게 달려들었지만, 호투 마투아가 마법을 사용해 오로이를 처치했다고 합니다. 그 뒤 호투 마투아와 그의 자식들이 오로이의 시체를 먹어 치웠다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_LIVED">
+            <Text>알려지지 않음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_NAME">
+            <Text>말리에토아 사베</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_SUBTITLE">
+            <Text>사모아의 왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_TEXT_1">
+            <Text>투이 통가 제국은 사모아 제도의 섬들로 구성돼 있었으며 사모아에 기거했던 투이 통가 탈라카이파이키는 역대 왕 중 가장 무자비한 폭군이었다고 합니다.[NEWLINE][NEWLINE]사베아, 튜나, 파타 삼 형제와 이들의 조카 우루마수이는 탈라카이파이키의 통치에 저항했습니다. 사모아 설화에 의하면 시민 불복종 운동이 나중에는 군사 반란으로 커졌다고 합니다. 결국, 탈라카이파이키는 사로잡혔지만 사베아와 그의 형제들 그리고 삼 형제의 조카는 이 폭군을 카누에 실어 통가로 보내고 그의 목숨을 살려주었습니다. 사베아는 그가 떠날 때 그 순간을 기리기 위해 위대한 연설을 하였고 이 때문에 그는 '위대한 전사'라는 뜻의 '말리에토아'라는 이름을 얻게 되었다고 합니다. 그리고 그는 사모아의 초대 왕으로 추앙되었다고 합니다. 그 뒤 말리아토아라는 칭호는 사모아 섬의 왕들에게 대대로 전해져 내려왔습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_LIVED">
+            <Text>1742년 ~ 1803년</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_NAME">
+            <Text>포메어 1세</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_SUBTITLE">
+            <Text>타히티 왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_TEXT_1">
+            <Text>투 누이 이에 이 테 아투아 이 타라호이 바이라토아 타이나 포메어 1세는 포메어 왕조의 시조로 그는 1742년 내지는 1743년경에 페어에서 테우 투누이에이테우투아 족장의 두 번째 아들로 태어났습니다. 그는 족장으로 등극한 후 타히티 섬의 다른 세 부족을 하나의 왕국으로 통일시켰습니다. 그는 1791년에 왕위에서 하야하기 전까지 타히티, 모오레아, 마헤티아, 테티아로아의 왕으로 지냈으며 1803년에 사망할 때까지 타히티를 섭정했습니다.[NEWLINE][NEWLINE]포메어 왕조는 태평양의 무역업자 및 영국 선교사들과 아주 가까운 관계를 유지했으며 프랑스가 1880년에 타히티 군주제를 폐지하기 전까지 권력을 유지했다고 합니다. 오늘날까지도 왕조의 후손이 살아 있다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_FIJI_TEXT">
+            <Text>약 3,500년 전 라피테스 인이 처음으로 피지에 정착했습니다. 이후 기원전 900년에서 600년 사이에 동남아시아와 인도네시아의 말라네시아 인이 이주해 왔습니다. 폴리네시아 중심부 근처에 자리 잡은 피지의 위치 때문에 이곳은 교역의 길목이 되었고 폴리네시아 전역에서 좀 처럼 찾아보기 힘든 수천 킬로미터 떨어진 지역에서 온 것으로 추정되는 돌과 교역 품 그리고 도구와 같은 고고학적 사료가 섬에서 발견되었습니다. 투이 통가 왕조의 전성기에 피지는 이들의 영향력 범위 안에 있었다.[NEWLINE][NEWLINE]피지는 19세기 내내 인근 통가의 침략과 부족 간 전쟁으로 몸살을 앓았습니다. 피지의 족장 세루 에펜시아 카코바우는 자신의 권력을 확장하고 왕권을 확립하는데 기독교 선교사를 이용했다고 합니다. (그 자신 역시 기독교인이었다) 카코바우는 호주 목화 농부들에게 땅을 팔고 일부 손실을 보아 미 의회를 자극하였고 이로 인해 문제에 봉착하게 되었습니다. 결국, 카코바우는 1874년에 자신의 영토를 영국에 양도하였다고 합니다.[NEWLINE][NEWLINE]초대 영국 총독은 '피지인을 위한 피지'와 같은 진보적인 일련의 법안들을 통과시켰고 결과적으로 원주민들은 섬의 땅 대부분에 대한 권리를 유지할 수 있었다고 합니다.  영국의 식민 지배(마하트마 간디를 포함한 많은 사람이 중단할 것을 주장했던)와 함께 섬의 문화에 새로운 면을 가져온 인도의 계약 노동자들이 이주해왔습니다.[NEWLINE][NEWLINE]피지는 1970년에 독립했다. 독립 후 피지는 1987년까지 경제 원조를 받았지만 급작스레 원조가 끊긴 뒤 경제는 침체기에 들어섰으며 두 번의 군 쿠데타와 한 번의 민간 쿠데타가 일어나기도 했습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_GUADALCANAL_TEXT">
+            <Text>과달카날은 솔로몬제도에서 가장 큰 섬으로 지금은 제2차 세계대전 중 미국과 일본의 길고도 피비린내 나는 격전지로 가장 유명합니다. 1568년 이후부터 서양에 알려졌지만 제2차 세계대전에서는 호주에 들고나는 연합군 선박을 파괴할 목적으로 이곳을 일본군이 기지로 사용하려고 준비했기 때문에 전략적 가치가 높은 요충지였습니다.[NEWLINE][NEWLINE]미드웨이에서 패배한 후 얼마 지나지 않아 일본군은 과달카날의 룽가 포인트에 거대한 군용 활주로를 건설하기 시작했습니다. 과달카날은 초기 확장으로 확보한 이점을 유지하는데 필요한 외각 방어선의 일부였습니다. 이에 대응해 연합군은 일본군의 활주로와 섬을 점령한 뒤 일본의 지원군이 이 지역으로 다시 유입되기 전에 전략적 우위를 차지하기 위해서 엄청난 합동 군사 작전을 펼쳤습니다.[NEWLINE][NEWLINE]역사적으로 과달카날의 명성은 빛이 바래고 있기는 하지만 이곳에는 이 지역에서 벌어졌던 많은 전투에 대한 일화와 무용담이 존재합니다. 미 해병은 크게 불리했음에도 불구하고 룽가 지역을 이곳으로 몰려드는 일본 해군으로부터 끈질기게 지켜냈으며 미래 미국의 대통령인 존 F. 케네디가 몰았던 불운한 PT-109에 대한 일화 등등 은 과달카날과 연관된 수많은 일화의 일부로, 역사에 관심 있는 사람들은 좀 더 공부해 보는 것도 좋을 것입니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_KIRIBATI_TEXT">
+            <Text>키리바시 섬에는 최소 700년 넘게 사람이 살아왔으며 이보다 더 오래됐을 수도 있다고 합니다. 완전하지 않은 고고학적 기록과 구전 역사로 인해 사람이 언제 이곳에 정착했는지 정확한 날짜를 추정하기는 어렵습니다. 아마도 라피티아 인이 처음 정착한 것으로 추정되며 키리바시는 태평양 중앙에 위치해 있기 때문에 이들은 피지의 말레네시아 인 및 사모아의 폴리네시아 인과 접촉할 수 있었을 것 입니다.[NEWLINE][NEWLINE]서양과는 16세기경에 접촉하였고 이들과의 교역은 부족 간 전쟁의 원인이 되었습니다. 그래서 유럽 열강들은 부족 간 전쟁을 핑계로 이곳을 재빠르게 지배할 수 있었다고 합니다. 키리바시 섬 대부분은 영국이 지배하게 되었습니다.[NEWLINE][NEWLINE]제2차 세계대전에서는 일본이 키리바시를 점령하였고 이곳을 요새화했습니다. 타라와 전투는 미군과 일본군의 태평양 전투 중 가장 격렬한 전투였다고 합니다. 일본군 병사 4,500명은 조그만 산호섬을 거대한 요새로 만들어 이들이 거의 전멸하기 전까지 이곳에 상륙하려던 미해병에게 엄청난 피해를 주었다고 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_MAJURO_TEXT">
+            <Text>마주로 섬은 마샬 제도에서 가장 큰 섬이자 수도입니다. 주 산호섬에는 최소 2천 년 이상 사람이 살아왔다고 합니다. 마주로는 1914년에 일본군이 점령하기 전까지 독일 제국의 지배하에 있었습니다. 그렇지만, 식민 지배자 대부분은 원주민들 스스로 방어를 하도록 내버려두었다고 합니다.[NEWLINE]1944년 1월 30일 미국은 거대한 해군을 이끌고 마주로를 침공했지만, 일본군은 이미 섬을 비우고 인근 카와자레인 섬과 인에워탁 섬으로 철수한 상태였습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_NAURU_TEXT">
+            <Text>태평양 서쪽에 있는 나우루는 '행복한 섬'(수천 개의 다른 섬 역시 행복하지만)이라고도 불리며, 지금은 국토가 20 제곱 km에 불과한 세계에서 가장 작은 섬나라입니다. 미크로네시아 인과 폴리네시아 인이 이곳에 정착했으며 세계 식민 세력의 지배를 받아왔습니다.  미군은 태평양 전쟁에서 이 요새화된 섬을 그냥 지나쳤음에도 불구하고 일본군은 이 섬을 2차 세계대전 내내 점령하고 있었습니다.[NEWLINE][NEWLINE]나우루에는 엄청난 양의 인산염이 매장되어 있었고 이는 섬에서 가장 풍부한 천연자원이었습니다. 나우루는 1960년대에 들어서 광물에 대한 권리를 되찾은 후 채광 사업을 국유화시켰습니다. 그리고 잠시 동안이지만 나우루는 세계에서 가장 높은 1인당 국민소득을 자랑했었다고 합니다. 하지만, 매장돼 있던 인산염이 고갈되고 국가가 투자한 일련의 사업이 모두 실패로 끝나버리자 나우루는 일시에 빈곤 국가로 전락해버렸고, 남은 것은 황폐해진 생태계뿐이었습니다. 그 후 나우루는 쇠약해 가는 자국의 경제를 살리기 위해 면세 정책을 펼치고, 다른 나라의 범죄자를 수용하는 등 몇 가지 실험적인 정책을 시행했습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_NENDO_TEXT">
+            <Text>폴리네시아 제도 서쪽에 위치한 넨도 또는 산타크루즈 제도에는 약 3,000년 전에 처음 사람이 정착했습니다. 스페인은 1595년에 이곳에 식민지를 건설하려고 했으나 실패했다고 합니다. 1942년 10월 26일 일본군과 미군은 산타크루즈 인근에서 제2차 세계대전의 네 번째 항모 전투를 치뤘으며 이 전투에서 일본군은 엄청난 희생을 치르고 승리를 거두었습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_POHNPEI_TEXT">
+            <Text>폼페이는 캐롤라인 제도에서 가장 큰 섬이자 미크로네시아의 네 개 국가 중 하나였으며 1828년에 러시아 뱃사람이 이곳을 발견하기 전까지는 유럽에 알려지지 않았다고 합니다. 사우데레우어 왕조의 수도였던 폰페이는 난 마돌의 석조 도시 유적으로 유명합니다. 이 놀랄만한 도시는 거미줄처럼 얽혀 있는 수로로 연결된 작은 인공 섬들로 만들어졌습니다. 사우데레우어 왕조는 다른 섬의 족장에게 정복당하기 전까지 거의 천 년에 가까운 세월을 통치했습니다.[NEWLINE][NEWLINE]스페인은 폰페이를 차지한 후 나중에 독일 제국에 양도했습니다. 제2차 세계대전에서 일본군은 이 섬을 점령하고 요새화했지만, 미 해군이 일본 본토를 침공하러 가면서 이곳을 그냥 지나쳐 버렸기 때문에 전투는 일어나지 않았다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_VANUATU_TEXT">
+            <Text>비록 섬 인구 대부분이 말레네시아 인이 되기는 했지만, 서양의 지배하에 있던 폴리네시아 제도의 섬 중 하나인 바누아투 섬은 대략 4천 년 전 라피타 인이 처음으로 정착했던 장소 중 한 곳입니다. 바누아투를 처음 발견한 서양인은 포루투칼 탐험가 페드로 페르난데스 드 퀘이로스로 그는 스페인을 위해 섬을 차지했으며 이곳을 '에스피리투 산토'라고 칭했습니다. 드 바우게인빌은 1768년에 섬을 방문했으며, 1774년에 쿡이 섬의 이름을 뉴헤브리드스라고 지었다고 합니다.[NEWLINE][NEWLINE]폴리네시아 제도의 다른 많은 섬과 마찬가지로 서양인이 옮겨온 질병으로 수많은 원주민이 사망했고, 섬의 백단향을 이용해 부를 얻으려 몰려든 이민자들 때문에 문제가 더욱 악화되었습니다. 코코넛 재배로 경제가 어느 정도 안정되기 전까지는 백단향 다음으로 목화, 커피, 코코아, 바나나를 재배하는 플랜테이션이 투기적으로 세워졌습니다.[NEWLINE][NEWLINE]제2차 세계대전이 발발하고 미군이 이곳에 오기 전까지 바누아투 섬은 강압적인 식민주의의 지배를 받아야 했습니다. 바누아투 원주민들은 부유하고 허물없는 미군과 지속적으로 미군에게 물자를 공급하러 오는 비행기 및 선박을 보고 아주 깊은 인상을 받았다고 합니다. 이내 바누아투 원주민들은 구세주 존 프럼이 마법 화물을 가져와 섬을 해방하고 번영하게 해주기를 기다렸습니다. 심지어 오늘날까지도 '적화 신앙'은 바누아투 원주민들과 함께 하고 있다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DESC">
+            <Text>섬의 문화를 퍼뜨리고 파라다이스를 지배하기 위해 쌍동선 카누에 올라타 저 넓디넓은 태평양을 항해해 나아가십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_DEF_PACT_NO_TECH">
+            <Text>[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_NEED_WRITING_TT">
+            <Text>[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_RESCH_AGREEMENT_NO_TECH">
+            <Text>[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_ENCOUNTER_CAPTAIN_COOK">
+            <Text>HMS 엔데버호의 제임스 쿡 선장이 당신의 파라다이스 섬을 발견했습니다. 이 사람은 대영제국의 과학 연구를 위해 여정에 오른 평화로운 여행자입니다. 그렇지만, 그의 도착과 함께 폴리네시아의 새로운 시대가 열렸습니다. 먼 곳에서 온 이방인의 기술을 이용해 조만간 화약을 사용하는 무기를 쓸 수 있게 될 것입니다. 새로운 지식을 현명하게 사용하기를!
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FIXED_MAP">
+            <Text>남태평양 지도</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_EASTER_ISLAND">
+            <Text>축하합니다. 당신의 탐험가들이 라파 누이(이스터 섬)를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_HAWAII">
+            <Text>축하합니다. 당신의 탐험가들이 하와이 제도를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_NEW_ZEALAND">
+            <Text>축하합니다. 당신의 탐험가들이 길고 하얀 구름의 땅, 뉴질랜드를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_ATTACKED_1">
+            <Text>마음대로 하십시오. 사모아의 국민은 당신의 공격에 저항하지 않을 것입니다. 단, 무기를 들고 있는 사람을 제외하곤 말입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DECLAREWAR_2">
+            <Text>당신의 대도시들을 아주 좋은 의도로 순례하고자 우리 사모아의 전사들을 보냈습니다. 그들을 두 팔 벌려 환대해 주실 것이라 믿습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEFEATED_1">
+            <Text>비록 당신이 우리 군대를 무찔렀을지는 모르지만, 사모아의 정신만큼은 절대로 무찌를 수 없을 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEMANDTRIBUTE_ANGRY">
+            <Text>순순히 공물을 넘겨준다면 유혈 사태는 일어나지 않을 것입니다. 허나 수락한다면 사모아는 당신의 관대함에 진심으로 감사를 드릴 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEMANDTRIBUTE_NEUTRAL">
+            <Text>사모아는 가난하지만 당신은 부유합니다. 아마도 다음 물품들을 주신다면 업보의 짐을 상당히 덜 수 있으리라 생각됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_FIRSTGREETING_1">
+            <Text>평화로운 사모아인의 이름으로 당신을 맞이합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_FIRSTGREETING_3">
+            <Text>사모아인의 이름으로 당신에게 우정의 손길을 내밀겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_HOSTILE_HELLO_1">
+            <Text>전 당신과의 대화는 달갑지 않습니다만 그렇게 함으로써 사모아를 보다 밝은 미래로 이끌 수 있다면 그렇게 하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_NEUTRAL_HELLO_1">
+            <Text>사모아는 항상 당신을 기쁘게 받아들입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_POLITE_HELLO_1">
+            <Text>다시 뵙는군요. 친구여. 사모아가 두 팔을 벌려 당신을 환영합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_OPEN_BORDERS_EXCHANGE_1">
+            <Text>우리 사모아는 우리의 우정을 더욱 튼실히 하기 위해 양국을 갈라놓고 있는 장애물을 제거하기를 바라고 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_RESPONSE_REQUEST_1">
+            <Text>친애하는 친구여. 사모아에 도움을 주실 수 있으신지요?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRADE_NEEDMORE_NEUTRAL_1">
+            <Text>이건 우리 섬사람들에게 공평하지 않습니다. 좀 더 나은 제안을 해주시길.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRADE_NO_NEUTRAL">
+            <Text>그런 협정은 사모아인들의 이익에 반하는 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRIBUTE_NO_NEUTRAL">
+            <Text>전 비폭력주의를 굳건히 믿고 있지만, 사모아인들은 아직 그다지 계몽되지 않은 것이 사실입니다. 그들은 당신의 요구를 비웃고 있지요.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_1">
+            <Text>반갑소, 이방인! 난 타히티의 왕 포메어라고 하오. 우린 모든 이들과의 평화를 추구하지만, 전쟁을 두려워하지는 않소.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_2">
+            <Text>난 타히티인의 지도자 포메어 1세라고 하오. 이곳에 온 걸 환영하며 위대한 양국이 서로 친구가 되길 바라오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_3">
+            <Text>타히티에 온 것을 환영하오, 이방인. 난 포메어라고 하오만 짧게 부르고 싶다면 날 투 누이 이에 이 테 아투아 이 타라호이 바이라아토아 타이나 포메어 1세라고 불러도 좋소. 우린 모든 이들과의 평화를 추구하지만, 전쟁을 두려워하지는 않소.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_1">
+            <Text>아, 동반자여! 거대한 섬 폴리네시아에 온 것을 환영합니다! 나, 호투 마투아의 용맹한 탐험가가 나의 만찬과 불꽃에 그대를 초대하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_2">
+            <Text>반갑습니다, 이방인! 난 히바의 지도자 호투 마투아라고 합니다. 자 우리의 만남을 축하하기 위해 성대한 훌라춤을 춥시다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_3">
+            <Text>반갑습니다 친구여. 그대에게 축복이 내리길! 난 히바의 왕 호투 마투아라고 합니다. 서로의 자원을 공유하고 조화로운 협력을 하도록 합시다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_MONTEZUMA_FIRSTGREETING_3">
+            <Text>난 투이 통가 제국의 통치자 아오에투라고 한다! 그대는 도대체 무슨 생물이더냐?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICIES_TO_VICTORY">
+            <Text>승리할 때까지의 정책(플레이어): {1_YourPoliciesRemaining}[NEWLINE]승리할 때까지의 정책 ({2_LeaderName}): {3_LeaderPoliciesRemaining}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI">
+            <Text>아리키</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI_DESC">
+            <Text>아리키라는 칭호는 족장의 일원이나 폴리네시아 사회의 귀족계층에 수여됩니다. '마타이아포' 내지는 '랭가티라'라고 불리던 미미한 여러 귀족 족장들은 신하로서 아리키를 섬겨야 했습니다. 국민을 다스리도록 해주는 족장의 권력은 족장의 초자연적인 힘과 고귀한 태생 그리고 위대한 업적에서 비롯된 것이라고 전해집니다. 현재 쿡 섬에는 아리키 의사당이라고 하는 의회가 존재하며 이 품위있는 자문회의 일부 의원은 21세기 초 쿠데타를 시도하기도 했습니다. (쿠데타가 실패한 원인은 아마도 초자연적인 힘이 약해졌기 때문일는지도...)
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]아리키[ENDCOLOR][NEWLINE]위대한 장군의 출현율이 100%만큼 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY">
+            <Text>의식</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY_CAP">
+            <Text>의식</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]의식[ENDCOLOR]은 국가가 더 성장할 수 있도록 행복을 증가시킵니다.[NEWLINE][NEWLINE]의식을 채택하면 [ICON_CAPITAL]수도에 있는 [ICON_CITIZEN]시민의 [ICON_HAPPINESS_4]불행이 33% 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_HONOR_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]명예[ENDCOLOR]는 다양한 방법으로 군대의 효율을 개선합니다.[NEWLINE][NEWLINE]명예를 채택하면 이후에 생산하는 모든 지상 유닛에게 15의 경험치를 지급합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS">
+            <Text>예술</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS_CAP">
+            <Text>예술</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]예술[ENDCOLOR]은 더 많은 정책을 채용할 수 있도록 제국의 문화를 늘립니다.[NEWLINE][NEWLINE]예술을 채택하면 기념비와 사원으로 얻는 턴당 [ICON_CULTURE]문화가 각각 2 만큼 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_CEREMONY_TEXT">
+            <Text>의식은 한 사회가 중요한 사건을 기리고 사회적 유대감을 형성하는 데 사용하는 의례라고 할 수 있습니다. 이러한 의식은 카바와 같은 공동 의식에서부터 파도타기같이 좀 더 사적인 것까지 범위가 다양합니다.  의식의 분위기가 얼마나 성스러운가에 따라 분류되기도 하는데, 일부는 타푸와 같이 상당히 엄숙한 반면 다른 것들은 훨씬 더 자유스러운 분위기로 진행되곤 합니다. 의식의 정확한 본질이 무엇이 되었건 간에 이런 의식은 해당 문화의 사회적 유대감을 강화시키는 역할을 수행했습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA">
+            <Text>하카</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA_DESC">
+            <Text>하카는 독특하면서도 강인하고 생동감 넘치는 동작과 리듬 그리고 크게 외치는 구호가 특징인 뉴질랜드 마오리 족의 전통춤입니다. 전쟁을 치르는 양쪽 모두 하카를 췄으며 남녀 모두가 고위 관리를 맞이하는 일종의 평화로운(약간 자극적이기는 하지만) 인사방법의 한 가지로 사용하기도 했습니다. (부족과 상황에 따라 춤의 형태가 다르다.) 일그러진 미소를 짓는다거나 혓바닥을 내미는 등 하카를 추면서 얼굴을 일그러트리는 행위는 춤을 추는 사람이 가지고 있는 강력한 초자연적인 힘을 보여주기 위한 것이다.[NEWLINE][NEWLINE]오늘날 하카는 뉴질랜드의 올 블랙 럭비팀의 경기장 인사방법으로 가장 유명하긴 하지만 다른 많은 단체들(뉴질랜드 군대를 포함하여) 역시 자신들만의 특징을 가진 하카 춤을 보유하고 있다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]하카[ENDCOLOR][NEWLINE]적 유닛이 보유한 [ICON_STRENGTH]전투력의 새 배에 달하는 [ICON_CULTURE]문화를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING">
+            <Text>카후나 치료</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING_DESC">
+            <Text>카후나는 폴리네시아의 사제나 주술 치료사를 뜻하는 하와이 말입니다. 그리고 이 치료사는 약초를 사용해 사람들을 치료했으며 선조, 영혼, 신, 부당한 대우를 받은 사람들과 화해하는 의식인 '호오폰노포노'를 통해 사람들을 도왔습니다. 카후나의 치료 방법은 상호 간의 건설적인 해결책에 중점을 두고 있으며 개인이 회복하면 폴리네시아 문화가 조화를 이루는데 기여한 것으로 간주되어 카후나를 칭송하곤 했습니다. 오늘날 카후나 치료는 하와이 주민과 폴리네시아 전반에 걸쳐 부흥하고 있습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]카후나 치료[ENDCOLOR][NEWLINE]근접 전투 유닛이 의무병 승급이 부여됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA">
+            <Text>훌라</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA_DESC">
+            <Text>훌라는 외치는 함성과 악기가 동반된 하와이 전통 춤입니다. 거대한 폴리네시아 전반에 걸쳐 연관된 춤의 종류가 여러 가지가 있습니다. 서양과 교류를 시작한 이래 훌라 춤에는 다성발성과 우쿨렐레와 같은 새로운 악기 및 함성 요소가 가미되었습니다. 훌라는 가장 중요한 의식부터 간단한 사교 방식 등 다양한 이유로 사용되었습니다. 훌라 댄서의 손동작은 바다의 파도 모양과 물결치는 나무 등 노래 속에 배어 있는 사람의 감정 요소를 표현하는데 사용되었습니다. 슬프게도, 훌라가 저질스런 문화로 변질된 후 하외이는 훌라의 고대 스타일을 되살리기 위해 진지한 노력을 기울이고 있다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]훌라[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE]황금기를 시작하는 데 필요한 [ICON_HAPPINESS_1]행복이 25%만큼 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA">
+            <Text>카바</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA_DESC">
+            <Text>카바 나무의 뿌리(양고나 나무)에서 추출한 원액으로 만든 음료는 일부 폴리네시아 의식과 사회 모임에서 가장 중요한 요소라고 합니다. 카바 음료는 약한 진정제 효과를 갖고 있으며 음료를 마시는 사람에게 안락한 느낌이 서서히 스며드는 점은 주목할 만합니다. 이 때문에 카바는 폴리네시아에서 모임을 가질 때 참석자를 안심시키고 즐겁게 만들기 위해 흔히  제공되었습니다. 폴리네시아 섬의 카바 의식은 섬마다 차이가 있다고 합니다. 최근에는 카바의 활성화 성분에 포함된 유용한 효과에 대한 약물학적 연구가 진행되고 있으며 이런 종류의 약물을 선호하는 사람들 사이에 널리 퍼진 카바의 명성에 대한 비과학적인 연구가 이미 상당수 이루어졌습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]카바[ENDCOLOR][NEWLINE]채택 즉시 [ICON_HAPPINESS_1]행복을 10만큼 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU">
+            <Text>루아우</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU_DESC">
+            <Text>카메하메하 2세가 1819년에 종교적인 타푸 일부를 폐지한 후 하와이 제도에는 호화로운 산해진미와 춤 그리고 노래로 어우러진 즐거운 분위기의 루아우라는 축제가 생겨났습니다.  엄밀한 의미의 루아우는 타로토란 잎과 야자 과즙으로 구운 닭을 의미했지만 얼마 지나지 않아 축제 전체를 의미하는 말로 사용되었습니다. 왕이 주최하는 루아우는 그 규모가 굉장히 컸으며 칼라카우아는 '즐거운 군주제'라는 유명한 축제를 개최하면서 너무 많은 사람을 초대해 수백 명의 사람들이 교대로 식사를 해야 할 정도였다고 합니다. 하와이에서 루아우는 이제 '파티'와 동일한 뜻으로 사용되며 전 세계 많은 문화에서도 동일한 뜻으로 통용된다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]루아우[ENDCOLOR][NEWLINE]각각 다른 종류의 사치품으로부터 [ICON_HAPPINESS_1]행복을 2만큼 추가로 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA">
+            <Text>마나</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA_DESC">
+            <Text>마나는 폴리네시아 사람들의 정신적 지주로 모든 창조물에 만연한 신비스러운 힘이나 본질을 뜻합니다. 폴리네시아의 섬마다 약간 다르게 단어를 사용하고 있기는 하지만 단어의 중요성과 핵심 의미는 잘 보존돼 있습니다. 위대한 업적과 행동은 마나의 결과물이며 이를 실현한 사람은 마나를 획득합니다. 마나를 소유한 사람은 권한과 명성 그리고 권력을 얻게 되고 마나를 잃으면 권력을 잃게 된다고 합니다.  마나가 고갈되면 마법을 시전 하기가 굉장히 어려워진다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]마나[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE]위인 출현율이 100%만큼 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI">
+            <Text>포이</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI_DESC">
+            <Text>포이는 폴리네시아 원주민의 주식으로 타로토란 줄기를 익혀서 으깬 음식입니다. 포이의 종류는 요리하는 방법에 따라 점도 높은 액체에서부터 밀가루 반죽처럼 고체에 가까운 형태까지 다양합니다. 포이의 맛은 '접착제 같은' '정제되고 섬세한' '표현 불가' 등 다양한 표현으로 묘사되었습니다. 발효시킨 포이는 시큼한 맛을 내는데 다른 음식을 준비하는 데 사용하기도 합니다.[NEWLINE][NEWLINE]하와이 문화에서 타로토란은 사람들이 만들어낸 창작 신화에서 중요한 역할을 수행하기 때문에 포이를 밥상에 내놓으면 하와이의 고대 선조 영혼과 가족이 함께할 수 있다고 믿었습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]포이[ENDCOLOR][NEWLINE]승선 유닛 [ICON_MOVES]이 이동력 1만큼 추가로 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI">
+            <Text>파우히리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI_DESC">
+            <Text>고위 관리를 위해 마오리 족이 행하는 환영행사는 복잡한 의식입니다. 전통적으로 방문자에게 형식적인 위협을 가하는 것으로 시작(여기가 파우히리 의식 중 가장 흥미진진한 부분으로 인식됨)하며 앞으로 진행할 일의 방향에 혼선이 생기지 않도록 방문자가 변함없는 사람인지를 판단하고 주인의 전투력을 보여줍니다. 방문자는 평화의 아투아가 주는 선물 라우타푸를 받게 되며 양측은 서로 코를 맞대고 인사를 합니다. 인사가 끝나고 나면 의식  마무리됩니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]파우히리[ENDCOLOR][NEWLINE] 도시 국가에 [ICON_GOLD]골드를 선물할 때 얻는 [ICON_INFLUENCE]영향력이 25%만큼 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO">
+            <Text>롱고-롱고</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO_DESC">
+            <Text>이스터 섬의 수수께끼는 모아이 석상만 있는 것이 아닙니다. 롱고-롱고는 해석할 수 없는 일종의 공통기어(基語)가 새겨진 상형문자판을 모은 것으로 18세기 무렵에 만들어진 것으로 추정됩니다. 일정한 문자가 새겨진 약 24개 이상의 롱고-롱고가 존재하지만, 현대의 첨단 통계 기법으로도 뜻을 해석할 수 없었습니다. 현재 가장 유력한 이론은 롱고-롱고의 어원이 '읊다' 또는 '구호를 외치다' 라는 뜻의 '라파 누이'에서 비롯됐으므로 사제나 구호를 외치는 사람을 위한 연상 기호 장치였을 것이라고 주장합니다. 롱고-롱고의 미스터리를 더욱 골치아프게 만드는 사실도 있는데, 예전에는 이와 같은 문자판이 많이 있었지만 그 뜻을 해석하지 못하게 된 섬의 원주민들이 롱고-롱고 문자판을 카누나 낚싯대를 만드는 데 사용했으며 심지어는 땔감으로도 사용했다는 것입니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]롱고-롱고[ENDCOLOR][NEWLINE]도서관과 천문대의 [ICON_RESEARCH]과학이 50% 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING">
+            <Text>석각술</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING_DESC">
+            <Text>폴리네시아 조각술은 그들의 가장 뛰어난 장식 예술품이 되었으며 섬마다 조각 스타일에 차이는 있었지만 각 섬은 손쉽게 구할 수 있는 재료에 중점을 두었다고 합니다. 커다란 숲이나 석조물이 없는 섬에서는 특히 더욱 그러했습니다. 사람 모양의 티키 상과 더불어 많은 폴리네사아 제도의 섬에는 다양한 스타일의 암면 조각이 존재합니다. 폴리네시아 석각술에서 가장 유명한 것은 라파 누이(이스터 섬)의 거대한 모아이 석상입니다. 887개에 달하는 이 석상은 라파 누이의 화강암을 돌로 만들어진 간단한 도구를 사용해 깎은 것으로 많은 노동자이 동원돼 어마어마한 마나로 라파 누이 내륙을 내려다볼 수 있는 수 킬로미터 떨어진 장소로 이동시켰습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]석각술[ENDCOLOR][NEWLINE]각 모아이 석상에서 [ICON_CULTURE]문화를 1씩 추가로 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING">
+            <Text>파도타기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING_DESC">
+            <Text>HMS 엔데버호로 탐험하던 쿡의 기록에 의해 최초로 서양에 소개되었으며 고대 하와이 사람들은 '파도 위를 미끄러지듯이 타는' 기술인 헤날루를 오랜 시간 동안 연습해 왔다고 합니다. 파도타기에 가장 좋은 해변은 계급에 따라 이용이 제한되었지만, 하층민이라도 실력이 뛰어나면 이곳에서 파도를 탈 수 있는 권리를 얻을 수 있었습니다. 하와이식 서핑보드의 길이는 최고 5.5미터에 달하며 무게는 45kg이 넘었다고 합니다. 그리고 상당한 기술과 실력이 있어야 탈 수 있었습니다.[NEWLINE][NEWLINE]사람들이 어떻게 서핑보드를 만들면 되는지 금세 알아냈기 때문에 파도타기는 20세기 초부터 지금까지 많은 인기를 얻어왔습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]파도타기[ENDCOLOR][NEWLINE]제국이 지배하는 모든 도시의 [ICON_HAPPINESS_1]행복이 1씩 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH">
+            <Text>타파 클로스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH_DESC">
+            <Text>타파는 폴리네시아 전통 장식 천으로 나무껍질을 두들겨서 만든 천입니다. 타파는 피지와 통가 그리고 사모아에서 예술적으로 최고의 전성기를 누렸지만 정작 천은 폴리네시아의 다른 섬에서 만들어졌습니다. 전통적으로 타파는 대비를 이루는 색상으로 구성된 복잡한 그래픽 문양으로 칠해졌습니다. 섬의 여자들에게 타파를 준비하는 것은 사회적으로나 의식 행사로서의 중요한 의미였다고 합니다. 타파는 부와 동일시되었기 때문에 족장으로부터 타파를 받으면 이것은 후한 선물이었습니다. 오늘날 타파 클로스는 결혼식과 같은 공식적인 행사에 사용되고 있기는 하지만, 더 질긴 목화가 타파 대부분을 대체했다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]타파 클로스[ENDCOLOR][NEWLINE]모든 도시의 [ICON_CULTURE] 턴당 문화가 2만큼 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU">
+            <Text>타푸</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU_DESC">
+            <Text>타푸는 마나의 개념과 연관되어 있으며 대략 번역하자면 '신성한' 내지는 '신성함'이라고 할 수 있습니다. 그리고 금지를 뜻할 수도 있기 때문에 타푸의 차용어인 '타투'(문신)의 어원이라고 볼 수도 있습니다. 타푸라 불리는 것은 신성불가침한 것이기 때문에 방해해서는 안 되며 만약 그런 실수를 저지르면 신성 모독을 하는 것으로 간주되며, 마나를 잃게 된다고 합니다. 폴리네시아 인 대부분은 타푸를 모독하는 행위를 심각한 사안으로 받아들였으며 엄격한 처벌을 내렸다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]타푸[ENDCOLOR][NEWLINE]이후에 사회 정책 채택에 필요한 [ICON_CULTURE]문화요구치가 10%만큼 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_THE_ARTS_TEXT">
+            <Text>예술은 개인의 감정을 추상적으로 표현한 것으로 예술가가 상상한 것을 물리적인 방식으로 만들어낸 것이라고 할 수 있습니다. 예술가의 노력으로 거의 모든 평범한 물체를 예술의 경지로 끌어올릴 수 있습니다. 예를 들면 간단한 나무껍질 옷감으로 옷을 만들 수도 있지만 같은 나무껍질로 타파를 만들면 하나의 예술품이 됩니다.  예술은 예술가가 좀 더 불멸의 존재에 가까워지도록 마나를 이용해 물체를 신성하게 만드는 방법이기도 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI">
+            <Text>티키</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI_DESC">
+            <Text>티키는 사람을 본떠 조각하는 폴리네시아 기술로 주로 족장, 영웅, 신, 다른 전설적인 인물을 나타냅니다. 티키는 크고 날씬하거나 아니면 작고 강력할 수 있는데 각 스타일은 마나가 스며든 대상의 고결함 일부를 표현합니다. 예를 들면 혓바닥을 내밀고 곁눈질하고 있는 티키는 눈에 보이는 능력과 힘을 가지고 있다고 전해지며 넓은 이마는 지혜를 의미합니다. 제2차 세계대전이 끝난 후 폴리네시아의 문화가 광범위하게 확산돼 티키 고유의 의미가 퇴색했습니다. 이후 티키는 고대 폴리네시아 영웅의 마나를 찾아볼 수 없는, 다양한 제품을 재미있게 표현하는 일종의 형용사적인 역할을 해왔습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]티키[ENDCOLOR][NEWLINE]턴마다 [ICON_CULTURE]문화가 남는 [ICON_HAPPINESS_1]행복의 50%만큼 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_RANDOM_MAP">
+            <Text>무작위 군도 지도</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_SELECT_MAP">
+            <Text>지도 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_DESC">
+            <Text>수경 재배는 농업에서 육지 동식물을 사육하고 재배하는 것처럼 수중 동식물을 사육하고 재배하는 기술입니다. 수경 재배는 주로 물가에 사는 사람에게 식량을 공급해주는 수단 이기는 하지만 진주와 관상용 어류 같은 사치품도 생산합니다. 야생에서 대규모 조업을 하는 것은 수경 재배로 간주하지 않으며, 이는 레크리에이션 낚시라고 부르기도 적합하지 않습니다. 수경 재배는 주로 해안가 사람들이 식량으로 쓸 어족 자원을 좀 더 안정적으로 공급하기 위해 사용하는 방법이며, 야생에서 식량을 채집하는 다른 많은 방법을 보조합니다.[NEWLINE][NEWLINE]인류 역사를 통틀어 여러 문명이 수경 재배를 독립적으로 개발했었습니다. 가장 오래된 고고학 단서에 의하면 호주 토착민 건딧자마라 족이 최초로 수경 재배를 고안했을 것으로 추정되며 이들은 장어를 잡아서 사육했던 것으로 알려져 있습니다. 폴리네시아 인은 해안선을 따라 석벽을 쌓아 양어지를 만들고 수문을 통해 들어온 물고기를 잡았다고 합니다. 수경 재배가 식량 공급원으로서 농업을 대체한 적은 없지만, 다자란 야생 물고기를 포획하는 방법과 산란한 알을 수확하는 방법 그리고 치어를 기르는 방법 및 갑각류 포획용 덫 등에 관련된 지식이 전 세계로 전파되었습니다. 수경 재배로 인해 많은 종의 동식물이 새로운 환경으로 유입됐으며 때로는 이미 해당 장소에 서식하고 있던 동식물과 문제를 일으키기도 했습니다.[NEWLINE][NEWLINE]산업 시대 이후 수경 재배의 상업적 이용가능성에 점점 더 많은 사람이 관심을 두기 시작했습니다. 상업적인 조업은 야생 동식물 자원을 고갈시키기 때문에 대신, 수경 재배를 통해 버터와 레몬뿐인 사람의 식탁에 안정적으로 인기 있는 식용 생선과 갑각류를 공급할 수 있게 되었다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_HELP">
+            <Text>어선의 [ICON_GOLD]골드를 증가시킵니다.  해안 도시에 [COLOR_POSITIVE_TEXT]항구[ENDCOLOR]를 건설해 물 자원에서 얻을 수 있는 [ICON_PRODUCTION]생산을 증가 시킬 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"수경 재배는 위험 부담이 큰 사업입니다. 돈을 벌려고 수경 재배를 시작해서는 안 됩니다. 오직 이 사업을 사랑하는 사람만이 할 자격이 있습니다."[NEWLINE][TAB][TAB] - 마이클 매튜[NEWLINE][TAB]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ASTRONOMY_HELP">
+            <Text>승선한 유닛에 [ICON_MOVES]이동력 +1을 제공합니다. 과학을 증가시키는 첫 건물인 [COLOR_POSITIVE_TEXT]천문대[ENDCOLOR]를 만들 수 있습니다.  물 타일의 [ICON_FOOD]식량을 증가시킬 수 있는 [COLOR_POSITIVE_TEXT]등대[ENDCOLOR]와 해상 교역로를 연결하는 데 필요한 [COLOR_POSITIVE_TEXT]항만[ENDCOLOR]을 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_DESC">
+            <Text>폴리네시아 문화에는 널리 통용되는 고유의 문자 체계가 없었고 의식용 춤과 노래 등 구전이나 다양한 연상 기호 방법을 통해 문화가 계승되었다고 합니다. 폴리네시아 각 지역의 춤은 서로 다릅니다. 의식용 춤은 풍요 의식을 동반해 신을 섬기고 족장과 영웅을 찬양하는 데 사용되었으며, 존경하는 방문자를 환영하는 방법으로도 사용되었습니다. 서양의 문물을 접하게 되면서 대부분의 서양의 악기와 음악 스타일이 현지의 춤과 뒤섞이였다고 합니다.[NEWLINE][NEWLINE]폴리네시아에서 가장 유명한 의식용 춤은 아마도 하와이에서 만들어진 훌라와 뉴질랜드의 마오리 하카일 것입니다. 훌라는 파도치는 함성과 동작으로 유명하며 하카는 생동감 넘치는 동작과 발구름, 그리고 리듬을 타는 함성으로 유명합니다. 훌라는 두 개의 커다란 종류로 분류됩니다. 서양 문물이 유입되기 전의 고대 훌라는 '카히코'라고 불리며 좀 더 현대적인 19세기와 20세기 스타일의 훌라는 '아우아나'라고 불립니다. 마오리 족 남녀 모두 장례식에서부터 전쟁에 이르기까지 하카를 춰왔다고 합니다.[NEWLINE][NEWLINE]아직도 춤은 폴리네시아 문화의 중요한 일부분으로 우아한 동작과 좀 더 평화로운 징후의 조화 그리고 힘이 넘치는 럭비팀의 공격적인 인사법 등을 통해 미래의 세대가 문화를 경험할 수 있도록 폴리네시아 전역에 걸쳐 널리 전수되고 있습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_HELP">
+            <Text>게임 내에서 가장 강력한 고전 유닛인 [COLOR_POSITIVE_TEXT]마오리 전사[ENDCOLOR]를 만들 수 있습니다.  [COLOR_POSITIVE_TEXT]건국 서사시[ENDCOLOR]를 건설할 수 있게 됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"난 춤을 출줄 아는 신만을 믿을 것이다."[NEWLINE][TAB][TAB] - 프리드리히 니체[NEWLINE][TAB]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_COMPASS_HELP">
+            <Text>르네상스 시대의 첫 해상 유닛인 [COLOR_POSITIVE_TEXT]캐러벨선[ENDCOLOR]을 만들 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CONSTRUCTION_HELP">
+            <Text>도시의 방어력을 상당 수준 증가시키는 [COLOR_POSITIVE_TEXT]성벽[ENDCOLOR]을 건설할 수 있습니다.  노동자이 [COLOR_POSITIVE_TEXT]도로[ENDCOLOR]와 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]를 건설할 수 있게 됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ECONOMICS_HELP">
+            <Text>[ICON_GOLD]골드를 증가시키는 [COLOR_POSITIVE_TEXT]시장[ENDCOLOR]을 건설할 수 있으며 타일을 [COLOR_POSITIVE_TEXT]교역소[ENDCOLOR]로 개발할 수 있습니다.  도시의 [ICON_PRODUCTION]생산의 일부를 유닛이나 건물 생산에 사용하지 않고 [ICON_GOLD]골드를 생산하는데 쓸 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_GUNPOWDER_HELP">
+            <Text>화기를 사용하는 첫 유닛인 [COLOR_POSITIVE_TEXT]머스킷 총병[ENDCOLOR]을 양성할 수 있습니다.  유럽인과의 접촉으로 얻은 새로운 기술의 경제적 혜택 몇 가지를 제공합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_MASONRY_HELP">
+            <Text>도시의 문화를 증가시키는 [COLOR_POSITIVE_TEXT]기념비[ENDCOLOR]를 건설할 수 있습니다.  노동자이 [ICON_RES_MARBLE][COLOR_POSITIVE_TEXT]대리석[ENDCOLOR] 위에 채석장을 건설할 수 있으며 다른 시설을 건설할 수 있도록 [COLOR_POSITIVE_TEXT]습지[ENDCOLOR]를 개간할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_MINING_HELP">
+            <Text>노동자이 [COLOR_POSITIVE_TEXT]광산[ENDCOLOR]을 건설하여 타일에서 얻을 수 있는 [ICON_PRODUCTION]생산을 높일 수 있으며, [COLOR_POSITIVE_TEXT]벌목[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]정글 개간[ENDCOLOR]을 통해 그 자리에 다른 시설을 건설할 수 있게 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_NAVIGATION_HELP">
+            <Text>시나리오의 첫 전함인 [COLOR_POSITIVE_TEXT]삼단노선[ENDCOLOR]을 건조할 수 있게 됩니다.  승선한 유닛이 전함의 공격을 방어할 수 있게 됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_OPTICS_HELP">
+            <Text>시나리오에서 가장 강력한 전함인 [COLOR_POSITIVE_TEXT]프리깃함[ENDCOLOR]을 건조할 수 있게 됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_DESC">
+            <Text>석각술은 폴리네시아의 주요 장식 예술입니다. 폴리네시아인은 재료가 조개껍데기, 뼈, 나무, 돌 뭣이건 간에 손에 쥔 것으로 특출난 장식품을 만들었습니다. 이런 조각술은 의식과 종교적인 용도로 사용되었을 뿐만 아니라 의자에서부터 숟가락 그리고 집 기둥마저도 모두 조각술을 사용해 만들었으며, 보통은 지나칠 정도로 섬세하게 조각했다고 합니다.[NEWLINE][NEWLINE]폴리네시아 전역에 조각술이 대중적이었지만, 지역별로 선호하는 재료와 스타일에는 확연한 차이가 있었습니다. 예를 들면 하와이에는 목재가 흔했기 때문에 목재 조각술이 상당한 수준에 이르렀던 반면, 나무가 별로 없었던 이스터 섬의 주민들은 섬의 화강암을 가지고 어마어마하고 멋진 모아이 석상을 만들어냈다.[NEWLINE][NEWLINE]인간 형태를 띤 티키 조각상은 당시에 만들어진 가장 흔한 조각품이었습니다. 조각상은 영웅이나 선조를 나타내는 것이었으며 길죽한 눈은 경계 의식을 나타내고 노출된 이빨은 힘과 저항을 표출하는 것으로 마나의 신성한 힘이 조각상에 결합해 있는 것으로 믿겨져 왔습니다. 티키는 제2차 세계대전이 끝나고 나서 서양인에 의해 저속한 예술이라는 오명을 얻기는 했지만, 이것을 저속한 예술이라고 볼 수는 없다습니다.[NEWLINE][NEWLINE]폴리네시아 인은 관상용 조각품과 더불어 그들 섬의 바위에 다양한 암면 조각을 남겼습니다. 이 암면 조각과 수수께끼의 롱고-롱고 문자판은 오늘날까지도 치열한 논쟁의 주제가 되고 있으며 때로는 음모론의 주제가 되기도 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_HELP">
+            <Text>노동자이 해안 타일에 [COLOR_POSITIVE_TEXT]모아이[ENDCOLOR]를 건설해서 해당 타일의 [ICON_CULTURE]문화를 증가시킬 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"나는 대리석 속에 갇힌 천사를 보았고 그가 차가운 돌 속에서 풀려날 때까지 돌을 깎았다."[NEWLINE][TAB][TAB] - 미켈란젤로[NEWLINE][TAB]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_SAILING_HELP">
+            <Text>물 타일에서 [ICON_RES_FISH][COLOR_POSITIVE_TEXT]물고기[ENDCOLOR]와 [ICON_RES_PEARLS][COLOR_POSITIVE_TEXT]진주[ENDCOLOR]같은 자원을 채취할 수 있는 작업선을 건조할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_SCIENTIFIC_THEORY_HELP">
+            <Text>이 기술은 아무런 혜택도 제공하지 않습니다. 태평양에 유럽기술이 유입되기 전에 다른 나머지 중세 시대 계열을 끝냈다면 반드시 이 기술을 연구해야 합니다. 이 기술은 자신보다 발전한 문명과 조우하기 전, 폴리네시아 기술의 정체기를 대변합니다. 제임스 쿡의 탐험대와 조우하는 각 문명에는 보상이 지급될 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_DESC">
+            <Text>문신은 잉크를 사용해 사람 몸에 지워지지 않는 문양을 새기는 예술로 폴리네시아 인 사이에서는 고도의 세련미와 의미로 계승되어 왔습니다. 1769년에 영국의 자연학자 조셉 뱅크가 '엔데버호'에서 최초로 이 단어를 사용했으며 폴리네시아 말 '타타우'에서 비롯되었습니다.[NEWLINE][NEWLINE]폴리네시아에서는 보통 사람 몸 면적의 상당 부분을 차지하도록 문신을 새기곤 했습니다. 마오리 족과 폴리네시아 서부에서는 보통 얼굴에 화려한 문신을 새겼습니다. 문신은 보통 사회 계급과 지위에 연관돼 있었으며 가장 복잡하고 섬세한 문신은 족장과 지도자들만이 새길 수 있었습니다. 문신의 대부분은 선으로 이루어진 기하학적인 문양이 절대적으로 많았으며 문신을 새긴 사람을 위한 정신적인 의미를 지닌다고 여겨졌습니다. 폴리네시아식 문신은 멧돼지 이빨을 갈아 만든 날카롭고 넓은 빗과 라마 넛을 태울 때 나오는 그을음으로 만든 염료를 가지고 피부에 문신을 새기는 방식입니다. 현대의 문신 기법은 좀 더 정교해진 도구로 폴리네시아 문신 기법을 그대로 사용하는 것이기 때문에 문신을 새길 때 느껴는 고통의 차이에는 그때나 지금이나 전혀 차이가 없다.[NEWLINE][NEWLINE]갓 성인이 된 사람이 문신을 새길 때는 며칠간에 걸쳐 여러 번의 세션으로 나누어서 작업한다고 합니다. 남자가 문신을 새기는 것은 여자가 새길때 보다 더 의식화 돼 있으며 문신을 새기는 사람은 비록 사화적인 오명을 감수하기는 해야 했지만 문신을 거부하거나 작업 세션을 중단할 수 있었다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]병영[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]영웅 서사시[ENDCOLOR]같은 건물로 군대의 질을 향상 시킬 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"문신이 없는 자는 신의 눈에 띄지 않는다."[NEWLINE][TAB][TAB] - 이반 속담[NEWLINE][TAB]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_THEOLOGY_HELP">
+            <Text>각각 [ICON_CULTURE]문화와 [ICON_RESEARCH]과학를 증가 시키는 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]도서관[ENDCOLOR]을 건설할 수 있습니다.  [COLOR_POSITIVE_TEXT]법원[ENDCOLOR]을 지을 수 있게 되는데, 이는 [ICON_OCCUPIED] 점령한 도시에서 발생하는 [ICON_HAPPINESS_4] 불만을 줄여줍니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TRAPPING_HELP">
+            <Text>강한 군사 유닛인 [COLOR_POSITIVE_TEXT]창병[ENDCOLOR]을 양성할 수 있습니다.  노동자이 [COLOR_POSITIVE_TEXT]야영지[ENDCOLOR]를 [ICON_RES_DEER]사슴과 [ICON_RES_IVORY]상아, [ICON_RES_FUR]모피 자원 위에 건설할 수 있게 됩니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_DESC">
+            <Text>'길 찾기'로도 불리는 폴리네시아의 전통 항해술은 고도로 정교했으며 구두로 전달되는 지식체계 덕분에 폴리네시아 인은 개방형 카누를 타고 거대한 태평양을 건널 수 있었습니다. 전통 항해술은 천체 항해술 일부와 대양 해류 및 새의 이동 경로에 대한 인식 그리고 물고기 행동 과학 및 추측항법, 날씨 관측 등으로 구성되어 있습니다. 길 찾기는 일부 항해사들만의 전유물로 폴리네시아 인이 나침반이나 시계를 쓰지 않고도 수만 제곱 km에 달하는 대양을 건널 수 있도록 했습니다. 수습 항해사는 스승으로부터 별의 움직임, 조류 행동 패턴, 날씨의 특이한 점(섬 너머 수평선 근처에 구름이 눈에 띄게 형성되고 있다던가 하는 사항)에 대한 핵심 사항을 외침, 노래, 간단한 재료로 만든 지도 등으로 배우곤 했습니다.[NEWLINE][NEWLINE]길 찾기는 지역에 따라 다른 구전 방식으로 전달됐으며, 오늘날 길 찾기 지식 대부분은 사라져버렸습니다. 솔로몬 제도의 타우마코와 같은 전통 폴리네시아 항해 학교가 아직도 태평양에 존재한다고 합니다.[NEWLINE][NEWLINE]폴리네시아인은 비교적 작은 폴리네시아 선박을 이용해 먼 거리를 항해하는 위업을 달성했기 때문에 많은 이들이 폴리네시아 항해사의 길 찾기 기술을 칭송해왔으며 가끔은 지나치게 과장되기도 했습니다. 하지만 고작 도시의 버스 길이에 불과한 카누에 올라타고 조그만 섬을 떠나 먼 거리의 섬으로 항해를 할 수 있었던 폴리네시아 인의 자신감과 능숙함에 저절로 고개를 숙이지 않을 수 없습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_HELP">
+            <Text>시나리오가 시작되기 직전에 당신의 문명은 이미 이 기술을 연구했으며 바다 타일과 더불어 승선에 대한 미스터리가 풀렸습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"검푸른 대양을 헤치고 나아가라. 우리의 의지는 경계가 없으며 우리는 자유로운 영혼들이다. 파도가 치고 미풍이 부는 곳까지 나아가 우리 제국을 탐험하고 조국을 보호하라! "[NEWLINE][TAB][TAB] - 바이런 경[NEWLINE][TAB]
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_THE_ARTS_TITLE">
+            <Text>{2_CivName:textkey}의 티키신 {1_PlayerName:textkey}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TITLE">
+            <Text>파라다이스 발견</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TP_CULTURE_CITY_COST">
+            <Text>소유한 도시 수가 사회 정책 채택에 필요한 문화 요구량에 영향을 미치지 않습니다. 그러므로 원하는 만큼 자유롭게 도시의 수를 늘려나가십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TURNSREMAINING">
+            <Text>이 시나리오에는 턴 제한이 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_UNIT_HELP_TRIREME">
+            <Text>바다의 패권을 다투는 데 핵심적인 중세 시대 해상 유닛입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_UNIT_TRIREME_STRATEGY">
+            <Text>삼단노선은 게임 내에서 문명이 이용할 수 있는 최초의 해상 유닛입니다. 원거리 유닛으로 원거리 전투력은 보통 수준입니다. 근접 전투를 할 수 없습니다. 삼단노선은 아군 영해에서 야만인 배를 몰아내고 승선한 적 유닛을 공격하는 데 유용합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_HEART_OF_POLYNESIA">
+            <Text>[ICON_CITIZEN]시민 수로 인해 생성되는 [ICON_HAPPINESS_4]불행이 25%만큼 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_HEART_OF_POLYNESIA_SHORT">
+            <Text>폴리네시아의 중심</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_HIGH_ISLANDERS">
+            <Text>천문학을 발견하면 무료 개척자를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_HIGH_ISLANDERS_SHORT">
+            <Text>호투 마투아의 식민지 주민</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TIU_TONGA_EMPIRE">
+            <Text>도시 국가 [ICON_INFLUENCE]영향력 감소 속도가 2/3로 줄어들며 회복 속도는 50%만큼 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TIU_TONGA_EMPIRE_SHORT">
+            <Text>투이 통가 제국</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TUPAIAS_NAVIGATION">
+            <Text>모든 육군 및 해상 유닛(정찰병 포함)의 시야가 1만큼 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TUPAIAS_NAVIGATION_SHORT">
+            <Text>투파이아 항해술</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>
