@@ -7,7 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        run: iscc "vp_kr mpinstaller file/VPINTModpack.iss" /O"out_githubaction" /F"Vox Populi INT"
+        run: iscc "vp_kr mpinstaller file/VPINTModpack.iss" /O"out_githubaction" /F"VP INT Modpack"
       - uses: actions/upload-artifact@v4
         with:
           name: "VP INT Modpack"
