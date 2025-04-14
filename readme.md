@@ -16,7 +16,7 @@ Overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 ## Vox populi 받기
 
-**한국어로 VP를 플레이하려면 둘 다 설치해야 합니다!**
+**한국어로 VP 모드를 플레이하려면 원본 VP 모드와 한국어 모드 둘 다 설치해야 합니다! (모드팩은 상관 없음)**
 
 [Vox Populi 설치 프로그램 받기](https://github.com/LoneGazebo/Community-Patch-DLL/releases)
 
