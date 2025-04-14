@@ -6,7 +6,7 @@
 
 ## Vox Populi가 뭔가요?
 
-![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-48-25-image.png)
+![image](https://github.com/user-attachments/assets/da5db707-67b1-410c-9d00-02d408b056be)
 
 [Vox Populi](https://forums.civfanatics.com/forums/community-patch-project.497/)는 문명 5의 유명 Overhaul 모드로 2014년도에 Community Patch Project라는 이름으로 시작해 2016년 5월 14일부터 Vox Populi(라틴어로 인민의 목소리), 줄여섯 VP라고 불리게 되었습니다.
 
@@ -23,7 +23,7 @@ Overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 최신 버전이 가장 위로 올라오며 최신 글에서:
 
-![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-46-40-image.png)
+![image](https://github.com/user-attachments/assets/1e78f3fb-89fb-4a9f-b6d2-e13fba5c093e)
 
 ▶ Assets을 눌러주면 🔽 Assets으로 바뀌면서 그 아래에 파일들이 나옵니다. 이 중 Vox.Populi.버전명.exe 라는 형식으로 된 것이 설치 파일입니다.
 
@@ -43,7 +43,7 @@ VP와 마찬가지로 [Inno Script Studio](https://www.kymoto.org/products/inno-
 
 **모드팩(압축 파일) 설치 방법**
 
-![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-50-59-image.png)
+![image](https://github.com/user-attachments/assets/8b039c13-5f11-442c-b831-4ab7c92e373a)
 
 다운 받은 VP4UCK_날짜.zip 압축 파일을 **문명이 설치된 경로의 Assets 폴더가 자리 잡고 있는 문명 5 폴더**에다 넣어서 압축을 풀면 됩니다. 쉬운 방법으로는 스팀에서 위의 사진처럼 들어가면 됩니다. 그게 아니면 기본 경로로 직접 찾아가도 되는데 따로 다른 곳에 설치하지 않았다면 기본 경로는 아래와 같습니다.
 
@@ -53,7 +53,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
 
 
 
-![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-52-14-image.png)
+![image](https://github.com/user-attachments/assets/e25912a6-be82-4b52-bf34-2771b33e1f6a)
 
 제대로 했다면 대충 이런 모양새가 됩니다. 다른 건 둘째치고 DLC 폴더에 **MP_MODSPACK** 폴더와 **UI_bc1** 폴더, **VPUI** 폴더가 저 자리에 있어야 됩니다.  
 
@@ -72,7 +72,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
   
   문명 5 게임이 위치한 경로의 Assets에 겹치면 됩니다.
   
-  ![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-50-59-image.png)
+  ![image](https://github.com/user-attachments/assets/8b039c13-5f11-442c-b831-4ab7c92e373a)
   
   스팀 창에서 Sid Meier's Civilization V에 오른쪽 클릭을 하시고 관리 > '로컬 파일 탐색'으로 게임 위치를 열 수 있습니다.
   
@@ -106,21 +106,26 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
     향상된 사용자 인터페이스(Enhanced User Interface) 모드는 문명 5의 사용자 인터페이스를 완전히 새로 만들었습니다. 커뮤니티 패치 프로젝트에 필수는 아니지만, 대부분 프로젝트 사용자가 선호하며, 이 모드가 없으면 버그가 발생할 수 있습니다. 이 모드는 자동 설치 프로그램에 포함되어 있습니다. 단, Vox Populi에서 기본으로 제공되는 EUI를 사용해야 하며 이후 버전의 EUI는 VP와 호환되지 않습니다.
     
     이 폴더는 문명 5의 UI를 개선해주는 EUI 모드를 Vox Populi와 호환되게 수정한 VP - EUI 호환 파일 모드를 한국어로 번역한 모드입니다.
-  - **(4aL) Squads for VP INT** 
+  - **(4aL) Squads for VP INT**
+    
     VP 모드를 실시간 전략 게임처럼 드래그해 CTRL + 숫자키 조합으로 분대 번호를 지정해 추가하고 오른쪽 클릭으로 분대를 이동시키거나 분대 관리로 분대 전체를 관리할 수 있도록 만들어주는 모드입니다. 
     
     이 폴더는 VP용 분대 모드를 한국어로 번역한 모드입니다.
   - **(overL) More Unique Components for VP (v 88) INT**
+    
     고유 구성요소(Unique Components)는 단일 문명에만 존재하는 건물, 유닛, 타일 시설을 말합니다. 4UC, 혹은 34UC(3rd and 4th Unique Components)라고도 불리는 이 모드는 기본 43개 문명의 고유 구성요소 숫자를 2개에서 4개로 늘려줍니다. 새로운 구성요소를 VP와 원활하게 통합하고 게임의 밸런스를 조정하기 위해 문명의 일부 기본 구성요소도 수정되었습니다. 또한, AI가 새로운 도구에 적응할 수 있도록 여러 AI 유형이 조정되었습니다.
     
     이 폴더는 본래 CAYM님이 계몽 모드를 위해 번역했던 모드였으나, 이를 온전히 VP에만 맞춰서 수정한 한국어 번역 모드입니다.
 - **Firaxis ModBuddy**
+  
   비주얼 스튜디오 2010을 기반으로 만들어진 모드 개발 도구인 파이락시스 모드버디로 생성한 솔루션 파일들입니다. 다른 모든 문명 5 모드가 그러하듯, 한국어 모드 또한 이 솔루션 파일들로 빌드 및 컴파일해 제작합니다.
 - **VPUI Text**
+  
   모드와 게임을 로딩하는 동안 표시하는 도움말의 텍스트 파일입니다. 모드 로딩 전부터 불러와야 하므로, 모드 폴더에 넣을 수 없어 별도로 나와있습니다.
   
   기본 경로는 `C:\Users\<사용자 계정명>\Documents\My Games\Sid Meier's Civilization 5\Text` 입니다.
 - **vp_kr installer file**
+  
   설치 프로그램인 .exe 파일을 만들기 위한 Inno Script Studio용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
 - 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)로 옮겨졌으며 사실상 아카이빙용이라 매우 구버전으로 더 이상 정상 작동을 보장하지 않습니다. 
 
