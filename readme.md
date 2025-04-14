@@ -6,7 +6,7 @@
 
 ## Vox Populi가 뭔가요?
 
-![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-48-25-image.png)
+![image](https://github.com/user-attachments/assets/da5db707-67b1-410c-9d00-02d408b056be)
 
 [Vox Populi](https://forums.civfanatics.com/forums/community-patch-project.497/)는 문명 5의 유명 Overhaul 모드로 2014년도에 Community Patch Project라는 이름으로 시작해 2016년 5월 14일부터 Vox Populi(라틴어로 인민의 목소리), 줄여섯 VP라고 불리게 되었습니다.
 
@@ -23,7 +23,7 @@ Overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 최신 버전이 가장 위로 올라오며 최신 글에서:
 
-![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-46-40-image.png)
+![image](https://github.com/user-attachments/assets/1e78f3fb-89fb-4a9f-b6d2-e13fba5c093e)
 
 ▶ Assets을 눌러주면 🔽 Assets으로 바뀌면서 그 아래에 파일들이 나옵니다. 이 중 Vox.Populi.버전명.exe 라는 형식으로 된 것이 설치 파일입니다.
 
@@ -43,7 +43,7 @@ VP와 마찬가지로 [Inno Script Studio](https://www.kymoto.org/products/inno-
 
 **모드팩(압축 파일) 설치 방법**
 
-![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-50-59-image.png)
+![image](https://github.com/user-attachments/assets/8b039c13-5f11-442c-b831-4ab7c92e373a)
 
 다운 받은 VP4UCK_날짜.zip 압축 파일을 **문명이 설치된 경로의 Assets 폴더가 자리 잡고 있는 문명 5 폴더**에다 넣어서 압축을 풀면 됩니다. 쉬운 방법으로는 스팀에서 위의 사진처럼 들어가면 됩니다. 그게 아니면 기본 경로로 직접 찾아가도 되는데 따로 다른 곳에 설치하지 않았다면 기본 경로는 아래와 같습니다.
 
@@ -53,7 +53,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
 
 
 
-![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-52-14-image.png)
+![image](https://github.com/user-attachments/assets/e25912a6-be82-4b52-bf34-2771b33e1f6a)
 
 제대로 했다면 대충 이런 모양새가 됩니다. 다른 건 둘째치고 DLC 폴더에 **MP_MODSPACK** 폴더와 **UI_bc1** 폴더, **VPUI** 폴더가 저 자리에 있어야 됩니다.  
 
@@ -72,7 +72,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
   
   문명 5 게임이 위치한 경로의 Assets에 겹치면 됩니다.
   
-  ![](C:\Users\H00N\AppData\Roaming\marktext\images\2025-04-14-15-50-59-image.png)
+  ![image](https://github.com/user-attachments/assets/8b039c13-5f11-442c-b831-4ab7c92e373a)
   
   스팀 창에서 Sid Meier's Civilization V에 오른쪽 클릭을 하시고 관리 > '로컬 파일 탐색'으로 게임 위치를 열 수 있습니다.
   
