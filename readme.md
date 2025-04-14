@@ -34,12 +34,9 @@ Overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 ## 설치법
 
-[한국어 모드 및 모드팩 받기](https://github.com/handanikr/vp_kr/releases)
+### 공식 배포 [[바로가기]](https://github.com/handanikr/vp_kr/releases)
 
-
-[자동 배포 나이틀리 모드 설치 프로그램](https://nightly.link/handanikr/vp_kr/workflows/inno-build/beta/Vox%20Populi%20INT.zip)
-
-[자동 배포 나이틀리 모드팩 설치 프로그램](https://nightly.link/handanikr/vp_kr/workflows/inno-mpbuild/beta/VP%20INT%20Modpack.zip)
+### 나이틀리 버전 자동 배포 [[모드]](https://nightly.link/handanikr/vp_kr/workflows/inno-build/beta/Vox%20Populi%20INT.zip) [[모드팩]](https://nightly.link/handanikr/vp_kr/workflows/inno-mpbuild/beta/VP%20INT%20Modpack.zip)
 
 VP와 마찬가지로 [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio)로 만들어진 설치 프로그램으로 모드를 자동으로 설치할 수 있습니다. 다만, 설치 프로그램을 꺼리시는 분이나 수동으로 모드를 사용하기를 원하시는 분은 직접 압축파일로 받으실 수 있습니다.
 
