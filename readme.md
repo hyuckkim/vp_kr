@@ -106,21 +106,26 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
     향상된 사용자 인터페이스(Enhanced User Interface) 모드는 문명 5의 사용자 인터페이스를 완전히 새로 만들었습니다. 커뮤니티 패치 프로젝트에 필수는 아니지만, 대부분 프로젝트 사용자가 선호하며, 이 모드가 없으면 버그가 발생할 수 있습니다. 이 모드는 자동 설치 프로그램에 포함되어 있습니다. 단, Vox Populi에서 기본으로 제공되는 EUI를 사용해야 하며 이후 버전의 EUI는 VP와 호환되지 않습니다.
     
     이 폴더는 문명 5의 UI를 개선해주는 EUI 모드를 Vox Populi와 호환되게 수정한 VP - EUI 호환 파일 모드를 한국어로 번역한 모드입니다.
-  - **(4aL) Squads for VP INT** 
+  - **(4aL) Squads for VP INT**
+    
     VP 모드를 실시간 전략 게임처럼 드래그해 CTRL + 숫자키 조합으로 분대 번호를 지정해 추가하고 오른쪽 클릭으로 분대를 이동시키거나 분대 관리로 분대 전체를 관리할 수 있도록 만들어주는 모드입니다. 
     
     이 폴더는 VP용 분대 모드를 한국어로 번역한 모드입니다.
   - **(overL) More Unique Components for VP (v 88) INT**
+    
     고유 구성요소(Unique Components)는 단일 문명에만 존재하는 건물, 유닛, 타일 시설을 말합니다. 4UC, 혹은 34UC(3rd and 4th Unique Components)라고도 불리는 이 모드는 기본 43개 문명의 고유 구성요소 숫자를 2개에서 4개로 늘려줍니다. 새로운 구성요소를 VP와 원활하게 통합하고 게임의 밸런스를 조정하기 위해 문명의 일부 기본 구성요소도 수정되었습니다. 또한, AI가 새로운 도구에 적응할 수 있도록 여러 AI 유형이 조정되었습니다.
     
     이 폴더는 본래 CAYM님이 계몽 모드를 위해 번역했던 모드였으나, 이를 온전히 VP에만 맞춰서 수정한 한국어 번역 모드입니다.
 - **Firaxis ModBuddy**
+  
   비주얼 스튜디오 2010을 기반으로 만들어진 모드 개발 도구인 파이락시스 모드버디로 생성한 솔루션 파일들입니다. 다른 모든 문명 5 모드가 그러하듯, 한국어 모드 또한 이 솔루션 파일들로 빌드 및 컴파일해 제작합니다.
 - **VPUI Text**
+  
   모드와 게임을 로딩하는 동안 표시하는 도움말의 텍스트 파일입니다. 모드 로딩 전부터 불러와야 하므로, 모드 폴더에 넣을 수 없어 별도로 나와있습니다.
   
   기본 경로는 `C:\Users\<사용자 계정명>\Documents\My Games\Sid Meier's Civilization 5\Text` 입니다.
 - **vp_kr installer file**
+  
   설치 프로그램인 .exe 파일을 만들기 위한 Inno Script Studio용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
 - 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)로 옮겨졌으며 사실상 아카이빙용이라 매우 구버전으로 더 이상 정상 작동을 보장하지 않습니다. 
 
