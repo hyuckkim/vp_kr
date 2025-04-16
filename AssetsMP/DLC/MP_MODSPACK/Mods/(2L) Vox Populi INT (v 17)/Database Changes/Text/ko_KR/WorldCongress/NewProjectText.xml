@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_TREASURE_FLEET">
+			<Text>보물 선단</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_TREASURE_FLEET_SPLASH">
+			<Text>전 세계의 제독, 항해사, 선원 및 조선소는 역대 가장 크고 가장 권위 있는 함대인 보물 함대를 만들기 위해 자원을 모으고 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1">
+			<Text>최고의 조선사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1_HELP">
+			<Text>무료 [COLOR_POSITIVE_TEXT]프리깃이[ENDCOLOR] 1개 출현합니다. [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]300[ENDCOLOR] 제공합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2">
+			<Text>숙련된 항해사</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2_HELP">
+			<Text>[ICON_GREAT_ADMIRAL][COLOR_POSITIVE_TEXT]위대한 제독[ENDCOLOR]이 1명 출현하고 군사 유닛 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]의 유지비가 들지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3">
+			<Text>함대의 주인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP">
+			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]대운하[ENDCOLOR] 불가사의가 출현합니다.([COLOR_POSITIVE_TEXT]추가[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] 교역로를 얻습니다. 잠수함과 항공모함을 제외한 모든 해군 유닛이 [COLOR_POSITIVE_TEXT]보물 선단[ENDCOLOR] 승급을 얻어, 공격할 때 +10% [ICON_STRENGTH]전투력 보너스, 시야 +1을 얻고, [COLOR_POSITIVE_TEXT]아군 영토 밖[ENDCOLOR]에서 회복할 수 있게 됩니다.)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WARGAMES">
+			<Text>국제 군사 훈련</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WARGAMES_SPLASH">
+			<Text>세계 제국의 군대와 군 장교들은 그들의 전투 능력을 강조하고 각군이 세계적으로 탁월함을 주장하기 위해 모였습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1">
+			<Text>대령</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]보병[ENDCOLOR] 1개가 출현하고 군사 유닛 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]의 유지비가 들지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2">
+			<Text>소장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2_HELP">
+			<Text>다음 30턴 동안 모든 군사 유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 군사 유닛 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]의 유지비가 들지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3">
+			<Text>원수</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP">
+			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]메닝 문[ENDCOLOR] 불가사의가 출현합니다. (건설 시 +2 [ICON_HAPPINESS_1] 행복을 제공합니다. 아군 유닛이 사망할 때마다 +2 [ICON_CULTURE] 문화와 +2 [ICON_GOLDEN_AGE] 황금기 점수를 얻습니다. (시대별 보정) 요새, 성채, 랜드마크가 +2 [ICON_CULTURE] 문화와 +2 [ICON_GOLDEN_AGE] 황금기 점수를 제공합니다.)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_UNITED_NATIONS">
+			<Text>국제 연합</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_UNITED_NATIONS_SPLASH">
+			<Text>세계 외교와 국제 관계의 새로운 시대가 도래했습니다. 전 세계의 대표단, 관리 및 고위 인사들이 유엔의 건설과 인류의 미래를 축하하기 위해 모였습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1">
+			<Text>위원장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1_HELP">
+			<Text>[ICON_DIPLOMAT][COLOR_POSITIVE_TEXT]위대한 외교관[ENDCOLOR]이 1명 출현합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2">
+			<Text>상임이사국</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP">
+			<Text>모든 도시 국가에 대한 [ICON_INFLUENCE]영향력을 즉시 [COLOR_POSITIVE_TEXT]25[ENDCOLOR]만큼 제공합니다. [ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]영사관[ENDCOLOR] 국가 불가사의가 출현합니다. (세계의 원래 도시 국가 8개마다 세계 대회 추가 [ICON_DIPLOMAT]대표단을 1명 확보합니다.)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3">
+			<Text>사무 총장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP">
+			<Text>[ICON_CAPITAL]수도에 [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR] 불가사의가 출현합니다. (세계의 원래 도시 국가 8개마다 세계 대회 추가 [ICON_DIPLOMAT]대표단을 1명 확보합니다. [ICON_GREAT_PEOPLE] 위인을 소모할 때마다, 만난 [ICON_CITY_STATE]모든 도시국가가 25 [ICON_INFLUENCE]영향력을 얻고, 원자력 시대 이후 [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR] 특별 회기가 열리면 [ICON_GOLDEN_AGE] 황금기를 시작합니다.)</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

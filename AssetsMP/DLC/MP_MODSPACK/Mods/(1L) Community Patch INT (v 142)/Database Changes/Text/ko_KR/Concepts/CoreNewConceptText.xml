@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_CONCEPT_THEMING_BONUSES">
+			<Text>[COLOR_YELLOW]테마와 테마보너스[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_THEMING_BONUSES_BODY">
+			<Text>건물의 걸작 슬롯이 2개 이상이면 걸작들의 특정 결합이 건물에 '테마' 보너스를 줄 수 있는 좋은 기회입니다. 테마보너스는 강력한 산출량 보너스를 가져다줍니다. 테마는 건물에서 특정 기준을 충족하는 서로 다른 시대, 다른 문명, 다른 유형의 걸작들을 요구합니다. 이 정보는 도시 화면에서 건물의 테마보너스를 확인할 때 나타납니다.[NEWLINE][NEWLINE]테마는 도시 화면에서 명시된 수치에 기반하여 문명에 추가적인 [ICON_TOURISM]관광과 [ICON_CULUTRE]문화를 제공합니다. [COLOR_YELLOW]일부 건물들은 추가적인 테마보너스를 제공할 수 있으며, 이 보너스는 건물의 툴팁에서 나타납니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_THEMING_BONUSES_QUEST">
+			<Text>테마가 무엇인가요?</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

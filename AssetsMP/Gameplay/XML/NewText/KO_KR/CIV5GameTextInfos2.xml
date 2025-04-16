@@ -1,0 +1,2151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_ACTION_AUTOMATE_BUILD">
+            <Text>시설 건설(자동)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_AUTOMATE_EXPLORE">
+            <Text>탐색(자동)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_AUTOMOVES">
+            <Text>모든 자동 움직임 활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_BARE_MAP">
+            <Text>노출 지도 전환</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_CENTER_SELECTION">
+            <Text>선택 시 중앙에 위치</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_CYCLE_CAMERA_FLYING_MODES">
+            <Text>카메라 비행 모드 변경</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_CYCLE_UNITS">
+            <Text>다른 유닛 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_CYCLE_UNITS_ALT">
+            <Text>다른 유닛 선택(Alt)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_CYCLE_WORKERS">
+            <Text>다른 일꾼 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_ENDTURN">
+            <Text>턴 종료</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_ENDTURN_ALT">
+            <Text>턴 종료(Alt)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_FLYING_CAMERA">
+            <Text>비행 카메라 전환</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_FORCE_ENDTURN">
+            <Text>턴 강제 종료</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_GRID">
+            <Text>타일 표시 전환</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_ISOMETRIC_CAMERA_LEFT">
+            <Text>왼쪽 45도로 카메라 회전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_ISOMETRIC_CAMERA_RIGHT">
+            <Text>오른쪽 45도로 카메라 회전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_LASTUNIT">
+            <Text>다른 유닛 선택(역방향)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_LOAD">
+            <Text>불러오기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_LOAD_GAME">
+            <Text>게임 불러오기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_MOUSE_FLYING_CAMERA">
+            <Text>비행 카메라 마우스 잠금 해제</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_NEXT_CITY">
+            <Text>다음 도시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_NEXT_UNIT">
+            <Text>다음 유닛</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_OPTIONS_SCREEN">
+            <Text>설정 화면</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_ORTHO_CAMERA">
+            <Text>정사도법 카메라</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_PING">
+            <Text>핑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_PREVIOUS_CITY">
+            <Text>이전 도시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_PREVIOUS_UNIT">
+            <Text>이전 유닛</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_QUICK_LOAD">
+            <Text>빠른 불러오기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_QUICK_SAVE">
+            <Text>빠른 저장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_RESOURCE_ALL">
+            <Text>모든 자원 표시 전환</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_RETIRE">
+            <Text>게임 포기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SAVE">
+            <Text>저장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SAVE_GROUP">
+            <Text>게임 저장(그룹)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SAVE_NORMAL">
+            <Text>게임 저장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SCORES">
+            <Text>점수 표시 전환</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SELECT_CAPITAL">
+            <Text>수도 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SELECT_CITY">
+            <Text>도시 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SELECT_UNIT_ALL">
+            <Text>모든 유닛 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SELECT_UNIT_TYPE">
+            <Text>모든 유닛 선택(같은 종류)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_SHOW_POLICIES_SCREEN">
+            <Text>정책 변경</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_TOP_DOWN_CAMERA">
+            <Text>카메라 상공 시점 전환</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACTION_YIELDS">
+            <Text>생산 표시 전환</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AIR_PATROL_FOUND_NOTHING">
+            <Text>공중을 정찰하는 {@1_UnitName}{@1: plural 1?이; 2?가;} 적의 저항에 부딪히지 않았습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ALT">
+            <Text>Alt-</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ATTITUDE_ANNOYED">
+            <Text>짜증난</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ATTITUDE_CAUTIOUS">
+            <Text>조심스러운</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ATTITUDE_FRIENDLY">
+            <Text>우호적인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ATTITUDE_FURIOUS">
+            <Text>분노한</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ATTITUDE_PLEASED">
+            <Text>기쁜</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BURNING">
+            <Text>불타는 중</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHAT_LOG">
+            <Text>채팅 로그</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_RELIGION_TO_ADOPT">
+            <Text>성소를 건설하였으므로 국교를 도입할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY">
+            <Text>도시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CLIMATE_ARID">
+            <Text>건조한</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CLIMATE_COLD">
+            <Text>추운</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CLIMATE_ROCKY">
+            <Text>바위 투성이의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CLIMATE_TEMPERATE">
+            <Text>온대의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CLIMATE_TROPICAL">
+            <Text>열대</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMBAT_PLOT_EXTRA_STRENGTH">
+            <Text>[ICON_BULLET]{1_Resource}% [ICON_STRENGTH]전투력에 의해 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMBAT_PLOT_FORTIFY_MOD">
+            <Text>[ICON_BULLET]{1_Resource}% 유닛 요새화에 의해 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMBAT_PLOT_HILLS_MOD">
+            <Text>[ICON_BULLET]{1_Resource}% 언덕 지형에 의해 증가 (유닛 능력)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMBAT_PLOT_MOD_VS_TYPE">
+            <Text>[ICON_BULLET]{1_Resource}% {2_Type}{2: plural 1?와; 2?과;} 전투시 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMBAT_PLOT_TILE_MOD">
+            <Text>[ICON_BULLET]{1_Resource}% 타일 [ICON_STRENGTH]방어력에 의해 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMBAT_PLOT_UNIT_MOD">
+            <Text>[ICON_BULLET]{1_Resource}% {2_TerrOrFeat}에 의해 증가 (유닛 능력)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_AUTOMATE">
+            <Text>해당 유닛 자동화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_CANCEL">
+            <Text>마지막 명령 취소</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_CANCEL_ALL">
+            <Text>모든 명령 취소</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_DELETE">
+            <Text>[COLOR_WARNING_TEXT]유닛 삭제[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_GIFT">
+            <Text>유닛 선물</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_PROMOTION">
+            <Text>유닛 승급</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_STOP_AUTOMATION">
+            <Text>자동화 중지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_UPGRADE">
+            <Text>유닛 업그레이드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMAND_WAKE">
+            <Text>유닛 활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CREDIT_FORK">
+            <Text>VFX Powered by Fork Particle</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CREDIT_GRANNY">
+            <Text>Uses Granny [RED]Animation[/RED]. Copyright (C) 1999-2010 by RAD Game Tools, Inc.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CTRL">
+            <Text>Ctrl-</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_AFRICA">
+            <Text>CW 아프리카</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_AFRICA_DESC">
+            <Text>일부 주요 특성을 제외하면 모든 것이 무작위로 생성된 대형 아프리카 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_ANTARCTICA_THAWED">
+            <Text>CW 해빙기의 남극</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_ANTARCTICA_THAWED_DESC">
+            <Text>일부 소규모 지역만 언 채로 남아 있는 남극의 무작위로 생성된 가상 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_AUSTRALIA">
+            <Text>CW 오스트레일리아</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_AUSTRALIA_DESC">
+            <Text>지형과 해안 시작 지점이 무작위로 생성된 소형 오스트레일리아 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_CANADA">
+            <Text>CW 캐나다</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_CANADA_DESC">
+            <Text>평원, 초원, 숲 지역이 무작위로 생성되고, 북부의 툰드라와 설원 지대가 포함된 대형 캐나다 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EARTH_DESC">
+            <Text>지질학적으로 정확한 지세와 무작위로 생성된 지형 및 특성을 가진 지구전도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EARTH_DUEL">
+            <Text>CW 지구 - 일대일</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EARTH_HUGE">
+            <Text>CW 지구 - 초대형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EARTH_LARGE">
+            <Text>CW 지구 - 대형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EARTH_SMALL">
+            <Text>CW 지구 - 소형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EARTH_STANDARD">
+            <Text>CW 지구 - 보통</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EARTH_TINY">
+            <Text>CW 지구 - 초소형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EAST_ASIA_LARGE">
+            <Text>CW 동아시아 - 대형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EAST_ASIA_LARGE_DESC">
+            <Text>지세와 히말라야 산맥만 변함없고, 나머지 지형은 모두 무작위로 생성된 대형 동아시아 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EAST_ASIA_SMALL">
+            <Text>CW 동아시아 - 소형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_EAST_ASIA_SMALL_DESC">
+            <Text>지세와 히말라야 산맥만 변함없고, 나머지 지형은 모두 무작위로 생성된 소형 동아시아 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_JAPAN">
+            <Text>CW 일본 - 소형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_JAPAN_DESC">
+            <Text>지세와 주요 산악은 변함없지만, 다른 모든 지형과 특성은 무작위로 생성된 일본 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_NORTH_AMERICA_DESC">
+            <Text>지세와 북부 툰드라는 변함없지만, 다른 모든 지형과 특성은 무작위로 생성된 콜롬비아부터 알래스카에 이르는 북아메리카 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_NORTH_AMERICA_DUEL">
+            <Text>CW 북아메리카 - 일대일</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_NORTH_AMERICA_HUGE">
+            <Text>CW 북아메리카 - 초대형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_NORTH_AMERICA_LARGE">
+            <Text>CW 북아메리카 - 대형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_NORTH_AMERICA_SMALL">
+            <Text>CW 북아메리카 - 소형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_NORTH_AMERICA_STANDARD">
+            <Text>CW 북아메리카 - 보통</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_NORTH_AMERICA_TINY">
+            <Text>CW 북아메리카 - 초소형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_OCEANIA">
+            <Text>CW 오세아니아</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_OCEANIA_DESC">
+            <Text>군도와 유사하지만, 조각난 대륙 여럿, 작은 섬들, 그리고 넓은 바다로 구성되어 더욱 대륙적인 느낌이 풍깁니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_SCAN_LARGE">
+            <Text>CW 스칸디나비아 - 초대형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_SCAN_SMALL">
+            <Text>CW 스칸디나비아 -소형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_SMALL_CONT_PLUS">
+            <Text>CW 작은 대륙 플러스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_SMALL_CONT_PLUS_DESC">
+            <Text>기존의 작은 대륙 지도에 이리저리 뻗어 열도와 개선된 대륙 생성 기능이 추가됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_WESTERN_EUROPE_SMALL">
+            <Text>CW 서유럽 - 소형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_WESTERN_EUROPE_SMALL_DESC">
+            <Text>지세와 산맥의 모양은 변함없지만, 지형과 특성이 무작위로 생성된 소형 서유럽 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_WESTERN_EUROPE_STANDARD">
+            <Text>CW 서유럽 - 보통</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CW_MAP_PACK_WESTERN_EUROPE_STANDARD_DESC">
+            <Text>지세와 산맥의 모양은 변함없지만, 지형과 특성이 무작위로 생성된 보통 서유럽 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECLARE_WAR_NO">
+            <Text>아니요</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECLARE_WAR_YES">
+            <Text>예</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEFAULT_GAMENAME">
+            <Text>내 게임</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLOMACY">
+            <Text>외교 개시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DRAG_SPEED">
+            <Text>지도 이동 속도 : {1_Num}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DRAG_SPEED_TT">
+            <Text>지도를 끌때 이동하는 속도를 늘리거나 줄입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ENTER_MINOR_CIV_LANDS_NO">
+            <Text>아니오, 다시 생각해 봅시다...</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ENTER_MINOR_CIV_LANDS_YES">
+            <Text>예, 그대로 처리합시다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ESCAPE_DETAILS">
+            <Text>화면을 닫거나 게임 메뉴를 열려면 세 손가락으로 탭하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ESCAPE_TITLE">
+            <Text>나가기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ESRB_BODY">
+            <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]문명 메트로폴리스 한글 패치</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EXIT_MOVE_DETAILS">
+            <Text>유닛에게 명령을 내리지 않고 이동 모드를 나가려면 둘째 손가락을 탭하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EXIT_MOVE_TITLE">
+            <Text>이동 모드 나가기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FORCE_CONTROL_HANDICAP">
+            <Text>강제 핸디캡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FORCE_CONTROL_MAX_CITY_ELIMINATION">
+            <Text>강제 최대 도시 제거</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FORCE_CONTROL_MAX_TURNS">
+            <Text>강제 최대 턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FORCE_CONTROL_OPTIONS">
+            <Text>강제 게임 설정</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FORCE_CONTROL_SPEED">
+            <Text>강제 게임 속도</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FORCE_CONTROL_VICTORIES">
+            <Text>강제 승리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_ALWAYS_WAR">
+            <Text>영구적 전쟁</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_ALWAYS_WAR_HELP">
+            <Text>당신은 다른 문명과 전쟁 상태로 시작하며 평화 협정을 맺을 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_COMPLETE_KILLS">
+            <Text>전멸전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_COMPLETE_KILLS_HELP">
+            <Text>모든 도시를 점령하고 유닛을 파괴해야만 승리할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_DISABLE_START_BIAS">
+            <Text>무작위 시작 지점</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_DISABLE_START_BIAS_HELP">
+            <Text>문명의 시작지점을 특정 조건에 맞춰 배치하는 기능을 해제합니다. 시작지점이 완전하게 무작위가 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_LOCK_MODS">
+            <Text>모드 잠금</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_LOCK_MODS_HELP">
+            <Text>모드가 활성화 된 상태로 게임을 불러오는 것을 방지합니다. 멀티 플레이 게임에 유용합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED">
+            <Text>무작위 시드 생성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED_HELP">
+            <Text>게임을 불러올 때마다 무작위 숫자 시드가 생성됩니다. 이것은 불러오기를 할 때마다, 같은 행동을 하더라도 결과가 각각 다르게 나오는 것을 의미합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_BARBARIANS">
+            <Text>야만인 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_BARBARIANS_HELP">
+            <Text>야만인과 야만인 주둔지가 나타나지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_CHANGING_WAR_PEACE">
+            <Text>영구적인 전쟁이나 평화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_CHANGING_WAR_PEACE_HELP">
+            <Text>게임 시작과 함께 전쟁이나 평화 무엇이 됐든, 이미 시작된 게임을 변경할 수 없습니다. 제2차 세계대전과 같은 모드에 유용합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_CITY_RAZING">
+            <Text>도시 불태우기 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_CITY_RAZING_HELP">
+            <Text>점령한 도시를 불태울 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_GOODY_HUTS">
+            <Text>고대 유적 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_GOODY_HUTS_HELP">
+            <Text>고대 유적이 나타나지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_HAPPINESS">
+            <Text>행복 비활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_HAPPINESS_HELP">
+            <Text>행복에서 보너스나 페널티를 받지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_POLICIES">
+            <Text>정책 비활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_POLICIES_HELP">
+            <Text>정책 시스템을 비활성화합니다. 게임에서 정책을 사용할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_SCIENCE">
+            <Text>연구 비활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_SCIENCE_HELP">
+            <Text>연구 시스템을 비활성화 합니다. 문명은 시작 기술 단계로 고정됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_TUTORIAL">
+            <Text>튜토리얼 팝업창 비활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_NO_TUTORIAL_HELP">
+            <Text>게임 진행 중에 나타나는 튜토리얼 팝업창을 비활성화합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_ONE_CITY_CHALLENGE">
+            <Text>단일 도시로 도전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_ONE_CITY_CHALLENGE_HELP">
+            <Text>당신은 도시를 하나만 건설할 수 있습니다. AI는 해당되지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_PERMANENT_ALLIANCES">
+            <Text>영구적 동맹</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_PERMANENT_ALLIANCES_HELP">
+            <Text>다른 문명과 영구적 동맹을 맺어 승리를 공유하는 긴 게임을 할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_POLICY_SAVING">
+            <Text>정책 채택 미룰 수 있음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_POLICY_SAVING_HELP">
+            <Text>사회 정책을 즉시 채택하지 않고, 나중에 채택할 수 있도록 미룰 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_PROMOTION_SAVING">
+            <Text>승급 기회 미룰 수 있음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_PROMOTION_SAVING_HELP">
+            <Text>유닛 승급을 즉시 고르지 않고, 나중에 선택할 수 있도록 미룰 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_RAGING_BARBARIANS">
+            <Text>야만인 부흥</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_RAGING_BARBARIANS_HELP">
+            <Text>야만인의 생성 속도가 엄청나게 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_RANDOM_PERSONALITIES">
+            <Text>무작위 특성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_OPTION_RANDOM_PERSONALITIES_HELP">
+            <Text>원래의 지도자 특성과 달리, AI 지도자의 특성이 무작위로 선택되어 게임이 예측하기 어려워집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GAME_WON">
+            <Text>{1} 지도자가 {2} 승리로 이겼습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GG_PROGRESS">
+            <Text>위대한 장군 진행도</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_BARBARIANS">
+            <Text>위험한 야만인이 숨어 있었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_EXPERIENCE">
+            <Text>유적 탐사 중에 발견한 고대 서적으로 유닛의 새로운 전투 훈련을 수행할 수 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_GOLD">
+            <Text>유적에서 고대 국가의 보물을 발견하여 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드를 받았습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_HEALING">
+            <Text>유적에서 유닛의 상처를 치료할 수 있는 고대의 약을 발견했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_MAP">
+            <Text>주변 지역의 윤곽이 조잡하게 그려진 지도를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_SCOUT">
+            <Text>유적에서 생존자를 발견했습니다. 생존자는 당신에게 감사를 표하며 [COLOR_POSITIVE_TEXT]정찰병[ENDCOLOR]으로 합류했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_SETTLER">
+            <Text>유적에서 생존자를 발견했습니다. 생존자는 당신에게 감사를 표하며 [COLOR_POSITIVE_TEXT]개척자[ENDCOLOR]로 합류했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_TECH">
+            <Text>유적에서 진보된 기술을 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_WARRIOR">
+            <Text>문명에 합류하길 원하는 [COLOR_POSITIVE_TEXT]전사[ENDCOLOR]를 찾았습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_WORKER">
+            <Text>유적에서 생존자를 발견했습니다. 생존자는 당신에게 감사를 표하며 [COLOR_POSITIVE_TEXT]노동자[ENDCOLOR]로 합류했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_ARTIST_DETAILS">
+            <Text>[ICON_PLUS]위대한 예술가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_ARTIST_DETAILS_COLLAPSE">
+            <Text>[ICON_MINUS]위대한 예술가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_CITY">
+            <Text>도시 이름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_ENGINEER_DETAILS">
+            <Text>[ICON_PLUS]위대한 기술자</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_ENGINEER_DETAILS_COLLAPSE">
+            <Text>[ICON_MINUS]위대한 기술자</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_MERCHANT_DETAILS">
+            <Text>[ICON_PLUS]위대한 상인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_MERCHANT_DETAILS_COLLAPSE">
+            <Text>[ICON_MINUS]위대한 상인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_SCIENTIST_DETAILS">
+            <Text>[ICON_PLUS]위대한 과학자</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_SCIENTIST_DETAILS_COLLAPSE">
+            <Text>[ICON_MINUS]위대한 과학자</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_SORT_CITY">
+            <Text>도시별로 정렬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_SORT_TURNS">
+            <Text>남은 턴 순으로 정렬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GP_TURNS">
+            <Text>남은 턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GPLIST_PROGRESS">
+            <Text>{1_Progress}/{2_Threshold}, {3_Turns} 턴 남음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GPLIST_TURNS">
+            <Text>+{1_Rate}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GRAMMAR_A_AN">
+            <Text>{1: gender *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?a {1};}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GRAMMAR_UPPER_A_AN">
+            <Text>{1: gender *:an?An {1}; *:the?The {1}; *:no_article?{1}; other?A {1};}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_GENERAL_PROGRESS">
+            <Text>{1_Progress}/{2_Threshold}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ADAM_SMITH">
+            <Text>애덤 스미스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_AL_KHWARIZMI">
+            <Text>알콰리즈미</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_AL_KINDI">
+            <Text>알킨디</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_AL_RAZI">
+            <Text>알라지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALBERT_EINSTEIN">
+            <Text>알버트 아인슈타인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALEXANDER_GRAHM_BELL">
+            <Text>알렉산더 그레이엄 벨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALEXANDRE_GUSTAVE_EIFFEL">
+            <Text>알렉상드르 구스타프 에펠</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALHAZEN">
+            <Text>알하젠</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_AMIR_KHUSRO">
+            <Text>아미르 쿠스로</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ANDREI_SAKHAROV">
+            <Text>안드레이 사카로프</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ANDREW_CARNEGIE">
+            <Text>앤드류 카네기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ANTOINE_LAURENT_LAVOISIER">
+            <Text>앙투안 라보아지에</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ANTONY_VAN_DIEMEN">
+            <Text>앤서니 반디멘</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ANTONY_VAN_LEEUWENHOEK">
+            <Text>안토니 판레벤후크</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ARCHIMEDES">
+            <Text>아르키메데스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ARETAS_III">
+            <Text>아레타 3세</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ARISTOTLE">
+            <Text>아리스토텔레스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ARYABHATA">
+            <Text>아리아바타</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BENJAMIN_FRANKLIN">
+            <Text>벤자민 프랭클린</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BI_SHENG">
+            <Text>필생</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BLAISE_PASCAL">
+            <Text>블레즈 파스칼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CAI_LUN">
+            <Text>채륜</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CARL_FRIEDRICH_GAUSS">
+            <Text>카를 프리드리히 가우스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_AUGUSTIN_DE_COULOMB">
+            <Text>샤를 쿨롱</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_DARWIN">
+            <Text>찰스 다윈</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CHRISTOPHER_COLUMBUS">
+            <Text>크리스토퍼 콜럼부스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CLAUDE_MONET">
+            <Text>클라우드 모네</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_COCO_CHANEL">
+            <Text>코코 샤넬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CORNELIUS_VANDERBILT">
+            <Text>코넬리어스 밴더빌트</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_DANTE_ALIGHIERI">
+            <Text>단테 알리기에리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_DU_FU">
+            <Text>두보</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_DUKE_ELLINGTON">
+            <Text>듀크 엘링턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_DVORAK">
+            <Text>안토닌 드보르작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ENRICO_DANDOLO">
+            <Text>엔리코 단돌로</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ENRICO_FERMI">
+            <Text>엔리코 페르미</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ERNEST_RUTHERFORD">
+            <Text>어니스트 러더퍼드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EUCLID">
+            <Text>유클리드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FERDINAND_DE_LESSEPS">
+            <Text>페르디난드 드레셉스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FERDINAND_MAGELLAN">
+            <Text>페르디난드 마젤란</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANCIS_BACON">
+            <Text>프란시스 베이컨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANK_KAFKA">
+            <Text>프랭크 카프카</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GALILEO_GALILEI">
+            <Text>갈릴레오 갈릴레이</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_WASHINGTON_GOETHALS">
+            <Text>조지 워싱턴 고설스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GIOVANNI_DE_MEDICI">
+            <Text>지오반니 데메디치</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GOTTFRIED_LEIBNIZ">
+            <Text>고트푸르트 라이프니츠</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GUGLIELMO_MARCONI">
+            <Text>마르케스 마르코니</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HANNO">
+            <Text>한노</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HARKUF">
+            <Text>하르쿠프</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HENRY_BESSEMER">
+            <Text>헨리 베서머</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HENRY_FORD">
+            <Text>헨리 포드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HERON">
+            <Text>헤론</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HOMER">
+            <Text>호머</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HYPATIA">
+            <Text>히파티아</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_IBN_BATTUTA">
+            <Text>이븐 바투타</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_IBN_MUQLAH">
+            <Text>이븐 무클라</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_IMHOTEP">
+            <Text>이모텝</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ISAAC_NEWTON">
+            <Text>아이작 뉴턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ISAMBARD_KINGDOM_BRUNEL">
+            <Text>아이삼바드 브루넬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JACQUES_CARTIER">
+            <Text>자크 카르티에</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JALAL_ALDIN_RUMI">
+            <Text>자랄알딘 루미</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JAMES_CLERK_MAXWELL">
+            <Text>제임스 맥스웰</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JAMES_COOK">
+            <Text>제임스 쿡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JAMES_WATT">
+            <Text>제임스 와트</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_GOETHE">
+            <Text>요한 볼프강 폰 괴테</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANNES_BRAHMS">
+            <Text>요하네스 브람스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANNES_KEPLER">
+            <Text>요하네스 케플러</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANNES_VERMEER">
+            <Text>요하네스 베르메르</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHN_D_ROCKEFELLER">
+            <Text>존 D. 록펠러</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHN_DALTON">
+            <Text>존 달튼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHN_MAYNARD_KEYNES">
+            <Text>존 메이너드 케인스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHN_ROEBLING">
+            <Text>존 로블링</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHN_STUART_MILL">
+            <Text>존 스튜어트 밀</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOSEPH_CONRAD">
+            <Text>조셉 콘라드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOSEPH_MARIE_JACQUARD">
+            <Text>조셉 마리 자카르</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JS_BACH">
+            <Text>J. S. 바하</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_KALIDAS">
+            <Text>칼리다스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LEIF_ERICKSON">
+            <Text>리프 에릭슨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LEONARDO_DA_VINCI">
+            <Text>레오나르도 다빈치</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LI_PO">
+            <Text>이백</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LING_LUN">
+            <Text>영륜</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LOUIS_ARMSTRONG">
+            <Text>루이 암스트롱</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LOUIS_DAGUERRE">
+            <Text>루이 다게르</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LOUIS_PASTEUR">
+            <Text>루이 파스퇴르</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LUDWIG_VAN_BEETHOVEN">
+            <Text>루드비히 반 베토벤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MARCO_POLO">
+            <Text>마로코폴로</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MARIE_CURIE">
+            <Text>마리 퀴리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MARK_TWAIN">
+            <Text>마크 트웨인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MERIT_PTAH">
+            <Text>메릿 프타</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MICHAEL_FARADAY">
+            <Text>마이클 페러데이</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MICHAELANGELO">
+            <Text>미켈란젤로</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MICHIEL_DE_RUYTER">
+            <Text>미힐 더라위터르</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MIGUEL_DE_CERVANTES">
+            <Text>미겔 데세르반테스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MIKHAIL_LOMONOSOV">
+            <Text>미카일 로모노소프</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MILES_DAVIS">
+            <Text>마일스 데이비스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NABU_RIMANNI">
+            <Text>나부리마니</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NAIN_SINGH">
+            <Text>나인 싱</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NICHOLA_TESLA">
+            <Text>니콜라 테슬라</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NICOLAUS_COPERNICUS">
+            <Text>니콜라우스 코페르니쿠스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NIELS_BOHR">
+            <Text>닐스 보어</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NIKOLAUS_AUGUST_OTTO">
+            <Text>니콜라우스 오토</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NOBERT_RILLIEUX">
+            <Text>노버트 릴리외</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ORVILLE_WRIGHT">
+            <Text>오빌 라이트</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PABLO_PICASSO">
+            <Text>파블로 피카소</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PLATO">
+            <Text>플라톤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PTOLEMY">
+            <Text>프톨레마이오스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PYTHEAS">
+            <Text>퓌테아스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RAJA_TODAR_MAL">
+            <Text>라자 토다르말</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RAPHAEL">
+            <Text>라파엘</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_REMBRANDT">
+            <Text>렘브란트 판레인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RENE_DESCARTES">
+            <Text>르네 데카르트</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ROSALIND_FRANKLIN">
+            <Text>로사린드 프랭클린</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RRICHARD_WHITTINGTON">
+            <Text>리차드 휘팅턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SHAH_JAHAN">
+            <Text>샤 자한</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SINAN">
+            <Text>시난</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SIR_ALEXANDER_MACKENZIE">
+            <Text>알렉산더 맥켄지 경</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SIR_THOMAS_ROE">
+            <Text>토마스 로 경</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SOCRATES">
+            <Text>소크라테스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_THESPIS">
+            <Text>테스피스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_THOMAS_EDISON">
+            <Text>토마스 에디슨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_TYCHO_BRAHE">
+            <Text>티코 브라헤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VALMIKI">
+            <Text>발미키</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VASCO_DA_GAMA">
+            <Text>바스코 다가마</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VICTOR_HUGO">
+            <Text>빅토르 휴고</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VINCENT_VAN_GOGH">
+            <Text>빈센트 반 고흐</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VIRGIL">
+            <Text>베르길리우스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WANG_ANSHI">
+            <Text>왕안석</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WANG_XIZHI">
+            <Text>왕희지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WERNER_HEISENBERG">
+            <Text>베르너 하이젠베르크</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WILBUR_WRIGHT">
+            <Text>윌버 라이트</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WILHELM_SCHICKARD">
+            <Text>빌헬름 쉬카드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_SHAKESPEARE">
+            <Text>윌리엄 셰익스피어</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WILLIAN_MORTON">
+            <Text>윌리엄 T.G. 모튼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WOLFGANG_MOZART">
+            <Text>볼프강 아마데우스 모차르트</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_XI_LING_SHI">
+            <Text>누조</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_YUNUS_EMRE">
+            <Text>유누스엠레</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ZHANG_HENG">
+            <Text>장형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ZHANG_QIAN">
+            <Text>장건</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ZHENG_HE">
+            <Text>장합</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ZU_CHONGZHI">
+            <Text>조충지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HURRY_GOLD">
+            <Text>금을 사용하여 도시에서 생산을 완료할 수 있음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HURRY_POPULATION">
+            <Text>인구를 희생시켜 도시에서 생산을 완료할 수 있음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_IC_GP">
+            <Text>위인 목록</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INFO_SCREEN">
+            <Text>정보 화면</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INIT_ELAPSED_TIME">
+            <Text>종료 시간</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_AIR_SWEEP">
+            <Text>제공</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_AIR_SWEEP_HELP">
+            <Text>해당 유닛에게 적의 비행 유닛이나 지대공 유닛 제거, 안전한 공중 공격 경로 확보 등을 명령합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT">
+            <Text>공수 작전 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_AIRSTRIKE">
+            <Text>공습 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_ATTACK">
+            <Text>공격</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_ATTACK_DISABLED_HELP">
+            <Text>인접한 타일에 적이 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_ATTACK_HELP">
+            <Text>선택한 타일을 공격하도록 명령합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_CITY_PLOT_SELECTION">
+            <Text>도시 계획 선택 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_DEBUG">
+            <Text>디버그 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_DISEMBARK">
+            <Text>하선 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_EMBARK">
+            <Text>승선 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_GIFT_UNIT">
+            <Text>유닛 선물 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_GLOBELAYER_INPUT">
+            <Text>전체 입력 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_GRIP">
+            <Text>그립 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO">
+            <Text>이동 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_ALL">
+            <Text>이동 모드(모든 유닛)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_TYPE">
+            <Text>이동 모드(같은 종류의 유닛)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_NUKE">
+            <Text>핵 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_PARADROP">
+            <Text>공중 투하</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_PARADROP_HELP">
+            <Text>우호적인 영토 내에 있을 때, 이 유닛은 다음 타일로 강하할 수 있습니다.  그 후에도 다른 행동을 취할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_PARADROP_HELP_WITH_RANGE">
+            <Text>우호적인 영토 내에 있을 때, 이 유닛은 최대 {1_NumTiles}타일 떨어진 곳까지 강하할 수 있습니다. 그 후에도 다른 행동을 취할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_PING">
+            <Text>팀원 핑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_RANGE_ATTACK">
+            <Text>원거리 공격</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_RANGE_ATTACK_HELP">
+            <Text>선택한 타일을 원거리 공격하도록 명령합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_REBASE">
+            <Text>재배치 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_ROUTE_TO">
+            <Text>경로 생성 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_SELECTION">
+            <Text>선택 모드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_BACKSPACE">
+            <Text>Backspace</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_CAPS_LOCK">
+            <Text>Caps Lock</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_DELETE_KEY">
+            <Text>Delete</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_DOWN_ARROW">
+            <Text>↓</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_END_KEY">
+            <Text>End</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_ENTER">
+            <Text>Enter</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_ESCAPE">
+            <Text>Esc</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_HOME_KEY">
+            <Text>Home</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_INSERT_KEY">
+            <Text>Insert</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_LEFT_ALT_KEY">
+            <Text>왼쪽 Alt</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_LEFT_ARROW">
+            <Text>←</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_LEFT_CONTROL_KEY">
+            <Text>왼쪽 Ctrl</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_LEFT_SHIFT_KEY">
+            <Text>왼쪽 Shift</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUM_LOCK">
+            <Text>Num Lock</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUM_PAD_STAR">
+            <Text>숫자 패드 *</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_COMMA">
+            <Text>숫자 패드 ,</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_ENTER_KEY">
+            <Text>숫자 패드 Enter </Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_EQUALS">
+            <Text>숫자 패드 =</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_MINUS">
+            <Text>숫자 패드 -</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER">
+            <Text>숫자 패드 {1_Num}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER0">
+            <Text>숫자 패드 0</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER1">
+            <Text>숫자 패드 1</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER2">
+            <Text>숫자 패드 2</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER3">
+            <Text>숫자 패드 3</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER4">
+            <Text>숫자 패드 4</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER5">
+            <Text>숫자 패드 5</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER6">
+            <Text>숫자 패드 6</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER7">
+            <Text>숫자 패드 7</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER8">
+            <Text>숫자 패드 8</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER9">
+            <Text>숫자 패드 9</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_PERIOD">
+            <Text>숫자 패드 .</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_PLUS">
+            <Text>숫자 패드 +</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_NUMPAD_SLASH">
+            <Text>숫자 패드 /</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_PAGE_DOWN">
+            <Text>Page Down</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_PAGE_UP">
+            <Text>Page Up</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_PAUSE_KEY">
+            <Text>Pause</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_RIGHT_ALT_KEY">
+            <Text>오른쪽 Alt</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_RIGHT_ARROW">
+            <Text>→</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_RIGHT_CONTROL_KEY">
+            <Text>오른쪽 Ctrl</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_RIGHT_SHIFT_KEY">
+            <Text>오른쪽 Shift</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_SCROLL_KEY">
+            <Text>Scroll</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_SPACE_KEY">
+            <Text>Space</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_SYSRQ">
+            <Text>SYSRQ</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_UP_ARROW">
+            <Text>↑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_VOLUME_DOWN">
+            <Text>Volume Down</Text>
+        </Row>
+        <Row Tag="TXT_KEY_KEYBOARD_VOLUME_UP">
+            <Text>Volume Up</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEGAL_BODY">
+            <Text>© 1991-2010 Take-Two Interactive Software 및 자회사. Firaxis Games 개발.  Sid Meier's Civilization V, Civ, Civilization, 2K Games, Firaxis Games, Take-Two Interactive Software 및 해당 로고는 모두 Take-Two interactive Software, Inc의 상표입니다.  Fork Copyright © 2010 Fork Particle, Inc. Rapid XML Copyright © 2006-2010 Marcin Kalicinski. Lua Copyright © 1994-2010 Lua.org, PUC-Rio. Granny Animation을 사용했습니다. Copyright © 1999-2010 by RAD Game Tools, Inc. Miles Sound System을 사용했습니다. Copyright © 1991-2010 by RAD Game Tools, Inc. 평가 아이콘은 Entertainment Software Association의 상표입니다.  기타 모든 표시 및 상표는 해당 소유자의 자산입니다.  All rights reserved.  이 비디오게임의 내용은 허구이며, 게임의 역사 설정에 등장하는 사건, 인물 및 단체는 실제 역사적 사건, 인물 및 단체를 의도적으로 묘사하지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEGAL_CONTINUE">
+            <Text>계속하려면 클릭</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAIN_MENU">
+            <Text>메인 메뉴 열기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_EARTH_TITLE">
+            <Text>지구</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEMORY_HIRED_TRADE_EMBARGO">
+            <Text>"당신은 우리를 상대로 경제 봉쇄 정책을 시행했었습니다!"</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEMORY_HIRED_WAR_ALLY">
+            <Text>"당신은 동맹군을 끌어들여 우리를 상대로 전쟁을 걸었었지요!"</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CAPTURED_CITY">
+            <Text>{@1_CityName}{@1: plural 1?을; 2?를;} 점령했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CITY_CAPTURED_BY">
+            <Text>{@2_ShortCivName}{@2: plural 1?이; 2?가;} {@1_CityName} 도시를 점령했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CITY_HAS_BEEN_FOUNDED">
+            <Text>{@1_CityName}{@1: plural 1?이; 2?가;} 건설되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CITY_HAS_BEEN_RAZED_BY">
+            <Text>{@2_CivName}{@2: plural 1?이; 2?가;} {@1_CityName}{@1: plural 1?을; 2?를;} 불바다로 만들어버렸습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CITY_IS_FOUNDED">
+            <Text>{@1_CityName}{@1: plural 1?이; 2?가;} 건설되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CITY_RAZED_BY">
+            <Text>{@2_ShortCivName}{@2: plural 1?이; 2?가;} {@1_CityName}{@1: plural 1?을; 2?를;} 불태웠습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CITY_WAS_CAPTURED_BY">
+            <Text>{@2_ShortCivName}{@2: plural 1?이; 2?가;} {@1_CityName} 도시를 점령했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CITY_WLTKD_ENDED_KNOWN_RESOURCE">
+            <Text>{@1_CityName}에서 "국왕 경축일"이 끝났습니다. 이제 도시는 [COLOR_HIGHLIGHT_TEXT]{@2_ResourceName}[ENDCOLOR]{@2: plural 1?을; 2?를;} 요구합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CITY_WLTKD_ENDED_UNKNOWN_RESOURCE">
+            <Text>{@1_CityName}에서 "국왕 경축일"이 끝났습니다. 이제 도시는 발견되지 않은 자원을 요구합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CIV_DESTROYED">
+            <Text>{@1_CivAdj} 국가가 멸망했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CIV_DESTROYED_SHORT">
+            <Text>{@1_CivName} 멸망!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CLEARING_FEATURE_RESOURCE">
+            <Text>{@1_FeatName}의 제거를 완료했습니다. [COLOR_POSITIVE_TEXT]{2_Num} [ENDCOLOR][ICON_PRODUCTION]생산이 {@3_CityName}에 추가됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_COMPLETED_WONDER_CHOOSE_TECH">
+            <Text>{@1_BldgName}{@1: plural 1?을; 2?를;} 완성했습니다! 무료 기술을 선택하십시오!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_COMPLETES_PROJECT">
+            <Text>{1_PlyrName} 지도자가 {@2_BldgName}{@2: plural 1?을; 2?를;} 완성했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_COMPLETES_WONDER">
+            <Text>{1_PlyrName} 지도자가 {@2_BldgName}{@2: plural 1?을; 2?를;} 완성했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CONSTRUCTED_BUILD_IN">
+            <Text>{@2_CityName}에서 {1_BldgName}{1: plural 1?이; 2?가;} 완성됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CONSTRUCTED_BUILD_IN_LIMITED">
+            <Text>{@1_BldgName}{@1: plural 1?이; 2?가;} {@2_CityName}에서 완성됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CREATED_PROJECT_IN">
+            <Text>{@1_PrjctName}{@1: plural 1?이; 2?가;} {@2_CityName}에서 완료됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_CREATED_PROJECT_IN_LIMITED">
+            <Text>{@1_PrjctName}{@1: plural 1?이; 2?가;} {@2_CityName}에서 완료됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_DECLARED_WAR_ON_YOU">
+            <Text>{1_PlyrName} 지도자가 당신에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_DEFEAT">
+            <Text>당신은 패배했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_DEFENSES_IN_CITY_REDUCED_TO">
+            <Text>{3_player} 국가가 {@1_CityName}의 방어력을 {2_NewVal}%로 낮췄습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_DESTROYED_BARBARIAN_CAMP">
+            <Text>야만인 주둔지를 파괴하고 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드를 얻었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_DESTROYED_CITY">
+            <Text>{@1_CityName}에 불을 질렀습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_DISCOVERED_NEW_RESOURCE">
+            <Text>{@2_CityName} 근처에서 [COLOR_HIGHLIGHT_TEXT]{@1_ResourceName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_DESTROYED">
+            <Text>{@1_UnitName}의 요격으로 아군 {@4_DefUnitName}{@2: plural 1?을; 2?를;} 공격하던 {@2_owner_adjective} {@3_EnUName}{@3: plural 1?이; 2?가;} 격추되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_INTERCEPTED">
+            <Text>{@1_UnitName}의 요격으로 아군 {@5_DefUnitName}{@2: plural 1?을; 2?를;} 공격하던 {@2_owner_adjective} {@3_EnUName}에게 {4_Num}의 피해를 주었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_ENEMY_DEFENSES_REDUCED_TO">
+            <Text>{1_UnitName}{1: plural 1?이; 2?가;} {@2_CityName}의 방어력을 {3_Num}%로 낮췄습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_ENEMY_TROOPS_SPOTTED">
+            <Text>적이 {@1_CityName} 근처에 나타났습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_ENEMY_UNIT_SURRENDER">
+            <Text>{1_Adjective} {2_EnUName}{2: plural 1?이; 2?가;} 아군 {3_UnitName}에 항복했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_ENEMY_UNIT_WITHDRAW">
+            <Text>{@1_EnUName}(-{2_Num}){@1: plural 1?이; 2?가;} 당신의 {@3_UnitName}(-{4_Num}){@3: plural 1?을; 2?를;} 공격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_ENEMY_UNIT_WITHDRAW_CITY">
+            <Text>{@1_EnUName}(-{2_Num}){@1: plural 1?이; 2?가;} {@3_CityName}(-{4_Num}){@3: plural 1?을; 2?를;} 공격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_ENEMY_UNIT_WITHDREW">
+            <Text>당신의 근접 공격으로 인해 {@1_Num} 유닛이 후퇴했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_FEATURE_GROWN_NEAR_CITY">
+            <Text>{1_FeatName}{1: plural 1?이; 2?가;} {@2_CityName} 근처에 생겼습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_FIRST_TECH_CHOOSE_FREE">
+            <Text>최초로 [COLOR_TECH_TEXT]{@1_TechName}[ENDCOLOR]의 연구를 완료했습니다! 무료기술을 선택하십시오!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_FRIENDLY_UNIT_WITHDREW">
+            <Text>{@1_Num} 유닛이 적의 근접 공격으로 인해 후퇴했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_GIFTED_UNIT_TO_YOU">
+            <Text>{1_PlyrName} 지도자가 당신에게 {2_UnitName}{2: plural 1?을; 2?를;} 선물했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_GP_BORN">
+            <Text>{1_GPName}{1: plural 1?이; 2?가;} {@2_CityName}에 출현했습니다!!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_GP_BORN_SOMEWHERE">
+            <Text>{1_GPName}{1: plural 1?이; 2?가;} 다른 문명에 출현했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_GREAT_PERSON">
+            <Text>위인 : [COLOR_POSITIVE_TEXT]{1_Curr}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{2_Need}[ENDCOLOR] [ICON_GREATPEOPLE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_IMP_DESTROYED">
+            <Text>{@1_ImpName}{@1: plural 1?이; 2?가;} {@3_civ_adjective} {@2_UnitName}에게 파괴당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED">
+            <Text>{@1_CityName}에서 이제 {@2_BldgName}{@2: plural 1?을; 2?를;} 만들 수 없습니다. 투입된 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]{3_NumGold} [ENDCOLOR][ICON_GOLD]골드로 돌려 받습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_MELTDOWN_CITY">
+            <Text>{@1_CityName}에서 핵폭탄 노심융해가 일어났습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_NUKE_INTERCEPTED">
+            <Text>{1_PlyrName}{1: plural 1?이; 2?가;} {2_UnitName}{2: plural 1?을; 2?를;} 발사했지만 {3_Plyr2Name}{3: plural 1?이; 2?가;} 격추시켰습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_NUKE_LAUNCHED">
+            <Text>{1_PlyrName}{1: plural 1?이; 2?가;} 발사한 {2_UnitName}{2: plural 1?이; 2?가;} 폭발했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PILLAGED_CITY">
+            <Text>{@2_CityName}{@2: plural 1?을; 2?를;} 약탈하여 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드를 얻었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYER_ADOPTED_POLICY">
+            <Text>{@1_PlyrName} 지도자가 {@2_PolicyName}{@2: plural 1?을; 2?를;} 채택했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYER_ADOPTED_POLICY_SUMMARY">
+            <Text>{@1_PlyrName} 지도자가 {@2_PolicyName}{@2: plural 1?을; 2?를;} 채택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYER_CONVERT_RELIGION">
+            <Text>{1_PlyrName} 지도자가 [COLOR_HIGHLIGHT_TEXT]{2_RelName}[ENDCOLOR]로 개종했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYER_GOLDEN_AGE_BEGINS">
+            <Text>{1_PlyrName} : [ICON_GOLDEN_AGE]황금기가 시작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYER_GOLDEN_AGE_ENDED">
+            <Text>{1_PlyrName} : [ICON_GOLDEN_AGE]황금기가 끝났습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYER_GOLDEN_AGE_HAS_BEGUN">
+            <Text>{1_PlyrName} : [ICON_GOLDEN_AGE]황금기가 시작되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYER_PERMANENT_ALLIANCE">
+            <Text>{1_PlyrName} 지도자가 {2_TeamName} 국가와 영구적 동맹을 맺었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYERS_SIGN_DEFENSIVE_PACT">
+            <Text>{1} 지도자는 {2} 지도자와의 방위 조약에 서명했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLUNDERED_GOLD_FROM_IMP">
+            <Text>{@2_ImpName}에서 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드를 약탈했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_RECEIVED_GOLD">
+            <Text>[SPACE][COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드를 받았습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_REL_FOUNDED">
+            <Text>{1_RelName}{1: plural 1?이; 2?가;} {@2_CityName}에서 발견되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_REL_FOUNDED_UNKNOWN">
+            <Text>{1_RelName}{1: plural 1?이; 2?가;} 먼 곳에서 발견되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_RELIGION_ADOPTED_ANOTHER_PLAYER">
+            <Text>{1_PlyrName}{1: plural 1?이; 2?가;} {@2_ReligionName}{@2: plural 1?을; 2?를;} 도입했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_RELIGION_ADOPTED_UNKNOWN">
+            <Text>아직 만나지 못한 플레이어가 종교를 도입했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_RELIGION_ADOPTED_YOU">
+            <Text>{@2_ReligionName}{@2: plural 1?을; 2?를;} 찬양하는 장엄한 성지를 {@1_CityName}에 지었습니다! 이제 선교사를 양성하여 믿음을 전파할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_RELIGION_SPREAD">
+            <Text>[COLOR_HIGHLIGHT_TEXT]{1_RelName}[ENDCOLOR]{1: plural 1?이; 2?가;} {@2_CityName}{@2: plural 1?으로; 2?로;} 퍼져나갔습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_RELOAD">
+            <Text>세션 {1_number}{1: plural 1?이; 2?가;} 시작됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_RESOURCE_DISCOVERED_CITY_DEMANDS">
+            <Text>{@2_CityName}의 요구로, [COLOR_HIGHLIGHT_TEXT]{@1_ResourceName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 알게 되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_REVOLT_IN_CITY">
+            <Text>{1_CivAdj} {@2_CityName}에서 반란을 일으켰습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_SOMEONE_CIRC_GLOBE">
+            <Text>{1_PlyrName} 지도자가 세상은 둥글다는 것을 증명했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_SOMEONE_CREATED_UNIT">
+            <Text>{1_PlyrName} 국가가 {2_UnitName}{2: plural 1?을; 2?를;} 만들었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_SOMEONE_DECLARED_WAR">
+            <Text>{1_PlyrName} 지도자가 {2_PlyrName}에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_SOMEONE_DECLARES_WAR">
+            <Text>{1_PlyrName} 지도자가 {2_PlyrName}에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_SOMEONE_FIRST_TO_TECH">
+            <Text>{1_PlyrName}{1: plural 1?이; 2?가;} 최초로 {@2_TechName}{@2: plural 1?을; 2?를;} 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_SOMEONE_HAS_COMPLETED">
+            <Text>{1_PlyrName} 지도자가 {@2_PrjctName}{@2: plural 1?을; 2?를;} 완료했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_SOMEONE_HAS_COMPLETED_UNKNOWN">
+            <Text>멀리 떨어진 곳에서 {@1_PrjctName}{@1: plural 1?이; 2?가;} 완성되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_SOMEONE_MADE_PEACE">
+            <Text>{1_PlyrName} 지도자가 {2_PlyrName} 지도자와 평화 협정을 맺었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_TIME_SPENT">
+            <Text>{1}시간 {2}분 동안 게임하셨습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_TRAINED_UNIT_IN">
+            <Text>{@2_CityName}에서 {@1_UnitName}의 사회 정책이 완료됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_TRAINED_UNIT_IN_LIMITED">
+            <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} {@2_CityName}에서 생산됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_TURN_BEGINS">
+            <Text>당신의 턴이 시작되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_UNIT_DISBANDED_NO_MONEY">
+            <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} 재정난으로 해산했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_UNITS_ON_STRIKE">
+            <Text>유닛이 공격받고 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_UNKNOWN_CIRC_GLOBE">
+            <Text>다른 문명이 세계일주를 했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_UNKNOWN_CREATED_UNIT">
+            <Text>[COLOR_UNIT_TEXT]{1_UnitName}[ENDCOLOR]{1: plural 1?이; 2?가;} 다른 문명에서 생산되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_UNKNOWN_FIRST_TO_TECH">
+            <Text>다른 문명에서 최초로 {@1_TechName}의 연구를 완료했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_WHAT_TO_RESEARCH_NEXT">
+            <Text>다음에 무엇을 연구하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_WONDER_COMPLETED">
+            <Text>{@1_PlyrName} 지도자가 {@2_WndrName}{@2: plural 1?을; 2?를;} 완성했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_WONDER_COMPLETED_UNKNOWN">
+            <Text>{@1_WndrName}{@1: plural 1?이; 2?가;} 다른 문명에서 완성됐습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN">
+            <Text>[SPACE]{@1_ProdName}의 생산이 시작되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_LIMITED">
+            <Text>[SPACE]{@1_ProdName}의 생산이 시작되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_AIR_UNIT_HURT">
+            <Text>{@2_EnUName}(-{3}%){@2: plural 1?이; 2?가;} 당신의 {@1_UnitName}{@1: plural 1?을; 2?를;} 요격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR">
+            <Text>{@2_EnUName}{@2: plural 1?이; 2?가;} 당신의 {@1_UnitName}(-{3_Num}){@1: plural 1?을; 2?를;} 공격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_AND_DEATH">
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}에게 전멸당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_CITY">
+            <Text>{@2_CityName}{@2: plural 1?이; 2?가;} 당신의 {@1_UnitName}(-{3_Num}){@1: plural 1?을; 2?를;} 공격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR">
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Damage}){@2: plural 1?을; 2?를;} 공격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_AND_DEATH">
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}{@2: plural 1?을; 2?를;} 전멸시켰습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_CAPTURED_UNIT">
+            <Text>{@1_UnitName}{@1: plural 1?을; 2?를;} 사로잡았습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_CIRC_GLOBE">
+            <Text>세상이 둥글다는 것을 증명했습니다! 이제 당신의 모든 함선이 [COLOR_POSITIVE_TEXT]{1_Change}[ENDCOLOR] 행동 보너스를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_CITY_RANSOMED_BY_BARBARIANS">
+            <Text>{@1_CityName}{@1: plural 1?이; 2?가;} 야만인의 침입을 받았습니다. [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_GOLD]골드를 약탈 당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_CITY_WAS_CAPTURED">
+            <Text>{@1_CityName}{@1: plural 1?이; 2?가;} {@3_owner_adjective} {@2_EnUName}(-{4_Num})에게 점령됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_DECLARED_WAR_ON">
+            <Text>{1_TeamName}에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_DEFENSES_REDUCED_TO">
+            <Text>{@1_CityName}의 방어력이 {3_UnitName}에 의해 {2_Num}% 감소했습니다! !</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_DISCOVERED_RESOURCE">
+            <Text>[COLOR_HIGHLIGHT_TEXT]{@1_ResourceName}[ENDCOLOR]{@1: plural 1?을; 2?를;} {@2_CityName} 근처에서 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_DISCOVERED_TECH">
+            <Text>{@1_TechName}의 연구를 완료했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_HURT_ENEMY_AIR">
+            <Text>당신의 {@1_UnitName}(-{3}%){@1: plural 1?이; 2?가;} {4_owner_adjective} {@2_EnUName}{@2: plural 1?을; 2?를;} 요격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_KILLED_ENEMY_UNIT">
+            <Text>당신의 {@1_UnitName}(-{2_Num}){@1: plural 1?이; 2?가;} {@5_owner_adjective} {@4_EnUName}{@4: plural 1?을; 2?를;} 전멸시켰습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_KILLED_ENEMY_UNIT_CITY">
+            <Text>{@1_CityName}(-{2_Num}){@1: plural 1?이; 2?가;} {@4_owner_adjective} {3_EnUName}{3: plural 1?을; 2?를;} 전멸시켰습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH">
+            <Text>당신은 {1_TeamName} 지도자와 평화 협정을 맺었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_RECAPTURED_UNIT">
+            <Text>{@1_UnitName}{@1: plural 1?을; 2?를;} 다시 생포했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_REDUCE_CITY_DEFENSES">
+            <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} {@2_CityName}의 방어력을 {3_NewVal}%로 낮췄습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_SHOT_DOWN_ENEMY">
+            <Text>당신의 {@1_UnitName} 유닛이 {3_owner_civ}의 {@2_EnUName} 유닛을 격추했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_CAPTURED_ENEMY_CITY">
+            <Text>당신의 {@1_UnitName}(-{2_Num}){@1: plural 1?이; 2?가;} {@3_CityName}{@3: plural 1?을; 2?를;} 점령했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_DESTROYED_ENEMY">
+            <Text>당신의 {@1_UnitName}(-{2_Num}){@1: plural 1?이; 2?가;} {@3_UnitName}{@3: plural 1?을; 2?를;} 전멸시켰습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_DIED_ATTACKING">
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Num}){@2: plural 1?을; 2?를;} 공격하려다 전멸했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_DIED_ATTACKING_CITY">
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Num}){@2: plural 1?을; 2?를;} 공격하려다 전멸했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_RANSOM_KILL_BY_BARBARIANS">
+            <Text>야만인들이 몸값 지불 거절에 대한 보복으로 {@1_UnitName}{@1: plural 1?을; 2?를;} 죽였습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_SHOT_DOWN">
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} {@2_EnUName}에게 격추당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_SURRENDER">
+            <Text>{@1_EnUName}{@1: plural 1?이; 2?가;} {@2_Adjective} {@3_UnitName}에 항복했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_ATTRITION">
+            <Text>소모</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DESTROYED">
+            <Text>{@1_UnitName} 유닛이 방어 중에 {@3_owner_adjective} {@2_EnUName}에 파괴되었습니다! (피해 {4_Num})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DESTROYED_ATTRITION">
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} 소모 때문에 전멸하였습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DESTROYED_UNKNOWN">
+            <Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} 위장 중이던 {@2_EnUName}(-{3_Num})에게 전멸당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_WITHDRAW">
+            <Text>당신의 {@1_UnitName}(-{2_Num}){@1: plural 1?이; 2?가;} {@3_EnUName}(-{4_Num}){@3: plural 1?을; 2?를;} 공격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOU_UNIT_WITHDRAW_CITY">
+            <Text>당신의 {@1_UnitName}(-{2_Num}){@1: plural 1?이; 2?가;} {@3_CityName}(-{4_Num}){@3: plural 1?을; 2?를;} 공격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOUR_CITY_ATTACKED_BY_AIR">
+            <Text>{@1_CityName}(-{3_Num}){@1: plural 1?이; 2?가;} {@2_EnUName}에게 공격당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_YOUR_CITY_RANGE_ATTACK">
+            <Text>{@1_Name@1_Name}{@1: plural 1?이; 2?가;} {@2_EnUName}(-{3_Damage}){@2: plural 1?을; 2?를;} 공격했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_AIRLIFT">
+            <Text>공수 작전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_ALERT">
+            <Text>경계</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_BOMBARD">
+            <Text>폭격</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_BUILD_CITY">
+            <Text>도시 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_BUILD_IMPROVEMENT">
+            <Text>시설 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_BUILD_SPACESHIP">
+            <Text>우주선에 추가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_CONDUCT_TRADE_MISSION">
+            <Text>무역 임무 수행</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_CONSTRUCT">
+            <Text>건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK">
+            <Text>위대한 예술품</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_CULTURE_BOMB">
+            <Text>문화 폭탄</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_DISCOVER_TECH">
+            <Text>기술 발견</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_DISEMBARK">
+            <Text>하선</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_EMBARK">
+            <Text>승선</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_FORTIFY">
+            <Text>요새화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_GARRISON">
+            <Text>도시 주둔</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_HEAL">
+            <Text>회복할 때까지 요새화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_HURRY_PRODUCTION">
+            <Text>생산 가속</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_INTERCEPT">
+            <Text>요격</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_JOIN_CITY">
+            <Text>도시에 합류</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_MOVE_TO">
+            <Text>이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_MOVE_TO_UNIT">
+            <Text>유닛에게 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_NUKE">
+            <Text>핵</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_PARADROP">
+            <Text>공중 투하</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_PARADROP_HELP">
+            <Text>지정된 위치로 공중 투하 합니다. 임무 시 요격당할 수도 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_PILLAGE">
+            <Text>약탈</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_PILLAGE_HELP">
+            <Text> 타일의 도로와 시설은 복구되기 전에는 사용할 수 없습니다. 시설을 약탈하면 [ICON_GOLD]골드를 얻고 유닛이 25 체력을 회복합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_ROUTE_TO">
+            <Text>경로 생성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_SET_UP">
+            <Text>설치 작업</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_SKIP">
+            <Text>넘기기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_SLEEP">
+            <Text>비활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_START_GOLDENAGE">
+            <Text>[ICON_GOLDEN_AGE]황금기 시작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOVE_DETAILS">
+            <Text>선택한 유닛에게 이동 명령을 내리려면 화면에 한 손가락을 대고 두 번 탭하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOVE_TITLE">
+            <Text>유닛 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_ADD_PASSWORD">
+            <Text>비밀번호 추가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_CHANGE_PASSWORD">
+            <Text>비밀번호 변경</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_ENTER_PASSWORD">
+            <Text>비밀번호 입력</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_MAIN_MENU">
+            <Text>메인 메뉴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_NEW_PASSWORD">
+            <Text>새 비밀번호</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_NEXT_PLAYER">
+            <Text>다음 플레이어</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OLD_PASSWORD">
+            <Text>이전 비밀번호</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OPTION_ALWAYS_PEACE">
+            <Text>영구적 평화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OPTION_ALWAYS_PEACE_HELP">
+            <Text>당신은 다른 문명과 전쟁을 할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OPTION_SIMULTANEOUS_TURNS">
+            <Text>동시 턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OPTION_SIMULTANEOUS_TURNS_HELP">
+            <Text>모든 문명이 동시에 턴을 수행합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OPTION_TAKEOVER_AI">
+            <Text>AI 조종</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OPTION_TAKEOVER_AI_HELP">
+            <Text>당신이 AI를 대신하여 언제나 "핫-조인"을 할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OPTION_TURN_TIMER">
+            <Text>턴 타이머</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_OPTION_TURN_TIMER_HELP">
+            <Text>턴의 타이머가 최대 문명 크기에 기초한 시간으로 제한됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MP_PLAYER_CHANGE_CONTINUE">
+            <Text>계속</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MULTIPLAYER_UNSUPPORTED_NUMBER_OF_PLAYERS">
+            <Text>경고! 지원되지 않는 플레이어 수입니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PBEM_CHECKBOX">
+            <Text>턴 종료 시 자동 저장 사용</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PBEM_CHECKBOX_PBEM">
+            <Text>이메일 플레이 모드 사용</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PBEM_NOTICE">
+            <Text>당신의 턴이 종료되었습니다. 저장 파일을 다음 차례의 플레이어에게 이메일로 보내십시오. 저장 파일은 saves/pbem 폴더에서 찾을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PINCH_SPEED">
+            <Text>지도 확대/축소 속도 : {1_Num}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PINCH_SPEED_TT">
+            <Text>지도를 확대하거나 축소하는 속도를 늘리거나 줄입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_ADVISOR_POPUPS">
+            <Text>보좌관 메시지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_NO_UNIT_CYCLING">
+            <Text>수동으로 유닛 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_NO_UNIT_CYCLING_HELP">
+            <Text>다음 유닛을 자동으로 선택하지 않습니다</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_NO_UNIT_RECOMMEND">
+            <Text>유닛의 권장 행동을 나타내지 않음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_NUMPAD_HELP">
+            <Text>숫자 패드 도움말</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_QUICK_COMBAT_DEFENSE">
+            <Text>빠른 전투 (방어시)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_QUICK_COMBAT_OFFENSE">
+            <Text>빠른 전투 (공격 시)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_QUICK_MOVES">
+            <Text>빠른 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_QUICK_MOVES_HELP">
+            <Text>모든 문명의의 이동이 빨라졌습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_SHOW_ENEMY_MOVES">
+            <Text>적의 이동 보기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_SHOW_FRIENDLY_MOVES">
+            <Text>아군의 이동 보기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_WAIT_AT_END_OF_TURN">
+            <Text>턴 종료를 기다림</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_WORKERS_LEAVE_OLD_IMPS">
+            <Text>자동화 중인 [COLOR_POSITIVE_TEXT]노동자[ENDCOLOR]가 기존 시설을 건들지 않음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_OPTION_WORKERS_START_AUTO">
+            <Text>노동자 자동화 시작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ANNEX_CITY">
+            <Text>도시 합병</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ANNEX_PUPPET">
+            <Text>{@1_CityName}의 [ICON_PUPPET]괴뢰정부를 합병하시겠습니까? 합병을 하게되면 이 도시에서 무엇을 생산할지 결정할 수 있지만, [ICON_HAPPINESS_4]불행이 증가하게 되고 새로운 사회 정책을 획득하기까지 더 오래 걸리게 됩니다.  다시 [ICON_PUPPET]괴뢰정부를 세울 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE">
+            <Text>확실합니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_ACTION">
+            <Text>정말로 [COLOR_POSITIVE_TEXT]{@1_ActionName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 원하십니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_IMPROVEMENT_REBUILD">
+            <Text>정말로 [COLOR_POSITIVE_TEXT]{@1_ActionName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 원하십니까?[NEWLINE]기존 시설이 철거됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_IMPROVEMENT_REBUILD_WARN_TRADE_ROUTE">
+            <Text>정말로 [COLOR_POSITIVE_TEXT]{@1_ActionName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 원하십니까?[NEWLINE]기존 시설이 철거되고, [ICON_CONNECTED]교역로가 끊어집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_RAZE">
+            <Text>이 도시를 정말로 불태우시겠습니까? (취소가 가능)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO">
+            <Text>이 도시에서 무엇을 하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX">
+            <Text>이 도시를 합병하면 상당히 많은 [ICON_HAPPINESS_4]불행을 제공하는 도시가 됩니다.[NEWLINE][NEWLINE]합병한 이 도시는 [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_HAPPINESS_4]불행을 증가시킬 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE">
+            <Text>이 도시는 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 도시였습니다. 이 도시를 해방해주게 되면 그들은 영원히 감사를 표할 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_RESURRECT">
+            <Text>이 도시는 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]의 도시였습니다. 도시를 돌려준다면 상대는 은혜를 영원히 않을 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_PUPPET">
+            <Text>도시를 [ICON_PUPPET]괴뢰정부로 전환하면 [ICON_GOLD]골드, [ICON_RESEARCH]과학, [ICON_CULTURE]문화 등을 획득합니다. 그러나 도시에서 무엇을 생산할지 선택할 수 없고, 도시를 원하는 대로 관리할 수 없습니다.[NEWLINE][NEWLINE][ICON_PUPPET]괴뢰정부는 도시 합병에 비해 [ICON_HAPPINESS_4]불행이 조금 발생하고 사회 정책의 문화 요구치가 증가하지 않습니다. [ICON_PUPPET]괴뢰정부를 선택하더라도 원하는 때에 도시를 합병할 수 있습니다.[NEWLINE][NEWLINE]괴뢰정부가 된 이 도시는 [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_HAPPINESS_4]불행을 증가시킬 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE">
+            <Text>도시를 태우면 한 턴에 [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]1[ENDCOLOR]씩 줄어들며, [ICON_CITIZEN]시민이 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되면 도시가 사라집니다. 불태우기 중에는 꽤 많은 [ICON_HAPPINESS_4]불행을 만들어 냅니다.[NEWLINE][NEWLINE]소각 중인 이 도시는 [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_HAPPINESS_4]불행을 증가시킬 것입니다. 이 [ICON_HAPPINESS_4]불행은 각 턴 마다 감소될 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_DETAILS_TITLE">
+            <Text>당신의 상세정보</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_DOES_THIS_MEAN_WAR">
+            <Text>[COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 하시겠습니까?!? (대상 : [COLOR_POSITIVE_TEXT]{1_Team}[ENDCOLOR])</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_DOES_THIS_MEAN_WAR_PROTECTED_CITY_STATE">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Team}[ENDCOLOR]에 맞서 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 하시겠습니까?!? 이들은 다음과 같은 국가의 보호 아래 있음 :</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_DONT_ANNEX_CITY">
+            <Text>괴뢰정부 유지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ELECTION_OPTION">
+            <Text>[COLOR_POSITIVE_TEXT]{@1_VoteName}[ENDCOLOR] (총 투표수 [COLOR_POSITIVE_TEXT]{3_TotNum}[ENDCOLOR]표 중 [COLOR_POSITIVE_TEXT]{2_ReqNum}[ENDCOLOR]표 이상이 필요합니다)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ENTER_CITY_STATE_WAR">
+            <Text>[COLOR_HIGHLIGHT_TEXT]{1_CivAdj}[ENDCOLOR]의 [ICON_CAPITAL]수도에 침입하는 행동은 전쟁을 일으킵니다! [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ENTER_LANDS_WAR">
+            <Text>[COLOR_HIGHLIGHT_TEXT]{1_CivAdj}[ENDCOLOR] 영토에 침입하는 행동은 전쟁을 일으킵니다! [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ENTER_MINOR_CIV_LANDS">
+            <Text>[COLOR_HIGHLIGHT_TEXT]{1_CivAdj}[ENDCOLOR]에 침입하는 행동은 약자를 괴롭히는 치졸한 행동입니다! 그래도 침입하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ENTER_WITH_OPEN_BORDERS">
+            <Text>(국경 개방 조약을 맺으면 평화적으로 들어갈 수 있습니다.)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_GAME_DETAILS">
+            <Text>게임 상세정부</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_GOLD_CITY_CAPTURE">
+            <Text>{@2_CityName}{@2: plural 1?을; 2?를;} 점령하고 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드를 얻었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_LIBERATE_CITY">
+            <Text>도시 해방</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_NO">
+            <Text>아니오</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_NO_GOLD_CITY_CAPTURE">
+            <Text>{@1_CityName}{@1: plural 1?을; 2?를;} 점령했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_NO_PUPPET">
+            <Text>그대로 두기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_PUPPET_CAPTURED_CITY">
+            <Text>괴뢰정부 만들기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_RAZE_CAPTURED_CITY">
+            <Text>도시 불태우기!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_VIEW_CITY">
+            <Text>도시 보기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_VIEW_CITY_DETAILS">
+            <Text>도시 화면으로 갑니다. 도시 보기에선 도시를 조작할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_VOTES_FOR">
+            <Text>{1_VtrName}에서 {2_PlyrName}에게 투표했습니다. (총 [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]표)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_VOTES_YES_NO">
+            <Text>{1_VtrName}의 투표 여부 - {2_YesNo}(총 {3_Num})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_WHAT_TO_BUILD">
+            <Text>이 도시에서 무엇을 건설하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_WHAT_TO_PURCHASE">
+            <Text>이 도시에서 무엇을 구매하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_YES">
+            <Text>예</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION">
+            <Text>{1} 승급 가능!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_SPREAD_TO_CITY">
+            <Text>{@2_CityName}{@2: plural 1?으로; 2?로;} {@1_ReligionName}{@1: plural 1?을; 2?를;} 전파했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGIOUS_BUILDING">
+            <Text>{@2_ReligionName}의 {@1_BuildingName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_REMOVE_ROUTE">
+            <Text>경로 제거</Text>
+        </Row>
+        <Row Tag="TXT_KEY_REMOVE_ROUTE_HELP">
+            <Text>타일에 건설해놓은 도로 또는 철로를 제거할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_REMOVE_ROUTE_REC">
+            <Text>이 도로나 철로는 도시를 연결하는 데 필요하지 않으며 [ICON_GOLD]유지비만 소모하고 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_REPAIR_IMPROVEMENT">
+            <Text>시설 복구</Text>
+        </Row>
+        <Row Tag="TXT_KEY_REPAIR_IMPROVEMENT_HELP">
+            <Text>약탈로 파괴된 시설을 [COLOR_POSITIVE_TEXT]노동자[ENDCOLOR]가 복구할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_REPAIR_IMPROVEMENT_REC">
+            <Text>현재 타일에서 약탈로 파괴된 시설을 복구합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SCRAP_HELP">
+            <Text>당신의 영토에서 이 행동을 하면 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SCROLLING_DETAILS">
+            <Text>게임 화면이나 스크롤바 메뉴를 이동하려면 화면에 두 손가락을 대고 끄십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SCROLLING_TITLE">
+            <Text>스크롤 및 화면 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SEALEVEL_HIGH">
+            <Text>높음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SEALEVEL_LOW">
+            <Text>낮음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SEALEVEL_MEDIUM">
+            <Text>중간</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SHIFT">
+            <Text>Shift-</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_BERING_DESC">
+            <Text>베링 해협 및 러시아 동부, 캄차카, 알래스카를 포함한 주변 지역입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_BERING_TITLE">
+            <Text>베링 해협</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_BRITISH_ISLES_DESC">
+            <Text>영국과 아일랜드, 그리고 수많은 작은 섬들로 구성되어 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_BRITISH_ISLES_TITLE">
+            <Text>영국 제도</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_CARRIBEAN_DESC">
+            <Text>화려한 열대 지역, 카리브해를 탐험하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_CARRIBEAN_TITLE">
+            <Text>카리브해</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_EUS_DESC">
+            <Text>텍사스 남부의 끝부터 노바스코샤주의 동부 끝까지 펼쳐진 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_EUS_TITLE">
+            <Text>미국 동부</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_JAPAN_DESC">
+            <Text>이 지도는 주변국이 없는 일본 전용 지도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SP_MAP_PACK_JAPAN_TITLE">
+            <Text>일본 본토</Text>
+        </Row>
+        <Row Tag="TXT_KEY_STEAM_CONNECTED_NO">
+            <Text>인터넷 게임을 즐기기 위해선 Steam과 인터넷이 활성화되어 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TERRAIN_COAST">
+            <Text>연안</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TIME_AD">
+            <Text>{1_Date: number #} AD</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TIME_AD_SAVE">
+            <Text>{2} AD-{1_Date}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TIME_BC">
+            <Text>{1_Date: number #} BC</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TIME_BC_SAVE">
+            <Text>{2} BC-{1_Date}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TIME_TURN">
+            <Text>턴 : {1_TurnNum}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TIME_WEEK">
+            <Text>주 {1_WeekNum}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TOOL_TIPS_DETAILS">
+            <Text>툴팁을 보려면 버튼이나 지형에 한 손가락을 대고 끄십시오.[NEWLINE]이동 모드로 들어가려면 유닛을 타일 밖으로 끄십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TOOL_TIPS_TITLE">
+            <Text>툴팁 및 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TOUCH_CONTROLS">
+            <Text>터치 기능</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TOUCH_HELP">
+            <Text>터치 조작 안내</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TOUCH_HIDE">
+            <Text>시작 시 보이기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TURNS">
+            <Text>턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TURNTIMER_BLAZING">
+            <Text>타오른다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TURNTIMER_SNAIL">
+            <Text>느린</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TURNTIMER_STATIC">
+            <Text>정적인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNITCOMBAT_ARCHER">
+            <Text>궁수 유닛</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNITCOMBAT_GUN">
+            <Text>화약 유닛
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNITCOMBAT_HELICOPTER">
+            <Text>헬리콥터 유닛
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNITCOMBAT_MELEE">
+            <Text>근접 유닛
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNITCOMBAT_RECON">
+            <Text>정찰 유닛
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_UPGRADE_ERROR_HELP">
+            <Text>유닛 업그레이드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UPGRADE_HELP">
+            <Text>{@1_UnitName}{@1: plural 1?으로; 2?로;} 업그레이드 합니다. [COLOR_POSITIVE_TEXT]{2_Num} [ENDCOLOR][ICON_GOLD]골드가 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_CITY">
+            <Text>유닛을 업그레이드 하려면 반드시 도시에 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_GOLD">
+            <Text>유닛을 업그레이드 하기 위한 [ICON_GOLD]골드가 부족합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_RESOURCES">
+            <Text>이 유닛을 업그레이드 하려면 {1_ResourcesString}{1: plural 1?이; 2?가;} 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_STACKING">
+            <Text>유닛을 업그레이드 하기 위해서는 빈 타일로 이동해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_TERRITORY">
+            <Text>유닛을 업그레이드 하기 위해서는 자신의 영토 내에 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_USER_GAMENAME">
+            <Text>의 게임</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORKER_BUILD_PROGRESS">
+            <Text>[COLOR_POSITIVE_TEXT]{2_WorkerBuildName}[ENDCOLOR] 작업이 [COLOR_YELLOW]{1_Num} 턴[ENDCOLOR] 후에 완료됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ZOOM_DETAILS">
+            <Text>화면을 축소하려면 두 손가락을 오므리고 확대하려면 벌리십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ZOOM_IN">
+            <Text>확대</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ZOOM_OUT">
+            <Text>축소</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ZOOM_TITLE">
+            <Text>확대/축소 기능</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

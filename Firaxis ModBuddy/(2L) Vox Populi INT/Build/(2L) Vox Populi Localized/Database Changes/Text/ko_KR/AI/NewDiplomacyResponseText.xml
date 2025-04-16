@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_GENERIC_MAPS_OFFER">
+			<Text>당신에게서 세계 지도를 구매하고 싶습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TECH_OFFER">
+			<Text>당신으로부터 기술을 구매하고 싶습니다.</Text>
+		</Row>
+		<!-- AI vassal greets human master -->
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_1">
+			<Text>당신이 나의 국민들을 노예로 만든 것은 우리 모두에게 당혹감을 주었소. 무엇을 원하는 거요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_2">
+			<Text>아, 폭군께서 얼굴을 내미셨군. 우리를 어떻게 더 착취할 생각이신지요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_3">
+			<Text>음? 내 앞에 폭군이 무슨 일로 찾아온 것이죠? 우리, 더 나아가 우리의 자존심에 침 뱉기 위해?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_1">
+			<Text>나의 땅에 오신 것을 환영합니다. 어떻게 도와드릴까요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_2">
+			<Text>반갑습니다! 우리 노동자들이 당신이 이용할 자원을 만들기 위해 열심히 노력하고 있다는 사실에 당신이 흐뭇해하길 바랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSALX_3">
+			<Text>환영합니다! 우리가 어떻게 돕길 원하시나요?</Text>
+		</Row>
+		<!-- AI master greets human vassal -->
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_1">
+			<Text>이것 보게. 내 작은 애완동물이 날 찾아왔군. 뭘 원하나?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_2">
+			<Text>그대의 시민들은 날 흐뭇하게 할 자원을 만드는 게 좋을 걸세. 뭘 원하나?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_3">
+			<Text>그대는 그대보다 우월한 존재 앞에 서 있네. 나에게 무릎을 꿇어라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_1">
+			<Text>이게 뭐지? 내 종속국으로부터 방문자? 그대가 제공할 조공인가?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_2">
+			<Text>아, 내 하인들 중 한 명이 왔군. 그대는 나에게 제공할 어떤 것을 가지고 있나?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_3">
+			<Text>나는 그대와 그대의 영토를 보호하기로 약속했지. 무엇을 원하는가?</Text>
+		</Row>
+		<!-- AI asks human to revoke their vassalage -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_1">
+			<Text>우리는 당신의 한심한 통치에 지쳤습니다. 우리는 독립을 되찾기 위해 죽음을 각오하고 싸울 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_2">
+			<Text>우리 문명에 대한 통제권을 포기하거나 고통스러운 결과를 마주하십시오. 어느 쪽이 더 현명한 선택인 것 같습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_3">
+			<Text>우리 민족은 독립을 원하며, 당신이 우리를 막을 방법은 없습니다. 독립을 쉽게 얻느냐, 어렵게 얻느냐의 차이만 있을 뿐입니다. 선택은 당신 몫입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_1">
+			<Text>우리 민족이 이 세계에서 스스로의 길을 찾을 때가 왔습니다. 우리는 독립된 국가를 갈망합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_2">
+			<Text>나의 백성들은 당신의 지배를 더 이상 참을 수 없기에 나는 당신에게 공식적으로 개별적인 자주 국가 수립을 허용할 것을 요청합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGEX_3">
+			<Text>우리는 우리의 종속국 협정을 무효화할 때가 왔다고 생각합니다. 우리는 독립적인 지배를 원합니다. 받아들여주시겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_1">
+			<Text>당신이 우리의 독립을 인정해주어 나의 국민들이 감사를 표합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_2">
+			<Text>나의 국민들을 해방시켜주다니 당신은 매우 관대하군요. 나는 당신에게 감사를 표합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_3">
+			<Text>우리가 독립을 되찾은 것은 당신의 자애로움 덕분입니다. 이 날이 수세기 동안 기억되길 바랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_1">
+			<Text>아주 좋습니다. 우리 민족은 독립을 보장받기 위해 죽음까지 싸울 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_2">
+			<Text>당신은 당신 군대의 피를 보는 길을 택했습니다. 우리 민족은 독립을 피하지 않을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_3">
+			<Text>그럼 우리는 싸움을 통해 독립을 쟁취하겠습니다.</Text>
+		</Row>
+		<!-- Human asks AI to revoke their vassalage -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_1">
+			<Text>좋습니다. 우리는 그대의 독립을 승인하고 당신의 문명을 독립된 국가로 인정하겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_2">
+			<Text>받아들이겠습니다. 그대는 나의 문명으로부터 자유입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_3">
+			<Text>이해했습니다. 나는 그대가 독립할 권리를 받아들이겠습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_1">
+			<Text>그대가 대화하고 있는 자가 누구인지 아는가? 나의 허수아비는 그리 쉽게 떠나지 못하네. 나는 그대의 반란을 진압할 것이네.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_2">
+			<Text>정말 내가 그대를 쉽게 떠나보내줄 것이라 생각했는가? 하! 안되지... 이제 죽을 준비나 해라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_3">
+			<Text>그대는 제정신이 아니군, 그렇지? 내가 그리 멍청하다고 생각했는가? 나는 그대의 군대를 쳐부수는 것을 즐길 것이네.</Text>
+		</Row>
+		<!-- Human declares war on AI vassal -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_1">
+			<Text>나는 당신이 우리를 보호해줄 것이라 생각했는데 우리를 공격하는군요. 부끄러운 줄 아십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_2">
+			<Text>참으로 야만적이군요! 당신은 우리를 보호해주기로 약속했는데 우리를 공격했습니다. 당신은 실수를 저지른 것입니다. 나는 당신을 고통스럽게 죽일 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_3">
+			<Text>당신은 우리의 보호자였습니다. 당신은 우리를 공격하는 자들을 무찌르겠다고 말했지 그들이 되겠다고 말하지 않았습니다. 당신은 약속을 저버렸고 세계는 이를 알게 될 것입니다.</Text>
+		</Row>
+		<!-- Third-party AI asks human to release vassals -->
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_1">
+			<Text>당신의 종속국이 독립을 외치고 있습니다. 들리십니까? 무엇이 당신의 귀를 열겠습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_2">
+			<Text>당신에게 간청합니다. 당신의 종속국을 놓아주십시오. 이 조건이면 충분합니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_3">
+			<Text>독립은 천부적인 권리입니다. 당신의 종속국을 위해 이 협정을 맺어 균형을 되찾읍시다.</Text>
+		</Row>
+		<!-- Human releases AI vassal -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_1">
+			<Text>이 호의는 쉽게 잊히지 않을 것입니다. 당신은 우리 민족에게 자유를 주었습니다. 나는 영원히 당신에게 감사할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_2">
+			<Text>자유의 이름으로 자신의 권리를 포기하는 건 현명하고 용감한 지도자만이 할 수 있는 일이지요. 우리 민족은 앞으로 수세기 동안 우리의 독립일을 기념할 것입니다. 당신에게 감사합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_3">
+			<Text>우리 민족의 독립을 인정해주셔서 감사합니다. 우리 양국의 국민들이 우방으로서 함께 지내길 바랍니다.</Text>
+		</Row>
+		<!-- AI releases human vassal -->
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_1">
+			<Text>우리는 그대의 영토에 대한 지배를 포기하기로 결정했습니다. 그대의 문명은 더 이상 우리의 종속국이 아니고 그대의 국민들은 이제 자유입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_2">
+			<Text>이제 우리는 그대의 종주국을 포기할 때가 왔습니다. 그대의 독립을 인정합니다. 그대의 문명은 더 이상 종속국이 아닙니다. 우리가 미래에 좋은 동맹이 되길 바랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_3">
+			<Text>심사숙고 끝에 우리는 종속국 협정을 끝내고 그대에게 자유를 주기로 결정했습니다. 그대의 문명은 더 이상 종속국이 아닙니다. 우리 두 문명이 앞으로 번영하길 기대합니다.</Text>
+		</Row>
+		<!-- Human raises AI vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_1">
+			<Text>당신이 우리의 세금을 올린 것에 실망했습니다. 그 돈은 나의 시민들의 것입니다. 장담하건데 이 결정으로 우리의 관계는 상처 입을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_2">
+			<Text>간청하건데 우리 상인들에게 자비를 베풀어주십시오. 당신의 세금이 우리 경제에 걸림돌이 되고 있습니다. 당신이 이 결정을 고집한다면 나는 당신에게 실망할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_3">
+			<Text>우리 세금을 올리기로 한 당신의 결정은 받아들일 수 없습니다. 우리에 대한 정치적인 간섭도 당신의 탐욕을 채우기엔 모자라는 것입니까?</Text>
+		</Row>
+		<!-- Human lowers AI vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_1">
+			<Text>당신이 우리 세금을 낮춘 사실에 기쁩니다. 우리는 이것이 앞으로 좋은 일이 있을 것이라는 신호이길 바랄 뿐입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_2">
+			<Text>우리 세금을 낮춰주신 것에 감사합니다. 우리 경제의 향상이 장기적으로 우리 두 국가에 기여할 것이라 장담합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_3">
+			<Text>당신이 세금을 낮추기로 한 결정은 우리 두 국가를 더욱 가까워지게 할 것입니다. 감사합니다.</Text>
+		</Row>
+		<!-- AI raises human vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_AI_MASTER_1">
+			<Text>다른 국가를 지배하는 것은 많은 비용이 소모되기에 우리는 그대 문명의 세금을 올리기로 결정했네. 이해해주길 바라네.</Text>
+		</Row>
+		<!-- AI lowers human vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_AI_MASTER_1">
+			<Text>나는 그대의 세금을 낮추기로 결정했네. 나의 문명은 그대의 도움 없이도 번창할 수 있고 우리 두 국가 사이의 관계에 굳이 부담을 지울 필요는 없다고 생각했네.</Text>
+		</Row>
+		<!-- AI offers voluntary vassalage -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_1">
+			<Text>나의 약점이 전 세계에 명백히 드러난 이상 제발 내가 제안한 충성을 받아들여주십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_2">
+			<Text>당신의 위대한 힘은 끝이 없습니다. 우리의 약점은 우리를 유혹하는 표적으로 만들고 있습니다. 당신의 보호를 겸허하게 요청하는 바 입니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

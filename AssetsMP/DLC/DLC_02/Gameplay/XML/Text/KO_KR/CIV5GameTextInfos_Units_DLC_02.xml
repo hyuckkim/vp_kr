@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNITS_TREASURE_HEADING">
+            <Text>보물</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE">
+            <Text>사전 후퇴</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP">
+            <Text>근접 공격에 직면할 때 유닛이 후퇴할 수 있습니다. 하지만, 빠른 적 유닛에 맞서거나 해당 유닛 뒤에 있는 타일이 제한적이라면, 후퇴할 수 있는 확률이 줄어듭니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_INCAN_SLINGER">
+            <Text>투석병</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_SPANISH_CONQUISTADOR">
+            <Text>콩키스타도르</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_SPANISH_TERCIO">
+            <Text>테르시오</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>

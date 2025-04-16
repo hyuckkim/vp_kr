@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_AFRICA_HELP">
+      <Text>사적지를 고고학 발굴 현장으로 바꿉니다. 고고학 발굴 현장을 건설하면 유물을 유럽으로 돌려보내 승리 점수를 획득할 수 있습니다. 
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_REC_AFRICA">
+      <Text>고고학 발굴 현장을 건설하면 유물을 유럽으로 돌려보내 승리 점수를 획득할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STAATSMUSEUM_STRATEGY">
+      <Text>주립 박물관은 보어의 고유 건물입니다. 주립 박물관은 도시의 문화를 증가시킵니다(걸작을 보유한 건물은 효과 증대). 건설 시 걸작 1개를 갖추고 시작합니다. 유럽 문명으로 주립 박물관이 있는 도시를 점령하면 유물을 획득해 승점을 얻게 됩니다. 박물관을 대체하는 건물입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUEZ_CANAL_HELP">
+      <Text>다른 문명의 도시와 수에즈 운하를 통해 교역로가 연결될 때마다 수에즈 운하가 있는 도시의 [ICON_GOLD]골드가 4 증가하며 연결된 다른 도시의 [ICON_GOLD]골드도 2 증가합니다. 전 세계에서 단 하나만 건설할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUEZ_CANAL_STRATEGY">
+      <Text>수에즈 운하는 도시의 [ICON_GOLD]골드를 증가시킵니다. 다른 문명의 도시와 수에즈 운하를 통해 교역로가 연결될 때 마다 수에즈 운하가 있는 도시의 [ICON_GOLD]골드가 4 증가하며 연결된 다른 도시의 [ICON_GOLD]골드도 2 증가합니다. 전 세계에서 단 하나만 건설할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TURKISH_BATH_HELP">
+      <Text>도시에 은행이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TURKISH_BATH_STRATEGY">
+      <Text>터키탕은 오스만의 고유 건물입니다. 증권거래소와 같이 터키탕은 도시의 자금력을 증가시킵니다.  도시의 [ICON_GOLD]골드도 증가합니다. 다른 문명의 도시와 교역로가 연결될 때마다 터키탕이 있는 도시의 [ICON_GOLD]골드가 2 증가하며 연결된 다른 도시의 [ICON_GOLD]골드도 1 증가합니다. 도시에 은행이 건설되어 있어야 터키탕을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TURKISH_BATH_TEXT">
+      <Text>고대 로마식 목욕탕에서 진화한 터키탕은 빅토리아 시대에 중동과 유럽에서 피로를 풀고 건강을 지키는 방법으로 각광받았다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BORNU_TEXT">
+      <Text>보르누 제국은 1380년부터 1893년까지 수단의 지배를 받기 전에 현재 나이지리아 지역을 지배하던 왕국이었다. 사이파와 왕조의 후계자인 카넴보르누 왕과 뛰어난 정치가였던 이드리스 알루마(1571년 ~ 1603년)는 보르누 제국을 크게 확장하였고 번영을 가져왔다. 알루마는 행정 개혁과 천재적인 전략으로 1700년대 말까지 보르누 제국을 이끌었지만, 풀라니 성전의 결과 무정부 상태가 되고 말았다. 그 후 대영 제국은 보르누에서 이슬람교를 믿는 수단인을 추방하고 나이지리아 식민지의 거점으로 삼았다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_STAATSMUSEUM_TEXT">
+      <Text>최초의 주립 박물관은 1892년 프리토리아에서 지어졌는데 문화적 측면의 가치에 대한 대중의 인식을 증진하고 유지할 목적이었으므로 지역 역사, 민족지학, 고고학, 자연 과학에 초점을 맞추었다. 2차 보어전쟁이 발발했을 때, 주립 박물관의 애국적 성격은 더 선명해져서 보어 의용군에게 전장에서 모은 수집품을 박물관에 기부해 달라고 요청하기도 했다. 보어전쟁에서 패배한 이후, 주립 박물관은 더는 공금 지원을 받을 수 없었기에, 트란스발과 오렌지 자유주에 있는 마을들에서 자금을 받았다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_SUEZ_CANAL_TEXT">
+      <Text>착공 10년 만인 1869년에 개장한 수에즈 운하는 지중해와 홍해를 잇는 운하로, 유럽과 아시아를 왕래하는 선박의 항로를 대폭 줄여준다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUNKEYA_TEXT">
+      <Text>1800년대 후반에 동아프리카 무역상의 아들인 음시리는 분케야 마을을 세우고 상업 제국을 건설했다. 음시리의 바예케 부족은 콩고 분지 동쪽의 광대한 지역을 지배하면서 해안에 살던 아라비아 상인들에게 상아, 구리, 철광석, 소금, 노예를 주고 총과 탄약을 받아 왕국을 유지했다. 영국이 이 지역에 관심을 보이자 이를 우려한 벨기에 왕 레오폴드 3세는 원정대를 세 번 파견하여 음시리의 항복을 받아내려 했다. 잔지바르에서 출발한 세 번째 원정대는 1891년에 바예케 마을을 압박하여 분케야에서 철수하도록 했으며, 음시리 본인은 그 직후에 살해당했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_EXPLORER_TEXT">
+      <Text>유럽인이 아프리카 해안을 탐험하기 시작한 것은 16세기였지만, 19세기 유럽 열강이 아프리카 내륙을 적극적으로 탐험하기 시작하기 전에는 소규모 탐사대가 전부였습니다. 해안 교역소를 시작으로 선교사와 개척자들이 들어오자 유럽인들은 처음에는 소규모 탐사대를 보내 전설적인 유물이나 멸망한 고대 왕국의 유적, 과학 기술 등을 찾으려 했습니다. 데이비드 리빙톤과 같은 사람들은 선교와 의료 지원을 목적으로 아프리카를 탐험했고, 피에트로 디브라자는 모험을 찾아, 멕그래고르 레어드같은 사람은 장사를 위해 아프리카에 발을 들여놓았습니다. 동기야 어쨌든, 이런 유럽 탐험가들이 아프리카 역사를 크게 바꾸어 놓았습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ARCHAEOLOGICAL_DIG_AFRICA_TEXT">
+      <Text>고고학 발굴 현장은 사적지에서 고고학자만이 할 수 있습니다. 유명한 고고학 발굴 현장의 예가 바로 고대도시 트로이 발굴입니다. 발굴 현장을 세우면 고고학자가 그 지역에 어떤 종류의 유물이 묻혀 있는지 알아냅니다. 발굴된 유물을 유럽으로 돌려보내면 승리 점수를 획득할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_LUBA_TEXT">
+      <Text>루바족은 콩고에 있는 우펨바 분지 주변 지역에서 5세기경에 처음 나타났다. 1580년부터 연이어 나온 유능한 족장의 지도로 부족 도시에서 빠르게 확장하면서 주변 부족을 정복하고, 구리 광산, 어장, 야자유 생산지를 확보했다. 점점 다가오는 유럽인들의 압박을 받아 쇠퇴하였으며, 결국에는 1885년에 벨기에령 콩고에 강제로 흡수되었다. 루바족은 1895년에 반기를 들었으나 벨기에의 진압으로 사실상 몰살당했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_OUGADOUGOU_TEXT">
+      <Text>오트볼타의 닌시 부족은 수 세기 동안 끊임없는 갈등에 시달려 오다가 1441년에 전설이 된 전사, 우르비가 부족을 승리로 이끌면서 워고도고, 프랑스어로 와가두구를 수도로 한 모시 제국을 세웠다. 와가두구는 무역의 중심지로서 주변 지역에 아프리카 동부와 서부 해안 양쪽에서 상인과 대상을 끌어들였다. 1896년에 폴 바울레와 줄리앙 샤농이 이끄는 프랑스 식민군이 서아프리카를 완전히 프랑스의 지배하에 두기 위해 파견되어 닌시를 정복했다. 독립을 찾은 뒤에 와가두구는 부르키나파소의 수도가 되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RIFLED_CANNON_TEXT">
+      <Text>자리표시자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SEGOU_TEXT">
+      <Text>소닌케 부족이 11세기에 만든 도시 국가 세구는 1712년부터 1755년까지 비톤 쿨리발리 왕의 지배 아래 번영했다. 주요 교역 중심지로서 젠네, 팀북투, 마시나와 경제적으로 밀접하게 이어졌다. 마마리 쿨리발리의 지배 아래에서 젠네와 마시나와 합쳐서 밤바라 왕국을 이루었다. 1860년경에는 알 하지 우마르 탈이 세구를 정복하고, 주민을 이슬람교로 개종시켰다. 1890년대에는 프랑스가 침략하여 밤바라 왕국을 차지하고 세구를 오피스 뒤 니제흐의 행정 중심지로 삼았다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SOKOTO_TEXT">
+      <Text>나이지리아를 흐르는 두 강이 만나는 급경사 지역에 세워진 소코토는 소코토 이슬람 왕국의 요새 수도였으며 1820년에 그 세력과 명성이 절정에 달했다. 식민 시대 이전에는 수단에 있던 여러 이슬람 왕국의 중심지였으나, 관련 사료는 모두 소실되었다. 1827년에 소코토를 발견한 최초의 유럽인은 탐험가 휴 클래퍼턴이다. 1903년에 영국이 소코토를 점령하면서 이슬람 왕정이 무너지고, 대부분 영토는 영국령 나이지리아의 영토 일부가 되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_CAIO_DUILIO_CLASS_TEXT">
+      <Text>1870년대, 이탈리아 왕립 해군은 계획된 카이오 두일리아급 함선 세 척 중 두 척을 건조했다. 무게가 100톤이나 나가는 강선 대포와 두께 50mm의 장갑으로 무장한 이들 대양용 철갑함은 시대를 앞서 가는 무기여서 이를 본 영국 해군은 기존 전함 건조 계획을 취소하고 이들 철갑함에 대항할 새로운 함선을 설계해야 했다. 카이오 두일리아와 엔리코 단돌로라고 명명된 이들 철갑함은 실전에 사용되지 않았고, 각각 1909년과 1920년에 폐기되었다. 그러나 이들 함선은 이탈리아의 국익을 수호하기 위해 여러 차례 지중해 해안과 아프리카에 투입되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_BRANDENBURG_CLASS_TEXT">
+      <Text>1893년에 처음 진수된 독일 브란덴부르크급 함선은 근해용 대형 철갑함과 외해용 전함의 과도기적인 형태를 갖추었다. 두꺼운 철갑과 11인치 대포로 무장한 이 함선은 총 네 대가 완성되었는데, 의화단 사건에는 중국에 배치되었고 1차 세계대전 중에는 지중해에 배치되는 등 전 세계를 누비다 타국에 판매되거나 폐기되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_DERVISH_CAVALRY_TEXT">
+      <Text>"미친 물라"로 알려진 종교 지도자 모하메드 압둘라 알하산은 소말리아세 데르비시 국가를 만들어 영국, 이탈리아 및 에티오피아의 제국주의에 대항해 20년 동안 싸웠다. 그의 군대에는 10,000명 전후의 데르비시 기병대가 있었는데, 이들은 적과 아군이 모두 두려워하는 존재였으며, 주로 적의 보급선을 차단하고 후퇴하는 적을 공격하는 임무를 맡았다. 무장이 통일되지 않았던 데르비시 기병대는 부족장의 지휘를 받았고, 죽음을 두려워하지 않는 광전사로 위용을 떨쳤다. 1920년 물라가 패할 때까지 그가 신임했던 장군 대부분은 데르비시 기병대 출신이었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_FORCE_PUBLIQUE_TEXT">
+      <Text>1908년에서 1960년 사이에 벨기에령 콩고에서 헌병대 겸 군대로 활약한 공안군은 콩고가 독립을 선포하자 콩고군의 주축이 되었다. 하우트-콩고, 잔지바르 및 기타 벨기에령 식민지에서 뽑은 이들은 다양한 인종으로 구성되어 있었고 벨기에군 베테랑이나 유럽 용병이 지휘했다. 콩고 전역에 소규모로 퍼져있었던 이들은 밀렵꾼이나 아랍 노예상, 반란 부족을 진압했고, 1, 2차 세계대전에서는 동아프리카 작전에도 참여했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_FOREIGN_VOLUNTEERS_TEXT">
+      <Text>2차 보어 전쟁(1899-1902) 당시 영국 외부 지역의 보어 공화국에 대한 동정 여론이 높았으며 전쟁을 돕기위한 외인 자원 부대가 파병되었다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL_SCENARIO">
+      <Text>장군에게 이동력 양도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL_SCENARIO_HELP">
+      <Text>턴 시작에 위대한 장군과 이 유닛이 같은 타일에 있었다면 위대한 장군은 이번 턴에 이 유닛이 이동하는 만큼 이동할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NO_HEAL_OUTSIDE_FRIENDLY">
+      <Text>아군만 치료</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NO_HEAL_OUTSIDE_FRIENDLY_HELP">
+      <Text>우호 지역 내에서만 치료합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STINGEY_D">
+      <Text>강력한 방어</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STINGEY_D_HELP">
+      <Text>방어(50)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_VS_CITIES">
+      <Text>도시 공격 시 보너스 (30)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_VS_CITIES_HELP">
+      <Text>도시 공격 시 보너스 (30)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_VS_FORTIFIED">
+      <Text>방어 태세 유닛 공격 시 보너스 (30)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_VS_FORTIFIED_HELP">
+      <Text>방어 태세 유닛 공격 시 보너스 (30)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_ALL_RAILLINES_LOST">
+      <Text>{1_CivName}{1: plural 1?이; 2?가;} 건설한 철도가 파괴되었습니다. 해당 문명은 승점 {2_VPAmount}점을 잃습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_ALLY_GAINED">
+      <Text>{1_CityStateName}의 군사 유닛이 우리 군에 합류했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_ALLY_LOST">
+      <Text>{1_CityStateName}의 군사 유닛은 이제 고향으로 돌아갑니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_BRIEFING_BUTTON">
+      <Text>브리핑</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_BUILDING_BURIAL_TOMB_HELP">
+      <Text>유지비로 쓰이는 [ICON_GOLD]골드가 필요 없습니다.[NEWLINE][NEWLINE]유럽 정복자가 이 도시를 점령하면 이 도시에 저장된 걸작 슬롯에 해당하는 승점을 얻게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_BUILDING_BURIAL_TOMB_STRATEGY">
+      <Text>왕릉은 자동으로 걸작을 1개 유치함으로써 도시의 [ICON_HAPPINESS_1]행복과 [ICON_CULTURE]문화를 늘리는 이집트의 고유 건물입니다. 왕릉은 유지비가 필요 없습니다. 유럽 문명이 도시를 점령하면 유물 획득에 따른 승점도 얻게 됩니다. 콜로세움을 대체하는 건물입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CIV_BELGIUM_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CIV_BELGIUM_TEXT_1">
+      <Text>1830년에 독립한 벨기에는 아프리카 대륙에 식민지를 건설하려는 다른 유럽 국가보다 뒤처졌다. 벨기에는 르완다와 부룬디의 일부분과 콩고강 주변의 비옥하고 광활한 영토를 식민지로 얻었다. 다른 식민지와는 달리 콩고는 정부 관리의 감독을 받는 대신 벨기에 왕 레오폴드 2세의 사유지가 되었다. 1879년 8월부터 1884년 6월까지 레오폴드 왕과의 계약을 맺은 모험가 헨리 스탠리는 여러 부족장과 조약을 맺어 콩고 부족의 땅과 권리를 벨기에 왕에게 양도하도록 했다. 레오폴드는 이곳에 사설 군사 기지와 고무 재배지를 건설했다. 1884년, 독일 수상 오토 폰 비스마르크의 주재로 열린 베를린 회의에서 레오폴드는 콩고의 소유권을 인정받았다. 그러나 레오폴드는 콩고에서 가혹한 정책을 펼쳐 민중의 원성을 샀다. 1908년, 노쇠한 레오폴드는 자신의 사유지 정책을 바꾸겠다고 했으나 결국 벨기에 의회가 왕의 "콩고 자유령"을 식민지로 편입했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CIV_BOERS_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CIV_BOERS_TEXT_1">
+      <Text>"보어"는 아프리칸스어로 "농부"를 뜻하며 희망봉에 정착한 네덜란드인과 그들의 후손을 일컫는다. 원조 "트랙보어"는 1652년에서 1795년 사이 동인도 회사가 남아프리카를 지배하고 있을 당시 새로운 정착지를 찾아온 칼뱅파 네덜란드인을 말한다. 케이프 식민지로 이주한 보어는 영국 식민지와의 충돌을 피해 북쪽으로 이동, 여러 보어 공화국을 수립한다. 승자 영국이 1902년 이들 중 두 곳의 보어 공화국을 흡수하자 보어의 대이동이 시작되었고 네덜란드계 후손들은 아르헨티나, 케냐, 멕시코 및 미국 남서부로 흩어졌다. 1차 세계대전이 발발하자 1914년에 나머지 보어가 봉기했으나 무력으로 진압되었고 지역별 주모자들은 반역죄로 감금되었다가 처형되었다. 이를 끝으로 보어는 역사 속으로 사라진다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CIV_ITALY_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CIV_ITALY_TEXT_1">
+      <Text>1861년 근대화된 국가가 된 이탈리아는 이미 100년 전부터 아프리카 대륙에서 식민지를 건설하고 있었던 프랑스, 영국, 스페인, 포르투갈 및 네덜란드에 동참해 아프리카에 제국을 건설했다. 아직 아무도 식민지화하지 않은 내륙 깊은 곳을 찾던 이탈리아는 1차 세계대전이 발발하자 에리트레아와 소말리아, 리비아를 합병했으나 1895년과 1896년에 발발한 에티오피아 정복 전쟁에서 패했다. 에티오피아는 1936년까지 이탈리아에 저항했다. 이탈리아는 1915년에 대영제국과 프랑스로부터 유럽에서 상당한 양의 영토를 양도받는 조건으로 1차 세계대전에 연합군으로 참전했고 독일이 패하면 독일이 가지고 있던 아프리카 동부의 광활한 영토를 받기로 했다. 그러나 전쟁을 끝내고 맺은 베르사이유 조약에 따라 이탈리아는 유럽에서 작은 영토를 얻었을 뿐이고, 아프리카에서는 아무런 영토도 얻지 못했다. 이에 분노한 이탈리아는 그 후 20년 동안 유럽 열강을 싫어하게 되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CIV5_DAWN_TEXT">
+      <Text>시나리오 설명[NEWLINE]유럽 열강은 아프리카 대륙을 제외한 거의 모든 지역에 식민지를 건설했습니다. 모험과 보물, 지식을 갈구하는 탐험가와 이주민들이 북쪽과 서쪽에서 아프리카 대륙으로 몰려왔습니다. 그들 앞에 펼쳐진 것은 잃어버린 왕국과 신비한 동물, 식민지 건설을 방해하는 원주민 왕국이었습니다. 오토만 제국이 북아프리카에서 물러나자 유럽의 여러 국가는 아프리카 대륙을 차지하려고 싸웁니다. 유럽 열강 중 하나가 되어 풍요로운 아프리카를 차지하시겠습니까? 아니면 아프리카의 전사가 되어 침입자들을 몰아내시겠습니까?[NEWLINE][NEWLINE]승리 조건[NEWLINE]100턴이 끝날 때 가장 점수가 높은 문명이 승리합니다. 자연 경관을 처음 발견하면 하나당 4만큼의 [ICON_HAPPINESS_1]행복이 증가합니다. 유럽(벨기에, 잉글랜드, 프랑스, 독일, 이탈리아, 포르투갈) 문명의 탐험가가 자연 경관에 처음 근접하거나 유물을 발견하면 승점을 획득합니다. 북아프리카(이집트, 모로코, 오토만 제국) 문명은 [ICON_GOLD]골드를 얻으면 승점을 획득합니다. 사하라 이남(에티오피아, 보어, 줄루) 문명은 [ICON_CULTURE]문화로 승점을 획득합니다. 수에즈 운하의 지배권 획득과 두 도시 사이의 가장 긴 철도 연결로도 승점을 얻을 수 있습니다. 토지의 가치가 두 배 증가합니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]아프리카의 내부 구조는 플레이할 때마다 바뀝니다. 유럽 문명만이 승선/하선하거나 철도 또는 고고학 발굴 현장을 건설할 수 있으며, 같은 문명끼리 선전포고할 수 없습니다. 북아프리카 문명 역시 같은 문명끼리 선전포고할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_CIV5_FEATURES_FOUNTAIN_YOUTH_TEXT">
+      <Text>그리스인이나 로마인 모두 나일강 상류의 부유 초목을 헤치고 수원지를 찾으려고 여러 번 시도했지만 성공하지 못했다. 1500년대에 거대한 나일 강의 근원을 찾아 에티오피아를 찾아온 유럽인이 있었다고 하나 뜬소문이었다. 1800년대 중반, 유럽 대중은 나일강의 수원지를 "아프리카의 심장"이라고 부르며 그 정확한 위치를 찾고 싶어 안달이었다. 1858년, 리차드 스피크는 빅토리아호가 나일강의 근원이라고 주장했다. 리차드 버튼 경과 다른 이들이 그의 주장을 반박했지만, 헨리 스탠리가 거대한 빅토리아호 주변을 돌며 물길을 찾았고, 리펀 폭포가 "나일강의 수원"임을 확인했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_DESC">
+      <Text>1881년, 유럽 열강은 아프리카를 제외한 거의 모든 지역을 식민지화했습니다. 유럽 각국은 아프리카를 자신들의 식민지로 만들려고 박차를 가하고 있습니다. 아프리카의 지배자가 되십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_DIG_COMPLETE">
+      <Text>탐험가가 아프리카 유물을 발견했습니다. 승점을 {1_Num}점 얻었습니다.[NEWLINE][NEWLINE]유물을 유럽으로 보냈기 때문에 게임에서 제거됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_DIPLO_MY_SCORE_SCENARIO1">
+      <Text>두 도시 간의 가장 긴 철도 연결로 획득 : {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_DIPLO_MY_SCORE_SCENARIO2">
+      <Text>자연 경관/유물 발견으로 획득: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_DIPLO_MY_SCORE_SCENARIO3">
+      <Text>총 [ICON_GOLD]골드 획득량으로 획득: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_DIPLO_MY_SCORE_SCENARIO4">
+      <Text>총 [ICON_CULTURE]문화 획득량으로 획득: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_DIPLO_MY_SCORE_WONDERS">
+      <Text>수에즈 운하로 획득: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_EUROPEAN_TITLE">
+      <Text>{2_CivName:textkey}의 가장 촉망받는 {1_PlayerName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_GREAT_WORKS_CAPTURED">
+      <Text>{2_CityName} 점령 중 {1_Num}개의 걸작을 발견했습니다. 이 유물은 즉시 유럽으로 보내지며 승점 {3_Num}점이 추가됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_GREAT_WORKS_CAPTURED_OTHER">
+      <Text>{3_PlayerName}의 {2_CityName} 점령 중 {1_Num}개의 걸작을 발견했습니다. 이 유물은 즉시 유럽으로 보내지며 승점 {4_Num}점이 추가됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_KILIMANJARO_FOUND">
+      <Text>킬리만자로 산을 찾았습니다! 이 위대한 발견으로 승점 {1_VPAmount}점을 얻었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_KILIMANJARO_FOUND_OTHER">
+      <Text>{1_CivName}의 탐험가가 킬리만자로 산을 찾았습니다. 해당 문명은 승점 {2_VPAmount}점을 획득합니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LAKE_VICTORIA_FOUND">
+      <Text>빅토리아 호수를 찾았습니다! 이 위대한 발견으로 승점 {1_VPAmount}점을 얻었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LAKE_VICTORIA_FOUND_OTHER">
+      <Text>{1_CivName}의 탐험가가 빅토리아 호수를 찾았습니다. 해당 문명은 승점 {2_VPAmount}점을 획득합니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AHMAD_ALMANSUR_FIRSTGREETING_1">
+      <Text>모로코에 온 것을 환영하오. 난 하산 1세라고 합니다. 무엇을 도와드릴까요?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AHMAD_ALMANSUR_FIRSTGREETING_2">
+      <Text>난 모로코의 술탄 아흐메드 하산 1세라고 합니다. 모로코를 대표해서 당신을 환영합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AHMAD_ALMANSUR_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AHMAD_ALMANSUR_LIVED">
+      <Text>1873년 ~ 1894년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AHMAD_ALMANSUR_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_AHMAD_ALMANSUR}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AHMAD_ALMANSUR_SUBTITLE">
+      <Text>모로코 술탄</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AHMAD_ALMANSUR_TEXT_1">
+      <Text>알라위파 왕조가 배출한 인물 중 가장 성공한 술탄이었던 물레이 하산 1세(재위 기간: 1873년 ~ 1894년)는 북아프리카의 대부분이 유럽 열강의 지배에 놓이자 대대적인 군사 및 행정 개혁을 통해 모로코의 국력을 신장시켰다. 모로코에 소규모 거주지를 만든 프랑스와 스페인이 특별 대우를 요구했지만, 하산은 모로코의 전략적 위치를 활용해 유럽 열강이 서로 반목하도록 부추기며 사후까지 모로코의 독립을 유지했다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_DECLAREWAR_1">
+      <Text>신께 맹세컨대 이탈리아를 모욕한 대가를 반드시 치를 것입니다. 죽을 준비나 하시오!
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_DECLAREWAR_3">
+      <Text>그대의 앞날이 이제 얼마 남지 않았다는 것을 이탈리아의 영예에 걸고 맹세합니다. 전쟁을 준비하시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_FIRSTGREETING_1">
+      <Text>안녕하십니까. 나는 이탈리아의 아버지인 주세페 가리발디라고 합니다. 그대가 이탈리아의 친구라면 환영받을 것입니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_FIRSTGREETING_2">
+      <Text>환영합니다. 이탈리아는 친구에게는 믿음을, 적에게는 죽음을 선사하지요. 당신은 어느 쪽입니까?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_FIRSTGREETING_3">
+      <Text>환영합니다! 그대의 방문은 이탈리아의 영광입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_LIVED">
+      <Text>1807년 ~ 1882년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_SUBTITLE">
+      <Text>이탈리아의 장군 겸 정치인</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_TEXT_1">
+      <Text>이탈리아 통합을 구상한 인물 중 하나인 가리발디(1807년 ~ 1882년)는 장군이며 정치가였고, 열렬한 민족주의자였다. 가리발디는 이탈리아가 옛 로마제국의 전철대로 지중해 전체를 지배해야 한다며 공공연히 주장했고, 노년에는 자신의 이름과 명성을 통해 이탈리아 정부가 아프리카에 식민지를 건설하도록 부추겼다. 1881년, 이탈리아는 튀니지를 차지하려 했지만 프랑스와 영국의 방해로 실패했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_TRADE_NEEDMORE_HAPPY_1">
+      <Text>교회만큼 짠 분이시군요. 좀 더 통이 큰 제안을 할 수는 없습니까?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_AUGUSTUS_WINWAR_1">
+      <Text>이탈리아가 로마의 영광을 되찾았도다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_BISMARCK_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_BISMARCK_LIVED">
+      <Text>1815년 ~ 1898년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_BISMARCK_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_BISMARCK}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_BISMARCK_SUBTITLE">
+      <Text>독일 제국 수상</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_BISMARCK_TEXT_1">
+      <Text>독일 수상 비스마르크(임기: 1871년 ~ 1890년)는 아프리카 식민지 건설은 독일의 주된 관심사가 아니라고 보았지만, 1884년에 다양한 식민지 문제를 해결하기 위한 베를린 회의를 중재하며 유럽 열강의 아프리카 진출에 직접 관여하고 매우 흥미롭게 지켜보았다. 비스마르크는 여러 건의 국경 문제를 해결하고 콩고를 레오폴드 2세의 사유지로 인정했으며 14개국이 콩고에서 자유롭게 통상할 수 있도록 허가했고 누구든 니제르강과 콩고강을 자유롭게 통행할 수 있도록 했으며 이슬람 땅에서 노예제도를 폐지해야 한다고 주장했고 국제적으로 인정받는 식민지 건설 절차를 수립했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_ELIZABETH_FIRSTGREETING_3">
+      <Text>반갑습니다. 나는 대영제국의 여왕 빅토리아라고 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_ELIZABETH_FIRSTGREETING_4">
+      <Text>대영제국에 오신 것을 환영합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_ELIZABETH_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_ELIZABETH_LIVED">
+      <Text>1819년 ~ 1901년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_ELIZABETH_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_ELIZABETH}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_ELIZABETH_SUBTITLE">
+      <Text>영국 여왕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_ELIZABETH_TEXT_1">
+      <Text>1837년부터 1901년까지 장기간 영국을 다스린 빅토리아 여왕은 영국의 아프리카 식민지를 확장하고 그 기반을 굳혔으며 전쟁에서 대패한 경우도 있었지만 결정적인 승리를 거두는 업적을 남겼다. 영국은 카이로에서 케이프타운에 이르기까지 식민지와 의존국으로 연결한다는 정책을 수립했고 이 정책은 1차 세계대전 후 독일의 동아프리카 식민지를 접수하는 것으로 완성되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_MARIA_I_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_MARIA_I_LIVED">
+      <Text>1847년 ~ 1911년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_MARIA_I_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_MARIA_I}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_MARIA_I_SUBTITLE">
+      <Text>포르투갈 여왕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_MARIA_I_TEXT_1">
+      <Text>사치와 자선사업으로 유명한 사보이의 마리아 피아(1862년 ~ 1889년)는 포르투갈왕 루이시 1세의 배우자였다. "자선의 천사"나 "가난한 자들의 어머니"라고 불린 마리아는 포르투갈의 아프리카 식민지에서 다양한 사회 복지 개혁을 주도했고 모잠비크와 앙골라에서는 무료 학교와 진료소를 세웠다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_FIRSTGREETING_1">
+      <Text>환영합니다. 나는 프랑스의 줄스 그레비라고 합니다. 얼룩말을 좋아하지요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_FIRSTGREETING_2">
+      <Text>환영합니다, 이방인이여! 나는 프랑스의 대통령 줄스 그레비입니다. 나는 친구에게는 믿음을, 적에게는 죽음을 선사하지요. 당신은 어느 쪽입니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_FIRSTGREETING_3">
+      <Text>아, 결국 만났군요. 나는 프랑스의 대통령 줄스 그레비입니다. 자 우리 위대한 두 나라가 아프리카를 어떻게 나눠야 할지 상의해 봅시다."
+
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_FIRSTGREETING_4">
+      <Text>반갑습니다. 난 프랑스의 줄스 그레비입니다. 난 한가로이 사교모임 따위나 가질 시간이 없습니다. 무슨 일로 이곳에 오셨나요?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_LIVED">
+      <Text>1807년 ~ 1891년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_SUBTITLE">
+      <Text>프랑스 대통령</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_NAPOLEON_TEXT_1">
+      <Text>제3 공화정 대통령이었던 줄스 그레비는 프랑스의 아프리카 진출을 계획한 민족주의자였다. 그의 계획은 1881년 프랑스의 튀니스 획득으로 시작되었다. 가족과 관련한 추문에 휘말려 물러가지 전까지 그는 개화 정책을 추진하며 "무지몽매한" 아프리카인을 문명화시키는 것이 유럽인의 사명이라고 설파했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_FIRSTGREETING_1">
+      <Text>난 벨기에의 왕 레오폴드요... 인사치레는 관두고, 무슨 일로 오셨소?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_FIRSTGREETING_2">
+      <Text>콩고에 온 걸 환영하오. 시간은 금이니 피차 시간 낭비하지 맙시다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_FIRSTGREETING_3">
+      <Text>콩고에는 무슨 일로 왔소, 친구? 난 레오폴드요. 뭐 협상할 일이 있소?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_LIVED">
+      <Text>1835년 ~ 1909년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_SUBTITLE">
+      <Text>벨기에와 콩고의 왕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_TEXT_1">
+      <Text>유럽 왕 중 유일하게 개인적으로 식민지를 소유했던 레오폴드 2세(1865년 ~ 1909년)는 콩고분지에 살던 여러 부족장으로부터 영토를 이양받았다. 그러나 무자비한 식민지 정책으로 국제적인 반발을 사 벨기에 정부가 왕에게서 콩고를 이양받았다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_WINWAR_1">
+      <Text>본인의 면밀한 지도력으로 콩고는 모든 역경을 순탄히 헤쳐나가고 있소.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_PEDRO_WINWAR_2">
+      <Text>본인의 면밀한 지도력으로 콩고는 모든 역경을 순탄히 헤쳐나가고 있소.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES_FIRSTGREETING_1">
+      <Text>어서 오너라. 난 강력한 이집트와 수단의 통치자 이스마일 파샤라고 한다. 내게 다가오다니 상당한 용기를 지녔구나.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES_FIRSTGREETING_2">
+      <Text>환영한다. 난 이집트와 수단의 이스마일 파샤라고 한다. 당신이 도착하리라고 알라께서 예견하셨다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES_FIRSTGREETING_3">
+      <Text>어서 오너라. 나는 이스마일 파샤라고 한다. 지중해와 홍해를 잇는 수에즈 운하의 지배자이다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES_LIVED">
+      <Text>1830년 ~ 1895년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES_SUBTITLE">
+      <Text>이집트와 수단 총독</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_RAMESSES_TEXT_1">
+      <Text>이스마일 대왕이라고도 알려진 이스마일 파샤는 1867년에 오스만 정부가 공물을 늘려주는 대가로 칙령을 보내 이집트와 수단의 총독이 되었다. 이스마일은 개혁과 도시화 프로그램을 추진했지만 에티오피아와의 전쟁(1875년 ~ 1884년)으로 재정이 바닥나자 새로 개통된 수에즈 운하의 지분을 팔았고, 1895년에 영국 정부가 이집트 재정 상태를 조사한 결과 이스마일은 총독 직에서 사임하게 되었고 이집트는 입헌군주제로 바뀌었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SELASSIE_FIRSTGREETING_1">
+      <Text>어서 오십시오. 저는 시바의 여왕과 에티오피아 황제의 후예인 메넬리크 2세라고 합니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SELASSIE_FIRSTGREETING_3">
+      <Text>평화와 풍요의 땅에 온 것을 환영합니다. 저는 왕 중의 왕 메넬리크 2세라고 합니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SELASSIE_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SELASSIE_LIVED">
+      <Text>1844년 ~ 1913년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SELASSIE_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_SELASSIE}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SELASSIE_SUBTITLE">
+      <Text>에티오피아 황제</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SELASSIE_TEXT_1">
+      <Text>요하네스 4세가 1889년 3월에 데르비시와의 전투에서 사망하자 메넬리크(종종 "에티오피아 근대화의 아버지"라고 불림)가 황제로 등극했다. 황제가 된 지 얼마 후인 1895년, 이탈리아가 조약 문구의 해석 차이를 빌미로 에티오피아를 침공했다. 그러나 메넬리크는 암바 알라기, 메켈레 및 아드와에서 이탈리아군을 상대로 승리했고 결국 이탈리아는 에티오피아의 독립을 인정하는 조약을 맺고 철수했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SHAKA_FIRSTGREETING_1">
+      <Text>줄루 왕국의 지도자 케시와요라고 하오! 무엇 때문에 오셨소?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SHAKA_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SHAKA_LIVED">
+      <Text>1826년 ~ 1884년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SHAKA_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_SHAKA}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SHAKA_SUBTITLE">
+      <Text>줄루 왕국의 왕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SHAKA_TEXT_1">
+      <Text>줄루족 추장 음판데의 아들 케시와요(재위 기간: 1856년 ~ 1879년)가 줄루족이 국경지대에서 벌인 약탈 행위에 대해 배상하라는 영국의 요구를 거절해 전쟁이 일어났다. 비록 전쟁 초기에 벌어진 이산들와나 전투에서 영국군을 무찔렀지만 영국을 비롯한 식민지 군대가 울룬디에 있던 왕의 부족을 포위했고 곧 케시와요를 생포했다. 그는 1883년까지 런던으로 유배되었고, 아프리카로 돌아온 다음 쓸쓸히 세상을 떠났다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN_FIRSTGREETING_1">
+      <Text>이렇게 즐거울 데가! 만나서 반갑소! 나는 위대한 오토만의 지도자 압둘 하미드 2세요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN_FIRSTGREETING_2">
+      <Text>오스만에 온 것을 환영하오, 이방인! 나는 압둘 하미드 2세라고 하오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN_FIRSTGREETING_3">
+      <Text>안녕하시오, 이방인! 나는 오스만의 지도자 술레이만이라고 합니다! 이 만남을 축하하는 의미에서 잔치를 벌입시다!
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN_LIVED">
+      <Text>1842년 ~ 1918년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN_SUBTITLE">
+      <Text>오스만 제국 술탄</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_SULEIMAN_TEXT_1">
+      <Text>오스만 제국의 34대 술탄이자 신실한 칼리프로 알려진 압둘 하미드 2세는 오스만 제국의 아프리카 영토에 영향력을 행사한 마지막 술탄이었다. 1878년 러시아 승리 이후 열린 베를린 회의에서 압둘 하미드는 강제적으로 키프로스를 대영제국에 "대여"하고 영국군이 이집트와 수단의 "치안을 유지하기 위해" 점유하도록 허가했다. 영국은 1922년까지 이집트와 수단을 점유했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_DECLAREWAR_2">
+      <Text>보어 국민이 말했습니다. 당신의 위협으로 말미암아 우리에게는 선택의 여지가 없어졌습니다. 전쟁을 준비하십시오!
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_DEFEATED_3">
+      <Text>우리가 졌습니다. 당분간이지만요. 하지만 보어 공화국은 다시 돌아올 것입니다!
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_FIRSTGREETING_1">
+      <Text>보어 공화국의 국민이 당신을 환영합니다. 당신은 자유의 친구가 맞습니까?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_FIRSTGREETING_2">
+      <Text>보어 공화국 시민을 대신하여 당신을 환영합니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_FIRSTGREETING_3">
+      <Text>보어 공화국에 오신 것을 환영합니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_LIVED">
+      <Text>1825년 ~ 1904년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_NAME">
+      <Text>{TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_OPEN_BORDERS_EXCHANGE_1">
+      <Text>서로 국경을 개방한다면 양국의 우정이 더욱 돈독해지는 데 도움이 될 것입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_SUBTITLE">
+      <Text>남아프리카공화국 대통령</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_TEXT_1">
+      <Text>사람들이 애정을 담아 "옴 파울"이라고 부르는 스테파누스 파울루스 크루거는 트랜스발 공화국의 대통령(1883년 ~ 1900년)이었고 남아프리카에서 영국의 식민지 운동에 저항한 보어 지도자로 국제적인 명성을 쌓았다. 뛰어난 군사지도자였던 크루거는 협상에도 능해 1881년에 1차 앵글로-보어 전쟁을 끝냈다. 네 번째로 대통령이 된 크루거는 2차 보어전쟁에서 영국군이 수도로 진군하자 망명길에 올랐고 다시는 아프리카로 돌아오지 못했다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>지금 상태로는 이 거래가 보어 공화국에 도움이 될 것으로 생각하기 어렵습니다. 더 나은 제안을 할 생각은 없습니까?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_TRADE_YES_NEUTRAL">
+      <Text>보어 공화국은 당신의 제의를 받아들이겠습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_TRADEREQUEST_HAPPY">
+      <Text>안녕하십니까. 보어 공화국과 다음 거래를 할 의향이 있습니까?
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_TRIBUTE_NO_HAPPY">
+      <Text>아무리 친구라고 해도 이렇게 쉽게 우리 보물을 내줄 순 없습니다. 난 폭군이 아니기에 보어 공화국 국민에게 타당한 설명을 해줘야 할 의무가 있습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LEADER_WASHINGTON_WINWAR_1">
+      <Text>보어 공화국을 하찮게 보면 안 된다는 사실을 배웠으리라 믿겠습니다!
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_LONGER_RR">
+      <Text>{1_CivName}{1: plural 1?이; 2?가;} 가장 긴 철도를 연장했습니다. 현재 가장 긴 철도 연결은 {2_CityName}에서 {3_CityName} 사이(총 {4_Length}타일)입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_N_AFRICAN_TITLE">
+      <Text>{2_CivName:textkey}의 통치자 {1_PlayerName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_NEW_LONGEST_RR_PLAYER">
+      <Text>현재 아프리카에서 가장 긴 철도는 {2_CityName}에서 {3_CityName} 사이(총 {4_Length}타일)입니다. 가장 긴 철도를 건설한 {5_CivName} 문명이 승점 {4_VPAmount}점을 획득했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_CANNOT_UNLOCK">
+      <Text>[COLOR_NEGATIVE_TEXT]아프리카 쟁탈전 시나리오에서는 다른 사회 정책 계열을 선택할 수 없습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_EUROPEAN">
+      <Text>유럽</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_HONOR_CAP">
+      <Text>사하라 이남</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_HONOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]사하라 이남[ENDCOLOR][NEWLINE][NEWLINE]야만인을 제외한 유닛을 처치할 때마다 [ICON_CULTURE]문화를 획득합니다. 도시에 작가, 예술가, 음악가 길드를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_LIBERTY_CAP">
+      <Text>북아프리카</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_LIBERTY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]북아프리카[ENDCOLOR][NEWLINE][NEWLINE]유닛을 처치할 때마다 [ICON_GOLD]골드를 획득합니다. 작가, 예술가, 음악가 길드를 건설할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_N_AFRICAN">
+      <Text>북아프리카</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_SUB_SAHARAN">
+      <Text>사하라 이남</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_TRADITION_CAP">
+      <Text>유럽</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_BRANCH_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]유럽[ENDCOLOR][NEWLINE][NEWLINE]우호 지역에 있는 전투 유닛이 체력을 회복합니다. 작가, 예술가, 음악가 길드를 건설할 수 없습니다. 개척자를 제외한 지상 군사 유닛의 [COLOR_NEGATIVE_TEXT]시야가 1 감소[ENDCOLOR]합니다. 작가 길드, 예술가 길드 또는 음악가 길드를 건설할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E1">
+      <Text>고급 공성 전략</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]고급 공성 전략[ENDCOLOR][NEWLINE]전투 유닛이 도시를 공격할 때 30%의 전투 보너스를 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E2">
+      <Text>효과적 점령 전술</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]효과적 점령 전술[ENDCOLOR][NEWLINE]전투 유닛이 강화된 유닛을 공격할 때 30%의 전투 보너스를 획득합니다. 정복한 모든 도시에 법원을 무료로 지을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E3">
+      <Text>세력권</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]세력권[ENDCOLOR][NEWLINE]타일 구매 비용이 평소보다 50% 적게 들며 유닛 구매 비용이 평소보다 33% 적게 듭니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E4">
+      <Text>식민주의</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E4_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]식민주의[ENDCOLOR][NEWLINE]타일 시설 건설 속도가 25% 빨라집니다. [ICON_CAPITAL]수도 주위에 개척자 3명이 출현합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E5">
+      <Text>무역조합</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E5_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]무역조합[ENDCOLOR][NEWLINE]도로와 철도 유지 비용이 50% 더 적게 듭니다. 사치 자원 하나마다 2 [ICON_HAPPINESS_1]행복을 추가로 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E6">
+      <Text>자본주의</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_E6_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]자본주의[ENDCOLOR][NEWLINE]모든 육상 및 해상 교역로에서 추가로 1 [ICON_GOLD]골드를 획득합니다.  [ICON_CAPITAL]수도와 [ICON_CONNECTED]연결된 도시마다 [ICON_HAPPINESS_1]행복을 2 추가로 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N1">
+      <Text>사하라의 군대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]사하라의 군대[ENDCOLOR][NEWLINE]사막에서 싸울 때 50%의 전투 보너스를 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N2">
+      <Text>베르베르의 유산</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]베르베르의 유산[ENDCOLOR][NEWLINE]기마 유닛을 훈련할 때 [ICON_PRODUCTION]생산이 25% 증가합니다. 기마 유닛은 위대한 장군도 같은 속도로 움직이는 승급이 부여됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N3">
+      <Text>개선된 공예품</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]개선된 공예품[ENDCOLOR][NEWLINE]모든 시장에서 1 [ICON_GOLD]골드를 추가로 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N4">
+      <Text>징집</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N4_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]징집[ENDCOLOR][NEWLINE]유닛 유지에 필요한 [ICON_GOLD]골드가 33% 더 적게 듭니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N5">
+      <Text>대상</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N5_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]대상[ENDCOLOR][NEWLINE]모든 육상 교역로에서 2의 [ICON_GOLD]골드를 추가로 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N6">
+      <Text>상업 중심지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_N6_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]상업 중심지[ENDCOLOR][NEWLINE] [ICON_CAPITAL]수도에서 추가로 10 [ICON_GOLD]골드를 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_S2">
+      <Text>민족주의</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_S2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]민족주의[ENDCOLOR][NEWLINE]당신의 영역에서 15%의 전투 보너스를 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_S4">
+      <Text>순수 예술</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_S4_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]순수 예술[ENDCOLOR][NEWLINE]매 턴마다 초과된 [ICON_HAPPINESS_1]행복의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 [ICON_CULTURE]문화에 추가됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_S5">
+      <Text>천재</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_S5_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]천재[ENDCOLOR][NEWLINE]당신이 선택한 위인이 [ICON_CAPITAL]수도 근처에 나타납니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_S6">
+      <Text>문화 센터</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_POLICY_S6_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]문화 센터[ENDCOLOR][NEWLINE]걸작 하나마다 [ICON_CULTURE]문화를 5만큼 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_SOLOMONS_MINES_FOUND">
+      <Text>솔로몬 왕의 광산을 찾았습니다! 이 위대한 발견으로 승점 {1_VPAmount} 점을 얻었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_SOLOMONS_MINES_FOUND_OTHER">
+      <Text>{1_CivName}의 탐험가가 솔로몬 왕의 광산을 찾았습니다. 해당 문명은 승점 {2_VPAmount}점을 획득합니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_SOURCE_NILE_FOUND">
+      <Text>나일강의 수원을 찾았습니다! 이 위대한 발견으로 승점 {1_VPAmount}점을 얻었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_SOURCE_NILE_FOUND_OTHER">
+      <Text>{1_CivName}의 탐험가가 나일강의 수원을 찾았습니다. 해당 문명은 승점 {2_VPAmount}점을 획득합니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_STELE_STRATEGY">
+      <Text>스텔레는 도시의 [ICON_CULTURE]문화를 늘리는 고유 기념비 건물입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_SUB_SAHARAN_TITLE">
+      <Text>{2_CivName:textkey}의 용사 {1_PlayerName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_TITLE">
+      <Text>아프리카 쟁탈전</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_TURNS_REMAINING">
+      <Text>남은 턴 : {1_TurnsRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_VP_SCENARIO1">
+      <Text>가장 긴 철도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_VP_SCENARIO2">
+      <Text>탐험/유물</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_VP_SCENARIO3">
+      <Text>북아프리카의 금</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_VP_SCENARIO4">
+      <Text>사하라 이남 문화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_VP_WONDERS">
+      <Text>수에즈 운하</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIFIC_DIPLO_STRING_1">
+      <Text>당신 땅은 우리 것이오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_BOER">
+      <Text>농장에서 얻을 수 있는 [ICON_CULTURE]문화와 [ICON_FOOD]식량이 1 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_BOER_SHORT">
+      <Text>대이주</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_CONNECTION_BOOST">
+      <Text>대상 숙소와 항만에서 얻을 수 있는 교역로 [ICON_GOLD]골드 보너스가 두 배로 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_CONNECTION_BOOST_SHORT">
+      <Text>무하마드 알리의 유산</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CULTURE_BONUS">
+      <Text>도시를 건설할 때 추가 영토를 가지고 시작합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CULTURE_BONUS_SHORT">
+      <Text>제3 공화국</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_GUNBOAT_DIPLOMACY">
+      <Text>공물을 요구할 수 있는 도시 국가와의 [ICON_INFLUENCE]영향력이 턴마다 9 증가합니다. 당신의 유닛이 침입해도 도시 국가와의 관계가 약화되지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_GUNBOAT_DIPLOMACY_SHORT">
+      <Text>포함 외교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_INDIAN_FAST_WORKERS">
+      <Text>타일 시설 건설 속도가 두 배 빨라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_INDIAN_FAST_WORKERS_SHORT">
+      <Text>로도스의 거상</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_NORDIC_GENETICS">
+      <Text>승선한 유닛의 [ICON_MOVES]이동력이 1 증가하며 상륙하는데 이동력을 1만 사용합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_NORDIC_GENETICS_SHORT">
+      <Text>지중해의 지배자 로마</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OLD_ZULU">
+      <Text>더 높은 기술을 요구하는 적 유닛과 싸울 때 25%의 전투 보너스를 획득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OLD_ZULU_SHORT">
+      <Text>일식</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_SUPERFAST_RIVERS">
+      <Text>강과 강에 인접한 험준한 지형을 이동에 사용할 수 있는 지역으로 취급합니다. 강은 일종의 도로 역할을 하여 육상 교역로를 연장합니다. 재배지의 [ICON_PRODUCTION]생산이 2 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_SUPERFAST_RIVERS_SHORT">
+      <Text>강 증기선</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BRANDENBURG_CLASS_STRATEGY">
+      <Text>철갑함을 대체하는 독일 유닛입니다. 전투력이 더 강해 도시 국가의 영향력을 확보하는 데 효과적입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CAIO_DUILIO_CLASS_STRATEGY">
+      <Text>철갑함을 대체하는 이탈리아 유닛입니다. 도시 공격력이 상승하는 해안 침입자 승급이 부여됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_DERVISH_CAVALRY_STRATEGY">
+      <Text>기병대를 대체하는 이집트 유닛입니다. 승급을 통해 위대한 장군을 더 빨리 생산할 수 있으며, 개활지에서 더욱 잘 싸웁니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_EXPLORER_STRATEGY">
+      <Text>고고학자를 대체하는 유럽 유닛입니다. 고고학자와는 달리 스스로 공격/방어를 할 수 있습니다. 험준한 지형도 일반 지형처럼 이동할 수 있습니다. 대학이 필요하지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FORCE_PUBLIQUE_STRATEGY">
+      <Text>소총병을 대신하는 벨기에 유닛입니다. 험지 승급을 받아 험난한 지형에서 더욱 잘 싸울 수 있습니다.  상처 입은 유닛을 공격할 때 공격력이 상승하는 승급도 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FOREIGN_VOLUNTEERS_STRATEGY">
+      <Text>소총병을 대체하는 보어 공화국 유닛입니다. 일반 소총병보다 공격력은 약하지만 방어력이 강합니다. 적을 처치한 후 부분적으로 회복하기도 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FRENCH_FOREIGNLEGION_STRATEGY2">
+      <Text>외인부대는 소총병을 대체하는 프랑스 고유 유닛입니다. 이 유닛은 자신의 지역 밖에서 운용할 때 더욱 강한 전투 보너스를 받으므로 적의 지역을 공격할 때 효과적입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BRANDENBURG_CLASS">
+      <Text>철갑함은 이 시나리오에서 가장 강한 함선입니다. 독일만 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CAIO_DUILIO_CLASS">
+      <Text>도시 공격에 특화된 철갑함입니다. 이탈리아만 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_DERVISH_CAVALRY">
+      <Text>위대한 장군이 더 자주 출현하도록 도우며 개활지에서 더 잘 싸우는 기병대입니다. 이집트만 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_EXPLORER">
+      <Text>험지에서도 느려지지 않으며 공격력과 방어력이 약한, 특별한 고고학자입니다. 유럽 문명만 생산할 수 있습니다. 대학이 필요하지 않습니다. [COLOR_NEGATIVE_TEXT]이 시나리오의 다른 유닛과 마찬가지로 탐험 명령은 내릴 수 없습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_FORCE_PUBLIQUE">
+      <Text>험준한 지형에서 전투하고 상처입은 유닛을 상대하는 데 특화된 보병 유닛입니다. 벨기에만 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_FOREIGN_LEGION2">
+      <Text>프랑스만 생산할 수 있습니다. 대체하는 소총병과는 달리 우호 지역 밖에서 운용할 때 전투 보너스를 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_FOREIGN_VOLUNTEERS">
+      <Text>방어에 특화된 소총병이며 적을 처치할 때마다 회복합니다. 보어 공화국만 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_RIFLED_CANNON">
+      <Text>대포와 야포의 중간에 해당하는 공성 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_RIFLED_CANNON_STRATEGY">
+      <Text>대포와 야포의 중간에 해당하는 공성 유닛입니다. 사정거리는 3타일이며 설치 후에만 공격할 수 있고, 대포보다 강력합니다. 시야 범위가 다른 유닛보다 좁으므로 다른 유닛으로 보호해야 합니다.</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

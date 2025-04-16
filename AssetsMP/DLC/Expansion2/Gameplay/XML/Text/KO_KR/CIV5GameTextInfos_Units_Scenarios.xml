@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_A_HILL">
+      <Text>앰브로스 P. 힐</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_A_HILL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]초원에서 이동력이 두 배가 됩니다.[ENDCOLOR][NEWLINE][NEWLINE]힐의 '경무장 사단'은 하루 만에 하퍼스페리에서 샤프스버그까지 17마일을 행군하여 남부연합을 구한 것으로 유명합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_A_WILLIAMS">
+      <Text>앨피어스 윌리엄스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_A_WILLIAMS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]시야 범위가 2 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]윌리엄스의 부대는 악명 높은 특별 명령 191(리의 메릴랜드 침공 계획에 대한 자세한 설명)을 여송연 3자루가 든 편지봉투 안에서 발견했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_ANDERSON">
+      <Text>리처드 H. 앤더슨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_ANDERSON_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]숲에서 이동력이 두 배가 됩니다.[ENDCOLOR][NEWLINE][NEWLINE]군단 지휘관이 된 첫날 '스팟실베이니아 경쟁'에서 우위를 차지하여, 요지에서 북부군을 몰아냈습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_B_JOHNSON">
+      <Text>부쇼드 존슨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_B_JOHNSON_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시 방어 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]사우스 캐롤라이나 출신 부대를 이끌고 크레이터 전투에서 건투하여 130명의 포로를 잡았습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_BANKS">
+      <Text>너새니얼 뱅크스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_BANKS_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]시야 범위가 1 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]돌벽 잭슨에게 완벽히 허를 찔려 1862년 셰넌도어 밸리 전투에서 패배하였습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_BRECKINRIDGE">
+      <Text>존 브레킨리지</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_BRECKINRIDGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]개활지 방어 시 [ICON_STRENGTH]전투력이 15% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]1860년에 링컨과 대통령 자리를 두고 경쟁했습니다. 콜드 하버에서 사단을 이끌고 북부연방의 정면 공격에 맞섰습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_CHAMBERLAIN">
+      <Text>조슈아 체임벌린</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_CHAMBERLAIN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]언덕 방어 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]메인 20연대의 지휘관이며, 역사적인 게티즈버그 전투 둘째 날의 리틀 라운드 탑 방어전으로 유명합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_COUCH">
+      <Text>대리어스 카우치</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_COUCH_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시 방어 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]게티즈버그 전투에서 가벼운 훈련을 받은 민병대와 함께 해리스버그를 지켜냈습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_D_HILL">
+      <Text>대니얼 H. 힐</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_D_HILL_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]위대한 장군에게서 보너스를 얻을 수 없습니다.[ENDCOLOR][NEWLINE][NEWLINE]유능한 장군이었지만, 상관과의 잦은 불화로 경력에 문제가 많았습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_DOUBLEDAY">
+      <Text>애브너 더블데이</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_DOUBLEDAY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]개활지 방어 시 [ICON_STRENGTH]전투력이 15% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]야구를 발명한 것으로 가장 유명하지만, 게티즈버그에서 활약한 베테랑 지휘관이기도 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_E_JOHNSON">
+      <Text>에드워드 존슨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_E_JOHNSON_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]숲 방어 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]윌더니스 전투에서 북부군의 공격을 여러 번 막아내어, 리는 그를 군단 지휘관으로 승격시키는 것을 고려했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_EARLY">
+      <Text>주발 얼리</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_EARLY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]적 지역에서 턴마다 체력이 10 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]전쟁 후반부에 워싱턴을 급습하여, 방어 병력이 얼마 없는 수도를 거의 점령할 뻔 했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_EWELL">
+      <Text>리처드 이월</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_EWELL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]아군 또는 적의 영역 밖에서 턴마다 체력이 10 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]게티즈버그 전투에서 남부연합군을 이끌고 펜실베이니아로 진격하여 해리스버그를 거의 점령할 뻔 했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_FIELD">
+      <Text>찰스 필드</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_FIELD_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]개활지를 공격할 때 [ICON_STRENGTH]전투력이 15% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]딥 보톰 전투에서 치열한 반격에 맞서 리치먼드를 지켜냈습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_FRANKLIN">
+      <Text>윌리엄 프랭클린</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_FRANKLIN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]바다에서 공격하거나 강을 넘어 공격할 때의 전투 불이익을 없앱니다.[ENDCOLOR][NEWLINE][NEWLINE]북부연방군에서 상륙작전 특별 훈련을 받은 보병 부대를 지휘했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_GIBBON">
+      <Text>존 기본</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_GIBBON_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]초원에서 이동력이 두 배가 됩니다.[ENDCOLOR][NEWLINE][NEWLINE]21시간 동안 30마일(약 48킬로미터)를 행군하여 셰리던을 지원했습니다. 리의 군대를 아포마톡스에서 움직일 수 없게 하고 버지니아 전투를 끝냈습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_GORDON">
+      <Text>존 고든</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_GORDON_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]숲 공격 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]윌더네스에서 협공에 성공했습니다. 일찍 시작했다면 전투의 흐름이 바뀌었을 것입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_GREEN">
+      <Text>그린</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_GREEN_CONFEDERATE_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT][ICON_STRENGTH]전투력이 20% 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]첫 전투를 마친 후 무작위로 선출(승급)된 새 남부연합 장군에게 지휘관 자리를 빼앗겼습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_GREEN_UNION_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT][ICON_STRENGTH]전투력이 20% 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]첫 전투를 마친 후 무작위로 선출(승급)된 새 북부연방 장군에게 지휘관 자리를 빼앗겼습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_H_WRIGHT">
+      <Text>호레이쇼 라이트</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_H_WRIGHT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]약탈할 때 이동력을 소모하지 않습니다.[ENDCOLOR][NEWLINE][NEWLINE]북부군 제6군단을 이끌고 셰리던의 섀넌도어 밸리에 참가하여 비옥한 농토를 잿더미로 만들었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HANCOCK">
+      <Text>윈필드 핸콕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HANCOCK_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]개활지 방어 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]게티즈버그 전투 중에 존 레이놀즈 중령이 전사한 후 세메터리 리지에서 북부연방의 방어진을 구축했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HEINTZELMAN">
+      <Text>새뮤얼 하인첼먼</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HEINTZELMAN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]수도에서 전투 시 전투력이 30% 상승합니다. 유닛이 수도에서 멀어지면 보너스가 사라집니다.[ENDCOLOR][NEWLINE][NEWLINE]야전에서 평범한 전적을 거둔 뒤, 전쟁의 균형을 위해 워싱턴 방어를 담당했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HETH">
+      <Text>헨리 헤스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HETH_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]시야 범위가 1 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]정찰 원정군의 신발을 찾아 게티즈버그에 진입한 것이 대규모 전투의 시작이 되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HOKE">
+      <Text>로버트 호크</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HOKE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시 공격 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]노스 캐롤라이나 플리머스에서 거둔 남부연합의 마지막 승리에서 3,000명의 북부연합 수비대를 포로로 잡았습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HOLMES">
+      <Text>테오필러스 홈즈</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HOLMES_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]이동력이 1 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]50대 후반의 나이에다 기억 상실에 시달리고 있던 이 지휘관이 전쟁에서 맡은 역할은 해안 수비대 지휘였습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HOOD">
+      <Text>존 벨 후드</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HOOD_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]턴마다 한 번 추가로 공격합니다.[ENDCOLOR][NEWLINE][NEWLINE]남부연합에서 가장 공격적인 지휘관이었습니다. 그의 공격 방침 탓에 전쟁 후반부에 테네시 군은 파멸하게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HOWARD">
+      <Text>올리버 하워드</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HOWARD_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]험지 방어 시 [ICON_STRENGTH]전투력이 15% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]1863년에 챈슬러즈빌과 게티즈버그 전투에서 성공을 거두었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HUGER">
+      <Text>벤자민 휴거</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HUGER_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]도시 방어 시 [ICON_STRENGTH]전투력이 30% 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]펜실베이니아 전투 초기에 노포크로 피난하였기에, 남부연합은 철갑함 CSS 버지니아를 침몰시킬 수밖에 없었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HUMPHREYS">
+      <Text>앤드류 험프리즈</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_HUMPHREYS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]언덕 공격 시 [ICON_STRENGTH]전투력이 30% 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]프레데릭스버그 마리의 고지 공격에서 북부연방군 중 최고의 공적을 올렸습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_JACKSON">
+      <Text>토머스 잭슨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_JACKSON_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]측면 공격 시 전투력이 50% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]제1차 불런 전투에서 '돌벽'이라는 별명을 얻은 그는 제2차 불런 전투와 챈슬러빌 전투에서 결정적인 협공을 이끌었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_LONGSTREET">
+      <Text>제임스 롱스트리트</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_LONGSTREET_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지에서 공격 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE] 윌더네스 전투 중에 남부연합군을 이끌고 울창한 숲 속을 가로질러 반격하여 최고의 공적을 세웠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MAGRUDER">
+      <Text>존 매그루더</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MAGRUDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]습지 방어 시 [ICON_STRENGTH]전투력이 100% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE] 버지니아 반도의 습지 방어 시, 대규모의 군대를 이끌고 있는 것처럼 북부연방군을 속였습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MAHONE">
+      <Text>윌리엄 마혼</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MAHONE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]수도에서 전투 시 전투력이 30% 상승합니다. 유닛이 수도에서 멀어지면 보너스가 사라집니다.[ENDCOLOR][NEWLINE][NEWLINE]크레이터 전투의 영웅입니다. 피터스버그 방어선 밑으로 터널을 뚫으려던 북부연방군의 노력은 불행한 결말로 끝났습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MANSFIELD">
+      <Text>조셉 맨즈필드</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MANSFIELD_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]숲 공격 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]앤티텀의 웨스트우즈에서 대담한 공격을 펼쳤으나 전사하였습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MCLAWS">
+      <Text>라파이엣 맥로즈</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MCLAWS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]언덕 방어 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]프레데릭스버그 전투에서 마리의 고지 방어군과 격렬하게 싸웠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_PATTERSON">
+      <Text>로버트 패터슨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_PATTERSON_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]이동력이 1 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]윈체스터에서 조 존스턴의 군대를 막아내지 못했다는 오명을 쓰고 제1차 불런 전투가 끝나자마자 제대하였습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_PICKETT">
+      <Text>조지 피켓</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_PICKETT_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]개활지 공격 시 [ICON_STRENGTH]전투력이 15% 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]게티즈버그 전투 3일째, 남부연합군의 패배에 결정적인 역할을 한 '피켓 돌격'으로 유명한 사람입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_PORTER">
+      <Text>피츠 존 포터</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_PORTER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]습지 방어 시 [ICON_STRENGTH]전투력이 50% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]게인즈 밀 전투에서 우월한 적군을 상대로 북부군의 오른쪽 측면을 방어했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_POTTER">
+      <Text>로버트 포터</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_POTTER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]강화된 유닛과 전투 시 [ICON_STRENGTH] 공격력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]포터의 사단에는 적진 밑으로 터널을 뚫어 폭발물을 설치하는 데 전문적인 재능을 지닌, 전직 석탄 광부로 구성된 펜실베이니아 48연대도 있었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_REYNOLDS">
+      <Text>존 레이놀즈</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_REYNOLDS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지에서 방어 시 [ICON_STRENGTH] 공격력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]제2차 불런 전투에서 헨리 하우스 힐 방어군과 격렬하게 싸웠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_RODES">
+      <Text>로버트 로즈</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_RODES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]측면 공격 시 전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]챈슬러빌 전투에서 잭슨 협공대의 제1파를 지휘하여 잭슨 장군의 전설을 만드는 데 큰 공을 세웠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SEDGWICK">
+      <Text>존 세즈윅</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SEDGWICK_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]보병과의 전투 시 [ICON_STRENGTH]전투력이 15% 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]이 거리에서는 코끼리라도 맞힐 수 없을 것이라고 말한 직후 남부연합군 저격수에게 사살당했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SICKLES">
+      <Text>대니얼 시클즈</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SICKLES_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]개활지 방어 시 [ICON_STRENGTH]전투력이 15% 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]게티즈버그에서 피치 오처드로 진군하여, 세 방향에서 공격을 받는 위험에 빠졌습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SIGEL">
+      <Text>프란츠 시겔</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SIGEL_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]위대한 장군에게서 보너스를 얻을 수 없습니다.[ENDCOLOR][NEWLINE][NEWLINE]독일 이민자 출신 병사에게 인기가 많아 제11군단을 지휘하게 되었으며, 언제나 중요도가 덜한 전장에 머물렀습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SLOCUM">
+      <Text>헨리 슬로컴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SLOCUM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]도시 공격 시 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]행군을 망설일 때가 많아 '슬로 컴(느리게 온다)'이라는 별명이 붙었지만, 셔먼의 애틀랜타 공격 시 도시를 점령하였습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SMITH">
+      <Text>윌리엄 스미스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SMITH_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]승선한 유닛으로 방어 시 전투력이 두 배가 됩니다.[ENDCOLOR][NEWLINE][NEWLINE]채터누가 전투 중에 브라운즈 페리 상륙작전을 계획하고 성공적으로 실행했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SUMNER">
+      <Text>에드윈 서머</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_SUMNER_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]개활지 방어 시 [ICON_STRENGTH]전투력이 15% 감소합니다.[ENDCOLOR][NEWLINE][NEWLINE]앤티텀과 프레데릭스버그에서 군단을 이끌었으나, 두 번 다 처참한 병력 손실을 맛보아야 했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_UPTON">
+      <Text>에모리 업튼</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_UPTON_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]개활지 공격 시 [ICON_STRENGTH]전투력이 15% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]스팟실베이니어 코트 하우스에서 밀집종대로 적군의 방어선을 뚫고 들어가는 새로운 공격법을 시도했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_WARREN">
+      <Text>거버너 워렌</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_WARREN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]험지 방어 시 [ICON_STRENGTH]전투력이 15% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]게티즈버그 전투 중, 세메터리 리지에서 리틀 라운드 탑까지를 누비며 남부연방의 방어군을 격파했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_WHITING">
+      <Text>체이스 와이팅</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_WHITING_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]포병 유닛을 상대로 [ICON_STRENGTH]전투력이 30% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]부대를 이끌고 제1차 불런 전투에서 북부연방 리켓의 포대를 점령했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_WINDER">
+      <Text>찰스 와인더</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_WINDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]이동력이 1 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]이 지휘관의 부대는 오래 행군하기로 유명한 잭슨 군단의 정예병인 '보병 기병대' 구성원 중 일부였습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_WRIGHT">
+      <Text>앰브로스 라이트</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_WRIGHT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]물 타일 위로 승선할 수 있습니다.[ENDCOLOR][NEWLINE][NEWLINE]남부연합군에서는 드문 상륙작전을 펼쳐 노스캐롤라이나의 로아노크 섬을 지원하여, 북부연방의 공격을 막아냈습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_BLOCKADE_RUNNER">
+      <Text>밀항선</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_BLOCKADE_RUNNER_HELP">
+      <Text>골드로 교환할 수 있는 남부연합 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_BLOCKADE_RUNNER_STRATEGY">
+      <Text>남부연합만 생산할 수 있습니다. 지도의 동쪽 끝으로 밀항선을 움직이면 골드를 얻을 수 있으며, 이후 밀항선은 자동으로 해체됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CANNON">
+      <Text>CSA 대포</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CANNON_HELP">
+      <Text>남북전쟁의 기본 포병 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CANNON_STRATEGY">
+      <Text>남북전쟁의 기본 포병 유닛입니다. 근처에 있는 유닛에 매우 효과적입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CARBINE_CAVALRY">
+      <Text>CSA 카빈총 기병대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CARBINE_CAVALRY_HELP">
+      <Text>일반 기병대보다 전투력이 두 배 높은 강력한 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CARBINE_CAVALRY_STRATEGY">
+      <Text>남북전쟁에서 가장 강력한 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CAVALRY">
+      <Text>CSA 기병대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CAVALRY_HELP">
+      <Text>남북전쟁의 기본 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_CAVALRY_STRATEGY">
+      <Text>남북전쟁의 기본 기마 유닛입니다. 기관총 기술을 연구하면 카빈총 기병대로 업그레이드할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_INFANTRY_CORPS">
+      <Text>CSA 보병 군단</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_INFANTRY_CORPS_HELP">
+      <Text>남북전쟁 중 양측이 더 큰 부대를 편성하기 시작하며 탄생한 최전선 근접 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_INFANTRY_CORPS_STRATEGY">
+      <Text>남북전쟁에서 가장 강력한 근접 유닛입니다. 보병 사단을 업그레이드해야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_INFANTRY_DIVISION">
+      <Text>CSA 보병 사단</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_INFANTRY_DIVISION_HELP">
+      <Text>남북전쟁 중 양측이 더 큰 부대(보병 군단)를 편성하기 전에 등장하는 최전선 근접 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_INFANTRY_DIVISION_STRATEGY">
+      <Text>남북전쟁의 기본 근접 유닛입니다. 군사학 기술을 연구하고 병력과 골드가 충분하다면 보병 사단을 보병 군단으로 업그레이드하여 화력을 강화할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_RIFLED_CANNON">
+      <Text>CSA 선조포</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_RIFLED_CANNON_HELP">
+      <Text>사정거리가 증가한 고급 포병 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CONFED_RIFLED_CANNON_STRATEGY">
+      <Text>사정거리가 3타일인 남북전쟁의 고급 포병 유닛입니다. 적 포병 유닛을 제압할 때 사용하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_FRIGATE">
+      <Text>프리깃</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_FRIGATE_HELP">
+      <Text>북부연방의 기본 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_FRIGATE_STRATEGY">
+      <Text>남북전쟁 시대에는 이미 구식이 된 기본 해상 유닛입니다. 북부연방만 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_GATLING_GUN">
+      <Text>개틀링 기관총</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_GATLING_GUN_HELP">
+      <Text>남북전쟁 말기에 등장한 고급 대인 화기입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_GATLING_GUN_STRATEGY">
+      <Text>남북전쟁 말기에 등장한 원거리 유닛입니다. 근거리 공격을 견뎌내고 근접한 유닛에 심각한 피해를 줄 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_IRONCLAD">
+      <Text>철갑함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_IRONCLAD_HELP">
+      <Text>남부연합의 고유 해상 유닛입니다. 북부연방 프리깃보다 월등히 강합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_IRONCLAD_STRATEGY">
+      <Text>남부연합만 생산할 수 있습니다. 느리지만 놀라울 정도로 강한 해상 유닛이며, 북부연방의 프리깃을 간단히 격파할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_MONITOR">
+      <Text>모니터</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_MONITOR_HELP">
+      <Text>북부연방의 고유 해상 유닛입니다. 남부연합의 철갑함에 맞설 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_MONITOR_STRATEGY">
+      <Text>북부연방만 생산할 수 있습니다. 남부연합의 밀항선을 쉽게 격파하고 철갑함에 맞설 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CANNON">
+      <Text>USA 대포</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CANNON_HELP">
+      <Text>남북전쟁의 기본 포병 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CANNON_STRATEGY">
+      <Text>남북전쟁의 기본 포병 유닛입니다. 근처에 있는 유닛에 매우 효과적입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CARBINE_CAVALRY">
+      <Text>USA 카빈총 기병대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CARBINE_CAVALRY_HELP">
+      <Text>일반 기병대보다 전투력이 두 배 높은, 강력한 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CARBINE_CAVALRY_STRATEGY">
+      <Text>남북전쟁에서 가장 강력한 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CAVALRY">
+      <Text>USA 기병대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CAVALRY_HELP">
+      <Text>남북전쟁의 기본 기마 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_CAVALRY_STRATEGY">
+      <Text>남북전쟁의 기본 기마 유닛입니다. 기관총 기술을 연구하면 카빈총 기병대로 업그레이드할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_INFANTRY_CORPS">
+      <Text>USA 보병 군단</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_INFANTRY_CORPS_HELP">
+      <Text>남북전쟁 중 양측이 더 큰 부대를 편성하기 시작하며 탄생한 최전선 근접 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_INFANTRY_CORPS_STRATEGY">
+      <Text>남북전쟁에서 가장 강력한 근접 유닛입니다. 보병 사단을 업그레이드해야 사용할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_INFANTRY_DIVISION">
+      <Text>USA 보병 사단</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_INFANTRY_DIVISION_HELP">
+      <Text>남북전쟁 중 양측이 더 큰 부대(보병 군단)를 편성하기 전에 등장하는 최전선 근접 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_INFANTRY_DIVISION_STRATEGY">
+      <Text>남북전쟁의 기본 근접 유닛입니다. 군사학 기술을 연구하고 병력과 골드가 충분하다면 보병 사단을 보병 군단으로 업그레이드하여 화력을 강화할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_RIFLED_CANNON">
+      <Text>USA 선조포</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_RIFLED_CANNON_HELP">
+      <Text>사정거리가 증가한 고급 포병 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_UNION_RIFLED_CANNON_STRATEGY">
+      <Text>사정거리가 3타일인 남북전쟁의 고급 포격 유닛입니다. 적 포병 유닛을 제압할 때 사용하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_WORKER">
+      <Text>공병</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_ANDERSON">
+      <Text>벤자민 앤더슨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_BAKER">
+      <Text>사무엘 베이커</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_BARTH">
+      <Text>하인리히 바르트</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_BRAZZA">
+      <Text>피에르 사보르냥 드 브라자</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_BURNHAM">
+      <Text>프레드릭 번햄</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_BURTON">
+      <Text>리차드 프랜시스 버튼</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_CAILLIE">
+      <Text>르네 까이에</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_CAPELO">
+      <Text>에르메네힐도 까펠로</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_CHAILLU">
+      <Text>폴 뒤 샤이</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_CLAPPERTON">
+      <Text>휴 클래퍼턴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_DENHAM">
+      <Text>딕슨 덴햄</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_DUVEYRIER">
+      <Text>앙리 뒤베이리에</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_ELTON">
+      <Text>제임스 엘튼</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_GESSI">
+      <Text>로몰로 제시</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_HOLUB">
+      <Text>에밀 홀루브</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_IVENS">
+      <Text>로베르토 이벤스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_KINGSLEY">
+      <Text>메리 킹슬리</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_KIRK">
+      <Text>존 커크</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_KRAPF">
+      <Text>요한 크라프</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_LANDER">
+      <Text>리처드 랜더</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_LENZ">
+      <Text>오스카 렌츠</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_LERMAN">
+      <Text>드라구틴 레먼</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_LIVINGSTON">
+      <Text>데이비드 리빙스턴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_LUGARD">
+      <Text>프레드릭 루가드</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_MEYER">
+      <Text>한스 마이어</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_MOHUN">
+      <Text>리처드 모훈</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_NACHTIGAL">
+      <Text>구스타프 나흐티갈</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_PETERS">
+      <Text>칼 피터스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_POTAGOS">
+      <Text>파나이오티스 포타고스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_REBMANN">
+      <Text>요하네스 레프만</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_ROHLFS">
+      <Text>프리드리히 롤프스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_SCHWEINFURTH">
+      <Text>조지 슈바인푸르트</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_SELJAN">
+      <Text>미르코 셀잔</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_SELOUS">
+      <Text>프레드릭 셀루스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_SERPA_PINTO">
+      <Text>알렉산드레 드 세르파 핀투</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_SILVA_PORTO">
+      <Text>안토니오 다 실바 포르투</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_SPEKE">
+      <Text>존 해닝 스피크</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_STAIRS">
+      <Text>윌리엄 스테어스</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_STANLEY">
+      <Text>앙리 M. 스탠리</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_TINNE">
+      <Text>알렉상드렝 티나</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORER_VOGEL">
+      <Text>에두아르트 보겔</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BRANDENBURG_CLASS">
+      <Text>브란덴부르크급</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CAIO_DUILIO_CLASS">
+      <Text>카이오 둘리오급</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_DERVISH_CAVALRY">
+      <Text>데르비시 기병대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_EXPLORER">
+      <Text>탐험가</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FORCE_PUBLIQUE">
+      <Text>공안군</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FOREIGN_VOLUNTEERS">
+      <Text>외인 자원 부대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_RIFLED_CANNON">
+      <Text>선조포</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+  </Language_KO_KR>
+</GameData>

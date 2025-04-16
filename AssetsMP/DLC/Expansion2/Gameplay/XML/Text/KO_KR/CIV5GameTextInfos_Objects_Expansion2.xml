@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_ARTIFACT_ANCIENT_CAMP">
+            <Text>도기 파편</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_ANCIENT_CITY">
+            <Text>가면</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_ANCIENT_MELEE_1">
+            <Text>도끼날</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_ANCIENT_MELEE_2">
+            <Text>방패</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_ANCIENT_RANGED">
+            <Text>화살촉</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_ANCIENT_RUIN">
+            <Text>구슬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_CLASSICAL_CAMP">
+            <Text>동전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_CLASSICAL_CITY">
+            <Text>목걸이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_CLASSICAL_MELEE_1">
+            <Text>창 끄트머리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_CLASSICAL_MELEE_2">
+            <Text>무릎 보호대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_CLASSICAL_RANGED">
+            <Text>자벨린 끄트머리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_CLASSICAL_RUIN">
+            <Text>부적</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_MEDIEVAL_CAMP">
+            <Text>바이킹 롱십</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_MEDIEVAL_CITY">
+            <Text>의식용 잔</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_MEDIEVAL_MELEE_1">
+            <Text>단검</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_MEDIEVAL_MELEE_2">
+            <Text>가슴갑옷</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_MEDIEVAL_RANGED">
+            <Text>석궁 화살</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_MEDIEVAL_RUIN">
+            <Text>펜던트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_OTHER_ERA_CAMP">
+            <Text>벨트 버클</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_OTHER_ERA_CITY">
+            <Text>귀걸이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_OTHER_ERA_MELEE_1">
+            <Text>총알</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_OTHER_ERA_MELEE_2">
+            <Text>기병도</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_OTHER_ERA_RANGED">
+            <Text>포탄 탄피</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_OTHER_ERA_RUIN">
+            <Text>소형 조각상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_RENAISSANCE_CAMP">
+            <Text>스페인 금화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_RENAISSANCE_CITY">
+            <Text>왕관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_RENAISSANCE_MELEE_1">
+            <Text>양손검</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_RENAISSANCE_MELEE_2">
+            <Text>판금 갑옷</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_RENAISSANCE_RANGED">
+            <Text>대포알</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ARTIFACT_RENAISSANCE_RUIN">
+            <Text>조각상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG">
+            <Text>[LINK=IMPROVEMENT_ARCHAEOLOGICAL_DIG]고고학 발굴 현장[\LINK] 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP">
+            <Text>[LINK=IMPROVEMENT_BRAZILWOOD_CAMP]브라질 소방목 벌목장[\LINK] 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_CHATEAU">
+            <Text>[LINK=IMPROVEMENT_CHATEAU]샤토[\LINK] 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_FEITORIA">
+            <Text>[LINK=IMPROVEMENT_FEITORIA]페이토리아[\LINK] 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_KASBAH">
+            <Text>[LINK=IMPROVEMENT_KASBAH]카스바[\LINK] 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYVIEW_GREAT_WORK_BUILDINGS_TEXT">
+            <Text>걸작 건물</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FEATURE_KILIMANJARO">
+            <Text>킬리만자로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_FEATURE_LAKE_VICTORIA">
+            <Text>빅토리아 호수</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_FEATURE_SOLOMONS_MINES">
+            <Text>솔로몬 왕의 광산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_GIRL_WITH_PEARL_EARRING">
+            <Text>진주 귀걸이를 한 소녀</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_HENRY_VIII">
+            <Text>헨리 8세</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_1812_OVERTURE">
+            <Text>1812년 서곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_A_BAR_AT_THE_FOLIES">
+            <Text>폴리베르제에 있는 한 술집</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_A_CHRISTMAS_CAROL">
+            <Text>크리스마스 캐롤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_A_LA_RECHERCHE">
+            <Text>잃어버린 시간을 찾아서</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_A_THOUSAND_LI">
+            <Text>천리강산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ABHIJNANASAKUTALAM">
+            <Text>샨투카라에 대하여</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ADORATION">
+            <Text>아기 예수에게 경배하는 동방박사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ADVENTURES_OF_HUCKLEBERRY">
+            <Text>허클베리핀의 모험</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_AENEID">
+            <Text>아에네이드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_AGNUS_DEI">
+            <Text>주님의 어린 양</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_AL_CAPONE">
+            <Text>알 카포네</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ALICES_ADVANTURES">
+            <Text>이상한 나라의 앨리스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ALONG_THE_RIVER">
+            <Text>청명상하도</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ALSO_SPRACH_ZARATHUSTRA">
+            <Text>차라투스트라는 이렇게 말했다</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_AMERICAN_GOTHIC">
+            <Text>미국 고딕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ANA_HAWEET">
+            <Text>아나 하위트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_APPRECIATING_LOTUSES">
+            <Text>주무숙 사랑연그림</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ARRANGEMENT_IN_GREY">
+            <Text>흑백화 : 화가 어머니의 초상화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_AT_THE_EDGE_OF_THE_BROOK">
+            <Text>개울가 끝에서</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ATTACK_ON_BEIJING">
+            <Text>의화단 운동 중 공격당하는 베이징 성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_AVE_MARIS">
+            <Text>아베 마리스 스텔라</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_AZUL">
+            <Text>아줄</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BABEL">
+            <Text>바벨탑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BAKHSHALI">
+            <Text>바크샬리 사본</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BALL_AT_THE_MOULIN">
+            <Text>물랑 루즈 연회장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BARRACK_ROOM_BALLADS">
+            <Text>병영의 발라드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BINDO_ALTOVITI">
+            <Text>빈도 알토비티의 초상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BIRTH_OF_VENUS">
+            <Text>비너스의 탄생</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BLUE_BOY">
+            <Text>파란 옷을 입은 소년</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BONJOUR_MON_COEUR">
+            <Text>안녕, 내 사랑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BRANDENBERG_CONCERTOS">
+            <Text>브란덴부르크 협주곡(세 번 협주곡, G 메이저)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_BREEZING_UP">
+            <Text>거센 바람(순풍)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CANDIDE_OU_LOPTIMISME">
+            <Text>캉디드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CANTERBURY_TALES">
+            <Text>캔터베리 이야기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CAPRICE_NO_24">
+            <Text>광상곡 24번 A 단조</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CARAVAN">
+            <Text>카라반</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CATHEDRALE_ENGLOUTIE">
+            <Text>침수된 대성당</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CEREMONIAL_SITTING">
+            <Text>1901년 5월 7일의 국무원 기념식</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CHAYKA">
+            <Text>갈매기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CHILDS_BATH">
+            <Text>목욕하는 아기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CHU_CI">
+            <Text>초사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CODEX_BORGIA">
+            <Text>보르지아 사본</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CODEX_PEREZ">
+            <Text>페레스 사본</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CONTRADANZAS_CUBANAS">
+            <Text>콘트라단자 쿠바나스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CREATION_OF_ADAM">
+            <Text>아담의 창조</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_CRUCIFIXION_OF_SAINT_PETER">
+            <Text>성 베드로의 십자가형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DAHA">
+            <Text>다하(파도)</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DAS_VERLASSENE">
+            <Text>버림받은 처녀</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DASH_FOR_TIMBER">
+            <Text>필사의 도주</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DAUD_RECEIVES_A_ROBE">
+            <Text>무님 칸에게서 명예로운 카프탄을 받는 다우드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DEAD_SEA">
+            <Text>사해 두루마리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DEATH_OF_MARAT">
+            <Text>마라의 죽음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DIDGERIDOO">
+            <Text>디제리두</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DIE_FLEDERMAUS">
+            <Text>박쥐</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DIE_RAUBER">
+            <Text>군도</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DIE_WALKURE">
+            <Text>발퀴레</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DIVINA_COMMEDIA">
+            <Text>신곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DUTCH_MEN_O_WAR">
+            <Text>침묵의 네덜란드 군함과 배들</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_DWELLING_IN_THE_FUCHUN">
+            <Text>부춘산거도</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_EARLY_AUTUMN">
+            <Text>초가을</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_EINE_KLEINE_NACHTMUSIC">
+            <Text>아이네 클라이네 나흐트무지크</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_EL_INGENIOSO">
+            <Text>돈키호테</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ELECTRIC_COUNTERPOINT">
+            <Text>스티브 라이시 - 일렉트릭 카운터포인트 III 빠르게</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_EMPEROR_TAIZONG">
+            <Text>티벳 사절을 맞이하는 태종</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_EQUESTRIAN_PORTRAIT">
+            <Text>카를 5세의 기마 초상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ETIENNE_CHEVALIER">
+            <Text>에티엔느 슈발리에와 성 스티븐</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ETUDE_OP_10">
+            <Text>빗방울 전주곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_EVENING_SHOWER">
+            <Text>아타케 대교에서 만난 저녁 소나기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_FABLES">
+            <Text>이솝 우화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_FAUST">
+            <Text>파우스트 : 비극</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_FIELD_WITH_SHEAFS">
+            <Text>곡식 다발이 있는 밀밭</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_FIFTH_SYMPHONY">
+            <Text>5번 교향곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_FRANCIS_I">
+            <Text>프랑스의 프랑시스 1세</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_FRANKENSTEIN">
+            <Text>프랑켄슈타인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_FROM_THE_NEW_WORLD">
+            <Text>신세계 교향곡(9번, E 단조)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_FRONT_OF_THE_MIRROR">
+            <Text>거울 앞에 선 나체의 젊은 여자</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GALLERY_OF_THE_LOUVRE">
+            <Text>루브르 박물관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GENJI_MONOGATARI">
+            <Text>겐지 이야기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GEORGE_WASHINGTON_PORTRAIT">
+            <Text>조지 워싱턴의 초상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GIANT_MAGNOLIAS">
+            <Text>푸른 벨벳 위에 놓인 거대한 목련 꽃</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GILGAMESH">
+            <Text>길가메시 서사시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GIRART_DE_VIENNE">
+            <Text>지라르 드 비엔</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GLORIA_LAUS_ET_HONOR">
+            <Text>영광, 찬양과 명예</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GUANGLING_SAN">
+            <Text>광릉산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_HAMMURABI">
+            <Text>함무라비 법전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_HARBOR_IN_BALAKLAVA">
+            <Text>환자들이 발라클라바 항구에서 승선하는 모습</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_HATAORI">
+            <Text>하타오리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_HONG_LOU_MENG">
+            <Text>홍루몽</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_HUNGARIAN_DANCES">
+            <Text>헝가리 무곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_HUNGARIAN_RHAPSODY">
+            <Text>헝가리 광시곡 두 번</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_HUNTERS_IN_THE_SNOW">
+            <Text>눈 속의 사냥꾼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_HYMN_TO_THE_MUSE">
+            <Text>뮤즈에게 바치는 송가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_I_GOT_RHYTHM">
+            <Text>리듬에 맞춰</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_IL_CANZONIERE">
+            <Text>일 칸조니에레</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_IN_A_LANDSCAPE">
+            <Text>풍광 속에서</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_JACQUES_AND_BERTHE">
+            <Text>자퀘즈 립치즈와 베르데 부부 </Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_JANE_GREY">
+            <Text>처형당하는 제인 그레이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_JHAPTAL">
+            <Text>잽탈</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_JIN_PING_MEI">
+            <Text>금병매</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_JUSHICHIJO_KEMPO">
+            <Text>십칠조헌법</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_KATCINA_DANCES">
+            <Text>카치나 댄스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_KEDUKAN_BUKRIT">
+            <Text>케두칸 부킷 석</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_KELLS">
+            <Text>켈즈의 서</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_KINDRED">
+            <Text>마음 맞는 사람들</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_KOKIN_WAKASHU">
+            <Text>고킨와카슈</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_L_ABSINTHE">
+            <Text>압생트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LA_FORZA_DEL_DESTINO">
+            <Text>평화를, 제발 평화를</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LA_VIE_DE_GARGANTUA">
+            <Text>가르강튀아와 팡타그뤼엘</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LADRANG_SRI_DUHITO">
+            <Text>라드랑 스리 두히토</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LADY_CHATTERLEYS_LOVER">
+            <Text>채털리 부인의 연인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LAMMA_BADA_YATATHANNA">
+            <Text>그녀가 스웨이를 부를 때</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LANDSCAPE_WITH_ANT_BEAR">
+            <Text>큰개미핥기가 있는 풍경</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LAST_CART">
+            <Text>마지막 탄약</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LAST_DAY_OF_POMPEII">
+            <Text>폼페이 최후의 날</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LAST_SUPPER">
+            <Text>최후의 만찬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LAU_DUANG_DUEN">
+            <Text>중국의 달</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LE_MORTE_DARTHUR">
+            <Text>아더의 죽음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LEAF_2">
+            <Text>비단화 2(젊은 여인들)</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LEAVES_OF_GRASS">
+            <Text>풀잎</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LES_DEMOISELLES">
+            <Text>아비뇽의 젊은 여인들</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LES_MISERABLES">
+            <Text>레미제라블</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LES_TROIS_MOUSQUETAIRES">
+            <Text>삼총사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LIBERTY_LEADING_THE_PEOPLE">
+            <Text>민중을 이끄는 자유의 여신</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LINEAR_B">
+            <Text>선형문자 B 토기 조각</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LULU">
+            <Text>룰루</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LUNCHEON">
+            <Text>보트 파티에서의 오찬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_LYSISTRATA">
+            <Text>여자의 평화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MACBETH">
+            <Text>멕베스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MAHABHARATA">
+            <Text>마하바라다</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MARIA">
+            <Text>마리아</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MARTIN_FIERRO">
+            <Text>마틴 피에로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MASNAVI">
+            <Text>마스나비</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MAWANGDUI">
+            <Text>마왕퇴백서</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MBUBE">
+            <Text>음부베</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MESSE_DE_NOSTRE_DAME">
+            <Text>우리 성당의 미사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_METAMORPHOSES">
+            <Text>변신 이야기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MEXICAN_EXPEDITION">
+            <Text>1838년 멕시코원정의 한 장면</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MISSA_PAPAE_MARCELLI">
+            <Text>교황 마르첼로 2세의 미사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MOBY_DICK">
+            <Text>모비 딕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MONA_LISA">
+            <Text>모나리자</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MORNING_STAR">
+            <Text>샛별을 위한 노래</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_MOVING_HOUSE">
+            <Text>이사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_NA_DNE">
+            <Text>밑바닥</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_NAG_HAMMADI">
+            <Text>나그함마디</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_NIGHT_ON_BALD_MOUNTAIN">
+            <Text>민둥산의 밤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_NIGHT_WATCH">
+            <Text>야경</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_NIN_ME_SCHARA">
+            <Text>거룩한 인안나</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_NYMPHES_DES_BOIS">
+            <Text>요하네스 오케겜의 비탄</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_O_MAGNUM_MYSTERIUM">
+            <Text>대 신비</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ODYSSEY">
+            <Text>오디세이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_OEDIPUS">
+            <Text>오이디푸스 왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ORLANDO_FURIOSO">
+            <Text>올란도의 광기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PAPYRUS_ANI">
+            <Text>아니의 파피루스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PARADE">
+            <Text>퍼레이드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PARTHENON_FRIEZE">
+            <Text>파르테논 벽장식</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PAYOJI_MAINE">
+            <Text>파요지 메인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PEACEMAKERS">
+            <Text>중재자들</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_POEMS">
+            <Text>시집</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_POICHE_LAVIDA">
+            <Text>탐욕스런 갈증 이후</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PORTRAIT_OF_A_MAN">
+            <Text>터반을 쓴 남자의 초상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PORTRAIT_OF_CHITASEI">
+            <Text>지다성 오용의 초상화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PORTRAIT_OF_LOUIS">
+            <Text>루이 프랑수아 루빌리아크의 초상화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PORTRAIT_OF_NASSER">
+            <Text>나시르 앗딘 샤 카자르의 초상화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PRESTIPLENIYE">
+            <Text>죄와 벌</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_PRIDE_AND_PREJUDICE">
+            <Text>오만과 편견</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_RAMAYAMA">
+            <Text>라마야마</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_RED_BADGE_OF_COURAGE">
+            <Text>붉은 수훈장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_REQUIEM_KYRIE">
+            <Text>진혼곡 : 키리에</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_REVIZOR">
+            <Text>검사관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ROKUDAN_NO_SHIRABE">
+            <Text>육단조</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_ROSETTA">
+            <Text>로제타석</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_RUBAIYAT">
+            <Text>루바이야트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_RUBENS_AND_ISABELLA">
+            <Text>앵두나무 그늘에 앉은 루벤 브랜트와 이자벨라 부부</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_RUE_DE_PARIS">
+            <Text>비 오는 날의 파리 길거리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_RUNESTONE">
+            <Text>로크 룬스톤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_RUSSIAN_TSAR">
+            <Text>16세기의 러시아 황제</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SAINT_FRANCIS">
+            <Text>명상하는 성 프란시스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SAINT_GEORGE_DRAGON">
+            <Text>용을 물리치는 게오르기우스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SAINT_GEORGE_KILLING">
+            <Text>용을 물리치는 성 게오르기우스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SAINT_JEROME_IN_HIS_STUDY">
+            <Text>서재에 있는 히에로니무스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SAKURAGARI">
+            <Text>사쿠라가리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SALVE_REGINA">
+            <Text>살베 레지나</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SALVE_REGINA_A_4">
+            <Text>살베 레지나</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SATURN">
+            <Text>토성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SAUL">
+            <Text>사울</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SECOND_OF_MAY">
+            <Text>1808년 5월 3일 맘루크의 돌격</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SELF_PORTRAIT">
+            <Text>자화상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SENSEMAYA">
+            <Text>센세마야</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SERMON_OF_SADNESS">
+            <Text>슬픔의 설교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SHAKER_LOOPS">
+            <Text>셰이커 루프</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SHINJUTEN_NO_AMIJIMA">
+            <Text>아미지마에서 일어난 자살 사건</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SHUIHU_ZHUAN">
+            <Text>수호전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SINFONIA_INDIA">
+            <Text>신포니아 인디아</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SPEM_IN_ALIUM">
+            <Text>다른 희망</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SPRING_MORNING">
+            <Text>한 궁전의 봄날 아침</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SRI_SHANMUKAHA">
+            <Text>스리 산무카하 서브라마니아 스와미</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_STARRY_NIGHT">
+            <Text>별이 빛나는 밤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_STRING_QUARTET">
+            <Text>현악 4중주 F 장조</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SUMO_WRESTLER">
+            <Text>스모 선수 소마가하나 푸치에몬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SUNDAY_AFTERNOON">
+            <Text>그랑드자트섬의 일요일 오후</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SYMPHONE_NO_93">
+            <Text>9세 번 교향곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SYMPHONY_NO_1">
+            <Text>한번 교향곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SYMPHONY_NO_3">
+            <Text>세 번 교향곡 "오르간 반주"</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_SYMPHONY_NO_5">
+            <Text>5번 교향곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_TE_DEUM">
+            <Text>앰브로시아 찬송가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_ACCOLADE">
+            <Text>기사 작위 수여식</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_ARMADA">
+            <Text>엘리자베스 1세의 함대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_ASCENT_OF_MUHAMMAD">
+            <Text>승천하는 무함마드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_CARD_PLAYERS">
+            <Text>카드 게임</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_FAERIE_QUEENE">
+            <Text>선녀 여왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_GREAT_GATSBY">
+            <Text>위대한 개츠비</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_GREAT_WAVE">
+            <Text>카나가와 해안의 거대한 파도</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_HOME_GUARD">
+            <Text>의용군</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_KISS">
+            <Text>키스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_KISS_ALT">
+            <Text>키스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_LAST_OF_THE_MOHICANS">
+            <Text>모히칸족의 최후</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_RAVEN">
+            <Text>까마귀 및 기타 시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_SIGN_OF_THE_FOUR">
+            <Text>네 사람의 서명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_SKETCH_BOOK">
+            <Text>제프리 크레용의 스케치북</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_SWING">
+            <Text>그네</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_THE_TIME_MACHINE">
+            <Text>타임머신</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_TIGER_IN_TROPICAL_STORM">
+            <Text>열대 폭풍우 속의 호랑이(깜짝이야!)</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_TRUE_STORY">
+            <Text>실화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_TSUREZUREGUSA">
+            <Text>쓰레즈레구사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_TWICE_TOLD_TALE">
+            <Text>두 번 들은 이야기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_UGETSU_MONOGATARI">
+            <Text>달빛과 비의 이야기</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_UNCLE_TOMS_CABIN">
+            <Text>톰 아저씨의 오두막</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_UPAUPA_SCHNEKLUD">
+            <Text>우파우파 슈네클루드의 초상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_URUBHANGA">
+            <Text>우루한가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_UT_QUEANT_LAXIS">
+            <Text>느슨함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_VARIATIONS_ON_AMERICA">
+            <Text>미국 변주곡</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_VERTUMNUS">
+            <Text>베르툼누스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_VIEW_OF_TOLEDO">
+            <Text>톨레도 풍경</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_VIGNT_MILLE_LIEUES">
+            <Text>해저 20,000리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_VOYNA_I_MIR">
+            <Text>전쟁과 평화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_WAGAHAI_WA_NEKO">
+            <Text>나는 고양이로소이다</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_WALDEN">
+            <Text>월든</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_WANDERER">
+            <Text>안개 바다 위에 선 방랑자</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_WASHINGTON_CROSSING">
+            <Text>델라웨어 강을 건너는 워싱턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_WATER_LILIES">
+            <Text>수련</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_WATER_MUSIC">
+            <Text>수상 음악</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_WHIRLING_DERVISH">
+            <Text>황홀경에 빠진 데르비시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_WONDERFUL_WIZARD_OF_OZ">
+            <Text>오즈의 마법사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_XICOCHI">
+            <Text>지코치</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_YOUNG_LADY">
+            <Text>젊은 여인의 초상화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_YOUNG_PERSONS_GUIDE">
+            <Text>젊은이를 위한 관현악 입문서</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_YUSEF_AND_ZULEYKHA">
+            <Text>유세프와 줄레이카</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_ARCHAEOLOGICAL_DIG">
+            <Text>고고학 발굴 현장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_BRAZILWOOD_CAMP">
+            <Text>브라질 소방목 벌목장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_CHATEAU">
+            <Text>샤토</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_FEITORIA">
+            <Text>페이토리아</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_KASBAH">
+            <Text>카스바</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_RESOURCE_BISON_TEXT">
+            <Text>한때 거대한 무리로 몰려다니며 대초원 지대를 휩쓸었던 북아메리카 들소는 많은 원시 부족들에게 고기, 힘줄, 가죽, 뼈를 얻을 수 있는 주요 자원의 원천이었습니다. 원주민들의 사냥 때문에 1800년대 후반에 멸종 위기를 거친 후, 연방과 주에서 야생동물 보호 프로그램을 실시하면서 지난 수십 년간 들소가 다시 번성하기 시작했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_RESOURCE_COCOA_TEXT">
+            <Text>코코아 씨는 남아메리카산 카카오 나무에서 생산되며, 콜럼버스의 발견이 있기 전의 메소아메리카에서는 중요한 상품이었고, 부족 문화에서도 중요하게 간주되었습니다. 1700년대 중반에 스페인에서 유럽으로 전파된 후, 코코아는 음료, 요리 재료, 약제 등 다방면으로 이용됐습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_RESOURCE_BISON">
+            <Text>들소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_RESOURCE_COCOA">
+            <Text>코코아</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_INTERNATIONAL_SPACE_STATION">
+            <Text>국제 우주 정거장</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_WORLD_FAIR">
+            <Text>만국 박람회</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_WORLD_GAMES">
+            <Text>국제 스포츠 대회</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_ARTIFACTS">
+            <Text>사적지</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_CLOVES">
+            <Text>정향</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS">
+            <Text>숨겨진 사적지</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_NUTMEG">
+            <Text>육두구</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_PEPPER">
+            <Text>후추</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>

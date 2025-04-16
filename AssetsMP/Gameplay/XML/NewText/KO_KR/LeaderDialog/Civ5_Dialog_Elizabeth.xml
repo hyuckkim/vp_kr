@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_1">
+			<Text>아주 좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_2">
+			<Text>좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_3">
+			<Text>기꺼이 그러지요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_4">
+			<Text>동의합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_5">
+			<Text>오, 좋습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_6">
+			<Text>최대한 노력해보죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_7">
+			<Text>훌륭합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_ATTACKED_1">
+			<Text>아주 좋군요. 당신은 그것이 한계일 테지요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_ATTACKED_3">
+			<Text>멍청하군요! 당신은 그 오만함으로 인해 파멸할 것이에요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DECLAREWAR_1">
+			<Text>나와 우리의 충신들에 대한 당신의 모욕은 잊지 않겠어요. 전쟁을 준비하세요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DECLAREWAR_2">
+			<Text>신의 뜻으로, 당신의 목숨은 며칠 남지 않은 것 같군요. 전쟁을 준비하세요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DECLAREWAR_3">
+			<Text>격식은 그만둬야겠습니다. 전장에서 봅시다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DEFEATED_1">
+			<Text>당신은 전투에서 최선을 다했습니다. 승리를 축하합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DEFEATED_2">
+			<Text>당신에게 지금은 패배했지만, 우리 영국은 다시 일어날 것이고, 더 강해질 것입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DEFEATED_3">
+			<Text>당신이 이겼군요. 당신의 시대에요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DEMANDTRIBUTE_ANGRY">
+			<Text>우리에게 고통의 결과를 바치세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DEMANDTRIBUTE_HAPPY">
+			<Text>나의 친애하는 친구여, 우리가 원하는 것을 나누어 주실 수 있나요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DEMANDTRIBUTE_NEUTRAL">
+			<Text>그대만이 가지고 있는 것이 우리 영국에 필요할 수도 있을 것이에요. 그때에는 그대가 우리에게 주실 거라 믿어요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_1">
+			<Text>안되요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_2">
+			<Text>절대 안됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_3">
+			<Text>거부합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_4">
+			<Text>물론 안됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_5">
+			<Text>그것엔 동의할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_6">
+			<Text>진지하게 말해주세요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_7">
+			<Text>뭐라고 하셨습니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_FIRSTGREETING_1">
+			<Text>안녕하세요. 우리는 당신과 적이 아닌 우호적인 관계를 맺고 싶습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_FIRSTGREETING_2">
+			<Text>좋은 만남이군요. 저는 이 만남이 모두에게 온 봄바람이길 바랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_FIRSTGREETING_3">
+			<Text>당신을 만나서 기쁘군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_FIRSTGREETING_4">
+			<Text>영국에 오신 걸 환영합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_1">
+			<Text>좋은 하루가 되시길.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_2">
+			<Text>안녕히.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_3">
+			<Text>안녕히 가시길.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_4">
+			<Text>다시 만나길 빌어요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_5">
+			<Text>사라졌으면 좋겠군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_6">
+			<Text>용건은 이걸로 끝이군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_7">
+			<Text>가세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_1">
+			<Text>좋은 만남입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_2">
+			<Text>다시 인사드립니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_3">
+			<Text>안녕하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_4">
+			<Text>잘 오셨네요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_5">
+			<Text>오, 당신이로군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_6">
+			<Text>잘 지내셨는지요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_7">
+			<Text>무엇이 필요하나요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_1">
+			<Text>들어보겠어요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_2">
+			<Text>말하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_3">
+			<Text>계속 진행하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_4">
+			<Text>듣고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_5">
+			<Text>네?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_6">
+			<Text>뭐라고 하셨죠?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_7">
+			<Text>그리고?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_8">
+			<Text>부디.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_LOSEWAR_1">
+			<Text>결국, 끝났군요. 저는 단지 앞으로 우리의 관계가 우호적이고 평화롭길 바랄 뿐이에요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_QUOTE_1">
+			<Text>나의 사랑하는 국민 여러분, 우리는 우리의 안전을 걱정하는 이들이 반역으로 연루될까 두려워 우리가 어떻게 전쟁을 이끌어 나갈 것인가에 대해 말하기를 꺼리는 것을 보았습니다. 하지만 단언컨데, 나는 나의 충신과 사랑하는 국민을 불신하기를 원치 않습니다. 폭군들이여 두려워할지어다. 나는 하느님 아래서 나의 충신과 내 국민의 호의를 항상 지키는 것을 나의 제일 과제로 삼았습니다. 그런고로 나는 지금 그대들과 함께하며, 나의 재미나 스포츠를 위해서가 아니라, 전쟁의 열화 속에서 여러분과 함께 죽거나 살기를 바랍니다. 나는 나의 하느님과 나의 왕국, 나의 국민, 나의 명예, 나의 피, 먼지에도 맹세합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_QUOTE_2">
+			<Text>나는 내가 약하고 연약한 여자의 몸을 가진 것을 압니다. 하지만, 나는 왕의 심장을 그리고 영국의 왕의 심장을 가지고 있습니다. 더럽고 모멸스러운 파르마나 스페인 혹은 다른 유럽의 군주들이 감히 나의 영토를 침범하기를 원한다면, 나는 나의 명예를 더럽히느니, 나 스스로 무기를 드는 것을 택하겠습니다. 내가 그대들의 장군이요, 판사요, 모든 미덕에 관한 포상자가 될 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_1">
+			<Text>영국은 그렇게 관대하지 않아요. 그대는 더 나은 제안을 해야 되요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_2">
+			<Text>충분하지 않군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_3">
+			<Text>좀 더 나은 것을 내줬으면 좋겠군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_4">
+			<Text>조금 더...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_1">
+			<Text>이보세요! 영국은 그대가 아무리 친구라 해도 그렇게 관대해질 여유는 없어요! 다른 제안은 없나요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_2">
+			<Text>이것이 전부인가요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_3">
+			<Text>괜찮겠지요...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_4">
+			<Text>조금 더...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_NEUTRAL_1">
+			<Text>그 보잘 것 없는 제안을 다시 할 필요가 있어요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_NEUTRAL_2">
+			<Text>더 나은 것은 없나요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_NEUTRAL_3">
+			<Text>충분치 않군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_NEUTRAL_4">
+			<Text>조금 더...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NO_ANGRY">
+			<Text>그 제안은 우리 영국에 모욕이 되는군요. 거절합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NO_HAPPY">
+			<Text>친애하는 나의 벗이여, 그대에게 동전 마지막 한 닢마저 주고 싶지만, 나의 고문은 그런 관대함을 원치 않는군요. 그대의 요청을 거절할 수 밖에 없어 유감스럽군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NO_NEUTRAL">
+			<Text>우리는 그대에게 이런 어리석은 시간 낭비는 하지 않았으면 하는 바람이 있답니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_YES_ANGRY">
+			<Text>아주 좋군. 좋아요. 동의하죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_YES_HAPPY">
+			<Text>당신의 교섭 기술과 통찰력에 놀랐어요! 당신의 제안을 받아들이도록 하죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_YES_NEUTRAL">
+			<Text>알겠어요. 그대의 제안을 받아들이겠어요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADEREQUEST_ANGRY">
+			<Text>이것이 우리의 제안이죠. 당신의 제안보다 훨씬 낫다고 생각되는군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADEREQUEST_HAPPY">
+			<Text>친구여, 그대는 우리와의 교섭을 위해 오신 것이겠죠?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADEREQUEST_NEUTRAL">
+			<Text>상업적인 교류는 시민의 생명줄과 마찬가지죠. 동의하나요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_NO_ANGRY">
+			<Text>우리에게서 공물을 빼앗아 가겠다고요? 사라져요. 지독한 악당같으니!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_NO_HAPPY">
+			<Text>친구는 서로 물건 취급하면 안되죠. 그대의 무례함에 잠시 놀랐어요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_NO_NEUTRAL">
+			<Text>재미있군요. 당연히 안되죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_YES_ANGRY">
+			<Text>지금 당신은 우리의 약점을 잡았지만, 언제까지나 그런 건 아닐 겁니다. 우리는 이 굴욕을 기억할 겁니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_YES_HAPPY">
+			<Text>이것은 동맹을 위한 우리의 선물이에요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_YES_NEUTRAL">
+			<Text>음, 알겠어요. 우리는 선택의 여지가 없군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_1">
+			<Text>유감입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_2">
+			<Text>실망스럽군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_3">
+			<Text>그런가요? 난 당신이 그 편협한 생각을 탓하며 살지 않을 것이라 생각했는데.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_4">
+			<Text>멍청하군요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_5">
+			<Text>당신이 처신을 잘 하지 못한다면, 그 어리석은 자존심으로 인해 죽을 것이에요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_6">
+			<Text>좋아요. 당신의 책임입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH_WINWAR_1">
+			<Text>영국은 언제나 적으로부터 승리를 쟁취하였어요! 당신은 먼 미래까지 그것을 기억할 것이에요.</Text>
+		</Row>
+	</Language_KO_KR>
+</GameData>

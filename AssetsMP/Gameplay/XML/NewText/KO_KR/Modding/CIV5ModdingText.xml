@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_INVALID_MAP_DESC">
+      <Text>잘못된 지도 파일</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INVALID_MAP_TITLE">
+      <Text>[COLOR_RED]{1_MapName}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ADD_COMMENT">
+      <Text>추가 코멘트 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ALREADY_INSTALLED">
+      <Text>이미 설치됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_AUTOUPDATEMODS">
+      <Text>모드 자동 업데이트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BACK">
+      <Text>뒤로</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BLOCKS">
+      <Text>{1_ModName} 차단</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BLOCKS_ALL_OTHER_DLC">
+      <Text>다른 모든 DLC</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BROWSER">
+      <Text>모드 열람</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BROWSER_TITLE">
+      <Text>모드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BROWSER_TT">
+      <Text>설치된 모드 및 온라인 모드 열람</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CANCELDOWNLOAD">
+      <Text>취소</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORIES_ALL">
+      <Text>모두</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORIES_HEADER">
+      <Text>분류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_1">
+      <Text>전체 변경</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_10">
+      <Text>기타</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_11">
+      <Text>문명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_12">
+      <Text>그래픽</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_13">
+      <Text>지형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_14">
+      <Text>유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_15">
+      <Text>도시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_16">
+      <Text>자원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_17">
+      <Text>시설</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_18">
+      <Text>지도자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_2">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_20">
+      <Text>지형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_21">
+      <Text>시설</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_22">
+      <Text>자원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_23">
+      <Text>유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_24">
+      <Text>고대 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_25">
+      <Text>중세 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_26">
+      <Text>르네상스 시대 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_27">
+      <Text>산업 시대 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_28">
+      <Text>현대 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_29">
+      <Text>SF 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_3">
+      <Text>SF</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_30">
+      <Text>판타지 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_31">
+      <Text>기타 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_32">
+      <Text>시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_33">
+      <Text>고대 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_34">
+      <Text>중세 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_35">
+      <Text>르네상스 시대 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_36">
+      <Text>중세 시대 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_37">
+      <Text>현대 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_38">
+      <Text>SF 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_39">
+      <Text>판타지 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_4">
+      <Text>판타지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_40">
+      <Text>기타 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_41">
+      <Text>지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_42">
+      <Text>역사적 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_43">
+      <Text>가상 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_44">
+      <Text>멀티 플레이 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_45">
+      <Text>지도 스크립트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_46">
+      <Text>역사적 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_47">
+      <Text>가상 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_48">
+      <Text>멀티 플레이 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_49">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_5">
+      <Text>게임 규칙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_50">
+      <Text>가상</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_51">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_52">
+      <Text>가상</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_53">
+      <Text>도시 건설</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_54">
+      <Text>건물</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_55">
+      <Text>불가사의</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_56">
+      <Text>프로젝트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_57">
+      <Text>기타</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_6">
+      <Text>초상화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_7">
+      <Text>사용자 인터페이스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_8">
+      <Text>스킨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_9">
+      <Text>위젯</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CLOSEDOWNLOAD">
+      <Text>닫기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_COPYRIGHT">
+      <Text>Copyright(c) 2010</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CUSTOMGAME">
+      <Text>사용자 설정 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CUSTOMGAME_TT">
+      <Text>모드를 사용하는 사용자 설정 게임을 생성합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DATABASE_UNAVAILABLE">
+      <Text>모드 데이터베이스를 일시적으로 사용할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DELETEMOD">
+      <Text>삭제</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DEPENDENCIES_HEADER">
+      <Text>의존/참조/차단</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DEPENDSON">
+      <Text>{1_ModName}에 의존</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DESCRIPTION">
+      <Text>설명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DETAILS_NOTHINGSELECTED">
+      <Text>아무것도 선택하지 않았습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DISABLEMOD">
+      <Text>비활성화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOAD_AGREEMENT">
+      <Text>모드 또는 사용자 생성 소프트웨어 패키지를 다운로드하려 합니다. 모드 사용에 대한 모든 책임은 사용자에게 있습니다.[NEWLINE][NEWLINE]2K Games 및 Firaxis Games는 모드를 만들지 않았으며, 모드에는 바이러스, 웜, 트로이 바이러스, 로거 및 기타 악성 코드가 포함되었을 수 있습니다.[NEWLINE][NEWLINE]이 파일을 다운로드하는 것은 이 파일을 사용할 때 발생하는 모든 책임과 위험이 2K Games, Firaxis Games 및 해당 계열사와 대리인에게 없음을 동의하는 것을 의미합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADER_NOTINITIALIZED">
+      <Text>마이크로소프트 BITS가 시작되지 않아 다운로드할 수 없었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADING">
+      <Text>다운로드 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADMOD">
+      <Text>다운로드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADS">
+      <Text>다운로드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_0">
+      <Text>대기 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_1">
+      <Text>연결 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_2">
+      <Text>전송 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_3">
+      <Text>중단됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_4">
+      <Text>오류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_5">
+      <Text>경고</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_6">
+      <Text>전송 완료</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_7">
+      <Text>완료</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_8">
+      <Text>취소됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ENABLEINSTRUCTIONS">
+      <Text>모드를 활성화하려면 항목 옆에 있는 확인란을 클릭하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ENABLEMOD">
+      <Text>설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_ALREADY_RATED">
+      <Text>이 모드는 이미 평가했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_CONNECTION">
+      <Text>연결 오류가 발생했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_CONNECTION_TIMEOUT">
+      <Text>연결 시간이 초과되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_GENERIC">
+      <Text>오류가 발생했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_FILE_NOT_FOUND">
+      <Text>HTTP 404 오류 - 파일을 찾지 못했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_FORBIDDEN">
+      <Text>HTTP 403 오류 - 접근 금지.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_REQUEST_REJECTED">
+      <Text>HTTP 4XX 오류 - 요청이 거절되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_SERVER_ERROR">
+      <Text>HTTP 5xx 오류 - 서버 오류.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_UNAUTHORIZED">
+      <Text>HTTP 401 오류 - 승인되지 않음.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_INVALIDURL">
+      <Text>올바르지 않은 URL입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_REQUEST_CANCELLED">
+      <Text>요청이 취소되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SAVE_DLC_NOT_PURCHASED">
+      <Text>[COLOR_RED]필수 DLC를 구입하지 않았습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SAVE_INCOMPATIBLE_MODS">
+      <Text>[COLOR_RED]저장된 게임과 현재 활성화된 모드가 호환되지 않습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SAVE_MISSING_DLC">
+      <Text>[COLOR_RED]필수 DLC가 없습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SAVE_MISSING_MODS">
+      <Text>[COLOR_RED]일부 필수 모드가 설치되지 않았습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SERVICE_DISABLED">
+      <Text>서비스가 비활성화되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_EULA_ACCEPT">
+      <Text>확인</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_EULA_BODY">
+      <Text>문명 V 모드 데이터베이스에 들어갑니다. 모드는 색다른 게임을 경험할 수 있도록 플레이어가 제작한 소프트웨어 패키지입니다. [COLOR_WARNING_TEXT]모드 사용에 대한 모든 책임은 사용자에게 있습니다[ENDCOLOR]. 제작사는 사용자 제작 콘텐츠를 검토, 지원, 관리 및 보장하지 않습니다. 모드를 사용할 때에는 인터넷을 통해 악성 코드가 유입되지 않도록 주의해야 합니다. 실행하기 전에 www.take2games.com/EULA에서 게임 매뉴얼 및 문서를 확인하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_EULA_DECLINE">
+      <Text>거절</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_EULA_TITLE">
+      <Text>EULA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILESIZE_B">
+      <Text>B</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILESIZE_GB">
+      <Text>GB</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILESIZE_KB">
+      <Text>KB</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILESIZE_MB">
+      <Text>MB</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILTER_LATEST_VERSION">
+      <Text>최신 버전만 보기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FIRSTPAGE">
+      <Text>첫 페이지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_DESCRIPTION">
+      <Text>이 양식을 사용하여 사용 약관을 위반한 모드를 신고하십시오. 설명을 읽고 신고 가능한 내용을 확인한 뒤 드롭다운 메뉴에서 신고하고자 하는 내용과 가장 가깝거나 적절한 이유를 선택합니다. 허용되는 내용과 허용되지 않는 내용에 대한 자세한 정보는 사용 약관을 확인하십시오. 사용 약관을 위반한 모드는 제거됩니다. 제출한 양식은 2K Games 사용 약관의 규제를 받습니다. 이 양식을 남용할 경우(스팸, 허위 신고, 괴롭힘) 계정이 영구적으로 정지될 수 있습니다. 이 양식에 기재되는 모든 정보는 저장됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_MODERATION">
+      <Text>신고</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_MODERATION_TOOLTIP">
+      <Text>유해한 콘텐츠 또는 사용 약관을 위반한 콘텐츠를 신고합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_NOREASON">
+      <Text>이유가 선택되지 않음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_REASON_1">
+      <Text>저작권 또는 상표 위반</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_REASON_2">
+      <Text>악의성(바이러스 또는 트로이 바이러스 포함)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_REASON_3">
+      <Text>유해한 콘텐츠</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_REASON_4">
+      <Text>기타</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_GAMEVERSION">
+      <Text>{1_LowVersion}에서 {2_HighVersion}까지의 게임 버전</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HEADING_DATESTARTED">
+      <Text>개시 일자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HEADING_NAME">
+      <Text>이름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HEADING_PROGRESS">
+      <Text>진행</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HEADING_STATE">
+      <Text>상태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HOVERFORDETAILS">
+      <Text>{1_DownloadStatus}(세부 항목을 확인하려면 마우스 오버)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALL_MODS">
+      <Text>모드 설치</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALL_MODS_TT">
+      <Text>설치할 수 있는 모드가 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALL_PROGRESS">
+      <Text>{1_ProcessedFiles}/{2_TotalFiles}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLED">
+      <Text>설치됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_COPYING">
+      <Text>파일 복사 중…</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_ERROR">
+      <Text>모드 설치 중 오류가 발생했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_EXTRACTING">
+      <Text>파일 추출 중…</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_FINISHED">
+      <Text>완료되었습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_INSTALLING">
+      <Text>모드 설치 중…</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_VALIDATING">
+      <Text>모드 인증 중…</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_VERIFYING">
+      <Text>파일 확인 중…</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELAFFECTSSAVEDGAMES">
+      <Text>저장한 게임에 영향을 줍니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELAUTHOR">
+      <Text>제작자 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELCATEGORIES">
+      <Text>분류 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELDOWNLOADS">
+      <Text>다운로드 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELNO">
+      <Text>[COLOR_RED]아니오[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELRATING">
+      <Text>평가 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSIZE">
+      <Text>크기 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSPECIALTHANKS">
+      <Text>Special Thanks :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSTATUS">
+      <Text>상태:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSUPPORTSMULTIPLAYER">
+      <Text>멀티 플레이 여부</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSUPPORTSSINGLEPLAYER">
+      <Text>싱글 플레이 여부</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELTAGS">
+      <Text>태그 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELUPDATED">
+      <Text>마지막 업데이트 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELUPLOADEDBY">
+      <Text>업로더 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELVERSION">
+      <Text>버전 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELYES">
+      <Text>[COLOR_GREEN]예[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LASTPAGE">
+      <Text>마지막 페이지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LIKE_IT">
+      <Text>좋아요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LIKE_IT_TOOLTIP">
+      <Text>좋은 평가를 줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LOADGAME">
+      <Text>게임 불러오기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MAINMENU">
+      <Text>주 메뉴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MAPS">
+      <Text>게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MAPS_TT">
+      <Text>사용자 설정 지도를 플레이합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MENU_BACK">
+      <Text>뒤로</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_BAD_GAMEVERSION">
+      <Text>[COLOR_RED]게임 버전과 호환되지 않는 버전의 모드입니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_BLOCKED_BY_OTHER_MOD">
+      <Text>[COLOR_RED]모드가 다른 모드에 의해 차단되었습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_EXCLUSIVE">
+      <Text>이 모드는 전용 모드입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_HAS_EXCLUSIVITY_CONFLICTS">
+      <Text>[COLOR_RED]해당 모드는 전용이므로 차단되었습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_MISSING_DEPENDENCIES">
+      <Text>[COLOR_RED]모드에 필요한 종속 항목이 없습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_PARTIALLY_EXCLUSIVE">
+      <Text>이 모드의 일부분만이 전용 모드입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_VERSION_ALREADY_ENABLED">
+      <Text>[COLOR_RED]다른 버전의 모드가 이미 활성화되었습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MODSTATUS">
+      <Text>알파|베타|시험판|데모</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MULTIPLAYER">
+      <Text>멀티 플레이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MULTIPLAYER_TT">
+      <Text>모드가 적용된 멀티 플레이 게임을 플레이합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NEXT">
+      <Text>다음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NEXTPAGE">
+      <Text>다음 페이지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NOACTIVEDOWNLOADS">
+      <Text>다운로드할 항목이 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NOASSOCIATIONS">
+      <Text>없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NOMODSINSTALLED">
+      <Text>설치된 모드가 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ONLINE">
+      <Text>온라인</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_OPTIONS">
+      <Text>설정...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_PAUSEDOWNLOAD">
+      <Text>일시 중지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_PREVPAGE">
+      <Text>이전 페이지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_PRIVACYPOLICY">
+      <Text>개인 정보 보호 정책</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_PROGRESSNA">
+      <Text>없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_RATING">
+      <Text>{1_Rating}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REFERENCES">
+      <Text>{1_ModName} 참조</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REPORT">
+      <Text>위반 신고</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REPORT_REASON">
+      <Text>신고 이유를 선택합니다 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REPORT_SUBMITED">
+      <Text>신고해주셔서 감사합니다. 2K 담당자가 빠르게 처리하도록 하겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REPORT_TITLE">
+      <Text>위반 신고 양식</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_RESULTS_EMPTY">
+      <Text>모드가 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_RESUMEDOWNLOAD">
+      <Text>계속하기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SAVEDGAMES_TT">
+      <Text>이전에 저장한 게임을 플레이합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SCENARIO_TITLE">
+      <Text>모드 적용 시나리오 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SCENARIOS">
+      <Text>시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SCENARIOS_TT">
+      <Text>시나리오를 플레이합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SCREENSHOT">
+      <Text>스크린샷 뷰어</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SEARCH_TOOLTIP">
+      <Text>모드를 검색합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SETUP_TITLE">
+      <Text>모드 적용 게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SHOW_SCREENSHOT">
+      <Text>스크린샷 뷰어 보기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SINGLE_PLAYER">
+      <Text>싱글 플레이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SINGLE_PLAYER_TT">
+      <Text>모드를 설치한 싱글 플레이 게임을 플레이합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_DOWNLOADS">
+      <Text>다운로드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_ENABLED">
+      <Text>활성화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_NEWEST">
+      <Text>최신</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_RATING">
+      <Text>평가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_RECENTLY_INSTALLED">
+      <Text>최근 설치 항목</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_TITLE">
+      <Text>제목</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SUBMIT">
+      <Text>전송 중…</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_TITLE">
+      <Text>모드 제목 1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UNSUBSCRIBE_CONFIRM">
+      <Text>이 모드를 해제하시겠습니까? 해제하면 모드가 컴퓨터에서 제거됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UNSUBSCRIBE_MOD">
+      <Text>모드 해제</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_ALL_MODS">
+      <Text>모든 모드 업데이트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_ALL_MODS_TT">
+      <Text>설치한 모든 모드를 최신 온라인 버전으로 업데이트합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_MOD">
+      <Text>모드 업데이트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_MOD_LATEST_TT">
+      <Text>모드를 최신 버전으로 업데이트합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_MOD_TT">
+      <Text>모드를 {1_Version}버전으로 업데이트합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATEMOD">
+      <Text>업데이트</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_WORKSHOP">
+      <Text>모드 다운로드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_WORKSHOP_TT">
+      <Text>클릭하면 Steam에서 다운로드 가능한 모드를 검색할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_YOU_LIKE_IT">
+      <Text>좋습니다</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_YOU_LIKE_IT_TOOLTIP">
+      <Text>당신과 {1}{1: plural 1?이; 2?가;} 좋아합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODS_IN_USE">
+      <Text>사용 중인 모드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_CUSTOM_GAMES">
+      <Text>사용자 설정 게임 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_CUSTOM_GAME">
+      <Text>사용자 선택 게임 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_SCENARIO">
+      <Text>시나리오 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SHOWDLCMODS">
+      <Text>DLC 모드 표시</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

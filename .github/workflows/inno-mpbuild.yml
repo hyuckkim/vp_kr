@@ -1,0 +1,14 @@
+name: VP INT MP build to .exe
+on: push
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        run: iscc "vp_kr mpinstaller file/VPINTModpack.iss" /O"out_githubaction" /F"VP INT Modpack"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "VP INT Modpack"
+          path: "out_githubaction/VP INT Modpack.exe"

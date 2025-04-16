@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_GOODY_PRODUCTION">
+			<Text>가장 가까운 도시의 [ICON_PRODUCTION]생산을 증가시키는 물자 저장고를 발견했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_GOLDEN_AGE">
+			<Text>[ICON_GOLDEN_AGE]황금기로 향하는 고대의 유물을 발견했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_TILES">
+			<Text>당신의 문명에 합류하길 원하는 유목민 부족을 발견했습니다. 가장 가까운 도시 주변 영토가 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_PRODUCTION">
+			<Text>가장 가까운 도시에 [ICON_PRODUCTION]생산을 제공하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_GOLDEN_AGE">
+			<Text>유물에서 [ICON_GOLDEN_AGE] 황금기 점수를 획득하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_FREE_TILES">
+			<Text>가장 가까운 도시 주변에 영토를 제공하는 부족을 발견하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_SCIENCE">
+			<Text>유물에서 [ICON_RESEARCH] 과학을 획득하십시오.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

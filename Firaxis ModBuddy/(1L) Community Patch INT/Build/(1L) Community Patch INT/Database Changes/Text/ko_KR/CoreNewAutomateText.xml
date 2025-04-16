@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_MISSIONARY">
+			<Text>종교 전파 (자동화)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_MISSIONARY_HELP">
+			<Text>모든 [COLOR_UNIT_TEXT]선교사[ENDCOLOR]의 행동을 자동화 합니다. 자동화를 비활성화하기 전까지 계속해서 행동합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_MISSIONARY_DISABLED_HELP">
+			<Text>종교 전파가 가능한 대상이 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_ARCHAEOLOGIST">
+			<Text>유물 발굴 (자동화)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_ARCHAEOLOGIST_HELP">
+			<Text>모든 [COLOR_UNIT_TEXT]고고학자[ENDCOLOR]의 행동을 자동화 합니다. 자동화를 비활성화하기 전까지 계속해서 행동합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_ARCHAEOLOGIST_DISABLED_HELP">
+			<Text>유물 발굴 대상이 없습니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

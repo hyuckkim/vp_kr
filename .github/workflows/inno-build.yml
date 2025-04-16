@@ -1,4 +1,4 @@
-name: inno setup build to .exe
+name: VP INT build to .exe
 on: push
 jobs:
   build:

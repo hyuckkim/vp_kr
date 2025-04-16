@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/30/2023 12:08:52 PM -->
+<GameData>
+
+    <Language_ko_KR>
+        <Row Tag="TXT_KEY_SQUADS">
+            <Text>분대</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_TITLE">
+            <Text>VP용 분대</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MANAGE_SQUAD">
+            <Text>분대 관리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVE_SQUAD">
+            <Text>분대 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_RESET_SQUAD">
+            <Text>분대 재설정</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_NAME">
+            <Text>분대 이름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_OPTIONS">
+            <Text>설정</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_OPTION_HIGHLIGHT">
+            <Text>분대 유닛 강조</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_OPTION_FLAGS_NUMBER">
+            <Text>유닛 깃발에 분대 번호 표시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE">
+            <Text>분대 이동 끝난 뒤 행동:</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE_ALERT_ON_ARRIVAL">
+            <Text>도착 알림</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE_WAKE_ON_UNIT_ARRIVAL">
+            <Text>각 유닛 도착시 깨우기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE_WAKE_ON_SQUAD_ARRIVAL">
+            <Text>분대 도착시 깨우기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_TT_MANAGE_SQUAD">
+            <Text>관리 모드로 들어가면, 유닛이나 깃발을 [COLOR_YELLOW]마우스 왼쪽 버튼을 클릭[ENDCOLOR]하여 유닛을 추가하거나 제거할 수 있습니다. [COLOR_YELLOW]마우스 오른쪽 버튼을 클릭[ENDCOLOR]하고 추가할 유닛 위에 상자를 드래그하여 여러 유닛을 한 번에 분대에 추가할 수 있습니다. 관리 모드는 [COLOR_YELLOW]컨트롤 키 + 숫자 키[ENDCOLOR] 조합을 사용해서 들어갈 수도 있고 여기서 숫자는 분대 번호 키입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_TT_MOVE_SQUAD">
+            <Text>이동 모드로 들어가서, 플롯을 [COLOR_YELLOW]마우스 오른쪽 버튼으로 클릭[ENDCOLOR]하면 해당 분대의 모든 유닛에게 해당 지역으로 이동하라는 이동 명령이 내려집니다. 분대에 해당하는 숫자 키를 두 번 눌러 분대 이동 모드로 들어갈 수도 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SQUADS_TT_RESET_SQUAD">
+            <Text>이 분대에서 모든 유닛을 제거합니다. 유닛 목록에서 [COLOR_YELLOW]마우스 오른쪽 버튼을 클릭[ENDCOLOR]하면 이 분대에서 유닛을 개별적으로 제거할 수 있습니다.</Text>
+        </Row>
+    </Language_ko_KR>
+  
+</GameData>

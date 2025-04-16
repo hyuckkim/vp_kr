@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_AESTHETICS_TITLE">
+            <Text>{2_CivName:textkey}의 명인 {1_PlayerName:textkey}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_HELP">
+            <Text>사적지를 고고학 발굴 현장으로 바꿉니다. 고고학 발굴 현장을 건설하면 걸작 유물을 발견하거나 고고학 발굴 현장을 랜드마크로 바꿀 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_REC">
+            <Text>고고학 발굴 현장을 건설하면 걸작 유물을 발견하거나 고고학 발굴 현장을 랜드마크로 바꿀 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP_HELP">
+            <Text>브라질 소방목 벌목장을 건설하면 정글 타일을 개간하지 않고도 [ICON_GOLD]골드를 증가시킬 수 있습니다. 음향학을 연구하면 [ICON_CULTURE]문화 보너스를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP_REC">
+            <Text>정글 타일을 개간하지 않고도 [ICON_GOLD]골드를 증가시킬 수 있습니다. 음향학을 연구하면 [ICON_CULTURE]문화 보너스를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_CHATEAU_HELP">
+            <Text>샤토를 건설합니다. 샤토을 건설하면 타일당 문화 및 골드가 증가하며, [ICON_STRENGTH]방어력 보너스가 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_CHATEAU_REC">
+            <Text>샤토는 사치 자원과 인접한 타일에 건설해야 하며 다른 샤토와 인접한 타일에 건설할 수 없습니다. [NEWLINE][NEWLINE]샤토를 건설하면 타일당 문화 및 골드가 증가하며, [ICON_STRENGTH]방어력 보너스가 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_FEITORIA_HELP">
+            <Text>도시 국가 영토에 페이토리아를 건설합니다. 도시 국가에 페이토리아를 건설하면 해당 도시에서 제공하는 사치 자원을 종류별로 한 개씩 받으며 [ICON_STRENGTH]방어력 보너스가 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_FEITORIA_REC">
+            <Text>도시 국가에 페이토리아를 건설하면 해당 도시에서 제공하는 사치 자원을 종류별로 한 개씩 받으며 [ICON_STRENGTH]방어력 보너스가 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_KASBAH_HELP">
+            <Text>해당 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 증가합니다. [ICON_STRENGTH]방어력 보너스가 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_KASBAH_REC">
+            <Text>해당 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산 및 [ICON_GOLD]골드가 증가합니다. [ICON_STRENGTH]방어력 보너스가 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_LANDMARK_HELP">
+            <Text>유닛이 소모됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY">
+            <Text>원형극장은 해당 도시의 [ICON_CULTURE]문화를 늘려 영토 확장과 사회 정책 도입을 앞당깁니다. 걸작 문학 슬롯 1개를 제공합니다. 도시에 기념비가 있어야 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HERMITAGE_HELP">
+            <!--에르타미슈-->
+            <Text>도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하며 걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]가 제공됩니다.[NEWLINE][NEWLINE]모든 도시에 오페라 극장이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP">
+            <!--영웅서사시-->
+            <Text>도시에서 생산하는 공중 유닛을 제외한 모든 유닛이 [COLOR_PLAYER_PURPLE]사기[ENDCOLOR] ([ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]) 승급이 부여됩니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]개를 제공합니다.[NEWLINE][NEWLINE]모든 도시에 병영이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP">
+            <!--국제 우주 정거장-->
+            <Text>과학자의 [ICON_PRODUCTION]생산과 기술자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_SCIENTIST]위대한 과학자를 소모해 연구 가속 시 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 더 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+            <!--무굴요새-->
+            <Text>성을 대체하는 인도의 고유 건물입니다. 성 효과와 더불어 [COLOR_RESEARCH_STORED]비행[ENDCOLOR] 연구를 마치면 도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시에 성벽이 있어야 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MUSEUM_STRATEGY">
+            <Text>박물관은 게임 중반부에 도시의 [ICON_CULTURE]문화를 증가시켜주는 건물입니다. 걸작 예술품 슬롯 2개를 제공합니다. 도시에 오페라 극장이 있어야 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_NATIONAL_EPIC_HELP">
+            <!--건국서사시-->
+            <Text>이 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]모든 도시에 기념비가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY">
+            <Text>오페라 극장은 도시의 [ICON_CULTURE]문화를 늘려주는 르네상스 시대 건물입니다. 걸작 음악 슬롯 1개를 제공합니다. 도시에 원형극장이 있어야 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP">
+            <!--옥스포드-->
+            <Text>[COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]모든 도시에 대학이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PALACE_HELP">
+            <!--궁전-->
+            <Text>이 도시가 문명의 [ICON_CAPITAL]수도임을 나타냅니다.[NEWLINE]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 제공합니다.[NEWLINE][ICON_CAPITAL]수도와 [ICON_CONNECTED]도시 연결로 연결된 도시의 [ICON_GOLD]골드가 증가합니다.[NEWLINE]이 도시의 [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_PLAYER">
+            <Text>{1_CivName:textkey}{1: plural 1?과; 2?와;} 교역로를 연결하려고 합니다. 우리를 도와주시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_UNIT">
+            <Text>전쟁에 보탬이 될 유닛을 주십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_UNIT_FORMAL">
+            <Text>전쟁에 필요한 유닛을 선물해달라고 부탁했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE">
+            <Text>교역로를 완성해 주시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE_FORMAL">
+            <Text>교역로를 연결해달라고 부탁했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CSTATE_INFLUENCE_RATE">
+            <Text>턴당 [ICON_INFLUENCE]영향력이 [COLOR_NEGATIVE_TEXT]{1_InfluenceRate}[ENDCOLOR] 변합니다.(초기화: {2_InfluenceAnchor})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES">
+            <Text>[COLOR_NEGATIVE_TEXT]당신은 {1_YourPolicyTree} 이념을 채택했지만 그들은 {2_TheirPolicyTree} 이념을 채택했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_DIGGING">
+            <Text>우리 유물을 파내지 마시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISLIKED_OUR_PROPOSAL">
+            <Text>[COLOR_WARNING_TEXT]그들은 우리가 세계 대회에 건의한 안건을 싫어했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL">
+            <Text>[COLOR_WARNING_TEXT]그들이 세계 대회에 건의한 안건이 기각되도록 했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_LANDMARKS_BUILT">
+            <Text>[COLOR_POSITIVE_TEXT]상대의 지역에 랜드마크를 건설해 주었습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL">
+            <Text>[COLOR_WARNING_TEXT]그들은 우리가 세계 대회에 건의한 안건을 좋아했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_BROKEN">
+            <Text>[COLOR_NEGATIVE_TEXT]유물 발굴을 중단하겠다고 약속했으나 이를 어겼습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_IGNORED">
+            <Text>[COLOR_NEGATIVE_TEXT]유물을 발굴하지 말라는 상대의 요구를 무시했습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_PLUNDERING_OUR_TRADE_ROUTES">
+            <Text>[COLOR_NEGATIVE_TEXT]상대의 교역로를 약탈했습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES">
+            <Text>[COLOR_POSITIVE_TEXT]둘 다 {1_PolicyTree} 이념을 채택했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING">
+            <Text>[COLOR_POSITIVE_TEXT]우리는 세계 대회가 그들의 영토로 이전하도록 도왔습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL">
+            <Text>[COLOR_WARNING_TEXT]우리는 그들이 세계 대회에 건의한 안건이 통과되도록 도왔습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL">
+            <Text>[COLOR_NEGATIVE_TEXT]전쟁 도발 행위 때문에 세계에 새로운 암흑기가 찾아올 거라고 두려워하고 있습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_MAJOR">
+            <Text>[COLOR_NEGATIVE_TEXT]전쟁 도발 행위를 잠재적인 위협이라고 명확히 인식하고 있습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_MINOR">
+            <Text>[COLOR_WARNING_TEXT]전쟁 도발 행위 때문에 우려의 목소리가 나오기 시작했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_SEVERE">
+            <Text>[COLOR_NEGATIVE_TEXT]전쟁 도발 행위를 국제적 문제로 간주하고 있습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EXPLORATION_TITLE">
+            <Text>{2_CivName:textkey}의 사령관 {1_PlayerName:textkey}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FREE_TENETS_LABEL">
+            <Text>무료 주의 수 : {1_Num}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT_HELP">
+            <Text>이 명령을 내리면 해당 유닛을 공항이 있는 우방 도시 또는 인접한 지역의 육상 타일에 재배치할 수 있습니다. 적 유닛이 있거나 적 유닛과 인접한 타일로는 이동할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LIBERATION_PREVIEW_EXTREME">
+            <Text>이 도시를 해방하면 (기존의 전쟁 도발 페널티를 지워주는) [COLOR_POSITIVE_TEXT]엄청난[ENDCOLOR] 해방 보너스를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LIBERATION_PREVIEW_MAJOR">
+            <Text>이 도시를 해방하면 (기존의 전쟁 도발 페널티를 지워주는) [COLOR_POSITIVE_TEXT]상당한[ENDCOLOR] 해방 보너스를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LIBERATION_PREVIEW_MINOR">
+            <Text>이 도시를 해방하면 (기존의 전쟁 도발 페널티를 지워주는) [COLOR_POSITIVE_TEXT]가벼운[ENDCOLOR] 해방 보너스를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_DISCOVERED_ARTIFACTS_NEAR">
+            <Text>{@1_CityName} 주변에서 [COLOR_HIGHLIGHT_TEXT]사적지[ENDCOLOR]를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_DISCOVERED_HIDDEN_ARTIFACTS_NEAR">
+            <Text>{@1_CityName} 주변에서 [COLOR_HIGHLIGHT_TEXT]숨겨진 사적지[ENDCOLOR]를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_DISABLED_HELP">
+            <Text>유닛이 당신의 도시 안에 있거나 근접해야 하며, 당신의 문명 어딘가에 사용할 수 있는 해당 유형의 걸작 슬롯이 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP">
+            <Text>이 명령을 내리면 위인을 소모해서 걸작을 만들 수 있습니다. 만든 걸작은 해당 유형의 걸작 슬롯이 있는 가장 가까운 도시에 배치됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_RESULT">
+            <Text>걸작은 {2_CityName}의 {1_BuildingName}에 배치됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_GIVE_POLICIES_HELP">
+            <Text>이 명령을 내리면 위인을 소모해서 대량의 [ICON_CULTURE]문화를 획득할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_HELP">
+            <Text>유닛은 우호 지역을 벗어나거나 승선한 상태에서는 회복할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM_DISABLED_HELP">
+            <Text>유닛이 다른 주요 문명이 소유한 타일에 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP">
+            <Text>이 명령을 내리면 위인을 소모해서 음악가가 있는 문명에 대량의 [ICON_TOURISM]관광을 전파할 수 있습니다. 다른 문명도 20%의 [ICON_TOURISM]관광을 획득하게 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_HELP">
+            <Text>교역로를 소유한 문명과 전쟁 상태여야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_HELP">
+            <Text>이 교역로를 공격하고 [ICON_GOLD]골드를 획득하십시오.[NEWLINE][NEWLINE]당신이 교역로의 소유주와 전쟁 상태가 아니라면 교역로를 공격하기 전에 선전포고해야 합니다. 타 문명과 이어진 교역로를 약탈하면 목적지 문명(전쟁 중이 아닐 경우)과의 관계가 악화합니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS_DISABLED_HELP">
+            <Text>유닛이 다른 문명 또는 도시 국가 소유의 타일 옆에 있어야 하며 이 능력을 사용한 상태가 아니어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP">
+            <Text>유닛이 가진 화물을 팔아 [ICON_GOLD]골드와 경험치를 얻을 수 있습니다. 당신의 수도에서 멀리 떨어질수록 더 많은 양을 얻을 수 있습니다. 이 능력은 한 번만 사용할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_ARTIFACT_SWAP">
+            <Text>{1_LeaderName}{1: plural 1?이; 2?가;} 당신의 유물 "{2_Work1Name}"{2: plural 1?을; 2?를;} "{3_Work2Name}"{3: plural 1?으로; 2?로;} 교체했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_ARCHAEOLOGY">
+            <Text>사적지에 고고학 발굴 현장이 건설되었습니다. 이 지역에 있는 고고학자를 어떻게 고용할지 선택하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA">
+            <Text>현대 시대에 들어왔습니다. 이제 산업 혁명의 발상이 사회에 스며듭니다. 국민은 문명 이념을 선택할 것을 요구합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES">
+            <Text>도시 3곳에 공장을 건설했습니다. 이제 산업 혁명의 발상이 사회에 스며듭니다. 국민은 문명 이념을 선택할 것을 요구합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD">
+            <Text>{1_CityName:textkey}에서 {2_ResourceName:textkey}{2: plural 1?을; 2?를;} 생산할 수 있습니다! 이제 이 도시에서 고대 시대와 고전 시대 불가사의를 건설할 때 [ICON_PRODUCTION]생산이 {3_Num}% 증가합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMAT_EJECTED">
+            <Text>외교관이 대피했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMAT_EJECTED_TT">
+            <Text>선전포고 때문에 {1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 떠나 당신의 은신처로 이동했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_FOUND_ARTIFACTS">
+            <Text>[COLOR_HIGHLIGHT_TEXT]사적지[ENDCOLOR]를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_FOUND_HIDDEN_ARTIFACTS">
+            <Text>[COLOR_HIGHLIGHT_TEXT]숨겨진 사적지[ENDCOLOR]를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY">
+            <Text>무료 사회 정책이나 이념 주의 중 하나를 고르십시오!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_ART_SWAP">
+            <Text>{1_LeaderName}{1: plural 1?이; 2?가;} 당신의 걸작 예술품 "{2_Work1Name}"{2: plural 1?을; 2?를;} "{3_Work2Name}"{3: plural 1?으로; 2?로;} 교체했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_MUSIC_SWAP">
+            <Text>{1_LeaderName}{1: plural 1?이; 2?가;} 당신의 걸작 음악 "{2_Work1Name}"{2: plural 1?을; 2?를;} "{3_Work2Name}"{3: plural 1?으로; 2?로;} 교체했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_WRITING_SWAP">
+            <Text>{1_LeaderName}{1: plural 1?이; 2?가;} 당신의 걸작 문학 "{2_Work1Name}"{2: plural 1?을; 2?를;} "{3_Work2Name}"{3: plural 1?으로; 2?로;} 교체했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_HEATHEN_CONVERTS">
+            <Text>야만인 유닛이 합류했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHANGE">
+            <Text>{1_CivName}에서 폭동이 일어나 지도자에게 {2_TheirPolicyTree} 이념을 채택하도록 강요했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHANGE_UNMET">
+            <Text>아직 만나지 못한 문명의 시민들이 폭동을 일으켜 지도자에게 {1_TheirPolicyTree} 이념을 채택하도록 강요했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHOSEN">
+            <Text>{1_CivName}{1: plural 1?이; 2?가;} {2_TheirPolicyTree} 이념을 채택했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHOSEN_UNMET">
+            <Text>아직 만나지 못한 문명이 {1_TheirPolicyTree} 이념을 채택했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_UNIT_HELP">
+            <Text>{@1_MinorCivName}{@1: plural 1?이; 2?가;} {@2_CivName}와의 전쟁에서 도움이 필요합니다. 전쟁 진행 중에 그들에게 선물을 보내면 평상시보다 더 많은 [ICON_INFLUENCE]영향력을 확보할 수 있습니다. 선물 주기는 도시 국가의 외교 화면을 통해 원거리에서도 가능하며, 직접 유닛을 선택해 그들의 영토로 이동하고 적절한 명령을 내리는 것으로도 가능합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TRADE_ROUTE">
+            <Text>{@1_MinorCivName} 시민이 교역로 건설에 열광합니다. 당신의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] 증가했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_TRADE_ROUTE">
+            <Text>{@1_MinorCivName} 시민은 교역로가 상호 번영을 가져다줄 것으로 믿습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED">
+            <Text>{1_CivName}에서 {@2_ReligionName}에 개혁 교리를 추가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_ACTIVE_PLAYER">
+            <Text>{@1_ReligionName}에 개혁 교리를 추가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_S">
+            <Text>개혁 교리 추가하기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_UNKNOWN">
+            <Text>아직 만나지 못한 문명이 {@1_ReligionName}에 개혁 교리를 추가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_ARCHAEOLOGY">
+            <Text>고고학 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_IDEOLOGY">
+            <Text>이념 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_WORK_SWAP">
+            <Text>걸작 교체</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_HEATHEN_CONVERTS">
+            <Text>야만인 개종하기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_IDEOLOGY_CHANGE">
+            <Text>혁명!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_IDEOLOGY_CHOSEN">
+            <Text>이념 채택하기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_UNIT_HELP">
+            <Text>{@1_MinorCivName}{@1: plural 1?이; 2?가;} 유닛을 요청합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TRADE_ROUTE">
+            <Text>{@1_MinorCivName}{@1: plural 1?과; 2?와;}의 교역로가 설립되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_TRADE_ROUTE">
+            <Text>{@1_MinorCivName}{@1: plural 1?이; 2?가;} 교역로 건설을 원함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_BROKEN">
+            <Text>[ICON_CONNECTED]도시 연결 파손!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_ESTABLISHED">
+            <Text>[ICON_CONNECTED]도시 연결 성립!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_BROKEN">
+            <Text>{1_CityName:textkey} 도시와 {2_CityName:textkey} 수도의 [ICON_CONNECTED]도시 연결이 파손되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_ESTABLISHED">
+            <Text>{1_CityName:textkey} 도시와 {2_CityName:textkey} 수도의 [ICON_CONNECTED]도시 연결이 성립되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES">
+            <Text>과학 아카데미</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]과학 아카데미[ENDCOLOR][NEWLINE]모든 천문대, 공립학교, 연구소가 생성하는 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+            <Text>민주주의 군수창고</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]민주주의 군수창고[ENDCOLOR][NEWLINE]군사 유닛을 생산할 때 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 군사 유닛을 도시 국가에 선물했을 때 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS">
+            <Text>예술의 천재</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]예술의 천재[ENDCOLOR][NEWLINE]위대한 예술가가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR] 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS">
+            <Text>미학</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP">
+            <Text>미학</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]미학[ENDCOLOR]은 문명이 [ICON_CULTURE]문화를 생성하는 능력을 강화합니다.[NEWLINE][NEWLINE]미학을 채택하면 위대한 작가, 예술가, 음악가를 25% 더 빨리 얻을 수 있으며, 우피치 미술관을 건설할 수 있습니다.[NEWLINE][NEWLINE]미학 계열의 모든 정책을 채택하면 세계 불가사의와 박물관의 걸작 테마 보너스가 두 배로 증가합니다.  산업 시대 시작부터 [ICON_PEACE]신앙으로 위대한 작가, 예술가 또는 음악가를 구매할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_RELIGION">
+            <Text>[COLOR_WARNING_TEXT]이 계열은 종교가 있어야만 열립니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]상업[ENDCOLOR]은 [ICON_GOLD]골드에 초점을 맞춘 보너스를 제공합니다.[NEWLINE][NEWLINE]상업을 채택하면 [ICON_CAPITAL]수도의 [ICON_GOLD]골드가 25% 증가하며, 빅 벤을 건설할 수 있습니다.[NEWLINE][NEWLINE]상업 계열의 모든 정책을 채택하면 모든 교역소의 [ICON_GOLD]골드 획득량이 1 증가합니다.  산업 시대 시작부터 [ICON_PEACE]신앙으로 위대한 상인을 구매할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION">
+            <Text>탐험</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP">
+            <Text>탐험</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]탐험[ENDCOLOR]은 바다를 넘어 제국을 확장하는 능력을 강화합니다.[NEWLINE][NEWLINE]탐험을 채택하면 해상 유닛의 [ICON_MOVES]이동력이 1 증가하고 해상 전투 유닛의 시야가 1 증가하며, 루브르 박물관을 건설할 수 있습니다.[NEWLINE][NEWLINE]탐험 계열의 모든 정책을 채택하면 고고학 보너스를 얻을 수 있습니다.  산업 시대 시작부터 [ICON_PEACE]신앙으로 위대한 제독을 구매할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]명예[ENDCOLOR]는 당신의 군대를 다양한 방법으로 강화합니다.[NEWLINE][NEWLINE]명예를 채택하면 야만인과의 전투 시에 33%의 전투 보너스를 얻을 수 있으며, 밝혀진 영역에 야만인들의 야영지가 나타나면 알림을 받을 수 있습니다. 야만인을 처치할 때마다 [ICON_CULTURE]문화를 얻을 수 있으며, 제우스 동상을 건설할 수 있습니다.[NEWLINE][NEWLINE]명예 계열의 모든 정책을 채택하면 적 유닛을 처치할 때마다 [ICON_GOLD]골드를 얻을 수 있습니다.  산업 시대 시작부터 [ICON_PEACE]신앙으로 위대한 장군을 구매할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]자유[ENDCOLOR]는 빠른 확장을 원하는 문명에 적합합니다.[NEWLINE][NEWLINE]자유를 채택하면 모든 도시에서 [ICON_CULTURE]문화를 1 생성합니다. 피라미드를 건설할 수 있습니다.[NEWLINE][NEWLINE]자유 계열의 모든 정책을 채택하면 원하는 위인이 [ICON_CAPITAL]수도 근처에 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]후원[ENDCOLOR]은 도시 국가의 친선 관계를 강화합니다.[NEWLINE][NEWLINE]후원을 채택하면 도시 국가와의 [ICON_INFLUENCE]영향력이 25% 느리게 감소하며, 자금성을 건설할 수 있습니다.[NEWLINE][NEWLINE]후원 계열의 모든 정책을 채택하면 가끔 동맹을 맺은 도시 국가가 [ICON_GREAT_PEOPLE]위인을 선물합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]신앙[ENDCOLOR]은 문명의 [ICON_PEACE]신앙을 강화합니다.[NEWLINE][NEWLINE]신앙을 채택하면 성소와 사원의 건설 시간이 반으로 줄어들고 젠네 모스크를 건설할 수 있습니다.[NEWLINE][NEWLINE]신앙 계열의 모든 정책을 채택하면 위대한 선지자가 출현하며 성지에서 [ICON_CULTURE]문화를 추가로 3 생성합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]합리[ENDCOLOR]는 [ICON_RESEARCH]과학을 사용하고 생성하는 능력을 강화합니다.[NEWLINE][NEWLINE]합리를 채택하면 제국이 [ICON_HAPPINESS_1]행복한 상태일 때 [ICON_RESEARCH]과학을 10% 더 얻을 수 있으며, 영곡탑을 건설할 수 있습니다.[NEWLINE][NEWLINE]합리 계열의 모든 정책을 채택하면 기술을 1개 얻을 수 있습니다.  산업 시대 시작부터 [ICON_PEACE]신앙을 소모해 위대한 과학자를 구매할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]전통[ENDCOLOR]은 작은 제국에 적합합니다.[NEWLINE][NEWLINE]전통을 채택하면 도시의 경계 확장 시간이 매우 단축되며 [ICON_CAPITAL]수도에서 얻을 수 있는 [ICON_CULTURE]문화가 3 증가하고, 공중 정원을 건설할 수 있습니다. [NEWLINE][NEWLINE]전통 계열의 모든 정책을 채택하면 [ICON_FOOD]식량이 15% 증가하고 첫 4개의 도시가 송수로를 가진 상태로 시작합니다.  산업 시대 시작부터 [ICON_PEACE]신앙으로 위대한 기술자를 구매할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CAPITALISM">
+            <Text>자본주의</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CAPITALISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]자본주의[ENDCOLOR][NEWLINE]모든 화폐 주조소, 은행 및 증권거래소의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CARAVANS">
+            <Text>마차 행렬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]마차 행렬[ENDCOLOR][NEWLINE]모든 육상 교역로에서 얻는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도로와 철도의 유지비가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]집단 체제[ENDCOLOR][NEWLINE][ICON_CAPITAL]수도의 개척자 생산 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하며 [ICON_CAPITAL]수도 근처에 개척자 하나가 비용 없이 추가됩니다. 베네치아는 개척자 대신 [COLOR_POSITIVE_TEXT]베니스의 상인[ENDCOLOR]을 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CONSULATES">
+            <Text>영사관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]영사관[ENDCOLOR][NEWLINE]모든 도시 국가의 [ICON_INFLUENCE]영향력 정지점이 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_COVERT_ACTION">
+            <Text>비밀 공작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR][NEWLINE]도시 국가의 선거 조작 성공 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 늘어납니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+            <Text>독창적 표현</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]독창적 표현[ENDCOLOR][NEWLINE][ICON_GREAT_WORK]걸작으로 얻는 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY">
+            <Text>개인 숭배</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]개인 숭배[ENDCOLOR][NEWLINE]같은 문명을 상대로 싸우는 문명이 얻는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS">
+            <Text>문화 센터</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]문화 센터[ENDCOLOR][NEWLINE]기념비, 원형극장, 오페라 극장, 박물관 및 방송탑의 건설 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 빨라집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION">
+            <Text>문화 대혁명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]문화 대혁명[ENDCOLOR][NEWLINE]질서 이념의 다른 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT">
+            <Text>프롤레타리아 독재</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]프롤레타리아 독재[ENDCOLOR][NEWLINE]당신의 문명보다 [ICON_HAPPINESS_1]행복이 적은 문명에게 주는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS">
+            <Text>이중 간첩</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR][NEWLINE]스파이가 기술을 훔치려는 적의 스파이를 체포할 확률이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]가 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION">
+            <Text>경제 동맹</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]경제 동맹[ENDCOLOR][NEWLINE]평등 이념의 다른 문명과의 교역로에서 얻는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ELITE_FORCES">
+            <Text>정예 부대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]정예 부대[ENDCOLOR][NEWLINE]부상당한 군사 유닛은 평소보다 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 더 많은 피해를 줍니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP">
+            <Text>기업가 정신</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]기업가 정신[ENDCOLOR][NEWLINE]위대한 상인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 위대한 상인의 무역 임무에서 얻는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR]로 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ETHICS">
+            <Text>문화 교류</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ETHICS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]문화 교류[ENDCOLOR][NEWLINE]종교, 교역로, 국경 개방에 대한 관광 보너스가 각각 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FINE_ARTS">
+            <Text>순수 예술</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]순수 예술[ENDCOLOR][NEWLINE]매 턴마다 초과된 [ICON_HAPPINESS_1]행복의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 [ICON_CULTURE]문화에 추가됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN">
+            <Text>5개년 계획</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]5개년 계획[ENDCOLOR][NEWLINE]도시당 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 모든 광산과 채석장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS">
+            <Text>예술 번영</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]예술 번영[ENDCOLOR][NEWLINE]세계 불가사의를 건설한 모든 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가하고 즉시 [ICON_GOLDEN_AGE]황금기에 들어갑니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS">
+            <Text>국경 강화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]국경 강화[ENDCOLOR][NEWLINE]모든 성, 군수창고 및 군사 기지에서 생성하는 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]종교적 관용[ENDCOLOR][NEWLINE]가장 대중적인 종교를 믿는 도시는 두 번째로 대중적인 종교의 종교관 교리 효과를 함께 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FUTURISM">
+            <Text>미래파</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FUTURISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]미래파[ENDCOLOR][NEWLINE]위대한 작가, 예술가 또는 음악가가 탄생할 때 알려진 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]250[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY">
+            <Text>포함 외교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]포함 외교[ENDCOLOR][NEWLINE]공물을 요구할 수 있는 도시 국가의 [ICON_INFLUENCE]영향력이 턴당 [COLOR_POSITIVE_TEXT]6[ENDCOLOR](표준 속도에서) 증가합니다. 병력의 도시 국가 위협 효과가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE">
+            <Text>인민 영웅</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]인민 영웅[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE]위대한 과학자 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE">
+            <Text>산업 스파이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]산업 스파이[ENDCOLOR][NEWLINE]스파이가 기술을 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 빨리 훔칩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_IRON_CURTAIN">
+            <Text>철의 장막</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]철의 장막[ENDCOLOR][NEWLINE]도시를 점령할 때 [COLOR_POSITIVE_TEXT]법원[ENDCOLOR]을 획득합니다. 국내 교역로가 생산하는 [ICON_FOOD]식량과 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE">
+            <Text>전격전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]전격전[ENDCOLOR][NEWLINE]모든 위대한 장군의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 모든 기갑 유닛이 적군의 통제 지역을 무시하고, 공격력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하며, [ICON_MOVES]이동력은 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]명백한 운명[ENDCOLOR][NEWLINE][ICON_PEACE]신앙으로 구매하는 종교 유닛 및 건물의 가격이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE">
+            <Text>해안 공공시설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]해안 공공시설[ENDCOLOR][NEWLINE]모든 해안 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE">
+            <Text>미디어 문화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]미디어 문화[ENDCOLOR][NEWLINE]방송탑이 있는 도시에서 생성하는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]34%[ENDCOLOR]증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY">
+            <Text>상인 연합</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]상인 연합[ENDCOLOR][NEWLINE]도시 국가와 연결된 교역로의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_TEXT">
+            <Text>상업 동맹 혹은 무역 조합으로 더 잘 알려진 상인 엽합은 교역로로 연결된 국가와 도시의 상인들의 이윤과 외교 특권을 보호하기 위해 만들어졌다. 비록 이와 같은 상인 연합이 공식적인 직위를 가지고 있었던 것은 아니지만, 1407년에 창설된 런던 모험가-상인 회사나 1356년에 조직된 한자동맹과 같이 경제적으로 큰 영향력을 행사하고 장기간 특정 교역로를 지배해온 연합이 여럿 존재했다. 르네상스 초기에 특정 물품의 국외 거래 시 교역인의 이익을 보호하기 위해 베니스와 제노바 등의 지역에서 상인 연합이 조직되었다. 이와 같은 상인 동맹은 15세기에서 16세기에 가장 왕성하게 활동했으나, 상인 동맹이 기존에 지니고 있던 규제력과 외교력을 국가 정부나 왕의 허가를 받은 회사가 서서히 지니게 됨에 따라 쇠퇴해갔다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]상선대[ENDCOLOR][NEWLINE]항만, 항구, 등대의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 동인도 회사가 있는 도시의 [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]군국주의[ENDCOLOR][NEWLINE]모든 병영, 무기고, 사관 학교에서 생성하는 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MOBILIZATION">
+            <Text>동원령</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MOBILIZATION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]동원령[ENDCOLOR][NEWLINE][ICON_GOLD]골드로 유닛을 구매하는 비용이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]민족주의[ENDCOLOR][NEWLINE]유닛의 유지비로 쓰이는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]해상 혈통[ENDCOLOR][NEWLINE]항만, 항구, 등대의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL">
+            <Text>항해 학교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]항해 학교[ENDCOLOR][NEWLINE]위대한 제독이 출현합니다. 모든 위대한 제독의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 위대한 제독의 출현율이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_NEW_DEAL">
+            <Text>뉴딜 정책</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_NEW_DEAL_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]뉴딜 정책[ENDCOLOR][NEWLINE]위인시설과 랜드마크의 해당 분야 산출량이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_NEW_ORDER">
+            <Text>클라우제비츠의 유산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_NEW_ORDER_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]클라우제비츠의 유산[ENDCOLOR][NEWLINE]정책을 채택한 후 50턴 동안 모든 군사 유닛의 공격력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY">
+            <Text>아방가르드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]아방가르드[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP">
+            <Text>당 지도부</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]당 지도부[ENDCOLOR][NEWLINE]도시당 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+            <Text>대조국전쟁</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]대조국전쟁[ENDCOLOR][NEWLINE]우호 지역에서 싸울 때 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]의 공격 보너스를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR][NEWLINE]법원 하나당 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 법원 건설에 걸리는 시간이 반으로 줄어듭니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]직업 군대[ENDCOLOR][NEWLINE]군사 유닛을 업그레이드하는 데 필요한 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소하며, 병영, 무기고, 사관 학교의 건설 속도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 빨라집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]종교 개혁[ENDCOLOR][NEWLINE]종교를 창시했다면 [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+            <Text>재정착</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]재정착[ENDCOLOR][NEWLINE]새 도시의 [ICON_CITIZEN]인구가 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR] 추가됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SKYSCRAPERS">
+            <Text>마천루</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]마천루[ENDCOLOR][NEWLINE]건물을 구매할 때 필요한 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SOCIALIST_REALISM">
+            <Text>사회주의 리얼리즘</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]사회주의 리얼리즘[ENDCOLOR][NEWLINE]기념비가 생성하는 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 기념비의 건설 시간이 반으로 줄어듭니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS">
+            <Text>우주 사업 조달</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]우주 사업 조달[ENDCOLOR][NEWLINE]우주선 부품을 [ICON_GOLD]골드로 구매할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS">
+            <Text>우주비행 개척자</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]우주비행 개척자[ENDCOLOR][NEWLINE]위대한 기술자로 우주선 부품을 [COLOR_POSITIVE_TEXT]완성[ENDCOLOR]할 수 있습니다. [ICON_CAPITAL]수도 주변에 위대한 기술자와 위대한 과학자가 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR">
+            <Text>최상의 시간</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]최상의 시간[ENDCOLOR][NEWLINE]도시의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_THEOCRACY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]신권 정치[ENDCOLOR][NEWLINE]사원을 건설한 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 성지에서 제공하는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE">
+            <Text>제삼의 수단</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]제삼의 수단[ENDCOLOR][NEWLINE]문명이 생산하는 전략 자원의 양이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 수도에서 생산하는 [ICON_RESEARCH]과학과 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS">
+            <Text>용병군</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]용병군[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]란츠크네흐트[ENDCOLOR] 구입이 가능합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS">
+            <Text>보물선단</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]보물선단[ENDCOLOR][NEWLINE]문명의 모든 해상 교역로에서 얻는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION">
+            <Text>조약 기구</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]조약 기구[ENDCOLOR][NEWLINE]교역로가 연결된 도시 국가의 [ICON_INFLUENCE]영향력이 턴당 [COLOR_POSITIVE_TEXT]4[ENDCOLOR](표준 속도에서) 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]통일 전선[ENDCOLOR][NEWLINE]당신의 문명이 군사 도시 국가와 동일한 적을 상대로 전쟁 중일 때 해당 도시 국가로부터 유닛을 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 자주 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE">
+            <Text>국민 의료보험</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR][NEWLINE]모든 국가 불가사의 하나당 [ICON_HAPPINESS_1]지역 행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]보통선거[ENDCOLOR][NEWLINE]도시에 있는 전문가가 생성하는 [ICON_HAPPINESS_4]불행이 [COLOR_POSITIVE_TEXT]105:105:105:255[ENDCOLOR]으로 감소합니다. [ICON_GOLDEN_AGE]황금기의 지속 기간이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_URBANIZATION">
+            <Text>도시화</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_URBANIZATION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]도시화[ENDCOLOR][NEWLINE]물레방앗간, 병원 및 의학 연구소 하나당 [ICON_HAPPINESS_1]지역 행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY">
+            <Text>의용군</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]의용군[ENDCOLOR][NEWLINE]유닛 [COLOR_POSITIVE_TEXT]6개[ENDCOLOR]의 유지비를 부담하지 않아도 됩니다. 외인부대 유닛 [COLOR_POSITIVE_TEXT]6개[ENDCOLOR]를 즉시 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]전사 규범[ENDCOLOR][NEWLINE]근접 유닛을 생산할 때 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하며 [ICON_CAPITAL]수도에 위대한 장군이 출현합니다. 위대한 장군이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 더 자주 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES">
+            <Text>노동자 시설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]노동자 시설[ENDCOLOR][NEWLINE]공장이 건설된 도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 공장 건설 속도가 평소의 두 배로 빨라집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_YOUNG_PIONEERS">
+            <Text>피오네르 소년단</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]피오네르 소년단[ENDCOLOR][NEWLINE]작업장, 공장, 태양열 발전소, 원자력 발전소 및 수력 발전소 하나당 [ICON_HAPPINESS_1]지역 행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_ADD_TENET">
+            <Text>주의를 추가하려면 클릭</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY">
+            <Text>이념 바꾸기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY_DISABLED_TT">
+            <Text>당신의 국민이 [COLOR_POSITIVE_TEXT]만족[ENDCOLOR] 상태에 있을때는 이념을 바꿀 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY_TT">
+            <Text>이 버튼을 선택하면 당신의 국민이 선호하는 이념으로 이념을 변경할 수 있습니다. [COLOR_POSITIVE_TEXT]{1_IdeologyName}[ENDCOLOR].[NEWLINE][NEWLINE][ICON_HAPPINESS_1]행복이 {2_HappinessGain}만큼 증가하지만 새 계열의 주의가 {3_TenetLoss}개 줄어듭니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_CHOOSE_TENET">
+            <Text>주의 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_CONFIRM_CHANGE_IDEOLOGY">
+            <Text>이념을 변경하면 당신의 각 도시는 {1_AnarchyTurns}턴 동안 무정부상태가 되며 이 상태에서는 [ICON_PRODUCTION]생산, [ICON_GOLD]골드, [ICON_RESEARCH]과학, [ICON_CULTURE]문화 또는 [ICON_PEACE]신앙이 발생하지 않습니다.  현재 당신이 보유하고 있는 이념 주의의 수가 {3_CurrentIdeologyTree}의 {2_CurrentIdeologyTenets}개에서 {5_NewIdeologyTree}의 {4_NewIdeologyTenets}개로 떨어지게 됩니다.[NEWLINE][NEWLINE]하지만 {6_HappinessGain} [ICON_HAPPINESS_1] 여론 행복은 증가하게 됩니다.[NEWLINE](참고 : 새로운 이념을 주의로 선택할 때까지 주의로부터 얻는 행복을 일시적으로 상실하게 됩니다.)[NEWLINE][NEWLINE][COLOR_GREEN]{5_NewIdeologyName}[ENDCOLOR] 이념으로 변경하겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_CONFIRM_TENET">
+            <Text>[COLOR_GREEN]{1_TenetName}[ENDCOLOR]{1: plural 1?을; 2?를;} 채택하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGIES_TAB">
+            <Text>이념 주의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_DISABLED">
+            <Text>이념을 사용할 수 없는 시나리오입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L1TENETS">
+            <Text>레벨 1 주의 : [COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L2TENETS">
+            <Text>레벨 2 주의 : [COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L3TENETS">
+            <Text>레벨 3 주의 : [COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL1">
+            <Text>레벨 1</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL2">
+            <Text>레벨 2</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL3">
+            <Text>레벨 3</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED">
+            <Text>이념 주의는 이념을 선택하기 전까지 채택할 수 없습니다. 공장 세 개를 짓거나 현대 시대에 진입하면 이념을 선택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_TITLE">
+            <Text>{1_CivAdjective} {2_IdeologyName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGYPANEL_TITLE">
+            <Text>이념</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_L1_TENET">
+            <Text>레벨 1</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_L2_TENET">
+            <Text>레벨 2</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_L3_TENET">
+            <Text>레벨 3</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_NEED_L1_TENETS_TOOLTIP">
+            <Text>[COLOR_NEGATIVE_TEXT]이 레벨 2 주의를 획득하려면 레벨 1 주의가 하나 더 필요합니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_NEED_L2_TENETS_TOOLTIP">
+            <Text>[COLOR_NEGATIVE_TEXT]이 레벨 3 주의를 획득하려면 레벨 2 주의가 하나 더 필요합니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_SOCIAL_POLICIES_TAB">
+            <Text>사회 정책</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_TENETS">
+            <Text>이념 주의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICYSCREEN_TO_IDEOLOGY_BUTTON">
+            <Text>해당 이념으로[ICON_ARROW_RIGHT]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_AFRAID">
+            <Text>현재 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR](+{1_FactorScore}):</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_ALLIES">
+            <Text>동맹 있음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BASE_RELUCTANCE">
+            <Text>기본적으로 꺼림</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_RECENTLY">
+            <Text>최근에 공물을 바쳤음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY">
+            <Text>매우 최근에 공물을 바쳤음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_GLOBAL_MILITARY">
+            <Text>총 군사력</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_GUNBOAT_DIPLOMACY">
+            <Text>포함 외교 주의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_HOSTILE">
+            <Text>배타적 성격</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE">
+            <Text>[ICON_INFLUENCE]영향력 매우 낮음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_POPULATION">
+            <Text>인구 낮음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_MILITARISTIC">
+            <Text>군사적 특성</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_MILITARY_PRESENCE">
+            <Text>도시 국가 주변에 군사 배치</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NEGATIVE">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]({1_FactorScore}) {@2_FactorDescription}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_PLEDGES_TO_PROTECT">
+            <Text>보호 약속을 함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_POSITIVE">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT](+{1_FactorScore}) {@2_FactorDescription}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_UNIT_RELUCTANCE">
+            <Text>유닛을 줌</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_GOLD_TT">
+            <Text>당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 [ICON_INFLUENCE]영향력을 소모해 [ICON_GOLD]골드를 공물로 요구할 수 있습니다. {1_FearLevel}{2_FactorDetails}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT">
+            <Text>현재 [COLOR_WARNING_TEXT]불복[ENDCOLOR]({1_FactorScore})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_UNIT_TT">
+            <Text>당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 [ICON_INFLUENCE]영향력을 소모해 {@3_Unit} 하나를 공물로 요구할 수 있습니다. {1_FearLevel}{2_FactorDetails}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_GIFT_TILE_IMPROVEMENT_TT">
+            <Text>[ICON_GOLD]골드를 지불하면 이 도시 국가의 전략 사치 자원을 하나 개발할 수 있습니다. 해당 도시 국가는 개발한 자원을 얻게 되고 동맹인 문명  해당 자원을 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT">
+            <Text>도시 국가에 유닛을 주면 [ICON_INFLUENCE]영향력이 {1_Influence}만큼 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT_TT">
+            <Text>도시 국가에 군사 유닛을 선물 할 수 있습니다. 해당 유닛이 도시 국가에 도착하려면 {1_TurnsUntilArrival}턴이 걸리며 그동안 다른 유닛을 선물로 줄 수 없습니다. 유닛이 도착하면 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{2_Influence}[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_FOUND_ON_DIG_SITE">
+            <Text>{@1_ActionName}을 하시겠습니까?[NEWLINE]{@1_ActionName}을 하면 현재 위치의 사적지가 영구히 사라집니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_INTERNATIONAL_SPACE_STATION_HELP">
+            <Text>이 도시의 [ICON_PRODUCTION]생산을 국제 우주 정거장 프로젝트 공헌에 사용합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_WORLD_FAIR_HELP">
+            <Text>이 도시의 [ICON_PRODUCTION]생산을 만국 박람회 프로젝트 공헌에 사용합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_WORLD_GAMES_HELP">
+            <Text>이 도시의 [ICON_PRODUCTION]생산을 국제 스포츠 대회 프로젝트 공헌에 사용합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_ARTIFACTS_HELP">
+            <Text>고고학 발굴 현장을 건설하면 사적지에서 걸작 예술품 슬롯에 추가할 수 있는 걸작 유물을 발견하거나 고고학 발굴 현장을 랜드마크 시설로 바꿀 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_CLOVES_HELP">
+            <Text>인도네시아 도시 주변에 사치 자원으로 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP">
+            <Text>고고학 발굴 현장을 건설하면 숨은 사적지에서 걸작 예술품 슬롯에 추가할 수 있는 걸작 유물을 발견하거나 고고학 발굴 현장을 랜드마크 시설로 바꿀 수 있습니다. 숨은 사적지는 탐험 정책 계열을 모두 연구한 문명만이 발견할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_NUTMEG_HELP">
+            <Text>인도네시아 도시 주변에 사치 자원으로 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_PEPPER_HELP">
+            <Text>인도네시아 도시 주변에 사치 자원으로 출현합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+            <Text>우호 영토의 숲과 정글을 도로처럼 사용할 수 있고, 바퀴를 연구하면 이러한 타일을 [ICON_CONNECTED]도시 연결에 사용할 수 있습니다. 대상이 숲 및 정글을 도로처럼 이동할 수 있게 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD">
+            <Text>[ICON_CONNECTED]도시 연결마다 얻을 수 있는 [ICON_GOLD]골드가 1 증가하며 [ICON_RES_OIL]석유 자원이 두 배로 제공됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WARMONGER_HATE_HIGH">
+            <Text> (전쟁광을 증오합니다!)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WARMONGER_HATE_LOW">
+            <Text> (가벼운 전쟁 도발은 무시합니다.)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WARMONGER_HATE_MID">
+            <Text> (전쟁광을 싫어합니다.)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WARMONGER_PREVIEW_EXTREME">
+            <Text>이 도시를 점령하면 [COLOR_NEGATIVE_TEXT]엄청난[ENDCOLOR] 전쟁광 페널티를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WARMONGER_PREVIEW_MAJOR">
+            <Text>이 도시를 점령하면 [COLOR_NEGATIVE_TEXT]상당한[ENDCOLOR] 전쟁광 페널티를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WARMONGER_PREVIEW_MINOR">
+            <Text>이 도시를 점령하면 [COLOR_NEGATIVE_TEXT]가벼운[ENDCOLOR] 전쟁광 페널티를 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_BIG_BEN_HELP">
+            <!--빅벤-->
+            <Text>상업[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]모든 도시에서 유닛과 건물 구매에 필요한 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_BROADWAY_HELP">
+            <!--브로드웨이-->
+            <Text>[ICON_GREAT_MUSICIAN]위대한 음악가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다. 걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+            <!--피라미드-->
+            <Text>   [COLOR_MAGENTA]자유[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]타일 시설 건설 속도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 빨라지고 도시 근처에 노동자 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]이 출현합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+            <!--에펠탑-->
+            <Text>전역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. 제공되는 [ICON_CULTURE]문화 외에도 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]12[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP">
+            <!--자금성-->
+            <Text>[COLOR_MAGENTA]후원[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]추가 대표단 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR]을 확보합니다. 점령되지 않은 도시의 [ICON_CITIZEN]시민이 생성하는 [ICON_HAPPINESS_4]불행이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_GLOBE_THEATER_HELP">
+            <!--글로브-->
+            <Text>[ICON_GREAT_WRITER]위대한 작가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_GREAT_LIBRARY_HELP">
+            <!--알렉-->
+            <Text>[COLOR_RESEARCH_STORED]무료 기술[ENDCOLOR]을 제공합니다. 걸작 문학 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다. 이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]도서관[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
+            <!--공중 정원-->
+            <Text>[COLOR_MAGENTA]전통[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]정원[ENDCOLOR]을 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
+            <!--루브르-->
+            <Text>[COLOR_MAGENTA]탐험[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_GREAT_ARTIST]위대한 예술가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다. 걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]4개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP">
+            <!--마추-->
+            <Text>[ICON_CONNECTED]도시 연결로 얻는 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시 주변 [COLOR_YELLOW]2타일 이내에 산[ENDCOLOR]이 있어야 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+            <!--젠네-->
+            <Text>[COLOR_MAGENTA]신앙[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]이 도시에서 생산되는 모든 [ICON_MISSIONARY]선교사는 종교를 [COLOR_POSITIVE_TEXT]세 번[ENDCOLOR] 전파할 수 있습니다. 이 불가사의가 건설된 도시에 [COLOR_POSITIVE_TEXT]모스크[ENDCOLOR]를 무료로 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_PORCELAIN_TOWER_HELP">
+            <!--영곡탑-->
+            <Text>[COLOR_MAGENTA]합리[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_GREAT_SCIENTIST]위대한 과학자 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다. 연구 협정으로 얻는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_SISTINE_CHAPEL_HELP">
+            <!--시스티나-->
+            <Text>모든 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+            <!--시드니-->
+            <Text>[COLOR_MAGENTA]무료 사회 정책[ENDCOLOR]을 제공합니다. 이 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_UFFIZI_HELP">
+            <!--우피치-->
+            <Text>[COLOR_MAGENTA]미학[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_GREAT_ARTIST]위대한 예술가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다. 걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_UNITED_NATIONS_HELP">
+            <Text>세계 대회가 국제 연합으로 바뀌며, 외교 승리 투표를 시작합니다. 국제 연합을 보유한 문명은 추가 대표단 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]을 확보합니다.</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_HALICARNASSUS">
+            <Text>할리카르나소스의 영묘</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STATUE_ZEUS">
+            <Text>제우스 신상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TEMPLE_ARTEMIS">
+            <Text>아르테미스 사원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS">
+            <Text>제우스 신상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP">
+            <Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_DESC">
+            <Text>할리카르나소스의 영묘는 오늘날 터키 지역에 해당하는 고대 카리아 지역의 통치자 마우솔로스의 영묘로, 기원전 350년에 세워졌습니다. 당대 최고의 조각가와 석공이 설계하고 건설한 것으로 알려진 이 영묘는 양각으로 새긴 섬세한 조각과 47m에 달하는 웅장한 규모로 유명했었습니다. 서기 1001년경에 터키 지역을 여러차례 강타한 지진으로 파괴되었으며 그 후 19세기 중반 무렵 영국 고고학자에 의해서 능의 일부가 발굴되었습니다. "마우솔레움"이라는 말은 원래 고대 7대 불가사의로 불리던 이 무덤의 이름에서 유래된 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP">
+            <Text>[ICON_GREAT_PEOPLE]위인을 소모할 때마다 [COLOR_POSITIVE_TEXT]100[ENDCOLOR] [ICON_GOLD]골드를 획득합니다. 도시 주변 [ICON_RES_MARBLE]대리석과 [ICON_RES_STONE]석재의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"영웅의 발자취는 석상과 비석에서만 찾을 수 있는 것이 아니다. 그들의 이야기는 이 세상 모든 사람의 삶에 녹아 있다."[NEWLINE][TAB][TAB] - 페리클레스[NEWLINE][TAB]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_DESC">
+            <Text>그리스 올림피아 지역에 있는 제우스 신전에는 높이가 12m를 넘는 제우스 신상이 있었습니다. 고대 7대 불가사의 중 하나였던 이 신상은 그리스인 조각가 페이디아스가 기원전 440년에 조각한 것으로 알려졌습니다. 제우스 신이 황금 옥좌에 앉은 형상을 한 이 신상은 크기가 너무 커서 신전에 간신히 들어갈 정도입니다. 제우스 신상은 기원전 425년 이전에 화재로 유실되었다고 추정되지만, 화재 당시 신상이 실제로 있었는지는 확인할 길이 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP">
+            <Text>도시 공격 시 모든 유닛의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"눈썹이 짙은 크로노스의 아들이 고개를 끄덕이며 대답하자 이 위대한 신의 머릿결이 흩날리며 올림포스 전체가 진동했다."[NEWLINE][TAB][TAB] - 일리아드[NEWLINE][TAB]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_DESC">
+            <Text>기원전 880년경 그리스인이 세운 아르테미스 신전은 야성과 사냥 그리고 달을 상징하는 여신 아르테미스를 모시는 곳입니다. 원래 에베소에 지었다는 이 신전은 자연재해와 인재로 무너지고 다시 짓기를 7번 이상 반복했다고 합니다. 고대 7대 불가사의 중 하나인 이 신전은 18세기 영국 고고학자에 의해 그 터가 발견되었으며 지금은 유적지에서 발굴된 돌로 만든 기둥 하나만이 남아 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP">
+            <Text>모든 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.이 도시에서 원거리 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"인간이 숲을 동경하는 이유는 그저 숲이 아름다워서가 아니라 오래된 숲의 고목에서 뿜어져 나오는 공기에 존재하는 미묘한 무엇인가가 사람의 지친 영혼에 활기를 불어넣어 주고 회복시켜 주기 때문이다."[NEWLINE][TAB][TAB] - 로버트 루이스 스티븐슨[NEWLINE][TAB]</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE">
+			<Text>문화</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_CULTURE]문화로 전환하고 도시의 [ICON_CULTURE] 무료를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
+			<Text>생산으로 문화를 향상시키는 것은 문명의 문화를 가속하는 훌륭한 수단이고, 다음 정책을 얻거나 다른 문명의 문화 승리를 막기 위한 선택이기도 합니다. 또한 도시의 무료를 감소시킵니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE">
+			<Text>방어</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]를 도시 [ICON_STRENGTH]방어력 및 체력 회복률로 전환시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
+			<Text>생산으로 방어를 향상시키는 것은 도시를 외부의 점령으로부터 보호하기 위한 최후의 수단입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_FOOD">
+			<Text>농업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 [ICON_FOOD]식량으로 전환하고 도시의 [ICON_FOOD]/[ICON_PRODUCTION]낙후를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
+			<Text>생산으로 농업을 향상시키는 것은 기술이 뒤떨어졌거나 단순히 거대한 도시를 만들고 싶을 때 좋은 선택지입니다. 낙후를 감소시킵니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_TOURISM">
+			<Text>관광</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TOURISM_HELP">
+			<Text>도시 [ICON_PRODUCTION] 생산의 15%를 [ICON_TOURISM] 관광으로 전환합니다.[NEWLINE][NEWLINE]사회주의 리얼리즘 이념 주의를 채택해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TOURISM_STRATEGY">
+			<Text>{TXT_KEY_PROCESS_TOURISM_HELP}[NEWLINE][NEWLINE]선전에 생산을 투자하는 것은 세계에서 도시의 영향력을 높이는 좋은 방법입니다. 이는 현재 혁명의 물결 속에 있거나 다른 문명에 이를 강요하려는 경우 유용할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_TREASURE_FLEET">
+			<Text>보물 선단</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TREASURE_FLEET_HELP">
+			<Text>이 도시의 [ICON_PRODUCTION]생산을 보물 선단 프로젝트 공헌에 사용합니다. 게임 내 문명의 수와 현재 시대에 따라 비용이 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_WARGAMES">
+			<Text>국제 군사 훈련</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_WARGAMES_HELP">
+			<Text>이 도시의 [ICON_PRODUCTION]생산을 국제 군사 훈련 프로젝트 공헌에 사용합니다. 게임 내 문명의 수와 현재 시대에 따라 비용이 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS">
+			<Text>국제 연합</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS_HELP">
+			<Text>이 도시의 [ICON_PRODUCTION]생산을 국제 연합 프로젝트 공헌에 사용합니다. 게임 내 문명의 수와 현재 시대에 따라 비용이 증가합니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/6/2014 9:56:48 PM -->
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT">
+			<Text>공무원|공무원</Text>
+			<Plurality>1|1</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_STRATEGY">
+			<Text>공무원을 생산하여 도시의 산출량을 늘리고 [ICON_DIPLOMAT]위대한 외교관의 출현을 앞당길 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_SLOTS">
+			<Text>공무원 슬롯 :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_TITLE">
+			<Text>위대한 외교관 점수</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>
