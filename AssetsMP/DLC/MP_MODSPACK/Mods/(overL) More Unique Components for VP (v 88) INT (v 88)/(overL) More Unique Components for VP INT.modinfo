@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="460268e7-87f9-4d69-a5c7-b8c67aaa5281" version="88">
+  <Properties>
+    <Name>(overL) More Unique Components for VP (v 88) INT</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Translation for More Unique Components mod.</Teaser>
+    <Description>Translation for More Unique Components mod into several non-English languages. Based on CAYM's translation. Currently to Korean only.[NEWLINE][NEWLINE]CAYM님의 More Unique Components 모드 번역을 기반으로 하는 비영어권 번역 모드입니다. 현재는 한국어만 가능합니다.</Description>
+    <Authors>C A Y M</Authors>
+    <SpecialThanks>문명메트로폴리스(Civilization Metropolis)</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://cafe.naver.com/civilization4/289588</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" minversion="0" maxversion="999" title="Community Patch Localized" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Vox Populi" />
+    <Mod id="559f86b1-5b57-4975-a9ed-b9f3855506f5" minversion="0" maxversion="999" title="Vox Populi Localized" />
+    <Mod id="259c3593-34dd-4fdd-bd7d-8ed67cc0797c" minversion="0" maxversion="999" title="More Unique Components for VP" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="529E32F0EE629205D7AA5F98397CE463" import="0">!Compatibility/MUC-VPEE.sql</File>
+    <File md5="D0D6080B4B65A0340572527491565A53" import="0">!GameTexts/ComponentTextChanges.sql</File>
+    <File md5="2D627C1AC5E78840575C4B364E719D6E" import="0">!GameTexts/NewComponentTexts.xml</File>
+    <File md5="36A01138135C163EF52A490466009B13" import="0">Celts/PictishWarrior/PictishWarrior.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>!Compatibility/MUC-VPEE.sql</UpdateDatabase>
+      <UpdateDatabase>!GameTexts/ComponentTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>!GameTexts/NewComponentTexts.xml</UpdateDatabase>
+      <UpdateDatabase>Celts/PictishWarrior/PictishWarrior.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

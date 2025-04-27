@@ -4329,7 +4329,7 @@ function SelectBuildingOrWonderArticle( buildingID )
 		--AnalyzeBuilding("UnlockedByBelief");
 		if thisBuilding.UnlockedByBelief then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]교리[ENDCOLOR]에서 해제"; end
 		--AnalyzeBuilding("UnlockedByLeague");
-		if thisBuilding.UnlockedByLeague then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]세계 회의[ENDCOLOR]에서 해제"; end
+		if thisBuilding.UnlockedByLeague then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]세계 의회[ENDCOLOR]에서 해제"; end
 		--AnalyzeBuilding("PolicyBranchType");
 		if thisBuilding.PolicyBranchType ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.PolicyBranchTypes[thisBuilding.PolicyBranchType].Description).."[ENDCOLOR] 필요함"; end
 		--AnalyzeBuilding("PolicyType");
@@ -4607,11 +4607,11 @@ function SelectBuildingOrWonderArticle( buildingID )
 						sLocText = sLocText..string.format("%+d%s ", row.Yield, row.IconString);
 					else
 						sLocText = sLocText..string.format("[NEWLINE][ICON_BULLET]%+d%s ", row.Yield, row.IconString);
-						sLocText = sLocText..Locale.Lookup(sGroup).."에서";
+						sLocText = sLocText.."("..Locale.Lookup(sGroup)..") ";
 						sGroup = row.Description;
 					end
 				end
-				if sGroup ~= "" then sLocText = sLocText..Locale.Lookup(sGroup).."에서"; end
+				if sGroup ~= "" then sLocText = sLocText.."("..Locale.Lookup(sGroup)..") "; end
 			end
 			if sLocText ~= "" then
 				sText = sText.."[NEWLINE]"..sInfo..sLocText;
@@ -4622,21 +4622,21 @@ function SelectBuildingOrWonderArticle( buildingID )
 		--AnalyzeBuildingYields("Building_YieldChangesPerPop", 			 "", 					"", "%", "");
 		--AnalyzeBuildingYields("Building_YieldModifiers", 			     "", 					"", "%", "");
 		--                     secondary table                            field name           ref table         flags info text
-		AnalyzeBuildingYields("Building_TerrainYieldChanges",   	     "TerrainType", 		"Terrains",			"", 		"[COLOR_CYAN]지형[ENDCOLOR]으로부터 산출량:");
-		AnalyzeBuildingYields("Building_FeatureYieldChanges",            "FeatureType",       	"Features",			"", 		"[COLOR_CYAN]특징[ENDCOLOR]으로부터 산출량:");
-		AnalyzeBuildingYields("Building_ResourceYieldChanges",           "ResourceType",      	"Resources", 		"", 		"[COLOR_CYAN]자원[ENDCOLOR]으로부터 산출량:");
-		AnalyzeBuildingYields("Building_SeaResourceYieldChanges", 		 "", 					"", 				"", 		"[COLOR_CYAN]해양 자원[ENDCOLOR]으로 부터 산출량:");
-		AnalyzeBuildingYields("Building_ImprovementYieldChanges",        "ImprovementType",   	"Improvements",  	"", 		"[COLOR_CYAN]시설[ENDCOLOR]로부터 산출량:");
-		AnalyzeBuildingYields("Building_PlotYieldChanges",               "PlotType",          	"Plots",         	"", 		"[COLOR_CYAN]타일[ENDCOLOR]로부터 산출량:");
-		AnalyzeBuildingYields("Building_LakePlotYieldChanges",           "",                  	"",             	"", 		"[COLOR_CYAN]호수[ENDCOLOR] 타일로부터 산출량:");
-		AnalyzeBuildingYields("Building_RiverPlotYieldChanges", 		 "", 					"", 				"", 		"[COLOR_CYAN]강[ENDCOLOR] 타일로부터 산출량:");
-		AnalyzeBuildingYields("Building_SeaPlotYieldChanges", 			 "", 					"", 				"", 		"[COLOR_CYAN]해양[ENDCOLOR] 타일로부터 산출량:");
-		AnalyzeBuildingYields("Building_BuildingClassLocalYieldChanges", "BuildingClassType", 	"BuildingClasses", 	"Change", 	"[COLOR_CYAN]건물[ENDCOLOR]로부터 산출량:");
-		AnalyzeBuildingYields("Building_SpecialistYieldChangesLocal",    "SpecialistType", 		"Specialists", 		"", 		"[COLOR_CYAN]전문가[ENDCOLOR]로부터 산출량:");
+		AnalyzeBuildingYields("Building_TerrainYieldChanges",   	     "TerrainType", 		"Terrains",			"", 		"[COLOR_CYAN]지형[ENDCOLOR]으로부터 산출량: ");
+		AnalyzeBuildingYields("Building_FeatureYieldChanges",            "FeatureType",       	"Features",			"", 		"[COLOR_CYAN]특징[ENDCOLOR]으로부터 산출량: ");
+		AnalyzeBuildingYields("Building_ResourceYieldChanges",           "ResourceType",      	"Resources", 		"", 		"[COLOR_CYAN]자원[ENDCOLOR]으로부터 산출량: ");
+		AnalyzeBuildingYields("Building_SeaResourceYieldChanges", 		 "", 					"", 				"", 		"[COLOR_CYAN]해양 자원[ENDCOLOR]으로 부터 산출량: ");
+		AnalyzeBuildingYields("Building_ImprovementYieldChanges",        "ImprovementType",   	"Improvements",  	"", 		"[COLOR_CYAN]시설[ENDCOLOR]로부터 산출량: ");
+		AnalyzeBuildingYields("Building_PlotYieldChanges",               "PlotType",          	"Plots",         	"", 		"[COLOR_CYAN]타일[ENDCOLOR]로부터 산출량: ");
+		AnalyzeBuildingYields("Building_LakePlotYieldChanges",           "",                  	"",             	"", 		"[COLOR_CYAN]호수[ENDCOLOR] 타일로부터 산출량: ");
+		AnalyzeBuildingYields("Building_RiverPlotYieldChanges", 		 "", 					"", 				"", 		"[COLOR_CYAN]강[ENDCOLOR] 타일로부터 산출량: ");
+		AnalyzeBuildingYields("Building_SeaPlotYieldChanges", 			 "", 					"", 				"", 		"[COLOR_CYAN]해양[ENDCOLOR] 타일로부터 산출량: ");
+		AnalyzeBuildingYields("Building_BuildingClassLocalYieldChanges", "BuildingClassType", 	"BuildingClasses", 	"Change", 	"[COLOR_CYAN]건물[ENDCOLOR]로부터 산출량: ");
+		AnalyzeBuildingYields("Building_SpecialistYieldChangesLocal",    "SpecialistType", 		"Specialists", 		"", 		"[COLOR_CYAN]전문가[ENDCOLOR]로부터 산출량: ");
 		-- global changes
-		AnalyzeBuildingYields("Building_ImprovementYieldChangesGlobal",  "ImprovementType",   	"Improvements",    	"", 		"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]시설[ENDCOLOR]로부터 산출량:");
-		AnalyzeBuildingYields("Building_BuildingClassYieldChanges",      "BuildingClassType", 	"BuildingClasses", 	"Change", 	"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]건물[ENDCOLOR]로부터 산출량:");
-		AnalyzeBuildingYields("Building_SpecialistYieldChanges", 		 "SpecialistType", 		"Specialists", 		"", 		"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]전문가[ENDCOLOR]로부터 산출량:");
+		AnalyzeBuildingYields("Building_ImprovementYieldChangesGlobal",  "ImprovementType",   	"Improvements",    	"", 		"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]시설[ENDCOLOR]로부터 산출량: ");
+		AnalyzeBuildingYields("Building_BuildingClassYieldChanges",      "BuildingClassType", 	"BuildingClasses", 	"Change", 	"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]건물[ENDCOLOR]로부터 산출량: ");
+		AnalyzeBuildingYields("Building_SpecialistYieldChanges", 		 "SpecialistType", 		"Specialists", 		"", 		"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]전문가[ENDCOLOR]로부터 산출량: ");
 		-------------------
 		UpdateTextBlock( sText, Controls.ExtendedLabel,  Controls.ExtendedInnerFrame,  Controls.ExtendedFrame );
 		-- end Infixo
