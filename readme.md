@@ -134,21 +134,9 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
 
 ## 함께 쓰면 좋은 모드
 
-- [More Unique Components for VP](https://forums.civfanatics.com/attachments/my-4uc-folder-zip.713557/)
-  
-  위에서 설명한 3, 4번째 고유 유닛을 추가해주는 모드로 조만간 VP에 공식 편입될 예정이 있어 조만간 기본 기능이 될 모드라 현재 업데이트가 중단되어 있습니다. 이 링크는 최신 버전 VP에서 작동되도록 수정된 34UC v88.10 버전의 수정본입니다.
-
-- [(vp) City Distance to 5](https://steamcommunity.com/sharedfiles/filedetails/?id=2304856716)
-  
-  도시 타일 거리를 5칸까지 늘려주는 모드로 VP가 3.0버전 이후로 정책이 바뀌어 제작자는 [(vp) City Distance to 4](https://steamcommunity.com/sharedfiles/filedetails/?id=2786972508) 모드를 권장하고 있습니다.
-
 - [Bare Necessities](https://forums.civfanatics.com/threads/bare-necessities.645157/)
   
   Barebone Additions이라고도 불리며 VP에 없는 필수품(신앙 건물)을 많이 추가해줍니다.
-
-- [Enhanced Naval Warfare for Vox Populi](https://forums.civfanatics.com/resources/enhanced-naval-warfare-for-vox-populi.26569/)
-  
-  게임 후반부인 현대 시대 이후 새로운 해군 유닛을 추가해주는 모드로 각 유닛마다 특정 유닛의 완전한 세트가 갖춰지도록 해 빈틈이 없게 해줍니다.
 
 - [Better Lakes for VP](https://forums.civfanatics.com/threads/better-lakes-for-vp.662230/)
   
@@ -162,4 +150,4 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
 
 그래도 2024년 10월 29일, VP 4.15.2 버전까지는 번역을 맡아주셨고, 누락된 부분과 제보를 받아 고치며 12월 12일까지는 계속되었습니다.
 
-2025년 2월 15일, 오랜만에 hyuckkim님이 깃허브의 자동 설치 프로그램 제작을 고쳤으며 8일 후인 23일, HANDANI가 VP 4.19.1에 4.15.2 한국어 모드를 합친 모드팩을 시작으로 4.19.1 버전으로 마이그레이션을 했으며, 지속적인 수정을 거쳐 현재의 4.20.2 버전으로 이어집니다.
+2025년 2월 15일, 오랜만에 hyuckkim님이 깃허브의 자동 설치 프로그램 제작을 고쳤으며 8일 후인 23일, HANDANI님이 VP 4.19.1에 4.15.2 한국어 모드를 합친 모드팩을 시작으로 4.19.1 버전으로 마이그레이션을 했으며, 지속적인 수정을 거쳐 현재 버전으로 이어집니다.
