@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_ALLOWS_EMBASSY">
+      <Text>다른 문명의 수도에 대사관 건설 가능</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_PANTHEON_TITLE">
+      <Text>종교관 세우기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ALREADY_FOUNDED">
+      <Text>{2_CivName}{2: plural 1?이; 2?가;} {1_ReligionName}{1: plural 1?을; 2?를;} 이미 창시했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_AVAILABLE_LATER">
+      <Text>나중에 종교가 강화되면 사용할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_BONUS_BELIEF">
+      <Text>보너스 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_BYZANTINES_ONLY">
+      <Text>비잔티움제국만 사용할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CHANGE_NAME">
+      <Text>이름 바꾸기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CONFIRM">
+      <Text>{1_ReligionName}{1: plural 1?을; 2?를;} 창시하시겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CONFIRM_ENHANCE">
+      <Text>{1_ReligionName}{1: plural 1?을; 2?를;} 강화하시겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ENTER_NAME">
+      <Text>새 이름 입력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ERROR_NAME_EMPTY">
+      <Text>이름은 비워 둘 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOLLOWER_BELIEF">
+      <Text>신도 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOLLOWER_BELIEF2">
+      <Text>두 번째 신도 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOUNDED_IN">
+      <Text>{1_DateYear}에 창시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOUNDER_BELIEF">
+      <Text>창시자 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_NAME_LABEL">
+      <Text>{1_ReligionName}[COLOR_GREEN](이름을 변경하려면 클릭)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_OK_BUTTON">
+      <Text>종교 창시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_OK_BUTTON_ENHANCE">
+      <Text>종교 강화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_PANTHEON_BELIEF">
+      <Text>종교관 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_BONUS_BELIEF">
+      <Text>보너스 교리를 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOLLOWER_BELIEF">
+      <Text>신도 교리를 선택하십시오(이 종교를 믿는 모든 도시에 보너스 제공).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOLLOWER_BELIEF2">
+      <Text>신도 교리를 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOUNDER_BELIEF">
+      <Text>창시자 교리를 선택하십시오(창시자 문명에 보너스 제공).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_ICON">
+      <Text>종교 아이콘을 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_PANTHEON_BELIEF">
+      <Text>종교관 교리를 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_SPREAD_BELIEF">
+      <Text>종교 강화 교리를 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SPREAD_BELIEF">
+      <Text>종교 강화 교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_TITLE">
+      <Text>종교 창시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_TITLE_ENHANCE">
+      <Text>종교 강화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_UNMET_PLAYER">
+      <Text>아직 만나지 못한 플레이어</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_GP_MOD">
+      <Text>[ICON_BULLET]도시 보너스 +{1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_HAS_SPY_TT">
+      <Text>이 도시에서 {1_SpyName}{1: plural 1?이; 2?가;} 활동하고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EGI_TRADE_ROUTE_MOD_INFO">
+      <Text>골드 보정치 {1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_ACTIVITY">
+      <Text>활동</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_AGENTS">
+      <Text>요원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_BUILDINGS">
+      <Text>[ICON_PLUS] 전역 건물 행복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_BUILDINGS_COLLAPSE">
+      <Text>[ICON_MINUS] 전역 건물 행복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CIVILIZATION">
+      <Text>문명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_COUP">
+      <Text>쿠데타</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_COUP_TT">
+      <Text>해당 도시 국가와 동맹이 되기 위해 스파이로 쿠데타를 시도할 수 있습니다. 다른 문명과 동맹을 맺은 도시 국가에서만 쿠데타를 일으킬 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_RELIGION">
+      <Text>종교 수입</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_FROM">
+      <Text>발신</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_MSG">
+      <Text>메시지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_TURN">
+      <Text>턴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_KIA">
+      <Text>전사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCAL_CITY">
+      <Text>[ICON_PLUS] 지역 도시 행복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCAL_CITY_COLLAPSE">
+      <Text>[ICON_MINUS] 지역 도시 행복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCATION">
+      <Text>장소</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NAME">
+      <Text>이름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NAME_RANK">
+      <Text>이름/계급</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL">
+      <Text>잠재력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELIGION">
+      <Text>종교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE">
+      <Text>이동</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE_SPY_QUESTION">
+      <Text>스파이를 재배치하시겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE_TOOLTIP">
+      <Text>재배치</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_STAGE_COUP_QUESTION">
+      <Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 쿠데타를 일으켜 {4_CivShotDesc} 지지자들을 몰아내게 할 수 있습니다.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]이 임무의 성공률은 {5_PERCENT}%입니다.[ENDCOLOR]임무에 성공하면 {6_CityName}의 동맹이 되며 {7_CivShortDesc}의 영향력이 떨어집니다. 실패하면 스파이는 죽고 {8_CityName}와의 영향력이 감소합니다.[NEWLINE][NEWLINE]{9_SpyRank} {10_SpyName}에게 {11_CityName}에서 쿠데타를 일으키라고 지시하시겠습니까?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_THEIR_CITIES">
+      <Text>상대의 도시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TITLE">
+      <Text>첩보 개요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_VIEW">
+      <Text>보기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_VIEW_TOOLTIP">
+      <Text>도시 보기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_YOUR_CITIES">
+      <Text>내 도시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE_PROMOTION_FROM_TECH">
+      <Text>해당 유닛에게 [COLOR_POSITIVE_TEXT]{@1_PromotionName}[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]({@2_PromotionHelp})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_22">
+      <Text>첩보</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_23">
+      <Text>종교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_MERCANTILE">
+      <Text>상업 도시 국가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_RELIGIOUS">
+      <Text>종교 도시 국가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_ADMIRAL_TT">
+      <Text>{1_current}/{2_needed}[NEWLINE]다음 위대한 제독이 탄생하려면 해상 유닛으로 전투 경험치를 쌓아야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_GA_PROGRESS">
+      <Text>위대한 제독 진행도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_GENERAL_TT">
+      <Text>{1_current}/{2_needed}[NEWLINE]다음 위대한 장군이 출현할 때까지 지상 유닛이 전투를 통해 얻어야 하는 경험치입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_NEW_TO_XP">
+      <Text>새 확장팩 콘텐츠</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_FAITH_LABEL">
+      <Text>신앙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SPEC_HELP_TEXT">
+      <Text>시간과 역사 속에는 항상 세계에 변화를 가져오는 남성과 여성들이 있었습니다. 이들은 예술가, 과학자, 장군, 상인 등 누구보다도 뛰어난 형태의 사람으로 역사 속에 등장했습니다. 이 게임에서 이들은 "위인"으로 등장합니다.[NEWLINE][NEWLINE]게임에는 위대한 상인, 위대한 예술가, 위대한 과학자, 위대한 기술자, 위대한 장군, 위대한 제독, 위대한 선지자 이렇게 총 7종류의 위인들이 등장합니다. 각각의 위인에게는 특수 능력이 있습니다.[NEWLINE][NEWLINE]당신의 문명은 특정 건물과 불가사의를 짓고 이들 건물에 "전문가"를 배치함으로써 위인들을 얻을 수 있습니다. "전문가"는 일반적인 필드나 광산에서 일하지 않는 사람들을 뜻합니다. 전문가들은 도시 주변 타일에서 일하지는 않지만, 위인들이 탄생하는 데 큰 도움을 줍니다. 도시를 운영하는 데 있어 음식과 생산, 위인의 탄생을 위한 전문가들을 적절히 배치하는 것은 매우 중요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_GP_MOD">
+      <Text>[ICON_BULLET]제국 보너스: +{1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_OVERVIEW">
+      <Text>종교 개요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_BUILDING">
+      <Text>건물 구입</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_GREAT_PERSON">
+      <Text>{1_GreatPersonType}{1: plural 1?을; 2?를;} 위해 모으기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_INQUISITOR">
+      <Text>이단심문관 구입</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_MISSIONARY">
+      <Text>선교사 구입</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PROMPT">
+      <Text>나중에 알리기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET">
+      <Text>위대한 선지자를 위해 모으기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE">
+      <Text>자동 [ICON_PEACE]신앙 구입:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_GREAT_PERSON">
+      <Text>{1_GreatPersonType} 구입</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_PROPHET">
+      <Text>위대한 선지자 구입</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_BELIEFS">
+      <Text>교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_BONUS">
+      <Text>보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_NO_BELIEFS">
+      <Text>활성화 교리가 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_RELIGION">
+      <Text>종교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_TYPE">
+      <Text>형식</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_PANTHEON">
+      <Text>{@1_CivAdj} 종교관</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_ENHANCER">
+      <Text>향상</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_FOLLOWER">
+      <Text>신자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_FOUNDER">
+      <Text>창시자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_PANTHEON">
+      <Text>종교관</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_UNKNOWN_PANTHEON">
+      <Text>알 수 없는 종교관</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEFS">
+      <Text>교리:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEFS_NONE">
+      <Text>없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_FAITH">
+      <Text>[ICON_PEACE]신앙: {1_NumFaith}/{2_MinFaithForProphet}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_FAITH_TOOLTIP">
+      <Text>다음 위대한 선지자가 출현할 때까지 [ICON_PEACE]신앙이 최소 {1_MinFaith} 필요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_NO_WORLD_RELIGIONS">
+      <Text>세계 종교가 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_POSSIBLE_GP">
+      <Text>구입 가능한 위인:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_RELIGIOUS_STATUS">
+      <Text>종교 상태:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_CAN_CREATE_PANTHEON">
+      <Text>종교관을 세울 수 있습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_CREATED_PANTHEON">
+      <Text>종교관을 세웠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_FOUNDER">
+      <Text>{1_ReligionName}의 창시자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_NEED_FAITH">
+      <Text>종교관을 세우려면 [ICON_PEACE]신앙 {1_NumFaith} 필요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_TOO_LATE">
+      <Text>종교관을 세우기에 너무 늦었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_BELIEFS">
+      <Text>교리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_WORLD_RELIGIONS">
+      <Text>세계 종교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_YOUR_RELIGION">
+      <Text>플레이어 종교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_FOUNDER">
+      <Text>창시자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_HOLY_CITY">
+      <Text>성도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_NUM_AVAIL_RELIGIONS">
+      <Text>창시할 수 있는 종교 개수: {1_NumAvailReligions}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_NUMBER_OF_CITIES">
+      <Text>도시 개수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_OVERALL_STATUS">
+      <Text>전반적인 상태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_RELIGION">
+      <Text>종교</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_UNKNOWN_CIV">
+      <Text>아직 만나지 못한 문명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_UNKNOWN_HOLY_CITY">
+      <Text>알 수 없는 도시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_YR_NO_GREAT_PEOPLE">
+      <Text>없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_RELIGION_OFF">
+      <Text>종교: 끔</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_RELIGION_OFF_TOOLTIP">
+      <Text>이 게임에서 종교 시스템은 사용하지 않습니다. 신앙을 얻을 수 없으며 종교관을 세우거나 종교를 창시할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BASE_HEAL_MOD">
+      <Text>기본 유닛의 치유량이  [COLOR_POSITIVE_TEXT]{1_UnitHealingPercent}%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FORTIFICATION_MOD">
+      <Text>요새가 주는 전투 보너스가 [COLOR_POSITIVE_TEXT]{1_UnitFortificationPercent}%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CS_VOTES_COL_TT_ALT">
+      <Text>현재 동맹을 맺은 도시 국가의 수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CS_VOTES_TT_ALT">
+      <Text>{@1_CivName}{@1: plural 1?이; 2?가;} 현재 동맹을 맺은 도시 국가:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_COL_TT_ALT">
+      <Text>이전 투표에서 표를 준 문명 (자신에게는 표를 줄 수 없음)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_TITLE_ALT">
+      <Text>최근 투표</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_TT_ALT">
+      <Text>{@1_VotingCivName}{@1: plural 1?은; 2?는;} 이전 투표에서 자신들과 영향력이 가장 높은 {@2_RecipientCivName}에게 표를 주었습니다.[NEWLINE][NEWLINE]현재 {@1_VotingCivName}{@1: plural 1?이; 2?가;} 플레이어의 문명을 대하는 태도: {@3_MoodTowardsYou}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_VOTES_COL_TT_ALT">
+      <Text>현재 해방한 도시 국가의 수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_VOTES_TT_ALT">
+      <Text>{@1_CivName}{@1: plural 1?을; 2?를;} 최근에 해방한 문명:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_ALT">
+      <Text>플레이어의 예상 득표수:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_COL_TT_ALT">
+      <Text>다음 국제 연합 투표에서 각 플레이어의 예상 득표수입니다. 실제 득표수는 지금부터 투표까지의 이벤트에 따라 변할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TITLE_ALT">
+      <Text>예상 득표수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_CITYSTATES_ALT">
+      <Text>이변이 없는 한 {@1_CivName}{@1: plural 1?은; 2?는;} 도시 국가로부터 {2_NumVotesFromMinorCivs}표를 얻을 것입니다. 도시 국가는 자신을 가장 최근에 해방한 문명에게 표를 주며 이러한 문명이 없다면 현재 동맹을 맺은 문명에게 표를 줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_CIVS_ALT">
+      <Text>이전 투표에서 {@1_CivName}{@1: plural 1?은; 2?는;} 다른 다른 문명으로부터 {2_NumVotesFromCivs}표를 얻었습니다. 이 수치는 국제 정세에 따라 변할 수 있습니다. 문명은 영향력이 가장 높은 문명에게 표를 줍니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_SUMMARY_ALT">
+      <Text>{@1_CivName}의 예상 득표수는 {2_NumProjectedVotes}입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_UN_ALT">
+      <Text>{@1_CivName}{@1: plural 1?은; 2?는;} 국제 연합을 건설했으므로 1표를 더 얻습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_COL_TT_ALT">
+      <Text>이전 투표에서 다른 문명으로부터 얻은 득표수입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_TITLE_ALT">
+      <Text>문명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_TT_ALT">
+      <Text>이전 국제 연합 투표에서 {@1_CivName}에게 투표한 문명:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SUBTITLE_ALT">
+      <Text>다음 국제 연합 투표 예상 결과:</Text>
+    </Row>
+   
+  </Language_KO_KR>
+</GameData>

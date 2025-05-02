@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_PROMOTION_SKI_INFANTRY">
+            <Text>설원/툰드라/언덕 지형 보너스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_SKI_INFANTRY_HELP">
+            <Text>설원, 툰드라, 언덕 지형 : [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가하며, [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가 (숲이나 밀림이 존재할 경우 전투 보너스 없음)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_DANISH_BERSERKER">
+            <Text>광전사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_DANISH_SKI_INFANTRY">
+            <Text>노르웨이 스키 보병</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

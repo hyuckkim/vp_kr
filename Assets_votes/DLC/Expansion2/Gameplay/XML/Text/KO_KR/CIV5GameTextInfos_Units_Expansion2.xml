@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ADRIEN_CARPENTIERS">
+            <Text>아드리안 카르팡티에</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_AESOP">
+            <Text>이솝</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALBAN_BERG">
+            <Text>알반 베르크</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALEXANDRE_DUMAS">
+            <Text>알렉상드르 뒤마</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALKINDI">
+            <Text>알 킨디</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALLA_RAKHA">
+            <Text>알라 라카</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ALPHONSE_MARIE_ADOLPHE_DE_NEUVILLE">
+            <Text>알퐁스 마리 아돌프 드 뇌빌</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_AMEDEO_MODIGLIANI">
+            <Text>아메데오 모딜리아니</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ANTON_CHEKHOV">
+            <Text>안톤 체호프</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ANTONELLO_DA_MESSINA">
+            <Text>안토넬로 다 메시나</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ANTONIN_DVORAK">
+            <Text>안토닌 드보르작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ARISTOPHANES">
+            <Text>아리스토파네스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ASHER_DURAND">
+            <Text>애셔 B. 듀런드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_AUGUST_HAAKE">
+            <Text>아우구스트 하케</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BAHRAM_KIRMANSHAHI">
+            <Text>바흐람 키르만샤히</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BARTHOLOMEUM_SPRANGER">
+            <Text>바르톨로메우스 슈프랑거</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BENJAMIN_BRITTEN">
+            <Text>벤자민 브리튼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BERNARDO_MARTORELL">
+            <Text>베르나르도 마르토렐</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BERTRAND_DE_BAR_SUR_AUBE">
+            <Text>베르트랑 드 바르쉬로브</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_BHASA">
+            <Text>바사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CAMILLE_SAINT_SAENS">
+            <Text>카미유 생상스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CAO_XUEQIN">
+            <Text>조설근</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CARAVAGGIO">
+            <Text>카라바조</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CARLO_GESUALDO">
+            <Text>카를로 제수알도</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CARLOS_CHAVEZ">
+            <Text>카를로스 차베즈</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CARLOS_NAKAI">
+            <Text>R. 카를로스 나카이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CASPAR_DAVID_FRIEDRICH">
+            <Text>카스파 다비드 프리드리히</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CECIL_BUSTAMENTE">
+            <Text>세실 부스타멘테 캠벨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_DICKENS">
+            <Text>찰스 디킨스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_IVES">
+            <Text>찰스 아이브스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CHIKAMATSU_MONZAEMON">
+            <Text>치카마츠 몬자에몬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_CLAUSE_DEBUSSY">
+            <Text>클로드 드뷔시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_D_H_LAWRENCE">
+            <Text>D. H. 로렌스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_DAVID_BLANASI">
+            <Text>데이비드 블라나시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_DUKE_ELLINGTON">
+            <Text>듀크 엘링턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EDGAR_ALLEN_POE">
+            <Text>에드가 앨런 포</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EDGAR_DEGAS">
+            <Text>에드가르 드가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EDMUND_LEIGHTON">
+            <Text>에드먼드 레이턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EDMUND_SPENSER">
+            <Text>에드먼드 스펜서</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EDOUARD_MANET">
+            <Text>에두아르 마네</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EL_GRECO">
+            <Text>엘 그레코</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EMANUAL_LEUTZE">
+            <Text>임마누엘 로이체</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EMERICO_LOBO_DE_MESQUITA">
+            <Text>에메리코 로보 데 메스키타</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EMILY_DICKENSON">
+            <Text>에밀리 디킨슨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ENHEDUANNA">
+            <Text>엔헤두안나</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ERIK_SATIE">
+            <Text>에릭 사티</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ESTABAN_SALAS_Y_CASTRO">
+            <Text>에스테반 살라스 이 카스트로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_EUGENE_DELACROIX">
+            <Text>유진 들라크루아</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_F_SCOTT_FITZGERALD">
+            <Text>F. 스콧 피츠제럴드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANCESCO_HAYEZ">
+            <Text>프란체스코 하예즈</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANCISCO_DE_GOYA">
+            <Text>프란시스코 데 고야</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANCISCO_MANUEL_DA_SILVA">
+            <Text>프란시스코 마누엘 다 실바</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANCOIS_RABELAIS">
+            <Text>프랑수아 라블레</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANS_POST">
+            <Text>프란스 포스트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANZ_JOSEF_HAYDN">
+            <Text>프란츠 요제프 하이든</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FRANZ_LISZT">
+            <Text>프란츠 리스트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FREDERIC_CHOPIN">
+            <Text>프레데리크 쇼팽</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FREDERIC_REMINGTON">
+            <Text>프레데릭 레밍턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_FYODOR_DOSTOYEVSKY">
+            <Text>표도르 도스토옙스키</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GASPAR_FERNANDES">
+            <Text>가스파르 페르난데스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GEOFFREY_CHAUCER">
+            <Text>제프리 초서</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_GERSHWIN">
+            <Text>조지 거슈인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_GOWER">
+            <Text>조지 가워</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_HANDEL">
+            <Text>조지 프레데릭 헨델</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_HEALY">
+            <Text>조지 피터 알렉산더 힐리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_SEURAT">
+            <Text>조르주 쇠라</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GILBERT_STUART">
+            <Text>길버트 스튜어트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GIOTTO_DI_BONDONE">
+            <Text>지오토 디 본도네</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GIOVANNI_BELLINI">
+            <Text>조반니 벨리니</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GIOVANNI_GABRIELI">
+            <Text>조반니 가브리엘리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GIOVANNI_PIERLUIGI">
+            <Text>조반니 피에르루이지 다 팔레스트리나</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GIUSEPPE_ARCIMBOLDO">
+            <Text>주세페 아르침볼도</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GIUSEPPE_VERDI">
+            <Text>주세페 베르디</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GRANT_DEVOLSON_WOOD">
+            <Text>그란트 데볼슨 우드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GUIDO_DAREZZO">
+            <Text>구이도 다레초</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GUILLAUME_DE_MACHAUT">
+            <Text>기욤 드 마쇼</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GUILLAUME_DUFAY">
+            <Text>기욤 뒤페</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GUSTAV_HOLST">
+            <Text>구스타브 홀스트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GUSTAV_KLIMPT">
+            <Text>구스타프 클림트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GUSTAV_MAHLER">
+            <Text>구스타프 말러</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_GUSTAVE_CAILLEBOTTE">
+            <Text>구스타브 카유보트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_H_G_WELLS">
+            <Text>H. G. 웰즈</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HANNA_PETROS">
+            <Text>한나 페트로스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HANS_HOLBEIN">
+            <Text>한스 홀바인 2세</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HARRIET_BEECHER_STOWE">
+            <Text>해리엇 비처 스토</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HENRI_DE_TOULOUSE_LAUTREC">
+            <Text>앙리 드 툴루즈로트레크</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HENRI_ROUSSEAU">
+            <Text>앙리 루소</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HENRY_DAVID_THOREAU">
+            <Text>헨리 데이비드 소로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HERMAN_MELVILLE">
+            <Text>허먼 멜빌</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HIRANAND">
+            <Text>히라난드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HORACE_VERNET">
+            <Text>오라스 베르네</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HUANG_GONGWANG">
+            <Text>황공망</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_HUGO_WOLF">
+            <Text>후고 볼프</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ILYA_REPIN">
+            <Text>일리야 레핀</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JACOB_OBRECHT">
+            <Text>야코프 오브레히트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JACQUES_DAVID">
+            <Text>자크 루이 다비드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JAMES_FENIMORE_COOPER">
+            <Text>제임스 페니모어 쿠퍼</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JAMES_WHISTLER">
+            <Text>제임스 애벗 맥닐 휘슬러</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JAN_VAN_EYCK">
+            <Text>얀 반 에이크</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JAN_VERMEER">
+            <Text>얀 페르메이르</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JANE_AUSTIN">
+            <Text>제인 오스틴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JEAN_CLOUET">
+            <Text>장 클루에</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JEAN_FOUQUET">
+            <Text>장 푸케</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JEAN_HONORE_FRAGONARD">
+            <Text>장 오노레 프라고나르</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JI_KANG">
+            <Text>혜강</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JIAO_BINGZHEN">
+            <Text>초병정</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_FRIEDRICH_VON_SCHILLER">
+            <Text>요한 프리드리히 폰 실러</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_SEBASTIAN_BACH">
+            <Text>요한 제바스티안 바흐</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_STRAUSS">
+            <Text>요한 슈트라우스 2세</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_WOLFGANG_VON_GOETHE">
+            <Text>요한 볼프강 폰 괴테</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHANNES_OCKEGHEM">
+            <Text>요하네스 오케겜</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHN_ADAMS">
+            <Text>존 애덤스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOHN_CAGE">
+            <Text>존 케이지</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JORGE_ISAACS">
+            <Text>호르헤 이삭스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOSE_HERNANDEZ">
+            <Text>호세 에르난데스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOSQUIN_DES_PRES">
+            <Text>조스캥 데 프레</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JOZEF_BORSOS">
+            <Text>요제프 보르소스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_JULES_VERNE">
+            <Text>쥘 베른</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_KALIDASA">
+            <Text>칼리다사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_KAMALEDDIN_BEHZAD">
+            <Text>카말알딘 비흐자드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_KANO_MASANOBU">
+            <Text>카노 마사노부</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_KARL_BRIULLOV">
+            <Text>칼 브률로프</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_KATSUSHIKA_HOKUSAI">
+            <Text>카츠시카 호쿠사이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_KI_NO_TSURAYUKI">
+            <Text>키노 츠라유키</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_L_FRANK_BAUM">
+            <Text>L. 프랭크 바움</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LANLING_XIAOXIAO_SHENG">
+            <Text>난릉소소생</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LEWIS_CARROLL">
+            <Text>루이스 캐럴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LOUIS_BALLARD">
+            <Text>루이스 W. 발라드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LUCIAN_SAMOSATA">
+            <Text>사모사타의 루치아노</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LUDOVICO_ARIOSTO">
+            <Text>루도비코 아리오스토</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_LUDWIG_VON_BEETHOVEN">
+            <Text>루트비히 판 베토벤</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MANUEL_SAUMELL">
+            <Text>마누엘 사우멜</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MARCUS_PROUST">
+            <Text>마르셀 프루스트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MARTIN_JOHNSON_HEADE">
+            <Text>마틴 존슨 헤드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MARY_CASSATT">
+            <Text>메리 커셋</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MARY_SHELLEY">
+            <Text>메리 셸리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MAURICE_RAVEL">
+            <Text>모리스 라벨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MAXIM_GORKY">
+            <Text>막심 고리키</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MEERABAI">
+            <Text>미라바이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MESOMEDES">
+            <Text>크레타의 메소메데스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MICHELANGELO_BUONARROTI">
+            <Text>미켈란젤로 부오나로티</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MODEST_MUSSORGSKY">
+            <Text>모데스트 무소륵스키</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_MURASAKI_SHIKIBU">
+            <Text>무라사키 시키부</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NATHANIEL_HAWTHORNE">
+            <Text>너새니얼 호손</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NATSUME_SOSEKI">
+            <Text>나츠메 소세키</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NICCOLO_PAGANINI">
+            <Text>니콜로 파가니니</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_NIKOLAI_GOGOL">
+            <Text>니콜라이 고골</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ORLANDE_DE_LASSUS">
+            <Text>올란데 데 라수스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_OVID">
+            <Text>오비디우스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PAOLO_UCCELLO">
+            <Text>파올로 우첼로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PAUL_CEZANNE">
+            <Text>폴 세잔</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PAUL_DELAROCHE">
+            <Text>폴 들라로슈</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PAUL_GAUDUIN">
+            <Text>폴 고갱</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PETER_BRUEGHEL">
+            <Text>대 피터르 브뤼헐</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PETER_PAUL_RUBENS">
+            <Text>페테르 파울 루벤스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PETRARCH">
+            <Text>페트라르카</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PETRUS_CHRISTUS">
+            <Text>페트루스 크리스투스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PIERRE_AUGUSTE_ENOIR">
+            <Text>피에르 오귀스트 르누아르</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PIETER_BRUEGEL">
+            <Text>피터르 브뤼헐</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PRINCE_BENBADHANABONGSE">
+            <Text>벤바드하나봉세 왕자</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_PYOTR_ILYICH_TCHAIKOVSKY">
+            <Text>표트르 일리치 차이콥스키</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_QIAN_XUAN">
+            <Text>전선</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_QIU_YING">
+            <Text>구영</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_QU_YUAN">
+            <Text>굴원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RAFFAELLO_SANZO">
+            <Text>라파엘로 산치오</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RAJA_RAVI_VARMA">
+            <Text>라자 라비 바르마</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_REMBRANDT">
+            <Text>렘브란트 판 레인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RICHARD_STRAUSS">
+            <Text>리하르트 슈트라우스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RICHARD_WAGNER">
+            <Text>리하르트 바그너</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RUBEN_DARIO">
+            <Text>루벤 다리오</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_RUDYARD_KIPLING">
+            <Text>러디어드 키플링</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SAMUEL_MORSE">
+            <Text>새뮤얼 F. B. 모스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SANDRO_BOTTICELLI">
+            <Text>산드로 보티첼리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SAYED_DARWISH">
+            <Text>사예드 다르위시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SERGEY_IVANOV">
+            <Text>세르게이 바실례비치 이바노프</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SHI_NAIAN">
+            <Text>시내암</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SILVESTRE_REVUELTAS">
+            <Text>실베스트레 레부엘타스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SOLOMON_LINDA">
+            <Text>솔로몬 린다</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SOPHOCLES">
+            <Text>소포클레스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_STEPHEN_CRANE">
+            <Text>스티븐 크레인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_STEVE_REICH">
+            <Text>스티브 라이시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_SULTAN_MUHAMMAD">
+            <Text>술탄 무함마드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_TAIZAN_HIGUCHI">
+            <Text>히구치 타이잔</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_THOMAS_GAINSBOROUGH">
+            <Text>토머스 게인즈버러</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_THOMAS_MALORY">
+            <Text>토머스 맬러리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_THOMAS_TALLIS">
+            <Text>토머스 탤리스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_TINTORETTO">
+            <Text>틴토레토</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_TITIAN">
+            <Text>베첼리오 티치아노</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_TORAJIRO_KASAI">
+            <Text>토라지로 카사이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_TOYOKUNI_UTAGAWA">
+            <Text>토요쿠니 우타가와</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_UEDA_AKINARI">
+            <Text>우에다 아키나리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ULVI_CEMAL_ERKIN">
+            <Text>울비 세말 에르킨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_UTAGAWA_HIROSHIGE">
+            <Text>우타가와 히로시게</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_UTAGAWA_KUNIYOSHI">
+            <Text>우타가와 구니요시</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VIKTOR_VASNETSOV">
+            <Text>빅토르 M. 바스네초프</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VITTORIO_ALFIERI">
+            <Text>비토리오 알피에리</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VOLTAIRE">
+            <Text>볼테르</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_VYASA">
+            <Text>브야사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WALT_WHITMAN">
+            <Text>월트 휘트먼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WANG_XIMENG">
+            <Text>왕희맹</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WASHINGTON_IRVING">
+            <Text>워싱턴 어빙</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WASITODININGRAT">
+            <Text>바지토디닝그라트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WILLEM_THE_YOUNGER">
+            <Text>빌럼 판 더 펠더</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_BOUGUEREAU">
+            <Text>윌리엄 부그로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_BYRD">
+            <Text>윌리엄 버드</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_SIMPSON">
+            <Text>윌리엄 심슨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WINSLOW_HOMER">
+            <Text>윈슬로 호머</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_WOLFGANG_AMADEUS_MOZART">
+            <Text>볼프강 아마데우스 모차르트</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_YAMADA_KENGYO">
+            <Text>야마다 켄교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_YAN_LIBEN">
+            <Text>염입본</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_YANAGAWA">
+            <Text>야나가와 시게노부</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_YATSUHASHI_KENGYO">
+            <Text>야츠하시 켄교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_YOSHIDA_KENKO">
+            <Text>요시다 켄코</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ZHANG_ZUDUAN">
+            <Text>장택단</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ZIRYAB">
+            <Text>지르얍</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_PERSON_ZURBARAN">
+            <Text>프란시스코 데 수르바란</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_ALVISE_CADAMOSTO">
+            <Text>알비세 카다모스토</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_AMBROGIO_CONTARINI">
+            <Text>암브로지오 콘타리니</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_ANTONIO_PIGAFETTA">
+            <Text>안토니오 피가페타</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_CESARE_FEDERICI">
+            <Text>체사레 페데리치</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_GASPARA_BALBI">
+            <Text>가스파로 발비</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_GIOSAFAT_BARBARO">
+            <Text>지오사파트 바르바로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_GIOVANNI_BALZONI">
+            <Text>조반니 벨초니</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_GIOVANNI_CABOTO">
+            <Text>조반니 카보토</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_MAFFEO_POLO">
+            <Text>마페오 폴로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_MARCO_POLO">
+            <Text>마르코 폴로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_NICCOLO_CONTI">
+            <Text>니콜로 데 콘티</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_MERCHANT_OF_VENICE_NICCOLO_POLO">
+            <Text>니콜로 폴로</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_MUSICIAN">
+            <Text>음악가|음악가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_MUSICIAN_SLOTS">
+            <Text>음악가 슬롯 :</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_MUSICIAN_TITLE">
+            <Text>위대한 음악가 점수 </Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_WRITER">
+            <Text>작가|작가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_WRITER_SLOTS">
+            <Text>작가 슬롯 :</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_WRITER_TITLE">
+            <Text>위대한 작가 점수 </Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_ARCHAEOLOGIST">
+            <Text>고고학자</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER">
+            <Text>공성탑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_AXMAN">
+            <Text>도끼병</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_BAZOOKA">
+            <Text>바주카</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_BERBER_CAVALRY">
+            <Text>베르베르 기병대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA">
+            <Text>프라싱야</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CARAVAN">
+            <Text>대상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CARGO_SHIP">
+            <Text>화물선</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_GREAT_MUSICIAN">
+            <Text>위대한 음악가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_GREAT_WRITER">
+            <Text>위대한 작가</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN">
+            <Text>크리스 검사</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_POLISH_WINGED_HUSSAR">
+            <Text>윙드 후사르</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_PORTUGUESE_NAU">
+            <Text>나우</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_SHOSHONE_COMANCHE_RIDERS">
+            <Text>코만치 기마병</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_SHOSHONE_PATHFINDER">
+            <Text>길잡이</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS">
+            <Text>베네치안 갈레아스</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_VENETIAN_MERCHANT">
+            <Text>베니스의 상인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_XCOM_SQUAD">
+            <Text>XCOM 분대</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_ZULU_IMPI">
+            <Text>임피</Text>
+            <Plurality>2</Plurality>
+        </Row>
+    </Language_KO_KR>
+</GameData>
