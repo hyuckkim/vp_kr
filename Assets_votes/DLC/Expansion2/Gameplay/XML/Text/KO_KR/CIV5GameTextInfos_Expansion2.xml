@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_CULTURE_FROM_GREAT_WORKS">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  걸작에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_LEAGUES">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  세계 대회에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_TRADE_ROUTES">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR][ICON_CULTURE]  교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_DIPLOMAT_WAIT_TT">
+      <Text>{1_CityName}의 도시 화면을 보지 못할 수 있습니다.[NEWLINE][NEWLINE]도시에 외교관이 있지만 외교관이 아직 소개를 모두 마치지 않아 도시 화면을 볼 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_DIPOLOMAT_TT">
+      <Text>{1_CityName}의 도시 화면을 보려면 클릭하십시오.[NEWLINE][NEWLINE]다른 문명의 [ICON_CAPITAL]수도에 외교관이 있으면 해당 도시 화면을 볼 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_PUBLIC_OPINION_UNHAPPINESS">
+      <Text>여론</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_0_ABBREV">
+      <Text>I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_0_SHORT">
+      <Text>고대 시대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_1_ABBREV">
+      <Text>II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_1_SHORT">
+      <Text>고전 시대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_2_ABBREV">
+      <Text>III</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_2_SHORT">
+      <Text>중세 시대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_3_ABBREV">
+      <Text>IV</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_3_SHORT">
+      <Text>르네상스 시대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_4_ABBREV">
+      <Text>V</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_4_SHORT">
+      <Text>산업 시대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_5_ABBREV">
+      <Text>VI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_5_SHORT">
+      <Text>현대 시대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_6_ABBREV">
+      <Text>VII</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_6_SHORT">
+      <Text>원자력 시대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_7_ABBREV">
+      <Text>VIII</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_7_SHORT">
+      <Text>정보화 시대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FAITH_FROM_TRADE_ROUTES">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR] [ICON_PEACE]  교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOOD_FROM_TRADE_ROUTES">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR] [ICON_FOOD]  교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_CULTURE_OVERVIEW_UI">
+      <Text>문화 개요 UI 비활성화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_CULTURE_OVERVIEW_UI_HELP">
+      <Text>문화 개요 화면을 비활성화합니다. UI 외에는 게임에 영향을 미치지 않습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES">
+      <Text>세계 대회 비활성화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES_HELP">
+      <Text>세계 대회를 비활성화합니다. 어떤 안건도 제시되지 않고, 대회가 개최되지 않으며 외교 승리가 불가능해집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOLD_FROM_TRADE_ROUTES">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR] [ICON_GOLD]  교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_INSTRUCTIONS">
+      <Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} 잠입할 도시를 선택하십시오.[NEWLINE][NEWLINE][NEWLINE]당신이 스파이를 상대국의 [ICON_CAPITAL]수도에 잠입시키면 해당 스파이를 외교관으로 임명할 수 있습니다.
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_CITY_AT_AIR_CAPACITY">
+      <Text>[NEWLINE]도시의 공중 유닛 수가 정원에 도달했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_NUKES_BY_RESOLUTION">
+      <Text>[NEWLINE]세계 대회의 핵 확산 금지 결의안으로 핵무기 건설이 금지되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ADMIRAL_FROM_FAITH">
+      <Text>탐험 정책 계열을 채택했다면 위대한 제독만 선택할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ARTIST_FROM_FAITH">
+      <Text>미학 정책 계열을 채택했다면 위대한 예술가만 선택할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ENGINEER_FROM_FAITH">
+      <Text>전통 정책 계열을 채택했다면 위대한 기술자만 선택할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_GENERAL_FROM_FAITH">
+      <Text>명예 정책 계열을 채택했다면 위대한 장군만 선택할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_MUSICIAN_FROM_FAITH">
+      <Text>미학 정책 계열을 채택했다면 위대한 음악가만 선택할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_WRITER_FROM_FAITH">
+      <Text>미학 정책 계열을 채택했다면 위대한 작가만 선택할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_REVOLT">
+      <Text>국가의 [ICON_HAPPINESS_4]불행이 20이 넘고 여론이 만족 상태에 있지 않으므로 {1_CityName}에서 폭동이 일어나 {2_CivName}에 합류했습니다! </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_REVOLT_SUMMARY">
+      <Text>도시에 폭동이 발생했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT">
+      <Text> {1_CivAdjective} 도시 {2_CityName}에서 폭동이 일어나 {3_CivName}로 합류했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT">
+      <Text>국가의 [ICON_HAPPINESS_4]불행이 20이 넘고 여론이 만족 상태에 있지 않으므로 {1_Turns}턴 뒤에 {1_CityName}에서 폭동이 일어날 것입니다. 현재 불행 수준과 인접 지역의 이념으로부터 받는 압력을 고려할 때 폭동이 발생할 확률이 가장 높은 도시는 {2_CityName}이며 해당 도시는 {3_CivName}에 합류하게 될 것입니다. 가능한 한 빨리 행복 수준을 높여 이러한 일이 발생하지 않도록 하십시오!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT_SUMMARY">
+      <Text>도시에 발생한 폭동의 먹구름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REBELS">
+      <Text>[ICON_HAPPINESS_4]불행이 10을 넘어섰기 때문에 당신의 영토 도시에서 폭동이 발생했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_GOLD_AND_CULTURE_CITY_CAPTURE">
+      <Text>{@4_CityName}{@4: plural 1?을; 2?를;} 점령해 [ICON_GOLD]골드 {1_Num}, [ICON_CULTURE]문화 {2_Num} 및 [ICON_GREAT_WORK]걸작 {3_Num}개를 약탈했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_TOURISM">
+      <Text>[ICON_TOURISM]관광 : +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_FROM_TRADE_ROUTES">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR] [ICON_PRODUCTION]  교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCE_FROM_TRADE_ROUTES">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR] [ICON_RESEARCH]  교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_BE_DIPLOMAT">
+      <Text>이 스파이를 외교관으로 삼으시겠습니까? 전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 선전포고를 하면 스파이는 도시에서 탈출합니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 대회가 설립되면 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다. 채택한 이념이 다르다면 외교관은 자동으로 대상 문명의 [ICON_TOURISM]관광을 대폭 향상하는 선전을 사용할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS">
+      <Text>소개</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS_TT">
+      <Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 연결 고리를 만들고 있습니다. 외교관이 소개를 끝마치면 잡담을 할 수 있습니다.[NEWLINE][NEWLINE]다른 문명의 수도에 스파이를 배치하면 외교관이 될 수 있습니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 대회가 설립되고 외교관이 잡담을 시작했을 때, 당신은 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING">
+      <Text>잡담</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING_TT">
+      <Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 잡담을 하고 있습니다.[NEWLINE][NEWLINE]전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 만약 전쟁이 선포되면 스파이는 도시에서 탈출합니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 대회가 설립되고 외교관이 잡담을 시작했을 때, 당신은 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다.  외교관은 대상 문명의 [ICON_TOURISM]관광을 대폭 향상하는 선동을 사용할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VENETIAN_MERCHANT_BOUGHT_CITY_STATE">
+      <Text>베니스의 상인이 도시 국가를 구입했습니다!</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

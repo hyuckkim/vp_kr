@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_AFRAID">
+            <Text>두려워함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ALLIES_CSTATE_TT">
+            <Text>해당 도시 국가와의 [ICON_INFLUENCE]영향력이 가장 높기 때문에 해당 도시 국가의 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]이 되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ANGRY_CSTATE_TT">
+            <Text>공물을 요구하거나 국경을 침입하거나 전쟁을 선포해 {1_CityStateName:textkey}의 분노를 샀습니다. 분노를 가라앉히려면 퀘스트를 완료하거나 [ICON_GOLD]골드를 선물로 주어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_CITADEL_HELP">
+            <Text>이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력이 100% 증가합니다. 성채 옆에서 턴을 종료하는 모든 적 유닛은 30의 피해를 받습니다. 유닛 옆에 성채가 여럿 있어도 이 피해는 한 번만 받습니다. 성채를 건설하면 성채 주위로 문화 경계가 확장하며 이 유닛이 소모됩니다. 성채를 건설해 다른 문명의 문화 경계를 잠식하면 해당 문명과의 외교 관계가 악화됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_CULTURE_REC">
+            <Text>이 타일에서 생산하는 [ICON_CULTURE]문화를 늘리고 국경선을 확장하는 동시에 사회 정책을 더 얻을 수 있는 방법입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_HOLY_SITE">
+            <Text>성지 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_HOLY_SITE_HELP">
+            <Text>유닛이 소모됩니다.[NEWLINE][NEWLINE]위대한 타일 시설을 건설하면 이 타일에 있는 전략 자원이 교역망과 연결됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_ALLY_ACTIVE_PLAYER_TT">
+            <Text>이 도시 국가는 현재 동맹국입니다. 추가 보너스는 물론 해당 도시 국가에 연결된 사치 자원이나 전략 자원을 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_TT">
+            <Text>이 도시 국가와 동맹을 맺은 문명이 없습니다. 동맹을 맺으려면 [ICON_INFLUENCE]영향력이 {1_NumInfluence}만큼 필요합니다.[NEWLINE][NEWLINE]도시 국가와 동맹을 맺으면 해당 도시 국가의 특성에 따른 보너스는 물론 해당 도시 국가에 연결된 사치 자원이나 전략 자원을 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_ALLY_TT">
+            <Text>{1_CivName:textkey}{1: plural 1?은; 2?는;} 현재 도시 국가의 동맹입니다. {1_CivName:textkey}{1: plural 1?을; 2?를;} 대신해서 동맹을 맺으려면 {2_NumInfluence} [ICON_INFLUENCE]영향력이 필요합니다.[NEWLINE][NEWLINE]당신이 도시 국가의 동맹이 되면 해당 도시 국가의 특성에 따른 보너스와 사치 자원, 전략 자원을 제공받습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_ALLY_UNKNOWN_TT">
+            <Text>이 도시 국가는 아직 만나지 못한 문명의 동맹국입니다. 해당 문명을 제치고 동맹을 맺으려면 [ICON_INFLUENCE]영향력이 {1_NumInfluence}만큼 필요합니다.[NEWLINE][NEWLINE]도시 국가와 동맹을 맺으면 해당 도시 국가의 특성에 따른 보너스는 물론 해당 도시 국가에 연결된 사치 자원이나 전략 자원을 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_PROTECTED">
+            <Text>항상 우리를 보호해 주셔서 감사합니다. 무엇을 도와드릴까요?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_QUEST_MESSAGE">
+            <Text>전령이 제 시간에 도착해서 다행입니다. 당신에게 줄 새로운 퀘스트가 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_BULLIED">
+            <Text>달리 선택의 여지가 없구려. 이 돈을 줄 테니 괴롭히지 마시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_BULLIED_WORKER">
+            <Text>아니! 이런 터무니없는! 이 빚은 꼭 갚겠소.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_REVOKED_PROTECTION">
+            <Text>우리를 지키지 못 하겠다면 할 수 없지요.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_SUPPORTED">
+            <Text>아, 우리가 바라던 바로군요. 도와주셔서 감사합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_GIFT_FAITH_FIRST">
+            <Text>도시 국가로부터 귀중한 우상을 받아 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]{1_NumFaith}[ENDCOLOR] 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_GIFT_FAITH_OTHER">
+            <Text>도시 국가로부터 종교 의식에 대한 지식을 전수받아 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]{1_NumFaith}[ENDCOLOR] 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_GREETING_MERCANTILE">
+            <Text>우리는 [COLOR_POSITIVE_TEXT]상업[ENDCOLOR]을 중요하게 생각합니다. 당신 문명을 기쁘게 할 사치 자원이 많이 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_GREETING_RELIGIOUS">
+            <Text>우리는 [COLOR_POSITIVE_TEXT]종교[ENDCOLOR]를 중요하게 생각합니다. 전통 종교의식이 뿌리를 내리도록 도와드릴 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_MERCANTILE_TT">
+            <Text>[COLOR_POSITIVE_TEXT]상업[ENDCOLOR] 도시 국가와 친선 관계가 되면 문명의 [ICON_HAPPINESS_1]행복이 증가하고 다른 방법으로는 얻을 수 없는 특별한 사치 자원을 받을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT">
+            <Text>우호적인 [COLOR_POSITIVE_TEXT]군사[ENDCOLOR] 도시 국가는 때때로 당신에게 고급 군사 유닛을 선물로 보냅니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_TT">
+            <Text>[COLOR_POSITIVE_TEXT]군사적[ENDCOLOR] 도시 국가와 친선 관계를 맺으면 때때로 고급 군사 유닛을 제공합니다.[NEWLINE][NEWLINE]해당 도시 국가는 [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]의 비밀을 알고 있습니다. {@2_PrereqTech} 기술을 연구한 다음 해당 도시 국가와 동맹을 맺으면 다른 방법으로는 얻을 수 없는 고유한 유닛을 받게 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE">
+            <Text>상대 도시 국가에 압력을 넣어 꼼짝 못하게 도와주십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE_FORMAL">
+            <Text>{1_TargetName:textkey}에 공물을 요구하라고 부탁했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE">
+            <Text>우리 예술가들이 문화 강국을 방문해 영감을 얻고 싶어 합니다. 당신 문명이 다른 문명보다 뛰어난 문화를 자랑하게 되면 꼭 보답하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL">
+            <Text>문화 발전 속도가 가장 빠른 문명에게 보상하겠다고 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_LOSING_FORMAL">
+            <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL} 현재 1위 문명의 [ICON_CULTURE]문화 점수는 {1_LeaderScore}이며 당신의 문명의 [ICON_CULTURE]문화 점수는 [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]입니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_WINNING_FORMAL">
+            <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL} 현재 당신의 문명이 1위이며 [ICON_CULTURE]문화 점수는 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH">
+            <Text>신앙을 가장 많이 얻은 문명에게 보상하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL">
+            <Text>신앙 성장 속도가 가장 빠른 문명에게 보상하겠다고 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_LOSING_FORMAL">
+            <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} 현재 1위 문명의 [ICON_PEACE]신앙 점수는 {1_LeaderScore}이며 당신의 [ICON_PEACE]신앙 점수는 [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_WINNING_FORMAL">
+            <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} 현재 당신의 문명이 1위이며 [ICON_PEACE]신앙 점수는 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS">
+            <Text>기술을 가장 많이 개발한 문명에게 보상하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL">
+            <Text>기술을 가장 많이 개발한 문명에게 보상하겠다고 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_LOSING_FORMAL">
+            <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} 현재 1위 문명이 연구한 기술은 {1_LeaderScore}개이며 당신의 문명이 연구한 기술은 [COLOR_POSITIVE_TEXT]{2_PlayerScore}개[ENDCOLOR]입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_WINNING_FORMAL">
+            <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} 현재 당신의 문명이 1위이며 연구한 기술은 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]개입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR">
+            <Text>최근에 우리를 괴롭힌 문명을 공개적으로 비난해 주십시오. 그들이 저지른 만행을 세상에 알려야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR_FORMAL">
+            <Text>{1_TargetName:textkey}{1: plural 1?을; 2?를;} 공개적으로 비난해 달라고 부탁했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIVE_GOLD">
+            <Text>{1_CivName:textkey}에 강제로 공물을 바친 탓에 경제 사정이 좋지 않습니다. 경제를 회복할 수 있도록 골드를 조금 지원해 주면 감사하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIVE_GOLD_FORMAL">
+            <Text>골드를 선물해 달라고 부탁했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS">
+            <Text>우리 영토를 침략하는 야만인 무리를 무찔러 주십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS_FORMAL">
+            <Text>그들의 영토를 침략하는 야만인 무리를 무찔러 달라고 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVEST">
+            <Text>골드 선물 효과가 일시적으로 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVEST_FORMAL">
+            <Text>골드 선물 효과가 일시적으로 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP_FORMAL">
+            <Text>주변에 있는 야만인 주둔지를 파괴하면 보상할 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_NONE">
+            <Text>없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_NONE_FORMAL">
+            <Text>이 도시 국가가 준 퀘스트가 없습니다. 도시 국가는 보통 일정한 간격으로 퀘스트를 줍니다. 하지만 최근에 괴롭힌 도시 국가는 퀘스트를 주지 않을 수도 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_PLEDGE_TO_PROTECT">
+            <Text>{1_CivName:textkey}에게 시달리는 것도 이제 지쳤습니다. 당신이 우리를 보호하겠다고 공개적으로 선언하면 사정이 달라지겠지요. 부탁을 들어주면 꼭 보답하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_PLEDGE_TO_PROTECT_FORMAL">
+            <Text>자신들을 보호해 달라고 부탁했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPREAD_RELIGION">
+            <Text>우리에게 종교를 전파해 주십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPREAD_RELIGION_FORMAL">
+            <Text>{@1_ReligionName}{@1: plural 1?이; 2?가;} 대중 종교가 되게 해달라고 부탁했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_QUEST_TURNS_REMAINING_FORMAL">
+            <Text>(남은 턴: {1_TurnsRemaining})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_STATE_RELIGIOUS_TT">
+            <Text>[COLOR_POSITIVE_TEXT]종교적인[ENDCOLOR] 도시 국가와 친선 관계가 되면 [ICON_PEACE]신앙이 증가해 새로운 교리와 유닛으로 종교를 강화할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_BULLY">
+            <Text>{1_MinorCivName:textkey}에게 공물을 요구하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_BULLY_PROTECTED_CITY_STATE">
+            <Text>{@1_MinorCivName}에게 공물을 요구하시겠습니까? 해당 도시 국가는 {@2_CivName}의 보호를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_BULLY_PROTECTED_CITY_STATE_MULTIPLE">
+            <Text>{@1_MinorCivName}에게 공물을 요구하시겠습니까? 해당 도시 국가는 {2_ListOfCivs}의 보호를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CSTATE_CAN_BULLY">
+            <Text>당신의 군사력이 대단하므로 공물을 바칠 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CSTATE_CANNOT_BULLY">
+            <Text>당신의 군대를 두려워하지 않으므로 공물을 바치지 않을 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CSTATE_CULTURE_BONUS">
+            <Text>턴당 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]{1_FlatBonus}[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CSTATE_FAITH_BONUS">
+            <Text>턴당 [COLOR_POSITIVE_TEXT][ICON_PEACE]신앙이 {1_Num}[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CSTATE_HAPPINESS_BONUS">
+            <Text>전역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]{1_FlatBonus}[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ADOPTING_HIS_RELIGION">
+            <Text>[COLOR_POSITIVE_TEXT]대다수의 도시에서 그들의 종교를 받아들였습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ADOPTING_MY_RELIGION">
+            <Text>[COLOR_POSITIVE_TEXT]대다수의 도시에서 당신의 종교를 기꺼이 받아들였습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY">
+            <Text>대사관 수락</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_HAVE">
+            <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]해당 문명의 수도에 이미 우리 대사관이 있습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_OTHER_PLAYER">
+            <Text>[NEWLINE][NEWLINE]해당 문명에 대사관을 건설하는 데 필요한 기술([COLOR_RESEARCH_STORED]문자[ENDCOLOR])이 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_PLAYER">
+            <Text>[NEWLINE][NEWLINE]대사관을 건설하는 데 필요한 기술([COLOR_RESEARCH_STORED]문자[ENDCOLOR])이 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_THEY_HAVE">
+            <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]우리 수도에 이미 그들의 대사관이 있습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_TT">
+            <Text>국경 개방과 방위 조약을 체결할 수 있습니다. 다른 문명의 수도를 볼 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_BOTH_NEED_EMBASSY_TT">
+            <Text>[NEWLINE][NEWLINE]이 항목을 교환하려면 양측에 대사관이 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_BROKEN">
+            <Text>[COLOR_NEGATIVE_TEXT]그들이 보호하는 도시 국가에 공물을 요구하지 않겠다고 한 약속을 어겼습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_IGNORED">
+            <Text>[COLOR_NEGATIVE_TEXT]자신들이 보호하는 도시 국가에 공물을 요구하지 말라는 그들의 요구를 무시했습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_CAUGHT_STEALING">
+            <Text>[COLOR_NEGATIVE_TEXT]스파이가 기술을 훔치려다 붙잡혔습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_CITY_STATE_PROMISE_BROKEN_WITH_OTHERS">
+            <Text>[COLOR_NEGATIVE_TEXT]다른 문명이 보호하기로 선언한 도시 국가를 공격하지 않겠다고 한 약속을 어겼습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_TECH">
+            <Text>[NEWLINE][NEWLINE]두 문명 모두 이 항목을 거래할 수 있는 기술([COLOR_RESEARCH_STORED]기사도[ENDCOLOR])을 아직 보유하고 있지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DENOUNCED_BY_PEOPLE_WE_TRUST_MORE">
+            <Text>[COLOR_NEGATIVE_TEXT]우리가 더 좋아하는 다른 문명이 당신의 문명을 공개적으로 비난했습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DECLARE_WAR">
+            <Text>{1_LeaderName}에게 선전포고하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DEMAND_STOP_SPYING">
+            <Text>우리에게 스파이를 보내지 마십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DENOUNCE_FOR_SPYING">
+            <Text>{1_LeaderName}{1: plural 1?을; 2?를;} 공개적으로 비난하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_FORGIVE_SPYING">
+            <Text>당신의 실수를 한 번 넘어가기로 했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_FORGIVE_SPYING">
+            <Text>이런 도발은 참을 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_STOP_CONVERSIONS">
+            <Text>선교사와 선지자는 자유롭게 돌아다닐 권리가 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_FORGIVE_SPYING">
+            <Text>용서하지요.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_INTRIGUE">
+            <Text>{1_LeaderName}{1: plural 1?과; 2?와;} 비밀 정보를 나누십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_INTRIGUE_TT">
+            <Text>스파이가 모은 정보를 {1_LeaderName}에게 알리십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_SPREADING_RELIGION">
+            <Text>내 도시로 선교사와 선지자를 그만 보내십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_SPYING">
+            <Text>스파이를 보내지 마십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_SORRY_FOR_SPY_CAUGHT">
+            <Text>우리 요원이 어딜 가든 무슨 상관입니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_SORRY_FOR_SPY_KILLED">
+            <Text>죽음으로 끝나는 시시한 야망이 아니오!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_PROTECTED_MINOR_DISPUTE_TT">
+            <Text>{2_MinorCivName:textkey}{2: plural 1?과; 2?와;}의 관계는 유지하되 {1_CivName:textkey}{1: plural 1?을; 2?를;} 일시적으로 화나게 하고 잘못하면 전쟁을 시작할 위험을 감수해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_PROTECTED_MINOR_FORGIVE_TT">
+            <Text>{1_CivName:textkey}{1: plural 1?과; 2?와;}의 관계는 유지하되 {2_MinorCivName:textkey}{2: plural 1?을; 2?를;} 보호하겠다고한 선언을 취소하고 해당 도시 국가와의 [ICON_INFLUENCE]영향력을 {3_InfluenceLoss}만큼 잃어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_BULLYING">
+            <Text>미안합니다. 이제 괴롭히지 않겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SPY_CAUGHT">
+            <Text>앞으로는 그쪽에 스파이를 보내지 않겠다고 맹세하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SPY_KILLED">
+            <Text>앞으로는 그쪽에 스파이를 보내지 않겠다고 맹세하겠습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DISCUSS_STOP_CONVERSIONS">
+            <Text>선교사와 선지자를 다른 지역에 보내도록 하지요.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_FORGAVE_FOR_SPYING">
+            <Text>[COLOR_POSITIVE_TEXT]스파이 활동을 용서했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_HAS_EMBASSY">
+            <Text>[COLOR_POSITIVE_TEXT]수도에 그들의 대사관이 있습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_BROKEN_WITH_OTHERS">
+            <Text>[COLOR_NEGATIVE_TEXT]국경 지대에서 군대를 철수하겠다고 한 약속을 어겼습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NEED_DOF_TT">
+            <Text>[NEWLINE][NEWLINE]이 항목을 거래하려면 친선 관계 선언을 해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NEED_DOF_TT_ONE_LINE">
+            <Text>평화 협정이 아닌 이상, 이 항목을 거래하려면 친선 관계 선언을 해야 합니다. 대신 턴당 골드를 거래하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NO_CONVERT_PROMISE_BROKEN">
+            <Text>[COLOR_NEGATIVE_TEXT]그들의 도시에서 선교 활동을 하지 않겠다고 한 약속을 어겼습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NO_CONVERT_PROMISE_IGNORED">
+            <Text>[COLOR_NEGATIVE_TEXT]자신들의 도시에서 선교 활동을 하지 말라는 그들의 요구를 무시했습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NO_LAND_DISPUTE">
+            <Text>분쟁이 일어난 국경 지대가 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_NO_TECH">
+            <Text>[NEWLINE][NEWLINE]두 문명 모두 이 항목을 거래할 수 있는 기술(공공 행정)을 아직 보유하고 있지 않습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY">
+            <Text>평화 협상({1_Turns}턴)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY_TURNS">
+            <Text>평화 협상({1_Turns}턴)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_BULLIED">
+            <Text>[COLOR_NEGATIVE_TEXT]그들이 보호하는 도시 국가에 공물을 바치라고 요구했습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_SHARED">
+            <Text>서로의 문명의 수도에 대사관이 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_THEIR">
+            <Text>이 문명의 수도에 당신의 대사관이 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_YOUR">
+            <Text>당신의 수도에 이 문명의 대사관이 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_SHARED">
+            <Text>두 문명이 서로 국경을 개방했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_THEIR">
+            <Text>이 문명은 당신에게 국경을 개방했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_YOUR">
+            <Text>당신은 이 문명에게 국경을 개방했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_RELIGIOUS_CONVERSIONS">
+            <Text>[COLOR_NEGATIVE_TEXT]다른 종교를 믿고 전파하는 그들 도시 일부에 당신의 종교를 전파했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+            <Text>[NEWLINE][NEWLINE]두 문명 모두 이 항목을 거래할 수 있는 기술(교육)을 아직 보유하고 있지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_SHARED_INTRIGUE">
+            <Text>[COLOR_POSITIVE_TEXT]스파이가 알아낸 음모를 공유했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_SIDED_WITH_MINOR">
+            <Text>[COLOR_NEGATIVE_TEXT]이들은 당신이 보호하는 도시 국가를 공격했습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_SPY_PROMISE_BROKEN">
+            <Text>[COLOR_NEGATIVE_TEXT]스파이를 보내지 않겠다고 한 약속을 어겼습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_SPY_PROMISE_IGNORED">
+            <Text>[COLOR_NEGATIVE_TEXT]스파이를 보내지 말라는 그들의 요구를 무시했습니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_STOP_SPYING_ASKED">
+            <Text>[COLOR_NEGATIVE_TEXT]스파이를 보내지 말라고 요구했습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_THEY_NEED_EMBASSY_TT">
+            <Text>[NEWLINE][NEWLINE]이 항목을 거래하려면 당신의 문명에 상대 문명의 대사관이 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_YOU_NEED_EMBASSY_TT">
+            <Text>[NEWLINE][NEWLINE]이 항목을 거래하려면 상대 문명에 당신의 대사관이 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FRIENDS_CSTATE_TT">
+            <Text>{1_CityStateName:textkey}{1: plural 1?과; 2?와;} [COLOR_POSITIVE_TEXT]친선 관계[ENDCOLOR]입니다. 동맹을 맺으려면 다른 문명보다 [ICON_INFLUENCE]영향력이 높아야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_FAITH">
+            <Text>고대 오라클을 찾았습니다. 오라클의 계시를 받아 [ICON_PEACE]신앙이 {1_Num} 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODY_PROPHET_FAITH">
+            <Text>비밀 종교 집단을 찾았습니다. 그들의 우두머리가 위대한 선지자의 탄생을 예언했습니다. [ICON_PEACE]신앙이 {1_Num} 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_INTERFACEMODE_GIFT_TILE_IMPROVEMENT_HELP">
+            <Text>이 타일에 시설을 건설하면 해당 도시 국가가 해당 자원을 사용할 수 있게 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION_DISABLED_HELP">
+            <Text>유닛이 이 종교의 성도에 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION_HELP">
+            <Text>이 명령을 내리면 해당 위인을 소모하여 당신의 종교에 교리 두 개를 추가할 수 있습니다. 타 종교로부터 당신의 종교를 보호하는 이단심문관도 구입할 수도 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION_DISABLED_HELP">
+            <Text>유닛이 당신의 도시 중 하나에 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION_HELP">
+            <Text>이 명령을 내리면 해당 위인을 소모하여 종교를 창시합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_MAJORITY_RELIGION">
+            <Text>이 도시의 대중 종교는 [COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]{1: plural 1?이; 2?가;} 될 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_MAJORITY_RELIGION_NONE">
+            <Text>이 도시에는 대중 종교가 없을 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY_DISABLED_HELP">
+            <Text>유닛이 우방 도시 근처에 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY_HELP">
+            <Text>이 명령을 내리면 해당 위인을 소모하여 우방 도시 주위에서 다른 종교를 제거합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_REPAIR_FLEET_HELP">
+            <Text>이 명령을 내리면 위대한 제독을 소모하여 이 타일과 주변 타일에 있는 모든 해상 유닛이 받은 피해를 완전히 회복합니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_DISABLED_HELP">
+            <Text>유닛이 도시(우방 도시가 아니어도 됨) 근처에 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_HELP">
+            <Text>이 명령을 내리면 해당 선교사를 소모하여 주위에 있는 도시의 시민 일부를 당신의 종교 신자로 바꿉니다. 위대한 선지자는 몇 차례 종교를 전파하고 나면 사라집니다. 위대한 선지자로 전도하면 다른 종교의 영향력도 제거됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_RESULT">
+            <Text>이 행동을 하면 [COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]{1: plural 1?을; 2?를;} 믿는 시민이 [COLOR_POSITIVE_TEXT]{2_NumFollowers}명[ENDCOLOR]으로 늘어납니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_START_GOLDENAGE_HELP">
+            <Text>이 명령을 내리면 위대한 예술가를 소모하여 {1_Num}턴 동안 지속하는 [ICON_GOLDEN_AGE]황금기([ICON_PRODUCTION]생산과 [ICON_GOLD]골드, [ICON_CULTURE]문화가 증가)를 시작합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_NEUTRAL_CSTATE_TT">
+            <Text>{1_CityStateName:textkey}{1: plural 1?은; 2?는;} 당신을 좋아하지도 싫어하지도 않습니다. 퀘스트를 완료하거나 [ICON_GOLD]골드를 주면 관계를 개선할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_BORDER_PROMISE_EXPIRED">
+            <Text>{1_CivDesc} 주위로 영토를 확장하지 않겠다고 약속한 뒤 여러 해가 지났습니다. 이제 그 약속을 지킨 것으로 생각하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_BORDER_PROMISE_EXPIRED_S">
+            <Text>국경 유지 약속을 지켰습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_EXPANSION_PROMISE_EXPIRED">
+            <Text>{1_CivDesc} 주위에 도시를 세우지 않겠다고 약속한 뒤 여러 해가 지났습니다. 이제 그 약속을 지킨 것으로 생각하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_EXPANSION_PROMISE_EXPIRED_S">
+            <Text>확장 자제 약속을 지켰습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_FAITH_GREAT_PERSON">
+            <Text>신앙으로 위인 탄생!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_FAITH_GREAT_PERSON_TT">
+            <Text>원하는 위인이 탄생할의 신앙을 모았습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_GREAT_ARTIST_STOLE_PLOT">
+            <Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 위대한 장군을 사용하여 당신의 영토 일부를 빼앗았습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MAYA_LONG_COUNT">
+            <Text>마야 장기력 보너스</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MAYA_LONG_COUNT_TT">
+            <Text>마야 장기력에서 한 박툰이 끝났습니다. 마야 문명의 기념비적 사건을 축하하는 의미로 보너스 한 개를 고르십시오!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT">
+            <Text>{@1_CivName}{@1: plural 1?이; 2?가;} 정략 결혼을 통해 {@2_MinorCivName}{@2: plural 1?을; 2?를;} 합병했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_1">
+            <Text>{@1_CivName}의 아름다운 공주가 {@2_MinorCivName}의 한 귀족과 결혼했습니다. 이 결혼으로 {@2_MinorCivName}{@2: plural 1?은; 2?는;} {@1_CivName}의 일부가 되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_2">
+            <Text>{@1_CivName}의 멋진 왕자가 {@2_MinorCivName}의 한 귀족 여인과 결혼했습니다. 이 결혼으로 {@2_MinorCivName}{@2: plural 1?은; 2?는;} {@1_CivName}의 일부가 되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE">
+            <Text>[ICON_HAPPINESS_1]행복 +{1_NumHappiness}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_RELIGIOUS">
+            <Text>(턴당 [ICON_PEACE]신앙이 {1_NumFaith}만큼 감소)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE">
+            <Text>해당 [COLOR_POSITIVE_TEXT]상업[ENDCOLOR] 도시 국가의 시장에서 거래되는 사치 자원이 문명 전체로 퍼집니다! ([ICON_HAPPINESS_1]행복 +{1_NumHappiness})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC">
+            <Text>해당 [COLOR_POSITIVE_TEXT]군사[ENDCOLOR] 도시 국가는 정기적으로 군사 유닛을 제공합니다. 가끔 다른 방식으로는 얻을 수 없는 고유 유닛을 받을 수도 있습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_RELIGIOUS">
+            <Text>해당 [COLOR_POSITIVE_TEXT]종교[ENDCOLOR] 도시 국가로부터 성스러운 유물을 선물로 받았습니다!(턴당 [ICON_PEACE]신앙 +{1_NumFaith})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE">
+            <Text>해당 [COLOR_POSITIVE_TEXT]상업[ENDCOLOR] 도시 국가의 시장에서 거래되는 사치 자원이 문명 전체로 퍼집니다! ([ICON_HAPPINESS_1]행복 +{1_NumHappiness})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_RELIGIOUS">
+            <Text>해당 [COLOR_POSITIVE_TEXT]종교[ENDCOLOR] 도시 국가로부터 종교 의식에 대해 배웠습니다!(턴당 [ICON_PEACE]신앙 +{1_NumFaith})</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY">
+            <Text>도시 국가의 경계 대상이 됨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY_TT">
+            <Text>당신이 약한 이웃 문명을 공격한 사실을 모두 알았습니다. 이들 도시 국가와의 기본 [ICON_INFLUENCE]영향력이 [COLOR_NEGATIVE_TEXT]{1_InfluenceMinimum}[ENDCOLOR]만큼 감소해 영향력을 유지하려면 더 어렵게 되었습니다.[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED">
+            <Text>{@1_CivName}{@1: plural 1?이; 2?가;} 종교관을 세웠습니다. 선택한 교리는 [COLOR_POSITIVE_TEXT]{2_BeliefName}[ENDCOLOR]({@3_BeliefDesc})입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_ACTIVE_PLAYER">
+            <Text>당신의 문명이 종교관을 세웠습니다. 선택한 교리는 [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR]({@2_BeliefDesc})입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_S">
+            <Text>종교관 세우기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_UNKNOWN">
+            <Text>아직 만나지 못한 문명이 종교관을 세웠습니다. 선택한 교리는 [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR]({@2_BeliefDesc})입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_BULLY_CITY_STATE">
+            <Text>상대 도시 국가를 주시하던 {2_MinorCivName:textkey}의 지도자가 상대 도시 국가를 견제해 달라고 부탁했습니다. {1_TargetName:textkey}에게 어떠한 형태로든 공물을 요구하면 그에 보상한다고 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_BULLY_CITY_STATE">
+            <Text>{2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 애써 모은 자원을 내주는 것을 본 상대 도시 국가 {1_TargetName:textkey}{1: plural 1?이; 2?가;} 기뻐했습니다. 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE">
+            <Text>{2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 부탁한대로 {1_ResourceName} 자원을 교역망에 추가해 상인들이 기뻐합니다! [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_WONDER">
+            <Text>{2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 부탁한대로 {1_WonderName}{1: plural 1?을; 2?를;} 건설했습니다! [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_CULTURE">
+            <Text>당신의 문화를 본 {1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 감명받았습니다! 그들은 이제 다른 문명의 문화는 쳐다보지도 않습니다. 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] 증가했습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_FAITH">
+            <Text>{1_MinorCivName:textkey}의 성직자들이 당신의 종교에 감명받았습니다. 그들은 이제 다른 문명의 열등한 종교는 쳐다보지도 않습니다. 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] 증가했습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_TECHS">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 급속하게 발전하는 당신의 기술을 보고 놀랐습니다! 그들의 과학자와 지식인들은 이제 다른 문명은 기술 발전에 더디다고 무시합니다. 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] 증가했습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_DENOUNCE_MAJOR">
+            <Text>{2_MinorCivName:textkey}{2: plural 1?은; 2?는;} {1_TargetName:textkey}{1: plural 1?이; 2?가;} 자신들을 부당하게 대했다는 사실이 온 세상이 알려지자 안심했습니다. 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_NATURAL_WONDER">
+            <Text>새로운 자연경관을 발견해 {1_MinorCivName:textkey}의 시민들이 감명받았습니다! 노력의 대가로 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_PLAYER">
+            <Text>{1_TargetName:textkey}{1: plural 1?을; 2?를;} 발견해 {2_MinorCivName:textkey}의 상인들이 기뻐합니다. [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIVE_GOLD">
+            <Text>당신에게 골드를 받은 {2_MinorCivName:textkey}{2: plural 1?은; 2?는;} {1_BullyName:textkey}에게 바친 공물 때문에 생긴 경제적 손실을 메울 수 있었습니다! 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다. 해당 도시 국가는 앞으로 다른 문명의 공물 요구를 잘 들어주지 않을 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GREAT_PERSON">
+            <Text>{2_MinorCivName:textkey}의 요청대로 {1_UnitName}{1: plural 1?을; 2?를;} 만들었습니다! 해당 도시 국가의 학자들이 경외심에 빠져 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INVEST">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 프로젝트를 완료했습니다. 골드를 선물해 얻을 수 있는 [ICON_INFLUENCE]영향력이 정상으로 돌아갑니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 부탁한대로 야만인 주둔지를 파괴했습니다! 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE">
+            <Text>당신이 {1_TargetName:textkey}{1: plural 1?을; 2?를;} 제거하자 {2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 매우 기뻐합니다! 당신의 협조에 감격한 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]만큼 증가했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_PLEDGE_TO_PROTECT">
+            <Text>당신이 {2_MinorCivName:textkey}{2: plural 1?을; 2?를;} 보호해 주겠다고 공언하여 그들이 {1_BullyName:textkey}에게 바친 공물 때문에 생긴 경제적 손실을 극복하는 데 도움이 되었습니다! 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다. 해당 도시 국가는 앞으로 다른 문명의 공물 요구를 잘 들어주지 않을 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_SPREAD_RELIGION">
+            <Text>{@2_MinorCivName}의 시민들이 {@1_ReligionName}{@1: plural 1?이; 2?가;} 도시의 대중 종교가 된 것에 감사합니다. 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] 증가했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_CULTURE">
+            <Text>예술이 융성하는 {3_MinorCivName:textkey}에서 보고 배울 선진 문화를 찾고 있습니다. {2_TurnsDuration}턴 안에 [ICON_CULTURE]문화를 가장 많이 생성하는 문명은 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 증가합니다. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남았습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_FAITH">
+            <Text>{3_MinorCivName:textkey} 사람들이 자신들을 이끌 종교 지도자를 찾고 있습니다. {2_TurnsDuration}턴 안에 [ICON_PEACE]신앙을 가장 많이 생성하는 문명은 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 증가합니다. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남았습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_TECHS">
+            <Text>{3_MinorCivName:textkey}의 최고 지식인들이 과학 발전이 빠른 문명과의 관계를 돈독하게 하려고 합니다. {2_TurnsDuration}턴 안에 가장 많은 기술을 개발하는 문명은 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 증가합니다. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남았습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_DENOUNCE_MAJOR">
+            <Text>최근 {1_TargetName:textkey}에게 괴롭힘을 당한 {2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 세상 모든 강대국에 이 부당한 처사를 알릴 방법을 찾고 있습니다. {1_TargetName:textkey}{1: plural 1?을; 2?를;} 공개적으로 비난하면 해당 도시 국가가 이에 보상할 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_CULTURE">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 선진 문화에 감명받았습니다. 당신 문명의 문화 발전 속도가 충분하지 않아 해당 도시 국가와의 [ICON_INFLUENCE]영향력에 변함이 없습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_FAITH">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 깊은 신앙심에 감명받았습니다. 당신 문명의 신앙 생성 속도가 충분하지 않아 해당 도시 국가와의 [ICON_INFLUENCE]영향력에 변함이 없습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 첨단 기술에 감명받았습니다. 당신 문명의 기술 발전 속도가 충분하지 않아 해당 도시 국가와의 [ICON_INFLUENCE]영향력에 변함이 없습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_INVEST">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 프로젝트를 완료했습니다. 골드를 선물해 얻을 수 있는 [ICON_INFLUENCE]영향력이 정상으로 돌아갑니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_OTHER">
+            <Text>기다리다 지친 {1_MinorCivName:textkey}의 지도자들이 당신에게 준 퀘스트를 취소했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REVOKED">
+            <Text>{1_MinorCivName:textkey}에게 공물을 요구해 그들이 전에 주었던 퀘스트를 취소했습니다. 그들이 다시 당신에게 퀘스트를 주기까지 시간이 지나야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIVE_GOLD">
+            <Text>최근 {1_BullyName:textkey}에 공물을 바쳐 국고가 텅 빈 {2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 경제 회복을 위해 골드를 달라고 합니다. 그들을 도우면 보상을 받으며 앞으로 공물 요구를 잘 들어주지 않을 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIVEN_CONDENSED">
+            <Text>새 도시 국가 퀘스트를 받을 수 있습니다. 퀘스트를 완료하면 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 높아집니다. 모든 퀘스트를 한 눈에 보려면 도시 화면에 있는 외교 메뉴를 보십시오.[NEWLINE][NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_INVEST">
+            <Text>{3_MinorCivName:textkey}{3: plural 1?이; 2?가;} 대형 공공사업 프로젝트를 시작했습니다. 프로젝트 기간 동안 골드를 선물하면 [ICON_INFLUENCE]영향력이 [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR]만큼 더 증가합니다. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남았습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_PLEDGE_TO_PROTECT">
+            <Text>최근 {1_BullyName:textkey}에 공물을 바쳐 국고가 텅 빈 {2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 강대국의 보호를 받기를 원합니다. 해당 도시 국가를 보호해 주겠다고 선언하면 보상받을 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPREAD_RELIGION">
+            <Text>{@1_ReligionName}의 교리를 들은 {@2_MinorCivName}의 시민은 당신이 이 종교를 전파해 주기를 원합니다. 해당 도시의 대중 종교가 {@1_ReligionName}{@1: plural 1?이; 2?가;} 되면 [ICON_INFLUENCE]영향력이 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED">
+            <Text>{1_CivName}{1: plural 1?이; 2?가;} 새 교리를 추가해 [COLOR_POSITIVE_TEXT]{@2_ReligionName}[ENDCOLOR]{@2: plural 1?을; 2?를;} 강화했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_ACTIVE_PLAYER">
+            <Text>새 교리를 추가해 [COLOR_POSITIVE_TEXT]{@1_ReligionName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 강화했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_S">
+            <Text>종교 강화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_UNKNOWN">
+            <Text>아직 만나지 못한 문명이 새 교리를 추가해 [COLOR_POSITIVE_TEXT]{@1_ReligionName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 강화했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED">
+            <Text>{1_CivName}{1: plural 1?이; 2?가;} 성도 {@3_CityName}에서 새 종교인 [COLOR_POSITIVE_TEXT]{@2_ReligionName}[ENDCOLOR]{@2: plural 1?을; 2?를;} 창시했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_ACTIVE_PLAYER">
+            <Text>성도 {@2_CityName}에서 새 종교인 [COLOR_POSITIVE_TEXT]{@1_ReligionName}[ENDCLOOR][ENDCOLOR]{@1: plural 1?을; 2?를;} 창시했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_S">
+            <Text>종교 창시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_UNKNOWN">
+            <Text>아직 만나지 못한 문명이 새 종교인 [COLOR_POSITIVE_TEXT]{@1_ReligionName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 창시했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_ACTIVE_PLAYER">
+            <Text>{1_CityName}에 다른 종교가 전파되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_ACTIVE_PLAYER_S">
+            <Text>도시 중 하나에 다른 종교 전파</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_INITIAL_CONVERSION">
+            <Text>{1_CityName} 사람들이 새로운 종교를 받아들였습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_INITIAL_CONVERSION_S">
+            <Text>종교를 믿는 도시가 되었음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_BULLY_CITY_STATE">
+            <Text>{2_MinorCivName:textkey}{2: plural 1?이; 2?가;} {1_TargetName:textkey}{1: plural 1?을; 2?를;} 괴롭히기 원함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_BULLY_CITY_STATE">
+            <Text>{2_MinorCivName:textkey}의 부탁으로 {1_TargetName:textkey}{1: plural 1?을; 2?를;} 괴롭혔습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_CULTURE">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 당신의 문명을 경외합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_FAITH">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 당신의 문명을 경외합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_TECHS">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 당신의 문명을 경외합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_DENOUNCE_MAJOR">
+            <Text>{2_MinorCivName:textkey}의 부탁으로 {1_TargetName:textkey}{1: plural 1?을; 2?를;} 공개적으로 비난했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GIVE_GOLD">
+            <Text>{1_MinorCivName:textkey}에게 골드를 지원했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INVEST">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 더이상 투자자를 찾지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_PLEDGE_TO_PROTECT">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?을; 2?를;} 보호하겠다고 선언했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_SPREAD_RELIGION">
+            <Text>{@1_ReligionName}{@1: plural 1?을; 2?를;} {@2_MinorCivName}에 전파했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_CULTURE">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 선진 문화를 갈망합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_FAITH">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 종교를 원합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_TECHS">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 과학 기술을 찾고 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_DENOUNCE_MAJOR">
+            <Text>{2_MinorCivName:textkey}{2: plural 1?이; 2?가;} {1_TargetName:textkey}의 만행을 세상에 알리고자 합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_CULTURE">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 다른 문명으로 눈을 돌렸습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_FAITH">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 다른 문명으로 눈을 돌렸습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TECHS">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 다른 문명으로 눈을 돌렸습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_INVEST">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 더이상 투자자를 찾지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_OTHER">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 퀘스트를 취소했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REVOKED">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 퀘스트를 취소했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVE_GOLD">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 파산했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVEN_CONDENSED">
+            <Text>새 도시 국가 퀘스트</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INVEST">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 투자자를 찾고 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_PLEDGE_TO_PROTECT">
+            <Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 자신들을 보호해줄 문명을 찾고 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPREAD_RELIGION">
+            <Text>{@2_CivName}{@2: plural 1?이; 2?가;} {@1_ReligionName}{@1: plural 1?을; 2?를;} 원합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL">
+            <Text>{1_CivName:textkey}{1: plural 1?과; 2?와;} 맺었던 연구 협정이 취소되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL_S">
+            <Text>연구 협정이 취소되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_AESTHETICS_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]미학[ENDCOLOR][NEWLINE]모든 도시 국가와의 기본 [ICON_INFLUENCE]영향력이 20 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]독재[ENDCOLOR]는 세게 정복을 꿈꾸는 군사 문명에 적합합니다.[NEWLINE][NEWLINE]독재를 채택하면 유닛의 유지비로 드는 [ICON_GOLD]골드가 33% 감소하므로 더 큰 군대를 유지할 수 있습니다. 정복한 도시에서 생산하는 [ICON_CULTURE]문화 1당 [ICON_CULTURE]문화 10을 전리품으로 받습니다.[NEWLINE][NEWLINE]독재 계열의 정책을 모두 채택하면 50턴 동안 모든 군사 유닛의 공격력이 25% 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙으로 위대한 장군이나 위대한 제독을 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]독재는 평등이나 질서와 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]평등[ENDCOLOR]은 규모가 작고 한 가지에 집중하는 문명에 적합합니다. [ICON_GREAT_PEOPLE]위인과 전문가에 보너스를 제공하는 특징이 있습니다.[NEWLINE][NEWLINE]평등을 채택하면 [ICON_GREAT_PEOPLE]위인 출현율이 25% 증가합니다.[NEWLINE][NEWLINE]평등 계열의 정책을 모두 채택하면 위인으로 건설하는 시설의 기본 산출량이 100% 증가하며 [ICON_GOLDEN_AGE]황금기가 50% 더 지속됩니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙으로 위대한 예술가를 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]평등은 독재나 질서와 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]질서[ENDCOLOR]는 도시 수가 많을수록 그 효과도 증가하므로 큰 문명에 좋습니다.[NEWLINE][NEWLINE]질서를 채택하면 도시당 [ICON_HAPPINESS_1]행복이 1 증가합니다.[NEWLINE][NEWLINE]질서 계열의 모든 정책을 채택하면 도시당 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드 및 [ICON_CULTURE]문화가 2 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙으로 위대한 기술자를 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]질서는 평등이나 독재와 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]공산주의[ENDCOLOR][NEWLINE]도시당 [ICON_PRODUCTION]생산이 2 증가하며 광산이나 채석장마다 [ICON_PRODUCTION]생산이 1 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]규율[ENDCOLOR][NEWLINE]옆 타일에 다른 군사 유닛이 있을 때 근접 유닛의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FASCISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]파시즘[ENDCOLOR][NEWLINE]제국이 생산하는 전략 자원의 량이 두 배로 늘어납니다. 위대한 장군의 [ICON_MOVES]이동력이 2 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_FREE_RELIGION">
+            <Text>종교적 관용</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]중상주의[ENDCOLOR][NEWLINE]도시에서 유닛이나 건물을 구입할 때 필요한 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 화폐 주조소, 시장, 은행 및 증권거래소마다 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]군사 계급[ENDCOLOR][NEWLINE]유닛이 주둔한 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]과두제[ENDCOLOR][NEWLINE]도시에 주둔한 유닛은 유지비가 필요 없으며 유닛이 주둔한 도시는 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]종교 체제[ENDCOLOR][NEWLINE]성소와 사원으로부터 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]계획 경제[ENDCOLOR][NEWLINE]공장을 지으면 도시의 [ICON_RESEARCH]과학이 25% 증가합니다. 공장 건설 속도가 반으로 줄어듭니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]보호무역주의[ENDCOLOR][NEWLINE]사치 자원 하나당 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]과학 혁명[ENDCOLOR][NEWLINE]연구 협정으로 얻는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]국민주권[ENDCOLOR][NEWLINE][ICON_RESEARCH]과학 건물에서 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 생산합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+            <Text>[COLOR_POSITIVE_TEXT]총력전[ENDCOLOR][NEWLINE]군사 유닛을 생산할 때 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하며 새로운 군사 유닛은 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 경험치를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_ALLIED_WITH">
+            <Text>동맹:</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY">
+            <Text>공물 요구</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BULLY_TT">
+            <Text>도시 국가에게서 [ICON_GOLD]골드와 유닛을 빼앗을 수 있습니다. 하지만 이를 무력으로 빼앗으면 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT">
+            <Text>정략 결혼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_ALLY_TT">
+            <Text>[ICON_GOLD]골드 {1_BuyoutCost}{1: plural 1?을; 2?를;} 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 대회 투표수는 더 이상 적용되지 않습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 도시 국가를 얻으려면 {1_NumTurns}턴동안 동맹이어야 하며(현재 {2_TurnsAllied}턴동안 동맹) [ICON_GOLD]골드가 {3_BuyoutCost}만큼 있어야 합니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_TT">
+            <Text>[ICON_GOLD]골드 {1_BuyoutCost}{1: plural 1?을; 2?를;} 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 대회 투표 수는 더 이상 적용되지 않습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 도시 국가를 얻으려면 {1_NumTurns}턴 동안 동맹이어야 하며 [ICON_GOLD]골드가 {2_BuyoutCost}만큼 있어야 합니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_TT">
+            <Text>[ICON_GOLD]골드 {1_BuyoutCost}을 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 대회 투표 수는 더 이상 적용되지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_FIND_ON_MAP">
+            <Text>지도에서 찾기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_INFLUENCE_TT">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]도시 국가를 보호하겠다고 선언하려면 해당 도시 국가와 평화를 유지해야 하며 [ICON_INFLUENCE]영향력이 {1_InfluenceNeededToPledge}이상이어야 합니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이전 보호 선언을 지키지 않아 이 도시 국가는 당신을 믿지 않습니다. 다시 보호 선언을 하려면 앞으로 {1_TurnsUntilPledgeAvailable}턴을 기다려야 합니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_TT">
+            <Text>도시 국가를 보호하겠다고 선언하면 게임에 등장하는 다른 문명이 해당 도시 국가를 공격하거나 해당 도시 국가에서 조공을 받으려고 할 때 당신이 이를 막을 것이라고 알리는 것입니다. 당신과의 분쟁을 피하려는 문명은 해당 도시 국가를 가만히 놔두겠지만, 누군가 해당 도시 국가에게 공물을 요구하거나 해당 도시 국가를 공격하면 당신이 해당 도시 국가의 편을 들어주어야 합니다.[NEWLINE][NEWLINE]보호 선언이 유효한 동안 해당 도시 국가와의 [ICON_INFLUENCE]영향력이 {1_InfluenceMinimum} 증가합니다. 보호 선언 후 {2_TurnsMinimum}턴 동안은 이를 취소할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_QUESTS">
+            <Text>퀘스트:</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_RESOURCES">
+            <Text>자원:</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION">
+            <Text>보호 선언 철회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_DISABLED_COMMITTED_TT">
+            <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이미 해당 도시 국가를 보호하겠다고 선언했으므로 앞으로 {1_TurnsRemaining}턴 동안은 이를 취소할 수 없습니다.[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_TT">
+            <Text>이 도시 국가를 보호하겠다고 한 선언을 취소하면 다른 강대국이 이를 알아채고 이 도시 국가를 다르게 대할 수 있습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+            <Text>우호적인 도시 국가가 생성하는 [ICON_FOOD]식량, [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 50% 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+            <Text>모든 근접 해상 유닛은 물리친 적선을 나포할 수 있는 [COLOR_POSITIVE_TEXT]전리품 선박[ENDCOLOR] 승급이 부여됩니다. 해상 유닛의 유지비가 [COLOR_POSITIVE_TEXT]1/3[ENDCOLOR]로 줄어듭니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+            <Text>모든 해상 유닛의 [ICON_MOVES]이동력이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 스파이 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]을 추가로 받습니다.</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

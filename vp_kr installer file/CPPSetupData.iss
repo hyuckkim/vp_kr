@@ -43,25 +43,27 @@ UsedUserAreasWarning=no
 Name: "korean"; MessagesFile: "compiler:Languages\Korean.isl"
 
 [Files]
-Source: "..\(1L) Community Patch INT\*"; DestDir: "{app}\MODS\(1L) Community Patch INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP
-Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\MODS\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP
-Source: "..\(3aL) VP - EUI Compatibility Files INT\*"; DestDir: "{app}\MODS\(3aL) VP - EUI Compatibility Files INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP
-Source: "..\(4aL) Squads for VP INT\*"; DestDir: "{app}\MODS\(4aL) Squads for VP INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP
-Source: "..\(overL) More Unique Components for VP (v 88) INT\*"; DestDir: "{app}\MODS\(overL) More Unique Components for VP (v 88) INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC
+Source: "..\(1L) Community Patch INT\*"; DestDir: "{app}\MODS\(1L) Community Patch INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC VP VPNVC
+Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\MODS\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP34UC VP34UCNVC VP VPNVC
+Source: "..\(3aL) VP - EUI Compatibility Files INT\*"; DestDir: "{app}\MODS\(3aL) VP - EUI Compatibility Files INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC VP VPNVC
+Source: "..\(4aL) Squads for VP INT\*"; DestDir: "{app}\MODS\(4aL) Squads for VP INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP34UC VP34UCNVC VP VPNVC
+Source: "..\(overL) More Unique Components for VP (v 88) INT\*"; DestDir: "{app}\MODS\(overL) More Unique Components for VP (v 88) INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC
 Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP
-Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VoteColor
-Source: "..\VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion; Components: VP34UC VP
+Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UCNVC VPNVC
+Source: "..\VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion; Components: VP34UC VP34UCNVC VP VPNVC
 ; 참고: 공유 시스템 파일에서 "Flags: ignoreversion"을 사용하지 마십시오.
 
 [Components]
 Name: "VP34UC"; Description: "Vox Populi + 34UC 한국어 번역 모드"; Types: VP34UC; Flags: exclusive disablenouninstallwarning 
-Name: "VP"; Description: "Vox Populi 한국어 번역 모드 (34UC 번역 없음)"; Types: VP; Flags: exclusive disablenouninstallwarning
-Name: "VoteColor"; Description: "투표에서 문명 색상 없애기"; Types: VoteColor; Flags: exclusive disablenouninstallwarning
+Name: "VP34UCNVC"; Description: "Vox Populi + 34UC 한국어 번역 모드 (투표 문명색 제거)"; Types: VP34UCNVC; Flags: exclusive disablenouninstallwarning 
+Name: "VP"; Description: "Vox Populi 한국어 번역 모드"; Types: VP; Flags: exclusive disablenouninstallwarning
+Name: "VPNVC"; Description: "Vox Populi 한국어 번역 모드 (투표 문명색 제거)"; Types: VPNVC; Flags: exclusive disablenouninstallwarning
 
 [Types]
 Name: "VP34UC"; Description: "Vox Populi + 34UC 한국어 번역 모드";
-Name: "VP"; Description: "Vox Populi 한국어 번역 모드 (34UC 번역 없음)";
-Name: "VoteColor"; Description: "투표에서 문명 색상 없애기"
+Name: "VP34UCNVC"; Description: "Vox Populi + 34UC 한국어 번역 모드 (투표 문명색 제거)";
+Name: "VP"; Description: "Vox Populi 한국어 번역 모드";
+Name: "VPNVC"; Description: "Vox Populi 한국어 번역 모드 (투표 문명색 제거)";
 
 [InstallDelete]
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\cache"

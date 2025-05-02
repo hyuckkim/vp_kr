@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+<!--File created by Paul Murphy-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_CONQUEST_TITLE">
+      <Text>정복 승리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_CONQUEST_TEXT">
+      <Text>
+        당신은 전장에서 모든 적을 패배시키고 정복 승리를 달성하였습니다! 당신은 적군을 물리치고 도시를 정복했습니다! 사람들은 오랫동안 당신의 영광스러운 승리를 기억할 것입니다!
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_ALTCONQUEST_TITLE">
+      <Text>엇갈린 정복 승리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_ALTCONQUEST_TEXT">
+      <Text>
+        세계는 그동안 전쟁에 의해 혼란스러웠습니다. 위대하고 강력했던 많은 문명이 무너졌지만, 당신은 끝까지 살아남아 승리를 거머쥐었습니다! 온 세계는 당신의 영광스러운 승리를 오랫동안 기억할 것입니다!
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_SCIENCE_TITLE">
+      <Text>과학 승리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_SCIENCE_TEXT">
+      <Text>
+        당신은 과학을 지배함으로써, 승리를 쟁취하였습니다! 당신은 자연의 신비를 밝혀냈고 새로운 세상을 향해 인류를 이끌었습니다! 별들이 밤하늘을 빛내고 있는 한 당신의 승리는 영원히 기억될 것입니다!
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_DIPLOMATIC_TITLE">
+      <Text>외교 승리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_DIPLOMATIC_TEXT">
+      <Text>
+        당신은 외교적 기술을 통해 적을 이겨냈습니다! 당신은 노련한 지혜로 많은 친구를 얻었고 적들을 혼란에 빠뜨려 분열시켰습니다! 당신은 갈등과 반목에 지쳐 있던 세상에 평화를 가져온 지도자로 영원토록 기억될 것입니다.
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_CULTURE_TITLE">
+      <Text>문화 승리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_CULTURE_TEXT">
+      <Text>
+        당신은 경이로운 문화를 통해 승리를 쟁취하였습니다. 기념비의 웅장함과 예술가의 능력으로 문명의 위대함에 온 세계가 경악하게 했습니다! 시인들은 아름다움이 지쳐 있는 마음에 기쁨을 주는 한 당신을 기리게 될 것입니다.
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_LOSS_TITLE">
+      <Text>패배</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_LOSS_TEXT">
+      <Text>
+        당신은 패배했습니다. 당신의 문명은 많은 적에 의해 제압당했습니다. 하지만, 당신의 민족은 좌절하지 않습니다. 왜냐하면, 언젠가는 당신이 돌아와 그들을 승리로 이끌 것이라 알고 있기 때문입니다!
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXTENDED_GAME_YES">
+      <Text>잠깐만! ...한 턴 만 더...!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXTENDED_GAME_DEMO">
+      <Text>당신의 위대하고 강력한 문명의 시간은 여기서 끝나고 말았습니다. 그러나 당신의 국민들은 절망하지 않았습니다, 그들은 당신이 어느 날 다시 돌아와 승리로 이끌어 줄 것이라 믿고 있습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_DEMO_TEXT">
+      <Text>
+        당신의 위대하고 강력한 문명이 시작된 이래 많은 세월이 지났습니다. 유감스럽게도, 시간은 끝났지만, 당신의 민족은 좌절하지 않습니다. 왜냐하면, 언젠가는 당신이 돌아와 그들을 승리로 이끌 것이라 알고 있기 때문입니다!
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_DEMO_BULLET_TEXT">
+      <Text>
+        [ICON_BULLET]문명 5를 완벽히 즐기기 위해서는 정품을 구매하셔야만 합니다.[NEWLINE][NEWLINE][ICON_BULLET]18개의 문명을 인류의 여명으로부터 우주시대까지 발전시켜 나가 보십시오.[NEWLINE][NEWLINE][ICON_BULLET]전용 컨텐츠와 모드가 제공되고, 전 세계의 사용자들과 겨룰 수도 있습니다.[NEWLINE][NEWLINE][ICON_BULLET]당신 마음속의 문명은 어떤 문명으로 남아있습니까?
+      </Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

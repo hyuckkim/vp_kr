@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_BUILDING_AERODROME_HELP">
+      <Text>로데렘만 건설할 수 있습니다.[NEWLINE][NEWLINE]공중 유닛의 경험치가 15 증가합니다.[NEWLINE][NEWLINE]공중 유닛을 생산할 때 10%의 [ICON_PRODUCTION]생산 보너스를 받습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AERODROME_STRATEGY">
+      <Text>비행선 격납고를 대체하는 비행장은 로데렘만 건설할 수 있으며 비행기, 비행선 및 공중요새를 만들 때 [ICON_PRODUCTION]생산 보너스를 제공합니다. 비행선 격납고와 마찬가지로 생산한 공중 유닛에게 경험치 보너를 줍니다. 비행장을 건설하면 단시간에 베테랑 공중 함대를 생산할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AETHERIUM_FABRICATOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT][ICON_RES_ALUMINUM] 에더리움 2개[ENDCOLOR]를 제공합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AETHERIUM_FABRICATOR_STRATEGY">
+      <Text>해당 자원이 있는 타일이 없어도 [ICON_RES_ALUMINUM] 에더리움을 제공합니다. 에더리움은 비행선 유닛을 만드는 데 필요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AETHERIUM_FACTORY_HELP">
+      <Text>커틀러만 건설할 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT][ICON_RES_ALUMINUM] 에더리움 2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 도시에서 생산하는 [ICON_RES_ALUMINUM] 에더리움 하나당 [ICON_GOLD]골드가 1 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AETHERIUM_FACTORY_STRATEGY">
+      <Text>에더리움 조작기를 대체하는 에더리움 공장은 커틀러만 건설할 수 있으며 이를 건설한 도시에서 생산하는 [ICON_RES_ALUMINUM] 에더리움 자원 하나당 [ICON_GOLD]골드 보너스를 제공합니다. 이 보너스는 커틀러의 특성으로 받는 보너스와 동시에 적용됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AIRSHIP_HANGAR_HELP">
+      <Text>공중 유닛의 경험치가 15 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AIRSHIP_HANGAR_STRATEGY">
+      <Text>비행기, 비행선 및 공중요새 등 이 도시에서 생산한 공중 유닛의 경험치가 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ANALYTICAL_ENGINE_HELP">
+      <Text>모든 도시에 차분기관이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ANALYTICAL_ENGINE_STRATEGY">
+      <Text>모든 도시에 차분기관이 있어야 건설할 수 있는 분석 엔진은 문명당 한 개만 건설할 수 있습니다. 분석 엔진은 큰 [ICON_PRODUCTION]생산 보너스를 제공합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AUTOMATED_FACTORY_HELP">
+      <Text>모든 도시에 이 건물이 있으면 영구운동 엔진을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AUTOMATED_FACTORY_STRATEGY">
+      <Text>이 건물을 건설하면 [ICON_PRODUCTION]생산이 크게 증가하고 [ICON_HAPPINESS_1]행복이 조금 증가합니다. 모든 도시에 이 건물을 건설하면 국가 불가사의인 영구운동 엔진을 건설할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BILTMORE_HOUSE_HELP">
+      <Text>모든 도시에 대저택이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BILTMORE_HOUSE_STRATEGY">
+      <Text>모든 도시에 대저택이 있어야 건설할 수 있는 빌트모어하우스는 문명당 한 개만 건설할 수 있습니다. 빌트모어하우스를 건설하면 도시의 [ICON_GOLD]골드와 [ICON_CULTURE]문화가 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CARNEGIE_HALL_HELP">
+      <Text>모든 도시에 자선시장이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CARNEGIE_HALL_STRATEGY">
+      <Text>모든 도시에 자선시장이 있어야 건설할 수 있는 카네기홀은 문명당 한 개만 건설할 수 있습니다. 카네기홀을 건설하면 도시의 [ICON_CULTURE]문화가 크게 증가하고 [ICON_HAPPINESS_1]행복이 조금 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_DIFFERENCE_ENGINE_HELP">
+      <Text>모든 도시에 차분기관이 있으면 분석 엔진을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_DIFFERENCE_ENGINE_STRATEGY">
+      <Text>차분기관을 건설하면 도시의 [ICON_PRODUCTION]생산과 [ICON_RESEARCH]과학이 증가합니다. 모든 도시에 차분기관이 있으면 국가 불가사의인 분석 엔진을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_MANSION_HELP">
+      <Text>모든 도시에 대저택이 있으면 빌트모어하우스를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_MANSION_STRATEGY">
+      <Text>대저택을 건설하면 도시의 [ICON_GOLD]골드와 [ICON_CULTURE]문화가 증가합니다. 모든 도시에 대저택이 있으면 국가 불가사의인 빌트모어하우스를 건설할 수 있습니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRANDSTAND_HELP">
+      <Text>엘더다이스만 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRANDSTAND_STRATEGY">
+      <Text>경기장을 대체하는 그랜드스탠드는 엘더다이스만 건설할 수 있습니다. 그랜드스탠드를 건설하면 [ICON_CULTURE]문화를 제공하므로 더 빨리 영토를 확장하고 사회 정책을 채택할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INVENTORS_HALL_HELP">
+      <Text>모든 도시에 특허국이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INVENTORS_HALL_STRATEGY">
+      <Text>모든 도시에 특허국이 있어야 건설할 수 있는 발명가의 홀은 문명당 한 개만 건설할 수 있습니다. 발명가의 홀을 건설하면 도시의 [ICON_GOLD]골드와 [ICON_RESEARCH]과학이 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LUBORIC_FACTORY_HELP">
+      <Text>커르노우만 건설할 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT][ICON_RES_URANIUM] 루보릭 2개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 도시에서 생산하는 [ICON_RES_URANIUM] 루보릭 하나당 [ICON_PRODUCTION]생산이 1 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LUBORIC_FACTORY_STRATEGY">
+      <Text>루보릭 정제기를 대체하는 루보릭 공장은 커르노우만 건설할 수 있으며 건설한 도시에서 생산하는 [ICON_RES_URANIUM] 루보릭 하나당 [ICON_PRODUCTION]생산이 증가합니다. 이 보너스는 커르노우의 특성으로 받는 보너스와 동시에 적용됩니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LUBORIC_REFINERY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT][ICON_RES_URANIUM] 루보릭 2개[ENDCOLOR]를 제공합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LUBORIC_REFINERY_STRATEGY">
+      <Text>해당 자원이 있는 타일이 없어도 [ICON_RES_URANIUM] 루보릭을 제공합니다. 루보릭은 지상함 유닛을 만드는 데 필요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PATENT_OFFICE_HELP">
+      <Text>모든 도시에 특허국이 있으면 발명가의 홀을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PATENT_OFFICE_STRATEGY">
+      <Text>특허국을 건설하면 도시의 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산이 증가하며 과학자 슬롯을 제공합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PERPETUAL_MOTION_ENGINE_HELP">
+      <Text>모든 도시에 자동화 공장이 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PERPETUAL_MOTION_ENGINE_STRATEGY">
+      <Text>모든 도시에 자동화 공장이 있어야 건설할 수 있는 영구운동 엔진은 문명당 한 개만 건설할 수 있습니다. 영구운동 엔진을 건설하면 도시의 [ICON_PRODUCTION]생산이 크게 증가하며 [ICON_GOLD]골드도 상당히 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PHILANTHROPORIUM_HELP">
+      <Text>모든 도시에 자선시장이 있으면 카네기홀을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PHILANTHROPORIUM_STRATEGY">
+      <Text>자선시장을 건설하면 도시의 [ICON_CULTURE]문화가 크게 증가하며 [ICON_HAPPINESS_1]행복도 증가합니다. 모든 도시에 자선시장이 있으면 카네기홀을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUBTERRANEAN_COLONY_HELP">
+      <Text>모든 도시에 지하 전초기지가 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUBTERRANEAN_COLONY_STRATEGY">
+      <Text>모든 도시에 지하 전초기지가 있어야 건설할 수 있는 지하 식민지는 문명당 한 개만 건설할 수 있습니다. 지하 식민지를 건설하면 도시의 [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화가 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUBTERRANEAN_OUTPOST_HELP">
+      <Text>모든 도시에 지하 전초기지가 있으면 지하 식민지를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUBTERRANEAN_OUTPOST_STRATEGY">
+      <Text>지하 전초기지를 건설하면 도시의 [ICON_PRODUCTION]생산과 [ICON_RESEARCH]과학이 증가합니다. 모든 도시에 지하 전초기지가 있으면 국가 불가사의인 지하 식민지를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TESLA_COIL_HELP">
+      <Text>테슬라코일을 건설하면 도시의 [ICON_RESEARCH]과학과 [ICON_GOLD]골드가 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TESLA_COIL_STRATEGY">
+      <Text>테슬라코일을 건설하면 도시의 [ICON_RESEARCH]과학이 크게 증가하며 [ICON_GOLD]골드도 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TORUS_DYNAMO_HELP">
+      <Text>그리그스만 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TORUS_DYNAMO_STRATEGY">
+      <Text>토루스 발전기는 그리그스만 건설할 수 있습니다. 테슬라코일을 대체하는 토루스 발전기는 테슬라코일보다 [ICON_RESEARCH]과학이 많습니다. 이 보너스는 연구하지 않고 지나친 이전 기술을 연구하거나 미래 시대 기술을 연구할 때 유용합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TRADE_COLLEGE_HELP">
+      <Text>전문대학을 건설하면 도시의 [ICON_RESEARCH]과학과 [ICON_CULTURE]문화가 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TRADE_COLLEGE_STRATEGY">
+      <Text>전문대학을 건설하면 도시의 [ICON_RESEARCH]과학이 크게 증가하며 [ICON_CULTURE]문화도 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AERODROME_TEXT">
+      <Text>저 유명한 에루치의 비행장은 비행선을 조립하고 비행사를 훈련시키는 역할을 합니다. 비행선 제조 공정에 직접 참여하는 조종사들은 훈련과 기량을 모두 쌓을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AETHERIUM_FABRICATOR_TEXT">
+      <Text>에더리움의 비밀이 속속 밝혀짐에 따라 과학자들이 더 적은 에더리움으로 같은 효과를 내는 방법은 물론 에더리움과 비슷한 효과를 내는 합성 에더리움을 만드는 기술을 개발하기에 이르렀습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AETHERIUM_FACTORY_TEXT">
+      <Text>에더리움은 자연 법칙을 무시하는 물질이며 쓰임새가 다양하다. 풀리아스제국 스파이는 에더리움 관련 기술에 관심이 집중되고 있다. 에더리움 공장은 소량의 에더리움으로도 최대한의 효과를 거둘 수 있도록 설계되었으므로 일반인을 상대로한 제품이나 고가의 상업 제품을 생산하는 데 사용된다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AIRSHIP_HANGAR_TEXT">
+      <Text>비행기와 비행선은 평평한 땅이라면 어디에든 착륙할 수 있지만 지정 활주로를 건설하면 비행사의 사기와 훈련 상태가 크게 증가한다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_ANALYTICAL_ENGINE_TEXT">
+      <Text>단순한 차분기관을 훨씬 능가하는 분석 엔진은 문명 병참 운용의 꽃이다. 전문가만이 다룰 수 있는 분석 엔진은 최대 효과를 내도록 계획적으로 사용된다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AUTOMATED_FACTORY_TEXT">
+      <Text>공장 노동자는 열악한 환경에서 장시간 근무한다. 하지만 자동화 공장 기술을 도입하면 이러한 공장 노동자의 작업 환경을 개선할 수 있을 뿐만 아니라 생산  증가한다. 기계는 잠을 잘 필요가 없으니까.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_BILTMORE_HOUSE_TEXT">
+      <Text>빌트모어하우스는 세련미와 상업의 중심지이다. 방 하나하나가 예술가의 손으로 꾸며진 빌트모어하우스는 손님을 접대하고 사업 거래를 원만하게 끝낼 수 있도록 편안한 분위기를 조성한다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_CARNEGIE_HALL_TEXT">
+      <Text>고급 문화와 하급 문화를 모두 다루는 카네기홀은 재능있는 예술가가 모여 전국 무대에서 공연하고 의견을 나누는 곳이다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_DIFFERENCE_ENGINE_TEXT">
+      <Text>초기 차분기관은 사업이나 연구실에 필요한 복잡한 계산을 위한 작고 값비싼 장치였다. 그러나 계산 논리의 중요성이 인정되자 더 큰 모델이 등장하기 시작했다. 오늘날의 차분기관은 개인 은행 거래에서부터 국가 통계 분석에 이르기까지 다양한 분야에서 사용된다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_GRAND_MANSION_TEXT">
+      <Text>제국의 활동이 활발해지자 교역, 발명, 산업 등의 분야에서 성공의 기회가 많이 생겼다. 이에 따라 귀족 계급에 합류하는 사람이 늘었으며 이들은 거금을 들여 웅장하고 호화로운 저택을 지었다. 이런 저택은 사교와 사업의 장이자 문화의 중심지 역할을 했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_GRANDSTAND_TEXT">
+      <Text>달마스인의 삶과 문화 발전에 공공장소는 빼놓을 수 없는 부분을 차지한다. 그랜드스탠드는 오락과 문화를 즐기는 장소로, 멀리 사는 사람들도 이곳을 방문한다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_INVENTORS_HALL_TEXT">
+      <Text>발명가들을 위한 천국이라 할 수 있는 발명가 광장은 발명가들이 모여 여러 가지 도구를 이용해 이익을 창출할 수 있는 다양한 기구를 만들며 과학 발전을 이끄는 장소입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_LUBORIC_FACTORY_TEXT">
+      <Text>지상함용 엔진 생산에 쓰이는 루보릭의 가치는 모두가 알고 있었지만, 산업의 대가 오를린은 루보릭이 생산 효율성을 높이는데 엄청난 잠재력을 지닌 광물이라는 것을 파악했다. 그는 극소량의 루보릭을 모아 사용 가능한 상태로 가공하는 정제 공장을 건설했으며, 이를 통해 확보한 루보릭을 생산에 사용했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_LUBORIC_REFINERY_TEXT">
+      <Text>루보릭은 매우 귀중하며 희귀한 자원이나, 루보릭의 화학적 성질이 밝혀진 이후 과학자들은 거의 어디에서든 극소량의 루보릭을 찾아낼 수 있게 되었다. 화학적인 과정을 거치면 순수한 루보릭의 성질과 거의 흡사하며 안정적인 물질을 추출할 수 있다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_PATENT_OFFICE_TEXT">
+      <Text>위대한 과학의 시대에는 발명가들이 넘쳐났으며, 도처에서 발명품을 팔기 위해 노력했다. 그들은 엄청난 경쟁과 지킬 수 없는 약속들 속에서 살아남아야만 했다. 특허 개념이 확립된 후 발명 과정이 간소화되었으며, 겉으로만 그럴싸한 발명이 없어지고 독창성이 인정받는 시대가 찾아왔다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_PERPETUAL_MOTION_ENGINE_TEXT">
+      <Text>과학자들은 수 세기에 걸쳐 영구 운동의 비밀을 파해치기 위해 노력했다. 로봇과 잔류자기 소자의 발전으로 마침내 영구 운동이 가능해졌다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_PHILANTHROPORIUM_TEXT">
+      <Text>박애주의와 거대 교역 상점의 경계를 넘나드는 박애관은 국제 무역의 시대에 설립되었으며, 저렴한 가격으로 대중에게 고품격 자선 활동을 제공한다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_SUBTERRANEAN_COLONY_TEXT">
+      <Text>땅속에 전초 기지를 건설한 제국은, 이곳을 식민화하기 위해 시민을 파견했다. 기술과 보급로의 발전으로 땅속에 작은 도시까지도 세울 수 있게 되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_SUBTERRANEAN_OUTPOST_TEXT">
+      <Text>증기 시대에 발전한 운송 수단의 힘으로 사람들은 쉽게 육지와 하늘까지도 가로지를 수 있게 되었지만, 과학자들이 지구 속을 탐험해보겠다는 생각을 하기까지는 그 이후로도 수십 년이 걸렸다. 거주 구역과 다양한 장비의 발달에 힘입어, 지하 전진 기지는 귀중한 천연자원 공급처가 되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_TESLA_COIL_TEXT">
+      <Text>전기는 통제할 수 없고 이해하기 어려운 힘이었다. 테슬라 코일은 전기의 힘을 통제하기 위해 발명된 장치로, 이후 과학 연구에 없어서는 안 될 존재가 되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_TORUS_DYNAMO_TEXT">
+      <Text>베드리아의 과학자들은 전자기의 힘에 매료되어 전자기만을 연구하는 시설을 만들기에 이르렀다. 이러한 연구실의 중심에는 전류에 반응하는 토러스 발전기가 있으며, 이는 과학자들의 연구 대상이자 연구에 쓰이는 중요한 에너지원으로 사용된다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_TRADE_COLLEGE_TEXT">
+      <Text>과학이 발전을 거듭하는 동안, 제국은 젊은 과학자, 발명가, 탐험가, 사업가 양성에 대한 지원의 중요성을 새삼 깨닫게 되었다. 이런 지원으로 얻을 수 있는 이득은, 크든 작든 다른 제국을 앞설 수 있는 수단이 되었기에 매우 수요가 높았다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN">
+      <Text>모든 지형으로 이동 가능</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN_HELP">
+      <Text>이 유닛은 비행선이므로 지상과 바다 타일 위로 움직일 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_BRIEFING_BUTTON">
+      <Text>브리핑</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_BUILDING_POLICE_STATION_HELP">
+      <Text>적 스파이가 기술을 훔쳐갈 확률이 25%만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_BUILDING_POLICE_STATION_STRATEGY">
+      <Text>경찰서를 건설하면 적 스파이가 도시에서 기술을 훔치려고 시도하기 전에 기다려야 하는 시간이 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_ENGLAND_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_ENGLAND_TEXT_1">
+      <Text>풀리아스의 정확한 기원은 아직도 베일에 싸여있다. 이 도시는 마치 어딘가에서 갑자기 튀어나온 것 같은 느낌이나, 이들이 누렸던 부와 힘은 도시가 갑자기 생겨났다고는 믿을 수 없을 정도이다. 사료 대부분에 의하면 이곳에 새로운 과학, 상업, 그리고 무엇보다도 정치적인 기회를 포착한 지도자가 있었으리라 추측되며, 그가 숨겨진 곳에서 은밀하게 대부분의 일을 처리했을 것이라 예상된다. 이 지도자는 경쟁자들이 탐내는 정보를 높은 가격에 팔았으리라 추측되며, 이를 통해 확보한 금액으로 풀리아스의 더 큰 목표를 추구했을 것이다. 고대 나라 간의 경쟁은 주로 단기간의 목표에만 치중되어 다양한 기회가 무시되곤 했는데, 풀리아스는 이런 기회를 놓치지 않고 많은 탐험가에게 정찰 임무를 맡겨 교역로를 확보하고 시민을 부유하게 하는 데 치중했다.  곳곳에 심어진 풀리아스의 스파이들은 전 세계에서 주요 보직을 맡으며 언제든 필요한 정보를 제공할 수 있는 역할을 담당했다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_FRANCE_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_FRANCE_TEXT_1">
+      <Text>달메이스는 필요 때문에 생겨났다. 여러 옛 왕국이 쇠퇴하고 새로운 제국이 생겨나자 많은 하층민과 중산층은 자신들이 하찮은 존재라고 생각하게 되었다. 어떤 사람들은 고향에 계속 남았지만, 많은 이들은 정처 없이 난민으로 떠도는 신세가 되었다. 이렇게 그들은 그들의 존재를 부정하도록 강요하지 않는 귀족이 있는 나라에 집결하게 되었다. 곧 이러한 난민 사이에도 지도자가 생겨났고, 이들은 조직, 보호, 음식, 자원 등을 요구하게 되었다. 몇몇 귀족들은 이러한 그들의 존재에서 기회를 엿보고 이들과 함께하며 부를 공유하기도 했고, 어떤 귀족들은 이들을 거부해 약탈당하기도 했다. 달메이스는 이렇게 생겨났고, 이들은 곧 다른 제국을 위협하는 도시의 형태로 커지게 되었다.달메이스는 이상을 추구하고, 이들의 힘은 끈끈한 동지애와 서민을 중심으로 한 문화적 발전으로부터 기인한다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_GERMANY_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_GERMANY_TEXT_1">
+      <Text>에루흐 제국은 점점 커져만 가는 혼돈과 이를 어떻게 멈출 것인가에 대한 귀족들 사이의 토론으로부터 시작되었다. 이들의 미래에 대한 확신의 부재와 부의 보호를 위한 갈망으로 토론은 곧 행동을 촉구하는 형태로 변했다. 곧 비밀 의회가 구성되어 지도자가 선출되고 군사력이 집결되기 시작했다. 이들이 모은 군사의 규모는 크지 않았지만, 매우 잘 무장되었고, 이들이 차지한 넓은 영토는 에루흐 제국의 기틀이 되었다. 대외적으로, 에루흐의 지도자들은 영광과 문명화된 인생을 추구하며 지구 끝까지 그들의 신념을 널리 퍼뜨리려 했다. 외교적으로 이들은 매우 온화했으나, 부르기만 하면 움직일 수 있는 군사력을 항상 준비해 놓고 있었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_RUSSIA_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_RUSSIA_TEXT_1">
+      <Text>과학의 지속적 발전은 물건의 생산, 운송, 판매에도 큰 변화를 가져왔다. 이런 변화에 적응하지 못한 사업가들은 점차 도태되었고, 더욱 적합한 인물들로 대체되었다. 처음 시작했을 때 오를린에는 아무런 정치적 기반이 없었고, 제국을 만들겠다는 의지는 더더욱 없었다. 오를린은 단순히 상호 간의 이익을 위한 야망 있는 산업가들의 모임일 뿐이었다. 그들은 함께 시장을 개척했고, 그들이 살던 곳의 산업을 함께 지배했다. 하지만 그들이 살던 지역이 쇠퇴하기 시작하면, 오를린의 거물들은 서로의 가게를 공격하고 음해 공작을 펼치거나 심지어는 암살을 하는 등 권력을 차지하기 위한 싸움을 벌였다.  그들은 모든 형태의 생산을 통제하기 위한 과두제를 사용했다. 그들은 그들만의 산업적 역량과 이로 축적한 부를 통해 제국을 건설해 마침내 세계 무대로 진출하였다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_SWEDEN_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_SWEDEN_TEXT_1">
+      <Text>살고 있던 옛 왕국이 쇠퇴하기 시작하자, 학자들과 발명가들은 더욱 합리적이고, 과학을 포용할 수 있는 새로운 국가를 세울 기회를 찾아냈다. 그들은 마찬가지로 영향력을 계속 지속하고자 했던 군주제 지지자들과 동맹을 결성하고, 함께 베드리아를 구성했다. 그들의 계급체계는 빠르게 섞였고, 얼마 지나지 않아 그들의 지도자는 과학적 지식을 어느 정도 갖추었거나 과학적 연구를 직접 수행하는 사람이 맡는 것이 되었다. 베드리아는 미래에 대한 낙관을 기반으로 결성되었으며, 시민은 귀족들의 과학에 대한 추구가 그를 실현하기 위한 합당한 방법이라고 믿어 마지않았다. 과학자들은 도시 내의 다양한 문제에 대한 의견을 제출할 수 있었고, 많은 연구비를 지원받았다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV5_DAWN_TEXT">
+      <Text>시나리오 설명[NEWLINE]유명한 과학과 산업의 아버지에게 인사드립니다! 증기기관의 등장으로 세상이 바뀌었습니다. 새로운 자원과 천재적인 발명품으로 발견의 시대가 도래했습니다. 거대한 비행선이 검은 연기를 내뿜으며 하늘을 납니다. 여러 문명이 밝은 미래를 위해 매진하고 있지만, 경쟁은 치열합니다. 자원은 부족하고 저마다 기술을 보호하느라 바쁩니다. 플레이어와 플레이어의 경쟁자들은 기술 진보의 이름으로 제국을 사방으로 확장하고 제국민의 요구를 들어주어야 합니다. 증기기관을 사용해 역사에 길이 남을 위대한 제국을 건설하시겠습니까?[NEWLINE][NEWLINE]승리 조건[NEWLINE]각 제국은 군사, 문화, 산업, 상업과 노동, 이렇게 다섯 가지 부문에서 경쟁합니다. 각 부문의 일인자에게는 명예 칭호가 주어집니다. '제국 연합' 화면에서 각 칭호에 대한 자세한 내용과 진행 상황을 확인할 수 있습니다. 세 가지 이상의 칭호를 얻는 제국이 게임에서 승리합니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]플레이어는 증기기관까지의 기술을 모두 연구한 상태로 게임을 시작합니다. 증기기관 이후의 기술 발전표는 기존 기술 발전표와 매우 다릅니다. 플레이어는 기술을 연구해 비행선과 지상함, 새로운 건물을 만들 수 있습니다. 야만인("러다이트")이 등장하지만 이들은 고급 군사 유닛을 가질 수 없습니다. 이 시나리오에서는 종교와 종교 도시 국가, 군사 도시 국가를 사용할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_DESC">
+      <Text>증기 기관의 출현으로 세상이 바뀌었습니다. 새로운 자원과 천재적인 발명품에 힘입은 세상은 이제 대발견의 시대에 접어들었습니다. 스팀 기술의 위력을 지혜롭게 사용하여 제국의 명성을 온 천하에 떨치십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_FIXED_MAP">
+      <Text>고정 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ALDERDICE_NAME">
+      <Text>클린턴 엘더다이스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DECLAREWAR_1">
+      <Text>당신과 전쟁이라는 게임을 시작하겠소. 우리 비행선들이 당신 땅을 뒤덮겠지.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DECLAREWAR_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEFEATED_1">
+      <Text>당신이 나를 이겼소. 내 인정하리다. 승리를 만끽하시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEFEATED_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEMANDTRIBUTE_HAPPY">
+      <Text>{TXT_KEY_LEADER_MONTEZUMA_DEMANDTRIBUTE_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEMANDTRIBUTE_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WILLIAM_DEMANDTRIBUTE_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_FIRSTGREETING_1">
+      <Text>아, 안녕하시오. 내 소개를 하지. 나는 군사력으로 유명한 에루치의 시루스 로데램이요. 나는 당신이 소중한 동맹이 되었으면 하오. 아니면 싸워 이겨야 할 적이 될 테니까.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_FIRSTGREETING_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_LIVED">
+      <Text>1815년 ~ 1872년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_LOSEWAR_3">
+      <Text>{TXT_KEY_LEADER_BISMARCK_LOSEWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_NAME">
+      <Text>시루스 로데램</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_QUOTE_1">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_QUOTE_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_QUOTE_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_QUOTE_4">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_SUBTITLE">
+      <Text>에루치의 지도자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1">
+      <Text>“군사 과학은 매우 복잡하지만, 우리는 과거 그 어느 때보다도 다양한 기술을 사용할 수 있는 상황에 있다. 약 1세기 전까지만 하더라도, 멀리 떨어져 있는 적을 공격하려면 요새를 쌓고, 보급로를 확보하고, 자원을 확보해야만 했다. 말을 위한 먹이도 준비해야 했고, 보급로가 차단되면 모든 것이 끝나버리는 상황에 부닥칠 수도 있었다. 군사들은 적을 상대할 무기를 준비하고 적의 생명을 빼앗으면서도 아무렇지 않게 적의 눈을 바라보는 연습도 해야 했다. 현재, 우리의 군사들은 과거와 같이 야만적인 행위를 하지 않으면서 전투에 임할 수 있다. 최근에 개발된 지상함은 보병과 기병의 필요성 자체를 모두 없애버렸다. 만드는 데 필요한 자원에 의한 제약은 있지만, 지상함은 쉬지 않고 단 몇일만에 대륙을 횡단할 수 있다. 예전에는 쉽게 정복할 수 없었던 멀리 떨어진 곳도 이제는 모두 손이 닿을 거리에 있다. 지상함의 강력한 포문과 단단한 장갑을 이용한다면 야만적인 문명을 모두 잠재울 수 있을 것이다.” [NEWLINE][NEWLINE] - 사이러스 로테럼, 에루흐 의회 연설 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRADE_NEEDMORE_HAPPY_1">
+      <Text>{TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_HAPPY_4}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRADE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_ASKIA_TRADE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRADEREQUEST_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_ASKIA_TRADEREQUEST_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRIBUTE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRIBUTE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRIBUTE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_ASKIA_TRIBUTE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_ASKIA_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_WINWAR_3">
+      <Text>{TXT_KEY_LEADER_BISMARCK_WINWAR_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_ATTACKED_1">
+      <Text>{TXT_KEY_LEADER_CATHERINE_ATTACKED_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_ATTACKED_2">
+      <Text>{TXT_KEY_LEADER_CATHERINE_ATTACKED_4}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DECLAREWAR_2">
+      <Text>우리 공장은 이 순간을 고대하고 있었습니다. 당신은 우리 산업의 발전 속도를 따라올 수 없을 것입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DECLAREWAR_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DECLAREWAR_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DEFEATED_1">
+      <Text>당신은 악당입니다. 우리 공장을 접수한들 당신 제국이 산업으로 세상에 이름을 떨칠 거라 생각하지 마십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DEFEATED_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_FIRSTGREETING_1">
+      <Text>나는 세계 산업을 주도하는 올린의 지도자 이그네이스 커르노우입니다. 미리 말하는데, 쓸데없는 일로 내 시간을 낭비하지 마십시오. 매우 바쁜 몸입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_FIRSTGREETING_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_LIVED">
+      <Text>1781년 ~ 1836년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_LOSEWAR_1">
+      <Text>{TXT_KEY_LEADER_SULEIMAN_LOSEWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_LOSEWAR_2">
+      <Text>{TXT_KEY_LEADER_MARIA_LOSEWAR_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_LOSEWAR_3">
+      <Text>{TXT_KEY_LEADER_WILLIAM_LOSEWAR_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_NAME">
+      <Text>이그네이스 커르노우</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_QUOTE_1">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_QUOTE_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_QUOTE_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_SUBTITLE">
+      <Text>올린의 지도자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TEXT_1">
+      <Text>“버튼을 한 번만 누르면 증기 제트가 조립대 안으로 들어가 변형을 시작한다. 조립대 안에서는 강철이 압력에 의해 변형되어 새로운 형태로 바뀌게 된다. 공장을 만드는 공장이라 할 수 있다. 어쩌면 우리는 이러한 원리를 이용해 더 많은 물건을 생산할 수 있을지도 모른다. 아니면 누군가에게 엄청난 돈을 받고 판매할 수도 있을 것이다. 이러한 간단한 과정의 중심에 있는 것은 바로 우리가 사는 세상에서 산업의 역할이다. 우리는 비행선, 육상선박, 다양한 종류의 엔진, 의복, 심지어는 공장을 만들어낼 수도 있다. 이러한 효율성을 조절하고 산업 섹터에서의 생산 역량을 최대화하면 우리는 무엇이든 원하는 것을 만들어 낼 수 있을 것이다.[NEWLINE][NEWLINE] - 이그나스 커나우, '강철과 증기: 산업가를 위한 안내서'에서 발췌</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_SELASSIE_TRADE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_YES_ANGRY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_YES_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_YES_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_YES_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADEREQUEST_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_SULEIMAN_TRADEREQUEST_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRIBUTE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_NAPOLEON_TRIBUTE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRIBUTE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRIBUTE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRIBUTE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRIBUTE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRIBUTE_YES_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRIBUTE_YES_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_SULEIMAN_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CURNOW_NAME">
+      <Text>이그네이스 커르노우</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CUTLER_NAME">
+      <Text>옥타비우스 커틀러</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DECLAREWAR_1">
+      <Text>금방 끝날 테니 안심하십시오. 당신의 패배로 풀리아스가 더 강해진다고 생각하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DECLAREWAR_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEFEATED_1">
+      <Text>당신이 멋지게 이겼습니다. 내 제국은 조용하게 등장했지만 최후는 화려했으니 후회는 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEFEATED_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEMANDTRIBUTE_HAPPY">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_DEMANDTRIBUTE_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEMANDTRIBUTE_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WUZETIAN_DEMANDTRIBUTE_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_2">
+      <Text>어서오시오. 잠깐 이야기나 나눕시다. 내 이름은 풀리아스의 옥타비아누스 커틀러라고 합니다. 들어본 적 있겠지요? 상관 없습니다. 당신과 당신 제국의 업적에 대해 말해 주십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_4">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_LIVED">
+      <Text>1809년 ~ 1888년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_NAME">
+      <Text>옥타비누스 커틀러</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_QUOTE_1">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_QUOTE_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_SUBTITLE">
+      <Text>풀리아스의 지도자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TEXT_1">
+      <Text>“힘은 과학으로부터 오고, 연구는 과학을 더욱 발전시킨다고 말하는 사람들이 있네. 다른 사람들은 새로운 군사 무기를 꾸준히 개발하고 파괴력을 높이는 것이 중요하다고 하기도 하지. 그리고 육상선박을 타고 다니며 자원을 모아두기도 할 거야. 하지만 진정한 힘은 방금 말한 것 중 어디에도 있지 않네. 이러한 것을 만들어내는 주체는 결국 사람이지. 우리가 그들이 무엇을 아는지를 파악한다면, 우리도 그들이 가진 것을 갖게 된다는 말이야. 우린 그들이 자기들끼리 싸우며 새로운 발견을 하기만을 지켜보고 있으면 되네. 우린 조용히 그들이 그늘 속에서부터 뭘 하는지를 보고 따라가면 되는 거야. 그렇게 하다 보면 우리의 세력이 가장 막강해지겠지. 우리가 제대로 해낸다면, 물론 그렇게 해야겠지만, 그러면 그들도 아무 눈치도 채지 못할걸세.” [NEWLINE][NEWLINE] - 옥타비우스 커틀러, 새로 임명된 정보기관장과의 독대 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_1">
+      <Text>{TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_1">
+      <Text>{TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_4}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRADE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRADE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_DARIUS_TRADE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_YES_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_DARIUS_TRADE_YES_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADEREQUEST_ANGRY">
+      <Text>{TXT_KEY_LEADER_HARUN_TRADEREQUEST_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADEREQUEST_HAPPY">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_TRADEREQUEST_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRIBUTE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_TRIBUTE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRIBUTE_YES_ANGRY">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRIBUTE_YES_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRIBUTE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_TRIBUTE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_DARIUS_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GRIGGS_NAME">
+      <Text>루터 그리그스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_1">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_ATTACKED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_2">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_ATTACKED_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_3">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_ATTACKED_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_1">
+      <Text>우리 기계가 내는 음악 같은 소리가 당신 영토 근처에서 들리지 않습니까? 걱정하지 마십시오. 우리는 상대를 완전히 파괴하지는 않습니다. 그쪽 도시에서 추릴 것은 추려야 나중에 연구할 수 있을 테니까 말입니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_3">
+      <Text>{TXT_KEY_LEADER_CATHERINE_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_1">
+      <Text>잘 만났군요. 내가 없더라도 지식 탐구와 발명을 게을리하지 마십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_1">
+      <Text>만나서 반갑습니다. 나는 천재 발명가이자 베드리아의 지도자인 루터 그리그스라고 합니다! 과학 발전과 우정을 위해 서로 지식을 공유합시다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_LIVED">
+      <Text>1842년 ~ 1910년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_LOSEWAR_2">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LOSEWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_NAME">
+      <Text>루터 그리그스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_SUBTITLE">
+      <Text>베드리아의 지도자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TEXT_1">
+      <Text>“기술의 발전은 우리 생활에 많은 편안함을 가져다준 기계 문명이라는 기적을 가져왔다. 엔진 돌아가는 소리, 놋쇠가 부딪치는 소리, 마치 황소가 돌격하기 전 거친 숨을 내뿜는 듯한 증기 배관 소리, 이런 것들이 우리의 세상에 질서를 가져오고 자연 현상을 설명할 뿐 아니라 자연과 공존할 수 있게 해주는 과학과 계산을 사용할 수 있게 해준다. 비행선은 땅에만 머무를 수 있었던 우리의 몸을 잠시나마 하늘로 떠오를 수 있게 해주었다. 우리의 강인한 의지가 결국 인류 최대의 꿈인 비행을 가능케 해준 것이다. 그것도 자연 선택으로 주어진 날개가 아닌, 우리가 피땀 흘려 직접 만든 날개를 이용해 날 수 있게 해줬다는 것에 큰 의의가 있다. ."[NEWLINE][NEWLINE] - 루터 그리그스, '지적인 날개'에서 발췌</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_ANGRY_1">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_ANGRY_4}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_HAPPY_1">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_HAPPY_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_TRIBUTE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_WARBLUFF_3">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_WARBLUFF_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_WINWAR_2">
+      <Text>{TXT_KEY_LEADER_WUZETIAN_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_1">
+      <Text>안녕하십니까, 선생님! 당신은 훌륭한 신사처럼 보이는군요. 오래도록 원만한 관계를 유지합시다. 할 수 없이 전장에서 만나게 된다면 더 나은 쪽이 이기겠지요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_2">
+      <Text>잠깐! 내 땅에 들어온 목적을 말하시오. 물론 선한 의도겠지만, 혹시라도 다른 생각을 품었다면 미리 말하겠는데, 나는 호락호락한 사람이 아닙니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_NEGATIVE_1">
+      <Text>동의하지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_NEGATIVE_2">
+      <Text>말도 안 됩니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_NEGATIVE_3">
+      <Text>불쾌하군요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_1">
+      <Text>아주 좋습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_2">
+      <Text>그저 그렇군요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_3">
+      <Text>꼭 그렇습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_4">
+      <Text>정확합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_5">
+      <Text>대단하시군요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_6">
+      <Text>흔쾌히 수락하겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DECLAREWAR_1">
+      <Text>친구여, 부디 이 적대행위를 용서해 주시오. 어쩔 수 없었소.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DECLAREWAR_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEFEATED_2">
+      <Text>이런 부당한 일이 일어나다니! 이제 달마스는 사라지지만 그 이름은 평민 사이에서 영원히 살아남을 것이오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEFEATED_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEFEATED_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEMANDTRIBUTE_HAPPY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_DEMANDTRIBUTE_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEMANDTRIBUTE_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_DEMANDTRIBUTE_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1">
+      <Text>만나서 정말 영광입니다! 달마스에 오신 걸 환영합니다. 나는 클린턴 엘더다이스라고 하지요. 기꺼의 당신과 손을 잡겠습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_4">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_HEADING_1">
+      <Text>역사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_LIVED">
+      <Text>1799년 ~ 1855년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_LOSEWAR_1">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_LOSEWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_NAME">
+      <Text>클린턴 엘더다이스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_QUOTE_1">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_QUOTE_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_QUOTE_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_QUOTE_4">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_SUBTITLE">
+      <Text>달마스의 지도자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1">
+      <Text>“무엇보다도, 장관님께서 꼭 기억해 주십사 하는 내용은, 증기 시대가 비록 우리의 생활에 큰 발전을 가져다주긴 했지만, 이를 위해 일반인들도 많은 대가를 치러야 했다는 것입니다. 과거 수십 년간의 발전은 강력한 몇 명의 상류층에 의한 대다수의 지배라는, 인류 역사에 결점으로 남아있던 부분을 더욱 부각했습니다. 지금까지 우리는 이 일을 대수롭지 않게 생각하고 우리의 권력 유지를 위해 필수불가결한 사항이라고 정당화해왔지만, 현실은 우리가 더 많은 권한을 얻는 동안 대다수 사람들은 더욱 어려움을 겪고 있다는 것입니다. 확인해 보진 않았습니다만, 이러한 격차는 일반인들에게 결국 아무것도 남지 않을 때까지 계속 벌어질 것으로 보입니다. 지금까지 수차례에 걸쳐 이러한 서신을 드리지만, 만약 저의 이런 주장이 장관님과 연합의 도덕적 관념에 호소할 수 없다면, 우리가 사는 세상은 점점 더 불안정해질 수밖에 없다는 경고의 말씀을 꼭 드리고 싶습니다. 일반 대중들은 기득권층인 우리보다 교육을 덜 받고 덜 세련되었을지도 모르지만, 그들  눈과 귀가 있고, 마음이 있어 이웃들과 무슨 일을 벌이게 될지 모릅니다. 이들이 모이게 되면 더욱 커지고 사회에 불안정을 가져오게 될 것이고, 이 세기가 지나기 전 걷잡을 수 없는 폭동이 일어나게 될지도 모릅니다. 그리고 이러한 폭동은 어떠한 무기나 비행선을 동원한 폭격으로도 멈추기 어려울 것입니다. 왜냐하면, 이러한 무기와 비행선을 만드는 주체는 결국 우리에게 반기를 든 그들이기 때문입니다. ."[NEWLINE][NEWLINE] - 클린턴 엘더다이스, 제국 연맹의 장관에게 보내는 서신 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NEEDMORE_ANGRY_1">
+      <Text>{TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_ANGRY_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NEEDMORE_HAPPY_1">
+      <Text>{TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_HAPPY_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>{TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_NEUTRAL_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_ODA_TRADE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_ODA_TRADE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADEREQUEST_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRADEREQUEST_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRIBUTE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_WASHINGTON_TRIBUTE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRIBUTE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_TRIBUTE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRIBUTE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRIBUTE_YES_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRIBUTE_YES_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_HARUN_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ROFFENBURG_NAME">
+      <Text>시루스 로데램</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PEDIA_PROMOTION_ANTI_AIR">
+      <Text>전투기 및 비행선 유닛 대항 보너스(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PEDIA_PROMOTION_ANTI_TANK">
+      <Text>지상함 유닛 대항 보너스(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_POLICY_UNITED_FRONT">
+      <Text>통합 전선</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_POLICY_UNITED_FRONT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]통합 전선[ENDCOLOR][NEWLINE]불가사의를 건설할 때 [ICON_PRODUCTION]생산이 10%만큼 증가하고 새 도시를 세울 때 [ICON_CITIZEN] 인구가 한 명 추가됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PROMOTION_ANTI_AIR">
+      <Text>전투기 및 비행선 유닛 대항 보너스(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PROMOTION_ANTI_AIR_II">
+      <Text>비행선 유닛 대항 보너스(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PROMOTION_ANTI_TANK">
+      <Text>지상함 유닛 대항 보너스(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RANDOM_MAP">
+      <Text>무작위 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RESOURCE_ALUMINUM_HELP">
+      <Text>비행선 유닛을 만드는 데 사용됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RESOURCE_ALUMINUM_TEXT">
+      <Text>에터리움은 이를 은으로 오인했던 탐험대에 의해 최초로 발견되었다. 탐험대의 채굴 임무가 진행되며 더 많은 양의 광물이 채굴되어 운송선에 실렸는데, 갑자기 매우 이상한 일이 벌어졌다. 실어 놓은 광물들이 갑자기 하늘로 떠오르기 시작한 것이었다. 과학자들은 이 물체의 특이한 특성을 분석하기 시작했고, 많은 양의 에터리움이 함께 모이면 중력의 법칙에 적용되지 않는 특성을 지니게 된다는 것을 밝혀냈다. 더욱 조심스러운 연구를 통해 과학자들은 중력의 적용을 받지 않는 이 광물의 특성을 이용해 배를 하늘로 띄울 수 있다는 것을 알아냈다. 제국에서 이 물체의 중요성은 두말할 것도 없이 매우 높아졌지만, 오늘날까지도 이 광물의 정확한 특성은 파악되지 않고 있다. 한 조심스럽지 못한 발명가는 에터리움에 전류를 흘려보냈고, 전류를 띈 에터리움은 하늘로 솟아 천장을 뚫고 날아가 버리기도 했다. 이 발명가가 실험용이라고 표기해둔 이 광석은 발사 지점으로부터 수 마일이 떨어진 곳에서 몇 주가 흐른 뒤에야 발견되었다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RESOURCE_URANIUM_HELP">
+      <Text>지상함 유닛을 만드는 데 사용됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RESOURCE_URANIUM_TEXT">
+      <Text>자연 상태에서는 별 특징이 없어 보이는 녹색 광물인 루보릭은 가열되면 반짝이는 특성이 있습니다. 이것은 앞서 발견된 석탄보다 훨씬 강력하고 휘발성을 띠고 있으며, 공장과 차량에서 모두 엄청난 위력을 발휘할 수 있습니다. 루보릭의 반응을 이끌어내어 사용하기 위해서는 이전에는 시도해보지 않은 방법을 사용해야만 합니다. 대부분의 에너지 자원들이 불에 타며 에너지를 발생시키는 반면, 루보릭은 불에는 반응하지 않고, 특정 조건에서만 녹색으로 반짝입니다. 루보릭 광물에 들어있는 엄청난 잠재력을 사용하려면 열과 압력이 적용된 효소와 함께 섞어야 합니다. 루보릭은 연소하는 것이 아니라, 분해되며 반응하는 광물이라는 것이 중요합니다. 루보릭의 독성 강한 배기가스는 불과 몇 초 사이에 금속에 스며들 수 있으므로 조심스럽게 취급해야만 합니다. 충분한 예방책을 갖고 사용해야만 이 엄청난 에너지원을 잘 활용할 수 있을 것입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_SPECIFIC_DIPLO_STRING_1">
+      <Text>칭호 2개를 차지하고 있으므로 리그에서 선두를 노리는 다른 문명과 경쟁해야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_SPECIFIC_DIPLO_STRING_2">
+      <Text>칭호를 3개 이상 차지하고 있으므로 리그를 거의 장악했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_SPECIFIC_DIPLO_STRING_3">
+      <Text>같은 칭호를 얻으려고 다른 문명과 경쟁하고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_AIRSHIPS_HELP">
+      <Text>비행선을 연구하면 육지와 바다 위를 떠다니는 [COLOR_POSITIVE_TEXT]비행선[ENDCOLOR]을 만들 수 있으며 국가 불가사의인 [COLOR_POSITIVE_TEXT]발명가의 홀[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ANALOG_COMPUTATION_HELP">
+      <Text>아날로그 컴퓨터를 연구하면 [COLOR_POSITIVE_TEXT]차분기관[ENDCOLOR]과 [ICON_PRODUCTION]생산과 [ICON_RESEARCH]과학을 높여주는 국가 불가사의인 [COLOR_POSITIVE_TEXT]분석 엔진[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ANALOG_COMPUTATION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"수십억 인구가 하는 복잡한 일을 자세하게 분석하려면 계산할 거리가 끝없이 생길 것이다."[NEWLINE] - 배너바 부시[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ANALYTICAL_ENGINE_HELP">
+      <Text>분석 엔진을 연구하면 [ICON_PRODUCTION]생산을 크게 높여주는 국가 불가사의인 [COLOR_POSITIVE_TEXT]분석 엔진[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ANALYTICAL_ENGINE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"메카니즘이 수학 전체를 삼키기 직전이다."[NEWLINE] - 찰스 배비지[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_AUTOMATA_HELP">
+      <Text>자동 인형을 연구하면 [ICON_RES_ALUMINUM] 에더리움 자원을 제공하는 [COLOR_POSITIVE_TEXT]에더리움 조작기[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_AUTOMATA_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"문명은 사람들이 아무런 생각 없이 수행할 수 있는 중요한 작업을 늘림으로써 진화한다."[NEWLINE] - 알프레드 화이트헤드[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_CIVIL_DEFENSE_HELP">
+      <Text>민방위 체제를 연구하면 강력한 대공 유닛인 [COLOR_POSITIVE_TEXT]대공포[ENDCOLOR]를 만들 수 있으며 도시의 방어력을 높여주는 [COLOR_POSITIVE_TEXT]군사 기지[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_CIVIL_DEFENSE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"부유함보다 국방이 중요하다."[NEWLINE] - 아담 스미스[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ECONOMIC_IMPERIALISM_HELP">
+      <Text>경제 제국주의를 연구하면 [ICON_GOLD]골드와 [ICON_CULTURE]문화를 생산하는 [COLOR_POSITIVE_TEXT]대저택[ENDCOLOR]과 국가 불가사의인 [COLOR_POSITIVE_TEXT]빌트모어하우스[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ECONOMIC_IMPERIALISM_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"산업을 움직이는 것은 탐욕이다."[NEWLINE] - 데이비드 흄[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ERUPTIVES_HELP">
+      <Text>분출 시스템을 연구하면 지도에서 [ICON_RES_URANIUM] 루보릭을 찾을 수 있으며 [COLOR_POSITIVE_TEXT]전함[ENDCOLOR]을 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ERUPTIVES_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"인간은 자연을 길들여야 한다."[NEWLINE] - 프란시스 베이컨[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_EXPEDITIONARY_SCIENCE_HELP">
+      <Text>원정 과학을 연구하면 지도에서 [ICON_RES_ALUMINUM] 에더리움을 찾을 수 있으며 [COLOR_POSITIVE_TEXT]잠수함[ENDCOLOR]을 만들 수 있습니다.  [ICON_RESEARCH]과학과 [ICON_CULTURE]문화를 높여주는 [COLOR_POSITIVE_TEXT]전문대학[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_EXPEDITIONARY_SCIENCE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"대자연에서 생명의 기적을 보자 과학 발전이 대수롭지 않다고 느꼈다."[NEWLINE] - 찰스 린드버그[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_GALVANOMAGNETISM_HELP">
+      <Text>직류자기학을 연구하면 도시의 [ICON_RESEARCH]과학을 크게 높여주고 [ICON_GOLD]골드 수입을 약간 높여주는 [COLOR_POSITIVE_TEXT]테슬라코일[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_GOSPEL_OF_WEALTH_HELP">
+      <Text>부의 찬가를 연구하면 도시의 [ICON_CULTURE]문화와 [ICON_HAPPINESS_1]행복을 높여주는 [COLOR_POSITIVE_TEXT]자선박람회[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_GOSPEL_OF_WEALTH_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"나는 모으기를 그만두고 현명하게 분배하기로 결심했는데, 현명한 분배란 상상할 수 없을 중요하고 어려운 일이다."[NEWLINE] - 앤드류 카네기[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_INFERNAL_COMBUSTION_HELP">
+      <Text>지옥의 내연기관을 연구하면 [ICON_RES_URANIUM] 루보릭 자원을 제공하는 [COLOR_POSITIVE_TEXT]루보릭 정제소[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_INFERNAL_COMBUSTION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"보이고 만질 수 있는 것 중 가장 신비로운 것은 불이다."[NEWLINE] - 제임스 헌트[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_LAND_LEVIATHAN_HELP">
+      <Text>지상 거함을 연구하면 가장 강력한 지상함 유닛인 [COLOR_POSITIVE_TEXT]지상 거함[ENDCOLOR]을 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_LAND_LEVIATHAN_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"살아남으려면 큰 막대기를 가지고 다니면서 부드럽게 말하라."[NEWLINE] - 테오도어 루즈벨트[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_LANDSHIPS_HELP">
+      <Text>지상함을 연구하면 강력한 지상 유닛인 [COLOR_POSITIVE_TEXT]지상함[ENDCOLOR]을 만들 수 있으며 도시의 [ICON_PRODUCTION]생산을 높이고 [ICON_GOLD골드 수입을 늘려주는 [COLOR_POSITIVE_TEXT]특허국[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_LANDSHIPS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"이 지상 철갑함의 뱃머리가 참호를 뚫고 나오자 방어자들이 좌우로 밀려났다."[NEWLINE] - H.G. 웰즈[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_NOBLESSE_OBLIGE_HELP">
+      <Text>노블레스 오블리주를 연구하면 제국의 [ICON_HAPPINESS_1]행복을 높여주는 [COLOR_POSITIVE_TEXT]경기장[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_NOBLESSE_OBLIGE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"미덕이야말로 가장 진실한 고귀함이다."[NEWLINE] - 미겔 데 세르반테스[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_PERPETUAL_MOTION_HELP">
+      <Text>영구운동을 연구하면 [ICON_PRODUCTION]생산을 엄청나게 높여주는 국가 불가사의인 [COLOR_POSITIVE_TEXT]영구운동 엔진[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_PERPETUAL_MOTION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"내게 발 디딜 곳과 충분히 긴 지레를 주면 지구를 움직여 보이겠다."[NEWLINE] - 아르키메데스[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_PROPULSION_HELP">
+      <Text>추진장치를 연구하면 [COLOR_POSITIVE_TEXT]구축함[ENDCOLOR]과 첫 공중 유닛인 [COLOR_POSITIVE_TEXT]비행기[ENDCOLOR]를 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_PROPULSION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"비행기를 발명하기는 쉽다. 비행기를 만들기는 꽤 어렵다. 하지만 비행은... 완전히 다른 생물이다."[NEWLINE] - 페르디난드 퍼버[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_RADIO_HELP">
+      <Text>라디오를 연구하면 도시의 [ICON_CULTURE]문화를 크게 높여주는 [COLOR_POSITIVE_TEXT]방송탑[ENDCOLOR]과 역시 [ICON_CULTURE]문화를 크게 높여주는 국가 불가사의인 [COLOR_POSITIVE_TEXT]카네기홀[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_RAILROAD_HELP">
+      <Text>철도를 연구하면 최초의 지상함 유닛인 [COLOR_POSITIVE_TEXT]지상 철갑함[ENDCOLOR]을 만들 수 있으며 노동자가 타일에 [COLOR_POSITIVE_TEXT]철도[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_REPLACEABLE_PARTS_HELP">
+      <Text>교체부품을 연구하면 세상에서 가장 진보된 보병인 [COLOR_POSITIVE_TEXT]1차 세계대전 보병[ENDCOLOR]을 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ROBOTICS_HELP">
+      <Text>로봇공학을 연구하면 도시의 [ICON_PRODUCTION]생산을 크게 높여주는 [COLOR_POSITIVE_TEXT]자동화 공장[ENDCOLOR]을 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_SKY_FORTRESS_HELP">
+      <Text>공중요새를 연구하면 가장 강력한 비행선 유닛인 [COLOR_POSITIVE_TEXT]공중요새[ENDCOLOR]를 만들 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_SKY_FORTRESS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"과학이 충분히 발전하면 마술과 구분할 수 없게 된다."[NEWLINE] - 아서 C. 클라크[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_SUBTERRANEAN_EXPLORATION_HELP">
+      <Text>지하 탐험을 연구하면 도시의 [ICON_PRODUCTION]생산을 크게 높여주는 [COLOR_POSITIVE_TEXT]지하 전초기지[ENDCOLOR] 및 이와 연관된 국가 불가사의인 [COLOR_POSITIVE_TEXT]지하 식민지[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_SUBTERRANEAN_EXPLORATION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"지식의 밑바닥에서 나온 공평한 원칙 하나가 군대보다 강하다."[NEWLINE] - 호세 마르티[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_TECHNOCRACY_HELP">
+      <Text>과학자 관료제를 연구하면 모든 도시에 방송탑을 제공하는 게임 후기 불가사의인 [COLOR_POSITIVE_TEXT]CN 타워[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_TECHNOCRACY_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"무력을 사용하는 정부보다 이성을 사용하는 정부가 낫다."[NEWLINE] - 토머스 제퍼슨[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_THE_GRAND_IDEA_HELP">
+      <Text>한 번 이상 연구할 수 있습니다. 연구를 완료할 때마다 [ICON_CULTURE]문화를 제공합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_THE_GRAND_IDEA_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"인간은 놀라운 것을 좋아한다. 이것이 바로 과학의 싹이다."[NEWLINE] - 랄프 왈도 에머슨[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_URANOGRAPHY_HELP">
+      <Text>천체학을 연구하면 [COLOR_POSITIVE_TEXT]비행선 격납고[ENDCOLOR]를 건설할 수 있습니다. 비행선 격납고에서 만든 유닛은 경험치 보너스를 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_URANOGRAPHY_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"나는 일상의 괴로움에서 벗어나려고 하늘을 난다."[NEWLINE] - 생텍쥐페리[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_VERTICAL_INTEGRATION_HELP">
+      <Text>수직 통합을 연구하면 도시의 [ICON_RESEARCH]골드 수입을 높여주는 [COLOR_POSITIVE_TEXT]증권 거래소[ENDCOLOR]를 건설할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_VERTICAL_INTEGRATION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"경쟁은 죄악이다."[NEWLINE] - 존 D. 로커펠러[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TITLE">
+      <Text>산업 시대의 제국들</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TRAIT_INTELLIGENCE_NETWORK">
+      <Text>스파이 2명을 추가로 받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TRAIT_INTELLIGENCE_NETWORK_SHORT">
+      <Text>첩보망</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TURNS_REMAINING">
+      <Text>{1_TokensOwned}/{2_TokensAvailable} 칭호</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_GREAT_WAR_INFANTRY_STRATEGY">
+      <Text>1차 세계대전 보병은 게임에서 가장 강력한 보병 유닛입니다. 도시를 점령할 수 있지만 지상함이나 비행선을 상대로는 약합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_HELP_ANTI_AIRCRAFT_GUN">
+      <Text>근처에 있는 아군 유닛을 공격하는 적 비행기를 요격합니다. 비행선에도 효과가 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_HELP_BATTLESHIP">
+      <Text>게임에서 가장 강력한 원거리 해상 유닛입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_HELP_GREAT_WAR_INFANTRY">
+      <Text>게임에서 가장 강력한 보병입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_HELP_SUBMARINE">
+      <Text>구축함이나 잠수함을 제외한 모든 유닛에게 탐지되지 않습니다. 몰래 다른 비에 접근하면 큰 피해를 줄 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_SUBMARINE_STRATEGY">
+      <Text>잠수함은 함정 파괴에 특화된 함정입니다. 구축함과 다른 잠수함을 제외한 유닛 대부분은 잠수함이 공격하기 전이나 다른 유닛에 인접하기 전까지는 잠수함을 볼 수 없습니다. 잠수함은 빙하 타일에 들어갈 수 있습니다. 잠수함으로 적의 바다를 정찰해 적 함정을 가라앉히고 한편으로는 적 잠수함에 아군 함정이 당하지 않도록 잘 보호하십시오. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNITCOMBAT_HELICOPTER">
+      <Text>비행선 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_COMMERCE">
+      <Text>상업</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_COMMERCE_HELP">
+      <Text>총 골드 수입</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_COMMERCE_TITLE">
+      <Text>갑부</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_COMMERCE_TT">
+      <Text>게임을 진행하며 얻은 골드의 총합입니다. 유지비나 기타 비용과 관계 없이 총 수입만을 비교합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_CULTURE">
+      <Text>문화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_CULTURE_HELP">
+      <Text>채택한 사회 정책</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_CULTURE_TITLE">
+      <Text>세련된 군주</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_CULTURE_TT">
+      <Text>상대보다 사회 정책을 많이 채택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_HELP_TT">
+      <Text>공동선두는 칭호를 받을 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_INDUSTRY">
+      <Text>산업</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_INDUSTRY_HELP">
+      <Text>생산이 가장 높은 도시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_INDUSTRY_TITLE">
+      <Text>산업의 선두주자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_INDUSTRY_TT">
+      <Text>각 제국에서 생산이 가장 높은 도시를 비교해 1위를 차지한 도시를 소유한 제국의 지도자에게 주어지는 칭호입니다.[NEWLINE][NEWLINE]세상에서 가장 생산이 높은 도시: {@1_WorldBestCity}[NEWLINE]플레이어의 제국에서 생산이 가장 높은 도시: {@2_YourBestCity}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_LABOR">
+      <Text>노동력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_LABOR_HELP">
+      <Text>세계 불가사의 및 국가 불가사의</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_LABOR_TITLE">
+      <Text>최고의 복지가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_LABOR_TT">
+      <Text>당신이 직접 지은 세계의 불가사의와 국가적 불가사의는 모두 같이 점수에 반영됩니다. 만약 상대 플레이어가 세계의 불가사의를 먼저 지으면 당신은 국가적 불가사의를 지어 따라잡거나 공격을 통해 불가사의를 빼앗을 수도 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_MILITARY">
+      <Text>군사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_MILITARY_HELP">
+      <Text>최신 지상함 및 비행선의 수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_MILITARY_TITLE">
+      <Text>진보의 수호자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_MILITARY_TT">
+      <Text>누군가 더 진보된 모델을 만들면 현재 모델은 구식이 되어 무용지물이 됩니다. 그러나 구식 모델을 업그레이드하면 최신 모델과 경쟁할 수 있습니다. 다른 제국이 앞서 나간다면 새 유닛을 만들거나 구식 모델을 업그레이드하거나 다른 제국의 군대를 공격해 규모를 줄이십시오.[NEWLINE][NEWLINE]최신 지상함: {@1_LandshipUnitType}[NEWLINE]최신 비행선: {@2_AirshipUnitType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_NOTIF_SUMMARY">
+      <Text>{@1_CivName}{@1: plural 1?이; 2?가;} {@2_TitleName}{@2: plural 1?이; 2?가;} 되었습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_NOTIF_TT">
+      <Text>{@1_CivName}{@1: plural 1?이; 2?가;} [COLOR_POSITIVE_TEXT]{@2_TitleName}[ENDCOLOR]의 칭호를 받는 명예를 얻었습니다. 이제 이들은 제국 연합에서 더 큰 영향력을 발휘하며 그만큼 승리에 가까워 졌습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_TECH_UNLOCK">
+      <Text>어떤 플레이어가 {1_Technology:textkey}{1: plural 1?을; 2?를;} 연구하면 가능합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_TURN_UNLOCK">
+      <Text>{1_UnlockTurn}턴이 되면 가능합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_UNLOCK_TT">
+      <Text>이제 누구든 [COLOR_POSITIVE_TEXT]{@1_TitleName}[ENDCOLOR]의 호칭을 차지할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_VALUE_UNLOCK">
+      <Text>어떤 플레이어가 이 필드에서 {1_UnlockValue}{1: plural 1?을; 2?를;} 얻으면 가능합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_COUNTDOWN">
+      <Text>{1_NumTurnsUntilVictory}턴 뒤에 {@2_CivAboutToWin}{@2: plural 1?이; 2?가;} 승리합니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_FLAVOR_TIME">
+      <Text>제국 연합이 고개를 숙입니다. 당신의 문명은 세상에서 가장 우수한 문명이며 미래를 이끌 지도자입니다. 세상의 하늘은 이제 당신이 지배합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_HELP">
+      <Text>제국 연합은 해마다 모여 세상에서 가장 훌륭한 지도자에게 명예 칭호를 수여합니다. {2_NumTurnsNeededForVictory}턴 동안 {1_NumTokensNeededForVictory}개 이상의 칭호를 유지하는 첫 지도자가 게임에서 승리합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_LOCKED">
+      <Text>아직 승리할 가능성이 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_POSSIBLE">
+      <Text>예상 승리 {1_YearUpdated: number #} :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_TIME">
+      <Text>제국</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_TIME_BANG">
+      <Text>제국 승리!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VSCREEN_BUTTON">
+      <Text>제국 연합</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_FRONTIER_MARKETS">
+      <Text>전략 자원으로 얻는 [ICON_GOLD]골드가 1만큼 증가하며, [ICON_RES_ALUMINUM] 에더리움 자원이 두 배로 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_FRONTIER_MARKETS_SHORT">
+      <Text>개척지 시장</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_INVENTORS_GUILD">
+      <Text>위대한 과학자가 출현하는 속도가 50%만큼 빨라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_INVENTORS_GUILD_SHORT">
+      <Text>발명가 길드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LABOR_CASTES">
+      <Text>[ICON_CITIZEN] 인구 때문에 발생하는 [ICON_HAPPINESS_4] 불행이 20%만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LABOR_CASTES_SHORT">
+      <Text>노동자 계급</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_NEW_WORLD_ORDER">
+      <Text>새 사회 정책을 도입하는 데 필요한 [ICON_CULTURE]문화가 10%만큼 감소합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_NEW_WORLD_ORDER_SHORT">
+      <Text>떠오르는 초강대국</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OPTIMIZED_EXTRACTORS">
+      <Text>전략 자원으로 얻는 [ICON_PRODUCTION]생산이 1만큼 증가하며, [ICON_RES_URANIUM] 루보릭 자원이 두 배로 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OPTIMIZED_EXTRACTORS_SHORT">
+      <Text>채굴기 최적화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_TIRELESS_WATCH">
+      <Text>비행선 유닛의 [ICON_MOVES] 이동력이 2 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_TIRELESS_WATCH_SHORT">
+      <Text>삼엄한 경계</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AIRSHIP_HELP">
+      <Text>육지와 바다 위를 떠다니는 비행선 유닛입니다. 지상 목표에는 강력한 위력을 발휘하지만 비행기에는 약합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY">
+      <Text>비행선은 지상과 해상을 모두 이동할 수 있어 전쟁터로 나가는 거리를 줄일 수 있고, 적이 예상치 못한 방향에서 공격을 가할 수 있습니다. 비행선의 큰 대포는 근처에 있는 적의 비행선을 공격하거나 지상에 있는 적에게 폭탄을 퍼부을 수 있습니다. 전투기와 대공포는 비행선을 위협할 수 있습니다. 이들을 최대한 빨리 제거하거나 비행선을 보호할 다른 유닛을 항상 같이 붙여 놓으십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AIRSHIP_TEXT">
+      <Text>에터리움이 발견되지 전까지, 하늘을 날 수 있는 것은 빛이나 비행기와 같은 물체뿐이라고 여겨졌습니다. 비행선은 이와는 조금 다른 개념으로 만들어진 탈것입니다. 새로운 자원의 개발 덕분에 기존 비행선의 기술자와 발명가들은 이전에 그들의 발목을 잡고 있던 과학의 여러 법칙을 무시하고 거의 아무 물체나 공중에 띄울 수 있게 되었습니다. 신기하게도 이 비행선의 발명은 과거 역사 속에서 항해용 선박이 발명되었던 것과 비슷한 느낌을 떠올리게 합니다. 비행선은 항해용 선박과 같이 갑판이 있으며 무기가 배의 양쪽에 모두 달려 있고 돛이 있어야 할 부분에 풍선이 있기 때문입니다. 초기의 비행선 탑승자들은 해군에서 통용되던 계급 체계를 도입했으나, 얼마 지나지 않아 비행선만의 색깔을 갖춰나가게 되었습니다. 그리고 비행선의 디자인도 점점 실험적으로 변해가기 시작했습니다. 비행선 조종사와 탑승자들은 점점 그들만의 문화를 개발하였으며, 그러한 문화는 고상하기도 하고, 엉뚱하며 기발하기도 한 방향으로 변해가기 시작했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FLYER_HELP">
+      <Text>항공기에 강하나 지상 유닛에는 아주 효과적이진 않습니다.  사정거리가 길지 않으며 도시 또는 공중요새에 반드시 정박해야만 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FLYER_STRATEGY">
+      <Text>전투기는 공격 범위는 짧지만 괜찮은 공격력을 갖고 있습니다. 치고 빠지는 전략에 뛰어나고, 특히 무게가 무거워 공격을 쉽게 피할 수 없는 공중 유닛 및 공중요새를 상대할 때 강력합니다. 공격 사정거리가 짧아 초반에는 거의 방어용으로 사용되나, 나중에는 공중요새를 이용해 주둔시키거나 바로 전쟁터로 옮길 수도 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FLYER_TEXT">
+      <Text>전투기는 ‘증기의 시대’ 중 증기를 이용해 여러 가지 시도를 해보던 한 발명가의 참신한 아이디어로 시작되었습니다. 추진력의 발전은 지상뿐만 아니라 해상의 여러 탈것에 변화를 가져왔고, 이 발명가는 ‘이걸 인류의 꿈인 하늘에 적용해 날 수 있는 물건을 만들어보면 어떨까?’라는 생각을 하게 된 것입니다. 맨 처음 기체에 탑재된 엔진은 매우 무거워 비행기가 날 수 있게 하려면 다른 부분에서 어떻게든 무게를 줄여야만 했습니다. 무게를 줄이기 위해 꼭 금속을 사용하지 않아도 되는 부분에는 천을 사용하기도 했습니다. 이후 기술이 더욱 발전하며, 비행기에 무기가 탑재되었고, 기존의 디자인과는 다른 여러 형태의 전투기도 등장하게 되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_HELP">
+      <Text>첫 육상선박 유닛입니다. 지상 유닛에게 강하나, 비행 유닛에게 약합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_STRATEGY">
+      <Text>가장 기본적인 육상선박 유닛인 지상 철갑함은 두꺼운 장갑으로 무장한, 지상 전투에서 탁월한 능력을 발휘하는 유닛입니다. 지상 철갑함을 이용해 원시적인 기초 유닛을 지도 상에서 쓸어버리고 도시를 점령하십시오. 지상 철갑함의 두꺼운 장갑은 전투기의 지상 공격용 총과 같은 무기로부터 철갑함을 보호해 주지만, 비행 유닛의 포 공격에는 취약합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_TEXT">
+      <Text>‘철마’라고 불리는 철도 교통수단이 건설되며 많은 발전이 함께 따라왔습니다. 곧, 발명가들은 철로와 같은 길이 필요하지 않은 형태의 기관차를 만들기 위해 노력하게 되었습니다. 하지만 그들은 엄청나게 무거운 금속 덩어리인 초기의 기차 모델을 움직일 수 있는 기구를 만드는 것은 매우 어려운 일이라는 것을 곧 깨닫게 되었고, 더욱 간단한 디자인과 포화를 어느 정도 견딜 수 있는 가벼운 장갑판을 입힌 기차를 만드는 쪽으로 방향을 바꾸게 되었습니다. 이 기차를 처음으로 운전한 운전자는 기차가 가벼워지자 무거웠을 때보다 훨씬 낫다는 것을 알게 되었습니다. 가벼워진 기차는 더욱 적은 연료로 움직이고, 전투에서도 더욱 높은 민첩성을 보유할 수 있게 되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_LEVIATHAN_HELP">
+      <Text>가장 발전된 형태의 육상선박 유닛입니다. 다른 지상 유닛을 상대로 위력을 발휘하나, 비행 유닛에는 취약합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_LEVIATHAN_STRATEGY">
+      <Text>지상 거함은 다른 모든 지상 유닛을 공포에 떨게 할 수 있는, 육상선박 중 최강의 유닛입니다. 이 유닛을 이용해 비행 유닛들을 안전하게 보호할 수 있도록 대공포를 파괴하십시오. 두꺼운 장갑으로 소총 공격이나 전투기의 공격은 쉽게 막아낼 수 있지만, 비행선이나 공중 요새의 강력한 대포 공격에는 취약합니다. 그러므로 다른 비행 유닛을 상대할 때를 대비하여 강력한 전투기나 대공포와 함께 사용하는 것이 좋습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_LEVIATHAN_TEXT">
+      <Text>지상 거함은 지상 전투의 최강 유닛입니다. 전설 속 바다 괴물의 이름을 따서 랜드 리바이어던이라고도 불리는 이 유닛은 엄청난 화력을 갖고 있으며 엄청난 속도로 어느 각도에서든 공격을 가할 수 있습니다. 이 유닛을 조종하기 위해서는 16명의 대원이 필요합니다. 몇몇은 대포를 조종하고, 다른 대원들은 루보릭 엔진을 조종하며, 2명은 조종사와 길잡이 역할을 담당합니다. 대원들은 훈련 과정 중 일심동체로 움직이고 생각하는 법을 훈련받으며, 복잡한 명령도 빠르게 전달할 수 있는 함축어를 습득합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LANDSHIP_HELP">
+      <Text>지상 철갑함보다 더욱 강화된 유닛입니다. 다른 지상 유닛을 상대로 위력을 발휘하나, 비행 유닛에게는 취약합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LANDSHIP_STRATEGY">
+      <Text>지상함은 강력하고 기동성이 뛰어난 지상 유닛입니다. 지상함은 전투 후에 움직일 수 있어 적진에 구멍을 뚫고 빈 타일을 점령할 수 있습니다. 지상함은 적 도시를 공격할 때 약간 불리하므로 지상함을 선두로 야포와 보병이 따라 들어가는 것이 좋습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LANDSHIP_TEXT">
+      <Text>지상함은 육상선박이 되고자 했으나 육상선박 본연의 임무를 수행하진 못했습니다. 루보릭의 발견은 차량 운영에 쓸 수 있는 에너지를 기하급수적으로 늘렸으며, 똑같은 성능으로 더 강화된 장갑과 무기를 실을 수 있게 하였습니다. 이로써 새로 등장한 무기들은 전쟁터의 새로운 기준으로 자리 잡았고, 지상의 어떤 유닛도 제거할 수 있는 능력을 갖추게 되었습니다. 이 유닛을 몇 기만 보유해도 쉽게 적을 쓸어버리고 도시를 점령할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SKY_FORTRESS_HELP">
+      <Text>최첨단 비행선 유닛입니다. 비행기 기지로 사용할 수 있습니다. 강력한 공격력을 자랑하지만 비행기에는 약합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SKY_FORTRESS_STRATEGY">
+      <Text>공중 요새는 가장 발전된 형태의 비행 유닛이며, 강력한 무기를 탑재하고 있습니다. 공중 요새는 지상 유닛과 비행 유닛 모두를 상대로 강력한 대포 공격을 할 수 있을 뿐만 아니라 전투기의 이동기지가 될 수도 있습니다. 전투기를 싣고 근처의 다른 비행 유닛에게 공격을 가하는 공중 요새는 다른 유닛에게 큰 위협이 될 수 있습니다. 하지만 공중 요새는 적의 전투기와 대공 무기에 취약합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SKY_FORTRESS_TEXT">
+      <Text>웅장한 공중요새는 보는 것만으로도 장관입니다. 비행선보다 훨씬 큰 이 요새는 지상에 엄청나게 큰 그림자를 만들어 적을 두려움에 떨게 합니다. 공중요새에는 많은 무기가 장착되어 있으나, 에터리움의 도움으로 가볍게 공중에 띄울 수 있게 되었습니다. 요새 안에는 장군들이 사용하는 전략실, 전투기 격납고, 여가 생활을 위한 거실 등 다양한 시설이 갖추어 있습니다. 공중요새는 비행선단의 가장 중요한 역할을 담당하며, 지상에 죽음을 뿌리고 공중에 있는 적의 비행선을 쓸어버릴 수 있는 이동식 요새입니다.</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>
