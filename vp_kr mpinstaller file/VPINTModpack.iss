@@ -43,16 +43,16 @@ Name: "korean"; MessagesFile: "compiler:Languages\Korean.isl"
 
 [Files]
 Source: "..\AssetsMP\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP
-Source: "..\Assets_votesMP\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VoteColor
+Source: "..\Assets_votesMP\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: NVC
 ; 참고: 공유 시스템 파일에서 "Flags: ignoreversion"을 사용하지 마십시오.
 
 [Components]
 Name: "VP"; Description: "Vox Populi + 34UC 한국어 번역 모드팩"; Types: VP; Flags: exclusive disablenouninstallwarning
-Name: "VoteColor"; Description: "투표에서 문명 색상 없애기"; Types: VoteColor; Flags: exclusive disablenouninstallwarning
+Name: "NVC"; Description: "세계 의회 투표 문명 이름 색상 제거 패치"; Types: NVC; Flags: exclusive disablenouninstallwarning
 
 [Types]
 Name: "VP"; Description: "Vox Populi + 34UC 한국어 번역 모드팩";
-Name: "VoteColor"; Description: "투표에서 문명 색상 없애기";
+Name: "NVC"; Description: "세계 의회 투표 문명 이름 색상 제거 패치";
 
 [InstallDelete]
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\cache"
