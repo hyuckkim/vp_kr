@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3a5a79ae-24f6-4e80-b486-35c8d66a2844" version="1">
+  <Properties>
+    <Name>(4aL) Squads for VP INT</Name>
+    <Stability>Beta</Stability>
+    <Teaser>(4.21.1) Translation of the Squads for VP</Teaser>
+    <Description>Translation of the Squads for VP into several non-English languages. Currently to Korean only.[NEWLINE][NEWLINE]VP용 분대 모드의 비영어권 번역 모드입니다. 현재는 한국어만 가능합니다.</Description>
+    <Authors>HANDANI</Authors>
+    <SpecialThanks>hyuckkim, 디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://github.com/hyuckkim/vp_kr/</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Vox Populi" />
+    <Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" minversion="0" maxversion="999" title="Community Patch Localized" />
+    <Mod id="559f86b1-5b57-4975-a9ed-b9f3855506f5" minversion="0" maxversion="999" title="Vox Populi Localized" />
+    <Mod id="3645dbca-bdfb-4d86-bdc5-46cb5a426cc2" minversion="0" maxversion="999" title="Squads for VP" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="57423FE2CF6FDF3329F1EC53EAD54CEA" import="0">UI/SquadNames.lua</File>
+    <File md5="20154EEFD90BF26A70845E13FEC5C386" import="0">XML/Squads_KO_KR.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Squads_KO_KR.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
