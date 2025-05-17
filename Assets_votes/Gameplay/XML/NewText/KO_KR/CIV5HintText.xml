@@ -45,31 +45,31 @@
 			<Text>지형 (F1)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TERRAIN_EDIT_PANEL_HELP">
-			<Text>[ICON_BULLET]타일을 선택하려면 좌클릭하세요.[NEWLINE][ICON_BULLET]선택을 취소하려면 우클릭하세요.[NEWLINE][ICON_BULLET]변경 사항을 취소하려면 Ctrl + Z, 취소 사항을 복구하려면 Ctrl + Y를 누르세요.</Text>
+			<Text>[ICON_BULLET]타일을 선택하려면 왼쪽 클릭하세요.[NEWLINE][ICON_BULLET]선택을 취소하려면 오른쪽 클릭하세요.[NEWLINE][ICON_BULLET]변경 사항을 취소하려면 Ctrl + Z, 취소 사항을 복구하려면 Ctrl + Y를 누르세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_CITIES_AND_UNITS_PANEL">
 			<Text>도시와 유닛 (F2)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_CITIES_AND_UNITS_PANEL_HELP">
-			<Text>[ICON_BULLET]타일을 선택하려면 좌클릭하세요.[NEWLINE][ICON_BULLET]선택을 취소하려면 우클릭하세요.[NEWLINE][ICON_BULLET]도시를 바로 지으려면 Shift + 좌클릭하세요.</Text>
+			<Text>[ICON_BULLET]타일을 선택하려면 왼쪽 클릭하세요.[NEWLINE][ICON_BULLET]선택을 취소하려면 오른쪽 클릭하세요.[NEWLINE][ICON_BULLET]도시를 바로 지으려면 Shift + 왼쪽 클릭하세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TERRAIN_PAINT_PANEL">
 			<Text>지형 (F3)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TERRAIN_PAINT_PANEL_HELP">
-			<Text>[ICON_BULLET]타일을 수정하려면 우클릭하세요.[NEWLINE][ICON_BULLET]주변 7타일을 같이 수정하려면 Shift + 우클릭하세요.[NEWLINE][ICON_BULLET]변경 사항을 취소하려면 Ctrl + Z, 취소 사항을 복구하려면 Ctrl + Y를 누르세요.</Text>
+			<Text>[ICON_BULLET]타일을 수정하려면 오른쪽 클릭하세요.[NEWLINE][ICON_BULLET]주변 7타일을 같이 수정하려면 Shift + 오른쪽 클릭하세요.[NEWLINE][ICON_BULLET]변경 사항을 취소하려면 Ctrl + Z, 취소 사항을 복구하려면 Ctrl + Y를 누르세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_UNITS_PANEL">
 			<Text>유닛 (F4)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_UNITS_PANEL_HELP">
-			<Text>[ICON_BULLET]유닛을 소환하려면 우클릭하세요.[NEWLINE][ICON_BULLET]마우스 아래 있는 유닛을 제거하려면 Shift + 우클릭하세요.</Text>
+			<Text>[ICON_BULLET]유닛을 소환하려면 오른쪽 클릭하세요.[NEWLINE][ICON_BULLET]마우스 아래 있는 유닛을 제거하려면 Shift + 오른쪽 클릭하세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TECHS_PANEL">
 			<Text>기술 (F7)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TECHS_PANEL_HELP">
-			<Text>[ICON_BULLET]기술을 연구/연구 취소하려면 좌클릭하세요.[NEWLINE][ICON_BULLET]이 기술의 연구에 필요한 기술들까지 연구/연구 취소하려면 Shift + 좌클릭하세요.</Text>
+			<Text>[ICON_BULLET]기술을 연구/연구 취소하려면 왼쪽 클릭하세요.[NEWLINE][ICON_BULLET]이 기술의 연구에 필요한 기술들까지 연구/연구 취소하려면 Shift + 왼쪽 클릭하세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_PLAYERS_PANEL">
 			<Text>플레이어 (F6)</Text>
@@ -78,7 +78,7 @@
 			<Text>사회 정책 (F8)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_ACTIVE_PLAYER_BUTTON_HELP">
-			<Text>활성 플레이어를 바꾸려면 클릭하세요.[NEWLINE][COLOR_NEGATIVE_TEXT]플레이어를 바꿀 때 충돌이 일어난다면, [ICON_CAPITAL]IGE[ICON_CAPITAL]를 우클릭하시고 안전 모드를 활성화하세요.[ENDCOLOR]</Text>
+			<Text>활성 플레이어를 바꾸려면 클릭하세요.[NEWLINE][COLOR_NEGATIVE_TEXT]플레이어를 바꿀 때 충돌이 일어난다면, [ICON_CAPITAL]IGE[ICON_CAPITAL]를 오른쪽 클릭하시고 안전 모드를 활성화하세요.[ENDCOLOR]</Text>
 		</Row>
 
 		
@@ -102,7 +102,7 @@
 			<Text>[ICON_CAPITAL] IGE [ICON_CAPITAL]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_IGE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]IGE를 열거나 닫습니다. (Ctrl + i)[ENDCOLOR][NEWLINE]설정을 열려면 우클릭하세요.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]IGE를 열거나 닫습니다. (Ctrl + i)[ENDCOLOR][NEWLINE]설정을 열려면 오른쪽 클릭하세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_SAFE_MODE">
 			<Text>안전 모드</Text>
@@ -123,7 +123,7 @@
 			<Text>IGE가 열려있을 때 자원 아이콘을 표시합니다.[NEWLINE][COLOR_POSITIVE_TEXT]IGE 속도가 느리다면 체크 해제하세요.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_AUTO_SAVE">
-			<Text>IGE를 열 때 자동저장</Text>
+			<Text>IGE를 열 때 자동 저장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_CLEAN_UP_FILES">
 			<Text>불필요한 파일 제거</Text>
@@ -177,10 +177,10 @@
 			<Text>정말로 저장 후 다시 불러오시겠습니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_LOADING_ERROR">
-			<Text>IGE가 아마도 다른 모드 때문에 시작할 수 없습니다.</Text>
+			<Text>IGE가 아마도 다른 모드 때문에 시작할 수 없습니다.[NEWLINE][ICON_BULLET]아래의 오류와 모드 이름을 스팀이나 CivFanatics에 알려주시면 빠르게 수정하겠습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_MORE_THAN_ONE_VERSION_ERROR">
-			<Text>IGE가 두 개 이상 있습니다.[NEWLINE]이것은 IGE가 제대로 작동하지 못하게 합니다.[NEWLINE]예전 버전을 지워주세요.</Text>
+			<Text>IGE가 두 개 이상 있습니다.[NEWLINE]이것은 문명 5를 혼란스럽게 만들어 IGE가 제대로 작동하지 못하게 합니다.[NEWLINE]예전 버전을 지워주세요.</Text>
 		</Row>
 
 
@@ -193,6 +193,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_IGE_STRATEGIC_RESOURCE_QTY">
 			<Text>전략 자원의 양.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITY_ON_PLOT">
+			<Text>[COLOR_NEGATIVE_TEXT]이 땅에는 도시가 있습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CANNOT_PLACE_FEATURE">
+			<Text>[COLOR_NEGATIVE_TEXT]특징을 배치할 수 없습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CANNOT_PLACE_IMPROVEMENT">
+			<Text>[COLOR_NEGATIVE_TEXT]시설을 배치할 수 없습니다![ENDCOLOR]</Text>
 		</Row>
 
 
@@ -245,6 +254,10 @@
 		<Row Tag="TXT_KEY_IGE_NO_CITY_ON_PLOT">
 			<Text>[COLOR_POSITIVE_TEXT]이곳에 도시 없음[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_IGE_BUILDING_CONTROL_TT">
+			<Text>왼쪽 클릭:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]왼쪽 클릭[ENDCOLOR]을 눌러 건물을 추가/삭제.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]왼쪽 클릭 + CTRL[ENDCOLOR]을 눌러 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR]로 건물을 추가/삭제.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]왼쪽 클릭 + SHIFT[ENDCOLOR]을 눌러 여러 건물을 쌓기.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]왼쪽 클릭 + CTRL + SHIFT[ENDCOLOR]를 눌러 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR]로 여러 건물을 쌓기.[NEWLINE]
+[NEWLINE]오른쪽 클릭:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]오른쪽 클릭[ENDCOLOR]을 눌러 쌓여있는 모든 건물을 지우기.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]오른쪽 클릭 + CTRL[ENDCOLOR]을 눌러 쌓여있는 모든 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] 건물을 지우기.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_IGE_DISBAND_UNIT_BUTTON">
 			<Text>유닛 삭제</Text>
 		</Row>			
@@ -254,8 +267,17 @@
 		<Row Tag="TXT_KEY_IGE_HEAL_UNIT_BUTTON">
 			<Text>회복</Text>
 		</Row>
+		<Row Tag="TXT_KEY_IGE_ADD_MOVE_UNIT_BUTTON">
+			<Text>[ICON_MOVES] 이동 +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RESTORE_MOVES_UNIT_BUTTON">
+			<Text>이동 복원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RESET_ATTACK_UNIT_BUTTON">
+			<Text>공격 재설정</Text>
+		</Row>
 		<Row Tag="TXT_KEY_IGE_CITY_POPULATION">
-			<Text>도시 인구.</Text>
+			<Text>도시 인구</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_HURRY_CITY_BUTTON">
 			<Text>생산 가속</Text>
@@ -264,7 +286,7 @@
 			<Text>도시의 생산을 가속합니다. 다음 턴에 생산이 완료됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_CAPTURE_CITY_BUTTON">
-			<Text>차지</Text>
+			<Text>점령</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_CAPTURE_CITY_BUTTON_HELP">
 			<Text>당신의 도시로 만듭니다. 외교 페널티를 주지 않으며 전쟁 상태로 만들지도 않습니다.</Text>
@@ -285,13 +307,13 @@
 			<Text>국왕 경축일 (20턴)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_LOVE_KING_10_BUTTON_HELP">
-			<Text>20턴간의 국왕 경축일을 엽니다.</Text>
+			<Text>20턴 간의 국왕 경축일을 엽니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_LOVE_KING_250_BUTTON">
 			<Text>국왕 경축일 (250턴)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_LOVE_KING_250_BUTTON_HELP">
-			<Text>250턴간의 국왕 경축일을 엽니다.</Text>
+			<Text>250턴 간의 국왕 경축일을 엽니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_EXPAND_CITY_BUTTON">
 			<Text>국경 확장</Text>
@@ -318,13 +340,16 @@
 			<Text>이 도시를 다른 문명으로부터 빼앗은 도시라고 설정합니다. 법원을 지어주기 전까지 추가 불행이 발생합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_PUPPET_CITY_CB">
-			<Text>괴뢰정부</Text>
+			<Text>괴뢰 정부</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_PUPPET_CITY_CB_HELP">
-			<Text>괴뢰정부로 만듭니다.</Text>
+			<Text>괴뢰 정부로 만듭니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_NO_RELIGION">
 			<Text>종교 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HOLY_CITY_BUG">
+			<Text>[COLOR_NEGATIVE_TEXT]성지 지위를 제거할 수 있습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_FOLLOWERS">
 			<Text>{1_Religion}의 신자</Text>
@@ -345,18 +370,29 @@
 			<Text>순간이동</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_HELP">
-			<Text>순간이동 모드에 진입합니다. 우클릭하면 유닛이 순간이동합니다.</Text>
+			<Text>순간이동 모드에 진입합니다. 오른쪽 클릭하면 유닛이 순간이동합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_MESSAGE">
-			<Text>유닛을 순간이동하려면 지도에 우클릭하세요.</Text>
+			<Text>유닛을 순간이동하려면 지도에 오른쪽 클릭하세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_CANCEL">
 			<Text>취소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_INTELLIGENCE_AGENCY_WARNING">
-			<Text>[COLOR_NEGATIVE_TEXT]이 건물을 여러번 짓지 마십시오! 게임에 허용된 숫자보다 많은 수의 스파이가 생기면 게임이 불안정해집니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]이 건물을 여러 번 짓지 마십시오! 게임에 허용된 숫자보다 많은 수의 스파이가 생기면 게임이 불안정해집니다.[ENDCOLOR]</Text>
 		</Row>
-		
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_BUILDINGS">
+			<Text>종교 건물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PROJECT_WONDERS">
+			<Text>세계 의회 불가사의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DUMMY_BUILDINGS">
+			<Text>더미 건물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CORPORATION_BUILDINGS">
+			<Text>기업 건물</Text>
+		</Row>		
 
 
 
@@ -389,7 +425,7 @@
 			<Text>모든 지도의 안개를 없앱니다. 자연 불가사의 등은 발견되지만 문명 만남이 활성화되지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON">
-			<Text>모든 지도 탐험 안됨</Text>
+			<Text>탐험하지 않은 지도</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON_HELP">
 			<Text>모든 지도를 탐험하지 않은 상태로 만듭니다. 자연 불가사의 발견과 문명 만남 등이 이전 상태로 되돌아가지는 않습니다.</Text>
@@ -398,7 +434,7 @@
 			<Text>유닛 지우기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_KILL_UNITS_BUTTON_HELP">
-			<Text>이 문명의 모든 유닛을 지웁니다.</Text>
+			<Text>이 문명의 모든 유닛을 지웁니다. 당신이 살인자로 간주되지는 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_KILL_CIV_BUTTON">
 			<Text>멸망</Text>
@@ -452,7 +488,7 @@
 			<Text>팀을 형성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_FORM_TEAM_NONE">
-			<Text>모든 문명이 한 팀입니다?!</Text>
+			<Text>모든 문명이... 한 팀입니다?!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_MAKE_PEACE">
 			<Text>평화 협정</Text>
@@ -497,7 +533,7 @@
 			<Text>선전포고 당함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_SET_EMBARGO">
-			<Text>경제 봉쇄(작동하지 않음)</Text>
+			<Text>경제 봉쇄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TWO_SIDES_NONE">
 			<Text>모든 문명이 당신의 팀이거나 당신과 전쟁 중입니다.</Text>
@@ -506,16 +542,16 @@
 			<Text>[COLOR_NEGATIVE_TEXT]이 문명은 이미 당신의 팀입니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_ALREADY_UNDER_DOF_ERROR">
-			<Text>[COLOR_NEGATIVE_TEXT]이 문명은 이미 친선 관계 선언을 했습니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]이 문명은 이미 당신과 친선 관계 선언을 했습니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE_ERROR">
-			<Text>[COLOR_NEGATIVE_TEXT]당신의 영향력이 이미 최대입니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]이 도시에서 당신의 영향력이 이미 최대입니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_SAME_TEAM_ERROR">
 			<Text>[COLOR_NEGATIVE_TEXT]당신과 이 문명은 같은 팀입니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_ALREADY_AT_WAR_ERROR">
-			<Text>[COLOR_NEGATIVE_TEXT]이미 전쟁 중입니다..[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]이미 전쟁 중입니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_ALREADY_DENOUNCED_ERROR">
 			<Text>[COLOR_NEGATIVE_TEXT]이미 이 문명을 비난했습니다.[ENDCOLOR]</Text>
@@ -556,6 +592,15 @@
 		<Row Tag="TXT_KEY_IGE_CIVILIAN_UNITS">
 			<Text>민간 유닛</Text>
 		</Row>
+		<Row Tag="TXT_KEY_IGE_GREAT_PEOPLE_UNITS">
+			<Text>위인 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SPACE_SHIP_UNITS">
+			<Text>우주선 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DIPLOMACY_UNITS">
+			<Text>외교 유닛</Text>
+		</Row>
 		<Row Tag="TXT_KEY_IGE_UNITS_LEVEL">
 			<Text>유닛 승급</Text>
 		</Row>
@@ -563,22 +608,22 @@
 			<Text>종교 유닛*</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_HELP">
-			<Text>이 유닛들은 종교가 있는 도시가 있어야 구매할 수 있습니다. 인간 플레이어가 선택되야 합니다.</Text>
+			<Text>이 유닛들은 종교가 있는 도시가 있어야 구매할 수 있습니다. 인간 플레이어가 선택되어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_WARNING">
-			<Text>[COLOR_NEGATIVE_TEXT]주의 : 이 유닛들은 구매하는 겁니다(공짜로요). 이 과정은 어느 도시도 유닛이 구매 불가능하면 이루어지지 않습니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]주의 : 이 유닛들은 구매하는 겁니다.(공짜로요) 이 과정은 어느 도시도 유닛이 구매 불가능하면 이루어지지 않지만, 신앙 비용과 "타일 당 유닛 1개" 규칙은 무시됩니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_ERROR">
-			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]에러 : 어느 도시도 이 유닛을 구매할 수 없습니다.[ENDCOLOR]</Text>
+			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]오류 : 어느 도시도 이 유닛을 구매할 수 없습니다.[ENDCOLOR]</Text>
 		</Row>
 
 
 		<!--IGE_API_Data.lua-->
 		<Row Tag="TXT_KEY_IGE_NO_GRAPHICAL_UPDATE">
-			<Text>[COLOR_NEGATIVE_TEXT]버그 : 당신이 타일을 변경하면 데이터는 갱신되지만, 일부 그래픽은 게임을 저장하고 다시 불러오기 전까진 갱신되지 않습니다. 파이락시스에 불만을 호소하세요.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]버그: 당신이 타일을 변경하면 데이터는 갱신되지만, 일부 그래픽은 게임을 저장하고 다시 불러오기 전까진 갱신되지 않습니다. 파이락시스에 불만을 호소하세요.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_SAVE_GAME_CORRUPTION">
-			<Text>[COLOR_NEGATIVE_TEXT]버그 : 이것을 변경한다면 세이브 게임에 악영향을 줄 것입니다![ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]금지: 이것을 변경한다면 저장된 게임에 악영향을 줄 것입니다![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_FLAT_LAND">
 			<Text>평지</Text>
@@ -587,7 +632,49 @@
 			<Text>연안 또는 호수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_COAST_OR_LAKE_HELP">
-			<Text>호수나 연안을 생성합니다. 호수 타일은 9타일보다 작아야 합니다.</Text>
+			<Text>호수나 연안을 생성합니다.[NEWLINE]호수 타일은 9타일보다 작아야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLOT_NAME">
+			<Text>Plot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GLOBAL_NAME">
+			<Text>글로벌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SEA_NAME">
+			<Text>해안</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_FRESH_WATER_NAME">
+			<Text>No Fresh Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNIMPROVED_NAME">
+			<Text>If Unimproved</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ADJACENT_TO_NAME">
+			<Text>Adjacent to the</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TO_ADJACENT_NAME">
+			<Text>To the adjacent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EACH_ERA_NAME">
+			<Text>each Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAUSE_ON">
+			<Text>on</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAUSE_TO">
+			<Text>to</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAUSE_FROM">
+			<Text>from</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAUSE_WITH">
+			<Text>with</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAUSE_ADJACENT_TO">
+			<Text>if adjacent to</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAUSE_TO_ADJACENT">
+			<Text>to the adjacent</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_AFRICA">
 			<Text>아프리카</Text>
@@ -614,21 +701,39 @@
 			<Text>유럽 타일셋</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_NATIONAL_WONDER">
-			<Text>[COLOR_CYAN]자연 불가사의[ENDCOLOR]</Text>
+			<Text>[COLOR:125:250:250:255]자연 불가사의[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_WONDER">
 			<Text>[COLOR_CYAN]불가사의[ENDCOLOR]</Text>
 		</Row>
-
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_BUILDING_SUBTITLE">
+			<Text>[COLOR:220:230:255:255]종교 건물[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PROJECT_WONDER_SUBTITLE">
+			<Text>[COLOR:45:150:50:255]세계 의회 불가사의[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DUMMY_BUILDING_SUBTITLE">
+			<Text>[COLOR_LIGHT_GREY]더미 건물[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CORPORATION_HQ_SUBTITLE">
+			<Text>[COLOR_YIELD_FOOD]기업 본사[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CORPORATION_OFFICE_SUBTITLE">
+			<Text>[COLOR:250:170:120:255]기업 사무실[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CORPORATION_FRANCHISE_SUBTITLE">
+			<Text>[COLOR:220:150:90:255]기업 프랜차이즈[ENDCOLOR]</Text>
+		</Row>
+		
 		<!--IGE_TechsPanel.xml-->
 		<Row Tag="TXT_KEY_IGE_TECH_PREREQ">
-			<Text>필요 :</Text>
+			<Text>필요:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TECHS_ERA_HEADER_HELP">
 			<Text>이 시대의 모든 기술을 연구하려면 클릭하세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY">
-			<Text>모드 호환성 필터 :</Text>
+			<Text>모드 호환성 필터:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_NONE">
 			<Text>없음</Text>
@@ -643,7 +748,7 @@
 
 		<!--IGE_API_Misc.lua -->
 		<Row Tag="TXT_KEY_IGE_YIELD_CHANGE_TEMPLATE">
-			<Text>{1_Amount} with {2_Cause}</Text>
+			<Text>{1_Preposition} {2_Cause}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_NO_YIELD_CHANGE_TEMPLATE">
 			<Text>No bonus from {1_Cause}</Text>
