@@ -249,7 +249,7 @@
 			<Text>투우장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SPAIN_BULLRING_HELP">
-			<Text>동물원을 대체하는 스페인의 고유 건물입니다. [NEWLINE]건설 완료시 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]500[ENDCOLOR] 즉시 제공합니다. 근처의 정글, 숲, 초원 타일에 [ICON_TOURISM]관광과 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. 이 도시에서 다른 문명으로 출발하는 [ICON_INTERNATIONAL_TRADE]국제 교역로가 완료되면, 문명의 [ICON_CULTURE]문화와 [ICON_TOURISM]관광의 현재 산출량에 기반한 [ICON_TOURISM]관광을 제공합니다.[NEWLINE][NEWLINE]도시에 전략 자원을 연결하거나 [COLOR_POSITIVE_TEXT]공공 사업 프로젝트[ENDCOLOR]를 완료하면 이 도시에서 "국왕 경축일"을 맞이합니다. "국왕 경축일"을 맞이하면 [ICON_CULTURE]문화, [ICON_PEACE]신앙, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 얻습니다.[NEWLINE][NEWLINE][ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>동물원을 대체하는 스페인의 고유 건물입니다. [NEWLINE]건설 완료시 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]500[ENDCOLOR] 즉시 제공합니다. 근처의 정글, 숲, 초원 타일에 [ICON_TOURISM]관광과 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. 이 도시에서 다른 문명으로 출발하는 [ICON_INTERNATIONAL_TRADE]국제 교역로가 완료되면, 문명의 [ICON_CULTURE]문화와 [ICON_TOURISM]관광의 현재 산출량에 기반한 [ICON_TOURISM]관광을 제공합니다.[NEWLINE][NEWLINE]도시에 전략 자원을 연결하거나 [COLOR_POSITIVE_TEXT]공공사업 프로젝트[ENDCOLOR]를 완료하면 이 도시에서 "국왕 경축일"을 맞이합니다. "국왕 경축일"을 맞이하면 [ICON_CULTURE]문화, [ICON_PEACE]신앙, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 얻습니다.[NEWLINE][NEWLINE][ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SPAIN_BULLRING_STRATEGY">
 			<Text>투우장은 스페인 고유의 건물로 동물원보다 저렴하고 일찍 이용할 수 있습니다. 숲과 정글에 대한 동물원의 보너스 외에도 투우장은 목장에 보너스를 제공합니다. 추가 수익을 얻으려면 자원을 연결하거나 공공 사업을 건설하여 많은 "국왕 경축일"을 만드는 데 집중하십시오.</Text>
@@ -2360,7 +2360,7 @@
 			<Text>알티쿠는 제철소를 대체하는 훈의 고유한 국가 불가사의입니다. 제철소의 일반적인 보너스 외에도 알티커는 과학 및 문화를 증가시키고 제국의 모든 마구간에서 문화 및 생산을 향상시킵니다. 불가사의는 작은 도시 국가에 공물을 요구하여 추가 골드와 행복을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HUNS_ALTI_CUR_TEXT">
-			<Text>훈족의 기원은 수수께끼에 싸여 있지만, 그들의 흉노 유산에 대한 한 가지 단서는 알티 쿠, 즉 "여섯 뿔 자문회"에 의한 그들의 통치입니다. 알티 쿠르로 알려진 여섯 뿔 자문회는 황제 자신 외에도 훈니크 제국 내에서 가장 영향력 있는 귀족들로 구성된 작은 회의였습니다. 각자 황제 자리에 앉았고, 황제가 가장 좋아하는 사람은 바로 오른쪽에 앉았습니다.[NEWLINE][NEWLINE]
+			<Text>훈족의 기원은 수수께끼에 싸여 있지만, 그들의 흉노 유산에 대한 한 가지 단서는 알티 쿠, 즉 "여섯 뿔 자문회"에 의한 그들의 통치입니다. 알티 쿠르로 알려진 여섯 뿔 자문회는 황제 자신 외에도 훈니크 제국 내에서 가장 영향력 있는 귀족들로 구성된 작은 의회였습니다. 각자 황제 자리에 앉았고, 황제가 가장 좋아하는 사람은 바로 오른쪽에 앉았습니다.[NEWLINE][NEWLINE]
 			황제의 정통성은 주변 왕국에서 추출하여 귀족들에게 나누어 줄 수 있는 조공에 크게 의존했습니다. 중국 등 고객 부족의 불충분한 조공은 동아시아에서 시옹루의 쇠퇴와 소멸을 촉발시켰을 것으로 추정되며, 다만 동유럽의 흉노로 다시 나타납니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ALERT_ALTI_CUR_MINOR_TRIBUTE">
