@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" version="143">
+<Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" version="144">
   <Properties>
     <Name>(1L) Community Patch INT</Name>
     <Stability>Beta</Stability>
-    <Teaser>(4.21.1) Translation of the Community Patch</Teaser>
+    <Teaser>(4.22) Translation of the Community Patch</Teaser>
     <Description>Translation of the Community Patch into several non-English languages. Currently to Korean only.[NEWLINE][NEWLINE]커뮤니티 패치 모드의 비영어권 번역 모드입니다. 현재는 한국어만 가능합니다.</Description>
     <Authors>hyuckkim</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
@@ -30,7 +30,7 @@
     <File md5="996884983A7A7C62BF497CAFD5348AC3" import="0">Database Changes/Text/ko_KR/AI/CoreNewDiplomacyResponseText.xml</File>
     <File md5="B7D439EEE4641D6522A9A58D04A9B277" import="0">Database Changes/Text/ko_KR/AI/CoreStrategyTextChanges.sql</File>
     <File md5="744D3AC0EE057A7686D9E39B629660D9" import="0">Database Changes/Text/ko_KR/City/CoreBuildingTextChanges.sql</File>
-    <File md5="AD9F4F202D42A7126978548E4002111A" import="0">Database Changes/Text/ko_KR/City/CoreNewGreatWorkText.xml</File>
+    <File md5="CD5B9FA29A335DE0402033F7274BEC85" import="0">Database Changes/Text/ko_KR/City/CoreNewGreatWorkText.xml</File>
     <File md5="29674510F7C7EC28B8D07B18A8AC8770" import="0">Database Changes/Text/ko_KR/Civilizations/CoreCivilizationTextChanges.sql</File>
     <File md5="574E8A4587591AEE43557FA5F92EA700" import="0">Database Changes/Text/ko_KR/Civilizations/CoreLeaderTextChanges.sql</File>
     <File md5="A0DF9A26108168352B9C85FB6E7E6698" import="0">Database Changes/Text/ko_KR/Civilizations/CoreNewCivilizationText.xml</File>
@@ -51,7 +51,7 @@
     <File md5="D6B939AA3E8E0DA3E67E8E5C6E5824DB" import="0">Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</File>
     <File md5="06C2FB6E9EFF8C151FE1B28655D88F4F" import="0">Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</File>
     <File md5="816A628B1167E5AAF0974E2D624CD652" import="0">Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</File>
-    <File md5="EC63888373F4E5691ECF0BC3247D1445" import="0">Database Changes/Text/ko_KR/Units/CoreNewUnitText.xml</File>
+    <File md5="B9F475AB707E40676C76926B1F8923CF" import="0">Database Changes/Text/ko_KR/Units/CoreNewUnitText.xml</File>
     <File md5="519D27BD3D6649CB80196861ECD35005" import="0">Database Changes/Text/ko_KR/Units/CoreUnitTextChanges.sql</File>
     <File md5="B898A29873C0A816361E07B25891CF51" import="0">Database Changes/Text/ko_KR/WorldMap/CoreGoodyHutTextChanges.sql</File>
     <File md5="BAD5AA5DD2393C796CA659261477FE8C" import="0">Database Changes/Text/ko_KR/WorldMap/CoreImprovementTextChanges.sql</File>
