@@ -1,1 +1,0 @@
-UPDATE GameOptions SET Visible = 0 WHERE Type = 'GAMEOPTION_NEW_RANDOM_SEED';

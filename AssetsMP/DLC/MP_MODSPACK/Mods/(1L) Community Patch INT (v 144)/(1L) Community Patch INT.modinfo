@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" version="144">
+  <Properties>
+    <Name>(1L) Community Patch INT</Name>
+    <Stability>Beta</Stability>
+    <Teaser>(4.22) Translation of the Community Patch</Teaser>
+    <Description>Translation of the Community Patch into several non-English languages. Currently to Korean only.[NEWLINE][NEWLINE]커뮤니티 패치 모드의 비영어권 번역 모드입니다. 현재는 한국어만 가능합니다.</Description>
+    <Authors>hyuckkim</Authors>
+    <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://github.com/hyuckkim/vp_kr/</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="AD20E8730CADEAD6C20114232768FBF4" import="0">Database Changes/Text/ko_KR/AI/CoreDiplomacyResponseTextChanges.sql</File>
+    <File md5="996884983A7A7C62BF497CAFD5348AC3" import="0">Database Changes/Text/ko_KR/AI/CoreNewDiplomacyResponseText.xml</File>
+    <File md5="B7D439EEE4641D6522A9A58D04A9B277" import="0">Database Changes/Text/ko_KR/AI/CoreStrategyTextChanges.sql</File>
+    <File md5="744D3AC0EE057A7686D9E39B629660D9" import="0">Database Changes/Text/ko_KR/City/CoreBuildingTextChanges.sql</File>
+    <File md5="CD5B9FA29A335DE0402033F7274BEC85" import="0">Database Changes/Text/ko_KR/City/CoreNewGreatWorkText.xml</File>
+    <File md5="29674510F7C7EC28B8D07B18A8AC8770" import="0">Database Changes/Text/ko_KR/Civilizations/CoreCivilizationTextChanges.sql</File>
+    <File md5="574E8A4587591AEE43557FA5F92EA700" import="0">Database Changes/Text/ko_KR/Civilizations/CoreLeaderTextChanges.sql</File>
+    <File md5="A0DF9A26108168352B9C85FB6E7E6698" import="0">Database Changes/Text/ko_KR/Civilizations/CoreNewCivilizationText.xml</File>
+    <File md5="AA4B8B35212AAF98C93A791183660D13" import="0">Database Changes/Text/ko_KR/Concepts/CoreConceptTextChanges.sql</File>
+    <File md5="F8698EF713E672A441A784527E5C6A9B" import="0">Database Changes/Text/ko_KR/Concepts/CoreNewConceptText.xml</File>
+    <File md5="47CBCCE7D810B8CAD2F2D47A15C31A5F" import="0">Database Changes/Text/ko_KR/CoreNewAutomateText.xml</File>
+    <File md5="2C9FF73A790474D1206CD340292A1A66" import="0">Database Changes/Text/ko_KR/CoreNewChatMessageText.xml</File>
+    <File md5="A846573AB0A67C900C6D8404F8F7DBC2" import="0">Database Changes/Text/ko_KR/CoreNewEnumText.xml</File>
+    <File md5="15E0D4A4E87EA12DFC0DE96280C88FF9" import="0">Database Changes/Text/ko_KR/CoreNewGameOptionText.xml</File>
+    <File md5="3B9D1E9898251A013AFA8AD26847F9BD" import="0">Database Changes/Text/ko_KR/CoreNewReplayDataSetText.xml</File>
+    <File md5="E4223E451FAA28A4D0C874F307669FBF" import="0">Database Changes/Text/ko_KR/Espionage/CoreNewEspionageText.xml</File>
+    <File md5="CB7E2037AF2E827B58019B6B9B74A47F" import="0">Database Changes/Text/ko_KR/Minors/CoreMinorTextChanges.sql</File>
+    <File md5="F2C566DF8AB394B180B6FD2A59A924F2" import="0">Database Changes/Text/ko_KR/Notifications/CoreNewNotificationText.xml</File>
+    <File md5="96C027C7F0F81B0BDB9B79DEAFB84AD5" import="0">Database Changes/Text/ko_KR/Notifications/CoreNotificationTextChanges.sql</File>
+    <File md5="F0D93DDFD5DEF449A339A562975209C1" import="0">Database Changes/Text/ko_KR/Religions/CoreReligionTextChanges.sql</File>
+    <File md5="0B2FBF7FBC9FEB8814145B231DBD2BE1" import="0">Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</File>
+    <File md5="AB0103C6E832E6386D17AE8E0CEC88CC" import="0">Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</File>
+    <File md5="D6B939AA3E8E0DA3E67E8E5C6E5824DB" import="0">Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</File>
+    <File md5="06C2FB6E9EFF8C151FE1B28655D88F4F" import="0">Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</File>
+    <File md5="816A628B1167E5AAF0974E2D624CD652" import="0">Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</File>
+    <File md5="B9F475AB707E40676C76926B1F8923CF" import="0">Database Changes/Text/ko_KR/Units/CoreNewUnitText.xml</File>
+    <File md5="519D27BD3D6649CB80196861ECD35005" import="0">Database Changes/Text/ko_KR/Units/CoreUnitTextChanges.sql</File>
+    <File md5="B898A29873C0A816361E07B25891CF51" import="0">Database Changes/Text/ko_KR/WorldMap/CoreGoodyHutTextChanges.sql</File>
+    <File md5="BAD5AA5DD2393C796CA659261477FE8C" import="0">Database Changes/Text/ko_KR/WorldMap/CoreImprovementTextChanges.sql</File>
+    <File md5="50C61F3F7EE865BA2A33D8A441470EF5" import="0">Database Changes/Text/ko_KR/WorldMap/CoreNewGoodyHutText.xml</File>
+    <File md5="FBE359C7D72E835D4A0C7C2414653C72" import="0">Database Changes/Text/ko_KR/WorldMap/CoreNewYieldText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Database Changes/Text/ko_KR/AI/CoreDiplomacyResponseTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/AI/CoreNewDiplomacyResponseText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/AI/CoreStrategyTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/City/CoreBuildingTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/City/CoreNewGreatWorkText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Civilizations/CoreCivilizationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Civilizations/CoreLeaderTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Civilizations/CoreNewCivilizationText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Concepts/CoreConceptTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Concepts/CoreNewConceptText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Espionage/CoreNewEspionageText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Minors/CoreMinorTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Notifications/CoreNewNotificationText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Notifications/CoreNotificationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Religions/CoreReligionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreNewUnitText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreUnitTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreGoodyHutTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreImprovementTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreNewGoodyHutText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreNewYieldText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/CoreNewAutomateText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/CoreNewChatMessageText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/CoreNewEnumText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/CoreNewGameOptionText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/CoreNewReplayDataSetText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
