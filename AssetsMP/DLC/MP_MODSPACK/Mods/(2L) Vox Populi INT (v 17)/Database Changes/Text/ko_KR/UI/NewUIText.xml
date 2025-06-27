@@ -922,7 +922,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]프랜차이즈 이용가능[ENDCOLOR][NEWLINE][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_FRANCHISE_HERE_TT">
-			<Text>다음 이유 중 하나 때문에 여기에 프랜차이즈를 설립할 수 없습니다:[NEWLINE]- 최대 프랜차이즈에 도달[NEWLINE]- 세계 대회에서 제재를 받음[NEWLINE]- 외국 도시에 프랜차이즈를 만드는 것을 방지하는 이념 주의를 채택</Text>
+			<Text>다음 이유 중 하나 때문에 여기에 프랜차이즈를 설립할 수 없습니다:[NEWLINE]- 최대 프랜차이즈에 도달[NEWLINE]- 세계 의회에서 제재를 받음[NEWLINE]- 외국 도시에 프랜차이즈를 만드는 것을 방지하는 이념 주의를 채택</Text>
 		</Row>
 
 		<!-- Trade unit move-to picker -->
@@ -1124,7 +1124,7 @@
 			<Text>[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] 지역 행복: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_LEAGUE">
-			<Text>[NEWLINE][ICON_BULLET]세계 대회 결의안: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]세계 의회 결의안: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD">
 			<Text>[NEWLINE][ICON_BULLET]행복에서: {1_Num}%</Text>
