@@ -280,7 +280,7 @@
 			<Text>[COLOR_GREEN]종속국 협정[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_SUMMARY">
-			<Text>종속국 협정은 두 문명 중 한 문명이 다른 문명에게 충성을 맹세하여 종속국이 되도록 하는 협정입니다. 종속국은 보호를 대가로 세계 대회나 국제 연합의 지도자가 될 권리, 전쟁을 선포할 권리, 전쟁에서 중립을 유지할 권리를 비롯한 정치적 실권을 넘겨주게 됩니다.</Text>
+			<Text>종속국 협정은 두 문명 중 한 문명이 다른 문명에게 충성을 맹세하여 종속국이 되도록 하는 협정입니다. 종속국은 보호를 대가로 세계 의회나 국제 연합의 지도자가 될 권리, 전쟁을 선포할 권리, 전쟁에서 중립을 유지할 권리를 비롯한 정치적 실권을 넘겨주게 됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_DESCRIPTION">
 			<Text>{TXT_KEY_CONCEPT_VASSALAGE_OVERVIEW_TOPIC}</Text>
@@ -319,7 +319,7 @@
 			<Text>[COLOR_GREEN]종속국의 이점[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_SUMMARY">
-			<Text>종속국은 종주국에게 많은 이익을 가져다줍니다. 종주국은 종속국의 영토를 자유롭게 드나들 수 있고 종속국의 [ICON_CAPITAL]수도에 무료 [ICON_DIPLOMAT]외교관이 1명 출현합니다. 종속국의 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙의 일정 비율이 종주국 문명에게 기여하며 새로운 시대에 진입할 때마다 약간의 징집 유닛을 제공합니다. 종주국의 [ICON_RELIGION] 종교와 [ICON_TOURISM] 관광이 종속국의 영토에 더욱 빨리 전파됩니다. 종속국은 종주국의 이념 채택을 강요받으며 이미 주최자가 될 예정이 아니라면 세계 대회 및 국제 연합을 주최할 수 없습니다.</Text>
+			<Text>종속국은 종주국에게 많은 이익을 가져다줍니다. 종주국은 종속국의 영토를 자유롭게 드나들 수 있고 종속국의 [ICON_CAPITAL]수도에 무료 [ICON_DIPLOMAT]외교관이 1명 출현합니다. 종속국의 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙의 일정 비율이 종주국 문명에게 기여하며 새로운 시대에 진입할 때마다 약간의 징집 유닛을 제공합니다. 종주국의 [ICON_RELIGION] 종교와 [ICON_TOURISM] 관광이 종속국의 영토에 더욱 빨리 전파됩니다. 종속국은 종주국의 이념 채택을 강요받으며 이미 주최자가 될 예정이 아니라면 세계 의회 및 국제 연합을 주최할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_DESCRIPTION">
 			<Text>{TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_TOPIC}</Text>

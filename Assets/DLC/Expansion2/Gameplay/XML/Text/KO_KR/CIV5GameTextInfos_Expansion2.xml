@@ -8,7 +8,7 @@
       <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  걸작에서 획득</Text>
     </Row>
     <Row Tag="TXT_KEY_CULTURE_FROM_LEAGUES">
-      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  세계 대회에서 획득</Text>
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  세계 의회에서 획득</Text>
     </Row>
     <Row Tag="TXT_KEY_CULTURE_FROM_TRADE_ROUTES">
       <Text>[COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR][ICON_CULTURE]  교역로에서 획득</Text>
@@ -91,10 +91,10 @@
       <Text>문화 개요 화면을 비활성화합니다. UI 외에는 게임에 영향을 미치지 않습니다. </Text>
     </Row>
     <Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES">
-      <Text>세계 대회 비활성화</Text>
+      <Text>세계 의회 비활성화</Text>
     </Row>
     <Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES_HELP">
-      <Text>세계 대회를 비활성화합니다. 어떤 안건도 제시되지 않고, 대회가 개최되지 않으며 외교 승리가 불가능해집니다.</Text>
+      <Text>세계 의회를 비활성화합니다. 어떤 안건도 제시되지 않고, 의회가 개최되지 않으며 외교 승리가 불가능해집니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_GOLD_FROM_TRADE_ROUTES">
       <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR] [ICON_GOLD]  교역로에서 획득</Text>
@@ -107,7 +107,7 @@
       <Text>[NEWLINE]도시의 공중 유닛 수가 정원에 도달했습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_NO_ACTION_NUKES_BY_RESOLUTION">
-      <Text>[NEWLINE]세계 대회의 핵 확산 금지 결의안으로 핵무기 건설이 금지되었습니다.</Text>
+      <Text>[NEWLINE]세계 의회의 핵 확산 금지 결의안으로 핵무기 건설이 금지되었습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_NO_ADMIRAL_FROM_FAITH">
       <Text>탐험 정책 계열을 채택했다면 위대한 제독만 선택할 수 있습니다.</Text>
@@ -158,19 +158,19 @@
       <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR] [ICON_RESEARCH]  교역로에서 획득</Text>
     </Row>
     <Row Tag="TXT_KEY_SPY_BE_DIPLOMAT">
-      <Text>이 스파이를 외교관으로 삼으시겠습니까? 전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 선전포고를 하면 스파이는 도시에서 탈출합니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 대회가 설립되면 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다. 채택한 이념이 다르다면 외교관은 자동으로 대상 문명의 [ICON_TOURISM]관광을 대폭 향상하는 선전을 사용할 수 있습니다.</Text>
+      <Text>이 스파이를 외교관으로 삼으시겠습니까? 전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 선전포고를 하면 스파이는 도시에서 탈출합니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 의회가 설립되면 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다. 채택한 이념이 다르다면 외교관은 자동으로 대상 문명의 [ICON_TOURISM]관광을 대폭 향상하는 선전을 사용할 수 있습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS">
       <Text>소개</Text>
     </Row>
     <Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS_TT">
-      <Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 연결 고리를 만들고 있습니다. 외교관이 소개를 끝마치면 잡담을 할 수 있습니다.[NEWLINE][NEWLINE]다른 문명의 수도에 스파이를 배치하면 외교관이 될 수 있습니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 대회가 설립되고 외교관이 잡담을 시작했을 때, 당신은 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다.</Text>
+      <Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 연결 고리를 만들고 있습니다. 외교관이 소개를 끝마치면 잡담을 할 수 있습니다.[NEWLINE][NEWLINE]다른 문명의 수도에 스파이를 배치하면 외교관이 될 수 있습니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 의회가 설립되고 외교관이 잡담을 시작했을 때, 당신은 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING">
       <Text>잡담</Text>
     </Row>
     <Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING_TT">
-      <Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 잡담을 하고 있습니다.[NEWLINE][NEWLINE]전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 만약 전쟁이 선포되면 스파이는 도시에서 탈출합니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 대회가 설립되고 외교관이 잡담을 시작했을 때, 당신은 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다.  외교관은 대상 문명의 [ICON_TOURISM]관광을 대폭 향상하는 선동을 사용할 수 있습니다.</Text>
+      <Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 외교관이 되어 {3_CityName}에서 잡담을 하고 있습니다.[NEWLINE][NEWLINE]전쟁 중이 아닌 다른 문명의 수도에 스파이를 배치하면 외교관이 됩니다. 만약 전쟁이 선포되면 스파이는 도시에서 탈출합니다. 외교관은 다른 문명의 기술을 훔치지 않지만 계속 음모를 제공합니다. 세계 의회가 설립되고 외교관이 잡담을 시작했을 때, 당신은 외교관의 의견을 제안에 사용할 수 있고 필요하다면 지원을 받을 수 있습니다.  외교관은 대상 문명의 [ICON_TOURISM]관광을 대폭 향상하는 선동을 사용할 수 있습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_VENETIAN_MERCHANT_BOUGHT_CITY_STATE">
       <Text>베니스의 상인이 도시 국가를 구입했습니다!</Text>

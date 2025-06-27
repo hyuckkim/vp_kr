@@ -59,7 +59,7 @@
       <Text>문명의 도시가 1개 많아질수록 사회 정책 비용이 {1_Num}% 증가합니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
-      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  최근 세계 대회 프로젝트에서 획득 (남은 턴 : {2_TurnsLeft})</Text>
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  최근 세계 의회 프로젝트에서 획득 (남은 턴 : {2_TurnsLeft})</Text>
     </Row>
     <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
       <Text>[ICON_HAPPINESS_4]불행이 20에 도달하여 반란이 일어났습니다!몇몇 도시가 당신의 제국을 배신하고 문화 영향력이 제일 강한 문명으로 돌아설 수 있습니다.</Text>
@@ -85,7 +85,7 @@
       <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  특성에서 획득</Text>
     </Row>
     <Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
-      <Text>[COLOR_POSITIVE_TEXT]+{1_Happiness}[ENDCOLOR]  세계 대회에서 획득</Text>
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Happiness}[ENDCOLOR]  세계 의회에서 획득</Text>
     </Row>
     <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
       <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  다른 문명의 도시와의 교역로에서 획득</Text>

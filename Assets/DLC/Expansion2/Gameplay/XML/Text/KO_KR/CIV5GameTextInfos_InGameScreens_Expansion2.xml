@@ -11,7 +11,7 @@
       <Text>교역로 최대 개수 증가</Text>
     </Row>
     <Row Tag="TXT_KEY_ALLOWS_WORLD_CONGRESS">
-      <Text>모든 문명을 만났다면 세계 대회를 창설할 수 있습니다.</Text>
+      <Text>모든 문명을 만났다면 세계 의회를 창설할 수 있습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_ANTIQUITY_SITES_TO_EXCAVATE">
       <Text>미발굴 사적지 {1_Num}곳</Text>
@@ -317,7 +317,7 @@
       <Text>[ICON_PLUS] 당신의 도시</Text>
     </Row>
     <Row Tag="TXT_KEY_CITY_DIPLOMAT_OTHER_CIV_TT">
-      <Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 외교관으로 활동하고 있습니다. {4_SpyRank} {5_SpyName}{5: plural 1?이; 2?가;} 해당 도시에 있는 동안 첩보망을 구축한 다음 해당 문명의 세계 대회 투표를 알려줍니다. {6_SpyRank} {7_SpyName}도 방문하는 동안 발견한 음모를 알려줄 것입니다.</Text>
+      <Text>{1_SpyRank} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서 외교관으로 활동하고 있습니다. {4_SpyRank} {5_SpyName}{5: plural 1?이; 2?가;} 해당 도시에 있는 동안 첩보망을 구축한 다음 해당 문명의 세계 의회 투표를 알려줍니다. {6_SpyRank} {7_SpyName}도 방문하는 동안 발견한 음모를 알려줄 것입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_CITYVIEW_TOURISM_TEXT">
       <Text>관광</Text>
@@ -485,7 +485,7 @@
       <Text>이념으로 영향을 주는 문명 :</Text>
     </Row>
     <Row Tag="TXT_KEY_CO_OPINION_TT_INFLUENCED_WORLD_IDEOLOGY">
-      <Text>세계대회에 선택을 받음으로써 세계 이념에 받은 영향 :</Text>
+      <Text>세계 의회에 선택을 받음으로써 세계 이념에 받은 영향 :</Text>
     </Row>
     <Row Tag="TXT_KEY_CO_OPINION_TT_NOT_INFLUENCED">
       <Text>다른 문명의 이념으로부터 영향을 받지 않음</Text>
@@ -716,7 +716,7 @@
       <Text>[ICON_TOURISM]관광이 두 배로 늘어납니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_DIPLOMACY_AND_LEAGUE_SESSION">
-      <Text>외교[NEWLINE][NEWLINE]다음 세계 대회까지 남은 턴 : {1_Num}[NEWLINE][NEWLINE]세계 문명이 발전할수록 세계 대회가 더 자주 열립니다.</Text>
+      <Text>외교[NEWLINE][NEWLINE]다음 세계 의회까지 남은 턴 : {1_Num}[NEWLINE][NEWLINE]세계 문명이 발전할수록 세계 의회가 더 자주 열립니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_EO_DIPLOMACY_AND_VICTORY_SESSION">
       <Text>외교[NEWLINE][NEWLINE]다음 국제 연합 소집까지 남은 턴 : {1_TurnsUntilSession}[NEWLINE][NEWLINE]다음 [COLOR_POSITIVE_TEXT]세계 지도자[ENDCOLOR] 결의안까지 남은 턴 : {2_TurnsUntilVictorySession}[NEWLINE][NEWLINE]이제 [COLOR_POSITIVE_TEXT]외교 승리[ENDCOLOR]가 가능합니다. 외교 승리를 위해서는 [COLOR_POSITIVE_TEXT]세계 지도자[ENDCOLOR] 결의안에서 충분한 수의 대표단 지지를 받아야 합니다.</Text>
@@ -752,7 +752,7 @@
       <Text>교역</Text>
     </Row>
     <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_25">
-      <Text>세계 대회</Text>
+      <Text>세계 의회</Text>
     </Row>
     <Row Tag="TXT_KEY_GOLDENAGE_GP_MOD">
       <Text>[ICON_BULLET]카니발 보너스 +{1_num}%</Text>
@@ -770,7 +770,7 @@
       <Text>[ICON_GREAT_WORK]걸작 음악 슬롯 : {1_NumSlots}</Text>
     </Row>
     <Row Tag="TXT_KEY_HAPPINESS_FROM_LEAGUES">
-      <Text>세계 대회</Text>
+      <Text>세계 의회</Text>
     </Row>
     <Row Tag="TXT_KEY_HIDDEN_SITES_TO_EXCAVATE">
       <Text>아직 발굴되지 않고 숨겨진 지역의 수 : {1_Num}</Text>
@@ -1208,10 +1208,10 @@
       <Text>시나리오 승점 4</Text>
     </Row>
     <Row Tag="TXT_KEY_WORLD_CONGRESS_NEGATIVE_GP_MOD">
-      <Text>[ICON_BULLET]세계 대회 페널티 : {1_num}%</Text>
+      <Text>[ICON_BULLET]세계 의회 페널티 : {1_num}%</Text>
     </Row>
     <Row Tag="TXT_KEY_WORLD_CONGRESS_POSITIVE_GP_MOD">
-      <Text>[ICON_BULLET]세계 대회 보너스 : {1_num}%</Text>
+      <Text>[ICON_BULLET]세계 의회 보너스 : {1_num}%</Text>
     </Row>
     <Row Tag="TXT_KEY_WRITING_OTHERS_SLOT">
       <Text>{1_CivShortDesc}{1: plural 1?이; 2?가;} 이 걸작 문학을 다른 걸작 문학과 교환하고 싶어합니다.</Text>

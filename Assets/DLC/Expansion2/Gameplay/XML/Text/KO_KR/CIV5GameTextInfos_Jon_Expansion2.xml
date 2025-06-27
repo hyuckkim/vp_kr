@@ -53,7 +53,7 @@
         </Row>
         <Row Tag="TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP">
             <!--국제 우주 정거장-->
-            <Text>과학자의 [ICON_PRODUCTION]생산과 기술자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_SCIENTIST]위대한 과학자를 소모해 연구 가속 시 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 더 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+            <Text>과학자의 [ICON_PRODUCTION]생산과 기술자의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_SCIENTIST]위대한 과학자를 소모해 연구 가속 시 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 더 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 의회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
             <!--무굴요새-->
@@ -102,16 +102,16 @@
             <Text>우리 유물을 파내지 마시오.</Text>
         </Row>
         <Row Tag="TXT_KEY_DIPLO_DISLIKED_OUR_PROPOSAL">
-            <Text>[COLOR_WARNING_TEXT]그들은 우리가 세계 대회에 건의한 안건을 싫어했습니다.[ENDCOLOR]</Text>
+            <Text>[COLOR_WARNING_TEXT]그들은 우리가 세계 의회에 건의한 안건을 싫어했습니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL">
-            <Text>[COLOR_WARNING_TEXT]그들이 세계 대회에 건의한 안건이 기각되도록 했습니다.[ENDCOLOR]</Text>
+            <Text>[COLOR_WARNING_TEXT]그들이 세계 의회에 건의한 안건이 기각되도록 했습니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_DIPLO_LANDMARKS_BUILT">
             <Text>[COLOR_POSITIVE_TEXT]상대의 지역에 랜드마크를 건설해 주었습니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL">
-            <Text>[COLOR_WARNING_TEXT]그들은 우리가 세계 대회에 건의한 안건을 좋아했습니다.[ENDCOLOR]</Text>
+            <Text>[COLOR_WARNING_TEXT]그들은 우리가 세계 의회에 건의한 안건을 좋아했습니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_BROKEN">
             <Text>[COLOR_NEGATIVE_TEXT]유물 발굴을 중단하겠다고 약속했으나 이를 어겼습니다![ENDCOLOR]</Text>
@@ -126,10 +126,10 @@
             <Text>[COLOR_POSITIVE_TEXT]둘 다 {1_PolicyTree} 이념을 채택했습니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING">
-            <Text>[COLOR_POSITIVE_TEXT]우리는 세계 대회가 그들의 영토로 이전하도록 도왔습니다.[ENDCOLOR]</Text>
+            <Text>[COLOR_POSITIVE_TEXT]우리는 세계 의회가 그들의 영토로 이전하도록 도왔습니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL">
-            <Text>[COLOR_WARNING_TEXT]우리는 그들이 세계 대회에 건의한 안건이 통과되도록 도왔습니다.[ENDCOLOR]</Text>
+            <Text>[COLOR_WARNING_TEXT]우리는 그들이 세계 의회에 건의한 안건이 통과되도록 도왔습니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL">
             <Text>[COLOR_NEGATIVE_TEXT]전쟁 도발 행위 때문에 세계에 새로운 암흑기가 찾아올 거라고 두려워하고 있습니다![ENDCOLOR]</Text>
@@ -992,7 +992,7 @@
             <Text>[COLOR_MAGENTA]미학[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_GREAT_ARTIST]위대한 예술가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 출현합니다. 걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]3개[ENDCOLOR]를 제공합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_WONDER_UNITED_NATIONS_HELP">
-            <Text>세계 대회가 국제 연합으로 바뀌며, 외교 승리 투표를 시작합니다. 국제 연합을 보유한 문명은 추가 대표단 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]을 확보합니다.</Text>
+            <Text>세계 의회가 국제 연합으로 바뀌며, 외교 승리 투표를 시작합니다. 국제 연합을 보유한 문명은 추가 대표단 [COLOR_POSITIVE_TEXT]3명[ENDCOLOR]을 확보합니다.</Text>
         </Row>
     </Language_KO_KR>
 </GameData>
