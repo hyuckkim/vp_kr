@@ -215,7 +215,7 @@
       <Text>[ICON_PEACE]신앙을 사용하여 모스크 건설([ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]+3[ENDCOLOR], [ICON_CULTURE]문화 [COLOR_POSITIVE_TEXT]+2[EDCOLOR], [ICON_HAPPINESS_1]행복 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR])</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
-      <Text>자연 불가사의가 생산하는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가</Text>
+      <Text>자연경관이 생산하는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_OPEN_SKY">
       <Text>목장으로부터 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
@@ -689,7 +689,7 @@
       <Text>{TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC}</Text>
     </Row>
     <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_SUMMARY">
-      <Text>[ICON_PEACE]신앙은 종교관을 세우고 위대한 선지자를 출현하게 하고 종교 유닛이나 건물을 구입할 때 쓰는 골드와 같은 기능을 합니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙 점수를 얻는 여러 가지 방법이 있습니다. 먼저, 도시에 건설하면 턴마다 일정한 량의 [ICON_PEACE]신앙을 생산하는 건물이나 불가사의가 있습니다. 시민을 투입하면 [ICON_PEACE]신앙을 생산하는 자연 불가사의도 있습니다. 종교 도시 국가와의 영향력이 높다면 일정한 간격으로 플레이어의 [ICON_PEACE]신앙을 올려주는 선물을 보냅니다. 마지막으로 위대한 선지자로 성지를 건설하면 [ICON_PEACE]신앙을 얻을 수 있습니다. </Text>
+      <Text>[ICON_PEACE]신앙은 종교관을 세우고 위대한 선지자를 출현하게 하고 종교 유닛이나 건물을 구입할 때 쓰는 골드와 같은 기능을 합니다.[NEWLINE][NEWLINE][ICON_PEACE]신앙 점수를 얻는 여러 가지 방법이 있습니다. 먼저, 도시에 건설하면 턴마다 일정한 량의 [ICON_PEACE]신앙을 생산하는 건물이나 불가사의가 있습니다. 시민을 투입하면 [ICON_PEACE]신앙을 생산하는 자연경관도 있습니다. 종교 도시 국가와의 영향력이 높다면 일정한 간격으로 플레이어의 [ICON_PEACE]신앙을 올려주는 선물을 보냅니다. 마지막으로 위대한 선지자로 성지를 건설하면 [ICON_PEACE]신앙을 얻을 수 있습니다. </Text>
     </Row>
     <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC">
       <Text>신앙 얻기</Text>
@@ -818,7 +818,7 @@
       <Text>위대한 제독 진행 상황</Text>
     </Row>
     <Row Tag="TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY">
-      <Text>다음은 문명의 행복을 늘려줍니다.[NEWLINE][NEWLINE]자연 불가사의: 자연 불가사의를 발견할 때마다 문명의 행복이 영구히 증가합니다.[NEWLINE][NEWLINE]사치 자원: 영토 안에 있는 자원을 개발하거나 타 문명과 교역으로 사치 자원을 얻으면 자원 종류 하나당 행복이 증가합니다. 같은 자원이 여러 개 있다고 행복이 그만큼 증가하지는 않습니다.[NEWLINE][NEWLINE]건물: 특정 건물은 행복을 생산합니다. 콜로세움, 서커스, 극장 등이 그 예입니다. 문명 어디에 건물을 건설하든 보너스가 중첩됩니다. 즉, 문명 전체에 콜로세움이 두 개 있으면 한 개 있을 때보다 행복이 두 배로 증가합니다.[NEWLINE][NEWLINE]불가사의: 노트르담이나 에펠탑과 같은 일부 불가사의를 건설하면 행복이 크게 증가합니다.[NEWLINE][NEWLINE]사회 정책: 행복 증가에 집중하는 사회 정책 계열은 없지만, 다양한 정책으로 행복을 증가시키거나 불행을 감소시킬 수 있습니다.[NEWLINE][NEWLINE]기술: 기술을 개발하는 것 자체로 행복이 증가하지는 않지만, 기술을 개발하면 행복을 증가시켜주는 건물이나 불가사의, 자원, 사회 정책을 사용할 수 있게 됩니다.[NEWLINE][NEWLINE]종교: 일부 교리와 [ICON_PEACE]신앙을 구입하는 종교 건물은 행복을 증가시켜줍니다.</Text>
+      <Text>다음은 문명의 행복을 늘려줍니다.[NEWLINE][NEWLINE]자연경관: 자연경관을 발견할 때마다 문명의 행복이 영구히 증가합니다.[NEWLINE][NEWLINE]사치 자원: 영토 안에 있는 자원을 개발하거나 타 문명과 교역으로 사치 자원을 얻으면 자원 종류 하나당 행복이 증가합니다. 같은 자원이 여러 개 있다고 행복이 그만큼 증가하지는 않습니다.[NEWLINE][NEWLINE]건물: 특정 건물은 행복을 생산합니다. 콜로세움, 서커스, 극장 등이 그 예입니다. 문명 어디에 건물을 건설하든 보너스가 중첩됩니다. 즉, 문명 전체에 콜로세움이 두 개 있으면 한 개 있을 때보다 행복이 두 배로 증가합니다.[NEWLINE][NEWLINE]불가사의: 노트르담이나 에펠탑과 같은 일부 불가사의를 건설하면 행복이 크게 증가합니다.[NEWLINE][NEWLINE]사회 정책: 행복 증가에 집중하는 사회 정책 계열은 없지만, 다양한 정책으로 행복을 증가시키거나 불행을 감소시킬 수 있습니다.[NEWLINE][NEWLINE]기술: 기술을 개발하는 것 자체로 행복이 증가하지는 않지만, 기술을 개발하면 행복을 증가시켜주는 건물이나 불가사의, 자원, 사회 정책을 사용할 수 있게 됩니다.[NEWLINE][NEWLINE]종교: 일부 교리와 [ICON_PEACE]신앙을 구입하는 종교 건물은 행복을 증가시켜줍니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_HOLY_CITY_TOOLTIP_LINE">
       <Text>{1_ReligionIcon} {2_ReligionName}의 성도</Text>

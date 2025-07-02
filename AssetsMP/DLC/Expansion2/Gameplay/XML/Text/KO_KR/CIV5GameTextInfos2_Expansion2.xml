@@ -21,7 +21,7 @@
       <Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]같은 시대[ENDCOLOR]에 [COLOR_POSITIVE_TEXT]같은 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]음악[ENDCOLOR]으로 채우십시오.</Text>
     </Row>
     <Row Tag="TXT_KEY_BUILDING_AIRPORT_HELP"> <!--공항-->
-      <Text>도시의 공중 유닛 정원이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 이 도시에서 [COLOR_POSITIVE_TEXT]공수 능력[ENDCOLOR]을 사용할 수 있습니다. 세계 불가사의, 자연 경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. [ICON_GREAT_WORK]걸작에서 얻는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
+      <Text>도시의 공중 유닛 정원이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 이 도시에서 [COLOR_POSITIVE_TEXT]공수 능력[ENDCOLOR]을 사용할 수 있습니다. 세계 불가사의, 자연경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. [ICON_GREAT_WORK]걸작에서 얻는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_BUILDING_ARTISTS_GUILD_HELP"> <!--예술가 길드-->
       <Text>[ICON_GREAT_ARTIST]위대한 예술가가 출현하는 데 필요한 [ICON_GREAT_PEOPLE]위대한 예술가 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 건물에 전문가를 최대 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR] 투입해 [ICON_CULTURE]문화를 높이거나 위대한 예술가의 출현을 앞당길 수 있습니다.[NEWLINE][NEWLINE]이 건물은 문명당 하나만 건설할 수 있습니다.</Text>
@@ -48,7 +48,7 @@
      <Text>[ICON_CONNECTED]육상 도시로 연결되지 않은 도시와 [ICON_CAPITAL]수도를 [ICON_CONNECTED]해안 도시로 연결합니다. 도시의 해상 교역로 범위가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하며 다른 문명과 연결된 해상 교역로가 있으면 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]해안 도시[ENDCOLOR]에만 건설할 수 있습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_BUILDING_HOTEL_HELP"> <!--호텔-->
-      <Text>세계 불가사의, 자연 경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. [ICON_GREAT_WORK]걸작에서 얻는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 건물 [ICON_GOLD]유지비가 들지 않습니다.</Text>
+      <Text>세계 불가사의, 자연경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. [ICON_GREAT_WORK]걸작에서 얻는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 건물 [ICON_GOLD]유지비가 들지 않습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_BUILDING_IKANDA_HELP"> <!--이칸다-->
       <Text>병영을 대체하는 줄루의 고유 건물입니다. 기존 병영 효과와 더불어 화약이 연구되기 [COLOR_POSITIVE_TEXT]이전[ENDCOLOR]에 등장하는 근접 공격 유닛에 [COLOR_PLAYER_PURPLE]버팔로[ENDCOLOR] ([ICON_MOVES]이동력 +1, 원거리 대항 [ICON_STRENGTH]방어력 +10%, 측면 공격 +25%) 승급을 부여합니다.</Text>
@@ -72,7 +72,7 @@
        <Text>도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시의 [ICON_CITIZEN]시민 수를 초과하는 [ICON_HAPPINESS_1]행복을 제공할 수 없습니다.[NEWLINE][NEWLINE]도시에 동물원이 있어야 건설할 수 있습니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_BUILDING_TOURIST_CENTER_HELP"> <!--외국인 관광-->
-      <Text>세계 불가사의, 자연 경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. [ICON_GREAT_WORK]걸작에서 얻는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]모든 도시에 호텔이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
+      <Text>세계 불가사의, 자연경관 및 타일 시설이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]가 도시의 [ICON_TOURISM]관광에 추가됩니다. [ICON_GREAT_WORK]걸작에서 얻는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]모든 도시에 호텔이 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_YELLOW]국가 불가사의[ENDCOLOR]입니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP"><!--대학-->
      <Text>도시의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 정글 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시에서 고고학자를 생산할 수 있습니다.[NEWLINE][NEWLINE]도시에 도서관이 있어야 건설할 수 있습니다.</Text>

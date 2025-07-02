@@ -2986,10 +2986,10 @@
 			<Text>[NEWLINE] [ICON_BULLET] 도시 주변에 {1_Desc} 지형이 있어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_FEATURE_NEARBY">
-			<Text>[NEWLINE] [ICON_BULLET] 도시 주변에 {1_Desc} 지형 특성이 있어야 합니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] 도시 주변에 {1_Desc} 지형 특징이 있어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_FEATURE">
-			<Text>[NEWLINE] [ICON_BULLET] {1_Desc} 지형 특성이 있어야 합니다.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] {1_Desc} 지형 특징이 있어야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_RESOURCE">
 			<Text>[NEWLINE] [ICON_BULLET] {1_Desc} 자원이 있어야 합니다.</Text>

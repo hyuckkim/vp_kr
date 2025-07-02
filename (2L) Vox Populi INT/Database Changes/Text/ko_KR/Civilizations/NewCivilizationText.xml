@@ -133,7 +133,7 @@
 			<Text>[ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 1 증가합니다. 황후 경축일 동안 더 많은 산출을 제공합니다. 도시 또는 두 쓰허위안에 인접해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SIHEYUAN_REC">
-			<Text>현재 타일의 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 황후 경축일 동안 더 많은 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화를 제공합니다.</Text>
+			<Text>현재 타일의 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 증가합니다. 건설 시 모든 타일의 특징을 제거합니다. 황후 경축일 동안 더 많은 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화를 제공합니다.</Text>
 		</Row>
 
 		<!-- Denmark -->
@@ -200,7 +200,7 @@
 			<Text>담수와 인접하지 않은 평지에만 건설할 수 있습니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 훈 영토 [COLOR_POSITIVE_TEXT]내부 또는 영토에 인접한 타일[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]중립 영토에 건설하면 즉시 훈 제국이 그 타일을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_EKI_REC">
-			<Text>현재 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량을 증가시킵니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
+			<Text>현재 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량을 증가시킵니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 건설 시 모든 타일의 특징을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
 		</Row>
 
 		<!-- Inca -->
@@ -208,7 +208,7 @@
 			<Text>인접한 계단식 농장 또는 산 마다 [ICON_FOOD] 식량이 +1 증가합니다. 모든 인접한 농장의 [ICON_FOOD] 식량이 +1 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERRACE_FARM_REC">
-			<Text>[ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 증가시킵니다. 타일의 특성을 제거합니다.[NEWLINE]산 또는 다른 계단식 농장과 인접 시 추가 [ICON_FOOD] 식량을 얻습니다. 인접한 농장에 [ICON_FOOD] 식량을 제공합니다.</Text>
+			<Text>[ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 증가시킵니다. 타일의 특징을 제거합니다.[NEWLINE]산 또는 다른 계단식 농장과 인접 시 추가 [ICON_FOOD] 식량을 얻습니다. 인접한 농장에 [ICON_FOOD] 식량을 제공합니다.</Text>
 		</Row>
 
 		<!-- India -->
@@ -298,7 +298,7 @@
 			<Text>[LINK=IMPROVEMENT_MONGOLIA_ORDO]오르도[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_HELP">
-			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 이 타일의 특성이 사라집니다.[NEWLINE][NEWLINE]오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50%를 얻고 [ICON_MOVES] 이동력을 모두 회복합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
+			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 이 타일의 특징이 사라집니다.[NEWLINE][NEWLINE]오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50%를 얻고 [ICON_MOVES] 이동력을 모두 회복합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
 		</Row>
 
 		<!-- Netherlands -->
@@ -360,7 +360,7 @@
 			<Text>이 타일에 주둔한 유닛의 [ICON_STRENGTH] 전투력이 +15% 증가합니다. 2타일 이내 쇼쇼니 유닛의[ICON_STRENGTH] 전투력이 +20% 증가합니다. 티피 근처 타일에서 턴을 마치는 적은 피해를 5 입습니다. [NEWLINE][NEWLINE]평지 타일에만 건설할 수 있고 다른 티피와 인접하게 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_REC">
-			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 증가시킵니다. 건설 시 모든 타일의 특성을 제거합니다. [NEWLINE]근처 쇼숀 유닛에게 전투력을 제공하고 주둔한 유닛에 방어력 보너스를 제공하며 인접한 적 유닛에 소량의 피해를 입힙니다.</Text>
+			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 증가시킵니다. 건설 시 모든 타일의 특징을 제거합니다. [NEWLINE]근처 쇼숀 유닛에게 전투력을 제공하고 주둔한 유닛에 방어력 보너스를 제공하며 인접한 적 유닛에 소량의 피해를 입힙니다.</Text>
 		</Row>
 
 		<!-- Spain -->

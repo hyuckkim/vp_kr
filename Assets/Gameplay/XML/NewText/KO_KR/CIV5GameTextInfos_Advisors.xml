@@ -358,13 +358,13 @@
 			<Text>공성 유닛 찾기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_BODY">
-			<Text>자연 불가사의는 세계 곳곳에 숨어 있습니다. 이것을 발견한다면 당신의 문명에 영구적인 행복을 가져다 줍니다. 만약, 당신이 도시를 그것에 인접하여 건설하게 된다면, 상당한 이익을 얻을 수 있습니다. 더 많이 탐색하도록 하십시오!</Text>
+			<Text>자연경관은 세계 곳곳에 숨어 있습니다. 이것을 발견한다면 당신의 문명에 영구적인 행복을 가져다 줍니다. 만약, 당신이 도시를 그것에 인접하여 건설하게 된다면, 상당한 이익을 얻을 수 있습니다. 더 많이 탐색하도록 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_DISPLAY">
-			<Text>자연 불가사의</Text>
+			<Text>자연경관</Text>
 		</Row>
         <Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_ACTIVATE_BUTTON">
-			<Text>자연 불가사의 찾기</Text>
+			<Text>자연경관 찾기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_TRESPASSING_BODY">
 			<Text>당신은 도시 국가 영토에 군사 유닛을 이동시킬 수 있지만, 그들은 그것을 매우 싫어할 것입니다. 도시 국가와 좋은 관계를 유지하고 싶다면, 군사 유닛을 그들의 국경 밖으로 이동시키십시오.</Text>
@@ -676,7 +676,7 @@
 			<Text>외교, 무역, 동맹, 그리고 협정은 우리 이웃들과 거래하는 보다 정치적인 방식이며, 효과적인 외교 기술은 때로는 길고도 큰 대가를 치러야 하는 전쟁을 피하게 해줍니다. 역사에서 보면, 가장 효과적인 지도자들은 바로 외교술의 신이었습니다. 외교술은 때로는 칼보다 강하고 또 치명적이었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_1_INTRO_MOVEMENT_AND_EXPLORATION_BODY">
-            <Text>저는 당신의 과학 보좌관입니다. 이번 강의에서 저는 당신에게 어떻게 하면 지도 상의 유닛을 움직이는지 알려 드립니다. 이번 과정에서 당신은 고대 유적, 자연 불가사의, 그리고 새로운 대륙을 발견하게 될 겁니다!</Text>
+            <Text>저는 당신의 과학 보좌관입니다. 이번 강의에서 저는 당신에게 어떻게 하면 지도 상의 유닛을 움직이는지 알려 드립니다. 이번 과정에서 당신은 고대 유적, 자연경관, 그리고 새로운 대륙을 발견하게 될 겁니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_1_INTRO_MOVEMENT_AND_EXPLORATION_DISPLAY">
 			<Text>이동과 탐색</Text>
@@ -727,13 +727,13 @@
 			<Text>도시를 {1_Num}개 건설합니다. 건설 완료!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS">
-			<Text>자연 불가사의를 {1_Num}개 찾습니다.</Text>
+			<Text>자연경관을 {1_Num}개 찾습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS_PROGRESS">
-			<Text>자연 불가사의를 {1_Num}개 찾습니다. ({2_Num}개 찾았고, {3_Num}개 남음)</Text>
+			<Text>자연경관을 {1_Num}개 찾습니다. ({2_Num}개 찾았고, {3_Num}개 남음)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS_COMPLETE">
-			<Text>자연 불가사의를 {1_Num}개 찾습니다. 발견 완료!</Text>
+			<Text>자연경관을 {1_Num}개 찾습니다. 발견 완료!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TUTORIAL_2_COMPLETE">
 			<Text>당신은 도시 건설 튜토리얼을 완료하셨습니다! 잘 하셨습니다!</Text>
@@ -898,7 +898,7 @@
 			<Text>우리는 졌습니다! 우리는 평화 협정을 체결하는 것을 고려해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_RECON">
-			<Text>우리는 고대 유적, 자연 불가사의, 그리고 다른 문명을 발견할 때까지 탐색을 계속 해야합니다!</Text>
+			<Text>우리는 고대 유적, 자연경관, 그리고 다른 문명을 발견할 때까지 탐색을 계속 해야합니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ENOUGH_RECON">
 			<Text>우리는 충분한 탐험가를 보유하고 있습니다. 이제는 새로운 탐험가를 생산하지 마십시오.</Text>
@@ -1219,7 +1219,7 @@
             <Text>이대로 뭔가를 하지 않는다면, 우리와 {1_MinorCivName:textkey}의 동맹이 깨질겁니다. 만약, 당신이 동맹을 유지하길 원한다면, {2_LongCivName:textkey}{2: plural 1?와; 2?과;} 접촉할 수 있도록 탐색을 계속해야 할 것입니다. 이는 약간의 영향력을 제공합니다.</Text>
 		</Row>
         <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_FIND_NATURAL_WONDER">
-			<Text>이대로 뭔가를 하지 않는다면, 우리와 {1_MinorCivName:textkey}의 동맹이 깨질겁니다. 자연 불가사의를 발견함으로써, 약간의 영향력을 증가시킬 수 있습니다. 탐색을 시작합시다!</Text>
+			<Text>이대로 뭔가를 하지 않는다면, 우리와 {1_MinorCivName:textkey}의 동맹이 깨질겁니다. 자연경관을 발견함으로써, 약간의 영향력을 증가시킬 수 있습니다. 탐색을 시작합시다!</Text>
 		</Row>
         <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_CLEAR_BARBARIANS">
             <Text>이대로 뭔가를 하지 않는다면, 우리와 {1_MinorCivName:textkey}의 동맹이 깨질겁니다. 만약, 당신이 동맹을 유지하길 원한다면, 그들의 영토에 인접한 야만인을 죽이려고 노력해야 합니다.</Text>
@@ -1252,7 +1252,7 @@
 			<Text>이대로 뭔가를 하지 않는다면, 우리와 {1_MinorCivName:textkey}의 친분이 사라질 것입니다. 만약, 당신이 친선 관계를 유지하길 원한다면, {2_LongCivName:textkey}{2: plural 1?와; 2?과;} 접촉할 수 있도록 탐색을 계속해야 할 것입니다. 이는 약간의 영향력을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_FIND_NATURAL_WONDER">
-			<Text>이대로 뭔가를 하지 않는다면, 우리와 {1_MinorCivName:textkey}의 친분이 사라질 것입니다. 자연 불가사의를 발견함으로써, 약간의 영향력을 증가시킬 수 있습니다. 탐색을 시작합시다!</Text>
+			<Text>이대로 뭔가를 하지 않는다면, 우리와 {1_MinorCivName:textkey}의 친분이 사라질 것입니다. 자연경관을 발견함으로써, 약간의 영향력을 증가시킬 수 있습니다. 탐색을 시작합시다!</Text>
 		</Row>
         <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_CLEAR_BARBARIANS">
             <Text>이대로 뭔가를 하지 않는다면, 우리와 {1_MinorCivName:textkey}의 친분이 사라질 것입니다. 만약, 당신이 친선 관계를 유지하길 원한다면, 그들의 영토에 인접한 야만인을 죽이려고 노력해야 합니다.</Text>
@@ -1285,7 +1285,7 @@
 			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} {2_CivName:textkey}{2: plural 1?와; 2?과;} 접촉하길 원합니다. 만약, 우리가 탐색으로 그들을 찾으면, 약간의 영향력을 얻을 수 있습니다.</Text>
 		</Row>
         <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_FIND_NATURAL_WONDER">
-			<Text>자연 불가사의를 발견하면, 우리는 {1_MinorCivName:textkey}에 대한 영향력을 얻을 수 있습니다.</Text>
+			<Text>자연경관을 발견하면, 우리는 {1_MinorCivName:textkey}에 대한 영향력을 얻을 수 있습니다.</Text>
 		</Row>
         <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_CLEAR_BARBARIANS">
             <Text>{1_MinorCivName:textkey}에 인접한 야만인을 죽이면, 그들은 우리에게 약간의 영향력을 제공할 것입니다.</Text>
