@@ -56,8 +56,8 @@ function OnCSGiftGiveYields(iMinor, iMajor, iUnitType)
 					local iX, iY = city:GetX(), city:GetY()
 					local vCityPosition = PositionCalculator(iX, iY)
 
-					Events.AddPopupTextEvent(vCityPosition, "[COLOR_YIELD_PRODUCTION]+ "..iGain1.." [ICON_PRODUCTION][ENDCOLOR]", 1)
-					Events.AddPopupTextEvent(vCityPosition, "[COLOR_MAGENTA]+ "..iGain2.." [ICON_CULTURE][ENDCOLOR]", 1.5)
+					Events.AddPopupTextEvent(vCityPosition, "[COLOR_YIELD_PRODUCTION][ICON_PRODUCTION] +"..iGain1.."[ENDCOLOR]", 1)
+					Events.AddPopupTextEvent(vCityPosition, "[COLOR_MAGENTA][ICON_CULTURE] +"..iGain2.."[ENDCOLOR]", 1.5)
 				end
 
 				if iCurrentBaan == iNumberOfBaans then
@@ -71,8 +71,8 @@ function OnCSGiftGiveYields(iMinor, iMajor, iUnitType)
 			local iX, iY = pCapital:GetX(), pCapital:GetY()
 
 			pPlayer:AddNotification(0, 
-				'City-State gift. Every City with Baan Chang gained:[NEWLINE][ICON_BULLET]+'..iGain1..' [ICON_PRODUCTION] Production[NEWLINE][ICON_BULLET]+'..iGain2..' [ICON_CULTURE] Culture', 
-				'Bonus Yields from City-State gift across the Empire', 
+				'도시 국가 선물. 반창이 있는 모든 도시가 얻는 이득:[NEWLINE][ICON_BULLET]'' [ICON_PRODUCTION] 생산력[NEWLINE][ICON_BULLET] +'..iGain1..' [ICON_CULTURE] 문화 +'..iGain2.., 
+				'문명 전역의 도시 국가 선물에서 추가 산출량 획득', 
 				iX, iY)
 		end
 	end
