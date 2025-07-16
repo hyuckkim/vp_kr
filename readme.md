@@ -138,13 +138,13 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
 - **vp_kr installer file**
   
   설치 프로그램인 .exe 파일을 만들기 위한 Inno Script Studio용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
-- 기존의 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)로 옮겨졌으며 사실상 아카이빙용이라 정상 작동을 보장하지 않습니다. 
+- 기존의 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/handanikr/vp_modmods_kr)로 옮겨졌으며 사실상 아카이빙용이라 정상 작동을 보장하지 않습니다. 
 
 
 
 ## 함께 쓰면 좋은 모드
 
-[다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)를 참조해주세요.
+[다른 깃허브 저장소](https://github.com/handanikr/vp_modmods_kr)를 참조해주세요.
 
 ## vp_kr 저장소의 역사
 
