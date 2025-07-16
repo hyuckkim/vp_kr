@@ -138,19 +138,13 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
 - **vp_kr installer file**
   
   설치 프로그램인 .exe 파일을 만들기 위한 Inno Script Studio용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
-- 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)로 옮겨졌으며 사실상 아카이빙용이라 매우 구버전으로 더 이상 정상 작동을 보장하지 않습니다. 
+- 기존의 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)로 옮겨졌으며 사실상 아카이빙용이라 정상 작동을 보장하지 않습니다. 
 
 
 
 ## 함께 쓰면 좋은 모드
 
-- [Bare Necessities](https://forums.civfanatics.com/threads/bare-necessities.645157/)
-  
-  Barebone Additions이라고도 불리며 VP에 없는 필수품(신앙 건물)을 많이 추가해줍니다.
-
-- [Better Lakes for VP](https://forums.civfanatics.com/threads/better-lakes-for-vp.662230/)
-  
-  VP나 문명 5에서 제대로 활용하지 않는 호수를 소금 호수와 일반 호수로 나누어서 새로운 자원과 건물을 추가해 개선하는 모드입니다. 
+[다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)를 참조해주세요.
 
 ## vp_kr 저장소의 역사
 
