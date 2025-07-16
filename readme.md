@@ -30,7 +30,17 @@ Overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 기본 경로에 문명 5가 설치되어 있지 않다면, 마지막으로 문명 5가 설치된 곳을 선택해달라는 말이 한 번 나오니 어디에 설치하셨는지 그 경로를 찾아주시면 됩니다.
 
+## 34UC(3rd and 4th Unique Components for VP, More Unique Components for VP) 받기
 
+**조만간 VP 5.0 버전에 추가될 3, 4번째 고유 유닛과 건물을 추가해주는 모드입니다. (모드팩은 필요 없음)**
+
+[34UC 최신 파일 받기](https://forums.civfanatics.com/attachments/my-4uc-folder-zip.713557/)
+
+이 곳에서 최신 버전 VP용으로 수정된 34UC v88.10 버전의 수정본을 받으실 수 있습니다. 받으신 파일의 압축을 풀고 나오는 (over) More Unique Components for VP (v 88) 폴더 통째로 C:\Users\당신의계정명\문서(Documents)\My Games\Sid Meier's Civilization 5\MODS 폴더에 넣어주시면 됩니다.
+
+[야사 버그 패치 받기](https://forums.civfanatics.com/attachments/yassacourt-7z.736137/)
+
+그리고 야사 버그 패치는 (over) More Unique Components for VP (v 88)\Mongolia\YassaCourt.lua를 덮어쓰기 해주시면 됩니다.
 
 ## 설치법
 
