@@ -8,7 +8,7 @@
 
 ![image](https://github.com/user-attachments/assets/da5db707-67b1-410c-9d00-02d408b056be)
 
-[Vox Populi](https://forums.civfanatics.com/forums/community-patch-project.497/)는 문명 5의 유명 Overhaul 모드로 2014년도에 Community Patch Project라는 이름으로 시작해 2016년 5월 14일부터 Vox Populi(라틴어로 인민의 목소리), 줄여섯 VP라고 불리게 되었습니다.
+[Vox Populi](https://forums.civfanatics.com/forums/community-patch-project.497/) 는 문명 5의 유명 Overhaul 모드로 2014년도에 Community Patch Project라는 이름으로 시작해 2016년 5월 14일부터 Vox Populi(라틴어로 인민의 목소리), 줄여섯 VP라고 불리게 되었습니다.
 
 10년이 넘는 세월동안 여전히 개발을 멈추지 않고 발전하고 있는 모드로 사실상 사후관리가 끝난 문명 5를 대신하는 비공식 확장팩에 준하는 수준의 인기를 받아왔습니다.
 
@@ -30,25 +30,13 @@ Overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 기본 경로에 문명 5가 설치되어 있지 않다면, 마지막으로 문명 5가 설치된 곳을 선택해달라는 말이 한 번 나오니 어디에 설치하셨는지 그 경로를 찾아주시면 됩니다.
 
-## 34UC(3rd and 4th Unique Components for VP, More Unique Components for VP) 받기
-
-**조만간 VP 5.0 버전에 추가될 3, 4번째 고유 유닛과 건물을 추가해주는 모드입니다. (모드팩은 필요 없음)**
-
-[34UC 최신 파일 받기](https://forums.civfanatics.com/attachments/my-4uc-folder-zip.713557/)
-
-이 곳에서 최신 버전 VP용으로 수정된 34UC v88.10 버전의 수정본을 받으실 수 있습니다. 받으신 파일의 압축을 풀고 나오는 (over) More Unique Components for VP (v 88) 폴더 통째로 C:\Users\당신의계정명\문서(Documents)\My Games\Sid Meier's Civilization 5\MODS 폴더에 넣어주시면 됩니다.
-
-[야사 버그 패치 받기](https://forums.civfanatics.com/attachments/yassacourt-7z.736137/)
-
-그리고 야사 버그 패치는 (over) More Unique Components for VP (v 88)\Mongolia\YassaCourt.lua를 덮어쓰기 해주시면 됩니다.
-
 ## 설치법
 
 ### 공식 배포 [[바로가기]](https://github.com/handanikr/vp_kr/releases)
 
 ### 나이틀리 버전 자동 배포 [[모드]](https://nightly.link/handanikr/vp_kr/workflows/inno-build/beta/Vox%20Populi%20INT.zip) [[모드팩]](https://nightly.link/handanikr/vp_kr/workflows/inno-mpbuild/beta/VP%20INT%20Modpack.zip)
 
-VP와 마찬가지로 [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio)로 만들어진 설치 프로그램으로 모드를 자동으로 설치할 수 있습니다. 다만, 설치 프로그램을 꺼리시는 분이나 수동으로 모드를 사용하기를 원하시는 분은 직접 압축파일로 받으실 수 있습니다.
+VP와 마찬가지로 [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio) 로 만들어진 설치 프로그램으로 모드를 자동으로 설치할 수 있습니다. 다만, 설치 프로그램을 꺼리시는 분이나 수동으로 모드를 사용하기를 원하시는 분은 직접 압축파일로 받으실 수 있습니다.
 
 
 
@@ -122,9 +110,10 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
     VP 모드를 실시간 전략 게임처럼 드래그해 CTRL + 숫자키 조합으로 분대 번호를 지정해 추가하고 오른쪽 클릭으로 분대를 이동시키거나 분대 관리로 분대 전체를 관리할 수 있도록 만들어주는 모드입니다. 
     
     이 폴더는 VP용 분대 모드를 한국어로 번역한 모드입니다.
-  - **(overL) More Unique Components for VP (v 88) INT**
+	**(overL) More Unique Components for VP (v 89)**
+  - **(overL) More Unique Components for VP (v 89) INT**
     
-    고유 구성요소(Unique Components)는 단일 문명에만 존재하는 건물, 유닛, 타일 시설을 말합니다. 4UC, 혹은 34UC(3rd and 4th Unique Components)라고도 불리는 이 모드는 기본 43개 문명의 고유 구성요소 숫자를 2개에서 4개로 늘려줍니다. 새로운 구성요소를 VP와 원활하게 통합하고 게임의 밸런스를 조정하기 위해 문명의 일부 기본 구성요소도 수정되었습니다. 또한, AI가 새로운 도구에 적응할 수 있도록 여러 AI 유형이 조정되었습니다.
+    고유 구성요소(Unique Components)는 단일 문명에만 존재하는 건물, 유닛, 타일 시설을 말합니다. 4UC, 혹은 34UC(3rd and 4th Unique Components)라고도 불리는 이 모드는 기본 43개 문명의 고유 구성요소 숫자를 2개에서 4개로 늘려줍니다. 새로운 구성요소를 VP와 원활하게 통합하고 게임의 밸런스를 조정하기 위해 문명의 일부 기본 구성요소도 수정되었습니다. 또한, AI가 새로운 도구에 적응할 수 있도록 여러 AI 유형이 조정되었습니다. 조만간 VP 5.0 버전에 추가될 예정입니다.
     
     이 폴더는 본래 CAYM님이 계몽 모드를 위해 번역했던 모드였으나, 이를 온전히 VP에만 맞춰서 수정한 한국어 번역 모드입니다.
 - **Firaxis ModBuddy**
@@ -138,7 +127,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
 - **vp_kr installer file**
   
   설치 프로그램인 .exe 파일을 만들기 위한 Inno Script Studio용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
-- 기존의 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/handanikr/vp_modmods_kr)로 옮겨졌으며 사실상 아카이빙용이라 정상 작동을 보장하지 않습니다. 
+- 기존의 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/handanikr/vp_modmods_kr) 로 옮겨졌으며 사실상 아카이빙용이라 정상 작동을 보장하지 않습니다. 
 
 
 
@@ -148,7 +137,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
 
 ## vp_kr 저장소의 역사
 
-가장 오래된 기록에 따르면, 이 프로젝트는 2020년 10월 12일 생성된 [jiin1017님의 VP_Kr](https://github.com/jiin1017/VP_Kr)이 시초로 [rhprhp-204님에 의해 vp_kr](https://github.com/rhprhp-204/vp_kr)로 개명되고, 이를 [hyuckkim님이 포크](https://github.com/hyuckkim/vp_kr)해 예니체리없는오스만, 첼콩가루, racraky 세 분과 함께해 오늘날의 vp_kr이 되었습니다.
+가장 오래된 기록에 따르면, 이 프로젝트는 2020년 10월 12일 생성된 [jiin1017님의 VP_Kr](https://github.com/jiin1017/VP_Kr) 이 시초로 [rhprhp-204님에 의해 vp_kr](https://github.com/rhprhp-204/vp_kr) 로 개명되고, 이를 [hyuckkim님이 포크](https://github.com/hyuckkim/vp_kr) 해 예니체리없는오스만, 첼콩가루, racraky 세 분과 함께해 오늘날의 vp_kr이 되었습니다.
 
 현재 문명 5가 고전이 되어 잊혀지고, 프로젝트를 함께하던 사람도 늘고 줄기를 반복했고, 그렇게 마지막으로 남은 hyuckkim님에 의해 관리되다 군입대를 하시면서 2024년 7월 2일, 번역 일시 중단을 공식 발표했습니다.
 
