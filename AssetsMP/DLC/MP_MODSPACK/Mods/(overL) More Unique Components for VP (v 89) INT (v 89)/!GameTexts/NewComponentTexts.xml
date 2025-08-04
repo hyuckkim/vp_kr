@@ -1,0 +1,2534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by adan_eslavo on 7/01/2018 -->
+<GameData>
+	<Language_ko_KR>
+		<!-- Amazonas -->
+		<!-- Created by adan_eslavo on 8/11/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_BRAZIL_BRONZE_RAM">
+			<Text>리아추엘로</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BRAZIL_BRONZE_RAM_HELP">
+			<Text>[COLOR_PLAYER_PURPLE]전염병 면역[ENDCOLOR] 승급을 지니며 [COLOR_PLAYER_PURPLE]공격 후 이동[ENDCOLOR]이 가능[NEWLINE]이번 턴에 [COLOR_POSITIVE_TEXT]적 유닛을 처치 시[ENDCOLOR] 추가 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_AMAZONAS">
+			<Text>아마조네스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_AMAZONAS_HELP">
+			<Text>철갑함을 대체하는 브라질의 고유 유닛입니다. [NEWLINE]아마조네스는 선박 침투조와 같은 효과를 지닌 [COLOR_PLAYER_PURPLE]전염병 면역[ENDCOLOR] 승급을 지니며 공격 후 이동할 수 있습니다. [COLOR_POSITIVE_TEXT]적 유닛을 처치한다면 공격 기회를 회복[ENDCOLOR]시킵니다. [COLOR_PLAYER_PURPLE]위반[ENDCOLOR] 승급을 무료로 받습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_AMAZONAS_STRATEGY">
+			<Text>아마조네스는 강력하고 공격적인 함선으로 치명적인 피해를 입힐 수 있다면 한 턴에 여러 대상을 이동하고 공격할 수 있습니다. 원거리 공격과 측면 공격의 지원을 사용하여 아마조나스로 살상 가능성을 극대화하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_AMAZONAS_TEXT">
+			<Text>아마조네스는 남미 역사상 가장 큰 전쟁이었던 파라과이 전쟁 동안 브라질 해군의 기함 역할을 했던 대형 증기 호위함이었다. 이 거대한 군함은 파라과이 연합 포병과 해군 여단이 이른 아침 짙은 안개를 틈타 브라질인들을 기습하려고 시도했던 리아추엘로 전투에서 중추적인 역할을 했다. 이런 기습 공격에 브라질은 크게 불리한 입장에 놓였지만, 집결해서 파라과이에 크게 반격했다. 아마조네스가 두 척의 배를 격침시키고 3분의 1을 무력화시키는 결정적인 요인으로 판명되었다. 리아추엘로 전투에서는 파라과이 해군이 심각한 피해를 입었고, 전쟁의 남은 기간 동안 그들의 기세를 멈추게 했다. 브라질과 그 동맹국들은 주도권을 잡고 남은 전쟁 기간 동안 해군 패권을 쥐었다.</Text>
+		</Row>
+		<!-- Andelsbevægelse -->
+		<!-- Created by De_Genius, modified and incorporated by adan_eslavo 10/12/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_DENMARK_ANDELSBEVAEGELSE">
+			<Text>안델스베베겔세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DENMARK_ANDELSBEVAEGELSE_HELP">
+			<Text>기업형 농장을 대체하는 덴마크의 고유 건물입니다. [NEWLINE]해당 건물이 있는 도시에서 건물을 생산할 때 [ICON_PRODUCTION]생산보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 매턴 도시에서 생산된 [ICON_FOOD]식량의 10%만큼의 [ICON_GOLD]골드로 전환합니다. [ICON_FOOD]식량 생산량이 [ICON_PRODUCTION]생산으로 변환되는데 [COLOR_POSITIVE_TEXT] 15%[ENDCOLOR] 더 효율적이고 [ICON_HAPPINESS_3]불행을 줄여줍니다.[NEWLINE][NEWLINE]초원과 평원 타일에 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. [NEWLINE]농장 및 목장의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE][ICON_RES_HORSE]말을 요구하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DENMARK_ANDELSBEVAEGELSE_STRATEGY">
+			<Text>안델스베베겔세는 건물 생산 속도를 높일 수 있는 덴마크 고유의 건물입니다. 성장에 대한 건물의 막대한 보너스는 특히 평야와 목초지로 둘러싸여 있을 때 제국이 번성하는 데 도움이 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DENMARK_ANDELSBEVAEGELSE_TEXT">
+			<Text>
+				안델스베베겔세(협동조합)는 덴마크 협동 운동으로, 각 구성원이 집단에서 발생하는 위험과 이익에 대한 몫을 소유했습니다. 협동은 흔히 언급되는 것처럼, 몇몇 구성원들이 흉작을 줄이는 방법으로, 농업 산업에서 계속해서 인기가 있습니다.
+				[NEWLINE][NEWLINE]덴마크가 상당한 영토를 잃은 처참한 제2차 슐레스비히 전쟁 이후, 덴마크는 농사를 짓기 위해 주틀란드 중부와 서부의 황무지를 매립하기 시작했습니다. 그 직후, 급속히 산업화되고 있는 미국은 덴마크의 가장 큰 고객인 영국에 곡물 수출을 퍼붓기 시작했고, 덴마크 농산물의 가격을 폭락시켰습니다. 많은 덴마크 농부들의 생계가 위험에 처하자, 그들은 곡물 생산에서 유제품과 육류로 전환하는 새로운 전략을 세웠습니다.
+				[NEWLINE][NEWLINE]덴마크 농업의 이러한 변화는 불확실성으로 가득 차서 농부들이 위험을 분담하도록 요구했습니다. 마침내 곡물 가격이 안정되었을 때, 덴마크 농업은 완전히 바뀌었습니다. 유목민들과 도살장들이 곳곳에 흩어져 있습니다. 이제 그들은 가축에게 먹이를 주기 위해 러시아에서 곡식을 수입하고 있습니다. 
+			</Text>
+		</Row>
+		<!-- Armada -->
+		<!-- Created by adan_eslavo on 8/11/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SPAIN_SANTA_MARIA">
+			<Text>산타 마리아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SPAIN_SANTA_MARIA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]적 유닛 처치 시[ENDCOLOR] [ICON_GREAT_ADMIRAL]위대한 제독 점수 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SPAIN_INVINCIBLE">
+			<Text>무적함대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SPAIN_INVINCIBLE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]체력이 가득 차있는 상태[ENDCOLOR]에서 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+4[ENDCOLOR],[ICON_ARROW_RIGHT]이동력 [COLOR_NEGATIVE_TEXT]-1[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPAIN_ARMADA">
+			<Text>아르마다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPAIN_ARMADA_HELP">
+			<Text>코르벳을 대체하는 스페인의 고유 유닛입니다.[NEWLINE]코르벳보다 일찍 사용이 가능합니다. 대신에 생산요구량이 더 높습니다. 체력이 가득 차있을때 공격력이 오릅니다. [COLOR_POSITIVE_TEXT]선박 침투조 I[ENDCOLOR] 승급을 받고 시작합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPAIN_ARMADA_STRATEGY">
+			<Text>아르마다는 그 시대의 강력한 배입니다. 적을 추격할 가능성은 없지만 뛰어난 기동력으로 교전을 펼칠 수 있습니다. 체력이 가득 차 있을 때 훨씬 더 강합니다. 적이 원거리 공격을 하기 전에 적과 접촉해야 합니다. 그렇지 않으면 초기 근접 전투에서 많은 힘을 잃게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPAIN_ARMADA_TEXT">
+			<Text>
+				스페인 무적함대는 영국 침공과 폭압적인 개혁주의자 엘리자베스 1세를 전복시키기 위해 건조된 130척의 함대였습니다. 아르마다 함대는 유럽에서 본 가장 큰 함대 중 하나였으며, 영국의 가톨릭 교회로부터의 단절, 그들의 마리아 처형, 스코틀랜드의 여왕, 그들의 네덜란드 반란에 대한 지지, 그리고 엘리자베스 1세의 불법성에 대한 보복으로 펠리페 2세가 큰 돈을 들여 모금했습니다.[NEWLINE][NEWLINE]
+				스페인 함선은 영국 해군에 의해 수적으로 우세했지만, 그들은 작은 영국 함선들보다 쉽게 앞섰습니다. 그러나 결국 화력이 아닌 스피드가 승리해 작은 영국 선박들이 10척의 배를 침몰시키며 스페인 저그나우트를 해칠 수 있게 되었습니다. 마침내 스페인으로 강제 퇴역했을 때, 항해상의 실수로 아르마다호가 항로를 벗어나 아일랜드 해안으로 날아갔는데, 그곳에서 거센 폭풍이 배들을 바위에 부딪치게 했습니다. 아르마다호가 스페인에 가까스로 도착했을 때, 원래의 130척의 배들 중 67척만이 병들고, 굶주리고, 사기가 저하된 선원들로 가득 차 남아 있었습니다.[NEWLINE][NEWLINE]
+				스페인 함대의 교훈은 다음 2세기 동안 해군 전략을 알려 주었습니다. 대포와 원거리 전투가 탑승과 격추의 주요 공격 방법으로서 이제 점령보다는 격침이 우선이었습니다. 이 놀라운 승리로, 영국은 제2차 세계대전에서 미국이 부상할 때까지 선두를 유지할 스페인으로부터 해군 지배권을 빼앗았습니다.[NEWLINE][NEWLINE]
+				"나는 신의 바람과 파도가 아닌 인간들을 상대로 아르마다를 보냈다."[NEWLINE]
+				-펠리페 2세
+			</Text>
+		</Row>
+		<!-- Baan Chang -->
+		<!-- Created by adan_eslavo 6/12/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_SIAM_BAAN_CHANG">
+			<Text>코끼리 야영지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SIAM_BAAN_CHANG_HELP">
+			<Text>작업장을 대체하는 시암의 고유 건물입니다. [NEWLINE]해당 도시에서 작업중인 모든 숲 타일에 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_PRODUCTION]생산 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]. 도시 야영지의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]. 제제소의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]이 증가합니다. [ICON_CITIZEN]시민 4명마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 증가합니다.[NEWLINE][NEWLINE]동맹인 도시국가로부터 받는 전략자원 2개당 [ICON_GOLD]골드와 [ICON_PRODUCTION]생산이 각각 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시국가에 유닛을 선물하면 [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]을 받습니다.[NEWLINE][NEWLINE]이 도시에서 출발하는 국내 [ICON_INTERNATIONAL_TRADE]교역로의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 국내 [ICON_INTERNATIONAL_TRADE]교역로를 통해 당신 문명의 다른 도시로  [ICON_PRODUCTION]생산 보너스를 제공할 수 있습니다.[NEWLINE][NEWLINE]도시에 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]대장간[ENDCOLOR]이 있어야 합니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SIAM_BAAN_CHANG_STRATEGY">
+			<Text>코끼리 야영지는 작업장을 대신하는 시암의 고유 건물입니다. 작업장의 일반적인 보너스 외에도 코끼리 작업장은 제재소에서 문화를 증가시키고 야영지에서 신앙을 제공합니다. [NEWLINE][NEWLINE]전략 자원과 유닛 모두 도시 국가 선물은 코끼리 야영지가 있는 도시에서 추가 혜택을 제공하므로 이 건물을 최대한 활용하려면 강력한 동맹을 맺어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SIAM_BAAN_CHANG_TEXT">
+			<Text>
+				종종 의식적이고 군사적인 도구로서 먼저 생각되는, 아마도 인간 사회에 코끼리가 가장 큰 공헌은 짐승을 위한 짐승으로 여겨져 왔습니다. 코끼리는 버마와 태국에서만 발견되는 촘촘한 티크 목재를 운반할 수 있는 능력으로 현대에도 노동력으로 귀하게 여겨지고 있습니다. 다 자란 코끼리의 힘은 그 우아함만으로 맞춰져 무거운 짐을 나르는 동안 어렵고 고르지 못한 지형을 항해합니다. 코끼리들은 숲길을 섬세하게 통제함으로써 주변 숲으로 가는 벌목길의 잠재적 피해도 줄일 수 있습니다.[NEWLINE][NEWLINE]
+				동남아시아에서 일하는 코끼리들의 일자리는 벌목의 기계화와 함께 지난 수십 년 이내에 위협을 받고 있습니다. 코끼리와 코끼리들은 관광업과 종교 축제에서 일거리를 찾도록 강요받았고, 이 직업은 코끼리들이 지독하게 스트레스를 받고 있습니다.
+			</Text>
+		</Row>
+		
+		<!-- Bastu -->
+		<!-- Created by pineppledan 25/11/2017, modified and incorporated by adan_eslavo 17/12/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_SWEDEN_BASTU">
+			<Text>바스투</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWEDEN_BASTU_TEXT">
+			<Text>
+				바스투로 알려져있는 스웨덴식 배드 슈투가(욕실)는 목욕 및 건조 열 스파로 설계된 작은 객실입니다. 난로나 아궁이는 손님들이 들어오기 전에 방을 섭씨 93도로 데우고, 거기서 그들은 몸을 뒤로 젖히고 땀을 흘립니다. 바스투스는 사회적 사건, 가족, 친구들과 토론하고 휴식을 취하는 장소이지만, 초기에는 음식 치료와 출산을 위한 장소이기도 했습니다.[NEWLINE][NEWLINE]
+				스칸디나비아의 땀 목욕탕이 처음 만들어진 장소나 시기는 알려지지 않았지만, 중세 유럽 전역의 어디에서나 볼 수 있듯이 스칸디나비아의 기독교화 이전이었습니다. 스칸디나비아의 땀 목욕에 대해 처음 기술했을 때, 북유럽 국가들은 이미 그들을 둘러싼 다양하고 뚜렷한 문화를 만들어 냈습니다.[NEWLINE][NEWLINE]
+				열탕의 건강상 이점은 많고 다양합니다. 감기 증상을 완화하고 통증 임계값을 증가시키는 시술이 나타났습니다. 또한 류머티즘의 통증과 피로를 돕고, 치매의 위험도 줄일 수 있습니다. 그러나 사우나의 장기사용은 남성의 불임 감소와 관련이 있으며, 알코올의 영향을 받는 동안에는 절대 온탕을 즐겨서는 안 됩니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWEDEN_BASTU_STRATEGY">
+			<Text>목욕을 위한 고유한 스웨덴 대체품. 목욕탕의 보너스 외에도 바스투는 호수와 툰드라에 대한 보너스를 제공합니다. 과학과 문화는 시민이 태어날 때마다 증가되며, 황금기 동안 추가 식량이 늘어납니다. 목욕탕과 달리 바스투에는 강이 필요하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SWEDEN_BASTU_HELP">
+			<Text>목욕탕을 대체하는 스웨덴의 고유 건물입니다. [NEWLINE]호수 타일에서  [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], 작업중인 툰드라 타일 2개마다 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 얻습니다. [NEWLINE]도시의 [ICON_CITIZEN]시민이 증가하면, [ICON_RESEARCH]과학의 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]와 [ICON_CULTURE]문화의 산출량의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]를 즉시 얻습니다.[NEWLINE][NEWLINE]사원, 원형극장, 정원의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. [CON_GOLDEN_AGE]황금기 동안 도시의 [ICON_CULTURE]문화와 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]가 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]강을 필요로 하지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+
+		
+		<!-- Barbican -->
+		<!-- Created by adan_eslavo 14/10/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_POLAND_BARBICAN">
+			<Text>총안</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_POLAND_BARBICAN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]도시에 주둔하는 유닛[ENDCOLOR]의 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLAND_BARBICAN">
+			<Text>바르비칸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLAND_BARBICAN_HELP">
+			<Text>무기고와 성을 동시에 대체하는 폴란드의 고유 건물입니다. 이 도시에 대한 모든 피해가 3 감소합니다. 도시에서 작업중인 채석장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 인구로부터 [ICON_SILVER_FIST]군사 보급이 15% 증가합니다. [ICON_GREAT_WORK]걸작 예술품 슬롯 1개를 제공합니다.[NEWLINE][NEWLINE]도시의 [ICON_RANGE_STRENGTH]원거리 전투력이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가하고 도시에 주둔한 원거리 군사 유닛의 [ICON_RANGE_STRENGTH]원거리 전투력이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_CITY_STATE]도시의 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLAND_BARBICAN_STRATEGY">
+			<Text>무기고와 성을 동시에 대체하는 폴란드 고유 건물이지만 둘보다 약간 더 강력합니다. 도시에 성벽을 쌓아야 합니다. 도시 방어 및 유닛 훈련 보너스 외에도 도시에 주둔한 원거리 및 공성 유닛의 공격이 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLAND_BARBICAN_TEXT">
+			<Text>	
+				바르비칸은 도시의 외곽 방어의 일부를 이루는 요새화된 전초기지 또는 양궁 탑입니다. 그 탑들은 종종 도시의 문 쪽으로 불길이 선명하게 피어나고, '목'이라고 불리는 벽으로 된 도로를 통해 도시 벽과 연결되었습니다. 가장 유명한 바르비칸은 얀 올브라흐트 통치 기간인 1499년에 크라쿠프에 지어졌습니다. 크라쿠프의 바르비칸 건설은 1429년에 지어진 토룬 바르비칸과 1449년에 지어진 첼름 바르비칸으로부터 영감을 받았고 오스만과 왈라키아 군의 침해와 위험에 대응하여 지어졌습니다.[NEWLINE][NEWLINE]
+				바르비칸은 포위 전술과 포병의 향상으로 인해 15세기에 쓸모없게 되었습니다. 1540년에 세워진 바르샤바의 바르비칸은 완성되기 훨씬 전에 시대착오적인 것이었습니다. 바르샤바의 바르비칸은 폴란드가 이 도시를 탈환하는 것을 막기 위해 노력하는 동안 1656년에 스웨덴에 의해 단 한 번 사용되었습니다. 스웨덴군은 2년 전에 싸우지 않고 도시를 점령했습니다.
+			</Text>
+		</Row>
+		
+		<!-- Ballista -->
+		<!-- Created by adan_eslavo on 30/12/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ROME_LEGATUS_LEGIONIS_ON_BALLISTA">
+			<Text>레가투스 레기오니스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ROME_LEGATUS_LEGIONIS_ON_BALLISTA_HELP">
+			<Text>[ICON_GREAT_GENERAL][COLOR_POSITIVE_TEXT]위대한 장군 옆에서 턴을 시작할 경우[ENDCOLOR] [ICON_ARROW_RIGHT]이동력이 +1 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ROME_LEGATUS_LEGIONIS_EFFECT">
+			<Text>기동성 포위</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ROME_LEGATUS_LEGIONIS_EFFECT_HELP">
+			<Text>[ICON_ARROW_RIGHT]이동력 +1 증가</Text>
+		</Row>
+
+		<!-- Banco Giro -->
+		<!-- created by pineappledan -->
+		<Row Tag="TXT_KEY_BUILDING_VENICE_BANCOGIRO">
+		    <Text>반코 지로</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENICE_BANCOGIRO_HELP">
+ 		   <Text>유닛을 구매하거나 건물에 투자할 때 소모되는 [ICON_GOLD] 골드의 15%가 [ICON_RESEARCH] 과학으로 전환됩니다. 도시의 [ICON_GOLD] 골드의 4%가 매 턴 [ICON_GREAT_PEOPLE] 위대한 상인 점수로 전환됩니다.[NEWLINE][NEWLINE]대상숙소 및 세관은 [ICON_GOLD] 골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR]증가합니다.[NEWLINE]문명의 각 반코 지로는 다음을 제공합니다:[NEWLINE]리알토 지구:[ICON_FOOD] 식량 +2 , [ICON_GOLD] 골드 +3.[NEWLINE]아르세날레 디 베네치아: [ICON_PRODUCTION] 생산 +2 , +2 [ICON_RESEARCH] 과학.[NEWLINE]무라노 유리 공장: [ICON_CULTURE] 문화 +2, [ICON_TOURISM] 관광+2.[NEWLINE][NEWLINE][ICON_RES_GOLD] 금: [ICON_GOLD] 골드 +3 .[NEWLINE][ICON_RES_SILVER]은:  [ICON_GOLD] 골드 +1, [ICON_PRODUCTION] 생산 +1 , [ICON_CULTURE] 문화 +1 .[NEWLINE][ICON_RES_GEMS] 보석:[ICON_CULTURE] 문화  +2, [ICON_GOLD] 골드 +1 .[NEWLINE][NEWLINE]도시에 시장이 필요합니다.[NEWLINE] [ICON_HAPPINESS_3] 빈곤으로 인한 불행이 -1감소합니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENICE_BANCOGIRO_STRATEGY">
+		    <Text>반코 지로는 은행을 대체하는 르네상스 시대의 건물입니다. 은행의 보너스 외에도 제국의 각 반코 지로는 무라노 유리 공장, 리알토 지구, 또는 아르세날레 디 베네치아 국립 불가사의에 산출량을 제공합니다. 추가로 모든 도시에서 생성된 골드의 일정 비율이 위대한 상인 점수로 전환됩니다. 반코 지로 덕분에 베네치아는 골드의 흐름을 유지하는 한, 베네치아 상인을 더 높은 비율로 생성할 수 있는 수단을 갖추게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENICE_BANCOGIRO_TEXT">
+		    <Text>베네치아 반코 델 지로는 "유통 은행" 또는 단순히 베네치아 은행으로, 1619년에 설립되어 서구 세계에서 가장 오래되고 가장 오랜 기간 운영된 예비 은행 중 하나입니다. 중앙 은행 제도가 도입되기 전 수세기 동안 베네치아는 회계 및 은행 혁신의 선두에 있었으며, 복식 부기 시스템을 체계화하고 최초의 양도 가능한 공공 부채를 창출했습니다. 반코 지로는 현금 이체를 처리할 수 있는 기관의 필요성을 해결하고, 정부가 사용하는 긴급 대출 시스템을 관리하기 위해 베네치아 상원에 의해 설립되었습니다. 반코 지로는 프랑스 제국에 의해 베네치아 공화국이 몰락할 때까지 이 기능을 계속 수행했으며, 1797년 나폴레옹은 베네치아의 은행 시스템을 포함한 많은 국가 기관을 해산했습니다.</Text>
+		</Row>
+
+		<!-- Black Tug -->
+		<!-- Created by adan_eslavo on 29/10/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MONGOLIA_MINGGHAN">
+			<Text>밍간</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MONGOLIA_MINGGHAN_HELP">
+			<Text>타일 약탈 시 경험치[COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]약탈된 타일[ENDCOLOR]에서 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT] +20%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MONGOLIA_BLACK_TUG">
+			<Text>검은깃발 기병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MONGOLIA_BLACK_TUG_HELP">
+			<Text>기사를 대체하는 몽골의 고유 유닛입니다. [NEWLINE]상처입은 유닛과 싸울때나 또는 약탈된 타일 위에서 전투시 더 강력해집니다. 약탈시 추가 경험치를 받습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MONGOLIA_BLACK_TUG_STRATEGY">
+			<Text>검은깃발 기병은 기사를 대체하는 몽골 고유 유닛입니다. 약탈당한 타일 위에 서 있을 때 부상당한 유닛에게 더 강하고 더 많은 피해를 입힙니다. 기마 부대인 검은깃발 기병은 장창병에게 취약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MONGOLIA_BLACK_TUG_TEXT">
+			<Text>
+				투그릭은 말꼬리털을 둥글게 배열한 기둥에 상부에 다양한 색깔의 말꼬리털을 배열한 깃발로, 몽골의 생활에서 말의 중요성을 상징합니다. 흰색 머리 깃발은 평화시의 상징으로 사용되는 반면, 검은색 깃발은 전시를 위한 것입니다. 원래 흰색 깃발은 역사 초기에 사라졌지만, 검은 깃발은 징기스칸의 영혼의 보고로 살아남았습니다. 몽골인들은 이 깃발을 지키려고 수도원을 세우며 기치를 계속 기렸지만, 1937년 스탈린의 몽골 민족주의자, 승려, 지식인 숙청 속에서 결국 투그릭이 사라졌습니다.[NEWLINE][NEWLINE]
+				몽골의 9개의 흰색 깃발은 1990년대 초 민주주의가 채택된 후 이전의 공산국기를 대체하면서 부활되었습니다. 울란바토르 정부 궁전에는 현대 몽골의 9개 흰색 깃발이, 국방성에는 현대 몽골의 검은 깃발이 보관되어 있습니다.
+			</Text>
+		</Row>
+
+
+		<!-- Brauhaus -->
+		<!-- Created by pineappledan on 26/06/2022 -->
+		<Row Tag="TXT_KEY_BUILDING_GERMANY_BEER_HALL">
+			<Text>양조장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GERMANY_BEER_HALL_TEXT">
+			<Text>
+				독일은 맥주 문화로, 맥주와 역사적, 문화적 연관은 고대로 거슬러 올라간다. 중세 시대에 양조업이 전문화되고 상품화되면서 맥주는 개인 오두막 산업에서 여관이나 공공 주택으로 옮겨갔고, 이는 독일의 양조장의 형태를 띠게 되었다. 가장 위대하고 가장 유명한 비어홀은 바이에른 자유주에서 발견되는데, 바이에른 자유주에서는 양조장, 맥주정원, 매년 열리는 옥토버페스트가 바이에른 문화와 동의어가 되었다. 특히 유명한 양조장과 맥주홀은 뮌헨 전역에서 발견되는데, 역사적으로 모두 바이에른 맥주 순도법(Reinheitsegebot)의 적용을 받는데, 이 법은 맥주 생산에 사용할 수 있는 유일한 재료는 물, 보리, 홉이라고 규정했다. 1516년 바이에른 주에 의해 채택된 Reinheitsegebot은 오늘날에도 여전히 시행되고 있는 가장 오래된 식품 안전법 중 하나입니다. 독일 민족주의가 발흥하기 이전에도 라인헤이트제게봇은 인근 왕국에서도 유사한 규제를 시행했으며, 바이에른과 독일 통일의 전범적 채택이 1871년이었다.[NEWLINE][NEWLINE]빛과 음식을 자유롭게 이용할 수 있는 곳이었던 비어홀은 18~19세기 독일을 사로잡은 수많은 혁명적 사상과 운동의 발상지로서 독일 남부 공공생활의 초석이었다. 프랑스 혁명이 일어나자, 독일 자유주의자들은 1848년부터 1849년까지 일련의 봉기로 군주제의 개혁을 요구하기 위해 뮌헨 맥주홀에 조직했다. 1910년대 동안 블라디미르 레닌은 뮌헨 맥주홀의 단골 후원자였고, 그곳에서 그는 많은 정치적 선동들과 소비에트 연방을 형성할 볼셰비키당의 초기 창당을 했다. 그러나 가장 유명한 인물은 1920년 호프브라우하우스 암 플라츨에서 국가사회당 창당을 선언한 아돌프 히틀러였으며, 1923년 뷔르거브뢰켈러에서 쿠데타가 실패한 후 반역죄로 체포되었다. 이 에피소드는 비어홀 푸치(Beer Hall Putsch)로 알려지게 되었고, 그 재판은 히틀러의 정치적 이념을 전파하기 위한 국가적인 강령을 제공하였고, 히틀러의 광범위한 명성과 독일 파시즘의 발흥을 이끌었다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GERMANY_BEER_HALL_STRATEGY">
+			<Text>양조장은 풍차를 대체하는 독특한 독일식 건물입니다. 풍차의 표준 보너스 외에도 양조장은 채택한 정책의 수에 따라 더 강해지는 행복에 보너스를 제공합니다. 문명의 각 양조장은 도시 국가에 군사 유닛을 선물할 때마다 문화를 즉시 얻습니다. 정책 채택 및 유닛 선물에 대한 양조장의 보상은 이념을 채택한 후에 더 강해지며 채택한 이념에 따라 다른 추가 보너스가 있습니다. 양조장의 힘을 높이기 위해 도시 국가와 동맹을 맺어 문화를 우선시하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GERMANY_BEER_HALL_HELP">
+			<Text>풍차를 대체하는 독일의 고유 건물입니다. 건물을 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 곡창, 식료품 상점과 도시 근처의 [ICON_RES_WHEAT]밀, [ICON_RES_MAIZE]옥수수, [ICON_RES_RICE]쌀 타일의 [ICON_FOOD]식량과 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시 주변 습지와 호수 타일의 [ICON_PRODUCTION]생산과 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가 증가합니다.[NEWLINE][NEWLINE]채택한 정책 9개마다 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CITY_STATE]도시 국가에 군사 유닛을 선물할 때마다 해당 건물이 있는 도시에 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]을 얻습니다.[NEWLINE][NEWLINE][COLOR_MAGENTA]이념[ENDCOLOR] 채택 시 추가 보너스 제공:[NEWLINE][ICON_BULLET][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]자유[ENDCOLOR]: 정책 채택할 때마다 [ICON_RESEARCH]과학 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 획득, [ICON_CITY_STATE]도시 국가에 군사 유닛 선물할 때마다 [ICON_GOLDEN_AGE]황금기 점수 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 획득[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR]: 정책 채택할 때마다 [ICON_PRODUCTION]생산 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 획득, [ICON_CITY_STATE]도시 국가에 군사 유닛 선물할 때마다 [ICON_FOOD]식량 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 획득[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR]: 정책을 채택할 때마다 [ICON_CULTURE]문화 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 획득, [ICON_CITY_STATE]도시 국가에 군사 유닛 선물할 때마다 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 획득[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- BIMARISTAN -->
+		<!-- Created by pineappledan -->
+		<Row Tag="TXT_KEY_BUILDING_ARABIA_BIMARISTAN">
+			<Text>비마리스탄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARABIA_BIMARISTAN_TEXT">
+			<Text>비마리스탄은 현대 병원의 선구자인 의학적 치료의 중심지였습니다. 아랍 세계는 오늘날 환자를 병동으로 구분하는 것, 환자 의료 기록의 개발, 의료의 세속화, 검사와 면허를 포함한 의료인의 기준을 포함한 몇 가지 의료 관행으로 유명했습니다. 비마리스탄은 와퀴프스라고 불리는 자선기금으로 지불되었습니다. 이는 환자의 인종, 종교, 성별, 사회적 지위에 관계없이 수술과 치료비가 기관이 부담한다는 것을 보증했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARABIA_BIMARISTAN_STRATEGY">
+			<Text>대학을 대체하는 아라비아의 고유 건물입니다. 대학 보너스 외에도 신앙으로 구매할 때 추가 산출량을 얻고 도시의 과학 생산량에 따라 추가 식량을 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARABIA_BIMARISTAN_HELP">
+			<Text>대학을 대체하는 아라비아의 고유 건물입니다. [NEWLINE]도시에서 작업하는 정글과 눈 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 [ICON_CITIZEN]시민이 증가하면, 도시의 현재 [ICON_RESEARCH]과학 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 즉시 제공합니다. [NEWLINE][ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]도시에서 유닛이나 건물을 [ICON_PEACE]신앙으로 구매하면 그 수치의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]를 [ICON_RESEARCH]과학과 [ICON_FOOD]식량으로 제공합니다. 매턴 도시에서 생산하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼의 [ICON_FOOD]식량으로 전환합니다.</Text>
+		</Row>
+		
+		<!-- Buffalo Pound -->
+		<!-- Created by adan_eslavo 4/11/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_SHOSHONE_BUFFALO_POUND">
+			<Text>들소 우리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHOSHONE_BUFFALO_POUND_HELP">
+			<Text>우물을 대체하는 쇼쇼니의 고유 건물입니다. [COLOR_CYAN]수렵[ENDCOLOR] 기술을 연구하면 지을 수 있습니다. [NEWLINE]물레방앗간과 상관 없이 건설할 수 있습니다.[NEWLINE]도시의 [ICON_CITIZEN]시민 5명당 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시 근처에 [COLOR_YELLOW][ICON_RES_BISON]들소[ENDCOLOR] 자원이 나타납니다.([COLOR_CYAN]은행[ENDCOLOR] 기술 연구가 필요합니다.)
+		[NEWLINE][NEWLINE][ICON_RES_HORSE]말: [ICON_FOOD]식량 +1
+			[NEWLINE][ICON_RES_SHEEP]양:  [ICON_FOOD]식량 +1
+			[NEWLINE][ICON_RES_COW]소:  [ICON_FOOD]식량 +1
+			[NEWLINE][ICON_RES_BISON]들소:  [ICON_FOOD]식량 +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHOSHONE_BUFFALO_POUND_STRATEGY">
+			<Text>들소 우리는 우물을 대체하는 쇼쇼니의 고유 건물입니다. 우물의 일반적인 보너스 외에도 버팔로 파운드는 말, 소, 양, 들소의 음식을 제공합니다. 물레방앗간이 이미 건설되어 있더라도 담수를 이용할 수 있는 도시에서도 건설할 수 있습니다.[NEWLINE][NEWLINE]들소는 숲이 있거나 없는 평원이나 초원 타일에서만 출현합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHOSHONE_BUFFALO_POUND_TEXT">
+			<Text>
+				들소 우리는 많은 대평원 부족들이 들소를 함정에 빠뜨리고 죽이려고 지은 큰 건물이었습니다. 거대한 들소 떼가 굳어져서 파운드 안으로 흘러 들어갔는데, 이 파운드에는 종족들이 벽의 안전으로부터 창과 다른 미사일 무기를 던질 수 있는 가죽과 나무로 된 튼튼한 원형 고리가 있었습니다.[NEWLINE][NEWLINE]
+				들소는 북미 평원의 주요 식량원이었지만, 말이나 튼튼한 무기 없이는 그렇게 큰 동물을 사냥하는 것이 어려웠습니다. 유럽인들의 도착과 말과 머스킷총병의 도입으로, 아메리카 원주민들은 먼 거리를 여행할 수 있었고 무력으로 들소 떼를 공격할 수 있었습니다. 그러나 유럽인들이 이러한 삶의 방식을 잠식하면서 좋은 시절은 지속되지 않을 것입니다. 점점 더 대초원은 미국 자영 농작원들을 위한 농장과 목장으로 바뀌었습니다. 아메리카 들소는 서식지 감소, 산업 규모의 사냥, 토착민들을 굶기 위해 만들어진 도태의 조합으로 멸종 위기에 몰렸습니다.[NEWLINE][NEWLINE]
+				오늘날, 아메라카 들소의 개체수는 회복되었지만, 서식지는 몇몇 국립공원으로 크게 제한되었습니다. 상업적인 농업과 스포츠 사냥은 계속되고 있지만, 아메리카 들소의 개체수는 결코 그들의 기록적이였던 과거만큼으로 되돌아갈 것 같지 못할 것입니다.
+			</Text>
+		</Row>
+		<!-- Bullring -->
+		<!-- Created by pineappledan 12/10/2020 -->
+		<Row Tag="TXT_KEY_BUILDING_SPAIN_BULLRING">
+			<Text>투우장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SPAIN_BULLRING_HELP">
+			<Text>동물원을 대체하는 스페인의 고유 건물입니다. [NEWLINE]건설 완료시 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]500[ENDCOLOR] 즉시 제공합니다. 근처의 정글, 숲, 초원 타일에 [ICON_TOURISM]관광과 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. 이 도시에서 다른 문명으로 출발하는 [ICON_INTERNATIONAL_TRADE]국제 교역로가 완료되면, 문명의 [ICON_CULTURE]문화와 [ICON_TOURISM]관광의 현재 산출량에 기반한 [ICON_TOURISM]관광을 제공합니다.[NEWLINE][NEWLINE]도시에 전략 자원을 연결하거나 [COLOR_POSITIVE_TEXT]공공사업 프로젝트[ENDCOLOR]를 완료하면 이 도시에서 "국왕 경축일"을 맞이합니다. "국왕 경축일"을 맞이하면 [ICON_CULTURE]문화, [ICON_PEACE]신앙, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]100[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 얻습니다.[NEWLINE][NEWLINE][ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SPAIN_BULLRING_STRATEGY">
+			<Text>투우장은 스페인 고유의 건물로 동물원보다 저렴하고 일찍 이용할 수 있습니다. 숲과 정글에 대한 동물원의 보너스 외에도 투우장은 목장에 보너스를 제공합니다. 추가 수익을 얻으려면 자원을 연결하거나 공공 사업을 건설하여 많은 "국왕 경축일"을 만드는 데 집중하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SPAIN_BULLRING_TEXT">
+			<Text>유난히 오래되고 억압할 수 없는 스페인 소싸움은 로마 이전의 이교도 소굴로 그 뿌리를 거슬러 올라갈 수 있습니다. 스페인 투우의 현대적 화신은 위대한 투우사들의 의식적이고 스타일적인 혁신과 1700년대 후반 최초의 전용 투우장의 건설에 뿌리를 두고 있습니다. 거기서부터, 스페인의 투우 전통은 스페인의 식민지였던 모든 나라로 퍼져나갔습니다.</Text>
+		</Row>
+
+		<!-- Cacadores -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_UNIT_PORTUGUESE_CACADORES">
+			<Text>카사도르</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PORTUGUESE_CACADORES_TEXT">
+			<Text>
+				카사도르는 18세기와 19세기에 포르투갈 군대의 최정예 보병들이었습니다. 카사도르 사단은 군 위장술의 첫 시도 중 하나인 갈색 코트와 마크 솜씨로 유명했습니다. 나폴레옹에 의한 포르투갈의 건전한 패배와 점령 이후, 영국은 동맹국을 대표하여 나라를 되찾기 위한 연합 전쟁을 다시 조직하기 위해 개입했습니다. 영국 장군 윌리엄 베레스포드는 독일 재거군이나 미국 경비대와 유사한 교전 역할을 담당하기 위해 카사도르를 구성했습니다. 이 연합군 하에서, 카사도르는 포르투갈의 독립을 되찾는 것을 도왔고 1911년 군 개혁으로 부대가 해산될 때까지 포르투갈 군대의 "싸움탉"으로 명성을 떨쳤습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PORTUGUESE_CACADORES_STRATEGY">
+			<Text>
+				카사도르는 개틀링 기관총을 대체하는 고유한 포르투갈식 무기입니다. 승급을 통해 정찰 승급을 획득하여 적대적인 지형에서 뛰어난 능력을 발휘합니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PORTUGUESE_CACADORES_HELP">
+			<Text>
+				개틀링 기관총을 대체하는 포르투갈의 고유 유닛입니다. [NEWLINE]승급을 하면, 무작위로 [COLOR_PLAYER_PURPLE]개척[ENDCOLOR] 승급 또는 [COLOR_PLAYER_PURPLE]생존[ENDCOLOR] 승급을 동시에 얻습니다. [COLOR_PLAYER_PURPLE]엄호 사격 I[ENDCOLOR]승급을 받고 시작합니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_PORTUGAL_CACADOR">
+			<Text>싸움닭</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_PORTUGAL_CACADOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]승급[ENDCOLOR] 시 추가로 [COLOR_PLAYER_PURPLE]개척[ENDCOLOR] 승급 또는 [COLOR_PLAYER_PURPLE]생존[ENDCOLOR] 승급 동시 획득</Text>
+		</Row>
+		<!-- Chaebol -->		
+		<Row Tag="TXT_KEY_BUILDING_KOREA_CHAEBOL">
+			<Text>재벌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KOREA_CHAEBOL_HELP">
+			<Text>도시에 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]은행[ENDCOLOR]이 있어야 합니다. 도시의 [ICON_CITIZEN]시민 2명당 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 소도시와 마을에 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 도시에서 [ICON_GOLD]골드로 구매하는 비용이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]도시의 공장의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 모든 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]재벌[ENDCOLOR]의 [ICON_GOLD]골드, [ICON_RESEARCH]과학, [ICON_CULTURE]문화가 추가로 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KOREA_CHAEBOL_STRATEGY">
+			<Text>재벌은 한국의 독특한 증권 거래소 대체품입니다. 증권 거래소의 일반적인 보너스 외에도 재벌은 재벌이 건설된 도시의 공장 생산을 촉진합니다. 재벌은 문명이 통제하는 모든 국제 무역로에서 위인의 생산을 늘립니다. 또한 모든 재벌은 문명의 다른 모든 재벌의 골드, 문화 및 과학을 증가시킵니다. 더 많이 만들수록 더 많이 생산합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KOREA_CHAEBOL_PEDIA">
+			<Text>
+				재벌은 한국에서 시작된 강력한 다국적 기업입니다. 가업으로 시작하여, 관대한 정부 투자는 재벌들이 한강의 기적이라 불릴 만한 한국의 농업 사회를 빠르게 산업화할 수 있도록 했습니다. 재벌은 한국 경제의 중심이 되었고, 20세기 후반 외환 위기 전까지는 한국의 산업 힘의 불변성을 대변하게 되었지만, 외환 위기 이후 몇몇 대형 재벌들이 파산 선고를 하기도 하였습니다.[NEWLINE][NEWLINE]
+				재벌들은 계속해서 한국 경제와 사회 조직을 지배하고 있고 삼성과 현대와 같은 몇몇 재벌들은 세계적으로 유명 인사가 되었습니다. 오늘날, 한국 수출의 80% 이상을 재벌이 차지하고 있고, 가장 큰 단일 재벌이 전체 GDP의 17%를 차지하고 있습니다.
+			</Text>
+		</Row>
+
+		<!-- Charbagh -->
+		<!-- Created by adan_eslavo 16/12/2017 -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_PERSIA_CHARBAGH">
+ 		   <Text>차르바그</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_PERSIA_CHARBAGH_TEXT">
+    		<Text>차르바그는 인도-페르시아 문화에 특유한 네 개의 정사각형 구획으로 나누어진 담으로 둘러싸인 정원입니다. 이러한 정원들은 아케메네스 제국의 파이라데자(pairidaeza)에서 그 뿌리를 찾을 수 있으며, 아마도 아시리아의 정원 설계까지 거슬러 올라갑니다. 차르바그 건설은 국가의 중요한 도구로서, 황제가 황폐한 지역에 생명을 불어넣는 능력을 보여주었습니다. 각진, 질서 있는 건축은 자연의 혼돈과 대조를 이루었습니다. 페르시아와 이후의 페르시아화된 문화들은 공공장소의 창조를 통해 만왕의 왕이 그의 영역과 그 안의 자연 세계를 지배하는 능력을 보여주는 미묘한 방법으로 정원 건설을 사용했습니다.[NEWLINE][NEWLINE]페르시아 정원은 지중해와 서구 사상가들의 상상력을 사로잡았습니다. 파이라데자는 그리스어 '파라다이스'의 어원이 되어 현대 예술과 시에서 지상의 에덴에 대한 개념을 형성했습니다.[NEWLINE][NEWLINE]차르바그는 [ICON_WORKER] 노동자가 신선한 물이 있는 땅에 다른 차르바그 옆이 아닌 곳에 건설할 수 있습니다.[NEWLINE][NEWLINE]각 차르바그는 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화를 제공합니다. [ICON_GOLDEN_AGE] 황금기 동안 차르바그의 산출량은 +1 [ICON_PRODUCTION] 생산 및 [ICON_CULTURE] 문화, 그리고 기존의 +1 [ICON_GOLD] 골드에 더해 증가합니다.[NEWLINE][NEWLINE]작업된 차르바그 하나당 도시의 [ICON_GREAT_PEOPLE] 위대한 인물 점수가 +5% 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_PERSIA_CHARBAGH_HELP">
+    		<Text>차르바그는 [ICON_WORKER] 담수 타일에만 건설할 수 있고, 다른 차르바그와 인접하여 건설할 수 없습니다.[NEWLINE][NEWLINE]각 차르바그는 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화가 증가합니다. [ICON_GOLDEN_AGE] 황금기 동안 차르바그의 산출량은 [ICON_PRODUCTION] 생산 및 [ICON_CULTURE] 문화, 그리고 [ICON_GOLD] 골드의 산출이 [COLOR_POSITIVE_TEXT] 1[ENDCOLOR]이 증가합니다.[NEWLINE][NEWLINE]작업된 차르바그 하나당 도시의 [ICON_GREAT_PEOPLE] 위인 출현율이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_PERSIA_CHARBAGH">
+    		<Text>[LINK=IMPROVEMENT_PERSIA_CHARBAGH]차르바그[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_PERSIA_CHARBAGH_HELP">
+    		<Text>차르바그를 건설하여 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화를 증가시키고, [ICON_GREAT_PEOPLE] 위인 생성 속도를 증가시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_PERSIA_CHARBAGH_REC">
+    		<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화, 및 [ICON_GREAT_PEOPLE] 위인 생성 속도가 증가합니다.</Text>
+		</Row>
+		
+		<!-- Chasqui -->		
+		<Row Tag="TXT_KEY_UNIT_INCA_CHASQUI">
+			<Text>차스퀴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INCA_CHASQUI_HELP">
+			<Text>정찰병을 대체하는 잉카의 고유 유닛입니다. [NEWLINE][ICON_ARROW_RIGHT]이동력이 +1 증가하며, 우호 영토에서 더 빠르게 체력을 회복합니다. [COLOR_YELLOW]산[ENDCOLOR]에서 이동력이 [COLOR_POSITIVE_TEXT]2배[ENDCOLOR]가 됩니다. [COLOR_POSITIVE_TEXT]의무병 I[ENDCOLOR] 승급을 받고 시작합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INCA_CHASQUI_STRATEGY">
+			<Text>차스퀴는 정찰병을 대체하는 잉카의 고유 유닛입니다. 이 유닛은 산과 아군 영토를 빠르게 이동합니다. 차스퀴는 또한 의료진 I로 시작하여 주 전투 부대를 위한 유연하고 접근 가능한 초기 지원 유닛이 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INCA_CHASQUI_TEXT">
+			<Text>
+				차스퀴들은 걸어서 하루에 240킬로미터까지 메시지와 선물을 운반하는 일을 담당한 잉카 제국의 전령들이었습니다. 체력과 더불어, 차스퀴들은 교육을 잘 받았고 잉카 매듭을 기반으로 한 문자 체계인 키푸스를 차스퀴들끼리과 상급 기관에 번역할 수 있었습니다.[NEWLINE][NEWLINE]
+				차스키는 페루와 에콰도르의 산 전체에 걸쳐 유지되고 있는 거대한 도로와 밧줄 다리의 시스템을 이용하여 수천 마일의 안데스 산책로를 따라 파견되었습니다. 탬보스라 불린 중계소는 차스퀴가 멈추어 다음 차스퀴에게 메시지를 전송하는 데 사용되었습니다. 각각의 차스퀴는 소라 트럼펫을 가지고 다녔고, 소라 트럼펫의 용도는 신선한 차스퀴에게 그들이 달릴 준비를 하기 위해 한 주자가 가까이 있다는 것을 알리는 것 이였습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INCA_CHASQUIWASI">
+			<Text>차스퀴의 휴식처</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INCA_CHASQUIWASI_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]우호 영토[ENDCOLOR]에서 매턴 체력[COLOR_POSITIVE_TEXT] +5[ENDCOLOR][NEWLINE][ICON_ARROW_RIGHT]이동력 [COLRO_POSITIVE_TEXT]+1[ENDCOLOR]([COLOR_POSITIVE_TEXT]산[ENDCOLOR]에서 [ICON_ARROW_RIGHT]이동력이 2배)</Text>
+		</Row>
+		<!-- Corsair -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_UNIT_MOROCCO_CORSAIR">
+			<Text>커세어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOROCCO_CORSAIR_TEXT">
+			<Text>
+				커세어는 유럽 전역에서 악명을 떨친 북아프리카 해안에서 활동하는 이슬람 해적과 민간인이었습니다. 지중해 전역과 아이슬란드까지 분포한 커세어는 가축을 도살하고 이슬람 세계의 노예 시장에서 팔기 위해 독교인들을 붙잡았습니다. 이러한 습격을 "라지아"라고 불렀는데, 라지아의 격렬함과 빈도수는 이탈리아와 스페인 해안에서 길게 뻗은 해안들이 해적선의 납치를 두려워해서 버려질 정도였습니다. 서기 1530년에서 1780년 사이에 약 125만 명의 사람들이 바르바리 해적선에 의해 노예가 된 것으로 추정됩니다.[NEWLINE][NEWLINE]
+				커세어의 활동의 범위는 17세기 후반부터 줄어들기 시작했는데, 보다 강력한 유럽 해군이 바르바리 국가에 실질적인 위협을 가하기 시작했기 때문입니다. 하지만, 기독교의 해운과 해안선은 19세기 초반까지 계속 고통을 겪었습니다. 1814년 나폴레옹 전쟁과 빈 의회 이후, 유럽 열강들은 바르바리 해적선을 영원히 억압할 필요성에 동의했습니다. 미국 해군의 창설을 자극하는 바르바리 해적들과 미국 사이의 제2차 바르바리 전쟁 이후 "라지아"는 마침내 중단되었습니다.[NEWLINE][NEWLINE]
+				"코란에는 이런 말이 적혀있습니다. '선지자 마호메트를 인정하지 않은 모든 나라들은 죄인이며, 그들을 공격해서 노예로 삼는 것은 정당하며, 신실한 신도의 의무이다. 게다가 이런 전쟁에 참가한 모든 무슬림들은 반드시 천국에 갈 수 있다.' "[NEWLINE]
+				-미국 상선의 보호를 요구하는 토마스 제퍼슨에 대한 시디 하지 압둘 라만 아드자의 답변
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOROCCO_CORSAIR_STRATEGY">
+			<Text>
+				커세어는 코르벳을 대체하는 모로코의 고유 유닛입니다. 해상 교역로를 습격하고 약탈하는 데 특화되어 있으며, 적 유닛을 죽이고 교역로를 약탈할 때마다 식량과 생산력을 얻습니다. 이 유닛은 국경 개방 협정 없이도 다른 문명의 국경에 진입할 수 있으며, 이는 더 나은 보호 무역로를 방해하는 데 악용될 수 있습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOROCCO_CORSAIR_HELP">
+			<Text>
+				코르벳을 대체하는 모로코의 고유 유닛입니다. 국경 개방 없이 상대방의 영토에 침입할 수 있습니다. 유닛을 처치하거나 자원 타일이나 [ICON_INTERNATIONAL_TRADE]국제 교역로를 약탈하면 [ICON_FOOD]식량과 [ICON_PRODUCTION]생산을 얻습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MOROCCO_RAZZIA">
+			<Text>라지아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MOROCCO_RAZZIA_HELP">
+			<Text>
+				[COLOR_POSITIVE_TEXT]유닛을 처치[ENDCOLOR]하거나 [COLOR_POSITIVE_TEXT]자원, 국제 교역로를 약탈[ENDCOLOR]할 때 [ICON_CAPITAL]수도에 [ICON_FOOD]식량과 [ICON_PRODUCTION]생산을 제공[NEWLINE]국경 개방 조약 없이 [COLOR_POSITIVE_TEXT]상대의 영토 진입 가능[ENDCOLOR]
+			</Text>
+		</Row>
+		
+		<!-- Dhanurgraha -->
+		<!-- Created by adan_eslavo on 4/12/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INDIA_EPIC">
+			<Text>서사시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INDIA_EPIC_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]유닛 처치 시[ENDCOLOR] [ICON_CULTURE]문화, 추가 XP 획득[COLOR:105:105:105:255](야만인 처치 시 문화 획득량 2배)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INDIA_DHANURVIDYA">
+			<Text>다누르비야</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INDIA_DHANURVIDYA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]승급할 때[ENDCOLOR]마다 [ICON_CULTURE]문화와 [ICON_PEACE]신앙 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDIA_DHANURAASHI">
+			<Text>다누르다라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDIA_DHANURAASHI_HELP">
+			<Text>
+				궁병을 대체하는 인도의 고유 유닛입니다. 궁병보다 약간 강합니다. 모든 유닛 처치 시 [ICON_CULTURE]문화와 추가 경험치를 획득하며, 승급할때 [ICON_PEACE]신앙과 [ICON_CULTURE]문화를 얻습니다. 야만인을 처치할때는 [ICON_CULTURE]문화를 2배로 얻습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDIA_DHANURAASHI_STRATEGY">
+			<Text>다누르다라는 고대시대에서 문화적, 종교적 우위를 유지하는 데 도움이 되는 초기 야만인에 대한 강력한 방어 유닛입니다. 야만인을 찾아낸 다음 문화와 신앙을 획득하기 위해 처치하고, 공략할 이웃이 있다면 진격하십시오.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDIA_DHANURAASHI_TEXT">
+			<Text>
+				양궁은 고대 인도에서 가장 존경받는 무술이었습니다. 베딕 문자의 많은 문화적 영웅과 신들은 아르주나, 라마, 카르나, 심지어 시바 자신을 포함한 비할 데 없는 기술을 가진 궁수들을 묘사합니다. 전통적인 인도 활은 길이가 사용자의 키와 일치하지만 웨일스 장궁의 엄청난 힘이 없습니다.
+			</Text>
+		</Row>
+		
+		<!-- Djong -->
+		<!-- Created by pineappledan -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INDONESIA_CETBANG">
+			<Text>셋뱅</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INDONESIA_CETBANG_HELP">
+			<Text>턴을 종료할때 [COLOR_POSITIVE_TEXT]인접한 모든 적 유닛[ENDCOLOR]에게 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]피해</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIA_DJONG">
+			<Text>종</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIA_DJONG_TEXT">
+			<Text>서기 1세기에 종선이 만들어졌을 때, 종선은 세계 어느 곳에서도 가장 크고 가장 능력이 뛰어난 항해 선박이었습니다. 평균 400톤이 넘는 화물을 싣고 태풍의 바람을 견딜 수 있는 이 놀라운 공학 기술은 자바섬의 무역 네트워크를 중국 북부에서 가나까지 확장시켰습니다. 마자파히트 제국 당시, 종선은 인도네시아 군도 전체를 정복하는 데 도움이 되었는데, 종선은 최초의 후장식 대포인 셋벵으로 무장하고 있었습니다. 종선은 16세기까지 널리 사용되었고, 종선을 설계하는 방법은 아시아 전역으로 퍼져나갔고, 중국식 목조선의 상징과 같은 정크선 제작에 영향을 끼쳤습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIA_DJONG_STRATEGY">
+			<Text>종은 갈레아스를 대체하지만 초기에 프리깃처럼 작동하며 대양에서 정상적으로 이동하고 2타일 떨어진 곳에서 발사할 수 있습니다. 근접 유닛과 함께 종을 사용하여 다른 문명보다 먼저 항해에 적합한 해군을 만드십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDONESIA_DJONG_HELP">
+			<Text>갈레아스를 대체하는 인도네시아의 고유 유닛입니다. 대양 타일에서도 이동력이 떨어지지 않으며 먼 거리까지 공격이 가능합니다. 매턴 주변의 적들에게 추가 피해를 줍니다.</Text>
+		</Row>
+
+		<!-- Doelen -->
+		<!-- Created by De_Genius on 17/11/2017, incorporated and modified by adan_eslavo 13/12/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_SCHUTTERIJ">
+		    <Text>도엘렌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_SCHUTTERIJ_HELP">
+		    <Text> [ICON_SPY]도시 보안이 25증가하고, 시민 2명마다 +1씩 증가합니다. 이 도시에서 외국 스파이를 체포하거나 식별할 때마다 [ICON_CULTURE] 문화 50 를 획득합니다.[NEWLINE][NEWLINE]문명의 모든 글로벌 독점 자원마다 이 도시에 [ICON_GOLD] 골드, [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학이 +1 증가합니다.[NEWLINE][NEWLINE][ICON_GREAT_WORK] 걸작 예술품 또는 유물 슬롯 1개를 포함됩니다. [ICON_FOOD] / [ICON_PRODUCTION] 낙후에 의한  [ICON_HAPPINESS_3]-1 불행이 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_SCHUTTERIJ_STRATEGY">
+ 		   <Text>도엘렌은 네덜란드의 고유한 치안소 대체 건물입니다. 치안소의 기본 보너스 외에도, 도엘렌은 방어 보너스를 제공하고, 도시에서 적 스파이를 체포하거나 식별할 때 보상을 줍니다. 도엘렌은 네덜란드가 통제하는 모든 종류의 글로벌 독점 자원의 총수에 따라 강력해집니다. 활발한 무역을 통해 도엘렌의 잠재적 강점을 최대한 활용하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_SCHUTTERIJ_TEXT">
+  		  <Text>저지대 국가의 도시들에서 경찰 제도의 뿌리는 자발적인 마을 경비대이자 시민 민병대인 슈터레이(Schutterij)에 있습니다. 도시의 슈터 길드(Schuttersgilde) 회원은 종종 부유한 시민들이 도시에서 더 높은 공직을 얻기 위한 발판으로 삼곤 했습니다. 슈터레이는 포위 공격이나 반란 시 군사 지원, 화재 진압, 그리고 매일 도시 성문을 여닫는 일을 담당했습니다. 젊고 야심 찬 남성들이 모이는 사회 클럽으로서의 이차적 기능 덕분에, 슈터레이는 시 정치에 과도한 영향을 미쳤으며, 종종 공공 연회, 종교 행사 및 자선 활동과 같은 추가 책임을 자처했습니다. 슈터레이 장교들은 종종 회원들의 단체 초상화를 비용을 부담했으며, 그 중 일부는 네덜란드 황금 시대에 제작된 가장 훌륭한 그림으로 여겨지고 있습니다.[NEWLINE][NEWLINE]슈터들의 훈련장은 도엘렌이라고 불렸으며, 이는 "표적 사격장"을 의미합니다. 도엘렌은 일반적으로 성벽 근처에 배치되었고, 체육 운동과 회의를 위한 인접 홀과 함께 야외 사격장으로 구성되었습니다. 네덜란드 전역에 많은 도엘렌이 보존되어 있지만, 종종 학교 체육관, 도서관 또는 커뮤니티 홀로 개조되었습니다.</Text>
+		</Row>
+
+		
+		<!-- Dromon -->
+		<!-- Created by adan_eslavo on 30/11/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BYZANTIUM_GREEK_FIRE_0">
+			<Text>그리스의 불</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BYZANTIUM_GREEK_FIRE_0_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공격 후[ENDCOLOR] 방어중인 적 유닛이 표시되고, [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 턴 동안 해당 적 유닛의 최대 체력이 [COLOR_NEGATIVE_TEXT]20[ENDCOLOR], 회복이 [COLOR_NEGATIVE_TEXT]10 [ENDCOLOR]감소합니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BYZANTIUM_GREEK_FIRE_1">
+			<Text>맹렬한 불</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BYZANTIUM_GREEK_FIRE_1_HELP">
+			<Text>턴 시작 시 "화재" 지속 피해가 [COLOR_NEGATIVE_TEXT]10[ENDCOLOR]만큼 추가로 들어갑니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BYZANTIUM_DROMON">
+			<Text>드로몬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BYZANTIUM_DROMON_HELP">
+			<Text>강력한 해군 원거리 유닛입니다. 갈레아스를 대체하는 비잔티움의 고유 유닛입니다. 드로몬의 공격은 2턴 동안 적 유닛의 최대 체력을 20 감소시키고 회복이 10 감소합니다. [COLOR_POSITIVE_TEXT]광역 피해 I[ENDCOLOR] 승급을 받고 시작합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BYZANTIUM_DROMON_STRATEGY">
+			<Text>적에게 불타는 죽음을 가져오십시오. 대체하는 갈레아스보다 강력하며 대상 유닛과 드로몬 근처의 모든 적에게 추가 화상 피해를 입힙니다. 도시 경계 밖의 심해 타일에서는 턴을 끝낼 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BYZANTIUM_DROMON_TEXT">
+			<Text>
+				전통적인 갤리의 변형된 형태인 드로몬은 제국 통치 기간 내내 비잔티움 해군의 필수적인 부분이었습니다. 노와 돛의 힘을 모두 갖춘 드로몬은 기동성이 뛰어나고 민첩했지만 전투 장비도 위험했습니다. 드로몬에는 현대 네이팜의 선구자라고 할 수 있는 그리스의 불을 사용했습니다. 비잔티움 사람들은 바다 위에서 그들을 반대하는 사람들의 마음에 공포를 느끼기 위해 초기 형태의 화염방사기를 사용했습니다.
+			</Text>
+		</Row>
+		
+		<!-- Dummies -->
+		<!-- Created by adan_eslavo 29/08/2018 -->
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_BARBICAN">
+			<Text>DF Barbican</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_OPPIDUM">
+			<Text>DF Oppidum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_PROXENOS">
+			<Text>DF Proxenos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_HUEY">
+			<Text>DF Huey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_GUMEY">
+			<Text>DF Gumey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_BUFFALO">
+			<Text>DF Buffalo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_FLAX">
+			<Text>DF Flax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_GUMEY_LUX">
+			<Text>근처의 모든 사치 자원에 대해 [ICON_GOLD]골드 +1 </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SACHEM_1">
+			<Text>DF Sachem 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SACHEM_2">
+			<Text>DF Sachem 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SACHEM_3">
+			<Text>DF Sachem 3</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SACHEM_4">
+			<Text>DF Sachem 4</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SACHEM_5">
+			<Text>DF Sachem 5</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SACHEM_6">
+			<Text>DF Sachem 6</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SACHEM_7">
+			<Text>DF Sachem 7</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_QILA_1">
+			<Text>DF Qila 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_QILA_2">
+			<Text>DF Qila 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_TEUTONIC">
+			<Text>DF Teutonic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_D_FOR_BARBICAN">
+			<Text>요새</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_TERSANE">
+			<Text>DF Tersane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_D_FOR_GUMEY">
+			<Text>수구바</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SCHUTTERIJ">
+			<Text>DF Doelen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_RIAD">
+			<Text>DF Riad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_SALON">
+			<Text>DF Salon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_CHAEBOL">
+			<Text>DF Chaebol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_HIPPODROME">
+			<Text>[ICON_HAPPINESS_1]국왕 경축일 동안 +15% [ICON_GOLD]골드, [ICON_CULTURE]문화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_BAAN">
+			<Text>DF Baan Chang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_TELPOCHCALLI">
+			<Text>DF Telpochcalli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_LATIFUNDIUM">
+			<Text>DF Villa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_FORNIX">
+			<Text>제거된 문명과 도시 국가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_POGOST">
+			<Text>DF Pogost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_ALTICUR">
+			<Text>DF Alti Cur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_CHARBAGH">
+			<Text>DF Charbagh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ETHIOPIA_MONOLITHIC_CHURCH_IDEOLOGY">
+			<Text>Dummy Ideology Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ETHIOPIA_MONOLITHIC_CHURCH_PANTHEON">
+			<Text>Dummy Pantheon Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ETHIOPIA_MONOLITHIC_CHURCH_FOUNDER">
+			<Text>Dummy Founder Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ETHIOPIA_MONOLITHIC_CHURCH_ENHANCER">
+			<Text>Dummy Enhancer Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ETHIOPIA_MONOLITHIC_CHURCH_REFORMATION">
+			<Text>Dummy Reformation Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ETHIOPIA_MONOLITHIC_CHURCH_BYZANTIUM">
+			<Text>Dummy BYZANTIUM Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHOPHET_DUMMY">
+			<Text>DF Shofet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_QULLQA">
+			<Text>1 [ICON_RES_COCA]코카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_BEER_HALL_FREEDOM">
+			<Text>DF Brauhaus Freedom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_BEER_HALL_ORDER">
+			<Text>DF Brauhaus Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_D_FOR_BEER_HALL_AUTOCRACY">
+			<Text>DF Brauhaus Autocracy</Text>
+		</Row>
+		<!-- E-temenanki -->
+		<!-- Created by adan_eslavo 28/11/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_BABYLON_ETEMENANKI">
+			<Text>이테메낸키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BABYLON_ETEMENANKI_HELP">
+			<Text>국가 기념비를 대체하는 바빌론의 고유 불가사의입니다. 도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시의 [ICON_CITIZEN]시민이 증가하면 도시의 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 획득하고, 정책을 채택할때 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 획득합니다. [NEWLINE]이 건물 건설에 투자를 하면, 도시의 [ICON_FOOD]식량과 [ICON_RESEARCH]과학이 산출량의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]를 획득합니다. [NEWLINE][NEWLINE]모든 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]기념비[ENDCOLOR]의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가, 모든 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]성소[ENDCOLOR]의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_CAPITAL]수도에만 건설할 수 있으며, 도시에 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]기념비[ENDCOLOR]가 있어야 합니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT] 국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BABYLON_ETEMENANKI_STRATEGY">
+			<Text>이테메낸키는 바빌로니아 고유 불가사의로 국가 불가사의를 대체합니다. 국가 기념비의 일반적인 보너스 외에도, 이테메낸키는 문명이 건물에 투자할 때마다 음식과 과학을 얻으므로, 건물에 조기에 자주 투자하십시오. 제국의 모든 기념물은 +1 과학을 얻고 모든 신사는 +2 식량을 얻습니다. 국가 기념비보다 일찍 건설이 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BABYLON_ETEMENANKI_TEXT">
+			<Text>이테메낸키는 폭풍의 신이자 바빌론 종교관의 우두머리 마르두크의 지구라트였습니다. 지구라트는 메소포타미아 도시에 각 도시의 수호신의 문자 그대로 거주지로 세워진 종교적인 사원입니다. 지구라트는 신들이 더 편안하게 느끼도록 신들이 원래 살았다고 믿었던 높은 산들을 복제하기 위해 지어졌습니다.</Text>
+		</Row>
+
+		<!-- Examination Hall -->
+		<!-- Created by Blue Ghost-->
+		<Row Tag="TXT_KEY_BUILDING_CHINA_EXAMINATION_HALL">
+			<Text>과거 고사장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHINA_EXAMINATION_HALL_TEXT">
+			<Text>
+				아마도 중국 문화의 가장 위대한 유산은 천자의 제국이 2천년 이상 제공하고 감독한 과거 제도일 것입니다. 과거 제도는 배움의 귀족을 창조하려는 시도를 나타내었고, 이는 전사와 유전적 귀족이 지배층이였던 다른 나라들에 비하면 놀라운 발전이었습니다. 과거 제도의 시험은 암기 시험에 더해 5대 유교 고전에서 유교 철학과 윤리를 직접 인용해야했습니다. 가장 높은 학위를 받은 학자인 진시는 자신의 기억력을 엄청나게 훈련 시켰을 것입니다.[NEWLINE][NEWLINE]
+				서구 대학들이 경제, 공학, 자연 과학을 수용하기 위해 그들 자신의 고전 전통에서 벗어나기 시작하면서, 중국의 학문적 노력은 고대 문학의 과거에 시달렸습니다. 현대화에 대한 압력으로, 서태후에 의해 1890년에 시험이 폐지되었고, 세계 최초의 지적 성과주의 체제로서의 유산을 남겼습니다.[NEWLINE][NEWLINE]
+				“우리는 세계 역사상 독특한 실험을 시도했습니다. 우리는 이 위대한 나라를 무력이 아니라 지혜로 다스리려고 했습니다. 수세기 동안 우리는 성공했습니다.”[NEWLINE]
+				-익명의 유교 철학자, "중국 영화"에서 발췌
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHINA_EXAMINATION_HALL_STRATEGY">
+			<Text>과거 고사장은 외교 청사를 대체하는 중국 고유의 건물입니다. 외교 청사의 일반적인 보너스 외에도 시민이 태어날 때마다 현재 도시에서 가장 많은 점수를 얻은 위대한 사람에게 위대한 위인 점수를 얻어 도시의 위인 출현율이 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHINA_EXAMINATION_HALL_HELP">
+			<Text>외교 청사를 대체하는 중국의 고유 건물입니다. 외교 유닛을 생산할때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 제공합니다. 도시에서 생산하는 외교 유닛에 [COLOR_PLAYER_PURPLE]국왕 인장[ENDCOLOR] 승급을 부여합니다.[NEWLINE][NEWLINE]동맹인 도시국가 1개당 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_CITIZEN]시민이 증가하면, 진행률이 가장 높은 [ICON_GREAT_PEOPLE]위인의 점수를 [COLOR_POSITIVE_TEXT]15점[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]받습니다.[NEWLINE][NEWLINE]도시의 [ICON_GREAT_WORK]걸작 1개마다 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		
+		<!-- Figs -->
+		<!-- Created by adan_eslavo on 25/12/2017 -->
+		<Row Tag="TXT_KEY_RESOURCE_ROME_FIGS">
+			<Text>무화과</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_ROME_FIGS_HELP">
+			<Text>재배지로 개발할 수 있습니다. 라디푼디움을 건설하면 옆 타일에 출현합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_ROME_FIGS_TEXT">
+			<Text>동양과 서아시아가 원산지인 무화과는 고대부터 인간이 재배한 가장 오래된 식물 중 하나입니다. 무화과는 고대 그리스에서 흔했고 로마로 퍼져나갔고 그곳에서 하층민들의 주요 열매를 맺었습니다. 무화과는 보존하기 쉽고 당도가 높아 조미료 형성에 적합합니다. 그것은 아마도 무화과가 나중에 유행에서 떨어지는 것을 본 평범한 사람들의 단순함과 가난과의 바로 이 연관성일 것입니다.</Text>
+		</Row>
+
+		<!-- Fornix -->
+		<!-- Created by pineappledan on 30/05/2024 -->
+		<Row Tag="TXT_KEY_TECH_TRIUMPH_TITLE">
+		    <Text>포르닉스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TRIUMPH_DESC">
+ 		   <Text>너무 탐욕스럽고 깊이 파고들었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TRIUMPH_HELP">
+ 		   <Text>비밀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TRIUMPH">
+		    <Text>승리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TRIUMPH_TEXT">
+ 		   <Text>적 문명이나 도시 국가를 물리치면 승리가 주어집니다. 승리는 제국 내의 어느 도시에서든 새로운 포르닉스를 건설할 수 있게 해줍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ROME_FORNIX">
+ 		   <Text>포르닉스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ROME_FORNIX_HELP">
+ 		   <Text>건설된 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] [ICON_GREAT_WRITER] 위대한 작가 1명이 출현하고, "국왕 경축일"을 10턴 동안 시작합니다. 이 도시의 송수로는 추가로 +2 [ICON_GOLD] 골드와 [ICON_TOURISM] 관광을 얻으며, 문명 내의 다른 모든 송수로는 +1 [ICON_GOLD] 골드와 [ICON_TOURISM] 관광을 얻습니다.[NEWLINE][NEWLINE]이 도시에서 생성된 모든 지상 유닛(과거 및 미래)은 [COLOR_POSITIVE_TEXT]사기[ENDCOLOR] 승급을 받아 전투력 +10%를 얻습니다. 이 도시의 인구로 지원되는 군사 유닛이 10% 증가합니다. [ICON_GREAT_WORK] 위대한 작품을 위한 슬롯 1개를 포함합니다.[NEWLINE][NEWLINE]제한 없이 1개의 {TXT_KEY_BUILDING_ROME_FORNIX}을 건설할 수 있습니다. 제거한 문명 또는 [ICON_CITY_STATE] 도시 국가마다 추가로 1개의 {TXT_KEY_BUILDING_ROME_FORNIX}을 건설할 수 있습니다. 소유한 도시 수에 따라 건설 비용과 인구 요구사항이 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ROME_FORNIX_STRATEGY">
+  		  <Text>포르닉스는 로마의 고유한 불가사의로, 영웅 서사를 대체합니다. 다른 국가 불가사의와 달리, 포르닉스는 제국 내에서 여러 번 건설할 수 있습니다. 첫 번째 포르닉스는 어떤 도시에서든 제한 없이 건설할 수 있지만, 제거한 문명이나 도시 국가마다 추가로 포르닉스를 건설할 수 있습니다. 영웅 서사의 일반적인 보너스 외에도, 포르닉스를 건설하면 해당 도시에서 "국왕 경축일"이 시작되고 제국 내의 모든 경기장이 강화됩니다. 도시 국가를 정복하여 여러 개의 포르닉스를 건설하고, 글로벌 산출량과 여러 명의 무료 위대한 작가를 쌓는 이점을 최대한 활용하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ROME_FORNIX_TEXT">
+ 		   <Text>로마의 개선문, 또는 포르닉스는 도로 위에 세워진 자립형 아치로, 로마 건축의 상징적인 기념물입니다. 로마 공화정 동안 포르닉스는 로마인을 위대한 승리로 이끈 장군을 기리기 위해 건설되었습니다. 장군은 로마 시내를 행진하며 상원에 도착할 때까지 퍼레이드를 이끌었고, 종종 축제는 일련의 경기와 연회로 연장되었습니다. 후기에 로마 제국은 반신화적인 전통과 개선문의 전통을 모방했지만, 아치형 통로는 다양한 황제의 죽음, 새로운 식민지의 설립 및 다른 인프라의 건설을 기념하기 위해 더 자유롭게 사용되기 시작했습니다. 대형 아치를 전쟁 기념물로 사용하는 전통은 오늘날까지 계속되고 있습니다.</Text>
+		</Row>
+
+		
+		<!-- Fusta -->
+		<Row Tag="TXT_KEY_UNIT_VENICE_FUSTA">
+			<Text>푸스타</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VENICE_FUSTA_HELP">
+			<Text>베네치아의 고유 유닛입니다. 그레이트 갈레아스의 대체품라기엔 작고 빠른 보완품입니다. 약하지만 저렴하고 군사 [ICON_GOLD]유지비가 없고  [ICON_SILVER_FIST]군사 유닛 보급 한도에 들어가지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VENICE_FUSTA_STRATEGY">
+			<Text>푸스타는 빠르고 저렴하며 장치 유지 비용이 들지 않습니다. 이 선박을 더 큰 갈레아스와 함께 사용하여 경제에 과도한 부담을 주지 않으면서 해상 교역로를 보호하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VENICE_FUSTA_TEXT">
+			<Text>푸스타는 35명 이하의 선원을 가진 작은 갤리선이었습니다. 베네치아인들은 원래 해적에 대항하는 상비군을 유지하기 위해 유난히 가볍고 빠른 푸스타를 사용했지만 순식간에 해적들이 좋아하는 해적선이 되었습니다. 푸스타의 얕은 바닥과 기동성 및 속도는 푸스타와 해적들을 지중해의 전설로 만들었습니다.</Text>
+		</Row>
+
+		<!-- Holkan -->
+		<!-- Created by adan_eslavo on 16/12/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_SCOUT_GOODY_BONUS_2">
+			<Text>잃어버린 고문서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_SCOUT_GOODY_BONUS_2_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]고대 유적[ENDCOLOR]을 탐험할 때 마다 +25% 산출량, [ICON_RESEARCH]과학과 [ICON_CULTURE]문화 획득.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAYA_HOLKAN">
+			<Text>훌칸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAYA_HOLKAN_HELP">
+			<Text>길잡이를 대체하는 마야의 고유 유닛입니다. [COLOR_POSITIVE_TEXT]고대 유적[ENDCOLOR]을 탐험할때 마다 [ICON_RESEARCH]과학과 [ICON_CULTURE]문화를 얻습니다. [COLOR_POSITIVE_TEXT]개척 I[ENDCOLOR] 승급을 가지고 시작합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAYA_HOLKAN_STRATEGY">
+			<Text>홀칸은 마야를 위한 빠르고 고유의 정찰병입니다. 잃어버린 고문서 승급덕분에 길잡이보다 더 빠르게 탐색하고 더 쉽게 경험을 얻습니다. 전투력이 야만인보다 높아 일반 정찰병보다 더 멀리 범위를 넓히고 더 많은 위험을 감수할 수 있게 합니다. 이 유닛을 사용하여 폐허를 빠르게 점령하고 초기 과학적 우위와 문화적 우위를 확보하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAYA_HOLKAN_TEXT">
+			<Text>
+				마야인들은 서구 역사가들에 의해 종종 평화문명으로 이상화되지만, 마야인들은 전쟁에 낯선 사람들이 아니었습니다. 그러나, 유럽과 아시아의 전쟁과는 달리, 마야인들은 정치적인 것만큼이나 점성술적이고 종교적인 관심사를 바탕으로 고도의 의식화된 전투 형태를 취했습니다. 땅, 영향력, 자원을 둘러싼 다툼은 흔했지만, 인간의 희생에 대한 필요성도 전쟁으로 이어지는 요인이었습니다.
+				[NEWLINE][NEWLINE]마야 도시의 귀족과 사제직은 폭력에 대한 독점권을 유지하여 상류 계급의 업무 내에서 가장 절박한 전쟁을 제외한 모든 것을 엄격하게 만들었습니다. 흑요석과 규질암으로 만든 무기는 영주와 왕의 궁전에 비축되어 가족에게 습격을 이끌었습니다. 그러한 원정대의 지도자들은 훌칸으로 알려졌습니다.
+			</Text>
+		</Row>
+		
+		<!-- Great Turkish Bombard -->
+		<!-- Created by adan_eslavo on 1/11/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_OTTOMANS_SIEGE_INACCURACY_2">
+			<Text>부정확성 II (공성)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_OTTOMANS_SIEGE_INACCURACY_2_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]지상 유닛 대항시[ENDCOLOR] [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_OTTOMANS_SAHI_TOPU">
+			<Text>사히 토푸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_OTTOMANS_SAHI_TOPU_HELP">
+			<Text>공격할때마다 [COLOR_POSITIVE_TEXT]체력[ENDCOLOR]이 [COLOR_NEGATIVE_TEXT] -15[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD_1">
+			<Text>바실리카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD_2">
+			<Text>다르다넬스 화포</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD_3">
+			<Text>무함마드 대 화포</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD_4">
+			<Text>오르반의 대포</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD_5">
+			<Text>칼레 아치치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD">
+			<Text>우르반 대포</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD_HELP">
+			<Text>도시를 산산조각낼 수 있는 믿을 수 없을 만큼 강력한 유닛입니다. 오스만의 고유 유닛입니다. 해상 유닛과 도시에 더 강력하지만, 반대로 다른 공성무기와 반대로 육상 유닛에 약합니다.[NEWLINE]공격할때마다 스스로 [COLOR_NEGATIVE_TEXT]15[ENDCOLOR]의 피해를 입습니다. 한번에 [COLOR_YELLOW]2기[ENDCOLOR]로 제한 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD_STRATEGY">
+			<Text>우르반 대포는 강력한 공성 무기입니다. 당대 가장 강력한 공성 부대입니다. 너무 위험해서 스스로 아파요! 도시와 해군 유닛에 파괴적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMANS_GREAT_TURKISH_BOMBARD_TEXT">
+			<Text>
+				큰 것이 더 좋고, 제일 큰 것이 가장 좋습니다. 중세 말기의 초대형 폭격기는 15세기 초에 서유럽 전쟁에서 처음 사용되었지만, 1453년 콘스탄티노폴리스 공성전에서 폭격의 잠재력을 최대한 발휘한 것은 오스만입니다. 비잔틴 황제의 후원을 구할 수 없었던, 오르반이라는 헝가리 총기 설립자는 오스만 제국의 메흐메트 2세에게 그의 공로를 팔았고 1.6톤의 돌을 1.6킬로미터 이상 던질 수 있는 청동 대포를 만들기 시작했습니다.[NEWLINE][NEWLINE]
+				그렇게 거대한 무기를 운반하는 데는 60마리의 황소가 필요했고, 난공불락의 테오도시우스 성벽에 대포를 발사하기 전에 도로망 전체를 건설해야 했습니다. 포격이 시작된 지 하루 만에 거대한 돌들이 외부 방어벽을 부수고 무너졌고 천 년 동안 기독교의 요새로 서 있던 도시가 무너졌습니다. 콘스탄티노플의 부대는 그 후 3일 동안 맹위를 떨쳤고, 그리스인들이 유럽으로 대량 탈출하는 계기가 되었습니다. 비잔틴 난민들의 유입은 르네상스의 씨앗을 심으면서 그리스 문화의 철학적, 지적 성취의 재발견을 서유럽으로 가져왔습니다.[NEWLINE][NEWLINE]
+				돌 폭격기는 16세기 말까지 철구 대포로 대체되었고, 남은 폭격기는 거의 없습니다. 그러나 그 폭격의 후손들 중 누구도 한 시대를 혼자 끝냈다고 주장할 수 없습니다.
+			</Text>
+		</Row>
+		
+		<!-- Goedendag -->
+		<!-- Created by De_Genius on 28/10/2017, modified and incorporated by adan_eslavo on 12/12/2017 -->
+		<Row Tag="TXT_KEY_UNIT_NETHERLANDS_GOEDENDAG">
+			<Text>고덴닥</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NETHERLANDS_GOEDENDAG_HELP">
+			<Text>지원 능력을 갖춘 저렴하고 다재다능한 방어 유닛입니다. 장창병을 대체하는 네덜란드의 고유 유닛입니다. 인접한 모든 유닛에 추가 [ICON_STRENGTH]전투력을 제공하고 도시에 주둔하면 [ICON_STRENGTH]전투력이 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NETHERLANDS_GOEDENDAG_STRATEGY">
+			<Text>고덴닥은 단일로는 이상했었지만 조직으로는 효과적이었습니다. 고덴닥은 기병대에 효과적이지만 인접한 모든 유닛에 대한 공격력이 증가하고 턴 시작 시 도시에 주둔하면 추가 전투력을 가집니다. 고덴닥은  서로 인접해 있어야 승급 혜택을 받을 수 있습니다. 이 부대들은 매우 빠르게 건설할 수 있어 기습전 발생 시 병력을 소집할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NETHERLANDS_GOEDENDAG_TEXT">
+			<Text>
+				고덴닥은 프랑스-플레미시 전쟁 당시 중세 플랑드르 민병대가 사용했던 4피트 길이의 곤봉입니다. 이 무기는 프랑스인에 의해 고덴닥(godendag)으로 명명되었는데, 이는 네덜란드의 "좋은 하루"(good day)라는 인사말과 관련이 있습니다. 이 이름은 1302년 브루게스 마틴스 학살 사건을 지칭한 것일지도 모릅니다. 브루제의 길드 조합원들은 거리에서 사람들에게 인사를 하고 프랑스 억양으로 대답한 사람들을 살해함으로써 도시를 점령했습니다.[NEWLINE][NEWLINE]
+				고덴닥은 플랑드르 길드 조합원들에 의해 프랑스 기사들에 대항하는 큰 효과로 사용되었지만, 정확히 어떻게 이 무기가 사용되었는가는 논쟁의 원천입니다. 현대의 그림들은 그것이 클럽으로 사용되었다는 것을 보여주며, 서면 서술에 의하면 그것의 첫번째 창은 돌격에 맞서는 창으로 사용되었고, 그 다음에는 적이 저지당했기 때문에 곤봉으로 사용되었다고 합니다. 그러나, 고덴닥으로 무장한 사람들은 서유럽에서 중무장 기병대의 종말의 시작을 알렸고, "보병 혁명"의 시작을 알렸고, 농민 민병대는 이제 직업군인들에게 믿을 수 있는 위협이 되었습니다. 외국인 폭군들에 대한 일반인들의 놀라운 승리는 저지대 국가들에게는 낭만적인 민족주의의 샘이 되었습니다.[NEWLINE][NEWLINE]
+				"철이 멧돼지를 부딪치는 것처럼 각각의 쥐어진 고덴닥은 프랑스에 대항하여 일어났다"[NEWLINE]- 서기 1302년 Courtrai의 전투를 설명하는 현대 설명 기욤 구이아르트
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_NETHERLANDS_GOEDENDAG">
+			<Text>고덴닥!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_NETHERLANDS_GOEDENDAG_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]인접 지상 유닛[ENDCOLOR]의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_NETHERLANDS_BURGEMEESTE">
+			<Text>행정관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_NETHERLANDS_BURGEMEESTE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]우호적 도시가 인근 2타일 이내에[ENDCOLOR] 있을 경우 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Gumey -->
+		<!-- Created by pineappledan on 29/08/2018 -->
+		<Row Tag="TXT_KEY_BUILDING_SONGHAI_GUMEY">
+			<Text>구메이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SONGHAI_GUMEY_HELP">
+			<Text>대상 숙소를 대체하는 송가이의 고유 건물입니다. 도시에서 작업하는 사막이나 툰드라 타일 2개마다 [ICON_FOOD]식량과 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 [ICON_GREAT_MERCHANT]상인 전문가의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE]이 도시로부터 출발하거나 도착하는 [ICON_INTERNATIONAL_TRADE]국제 육상 교역로가 완료되면, [ICON_CULTURE]문화와 [ICON_TOURISM]관광의 현재 산출량에 기반한 [ICON_TOURISM]관광을 제공합니다. [ICON_INTERNATIONAL_TRADE]육상 교역로의 범위가 [COLOR_POSITIVE_TEXT]75%[ENDCOLOR] 증가하고 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 이 도시로 오는 다른 문명의 [ICON_INTERNATIONAL_TRADE]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]대상이 이 도시를 가로질러 교역을 하면 [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE][ICON_RES_TRUFFLES]송로버섯: [ICON_GOLD]골드 +2.[NEWLINE][ICON_RES_COTTON]면: [ICON_PRODUCTION]생산 +1, [ICON_CULTURE]문화 +1.[NEWLINE][ICON_RES_FUR]모피: [ICON_GOLD]골드 +1, [ICON_PRODUCTION]생산 +1.[NEWLINE]그 외의 모든 사치자원에 [ICON_GOLD]골드 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SONGHAI_GUMEY_STRATEGY">
+			<Text>구메이는 대상숙소를 대체하는 송가이의 고유 건물입니다. 구메이는 일반 대상숙소보다 무역에 훨씬 더 큰 보너스를 제공하여 국제 무역로를 강화하고 무역로가 도시를 통과하는 경우 추가 산출량을 제공합니다. 문명의 영토를 확장하고 광대한 무역에서 경제적 이익을 거두십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SONGHAI_GUMEY_TEXT">
+			<Text>
+				말리 제국으로부터 독립하기 이전에도 송가이는 사하라 횡단 무역로에서 금, 소금, 노예의 무역으로 엄청난 부자가 되었습니다. 송가이의 권력은 북쪽의 타지산 소금 광산과 남서쪽의 금광, 그리고 이집트와 중동의 먼 시장 사이에 있는 거대한 사하라 사막 끝에 놓여 있었습니다. 구메족은 강변 항구와 웨이스트 스테이션으로, 니제르 강을 따라 물자와 군인들을 앞뒤로 운반하는 데 사용되었고, 열린 사막을 가로지르는 힘든 여정을 위해 낙타에 실렸습니다.
+			</Text>
+		</Row>		
+		
+		<!-- Gymnasium -->
+		<Row Tag="TXT_KEY_BUILDING_GREECE_GYMNASIUM">
+		    <Text>김나지움</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GREECE_GYMNASIUM_TEXT">
+		    <Text>김나지움은 그리스 성인 남성들이 사회적 교류를 하고 공공 경기를 연습하기 위해 사용된 훈련 시설이었습니다. 이름은 대략적으로 "벌거벗은 훈련 장소"로 번역되며, 이는 모든 운동선수들이 벌거벗은 채로, 대개 올리브 오일을 바르고 연습했기 때문입니다. 김나지움은 처음에는 도시 외곽의 열린 들판으로 시작되었으나, 나중에는 그리스 공공 생활의 중심이 되는 폐쇄된 공간으로 계획되었습니다. 공공 경기와 축제 자체도 중요했지만, 김나지움은 예술과 학문의 중심지가 되기도 했습니다. 아테네의 유명한 철학 학교들 -- 플라톤이 설립한 아카데미 학파, 아리스토텔레스가 설립한 페리파토스 학파, 안티스테네스가 설립한 키니코스 학파 -- 모두 그들이 모였던 김나지움의 이름을 따서 설립되고 명명되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREECE_GYMNASIUM_STRATEGY">
+		    <Text>그리스의 고유 건물로 {TXT_KEY_BUILDING_AMPHITHEATER}를 대체합니다. {TXT_KEY_BUILDING_AMPHITHEATER}의 보너스 외에도, {TXT_KEY_BUILDING_GREECE_GYMNASIUM}는 유닛이 적 유닛을 격파할 때마다 [ICON_CULTURE] 문화와 [ICON_CULTURE_LOCAL] 국경 성장 점수를 생성합니다.</Text>
+		</Row>
+
+		
+		<!-- Hashemite Raider -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_UNIT_ARABIA_HASHEMITE_RAIDER">
+			<Text>하심 침투병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARABIA_HASHEMITE_RAIDER_TEXT">
+			<Text>
+				오랫동안 "유럽의 병자"으로 여겨 졌던 오토만 권력은 민족 주의적 정서가 아랍 인구에 뿌리를 내리기 훨씬 전에 쇠퇴했습니다. 제 1차 세계대전이 유럽 강대국들 사이에서 발생했을 때 오스만은 아랍의 반대를 분쇄하기 시작했습니다. 아랍 시민들은 새로운 이슬람 제국을 선포하면서 대중의 반란에 대응했습니다.[NEWLINE][NEWLINE]
+				메카의 샤리프인 후세인 빈 알리는 아라비아에 하심 왕조를 재건하기 위한 희망으로 반란을 일으켰고, 헤자즈에서 터키 주인들에 대한 무장 반란으로 그의 동료 아랍인들을 이끌었습니다. 오스만 군대를 새로운 전선으로 묶을 기회를 보고, 영국은 아랍의 패권을 인정하고 반란을 크게 지원하겠다고 약속했고, 지금은 유명한 T.E. 로렌스를 연락원으로 보냈습니다. 이 새로운 자금과 장비 투입으로, 아랍인들은 사막을 통해 게릴라전을 벌였고, 오스만 제국의 보급선을 무너뜨렸습니다. 프랑스와 영국 해군의 도움으로, 그들은 지중해 연안을 따라 몇몇 항구를 점령할 수 있었고, 그들의 주장에 동참하기 위해 더욱 대담해졌습니다.[NEWLINE][NEWLINE]
+				1918년 제 1차 세계대전이 끝나고 오스만 제국의 패배로 아랍인들은 새로운 왕국을 세우면서 유럽 동맹국들의 전폭적인 협력을 기대했습니다. 하지만, 영국과 프랑스인들은 다른 계획을 가지고 있었습니다. 비밀리에, 프랑스와 영국은 비밀리에 사이크스-피코 협정을 맺었고, 이 협정은 중동 지역을 그들 각자의 영향력 영역으로 나누었습니다. 신뢰할 수 있는 동맹국에 대한 이 엄청난 배신으로 그 이후로 아랍 국가들과 서방국들 사이의 관계가 악화되고 있습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARABIA_HASHEMITE_RAIDER_STRATEGY">
+			<Text>하심 침투병은 경전차를 대체하는 아랍의 고유 유닛입니다. 히트앤런 전술과 적의 보급선 교란에 능숙합니다. 시설을 약탈할 때마다 인접한 적 유닛이 15의 피해를 입습니다. 사막을 빠르게 이동합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARABIA_HASHEMITE_RAIDER_HELP">
+			<Text>경전차를 대체하는 아라비아의 고유 유닛입니다. 경전차보다 빨리 쓸 수 있으며 [ICON_RES_ALUMINUM]알루미늄을 필요로 하지 않습니다. 사막에서 더 빠르고 강해집니다. 타일을 약탈할때 [ICON_MOVES]이동력을 소비하지 않고, 인접한 적 유닛에게 추가 피해를 입힙니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ARABIA_GARLAND_MINE">
+			<Text>갈란드 마인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ARABIA_GARLAND_MINE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]약탈시[ENDCOLOR] [ICON_ARROW_RIGHT]이동력의 [COLOR_POSITIVE_TEXT]소모 없음[ENDCOLOR]. [NEWLINE]약탈시 인접한 적에게 피해[COLOR_POSITIVE_TEXT]15[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ARABIA_DESERT_RAIDER">
+			<Text>사막 침투병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ARABIA_DESERT_RAIDER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]사막에서[ENDCOLOR] [ICON_ARROW_RIGHT]이동력 2배, [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Hippodrome -->
+		<!-- Created by adan_eslavo 2/12/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_BYZANTIUM_HIPPODROME">
+			<Text>히포드롬</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BYZANTIUM_HIPPODROME_HELP">
+			<Text>원형경기장을 대체하는 비잔티움의 고유 불가사의입니다. 투기장을 필요로 하지 않습니다. 해당 건물이 지어진 도시에 무료로[COLOR_YELLOW]말[ENDCOLOR]자원 [COLOR_YELLOW]2개[ENDCOLOR]를 제공합니다.[NEWLINE]건설 완료시 [ICON_HAPPINESS_1]"국왕 경축일"이 즉시 시작되고, [ICON_HAPPINESS_1]국왕 경축일 동안 문명의 [ICON_GOLD]골드와 [ICON_CULTURE]문화의 산출량이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 새 시대에 진입할때 마다, 문명 전체가 [ICON_HAPPINESS_1]국왕 경축일을 맞이합니다.[NEWLINE][NEWLINE]모든 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]투기장[ENDCOLOR]의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고, 모든 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]서커스[ENDCOLOR]의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 문명에 존재하는 모든 [ICON_RES_HORSE]말 자원 타일의 [ICON_GOLD]골드와 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BYZANTIUM_HIPPODROME_STRATEGY">
+			<Text>
+				히포드롬은 원형경기장을 대체하는 비잔틴 고유의 불가사의입니다. 원형경기장과 비교하여 "국왕 경축일" 동안 골드와 문화 산출량이 크게 증가시키고 건설완료 시 "국왕 경축일"를 시작합니다. 문명의 모든 경기장은 골드가 증가하고 서커스는 문화를 받으며, 말 자원은 둘 다 얻을 수 있습니다.[NEWLINE][NEWLINE]
+				모든 도시에서 요구되는 사치품을 재설정하기 위해 무료 "국왕경축일"를 타이밍으로 새로운 시대로의 전환이 오는 시간에 주의하십시오.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BYZANTIUM_HIPPODROME_TEXT">
+			<Text>히포드롬은 전차 경주 트랙이자 비잔틴 사회 및 정치 생활의 심장부였습니다. 로마의 서커스 막시무스보다 발자국이 약간 작지만 제국 곳곳의 예술과 보물로 장식 된 콘스탄티노플의 웅장한 히포 드롬 만큼은 없었습니다. 콘스탄티노플 히포드롬은 수도를 도시로 옮긴 직후 콘스탄티누스 대제가 직접지었습니다. 이 트랙은 궁전 옆에 배치되어 거대한 'U'자 모양으로 중앙에 10 개의 기념물이 늘어서 있습니다.[NEWLINE][NEWLINE]
+			단순히 부자들의 오락이 아니라, 전차경주는 서민들이 한 장소에서 황제를 보고 교류할 수 있는 유일한 장소가 되었습니다. 평민들은 스포츠 행사 동안 정치 또는 종교 개혁을 위한 구호를 시작할 기회를 잡았습니다. 콘스탄티노플에는 각각 청색당, 백색당, 녹색당, 적색당의 4개의 다른 경주팀을 후원하는 정당이 존재했습니다. 각 팀이 대표하게 된 종교적, 사회적, 정치적 성향에 의해 더욱 가열된 이러한 경주의 결과에 엄청난 액수의 돈이 결려있었습니다.이렇게 생긴 불화는 니카의 반란을 통해서도 드러나기도 하였습니다.[NEWLINE][NEWLINE] 
+			청색당의 열렬한 지지자였던유스티니아누스 1세의 통치 기간 동안, 이전의 폭동으로부터 살인죄로 체포된 두 훌리건의 유죄 판결에 대한 논쟁이 일어났습니다. 이 사람들의 판결은 끔찍한 폭도 속에서 유스티니아누스에 대항하여 청색당과 녹색당을 통합시켰고, 불만을 품은 귀족들은 유스티니아누스의 새로운 세금에 대한 복수로 그를 축출하려고 시도할 기회를 잡았습니다. 처음에는 도망갈 생각을 했지만, 유스티니아누스는 그의 충성스런 장군들을 모아 폭도들을 히포드롬으로 끌어들이고, 그곳에서 그들은 왕실 경비병들과 고딕 용병들에 의해 도살당했습니다. 니카의 반란이 끝났을 때, 콘스탄티노플의 절반이 불에 탔고 3만 명이 사망했습니다. 이는 세계 역사상 가장 치명적인 반란이었습니다.</Text>
+		</Row>
+
+		<!-- Huey Teocalli -->
+		<Row Tag="TXT_KEY_BUILDING_AZTEC_HUEY_TEOCALLI">
+			<Text>우에이 테오칼리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AZTEC_HUEY_TEOCALLI_TEXT">
+			<Text>아즈텍 제국에서, 테오칼리는 지붕이 있는 사원에 둘러싸인 계단식 피라미드였고, 마을의 모든 중요한 종교 의식의 장소 역할을 했습니다. 스페인어로 마요르 신전이라고 불린 테노치티틀란의 심장부에 위치한 가장 거대힌 테오칼리는 한 쌍의 신에게 바쳐진 곳입니다. 전쟁의 신인 위칠로포츠틀리와 농업의 신 틀라톡은 아즈텍 문화에서 중요한 것을 나타냅니다. 각각의 신은 별도의 신전을 가지고 있었고, 별도의 계단으로 도달할 수 있었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AZTEC_HUEY_TEOCALLI_STRATEGY">
+			<Text>우에이 테오칼리는 대사원을 대체하는 아즈텍의 고유 국가 불가사의입니다. 사원이 필요하지 않으며, 대사원의 일반적인 보너스 외에도, 우에이 테오칼리는 도시의 종교적 영향력에 큰 보너스를 제공하고, 호수와 무기고의 산출량을 증가시키며, 건설 완료 시 즉시 황금기를 시작합니다. 황금기를 맞이하면서, 우에이 테오칼리가 있는 도시는 즉시 성장합니다. 우에이 테오칼리는 또한 아즈텍의 고유한 능력으로 인한 전투력에 따라 증가하는 생산량에 더해, 처치에서 고정 금액만큼 추가 신앙과 금을 생성합니다. 황금기를 시작하기 위해 전쟁을 끝내는 경우, 빠르게 새로운 대상을 선택해 처치 시 추가 수익을 얻을 수 있도록 하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AZTEC_HUEY_TEOCALLI_HELP">
+			<Text>대사원을 대체하는 아즈텍의 고유 불가사의입니다. 도시에 사원이 없어도 건설이 가능합니다. 건설이 완료되면 [ICON_GOLDEN_AGE]황금기가 시작합니다. [ICON_GOLDEN_AGE]황금기가 시작될 때 마다 도시에 새로운 [ICON_CITIZEN]시민 1명을 추가합니다. [ICON_GOLDEN_AGE]황금기 동안, 전투에서 적 유닛을 물리치면 [ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]10[ENDCOLOR], [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다.[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]문명의 모든  [COLOR_PLAYER_NETHERLANDS_BACKGROUND]사원[ENDCOLOR]의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고, 모든  [COLOR_PLAYER_NETHERLANDS_BACKGROUND]무기고[ENDCOLOR]의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 도시에서 나오는 다수 [ICON_RELIGION]종교의 압력을 100% 증가시킵니다. [ICON_GREAT_WORK]걸작 음악 슬롯 1개를 제공합니다. 모든 도시의 [ICON_RELIGION]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		
+		<!-- InDuna -->	
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ZULU_IBUTHO">
+			<Text>이부토</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ZULU_IBUTHO_HELP">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군 능력을 [COLOR_POSITIVE_TEXT]사용할때[ENDCOLOR] 같은 타일에 있는 우호 유닛에 [COLOR_POSITIVE_TEXT]+30XP[ENDCOLOR] 제공</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA">
+			<Text>인두나</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_STRATEGY">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군을 대체하는 줄루의 고유 영웅 유닛입니다. 성채를 대체하는 고유의 위인 시설인 이시바야를 건설할 수 있습니다.[NEWLINE][NEWLINE]2 타일 이내의 육군 유닛의 [ICON_STRENGTH]전투력을 +15% 증가시키고, 인두나와 겹쳐진 유닛은 30의 경험치를 더 획득합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_HELP">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군을 대체하는 줄루의 고유 영웅 유닛입니다. [NEWLINE]주변의 아군 유닛의 전투력 강화를 포함한 기존의 [ICON_GREAT_GENERAL]위대한 장군과 동일한 효과를 지니며, 성채를 대체하는 고유의 방어건물인 이시바야를 건설할 수 있습니다. 해당 시설을 펼칠때, 인두나와 한 타일에 있는 아군 유닛은 경험치를 추가로 받습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_TEXT">
+			<Text>줄루족의 군대에서 지도력은 복잡한 문제가 아니었습니다. 인두나는 각 연대 이부토(줄루어로 영웅이라는 뜻입니다.)에서 나왔고 그는 군단을 지휘하는 연로 인두나들에게 차례로 응답했습니다. 이들 중 한 명 또는 그 이상의 원로 추장들이 중요한 임무에 큰 부대와 동행할지도 모르지만, 모든 줄루 부대를 지휘하는 "야전 원수"는 단 한 명도 없었습니다. 오늘날의 군대의 부사관들처럼 연대화는 사기와 규율을 위해 중요했습니다. 이것은 낭와요 카마홀레가 이끄는 군대가 영국 기둥을 파괴하고 조종하는 이산들와나 전투 중에 증명되었습니다. 낭와요 카마홀레와 그의 동료들은 영국 캠프에서 7마일 밖에 떨어지지 않은 계곡에 그들을 숨겨서 영국군 뒤에 있는 2만 명의 줄루 부대를 몰래 숨겼습니다. 정찰병들에 의해 완전히 침묵 속에 앉아 있는 것이 발견되었을 때, 인두나는 그들의 부하들에게 박차를 가하고 번개처럼 빠른 속도로 남은 거리를 닫았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_1">
+			<Text>음질리카지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_2">
+			<Text>음보파</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_3">
+			<Text>낭와요 카마홀레</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_4">
+			<Text>나다이알 이사악</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_5">
+			<Text>느렐라 카솜피시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_6">
+			<Text>움고보지 오벨라 엔타베니</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_7">
+			<Text>농갈라자 카논델라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_8">
+			<Text>다불라만지 카음판데</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_9">
+			<Text>담부자 은조보</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_10">
+			<Text>은코보파 음띠야네</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_11">
+			<Text>마브호딜라 음부야지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_12">
+			<Text>멘지와 비옐라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_13">
+			<Text>갈라 카 노다데</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_14">
+			<Text>부미다바 카은따띠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_15">
+			<Text>마부맹그와나 카은딜레라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_16">
+			<Text>지브헤브후 카마프히타</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ZULU_INDABA_17">
+			<Text>만요시</Text>
+		</Row>
+
+		
+		<!-- Iron Chariot -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_UNIT_ASSYRIA_IRON_CHARIOT">
+			<Text>강철 전차</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ASSYRIA_IRON_CHARIOT_TEXT">
+			<Text>말이 사람을 등지고 짊어 질만큼 커지기 전에는 강철 전차를 사용하여 적의 진형을 박살 내고 분산 시켰습니다. 이 튼튼한 전차는 궁수와 창 던지기 및 무기 자체를위한 플랫폼이었으며 역사상 최초의 충격 전술을 형성했습니다. 전쟁의 무기로서 말의 가치를 인식 한 아시리아는 존경받는 말 혈통을 위해 특별히 정복 할 땅을 선택한 것으로 유명했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ASSYRIA_IRON_CHARIOT_STRATEGY">
+			<Text>아시리아의 강철 전차는 전장을 장악하기 위한 충격 부대 역할을 합니다. 그들은 적군을 무너뜨리는 데 탁월합니다. 평지에 있을 때 보너스를 받지만 거친 지형에서는 더 느리게 움직입니다. 소유한 철 전차의 수를 초과하는 철 및 말 자원은 전차의 효율을 증가시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ASSYRIA_IRON_CHARIOT_HELP">
+			<Text>기마병을 대체하는 아시리아의 고유 유닛입니다. 평지에서 [ICON_STRENGTH]전투력이 증가하지만, [COLOR_NEGATIVE_TEXT]험지에서는 [ICON_MOVES]이동력을 추가로 소모합니다.[ENDCOLOR][NEWLINE][NEWLINE][ICON_RES_HORSE]말이나 [ICON_RES_IRON]철을 필요로 하지 않지만, [ICON_RES_HORSE]말이나 [ICON_RES_IRON]철이 있다면 [ICON_STRENGTH]전투력이 추가적으로 +1 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ASSYRIA_SHOCK_CAVALRY">
+			<Text>충격 기갑부대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ASSYRIA_SHOCK_CAVALRY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]평지에서[ENDCOLOR] 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ASSYRIA_IRON_AND_HORSE">
+			<Text>빠르고 강하게</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ASSYRIA_IRON_AND_HORSE_HELP">
+			<Text>[ICON_RES_HORSE]말 또는 [ICON_RES_IRON]철의 자원 수가 [COLOR_POSITIVE_TEXT]강철 전차보다 많이 있다면[ENDCOLOR] [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가[COLOR:105:105:105:255](효과 중첩 가능)[ENDCOLOR] [NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Iziko -->		
+		<Row Tag="TXT_KEY_BUILDING_ZULU_IZIKO">
+			<Text>이지코</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ZULU_IZIKO_TEXT">
+			<Text>
+				이지코는 줄루 공동체의 집합 장소로 사용되는 단순한 난로입니다. 벽난로는 음식, 따뜻함, 꿈, 그리고 조상들의 유대감의 원천으로 추앙받았습니다. 이러한 모임에서 공동체 의식과 정체성이 형성되었고, 어린 줄루인들이 공연을 하고 유대감을 가질 수 있게 되었습니다.[NEWLINE][NEWLINE]
+				벽난로는 전통적인 줄루 음악의 현대적 특징인 이시카타미야 무대 공연에서 "노래의 요리"로 비유되곤 했습니다. 꿈은 조상들과 소통하는 데 필수적인 부분이었고 뿌리 깊은 줄루 종교의 일부를 형성했습니다. 몇몇 이시카타미야 음악가들은 그들의 노래 중 일부는 영적인 영역에서 만들어졌거나 그들의 조상들에 의해 그들에게 주어졌다고 주장합니다.[NEWLINE][NEWLINE]
+				"사람은 다른 사람이 있기 때문에 사람이라고 할 수 있다."[NEWLINE]-줄루 속담
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ZULU_IZIKO_HELP">
+			<Text>원형극장을 대체하는 줄루의 고유 건물입니다. 도시의 [ICON_GREAT_WRITER]위대한 작가의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]유닛이 승급을 할 때 마다, 건설된 도시에 [ICON_CULTURE]문화를 제공합니다.[COLOR:105:105:105:255](유닛 레벨별로 보정)[ENDCOLOR] 2개의 걸작 문학 슬롯을 제공합니다.[NEWLINE][NEWLINE][ICON_RES_DYE]염료 근처: [ICON_CULTURE]문화 +1, [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_SILK]비단 근처: [ICON_CULTURE]문화 +1, [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_BRAZILWOOD]브라질 소방목 근처: [ICON_CULTURE]문화 +1, [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_LAPIS]청금석 근처: [ICON_CULTURE]문화 +2[NEWLINE][NEWLINE]위대한 작품 슬롯 2개 포함 테마 보너스: [ICON_CULTURE]문화 +2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ZULU_IZIKO_STRATEGY">
+			<Text>이지코는 원형극장을 대체하는 즐루의 고유 건물입니다. 원형 극장의 보너스 외에도 이지코는 군사 유닛이 레벨을 올릴 때마다 도시의 문화를 제공하며 레벨이 높을수록 더 많은 문화를 제공합니다. 전쟁을 제국 문화 발전의 필수적인 부분으로 만드십시오.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_THEMING_BONUS_ZULU_IZIKO">
+			<Text>{2_CivAdjective}민화 모음집</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ZULU_IZIKO_THEMING_BONUS_HELP">
+			<Text>보너스를 극대화 하려면, 모든 걸작 문학 슬롯을 자신의 문명이나 [COLOR_MAGENTA]다른 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]문학[ENDCOLOR]으로 채우십시오.</Text>
+		</Row>	
+
+		<!-- - Kabuki  -->
+		<Row Tag="TXT_KEY_BUILDING_JAPAN_KABUKI">
+		    <Text>가부키 극장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPAN_KABUKI_TEXT">
+ 		   <Text>가부키는 극적인 양식화와 일부 연기자의 화려한 메이크업으로 유명한 고전 일본 춤극입니다. 이 예술 형식은 1603년 이즈모타이샤의 무녀였던 이즈모노 오쿠니가 교토의 마른 강바닥에서 새로운 스타일의 춤극을 공연하면서 만들어졌습니다. 일본의 현대화 과정에서 많은 격변이 있었음에도 불구하고, 가부키는 여전히 전통적인 일본 드라마 스타일 중 가장 인기가 있으며, 다른 형태의 전통 일본 예술에 대한 관심을 새롭게 하는 데 기여했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPAN_KABUKI_STRATEGY">
+ 		   <Text>가부키 극장은 오페라 하우스를 대체하는 일본의 고유 건물입니다. 건설 시, 도시 내 모든 길드가 일본의 고유 길드로 대체됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JAPAN_KABUKI_HELP">
+ 		   <Text>도시의 [ICON_CULTURE] 문화 +5% 증가합니다. 이 도시로 연결된 국내 [ICON_INTERNATIONAL_TRADE] 무역로가 완료될 때마다 [COLOR_POSITIVE_TEXT]50[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]제공합니다.[NEWLINE][NEWLINE]도시 내 [ICON_GREAT_WORK] 걸작의 [ICON_TOURISM] 관광이 +1  증가합니다. [ICON_GREAT_MUSICIAN] 위대한 음악가 출현률 +33%가 증가하며. 모든 길드의 [ICON_GOLD] 골드가 +1 증가합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]위대한 음악가[ENDCOLOR]가 태어날 때마다, 제국의 매 턴 [ICON_TOURISM] 관광 산출량에 해당하는 [ICON_PEACE] 신앙을 획득합니다.[NEWLINE][COLOR_POSITIVE_TEXT]위대한 예술가[ENDCOLOR]가 태어날 때마다, 예술가의 잠재적 [ICON_GOLDEN_AGE] 황금기 점수의 2%에 해당하는 [ICON_RESEARCH] 과학을 획득합니다.[NEWLINE][COLOR_POSITIVE_TEXT]위대한 작가[ENDCOLOR]가 태어날 때마다, 정치 논문에서 나오는 작가의 잠재적 [ICON_CULTURE] 문화의 5%에 해당하는 [ICON_GOLD] 골드를 획득합니다.</Text>
+		</Row>
+
+		<!-- Kampong -->
+		<!-- Created by pineappledan; incorporated by adan_eslavo on 24/11/2017 -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_INDONESIA_KAMPONG">
+			<Text>캄풍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_INDONESIA_KAMPONG_TEXT">
+			<Text>'사마-바자우'라는 용어는 오늘날의 필리핀, 인도네시아, 말레이시아 사이에 흩어져 있는 단일 민족 집단을 가리킵니다. 사마족은 다락방 마을이나 해안가 얕은 곳의 캄풍에서 반거주 생활을 하는 반면, 바자우는 배 위에서 생활을 하는 유목민 집단을 가리킵니다. 사마-바자우는 국경과 민족적 경계를 무시하고, 넓은 대양의 섬들 사이를 여행하고 낚시하며 생활합니다. 사마-바자우는 스리비자야 왕국에 의해 사략선과 약탈자로 자주 고용되었습니다. 바자우-라우트는 물속을 더 잘 볼 수 있는 독특한 능력을 가지고 있으며, 다른 어떤 인간 그룹보다 더 오래 그리고 더 깊게 잠수할 수 있습니다다.[NEWLINE][NEWLINE]최근 몇 년 동안 바자우-라우트족은 여러 정부에 의해 정착 생활을 강요받았으며, 이교도, 외지인, 불법 거주자로서의 차별을 받고 있습니다. 남획과 현대화의 결합은 바자우족의 유목민 전통을 위협하는데, 바자우는 육지에 강제로 정착했기 때문입니다. 그러나 바자우라우트의 몇몇 마을들은 동남아시아의 푸른 물을 건너는 레파 레파를 타고 1년에 몇 차례만 해안으로 이동하며 생활합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_INDONESIA_KAMPONG_HELP">
+			<Text>캄풍은 승선한 [ICON_WORKER]일꾼으로 호수나 연안 타일에 건설할 수 있으며, 서로 인접하여 건설할 수 없습니다.[NEWLINE][NEWLINE]캄풍은 [ICON_FOOD]식량과 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_INDONESIA_KAMPONG">
+			<Text>[LINK=IMPROVEMENT_INDONESIA_KAMPONG]캄풍[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_INDONESIA_KAMPONG_HELP">
+			<Text>캄풍을 건설하면, [ICON_FOOD]식량과 [ICON_CULTURE]문화를 제공하며, 인접한 해양 타일에 [ICON_PRODUCTION]생산을 +1 증가시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_INDONESIA_KAMPONG_REC">
+			<Text>캄풍은 [ICON_FOOD]식량과 [ICON_CULTURE]문화를 제공하며, 인접한 해양 타일에 [ICON_PRODUCTION]생산을 +1 증가시킵니다.</Text>
+		</Row>
+
+		<!-- Kibitum -->
+		<!-- Created by adan_eslavo on 27/11/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_0">
+			<Text>유산</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_0_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]원거리 공격[ENDCOLOR]에 대한 [ICON_STRENGTH]방어력 보너스 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]12 레벨[ENDCOLOR]까지 유닛의 [COLOR_POSITIVE_TEXT]레벨이 2 오를때마다[ENDCOLOR] [ICON_STRENGTH]전투력이 +8% 상승[COLOR:105:105:105:255](15레벨 도달 시 8% 상승)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_1">
+			<Text>유산 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_1_HELP">
+			<Text>[ICON_STRENGTH]전투력 +8%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_2">
+			<Text>유산 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_2_HELP">
+			<Text>[ICON_STRENGTH]전투력 +16%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_3">
+			<Text>유산 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_3_HELP">
+			<Text>[ICON_STRENGTH]전투력 +24%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_4">
+			<Text>유산 IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_4_HELP">
+			<Text>[ICON_STRENGTH]전투력 +32%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_5">
+			<Text>유산 V</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_5_HELP">
+			<Text>[ICON_STRENGTH]전투력 +40%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_6">
+			<Text>유산 VI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_6_HELP">
+			<Text>[ICON_STRENGTH]전투력 +50%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_7">
+			<Text>최후의 승자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BABYLON_LEGACY_7_HELP">
+			<Text>[ICON_STRENGTH]전투력 +75%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BABYLON_KIBITUM">
+			<Text>사붐 키비툼</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BABYLON_KIBITUM_HELP">
+			<Text>경험을 통해 더욱 강력해지는 최전선 유닛입니다. 창병을 대체하는 바빌론의 고유 유닛입니다. 창병보다 더 강력합니다. 전투에서 조금 더 경험치를 획득하고 일정 레벨에 도달할때마다 [ICON_STRENGTH]전투력이 추가로 더 상승합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BABYLON_KIBITUM_STRATEGY">
+			<Text>시간의 시험을 견디는 군인. 키비툼은 그 시대 최강의 유닛은 아니지만, 일반 유닛보다 경험치를 통해 더 많은 힘을 얻는다는 것이 진정한 강점입니다. 이 병사들을 계속 살려두면 군대에 없어서는 안 될 핵심이 될 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BABYLON_KIBITUM_TEXT">
+			<Text>
+				바빌로니아 사람들은 메소포타미아 상류 출신의 반유목자 아모리인과 아카디아 부족의 후손입니다. 수메르 왕국과 아카디아 왕국의 붕괴로, 이 아모리 부족들은 반대하지 않고 메소포타미아로 쏟아져 들어와 새로운 왕조를 세웠습니다. 많은 면에서 이 정복자들이 수메르 문화에 동화되었지만, 그들의 군대는 그들의 유목민 뿌리의 강인함을 유지했습니다.[NEWLINE][NEWLINE]
+				사붐 키비툼은 바빌로니아인들의 중군이었고 역사상 가장 초기의 직업군인들의 사례 중 하나였습니다. 왕실 경비대와 도시 주민들로 구성된 사범 키비툼은 길고 짧은 창과 창과 활로 무장하여 규율되고 유연한 전투 부대를 형성했습니다.
+			</Text>
+		</Row>
+
+		<!-- Kibbutz -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_KIBBUTZ">
+			<Text>키부츠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_KIBBUTZ_HELP">
+			<Text>이스라엘의 고유 시설입니다. 오직 농장 타일 위에서만 건설이 가능하며, 인접해서 건설할 수 없습니다. 인접한 농장과 위인 시설의 [ICON_PRODUCTION]생산이 +1 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_KIBBUTZ_TEXT">
+			<Text>키부츠는 전통적으로 농업을 기반으로 한 이스라엘의 집단 공동체이다. 최초의 키부츠인 데가니아는 1909년에 러시아와 동유럽의 유대인 농부들에 의해 설립되었다. 키부츠짐은 빌루 운동의 산물로서 시작되었는데, 이는 러시아의 유대인 포그롬에 대한 반작용으로 이스라엘 땅의 농업 정착을 배경으로 한 사회주의와 시오니즘의 결합이다.[NEWLINE]오늘날, 농업은 부분적으로 산업용 플랜트와 첨단 기술 기업을 포함한 다른 경제로 대체되었다. 최근 수십 년 동안, 일부 키부츠짐은 사유화되었고 공동 생활 방식에 변화가 생겼다. 2010년 기준으로 이스라엘에는 270개의 키부츠짐이 있으며, 그들의 공장과 농장은 이스라엘 산업의 9%, 농업 생산량의 40%를 차지한다.[NEWLINE][NEWLINE]오직 농장에만 건설할 수 있으며, 인접해서 건설할 수 없습니다. 인접한 농장과 위인 시설의 [ICON_PRODUCTION]생산이 +1 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KIBBUTZ">
+			<Text>[LINK=IMPROVEMENT_KIBBUTZ]키부츠[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KIBBUTZ_HELP">
+			<Text>이스라엘의 고유 시설입니다. 오직 농장 타일 위에서만 건설이 가능하며, 인접해서 건설할 수 없습니다. 해당 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_CULTURE]문화가 증가합니다.[NEWLINE]인접한 농장과 위인 시설의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KIBBUTZ_REC">
+			<Text>키부츠를 건설하여 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 증가합니다!</Text>
+		</Row>
+		
+		<!-- Klepht -->
+		<!-- Created by adan_eslavo on 5/11/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GREECE_PHILHELLENISM">
+			<Text>필레니즘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GREECE_PHILHELLENISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공격 시[ENDCOLOR] [ICON_CAPITAL]수도에 [ICON_PRODUCTION]생산과 [ICON_GOLD]골드를 제공[COLOR:105:105:105:255](우호적 이상의 도시국가마다 획득량 증가)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREECE_KLEPHT">
+			<Text>클레프티스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREECE_KLEPHT_HELP">
+			<Text>빠르고 교활한 게릴라 전사입니다. 특공대를 대체하는 그리스의 고유 유닛입니다. [COLOR_PLAYER_PURPLE]필레니즘[ENDCOLOR] 승급과 [COLOR_PLAYER_PURPLE]특공대[ENDCOLOR] 승급을 가지고 시작하며,  [COLOR_PLAYER_PURPLE]공격 후 이동[ENDCOLOR]이 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREECE_KLEPHT_STRATEGY">
+			<Text>효과적인 최전방 부대는 아니지만 클레푸티스는 적 진지를 빠르게 이동하고 취약한 후방 유닛을 공격할 수 있습니다. 또한 이 유닛은 유닛을 공격할 때마다 모든 도시 국가 동맹의 골드와 생산력을 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREECE_KLEPHT_TEXT">
+			<Text>
+				도적과 산악인, 반 오스만 저항세력과 자유 투사로 변신한 클레프티스는 현대 그리스 군대가 형성된 기반이었습니다. 원래 그들을 사로잡기 위해 고용된 그리스 민병대와 함께 클레프티스는 4세기 이상의 오스만 통치 이후 그리스 독립에 대한 첫 번째 희망을 형성했습니다.[NEWLINE][NEWLINE]
+				무장세력을 예상하는 것처럼 규율 없고 날렵한 클레프티스는 그들을 제압하기 위해 보내진 훨씬 더 큰 오스만 군대에 대항하여 효과적인 게릴라 활동을 벌였습니다. 분쟁의 양측에 대량 학살이 가해지기는 했지만, 유럽의 동정은 그리스인들에게 크게 유리하게 되었습니다. 이슬람교도 오스만인들의 무자비한 잔인성은 유럽 시민들을 격분시켰고, 유럽 시민은 그리스 독립을 위해 싸우기 위해 물자, 식량, 심지어 군인들까지 모았습니다.[NEWLINE][NEWLINE]
+				8년 후 오스만군은 마침내 반란을 진압하는데 성공했지만, 그리스 군인들은 실패한 시인과 선전이 성공했습니다. 프랑스, 영국, 러시아 정부는 대중의 개입 요구에 대응하여 그리스 섬을 방어하기 위해 각각 함대를 파견했습니다. 이러한 압도적인 힘에 직면하여 오스만 제국은 평화를 요구했고 그리스를 해방시켰습니다. 2000년 이상 마케도니아, 로마, 오스만 정복자들의 장화 아래 그리스 조국은 마침내 자유로워졌습니다. 역사상 처음으로 한 민족으로 통일되었습니다.
+			</Text>
+		</Row>
+		
+
+		<!-- Kobukseon -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_KOREA_DECK_SPIKES">
+			<Text>갑판 쇠못</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_KOREA_DECK_SPIKES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해상 근접 유닛[ENDCOLOR]에 대하여 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Kraal -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_ZULU_KRAAL">
+			<Text>이시바야</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ZULU_KRAAL_TEXT">
+			<Text>이시바야는 줄루의 농가이자 방어 시설입니다. 이시바야는 원형으로 배치되어 있고, 가운데에 소가 있고, 오두막, 울타리, 진흙 벽이 둘러져 있다. 배치와 기능은 유럽식 마소 울타리를 연상시키므로, 아프리카어로 아마바야, 다른 말로 크라알을 뜻한다.[NEWLINE][NEWLINE]가축은 줄루 왕국의 삶이자 경제의 중심이었습니다. 가축은 지위, 부, 권력의 상징이었고, 줄루 군대의 아마부토 연대의 식량과 훈련의 필수였습니다.[NEWLINE][NEWLINE]이시바야는 성채를 대체하는 줄루의 고유 위인 시설입니다. [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산을 제공하며, 인접한 목장에 [ICON_CULTURE]문화를 +1 증가시킵니다.[NEWLINE][NEWLINE]이시바야가 건설되면 [ICON_RES_COW]소 자원이 나타나고 인접한 타일을 획득합니다.[NEWLINE][NEWLINE]이시바야에 주둔한 유닛은  [ICON_STRENGTH]방어력이 +100% 상승합니다. 인접한 적 유닛에 -30의 피해를 입힙니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ZULU_KRAAL_HELP">
+			<Text>성채를 대체하는 줄루의 고유 위인 시설입니다. [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산을 제공하며, 인접한 목장의 [ICON_CULTURE]문화를 +1 증가시킵니다.[NEWLINE][NEWLINE]이시바야가 건설되면 [ICON_RES_COW]소 자원이 나타나고 인접한 타일을 획득합니다.[NEWLINE][NEWLINE]이시바야에 주둔한 유닛은 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 상승합니다. 인접한 적 유닛에  [COLOR_NEGATIVE_TEXT]30[ENDCOLOR]의 피해를 입힙니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ZULU_KRAAL">
+			<Text>[LINK=IMPROVEMENT_ZULU_KRAAL]이시바야[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ZULU_KRAAL_HELP">
+			<Text>이시바야를 건설하면, [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산이 제공, 인접한 목장의 [ICON_CULTURE]문화 +1 증가. 주둔시 [ICON_STRENGTH]방어력 +100% 증가, 인접한 적 유닛에 피해 -30. 건설시 인접한 타일을 획득하고 해당 타일에 [ICON_RES_COW]소 자원이 나타납니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ZULU_KRAAL_REC">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군을 소모합니다.[NEWLINE]줄루의 고유한 시설 타일. [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산 산출. 인접한 목장의 [ICON_CULTURE]문화 +1. 유닛 주둔시 [ICON_STRENGTH]방어력 보너스와 인접한 적 유닛에 피해. 건설시 인접한 타일을 획득하고 해당 타일에 [ICON_RES_COW]소 자원이 나타납니다.</Text>
+		</Row>
+
+		<!-- Lamassu Gate -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_BUILDING_ASSYRIA_LAMASSU_GATE">
+			<Text>라마수 관문</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ASSYRIA_LAMASSU_GATE_TEXT">
+			<Text>라마수는 아시리아의 수호신으로 사람의 머리, 황소나 사자의 몸, 새의 날개로 묘사됩니다. 라마수는 바빌로놔 아시리아의 평민 가졍을 보호하는 신령이었고, 후에 왕실의 보호 신령으로 채택되었습니다. 라마수에 대한 묘사는 아시리아 건축 전반에 걸쳐 발견되며, 건물 문턱의 초소형 건물과 도시와 궁전 문 양쪽에 거대한 조각상으로 자리잡고 있습니다. 서민들은 라마수를 점토판에 새겨 문지방 밑에 묻었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ASSYRIA_LAMASSU_GATE_STRATEGY">
+			<Text>성벽을 대체하는 아시리아의 고유 건물입니다. 이 도시의 인구가 공급하는 군사 유닛이 20% 증가하고 도시의 [ICON_RANGE_STRENGTH] 공격력이 30% 증가합니다. 이 도시에서 유닛을 훈련시킬 때 생산 비용의 15%를 신앙으로 줍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ASSYRIA_LAMASSU_GATE_HELP">
+			<Text>성벽을 대체하는 아시리아의 고유 건물입니다. [ICON_SILVER_FIST]군사 유닛 보급 한도가 도시의 인구의 20%만큼 증가합니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격력이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR] 증가하고 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 해당 건물이 있는 도시에서 유닛을 훈련하면, [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]를 [ICON_PEACE]신앙으로 제공합니다.[NEWLINE][NEWLINE][ICON_CITY]도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+
+		<!-- Grenzer -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_UNIT_AUSTRIA_LANDWEHR">
+			<Text>그렌저</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AUSTRIA_LANDWEHR_TEXT">
+			<Text>합스부르크 군의 접경지 사람들은 다양한 공작 의뢰인, 군인 정착민, 그리고 난민들로 구성되었습니다. 이 국경 수비대, 즉 그렌저들은 오스만 침공으로부터 그들의 땅을 지켜낸 후, 경계심, 끈기, 그리고 야전술로 무시무시한 명성을 쌓았습니다. 18세기에 이슬람의 위협이 가라앉았을 때, 그렌저들은 유럽 분쟁에서 오스트리아-헝가리 보병 부대의 주축이 되었고, 나폴레옹 전쟁에서 경보병과 보병 부대의 혼합으로 그들 자신을 구분했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AUSTRIA_LANDWEHR_STRATEGY">
+			<Text>그렌저는 산업 시대 오스트리아 군대의 핵심 유닛니다. 소유한 영토와 동맹 도시 국가의 영토를 방어하는 데 탁월합니다. 그렌저는 대체하는 퓨질리어보다 약간 약하지만 제국과 외교 결혼을 할 때마다 전투력을 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AUSTRIA_LANDWEHR_HELP">
+			<Text>수발총병을 대체하는 오스트리아의 고유 유닛입니다. 당신의 영토나 동맹 도시국가 영토에서 싸울때 [ICON_STRENGTH]전투력 보너스를 받습니다. 훈련받은 유닛이 [COLOR_POSITIVE_TEXT]결혼 동맹[ENDCOLOR]을 맺은 도시국가 수에 비례해서 [ICON_STRENGTH]전투력 보너스를 얻습니다.[NEWLINE][NEWLINE][COLOR_PLAYER_PURPLE]진지 공사[ENDCOLOR] 승급을 받고 시작합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AUSTRIA_YORKSCHER_MARCHE">
+			<Text>합스부르크 군대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AUSTRIA_YORKSCHER_MARCHE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]결혼 동맹[ENDCOLOR]을 맺은 도시국가당 [ICON_STRENGTH]전투력 보너스를 획득 [NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<!-- Krupp Gun -->
+		<!-- Created by pineappledan -->
+		<Row Tag="TXT_KEY_UNIT_GERMANY_KRUPP_GUN">
+			<Text>크루프 포</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GERMANY_KRUPP_GUN_TEXT">
+			<Text>크루프 포(Krupp Gun)는 에센에 기반을 둔 크루프 가문의 상업용 제철소에서 만든 대포이다. 크루프 포는 1856년 프로이센 왕립 육군이 처음으로 대량 생산 및 채택한 강철 야전포였다. 크루프 포는 품질과 포병 분야의 새로운 발전에 앞장서는 것으로 유명했다.[NEWLINE][NEWLINE]제1차 세계 대전이 발발하자 독일 육군의 교리는 기동성을 중시했고, 높은 곳을 향해 더 가파른 각도로 적에게 발포하는 곡사포에 중점을 두었다. 이 교리는 슐리펜 계획의 초기 단계에서 초기 배당을 주었고, 더 작고 가벼운 독일군 포가 벨기에와 북프랑스를 통과하여 영국군을 바다로 몰아갔다. 독일군은 7.7cm FK 96처럼 작은 포였지만, 미네베르퍼(Minenwerfers)와 함께 가장 인상적인 중포를 보유하고 있었다. 전쟁이 시작되자 독일은 실험용 45cm 미니베르퍼 공성포를 12문 배치했는데, 이는 지금까지 생산된 야포 중 가장 큰 것이었다. 독일군에 의해 "Big Bertha"라고 애칭된 이 공성포는 리에주와 모베르주 주변의 수십 개의 견고한 요새를 공격하여 독일군을 몇 주 만에 파리에서 공격할 수 있게 했다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GERMANY_KRUPP_GUN_STRATEGY">
+			<Text>크루프 포는 적의 방어선을 무너뜨리고 압도적인 화력을 발휘하는 데 특화된 공격적인 공성 부대입니다. 크루프 포이 요새 또는 성채와 같은 방어 타일 시설 위에 배치된 유닛을 죽이면 타일은 자동으로 약탈됩니다. 공격하는 모든 크루프 포은 우레와 같은 포격을 시작하여 해당 턴에 공격하는 다른 모든 크루프 포의 공격을 강화합니다. 압도적인 포병대를 만들고 당신을 대적하는 모든 문명의 방어선을 무너뜨리세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GERMANY_KRUPP_GUN_HELP">
+			<Text>포병대를 대체하는 독일의 고유 공성 유닛입니다.[NEWLINE][NEWLINE]이 유닛으로 방어 시설에 주둔하고 있던 적 유닛을 파괴할 경우, 해당 방어 시설의 타일이 즉시 약탈됩니다. 크루프 포를 같은 턴에 사용하면 [ICON_RANGE_STRENGTH]원거리 공격력이 더 강해집니다. [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]엄폐 I[ENDCOLOR] 승급을 가지고 시작합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_MINENWERFER">
+			<Text>방어시설타격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_MINENWERFER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]요새화한 유닛[ENDCOLOR]을 공격 시 [ICON_RANGE_STRENGTH]원거리 공격력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT][ICON_STRENGTH]방어 시설 타일에 주둔한 유닛이 죽으면[ENDCOLOR] 해당 시설은 즉시 약탈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER">
+			<Text>연발타격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_00">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 0%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_01">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 5%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_02">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 10%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_03">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 15%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_04">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 20%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_05">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 25%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_06">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 30%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_07">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 35%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_08">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 40%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_09">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 45%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GERMANY_TROMMELFEUER_HELP_10">
+			<Text>해당 승급을 지닌 유닛이 해당 턴에 공격할때마다 [ICON_RANGE_STRENGTH]원거리 전투력 +5% 상승 (최대 +50%)[NEWLINE][COLOR_POSITIVE_TEXT]현재보너스:[ENDCOLOR] 50%</Text>
+		</Row>
+		
+		<!-- Langskib -->
+		<!-- Created by De_Genius on 28/10/2017, incorporated and modified by adan_eslavo on 21/12/2017 -->
+		<Row Tag="TXT_KEY_UNIT_DENMARK_LANGSKIB">
+			<Text>롱쉽</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DENMARK_LANGSKIB_HELP">
+			<Text>캐러밸을 대체하는 덴마크의 고유 유닛입니다. 더 빨리 이용가능하며, 공격 후 이동이 가능하고, [COLOR_GREEN]봉쇄[ENDCOLOR] 승급을 가집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DENMARK_LANGSKIB_STRATEGY">
+			<Text>덴마크 롱십은 덴마크가 조기 해상 통제권을 가질 수 있게 해주는 초기 선박 유닛입니다. 이를 통해 덴마크는 다른 플레이어보다 일찍 먼 바다 정찰을 시작하여 미래의 식민지화 물결을 준비하고, 해외 식민지를 방어하고, 바다에서의 도시 공격과 뺑소니 전술에 대한 보너스로 습격을 지원할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DENMARK_LANGSKIB_TEXT">
+			<Text>
+				롱쉽은 바이킹 시대 동안 무역, 탐험, 그리고 전쟁을 위해 북유럽인들이 발명하고 사용한 보트의 한 종류였습니다. 롱쉽의 디자인은 수세기에 걸쳐 진화했고, 우미악의 발명으로 시작하여 니담과 크발순드와 같은 클링커 제작 선박으로 6세기까지 계속되었고, 9세기와 13세기 사이에 완전한 형태로 나타났습니다. 그것들은 모두 나무로 만들어졌고, 직조된 양털 돛으로 만들어졌으며, 선체에 많은 세부사항과 조각이 있었습니다.
+				[NEWLINE][NEWLINE]장정은 빠른 속도와 가벼운 구조로 유명했습니다. 그 배들은 바다에서 건장하고 믿음직스러웠지만, 해안으로 운반될 수 있을 만큼 충분히 가볍거나 임시 대피소로도 이용될 수 있었습니다. 바이킹의 악명 높은 습격 동안 해안 안팎으로 빠르게 이동할 수 있는 능력은 매우 귀중한 것이었습니다.
+				[NEWLINE][NEWLINE]이 배들의 특징과 모습은 여전히 스칸디나비아의 보트 제작 전통에 반영되어 있습니다. 긴 배를 만들기 위한 기술과 방법들은 종종 현대적 적응과 함께 여전히 세계적으로 사용되고 있습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_DENMARK_VIKING_EXPLORATION">
+			<Text>바이킹 탐험</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_DENMARK_VIKING_EXPLORATION_HELP">
+			<Text>이 유닛과 같은 타일에서 턴을 시작한 [COLOR_POSITIVE_TEXT]승선한 유닛[ENDCOLOR]에게 [COLOR_POSITIVE_TEXT]대양 타일을 건너게 하는[ENDCOLOR] 승급을 부여. 승급은 승선한 유닛이 대양을 떠날때까지 유지.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_DENMARK_VIKING_EXPLORATION_CAN_CROSS_OCEAN">
+			<Text>탐험의 자유</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_DENMARK_VIKING_EXPLORATION_CAN_CROSS_OCEAN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]대양 타일을 건널 수 있음[ENDCOLOR].</Text>
+		</Row>		
+		
+		<!-- Legion (lua code in Ballista.lua)-->
+		<!-- Created by adan_eslavo on 30/12/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ROME_PRAEFECTUS_CASTRORUM_ON_LEGION">
+			<Text>프라에펙투스 카스트로룸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ROME_PRAEFECTUS_CASTRORUM_ON_LEGION_HELP">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군이 옆에서 턴을 시작하면 [ICON_WORKER]군단병의 시설 건설 속도가 +60% 증가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ROME_PRAEFECTUS_CASTRORUM_EFFECT">
+			<Text>부대 관리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ROME_PRAEFECTUS_CASTRORUM_EFFECT_HELP">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군으로부터 [ICON_WORKER]건설 속도 +60% 증가</Text>
+		</Row>
+
+		<!-- Licorne -->
+		<!-- Created by adan_eslavo on 26/10/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_RUSSIA_GRAPESHOT">
+			<Text>포도탄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_RUSSIA_GRAPESHOT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]근접 유닛[ENDCOLOR]과 대항 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]화약 유닛[ENDCOLOR]과 대항 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RUSSIA_LICORNE">
+			<Text>유니콘 대포</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RUSSIA_LICORNE_HELP">
+			<Text>야전포를 대체하는 러시아의 고유 유닛입니다. 야전포보다 더 빠른 시기에 이용 가능하고, 적 영토에서 이동력이 줄어 들지 않고, 공격 후 이동이 가능합니다. 접근 유닛과 화약 유닛에 매우 효과적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RUSSIA_LICORNE_STRATEGY">
+			<Text>유니콘 대포는 전투의 흐름을 바꿀 수 있는 공성 유닛입니다. 혁신적인 구조로 공격 후 이동할 수 있으며 근접 유닛을 공격하는 동안 페널티가 없습니다. 야전포보다 먼저 사용 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RUSSIA_LICORNE_TEXT">
+			<Text>유니콘 대포라는 어원은 총통의 독특한 모양의 손잡이에서 기인했습니다. 1757년에 고안된 유니콘 대포는 유연한 디자인으로 발사하고 운반하기 쉬우며 많은 다양한 무게와 힘으로 만들어졌습니다. 더 가벼운 디자인은 다음 세기 동안 유럽 연합 무기 이론을 바꿀 러시아의 혁신인 이동식 기마 포병으로서 가장 인상적으로 기억되고 있습니다.</Text>
+		</Row>
+		
+		<!-- Longbowman -->
+		<!-- Created by adan_eslavo on 6/01/2018 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ENGLAND_AGINCOURT">
+			<Text>아쟁쿠르 전투</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ENGLAND_AGINCOURT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]기마 유닛과 기갑 유닛[ENDCOLOR]에 대한 [ICON_RANGED_STRENGTH]원거리 공격력 +20% 증가, [ICON_STRENGTH]방어력 +20% 증가.</Text>
+		</Row>
+
+		<!-- Mamluk -->
+		<!-- Created by pineappledan, incorporated and modified by pineappledan on 17/07/2020 -->
+		<Row Tag="TXT_KEY_UNIT_EGYPT_MAMLUK">
+			<Text>맘루크</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EGYPT_MAMLUK_TEXT">
+			<Text>맘루크는 어린 소년 시절에 붙잡힌 노예 군인으로 구성된 군 기사단 계급이였고 아랍세계에 팔려 가신 역할을 했습니다. 노예 신분 때문에, 이 젊은이들은 사회적 지위와 직업의 발전을 위해 카이로의 파티미드 왕조와 아유비드 왕조의 믿을 수 있는 기관들의 영주에게 의존하였습니다 맘루크족은 십자군의 파도와 몽골의 침략으로부터 이슬람을 방어한 것으로 유명한 전사였습니다. 어떤 경우에는, 맘루크족이 일어서서 그들 자신의 왕조를 확보하여 이집트, 인도, 이라크에서 술탄국가를 창설하기도 했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EGYPT_MAMLUK_STRATEGY">
+			<Text>맘루크는 창기병을 대체하는 이집트의 고유 유닛입니다. 특히 탁 트인 지형에서 적진을 교란하는 이점이 있는 강력한 게임 중반 유닛입니다. 또한 도시 내 주둔하는 동안 적의 종교 확산을 줄입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EGYPT_MAMLUK_HELP">
+			<Text>창기병을 대체하는 이집트의 고유 유닛입니다. 체력이 많은 유닛에 피해를 더 입힙니다. 공격 후 이동력이 +1 증가합니다.[NEWLINE][NEWLINE]도시에 주둔한 맘루크는 다른 종교의 [ICON_MISSIONARY]선교사와 [ICON_PROPHET]위대한 선지자의 전도력을 -50% 감소시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_EGYPT_VUR_HA">
+			<Text>진-격!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_EGYPT_VUR_HA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]체력 50 이상인 유닛[ENDCOLOR]과 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]공격 후[ENDCOLOR] [ICON_ARROW_RIGHT]이동력 +1</Text>
+		</Row>
+		<!-- Marae -->
+		<!-- Created by adan_eslavo 5/11/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_MARAE">
+			<Text>마라에</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_MARAE_HELP">
+			<Text>자문회를 대체하는 폴리네시아의 고유 건물입니다. 해당 건물이 있는 도시에서 [ICON_CITIZEN]시민이 증가할 때마다, [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. 도시에서 건물을 건설할 때마다 [ICON_FOOD]식량, [ICON_GOLD]골드, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_MARAE_STRATEGY">
+			<Text>폴리네시아인을 위한 자문회를 대체하는 폴리네시아의 고유 건물입니다. 자문회의 일반적인 보너스 외에도 마라에는 도시에 건물이 건설될 때마다 골드, 음식 및 문화를 제공합니다. 이후의 모든 건물에 대한 보너스를 극대화하기 위해 마라에를 최우선 순위로 건설하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLYNESIA_MARAE_TEXT">
+			<Text>
+				마라에 (또는 Malea)는 대부분의 폴리네시아 문화에서 공동의 신성한 공간입니다. 마라에는 일반적으로 공터의 형태를 취하며 때로는 돌이나 기둥으로 경계를 이루고 때로는 그 뒤에 쉼터가 있습니다. 대부분의 폴리네시아 문화에서 마라에의 기능은 기독교의 도래와 함께 쇠퇴하거나 사라졌지만 오늘날 뉴질랜드의 마오리족과 함께 공동체적, 문화적 중요성을 유지하고 있습니다.
+			</Text>
+		</Row>
+		<!-- Monitor -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AMERICA_MONITOR">
+			<Text>항구 방어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AMERICA_MONITOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]인접한 우호 도시의[ENDCOLOR] [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AMERICA_HARDENED">
+			<Text>경화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AMERICA_HARDENED_HELP">
+			<Text>공격받는 모든 피해 -3.</Text>
+		</Row>
+		<!-- Monolithic Church -->
+		<!-- Created by adan_eslavo on 12/11/2017 -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_ETHIOPIA_MONOLITHIC_CHURCH">
+			<Text>암굴 교회</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ETHIOPIA_MONOLITHIC_CHURCH_TEXT">
+			<Text>
+                암굴 교회라는 용어는 단일 석조 형성물에서 깎아내어 만든 교회에서도 사용할 수 있지만, 보통 에티오피아 랄리벨라의 11개 교회의 복합체를 가리키는 데 가장 많이 사용됩니다. 이 교회들은 12세기에 독실한 기독교 신자인 게브르 메스켈 랄리벨라 국왕에 의해 건설되었습니다. 이 '신 예루살렘'은 에티오피아 중심부의 산악 지대에 위치해 있으며, 오늘날 기독교 순례의 중요한 중심지입니다.[NEWLINE][NEWLINE]
+				랄리벨라 외에도 티그레이에서도 많은 암굴 교회들이 발견됩니다. 이 교회들은 카톨릭 신부인 아바 테웰데 메드힌 조셰프 신부가 120개가 넘는 암굴 교회들의 존재를 발표하기 전까지 거의 외부에 알려지지 않았습니다. 그 중 90개는 여전히 사용되고 있었습니다. 다음 몇 년 동안, 알려진 교회들의 총계는 153개로 증가했습니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ETHIOPIA_MONOLITHIC_CHURCH_HELP">
+			<Text>
+				에티오피아의 고유 시설입니다. 자원이 없는 언덕이나 [ICON_PRODUCTION]석재가 있는 언덕에 건설 할 수 있으며, 서로 인접하여 지을 수 없으며 [ICON_PRODUCTION]석재 자원을 개발합니다. [ICON_PEACE]신앙과 [ICON_PRODUCTION]생산을 제공하고, 기술 대신, [COLOR_POSITIVE_TEXT]사회 정책 계열을 완성[ENDCOLOR]하거나 [COLOR_POSITIVE_TEXT]이념 정책을 채택[ENDCOLOR]하거나 [COLOR_POSITIVE_TEXT]교리를 채택[ENDCOLOR]할 때 산출량이 증가합니다.[NEWLINE]
+				[NEWLINE]고대시대 사회 정책 계열 완성: [ICON_CULTURE]문화+1
+				[NEWLINE]중세시대 사회 정책 계열 완성: [ICON_PEACE]신앙+1
+				[NEWLINE]산업시대 사회 정책 계열 완성: [ICON_RESEARCH]과학+1
+				[NEWLINE]종교관 채택: [ICON_PEACE]신앙+1
+				[NEWLINE]종교 창시: [ICON_PRODUCTION]생산+1
+				[NEWLINE]종교 강화: [ICON_CULTURE]문화+1, [ICON_PRODUCTION]생산+1
+				[NEWLINE]종교 개혁: [ICON_GOLD]골드+1, [ICON_PRODUCTION]생산+1
+				[NEWLINE]이념 채택: [ICON_GOLD]골드+2
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ETHIOPIA_MONOLITHIC_CHURCH">
+			<Text>[LINK=IMPROVEMENT_ETHIOPIA_MONOLITHIC_CHURCH]암굴 교회[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ETHIOPIA_MONOLITHIC_CHURCH_HELP">
+			<Text>암굴 교회를 건설하면, [ICON_PEACE]신앙과 [ICON_PRODUCTION]생산을 제공하고 기술 대신, [COLOR_POSITIVE_TEXT]사회 정책 계열을 완성[ENDCOLOR]하거나 [COLOR_POSITIVE_TEXT]이념 정책을 채택[ENDCOLOR]하거나 [COLOR_POSITIVE_TEXT]교리를 채택[ENDCOLOR]할 때 산출량이 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ETHIOPIA_MONOLITHIC_CHURCH_REC">
+			<Text>암굴 교회를 건설하면 [ICON_PRODUCTION]생산과 [ICON_PEACE]신앙이 증가합니다.</Text>
+		</Row>
+
+		<!-- Nalanda -->
+		<Row Tag="TXT_KEY_BUILDING_NALANDA">
+		    <Text>날란다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NALANDA_HELP">
+ 		   <Text>이 도시의 인구당 [ICON_SILVER_FIST] 군사 보급이 +10% 증가합니다. [ICON_GREAT_WORK] 걸작 슬롯 중 하나에 미리 작성된 [ICON_VP_GREATWRITING] 위대한 작품이 포함되어 있습니다. 소유한 모든 원형극장의 [ICON_CULTURE] 문화와 [ICON_RESEARCH] 과학이 +1 증가합니다. 이 도시의 [ICON_CULTURE] 지루함으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다. [COLOR_POSITIVE_TEXT]테마가 맞을 시[ENDCOLOR] +3 [ICON_CULTURE] 문화가 추가됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_NALANDA_TEXT">
+		    <Text>날란다의 마하비하라는 현대 인도의 동부 비하르에 위치한 30에이커 규모의 수도원, 도서관, 관측소, 원형극장 단지였습니다. 날란다는 철학, 인식론, 신학, 의학, 수학, 점성술, 연금술 등을 포함한 커리큘럼을 자랑하며, 제대로 된 대학교로 간주될 수 있는 초기 기관 중 하나였습니다. 교육적 역할 외에도 날란다는 7세기 이상 동안 불교 세계에서 가장 영향력 있는 사상가와 강연자를 유치했으며, 아시아 전역에서 방문한 학자들을 끌어들였습니다. 6세기 굽타 제국의 멸망 이후에도 살아남았으며, 팔라 제국의 부상으로 강력한 후원자를 얻었지만, 인도에 대한 이슬람 침공으로 폭력적인 종말을 맞았습니다. 고고학적 증거에 따르면, 이슬람 침략자들이 세 번에 걸쳐 날란다를 약탈했으며, 승려와 학자들은 죽거나 도망쳐야 했습니다. 인도 정부는 옛 날란다 단지의 폐허 근처에 현대적인 대학교로서 새로운 날란다를 설립하겠다고 약속했습니다. 부활한 날란다 대학교는 2020년에 첫 번째 학생들을 받았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_NALANDA_QUOTE">
+ 		   <Text>[NEWLINE][TAB][TAB]"비가 금으로 변해도 당신의 갈증은 해소되지 않을 것입니다. 욕망은 끝이 없으며, 결국 눈물로 끝납니다."[NEWLINE][TAB][TAB] - 시드하르타 고타마[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_BUILDING_NALANDA">
+		    <Text>다르마간자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NALANDA_THEMING_BONUS_HELP">
+		    <Text>보너스를 극대화하려면 두 위대한 작품이 모두 당신에 의해 창작되었는지 확인하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BODHISATTVACARYAVATARA">
+ 		   <Text>보디사트바의 길</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_BODHISATTVACARYAVATARA">
+		    <Text>"우리는 우리 운명의 저자입니다;[NEWLINE]저자이기 때문에 우리는 궁극적으로, 아마도 두려울 만큼,[NEWLINE]자유롭습니다."</Text>
+		</Row>
+
+
+		<!-- Nilometer -->
+		<!-- Created by BlueGhost, incorporated and modified by adan_eslavo on 7/01/2018 -->
+		<Row Tag="TXT_KEY_BUILDING_EGYPT_NILOMETER">
+			<Text>나일강 수위계</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EGYPT_NILOMETER_STRATEGY">
+			<Text>나일강 수위계는 {TXT_KEY_BUILDING_WELL}과 {TXT_KEY_BUILDING_WATERMILL}을 대체하는 이집트 고유의 건물입니다. 도시의 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산량을 크게 증가시킵니다. 특히 황금기동안 효과가 강해집니다. 강 타일의 산출량이 향상됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EGYPT_NILOMETER_HELP">
+			<Text>{TXT_KEY_BUILDING_WELL}과 {TXT_KEY_BUILDING_WATERMILL}을 대체하는 이집트의 고유 건물입니다. 도시의 [ICON_CITIZEN]시민 5명마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_GOLDEN_AGE] 황금기 동안 [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 이 도시의 강 타일에서 +1 [ICON_FOOD] 식량이 증가합니다.</Text>
+		</Row>
+
+
+		<!-- Oppidum -->
+		<!-- Created by adan_eslavo on 30/10/2017 -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_CELTS_OPPIDUM">
+			<Text>오피둠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CELTS_OPPIDUM_HELP">
+			<Text>
+				켈트의 고유 위인 시설입니다. 서로 인접해서 건설할 수 없습니다.[NEWLINE]전략자원을 개발할 수 있으며. 다양한 산출량을 제공하며, 유닛 주둔시 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가하고 근처 도시에 체력을 제공합니다. [NEWLINE][NEWLINE]인접한 타일의 산출량을 증가시킵니다:
+				[NEWLINE] 농장: [ICON_FOOD]식량+1, [ICON_PRODUCTION]생산+1
+				[NEWLINE] 야영지: [ICON_FOOD]식량+1, [ICON_PEACE]신앙+1
+				[NEWLINE] 목장: [ICON_PRODUCTION]생산+1, [ICON_PEACE]신앙+1
+				[NEWLINE] 광산: [ICON_PRODUCTION]생산+1, [ICON_GOLD]골드+1
+				[NEWLINE] 채석장: [ICON_PRODUCTION]생산+1, [ICON_RESEARCH]과학+1
+				[NEWLINE] 재배지: [ICON_GOLD]골드+1, [ICON_CULTURE]문화+1
+				[NEWLINE] 제제소: [ICON_FOOD]식량+1, [ICON_RESEARCH]과학+1 
+				[NEWLINE] 벌목장: [ICON_FOOD]식량+1, [ICON_CULTURE]문화+1
+				[NEWLINE] 어선: [ICON_GOLD]골드+1, [ICON_PEACE]신앙+1.[NEWLINE][NEWLINE]문명의 각 오피둠은 [ICON_GREAT_ENGINEER]위대한 기술자의 생산 가속과 [ICON_GREAT_SCIENTIST]위대한 과학자의 연구 가속 효과를 증가시키고, [ICON_GREAT_MERCHANT]위대한 상인의 무역 임무에서 오는 [ICON_HAPPINESS_1]'국왕 경축일'의 길이를 증가시킵니다
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CELTS_OPPIDUM_TEXT">
+			<Text>
+				오피둠은 후기 라테네 문화와 관련된 대규모의 방어 정착지입니다. 이러한 요새화된 마을들은 자연적으로 보호되는 지역에 종종 지어졌고 원형 건축물로 가득했습니다. 분쟁의 시기에, 개방된 들판에 살던 사람들은 그들의 안전을 보장하기 위해 전략적으로 위치한 이 건물들로 이동했습니다. 오피둠은 영토 통제나 농작물 보호와 같은 다른 목적도 가질 수 있습니다. 가장 유명한 오피둠은 율리우스 카이사르와 베링게토릭스의 전투와 갈리아인들의 마지막 패배지이자 프랑스와 벨기에의 갈리아 독립이 끝난 곳인 알레시아 오피둠입니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CELTS_OPPIDUM">
+			<Text>[LINK=IMPROVEMENT_CELTS_OPPIDUM]오피둠[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CELTS_OPPIDUM_HELP">
+			<Text>
+				서로 인접하여 건설할 수 없습니다. [NEWLINE]모든 산출량을 증가시키며 오피둠 위에 주둔한 유닛에 대해 [ICON_STRENGTH]방어력 보너스를 +100% 제공하고 근처 도시에 체력을 +10 제공합니다. 인접한 위인 시설이 아닌 시설에 산출량 보너스를 제공합니다.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CELTS_OPPIDUM_REC">
+			<Text>이 위인은 오피둠 건설을 위해 소비됩니다.[NEWLINE]켈트의 고유 위인 시설입니다. 타일의 전략자원이 개발됩니다. 주둔한 유닛에 [ICON_STRENGTH]방어력 보너스를 제공하고, 근처 도시에 체력을 +10 제공합니다. 인접한 시설의 산출량을 증가시킵니다.</Text>
+		</Row>
+
+		<!-- Otomi -->
+		<Row Tag="TXT_KEY_UNIT_AZTEC_OTOMI">
+		    <Text>오토미</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AZTEC_OTOMI_TEXT">
+		    <Text>오토미는 알티플라노 지역에서 온 고대 민족으로, 메시카가 그곳에 도착하기 수천 년 전부터 존재했습니다. 오토미라는 이름은 나우아틀어로 "화살을 가진 자"라는 뜻으로, 그들의 전투에서의 강함과 용기를 인정받아 붙여졌습니다. 삼중동맹 내에서 오토미는 군사 사회의 이름이 되었는데, 이는 아마도 오토미 민족의 무시무시한 명성 때문이거나 원래 오토미 동맹국과 용병들로 구성되었기 때문일 것입니다. 어쨌든, 아즈텍 제국 내에서 민족의 이름으로서의 오토미와 군사 집단으로서의 오토미가 혼용되어 역사 기록에서 어느 쪽인지 구분하기 어렵게 만들었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AZTEC_OTOMI_STRATEGY">
+		    <Text>오토미는 전사를 대체하는 아즈텍 고유 유닛으로, 게임 시작부터 사용할 수 있습니다. 숲과 정글에서의 이동이 향상되며, 우호적인 땅 외부에서 방어력과 치유력이 증가합니다. 일반 전사와는 달리 오토미는 야만인에 대한 보너스를 업그레이드 후에도 유지하므로, 창병(Spearmen)으로 업그레이드된 후에도 야만인 위협에 효과적으로 대처할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AZTEC_OTOMI_HELP">
+		    <Text>고대 시대의 강력한 아즈텍의 고유 유닛입니다. 야만인 유닛에 대해 상당히 더 많은 피해를 입힙니다. [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_WOODSMAN}[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SURVIVALISM_1}[ENDCOLOR] 승급을 보유합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AZTEC_CAPTIVES_OF_WAR">
+		    <Text>자비</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AZTEC_CAPTIVES_OF_WAR_HELP">
+ 		   <Text>[COLOR_POSITIVE_TEXT]체력이 50 이하인 유닛[ENDCOLOR]에 대항 시 [ICON_STRENGTH] 전투력 +30% </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AZTEC_BRUTE_STRENGTH">
+ 		   <Text>야수의 힘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_AZTEC_BRUTE_STRENGTH_HELP">
+ 		   <Text>[COLOR_POSITIVE_TEXT]야만인[ENDCOLOR]에 대해 [ICON_STRENGTH] 전투력 +40% </Text>
+		</Row>
+
+		<!-- Pitz -->
+		<!-- Created by adan_eslavo 16/12/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_0">
+			<Text>마야 장기력의 주기 축복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_0_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]매 20턴마다[ENDCOLOR] 고유한 승급을 받습니다. 승급 효과는 최대 [COLOR_POSITIVE_TEXT]4번까지[ENDCOLOR] 연장이 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_1">
+			<Text>마야 장기력의 첫번째 주기 축복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_1_HELP">
+			<Text>경험치 +5 제공. [COLOR_POSITIVE_TEXT]숲이나 정글에서[ENDCOLOR] [ICON_DEFENSE]전투력 +5% 증가.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_2">
+			<Text>마야 장기력의 두번째 주기 축복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_2_HELP">
+			<Text>경험치 +5 제공. [COLOR_POSITIVE_TEXT]숲이나 정글에서[ENDCOLOR] [ICON_DEFENSE]전투력 +10% 증가.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_3">
+			<Text>마야 장기력의 세번째 주기 축복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_3_HELP">
+			<Text>경험치 +5 제공. [COLOR_POSITIVE_TEXT]숲이나 정글에서[ENDCOLOR] [ICON_DEFENSE]전투력 +15% 증가.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_4">
+			<Text>마야 장기력의 네번째 주기 축복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_MAYA_KATUN_AHAW_4_HELP">
+			<Text>경험치 +10 제공. [COLOR_POSITIVE_TEXT]숲이나 정글에서[ENDCOLOR] [ICON_DEFENSE]전투력 +15% 증가하고 [COLOR_POSITIVE_TEXT]회복력이 2배[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PITZ">
+			<Text>피츠 구기장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PITZ_HELP">
+			<Text>투기장을 대체하는 마야의 고유 건물입니다. 도시의 병영, 대장간, 무기고의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_CITIZEN]시민 4명마다 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]마야 주기가 끝날때마다 [ICON_RESEARCH]과학과 [ICON_PEACE]신앙을 제공합니다. [NEWLINE][NEWLINE]도시에서 훈련된 육상 유닛은 매 20턴마다 새 능력을 부여받는 [COLOR_POSITIVE_TEXT]마야 장기력의 주기 축복[ENDCOLOR] 승급을 받습니다.[NEWLINE][ICON_RES_PERFUME]향수: [ICON_CULTURE]문화 +1.[NEWLINE][ICON_RES_OLIVE]올리브: [ICON_FOOD]식량 +1, [ICON_GOLD]골드 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PITZ_STRATEGY">
+			<Text>
+				피츠 코트는 투기장을 대체하는 마야 고유 건물입니다. 투기장의 일반적인 보너스 외에도 피츠 코트는 매 경기가 끝날 때마다 과학과 신앙을 제공합니다. 피츠 코트가 있는 도시에서 훈련된 지상 유닛은 '마야 장기력의 주기 축복' 승급을 받습니다. 이 승급은 해당 유닛이 생존한 매 20턴 마다 새로운 능력을 부여합니다.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PITZ_TEXT">
+			<Text>
+				메소아메리카 볼 게임 또는 '피츠'는 마야인들 사이에서 의식적이고 문화적인 의미를 갖는 게임입니다. 이 게임의 목적은 팔꿈치, 어깨, 심지어 엉덩이를 사용하고 라켓까지 일부 변형은 허용하여 경사진 경기장 내에서 앞뒤로 타격함으로써 가능한 한 오랫동안 공을 플레이하는 것입니다. 이 게임의 가장 초기의 고고학적 증거는 3400년 된 것으로 추정되는 코트에서 나온 것입니다.[NEWLINE][NEWLINE]
+				1300개가 넘는 다른 볼코트들이 마야 유적에서 발견되었고, 수천 년에 걸쳐 비교적 작은 크기나 배치의 변화를 가지고 있습니다. 모든 궁정은 양쪽 벽이 완만하게 경사진 좁은 골목과 밀폐된 끝자락으로 이루어져 있습니다. 이것은 코트의 대략 H자형 배치를 주었습니다. 이후 버전의 볼코트에는 벽에 걸려 있는 중간 지점에 후프가 포함되어 있습니다. 실제로 링을 통해 공을 보내는 일은 드문 일이었을 것입니다. 선수들이 공을 인도하는 데 손이나 발을 사용할 수 없었기 때문입니다. 게다가, 링은 공보다 약간 더 크고, 노는 골목에서 멀리 떨어져 있었습니다.[NEWLINE][NEWLINE]
+				이 게임은 마야인들에게 단순한 스포츠 행사 이상의 것이었고, 도시들 사이의 분쟁의 경우 전쟁을 대신하는 역할을 했습니다. 후에 고전적인 마야 미술은 야구 경기와 의식적인 희생 사이의 연관성을 제안합니다. 승자는 신에게 바치는 제물로 목이 잘립니다. 포폴 보의 마야 트윈 신화는 영웅 트윈스, 후나푸와 엑스발란크와 지하세계의 영주들, 원 데스와 세븐 데스의 경기를 묘사하고 있습니다. 이 게임은 히어로 트윈스가 후나푸의 머리를 되찾게 하기 위해 행해졌습니다. 후나푸는 그의 머리를 스쿼시를 그의 진짜 머리를 회복할 수 있을 때까지 사용하였습니다.
+			</Text>
+		</Row>
+		
+		<!-- Pancerny -->
+		<!-- Created by adan_eslavo on 16/10/2017 modified 30/10/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_POLAND_BOGURODZICA">
+			<Text>신의 어머니</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_POLAND_BOGURODZICA_HELP">
+			<Text>[ICON_STRENGTH]방어력 +25% [NEWLINE][COLOR_POSITIVE_TEXT]유닛 처치 시[ENDCOLOR] [ICON_PEACE]신앙 획득[COLOR:105:105:105:255](야만인을 처치할시 2배)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_POLAND_PANCERNY">
+			<Text>판체르니</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_POLAND_PANCERNY_HELP">
+			<Text>중산병을 대체하는 폴란드의 고유 유닛입니다. 중산병보다 공격과 방어에 더 강하고, 원거리 공격에는 추가로 방어 보너스를 받습니다. 적 유닛을 처치할때마다 [ICON_PEACE]신앙을 획득하며 야만인을 처치하면 2배로 받습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_POLAND_PANCERNY_STRATEGY">
+			<Text>판체르니는 중산병의 폴란드 대체유닛입니다. 중산병보다 공격력과 방어력이 강하고 원거리 공격으로부터 받는 피해가 적습니다. 판체르니는 또한 적을 처치할 때마다 신앙을 얻습니다. 기마 유닛인 판체르니는 장창병에게 취약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_POLAND_PANCERNY_TEXT">
+			<Text>
+				토바슈츠 판체르니는 10세기에서 18세기까지의 폴란드 기병의 계급으로, 그들의 사슬 갑옷의 이름이 명칭의 유래입니다. 판케르니는 각 회사가 60명에서 200명의 기병으로 구성된 회사로 조직되었습니다. 특히 무장이 뛰어나, 그들은 체인 메일 또는 플레이트 메일 갑옷, 뱀브레이스, 헬멧, 버클 보호막을 사용했습니다. 가장 일반적인 무장은 세이버, 리플렉스 보우, 화약, 플린트 락 권총, 카빈총의 도입이였습니다.[NEWLINE][NEWLINE]
+				중기병의 출현 이후 판체르니는 종종 더 새롭고 중무장된 후사르와 협력하여 기병의 돌격을 증강시키고 적군을 격추시키는 일을 했습니다. 17세기 후반까지, 그들은 폴란드 군대의 약 70%를 차지했고, 코사크, 타타르, 그리고 스웨덴군과 싸웠습니다. 후사르와 판체르니는 결국 합쳐져 폴란드-리투아니아 국립 기병대가 되었습니다.
+			</Text>
+		</Row>
+		<!-- Parthenon -->
+		<!-- Created by adan_eslavo 14/10/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_PARTHENON_STRATEGY">
+		    <Text>파르테논은 서기관 사무소를 대체하는 그리스의 고유 불가사의입니다. 서기관 사무소의 기본 보너스 외에도, 파르테논은 외교 유닛의 생산을 증가시키고, 더 많은 종이를 제공하며, 추가적인 외교 유닛을 제공합니다. 파르테논은 또한 모든 외교 유닛에게 프로제노스(Proxenos) 승급을 부여하여, 외교 임무를 완료할 때마다 파르테논에 영구적으로 골드를 제공합니다. 파르테논을 통해 그리스는 도시국가와 동맹의 호의와 혜택을 얻는 것 외에도 안정적인 수입원을 확보할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GREECE_PROXENOS">
+ 		   <Text>프로제노스(Proxenos)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_GREECE_PROXENOS_HELP">
+ 		   <Text>도시국가 영토에서 외교 임무를 완료하면 [ICON_INFLUENCE] 영향력이 +5 증가하고 [ICON_CAPITAL]수도에 [ICON_GOLD] 골드가 영구적으로 +2 증가합니다.</Text>
+		</Row>
+		
+		<!-- Pogost -->
+		<!-- Created by adan_eslavo 14/10/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_RUSSIA_POGOST_1">
+			<Text>포고스트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIA_POGOST_1_HELP">
+			<Text>마을과 소도시의 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산이 +1 증가합니다. [ICON_ARROW_LEFT] 교역로가 연결된 도시에 각각 [ICON_GOLD] 골드가 2 증가합니다. [NEWLINE][ICON_GOLD] 빈곤으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.[NEWLINE][NEWLINE]새로운 기술 발견 시 추가 산출을 얻습니다:[NEWLINE][COLOR_CYAN]은행[ENDCOLOR] 연구 완료 시 [ICON_RESEARCH] 과학이 +2.[NEWLINE][COLOR_CYAN]경제학[ENDCOLOR]  연구 완료 시 [ICON_FOOD] 식량 +2.[NEWLINE][COLOR_CYAN]철도[ENDCOLOR] 연구 완료 시 [ICON_PEACE] 신앙과 [ICON_PRODUCTION] 생산 +2.[NEWLINE][COLOR_CYAN]산업화[ENDCOLOR]  연구 완료 시 [COLOR_POSITIVE_TEXT]모든 산출량[ENDCOLOR] +1.[NEWLINE][NEWLINE] [ICON_RES_BANANA] 바나나: [ICON_GOLD] 골드 +2 .[NEWLINE][ICON_RES_COFFEE] 커피: [ICON_GOLD] 골드 +1 , [ICON_PRODUCTION] 생산 +2 .[NEWLINE][ICON_RES_TEA] 차: [ICON_GOLD] 골드 +2 , [ICON_PRODUCTION] 생산 +1 .[NEWLINE][ICON_RES_TOBACCO] 담배: [ICON_GOLD] 골드 +3 .</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIA_POGOST_STRATEGY">
+			<Text>세관을 대체하는 러시아 고유 건물입니다. 세관의 보너스 외에도, 포고스트는 모든 인근 마을의 산출물을 증가시킵니다. 또한 기술 트리를 진행함에 따라 포고스트의 기본 산출물이 상당히 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIA_POGOST_TEXT">
+			<Text>포고스트는 천 년에 걸쳐 존재한 러시아 농촌 생활의 한 기관으로, 그동안 여러 변화를 겪었습니다. 많은 중세 러시아 국가에서 포고스트는 귀족과 성직자들을 위한 여관과 숙소로 시작했지만, 동시에 공동체 센터와 무역 중심지로도 기능했습니다. 그러나 10세기 말까지 포고스트는 슬라브 국가 전역에서 행정 및 입법 중심지로 진화했습니다. 1775년까지 마지막 포고스트 주도 행정 구역이 폐지되었고, 건물들은 동방 정교회의 교구로 재활용되었습니다.</Text>
+		</Row>
+
+		<!-- Penteconter -->
+		<!-- Created by adan_eslavo on 30/11/2017 -->
+		<Row Tag="TXT_KEY_UNIT_PENTECONTER">
+			<Text>갤리선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PENTECONTER_HELP">
+			<Text>중세시대 이전까지 재해권을 주장하기 위해서 사용되었던 고전시대의 원거리 해상 유닛입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PENTECONTER_STRATEGY">
+			<Text>최초의 원거리 해상유닛입니다. 도시 밖의 대양 타일에서 턴을 종료할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PENTECONTER_TEXT">
+			<Text>갤리선은 무역, 해적질 그리고 전쟁에 사용된 고대 그리스 갤리선입니다. 갤리선은 50명의 노 젓는 사람들이 25열의 2열로 정렬하여, 그 배는 길지만 비교적 좁았습니다. 이러한 설계로 인해 비교적 빠르지만 해상 교전 중에는 선회하기가 어려웠습니다.</Text>
+		</Row>
+
+		<!-- Pracinha -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BRAZIL_EXPEDITIONARY_FORCE">
+			<Text>원정군</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BRAZIL_EXPEDITIONARY_FORCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT][ICON_CAPITAL]수도에서 1타일씩 멀어질수록[ENDCOLOR] [ICON_STRENGTH]전투력 +1%씩 증가.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BRAZIL_TOURISM">
+			<Text>영광의 깃발</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_BRAZIL_TOURISM_HELP">
+			<Text>유닛을 처치하면 [COLOR_POSITIVE_TEXT]모든 문명에 대한[ENDCOLOR] [ICON_TOURISM]관광 획득.</Text>
+		</Row>
+		
+		<!-- Prowler -->
+		<!-- Created by adan_eslavo on 20/10/2017 -->
+		<Row Tag="TXT_KEY_UNIT_IROQUOIS_PROWLER">
+			<Text>프라울러</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIS_PROWLER_HELP">
+			<Text>머스킷총병을 대체하는 이로쿼이의 고유 유닛입니다. 머스킷총병보다 저렴하고, 장애물 뒤에서도 공격할 수 있고 적의 공격에 후퇴할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIS_PROWLER_STRATEGY">
+			<Text>프라울러는 주변의 거친 지형을 완벽하게 활용하는 저렴한 유닛입니다. 프라울러의 "간접 사격" 진급은 그가 정찰이나 아군 국경의 도움을 받아 깊은 숲과 언덕에서 보이지 않는 공격을 할 수 있게 해줍니다. 적 유닛의 공격을 받으면 전투에서 철수할 수 있습니다. 프라울러의 회피성은 그를 이상적인 게릴라 유닛으로 만듭니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIS_PROWLER_TEXT">
+			<Text>
+				다른 많은 부족들과는 달리, 이로쿼이족은 허드슨 강을 따라 있는 네덜란드 요새에서 쉽게 상품을 거래할 수 있었고, 다양한 상품과 사치품을 거래했습니다. 철도끼와 머스킷과 같은 전쟁 무기가 크게 추구되었고, 이로쿼이족은 1640년대까지 그들의 전통적인 후론 적들과 알곤키아의 적들과 싸울 수 있는 장비를 갖추고 있었습니다. 일반적인 머스킷총은 펠트나 음식과 교환하여 제공되었지만, 종종 군사용 머스킷총보다 가볍고 작은 크기의 머스킷총병도 받았습니다. 네덜란드와 영국은 그들에게 등을 돌릴 수 있는 사람들에게 고품질의 무기를 주는 것을 두려워했지만, 이로쿼이족은 종종 작은 무기들이 거친 지형에 더 적합하다는 것을 발견했습니다.[NEWLINE][NEWLINE]
+				전쟁 전술은 이로쿼이족의 총기 획득 이후 바뀌었습니다. 그들의 새로운 무기의 치명성은 결코 높은 인구가 사는 집단이 아닌 이로쿼이족을 위태로운 지경에 빠뜨렸습니다. 난민과 전쟁 포로를 흡수하는 부족들의 관습은 점점 더 적은 수의 전사들이 유럽 무기와 충돌하면서 바뀌었습니다. 저명한 추장들과 무당들과 함께 걸어가는 대군들은 지휘관들이 이끄는 작은 군단인 게릴라 전술로 대체되었습니다.
+			</Text>
+		</Row>
+		
+
+		<!-- Qizilbash -->
+		<!-- Created by adan_eslavo on 29/10/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_PERSIA_SAFAVI_AGITATOR">
+			<Text>사파비 운동가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_PERSIA_SAFAVI_AGITATOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]약탈[ENDCOLOR] 시 [ICON_PEACE]신앙, [ICON_GOLD]골드, [ICON_GOLDEN_AGE]황금기 점수 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PERSIA_QIZILBASH">
+			<Text>퀴질바시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PERSIA_QIZILBASH_HELP">
+			<Text>창기병을 대체하는 페르시아의 고유 유닛입니다. [ICON_PEACE]신앙으로 언제든지 구매할 수 있습니다.[NEWLINE]약탈하면 [ICON_PEACE]신앙, [ICON_GOLD]골드, [ICON_GOLDEN_AGE]황금기 점수를 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PERSIA_QIZILBASH_STRATEGY">
+			<Text>창기병을 대체하는 페르시아의 고유 유닛입니다. 창기병보다 강한 퀴질바시는 약탈하는 모든 타일에 대해 신앙, 골드 및 황금기 포인트를 생성합니다. 이 장치는 종교적 교리 없이도 신앙으로 구입할 수 있습니다. 적의 영토에서 강력한 입지를 유지하면 페르시아가 더 많은 퀴질바시에 대한 신앙을 생성하고 더 많은 황금기를 유발하여 군대의 힘을 높일 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PERSIA_QIZILBASH_TEXT">
+			<Text>
+				빨간 머리라는 뜻의 퀴질바시는 원래 사파비 왕조 수피파(이슬람교의 분파중 하나)의 추종자들에게는 경멸적인 존재였습니다. 독특한 진홍색 머리 장식에서 그 이름이 유래한 퀴질바시는 유럽 기사단을 연상시키는 시아파 사회로 조직되었습니다. 주로 투르크만 출신이지만, 퀴질바시는 이란 사파비 왕조의 설립에 큰 도움이 되었습니다.[NEWLINE][NEWLINE]
+				이스마일 1세는 그의 아버지의 죽음에 대한 원수를 갚기 위한 캠페인에서 7000명의 퀴질바쉬 전사를 이끌고 3만 명의 아크 코윤루 군을 물리치고 사파비드 주를 설립했습니다. 11년 만에, 이스마일 1세는 모든 이란을 그의 지배하에 두었고, 850년 만에 이란을 통일시킨 최초의 민족적 군주가 되었습니다. 비록 그들이 그를 강력한 왕으로 만들었지만, 이스마일 1세는 이란 국민들에 대한 퀴질바시의 영향을 두려워했습니다. 이스마일 1세는 그의 후계자들은 향후 80년 동안 외국계 퀴질바시의 위협을 줄이고 코카서스 출신의 노예 군인으로 대체했습니다. 그럼에도 불구하고, 퀴질바시는 전쟁터와 법정에서 사파비 제국 내에서 명예로운 자리를 지켰습니다.
+			</Text>
+		</Row>
+		
+		<!-- Qila -->
+		<!-- Created by adan_eslavo 5/12/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_INDIA_QILA">
+			<Text>킬라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDIA_QILA_HELP">
+			<Text>성을 대체하는 인도의 고유 건물입니다. 이 도시에 대한 모든 피해가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 만큼 감소합니다. 도시에서 작업하는 채석장의 [ICON_PRODUCTION]생산이  [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다. [ICON_CITY_STATE] 도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]도시에 건설된 국가 또는 세계 불가사의 2개 마다 도시 힘을 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]합니다.[ICON_GREAT_WORK]걸작 또는 유물 슬롯 1개를 제공하며, 매 턴 마다 도시 [ICON_STRENGTH]방어력의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 만큼의 [ICON_CULTURE]문화를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDIA_QILA_STRATEGY">
+			<Text>킬라는 성을 대신하는 독특한 인도식 건물입니다. 성의 일반적인 보너스 외에도 킬라는 문화 및 위대한 예술가 포인트를 생성합니다. 도시 방어력의 10%는 매 턴마다 문화로 변환되며 도시는 도시에 건설된 불가사의에 대해 더 많은 방어력을 얻습니다. 가장 멋진 도시도 점령하기가 더 어려워집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDIA_QILA_TEXT">
+			<Text>무굴족은 15세기에 인도를 침략한 이슬람 제국으로, 19세기 중반까지 대부분의 아대륙을 지배했습니다. 그들의 통치 기간 동안, 그들은 점령자들을 위한 행정 중심지와 거주지 역할을 하는 시골에 "킬라"라고 불리는 정교한 요새를 건설했습니다. 이 요새들은 거대한 제국의 통치자들에게 적합한 아름다운 건축물들이었습니다. 웅장한 "라호르 요새"와 "아그라"의 붉은 요새를 포함한 몇몇 곳들이 오늘날까지 남아 있으며, 인도의 가장 큰 관광명소이자 무굴인들의 힘과 스타일을 보여주는 기념물로 남아 있습니다.</Text>
+		</Row>
+
+		<!-- Ranch -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_RANCH">
+			<Text>홈스테드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_RANCH_TEXT">
+			<Text>홈스테드는 미국 자영 농지법에 따라 정착된, 일반적으로 목장에 있는 대규모 토지 소유에 있는 건물들의 복합 건물입니다. 미국 정부는 "자유로운 토양" 정책을 시행하여 청구인, 사실상 무단거주자, 그들이 생산적인 농장이나 목장으로 전환한 토지의 소유권을 허용했습니다. 미국 대륙의 거의 10%가 이런 방식으로 정착되었습니다; 1862년에서 1930년 사이에 약 160만 명의 거주자들이 11만 제곱킬로미터의 땅을 차지했습니다.[NEWLINE][NEWLINE]대륙 내부의 거대한 조각들의 식민지화는 미국인들의 정신에 지워지지 않는 흔적을 남겼습니다. 개척지의 전설, 구서부, 카우보이, 그리고 인디언들은 여전히 그들의 독립심과 진취적인 정신, 그리고 자연에 대한 숙달감을 알려주면서 미국 문화에 스며들고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_RANCH_STRATEGY">
+			<Text>홈스테드는 마구간을 대체하는 미국의 고유 건물입니다. 마구간의 일반 능력 외에도 농가는 즉시 도시 주변의 모든 양, 말, 소 및 들소 자원을 얻게 됩니다. 소유를 한 타일의 생산 보너스는 비용의 일부를 즉시 얻을 수 있어 건설하는 데 도움이 될 수 있습니다. 일반적으로 마구간에서 부스트되는 모든 자원 외에 들소를 얻게 되며, 부스트된 모든 자원은 추가 식량을 얻습니다.[NEWLINE][NEWLINE]일꾼과 정착민 유닛의 생산을 높이고 미국이 개척자를 전체 시대에 훈련시킬 수 있도록 합니다. 일반적으로 잠금을 해제하기 전에. 미국은 새롭고 강력한 도시에 빠르게 정착할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICA_RANCH_HELP">
+			<Text>마구간을 대체하는 미국의 고유 건물입니다. 기마 유닛을 생산할때 [ICON_PRODUCTION]생산력이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가하고, 노동자나 개척자 유닛을 생산할때 [ICON_PRODUCTION]생산력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 도시에서 선구자를 생산할 수 있습니다.[NEWLINE][NEWLINE][ICON_SILVER_FIST]군사 유닛 보급 한도가 도시의 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 까지 증가합니다. 도시의 [ICON_CITIZEN]시민이 증가하면 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]제공합니다.[NEWLINE][NEWLINE]건물을 완성하면, 도시는 주변 3타일 내의 [ICON_RES_HORSE]말, [ICON_RES_SHEEP]양, [ICON_RES_COW]소, [ICON_RES_BISON]들소 자원을 즉시 얻으며, 각 타일당 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]얻습니다 . [NEWLINE]이 도시에서 출발하는 [ICON_INTERNATIONAL_TRADE]국내 교역로는 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR]증가됩니다.[NEWLINE][NEWLINE][ICON_RES_HORSE]말: [ICON_FOOD]식량 +2, [ICON_PRODUCTION]생산 +2, [ICON_GOLD]골드 +2[NEWLINE][ICON_RES_SHEEP]양: [ICON_FOOD]식량 +2, [ICON_PRODUCTION]생산 +2, [ICON_GOLD]골드 +2[NEWLINE][ICON_RES_COW]소: [ICON_FOOD]식량 +2, [ICON_PRODUCTION]생산 +2, [ICON_GOLD]골드 +2[NEWLINE][ICON_RES_BISON]들소: [ICON_FOOD]식량 +2, [ICON_PRODUCTION]생산 +2, [ICON_GOLD]골드 +2</Text>
+		</Row>
+
+		<!-- Riad -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_BUILDING_MOROCCO_RIAD">
+		    <Text>리야드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOROCCO_RIAD_TEXT">
+		    <Text>
+        리야드는 북아프리카 전통 주택으로, 내부 정원이나 안뜰을 둘러싸고 있는 페리스타일 형식으로 지어졌습니다. 이러한 주택들은 외관은 단순하지만 내부는 화려하게 장식되어 있어 겸손과 절제를 나타내면서도 가족의 편안함과 사생활을 보호했습니다.[NEWLINE][NEWLINE]
+        건축 양식은 세월이 흐르면서 변했지만, 리야드의 기본 형태는 현대 디자인에서도 여전히 사용되고 있습니다. 리야드는 북아프리카가 프랑스의 지배를 받던 시기에 르네상스를 누렸습니다. 유럽이 역사적 유산을 보존하는 데 매료된 것에 걸맞게, 모로코 주요 도시 전역에서 오래된 리야드를 복원하는 노력이 이루어졌으며, 종종 오래된 리야드는 호텔이나 레스토랑으로 개조되었습니다.
+		    </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOROCCO_RIAD_STRATEGY">
+		    <Text>리야드는 호텔을 대체하는 모로코의 고유 건물입니다. 호텔의 보너스 외에도, 리야드는 도시에 이미 건설된 건물마다 상당한 문화와 골드 보너스를 제공합니다. 또한, 새로운 시대로 진입할 때마다 강력해집니다. 리야드가 있는 도시는 모든 구매가 관광을 생성합니다. 리야드를 사용하여 상대보다 문화적 승리를 노리십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOROCCO_RIAD_HELP">
+		    <Text>건설 완료 시, 이 도시에 이미 건설된 건물과 불가사의 8개마다 [ICON_GOLD] 골드와 [ICON_CULTURE] 문화가 증가합니다. 각 시대마다 [ICON_GOLD] 골드와 [ICON_CULTURE] 문화가 +1 이 증가됩니다.[NEWLINE][NEWLINE]이 도시에서 유닛을 구매하거나 건물에 투자할 때, 비용의 10%가 [ICON_TOURISM] 관광으로 전환됩니다.[NEWLINE][NEWLINE][ICON_WONDER] 세계 불가사의와 타일에서 생성되는 [ICON_CULTURE] 문화의 33%가 이 도시의 [ICON_TOURISM] 관광으로 전환됩니다. 걸작에서 생성되는 [ICON_TOURISM] 관광이 25% 증가합니다.</Text>
+		</Row>
+		<!-- Tadodaho -->
+		<!-- Created by pineappledan 15/06/2023 -->
+		
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_IROQUOIS_DIPLOMATIC_RECIPROCITY">
+			<Text>상호주의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_IROQUOIS_DIPLOMATIC_RECIPROCITY_HELP">
+			<Text>소비되면, 위대한 외교관이 차지한 타일의 생산량이 [ICON_CAPITAL] 수도에 영구적으로 추가됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIS_TADODAHO">
+			<Text>타도도호</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIS_TADODAHO_HELP">
+			<Text>[COLOR_YELLOW][ICON_DIPLOMAT]위대한 외교관[ENDCOLOR]을 대체하는 이로쿼이의 고유 유닛입니다. 무료로 [COLOR_PLAYER_PURPLE]외교 대가[ENDCOLOR] 승급을 받고, 외교 임무에서 100 [ICON_INFLUENCE] 영향력을 얻고, 각 시대를 완료할 때마다 추가로 [ICON_INFLUENCE] 영향력을 받습니다. 또한 [COLOR_PLAYER_PURPLE]상호주의[ENDCOLOR] 승급을 받고 시작하며, 이 승급을 소모할 시 위대한 외교관이 차지한 타일의 산출량을 복사하여 [ICON_CAPITAL]수도에 영구적으로 추가합니다. [NEWLINE][NEWLINE]이 유닛을 전쟁 중이 아닌 도시 국가로 이동 시켜 둘 중 하나의 임무를 수행할 수 있습니다. 첫째, [COLOR_POSITIVE_TEXT]외교 임무[ENDCOLOR]를 통해 대상 도시 국가에 대한 휴식 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]45[ENDCOLOR][COLOR:105:105:105:255](기존:30)[ENDCOLOR] 증가시키고, [ICON_INFLUENCE]영향력을 받고 같은 양 만큼 다른 문명의 [ICON_INFLUENCE]영향력을 감소시킬 수 있습니다. 둘째, [COLOR_POSITIVE_TEXT]대사관[ENDCOLOR]을 건설해 세계 의회 추가 투표권을 확보할 수 있습니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 [COLOR_YELLOW]타도다호[ENDCOLOR]가 사라지고 [ICON_RES_PAPER][COLOR_POSITIVE_TEXT]종이[ENDCOLOR] 자원 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]개를 획득합니다. [COLOR_MAGENTA]정책[ENDCOLOR]계열을 완성하면 [COLOR_YELLOW]타도도호[ENDCOLOR]가 출현합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIS_TADODAHO_STRATEGY">
+			<Text>타도도호는 이로쿼이의 고유한 유닛으로 위대한 외교관을 대체합니다. 위대한 외교관의 능력 외에도 타도다호는 대사관 타일의 생산량을 복사하여 타도다호가 도시 국가 땅에 심고 그 산출량을 수도에 제공하는 능력을 가지고 있습니다. 타도도호는 또한 일반적인 위대한 외교관보다 외교 임무를 수행할 때 더 우호도 증가 효과를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIS_TADODAHO_TEXT">
+			<Text>Fire Keeper라고도 불리는 타도도호는 Cayuga, Mohawk, Oneida, Onondaga, Seneca 및 Tuscarora 사람들을 포함하는 여섯 족장 장문회의 수장을 말합니다. 영적, 정치적 지도자인 이 직위는 Iroquois Confederacy가 처음 설립된 때로 거슬러 올라갑니다. Hiawatha와 Great Peacemaker 시대에 Onondaga Nation의 hoyenah (수장)는 Tadodaho로 명명되었습니다. 그랜드 카운슬의 지도력과 설립자의 명예로운 칭호는 수세기 동안 이어져 왔으며 평생 임명됩니다. Haudenosaunee(Iroquois라고도 함) Confederacy가 처음 설립된 이래로 27개의 Tadodahos가 있었다고 합니다.[NEWLINE][NEWLINE]Iroquois League의 Great Council Fire는 여전히 현재 뉴욕의 Onondaga 보호 구역 내에 있습니다. 최근 역사의 Tadodahos는 Haudenosaunee 문화, 언어 및 역사의 본국 송환 및 보존을 위해 계속 싸웠으며 미국 및 캐나다 정부에 국민의 땅과 조약 권리를 보호하기 위해 청원했습니다.</Text>
+                      </Row>
+		<!-- Salon -->
+		<!-- Created by adan_eslavo 10/11/2017 -->
+		<Row Tag="TXT_KEY_BUILDING_FRANCE_SALON">
+			<Text>살롱</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FRANCE_SALON_HELP">
+			<Text>박물관을 대체하는 프랑스의 고유 건물입니다. 기존의 박물관 보다 일찍 건설이 가능하고, 갤러리를 필요로 하지 않습니다.[NEWLINE][NEWLINE]도시의 [ICON_CITIZEN]시민 4명마다 [ICON_CULTURE]문화와 [ICON_TOURISM]관광이 증가합니다. 도시의 [ICON_GREAT_WORK]걸작 슬롯의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]9개의 고유한 테마 보너스가 있습니다. [COLOR_YELLOW]테마 보너스를 달성하면[ENDCOLOR] [ICON_CULTURE]문화가 추가로 [COLOR_POSITIVE_TEXT]5[ENDCOLOR]증가하고 [ICON_GREAT_PEOPLE]위인 점수를 얻습니다.[COLOR:105:105:105:255]([ICON_GREAT_PEOPLE]위인의 테마에 따라 다름)[ENDCOLOR][NEWLINE][NEWLINE]테마 보너스를 달성한 도시는 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR]증가하고 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FRANCE_SALON_STRATEGY">
+			<Text>
+				살롱은 박물관을 대체하는 프랑스 고유의 건물입니다. 박물관의 일반적인 보너스 외에도 살롱은 과학을 생산하고 도시의 각 활성 테마 보너스에 대해 위인출연율이 증가합니다. 살롱에는 슬롯을 채우는 예술품 또는 걸작에 따라 다른 위대한 위인 점수를 제공하는 고유한 테마 보너스도 있습니다.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FRANCE_SALON_TEXT">
+			<Text>살롱(salon)은 영감을 주는 주인의 주도 아래에 있는 사람들의 모임으로, 어떤때는 서로를 즐겁게 하기 위해, 그리고 어떤때는 대화를 통해 취향을 다듬고 참가자들의 지식을 증가시키기 위해 열린다. 이러한 모임은 종종 Horace의  "기쁨을 주거나 교육을 시키기 위해서"라고 정의한 시의 목적을 의식적으로 따랐다. 17세기와 18세기의 프랑스 문학 및 철학 운동과 흔히 연관된 살롱은 꽤 최근까지 도시 환경에서 운영되었다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_1">
+			<Text>호기심의 캐비넷</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_2">
+			<Text>이국적인 콜렉션</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_3">
+			<Text>학위 집합</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_4">
+			<Text>건축 삽화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_5">
+			<Text>전쟁 사진전</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_6">
+			<Text>해외 회고전</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_7">
+			<Text>예술적 공감각</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_8">
+			<Text>마린룸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_FRANCE_SALON_9">
+			<Text>여행의 단편</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FRANCE_SALON_THEMING_BONUS_HELP">
+			<Text>테마 보너스를 극대화하려면, 걸작 슬롯의 예술품이나 유물을 전부 당신의 문명의 것으로만 채우든가 당신의 문명이 아닌 것으로 채우세요.</Text>
+		</Row>	
+		<!-- Sambadrome -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_BUILDING_BRAZIL_SAMBADROME">
+			<Text>삼바 축제장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRAZIL_SAMBADROME_TEXT">
+			<Text>삼바 축제장은 브라질의 카나발 기간 동안 삼바 학교를 위해 퍼레이드를 보여줄 수 있는 곳입니다. 삼바 축제장은 일반적으로 삼바 학교의 일원들이 행진할 수 있도록 긴 골목을 둘러싼 관람 구역으로 배열 되어 있습니다. 이 퍼레이드는 매년 수천 명의 브라질 사람들과 외국인 관광객들을 끌어 모읍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRAZIL_SAMBADROME_STRATEGY">
+			<Text>삼바 축제장은 오페라 극장을 대체하는 브라질의 고유 건물입니다. 오페라 극장의 보너스 외에도 삼바축제장은 황금기 점수도 증가합니다. 음악가 전문가 슬롯이 있으며 도시의 모든 음악가는 추가 골드 및 황금기 포인트가 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BRAZIL_SAMBADROME_HELP">
+			<Text>오페라 극장을 대체하는 브라질의 고유 건물입니다. 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 매턴 [ICON_CULTURE]문화의 10% 만큼 [ICON_GOLDEN_AGE]황금기 점수를 제공합니다.[NEWLINE][NEWLINE]도시의 [ICON_GREAT_WORK]걸작 슬롯의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 [ICON_GREAT_MUSICIAN]위대한 음악가 점수가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 모든 음악가 길드의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]증가합니다.[NEWLINE][ICON_GREAT_WORK]걸작 음악 슬롯 1개를 제공합니다.[NEWLINE][NEWLINE]건설이 완료되면 10턴 동안 [COLOR_POSITIVE_TEXT]카니발[ENDCOLOR]이 시작됩니다.[NEWLINE][NEWLINE]도시에 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]원형극장[ENDCOLOR]이 있어야 합니다. </Text>
+		</Row>
+		
+		<!-- Scythed Chariot -->
+		<!-- Created by adan_eslavo on 26/10/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CELTS_SCYTHE">
+			<Text>충격파</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CELTS_SCYTHE_HELP">
+			<Text>[COLOR_GREEN]유닛이 이동[ENDCOLOR] 할때마다 인접한 새 적 유닛에게 피해  [COLOR_GREEN]5[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CELTS_CARNYX">
+			<Text>카닉스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CELTS_CARNYX_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]근접 유닛[ENDCOLOR]과 대항 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT] +10%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]궁수 유닛[ENDCOLOR]과 대항 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT] +10%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CELTS_SCYTHED_CHARIOT">
+			<Text>낫전차</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CELTS_SCYTHED_CHARIOT_HELP">
+			<Text>개방된 지형에서 위험한 유닛입니다. 산병을 대체하는 켈트의 고유 유닛입니다. 근접 유닛과 궁병 유닛에 더 강력합니다.[NEWLINE][NEWLINE]이동 후, 새로 인접한 적 유닛에 피해를 주지만, [COLOR_NEGATIVE_TEXT]산병보다 이동력이 더 적고 험지에서 이동력 페널티를 받습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CELTS_SCYTHED_CHARIOT_STRATEGY">
+			<Text>낫전차는 적진을 파괴하기 위해 만들어진 셀틱 고유 유닛입니다. Scythed 전차는 강력한 원거리 공격을 가진 전차 계열의 연속이지만 특히 거친 지형에서 현대 척후병보다 훨씬 느리게 움직입니다. 적들은 낫 달린 전차가 적들과 인접해 이동할 때마다 피해를 입으므로 이 유닛은 탁 트인 지형에서 치명적입니다. 피해를 극대화하기 위해 모든 움직임을 중요하게 여기되, 전차가 적의 차례에 노출되지 않도록 주의하십시오. 기마 유닛인 낫전차는 창병에게 취약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CELTS_SCYTHED_CHARIOT_TEXT">
+			<Text>
+				낫전차는 바퀴 축에서 뻗어 나온 긴 날을 가진 개조된 전차입니다. 비록 종종 허황된 이야기로 치부되지만, 낫으로 만든 병거의 사용은 픽트족, 아일랜드인, 이세니 군대의 것으로 여겨지고 있습니다. 로마인의 전파범위를 넘어선 외부 영국에서의 낫전차에 대한 유일한 기록은 중 아일랜드 얼스터 대계 중 쿠 훌린의 모험에서 나온 것입니다.[NEWLINE][NEWLINE]
+				비록 마전차들이 기원전 3세기 말부터 유럽 대륙에서 사용되지 않게 되었지만, 카이사르는 마전차각 영국 전쟁에서 여전히 중요한 존재라는 것을 발견했습니다. 카이사르는 켈트족 기병과 전차를 모두 만나 어떻게 이 전사들이 차에서 투창을 던지고는 걸어서 싸우는지 설명했습니다. 켈트족 병사들은 신속하게 후퇴하거나 재배치하기 위해 전차로 돌아갈 수 있습니다.[NEWLINE][NEWLINE]
+				“그들은 말뿐만 아니라 골족의 방식으로 무장한 두 대의 말 전차로 전쟁을 벌인다. 그들은 그 전차를 코빈니라고 부른다. 그들은 낫이 달린 차축을 사용한다.” [NEWLINE]
+				- 폼포니우스 멜라
+			</Text>
+		</Row>
+		
+		<!-- Seir Morb -->
+		<!-- Created by adan_eslavo on 9/12/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SIAM_CROACHING_TIGER">
+			<Text>웅크린 호랑이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SIAM_CROACHING_TIGER_HELP">
+			<Text>같은 자리에 주둔 시 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 추가 피해[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SIAM_SEIR_MORB">
+			<Text>쓰아멉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SIAM_SEIR_MORB_HELP">
+			<Text>야전포를 대체하는 시암의 고유 유닛입니다. 해상 유닛에 보너스를 가지지만, 도시에 보너스가 없습니다.[NEWLINE][NEWLINE]해당 턴에 움직이지 않는다면 추가 피해를 입힐 수 있습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]엄폐 I[ENDCOLOR] 승급과 [COLOR_POSITIVE_TEXT]엄폐 II[ENDCOLOR] 승급을 가지고 시작합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SIAM_SEIR_MORB_STRATEGY">
+			<Text>강력한 해안 방어 대포인 쓰아멉은 특히 해상 목표물에 대해 대체하는 야전포보다 강력하지만 도시에 주는 피해는 적습니다. 해당 턴에 대포가 전혀 움직이지 않으면 대포가 20의 추가 피해를 주므로 좋은 위치를 선택하고 안정적으로 유지하십시오. 이동으로 인한 추가 피해는 도시 내부의 수비대와 해군 유닛이 보호하는 승선 유닛을 포함하여 타일에 쌓인 모든 적 유닛에 영향을 미칩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SIAM_SEIR_MORB_TEXT">
+			<Text>시암의 뛰어난 외교에도 불구하고, 그들은 때때로 그들의 독립을 위협했던 제국주의 강대국들과 충돌했습니다. 프랑스인들이 라오스를 목표로 삼았을 때, 시암인들은 영국인들이 프랑스에 대항하여 그들을 지원할 것이라고 잘못 믿고 전쟁을 준비했습니다. 웅크린 호랑이라는 뜻의 쓰아멉은 당시 샴 무기고에서 가장 기술적으로 진보된 대포였으며, 항구에 들어갈 정도로 어리석은 프랑스 배를 파괴할 수 있는 해안포였습니다. 그러나 어떠한 힘도 부패와 비 조직화를 설명 할 수 없습니다. 프랑스 군은 교두보를 세웠고 태국의 해안 포병은 사용되지 않았습니다. 이 사례는 좋은 포병대 재산은 발시되기 위해서 반드시 구매 될 수 있다는걸 드러냈습니다.</Text>
+		</Row>
+
+		<!-- Suffet -->
+		<!-- Created by pineappledan -->
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET">
+			<Text>수펫</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_HELP">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군과 [ICON_GREAT_ADMIRAL]위대한 제독을 동시에 대체하는 카르타고의 고유 위인입니다. 승선하면 [ICON_GREAT_ADMIRAL]위대한 제독이 되고 도시에 상륙하면 [ICON_GREAT_GENERAL]위대한 장군이 됩니다. [NEWLINE][NEWLINE]일반적인 [ICON_GREAT_GENERAL]위대한 장군과 [ICON_GREAT_ADMIRAL]위대한 제독의 능력 외에도 같은 타일이나 인접한 타일에서 시작하는 아군 유닛이 해당 턴 동안 적 통제 구역을 무시하도록 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_STRATEGY">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군과 [ICON_GREAT_ADMIRAL]위대한 제독을 동시에 대체하는 카르타고의 고유 위인입니다. 승선하면 [ICON_GREAT_ADMIRAL]위대한 제독이 되고 도시에 상륙하면 [ICON_GREAT_GENERAL]위대한 장군이 됩니다.[NEWLINE]일반적인 [ICON_GREAT_GENERAL]위대한 장군과 [ICON_GREAT_ADMIRAL]위대한 제독의 능력 외에도 같은 타일이나 인접한 타일에서 시작하는 아군 유닛이 해당 턴 동안 적 통제 구역을 무시하도록 합니다.[NEWLINE]수펫을 이용함으로써 군사를 강화시키고 다양한 이동력을 가질 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_TEXT">
+			<Text>여러 독립 도시 국가들과 페니키아에서 수펫은 도시 국가에 대한 통제권을 부여받은 비왕실 치안관이었으며, 때때로 로마 영사와 같은 방식으로 기능하기도 했습니다. 기원전 5세기에 군주제가 전복된 후, 카르타고는 두 차례의 참정권 주재로 많은 귀족 의회의 지배를 받았습니다. 한니발 바르카 같은 괴로운 장군들의 뛰어난 지도력은 전설적이 되어 로마가 겪은 가장 큰 패배를 안겨주었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CARTHAGE_GENERAL">
+			<Text>카르타고 사령관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CARTHAGE_GENERAL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]승선하면[ENDCOLOR] [ICON_GREAT_ADMIRAL]위대한 제독이 됩니다. [COLOR_POSITIVE_TEXT]턴이 시작되고 끝날때까지[ENDCOLOR], 수펫과 같은 타일이거나 인접한 유닛은 [COLOR_POSITIVE_TEXT]전염병 면역[ENDCOLOR] 승급과 [COLOR_POSITIVE_TEXT]통제구역 무시[ENDCOLOR] 승급을 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CARTHAGE_ADMIRAL">
+			<Text>카르타고 사령관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CARTHAGE_ADMIRAL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]도시에서만 하선이 가능하며[ENDCOLOR] 하선하면 [ICON_GREAT_GENERAL]위대한 장군이 됩니다. [COLOR_POSITIVE_TEXT]턴이 시작되고 끝날때까지[ENDCOLOR], 수펫과 같은 타일이거나 인접한 유닛은 [COLOR_POSITIVE_TEXT]전염병 면역[ENDCOLOR] 승급과 [COLOR_POSITIVE_TEXT]통제구역 무시[ENDCOLOR] 승급을 얻습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CARTHAGE_ZOC">
+			<Text>칸나이 전투와 드레파나 해전</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CARTHAGE_ZOC_HELP">
+			<Text>해당 턴 동안 [COLOR_POSITIVE_TEXT]전염병 면역[ENDCOLOR] 승급과 [COLOR_POSITIVE_TEXT]적의 통제구역을 무시[ENDCOLOR]합니다.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_1">
+			<Text>보밀카르</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_2">
+			<Text>하밀카르 바르카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_3">
+			<Text>한니발</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_4">
+			<Text>한니발 바르카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_5">
+			<Text>하스드루발 2세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_6">
+			<Text>하스드루발 기스코</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_7">
+			<Text>사령관 하스드루발</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_8">
+			<Text>마고 1세 저스틴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_9">
+			<Text>마고 2세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_10">
+			<Text>마고 3세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_11">
+			<Text>히밀코 1세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_12">
+			<Text>히밀코 2세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_13">
+			<Text>미남 하스드루발</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_14">
+			<Text>아드허발</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_15">
+			<Text>카르테알로</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_16">
+			<Text>한니발 모노마쿠스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_17">
+			<Text>마하르발</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_18">
+			<Text>소포니스바</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_19">
+			<Text>르호디안의 한니발</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_20">
+			<Text>한노 원로왕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_21">
+			<Text>한노 대왕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_22">
+			<Text>아데르발</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_23">
+			<Text>보다쉬타르트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_24">
+			<Text>필로시르</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGE_SHOPHET_25">
+			<Text>어브드멜콰르트</Text>
+		</Row>
+		<!-- Suffet -->
+		<!-- Created by pineappledan -->
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET">
+			<Text>쇼펫</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_HELP">
+			<Text>[ICON_GREAT_GENERAL]위대한 장군을 대체하는 이스라엘의 고유 위인입니다. 근처의 군사 유닛을 강화시키고 성채를 건설할 수 있으며, 매턴 해당 유닛이 [ICON_CULTURE]문화와 [ICON_PEACE]신앙을 +2 제공합니다.[NEWLINE][NEWLINE]쇼펫과 근접한 적의 도시에 추가 피해를 줍니다. 도시가 [ICON_BLOCKADED]봉쇄되면 피해를 두배로 줍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_STRATEGY">
+			<Text>쇼펫은 이스라엘의 고유한 위대한 장군 대체 유닛입니다. 쇼펫은 공성 공격을 단축하는 데 매우 효과적이며, 적 도시에 인접해 있으면 매 턴 마다 일정한 피해를 입힙니다. 쇼펫은 또한 제국에 신앙과 문화를 꾸준히 공급하므로, 바로 성채를 지을 필요는 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_TEXT">
+			<Text>이스라엘의 심판관, 즉 쇼프딤은 이스라엘이 왕정을 수립하기 전, 위기에 처한 이스라엘 군부 지도자였습니다. 히브리 성경의 심판 서에서는 쇼펫을 순환 패턴의 일부로 설명합니다. 이스라엘 백성은 그들의 신에서 떨어져 나가고, 고난은 하나님의 형벌로 인하여 일어나며, 이스라엘 백성은 주님께 구원을 외치고, 하나님은 이스라엘 백성을 인도하여 그들의 박해자를 타도하게 하시며, 그 순환이 반복됩니다. 심판의 주기는 300년에서 500년 사이에 진행된 것으로 여겨집니다.[NEWLINE][NEWLINE]성경이 지은 이스라엘의 첫 재판관은 모세인데, 그는 이집트에서 이스라엘 자손을 속박에서 벗어나 유대 율법을 제정했다고 합니다. 모세의 뒤를 이어 여호수아가 이스라엘 자손을 이끌고 가나안 땅을 정복했습니다. 성경에 이름 붙여진 마지막 심판은 새 이스라엘 왕국의 첫 번째 왕과 두 번째 왕 모두를 임명했던 사무엘이었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOPHET">
+			<Text>이스라엘 판관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOPHET_HELP">
+			<Text>매턴 [ICON_CULTURE]문화 +2, [ICON_PEACE]신앙 +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOFAR">
+			<Text>뿔나팔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOFAR_HELP">
+			<Text>매턴 인접한 적의 도시에 추가로 -20의 피해를 줍니다. [COLOR_POSITIVE_TEXT]도시가 봉쇄되면[ENDCOLOR] 효과는 두배가 됩니다.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_1">
+			<Text>여호수아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_2">
+			<Text>오드니엘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_3">
+			<Text>에훗</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_4">
+			<Text>삼가르</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_5">
+			<Text>드보라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_6">
+			<Text>기드온</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_7">
+			<Text>아비멜렉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_8">
+			<Text>톨라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_9">
+			<Text>자이르</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_10">
+			<Text>입다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_11">
+			<Text>입잔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_12">
+			<Text>일론</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_13">
+			<Text>앱돈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_14">
+			<Text>삼손</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_15">
+			<Text>일라이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_16">
+			<Text>사무엘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_17">
+			<Text>모세</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_18">
+			<Text>요엘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_19">
+			<Text>아바디아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_20">
+			<Text>아마리아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_21">
+			<Text>제베디아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ISRAEL_SHOPHET_22">
+			<Text>바락</Text>
+		</Row>	
+		<!-- Shotelai -->
+		<!-- Created by adan_eslavo on 12/11/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ETHIOPIA_MAIM_0">
+			<Text>불구로 만들다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ETHIOPIA_MAIM_0_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공격 후[ENDCOLOR] 방어중인 유닛이 표시. 표시된 적은 [COLOR_POSITIVE_TEXT]다음 턴에[ENDCOLOR] [ICON_ARROW_RIGHT]이동력 감소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ETHIOPIA_MAIM_1">
+			<Text>불구</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ETHIOPIA_MAIM_1_HELP">
+			<Text>[ICON_ARROW_RIGHT]이동력 [COLOR_NEGATIVE_TEXT]2[ENDCOLOR] 감소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ETHIOPIA_HOOKED_WEAPON">
+			<Text>쇼텔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_ETHIOPIA_HOOKED_WEAPON_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]기마 유닛[ENDCOLOR]과 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ETHIOPIA_SHOTELAI">
+			<Text>체와</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ETHIOPIA_SHOTELAI_HELP">
+			<Text>장검병을 대체하는 에티오피아의 고유 유닛입니다. 기마 유닛에 더 강합니다. 이 유닛으로 공격당한 유닛은 다음턴에 [ICON_MOVES]이동력이 -2 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ETHIOPIA_SHOTELAI_STRATEGY">
+			<Text>장검병을 대체하는 에티오피아의 고유 유닛니다. 이 부대는 말에 탄 적과 싸우고 후퇴하는 부대를 절뚝거리게 만드는 데 특화되어 있습니다. 오직 에티오피아만이 생산할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ETHIOPIA_SHOTELAI_TEXT">
+			<Text>체와는 에티오피아 중세 사회의 고귀한 전사 계급으로, 황제가 임명하고 그들의 봉사에 필요한 토지 보조금을 제공받았습니다. 체와 귀족들은 에티오피아 제국 특유의 극적으로 구부러진 양날 칼인 쇼텔을 사용하는 것으로 유명합니다. 거의 반원형으로, 쇼텔은 방패를 낚아채거나 그들 주위에 손을 뻗어서 상대방을 가격할 수 있습니다. 그 칼은 또한 기마병을 낚아채서 땅에 떨어뜨리는 데 사용될 수 있었습니다.</Text>
+		</Row>
+
+		<!-- Sofa -->		
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SONGHAI_HORSE_FATHER">
+			<Text>말의 수호신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SONGHAI_HORSE_FATHER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]2 타일 이내의 우호 기마 유닛[ENDCOLOR]의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SONGHAI_HORSE_FATHER_EFFECT">
+			<Text>소파 인접</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SONGHAI_HORSE_FATHER_EFFECT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]소파[ENDCOLOR]와 2타일 이내 인접 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SONGHAI_SOFA">
+			<Text>소파</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SONGHAI_SOFA_HELP">
+			<Text>석궁병을 대체하는 송가이의 고유 유닛입니다. 석궁병보다 더 싸고 이른 시기에 만들 수 있으며, 2 타일 이내의 모든 기마 유닛에 [ICON_STRENGTH]전투력을 증가시킵니다. [COLOR_POSITIVE_TEXT]의무병 I[ENDCOLOR] 승급을 가지고 시작합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SONGHAI_SOFA_STRATEGY">
+			<Text>소파는 석궁병을 대체하는 송가이 고유 유닛입니다. 의무병 I 진급을 시작으로 탁월한 지원 유닛 역할을 하며 2타일 내의 모든 기마 유닛에 대한 전투력을 15% 증가시켜줍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SONGHAI_SOFA_TEXT">
+			<Text>
+				소파는 서아프리카의 여러 제국의 군대에서 복무한 노예 군인들을 가리키는 만딩고족 용어입니다. 원래, 소파는 군인 귀족인 파라리의 승마장이었지만, 그들의 역할은 서서히 그들 자신의 권리에 맞는 척후병과 군인이 되기 위해 바뀌었습니다. 소파는 전투에서 붙잡힌 노예라는 뜻의 조나우를  모집하거나 멀리서 구입했습니다. 말리와 송가이 제국의 노예 제도는 충성을 중히 보상했고, 이제는 시민이나 군사적인 지위에까지 오를 수 있었습니다. 조나단은 이제 주인의 일족이 되었고, 몇 년 후에 종종 풀려났습니다..[NEWLINE][NEWLINE]
+				소파는 두 개의 떨림을 가지고 있었고, 유럽 기준으로는 활이 작았습니다. 그래서 소파는 치명적인 독을 사용했고 화살에 힘을 주기 위해 원호로 발사했습니다.
+			</Text>
+		</Row>		
+		
+		<!-- SPAD -->
+		<!-- Created by adan_eslavo on 11/11/2017 -->
+		<Row Tag="TXT_KEY_UNIT_FRANCE_SPAD">
+			<Text>스패드 S.VII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRANCE_SPAD_HELP">
+			<Text>삼엽기를 대체하는 프랑스의 고유 유닛입니다. 삼엽기보다 전투기보다 요격 사거리가 더 깁니다. [COLOR_PLAYER_POSITIVE]병참 지원[ENDCOLOR] 승급을 가지고 시작합니다. [NEWLINE][NEWLINE][ICON_RES_OIL]석유를 필요로 하지 않으며 [COLOR_POSITIVE_TEXT]군사 유닛 보급 한도를 차지 하지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRANCE_SPAD_STRATEGY">
+			<Text>스패드 S.VII는 프랑스의 초기 제공권 전투기입니다. 이 전투기는 한 턴에 두 번 공격할 수 있는 능력으로 공중에서 강력한 프랑스군을 만드는 데 도움이 될 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRANCE_SPAD_TEXT">
+			<Text>
+				제 1차 세계 대전은 정찰 및 폭격을위한 항공기 채택을 포함하여 전쟁이 진행되는 방식에있어서 빠른 기술 및 전술적 변화를 보았습니다. 이 기계들은 완전히 새로운 전쟁터를 열었습니다. 그들의 약속에도 불구하고 최초의 항공기는 저출력 연소 엔진으로 인해 느리고 서투르고 신뢰할 수 없었습니다. 이 모든 것은 1915 년 마르크 비르키트가 150마력과 150킬로그램의 무게를 자랑하는 새로운 V8 엔진을 발명했을 때 바뀌 었습니다. 프랑스 최고 사령부는 새로운 모터의 가치를 항공기 엔진으로보고 새로운 전투기인 항공 회사 및 파생 상품(The Société Pour L' Aviation et ses Dérivés) 이하 스패드(SPAD)S. VII를 의뢰했습니다.[NEWLINE][NEWLINE]
+				1916년 말, 스패드 VII는 전장 투입이 시작되었고 나머지 전쟁동안 연합군 조종사들에 의해 널리 채택되었습니다. 구형 뉴포르 전투기의 기동성은 부족했지만 스패드 VII는 시속 204킬로미터를 초과하고 시속 400킬로미터 이상에서 다이빙 할 수있었고 이것은 속도에서 타의 추종을 불허했습니다. 조종사는 이 속도를 활용하기 위해 완전히 새로운 전술을 만들어 스패드 전투기가 투구 전투를 안전하게 피할 수있는 능력을 부여했습니다. 다이빙의 추가 된 안정성은 기동 중에 날개를 흘리는 나쁜 습관을 가진 오래된 뉴포르 전투기보다 특히 높이 평가되었습니다.[NEWLINE][NEWLINE]
+				항공의 우위는 더 새롭고 더 나은 독일 디자인과 엔진과의 지속적인 군비 경쟁이 되었습니다. 전쟁이 끝날 무렵, 스패드 VII의 싱글 .303 비커스 기관총은 적어도 두 개의 기관총을 가지고 있던 독일 전투기들에 의해 겨루어졌습니다. 더 무겁고 빠른 스패드 XII는 결국 1917년 말에 스패드 VII를 대체했고, 전쟁의 나머지 기간 동안의 프랑스를 지켜보았습니다. 여러 단점에도 불구하고 스패드 시리즈는 제 1차 세계대전 전투기 중 가장 빠르고 강력한 것으로 기억되고 있습니다.
+			</Text>
+		</Row>
+		
+		<!-- Standschützen -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_STANDSCHUTZEN">
+			<Text>스탠드슈첸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_STANDSCHUTZEN_TEXT">
+			<Text>독일어로 사격장을 뜻하는 스탠드슈첸은 원래 15세기에서 16세기쯤 결성된 소총 길드 및 회사였습니다. 스탠드슈첸은 정기적으로 오스트리아 티롤 주의 국경의 군사 작전에 참가했고 회원인 스탠드슈츠(영어로 슈팅 클럽)들은 티롤 주(와 포어알베르크 주)의 자발적인 군사 보호에 참가하게 되었습니다. 이는 스탠드슈츠를 티롤 지역 민병대와 보초병으로 만드는데 영향을 주었습니다.[NEWLINE][NEWLINE]스탠드슈첸은 주기적으로 반란과 침략으로부터 조국을 지키라는 소집을 받았지만, 1차 세계 대전에서의 그들의 행동은 특히 두드러졌습니다. 이탈리아는 오스트리아와의 전쟁에 늦게 참여하여 티롤의 알프스 고개를 통해 새로운 전선을 열었습니다. 오스트리아는 전쟁이 처음 발발했을 때 이미 다른 곳에 티롤 신병 대대를 투입했기 때문에, 젊고, 노약하고, 부상당한 사람들로 구성된 스탠드슈첸은 아무런 통지나 물질적 지원 없이 그들의 지방을 지키라는 소집을 받았습니다.이러한 상황에도 불구하고 스탠드슈첸은 집을 지키기 위해 용감히 싸웠고, 정규군이 도착할 때까지 몇 주 동안 이탈리아군을 물리쳤습니다. 스탠드슈첸의 행동이 기회주의적인 적의 새로운 침략에 맞서 오스트리아가 파괴적인 손실을 입지 않도록 구했다는 것은 의심의 여지가 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_STANDSCHUTZEN_STRATEGY">
+			<Text>스탠드슈첸은 군수창고를 대체하는 오스트리아 고유의 건물입니다. 군수창고보다 저렴하고 더 일찍 사용할 수 있습니다. 도시의 [ICON_RANGE_STRENGTH] 원거리 공격 범위가 1 증가합니다. 이를 통해 도시에서 지상군 유닛을 더 빠르게 건설할 수 있습니다. 또한 이는 각 동맹 도시 국가에 추가 산출량을 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRIA_STANDSCHUTZEN_HELP">
+			<Text>군수창고를 대체하는 오스트리아의 고유 건물입니다. 도시의 [ICON_RANGE_STRENGTH]원거리 공격 범위를 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE]군사 유닛 보급 한도가 도시의 [ICON_CITIZEN]시민의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]만큼 증가합니다. 도시에 주둔한 군사 유닛이 회복할 때 추가로 5 만큼 더 회복합니다.[NEWLINE][NEWLINE]도시 국가 동맹 1개 마다 [ICON_PRODUCTION]생산과 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]씩 증가합니다. 화약 유닛의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR] 증가하고 경험치를 [COLOR_POSITIVE_TEXT]15[ENDCOLOR]제공합니다. 화약 유닛이 아닌 지상 유닛의 [ICON_PRODUCTION]생산은 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_CITY]도시 규모 요구치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.</Text>
+		</Row>
+		
+		<!-- Steam Mill -->
+		<!-- Created by Gazebo -->
+		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL">
+			<Text>증기 제분소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STEAM_MILL_TEXT">
+			<Text>고정식 증기 엔진은 펌핑 또는 제분소 및 공장 운전, 발전 등에 사용되는 개선된 증기 엔진입니다. 철도에 사용되는 기관차 엔진, 도로에서의 증기 운반을 위한 견인 엔진, 증기 자동차와 다른 종류의 자동차, 쟁기 또는 탈곡에 사용되는 농업 엔진, 해양 엔진 및 대부분의 원자력 발전소의 발전 메커니즘으로 사용되는 증기 터빈과는 구별됩니다. 그것들은 18세기에 도입되었고, 19세기 전체와 20세기 전반을 위해 널리 만들어졌으며, 전기 공급과 내연 엔진이 더 널리 보급되면서 쇠퇴했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL_HELP">
+			<Text>공장을 대체하는 영국의 고유 건물입니다. 도시의 [ICON_CITIZEN]시민 2명마다 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_RES_COAL]석탄을 필요로 하지 않습니다. 도시에서 작업중인 제조소의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 전문가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR]명은 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다.[NEWLINE][NEWLINE]산업 시대나 이후의 시대에 이 건물의 건설을 완료하면, 건설 비용의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]가 [ICON_GREAT_ENGINEER]위대한 기술자의 점수로 제공됩니다. 기술자 전문가의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RES_COAL]석탄: [ICON_PRODUCTION]생산 +3[NEWLINE][NEWLINE]도시에 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]작업장[ENDCOLOR]이 있어야 합니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL_STRATEGY">
+			<Text>공장을 대체하는 영국의 고유 건물입니다.  증기 분쇄소는 더 저렴하고 [ICON_RES_COAL] 석탄이 필요하지 않으며 공장보다 일찍 사용할 수 있으며 도시에서 작업한 [ICON_RES_COAL] 석탄에 추가 생산력을 제공합니다. 또한 건물을 지을 때 [ICON_GREAT_ENGINEER] 위대한 기술자 점수를 제공하는 동시에 기술자 전문가의 [ICON_PRODUCTION] 생산을 증가시킵니다. 석탄이 필요하지 않기 때문에 잉여 석탄을 사용하여 항구와 철갑을 건설하거나 많은 양의 골드와 교환할 수 있습니다.</Text>
+		</Row>
+		<!-- Qullqa & Coca -->	
+		<Row Tag="TXT_KEY_BUILDING_INCA_QULLQA">
+			<Text>퀄카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INCA_QULLQA_HELP">
+			<Text>곡창을 대체하는 잉카의 고유 건물입니다. 도시에 주둔한 유닛은 [COLOR_YELLOW]행동 여부와 상관없이[ENDCOLOR] 체력 [COLOR_POSITIVE_TEXT]5[ENDCOLOR]를 회복합니다.[NEWLINE][NEWLINE]건설이 완료되면 [ICON_FOOD]식량을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 얻습니다. 해당 건물이 지어진 도시의 [ICON_FOOD]식량 초과분이 [COLOR_POSITIVE_TEXT]절대 떨어지지 않습니다[ENDCOLOR].[NEWLINE][NEWLINE]도시의 [ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]를 다음 [ICON_CITIZEN]시민을 위해 사용할 수 있습니다.국내 교역로를 통해  [ICON_FOOD]식량을 다른 도시로 옮길 수 있습니다. 모든 도시를 [ICON_CONNECTED]연결하면 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_RES_WHEAT]밀: [ICON_FOOD]식량 +1.[NEWLINE][ICON_RES_MAIZE]옥수수: [ICON_FOOD]식량 +1.[NEWLINE][ICON_RES_RICE]쌀: [ICON_FOOD]식량 +1.[NEWLINE][ICON_RES_BANANA]바나나: [ICON_FOOD]식량 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INCA_QULLQA_STRATEGY">
+			<Text>퀄카는 곡창을 대체하는 잉카의 고유 건물입니다. 곡창의 일반적인 보너스 외에도 퀄카는 매 턴 주둔 유닛을 치료합니다. 퀄카는 [COLOR_NEGATIVE_TEXT]기아[ENDCOLOR] 및 [COLOR_NEGATIVE_TEXT]침체[ENDCOLOR]로부터 도시를 보호합니다. 또한 제국의 도시 연결에서 받는 골드도 증가합니다. 모든 도시에 퀄카를 건설하여 도로 연결로 인한 골드 보너스를 극대화하고 대중을 안전하고 건강하게 유지하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INCA_QULLQA_TEXT">
+			<Text>
+				퀄카는 도시 근처의 길가와 타완틴수유 지역의 정치 중심지를 따라 위치한 저장고였습니다. 퀄카는 일반 대중과 군대를 위한 식량과 보급품을 저장했습니다. 이 시스템은 잉카 영토의 대부분을 구성하는 위태롭고 고지대의 공동체에서 빈번한 농작물 실패가 발생할 경우 농민을 위한 식량 비축 역할을 했습니다. 창고는 또한 군인들을 식량 징발의 필요성에서 해방시켰지만 지역 주민들의 지속적인 유지 관리가 필요했습니다.[NEWLINE][NEWLINE]
+				퀄카 시스템을 유지하고 비축하는 것은 탐보스라는 스테이션에 거주하는 지역 영주의 책임이었습니다. 왕족전용 퀄카에는 깃털, 보석, 코카 잎을 포함하여 잉카 귀족의 사치품과 의식 용품을 보관했습니다. 코카잎 생산은 제국의 독점권으로 철저히 지켜졌습니다. 코카의 재배와 유통은 엄격하게 귀족과 소수의 특권층의 통제하에 있었습니다. 사실, 잉카 제국의 전체 경제는 퀼카 시스템에 저장된 상품에 대한 접근과 통제가 제국의 복지와 지속적인 확장을 보장하는 명령 경제에서 기능했습니다
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_COCA">
+			<Text>코카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_COCA_TEXT">
+			<Text>코카는 남아메리카 서부에 자생하는 에리트로실라과의 네 가지 재배종 중 어느 한 종이라도 속하는 잎입니다. 코카는 다양한 약용과 영양 사용, 경계 강화, 통증 완화, 식욕 억제, 고산병 치료로 유명합니다. 잎은 전통적으로 씹거나 차로 양조됩니다. 코카는 피로를 겪거나 배고픔을 겪으면서도 사람들이 더 열심히 일하도록 돕는 능력으로 스페인 정복자들에게 깊은 인상을 남겼습니다.[NEWLINE][NEWLINE]오늘날 코카는 향정신성 알칼로이드인 코카인으로 가장 잘 알려져 있습니다. 코카 잎의 알칼로이드 함량은 상대적으로 낮기 때문에 단일 배치의 코카인에 많은 수의 코카 잎이 필요합니다. 코카 잎 추출물은 1885년에 코카콜라 제품에 사용되기 시작했지만 1903년경 제품에서 코카인이 완전히 제거되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_COCA">
+			<Text>[COLOR_POSITIVE_TEXT]독점 보너스:[ENDCOLOR] 모든 유닛에 [COLOR_POSITIVE_TEXT]코카 잎[ENDCOLOR] 승급을 부여.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INCA_COCA">
+			<Text>코카 잎</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_INCA_COCA_HELP">
+			<Text>유닛이 [COLOR_POSITIVE_TEXT]산을 건널 수 있음[ENDCOLOR][NEWLINE][ICON_WORKER]작업 속도 +15% 증가</Text>
+		</Row>
+			
+		<!-- Tarkhan -->		
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_HUNS_MIGRATION">
+			<Text>이주</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_HUNS_MIGRATION_HELP">
+			<Text>이 유닛과 [COLOR_POSITIVE_TEXT]같은 타일에서 턴을 시작하는[ENDCOLOR] 개척자와 노동자 유닛의 [ICON_ARROW_RIGHT]이동력 +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_HUNS_SACKER">
+			<Text>전쟁 알림</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_HUNS_SACKER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]약탈하면[ENDCOLOR] 주변의 모든 우호 유닛의 체력 +15 회복.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HUNS_TARKHAN">
+			<Text>타르칸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HUNS_TARKHAN_HELP">
+			<Text>기마병을 대체하는 훈의 고유 유닛입니다. 기마병보다 약간 더 저렴합니다. [NEWLINE]이 유닛과 겹쳐져있는 [ICON_TEAM_1]개척자와 [ICON_WORKER]노동자의 [ICON_ARROW_RIGHT]이동력을 +1 증가시킵니다. [NEWLINE]이 유닛이 약탈하면, 인접해있는 우호 유닛이 회복됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HUNS_TARKHAN_STRATEGY">
+			<Text>타르칸은 기마병을 대체하는 훈의 고유 유닛입니다. 기마병보다 약간 저렴한 타르칸은 개척자와 노동자의 이동을 증가시켜 제국을 빠르게 확장하는 데 도움을 줄 수 있습니다. 타르칸으로 타일을 약탈하면 인접한 모든 유닛이 치유되며, 이는 최근에 포획된 유닛을 치유하는 데 유용할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HUNS_TARKHAN_TEXT">
+			<Text>타르칸은 흉노와 훈 제국 군대의 귀족과 고위 지휘관이었습니다. 이 용어는 터키, 몽골, 이란 문화권 내에서 호칭으로 등장하면서 스텝의 언어와 사람들에 걸쳐 퍼져나갔고, 심지어 평범한 소년 이름이 되었습니다. 오늘날의 장군들과 유사하게, 타르칸은 훈 제국의 수호자이자 정복자였으며, 그들의 문명을 위대함으로 발전시켰습니다.</Text>
+		</Row>
+
+		<!-- Telpochcalli -->
+		<Row Tag="TXT_KEY_BUILDING_AZTEC_TELPOCHCALLI">
+		    <Text>텔포칼리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AZTEC_TELPOCHCALLI_TEXT">
+		    <Text>텔포칼리는 '젊은이들의 집'이라는 뜻으로, 아즈텍 청소년들을 위한 교육의 중심지였습니다. 귀족 자녀들은 칼메카라는 별도의 기관에 다녔지만, 텔포칼리는 15세 이상의 모든 아즈텍 소년들에게 열려 있어 역사상 가장 초기의 공교육 사례 중 하나로 꼽힙니다. 아즈텍 사회에서의 교육은 시민 의무, 전쟁, 종교에 중점을 두었습니다. 텔포칼리에서 자란 경험을 묘사한 기록들은 엄격하고 절제된 환경을 묘사하며, 소년들은 공동 농장에서 직접 음식을 재배하고 사원과 같은 공공 시설을 유지 및 보수하는 책임을 지었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AZTEC_TELPOCHCALLI_STRATEGY">
+ 		   <Text>텔포칼리는 도서관을 대체하는 아즈텍의 고유 건물입니다. 도서관의 일반적인 보너스 외에도, 텔포칼리는 인구에 비례하여 추가 과학 보너스를 제공합니다. 황금기가 시작될 때마다 텔포칼리에서 제공하는 산출량과 경험치가 증가합니다. 이 보너스는 소급 적용되지 않으므로, 가능한 한 빨리 도시에서 텔포칼리를 건설하여 보상을 받기 시작하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AZTEC_TELPOCHCALLI_HELP">
+ 		   <Text>도시의 [ICON_CITIZEN] 시민 4명마다 +1 [ICON_RESEARCH] 과학을 제공합니다. 황금기에 진입할 때마다 영구적으로 +1 [ICON_PRODUCTION] 생산, +1 [ICON_FOOD] 식량, 이 도시에서 새로 훈련된 모든 유닛에게 +2 경험치를 부여하며, 최대 10번까지 중첩됩니다. 이 보너스는 소급 적용되지 않습니다.[NEWLINE][NEWLINE][ICON_RESEARCH] 문맹으로 인한 불행이 -1 감소합니다. 이 도시의 전문가 1명은 더 이상 [ICON_URBANIZATION] 도시화로 인한 불행을 생성하지 않습니다.</Text>
+		</Row>
+
+		<!-- Tersane -->
+		<!-- Created by adan_eslavo 1/11/2017 -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_OTTOMAN_TERSANE">
+			<Text>조병창</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_OTTOMAN_TERSANE_HELP">
+			<Text>[ICON_GREAT_ADMIRAL]위대한 제독 또는 [ICON_GREAT_GENERAL]승선한 위대한 장군으로 건설하는 오스만의 고유 위인 시설입니다. 도시와 인접한 물이 있는 타일에만 설치 가능하며 바로 인접해서 설치할 수 없습니다.[NEWLINE][NEWLINE]해당 타일의 [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GREAT_ADMIRAL]위대한 제독 포인트가 증가합니다. 인접한 도시에서 생산하는 해상 유닛의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고, 경험치를 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 제공합니다.건설되면 주변의 인접한 영토를 획득합니다. [NEWLINE][NEWLINE]유닛이 주둔하면 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 인접한 적 유닛에 [COLOR_NEGATIVE_TEXT]30[ENDCOLOR]의 피해를 입힙니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_OTTOMAN_TERSANE_TEXT">
+			<Text>
+				터키어로 조선소 또는 조병창(Tersane)이라는 말은 베네치아 말에서 파생되었으며, 여기에서 영어 단어 군수창고(arsenal)라는 단어도 파생되었습니다. 오스만이 조선 기술의 최전선에있는 것은 아니였지만 오스만은 1453년 콘스탄티노플을 정복한 후 지중해에서 1세기가 넘는 해군 지배력을 누 렸습니다. 콘스탄티노플 건너편의 금각만에 건설 된 가장 큰 조선소 160 개가 넘는 부두, 드라이독, 창고를 수용했고 공급 창고를 통해 지중해에서 가장 큰 상업 및 산업 중심지 중 하나가되었습니다.[NEWLINE][NEWLINE]
+				오스만의 해군력은 엄청난 조선 능력과 북아프리카의 바르바리 해적선에 대한 충성심을 통해 유지되었습니다. 이 전승은 마침내 레판토 전투에서 끝이 났고, 스페인과 베네치아의 함대가 오스만 해군의 3분의 2 이상을 점령하거나 파괴하면서 오스만 해군이 대패했습니다. 이에 대응하여, 오스만 제국은 6개월 안에 250척의 새로운 선박을 건조했습니다.[NEWLINE][NEWLINE]
+				"우리가 어떻게 불행을 견디는지 보러오라. 하지만 나는 네가 우리의 손실과 차이점을 알게 할 것이다. 우리가 너희에게서 키프로스를 빼앗아서, 너희의 팔을 빼앗고, 우리 함대를 물리치고, 우리의 턱수염을 깎았을 뿐이다."[NEWLINE] -오스만 제국의 레판토 전투에서의 패배와 같은 해에 일찍이 키프로스를 점령할 때 소콜루 메흐메트 파샤의 발언
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_OTTOMAN_TERSANE">
+			<Text>[LINK=IMPROVEMENT_OTTOMAN_TERSANE]조병창[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_OTTOMAN_TERSANE_HELP">
+			<Text>[ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GREAT_ADMIRAL]위대한 제독 포인트가 증가. 인접한 도시에서 생산하는 해상 유닛의 [ICON_PRODUCTION]생산과 경험치가 증가. 유닛 주둔시 [ICON_STRENGTH]방어 보너스. 주변 영토 획득.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_OTTOMAN_TERSANE_REC">
+			<Text>유닛이 소모됩니다.[NEWLINE]오스만의 고유 위인 시설입니다. 해당 타일의 [ICON_GOLD]골드, [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학이 증가. 유닛 주둔시 [ICON_STRENGTH]방어 보너스 부여.</Text>
+		</Row>
+
+		<!-- Teutonic Order -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_BUILDING_GERMANY_TEUTONIC_ORDER">
+			<Text>튜턴 기사단</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GERMANY_TEUTONIC_ORDER_TEXT">
+			<Text>
+				예루살렘 성모 마리아 독일 왕가 형제 기사단은 예루살렘의 아크레에서 1190년에 제정된 기사단입니다. 원래 기사단 병원 부속 기관으로 설립된 이 훈장은 병원을 설립하고 성지로 가는 독일 순례자들을 돕는 임무를 맡았습니다. 50년 안에, 독일 가톨릭 교단은 오늘날 폴란드의 말보크 수도에서 발트 이교도들에 대항하는 성스러운 십자군원정을 추진하면서 그 자체로 국가가 되었습니다.[NEWLINE][NEWLINE] 
+				기독교 군대가 예루살렘에서 추방된 후 튜턴 기사단은 트란실바니아, 헝가리, 그리고 폴란드에서 용병과 경비원으로 일한 후 동부 발트해 연안의 이교도 주민들을 상대로 한 새로운 프로이센 십자군에서 가장 큰 참여단이 되었습니다. 튜턴 기사단의 교단은 강제 개종과 민족 교체의 피비린내 나는 캠페인을 수행하여 에스토니아인, 리투아니아인, 구 프로이센인 및 이전 폴란드 동맹국들과 충돌했습니다. 가톨릭 기사에 의한 강제 기독교화에 대한 저항은 이 모든 이웃 민족의 국가 정체성을 형성하였습니다.[NEWLINE][NEWLINE]
+				리투아니아에서 기독교가 채택된 것은 1520년까지 튜턴 기사단의 교단을 가톨릭의 나머지 부분으로부터 정치적으로 고립시키려는 폴란드의 시도와 함께 이 훈장은 아무런 목적도 없이 사라졌습니다. 이에 대응하여, 브란덴부르크의 알베르트는 훈장을 사임하고 루터교로 개종했으며, 프로이센 공작으로 자칭했습니다. 알베르트는 훈장의 동의로 그들의 토지 보유를 세속화된 5국으로 전환했고, 프로이센은 최초의 개신교 국가가 되었습니다. 비록 정치적 세력이 쇠퇴했지만, 1809년 나폴레옹 보나파르트에 의해 강제 해산될 때까지 튜턴 기사단은 게르마니아에 있는 그들의 소유지를 통해 가톨릭 국가로서 계속 존재했습니다. 튜턴 기사단은 결국 개혁되었고 오늘날에도 여전히 의식적이고 자선적인 단체로 존재합니다.  
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GERMANY_TEUTONIC_ORDER_STRATEGY">
+			<Text>튜턴 기사단은 영웅 서사시를 대체하는 독일 고유의 불가사의입니다. 이 불가사의는 제국의 모든 도시에 전체 기사단에 버금가는 병영이 있는 강력한 보너스를 제공합니다. 병영이 있는 도시에서 훈련된 모든 새 부대는 무료로 사기 진급을 받습니다.[NEWLINE][NEWLINE]이 불가사의를 통해 독일은 다른 문명보다 훨씬 더 쉽고 빠르게 건국하고 개혁할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GERMANY_TEUTONIC_ORDER_HELP">
+			<Text>
+				영웅 서사시를 대체하는 독일의 고유 불가사의입니다. 병영을 필요로 하지 않습니다. 건설되면 병영이 무료로 제공되고, 도시에 [ICON_GREAT_WRITER]위대한 작가가 출현합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 1개가 제공됩니다.
+				[NEWLINE][NEWLINE]모든 성은 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고, 모든 병영이 있는 도시의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가, [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR], 체력이 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] 증가합니다. 병영이 있는 도시에서 생산된 유닛은 [COLOR_PLAYER_PURPLE]사기[ENDCOLOR] 승급을 가지고 시작합니다.
+				[NEWLINE][NEWLINE]적 유닛을 처치할 때마다 [ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]15[ENDCOLOR]를 제공[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]. 개혁 교리 채택에 필요한 전세계의 [ICON_RELIGION]신자의 수를 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소시킵니다.
+				[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT] 국가 불가사의[ENDCOLOR]입니다.
+			</Text>
+		</Row>
+		<!-- Tophet -->
+		<!-- Created by pineappledan -->
+		<Row Tag="TXT_KEY_BUILDING_CARTHAGE_TOPHET">
+			<Text>토펫</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CARTHAGE_TOPHET_HELP">
+			<Text>성소를 대체하는 카르타고의 고유 건물입니다. 건설된 도시에서 유닛을 구매할때마다 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]20[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CARTHAGE_TOPHET_STRATEGY">
+			<Text>토펫은 성소를 대체하는 카르타고의 고유 건물입니다. 성소의 일반적인 보너스에 더해, 토펫은 도시에서 유닛을 구매할 때마다 문화를 제공합니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CARTHAGE_TOPHET_TEXT">
+			<Text>토펫은 가나안 신들에게 예배하는 장소와 인간의 희생을 뜻하는 히브리어로, 유대-기독교 신학 내에서 지옥과 동일한 동의어가 되었습니다. 보통 도시 밖에 위치한 토펫은 신들에게 바알 햄몬과 그의 동료인 타니트에게 신들에게 제사를 드릴 수 있는 성지였습니다.[NEWLINE][NEWLINE]카르타고의 번영을 위해 정기적으로 희생을 치렀고, 토펫 안에 번제물의 재를 봉인했습니다. 한때 근동 전역에 널리 퍼졌던 아동 희생은 현대 문화가 그 관행을 외면한 지 오래 후에 카르타고 종교 생활의 지속적인 특징이었습니다. 현대 고고학적 증거는 전쟁, 고통, 그리고 자연 재해와 같은 엄청난 스트레스의 시기에 신성한 탄원 행위로서 어린이들이 희생되었다는 것을 암시합니다.</Text>
+		</Row>
+		
+		<!-- Ulticur -->
+		<Row Tag="TXT_KEY_BUILDING_HUNS_ALTI_CUR">
+			<Text>울티쿠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HUNS_ALTI_CUR_HELP">
+			<Text>제철소를 대체하는 훈의 고유 불가사의입니다. 해당 도시의 건물이 생산 완료될때 [ICON_RESEARCH]과학을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]제공합니다. [NEWLINE][NEWLINE]모든 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]마구간[ENDCOLOR]의 [ICON_CULTURE]문화와 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 전쟁 중인 문명마다 전역 [ICON_HAPPINESS_1]행복 및 [ICON_SILVER_FIST]군사보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]대장간이 없어도 건설할 수 있습니다. [COLOR_YELLOW][ICON_RES_IRON]철[ENDCOLOR] [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 제공합니다. [NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT] 국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HUNS_ALTI_CUR_STRATEGY">
+			<Text>알티쿠는 제철소를 대체하는 훈의 고유한 국가 불가사의입니다. 제철소의 일반적인 보너스 외에도 알티커는 과학 및 문화를 증가시키고 제국의 모든 마구간에서 문화 및 생산을 향상시킵니다. 불가사의는 작은 도시 국가에 공물을 요구하여 추가 골드와 행복을 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HUNS_ALTI_CUR_TEXT">
+			<Text>훈족의 기원은 수수께끼에 싸여 있지만, 그들의 흉노 유산에 대한 한 가지 단서는 알티 쿠, 즉 "여섯 뿔 자문회"에 의한 그들의 통치입니다. 알티 쿠르로 알려진 여섯 뿔 자문회는 황제 자신 외에도 훈니크 제국 내에서 가장 영향력 있는 귀족들로 구성된 작은 의회였습니다. 각자 황제 자리에 앉았고, 황제가 가장 좋아하는 사람은 바로 오른쪽에 앉았습니다.[NEWLINE][NEWLINE]
+			황제의 정통성은 주변 왕국에서 추출하여 귀족들에게 나누어 줄 수 있는 조공에 크게 의존했습니다. 중국 등 고객 부족의 불충분한 조공은 동아시아에서 시옹루의 쇠퇴와 소멸을 촉발시켰을 것으로 추정되며, 다만 동유럽의 흉노로 다시 나타납니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALERT_ALTI_CUR_MINOR_TRIBUTE">
+			<Text>
+				도시국가에 공물요구를 하면서 당신은 도시국가로부터 {1_Num} [ICON_GOLD]골드와 20턴 동안의 [ICON_HAPPINESS_1]행복 +6을 획득했습니다!
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CHOICE_ALTI_CUR_HAPPINESS">
+			<Text>울티쿠 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_EVENT_CHOICE_ALTI_CUR_HAPPINESS_HELP">
+			<Text>20턴 동안 [ICON_HAPPINESS_1]행복 +6.</Text>
+		</Row>
+		<!-- University of Coimbra -->
+		<!-- Created by Blue Ghost -->
+		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_UNIVERSITY_OF_COIMBRA">
+			<Text>코임브라 대학</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_UNIVERSITY_OF_COIMBRA_TEXT">
+			<Text>1290년에 문을 연 코임브라 대학은 세계에서 가장 오래된 고등교육의 중심지 중 하나이며 포르투갈에서 가장 오래된 대학입니다. 이 대학은 원래 예술, 법, 캐논 법, 의학 학부들로 이루어진 리스본 일반 연구 대학이라는 이름으로 디니스 왕에 의해 설립되었습니다. 350년 동안 포르투갈에서 유일한 대학으로서, 코임브라 대학은 포르투갈에서 교육, 정치, 사회적 영향의 초점이 되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_UNIVERSITY_OF_COIMBRA_STRATEGY">
+			<Text>코임브라 대학은 제국 대학을 대체하는 독특한 포르투갈 대학입니다. 대학이 필요하지 않으며 도시에 무료 대학을 제공합니다. 제국 대학의 일반적인 보너스 외에도 모든 해군 유닛이 탐사를 통해 골드를 얻을 수 있는 능력을 제공하고 외국 땅에 건설된 모든 페이토리아에 대해 도시에서 골드와 생산을 증가시킵니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_UNIVERSITY_OF_COIMBRA_HELP">
+			<Text>제국 대학을 대체하는 포르투갈의 고유 불가사의입니다. 대학이 없어도 건설이 가능하며, 건설이 완료되면 [COLOR_PLAYER_NETHERLANDS_BACKGROUND]대학[ENDCOLOR]을 무료로 제공하고 [ICON_GREAT_SCIENTIST][COLOR_YELLOW]위대한 과학자[ENDCOLOR]가 출현합니다. 모든  [COLOR_PLAYER_NETHERLANDS_BACKGROUND]대학[ENDCOLOR]의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 기술 연구가 끝날때마다 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR][COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]제공합니다. [NEWLINE][ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]모든 해상 유닛은 [COLOR_PLAYER_PURPLE]대항해시대[ENDCOLOR] 승급을 받습니다. 위대한 제독을 소모하면, 모든 해상 유닛은 한번 더 실행이 가능합니다. [ICON_GREAT_WORK]걸작 문학 슬롯 2개를 제공합니다. [NEWLINE][NEWLINE]테마보너스: [ICON_RESEARCH]과학 +3[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산과 [ICON_CITIZEN]시민이 증가합니다. 이 불가사의는 문명당 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT] 국가 불가사의[ENDCOLOR]입니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_PORTUGAL_AGE_OF_DISCOVERY">
+			<Text>대항해시대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_PORTUGAL_AGE_OF_DISCOVERY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]새로운 지역 탐색시[ENDCOLOR] [ICON_GOLD]골드 획득</Text>
+		</Row>
+		
+		<!-- Vaka Nui --> 
+		<Row Tag="TXT_KEY_UNIT_POLYNESIA_VAKANUI">
+		    <Text>바카 누이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_POLYNESIA_VAKANUI_HELP">
+		    <Text>삼단노선을 대체하는 폴리네시아의 고유 유닛입니다.우호 영토 밖에서도 치유가 가능합니다. 새로운 타일을 발견할 때 경험치를 얻고 도시를 공격할 때 [ICON_GOLD] 골드를 획득합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_POLYNESIA_VAKANUI_STRATEGY">
+		    <Text>바카 누이는 삼단노선을 대체하는 폴리네시아의 고유 유닛입니다. 바카 누이는 미지의 지역을 탐험하여 경험치를 얻고 도시를 공격할 때 골드를 생성합니다. 바카 누이로 미지의 바다를 탐험하여 훈련된 해군을 확보하고 제국을 확장하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_POLYNESIA_VAKANUI_TEXT">
+ 		   <Text>
+   		     아우스트로네시아 사람들이 개발한 독특한 쌍동선은 아마도 가장 초기의 개방형 바다 선박의 예일 것입니다. 이러한 매우 안정적인 배는 폴리네시아인들이 태평양 전역의 섬을 탐험하고 정착하는 것을 가능하게 했습니다. 현대에도 단동선에 비해 많은 장점이 있어 쌍동선 디자인이 부활하였고, 폴리네시아의 항해 및 선박 건조에 대한 관심도 다시 증가하고 있습니다. 전통 폴리네시아 선박의 재현이 문화적 및 연구적 목적으로 많이 이루어지고 있습니다.
+ 		   </Text>
+		</Row>
+
+		<!-- Villa -->
+		<!-- Created by adan_eslavo on 10/11/2017 -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_ROME_LATIFUNDIUM">
+ 		   <Text>빌라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ROME_LATIFUNDIUM_HELP">
+		    <Text>자원 위나 도시에 인접한 타일 또는 다른 빌라에 인접한 타일에는 건설할 수 없습니다. 일단 건설되면 제거할 수 없습니다.[NEWLINE][NEWLINE]건설 시, 인접한 타일에 개선된 [ICON_RES_FIGS] 무화과 자원을 즉시 생성하며, 해당 타일은 이미 로마에 속하지 않은 경우 로마의 소유가 됩니다.[NEWLINE][NEWLINE] 수도: [ICON_FOOD] 식량 +2 .[NEWLINE]인접한 재배지: [ICON_CULTURE] 문화 +1 ,[ICON_GOLD] 골드 +1 .[NEWLINE]인접한 농장: [ICON_GOLD] 골드+1, [ICON_FOOD] 식량 +1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ROME_LATIFUNDIUM_TEXT">
+		    <Text>빌라는 상류층 로마 시민들의 시골 집이었습니다. 로마 영토와 부의 확장이 진행되면서, 빌라는 단순한 귀족들의 휴양지에서 광대한 농업 토지를 포함한 라티푼디움이라는 농업 비즈니스로 발전했습니다. 첫 번째 라티푼디움은 기원전 2세기 초 매그나 그라에키아(남이탈리아)에서 정복된 땅으로부터 만들어졌습니다. 라티푼디움 시스템은 이후 스페인과 북아프리카로 확장되었습니다.
+		    [NEWLINE][NEWLINE]이 재산들은 강제 노동에 의존하여 생산성을 유지했으며, 종종 정복 전 그 땅에 살던 사람들을 노예로 공급받았습니다. 라티푼디움은 농업 생산을 더 큰 토지로 통합하여 규모의 경제를 이루었고, 소유자는 인근의 작은 농장을 구매하여 재산을 확장했습니다. 농장에서 쫓겨난 로마 농민들은 로마의 도시에서 일자리를 찾아야 했지만, 종종 빈민가에서 생활하거나 구호품에 의존했습니다.
+  		  [NEWLINE][NEWLINE]라티푼디움은 이후 유럽 국가들이 제국 실험을 위한 템플릿이 되었으며, 특히 스페인은 라티푼디움을 기반으로 엔코미엔다 시스템을 만들었습니다.
+ 		   [NEWLINE][NEWLINE]자원 위나 도시에 인접한 타일 또는 다른 빌라에 인접한 타일에는 건설할 수 없습니다. 일단 건설되면 제거할 수 없습니다.[NEWLINE][NEWLINE]건설 시, 인접한 타일에 개선된 [ICON_RES_FIGS] 무화과 자원을 즉시 생성하며, 해당 타일은 이미 로마에 속하지 않은 경우 로마의 소유가 됩니다.[NEWLINE][NEWLINE]타일에 추가 [ICON_CULTURE] 문화와 수도에 +2 [ICON_FOOD] 식량을 제공합니다.[NEWLINE]+1 [ICON_CULTURE] 문화와 인접한 농장의 [ICON_GOLD] 골드를 제공합니다.[NEWLINE]+1 [ICON_FOOD] 식량과 인접한 농장의 [ICON_GOLD] 골드를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ROME_LATIFUNDIUM">
+		    <Text>[LINK=IMPROVEMENT_ROME_LATIFUNDIUM]빌라[\LINK] 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ROME_LATIFUNDIUM_HELP">
+ 		   <Text>빌라를 건설하여 타일에 [ICON_CULTURE] 문화를 제공하고 수도에 영구적으로 [ICON_FOOD] 식량을 제공합니다.[NEWLINE]건설 시, 인접한 타일에 개선된 [ICON_RES_FIGS] 무화과 자원을 생성하며, 무화과 타일은 로마의 소유가 됩니다.[NEWLINE]인접한 농장은 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드를 제공합니다.[NEWLINE]인접한 농장은 [ICON_FOOD] 식량과 [ICON_GOLD] 골드를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ROME_LATIFUNDIUM_REC">
+		    <Text>이를 통해 [ICON_FOOD] 식량과 [ICON_CULTURE] 문화를 증가시킬 수 있습니다.[NEWLINE]건설 시, 인접한 타일에 개선된 [ICON_RES_FIGS] 무화과 자원을 생성하며, 무화과 타일은 로마의 소유가 됩니다.[NEWLINE]인접한 농장은 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드를 제공합니다.[NEWLINE]인접한 농장은 [ICON_FOOD] 식량과 [ICON_GOLD] 골드를 제공합니다.</Text>
+		</Row>
+		<!-- Xiafan Guanjun -->
+		<Row Tag="TXT_KEY_UNIT_CHINA_XIAFAN_GUANJUN">
+			<Text>보선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHINA_XIAFAN_GUANJUN_HELP">
+			<Text>거대한 르네상스 시대의 해군 유닛으로 프리깃을 대체하는 중국의 고유 유닛입니다. [COLOR_POSITIVE_TEXT]선체 III[ENDCOLOR] 진급을 가지고 시작합니다.[NEWLINE][NEWLINE]도시 국가의 국경에 주둔하면 매 턴마다 [ICON_INFLUENCE]영향력을 생성합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHINA_XIAFAN_GUANJUN_STRATEGY">
+			<Text>보선은 중국 고유의 유닛입니다. 프리깃보다 훨씬 견고하며 더 일찍 사용할 수 있습니다. 보선을 사용하여 수동적으로 도시 국가를 지배하거나 도시에 대한 보너스를 활용하고 해안 제국을 지배할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHINA_XIAFAN_GUANJUN_TEXT">
+			<Text>
+				정화 원정대는 명나라의 위대한 보물 함대였습니다. 영락제의 명령으로, 전설적인 제독 정화는 1405년에서 1433년 사이에 일곱 번의 항해를 이끌었습니다. 원정대은 중국의 영향력을 해외에 투자하는 임무를 맡아서 아라비아 반도까지 진출하였고, 많은 소국들을 중국의 지배하에 두었습니다.[NEWLINE][NEWLINE]
+				보물선이라고 불리던 정화 원정대의 선박은 지금까지 건조된 것 중 가장 큰 목선 몇 척을 가지고 있었고, 일부는 길이가 127미터까지 나갑니다. 유럽 선박들이 중국 함대의 규모와 위력에 필적할 수 있게 되기까지는 또 한 세기가 더 걸릴 것이며, 15세기의 논쟁의 여지가 없는 해군 초강대국이 되었습니다. 그들의 우월함에도 불구하고, 정화의 항해는 주로 외교적인 것이었고, 황제 앞에 사절들과 왕들을 모시고 공물을 바치고 경건하고 섬기는 의식적인 행위인 '삼궤구고두례'를 행했습니다[NEWLINE][NEWLINE]
+				"거대한 내륙 수로는 물론 높고 폭풍이 부는 바다에도 사람과 그의 상업을 실어 나르는 엔진으로서 어떤 종류의 선박이 중국이나 인도의 쓰레기보다 목적에 더 적합하거나 더 잘 적응할 수 있을지 의문이며, 돛과 핸디캡의 평탄성 때문에 중국 선박은 타의 추종을 불허할 것이 확실하다."[NEWLINE]-허버트 워링턴 스미스
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CHINA_KOWTOW">
+			<Text>삼궤구고두례</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_CHINA_KOWTOW_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]도시 국가 영토 내에 있는 동안[ENDCOLOR] 매턴 도시 국가에 [ICON_INFLUENCE]영향력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR][NEWLINE]최대 체력이 [COLOR_POSITIVE_TEXT]+25[ENDCOLOR] 증가</Text>
+		</Row>
+		<!-- Created by Blue Ghost-->
+
+		<!-- Yamato -->
+		<Row Tag="TXT_KEY_UNIT_JAPAN_YAMATO">
+			<Text>야마토 전함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPAN_YAMATO_HELP">
+		<Text>전함을 대체하는 일본의 고유 유닛입니다. 전함보다 사거리가 더 길고, 강하고, 방어력이 높습니다. 적 해상 유닛을 처치할 때마다 [ICON_GREAT_ADMIRAL]위대한 제독 점수를 얻습니다.[NEWLINE][NEWLINE]야마토 전함을 생산할 때마다 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]600[ENDCOLOR] 획득합니다.[NEWLINE]야마토 전함이 파괴되면 [COLOR_NEGATIVE_TEXT]상대 문명이[ENDCOLOR] [ICON_CULTURE]문화와 [ICON_GOLDEN_AGE]황금기 점수를 +400 획득합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPAN_YAMATO_STRATEGY">
+			<Text>야마토 전함은 훨씬 더 강력한 일본 고유의 전함 대체품입니다. 사거리, 공격력, 힘, 공격에 대한 방어력이 증가했으며 처치 시 위대한 장군 점수를 얻습니다. 최종 게임에서 바다를 지배하는 데 사용하여 지배 승리를 위한 우위를 점하세요.[NEWLINE][NEWLINE]각 야마토는 건설 시 황금기에 포인트를 제공하지만 야마토를 침몰시키면 적에게 황금기 포인트와 문화를 보상하므로 호위 없이 야마토를 떠나지 마십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPAN_YAMATO_TEXT">
+			<Text>야마토급 전함은 제2차 세계 대전 당시 일본 제국 해군의 정수입니다. 최대 적재량인 73,000톤을 적재한 이 함정은 지금까지 건조된 전투함 중 가장 무겁고 강력한 전함이었습니다. 각 야마토는 9발의 460밀리미터 포를 가지고 있었는데, 이는 군함에 장착되었던 것 중 가장 큰 것으로, 각각의 함포는 1360킬로그램의 포탄을 42킬로미터까지 발사할 수 있었습니다. 야마토함와 무사시함의 2척의 전함이 완성되었고, 3척의 시나노함는 건조 중에 항공모함으로 개조되었습니다. 모든 전함이 제 2차 세계대전 동안 미군에 의해 침몰되었습니다.[NEWLINE][NEWLINE]그들의 크기, 속도, 그리고 힘 때문에, 야마토급 전함은 서구 강대국, 특히 미국으로부터 자국의 이익을 방어하려는 일본의 결단과 태세를 뚜렷하게 구현했습니다. 이 군함이 일본 문화에서 이처럼 큰 의미를 가질 수 있는 이유 중 하나는 '야마토'라는 단어가 일본에서 자체적인 시적 명칭으로 자주 사용되었기 때문입니다. 그래서 야마토급 전함의 건조와 파괴는 일본 황실의 염원이 흥망성쇠하는 상징이 되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_JAPAN_YAMATO">
+			<Text>거함거포주의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_JAPAN_YAMATO_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해상 유닛 처치 시[ENDCOLOR] [ICON_GREAT_ADMIRAL]위대한 제독 점수 획득</Text>
+		</Row>
+		
+		<!-- Yassa Court -->
+		<!-- Created by adan_eslavo 29/10/2017 -->
+
+		<Row Tag="TXT_KEY_BUILDING_MONGOLIA_YASSA_COURT_WONDER">
+			<Text>야사 제정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONGOLIA_YASSA_COURT">
+			<Text>야사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONGOLIA_YASSA_COURT_HELP">
+ 		   <Text>건설 완료 시 모든 소유 도시에서 [COLOR_POSITIVE_TEXT]야사[ENDCOLOR]가 제공됩니다.[NEWLINE][NEWLINE]궁수, 공성, 기마 및 기갑 유닛의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 도시를 정복할 때마다 제국의 모든 도시에 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_GOLD] 골드가 +10[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]을 제공합니다. [NEWLINE][NEWLINE]모든 도시에서 모든 [ICON_HAPPINESS_3] 필요 요구치가 약간 감소합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONGOLIA_YASSA_COURT_STRATEGY">
+		    <Text>몽골의 고유 국가 불가사의입니다. 건설이 완료되면 모든 도시에 야사 제정이 제공됩니다. 야사는 모든 전역 요구 사항과 제국 요구치를 약간 감소시키고, 근접유닛을 제외한 육상 군사 유닛의 생산을 증가시킵니다. 도시를 정복하면 모든 도시에 소량의 골드, 과학 및 문화를 제공합니다. 야사는 각 도시에서 누적되는 글로벌 불행 감소를 제공하므로 시민의 필요에 대해 걱정하지 않고 확장하고 정복할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONGOLIA_YASSA_COURT_TEXT">
+ 		   <Text>야사는 칭기즈 칸이 만든 비밀 법전입니다. 야사라는 단어는 "명령" 또는 "법령"을 의미합니다. 이 법은 공개되지 않았지만 몽골 제국의 사실상의 법이었습니다. 야사는 전시에 발령된 법령에서 비롯된 것으로 보이며, 후에 문화적 및 생활 방식 규정을 포함하도록 확대되었습니다. 야사를 비밀로 유지함으로써 법령을 선택적으로 수정하고 사용할 수 있었습니다. 야사는 칭기즈 칸 자신과 그의 의붓형제이자 몽골 제국의 고위 판사인 시히후타그의 도움으로 감독된 것으로 추정됩니다. 칭기즈 칸은 그의 둘째 아들 차가타이(차가타이 칸)를 법 집행 책임자로 임명했습니다.</Text>
+		</Row>
+		
+		<!-- Yellow Brow -->
+		<!-- Created by adan_eslavo on 3/11/2017 -->
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SHOSHONE_BIG_HORSE_DANCE">
+			<Text>대형 기마 무용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SHOSHONE_BIG_HORSE_DANCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]요새화 하는 동안[ENDCOLOR] 추가 [ICON_STRENGTH]방어력 보너스 적용[NEWLINE]피해를 입을수록 강해짐</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SHOSHONE_BIG_HORSE_DANCE_PERFORMED">
+			<Text>대형 기마 무용 공연</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNIT_SHOSHONE_BIG_HORSE_DANCE_PERFORMED_HELP">
+			<Text>[COLOR_GREEN]유닛이 요새화 하는 동안[ENDCOLOR], 추가 [ICON_STRENGTH]방어력 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SHOSHONE_YELLOW_BROW">
+			<Text>오하무페</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SHOSHONE_YELLOW_BROW_HELP">
+			<Text>테르시오를 대체하는 쇼쇼니의 고유 유닛입니다. [COLOR_PLAYER_PURPLE]진형 I[ENDCOLOR] 승급을 가지고 시작하며, 피해를 입을수록 [ICON_STRENGTH]전투력이 상승하고, 요새화하면 [ICON_STRENGTH]전투 보너스가 2배가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SHOSHONE_YELLOW_BROW_STRATEGY">
+			<Text>오하무페는 지상을 유지하는 능력에서 타의 추종을 불허합니다. 결코 후퇴하지 않는 오하무페는 체력에 관계없이 완전한 힘으로 싸우며 요새화에서 일반 보너스를 두 배로 얻습니다. 이 유닛은 적 기병에 매우 효과적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SHOSHONE_YELLOW_BROW_TEXT">
+			<Text>
+				황색 눈썹이라는 뜻의 오하무페는 쇼손에서 사냥, 정찰, 그리고 그들의 집단 내에서 치안 유지에 필수적인 역할을 하는 두 개의 군사 사회 중 하나였습니다. 오하무페의 용사들은 머리를 밀어서 자신의 모호크족 볏머리로 만들고, 노출 된 머리를 노란색으로 칠하고, 일반적인 영어 이름을 사용했습니다.[NEWLINE][NEWLINE]
+				오하무페는 오직 가장 용감하고 용감한 젊은이들로 구성되었고, 사냥, 정찰, 그리고 군인의 질서를 지키는 임무를 맡았습니다. 회원들은 졸업과 동시에 그들의 후임자를 선출하여 오하무페 협회는 한 번에 수백 명 이상의 회원을 가진 적이 없습니다. 오하무페의 젊은 용사는 회원 가입의 표시로서 반대되는 방식으로 행동하고 말할 것으로 기대되었습니다. 예를 들어, '오하무페'에 가입하고 싶은지를 물었을 때, 그 젊은이는 기꺼이 가입하겠다는 표시로 '아니오'라고 대답하고, 거절하고 싶다면 '예'라고 대답할 것으로 예상되었습니다.[NEWLINE][NEWLINE]
+				전투에서, 오하무페는 돌이나 금속 단검으로 끝이 뾰족한 긴 지팡이를 든 전쟁 책임자에 의해 이끌렸습니다. 이 지팡이는 상대방을 붙잡고 말에서 내리거나, 퇴각 금지 신호로 사용되었습니다. 만약 적이 우위를 점하고 있다면, 추장은 그의 직원들을 땅으로 몰아넣고 용사들은 마지막까지 그를 방어할 것입니다. 오하무페는 다른 부족원이 와서 그들의 죄에서 용병들을 풀어줄 때까지 그들의 추장 곁을 떠나는 것이 금지되었습니다. 추장을 쫓아내는 것은 비참한 조롱을 당했고, 종종 부족으로부터 추방되는 결과를 낳았습니다.
+			</Text>		
+		</Row>
+		
+	</Language_ko_KR>
+</GameData>
