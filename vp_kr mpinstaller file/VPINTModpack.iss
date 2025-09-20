@@ -1,10 +1,10 @@
 ﻿; Inno Script Studio Wizard로 생성된 스크립트입니다.
 ; INNO SETUP 스크립트 파일을 만드는 방법에 대한 자세한 내용은 설명서를 참조하세요!
 
-#define MyAppName "VP INT Modpack"
+#define MyAppName "VP 한국어 모드팩"
 #define MyAppVersion "4.22"
-#define MyAppPublisher "DCinside Civilization Gallery"
-#define MyAppURL "https://github.com/hyuckkim/vp_kr"
+#define MyAppPublisher "HANDANI"
+#define MyAppURL "https://github.com/handanikr/vp_kr"
 
 [Setup]
 ; 참고: AppId 값은 이 애플리케이션을 고유하게 식별합니다.
@@ -28,15 +28,15 @@ LicenseFile=License.rtf
 InfoBeforeFile=Opener.rtf
 OutputBaseFilename={#MyAppName} ({#MyAppVersion})
 SetupIconFile=installer.ico
-WizardImageStretch=False
-Compression=lzma
+WizardImageStretch=no
+Compression=lzma2
 SolidCompression=yes
-ShowComponentSizes=False
+ShowComponentSizes=yes
 AllowNoIcons=yes
 Uninstallable=no
 PrivilegesRequired=admin
 UsedUserAreasWarning=no
-CreateAppDir=False
+CreateAppDir=no
 
 [Languages]
 Name: "korean"; MessagesFile: "compiler:Languages\Korean.isl"
@@ -47,11 +47,11 @@ Source: "..\Assets_votesMP\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignore
 ; 참고: 공유 시스템 파일에서 "Flags: ignoreversion"을 사용하지 마십시오.
 
 [Components]
-Name: "VP"; Description: "Vox Populi + 34UC 한국어 번역 모드팩"; Types: VP; Flags: exclusive disablenouninstallwarning
+Name: "VP"; Description: "Vox Populi + 34UC 한국어 모드팩"; Types: VP; Flags: exclusive disablenouninstallwarning
 Name: "NVC"; Description: "세계 의회 투표 문명 이름 색상 제거 패치"; Types: NVC; Flags: exclusive disablenouninstallwarning
 
 [Types]
-Name: "VP"; Description: "Vox Populi + 34UC 한국어 번역 모드팩";
+Name: "VP"; Description: "Vox Populi + 34UC 한국어 모드팩";
 Name: "NVC"; Description: "세계 의회 투표 문명 이름 색상 제거 패치";
 
 [InstallDelete]
@@ -61,6 +61,7 @@ Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(2L) Vox Populi INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(3aL) VP - EUI Compatibility Files INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(4aL) Squads for VP INT"
+Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(overL) More Unique Components for VP (v 88)"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(overL) More Unique Components for VP (v 88) INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(overL) More Unique Components for VP (v 89)"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(overL) More Unique Components for VP (v 89) INT"
@@ -83,7 +84,7 @@ var
 procedure CurPageChanged(CurPageID: Integer);
 begin
   if CurPageID = wpFinished then
-    WizardForm.FinishedLabel.Caption := '설치 프로그램이 컴퓨터에 Vox Populi 한국어 번역 모드팩 설치를 완료했습니다. 모드팩은 모드 메뉴를 쓰지 않고, 평상시 문명 5를 할 때 처럼 싱글과 멀티를 하시면 됩니다. 즐거운 시간 되세요!';
+    WizardForm.FinishedLabel.Caption := '설치 프로그램이 컴퓨터에 Vox Populi 한국어 모드팩 설치를 완료했습니다. 모드팩은 모드 메뉴를 쓰지 않고, 평상시 문명 5를 할 때 처럼 싱글과 멀티를 하시면 됩니다. 즐거운 시간 되세요!';
 end;
 
 procedure InitializeWizard;
