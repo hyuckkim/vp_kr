@@ -411,129 +411,129 @@
 			<Text>당신은 땅을 빼앗는 데 금을 썼지만 나는 내 병사들을 위한 새로운 무기를 사는 데 금을 썼습니다. 장기적으로는 누가 가장 큰 이득을 보겠습니까?</Text>
 		</Row>
 
-		<!--// SHARE OPINION //-->
+		<!--// SHARE APPROACH //-->
 
-		<!-- Refuse to share opinion of others (hostile) -->
-		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_1">
+		<!-- Refuse to share approach towards others (hostile) -->
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_APPROACH_NO_1">
 			<Text>우리는 당신 같은 악당과는 외교적 비밀을 공유하지 않을 것입니다!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_2">
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_APPROACH_NO_2">
 			<Text>정말 내가 당신 같은 범죄자에게 나의 대외 정책을 말해줄 것이라 생각합니까?</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_OPINION_NO_3">
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_SHARE_APPROACH_NO_3">
 			<Text>나의 대외 관계를 물어보며 내 시간을 낭비하는 이유가 뭡니까? 당신과는 상관 없는 일입니다!</Text>
 		</Row>
-		<!-- Refuse to share opinion of others (hostile, repeated) -->
-		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_1">
+		<!-- Refuse to share approach towards others (hostile, repeated) -->
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_APPROACH_NO_1">
 			<Text>왜 계속해서 내 시간을 낭비하는 것입니까? 내 앞에서 사라지십시오!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_2">
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_APPROACH_NO_2">
 			<Text>내 말 처음 듣습니까? 저리 가십시오!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_OPINION_NO_3">
+		<Row Tag="TXT_KEY_GENERIC_HOSTILE_REPEAT_SHARE_APPROACH_NO_3">
 			<Text>미안하지만 듣는 데 어려움이 있습니까? 내 대답은 항상 같습니다.</Text>
 		</Row>
-		<!-- Refuse to share opinion of others (non-hostile, just met) -->
-		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_1">
+		<!-- Refuse to share approach towards others (non-hostile, just met) -->
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_APPROACH_1">
 			<Text>미안하지만 우리는 외교적 비밀을 터놓고 말할 만큼 오래 알고 지내지 않았습니다. 미래에는 가능할 지도 모르겠습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_2">
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_APPROACH_2">
 			<Text>내가 나의 대외 정책을 누설할 만큼 우리가 오랫동안 알고 지내지는 못한 것 같습니다. 결론은 안됩니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_OPINION_3">
+		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_SHARE_APPROACH_3">
 			<Text>나는 내가 신뢰하는 사람에게만 대외 정책을 알려줍니다. 만난 지 얼마 안 된 사람은 믿을 수 없습니다.</Text>
 		</Row>
-		<!-- Refuse to share opinion of others (non-hostile, have met for a while) -->
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_1">
+		<!-- Refuse to share approach towards others (non-hostile, have met for a while) -->
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_NO_1">
 			<Text>미안하지만 우리는 우리의 외교적 비밀을 간직하고 싶군요. 다른 때에 다시 논합시다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_NO_2">
 			<Text>나의 보좌관들은 나에게 우리 대외 관계를 공개하지 않는 것이 중요하다고 알려주었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NO_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_NO_3">
 			<Text>지금 우리의 대외 관계를 알려주는 것은 곤란합니다. 다음 기회에 논합시다.</Text>
 		</Row>
-		<!-- Refuse to share opinion of others (non-hostile, have met for a while, repeated) -->
-		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_1">
+		<!-- Refuse to share approach towards others (non-hostile, have met for a while, repeated) -->
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_APPROACH_NO_1">
 			<Text>이런 요청을 더 이상 상대하고 싶지 않습니다. 그만 물어보십시오.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_2">
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_APPROACH_NO_2">
 			<Text>전에도 말했을 텐데요. 나는 더 이상 말하지 않겠습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_OPINION_NO_3">
+		<Row Tag="TXT_KEY_GENERIC_REPEAT_SHARE_APPROACH_NO_3">
 			<Text>내 대답은 여전히 같습니다. 이번에는 자세하게 말하지 않겠습니다.</Text>
 		</Row>
-		<!-- Share opinion of another player -->
+		<!-- Share approach towards another player -->
 		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_1">
 			<Text>{1_PlayerName:textkey}{@1_PlayerName: plural 1?은; 2?는;} 믿을 수 있는 진정한 친구입니다. (우호적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_FRIENDLY_2">
 			<Text>나는 {1_PlayerName:textkey}{1: plural 1?을; 2?를;} 매우 좋아하고 우정이 지속될 것을 기대합니다. (우호적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_FRIENDLY_3">
 			<Text>{1_PlayerName:textkey}{1: plural 1?과; 2?와;} 나는 좋은 관계입니다. 이 관계가 변할 이유는 없다고 봅니다. (우호적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_1">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_NEUTRAL_1">
 			<Text>나는 {1_PlayerName:textkey}에 대해 아무런 의견도 가지고 있지 않습니다. (중립적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_NEUTRAL_2">
 			<Text>{1_PlayerName:textkey}{1: plural 1?은; 2?는;} 내 친구도 아니고 적도 아닙니다. (중립적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_NEUTRAL_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_NEUTRAL_3">
 			<Text>{1_PlayerName:textkey}{1: plural 1?은; 2?는;} 날 전혀 귀찮게 하지 않습니다. (중립적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_1">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_GUARDED_1">
 			<Text>솔직하게 말하자면 {1_PlayerName:textkey}{1: plural 1?을; 2?를;} 조금도 신뢰하지 않습니다. (방어적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_GUARDED_2">
 			<Text>나의 보좌관들이 {1_PlayerName:textkey}에 대해 경고했고 우리는 상황을 주시하고 있습니다. (방어적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_GUARDED_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_GUARDED_3">
 			<Text>우리는 최근 사건 때문에 {1_PlayerName:textkey}{1: plural 1?을; 2?를;} 지켜보고 있습니다. (방어적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_1">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_HOSTILE_1">
 			<Text>{1_PlayerName:textkey}의 통치는 이 세계를 더럽히고 있습니다. 나는 이것이 끝나야 한다고 봅니다. (적대적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_HOSTILE_2">
 			<Text>{1_PlayerName:textkey}{1: plural 1?은; 2?는;} 처리해야 할 악당이자 폭군입니다. (적대적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_HOSTILE_3">
 			<Text>{1_PlayerName:textkey}{1: plural 1?이; 2?가;} 이 세계를 활보하는 꼴을 상상도 하기 싫습니다. (적대적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_1">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_AFRAID_1">
 			<Text>나는 {1_PlayerName:textkey}{1: plural 1?을; 2?를;} 우러러봅니다! (두려워함)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_AFRAID_2">
 			<Text>나는 {1_PlayerName:textkey}의 성공을 경이로워합니다. (두려워함)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_AFRAID_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_AFRAID_3">
 			<Text>언젠가 나도 {1_PlayerName:textkey} 같은 지도자가 되길 바랍니다. (두려워함)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_1">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_WAR_1">
 			<Text>나는 {1_PlayerName:textkey}{1: plural 1?과; 2?와;} 전쟁 중입니다! ([COLOR_NEGATIVE_TEXT]전쟁 중![ENDCOLOR])</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_WAR_2">
 			<Text>{1_PlayerName:textkey}{1: plural 1?과; 2?와;} 나는 교전 중입니다. ([COLOR_NEGATIVE_TEXT]전쟁 중![ENDCOLOR])</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_WAR_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_WAR_3">
 			<Text>나는 현재 {1_PlayerName:textkey}{1: plural 1?과; 2?와;} 영토 분쟁 중입니다. ([COLOR_NEGATIVE_TEXT]전쟁 중![ENDCOLOR])</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_1">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_PLANNING_WAR_1">
 			<Text>당신을 믿기에 고백하는 것인데 나는 지금 {1_PlayerName:textkey}{1: plural 1?을; 2?를;} 향한 전쟁을 준비하고 있습니다. (전쟁 준비 중!)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_PLANNING_WAR_2">
 			<Text>겉모습에 속지 마십시오. 나는 {1_PlayerName:textkey}{1: plural 1?을; 2?를;} 지구 상에서 없앨 계획을 짜고 있습니다. (전쟁 준비 중!)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_PLANNING_WAR_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_PLANNING_WAR_3">
 			<Text>{1_PlayerName:textkey}의 존재는 지긋지긋합니다. 나는 조만간 그 자식을 없앨 것입니다. (전쟁 준비 중!)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_1">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_DECEPTIVE_1">
 			<Text>내가 {1_PlayerName:textkey}{1: plural 1?과; 2?와;} 친하게 지내는 것처럼 보이겠지만 그건 모두 보여주기에 불과합니다. (기만적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_2">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_DECEPTIVE_2">
 			<Text>비밀을 지킬 수 있습니까? 나는 가급적 빨리 {1_PlayerName:textkey}{1: plural 1?을; 2?를;} 속일 것입니다. (기만적)</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_DECEPTIVE_3">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_DECEPTIVE_3">
 			<Text>나는 전 세계에 {1_PlayerName:textkey}{1: plural 1?이; 2?가;} 나의 친구라고 말했습니다. 당신에게만 말하는 것이지만 그건 사실이 아닙니다. (기만적)</Text>
 		</Row>
 
@@ -895,7 +895,7 @@
 			<Text>큰 파도처럼, 당신의 제안은 관대하지만 불안합니다. 나는 그것에 필적할 수는 없지만, 이정도는 제공할 수 있습니다</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HARALD_TRADE_CANT_MATCH">
-			<Text>내가 우리의 나머지 무역품을 다른 배에 맡긴 것 같은데...이것에도 불구하고 이 거래는 받아들여질 수 있습니까?</Text>
+			<Text>내가 우리의 나머지 무역품을 다른 배에 맡긴 것 같은데... 이것에도 불구하고 이 거래는 받아들여질 수 있습니까?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_CANT_MATCH">
 			<Text>나의 보좌관들은 우리가 제공하는 것이 너무 적다고 나에게 알려주었습니다. 하지만 나는 그렇게 생각하지 않습니다. 당신은 어떻게 생각합니까?</Text>

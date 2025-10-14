@@ -127,3 +127,9 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED';
 UPDATE Language_ko_KR
 SET Text = '아직 만나지 못한 문명이 종교관을 숭배하기 시작했습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR] ({@2_BeliefDesc})'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_UNKNOWN';
+
+-- BALANCE_RESOURCE_SHORTAGE_UNIT_HEALING
+UPDATE Language_ko_KR
+SET Text = '현재 당신이 보유하고 있는 양보다 더 많은 {1_Resource:textkey}{1: plural 1?을; 2?를;} 사용하고 있습니다! 이것이 필요한 모든 유닛은 [COLOR_NEGATIVE_TEXT]회복할 수 없습니다[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT'
+AND EXISTS (SELECT 1 FROM CustomModOptions WHERE Name = 'BALANCE_RESOURCE_SHORTAGE_UNIT_HEALING' AND Value = 1);

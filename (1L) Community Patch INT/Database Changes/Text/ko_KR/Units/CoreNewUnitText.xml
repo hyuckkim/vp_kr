@@ -752,6 +752,9 @@
 			<Text>가브리엘 가르존 몬타노</Text>
 		</Row>
 		<!-- Great Merchant names -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_N__000">
+			<Text>에아나시르</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_N__010">
 			<Text>콜라이우스</Text>
 		</Row>
@@ -1623,7 +1626,7 @@
 			<Text>조씨정(찌에우티찐)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_G__070">
-			<Text>조구(바찌에우/찌에우어우)</Text>
+			<Text>요겐드라 싱 야다브</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_G__080">
 			<Text>셉티미아 제노비아</Text>
@@ -1946,9 +1949,6 @@
 		<Row Tag="TXT_KEY_GREAT_PERSON_G__B40">
 			<Text>멜빈 옹</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GREAT_PERSON_G__B50">
-			<Text>요겐드라 싱 야다브</Text>
-		</Row>
 		<!-- Great Admiral names -->
 		<Row Tag="TXT_KEY_GREAT_PERSON_B__010">
 			<Text>라케다이모니우스</Text>
@@ -2176,7 +2176,7 @@
 			<Text>굴랍 모한랄 히라난다니</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_B__760">
-			<Text>세르게이 고르시코프</Text>
+			<Text>글래디스 음불라헤니</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_B__770">
 			<Text>나가노 오사미</Text>
@@ -2213,9 +2213,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_PERSON_B__880">
 			<Text>밥 오크터로니</Text>
-		</Row>
-		<Row Tag="TXT_KEY_GREAT_PERSON_B__890">
-			<Text>글래디스 음불라헤니</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

@@ -13,12 +13,14 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED_UNKNOWN">
 			<Text>알려지지 않은 문명이 새로운 교리를 추가하여 종교관을 강화했습니다.</Text>
 		</Row>
+
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REVOKED_WAR">
 			<Text>{1_MinorCivName:textkey}{1: plural 1?과; 2?와;}의 전쟁에 의해 이전에 제공된 퀘스트가 취소되었습니다. 그들이 당신에게 다시 퀘스트를 제공하기 전에 전쟁을 끝내야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REVOKED_WAR">
 			<Text>{1_MinorCivName:textkey}의 퀘스트 취소</Text>
 		</Row>
+
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CULTURE_UNIT">
 			<Text>{1_Resource:textkey}에서 영감을 얻었습니다!</Text>
 		</Row>
@@ -81,7 +83,7 @@
 			<Text>{2_City}{2: plural 1?이; 2?가;} {1_Resource:textkey}{1: plural 1?을; 2?를;}필요로 합니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT_CITY">
-			<Text>{2_City}{2: plural 1?이; 2?가;} 현재 당신이 보유하고 있는 양보다 더 많은 {1_Resource:textkey}{1: plural 1?을; 2?를;} 사용하고 있습니다! 이 문제를 해결하기 전까지 건물의 [ICON_GOLD]유지비가 [COLOR_NEGATIVE_TEXT]{3_num}%[ENDCOLOR] 증가할 것입니다.</Text>
+			<Text>{2_City}{2: plural 1?이; 2?가;} 현재 당신이 보유하고 있는 양보다 [COLOR_NEGATIVE_TEXT]{3_Num}[ENDCOLOR] 더 많은 {1_Resource:textkey}{1: plural 1?을; 2?를;} 사용하고 있습니다! 이 문제를 해결하기 전까지 문명 전역의 건물 [ICON_GOLD]유지비가 [COLOR_NEGATIVE_TEXT]{4_num}%[ENDCOLOR] 증가할 것입니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CHOOSE_CITY_CAPTURE">
@@ -425,6 +427,15 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BAKTUN_END">
 			<Text>바'악'툰의 끝:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_ANCIENT_RUIN">
+			<Text>고대 유적:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_PLUNDER_TRADE_ROUTE">
+			<Text>교역로 약탈:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_WLTKD_START">
+			<Text>국왕 경축일 시작:[NEWLINE]{1_YieldString}</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH_RETROACTIVE">
 			<Text>도시의 총 [ICON_CITIZEN]시민 :[NEWLINE]{1_YieldString}</Text>
 		</Row>
@@ -549,7 +560,7 @@
 			<Text>[ICON_RESEARCH]연구 협약:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_LUXURY_RESOURCE_GAIN">
-			<Text>Acquiring a Luxury Resource:[NEWLINE]{1_YieldString}</Text>
+			<Text>사치 자원 획득:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_GOLDEN_AGE_START">
 			<Text>황금기 시작:[NEWLINE]{1_YieldString}</Text>
@@ -704,7 +715,7 @@
 			<Text>{1_City}의 위인 점수 보너스!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_GREAT_PERSON_PROGRESS_DETAILS">
-			<Text>+{3_Num} {2_Icon} {1_Name} Points</Text>
+			<Text>+{3_Num} {2_Icon} {1_Name} 점수</Text>
 		</Row>
 
 		<!-- City-State quests -->

@@ -20,7 +20,7 @@ SET Text = '유닛이 승선하여 물 타일을 건널 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_ALLOWS_EMBARKING';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_PLAYER_PURPLE]{@1_PromotionName}[ENDCOLOR] 승급 부여: [NEWLINE]({@2_PromotionHelp}'
+SET Text = 'Eligible units receive [COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR] Promotion: {2_PromotionHelp:textkey}'
 WHERE Tag = 'TXT_KEY_FREE_PROMOTION_FROM_TECH';
 
 UPDATE Language_ko_KR
@@ -55,6 +55,10 @@ UPDATE Language_ko_KR
 SET Text = '(담수 없음)'
 WHERE Tag = 'TXT_KEY_ABLTY_NO_FRESH_WATER_STRING';
 
+UPDATE Language_ko_KR
+SET Text = 'Leads To:'
+WHERE Tag = 'TXT_KEY_TECH_HELP_LEADS_TO';
+
 ------------------------------------------------
 -- Civilopedia
 ------------------------------------------------
@@ -75,6 +79,10 @@ SET Text = '개발 가능한 시설:'
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENTS_LABEL';
 
 UPDATE Language_ko_KR
+SET Text = '한때 역사적으로 인도에 속했던 세 나라는 20세기 후반과 21세기 초반에 매우 다른 길을 택했습니다. 방글라데시는 의회 민주주의 국가로, 인구 밀도가 매우 높아 홍수, 사이클론, 기근이 잦은 나라입니다. 하지만 70년대 독립 이후 국민들의 삶은 꾸준히 개선되었습니다.[NEWLINE][NEWLINE]파키스탄은 세계에서 여섯 번째로 인구가 많은 나라이고, 두 번째로 인구가 많은 무슬림 국가입니다. 지난 25년간 경제는 호황을 누렸지만, 여전히 입지적 어려움을 겪고 있습니다. 동쪽에는 인도가 있는데, 인도는 오랜 적으로서 현재도 국경 분쟁을 겪고 있으며, 양측 모두 최근에 핵무기를 보유하게 되었습니다. 서쪽으로는 탈레반의 지배 하에 있는 아프가니스탄이 있는데, 이곳에서는 공개적인 갈등은 줄어들었지만, 특히 여성에 대한 가혹한 통치와 억압이 다시 나타났습니다. 파키스탄의 미래는 자국의 정치적 안정을 관리하고, 극단주의를 억제하고, 이웃 나라들과의 관계를 재정립하는 데 달려 있습니다.[NEWLINE][NEWLINE]인도는 세계에서 두 번째로 인구가 많은 나라이며, 번영하는 민주주의 국가입니다. 시끄럽고 활기차며, 경제가 성장하고 활기차게 발전하고 있습니다. 중국은 그 어느 나라보다 뛰어난 기술 기반을 갖추고 있으며, 미국과 견줄 만한 교육 시스템을 갖추고 있습니다. 파키스탄은 또한 대규모 군대와 핵무기를 보유하고 있으며, 주로 파키스탄을 견제하는 것을 목표로 하고 있지만, 중국은 점점 더 전략적 관심사가 되고 있습니다. 이웃 국가들과의 긴장을 완화하고 현재의 경제적, 기술적 추세를 유지할 수 있다면, 인도는 21세기의 주요 강대국 중 하나가 되는 길에 한 걸음 더 다가갈 수 있을 것입니다.'
+WHERE Tag = 'TXT_KEY_CIV5_INDIA_TEXT_16';
+
+UPDATE Language_ko_KR
 SET Text = '키이우 대공국'
 WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_HEADING_4';
 
@@ -85,6 +93,73 @@ WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_4';
 UPDATE Language_ko_KR
 SET Text = '키이우 대공국에 대한 몽골의 첫 침략은 1223년의 일인데, 그해 몽골의 정찰대는 할크 강의 전투에서 이름도 거창한 므스티슬라프 로마노비치 대공(또는 므스티슬라프 볼트)이 이끄는 여러 러시아 국가의 연합 병력과 만났습니다. 러시아군은 처음에는 이겼지만, 패퇴하는 적을 추격하다가 흐트러졌습니다. 몽골 기병은 재결집해서 추적자들이 재정비하기 전에 남김없이 무찔렀습니다. 많은 러시아군이 목숨만은 살려 준다는 조건에 몽골에 항복했는데, 몽골은 그 조건을 받아들이고는 그들을 대량 학살했습니다. 몽골은 그 후 수년간 러시아를 떠났다가 대군을 이끌고 돌아왔습니다.[NEWLINE][NEWLINE]1237년에 약 30,000명 이상의 궁기병으로 이루어진 거대 몽골군이 다시 한 번 볼가 강을 넘었습니다. 몇 년 지나지 않아 몽골은 수많은 러시아 도시와 마을을 점령하고, 약탈하고, 파괴했는데, 랴잔, 콜롬나, 모스크바, 로스토프, 카신, 드미트로프, 코젤스크, 할리치, 키이우가 해당합니다. 그들은 그들에 맞서는 모든 세력을 철저히 완파했습니다. 1240년에 러시아는 대부분 타다남은 폐허로 변했고, 완전히 몽골의 지배 아래 놓였는데, 그들은 헝가리와 폴란드를 향해 더 서쪽으로 눈을 돌렸습니다.[NEWLINE]'
 WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_5';
+
+------------------------------------------------
+-- Info tooltip
+------------------------------------------------
+
+-- Common
+UPDATE Language_ko_KR
+SET Text = 'Resources Required: {1_NumResource} {2_ResIcon} {3_Res:textkey}'
+WHERE Tag = 'TXT_KEY_PRODUCTION_RESOURCES_REQUIRED';
+
+-- Building
+UPDATE Language_ko_KR
+SET Text = '{1: number "''[ICON_HAPPINESS_1] Happiness: ''#;''[ICON_HAPPINESS_3] Unhappiness '':#"}'
+WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_HAPPINESS';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_STRENGTH] City Strength: {2_Sign}{1_Num}'
+WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_DEFENSE';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_STRENGTH] Hit Points: {2_Sign}{1_Num}'
+WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_HITPOINTS';
+
+-- Yield
+UPDATE Language_ko_KR
+SET Text = '[ICON_FOOD] Food is what determines how fast your City grows to acquire new [ICON_CITIZEN] Citizens, who work the land and collect yields for the City. Bigger Cities are nearly always better, but beware of the increased [ICON_HAPPINESS_3] Unhappiness!'
+WHERE Tag = 'TXT_KEY_FOOD_HELP_INFO';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_PEACE] Faith is spent on founding and improving [ICON_RELIGION] Religions at the empire-level. Faith can also be expended to purchase Missionaries, Inquisitors, Religious Buildings, and Great People.'
+WHERE Tag = 'TXT_KEY_FAITH_HELP_INFO';
+
+UPDATE Language_ko_KR
+SET Text = '{1: number "''[COLOR_POSITIVE_TEXT]''#,##0.00;''[COLOR_NEGATIVE_TEXT]-''#,##0.00"} {2_IconString} Base[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_YIELD_BASE';
+
+UPDATE Language_ko_KR
+SET Text = '{1: number "''[COLOR_POSITIVE_TEXT]''#,##0.00;''[COLOR_NEGATIVE_TEXT]-''#,##0.00"} {2_IconString} Total[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_YIELD_TOTAL';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from [ICON_CULTURE] Culture'
+WHERE Tag = 'TXT_KEY_YIELD_FROM_CULTURE';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from Terrain'
+WHERE Tag = 'TXT_KEY_YIELD_FROM_TERRAIN';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from Buildings'
+WHERE Tag = 'TXT_KEY_YIELD_FROM_BUILDINGS';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from Specialists'
+WHERE Tag = 'TXT_KEY_YIELD_FROM_SPECIALISTS';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from Religion'
+WHERE Tag = 'TXT_KEY_YIELD_FROM_RELIGION';
+
+UPDATE Language_ko_KR
+SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from [ICON_CITIZEN] Population'
+WHERE Tag = 'TXT_KEY_YIELD_FROM_POP';
+UPDATE Language_ko_KR
+
+SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from other sources'
+WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC';
 
 ------------------------------------------------
 -- City screen/banner
@@ -98,6 +173,10 @@ SET Text = '[NEWLINE]이 도시에는 {TXT_KEY_GRAMMAR_A_AN << {1_BuildingName:t
 WHERE Tag = 'TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING';
 
 UPDATE Language_ko_KR
+SET Text = '도시 전투력'
+WHERE Tag = 'TXT_KEY_CITYVIEW_CITY_COMB_STRENGTH_TT';
+
+UPDATE Language_ko_KR
 SET Text = '클릭 : 대기열 마지막에 아이템 추가[NEWLINE]CTRL + 왼쪽 클릭 : 대기열 맨 처음에 아이템 추가[NEWLINE]ALT + 왼쪽 클릭: 대기열 맨 마지막에 아이템 추가[NEWLINE]SHIFT + 왼쪽 클릭 : 선택된 아이템으로 대기열 전부 대체[NEWLINE]H는 선택한 건물을 이 도시의 생산 설정에서 숨깁니다.'
 WHERE Tag = 'TXT_KEY_CITYVIEW_QUEUE_PROD_TT';
 
@@ -106,19 +185,7 @@ SET Text = '[ICON_CITIZEN]시민의 성장을 억제하려면 클릭하십시오
 WHERE Tag = 'TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET][ICON_CONNECTED] 문명 전역에서 기타 정책으로 획득: {1_Num}%'
-WHERE Tag = 'TXT_KEY_FOODMOD_PLAYER';
-
-UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET][ICON_RELIGION_PANTHEON] 종교에서 획득: {1_Num}%'
-WHERE Tag = 'TXT_KEY_FOODMOD_RELIGION';
-
-UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] "국왕 경축일"에서 획득: {1_Num}%'
-WHERE Tag = 'TXT_KEY_FOODMOD_WLTKD';
-
-UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]걸작 및 테마보너스에서'
+SET Text = '[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_CULTURE] 걸작 및 테마보너스에서'
 WHERE Tag = 'TXT_KEY_CULTURE_FROM_GREAT_WORKS';
 
 UPDATE Language_ko_KR
@@ -577,6 +644,26 @@ WHERE Tag = 'TXT_KEY_TP_FAITH_NEXT_PANTHEON';
 UPDATE Language_ko_KR
 SET Text = '다음 위대한 선지자가 출현하려면 [ICON_PEACE]신앙이 적어도 {1_MinFaith}만큼 필요합니다.'
 WHERE Tag = 'TXT_KEY_TP_FAITH_NEXT_PROPHET';
+
+-- Gold
+UPDATE Language_ko_KR
+SET Text = '[ICON_GOLD][COLOR:255:235:0:255]{1_TotalGold: number "#,###"} {2_GoldPerTurn: number "''(+''#,###'')'';''[COLOR:255:60:60:255](-''#,###'')''"}[/COLOR]'
+WHERE Tag = 'TXT_KEY_TOP_PANEL_GOLD';
+
+-- Golden Age
+UPDATE Language_ko_KR
+SET Text = '{1_NumCurrent}/{2_NumNeeded} progress towards the next [ICON_GOLDEN_AGE] Golden Age.'
+WHERE Tag = 'TXT_KEY_TP_GOLDEN_AGE_PROGRESS';
+
+-- Tourism
+UPDATE Language_ko_KR
+SET Text = '{1_Num} [ICON_GREAT_WORK] {1_Num: plural 1?Great Work Slot; other?Great Work Slots;} Filled'
+WHERE Tag = 'TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_1';
+
+UPDATE Language_ko_KR
+SET Text = '{1_Num} [ICON_GREAT_WORK] {1_Num: plural 1?Great Work Slot; other?Great Work Slots;} Available'
+WHERE Tag = 'TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_2';
+
 
 -- Trade routes
 UPDATE Language_ko_KR

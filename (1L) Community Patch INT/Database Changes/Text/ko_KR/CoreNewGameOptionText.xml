@@ -8,6 +8,64 @@
 			<Text>모든 플레이어가 야만인과의 전투에서 GG(위대한 장군)과 GA(위대한 제독) 점수를 축적할 수 있습니다.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS">
+			<Text>Chill한 야만인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS_HELP">
+			<Text>야만인 생성률이 약간 감소했고, 캠프가 생성될 때 두 개의 유닛이 생성되지 않습니다. 멋지죠, 친구.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_VICTORY_COMPETITION">
+			<Text>AI 승리 경쟁 비활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_VICTORY_COMPETITION_HELP">
+			<Text>AI 지도자가 다른 플레이어를 승리 경쟁 진행상황을 통해 적대하지 않습니다. 게임을 매우 쉽게 만듭니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_ENDGAME_AGGRESSION">
+			<Text>AI 게임 후반 공격성 비활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_ENDGAME_AGGRESSION_HELP">
+			<Text>AI 지도자가 승리에 가까운 플레이어를 적대하지 않습니다. 참고: 이 설정은 'AI 승리 경쟁 비활성화'가 활성화되면 아무 일도 일어나지 않습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZED_VICTORIES">
+			<Text>무작위 승리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZED_VICTORIES_HELP">
+			<Text>임의의 플레이어가 원자력 시대에 진입하면 하나의 무작위 승리 유형(문화, 외교 또는 과학)이 활성화됩니다. 다른 모든 승리는 비활성화됩니다. (참고: 시간 및 정복 승리는 항상 가능합니다.)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY">
+			<Text>투명한 외교</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY_HELP">
+			<Text>외교적 변수 옆에 수치가 표시됩니다. 또한, AI 지도자들이 부정적 변수를 감추지 않습니다.</Text>
+		</Row>
+
+		<!-- 멀티플레이어 전용 -->
+		<Row Tag="TXT_KEY_GAME_OPTION_KEEP_UNMET_PLAYERS_UNKNOWN">
+			<Text>게임하기 전 만나지 못한 문명 숨기기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
+			<Text>게임 설정에서, 다른 팀의 다른 인간 플레이어의 지도자/문명 세부 정보를 표시하지 마세요(무작위 지도자를 선택하지 않은 경우).[NEWLINE]저장한 게임을 불러올 때, 게임 내에서 만나지 않은 다른 팀의 플레이어의 지도자/문명 세부 정보를 표시하지 마세요.</Text>
+		</Row>
+
+		<!-- 이벤트 (커뮤니티 패치에 숨겨진) -->
+		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS">
+			<Text>이벤트 활성화 (나쁨)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS_HELP">
+			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 나쁜 결과 이벤트를 활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS">
+			<Text>이벤트 활성화 (문명-특화)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS_HELP">
+			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 문명에 특화된 이벤트를 활성화합니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_GAME_OPTION_GOOD_EVENTS">
 			<Text>이벤트 활성화 (좋음)</Text>
 		</Row>
@@ -22,39 +80,11 @@
 			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 중립적인 결과 이벤트를 활성화합니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS">
-			<Text>이벤트 활성화 (나쁨)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS_HELP">
-			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 나쁜 결과 이벤트를 활성화합니다.</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_GAME_OPTION_TRADE_EVENTS">
 			<Text>이벤트 활성화 (거래)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_TRADE_EVENTS_HELP">
 			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 거래(기타) 결과 이벤트를 활성화합니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS">
-			<Text>이벤트 활성화 (문명-특화)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS_HELP">
-			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 문명에 특화된 이벤트를 활성화합니다.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS">
-			<Text>Chill한 야만인</Text>
-		</Row>
-		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS_HELP">
-			<Text>야만인 생성률이 약간 감소했고, 캠프가 생성될 때 두 개의 유닛이 생성되지 않습니다. 멋지죠, 친구.</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN">
-			<Text>게임하기 전 만나지 못한 문명 숨기기</Text>
-		</Row>
-		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
-			<Text>게임 설정에서, 다른 팀의 다른 인간 플레이어의 지도자/문명 세부 정보를 표시하지 마세요(무작위 지도자를 선택하지 않은 경우).[NEWLINE]저장한 게임을 불러올 때, 게임 내에서 만나지 않은 다른 팀의 플레이어의 지도자/문명 세부 정보를 표시하지 마세요.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

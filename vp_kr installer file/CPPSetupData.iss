@@ -2,7 +2,7 @@
 ; INNO SETUP 스크립트 파일을 만드는 방법에 대한 자세한 내용은 설명서를 참조하세요!
 
 #define MyAppName "VP 한국어"
-#define MyAppVersion "4.22"
+#define MyAppVersion "5.0a1"
 #define MyAppPublisher "HANDANI"
 #define MyAppURL "https://github.com/handanikr/vp_kr"
 
@@ -43,26 +43,20 @@ UsedUserAreasWarning=no
 Name: "korean"; MessagesFile: "compiler:Languages\Korean.isl"
 
 [Files]
-Source: "..\(1L) Community Patch INT\*"; DestDir: "{app}\MODS\(1L) Community Patch INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC VP VPNVC
-Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\MODS\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP34UC VP34UCNVC VP VPNVC
-Source: "..\(3aL) VP - EUI Compatibility Files INT\*"; DestDir: "{app}\MODS\(3aL) VP - EUI Compatibility Files INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC VP VPNVC
-Source: "..\(4aL) Squads for VP INT\*"; DestDir: "{app}\MODS\(4aL) Squads for VP INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP34UC VP34UCNVC VP VPNVC
-Source: "..\(over) More Unique Components for VP (v 89)\*"; DestDir: "{app}\MODS\(over) More Unique Components for VP (v 89)"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC
-Source: "..\(overL) More Unique Components for VP (v 89) INT\*"; DestDir: "{app}\MODS\(overL) More Unique Components for VP (v 89) INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC
+Source: "..\(1L) Community Patch INT\*"; DestDir: "{app}\MODS\(1L) Community Patch INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP VPNVC
+Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\MODS\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP VPNVC
+Source: "..\(3aL) VP - EUI Compatibility Files INT\*"; DestDir: "{app}\MODS\(3aL) VP - EUI Compatibility Files INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP VPNVC
+Source: "..\(4aL) Squads for VP INT\*"; DestDir: "{app}\MODS\(4aL) Squads for VP INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP VPNVC
 Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP
 Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UCNVC VPNVC
 Source: "..\VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion; Components: VP34UC VP34UCNVC VP VPNVC
 ; 참고: 공유 시스템 파일에서 "Flags: ignoreversion"을 사용하지 마십시오.
 
 [Components]
-Name: "VP34UC"; Description: "Vox Populi + 34UC 한국어 번역 모드"; Types: VP34UC; Flags: exclusive disablenouninstallwarning 
-Name: "VP34UCNVC"; Description: "Vox Populi + 34UC 한국어 번역 모드 (투표 문명색 제거)"; Types: VP34UCNVC; Flags: exclusive disablenouninstallwarning 
 Name: "VP"; Description: "Vox Populi 한국어 번역 모드"; Types: VP; Flags: exclusive disablenouninstallwarning
 Name: "VPNVC"; Description: "Vox Populi 한국어 번역 모드 (투표 문명색 제거)"; Types: VPNVC; Flags: exclusive disablenouninstallwarning
 
 [Types]
-Name: "VP34UC"; Description: "Vox Populi + 34UC 한국어 번역 모드";
-Name: "VP34UCNVC"; Description: "Vox Populi + 34UC 한국어 번역 모드 (투표 문명색 제거)";
 Name: "VP"; Description: "Vox Populi 한국어 번역 모드";
 Name: "VPNVC"; Description: "Vox Populi 한국어 번역 모드 (투표 문명색 제거)";
 
