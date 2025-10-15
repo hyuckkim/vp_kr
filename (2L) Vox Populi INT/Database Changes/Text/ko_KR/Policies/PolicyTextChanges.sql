@@ -8,7 +8,7 @@ SET Text = '{2_CivName:textkey}의 위대한 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_TRADITION_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]전통[ENDCOLOR]은 [ICON_GREAT_PEOPLE] 위인 및 인상적인 [ICON_CAPITAL] 수도의 건설에 초점을 맞춥니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR] [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도의 [ICON_FOOD]식량 +3, [ICON_CITIZEN]시민 +2, [ICON_HAPPINESS_1]행복 +2[NEWLINE][ICON_BULLET][ICON_CITIZEN]시민 2명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR] [NEWLINE][ICON_BULLET]모든 도시의 [ICON_FOOD]식량 +1[NEWLINE][ICON_BULLET][ICON_CAPITAL]수도의 [ICON_RESEARCH]과학 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]상코레 대학[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET][ICON_RES_ARTIFACTS] 랜드마크 및 위인 시설의 [ICON_FOOD]식량 +1, [ICON_PRODUCTION]생산 +1[NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]알현실[ENDCOLOR] 출현(모든 산출 +10%, [ICON_VP_MUSICIAN] 음악가 슬롯 +1, [ICON_VP_GREATMUSIC] 걸작 음악 슬롯 1, 도시 작업 범위 +1)[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_ENGINEER][COLOR_YELLOW]위대한 기술자[ENDCOLOR] 구매 가능'
+SET Text = '[COLOR_POSITIVE_TEXT]전통[ENDCOLOR]은 [ICON_GREAT_PEOPLE] 위인 및 인상적인 [ICON_CAPITAL] 수도의 건설에 초점을 맞춥니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]정책 개방 보너스:[ENDCOLOR] [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도의 [ICON_FOOD]식량 +3, [ICON_CITIZEN]시민 +2, [ICON_HAPPINESS_1]행복 +2[NEWLINE][ICON_BULLET][ICON_CITIZEN]시민 2명마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]각 정책 채택 보너스:[ENDCOLOR] [NEWLINE][ICON_BULLET]모든 도시의 [ICON_FOOD]식량 +1[NEWLINE][ICON_BULLET][ICON_CAPITAL]수도의 [ICON_RESEARCH]과학 +1[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]계열 완성 보너스:[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_YELLOW]상코레 대학[ENDCOLOR] 불가사의 건설 가능[NEWLINE][ICON_BULLET][ICON_RES_ARTIFACTS] 랜드마크 및 위인 시설의 [ICON_FOOD]식량 +1, [ICON_PRODUCTION]생산 +1[NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]알현실[ENDCOLOR] 출현(모든 산출 +10%, [ICON_MUSICIAN] 음악가 슬롯 +1, [ICON_GW_MUSIC] 걸작 음악 슬롯 1, 도시 작업 범위 +1)[NEWLINE][ICON_BULLET]산업 시대 이후 [ICON_PEACE]신앙으로 [ICON_GREAT_ENGINEER][COLOR_YELLOW]위대한 기술자[ENDCOLOR] 구매 가능'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_TRADITION_HELP';
 
 UPDATE Language_ko_KR
@@ -16,7 +16,7 @@ SET Text = '정의'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]정의[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]유닛이 주둔한 도시의 [ICON_RANGE_STRENGTH]원거리 전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]근위병 초소[ENDCOLOR]가 출현합니다. ([ICON_PRODUCTION]생산 +3, [ICON_STRENGTH]방어력 +3, 체력 +50, 군사 유닛 보급 한도가 시민의 20%만큼 증가, [ICON_VP_ENGINEER] 기술자 슬롯 +1)'
+SET Text = '[COLOR_POSITIVE_TEXT]정의[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]유닛이 주둔한 도시의 [ICON_RANGE_STRENGTH]원거리 전투력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]{TXT_KEY_BUILDING_ROYAL_GUARDHOUSE}[ENDCOLOR]가 출현합니다. ([ICON_PRODUCTION]생산 +3, [ICON_STRENGTH]방어력 +3, 체력 +50, 군사 유닛 보급 한도가 시민의 20%만큼 증가, [ICON_ENGINEER] 기술자 슬롯 +1)'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_HELP';
 
 UPDATE Language_ko_KR
@@ -28,7 +28,7 @@ SET Text = '주권'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]주권[ENDCOLOR][NEWLINE][ICON_BULLET]새로운 타일을 확보하기 위해 필요한 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]궁정 예배당[ENDCOLOR]이 출현합니다.([ICON_PEACE]신앙 +3, [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯 +1, [ICON_VP_ARTIST] 예술가 슬롯 +1)'
+SET Text = '[COLOR_POSITIVE_TEXT]주권[ENDCOLOR][NEWLINE][ICON_BULLET]새로운 타일을 확보하기 위해 필요한 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]{TXT_KEY_BUILDING_COURT_CHAPEL}[ENDCOLOR]이 출현합니다.([ICON_PEACE]신앙 +3, [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯 +1, [ICON_ARTIST] 예술가 슬롯 +1)'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY_HELP';
 
 UPDATE Language_ko_KR
@@ -40,7 +40,7 @@ SET Text = '존엄'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]존엄[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL]수도의 전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]궁정 정원[ENDCOLOR]이  출현합니다.위인 출현율 +25%([ICON_URBANIZATION] 도시화 [ICON_HAPPINESS_3] 불행 -2, [ICON_FOOD]식량 +5, [ICON_VP_GREATWRITING]걸작 문학 슬롯 +1, [ICON_VP_WRITER] 작가 슬롯 +1)'
+SET Text = '[COLOR_POSITIVE_TEXT]존엄[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_CAPITAL]수도의 전문가가 소모하는 [ICON_FOOD]식량이 평소보다 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR] [COLOR:105:105:105:255](한도: [ICON_FOOD]1)[ENDCOLOR] 감소합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]궁정 정원[ENDCOLOR]이  출현합니다.위인 출현율 +25%([ICON_URBANIZATION] 도시화 [ICON_HAPPINESS_3] 불행 -2, [ICON_FOOD]식량 +5, [ICON_VP_GREATWRITING]걸작 문학 슬롯 +1, [ICON_WRITER] 작가 슬롯 +1)'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY_HELP';
 
 UPDATE Language_ko_KR
@@ -52,7 +52,7 @@ SET Text = '탁월'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]탁월[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GREAT_PEOPLE]위인을 소모할 때  [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]국고[ENDCOLOR]가 출현합니다.([ICON_GOLD]골드 +4, 모든 도시에서 기념비, 정원, 목욕탕에 [ICON_CULTURE]문화 +2, [ICON_VP_MERCHANT] 상인 슬롯 +1)'
+SET Text = '[COLOR_POSITIVE_TEXT]탁월[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GREAT_PEOPLE]위인을 소모할 때  [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]{TXT_KEY_BUILDING_STATE_TREASURY}[ENDCOLOR]가 출현합니다.([ICON_GOLD]골드 +4, 모든 도시에서 기념비, 정원, 목욕탕에 [ICON_CULTURE]문화 +2, [ICON_MERCHANT] 상인 슬롯 +1)'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_HELP';
 
 UPDATE Language_ko_KR
@@ -64,7 +64,7 @@ SET Text = '의식'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]의식[ENDCOLOR][NEWLINE][ICON_BULLET]모든 국가 불가사의의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]국가 불가사의 건설 시 [ICON_PRODUCTION] 생산이 +25% 증가합니다.[NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]궁정 점술사[ENDCOLOR]가 출현합니다.([ICON_RESEARCH]과학 +3, 모든 도시에서 자문회, 훈제실, 약초상에 [ICON_RESEARCH]과학 +1, [ICON_VP_SCIENTIST] 과학자 슬롯 +1)'
+SET Text = '[COLOR_POSITIVE_TEXT]의식[ENDCOLOR][NEWLINE][ICON_BULLET]모든 국가 불가사의의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]국가 불가사의 건설 시 [ICON_PRODUCTION] 생산이 +25% 증가합니다.[NEWLINE][ICON_BULLET][ICON_CAPITAL]수도에 [COLOR_YELLOW]{TXT_KEY_BUILDING_ROYAL_ASTROLOGER}[ENDCOLOR]가 출현합니다.([ICON_RESEARCH]과학 +3, 모든 도시에서 자문회, 훈제실, 약초상에 [ICON_RESEARCH]과학 +1, [ICON_SCIENTIST] 과학자 슬롯 +1)'
 WHERE Tag = 'TXT_KEY_POLICY_LEGALISM_HELP';
 
 UPDATE Language_ko_KR
@@ -208,7 +208,7 @@ SET Text = '지배'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]지배[ENDCOLOR][NEWLINE][ICON_BULLET]군사 유닛 10개마다 모든 도시의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]근접 유닛이 적 군사 유닛을 처치할 때 체력을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 회복합니다. [NEWLINE][ICON_BULLET][ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]지배[ENDCOLOR][NEWLINE][ICON_BULLET]모든 근접 유닛이 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ENDURANCE}[ENDCOLOR] 승급을 얻습니다. (적 군사 유닛을 처치할 때 체력을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 회복)[ICON_BULLET]군사 유닛 10개마다 모든 도시의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET][ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_MILITARY_CASTE_HELP';
 
 UPDATE Language_ko_KR
@@ -220,7 +220,7 @@ SET Text = '명예'
 WHERE Tag = 'TXT_KEY_POLICY_PROFESSIONAL_ARMY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]명예[ENDCOLOR][NEWLINE][ICON_BULLET]유닛의 [ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET][ICON_CITIZEN]시민 10명마다 보급 한도를 차지하지 않는 군사 유닛이 출현합니다. [NEWLINE][ICON_BULLET][ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]명예[ENDCOLOR][NEWLINE][ICON_BULLET]모든 유닛이 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_CONSCRIPTION}[ENDCOLOR] 승급을 얻습니다. ([ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가) [NEWLINE][ICON_BULLET][ICON_CITIZEN]처음으로 시민 10명에 도달 (또는 이미 10명 이상)하면 보급 한도를 차지하지 않는 군사 유닛이 출현합니다. [NEWLINE][ICON_BULLET][ICON_WAR]전쟁 피로도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP';
 
 UPDATE Language_ko_KR
@@ -322,7 +322,7 @@ SET Text = '외교국'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_SPY_POINTS] 스파이 포인트를 100 제공합니다. 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET] 위대한 외교관의 출현율이 50% 증가합니다'
+SET Text = '[COLOR_POSITIVE_TEXT]외교국[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_SPY_POINT] 스파이 포인트를 100 제공합니다. 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]교역로에서 오는 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 아군 스파이의 작전 기간이 1턴 감소합니다.[NEWLINE][ICON_BULLET] 위대한 외교관의 출현율이 50% 증가합니다'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 UPDATE Language_ko_KR
@@ -338,7 +338,7 @@ SET Text = '그림자 네트워크'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]그림자 네트워크[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가가 산출하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 획득합니다. [NEWLINE][ICON_BULLET][ICON_VP_SPY_POINTS] 스파이 포인트 100마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] [COLOR:105:105:105:255](한도: 30%)[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 경찰대 및 경찰서의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]그림자 네트워크[ENDCOLOR][NEWLINE][ICON_BULLET]동맹인 [ICON_CITY_STATE]도시 국가가 산출하는 [ICON_RESEARCH]과학의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 획득합니다. [NEWLINE][ICON_BULLET][ICON_SPY_POINT] 스파이 포인트 100마다 [ICON_CAPITAL]수도의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] [COLOR:105:105:105:255](한도: 30%)[ENDCOLOR] 증가합니다.[NEWLINE][ICON_BULLET]모든 전문가의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]모든 경찰대 및 경찰서의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';
 
 UPDATE Language_ko_KR
@@ -399,7 +399,7 @@ SET Text = '인본주의'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_GREATWRITING] 걸작 문학의 [ICON_PEACE] 신앙이 +3 증가합니다. [NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] 황금기를 시작하기 위해 필요한 [ICON_GOLDEN_AGE] 황금기 점수가 25% 감소합니다. [NEWLINE][ICON_BULLET]모든 길드의 [ICON_HAPPINESS_1] 행복이 +1 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GW_WRITING] 걸작 문학의 [ICON_PEACE] 신앙이 +3 증가합니다. [NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] 황금기를 시작하기 위해 필요한 [ICON_GOLDEN_AGE] 황금기 점수가 25% 감소합니다. [NEWLINE][ICON_BULLET]모든 길드의 [ICON_HAPPINESS_1] 행복이 +1 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_CENTERS_HELP';
 
 UPDATE Language_ko_KR
@@ -411,7 +411,7 @@ SET Text = '세련'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]세련[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_GREATART] 걸작 예술품의 [ICON_CULTURE] 문화가 +2 증가합니다. [NEWLINE][ICON_BULLET]전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [NEWLINE][ICON_BULLET]전문가에서 [ICON_CULTURE] 문화를 +1 얻습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]세련[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GW_ART] 걸작 예술품의 [ICON_CULTURE] 문화가 +2 증가합니다. [NEWLINE][ICON_BULLET]전문가 [COLOR_POSITIVE_TEXT]1명[ENDCOLOR]이 더이상 도시화에서 오는 [ICON_HAPPINESS_3]불행을 증가시키지 않습니다. [NEWLINE][ICON_BULLET]전문가에서 [ICON_CULTURE] 문화를 +1 얻습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS_HELP';
 
 UPDATE Language_ko_KR
@@ -423,7 +423,7 @@ SET Text = '문화유산'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]문화유산[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_VP_GREATMUSIC] 걸작 음악의 [ICON_GOLD] 골드가 +4 증가합니다. [NEWLINE][ICON_BULLET]모든 [ICON_TOURISM]/[ICON_CULTURE] 테마 보너스가 50% 증가합니다. [NEWLINE][ICON_BULLET][ICON_WONDER] 세계 불가사의, 타일의 [ICON_CULTURE] 문화의 25%가 도시의 [ICON_TOURISM] 관광에 추가됩니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]문화유산[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GW_MUSIC] 걸작 음악의 [ICON_GOLD] 골드가 +4 증가합니다. [NEWLINE][ICON_BULLET]모든 [ICON_TOURISM]/[ICON_CULTURE] 테마 보너스가 50% 증가합니다. [NEWLINE][ICON_BULLET][ICON_WONDER] 세계 불가사의, 타일의 [ICON_CULTURE] 문화의 25%가 도시의 [ICON_TOURISM] 관광에 추가됩니다.'
 WHERE Tag = 'TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP';
 
 UPDATE Language_ko_KR
@@ -435,7 +435,7 @@ SET Text = '국보'
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]국보[ENDCOLOR][NEWLINE][ICON_BULLET] [ICON_VP_ARTIFACT] 유물의 [ICON_RESEARCH] 과학이 +2 증가합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도 근처에 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. [NEWLINE][ICON_BULLET][ICON_WONDER] 세계 불가사의를 건설할 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]250[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]국보[ENDCOLOR][NEWLINE][ICON_BULLET] [ICON_ARTIFACT] 유물의 [ICON_RESEARCH] 과학이 +2 증가합니다. [NEWLINE][ICON_BULLET][ICON_CAPITAL]수도 근처에 원하는 [ICON_GREAT_PEOPLE][COLOR_YELLOW]위인[ENDCOLOR]이 1명 출현합니다. [NEWLINE][ICON_BULLET][ICON_WONDER] 세계 불가사의를 건설할 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]250[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP';
 
 UPDATE Language_ko_KR
@@ -549,7 +549,7 @@ SET Text = '연대 체계'
 WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]연대 체계[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GREAT_GENERAL]위대한 장군 및 [ICON_GREAT_ADMIRAL]위대한 제독이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 빨리 등장합니다. [NEWLINE][ICON_BULLET][ICON_GREAT_GENERAL]위대한 장군 및 [ICON_GREAT_ADMIRAL]위대한 제독이 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BETTER_LEADERSHIP}[ENDCOLOR] 승급을 얻습니다 ([ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가하고 효과 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.) [NEWLINE][ICON_BULLET][ICON_GREAT_ADMIRAL] 위대한 제독의 발견 항해에서 추가로 사치 자원을 둘 얻습니다.[NEWLINE][ICON_BULLET]종속국 및 우호적인 [ICON_CITY_STATE]도시 국가 영토 내에서 군사 유닛을 업그레이드 할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]연대 체계[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GREAT_GENERAL]위대한 장군 및 [ICON_GREAT_ADMIRAL]위대한 제독이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 빨리 등장합니다. [NEWLINE][ICON_BULLET][ICON_GREAT_GENERAL]위대한 장군 및 [ICON_GREAT_ADMIRAL]위대한 제독이 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_REGIMENTAL_TRADITIONS}[ENDCOLOR] 승급을 얻습니다 ([ICON_STRENGTH]전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가하고 효과 범위가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.) [NEWLINE][ICON_BULLET][ICON_GREAT_ADMIRAL] 위대한 제독의 발견 항해에서 추가로 사치 자원을 둘 얻습니다.[NEWLINE][ICON_BULLET]종속국 및 우호적인 [ICON_CITY_STATE]도시 국가 영토 내에서 군사 유닛을 업그레이드 할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP';
 
 UPDATE Language_ko_KR
@@ -561,7 +561,7 @@ SET Text = '식민주의'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]식민주의[ENDCOLOR][NEWLINE][ICON_BULLET]병영, 무기고, 사관 학교, 요새, 성채의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET][ICON_VP_MONOPOLY] 글로벌 독점에서 오는 [ICON_GOLDEN_AGE]산출량이 비율 기반이면 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR], 아니면 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. '
+SET Text = '[COLOR_POSITIVE_TEXT]식민주의[ENDCOLOR][NEWLINE][ICON_BULLET]병영, 무기고, 사관 학교, 요새, 성채의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET][ICON_MONOPOLY] 글로벌 독점에서 오는 [ICON_GOLDEN_AGE]산출량이 비율 기반이면 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR], 아니면 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. '
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP';
 
 UPDATE Language_ko_KR
@@ -622,7 +622,7 @@ SET Text = '과학혁명'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]과학혁명[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시에 천문대를 건설할 수 있습니다. ([ICON_RESEARCH] 과학 +6, 근처 산마다 [ICON_RESEARCH] 과학 1, [ICON_VP_SCIENTIST] 과학자 슬롯 +2)[NEWLINE][ICON_BULLET]모든 정글과 설원 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]과학혁명[ENDCOLOR][NEWLINE][ICON_BULLET]모든 도시에 천문대를 건설할 수 있습니다. ([ICON_RESEARCH] 과학 +6, 근처 산마다 [ICON_RESEARCH] 과학 1, [ICON_SCIENTIST] 과학자 슬롯 +2)[NEWLINE][ICON_BULLET]모든 정글과 설원 타일의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_HELP';
 
 UPDATE Language_ko_KR
@@ -666,7 +666,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]시민 사회[ENDCOLOR]: 전문가가 소모하
 WHERE Tag = 'TXT_KEY_POLICY_CIVIL_SOCIETY_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: [ICON_VP_SPY_POINTS] 스파이 포인트를 100 제공합니다. 도시 국가 선거 조작이 성공하면 당신이 얻는 영향력과 다른 플레이어가 잃는 영향력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 스파이가 매 턴 네트워크 포인트를 +10 얻습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]비밀 공작[ENDCOLOR]: [ICON_SPY_POINT] 스파이 포인트를 100 제공합니다. 도시 국가 선거 조작이 성공하면 당신이 얻는 영향력과 다른 플레이어가 잃는 영향력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 스파이가 매 턴 네트워크 포인트를 +10 얻습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_COVERT_ACTION_HELP';
 
 UPDATE Language_ko_KR
@@ -765,7 +765,7 @@ SET Text = '프롤레타리아 문화 대혁명은 1966년부터 1976년까지 �
 WHERE Tag = 'TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_VP_SPY_POINTS] 스파이 포인트를 200 제공합니다. 적 스파이를 확인 시 [ICON_RESEARCH] 과학을 125 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]이중 간첩[ENDCOLOR]: [ICON_SPY_POINT] 스파이 포인트를 200 제공합니다. 적 스파이를 확인 시 [ICON_RESEARCH] 과학을 125 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_DOUBLE_AGENTS_HELP';
 
 UPDATE Language_ko_KR
@@ -821,7 +821,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]인민군[ENDCOLOR]: 사관 학교를 건설할
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '인민해방군은 1927년 8월 1일 난창 봉기로 거슬러 올라갑니다. 난창 봉기는 중국 공산당 지도자 주더와 저우언라이(북방 원정에 종사하는 동안)가 이끄는 국민당 군대가 반란을 일으켰습니다.중국의 예술은 그 해 초에 전선을 통일했습니다. 마오쩌둥이 이끈 가을 추수 봉기를 포함한 다른 실패한 공산주의 반란의 생존자들은 후난성과 장시성의 경계를 따라 징강 산맥으로 도망쳤습니다. 마오쩌둥과 주(周)의 지도 아래 힘을 합친 이 공산주의자들, 도적들, 국민당 탈영병들, 그리고 가난한 농민들의 집단은 중국 공산당의 군대인 제1노동자군과 농민군이 되었습니다.'    
+SET Text = '인민해방군은 1927년 8월 1일 난창 봉기로 거슬러 올라갑니다. 난창 봉기는 중국 공산당 지도자 주더와 저우언라이(북방 원정에 종사하는 동안)가 이끄는 국민당 군대가 반란을 일으켰습니다.중국의 예술은 그 해 초에 전선을 통일했습니다. 마오쩌둥이 이끈 가을 추수 봉기를 포함한 다른 실패한 공산주의 반란의 생존자들은 후난성과 장시성의 경계를 따라 징강 산맥으로 도망쳤습니다. 마오쩌둥과 주(周)의 지도 아래 힘을 합친 이 공산주의자들, 도적들, 국민당 탈영병들, 그리고 가난한 농민들의 집단은 중국 공산당의 군대인 제1노동자군과 농민군이 되었습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_TEXT';
 
 UPDATE Language_ko_KR
@@ -892,7 +892,7 @@ SET Text = '레벤스라움'
 WHERE Tag = 'TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]레벤스라움[ENDCOLOR]: 국경이 확장될 때 [ICON_CULTURE]문화 및 [ICON_GOLDEN_AGE]황금기 점수가 10 증가합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 성채가 획득하는 타일의 범위가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]레벤스라움[ENDCOLOR]: 국경이 확장될 때 [ICON_CULTURE] 문화 및 [ICON_GOLDEN_AGE] 황금기 점수가 10 증가합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 국경에 인접한 외국 영토에도 요새를 건설할 수 있습니다. 도시를 파괴한 후에도 타일을 유지합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP';
 
 UPDATE Language_ko_KR

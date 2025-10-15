@@ -55,10 +55,6 @@ SET Text = '이념의 3 티어 정책을 둘 채택하고, 여론이 만족한 �
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_UNMET_TT';
 
 UPDATE Language_ko_KR
-SET Text = '당신은 {1_Resource:textkey}{1: plural 1?을; 2?를;} 소유량보다 더 많이 사용하고 있습니다. 해당 자원을 필요로 하는 모든 유닛의 [COLOR_NEGATIVE_TEXT]체력을 회복할 수 없습니다.[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT';
-
-UPDATE Language_ko_KR
 SET Text = '{1_Resource:textkey}{1: plural 1?을; 2?를;} 보유해 {2_CityName:textkey}에서 국왕 경축일이 시작됐습니다. 도시의 [ICON_FOOD]식량이 증가합니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_WLTKD';
 
@@ -216,3 +212,9 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_REVOLT';
 UPDATE Language_ko_KR
 SET Text = '제국의 지지율이 35% 미만이기 때문에 당신의 영토에 폭동이 발생했습니다!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS';
+
+-- BALANCE_RESOURCE_SHORTAGE_UNIT_HEALING
+UPDATE Language_ko_KR
+SET Text = '현재 보유한 양보다 많은 {1_Resource:textkey} 자원을 사용하고 있습니다! 이 자원이 필요한 모든 유닛은 [COLOR_NEGATIVE_TEXT]회복할 수 없습니다[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT'
+AND EXISTS (SELECT 1 FROM CustomModOptions WHERE Name = 'BALANCE_RESOURCE_SHORTAGE_UNIT_HEALING' AND Value = 1);

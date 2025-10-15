@@ -374,3 +374,30 @@ WHERE Tag = 'TXT_KEY_UNIT_JAPANESE_ZERO_STRATEGY';
 UPDATE Language_ko_KR
 SET Text = '시파히 기병은 창기병보다 강하고 강력한 측면 공격을 가합니다. 측면에서 사피히로 공격하면서 확약 부대의 통제 구역을 사용해 적을 고정하십시오. 적의 약한 유닛들을 처치해 초과 승급을 발동시키고 안전하게 후퇴하십시오.'
 WHERE Tag = 'TXT_KEY_UNIT_OTTOMAN_SIPAHI_STRATEGY';
+
+-- Ballista
+UPDATE Language_ko_KR
+SET Text = '발리스타는 오직 [ICON_CITY_STATE]도시 국가에서만 선물로 받을 수 있습니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_BALLISTA';
+
+UPDATE Language_ko_KR
+SET Text = '발리스타는 훌륭한 공성 기구입니다. 여전히 도시를 상대하는 데 유용하고, 야전 I 승급을 받아 유닛과의 전투에서도 유용합니다. 발리스타는 여전히 공격에 약하므로, 군사 유닛으로 보호해야 합니다. 적 영토에서 이동력이 절반이 되지만, 기본 시야 범위를 유지합니다.'
+WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
+
+-- Hakkapeliitta
+UPDATE Language_ko_KR
+SET Text = '하카펠리타는 오직 [ICON_CITY_STATE]도시 국가에서만 선물로 받을 수 있습니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA';
+
+UPDATE Language_ko_KR
+SET Text = '하카펠리타는 창기병보다 빠르고 한 타일 더 멀리 볼 수 있습니다. 약탈에 이동력을 소모하지 않으므로, 시설을 파괴하기 위해 적 영토에 침입하고, 향상된 시야와 속도를 이용해 반격을 최소화할 수 있습니다. 약탈로 유닛의 체력을 유지하며 약해져 [ICON_STRENGTH] 전투력이 낮아진 적들을 처치하십시오.'
+WHERE Tag = 'TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY';
+
+-- Great Galleass
+UPDATE Language_ko_KR
+SET Text = '그레이트 갈레아스는 오직 [ICON_CITY_STATE]도시 국가에서만 선물로 받을 수 있습니다.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS';
+
+UPDATE Language_ko_KR
+SET Text = '그레이트 갈레아스는 갈레아스와 비슷하지만, 전투력이 높고 원거리 공격력이 더 높습니다. [COLOR_POSITIVE_TEXT] 유산탄 I[ENDCOLOR] 승급을 보유합니다.'
+WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY';

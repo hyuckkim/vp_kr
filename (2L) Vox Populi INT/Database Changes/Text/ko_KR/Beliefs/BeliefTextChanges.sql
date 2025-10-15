@@ -70,7 +70,7 @@ SET Text = '태양의 신'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '곡창의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 농장이 건설된 자원 타일의 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '곡창의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 농장이 건설된 시설 자원 타일의 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD';
 
 -- God of War
@@ -178,7 +178,7 @@ SET Text = '복음 전도'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '외국 도시에 당신 문명의 [ICON_RELIGION]종교를 전파할 때 +15 [ICON_FOOD]식량을 성도에 제공하고, [COLOR:110:110:110:255](새로운 신도 수에 따라 보정)[ENDCOLOR] [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:110:110:110:255](다른 종교의 신도 수에 따라 보정) [ENDCOLOR]제공합니다. [NEWLINE][COLOR_YELLOW]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +4 [ICON_GOLDEN_AGE] 황금기 점수;  [ICON_RELIGION]성지에서 +5 [ICON_TOURISM] 관광; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '당신 문명의 [ICON_RELIGION]종교를 전파할 때 +15 [ICON_FOOD]식량을 성도에 제공하고, [COLOR:110:110:110:255](새로운 신도 수에 따라 보정)[ENDCOLOR] 해당 도시가 외국에 있는 경우 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:110:110:110:255](다른 종교의 신도 수에 따라 보정) [ENDCOLOR]제공합니다. [NEWLINE][COLOR_YELLOW]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +4 [ICON_GOLDEN_AGE] 황금기 점수;  [ICON_RELIGION]성지에서 +5 [ICON_TOURISM] 관광; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE';
 
 -- Ceremonial Burial
@@ -426,7 +426,7 @@ SET Text = '보편주의'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '소유한 도시에서 다른 종교를 믿는 신도 5명마다 성도의 [ICON_RESEARCH]과학, [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 외국 도시의 신도 10명마다 성도의 [ICON_GOLD] 골드와 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '소유한 도시에서 다른 종교를 믿는 신도 5명마다 성도의 [ICON_RESEARCH] 과학과 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 외국 도시의 신도 10명마다 성도의 [ICON_GOLD] 골드와 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY';
 
 UPDATE Language_ko_KR
@@ -434,7 +434,7 @@ SET Text = '광신'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE]신앙으로 지상 유닛을 구매할 수 있습니다. 종교를 따르는 도시 1개마다 전략 자원의 양이 [COLOR_POSITIVE_TEXT]1%[ENDCOLOR] [COLOR:110:110:110:255](한도: 25%)[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_PEACE] 신앙으로 지상 유닛을 구매할 수 있습니다. 종교를 따르는 도시 1개마다 전략 자원의 양이 [COLOR_POSITIVE_TEXT]1%[ENDCOLOR] [COLOR:110:110:110:255](한도: 25%)[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION';
 
 ----------------------------------------------

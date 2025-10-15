@@ -2640,9 +2640,11 @@
 			<Text>[COLOR_POSITIVE_TEXT]당신은 같은 도시 국가들의 호의를 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
 		</Row>
 		<!-- Victory dispute -->
-		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_CBP_WEAK">
-			<Text>[COLOR_NEGATIVE_TEXT]그들은 당신과 경쟁하고 있어 경계하고 있습니다.[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_NONE">
+			<Text>They do not consider you a threat to their ambitions.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_WEAK">
+			<Text>They fear you are competing with them.</Text>
 		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_STRONG">
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 당신과 경쟁하고 있어 당신을 불신합니다.[ENDCOLOR]</Text>
 		</Row>
