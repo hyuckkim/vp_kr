@@ -31,7 +31,7 @@
 		<Row Tag="TXT_KEY_IMPROVEMENT_EMBASSY">
 			<Text>대사관</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EMBASSY_TEXT">
+		<Row Tag="TXT_KEY_IMPROVEMENT_EMBASSY_TEXT">
 			<Text>대사관은 [ICON_DIPLOMAT]위대한 외교관을 통해 [ICON_CITY_STATE]도시 국가 영토에만 건설할 수 있습니다. 도시 국가의 영토에 대사관을 건설한 첫번째 문명은 세계 의회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. 도시 국가 영토에 첫번째로 대사관을 설립한 문명 외의 다른 문명은 추가 대표단을 확보할 수 없습니다. 대사관은 약탈할 수 없으며 일단 건설되면 절대로 제거할 수 없습니다. 만약 대사관의 원래 소유 문명이 정복당하면 정복자는 그들의 대사관과 그들의 대표단을 소유할 수 있습니다.</Text>
 		</Row>	
 		<Row Tag="TXT_KEY_BUILD_EMBASSY">
@@ -41,7 +41,7 @@
 			<Text>유닛이 소모됩니다.[NEWLINE][NEWLINE]시설을 건설하면 세계 의회 추가 [COLOR_POSITIVE_TEXT]대표단[ENDCOLOR]을 1명 확보합니다. [ICON_RES_PAPER] 종이를 +1 얻습니다.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_MACHU_PICCHU">
+		<Row Tag="TXT_KEY_IMPROVEMENT_MOUNTAIN_CITY">
 			<Text>산악 도시</Text>
 		</Row>
 	</Language_ko_KR>

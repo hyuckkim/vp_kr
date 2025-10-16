@@ -1407,12 +1407,14 @@
 		<Row Tag="TXT_KEY_EO_CITY_RELIGION">
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "우리는 더 많은 {2_ReligionIcon} 신도를 원합니다!"</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EO_CITY_SPECIALIST">
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "여기는 너무 [ICON_GREAT_PEOPLE]붐비고 있습니다!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_EMPIRE">
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "[ICON_WAR]전쟁! 무엇을 위해 좋은가!?"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNHAPPINESS_REASON_CITY_BUILDINGS">
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN_RED]: "우리는 여기가 마음에 들지 않아요!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_CONNECTED">
 			<Text>[COLOR_POSITIVE_TEXT]연결됨[ENDCOLOR]</Text>
