@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" version="144">
+<Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" version="145">
   <Properties>
     <Name>(1L) Community Patch INT</Name>
-    <Stability>Beta</Stability>
-    <Teaser>(4.22) Translation of the Community Patch</Teaser>
-    <Description>Translation of the Community Patch into several non-English languages. Currently to Korean only.[NEWLINE][NEWLINE]커뮤니티 패치 모드의 비영어권 번역 모드입니다. 현재는 한국어만 가능합니다.</Description>
-    <Authors>hyuckkim</Authors>
+    <Stability>alpha</Stability>
+    <Teaser>(5.0a2) 문명 5의 버그 수정, AI 개선, 게임 최적화 및 API 확장</Teaser>
+    <Description>문명 5 멋진 신세계 DLL에 대한 핵심 AI 개선 사항과 버그 수정 사항이 포함되어 있습니다. 또한 Vox Populi 비공식 확장팩과 관련 모드에 대한 지원도 포함되어 있습니다.</Description>
+    <Authors>hyuckkim, HANDANI</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <Homepage>http://github.com/hyuckkim/vp_kr/</Homepage>
@@ -52,6 +52,8 @@
     <File md5="06C2FB6E9EFF8C151FE1B28655D88F4F" import="0">Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</File>
     <File md5="816A628B1167E5AAF0974E2D624CD652" import="0">Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</File>
     <File md5="B9F475AB707E40676C76926B1F8923CF" import="0">Database Changes/Text/ko_KR/Units/CoreNewUnitText.xml</File>
+	<File md5="a926b5b1286627ceacc580395f9a1f13" import="0">Database Changes/Text/ko_KR/Units/CoreSpecialUnitTextChanges.sql</File>
+	<File md5="694dc2086f999cbf7ac67c05e9fe3439" import="0">Database Changes/Text/ko_KR/Units/CoreUnitCombatTextChanges.sql</File>
     <File md5="519D27BD3D6649CB80196861ECD35005" import="0">Database Changes/Text/ko_KR/Units/CoreUnitTextChanges.sql</File>
     <File md5="B898A29873C0A816361E07B25891CF51" import="0">Database Changes/Text/ko_KR/WorldMap/CoreGoodyHutTextChanges.sql</File>
     <File md5="BAD5AA5DD2393C796CA659261477FE8C" import="0">Database Changes/Text/ko_KR/WorldMap/CoreImprovementTextChanges.sql</File>
@@ -81,6 +83,8 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreNewUnitText.xml</UpdateDatabase>
+	  <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreSpecialUnitTextChanges.sql</UpdateDatabase>
+	  <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreUnitCombatTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreUnitTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreGoodyHutTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreImprovementTextChanges.sql</UpdateDatabase>

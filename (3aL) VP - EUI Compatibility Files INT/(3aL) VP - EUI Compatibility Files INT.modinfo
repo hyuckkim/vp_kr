@@ -2,10 +2,10 @@
 <Mod id="4d22275e-c50f-4550-9c33-97a813b8559f" version="1">
   <Properties>
     <Name>(3aL) VP - EUI Compatibility Files INT</Name>
-    <Stability>Beta</Stability>
-    <Teaser>(4.22) Translation of the VP - EUI Compatibility Files</Teaser>
-    <Description>Translation of the VP - EUI Compatibility Files into several non-English languages. Currently to Korean only.[NEWLINE][NEWLINE]VP - EUI 호환 파일 모드의 비영어권 번역 모드입니다. 현재는 한국어만 가능합니다.</Description>
-    <Authors>hyuckkim</Authors>
+    <Stability>alpha</Stability>
+    <Teaser>(5.0a2) Vox Populi 호환성 및 LUA(EUI 버전)</Teaser>
+    <Description>EUI를 사용할 때의 Vox Populi에 대한 LUA 및 모드 호환성 파일이 포함되어 있습니다.</Description>
+    <Authors>hyuckkim, HANDANI</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <Homepage>http://github.com/hyuckkim/vp_kr/</Homepage>
@@ -29,13 +29,13 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="7171ED0E4F5B87135CB3C3CA38600B73" import="0">EUI/EUI_text_ko_KR.xml</File>
-    <File md5="EEE7ACCC14D405317E128677D8619422" import="0">EUI/NeededText.xml</File>
-    <File md5="C7B0F3F3F6CF0D731618849691C17EFE" import="0">ImprovedTopPanel/Text.xml</File>
+    <File md5="9ca34ba55c0f2dffe0de424c4f9b848e" import="0">EUI/EUI_text_ko_kr.xml</File>
+    <File md5="8e1d1e5f541a82cbff211cb43486c2c2" import="0">EUI/NeededText.xml</File>
+    <File md5="f3c443ca87aa0d3cc3ff623134842baf" import="0">ImprovedTopPanel/Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>EUI/EUI_text_ko_KR.xml</UpdateDatabase>
+      <UpdateDatabase>EUI/EUI_text_ko_kr.xml</UpdateDatabase>
       <UpdateDatabase>EUI/NeededText.xml</UpdateDatabase>
       <UpdateDatabase>ImprovedTopPanel/Text.xml</UpdateDatabase>
     </OnModActivated>

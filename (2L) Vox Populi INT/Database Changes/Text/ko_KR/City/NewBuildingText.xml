@@ -234,6 +234,7 @@
 			<Text></Text>
 		</Row>
 
+		<!-- CSD Civil Servant Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_CHANCERY">
 			<Text>외교 청사</Text>
 			<Plurality>2</Plurality>
@@ -261,7 +262,7 @@
 		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_TEXT">
 			<Text>오늘날에는 당연하게 여겨지지만, 지역, 국가 및 결국 국제 통신사(또는 유선 서비스)의 설립은 세계의 경제적, 정치적, 문화적 상호 연결성에 큰 도움이 되었습니다. 소통의 속도, 질, 안정성을 세계적 규모로 표준화함으로써, 현대 통신사들은 대중적이고 지적인 지식을 전파하는 데 유용할 뿐만 아니라 정부 간의 담론의 가속화에 유용합니다. 결국, 대부분의 나라들은 외교와 외교에 초점을 맞춘 국가적인 유선 서비스를 만들 것입니다. 이러한 조직들 중 많은 것들이 한 국가의 외국 지국의 통제하에 있었습니다.</Text>
 		</Row>
-
+		
 		<!-- CSD National Wonders -->
 		<Row Tag="TXT_KEY_BUILDING_SCRIVENERS_OFFICE">
 			<Text>법무소</Text>

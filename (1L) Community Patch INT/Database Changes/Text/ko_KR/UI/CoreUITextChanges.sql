@@ -248,6 +248,10 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_WARNING_TEXT]{1_Number} 요격![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_EUPANEL_VISIBLE_AA_UNITS';
 
+UPDATE Language_en_US
+SET Text = 'Distance from Capital'
+WHERE Tag = 'TXT_KEY_EUPANEL_CAPITAL_DEFENSE_BONUS';
+
 ------------------------------------------------
 -- Diplomacy overview / player icon tooltip
 ------------------------------------------------
