@@ -343,16 +343,16 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_ASAMU">
-			<Text>Asamu</Text>
+			<Text>아사무</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ASAMU_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ASAMU_TEXT">
-			<Text>In contrast to most Phoenician colonies, Carthage grew larger and more quickly thanks to its combination of favorable climate, arable land, and lucrative trade routes. Within just one century of its founding, its population rose to 30,000. Though the specific date and circumstances are unknown, Carthage became independent in the middle of the 6th century BC. It had grown into a fully independent thalassocracy, embarking its own colonization efforts across the western Mediterranean. Carthage became an expansionist power, driven by its desire to access new sources of wealth and trade. By 300 BC, through its vast patchwork of colonies, vassals, and satellite states, held together by its naval dominance of the western and central Mediterranean Sea, Carthage controlled the largest territory in the region, including the coast of northwestern Africa, southern and eastern Iberia, and the islands of Sicily, Sardinia, Corsica, Malta, and the Balearic Islands.</Text>
+			<Text>대부분의 페니키아 식민지와는 달리 카르타고는 유리한 기후, 경작 가능한 땅, 수익성 있는 무역로 덕분에 더 크고 빠르게 성장했습니다. 건립된 지 불과 1세기 만에 인구가 3만 명으로 늘어났습니다. 구체적인 날짜와 상황은 알려져 있지 않지만, 카르타고는 기원전 6세기 중반에 독립을 이루었습니다. 이 섬은 완전히 독립적인 지중해 국가로 성장하여 서부 지중해 전역에 걸쳐 자체적인 식민지화 노력에 착수했습니다. 카르타고는 새로운 부와 무역의 원천을 확보하고자 하는 욕망에 따라 확장주의적 강대국이 되었습니다. 기원전 300년경, 카르타고는 서부와 중부 지중해의 해군 우위를 바탕으로 광대한 식민지, 종속국, 위성국을 조직하여 북서부 아프리카 해안, 남부와 동부 이베리아 반도, 시칠리아, 사르데냐, 코르시카, 몰타, 발레아레스 제도를 포함한 이 지역에서 가장 넓은 영토를 지배했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ASAMU_STRATEGY">
-			<Text>The Asamu allows for more aggressive settling, but requires very high [ICON_GOLD] Gold generation, as it cannot be produced but only be purchased for a lot of [ICON_GOLD] Gold. Because purchasing one doesn't decrease Population like producing a Settler does, a major bottleneck on the speed of settling early game is replaced by [ICON_GOLD] Gold generation. Therefore, consider gathering as much [ICON_GOLD] Gold as possible early game from your Unique Ability, destroying Barbarian Encampments, exploring Ancient Ruins, and working [ICON_GOLD] Gold tiles to then settle at a high pace. Because Asamu can retreat from melee attack once per turn, it can travel though barbarain terriory without escort, unless two Units can attack it. Additionally, since Asamu can embark without having the Fishing Technology, you can claim valuable islands before your rivals. You can couple that with producing Settlers at the same time. This way, you can secure many great City locations with many Luxury Resources, synergizing with your Unique Ability.</Text>
+			<Text>아사무는 더욱 공격적인 개척을 허용하지만, 생산할 수 없고 많은 [ICON_GOLD] 골드로만 구매할 수 있기 때문에 매우 많은 [ICON_GOLD] 골드 생성이 필요합니다. 개척자를 생산하는 것처럼 인구가 감소하지 않기 때문에 게임 초반에 개척 속도에 큰 병목 현상이 발생하던 것을 [ICON_GOLD] 골드 생성으로 대체하였습니다. 따라서 게임 초반에 고유 능력을 통해 가능한 한 많은 [ICON_GOLD] 골드를 모으고, 야만인 야영지를 파괴하고, 고대 유적을 탐험하고, [ICON_GOLD] 골드 타일을 작업한 다음 빠른 속도로 개척하는 것을 고려하세요. 아사무는 턴당 한 번 근접 공격에서 후퇴할 수 있으므로, 두 개의 유닛이 공격하지 않는 한 호위 없이 야만인 영토를 통과할 수 있습니다. 게다가 아사무는 어업 기술이 없어도 출항할 수 있으므로, 경쟁자보다 먼저 귀중한 섬을 차지할 수 있습니다. 동시에 개척자를 생산하는 것도 함께할 수도 있습니다. 이런 식으로 여러분은 많은 사치 자원을 보유한 훌륭한 도시 지역을 확보할 수 있으며, 고유 능력과 시너지 효과를 낼 수 있습니다.</Text>
 		</Row>
 
 		<!-- Celts -->
@@ -374,22 +374,22 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_OPPIDUM">
-			<Text>Oppidum</Text>
+			<Text>오피둠</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OPPIDUM_HELP">
-			<Text>Unique Celtic Great Tile Improvement. Can be built by Great Engineers, Merchants, Scientists, and Generals. Cannot be built next to another Oppidum.[NEWLINE]Improves Strategic Resources. Provides various yields and +100% [ICON_STRENGTH] Defense Bonus to Units stationed on it. Improves Adjacent Tiles.</Text>
+			<Text>켈트족 고유의 위인 타일 시설입니다. 위대한 기술자, 상인, 과학자, 장군이 건설할 수 있습니다. 다른 오피둠 옆에는 지을 수 없습니다.[NEWLINE]전략 자원을 향상시킵니다. 주둔하는 유닛에게 다양한 수확량과 [ICON_STRENGTH] 방어력 보너스 +100%를 제공합니다. 인접한 타일을 향상시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OPPIDUM_TEXT">
-			<Text>{TXT_KEY_IMPROVEMENT_OPPIDUM_HELP}[NEWLINE][NEWLINE]An Oppidum is a large defended settlement associated with the late La Tene culture. These fortified villages were often built in naturally protected areas and full of circular constructions. In times of conflict, the people who lived in open fields moved to these strategically located compounds to ensure their safety. Oppida could also have other purposes such as control of territory or safeguarding of crops. The most famous oppidum was Alesia, the site of the battle between Julius Caesar and Vercingetorix and the final defeat of the Gauls, ending of Gallic independence in France and Belgium.</Text>
+			<Text>{TXT_KEY_IMPROVEMENT_OPPIDUM_HELP}[NEWLINE][NEWLINE]오피둠은 후기 라 테네 문화권과 관련된 대규모의 방어 정착지입니다. 이러한 요새화된 마을은 종종 자연적으로 보호되는 지역에 지어졌으며 원형 건축물로 가득 차 있었습니다. 분쟁이 잦은 시기에는 개방된 들판에 살던 사람들이 안전을 확보하기 위해 전략적으로 위치한 이 구역으로 이주했습니다. 오피다는 영토를 통제하거나 작물을 보호하는 등 다른 목적을 가지고 있을 수도 있습니다. 가장 유명한 오피둠은 알레시아로, 율리우스 카이사르와 베르킨게토릭스의 전투가 벌어지고 갈리아족이 최종적으로 패배하여 프랑스와 벨기에의 갈리아 독립이 종식된 곳입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OPPIDUM">
-			<Text>Construct an [LINK=IMPROVEMENT_CELTS_OPPIDUM]Oppidum[\LINK]</Text>
+			<Text>[LINK=IMPROVEMENT_CELTS_OPPIDUM]오피둠[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OPPIDUM_HELP">
-			<Text>Cannot be built next to another Oppidum.[NEWLINE][NEWLINE]It will increase [COLOR_POSITIVE_TEXT]All Yields[ENDCOLOR]. Gives +100% [ICON_STRENGTH] Defense Bonus to units stationed on it. Provides bonus yields to all adjacent Tiles.</Text>
+			<Text>다른 오피둠 옆에는 지을 수 없습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]모든 수확량[ENDCOLOR]이 증가합니다. 주둔하는 유닛에게 [ICON_STRENGTH] 방어력 보너스 +100%를 제공합니다. 인접한 모든 타일에 보너스 산출량을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OPPIDUM_REC">
-			<Text>Unit will be consumed[NEWLINE]Unique Celtic Great Tile Improvement. Will connect Strategic Resources on this tile to the trade network. Gives a [ICON_STRENGTH] Defense Bonus to units stationed on it. Adjacent Tiles gain additional bonus yields.</Text>
+			<Text>위인이 소모됩니다.[NEWLINE]켈트족 고유의 위인 타일 시설입니다. 이 타일의 전략 자원을 교역망에 연결합니다. 주둔하는 유닛에 [ICON_STRENGTH] 방어 보너스를 제공합니다. 인접한 타일은 추가 보너스 산출량을 얻습니다.</Text>
 		</Row>		<!-- China -->
 		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN">
 			<Text>쓰허위안</Text>
@@ -411,10 +411,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_EXAMINATION_HALL">
-			<Text>Examination Hall</Text>
+			<Text>과거 고사장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EXAMINATION_HALL_TEXT">
-			<Text>Perhaps the greatest legacy of Chinese culture is the Imperial Examination system with which the Son of Heaven's empire was staffed with civil servants for over two millennia. The Imperial examinations represented an attempt to create an aristocracy of learning, a remarkable advance over the warrior and hereditary aristocracies that dominated the rest of the world. Amounting to tests of rote memorization, the examinations required direct quotations of Confucian philosophy and ethics from the Five Confucian Classics. A scholar who obtained the highest degree, the jinshi, would have his memory trained to a tremendous degree.[NEWLINE][NEWLINE]As Western universities began to move away from their own classical tradition to embrace economics, engineering and natural science, China's scholarly efforts languished in the ancient literary past. Under pressure to modernize, the examinations were abolished in 1890 by Dowager Empress Cixi, leaving behind a legacy as the first system of intellectual meritocracy the world had ever seen.[NEWLINE][NEWLINE]"We tried an experiment which is unique in the history of the world: We sought to rule this great country not by force, but by wisdom. And for centuries we succeeded."[NEWLINE][TAB]- Anonymous Confucian Philosopher; excerpt from "On a Chinese Screen"</Text>
+			<Text>아마도 중국 문화의 가장 위대한 유산은 천자의 제국이 2천 년 이상 공무원을 채용하는 데 사용했던 과거 제도일 것입니다. 과거제도는 학문에 있어서 귀족제를 만들려는 시도였으며, 당시 세계의 다른 지역을 지배하던 무사 귀족과 세습 귀족제보다 괄목할 만한 발전이었습니다. 이 시험은 암기력 시험과 마찬가지였으며, 오경에서 유교 철학과 윤리를 직접 인용하도록 요구되었습니다. 최고 학위인 진시(眞始)를 취득한 학자는 기억력이 엄청나게 향상되었을 것입니다.[NEWLINE][NEWLINE]서양 대학들이 고전적 전통에서 벗어나 경제학, 공학, 자연과학을 포용하기 시작하면서, 중국의 학문적 노력은 고대 문학적 과거에 머물렀습니다. 근대화의 압력으로 인해 과거 제도는 1890년 서태후에 의해 폐지되었고, 세계 최초로 지적 실력주의 제도라는 유산을 남겼습니다.[NEWLINE][NEWLINE]"우리는 세계 역사상 유례없는 실험을 시도했습니다. 이 위대한 나라를 무력이 아닌 지혜로 통치하고자 했던 것입니다. 그리고 수 세기 동안 우리는 성공했습니다."[NEWLINE][TAB]- 익명의 유교 철학자. 윌리엄 서머셋 모옴의 "On a Chinese Screen"에서 발췌.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EXAMINATION_HALL_STRATEGY">
 			<Text></Text>
@@ -424,13 +424,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_TREASURE_SHIP">
-			<Text>Treasure Ship</Text>
+			<Text>보선</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TREASURE_SHIP_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TREASURE_SHIP_TEXT">
-			<Text>The Xiafan Guanjun (lit. "The Foreign Expeditionary Armada") was the great treasure fleet of the Ming Dynasty. At the behest of Emperor Zhu Di, the legendary admiral Zheng He headed seven voyages between 1405 and 1433 AD. The Xiafan Guanjun ranged as far as the Arabian Peninsula in their task of projecting Chinese influence abroad, bringing many smaller nations under the suzerainty of China.[NEWLINE][NEWLINE]The Xiafan Guanjun had some of the largest wooden ships ever constructed, called Baochuan (lit. "Treasure Ship"), measuring up to 416 feet in length. It would be another century before European ships could match the size and power of China's fleet, making China the undisputed naval superpower of the 15th century. Despite their superiority, Zheng He's voyages were primarily diplomatic, bringing envoys and even kings before the emperor to present tribute and perform the 'kowtow', a ritual act of reverence and subservience.[NEWLINE][NEWLINE]"As an engine for carrying man and his commerce upon the high and stormy seas as well as on the vast inland waterways, it is doubtful if any class of vessel… is more suited or better adapted to its purpose than the Chinese or Indian junk, and it is certain that for flatness of sail and handiness, the Chinese rig is unsurpassed."[NEWLINE][TAB]- H. Warington Smyth</Text>
+			<Text>하번관군(下番官軍, 직역하면 "외국 원정 함대")은 명나라의 거대한 보물 선단이었습니다. 영락제의 명령에 따라, 전설적인 제독 정화는 1405년부터 1433년까지 7차례의 항해를 지휘했습니다. 하번관군은 중국의 영향력을 해외로 확장하고 많은 소규모 국가들을 중국의 지배 하에 두는 임무를 수행하며 아라비아 반도까지 진출했습니다.[NEWLINE][NEWLINE]하범관군은 역사상 가장 큰 목조선을 보유하고 있었는데, 이 배는 보선(寶船, 직역하면 "보물선")이라 불렸으며, 길이는 최대 416피트에 달했습니다. 유럽의 함선이 중국의 함대의 규모와 힘에 맞먹을 만큼 강해지기까지는 1세기가 더 걸렸고, 중국은 15세기의 명실상부한 해군 강국이 되었습니다. 정화의 원정은 우월성에도 불구하고 주로 외교적 성격이 강해 사절과 심지어 왕까지 황제 앞에 데려와 조공을 바치고 경의와 복종을 나타내는 의례적 행위인 '고두(叩頭)'를 행했습니다.[NEWLINE][NEWLINE]"사람과 물건을 운반하는 수단으로서 폭풍이 치는 바다와 광활한 내륙 수로에서 중국이나 인도의 정크선보다 그 목적에 더 적합하거나 더 잘 적응된 선박은 없을 것이다. 평평한 돛과 편리함 면에서는 중국 정크선이 타의 추종을 불허한다는 것은 확실하다."[NEWLINE][TAB]- 허버트 워링턴 스미스의 "Mast and Sail in Europe and Asia" 中 제12장.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TREASURE_SHIP_STRATEGY">
 			<Text></Text>
@@ -451,26 +451,26 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_ANDELSBEVAEGELSE">
-			<Text>Andelsbevægelse</Text>
+			<Text>안델스베베겔세</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ANDELSBEVAEGELSE_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ANDELSBEVAEGELSE_TEXT">
-			<Text>The Andelsbevægelse was a Danish Cooperative Movement, corporations where individual members each owned a share in the risks and profits of the collective. Co-ops, as they are commonly referred to, continue to be popular in the farming industry as a way of mitigating bad harvests on the part of a few members.[NEWLINE][NEWLINE]After the disastrous Second War of Schleswig where Denmark lost considerable territory, Denmark began to reclaim moors in central and western Jutland for farming. Shortly after, the rapidly industrializing United States began pouring exports of grain into Denmark's biggest customer, Great Britain, tanking the prices for Denmark's produce. With the livelihoods of many Danish farmers at risk, they formed a new strategy to switch from grain products to dairy and meat.[NEWLINE][NEWLINE]This shift in Danish agriculture was full of uncertainty, requiring that farmers form the Andelsbevægelse to share in the risks. By the time prices for grain had finally stabilized, Danish agriculture had completely changed. Dairies and slaughterhouses dotted the landscape; now they were IMPORTING grain from Russia to feed their livestock!</Text>
+			<Text>안델스베베겔세는 덴마크의 협동조합 운동으로, 각 회원이 집단의 위험과 이익을 공유한 법인체입니다. 일반적으로 협동조합이라고 불리는 이것은 일부 조합원의 흉작을 완화하는 방법으로 농업 산업에서 여전히 인기를 누리고 있습니다.[NEWLINE][NEWLINE]덴마크가 상당한 영토를 잃은 제2차 슐레스비히 전쟁 이후, 덴마크는 농업을 위해 윌란 반도 중부와 서부의 황무지를 개간하기 시작했습니다. 얼마 지나지 않아 급속히 산업화되던 미국은 덴마크의 가장 큰 고객인 영국에 곡물을 수출하기 시작했고, 이로 인해 덴마크의 농산물 가격이 폭락했습니다. 많은 덴마크 농부의 생계가 위험에 처하자, 그들은 곡물 제품에서 유제품과 육류로 전환하는 새로운 전략을 세웠습니다.[NEWLINE][NEWLINE]덴마크 농업의 이러한 변화는 불확실성으로 가득 차 있었고, 농부들은 위험을 공유하기 위해 안델스베베겔세를 결성해야 했습니다. 곡물 가격이 마침내 안정될 무렵, 덴마크 농업은 완전히 바뀌었습니다. 유제품 공장과 도축장이 곳곳에 흩어져 있었고, 이제는 가축을 먹이기 위해 러시아에서 곡물을 수입하고 있었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ANDELSBEVAEGELSE_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_LONGSHIP">
-			<Text>Longship</Text>
+			<Text>랑스킵</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_LONGSHIP_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_LONGSHIP_TEXT">
-			<Text>Longships were a type of boat invented and used by the Norsemen for trade, exploration, and warfare during the Viking Age. The longship's design evolved over many centuries, beginning in the Stone Age with the invention of the umiak and continuing up until the 6th century with clinker-built ships like Nydam and Kvalsund, appearing in its complete form between the 9th and 13th centuries. They were all made out of wood, with woven wool sails, and had numerous details and carvings on the hull.[NEWLINE][NEWLINE]Longships were notable for their quick speed and light construction. The ships were sturdy and reliable at sea, yet light enough to be carried onto shore or even tipped over as a makeshift shelter. The ability to move quickly in and out of shore was invaluable during the Vikings' infamous raids.[NEWLINE][NEWLINE]The character and appearance of these ships are still reflected in Scandinavian boat-building traditions. Skills and methods for making longships are still used worldwide, often with modern adaptations.</Text>
+			<Text>랑스킵은 바이킹 시대에 노르드인들이 무역, 탐험, 전쟁을 위해 발명하여 사용한 보트 유형입니다. 랑스킵의 디자인은 여러 세기에 걸쳐 발전해 왔으며, 석기 시대에 우미악(Umiak)이 발명되고, 6세기에 니담(Nydam)과 크발순드(Kvalsund)와 같은 클링커로 만든 배가 등장하면서 발전이 계속되었습니다. 완전한 형태는 9세기에서 13세기 사이에 나타났습니다. 그들은 모두 나무로 만들어졌고, 양모로 짠 돛이 달려 있었으며, 선체에는 수많은 디테일과 조각이 있었습니다.[NEWLINE][NEWLINE]랑스킵은 빠른 속도와 가벼운 구조로 유명했습니다. 이 배는 바다에서 튼튼하고 믿음직스러웠지만, 해안으로 옮겨 놓거나 심지어 뒤집어 임시 대피소로 쓸 만큼 가벼웠습니다. 바이킹의 악명 높은 습격 당시 해안 안팎으로 빠르게 이동할 수 있는 능력은 매우 귀중했습니다.[NEWLINE][NEWLINE]이러한 선박의 특성과 외관은 스칸디나비아 조선 전통에 여전히 반영되어 있습니다. 랑스킵을 만드는 기술과 방법은 종종 현대적 변형을 거쳐 전 세계적으로 여전히 사용되고 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_LONGSHIP_STRATEGY">
 			<Text></Text>
@@ -478,35 +478,35 @@
 
 		<!-- Egypt -->
 		<Row Tag="TXT_KEY_UNIT_MAMLUK">
-			<Text>Mamluk</Text>
+			<Text>맘루크</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MAMLUK_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MAMLUK_TEXT">
-			<Text>The Mamluks were a military knightly caste composed of slave-soldiers captured as young boys and sold into the Arabic world to serve as retainers. Because of their slave status ('Mamluk' directly translates to possession), these young men were dependent on their lord for social status and career advancement, making them reliable and dependable institutions in the Fatimid and Ayyubid dynasties of Cairo. The Mamluks were renowned warriors for their defense of Islam from waves of Crusader and Mongol invasions. In some cases, the Mamluks rose up and secured their own dynasties, initiating sultanates in Egypt, India, and Iraq.</Text>
+			<Text>맘루크는 어린 시절에 포로로 잡혀 아랍 세계에 팔려가 가신으로 일하게 된 노예 군인들로 구성된 군사 기사 계급이었습니다. 이 젊은이들은 노예 신분('맘루크(Mamluk)', 직역하면 소유)이었기 때문에 사회적 지위와 직업적 발전을 위해 영주에게 의존해야 했고, 이는 카이로의 파티마 왕조와 아이유브 왕조에서 신뢰할 수 있고 의지할 수 있는 기관이 되었습니다. 맘루크는 십자군과 몽골의 침략으로부터 이슬람을 수호한 유명한 전사들이었습니다. 어떤 경우에는 맘루크 왕조가 일어나 자신의 왕조를 확립하고 이집트, 인도, 이라크에 술탄국을 세웠습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MAMLUK_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_OBELISK">
-			<Text>Obelisk</Text>
+			<Text>오벨리스크</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OBELISK_HELP">
-			<Text>Pointy.</Text>
+			<Text>뾰족합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OBELISK_TEXT">
-			<Text>Very Pointy</Text>
+			<Text>매우 뾰족합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OBELISK">
-			<Text>Build an [LINK=IMPROVEMENT_OBELISK]Obelisk[\LINK]</Text>
+			<Text>[LINK=IMPROVEMENT_OBELISK]오벨리스크[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OBELISK_HELP">
-			<Text>Yields</Text>
+			<Text>산출량</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OBELISK_REC">
-			<Text>It will increase yields.</Text>
+			<Text>산출량이 늘어날 것입니다.</Text>
 		</Row>
 
 		<!-- England -->
@@ -524,26 +524,26 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL">
-			<Text>Steam Mill</Text>
+			<Text>증기 방앗간</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL_TEXT">
-			<Text>Stationary steam engines are fixed steam engines used for pumping or driving mills and factories, and for power generation. They are distinct from locomotive engines used on railways, traction engines for heavy steam haulage on roads, steam cars (and other motor vehicles), agricultural engines used for ploughing or threshing, marine engines, and the steam turbines used as the mechanism of power generation for most nuclear power plants. They were introduced during the 18th century and widely made for the whole of the 19th century and most of the first half of the 20th century, only declining as electricity supply and the internal combustion engine became more widespread.</Text>
+			<Text>고정식 증기 엔진은 공장이나 방앗간의 펌핑이나 구동, 그리고 발전에 사용되는 고정된 증기 엔진입니다. 이러한 엔진은 철도에 사용되는 기관차 엔진, 도로에서 무거운 증기를 운반하는 견인 엔진, 증기 자동차(및 기타 자동차), 쟁기질이나 탈곡에 사용되는 농업용 엔진, 선박용 엔진, 그리고 대부분의 원자력 발전소에서 전력 생산 메커니즘으로 사용되는 증기 터빈과는 다릅니다. 이러한 기계는 18세기에 처음 도입되어 19세기 내내, 그리고 20세기 전반에 걸쳐 널리 만들어졌지만, 전기 공급과 내연 기관이 널리 보급되면서 점차 쇠퇴했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_REDCOAT">
-			<Text>Redcoat</Text>
+			<Text>레드코트</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_REDCOAT_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_REDCOAT_TEXT">
-			<Text>Despite not being a rare occurence throughout European military history (with Danish, and even French units wearing bright red uniforms at some points), the red uniforms of the infantry of the British Army and Royal Navy have become nationaly and internationaly recognized as unmistakable symbols of the British military power. Originally meant to lower fabrication costs, the diffusion of red uniforms followed a slow process that can be traced back all the way to the War of the Roses in the 15th century. During the reforms that led to the creation of the New Model Army, the red, now considered a staple of English identity, became more prevalent, and stayed that way in the following centuries: its notoriaty came from being worn by British infantry during the whole period of British imperialist policies, from America to Oceania, Africa to Europe and Asia. The only major changes to the color of the uniforms were decided after the lethality of fire became much more prevalent and the red uniform, from a mean of distinction, became a liability. Nonetheless, it kept an important role in British military ceremonial, with royal guards still wearing it during their service.</Text>
+			<Text>유럽 ​​군사사 전체에서 드문 일은 아니지만(덴마크와 프랑스 부대가 어떤 시점에서는 밝은 빨간색 군복을 입었음), 영국 육군과 왕립 해군 보병의 빨간색 군복은 영국 군사력의 틀림없는 상징으로 국가적, 국제적으로 인정받게 되었습니다. 원래는 제작 비용을 낮추기 위한 목적으로 만들어진 붉은 군복의 확산은 15세기 장미 전쟁까지 거슬러 올라가는 느린 과정을 거쳤습니다. 신형군 창설로 이어진 개혁 과정에서 영국 정체성의 상징으로 여겨졌던 빨간색이 더욱 널리 퍼지게 되었고, 이후 여러 세기 동안 그 색이 유지되었습니다. 이 옷이 유명해진 이유는 영국 제국주의 정책이 시행되던 기간 내내, 아메리카에서 오세아니아, 아프리카에서 유럽과 아시아에 이르기까지 영국 보병들이 입었기 때문이다. 군복 색상에 대한 유일한 주요 변경 사항은 화재의 치명성이 훨씬 더 널리 퍼지고 구별의 수단이었던 붉은 군복이 부담이 된 후에 결정되었습니다. 그럼에도 불구하고, 그것은 영국 군사 의례에서 중요한 역할을 유지했으며, 왕실 경비대는 복무 중에 여전히 그것을 착용했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_REDCOAT_STRATEGY">
 			<Text></Text>
@@ -555,100 +555,100 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_CHEWA">
-			<Text>Chewa</Text>
+			<Text>체와</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHEWA_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHEWA_TEXT">
-			<Text>Chewa were the noble warrior caste of Ethiopian medieval society, appointed by the emperor and furnished with land grants for their service. The Chewa nobility are famous for the use of the Shotel, a dramatically curved double-edged swords that are unique to the Ethiopian Empire. Almost semicircular, the shotel could be used to hook shields, or to reach around them to strike an opponent. The sword could also be used to hook and unhorse a mounted soldier, bringing them to the ground.</Text>
+			<Text>체와는 에티오피아 중세 사회의 귀족 전사 계급으로, 황제로부터 임명을 받았으며 복무에 대한 대가로 토지를 하사받았습니다. 체와족 귀족들은 에티오피아 제국에서만 볼 수 있는, 극적인 곡선의 양날검인 쇼텔을 사용한 것으로 유명합니다. 거의 반원형인 쇼텔은 방패를 걸거나 방패를 돌아 상대방을 공격하는 데 사용될 수 있습니다. 이 검은 말을 탄 군인을 말에서 내려 땅에 쓰러뜨리는 데에도 쓰일 수 있었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHEWA_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_OROMO_CAVALRY">
-			<Text>Oromo Cavalry</Text>
+			<Text>오로모족 기병대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OROMO_CAVALRY_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OROMO_CAVALRY_TEXT">
-			<Text>The word "Oromo" refers to the dominant ethnic group in Ethiopia, making up about a third of the total population. The Oromo at times had their own kingdom, language and religion (although in present-day Ethiopia they are evenly split between Muslims and Christians). During the First Italo-Ethiopian War, when Italy attempted to seize Ethiopia as a colonial possession, the Ethiopian emperor Menelik used Oromo cavalrymen to devastating effect, especially in the decisive Battle of Adwa.[NEWLINE][NEWLINE]The Oromo cavalry were not true cavalry, but mounted infantrymen, meaning that they did not fire weapons from horseback, but would gallop towards the Italians, dismount, and then fire. With their lion's-mane headdresses and fierce reputation, they became one of the most feared military units of the era. During the Italian invasion, a rumor spread around the Italian camps that Oromo cavalry (whom the Italians called "Galla" - a word that was seen as offensive by the Oromo) would castrate the bodies of enemies that held weapons - a rumor that caused many Italians to toss aside their guns the moment that the Oromo began their charge. Italian soldiers reported their compatriots turning their guns on themselves rather than facing the Oromo. One report depicts a lone Italian survivor of an Oromo attack, dazed out of his mind, unable to say anything but "Galla cavalry. Galla cavalry. Horror. Horror."</Text>
+			<Text>"오로모"라는 단어는 에티오피아의 주요 민족 집단을 가리키는 말로, 전체 인구의 약 3분의 1을 차지합니다. 오로모족은 때때로 그들만의 왕국, 언어, 종교를 가지고 있었습니다. (비록 오늘날의 에티오피아에서는 무슬림과 기독교도가 균등하게 나뉘어 있지만) 제1차 이탈리아-에티오피아 전쟁 동안, 이탈리아가 에티오피아를 식민지 소유로 삼으려고 시도했을 때, 에티오피아 황제 메넬리크 2세는 특히 결정적인 아드와 전투에서 오로모 기병을 사용하여 파괴적인 효과를 냈습니다.[NEWLINE][NEWLINE]오로모족 기병대는 진정한 기병대가 아니라 말을 탄 보병이었습니다. 즉, 그들은 말을 탄 채로 총을 쏘지 않고 이탈리아군을 향해 달려가 말에서 내린 뒤 총을 쏘았습니다. 사자 갈기 모양의 머리 장식과 사나운 명성으로 인해 그들은 그 시대의 가장 두려운 군대 중 하나가 되었습니다. 이탈리아의 침략 당시, 오로모족 기병대(이탈리아인들은 이들을 "갈라"라고 불렀는데, 오로모인들은 이 단어를 모욕적인 단어로 여김)가 무기를 든 적의 시체를 거세한다는 소문이 이탈리아 진영에 퍼졌다. 이 소문 때문에 많은 이탈리아인들은 오로모가 돌격을 시작하자마자 총을 던져버렸다. 이탈리아 군인들은 동포들이 오로모족과 맞서기보다는 스스로에게 총을 겨누었다고 보고했습니다. 한 보고서에 따르면, 오로모족의 공격에서 살아남은 이탈리아인은 정신을 잃고 "갈라 기병대. 갈라 기병대. 공포다. 공포다."라는 말 외에는 아무 말도 할 수 없었다고 합니다."</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OROMO_CAVALRY_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_MONOLITHIC_CHURCH">
-			<Text>Monolithic Church</Text>
+			<Text>암굴 교회</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MONOLITHIC_CHURCH_TEXT">
-			<Text>{TXT_KEY_IMPROVEMENT_MONOLITHIC_CHURCH_HELP}[NEWLINE][NEWLINE]The term "Monolithic Church" (or "rock-hewn church") can be attributed to any church cut from a single stone formation, but is most often used to refer to the complex of 11 churches in Lalibela, Ethiopia. These churches were constructed in the 12th century by King Gebre Mesqel Lalibela, a devout Christian. This 'New Jerusalem' is situated in a mountainous region in the heart of Ethiopia, and is an important center of Christian pilgrimage to this day.[NEWLINE][NEWLINE]Monolithic Churches are found in places besides Lalibela, including many in Tigray. These churches were almost unknown to the outside world until Abba Tewelde Medhin Josief, a Catholic priest, announced the existence of over 120 rock-hewn churches, 90 of which were still in use. Over the next few years, the total of known churches was raised to 153.[NEWLINE][NEWLINE]Monolithic Churches can be built on [ICON_RES_STONE] Stone, and on Hills with no resources and not next to another Monolithic Church.</Text>
+			<Text>{TXT_KEY_IMPROVEMENT_MONOLITHIC_CHURCH_HELP}[NEWLINE][NEWLINE]"모놀리식 교회"(또는 "암굴 교회")라는 용어는 단일 돌로 지어진 교회를 지칭하지만, 에티오피아 랄리벨라에 있는 11개 교회 단지를 지칭하는 데 가장 많이 사용됩니다. 이 교회들은 12세기에 독실한 기독교인이었던 게브레 메스켈 랄리벨라 왕에 의해 건설되었습니다. 이 '새로운 예루살렘'은 에티오피아 중심부의 산악 지역에 위치하고 있으며, 오늘날까지도 기독교 순례의 중요한 중심지입니다.[NEWLINE][NEWLINE]랄리벨라 외에도 티그라이를 비롯한 여러 곳에서 모놀리식 교회가 발견됩니다. 이러한 교회는 가톨릭 사제인 아바 테웰데 메딘 요셉이 120개가 넘는 암굴 교회가 존재하고, 그 중 90개가 아직도 사용되고 있다고 발표하기 전까지 외부 세계에 거의 알려지지 않았습니다. 그 후 몇 년 동안 알려진 교회의 수는 153개로 늘어났습니다.[NEWLINE][NEWLINE]암굴 교회는 [ICON_RES_STONE] 석재, 언덕 위에 자원 없이 지을 수 있으며, 다른 암굴 교회 옆에 지을 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MONOLITHIC_CHURCH_HELP">
-			<Text>Can be built on [ICON_RES_STONE] Stone, and on Hills with no resources and not next to another Monolithic Church.[NEWLINE][NEWLINE]Provides [ICON_PRODUCTION] Production and [ICON_PEACE] Faith. Instead of Technologies, Monolithic Churches are improved by completing [COLOR_POSITIVE_TEXT]Social Policy Branches[ENDCOLOR] and adopting an [COLOR_POSITIVE_TEXT]Ideology[ENDCOLOR] or [COLOR_POSITIVE_TEXT]Religious Beliefs[ENDCOLOR]:[NEWLINE]
-				+1 [ICON_CULTURE] for every Ancient Policy Branch,[NEWLINE]
-				+1 [ICON_PEACE] for every Medieval Policy Branch,[NEWLINE]
-				+1 [ICON_RESEARCH] for every Industrial Policy Branch,[NEWLINE]
-				+1 [ICON_PEACE] for adopting a Pantheon,[NEWLINE]
-				+1 [ICON_PRODUCTION] for founding a Religion,[NEWLINE]
-				+1 [ICON_CULTURE] and [ICON_PRODUCTION] for enhancing a Religion,[NEWLINE]
-				+1 [ICON_GOLD] and [ICON_PRODUCTION] for reforming a Religion,[NEWLINE]
-				+2 [ICON_GOLD] for adopting an Ideology.</Text>
+			<Text>자원이 없어도 [ICON_RES_STONE] 석재, 언덕 위에 지을 수 있고, 다른 암굴 교회 옆에 지을 수 없습니다.[NEWLINE][NEWLINE][ICON_PRODUCTION] 생산력과 [ICON_PEACE] 신앙을 제공합니다. 기술 대신, 암굴 교회는 [COLOR_POSITIVE_TEXT]사회 정책 계열[ENDCOLOR]을 완성하고 [COLOR_POSITIVE_TEXT]이념[ENDCOLOR]이나 [COLOR_POSITIVE_TEXT]교리[ENDCOLOR]를 채택함으로써 개선됩니다:[NEWLINE]
+				고대 시대 사회 정책 계열 완성: [ICON_CULTURE] 문화 +1[NEWLINE]
+				중세 시대 사회 정책 계열 완성: [ICON_PEACE] 신앙 +1[NEWLINE]
+				산업 시대 사회 정책 계열 완성: [ICON_RESEARCH] 과학 +1[NEWLINE]
+				종교관 채택: [ICON_PEACE] 신앙 +1[NEWLINE]
+				종교 창시: [ICON_PRODUCTION] 생산력 +1[NEWLINE]
+				종교 강화: [ICON_CULTURE] 문화 +1, [ICON_PRODUCTION] 생산력 +1[NEWLINE]
+				종교 개혁: [ICON_GOLD] 골드 +1, [ICON_PRODUCTION] 생산력 +1[NEWLINE]
+				이념 채택: [ICON_GOLD] 골드 +2</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONOLITHIC_CHURCH">
-			<Text>Construct a [LINK=IMPROVEMENT_ETHIOPIA_MONOLITHIC_CHURCH]Monolithic Church[\LINK]</Text>
+			<Text>[LINK=IMPROVEMENT_ETHIOPIA_MONOLITHIC_CHURCH]암굴 교회[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONOLITHIC_CHURCH_HELP">
-			<Text>Constructs a Monolithic Church, which increases [ICON_PRODUCTION] Production and [ICON_PEACE] Faith. Monolithic Churches increase yields when you adopt more Policies and Beliefs.</Text>
+			<Text>[ICON_PRODUCTION] 생산력과 [ICON_PEACE] 신앙을 증가시키는 암굴 교회를 건설합니다. 암굴 교회는 더 많은 [COLOR_POSITIVE_TEXT]이념[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]교리[ENDCOLOR]를 채택할수록 산출량이 늘어납니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONOLITHIC_CHURCH_REC">
-			<Text>It will increase [ICON_PRODUCTION] Production and [ICON_PEACE] Faith.</Text>
+			<Text>[ICON_PRODUCTION] 생산력과 [ICON_PEACE] 신앙이 증가할 것입니다.</Text>
 		</Row>
 
 		<!-- France -->
 		<Row Tag="TXT_KEY_BUILDING_SALON">
-			<Text>Salon</Text>
+			<Text>살롱</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALON_HELP">
-			<Text>Possible Theming Bonuses:
-				[NEWLINE][ICON_BULLET] +2 [ICON_CULTURE] Culture and Tourism for two French Great Works of Art.
-				[NEWLINE][ICON_BULLET] +4 [ICON_CULTURE] Culture and Tourism for two French Great Works of Art from the same Era.
-				[NEWLINE][ICON_BULLET] +4 [ICON_CULTURE] Culture and Tourism for two Great Works of Art from the same foreign Civilization.
-				[NEWLINE][ICON_BULLET] +8 [ICON_CULTURE] Culture and Tourism for two Great Works of Art from the same foreign Civilization and the same Era.
+			<Text>가능한 테마 보너스:
+				[NEWLINE][ICON_BULLET] 프랑스 걸작 미술품 2개: [ICON_CULTURE] 문화 +2, 관광 +2
+				[NEWLINE][ICON_BULLET] 동시대 프랑스 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, 관광 +4
+				[NEWLINE][ICON_BULLET] 같은 외국 문명 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, 관광 +4
+				[NEWLINE][ICON_BULLET] 동시대 같은 외국 문명 걸작 미술품 2개: [ICON_CULTURE] 문화 +8, 관광 +8
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALON_TEXT">
-			<Text>A salon is a gathering of people under the roof of an inspiring host, held partly to amuse one another and partly to refine the taste and increase the knowledge of the participants through conversation. These gatherings often consciously followed Horace's definition of the aims of poetry, "either to please or to educate" ("aut delectare aut prodesse est"). Salons, commonly associated with French literary and philosophical movements of the 17th and 18th centuries, were carried on until quite recently in urban settings.</Text>
+			<Text>살롱은 영감을 주는 주최자의 집무실에서 사람들이 모이는 자리로, 서로를 즐겁게 하는 한편 대화를 통해 참가자들의 취향을 다듬고 지식을 늘리기 위해 열립니다. 이러한 모임은 종종 호라티우스가 정의한 시의 목적, 즉 "즐거움을 주거나 유익함을 주라"("aut delectare aut prodesse est")를 의식적으로 따랐습니다. 17세기와 18세기의 프랑스 문학 및 철학 운동과 일반적으로 연관되는 살롱은 최근까지 도시 지역에서 진행되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALON_STRATEGY">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_SALON_1">
-			<Text>Galerie des Batailles</Text>
+			<Text>승전화 갤러리(Galerie des Batailles)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_SALON_2">
-			<Text>Illustrations Architecturales</Text>
+			<Text>건축 삽화(Illustrations Architecturales)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_SALON_3">
-			<Text>Ensemble de Diplômes</Text>
+			<Text>복수 전공(Ensemble de Diplômes)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_SALON_4">
-			<Text>Collection Exotique</Text>
+			<Text>이국적인 컬렉션(Collection Exotique)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SALON_THEMING_BONUS_HELP">
-			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Art from the same foreign Civilization and from the same Era.</Text>
+			<Text>보너스를 극대화하려면 모든 걸작 슬롯이 같은 외국 문명과 같은 시대의 예술품으로 채워져 있는지 확인하세요.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_SPAD">
-			<Text>SPAD S.VII</Text>
+			<Text>스패드 S.VII</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SPAD_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SPAD_TEXT">
-			<Text>World War I saw rapid technological and tactical changes in how wars were fought, including the adoption of aircraft for scouting and bombing. These machines opened an entirely new theatre of war. Despite their promise, the first aircrafts were slow, clumsy, and unreliable due to their underpowered combustion engines. This all changed in 1915 when Marc Birgikt invented a new V8 engine boasting 150 horsepower and weighing only 330 pounds. The French high command saw the new motor's value as an aircraft engine and commissioned a new fighter aircraft: The Société Pour L'Aviation et ses Dérivés, or "SPAD" S. VII.[NEWLINE][NEWLINE]By late 1916, SPAD VIIs were beginning to see action, and were widely adopted by allied pilots for the rest of the war. Though lacking the maneuverability of older Nieuport fighters, the SPAD VII was unmatched in sheer speed, travelling in excess of 127mph and capable of diving at more than 249mph. Pilots created entirely new tactics to leverage this speed, which gave the SPAD the ability to safely avoid pitched battles. The added stability in diving was especially appreciated over the old Nieuports, which had a bad habit of shedding their wings during maneuvers.[NEWLINE][NEWLINE]Air superiority became a constant arms race against newer and better German designs and engines. By the end of the war, the SPAD VII's single .303 Vickers machine gun was outmatched by German fighters, which carried at least two machine guns. The heavier and faster SPAD XIII eventually replaced the SPAD VII by late 1917, and saw France through the remainder of the War. Despite its shortcomings, the SPAD series is remembered as one of the fastest and most powerful of WWI fighters.</Text>
+			<Text>제1차 세계대전에서는 정찰과 폭격을 위해 항공기가 도입되는 등 전쟁 수행 방식에 기술적, 전술적 변화가 급격히 일어났습니다. 이러한 기계들은 전혀 새로운 전쟁터를 ​​열었습니다. 최초의 항공기는 기대에도 불구하고, 연소 엔진의 출력이 부족해 느리고, 서투르고, 신뢰할 수 없었습니다. 1915년 마르크 비르키트(Marc Birkigt)가 150마력을 자랑하고 무게가 330파운드에 불과한 새로운 V8 엔진을 발명하면서 모든 것이 바뀌었습니다. 프랑스 고위 사령부는 새로운 엔진이 항공기 엔진으로서 가치가 있다고 판단하고 새로운 전투기를 위임했습니다. 항공 및 그 파생 협회(Société Pour L'Aviation et ses Dérivés), 혹은 줄여서 "스패드(SPAD)"사의 VII입니다.[NEWLINE][NEWLINE]1916년 후반, 스패드 VII이 실전에 투입되기 시작했으며, 전쟁이 끝날 때까지 연합군 조종사들에게 널리 채택되었습니다. 스패드 VII은 구형 뉴포트(Nieuport) 전투기만큼 기동성이 뛰어나지는 않았지만, 순전히 속도 면에서는 타의 추종을 불허했으며, 시속 127마일 이상의 속도로 비행하고 시속 249마일 이상의 속도로 급강하할 수 있었습니다. 조종사들은 이 속도를 활용하기 위해 완전히 새로운 전술을 만들어냈고, 이를 통해 스패드는 치열한 전투를 안전하게 피할 수 있었습니다. 특히, 기동 중에 날개가 떨어지는 나쁜 버릇이 있던 오래된 뉴포트에 비해 다이빙 시 안정성이 향상된 점이 높이 평가되었습니다.[NEWLINE][NEWLINE]공중 우위를 차지하기 위해 새로운 독일의 설계와 엔진을 상대로 끊임없는 군비 경쟁이 벌어졌습니다. 전쟁이 끝날 무렵, 스패드 VII의 단일 .303 구경 브리티쉬 빅커스 기관총은 최소 두 개의 기관총을 장착한 독일 전투기에 밀렸습니다. 더 무겁고 빠른 스패드 XIII는 결국 1917년 후반에 스패드 VII를 대체하여 프랑스가 전쟁의 나머지 기간 동안 활약하는 데 기여했습니다. 이러한 단점에도 불구하고 스패드 시리즈는 1차 세계 대전 전투기 중 가장 빠르고 강력한 전투기 중 하나로 기억됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SPAD_STRATEGY">
 			<Text></Text>
@@ -657,13 +657,13 @@
 		<!-- Germany -->
 
 		<Row Tag="TXT_KEY_BUILDING_BREWHOUSE">
-			<Text>Brewhouse</Text>
+			<Text>양조장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BREWHOUSE_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BREWHOUSE_TEXT">
-			<Text>Through and through, Germany is a beer culture, whose historic and cultural ties to the drink date back to antiquity. With the professionalization and commodification of brewing in the middle ages, beer moved from a private cottage industry into the inns and public houses, which took the form of Brewhouses (Bräuhauser) and Beer Halls (Bierhaller) in Germany. The greatest and most renowned Brewhouses are found in the Free State of Bavaria, where beer halls, beer gardens, and the annual Oktoberfest have become synonymous with Bavarian culture. Especially notable breweries are found throughout Munich, which are all historically subject to the Bavarian Beer Purity Law -- the Reinheitsegebot -- which dictated that the only ingredients that could be used in the production of beer were water, barley and hops. Adopted by the Bavarian state in 1516, the Reinheitsegebot is one of the oldest pieces of food safety legislation still in effect today. Even before the rise of German nationalism, the Reinheitsegebot had inspired similar regulation in nearby kingdoms and its universal adoption was a condition of Bavaria's unification with Germany in 1871.[NEWLINE][NEWLINE]As a place where light and food were freely available, the Brewhouses were a cornerstone of public life in southern Germany, acting as the birthplace for numerous revolutionary ideas and movements that gripped Germany in the 18th and 19th centuries. In the wake of the French Revolution, German liberals organized in the Beer Halls of Munich to demand reforms of the monarchy in a series of uprisings from 1848 to 1849. During the 1910s, Vladimir Lenin was a frequent patron of the Munich Hofbräuhaus, where he did much of his political agitations and initial founding of the Bolshevik party, which would go on to form the Soviet Union. Most famous, however, was Adolf Hitler, who announced the formation of his National Socialist (Nazi) Party at the Hofbräuhaus am Platzl in 1920, and was arrested for treason in 1923 after a failed coup d'état at the Bürgerbräukeller. This episode became known as the Beer Hall Putsch, and the resulting trial gave Hitler a national platform to spread his political ideology, leading to his widespread fame and the rise of German fascism.</Text>
+			<Text>독일은 맥주 문화가 뿌리내리고 있으며, 맥주와 관련된 역사적, 문화적 유대감은 고대로 거슬러 올라갑니다. 중세 시대에 양조업이 전문화되고 상품화되면서 맥주는 사립 산업에서 여관과 술집으로 옮겨갔고, 독일에서는 이를 양조장(Bräuhauser)과 맥주홀(Bierhaller)이라고 불렀습니다. 가장 크고 유명한 맥주 양조장은 바이에른 자유주에 있으며, 이곳의 맥주홀, 맥주가든, 그리고 매년 열리는 옥토버페스트는 바이에른 문화의 대명사가 되었습니다. 특히 주목할 만한 양조장은 뮌헨 곳곳에 있는데, 이들은 모두 역사적으로 바이에른 맥주 순수령(Reinheitsegebot)의 적용을 받았습니다. 이 법에 따라 맥주 생산에 사용할 수 있는 재료는 물, 보리, 홉뿐이었습니다. 1516년 바이에른 주에서 채택한 맥주 순수령은 오늘날에도 유효한 가장 오래된 식품 안전 법률 중 하나입니다. 독일 민족주의가 부상하기 전부터, 맥주 순수령은 인근 왕국에서도 비슷한 규제를 촉발했으며, 맥주 순수령의 보편적 채택은 1871년 바이에른이 독일과 통일되는 조건이었습니다.[NEWLINE][NEWLINE]빛과 음식을 자유롭게 이용할 수 있는 장소였던 양조장은 남부 독일의 공공 생활의 초석이 되었으며, 18세기와 19세기에 독일을 사로잡은 수많은 혁명적 사상과 운동의 발상지 역할을 했습니다. 프랑스 혁명 이후, 독일 자유주의자들은 1848년부터 1849년까지 일련의 봉기를 일으켜 군주제 개혁을 요구하며 뮌헨의 맥주홀에 모였습니다. 1910년대에 블라디미르 레닌은 뮌헨의 호프브로이하우스(Hofbräuhaus)를 자주 찾았으며, 그곳에서 많은 정치적 선동을 했고, 나중에 소련을 형성하는 볼셰비키당을 처음 창당했습니다. 그러나 가장 유명한 인물은 아돌프 히틀러였습니다. 그는 1920년에 호프브로이하우스 암 플라츨(Hofbräuhaus am Platzl)에서 국가사회주의 독일 노동자당(나치)당의 창당을 발표했고, 1923년에 뮌헨의 맥주홀인 뷔르거브로이켈러(Bürgerbräukeller)에서 쿠데타가 실패한 후 반역죄로 체포되었습니다. 이 사건은 맥주홀 폭동으로 알려졌고, 그로 인해 열린 재판은 히틀러에게 자신의 정치적 이념을 퍼뜨릴 수 있는 전국적 플랫폼을 제공했고, 그 결과 히틀러는 널리 유명해졌고 독일 파시즘이 부상했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BREWHOUSE_STRATEGY">
 			<Text></Text>
