@@ -6,7 +6,7 @@ SET Text = '지상 군사 유닛이 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SENT
 WHERE Tag = 'TXT_KEY_TRAIT_RIVER_EXPANSION';
 
 UPDATE Language_ko_KR
-SET Text = '미니트맨은 탄막 I 승급 덕분에 사거리 승급을 해제하는 데 필요한 경험치가 50% 적어 매우 강력합니다. 험난한 지형 무시와 결합하면 다수의 미니트맨을 신속하게 배치하고 원거리 반격으로부터 안전하면서 도시나 유닛을 여러 번 공격할 수 있습니다. 황금기 점수를 얻으려면 유닛들을 반드시 이들로 끝내세요. 미니트맨은 험난한 지형에서 후퇴하여 같은 턴에 공격할 수 있으므로 방어에도 뛰어납니다.[NEWLINE][NEWLINE]탄막 승급 계통은 사거리 승급에 쉽게 접근할 수 있어 강력히 추천됩니다. 근접 및 공성 유닛을 희생하여 미니트맨을 군대의 핵심으로 만드세요.'
+SET Text = '미니트맨은 탄막 I 승급 덕분에 사거리 승급을 해제하는 데 필요한 경험치가 50% 적어 매우 강력합니다. 험난한 지형 무시와 결합하면 다수의 미니트맨을 신속하게 배치하고 원거리 반격으로부터 안전하면서 도시나 유닛을 여러 번 공격할 수 있습니다. 황금기 점수를 얻으려면 유닛들을 반드시 이들로 끝내세요. 미니트맨은 험난한 지형에서 후퇴하여 같은 턴에 공격할 수 있으므로 방어에도 뛰어납니다.[NEWLINE][NEWLINE]탄막 승급 트리는 사거리 승급에 쉽게 접근할 수 있어 강력히 추천됩니다. 근접 및 공성 유닛을 희생하여 미니트맨을 군대의 핵심으로 만드세요.'
 WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY';
 
 --------------------
@@ -115,7 +115,7 @@ SET Text = '무조건 [ICON_RELIGION]종교를 창시할 수 있습니다. 종�
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_BELIEF';
 
 UPDATE Language_ko_KR
-SET Text = '카타프락토이는 이미 매우 강력한 기사보다 훨씬 강력하게 향상되었습니다. 공격과 방어 모두 매우 강력합니다. 창기병이 전장에 등장하기 전까지는 1대1 전투에서 대부분 승리할 것이므로, 공격을 계획하든 저지와 방어만 하든 관계없이 가능한 한 많은 말 자원을 소유하고 가능한 한 많은 카타프락토이를 생산해야 합니다. 규모가 작고 유지비가 저렴한 카타프락토이 군대도 근접 및 원거리 유닛으로 구성된 대규모 군대만큼 강력할 수 있습니다. 개방된 지형에서의 전투력 +30% 보너스는 카타프락토이만이 얻을 수 있는 험난한 지형에서의 방어 보너스보다 강력하므로, 특히 공격 후 기동성이 좋아지므로 개방된 지형에서 이 보너스를 더 많이 활용하세요. High Combat Strength는 가능한 한 많은 전투력 % 보너스를 추가하는 것을 장려하므로, 이미 강력한 충격 승급 계통이 장려됩니다. 적군 유닛을 공격하기 전에 측면 공격을 하여 측면 전투력 보너스를 최대한 활용하세요. 기사보다 카타프락토이의 기본 이동력이 낮기 때문에 다른 기동성 승급을 선택하는 것이 좋습니다. 방어 측면에서, 강화 능력은 Aplekton 고유 시설과 잘 조화를 이루어, 카타프락토이가 뒤에 있는 원거리 유닛을 보호하는 데 매우 효과적입니다.'
+SET Text = '카타프락토이는 이미 매우 강력한 기사보다 훨씬 강력하게 향상되었습니다. 공격과 방어 모두 매우 강력합니다. 창기병이 전장에 등장하기 전까지는 1대1 전투에서 대부분 승리할 것이므로, 공격을 계획하든 저지와 방어만 하든 관계없이 가능한 한 많은 말 자원을 소유하고 가능한 한 많은 카타프락토이를 생산해야 합니다. 규모가 작고 유지비가 저렴한 카타프락토이 군대도 근접 및 원거리 유닛으로 구성된 대규모 군대만큼 강력할 수 있습니다. 개방된 지형에서의 전투력 +30% 보너스는 카타프락토이만이 얻을 수 있는 험난한 지형에서의 방어 보너스보다 강력하므로, 특히 공격 후 기동성이 좋아지므로 개방된 지형에서 이 보너스를 더 많이 활용하세요. High Combat Strength는 가능한 한 많은 전투력 % 보너스를 추가하는 것을 장려하므로, 이미 강력한 충격 승급 트리가 장려됩니다. 적군 유닛을 공격하기 전에 측면 공격을 하여 측면 전투력 보너스를 최대한 활용하세요. 기사보다 카타프락토이의 기본 이동력이 낮기 때문에 다른 기동성 승급을 선택하는 것이 좋습니다. 방어 측면에서, 강화 능력은 애플렉톤 고유 시설과 잘 조화를 이루어, 카타프락토이가 뒤에 있는 원거리 유닛을 보호하는 데 매우 효과적입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -130,7 +130,7 @@ SET Text = '당신이 국제 무역망에 연결한 사치 자원의 수가 증�
 WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE';
 
 UPDATE Language_ko_KR
-SET Text = '오단노선은 고전 또는 중세 시대의 함선이 얻을 수 있는 가장 강력한 승급을 가지고 있다고 할 수 있는데, 바로 Pincer입니다. 강화된 측면 공격 보너스를 활용하려면 적 함선을 최대한 포위하세요. 통제구역(ZOC)을 무시하면 쉬울 겁니다. 더 높은 전투력과 공격 시 전투력 +25% 보너스를 합치면 적 함선의 도전은 성립되지 않을 것입니다. 마찬가지로, 특히 성을 짓기 전에 도시를 공격하는 경우 공격 시 전투력 +50% 보너스 덕분에 동기 부여가 됩니다. 전격전 승급을 달성하려면 선박 침투조 승급 계통을 목표로 하는 것이 좋습니다. 공격 후 이동할 수 있고, 따라서 한 턴에 많은 함선으로 도시를 공격할 수 있습니다. 혹은 Vanguard로 이어지는 Hull 승급을 선택하는 것도 좋은 선택입니다.'
+SET Text = '오단노선은 고전 또는 중세 시대의 함선이 얻을 수 있는 가장 강력한 승급을 가지고 있다고 할 수 있는데, 바로 펜치입니다. 강화된 측면 공격 보너스를 활용하려면 적 함선을 최대한 포위하세요. 통제구역(ZOC)을 무시하면 쉬울 겁니다. 더 높은 전투력과 공격 시 전투력 +25% 보너스를 합치면 적 함선의 도전은 성립되지 않을 것입니다. 마찬가지로, 특히 성을 짓기 전에 도시를 공격하는 경우 공격 시 전투력 +50% 보너스 덕분에 동기 부여가 됩니다. 전격전 승급을 달성하려면 선박 침투조 승급 트리를 목표로 하는 것이 좋습니다. 공격 후 이동할 수 있고, 따라서 한 턴에 많은 함선으로 도시를 공격할 수 있습니다. 혹은 선봉 승급으로 이어지는 Hull 승급을 선택하는 것도 좋은 선택입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -198,7 +198,7 @@ SET Text = '위대한 조상'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20% ([ICON_GOLDEN_AGE] 황금기에는 +40%) 증가 합니다. 도시를 건설하거나 (누군가 [COLOR_CYAN]고고학[ENDCOLOR]을 연구하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
+SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]을 연구하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 
 UPDATE Language_ko_KR
@@ -482,7 +482,7 @@ SET Text = '{TXT_KEY_CIV5_KOREA_HWACHA_HEADING}는 {TXT_KEY_UNIT_TREBUCHET}을 �
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '거북선은 캐러벨보다 공격력이 더 강하고, Indomitable 승급으로 파괴하기가 매우 어렵습니다. 그러나 대양 타일에서 이동을 끝낼 수 있는 반면, 거북선은 여전히 ​​절반 속도로 이동합니다.'
+SET Text = '거북선은 캐러벨보다 공격력이 더 강하고, 굳건함 승급으로 파괴하기가 매우 어렵습니다. 그러나 대양 타일에서 이동을 끝낼 수 있는 반면, 거북선은 여전히 ​​절반 속도로 이동합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_TURTLESHIP_STRATEGY';
 
 --------------------
@@ -668,7 +668,7 @@ SET Text = '{TXT_KEY_UNIT_ROMAN_LEGION}은 {TXT_KEY_UNIT_SWORDSMAN}를 대체하
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '발리스타는 훌륭한 공성 무기입니다. 도시에 대해서 여전히 매우 유용하며, 지상 유닛에 대한 패널티가 없고 Field I 승급이 무료이기 때문에 다른 유닛에 대해서도 더욱 강력합니다. 발리스타는 여전히 공격에 취약하므로 다른 군사 유닛으로 보호해야 합니다. 적의 영토에서는 절반의 속도로 이동하지만, 시야는 보통 수준입니다.'
+SET Text = '발리스타는 훌륭한 공성 무기입니다. 도시에 대해서 여전히 매우 유용하며, 지상 유닛에 대한 패널티가 없고 야전 I 승급이 무료이기 때문에 다른 유닛에 대해서도 더욱 강력합니다. 발리스타는 여전히 공격에 취약하므로 다른 군사 유닛으로 보호해야 합니다. 적의 영토에서는 절반의 속도로 이동하지만, 시야는 보통 수준입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
 
 --------------------
@@ -736,7 +736,7 @@ SET Text = '신앙으로만 구매할 수 있는 독특한 시암 종교 건물�
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '나레수안 코끼리는 근접 유닛과 싸울 때 매우 강력하므로 주로 이 용도로 사용하세요. 다른 아군 유닛이 공격할 적 유닛의 근처로 이동해, Feared Elephant 승급으로 다른 아군이 목표로 하는 적 유닛을 약화시키도록 하세요. 전투력 보너스를 활용하려면 위대한 장군과 나레수안 코끼리를 꼭 함께 사용하세요.[NEWLINE][NEWLINE]나레수안 코끼리는 말 자원이 필요하지 않기 때문에 대부분 상황에서 약한 근접 유닛을 모두 대체할 수 있습니다. 나레수안 코끼리의 이동력(3)은 기마 유닛의 표준적인 이동력(4)보다 낮지만, 여전히 뛰어난 유연성과 집중 공격이 가능하며, 특히 공격 후 이동할 수 있는 능력이 있습니다. 사용하지 않은 말을 사용해 산병을 생산하고 적 부대를 측면 공격한 다음, 나레수안 코끼리로 공격하여 측면 공격 보너스를 엄청나게 높일 수 있습니다. 따라서 나레수안 코끼리에게 충격 승급 계통이 강력히 권장됩니다. 게다가 나레수안의 코끼리는 이동 속도가 느리기 때문에 기동성 승급의 가치가 더욱 커집니다.'
+SET Text = '나레수안 코끼리는 근접 유닛과 싸울 때 매우 강력하므로 주로 이 용도로 사용하세요. 다른 아군 유닛이 공격할 적 유닛의 근처로 이동해, Feared Elephant 승급으로 다른 아군이 목표로 하는 적 유닛을 약화시키도록 하세요. 전투력 보너스를 활용하려면 위대한 장군과 나레수안 코끼리를 꼭 함께 사용하세요.[NEWLINE][NEWLINE]나레수안 코끼리는 말 자원이 필요하지 않기 때문에 대부분 상황에서 약한 근접 유닛을 모두 대체할 수 있습니다. 나레수안 코끼리의 이동력(3)은 기마 유닛의 표준적인 이동력(4)보다 낮지만, 여전히 뛰어난 유연성과 집중 공격이 가능하며, 특히 공격 후 이동할 수 있는 능력이 있습니다. 사용하지 않은 말을 사용해 산병을 생산하고 적 부대를 측면 공격한 다음, 나레수안 코끼리로 공격하여 측면 공격 보너스를 엄청나게 높일 수 있습니다. 따라서 나레수안 코끼리에게 충격 승급 트리가 강력히 권장됩니다. 게다가 나레수안의 코끼리는 이동 속도가 느리기 때문에 기동성 승급의 가치가 더욱 커집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SIAMESE_WARELEPHANT_STRATEGY';
 
 --------------------
@@ -804,7 +804,7 @@ SET Text = '근접 및 화약 유닛의 [ICON_GOLD] 유지비가 [COLOR_POSITIVE
 WHERE Tag = 'TXT_KEY_TRAIT_BUFFALO_HORNS';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_BUILDING_BARRACKS}를 대체하는 줄루의 고유 건물입니다. {TXT_KEY_BUILDING_IKANDA_DESC}는 {TXT_KEY_BUILDING_BARRACKS}의 보너스에 더해, [ICON_WAR] 군사 유닛 보급 한도를 증가시키고 모든 근접 및 화약 유닛에게 {TXT_KEY_PROMOTION_IKLWA}  승급을 부여해 최대 체력을 증가시키고 [ICON_MOVES] 이동력이 증가하며 측면 공격 보너스를 얻는 새로운 승급 트리를 잠금 해제합니다. [COLOR_CYAN]{TXT_KEY_TECH_ARCHERY_TITLE}[ENDCOLOR] 대신 [COLOR_CYAN]{TXT_KEY_TECH_BRONZE_WORKING_TITLE}[ENDCOLOR] 기술 연구 시 생산 가능합니다.'
+SET Text = '{TXT_KEY_BUILDING_BARRACKS}를 대체하는 줄루의 고유 건물입니다. {TXT_KEY_BUILDING_IKANDA_DESC}는 {TXT_KEY_BUILDING_BARRACKS}의 보너스에 더해, [ICON_WAR] 군사 유닛 보급 한도를 증가시키고 모든 근접 및 화약 유닛에게 {TXT_KEY_PROMOTION_IKLWA} 승급을 부여해 최대 체력을 증가시키고 [ICON_MOVES] 이동력이 증가하며 측면 공격 보너스를 얻는 새로운 승급 트리를 잠금 해제합니다. [COLOR_CYAN]{TXT_KEY_TECH_ARCHERY_TITLE}[ENDCOLOR] 대신 [COLOR_CYAN]{TXT_KEY_TECH_BRONZE_WORKING_TITLE}[ENDCOLOR] 기술 연구 시 생산 가능합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_STRATEGY';
 
 UPDATE Language_ko_KR

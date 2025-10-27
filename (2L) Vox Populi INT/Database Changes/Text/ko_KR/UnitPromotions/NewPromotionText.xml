@@ -942,11 +942,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE">
-			<Text>때려라!</Text>
+			<Text>놈들의 목을 쳐라!(Hakkaa Päälle!)</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE_HELP">
-			<Text>부상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR].[NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+50[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]체력이 50% 이상인 유닛[ENDCOLOR]을 공격할 때 [ICON_STRENGTH] 전투력이 +30% 증가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE">

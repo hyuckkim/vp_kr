@@ -56,7 +56,7 @@ SET Text = '(담수 없음)'
 WHERE Tag = 'TXT_KEY_ABLTY_NO_FRESH_WATER_STRING';
 
 UPDATE Language_ko_KR
-SET Text = 'Leads To:'
+SET Text = '이어지는 기술:'
 WHERE Tag = 'TXT_KEY_TECH_HELP_LEADS_TO';
 
 ------------------------------------------------
@@ -177,7 +177,7 @@ SET Text = '도시 전투력'
 WHERE Tag = 'TXT_KEY_CITYVIEW_CITY_COMB_STRENGTH_TT';
 
 UPDATE Language_ko_KR
-SET Text = '클릭 : 대기열 마지막에 아이템 추가[NEWLINE]CTRL + 왼쪽 클릭 : 대기열 맨 처음에 아이템 추가[NEWLINE]ALT + 왼쪽 클릭: 대기열 맨 마지막에 아이템 추가[NEWLINE]SHIFT + 왼쪽 클릭 : 선택된 아이템으로 대기열 전부 대체[NEWLINE]H는 선택한 건물을 이 도시의 생산 설정에서 숨깁니다.'
+SET Text = '클릭: 대기열 마지막에 아이템 추가[NEWLINE]CTRL + 왼쪽 클릭: 대기열 맨 처음에 아이템 추가[NEWLINE]ALT + 왼쪽 클릭: 대기열 맨 마지막에 아이템 추가[NEWLINE]SHIFT + 왼쪽 클릭: 선택된 아이템으로 대기열 전부 대체[NEWLINE]H는 선택한 건물을 이 도시의 생산 설정에서 숨깁니다.'
 WHERE Tag = 'TXT_KEY_CITYVIEW_QUEUE_PROD_TT';
 
 UPDATE Language_ko_KR
@@ -248,8 +248,8 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_WARNING_TEXT]{1_Number} 요격![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_EUPANEL_VISIBLE_AA_UNITS';
 
-UPDATE Language_en_US
-SET Text = 'Distance from Capital'
+UPDATE Language_ko_KR
+SET Text = '수도와의 거리'
 WHERE Tag = 'TXT_KEY_EUPANEL_CAPITAL_DEFENSE_BONUS';
 
 ------------------------------------------------

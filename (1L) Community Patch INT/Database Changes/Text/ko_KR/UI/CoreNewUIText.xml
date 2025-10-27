@@ -7,7 +7,7 @@
 			<Text>턴 중간 강제 저장 (권장하지 않음 - 저장된 게임을 손상시킬 수 있습니다!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FORCE_MP_SAVE_TOOLTIP">
-			<Text>위험! 파일 덮어쓰기 검사의 버그를 악용하여 턴 중간에 현재 턴 상태를 저장할 수 있는 바닐라 버전을 에뮬레이트합니다. 일반적으로 저장은 가장 최근 자동 저장의 이름이 변경된 복사본입니다. 이 옵션을 활성화하면 턴 중간 상태를 저장할 수 있지만 파이락시스는 명시적으로 이를 방지하려고 시도했습니다. 아마도 문제를 일으킬 수 있기 때문일 것입니다. 이 설정은 절대 권장하지 않으며 사용에 따른 위험은 스스로 감수해야 합니다.</Text>
+			<Text>위험! 파일 덮어쓰기 검사의 버그를 악용하여 턴 중간에 현재 턴 상태를 저장할 수 있는 바닐라 버전을 에뮬레이트합니다. 일반적으로 저장은 가장 최근 자동 저장의 이름이 변경된 복사본입니다. 이 설정을 활성화하면 턴 중간 상태를 저장할 수 있지만 파이락시스는 명시적으로 이를 방지하려고 시도했습니다. 아마도 문제를 일으킬 수 있기 때문일 것입니다. 이 설정은 절대 권장하지 않으며 사용에 따른 위험은 스스로 감수해야 합니다.</Text>
 		</Row>
 
 		<!-- Replay message -->
@@ -1020,7 +1020,7 @@
 			<Text>+{1_Num} [ICON_DIPLOMAT] Delegate in the World Congress for every active Research Agreement with your Empire</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_RELIGION">
-			<Text>+{1_Num} [ICON_DIPLOMAT] Delegate in the World Congress for every {1: plural 1?City; other?{1_Num} Cities;} following your [ICON_RELIGION] Primary Religion</Text>
+			<Text>+1 [ICON_DIPLOMAT] Delegate in the World Congress for every {1: plural 1?City; other?{1_Num} Cities;} following your [ICON_RELIGION] Primary Religion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_ROUTES">
 			<Text>{2_Sign}{1_Num} [ICON_INTERNATIONAL_TRADE] Trade {1: plural 1?Route; other?Routes;}</Text>
@@ -2648,6 +2648,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_WEAK">
 			<Text>They fear you are competing with them.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_STRONG">
 			<Text>[COLOR_NEGATIVE_TEXT]그들은 당신과 경쟁하고 있어 당신을 불신합니다.[ENDCOLOR]</Text>
 		</Row>

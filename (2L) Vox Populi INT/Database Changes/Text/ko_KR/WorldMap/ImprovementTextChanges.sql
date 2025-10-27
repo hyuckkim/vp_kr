@@ -69,7 +69,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT';
 -- Barbarian Encampment
 UPDATE Language_ko_KR
 SET Text = '야만인 주둔지'
-WHERE Tag = 'TXT_KEY_IMPROVEMENT_VP_ENCAMPMENT';
+WHERE Tag = 'TXT_KEY_IMPROVEMENT_ENCAMPMENT';
 
 UPDATE Language_ko_KR
 SET Text = '야만인 주둔지는 당신의 문명을 뒤집어 엎고 파괴하는데 여념이 없는 광포한 야만인의 무리가 세운 임시 정착지입니다. 문명의 영원한 눈엣가시 같은 이 야만인 주둔지에서는 당신의 도시를 침략하고, 영지를 약탈하며, 부녀자를 외설적인 눈빛으로 바라보는 분노한 야만인이 끝없이 쏟아져 나올 수 있습니다. 당신의 도시 근처에 있는 야만인 주둔지는 무조건 파괴해야 합니다. 당신이 비열한 지도자라면, 경쟁 문명에 더 가까이 있는 야만인 주둔지는 적을 괴롭히기 위해 그대로 놔둘 수도 있습니다.'

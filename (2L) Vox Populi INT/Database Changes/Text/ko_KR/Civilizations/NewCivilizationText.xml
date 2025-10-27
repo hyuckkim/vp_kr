@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_ko_KR>
-		<!-- America -->
+		<!-- 미국 -->
 		<Row Tag="TXT_KEY_BUILDING_INDEPENDENCE_HALL">
 			<Text>독립 기념관</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDEPENDENCE_HALL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]슬레이터 밀[ENDCOLOR], [COLOR_POSITIVE_TEXT]미국 육군사관학교[ENDCOLOR], [COLOR_POSITIVE_TEXT]스미스소니언 협회[ENDCOLOR]를 [COLOR_CYAN]현대 시대[ENDCOLOR]에 지을 수 있습니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]슬레이터 방앗간[ENDCOLOR], [COLOR_POSITIVE_TEXT]미국 육군사관학교[ENDCOLOR], [COLOR_POSITIVE_TEXT]스미스소니언 협회[ENDCOLOR]를 [COLOR_CYAN]현대 시대[ENDCOLOR]에 지을 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDEPENDENCE_HALL_TEXT">
 			<Text>원래 펜실베니아 주의 저택으로 지어진 독립 기념관은 미국 독립 선언과 헌법 선언이 논의되고 공식적으로 채택되어 미국의 탄생지가 된 곳입니다. 오늘날 독립 기념관은 박물관이자 필라델피아 중심부에 있는 독립 국립공원의 중심입니다.</Text>
@@ -45,23 +45,23 @@
 			<Text>미국이 독립 기념관을 완성하면 지을 수 있는 상호 배타적인 세 불가사의 중 하나입니다. 당신의 운명을 신중하게 선택하세요.[NEWLINE][NEWLINE]3대 불가사의는 모두 [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PRODUCTION] 생산에 중점을 두는 등 대칭성을 가지고 있다는 점에 유의하세요. 따라서 어떤 수익률과 승리 유형을 가장 중요하게 생각하는지에 따라 선택이 달라질 것입니다.[NEWLINE][NEWLINE]과학 승리 또는 정복 승리를 목표로 한다면 웨스트 포인트를 건설하세요. 당신의 도시는 [ICON_GOLD] 골드 산출량에 따라 추가 [ICON_RESEARCH] 과학을 받으며, 이를 통해 기술을 더 빨리 잠금 해제할 수 있고, 이는 군사적 이점을 얻는 데 도움이 됩니다. 이제 턴당 [ICON_GOLD] 골드에 집중하는 것이 강력한 전략입니다. 게다가, 광역 I은 모든 공성 및 해상 원거리 유닛에게 주어지는 강력한 진급이므로, 전쟁을 계획하고 있다면 이 불가사의를 더 고려해 보세요. 공성 유닛에 광역 I이 주어졌음에도 불구하고, 미니트맨은 너무 강력해서 적 유닛을 공격하는 데 어떤 식으로든 대체되어서는 안 됩니다. 웨스트포인트는 충성 정책에서 가장 큰 혜택을 받는데, 충성 정책은 넓은 문명 건설을 장려합니다. 모두 과학 승리와 정복 승리에 그러한 문명이 필요하기 때문입니다. 합리주의와 산업 정책은 둘 다 적합합니다. 각각 건물에서 [ICON_RESEARCH] 과학 산출량을 늘리고 [ICON_GOLD] 골드 산출량을 늘립니다.[NEWLINE][NEWLINE]사관학교와 무기고는 엄청난 산출량을 자랑하므로 가능한 한 빨리 건설하는 것이 좋습니다.[NEWLINE][NEWLINE]군사 과학을 연구하면 해제되므로, 먼저 이 기술에 집중하고, 그 시점에서 가능하다면 브란덴부르크 문도 건설해 보는 건 어떨까요?[NEWLINE][NEWLINE][ICON_GOLD] 골드로 타일 구매 시 25% 할인은 중요한 건물, 불가사의 또는 유닛의 생산을 촉진하기 위해 타일을 아낌없이 구매하도록 장려합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SLATER_MILL">
-			<Text>슬레이터 밀</Text>
+			<Text>슬레이터 방앗간</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SLATER_MILL_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SLATER_MILL_TEXT">
-			<Text>국가 역사 랜드마크인 슬레이터 밀은 로드아일랜드의 포투켓에 있는 블랙스톤 강 옆에 위치해 있습니다. 영국에 처음 설립된 면방적 공장을 본떠 만든 슬레이터 밀은 리처드 아크라이트가 개발한 면방적 아크라이트 시스템을 활용한 북미 최초의 수력 면방적 공장입니다. 제분소의 설립자인 새뮤얼 슬레이터는 영국 벨퍼에서 산업가 제다이아 스트럿과 함께 젊은 시절 견습생으로 일했습니다. 미국으로 이민 온 직후, 슬레이터는 로드 아일랜드 프로비던스의 모세 브라운에 고용되어 수력을 사용하여 면사를 방적하는 데 필요한 작업 기계를 생산했습니다. 댐, 수로, 물레방아, 방앗간뿐만 아니라 기계들의 건설은 1793년에 완료되었습니다. 제조는 카드, 드로잉, 그리고 방적 기계를 포함하는 리차드 아크라이트의 면방적 시스템을 기반으로 했습니다. 슬레이터는 처음에 아이들과 가족들을 고용하여 그의 방앗간에서 일하게 했고, 블랙스톤 계곡 전체에 복제되어 "로드 아일랜드 시스템"으로 알려진 패턴을 확립했습니다. 그것은 나중에 프랜시스 카봇 로웰의 월섬 시스템에 의해 가려졌습니다. 슬레이터 밀은 미국 국립 사적지에 등재된 첫 번째 재산이었고, 1966년 11월 13일 미국 국립 역사 랜드마크로 지정되었습니다.</Text>
+			<Text>국가 역사 랜드마크인 슬레이터 방앗간은 로드아일랜드의 포투켓에 있는 블랙스톤 강 옆에 위치해 있습니다. 영국에 처음 설립된 면방적 공장을 본떠 만든 슬레이터 방앗간은 리처드 아크라이트가 개발한 면방적 아크라이트 시스템을 활용한 북미 최초의 수력 면방적 공장입니다. 방앗간의 설립자인 새뮤얼 슬레이터는 영국 벨퍼에서 산업가 제다이아 스트럿과 함께 젊은 시절 견습생으로 일했습니다. 미국으로 이민 온 직후, 슬레이터는 로드 아일랜드 프로비던스의 모세 브라운에 고용되어 수력을 사용하여 면사를 방적하는 데 필요한 작업 기계를 생산했습니다. 댐, 수로, 물레방아, 방앗간뿐만 아니라 기계들의 건설은 1793년에 완료되었습니다. 제조는 카드, 드로잉, 그리고 방적 기계를 포함하는 리차드 아크라이트의 면방적 시스템을 기반으로 했습니다. 슬레이터는 처음에 아이들과 가족들을 고용하여 그의 방앗간에서 일하게 했고, 블랙스톤 계곡 전체에 복제되어 "로드 아일랜드 시스템"으로 알려진 패턴을 확립했습니다. 그것은 나중에 프랜시스 카봇 로웰의 월섬 시스템에 의해 가려졌습니다. 슬레이터 방앗간은 미국 국립 사적지에 등재된 첫 번째 재산이었고, 1966년 11월 13일 미국 국립 역사 랜드마크로 지정되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_SLATERMILL_STRATEGY">
-			<Text>미국이 독립 기념관을 완성하면 지을 수 있는 상호 배타적인 세 불가사의 중 하나입니다. 당신의 운명을 신중하게 선택하세요.[NEWLINE][NEWLINE]3대 불가사의는 모두 [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PRODUCTION] 생산에 중점을 두는 등 대칭성을 가지고 있다는 점에 유의하세요. 따라서 어떤 수익률과 승리 유형을 가장 중요하게 생각하는지에 따라 선택이 달라질 것입니다.[NEWLINE][NEWLINE]외교 또는 정복 승리를 목표로 한다면 슬레이터 밀을 건설하세요. 당신의 도시는 [ICON_GOLD] 골드 산출량에 따라 추가 [ICON_PRODUCTION] 생산력을 얻으며, 이를 통해 군사 및 외교 부대를 더 빠르게 건설할 수 있습니다. [ICON_PRODUCTION] 생산력이 크게 부족하지 않다면, 대안으로 제공하는 [ICON_RESEARCH] 과학이나 [ICON_CULTURE] 문화가 더 강력합니다. 웨스트 포인트 역시 정복 승리를 장려하는데, 특히 [ICON_RESEARCH] 과학이 부족하지만 [ICON_PRODUCTION] 생산 능력이 강한 경우 정복 승리가 보통 더 나은 선택입니다. 그렇지 않다면 슬레이터 밀이 더 나을지도 모릅니다. 이제 턴당 [ICON_GOLD] 골드에 집중하는 것이 강력한 전략입니다. 이 불가사의는 외교 정책과 가장 잘 어울립니다. 이 정책 분야는 도시 국가와 동맹을 맺고 의회 표를 얻는 데 도움이 되며, 추가 교역로를 제공합니다. 산업과 자유는 중요한 무역로를 추가합니다. 슬레이터 밀의 교역로 지속 시간이 25% 단축되어 프랜차이즈를 더 빨리 확립할 수 있기 때문입니다.[NEWLINE][NEWLINE]공장과 증권 거래소는 높은 수익률을 제공하므로 가능한 한 빨리 건설하는 것이 좋습니다.[NEWLINE][NEWLINE][ICON_GOLD] 골드로 타일 구매 시 25% 할인은 중요한 건물, 불가사의 또는 유닛의 생산을 촉진하기 위해 타일을 아낌없이 구매하도록 장려합니다.</Text>
+			<Text>미국이 독립 기념관을 완성하면 지을 수 있는 상호 배타적인 세 불가사의 중 하나입니다. 당신의 운명을 신중하게 선택하세요.[NEWLINE][NEWLINE]3대 불가사의는 모두 [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PRODUCTION] 생산에 중점을 두는 등 대칭성을 가지고 있다는 점에 유의하세요. 따라서 어떤 수익률과 승리 유형을 가장 중요하게 생각하는지에 따라 선택이 달라질 것입니다.[NEWLINE][NEWLINE]외교 또는 정복 승리를 목표로 한다면 슬레이터 방앗간을 건설하세요. 당신의 도시는 [ICON_GOLD] 골드 산출량에 따라 추가 [ICON_PRODUCTION] 생산력을 얻으며, 이를 통해 군사 및 외교 부대를 더 빠르게 건설할 수 있습니다. [ICON_PRODUCTION] 생산력이 크게 부족하지 않다면, 대안으로 제공하는 [ICON_RESEARCH] 과학이나 [ICON_CULTURE] 문화가 더 강력합니다. 웨스트 포인트 역시 정복 승리를 장려하는데, 특히 [ICON_RESEARCH] 과학이 부족하지만 [ICON_PRODUCTION] 생산 능력이 강한 경우 정복 승리가 보통 더 나은 선택입니다. 그렇지 않다면 슬레이터 방앗간이 더 나을지도 모릅니다. 이제 턴당 [ICON_GOLD] 골드에 집중하는 것이 강력한 전략입니다. 이 불가사의는 외교 정책과 가장 잘 어울립니다. 이 정책 분야는 도시 국가와 동맹을 맺고 의회 표를 얻는 데 도움이 되며, 추가 교역로를 제공합니다. 산업과 자유는 중요한 무역로를 추가합니다. 슬레이터 방앗간의 교역로 지속 시간이 25% 단축되어 프랜차이즈를 더 빨리 확립할 수 있기 때문입니다.[NEWLINE][NEWLINE]공장과 증권 거래소는 높은 수익률을 제공하므로 가능한 한 빨리 건설하는 것이 좋습니다.[NEWLINE][NEWLINE][ICON_GOLD] 골드로 타일 구매 시 25% 할인은 중요한 건물, 불가사의 또는 유닛의 생산을 촉진하기 위해 타일을 아낌없이 구매하도록 장려합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_AMERICA_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"나의 조국은 그분의 땅이요,[NEWLINE]달콤한 자유의 땅이니.[NEWLINE][TAB][TAB] - 새뮤얼 프랜시스 스미스[NEWLINE][TAB]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HOMESTEAD">
-			<Text>Homestead</Text>
+			<Text>홈스테드</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOMESTEAD_HELP">
 			<Text></Text>
@@ -86,7 +86,7 @@
 			<Text>모니터함은 전투력 증가와 Dauntless 승급에서 많은 이점을 얻습니다. -8 피해 감소 효과가 합쳐지면 적이 입힐 수 있는 피해가 적을수록 더 효과적이기 때문입니다. 그러므로 가능한 한 모니터함을 승급시키고 위대한 제독과 함께하세요. 도시 방어 보너스는 작은 혜택입니다. 이 함선의 가장 큰 장점은 높은 기본 전투력입니다.</Text>
 		</Row>
 
-		<!-- Arabia -->
+		<!-- 아라비아 -->
 		<Row Tag="TXT_KEY_BUILDING_BIMARISTAN">
 			<Text>비마리스탄</Text>
 		</Row>
@@ -187,7 +187,7 @@
 			<Text></Text>
 		</Row>
 
-		<!-- Aztec -->
+		<!-- 아즈텍 -->
 		<Row Tag="TXT_KEY_BUILDING_TELPOCHCALLI">
 			<Text>텔포치칼리</Text>
 		</Row>
@@ -227,7 +227,7 @@
 			<Text></Text>
 		</Row>
 
-		<!-- Babylon -->
+		<!-- 바빌론 -->
 		<Row Tag="TXT_KEY_UNIT_SABUM_KIBITUM">
 			<Text>사붐 키비툼</Text>
 		</Row>
@@ -254,7 +254,7 @@
 			<Text></Text>
 		</Row>
 
-		<!-- Brazil -->
+		<!-- 브라질 -->
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTE">
 			<Text>반데이란테</Text>
 			<Plurality>2</Plurality>
@@ -292,10 +292,10 @@
 			<Text>아마조나스는 남미 역사상 가장 피비린내 나는 전쟁이었던 파라과이 전쟁 당시 브라질 해군의 기함으로 사용된 대형 증기 호위함이었습니다. 거대한 전함은 리아추엘로 전투에서 중요한 역할을 했습니다. 파라과이의 포병대와 해군 여단이 이른 아침과 짙은 안개 속에서 브라질군을 매복 공격하려 했던 전투였습니다. 놀랍게도 브라질은 매우 불리한 입장에 처했지만, 다시 힘을 모아 파라과이를 상대로 반격했습니다. 아마조나스는 결정적인 역할을 했는데, 두 척의 배를 들이받아 침몰시키고 세 번째 배를 무력화시켰습니다. 리아추엘로 전투에서 파라과이 해군은 심각한 피해를 입었고, 이로 인해 전쟁이 끝날 때까지 그들의 기세가 꺾였습니다. 브라질과 동맹국들은 주도권을 잡고 전쟁이 끝날 때까지 해군의 우위를 유지했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AMAZONAS_STRATEGY">
-			<Text>Blitz 승급 덕분에 아마조나스는 턴당 두 번 공격할 수 있을 뿐만 아니라, 공격 후 이동할 수도 있습니다. 이를 통해 함선에 대한 집중 공격이 가능해져 적 유닛을 보다 안정적으로 물리칠 수 있으므로 강력합니다. 이는 아마조나스가 적 유닛을 물리쳤을 때 얻는 황금기 점수와 위대한 제독 점수가 시너지 효과를 발휘하며, 또한 이는 브라질의 고유 능력과 더욱 시너지 효과를 발휘합니다. Blitz는 또한 한 턴에 많은 함선으로 도시를 공격할 수 있게 했지만, 갤리어스가 쓸모없어지면서 더 이상 불가능해졌습니다. Hull 승급 라인에서 Siege 승급이 없더라도, 가능한 한 많은 아마조나스를 생산하고 도시에 대규모 포위 공격을 가하는 것을 고려하세요!</Text>
+			<Text>전격전 승급 덕분에 아마조나스는 턴당 두 번 공격할 수 있을 뿐만 아니라, 공격 후 이동할 수도 있습니다. 이를 통해 함선에 대한 집중 공격이 가능해져 적 유닛을 보다 안정적으로 물리칠 수 있으므로 강력합니다. 이는 아마조나스가 적 유닛을 물리쳤을 때 얻는 황금기 점수와 위대한 제독 점수가 시너지 효과를 발휘하며, 또한 이는 브라질의 고유 능력과 더욱 시너지 효과를 발휘합니다. 전격전은 또한 한 턴에 많은 함선으로 도시를 공격할 수 있게 했지만, 갤리어스가 쓸모없어지면서 더 이상 불가능해졌습니다. Hull 승급 계통에서 공성 승급이 없더라도, 가능한 한 많은 아마조나스를 생산하고 도시에 대규모 포위 공격을 가하는 것을 고려하세요!</Text>
 		</Row>
 
-		<!-- Byzantium -->
+		<!-- 비잔티움 -->
 		<Row Tag="TXT_KEY_BUILDING_TETRACONCH">
 			<Text>테트라콘치</Text>
 		</Row>
@@ -313,30 +313,30 @@
 			<Text>애플렉톤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_APLEKTON_HELP">
-			<Text>월리.</Text>
+			<Text>요새를 대체하는 비잔티움 고유 건물입니다.[NEWLINE][NEWLINE]이 타일에 주둔한 모든 유닛의 [ICON_STRENGTH] 방어력이 +50% 증가하고 다른 문명이 이를 [COLOR_NEGATIVE_TEXT]약탈[ENDCOLOR]할 수 없습니다. 공격 후에도 소유한 유닛이 이 타일에 주둔할 수 있는 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]와 아군 [COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛이 통과할 수 있는 [COLOR_POSITIVE_TEXT]운하[ENDCOLOR]가 포함되어 있습니다. [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 포함하여 대체하는 요새에 비해 산출량이 향상되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_APLEKTON_TEXT">
-			<Text>월-E</Text>
+			<Text>{TXT_KEY_IMPROVEMENT_APLEKTON_HELP}[NEWLINE][NEWLINE]라틴어 'Applicatum'에서 유래한 애플렉톤(Aplekton)은 10~14세기에 요새화된 군사 기지를 뜻하는 비잔티움 용어였습니다. (이런 의미에서 그리스어 metaton과 유사합니다.) 애플렉톤은 주요 집결 장소였으며, 물자를 보관하고 테마타(Themata)의 지방 군대가 주요 제국군에 합류하여 원정을 벌이는 곳이었습니다. 원래 건축은 아마도 콘스탄티누스 5세 황제(재위 741~775)의 통치 기간에 이루어졌을 것으로 추정됩니다. 콘스탄티누스 7세 포르피로게니투스 황제(재위 945~959)는 제국 원정에 관한 논문에서 서쪽에서 동쪽으로의 애플렉톤을 다음과 같이 기록합니다. 말라기나(Malagina), 도릴라이온(Dorylaion), 카보르킨(Kaborkin), 콜로네이아(Koloneia), 카이사레이아(Kaisareia), 다지몬(Dazimon).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_APLEKTON">
 			<Text>[LINK=IMPROVEMENT_APLEKTON]애플렉톤[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_APLEKTON_HELP">
-			<Text>산출량</Text>
+			<Text>이 타일에 주둔한 모든 유닛의 [ICON_STRENGTH] 방어력이 +50% 증가하고, 다른 문명이 이를 [COLOR_NEGATIVE_TEXT]약탈[ENDCOLOR]할 수 없습니다. 공격 후에도 소유한 유닛이 이 타일에 주둔할 수 있는 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]와 아군 [COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛이 통과할 수 있는 [COLOR_POSITIVE_TEXT]운하[ENDCOLOR]가 포함되어 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_APLEKTON_REC">
-			<Text>산출량이 늘어날 것입니다.</Text>
+			<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE_LOCAL] 국경 성장 점수가 증가하고 타일을 방어할 수 있습니다.</Text>
 		</Row>
 
-		<!-- Carthage -->
+		<!-- 카르타고 -->
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON">
-			<Text>위대한 코톤</Text>
+			<Text>그레이트 코톤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_TEXT">
 			<Text>코톤은 기원전 200년 경 포에니 전쟁 동안 카르타고에 있었던 것과 같은 인공적이고 보호된 내부 항구입니다. 카르타고의 코톤은 직사각형 모양의 상항으로 나뉘었고 군사용으로만 사용 가능한 내부 보호 항구가 이어졌습니다. 이 내부 항구는 원형이었고 선박 정비를 위한 일련의 도킹 베이로 분할된 구조의 외부 링으로 둘러싸여 있었고, 그 중심에는 해군 선박도 수용된 섬 구조물이 있었습니다. 각각의 도킹 베이는 상승된 슬립웨이를 특징으로 합니다. 높이 솟은 도킹 베이 위에는 나무와 캔버스 같은 보급품과 함께 노와 장비들이 보관되어 있는 창고로 구성된 2층이 있었습니다. 섬 구조에는 사령관이 주변 바다와 함께 항만 전체를 관찰할 수 있는 높은 오두막이 있었습니다. 내부 도킹 단지는 모두 합쳐서 최대 220척의 선박을 수용할 수 있습니다. 전체 항구는 외벽으로 보호되었고 주요 입구는 쇠사슬로 막을 수 있었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_STRATEGY">
-			<Text>카르타고는 무역로의 양을 극대화하는 것을 우선순위로 삼았습니다. 자원 다양성으로 인한 교역로 [ICON_GOLD] 골드 생성 보너스 덕분에 수익성이 훨씬 높아졌기 때문입니다. 위대한 코톤은 2개의 추가 무역로와 여러 다른 강력한 보너스를 제공하므로, 이 불가사의는 절대적인 우선순위입니다. 특히 화폐 연구로 더 일찍 해제할 수 있기 때문입니다.[NEWLINE][NEWLINE]교역로의 수익성을 결정하는 주요 요소인 고유한 사치 자원이 가장 많은 도시에 건설하세요. 특허 회사와 마찬가지로 위대한 코톤은 건설된 도시의 보너스를 더욱 증가시키고, 이러한 자원 각각에 대한 추가 사본을 제공합니다. 이 도시는 교역로의 주요 발신지가 되어야 합니다.[NEWLINE][NEWLINE]이 국가 불가사의는 모든 등대와 항구에 [ICON_PRODUCTION] 생산력과 [ICON_CULTURE] 문화를 부여하고 모든 해안 도시에 무료 항구를 부여하므로 내륙 도시보다 해안 도시를 건설하는 것이 적극 권장됩니다.</Text>
+			<Text>카르타고는 무역로의 양을 극대화하는 것을 우선순위로 삼았습니다. 자원 다양성으로 인한 교역로 [ICON_GOLD] 골드 생성 보너스 덕분에 수익성이 훨씬 높아졌기 때문입니다. 그레이트 코톤은 2개의 추가 무역로와 여러 다른 강력한 보너스를 제공하므로, 이 불가사의는 절대적인 우선순위입니다. 특히 화폐 연구로 더 일찍 해제할 수 있기 때문입니다.[NEWLINE][NEWLINE]교역로의 수익성을 결정하는 주요 요소인 고유한 사치 자원이 가장 많은 도시에 건설하세요. 특허 회사와 마찬가지로 그레이트 코톤은 건설된 도시의 보너스를 더욱 증가시키고, 이러한 자원 각각에 대한 추가 사본을 제공합니다. 이 도시는 교역로의 주요 발신지가 되어야 합니다.[NEWLINE][NEWLINE]이 국가 불가사의는 모든 등대와 항구에 [ICON_PRODUCTION] 생산력과 [ICON_CULTURE] 문화를 부여하고 모든 해안 도시에 무료 항구를 부여하므로 내륙 도시보다 해안 도시를 건설하는 것이 적극 권장됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_HELP">
 			<Text>이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]하고 모든 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] {TXT_KEY_BUILDING_HARBOR}을 제공합니다. 이 도시로 향하는 [ICON_ARROW_LEFT] 교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 [ICON_ARROW_RIGHT] 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]  모든 항만의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고, 모든 등대의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]이 도시에서 [ICON_GOLD] 빈곤 [ICON_HAPPINESS_3] 불행이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 감소하고, 다른 모든 도시에서 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION] 생산이 증가합니다.</Text>
@@ -355,7 +355,7 @@
 			<Text>아사무는 더욱 공격적인 개척을 허용하지만, 생산할 수 없고 많은 [ICON_GOLD] 골드로만 구매할 수 있기 때문에 매우 많은 [ICON_GOLD] 골드 생성이 필요합니다. 개척자를 생산하는 것처럼 인구가 감소하지 않기 때문에 게임 초반에 개척 속도에 큰 병목 현상이 발생하던 것을 [ICON_GOLD] 골드 생성으로 대체하였습니다. 따라서 게임 초반에 고유 능력을 통해 가능한 한 많은 [ICON_GOLD] 골드를 모으고, 야만인 야영지를 파괴하고, 고대 유적을 탐험하고, [ICON_GOLD] 골드 타일을 작업한 다음 빠른 속도로 개척하는 것을 고려하세요. 아사무는 턴당 한 번 근접 공격에서 후퇴할 수 있으므로, 두 개의 유닛이 공격하지 않는 한 호위 없이 야만인 영토를 통과할 수 있습니다. 게다가 아사무는 어업 기술이 없어도 출항할 수 있으므로, 경쟁자보다 먼저 귀중한 섬을 차지할 수 있습니다. 동시에 개척자를 생산하는 것도 함께할 수도 있습니다. 이런 식으로 여러분은 많은 사치 자원을 보유한 훌륭한 도시 지역을 확보할 수 있으며, 고유 능력과 시너지 효과를 낼 수 있습니다.</Text>
 		</Row>
 
-		<!-- Celts -->
+		<!-- 켈트 -->
 		<Row Tag="TXT_KEY_BUILDING_CEILIDH_HALL_HELP">
 			<Text>건물이 완성되면 도시에 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] 제공하고 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [NEWLINE][NEWLINE][ICON_GW_MUSIC] 걸작 음악 슬롯을 하나 보유합니다.[NEWLINE][NEWLINE][ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_IVORY] 상아: [ICON_CULTURE]문화 +3</Text>
 		</Row>
@@ -377,7 +377,7 @@
 			<Text>오피둠</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OPPIDUM_HELP">
-			<Text>켈트족 고유의 위인 타일 시설입니다. 위대한 기술자, 상인, 과학자, 장군이 건설할 수 있습니다. 다른 오피둠 옆에는 지을 수 없습니다.[NEWLINE]전략 자원을 향상시킵니다. 주둔하는 유닛에게 다양한 수확량과 [ICON_STRENGTH] 방어력 보너스 +100%를 제공합니다. 인접한 타일을 향상시킵니다.</Text>
+			<Text>켈트족 고유의 위인 타일 시설입니다. 위대한 기술자, 상인, 과학자, 장군이 건설할 수 있습니다. 모든 위인의 임무를 감소된 양만큼 증가시킵니다. 다른 오피둠 옆에는 지을 수 없습니다.[NEWLINE]전략 자원을 향상시킵니다. 주둔하는 유닛에게 다양한 수확량과 [ICON_STRENGTH] 방어력 보너스 +100%를 제공합니다. 인접한 타일을 향상시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OPPIDUM_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_OPPIDUM_HELP}[NEWLINE][NEWLINE]오피둠은 후기 라 테네 문화권과 관련된 대규모의 방어 정착지입니다. 이러한 요새화된 마을은 종종 자연적으로 보호되는 지역에 지어졌으며 원형 건축물로 가득 차 있었습니다. 분쟁이 잦은 시기에는 개방된 들판에 살던 사람들이 안전을 확보하기 위해 전략적으로 위치한 이 구역으로 이주했습니다. 오피다는 영토를 통제하거나 작물을 보호하는 등 다른 목적을 가지고 있을 수도 있습니다. 가장 유명한 오피둠은 알레시아로, 율리우스 카이사르와 베르킨게토릭스의 전투가 벌어지고 갈리아족이 최종적으로 패배하여 프랑스와 벨기에의 갈리아 독립이 종식된 곳입니다.</Text>
@@ -386,11 +386,13 @@
 			<Text>[LINK=IMPROVEMENT_CELTS_OPPIDUM]오피둠[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OPPIDUM_HELP">
-			<Text>다른 오피둠 옆에는 지을 수 없습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]모든 수확량[ENDCOLOR]이 증가합니다. 주둔하는 유닛에게 [ICON_STRENGTH] 방어력 보너스 +100%를 제공합니다. 인접한 모든 타일에 보너스 산출량을 제공합니다.</Text>
+			<Text>다른 오피둠 옆에는 지을 수 없습니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]모든 산출량[ENDCOLOR]과 위대한 기술자, 위대한 상인, 위대한 과학자 임무의 산출량이 증가합니다. (자신의 위인 타일 시설보다 산출량이 감소합니다.) 주둔하는 유닛에게 [ICON_STRENGTH] 방어력 보너스 +100%를 제공합니다. 인접한 모든 타일에 보너스 산출량을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OPPIDUM_REC">
 			<Text>위인이 소모됩니다.[NEWLINE]켈트족 고유의 위인 타일 시설입니다. 이 타일의 전략 자원을 교역망에 연결합니다. 주둔하는 유닛에 [ICON_STRENGTH] 방어 보너스를 제공합니다. 인접한 타일은 추가 보너스 산출량을 얻습니다.</Text>
-		</Row>		<!-- China -->
+		</Row>
+
+		<!-- 중국 -->
 		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN">
 			<Text>쓰허위안</Text>
 		</Row>
@@ -436,7 +438,7 @@
 			<Text></Text>
 		</Row>
 
-		<!-- Denmark -->
+		<!-- 덴마크 -->
 		<Row Tag="TXT_KEY_BUILDING_RUNESTONE">
 			<Text>룬스톤</Text>
 		</Row>
@@ -476,7 +478,7 @@
 			<Text></Text>
 		</Row>
 
-		<!-- Egypt -->
+		<!-- 이집트 -->
 		<Row Tag="TXT_KEY_UNIT_MAMLUK">
 			<Text>맘루크</Text>
 		</Row>
@@ -494,22 +496,22 @@
 			<Text>오벨리스크</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OBELISK_HELP">
-			<Text>뾰족합니다.</Text>
+			<Text>이집트의 고유 시설입니다.[NEWLINE][NEWLINE]랜드마크처럼 고대 유적지에만 건설할 수 있지만, 유적지를 제거하지는 않습니다. [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙, [ICON_GOLDEN_AGE] 황금기 점수를 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OBELISK_TEXT">
-			<Text>매우 뾰족합니다.</Text>
+			<Text>{TXT_KEY_IMPROVEMENT_OBELISK_HELP}[NEWLINE][NEWLINE]오벨리스크는 네 면이 있고 꼭대기가 피라미드 모양 또는 피라미디온 모양인 키가 크고 가늘며 끝이 뾰족한 기념물입니다. 원래 고대 이집트인들이 건설하여 테케누(Tekhenu)라고 불렀는데, 그리스인들은 이를 설명하기 위해 그리스어 오벨리스코스(Obeliskos)라는 용어를 사용했고, 이 단어는 라틴어로 전해졌고 결국 영어로 옮겨졌습니다. 고대 오벨리스크는 단일 돌로 이루어져 있으며 태양신 라를 상징합니다. 그들은 종교 건축에서 중요한 역할을 했으며, 사원 입구에 쌍으로 배치되었습니다.[NEWLINE][NEWLINE]기원전 30년경, 로마는 이집트를 장악하고 다양한 사원 단지를 약탈했습니다. 어떤 경우에는 카르나크 신전의 벽을 파괴하여 그들을 끌어내기도 했습니다. 현재 로마가 압수하여 다른 곳으로 옮긴 오벨리스크의 수는 이집트에 남아 있는 오벨리스크의 두 배 이상입니다. 오벨리스크는 19세기 말에도 이집트에서 계속 운송되었는데, 그중 세 개가 런던, 뉴욕, 파리로 보내졌습니다. 대영 박물관에 있는 오벨리스크 4개가 실제로는 아시리아에서 나온 것이라는 점은 주목할 만한데, 이 오벨리스크 역시 왕을 기념하는 공공 기념물로 세워졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OBELISK">
 			<Text>[LINK=IMPROVEMENT_OBELISK]오벨리스크[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OBELISK_HELP">
-			<Text>산출량</Text>
+			<Text>고대 유적지를 제거하지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_OBELISK_REC">
-			<Text>산출량이 늘어날 것입니다.</Text>
+			<Text>[ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙, [ICON_GOLDEN_AGE] 황금기 점수가 증가합니다..</Text>
 		</Row>
 
-		<!-- England -->
+		<!-- 영국 -->
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER">
 			<Text>화이트 타워</Text>
 		</Row>
@@ -549,7 +551,7 @@
 			<Text></Text>
 		</Row>
 
-		<!-- Ethiopia -->
+		<!-- 에티오피아 -->
 		<Row Tag="TXT_KEY_BUILDING_STELE_HELP">
 			<Text></Text>
 		</Row>
@@ -604,19 +606,19 @@
 			<Text>[ICON_PRODUCTION] 생산력과 [ICON_PEACE] 신앙을 증가시키는 암굴 교회를 건설합니다. 암굴 교회는 더 많은 [COLOR_POSITIVE_TEXT]이념[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]교리[ENDCOLOR]를 채택할수록 산출량이 늘어납니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONOLITHIC_CHURCH_REC">
-			<Text>[ICON_PRODUCTION] 생산력과 [ICON_PEACE] 신앙이 증가할 것입니다.</Text>
+			<Text>[ICON_PRODUCTION] 생산력과 [ICON_PEACE] 신앙이 증가합니다.</Text>
 		</Row>
 
-		<!-- France -->
+		<!-- 프랑스 -->
 		<Row Tag="TXT_KEY_BUILDING_SALON">
 			<Text>살롱</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALON_HELP">
 			<Text>가능한 테마 보너스:
-				[NEWLINE][ICON_BULLET] 프랑스 걸작 미술품 2개: [ICON_CULTURE] 문화 +2, 관광 +2
-				[NEWLINE][ICON_BULLET] 동시대 프랑스 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, 관광 +4
-				[NEWLINE][ICON_BULLET] 같은 외국 문명 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, 관광 +4
-				[NEWLINE][ICON_BULLET] 동시대 같은 외국 문명 걸작 미술품 2개: [ICON_CULTURE] 문화 +8, 관광 +8
+				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]프랑스[ENDCOLOR] [ICON_VP_GREATART] 걸작 미술품 2개: [ICON_CULTURE] 문화 +2, [ICON_TOURISM] 관광 +2
+				[NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]프랑스[ENDCOLOR] [ICON_VP_GREATART] 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4
+				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]같은 외국 문명[ENDCOLOR] 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4
+				[NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]같은 외국 문명[ENDCOLOR] 걸작 미술품 2개: [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALON_TEXT">
@@ -654,8 +656,7 @@
 			<Text></Text>
 		</Row>
 
-		<!-- Germany -->
-
+		<!-- 독일 -->
 		<Row Tag="TXT_KEY_BUILDING_BREWHOUSE">
 			<Text>양조장</Text>
 		</Row>
@@ -670,46 +671,46 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_KRUPP_GUN">
-			<Text>Krupp Gun</Text>
+			<Text>크루프 포</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KRUPP_GUN_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KRUPP_GUN_TEXT">
-			<Text>A Krupp Gun is any member of a family of artillery pieces created by the Krupp family commercial steelworks, based in Essen. The Krupp Guns were the first cast steel field guns to enter mass production and adoption by any military, with the Royal Prussian Army's first purchase in 1856. Krupp Guns were renowned for their quality and for being at the forefront of new developments in artillery.[NEWLINE][NEWLINE]At the outbreak of World War I, the German army doctrine emphasized mobility and the use of howitzer guns which fired in higher arcs to hit entrenched enemies at steeper angles. This doctrine paid early dividends during the initial stages of the Schlieffen Plan, where smaller, lighter German guns worked well as they marched through Belgium and Northern France, and raced the British to the sea. Though the bulk of their artillery was smaller pieces, like the 7.7 cm FK 96, the Germans also had some of the most impressive heavy artillery of the war with the Minenwerfers, or "mine throwers", short range artillery that outperformed contemporary mortars at a fraction of the weight. As the war began, Germany deployed twelve experimental 45 cm minenwerfer siege guns, some of the largest field artillery pieces ever produced. Affectionately dubbed "Big Bertha" by the German troops, these siege guns punched through dozens of hardened fortresses around Liege and Mauberge, taking the German army within striking distance of Paris in a matter of weeks.</Text>
+			<Text>크루프 포는 에센에 있는 크루프 가문의 상업용 강철 공장에서 만든 대포 제품군에 속하는 모든 대포를 말합니다. 크루프 포는 대량 생산에 들어간 최초의 주조강철 야전포로, 군대에서 최초로 채택되었으며, 1856년 왕립 프로이센 군대가 처음으로 구매했습니다. 크루프 포는 뛰어난 품질과 포병의 새로운 발전을 선도하는 기업으로 유명했습니다.[NEWLINE][NEWLINE]1차 세계대전이 발발하자 독일군의 교리는 기동성과 더 높은 각도에서 참호에 갇힌 적을 공격하기 위해 더 높은 각도로 발사하는 곡사포 사용을 강조했습니다. 이 교리는 슐리펜 계획의 초기 단계에서 큰 성과를 거두었습니다. 독일의 작고 가벼운 대포는 벨기에와 북부 프랑스를 진군하면서 효과적이었고, 영국군을 바다까지 추격했습니다. 독일군의 포병 대부분은 7.7cm FK 96과 같은 작은 포병이었지만, 독일군은 미넨베르퍼, 즉 "고폭탄 발사기"라는 전쟁 당시 가장 인상적인 중포병도 보유하고 있었습니다. 이 단거리 포병은 당시 박격포보다 무게는 훨씬 가볍지만 성능이 뛰어났습니다. 전쟁이 시작되자 독일은 12문의 실험용 45cm 미넨베르퍼 공성포를 배치했는데, 이는 역사상 가장 큰 야전포 중 일부였습니다. 독일군이 애정을 담아 "빅 버사(Big Bertha)"라는 별명을 붙인 이 공성포는 리에주와 모베르주 주변의 수십 개의 견고한 요새를 뚫고 몇 주 만에 독일군이 파리를 공격 거리까지 끌어올렸습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KRUPP_GUN_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Greece -->
+		<!-- 그리스 -->
 		<Row Tag="TXT_KEY_BUILDING_GYMNASION">
-			<Text>Gymnasion</Text>
+			<Text>김나시온</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GYMNASION_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GYMNASION_TEXT">
-			<Text>The Gymnasion were training facilities used by adult Greek men to socialize and practice for public games. The name roughly translates to "naked training place", because all athletes practiced while naked, and usually while covered in olive oil. Gymnasia started as open fields outside city limits, but were later planned as enclosed spaces that were central to Greek public life. While the public games and festivals were important themselves, Gymnasia also became centers of arts and learning. The famous schools of philosophy in Athens - the Academic school founded by Plato, the Peripatetic School founded by Aristotle, and the Cynic school founded by Antisthenes - were all founded and named after the Gymnasia where they met.</Text>
+			<Text>김나시온은 그리스 성인 남성들이 사교 활동을 하고 대중 경기를 연습하는 데 사용했던 훈련 시설이었습니다. 이름은 대략 "벌거벗은 훈련장"으로 번역되는데, 모든 운동선수가 벌거벗은 채로, 대개 올리브 오일을 온몸에 바른 채로 훈련했기 때문입니다. 김나시온은 원래 도시 경계 밖의 열린 운동장으로 시작했지만, 나중에는 그리스 공공 생활의 중심이 되는 밀폐된 공간으로 계획되었습니다. 대중이 참여하는 게임과 축제 자체가 중요했지만, 김나시온 예술과 학습의 중심지이기도 했습니다. 아테네의 유명한 철학 학파인 플라톤이 창시한 아카데미아학파, 아리스토텔레스가 창시한 소요학파, 안티스테네스가 창시한 견유(키니코스)학파는 모두 그들이 모인 김나시온의 이름을 따서 창시되고 명명되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GYMNASION_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_KLEPHT">
-			<Text>Klepht</Text>
+			<Text>클레프테스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KLEPHT_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KLEPHT_TEXT">
-			<Text>Bandits and mountainfolk, turned anti-Ottoman insurgents and freedom fighters, The Klephts were the bedrock upon which the modern Greek army was formed. Together with the men originally hired to capture them, the Armatoloi, the Klephts formed the "yeast of liberty", the first hope for Greek independence after more than four centuries of Ottoman rule.[NEWLINE][NEWLINE]Undisciplined and flighty as one would expect of brigands, Klephts waged an effective guerilla campaign against the much larger Ottoman armies sent to subdue them.  Massacres on both sides of the conflict were inflicted, but European sympathies fell heavily in favor of the Greeks. The unbridled cruelty of the Muslim Ottomans outraged Europe's citizenry, who raised supplies, food and volunteers to fight for a Hellenic independence.[NEWLINE][NEWLINE]After 8 years, Ottoman forces had finally managed to crush the revolt, but where Greek soldiers had failed poets and propaganda had succeeded. French, British, and Russian governments each sent a fleet in defense of the Greek islands in response to popular demand for intervention. In the face of such overwhelming force, the Ottomans sued for peace and liberated Greece. After more than 2,000 years under the boots of Macedonian, Roman and Ottoman conquerors, The Greek homeland was at last free -- unified as one people for the first time in history.</Text>
+			<Text>산적과 산간 민족이었던 클레프테스는 반오스만 반군과 자유의 투사로 변신했고, 이들은 현대 그리스 군대의 기반이 되었습니다. 원래 그들을 잡기 위해 고용된 아르마톨로이와 클레프테스는 "자유의 효모"를 형성했고, 4세기 이상 지속된 오스만 제국의 통치 이후 그리스의 독립을 위한 첫 번째 희망이 되었습니다.[NEWLINE][NEWLINE]산적에게서 기대할 수 있듯이 무질서하고 변덕스러운 클레프테스는 자신들을 제압하기 위해 파견된 훨씬 더 큰 규모의 오스만 군대에 맞서 효과적인 게릴라전을 벌였다. 분쟁의 양측 모두에서 학살이 자행되었지만, 유럽의 동정심은 그리스 쪽으로 크게 기울었습니다. 무슬림 오스만 제국의 억제할 수 없는 잔혹함은 유럽 시민들을 분노하게 했고, 그들은 헬레니즘의 독립을 위해 물자와 식량을 모으고 자원봉사자를 모집했습니다.[NEWLINE][NEWLINE]8년 후, 오스만 군대는 마침내 반란을 진압했지만, 그리스 군인들이 시와 선전을 실패시키는데 성공했습니다. 프랑스, 영국, 러시아 정부는 대중의 개입 요구에 부응하여 그리스 섬을 방어하기 위해 각각 함대를 파견했습니다. 이처럼 압도적인 힘에 직면하여 오스만 제국은 평화를 요청하고 그리스를 해방시켰습니다. 2,000년이 넘게 마케도니아, 로마, 오스만 정복자들의 지배를 받던 그리스 본토는 마침내 자유를 얻었고, 역사상 처음으로 하나의 민족으로 통일되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KLEPHT_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Huns -->
+		<!-- 훈족 -->
 		<Row Tag="TXT_KEY_IMPROVEMENT_EKI">
 			<Text>에키</Text>
 			<Gender>neuter:an</Gender>
@@ -731,43 +732,43 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_TARKHAN">
-			<Text>Tarkhan</Text>
+			<Text>타르칸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TARKHAN_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TARKHAN_TEXT">
-			<Text>Tarkhan were nobles and high-ranking commanders within the armies of the Xiongnu and Hunnic empires. The term spread throughout the languages and peoples of the steppes, appearing as a title within Turkic, Mongol and Iranian cultures, even becoming a common boys name. Analogous to modern day commanders, the Tarkhan were the protectors and conquerors of the Hunnic empire, spurring their civilization forward to greatness.</Text>
+			<Text>타르칸은 흉노와 훈족 제국의 군대에서 귀족이자 고위 지휘관이었습니다. 이 용어는 대초원의 언어와 사람들 사이에 퍼져나갔으며, 투르크, 몽골, 이란 문화권에서는 호칭으로 사용되었고, 심지어는 흔한 남자아이 이름이 되었습니다. 현대의 지휘관과 마찬가지로 타르칸은 훈족 제국의 수호자이자 정복자였으며, 그들의 문명을 위대한 방향으로 이끌었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TARKHAN_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_ULTICUR">
-			<Text>Ulticur</Text>
+			<Text>울티쿠</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ULTICUR_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ULTICUR_TEXT">
-			<Text>The Huns' origins remain shrouded in mystery, but one clue to their Xiongnu heritage is their rule by an Ulticur, or "Six-Horns Council". The Ulticur was a small council of nobles, the most powerful men within the Hunnic Empire besides the emperor himself. Each was seated according to their standing with the emperor, with the emperor's favorite seated to his immediate right.[NEWLINE][NEWLINE]An emperor's legitimacy depended heavily on the tributes he could extract from the surrounding kingdoms and distribute to his nobles. It is surmised that insufficient tributes from the Chinese and other client tribes triggered the decline and disappearance of the Xiongnu in East Asia, only for them reappear as the Huns of Eastern Europe.</Text>
+			<Text>훈족의 기원은 여전히 ​​수수께끼에 싸여 있지만, 흉노족의 유산을 알 수 있는 단서 중 하나는 울티쿠(Ulticur, Alticur 라고도 함), 즉 "여섯 뿔 의회"에 의한 통치입니다. 울티쿠는 훈족 제국에서 황제 다음으로 가장 강력한 인물들로 구성된 소규모 귀족 의회였습니다. 각자는 황제와의 관계에 따라 자리에 앉았고, 황제가 총애하는 사람은 황제의 바로 오른쪽에 앉았습니다.[NEWLINE][NEWLINE]황제의 정통성은 주변 왕국에서 얼마나 많은 조공을 받아 귀족들에게 분배할 수 있느냐에 크게 좌우되었습니다. 동아시아에서 흉노족이 쇠퇴하고 사라진 것은 중국과 다른 종속 부족들로부터 조공을 충분히 받지 못했기 때문이라고 추측되며, 이후 동유럽에서 훈족으로 다시 등장하게 되었다고 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ULTICUR_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Inca -->
+		<!-- 잉카 -->
 		<Row Tag="TXT_KEY_UNIT_WARAKAQ">
-			<Text>Warak'aq</Text>
+			<Text>와라칵</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_WARAKAQ_TEXT">
-			<Text>The Inca warriors were renowned slingers. Their projectile of choice was a rounded stone. While a sling does not have the range or stopping power of a bow and arrow, slings are remarkably small and light weapons, and infantry warriors could easily carry them without becoming encumbered. And as is written in the Old Testament, a trained slinger can kill even the largest opponent with but a single stone...</Text>
+			<Text>잉카 전사들은 유명한 투석병들이었습니다. 그들이 선택한 투사체는 둥근 돌이었습니다. 슬링은 활과 화살만큼 사정거리나 저지력이 뛰어나지는 않지만, 놀라울 정도로 작고 가벼운 무기이며, 보병 전사들은 부담스럽지 않게 쉽게 휴대할 수 있습니다. 그리고 구약성서에 기록된 대로, 훈련된 투석병은 단 하나의 돌로 가장 큰 상대도 죽일 수 있습니다...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_WARAKAQ_STRATEGY">
-			<Text>The {TXT_KEY_UNIT_WARAKAQ} is the Incan unique unit, replacing the {TXT_KEY_UNIT_INCAN_SLINGER}. It has superior range and can daze enemy units which lowers their [ICON_STRENGTH] Combat Strength for a long time.[NEWLINE][NEWLINE]Use it to harass your foes and take down Barbarian camps quickly.</Text>
+			<Text>{TXT_KEY_UNIT_WARAKAQ}은 {TXT_KEY_UNIT_INCAN_SLINGER}을 대체하는 잉카 고유 유닛입니다. 사거리가 뛰어나며 적군을 기절시켜 장시간 [ICON_STRENGTH] 전투력을 낮춥니다.[NEWLINE][NEWLINE]이를 사용해 적을 괴롭히고 야만인 주둔지를 빠르게 무너뜨리세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_WARAKAQ_HELP">
-			<Text>Unique Incan {TXT_KEY_UNIT_INCAN_SLINGER} that has increased [ICON_RANGE_STRENGTH] Attack Range, ignores enemy [COLOR_POSITIVE_TEXT]Zone of Control[ENDCOLOR], and can daze enemy units, lowering their [ICON_STRENGTH] Combat Strength.</Text>
+			<Text>[ICON_RANGE_STRENGTH] 공격 사거리가 증가하고, 적의 [COLOR_POSITIVE_TEXT통제 구역(ZOC)[ENDCOLOR]을 무시하며, 적 부대를 기절시켜 [ICON_STRENGTH] 전투력을 감소시킬 수 있는 잉카 고유 {TXT_KEY_UNIT_INCAN_SLINGER}입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERRACE_FARM_HELP">
 			<Text>인접한 계단식 농장 또는 산 마다 [ICON_FOOD] 식량이 +1 증가합니다. 모든 인접한 농장의 [ICON_FOOD] 식량이 +1 증가합니다.</Text>
@@ -777,32 +778,32 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_QULLQA">
-			<Text>Qullqa</Text>
+			<Text>퀄카</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_QULLQA_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_QULLQA_TEXT">
-			<Text>Qullqa were storage silos located along roadsides near cities and political centers across the Tawantinsuyu. The vast network of Qullqas stored food and supplies for the general populace and the military. This system acted as emergency reserves for the peasantry to protect against the frequent crop failures that took place in the precarious, high-altitude communities throughout the Inca's domains. The storehouses also relieved soldiers from the need to forage, but required constant maintenance from the local populace.[NEWLINE][NEWLINE]Maintaining and stocking the Qullqa system was the responsibility of local lords who resided in stations called Tambos, each located within a day's march of the next. Royal Qullqa stored the luxury and ceremonial goods of the Incan nobility, including feathers, precious stones, and Coca leaves. Coca production was jealously guarded as an imperial monopoly; cultivation and distribution of coca was strictly under the control of the nobles and a few favored classes. In fact, the entire economy of the Incan Empire functioned off a command economy, where access to and control of the goods stored in the Qullqa system ensured the wellbeing and continued expansion of the empire.</Text>
+			<Text>퀄카(Qullqa)는 타완틴수유 지역의 도시와 정치 중심지 근처 도로변에 위치한 저장 창고입니다. 거대한 퀄카 네트워크는 일반 대중과 군대를 위해 식량과 물자를 저장했습니다. 이 시스템은 잉카 영토 전역의 불안정하고 고지대에 위치한 지역에서 자주 발생하는 흉작으로부터 농민을 보호하기 위한 비상 비축 수단 역할을 했습니다. 창고는 군인들의 식량 채집 부담을 덜어주었지만, 지역 주민들의 지속적인 유지 관리가 필요했습니다.[NEWLINE][NEWLINE]퀄카 체계를 유지하고 비축하는 일은 탐보(Tambo)라고 불리는 주둔지에 거주하는 지역 영주들의 책임이었습니다. 탐보는 다음 주둔지에서 하루 거리에 위치해 있었습니다. 왕족 퀄카는 깃털, 보석, 코카 잎 등 잉카 귀족의 사치품과 의례용 물품을 보관했습니다. 코카 생산은 제국의 독점 사업으로 엄격히 보호되었으며, 코카 재배와 유통은 귀족과 소수의 특권 계층의 엄격한 통제를 받았습니다. 사실, 잉카 제국의 전체 경제는 명령 경제로 기능했으며, 퀄카 체계에 저장된 상품에 대한 접근과 통제가 제국의 안녕과 지속적인 확장을 보장했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_QULLQA_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_INTI_MACEMAN">
-			<Text>Inti Maceman</Text>
+			<Text>잉티 철퇴병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INTI_MACEMAN_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INTI_MACEMAN_TEXT">
-			<Text>The standing army of the Inca was formed primarily by nobles, but the Sapa Inca could raise an army of able-bodied men from the general populace at will. Military discipline was strictly enforced when the troops were on the march and the army, although variously specialized, was extremely well trained. Drawing on the resources of a vast empire, the Inca recruited warriors from numerous subordinate tribes with their own military traditions. The Chimu, inheritors of the ancient Moche culture were once bitter enemies of the Inca but, once subdued, provided the Inca with some of their most formidable and loyal troops. The Chimu were known for their use of maces and clubs in warfare. Some warriors strode fearlessly into battle, carrying massive maces that required both hands to swing and decimated anything in their path. These elite shock troops posed a deadly threat to any opponent, whether in the field or in a fortification under siege.</Text>
+			<Text>잉카의 상비군은 주로 귀족들로 구성되었지만, 사파 잉카(Sapa Inka, 유일한 황제)는 원하는 대로 일반 대중 중에서 건강한 남자들로 군대를 조직할 수 있었습니다. 군대가 진군할 때는 군사 규율이 엄격히 적용되었으며, 군대는 다양한 전문 분야를 가지고 있었지만 매우 잘 훈련되었습니다. 광대한 제국의 자원을 활용하여 잉카는 고유한 군사 전통을 지닌 수많은 종속 부족에서 전사를 모집했습니다. 고대 모체(Moche) 문화의 후예인 치무(Chimu)족은 한때 잉카의 맹렬한 적이었지만, 정복당한 후에는 잉카에 가장 강력하고 충성스러운 군대를 제공했습니다. 치무족은 전쟁에서 철퇴와 곤봉을 사용한 것으로 유명했습니다. 일부 전사들은 두려움 없이 전투에 나섰고, 두 손으로 휘두르기 위해 거대한 철퇴를 들고 앞을 가로막는 모든 것을 파괴했습니다. 이러한 정예 충격 부대는 전장에 있든 포위 공격을 받는 요새에 있든 모든 적에게 치명적인 위협이 되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INTI_MACEMAN_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- India -->
+		<!-- 인도 -->
 		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR">
 			<Text>하라파 저수지</Text>
 		</Row>
@@ -817,85 +818,85 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_DHANURDHARA">
-			<Text>Dhanurdhara</Text>
+			<Text>다누르다라</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DHANURDHARA_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DHANURDHARA_TEXT">
-			<Text>Archery was the most highly revered martial art of ancient India. Many of the culture heroes and gods of the Vedic texts describe archers of unparalleled skill, including Arjuna, Rama, Karna, and even Shiva himself. Traditional Indian bows are described as long, matching the height of their users, but without the tremendous strength of the Welsh longbow.</Text>
+			<Text>궁술은 고대 인도에서 가장 존경받는 무술이었습니다. 베다 경전에 나오는 많은 문화적 영웅과 신들은 비할 데 없는 기술을 가진 궁수들에 대해 묘사하고 있는데, 여기에는 아르주나, 라마, 카르나, 심지어 시바 자신도 포함됩니다. 전통적인 인도 활은 사용자의 키에 맞는 긴 활로 묘사되지만, 웨일스 장궁처럼 엄청난 강도를 지니지는 못합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DHANURDHARA_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Indonesia -->
+		<!-- 인도네시아 -->
 
 		<Row Tag="TXT_KEY_UNIT_DJONG">
-			<Text>Djong</Text>
+			<Text>종</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DJONG_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DJONG_TEXT">
-			<Text>At the time of their creation in the 1st century CE, the Djong were easily the largest, most capable seagoing vessels anywhere in the world. Averaging at over 400 tons of cargo and capable of withstanding the typhoon winds, these marvels of engineering extended the Javanese trade networks from northern China to Ghana. At the time of the Majapahit Empire, Djong were armed with the earliest breech-loading cannons, the brass cetbang, which helping them conquer the entire Indonsesian Archipelago. Djong were still widely used until the 16th century, and the methods for designing Djong ships spread throughout Asia, influencing the creation of China's iconic junk boats.</Text>
+			<Text>서기 1세기에 처음 만들어졌을 당시, 종(Djong)은 단연 세계 어느 곳에서나 가장 크고 가장 성능이 뛰어난 항해 선박이었습니다. 평균 400톤 이상의 화물을 운반하고 태풍의 바람을 견딜 수 있는 이러한 공학적 경이로움은 자바의 무역 네트워크를 중국 북부에서 가나까지 확장했습니다. 마자파힛 제국 당시, 종은 최초의 후장식 대포인 황동 쳇방(Cetbang)으로 무장했는데, 이는 그들이 인도네시아 군도 전체를 정복하는 데 도움이 되었습니다. 종은 16세기까지 널리 사용되었으며, 종 선박을 설계하는 방법은 아시아 전역으로 퍼져 중국의 상징적인 정크선 제작에 영향을 미쳤습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DJONG_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_KAMPONG">
-			<Text>Kampong</Text>
+			<Text>캄퐁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_KAMPONG_TEXT">
-			<Text>{TXT_KEY_IMPROVEMENT_KAMPONG_HELP}[NEWLINE][NEWLINE]The term 'Sama-Bajau' refers to a single ethnic group scattered between the modern day Philippines, Indonesia, and Malaysia. The Sama people live a semi-sedentary life in stilt villages or "kampongs" in coastal shallows, while Bajau refers to nomadic groups living in house boats. The Sama-Bajau defy national and ethnic borders, travelling and fishing between islands on the open ocean. The Sama-Bajau were frequently employed as privateers and raiders by the Srivijayan kingdoms. Bajau-Laut possess unique abilities which allow them to see better underwater, and dive longer and deeper than any other group of humans.[NEWLINE][NEWLINE]In recent years, the Bajau-Laut have been forced into sedentary lifestyles by various governments, and face discrimination as pagans, outsiders and squatters. A combination of overfishing and modernization threatens the Bajau's nomadic traditions, as they have been forcibly resettled on land. Still, a few communities of Bajau-Laut ride their lepa lepa across the blue water of Southeast Asia, only traveling to shore a few times each year.</Text>
+			<Text>{TXT_KEY_IMPROVEMENT_KAMPONG_HELP}[NEWLINE][NEWLINE]'사마 바자우(Sama-Bajau)'라는 용어는 오늘날의 필리핀, 인도네시아, 말레이시아에 흩어져 있는 단일 민족 집단을 가리킨다. 사마족은 해안 얕은 곳에 있는 기둥 위의 마을이나 "캄퐁(Kampong)"에서 반쯤 정착해 사는 생활을 하는 반면, 바자우족은 수상가옥에서 사는 유목민 집단을 말합니다. 사마 바자우족은 국가적, 민족적 경계를 무시하고, 넓은 바다에 있는 섬들 사이를 여행하고 낚시를 합니다. 사마 바자우족은 종종 스리비자야 왕국의 사략선 선장과 약탈자로 고용되었습니다. 바자우 라우트족은 물속에서 더 잘 볼 수 있고, 다른 어떤 인간 집단보다 더 오래, 더 깊이 잠수할 수 있는 독특한 능력을 가지고 있습니다.[NEWLINE][NEWLINE]최근 몇 년 동안 바자우 라우트족은 여러 정부에 의해 정착형 생활 방식으로 강요당했으며, 이교도, 외부인, 불법 거주자로서 차별을 받고 있습니다. 과도한 어획과 현대화가 결합되어 바자우족의 유목민 전통이 위협받고 있으며, 바자우족은 강제로 육지로 이주하게 되었습니다. 그럼에도 불구하고, 바자우 라우트족의 일부 지역 사회는 레파레파(lepa lepa, 통나무로 만든 작은 배)를 타고 동남아시아의 푸른 바닷물을 건너며, 일년에 몇 번만 해안으로 이동합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_KAMPONG_HELP">
-			<Text>The Kampong can be built by [ICON_WORKER] Embarked Workers on Coastal and Lake Tiles, and not next to another Kampong.[NEWLINE][NEWLINE]Each Kampong yields [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_CULTURE] Culture.</Text>
+			<Text>인도네시아의 고유 시설입니다. 캄퐁은 해안 및 호수 타일에서 [ICON_WORKER] 탑승한 노동자가 건설할 수 있으며, 다른 캄퐁 옆에 건설할 수 없습니다.[NEWLINE][NEWLINE]각 캄퐁은 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_CULTURE] 문화를 생산합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_KAMPONG">
-			<Text>Build a [LINK=IMPROVEMENT_INDONESIA_KAMPONG]Kampong[\LINK]</Text>
+			<Text>[LINK=IMPROVEMENT_INDONESIA_KAMPONG]캄퐁[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_KAMPONG_HELP">
-			<Text>Constructs a Kampong, which increases [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_CULTURE] Culture.</Text>
+			<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_CULTURE] 문화를 증가시키는 캄퐁을 건설합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_KAMPONG_REC">
-			<Text>It will increase [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_CULTURE] Culture.</Text>
+			<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_CULTURE] 문화가 증가합니다.</Text>
 		</Row>
 
-		<!-- Iroquois -->
+		<!-- 이로쿼이 -->
 		<Row Tag="TXT_KEY_UNIT_PROWLER">
-			<Text>Prowler</Text>
+			<Text>프라울러</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROWLER_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROWLER_TEXT">
-			<Text>Unlike many other tribes, the Iroquois had easy access to trade goods at Dutch forts along the Hudson River, and traded for various goods and luxuries. Weapons of war such as the iron axe and musket were highly sought after, and by the 1640s the Iroquois were well-equipped to fight their traditional Huron and Algonquian enemies. Common muskets were given in exchange for pelts and food, but often of lighter and smaller caliber than military-grade muskets. The Dutch and British feared giving high-quality weapons to people who could turn against them, but the Iroquois often found the smaller weapons more suitable to rough terrain anyways.[NEWLINE][NEWLINE]War tactics were changed after the Iroquois' acquisition of firearms. The lethality of their new weapons put the Iroquois, never a highly populous group, in a precarious position. The tribes' custom of absorbing refugees and prisoners of war changed as fewer and fewer warriors survived clashes with European arms. Great armies walking with prominent chiefs and shamans were replaced with guerilla tactics, small bands of troops guided by commanders.</Text>
+			<Text>다른 많은 부족들과는 달리 이로쿼이족은 허드슨 강변의 네덜란드 요새에서 무역 상품을 쉽게 구할 수 있었고, 다양한 상품과 사치품을 거래했습니다. 철제 도끼와 머스킷총과 같은 전쟁 무기는 매우 인기가 많았고, 1640년대에 이르러 이로쿼이족은 전통적인 휴론족과 알곤킨족의 적과 싸울 수 있는 충분한 장비를 갖추게 되었습니다. 일반적인 머스킷은 가죽과 음식을 대가로 받았지만, 군용 머스킷보다 가볍고 구경이 작은 경우가 많았습니다. 네덜란드와 영국은 자신들에게 반기를 들 가능성이 있는 사람들에게 고품질 무기를 주는 것을 두려워했지만, 이로쿼이족은 험난한 지형에서는 작은 무기가 더 적합하다고 생각했습니다.[NEWLINE][NEWLINE]이로쿼이족이 총기를 획득한 후로 전술이 바뀌었습니다. 이로쿼이족은 인구가 많지 않은 부족이었는데, 그들이 새로 개발한 무기의 치명성은 그들을 위태로운 상황에 빠뜨렸습니다. 유럽인과의 충돌에서 살아남는 전사가 점점 줄어들면서, 부족의 난민과 전쟁 포로 수용 관습은 바뀌었습니다. 저명한 족장들과 무당을 거느리고 행진하던 대규모 군대는 지휘관의 안내를 받는 소규모 부대인 게릴라 전술로 대체되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROWLER_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_TADODAHO">
-			<Text>Tadodaho</Text>
+			<Text>타도다호</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TADODAHO_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TADODAHO_TEXT">
-			<Text>The Tadodaho, also called the Fire Keeper, refers to the head of the Grand Council of the Six Nations that includes the Cayuga, Mohawk, Oneida, Onondaga, Seneca, and Tuscarora people. A spiritual and political leader, the position dates back to the original founding of the Iroquois Confederacy; the hoyenah (chieftain) of the Onondaga Nation in the time of Hiawatha and the Great Peacemaker was named Tadodaho. The leadership of the Grand Council, and the honorific title of its founder, has been passed down for centuries, and is a lifetime appointment. It is said there have been 27 Tadodahos since the original founding of the Haudenosaunee (also called Iroquois) Confederacy.[NEWLINE][NEWLINE]The Great Council Fire of the Iroquois League is still located within the Onondaga reservation in present-day New York. The Tadodahos of recent history have continued to fight for the repatriation and preservation of Haudenosaunee culture, language, and history, as well as petition the American and Canadian governments in defense of their people's lands and treaty rights.</Text>
+			<Text>타도다호족은 불의 수호자라고도 불리며, 카유가족, 모호크족, 오네이다족, 오논다가족, 세네카족, 투스카로라족을 포함하는 6개 부족의 대의회의 수장을 가리킵니다. 정신적, 정치적 지도자인 이 직책은 이로쿼이 연방의 원래 창립 당시부터 존재했습니다. 하이아와타와 위대한 평화주의자 시대에 오논다가의 호이에나(hoyenah, 족장)는 타도다호라고 불렸습니다. 대의회의 리더십과 창립자의 명예 칭호는 수 세기 동안 이어져 왔으며, 종신 임명직입니다. 호데노쇼니족(이로쿼이족이라고도 함) 연합이 처음 건국된 이래로 타도다호족은 27명이었다고 전해집니다.[NEWLINE][NEWLINE]이로쿼이 연맹 대의회의 불은 현재 뉴욕주에 위치한 오논다가 보호구역 내에 아직도 남아 있습니다. 최근 역사 속 타도다호족은 호데노쇼니족의 문화, 언어, 역사를 되찾고 보존하기 위해 계속 싸워왔으며, 그들의 땅과 조약상의 권리를 수호하기 위해 미국과 캐나다 정부에 청원하기도 했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TADODAHO_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Japan -->
+		<!-- 일본 -->
 		<Row Tag="TXT_KEY_BUILDING_DOJO">
-			<Text>도조</Text>
+			<Text>도장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_TEXT">
-			<Text>A dojo is a Japanese term which literally means "place of the way". Initially, dojos were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts but typically it is considered the formal gathering place for students of any Japanese martial arts style such as karate, judo, or samurai, to conduct training, examinations and other related encounters. The concept of a dojo only referring to a training place specifically for Asian martial arts is a Western concept; in Japan, any physical training facility, including professional wrestling schools, may be called dojo because of its close martial arts roots.</Text>
+			<Text>도장은 일본어로 "길을 가는 곳"을 뜻합니다. 원래 도장은 사찰에 부속된 시설이었습니다. 이 용어는 모든 일본 무술에 대한 공식적인 훈련 장소를 의미할 수 있지만, 일반적으로는 가라테, 유도, 사무라이 등 모든 일본 무술 스타일을 수련하는 학생들이 훈련, 시험 및 기타 관련 활동을 하는 공식적인 모임 장소로 간주됩니다. 도장이 단순히 아시아 무술을 훈련하는 장소라는 개념은 서양의 개념입니다. 일본에서는 프로레슬링 학교를 포함한 모든 체육 시설을 도장이라고 부르는데, 이는 무술과 밀접한 관련이 있기 때문입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
 			<Text>도시에서 생산하는 모든 유닛의 경험치가 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 증가합니다. [ICON_WAR] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]무기고를 대체하는 일본의 고유 건물입니다. 도시에서 생산하는 모든 기마, 근접, 화약, 기갑 유닛에 [COLOR_PLAYER_PURPLE]무사도[ENDCOLOR] 진급을 부여합니다.[NEWLINE][NEWLINE]유닛이 얻은 경험치의 140% 만큼 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학을 제공합니다.[NEWLINE][NEWLINE][ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
@@ -905,32 +906,32 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_KABUKI_THEATER">
-			<Text>Kabuki Theater</Text>
+			<Text>가부키 극장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_KABUKI_THEATER_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_KABUKI_THEATER_TEXT">
-			<Text>Kabuki is a classical Japanese dance-drama known for the stylization of its drama and for the elaborate make-up worn by some of its performers. The art form was created in 1603 when Izumo no Okuni, a miko of Izumo-taisha, began performing a new style of dance drama in the dry riverbeds of Kyoto. Despite many the upheaval of Japans modernization, Kabuki remains the most popular of the traditional styles of Japanese drama, and has helped renew interest in other forms of traditional Japanese art.</Text>
+			<Text>가부키는 극적 양식과 일부 공연자들이 하는 정교한 화장으로 유명한 일본의 고전 무용극입니다. 이 예술 형태는 1603년 이즈모 대사의 무녀인 이즈모노 오쿠니가 교토의 마른 강바닥에서 새로운 스타일의 무용극을 공연하기 시작하면서 만들어졌습니다. 일본의 근대화 과정에서 많은 격변이 있었음에도 불구하고, 가부키는 여전히 일본 연극의 전통 스타일 중 가장 인기 있는 편이며, 다른 형태의 일본 전통 예술에 대한 관심을 불러일으키는 데 도움이 되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_KABUKI_THEATER_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_YAMATO">
-			<Text>Yamato</Text>
+			<Text>야마토급 전함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_YAMATO_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_YAMATO_TEXT">
-			<Text>The Yamato-class battleships were the crown jewel of the Imperial Japanese Navy during World War II. Displacing 73,000 tonnes at full load, they were the heaviest and most powerfully armed battleships ever constructed. Each Yamato carried nine 18.1 inch guns, the largest naval artillery ever fitted to a warship, each capable of firing 3,000 lb. shells over 26 miles. Two battleships of the class, Yamato and Musashi, were completed while a third, Shinano, was converted to an aircraft carrier during construction. All were sunk by American forces during WWII.[NEWLINE][NEWLINE]Due to their size, speed, and power, The Yamato-class visibly embodied Japan's determination and readiness to defend its interests against the western powers, especially the United States. One of the reasons that the warship may have such significance in Japanese culture is that the word "Yamato" was often used as a poetic name for Japan itself. Thus, the construction and destruction of the Yamato battleships became symbolic for the rise and fall of Japanese imperial aspirations.</Text>
+			<Text>야마토급 전함은 제2차 세계대전 당시 일본 제국 해군의 왕관의 보석이었습니다. 만재 배수량 73,000톤으로, 역사상 가장 무겁고 강력한 무장을 갖춘 전함이었습니다. 각 야마토는 18.1인치 함포 9문을 탑재했는데, 이는 군함에 장착된 가장 큰 해군 포병으로, 각 함포는 26마일 이상 3,000파운드 포탄을 발사할 수 있었습니다. 이 급의 전함 2척인 야마토와 무사시는 이미 완성되었고, 세 번째 전함인 시나노는 건조 중에 항공모함으로 개조되었습니다. 모든 배는 2차 세계대전 중에 미군에 의해 격침되었습니다.[NEWLINE][NEWLINE]야마토급은 그 크기, 속도, 위력으로 인해 서방 강대국, 특히 미국에 맞서 자국의 이익을 수호하려는 일본의 결의와 준비성을 뚜렷하게 보여주었습니다. 이 군함이 일본 문화에서 그토록 중요한 의미를 갖는 이유 중 하나는 "야마토"라는 단어가 종종 일본 자체를 가리키는 시적인 이름으로 사용되었기 때문입니다. 따라서 야마토 전함의 건조와 파괴는 일본 제국주의적 야망의 부흥과 몰락을 상징하는 사건이 되었다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_YAMATO_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Korea -->
+		<!-- 한국 -->
 		<Row Tag="TXT_KEY_BUILDING_SEOWON">
 			<Text>서원</Text>
 		</Row>
@@ -945,19 +946,19 @@
 		</Row>
 	
 		<Row Tag="TXT_KEY_BUILDING_CHAEBOL">
-			<Text>Chaebol</Text>
+			<Text>재벌</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHAEBOL_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHAEBOL_TEXT">
-			<Text>Chaebol are powerful multi-national corporations originating in South Korea. Beginning as family businesses, generous government investment allowed the Chaebols to quickly industrialize South Korea's agricultural society, in what was called the Miracle on the Han River. The Chaebol became central to the South Korean economy and came to represent the invincibility of South Korea's industrial might until the financial crashes the late 20th century, which saw several important Chaebol declare bankruptcy.[NEWLINE][NEWLINE]Chaebol continue to dominate the South Korean economy and social fabric, and some like Samsung and Hyundai have become household names worldwide. Today, Chaebol account for over 80% of South Korea's exports, and the largest single Chaebol accounts for 17% of the entire nation's GDP.</Text>
+			<Text>재벌은 한국에서 시작된 강력한 다국적 기업입니다. 가족 사업으로 시작한 재벌은 정부의 아낌없는 투자를 통해 한국의 농업 사회를 빠르게 산업화했으며, 이를 한강의 기적이라고 불렀습니다. 재벌은 한국 경제의 중심이 되었고, 20세기 후반 금융 위기로 여러 주요 재벌이 파산하기 전까지 한국 산업의 불패성을 상징했습니다.[NEWLINE][NEWLINE]재벌은 여전히 ​​한국의 경제와 사회 구조를 지배하고 있으며, 삼성과 현대와 같은 일부 재벌은 전 세계적으로 널리 알려진 이름이 되었습니다. 오늘날 재벌은 한국 수출의 80% 이상을 차지하고 있으며, 가장 큰 재벌 하나가 국가 전체 GDP의 17%를 차지합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHAEBOL_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Maya -->
+		<!-- 마야 -->
 		<Row Tag="TXT_KEY_IMPROVEMENT_KUNA">
 			<Text>쿠나</Text>
 		</Row>
@@ -965,7 +966,7 @@
 			<Text>{TXT_KEY_IMPROVEMENT_KUNA_HELP}[NEWLINE][NEWLINE]'쿠나'는 마야어로 사원이나 교회를 뜻합니다. 쿠나는 유라시아의 지구라트나 피라미드와 디자인이 비슷했습니다. 쿠나 그 자체로도 이러한 고대 유적지들 중 대부분으로 남아있지만, 한때는 대도시의 중심지이기도 했습니다. 가장 유명한 것은 치첸이사인데, 세계 불가사의의 자격이 될 정도로 웅장합니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_KUNA_HELP">
-			<Text>쿠나는 숲 또는 정글 타일에만 건설할 수 있습니다. 다른 쿠나와 서로 인접하여 건설할 수 없습니다.</Text>
+			<Text>마야의 고유 시설입니다.[NEWLINE][NEWLINE]쿠나는 숲 또는 정글 타일에만 건설할 수 있습니다. 다른 쿠나와 서로 인접하여 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_KUNA">
 			<Text>[LINK=IMPROVEMENT_KUNA]쿠나[\LINK] 건설</Text>
@@ -978,32 +979,32 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_PITZ_COURT">
-			<Text>Pitz Court</Text>
+			<Text>피츠 코트</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PITZ_COURT_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PITZ_COURT_TEXT">
-			<Text>The Mesoamerican Ball Game, or 'Pitz', is a game of ritual and cultural significance among the Mayan people. The object of the game is to keep the ball in play for as long as possible by striking back and forth within a sloped arena using the hips, though some variations allowed for elbows, shoulders and even rackets. The earliest archaeological evidence of the game come from a court estimated to be 3400 years old.[NEWLINE][NEWLINE]Over 1300 different ballcourts have been found within Mayan ruins, with relatively little variation in size or layout over thousands of years. Every court is shaped as a narrow alley with gently sloping walls on either side and enclosed endzones. This gave the court a roughly H-shaped layout. Later versions of the ballcourts would include hoops at the midpoint, suspended on the walls. Actually sending a ball through the ring must have been a rare occurrence, since the players could not use their hands or feet to guide the ball. Moreover, the rings were only slightly larger than the ball itself and were a long way from the playing alley.[NEWLINE][NEWLINE]The game was more than a mere sporting event to the Mayan people, serving as a substitute for war in the case of a dispute between cities. Later Classical Mayan art suggests a link between the ball game and ritual sacrifice, with winners being decapitated as an offering to the gods. The Maya Twin Myth of the Popol Vuh describes the game between the Hero Twins, Hunahpu and Xbalanque, and lords of the underworld, One Death and Seven Death. The game was played so the Hero Twins might recover Hunahpu's head, which was being used as a ball by the Lords (Hunahpu had been using a squash for his head until his real one could be recovered).</Text>
+			<Text>메소아메리카 볼 게임, 혹은 '피츠(Pitz)'는 마야인들의 의례적이고 문화적 의미가 있는 게임입니다. 이 게임의 목적은 경사진 경기장에서 엉덩이를 이용해 앞뒤로 공을 쳐 최대한 오랫동안 경기에 집중시키는 것이지만, 팔꿈치, 어깨, 심지어 라켓까지 사용하는 변형도 있습니다. 이 게임에 대한 가장 오래된 고고학적 증거는 약 3,400년 전으로 추정되는 경기장에서 나왔습니다.[NEWLINE][NEWLINE]마야 유적지에서는 1,300개가 넘는 다양한 야구장이 발견되었으며, 수천 년 동안 크기나 구조의 변화가 거의 없었습니다. 각 코트는 양쪽에 완만한 경사의 벽이 있고, 엔드존은 둘러싸여 있는 좁은 골목길 형태입니다. 이로 인해 코트는 대략 H자 모양의 레이아웃을 갖게 되었습니다. 이후의 야구장에는 중앙에 후프가 설치되었고, 후프는 벽에 매달려 있었습니다. 실제로 공을 링 안으로 보내는 일은 흔치 않은 일이었을 것입니다. 선수들이 손이나 발을 사용해 공을 움직일 수 없었기 때문이다. 게다가 링은 공 자체보다 약간 더 컸고 경기장으로부터 멀리 떨어져 있었습니다.[NEWLINE][NEWLINE]마야인들에게 이 게임은 단순한 스포츠 경기 이상의 의미를 지녔으며, 도시 간에 분쟁이 생길 경우 전쟁을 대체하는 역할을 했습니다. 후기 고전 마야 미술에서는 공놀이와 의식적 희생 사이에 연관성이 있다고 여겨지며, 승자는 신에게 제물로 목을 베었습니다. 마야의 쌍둥이 신화 포폴 부(Popol Vuh)는 영웅 쌍둥이인 후나흐푸(Hunahpu)와 이슈발랑케(Xbalanque), 그리고 지하 세계의 군주인 원 데스, 세븐 데스 사이의 게임을 묘사합니다. 이 게임은 영웅 쌍둥이가 후나흐푸(Hunahpu)의 머리를 되찾기 위해 진행되었는데, 후나흐푸는 영주들이 공으로 사용하고 있던 머리를 되찾기 위해 진행되었습니다. (후나흐푸는 진짜 머리를 되찾을 때까지 머리에 스쿼시를 사용하고 있었습니다.)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PITZ_COURT_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_HOLKAN">
-			<Text>Holkan</Text>
+			<Text>홀칸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HOLKAN_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HOLKAN_TEXT">
-			<Text>The Maya are often idealized as a peaceful civilization by western historians, but the Maya were not strangers to war. Unlike the wars of Europe and Asia, however, the Maya engaged in a highly ritualized form of combat based on astrological and religious concerns as much as political ones. Squabbles over land, influence, and resources were common, but the need for human sacrifices was also a factor leading to war.[NEWLINE][NEWLINE]The nobility and priesthood of Mayan cities kept a monopoly on violence, making all but the most desperate of wars strictly within the affairs of the upper class. Weapons made of obsidian and chert were stockpiled within the palaces of lords and kings, who would call upon their family to lead raids. The leaders of such expeditions were known as 'Holkan'.</Text>
+			<Text>마야 문명은 서양 역사가들에 의해 종종 이상적인 평화로운 문명으로 묘사되지만, 마야인들은 전쟁을 겪지 않은 것은 아닙니다. 그러나 유럽과 아시아의 전쟁과는 달리 마야인들은 정치적인 이유뿐만 아니라 점성술적, 종교적 이유에 기반을 둔 매우 의례화된 형태의 전투를 벌였습니다. 땅, 영향력, 자원을 둘러싼 다툼은 흔했지만, 인간 희생에 대한 필요성 역시 전쟁으로 이어지는 요인이었습니다.[NEWLINE][NEWLINE]마야 도시의 귀족과 사제들은 폭력을 독점했으며, 가장 절망적인 전쟁을 제외한 모든 전쟁은 엄밀히 상류 계급의 일이었습니다. 흑요석과 규암으로 만든 무기는 영주와 왕의 궁전 안에 비축되어 있었고, 그들은 가족을 불러 약탈을 지휘했습니다. 이러한 탐험대의 지휘관은 '홀칸'으로 알려졌습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HOLKAN_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Mongolia -->
+		<!-- 몽골 -->
 		<Row Tag="TXT_KEY_BUILDING_GER">
 			<Text>게르</Text>
 		</Row>
@@ -1018,10 +1019,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_ORDO">
 			<Text>오르도</Text>
-			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_ORDO_TEXT">
-			<Text>{TXT_KEY_IMPROVEMENT_ORDO_HELP}[NEWLINE][NEWLINE]간단히 번역하면, "오르도"는 "궁전의 텐트"를 의미합니다. 하지만, 오르도는 단순한 텐트 이상의 것이었습니다. 그것은 유목민 몽골인 부족의 중심이었습니다.[NEWLINE][NEWLINE]오르도는 칸과 그의 전사들을 위한 본부이자 주요 야영지 역할을 했습니다. 비록 여행을 위해 지어졌지만, 그것은 단순한 장식에서부터 정성스럽게 바느질된 패턴에 이르기까지 스타일을 가지고 있었습니다. 오르도는 칸과 그의 전사들과 함께 그들이 어디를 여행하든 항상 편안함을 느끼도록 했습니다.[NEWLINE][NEWLINE]영토 내 또는 영토에 바로 인접한 곳에 오르도를 건설할 수 있습니다. 오르도를 건설하면 군사 유닛 공급 한도가 1 증가하고 문화 경계도 오르도를 사방으로 둘러싼 육각형 1개로 확장됩니다. 새로운 문화 경계가 다른 문명이 이미 소유한 육각형을 차지하면 외교적 페널티가 부과됩니다. 시타델과 달리 오르도 옆에서 턴을 끝낸 적 유닛은 피해를 입지 않습니다.</Text>
+			<Text>{TXT_KEY_IMPROVEMENT_ORDO_HELP}[NEWLINE][NEWLINE]간단히 번역하면, "오르도"는 "궁전의 텐트"를 의미합니다. 하지만, 오르도는 단순한 텐트 이상의 것이었습니다. 그것은 유목민 몽골인 부족의 중심이었습니다.[NEWLINE][NEWLINE]오르도는 칸과 그의 전사들을 위한 본부이자 주요 야영지 역할을 했습니다. 비록 여행을 위해 지어졌지만, 그것은 단순한 장식에서부터 정성스럽게 바느질된 패턴에 이르기까지 스타일을 가지고 있었습니다. 오르도는 칸과 그의 전사들과 함께 그들이 어디를 여행하든 항상 편안함을 느끼도록 했습니다.[NEWLINE][NEWLINE]영토 내 또는 영토에 바로 인접한 곳에 오르도를 건설할 수 있습니다. 오르도를 건설하면 군사 유닛 공급 한도가 1 증가하고 문화적 경계도 오르도를 사방으로 둘러싼 육각형 1개로 확장됩니다. 새로운 문화적 경계가 다른 문명이 이미 소유한 육각형을 차지하면 외교적 페널티가 부과됩니다. 시타델과 달리 오르도 옆에서 턴을 끝낸 적 유닛은 피해를 입지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_ORDO_HELP">
 			<Text>{TXT_KEY_IMPROVEMENT_CITADEL}를 대체하는 몽골의 위인 타일 시설입니다. {TXT_KEY_UNIT_MONGOL_KHAN}으로만 건설할 수 있습니다.[NEWLINE][NEWLINE]주위로 해당 문명의 영토가 한 타일씩 증가합니다.[NEWLINE][NEWLINE]유닛이 이 타일에 주둔하면 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하고 [ICON_MOVES] 이동력을 모두 회복합니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
@@ -1030,63 +1030,63 @@
 			<Text>[LINK=IMPROVEMENT_ORDO]오르도[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_ORDO">
-			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 이 타일의 특징이 사라집니다.[NEWLINE][NEWLINE]오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50%를 얻고 [ICON_MOVES] 이동력을 모두 회복합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
+			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 이 타일의 특징이 사라집니다.[NEWLINE][NEWLINE]오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화적 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50%를 얻고 [ICON_MOVES] 이동력을 모두 회복합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_BLACK_TUG">
-			<Text>Black Tug</Text>
+			<Text>검은 터그</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BLACK_TUG_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BLACK_TUG_TEXT">
-			<Text>A tug is a pole with circularly arranged horse tail-hairs of varying colors arranged at the top -- a symbol of the importance of horses in Mongol life. A white-haired banner is used as a peacetime symbol, while the black banner was for wartime. The original white banner disappeared early in history, but the black banner survived as the repository of Genghis Khan's soul. The Mongols continued to honor the banner, building a monastery to guard it, but the tug was eventually lost amidst the Stalinist purges of Mongolian nationalists, monks, and intellectuals in 1937.[NEWLINE][NEWLINE]The Nine White banners of Mongolia were revived after democracy was adopted in the early 1990s, replacing the previous communist flags. The modern Mongolian nine white banners are kept in the Government Palace in Ulaanbaatar; the modern Mongolian black banners are kept in the Ministry of Defense.</Text>
+			<Text>터그(Tug, Tugh), 혹은 술데(Sulde)는 꼭대기에 다양한 색깔의 말꼬리털을 원형으로 배열한 막대로, 몽골인의 삶에서 말이 얼마나 중요한지를 상징합니다. 백발기는 평화의 상징으로, 흑색기는 전시의 상징으로 사용되었습니다. 원래의 백기는 역사 초기에 사라졌지만, 흑색기는 칭기즈칸의 영혼을 담아 보존하는 상징으로 남았습니다. 몽골인들은 이 깃발을 계속 존중하며 이를 지키기 위해 수도원을 건설했지만, 1937년 스탈린주의자들이 몽골 민족주의자, 승려, 지식인을 숙청하면서 이 터그는 결국 소실되었습니다.[NEWLINE][NEWLINE]몽골의 9개 백기는 1990년대 초에 민주주의가 채택된 ​​이후 부활하여 이전의 공산주의 깃발을 대체했습니다. 현대 몽골의 9개의 흰 깃발은 울란바토르의 정부궁에 보관되어 있습니다. 현대의 몽골 흑기는 국방부에 보관되어 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BLACK_TUG_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROJECT_YASSA">
-			<Text>Adopt the Yassa</Text>
+			<Text>야사 채택</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_YASSA_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_YASSA_TEXT">
-			<Text>Yassa was a secret written code of law created by Genghis Khan. The word Yassa translates into "order" or "decree". It was the de facto law of the Mongol Empire even though the "law" was never actually made public. The Yassa seems to have originated from decrees issued in wartime, and was later codified and expanded to include cultural and life-style conventions. By keeping the Yassa secret, the decrees could be modified and used selectively. It is believed that the Yassa was supervised by Genghis Khan himself with the help of the high judge of the Mongol Empire: His stepbrother, Shihihutag. Genghis Khan appointed his second son Chagatai (a.k.a. Chagatai Khan) to oversee the execution of the laws.</Text>
+			<Text>야사는 징기스칸이 만든 비밀 성문법전이었습니다. 야사라는 단어는 "질서" 또는 "칙령"으로 번역됩니다. 이 "법"은 실제로 공개되지는 않았지만 몽골 제국의 사실상의 법이었습니다. 야사는 전쟁 중에 발표된 법령에서 유래한 것으로 보이며, 나중에 법전화되어 문화적, 생활 방식적 관습을 포함하도록 확대되었습니다. 야사를 비밀로 유지함으로써 법령을 수정하고 선택적으로 사용할 수 있었습니다. 야사는 칭기즈칸이 몽골 제국의 최고 재판관이었던 그의 양제 시기 쿠투쿠의 도움을 받아 직접 감독했다고 전해집니다. 칭기즈칸은 차남 차가타이(일명 차가타이 칸)를 임명하여 야사 집행을 감독하게 했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_YASSA_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Morocoo -->
+		<!-- 모로코 -->
 		<Row Tag="TXT_KEY_BUILDING_RIAD">
-			<Text>Riad</Text>
+			<Text>리야드</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIAD_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIAD_TEXT">
-			<Text>A Riad is a traditional North African house built in a peristyle format, surrounding an interior garden or courtyard. These homes were often plain on the exterior, but lavishly decorated inside, projecting humility and austerity while preserving a family's comfort and privacy.[NEWLINE][NEWLINE]While architectural style has changed over the years, the riad's basic form is still used in modern design. Riads enjoyed something of a renaissance during French occupation of North Africa. As befitting Europe's fascination with preserving historic heritage sites, restoration efforts on old Riads were undertaken throughout Morocco's major cities, often converting old Riads into hotels or restaurants.</Text>
+			<Text>리야드는 내부 정원이나 안뜰을 둘러싼 페리스타일 형태로 지어진 북아프리카의 전통적인 주택입니다. 이런 집들은 겉모습은 단순하지만, 안은 호사스럽게 장식되어 있어 가족의 편안함과 프라이버시를 보호하면서도 겸손함과 검소함을 드러냅니다.[NEWLINE][NEWLINE]건축 양식은 세월이 흐르면서 변화했지만, 리야드의 기본 형태는 여전히 현대 디자인에서 사용되고 있습니다. 프랑스가 북아프리카를 점령하는 동안 리야드는 일종의 르네상스를 누렸습니다. 유럽 ​​사람들이 역사적 유적지를 보존하는 데 관심을 갖는 만큼, 모로코의 주요 도시 곳곳에서 오래된 리야드에 대한 복원 작업이 이루어졌으며, 종종 오래된 리아드를 호텔이나 레스토랑으로 개조하기도 했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIAD_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_CORSAIR">
-			<Text>Corsair</Text>
+			<Text>커세어</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CORSAIR_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CORSAIR_TEXT">
-			<Text>The Barbary Corsairs were Muslim pirates and privateers operating off the coast of North Africa who became infamous throughout Europe. Ranging throughout the Mediterranean and as far as Iceland, the Corsairs slaughtered livestock and captured Christians for sale in the slave markets of the Islamic world. The frequency and ferocity of these raids, or "Razzia" was such that long stretches of Italian and Spanish coast were abandoned for fear of abduction. It is estimated that some 1.25 million people were enslaved by Barbary corsairs between 1530 and 1780 A.D.[NEWLINE][NEWLINE]The scope of Corsair activity began to diminish in the latter part of the 17th century, as the more powerful European navies started to pose a real threat to the Barbary States. However, Christian shipping and coastlines continued to suffer until the early 19th century. Following the Napoleonic Wars and the Congress of Vienna in 1814, European powers agreed upon the need to suppress the Barbary Corsairs for good. The razzias finally ceased after the Second Barbary War between the Barbary pirates and the United States, the impetus for the creation of the US Navy.[NEWLINE][NEWLINE]"It is written in our Koran, that all nations which do not acknowledge the Prophet are sinners, whom it is the right and duty of the faithful to plunder and enslave; and that every mu'min (believer) who is slain in this warfare is sure to go to paradise."[NEWLINE][TAB]- Sidi Haji Abdrahaman, to Thomas Jefferson in reply to his demand for the protection of American merchant ships</Text>
+			<Text>바르바리 해적은 북아프리카 해안에서 활동하던 무슬림 해적이자 사략선으로, 유럽 전역에서 악명을 떨쳤습니다. 해적들은 지중해 전역과 아이슬란드까지 진출하여 가축을 학살하고 기독교인을 포로로 잡아 이슬람 세계의 노예 시장에 팔았습니다. 이러한 습격, 즉 "라지아(Razzia)"의 빈도와 잔혹함 때문에 이탈리아와 스페인 해안의 긴 구간은 납치에 대한 두려움으로 인해 버려졌습니다. 1530년에서 1780년 사이에 바르바리 해적에 의해 노예로 팔린 사람의 수는 약 125만 명으로 추산됩니다.[NEWLINE][NEWLINE]17세기 후반에 들어서면서 더욱 강력해진 유럽 해군이 바르바리 국가에 실질적인 위협을 가하기 시작하면서 해적 활동의 범위는 줄어들기 시작했습니다. 그러나 기독교 해운과 해안선은 19세기 초까지 계속해서 어려움을 겪었습니다. 나폴레옹 전쟁과 1814년 빈 회의 이후, 유럽 열강은 바르바리 해적을 영구히 진압해야 한다는 데 동의했습니다. 바르바리 해적과 미국 간의 제2차 바르바리 전쟁 이후 라지아는 마침내 중단되었고, 이는 미국 해군 창설의 계기가 되었습니다.[NEWLINE][NEWLINE]"코란에 적혀 있어요. 선지자 마호메트를 인정하지 않은 모든 나라들은 죄인이며, 그들을 공격해서 노예로 삼는 것은 정당하며, 신실한 신도의 의무이다. 게다가 이런 전쟁에 참가한 모든 무슬림들은 반드시 천국에 갈 수 있다."[NEWLINE][TAB]- 시디 하지 압둘 라만 아드자, 토머스 제퍼슨의 미국 상선 보호 요구에 대한 답변</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CORSAIR_STRATEGY">
 			<Text></Text>
 		</Row>
 
-		<!-- Netherlands -->
+		<!-- 네덜란드 -->
 		<Row Tag="TXT_KEY_BUILD_POLDER_HELP">
 			<Text>습지 또는 지상 타일에 3타일 이상 인접한 특징이 없는 호수/해양 타일에만 건설할 수 있습니다.</Text>
 		</Row>
@@ -1101,26 +1101,26 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DOELEN">
-			<Text>Doelen</Text>
+			<Text>도엘렌</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOELEN_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOELEN_TEXT">
-			<Text>Within the cities of the Low Countries, the institution of policing has its roots in the schutterij, a voluntary town watch and citizen militia. Membership in the town's schuttersgilde was often undertaken by wealthy burghers as a stepping stone for further public posts in the city. The Schutterij were responsible for military support during a siege or revolt, fire, and for closing and re-opening the city gates each day. Because of their secondary function as social clubs for wealthy and ambitious young men, the schutterij held undue influence over municipal politics, and often took upon themselves additional responsibilities such as hosting public banquets, religious functions, and philanthropic work. The officers regularly paid for group portraits of the members, some of which are still highly regarded as the finest paintings produced by the Dutch Golden Age.[NEWLINE][NEWLINE]The training grounds for schutters were called Doelen, meaning "target range". Doelen typically were placed near the city walls and consisted of an outdoor firing range with an adjoining hall for gymnastic exercise and meetings. Many Doelen throughout the Netherlands have been preserved, though often converted into school gymnasiums, libraries, or community halls.</Text>
+			<Text>저지대 국가의 도시에서는 경찰 제도가 자발적인 도시 경비대이자 시민 민병대인 슈터레이(Schutterij)에서 유래했습니다. 도시의 슈테르스길데(Schuttersgilde) 회원이 되는 것은 종종 부유한 시민들이 도시에서 더 나아가 공공 직책을 맡기 위한 발판으로 삼는 일이었습니다. 슈터레이(Schutterij)는 포위 공격이나 반란이 일어났을 때 군사 지원을 담당했고, 화재 발생 시에도 군사 지원을 맡았으며, 매일 성문을 닫고 다시 여는 역할도 맡았습니다. 부유하고 야심 찬 젊은이들을 위한 사교 클럽이라는 부차적 기능 때문에 슈터레이는 지방 정치에 부당한 영향력을 행사했으며, 종종 대중 연회, 종교 행사, 자선 사업과 같은 추가적인 책임을 떠맡았습니다. 장교들은 정기적으로 회원들의 단체 사진 촬영 비용을 지불했는데, 그 중 일부는 아직도 네덜란드 황금기의 최고 걸작으로 높이 평가받고 있습니다.[NEWLINE][NEWLINE]슈터의 훈련장은 "목표 범위"를 뜻하는 도엘렌(Doelen)이라고 불렸습니다. 도엘렌은 일반적으로 도시 성벽 근처에 위치했으며, 운동과 회의를 위한 홀이 딸린 야외 사격장으로 구성되었습니다. 네덜란드 전역의 많은 도엘렌은 보존되어 왔지만, 종종 학교 체육관, 도서관 또는 커뮤니티 홀 등으로 개조되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOELEN_STRATEGY">
 			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_GOEDENDAG">
-			<Text>Goedendag</Text>
+			<Text>고덴닥</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GOEDENDAG_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GOEDENDAG_TEXT">
-			<Text>A Goedendag is a four-foot long club with a spearhead at its tip that was used by the militias of Medieval Flanders during the Franco-Flemish War. The weapon was christened "goedendag" by the French, a cognate with the Dutch greeting "good day". This name may be a reference to the Bruges Matins massacre of 1302, in which the guildsmen of Bruges took over the city by greeting people in the streets and murdering anyone who answered with a French accent.[NEWLINE][NEWLINE]Goedendags were used to great effect by the guildsmen of Flanders against the French knights, but exactly how the weapon was used is a source of debate. Contemporary illustrations show it being used as a club, written accounts describe its first use as a spear to meet a charge, then a club as the enemy was halted. However they worked, men armed with Goedendags marked the beginning of the end for heavy cavalry in Western Europe, and the dawn of an "Infantry Revolution" where peasant militia were now a credible threat to professional soldiers. The stunning victory of common men over foreign tyrants became a wellspring of romantic nationalism for the Low Countries.[NEWLINE][NEWLINE]"each held his godendart (sic) raised against the French, the iron as one meets a wild boar"[NEWLINE][TAB]- Guillaume Guiart, a contemporary account describing the battle of Courtrai, 1302 A.D.</Text>
+			<Text>고덴닥은 끝에 창촉이 달린 4피트 길이의 곤봉으로, 프랑스-플랑드르 전쟁 당시 중세 플랑드르의 민병대가 사용했습니다. 프랑스인들은 이 무기를 "고덴닥(Goedendag)"이라고 명명했는데, 이는 네덜란드의 인사말인 "고덴닥(Goedendag, (낮 인사) 안녕하세요)"와 어원이 같습니다. 이 이름은 1302년 브뤼헤 마틴스(Brugse Metten) 학살 사건을 가리키는 것일 수도 있는데, 당시 브뤼헤의 길드원들은 거리에서 사람들에게 인사하고 프랑스식 악센트로 대답하는 사람은 누구나 살해하며 도시를 장악했습니다.[NEWLINE][NEWLINE]고덴닥은 플랑드르의 길드원들이 프랑스 기사단을 상대로 큰 효과를 거두며 사용했지만, 이 무기를 정확히 어떻게 사용했는지는 논란의 여지가 있습니다. 당시의 삽화에서는 곤봉으로 사용되었다는 것을 보여주며, 기록된 기록에서는 처음에는 돌격에 맞서기 위해 창으로 사용되었고, 그다음에는 적을 저지할 때 곤봉으로 사용되었다고 기술되어 있습니다. 그러나 그들이 어떤 방식으로 작전을 수행했든, 고덴닥으로 무장한 병사들은 서유럽에서 중기병대의 종말을 알리는 신호였고, 농민 민병대가 전문 군인들에게 실질적인 위협이 되는 "보병 혁명"의 새벽을 알렸습니다. 외국의 폭군에 대한 평범한 사람들의 놀라운 승리는 저지대 국가의 낭만적인 민족주의의 원천이 되었습니다.[NEWLINE][NEWLINE]"각자는 프랑스군에 맞서 자신의 신의 검을 높이 들었고, 마치 멧돼지를 만난 것처럼 철을 높이 들었습니다."[NEWLINE][TAB]- 기욤 기아르가 1302년 코르트레이크 전투를 묘사한 동시대 기록.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GOEDENDAG_STRATEGY">
 			<Text></Text>
@@ -1140,58 +1140,57 @@
 			<Text>{TXT_KEY_BUILDING_FORGE}을 대체하는 오스만의 고유 건물입니다. {TXT_KEY_BUILDING_SIEGE_FOUNDRY}는 {TXT_KEY_BUILDING_FORGE}의 보너스에 더해, 군사 유닛 생성 시 [ICON_RESEARCH] 과학을 얻고, 공성 유닛을 더 빨리 생산할 수 있게 하며, 공성 유닛에 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_VOLLEY}[ENDCOLOR] 진급을 부여합니다.[NEWLINE][NEWLINE]능력을 이용해 대규모 포병 부대를 구축하여 적의 성벽을 무너뜨리고 그들의 땅을 정복하세요!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD">
-			<Text>Great Bombard</Text>
+			<Text>대형 사석포</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_HELP">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_TEXT">
-			<Text>Bigger is better, and biggest is best. The super-sized bombards of the late medieval were first used in Western European warfare at the beginning of the 15th century, but it was the Ottomans that would realize the bombard's full potential at the Siege of Constantinople in 1453. Unable to find patronage with the Byzantine emperor, a Hungarian gunfounder named Orban sold his services to Mehmed II of the Ottoman Empire, and began crafting bronze cannons capable of lobbing 1.6 tons of shaped stone more than a mile.[NEWLINE][NEWLINE]Transporting such massive weapons took as many as 60 oxen, and required construction of entire road networks before the cannons could be brought to bear against the impregnable Theodosian Walls. Within a day of the opening bombardment, massive stones smashed the outer defenses to rubble and the city which had stood as a fortress of Christendom for a millennium fell. The sack of Constantinople raged for three days following, and triggered a mass exodus of Greeks into Europe proper. The influx of Byzantine refugees brought a rediscovery of the philosophical and intellectual achievements of Greek culture into Western Europe, planting the seeds of the Renaissance.[NEWLINE][NEWLINE]Stone bombards were supplanted by iron-ball cannons by the end of the 16th century, and few bombards are left intact. None of the bombard's descendants, however, can claim to have single-handedly ended an era.</Text>
+			<Text>더 큰 것이 더 좋고, 가장 큰 것이 가장 좋습니다. 중세 후기의 대형 포탑은 15세기 초 서유럽의 전쟁에서 처음 사용되었지만, 오스만 제국이 포탑의 잠재력을 완전히 깨달은 것은 1453년 콘스탄티노플 공성전에서였습니다. 비잔틴 황제의 후원을 받지 못한 오르반이라는 헝가리의 총포 제작자는 오스만 제국의 메흐메드 2세에게 자신의 서비스를 팔았고, 1.6톤의 돌을 1마일 이상 던질 수 있는 청동 대포를 제작하기 시작했습니다.[NEWLINE][NEWLINE]이렇게 거대한 무기를 운반하려면 무려 60마리의 소가 필요했고, 난공불락의 테오도시우스 성벽에 대포를 발사하기 전에 완전한 도로망을 건설해야 했습니다. 포격이 시작된 지 하루 만에 거대한 돌들이 외곽 방어 시설을 파괴하고 폐허로 만들었고, 천 년 동안 기독교의 요새로 자리 잡은 도시가 함락되었습니다. 콘스탄티노플 약탈은 그 후 3일간 맹위를 떨쳤고, 이로 인해 그리스인들이 유럽으로 대거 이주하는 계기가 되었습니다. 비잔틴 난민의 유입으로 그리스 문화의 철학적, 지적 업적이 서유럽에 재발견되었고, 르네상스의 씨앗이 뿌려졌습니다.[NEWLINE][NEWLINE]16세기 말에 사석포는 금속제 포탄을 사용하는 포로 대체되었고, 온전하게 남아 있는 포는 거의 없습니다. 하지만 포의 후손 중 어느 누구도 단독으로 시대를 끝냈다고 주장할 수는 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_STRATEGY">
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_1">
-			<Text>Basilica</Text>
+			<Text>바실리카</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_2">
-			<Text>Dardanelles Gun</Text>
+			<Text>다르다넬스 대포</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_3">
-			<Text>Mohammed's Great Gun</Text>
+			<Text>무함마드의 거포</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_4">
-			<Text>Orban's Cannon</Text>
+			<Text>오르반의 대포</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_5">
-			<Text>Kalle Acici</Text>
+			<Text>칼레 아시치</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_TERSANE">
-			<Text>Tersane</Text>
+			<Text>테르사네</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_TERSANE_HELP">
-			<Text>Unique Ottoman Great Person Tile Improvement. Can be built by Expending a [ICON_GREAT_ADMIRAL] Great Admiral or embarked [ICON_GREAT_GENERAL] Great General. Must be built in water next to a City, but not next to another Tersane.[NEWLINE][NEWLINE]Provides [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, and [ICON_GREAT_ADMIRAL] Great Admiral Points. +25% [ICON_PRODUCTION] Production and +15 Experience for Naval Units built in the Adjacent City. Does not stack with multiple Tersane next to the same City.[NEWLINE][NEWLINE]Building a Tersane claims adjacent tiles. Units standing on a Tersane receive +50% [ICON_STRENGTH] Tile Defense. Deals 30 damage to adjacent Enemy Units.</Text>
+			<Text>오스만 고유 위인 타일 시설입니다. 도시에 인접해 있지만 다른 테르사네에 인접해 있지 않은 [ICON_GREAT_ADMIRAL] 위대한 제독이나 탑승한 [ICON_GREAT_GENERAL] 위대한 장군을 소모하여 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_GOLD] 골드, [ICON_PRODUCTION] 생산력, [ICON_RESEARCH] 과학, [ICON_GREAT_ADMIRAL] 위대한 제독 점수를 제공합니다. 인접 도시에 건설된 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 +15 증가합니다. 같은 도시 옆에 여러 개의 테르사네가 있는 경우 중첩되지 않습니다.[NEWLINE][NEWLINE]테르사네를 건설하면 인접한 타일도 차지합니다. 테르사네 위에 서 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 50% 증가합니다. 인접한 적군 유닛에 30의 피해를 입힙니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_TERSANE_TEXT">
-			<Text>
-				The Turkish word 'Tersane' is derived from the Venetian 'darsane', from which the English word 'arsenal' is also derived. Though never at the forefront of shipbuilding technology, the Ottomans enjoyed over a century of naval dominance in the Mediterranean following their conquest of Constantinople in 1453. The largest Tersane, constructed at the Golden Horn across from Constantinople, housed over 160 docks, drydocks, storehouses and supply depots, making it one of the largest centers of commerce and industry in the Mediterranean.[NEWLINE][NEWLINE]
-				Ottoman naval power was maintained through its tremendous shipbuilding capacity and its allegiances to the Barbary corsairs of North Africa. This pre-eminence was finally ended at the battle of Lepanto, where a combined Spanish and Venetian armada delivered a crushing defeat to the Ottomans, capturing or destroying more than two thirds of the Ottoman navy. In response, the Ottomans built 250 new vessels within six months.[NEWLINE][NEWLINE]
-				"You come to see how we bear our misfortune. But I would have you know the difference between your loss and ours. In wresting Cyprus from you, we deprived you of an arm; in defeating our fleet, you have only shaved our beard."[NEWLINE] Grand Vizier Mehmed Sokullu, on the defeat at Lepanto, and the capture of Cyprus, which the Ottomans had taken earlier the same year[NEWLINE][NEWLINE]
-				Can be built by Expending a Great Admiral or embarked Great General. Must be built in water next to a City, but not next to another Tersane.[NEWLINE][NEWLINE]Provides [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, and [ICON_GREAT_ADMIRAL] Great Admiral Points. +25% [ICON_PRODUCTION] Production and +15 Experience for Naval Units built in the Adjacent City. Does not stack with multiple Tersane next to the same City.[NEWLINE][NEWLINE]Building a Tersane claims adjacent tiles. Units standing on a Tersane receive +50% [ICON_STRENGTH] Tile Defense. Deals 30 damage to adjacent Enemy Units.
+			<Text>{TXT_KEY_IMPROVEMENT_TERSANE_HELP}터키어 '테르사네(Tersane)'는 베네치아어 '다르사네(Darsane)'에서 유래되었으며, 영어 단어 '아스널(Arsenal)'도 이 단어에서 유래되었습니다. 오스만 제국은 조선 기술의 선두에 있지는 않았지만, 1453년 콘스탄티노플을 정복한 이후 지중해에서 1세기 이상 해상 지배력을 누렸습니다. 콘스탄티노플 맞은편 금각만에 건설된 가장 큰 테르사네에는 160개가 넘는 부두, 건조도크, 창고, 보급창고가 있어 지중해에서 가장 큰 상업과 산업의 중심지 중 하나였습니다.[NEWLINE][NEWLINE]오스만 제국의 해군력은 엄청난 조선 능력과 북아프리카의 바르바리 해적과의 동맹을 통해 유지되었습니다. 이러한 우월성은 레판토 해전에서 마침내 끝났습니다. 이 해전에서 스페인과 베네치아의 연합 함대는 오스만 제국에 참패를 안기고 오스만 해군의 3분의 2 이상을 나포하거나 파괴했습니다. 이에 대응하여 오스만 제국은 6개월 만에 250척의 새로운 선박을 건조했습니다.[NEWLINE][NEWLINE]"당신은 우리가 불행을 어떻게 견디는지 보러 오셨구려. 하지만 당신의 손실과 우리의 손실의 차이를 알려드리고 싶소. 당신들로부터 키프로스를 탈취한 것은 우리가 당신의 팔을 뽑아 버린 것과 같고 우리 함대가 패한 것은 단지 우리의 수염을 깎은 것이나 다름없소."[NEWLINE][TAB] - 레판토 전투의 패배와 오스만 제국이 같은 해 초에 점령했던 키프로스의 함락에 대한 대재상 소콜루 메흐메트의 연설
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERSANE">
-			<Text>Construct a [LINK=IMPROVEMENT_OTTOMAN_TERSANE]Tersane[\LINK]</Text>
+			<Text>[LINK=IMPROVEMENT_OTTOMAN_TERSANE]테르사네[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERSANE_HELP">
-			<Text>It will increase [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, and [ICON_GREAT_ADMIRAL] Great Admiral Points. Increases the [ICON_PRODUCTION] Production rate and Experience of new Naval Units in an adjacent City. Gives [ICON_STRENGTH] Defense Bonus to units stationed on it. Claims adjacent tiles.</Text>
+			<Text>[ICON_GOLD] 골드, [ICON_PRODUCTION] 생산력, [ICON_RESEARCH] 과학, [ICON_GREAT_ADMIRAL] 위대한 제독 점수가 증가합니다. 인접 도시의 새로운 해군 유닛의 [ICON_PRODUCTION] 생산 속도와 경험치를 증가시킵니다. 해당 지역에 주둔한 유닛에 [ICON_STRENGTH] 방어 보너스를 부여합니다. 인접 타일을 차지합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERSANE_REC">
-			<Text>Unit will be consumed.[NEWLINE]Unique Ottoman Tile Improvement. Provides [ICON_GOLD] Gold, [ICON_PRODUCTION] Production and [ICON_RESEARCH] Science. Gives a [ICON_STRENGTH] Defense Bonus to units stationed on it.</Text>
+			<Text>유닛이 소모됩니다.[NEWLINE]오스만 고유 타일 시설입니다. [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학을 제공합니다. 주둔하는 유닛에 [ICON_STRENGTH] 방어 보너스를 제공합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_TERSANE">
+			<Text>소유한 도시 옆 물가에만 지을 수 있으며, 다른 테르사네와 인접할 수 없습니다.[NEWLINE][NEWLINE]인접 도시에 건설하는 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 10 증가합니다. 같은 도시 옆에 여러 개의 테르사네가 있는 경우 중첩되지 않습니다.[NEWLINE][NEWLINE]테르사네를 건설하면 테르사네를  둘러싼 문화적 경계가 확장되고, [ICON_WAR] 군사 유닛 공급 한도가 1 늘어나며, 이 유닛이 소모됩니다. 테르사네 위에 서 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 50% 증가합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 포함되어 있어, 공격 후에도 소유한 유닛이 이 타일에 주둔할 수 있습니다. 인접한 적 유닛에게 30의 피해를 줍니다.</Text>
 		</Row>
 
-		<!-- Persia -->
+		<!-- 페르시아 -->
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_CHARBAGH">
 			<Text>Charbagh</Text>
@@ -1324,7 +1323,7 @@
 			<Text>Villa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_VILLA_HELP">
-			<Text>Cannot be built on Resources or adjacent to a City or another Villa.[NEWLINE][NEWLINE]A [ICON_RES_FIGS] Figs Resource appears on a tile adjacent to the Villa on construction, and claims that tile if not already owned by any Civilization. The [ICON_RES_FIGS] Figs Resource is removed when the Villa is removed.[NEWLINE]Provides additional [ICON_CULTURE] Culture on the tile, and +2 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.[NEWLINE]+1 [ICON_CULTURE] Culture and [ICON_GOLD] Gold to adjacent Plantations.[NEWLINE]+1 [ICON_FOOD] Food and [ICON_GOLD] Gold to adjacent Farms.</Text>
+			<Text>Unique Roman Improvement. Cannot be built on Resources or adjacent to a City or another Villa.[NEWLINE][NEWLINE]A [ICON_RES_FIGS] Figs Resource appears on a resourceless tile adjacent to the Villa on construction, claiming the tile if it is unowned. The [ICON_RES_FIGS] Figs Resource is removed when the Villa is removed.[NEWLINE]Provides additional [ICON_CULTURE] Culture on the tile, and +2 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.[NEWLINE]+1 [ICON_CULTURE] Culture and [ICON_GOLD] Gold to adjacent Plantations.[NEWLINE]+1 [ICON_FOOD] Food and [ICON_GOLD] Gold to adjacent Farms.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_VILLA_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_VILLA_HELP}[NEWLINE][NEWLINE]Villae were country homes of upper class roman citizens. Over the progressive conquests and expansion of Roman territories and wealth, the villa evolved from relatively simple getaways for social elites into extravagant centers of sprawling agricultural landholdings called Latifundia, an ancient precursor to today's agribusinesses. The first latifundia were created from land confiscated from conquered peoples in the early 2nd century BC in Magna Graecia (Southern Italy). The Latifundia system expanded with later conquests into Spain and North Africa.[NEWLINE][NEWLINE]These estates depended on forced labor for their productivity, often supplied by the enslavement of the same people who occupied the land before conquest. The Latifundia consolidated agricultural production into larger estates with greater economies of scale; owners re-invested profits by purchasing small neighbouring farms to increase their own holdings. Evicted from their farms and replaced by slave labour, the Roman peasantry were forced to find work in the cities of Rome, though often resorting to squatting and handouts.[NEWLINE][NEWLINE]Latifundia became the template upon which later European nations would base their imperial experiments. The Spanish are especially noteworthy for patterning the Encomienda system after the late Roman Latifundia.</Text>
@@ -1333,10 +1332,10 @@
 			<Text>Build a [LINK=IMPROVEMENT_VILLA]Villa[\LINK]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_VILLA_HELP">
-			<Text>Constructs a Villa, which yields [ICON_CULTURE] Culture on the tile and gives [ICON_FOOD] Food permanently in the [ICON_CAPITOL] Capital.[NEWLINE]On construction, a [ICON_RES_FIGS] Figs Resource appears adjacent to the Villa and claims the tile.[NEWLINE]Adjacent Plantations Receive +1 [ICON_CULTURE] Culture and [ICON_GOLD] Gold.[NEWLINE]Adjacent Farms Receive +1 [ICON_FOOD] Food and [ICON_GOLD] Gold.</Text>
+			<Text>Constructs a Villa, which yields [ICON_CULTURE] Culture on the tile and gives [ICON_FOOD] Food permanently in the [ICON_CAPITOL] Capital.[NEWLINE]On completion, a [ICON_RES_FIGS] Figs Resource appearson a random adjacent resourceless tile, claiming the tile if it is unowned.[NEWLINE]Adjacent Plantations Receive +1 [ICON_CULTURE] Culture and [ICON_GOLD] Gold.[NEWLINE]Adjacent Farms Receive +1 [ICON_FOOD] Food and [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_VILLA_REC">
-			<Text>It will increase [ICON_FOOD] Food and [ICON_CULTURE] Culture.[NEWLINE]On construction, a [ICON_RES_FIGS] Figs Resource appears adjacent to the Villa and claims the tile.[NEWLINE]Provides additional [ICON_FOOD] Food and [ICON_GOLD] Gold to adjacent Farms, and [ICON_GOLD] Gold and [ICON_CULTURE] Culture to adjacent Plantations.</Text>
+			<Text>It will increase [ICON_FOOD] Food and [ICON_CULTURE] Culture and spawn a [ICON_RES_FIGS] Figs Resource.[NEWLINE]Provides additional [ICON_FOOD] Food and [ICON_GOLD] Gold to adjacent Farms, and [ICON_GOLD] Gold and [ICON_CULTURE] Culture to adjacent Plantations.</Text>
 		</Row>
 
 		<!-- Russia -->
@@ -1749,7 +1748,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_TEXT">
-			<Text>An InDuna can widely be translated to any leader of men, in commerce, in politics, and in war. An InDuna guided each regiment, or 'ibutho', of young Zulu men and he in turn answered to senior izinDuna who controlled the corps. One or more of these elder chiefs might accompany a big force on an important mission, but there was no single "field marshal" in command of all Zulu forces. Regimental izinDuna, like the non-commissioned officers of today's army, were important for morale and discipline. This was demonstrated during the battle of Isandlwana, where the army led by Ntshingwayo kaMahole outmaneuvered and destroyed a British column. Ntshingwayo kaMahole and his fellow izinDuna snuck a Zulu force of 20 000 men behind the British, hiding them in a valley only 7 miles from the British camp. When discovered sitting in complete silence by scouts, the izinDuna spurred their men into action and closed the remaining distance with lightning speed.</Text>
+			<Text>An InDuna can widely be translated to any leader of men, in commerce, in politics, and in war. An InDuna guided each regiment, or 'ibutho', of young Zulu men and he in turn answered to senior izinDuna who controlled the corps. One or more of these elder chiefs might accompany a big force on an important mission, but there was no single "field marshal" in command of all Zulu forces. Regimental izinDuna, like the non-commissioned officers of today's army, were important for morale and discipline. This was demonstrated during the battle of Isandlwana, where the army led by Ntshingwayo kaMahole outmaneuvered and destroyed a British column. Ntshingwayo kaMahole and his fellow izinDuna snuck a Zulu force of 20,000 men behind the British, hiding them in a valley only 7 miles from the British camp. When discovered sitting in complete silence by scouts, the izinDuna spurred their men into action and closed the remaining distance with lightning speed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_STRATEGY">
 			<Text></Text>
@@ -1813,7 +1812,7 @@
 			<Text>{TXT_KEY_IMPROVEMENT_ISIBAYA_HELP}[NEWLINE][NEWLINE]An Isibaya is a Zulu homestead and defensive structure. The Isibaya is laid out in a circular pattern with a cattle enclosure at the centre, ringed by huts, palisades, and mud walls. The layout and function are reminiscent of a European corral, hence the Afrikaans term for Amabaya, "Kraal".[NEWLINE][NEWLINE]Cattle were central to the life and economy of the Zulu Kingdom. Cattle were a sign of status, wealth, and power, and were instrumental for feeding and arming the amabutho regiments of the Zulu army.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_ISIBAYA_HELP">
-			<Text>Unique Zulu Great Person Tile Improvement, replacing the Citadel. Provides [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, and [ICON_CULTURE] Culture. Adjacent Pastures receive +1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Building an Isibaya claims adjacent tiles and places a [ICON_RES_COW] Cattle Resource adjacent to it.[NEWLINE][NEWLINE]Units standing on an Isibaya receive +100% [ICON_STRENGTH] Tile Defense. Deals 30 damage to adjacent Enemy Units.</Text>
+			<Text>Unique Zulu Great Person Tile Improvement, replacing the Citadel. Can only be constructed by a {TXT_KEY_UNIT_INDUNA}.[NEWLINE][NEWLINE]Provides [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, and [ICON_CULTURE] Culture. Adjacent Pastures receive +1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Building an Isibaya claims adjacent tiles and places a [ICON_RES_COW] Cattle Resource adjacent to it.[NEWLINE][NEWLINE]Units standing on an Isibaya receive +100% [ICON_STRENGTH] Tile Defense. Deals 30 damage to adjacent Enemy Units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ISIBAYA">
 			<Text>Construct an [LINK=IMPROVEMENT_ISIBAYA]Isibaya[\LINK]</Text>
