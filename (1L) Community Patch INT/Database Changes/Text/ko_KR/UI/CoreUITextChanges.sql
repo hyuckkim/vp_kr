@@ -2,7 +2,7 @@
 -- Ranking popup
 ------------------------------------------------
 UPDATE Language_ko_KR
-SET Text = '소유한 모든 도시의 평균 [ICON_PRODUCTION]생산으로 문명의 순위를 정합니다.'
+SET Text = '소유한 모든 도시의 평균 [ICON_PRODUCTION] 생산으로 문명의 순위를 정합니다.'
 WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_PRODUCTION_TT';
 
 ------------------------------------------------
@@ -20,19 +20,19 @@ SET Text = '유닛이 승선하여 물 타일을 건널 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_ALLOWS_EMBARKING';
 
 UPDATE Language_ko_KR
-SET Text = 'Eligible units receive [COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR] Promotion: {2_PromotionHelp:textkey}'
+SET Text = '적격한 유닛은 [COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR] 승급을 받음: {2_PromotionHelp:textkey}'
 WHERE Tag = 'TXT_KEY_FREE_PROMOTION_FROM_TECH';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription}'
+SET Text = '{@1_ImprovementDescription}: {4_Icon} {@2_YieldDescription} +{3_Yield} '
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_YIELDCHANGES';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription} {TXT_KEY_ABLTY_FRESH_WATER_STRING}'
+SET Text = '{@1_ImprovementDescription}: {4_Icon} {@2_YieldDescription} +{3_Yield} {TXT_KEY_ABLTY_FRESH_WATER_STRING}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_FRESHWATERYIELDCHANGES';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription} {TXT_KEY_ABLTY_NO_FRESH_WATER_STRING}'
+SET Text = '{@1_ImprovementDescription}: {4_Icon} {@2_YieldDescription} +{3_Yield} {TXT_KEY_ABLTY_NO_FRESH_WATER_STRING}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_NOFRESHWATERYIELDCHANGES';
 
 UPDATE Language_ko_KR
@@ -40,11 +40,11 @@ SET Text = '{TXT_KEY_ABLTY_FASTER_MOVEMENT_STRING} {@1_RouteDescription}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_MOVEMENT';
 
 UPDATE Language_ko_KR
-SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (담수).'
+SET Text = '{1_ImprovementName:textkey}: {2_YieldType:textkey} +{3_Num} (담수).'
 WHERE Tag = 'TXT_KEY_FRESH_WATER';
 
 UPDATE Language_ko_KR
-SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (담수 없음).'
+SET Text = '{1_ImprovementName:textkey}: {2_YieldType:textkey} +{3_Num} (담수 없음).'
 WHERE Tag = 'TXT_KEY_NO_FRESH_WATER';
 
 UPDATE Language_ko_KR
@@ -56,7 +56,7 @@ SET Text = '(담수 없음)'
 WHERE Tag = 'TXT_KEY_ABLTY_NO_FRESH_WATER_STRING';
 
 UPDATE Language_ko_KR
-SET Text = '이어지는 기술:'
+SET Text = '다음 기술:'
 WHERE Tag = 'TXT_KEY_TECH_HELP_LEADS_TO';
 
 ------------------------------------------------
@@ -100,65 +100,65 @@ WHERE Tag = 'TXT_KEY_CIV5_RUSSIA_TEXT_5';
 
 -- Common
 UPDATE Language_ko_KR
-SET Text = 'Resources Required: {1_NumResource} {2_ResIcon} {3_Res:textkey}'
+SET Text = '필요한 자원: {2_ResIcon} {3_Res:textkey} {1_NumResource}'
 WHERE Tag = 'TXT_KEY_PRODUCTION_RESOURCES_REQUIRED';
 
 -- Building
 UPDATE Language_ko_KR
-SET Text = '{1: number "''[ICON_HAPPINESS_1] Happiness: ''#;''[ICON_HAPPINESS_3] Unhappiness '':#"}'
+SET Text = '{1: number "''[ICON_HAPPINESS_1] 행복: ''#,''[ICON_HAPPINESS_3] 불행: ''#"}'
 WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_HAPPINESS';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_STRENGTH] City Strength: {2_Sign}{1_Num}'
+SET Text = '[ICON_STRENGTH] 도시 전투력: {2_Sign}{1_Num}'
 WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_DEFENSE';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_STRENGTH] Hit Points: {2_Sign}{1_Num}'
+SET Text = '[ICON_STRENGTH] 체력: {2_Sign}{1_Num}'
 WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_HITPOINTS';
 
 -- Yield
 UPDATE Language_ko_KR
-SET Text = '[ICON_FOOD] Food is what determines how fast your City grows to acquire new [ICON_CITIZEN] Citizens, who work the land and collect yields for the City. Bigger Cities are nearly always better, but beware of the increased [ICON_HAPPINESS_3] Unhappiness!'
+SET Text = '[ICON_FOOD] 식량은 새로운 [ICON_CITIZEN] 시민을 확보하여 도시가 얼마나 빨리 성장하고, 땅을 일구고 도시를 위해 산출량을 모으는지 결정합니다. 더 큰 도시는 대체로 더 나은 편이지만, [ICON_HAPPINESS_3] 불행이 증가할 수 있으니 조심하세요!'
 WHERE Tag = 'TXT_KEY_FOOD_HELP_INFO';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE] Faith is spent on founding and improving [ICON_RELIGION] Religions at the empire-level. Faith can also be expended to purchase Missionaries, Inquisitors, Religious Buildings, and Great People.'
+SET Text = '[ICON_PEACE] 신앙은 문명 수준에서 [ICON_RELIGION] 종교를 창시하고 개선하는 데 사용됩니다. 신앙을 사용하여 선교사, 종교 재판관, 종교 건물, 위인을 구매할 수도 있습니다.'
 WHERE Tag = 'TXT_KEY_FAITH_HELP_INFO';
 
 UPDATE Language_ko_KR
-SET Text = '{1: number "''[COLOR_POSITIVE_TEXT]''#,##0.00;''[COLOR_NEGATIVE_TEXT]-''#,##0.00"} {2_IconString} Base[ENDCOLOR]'
+SET Text = '{1: number "''[COLOR_POSITIVE_TEXT]''#,##0.00;''[COLOR_NEGATIVE_TEXT]-''#,##0.00"} {2_IconString} 기본[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_YIELD_BASE';
 
 UPDATE Language_ko_KR
-SET Text = '{1: number "''[COLOR_POSITIVE_TEXT]''#,##0.00;''[COLOR_NEGATIVE_TEXT]-''#,##0.00"} {2_IconString} Total[ENDCOLOR]'
+SET Text = '{1: number "''[COLOR_POSITIVE_TEXT]''#,##0.00;''[COLOR_NEGATIVE_TEXT]-''#,##0.00"} {2_IconString} 총량[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_YIELD_TOTAL';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from [ICON_CULTURE] Culture'
+SET Text = '[ICON_BULLET] [ICON_CULTURE] 문화에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_CULTURE';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from Terrain'
+SET Text = '[ICON_BULLET] 지형에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_TERRAIN';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from Buildings'
+SET Text = '[ICON_BULLET] 건물에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_BUILDINGS';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from Specialists'
+SET Text = '[ICON_BULLET] 전문가에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_SPECIALISTS';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from Religion'
+SET Text = '[ICON_BULLET] 종교에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_RELIGION';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from [ICON_CITIZEN] Population'
+SET Text = '[ICON_BULLET] [ICON_CITIZEN] 인구에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_POP';
 UPDATE Language_ko_KR
 
-SET Text = '[ICON_BULLET]{1_Num} {2_IconString} from other sources'
+SET Text = '[ICON_BULLET] 그외 다른 출처에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC';
 
 ------------------------------------------------
@@ -185,15 +185,15 @@ SET Text = '[ICON_CITIZEN]시민의 성장을 억제하려면 클릭하십시오
 WHERE Tag = 'TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_CULTURE] 걸작 및 테마보너스에서'
+SET Text = '[ICON_CULTURE] 걸작 및 테마보너스에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CULTURE_FROM_GREAT_WORKS';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]+{2_Num}[ENDCOLOR] [ICON_TOURISM]  [ICON_GREAT_WORK]걸작 [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]에서'
+SET Text = '[ICON_GREAT_WORK]걸작 [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]에서 [ICON_TOURISM] 관광 [COLOR_POSITIVE_TEXT]+{2_Num}[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_GREAT_WORKS';
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num} [ICON_PEACE]신앙으로 구매한 건물에서의 [ICON_TOURISM]관광'
+SET Text = '[ICON_PEACE]신앙으로 구매한 건물에서의 [ICON_TOURISM]관광 {1_Num}'
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_FAITH_BUILDINGS';
 
 UPDATE Language_ko_KR
@@ -607,7 +607,7 @@ SET Text = '{1_CivName:textkey}{1: plural 1?은; 2?는;} 현재 도시 국가의
 WHERE Tag = 'TXT_KEY_CITY_STATE_ALLY_TT';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_Unit} 강탈 - [ICON_INFLUENCE]영향력 {2_NumInfluence} 감소'
+SET Text = '{@1_Unit} 강탈 - [ICON_INFLUENCE] 영향력 {2_NumInfluence} 감소'
 WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';
 
 UPDATE Language_ko_KR
@@ -637,16 +637,16 @@ WHERE Tag = 'TXT_KEY_TP_ANARCHY';
 
 -- Culture
 UPDATE Language_ko_KR
-SET Text = '다음 정책 채택 : [COLOR_POSITIVE_TEXT]{1_Num: number #} 턴[ENDCOLOR]'
+SET Text = '다음 정책 채택 : [COLOR_POSITIVE_TEXT]{1_Num: number #}턴[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_NEXT_POLICY_TURN_LABEL';
 
 -- Faith
 UPDATE Language_ko_KR
-SET Text = '다음 종교관을 세우려면 [ICON_PEACE]신앙이 적어도 {1_Num}만큼 필요합니다. 게임에 다른 문명의 강화된 종교가 등장하기 전에 종교관을 세워야 합니다. (하지만 게임에 존재할 수 있는 종교의 수를 초과하지 않는다면 나중에 종교관을 세울 수 있습니다.)'
+SET Text = '다음 종교관을 세우려면 [ICON_PEACE] 신앙이 적어도 {1_Num}만큼 필요합니다. 게임에 다른 문명의 강화된 종교가 등장하기 전에 종교관을 세워야 합니다. (하지만 게임에 존재할 수 있는 종교의 수를 초과하지 않는다면 나중에 종교관을 세울 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_TP_FAITH_NEXT_PANTHEON';
 
 UPDATE Language_ko_KR
-SET Text = '다음 위대한 선지자가 출현하려면 [ICON_PEACE]신앙이 적어도 {1_MinFaith}만큼 필요합니다.'
+SET Text = '다음 위대한 선지자가 출현하려면 [ICON_PEACE] 신앙이 적어도 {1_MinFaith}만큼 필요합니다.'
 WHERE Tag = 'TXT_KEY_TP_FAITH_NEXT_PROPHET';
 
 -- Gold
@@ -656,16 +656,16 @@ WHERE Tag = 'TXT_KEY_TOP_PANEL_GOLD';
 
 -- Golden Age
 UPDATE Language_ko_KR
-SET Text = '{1_NumCurrent}/{2_NumNeeded} progress towards the next [ICON_GOLDEN_AGE] Golden Age.'
+SET Text = '다음 [ICON_GOLDEN_AGE] 황금기까지 진행 상황: {1_NumCurrent}/{2_NumNeeded}'
 WHERE Tag = 'TXT_KEY_TP_GOLDEN_AGE_PROGRESS';
 
 -- Tourism
 UPDATE Language_ko_KR
-SET Text = '{1_Num} [ICON_GREAT_WORK] {1_Num: plural 1?Great Work Slot; other?Great Work Slots;} Filled'
+SET Text = '채워진 [ICON_GREAT_WORK] 걸작 슬롯 {1_Num}'
 WHERE Tag = 'TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_1';
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num} [ICON_GREAT_WORK] {1_Num: plural 1?Great Work Slot; other?Great Work Slots;} Available'
+SET Text = '가능한 [ICON_GREAT_WORK] 걸작 슬롯 {1_Num}'
 WHERE Tag = 'TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_2';
 
 
@@ -682,7 +682,7 @@ WHERE Tag = 'TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT_UNASSIGNED';
 -- Demographics
 ------------------------------------------------
 UPDATE Language_ko_KR
-SET Text = '단위 : 명'
+SET Text = '단위: 명'
 WHERE Tag = 'TXT_KEY_DEMOGRAPHICS_ARMY_MEASURE';
 
 ------------------------------------------------
@@ -697,7 +697,7 @@ SET Text = '{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} {3_CityName}에서
 WHERE Tag = 'TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT';
 
 UPDATE Language_ko_KR
-SET Text = '전 세계 모든 도시 국가는 {1_Num} 턴 마다 동시에 선거를 실시합니다. 다음 선거는 {2_Num} 턴 후에 실시됩니다.'
+SET Text = '전 세계 모든 도시 국가는 {1_Num}턴 마다 동시에 선거를 실시합니다. 다음 선거는 {2_Num}턴 후에 실시됩니다.'
 WHERE Tag = 'TXT_KEY_EO_CITY_STATE_ELECTION';
 
 ------------------------------------------------
@@ -717,7 +717,7 @@ SET Text = '제국 간 교역로로 인한 보너스 +{1_Num}%[NEWLINE]'
 WHERE Tag = 'TXT_KEY_CO_PLAYER_TOURISM_TRADE_ROUTE';
 
 UPDATE Language_ko_KR
-SET Text = '{1_Num}턴 이후 매우 유명해짐(관광 산출량에 변화가 없을 경우)'
+SET Text = '{1_Num}턴 이후 매우 유명해짐 (관광 산출량에 변화가 없을 경우)'
 WHERE Tag = 'TXT_KEY_CO_INFLUENTIAL_TURNS_TT';
 
 ------------------------------------------------
@@ -731,11 +731,11 @@ WHERE Tag = 'TXT_KEY_DO_ENDS_ON';
 -- Trade Route picker
 ------------------------------------------------
 UPDATE Language_ko_KR
-SET Text = '{2_CivName}{2: plural 1?이; 2?가;} 개발하지 못한 {1_Num}개의 기술을 연구하였습니다. [NEWLINE]이 문명은 플레이어에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 받습니다.'
+SET Text = '{2_CivName}{2: plural 1?이; 2?가;} 개발하지 못한 {1_Num}개의 기술을 연구하였습니다. [NEWLINE]이 문명은 플레이어에게 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH] 과학을 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED';
 
 UPDATE Language_ko_KR
-SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 보유하지 못한 {2_Num}개의 기술을 연구하였습니다. [NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH]과학을 받습니다.'
+SET Text = '{1_CivName}{1: plural 1?은; 2?는;} 당신이 보유하지 못한 {2_Num}개의 기술을 연구하였습니다. [NEWLINE]당신은 이 문명에 문화적 영향력을 행사하고 있기 때문에 이 교역로를 통해 {3_Num} [ICON_RESEARCH] 과학을 받습니다.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED';
 
 ------------------------------------------------
@@ -761,7 +761,7 @@ WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEGATIVE';
 -- Leader screen
 ------------------------------------------------
 UPDATE Language_ko_KR
-SET Text = '당신이 다른 플레이어와 맺은 거래 때문에 이 플레이어와 {1_Num} 턴 동안 평화 협상을 할 수 없습니다.'
+SET Text = '당신이 다른 플레이어와 맺은 거래 때문에 이 플레이어와 {1_Num}턴 동안 평화 협상을 할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_TT';
 
 ------------------------------------------------
@@ -772,7 +772,7 @@ SET Text = '고급 무역 옵션을 해제하고 다른 문명의 수도를 볼 
 WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_TT';
 
 UPDATE Language_ko_KR
-SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신의 영토를 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]참고 : 당신의 유닛은 다른 문명의 유닛이 차지하고 있는 타일로 이동할 수 없습니다.'
+SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신의 영토를 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]참고: 당신의 유닛은 다른 문명의 유닛이 차지하고 있는 타일로 이동할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
 
 UPDATE Language_ko_KR
@@ -788,11 +788,11 @@ SET Text = '당신의 수도에 이미 이 문명의 대사관이 있습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_THEY_HAVE';
 
 UPDATE Language_ko_KR
-SET Text = '당신은 대사관을 설립할 수 있는 기술 (문자)을 아직 보유하고 있지 않습니다.'
+SET Text = '당신은 대사관을 설립할 수 있는 기술(문자)을 아직 보유하고 있지 않습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_PLAYER';
 
 UPDATE Language_ko_KR
-SET Text = '그들은 대사관을 설립할 수 있는 기술 (문자)을 아직 보유하고 있지 않습니다.'
+SET Text = '그들은 대사관을 설립할 수 있는 기술(문자)을 아직 보유하고 있지 않습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_OTHER_PLAYER';
 
 UPDATE Language_ko_KR
