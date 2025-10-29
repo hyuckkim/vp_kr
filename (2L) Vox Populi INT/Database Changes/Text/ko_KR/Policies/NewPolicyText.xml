@@ -33,7 +33,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]국유화[ENDCOLOR]: 각 [ICON_OFFICE] 기업 오피스가 프랜차이즈로 간주되고 프랜차이즈를 설립한 도시의 기업 [ICON_INTERNATIONAL_TRADE]교역로 보너스가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 다른 문명의 [ICON_FRANCHISE]프랜차이즈가 더이상 당신 문명의 회사에 혜택을 제공하지 않습니다. 당신의 문명은 더이상 다른 문명 (종속국 제외)에 프랜차이즈를 설립할 수 없고 다른 문명(종주국 제외)의 기업 또한 당신의 도시에 프랜차이즈를 설립할 수 없습니다. 모든 기업 오피스의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]국유화[ENDCOLOR]: 각 [ICON_OFFICE] 기업 오피스가 프랜차이즈로 간주되고 프랜차이즈를 설립한 도시의 기업 [ICON_INTERNATIONAL_TRADE] 교역로 보너스가 [COLOR_POSITIVE_TEXT]두 배[ENDCOLOR] 증가합니다. 다른 문명의 [ICON_FRANCHISE] 프랜차이즈가 더이상 당신 문명의 회사에 혜택을 제공하지 않습니다. 당신의 문명은 더이상 다른 문명 (종속국 제외)에 프랜차이즈를 설립할 수 없고 다른 문명(종주국 제외)의 기업 또한 당신의 도시에 프랜차이즈를 설립할 수 없습니다. 모든 기업 오피스의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_TEXT">
 			<Text>국유화는 국가 정부나 국가가 사유 산업이나 사유 자산을 공공 소유로 하는 과정이다. 국유화는 보통 민간 자산을 의미하지만, 지방 자치 단체와 같은 낮은 수준의 정부가 소유한 자산이 국가로 이전되는 것을 의미할 수도 있다. 국유화의 반대는 보통 민영화 또는 탈국유화이지만, 지방자치화일 수도 있다. 보통 국유화의 대상이 되는 산업으로는 교통, 통신, 에너지, 은행, 천연자원이 있다.</Text>
@@ -44,7 +44,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]다국적주의[ENDCOLOR]: 매 턴 다른 문명의 도시에 기업 [ICON_FRANCHISE]프랜차이즈가 나타날 확률이 [COLOR_NEGATIVE_TEXT]5%[ENDCOLOR]에서 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]로 증가합니다. 모든 소도시가 프랜차이즈로 간주됩니다. 글로벌 프랜차이즈 한도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 모든 기업  [ICON_OFFICE]오피스의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]다국적주의[ENDCOLOR]: 매 턴 다른 문명의 도시에 기업 [ICON_FRANCHISE] 프랜차이즈가 나타날 확률이 [COLOR_NEGATIVE_TEXT]5%[ENDCOLOR]에서 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR]로 증가합니다. 모든 소도시가 프랜차이즈로 간주됩니다. 글로벌 프랜차이즈 한도가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 모든 기업 [ICON_OFFICE] 오피스의 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_TEXT">
 			<Text>경제적 과정으로서의 초국가주의는 일반적으로 비용을 최소화할 목적으로 다양한 국가에서 생산의 다양한 단계가 발생할 수 있는 생산 과정의 세계적인 재편성을 수반한다. 일반적으로 세계화로 알려진 경제적 초국가주의는 컨테이너화로 인한 세계 운송 비용의 감소뿐만 아니라 인터넷과 무선 통신의 발달에 의해 20세기 후반에 촉진되었다. 다국적 기업은 정치적 경계에 관계없이 가능한 한 효율적인 방법으로 사업을 조직함으로써 비용을 최소화하고, 따라서 이익을 극대화하는 것을 추구한다는 점에서 초국가주의의 한 형태로 보일 수 있다.</Text>

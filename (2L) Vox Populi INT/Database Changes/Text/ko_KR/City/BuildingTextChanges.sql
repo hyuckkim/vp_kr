@@ -25,22 +25,22 @@ WHERE Tag = 'TXT_KEY_BUILDING_GARDEN_STRATEGY';
 
 -- Amphitheater
 UPDATE Language_ko_KR
-SET Text = '원형극장을 건설하면 도시의 [ICON_CULTURE]문화가 증가합니다. 주변의 모든 [ICON_RES_DYE] 염료, [ICON_RES_SILK] 비단, [ICON_RES_LAPIS] 청금석, [ICON_RES_BRAZILWOOD] 브라질 소방목에 보너스를 제공합니다. 도시의 [ICON_GW_WRITING] 위대한 작가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 문학 슬롯 2개를 제공합니다.'
+SET Text = '원형극장을 건설하면 도시의 [ICON_CULTURE] 문화가 증가합니다. 주변의 모든 [ICON_RES_DYE] 염료, [ICON_RES_SILK] 비단, [ICON_RES_LAPIS] 청금석, [ICON_RES_BRAZILWOOD] 브라질 소방목에 보너스를 제공합니다. 도시의 [ICON_GW_WRITING] 위대한 작가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 문학 슬롯 2개를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY';
 
 -- Opera House
 UPDATE Language_ko_KR
-SET Text = '오페라 극장은 도시의 [ICON_CULTURE]문화를 늘려주는 르네상스 시대 건물입니다. 도시의 위대한 음악가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 음악 슬롯 1개를 제공합니다. 오페라 극장을 건설하려면 도시에 원형극장이 있어야 합니다.'
+SET Text = '오페라 극장은 도시의 [ICON_CULTURE] 문화를 늘려주는 르네상스 시대 건물입니다. 도시의 위대한 음악가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 음악 슬롯 1개를 제공합니다. 오페라 극장을 건설하려면 도시에 원형극장이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY';
 
 -- Museum
 UPDATE Language_ko_KR
-SET Text = '박물관은 게임 중반부에 도시의 [ICON_CULTURE]문화와 [ICON_TOURISM]관광을 증가시키고 도시의 무료를 감소시키는 건물입니다. 걸작 예술품 슬롯 2개를 제공합니다. 도시에 갤러리가 있어야 건설할 수 있습니다.'
+SET Text = '박물관은 게임 중반부에 도시의 [ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 증가시키고 도시의 무료를 감소시키는 건물입니다. 걸작 예술품 슬롯 2개를 제공합니다. 도시에 갤러리가 있어야 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUSEUM_STRATEGY';
 
 -- Broadcast Tower
 UPDATE Language_ko_KR
-SET Text = '방송탑은 현대 시대 건물로 방송탑이 있는 도시의 [ICON_CULTURE]문화와 [ICON_TOURISM]관광을 증가시키고 무료를 감소시킵니다. 방송탑을 건설하려면 도시에 오페라 극장이 있어야 합니다.'
+SET Text = '방송탑은 현대 시대 건물로 방송탑이 있는 도시의 [ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 증가시키고 무료를 감소시킵니다. 방송탑을 건설하려면 도시에 오페라 극장이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY';
 
 -- Forge
@@ -279,7 +279,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_PEDIA';
 
 -- National Intelligence Agency
 UPDATE Language_ko_KR
-SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 모든 도시의 [ICON_HAPPINESS_3] 낙후가 감소합니다. [ICON_SPY_POINT] 스파이 포인트를 100 제공하며 도시 보안이 +10 증가하고 모든 기존 [ICON_SPY]스파이의 레벨이 오릅니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. 공격용 스파이가 많은 제국은 이 건물에서 큰 이익을 얻을 것입니다. 국가정보원을 건설하려면 도시에 경찰서가 있어야 합니다.'
+SET Text = '기술 개발을 주도하는 문명에 중요한 방어형 국가 불가사의입니다. 모든 도시의 [ICON_HAPPINESS_3] 낙후가 감소합니다. [ICON_SPY_POINT] 스파이 점수를 100 제공하며 도시 보안이 +10 증가하고 모든 기존 [ICON_SPY]스파이의 레벨이 오릅니다. 아군 스파이의 작전 기간이 1턴 감소하고 외국 스파이의 작전 기간이 2턴 증가합니다. 공격용 스파이가 많은 제국은 이 건물에서 큰 이익을 얻을 것입니다. 국가정보원을 건설하려면 도시에 경찰서가 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY';
 
 -- Grand Temple

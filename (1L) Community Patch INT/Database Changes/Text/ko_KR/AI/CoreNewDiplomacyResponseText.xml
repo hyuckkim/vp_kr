@@ -464,7 +464,7 @@
 			<Text>내 대답은 여전히 같습니다. 이번에는 자세하게 말하지 않겠습니다.</Text>
 		</Row>
 		<!-- Share approach towards another player -->
-		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_FRIENDLY_1">
+		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_FRIENDLY_1 ">
 			<Text>{1_PlayerName:textkey}{@1_PlayerName: plural 1?은; 2?는;} 믿을 수 있는 진정한 친구입니다. (우호적)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_SHARE_APPROACH_FRIENDLY_2">

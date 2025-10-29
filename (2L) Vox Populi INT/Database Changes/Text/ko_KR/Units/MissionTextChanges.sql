@@ -1,6 +1,6 @@
 -- Plunder Trade Route
 UPDATE Language_ko_KR
-SET Text = '이 교역로를 약탈하여 [ICON_GOLD]골드를 획득하십시오.[NEWLINE][NEWLINE]당신이 교역로의 소유주와 전쟁 상태가 아니라면 교역로를 약탈하기 전에 선전포고해야 합니다. 타 문명과 이어진 교역로를 약탈하면 목적지 문명(전쟁 중이 아닐 경우) 및 교역로의 소유주와의 관계를 손상시킵니다.'
+SET Text = '이 교역로를 약탈하여 [ICON_GOLD] 골드를 획득하십시오.[NEWLINE][NEWLINE]당신이 교역로의 소유주와 전쟁 상태가 아니라면 교역로를 약탈하기 전에 선전포고해야 합니다. 타 문명과 이어진 교역로를 약탈하면 목적지 문명(전쟁 중이 아닐 경우) 및 교역로의 소유주와의 관계를 손상시킵니다.'
 WHERE Tag = 'TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_HELP';
 
 -- Create Great Work
@@ -10,17 +10,17 @@ WHERE Tag = 'TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP';
 
 -- Write Political Treatise
 UPDATE Language_ko_KR 
-SET Text = '이 명령을 통해 대량의 [ICON_CULTURE]문화를 제공합니다. 이는 소유한 [ICON_GREAT_WORK] 걸작 1개마다 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' 
+SET Text = '이 명령을 통해 대량의 [ICON_CULTURE] 문화를 제공합니다. 이는 소유한 [ICON_GREAT_WORK] 걸작 1개마다 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' 
 WHERE Tag = 'TXT_KEY_MISSION_GIVE_POLICIES_HELP';
 
 -- Start a Golden Age
 UPDATE Language_ko_KR 
-SET Text = '이 명령을 통해 [ICON_GOLDEN_AGE]황금기(추가 [ICON_PRODUCTION]생산, [ICON_GOLD]골드, [ICON_CULTURE]문화)를 촉발하는 [ICON_GOLDEN_AGE]황금기 점수를 {1_Num} 제공합니다. 해당 점수는 지난 15턴 동안의 황금기 점수 산출량 및 관광에 따라 달라집니다. 또한 테마가 맞춰진 걸작의 세트 수마다 20%씩 증가합니다. 위대한 예술가는 이 과정에서 소모됩니다.' 
+SET Text = '이 명령을 통해 [ICON_GOLDEN_AGE] 황금기(추가 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화)를 촉발하는 [ICON_GOLDEN_AGE] 황금기 점수를 {1_Num} 제공합니다. 해당 점수는 지난 15턴 동안의 황금기 점수 산출량 및 관광에 따라 달라집니다. 또한 테마가 맞춰진 걸작의 세트 수마다 20%씩 증가합니다. 위대한 예술가는 이 과정에서 소모됩니다.' 
 WHERE Tag = 'TXT_KEY_MISSION_START_GOLDENAGE_HELP';
 
 -- Perform Concert Tour
 UPDATE Language_ko_KR 
-SET Text = '순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM]관광이 10턴 동안 100% 증가하고, (소유한 [ICON_GW_MUSIC]걸작 음악 1개마다 1턴씩 증가) 모든 도시의 [ICON_HAPPINESS_1]행복이 1 증가합니다. 위인은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE]해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 이 명령을 수행할 수 없습니다.' 
+SET Text = '순회 공연을 마치면 해당 문명에 대한 [ICON_TOURISM] 관광이 10턴 동안 100% 증가하고, (소유한 [ICON_GW_MUSIC] 걸작 음악 1개마다 1턴씩 증가) 모든 도시의 [ICON_HAPPINESS_1] 행복이 1 증가합니다. 위인은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE]해당 문명과 전쟁 중이거나 해당 문명에 대한 당신의 [ICON_TOURISM] 문화적인 영향력이 [COLOR_MAGENTA]매우 유명함[ENDCOLOR] 이상이면 이 명령을 수행할 수 없습니다.' 
 WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP';
 
 UPDATE Language_ko_KR
