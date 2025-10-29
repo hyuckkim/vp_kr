@@ -233,7 +233,7 @@ WHERE Tag = 'TXT_KEY_POLICY_PROFESSIONALARMY_TEXT';
 
 -- Leader title change
 UPDATE Language_ko_KR
-SET Text = '{2_CivName:textkey}의 각하 {1_PlayerName:textkey}'
+SET Text = '{2_CivName:textkey}의 군주 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_PIETY_TITLE';
 
 UPDATE Language_ko_KR
@@ -302,7 +302,7 @@ WHERE Tag = 'TXT_KEY_POLICY_FREERELIGION_TEXT';
 
 -- Leader title change
 UPDATE Language_ko_KR
-SET Text = '{@1: gender feminine?Mistress; other?Master;} {2_CivName:textkey}의 주인 {1_PlayerName:textkey}'
+SET Text = '{2_CivName:textkey}의 주인 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_PATRONAGE_TITLE';
 
 UPDATE Language_ko_KR
@@ -850,7 +850,7 @@ WHERE Tag = 'TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP';
 
 -- Leader title change
 UPDATE Language_ko_KR
-SET Text = '{2_CivName:textkey}의 군주{1_PlayerName:textkey}'
+SET Text = '{2_CivName:textkey}의 지도자 {1_PlayerName:textkey}'
 WHERE Tag = 'TXT_KEY_AUTOCRACY_TITLE';
 
 UPDATE Language_ko_KR
