@@ -216,8 +216,10 @@ local PlotToolTips = EUI.PlotToolTips or function( plot, isExtraTips )
 	end
 	if civ5_bnw_mode and g_isPoliciesEnabled then
 		local activePlayerIdeologyID = activePlayer:GetLateGamePolicyTree()
-		local activePlayerIdeology = GameInfo.PolicyBranchTypes[ activePlayerIdeologyID or -1 ]
-		activePlayerIdeologyType = activePlayerIdeology and activePlayerIdeology.Type
+		if activePlayerIdeologyID >= 0 then
+			local activePlayerIdeology = GameInfo.PolicyBranchTypes[ activePlayerIdeologyID ]
+			activePlayerIdeologyType = activePlayerIdeology and activePlayerIdeology.Type
+		end
 	end
 
 	------------------
@@ -574,7 +576,7 @@ local PlotToolTips = EUI.PlotToolTips or function( plot, isExtraTips )
 				local unit = units[i]
 				local unitOwnerID = unit:GetOwner()
 
-				if unit and not unit:IsInvisible( activeTeamID, true ) then
+				if unit and not unit:IsInvisible( activeTeamID, true ) and not (unit:IsCargo() and unit:GetTransportUnit():IsInvisible(activeTeamID, true)) then
 					tips:insert( ShortUnitTip( unit ) )
 
 --debugging

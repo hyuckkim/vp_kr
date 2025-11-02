@@ -584,7 +584,7 @@ function DoVassalStatistics( ePlayer )
 	
 	-- Economic
 	Controls.VassalStatsGross:SetText( pPlayer:CalculateGrossGold() );
-	Controls.VassalStatsGold:SetText( "([COLOR_NEGATIVE_TEXT]-" ..  g_pPlayer:GetVassalGoldMaintenance(pPlayer:GetTeam(), false, true) .. "[ENDCOLOR][ICON_GOLD]) " .. pPlayer:CalculateGoldRate() );
+	Controls.VassalStatsGold:SetText( "([COLOR_NEGATIVE_TEXT]-" ..  g_pPlayer:GetVassalGoldMaintenance(pPlayer:GetTeam(), false, true) .. "[ENDCOLOR][ICON_GOLD]) " .. (pPlayer:CalculateGoldRateTimes100() / 100) );
 	Controls.VassalStatsGold:SetToolTipString( Locale.ConvertTextKey("TXT_KEY_VO_UNIT_MAINTENANCE") );
 	Controls.VassalStatsTradeRoutes:LocalizeAndSetText( "TXT_KEY_VO_TRADE_ROUTES_LABEL", pPlayer:GetNumInternationalTradeRoutesUsed(), pPlayer:GetNumInternationalTradeRoutesAvailable() );
 
@@ -605,7 +605,7 @@ function DoVassalStatistics( ePlayer )
 		end
 	end
 	Controls.VassalStatsIdeology:LocalizeAndSetText( "TXT_KEY_VO_IDEOLOGY_STAT", ideologyStr );
-	Controls.VassalStatsCulture:SetText( pPlayer:GetTotalJONSCulturePerTurn() );
+	Controls.VassalStatsCulture:SetText( pPlayer:GetTotalJONSCulturePerTurnTimes100() / 100);
 	Controls.VassalStatsTourism:SetText( pPlayer:GetTourism() / 100);
 	
 	-- Religion
@@ -616,10 +616,10 @@ function DoVassalStatistics( ePlayer )
 		szMajorityReligion = Locale.ConvertTextKey( "TXT_KEY_VO_MAJORITY_RELIGION", pReligionInfo.Description );
 	end
 	Controls.VassalStatsReligion:SetText( szMajorityReligion );
-	Controls.VassalStatsFaith:LocalizeAndSetText( pPlayer:GetTotalFaithPerTurn() );
+	Controls.VassalStatsFaith:LocalizeAndSetText( pPlayer:GetTotalFaithPerTurnTimes100() / 100 );
 
 	-- Science
-	Controls.VassalStatsScience:SetText( pPlayer:GetScience() );
+	Controls.VassalStatsScience:SetText( pPlayer:GetScienceTimes100() / 100 );
 	DoVassalTechUpdate( ePlayer );
 end
 
@@ -644,9 +644,9 @@ function DoVassalTechUpdate( iVassalPlayer )
 	if (eCurrentTech ~= -1) then
 		
 		local iResearchTurnsLeft = pPlayer:GetResearchTurnsLeft(eCurrentTech, true);
-		local iCurrentResearchProgress = pPlayer:GetResearchProgress(eCurrentTech);
+		local iCurrentResearchProgress = pPlayer:GetResearchProgressTimes100(eCurrentTech) / 100;
 		local iResearchNeeded = pPlayer:GetResearchCost(eCurrentTech);
-		local iResearchPerTurn = pPlayer:GetScience();
+		local iResearchPerTurn = pPlayer:GetScienceTimes100() / 100;
 		local iCurrentResearchPlusThisTurn = iCurrentResearchProgress + iResearchPerTurn;
 		
 		fResearchProgressPercent = iCurrentResearchProgress / iResearchNeeded;

@@ -6,7 +6,7 @@
 UPDATE Policies
 SET
 	GreatPeopleRateModifier = 33,
-	BoredomFlatReductionGlobal = 2
+	BoredomFlatReduction = 2
 WHERE Type = 'POLICY_OPEN_SOCIETY';
 
 -- Creative Expression
@@ -44,7 +44,8 @@ WHERE SpecificCivRequired = 1 OR Type IN (
 	'IMPROVEMENT_CAMP',
 	-- hidden unique improvements
 	'IMPROVEMENT_POLDER_WATER',
-	'IMPROVEMENT_MONGOLIA_ORDO'
+	'IMPROVEMENT_ORDO',
+	'IMPROVEMENT_ISIBAYA'
 );
 
 -- Volunteer Army (now Draft Registration)
@@ -154,8 +155,7 @@ VALUES
 	('POLICY_NEW_DEAL', 'IMPROVEMENT_MANUFACTORY', 'YIELD_PRODUCTION', 6),
 	('POLICY_NEW_DEAL', 'IMPROVEMENT_CITADEL', 'YIELD_PRODUCTION', 6),
 	('POLICY_NEW_DEAL', 'IMPROVEMENT_HOLY_SITE', 'YIELD_FAITH', 6),
-	('POLICY_NEW_DEAL', 'IMPROVEMENT_EMBASSY', 'YIELD_CULTURE', 6),
-	('POLICY_NEW_DEAL', 'IMPROVEMENT_MONGOLIA_ORDO', 'YIELD_PRODUCTION', 6);
+	('POLICY_NEW_DEAL', 'IMPROVEMENT_EMBASSY', 'YIELD_CULTURE', 6);
 
 INSERT INTO Policy_ImprovementYieldChanges
 	(PolicyType, ImprovementType, YieldType, Yield)

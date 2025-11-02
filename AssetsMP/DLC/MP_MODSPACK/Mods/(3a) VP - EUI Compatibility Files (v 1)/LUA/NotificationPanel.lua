@@ -6,6 +6,7 @@
 -- code is common using gk_mode and bnw_mode switches
 -------------------------------------------------
 include( "EUI_tooltips" )
+include( "InfoTooltipInclude" )
 
 Events.SequenceGameInitComplete.Add(function()
 print("Loading EUI notification panel",ContextPtr,os.clock(),[[ 
@@ -33,6 +34,7 @@ local unpack = unpack
 --EUI_utilities
 local IconLookup = EUI.IconLookup
 local IconHookup = EUI.IconHookup
+local GetMoodInfo = EUI.GetMoodInfo
 local CivIconHookup = EUI.CivIconHookup
 local PushScratchDeal = EUI.PushScratchDeal
 local PopScratchDeal = EUI.PopScratchDeal
@@ -47,9 +49,6 @@ local GetCityStateStatusToolTip = GetCityStateStatusToolTip
 local GetAllyToolTip = GetAllyToolTip
 local GetActiveQuestText = GetActiveQuestText
 local GetActiveQuestToolTip = GetActiveQuestToolTip
-
---EUI_tooltips
-local GetMoodInfo = EUI.GetMoodInfo
 
 local ButtonPopupTypes = ButtonPopupTypes
 local ContextPtr = ContextPtr

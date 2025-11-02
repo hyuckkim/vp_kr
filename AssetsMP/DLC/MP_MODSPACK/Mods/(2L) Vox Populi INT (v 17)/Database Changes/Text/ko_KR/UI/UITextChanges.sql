@@ -6,7 +6,7 @@ SET Text = '{1_Name:textkey}{1: plural 1?이; 2?가;} 위대한 업적을 이루
 WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_TITLE';
 
 UPDATE Language_ko_KR
-SET Text = '세계에서 가장 경이로운 국가' --The Greatest Builders in History
+SET Text = '세계에서 가장 경이로운 국가'
 WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_WONDERS';
 
 UPDATE Language_ko_KR
@@ -151,10 +151,23 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num : number "#.##"}[ENDCOLOR]  [ICON_URBANIZATION]도시화에서 획득 (전문가)'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS';
 
+UPDATE Language_ko_KR
+SET Text = '[ICON_BULLET] 건물에서 [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_BUILDINGS_UNHAPPINESS';
+
 -- Supply
 UPDATE Language_ko_KR
 SET Text = '당신의 문명은 [COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR]의 유닛을 보급할 수 있습니다. [COLOR_NEGATIVE_TEXT]{2_Num}개[ENDCOLOR]의 유닛이 보급 한계를 초과하여 모든 도시에서 [ICON_PRODUCTION]생산 및 [ICON_FOOD]식량이 [COLOR_NEGATIVE_TEXT]{3_Num}%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SUPPLY_REACHED_TOOLTIP';
+
+------------------------------------------------
+-- Info tooltip
+------------------------------------------------
+
+-- Building
+UPDATE Language_ko_KR
+SET Text = '문명과 현재 가지고 있는 모든 종속국과의 활성화된 방어 협정마다 세계 의회에서 [ICON_DIPLOMAT] 표 +{1_Num}'
+WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DP';
 
 ------------------------------------------------
 -- City screen/banner
@@ -164,27 +177,11 @@ SET Text = '[ICON_CULTURE]문화는 도시의 [ICON_CULTURE_LOCAL] 영토를 확
 WHERE Tag = 'TXT_KEY_CULTURE_HELP_INFO';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  {2_IconString} 특성 및 기타 출처에서'
-WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC';
-
-UPDATE Language_ko_KR
 SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_TOURISM]  테마보너스에서 획득'
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES';
 
 UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET]"황후 경축일": [ICON_FOOD] 성장 +{1_Num}%'
-WHERE Tag = 'TXT_KEY_FOODMOD_WLTKD_UA';
-
-UPDATE Language_ko_KR
-SET Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3]불행 수치: {1_Num}%[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_FOODMOD_UNHAPPY';
-
-UPDATE Language_ko_KR	
-SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString}  [ICON_CITIZEN]시민이 소모함'
-WHERE Tag = 'TXT_KEY_YIELD_EATEN_BY_POP';
-
-UPDATE Language_ko_KR
-SET Text = '도시가 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 뒤에 완전히 [ICON_RAZING]소각되어 재만 남습니다! [ICON_CITIZEN]시민의 100%가 [ICON_HAPPINESS_3]불행을 생성합니다.'
+SET Text = '도시가 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 뒤에 완전히 [ICON_RAZING]소각되어 재만 남습니다! [ICON_CITIZEN]시민의 100%가 [ICON_HAPPINESS_3]불행을 생성하지만, 국경 안에 있는 유닛은 더 빨리 회복됩니다!'
 WHERE Tag = 'TXT_KEY_CITY_BURNING';
 
 UPDATE Language_ko_KR
@@ -622,6 +619,7 @@ SET Text = Text
 	|| '[NEWLINE][ICON_BULLET] 경험치 [COLOR_POSITIVE_TEXT]' || CAST((SELECT Value FROM Defines WHERE Name = 'MINOR_CIV_QUEST_REWARD_EXPERIENCE_RELIGIOUS')/100.0 AS NUMERIC) || '배[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITY_STATE_RELIGIOUS_TT';
 
+-- Unit Spawn Counter
 UPDATE Language_ko_KR
 SET Text = '도시 국가에서 약 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR]마다 새로운 [COLOR_POSITIVE_TEXT]군사 유닛[ENDCOLOR]을 제공합니다. [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 턴 뒤에 새 군사 유닛이 도착합니다.'
 WHERE Tag = 'TXT_KEY_CSTATE_MILITARY_BONUS';
@@ -890,5 +888,5 @@ SET Text = '불가사의는 역사를 통해 영원히 기억될 유일하고 �
 WHERE Tag = 'TXT_KEY_PEDIA_WONDERS_HELP_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '게임 중 "노동자"를 생산할 수 있습니다. 노동자는 비군사 유닛이며 당신 도시의 타일을 "개발"하고 타일의 산출량을 증가시키며 근처의 "자원"을 사용 하도록 해 줄 것입니다. 시설에는 농장, 제재소, 채석장, 광산, 마을 등을 포함합니다 전쟁 중에 적은 당신 문명의 시설을 "약탈"(파괴) 할 수 있습니다. 약탈당한 시설은 노동자가 "수리"할 때까지 사용할 수 없게 됩니다.'
+SET Text = '게임 중 "노동자"를 생산할 수 있습니다. 노동자는 비군사 유닛이며 당신 도시의 타일을 "개발"하고 타일의 산출량을 증가시키며 근처의 "자원"을 사용 하도록 해 줄 것입니다. 시설에는 농장, 제재소, 채석장, 광산, 마을 등을 포함합니다 전쟁 중에 적은 당신 문명의 시설을 "약탈"(파괴) 할 수 있습니다. 약탈당한 시설은 노동자가 "수리"할 때까지 사용할 수 없게 됩니다.[NEWLINE][NEWLINE]{TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_BODY}'
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT';

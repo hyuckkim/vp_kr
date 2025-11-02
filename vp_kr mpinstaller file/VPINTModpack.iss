@@ -2,7 +2,7 @@
 ; INNO SETUP 스크립트 파일을 만드는 방법에 대한 자세한 내용은 설명서를 참조하세요!
 
 #define MyAppName "VP 한국어 모드팩"
-#define MyAppVersion "5.0a1"
+#define MyAppVersion "5.0"
 #define MyAppPublisher "HANDANI"
 #define MyAppURL "https://github.com/handanikr/vp_kr"
 

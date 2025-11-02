@@ -1,4 +1,9 @@
-print("This is the 'Squads' mod script.")
+local log_level = 2	-- 1=debug, 2=info, 3=error
+local function error(msg) if log_level <= 3 then print(msg) end end
+local function info(msg) if log_level <= 2 then print(msg) end end
+local function debug(msg) if log_level <= 1 then print(msg) end end
+
+info("This is the 'Squads' mod script.")
 
 -- core
 include( "IconSupport" );
@@ -13,6 +18,7 @@ include( "SquadNames.lua" );
 
 
 local bHighlightSquadUnits = true;
+local bEscortNonCombatUnits = true;
 local SquadsEndMovementType = 0;
 
 SQUADS_MODE_NONE = 0;
@@ -25,11 +31,15 @@ local currentMode = SQUADS_MODE_NONE;
 
 local bIsBoxSelecting = false;
 local pSelectBoxStartPlot = nil;
+local bBoxSelectingLeftToRight = nil;
+local mapW, mapH = Map.GetGridSize();
 
 -- Options Logic
 function SquadsOptionChanged(optionKey, newValue)
     if optionKey == "HighlightSquadUnits" then
         bHighlightSquadUnits = newValue;
+    elseif optionKey == "EscortNonCombatUnits" then
+        bEscortNonCombatUnits = newValue;
     elseif optionKey == "SquadsEndMovementType" then
         SquadsEndMovementType = newValue;
 
@@ -45,7 +55,7 @@ LuaEvents.SQUADS_OPTIONS_CHANGED.Add(SquadsOptionChanged);
 
 -- Mode Logic
 function SetSquadsMode(mode)
-    -- if mode == currentMode then return end
+    pSelectBoxStartPlot = nil;
     currentMode = mode;
 
     local iPlayer = Game.GetActivePlayer();
@@ -113,14 +123,21 @@ function UpdateMouse(gridX, gridY)
 
 
             if bIsBoxSelecting then
-                --print(string.format("Start plot for box select: (%i,%i)", pSelectBoxStartPlot:GetX(), pSelectBoxStartPlot:GetY()))
-                --print(string.format("End plot for box select: (%i,%i)", currentPlot:GetX(), currentPlot:GetY()))
+                -- Determine box select direction across world wrap using mapW
+                if bBoxSelectingLeftToRight == nil and currentPlot:GetX() ~= pSelectBoxStartPlot:GetX() then
+                    if currentPlot:GetX() > pSelectBoxStartPlot:GetX() then
+                        bBoxSelectingLeftToRight = currentPlot:GetX() - pSelectBoxStartPlot:GetX() < mapW / 2
+                    else
+                        bBoxSelectingLeftToRight = pSelectBoxStartPlot:GetX() - currentPlot:GetX() > mapW / 2
+                    end
+                end
+                if currentPlot:GetX() == pSelectBoxStartPlot:GetX() then
+                    bBoxSelectingLeftToRight = nil
+                end
 
                 for i = 0, Map.GetNumPlots() - 1, 1 do
                     local pLoopPlot = Map.GetPlotByIndex(i);
-                    -- print(string.format("Checking (%i,%i)", pLoopPlot:GetX(), pLoopPlot:GetY()))
                     if IsInBoxSelectArea(pLoopPlot) then
-                        -- print("highlighting box select plot")
                         HighlightPlot(pLoopPlot, nil, "SquadsBoxSelect");
                     end
                 end
@@ -133,11 +150,14 @@ function UpdateMouse(gridX, gridY)
 
         HighlightSquadUnits(pPlayer, currentSquadNumber);
         Events.ClearHexHighlightStyle("SquadsGroupMovement");
-        -- Draw the movement preview shadow (2 rings worth)
-        HighlightPlot(currentPlot, nil, "SquadsGroupMovement");
-        for pLoopPlot in PlotAreaSpiralIterator(currentPlot, 2) do
-            -- TODO: only highlight tiles current squad units can end on
-            HighlightPlot(pLoopPlot, nil, "SquadsGroupMovement");
+        -- Draw the movement preview region
+        for unit in getSquadUnits(pPlayer, currentSquadNumber) do
+            local previewPlots = {unit:GetSquadMovementPreview(currentPlot)}
+            for i = 1, #previewPlots do
+                local plot = previewPlots[i]
+                HighlightPlot(plot, nil, "SquadsGroupMovement");
+            end
+            break;
         end
     end
 end
@@ -148,7 +168,7 @@ end
 
 -- ========== Squads Panel Handlers ==========
 function HandlePressAddToSquadButton ()
-  print("add to squad button pressed");
+  debug("add to squad button pressed");
   SetSquadsMode(SQUADS_MODE_UNIT_MANAGEMENT);
   OnClose();
 end
@@ -161,7 +181,7 @@ end
 Controls.MoveSquadButton:RegisterCallback(Mouse.eLClick, HandlePressMoveSquadButton);
 
 function HandleResetSquadButton ()
-    print("handle reset squad button clicked");
+    debug("handle reset squad button clicked");
     local iPlayer = Game.GetActivePlayer();
     local pPlayer = Players[ iPlayer ];
 
@@ -179,23 +199,46 @@ function IsInBoxSelectArea(pPlotToCheck)
         return false
     end
 
-    -- Box drawn from bottom left to top right
-    if currentPlot:GetX() >= pSelectBoxStartPlot:GetX() and currentPlot:GetY() >= pSelectBoxStartPlot:GetY() then
-        return pPlotToCheck:GetX() >= pSelectBoxStartPlot:GetX() and pPlotToCheck:GetX() <= currentPlot:GetX() and 
-               pPlotToCheck:GetY() >= pSelectBoxStartPlot:GetY() and pPlotToCheck:GetY() <= currentPlot:GetY();
-    -- Box drawn from top left to bottom right
-    elseif currentPlot:GetX() >= pSelectBoxStartPlot:GetX() and currentPlot:GetY() <= pSelectBoxStartPlot:GetY() then
-        return pPlotToCheck:GetX() >= pSelectBoxStartPlot:GetX() and pPlotToCheck:GetX() <= currentPlot:GetX() and 
-               pPlotToCheck:GetY() <= pSelectBoxStartPlot:GetY() and pPlotToCheck:GetY() >= currentPlot:GetY();
-    -- Box drawn from top right to bottom left
-    elseif currentPlot:GetX() <= pSelectBoxStartPlot:GetX() and currentPlot:GetY() <= pSelectBoxStartPlot:GetY() then
-        return pPlotToCheck:GetX() <= pSelectBoxStartPlot:GetX() and pPlotToCheck:GetX() >= currentPlot:GetX() and 
-               pPlotToCheck:GetY() <= pSelectBoxStartPlot:GetY() and pPlotToCheck:GetY() >= currentPlot:GetY();
-    -- Box drawn from bottom right to top left
-    elseif currentPlot:GetX() <= pSelectBoxStartPlot:GetX() and currentPlot:GetY() >= pSelectBoxStartPlot:GetY() then
-        return pPlotToCheck:GetX() <= pSelectBoxStartPlot:GetX() and pPlotToCheck:GetX() >= currentPlot:GetX() and 
-               pPlotToCheck:GetY() >= pSelectBoxStartPlot:GetY() and pPlotToCheck:GetY() <= currentPlot:GetY();
+    local startX, startY = pSelectBoxStartPlot:GetX(), pSelectBoxStartPlot:GetY()
+    local endX, endY = currentPlot:GetX(), currentPlot:GetY()
+    local checkX, checkY = pPlotToCheck:GetX(), pPlotToCheck:GetY()
+
+    -- Determine box bounds in Y direction
+    local minY, maxY = startY, endY
+    if currentPlot:GetY() < pSelectBoxStartPlot:GetY() then
+        minY, maxY = endY, startY
     end
+
+    -- Check if Y is within bounds
+    if checkY < minY or checkY > maxY then
+        return false
+    end
+
+    -- Determine box bounds in X direction, accounting for world wrap
+    local minX, maxX
+    -- This can happen when the box select crosses its original x location
+    if bBoxSelectingLeftToRight == nil then
+        minX, maxX = math.min(startX, endX), math.max(startX, endX)
+    elseif bBoxSelectingLeftToRight then
+        minX, maxX = startX, endX
+        if minX > maxX then
+            maxX = maxX + mapW
+        end
+    else
+        minX, maxX = endX, startX
+        if minX > maxX then
+            maxX = maxX + mapW
+        end
+    end
+
+    -- Adjust checkX for wrapping
+    if checkX < minX then
+        checkX = checkX + mapW
+    end
+
+    -- Check if X is within bounds
+    return checkX >= minX and checkX <= maxX
+
 end
 
 
@@ -234,6 +277,8 @@ function DoBoxSelect()
             end
         end
     end
+    bBoxSelectingLeftToRight = nil;
+    pSelectBoxStartPlot = nil;
     return bUnitsSelected;
 end
 
@@ -274,6 +319,7 @@ LuaEvents.SQUADS_MANAGE_UNITS_MODE_LEFT_CLICK_UP.Add(HandleLeftClickUp);
 function HandleRightClickDown(wParam, lParam)
     bIsBoxSelecting = true;
     pSelectBoxStartPlot = currentPlot;
+    bBoxSelectingLeftToRight = nil;
 end
 
 LuaEvents.SQUADS_MANAGE_UNITS_MODE_RIGHT_CLICK_DOWN.Add(HandleRightClickDown);
@@ -341,12 +387,12 @@ function HandleMoveSquad(wParam, lParam)
         local bMovedSquad = false;
         for unit in getSquadUnits(pPlayer, currentSquadNumber) do
             unit:SetSquadEndMovementType(SquadsEndMovementType);
-            unit:DoSquadMovement(currentPlot);
+            unit:DoSquadMovement(currentPlot, bEscortNonCombatUnits);
             bMovedSquad = true;
             break;
         end
 
-        if bMovedSquad == false then print("Squad is empty, nothing to move") end
+        if bMovedSquad == false then debug("Squad is empty, nothing to move") end
     end
 
     SetSquadsMode(SQUADS_MODE_NONE);
@@ -382,7 +428,7 @@ function OnUnitSelectionChange(iPlayerID, iUnitID, i, j, k, isSelected)
         return 
     end
 
-    -- Events.ClearHexHighlights();
+    Events.ClearHexHighlights();
     if (isSelected) then
         local pPlayer = Players[iPlayerID];
         local pUnit = pPlayer:GetUnitByID(iUnitID);
@@ -404,7 +450,7 @@ Events.UnitSelectionChanged.Add( OnUnitSelectionChange );
 
 
 function HighlightSquadUnits(pPlayer, squadNumber)
-    _highlightSquadUnits(pPlayer, squadNumber, false);
+    _highlightSquadUnits(pPlayer, squadNumber, true);
 end
 
 function _highlightSquadUnits(pPlayer, squadNumber, clearOldHighlights)
@@ -488,7 +534,6 @@ function Validate(sValue, control, bFire)
     end
 
     if bValid then
-        print(Controls.SquadNameInputBorder)
         Controls.SquadNameInputBorder:SetColor({x=0.96,y=0.96,z=0.86,w=1})
         SquadRenamed(sValue);
     else
@@ -1008,4 +1053,4 @@ Events.GameplaySetActivePlayer.Add(OnClose)
 
 -- Load last so listeners in this file are ready
 include( "SquadsOptions.lua" );
-print("Loaded Squads.lua from 'Squads for VP'")
+info("Loaded Squads.lua from 'Squads for VP'")

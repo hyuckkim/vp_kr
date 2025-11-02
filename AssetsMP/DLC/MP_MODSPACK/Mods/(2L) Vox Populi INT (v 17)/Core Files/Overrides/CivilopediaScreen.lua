@@ -5,6 +5,7 @@ print("This is the modded CivilopediaScreen.lua from 'CBP'")
 include( "InstanceManager" );
 include( "IconSupport" );
 --CBP
+include("InfoTooltipInclude");
 include( "TechHelpInclude" );
 --END
 
@@ -2105,7 +2106,7 @@ CivilopediaCategory[CategoryCorporations].DisplayHomePage = function()
 	Controls.ArticleID:SetText( Locale.ConvertTextKey( "TXT_KEY_PEDIA_CORPORATIONS_PAGE_LABEL" ));
 
 	local portraitIndex = 6;
-	local portraitAtlas = "CORP_ATLAS";
+	local portraitAtlas = "CORPORATION_ATLAS_VP";
 
 	for row in DB.Query("SELECT PortraitIndex, IconAtlas from Corporations ORDER By Random() LIMIT 1") do
 		portraitIndex = row.PortraitIndex;
@@ -2981,9 +2982,7 @@ CivilopediaCategory[CategoryUnits].SelectArticle = function( unitID, shouldAddTo
 		UpdateButtonFrame( buttonAdded, Controls.CivilizationsInnerFrame, Controls.CivilizationsFrame );
 
 		-- update the game info
-		if thisUnit.Help then
-			UpdateTextBlock( Locale.ConvertTextKey( thisUnit.Help ), Controls.GameInfoLabel, Controls.GameInfoInnerFrame, Controls.GameInfoFrame );
-		end
+		UpdateTextBlock(GetHelpTextForUnit(unitID, true, nil, true, true), Controls.GameInfoLabel, Controls.GameInfoInnerFrame, Controls.GameInfoFrame);
 
 		-- update the strategy info
 		if thisUnit.Strategy then
@@ -2998,142 +2997,143 @@ CivilopediaCategory[CategoryUnits].SelectArticle = function( unitID, shouldAddTo
 		-- update the related images
 		Controls.RelatedImagesFrame:SetHide( true );
 
-		-- Infixo Extended info
-		local sText = "이 유닛의 [COLOR_CYAN]능력[ENDCOLOR]:"; -- change to TXT_KEY_ later
-		local function AnalyzeUnit(...)
-			sText = sText .. AnalyzeObjectField(thisUnit, ...);
+		-- Infixo Extended info (only shown in debug mode)
+		if Game.IsDebugMode() then
+			local sText = "이 유닛의 [COLOR_CYAN]능력[ENDCOLOR]:"; -- change to TXT_KEY_ later
+			local function AnalyzeUnit(...)
+				sText = sText .. AnalyzeObjectField(thisUnit, ...);
+			end
+			AnalyzeUnit("Domain", "Domains", "Domain");
+			--AnalyzeUnit("MinAreaSize");
+			if thisUnit.MinAreaSize > 0 and thisUnit.MinAreaSize < 10 then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]해상[ENDCOLOR]과 [COLOR_CYAN]호수[ENDCOLOR]로 이동"; end
+			if thisUnit.MinAreaSize >= 10 then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]해상[ENDCOLOR]으로만 이동"; end
+			AnalyzeUnit("CombatClass", "UnitCombatInfos", "Class");
+			--AnalyzeUnit("IsMounted");
+			if thisUnit.IsMounted then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]탑승한[ENDCOLOR] 유닛"; end
+			AnalyzeUnit("Special", "SpecialUnits", "Special unit");
+			AnalyzeUnit("GoodyHutUpgradeUnitClass", "UnitClasses", "Upgraded by Ruins to");
+			AnalyzeUnit("PolicyType", "Policies", "Requires policy");
+			AnalyzeUnit("ProjectPrereq", "Projects", "Requires project");
+			AnalyzeUnit("SpaceshipProject", "Projects", "Produced by spaceship project");
+			AnalyzeUnit("ResourceType", "Resources", "Requires");
+			AnalyzeUnit("BeliefRequired", "Beliefs", "Requires belief");
+			AnalyzeUnit("Trade");
+			--AnalyzeUnit("DefaultUnitAI", "UnitAIInfos", "AI"); -- AI stuff
+			AnalyzeUnit("BaseSightRange", "[ICON_VIEW_CITY]");
+			AnalyzeUnit("PurchaseOnly");
+			AnalyzeUnit("MoveAfterPurchase");
+			--AnalyzeUnit("RequiresFaithPurchaseEnabled"); -- internal
+			AnalyzeUnit("Immobile");
+			AnalyzeUnit("Capture", "UnitClasses", "Captured as");
+			--AnalyzeUnit("CivilianAttackPriority"); -- AI stuff
+			AnalyzeUnit("Food");
+			AnalyzeUnit("NoBadGoodies");
+			AnalyzeUnit("RivalTerritory");
+			AnalyzeUnit("MilitarySupport");
+			AnalyzeUnit("MilitaryProduction");
+			AnalyzeUnit("Pillage");
+			AnalyzeUnit("PillagePrereqTech");
+			AnalyzeUnit("Found");
+			AnalyzeUnit("FoundAbroad");
+			AnalyzeUnit("CultureBombRadius");
+			AnalyzeUnit("GoldenAgeTurns");
+			AnalyzeUnit("FreePolicies");
+			AnalyzeUnit("OneShotTourism");
+			AnalyzeUnit("OneShotTourismPercentOthers");
+			AnalyzeUnit("IgnoreBuildingDefense");
+			AnalyzeUnit("PrereqResources");
+			AnalyzeUnit("Suicide");
+			AnalyzeUnit("CaptureWhileEmbarked");
+			AnalyzeUnit("HurryCostModifier");
+			AnalyzeUnit("AirInterceptRange", "[ICON_RANGE_STRENGTH]");
+			AnalyzeUnit("AirUnitCap", "[ICON_AIRSTRIKE_DEFENSE]");
+			AnalyzeUnit("NukeDamageLevel");
+			AnalyzeUnit("WorkRate");
+			AnalyzeUnit("NumFreeTechs", "");
+			AnalyzeUnit("BaseBeakersTurnsToCount", "");
+			AnalyzeUnit("BaseCultureTurnsToCount", "");
+			AnalyzeUnit("BaseHurry");
+			AnalyzeUnit("HurryMultiplier");
+			AnalyzeUnit("BaseGold", "");
+			AnalyzeUnit("NumGoldPerEra");
+			AnalyzeUnit("SpreadReligion");
+			AnalyzeUnit("RemoveHeresy");
+			AnalyzeUnit("ReligionSpreads", "[ICON_MISSIONARY]");
+			AnalyzeUnit("ReligiousStrength", "[ICON_PEACE]");
+			AnalyzeUnit("FoundReligion");
+			AnalyzeUnit("RequiresEnhancedReligion");
+			AnalyzeUnit("ProhibitsSpread");
+			AnalyzeUnit("CanBuyCityState");
+			AnalyzeUnit("RangeAttackOnlyInDomain");
+			AnalyzeUnit("RangeAttackIgnoreLOS");
+			AnalyzeUnit("NumExoticGoods", "");
+			AnalyzeUnit("DomainCargo", "Domains", "Cargo domain");
+			AnalyzeUnit("SpecialCargo", "SpecialUnits", "Special cargo");
+			AnalyzeUnit("SpecialUnitCargoLoad", "SpecialUnits", "Special cargo load");
+			AnalyzeUnit("Conscription", "");
+			AnalyzeUnit("ExtraMaintenanceCost", "[ICON_GOLD]");
+			--AnalyzeUnit("NoMaintenance");
+			if thisUnit.NoMaintenance then sText = sText.."[NEWLINE][ICON_BULLET]유지비 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR]"; end
+			AnalyzeUnit("Unhappiness");
+			--AnalyzeUnit("UnitArtInfo");
+			--AnalyzeUnit("UnitArtInfoCulturalVariation");
+			--AnalyzeUnit("UnitArtInfoEraVariation");
+			AnalyzeUnit("LeaderPromotion", "UnitPromotions", "Leader promotion");
+			AnalyzeUnit("LeaderExperience");
+			AnalyzeUnit("DontShowYields");
+			--AnalyzeUnit("ShowInPedia");
+			AnalyzeUnit("MoveRate"); -- MovementRates doesn't have Description
+			AnalyzeUnit("FoundMid");
+			AnalyzeUnit("FoundLate");
+			AnalyzeUnit("CityAttackOnly");
+			AnalyzeUnit("CulExpOnDisbandUpgrade");
+			AnalyzeUnit("PuppetPurchaseOverride");
+			AnalyzeUnit("GoodyModifier");
+			AnalyzeUnit("SupplyCapBoost");
+			AnalyzeUnit("NumFreeLux", "");
+			AnalyzeUnit("GPExtra");
+			AnalyzeUnit("MinorCivGift");
+			AnalyzeUnit("NoMinorCivGift");
+			AnalyzeUnit("PurchaseCooldown", "");
+			AnalyzeUnit("GlobalFaithPurchaseCooldown");
+			--AnalyzeUnit("BaseLandAirDefense");
+			AnalyzeUnit("FreeUpgrade");
+			AnalyzeUnit("UnitEraUpgrade");
+			AnalyzeUnit("WarOnly");
+			AnalyzeUnit("WLTKDFromBirth");
+			AnalyzeUnit("GoldenAgeFromBirth");
+			AnalyzeUnit("CultureBoost");
+			AnalyzeUnit("ExtraAttackHealthOnKill");
+			AnalyzeUnit("HighSeaRaider");
+			AnalyzeUnit("NumInfPerEra");
+			AnalyzeUnit("SendCanMoveIntoEvent");
+			AnalyzeUnit("CannotEmbark");
+			AnalyzeUnit("NoMinorGifts");
+			AnalyzeUnit("MoveAfterUpgrade");
+			AnalyzeUnit("PromotionClass", "UnitCombatInfos", "Promotion class");
+			AnalyzeUnit("CanRepairFleet");
+			AnalyzeUnit("CanChangePort");
+			AnalyzeUnit("NumberStackingUnits");
+			AnalyzeUnit("StackCombat");
+			AnalyzeUnit("FriendlyLandsPromotion");
+			AnalyzeUnit("NumberOfCultureBombs");
+			--AnalyzeUnit("MaxHitPoints"); -- internal
+			AnalyzeUnit("CargoCombat");
+			--AnalyzeUnit("ObsoleteTech");
+			if thisUnit.ObsoleteTech ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.Technologies[thisUnit.ObsoleteTech].Description).."[ENDCOLOR] 함께 사용하지 않음"; end
+			--------------------
+			local bShow = false;
+			local sql = [[
+				SELECT BuildingClasses.Description
+				FROM Unit_BuildingClassPurchaseRequireds INNER JOIN BuildingClasses ON Unit_BuildingClassPurchaseRequireds.BuildingClassType = BuildingClasses.Type
+				WHERE Unit_BuildingClassPurchaseRequireds.UnitType = ?]];
+			for row in DB.Query(sql, thisUnit.Type) do
+				if not bShow then sText = sText.."[NEWLINE]이 유닛을 구매하는 데 필요한 [COLOR_CYAN]건물[ENDCOLOR]:"; bShow = true; end -- change to TXT_KEY_ later
+				sText = sText.."[NEWLINE][ICON_BULLET]"..Locale.Lookup(row.Description);
+			end
+			UpdateTextBlock( sText, Controls.ExtendedLabel,  Controls.ExtendedInnerFrame,  Controls.ExtendedFrame );
+			-- end Infixo
 		end
-		AnalyzeUnit("Domain", "Domains", "Domain");
-		--AnalyzeUnit("MinAreaSize");
-		if thisUnit.MinAreaSize > 0 and thisUnit.MinAreaSize < 10 then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]해상[ENDCOLOR]과 [COLOR_CYAN]호수[ENDCOLOR]로 이동"; end
-		if thisUnit.MinAreaSize >= 10 then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]해상[ENDCOLOR]으로만 이동"; end
-		AnalyzeUnit("CombatClass", "UnitCombatInfos", "Class");
-		--AnalyzeUnit("IsMounted");
-		if thisUnit.IsMounted then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]탑승한[ENDCOLOR] 유닛"; end
-		AnalyzeUnit("Special", "SpecialUnits", "Special unit");
-		AnalyzeUnit("GoodyHutUpgradeUnitClass", "UnitClasses", "Upgraded by Ruins to");
-		AnalyzeUnit("PolicyType", "Policies", "Requires policy");
-		AnalyzeUnit("ProjectPrereq", "Projects", "Requires project");
-		AnalyzeUnit("SpaceshipProject", "Projects", "Produced by spaceship project");
-		AnalyzeUnit("ResourceType", "Resources", "Requires");
-		AnalyzeUnit("BeliefRequired", "Beliefs", "Requires belief");
-		AnalyzeUnit("Trade");
-		--AnalyzeUnit("DefaultUnitAI", "UnitAIInfos", "AI"); -- AI stuff
-		AnalyzeUnit("BaseSightRange", "[ICON_VIEW_CITY]");
-		AnalyzeUnit("PurchaseOnly");
-		AnalyzeUnit("MoveAfterPurchase");
-		--AnalyzeUnit("RequiresFaithPurchaseEnabled"); -- internal
-		AnalyzeUnit("Immobile");
-		AnalyzeUnit("Capture", "UnitClasses", "Captured as");
-		--AnalyzeUnit("CivilianAttackPriority"); -- AI stuff
-		AnalyzeUnit("Food");
-		AnalyzeUnit("NoBadGoodies");
-		AnalyzeUnit("RivalTerritory");
-		AnalyzeUnit("MilitarySupport");
-		AnalyzeUnit("MilitaryProduction");
-		AnalyzeUnit("Pillage");
-		AnalyzeUnit("PillagePrereqTech");
-		AnalyzeUnit("Found");
-		AnalyzeUnit("FoundAbroad");
-		AnalyzeUnit("CultureBombRadius");
-		AnalyzeUnit("GoldenAgeTurns");
-		AnalyzeUnit("FreePolicies");
-		AnalyzeUnit("OneShotTourism");
-		AnalyzeUnit("OneShotTourismPercentOthers");
-		AnalyzeUnit("IgnoreBuildingDefense");
-		AnalyzeUnit("PrereqResources");
-		AnalyzeUnit("Suicide");
-		AnalyzeUnit("CaptureWhileEmbarked");
-		AnalyzeUnit("HurryCostModifier");
-		AnalyzeUnit("AirInterceptRange", "[ICON_RANGE_STRENGTH]");
-		AnalyzeUnit("AirUnitCap", "[ICON_AIRSTRIKE_DEFENSE]");
-		AnalyzeUnit("NukeDamageLevel");
-		AnalyzeUnit("WorkRate");
-		AnalyzeUnit("NumFreeTechs", "");
-		AnalyzeUnit("BaseBeakersTurnsToCount", "");
-		AnalyzeUnit("BaseCultureTurnsToCount", "");
-		AnalyzeUnit("RushBuilding");
-		AnalyzeUnit("BaseHurry");
-		AnalyzeUnit("HurryMultiplier");
-		AnalyzeUnit("BaseGold", "");
-		AnalyzeUnit("NumGoldPerEra");
-		AnalyzeUnit("SpreadReligion");
-		AnalyzeUnit("RemoveHeresy");
-		AnalyzeUnit("ReligionSpreads", "[ICON_MISSIONARY]");
-		AnalyzeUnit("ReligiousStrength", "[ICON_PEACE]");
-		AnalyzeUnit("FoundReligion");
-		AnalyzeUnit("RequiresEnhancedReligion");
-		AnalyzeUnit("ProhibitsSpread");
-		AnalyzeUnit("CanBuyCityState");
-		AnalyzeUnit("RangeAttackOnlyInDomain");
-		AnalyzeUnit("RangeAttackIgnoreLOS");
-		AnalyzeUnit("NumExoticGoods", "");
-		AnalyzeUnit("DomainCargo", "Domains", "Cargo domain");
-		AnalyzeUnit("SpecialCargo", "SpecialUnits", "Special cargo");
-		AnalyzeUnit("SpecialUnitCargoLoad", "SpecialUnits", "Special cargo load");
-		AnalyzeUnit("Conscription", "");
-		AnalyzeUnit("ExtraMaintenanceCost", "[ICON_GOLD]");
-		--AnalyzeUnit("NoMaintenance");
-		if thisUnit.NoMaintenance then sText = sText.."[NEWLINE][ICON_BULLET]유지비 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR]"; end
-		AnalyzeUnit("Unhappiness");
-		--AnalyzeUnit("UnitArtInfo");
-		--AnalyzeUnit("UnitArtInfoCulturalVariation");
-		--AnalyzeUnit("UnitArtInfoEraVariation");
-		AnalyzeUnit("LeaderPromotion", "UnitPromotions", "Leader promotion");
-		AnalyzeUnit("LeaderExperience");
-		AnalyzeUnit("DontShowYields");
-		--AnalyzeUnit("ShowInPedia");
-		AnalyzeUnit("MoveRate"); -- MovementRates doesn't have Description
-		AnalyzeUnit("FoundMid");
-		AnalyzeUnit("FoundLate");
-		AnalyzeUnit("CityAttackOnly");
-		AnalyzeUnit("CulExpOnDisbandUpgrade");
-		AnalyzeUnit("PuppetPurchaseOverride");
-		AnalyzeUnit("GoodyModifier");
-		AnalyzeUnit("SupplyCapBoost");
-		AnalyzeUnit("NumFreeLux", "");
-		AnalyzeUnit("GPExtra");
-		AnalyzeUnit("MinorCivGift");
-		AnalyzeUnit("NoMinorCivGift");
-		AnalyzeUnit("PurchaseCooldown", "");
-		AnalyzeUnit("GlobalFaithPurchaseCooldown");
-		--AnalyzeUnit("BaseLandAirDefense");
-		AnalyzeUnit("FreeUpgrade");
-		AnalyzeUnit("UnitEraUpgrade");
-		AnalyzeUnit("WarOnly");
-		AnalyzeUnit("WLTKDFromBirth");
-		AnalyzeUnit("GoldenAgeFromBirth");
-		AnalyzeUnit("CultureBoost");
-		AnalyzeUnit("ExtraAttackHealthOnKill");
-		AnalyzeUnit("HighSeaRaider");
-		AnalyzeUnit("NumInfPerEra");
-		AnalyzeUnit("SendCanMoveIntoEvent");
-		AnalyzeUnit("CannotEmbark");
-		AnalyzeUnit("NoMinorGifts");
-		AnalyzeUnit("MoveAfterUpgrade");
-		AnalyzeUnit("PromotionClass", "UnitCombatInfos", "Promotion class");
-		AnalyzeUnit("CanRepairFleet");
-		AnalyzeUnit("CanChangePort");
-		AnalyzeUnit("NumberStackingUnits");
-		AnalyzeUnit("StackCombat");
-		AnalyzeUnit("FriendlyLandsPromotion");
-		AnalyzeUnit("NumberOfCultureBombs");
-		--AnalyzeUnit("MaxHitPoints"); -- internal
-		AnalyzeUnit("CargoCombat");
-		--AnalyzeUnit("ObsoleteTech");
-		if thisUnit.ObsoleteTech ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.Technologies[thisUnit.ObsoleteTech].Description).."[ENDCOLOR] 함께 사용하지 않음"; end
-		--------------------
-		local bShow = false;
-		local sql = [[
-			SELECT BuildingClasses.Description
-			FROM Unit_BuildingClassPurchaseRequireds INNER JOIN BuildingClasses ON Unit_BuildingClassPurchaseRequireds.BuildingClassType = BuildingClasses.Type
-			WHERE Unit_BuildingClassPurchaseRequireds.UnitType = ?]];
-		for row in DB.Query(sql, thisUnit.Type) do
-			if not bShow then sText = sText.."[NEWLINE]이 유닛을 구매하는 데 필요한 [COLOR_CYAN]건물[ENDCOLOR]:"; bShow = true; end -- change to TXT_KEY_ later
-			sText = sText.."[NEWLINE][ICON_BULLET]"..Locale.Lookup(row.Description);
-		end
-		UpdateTextBlock( sText, Controls.ExtendedLabel,  Controls.ExtendedInnerFrame,  Controls.ExtendedFrame );
-		-- end Infixo
 	end
 
 	ResizeEtc();
@@ -3471,10 +3471,9 @@ CivilopediaCategory[CategoryPromotions].SelectArticle = function( promotionID, s
 		AnalyzePromotion("GoodyHutYieldBonus");
 		--AnalyzePromotion("GainsXPFromScouting");
 		if thisPromotion.GainsXPFromScouting == 1 then sText = sText.."[NEWLINE][ICON_BULLET]정찰로 XP 획득"; end
-		--AnalyzePromotion("GainsXPFromPillaging");
-		if thisPromotion.GainsXPFromPillaging == 1 then sText = sText.."[NEWLINE][ICON_BULLET]약탈로 XP 획득"; end
 		--AnalyzePromotion("GainsXPFromSpotting");
 		if thisPromotion.GainsXPFromSpotting == 1 then sText = sText.."[NEWLINE][ICON_BULLET]탐지로 XP 획득"; end
+		AnalyzePromotion("XPFromPillaging");
 		AnalyzePromotion("MultiAttackBonus");
 		AnalyzePromotion("DamageReductionCityAssault");
 		AnalyzePromotion("PillageBonusStrength");
@@ -3517,7 +3516,6 @@ CivilopediaCategory[CategoryPromotions].SelectArticle = function( promotionID, s
 			if row.Modifier ~= nil then sText = sText..string.format("%+d", row.Modifier).."% 더 강함"; end
 			if row.Attack ~= nil then sText = sText..string.format(" %+d", row.Attack).."% 공격"; end
 			if row.Defense ~= nil then sText = sText..string.format(" %+d", row.Defense).."% 방어"; end
-
 		end
 		-- Combat Mods
 		for row in DB.Query("SELECT UnitCombatInfos.Description, Modifier FROM UnitPromotions_UnitCombatMods INNER JOIN UnitCombatInfos ON UnitPromotions_UnitCombatMods.UnitCombatType = UnitCombatInfos.Type WHERE PromotionType = ?", thisPromotion.Type) do
@@ -3536,7 +3534,6 @@ CivilopediaCategory[CategoryPromotions].SelectArticle = function( promotionID, s
 				sText = sText..sTerrain.."에서 ";
 				if row.Attack ~= 0 then sText = sText..string.format("%+d", row.Attack).."% 공격"; end
 				if row.Defense ~= 0 then sText = sText..string.format(" %+d", row.Defense).."% 방어"; end
-
 			end
 		end
 		-- Features
@@ -3583,15 +3580,33 @@ CivilopediaCategory[CategoryPromotions].SelectArticle = function( promotionID, s
 		-- Negatives at the end
 		if thisPromotion.CannotBeChosen then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]선택할 수 없음[ENDCOLOR]"; end
 		if thisPromotion.LostWithUpgrade then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]업그레이드로 손실됨[ENDCOLOR]"; end
+
 		-- Promo lines (Unit Combats)
-		sText = sText.."[NEWLINE]이 승급에 적합한 [COLOR_CYAN]전투 유형[ENDCOLOR]:"; -- change to TXT_KEY_ later
+		local bShowText = false
+		local sTmpText = ""
+		sTmpText = sTmpText.."[NEWLINE]이 승급에 적합한 [COLOR_CYAN]전투 유형[ENDCOLOR]:"; -- change to TXT_KEY_ later
 		for row in DB.Query("SELECT UnitCombatInfos.Description FROM UnitPromotions_UnitCombats INNER JOIN UnitCombatInfos ON UnitPromotions_UnitCombats.UnitCombatType = UnitCombatInfos.Type WHERE UnitPromotions_UnitCombats.PromotionType = ? ORDER BY UnitPromotions_UnitCombats.UnitCombatType", thisPromotion.Type) do
-			sText = sText.."[NEWLINE][ICON_BULLET]"..Locale.Lookup(row.Description);
+			sTmpText = sTmpText.."[NEWLINE][ICON_BULLET]"
+			for row2 in DB.Query("SELECT MountedOnly FROM UnitPromotions WHERE Type = ? and MountedOnly = 1", thisPromotion.Type) do
+				sTmpText = sTmpText.. "탑승함 "
+			end
+			sTmpText = sTmpText..Locale.Lookup(row.Description);
+			bShowText = true
 		end
+		if (bShowText) then
+			sText = sText .. sTmpText
+		end
+		
 		-- Units list
-		sText = sText.."[NEWLINE]이 승급을 부여받은 [COLOR_CYAN]유닛[ENDCOLOR]:"; -- change to TXT_KEY_ later
+		bShowText = false
+		sTmpText = ""
+		sTmpText = sTmpText.."[NEWLINE]이 승급을 부여받은 [COLOR_CYAN]유닛[ENDCOLOR]:"; -- change to TXT_KEY_ later
 		for row in DB.Query("SELECT Units.Description FROM Unit_FreePromotions INNER JOIN Units ON Unit_FreePromotions.UnitType = Units.Type WHERE Unit_FreePromotions.PromotionType = ? ORDER BY Unit_FreePromotions.UnitType", thisPromotion.Type) do
-			sText = sText.."[NEWLINE][ICON_BULLET]"..Locale.Lookup(row.Description);
+			sTmpText = sTmpText.."[NEWLINE][ICON_BULLET]"..Locale.Lookup(row.Description);
+			bShowText = true
+		end
+		if (bShowText) then
+			sText = sText .. sTmpText
 		end
 		UpdateTextBlock( sText, Controls.ExtendedLabel,  Controls.ExtendedInnerFrame,  Controls.ExtendedFrame );
 		-- end Infixo
@@ -4296,12 +4311,7 @@ function SelectBuildingOrWonderArticle( buildingID )
 		UpdateButtonFrame( buttonAdded, Controls.GreatWorksInnerFrame, Controls.GreatWorksFrame );
 
 		-- update the game info
-		if thisBuilding.Help then
-			-- Don't add text if it's the same as the strategy text
-			if (thisBuilding.Help ~= thisBuilding.Strategy) then
-				UpdateTextBlock( Locale.ConvertTextKey( thisBuilding.Help ), Controls.GameInfoLabel, Controls.GameInfoInnerFrame, Controls.GameInfoFrame );
-			end
-		end
+		UpdateTextBlock(GetHelpTextForBuilding(buildingID, true, nil, false, nil, true), Controls.GameInfoLabel, Controls.GameInfoInnerFrame, Controls.GameInfoFrame);
 
 		-- update the strategy info
 		if thisBuilding.Strategy then
@@ -4318,327 +4328,329 @@ function SelectBuildingOrWonderArticle( buildingID )
 		end
 
 		-- Infixo more info
-		local sText = "이 건물의 [COLOR_CYAN]특징[ENDCOLOR]:"; -- change to TXT_KEY_ later
-		-- Generic info from main table
-		local function AnalyzeBuilding(sField, sSuffix)
-			--print("AnalyzeBuilding", sField, sSuffix)
-			sText = sText .. AnalyzeObjectField(thisBuilding, sField, sSuffix);
-		end
-		--AnalyzeBuilding("CapitalOnly", "");
-		if thisBuilding.CapitalOnly then sText = sText.."[NEWLINE][ICON_BULLET][ICON_CAPITAL][COLOR_CYAN]수도[ENDCOLOR]에서만 가능"; end
-		--AnalyzeBuilding("UnlockedByBelief");
-		if thisBuilding.UnlockedByBelief then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]교리[ENDCOLOR]에서 해제"; end
-		--AnalyzeBuilding("UnlockedByLeague");
-		if thisBuilding.UnlockedByLeague then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]세계 의회[ENDCOLOR]에서 해제"; end
-		--AnalyzeBuilding("PolicyBranchType");
-		if thisBuilding.PolicyBranchType ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.PolicyBranchTypes[thisBuilding.PolicyBranchType].Description).."[ENDCOLOR] 필요함"; end
-		--AnalyzeBuilding("PolicyType");
-		if thisBuilding.PolicyType ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.Policies[thisBuilding.PolicyType].Description).."[ENDCOLOR] 필요함"; end
-		--AnalyzeBuilding("IsCorporation");
-		if thisBuilding.IsCorporation then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]기업[ENDCOLOR]"; end
-		AnalyzeBuilding("TeamShare");
-		AnalyzeBuilding("Water");
-		--AnalyzeBuilding("MinAreaSize");
-		if thisBuilding.MinAreaSize > 0 and thisBuilding.MinAreaSize < 10 then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]호수[ENDCOLOR]가 필요함"; end
-		if thisBuilding.MinAreaSize >= 10 then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]연안[ENDCOLOR]이 필요함"; end
-		AnalyzeBuilding("River");
-		AnalyzeBuilding("FreshWater");
-		AnalyzeBuilding("Mountain");
-		AnalyzeBuilding("NearbyMountainRequired");
-		AnalyzeBuilding("Hill");
-		AnalyzeBuilding("Flat");
-		--AnalyzeBuilding("NearbyTerrainRequired");
-		if thisBuilding.NearbyTerrainRequired ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.Terrains[thisBuilding.NearbyTerrainRequired].Description).."[ENDCOLOR] 필요함"; end
-		--AnalyzeBuilding("ProhibitedCityTerrain");
-		if thisBuilding.ProhibitedCityTerrain ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.Terrains[thisBuilding.ProhibitedCityTerrain].Description).."[ENDCOLOR] 금지됨"; end
-		AnalyzeBuilding("BorderObstacle", "");
-		AnalyzeBuilding("PlayerBorderObstacle", "");
-		AnalyzeBuilding("Capital");
-		AnalyzeBuilding("GoldenAge");
-		AnalyzeBuilding("MapCentering");
-		AnalyzeBuilding("AllowsWaterRoutes");
-		AnalyzeBuilding("AllowsIndustrialWaterRoutes");
-		AnalyzeBuilding("AllowsAirRoutes");
-		AnalyzeBuilding("ExtraLuxuries");
-		AnalyzeBuilding("DiplomaticVoting");
-		AnalyzeBuilding("AffectSpiesNow");
-		AnalyzeBuilding("NullifyInfluenceModifier");
-		AnalyzeBuilding("LeagueCost");
-		AnalyzeBuilding("HolyCity");
-		AnalyzeBuilding("NumCityCostMod");
-		AnalyzeBuilding("CitiesPrereq");
-		AnalyzeBuilding("LevelPrereq");
-		AnalyzeBuilding("CultureRateModifier");
-		AnalyzeBuilding("GlobalCultureRateModifier");
-		AnalyzeBuilding("GreatPeopleRateModifier");
-		AnalyzeBuilding("GlobalGreatPeopleRateModifier");
-		AnalyzeBuilding("GreatGeneralRateModifier");
-		AnalyzeBuilding("GreatPersonExpendGold");
-		AnalyzeBuilding("GoldenAgeModifier");
-		AnalyzeBuilding("UnitUpgradeCostMod");
-		AnalyzeBuilding("Experience");
-		AnalyzeBuilding("GlobalExperience");
-		AnalyzeBuilding("FoodKept");
-		AnalyzeBuilding("Airlift");
-		AnalyzeBuilding("AirModifier", "[ICON_AIRSTRIKE_DEFENSE]");
-		AnalyzeBuilding("NukeModifier");
-		AnalyzeBuilding("NukeExplosionRand");
-		AnalyzeBuilding("HealRateChange", "HP");
-		AnalyzeBuilding("UnmoddedHappiness", "[ICON_HAPPINESS_1]");
-		AnalyzeBuilding("Happiness", "[ICON_HAPPINESS_1]");
-		AnalyzeBuilding("HappinessPerCity", "[ICON_HAPPINESS_1]");
-		AnalyzeBuilding("HappinessPerXPolicies", "[ICON_HAPPINESS_1]");
-		AnalyzeBuilding("UnhappinessModifier");
-		AnalyzeBuilding("CityCountUnhappinessMod");
-		AnalyzeBuilding("NoOccupiedUnhappiness");
-		AnalyzeBuilding("WorkerSpeedModifier");
-		AnalyzeBuilding("MilitaryProductionModifier");
-		AnalyzeBuilding("SpaceProductionModifier");
-		AnalyzeBuilding("GlobalSpaceProductionModifier");
-		AnalyzeBuilding("BuildingProductionModifier");
-		AnalyzeBuilding("WonderProductionModifier");
-		AnalyzeBuilding("CityConnectionTradeRouteModifier");
-		AnalyzeBuilding("CapturePlunderModifier");
-		AnalyzeBuilding("PolicyCostModifier");
-		AnalyzeBuilding("PlotCultureCostModifier");
-		AnalyzeBuilding("GlobalPlotCultureCostModifier");
-		AnalyzeBuilding("PlotBuyCostModifier");
-		AnalyzeBuilding("GlobalPlotBuyCostModifier");
-		AnalyzeBuilding("GlobalPopulationChange", "[ICON_CITIZEN]");
-		AnalyzeBuilding("TechShare");
-		AnalyzeBuilding("FreeTechs", "[ICON_RESEARCH]");
-		AnalyzeBuilding("FreePolicies", "[ICON_CULTURE]");
-		AnalyzeBuilding("FreeGreatPeople", "[ICON_GREAT_PEOPLE]");
-		AnalyzeBuilding("MedianTechPercentChange");
-		AnalyzeBuilding("Gold");
-		AnalyzeBuilding("AllowsRangeStrike");
-		AnalyzeBuilding("Espionage");
-		AnalyzeBuilding("AllowsFoodTradeRoutes");
-		AnalyzeBuilding("AllowsProductionTradeRoutes");
-		AnalyzeBuilding("GlobalDefenseMod");
-		AnalyzeBuilding("MinorFriendshipChange");
-		AnalyzeBuilding("VictoryPoints");
-		AnalyzeBuilding("ExtraMissionarySpreads", "[ICON_MISSIONARY]");
-		AnalyzeBuilding("ReligiousPressureModifier");
-		AnalyzeBuilding("BasePressureModifierGlobal");
-		AnalyzeBuilding("EspionageModifier");
-		AnalyzeBuilding("GlobalEspionageModifier");
-		AnalyzeBuilding("ExtraSpies", "[ICON_SPY]");
-		AnalyzeBuilding("SpyRankChange", "");
-		AnalyzeBuilding("InstantSpyRankChange", "");
-		AnalyzeBuilding("TradeRouteRecipientBonus", "[ICON_GOLD]");
-		AnalyzeBuilding("TradeRouteTargetBonus", "[ICON_GOLD]");
-		AnalyzeBuilding("NumTradeRouteBonus", "[ICON_INTERNATIONAL_TRADE]");
-		AnalyzeBuilding("LandmarksTourismPercent");
-		AnalyzeBuilding("InstantMilitaryIncrease");
-		AnalyzeBuilding("GreatWorksTourismModifier");
-		AnalyzeBuilding("XBuiltTriggersIdeologyChoice");
-		AnalyzeBuilding("TradeRouteSeaDistanceModifier");
-		AnalyzeBuilding("TradeRouteSeaGoldBonus", "");
-		AnalyzeBuilding("TradeRouteLandDistanceModifier");
-		AnalyzeBuilding("TradeRouteLandGoldBonus", "");
-		AnalyzeBuilding("CityStateTradeRouteProductionModifier");
-		AnalyzeBuilding("GreatScientistBeakerModifier");
-		AnalyzeBuilding("VictoryPrereq");
-		--AnalyzeBuilding("ObsoleteTech");
-		if thisBuilding.ObsoleteTech ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.Technologies[thisBuilding.ObsoleteTech].Description).."[ENDCOLOR] 함께 사용하지 않음"; end
-		--AnalyzeBuilding("EnhancedYieldTech");
-		if thisBuilding.EnhancedYieldTech ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.Technologies[thisBuilding.EnhancedYieldTech].Description).."[ENDCOLOR] 추가 산출량"; end
-		--AnalyzeBuilding("FreeBuilding");
-		if thisBuilding.FreeBuilding ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]모든 도시에서 [COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.BuildingClasses[thisBuilding.FreeBuilding].Description).."[ENDCOLOR] 무료"; end
-		--AnalyzeBuilding("FreeBuildingThisCity");
-		if thisBuilding.FreeBuildingThisCity ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]도시에서 [COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.BuildingClasses[thisBuilding.FreeBuildingThisCity].Description).."[ENDCOLOR] 무료"; end
-		--AnalyzeBuilding("FreePromotion");
-		if thisBuilding.FreePromotion ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]모든 유닛이 [COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.UnitPromotions[thisBuilding.FreePromotion].Description).."[ENDCOLOR] 받음"; end
-		--AnalyzeBuilding("TrainedFreePromotion");
-		if thisBuilding.TrainedFreePromotion ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]도시에서 훈련 받은 유닛은 [COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.UnitPromotions[thisBuilding.TrainedFreePromotion].Description).."[ENDCOLOR] 받음"; end
-		--AnalyzeBuilding("FreePromotionRemoved");
-		if thisBuilding.FreePromotionRemoved ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.UnitPromotions[thisBuilding.FreePromotionRemoved].Description).."[ENDCOLOR] 제거함"; end
-		AnalyzeBuilding("ReplacementBuildingClass");
-		--AnalyzeBuilding("FreeGreatWork");
-		if thisBuilding.FreeGreatWork ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.GreatWorks[thisBuilding.FreeGreatWork].Description).."[ENDCOLOR] 무료"; end
-		AnalyzeBuilding("SpecialistExtraCulture");
-		AnalyzeBuilding("ExtraLeagueVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
-		AnalyzeBuilding("CityWall");
-		--AnalyzeBuilding("DisplayPosition");
-		AnalyzeBuilding("ArtInfoCulturalVariation");
-		AnalyzeBuilding("ArtInfoEraVariation");
-		AnalyzeBuilding("ArtInfoRandomVariation");
-		AnalyzeBuilding("IsNoWater");
-		AnalyzeBuilding("IsNoRiver");
-		AnalyzeBuilding("NumPoliciesNeeded", "");
-		AnalyzeBuilding("NationalPopRequired", "");
-		AnalyzeBuilding("LocalPopRequired", "");
-		AnalyzeBuilding("BorderObstacleCity");
-		AnalyzeBuilding("BorderObstacleWater");
-		AnalyzeBuilding("AllowsFoodTradeRoutesGlobal");
-		AnalyzeBuilding("AllowsProductionTradeRoutesGlobal");
-		AnalyzeBuilding("CityConnectionGoldModifier");
-		AnalyzeBuilding("BasicNeedsMedianModifier");
-		AnalyzeBuilding("GoldMedianModifier");
-		AnalyzeBuilding("ScienceMedianModifier");
-		AnalyzeBuilding("CultureMedianModifier");
-		AnalyzeBuilding("ReligiousUnrestModifier");
-		AnalyzeBuilding("BasicNeedsMedianModifierGlobal");
-		AnalyzeBuilding("GoldMedianModifierGlobal");
-		AnalyzeBuilding("ScienceMedianModifierGlobal");
-		AnalyzeBuilding("CultureMedianModifierGlobal");
-		AnalyzeBuilding("ReligiousUnrestModifierGlobal");
-		AnalyzeBuilding("LocalUnhappinessModifier");
-		AnalyzeBuilding("GlobalBuildingGoldMaintenanceMod");
-		AnalyzeBuilding("NationalFollowerPopRequired");
-		AnalyzeBuilding("GlobalFollowerPopRequired");
-		AnalyzeBuilding("IsReformation");
-		AnalyzeBuilding("ResourceType");
-		--if thisPromotion.TechPrereq ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.Technologies[thisPromotion.TechPrereq].Description).."[ENDCOLOR] 필요함"; end
-		AnalyzeBuilding("PuppetPurchaseOverride");
-		AnalyzeBuilding("SingleLeagueVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
-		AnalyzeBuilding("AllowsPuppetPurchase");
-		AnalyzeBuilding("GrantsRandomResourceTerritory", "");
-		AnalyzeBuilding("ResourceQuantityToPlace");
-		AnalyzeBuilding("TradeReligionModifier");
-		--AnalyzeBuilding("NeedBuildingThisCity");
-		if thisBuilding.NeedBuildingThisCity ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]도시에서 [COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.BuildingClasses[thisBuilding.NeedBuildingThisCity].Description).."[ENDCOLOR] 필요함"; end
-		AnalyzeBuilding("WLTKDTurns", "");
-		AnalyzeBuilding("EventTourism", "[ICON_TOURISM]");
-		AnalyzeBuilding("AlwaysHeal", "HP");
-		AnalyzeBuilding("CitySupplyModifier", "[ICON_SILVER_FIST]");
-		AnalyzeBuilding("CitySupplyModifierGlobal", "[ICON_SILVER_FIST]");
-		AnalyzeBuilding("CitySupplyFlat", "[ICON_WAR]");
-		AnalyzeBuilding("CitySupplyFlatGlobal", "[ICON_WAR]");
-		AnalyzeBuilding("CityRangedStrikeRange", "");
-		AnalyzeBuilding("CityIndirectFire");
-		AnalyzeBuilding("RangedStrikeModifier");
-		AnalyzeBuilding("ExtraMissionaryStrengthGlobal");
-		AnalyzeBuilding("ReformationFollowerReduction");
-		AnalyzeBuilding("ResourceDiversityModifier");
-		AnalyzeBuilding("FinishLandTRTourism", "[ICON_TOURISM]");
-		AnalyzeBuilding("FinishSeaTRTourism", "[ICON_TOURISM]");
-		AnalyzeBuilding("VotesPerGPT", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
-		AnalyzeBuilding("RequiresIndustrialCityConnection", "");
-		AnalyzeBuilding("CivilizationRequired");
-		AnalyzeBuilding("PurchaseCooldown");
-		AnalyzeBuilding("CityAirStrikeDefense", "[ICON_STRENGTH]");
-		AnalyzeBuilding("BuildAnywhere");
-		AnalyzeBuilding("FreeArtifacts", "");
-		AnalyzeBuilding("VassalLevyEra");
-		if thisBuilding.EventChoiceRequiredActive ~= nil then
-			local sDesc = ""
-			for choice in DB.Query("SELECT Description FROM EventChoices WHERE Type = ?", thisBuilding.EventChoiceRequiredActive) do sDesc = choice.Description end
-			sText = sText.."[NEWLINE][ICON_BULLET]이벤트 선택 필요: [COLOR_POSITIVE_TEXT]"..Locale.Lookup(sDesc).."[ENDCOLOR]"
-		end
-		--AnalyzeBuilding("EventChoiceRequiredActive");
-		--AnalyzeBuilding("CityEventChoiceRequiredActive");
-		if thisBuilding.CityEventChoiceRequiredActive ~= nil then
-			local sDesc = ""
-			for choice in DB.Query("SELECT Description FROM CityEventChoices WHERE Type = ?", thisBuilding.CityEventChoiceRequiredActive) do sDesc = choice.Description end
-			sText = sText.."[NEWLINE][ICON_BULLET]도시 이벤트 선택 필요: [COLOR_POSITIVE_TEXT]"..Locale.Lookup(sDesc).."[ENDCOLOR]"
-		end
-		AnalyzeBuilding("GPRateModifierPerXFranchises");
-		AnalyzeBuilding("TRSpeedBoost");
-		AnalyzeBuilding("TRVisionBoost");
-		AnalyzeBuilding("DPToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
-		AnalyzeBuilding("SecondaryPantheon");
-		AnalyzeBuilding("IsDummy");
-		AnalyzeBuilding("AnyWater");
-		AnalyzeBuilding("BuildingDefenseModifier");
-		AnalyzeBuilding("DamageReductionFlat", "");
-		AnalyzeBuilding("GlobalLandmarksTourismPercent");
-		AnalyzeBuilding("GlobalGreatWorksTourismModifier");
-		AnalyzeBuilding("FaithToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
-		AnalyzeBuilding("CapitalsToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
-		AnalyzeBuilding("DoFToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
-		AnalyzeBuilding("RAToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
-		AnalyzeBuilding("GPExpendInfluence");
-		AnalyzeBuilding("AddsFreshWater");
-		AnalyzeBuilding("PurchaseOnly");
-		AnalyzeBuilding("CityWorkingChange");
-		AnalyzeBuilding("GlobalCityWorkingChange");
-		AnalyzeBuilding("GlobalConversionModifier");
-		AnalyzeBuilding("ConversionModifier");
-		AnalyzeBuilding("PlayerBorderGainlessPillage");
-		AnalyzeBuilding("CityGainlessPillage");
-		AnalyzeBuilding("HurryCostModifier");
-		AnalyzeBuilding("NeverCapture");
-		AnalyzeBuilding("NukeInterceptionChance");
-		AnalyzeBuilding("NukeImmune");
-		AnalyzeBuilding("ConquestProb", "");
-		AnalyzeBuilding("NumRequiredTier3Tenets");
-		--AnalyzeBuilding("FreeStartEra");
-		if thisBuilding.FreeStartEra ~= nil then
-			local sDesc = ""
-			for era in DB.Query("SELECT Description FROM Eras WHERE Type = ?", thisBuilding.FreeStartEra) do sDesc = era.Description end
-			sText = sText.."[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]"..Locale.Lookup(sDesc).."[ENDCOLOR]에서 무료"
-		end
-		--AnalyzeBuilding("MaxStartEra");
-		if thisBuilding.MaxStartEra ~= nil then
-			local sDesc = ""
-			for era in DB.Query("SELECT Description FROM Eras WHERE Type = ?", thisBuilding.MaxStartEra) do sDesc = era.Description end
-			sText = sText.."[NEWLINE][ICON_BULLET]오직 [COLOR_NEGATIVE_TEXT]"..Locale.Lookup(sDesc).."[ENDCOLOR]까지만"
-		end
-		-------------------
-		local function AnalyzeBuildingYields(sTable, sFieldName, sRefTable, sFlags, sInfo)
-			--print("AnalyzeBuildingYields", sTable, sFieldName, sRefTable, sFlags, sInfo)
-			local sLocText = "";
-			--"SELECT [sTable].Yield, [sRefTable].Description
-			--FROM [sTable]
-			--INNER JOIN [sRefTable] ON [sTable].[sFieldName] = [sRefTable].Type
-			--WHERE [sTable].BuildingType = ?
-			--ORDER BY YieldType" -]]
-			if sRefTable == "" then
-				local sql = string.format(
-					"SELECT %s.Yield%s as Yield, Yields.IconString FROM %s INNER JOIN Yields ON %s.YieldType = Yields.Type WHERE %s.BuildingType = ? ORDER BY YieldType",
-					sTable, sFlags, sTable, sTable, sTable);
-				--print("Executing SQL ", sql);
-				for row in DB.Query(sql, thisBuilding.Type) do
-					sLocText = sLocText..string.format("%+d%s", row.Yield, row.IconString);
-				end
-			else
-				local sql = string.format(
-					"SELECT %s.Yield%s as Yield, Yields.IconString, %s.Description FROM %s INNER JOIN Yields ON %s.YieldType = Yields.Type INNER JOIN %s ON %s.%s = %s.Type WHERE %s.BuildingType = ? ORDER BY %s.Type, YieldType",
-					sTable, sFlags, sRefTable, sTable, sTable, sRefTable, sTable, sFieldName, sRefTable, sTable, sRefTable);
-				--print("Executing SQL ", sql);
-				local sGroup = "";
-				for row in DB.Query(sql, thisBuilding.Type) do
-					if sGroup == "" then
-						sLocText = sLocText..string.format("[NEWLINE][ICON_BULLET]%+d%s ", row.Yield, row.IconString);
-						sGroup = row.Description;
-					elseif row.Description == sGroup then
-						sLocText = sLocText..string.format("%+d%s ", row.Yield, row.IconString);
-					else
-						sLocText = sLocText..string.format("[NEWLINE][ICON_BULLET]%+d%s ", row.Yield, row.IconString);
-						sLocText = sLocText.."("..Locale.Lookup(sGroup)..") ";
-						sGroup = row.Description;
+		if Game.IsDebugMode() then
+			local sText = "이 건물의 [COLOR_CYAN]특징[ENDCOLOR]:"; -- change to TXT_KEY_ later
+			-- Generic info from main table
+			local function AnalyzeBuilding(sField, sSuffix)
+				--print("AnalyzeBuilding", sField, sSuffix)
+				sText = sText .. AnalyzeObjectField(thisBuilding, sField, sSuffix);
+			end
+			--AnalyzeBuilding("CapitalOnly", "");
+			if thisBuilding.CapitalOnly then sText = sText.."[NEWLINE][ICON_BULLET][ICON_CAPITAL][COLOR_CYAN]수도[ENDCOLOR]에서만 가능"; end
+			--AnalyzeBuilding("UnlockedByBelief");
+			if thisBuilding.UnlockedByBelief then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]교리[ENDCOLOR]에서 해제"; end
+			--AnalyzeBuilding("UnlockedByLeague");
+			if thisBuilding.UnlockedByLeague then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]세계 의회[ENDCOLOR]에서 해제"; end
+			--AnalyzeBuilding("PolicyBranchType");
+			if thisBuilding.PolicyBranchType ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.PolicyBranchTypes[thisBuilding.PolicyBranchType].Description).."[ENDCOLOR] 필요함"; end
+			--AnalyzeBuilding("PolicyType");
+			if thisBuilding.PolicyType ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.Policies[thisBuilding.PolicyType].Description).."[ENDCOLOR] 필요함"; end
+			--AnalyzeBuilding("IsCorporation");
+			if thisBuilding.IsCorporation then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]기업[ENDCOLOR]"; end
+			AnalyzeBuilding("TeamShare");
+			AnalyzeBuilding("Water");
+			--AnalyzeBuilding("MinAreaSize");
+			if thisBuilding.MinAreaSize > 0 and thisBuilding.MinAreaSize < 10 then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]호수[ENDCOLOR]가 필요함"; end
+			if thisBuilding.MinAreaSize >= 10 then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]연안[ENDCOLOR]이 필요함"; end
+			AnalyzeBuilding("River");
+			AnalyzeBuilding("FreshWater");
+			AnalyzeBuilding("Mountain");
+			AnalyzeBuilding("NearbyMountainRequired");
+			AnalyzeBuilding("Hill");
+			AnalyzeBuilding("Flat");
+			--AnalyzeBuilding("NearbyTerrainRequired");
+			if thisBuilding.NearbyTerrainRequired ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.Terrains[thisBuilding.NearbyTerrainRequired].Description).."[ENDCOLOR] 필요함"; end
+			--AnalyzeBuilding("ProhibitedCityTerrain");
+			if thisBuilding.ProhibitedCityTerrain ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.Terrains[thisBuilding.ProhibitedCityTerrain].Description).."[ENDCOLOR] 금지됨"; end
+			AnalyzeBuilding("BorderObstacle", "");
+			AnalyzeBuilding("PlayerBorderObstacle", "");
+			AnalyzeBuilding("Capital");
+			AnalyzeBuilding("GoldenAge");
+			AnalyzeBuilding("MapCentering");
+			AnalyzeBuilding("AllowsWaterRoutes");
+			AnalyzeBuilding("AllowsIndustrialWaterRoutes");
+			AnalyzeBuilding("AllowsAirRoutes");
+			AnalyzeBuilding("ExtraLuxuries");
+			AnalyzeBuilding("DiplomaticVoting");
+			AnalyzeBuilding("AffectSpiesNow");
+			AnalyzeBuilding("NullifyInfluenceModifier");
+			AnalyzeBuilding("LeagueCost");
+			AnalyzeBuilding("HolyCity");
+			AnalyzeBuilding("NumCityCostMod");
+			AnalyzeBuilding("CitiesPrereq");
+			AnalyzeBuilding("LevelPrereq");
+			AnalyzeBuilding("CultureRateModifier");
+			AnalyzeBuilding("GlobalCultureRateModifier");
+			AnalyzeBuilding("GreatPeopleRateModifier");
+			AnalyzeBuilding("GlobalGreatPeopleRateModifier");
+			AnalyzeBuilding("GreatGeneralRateModifier");
+			AnalyzeBuilding("GreatPersonExpendGold");
+			AnalyzeBuilding("GoldenAgeModifier");
+			AnalyzeBuilding("UnitUpgradeCostMod");
+			AnalyzeBuilding("Experience");
+			AnalyzeBuilding("GlobalExperience");
+			AnalyzeBuilding("FoodKept");
+			AnalyzeBuilding("Airlift");
+			AnalyzeBuilding("AirModifier", "[ICON_AIRSTRIKE_DEFENSE]");
+			AnalyzeBuilding("NukeModifier");
+			AnalyzeBuilding("NukeExplosionRand");
+			AnalyzeBuilding("HealRateChange", "HP");
+			AnalyzeBuilding("UnmoddedHappiness", "[ICON_HAPPINESS_1]");
+			AnalyzeBuilding("Happiness", "[ICON_HAPPINESS_1]");
+			AnalyzeBuilding("HappinessPerCity", "[ICON_HAPPINESS_1]");
+			AnalyzeBuilding("HappinessPerXPolicies", "[ICON_HAPPINESS_1]");
+			AnalyzeBuilding("UnhappinessModifier");
+			AnalyzeBuilding("CityCountUnhappinessMod");
+			AnalyzeBuilding("NoOccupiedUnhappiness");
+			AnalyzeBuilding("WorkerSpeedModifier");
+			AnalyzeBuilding("MilitaryProductionModifier");
+			AnalyzeBuilding("SpaceProductionModifier");
+			AnalyzeBuilding("GlobalSpaceProductionModifier");
+			AnalyzeBuilding("BuildingProductionModifier");
+			AnalyzeBuilding("WonderProductionModifier");
+			AnalyzeBuilding("CityConnectionTradeRouteModifier");
+			AnalyzeBuilding("CapturePlunderModifier");
+			AnalyzeBuilding("PolicyCostModifier");
+			AnalyzeBuilding("PlotCultureCostModifier");
+			AnalyzeBuilding("GlobalPlotCultureCostModifier");
+			AnalyzeBuilding("PlotBuyCostModifier");
+			AnalyzeBuilding("GlobalPlotBuyCostModifier");
+			AnalyzeBuilding("GlobalPopulationChange", "[ICON_CITIZEN]");
+			AnalyzeBuilding("TechShare");
+			AnalyzeBuilding("FreeTechs", "[ICON_RESEARCH]");
+			AnalyzeBuilding("FreePolicies", "[ICON_CULTURE]");
+			AnalyzeBuilding("FreeGreatPeople", "[ICON_GREAT_PEOPLE]");
+			AnalyzeBuilding("MedianTechPercentChange");
+			AnalyzeBuilding("Gold");
+			AnalyzeBuilding("AllowsRangeStrike");
+			AnalyzeBuilding("Espionage");
+			AnalyzeBuilding("AllowsFoodTradeRoutes");
+			AnalyzeBuilding("AllowsProductionTradeRoutes");
+			AnalyzeBuilding("GlobalDefenseMod");
+			AnalyzeBuilding("MinorFriendshipChange");
+			AnalyzeBuilding("VictoryPoints");
+			AnalyzeBuilding("ExtraMissionarySpreads", "[ICON_MISSIONARY]");
+			AnalyzeBuilding("ReligiousPressureModifier");
+			AnalyzeBuilding("BasePressureModifierGlobal");
+			AnalyzeBuilding("EspionageModifier");
+			AnalyzeBuilding("GlobalEspionageModifier");
+			AnalyzeBuilding("ExtraSpies", "[ICON_SPY]");
+			AnalyzeBuilding("SpyRankChange", "");
+			AnalyzeBuilding("InstantSpyRankChange", "");
+			AnalyzeBuilding("TradeRouteRecipientBonus", "[ICON_GOLD]");
+			AnalyzeBuilding("TradeRouteTargetBonus", "[ICON_GOLD]");
+			AnalyzeBuilding("NumTradeRouteBonus", "[ICON_INTERNATIONAL_TRADE]");
+			AnalyzeBuilding("LandmarksTourismPercent");
+			AnalyzeBuilding("InstantMilitaryIncrease");
+			AnalyzeBuilding("GreatWorksTourismModifier");
+			AnalyzeBuilding("XBuiltTriggersIdeologyChoice");
+			AnalyzeBuilding("TradeRouteSeaDistanceModifier");
+			AnalyzeBuilding("TradeRouteSeaGoldBonus", "");
+			AnalyzeBuilding("TradeRouteLandDistanceModifier");
+			AnalyzeBuilding("TradeRouteLandGoldBonus", "");
+			AnalyzeBuilding("CityStateTradeRouteProductionModifier");
+			AnalyzeBuilding("GreatScientistBeakerModifier");
+			AnalyzeBuilding("VictoryPrereq");
+			--AnalyzeBuilding("ObsoleteTech");
+			if thisBuilding.ObsoleteTech ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.Technologies[thisBuilding.ObsoleteTech].Description).."[ENDCOLOR] 함께 사용하지 않음"; end
+			--AnalyzeBuilding("EnhancedYieldTech");
+			if thisBuilding.EnhancedYieldTech ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.Technologies[thisBuilding.EnhancedYieldTech].Description).."[ENDCOLOR] 추가 산출량"; end
+			--AnalyzeBuilding("FreeBuilding");
+			if thisBuilding.FreeBuilding ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]모든 도시에서 [COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.BuildingClasses[thisBuilding.FreeBuilding].Description).."[ENDCOLOR] 무료"; end
+			--AnalyzeBuilding("FreeBuildingThisCity");
+			if thisBuilding.FreeBuildingThisCity ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]도시에서 [COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.BuildingClasses[thisBuilding.FreeBuildingThisCity].Description).."[ENDCOLOR] 무료"; end
+			--AnalyzeBuilding("FreePromotion");
+			if thisBuilding.FreePromotion ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]모든 유닛이 [COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.UnitPromotions[thisBuilding.FreePromotion].Description).."[ENDCOLOR] 받음"; end
+			--AnalyzeBuilding("TrainedFreePromotion");
+			if thisBuilding.TrainedFreePromotion ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]도시에서 훈련 받은 유닛은 [COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.UnitPromotions[thisBuilding.TrainedFreePromotion].Description).."[ENDCOLOR] 받음"; end
+			--AnalyzeBuilding("FreePromotionRemoved");
+			if thisBuilding.FreePromotionRemoved ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.UnitPromotions[thisBuilding.FreePromotionRemoved].Description).."[ENDCOLOR] 제거함"; end
+			AnalyzeBuilding("ReplacementBuildingClass");
+			--AnalyzeBuilding("FreeGreatWork");
+			if thisBuilding.FreeGreatWork ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]"..Locale.Lookup(GameInfo.GreatWorks[thisBuilding.FreeGreatWork].Description).."[ENDCOLOR] 무료"; end
+			AnalyzeBuilding("SpecialistExtraCulture");
+			AnalyzeBuilding("ExtraLeagueVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
+			AnalyzeBuilding("CityWall");
+			--AnalyzeBuilding("DisplayPosition");
+			AnalyzeBuilding("ArtInfoCulturalVariation");
+			AnalyzeBuilding("ArtInfoEraVariation");
+			AnalyzeBuilding("ArtInfoRandomVariation");
+			AnalyzeBuilding("IsNoWater");
+			AnalyzeBuilding("IsNoRiver");
+			AnalyzeBuilding("NumPoliciesNeeded", "");
+			AnalyzeBuilding("NationalPopRequired", "");
+			AnalyzeBuilding("LocalPopRequired", "");
+			AnalyzeBuilding("BorderObstacleCity");
+			AnalyzeBuilding("BorderObstacleWater");
+			AnalyzeBuilding("AllowsFoodTradeRoutesGlobal");
+			AnalyzeBuilding("AllowsProductionTradeRoutesGlobal");
+			AnalyzeBuilding("CityConnectionGoldModifier");
+			AnalyzeBuilding("BasicNeedsMedianModifier");
+			AnalyzeBuilding("GoldMedianModifier");
+			AnalyzeBuilding("ScienceMedianModifier");
+			AnalyzeBuilding("CultureMedianModifier");
+			AnalyzeBuilding("ReligiousUnrestModifier");
+			AnalyzeBuilding("BasicNeedsMedianModifierGlobal");
+			AnalyzeBuilding("GoldMedianModifierGlobal");
+			AnalyzeBuilding("ScienceMedianModifierGlobal");
+			AnalyzeBuilding("CultureMedianModifierGlobal");
+			AnalyzeBuilding("ReligiousUnrestModifierGlobal");
+			AnalyzeBuilding("LocalUnhappinessModifier");
+			AnalyzeBuilding("GlobalBuildingGoldMaintenanceMod");
+			AnalyzeBuilding("NationalFollowerPopRequired");
+			AnalyzeBuilding("GlobalFollowerPopRequired");
+			AnalyzeBuilding("IsReformation");
+			AnalyzeBuilding("ResourceType");
+			--if thisPromotion.TechPrereq ~= nil then sText = sText.."[NEWLINE][ICON_BULLET][COLOR_CYAN]"..Locale.Lookup(GameInfo.Technologies[thisPromotion.TechPrereq].Description).."[ENDCOLOR] 필요함"; end
+			AnalyzeBuilding("PuppetPurchaseOverride");
+			AnalyzeBuilding("SingleLeagueVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
+			AnalyzeBuilding("AllowsPuppetPurchase");
+			AnalyzeBuilding("GrantsRandomResourceTerritory", "");
+			AnalyzeBuilding("ResourceQuantityToPlace");
+			AnalyzeBuilding("TradeReligionModifier");
+			--AnalyzeBuilding("NeedBuildingThisCity");
+			if thisBuilding.NeedBuildingThisCity ~= nil then sText = sText.."[NEWLINE][ICON_BULLET]도시에서 [COLOR_NEGATIVE_TEXT]"..Locale.Lookup(GameInfo.BuildingClasses[thisBuilding.NeedBuildingThisCity].Description).."[ENDCOLOR] 필요함"; end
+			AnalyzeBuilding("WLTKDTurns", "");
+			AnalyzeBuilding("EventTourism", "[ICON_TOURISM]");
+			AnalyzeBuilding("AlwaysHeal", "HP");
+			AnalyzeBuilding("CitySupplyModifier", "[ICON_SILVER_FIST]");
+			AnalyzeBuilding("CitySupplyModifierGlobal", "[ICON_SILVER_FIST]");
+			AnalyzeBuilding("CitySupplyFlat", "[ICON_WAR]");
+			AnalyzeBuilding("CitySupplyFlatGlobal", "[ICON_WAR]");
+			AnalyzeBuilding("CityRangedStrikeRange", "");
+			AnalyzeBuilding("CityIndirectFire");
+			AnalyzeBuilding("RangedStrikeModifier");
+			AnalyzeBuilding("ExtraMissionaryStrengthGlobal");
+			AnalyzeBuilding("ReformationFollowerReduction");
+			AnalyzeBuilding("ResourceDiversityModifier");
+			AnalyzeBuilding("FinishLandTRTourism", "[ICON_TOURISM]");
+			AnalyzeBuilding("FinishSeaTRTourism", "[ICON_TOURISM]");
+			AnalyzeBuilding("VotesPerGPT", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
+			AnalyzeBuilding("RequiresIndustrialCityConnection", "");
+			AnalyzeBuilding("CivilizationRequired");
+			AnalyzeBuilding("PurchaseCooldown");
+			AnalyzeBuilding("CityAirStrikeDefense", "[ICON_STRENGTH]");
+			AnalyzeBuilding("BuildAnywhere");
+			AnalyzeBuilding("FreeArtifacts", "");
+			AnalyzeBuilding("VassalLevyEra");
+			if thisBuilding.EventChoiceRequiredActive ~= nil then
+				local sDesc = ""
+				for choice in DB.Query("SELECT Description FROM EventChoices WHERE Type = ?", thisBuilding.EventChoiceRequiredActive) do sDesc = choice.Description end
+				sText = sText.."[NEWLINE][ICON_BULLET]이벤트 선택 필요: [COLOR_POSITIVE_TEXT]"..Locale.Lookup(sDesc).."[ENDCOLOR]"
+			end
+			--AnalyzeBuilding("EventChoiceRequiredActive");
+			--AnalyzeBuilding("CityEventChoiceRequiredActive");
+			if thisBuilding.CityEventChoiceRequiredActive ~= nil then
+				local sDesc = ""
+				for choice in DB.Query("SELECT Description FROM CityEventChoices WHERE Type = ?", thisBuilding.CityEventChoiceRequiredActive) do sDesc = choice.Description end
+				sText = sText.."[NEWLINE][ICON_BULLET]도시 이벤트 선택 필요: [COLOR_POSITIVE_TEXT]"..Locale.Lookup(sDesc).."[ENDCOLOR]"
+			end
+			AnalyzeBuilding("GPRateModifierPerXFranchises");
+			AnalyzeBuilding("TRSpeedBoost");
+			AnalyzeBuilding("TRVisionBoost");
+			AnalyzeBuilding("DPToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
+			AnalyzeBuilding("SecondaryPantheon");
+			AnalyzeBuilding("IsDummy");
+			AnalyzeBuilding("AnyWater");
+			AnalyzeBuilding("BuildingDefenseModifier");
+			AnalyzeBuilding("DamageReductionFlat", "");
+			AnalyzeBuilding("GlobalLandmarksTourismPercent");
+			AnalyzeBuilding("GlobalGreatWorksTourismModifier");
+			AnalyzeBuilding("FaithToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
+			AnalyzeBuilding("CapitalsToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
+			AnalyzeBuilding("DoFToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
+			AnalyzeBuilding("RAToVotes", "[COLOR_POSITIVE_TEXT]votes[ENDCOLOR]");
+			AnalyzeBuilding("GPExpendInfluence");
+			AnalyzeBuilding("AddsFreshWater");
+			AnalyzeBuilding("PurchaseOnly");
+			AnalyzeBuilding("CityWorkingChange");
+			AnalyzeBuilding("GlobalCityWorkingChange");
+			AnalyzeBuilding("GlobalConversionModifier");
+			AnalyzeBuilding("ConversionModifier");
+			AnalyzeBuilding("PlayerBorderGainlessPillage");
+			AnalyzeBuilding("CityGainlessPillage");
+			AnalyzeBuilding("HurryCostModifier");
+			AnalyzeBuilding("NeverCapture");
+			AnalyzeBuilding("NukeInterceptionChance");
+			AnalyzeBuilding("NukeImmune");
+			AnalyzeBuilding("ConquestProb", "");
+			AnalyzeBuilding("NumRequiredTier3Tenets");
+			--AnalyzeBuilding("FreeStartEra");
+			if thisBuilding.FreeStartEra ~= nil then
+				local sDesc = ""
+				for era in DB.Query("SELECT Description FROM Eras WHERE Type = ?", thisBuilding.FreeStartEra) do sDesc = era.Description end
+				sText = sText.."[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]"..Locale.Lookup(sDesc).."[ENDCOLOR]에서 무료"
+			end
+			--AnalyzeBuilding("MaxStartEra");
+			if thisBuilding.MaxStartEra ~= nil then
+				local sDesc = ""
+				for era in DB.Query("SELECT Description FROM Eras WHERE Type = ?", thisBuilding.MaxStartEra) do sDesc = era.Description end
+				sText = sText.."[NEWLINE][ICON_BULLET]오직 [COLOR_NEGATIVE_TEXT]"..Locale.Lookup(sDesc).."[ENDCOLOR]까지만"
+			end
+			-------------------
+			local function AnalyzeBuildingYields(sTable, sFieldName, sRefTable, sFlags, sInfo)
+				--print("AnalyzeBuildingYields", sTable, sFieldName, sRefTable, sFlags, sInfo)
+				local sLocText = "";
+				--"SELECT [sTable].Yield, [sRefTable].Description
+				--FROM [sTable]
+				--INNER JOIN [sRefTable] ON [sTable].[sFieldName] = [sRefTable].Type
+				--WHERE [sTable].BuildingType = ?
+				--ORDER BY YieldType" -]]
+				if sRefTable == "" then
+					local sql = string.format(
+						"SELECT %s.Yield%s as Yield, Yields.IconString FROM %s INNER JOIN Yields ON %s.YieldType = Yields.Type WHERE %s.BuildingType = ? ORDER BY YieldType",
+						sTable, sFlags, sTable, sTable, sTable);
+					--print("Executing SQL ", sql);
+					for row in DB.Query(sql, thisBuilding.Type) do
+						sLocText = sLocText..string.format("%+d%s", row.Yield, row.IconString);
 					end
+				else
+					local sql = string.format(
+						"SELECT %s.Yield%s as Yield, Yields.IconString, %s.Description FROM %s INNER JOIN Yields ON %s.YieldType = Yields.Type INNER JOIN %s ON %s.%s = %s.Type WHERE %s.BuildingType = ? ORDER BY %s.Type, YieldType",
+						sTable, sFlags, sRefTable, sTable, sTable, sRefTable, sTable, sFieldName, sRefTable, sTable, sRefTable);
+					--print("Executing SQL ", sql);
+					local sGroup = "";
+					for row in DB.Query(sql, thisBuilding.Type) do
+						if sGroup == "" then
+							sLocText = sLocText..string.format("[NEWLINE][ICON_BULLET]%+d%s ", row.Yield, row.IconString);
+							sGroup = row.Description;
+						elseif row.Description == sGroup then
+							sLocText = sLocText..string.format("%+d%s ", row.Yield, row.IconString);
+						else
+							sLocText = sLocText.."from "..Locale.Lookup(sGroup);
+							sLocText = sLocText..string.format("[NEWLINE][ICON_BULLET]%+d%s ", row.Yield, row.IconString);
+							sGroup = row.Description;
+						end
+					end
+					if sGroup ~= "" then sLocText = sLocText.."에서 "..Locale.Lookup(sGroup); end
 				end
-				if sGroup ~= "" then sLocText = sLocText.."("..Locale.Lookup(sGroup)..") "; end
+				if sLocText ~= "" then
+					sText = sText.."[NEWLINE]"..sInfo..sLocText;
+				end
 			end
-			if sLocText ~= "" then
-				sText = sText.."[NEWLINE]"..sInfo..sLocText;
-			end
+			-- main yields from building
+			--AnalyzeBuildingYields("Building_YieldChanges", 				 "", 					"", "", "");
+			--AnalyzeBuildingYields("Building_YieldChangesPerPop", 			 "", 					"", "%", "");
+			--AnalyzeBuildingYields("Building_YieldModifiers", 			     "", 					"", "%", "");
+			--                     secondary table                            field name           ref table         flags info text
+			AnalyzeBuildingYields("Building_TerrainYieldChanges",   	     "TerrainType", 		"Terrains",			"", 		"[COLOR_CYAN]지형[ENDCOLOR]으로부터 산출량: ");
+			AnalyzeBuildingYields("Building_FeatureYieldChanges",            "FeatureType",       	"Features",			"", 		"[COLOR_CYAN]특징[ENDCOLOR]으로부터 산출량: ");
+			AnalyzeBuildingYields("Building_ResourceYieldChanges",           "ResourceType",      	"Resources", 		"", 		"[COLOR_CYAN]자원[ENDCOLOR]으로부터 산출량: ");
+			AnalyzeBuildingYields("Building_SeaResourceYieldChanges", 		 "", 					"", 				"", 		"[COLOR_CYAN]해양 자원[ENDCOLOR]으로 부터 산출량: ");
+			AnalyzeBuildingYields("Building_ImprovementYieldChanges",        "ImprovementType",   	"Improvements",  	"", 		"[COLOR_CYAN]시설[ENDCOLOR]로부터 산출량: ");
+			AnalyzeBuildingYields("Building_PlotYieldChanges",               "PlotType",          	"Plots",         	"", 		"[COLOR_CYAN]타일[ENDCOLOR]로부터 산출량: ");
+			AnalyzeBuildingYields("Building_LakePlotYieldChanges",           "",                  	"",             	"", 		"[COLOR_CYAN]호수[ENDCOLOR] 타일로부터 산출량: ");
+			AnalyzeBuildingYields("Building_RiverPlotYieldChanges", 		 "", 					"", 				"", 		"[COLOR_CYAN]강[ENDCOLOR] 타일로부터 산출량: ");
+			AnalyzeBuildingYields("Building_SeaPlotYieldChanges", 			 "", 					"", 				"", 		"[COLOR_CYAN]해양[ENDCOLOR] 타일로부터 산출량: ");
+			AnalyzeBuildingYields("Building_BuildingClassLocalYieldChanges", "BuildingClassType", 	"BuildingClasses", 	"Change", 	"[COLOR_CYAN]건물[ENDCOLOR]로부터 산출량: ");
+			AnalyzeBuildingYields("Building_SpecialistYieldChangesLocal",    "SpecialistType", 		"Specialists", 		"", 		"[COLOR_CYAN]전문가[ENDCOLOR]로부터 산출량: ");
+			-- global changes
+			AnalyzeBuildingYields("Building_ImprovementYieldChangesGlobal",  "ImprovementType",   	"Improvements",    	"", 		"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]시설[ENDCOLOR]로부터 산출량: ");
+			AnalyzeBuildingYields("Building_BuildingClassYieldChanges",      "BuildingClassType", 	"BuildingClasses", 	"Change", 	"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]건물[ENDCOLOR]로부터 산출량: ");
+			AnalyzeBuildingYields("Building_SpecialistYieldChanges", 		 "SpecialistType", 		"Specialists", 		"", 		"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]전문가[ENDCOLOR]로부터 산출량: ");
+			-------------------
+			UpdateTextBlock( sText, Controls.ExtendedLabel,  Controls.ExtendedInnerFrame,  Controls.ExtendedFrame );
 		end
-		-- main yields from building
-		--AnalyzeBuildingYields("Building_YieldChanges", 				 "", 					"", "", "");
-		--AnalyzeBuildingYields("Building_YieldChangesPerPop", 			 "", 					"", "%", "");
-		--AnalyzeBuildingYields("Building_YieldModifiers", 			     "", 					"", "%", "");
-		--                     secondary table                            field name           ref table         flags info text
-		AnalyzeBuildingYields("Building_TerrainYieldChanges",   	     "TerrainType", 		"Terrains",			"", 		"[COLOR_CYAN]지형[ENDCOLOR]으로부터 산출량: ");
-		AnalyzeBuildingYields("Building_FeatureYieldChanges",            "FeatureType",       	"Features",			"", 		"[COLOR_CYAN]특징[ENDCOLOR]으로부터 산출량: ");
-		AnalyzeBuildingYields("Building_ResourceYieldChanges",           "ResourceType",      	"Resources", 		"", 		"[COLOR_CYAN]자원[ENDCOLOR]으로부터 산출량: ");
-		AnalyzeBuildingYields("Building_SeaResourceYieldChanges", 		 "", 					"", 				"", 		"[COLOR_CYAN]해양 자원[ENDCOLOR]으로 부터 산출량: ");
-		AnalyzeBuildingYields("Building_ImprovementYieldChanges",        "ImprovementType",   	"Improvements",  	"", 		"[COLOR_CYAN]시설[ENDCOLOR]로부터 산출량: ");
-		AnalyzeBuildingYields("Building_PlotYieldChanges",               "PlotType",          	"Plots",         	"", 		"[COLOR_CYAN]타일[ENDCOLOR]로부터 산출량: ");
-		AnalyzeBuildingYields("Building_LakePlotYieldChanges",           "",                  	"",             	"", 		"[COLOR_CYAN]호수[ENDCOLOR] 타일로부터 산출량: ");
-		AnalyzeBuildingYields("Building_RiverPlotYieldChanges", 		 "", 					"", 				"", 		"[COLOR_CYAN]강[ENDCOLOR] 타일로부터 산출량: ");
-		AnalyzeBuildingYields("Building_SeaPlotYieldChanges", 			 "", 					"", 				"", 		"[COLOR_CYAN]해양[ENDCOLOR] 타일로부터 산출량: ");
-		AnalyzeBuildingYields("Building_BuildingClassLocalYieldChanges", "BuildingClassType", 	"BuildingClasses", 	"Change", 	"[COLOR_CYAN]건물[ENDCOLOR]로부터 산출량: ");
-		AnalyzeBuildingYields("Building_SpecialistYieldChangesLocal",    "SpecialistType", 		"Specialists", 		"", 		"[COLOR_CYAN]전문가[ENDCOLOR]로부터 산출량: ");
-		-- global changes
-		AnalyzeBuildingYields("Building_ImprovementYieldChangesGlobal",  "ImprovementType",   	"Improvements",    	"", 		"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]시설[ENDCOLOR]로부터 산출량: ");
-		AnalyzeBuildingYields("Building_BuildingClassYieldChanges",      "BuildingClassType", 	"BuildingClasses", 	"Change", 	"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]건물[ENDCOLOR]로부터 산출량: ");
-		AnalyzeBuildingYields("Building_SpecialistYieldChanges", 		 "SpecialistType", 		"Specialists", 		"", 		"[COLOR_POSITIVE_TEXT]모든 도시[ENDCOLOR]의 [COLOR_CYAN]전문가[ENDCOLOR]로부터 산출량: ");
-		-------------------
-		UpdateTextBlock( sText, Controls.ExtendedLabel,  Controls.ExtendedInnerFrame,  Controls.ExtendedFrame );
 		-- end Infixo
 
 		-- update the related images
@@ -5034,9 +5046,7 @@ CivilopediaCategory[CategoryPeople].SelectArticle =  function( rawPeopleID, shou
 			-- list the buildings that can spawn this unit
 
 			-- update the game info
-			if thisPerson.Help then
-				UpdateTextBlock( Locale.ConvertTextKey( thisPerson.Help ), Controls.GameInfoLabel, Controls.GameInfoInnerFrame, Controls.GameInfoFrame );
-			end
+			UpdateTextBlock(GetHelpTextForUnit(greatPersonID, true, nil, true, true), Controls.GameInfoLabel, Controls.GameInfoInnerFrame, Controls.GameInfoFrame);
 
 			-- update the strategy info
 			if (thisPerson.Strategy) then
@@ -9308,6 +9318,7 @@ Controls.SearchEditBox:RegisterCallback( OnSearchTextEnter );
 
 function OnSearchNotFoundOK()
 	Controls.SearchFoundNothing:SetHide(true);
+	Controls.SearchEditBox:TakeFocus()
 end
 Controls.OK:RegisterCallback(Mouse.eLClick, OnSearchNotFoundOK );
 
@@ -9316,9 +9327,15 @@ function InputHandler( uiMsg, wParam, lParam )
 		if(not Controls.SearchFoundNothing:IsHidden()) then
 			if(wParam == Keys.VK_ESCAPE or wParam == Keys.VK_RETURN) then
 				Controls.SearchFoundNothing:SetHide(true);
+				Controls.SearchEditBox:TakeFocus()
 				return true;
 			end
 		else
+			if wParam == Keys.F and UIManager:GetControl() then
+				Controls.SearchEditBox:TakeFocus()
+				return true
+			end
+
 			if(wParam == Keys.VK_ESCAPE) then
 				OnClose();
 				return true;
@@ -9347,7 +9364,7 @@ function ShowHideHandler( isHide )
 				CivilopediaCategory[CategoryHomePage].DisplayHomePage();
 			end
 		end
-
+		Controls.SearchEditBox:TakeFocus()
 	end
 end
 ContextPtr:SetShowHideHandler( ShowHideHandler );

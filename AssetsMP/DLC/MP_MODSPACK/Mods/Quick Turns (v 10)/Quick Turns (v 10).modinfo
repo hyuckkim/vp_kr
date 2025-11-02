@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0410e638-98da-4d02-930a-daf4c3a120ef" version="10">
+  <Properties>
+    <Name>Quick Turns</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Intelligently toggles Quick Movement and Combat during AI turns.</Teaser>
+    <Description>Intelligently toggles Quick Movement/Combat during AI turns, which results in significantly reduced time you will spend waiting and watching what the AI does instead of actually playing, especially in the late game. Only important AI unit actions, relevant for the player are shown. Replacement for playing with permanently enabled Quick Movement/Combat or in the Strategic 2D View when turn times slow down to a crawl. You can now enjoy the cool nuclear explosions and most unit animations without major compromises![NEWLINE][NEWLINE]Features:[NEWLINE]- In-game interface for mod's customization.[NEWLINE]- Toggle animations for barbarians.[NEWLINE]- Toggle animations for city states that you are at peace with.[NEWLINE]- Toggle animations for city states that you are allied with.[NEWLINE]- Toggle animations for AI that you are at peace with.[NEWLINE]- Toggle animations for AI that you are at war with.[NEWLINE]- Toggle animations for AI that you share enemies with.[NEWLINE]- Toggle animations for AI that are at war with you allied city states.[NEWLINE]- Speed up aircraft attack animations.[NEWLINE]- Disable aircraft rebase animations.[NEWLINE][NEWLINE]Visit the Steam Workshop page for change logs and more info.</Description>
+    <Authors>gunstarpl</Authors>
+    <SpecialThanks>jcraft</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D579543DA835938C6C29E8E4BB81864B" import="1">Lua/QuickTurns.lua</File>
+    <File md5="2A78B7299E67A8FE2E9ECD7882BB9039" import="1">Lua/QuickTurnsDialog.lua</File>
+    <File md5="7436D0EF085DBF11187CE6E7D3E26BE5" import="1">SQL/QuickTurnsAnimations.sql</File>
+    <File md5="E8EED35CB693D52856AD495CC3FD4A71" import="1">XML/QuickTurnsDialog.xml</File>
+    <File md5="11FC40009A1FA3F1EB6A04B55AF1D7F4" import="1">XML/QuickTurnsText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/QuickTurnsText.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/QuickTurnsAnimations.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/QuickTurns.lua">
+      <Name>QuickTurns</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/QuickTurnsDialog.xml">
+      <Name>QuickTurnsDialog</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

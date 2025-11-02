@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_QUICKTURNS_TITLE">
+			<Text>Quick Turns</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_QUICKMOVEMENT">
+			<Text>Quick Movement</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_QUICKTURNS_QUICKMOVEMENT_TOOLTIP">
+			<Text>Disables movement animations.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_QUICKCOMBAT">
+			<Text>Quick Combat</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_QUICKCOMBAT_TOOLTIP">
+			<Text>Disables combat animations.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_PLAYER">
+			<Text>Player</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_PLAYER_TOOLTIP">
+			<Text>Quick animations for player turns. This mod disables the Quick Movement/Combat settings in the main menu. Use these instead.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_BARBARIAN">
+			<Text>Barbarian</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_BARBARIAN_TOOLTIP">
+			<Text>Quick animations for barbarian turns. They are at war with everyone, so these settings always apply.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_CITYSTATE_PEACE">
+			<Text>City State - Peace</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_CITYSTATE_PEACE_TOOLTIP">
+			<Text>Quick animations for city state turns. These settings apply during peace with the player, on war they switch to "Computer - War" settings.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_CITYSTATE_ALLY">
+			<Text>City State - Ally</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_CITYSTATE_ALLY_TOOLTIP">
+			<Text>Quick animations for allied city state turns. These settings apply when a city state that's allied with the player is at war, on peace they switch to "City State - Peace" settings (unless others apply).</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_PEACE">
+			<Text>Computer - Peace</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_PEACE_TOOLTIP">
+			<Text>Quick animations for computer civilization turns. These settings apply during peace with the player, on war they switch to "Computer - War" settings.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_WAR">
+			<Text>Computer - War</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_WAR_TOOLTIP">
+			<Text>Quick animations for computer civilization and city state turns. These settings apply during war with the player.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_COMMON_ENEMY">
+			<Text>Computer - Common Enemy</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_COMMON_ENEMY_TOOLTIP">
+			<Text>If enabled, sets the "Computer - War" settings for computer civilizations or city states that share an enemy with the player.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_AGGRESSOR">
+			<Text>Computer - Aggressor</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_COMPUTER_AGGRESSOR_TOOLTIP">
+			<Text>If enabled, sets the "Computer - War" settings for computer civilizations that are at war with player's allied city states.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_HOVER_INFO">
+			<Text>Hover cursor over text labels for more detailed information.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_HOVER_INFO_TOOLTIP">
+			<Text>Yes! Exactly like this.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_ENABLED">
+			<Text>Enabled</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_ENABLED_TOOLTIP">
+			<Text>Check to enable this setting.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_CLOSE">
+			<Text>Close</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_QUICKTURNS_CLOSE_TOOLTIP">
+			<Text>Some settings will only apply after the current turn ends.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

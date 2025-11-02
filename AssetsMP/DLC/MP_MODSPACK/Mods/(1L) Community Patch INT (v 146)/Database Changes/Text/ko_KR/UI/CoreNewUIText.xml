@@ -1,0 +1,3439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<!-- Save menu -->
+		<!-- Hopefully removed if option is not needed or better solution in place -->
+		<Row Tag="TXT_KEY_FORCE_MP_SAVE">
+			<Text>턴 중간 강제 저장 (권장하지 않음 - 저장된 게임을 손상시킬 수 있습니다!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FORCE_MP_SAVE_TOOLTIP">
+			<Text>위험! 파일 덮어쓰기 검사의 버그를 악용하여 턴 중간에 현재 턴 상태를 저장할 수 있는 바닐라 버전을 에뮬레이트합니다. 일반적으로 저장은 가장 최근 자동 저장의 이름이 변경된 복사본입니다. 이 설정을 활성화하면 턴 중간 상태를 저장할 수 있지만 파이락시스는 명시적으로 이를 방지하려고 시도했습니다. 아마도 문제를 일으킬 수 있기 때문일 것입니다. 이 설정은 절대 권장하지 않으며 사용에 따른 위험은 스스로 감수해야 합니다.</Text>
+		</Row>
+
+		<!-- Replay message -->
+		<Row Tag="TXT_KEY_MISC_COMPLETES_PROJECT_FIRST">
+			<Text>{1_PlyrName}{1: plural 1?이; 2?가;} {@2_PrjctName}{@2: plural 1?을; 2?를;} 최초로 완료했습니다!</Text>
+		</Row>
+
+		<!-- Tech tree -->
+		<Row Tag="TXT_KEY_TECH_HELP_UNITS_UNLOCKED">
+			<Text>[COLOR_CYAN]해금되는 유닛:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_BUILDINGS_UNLOCKED">
+			<Text>[COLOR_CYAN]해금되는 건물:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_WONDERS_UNLOCKED">
+			<Text>[COLOR_CYAN]해금되는 불가사의:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_PROJECTS_UNLOCKED">
+			<Text>[COLOR_CYAN]해금되는 프로젝트:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_PROCESSES_UNLOCKED">
+			<Text>[COLOR_CYAN]해금되는 과정:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_CORPS_UNLOCKED">
+			<Text>[COLOR_CYAN]해금되는 기업:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_RESOURCES_UNLOCKED">
+			<Text>[COLOR_CYAN]해금되는 자원:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_BUILDS_UNLOCKED">
+			<Text>[COLOR_CYAN]해금되는 시설:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_ACTIONS_UNLOCKED">
+			<Text>[COLOR_CYAN]고유 행동:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_YIELDS_UNLOCKED">
+			<Text>[COLOR_CYAN]산출량 변화:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_SPECIALIST_YIELDS_UNLOCKED">
+			<Text>[COLOR_CYAN]전문가 변경:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_NUMBER_CHANGE">
+			<Text>{1: number "'+'##.##;'-'##.##"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_YIELD_CHANGE">
+			<Text>{2_YieldIcon} {1: number "'+'##.##;'-'##.##"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_BUILD_REDUCTION">
+			<Text>{1_Build}: {2_Turns}턴 소모</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_CHOP_BOOST">
+			<Text>숲/정글 제거: [ICON_PRODUCTION] 생산력 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_BUILD_COST_REDUCTION">
+			<Text>{1: number "'+'##.##;'-'##.##"}% Turns to {2_Build}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_FASTER_ROUTE_MOVEMENT">
+			<Text>{2_Route:textkey} 이동 시 이동 비용 {1: number "'+'##.##;'-'##.##"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_FASTER_EMBARKED_MOVEMENT">
+			<Text>탑승 이동 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_FORTIFICATION_MODIFIER">
+			<Text>유닛 요새화에서 전투력 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_HEAL_MODIFIER">
+			<Text>회복시 체력 기본 회복량 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_HAPPINESS_GLOBAL">
+			<Text>모든 도시의 [ICON_HAPPINESS_1] 행복 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_EXTRA_TRADE_ROUTES">
+			<Text>[ICON_INTERNATIONAL_TRADE] 교역로 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_LAND_TRADE_ROUTE_EXTENSION">
+			<Text>[ICON_CARAVAN] 육상 교역로 범위 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_SEA_TRADE_ROUTE_EXTENSION">
+			<Text>[ICON_CARGO_SHIP] 해상 교역로 범위 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_TOURISM_MODIFIER">
+			<Text>모든 도시의 [ICON_TOURISM] 관광 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_BUILDING_BOOST">
+			<Text>{1_Building:textkey}: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_SPECIALIST_BOOST">
+			<Text>{1_Specialist:textkey}: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_TERRAIN_BOOST">
+			<Text>{1_Terrain:textkey}: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_FEATURE_BOOST">
+			<Text>{1_Feature:textkey}: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_IMPROVEMENT_BOOST">
+			<Text>{1_Improvement:textkey}: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_IMPROVEMENT_BOOST_FRESH_WATER">
+			<Text>담수 있는 {1_Improvement:textkey}: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_IMPROVEMENT_BOOST_NO_FRESH_WATER">
+			<Text>담수 없는 {1_Improvement:textkey}: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_DELEGATES_FROM_DIPLOMATS">
+			<Text>외국 [ICON_CAPITAL] 수도의 모든 [ICON_DIPLOMAT] 외교관에서 세계 의회 [ICON_DIPLOMAT] 대표 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_TECH_BOOST_CHOP">
+			<Text>숲/정글 제거 ([ICON_PRODUCTION] 생산력 +25)에서 [ICON_PRODUCTION] 생산량 +{1_Num}% 추가 </Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_ENABLES_CORPORATIONS">
+			<Text>기업을 설립할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_REDUCED_EMBARK_COST">
+			<Text>아군 도시 또는 운하에서 승선/하선 시 이동력 1 소모</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_NO_EMBARK_COST">
+			<Text>아군 도시 또는 운하에서 승선/하선 시 이동력 0.1 소모</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_MAP_TRADING">
+			<Text>다른 문명에 세계 지도 판매 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_TECH_TRADING">
+			<Text>다른 문명에 기술 판매 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_VASSALAGE">
+			<Text>경쟁자의 문명을 속국으로 만들 수 있음</Text>
+		</Row>
+		<!-- Don't work as described - see TechTableChanges.sql -->
+		<Row Tag="TXT_KEY_ABLTY_CITY_RANGE_INCREASE">
+			<Text>도시 공격 범위: +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ABLTY_CITY_INDIRECT_INCREASE">
+			<Text>도시 간접 사격 범위: +1</Text>
+		</Row>
+
+		<!-- Theming bonus -->
+		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
+			<Text>[COLOR_POSITIVE_TEXT]적용 중인 [COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS_NEEDED">
+			<Text>[COLOR_POSITIVE_TEXT]이 건물의 테마 조건을 충족시키면:[ENDCOLOR] +{1_Num}{2_YieldIcon} {3_YieldName}</Text>
+		</Row>
+
+		<!-- Conquest picker -->
+		<Row Tag="TXT_KEY_POPUP_DESTROY_CAPTURED_CITY">
+			<Text>도시 파괴!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_DESTROY">
+			<Text>도시가 즉시 파괴됩니다. 단일 도시로 도전 시, 인간 플레이어는 점령한 도시를 유지할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_HEADER">
+			<Text>이 도시를 [COLOR_NEGATIVE_TEXT]점령[ENDCOLOR]하여:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_1000">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 극도로 화날 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_800">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 크게 화날 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_600">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 꽤 화날 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_400">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 적잖이 화날 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_200">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 약간 화날 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_NIL">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 별로 신경쓰지 않을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_HEADER">
+			<Text>이 도시를 [COLOR_POSITIVE_TEXT]해방[ENDCOLOR]하여:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_1000">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 최고로 기뻐할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_800">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 매우 기뻐할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_600">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 꽤 기뻐할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_400">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 적잖이 기뻐할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_200">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 약간 기뻐할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_NIL">
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR]{1: plural 1?은; 2?는;} 별로 신경쓰지 않을 것입니다.</Text>
+		</Row>
+
+		<!-- Trade route picker -->
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_OPEN_BORDERS_MOD">
+			<Text>국경 개방 [ICON_GOLD] 골드 보너스: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_LAND_MODIFIER">
+			<Text>육상 교역로: {1_Num}x</Text>
+		</Row>
+
+		<!-- Top panel -->
+		<!-- Gold -->
+		<Row Tag="TXT_KEY_TP_GOLD_PER_TURN_POSITIVE">
+			<Text>턴 당 [ICON_GOLD] 골드 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_PER_TURN_NEGATIVE">
+			<Text>턴 당 [ICON_GOLD] 골드 손실 [COLOR_NEGATIVE]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<!-- Culture -->
+		<Row Tag="TXT_KEY_TP_CULTURE_PER_TURN">
+			<Text>턴 당 [ICON_CULTURE] 문화 +{1_Num}</Text>
+		</Row>
+		<!-- Science -->
+		<Row Tag="TXT_KEY_TP_SCIENCE_PER_TURN">
+			<Text>턴 당 [ICON_RESEARCH] 과학 +{1_Num}</Text>
+		</Row>
+		<!-- Tourism -->
+		<Row Tag="TXT_KEY_TP_TOURISM_PER_TURN">
+			<Text>턴 당 [ICON_TOURISM] 관광 +{1_Num}</Text>
+		</Row>
+		<!-- Golden Age Points -->
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_POINTS_PER_TURN">
+			<Text>턴 당 [ICON_GOLDEN_AGE] 황금기 점수 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_TURNS_UNTIL_GOLDEN_AGE">
+			<Text>다음 황금기: {1_Num}턴</Text>
+		</Row>
+		<!-- Faith -->
+		<Row Tag="TXT_KEY_TP_FAITH_PER_TURN">
+			<Text>턴 당 [ICON_PEACE] 신앙 +{1_Num}</Text>
+		</Row>
+		<!-- Instant yields -->
+		<Row Tag="TXT_KEY_INSTANT_YIELD_THIS_TURN">
+			<Text>[NEWLINE]        [ICON_BULLET] 현재: 매 턴 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_AVERAGE_CITIES">
+			<Text>[NEWLINE]        [ICON_BULLET] 평균: 매 턴 +{1_Num} (도시마다)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TOTAL">
+			<Text>[ICON_BULLET] {2_YieldIcon} {3_YieldColorString}{1_YieldType}[ENDCOLOR]: {4_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_PER_PLAYER_TOURISM">
+			<Text>[NEWLINE][COLOR_POSITIVE_TEXT][ICON_TOURISM] 각 문명 일시적 관광 산출량:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_PER_PLAYER_TOURISM_NAME">
+			<Text>[NEWLINE] [ICON_BULLET] {1_Civ}: {2_Val} [ICON_TOURISM] 관광 (매 턴 +{3_Avg})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER">
+			<Text>[COLOR_POSITIVE_TEXT]이번 턴에 즉시 얻은, 그리고 이전 {1_Num}턴 동안의 산출량[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER_EMPTY">
+			<Text>산출량은 정책, 교리, 건물 등 다양한 방법으로 얻을 수 있습니다. [NEWLINE]10턴 전과 이번 턴에 얻은 산출량의 총량은 이곳에 표시됩니다.</Text>
+		</Row>
+		<!-- Trade routes -->
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_TOURISM_YIELD_TT">
+			<Text>{1_Num} [ICON_TOURISM] 관광</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_GOLDEN_AGE_POINTS_YIELD_TT">
+			<Text>{1_Num} [ICON_GOLDEN_AGE] 황금기 점수</Text>
+		</Row>
+
+		<!-- Info tooltip -->
+		<!-- Common -->
+		<Row Tag="TXT_KEY_INVESTED">
+			<Text>[COLOR_POSITIVE_TEXT] (투자됨)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_PREFIX">
+			<Text>비용: {1_CostStr}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_PRODUCTION">
+			<Text>{1_Num} [ICON_PRODUCTION] 생산력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_GOLD">
+			<Text>{1_Num} [ICON_GOLD] 골드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_FAITH">
+			<Text>{1_Num} [ICON_PEACE] 신앙</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_YIELD_BOOST">
+			<Text>{2_YieldIcon} {1: number "'+'##.##;'-'##.##"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_YIELD_MODIFIER">
+			<Text>{2_YieldIcon} {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_YIELD_BOOST_FRACTION">
+			<Text>{3_YieldIcon} {1: number "'+'##;'-'##"}/{2_Denominator}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_PUPPET_INVESTABLE">
+			<Text>[ICON_PUPPET] 괴뢰국에 투자 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_PUPPET_PURCHASABLE">
+			<Text>[ICON_PUPPET] 괴뢰국에서 구매 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS">
+			<Text>필요 건물: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY">
+			<Text>필요 정책: [COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH">
+			<Text>모든 [COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH_OPENER">
+			<Text>[COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책 개방 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH_COMPLETION">
+			<Text>[COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책 완성 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_PREREQ_TECH">
+			<Text>필수 기술: [COLOR_CYAN]{1_Techs}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_OBSOLETE_TECH">
+			<Text>다음으로 인해 폐기됨: [COLOR_CYAN]{1_Tech:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_TOTAL_RESOURCES_REQUIRED">
+			<Text>접근 필요: {2_ResIcon} {3_Res:textkey} {1_NumResource}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_MAX_GLOBAL_INSTANCE">
+			<Text>세계에서 최대 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_MAX_TEAM_INSTANCE">
+			<Text>팀 당 최대 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_MAX_PLAYER_INSTANCE">
+			<Text>플레이어 당 최대 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_GLOBAL_SUFFIX">
+			<Text>모든 도시에서</Text>
+		</Row>
+		<!-- Unit -->
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_CLASS">
+			<Text>({1:textkey} 유닛)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_CLASS_SKIRMISHER">
+			<Text>(기마 궁수 유닛)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SPACESHIP_PART">
+			<Text>[COLOR_CYAN](우주선 부품)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXTRA_MAINTENANCE">
+			<Text>{1: number "'[COLOR_POSITIVE_TEXT]유지 비용 감소:[ENDCOLOR] '##;'[COLOR_NEGATIVE_TEXT]추가 유지 비용:[ENDCOLOR] '##"} [ICON_GOLD] 골드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_MAINTENANCE">
+			<Text>[COLOR_POSITIVE_TEXT]유지 비용 없음[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_SUPPLY">
+			<Text>[COLOR_POSITIVE_TEXT][ICON_WAR] 유닛 공급 제한[ENDCOLOR] 소모하지 않음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UNHAPPINESS">
+			<Text>[ICON_HAPPINESS_3] {1: number "'[COLOR_NEGATIVE_TEXT]불행:[ENDCOLOR] '##;'[COLOR_POSITIVE_TEXT]불행 감소:[ENDCOLOR] '##"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_STAGNATION">
+			<Text>[COLOR_NEGATIVE_TEXT]생산 중 정체[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_REDUCE_POPULATION">
+			<Text>[COLOR_NEGATIVE_TEXT]1만큼 [ICON_CITIZEN] 인구 감소[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MAX_HP">
+			<Text>최대 체력: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SIGHT">
+			<Text>[ICON_BULLET] 시야: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_AIR_DEFENSE">
+			<Text>[ICON_AIRSTRIKE_DEFENSE] 공습 방어력: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_INTERCEPT_RANGE">
+			<Text>[ICON_AIRSTRIKE_DEFENSE] 요격 범위: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_AIR_SLOTS">
+			<Text>[ICON_AIRPORT] 점유된 항공 유닛 슬롯: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_AIR_SLOTS">
+			<Text>항공 유닛 슬롯 차지하지 않음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CAN_CARRY">
+			<Text>수송 가능: {1_CargoType:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_PROMOTIONS">
+			<Text>무료 승급:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_PROMOTIONS_FRIENDLY">
+			<Text>우호 영토에서 무료 승급: {1_Promotion:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MOVE_AFTER_PURCHASE">
+			<Text>구매 후 전체 경험치를 얻고 이동 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_UPGRADE">
+			<Text>무료 자동 업그레이드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MOVE_AFTER_UPGRADE">
+			<Text>(이 유닛으로) 업그레이드 후 이동 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_RIVAL_TERRITORY">
+			<Text>경쟁자 영토 진입 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY">
+			<Text>도시 개척</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_ABROAD">
+			<Text>다른 땅에 도시 개척</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_PUPPET">
+			<Text>식민지 개척 (괴뢰 도시)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_ADVANCED">
+			<Text>추가 영토와 인구를 함께</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_RESTRICTION">
+			<Text>[COLOR_NEGATIVE_TEXT]다른 나라의 국경 근처거나 문명이 매우 불행하면 도시를 세울 수 없습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_FREE_BUILDINGS">
+			<Text>개척시 무료 건물 (위치 요구 사항에 따라): {1_Buildings}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CULTURE_BOMB">
+			<Text>{TXT_KEY_MISSION_CULTURE_BOMB} (반경 {1_Radius}, {2_Num} {2: plural 1?Time; other?Times;})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SELL_EXOTIC_GOODS">
+			<Text>{TXT_KEY_MISSION_SELL_EXOTIC_GOODS} ({1_Num} {1: plural 1?Time; other?Times;})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CITY_ATTACK_ONLY">
+			<Text>[COLOR_NEGATIVE_TEXT]도시 공격만 가능[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SUICIDE">
+			<Text>[COLOR_NEGATIVE_TEXT]공격 후 파괴됨[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_EMBARK">
+			<Text>[COLOR_NEGATIVE_TEXT]탑승 불가[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BOUNTY">
+			<Text>[COLOR_NEGATIVE_TEXT]이 유닛에 대한 현상금:[ENDCOLOR] {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROHIBIT_SPREAD">
+			<Text>활발한 외국 종교 전파 방지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROHIBIT_SPREAD_PARTIAL">
+			<Text>활발한 외국 종교 전파 {1_Effectiveness}% 감소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_IGNORE_BUILDING_DEFENSE">
+			<Text>공격 시 건물에서 받는 [ICON_STRENGTH] 도시 방어력 무시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CULTURE_ON_DISBAND_UPGRADE">
+			<Text>해산 또는 업그레이드시 [ICON_CULTURE] 문화 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GOODY_MODIFIER">
+			<Text>고대 유적 보상 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BUILD_NON_IMPROVEMENTS">
+			<Text>건설 행동:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BUILD_IMPROVEMENTS">
+			<Text>시설:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_YIELD_ON_COMPLETION">
+			<Text>생성 시: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BIRTH_WLTKD">
+			<Text>탄생 시: 모든 도시 [ICON_HAPPINESS_1] "국왕경축일" +{1_NumTurn}턴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BIRTH_GA">
+			<Text>탄생 시: [ICON_GOLDEN_AGE] 황금기 시작 ({1_NumTurn}턴)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BIRTH_CULTURE">
+			<Text>탄생 시: [ICON_CAPITAL] 수도의 [ICON_CULTURE] 문화 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BIRTH_CULTURE_GENERIC">
+			<Text>탄생 시: [ICON_CAPITAL] 수도의 문명 [ICON_CULTURE] 문화 생성량 +4턴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_RESOURCE">
+			<Text>소비 시: {2_ResIcon} {3_Res:textkey} +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_SUPPLY">
+			<Text>소비 시: [ICON_WAR] 군사 보급 제한 +{1_Num} </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_COPY_TILE_YIELD">
+			<Text>소비 시: [ICON_CAPITAL] 수도에 타일 산출량 추가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_XP">
+			<Text>소비 시: 타일 위의 유닛에 경험치 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXTRA_ATTACK_HEAL_ON_KILL">
+			<Text>군사 유닛을 물리칠 때: [ICON_WAR] 공격력 +1, [ICON_MOVES] 이동력 +1, 체력 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_INSTANT_YIELD_ON_KILL">
+			<Text>군사 유닛을 물리칠 때: 물리친 유닛의 [ICON_STRENGTH] 전투력에 따라 {1_InstantYield} 보정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_INSTANT_YIELD_ON_KILL_BARBARIAN">
+			<Text>야만인 군사 유닛을 물리칠 때: 물리친 유닛의 [ICON_STRENGTH] 전투력에 따라 {1_InstantYield} 보정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXTRA_PLUNDER_GOLD">
+			<Text>[ICON_INTERNATIONAL_TRADE] 교역로 약탈로 얻는 금 3배</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_HURRY_PRODUCTION">
+			<Text>{TXT_KEY_MISSION_HURRY_PRODUCTION}: [ICON_PRODUCTION] 생산력 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_DISCOVER_TECH">
+			<Text>무료 기술 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_DISCOVER_TECH_SCIENCE">
+			<Text>[ICON_RESEARCH] 과학 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GIVE_POLICIES">
+			<Text>무료 정책 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GIVE_POLICIES_CULTURE">
+			<Text>[ICON_CULTURE] 문화 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_START_GOLDENAGE">
+			<Text>{TXT_KEY_MISSION_START_GOLDENAGE}: [ICON_GOLDEN_AGE] 황금기 점수 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_ONE_SHOT_TOURISM">
+			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM}: 목표한 플레이어에게 [ICON_TOURISM] 관광 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_ONE_SHOT_TOURISM_OTHER_PLAYERS">
+			<Text>{TXT_KEY_PRODUCTION_UNIT_ONE_SHOT_TOURISM &lt;&lt; {1_Tourism}}, 그리고 다른 플레이어에게 {2_Percent}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CONCERT_TOUR">
+			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM}: 목표한 플레이어에게 [ICON_TOURISM] 관광 +{1_NumTurn}턴, 다른 플레이어에게 +50%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_TRADE_MISSION_GOLD">
+			<Text>{1_Num} [ICON_GOLD] 골드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_TRADE_MISSION_WLTKD">
+			<Text>모든 도시에서 [ICON_HAPPINESS_1] "국왕경축일" +{1_NumTurn}턴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_TRADE_MISSION_RESTING_INFLUENCE">
+			<Text>{TXT_KEY_MISSION_CONDUCT_TRADE_MISSION}: 목표 [ICON_CITY_STATE] 도시 국가에 대해 남은 [ICON_INFLUENCE] 영향력 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_LUXURY">
+			<Text>{TXT_KEY_MISSION_FREE_LUXURY}: 무작위 사치 자원 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS_PURCHASE">
+			<Text>구매에 필요한 건물: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS_INVEST">
+			<Text>투자에 필요한 건물: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_PROJECT">
+			<Text>완료 필요: [COLOR_CITY_BLUE]{1_Project:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BELIEF">
+			<Text>[ICON_PEACE] 신앙 구매에 필요한 교리: [COLOR_WHITE]{1_Belief:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_REQUIRE_ENHANCED_RELIGION">
+			<Text>종교 강화 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_UNIT">
+			<Text>{1_CivAdj} 고유 [COLOR_YELLOW]{2_Unit:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_UNIT_NO_DEFAULT">
+			<Text>{1_CivAdj} 고유 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_UNIT_CITY_STATE">
+			<Text>[ICON_CITY_STATE] 도시 국가 고유 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MAX_CITY_INSTANCE">
+			<Text>소유한 도시 당 최대 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_STRENGTH_FROM_ERA_SUMMARY">
+			<Text>시대별 [ICON_STRENGTH] 전투력 변화:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_STRENGTH_FROM_ERA">
+			<Text>[COLOR_CYAN]{2_Era:textkey}[ENDCOLOR] 혹은 이후: [COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_FROM_ERA_SUMMARY">
+			<Text>시대별 전투 유형 변경:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_FROM_ERA">
+			<Text>[COLOR_CYAN]{2_Era:textkey}[ENDCOLOR] 혹은 이후: [COLOR_YELLOW]{1_UnitCombat:textkey} Unit[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROMOTION_FROM_ERA_SUMMARY">
+			<Text>시대별 무료 승급:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROMOTION_FROM_ERA">
+			<Text>[COLOR_CYAN]{2_Era:textkey}[ENDCOLOR] 혹은 이후: [COLOR_POSITIVE_TEXT]{1_Promotions}[ENDCOLOR]</Text>
+		</Row>
+		<!-- Building -->
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_BUILDING">
+			<Text>{1_CivAdj} 고유 [COLOR_YIELD_FOOD]{2_Building:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_BUILDING_NO_DEFAULT">
+			<Text>{1_CivAdj} 고유 건물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_EXCLUSIVE_BUILDING">
+			<Text>{1_CivAdj} 전용 건물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_HQ">
+			<Text>[COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR] 본사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_OFFICE">
+			<Text>[COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR] 오피스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_FRANCHISE">
+			<Text>[COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR] 프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_BASE_FRANCHISE">
+			<Text>기본 프랜차이즈 제한: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_RANDOM_FRANCHISE_CHANCE">
+			<Text>매 턴마다 무작위 외국 도시에 [ICON_FRANCHISE] 프랜차이즈가 나타날 확률 {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_WORLD_CONGRESS_PROJECT_REWARD_1">
+			<Text>[ICON_TROPHY_BRONZE][COLOR_PLAYER_MIDDLE_PURPLE_TEXT]{1_Project:textkey}[ENDCOLOR] 보상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_WORLD_CONGRESS_PROJECT_REWARD_2">
+			<Text>[ICON_TROPHY_SILVER][COLOR_PLAYER_MIDDLE_PURPLE_TEXT]{1_Project:textkey}[ENDCOLOR] 보상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_WORLD_CONGRESS_PROJECT_REWARD_3">
+			<Text>[ICON_TROPHY_GOLD][COLOR_PLAYER_MIDDLE_PURPLE_TEXT]{1_Project:textkey}[ENDCOLOR] 보상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_WORLD_CONGRESS_PROJECT_COST_PER_PLAYER">
+			<Text>비용: 게임 시작시 문명 당 {1_ProductionCostPerPlayer} [ICON_PRODUCTION] 생산력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_ON_FOUND">
+			<Text>도시 개척시 자동 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_ON_FOUND_GENERIC">
+			<Text>게임이 {1_Era:textkey} 또는 이후에 시작 시 자동 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COUNT">
+			<Text>{1: plural 0?건설 안 함; 1?1개 도시에 건설; 2?{1}개 도시에 건설;}{2: plural 0?; 1?, 1개 도시의 건물; 2?, {2}개 도시의 건물;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VICTORY_REQUIREMENT">
+			<Text>{2_Victory:textkey} 승리 달성에 {1_Num} 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIAL_SESSION_REQUIREMENT">
+			<Text>[COLOR_PLAYER_MIDDLE_PURPLE_TEXT]{1_Resolution:textkey}[ENDCOLOR]의 특별 세션을 트리거하는 데 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_EFFECTS">
+			<Text>지역 효과:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_EFFECTS">
+			<Text>문명 전역 효과:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TEAM_EFFECTS">
+			<Text>팀 전역 효과:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_EFFECTS">
+			<Text>기업 혜택:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENTS">
+			<Text>다음 역사적 사건을 발동하거나 강화:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_ERA_CHANGE">
+			<Text>새 시대 진입 (상대적 전투력: [COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_WORLD_WONDER">
+			<Text>[ICON_WONDER] 세계 불가사의 완료 (상대적 전투력: [COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_GREAT_PERSON">
+			<Text>[ICON_GREAT_PEOPLE] 위인 획득 (상대적 전투력: [COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_WON_WAR">
+			<Text>[ICON_WAR] 전쟁 승리 (전쟁 점수 25+) (상대적 전투력: [COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_TRADE_LAND">
+			<Text>이 도시에서 다른 문명을 표적 삼아 [ICON_CARAVAN] 육상 교역로 완료 (상대적 전투력: [COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_TRADE_SEA">
+			<Text>이 도시에서 다른 문명을 표적 삼아 [ICON_CARGO_SHIP] 해상 교역로 완료 (상대적 전투력: [COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ERA_SCALING_SUFFIX">
+			<Text>[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ALL_BOOSTS">
+			<Text>이 건물에 가능한 향상 목록:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_POTENTIAL_BOOSTS">
+			<Text>이 건물의 잠재적 이점:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_CHANGE">
+			<Text>{3_YieldIcon} {4_Yield:textkey}: {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROJECTED_YIELD_CHANGE">
+			<Text>건설 시 예상 산출량: {1_YieldChanges}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER">
+			<Text>{3_YieldIcon} {4_Yield:textkey} {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROJECTED_YIELD_MODIFIER">
+			<Text>건설 시 예상 산출량 수정자: {1_YieldModifiers}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROJECTED_HAPPINESS">
+			<Text>건설 시 예상 [ICON_HAPPINESS_1] 행복: {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIR_DEFENSE">
+			<Text>[ICON_AIRSTRIKE_DEFENSE] 도시 공습 방어: +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_YIELD_TYPE">
+			<Text>이 건물의 [ICON_GREAT_WORK] 걸작이 [ICON_CULTURE] 문화 대신 제공하는 {1_YieldIcon} {2_Yield:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_THEMING_BONUS">
+			<Text>[COLOR_POSITIVE_TEXT]테마[ENDCOLOR] 완성 시 최대 {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_FROM_WONDERS">
+			<Text>도시 내 모든 국가/세계 불가사의의 [ICON_STRENGTH] 전투력 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER">
+			<Text>건물에서 [ICON_STRENGTH] 도시 전투력 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER_GLOBAL">
+			<Text>모든 도시의 [ICON_STRENGTH] 도시 전투력 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
+			<Text>[ICON_STRENGTH] 피해 감소: {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE">
+			<Text>{3_ResourceIcon} {4_Resource:textkey} {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE_FROM_POPULATION">
+			<Text>도시의 모든 [ICON_CITIZEN] 인구에 {2_ResourceIcon} {3_Resource:textkey} +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE_FROM_FRANCHISE">
+			<Text>모든 {1_Num}개 [ICON_FRANCHISE] 프랜차이즈 설립 시 마다 {2_ResourceIcon} {3_Resource:textkey} +1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_MODIFIER_PER_FOLLOWER">
+			<Text>다수 종교 신자 1인당 [ICON_FOOD] 식량 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_GPP_MODIFIER">
+			<Text>{2_GreatPersonIcon} {3_GreatPerson:textkey} 비율 +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER">
+			<Text>[ICON_GREAT_PEOPLE] 위인 비율 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER_FROM_CORPORATION">
+			<Text>설립된 프랜차이즈당 [ICON_GREAT_PEOPLE] 위인 비율 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER_FROM_MARRIAGE">
+			<Text>활성화된 [ICON_RES_MARRIAGE] 외교적 결혼당 [ICON_GREAT_PEOPLE] 위인 비율 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER_FROM_LOCAL_THEME">
+			<Text>도시의 테마별 [ICON_GREAT_PEOPLE] 위인 비율 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GGP_MODIFIER">
+			<Text>전투에서 얻은 [ICON_GREAT_GENERAL] 위대한 장군 점수 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GODLEN_AGE_LENGTH_MODIFIER">
+			<Text>[ICON_GOLDEN_AGE] 황금기 기간 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_UPGRADE_COST_MODIFIER">
+			<Text>유닛 업그레이드 비용 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ALL">
+			<Text>모든 유닛의 경험치 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_COMBAT">
+			<Text>[COLOR_YELLOW]{3_Combat:textkey}[ENDCOLOR] 유닛에 경험치 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN">
+			<Text>[COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] 경험치 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WORK">
+			<Text>{2_Sign}{1_Num} XP for [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] per [ICON_GREAT_WORK] Great Work in City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WRITING_GLOBAL">
+			<Text>{2_Sign}{1_Num} XP for [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] in all Cities per [ICON_GW_WRITING] Great Work of Writing in Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_KEPT">
+			<Text>도시 성장시 이월되는 [ICON_FOOD] 식량 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER">
+			<Text>[ICON_HAPPINESS_4] 불행 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER_LOCAL">
+			<Text>[ICON_HAPPINESS_4] 도시의 불행 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER_CITY_COUNT">
+			<Text>문명 규모 [ICON_HAPPINESS_4] 불행 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_GLOBAL">
+			<Text>[ICON_HAPPINESS_1] 모든 도시의 불행 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_POLICY_CAPITAL">
+			<Text>모든 정책 채택시 [ICON_CAPITAL] 수도의 [ICON_HAPPINESS_1] 행복 {1: plural 1?+1; other?+1/{1_Num};}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_WAR">
+			<Text>제국과 전쟁 중인 모든 주요 문명에 대한 제국의 [ICON_HAPPINESS_1] 행복 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_URBANIZATION_REDUCTION">
+			<Text>[ICON_URBANIZATION] 도시화로 인한 [ICON_HAPPINESS_3] 불행을 만들지 않는 전문가로 감소 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEVER_CAPTURE">
+			<Text>정복으로 파괴됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CONQEUST_PROB_0">
+			<Text>정복으로 파괴됨 (정책으로 무효화 가능)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CONQEUST_PROB_100">
+			<Text>정복 시 항상 유지됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TEAM_SHARE">
+			<Text>팀과 함께 문명 전체 효과 공유</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TECH_SHARE">
+			<Text>다른 팀이 연구한 기술을 팀이 {1_Num} 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_CONNECTION">
+			<Text>물 위로 [ICON_CONNECTED] 도시 연결 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_INDUSTRIAL_CONNECTION">
+			<Text>물 위로 [ICON_INDUSTRIAL_CONNECTED] 산업 도시 연결 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIR_CONNECTION">
+			<Text>공중으로 [ICON_CONNECTED] 도시 연결 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIRLIFT">
+			<Text>[ICON_AIRPORT] 공수 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_FOOD">
+			<Text>도시에서 [ICON_INTERNATIONAL_TRADE] 내부 교역로 [ICON_FOOD] 식량 거래 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_FOOD_GLOBAL">
+			<Text>모든 도시에서 [ICON_INTERNATIONAL_TRADE] 내부 교역로 [ICON_FOOD] 식량 거래 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_PRODUCTION">
+			<Text>도시에서  [ICON_INTERNATIONAL_TRADE] 내부 교역로 [ICON_PRODUCTION] 생산 거래 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_PRODUCTION_GLOBAL">
+			<Text>모든 도시에서 [ICON_INTERNATIONAL_TRADE] 내부 교역로 [ICON_PRODUCTION] 생산 거래 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ADD_FRESH_WATER">
+			<Text>도시와 인접 타일에 [COLOR_POSITIVE_TEXT]담수[ENDCOLOR] 추가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_PROMOTION">
+			<Text>이 도시에서 훈련받는 향후 적격 유닛 모두 무료 [COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR] 승급</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_PROMOTION_RETROACTIVE">
+			<Text>이 도시에서 훈련받는 기존 및 향후 적격 유닛 모두 무료 [COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR] 승급</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_PROMOTION_GLOBAL">
+			<Text>기존 및 향후 적격 유닛 모두에 무료 [COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR] 승급</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ALLOW_UNITS">
+			<Text>[COLOR_YELLOW]{1_Units}[ENDCOLOR] 생산 허용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIR_SLOTS">
+			<Text>항공 유닛 슬롯 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_FLAT">
+			<Text>[ICON_WAR] 군사 보급 제한 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_MODIFIER">
+			<Text>인구에서 [ICON_SILVER_FIST] 군사 보급 제한 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY">
+			<Text>[ICON_CITY_SECURITY] 도시 보안 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY_PER_X_POPULATION">
+			<Text>[ICON_CITIZEN] 도시 인구 {1: number #.##}인당 [ICON_CITY_SECURITY] 도시 보안 {2_Sign}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_STRIKE_STRENGTH_MODIFIER">
+			<Text>[ICON_RANGE_STRENGTH] 도시 공습 전투력 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_STRIKE_RANGE">
+			<Text>도시 공습 사거리 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INDIRECT_FIRE">
+			<Text>도시 공습은 장애물을 넘어 공격할 수 있음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WORKING_RANGE">
+			<Text>도시 작업 범위 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPREAD_ACTION">
+			<Text>{2_Sign}{1_Num} Spread {1: plural 1?Action; other?Actions;} for Missionaries originated from City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPREAD_ACTION_GLOBAL">
+			<Text>{2_Sign}{1_Num} Spread {1: plural 1?Action; other?Actions;} for Missionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPREAD_STRENGTH_MODIFIER_GLOBAL">
+			<Text>{2_Sign}{1_Num}% Starting Religious Strength for Religious Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INFLUENCE_CHANGE">
+			<Text>{2_Sign}{1_Num} [ICON_INFLUENCE] Influence for Diplomatic Missions performed by Units originated from City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPY_RANK">
+			<Text>+{1_Num} Rank for new [ICON_SPY] Spies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MAINTENANCE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_GOLD] Gold Maintenance for Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PURCHASE_MILITARY_COOLDOWN_MODIFIER">
+			<Text>{2_Sign}{1_Num} Cooldown {1: plural 1?Turn; other?Turns;} for Purchasing Military Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PURCHASE_CIVILIAN_COOLDOWN_MODIFIER">
+			<Text>{2_Sign}{1_Num} Cooldown {1: plural 1?Turn; other?Turns;} for Purchasing Civilian Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INVEST_MILITARY_COOLDOWN_MODIFIER">
+			<Text>{2_Sign}{1_Num} Cooldown {1: plural 1?Turn; other?Turns;} for Investment on Military Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INVEST_CIVILIAN_COOLDOWN_MODIFIER">
+			<Text>{2_Sign}{1_Num} Cooldown {1: plural 1?Turn; other?Turns;} for Investment on Civilian Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Religious Pressure towards other Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_MODIFIER_IF_MAJORITY">
+			<Text>{2_Sign}{1_Num}% Religious Pressure towards other Cities if Belief unlocking this Building belongs to Majority Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_MODIFIER_IF_TRADE_ROUTE">
+			<Text>{2_Sign}{1_Num}% Religious Pressure towards foreign Cities connected via [ICON_INTERNATIONAL_TRADE] Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BASE_PRESSURE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Base Religious Pressure towards other Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_RECEIVED_MODIFIER">
+			<Text>City receives {2_Sign}{1_Num}% Religious Pressure of non-Majority Religion from active and passive spread</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_RECEIVED_MODIFIER_GLOBAL">
+			<Text>All Cities receive {2_Sign}{1_Num}% Religious Pressure of non-Majority Religion from active and passive spread</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ESPIONAGE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Foreign Spy Steal Rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GARRISON_RANGED_ATTACK_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_RANGE_STRENGTH] Ranged Strength when attacking for Unit Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GARRISON_HEAL_RATE">
+			<Text>{2_Sign}{1_Num} HP when Healing for Unit Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GARRISON_HEAL_RATE_ALWAYS">
+			<Text>On Turn End: Land Military Unit Garrison recovers {1_Num} HP regardless of action</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUKE_RESISTANCE">
+			<Text>{2_Sign}{1_Num}% Damage on Unit Garrison and [ICON_CITIZEN] Population Loss when Nuked</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUKE_INTERCEPTION">
+			<Text>{2_Sign}{1_Num}% Chance to Intercept Nukes, lowering their Damage Level</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WORK_RATE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Tile Improvement Rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PURCHASE_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_GOLD] Gold cost for Purchase or Investment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRODUCTION_MODIFIER_FROM_MINOR_TRADE_ROUTES">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production from each [ICON_INTERNATIONAL_TRADE] Trade Route with City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for Non-Wonder Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WONDER_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MILITARY_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for Military Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MILITARY_PRODUCTION_MODIFIER_FROM_WAR">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for Military Units in all Cities for every Major Civilization at war with your Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPACESHIP_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for Spaceship Parts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_UNIT_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for [COLOR_YELLOW]{3_Unit:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_UNIT_COMBAT_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for [COLOR_YELLOW]{3_UnitCombat:textkey} Units[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_DOMAIN_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_SPECIFIC_STRATEGIC_UNIT_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production for Units requiring {3_ResourceIcon} {4_Resource:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_CONNECTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION] Production/[ICON_GOLD] Gold from [ICON_CONNECTED] City Connections and [ICON_INDUSTRIAL_CONNECTED] Industrial City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_POLICY_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Policy Cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_GROWTH_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_CULTURE_LOCAL] Border Growth Cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLOT_PURCHASE_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Tile Purchase Cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESEARCH_AGREEMENT_SCIENCE_MODIFIER">
+			<Text>+{1_Num}% [ICON_RESEARCH] Science from Research Agreements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESEARCH_AGREEMENT_SCIENCE_MODIFIER_GENERIC">
+			<Text>+{1_Num}% [ICON_RESEARCH] Science from Research Agreements (if enabled)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DISCOVER_TECH_SCIENCE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_RESEARCH] Science from {TXT_KEY_MISSION_DISCOVER_TECH}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER">
+			<Text>{1: number "'+'##;'-'##"}% conversion rate from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES">
+			<Text>{2_Sign}{1_Num} [ICON_DIPLOMAT] {1: plural 1?Delegate; other?Delegates;} in the World Congress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_SCALING">
+			<Text>{2_Sign}1 [ICON_DIPLOMAT] Delegate in the World Congress for every {1: plural 1?[ICON_CITY_STATE] City-State; other?{1_Num} [ICON_CITY_STATE] City-States;} originally in the World</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_GPT">
+			<Text>+1 [ICON_DIPLOMAT] Delegate in the World Congress for every {1_Gold} Gross [ICON_GOLD] Gold per turn, capped at 1/4 of the number of [ICON_CITY_STATE] City-States originally in the World</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DOF">
+			<Text>+{1_Num} [ICON_DIPLOMAT] Delegate in the World Congress for every [COLOR_POSITIVE_TEXT]2[ENDCOLOR] active Declarations of Friendship with your Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DP">
+			<Text>+{1_Num} [ICON_DIPLOMAT] Delegate in the World Congress for every active Defensive Pact with your Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_CAPITALS">
+			<Text>+{1_Num} [ICON_DIPLOMAT] Delegate in the World Congress for every [COLOR_POSITIVE_TEXT]Foreign[ENDCOLOR] original [ICON_CAPITAL] Capital Cities you control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_RESEARCH_AGREEMENTS">
+			<Text>+{1_Num} [ICON_DIPLOMAT] Delegate in the World Congress for every active Research Agreement with your Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_RELIGION">
+			<Text>+1 [ICON_DIPLOMAT] Delegate in the World Congress for every {1: plural 1?City; other?{1_Num} Cities;} following your [ICON_RELIGION] Primary Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_ROUTES">
+			<Text>{2_Sign}{1_Num} [ICON_INTERNATIONAL_TRADE] Trade {1: plural 1?Route; other?Routes;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LAND_ETR_ORIGIN_GOLD">
+			<Text>{2_Sign}{1_Num} [ICON_GOLD] Gold to [ICON_CARAVAN] Land International Trade Routes originated from this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEA_ETR_ORIGIN_GOLD">
+			<Text>{2_Sign}{1_Num} [ICON_GOLD] Gold to [ICON_CARGO_SHIP] Sea International Trade Routes originated from this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ETR_DESTINATION_OUR_GOLD">
+			<Text>{2_Sign}{1_Num} [ICON_GOLD] Gold to [ICON_INTERNATIONAL_TRADE] International Trade Routes targeting this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ETR_DESTINATION_THEIR_GOLD">
+			<Text>{2_Sign}{1_Num} [ICON_GOLD] Gold to Origin City of [ICON_INTERNATIONAL_TRADE] International Trade Routes targeting this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESOURCE_DIVERSITY_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Resource Diversity for [ICON_INTERNATIONAL_TRADE] Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LAND_TRADE_ROUTE_RANGE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Range for [ICON_CARAVAN] Land Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEA_TRADE_ROUTE_RANGE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Range for [ICON_CARGO_SHIP] Sea Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_ROUTE_DURATION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Duration for [ICON_INTERNATIONAL_TRADE] Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_ROUTE_DURATION_MODIFIER_LOCAL">
+			<Text>{2_Sign}{1_Num}% Duration for [ICON_INTERNATIONAL_TRADE] Trade Routes originated from this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_EXTRA_SIGHT">
+			<Text>{2_Sign}{1_Num} Sight for Trade Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_SPEED_MULTIPLIER">
+			<Text>{1_Num}x Speed for Trade Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_TRADE_ROUTE_IMMUNITY">
+			<Text>[ICON_INTERNATIONAL_TRADE] Trade Routes cannot be plundered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE_TO_TOURISM_TERRAIN_WONDER">
+			<Text>{1_Num}% of [ICON_CULTURE] Culture from Terrain and [ICON_WONDER] World Wonders is added to [ICON_TOURISM] Tourism output</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_TOURISM_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_TOURISM] Tourism from [ICON_GREAT_WORK] Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NULLIFY_TECH_TOURISM_MODIFIER">
+			<Text>-{1_Num}% [ICON_TOURISM] Tourism from Civilizatons that have researched [ICON_CYAN]{2_Tech:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_FRANCHISE_TOURISM_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_TOURISM] Tourism to another Civilization for each [ICON_FRANCHISE] Established Franchise in its territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REDUCED_GLOBAL_FOLLOWER_REQUIREMENT">
+			<Text>{2_Sign}{1_Num}% Worldwide Follower Requirement for all Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_FROM_OTHER_YIELD">
+			<Text>{1_Num}% of City {2_YieldIcon} {3_Yield:textkey} output (pre-Modifiers) is added to City {4_YieldIcon} {5_Yield:textkey} output (post-Modifiers)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_FROM_OTHER_YIELD_GLOBAL">
+			<Text>{1_Num}% of {2_YieldIcon} {3_Yield:textkey} output of each City (pre-Modifiers) is added to its {4_YieldIcon} {5_Yield:textkey} output (post-Modifiers)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_TECHS">
+			<Text>On Completion: Gain {1_Num} Free {1: plural 1?Technology; other?Technologies;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_POLICIES">
+			<Text>On Completion: Gain {1_Num} Free {1: plural 1?Policy; other?Policies;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_GP">
+			<Text>On Completion: Spawn {1_Num} Free [ICON_GREAT_PEOPLE] Great {1: plural 1?Person; other?People;} of your choice in [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPY_POINTS">
+			<Text>On Completion: Gain {1_Num} [ICON_SPY] Spy {1: plural 1?Point; other?Points;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPIES">
+			<Text>On Completion: Gain {1_Num} [ICON_SPY] {1: plural 1?Spy; other?Spies;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_UNIT">
+			<Text>On Completion: Spawn {1_Num} [COLOR_YELLOW]{2_Unit:textkey}[ENDCOLOR] in or near City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_BUILDING">
+			<Text>On Completion: Gain Free [COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_GREAT_WORK">
+			<Text>On Completion: Gain Free [ICON_GREAT_WORK] Great Work: [COLOR_POSITIVE_TEXT]{1_GreatWork:textkey}[ENDCOLOR] (placed in nearest compatible slot)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_ARTIFACT">
+			<Text>On Completion: Gain {1_Num} Free [ICON_ARTIFACT] {1: plural 1?Artifact; other?Artifacts;} (placed in this Building)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_START_GOLDEN_AGE">
+			<Text>On Completion: Start a [ICON_GOLDEN_AGE] Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_START_WLTKD">
+			<Text>On Completion: +{1_NumTurn} {1: plural 1?Turn; other?Turns;} of [ICON_HAPPINESS_1] "We Love the King Day"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_ON_COMPLETION">
+			<Text>On Completion: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_ON_COMPLETION_FROM_POPULATION">
+			<Text>On Completion: {1_InstantYield} for every [ICON_CITIZEN] Population in City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_POPULATION">
+			<Text>On Completion: {2_Sign}{1_Num} [ICON_CITIZEN] Population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AUTOMATON">
+			<Text>On Completion: {2_Sign}{1_Num} Automaton Worker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INFLUENCE_ON_COMPLETION">
+			<Text>On Completion: {2_Sign}{1_Num} [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VICTORY_POINTS_ON_COMPLETION">
+			<Text>On Completion: {2_Sign}{1_Num} Victory Points</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_SPY_RANK">
+			<Text>On Completion: All [ICON_SPY] Spies level up {1: plural 1?once; 2?twice; other?{1_Num} times;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REFORMATION">
+			<Text>On Completion: Allow you to select a [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_PRESSURE">
+			<Text>On Completion: Add {1_Num} Religious Pressure of your [ICON_CAPITAL] Capital's Majority Religion to City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_LUXURY">
+			<Text>On Completion: Add {1_Num} random {1: plural 1?copy; other?copies;} of the following Resources in City working range, or on City tile if impossible: {2_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_RESOURCE">
+			<Text>On Completion: Add {1_Num} {1: plural 1?copy; other?copies;} of {2_ResourceIcon} {3_Resource:textkey} to random eligible Tiles in City working range</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_RESOURCE_SUFFIX">
+			<Text>(Quantity: {1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_COPY">
+			<Text>On Completion: Gain a copy of each distinct owned Land Military Unit around City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEARBY_RESOURCE_CLAIM">
+			<Text>On Completion: Claim all unowned Tiles with {1_Resources} within working range, triggering instant yields from Tile Purchase (if applicable)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEARBY_RESOURCE_STEAL">
+			<Text>On Completion: Claim all Tiles with {1_Resources} within working range, triggering instant yields from Tile Purchase (if applicable)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_WRITER">
+			<Text>When a [ICON_GREAT_PEOPLE] Great Person is born in this City: gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of the amount of [ICON_CULTURE] Culture from its [COLOR_MAGENTA]{TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR] Mission (if applicable)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_ARTIST">
+			<Text>When a [ICON_GREAT_PEOPLE] Great Person is born in this City: gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of the amount of [ICON_GOLDEN_AGE] Golden Age Points from its [COLOR_POSITIVE_TEXT]{TXT_KEY_MISSION_START_GOLDENAGE}[ENDCOLOR] Mission (if applicable)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_SCALING">
+			<Text>When a {2_GreatPersonIcon} {3_GreatPerson:textkey} is born in this City: gain {6_YieldIcon} {7_Yield:textkey} equal to {1_Num}% of your {4_YieldIcon} {5_Yield:textkey} output</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_EXPEND">
+			<Text>When expending a [ICON_GREAT_PEOPLE] Great Person: {1_InstantYield} in [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_INFLUENCE_ON_GP_EXPEND">
+			<Text>When expending a [ICON_GREAT_PEOPLE] Great Person: {2_Sign}{1_Num} [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VASSAL_UNIT_PER_ERA">
+			<Text>When entering a new Era: receive {1_Num} {1: plural 1?Unit; other?Units;} from each Vassal near City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_TECH">
+			<Text>When researching a Technology: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_POLICY">
+			<Text>When adopting a Policy: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLDEN_AGE_START">
+			<Text>When starting a [ICON_GOLDEN_AGE] Golden Age: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ON_GOLDEN_AGE_START">
+			<Text>When starting a [ICON_GOLDEN_AGE] Golden Age: {2_Sign}{1_Num} XP for all future Units trained in this City, capped at {3_Num} XP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_WLTKD">
+			<Text>When this City starts a [ICON_HAPPINESS_1] "We Love the King Day": {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_ON_GROWTH">
+			<Text>When a [ICON_CITIZEN] Citizen is born in this City: +{1_Num} [ICON_GREAT_PEOPLE] Great Person Points towards the Great Person with the most Points, scaling with Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GROWTH">
+			<Text>When a [ICON_CITIZEN] Citizen is born in this City: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GROWTH_SCALING">
+			<Text>When a [ICON_CITIZEN] Citizen is born in this City: gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of City output</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_BORDER_GROWTH">
+			<Text>When this City naturally expands: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLD_PURCHASE">
+			<Text>When purchasing/investing with [ICON_GOLD] Gold in this City: gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of [ICON_GOLD] Gold cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLD_PURCHASE_GLOBAL">
+			<Text>When purchasing/investing with [ICON_GOLD] Gold in any City: gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of [ICON_GOLD] Gold cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_FAITH_PURCHASE">
+			<Text>When purchasing a Unit or Building with [ICON_PEACE] Faith in this City: gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of [ICON_PEACE] Faith cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_CONSTRUCTION">
+			<Text>When completing a Building in this City: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_ON_CONSTRUCTION">
+			<Text>When completing a Building unlocked in {2_Era:textkey} or later in this City: gain {3_GreatPersonIcon} {4_GreatPerson:textkey} Points equal to {1_Num}% of Building cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GP_PROGRESS_ON_CONSTRUCTION">
+			<Text>When completing a Building unlocked in {2_Era:textkey} or later in this City: +{1_Num}% Points towards the next {3_GreatPersonIcon} {4_GreatPerson:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WLTKD_FROM_PROJECT">
+			<Text>When completing {3_Project:textkey}: {2_Sign}{1_Num} {1: plural 1?Turn; other?Turns;} of [ICON_HAPPINESS_1] "We Love the King Day"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_ITR_COMPLETION">
+			<Text>When completing an [ICON_INTERNATIONAL_TRADE] Internal Trade Route from or to this City: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_ETR_COMPLETION">
+			<Text>When completing an [ICON_INTERNATIONAL_TRADE] International Trade Route from this City: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_COMPLETION">
+			<Text>When completing production of a Military Unit in this City: gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of [ICON_PRODUCTION] Production cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_GIFT">
+			<Text>When a Unit is gifted to a [ICON_CITY_STATE] City-State: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_FROM_COMBAT_EXPERIENCE">
+			<Text>When a Unit created by this City gains Experience through combat: {1_InstantYield} for each XP gained</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_PROMOTION">
+			<Text>When a Unit created by this City is promoted: {1_InstantYield}, scaling with (new Unit Level - 2) squared, minimum 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_PROMOTION_GLOBAL">
+			<Text>When an owned Unit is promoted: {1_InstantYield}, scaling with Unit's original Level and Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_KILL">
+			<Text>When a Unit created by this City defeats a Military Unit: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_KILL_GLOBAL">
+			<Text>When an owned Unit defeats a Military Unit: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_KILL_GLOBAL_GOLDEN_AGE">
+			<Text>When an owned Unit defeats a Military Unit during [ICON_GOLDEN_AGE] Golden Age: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_DEATH">
+			<Text>When an owned Military Unit is defeated: {1_InstantYield} in [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_PILLAGE">
+			<Text>When a Unit created by this City pillages an Improvement: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_PILLAGE_GLOBAL">
+			<Text>When pillaging an Improvement: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_LONG_COUNT">
+			<Text>At the end of a B'ak'tun: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_SPY_KILL">
+			<Text>When killing an enemy [ICON_SPY] Spy: {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_LUXURIES">
+			<Text>+100% Luxury Resources from Improved Tiles owned by this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REMOVE_OCCUPIED_UNHAPPINESS">
+			<Text>Remove [ICON_HAPPINESS_3] Unhappiness from [ICON_OCCUPIED] Occupation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ALLOW_PUPPET_PURCHASE">
+			<Text>Allow Investment and Purchase in [ICON_PUPPET] Puppet City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_STARVATION_FROM_NON_SPECIALISTS">
+			<Text>Total non-Specialist [ICON_FOOD] Food consumption cannot exceed [ICON_FOOD] Food production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SECONDARY_PANTHEON">
+			<Text>Benefit from the Pantheon bonus of the second-most popular [ICON_RELIGION] Religion if City has a [ICON_RELIGION] Majority Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_OBSTACLE_LAND">
+			<Text>Non-friendly Land Units [COLOR_NEGATIVE_TEXT]expend all [ICON_MOVES] Movement[ENDCOLOR] when entering this City's Land territory from unowned or foreign territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_OBSTACLE_LAND_PLAYER">
+			<Text>Non-friendly Land Units [COLOR_NEGATIVE_TEXT]expend all [ICON_MOVES] Movement[ENDCOLOR] when entering your Land territory from unowned or foreign territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_OBSTACLE_LAND_TEAM">
+			<Text>Non-friendly Land Units [COLOR_NEGATIVE_TEXT]expend all [ICON_MOVES] Movement[ENDCOLOR] when entering your Team's Land territory from unowned or foreign territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_OBSTACLE_WATER">
+			<Text>Non-friendly Naval or Embarked Units [COLOR_NEGATIVE_TEXT]expend all [ICON_MOVES] Movement[ENDCOLOR] when entering this City's Water territory from unowned or foreign territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_OCEAN_DAMAGE">
+			<Text>Enemy Naval or Embarked Units take [COLOR_NEGATIVE_TEXT]{1_Num} Damage[ENDCOLOR] when ending their Turn on Ocean Tiles belonging to this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GAINLESS_PILLAGE">
+			<Text>Unit gains no HP or [ICON_GOLD] Gold when pillaging Improvements owned by this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GAINLESS_PILLAGE_GLOBAL">
+			<Text>Unit gains no HP or [ICON_GOLD] Gold when pillaging Improvements in your Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REMOVE_DP_LIMIT">
+			<Text>Remove limit on number of active Defensive Pacts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLUNDER_MODIFIER">
+			<Text>{2_Sign}{1_Num}% Plunder [ICON_GOLD] Gold when City is captured</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CAPITAL">
+			<Text>[ICON_CAPITAL] Capital Only</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HOLY_CITY">
+			<Text>Holy City Only</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_OCCUPIED_ONLY">
+			<Text>[ICON_OCCUPIED] Occupied City Only</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COASTAL">
+			<Text>City must be Coastal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COASTAL_INCLUDING_LAKE">
+			<Text>City must be Coastal or adjacent to Lake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COASTAL_CUSTOM_SIZE">
+			<Text>City must be adjacent to a Water Body of {1_Num}+ Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_COASTAL">
+			<Text>City must not be Coastal or adjacent to Lake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RIVER">
+			<Text>City must be on a River</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_RIVER">
+			<Text>City must not be on a River</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FRESH_WATER">
+			<Text>City must have access to Fresh Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_FRESH_WATER">
+			<Text>City must not have access to Fresh Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COASTAL_OR_FRESH_WATER">
+			<Text>City must be Coastal or have access to Fresh Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MOUNTAIN_ADJACENT">
+			<Text>City must be adjacent to [COLOR_PLAYER_DARK_GREEN_TEXT]Mountain[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MOUNTAIN_NEARBY">
+			<Text>City must be within 2 Tiles of a [COLOR_PLAYER_DARK_GREEN_TEXT]Mountain[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HILL">
+			<Text>City must be on [COLOR_PLAYER_DARK_GREEN_TEXT]Hill[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FLAT">
+			<Text>City must not be on [COLOR_NEGATIVE_TEXT]Hill[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEARBY_TERRAIN">
+			<Text>City must be on or adjacent to [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_TERRAIN">
+			<Text>City must not be on [COLOR_NEGATIVE_TEXT]{1_Terrain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_FEATURE_OR">
+			<Text>City must own a Tile with one of the following Features: [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Features}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_FEATURE_AND">
+			<Text>City must own Tiles with each of the following Features: [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Features}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_RESOURCE_OR">
+			<Text>One of the following Resources must be connected to this City: {1_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_RESOURCE_AND">
+			<Text>All of the following Resources must be connected to this City: {1_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_MONOPOLY_OR">
+			<Text>Require one of the following [ICON_MONOPOLY] Global Monopolies: {1_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_MONOPOLY_AND">
+			<Text>Required [ICON_MONOPOLY] Global Monopolies: {1_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INDUSTRIAL_CONNECTION">
+			<Text>City must have [ICON_INDUSTRIAL_CONNECTED] Industrial City Connection with [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REQUIRED_BUILDINGS_GLOBAL">
+			<Text>Required Buildings in any City: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REQUIRED_BUILDINGS_ALL_CITIES">
+			<Text>Required Buildings in all Cities: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REQUIRED_BUILDING_COUNT_GLOBAL">
+			<Text>Empire must have [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] {2_Building:textkey} built for each copy of this Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXCLUSIVE_LOCAL">
+			<Text>City must not have the following Buildings: [COLOR_NEGATIVE_TEXT]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXCLUSIVE_GLOBAL">
+			<Text>Empire must not have the following Buildings: [COLOR_NEGATIVE_TEXT]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_UNIT_LEVEL_NEEDED">
+			<Text>Unit Level Required: [COLOR_YELLOW]{1_Num}[ENDCOLOR] (Best Unit: {2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_UNIT_LEVEL_NEEDED_GENERIC">
+			<Text>Unit Level Required: [COLOR_YELLOW]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_CITY_NEEDED">
+			<Text>Number of Cities Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_CITY_NEEDED_GENERIC">
+			<Text>Number of Cities Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POLICY_NEEDED">
+			<Text>Number of Policies Required: [COLOR_MAGENTA]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POLICY_NEEDED_GENERIC">
+			<Text>Number of Policies Required: [COLOR_MAGENTA]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_T3_TENET_NEEDED">
+			<Text>Number of Tier 3 Tenets Required: [COLOR_MAGENTA]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_NATIONAL_NEEDED">
+			<Text>National Population Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_NATIONAL_NEEDED_GENERIC">
+			<Text>National Population Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (scaling with number of Cities)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_LOCAL_NEEDED">
+			<Text>Local Population Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_LOCAL_NEEDED_GENERIC">
+			<Text>Local Population Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_NATIONAL_FOLLOWER_NEEDED">
+			<Text>National Followers of [ICON_RELIGION] Primary Religion Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_NATIONAL_FOLLOWER_NEEDED_GENERIC">
+			<Text>National Followers of [ICON_RELIGION] Primary Religion Required: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_GLOBAL_FOLLOWER_NEEDED">
+			<Text>Worldwide Followers of [ICON_RELIGION] Primary Religion Required: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of World Population (Currently [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]) (Have: {3_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_GLOBAL_FOLLOWER_NEEDED_GENERIC">
+			<Text>Worldwide Followers of [ICON_RELIGION] Primary Religion Required: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of World Population (scaling with map size)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HOLY_CITY_BELIEF_NEEDED">
+			<Text>Must be built in Holy City of [ICON_RELIGION] Primary Religion with one of the following Beliefs: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MAJORITY_RELIGION_BELIEF_NEEDED">
+			<Text>Require one of following Beliefs in [ICON_RELIGION] Majority Religion: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PURCHASE_BUILDING_MAJORITY_RELIGION_BELIEF_NEEDED">
+			<Text>Faith Purchase requires one of following Beliefs in [ICON_RELIGION] Majority Religion: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PURCHASE_BUILDING_OWN_HOLY_CITY">
+			<Text>Faith Purchase requires owning the Holy City of [ICON_RELIGION] Majority Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PURCHASE_BUILDING_OWN_HOLY_CITY_OR_STATE_RELIGION">
+			<Text>Faith Purchase requires owning the Holy City of [ICON_RELIGION] Majority Religion or having that be your [ICON_RELIGION] Primary Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_OBSOLETE_TECH_REMARK">
+			<Text>[COLOR_WARNING_TEXT]Note: all ongoing Effects of this Building will be removed when the above Technology is researched![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_BOOST">
+			<Text>{2_YieldBoosts} to [COLOR_YIELD_FOOD]{1_BuildingClass:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_HAPPINESS">
+			<Text>{2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness to [COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WORLD_WONDER_BOOST">
+			<Text>{1_YieldBoosts} to [ICON_WONDER] World Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLOT_BOOST">
+			<Text>{2_YieldBoosts} to [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Plot:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TERRAIN_BOOST">
+			<Text>{2_YieldBoosts} to [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FEATURE_BOOST">
+			<Text>{2_YieldBoosts} to [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Feature:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESOURCE_BOOST">
+			<Text>{2_YieldBoosts} to {3_ResourceIcon} {1_Resource:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_IMPROVEMENT_BOOST">
+			<Text>{2_YieldBoosts} to [COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LUXURY_BOOST">
+			<Text>{1_YieldBoosts} to Luxury Resource Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RIVER_BOOST">
+			<Text>{1_YieldBoosts} to [COLOR_POSITIVE_TEXT]River[ENDCOLOR] Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LAKE_BOOST">
+			<Text>{1_YieldBoosts} to [COLOR_POSITIVE_TEXT]Lake[ENDCOLOR] Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEA_BOOST">
+			<Text>{1_YieldBoosts} to [COLOR_POSITIVE_TEXT]Sea[ENDCOLOR] Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_RESOURCE_BOOST">
+			<Text>{1_YieldBoosts} to Resource Tiles in [COLOR_POSITIVE_TEXT]Water[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIALIST_BOOST">
+			<Text>{2_YieldBoosts} to [COLOR_POSITIVE_TEXT]{1_Specialist * 2}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_BOOST">
+			<Text>{1_YieldBoosts} to [ICON_GREAT_WORK] Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_BOOST">
+			<Text>{1_YieldBoosts} to [ICON_INTERNATIONAL_TRADE] Internal Trade Routes from this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_GOLDEN_AGE">
+			<Text>{1_YieldModifiers} during [ICON_GOLDEN_AGE] Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_WLTKD">
+			<Text>{1_YieldModifiers} during [ICON_HAPPINESS_1] "We Love the King Day"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_AREA">
+			<Text>{1_YieldModifiers} to Cities in the same Area</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_YIELD_MODIFIER_TR_WITH_FRANCHISE">
+			<Text>{1_YieldModifiers} to [ICON_INTERNATIONAL_TRADE] Trade Routes targeting Cities with [ICON_FRANCHISE] Established Franchise of this Corporation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_YIELD_MODIFIER_TR_WITH_FRANCHISE_CITY">
+			<Text>{1_YieldModifiers} per [ICON_INTERNATIONAL_TRADE] Trade Route targeting Cities with [ICON_FRANCHISE] Established Franchise of this Corporation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BUILDING">
+			<Text>[ICON_BULLET] [COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BUILDING_GLOBAL">
+			<Text>[ICON_BULLET] [COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR] in any City: {2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BUILDING">
+			<Text>[ICON_BULLET] [COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BUILDING_GLOBAL">
+			<Text>[ICON_BULLET] [COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR] in any City: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_LOCAL_RESOURCE">
+			<Text>[ICON_BULLET] Each {3_ResourceIcon} {1_Resource:textkey} connected to City: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_LOCAL_RESOURCE">
+			<Text>[ICON_BULLET] Each {3_ResourceIcon} {4_Resource:textkey} connected to City: {2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_MOUNTAINS">
+			<Text>[ICON_BULLET] Each Mountain within 3 Tiles of City: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_SNOW">
+			<Text>[ICON_BULLET] Each Snow Tile owned by City: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_WORKED_TERRAIN">
+			<Text>[ICON_BULLET] Each worked [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_WORKED_FEATURE">
+			<Text>[ICON_BULLET] Each worked [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Feature:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_IMPROVEMENT">
+			<Text>[ICON_BULLET] Each [COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR] owned by City: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_IMPROVEMENT_GLOBAL">
+			<Text>[ICON_BULLET] Each [COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR] in Empire: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_TECH">
+			<Text>[ICON_BULLET] [COLOR_CYAN]{1_Tech:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POLICY">
+			<Text>[ICON_BULLET] [COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POLICY_STATE_RELIGION">
+			<Text>[ICON_BULLET] [COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]: {2_YieldBoosts} when City follows your [ICON_RELIGION] Primary Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_POLICY">
+			<Text>[ICON_BULLET] [COLOR_MAGENTA]{3_Policy:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY_FROM_POLICY">
+			<Text>[ICON_BULLET] [COLOR_MAGENTA]{3_Policy:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_CITY_SECURITY] City Security</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BELIEF">
+			<Text>[ICON_BULLET] [COLOR_WHITE]{1_Belief:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BELIEF">
+			<Text>[ICON_BULLET] [COLOR_WHITE]{3_Belief:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CORPORATION">
+			<Text>[ICON_BULLET] [COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_TRAIT">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Civ:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET] [COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_XP_FOR_DOMAIN_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET] [COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]: {2_Sign}{1_Num} XP for [COLOR_YELLOW]{4_Domain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_COMBAT_PRODUCTION_MODIFIER_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET] [COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]: {2_Sign}{1_Num}% [ICON_PRODUCTION] Production for [COLOR_YELLOW]{4_UnitCombat:textkey}[ENDCOLOR] Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLAYER_INSTANCE_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET] [COLOR_WATER_TEXT]{2_Accomplishment:textkey}[ENDCOLOR]: May build {1_Num} more of this Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_PLAYER_INSTANCE_SUFFIX">
+			<Text>({1_Num} more from Accomplishments)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_ERA">
+			<Text>[ICON_BULLET] Every new Era: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STRENGTH">
+			<Text>[ICON_BULLET] Each point of [ICON_STRENGTH] City Strength: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET] [COLOR_WATER_TEXT]{1_Accomplishment:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_PASSING_TR">
+			<Text>[ICON_BULLET] Each Trade Route passing through this City: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_GOLDEN_AGE_START">
+			<Text>[ICON_BULLET] Adding [ICON_GOLDEN_AGE] Golden Age Turns: {1_YieldBoosts} (capped at {2_YieldBoostCaps})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_THEMES">
+			<Text>[ICON_BULLET] Each themed [ICON_GREAT_WORK] Great Work set in City: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_MONOPOLIES">
+			<Text>[ICON_BULLET] Each [ICON_MONOPOLY] Global Monopoly: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POPULATION">
+			<Text>[ICON_BULLET] Each [ICON_CITIZEN] Population in City: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POPULATION_GLOBAL">
+			<Text>[ICON_BULLET] Each [ICON_CITIZEN] Population in Empire: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_RELIGION_COUNT">
+			<Text>[ICON_BULLET] Each [ICON_RELIGION] Religion with at least one Follower in City: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BUILDING_COUNT">
+			<Text>[ICON_BULLET] Each completed Building in City: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_PLOT_COUNT">
+			<Text>[ICON_BULLET] Each Tile owned by City: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_FRANCHISES">
+			<Text>[ICON_BULLET] Each [ICON_FRANCHISE] Established Franchise: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_FRIENDS">
+			<Text>[ICON_BULLET] Each [ICON_CITY_STATE] City-State Friend: {1_YieldBoosts} (NOTE: Allies are not Friends)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_ALLIES">
+			<Text>[ICON_BULLET] Each [ICON_CITY_STATE] City-State Ally: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_STRATEGIC_RESOURCES">
+			<Text>[ICON_BULLET] Each unit of Strategic Resources connected to allied [ICON_CITY_STATE] City-States: {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INVESTMENT">
+			<Text>[COLOR_POSITIVE_TEXT]Investing [ICON_GOLD] Gold in a Building reduces its [ICON_PRODUCTION] Production cost by {1_Num}%, or {2_Num}% if a Wonder.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WONDER_COST_INCREASE_METRIC">
+			<Text>Additional [ICON_PRODUCTION] Production cost due to owned World Wonders: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] Production cost increase metric:[NEWLINE][ICON_BULLET] Wonders from the same Era: [COLOR_POSITIVE_TEXT]25%.[ENDCOLOR][NEWLINE][ICON_BULLET] Wonders from the previous Era: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] Wonders from two Eras earlier: [COLOR_POSITIVE_TEXT]10%.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Process -->
+		<Row Tag="TXT_KEY_TT_PROCESS_LEAGUE_PROJECT_HELP">
+			<Text>이 도시의 [ICON_PRODUCTION] 생산력을 {1_ProjName:textkey} 프로젝트에 기여합니다. 비용은 게임에 참여하는 플레이어 수와 현재 시대에 따라 증가합니다.</Text>
+		</Row>
+		<!-- Yield -->
+		<Row Tag="TXT_KEY_YIELD_FROM_GREAT_WORKS">
+			<Text>[ICON_BULLET] [ICON_GREAT_WORK] 걸작과 테마에서 {1_Num} {2_IconString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TRAIT_BONUS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Trait</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_POLICIES">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_EMPIRE_POP">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Empire-Wide [ICON_CITIZEN] Population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_NON_SPECIALISTS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from non-Specialist Citizens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_PREVIOUS_GOLDEN_AGES">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from previous Golden Ages</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TILE_EXPEND">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Expended Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_PIETY">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from following the [ICON_RELIGION] Primary Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_PROCESS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from [ICON_SWAP] Process</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TRADE_ROUTES">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from [ICON_INTERNATIONAL_TRADE] Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CONNECTION">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from [ICON_CONNECTED] City Connection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_INDUSTRIAL_CITY_CONNECTION">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from [ICON_INDUSTRIAL_CONNECTED] Industrial City Connection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_UNITS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Unit Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CITY_YIELDS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Yield Conversion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CS_ALLIANCE">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from [ICON_CITY_STATE] City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_WORLD_CONGRESS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Active Resolutions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CORPORATIONS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Corporation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_EVENTS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from Active Events</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_CONVERTED_TO_PRODUCTION">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString} converted to [ICON_PRODUCTION] Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_EXCESS_FOOD">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from excess [ICON_FOOD] Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CULTURE">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} from [ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_POST_MODIFIER">
+			<Text>{1: number "'[COLOR_POSITIVE_TEXT]'#,##0.00;'[COLOR_NEGATIVE_TEXT]-'#,##0.00"} {2_IconString} after Modifiers[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EATEN_FOOD">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_FOOD] eaten by [ICON_CITIZEN] Citizens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EXCESS_FOOD">
+			<Text>{1: number "'[COLOR_POSITIVE_TEXT]'+#,##0.00;'[COLOR_NEGATIVE_TEXT]-'#,##0.00"}[ENDCOLOR] excess [ICON_FOOD] before Modifiers[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_RELIGION] Religious Beliefs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_CAPITAL">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% for [ICON_CAPITAL] Capital from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_EVENT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Active Events</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_GA_CITY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GOLDEN_AGE] Golden Age (Buildings)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_GA_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GOLDEN_AGE] Golden Age (Policies)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_GA_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GOLDEN_AGE] Golden Age (Unique Ability)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_PUPPET">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% for [ICON_PUPPET] Puppet City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_TOURISM">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_INTERNATIONAL_TRADE] Trade Routes (Cultural Influence)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_UNHAPPY">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from [ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]Unhappiness[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_WLTKD">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_HAPPINESS_1] "We Love the King Day"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_AREA">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Area Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_RELIGION] Religious Beliefs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_CAPITAL">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% for [ICON_CAPITAL] Capital from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_CONQUEST">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from City Conquest ({2_Num} {2: plural 1?Turn; other?Turns;} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_CORPORATION">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_INTERNATIONAL_TRADE] Trade Routes with [ICON_FRANCHISE] Established Franchise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_EVENT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Active Events</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GOLDEN_AGE] Golden Age (Base)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GOLDEN_AGE] Golden Age (Religious Beliefs)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA_CITY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GOLDEN_AGE] Golden Age (Buildings)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GOLDEN_AGE] Golden Age (Policies)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GOLDEN_AGE] Golden Age (Unique Ability)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GREAT_WORKS">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_GREAT_WORK] Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_LEAGUE">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Active Resolutions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_MINOR_TRADE_ROUTE">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_INTERNATIONAL_TRADE] Trade Routes with [ICON_CITY_STATE] City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_MONOPOLY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_MONOPOLY] Resource Monopolies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NAVAL_BLOCKADE">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_BLOCKADED] Naval Blockade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NUM_FOLLOWERS_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% from Number of Followers (Religious Beliefs)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NUM_FOLLOWERS_CITY">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% from Number of Followers (Buildings)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NUM_FOLLOWERS_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% from Number of Followers (Unique Ability)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NUM_SPECIALISTS">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% from Number of Specialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_OCCUPIED_POLICY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% for [ICON_OCCUPIED] Occupied City from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Empire Bonuses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_PUPPET">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% for [ICON_PUPPET] Puppet City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_PUPPET_POLICY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% for [ICON_PUPPET] Puppet City (Policies for [ICON_PRODUCTION] Production)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_RAILROAD_CONNECTION">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Railroad Connection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_RESOURCES">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Local Resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_SPIES">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Active Spies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_TECHNOLOGIES">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Technologies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_UNHAPPINESS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from [ICON_HAPPINESS_3] Unhappiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_UNIT_PROMOTION">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Unit Garrison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WLTKD_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_HAPPINESS_1] "We Love the King Day" (Religious Beliefs)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WLTKD_CITY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_HAPPINESS_1] "We Love the King Day" (Buildings)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WLTKD_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_HAPPINESS_1] "We Love the King Day" (Policies)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WLTKD_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_HAPPINESS_1] "We Love the King Day" (Unique Ability)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WORLD_RELIGION">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% for Holy City of the World Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WORLD_WONDER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from having [ICON_WONDER] World Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MULTIPLIER_POLICY">
+			<Text>[NEWLINE][ICON_BULLET] 정책에 의해 2배</Text>
+		</Row>
+		<!-- Great person points -->
+		<Row Tag="TXT_KEY_GPP_FROM_SPECIALIST">
+			<Text>[ICON_BULLET] 전문가에서 {2_IconString} {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_FROM_BUILDING">
+			<Text>[ICON_BULLET] 건물에서 {2_IconString} {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_FROM_RELIGION">
+			<Text>[ICON_BULLET] [ICON_RELIGION] 다수 종교에서 {2_IconString} {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_FROM_MONOPOLY">
+			<Text>[ICON_BULLET][ICON_MONOPOLY] 독점에서 {2_IconString} {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_BASE">
+			<Text>기본 {1_IconString} {2_GreatPerson:textkey} 점수: {3: number "#,##0.00"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET] 건물에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_CAPITAL">
+			<Text>[NEWLINE][ICON_BULLET] [ICON_RES_MARRIAGE] 외교적 결혼으로부터 [ICON_CAPITAL] 수도에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_GA_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 황금기(종교 교리)에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_GA_POLICY">
+			<Text>[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 황금기(정책)에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_GA_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 황금기(고유 능력)에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_IMPROVEMENT">
+			<Text>[NEWLINE][ICON_BULLET] 작업한 시설에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_MOD_LEAGUE">
+			<Text>[NEWLINE][ICON_BULLET] 활성화된 결의안에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_MONOPOLY">
+			<Text>[NEWLINE][ICON_BULLET] [ICON_MONOPOLY] 자원 독점에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET] 문명 보너스에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_TOTAL">
+			<Text>{1_GreatPerson:textkey} 진행 상황: {2_Progress: number "#,##0.00"}/{3_Cost: number "#,##0.00"} (턴 당 {5_IconString} {4_PerTurn: number "#,##0.00"}, [ICON_TURNS_REMAINING] {6_Turns}턴)</Text>
+		</Row>
+
+		<!-- City screen/banner -->
+		<Row Tag="TXT_KEY_TOURISM_HELP_INFO">
+			<Text>[ICON_TOURISM] 관광은 다른 문명에 문화적 영향력을 미치기 위해 걸작, 불가사의 및 기타 문화적 업적을 통해 창출됩니다. 당신이 축적한 [ICON_TOURISM] 관광이 다른 문명의 축적된 [ICON_CULTURE] 문화 생산량을 초과하면, 당신은 그 문명에 대한 영향력을 얻게 되고, 문화 승리에 한 걸음 더 가까워집니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BORDER_GROWTH_HELP_INFO">
+			<Text>[ICON_CULTURE_LOCAL] 국경 성장 점수는 도시의 문화 생산과 특정 건물, 교리를 통해 생성됩니다. 누적된 국경 성장 점수가 필요한 임계값을 초과하면 도시는 새로운 타일을 얻습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_CORPORATIONS_TEXT">
+			<Text>기업</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_UNKNOWN">
+			<Text>??? (연구 필요)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CITY_RANGED_STRENGTH_TT">
+			<Text>도시 공습 전투력: [ICON_RANGE_STRENGTH] {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_1">
+			<Text>"여왕경축일"! ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_1">
+			<Text>이 도시는 "여왕경축일"이라는 기념일을 맞이하여 도시의 [ICON_FOOD] 식량 성장 수정치를 높여줍니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_1">
+			<Text>이 자원을 당신의 교역망에 연결하면 이 도시는 "여왕경축일"을 맞이합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_2">
+			<Text>카니발! ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_2">
+			<Text>이 도시는 [ICON_FOOD] 식량 성장을 늘리고 [ICON_HAPPINESS_3] 불행을 줄이는 카니발을 축하하고 있습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_2">
+			<Text>이 자원을 교역로에 연결하면 이 도시에서 카니발이 열리고, [ICON_FOOD 식량 성장이 증가하고 [ICON_HAPPINESS_3] 불행이 감소합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_INDUSTRIAL_CONNECTED">
+			<Text>이 도시는 [ICON_CAPITAL] 수도와 [ICON_INDUSTRIAL_CONNECTED] 산업 도시 연결을 가지고 있습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SAPPED">
+			<Text>적의 스파이 임무로 도시가 봉쇄되어 [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR]턴 동안 원거리 공격을 수행할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FINISHED">
+			<Text>완료: {1_ItemName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTOMATE_PRODUCTION_TT">
+			<Text>이 도시의 생산을 자동화하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESET_SPEC">
+			<Text>전문가 초기화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESET_SPEC_TT">
+			<Text>여기를 클릭하여 총독에게 전문가를 재지정해 달라고 요청하세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MONOPOLY_GP_MOD">
+			<Text>[ICON_BULLET] 자원 독점 보너스: +{1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENTS_GP_MOD">
+			<Text>[ICON_BULLET] 시설 보너스: +{1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIONS_GP_MOD">
+			<Text>[ICON_BULLET] 종교 보너스: +{1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_UNIT_CLASS">
+			<Text>[NEWLINE][ICON_BULLET] 전투 유형에 따른 수치: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_PLEDGES_UNIT_DOMAIN">
+			<Text>[NEWLINE][ICON_BULLET] 약탈 범위: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_RELIGION_UNIT">
+			<Text>[NEWLINE][ICON_BULLET] 종교에 의한 수치: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
+			<Text>[NEWLINE][ICON_BULLET] 기업: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
+			<Text>[NEWLINE][ICON_BULLET] 문명화 사명에 의한 수치: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_UNITPROMOTION">
+			<Text>[NEWLINE][ICON_BULLET] 주둔 중인 유닛의 승급: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_IMPROVEMENT">
+			<Text>[NEWLINE][ICON_BULLET] 시설에서: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_MILITARY_UNITPROMOTION">
+			<Text>[NEWLINE][ICON_BULLET] 군사 유닛 주둔: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_UNIT_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET] 유닛 주둔에서: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_IMPROVEMENT_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET] 시설에서: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_POLICY_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET] 정책에서: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_RESOURCE_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET] 자원에서: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_PLAYER_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET] 문명 특성에서: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_CITY_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET] 도시에서: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCE_YIELD_FROM_LEAGUE_ART">
+			<Text>[ICON_GREAT_WORK] 걸작에서 [ICON_RESEARCH] 과학 {1_Num} 추가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM] 도시에서 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_POLICY_AESTHETICS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM] [ICON_WONDER] 세계 불가사의에서 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GA_BONUS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_TOURISM] 수도 [ICON_CULTURE] 문화의 {2_Num}%에서 획득</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_PRESSURE_STRING_EXTENDED">
+			<Text>({1_Pressure} 영향력, 매 턴 + {2_PressurePerTurn})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TOOLTIP_EXTENDED">
+			<Text>{1_ReligionIcon} 신자 {2_NumFollowers}명({5_Num} 도시에서 {3_TotalPressure} + {4_PressurePerTurn} 영향력)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY">
+			<Text>[NEWLINE]최대 보급 한도 때문에, 이 유닛을 [ICON_PRODUCTION] 생산할 수 없습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY_PURCHASE">
+			<Text>[NEWLINE]최대 보급 한도 때문에, 이 유닛을 [ICON_GOLD] 구매할 수 없습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING_PURCHASE">
+			<Text>[NEWLINE]도시에 {1_BuildingType}{1: plural 1?을; 2?를;} 건설해야 이 유닛을 [ICON_GOLD] 구매할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PLAYER_CITY_COUNT_MAX">
+			<Text>[NEWLINE]플레이어 도시 당 {1_Num}개까지만 가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_ONE_CORP_ONLY">
+			<Text>[NEWLINE]제국의 다른 곳에 {2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하는 동안에는 {1_BuildingName:textkey}{1: plural 1?을; 2?를;} 건설할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PRODUCTION_SPY_BLOCKED">
+			<Text>[NEWLINE]스파이 작전에 의해 차단됨 ({1_Num}턴 남음)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_FEATURE">
+			<Text>[NEWLINE]도시 주변 {1_FeatureName:textkey} 필요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_MONOPOLY">
+			<Text>[NEWLINE]{2_ResourceIcon} {1_ResourceName:textkey}의 국제적 독점이 필요합니다. 당신은 현재 {3_Percent}%를 점유하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_TENETS_COUNT_NEEDED">
+			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;}  건설하기 위해서는 3단계 이념 주의가 {1_Num}개 더 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_NATIONAL_POP">
+			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 문명 전역의 시민이 {1_Num}명 더 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_LOCAL_POP">
+			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 도시의 시민이 {1_Num}명 더 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_FOLLOWER_POP">
+			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 당신의 문명에서 당신의 [ICON_RELIGION] 종교를 따르는 신도가 {1_Num}명 더 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_GLOBAL_FOLLOWER_POP">
+			<Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?을; 2?를;} 건설하기 위해서는 전 세계에  당신의 [ICON_RELIGION] 종교를 따르는 신도가 {1_Num}% 더 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_PRIMARY_RELIGION">
+			<Text>[NEWLINE]이것을 건설하려면 [ICON_RELIGION] 다수 종교가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_POLICIES">
+			<Text>[NEWLINE]해금에 필요한 정책 수: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_UNIT_LACKS_RESOURCES_TOTAL">
+			<Text>[NEWLINE]이 유닛을 만들려면 {2_ResourceIcon} {3_ResourceName:textkey} {1_Num}개가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PROJECT_LEVEL_THREE_TENETS_REQUIRED">
+			<Text>[NEWLINE]추가 레벨 3 원칙 필요: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PROJECT_NEED_INFLUENTIAL_ALL_CIVS">
+			<Text>[NEWLINE]이것을 만들려면 모든 문명에 영향력을 행사해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PROJECT_IDEOLOGY_REQUIRED">
+			<Text>[NEWLINE]이것을 만들려면 이념이 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PROJECT_PUBLIC_OPINION_CONTENT">
+			<Text>[NEWLINE]이것을 만들려면 만족하는 인구수가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PROJECT_LACKS_RESOURCES">
+			<Text>[NEWLINE]이 프로젝트를 만들려면 {2_ResourceIcon} {3_ResourceName:textkey} {1_Num}개가 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PROJECT_PREREQ_PROJECT_REQUIRED">
+			<Text>[NEWLINE]{1_PrereqProject} 프로젝트는 어떠한 문명에서든 만들어졌어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_PROJECT_NEED_CREATE_MORE_PROJECTS">
+			<Text>[NEWLINE]이것을 만들려면 {2_Project} 프로젝트의 인스턴스를 {1_Num}개 더 만들어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALREADY_INVESTED">
+			<Text>[NEWLINE]이 건물에 이미 [ICON_GOLD] 골드를 투자했습니다. 이 건물의 [ICON_PRODUCTION] 생산 비용이 {1_Num}% 감소했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALREADY_INVESTED_UNIT">
+			<Text>[NEWLINE]이 유닛에 이미 [ICON_GOLD] 골드를 투자했습니다. 이 유닛의 [ICON_PRODUCTION] 생산 비용이 {1_Num}% 감소했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING">
+			<Text>[NEWLINE]최근 이 도시에서 [ICON_GOLD] 골드으로 구매한 적이 있기 때문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH">
+			<Text>[NEWLINE]최근 [ICON_GREAT_PEOPLE] 위인을 [ICON_PEACE] 신앙으로 구매한 적이 있기 때문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH_LOCAL">
+			<Text>[NEWLINE]최근 이 도시에서 [ICON_PEACE] 신앙으로 구매한 적이 있기 떄문에 다시 구매하려면 {1_Num}턴 동안 기다려야 합니다.</Text>
+		</Row>
+
+		<!-- Unit panel -->
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_GROSS_RESOURCES">
+			<Text>유닛을 업그레이드 하려면 {1_ResourcesString}{1: plural 1?이; 2?가;} 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_RESOURCES_NET_NEGATIVE">
+			<Text>유닛을 업그레이드 하려면 {1_ResourcesString}{1: plural 1?이; 2?가;} 필요합니다.</Text>
+		</Row>
+
+		<!-- Combat simulator -->
+		<Row Tag="TXT_KEY_UNITCOMBAT_DAMAGE_MODIFIER">
+			<Text>유닛 체력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PLAGUE_CHANCE">
+			<Text>[COLOR_CYAN]상태 이상 공격 가능 ({1_Name})[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ALREADY_PLAGUED">
+			<Text>[COLOR_CYAN]상태 이상 {1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IMMUNE_PLAGUED">
+			<Text>[COLOR_CYAN]{1_Num}에 면역[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE">
+			<Text>[COLOR_CYAN]후퇴 확률[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_SAME_PROMOTION_ATTACK_BONUS">
+			<Text>마지막 턴 공격 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_VS_UNHAPPY_MOD">
+			<Text>목표 문명 불행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RANGED_ATTACK_IN_BONUS">
+			<Text>{1_TerrainType}에서 보너스 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE_100_PERCENT">
+			<Text>[COLOR_CYAN]유닛이 후퇴함[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_CAPTURE_CHANCE_100_PERCENT">
+			<Text>[COLOR_CYAN]유닛이 패배 시 적에게 합류함[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RANGED_SUPPORT">
+			<Text>[COLOR_CYAN]추가 범위 공격[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_GARRISON_RANGED_MODIFIER">
+			<Text>주둔 원거리 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IGNORE_ZOC">
+			<Text>[COLOR_CYAN]통제 구역(ZOC) 무시[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RESISTANCE_POWER">
+			<Text>반 전쟁광 성향</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_CITY_BLOCKADED">
+			<Text>봉쇄됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_TRAIT_SMALL_POP_BONUS">
+			<Text>Pop이 더 높은 상대에 대한 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_FULLY_HEALED_UNITS">
+			<Text>완전히 회복된 유닛에 대한 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_MORE_50_HP_UNITS">
+			<Text>체력 50% 초과 목표</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_LESS_50_HP_UNITS">
+			<Text>체력 50% 이하 목표</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_MULTI_ATTACK_BONUS">
+			<Text>다중 공격 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_CS_ALLIANCE_STRENGTH">
+			<Text>헬레닉 리그</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_COMBAT_MOD_FROM_UNIT_LEVEL">
+			<Text>유닛 레벨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_FROM_TERRAIN_BONUS">
+			<Text>지형 조정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RANGED_DEFENSE_MODIFIER">
+			<Text>원거리 방어 조정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_FRIENDLY_CITY_BELIEF_BONUS_CBP">
+			<Text>신앙의 수호자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ENEMY_CITY_BELIEF_BONUS_CBP">
+			<Text>십자군의 열성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_CONQUEST_OF_WORLD">
+			<Text>신대륙 점령 황금기 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_PER_ADJACENT_UNIT_COMBAT">
+			<Text>인접한 유닛으로부터 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_BORDER">
+			<Text>국경으로부터 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_MARRIAGES">
+			<Text>결혼으로부터 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MONOPOLY_POWER_ATTACK">
+			<Text>자원 독점</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MONOPOLY_POWER_DEFENSE">
+			<Text>자원 독점</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_COUNTERSPY_DEFENSE">
+			<Text>역간첩 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_EMBARKATION_DEFENSE">
+			<Text>적군 회유</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_UNITCLASS_NEAR">
+			<Text>근처 유닛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_NEARBYPROMOTION_COMBAT_BONUS">
+			<Text>근처 유닛에서 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_NEARBYPROMOTION_CITY_COMBAT_BONUS">
+			<Text>근처 도시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_NO_FRIENDLY_UNIT_ADJACENT_BONUS">
+			<Text>근처에 아군 유닛 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_PENALTY_VS_DOMAIN">
+			<Text>지역 패널티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_BONUS_VS_DOMAIN">
+			<Text>지역 공격 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_PENALTY_VS_DOMAIN">
+			<Text>지역 공격 패널티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_DEFENSE_BONUS_VS_DOMAIN">
+			<Text>지역 방어 보너스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_DEFENSE_PENALTY_VS_DOMAIN">
+			<Text>지역 방어 패널티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_BONUS">
+			<Text>기타</Text>
+		</Row>
+
+		<!-- Forced resync button -->
+		<Row Tag="TXT_KEY_MP_FORCE_RESYNC_TITLE">
+			<Text>강제 재동기화 예약</Text>
+		</Row>
+
+		<!-- Cultural overview -->
+		<!-- Tourism/Happiness screen -->
+		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_CIVS_WITH_OTHER_IDEOLOGY">
+			<Text>우리의 이념을 따르지 않는 문명의 수에 따른 영향:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_RECENTLY_ADOPTED">
+			<Text>최근에 이념을 채택/전환한 데 따른 영향:</Text>
+		</Row>
+		<!-- CV progress screen -->
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_INSTANT_TT_VALUE">
+			<Text>+{1_Num} 문명의 일시적인 산출량에서 오는 매 턴 [ICON_TOURISM]관광 (평균)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_SAME_TEAM">
+			<Text>+{1_Num}% 같은 팀 보너스[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE">
+			<Text>적극적인 안건 제안 때문에 보너스 +{1_Num}%[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE_NEGATIVE">
+			<Text>적극적인 안건 제안 때문에 페널티 {1_Num}%[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
+			<Text>제국 규모에 따른 페널티 -{1_Num}% ({2_NumCity} 도시 차이)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_WARSCORE">
+			<Text>가장 높은 전쟁 점수 보너스 +{1_Num}%[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_JAPAN_UA">
+			<Text>교역로 부족에 따른 페널티 {1_Num}% (쇄국 정책)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_FRANCHISES">
+			<Text>제국의 기업 프랜차이즈로부터 보너스 +{1_Num}%[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_THEIR_BUILDINGS">
+			<Text>그들의 건물에서 {1: number "'+'##;'-'##"}%[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
+			<Text>콘서트 투어에서 보너스 +100% ({1_NumTurns} 턴)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
+			<Text>콘서트 투어에서 보너스 +50% ({1_NumTurns} 턴)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_EXOTIC_THEY">
+			<Text>[NEWLINE][NEWLINE]{1_Civ}에 대한 [ICON_TOURISM]관광: [COLOR_CYAN]신비한[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_FAMILIAR_THEY">
+			<Text>[NEWLINE][NEWLINE]{1_Civ}에 대한 [ICON_TOURISM]관광: [COLOR_CYAN]친숙한[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_POPULAR_THEY">
+			<Text>[NEWLINE][NEWLINE]{1_Civ}에 대한 [ICON_TOURISM]관광: [COLOR_CYAN]유명한[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENTIAL_THEY">
+			<Text>[NEWLINE][NEWLINE]{1_Civ}에 대한 [ICON_TOURISM]관광: [COLOR_CYAN]영향력 행사[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_DOMINANT_THEY">
+			<Text>[NEWLINE][NEWLINE]{1_Civ}에 대한 [ICON_TOURISM]관광: [COLOR_CYAN]지배적[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_STATIC_THEM">
+			<Text>[NEWLINE][ICON_TOURISM]관광 추세: 고정적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_RISING_SLOWLY_THEM">
+			<Text>[NEWLINE][ICON_TOURISM]관광 추세: [COLOR_POSITIVE_TEXT]느리게 증가[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_RISING_THEM">
+			<Text>[NEWLINE][ICON_TOURISM]관광 추세: [COLOR_POSITIVE_TEXT]증가[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_FALLING_THEM">
+			<Text>[NEWLINE][ICON_TOURISM]관광 추세: [COLOR_NEGATIVE_TEXT]감소[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Religion overview -->
+		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET_PARAM">
+			<Text>{1_UNITCLASS_PROPHET}를 위해 모으기</Text>
+		</Row>
+
+		<!-- Espionage overview -->
+		<Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED_TT">
+			<Text>{1_RankName} {2_SpyName}{2: plural 1?이; 2?가;} 지정되지 않았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CAPITAL_CBP_SPY">
+			<Text>{1_CityName}{1: plural 1?은; 2?는;} {@2_CivShortDesc}의 [ICON_CAPITAL] 수도입니다. 이 도시에 [ICON_SPY] 스파이나 [ICON_DIPLOMAT] 외교관을 보낼 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YOUR_CAPITAL_CBP_SPY">
+			<Text>{1_CityName}{1: plural 1?은; 2?는;} 당신의 [ICON_CAPITAL]수도입니다. 적 [ICON_SPY] 스파이들의 높은 우선 순위 대상이 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLY_CBP_SPY">
+			<Text>{1_Player}{1: plural 1?과; 2?와;} 동맹을 맺었습니다.</Text>
+		</Row>
+		<!-- Intrigue list -->
+		<Row Tag="TXT_KEY_INTRIGUE_BRIBE_WAR_US">
+			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} {2_PlayerName}에게 당신을 향해 전쟁을 사주했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_BRIBE_WAR_OTHER">
+			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} {2_PlayerName}에게 {3_PlayerName}{3: plural 1?을; 2?를;} 향해 전쟁을 사주했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_COOP_WAR_US">
+			<Text>{1_PlayerName}{1: plural 1?과; 2?와;} {2_PlayerName}{2: plural 1?이; 2?가;} 당신을 향한 전쟁을 준비하고 있습니다..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_COOP_WAR_OTHER">
+			<Text>{1_PlayerName}{1: plural 1?과; 2?와;} {2_PlayerName}{2: plural 1?이; 2?가;} {3_PlayerName}{3: plural 1?을; 2?를;} 향한 전쟁을 준비하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_MILITARY_MIGHT_RISEN">
+			<Text>최근 {1_PlayerName}의 군사력이 크게 증가했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_BOUGHT_VOTES">
+			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} {2_PlayerName}에게 세계 의회 표를 구매했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SOLD_VOTES">
+			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} {2_PlayerName}에게 세계 의회 표를 판매했습니다.</Text>
+		</Row>
+
+		<!-- World Congress screen -->
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_PATRONAGE_FINISHER_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 정책으로 부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 종교 개혁으로 부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_TRAIT_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 문명 특성으로 부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_FAITH_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 종교적 권위로부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CAPITALS_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 정복당한 수도들로부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DOF_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 우정 선언으로부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RA_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 연구 협약으로부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DP_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 방위 조약으로부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_IMPROVEMENT_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 도시 국가 대사관으로부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
+			<Text>[NEWLINE][ICON_BULLET] 턴 당 골드로부터 {1_NumVotes}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEUTRAL">
+			<Text>[NEWLINE][NEWLINE]영향을 거의 받지 않은 문명:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_END">
+			<Text>[NEWLINE][NEWLINE]문명은 그들 스스로와 친구를 돕고, 경쟁자를 공격하기 위해 투표합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_UNKNOWN">
+			<Text>[NEWLINE][ICON_BULLET] 알 수 없음 : {1_NumDelegates}표 (문명 {2_NumCivs}개)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ATTEMPTED_LAST_SESSION">
+			<Text>이전 회의에서 제안한 결의안은, 다음 회의까지 다시 제안할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION">
+			<Text>현재 적용 중이거나 제안 중인 안건으로 인해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_PREREQ">
+			<Text>세계 이념이 활성화될 때까지 사용할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_VASSALS">
+			<Text>종속국이 없기 때문에 허용되지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION_CBP">
+			<Text>진행 중인 또는 제안된 해결책으로 인해 방해를 받습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_WRONG_SPHERE_PROPOSER">
+			<Text>이 도시 국가와 동맹 상태여야 이 안건을 제안할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY_CSD">
+			<Text>{@1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_PROPOSER">
+			<Text>{1_CivAdj}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TOURISM">
+			<Text>전 세계의 [ICON_TOURISM] 관광을 {1_UnitMaintenancePercent}%로 조정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
+			<Text>영향력의 영역: {1_CivsList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI_ENTRY">
+			<Text>{@1_CivName} ({@2_CivName} 위한)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR">
+			<Text>문호 개방: {1_CivsList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR_ENTRY">
+			<Text>{@1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_VASSAL_MAINTENANCE">
+			<Text>종속국 유닛/도시 유지 관리에 필요한 [ICON_GOLD] 골드 비용 +{1_VassalMaintenancePercent}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_LIMIT">
+			<Text>우주선 부품 제작시 [ICON_PRODUCTION] 생산 {1_Spaceship}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_PURCHASE">
+			<Text>우주선 부품 [ICON_GOLD] 골드 구매시 비용 +{1_Spaceship}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_WAR">
+			<Text>유닛 유지에 드는 [ICON_GOLD] 골드 비용 {1_UnitMaintenancePercent}%. [ICON_VICTORY_DOMINATION] 전쟁광 페널티 크게 감소.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WAR_PEACE">
+			<Text>유닛 유지에 드는 [ICON_GOLD] 골드 비용 +{1_UnitMaintenancePercent}%. [ICON_VICTORY_DOMINATION] 전쟁광 페널티 변화 없음.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_IDEOLOGY">
+			<Text>이념적 반대자나 동맹이 아닌 도시 국가와의 [ICON_INTERNATIONAL_TRADE] 교역로는 불가능합니다. 동맹 중인 도시 국가에 대한 [ICON_INFLUENCE] 영향력은 감소하지 않습니다.</Text>
+		</Row>
+
+		<!-- Diplomacy overview / player icon tooltip -->
+		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_ALLIES">
+			<Text>도시 국가 동맹에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_MILITARY">
+			<Text>군사력에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DP_WITH_CBP">
+			<Text>[COLOR_POSITIVE_TEXT]{1_CivName:textkey}{1: plural 1?과; 2?와;} 방위 조약[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Opinion modifiers -->
+		<Row Tag="TXT_KEY_DIPLO_NUCLEAR_GANDHI">
+			<Text>[COLOR_NEGATIVE_TEXT]간디의 말은 핵 무기로 뒷받침 됩니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_COOP_WAR_AGAINST_TURNS">
+			<Text>우리는 {1_Num}턴 후에 그들에게 전쟁을 선포합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PREVIOUSLY_FRIENDS">
+			<Text>우리는 예전에 그들의 문명과 친구였습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNTRUSTWORTHY_FRIEND">
+			<Text>우리는 그들을 완전하게 신뢰할 수 없습니다.</Text>
+		</Row>
+		<!-- Approach indicators -->
+		<Row Tag="TXT_KEY_DIPLO_ELIMINATED_INDICATOR">
+			<Text>이 지도자는 게임에서 제거되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HUMAN_TEAMMATE">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 한 배를 탔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEUTRAL_FRIENDLY">
+			<Text>그들은 어떤 식으로든 우리에 대해 강한 감정을 가지고 있지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEUTRAL_HOSTILE">
+			<Text>그들은 우리가 그들의 이익과 관련이 있다고 생각하지 않습니다.</Text>
+		</Row>
+		<!-- Base opinion from difficulty -->
+		<Row Tag="TXT_KEY_DIPLO_VERY_GOOD_BASE_OPINION">
+			<Text>[COLOR_POSITIVE_TEXT]난이도에 의해 외교가 매우 쉬워집니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GOOD_BASE_OPINION">
+			<Text>[COLOR_POSITIVE_TEXT]난이도에 의해 외교가 쉬워집니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BAD_BASE_OPINION">
+			<Text>[COLOR_NEGATIVE_TEXT]난이도에 의해 외교가 어려워집니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VERY_BAD_BASE_OPINION">
+			<Text>[COLOR_NEGATIVE_TEXT]난이도에 의해 외교가 매우 어려워집니다![ENDCOLOR]</Text>
+		</Row>
+		<!-- Player has done nice stuff, or we share the same position -->
+		<Row Tag="TXT_KEY_DIPLO_MUTUAL_EMBASSY">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 대사관을 공유했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WE_HAVE_EMBASSY">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 그들의 수도에 대사관을 가지고 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DIPLOMAT">
+			<Text>그들의 수도에 우리의 외교관이 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_MUTUAL">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 서로 국경을 개방했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_US">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 그들에게 국경을 개방했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_THEM">
+			<Text>[COLOR_POSITIVE_TEXT]그들은 우리에게 국경을 개방했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DP">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 방어 조약을 체결했습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DP_WITH_ENEMY">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 적들 중 한 명과 방어 조약을 맺었습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MADE_RESEARCH_AGREEMENT">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 연구 협정을 맺었습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RETURNED_CAPITAL">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 그들의 원래 수도를 되돌려주었습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LIBERATED_HOLY_CITY">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 그들의 성도를 해방시켰습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RETURNED_HOLY_CITY">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 그들의 성도를 되돌려주었습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SAME_PTP">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 같은 도시 국가를 보호하겠다고 약속했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DP_MUTUAL">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 같은 지도자들과 방어 조약을 맺었습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SAME_MASTER">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 같은 주인의 종속국입니다![ENDCOLOR]</Text>
+		</Row>
+		<!-- Player has done mean stuff -->
+		<Row Tag="TXT_KEY_DIPLO_CAPTURED_HOLY_CITY">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 성도를 점령했습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CULTURE_BOMB_HUMAN">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 영토를 훔쳤습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RAZED">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RAZED_OTHER">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 다른 문명의 시민을 납치하거나 죽였습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_STOLEN_ARTIFACTS">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문화 유물을 발굴했습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PLOTTED_AGAINST_US">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들을 모함하다가 잡혔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PERFORMED_COUP">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 스파이가 쿠데타로 도시 국가의 동맹을 빼앗았습니다![ENDCOLOR]</Text>
+		</Row>
+		<!-- Disputes -->
+		<Row Tag="TXT_KEY_DIPLO_TECH_BLOCK">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TECH_BLOCK_FIERCE">
+			<Text>그들은 우리의 우수한 기술을 질투합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_TECH_BLOCK">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 기술 발전을 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_POLICY_BLOCK">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 문화 발전을 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_POLICY_BLOCK_FIERCE">
+			<Text>그들은 우리의 우수한 문화를 질투합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_POLICY_BLOCK">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 문화 발전을 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WONDER_SPAMMER">
+			<Text>[COLOR_NEGATIVE_TEXT]그들은 우리가 너무 공격적으로 세계 불가사의를 건설하고 있다고 믿습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WONDER_DISPUTE">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 세계 불가사의를 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_MINOR_CIV_DISPUTE">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 같은 도시 국가들의 호의를 위해 경쟁하고 있지 않습니다.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Victory dispute -->
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_NONE">
+			<Text>그들은 당신을 자신들의 야망에 대한 위협으로 여기지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_WEAK">
+			<Text>그들은 당신이 자신들과 경쟁하고 있다고 두려워합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_STRONG">
+			<Text>[COLOR_NEGATIVE_TEXT]그들은 당신과 경쟁하고 있어 당신을 불신합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_FIERCE">
+			<Text>[COLOR_NEGATIVE_TEXT]그들은 당신과 경쟁하고 있어 당신을 증오합니다.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Victory block -->
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_BLOCK_WEAK">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 행위가 그들을 우려하게 만듭니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_BLOCK_STRONG">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 행위가 그들을 화나게 만듭니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_BLOCK_FIERCE">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 행위가 그들을 몹시 화나게 만듭니다.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Denouncing -->
+		<Row Tag="TXT_KEY_DIPLO_MUTUAL_DENOUNCEMENT">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 서로를 비난해왔습니다![ENDCOLOR]</Text>
+		</Row>
+		<!-- Religions / Policies -->
+		<Row Tag="TXT_KEY_DIPLO_SAME_POLICIES">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 같은 사회 정책을 가지고 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DIFFERENT_POLICIES">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 다른 사회 정책을 가지고 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES_VASSAL">
+			<Text>당신은 같은 {1_PolicyTree} 이념을 채택했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES_VASSAL">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 {1_YourPolicyTree} 이념을 채택했습니다, 그러나 그들은 {2_TheirPolicyTree} 이념을 믿습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RELIGIOUS_DIFFERENCES_NEUTRAL">
+			<Text>우리는 다른 종교를 믿고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RELIGIOUS_DIFFERENCES">
+			<Text>[COLOR_NEGATIVE_TEXT]종교적인 차이가 당신의 관계를 긴장시킵니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SAME_STATE_RELIGIONS">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 대부분의 도시에서 같은 종교를 채택했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Aggressive posture -->
+		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_MEDIUM">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 군사적 배치가 위협적입니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_HIGH">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 군사적 배치가 극도로 위협적입니다.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Promises -->
+		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_TURNS">
+			<Text>{1_Num}턴 동안 당신이 그들에게 전쟁을 선포하지 않기로 약속했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_TURNS">
+			<Text>{1_Num}턴 동안 그들과 가까운 곳에 도시를 개척하지 않기로 약속했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
+			<Text>{1_Num}턴 동안 그들과 가까운 영토를 구매하지 않기로 약속했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AI_EXPANSION_PROMISE_TURNS">
+			<Text>{1_Num}턴 동안 당신의 주변에 개척하지 않기로 약속했습니다.</Text>
+		</Row>
+		<!-- World Congress -->
+		<Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 세계 의회의 개최국이 되도록 도왔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_PREVIOUSLY">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 세계 의회에서 그들의 제안을 통과시켰습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_PREVIOUSLY">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GOOD_VOTING_HISTORY">
+			<Text>[COLOR_POSITIVE_TEXT]당신의 표가 그들의 제안을 통과되도록 도왔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BAD_VOTING_HISTORY">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 표가 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_SUCCESSFUL">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들에게 제재를 가했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_UNSUCCESSFUL">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 세계 의회에서 그들에게 제재를 가하려고 시도했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_SUCCESSFUL">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 세계 의회에서 그들에게 가해진 제재를 해제했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_UNSUCCESSFUL">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 세계 의회에서 그들에게 가해진 제재를 해제하려고 시도했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<!-- United Nations -->
+		<Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL_UN">
+			<Text>[COLOR_POSITIVE_TEXT]그들은 유엔에 대한 우리의 제안을 좋아합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISLIKED_OUR_PROPOSAL_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]그들은 유엔에 대한 우리의 제안을 싫어합니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 유엔에서 그들의 제안을 통과시켰습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 유엔의 개최국이 되도록 도왔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 그들이 다시 유엔의 개최국이 되도록 도왔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_PREVIOUSLY_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 이전에 유엔에서 그들의 제안을 통과시켰습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_PREVIOUSLY_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GOOD_VOTING_HISTORY_UN">
+			<Text>[COLOR_POSITIVE_TEXT]당신의 표가 유엔에서 그들의 제안을 통과되도록 도왔습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BAD_VOTING_HISTORY_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]당신의 표가 유엔에서 그들의 제안을 통과되지 못하게 막았습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_SUCCESSFUL_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들에게 제재를 가했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_UNSUCCESSFUL_UN">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 유엔에서 그들에게 제재를 가하려고 시도했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_SUCCESSFUL_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 유엔에서 그들에게 가해진 제재를 해제했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_UNSUCCESSFUL_UN">
+			<Text>[COLOR_POSITIVE_TEXT]우리는 유엔에서 그들에게 가해진 제재를 해제하려고 시도했습니다.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Backstabs -->
+		<Row Tag="TXT_KEY_DIPLO_BACKSTAB_WARNING_TURNS">
+			<Text>만약 당신이 그들을 비난하거나 다음 {1_Num}턴 내에 그들에게 전쟁을 선포한다면, 다른 문명들은 당신을 배후로 볼 수도 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BACKSTAB_WARNING_WAR_ONLY_TURNS">
+			<Text>만약 당신이 다음 {1_Num}턴 내에 그들에게 전쟁을 선포한다면, 다른 문명들은 당신을 배후로 볼 수도 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BACKSTAB_WARNING_DENOUNCE_ONLY_TURNS">
+			<Text>만약 당신이 다음 {1_Num}턴 내에 그들을 비난한다면, 다른 문명들은 당신을 배후로 볼 수도 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ATTACKED_OWN_VASSAL">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 자신의 종속국에게 전쟁을 선포했습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ATTACKED_RESURRECTED_CIV">
+			<Text>[COLOR_POSITIVE_TEXT]당신은 당신이 해방한 문명에게 전쟁을 선포했습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RESURRECTOR_ATTACKED_US">
+			<Text>[COLOR_NEGATIVE_TEXT]당신은 그들의 문명을 복구시킨 뒤 그들을 공격했습니다![ENDCOLOR]</Text>
+		</Row>
+		<!-- War stuff -->
+		<Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL_NUCLEAR">
+			<Text>[COLOR_NEGATIVE_TEXT]전쟁 도발 행위 때문에 세계에 핵 겨울이 찾아올 거라고 두려워하고 있습니다![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_HATE_MAXIMAL">
+			<Text>[SPACE](전쟁광을 격렬히 혐오합니다!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_HATE_EXTREME">
+			<Text>[SPACE](전쟁광을 증오합니다!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_HATE_MINIMAL">
+			<Text>[SPACE](가벼운 전쟁 도발은 무시합니다.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WARMONGER_HATE_BLOODTHIRSTY">
+			<Text>[SPACE](그들은 피에 굶주린 전쟁광이다!)</Text>
+		</Row>
+		<!-- Debug messages -->
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_WAR">
+			<Text>실제 의도는 전쟁입니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_PLANNING_WAR">
+			<Text>실제 의도는 전쟁 계획입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_HOSTILE">
+			<Text>실제 의도는 적대적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_DECEPTIVE">
+			<Text>실제 의도는 기만적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_GUARDED">
+			<Text>실제 의도는 방어적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_AFRAID">
+			<Text>실제 의도는 두려워함입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_FRIENDLY">
+			<Text>실제 의도는 우호적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_NEUTRAL">
+			<Text>실제 의도는 중립적입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_FRIEND">
+			<Text>최고의 친구:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_ALLY">
+			<Text>최고의 동맹:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_ALLY">
+			<Text>최고의 세계 의회 동맹:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_COMPETITOR">
+			<Text>최고의 세계 의회 경쟁자:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_ALLY_UN">
+			<Text>최고의 유엔 동맹:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_COMPETITOR_UN">
+			<Text>최고의 유엔 경쟁자:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_COMPETITOR">
+			<Text>최고의 경쟁자:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_CHOICE_NONE">
+			<Text>없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_CHOICE_YOU">
+			<Text>당신</Text>
+		</Row>
+
+		<!-- Leader screen -->
+		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_THEM_TT">
+			<Text>다른 문명과 거래를 하고 있기 때문에 {1_Num}턴 동안 당신과 평화 협상을 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_MOD_TT">
+			<Text>당신은 이 문명과 항상 전쟁 중입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_DP">
+			<Text>동맹국(방어 조약 또는 종주국)과의 평화 조약이 만료되기 전까지는 전쟁을 선포할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DECLARE_WAR_VASSAL_BLOCKED_TT">
+			<Text>종속국은 전쟁을 선포할 수 없습니다. (당신의 종주국이 이 문명과 전쟁을 선포할 때 전쟁은 자동으로 선포됩니다.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DECLARE_WAR_VASSAL_BLOCKED_MASTER_TT">
+			<Text>독립을 요구하거나 해방되기 전에는 종주국에게 선전포고를 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_MAKE_PEACE_VASSAL">
+			<Text>다른 문명의 종속국과 평화 협상을 할 수 없습니다. (그들의 종주국과 평화 협상을 해야 합니다, {1_CivName})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_VASSAL_BLOCKED_TT">
+			<Text>종속국은 평화 협정을 할 수 없습니다. (당신의 종주국이 이 문명과 평화 협상을 해야 자동으로 평화 협상이 이루어집니다.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEMAND_BUTTON_TT">
+			<Text>이 문명에게 조공을 요구합니다. 이 선택은 외교적 페널티를 수반합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REQUEST_HELP_BUTTON">
+			<Text>원조 요청</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REQUEST_HELP_BUTTON_TT">
+			<Text>친선 관계를 선언한 문명에게 원조를 요청합니다. 이 선택은 외교적 페널티를 수반하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REQUEST_HELP_DEAL_BUTTON">
+			<Text>원조</Text>
+		</Row>
+		<!-- Warscore tooltip -->
+		<Row Tag="TXT_KEY_WAR_SCORE">
+			<Text>[COLOR_POSITIVE_TEXT]전쟁 점수: {1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_SCORE_EXPLANATION">
+			<Text>이 수치는 전쟁이 얼마나 당신에게 얼마나 유리하게 진행되고 있는지 보여줍니다. 범위는 [COLOR_NEGATIVE_TEXT]-100[ENDCOLOR]부터 [COLOR_POSITIVE_TEXT]100[ENDCOLOR]까지입니다.[NEWLINE][COLOR_POSITIVE_TEXT]현재 전쟁 정보:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_STRENGTH_PATHETIC">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] 군사력:[ENDCOLOR] 한심합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_STRENGTH_WEAK">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] 군사력:[ENDCOLOR] 매우 약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_STRENGTH_POOR">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] 군사력:[ENDCOLOR] 우리보다 약간 약합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_STRENGTH_AVERAGE">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] 군사력:[ENDCOLOR] 우리와 동등합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_STRENGTH_STRONG">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] 군사력:[ENDCOLOR] 강합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_STRENGTH_POWERFUL">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] 군사력:[ENDCOLOR] 매우 강력합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_STRENGTH_IMMENSE">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] 군사력:[ENDCOLOR] 어마어마합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_ECONOMY_PATHETIC">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD] 경제력:[ENDCOLOR] 엉망진창입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_ECONOMY_WEAK">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD] 경제력:[ENDCOLOR] 한심합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_ECONOMY_POOR">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD] 경제력:[ENDCOLOR] 가난합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_ECONOMY_AVERAGE">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD] 경제력:[ENDCOLOR] 우리와 동등합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_ECONOMY_STRONG">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD] 경제력:[ENDCOLOR] 건장합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_ECONOMY_POWERFUL">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD] 경제력:[ENDCOLOR] 부유합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_ECONOMY_IMMENSE">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_GOLD] 경제력:[ENDCOLOR] 매우 부유합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MINOR">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] 전황:[ENDCOLOR] 잘 돌아가고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MAJOR">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] 전황:[ENDCOLOR] 우리가 이기고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_SERIOUS">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] 전황:[ENDCOLOR] 우리의 승리가 확실합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DAMAGE_THEM_CRIPPLED">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] 전황:[ENDCOLOR] 상대는 압도당하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DAMAGE_US_MINOR">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING] 전황:[ENDCOLOR] 형편없게 돌아가고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DAMAGE_US_MAJOR">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING] 전황:[ENDCOLOR] 지고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DAMAGE_US_SERIOUS">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING] 전황:[ENDCOLOR] 패배할 가능성이 높습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DAMAGE_US_CRIPPLED">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_RAZING] 전황:[ENDCOLOR] 멸망이 임박했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_NO_PEACE_OFFER">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 불가능합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_WHITE_PEACE">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 백색 평화.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_ARMISTICE">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 휴전.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SETTLEMENT">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 작은 합의.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_BACKDOWN">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 큰 합의.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SUBMISSION">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 사소한 타협.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SURRENDER">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 다소 타협.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_CESSION">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 중요한 타협.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_CAPITULATION">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 엄청난 타협.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_UNCONDITIONAL_SURRENDER">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] 평화 협상:[ENDCOLOR] 완전한 항복!</Text>
+		</Row>
+
+		<!-- Declare war popup -->
+		<Row Tag="TXT_KEY_DECLARE_WAR_DPS_CP">
+			<Text>방위 조약</Text>
+		</Row>
+
+		<!-- Trade screen -->
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_LIMIT_TT">
+			<Text>만약 어느 한 문명이 다른 주요 문명의 공격을 받게 된다면, 조약을 맺은 상대 문명은 즉시 그리고 자동적으로 침략자와 전쟁을 하게 됩니다. 이 조약은 {1_Num}턴 동안 지속됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_WLTKD_RESOURCE_CITIES">
+			<Text>현재 이 자원을 요구하는 도시:</Text>
+		</Row>
+		<!-- Deal value (normal) -->
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR">
+			<Text>거래 점수: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_ACCEPTABLE">
+			<Text>거래 점수: 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_IMPOSSIBLE">
+			<Text>거래 점수: 불가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_TT">
+			<Text>현재 거래에서 거래 품목에 대한 AI의 현재 가치를 나타냅니다. 이 점수가 '불가능'이거나 너무 마이너스 값이면 AI는 거래를 거절할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_EMBARGO">
+			<Text>세계 의회에 의한 제재</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_EMBARGO_TT">
+			<Text>제재가 풀릴 때까지 평화시에 이 문명과의 거래를 할 수 없습니다.</Text>
+		</Row>
+		<!-- Deal value (peace deal) -->
+		<Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR">
+			<Text>평화 협정 점수: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR_IMPOSSIBLE">
+			<Text>평화 협정 점수: 불가능!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR_TT">
+			<Text>평화 협정에서 거래 품목에 대한 지도자의 현재 가치를 나타냅니다. 이 점수가 '불가능!'이거나 너무 마이너스 값이면 지도자는 평화 협정을 거절할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_MAX_STR">
+			<Text>최대 점수: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_MAX_STR_TT">
+			<Text>평화 협정에서 지도자의 최대 가치를 나타냅니다. 이 점수를 초과해 제시하면, 지도자는 평화 협정을 거절할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_MIN_STR">
+			<Text>요구 점수: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_MIN_STR_TT">
+			<Text>평화 협정에서 지도자의 요구 가치를 나타냅니다. 이 점수를 초과해 제시하면 지도자는 평화 협정을 거절할 것입니다.</Text>
+		</Row>
+		<!-- Tooltip for invalid items -->
+		<Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
+			<Text>평화 협정에서 항복 외의 방식으로 종속국을 추가할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AGREEMENT_INSUFFICIENT_FUNDS">
+			<Text>둘 중의 누군가 연구 협정을 체결하는 데 필요한 자금이 부족합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT">
+			<Text>일시불 항목 (골드 등) 과 턴당 항목 (자원 등)을 교환할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AI_TEAMMATE_TRADE_TT">
+			<Text>플레이어 팀원에 의해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WARTIME_TRADE_TT">
+			<Text>평화 협정에서는 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_CAPITAL">
+			<Text>우리는 그들의 대사관을 받을 수도가 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_CAPITAL_THEM">
+			<Text>그들은 우리의 대사관을 받을 수도가 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_DENOUNCEMENT">
+			<Text>다른 문명이 비난하면 대사관을 설립할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_INSUFFICIENT_MAJORS">
+			<Text>다른 종속국이 아닌 문명이 남아있지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_DISABLED_BY_OPTIONS">
+			<Text>방어 조약이 게임 옵션에 의해 비활성화되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_EXISTING_VASSALAGE">
+			<Text>종속국은 방어 조약을 맺을 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CONTAINS_INVALID_VASSALAGE">
+			<Text>거래에 종속국이 포함된다면 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEFENSIVE_PACT_LIMIT_REACHED">
+			<Text>당신은 {1_Num}개보다 많이 방어 조약을 맺을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEFENSIVE_PACT_LIMIT_REACHED_THEM">
+			<Text>그들은 {1_Num}개보다 많이 방어 조약을 맺을 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_THEIR_VASSAL">
+			<Text>우리는 이미 그들의 종속국입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_YOUR_VASSAL">
+			<Text>그들은 이미 우리의 종속국입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_ARE_VASSAL">
+			<Text>우리는 이미 {1_CivName}의 종속국이기 때문에 그들의 종속국이 될 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEY_ARE_VASSAL">
+			<Text>그들은 이미 {1_CivName}의 종속국이기 때문에 그들의 종속국이 될 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_NOT_YET_ENABLED">
+			<Text>우리가 종속국을 만들거나 해방하려면 적어도 중세 시대에 진입해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NOT_YET_ENABLED">
+			<Text>그들이 종속국을 만들거나 해방하려면 적어도 중세 시대에 진입해야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_A_VASSAL">
+			<Text>우리는 이미 {1_PlayerName:textkey}의 종속국입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_A_VASSAL">
+			<Text>그들은 이미 {1_PlayerName:textkey}의 종속국입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_TOO_SOON">
+			<Text>우리는 종속국 협정을 끝낸 후 {1_Num}턴간 종속국이 될 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_TOO_SOON">
+			<Text>그들은 종속국 협정을 끝낸 후 {1_Num}턴간 종속국이 될 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_NO_POPULATION">
+			<Text>우리는 도시나 시민이 없기 때문에 불가능합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NO_POPULATION">
+			<Text>그들은 도시나 시민이 없기 때문에 불가능합니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_AND_INVALID_ITEM">
+			<Text>거래에 방어 조약이나 해방이 포함된다면 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_YOU_DECLARE_WAR_REQUIRED">
+			<Text>그들은 당신과 전쟁을 벌이고 있는 모든 사람에게 전쟁을 선포할 수 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_THEM_DECLARE_WAR_REQUIRED">
+			<Text>당신은 전쟁을 벌이고 있는 모든 국가에 전쟁을 선포할 수 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_NO_VASSALS">
+			<Text>우리는 해방할 종속국이 없습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_NO_VASSALS">
+			<Text>우리는 해방할 종속국이 없습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_YOUR_MASTER">
+			<Text>우리는 종주국에게 종속국 해방을 요청할 수 없습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_THEIR_MASTER">
+			<Text>그들은 종주국에게 종속국 해방을 요청할 수 없습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_TOO_SOON">
+			<Text>우리는 최근에 종속시켜 {1_Num}턴 동안 이 작업을 수행할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_TOO_SOON">
+			<Text>그들은 최근에 종속시켜 {1_Num}턴 동안 이 작업을 수행할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT">
+			<Text>평화 협정에는 동맹 도시 국가만 포함할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CANNOT_PEACE_VASSAL">
+			<Text>종속국은 평화 협정을 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BLOCKED_LOCKED_INTO_WAR">
+			<Text>다른 지도자와의 거래에 의해 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BLOCKED_DIPLOMACY">
+			<Text>당신과 우호 선언 또는 방어 조약을 맺은 문명이 이 문명과도 방어 조약을 맺었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BLOCKED_GAME_RULE">
+			<Text>게임 규칙에 의해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
+			<Text>전쟁 점수는 {1_Num} 이상이어야 합니다. 현재 전쟁 점수: {2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE_TEAM">
+			<Text>팀의 모든 문명에 대한 전쟁 점수는 {1_Num} 이상이어야 합니다. 가장 낮은 전쟁 점수: {2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_VASSAL">
+			<Text>종속국은 전쟁 선포가 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_VASSAL_TARGET">
+			<Text>종속국에게 전쟁 사주를 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_OUR_MASTER">
+			<Text>종주국에게 전쟁 사주를 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_THEIR_MASTER">
+			<Text>그들의 종주국에게 전쟁 사주를 할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP">
+			<Text>방어 조약에 의해</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP_OUR_MASTER">
+			<Text>종주국의 방어 조약에 의해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP_THEIR_MASTER">
+			<Text>그들의 종주국의 방어 조약에 의해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DOF">
+			<Text>친선 관계에 의해 불가능합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_PTP">
+			<Text>보호 선언에 의해 불가능합니다.</Text>
+		</Row>
+		<!-- Multiplayer only -->
+		<Row Tag="TXT_KEY_DENOUNCE_HUMAN">
+			<Text>비난</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DENOUNCE_HUMAN_TT">
+			<Text>지도자를 [COLOR_NEGATIVE_TEXT]비난[ENDCOLOR]합니다.</Text>
+		</Row>
+
+		<!-- Discussion/Dialogue options -->
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_APPROACH">
+			<Text>...에 대해 어떻게 생각하십니까?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_TT">
+			<Text>만약 AI가 상대 문명과 친하고 당신을 돕길 거부한다면 상대 문명에게 당신의 전쟁 준비를 알릴 것입니다. 이는 외교적 영향을 미칠 수 있습니다! [NEWLINE][NEWLINE]지도자의 반응에 따라 협력 전쟁은 즉시 시작되거나, 10턴이 지난 후 또는 한 명이 대상과 전쟁을 시작하자마자 시작될 수 있습니다. [NEWLINE][NEWLINE]이 리더와의 협력을 조기에 종료하면(비난이나 전쟁을 통해) 협력 전쟁은 취소됩니다.[NEWLINE][NEWLINE]대상과 친선 관계 또는 방어 조약을 맺거나 전쟁을 선포할 수 없게 되면 이 지도자와의 계약도 취소됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_NOT_FRIENDS_TT">
+			<Text>이를 위해서는 친선 관계 선언이 필요합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_NO_TARGET_TT">
+			<Text>두 플레이어가 전쟁을 선포할 수 있는 문명이 하나 이상 있어야 합니다. 참고: 대상 문명에는 도시가 하나 이상 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_DEC_FRIENDSHIP_TT">
+			<Text>발효 중인 우호 관계 선언과 방위 조약(만약 있다면)을 무효화하고, 다른 나라와 전쟁을 치르겠다는 약속을 무효화합니다(이미 전쟁 중이 아니라면). 이 행동은 당신의 친구를 화나게 할 것이며, 심각한 외교적 파문을 초래할 수 있습니다.[NEWLINE][NEWLINE]우호 선언을 취소한 후 [COLOR_NEGATIVE_TEXT]10[ENDCOLOR] 턴 이내에 해당 플레이어에 대해 비난하거나 전쟁을 선포하면 해당 플레이어를 중상모략한 대가로 외교 페널티를 받게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS">
+			<Text>우리 국경에서 당신의 군대를 철수시켜주십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_HOSTILE">
+			<Text>우리를 공격하려는 것이냐, 돼지야?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_TT">
+			<Text>이 지도자에게 병력을 당신의 국경에서 철수시켜달라고 요청합니다. 만약 지도자가 당신의 요청에 동의하면, [COLOR_WARNING_TEXT]두 사람 모두[ENDCOLOR] 20턴 동안 서로에게 전쟁을 선포하지 않겠다고 약속해야 합니다. 만약 당신이 이 약속을 어긴다면, 다른 지도자들은 당신을 중상모략을 하는 자로 볼지도 모릅니다![NEWLINE][NEWLINE]이 지도자가 요청을 거부한다면, 당신에게 전쟁 선포를 택할 것이니, 주의하세요!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DURATION_PROMISE">
+			<Text>이 약속은 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]턴 동안 지속될 것입니다. 이 시기 동안 약속을 위반하면 상대방은 배신감을 느낄 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DURATION_MILITARY_PROMISE">
+			<Text>이 선택지는 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]턴 동안 [COLOR_WARNING_TEXT]상호[ENDCOLOR]간에 전쟁을 선포하지 않겠다고 약속합니다. 약속을 어긴다면, 다른 지도자들이 당신을 중상모략을 하는 자로 볼 것입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DURATION_ATTACK_MINOR_PROMISE">
+			<Text>이 약속은 [COLOR_WARNING_TEXT]만료되지 않습니다[ENDCOLOR]. 약속을 어긴다면 다른 지도자들이 당신을 중상모략을 하는 자로 볼 것입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_YOULL_PAY_TT">
+			<Text>이 반응을 선택하면 [COLOR_NEGATIVE_TEXT]전쟁[ENDCOLOR]을 초래할 수 있습니다. 전쟁을 초래하지 않는다면, 상대방은 부끄러워하고, 일시적으로 당신과 중립적인 관계가 될 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU_TT">
+			<Text>{2_CivName:textkey}에게 {1_CivName:textkey}의 전쟁 준비를 알립니다. 이는 외교 기밀 누설이기 때문에 {1_CivName:textkey}{1_CivName: plural 1?을; 2?를;} 화나게 할 반면, {2_CivName:textkey}의 환심을 살 것입니다!</Text>
+		</Row>
+
+		<!-- Declare war popup -->
+		<Row Tag="TXT_KEY_DIPLO_DEFENSE_PACT_WITH_US">
+			<Text>[COLOR_NEGATIVE_TEXT]우리는 그들과 방위 조약을 맺었습니다![ENDCOLOR]</Text>
+		</Row>
+
+		<!-- City-State screen/tooltip -->
+		<Row Tag="TXT_KEY_NEUTRAL_CSTATE">
+			<Text>중립적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEACE_BLOCKED_TURNS">
+			<Text>{1_Num}턴 동안 평화 협정 불가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEACE_BLOCKED_CSTATE_TURNS_TT">
+			<Text>당신이 이 도시 국가를 공격해 {1_Num}턴 동안 평화 협정을 맺을 수 없습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_JERK_STATUS">
+			<Text>[COLOR_NEGATIVE_TEXT]이 도시 국가를 공격했습니다![ENDCOLOR][NEWLINE]다음 [COLOR_NEGATIVE_TEXT]{1_JerkRate}[ENDCOLOR]턴 동안 도시 국가로부터 퀘스트를 받을 수 없으며, 당신의 [ICON_INFLUENCE]영향력 정지점이 감소하게 될 것입니다.[NEWLINE]이 시기 동안 이 도시 국가와 [COLOR_POSITIVE_TEXT]친구가 된다면[ENDCOLOR], 이 페널티는 조기에 없어질 것입니다.[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT_VARIABLE_THRESHOLD">
+			<Text>공물 요구에 필요한 기준인 [COLOR_CYAN]+{2_Threshold}%[ENDCOLOR]보다 {1_FactorScore}% 낮아 [COLOR_WARNING_TEXT]불복[ENDCOLOR]합니다: </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NO_CAPITAL">
+			<Text>수도 없음</Text>
+		</Row>
+		<!-- Quests -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_FORMAL">
+			<Text>{@1_CityName}를 찾아주길 원합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_EXPLORE_AREA_FORMAL">
+			<Text>미지의 지역을 탐험하십시오 ([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 완료)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_BUILD_X_BUILDINGS_FORMAL">
+			<Text>{@1_Building} [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]를 건설하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
+			<Text>{1_Civ}에 대한 첩보 활동을 수행하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_COUP_FORMAL">
+			<Text>{1_Civ}에서 쿠데타를 지원하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ACQUIRE_CITY_FORMAL">
+			<Text>{1_City}{1: plural 1?을; 2?를;} 정복해주길 바랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ACQUIRE_CITY_OCC_FORMAL">
+			<Text>{1_City}{1: plural 1?을; 2?를;} 정복해주길 바랍니다.</Text>
+		</Row>
+
+		<!-- Plot popup -->
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_PILLAGE">
+			<Text>바이킹</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE">
+			<Text>지역 피해</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
+			<Text>필룸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
+			<Text>광역 피해</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_TILE_DAMAGE_NOT_MOVED">
+			<Text>와호</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
+			<Text>적 이탈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_ON_MOVE">
+			<Text>돌림병</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_BULLIED_POPUP">
+			<Text>공물:</Text>
+		</Row>
+
+		<!-- Plot tooltip -->
+		<Row Tag="TXT_KEY_CITY_STATE_ACQUIRE_CITY_QUEST_LONG">
+			<Text>{1_Civ}{1: plural 1?은; 2?는;} 당신이 이 도시를 가져가길 바랍니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_EXPLORE_AREA_QUEST_LONG">
+			<Text>{1_Civ}{1: plural 1?은; 2?는;} 당신이 이 타일 주변을 탐험하길 바랍니다.</Text>
+		</Row>
+
+		<!-- Banner message -->
+		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY">
+			<Text>[SPACE]이제 [COLOR_POSITIVE_TEXT]{@2_CityName}[ENDCOLOR]에서 [COLOR_POSITIVE_TEXT]{@1_ProdName}[ENDCOLOR] 생산 작업이 시작됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY_LIMITED">
+			<Text>[SPACE]이제 [COLOR_POSITIVE_TEXT]{@2_CityName}[ENDCOLOR]에서 [COLOR_POSITIVE_TEXT]{@1_ProdName}[ENDCOLOR] 생산 작업이 시작됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMATIC_MISSION_RESULT_NO_GOLD">
+			<Text>외교 임무를 수행하여 {1_Num} [ICON_INFLUENCE]영향력을 획득했습니다!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MISC_IMPROVEMENT_DESTROYED_EVENT">
+			<Text>이벤트로 인한 선택 때문에 {3_City} 주변의 {1_Improvement} {2_Num}개가 약탈되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_STRATEGIC_RESOURCE_PILLAGED_EVENT">
+			<Text>이벤트로 인한 선택 때문에 {3_City} 주변의 {1_Improvement} {2_Num}개가 약탈되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_BUILDING_DESTROYED_EVENT">
+			<Text>이벤트로 인한 선택 때문에  {2_City} {1_Building} 건물이 파괴되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
+			<Text>당신의 {@1_UnitName}{@1: plural 1?은; 2?는;} 어떠한 저항도 받지 않고, 지상에 있는 적 공군과 대공 유닛을 공격했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ATTACKED_CITY_CP">
+			<Text>당신의 {@2_UnitName}{@2: plural 1?이; 2?가;} 적 {@1_CityName}{@1: plural 1?을; 2?를;} 공습했습니다! ({3_Num} 피해)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_ACTUALLY">
+			<Text>당신의 {@1_UnitName}{@1: plural 1?이; 2?가;} 적 {2_CityName}{2: plural 1?을; 2?를;} 공습하고 ({3_Num} 피해), 요격 당하지 않았습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_INTERCEPTED_KILLED">
+			<Text>적 {@1_AttUnitName}{@1: plural 1?이; 2?가;} 당신의 {@2_UnitName}{@2: plural 1?을; 2?를;} 요격해 제거했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_INTERCEPTED">
+			<Text>적 {@1_UnitName}{@1: plural 1?이; 2?가;} {4_CityName}{4: plural 1?을; 2?를;} 공격하던 당신의 {@2_DefUnitName}{@2: plural 1?을; 2?를;} 요격했습니다! ({3_Num} 피해)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_UNIT_BY_AIR_INTERCEPTED">
+			<Text>적 {@1_IntUnitName}{@1: plural 1?이; 2?가;} 당신의 {@2_AttUnitName}{@2: plural 1?을; 2?를;} 요격했습니다! ({3_Num} 피해)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_CITY">
+			<Text>적 {@2_EnUName}{@2: plural 1?이; 2?가;} 당신의 {@1_CityName}{@1: plural 1?을; 2?를;} 공습했습니다! ({3_Num} 피해)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_INTERCEPTED_CITY">
+			<Text>당신 {@1_UnitName}의 요격 덕분에 {@5_CityName}{@5: plural 1?을; 2?를;} 공격하던 {@2_owner_adjective} {@3_EnUName}에게 피해를 입혔습니다. ({4_Num} damage) </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PARADROP_AA_DAMAGED">
+			<Text>적 {2_EnUName}{2: plural 1?이; 2?가;} 당신의 {1_Unit}{1: plural 1?을; 2?를;} 요격했습니다! ({3_Num} 피해)</Text>
+		</Row>
+		<!-- Unused - paradrop units cannot be killed by interceptions -->
+		<Row Tag="TXT_KEY_PARADROP_AA_KILLED">
+			<Text>적 {2_EnUName}{2: plural 1?이; 2?가;} 당신의 {1_Unit}{1: plural 1?을; 2?를;} 제거했습니다!</Text>
+		</Row>
+
+		<!-- GLOBAL_GRATEFUL_SETTLERS -->
+		<Row Tag="TXT_KEY_GRATEFUL_SETTLERS">
+			<Text>정착민들이 여러분의 문명에 합류하기로 결정했습니다!</Text>
+		</Row>
+
+		<!-- End turn blocking message -->
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE">
+			<Text>도시 운명 결정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE_TT">
+			<Text>도시의 운명을 결정하십시오...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT">
+			<Text>이벤트 선택</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT_TT">
+			<Text>다양한 옵션이 포함된 이벤트가 발생했으며, 당신의 결정을 기다리고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST">
+			<Text>확인되지 않은 서신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST_TT">
+			<Text>다른 문명에게서 온 외교 서신이 당신을 기다리고 있습니다.</Text>
+		</Row>
+		
+		<!-- New columns -->
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS">
+			<Text>[ICON_HAPPINESS_3] 불행: {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_UNHAPPINESS">
+			<Text>건물 ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_UNHAPPINESS_TT">
+			<Text>도시의 일부 건물이 [ICON_HAPPINESS_4] 불행을 생성합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_BUILDINGS">
+			<Text>건물에서 {1_Num}</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

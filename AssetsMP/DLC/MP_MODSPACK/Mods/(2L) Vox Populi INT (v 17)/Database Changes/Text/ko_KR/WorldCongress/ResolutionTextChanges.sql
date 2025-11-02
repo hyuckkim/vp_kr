@@ -27,7 +27,7 @@ SET Text = '예술 기금'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ARTS_FUNDING';
 
 UPDATE Language_ko_KR
-SET Text = '위대한 작가/예술가/음악가의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 과학자/기술자/상인의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]정책 및 걸작 점수가 세계 중앙값보다 낮은 문명은 [ICON_PRODUCTION]생산 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
+SET Text = '위대한 작가/예술가/음악가의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 과학자/기술자/상인의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]정책 및 걸작 점수가 세계 중앙값보다 낮은 문명은 [ICON_PRODUCTION]생산 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP';
 
 UPDATE Language_ko_KR
@@ -35,7 +35,7 @@ SET Text = '세계 과학 기금'
 WHERE Tag = 'TXT_KEY_RESOLUTION_SCIENCES_FUNDING';
 
 UPDATE Language_ko_KR
-SET Text = '위대한 과학자/기술자/상인의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 작가/예술가/음악가의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]기술 점수가 세계 중앙값보다 낮은 문명은 [ICON_FOOD]식량 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
+SET Text = '위대한 과학자/기술자/상인의 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 위대한 작가/예술가/음악가의 출현율이 [COLOR_NEGATIVE_TEXT]33%[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]기술 점수가 세계 중앙값보다 낮은 문명은 [ICON_FOOD]식량 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR]까지 증가합니다.[NEWLINE][NEWLINE]참고: 보너스는 문명 및 지도자의 점수 차이와 비례합니다.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP';
 
 UPDATE Language_ko_KR

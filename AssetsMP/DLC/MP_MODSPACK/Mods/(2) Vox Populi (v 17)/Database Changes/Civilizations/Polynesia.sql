@@ -22,32 +22,57 @@ VALUES
 INSERT INTO Trait_BuildsUnitClasses
 	(TraitType, UnitClassType, BuildType)
 SELECT DISTINCT
-	'TRAIT_WAYFINDING', Class, 'BUILD_POLYNESIAN_BOATS'
+	'TRAIT_WAYFINDING', Class, 'BUILD_FISHING_BOATS_EMBARKED'
 FROM Units
 WHERE CombatClass = 'UNITCOMBAT_MELEE' OR CombatClass = 'UNITCOMBAT_GUN';
 
 ----------------------------------------------------------
--- Unique Unit: Maori Warrior (Longswordsman)
+-- Unique Unit: Maori Warrior (Pikeman)
 ----------------------------------------------------------
-UPDATE Civilization_UnitClassOverrides SET UnitClassType = 'UNITCLASS_SCOUT' WHERE UnitType = 'UNIT_POLYNESIAN_MAORI_WARRIOR';
+UPDATE Civilization_UnitClassOverrides SET UnitClassType = 'UNITCLASS_PIKEMAN' WHERE UnitType = 'UNIT_POLYNESIAN_MAORI_WARRIOR';
 
 UPDATE Units
 SET
 	ObsoleteTech = (
 		SELECT ObsoleteTech FROM Units WHERE Type = (
 			SELECT DefaultUnit FROM UnitClasses WHERE Type = (
-				SELECT UnitClassType FROM Unit_ClassUpgrades WHERE UnitType = 'UNIT_SCOUT'
+				SELECT UnitClassType FROM Unit_ClassUpgrades WHERE UnitType = 'UNIT_PIKEMAN'
 			)
 		)
 	),
-	Combat = (SELECT Combat FROM Units WHERE Type = 'UNIT_SCOUT') + 3
+	Combat = (SELECT Combat FROM Units WHERE Type = 'UNIT_PIKEMAN') + 5
 WHERE Type = 'UNIT_POLYNESIAN_MAORI_WARRIOR';
 
 INSERT INTO Unit_FreePromotions
 	(UnitType, PromotionType)
 VALUES
-	('UNIT_POLYNESIAN_MAORI_WARRIOR', 'PROMOTION_AMPHIBIOUS'),
 	('UNIT_POLYNESIAN_MAORI_WARRIOR', 'PROMOTION_HAKA_WAR_DANCE');
+
+----------------------------------------------------------
+-- Unique Unit: Vaka Nui (Galley)
+----------------------------------------------------------
+INSERT INTO Civilization_UnitClassOverrides
+	(CivilizationType, UnitClassType, UnitType)
+VALUES
+	('CIVILIZATION_POLYNESIA', 'UNITCLASS_GALLEY', 'UNIT_VAKA_NUI');
+
+UPDATE Units
+SET
+	ObsoleteTech = (
+		SELECT ObsoleteTech FROM Units WHERE Type = (
+			SELECT DefaultUnit FROM UnitClasses WHERE Type = (
+				SELECT UnitClassType FROM Unit_ClassUpgrades WHERE UnitType = 'UNIT_VP_GALLEY'
+			)
+		)
+	),
+	Combat = (SELECT Combat FROM Units WHERE Type = 'UNIT_VP_GALLEY') + 2,
+	Moves = (SELECT Moves FROM Units WHERE Type = 'UNIT_VP_GALLEY') + 1
+WHERE Type = 'UNIT_VAKA_NUI';
+
+INSERT INTO Unit_FreePromotions
+	(UnitType, PromotionType)
+VALUES
+	('UNIT_VAKA_NUI', 'PROMOTION_SUPPLY');
 
 ----------------------------------------------------------
 -- Unique Improvement: Moai
@@ -55,11 +80,6 @@ VALUES
 UPDATE Builds
 SET PrereqTech = 'TECH_MASONRY' -- Construction
 WHERE Type = 'BUILD_MOAI';
-
--- Use Improvement_YieldPerXAdjacentImprovement instead
-UPDATE Improvements
-SET CultureAdjacentSameType = 0
-WHERE Type = 'IMPROVEMENT_MOAI';
 
 INSERT INTO Improvement_Yields
 	(ImprovementType, YieldType, Yield)
@@ -76,7 +96,7 @@ VALUES
 INSERT INTO Improvement_YieldPerXAdjacentImprovement
 	(ImprovementType, OtherImprovementType, YieldType, Yield, NumRequired)
 VALUES
-	('IMPROVEMENT_MOAI', 'IMPROVEMENT_MOAI', 'YIELD_CULTURE', 1, 1),
+--	('IMPROVEMENT_MOAI', 'IMPROVEMENT_MOAI', 'YIELD_CULTURE', 1, 1),
 	('IMPROVEMENT_MOAI', 'IMPROVEMENT_MANUFACTORY', 'YIELD_CULTURE', 1, 1);
 
 INSERT INTO Improvement_TechYieldChanges
@@ -91,3 +111,24 @@ VALUES
 	('IMPROVEMENT_MOAI', 'TECH_ARCHAEOLOGY', 'YIELD_TOURISM', 1),
 	('IMPROVEMENT_MOAI', 'TECH_REFRIGERATION', 'YIELD_PRODUCTION', 1),
 	('IMPROVEMENT_MOAI', 'TECH_REFRIGERATION', 'YIELD_TOURISM', 1);
+
+----------------------------------------------------------
+-- Unique Building: Marae (Council)
+----------------------------------------------------------
+INSERT INTO Civilization_BuildingClassOverrides
+	(CivilizationType, BuildingClassType, BuildingType)
+VALUES
+	('CIVILIZATION_POLYNESIA', 'BUILDINGCLASS_COUNCIL', 'BUILDING_MARAE');
+
+INSERT INTO Building_YieldChanges
+	(BuildingType, YieldType, Yield)
+VALUES
+--	('BUILDING_MARAE', 'YIELD_SCIENCE', 1),
+	('BUILDING_MARAE', 'YIELD_CULTURE', 1);
+
+INSERT INTO Building_YieldFromConstruction
+	(BuildingType, YieldType, Yield)
+VALUES
+	('BUILDING_MARAE', 'YIELD_FOOD', 3),
+	('BUILDING_MARAE', 'YIELD_GOLD', 3),
+	('BUILDING_MARAE', 'YIELD_CULTURE', 3);

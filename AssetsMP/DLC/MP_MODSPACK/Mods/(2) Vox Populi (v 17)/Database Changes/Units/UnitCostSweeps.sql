@@ -9,7 +9,8 @@ UPDATE Units SET Cost = 0 WHERE CombatClass = 'UNITCOMBAT_SETTLER';
 -- Civilians
 UPDATE Units SET Cost = 80 WHERE Class = 'UNITCLASS_WORKER';
 UPDATE Units SET Cost = 40 WHERE Class = 'UNITCLASS_WORKBOAT';
-UPDATE Units SET Cost = 100, FaithCost = 200 WHERE Class = 'UNITCLASS_ASSYRIAN_SIEGE_TOWER';
+UPDATE Units SET Cost = 300 WHERE Class = 'UNITCLASS_ASAMU';
+UPDATE Units SET Cost = 100, FaithCost = 200 WHERE Class = 'UNITCLASS_SIEGE_TOWER';
 UPDATE Units SET Cost = 450, FaithCost = 450 WHERE Class = 'UNITCLASS_ARCHAEOLOGIST';
 
 -- Trade and diplo unit costs scale with era
@@ -128,9 +129,9 @@ VALUES
 	('UNITCLASS_CARAVEL', 160),
 	('UNITCLASS_PRIVATEER', 350),
 	('UNITCLASS_IRONCLAD', 900),
-	('UNITCLASS_EARLY_DESTROYER', 1300),
-	('UNITCLASS_DESTROYER', 1800),
-	('UNITCLASS_MISSILE_DESTROYER', 2500),
+	('UNITCLASS_DESTROYER', 1300),
+	('UNITCLASS_FLEET_DESTROYER', 1800),
+	('UNITCLASS_SENSOR_COMBAT_SHIP', 2500),
 	-- Naval Ranged
 	('UNITCLASS_LIBURNA', 100),
 	('UNITCLASS_GALLEASS', 175),
@@ -164,21 +165,31 @@ WHERE EXISTS (SELECT 1 FROM UnitClass_Costs WHERE UnitClass = Class);
 DROP TABLE UnitClass_Costs;
 
 -- No Prereq
-UPDATE Units SET Cost = 40, FaithCost = 100 WHERE Class IN ('UNITCLASS_WARRIOR', 'UNITCLASS_VP_SLINGER', 'UNITCLASS_PATHFINDER');
+UPDATE Units SET Cost = 40, FaithCost = 100 WHERE Class IN ('UNITCLASS_WARRIOR', 'UNITCLASS_SLINGER', 'UNITCLASS_PATHFINDER');
 
 -- Outliers
-UPDATE Units SET Cost = 125 WHERE Class = 'UNITCLASS_ELEPHANT_RIDER';
 UPDATE Units SET Cost = 100 WHERE Class = 'UNITCLASS_SWORDSMAN';
 UPDATE Units SET Cost = 160 WHERE Class = 'UNITCLASS_LONGSWORDSMAN';
-UPDATE Units SET Cost = 125 WHERE Class = 'UNITCLASS_FCOMPANY';
+UPDATE Units SET Cost = 125 WHERE Class = 'UNITCLASS_FREE_COMPANY';
 UPDATE Units SET Cost = 550 WHERE Class = 'UNITCLASS_FOREIGNLEGION';
 UPDATE Units SET Cost = 2500 WHERE Class = 'UNITCLASS_MODERN_ARMOR';
 
 -- Unique Units
 UPDATE Units SET Cost = 70, FaithCost = 150 WHERE Type = 'UNIT_CELT_PICTISH_WARRIOR'; -- earlier but same cost
-UPDATE Units SET Cost = 100 WHERE Type = 'UNIT_MAYAN_ATLATLIST'; -- cheaper and earlier
+UPDATE Units SET Cost = 100, FaithCost = 200 WHERE Type = 'UNIT_IRON_CHARIOT'; -- unique class
+UPDATE Units SET Cost = 120, FaithCost = 200 WHERE Type = 'UNIT_CARTHAGINIAN_FOREST_ELEPHANT'; -- more expensive
+UPDATE Units SET Cost = 100, FaithCost = 200 WHERE Type = 'UNIT_GOEDENDAG'; -- cheaper
 UPDATE Units SET Cost = 135, FaithCost = 300 WHERE Type = 'UNIT_DANISH_BERSERKER'; -- earlier but same cost
+UPDATE Units SET Cost = 125, FaithCost = 250 WHERE Type = 'UNIT_FUSTA'; -- cheaper
+UPDATE Units SET Cost = 185 WHERE Type = 'UNIT_KOREAN_TURTLE_SHIP'; -- more expensive
+UPDATE Units SET Cost = 200 WHERE Type = 'UNIT_DJONG'; -- more expensive
+UPDATE Units SET Cost = 250 WHERE Type = 'UNIT_VENETIAN_GALLEASS'; -- more expensive
 UPDATE Units SET Cost = 275, FaithCost = 350 WHERE Type = 'UNIT_GERMAN_LANDSKNECHT'; -- cheaper
+UPDATE Units SET Cost = 400, FaithCost = 450 WHERE Type = 'UNIT_GREAT_BOMBARD'; -- unique class
 UPDATE Units SET Cost = 325, FaithCost = 500 WHERE Type = 'UNIT_OTTOMAN_JANISSARY'; -- earlier but same cost
 UPDATE Units SET Cost = 350, FaithCost = 500 WHERE Type = 'UNIT_INDIAN_WARELEPHANT'; -- earlier but same cost
-UPDATE Units SET Cost = 600, FaithCost = 550 WHERE Type = 'UNIT_ETHIOPIAN_MEHAL_SEFARI'; -- cheaper
+UPDATE Units SET Cost = 500, FaithCost = 550 WHERE Type = 'UNIT_TREASURE_SHIP'; -- earlier but more expensive
+UPDATE Units SET FaithCost = 450 WHERE Type = 'UNIT_QIZILBASH'; -- cheaper faith cost
+UPDATE Units SET Cost = 1300, FaithCost = 900 WHERE Type = 'UNIT_HASHEMITE_RAIDER'; -- earlier but same cost
+UPDATE Units SET Cost = 1300, FaithCost = 900 WHERE Type = 'UNIT_KRUPP_GUN'; -- earlier but same cost
+UPDATE Units SET Cost = 2000, FaithCost = 1350 WHERE Type = 'UNIT_YAMATO'; -- more expensive

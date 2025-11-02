@@ -40,7 +40,6 @@
 		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL">
 			<Text>사제들이 점을 치는 데 성공하여 문명의 [ICON_PEACE]신앙이 증가합니다.</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4">
 			<Text>우리 관측가들이 많은 것을 배울 것이다.</Text>
 		</Row>
@@ -1341,7 +1340,6 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_EFFECT">
 			<Text>각 턴마다, 100%의 [ICON_PEACE] 신앙을 훔쳤습니다. 도시의 종교 압력이 100% 감소했습니다. {5_DurationText}</Text>
 		</Row>
-		
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
 			<Text>[ICON_GREAT_PEOPLE] 도시 전문가 납치</Text>
 		</Row>
@@ -1423,7 +1421,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK">
-			<Text>[ICON_SPY] 대 첩보망 개설</Text>
+			<Text>[ICON_CITY_SECURITY] 대 첩보망 개설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_HELP">
 			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 -20만큼 얻습니다. [NEWLINE][NEWLINE]적 [ICON_SPY] 스파이 발견 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 50 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 처치 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 150 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>

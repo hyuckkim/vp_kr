@@ -35,10 +35,10 @@ DELETE FROM Civilization_UnitClassOverrides WHERE UnitType = 'UNIT_SPANISH_TERCI
 
 UPDATE Units
 SET
-	UnitFlagAtlas = 'TERCIO_FLAG_ATLAS',
-	UnitFlagIconOffset = 0,
-	IconAtlas = 'COMMUNITY_2_ATLAS',
-	PortraitIndex = 23
+	UnitFlagAtlas = 'UNIT_FLAG_ATLAS_VP_2',
+	UnitFlagIconOffset = 13,
+	IconAtlas = 'UNIT_ATLAS_VP_2',
+	PortraitIndex = 13
 WHERE Type = 'UNIT_SPANISH_TERCIO';
 
 UPDATE Units
@@ -63,6 +63,22 @@ UPDATE Units SET PrereqTech = 'TECH_COMBINED_ARMS' WHERE Class = 'UNITCLASS_INFA
 ----------------------------------------------------------------------------
 
 -- Slinger
+DELETE FROM Civilization_UnitClassOverrides WHERE UnitType = 'UNIT_INCAN_SLINGER';
+
+UPDATE Units
+SET
+	UnitArtInfo = 'ART_DEF_UNIT_SLINGER',
+	UnitFlagAtlas = 'UNIT_FLAG_ATLAS_VP_2',
+	UnitFlagIconOffset = 8,
+	IconAtlas = 'UNIT_ATLAS_VP_2',
+	PortraitIndex = 8
+WHERE Type = 'UNIT_INCAN_SLINGER';
+
+UPDATE Units
+SET
+	PrereqTech = NULL,
+	ObsoleteTech = 'TECH_CALENDAR'
+WHERE Class = 'UNITCLASS_SLINGER';
 
 -- Archer
 UPDATE Units
@@ -107,6 +123,12 @@ SET
 	DefaultUnitAI = 'UNITAI_RANGED'
 WHERE Class = 'UNITCLASS_BAZOOKA';
 
+UPDATE UnitGameplay2DScripts
+SET
+	SelectionSound = 'AS2D_SELECT_INFANTRY',
+	FirstSelectionSound = 'AS2D_BIRTH_INFANTRY'
+WHERE UnitType = 'UNIT_BAZOOKA';
+
 ----------------------------------------------------------------------------
 -- Mounted Melee/Armor
 ----------------------------------------------------------------------------
@@ -115,30 +137,6 @@ WHERE Class = 'UNITCLASS_BAZOOKA';
 UPDATE Units
 SET PrereqTech = 'TECH_ARCHERY' -- Military Strategy
 WHERE Class = 'UNITCLASS_HORSEMAN';
-
--- War Elephant
-DELETE FROM Civilization_UnitClassOverrides WHERE UnitType = 'UNIT_CARTHAGINIAN_FOREST_ELEPHANT';
-
-UPDATE Units
-SET
-	Description = 'TXT_KEY_UNIT_ELEPHANT_RIDER',
-	Civilopedia = 'TXT_KEY_UNIT_ELEPHANT_RIDER_TEXT',
-	Help = 'TXT_KEY_UNIT_ELEPHANT_RIDER_HELP',
-	Strategy = 'TXT_KEY_UNIT_ELEPHANT_RIDER_STRATEGY'
-WHERE Type = 'UNIT_CARTHAGINIAN_FOREST_ELEPHANT';
-
-UPDATE Units
-SET
-	PrereqTech = 'TECH_ARCHERY', -- Military Strategy
-	ResourceType = 'RESOURCE_IVORY'
-WHERE Class = 'UNITCLASS_ELEPHANT_RIDER';
-
-INSERT INTO Unit_BuildingClassRequireds
-	(UnitType, BuildingClassType)
-SELECT
-	Type, 'BUILDINGCLASS_BARRACKS'
-FROM Units
-WHERE Class = 'UNITCLASS_ELEPHANT_RIDER';
 
 -- Knight
 UPDATE Units SET ObsoleteTech = 'TECH_METALLURGY' WHERE Class = 'UNITCLASS_KNIGHT';
@@ -190,7 +188,8 @@ DELETE FROM Civilization_UnitClassOverrides WHERE UnitType = 'UNIT_MONGOLIAN_KES
 
 UPDATE Units
 SET
-	UnitFlagAtlas = 'MOUNTED_XBOW_FLAG_ATLAS',
+	UnitFlagAtlas = 'UNIT_FLAG_ATLAS_VP_2',
+	UnitFlagIconOffset = 10,
 	MoveRate = 'QUADRUPED'
 WHERE Type = 'UNIT_MONGOLIAN_KESHIK';
 
@@ -199,7 +198,7 @@ SET
 	IsMounted = 1,
 	PrereqTech = 'TECH_MATHEMATICS',
 	ObsoleteTech = 'TECH_PHYSICS'
-WHERE Class = 'UNITCLASS_HORSE_ARCHER';
+WHERE Class = 'UNITCLASS_SKIRMISHER';
 
 -- Heavy Skirmisher
 
@@ -218,10 +217,10 @@ WHERE Class = 'UNITCLASS_CAVALRY';
 UPDATE Units
 SET
 	UnitArtInfo = 'ART_DEF_UNIT_ARMORED_CAR',
-	UnitFlagAtlas = 'ARMORED_CAR_FLAG_ATLAS',
-	UnitFlagIconOffset = 0,
-	IconAtlas = 'COMMUNITY_2_ATLAS',
-	PortraitIndex = 5
+	UnitFlagAtlas = 'UNIT_FLAG_ATLAS_VP_2',
+	UnitFlagIconOffset = 18,
+	IconAtlas = 'UNIT_ATLAS_VP_2',
+	PortraitIndex = 18
 WHERE Type = 'UNIT_ANTI_TANK_GUN';
 
 UPDATE Units
@@ -232,6 +231,12 @@ SET
 	ObsoleteTech = 'TECH_MOBILE_TACTICS',
 	DefaultUnitAI = 'UNITAI_RANGED'
 WHERE Class = 'UNITCLASS_ANTI_TANK_GUN';
+
+UPDATE UnitGameplay2DScripts
+SET
+	SelectionSound = 'AS2D_SELECT_TANK',
+	FirstSelectionSound = 'AS2D_BIRTH_TANK'
+WHERE UnitType = 'UNIT_ANTI_TANK_GUN';
 
 -- Helicopter Gunship
 UPDATE Units
@@ -255,6 +260,12 @@ WHERE Class = 'UNITCLASS_CATAPULT';
 UPDATE Units SET ObsoleteTech = 'TECH_GUNPOWDER' WHERE Class = 'UNITCLASS_TREBUCHET';
 
 -- Cannon
+UPDATE Units
+SET
+	IconAtlas = 'UNIT_ATLAS_VP_2',
+	PortraitIndex = 16
+WHERE Type = 'UNIT_CANNON';
+
 UPDATE Units
 SET
 	PrereqTech = 'TECH_GUNPOWDER',
@@ -330,6 +341,12 @@ SET
 	DefaultUnitAI = 'UNITAI_PARADROP'
 WHERE Class = 'UNITCLASS_MARINE';
 
+UPDATE UnitGameplay2DScripts
+SET
+	SelectionSound = 'AS2D_SELECT_PARATROOPER',
+	FirstSelectionSound = 'AS2D_BIRTH_PARATROOPER'
+WHERE UnitType = 'UNIT_MARINE';
+
 -- XCOM Squad
 UPDATE Units
 SET
@@ -387,10 +404,10 @@ WHERE Class = 'UNITCLASS_CARAVEL';
 UPDATE Units
 SET
 	UnitArtInfo = 'ART_DEF_UNIT_CORVETTE',
-	UnitFlagAtlas = 'CORVETTE_FLAG_ATLAS',
-	UnitFlagIconOffset = 0,
-	IconAtlas = 'COMMUNITY_ATLAS',
-	PortraitIndex = 60
+	UnitFlagAtlas = 'UNIT_FLAG_ATLAS_VP_2',
+	UnitFlagIconOffset = 26,
+	IconAtlas = 'UNIT_ATLAS_VP_2',
+	PortraitIndex = 26
 WHERE Type = 'UNIT_PRIVATEER';
 
 UPDATE Units
@@ -408,16 +425,26 @@ SET
 WHERE Class = 'UNITCLASS_IRONCLAD';
 
 -- Destroyer
-
--- Fleet Destroyer
 UPDATE Units
 SET
-	PrereqTech = 'TECH_NUCLEAR_FISSION',
-	ObsoleteTech = 'TECH_STEALTH'
+	UnitFlagAtlas = 'UNIT_FLAG_ATLAS_VP_2',
+	UnitFlagIconOffset = 28,
+	IconAtlas = 'UNIT_ATLAS_VP_2',
+	PortraitIndex = 28
+WHERE Type = 'UNIT_DESTROYER';
+
+UPDATE Units
+SET
+	PrereqTech = 'TECH_RADIO',
+	ObsoleteTech = 'TECH_NUCLEAR_FISSION',
+	AirInterceptRange = 0
 WHERE Class = 'UNITCLASS_DESTROYER';
 
+-- Fleet Destroyer
+UPDATE Units SET AirInterceptRange = 2 WHERE Class = 'UNITCLASS_FLEET_DESTROYER';
+
 -- Sensor Combat Ship
-UPDATE Units SET AirInterceptRange = 3 WHERE Class = 'UNITCLASS_MISSILE_DESTROYER';
+UPDATE Units SET AirInterceptRange = 3 WHERE Class = 'UNITCLASS_SENSOR_COMBAT_SHIP';
 
 ----------------------------------------------------------------------------
 -- Naval Ranged
@@ -536,7 +563,8 @@ UPDATE Units
 SET
 	CombatClass = 'UNITCOMBAT_SETTLER',
 	PrereqTech = 'TECH_POTTERY',
-	ObsoleteTech = 'TECH_BANKING'
+	ObsoleteTech = 'TECH_BANKING',
+	Requirements = NULL
 WHERE Class = 'UNITCLASS_SETTLER';
 
 -- Pioneer
@@ -546,8 +574,8 @@ VALUES
 	('BUILDINGCLASS_MONUMENT'),
 	('BUILDINGCLASS_SHRINE'),
 	('BUILDINGCLASS_GRANARY'),
-	('BUILDINGCLASS_GROVE'),
-	('BUILDINGCLASS_LODGE'),
+	('BUILDINGCLASS_COUNCIL'),
+	('BUILDINGCLASS_SMOKEHOUSE'),
 	('BUILDINGCLASS_HERBALIST'),
 	('BUILDINGCLASS_MARKET'),
 	('BUILDINGCLASS_BARRACKS'),
@@ -708,7 +736,11 @@ WHERE Class = 'UNITCLASS_GREAT_DIPLOMAT';
 -- Great General
 
 -- Great Admiral
-UPDATE Units SET NumFreeLux = 2 WHERE Class = 'UNITCLASS_GREAT_ADMIRAL';
+UPDATE Units 
+SET 
+	NumFreeLux = 2,
+	WorkRate = 1  -- Tersane
+WHERE Class = 'UNITCLASS_GREAT_ADMIRAL';
 
 -- Great Prophet
 UPDATE Units SET Capture = NULL WHERE Class = 'UNITCLASS_PROPHET';

@@ -39,7 +39,7 @@ SET MilitarySupport = 1, MilitaryProduction = 1
 WHERE CombatClass IN (
 	SELECT Type FROM UnitCombatInfos WHERE IsMilitary = 1
 ) OR Class IN (
-	'UNITCLASS_ASSYRIAN_SIEGE_TOWER',
+	'UNITCLASS_SIEGE_TOWER',
 	'UNITCLASS_ROCKET_MISSILE',
 	'UNITCLASS_GUIDED_MISSILE',
 	'UNITCLASS_ATOMIC_BOMB',
@@ -110,6 +110,7 @@ WHERE SpaceshipProject IS NOT NULL;
 
 -----------------------------------------------------------------
 -- RequiresFaithPurchaseEnabled: only applicable to land/air units
+-- This blocks the unit from being always faith purchasable as long as it has a faith cost
 -----------------------------------------------------------------
 
 -- All non-naval military units except mercenary units
@@ -118,8 +119,11 @@ SET RequiresFaithPurchaseEnabled = 1
 WHERE CombatClass IN (SELECT Type FROM UnitCombatInfos WHERE IsMilitary = 1 AND IsNaval = 0)
 AND PurchaseOnly = 0;
 
--- Siege Tower and Archaeologist can also be faith purchased
-UPDATE Units SET RequiresFaithPurchaseEnabled = 1 WHERE Class IN ('UNITCLASS_ASSYRIAN_SIEGE_TOWER', 'UNITCLASS_ARCHAEOLOGIST');
+-- Siege Tower and Archaeologist also require beliefs to be faith purchased
+UPDATE Units SET RequiresFaithPurchaseEnabled = 1 WHERE Class IN ('UNITCLASS_SIEGE_TOWER', 'UNITCLASS_ARCHAEOLOGIST');
+
+-- Qizilbash can always be faith purchased
+UPDATE Units SET RequiresFaithPurchaseEnabled = 0 WHERE Type = 'UNIT_QIZILBASH';
 
 -----------------------------------------------------------------
 -- Minimum size of adjacent water body to train this unit
@@ -130,10 +134,9 @@ SET MinAreaSize = (
 	WHERE Name = 'MIN_WATER_SIZE_FOR_OCEAN'
 ) WHERE CombatClass IN (
 	SELECT Type FROM UnitCombatInfos WHERE IsNaval = 1
-) OR CombatClass IN (
-	'UNITCOMBAT_WORKBOAT',
-	'UNITCOMBAT_CARGO'
-);
+) OR CombatClass = 'UNITCOMBAT_WORKBOAT';
+
+UPDATE Units SET MinAreaSize = 3 WHERE CombatClass = 'UNITCOMBAT_CARGO';
 
 -----------------------------------------------------------------
 -- Number of air slots this unit takes

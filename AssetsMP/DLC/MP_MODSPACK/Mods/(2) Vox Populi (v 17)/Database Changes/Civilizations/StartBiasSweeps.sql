@@ -8,19 +8,19 @@ DELETE FROM Civilization_Start_Region_Avoid;
 INSERT INTO Civilization_Start_Along_Ocean
 	(CivilizationType, StartAlongOcean)
 VALUES
+	('CIVILIZATION_BYZANTIUM', '1'),   -- Classical UU needs coast (historical)
 	('CIVILIZATION_ENGLAND', '1'),     -- UA + Renaissance UU wants coast (historical)
-	('CIVILIZATION_POLYNESIA', '1'),   -- UA wants coast (historical) UI needs Coast
+	('CIVILIZATION_POLYNESIA', '1'),   -- UA wants coast, UI needs coast (historical)
 	('CIVILIZATION_DENMARK', '1'),     -- UA + Classical UU want coast (historical)
 	('CIVILIZATION_CARTHAGE', '1'),    -- UA + Classical UU want coast (historical)
-	('CIVILIZATION_SPAIN', '1'),       -- UA wants coast but is also heavily rewarded for expanding so doesn't need it (NOT historical)
 	('CIVILIZATION_PORTUGAL', '1'),    -- UA + Medieval UU want coast, UI needs coast (historical)
 	('CIVILIZATION_VENICE', '1'),      -- UA wants coast (historical)
-	('CIVILIZATION_NETHERLANDS', '1'); -- Renaissance UU wants coast and not rewarded for expanding (historical)
+	('CIVILIZATION_INDONESIA', '1'),   -- UI wants coast + Medieval UU needs coast (historical)
+	('CIVILIZATION_OTTOMAN', '1');     -- Unique GPTI needs coast (historical)
 
 INSERT INTO Civilization_Start_Along_River
 	(CivilizationType, StartAlongRiver)
 VALUES
-	('CIVILIZATION_INDIA', '1'),       -- Classical UB wants river (historical)
 	('CIVILIZATION_SONGHAI', '1');     -- UA wants river (historical)
 
 INSERT INTO Civilization_Start_Region_Priority
@@ -32,27 +32,28 @@ VALUES
 
 	('CIVILIZATION_IROQUOIS', 'REGION_FOREST'), -- UA + Classical UU wants forest/jungle (historical)
 	('CIVILIZATION_IROQUOIS', 'REGION_JUNGLE'),
-	('CIVILIZATION_AZTEC', 'REGION_JUNGLE'),    -- Ancient UU wants jungle/forest (historical)
-	('CIVILIZATION_AZTEC', 'REGION_FOREST'),
 	('CIVILIZATION_BRAZIL', 'REGION_JUNGLE'),   -- UI needs jungle/forest (historical)
 	('CIVILIZATION_BRAZIL', 'REGION_FOREST'),
 	('CIVILIZATION_MAYA', 'REGION_JUNGLE'),     -- UI needs jungle/forest (historical)
 	('CIVILIZATION_MAYA', 'REGION_FOREST'),
+	('CIVILIZATION_SIAM', 'REGION_JUNGLE'),     -- UB needs jungle/forest (historical)
+	('CIVILIZATION_SIAM', 'REGION_FOREST'),
 
 	('CIVILIZATION_HUNS', 'REGION_GRASS'),      -- UA wants horses, UI needs flat land (historical)
 	('CIVILIZATION_HUNS', 'REGION_PLAINS'),
 	('CIVILIZATION_MONGOL', 'REGION_GRASS'),    -- UA wants horses, Ancient UB can utilize Sheep/Cattle/Horses in addition to other bonus resources (historical)
 	('CIVILIZATION_MONGOL', 'REGION_PLAINS'),
-	('CIVILIZATION_SHOSHONE', 'REGION_PLAINS'), -- UI needs flat land, Industiral UU wants horses but not rewarded for expanding aggressively (historical)
-	('CIVILIZATION_SHOSHONE', 'REGION_GRASS'),
 
-	('CIVILIZATION_CELTS', 'REGION_HILLS'),     -- Ancient UU wants Hills
+	('CIVILIZATION_SWEDEN', 'REGION_TUNDRA'),   -- UB wants tundra (historical)
+
 	('CIVILIZATION_ROME', 'REGION_HILLS');      -- UU wants Iron, UA needs early production (historical)
 
 INSERT INTO Civilization_Start_Region_Avoid
 	(CivilizationType, RegionType)
 VALUES
-	('CIVILIZATION_CHINA', 'REGION_HILLS'), 	-- UI needs flat land
+	('CIVILIZATION_CHINA', 'REGION_HILLS'),     -- UI needs flat land
+	('CIVILIZATION_INDIA', 'REGION_HILLS'),     -- Classical UB wants farms
+	('CIVILIZATION_SHOSHONE', 'REGION_HILLS'),  -- UI needs flat land (historical)
 	('CIVILIZATION_POLAND', 'REGION_JUNGLE'),   -- Medieval UB wants Sheep/Cattle/Horses
 	('CIVILIZATION_POLAND', 'REGION_FOREST');
 

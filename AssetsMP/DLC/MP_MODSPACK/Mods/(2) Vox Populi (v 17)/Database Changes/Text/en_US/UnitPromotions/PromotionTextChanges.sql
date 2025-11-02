@@ -65,7 +65,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_TARGETING_3_HELP';
 
 -- Sentry
 UPDATE Language_en_US
-SET Text = '+1 [ICON_VP_VISION] Sight.'
+SET Text = '+1 [ICON_VISION] Sight.'
 WHERE Tag = 'TXT_KEY_PROMOTION_SENTRY_HELP';
 
 UPDATE Language_en_US
@@ -267,7 +267,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_EVASION_HELP';
 
 -- Scouting
 UPDATE Language_en_US
-SET Text = '+1 [ICON_VP_VISION] Sight and Embarked Sight.'
+SET Text = '+1 [ICON_VISION] Sight and Embarked Sight.'
 WHERE Tag = 'TXT_KEY_PROMOTION_SCOUTING_1_HELP';
 
 UPDATE Language_en_US
@@ -284,7 +284,7 @@ SET Text = '+25% [ICON_STRENGTH] Combat Strength when defending.[NEWLINE]+5 HP w
 WHERE Tag = 'TXT_KEY_PROMOTION_SURVIVALISM_2_HELP';
 
 UPDATE Language_en_US
-SET Text = 'Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action.[NEWLINE]Pillaging costs no [ICON_MOVES] Movement.'
+SET Text = 'Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action.[NEWLINE][ICON_RAZING] Pillaging costs no [ICON_MOVES] Movement.'
 WHERE Tag = 'TXT_KEY_PROMOTION_SURVIVALISM_3_HELP';
 
 UPDATE Language_en_US
@@ -435,12 +435,15 @@ WHERE Tag = 'TXT_KEY_PROMOTION_BUFFALO_LOINS_HELP';
 
 -- Embarkation with Ocean Movement
 UPDATE Language_en_US
-SET Text = 'Can embark onto [COLOR_POSITIVE_TEXT]Water Tiles[ENDCOLOR] and enter [COLOR_POSITIVE_TEXT]Ocean[ENDCOLOR].[NEWLINE]+2 [ICON_VP_VISION] Embarked Sight.'
+SET Text = 'Can embark onto [COLOR_POSITIVE_TEXT]Water Tiles[ENDCOLOR] and enter [COLOR_POSITIVE_TEXT]Ocean[ENDCOLOR].[NEWLINE]+2 [ICON_VISION] Embarked Sight.'
 WHERE Tag = 'TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP';
 
--- Naval Movement
 UPDATE Language_en_US
-SET Text = '+1 [ICON_MOVES] Movement.'
+SET Text = 'Colonization'
+WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_MOVEMENT';
+
+UPDATE Language_en_US
+SET Text = '+1 [ICON_MOVES] Embarked Movement.'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_MOVEMENT_HELP';
 
 -- Exploration
@@ -455,7 +458,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_NATIONALISM_HELP';
 
 -- Altitude Training
 UPDATE Language_en_US
-SET Text = 'Double [ICON_MOVES] Movement in [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR].[NEWLINE]+10% [ICON_STRENGTH] Combat Strength when defending in or attacking a Unit in [COLOR_POSITIVE_TEXT]featureless Hill[ENDCOLOR].'
+SET Text = 'Double [ICON_MOVES] Movement in [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR].[NEWLINE]+10% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_PROMOTION_ALTITUDE_TRAINING_HELP';
 
 -- Morale 
@@ -465,7 +468,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_MORALE_HELP';
 
 -- Statue Of Zeus
 UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]Military Units:[ENDCOLOR] +25% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Workers:[ENDCOLOR] Immune to the [COLOR_NEGATIVE_TEXT]{TXT_KEY_PROMOTION_PRISONER_WAR}[ENDCOLOR] status.'
+SET Text = '[COLOR_POSITIVE_TEXT]Military Units:[ENDCOLOR] +25% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Workers:[ENDCOLOR] Immune to the [COLOR_NEGATIVE_TEXT]{TXT_KEY_PROMOTION_PRISONERS_OF_WAR}[ENDCOLOR] status.'
 WHERE Tag = 'TXT_KEY_PROMOTION_STATUE_ZEUS_HELP';
 
 -- Himeji Castle
@@ -509,7 +512,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_INDIRECT_FIRE_HELP';
 
 -- Extra Sight While Embarked
 UPDATE Language_en_US
-SET Text = '+1 [ICON_VP_VISION] Embarked Sight.'
+SET Text = '+1 [ICON_VISION] Embarked Sight.'
 WHERE Tag = 'TXT_KEY_PROMOTION_EMBARKED_SIGHT_HELP';
 
 -- Embarkation with Defense
@@ -523,7 +526,7 @@ SET Text = 'Can [COLOR_POSITIVE_TEXT]Paradrop[ENDCOLOR] up to 40 tiles away whil
 WHERE Tag = 'TXT_KEY_PROMOTION_EXTENDED_PARADROP_HELP';
 
 UPDATE Language_en_US
-SET Text = 'Oceanic Perils'
+SET Text = 'Oceanic Peril'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE';
 
 UPDATE Language_en_US
@@ -622,11 +625,6 @@ UPDATE Language_en_US
 SET Text = '+33% [ICON_STRENGTH] Combat Strength when defending in or attacking a Unit in [COLOR_POSITIVE_TEXT]Forest[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Jungle[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_PROMOTION_MOHAWK_HELP';
 
--- Combat Bonus in Forest/Jungle (33)
-UPDATE Language_en_US
-SET Text = '+33% [ICON_STRENGTH] Combat Strength when defending in or attacking a Unit in [COLOR_POSITIVE_TEXT]Forest[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Jungle[ENDCOLOR].'
-WHERE Tag = 'TXT_KEY_PROMOTION_JAGUAR_HELP';
-
 -- War Canoes
 UPDATE Language_en_US
 SET Text = 'Double [ICON_MOVES] Movement when moving along Rivers.'
@@ -653,11 +651,11 @@ SET Text = '+33% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_
 WHERE Tag = 'TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED_HELP';
 
 UPDATE Language_en_US
-SET Text = 'Highlanders'
+SET Text = 'Highlander'
 WHERE Tag = 'TXT_KEY_PROMOTION_SKI_INFANTRY';
 
 UPDATE Language_en_US
-SET Text = 'Double [ICON_MOVES] Movement in [COLOR_POSITIVE_TEXT]Snow[ENDCOLOR], [COLOR_POSITIVE_TEXT]Tundra[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR].[NEWLINE]+25% [ICON_STRENGTH] Combat Strength when defending in or attacking a Unit in [COLOR_POSITIVE_TEXT]Snow[ENDCOLOR], [COLOR_POSITIVE_TEXT]Tundra[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR] without features.'
+SET Text = 'Double [ICON_MOVES] Movement in [COLOR_POSITIVE_TEXT]Snow[ENDCOLOR], [COLOR_POSITIVE_TEXT]Tundra[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR].[NEWLINE]+25% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]Snow[ENDCOLOR], [COLOR_POSITIVE_TEXT]Tundra[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_PROMOTION_SKI_INFANTRY_HELP';
 
 -- Haka War Dance
@@ -705,7 +703,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_HELP';
 
 -- Full Moon Striker
 UPDATE Language_en_US
-SET Text = '+1 [ICON_MOVES] Movement.[NEWLINE]Gain 200 [ICON_RESEARCH] Science when [COLOR_POSITIVE_TEXT]pillaging improvements[ENDCOLOR].'
+SET Text = '+1 [ICON_MOVES] Movement.[NEWLINE]Gain 200 [ICON_RESEARCH] Science when [ICON_RAZING] Pillaging Improvements.'
 WHERE Tag = 'TXT_KEY_PROMOTION_MOON_STRIKER_HELP';
 
 -- Mystic Blade

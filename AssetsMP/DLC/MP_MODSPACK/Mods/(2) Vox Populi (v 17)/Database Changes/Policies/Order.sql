@@ -52,7 +52,7 @@ WHERE Type = 'POLICY_PATRIOTIC_WAR';
 INSERT INTO Policy_UnitClassReplacements
 	(PolicyType, ReplacedUnitClassType, ReplacementUnitClassType)
 VALUES
-	('POLICY_PATRIOTIC_WAR', 'UNITCLASS_TANK', 'UNITCLASS_PANZER');
+	('POLICY_PATRIOTIC_WAR', 'UNITCLASS_TANK', 'UNITCLASS_T34');
 
 -- Double Agents
 UPDATE Policies
@@ -91,7 +91,7 @@ SET
 	Description = 'TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O',
 	Help = 'TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP',
 	Civilopedia = 'TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_O',
-	PovertyFlatReductionGlobal = 2,
+	PovertyFlatReduction = 2,
 	CityGrowthMod = 20,
 	BuildingGoldMaintenanceMod = -20
 WHERE Type = 'POLICY_UNIVERSAL_HEALTHCARE_O';
@@ -119,7 +119,7 @@ WHERE PolicyType = 'POLICY_ACADEMY_SCIENCES';
 
 UPDATE Policies
 SET
-	IlliteracyFlatReductionGlobal = 2,
+	IlliteracyFlatReduction = 2,
 	OneShot = 1
 WHERE Type = 'POLICY_ACADEMY_SCIENCES';
 
@@ -178,7 +178,8 @@ WHERE SpecificCivRequired = 1 OR Type IN (
 	'IMPROVEMENT_WELL',
 	-- hidden unique improvements
 	'IMPROVEMENT_POLDER_WATER',
-	'IMPROVEMENT_MONGOLIA_ORDO'
+	'IMPROVEMENT_ORDO',
+	'IMPROVEMENT_ISIBAYA'
 );
 
 -- Dictatorship of the Proletariat (now Cultural Revolution)

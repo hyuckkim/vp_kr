@@ -161,8 +161,8 @@ WHERE BuildingClass IN (
 UPDATE Buildings
 SET GoldMaintenance = 0
 WHERE BuildingClass IN (
-	'BUILDINGCLASS_GROVE',
-	'BUILDINGCLASS_STOCKYARD',
+	'BUILDINGCLASS_COUNCIL',
+	'BUILDINGCLASS_AGRIBUSINESS',
 	'BUILDINGCLASS_AMPHITHEATER',
 	'BUILDINGCLASS_GALLERY',
 	'BUILDINGCLASS_OPERA_HOUSE',
@@ -178,7 +178,7 @@ UPDATE Buildings
 SET GoldMaintenance = 0
 WHERE Type IN (
 	'BUILDING_SATRAPS_COURT',
-	'BUILDING_BASILICA'
+	'BUILDING_TETRACONCH'
 );
 
 -- Herbalist
@@ -195,10 +195,10 @@ WHERE Type IN (
 	'BUILDING_CHANCERY'
 );
 
--- Skola
+-- Barbican
 UPDATE Buildings
-SET Cost = 800, GoldMaintenance = 4
-WHERE Type = 'BUILDING_SKOLA';
+SET Cost = 450
+WHERE Type = 'BUILDING_BARBICAN';
 
 -- Museum, Military Academy
 UPDATE Buildings
@@ -254,6 +254,15 @@ WHERE BuildingClass IN (
 	'BUILDINGCLASS_TEOCALLI',
 	'BUILDINGCLASS_GURDWARA'
 );
+
+-- Wat
+UPDATE Buildings
+SET
+	Cost = -1,
+	FaithCost = 300,
+	GoldMaintenance = 0,
+	UnlockedByBelief = 0
+WHERE BuildingClass = 'BUILDINGCLASS_WAT';
 
 -- Reformation buildings
 UPDATE Buildings SET Cost = 125 WHERE IsReformation = 1;

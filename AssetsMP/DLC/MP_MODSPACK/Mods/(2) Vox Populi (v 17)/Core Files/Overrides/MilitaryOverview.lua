@@ -114,14 +114,14 @@ function UpdateScreen()
     --------------------------------------------------------
     -- Great General Progress
     local fThreshold = pPlayer:GreatGeneralThreshold();
-    local fProgress  = pPlayer:GetCombatExperience();
+    local fProgress  = pPlayer:GetCombatExperienceTimes100() / 100;
     Controls.GPMeter:SetPercent( fProgress / fThreshold );
     Controls.GPBox:LocalizeAndSetToolTip( "TXT_KEY_MO_GENERAL_TT", fProgress, fThreshold );
     
     --------------------------------------------------------
     -- Great Admiral Progress
     fThreshold = pPlayer:GreatAdmiralThreshold();
-    fProgress  = pPlayer:GetNavalCombatExperience();
+    fProgress  = pPlayer:GetNavalCombatExperienceTimes100() / 100;
     Controls.GAMeter:SetPercent( fProgress / fThreshold );
     Controls.GABox:LocalizeAndSetToolTip( "TXT_KEY_MO_ADMIRAL_TT", fProgress, fThreshold );
     
@@ -136,12 +136,12 @@ function UpdateScreen()
 	local iPerHandicap = pPlayer:GetNumUnitsSuppliedByHandicap();
 	local iUnitsOver = pPlayer:GetNumUnitsOutOfSupply();
 	local iTechReduction = pPlayer:GetTechSupplyReduction();
-	local iEmpireSizeReduction = pPlayer:GetEmpireSizeSupplyReduction();
+	local iCityCountReduction = pPlayer:GetCityCountSupplyReduction();
 	local iWarWearinessReduction = pPlayer:GetSupplyReductionFromWarWeariness();
 	local iSupplyFromGreatPeople = pPlayer:GetUnitSupplyFromExpendedGreatPeople();
 
 	-- Bonuses from unlisted sources are added to the handicap value
-	local iExtra = iUnitsSupplied - (iPerHandicap + iPerCity + iPercentPerPop + iSupplyFromGreatPeople - iTechReduction - iEmpireSizeReduction - iWarWearinessReduction);
+	local iExtra = iUnitsSupplied - (iPerHandicap + iPerCity + iPercentPerPop + iSupplyFromGreatPeople - iTechReduction - iCityCountReduction - iWarWearinessReduction);
 	iPerHandicap = iPerHandicap + iExtra;
 
 	Controls.HandicapSupplyValue:SetText(iPerHandicap);
@@ -150,7 +150,7 @@ function UpdateScreen()
 	Controls.GreatPeopleSupplyValue:SetText(iSupplyFromGreatPeople);
 	Controls.WarWearinessReductionValue:SetText(-iWarWearinessReduction);
 	Controls.TechReductionValue:SetText(-iTechReduction);
-	Controls.EmpireSizeReductionValue:SetText(-iEmpireSizeReduction);
+	Controls.CityCountReductionValue:SetText(-iCityCountReduction);
 	Controls.SupplyCapValue:SetText(iUnitsSupplied);
 	Controls.SupplyUseValue:SetText(iUnitsTotal);
 

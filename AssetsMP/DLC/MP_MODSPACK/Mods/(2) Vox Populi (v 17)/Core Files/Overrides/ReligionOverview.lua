@@ -5,6 +5,9 @@
 include( "IconSupport" );
 include( "InstanceManager" );
 
+include('CPK.lua')
+
+local AsPercentage = CPK.Misc.AsPercentage
 -------------------------------------------------
 -- Global Constants
 -------------------------------------------------
@@ -159,7 +162,7 @@ function GetReligiousStatus()
 		text = Locale.Lookup("TXT_KEY_RO_STATUS_CAN_CREATE_PANTHEON");
 	elseif(player:CanCreatePantheon(false)) then
 		local minRequiredFaith = Game.GetMinimumFaithNextPantheon();
-		local currentFaith = player:GetFaith();
+		local currentFaith = player:GetFaithTimes100() / 100;
 		local faithNeeded = minRequiredFaith - currentFaith;
 		text = Locale.Lookup("TXT_KEY_RO_STATUS_NEED_FAITH" , faithNeeded);
 	else
@@ -267,13 +270,13 @@ function RefreshYourReligion()
 
 	-- faith Display
 	local minFaithForProphet = tostring(player:GetMinimumFaithNextGreatProphet());
-	Controls.CurrentFaith:LocalizeAndSetText("TXT_KEY_RO_FAITH", player:GetFaith(), minFaithForProphet);
+	Controls.CurrentFaith:LocalizeAndSetText("TXT_KEY_RO_FAITH", player:GetFaithTimes100() / 100, minFaithForProphet);
 	Controls.CurrentFaith:LocalizeAndSetToolTip("TXT_KEY_RO_FAITH_TOOLTIP", minFaithForProphet);
 	
 	-- Update faith modifiers
 	g_FaithModifierManager:ResetInstances();
 	-- Faith from Cities
-	local iFaithFromCities = player:GetFaithPerTurnFromCities();
+	local iFaithFromCities = player:GetYieldRateFromCitiesTimes100(YieldTypes.YIELD_FAITH) / 100;
 	if (iFaithFromCities ~= 0) then
 		local entry = g_FaithModifierManager:GetInstance();
 		entry.FaithModifier:LocalizeAndSetText("TXT_KEY_TP_FAITH_FROM_CITIES", iFaithFromCities);
@@ -367,7 +370,7 @@ function RefreshYourReligion()
 				entry.BeliefType:SetText(beliefType);
 				entry.BeliefName:LocalizeAndSetText(belief.ShortDescription);
 				entry.BeliefDescription:LocalizeAndSetText(belief.Description);
-				if(belief.Tooltip ~= "") then
+				if(belief.Tooltip and belief.Tooltip ~= "") then
 					entry.BeliefDescription:LocalizeAndSetToolTip(belief.Tooltip);
 				else
 					entry.BeliefDescription:LocalizeAndSetToolTip(belief.Description);
@@ -389,7 +392,7 @@ function RefreshYourReligion()
 			entry.BeliefType:SetText(beliefType);
 			entry.BeliefName:LocalizeAndSetText(belief.ShortDescription);
 			entry.BeliefDescription:LocalizeAndSetText(belief.Description);
-			if(belief.Tooltip ~= "") then
+			if(belief.Tooltip and belief.Tooltip ~= "") then
 				entry.BeliefDescription:LocalizeAndSetToolTip(belief.Tooltip);
 			else
 				entry.BeliefDescription:LocalizeAndSetToolTip(belief.Description);
@@ -629,8 +632,27 @@ function RefreshWorldReligions()
 				iTotalCities = iTotalCities+1;
 				iOwnedFollowers = iOwnedFollowers + pCity:GetNumFollowers(v.ReligionID);
 			end
-			entry.NumberOfCities:SetToolTipString(Locale.ConvertTextKey("TXT_KEY_RO_WR_OWNED_CITIES", DisplayPercentage(v.NumCities,Game.GetNumCities()), v.Name, iOwnedCities, v.Name, DisplayPercentage(iOwnedCities,iTotalCities), DisplayPercentage(iOwnedCities,v.NumCities), v.Name)); --It is ok if they don't add up to 100%! We want to round down basically!
-			entry.NumberOfFollowers:SetToolTipString(Locale.ConvertTextKey("TXT_KEY_RO_WR_OWNED_FOLLOWERS", DisplayPercentage(v.NumFollowers,Game.GetTotalPopulation()), v.Name, iOwnedFollowers, v.Name, DisplayPercentage(iOwnedFollowers,activePlayer:GetTotalPopulation()), DisplayPercentage(iOwnedFollowers,v.NumFollowers), v.Name)); --It is ok if they don't add up to 100%! We want to round down basically!
+			entry.NumberOfCities:SetToolTipString(Locale.ConvertTextKey(
+				"TXT_KEY_RO_WR_OWNED_CITIES", 
+				AsPercentage(v.NumCities / Game.GetNumCities()),
+				v.Name,
+				iOwnedCities,
+				v.Name,
+				AsPercentage(iOwnedCities / iTotalCities),
+				AsPercentage(iOwnedCities / v.NumCities),
+				v.Name
+			)); --It is ok if they don't add up to 100%! We want to round down basically!
+			entry.NumberOfFollowers:SetToolTipString(
+				Locale.ConvertTextKey(
+					"TXT_KEY_RO_WR_OWNED_FOLLOWERS",
+					AsPercentage(v.NumFollowers / Game.GetTotalPopulation()),
+					v.Name,
+					iOwnedFollowers,
+					v.Name,
+					AsPercentage(iOwnedFollowers / activePlayer:GetTotalPopulation()),
+					AsPercentage(iOwnedFollowers / v.NumFollowers),
+					v.Name
+				)); --It is ok if they don't add up to 100%! We want to round down basically!
 			-- Infixo: Religion Spread
 			IconHookup(v.ReligionIconIndex, 48, v.ReligionIconAtlas, entry.WorldReligionIcon);
 			CivIconHookup(v.FounderID, 45, entry.FounderIcon, entry.FounderIconBG, entry.FounderIconShadow, true, true );
@@ -677,7 +699,7 @@ function RefreshBeliefs()
 				Name = Locale.Lookup(belief.ShortDescription),
 				Description = Locale.Lookup(belief.Description),
 				Type = GetBeliefType(belief),
-				Tooltip = Locale.Lookup(belief.Tooltip),
+				Tooltip = belief.Tooltip and Locale.Lookup(belief.Tooltip) or Locale.Lookup(belief.Description),
 				Religion = Locale.Lookup(Game.GetReligionName(eReligion)),
 				ReligionIconIndex = religion.PortraitIndex,
 				ReligionIconAtlas = religion.IconAtlas
@@ -707,7 +729,7 @@ function RefreshBeliefs()
 					Name = Locale.Lookup(belief.ShortDescription),
 					Description = Locale.Lookup(belief.Description),
 					Type = GetBeliefType(belief),
-					Tooltip = Locale.Lookup(belief.Tooltip),
+					Tooltip = belief.Tooltip and Locale.Lookup(belief.Tooltip) or Locale.Lookup(belief.Description),
 					Religion = religion,
 					ReligionIconIndex = pantheon.PortraitIndex,
 					ReligionIconAtlas = pantheon.IconAtlas
@@ -727,7 +749,7 @@ function RefreshBeliefs()
 			beliefEntry.BeliefName:SetText(v.Name);
 			beliefEntry.BeliefType:SetText(v.Type);
 			beliefEntry.BeliefDescription:SetText(v.Description);
-			if(v.Tooltip ~= "") then
+			if(v.Tooltip and v.Tooltip ~= "") then
 				beliefEntry.BeliefDescription:SetToolTipString(v.Tooltip);
 			else
 				beliefEntry.BeliefDescription:SetToolTipString(v.Description);
@@ -1006,14 +1028,6 @@ function WorldReligionSortOptionSelected(option)
 	g_WorldReligionSortFunction = GetSortFunction(sortOptions);
 	
 	RefreshWorldReligions();
-end
-
-function DisplayPercentage(firstnumber, secondnumber)
-	if math.floor(firstnumber/secondnumber*1000)/10 % 1 == 0 then
-		return math.floor(firstnumber/secondnumber*100)
-	else
-		return math.floor(firstnumber/secondnumber*1000)/10
-	end
 end
 
 -------------------------------------------------------------------------------
