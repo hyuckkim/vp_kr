@@ -26,7 +26,7 @@
 			<Text>신의 호의다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_2_HELP">
-			<Text>{4_Turns} 동안 모든 도시의 [ICON_HAPPINESS_1]행복 +1.</Text>
+			<Text>{4_Turns} 동안 모든 도시의 [ICON_HAPPINESS_1] 행복 +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3">
 			<Text>이것이 긍정적인 신호인지 알아보기 위해 사제들에게 점을 쳐 보도록 할 것이다.</Text>
@@ -38,13 +38,13 @@
 			<Text>점복술 성공!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL">
-			<Text>사제들이 점을 치는 데 성공하여 문명의 [ICON_PEACE]신앙이 증가합니다.</Text>
+			<Text>사제들이 점을 치는 데 성공하여 문명의 [ICON_PEACE] 신앙이 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4">
 			<Text>우리 관측가들이 많은 것을 배울 것이다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4_HELP">
-			<Text>[ICON_RESEARCH]과학 +500.</Text>
+			<Text>[ICON_RESEARCH] 과학 +500.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_DESCRIPTION">
@@ -57,10 +57,10 @@
 			<Text>부숴서 대장간에 보내라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_HELP">
-			<Text>50% 확률로 [ICON_RES_IRON]철 2개.</Text>
+			<Text>50% 확률로 [ICON_RES_IRON] 철 2개.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL_S">
-			<Text>운석에서 [ICON_RES_IRON]철 추출!</Text>
+			<Text>운석에서 [ICON_RES_IRON] 철 추출!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL">
 			<Text>당신의 대장장이들이 운석으로부터 큰 철 덩어리를 얻을 수 있었습니다. 이 물질로부터 섬세한 검과 창을 만들 수 있습니다.</Text>
