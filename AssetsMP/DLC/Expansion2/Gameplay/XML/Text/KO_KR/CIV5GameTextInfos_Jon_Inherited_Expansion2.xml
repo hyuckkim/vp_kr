@@ -784,13 +784,13 @@
             <Text>정략 결혼</Text>
         </Row>
         <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_ALLY_TT">
-            <Text>[ICON_GOLD]골드 {1_BuyoutCost}{1: plural 1?을; 2?를;} 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 대회 투표수는 더 이상 적용되지 않습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 도시 국가를 얻으려면 {1_NumTurns}턴동안 동맹이어야 하며(현재 {2_TurnsAllied}턴동안 동맹) [ICON_GOLD]골드가 {3_BuyoutCost}만큼 있어야 합니다.[ENDCOLOR]</Text>
+            <Text>[ICON_GOLD]골드 {1_BuyoutCost}{1: plural 1?을; 2?를;} 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 의회 투표수는 더 이상 적용되지 않습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 도시 국가를 얻으려면 {1_NumTurns}턴동안 동맹이어야 하며(현재 {2_TurnsAllied}턴동안 동맹) [ICON_GOLD]골드가 {3_BuyoutCost}만큼 있어야 합니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_TT">
-            <Text>[ICON_GOLD]골드 {1_BuyoutCost}{1: plural 1?을; 2?를;} 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 대회 투표 수는 더 이상 적용되지 않습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 도시 국가를 얻으려면 {1_NumTurns}턴 동안 동맹이어야 하며 [ICON_GOLD]골드가 {2_BuyoutCost}만큼 있어야 합니다.[ENDCOLOR]</Text>
+            <Text>[ICON_GOLD]골드 {1_BuyoutCost}{1: plural 1?을; 2?를;} 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 의회 투표 수는 더 이상 적용되지 않습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 도시 국가를 얻으려면 {1_NumTurns}턴 동안 동맹이어야 하며 [ICON_GOLD]골드가 {2_BuyoutCost}만큼 있어야 합니다.[ENDCOLOR]</Text>
         </Row>
         <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_TT">
-            <Text>[ICON_GOLD]골드 {1_BuyoutCost}을 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 대회 투표 수는 더 이상 적용되지 않습니다.</Text>
+            <Text>[ICON_GOLD]골드 {1_BuyoutCost}을 지불하면 정략 결혼을 통해 이 도시 국가와 이 도시 국가의 모든 유닛을 흡수할 수 있습니다. 이렇게 하면 다른 문명이나 도시 국가와의 외교 관계가 악화되지 않으며 해당 도시 국가에서 불행이 발생하지도 않지만, 해당 도시 국가와의 영향력이 높아 받는 보너스와 세계 의회 투표 수는 더 이상 적용되지 않습니다.</Text>
         </Row>
         <Row Tag="TXT_KEY_POP_CSTATE_FIND_ON_MAP">
             <Text>지도에서 찾기</Text>

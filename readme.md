@@ -1,14 +1,23 @@
 # vp_kr
+<img width="330" height="330" alt="vpkr" src="https://github.com/user-attachments/assets/ca4d0258-b27a-49e9-b3b2-f4b585ffac79" />
 
-**환영합니다!**
+**환영합니다!**  
 
 여기는 문명 5의 모드인 **VP(Vox Populi)의 한국어 모드** 깃허브 저장소입니다.
+
+## vp_kr 저장소의 역사
+
+가장 오래된 기록에 따르면, 이 프로젝트는 2020년 10월 12일 생성된 [jiin1017님의 VP_Kr](https://github.com/jiin1017/VP_Kr) 이 시초로 [rhprhp-204님에 의해 vp_kr](https://github.com/rhprhp-204/vp_kr) 로 개명되고, 이를 [hyuckkim님이 포크](https://github.com/hyuckkim/vp_kr) 해 예니체리없는오스만, 첼콩가루, racraky 세 분과 함께해 오늘날의 vp_kr이 되었습니다.
+
+현재 문명 5가 고전이 되어 잊혀지고, 프로젝트를 함께하던 사람도 늘고 줄기를 반복했고, 그렇게 마지막으로 남은 hyuckkim님에 의해 관리되다 군입대를 하시면서 2024년 7월 2일, 번역 일시 중단을 공식 발표했습니다. 그래도 2024년 10월 29일, VP 4.15.2 버전까지는 번역을 맡아주셨고, 누락된 부분과 제보를 받아 고치며 12월 12일까지는 계속되었습니다.
+
+2025년 2월 15일, 오랜만에 hyuckkim님이 깃허브의 자동 설치 프로그램 제작을 고쳤으며 8일 후인 23일, HANDANI님이 VP 4.19.1에 4.15.2 한국어 모드를 합친 모드팩을 시작으로 4.19.1 버전으로 마이그레이션을 했으며, 지속적인 수정을 거쳐 현재 버전으로 이어집니다.
 
 ## Vox Populi가 뭔가요?
 
 ![image](https://github.com/user-attachments/assets/da5db707-67b1-410c-9d00-02d408b056be)
 
-[Vox Populi](https://forums.civfanatics.com/forums/community-patch-project.497/)는 문명 5의 유명 Overhaul 모드로 2014년도에 Community Patch Project라는 이름으로 시작해 2016년 5월 14일부터 Vox Populi(라틴어로 인민의 목소리), 줄여섯 VP라고 불리게 되었습니다.
+[Vox Populi](https://forums.civfanatics.com/forums/community-patch-project.497/) 는 문명 5의 유명 Overhaul 모드로 2014년도에 Community Patch Project라는 이름으로 시작해 2016년 5월 14일부터 Vox Populi(라틴어로 인민의 목소리), 줄여섯 VP라고 불리게 되었습니다.
 
 10년이 넘는 세월동안 여전히 개발을 멈추지 않고 발전하고 있는 모드로 사실상 사후관리가 끝난 문명 5를 대신하는 비공식 확장팩에 준하는 수준의 인기를 받아왔습니다.
 
@@ -30,38 +39,13 @@ Overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 기본 경로에 문명 5가 설치되어 있지 않다면, 마지막으로 문명 5가 설치된 곳을 선택해달라는 말이 한 번 나오니 어디에 설치하셨는지 그 경로를 찾아주시면 됩니다.
 
-
-
 ## 설치법
 
 ### 공식 배포 [[바로가기]](https://github.com/handanikr/vp_kr/releases)
 
 ### 나이틀리 버전 자동 배포 [[모드]](https://nightly.link/handanikr/vp_kr/workflows/inno-build/beta/Vox%20Populi%20INT.zip) [[모드팩]](https://nightly.link/handanikr/vp_kr/workflows/inno-mpbuild/beta/VP%20INT%20Modpack.zip)
 
-VP와 마찬가지로 [Inno Script Studio](https://www.kymoto.org/products/inno-script-studio)로 만들어진 설치 프로그램으로 모드를 자동으로 설치할 수 있습니다. 다만, 설치 프로그램을 꺼리시는 분이나 수동으로 모드를 사용하기를 원하시는 분은 직접 압축파일로 받으실 수 있습니다.
-
-
-
-**모드팩(압축 파일) 설치 방법**
-
-![image](https://github.com/user-attachments/assets/8b039c13-5f11-442c-b831-4ab7c92e373a)
-
-다운 받은 VP4UCK_날짜.zip 압축 파일을 **문명이 설치된 경로의 Assets 폴더가 자리 잡고 있는 문명 5 폴더**에다 넣어서 압축을 풀면 됩니다. 쉬운 방법으로는 스팀에서 위의 사진처럼 들어가면 됩니다. 그게 아니면 기본 경로로 직접 찾아가도 되는데 따로 다른 곳에 설치하지 않았다면 기본 경로는 아래와 같습니다.
-
-C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
-
-만일 **투표할 때 문명 색상이 나오는 것을 원치 않는 경우**, VP4UCK_날짜.zip 압축을 푼 폴더에서 **Assets_vote에 있는 파일들을 Assets 폴더에** 넣어주세요. 그런 다음 위의 설명대로 Assets 폴더를 문명 5 폴더에 넣어주면 됩니다. 이게 필요 없으신 분은 그냥 Assets_vote를 삭제해주시면 됩니다.
-
-
-
-![image](https://github.com/user-attachments/assets/e25912a6-be82-4b52-bf34-2771b33e1f6a)
-
-제대로 했다면 대충 이런 모양새가 됩니다. 다른 건 둘째치고 DLC 폴더에 **MP_MODSPACK** 폴더와 **UI_bc1** 폴더, **VPUI** 폴더가 저 자리에 있어야 됩니다.  
-
-이제 문명 5를 실행해서 싱글이나 멀티를 즐기면 됩니다. 게임에서 모드 메뉴를 누를 필요 없이 그냥 문명 하듯이 싱글과 멀티를 하시면 됩니다. 반대로 삭제를 하실 때도 저 3개의 폴더를 삭제하시면 깔끔하게 지울 수 있습니다.
-
-
-
+VP와 마찬가지로 [Inno Setup](https://jrsoftware.org/isinfo.php)으로 만들어진 설치 프로그램으로 모드를 자동으로 설치할 수 있습니다.
 
 ## 저장소에 올라와 있는 파일들은 다음과 같습니다 :
 
@@ -112,9 +96,10 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
     VP 모드를 실시간 전략 게임처럼 드래그해 CTRL + 숫자키 조합으로 분대 번호를 지정해 추가하고 오른쪽 클릭으로 분대를 이동시키거나 분대 관리로 분대 전체를 관리할 수 있도록 만들어주는 모드입니다. 
     
     이 폴더는 VP용 분대 모드를 한국어로 번역한 모드입니다.
-  - **(overL) More Unique Components for VP (v 88) INT**
+	**(overL) More Unique Components for VP (v 89)**
+  - **(overL) More Unique Components for VP (v 89) INT**
     
-    고유 구성요소(Unique Components)는 단일 문명에만 존재하는 건물, 유닛, 타일 시설을 말합니다. 4UC, 혹은 34UC(3rd and 4th Unique Components)라고도 불리는 이 모드는 기본 43개 문명의 고유 구성요소 숫자를 2개에서 4개로 늘려줍니다. 새로운 구성요소를 VP와 원활하게 통합하고 게임의 밸런스를 조정하기 위해 문명의 일부 기본 구성요소도 수정되었습니다. 또한, AI가 새로운 도구에 적응할 수 있도록 여러 AI 유형이 조정되었습니다.
+    고유 구성요소(Unique Components)는 단일 문명에만 존재하는 건물, 유닛, 타일 시설을 말합니다. 4UC, 혹은 34UC(3rd and 4th Unique Components)라고도 불리는 이 모드는 기본 43개 문명의 고유 구성요소 숫자를 2개에서 4개로 늘려줍니다. 새로운 구성요소를 VP와 원활하게 통합하고 게임의 밸런스를 조정하기 위해 문명의 일부 기본 구성요소도 수정되었습니다. 또한, AI가 새로운 도구에 적응할 수 있도록 여러 AI 유형이 조정되었습니다. 조만간 VP 5.0 버전에 추가될 예정입니다.
     
     이 폴더는 본래 CAYM님이 계몽 모드를 위해 번역했던 모드였으나, 이를 온전히 VP에만 맞춰서 수정한 한국어 번역 모드입니다.
 - **Firaxis ModBuddy**
@@ -127,27 +112,11 @@ C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization V
   기본 경로는 `C:\Users\<사용자 계정명>\Documents\My Games\Sid Meier's Civilization 5\Text` 입니다.
 - **vp_kr installer file**
   
-  설치 프로그램인 .exe 파일을 만들기 위한 Inno Script Studio용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
-- 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/hyuckkim/vp_modmods_kr)로 옮겨졌으며 사실상 아카이빙용이라 매우 구버전으로 더 이상 정상 작동을 보장하지 않습니다. 
+  설치 프로그램인 .exe 파일을 만들기 위한 Inno Setup용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
+- 기존의 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/handanikr/vp_modmods_kr) 로 옮겨졌으며 이전엔 VP용 모드의 아카이빙 역할을 했으나 지금은 VP용 한국어 모드들의 깃허브가 되었습니다. 
 
 
 
 ## 함께 쓰면 좋은 모드
 
-- [Bare Necessities](https://forums.civfanatics.com/threads/bare-necessities.645157/)
-  
-  Barebone Additions이라고도 불리며 VP에 없는 필수품(신앙 건물)을 많이 추가해줍니다.
-
-- [Better Lakes for VP](https://forums.civfanatics.com/threads/better-lakes-for-vp.662230/)
-  
-  VP나 문명 5에서 제대로 활용하지 않는 호수를 소금 호수와 일반 호수로 나누어서 새로운 자원과 건물을 추가해 개선하는 모드입니다. 
-
-## vp_kr 저장소의 역사
-
-가장 오래된 기록에 따르면, 이 프로젝트는 2020년 10월 12일 생성된 [jiin1017님의 VP_Kr](https://github.com/jiin1017/VP_Kr)이 시초로 [rhprhp-204님에 의해 vp_kr](https://github.com/rhprhp-204/vp_kr)로 개명되고, 이를 [hyuckkim님이 포크](https://github.com/hyuckkim/vp_kr)해 예니체리없는오스만, 첼콩가루, racraky 세 분과 함께해 오늘날의 vp_kr이 되었습니다.
-
-현재 문명 5가 고전이 되어 잊혀지고, 프로젝트를 함께하던 사람도 늘고 줄기를 반복했고, 그렇게 마지막으로 남은 hyuckkim님에 의해 관리되다 군입대를 하시면서 2024년 7월 2일, 번역 일시 중단을 공식 발표했습니다.
-
-그래도 2024년 10월 29일, VP 4.15.2 버전까지는 번역을 맡아주셨고, 누락된 부분과 제보를 받아 고치며 12월 12일까지는 계속되었습니다.
-
-2025년 2월 15일, 오랜만에 hyuckkim님이 깃허브의 자동 설치 프로그램 제작을 고쳤으며 8일 후인 23일, HANDANI님이 VP 4.19.1에 4.15.2 한국어 모드를 합친 모드팩을 시작으로 4.19.1 버전으로 마이그레이션을 했으며, 지속적인 수정을 거쳐 현재 버전으로 이어집니다.
+[다른 깃허브 저장소](https://github.com/handanikr/vp_modmods_kr)를 참조해주세요.

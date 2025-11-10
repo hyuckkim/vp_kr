@@ -2058,7 +2058,7 @@
             <Text>고대 유적을 발견함</Text>
         </Row>
         <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_NATURAL_WONDER">
-            <Text>자연 불가사의를 발견함</Text>
+            <Text>자연경관을 발견함</Text>
         </Row>
         <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_RESOURCE">
             <Text>[COLOR_POSITIVE_TEXT]{1_ResourceName:textkey}[ENDCOLOR]{1: plural 1?을; 2?를;} 발견함</Text>

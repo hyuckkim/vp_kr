@@ -102,20 +102,20 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS">
-			<Text>투 케이 식품 주식회사</Text>
+			<Text>투케이 푸드 주식회사</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS_HELP">
 			<Text>[ICON_FOOD]식량 생산과 도시 성장에 초점을 맞춘 혜택을 제공합니다. [NEWLINE][ICON_BULLET]추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 1개 제공합니다. [NEWLINE][ICON_BULLET]교역로가 전장의 안개를 드러냅니다.[NEWLINE][ICON_BULLET]모든 {TXT_KEY_BUILDING_GROCER}, {TXT_KEY_BUILDING_HOSPITAL}, {TXT_KEY_BUILDING_STOCKYARD}의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [NEWLINE][ICON_BULLET]다른 문명의 도시에 설립한 [ICON_VP_FRANCHISE]프랜차이즈 1개마다 상대 문명에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_TWOKAY_FOODS">
-			<Text>투 케이 식품 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_WINE] 와인, [ICON_RES_TRUFFLES] 송로버섯, [ICON_RES_CITRUS] 감귤의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
+			<Text>투케이 푸드 프랜차이즈를 설립한 도시 주변 모든 [ICON_RES_WINE] 와인, [ICON_RES_TRUFFLES] 송로버섯, [ICON_RES_CITRUS] 감귤의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_TWOKAY_FOODS">
 			<Text>모든 글로벌 프랜차이즈 1개마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시의 전역 요구 [ICON_HAPPINESS_3]불행 수치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS">
-			<Text>투 케이 식품 오피스를 건설한 도시에서 투 케이 식품 프랜차이즈를 설립한 도시로 향하는 교역로마다 이 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>투케이 푸드 오피스를 건설한 도시에서 투케이 푸드 프랜차이즈를 설립한 도시로 향하는 교역로마다 이 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS_OFFICE_BENEFIT_HELP">
 			<Text>현재 오피스 보너스: {1_String}</Text>
@@ -135,7 +135,7 @@
 			<Text>[ICON_GOLDEN_AGE]황금기의 길이가 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR] 증가하고 도시의 위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. 모든 글로벌 프랜차이즈 1개마다 위인 출현율이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS">
-			<Text>시빌 보석 오피스를 건설한 도시에서 시빌 보석 프랜차이즈를 설립한 도시로 향하는 교역로마다 이 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
+			<Text>시빌 보선 오피스를 건설한 도시에서 시빌 보석 프랜차이즈를 설립한 도시로 향하는 교역로마다 이 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS_OFFICE_BENEFIT_HELP">
 			<Text>현재 오피스 보너스: {1_String}</Text>

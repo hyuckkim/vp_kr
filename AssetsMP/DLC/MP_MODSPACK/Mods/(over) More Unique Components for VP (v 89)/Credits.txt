@@ -1,0 +1,246 @@
+-- Credits
+-- Author: adan_eslavo
+-- DateCreated: 20/10/2017
+--------------------------------------------------------------
+Special thanks to:
+  - Hinin - ideas and early developement of 3rd and 4th Unique Component mod. Mod support, spreadsheets and summarizing, Playtesting, bug reports,
+  - adan_eslavo - main part of coding, puttings things together, main post developement, ideas, bug fixes, art, advices, some part of early testing, game texts, project collaborator and many more,
+  - pineappledan - ideas, research, sql programming, art and game texts. Mod support, spreadsheets and summarizing. Too many forum posts than is healthy, project collaborator, 
+  - Blue Ghost - main page developement, coding, bug fixes, merging, game texts, ideas and help with coding other people's parts, project collaborator,
+  - Infixo - dll coding, ideas and bug reports, lua code, Github help, coding suggestions, VP cooperation and implementations, project collaborator,
+  - FoxOfWar - Playtesting, quality assurance and ideas,
+  - Jarula - Ideas and playtesting ,
+  - De_Genius - 2 civs coded, art and ideas,
+  - FieryCharizard7 - 1 civ coded, ideas,
+  - Enginseers - 1 civ coded, some other borrowed parts of code, ideas and help with coding,
+  - doublex55 - ideas and bug reports,
+  - BazaarJack - early civ design, ideas and bug reports,
+  - phantomaxl1207 - early mod design, ideas and bug reports,
+  - LukaSlovenia29 - ideas and bug reports,
+  - Hokath - art, ideas, SQL coding and bug reports,
+  - ThirstQuencher - ideas and bug reports,
+  - IcyAngel - ideas and bug reports,
+  - Ziad - ideas and bug reports,
+  - Chandler - ideas and bug reports,
+  - CrazyG - ideas and bug reports,
+  - Gazebo - patience during answering on many questions, author of VP,
+  - Asterix Rage - 100+ promotion icons for each of the promotions we created for this mod
+and I should thank myself but at least I can put what I managed to give to this mod:
+  
+If we forgot to mention someone please give us a call.
+
+Things borrowed from other mods:
+	America:
+		- mikeburnfire - idea and picture of Homestead UB (American Ranch).
+
+	Arabia:
+		- Zantonius Hamm - idea of Hashemite Raider UU (Maara Weyn),
+		- OrderOfOlav - picture of Hashemite Raider,
+		- Civitar - 3D model of Hashemite Raider.
+		- TarcisioCM - Idea and icon for Bimaristan
+
+	Assyria:
+		- KevinJK - idea and picture of Lamassu Gate UB.
+
+	Austria:
+		- JFD - idea of Landwehr UU,
+		- janboruta - picture and flag of Landwehr,
+		- bernie14 - 3D model of Landwehr.
+
+	Aztec:
+		- mikeburnfire - idea, picture and 3D model of Eagle UU,
+		- Colonialist Legacies - flag of Eagle (Ogichida).
+
+	Babylon:
+		- JFD - idea of Kibitum UU (Kibitium),
+		- janboruta - picture and flag of Kibitum,
+		- danrell - 3D model of Kibitum,
+		- Sukritact - idea and picture of Etemenaki UW,
+		- Salamandre - icon of Legacy promotion.
+
+	Brazil:
+		- mikeburnfire - idea and picture of Sambadrome UB.
+		- Janboruta - Amazonas icon and unit flag
+		- Wolfdog - Amazonas unit model
+
+	Byzantine Empire:
+		- LastSword - idea, picture and flag of Penteconter UU,
+		- Barathor - 3D model of Penteconter,
+		- JFD - idea of Hippodrome UB,
+		- janboruta - picture of Hippodrome.
+	
+	Carthage:
+		- JFD - idea and code of Shophet UU,
+		- janboruta - picture and flag of Shophet and Bireme
+		- danrell - 3D model of Shophet.
+		- Leugi - Bireme unit model
+	
+	Celts:
+		- mikeburnfire - idea, picture of Scythed Chariot UU (Carpentom),
+		- TarcismoCM - idea of Oppidum UI, civilopedia entry,
+		- Leugi - icons and 3D model of Oppidum,
+		- Salamandre - icon of Scythe promotion.
+
+	China:
+		- mikeburnfire - idea, picture and flag of Xiafan Guanjun UU (War Junk),
+		- wolfdog - 3D model of Xiafan Guanjun.
+		- DarthStarKiller - unit icon
+		
+	Denmark:
+		- janboruta - picture and flag of Langskib UU (Longboat).
+
+	Egypt:
+		- Sukritact - Mamluk icon
+		- Leugi - Mamluk unit flag, and unit skin
+		- mikeburnfire - idea and 3D model of Flax UR (UI).
+
+	England:
+		- Gazebo - idea of Steam Mill UB,
+		- Wodhann - picture of Steam Mill.
+
+	Ethiopia:
+		- Danmacsch - idea of Chewa UU, idea of Monolitic Church UI, picture of Chewa,
+		- DJSHenninger - icons and 3D model of Monolithic Church.
+
+	France:
+		- JFD - idea of SPAD S.VIII UU,
+		- janboruta - picture of SPAD S.VIII,
+		- danrell - 3D Model of SPAD S.VIII,
+		- Sukritact - Salon icon
+
+	Germany 
+		- janboruta - picture and flag of Krupp Gun,
+		- Bernie14 - 3D model of Krupp Gun.
+
+	Greece:
+		- Alan H - picture of Agora UB.
+		- 3D model of Ottoman Rifleman by Bernie14
+
+	Huns:
+		- JFD - idea of Tarkhan UU (Alan Cavalry)
+		- janboruta - picture and flag of Tarkhan,
+		- danrell - 3D model of Tarkhan,
+		- Wodhann - Picture of Alti Cur UB (Yurt).
+		  
+	Inca:
+		- Leugi - idea, picture and flag of Chasqui UU and Coca UR,
+		- JTitan - 3D model of Chasqui,
+		
+	India:
+		- Danmacsch - picture and 3D model of Dhanuraashi UU (Agaw Archer),
+
+	Indonesia:
+		- mikeburnfire - idea and icon of Djong,
+		- wolfdog - 3D model of Djong
+		- TPangolin - idea of Kampung UI,
+		- Knightmare - icons of Kampung,
+		- Civitar - 3D model of Kampung.
+
+	Iroquois:
+		- mikeburnfire - idea and picture of the Prowler UU (Rusher),
+		- Patum333 - 3D model of Prowler.
+
+	Japan:
+		- JFD - idea of Yamato UU,
+		- janboruta - picture and flag of Yamato,
+		- danrell - 3D model of Yamato,
+		- Teddyk - picture of Kabuki Theater UB.
+		  
+	Korea:
+		- Chrisy15 - idea of Chaebol UB,
+		- DarthStarKiller/DarthKyofu - picture of Chaebol.
+		  
+	Morocco:
+	    - TarcisioCM - idea of Corsair UU (Ammiratus),
+		- janboruta - picture and flag of Corsair,
+		- danrell - 3D model of Corsair,
+		- KevinJK - idea and picture of Riad UB.
+
+	Maya:
+		- mikeburnfire - idea and picture of Holkan UU (Obsidian Warrior), idea and picture of Pitz (Ballcourt),
+		- danrell - 3D model of Holkan,
+		- Salamandre - icon of Renewal Cycle promotion.
+	
+	Mongolia:
+		- TarcisioCM - idea, picture of Tug Banner Warrior UU (Ilduchi),
+		- danrell - 3D model for Tug Banner Warrior,
+		- lincoln-lyf - picture of Yassa Court UB (from Superpowers mod).
+
+	Netherlands:
+		- JFD and LastSword - idea of Goedendag UU,
+		- janboruta - picture of Goedendag,
+		- danrell - 3D model of Goedendag,
+		- LastSword - flag of Goedendag,
+		- mikeburnfire - idea of Waag UU,
+		- wodhann - picture of Waag,
+		
+	Ottomans:
+		- JFD - idea of Great Turkish Bombard UU,
+		- janboruta - picture of Great Turkish Bombard,
+		- Leugi - 3D model of Great Turkish Bombard,
+		- Sukritact - picture of Tersane UB (Minaa').
+
+	Persia:
+		- Light in the East - idea of Qizilbash UU,
+		- janboruta - picture and flag of Qizilbash,
+		- Wolfdog - 3D model of Qizilbash,
+		- Salamandre - icon of Safavi Agitator promotion.
+		- LastSword - idea and picture of Pairidaeza UB (Charbagh Garden).
+
+	Poland:
+		- LastSword - idea, picture and 3d model of Pancerny UU, part of civilopedia entry,
+		- mikeburnfire - idea and picture of Barbican UB, part of civilopedia entry,
+		- Salamandre - icon of Bogurodzica promotion.
+  
+	Polynesia:
+		- Pouakai - idea of Koa UU,
+		- janboruta - picture of Koa,
+		- Hangman - 3D Model of Koa,
+		- Senshidenshi - idea of Fale Tel'e UB,
+		- TPangolin - idea and picture of Fale Tel'e,
+		- Salamandre - icon of Kapu Ku'ialua promotion.
+  
+	Portugal:
+	   	- janboruta - Icon and unit flag for Cacador 
+
+	Rome:
+		- Hypereon, Uighur_Ceasar - idea of Latifundium UI,
+		- DJSHenniger - 3D model of Latifundium,
+		- Hypereon, Darth-StarKiller - picture of Latifundium.
+	
+	Russia:
+		- JFD - idea of Licorne UU, idea of Pogost UB, civilopedia entries,
+		- janboruta - picture of Licorne, pictures of Pogost Stage 1 (Pogost), Stage 2 (Guberniya's Office) and Stage 3 (Sobor),
+		- Wolfdog - 3D model of Licorne.
+
+	Shoshone:
+		- Sukritact - Picture Yellow Brow UU (Black Mouth),
+		- Unit model by Patum333
+		- TPangolin - idea and picture of Buffalo Pound UB.
+
+	Siam:
+		- snafusmith - 3D model of Seir Morb UU (155 mm gun).
+		- Salamandre - icon of Croaching Tiger promotion.
+
+	Songhai:
+		- Tomatekh - idea, picture and flag of Sofa UU,
+		- JTitan - 3D model of Sofa,
+		- DJS Henninger, RyanJames - idea and picture of Qadi (Naaba Court)
+		
+	Spain:
+		- lincoln-lyf - idea and picture of Armada UU,
+		- TPangolin - idea of Hacienda UI,
+		- Leugi - icons and 3D model of Hacienda.
+
+	Sweden:
+		- JFD - idea of Bastu UB (Banya),
+		- janboruta - picture of Bastu.
+		  
+	Venice:
+		- JFD - idea of Fusta UU (Lanternas),
+		- janboruta - picture, flag and 3d model of Fusta,
+		- KevinJK - idea and picture of Laguna UB (Breakwater).
+
+	Zulu:
+		- mikeburnfire - idea, picture, and flag of InDuna.
+		- Leugi - Kraal model and icon 

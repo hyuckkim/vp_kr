@@ -121,7 +121,7 @@
 			<Text>쓰허위안</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN_TEXT">
-			<Text>{TXT_KEY_IMPROVEMENT_SIHEYUAN_HELP}[NEWLINE][NEWLINE]위풍당당한 쓰허위안은 고대로 거슬러 올라가는 중국 건축의 기둥입니다. 이 양식은 종종 중국의 사각형으로 불리며, 상대적으로 주거지와 수도원에서 가장 웅장한 궁궐까지 사용됩니다. 베이징의 자금성은 거대한 쓰허위안으로 디자인되었습니다. 모든 스허위안은 동쪽과 서쪽 축을 따라 위치해 있으며, 주요 입구는 남쪽을 향하고 있습니다. 이 계획의 보편성은 순차적인 시허위안을 긴 줄로 배열할 수 있게 하여 중국의 많은 대도시에 광범위한 교외를 만듭니다. 사허위안 사이의 좁은 골목길은 중국 북부에서 후통으로 알려져 있으며, 중동 바자르처럼 긴 시장 거리를 형성합니다. 최근 도시 계획과 건설의 변화로 인해 많은 역사적인 지역들이 철거되었지만, 일부 지역을 중국 문화적 정체성의 귀중한 부분으로 보존하려는 협력적인 노력이 있었습니다.</Text>
+			<Text>{TXT_KEY_IMPROVEMENT_SIHEYUAN_HELP}[NEWLINE][NEWLINE]위풍당당한 쓰허위안(사합원)은 고대로 거슬러 올라가는 중국 건축의 기둥입니다. 이 양식은 종종 중국의 사각형으로 불리며, 상대적으로 넓은 주거지와 수도원에서 부터 가장 웅장한 궁궐까지 사용됩니다. 베이징의 자금성은 거대한 쓰허위안으로 디자인되었습니다. 모든 스허위안은 동서축을 따라 위치해 있으며, 정문은 남쪽을 향하고 있습니다. 이 계획의 보편성은 순차적인 쓰허위안을 긴 줄로 배열할 수 있게 하여 중국의 많은 대도시에 광범위한 교외를 만듭니다. 쓰허위안 사이의 좁은 골목길은 중국 북부에서 후통으로 알려져 있으며, 중동 바자르처럼 긴 시장 거리를 형성합니다. 최근 도시 계획과 건설의 변화로 인해 많은 역사적인 지역들이 철거되었지만, 일부 지역을 중국 문화적 정체성의 귀중한 부분으로 보존하려는 협력적인 노력이 있었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_SIHEYUAN_HELP">
 			<Text>도시 또는 다른 두 쓰허위안에 인접한 평지에 지을 수 있습니다. [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학을 제공합니다. 도시가 황후 경축일을 겪는 동안 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학이 추가로 1 증가합니다.</Text>
@@ -133,7 +133,7 @@
 			<Text>[ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 1 증가합니다. 황후 경축일 동안 더 많은 산출을 제공합니다. 도시 또는 두 쓰허위안에 인접해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_SIHEYUAN_REC">
-			<Text>현재 타일의 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 황후 경축일 동안 더 많은 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화를 제공합니다.</Text>
+			<Text>현재 타일의 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화가 증가합니다. 건설 시 모든 타일의 특징을 제거합니다. 황후 경축일 동안 더 많은 [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화를 제공합니다.</Text>
 		</Row>
 
 		<!-- Denmark -->
@@ -200,7 +200,7 @@
 			<Text>담수와 인접하지 않은 평지에만 건설할 수 있습니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 훈 영토 [COLOR_POSITIVE_TEXT]내부 또는 영토에 인접한 타일[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]중립 영토에 건설하면 즉시 훈 제국이 그 타일을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_EKI_REC">
-			<Text>현재 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량을 증가시킵니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 건설 시 모든 타일의 특성을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
+			<Text>현재 타일의 [ICON_PRODUCTION]생산, [ICON_CULTURE]문화, [ICON_FOOD]식량을 증가시킵니다. 인접한 에키 2개마다 [ICON_PRODUCTION]생산과 [ICON_GOLD] 골드가 추가로 증가합니다. 건설 시 모든 타일의 특징을 제거합니다. 훈 영토 내부 또는 영토에 인접한 타일에만 건설할 수 있습니다.</Text>
 		</Row>
 
 		<!-- Inca -->
@@ -208,7 +208,7 @@
 			<Text>인접한 계단식 농장 또는 산 마다 [ICON_FOOD] 식량이 +1 증가합니다. 모든 인접한 농장의 [ICON_FOOD] 식량이 +1 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERRACE_FARM_REC">
-			<Text>[ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 증가시킵니다. 타일의 특성을 제거합니다.[NEWLINE]산 또는 다른 계단식 농장과 인접 시 추가 [ICON_FOOD] 식량을 얻습니다. 인접한 농장에 [ICON_FOOD] 식량을 제공합니다.</Text>
+			<Text>[ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 증가시킵니다. 타일의 특징을 제거합니다.[NEWLINE]산 또는 다른 계단식 농장과 인접 시 추가 [ICON_FOOD] 식량을 얻습니다. 인접한 농장에 [ICON_FOOD] 식량을 제공합니다.</Text>
 		</Row>
 
 		<!-- India -->
@@ -298,7 +298,7 @@
 			<Text>[LINK=IMPROVEMENT_MONGOLIA_ORDO]오르도[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_MONGOLIA_ORDO_HELP">
-			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 이 타일의 특성이 사라집니다.[NEWLINE][NEWLINE]오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50%를 얻고 [ICON_MOVES] 이동력을 모두 회복합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
+			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 이 타일의 특징이 사라집니다.[NEWLINE][NEWLINE]오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50%를 얻고 [ICON_MOVES] 이동력을 모두 회복합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
 		</Row>
 
 		<!-- Netherlands -->
@@ -360,7 +360,7 @@
 			<Text>이 타일에 주둔한 유닛의 [ICON_STRENGTH] 전투력이 +15% 증가합니다. 2타일 이내 쇼쇼니 유닛의[ICON_STRENGTH] 전투력이 +20% 증가합니다. 티피 근처 타일에서 턴을 마치는 적은 피해를 5 입습니다. [NEWLINE][NEWLINE]평지 타일에만 건설할 수 있고 다른 티피와 인접하게 건설할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE_REC">
-			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 증가시킵니다. 건설 시 모든 타일의 특성을 제거합니다. [NEWLINE]근처 쇼숀 유닛에게 전투력을 제공하고 주둔한 유닛에 방어력 보너스를 제공하며 인접한 적 유닛에 소량의 피해를 입힙니다.</Text>
+			<Text>현재 타일의 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_CULTURE]문화를 증가시킵니다. 건설 시 모든 타일의 특징을 제거합니다. [NEWLINE]근처 쇼숀 유닛에게 전투력을 제공하고 주둔한 유닛에 방어력 보너스를 제공하며 인접한 적 유닛에 소량의 피해를 입힙니다.</Text>
 		</Row>
 
 		<!-- Spain -->
@@ -426,7 +426,7 @@
 			<Text>수도에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}를 건설하면 셋 중 하나만 건설할 수 있는 베네치아의 고유 건물입니다. 추가 [ICON_INTERNATIONAL_TRADE] 교역로를 제공합니다. [ICON_INTERNATIONAL_TRADE] 교역로의 가치를 증가시킵니다. 제국 인구에 비례해 [ICON_GOLD] 골드를 얻습니다. 제국 전체의 유닛 및 건물 구매 [ICON_GOLD] 비용을 감소시킵니다. [ICON_GOLD] 골드 산출에 비례해 [ICON_DIPLOMAT] 세계 의회 대표단을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}가 건설되어 있어야 합니다.[NEWLINE][NEWLINE]모든 도시에서 [ICON_GOLD]골드로 유닛을 구매하거나 건물 건설에 투자하는 비용이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] ([ICON_CAPITAL]수도는 15%) 감소합니다.  제국 전체의 [ICON_CITIZEN] 시민 3명마다 [ICON_GOLD] 골드를 +1 얻습니다. [COLOR_POSITIVE_TEXT]추가[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] 교역로 슬롯을 얻습니다. 도시의 턴당 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]200[ENDCOLOR]마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 [COLOR:105:105:105:255](한도: 현존 모든 [ICON_CITY_STATE]도시 국가 수의 [COLOR_NEGATIVE_TEXTTIVE_TEXT]25%)[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE]이 도시로 향하는 [ICON_ARROW_LEFT]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 [ICON_ARROW_RIGHT] 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.</Text>
+			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}가 건설되어 있어야 합니다.[NEWLINE][NEWLINE]모든 도시에서 [ICON_GOLD]골드로 유닛을 구매하거나 건물 건설에 투자하는 비용이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] ([ICON_CAPITAL]수도는 15%) 감소합니다.  제국 전체의 [ICON_CITIZEN] 시민 3명마다 [ICON_GOLD] 골드를 +1 얻습니다. [COLOR_POSITIVE_TEXT]추가[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] 교역로 슬롯을 얻습니다. 도시의 턴당 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]200[ENDCOLOR]마다 세계 의회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 [COLOR:105:105:105:255](한도: 현존 모든 [ICON_CITY_STATE]도시 국가 수의 [COLOR_NEGATIVE_TEXTTIVE_TEXT]25%)[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE]이 도시로 향하는 [ICON_ARROW_LEFT]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 [ICON_ARROW_RIGHT] 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE">
 			<Text>아스넬 디 베네치아</Text>
