@@ -429,7 +429,7 @@ SET Text = '팔라파 맹세'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 출현합니다. [[ICON_MONOPOLY]] 글로벌 독점 기업의 고유한 [ICON_GOLDEN_AGE] 산출량과 [ICON_GOLDEN_AGE] 황금기 지속 시간 수정치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 산출량과 [ICON_HAPPINESS_1] 행복도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 출현합니다. [ICON_MONOPOLY] 글로벌 독점 기업의 고유한 [ICON_GOLDEN_AGE] 산출량과 [ICON_GOLDEN_AGE] 황금기 지속 시간 수정치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 산출량과 [ICON_HAPPINESS_1] 행복도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE';
 
 UPDATE Language_ko_KR
