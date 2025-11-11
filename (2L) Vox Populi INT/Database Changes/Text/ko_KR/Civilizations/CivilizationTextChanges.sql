@@ -62,7 +62,7 @@ WHERE Tag = 'TXT_KEY_UNIT_AUSTRIAN_HUSSAR_STRATEGY';
 -- Aztecs
 --------------------
 UPDATE Language_ko_KR
-SET Text = '적 유닛을 처치할 때 [ICON_STRENGTH] 전투력의 150%만큼 [ICON_PEACE]신앙 및 [ICON_GOLD]골드를 제공합니다. 유리한 [COLOR_POSITIVE_TEXT]평화 조약[ENDCOLOR]을 맺으면 (전쟁 점수 25+) [ICON_GOLDEN_AGE]황금기를 맞이합니다.'
+SET Text = '적 유닛을 처치할 때 [ICON_STRENGTH] 전투력의 150%만큼 [ICON_PEACE] 신앙 및 [ICON_GOLD] 골드를 제공합니다. 유리한 [COLOR_POSITIVE_TEXT]평화 조약[ENDCOLOR]을 맺으면 (전쟁 점수 25+) [ICON_GOLDEN_AGE] 황금기를 맞이합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CULTURE_FROM_KILLS';
 
 UPDATE Language_ko_KR
@@ -111,7 +111,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_TEXT';
 -- Byzantium
 --------------------
 UPDATE Language_ko_KR
-SET Text = '무조건 [ICON_RELIGION]종교를 창시할 수 있습니다. 종교를 창시할 때 교리를 [COLOR_POSITIVE_TEXT]한 개[ENDCOLOR] 더 고를 수 있으며 다른 문명의 [ICON_RELIGION]종교 교리 중에서도 고를 수 있습니다. [ICON_PEACE]신앙으로 구매하는 비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소하고 고전 시대부터 [ICON_PEACE]신앙으로 [ICON_GREAT_PEOPLE]위인을 구매할 수 있습니다.'
+SET Text = '무조건 [ICON_RELIGION] 종교를 창시할 수 있습니다. 종교를 창시할 때 교리를 [COLOR_POSITIVE_TEXT]한 개[ENDCOLOR] 더 고를 수 있으며 다른 문명의 [ICON_RELIGION] 종교 교리 중에서도 고를 수 있습니다. [ICON_PEACE] 신앙으로 구매하는 비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소하고 고전 시대부터 [ICON_PEACE] 신앙으로 [ICON_GREAT_PEOPLE] 위인을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_BELIEF';
 
 UPDATE Language_ko_KR
@@ -149,7 +149,7 @@ WHERE Tag = 'TXT_KEY_CIV5_CARTHAGINIAN_FOREST_ELEPHANT_TEXT';
 -- Celts
 --------------------
 UPDATE Language_ko_KR
-SET Text = '다른 누구도 혜택을 받을 수 없는 고유의 [COLOR_POSITIVE_TEXT]종교관[ENDCOLOR]을 선택할 수 있습니다. 당신 문명의 [ICON_RELIGION_PANTHEON]종교관 또는 [ICON_RELIGION]종교를 따르는 도시는 다른 종교의 [COLOR_POSITIVE_TEXT]압력[ENDCOLOR]을 받지도 제공하지도 않고, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '다른 누구도 혜택을 받을 수 없는 고유의 [COLOR_POSITIVE_TEXT]종교관[ENDCOLOR]을 선택할 수 있습니다. 당신 문명의 [ICON_RELIGION_PANTHEON] 종교관 또는 [ICON_RELIGION] 종교를 따르는 도시는 다른 종교의 [COLOR_POSITIVE_TEXT]압력[ENDCOLOR]을 받지도 제공하지도 않고, [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_FAITH_FROM_NATURE';
 
 UPDATE Language_ko_KR
@@ -702,7 +702,7 @@ SET Text = '이상을 향해서'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '타일을 획득하면 [ICON_GOLD]골드가 10, [ICON_PEACE]신앙이 4 증가합니다. 새로 설립한 도시가 [ICON_CAPITAL] 수도의 대중 종교를 믿습니다. [ICON_PEACE]신앙으로 해상 유닛을 구매할 수 있습니다.'
+SET Text = '타일을 획득하면 [ICON_GOLD] 골드가 10, [ICON_PEACE] 신앙이 4 증가합니다. 새로 설립한 도시가 [ICON_CAPITAL] 수도의 대중 종교를 믿습니다. [ICON_PEACE] 신앙으로 해상 유닛을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES';
 
 UPDATE Language_ko_KR

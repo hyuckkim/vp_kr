@@ -312,7 +312,7 @@
 			<Text>퀘스트 [ICON_NOINFLUENCE] 영향력 보상 비활성화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_VARIABLE_CBP">
-			<Text>당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 상당한 공물을 요구할 수 있습니다. 해당 도시 국가에 따라 [ICON_GOLD]골드와 활성화된 모든 퀘스트의 산출량의 절반을 공물로 요구할 수 있습니다. 퀘스트는 취소됩니다.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
+			<Text>당신에 대한 도시 국가의 [COLOR_POSITIVE_TEXT]두려움[ENDCOLOR]이 도시 국가의 [COLOR_WARNING_TEXT]불복[ENDCOLOR]보다 크다면 상당한 공물을 요구할 수 있습니다. 해당 도시 국가에 따라 [ICON_GOLD] 골드와 활성화된 모든 퀘스트의 산출량의 절반을 공물로 요구할 수 있습니다. 퀘스트는 취소됩니다.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_RECENTLY_LIBERATED">
 			<Text>최근 해방됨</Text>
@@ -373,31 +373,31 @@
 		</Row>
 		<!-- First meeting -->
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_CULTURE">
-			<Text>당신의 문명이 그들과 처음 조우했기 때문에 귀중한 예술품 한 조각을 선물받았습니다. 선물의 가치는 [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR][ICON_CULTURE]문화 입니다.</Text>
+			<Text>당신의 문명이 그들과 처음 조우했기 때문에 귀중한 예술품 한 조각을 선물받았습니다. 선물의 가치는 [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR][ICON_CULTURE] 문화 입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_FAITH">
-			<Text>당신의 문명이 그들과 처음 조우했기 때문에 그들이 소중하게 여기는 종교적 우상을 건네받았습니다. [COLOR_POSITIVE_TEXT]{1_NumFaith}[ENDCOLOR][ICON_PEACE]신앙을 획득했습니다.</Text>
+			<Text>당신의 문명이 그들과 처음 조우했기 때문에 그들이 소중하게 여기는 종교적 우상을 건네받았습니다. [COLOR_POSITIVE_TEXT]{1_NumFaith}[ENDCOLOR][ICON_PEACE] 신앙을 획득했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_GOLD">
-			<Text>당신의 문명이 그들과 처음 조우했기 때문에 [COLOR_POSITIVE_TEXT]{1_NumGold}[ENDCOLOR][ICON_GOLD]골드를 선물받았습니다.</Text>
+			<Text>당신의 문명이 그들과 처음 조우했기 때문에 [COLOR_POSITIVE_TEXT]{1_NumGold}[ENDCOLOR][ICON_GOLD] 골드를 선물받았습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_FOOD">
-			<Text>당신의 문명이 그들의 연례 수확제에 딱 맞춰 도착했습니다. [COLOR_POSITIVE_TEXT]{1_NumFood}[ENDCOLOR][ICON_FOOD]식량이 가득찬 수레를 건네받았습니다.</Text>
+			<Text>당신의 문명이 그들의 연례 수확제에 딱 맞춰 도착했습니다. [COLOR_POSITIVE_TEXT]{1_NumFood}[ENDCOLOR][ICON_FOOD] 식량이 가득찬 수레를 건네받았습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_FIRST_CONTACT_BONUS_UNIT">
 			<Text>[COLOR_POSITIVE_TEXT]{1_UnitName}[ENDCOLOR]{1: plural 1?이; 2?가;} 탐험에 합류합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_CULTURE">
-			<Text>그들이 예술적 가치에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR][ICON_CULTURE]문화를 획득했습니다.</Text>
+			<Text>그들이 예술적 가치에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumCulture}[ENDCOLOR][ICON_CULTURE] 문화를 획득했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FAITH">
-			<Text>그들이 종교의식에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumFaith}[ENDCOLOR][ICON_PEACE]신앙을 획득했습니다.</Text>
+			<Text>그들이 종교의식에 대한 지식을 공유합니다. [COLOR_POSITIVE_TEXT]{1_NumFaith}[ENDCOLOR][ICON_PEACE] 신앙을 획득했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_GOLD">
-			<Text>그들이 선물로 [COLOR_POSITIVE_TEXT]{1_NumGold}[ENDCOLOR][ICON_GOLD]골드를 제공했습니다.</Text>
+			<Text>그들이 선물로 [COLOR_POSITIVE_TEXT]{1_NumGold}[ENDCOLOR][ICON_GOLD] 골드를 제공했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_FOOD">
-			<Text>그들이 선물로 [COLOR_POSITIVE_TEXT]{1_NumFood}[ENDCOLOR][ICON_FOOD]식량을 제공했습니다.</Text>
+			<Text>그들이 선물로 [COLOR_POSITIVE_TEXT]{1_NumFood}[ENDCOLOR][ICON_FOOD] 식량을 제공했습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_CONTACT_BONUS_NOTHING">
 			<Text>불행히도 그들은 당신에게 제공할 것이 없습니다.</Text>
@@ -873,37 +873,37 @@
 			<Text>외교관 존재: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_CORPORATION_MODIFIER_SCIENCE">
-			<Text>기업 [ICON_RESEARCH]과학 보너스: +{1_Num}%</Text>
+			<Text>기업 [ICON_RESEARCH] 과학 보너스: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_CORPORATION_MODIFIER_GOLD">
-			<Text>기업 [ICON_GOLD]골드 보너스: +{1_Num}%</Text>
+			<Text>기업 [ICON_GOLD] 골드 보너스: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FOOD_SHORT">
-			<Text>[ICON_FOOD]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+			<Text>[ICON_FOOD] {1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_PRODUCTION_SHORT">
-			<Text>[ICON_PRODUCTION]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+			<Text>[ICON_PRODUCTION] {1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GOLD_SHORT">
-			<Text>[ICON_GOLD]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+			<Text>[ICON_GOLD] {1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_SCIENCE_SHORT">
-			<Text>[ICON_RESEARCH]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+			<Text>[ICON_RESEARCH] {1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_CULTURE_SHORT">
-			<Text>[ICON_CULTURE]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+			<Text>[ICON_CULTURE] {1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FAITH_SHORT">
-			<Text>[ICON_PEACE]{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
+			<Text>[ICON_PEACE] {1_Num: number \"'+'##;'[COLOR_RED]-'##\"}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_RELIGIOUS_PRESSURE_SHORT">
 			<Text>{1_ReligionIcon}+{2_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_FOOD">
-			<Text>+{1_Num}% [ICON_FOOD]정책에서</Text>
+			<Text>+{1_Num}% [ICON_FOOD] 정책에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER_PROD">
-			<Text>+{1_Num}% [ICON_PRODUCTION]정책에서</Text>
+			<Text>+{1_Num}% [ICON_PRODUCTION] 정책에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_GOLD_INTERNAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_GAIN">
 			<Text>Total: {1_Num} [ICON_RESEARCH] 과학 (제국 내 무역으로 인해)</Text>
@@ -1585,13 +1585,13 @@
 
 		<!-- Buildings -->
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_NEED">
-			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% {2_Yields} Median Modifier from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>{1: number "'+'##;'-'##"}% 전환율 and {1: number "'-'##;'+'##"}% {2_Yields} 중앙값 수정자 from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_DISTRESS">
-			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% [ICON_FOOD]/[ICON_PRODUCTION] Basic Needs Median Modifier from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>{1: number "'+'##;'-'##"}% 전환율 and {1: number "'-'##;'+'##"}% [ICON_FOOD]/[ICON_PRODUCTION] Basic Needs 중앙값 수정자 from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_RELIGIOUS_UNREST">
-			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% Religious Unrest from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>{1: number "'+'##;'-'##"}% 전환율 and {1: number "'-'##;'+'##"}% 종교 분쟁 from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MEDIAN_CHANGES">
 			<Text>예상 수요 중간값 변화:</Text>
@@ -2306,10 +2306,10 @@
 			<Text>프랜차이즈 설립: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] / [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 중</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORP_MAX_FRANCHISE_TT">
-			<Text>[ICON_BULLET] {1_Num}  기업 본부에서[NEWLINE][ICON_BULLET] {2_Num}  오피스 설립에서[NEWLINE][ICON_BULLET] {3_Num}  [ICON_INTERNATIONAL_TRADE]교역로의 수에서[NEWLINE][ICON_BULLET] {4_Num}  정책 또는 이념 주의에서[NEWLINE][NEWLINE]일부 정책 및 이념 주의에서는 현재 프랜차이즈 총계가 최대 프랜차이즈 수를 초과할 수 있다는 점에 유의하십시오.</Text>
+			<Text>[ICON_BULLET] {1_Num}  기업 본부에서[NEWLINE][ICON_BULLET] {2_Num} 오피스 설립에서[NEWLINE][ICON_BULLET] {3_Num} [ICON_INTERNATIONAL_TRADE]교역로의 수에서[NEWLINE][ICON_BULLET] {4_Num} 정책 또는 이념 주의에서[NEWLINE][NEWLINE]일부 정책 및 이념 주의에서는 현재 프랜차이즈 총계가 최대 프랜차이즈 수를 초과할 수 있다는 점에 유의하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORP_MAX_FRANCHISE_NATIONALIZATION_TT">
-			<Text>[ICON_BULLET] {1_Num} 설립한 오피스에서 ([COLOR_MAGENTA]국유화[ENDCOLOR] 이념 주의)[NEWLINE][NEWLINE]세계의 노동자들이여, 단결하라!</Text>
+			<Text>[ICON_BULLET] {1_Num} 설립한 오피스에서 ([COLOR_MAGENTA]국유화[ENDCOLOR] 이념 주의)[NEWLINE][NEWLINE]만국의 노동자들이여, 단결하라!</Text>
 		</Row>
 
 		<!-- Vassalage overview -->
@@ -3081,7 +3081,7 @@
 			<Text>일시적 이벤트</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_ESPIONAGE_EVENT">
-			<Text>[ICON_SPY] 도시에서 [COLOR_NEGATIVE_TEXT]스파이 활동[ENDCOLOR]이 일어났습니다.[NEWLINE][NEWLINE]적의 이득:</Text>
+			<Text>[ICON_SPY] 도시에서 [COLOR_NEGATIVE_TEXT]스파이 활동[ENDCOLOR]이 발생했습니다.[NEWLINE][NEWLINE]적의 이득:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_NAME">
 			<Text>이름순</Text>

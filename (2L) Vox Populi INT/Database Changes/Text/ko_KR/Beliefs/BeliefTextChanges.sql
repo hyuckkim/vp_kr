@@ -335,7 +335,7 @@ SET Text = '사리탑'
 WHERE Tag = 'TXT_KEY_BELIEF_MONASTERIES_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE]신앙으로 사리탑을 구매할 수 있습니다.'
+SET Text = '[ICON_PEACE] 신앙으로 사리탑을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MONASTERIES';
 
 UPDATE Language_ko_KR
@@ -343,7 +343,7 @@ SET Text = '회당'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE]신앙으로 회당을 구매할 수 있습니다.'
+SET Text = '[ICON_PEACE] 신앙으로 회당을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_WARRIORS';
 
 UPDATE Language_ko_KR
@@ -370,7 +370,7 @@ SET Text = '평화의 거주지'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '우호적인 [ICON_CITY_STATE]도시 국가의 종교 압력이 +100% 증가합니다. 이 [ICON_RELIGION]종교를 따르는 도시 국가의 신도 2명마다 성도의 [ICON_PEACE]신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신의 종교를 따르는 도시 국가 [ICON_INFLUENCE]영향력 정지점이 [COLOR_POSITIVE_TEXT]35[ENDCOLOR]로 증가하며 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
+SET Text = '우호적인 [ICON_CITY_STATE]도시 국가의 종교 압력이 +100% 증가합니다. 이 [ICON_RELIGION]종교를 따르는 도시 국가의 신도 2명마다 성도의 [ICON_PEACE] 신앙 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 당신의 종교를 따르는 도시 국가 [ICON_INFLUENCE]영향력 정지점이 [COLOR_POSITIVE_TEXT]35[ENDCOLOR]로 증가하며 도시 국가의 퀘스트 보상이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR';
 
 UPDATE Language_ko_KR
@@ -378,7 +378,7 @@ SET Text = '종교 재판'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_INQUISITOR]이단심문관의 구매 [ICON_PEACE]비용이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다. 이단 제거 시 개종된 [ICON_CITIZEN]시민 1명마다 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다. 당신 문명의 [ICON_SPY]스파이가 배치된 도시에 종교 압력을 [COLOR_POSITIVE_TEXT]52[ENDCOLOR] [COLOR:110:110:110:255](표준 속도)[ENDCOLOR] 행사하고 외국 도시에 주둔하면 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_INQUISITOR]이단심문관의 구매 [ICON_PEACE] 비용이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다. 이단 제거 시 개종된 [ICON_CITIZEN]시민 1명마다 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다. 당신 문명의 [ICON_SPY]스파이가 배치된 도시에 종교 압력을 [COLOR_POSITIVE_TEXT]52[ENDCOLOR] [COLOR:110:110:110:255](표준 속도)[ENDCOLOR] 행사하고 외국 도시에 주둔하면 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS';
 
 UPDATE Language_ko_KR
@@ -386,7 +386,7 @@ SET Text = '탁발'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIQUARY_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '이 [ICON_RELIGION]종교를 따르는 모든 도시의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_MISSIONARY]선교사가 종교를 전파할 때 다른 종교의 종교 압력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소시킵니다.'
+SET Text = '이 [ICON_RELIGION]종교를 따르는 모든 도시의 [ICON_CULTURE]문화 및 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_MISSIONARY]선교사가 종교를 전파할 때 다른 종교의 종교 압력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소시킵니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIQUARY';
 
 UPDATE Language_ko_KR
@@ -402,7 +402,7 @@ SET Text = '예언'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSIAH_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '불가사의 건설에 필요한 정책 수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [ICON_PROPHET] 위대한 선지자의 전도력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 생산에 필요한 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 성지의 산출량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 만약 대중 종교라면 적[ICON_INQUISITOR] 이단심문관 및 [ICON_PROPHET] 위대한 선지자로 인한 신도의 감소가 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR]으로 줄어듭니다.'
+SET Text = '불가사의 건설에 필요한 정책 수가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [ICON_PROPHET] 위대한 선지자의 전도력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 생산에 필요한 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다. 성지의 산출량이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 만약 대중 종교라면 적[ICON_INQUISITOR] 이단심문관 및 [ICON_PROPHET] 위대한 선지자로 인한 신도의 감소가 [COLOR_POSITIVE_TEXT]절반[ENDCOLOR]으로 줄어듭니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSIAH';
 
 UPDATE Language_ko_KR
@@ -450,7 +450,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM';
 
 -- Defender of the Faith
 UPDATE Language_ko_KR
-SET Text = '우호 영토 내 지상 유닛과 전투 시 지상 유닛의 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 추가로 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.  모든 방어 건물의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '우호 영토 내 지상 유닛과 전투 시 지상 유닛의 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 추가로 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.  모든 방어 건물의 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_DEFENDER_FAITH';
 
 UPDATE Language_ko_KR
@@ -458,7 +458,7 @@ SET Text = '신성한 가르침'
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE]신앙으로 도서관, 대학, 공립학교, 연구소를 구매할 수 있고 해당 건물의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 성도에서 [ICON_GREAT_PEOPLE]위인을 소모할 때 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '[ICON_PEACE] 신앙으로 도서관, 대학, 공립학교, 연구소를 구매할 수 있고 해당 건물의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 성도에서 [ICON_GREAT_PEOPLE]위인을 소모할 때 [ICON_PEACE] 신앙을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION';
 
 UPDATE Language_ko_KR
@@ -466,7 +466,7 @@ SET Text = '대중의 신앙'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE]신앙으로 원형극장, 오페라 극장, 박물관, 방송탑을 구매할 수 있고, 해당 건물의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 종교를 따르는 도시 2개마다 성도의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_PEACE] 신앙으로 원형극장, 오페라 극장, 박물관, 방송탑을 구매할 수 있고, 해당 건물의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 종교를 따르는 도시 2개마다 성도의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT';
 
 UPDATE Language_ko_KR
@@ -474,7 +474,7 @@ SET Text = '범인류적 계명'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '종교 전파 속도가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 ([COLOR_RESEARCH_STORED]인쇄술[ENDCOLOR] 연구 시 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]), 세계 대회 또는 유엔에서 결의안이 통과되면 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PEACE]신앙, [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]350[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '종교 전파 속도가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 ([COLOR_RESEARCH_STORED]인쇄술[ENDCOLOR] 연구 시 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]), 세계 대회 또는 유엔에서 결의안이 통과되면 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PEACE] 신앙, [ICON_GOLDEN_AGE] 황금기 점수가 [COLOR_POSITIVE_TEXT]350[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS';
 
 UPDATE Language_ko_KR
@@ -500,5 +500,5 @@ WHERE Tag = 'TXT_KEY_BELIEF_SACRED_SITES';
 
 -- To the Glory of God
 UPDATE Language_ko_KR
-SET Text = '산업 시대부터 [ICON_PEACE]신앙으로 [ICON_GREAT_PEOPLE]위인을 구매할 수 있습니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 당신 문명의 종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 20도시)[ENDCOLOR] [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 얻습니다.'
+SET Text = '산업 시대부터 [ICON_PEACE] 신앙으로 [ICON_GREAT_PEOPLE]위인을 구매할 수 있습니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 당신 문명의 종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 20도시)[ENDCOLOR] [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 얻습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_TO_GLORY_OF_GOD';

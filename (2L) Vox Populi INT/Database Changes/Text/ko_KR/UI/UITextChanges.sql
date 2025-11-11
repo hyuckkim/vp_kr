@@ -193,7 +193,7 @@ SET Text = '도시가 적의 유닛에게 [ICON_BLOCKADED]봉쇄당했습니다!
 WHERE Tag = 'TXT_KEY_CITY_BLOCKADED';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GOLD]골드를 건물에 투자해 [ICON_PRODUCTION]생산 비용을 50% 감소시킬 수 있습니다. (불가사의는 25%)[NEWLINE][ICON_GOLD]골드로 구매한 유닛은 생산된 유닛 경험치의 절반으로 시작합니다.[NEWLINE]몇몇 유닛과 건물은 [ICON_PEACE]신앙으로 구매할 수 있습니다.'
+SET Text = '[ICON_GOLD] 골드를 건물에 투자해 [ICON_PRODUCTION]생산 비용을 50% 감소시킬 수 있습니다. (불가사의는 25%)[NEWLINE][ICON_GOLD] 골드로 구매한 유닛은 생산된 유닛 경험치의 절반으로 시작합니다.[NEWLINE]몇몇 유닛과 건물은 [ICON_PEACE] 신앙으로 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CITYVIEW_PURCHASE_TT';
 
 UPDATE Language_ko_KR	

@@ -68,5 +68,5 @@ SET Text = '지형 방어 보너스를 받지 못하지만, 게임의 어떤 유
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MECH';
 
 UPDATE Language_ko_KR
-SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE]신앙을 통해 구매할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 위대한 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
+SET Text = '대중 종교가 강화된 도시 어디에서나 [ICON_PEACE] 신앙을 통해 구매할 수 있습니다. 당신의 도시에서 다른 종교를 제거할 수 있으며 (이단심문관 사용) 선교사와 위대한 선지자를 도시 또는 근처에 배치하여 다른 종교가 전파되는 것을 막을 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';

@@ -40,7 +40,7 @@ WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY';
 
 -- Inquisitor
 UPDATE Language_ko_KR
-SET Text = '[ICON_PEACE]신앙을 사용해서 대중 종교가 강화된 도시 어디에서나 구매할 수 있습니다. 플레이어 도시에서 다른 종교를 제거할 수 있으며(이단심문관 사용) 이단 심문관을 도시에 배치하면 다른 종교의 전파 속도를 50% 감소시킬 수 있습니다.'
+SET Text = '[ICON_PEACE] 신앙을 사용해서 대중 종교가 강화된 도시 어디에서나 구매할 수 있습니다. 플레이어 도시에서 다른 종교를 제거할 수 있으며(이단심문관 사용) 이단 심문관을 도시에 배치하면 다른 종교의 전파 속도를 50% 감소시킬 수 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INQUISITOR_STRATEGY';
 
 -- Archaeologist

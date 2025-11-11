@@ -15,10 +15,10 @@
 
 		<!-- Tank Hunter -->
 		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_1_HELP">
-			<Text>기갑 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT] +50%[ENDCOLOR]</Text>
+			<Text>기갑 유닛 대항 시 [ICON_STRENGTH] 전투력 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_2_HELP">
-			<Text>기갑 유닛 대항 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT] +50%[ENDCOLOR]</Text>
+			<Text>기갑 유닛 대항 시 [ICON_STRENGTH] 전투력 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Air Penetration -->
@@ -45,15 +45,15 @@
 
 		<!-- Air Supremacy -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP">
-			<Text>공중 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+			<Text>공중 유닛 대항 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II_HELP">
-			<Text>공중 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
+			<Text>공중 유닛 대항 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+100%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Eagle Hunter -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER_HELP">
-			<Text>전투기 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR]</Text>
+			<Text>전투기 유닛 대항 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Can See Submarine -->
@@ -63,7 +63,7 @@
 
 		<!-- Anti-Tank Rounds -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_TANK_HELP">
-			<Text>기갑 유닛 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
+			<Text>기갑 유닛 대항 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Moves at half-speed in enemy territory -->
@@ -380,7 +380,7 @@
 			<Text>위반</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER_HELP">
-			<Text>방어 시 인접한 아군 유닛마다 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]이 유닛이 처치한 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]15[ENDCOLOR][NEWLINE]This Damage ignores damage reduction, but does not affect Units in [COLOR_NEGATIVE_TEXT]Cities[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Fortification[ENDCOLOR].</Text>
+			<Text>방어 시 인접한 아군 유닛마다 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]이 유닛이 처치한 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]15[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하지만, [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와 [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 있는 유닛에는 영향을 미치지 않습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT">
@@ -402,7 +402,7 @@
 			<Text>공중 어뢰</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]헤싱 유닛[ENDCOLOR] 대항 시 [ICON_STRENGTH] 전투력 +33%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]헤싱 유닛[ENDCOLOR] 대항 시 [ICON_STRENGTH] 전투력 +33%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK">
@@ -974,14 +974,14 @@
 			<Text>척탄병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GRENADIER_HELP">
-			<Text>적 유닛 처치 후 진격 시 새로 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]15[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와  [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
+			<Text>적 유닛 처치 후 진격 시 새로 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]15[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와 [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PILUM">
 			<Text>투창</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PILUM_HELP">
-			<Text>요새화할 경우 매 턴 시작마다 인접한 적 유닛에 피해 [COLOR_POSITIVE_TEXT]10[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와  [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
+			<Text>요새화할 경우 매 턴 시작마다 인접한 적 유닛에 피해 [COLOR_POSITIVE_TEXT]10[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와 [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER">
@@ -989,7 +989,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER_HELP">
-			<Text>최대 체력인 적을 상대로 전투력 +30%[ICON_STRENGTH]</Text>
+			<Text>최대 체력인 적을 상대로 [ICON_STRENGTH] 전투력 +30%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CONCUSSIVE_HIT">
@@ -1003,7 +1003,7 @@
 			<Text>공성 일제 사격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_VOLLEY_HELP">
-			<Text>도시 안/도시와 인접한 타일 공격시 [ICON_STRENGTH]원거리 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와  [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
+			<Text>도시 안/도시와 인접한 타일 공격시 [ICON_STRENGTH]원거리 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]목표 유닛과 인접한 모든 적 유닛에 피해 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [COLOR:105:105:105:255]([ICON_RANGE_STRENGTH]사거리 이내)[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시하며 [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와 [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 주둔한 유닛에게는 적용되지 않습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_ASSAULT">
@@ -1064,21 +1064,21 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_HELP">
-			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]최대 체력이 3만큼 낮아질 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE]우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스[COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH] 전투력 보너스 증가[NEWLINE]최대 체력이 3만큼 낮아질 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE]우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스[COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
 			<Text>충성심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
-			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]우호 영토 내 전투 시 [ICON_STRENGTH]전투력 보너스[COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH] 전투력 보너스 증가[NEWLINE]우호 영토 내 전투 시 [ICON_STRENGTH] 전투력 보너스[COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
 			<Text>자제력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
-			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH]전투력 보너스 증가[NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
+			<Text>유닛이 피해를 받은 정도에 따라 [ICON_STRENGTH] 전투력 보너스 증가[NEWLINE]방어 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+10[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1">
@@ -1168,374 +1168,374 @@
 
 		<!-- 4UC -->
 		<Row Tag="TXT_KEY_PROMOTION_HARDENED">
-			<Text>Hardened</Text>
+			<Text>경화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HARDENED_HELP">
-			<Text>Reduces Damage taken by -3.</Text>
+			<Text>공격받는 모든 피해 -3</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_HARBOR_DEFENSE">
-			<Text>Hardened</Text>
+			<Text>항구 방어</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HARBOR_DEFENSE_HELP">
-			<Text>+5% [ICON_STRENGTH] City Defense to owned Cities within 1 tile.</Text>
+			<Text>1타일 이내에 있는 자신의 [ICON_STRENGTH] 도시 방어력 +5% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_GARLAND_MINE">
-			<Text>Garland Mine</Text>
+			<Text>갈란드 마인</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GARLAND_MINE_HELP">
-			<Text>[ICON_RAZING] Pillaging costs no [ICON_MOVES] Movement.[NEWLINE]Deal [COLOR_POSITIVE_TEXT]15 Damage[ENDCOLOR] to adjacent Enemy Units on [ICON_RAZING] Pillaging Improvements.[NEWLINE]This Damage ignores damage reduction, but does not affect Units in [COLOR_NEGATIVE_TEXT]Cities[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Fortifications[ENDCOLOR].</Text>
+			<Text>[ICON_RAZING] [COLOR_POSITIVE_TEXT]약탈시[ENDCOLOR] [ICON_MOVES] 이동력의 [COLOR_POSITIVE_TEXT]소모 없음[ENDCOLOR].[NEWLINE][ICON_RAZING] 약탈시 인접한 적에게 피해[COLOR_POSITIVE_TEXT]15[ENDCOLOR].[NEWLINE]이 피해는 피해 감소를 무시하지만, [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와 [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR]에 있는 유닛에는 영향을 미치지 않습니다.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_RAIDER">
-			<Text>Desert Raider</Text>
+			<Text>사막 침투병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_RAIDER_HELP">
-			<Text>Double [ICON_MOVES] Movement in Desert.[NEWLINE]+25% [ICON_STRENGTH] Combat Strength in Desert.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]사막에서[ENDCOLOR] [ICON_MOVES] 이동력 2배, [NEWLINE][ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_CAVALRY">
-			<Text>Shock Cavalry</Text>
+			<Text>충격 기병대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_CAVALRY_HELP">
-			<Text>+20% [ICON_STRENGTH] Combat Strength when attacking into or defending in [COLOR_POSITIVE_TEXT]Open Terrain[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]평지에서[ENDCOLOR] 전투 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_FRONTIERSMAN">
-			<Text>Frontiersman</Text>
+			<Text>개척자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FRONTIERSMAN_HELP">
-			<Text>+40% [ICON_STRENGTH] Combat Strength on tiles containing a [COLOR_POSITIVE_TEXT]Border[ENDCOLOR] between Empires.</Text>
+			<Text>두 문명의 [COLOR_POSITIVE_TEXT]국경[ENDCOLOR]을 포함하는 타일에서 [ICON_STRENGTH] 전투력 +40% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SCHUTZENKONIG">
-			<Text>Schützenkönig</Text>
+			<Text>득점왕</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCHUTZENKONIG_HELP">
-			<Text>+2% [ICON_STRENGTH] Combat Strength for each non-enemy [ICON_RES_MARRIAGE] Married City-State (max 30%).</Text>
+			<Text>적이 아닌 [ICON_RES_MARRIAGE] 결혼한 도시 국가 하나당 [ICON_STRENGTH] 전투력 +2% 증가 (최대 30%)</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_STRENGTH">
-			<Text>Brute Strength</Text>
+			<Text>완력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_STRENGTH_HELP">
-			<Text>+40% [ICON_STRENGTH] Combath Strength VS [COLOR_POSITIVE_TEXT]Barbarians[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]야만인[ENDCOLOR]에 대한 [ICON_STRENGTH] 전투력 +40% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_LEGACY">
-			<Text>Legacy</Text>
+			<Text>유산</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LEGACY_HELP">
-			<Text>+5% [ICON_STRENGTH] Combat Strength per Level.</Text>
+			<Text>[ICON_STRENGTH] 레벨당 전투력 +5% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_RIACHUELO">
-			<Text>Riachuelo</Text>
+			<Text>리아추엘로</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIACHUELO_HELP">
-			<Text>Gain 100% of the [ICON_STRENGTH] Combat Strength of defeated Enemy Units as [ICON_GOLDEN_AGE] Golden Age Points.[NEWLINE]Immune to the [COLOR_POSITIVE_TEXT]Boarded[ENDCOLOR] status.</Text>
+			<Text>패배한 적 유닛 [ICON_STRENGTH] 전투력의 100%를 [ICON_GOLDEN_AGE] 황금기 점수로 획득[NEWLINE][COLOR_POSITIVE_TEXT]승선함[ENDCOLOR] 상태에 면역</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_GREEK_FIRE">
-			<Text>Greek Fire</Text>
+			<Text>그리스의 불</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GREEK_FIRE_HELP">
-			<Text>Inflict the [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ON_FIRE}[ENDCOLOR] status on Enemy Units when attacking, increasing their damage taken from combat by 20% for 1 Turn.</Text>
+			<Text>적 유닛이 공격할 때 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ON_FIRE}[ENDCOLOR] 상태를 부여해 1턴 동안 전투로 인한 피해를 20% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_ON_FIRE">
-			<Text>On Fire</Text>
+			<Text>불타오르네</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ON_FIRE_HELP">
-			<Text>+20% Damage taken.[NEWLINE]Lasts for 1 turn.</Text>
+			<Text>받는 피해 +20% 증가[NEWLINE]1턴 동안 지속</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_ELISHAS_GUILE">
-			<Text>Elisha's Guile</Text>
+			<Text>엘리사의 간계</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ELISHAS_GUILE_HELP">
-			<Text>Can Embark.[NEWLINE]+1 [ICON_VISION] Sight and Embarked Sight.[NEWLINE]Withdraw from Melee Attack if there is an open tile behind this Unit, once per turn.</Text>
+			<Text>승선 가능[NEWLINE][ICON_VISION] 시야와 승선 시야가 +1 증가[NEWLINE]이 유닛 뒤에 열린 타일이 있는 경우, 턴 당 한 번씩 근접 공격에서 철수</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_AT_THE_GATES">
-			<Text>At the Gates!</Text>
+			<Text>문 앞에!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AT_THE_GATES_HELP">
-			<Text>+20 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] max HP.[NEWLINE]Can cross Mountains.</Text>
+			<Text>최대 체력 [COLOR_POSITIVE_TEXT]+20[ENDCOLOR][NEWLINE]산을 건널 수 있음</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_REND">
-			<Text>Rend</Text>
+			<Text>찢기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_REND_HELP">
-			<Text>Deal 5 Damage to all adjacent Enemy Units after entering a tile.</Text>
+			<Text>타일에 들어간 후 인접한 모든 적군 유닛에 피해 5</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_CARNYX">
-			<Text>Carnyx</Text>
+			<Text>카르닉스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARNYX_HELP">
-			<Text>+10% [ICON_RANGE_STRENGTH] Ranged Combat Strength VS [COLOR_POSITIVE_TEXT]Archer[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Melee Units[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]궁수[ENDCOLOR]와 [COLOR_POSITIVE_TEXT]근접[ENDCOLOR] 유닛에 [ICON_RANGE_STRENGTH] 원거리 전투력 +10%</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_KOWTOW">
-			<Text>Kowtow</Text>
+			<Text>고두</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KOWTOW_HELP">
-			<Text>100% of XP earned from combat is gained as [ICON_INFLUENCE] Influence with the nearest [ICON_CITY_STATE] City-State.[NEWLINE][COLOR_NEGATIVE_TEXT]Lost on Upgrade.[ENDCOLOR]</Text>
+			<Text>전투에서 얻은 경험치 100%를 가장 가까운 [ICON_CITY_STATE] 도시 국가와의 [ICON_INFLUENCE] 영향력으로 획득.[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드시 소실[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_VUR_HA">
-			<Text>Vur Ha!</Text>
+			<Text>부르 하!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VUR_HA_HELP">
-			<Text>No [ICON_MOVES] Movement cost to [ICON_WAR] Attack.[NEWLINE]+25% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Units above 50% HP[ENDCOLOR].</Text>
+			<Text>[ICON_WAR] 공격 시 [ICON_MOVES] 이동력 소모 없음[NEWLINE][COLOR_POSITIVE_TEXT]체력 50% 이상[ENDCOLOR] 유닛 공격시 [ICON_STRENGTH] 전투력 +25% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_RULE_BRITANNIA">
-			<Text>Rule Britannia</Text>
+			<Text>지배하라 브리타니아여</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RULE_BRITANNIA_HELP">
-			<Text>Ignore Terrain Cost in [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR].[NEWLINE]+2 [ICON_VISION] Embarked Sight and +50% [ICON_STRENGTH] Defense when Embarked.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]언덕[ENDCOLOR] 지형 비용 무시[NEWLINE]탑승 시 [ICON_VISION] 시야 +2, [ICON_STRENGTH] 방어력 +50%</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SUN_NEVER_SETS">
-			<Text>Sun Never Sets</Text>
+			<Text>지지않는 태양</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUN_NEVER_SETS_HELP">
-			<Text>+1 [ICON_MOVES] Movement.[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every tile away from the [ICON_CAPITAL] Capital (max 30%).</Text>
+			<Text>[ICON_MOVES] 이동력 +1[NEWLINE][ICON_CAPITAL] 수도에서 떨어진 타일마다 [ICON_STRENGTH] 전투력 1% 증가 (최대 30%)</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_AGINCOURT">
-			<Text>Agincourt</Text>
+			<Text>아쟁쿠르</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AGINCOURT_HELP">
-			<Text>+1 [ICON_RANGE_STRENGTH] Range if the Unit started the turn with full HP.</Text>
+			<Text>유닛이 최대 체력으로 턴을 시작시 [ICON_RANGE_STRENGTH] 사거리 +1 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_MAIM">
-			<Text>Maim</Text>
+			<Text>불구로 만들다</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MAIM_HELP">
-			<Text>Inflict the [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MAIMED}[ENDCOLOR] status on Enemy Units when attacking, reducing their [ICON_MOVES] Movement by -1 for 1 Turn.</Text>
+			<Text>공격 시 적 유닛에 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MAIMED}[ENDCOLOR] 상태를 부여해 1턴 동안 [ICON_MOVES] 이동력 -1 감소</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_MAIMED">
-			<Text>Maimed</Text>
+			<Text>불구</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MAIMED_HELP">
-			<Text>-1 [ICON_MOVES] Movement.[NEWLINE]Lasts 1 turn.</Text>
+			<Text>[ICON_MOVES] 이동력 -1[NEWLINE]1턴 동안 지속</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_HOOKED_WEAPON">
-			<Text>Hooked Weapon</Text>
+			<Text>갈고리 무기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HOOKED_WEAPON_HELP">
-			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Mounted Units[ENDCOLOR].[NEWLINE][COLOR_NEGATIVE_TEXT]Lost on Upgrade.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]기마 유닛[ENDCOLOR]에 대해 [ICON_STRENGTH] 전투력 +25% 증가[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드시 소실[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_ZEMENE_MESAFINT">
-			<Text>Zemene Mesafint</Text>
+			<Text>왕자들의 시대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ZEMENE_MESAFINT_HELP">
-			<Text>+20% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Units from [ICON_HAPPINESS_3] Unhappy Empires[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT][ICON_HAPPINESS_3] 불행한 문명 유닛[ENDCOLOR]에 대해 [ICON_STRENGTH] 전투력 +20% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_MINENWERFER">
-			<Text>Minenwerfer</Text>
+			<Text>마인베르퍼</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MINENWERFER_HELP">
-			<Text>+50% [ICON_STRENGTH] Combat Strength when attacking [COLOR_NEGATIVE_TEXT]Fortified Units[ENDCOLOR].[NEWLINE]Killing an Enemy Unit [ICON_RAZING] Pillages any [COLOR_POSITIVE_TEXT]Fortifications[ENDCOLOR] on the tile.</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]요새화된 유닛[ENDCOLOR] 공격시 [ICON_STRENGTH] 전투력 +50% 증가[NEWLINE]적 유닛을 죽이면 타일에 있는 모든 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 [ICON_RAZING] 약탈당합니다.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_TROMMELFEUER">
-			<Text>Trommelfeuer</Text>
+			<Text>집중포화</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TROMMELFEUER_HELP">
-			<Text>+3% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking for every Unit with this Promotion that attacked last turn (max 30%).</Text>
+			<Text>이 승급으로 지난 턴에 공격한 모든 유닛에 대해 공격 시 [ICON_RANGE_STRENGTH] 원거리 전투력 +3% 증가 (최대 30%)</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_PROXENOS">
-			<Text>Proxenos</Text>
+			<Text>프로크세노스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PROXENOS_HELP">
-			<Text>Permanently adds +2 [ICON_GOLD] Gold to your [COLOR_MAGENTA]Parthenon[ENDCOLOR] National Wonder when completing a [ICON_INFLUENCE] Diplomatic Mission.</Text>
+			<Text>[ICON_INFLUENCE] 외교 임무 완료시 [COLOR_MAGENTA]파르테논 신전[ENDCOLOR] 국가 불가사의에 영구적으로 [ICON_GOLD] 골드 +2 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_PHILHELLENISM">
-			<Text>Philhellenism</Text>
+			<Text>필헬레니즘</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PHILHELLENISM_HELP">
-			<Text>+5% [ICON_STRENGTH] Combat Strength for every [ICON_CITY_STATE] City-State Ally (max 25%).</Text>
+			<Text>동맹 [ICON_CITY_STATE] 도시 국가 1개당 [ICON_STRENGTH] 전투력이 +5% 증가 (최대 25%)</Text>
 		</Row>
 			
 		<Row Tag="TXT_KEY_PROMOTION_BELLUM_ALET">
-			<Text>Bellum Alet</Text>
+			<Text>전쟁은 스스로를 부양한다</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BELLUM_ALET_HELP">
-			<Text>Heal all adjacent [COLOR_POSITIVE_TEXT]Friendly Units[ENDCOLOR] by 15 HP when [ICON_RAZING] Pillaging Improvements.</Text>
+			<Text>시설을 [ICON_RAZING] 약탈할 때 인접한 모든 [COLOR_POSITIVE_TEXT]아군 유닛[ENDCOLOR] 체력 15 회복</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SENTINEL_OF_THE_SUN">
-			<Text>Sentinel of the Sun</Text>
+			<Text>태양의 파수꾼</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SENTINEL_OF_THE_SUN_HELP">
-			<Text>+25% [ICON_STRENGTH] Combat Strength in [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Mountain[ENDCOLOR].[NEWLINE]+15 max HP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]언덕[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]산[ENDCOLOR]에서 [ICON_STRENGTH] 전투력 +25% 증가[NEWLINE]최대 체력 +15</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_EPIC">
-			<Text>Epic</Text>
+			<Text>서사시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EPIC_HELP">
-			<Text>Gain 5 XP when killing an Enemy Unit.[NEWLINE][COLOR_NEGATIVE_TEXT]Lost on Upgrade.[ENDCOLOR]</Text>
+			<Text>적을 처치시 경험치 5 획득[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드시 소실[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_DHANURVIDYA">
-			<Text>Dhanurvidya</Text>
+			<Text>다누르비야</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DHANURVIDYA_HELP">
-			<Text>50% of XP earned from combat is gained as [ICON_CULTURE] Culture and [ICON_PEACE] Faith.</Text>
+			<Text>전투에서 획득한 경험치 50%를 [ICON_CULTURE] 문화와 [ICON_PEACE] 신앙으로 획득</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_CETBANG">
-			<Text>Cetbang</Text>
+			<Text>쳇방</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CETBANG_HELP">
-			<Text>Deal 10 Damage to all adjacent Enemy Units when starting its turn.</Text>
+			<Text>턴을 시작할 때 인접한 모든 적군 유닛에 피해 10</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_TAIKAN_KYOHO">
-			<Text>Taikan Kyoho</Text>
+			<Text>거함거포주의</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TAIKAN_KYOHO_HELP">
-			<Text>Gain 400% of the [ICON_STRENGTH] Combat Strength of defeated Enemy Units as [ICON_GREAT_ADMIRAL] Great Admiral Points.</Text>
+			<Text>패배한 적 유닛 [ICON_STRENGTH] 전투력의 400%를 [ICON_GREAT_ADMIRAL] 위대한 제독 점수로 획득</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_DECK_SPIKES">
-			<Text>Deck Spikes</Text>
+			<Text>갑판 쇠못</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DECK_SPIKES_HELP">
-			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Naval Melee Units[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]해상 근접 유닛[ENDCOLOR]에 대해 [ICON_STRENGTH] 전투력</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_LOST_CODEX">
-			<Text>Lost Codex</Text>
+			<Text>잃어버린 고문서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOST_CODEX_HELP">
-			<Text>When collecting Ancient Ruins, gain 5 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and +25% Rewards.</Text>
+			<Text>고대 유적을 수집할 때 [ICON_RESEARCH] 과학 5, [ICON_CULTURE] 문화 5, 보상 +25% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_MINGGHAN">
-			<Text>Mingghan</Text>
+			<Text>밍간</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MINGGHAN_HELP">
-			<Text>Gain 3 XP when [ICON_RAZING] Pillaging Improvements.[NEWLINE]+20% [ICON_STRENGTH] Combat Strength in tiles with Pillaged Improvements.</Text>
+			<Text>시설 [ICON_RAZING] 약탈시 경험치 3 획득[NEWLINE]약탈된 시설이 있는 타일에서 [ICON_STRENGTH] 전투력 +20% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_RAZZIA">
-			<Text>Razzia</Text>
+			<Text>라지아</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAZZIA_HELP">
-			<Text>Gain 200% of the [ICON_STRENGTH] Combat Strength of defeated Enemy Units as [ICON_FOOD] Food and [ICON_PRODUCTION] Production in this unit's origin City.[NEWLINE]Gain 100 [ICON_FOOD] Food and [ICON_PRODUCTION] Production when [ICON_RAZING] Pillaging Improvements.[NEWLINE]Gain 200 [ICON_FOOD] Food and [ICON_PRODUCTION] Production when plundering [ICON_INTERNATIONAL_TRADE] Trade Routes.</Text>
+			<Text>패배한 적 유닛 [ICON_STRENGTH] 전투력의 200%를 이 유닛이 속한 도시의 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산으로 획득[NEWLINE]시설 [ICON_RAZING] 약탈시 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산력 100 증가합니다.[NEWLINE][ICON_INTERNATIONAL_TRADE] 교역로 약탈시 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산력 200 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_BURGHER">
-			<Text>Burgher</Text>
+			<Text>버거</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BURGHER_HELP">
-			<Text>+33% [ICON_STRENGTH] Combat Strength within 2 tiles of [COLOR_POSITIVE_TEXT]Friendly City[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]아군 도시[ENDCOLOR] 주변 2타일 이내에서 [ICON_STRENGTH] 전투력 +33% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_GOEDENDAG">
-			<Text>Goedendag!</Text>
+			<Text>고덴닥!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GOEDENDAG_HELP">
-			<Text>+10% [ICON_STRENGTH] Combat Strength to all adjacent [COLOR_POSITIVE_TEXT]Friendly Units[ENDCOLOR].</Text>
+			<Text>인접한 모든 [COLOR_POSITIVE_TEXT]아군 유닛[ENDCOLOR] [ICON_STRENGTH] 전투력 +10% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_UNWIELDY">
-			<Text>Unwieldy</Text>
+			<Text>불편</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UNWIELDY_HELP">
-			<Text>[COLOR_NEGATIVE_TEXT]Cannot Heal[ENDCOLOR].[NEWLINE]-50% [ICON_RANGE_ATTACK] Ranged Combat Strength when attacking [COLOR_NEGATIVE_TEXT]Land Units[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Lost on Upgrade.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]회복 불가[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]지상 유닛[ENDCOLOR] 공격시 [ICON_RANGE_ATTACK] 원거리 전투력 -50% 감소[NEWLINE][COLOR_POSITIVE_TEXT]업그레이드시 소실[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SAFAVI_AGITATOR">
-			<Text>Safavi Agitator</Text>
+			<Text>사파비 운동가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SAFAVI_AGITATOR_HELP">
-			<Text>Gain 20 [ICON_GOLD] Gold, 10 [ICON_PEACE] Faith, and [ICON_GOLDEN_AGE] Golden Age Points when [ICON_RAZING] Pillaging Improvements, scaling with Era.</Text>
+			<Text>시설 [ICON_RAZING] 약탈시 [ICON_GOLD] 골드 20, [ICON_PEACE] 신앙 10, [ICON_GOLDEN_AGE] 황금기 점수 획득 (시대에 따라 보정)</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_FIGHTING_COCK">
-			<Text>Fighting Cock</Text>
+			<Text>싸움닭</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIGHTING_COCK_HELP">
-			<Text>+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].</Text>
+			<Text>최대 체력이 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 패널티 제거</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_AGE_OF_DISCOVERY">
-			<Text>Age of Discovery</Text>
+			<Text>대항해시대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AGE_OF_DISCOVERY_HELP">
-			<Text>Gain [ICON_GOLD] Gold and XP when revealing tiles.</Text>
+			<Text>새로운 지역 탐색시 [ICON_GOLD] 골드와 경험치 획득</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_LEGATUS_LEGIONIS">
-			<Text>Legatus Legionis</Text>
+			<Text>레가투스 레기오니스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LEGATUS_LEGIONIS_HELP">
-			<Text>+1 [ICON_MOVES] Movement if a [ICON_GREAT_GENERAL] Great General is within 2 tiles.</Text>
+			<Text>2타일 이내에 [ICON_GREAT_GENERAL] 위대한 장군이 있으면 [ICON_MOVES] 이동력 +1 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_PRAEFECTUS_CASTRORUM">
-			<Text>Praefectus Castrorum</Text>
+			<Text>프라에펙투스 카스트로룸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRAEFECTUS_CASTRORUM_HELP">
-			<Text>+60% [ICON_WORKER] Work Rate if a [ICON_GREAT_GENERAL] Great General is within 2 tiles.[NEWLINE][COLOR_NEGATIVE_TEXT]Lost on Upgrade.[ENDCOLOR]</Text>
+			<Text>2타일 이내에 [ICON_GREAT_GENERAL] 위대한 장군이 있으면 [ICON_WORKER] 작업 속도 +60% 증가[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드시 소실[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_GRAPESHOT">
-			<Text>Grapeshot</Text>
+			<Text>포도탄</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GRAPESHOT_HELP">
-			<Text>+33% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Melee[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Gunpowder Units[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]근접[ENDCOLOR] 및 [COLOR_POSITIVE_TEXT]화약 유닛[ENDCOLOR]을 공격시 [ICON_RANGE_STRENGTH] 원거리 전투력 +33% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_BIG_HORSE_DANCE">
-			<Text>Big Horse Dance</Text>
+			<Text>대형 기마 무용</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_HORSE_DANCE_HELP">
-			<Text>+20% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Fortified[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]요새화[ENDCOLOR]시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 패널티 제거</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_CROUCHING_TIGER">
-			<Text>Crouching Tiger</Text>
+			<Text>웅크린 호랑이</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CROUCHING_TIGER_HELP">
-			<Text>15 bonus Damage when attacking if the Unit has not moved this turn.[NEWLINE][COLOR_NEGATIVE_TEXT]Lost on Upgrade.[ENDCOLOR]</Text>
+			<Text>이번 턴에 유닛이 움직이지 않았다면 공격 시 15 추가 데미지[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드시 소실[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_FATHER_OF_THE_HORSE">
-			<Text>Father of the Horse</Text>
+			<Text>말의 수호신</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FATHER_OF_THE_HORSE_HELP">
-			<Text>+15% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Mounted Units[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]기마 유닛[ENDCOLOR]에 대해 [ICON_STRENGTH] 전투력 +15% 증가</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_SANTA_MARIA">
-			<Text>Santa Maria</Text>
+			<Text>성모 마리아</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SANTA_MARIA_HELP">
-			<Text>Gain 100% of the [ICON_STRENGTH] Combat Strength of defeated Enemy Units as [ICON_GREAT_ADMIRAL] Great Admiral Points.</Text>
+			<Text>패배한 적 유닛의 [ICON_STRENGTH] 전투력 100%를 [ICON_GREAT_ADMIRAL] 위대한 제독 점수로 획득</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_INVINCIBLE">
-			<Text>Invicible</Text>
+			<Text>천하무적</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_INVINCIBLE_HELP">
-			<Text>+6 [ICON_STRENGTH] Combat Strength if the Unit started the turn with full HP.</Text>
+			<Text>유닛이 턴을 최대 체력으로 시작했다면 [ICON_STRENGTH] 전투력 +6 증가</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

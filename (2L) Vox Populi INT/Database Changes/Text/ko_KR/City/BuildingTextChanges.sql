@@ -306,17 +306,17 @@ WHERE Tag = 'TXT_KEY_BUILDING_UNITED_NATIONS_STRATEGY';
 
 -- Cathedral
 UPDATE Language_ko_KR
-SET Text = '대성당 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 빈곤을 감소시키고 농장과 목장의 [ICON_GOLD] 골드를 증가시킵니다. 국경이 확장될 때 [ICON_GOLD] 골드를 제공합니다.'
+SET Text = '대성당 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE] 신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 빈곤을 감소시키고 농장과 목장의 [ICON_GOLD] 골드를 증가시킵니다. 국경이 확장될 때 [ICON_GOLD] 골드를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CATHEDRAL_STRATEGY';
 
 -- Mosque
 UPDATE Language_ko_KR
-SET Text = '모스크 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 문맹을 감소시키고 [ICON_GOLDEN_AGE] 황금기 동안 문화를 제공합니다.'
+SET Text = '모스크 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE] 신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 문맹을 감소시키고 [ICON_GOLDEN_AGE] 황금기 동안 문화를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_STRATEGY';
 
 -- Pagoda
 UPDATE Language_ko_KR
-SET Text = '파고다 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 무료를 감소시키고 도시의 종교의 수에 따라 추가 산출을 제공합니다.'
+SET Text = '파고다 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE] 신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 무료를 감소시키고 도시의 종교의 수에 따라 추가 산출을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_PAGODA_STRATEGY';
 
 -- Corporation franchises

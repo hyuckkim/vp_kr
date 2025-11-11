@@ -185,7 +185,7 @@
 			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 이제 당신의 주요 [ICON_RELIGION]종교입니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_STATE_RELIGION">
-			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 당신 문명의 새로운 주요 [ICON_RELIGION]종교가 되었습니다. 당신은 이제 이전 [ICON_RELIGION]종교의 교리 대신 {1_ReligionName}의 창시자 및 강화 교리의 혜택을 받습니다. 저장된 모든 [ICON_PEACE]신앙은 [ICON_GOLDEN_AGE]황금기 점수로 전환됩니다.([ICON_RELIGION]종교가 보장된 문명은 제외)</Text>
+			<Text>{1_ReligionName}{1: plural 1?이; 2?가;} 당신 문명의 새로운 주요 [ICON_RELIGION] 종교가 되었습니다. 당신은 이제 이전 [ICON_RELIGION] 종교의 교리 대신 {1_ReligionName}의 창시자 및 강화 교리의 혜택을 받습니다. 저장된 모든 [ICON_PEACE] 신앙은 [ICON_GOLDEN_AGE] 황금기 점수로 전환됩니다.([ICON_RELIGION] 종교가 보장된 문명은 제외)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_LOST_HOLY">
@@ -402,13 +402,13 @@
 			<Text>{1_Civ:textkey} {@1_CivName: plural 1?이; 2?가;} 고대 유적에서 받은 보상: {@2_Reward}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_RECEIVED_SCIENCE">
-			<Text>[SPACE] {1_Num} [ICON_RESEARCH]과학을 획득했습니다!</Text>
+			<Text>[SPACE] {1_Num} [ICON_RESEARCH] 과학을 획득했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_RECEIVED_CULTURE">
-			<Text>[SPACE] {1_Num} [ICON_CULTURE]문화를 획득했습니다!</Text>
+			<Text>[SPACE] {1_Num} [ICON_CULTURE] 문화를 획득했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_RECEIVED_FAITH">
-			<Text>[SPACE] {1_Num} [ICON_PEACE]신앙을 획득했습니다!</Text>
+			<Text>[SPACE] {1_Num} [ICON_PEACE] 신앙을 획득했습니다!</Text>
 		</Row>
 
 		<!-- Instant yields -->
@@ -524,40 +524,40 @@
 			<Text>[ICON_STRENGTH]{2_Unit} 레벨 업:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DELEGATES">
-			<Text>총 [ICON_DIPLOMAT]대표단:[NEWLINE]{1_YieldString}</Text>
+			<Text>총 [ICON_DIPLOMAT] 대표단:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SPIES">
-			<Text>[ICON_SPY]첩보 활동:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_SPY] 첩보 활동:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_MINOR_QUEST">
-			<Text>[ICON_CITY_STATE]도시 국가 {2_MinorName}의 퀘스트: ({1_Data})[NEWLINE]{2_YieldString}</Text>
+			<Text>[ICON_CITY_STATE] 도시 국가 {2_MinorName}의 퀘스트: ({1_Data})[NEWLINE]{2_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_HEAVY_TRIBUTE_QUEST">
 			<Text>[ICON_PIRATE] {2_MinorName}에게 공물을 요구 - 퀘스트 보상 ({1_Data}):[NEWLINE]{3_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CULTURE_BOMB">
-			<Text>위인의 문화 폭탄으로 [ICON_CULTURE]국경 확장:[NEWLINE]{1_YieldString}</Text>
+			<Text>위인의 문화 폭탄으로 [ICON_CULTURE] 국경 확장:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_REMOVE_HERESY">
-			<Text>[ICON_INQUISITOR]이단 제거:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_INQUISITOR] 이단 제거:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_PURCHASE">
-			<Text>[ICON_PEACE]신앙으로 구매:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PEACE] 신앙으로 구매:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PROMOTION_OBTAINED">
-			<Text>[ICON_STRENGTH]승급 부여:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_STRENGTH] 승급 부여:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BARBARIAN_CAMP_CLEARED">
-			<Text>[ICON_VICTORY_DOMINATION]야만인 주둔지 처치:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_VICTORY_DOMINATION] 야만인 주둔지 처치:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_PRODUCTION_SIPHON">
-			<Text>[ICON_INTERNATIONAL_TRADE]교역로와 연결된 목적지:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] 교역로와 연결된 목적지:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_IMPROVEMENT_BUILD">
 			<Text>시설 건설:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_RESEARCH_AGREEMENT">
-			<Text>[ICON_RESEARCH]연구 협약:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_RESEARCH] 연구 협약:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_LUXURY_RESOURCE_GAIN">
 			<Text>사치 자원 획득:[NEWLINE]{1_YieldString}</Text>
@@ -569,10 +569,10 @@
 			<Text>도시 국가에 유닛 선물:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_REFUND">
-			<Text>[ICON_PRODUCTION]무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PRODUCTION] 무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_REFUND">
-			<Text>[ICON_PEACE]무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PEACE] 무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
 			<Text>도로 설립</Text>
@@ -608,13 +608,13 @@
 			<Text>보호 선언</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_CULTURE_NAME">
-			<Text>[ICON_CULTURE]문화 경쟁</Text>
+			<Text>[ICON_CULTURE] 문화 경쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_FAITH_NAME">
-			<Text>[ICON_PEACE]신앙 경쟁</Text>
+			<Text>[ICON_PEACE] 신앙 경쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_TECHS_NAME">
-			<Text>[ICON_SCIENCE]기술 경쟁</Text>
+			<Text>[ICON_SCIENCE] 기술 경쟁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_INVEST_NAME">
 			<Text>투자</Text>
@@ -852,19 +852,19 @@
 			<Text>[COLOR_YELLOW]     잠재적인 퀘스트 보상:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_INFLUENCE">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_INFLUENCE]영향력 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_INFLUENCE] 영향력 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_ADMIRAL">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_GREAT_ADMIRAL]위대한 제독 점수 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_GREAT_ADMIRAL] 위대한 제독 점수 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GENERAL">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_GREAT_GENERAL]위대한 장군 점수 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_GREAT_GENERAL] 위대한 장군 점수 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_CULTURE">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CULTURE]문화 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CULTURE] 문화 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_EXPERIENCE">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET]모든 군사 유닛에 경험치 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] 모든 군사 유닛에 경험치 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_JUGGERNAUTS">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] 강력한 유닛 {1_Num}개[ENDCOLOR]</Text>
@@ -873,34 +873,34 @@
 			<Text> (추가 경험치 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_FAITH">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_PEACE]신앙 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_PEACE] 신앙 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_FOOD">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CAPITAL]수도에서 [ICON_FOOD]식량 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CAPITAL] 수도에서 [ICON_FOOD]식량 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GAP">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_GOLDEN_AGE]황금기 점수 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_GOLDEN_AGE] 황금기 점수 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GOLD">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_GOLD]골드 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_GOLD] 골드 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GPP">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CAPITAL]수도에서 [ICON_GREAT_PEOPLE]위인 점수 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CAPITAL] 수도에서 [ICON_GREAT_PEOPLE] 위인 점수 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GPP_GLOBAL">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET]모든 도시에서 [ICON_GREAT_PEOPLE]위인 점수 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] 모든 도시에서 [ICON_GREAT_PEOPLE] 위인 점수 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_HAPPINESS">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CAPITAL]수도에서 [ICON_HAPPINESS_1]행복 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CAPITAL]수도에서 [ICON_HAPPINESS_1] 행복 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_TOURISM">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET]만난 모든 문명에 대한 [ICON_TOURISM]관광 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] 만난 모든 문명에 대한 [ICON_TOURISM] 관광 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_PRODUCTION">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CAPITAL]수도에서 [ICON_PRODUCTION]생산 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_CAPITAL] 수도에서 [ICON_PRODUCTION] 생산 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_SCIENCE">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_RESEARCH]과학 {1_Num}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_RESEARCH] 과학 {1_Num}[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Project completion -->
