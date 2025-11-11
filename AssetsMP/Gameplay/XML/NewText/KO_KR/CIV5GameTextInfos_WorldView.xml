@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy. Modified by N-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_ACPANEL_END_TURN">
+      <Text>턴 종료</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_BY_FEATURE">
+      <Text>{2_FeatureName:textkey}{2: plural 1?을; 2?를;} 제거하려면 {1_TechName:textkey}의 연구가 필요합니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_OUTSIDE_TERRITORY">
+      <Text>영토 밖에선 {1_ImprovementName:textkey}{1: plural 1?을; 2?를;} 건설할 수 없습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_PREREQ_TECH">
+      <Text>{2_ImprovementName:textkey}{2: plural 1?을; 2?를;} 건설하려면 {1_TechName:textkey}의 연구가 필요합니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CONNECTS_RESOURCE">
+      <Text>이 타일의 {1_Icon}[COLOR_POSITIVE_TEXT]{2_ResouceName:textkey}[ENDCOLOR]{2: plural 1?을; 2?를;} 국가 무역망에 연결합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEATURE_CLEARED">
+      <Text>이 타일의 [COLOR_POSITIVE_TEXT]{1_FeatureName:textkey}[ENDCOLOR]{1: plural 1?이; 2?가;} 사라집니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_NUM_TURNS">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_ANNEX_TT">
+      <Text>[COLOR_YELLOW]클릭하면 이 도시를 합병합니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_BLOCKADED">
+      <Text>도시가 적의 유닛에게 [ICON_BLOCKADED]봉쇄당했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_BURNING">
+      <Text>도시가 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 뒤에 완전히 [ICON_RAZING]소각되어 재만 남습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>도시가 [ICON_CAPITAL]수도와 연결된 [ICON_CONNECTED]교역로를 완성했습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CURRENTLY_PRODUCING_99PLUS_TT">
+      <Text>{1_CityName}에서 {@2_BldgName}{@2: plural 1?을; 2?를;} 생산하는데 [COLOR_POSITIVE_TEXT]99 턴[ENDCOLOR] 이상 걸립니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CURRENTLY_PRODUCING_TT">
+      <Text>{1_CityName}에서 {@2_BldgName}{@2: plural 1?이; 2?가;} [COLOR_POSITIVE_TEXT]{3_Num} 턴[ENDCOLOR] 뒤에 완성됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_ENTER_CITY_SCREEN">
+      <Text>[COLOR_YELLOW]클릭하면 도시 화면으로 들어갑니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_MAKE_RANGED_ATTACK">
+      <Text>[COLOR_YELLOW]클릭하면 도시의 원거리 공격을 지휘합니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOT_PRODUCING">
+      <Text>{1_CityName}에서 아무것도 생산하고 있지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_OCCUPIED">
+      <Text>도시를 [ICON_OCCUPIED]점령했습니다! 법원을 건설하기 전까지 추가적인 [ICON_HAPPINESS_4]불행이 발생합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_OF">
+      <Text>{1_CivAdjective:textkey} 도시 [COLOR_POSITIVE_TEXT]{2_CityName}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_PUPPET">
+      <Text>도시에 [ICON_PUPPET]괴뢰정부를 세웠습니다! [ICON_PUPPET]괴뢰정부가 유지되는 동안 도시에 명령을 내릴 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_PUPPET_OTHER">
+      <Text>도시가 [ICON_PUPPET]괴뢰정부 상태입니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_RESISTANCE">
+      <Text>도시에서 시민이 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 동안 [ICON_RESISTANCE]저항합니다! 도시는 그동안 아무것도 할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SCREEN_EXIT_TOOLTIP">
+      <Text>도시 화면을 끝내고 전체 지도로 돌아갑니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STARVING_TT">
+      <Text>{1_CityName}{1: plural 1?이; 2?가;} 굶주리고 있습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_BARB_QUEST_LONG">
+      <Text>[COLOR:240:240:140:255]{1_CivName:textkey}{1: plural 1?이; 2?가;} 당신에게 이곳에 있는 야만인 주둔지를 파괴해주길 원하고 있습니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_BARB_QUEST_SHORT">
+      <Text>[COLOR:240:240:140:255]도시 국가 퀘스트[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STOPPED_GROWING_TT">
+      <Text>{1_CityName}의 성장이 멈추고 [COLOR_POSITIVE_TEXT]{2_Num} [ENDCOLOR][ICON_CITIZEN]시민이 유지됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_WILL_GROW_TT">
+      <Text>{1_CityName}의 [ICON_CITIZEN]시민이 [COLOR_YELLOW]{2_Num}명[ENDCOLOR]에서 [COLOR_YELLOW]{3_Num}명[ENDCOLOR]으로 늘어나는 데 [COLOR_POSITIVE_TEXT]{4_Num} 턴[ENDCOLOR]이 걸립니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BLOCKADED_CITY_TILE">
+      <Text>적이 타일을 [ICON_BLOCKADED]봉쇄하고 있습니다. 적이 사라질 때까지 사용할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUILDING_LIST">
+      <Text>건물 목록</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUY_PLOT_TEXT">
+      <Text>토지 구매</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUY_TILE">
+      <Text>타일 구매</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUY_TILE_TT">
+      <Text>타일을 [ICON_GOLD]골드로 구매할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUYPLOT_TT">
+      <Text>[ICON_GOLD]골드가 충분하다면, 타일을 구매할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CHANGE_PROD">
+      <Text>생산 변경</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CHANGE_PROD_TT">
+      <Text>현재 진행 중인 생산을 변경합니다. 한 번에 하나의 생산만 진행할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CHOOSE_PROD">
+      <Text>생산 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CHOOSE_PROD_TT">
+      <Text>도시에서 무엇을 생산할지 정합니다. 한 번에 하나의 생산만 진행할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITIZEN_ALLOCATION">
+      <Text>시민 관리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITIZEN_ICON_TT">
+      <Text>시민 문양</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITY_CENTER">
+      <Text>가운데의 도시에는 무료로 [ICON_CITIZEN]시민이 배치됩니다. 클릭하면 도시 관리자가 [ICON_CITIZEN]시민을 재배치 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITY_COMB_STRENGTH_TT">
+      <Text>도시 [ICON_STRENGTH]전투력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITYINFO_TEXT">
+      <Text>도시 정보</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CLAIM_NEW_LAND">
+      <Text>이 타일을 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드에 구매합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_EACH">
+      <Text>을 각각 생산합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_EMPTY_SLOT">
+      <Text>클릭하면 [ICON_CITIZEN]시민을 [COLOR_POSITIVE_TEXT]전문가[ENDCOLOR]로 배치합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_ENEMY_UNIT_CITY_TILE">
+      <Text>이 타일에 적이 있습니다. 적이 사라질 때까지 사용할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TEXT">
+      <Text>성장 회피</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT">
+      <Text>클릭하면 가급적 인구증가를 피하는 방향으로 [ICON_CITIZEN]시민을 배치합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BALANCED_TEXT">
+      <Text>기본값으로 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BALANCED_TT">
+      <Text>[ICON_CITIZEN]시민을 기본 설정으로 배치합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_C_TEXT">
+      <Text>도시 중점 생산 닫기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_O_TEXT">
+      <Text>도시의 중점 생산을 관리합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_TT">
+      <Text>도시 중점 생산 열기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_CULTURE_TEXT">
+      <Text>[ICON_CULTURE]문화 생산에 집중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_CULTURE_TT">
+      <Text>[ICON_CITIZEN]시민을 [ICON_CULTURE]문화 생산에 집중시킵니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_FOOD_TEXT">
+      <Text>[ICON_FOOD]식량 생산에 집중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_FOOD_TT">
+      <Text>[ICON_CITIZEN]시민을 [ICON_FOOD]식량 생산에 집중시킵니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_GOLD_TEXT">
+      <Text>[ICON_GOLD]골드 생산에 집중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_GOLD_TT">
+      <Text>[ICON_CITIZEN]시민을 [ICON_GOLD]골드 생산에 집중시킵니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_GREAT_PERSON_TEXT">
+      <Text>[ICON_GREAT_PEOPLE]위인 생산에 집중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_GREAT_PERSON_TT">
+      <Text>[ICON_CITIZEN]시민을 [ICON_GREAT_PEOPLE]위인 생산에 집중시킵니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_PROD_TEXT">
+      <Text>[ICON_PRODUCTION]생산 생산에 집중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_PROD_TT">
+      <Text>[ICON_CITIZEN]시민을 [ICON_PRODUCTION]생산 생산에 집중시킵니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESEARCH_TEXT">
+      <Text>[ICON_RESEARCH]과학 생산에 집중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESEARCH_TT">
+      <Text>[ICON_CITIZEN]시민을 [ICON_RESEARCH]과학 생산에 집중시킵니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESET_TEXT">
+      <Text>타일 초기화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESET_TT">
+      <Text>클릭하면 당신이 임의적으로 배치한 [ICON_CITIZEN]시민을 모두 초기화하고 기본값으로 설정합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOOD_IN_TURNS">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num} [ICON_FOOD]식량/턴[ENDCOLOR], [COLOR_POSITIVE_TEXT]{2_Num} 턴[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOOD_IN_TURNS_TT">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR] 뒤에 [ICON_CITIZEN]시민이 증가합니다. [ICON_CITIZEN]시민을 도시 근처의 타일에 배치하여 자원을 획득 할 수 있습니다..</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOOD_TEXT">
+      <Text>식량</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FORCED_WORK_TILE">
+      <Text>수동적으로 [ICON_CITIZEN]시민을 배치한 타일입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_GG_PROGRGRESS">
+      <Text>위대한 장군 탄생 진행상황</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_GP_PROGRGRESS">
+      <Text>위인 탄생 진행상황</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_GUVNA_WORK_TILE">
+      <Text>도시 관리자가 이 타일에 [ICON_CITIZEN]시민을 배치했습니다. 클릭하여 제거할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_MAINTENANCE">
+      <Text>유지비:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_MANUAL_SPEC_CONTROL">
+      <Text>전문가 수동 배치</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_NEED_MONEY_BUY_TILE">
+      <Text>이 타일을 구매하려면 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드가 필요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_NEED_MONEY_BUY_TILE_TT">
+      <Text>[ICON_GOLD]골드가 충분하다면, 타일을 구매할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_NUTHA_CITY_TILE">
+      <Text>당신의 다른 도시가 [ICON_CITIZEN]시민을 배치한 타일입니다. 클릭하여 [ICON_CITIZEN]시민을 배치할 수 있지만, 다른 도시에서의 사용이 취소됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_OFF">
+      <Text>꺼짐</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_OTHER">
+      <Text>그 외</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PERTURN_TEXT">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_perTurn:number "#.##"}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PERTURN_TEXT_NEGATIVE">
+      <Text>[COLOR_WARNING_TEXT]{1_perTurn:number "#.##"}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PLACEHOLDER_TT">
+      <Text>자리 표시자!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PROD_METER_TT">
+      <Text>마우스 우클릭으로 더 많은 정보를 볼 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PRODUCE_BUTTON">
+      <Text>생산</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PRODUCE_RESEARCH">
+      <Text>[ICON_RESEARCH]과학 생산</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PRODUCE_WEALTH">
+      <Text>[ICON_GOLD]골드 생산</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PURCHASE_BUTTON">
+      <Text>구매</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PURCHASE_TT">
+      <Text>[ICON_GOLD]골드가 충분하면 유닛이나 건물을 즉시 구매할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_Q_DOWN_TEXT">
+      <Text>생산 예약을 뒤로 미룹니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_Q_UP_TEXT">
+      <Text>생산 예약을 앞당깁니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_Q_X_TEXT">
+      <Text>생산 예약을 삭제합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_C">
+      <Text>대기열 숨기기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_C_TT">
+      <Text>생산 대기열 닫기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_O">
+      <Text>대기열 표시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_O_TT">
+      <Text>생산 대기열 열기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_PROD">
+      <Text>대기열 추가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_PROD_TT">
+      <Text>생산 대기열에 6개까지 항목을 추가합니다. 한 번에 하나의 항목만 생산됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_SELECTION">
+      <Text>대기열 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_DISABLED_BECAUSE_CAPITAL_TT">
+      <Text>최초의 [ICON_CAPITAL]수도였던 도시는 태울 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_TEXT">
+      <Text>도시 불태우기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_TT">
+      <Text>불타라! 불타! 다 타버려라!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED">
+      <Text>필요한 자원: [COLOR_POSITIVE_TEXT]{1_ResourceName}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT">
+      <Text>이 자원이 도시에 제공되면 도시가 "국왕 경축일"을 맞이합니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT">
+      <Text>도시가 "국왕 경축일"을 맞이하였습니다! [ICON_FOOD]식량이 증가합니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RETURN_TO_MAP">
+      <Text>세계 지도로 돌아가기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RETURN_TT">
+      <Text>돌아가기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_SPECIALISTCONTROL_TT">
+      <Text>체크 시 [COLOR_POSITIVE_TEXT]전문가[ENDCOLOR]를 수동으로 배치합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_STAGNATION_TEXT">
+      <Text>[COLOR_YELLOW]정체 중[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_STARVATION_TEXT">
+      <Text>[COLOR_WARNING_TEXT]기아 상태[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_TOGGLE_FOCUS_TT">
+      <Text>도시가 중점 생산할 분야를 바꿉니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_TURNS_TILL_CITIZEN_TEXT">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Turns:number} 턴[ENDCOLOR] 후 [ICON_CITIZEN]시민 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_TURNS_TILL_TILE_TEXT">
+      <Text>국경 확장까지 [COLOR_POSITIVE_TEXT]{1_Turns:number} 턴[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNEMPLOYED_TEXT">
+      <Text>실업자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNEMPLOYED_TOOLTIP">
+      <Text>클릭하면 도시 관리자가 [ICON_CITIZEN]시민을 재배치합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNRAZE_BUTTON_TEXT">
+      <Text>도시 진화하기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNRAZE_BUTTON_TT">
+      <Text>도시 불을 끕니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNWORKED_CITY_TILE">
+      <Text>이 타일은 활성화 되지 않았습니다. 클릭하여 [ICON_CITIZEN]시민을 배치할 수 있습니다. 하지만 도시 관리자가 선택해 놓은 배치에 영향을 줄 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER">
+      <Text>국왕 경축일 ([COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 남음)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_TOOLTIP">
+      <Text>게임의 다양한 요소들을 설명해 놓은 문명 백과사전을 엽니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMACY_OVERVIEW">
+      <Text>외교 개요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMIC_OVERVIEW">
+      <Text>경제 개요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ADJACENT_FRIEND_UNIT_BONUS">
+      <Text>인접한 우호 유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]전투기 혹은[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]지대공 유닛의 요격에 의한 피해가 생깁니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AMPHIBIOUS_ATTACK">
+      <Text>수륙양용 공격</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_CITIES">
+      <Text>도시와 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_CITIES_PENALTY">
+      <Text>도시와 전투시 페널티</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_IN_FRIEND_LANDS">
+      <Text>우호 영토에서 공격</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_INTO_BONUS">
+      <Text>{1_TerrainType}에서 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_MOD_BONUS">
+      <Text>공격 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_OVER_RIVER">
+      <Text>강을 건너 공격</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_CITY_STATE">
+      <Text>도시 국가 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_DEFENSE_TERRAIN">
+      <Text>{1_TerrainType}에서 방어시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_GOLDEN_AGE">
+      <Text>황금기 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_RELIGIOUS_BELIEF">
+      <Text>종교에 의한 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_CLASS">
+      <Text>{1_UnitType}과 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_DOMAIN">
+      <Text>승급에 의한 유닛 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_FORT_UNITS">
+      <Text>요새화된 유닛과 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_WOUND_UNITS">
+      <Text>부상당한 유닛과 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CURRENT_STATUS">
+      <Text>현재 상태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_DEFENSE_BONUS">
+      <Text>방어 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>[ICON_HAPPINESS_4]불행 페널티</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EXTRA_PERCENT">
+      <Text>전투 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_FIGHT_AT_HOME_BONUS">
+      <Text>우호 영토에서 받는 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_FLANKING_BONUS">
+      <Text>측면 공격 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_FORTIFICATION_BONUS">
+      <Text>요새화 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_GARRISONED_CITY_RANGE_BONUS">
+      <Text>주둔 유닛 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_GG_NEAR">
+      <Text>위대한 장군 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_HILL_ATTACK_BONUS">
+      <Text>험지 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_HILL_DEFENSE_BONUS">
+      <Text>언덕에서 방어시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_IMPROVEMENT_NEAR">
+      <Text>인접한 시설 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_LOWER_STRENGTH">
+      <Text>전투력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MAJOR_DEFEAT">
+      <Text>뼈아픈 패배</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MAJOR_VICTORY">
+      <Text>뛰어난 승리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MINOR_DEFEAT">
+      <Text>약소한 패배</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MINOR_VICTORY">
+      <Text>초라한 승리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MOVEMENT">
+      <Text>이동력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MY_COMBAT_INFO">
+      <Text>나의 전투 정보</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_BONUS">
+      <Text>평지 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_DEF_BONUS">
+      <Text>평지에서 방어시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_RANGE_BONUS">
+      <Text>원거리에서 평지 공격시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_OUTSIDE_HOME_BONUS">
+      <Text>우호 영토 밖에서 받는 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_POLICY_ATTACK_BONUS">
+      <Text>정책에서 얻는 공격 보너스 ({1_Num} 턴)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RANGED_ATTACK">
+      <Text>원거리 공격</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RANGED_ATTACK_MODIFIER">
+      <Text>원거리 공격 보정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_REVERSE_GG_NEAR">
+      <Text>인접한 적의 전쟁 의식</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RISKY_ATTACK">
+      <Text>희생이 큰 공격</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_BONUS">
+      <Text>험지 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_DEF_BONUS">
+      <Text>험지에서 방어시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_RANGED_BONUS">
+      <Text>원거리에서 험지 공격시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_SAFE_ATTACK">
+      <Text>안전한 공격</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_STALEMATE">
+      <Text>치열한 전투</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_STRATEGIC_RESOURCE">
+      <Text>전략 자원 부족 페널티</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_SUPPORT_DMG">
+      <Text>후방의 지원 공격 : ~{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_TERRAIN_MODIFIER">
+      <Text>지형 효과</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_THEIR_COMBAT_INFO">
+      <Text>적의 전투 정보</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_TOTAL_DEFEAT">
+      <Text>완벽한 패배</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_TOTAL_VICTORY">
+      <Text>완벽한 승리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_STRENGTH">
+      <Text>[ICON_STRENGTH]전투력 총합</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_THEIR_APPROXIMATE_DAMAGE">
+      <Text> : 적이 줄 예상 피해량</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_THEIR_STRENGTH">
+      <Text> : 적의 전투력[ICON_STRENGTH]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_YOUR_APPROXIMATE_DAMAGE">
+      <Text>당신이 줄 예상 피해량 : </Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_YOUR_STRENGTH">
+      <Text>[ICON_STRENGTH]당신의 전투력 : </Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]{1_Number}기[ENDCOLOR]의 지상 요격 유닛이 포착되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VS_BARBARIANS_BONUS">
+      <Text>야만인[ENDCOLOR]과 전투시 보너스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERAL_INFORMATION">
+      <Text>일반 정보</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOLDEN_AGE_ANNOUNCE">
+      <Text>[COLOR_POSITIVE_TEXT][COLOR:255:254:1:255]황금기![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HAPPINESS_AND_RESOURCES">
+      <Text>자원과 행복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HELP">
+      <Text>도움말</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HELP_CAPS">
+      <Text>도움말</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_CHOOSE">
+      <Text>정보 패널 바꾸기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_CITY">
+      <Text>도시 목록</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_DIPLO">
+      <Text>외교 정보</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_NONE">
+      <Text>닫기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_RESEARCH">
+      <Text>연구 정보</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_UNIT">
+      <Text>유닛 목록</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT">
+      <Text>시설</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS">
+      <Text>지도 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_HEX_GRID">
+      <Text>육각 격자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_HEX_GRID_TT">
+      <Text>타일의 육각 격자를 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_RECOMMENDATIONS">
+      <Text>추천 숨김</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_RECOMMENDATIONS_TT">
+      <Text>유닛에게 추천하는 행동을 숨깁니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_RESOURCE_ICONS">
+      <Text>자원 아이콘</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_RESOURCE_ICONS_TT">
+      <Text>지도 상에 모든 자원 아이콘을 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_TRADE_ROUTES">
+      <Text>교역로</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_TRADE_ROUTES_TT">
+      <Text>교역로를 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_UNIT_FLAGS">
+      <Text>유닛 깃발</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_UNIT_FLAGS_TT">
+      <Text>모든 유닛의 깃발을 숨깁니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_YIELD_ICONS">
+      <Text>산출량 아이콘</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_YIELD_ICONS_TT">
+      <Text>모든 타일의 산출량 아이콘을 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU">
+      <Text>메뉴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_CAPS">
+      <Text>메뉴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_TOOLTIP">
+      <Text>게임을 저장하려고 하거나 메인 메뉴로 나가는 등의 행동을 하려면 게임 메뉴를 여십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARY_OVERVIEW">
+      <Text>군사 개요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVES_LEFT">
+      <Text>남은 [ICON_MOVES]이동력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NAME">
+      <Text>이름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_SCIENCE">
+      <Text>과학 없음!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OUTPUT">
+      <Text>산출량</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_EMBARKED">
+      <Text>(승선함)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_FRESH_WATER">
+      <Text>[COLOR:0:240:240:255]담수[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_HILL">
+      <Text>언덕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_LAKE">
+      <Text>호수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_MIL_UNIT_STRENGTH">
+      <Text>{1_CivName} ({2_Player}), {3_Num}[ICON_STRENGTH], {4_Num}HP {5_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_MOUNTAIN">
+      <Text>산</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_OCEAN">
+      <Text>대양</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_OWNED_CIV">
+      <Text>[COLOR:240:240:140:255]{1_CivName:textkey}[ENDCOLOR]{1: plural 1?이; 2?가;} 소유 중인 타일</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_OWNED_PLAYER">
+      <Text>[COLOR:240:240:140:255]{1_PlayerName}의 도시가 소유 중인 타일[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_PILLAGED">
+      <Text>([COLOR_NEGATIVE_TEXT]약탈![ENDCOLOR])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_REQUIRES_TECH">
+      <Text>([COLOR_NEGATIVE_TEXT]{@1_TechName}의 연구가 필요함[ENDCOLOR])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_REQUIRES_TECH_TO_USE">
+      <Text>([COLOR_NEGATIVE_TEXT]사용하려면 {@1_TechName}의 연구가 필요함[ENDCOLOR])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_RIVER">
+      <Text>강</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>[ICON_CONNECTED]교역로</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_UNIT_DESCRIPTION_CIV">
+      <Text>{@1_CivAdjective} [COLOR_POSITIVE_TEXT]{@2_UnitName}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_UNIT_DESCRIPTION_PLAYER">
+      <Text>{1_PlayerName} : {2_UnitName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_UNIT_HP">
+      <Text>체력 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NOTIFICATION_LOG">
+      <Text>알림 기록</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_CIVILIZATION">
+      <Text>문명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESSING_MINOR_CIVS">
+      <Text>도시 국가의 턴 진행중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESSING_TURN_FOR">
+      <Text>{1_CivilizationName}의 턴 진행중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESSING_TURN_FOR_UNMET_PLAYER">
+      <Text>{1_PlayerCount}플레이어의 턴 진행중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE">
+      <Text>자원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RETURN">
+      <Text>돌아가기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STATUS">
+      <Text>상태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_ALL">
+      <Text>모든</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_IMPROVEMENTS">
+      <Text>시설</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_NONE">
+      <Text>없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_RESOURCES">
+      <Text>자원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_UNITS">
+      <Text>유닛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_CULTURE">
+      <Text>정치 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_NONE">
+      <Text>덮어쓰기 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_PASSABLE_TERRAIN">
+      <Text>이동 가능한 지형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_RESOURCES">
+      <Text>자원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>[ICON_CONNECTED]교역로</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_UNIT_COMBAT_TYPE">
+      <Text>유닛 전투 방식</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_UNIT_CULTURE">
+      <Text>유닛의 소유자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_UNIT_DOMAIN">
+      <Text>유닛의 소속</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_UNIT_TYPE">
+      <Text>유닛의 종류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_AVAILABLE_GOLD">
+      <Text>총 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드를 사용할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CITY_OUTPUT">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_ACCUMULATED">
+      <Text>현재 총 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_CULTURE]문화가 모였습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>당신이 소유한 도시들은 사회 정책 채택에 필요한 [ICON_CULTURE]문화를 도시마다 각각 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]씩 증가시킵니다! [ICON_CULTURE]문화 중심의 게임을 원하신다면, 너무 많은 확장은 피하는 것이 좋습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FOR_FREE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  무료로 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_CITIES">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_HAPPINESS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  행복에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_MINORS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시 국가에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_TRAITS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  특성에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_NEXT_POLICY">
+      <Text>새로운 사회 정책을 채택하려면 [COLOR_POSITIVE_TEXT]{1_NumNeeded} [ENDCOLOR][ICON_CULTURE]문화가 필요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>당신의 문명은 [ICON_HAPPINESS_4]불행이 [COLOR_NEGATIVE_TEXT]20[ENDCOLOR]에 도달했기 때문에 반란이 일어났습니다! 당신은 이 상황을 해결하기 전까지는 당신의 영토에서 반란군이 주기적으로 나타날 것입니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>국가가 [ICON_HAPPINESS_3]불행한 상태입니다! 도시의 성장이 정상속도의 [COLOR_NEGATIVE_TEXT]1/4[ENDCOLOR]로 감소합니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>당신의 문명은 [ICON_HAPPINESS_4]불행이 [COLOR_NEGATIVE_TEXT]10[ENDCOLOR]에 도달했기 때문에 매우 [ICON_HAPPINESS_4]불행한 상태입니다! 도시의 성장이 멈추고, 개척자를 생산할 수 없습니다. [ICON_PRODUCTION]생산이 엄청나게 감소하고, 유닛들이 전투에서 악영향을 받습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_BUILDING_MAINT">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  건물 유지비로 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_EXPLANATION">
+      <Text>[ICON_GOLD]골드를 사용하여 영토를 확장하고, 도시에서 유닛과 건물을 구매할 수 있습니다.  도시 국가에 선물하여 [ICON_INFLUENCE]영향력을 높일 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_OTHERS">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  다른 문명에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_CAPITAL]수도와 연결된 도시들의 [ICON_CONNECTED]교역로에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_TILE_MAINT">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  타일의 시설 유지비로 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_TO_OTHERS">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  다른 문명에게 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_UNIT_SUPPLY">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  영토 밖의 유닛 보급에 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_HAPPINESS_1]행복에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_EFFECT">
+      <Text>[ICON_GOLDEN_AGE]황금기가 진행되는 동안, 최소한 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_GOLD]골드라도 생산하는 모든 타일에 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_GOLD]골드가 제공되며, 모든 도시의 [ICON_PRODUCTION]생산 보너스가 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_LOSS">
+      <Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_HAPPINESS_4]불행에서 손실</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_NOW">
+      <Text>국가의 [ICON_GOLDEN_AGE]황금기가 [COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR]간 더 지속됩니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_PROGRESS">
+      <Text>[ICON_BULLET][ICON_GOLDEN_AGE]황금기에 들어가기 위한 [ICON_HAPPINESS_1]행복의 누적이 [COLOR_POSITIVE_TEXT]{1_NumCurrent}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{2_NumNeeded}[ENDCOLOR] 진행됐습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_BUILDINGS">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  건물에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_CITY_COUNT">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시의 수에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_CITY_STATE_FRIENDSHIP">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시 국가에 대한 [ICON_INFLUENCE]영향력에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_CONNECTED_CITIES">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_CAPITAL]수도와 [ICON_CONNECTED]무역로가 연결된 도시에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_DIFFICULTY_LEVEL">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  난이도에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_EACH_RESOURCE">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  {2_ResourceIcon}[COLOR_POSITIVE_TEXT]{3_ResourceName:textkey}[ENDCOLOR]에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_EXPLANATION">
+      <Text>[ICON_HAPPINESS_1]행복은 도시가 계속해서 성장하는데 필요합니다. [ICON_HAPPINESS_4]불행은 역효과를 냅니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_EXTRA_PER_RESOURCE">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  각 사치 자원([COLOR_POSITIVE_TEXT]{2_NumResources}[ENDCOLOR])에서 추가로 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_FROM_RESOURCES">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  아래의 사치 자원에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_GARRISONED_UNITS">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시에 주둔중인 병력에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  자연 불가사의의 발견에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_OTHER_SOURCES">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  다른 출처에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_POLICIES">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  사회 정책에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_RESOURCE_VARIETY">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]  다양한 종류의 사치 자원에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_SOURCES">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num} [ENDCOLOR][ICON_HAPPINESS_1]행복</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_STATE_RELIGION">
+      <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  국교가 전파된 도시에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_LOSING_SCIENCE_FROM_DEFICIT">
+      <Text>재정 적자를 [ICON_RESEARCH]과학에서 충당합니다.([COLOR_NEGATIVE_TEXT]-1[ENDCOLOR] [ICON_GOLD]골드당 [COLOR_NEGATIVE_TEXT]-1[ENDCOLOR] [ICON_RESEARCH]과학)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_NO_RESOURCES_DISCOVERED">
+      <Text>아직 발견한 자원이 없습니다!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_RESOURCE_INFO">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR] 중 [COLOR_WARNING_TEXT]{2_Num}개[ENDCOLOR] 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_RESOURCE_NONE">
+      <Text>연결된 자원이 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE">
+      <Text>기술의 연구 개발에 [COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_RESEARCH]과학을 공급받고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_BUDGET_DEFICIT">
+      <Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  국고의 [ICON_GOLD]골드가 [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]이 되어 재정 적자만큼 감소</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_CITIES">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_HAPPINESS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  [ICON_HAPPINESS_1]행복에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_MINORS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  도시 국가에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_RESEARCH_AGREEMENTS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  다른 문명과 연구 협정에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TOTAL_EXPENSES">
+      <Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_GOLD]골드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TOTAL_HAPPINESS">
+      <Text>국가의 총 [ICON_HAPPINESS_1]행복도는 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TOTAL_INCOME">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num} [ENDCOLOR][ICON_GOLD]골드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TOTAL_UNHAPPINESS">
+      <Text>국가의 총 {1_Icon}불행도는 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TURN_COUNTER">
+      <Text>턴 : {1_Nim}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_CAPTURED_CITY_COUNT">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_OCCUPIED]점령한 도시에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_CITY_COUNT">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  도시의 수에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_OCCUPIED]점령한 도시의 [ICON_CITIZEN]시민에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_POPULATION">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  [ICON_CITIZEN]시민에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUPPET_CITIES">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num : number "#.##"}[ENDCOLOR]  [ICON_PUPPET]괴뢰정부의 [ICON_CITIZEN]시민에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_SPECIALISTS">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num : number "#.##"}[ENDCOLOR]  [ICON_CITIZEN]전문가에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_TOTAL">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num} [ICON_HAPPINESS_4]불행[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_UNITS">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  유닛에서 획득</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNIT_MAINT">
+      <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]  유닛 유지비로 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UN_VOTES_TO_WIN">
+      <Text>승리하기 위해선 UN투표가 필요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_NAME">
+      <Text>유닛 이름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_STATUS">
+      <Text>유닛 상태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CLICK_TO_SELECT">
+      <Text>[NEWLINE][COLOR_YELLOW]클릭하면 유닛을 선택합니다.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CYCLELEFT">
+      <Text>아직 명령을 받지 못한 유닛을 선택합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CYCLERIGHT">
+      <Text>아직 명령을 받지 못한 유닛을 선택합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_HEALTH">
+      <Text>체력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_MOVEMENT">
+      <Text>이동력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_MOVEMENT_TT">
+      <Text>이 유닛이 이번 턴에 이동할 수 있는 타일의 수입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RANGED_ATTACK">
+      <Text>원거리 공격력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RANGED_ATTACK_TT">
+      <Text>유닛의 [ICON_RANGE_STRENGTH]원거리 공격력을 나타냅니다. 유닛의 [ICON_RANGE_STRENGTH]원거리 공격력이 높을수록 전투에서 좋은 결과를 얻습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RANGEMOVEMENT">
+      <Text>원거리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RANGEMOVEMENT_TT">
+      <Text>이 유닛이 이번 턴에 날아갈 수 있는 타일의 수입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RECOMMENDED">
+      <Text>추천 : </Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_REPAIR_TILE">
+      <Text>타일 복구</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_REPAIR_TILE_3">
+      <Text>타일 복구 (3)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_SET_HITPOINTS_TT">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 체력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_STRENGTH">
+      <Text>전투력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_STRENGTH_TT">
+      <Text>유닛의 [ICON_STRENGTH]전투력을 나타냅니다. 유닛의 [ICON_STRENGTH]전투력이 높을수록 전투에서 좋은 결과를 얻습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_MAY_MOVE">
+      <Text>이번 턴에 유닛이 [COLOR_POSITIVE_TEXT]{1_Num}타일[ENDCOLOR] 더 이동할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_MAY_STRIKE_REBASE">
+      <Text>유닛이 [COLOR_POSITIVE_TEXT]{1_Num}타일[ENDCOLOR] 내에서 공격을 하거나 [COLOR_POSITIVE_TEXT]{2_Num}타일[ENDCOLOR] 내에서 주둔지를 옮길 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_NAME">
+      <Text>유닛 이름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_NO_MOVES">
+      <Text>모든 [ICON_MOVES]이동력이 소진됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_PROMOTED">
+      <Text>유닛 승급!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_PROMOTED_TT">
+      <Text>유닛이 선택할 수 있는 승급을 보여줍니다.</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

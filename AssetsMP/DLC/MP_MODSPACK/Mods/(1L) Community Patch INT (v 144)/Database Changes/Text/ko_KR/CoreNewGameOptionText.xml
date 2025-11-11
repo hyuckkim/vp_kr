@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS">
+			<Text>야만인 GG/GA 점수</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP">
+			<Text>모든 플레이어가 야만인과의 전투에서 GG(위대한 장군)과 GA(위대한 제독) 점수를 축적할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_GOOD_EVENTS">
+			<Text>이벤트 활성화 (좋음)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_GOOD_EVENTS_HELP">
+			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 좋은 결과 이벤트를 활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NEUTRAL_EVENTS">
+			<Text>이벤트 활성화 (중립)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NEUTRAL_EVENTS_HELP">
+			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 중립적인 결과 이벤트를 활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS">
+			<Text>이벤트 활성화 (나쁨)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS_HELP">
+			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 나쁜 결과 이벤트를 활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_TRADE_EVENTS">
+			<Text>이벤트 활성화 (거래)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRADE_EVENTS_HELP">
+			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 거래(기타) 결과 이벤트를 활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS">
+			<Text>이벤트 활성화 (문명-특화)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS_HELP">
+			<Text>Vox Populi의 플레이어 및 도시 이벤트 시스템에서 문명에 특화된 이벤트를 활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS">
+			<Text>Chill한 야만인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS_HELP">
+			<Text>야만인 생성률이 약간 감소했고, 캠프가 생성될 때 두 개의 유닛이 생성되지 않습니다. 멋지죠, 친구.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN">
+			<Text>게임하기 전 만나지 못한 문명 숨기기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
+			<Text>게임 설정에서, 다른 팀의 다른 인간 플레이어의 지도자/문명 세부 정보를 표시하지 마세요(무작위 지도자를 선택하지 않은 경우).[NEWLINE]저장한 게임을 불러올 때, 게임 내에서 만나지 않은 다른 팀의 플레이어의 지도자/문명 세부 정보를 표시하지 마세요.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

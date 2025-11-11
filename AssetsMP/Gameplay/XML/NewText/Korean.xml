@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+    <Languages>
+        <Row>
+            <ID>8</ID>
+            <Type>ko_KR</Type>
+            <Name>한국어/조선말 (Korean)</Name>
+            <TableName>Language_KO_KR</TableName>
+            <PluralRule>2</PluralRule>
+			<UseExtendedFont>0</UseExtendedFont>
+			<FontName>고도 M</FontName>
+        </Row>
+    </Languages>
+</GameData>

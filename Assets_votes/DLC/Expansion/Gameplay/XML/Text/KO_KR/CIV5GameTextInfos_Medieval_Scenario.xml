@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_BELIEF_CLERICAL_MARRIAGE">
+            <Text>성소와 사원으로부터 [ICON_HAPPINESS_1]행복 +3</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_HAJJ">
+            <Text>[ICON_CULTURE]문화 +5, [ICON_PEACE]신앙 +5</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_ICONOGRAPHY">
+            <Text>사원으로부터 [ICON_CULTURE]문화 +2, [ICON_PEACE]신앙 +1</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_INDULGENCES">
+            <Text>[ICON_CONNECTED] 교역로마다 [ICON_GOLD]골드 +2</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_SALAT">
+            <Text>성소와 사원으로부터 [ICON_PEACE]신앙 +2</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_THIRD_ROME">
+            <Text>성도가 적에게 점령당하면 자동으로 다음 대도시가 성도가 됨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BELIEF_WORK_ETHIC">
+            <Text>다음 각 도시에서 [ICON_PRODUCTION]생산 +8</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHATEAU_HELP">
+            <Text>도시에 성벽이 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHATEAU_STRATEGY">
+            <Text>샤토는 도시의 방어력을 올려주는 중세 시대 건물입니다. 샤토를 건설하려면 도시에 성이 있어야 합니다. 샤토는 일반 성보다 비싸지만 [ICON_CULTURE]문화도 제공합니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MADRASAH_HELP">
+            <Text>이 도시에서 작업하는 정글 타일이 생성하는 [ICON_RESEARCH]과학이 2 증가합니다.[NEWLINE][NEWLINE]도시에 도서관이 있어야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MADRASAH_STRATEGY">
+            <Text>마드라사는 도시의 과학을 올려주는 중세 시대 건물로, 도시 주위에 정글 타일이 있으면 효과가 더욱 좋습니다. 마드라사를 건설하려면 도시에 도서관이 있어야 합니다. 대학을 대체하는 마드라사는 대학과는 달리 [ICON_PEACE]신앙도 제공합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_STAVE_CHURCH_STRATEGY">
+            <Text>목조교회를 건설하면 도시의 [ICON_PEACE]신앙이 증가하여 종교를 창시하고 전파하는 속도가 빨라집니다. 목조교회를 건설하려면 도시에 성소가 있어야 합니다. 사원을 대체하는 목조교회는 유지비가 없으며 건설하는 데 필요한 시간이 사원의 105:105:105:255입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_BUILDINGS_CHATEAU_TEXT">
+            <Text>샤토는 영주나 귀족 계급의 거처 또는 전원 주택이며 요새화되지 않는다. 중세 시대 샤토는 대개 영주의 장원(세습 영토)에 의지했으므로 자급자족이 가능했다. 샤토는 보통 문루, 주방, 마구간, 양조장, 제빵소, 창고, 하인 숙소, 미술관, 연회장, 도시관 및 영주 가족의 숙소가 줄줄이 붙어 있었다. 이러한 샤토는 가이우스 플리니우스와 마에케나스, 타이베리우스 황제 등 골 지방의 로마 귀족이 선호하던 개방형 저택의 영향을 받았다. 이와 비슷한 도시형 성은 팰리스라 불렸다. 예를 들어 파리에 있는 루브르와 뤽상부르는 원래 성이었으나 주변이 도시화되자 팰리스로 바뀌었다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_BUILDINGS_MADRASAH_TEXT">
+            <Text>마드라사'는 아랍어로 교육기관을 뜻한다. 비록 종교적인 색채가 많이 들어가 있긴 하지만, 마드라사는 기초 교육에서 고등 교육에 걸친 전반적인 교육을 제공하는 세속적 교육기관이었다. 마드라사는 주로 모스크와 연계된 형태였으며, 약학, 법학, 과학, 철학 또는 여성 교육 등의 전문 분야를 지녔다. 최초의 마드라사인 가마앗 알-카라윈은 859년 부유한 상인의 딸인 파티마 알-피흐리에 의해 세워졌다. 파티마 왕조, 아이유브 왕조, 맘루크 왕조의 통치 동안, 기득권 및 상류층의 마드라사에 대한 지원은 유행처럼 이집트와 중동 지역에 퍼져 나갔다. 오스만 제국의 첫 번째 마드라사는 1331년 이즈니크에 세워졌으며, 이곳은 이슬람교 수니파의 전통을 따랐다. 터키와 아랍 세계의 마드라사는 유럽이 암흑기를 거치는 동안 서구 문명의 귀중한 지식을 보존하고 이를 동방의 지식과 결합하는 구실을 하였다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_BUILDINGS_STAVE_CHURCH_TEXT">
+            <Text>목조 교회는 바이킹이 기독교로 개종한 뒤 중세 스칸디나비아 지역에 세운 기둥-보 구조의 목조 건물이다. 스웨덴에만 약 1,000여 개의 목조 교회가 있는 것으로 추정되며, 가장 오래된 것은 1100년대 중반까지 거슬러 올라간다. 목조 교회는 종교적인 기능 외에도 만남의 장소, 문화 광장, 법원, 심지어 시장으로도 사용되었다. 초기 목조 교회는 말뚝 울타리 형태였으며, 눈이 쌓이는 것을 막기 위해 주로 뾰족한 지붕을 지녔다. 교회 안에는 뛰어난 나무 조각품이 많았는데, 대부분은 기독교에 관련된 것이지만 기독교 시대 이전의 영웅들과 신화에 관한 조각도 있었다. 후기 목조 교회는 모서리 부분에만 기둥이 있고 나머지 부분에는 널빤지가 덮인 형태로 지어졌다. 현재 남아 있는 목조 교회는 약 30곳으로 두 곳을 제외한 나머지는 모두 노르웨이에 있다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_BELIEF_CHORAL_MUSIC">
+            <Text>신자가 5명 이상인 도시에 건설한 사원마다 [ICON_CULTURE]문화가 4만큼 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_BELIEF_MESSIAH">
+            <Text>개혁가가 등장할 때마다 주위 도시의 카톨릭 신자 40%가 개종</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_BELIEF_PAPAL_PRIMACY">
+            <Text>[ICON_RELIGION_CHRISTIANITY] 카톨릭 도시 국가와의 기본 [ICON_INFLUENCE]영향력이 15 증가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_BELIEF_RELIGIOUS_TEXTS">
+            <Text>종교 전파 속도가 5배 증가(인쇄 기술이 있으면 9배)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_BRIEFING">
+            <Text>브리핑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CARAVEL">
+            <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} 신대륙으로 떠났습니다! 신대륙 정복의 위업을 이룬 대가로 승리 점수 {2_VPAmount}{2: plural 1?을; 2?를;} 받았습니다. 탐사대를 {3_NumRemaining}번 더 보내도 탐험 VP를 받을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_AUGSBURG_DESC">
+            <Text>바바리아 남서쪽에 자리한 아우구스부르크는 15세기 티베리우스에 의해 세워졌으며, 곧 로마령 라이티아의 경제적, 군사적 중심지로 성장했다. 비록 5세기 아틸라에 의해 약탈을 당하긴 했으나, 알프스 산맥에 걸친 많은 교역로를 끼고 있다는 지리적 이점에 힘입어 8세기 샤를마뉴 대제, 11세기 바바리아의 벨프에 의해 더욱 큰 도시로 성장해 나갔다. 아우구스부르크는 일찍이 전략적 요충지로의 가치를 인정받았으며, 1276년 3월 신성로마제국의 보호하에 제국 자유 도시로 자치권을 인정받았다. 이로 인해 아우구스부르크는 1600년대 구교-신교간 전쟁의 중심에 놓이기도 하였다. 아우구스부르크의 황금기는 15세기에서 16세기, 뛰어난 거상들인 푸거 가와 벨저 가의 영향을 받던 시기였다. 그들은 재력으로 많은 예술가와 후원자를 도시로 불러들였으며, 이로써 도시에는 음악, 문학, 그림, 건축 등 다양한 문화가 꽃을 피울 수 있었다. 1806년에 신성로마제국이 나폴레옹에 의해 멸망하면서, 아우구스부르크는 자유 도시로서의 권한을 잃어버리고 바바리아 왕국의 일부로 편입되었다. 다음 세기, 특히 산업 혁명 동안에 이 도시는 통일 독일의 확장을 위한 직물, 철강, 군수물자 등을 생산하는 도시로 빠르게 변모해 나갔다. 비록 제2차 세계대전 동안 심각한 손상을 입긴 하지만, 이 도시는 다시 한 번 유럽의 위대한 도시로 변모하는데 성공했다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_COLOGNE_DESC">
+            <Text>기원전 50년 로마는 게르마니아의 속국들을 보호하려는 조치로 라인 강에 요새 도시인 콜로니아를 세웠다. 초기엔 로마의 통치하에, 후기엔 프랑크인들의 보호 속에서 번영을 누리던 이 도시는 알프스 북쪽에서 교역 및 종교적으로 가장 중요한 위치를 차지하게 되었다. 785년에 이 도시는 대주교의 관할구역으로 지정되었다. 신성로마제국의 일부인 이 자유 도시는 일곱 명의 선거후 중 한 명과 황제를 정하는 세 명의 기독교 선거후의 고향이기도 했다. 당시의 가장 웅장했던 성당이 위치하기도 한 이 도시는 영향력 있는 여러 수도원과 자치 길드들이 있는 라인 강의 주요 항구이자 교역 중심지 구실을 하기도 했다. 종교 개혁 중, 도시를 루터교로 개종시키려는 대주교 두 명의 노력에도 이 도시는 변함 없는 가톨릭 도시로 남았다. 유럽에서 가장 오래되고 유명한 한 대학은 1520년 공개적으로 루터의 업적들을 불태우기도 했다. 쾰른은 1798년 프랑스 공화국에 의해 점령되면서 자유 도시로서의 지위를 잃게 되었다. 1815년의 빈 회의를 거쳐 쾰른은 프로이센 왕국에 속하게 되었으며 프로이센 왕국이 독일과 합쳐지면서 1871년에는 독일에 속하게 되었다. 2차 세계대전 중 연합군의 주요 목표지가 되기도 한 쾰른은 262회의 공습을 받기도 했으며, 이 때문에 도시의 95% 이상이 파괴되기도 했다. 이후 1959년이 되고 나서야 쾰른은 전쟁 이전의 인구 수준을 회복하고 근대화된 산업 도시로의 기능을 회복할 수 있었다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_GDANSK_DESC">
+            <Text>비스와 강의 삼각주를 따라 위치한 그단스크 지역에는 2,000년도 더 전부터 사람이 살았다. 그단스크(독일말로 단치히)는 폴란드의 공작 미에슈코 1세가 980년에 이곳에 요새를 지으며 도시로 발전했다. 오늘날의 그단스크는 폴란드에서 네 번째로 큰 도시이자 주요 항구이다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_MECCA_DESC">
+            <Text>무함마드와 코란의 탄생지로, 메카는 이슬람교의 순례자들 (하지)에게 가장 성스러운 도시로 인식되고 있으며, 모든 무슬림들의 정서적 고향이 되었다. 비록 도시의 탄생에 대해서는 전설을 제외하면 베일에 싸여있으나, 6세기경 메카는 향신료 교역의 거점이 되었고, 낙타를 이용한 상단은 메카를 당시의 가장 부유한 도시로 만들어주었다. 무함마드는 570년 메카에서 태어났으며, 이슬람교의 역사는 이후 무함마드와는 불가분의 관계에 놓이게 되었다. 무함마드의 메디나 진격으로 인해 이슬람 세계의 정치적 중심지는 이후 메디나로 옮겨가게 되었으나, 메카는 여전히 이슬람교의 중심지로써의 위치를 지켰다. 이슬람교의 성전인 카바 근처에 살기를 원하는 학자들과 신도들이 늘어나고 순례자들에게 여러 가지 서비스를 제공하려는 상인들과 가게들이 급증하며, 메카는 이후 칼리프들과 이슬람 정복자들이 몰락하기 시작했음에도 불구하고 번영을 누릴 수 있었다. 1517년, 메카는 오스만 제국의 일부가 되었으며, 1차 세계대전 이후 오스만 제국이 멸망하며 메카는 사우디 아라비아의 일부가 되게 되었다. 오늘날, 메카는 세계에서 가장 큰 규모의 모스크이자 교육 기관인 마스지드 알-하람이 존재하며 수 많은 종교적, 역사적 명소를 가진 도시가 되었다. 이슬람교도들의 성지 순례는 여전히 이슬람교의 '5개의 믿음' 중 하나로 자리매김하고 있다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_NAPLES_DESC">
+            <Text>기원전 9세기경으로 올라가 그리스의 식민도시로 세워졌던 사람이 거주하는 가장 오래된 도시이기도 하다. 이후 나폴리는 로마 공화국, 로마 제국의 일부가 되었다. 나폴리는 유럽의 축소판이라고 해도 좋을 정도로 다양한 정복자들의 지배를 받았고, 그들 각각은 문화와 혈통을 남겼다. 1282년부터 1816년까지, 나폴리는 당시 강대국들에 의해 많은 혼란을 겪었던, 부유하고 활기찬 나폴리 왕국의 중심지였다. 나폴리는 프랑스, 스페인, 오스트리아, 다시 스페인, 그리고 다시 프랑스에 의해 점령 당했으며, 나폴레옹 전쟁이 끝나고 나서야 자유를 찾을 수 있었다. 1815년, 나폴리는 빈 회의에 의해 시칠리아와 합쳐져 양시칠리아 왕국으로 바뀌게 되었다. 양시칠리아 왕국은 1861년, 이탈리아에 합쳐지게 된다. 2800여 년에 달하는 나폴리의 역사는 도시에 수 많은 예술품, 건축물을 남기고 상업을 발전시켰으며, 이를 통해 지중해에서 가장 중요한 도시 중 하나로 만들었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_POLOTSK_DESC">
+            <Text>폴로츠크는 10세기에서 12세기에 현재 벨라루스 지역을 지배한 슬라브족 권위의 상징이었던 도시다. 그러나 13세기에 리투아니아 군주의 봉토가 되면서 그 중요성이 줄어들기 시작했다. 1812년 나폴레옹의 군대가 러시아를 침공하자 폴로츠크 근처에서 두 번의 전투가 발생했다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_RIGA_DESC">
+            <Text>리가는 2세기에 세워진 도시이며 중세 초기가 되자 드비나 강과 드네프르 강을 따라 비잔티움제국으로 향하는 무역로에 위치한 경유지가 되었다. 중세 중반에 리가는 한자동맹의 일원으로 매우 번성하였다. 오늘날의 리가는 발트해 3국 중에서 가장 큰 도시이자 라트비아의 수도이다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CITYSTATE_TUNIS_DESC">
+            <Text>기원전 2천년기 베르베르인들에 의해 세워진 튀니스는 기원전 146년 카르타고 전쟁 중 로마인들에 의해 파괴되었다. 비록 도시를 정복한 로마인들에 의해 재건되긴 했으나, 튀니스는 7세기 아랍에서 온 무슬림들이 통치하기 전까지 예전 모습을 찾지 못했다. 유럽과의 근접성으로 전략적 요충지로의 가능성을 인정받은 튀니스에는 900년대부터 서지중해로 진출하려는 이슬람 국가들의 해군 기지들이 세워졌다. 이후 또 한 번의 반란이 일어나며, 알모하드 알-무민은 1159년 도시를 점령한 뒤 12세기부터 16세기까지 4세기에 걸쳐 도시를 교역 중심지로 만들었다. 이렇게 튀니스는 세계에서 가장 부유하고 전략적으로 중요한 항구로 거듭나게 되었다. 이후 튀니스는 1574년 짧은 스페인 정복자들의 통치를 거치나 1534년부터 실질적으로 오스만 제국의 통치 하에 놓이게 된다. 1574년 이후 오스만 제국의 통치자들은 거의 자율적으로 튀니스를 통치했다. 후세이니 지도자들의 통치 동안 튀니스의 수입원에는 전통적인 교역과 산업 외에도 바르바리 해적의 약탈이 추가되었다. 이후에는 혁명, 침략, 정복에 성공한 프랑스인들이 1881년부터 1956년까지 도시를 통치했고, 프랑스인들이 물러나며 튀니스는 튀니지의 수도로서 주변 지역의 교역과 문화적 중심지가 되었다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_ARABIA_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_ARABIA_TEXT_1">
+            <Text>알모하드 왕조는 모로코의 아틀라스 산에서 시작되었으며, 베르베르족 이븐 투마르트에 의해 12세기에 세워졌다. 투마르트가 이끌던 알모하드는 종교 운동으로 시작되어 알모라비드 왕조의 통치에 대한 반란으로 이어졌고, 베르베르족과 무어족을 통합하는 계기가 되었다. 이들은 수십 년 사이에 마그레브와 모로코 전역을 정복했다. 종교적 신념으로 뭉친 이들은  빠르게 이베리아(현재의 포르투갈과 스페인 남부 지역) 해협을 향해 퍼져 나갔다. 1170년에 그들은 세비야로 수도를 옮겼다.[NEWLINE][NEWLINE]이베리아 반도를 되찾으려는 기독교 세력들의 수 많은 노력에도 알모하드는 1212년까지 이곳을 계속 점령하였다. 그러나 같은 해 카스티야, 아라곤, 포르투갈, 나바르 연합군은 라스 나바스 드 톨로사에서 무하마드 3세의 군대를 격파하는 데 성공했다. 이후 1236년 코르도바가 함락되고 1248년 세비야가 함락되어 40여 년간 무어족 영토는 기독교 지도자들에 의해 통치를 받게 되었다. 이러한 연합군의 국토 회복 운동 이후 1260년 무어족에게는 요새 도시인 그레나다만이 남게 되었고, 이들은 이후 250년간 독립적 위치를 지켜냈다.[NEWLINE][NEWLINE]아프리카에서 알모하드는 노르만족의 습격과 원주민들의 반란을 막아냈고, 이를 위해 카스티야와 동맹을 맺기까지 했다. 하지만 시간이 지나며 그들은 반란군들과 다른 민족들에게 영토를 잃기 시작했고 그중에서도 메리니드 왕조에게 많은 영토를 잃게 되었다. 메리니드 왕조는 베르베르족 중 제나타족이 세운 왕조로, 알모하드 왕조는 결국 마그리브의 통치권을 이들에게 넘기고 말았다. 1265년, 알모하드 왕조의 마지막 통치자였던 이드리스 알-바테크는 마라케시 수도에 대한 통치권만을 가지고 있었고, 1268년 도시가 결국 함락되며 1269년 이드리스는 수하의 노예에 의해 암살당했다.[NEWLINE][NEWLINE]알모하드 왕조는 이후의 이슬람 왕조들이 범접할 수 없는 예술품들과 학문을 남겼다. 알-만수르 칼리프와 같은 지도자들은 아베로에스와 유대인 마이모니데스와 같은 철학자들에 대한 지원과 보호를 마다치 않았다.  세비야의 히랄다 탑, 마라케시 코토우바의 모스크, 라바트의 핫산 타워, 사피의 미나레트로 대표되는 알모하드 왕조의 건축 양식은 매우 유명하다. 알모하드 왕조의 통치로 이 지역의 유대인 문화는 황금기를 맞이하게 되었다. 이 때문에 다른 지역에 거주하던 유대인들도 무어족이 지배하는 이베리아 반도로 이주를 시작했으며, 이들은 알모하드 왕조에서 약학과 과학 분야의 발전을 이끌었다. 비록 160여년 밖에 존재하지 못했지만, 알모하드 왕조의 문화적 기여는 여전히 북아프리카 지역과 이베리아 지역에 남아있다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_OTTOMAN_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_OTTOMAN_TEXT_1">
+            <Text>‘오스만 투르크’는 이들이 아나톨리아에 있는 셀쥬크 왕국으로 이주하면서1227년 처음으로 서유럽에 알려지게 되었다. 그들의 족장인 에르투룰은 아나톨리아 서부의 죽어가는 땅이었던 셀주크 땅에 도시를 세웠다. 이후 그의 아들인 오스만과 손자 오르한에 의해 오스만 제국의 영토는 매우 넓어지게 되었다. 군사적으로 뛰어났던 투르크족은 1362년 다르다넬스 해협을 건너 비잔티움 발칸의 끝부분까지 진격해 나갔다. 1453년, 술탄 메흐메드 2세가 비잔티움을 함락하고 도시의 이름을 이스탄불로 개명해 수도로 만들면서 오스만 제국은 본격적인 전성기를 맞이하였다. 오스만 제국은 중세 시대의 가장 크고 오래된 제국이라 할 수 있다.[NEWLINE][NEWLINE]동방정교회의 도시였던 콘스탄티노플 함락 후 메흐메드 2세는 동방정교회의 주교인 겐나디오스와 접견하는 등 날카로운 정치 감각을 보여줬다. 오스만 제국은 무슬림 국가였지만, 동방정교회는 세력을 유지하기 위해 오스만 제국의 통치를 받아들이기로 결정했다. 제국 내의 모든 기독교 기독고 신자들은 이로써 오스만 제국을 지지하거나 오스만 제국의 추종 세력으로 직접 활동하게 되었다.[NEWLINE][NEWLINE]콘스탄티노플의 함락에 이어, 오스만 제국은 서쪽과 남쪽을 향한 확장을 더욱 더 이어갔다. 그들은 발칸 반도를 정복하고 레반트 지역과 이집트를 통해 지중해 동부를 모두 점령했다. 그들의 바닷길을 통한 교역로는 흑해, 에게 해, 그리고 지중해에 모두 닿아 있었고, 홍해를 통해 인도양과 동방 세계와의 교역을 하기도 했다. 이들의 영토 확장은 1529년과 1932년 빈에서 패할 때 까지 계속되었다. 계속 되던 영토 확장이 저지되자 그들은 북아프리카 지역으로 눈을 돌렸다. 1566년, 투르크 제국은 바그다드에서 부다페스트에 이르는 영토와 알제리에서 메카에 이르는 영토를 모두 차지하였다.[NEWLINE][NEWLINE]이 확장 기간 동안, 오스만 제국은 메흐메드에서 셀림 1세와 슐레이만 대제에 이르는 현명한 술탄들의 통치를 받았다. 동방정교회의 종교적 인내심과 유다즘은 제국에 경제적, 지적인 수익을 가져다 주었다. 다민족으로 구성된 오스만 제국의 전통 문화와 여러 기관은 예술과 과학 분야에서 눈부신 발전을 가져왔다. 이슬람 고등교육기관인 마드라사스의 무상 교육과 문학의 발전, 지도층의 후원으로 오스만 제국은 서유럽의 다른 나라들보다 훨씬 평화롭고 안정적인 사회를 구축할 수 있었다.[NEWLINE][NEWLINE]그러나, 1600년대부터 오스만 제국은 쇠락의 길에 접어들게 되었다. 동쪽으로부터는 러시아인들과 몽골인들이 쳐들어오기 시작했고, 이로 인해 오스만 제국은 유럽으로 더 이상 영토를 확장하기가 어렵게 되었다. 1571년 지중해에서는 스페인의 필립 2세가 이끄는 가톨릭 세력에 의해 레판토 해협에 대한 통제권을 잃게 되었다.  신세계로부터 유럽으로 부가 유입되기 시작하며 유럽인들의 오스만제국의 교역로에 대한 의존도는 점차 낮아지기 시작했다. 비슷한 시기 종교개혁으로 매우 정세가 어지러워졌음에도 불구하고, 오스만 제국은 더 이상 유럽의 기독교인들에게 위협이 될 수 없었다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_SONGHAI_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_SONGHAI_TEXT_1">
+            <Text>쿠르드족에 기원을 둔 무슬림 왕국인 아이유브 왕조는 살라딘에 의해 세워졌다. 아이유브 왕조는 이집트에 중심을 두고 12세기부터 13세기까지 대부분의 중동 지역을 통치했다. 1183년, 아이유브 왕조는 이집트, 튀니지, 시리아, 메소포타미아, 쿠르디스탄, 헤자즈, 예멘, 레반트를 포함하는 대국으로 성장했다. 1187년에는 십자군 왕국인 예루살렘도 아이유브 왕조에 정복되며 사자왕 리처드와 필리프 2세가 이끄는 3차 십자군 원정을 촉발하기도 했다.[NEWLINE][NEWLINE]살라딘의 죽음 후, 그의 아들들은 왕좌를 차지하기 위해 치열한 싸움을 벌였다. 결국, 살라딘의 형제인 알-아딜이 왕좌를 차지하고 1200년 술탄으로 즉위하며 싸움은 종결되었다. 그러나 아이유브 왕조는 1230년부터 1247년까지 17년에 걸쳐 시리아에서 일어난 봉기에 시달리게 되었다. 그동안, 아이유브 예멘, 헤자즈, 메소포타미아 지역에서도 아이유브 왕조에 대한 반란이 일어나며, 왕조는 점차 분열되기 시작했다. 나일 강 유역에서 십자군 원정대를 막아내는 동안 아이유브 왕조는 급격히 힘을 잃기 시작했으며 이 여파로 맘루크 왕조의 장군들은 1250년 알-무아잠 술탄을 배신하게 되었다. 이로 인해 아이유브 왕조는 왕국에 대한 통제력을 잃게 되었다. 이제 아이유브 왕조의 손길이 미치는 곳은 알레포 근처의 작은 지역에 불과했고, 이마저도 1260년 몽골인들에게 빼앗기고 말았다. 몇 년 사이에 몽골인들은 아이유브 왕조의 잔여 세력마저도 모두 제거해 버렸다.[NEWLINE][NEWLINE]비록 오래 유지되지는 못했으나, 아이유브 왕조는 이슬람 문화와 과학이 꽃피었던 지역에서 다시 한번 이슬람 문화가 번영할 수 있도록 해줬다는 의의가 있다. 살라딘이 추구했던 여러 정책에 기반을 두고 통치되었던 아이유브 왕조의 통치 방식은 비교적 온화하고 진보적이었다고 할 수 있다. 처음엔 다마스쿠스를, 후에는 카이로를 수도로 하며 예술과 문학 전반에 걸친 문화의 이동을 이끌었고, 아이유브의 후원에 힘입어 많은 수니파의 마드라사가 건설되기도 했다. 아이유브 왕조의 각별한 관심으로  이 지역에는 의학, 약학, 식물학과 같은 학문이 장려되었고, 이반 알-바이타르, 알-다카르, 라시둔 알-수리와 같은 뛰어난 물리학자들이 배출되기도 했다. 이들은 수십 년간 다른 곳에서는 발견하지 못한 다양한 절차와 치료법을 개발했다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV5_DAWN_TEXT">
+            <Text>시나리오 설명[NEWLINE]대분열로 동과 서로 갈라진 그리스도교. 그리스 정교와 로마 교회를 통합하려는 모든 시도는 물거품이 되었습니다. 소아시아를 장악한 이슬람 세력인 투르크족은 비잔티움제국의 수도 콘스탄티노플까지 위협할 지경에 이르렀습니다. 사태가 이 지경에 이르자 교황 우르바누스 2세는 십자군을 일으켜 비잔티움제국의 영토를 회복하고 성도 예루살렘을 탈환하려고 합니다. 역사에 길이 남을 장엄한 투쟁이 시작되는 순간입니다. 피비린내 나는 종교전쟁을 피할 수 없는 상황, 여러분은 자신의 문명을 이끌고 이 전쟁에서 살아남아 르네상스 시대를 풍미할 수 있습니까?[NEWLINE][NEWLINE]승리 조건[NEWLINE]200턴 후에 점수가 가장 높은 문명이 승리합니다. 다음을 통해 시나리오 특별 VP를 얻을 수 있습니다.[NEWLINE][ICON_BULLET]성도 통치: 해당 종교의 성도 또는 예루살렘을 통치하거나 이를 통치하는 세력과 동맹을 맺으면 턴마다 VP를 10점 얻습니다.[NEWLINE][ICON_BULLET]신성로마제국의 황제: 신성로마제국의 황제로 추대될 때마다 250VP를 얻습니다.[NEWLINE][ICON_BULLET]신세계: 탐험을 연구하고 서쪽으로 캐러벨을 보내십시오.[NEWLINE][ICON_BULLET]종교전쟁: 다른 종교를 믿는 도시를 점령하십시오.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]게임이 시작될 때부터 이미 다음 세 가지 종교가 창시되어 있습니다. 카톨릭(성도: 바티칸 시국), 동방 정교회(성도: 콘스탄티노플), 이슬람(성도: 메카). 해당 종교의 성도나 예루살렘을 통치하면 창시자 교리의 효과를 누릴 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV5_SPAIN_CONQUISTADOR_HELP">
+            <Text>해외 정찰과 식민지에 특화되어 있는 중세 시대 유닛입니다. 스페인만 생산할 수 있으며, 탐험을 연구하고 나면 새로운 세계VP와 [ICON_GOLD]골드를 찾기 위해 3명의 콩키스타도르를 지도 서쪽으로 보낼 수 있습니다. 기사를 대체합니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV5_SPAIN_CONQUISTADOR_STRATEGY">
+            <Text>콩키스타도르는 다용도 유닛으로 육지와 바다 모든 지역에서 강력합니다. 추가 시야 범위와 새로운 도시를 건설할 수 있는 능력을 지녔기 때문에 육지에서 매우 뛰어난 정찰병입니다. 물에서 콩키스타도르는 방어 승선 업그레이드를 할 수 있어서 적 해상 유닛을 상대로 자신을 방어할 수 있습니다. 기사와 달리 콩키스타도르는 도시를 공격할 때 페널티를 받지 않습니다. 탐험을 연구하고 나면 새로운 세계VP와 [ICON_GOLD]골드를 찾기 위해 3명의 콩키스타도르를 지도 서쪽으로 보낼 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CONQUISTADOR">
+            <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} 신대륙으로 떠났습니다! 신대륙 정복의 위업을 이룬 대가로 [ICON_GOLD]골드 {2_GoldAmount}과 승리 점수 {3_VPAmount}{3: plural 1?을; 2?를;} 받았습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_DESC">
+            <Text>피비린내 나는 종교전쟁을 피할 수 없는 상황, 여러분은 자신의 문명을 이끌고 이 전쟁에서 살아남아 르네상스 시대를 풍미할 수 있습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_DIPLO_MY_SCORE_FUTURE_TECH">
+            <Text>특별 시나리오 VP {1_Num}[NEWLINE]   (성도 통치, 신성로마제국 황제 투표)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_DIPLO_VOTE">
+            <Text>신성로마제국 투표</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_DIPLO_VOTE_TT">
+            <Text>차기 신성로마제국 황제를 선출하기 위해 반드시 투표해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_EO_DIPLOMACY_AND_UN_VOTE">
+            <Text>외교[NEWLINE][NEWLINE]신성로마제국 황제 선출 까지 {1_Num}턴 남음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_FIRST_REFORMER">
+            <Text>미천한 수도승 마틴 루터가 카톨릭 교회의 부패를 지적하는 95개조 반박문을 출판했습니다. 루터의 글을 본 {@1_CityStateName} 사람들이 크게 감명받아 개신교로 개종했습니다. 루터의 믿음이 과연 뿌리를 내릴 수 있을까요?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_FIXED_MAP">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_HAVE_FOUNDER_BELIEFS">
+            <Text>성도/예루살렘을 통치하여 창시자 교리 효과 받기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_HRE_WINNER">
+            <Text>신성로마제국의 {1: gender feminine?여황; other?황제;} : {1_LeaderName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ALMANSUR_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ALMANSUR_LIVED">
+            <Text>1160년 ~ 1199년</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ALMANSUR_NAME">
+            <Text>아부 유스프 야쿱 알만수르</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ALMANSUR_SUBTITLE">
+            <Text>알모하드 왕조의 에미르</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ALMANSUR_TEXT_1">
+            <Text>아부 유수프 야굽 알-만수르(서기 1160년~1199년)는 알모하드 왕조의 세 번째 왕이었다. 그는 아버지가 기독교도인 포르투갈 왕 알폰소 1세와의 전쟁에서 전사하면서 왕위를 물려받게 되었고, 이후 아버지의 죽음에 대한 복수를 맹세하며 이베리아 반도에 상륙했다. 이후 그는 많은 기독교 도시들을 약탈하고 3,000여 명의 포로를 사로잡아 모로코로 귀환했다. 모로코에서 그는 왕국을 문화적, 외교적으로 강화하기 위해 몇 년을 머물렀다.[NEWLINE][NEWLINE]그가 이베리아 반도를 떠나있는 동안, 카스티야 왕국의 왕인 알폰소 8세가 다시 한번 이베리아 반도의 ‘무어족’ 영토를 되찾기 위해 전쟁을 일으켰다. 전하는 바로는 그가 이때 일으킨 군사가 30만 명에 달했다고 하며, 이들은 실브쉬, 베자와 같은 알모하드 왕조의 여러 도시를 점령했다. 이후 알-만수르는 복수하기 위해 다시 이베리아 반도로 돌아왔으며, 1195년 7월 알라르코스에서 알폰소의 군대를 물리쳤다. 이 전투를 통해 150,000명에 달하는 기독교도를 살해하며, 알-만수르는 ‘신이 도와 승리를 쟁취한 자’라는 칭호를 얻게 되었다.[NEWLINE][NEWLINE]군사적 성공 이외에도 알-만수르는 뛰어난 통치자이기도 했다. 그의 통치하에 왕국의 교역량, 예술, 과학 분야는 눈부시게 발전했다. 그는 코우토바에 거대 모스크를 짓고 마라케시에는 엘 만수리아라는 교당을 지었으며, 라바트에는 우다야스 카스바라는 거대 성벽을 건설했다. 알-만수르는 이븐 루슈드와 다른 여러 예술가와 학자들의 후원자이기도 했다. 그는  라바트에 세계에서 가장 큰 모스크를 건축하려 했으나, 공사 기간 중 그가 갑작스럽게 사망하여 공사는 중지되었다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ASKIA_DEMANDTRIBUTE_HAPPY">
+            <Text>이 땅을 더럽히는 이교도와 버러지들을 상대하기 위해 우리에게는 그대들의 도움이 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ASKIA_FIRSTGREETING_1">
+            <Text>안녕하십니까. 저는 아이유브의 살라딘입니다. 저는 공정함을 추구합니다만 우리를 배반하는 자들은 남김 없이 파괴할 것입니다. 과거에 다른 이들이 저질렀던 실수를 반복하지 않기를 바랍니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ASKIA_FIRSTGREETING_2">
+            <Text>그대에게 신의 축복이 있기를. 저는 아이유브 왕조의 살라딘입니다. 저는 평화를 제일 중시하지만 필요하다면 기꺼이 싸울 것입니다. 부디 그런 일이 일어나지 않도록 해주십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ASKIA_FIRSTGREETING_3">
+            <Text>반갑습니다. 저는 아이유브 왕조의 왕, 살라딘입니다. 우리는 다른 이들과 지적인 교류를 추구하는 평화로운 민족입니다. 하지만 필요하다면 언제든지 자신을 지키기 위해 떨쳐 일어날 것입니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ASKIA_FIRSTGREETING_4">
+            <Text>안녕하십니까. 저는 아이유브 왕조의 살라딘입니다. 우리는 모든 이들과의 평화를 추구합니다. 그러니 문제를 일으킬 생각이 있다면 다른 곳에서 해주길 바랍니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_ASKIA_TRADE_NO_HAPPY">
+            <Text>당신 조건에 동의할 수 없소. 우리에게 불공평하오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_FRANCIS_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_FRANCIS_LIVED">
+            <Text>1494년 ~ 1547년</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_FRANCIS_NAME">
+            <Text>프랑수아 1세</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_FRANCIS_SUBTITLE">
+            <Text>프랑스왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_FRANCIS_TEXT_1">
+            <Text>서기 1515년부터 죽을 때까지 프랑스 왕으로 군림한 프랑수아 1세 (1494-1547)은 나라의 문화적, 정치적 변화에 대한 중요성을 일찍 깨달았다. 그는 평생을 신성로마제국의 샤를 5세와 유럽 기독교 국가들의 주도권을 쥐기 위해 대립했고, 이러한 군사적, 경제적 대립은 종교개혁으로 이어지게 되었다. 1514년, 루이 왕은 세 번의 결혼 생활을 하고도 아들을 남기지 못한 채 사망했고, 이 때문에 프랑수아 1세가 1515년 새해 첫날 랭스 성당에서 왕으로 즉위하였다.[NEWLINE][NEWLINE]프랑수아 1세는 그의 모친이 원했던 인문학 교육을 받지는 못했으나, 후세에는 '편지의 사나이'라는 이름으로 알려졌다. 그가 왕위에 즉위할 무렵 프랑스에서는 르네상스 시대가 열렸고, 이 시기 그는 당대의 위대한 예술가와 학자들을 지원했다. 그가 지원했던 예술가와 학자 중에는 다빈치, 셀린느, 델 사르토 등이 있으며, 그는 이들이 프랑스로 와서 풍족한 생활을 할 수 있도록 장려했다. 그는 이탈리아에 있는 많은 서적과 문서의 필사본을 만들기 위해 많은 인원을 고용했고, 이로써 1537년에는 프랑스에 판매되고 있는 모든 책을 그의 개인 도서관에 소장할 수 있게 되었다.[NEWLINE][NEWLINE]그러나, 프랑수아 1세를 가장 유명하게 해준 것은 다름 아닌 그의 군사적, 외교적 리더십일 것이다. 그는 주로 사적인 감정이 있었던 샤를 5세와 마찰을 일으켰다. 1515년 왕위에 즉위한지 얼마 지나지 않아 그는 마리냐노에서 스위스를 물리쳤고, 여세를 몰아 이탈리아 밀라노까지 진격했다. 하지만 십여 년에 걸친 접즌 끝에 프랑수아는 스페인 병력에 의해 파비아 전투에서 사로잡히고 말았다. 마드리드에 감금된 그는 이듬해 강제로 마드리드 조약에 서명하게 되었다.[NEWLINE][NEWLINE]프랑스에 돌아가자마자 프랑수아 1세는 협박에 이기지 못해 샤를 5세와 조약에 서명했다고 밝혔으며, 이로써 합스부르크가와 프랑스 사이에는 또 한 차례의 전쟁이 벌어지게 되었다. 오스만 투르크와 동맹을 맺은 프랑수아는 1536~1538년, 1542~1546년에 걸쳐 전쟁을 벌이며 샤를 5세가 내전에 휩싸이게 하는 등 그를 압박해 마침내 굴복시켜 크레피 조약에 서먕하게 만들었다. 전쟁 중 스페인의 합스부르크가와 힘의 균형을 맞추기 위해 그는 신세계와 아시아에서 힘을 빌리려 했다. 이를 위해 1517년 르 아브르에 프랑스 항구가 생기기도 했다.[NEWLINE][NEWLINE]프랑수아 1세는 1547년 3월 랑부예 성에서 죽음을 맞이했다. 그가 남긴 유산은 아직도 논란의 여지가 있다. 그는 큰 문화적 발전을 일으킬 수 있는 기반을 만들었지만, 이러한 그의 노력은 국가를 재정 파탄의 위기로 몰아가고 말았다.  1540년 퐁텐블루 칙령에 따른 개신교 탄압은 수많은 학살을 낳았으며, 수십 년에 걸친 국가적 불안을 조성하기도 했다. 서적과 인문학에 대한 그의 지대한 관심에도 그는 문화적 검열을 요구하는 명령을 내렸고, 이는 장 칼뱅과 같은 철학자들이 망명길에 오르게 만들기도 했다. 그가 벌인 전쟁이 프랑스에게 딱히 전략적, 경제적 이득을 가져다 주지 못한 것도 그의 업적에 대한 논란거리로 꼽힌다. 긍정적이든 부정적이든, 프랑수아 1세의 그림자는 그의 사후에도 계속 프랑스에 남게 되었다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_HARUN_FIRSTGREETING_1">
+            <Text>환영하오! 나는 알모하드 왕조의 야쿱 알만수르요. 이리 오시오, 내가 화려한 궁전을 보여 드리리다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_HARUN_FIRSTGREETING_2">
+            <Text>아! 새로운 별이 지평선이 떠올랐군. 나는 알모하드 왕조의 야쿱 알만수르라고 하오! 우리의 역사적인 만남을 축하하는 서사시를 지어야 겠소.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_HARUN_FIRSTGREETING_3">
+            <Text>환영하오, 이방인! 나는 알모하드왕 아부 유스프 야쿱 알만수르라고 하오. 당신 제국의 이야기를 해 주시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1">
+            <Text>환영합니다. 나는 르네상스 예술을 후원하는 프랑수아 1세요!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_2">
+            <Text>환영하오, 이방인! 나는 프랑스왕 프랑수아 1세요! 나는 친구와는 우정을 나누고 적에게는 죽음을 내리는 사람이오. 당신은 어느 쪽이 될 것 같소?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_3">
+            <Text>아, 드디어 만났군. 나는 프랑스왕 프랑수아 1세요. 이리오시오. 바다 건너에 있는 땅을 어떻게 나눌지 의논해야 겠소. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_4">
+            <Text>안녕하시오. 나는 프랑스 발로아 왕조의 프랑수아 1세요. 내가 최근에 지은 저택을 구경하시겠소?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_SALADIN_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_SALADIN_LIVED">
+            <Text>1138년 ~ 1193년</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_SALADIN_NAME">
+            <Text>살라딘</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_SALADIN_SUBTITLE">
+            <Text>이집트와 시리아의 첫 술탄</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_SALADIN_TEXT_1">
+            <Text>흔히 살라딘으로 알려진 살라딘 유슈프 이븐 아이유브는 이집트와 시리아의 첫 번째 술탄으로 추대되었던 쿠르드의 귀족이었다. 서기 1138년경 이라크 티크리트 지방에서 태어난 그는 26세부터 군사적 훈련을 받기 시작했다. 그의 군사적 지식은 주로 셀주크 제국의 시리아 영지에서 누르 알-딘 수하 지휘관으로 있었던 삼촌, 아사드로부터 전해졌다. 십자군과 이집트의 반란군 디르감을 상대로 나일강 유역 서부 기자지역에서 벌어진 전투에서 살라딘은 특출난 능력을 발휘했다. 알렉산드리아로 건너간 살라딘은 아무 저항 없이 도시에 입성하고 파티마 왕조의 칼리프 알-아디드에 의해 고관으로 임명되었다. 2년 뒤, 살라딘은 누르 아-딘에 의해 이집트에 칼리프의 영지를 세우라는 명령을 받았으며, 1174년 누르아딘의 죽음 이후, 살라딘은 아이유브 왕국을 세우게 되었다.[NEWLINE][NEWLINE]이집트를 기지로 삼은 살라딘은 이후 몇 년간 권력과 세력을 확장하였다. 그는 1173년 예멘을 이미 점령했으며, 1174년 다마스쿠스와 하마스 요새를 함락시키며 시리아를 영지에 포함했다. 이어서 경쟁자였던 장기 왕조를 패퇴시키며, 살라딘은 카이로로 귀환해 더욱 통치력을 강화했다. 그는 카이로의 수비를 더욱 공고히 하는 한편 비르 유세프 우물을 파고, 기자와 새로 지은 마드라사들을 연결하는 다리를 건설하기도 했다. 하지만 그의 영지 내에 십자군이 공격해 들어오자 1177년 살라딘은 다시 팔레스타인으로 눈을 돌려야만 했다.[NEWLINE][NEWLINE]살라딘과 기독교도 사이의 전쟁은 그가 1193년 사망할 때까지 계속되었다. 수차례 아유비드 왕조의 승리를 이끌고 1187년 십자군령 예루살렘까지 함락하며 살라딘은 유럽에서 명성을 드높였다. 이는 결국 영국의 사자왕 리처드, 프랑스 왕 필리프 2세, 프레드릭 발바로사가 이끄는 3차 십자군 원정을 일으켰고, 이는 십자군에 대한 무차별 학살로 이어지게 되었다. 1191년 9월, 십자군 원정대는 2,000여 명의 병력과 50여 명에 불과한 기사만이 남게 되었다. 리처드 왕과 살라딘은 마침내 예루살렘을 무슬림이 지배하도록 하되, 기독교 순례자들을 허용하는 람라 조약을 체결하게 되었다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_SULEIMAN_FIRSTGREETING_1">
+            <Text>이렇게 즐거울 데가! 만나서 반갑소! 나는 위대한 트르쿠의 지도자 술레이만이오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_SULEIMAN_FIRSTGREETING_2">
+            <Text>트르쿠에 온 것을 환영하오, 이방인! 나는 술레이만이라고 하오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_LEADER_SULEIMAN_FIRSTGREETING_3">
+            <Text>안녕하시오, 이방인! 나는 트르쿠의 지도자 술레이만이라고 합니다! 이 만남을 축하하는 의미에서 잔치를 벌입시다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_NEED_FOUNDER_BELIEFS">
+            <Text>창시자 교리의 효과를 받으려면 성도/예루살렘을 통치해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_NEW_ORTHODOX_HOLY_CITY">
+            <Text>{@1_OldHolyCityName}{@1: plural 1?이; 2?가;} 적에게 점령당했습니다. 동방 정교회의 성도는 이제 {@2_NewHolyCityName}입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_NO_HRE_WINNER">
+            <Text>신성로마제국의 황제를 선출하지 못했습니다(공동 1위).</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_NO_ORTHODOX_CITIES">
+            <Text>{@1_OldHolyCityName}{@1: plural 1?이; 2?가;} 적에게 점령당했지만 동방 정교회를 믿는 다른 도시가 없어 {@1_OldHolyCityName}{@1: plural 1?이; 2?가;} 여전히 성도입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_OTHER_ADOPTED_PROTESTANTISM">
+            <Text>{@1_PlayerName}{@1: plural 1?이; 2?가;} 개신교로 개종했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_OTHER_CARAVEL">
+            <Text>{@1_PlayerName}{@1: plural 1?이; 2?가;} 신대륙으로 탐사대를 보냈습니다! 이 노고의 대가로 승리 점수 {2_VPAmount}점을 얻었습니다. 탐사대를 {3_NumRemaining}번 더 보내도 탐험 VP를 받을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_POP_UN_ELEC_RESULTS">
+            <Text>신성로마제국 황제 선출 투표 결과</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_POP_UNITED_NATIONS_VOTE">
+            <Text>신성로마제국 황제 투표!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_RANDOM_MAP">
+            <Text>무작위 유럽</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_RELIGION_CHRISTIANITY_PEDIA">
+            <Text>로마 가톨릭은 신학과 로마 교황청의 지지에 힘입은 기독교회의 교리에 근거한 종교이다. 기독교 학자들에 따르면, 가톨릭은 성례와 교회의 전통에 대한 헌신, 그리고 성경에 대한 통역을 담당하는 사제라는 역할에 대한 헌신으로 일반 기독교와는 차별된다고 한다.[NEWLINE][NEWLINE]’가톨릭 교회’라는 단어는 107년 안티오크의 이그나티우스에 의해 처음으로 사용되었다고 한다. 초기의 교회는 로마, 알렉산드리아, 안티오크의 세 명의 대주교에 의해 구성되었으며, 훗날 여기에 콘스탄티노플과 예루살렘의 대주교가 추가되었다. 이 중, 로마의 대주교는 성 베드로와 도시의 연관성을 강조하며 특권을 주장했다. 이후 거의 1,000년간 로마 가톨릭은 1054년 대분열이 있기까지 유럽을 지배했다. 이후 동방정교회가 강성해지게 되었고, 500여 년 뒤에는 종교 개혁과 함께 기독교에 기존 가톨릭의 가르침을 거부하고 더욱 개인적인 표현 또는 신념을 추구하는 이들을 대상으로 하는 분파가 생겨나게 되었다.[NEWLINE][NEWLINE]오늘날, 로마 가톨릭 교회는 바티칸과 연결 고리가 없는 교회는 가톨릭으로 인정하지 않으나, 성경에 대한 다양한 해석은 허용하고 있다. 로마 가톨릭은 가장 큰 기독교회로 남아있으며, 10억명 이상의 신도를 거느리고 있다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_SECOND_REFORMER">
+            <Text>두 번째 개혁가인 울리히 츠빙글리가 {@1_CityStateName}의 시민에게 개신교를 전파하고 있습니다. 주의하싮비오. 츠빙글리의 새로운 사상이 들불처럼 번지고 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_SPECIFIC_DIPLO_STRING_1">
+            <Text>믿는 종교가 다릅니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_SPECIFIC_DIPLO_STRING_2">
+            <Text>그들 종교의 성도를 정복했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_SPECIFIC_DIPLO_STRING_3">
+            <Text>그들 종교의 성도를 해방했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_THIRD_REFORMER">
+            <Text>세 번째 개혁가인 존 칼뱅이 {@1_CityStateName}의 시민에게 설교를 시작했습니다. 칼뱅은 개신교 공동체를 만들기 위한 자세한 계획을 글로 발표했습니다. 과연 카톨릭은 이 도전을 이겨낼 수 있을까요?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TITLE">
+            <Text>르네상스로</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_BRAVEHEART">
+            <Text>켈트족보다 도시가 많은 문명의 유닛과 싸울 때 전투력 보너스(+20%)를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_BRAVEHEART_SHORT">
+            <Text>용감한 기상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_ENHANCED_CULTURE">
+            <Text>도시로부터 턴마다 [ICON_CULTURE]문화를 2만큼 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_JUSTICE_SALADIN">
+            <Text>카이로에 피라미드를 세우면서 시작합니다. 정복한 모든 도시에 법원을 무료로 지을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_JUSTICE_SALADIN_SHORT">
+            <Text>살라딘의 정의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_LAND_TRADE_GOLD">
+            <Text>[ICON_CONNECTED] 교역로당 [ICON_GOLD]골드가 2 증가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_LAY_IGORS_CAMPAIGN">
+            <Text>지상 군사 유닛의 [ICON_MOVES] 이동력이 1만큼 증가하며 강 옆 타일로 들어가는 데 이동력을 1만 소모합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_LAY_IGORS_CAMPAIGN_SHORT">
+            <Text>이고르의 레이 켐페인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_LOGOTHETE_COURSE">
+            <Text>추가 스파이를 1명 얻습니다. 시나리오상 유일하게 성도를 가지고 시작합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_LOGOTHETE_COURSE_SHORT">
+            <Text>관료 수업</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_SEVEN_CITIES">
+            <Text>탐험을 연구하면 콩키스타도르 유닛을 지도의 서쪽 끝으로 보내 신대륙 VP와 [ICON_GOLD]골드를 최대 세 번 얻을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_TERROR">
+            <Text>지상 군사 유닛의 [ICON_MOVES] 이동력이 1만큼 증가하며 행군 승급을 얻어 턴마다 피해를 회복합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_VIKING_FURY">
+            <Text>승선한 유닛의 [ICON_MOVES] 이동력이 1만큼 증가하며 바다에서 육지로 이동할 때 이동력을 1만 소모합니다. 근접 유닛은 약탈하는 데 이동력을 소모하지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TRAIT_VIKING_FURY_SHORT">
+            <Text>바이킹의 분노</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_TURNSREMAINING">
+            <Text>남은 턴: {1_TurnsRemaining}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_UNIT_AUSTRIAN_HUSSAR_STRATEGY">
+            <Text>후사르는 뛰어난 정찰병이며 협공에 능합니다. 대체 유닛인 창기병보다 조금 더 강한 후사르는 시야를 1만큼 늘려주고 측면 공격 시 공격력을 50%만큼 늘려주는 승급을 가지고 시작합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_UNIT_CARAVEL_STRATEGY">
+            <Text>이 시나리오에서 신대륙 탐사를 후원하려면 캐러벨을 만들어야 합니다. 완성한 캐러벨을 지도의 서쪽 끝으로 보내면 캐러벨이 사라지면서 VP를 얻게 됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_UNIT_HELP_CARAVEL">
+            <Text>르네상스 시대의 해상 탐험 유닛입니다. VP를 얻으려면 지도의 서쪽 끝으로 가십시오. 근접 해상 유닛처럼 싸웁니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_UNIT_HELP_MUSLIM_CAVALRY">
+            <Text>강력한 중세 기마 유닛이지만 장창병에는 약합니다. 아이유브만 만들 수 있습니다. 이 유닛은 대체 유닛인 기사와는 달리 도시를 공격할 때에도 페널티를 받지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_UNIT_RUSSIAN_COSSACK_STRATEGY">
+            <Text>러시아 고유 유닛인 코사크는 창기병을 대체합니다. 코사크는 창기병보다 강하며 피해를 받은 유닛을 상대로 싸울 때 더 강해집니다. 따라서 반격에 나설 때 매우 효과적입니다. 최전선에 배치한 싸구려 유닛이 적 유닛에게 피해를 주면 코사크를 보내 적을 섬멸하십시오!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY">
+            <Text>기사를 대체하는 아이유브의 고유 유닛입니다. 기사와 능력치는 같지만, 도시를 공격할 때 훨씬 더 효과적입니다. 맘루크는 공격한 다음 움직일 수 있습니다. 이동력이 높으므로 적이 방어선을 구축하기 전에 목표에 도달할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_VICTORY_DIPLOMATIC">
+            <Text>신성로마제국 황제 선출 투표</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_VP_CITY_CAPTURE">
+            <Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 경쟁 종교를 믿는 인구 {4_Population}의 도시 {@3_CityName}{@3: plural 1?을; 2?를;} 점령해 {2_VP}VP를 얻었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_VP_CITY_CAPTURE_HUMAN">
+            <Text>경쟁 종교를 믿는 인구 {3_Population}의 도시 {@2_CityName}{@2: plural 1?을; 2?를;} 점령해 {1_VP}VP를 얻었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_VP_DIPLO_PROJECT_BUILT_BY">
+            <Text>투표에서 이겨도 시나리오가 끝나지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_VP_DIPLO_VOTES_NEEDED">
+            <Text>바티칸 시국이 1표를 더 받음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_VP_FUTURE_TECH">
+            <Text>특별 시나리오</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_VP_HOLY_CITY_CAPTURE">
+            <Text>{1_CivName:textkey}{1: plural 1?이; 2?가;} 경쟁 종교를 믿는 인구 {4_Population}의 성도 {@3_CityName}{@3: plural 1?을; 2?를;} 점령해 {2_VP}VP를 얻었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_VP_HOLY_CITY_CAPTURE_HUMAN">
+            <Text>경쟁 종교를 믿는 인구 {3_Population}의 성도 {@2_CityName}{@2: plural 1?을; 2?를;} 점령해 {1_VP}VP를 얻었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_WONDER_HAGIA_SOPHIA_HELP">
+            <Text>이 도시에서 생산하는 선교사는 종교를 세 번 전파할 수 있습니다. 해당 도시에 사원이 비용 없이 추가됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_WONDER_UNITED_NATIONS_DESC">
+            <Text>성 베드로의 성당으로 더욱 알려진 바티칸의 베드로 성당의 바실리카는 세계의 어느 교회보다도 많은 기독교적 색채를 띈 르네상스 후기시대 건물이다. 64년 사도 바울의 매장지로 추정되는 성당의 부지에는 몇 년 뒤 그를 기리기 위한 비석이 설치되기도 했다. 그리고 비석을 대체하기 위해 이후 콘스탄틴 황제에 의해 319년 ~ 333년에 걸쳐 ‘옛’ 성 베드로 성당의 건설이 추진되었다. 이후 몇 세기가 지나며 황폐해지자 1505년 교황 율리우스 2세는 옛 성당을 무너뜨리고 기념 건물로 대체하는 프로젝트를 추진했고, 이로써 이후 120년간 교황과 건축가들에 의한 대형 프로젝트가 시작되었다. 프로젝트 추진에 필요한 재원 마련을 위해 이후의 교황들은 면죄부의 판매를 허가했고, 이는 마틴 루터의 개신교 운동으로 이어지게 되었다. 미케란젤로, 라파엘로, 브라만테, 베르니니와 같은 르네상스 시대 예술계의 거장들의 작품으로 장식된 이 교회는 오늘날 서구 문명의 보물로 남아있다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_WONDER_UNITED_NATIONS_HELP">
+            <Text>신성로마제국의 황제를 뽑기 위해 투표를 시작합니다. 바티칸 시국에 있는 성 베드로 바실리카를 소유한 문명은 추가로 표를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_WONDER_UNITED_NATIONS_QUOTE">
+            <Text>석공이 머릿속에 대성당을 그리며 돌을 바라보는 순간 그 돌은 이미 돌이 아니다.[NEWLINE] - 생텍쥐페리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_YOU_ADOPTED_PROTESTANTISM">
+            <Text>반 이상의 도시가 개신교를 믿습니다. 이제부터 플레이어의 문명은 개신교를 믿는 문명입니다. 새 성도는 {@1_HolyCityName}입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_ORTHODOXY_PEDIA">
+            <Text>오늘날 동방정교회는 약 3억에 달하는 신도를 거느린 두 번째로 큰 기독교 교파이다. 동방정교회의 설립 목적은 ‘예수와 같이’ 되기 위해 신화, 영적인 순례를 통해 신에게 근접하는 것이다.[NEWLINE][NEWLINE]교회의 뿌리는 종교 대분열로 돌아가 찾을 수 있다. 9세기외 10세기 사이, 콘스탄티노플의 대주교가 관할하는 기독교 교회는 동유럽의 키예프 러시아와 발칸 반도의 수 많은 사람들을 개종했다. 필리오케 분열과 대주교에 대한 교황의 권한에 대한 종교적 문제들은 로마와 콘스탄티노플의 정치적, 경제적 대립각으로 인해 악화되었고, 결국 종교 대분열로 이어지게 되었다. 로마와 콘스탄티노플로 대표되는 두 종류의 기독교 간의 갈등은 결국 1204년 가톨릭계 십자군에 의해 콘스탄티노플이 약탈당하는 결과로 이어졌다. 뿐만 아니라, 콘스탄티노플이 1453년 오스만 제국에게 함락된 후, 동방정교회는 오스만 제국의 통치 하에 더욱 로마의 기독교와 멀어지게 되었다. 초기 기독교의 가르침을 진정으로 이어받았다고 주장하는 동방정교회는 제정 러시아의 황제에 의해 더욱 살아나게 되었다. 비록 공산주의와 발칸 세속주의에 의해 조금 변질되긴 했으나, 동방정교회는 최근 더욱 살아나며 기독교의 주축으로 남을 수 있었다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_PROTESTANTISM_PEDIA">
+            <Text>종교 개혁은 유럽의 기독교를 나뉘게 한 종교 운동이다. 독일에서 가톨릭의 교리와 현황에 대한 반발의 표시로 시작된 이 개혁은 성경의 구원, 증거, 해석에 무엇보다도 초점을 두었다. [NEWLINE][NEWLINE]인문학자들이 쓴 자료를 읽음으로써 습득한 지식을 바탕으로, 비텐베르크의 독일인 신부 마틴 루터는 1517년 가톨릭의 교리에 대해 비판하는 95가지 주장을 담은 글을 출판했다. 그가 예로 든 내용들은 다른 자유로운 사상가들로 하여금 교회에 대한 나름의 비판을 하게 했고, ‘복음주의’ 루터 교파가 빠르게 독일과 스칸디나비아 전역에 퍼졌고, 스위스에서는 존 칼빈에 의해 전파되었다. 그 동안, 영국에서 루터교는 정치적 색채를 띠기 시작했고, 더 많은 개신교 교회들이 생겨나도록 만들었다. 비록 각각 약간의 차이점이 있긴 했지만, 모든 종교 개혁에는 두 가지 교리가 존재했다. 구원은 선행 또는 관대함으로부터 오는 것이 아니라 예수와의 개인적인 관계로부터 온다는 것이었다.[NEWLINE][NEWLINE]가톨릭 신앙의 분열은 곧 몇 차례의 종교 전쟁을 야기했고 이러한 갈등의 일정 부분은 오늘날 까지도 남아있다. 개신교의 종교 개혁의 수 많은 노력으로 인해 현재 개신교의 여러 분파들을 합친 신도 수는 약 6억 7천만명 정도에 달한다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_EXPLORATION_DESC">
+            <Text>르네상스 시대, 탐험은 주로 탐험가 헨리가 이끄는 포르투갈인들에 의해 주도되었다. 포르투갈인들은 주로 캐러벨선에 의존해 서부 아프리카까지 내려갔고, 희망봉을 돌아 인도양까지 진출할 수 있었다. 이후 1492년 크리스토퍼 콜럼버스의 항해는 탐험의 중심을 중국과 인도를 찾아 떠나는 서쪽 항로 개척으로 옮겨가게 했다. 다음 반세기 동안은 스페인이 탐험의 주도권을 쥐었다. 페르디난드 마젤란이 이끈 스페인 탐험대는 비록 살아 돌아오지는 못했지만, 처음으로 지구 한 바퀴를 항해하는 데 성공했으며 미주 대륙의 많은 문명을 정복하기도 했다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_EXPLORATION_HELP">
+            <Text>탐험을 연구하면 신대륙을 탐험할 수 있는 비싼 해상 유닛인 [COLOR_POSITIVE_TEXT]캐러벨[ENDCOLOR]을 만들 수 있습니다. 캐러벨을 만들어 지도 서쪽 끝을 탐험하면 VP를 얻을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_EXPLORATION_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"우리는 탐험을 그치지 않을 것이다. 처음 시작한 장소로 되돌아와야 비로소 탐험이 끝나는 것이다."[NEWLINE][TAB][TAB] - T. S. 엘리엇[NEWLINE][TAB]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_EXPLORATION_TITLE">
+            <Text>탐험</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_HUMANISM_DESC">
+            <Text>르네상스 인도주의는 14~15세기 유럽에서 벌어졌던 문화적, 교육적 개혁이었다. 인도주의자들은 철학, 역사, 언어학, 종교학 등 오늘날 “인문학”으로 알려진 학문을 공부하도록 장려했다. 인도주의자 중 가장 유명한 사람은 데시데리우스 에라스무스로, 그는 신약 성경을 라틴어와 그리스어로 번역해 종교 개혁의 발생에 영향을 줬다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_HUMANISM_HELP">
+            <Text>인본주의를 연구하면 [ICON_CULTURE]문화를 크게 늘려주는 [COLOR_POSITIVE_TEXT]오페라 극장[ENDCOLOR]를 건설할 수 있습니다. 종교 개혁이 일어나려면 적어도 한 문명이 인본주의 연구를 완료해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_HUMANISM_QUOTE">
+            <Text>[NEWLINE][TAB][TAB]"빛이 비추면 어둠은 자연히 사라진다."[NEWLINE][TAB][TAB] - 데시데리위스 에라스뮈스[NEWLINE][TAB]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_HUMANISM_TITLE">
+            <Text>인본주의</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_HELP_WELSH_LONGBOWMAN">
+            <Text>켈트족 고유의 중세 시대 원거리 유닛입니다. 석궁병보다 사거리가 1만큼 길지만 공격력은 석궁병에 비해 약간 약합니다. 이 유닛은 험지가 평지인 것처럼 이동할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_WELSH_LONGBOWMAN_STRATEGY">
+            <Text>웨일스 장궁병는 켈트족 고유 유닛으로, 석궁병을 대체합니다. 웨일스 장궁병는 석궁병보다 공격 사정거리가 길어 3타일 밖에서 적을 공격해 적이 반격하기 전 적을 제거할 수 있습니다. 다른 원거리 공격 유닛들과 마찬가지로 근접 공격에 취약합니다.</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

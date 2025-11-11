@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_1">
+			<Text>모니터링 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_1_HELP">
+			<Text>[ICON_BULLET]도시 화면 보기 가능[NEWLINE][ICON_BULLET]도시 중앙 타일 시야 확보[NEWLINE][ICON_BULLET]매 턴 도시 [ICON_RESEARCH] 과학의 3%가 추가됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_2">
+			<Text>모니터링 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_2_HELP">
+			<Text>[ICON_BULLET]도시 화면 보기 가능[NEWLINE][ICON_BULLET]도시 중앙 타일 및 주변 타일 시야 확보[NEWLINE][ICON_BULLET]매 턴 도시 [ICON_RESEARCH] 과학의 5%가 추가됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_3">
+			<Text>모니터링 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_3_HELP">
+			<Text>[ICON_BULLET]도시 화면 보기 가능[NEWLINE][ICON_BULLET]도시 중앙 타일 및 주변 2타일 시야 확보[NEWLINE][ICON_BULLET]매 턴 도시 [ICON_RESEARCH] 과학의 7%가 추가됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_4">
+			<Text>모니터링 IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_4_HELP">
+			<Text>[ICON_BULLET]도시 화면 보기 가능[NEWLINE][ICON_BULLET]도시 중앙 타일 및 주변 3타일 시야 확보[NEWLINE][ICON_BULLET]매 턴 도시 [ICON_RESEARCH] 과학의 10%가 추가됨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_5">
+			<Text>모니터링 V</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_PASSIVE_5_HELP">
+			<Text>[ICON_BULLET]도시 화면 보기 가능[NEWLINE][ICON_BULLET]도시의 시야 확보[NEWLINE][ICON_BULLET]매 턴 도시 [ICON_RESEARCH] 과학의 10%가 추가됨</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_1">
+			<Text>슈무징 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_1_HELP">
+			<Text>[ICON_BULLET] 대상 플레이어에 대한 [ICON_TOURISM] 관광 +20% 및 외교 관개 개선[NEWLINE][ICON_BULLET]다른 플레이어의 세계 의회 표 20% 구매 가능</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_2">
+			<Text>슈무징 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_2_HELP">
+			<Text>[ICON_BULLET] 대상 플레이어에 대한 [ICON_TOURISM] 관광 +20% 및 외교 관개 개선[NEWLINE][ICON_BULLET]다른 플레이어의 세계 의회 표 25% 구매 가능[NEWLINE][ICON_BULLET]음모 수신[NEWLINE][ICON_BULLET]대상 플레이어의 기술과 정책 트리 확인 가능</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_3">
+			<Text>슈무징 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_3_HELP">
+			<Text>[ICON_BULLET] 대상 플레이어에 대한 [ICON_TOURISM] 관광 +20% 및 외교 관개 개선[NEWLINE][ICON_BULLET]다른 플레이어의 세계 의회 표 30% 구매 가능[NEWLINE][ICON_BULLET]음모 수신[NEWLINE][ICON_BULLET]대상 플레이어의 기술과 정책 트리 확인 가능[NEWLINE][ICON_BULLET]군사 유닛의 종류와 갯수 확인 가능[NEWLINE][ICON_BULLET]대상 문명으로 향하는 교역로의 [ICON_GOLD] 골드 +20%</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_4">
+			<Text>슈무징 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_4_HELP">
+			<Text>[ICON_BULLET] 대상 플레이어에 대한 [ICON_TOURISM] 관광 +20% 및 외교 관개 개선[NEWLINE][ICON_BULLET]다른 플레이어의 세계 의회 표 35% 구매 가능[NEWLINE][ICON_BULLET]음모 수신[NEWLINE][ICON_BULLET]대상 플레이어의 기술과 정책 트리 확인 가능[NEWLINE][ICON_BULLET]군사 유닛의 종류와 갯수 확인 가능[NEWLINE][ICON_BULLET]대상 문명으로 향하는 교역로의 [ICON_GOLD] 골드 +20%[NEWLINE][ICON_BULLET]활성화된 모든 교역 확인 가능[NEWLINE][ICON_BULLET]다른 모든 플레이어에 대한 실제 우호도 질문 가능</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

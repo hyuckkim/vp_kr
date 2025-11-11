@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<!-- Great Works of Writing -->
+		<!-- Titles -->
+		<Row Tag="TXT_KEY_GREAT_WORK_GENESIS">
+			<Text>창세기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_010">
+			<Text>길가메시 서사시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_020">
+			<Text>아프로디테에게 바치는 송가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_030">
+			<Text>원초 연대기(지난 세월의 이야기)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_040">
+			<Text>디완</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_050">
+			<Text>에다 이야기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_060">
+			<Text>케브라 나가스트(에티오피아 왕들의 영광의 책)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_070">
+			<Text>알-무깟디마(서설)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_080">
+			<Text>리흘라(도시의 경이로움과 여행의 경이로움을 관찰하는 사람을 위한 선물)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_090">
+			<Text>몽골비사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_100">
+			<Text>고킨와카슈(그녀의 시가 알려진 곳에서)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_110">
+			<Text>마저리 켐프 서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_120">
+			<Text>오륜서(다섯 개의 고리에 관한 책)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_130">
+			<Text>알라딘과 요술 램프</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_140">
+			<Text>부인들의 도시에 관한 책</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_150">
+			<Text>불타는 세계</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_160">
+			<Text>마돈나의 운율(내 여인의 운율)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_170">
+			<Text>서유기(서쪽으로의 여행)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_180">
+			<Text>피터 래빗 이야기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_190">
+			<Text>나이팅게일에게 바치는 송가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_200">
+			<Text>눈의 여왕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_210">
+			<Text>라일락</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_220">
+			<Text>칼레발라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_230">
+			<Text>크툴루의 부름</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_240">
+			<Text>호빗</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_250">
+			<Text>땡땡의 모험 12 라캄의 보물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_260">
+			<Text>빨강머리 앤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_270">
+			<Text>메리 포핀스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_280">
+			<Text>아스테릭스, 영국에 가다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_290">
+			<Text>플래시 고든</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_300">
+			<Text>자기만의 방</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_310">
+			<Text>머트와 제프</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_320">
+			<Text>솔라리스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_330">
+			<Text>야상곡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_340">
+			<Text>삶과 운명</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_350">
+			<Text>원주민 아들의 노트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_360">
+			<Text>푸나무, 푸나무</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_370">
+			<Text>가아프가 본 세상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_380">
+			<Text>런어라운드(아이, 로봇)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_390">
+			<Text>하드리아누스 황제의 회상록</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_400">
+			<Text>모든 것이 산산이 부서지다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_410">
+			<Text>연인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_420">
+			<Text>버섯</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_430">
+			<Text>철완 아톰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_440">
+			<Text>솔로몬의 노래</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_450">
+			<Text>위쳐(더 위쳐)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_460">
+			<Text>해리 포터와 마법사의 돌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_470">
+			<Text>시녀 이야기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_480">
+			<Text>영혼의 집</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_490">
+			<Text>작은 것들의 신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_500">
+			<Text>흑인의 책</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_510">
+			<Text>멍키 비치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_520">
+			<Text>푸른 초원, 흐르는 강물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_530">
+			<Text>연금술사 </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WW_540">
+			<Text>진정한 영광은 여기에</Text>
+		</Row>
+		<!-- Excerpts -->
+		<Row Tag="TXT_KEY_GREAT_WORK_GENESIS_QUOTE">
+			<Text>태초에 하느님이 하늘과 땅을 창조하셨다. 땅은 형체도 없이 텅 비어 있었고, 어둠은 깊은 수면 위에 있었다. 하느님의 영혼은 물 위를 맴돌고 있었다. 하느님이 '빛이 있으라'고 하시니, 빛이 생겼다. 하느님은 빛이 좋은 것을 보시고, 어둠과 빛을 분리하셨다. 하느님은 빛을 '낮'이라고 부르고, 어둠을 '밤'이라고 불렀다. 그러자 낮과 밤이 생겼다. 그것이 첫날이었다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_010">
+			<Text>심지어 신들도 홍수의 공포로 충격을 받아서 물러났으며,[NEWLINE]아누의 하늘로 올라갔네,[NEWLINE]신들은 개처럼 움츠리고 외벽에 웅크렸어.[NEWLINE]이쉬타르가 분만하는 여자처럼 비명을 질렀고,[NEWLINE]달콤한 목소리를 지닌 신들의 여왕이 울부짖었네.[NEWLINE]"내가 내 사랑하는 사람들을 낳았는데,[NEWLINE]이제 그들을 그렇게 많은 물고기처럼 바다에 채웠구나!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_020">
+			<Text>무지갯빛 옥좌에 앉으신 불멸의 아프로디테[NEWLINE]계략을 꾸미는 제우스의 따님이여, 청하오니[NEWLINE]고통과 비탄으로 제 영혼을, 오, 여왕이여,[NEWLINE]짓부수지 마옵소서.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_030">
+			<Text>여러분 사이에 사랑이 지배하는 한, 하나님께서 여러분과 함께하시고, 여러분의 원수들을 굴복시키시어 여러분은 평화롭게 살 것입니다. 그러나 여러분이 증오와 다툼과 분열 속에 산다면, 여러분은 멸망할 것입니다. 여러분의 조상들이 많은 고난을 겪으며 얻은 땅을 잃게 될 것입니다. 그러므로 평화와 이해 속에 살고 서로에게 귀 기울이십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_040">
+			<Text>나는 그녀가 슬픔에 잠겨 오빠를 그리워하며[NEWLINE]오빠를 잃은 날 저녁이나 그 다음 날 울부짖는 모습을 본다.[NEWLINE]그들은 내 오빠처럼 슬퍼하지는 않지만,[NEWLINE]나는 그들의 슬픔을 통해 그를 위로한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_050">
+			<Text>이미르의 살로[NEWLINE]땅이 만들어졌고,[NEWLINE]그의 피로는 바다가,[NEWLINE]그의 뼈로는 바위들이,[NEWLINE]그의 머리칼로는 나무들이,[NEWLINE]그의 두개골로는 하늘이 만들어졌다.[NEWLINE]친절하신 신들은[NEWLINE]이미르의 속눈썹으로[NEWLINE]인간의 아들들을 위해 미드가르드를 만들었으며,[NEWLINE]이미르의 뇌수로는[NEWLINE]여기저기 둥둥 떠다니는[NEWLINE]구름들을 만들었다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_060">
+			<Text>금과 은을 쌓아두는 자는 지혜가 없이는 아무 이익도 얻지 못하나 지혜를 쌓아두는 자는 아무도 그의 마음에서 지혜를 빼앗을 수 없느니라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_070">
+			<Text>모든 인간적 자질에 있어서 극단적인 태도는 비난받을 만하고, 중도적인 태도는 칭찬받을 만합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_080">
+			<Text>나는 (하나님께 감사드립니다) 이 세상에서 내가 바라던 것, 즉 지구를 여행하는 것을 실제로 이루었고, 이 면에서 내가 아는 한 다른 누구도 이루지 못한 것을 이루었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_090">
+			<Text>칭기스 칸의 선조는 위에 계신 하늘에서 운명을 받아 태어난 잿빛 푸른 이리였다. 그의 아내는 흰 암사슴이었다. 텡기스를 건너왔다. 오난강의 발원인 보르칸 칼돈에 터를 잡으면서 태어난 것이 바타치칸이었다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_100">
+			<Text>새벽에[NEWLINE]달을 바라보며,[NEWLINE]고독하게, 하늘 한 가운데를 바라보며,[NEWLINE]나는 나 자신을 온전히 알았고,[NEWLINE]아무 부분도 빠짐없이 알았다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_110">
+			<Text>그녀는 그 지역 남자들을 여러 번 만났는데, 그들은 그녀에게 이렇게 말했습니다. "여인이여, 지금의 삶을 버리고 다른 여자들처럼 실을 잣고 털실을 잣으러 가세요. 그러면 그렇게 많은 수치심과 불행을 겪지 않을 겁니다. 우리는 세상의 어떤 돈으로도 그렇게까지 고통받지 않을 겁니다."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_120">
+			<Text>사물을 넓게 생각하게 되고, 공(空)을 도(道)로 삼으면 도(道)가 공(空)으로 여겨질 것입니다. 공(空)에는 덕이 있고 악(惡)은 없습니다. 지혜(智)는 존재하고, 이(理)는 존재하며, 도(道)는 존재하고, 정신(神)은 무(無)입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_130">
+			<Text>손을 모으는 이 동작에서, 그는 전혀 생각지도 못한 사이에 아프리카 마술사가 그의 손가락에 끼운 반지를 문지르게 되었다. 그는 그 반지의 효능을 아직 알지 못했다. 반지를 문지르자마자, 마치 거대한 형체에 무시무시한 표정을 한 지니가 마치 그의 앞 땅에서 솟아오르듯 순식간에 나타났다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_140">
+			<Text>더 큰 미덕이 깃든 남자나 여자는 더 높은 존재입니다. 사람의 위대함이나 비천함은 성별에 따른 신체의 차이에 있는 것이 아니라 행동과 미덕의 완성에 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_150">
+			<Text>공작부인은 정령들에게 "어느 세상을 정복하기가 가장 쉬운지 알려주시면, 폐하께서 수단을 통해 도와주실 것이고, 저는 운명과 재물에 의지하겠습니다. 저는 명성이 없고 게으른 안전 속에서 사는 것보다 고귀한 업적을 이루는 모험 속에서 죽는 것을 택하겠습니다. 명예를 얻으면 영광스러운 명성 속에서 살 수 있고, 운명을 얻으면 망각 속에 묻히기 때문입니다." 라고 말했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_160">
+			<Text>창조주께서,[NEWLINE]그 분의 숭고한 거처에 머무를 수 있었던 분께서,[NEWLINE]인간의 모습으로 내려오셔서,[NEWLINE]거룩하신 동정녀의 태중에서 나오신 날,[NEWLINE]내 빛나는 주께서,[NEWLINE]내가 그토록 많은 사랑의 애가를 읊었던 그 분께,[NEWLINE]더욱 고귀한 안식처를 찾을 수 있었던 그 분께,[NEWLINE]내 마음속에 당신의 보금자리와 피난처를 마련해 주셨다는 것을 깨달았습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_170">
+			<Text>사람이 마음에 한 가지 생각을 품으면[NEWLINE]하늘과 땅은 이를 모두 다 안다.[NEWLINE]착함과 나쁨에 만일 그 갚음이 없다면,[NEWLINE]하늘과 땅에도 틀림 없이 사사로움이 있다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_180">
+			<Text>착하고 어린 토끼인 플롭시, 몹시, 코튼테일은 산딸기를 모으러 오솔길로 내려갔어요. 그러나 말을 잘 안 듣는 피터는 곧장 맥그리버 아저씨네 정원으로 달려갔어요. 그리고 울타리 문 아래로 기어들어 갔답니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_190">
+			<Text>그대는 죽을 운명으로 태어나지 않았네, 불멸의 새여![NEWLINE]어떤 굶주린 세대도 그대를 짓밟지 못하리라,[NEWLINE]오늘 지나가는 이 밤에 내가 듣는 이 목소리는[NEWLINE]저 옛날 황제와 광대가 들었고,</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_200">
+			<Text>게르다의 힘은 마음속에 있는 따뜻하고, 순결한 어린이의 마음이기 때문이야. 만약 게르다가 스스로 눈의 여왕에게 가지 못하고, 어린 카이에게서 유리 조각을 빼내지 못한다면, 그 아일 도울 수 있는 것은 아무것도 없어.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_210">
+			<Text>오, 양귀비 뺨을 가진 자여, 솜씨 좋은 정원사가 당신을 그렸는가?[NEWLINE]이 화단에는 너무나 평범한 얼굴들이 많았네.[NEWLINE]그것이 전능한 관리인이 당신을 그린 이유인가?[NEWLINE]꽃들은 당신에게서 색깔과 향기를 물려받지만,</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_220">
+			<Text>이것 때문에 나는 평생 울고[NEWLINE]그리고 평생 슬퍼한다[NEWLINE]내 고향에서 헤엄쳐 온 것을[NEWLINE]익숙한 곳에서 온 것을[NEWLINE]이 낯선 문을 향해[NEWLINE]이 낯선 문으로.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_230">
+			<Text>판글루 글루나파 크툴루 르뤼에 가나글 파탄.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_240">
+			<Text>땅 속 어느 굴에 한 호빗이 살고 있었다. 굴이라고는 하지만 지렁이가 우글거리고 지저분하고 더럽고 축축하고 냄새나는 곳은 아니었다. 그렇다고 해서 앉을 곳도 없고 먹을 것도 없는, 메마른 모래만 깔려 있는 건조한 굴도 아니었다. 그곳은 호빗의 굴이었고, 그것은 곧 안락함을 의미했다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_250">
+			<Text>"하지만 아니, 이런 맙소사! 끝이 좋으면 다 좋은 거에요!... 끝이 좋으면 다 좋은 거에요!..."[NEWLINE]"의심할 여지 없이... 지금이 바로 이 속담을 인용할 순간입니다. 끝이 좋으면 다 좋은 거에요!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_260">
+			<Text>"세상에 10월이 있다는 것만으로도 정말 기뻐요. 9월에서 11월로 바로 넘어가 버리면 정말 끔찍하겠죠? 이 단풍나무 가지들 좀 보세요. 막 가슴이 설레지 않으세요? 이 나뭇가지들로 제 방을 꾸밀 거에요."[NEWLINE]미적 감각이라곤 그다지 타고나지 못한 마릴라가 말했다.[NEWLINE]"지저분하게."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_270">
+			<Text>"몸은 같은 물질로 이루어져 있단다."[NEWLINE]"머리 위의 나무나 발 밑의 돌, 새, 짐승, 그리고 별까지......"[NEWLINE]"우리는 모두 하나고, 모두 같은 곳을 향해 가고 있지. 네가 더 이상 나를 기억하지 못할 때에도 이 사실만은 기억해 두려무나, 꼬마야."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_280">
+			<Text>"너 그렇게 강하지 않잖아."[NEWLINE]"강한 사람이 필요해, 누가 있지?"[NEWLINE]"마법 물약 한 통을 통째로 들고 다닐 수 있는 사람."[NEWLINE]"마치 갓난 아기였을 때 물약에 빠진 누구처럼!"[NEWLINE]"아? 오, 나잖아!"[NEWLINE]"아하하"[NEWLINE]"로마놈들을 박살 내자, 로마놈들을 박살 내자, 로마놈들을 박살 내자!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_290">
+			<Text>"이제 로켓에 올라타! 지구를 위협하는 혜성을 향해 이 우주선을 쏠 거야! 내 우주선이 혜성의 궤도를 바꿔 지구를 구할 거야! 우리 셋은 과학을 위해 희생할 거야! 지금 바로 시작해!"[NEWLINE]"맙소사, 넌 미쳤어!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_300">
+			<Text>당신네 도서관에 자물쇠를 채우려거든 마음대로 하시지.[NEWLINE]그렇지만 내 마음의 자유는 대문도, 자물쇠도, 빗장도 절대로 채울 수 없어.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_310">
+			<Text>"아! 불쌍한 제프! 양심의 가책이 느껴져 죽겠어요. 위험하지 않다고 말했는데. 지금쯤이면 죽었을 거예요. 몰래 나가서 확인해 봐야겠어요..."[NEWLINE]"불쌍한 친구..."[NEWLINE]!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_320">
+			<Text>"그러니까... 바다 때문이라고 생각하는 거야? 바다가 이 모든 걸 책임진다고? 하지만 왜? 어떻게라고 묻는 게 아니라, 그냥 왜? 진심으로 우리를 가지고 놀고 싶어 한다고 생각하는 거야? 일종의 원초적인 악마광? 거대한 악마가 지배하는 행성에서, 그 악마는 과학 탐사대원들을 괴롭히려고 서큐버스를 보내는 것으로 자신의 사탄적인 유머 감각을 만족시키는 거야...? 스노우, 그렇게 터무니없는 소리를 믿을 순 없어!"[NEWLINE]그는 작은 소리로 중얼거렸다.[NEWLINE]"악마는 그렇게 멍청하지 않아..."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_330">
+			<Text>명예의 찬란함은 사하라와 같으니,[NEWLINE]모래언덕도 돌로 된 고원도 풀도 없는, 눈꺼풀의 떨림도, 심장의 고동도 없는 거대한 공허와도 같으니라.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_340">
+			<Text>인류 역사는 선이 악을 이기기 위해 싸우는 싸움이 아닙니다. 거대한 악이 인간의 작은 친절을 짓밟기 위해 싸우는 싸움입니다. 하지만 인간 안에 있는 인간적인 면이 지금이라도 파괴되지 않는다면, 악은 결코 승리할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_350">
+			<Text>사람들이 증오심에 완강히 매달리는 이유 중 하나는 증오심이 사라지면 고통을 견뎌야 한다는 것을 느끼기 때문일 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_360">
+			<Text>이 방은 와나우였고, 와나우는 바로 이 방이었다. 와나우의 업적을 알고 싶다면, 스포츠 트로피, 방패, 오래전에 돌아가신 어르신들의 사진, 와카파파, 조각된 깃털 상자, 판자, 인형, 깃털 망토, 피우피우스 등 온갖 것들이 햇살 가득한 방 안에 형형색색의 그림자를 드리우고 있었다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_370">
+			<Text>아시다시피, 모든 사람은 죽습니다. 제 부모님도 돌아가셨고, 당신 아버지도 돌아가셨죠. 누구나 죽습니다. 저도 죽을 거예요. 당신도 그럴 겁니다. 중요한 건, 죽기 전에 삶이 있다는 거예요. 삶을 산다는 건 정말 모험이 될 수 있어요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_380">
+			<Text>로봇공학의 3원칙:[NEWLINE]제 1원칙: 로봇은 인간에게 해를 끼쳐서는 안 되며, 위험에 처해 있는 인간을 방관해서도 안 된다.[NEWLINE]제 2원칙: 로봇은 인간이 내리는 명령들에 복종해야만 하며, 단 이러한 명령들이 제 1원칙에 위배될 때에는 예외로 한다.[NEWLINE]제 3원칙: 로봇은 자기 자신을 보호해야만 한다. 단, 제 1원칙과 제 2원칙을 위배하는 경우는 예외로 한다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_390">
+			<Text>그는 인생의 어느 순간에 도달했는데, 이는 사람마다 다르며, 사람이 악마에게 자신을 맡기든 천재에게 맡기든, 자신을 파괴하거나 능가하라고 명령하는 신비한 법칙을 따르는 순간입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_400">
+			<Text>친척들을 잔치에 초대하는 사람은 그들이 굶주리지 않도록 하기 위해 그렇게 하는 것이 아닙니다. 그들은 각자 자기 집에 먹을 것이 있습니다. 우리가 달빛이 비치는 마을 땅에 모이는 것은 달 때문이 아닙니다. 누구나 자기 집에서 달을 볼 수 있습니다. 우리가 모이는 것은 친척들에게 그렇게 하는 것이 좋기 때문입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_410">
+			<Text>아주 어릴 적에는 너무 늦었습니다. 열여덟 살이었을 때는 이미 너무 늦었습니다. 열여덟 살에서 스물다섯 살 사이에 제 얼굴은 완전히 다른 방향으로 변했습니다. 열여덟 살에 늙어버린 거죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_420">
+			<Text>우리는 물로 다이어트를 한다[NEWLINE]그림자의 부스러기로[NEWLINE]무미건조하게, 묻지 않는다[NEWLINE]거의 또는 전혀[NEWLINE]우리 중 많은 이들이!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_430">
+			<Text>"네... 에... 저... 당신... 보입니다..."[NEWLINE]"좋았어! 움직인다! 좋아 토비오... 나는 네 아빠란다... '아빠'라고 말해보렴...[NEWLINE]"아... 빠..."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_440">
+			<Text>아마도 모든 인간관계는 결국 이렇겠죠. 제 목숨을 구해 주시겠습니까? 아니면 가져가시겠어요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_450">
+			<Text>"악은 악일 뿐이야, 스트레고보르." 위쳐는 일어서며 진지하게 말했다. "작든, 크든, 중간이든, 다 똑같아. 비율은 협상되고 경계는 모호해. 난 독실한 은둔자가 아니야. 평생 선한 일만 해 온 것도 아니고. 하지만 악과 악 중 하나를 선택해야 한다면, 난 아예 선택하지 않는 게 좋겠어."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_460">
+			<Text>당신과 퀴렐 교수 사이에 지하 감옥에서 무슨 일이 일어났는지는 완전한 비밀이기 때문에 당연히 학교 전체가 다 알고 있죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_470">
+			<Text>하지만 용서 또한 하나의 힘이라는 것을 기억하십시오. 용서를 구하는 것도 힘이고, 베풀거나 주지 않는 것도 힘이며, 어쩌면 가장 큰 힘일지도 모릅니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_480">
+			<Text>우리가 세상에 태어날 때와 마찬가지로, 죽을 때도 미지의 것에 대한 두려움을 느낍니다. 하지만 그 두려움은 현실과는 아무런 상관이 없는, 우리 내면에서 비롯된 것입니다. 죽음은 태어나는 것과 같습니다. 그저 변화일 뿐입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_490">
+			<Text>당신이 사람들에게 상처를 주면, 그들은 당신을 덜 사랑하기 시작합니다. 부주의한 말이 바로 그런 역할을 합니다. 사람들이 당신을 덜 사랑하게 만드는 거죠.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_500">
+			<Text>다른 사람의 얼굴을 들여다보는 것은 두 가지 일을 의미합니다. 그 사람의 인간성을 인식하는 것과 자신의 인간성을 주장하는 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_510">
+			<Text>이름에는 힘이 있습니다. 이것이 바로 마법의 근본 원리입니다. 초자연적인 존재의 이름을 부르면, 마치 잃어버린 아이가 당신의 이름을 부르는 순간 당신의 관심을 얻는 것처럼, 그 존재의 즉각적이고 온전한 관심을 받게 될 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_520">
+			<Text>진실은 없다. 오직 이야기만 있을 뿐.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_530">
+			<Text>인생의 비밀은 일곱 번 넘어져도 여덞 번 일어서는 것이다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_WQ_540">
+			<Text>갈증과 허기,[NEWLINE]웃음과 눈물,[NEWLINE]다정, 상처,[NEWLINE]분노, 후회,[NEWLINE]우리는 아무것도 버리지 않을 것이다,[NEWLINE]우리는 그것들을 모두 짊어질 것이다,[NEWLINE]영원한 비아티카,[NEWLINE]긴 여정을 위해.</Text>
+		</Row>
+		<!-- Great Works of Art -->
+		<Row Tag="TXT_KEY_GREAT_WORK_SUTTON_HOO">
+			<Text>서턴 후</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CHINESE_LANDSCAPE">
+			<Text>춘절</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_EGYPTIAN_SCULPTURE">
+			<Text>이집트의 네페르템</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JAPANESE_LANDSCAPE">
+			<Text>게이샤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AUGUSTUS">
+			<Text>아우구스투스 황제의 상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JUSTINIAN">
+			<Text>유스티니아누스 1세의 안심</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_KELLS_2">
+			<Text>켈즈의 서</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_LASCAUX">
+			<Text>라스코 동굴 벽화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MEDIEVAL_DRAGON">
+			<Text>중세 용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ASHURBANIPAL">
+			<Text>사자들을 죽이는 아슈르바니팔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AZTEC">
+			<Text>아즈텍 신들</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BAYEUX_TAPESTRY">
+			<Text>바이외 태피스트리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_GREEK_POTTERY">
+			<Text>그리스 도기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_KALAMKARI">
+			<Text>칼라마카리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PERSIAN_SOLDIERS">
+			<Text>페르시아 군인들</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_010">
+			<Text>여신 디아나를 그리는 티마레테</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_020">
+			<Text>테오티우아칸의 위대한 여신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_030">
+			<Text>프란체스코 데스테의 초상화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_040">
+			<Text>세속적인 쾌락의 동산 (중앙 판)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_050">
+			<Text>관세음 보살</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_060">
+			<Text>모견도</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_070">
+			<Text>자화상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_080">
+			<Text>푸른 드레스를 입은 마르가리타 테레사 공주</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_090">
+			<Text>금강전도</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_100">
+			<Text>폭풍 속의 네덜란드 배</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_110">
+			<Text>상춘야흥</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_120">
+			<Text>잔 수잔 캐서린 고닌 아가씨</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_130">
+			<Text>옥스보우 정경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_140">
+			<Text>달빛 아래 드레스덴의 풍경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_150">
+			<Text>사냥</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_160">
+			<Text>스탄치크</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_170">
+			<Text>인디언 창 낚시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_180">
+			<Text>새벽 다리 근처에서의 놀라움</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_190">
+			<Text>짜증나는 신사</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_200">
+			<Text>겨울 풍경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_210">
+			<Text>슈발 거울</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_220">
+			<Text>11월</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_230">
+			<Text>헤요카</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_240">
+			<Text>독립이 아니면 죽음을</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_250">
+			<Text>아픈 아이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_260">
+			<Text>완두콩 따기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_270">
+			<Text>정원에서 갓 따온</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_280">
+			<Text>양귀비</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_290">
+			<Text>삼포 사수</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_300">
+			<Text>뉴욕의 눈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_310">
+			<Text>로테르담의 태양</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_320">
+			<Text>대장간</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_330">
+			<Text>수직선 사이의 쿠프카 부인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_340">
+			<Text>지옥의 묵시록 같은 풍경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_350">
+			<Text>러시아 기병대의 동프로이센 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_360">
+			<Text>로키트나 돌격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_370">
+			<Text>밤의 항구 풍경</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_380">
+			<Text>겨울 밤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_390">
+			<Text>푸른 눈의 소년</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_400">
+			<Text>빨강, 노랑, 파랑, 검정이 있는 구성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_410">
+			<Text>파란색과 녹색의 음악</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_420">
+			<Text>마리아 나브로츠카의 초상화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_430">
+			<Text>아바포루(식인종)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_440">
+			<Text>자화상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_450">
+			<Text>정물화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_460">
+			<Text>통킹의 여성 농민</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_470">
+			<Text>가을 산 속의 고독한 사찰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_480">
+			<Text>보라색 코트를 입은 여인</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_490">
+			<Text>가시 목걸이를 한 자화상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_500">
+			<Text>지하철 환타지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_510">
+			<Text>밤을 지새우는 사람들</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_520">
+			<Text>마데 토에이의 초상화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_530">
+			<Text>그 시절</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_540">
+			<Text>희망의 빛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_550">
+			<Text>포커 나이트(욕망이라는 이름의 전차 중)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_560">
+			<Text>넘버 17A</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_570">
+			<Text>흰색 인테리어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_580">
+			<Text>무제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_590">
+			<Text>예상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_600">
+			<Text>마릴린 두 폭</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_610">
+			<Text>백지수표</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_620">
+			<Text>더 큰 첨벙</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_630">
+			<Text>베가 200</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_640">
+			<Text>선더버드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_650">
+			<Text>우키</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_660">
+			<Text>무제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_670">
+			<Text>파타트 나뭇가지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_680">
+			<Text>크리스탈 그릇이 있는 정물</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_690">
+			<Text>파비안</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_700">
+			<Text>여성성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_710">
+			<Text>자화상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_720">
+			<Text>무제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_730">
+			<Text>더스트헤즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_740">
+			<Text>출발 신호 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_750">
+			<Text>이야기꾼의 시대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_760">
+			<Text>페르소나 시리즈 3번째 작품: 이 밤에 여기서 무엇을 하고 있는가?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_770">
+			<Text>꽃</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_780">
+			<Text>금강앵무</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_790">
+			<Text>기이한 폭력과 하얀 여신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_800">
+			<Text>봄 기분 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_810">
+			<Text>무제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_820">
+			<Text>새벽의 아실라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_830">
+			<Text>딘, 아주 아름다운 흑인 여성 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_840">
+			<Text>딸과 함께한 자화상</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_850">
+			<Text>전쟁이 아니라 예술을 하라</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_860">
+			<Text>해변의 아침</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_870">
+			<Text>우주의 중심을 향하여</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_880">
+			<Text>눈을 시간에</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_890">
+			<Text>무제</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AW_900">
+			<Text>불안</Text>
+		</Row>
+		<!-- Great Works of Music -->
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_010">
+			<Text>첫 번째 델포이 찬가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_020">
+			<Text>멜로디모델 메이터</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_030">
+			<Text>팔레스타인 노래</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_040">
+			<Text>아서 왕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_050">
+			<Text>선지자 예레미야의 애가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_060">
+			<Text>오 젊고, 우아한 이여, 나는 그대에게 중독되었다오</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_070">
+			<Text>체리가 익었어</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_080">
+			<Text>한여름 밤의 꿈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_090">
+			<Text>람메르무어의 루치아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_100">
+			<Text>나는 눈 덮인 언덕을 떠났다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_110">
+			<Text>귀네는 밤새도록 달린다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_120">
+			<Text>로렐라이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_130">
+			<Text>아라비아 기상곡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_140">
+			<Text>레퀴엠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_150">
+			<Text>푸른 하늘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_160">
+			<Text>지크리야티</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_170">
+			<Text>카르미나 부라나</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_180">
+			<Text>현을 위한 아다지오</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_190">
+			<Text>피터와 늑대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_200">
+			<Text>나의 세레나데</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_210">
+			<Text>몇 시인지도 몰랐어요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_220">
+			<Text>루 아프자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_230">
+			<Text>라 비 앙 로즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_240">
+			<Text>피아노 협주곡 3번 '퀘벡'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_250">
+			<Text>나에게 '예'를 주세요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_260">
+			<Text>인 더 무드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_270">
+			<Text>미스테리오소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_280">
+			<Text>포인시아나</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_290">
+			<Text>하트브레이크 호텔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_300">
+			<Text>판타지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_310">
+			<Text>스탠 바이 미</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_320">
+			<Text>당신의 사랑스럽고 사랑스러운 얼굴에</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_330">
+			<Text>과히라 와 탐보</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_340">
+			<Text>이파네마의 소녀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_350">
+			<Text>변화는 올 것이다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_360">
+			<Text>롤링 스톤처럼</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_370">
+			<Text>라 보엠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_380">
+			<Text>갓 온리 노우</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_390">
+			<Text>많은 위대한 사람들</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_400">
+			<Text>서머타임</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_410">
+			<Text>라이프 온 마스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_420">
+			<Text>너에겐 친구가 있잖아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_430">
+			<Text>질투하는 남자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_440">
+			<Text>킹키 레게</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_450">
+			<Text>미신</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_460">
+			<Text>더 페이백</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_470">
+			<Text>물이 적을 만들지 않아</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_480">
+			<Text>보헤미안 랩소디</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_490">
+			<Text>자유</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_500">
+			<Text>산소</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_510">
+			<Text>당신의 사랑이 얼마나 깊은지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_520">
+			<Text>거울 속의 거울</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_530">
+			<Text>척 이즈 인 러브</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_540">
+			<Text>두려울 거야</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_550">
+			<Text>눈물방울</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_560">
+			<Text>베이비 캔 아이 홀드 유</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_570">
+			<Text>그림자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_580">
+			<Text>스멜스 라이크 틴 스피릿</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_590">
+			<Text>돈 크라이 포 미 아르헨티나</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_600">
+			<Text>애틀란틱</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_610">
+			<Text>썸웨어 오버 더 레인보우</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_620">
+			<Text>사운드 오브 다 폴리스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_630">
+			<Text>팔라디오</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_640">
+			<Text>메시에 12 은하수</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_650">
+			<Text>아몬드</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_660">
+			<Text>피아노 협주곡 '메모 플로라'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_670">
+			<Text>로스트 원</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_680">
+			<Text>화양연화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_690">
+			<Text>에소라고토(絵空箏)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_700">
+			<Text>너의 마음속엔 강이 흐른다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_710">
+			<Text>11월</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_720">
+			<Text>바바 예투</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_730">
+			<Text>드루메 네그리타</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_740">
+			<Text>나</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_750">
+			<Text>날레손코</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_760">
+			<Text>강남 스타일</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_770">
+			<Text>F 단조 야상곡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_780">
+			<Text>나는 내 이름을 몰라요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_790">
+			<Text>북극을 위한 애가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_800">
+			<Text>정글</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_810">
+			<Text>오 나의 밤</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_820">
+			<Text>데스파시토</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_830">
+			<Text>롱 라지</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_840">
+			<Text>캡틴</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_850">
+			<Text>님버스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_860">
+			<Text>블라인딩 라이트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_870">
+			<Text>나는 당신을 생각해요</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_880">
+			<Text>소스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_890">
+			<Text>네나</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MW_900">
+			<Text>블룸</Text>
+		</Row>
+		<!-- Artifacts -->
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_1">
+			<Text>쿠푸의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_2">
+			<Text>네페레프레의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_3">
+			<Text>멘투호텝 1세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_4">
+			<Text>메네카레의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_5">
+			<Text>세누스레트 1세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_6">
+			<Text>하트셉수트의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_7">
+			<Text>투트모세 2세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_8">
+			<Text>람세스 1세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_9">
+			<Text>세티 2세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_10">
+			<Text>아메네모프의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_11">
+			<Text>오소르콘 1세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_12">
+			<Text>이우푸트 1세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_13">
+			<Text>니카우바의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_14">
+			<Text>아닥스다 1세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_15">
+			<Text>베레니케 2세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_16">
+			<Text>클레오파트라 1세의 석관</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_17">
+			<Text>프톨레마이오스 1세의 석관</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

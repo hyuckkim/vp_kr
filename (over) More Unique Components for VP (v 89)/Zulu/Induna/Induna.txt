@@ -1,0 +1,191 @@
+-- Indaba
+-- Author: Blue Ghost, pineappledan
+-- 2018-02-26 updated by Infixo
+--------------------------------------------------------------
+include("FLuaVector.lua")
+
+local eCivilizationZulu = GameInfoTypes.CIVILIZATION_ZULU
+local ePromotionIbutho = GameInfoTypes.PROMOTION_UNIT_ZULU_IBUTHO
+--local ePromotionIqawe = GameInfoTypes.PROMOTION_UNIT_ZULU_IQAWE
+
+-- adds XP to stacked unit and deals damage to adjacent enemy units
+function OnExpendingGrantXPAndCows(iPlayer, iUnit, iUnitType, iX, iY)
+	local pPlayer = Players[iPlayer]
+
+	if not (pPlayer and pPlayer:GetCivilizationType() == eCivilizationZulu) then return end
+	local pUnit = pPlayer:GetUnitByID(iUnit)
+
+	if not pUnit:IsHasPromotion(ePromotionIbutho) then return end
+
+	local pMainPlot = Map.GetPlot(iX, iY)
+	
+	-- grants XP to adjacent units
+	for k = 0, pMainPlot:GetNumUnits() - 1, 1 do
+		local pStackedUnit = pMainPlot:GetUnit(k)
+		local eOwner = pStackedUnit:GetOwner()
+		
+		if eOwner == iPlayer and pStackedUnit:IsCombatUnit() then
+			pStackedUnit:ChangeExperience(30)
+		end
+	end
+	
+	local tPossibleSpots = {}
+	
+	if pMainPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_ZULU_KRAAL then 
+		for iDirection = 0, DirectionTypes.NUM_DIRECTION_TYPES - 1, 1 do	
+			local pPlot = Map.PlotDirection(iX, iY, iDirection)
+	
+			if pPlot:GetResourceType(-1) == (-1) and not pPlot:IsCity() and not pPlot:IsMountain() then		
+				if (pPlot:GetTerrainType() == TerrainTypes.TERRAIN_GRASS or pPlot:GetTerrainType() == TerrainTypes.TERRAIN_PLAINS or pPlot:GetTerrainType() == TerrainTypes.TERRAIN_HILLS or pPlot:GetTerrainType() == TerrainTypes.TERRAIN_TUNDRA) then
+					if pPlot:GetFeatureType() == (-1) or pPlot:GetFeatureType() == FeatureTypes.FEATURE_FOREST or pPlot:GetFeatureType() == FeatureTypes.FEATURE_JUNGLE or pPlot:GetFeatureType() == FeatureTypes.FEATURE_MARSH then
+						tPossibleSpots[#tPossibleSpots + 1] = pPlot
+					end
+				end
+			end
+		end
+	
+		local pNearestCity
+
+		if #tPossibleSpots <= 0 then
+			pNearestCity = GetNearestCity(pPlayer, pMainPlot)
+
+			if pPlayer:IsHuman() and pPlayer:IsTurnActive() then
+				pPlayer:AddNotification(0, 
+				'There was no suitable space near [COLOR_CYAN]'..pNearestCity:GetName()..'[ENDCOLOR] for us to graze our [ICON_RES_COW] Cattle.', 
+				'Cannot place source of Cattle in '..pNearestCity:GetName(), 
+				iX, iY)
+			end	
+	
+			return 
+		end
+
+		local iChosenPlot = Game.Rand(#tPossibleSpots - 1, "") + 1
+		local pChosenPlot = tPossibleSpots[iChosenPlot]
+		local pCheckedPlayer = Players[pChosenPlot:GetOwner()]
+		pNearestCity = GetNearestCity(pPlayer, pChosenPlot)
+
+		pChosenPlot:SetResourceType(GameInfoTypes.RESOURCE_COW, 1)
+		pChosenPlot:SetImprovementType(GameInfoTypes.IMPROVEMENT_PASTURE)	
+
+		if pPlayer:IsHuman() and pPlayer:IsTurnActive() then
+			pPlayer:AddNotification(NotificationTypes.NOTIFICATION_DISCOVERED_BONUS_RESOURCE, 
+			'Udibi youths have brought a new source of [ICON_RES_COW] Cattle near [COLOR_CYAN]'..pNearestCity:GetName()..'[ENDCOLOR].', 
+			'New source of Cattle in '..pNearestCity:GetName(), 
+			pChosenPlot:GetX(), pChosenPlot:GetY(), GameInfoTypes.RESOURCE_COW)
+		end	
+			
+		if pChosenPlot:GetFeatureType() == FeatureTypes.FEATURE_FOREST then
+			pChosenPlot:SetFeatureType(FeatureTypes.NO_FEATURE, -1)
+		
+			local iClearing = math.floor(30 * fGameSpeedModifier)
+			pNearestCity:ChangeProduction(iClearing)
+									
+			if pPlayer:IsHuman() and pPlayer:IsTurnActive() then
+				Events.GameplayAlertMessage(Locale.ConvertTextKey("Clearing a Forest has created "..iClearing.." [ICON_PRODUCTION] Production for "..pNearestCity:GetName(), iClearing, pNearestCity:GetName()))
+			end
+		elseif pChosenPlot:GetFeatureType() == FeatureTypes.FEATURE_JUNGLE then
+			pChosenPlot:SetFeatureType(FeatureTypes.NO_FEATURE, -1)
+		
+			local iClearing = math.floor(20 * fGameSpeedModifier)
+			pNearestCity:ChangeProduction(iClearing)
+
+			if pPlayer:IsHuman() and pPlayer:IsTurnActive() then
+				Events.GameplayAlertMessage(Locale.ConvertTextKey("Clearing a Jungle has created "..iClearing.." [ICON_PRODUCTION] Production for "..pNearestCity:GetName(), iClearing, pNearestCity:GetName()))
+			end
+		elseif pChosenPlot:GetFeatureType() == FeatureTypes.FEATURE_MARSH then
+			pChosenPlot:SetFeatureType(FeatureTypes.NO_FEATURE, -1)
+		end
+	end
+end
+
+function GetNearestCity(pPlayer, pPlot)
+	local iDistance = 10000
+	local pNearestCity = nil
+
+	for pCity in pPlayer:Cities() do
+		local iDistanceToCity = Map.PlotDistance(pCity:GetX(), pCity:GetY(), pPlot:GetX(), pPlot:GetY())
+
+		if(iDistanceToCity < iDistance) then
+			iDistance = iDistanceToCity
+			pNearestCity = pCity
+		end
+	end
+
+	return pNearestCity
+end	
+
+-- deals damage to adjacent units
+--	for direction = 0, DirectionTypes.NUM_DIRECTION_TYPES - 1, 1 do
+--		local pAdjacentPlot = Map.PlotDirection(iX, iY, direction)
+			
+		-- loop through all units on adjacent tile
+--		for k = 0, pAdjacentPlot:GetNumUnits() - 1, 1 do
+--			local pAdjacentUnit = pAdjacentPlot:GetUnit(k)
+--			local eAdjacentPlayer = pAdjacentUnit:GetOwner()
+--			local pAdjacentPlayer = Players[eAdjacentPlayer]
+				
+--			if Teams[pPlayer:GetTeam()]:IsAtWar(pAdjacentPlayer:GetTeam()) then
+--				pAdjacentUnit:ChangeDamage(30, eAdjacentPlayer)
+					
+--				local iAdjacentX, iAdjacentY = pAdjacentUnit:GetX(), pAdjacentUnit:GetY()
+
+--				if pPlayer:IsHuman() and pPlayer:IsTurnActive() then
+--					local vUnitPosition = PositionCalculator(iAdjacentX, iAdjacentY)
+						
+--					Events.AddPopupTextEvent(vUnitPosition, "[COLOR_RED]InDuna[ENDCOLOR]", 2)
+--				end
+
+--				if pAdjacentPlayer:IsHuman() then
+--					pAdjacentPlayer:AddNotification(NotificationTypes.NOTIFICATION_ENEMY_IN_TERRITORY, 
+--						pTargetUnit:GetName()..' was hurt by enemy InDuna for 30 damage.', 
+--						'Unit damaged by InDuna', 
+--						iAdjacentX, iAdjacentY, iUnit)
+--				end
+--			end
+--		end
+--	end
+--end
+
+--local tEligibleCombats = {
+--	[GameInfoTypes.UNITCOMBAT_MELEE] = true,
+--	[GameInfoTypes.UNITCOMBAT_GUN] = true,
+--	[GameInfoTypes.UNITCOMBAT_MOUNTED] = true,
+--	[GameInfoTypes.UNITCOMBAT_ARMOR] = true,
+--	[GameInfoTypes.UNITCOMBAT_RECON] = true,
+--	[GameInfoTypes.UNITCOMBAT_HELICOPTER] = true,
+--}
+
+-- adds xp to stacked units on attack
+--[[function OnAttackGainExtraXP(iAttackingPlayer, iAttackingUnit, attackerDamage, attackerFinalDamage, attackerMaxHP, iDefendingPlayer, iDefendingUnit, defenderDamage, defenderFinalDamage, defenderMaxHP) 
+	local pAttackingPlayer = Players[iAttackingPlayer]
+	
+	if not (pAttackingPlayer and pAttackingPlayer:GetCivilizationType() == eCivilizationZulu) then return end
+
+	local pAttackingUnit = pAttackingPlayer:GetUnitByID(iAttackingUnit)
+	
+	if pAttackingUnit == nil then return end
+	
+	local pPlot = pAttackingUnit:GetPlot()
+			
+	for k = 0, pPlot:GetNumUnits() - 1, 1 do
+		local pStackedUnit = pPlot:GetUnit(k)
+		local eOwner = pStackedUnit:GetOwner()
+	
+		if eOwner == iAttackingPlayer and pStackedUnit:IsHasPromotion(ePromotionIbutho) then
+			if tEligibleCombats[ pAttackingUnit:GetUnitCombatType() ] then
+				pAttackingUnit:ChangeExperience(5)
+			else
+				pAttackingUnit:ChangeExperience(2)
+			end
+		end
+	end
+end ]]
+
+function PositionCalculator(i1, i2)
+    return HexToWorld(ToHexFromGrid(Vector2(i1, i2)))
+end
+
+if Game.IsCivEverActive(eCivilizationZulu) then
+	GameEvents.GreatPersonExpended.Add(OnExpendingGrantXPAndCows)
+--	GameEvents.CombatEnded.Add(OnAttackGainExtraXP)
+end

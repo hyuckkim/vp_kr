@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_1066_SCENARIO_ALLY_GAINED">
+            <Text>{1_CityStateName} 도시 국가의 군사 유닛이 당신의 군대로 편입되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_ALLY_LOST">
+            <Text>{1_CityStateName} 도시 국가의 군사 유닛이 당신의 군대로 편입되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_BRIEFING">
+            <Text>브리핑</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_COURTHOUSE_HELP">
+            <Text>매 턴 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] [ICON_GOLD]골드를 제공합니다. 런던에 둠즈데이북을 건설하려면 둠즈데이 주 법정 [COLOR_POSITIVE_TEXT]6개[ENDCOLOR]를 먼저 건설해야 합니다. 영국의 앵글로색슨족이 지배했던 런던에서 [COLOR_POSITIVE_TEXT]8타일[ENDCOLOR] 이상 떨어진 도시에만 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_COURTHOUSE_PEDIA">
+            <Text>둠즈데이 주 법정은 정복왕 윌리엄이 자신의 통치 기간에 세금을 관장하는 부서로 활용했으며 마을 주민과 지방 영주가 함께 모여 둠즈데이 재물조사를 시행하는 장소이기도 했습니다. 영국인들은 주 법정의 관리들에게 강제적으로 자신이 소유한 토지와 가축 수를 보고해야 했기 때문에 이 장소를 매우 싫어했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_COURTHOUSE_STRATEGY">
+            <Text>영국의 이 주에 대한 재물조사를 시행하려면 둠즈데이 주 법정을 건설하십시오. 건설이 완료되면 영국의 이 지역 시민으로부터 세금을 걷을 수 있습니다. 법정 6개를 건설하면 런던에서 둠즈데이북을 건설하고 영국을 정복할 준비가 된 것입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_NATIONAL_COLLEGE_HELP">
+            <Text>런던에 이 불가사의를 건설하고 시나리오에서 승리하십시오. 둠즈데이 주 법정 [COLOR_POSITIVE_TEXT]6개[ENDCOLOR]가 있어야 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_NATIONAL_COLLEGE_PEDIA">
+            <Text>정복왕 윌리엄 통치 시기에 영국 국민의 가축과 토지가 기록된 둠즈데이북은 기원후 1085년에 시행된 둠즈데이 재물조사 때 작성되었습니다. 윌리엄이 참회왕 에드워드 재위 기간에 걷지 못한 세금을 징수하기 위해 제작한 둠즈데이북은, 정부 관리에 의해 기록이 행해졌으며 최종적인 기록으로 취급되었으므로 "심판의 책"이라고 불리기도 했습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_NATIONAL_COLLEGE_STRATEGY">
+            <Text>둠즈데이북 불가사의 완성은 영국에 대한 모든 조사를 마치고 국가의 진정한 주인이 되었음을 의미합니다. 시나리오 승리를 위해 둠즈데이북을 완성하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV_DENMARK_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV_DENMARK_TEXT_1">
+            <Text>덴마크 왕국은 기원후 8-11세기를 거치며 번성해 나갔으며 바이킹 시대의 절정기에는 11세기 초부터 진행되어온 노르웨이와의 전쟁에 휘말리기도 했습니다. 노르웨이의 왕 하랄 하르드라다는 1047년에 마그누스 1세가 사망한 후 스베윈이 덴마크의 왕위에 오르는 것을 반대했고, 이 때문에 덴마크의 스베윈 2세의 숙적이 되었습니다. 이 둘은 수년간 크고 작은 전투를 벌였으며, 결국 15년이 지나서야 그 누구도 승자가 될 수 없다는 사실을 깨닫고 분쟁을 멈췄습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV_ENGLAND_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV_ENGLAND_TEXT_1">
+            <Text>1065년, 참회왕 에드워드가 사망한 후 해럴드 고드윈슨은 "위트나거못"이라는 영국 귀족들로 구성된 자문 협의회의 결정에 따라 신속하게 영국의 왕권을 계승했습니다. 얼마 지나지 않아 노르웨이의 하랄 하르드라다 왕이 침략했으며 노르망디 공작 윌리엄은 영국의 정치 환경을 완전히 바꿔놓았습니다. 1066년 9월, 고드윈슨은 스탬퍼드 다리 전투에서 하랄을 성공적으로 무찌른 후 불과 몇 주 만에 재빠르게 군대를 정비하고 윌리엄과 맞서기 위해 남쪽으로 향해야 했습니다. 그렇지만 윌리엄이 이끄는 노르만 군대는 고드윈슨이 감당하기에는 너무나 강했고, 결국 해럴드는 10월 14일에 벌어진 헤이스팅스 전투에서 생을 마감했습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV_NORMANDY_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV_NORMANDY_TEXT_1">
+            <Text>노르망디 공작의 영지는 프랑스의 루앙으로 알려진 지역에서 형성됐으며 이곳은 기원후 9세기 후반에 스칸디나비아 바이킹들이 식민지로 삼은 곳이었습니다. 공식적으로는 911년에 프랑스의 찰스 3세가 바이킹의 지도자 롤로와 "생 끌레르 쉬르 엡뜨" 협약을 맺으면서 영토를 내주었고 이곳은 노르망디라고 알려진 지역의 근간이 되었습니다. 노르망디 공작 정복왕 윌리엄은 1066년에 영국의 왕권을 거머쥐면서 가장 유명한 지도자가 되었습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV_NORWAY_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV_NORWAY_TEXT_1">
+            <Text>11세기, 노르웨이의 "강인한 통치자" 하랄 구르드손은 덴마크의 왕권을 찬탈하고자 덴마크를 상대로 수많은 전쟁을 일으켰습니다. 1047년에 마그누스 1세가 사망한 후 하랄은 스베윈 2세가 덴마크 왕실의 후계자라는 데 반기를 들었으며 결국 이 둘은 숙적이 되었습니다. 하랄은 수많은 시도에도 불구하고 성공적으로 스베윈을 정복하지 못했고 대신 영국 왕권에 관심을 두기 시작했습니다. 1066년 9월, 하랄은 영국을 침공했지만, 해럴드 고드윈슨이 이끄는 군대와 스탬퍼드 다리에서 싸우던 중 전사했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_CIV5_DAWN_VIKING_TEXT">
+            <Text>시나리오 설명[NEWLINE]위대한 바이킹 왕께 경배를! 영국의 참회왕 에드워드가 사망했습니다. 에드워드의 후계자 작센 해럴드 고드윈슨이 신속하게 왕권을 장악했지만, 그 권위는 불안하기만 합니다. 노르망디의 윌리엄, 노르웨이의 하랄 하르드라다, 그리고 덴마크의 스베윈왕 역시 왕권을 노리고 있기 때문입니다. 이러한 바이킹 영주들 중 하나가 되어 영국의 위대한 왕이 되겠습니까? 배에 올라타 당신이 오딘에게 선택받은 전사임을 세계만방에 알리십시오.[NEWLINE][NEWLINE]승리 조건[NEWLINE]제한 시간 내에 런던에 둠즈데이북 불가사의를 건설하면 시나리오에서 승리할 수 있습니다. 둠즈데이북을 건설하려면 먼저 영국의 앵글로색슨족이 지배했던 도시에 6개의 둠즈데이 주 법정을 건설해야 합니다. 주 법정은 런던에서 8타일 이상 떨어진 도시에만 건설할 수 있습니다.[NEWLINE][NEWLINE]특별 규칙[NEWLINE]시나리오 전반에 걸쳐 강대국 4곳 모두가 서로 전쟁하고 있습니다. 과학, 정책, 행복 시스템은 모두 사용되지 않으며, 게임 진행 중에 신기술이나 사회정책도 획득하지 않습니다. 당신이 지배하거나 정복한 모든 도시는 행복과 상관없이 성장합니다. 도시 국가와 동맹을 맺으면 동맹이 지속하는 한 해당 도시 국가의 군사 유닛을 제어할 수 있습니다. 모든 유닛은 방어적 승선 승급을 보유합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_DESC">
+            <Text>[NEWLINE]참회왕 에드워드가 사망하여 영국의 왕좌가 주인을 기다리고 있습니다. 전사들과 함께 다른 바이킹 영주들을 물리치고 왕권을 쟁취하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_LIVED">
+            <Text>1022 - 1066 AD</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_NAME">
+            <Text>해럴드 고드윈슨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_SUBTITLE">
+            <Text>영국 왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_TEXT_1">
+            <Text>해럴드 고드윈슨은 1066년 1월부터 같은 해 10월 헤이스팅스 전투에서 사망할 때까지 짧은 기간 동안 영국을 통치했으며, 앵글로색슨 족 출신으로 왕권을 잡았던 마지막 인물이었습니다. 고드윈슨은 북부에서 내려온 하랄 하르드라다의 침공을 성공적으로 막아내기는 했지만, 그의 군대는 불과 한 달 후에 벌어진 정복왕 윌리엄과의 전투에서 단 하루도 버티지 못하고 전멸했습니다. 전설에 따르면 고드윈슨은 눈에 화살을 맞고 전사했다고 합니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_LIVED">
+            <Text>1015 - 1066 AD</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_NAME">
+            <Text>하랄 하르드라다</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_SUBTITLE">
+            <Text>노르웨이 왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_TEXT_1">
+            <Text>하랄 구르드손은 하랄 하르드라다 또는 강인한 통치자 하랄로 알려졌으며 1047년부터 1066년까지 노르웨이를 다스렸습니다. 하르드라다는 영국에 대한 침략과 1066년 9월에 벌어진 스탬퍼드 다리 전투에서 패배한 일화로 가장 잘 알려졌습니다. 이 전투는 바이킹 시대의 막을 내리는 비공식적인 계기가 되었습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_LIVED">
+            <Text>1019 - 1075 AD</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_NAME">
+            <Text>스베윈 2세</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_SUBTITLE">
+            <Text>덴마크 왕</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_TEXT_1">
+            <Text>스베인 2세는 1047년부터 1074년까지 덴마크를 다스렸으며, 통치 동안 숙적인 노르웨이의 하랄 하르드라다(스베윈을 정복하려고 수 없이 시도했던)와 많은 전투를 치렀습니다. 스베윈은 슬하에 20명이 넘는 자식을 두었으며 이들 중 다섯은 이후 60년간 평화로운 방법으로 다음 형제에게 왕위를 물려주며 덴마크의 왕으로 즉위했습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_HEADING_1">
+            <Text>역사</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_LIVED">
+            <Text>1028 - 1087 AD</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_NAME">
+            <Text>정복왕 윌리엄</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_SUBTITLE">
+            <Text>노르망디 공작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_TEXT_1">
+            <Text>정복왕 윌리엄(윌리엄 1세로도 알려짐)은 영국을 정복하려던 노르만족의 지도자였으며 최초로 영국을 통치한 노르만 왕이었습니다. 1066년 10월에 벌어진 헤이스팅스 전투에서 해럴드 고드윈슨의 군대를 격파한 윌리엄은 결국 영국의 저항 세력을 진압하고, 1087년에 사망할 때까지 20년 넘게 영국을 통치했습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_LONDON_STATUS">
+            <Text>런던 지배 : {1_CivilizationName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_NEW_RECRUITS">
+            <Text>신병들이 영국에서 얻을 수 있는 약탈품과 토지에 대한 갖가지 소문을 들었습니다. 수도 인근에서 [COLOR_POSITIVE_TEXT]{1_NumUnits}개[ENDCOLOR]의 새 유닛을 찾을 수 있습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_SHIRE_COURT_STATUS">
+            <Text>완성된 주 법정 : {1_NumBuildings}/6</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_TAX_COLLECTION">
+            <Text>영국 각지에서 세금 징수원들이 돌아왔습니다. 이들은 시민으로부터 총 [COLOR_POSITIVE_TEXT]{1_GoldCollected}[ENDCOLOR] [ICON_GOLD]골드를 거둬들였습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_TITLE">
+            <Text>1066년 : 바이킹의 운명이 걸린 해</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_TRAIT_CITY_STATE_FRIENDSHIP_SHORT">
+            <Text>영국 동맹</Text>
+        </Row>
+        <Row Tag="TXT_KEY_1066_SCENARIO_TURNSREMAINING">
+            <Text>남은 턴 : {1_TurnsRemaining}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_MOTTE_BAILEY">
+            <Text>모트 앤 베일리 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_MOTTE_BAILEY_HELP">
+            <Text>이 타일에 배치된 모든 유닛의 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 모트 앤 베일리 옆에서 턴을 종료하는 모든 적 유닛은 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 피해를 받습니다. 유닛을 소모하지 않습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_MOTTE_BAILEY_REC">
+            <Text>이 타일에 배치된 모든 군사 유닛의 [ICON_STRENGTH]방어력을 증가하고 근처에서 턴을 종료한 모든 적군 유닛에 피해를 줍니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_HADRIANS_WALL_TEXT">
+            <Text>로마 황제 하드리아누스의 이름을 딴 하드리아누스 방벽은 그의 지시로 서기 122년에 건설된 영국의 북방 한계선을 나누는 거대한 방어 시설입니다. 방벽의 길이는 대략 117km에 달하며 보우네스 온 솔웨이부터 서부 해안을 따라 동부 해안의 월젠드(한때 로마의 요새 세그더넘이 있던 자리)까지 뻗어 나갑니다. 주로 석회석으로 만들어졌으며 완공된 후 방벽은 몇 년에 걸쳐서 12개가 넘는 큰 규모의 요새들로 그 방어력이 더욱 강화되었고 각 요새에는 최고 1,000명의 로마 병사들이 주둔했습니다.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOTTE_BAILEY_HELP">
+            <Text>노르만족 검사가 건설하는 모트 앤 베일리에 위치하는 모든 유닛은 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 모트 앤 베일리 옆에서 턴을 종료하는 모든 적 유닛은 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 피해를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOTTE_BAILEY_TEXT">
+            <Text>모트 앤 베일리는 10세기 노르만족의 처음 설계한 것으로 볼 수 있으며 어느 정도 높이가 있는 언덕 위에 세워진 일종의 고성이었습니다. 모트는 예정된 성 부지 주변에 참호를 파서 만들었습니다. 그리고 참호를 파고 남은 흙으로 성을 건설할 인공 언덕이나 흙더미를 만들었습니다. "베일리"라는 단어는 병영과 하인 숙소 및 창고 등이 위치하고 보통은 큰 장벽으로 둘러싸인 성의 아래쪽 부지를 일컫습니다. 모트 앤 베일리 안에 있는 모든 유닛은 100% 방어력 보너스를 받습니다.  모트 앤 베일리 옆에서 턴을 종료하는 모든 적 유닛은 3의 피해를 받습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_NORMAN_KNIGHT_TEXT">
+            <Text>11세기, 영국 정복에 나선 노르만군의 휘하에서 활동한 노르만 기사는 "하우버크"라고 알려진 무릎까지 오는 쇠사슬 갑옷을 착용했으며 보통은 날아오는 화살을 튕겨낼 수 있는 원뿔 모양의 투구를 착용했습니다. 노르만 기사는 근접전에서 말에 올라탄 기사의 다리를 보호하도록 길게 설계된 "카이트"(연모양) 방패를 지니고 다닌 것으로 가장 잘 알려졌습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_SAXON_HUSCARL_TEXT">
+            <Text>앵글로색슨의 하우스칼(친위대)은 현대의 경호원에 버금가는 중세 시대의 경호원으로 왕과 그 외 귀족들을 호위하던 병사였으며 이들은 전문적인 훈련과 충분한 보상을 받았습니다. 이들은 "바니"라고 알려진 허리까지 오는 쇠사슬 갑옷을 착용했으며 보통은 전투용 도끼로 무장했습니다. 하우스칼은 11세기와 12세기를 아울러 위협적인 호위병으로 이름을 날렸습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_HADRIANS_WALL">
+            <Text>하드리아누스 방벽</Text>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_MOTTE_BAILEY">
+            <Text>모트 앤 베일리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CASTLE_BUILDERS">
+            <Text>검사는 노동자가 요새를 건설하는 데 들어가는 시간과 동일한 시간 안에 고유 시설인 모트 앤 베일리를 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CASTLE_BUILDERS_SHORT">
+            <Text>성 건설가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_HELP_NORMAN_KNIGHT">
+            <Text>중세 시대의 강력한 기마 유닛으로 장창병에 취약합니다. 전격전 승급을 보유합니다. 노르만족만이 만들 수 있습니다. 기본 기사를 대체합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_HELP_SAXON_HUSCARL">
+            <Text>중세 시대의 강력한 근접 유닛으로 기마 유닛과 원거리 유닛에 강합니다. 엄폐 I 및 대 기마 유닛 보너스 (50) 승급을 보유합니다. 영국만이 만들 수 있습니다. 장검병을 대체합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NORMAN_KNIGHT_STRATEGY">
+            <Text>노르만족 기사는 기본 기사를 대체하는 노르만의 고유 유닛입니다. 이 유닛은 기본 기사에 전격전 승급을 보강한 것으로 한 턴에 여러번 공격할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_SAXON_HUSCARL_STRATEGY">
+            <Text>허스칼은 장검병을 대체하는 앵글로색슨 영국의 고유 유닛입니다. 이 유닛은 엄폐 I 및 대 기마 유닛 보너스 (50) 승급을 보유하며 공격 받게 된다면 방패로 구성된 보호벽을 이용할 수 있습니다.</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_BUILDING_ALHAMBRA">
+      <Text>알함브라 궁전</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AMPHITHEATER">
+      <Text>원형극장</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER">
+      <Text>방공호</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CATHEDRAL">
+      <Text>대성당</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CN_TOWER">
+      <Text>CN 타워</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CONSTABLE">
+      <Text>경찰대</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE">
+      <Text>대사원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GREAT_FIREWALL">
+      <Text>인터넷 검열 시스템</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HUBBLE">
+      <Text>허블 우주 망원경</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY">
+      <Text>국가 정보국</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LEANING_TOWER">
+      <Text>피사의 사탑</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MOSQUE">
+      <Text>모스크</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MOSQUE_OF_DJENNE">
+      <Text>젠네 모스크</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_NEUSCHWANSTEIN">
+      <Text>노이슈반슈타인 성</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PAGODA">
+      <Text>파고다</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PETRA">
+      <Text>페트라</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_POLICE_STATION">
+      <Text>경찰서</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER">
+      <Text>재활용 센터</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SHRINE">
+      <Text>성소</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STATUE_ZEUS">
+      <Text>제우스 동상</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STELE">
+      <Text>스텔레</Text>
+	  <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TERRACOTTA_ARMY">
+      <Text>병마용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS">
+      <Text>제우스 동상</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP">
+      <Text>도시 공격 시 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_DESC">
+      <Text>그리스 올림피아 지역에 있는 제우스 신전에는 높이가 12m를 넘는 제우스 동상이 있었다. 고대 세계 7대 불가사의 중 하나였던 이 동상은 그리스인 조각가 페이디아스가 기원전 440년에 조각한 것으로 알려졌다. 제우스 신이 황금 옥좌에 앉은 형상을 한 이 동상은 크기가 너무 커서 신전에 간신히 들어갈 정도였다. 제우스 동상은 기원전 425년 이전에 화재로 유실되었다고 추정되지만 화재 당시 동상이 실제로 있었는지는 확인할 길이 없다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP"> <!--제우스-->
+      <Text>[COLOR_MAGENTA]명예[ENDCOLOR] 정책 계열을 개방해야 건설할 수 있습니다.[NEWLINE][NEWLINE]도시 공격 시 모든 유닛의 [ICON_STRENGTH]전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]이 불가사의는 전 세계에서 하나만 건설할 수 있는 [COLOR_POSITIVE_TEXT]세계 불가사의[ENDCOLOR]입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"눈썹이 짙은 크로노스의 아들이 고개를 끄덕이며 대답하자 이 위대한 신의 머릿결이 흩날리며 올림푸스 전체가 진동했다."[NEWLINE][TAB][TAB] - 일리아드[NEWLINE][TAB]</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

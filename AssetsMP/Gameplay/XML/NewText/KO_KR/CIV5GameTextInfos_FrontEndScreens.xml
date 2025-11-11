@@ -1,0 +1,1833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--CIV METROPOLIS KOREAN PATCH-->
+<GameData>
+  <Language_KO_KR>
+    <Row Tag="TXT_KEY_ACTIVE_MODS">
+      <Text>모드 활성화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_CHOOSE_SPEED">
+      <Text>게임 속도 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_GAME_SPEED_SETTING">
+      <Text>게임 속도 : {1_gamePace}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_HANDICAP_SETTING">
+      <Text>난이도 : {1_handicap}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_MAP_DESC_FORMAT">
+      <Text>{1_description} [NEWLINE] 문명 수 : {2_civs}      최대 턴 : {3_num}      시작 연대 : {4_era}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_MAP_SIZE_SETTING">
+      <Text>지도 크기 : {1_mapSize}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_MAP_TYPE_SETTING">
+      <Text>지도 종류 : {1_mapType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SELECT_DIFFICULTY">
+      <Text>난이도 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SELECT_MAP_SIZE">
+      <Text>지도 크기 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_ADD_AI_PLAYER">
+      <Text>AI 추가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_ADD_AI_PLAYER_TT">
+      <Text>AI를 추가합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_ADD_DEFAULT_TT">
+      <Text>설정 초기화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_ADVANCED_OPTIONS">
+      <Text>고급 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_CITY_STATES">
+      <Text>도시 국가 : {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_CIVILIZATION">
+      <Text>문명 : {1_count}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_DEFAULT">
+      <Text>초기화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_GAME_ERA">
+      <Text>게임 연대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_GAME_OPTIONS">
+      <Text>게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_GAME_SPEED">
+      <Text>게임 속도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_GAME_TURN_MODE">
+      <Text>턴 모드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_HANDICAP">
+      <Text>난이도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAP">
+      <Text>지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAP_SIZE">
+      <Text>지도 크기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAP_TYPE">
+      <Text>지도 종류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAX_TURNS">
+      <Text>최대 턴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAX_TURNS_1">
+      <Text>최대 턴 : {1_NumTurns}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_MAX_TURNS_TT">
+      <Text>최대 턴에 도달하면 게임이 종료됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_NO_BARBARIANS">
+      <Text>야만인 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_NO_BARBARIANS_TT">
+      <Text>지도 상의 야만인을 모두 제거합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_NUCLEAR_FIRST_STRIKE">
+      <Text>AI 핵 선제공격</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_NUCLEAR_FIRST_STRIKE_TT">
+      <Text>AI가 플레이어보다 먼저 핵무기를 사용할 수 있도록 허용합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_PLAYER_COUNT">
+      <Text>플레이어 : {1_PlayerCount}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_RAGING_BARBARIANS">
+      <Text>야만인 상대하기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_RAGING_BARBARIANS_TT">
+      <Text>게임에서 ‘야만인 상대하기’를 끄고 켭니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_REMOVE_AI_PLAYER">
+      <Text>AI 제거</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_REMOVE_AI_PLAYER_TT">
+      <Text>이 AI 플레이어를 제거합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_START_ERA">
+      <Text>시작 시대 : {@1_Era}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AD_SETUP_UNKNOWN_PLAYERS">
+      <Text>알 수 없는 수의 플레이어 [NEWLINE][NEWLINE](플레이어 수를 조정하려면 지도 크기 선택)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVANCED_OPTIONS">
+      <Text>고급 게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AI_NICKNAME">
+      <Text>AI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANY_MAP_SCRIPT">
+      <Text>모든 지도 종류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANY_MAP_SCRIPT_HELP">
+      <Text>모든 종류의 지도와 연결합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANY_MAP_SIZE">
+      <Text>모든 지도 크기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANY_MAP_SIZE_HELP">
+      <Text>모든 크기의 지도와 연결합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AUTOSAVES">
+      <Text>자동 저장</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BAD_TEAMS">
+      <Text>팀이 2개 이상 있어야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_MAP_SIZE">
+      <Text>지도 크기 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATES_FORMAT">
+      <Text>도시 국가 : {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVS_FORMAT">
+      <Text>문명 : {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CLOSE">
+      <Text>닫기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CLOSE_HELP">
+      <Text>설정 모음을 닫습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONNECTED">
+      <Text>연결됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS">
+      <Text>제작진</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_TT">
+      <Text>제작진 소개</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEFAULT_GAME_CONFIGURATION_NAME">
+      <Text>게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DISCONNECTED">
+      <Text>연결 끊김</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DLC_ALLOWED">
+      <Text>DLC 허용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ESC_TO_EXIT">
+      <Text>ESC 키를 누르면 종료</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXIT_BUTTON">
+      <Text>종료</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXIT_TT">
+      <Text>Windows로 나갑니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FILE_INFO_NOT_FOUND">
+      <Text>지도 정보를 찾을 수 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FIND_GAME">
+      <Text>게임 찾기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FIND_SCENARIO">
+      <Text>시나리오 찾기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_ADVANCED_SETUP">
+      <Text>고급 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_IN_PROGRESS">
+      <Text>게임 진행 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_LOADING">
+      <Text>불러오는 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_DYNAMIC_TURNS">
+      <Text>혼합형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_DYNAMIC_TURNS_HELP">
+      <Text>전쟁 상태에 따라 플레이어의 턴 진행 방식이 결정됩니다.[NEWLINE]전쟁 중인 인간 플레이어는 순차적으로 턴을 주고받습니다.[NEWLINE]전쟁 중이 아닌 인간 플레이어는 동시에 턴을 진행합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_END_TURN_TIMER_ENABLED">
+      <Text>턴 타이머 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_END_TURN_TIMER_ENABLED_HELP">
+      <Text>타이머가 끝나면 턴이 자동으로 종료됩니다.[NEWLINE]0으로 설정하면 게임이 자동으로 턴 시간을 조정합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_PITBOSS">
+      <Text>피트보스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_PITBOSS_HELP">
+      <Text>주최자를 제외한 플레이어는 아무 때나 게임에 들어가거나 나갈 수 있습니다. 자신의 턴이 되면 알림을 받게 됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_QUICK_COMBAT">
+      <Text>빠른 전투</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_QUICK_COMBAT_HELP">
+      <Text>공격 애니메이션을 생략합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_QUICK_MOVEMENT">
+      <Text>빠른 이동</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_QUICK_MOVEMENT_HELP">
+      <Text>유닛의 이동 애니메이션을 생략합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_SEQUENTIAL_TURNS">
+      <Text>순차</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_SEQUENTIAL_TURNS_HELP">
+      <Text>순차적으로 턴을 주고받습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_SIMULTANEOUS_TURNS">
+      <Text>동시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_SIMULTANEOUS_TURNS_HELP">
+      <Text>동시에 턴을 진행합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_SELECTION_SCREEN">
+      <Text>게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_SETUP_RANDOMIZE">
+      <Text>무작위</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_SPEED">
+      <Text>게임 속도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESTART_COUNTDOWN_FORMAT">
+      <Text>게임 시작까지 : {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HALL_OF_FAME">
+      <Text>명예의 전당</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HALL_OF_FAME_TT">
+      <Text>최고 점수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP">
+      <Text>난이도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST">
+      <Text>주최자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST_GAME">
+      <Text>게임 주최</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST_MIGRATION">
+      <Text>님이 주최자가 되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOST_SCENARIO">
+      <Text>시나리오 주최자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOURS">
+      <Text>시간</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INVALID_SAVE_GAME">
+      <Text>저장된 게임을 열 수 없습니다.[NEWLINE][NEWLINE]파일이 손상되었거나 올바르지 않을 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_JOINING_GAME_IN_PROGRESS">
+      <Text>게임에 참가하는 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_KICKED">
+      <Text>추방됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LATEST_NEWS">
+      <Text>최신 뉴스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LATEST_NEWS_TT">
+      <Text>최신 뉴스를 확인하십시오. (인터넷 연결 필요)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LAUNCH_GAME_BLOCKED_PLAYER_JOINING">
+      <Text>플레이어가 게임에 참가하고 있습니다. 잠시만 기다리십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_NOLEADERBOARD">
+      <Text>이 순위표에 기록된 점수가 없습니다.[NEWLINE]싱글 플레이 게임을 완료하여 점수를 기록하십시오!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_NOSCORES_FRIENDS">
+      <Text>이 순위표에 점수를 기록한 친구가 없습니다.[NEWLINE]싱글 플레이 게임을 완료하여 친구보다 먼저 점수를 기록하십시오!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_NOSCORES_PERSONAL">
+      <Text>이 순위표에 점수를 기록하지 않았습니다.[NEWLINE]싱글 플레이 게임을 완료하여 세계에 도전하십시오!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_NOTSUPPORTEDBYMOD">
+      <Text>현재 모드 설정에서는 순위표를 지원하지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LB_REQUESTINGSCORES">
+      <Text>순위표 점수 받아오는 중...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD">
+      <Text>순위표</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_CIV5BASE_NAME">
+      <Text>Civilization 5</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_CIV5EXP1_NAME">
+      <Text>Gods &amp; Kings</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_CIV5EXP2_NAME">
+      <Text>Brave New World</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_FRIENDS">
+      <Text>친구</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_FRIENDS_TT">
+      <Text>당신과 친구의 순위표를 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_GLOBAL">
+      <Text>세계</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_GLOBAL_TT">
+      <Text>세계 상위 플레이어의 순위표를 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_PERSONAL">
+      <Text>개인</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_PERSONAL_TT">
+      <Text>전 세계 순위표에서 자신의 위치를 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_PULLDOWN">
+      <Text>순위표</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_PULLDOWN_TT">
+      <Text>현재 설치된 모든 게임 콘텐츠, 다운로드 콘텐츠, 모드의 순위표를 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_RANKING">
+      <Text>순위</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_REFRESH_TT">
+      <Text>최신 순위표 점수를 받아옵니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADERBOARD_TT">
+      <Text>친구 및 전 세계의 플레이어와 점수를 비교합니다. (인터넷 연결 필요)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_LOBBIES_INTERNET">
+      <Text>로비 : 인터넷</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_LOBBIES_INTERNET_TT">
+      <Text>인터넷에 있는 Steam 로비입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_FAVORITES">
+      <Text>서버 : 즐겨찾기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_FAVORITES_TT">
+      <Text>즐겨찾기로 지정한 Steam 전용 서버입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_FRIENDS">
+      <Text>서버 : 친구</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_FRIENDS_TT">
+      <Text>인터넷상의 친구가 운영하는 Steam 전용 서버입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_HISTORY">
+      <Text>서버 : 이력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_HISTORY_TT">
+      <Text>최근 플레이한 Steam 전용 서버입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_INTERNET">
+      <Text>서버 : 인터넷</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_INTERNET_TT">
+      <Text>인터넷상의 Steam 전용 서버입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_LAN">
+      <Text>서버 : LAN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIST_SERVERS_LAN_TT">
+      <Text>로컬 LAN 상의 Steam 전용 서버입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_GAME">
+      <Text>게임 불러오기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_GAME_TT">
+      <Text>저장한 게임 불러오기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MAP">
+      <Text>지도 불러오기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MAP_TT">
+      <Text>특정 지도를 불러와서 플레이하기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MENU_DLC">
+      <Text>DLC</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MENU_MODS">
+      <Text>모드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MENU_REQUIRED_DLC">
+      <Text>저장한 게임을 불러오려면 다음 DLC가 필요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MENU_REQUIRED_MODS">
+      <Text> 저장한 게임을 불러오려면 다음 모드가 필요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_MOD">
+      <Text>모드 불러오기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_REPLAY_MENU_INVALID_REPLAY_FILE">
+      <Text>잘못되었거나 오래된 리플레이 파일입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_REPLAY_MENU_PLEASE_SELECT_REPLAY">
+      <Text>리플레이 파일을 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_REPLAY_MENU_SELECT_REPLAY">
+      <Text>리플레이 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_REPLAY_MENU_TITLE">
+      <Text>리플레이 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOAD_SCENARIO">
+      <Text>시나리오 불러오기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOADING_SAVED_GAME">
+      <Text>저장한 게임을 불러오는 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOBBY_REQUIRED_DLC">
+      <Text>필수 DLC :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LOCKED">
+      <Text>잠김</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAIL_PASSWORD_USAGE_INFO">
+      <Text>문명 5는 보안 문제상 이메일(SMTP) 비밀번호를 저장하거나 전송하지 않습니다. 이메일 비밀번호를 다시 입력하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_AMAZON">
+      <Text>아마존</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_AMAZON_HELP">
+      <Text>남아메리카의 아마존 정글과 비슷하지만 무작위 요소가 있는 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ANCIENT_LAKES">
+      <Text>고대 호수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ANCIENT_LAKES_HELP">
+      <Text>중앙에 거대한 분화호가 있는 내륙 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ARBOREA">
+      <Text>아르보레아</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ARBOREA_HELP">
+      <Text>숲으로 뒤덮인 세계입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ARCHIPELAGO">
+      <Text>군도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ARCHIPELAGO_HELP">
+      <Text>섬이 많은 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_BIG_AND_SMALL">
+      <Text>크고 작은 대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_BIG_AND_SMALL_HELP">
+      <Text>큰 대륙과 작은 섬으로 이루어진 세계입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_BOREAL">
+      <Text>아한대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_BOREAL_HELP">
+      <Text>툰드라와 숲으로 뒤덮인 넓은 지역입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CONTINENTS">
+      <Text>대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CONTINENTS_HELP">
+      <Text>큰 대륙 몇 개와 작은 섬 여러 개가 있는 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CONTINENTS_PLUS">
+      <Text>대륙 플러스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CONTINENTS_PLUS_HELP">
+      <Text>대륙과 비슷하지만 연결된 섬이 늘어났으며 도시 국가의 위치가 확장되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CUSTOM_CONTINENTS">
+      <Text>사용자 설정 대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_CUSTOM_CONTINENTS_HELP">
+      <Text>대륙보다는 무작위성이 덜하며 대륙의 수를 지정할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_DONUT">
+      <Text>도넛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_DONUT_HELP">
+      <Text>원형의 판게아입니다. 중앙에 들어가는 지형을 선택할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_EARTH">
+      <Text>지구</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_EARTH_HELP">
+      <Text>지구 전체가 들어가는 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FANTASY">
+      <Text>판타지 제국</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FANTASY_HELP">
+      <Text>바다가 없는 작은 세계입니다. 날씨와 자원이 물리적 제약을 받지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FOLDER_ADDITIONAL">
+      <Text>추가 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FOLDER_ADDITIONAL_HELP">
+      <Text>추가 지도가 이용 가능합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FOUR_CORNERS">
+      <Text>네 귀퉁이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FOUR_CORNERS_HELP">
+      <Text>중앙에 육지가 있고 사방이 비슷하게 물로 나뉜 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FRACTAL">
+      <Text>프랙탈</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_FRACTAL_HELP">
+      <Text>종종 뱀처럼 길고 구불구불한 지형을 만드는 무작위 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GLOBAL_HIGHLANDS">
+      <Text>산악 지구</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GLOBAL_HIGHLANDS_HELP">
+      <Text>언덕과 산맥이 대부분인 매우 큰 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GREAT_PLAINS">
+      <Text>대초원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_GREAT_PLAINS_HELP">
+      <Text>북아메리카의 대초원과 비슷한 지형에 무작위 요소가 가미된 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HEMISPHERES">
+      <Text>반구</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HEMISPHERES_HELP">
+      <Text>균형 잡힌 두 개의 큰 대륙이 있는 세계입니다. 일대일 또는 두 팀이 멀티 플레이를 하기에 적합합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HIGHLANDS">
+      <Text>산악 지대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HIGHLANDS_HELP">
+      <Text>언덕과 산맥이 대부분인 큰 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HUB">
+      <Text>허브</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_HUB_HELP">
+      <Text>각 문명은 자신만의 대륙을 받으며 대륙은 모두 지도 중앙에 있는 극지방과 연결되어 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ICE_AGE">
+      <Text>빙하 시대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ICE_AGE_HELP">
+      <Text>적도 부근을 빼고 모두 빙하로 뒤덮인 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_INLAND_SEA">
+      <Text>내해</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_INLAND_SEA_HELP">
+      <Text>중앙에 거대한 바다가 있는 내륙 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_LAKES">
+      <Text>호수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_LAKES_HELP">
+      <Text>바다는 없고 호수만 있는 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_LARGE_ISLANDS">
+      <Text>대형 섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_LARGE_ISLANDS_HELP">
+      <Text>여러 개의 큰 섬으로 이루어진 지도입니다. 각 섬의 크기는 거의 비슷하지만 지형은 가지각색입니다. 문명은 이들 중 가장 좋은 섬에서 시작합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MAZE">
+      <Text>미로 넓이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MAZE_HELP">
+      <Text>땅과 바다가 미로를 이루고 있는 곳에서 플레이하는 진기한 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MEDITERRANEAN">
+      <Text>지중해</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MEDITERRANEAN_HELP">
+      <Text>지중해와 비슷하지만 무작위 요소가 있는 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MEDIUM_AND_SMALL">
+      <Text>크고 작은 대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MEDIUM_AND_SMALL_HELP">
+      <Text>크고 작은 대륙으로 이루어진 세계입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MIRROR">
+      <Text>거울</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MIRROR_HELP">
+      <Text>거울에 반사된 것처럼 양쪽이 대칭을 이루는 세계입니다. 재미있는 멀티 플레이를 위해 제작되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_NORTH_VS_SOUTH">
+      <Text>남북대결</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_NORTH_VS_SOUTH_HELP">
+      <Text>남북이 사막으로 나뉜 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OASIS">
+      <Text>오아시스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OASIS_HELP">
+      <Text>황량한 사막이 비옥한 지역을 이등분하고 있습니다. 일대일 결투 또는 두 팀이 멀티 플레이를 하기에 적합합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ABUNDANT">
+      <Text>풍족함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_AMOUNT_OF_TINY_ISLANDS">
+      <Text>초소형 섬의 수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ARCHIPELAGO">
+      <Text>군도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ARID">
+      <Text>적음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BALANCED_RESOURCES">
+      <Text>안정됨</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BARREN">
+      <Text>황량함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BODIES_OF_WATER">
+      <Text>물</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BUFFER_ZONES">
+      <Text>중간 영역</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_BUFFER_ZONES_HELP">
+      <Text>각 문명에 대해 생성된 지형 사이에 작은 대륙을 추가할지를 결정합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CENTER_REGION">
+      <Text>중앙 지역</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CLUSTERS">
+      <Text>밀집도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CLUSTERS_HELP">
+      <Text>프랙탈형 산맥입니다. 크고 빽빽하지만 그 수가 적습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CONTINENTS_SIZE">
+      <Text>대륙 크기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_COOL">
+      <Text>냉대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_COPY">
+      <Text>복사</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CRAZY">
+      <Text>미침</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CRAZY_HELP">
+      <Text>자원이 마구잡이로 배치되며 특정 자원이 압도적으로 많을 수도 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_CYLINDER">
+      <Text>실린더</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DENSE">
+      <Text>밀도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DESERT">
+      <Text>사막</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DOMINANT_TERRAIN">
+      <Text>우세 지형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DRY">
+      <Text>건조함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_DRY_HELP">
+      <Text>사막에서 신선한 물을 얻을 수 있는 곳은 오아시스가 유일합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_EXTRAS">
+      <Text>기타</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FEW_TINY_ISLANDS">
+      <Text>아주 약간의 초소형 섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FIVE_BILLION_YEARS">
+      <Text>50억 년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FIVE_PER_CONTINENT">
+      <Text>5</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FIVE_PER_CONTINENT_HELP">
+      <Text>정확하게 5개의 주요 대륙이 있는 지도를 선택합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FLAT">
+      <Text>평면</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FOUR_BILLION_YEARS">
+      <Text>40억 년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FOUR_CORNERS">
+      <Text>네 귀퉁이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FOUR_PER_CONTINENT">
+      <Text>4</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_FOUR_PER_CONTINENT_HELP">
+      <Text>정확하게 4개의 주요 대륙이 있는 지도를 선택합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_GLOBAL_CLIMATE">
+      <Text>세계 기후</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_GLOBAL_CLIMATE_HELP">
+      <Text>전 세계의 일반적인 기후를 나타내는 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_HIGH">
+      <Text>높음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_HILLS">
+      <Text>언덕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_HOT">
+      <Text>열대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_INVERSION">
+      <Text>반대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_IRRATIONAL">
+      <Text>비이성적</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_IRRATIONAL_HELP">
+      <Text>눈밭에 바나나가 자라는 등 자원이 비이성적인 위치에 배치됩니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLAND_REGION_SEPARATE">
+      <Text>섬 지역 분리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLANDS">
+      <Text>섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLANDS_MIXED_IN">
+      <Text>섞인 섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLANDS_OVERLAP">
+      <Text>겹치는 섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISLANDS_SIZE">
+      <Text>섬 크기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ISTHMUS_WIDTH">
+      <Text>지협 넓이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_JUNGLE">
+      <Text>정글</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LAND_SHAPE">
+      <Text>땅의 형태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LANDMASS_TYPE">
+      <Text>땅의 종류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LARGE_CONTINENTS">
+      <Text>큰 대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LARGE_ISLANDS">
+      <Text>큰 섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LARGE_LAKES">
+      <Text>큰 호수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LARGE_LAKES_HELP">
+      <Text>큰 호수와 작은 바다가 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LEFT_VS_RIGHT">
+      <Text>왼쪽과 오른쪽</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LEGENDARY_START">
+      <Text>전설적인 시작</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LOGICAL">
+      <Text>논리적</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LOGICAL_HELP">
+      <Text>자원이 상식적으로 올바른 법칙에 의해 배치됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_LOW">
+      <Text>낮음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MANY_TINY_ISLANDS">
+      <Text>많은 초소형 섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MAZE_WIDTH">
+      <Text>미로의 폭</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MEDIUM">
+      <Text>중간</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MILD">
+      <Text>약함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MIRROR_TYPE">
+      <Text>거울의 종류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MODERATE">
+      <Text>적당</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MOUNTAIN_DENSITY">
+      <Text>산맥의 밀도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MOUNTAIN_PATTERN">
+      <Text>산맥의 패턴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_MOUNTAINS">
+      <Text>산맥</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NARROW_CONTINENTS">
+      <Text>좁은 대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NATURAL">
+      <Text>자연스러움</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NATURAL_HELP">
+      <Text>반도 지형과 항만 지형이 가능합니다. 가장 복잡한 무작위 과정을 거쳐 생성된 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NEUTRAL_TERRITORY">
+      <Text>중립 지역</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NO">
+      <Text>없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NO_BUFFER_ZONES_HELP">
+      <Text>문명 사이에 다른 대륙을 추가하지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NO_JUNGLES">
+      <Text>정글 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NO_TINY_ISLANDS">
+      <Text>초소형 섬 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NORMAL">
+      <Text>보통</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NUM_CONTINENTS">
+      <Text>대륙의 수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_NUMBER_OF_MAIN_ISLANDS">
+      <Text>주요 섬의 수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_OCEAN">
+      <Text>바다</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ONE_PER_CONTINENT">
+      <Text>대륙당 하나</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ONE_PER_CONTINENT_HELP">
+      <Text>한 팀당 하나의 대륙이 할당되는 지도가 선택됩니다(최대 6개 대륙).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_ONE_PER_PLAYER">
+      <Text>플레이어당 하나</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_OPPOSITE">
+      <Text>반대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PANGAEA">
+      <Text>판게아</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_FIVE">
+      <Text>5구획 너비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_FOUR">
+      <Text>4구획 너비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_FOUR_HELP">
+      <Text>아대륙을 연결하는 교량의 너비가 4칸 입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_ONE">
+      <Text>1구획 너비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_THREE">
+      <Text>3구획 너비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_THREE_HELP">
+      <Text>아대륙을 연결하는 교량의 너비가 3칸 입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_TWO">
+      <Text>2구획 너비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PLOTS_WIDE_TWO_HELP">
+      <Text>아대륙을 연결하는 교량의 너비가 2칸 입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PRESSED">
+      <Text>부족</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_PRESSED_HELP">
+      <Text>해안선의 모양이 좀 더 가지런하고 매끄럽습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RAINFALL">
+      <Text>강수량</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RANDOM">
+      <Text>무작위</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RANGES">
+      <Text>범위</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RANGES_HELP">
+      <Text>프랙탈형 산맥입니다. 중간 크기에 뱀 같은 모양을 하고 있으며 무작위성이 강합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_REFLECTION">
+      <Text>반영</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RESOURCE_APPEARANCE">
+      <Text>자원 배치</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RESOURCES">
+      <Text>자원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIDGELINES">
+      <Text>융기선</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIDGELINES_HELP">
+      <Text>곳곳에 단층선이 있는 산맥입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RING_WIDTH">
+      <Text>원 폭</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIVERS">
+      <Text>강</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIVERS_AND_SEAS">
+      <Text>강과 바다</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIVERS_AND_SEAS_HELP">
+      <Text>일부 강이 포함된 대형 호수나 바다입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_RIVERS_HELP">
+      <Text>중앙 산악 지형으로부터 굽이쳐 흐르는 강입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SCATTERED">
+      <Text>흩어짐</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SCATTERED_HELP">
+      <Text>프랙탈형 산맥입니다. 작고 수가 많으며 균일하게 흩어져 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEA_LEVEL">
+      <Text>해수면</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEAS">
+      <Text>바다</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEAS_HELP">
+      <Text>대부분의 물은 바다이며, 바다는 다양한 형태에 적당한 깊이를 가지고 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEVERAL_EXTRAS">
+      <Text>추가 기타 사항</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEVERE">
+      <Text>정도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SEVERITY">
+      <Text>사막 지역의 정도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SIX_PER_CONTINENT">
+      <Text>6</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SIX_PER_CONTINENT_HELP">
+      <Text>정확하게 6개의 주요 대륙이 있는 지도를 선택합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SMALL_CONTINENTS">
+      <Text>작은 대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SMALL_ISLANDS">
+      <Text>작은 섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SMALL_LAKES">
+      <Text>작은 호수</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SMALL_LAKES_HELP">
+      <Text>많은 수의 작은 호수가 지도 곳곳에 흩어져 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SOLID">
+      <Text>단단함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SOLID_HELP">
+      <Text>각 문명의 영토가 고정된 자리로 시작합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SPARSE">
+      <Text>드묾</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_SPOKE_WIDTH">
+      <Text>살 너비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_STANDARD">
+      <Text>보통</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_START_ANYWHERE">
+      <Text>아무 곳에서나 시작</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_START_SEPERATED">
+      <Text>따로 시작</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_START_TOGETHER">
+      <Text>같이 시작</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_STRATEGIC_BALANCE">
+      <Text>전략적 균형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TEAM_PLACEMENT">
+      <Text>팀 배치</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TEAM_SETTING">
+      <Text>팀 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TEMPERATE">
+      <Text>온대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TEMPERATURE">
+      <Text>기후</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_THIN">
+      <Text>얇음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_THREE_BILLION_YEARS">
+      <Text>30억년</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_THREE_PER_CONTINENT">
+      <Text>3</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_THREE_PER_CONTINENT_HELP">
+      <Text>정확하게 3개의 주요 대륙이 있는 지도를 선택합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TINY_ISLANDS">
+      <Text>초소형 군도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TOP_VS_BOTTOM">
+      <Text>상하분쟁</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TOROID">
+      <Text>환상면</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TWO_PER_CONTINENT">
+      <Text>2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_TWO_PER_CONTINENT_HELP">
+      <Text>정확하게 2개의 주요 대륙이 있는 지도를 선택합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_VARIED">
+      <Text>다양함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_VARIOUS_TINY_ISLANDS">
+      <Text>다양한 초소형 섬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WATER_SETTING">
+      <Text>물 지형 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WET">
+      <Text>많음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WIDE_CONTINENTS">
+      <Text>넓은 대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WITHOUT_OCEANS">
+      <Text>바다 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WORLD_AGE">
+      <Text>지질학적 나이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_WORLD_WRAP">
+      <Text>세계의 외피</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_YES_10_CIVS_MAX">
+      <Text>예(최대 10개 문명)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTION_YES_10_CIVS_MAX_HELP">
+      <Text>문명 사이에 대륙을 추가합니다. (최대 10개의 문명까지만 가능합니다.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OVAL">
+      <Text>타원형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OVAL_HELP">
+      <Text>해안선이 들쑥날쑥한 타원형 대륙 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_PANGAEA">
+      <Text>판게아</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_PANGAEA_HELP">
+      <Text>모든 문명이 하나의 거대한 대륙에서 시작하는 지도입니다. 가장자리를 따라 작은 섬들이 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_PANGAEA_PLUS">
+      <Text>판게아 플러스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_PANGAEA_PLUS_HELP">
+      <Text>판게아와 비슷하지만 연결된 섬이 늘어났으며 도시 국가의 위치가 확장되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_POLYNESIA">
+      <Text>폴리네시아</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_POLYNESIA_HELP">
+      <Text>태평양 폴리네시아 군도와 비슷하지만 무작위 요소가 있는 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_RAINFOREST">
+      <Text>열대우림</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_RAINFOREST_HELP">
+      <Text>정글로 뒤덮인 세계입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_RING">
+      <Text>고리</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_RING_HELP">
+      <Text>각 문명은 자신만의 대륙을 받으며 대륙은 모두 이웃나라와 시계 방향으로 연결됩니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ROCKY_MOUNTAINS">
+      <Text>록키 산맥</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ROCKY_MOUNTAINS_HELP">
+      <Text>북아메리카의 록키 산맥과 비슷하지만 무작위 요소가 있는 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SAHARA">
+      <Text>사하라</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SAHARA_HELP">
+      <Text>아프리카의 사하라 사막과 비슷하지만 무작위 요소가 있는 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SANDSTORM">
+      <Text>모래 폭풍</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SANDSTORM_HELP">
+      <Text>조그만 평원과 초원이 일부 존재하며 주로 사막으로 이루어진 혹독한 환경입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT">
+      <Text>지도 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_DESERT">
+      <Text>사막</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_DESERT_HELP">
+      <Text>언덕이 곳곳에 있는 방대한 사막입니다. 물 설정이 매우 중요합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_FOREST">
+      <Text>숲</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_FOREST_HELP">
+      <Text>초원이 뒤섞인 울창한 숲입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_GRASSLANDS">
+      <Text>초원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_GRASSLANDS_HELP">
+      <Text>일부 언덕과 숲이 방대한 초원 전체에 걸쳐 간간이 섞어져 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_HILLS">
+      <Text>언덕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_HILLS_HELP">
+      <Text>초원 협곡이 간간이 섞인 바위투성이의 고원입니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_JUNGLE">
+      <Text>정글</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_JUNGLE_HELP">
+      <Text>언덕과 숲이 간간이 섞인 있는 수풀이 우거진 정글입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_PLAINS">
+      <Text>평원</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_PLAINS_HELP">
+      <Text>방대한 평원에 걸쳐 여러 종류의 지형으로 혼합된 조그만 지형이 간간이 섞어져 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_TUNDRA">
+      <Text>툰드라</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SCRIPT_SKIRMISH_TUNDRA_HELP">
+      <Text>비옥한 평원이 거의 없는 몹시 추운 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SIBERIA">
+      <Text>시베리아</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SIBERIA_HELP">
+      <Text>북아시아의 시베리아와 비슷하지만 무작위 요소가 있는 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SIZE_FORMAT">
+      <Text>지도 크기: {1_string}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SKIRMISH">
+      <Text>교전 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SKIRMISH_HELP">
+      <Text>2인 플레이에 최적화된 지도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SMALL_CONTINENTS">
+      <Text>작은 대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SMALL_CONTINENTS_HELP">
+      <Text>중간 크기의 대륙 몇 개와 작은 섬 여러 개가 있는 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SOUTH_PACIFIC">
+      <Text>남태평양</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SOUTH_PACIFIC_HELP">
+      <Text>호주와 동남아시아 그리고 다양한 섬을 포함하는 남태평양과 비슷한 지역입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TEAM_BATTLEGROUND">
+      <Text>팀 전장</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TEAM_BATTLEGROUND_HELP">
+      <Text>빠른 속도의 팀 멀티 플레이에 적합하게 제작된 육지 위주의 작은 지형입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TERRA">
+      <Text>테라</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TERRA_HELP">
+      <Text>모든 문명이 유라시아와 아프리카를 합쳐놓은 듯한 대륙에서 시작하며 실제 지구와 비슷한 매우 큰 지도입니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TILTED_AXIS">
+      <Text>기울어진 축</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TILTED_AXIS_HELP">
+      <Text>남극이 항상 태양을 향하도록 기울어진 매우 큰 세계입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TINY_ISLANDS">
+      <Text>초소형 군도</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TINY_ISLANDS_HELP">
+      <Text>작은 섬이 여러 개 있는 지도입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TITLE">
+      <Text>모드 지도 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_TYPE_TITLE">
+      <Text>지도 종류 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WEST_VS_EAST">
+      <Text>동서분쟁</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WEST_VS_EAST_HELP">
+      <Text>남북을 가로지르는 넓은 바다에 의해 동서로 나뉜 지도입니다. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WHEEL">
+      <Text>바퀴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WHEEL_HELP">
+      <Text>각 문명은 자신만의 대륙을 받으며 중심부와 고리 형태의 육지가 여러 지역을 연결합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAX_TURN_FORMAT">
+      <Text>최대 턴 : {1_number}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINUTES">
+      <Text>분</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_ADV_SETUP">
+      <Text>고급 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_BACK">
+      <Text>뒤로</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_RANDOMIZE">
+      <Text>무작위</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_START_GAME">
+      <Text>게임 시작하기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOD_INTERNET_LOBBY">
+      <Text>모드 인터넷 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOD_LAN_LOBBY">
+      <Text>모드 로컬 네트워크 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOD_MP_GAME_SETUP_HEADER">
+      <Text>모드 멀티 플레이 게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODS">
+      <Text>모드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODS_SELECT_MULTIPLAYER_TYPE">
+      <Text>멀티 플레이 모드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODS_TT">
+      <Text>사용자 제작 모드 접속</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_DISABLE_SLOT">
+      <Text>슬롯 비활성화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_ENABLE_SLOT">
+      <Text>슬롯 활성화</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_HOST_LOST">
+      <Text>주최자의 네트워크 연결이 끊어졌습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_JOIN_FAILED">
+      <Text>멀티 플레이 세션에 참가하는 데 오류가 발생했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_JOIN_FAILED_MISSING_RESOURCES">
+      <Text>멀티 플레이 게임에 참가하는 데 오류가 발생했습니다.  필요한 일부 DLC와 모드가 설치돼 있지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_KICK_PLAYER">
+      <Text>플레이어 추방</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_KICKED">
+      <Text>주최자가 플레이어를 추방했습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_LAST_PLAYER">
+      <Text>게임에 남은 유일한 인간 플레이어가 되었습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_LOCK_SLOT">
+      <Text>AI 허가 안 함</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_NETWORK_CONNECTION_LOST">
+      <Text>네트워크 연결이 끊어졌습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_NICK_NAME">
+      <Text>별명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_PASSWORD">
+      <Text>비밀번호</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_READY_CHECK">
+      <Text>준비 상태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_READY_CHECK_UNAVAILABLE_DATA_HELP">
+      <Text>다른 플레이어가 이 컴퓨터에 설치돼 있지 않은 DLC를 사용하고 있어서 '준비'할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_RETYPE_PASSWORD">
+      <Text>다시 입력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_ROOM_FULL">
+      <Text>정원이 꽉 찼습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_SWAP_BUTTON_TT">
+      <Text>이 플레이어 슬롯으로 교체합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_UNLOCK_SLOT">
+      <Text>AI 허가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_USE_PASSWORD">
+      <Text>비밀번호 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_USE_PASSWORD_TT">
+      <Text>플레이어 턴 시작 시 비밀번호 사용</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_HOST">
+      <Text>{1_PlayerName} 님과 버전이 맞지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_VERSION_MISMATCH_FOR_PLAYER">
+      <Text>주최자와 버전이 맞지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER">
+      <Text>멀티 플레이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_AUTOSAVES">
+      <Text>자동 저장</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_BROWSE_GAMES">
+      <Text>게임 검색</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_CANCEL_LOAD_TT">
+      <Text>멀티 플레이 저장 불러오기 취소</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_CONNECT_TO_IP">
+      <Text>IP 주소로 접속</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_CONNECT_TO_IP_TT">
+      <Text>입력한 공개 IP 주소의 피트보스 게임으로 접속합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEDICATED_SERVER_ROOM">
+      <Text>전용 서버 방</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEFAULT_PLAYER_NAME">
+      <Text>플레이어 {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEFAULT_SERVER_NAME">
+      <Text>서버 {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEFAULT_SERVER_PLAYER_NAME">
+      <Text>서버</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DEFAULT_TEAM_NAME">
+      <Text>팀 {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_DLCHOSTED">
+      <Text>DLC</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_GAME_SETUP_HEADER">
+      <Text>멀티 플레이 게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_GAMES_FOUND">
+      <Text>검색된 게임 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_GAME">
+      <Text>게임 주최</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_GAME_TT">
+      <Text>새 멀티 플레이 게임을 시작합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_LAN">
+      <Text>랜 게임 주최</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_LAN_DESC">
+      <Text>게임 설정을 선택하고 게임을 주최합니다. 랜에 접속한 플레이어는 대기실에서 게임을 확인하고 참가할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOST_PRIVATE_GAME">
+      <Text>비공개 게임 주최</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOTSEAT_GAME">
+      <Text>핫시트 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_HOTSEAT_GAME_TT">
+      <Text>다수의 플레이어가 한 컴퓨터에서 돌아가며 멀티 플레이 게임을 즐깁니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INTERNET_DESC">
+      <Text>플레이하고자 하는 게임 종류와 시스템을 선택하면 같은 종류의 게임을 찾는 플레이어와 연결해줍니다. 아무나 들어오지 않고 친구만 초대할 수 있는 게임을 주최하려면 '비공개 게임 주최'를 선택하십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INTERNET_GAME">
+      <Text>인터넷</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INTERNET_GAME_TT">
+      <Text>인터넷에서 멀티 플레이 게임을 즐깁니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INTERNET_LOBBY">
+      <Text>인터넷 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INVITE">
+      <Text>초대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_INVITE_TT">
+      <Text>게임으로 친구 초대</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOIN_GAME">
+      <Text>게임 참가</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_GAMESTATE">
+      <Text>주최자 정보 검색 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_HOST">
+      <Text>주최자 연결 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_PLAYERS">
+      <Text>플레이어 연결 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_JOINING_ROOM">
+      <Text>방 참가 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LAN_GAME">
+      <Text>로컬 네트워크</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LAN_GAME_TT">
+      <Text>로컬 네트워크에서 멀티 플레이 게임을 즐깁니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LAN_LOBBY">
+      <Text>로컬 네트워크 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LAUNCH_GAME">
+      <Text>게임 시작하기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LOBBY_NO">
+      <Text>아니요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_LOBBY_YES">
+      <Text>예</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_MEMBERS">
+      <Text>멤버</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_MODSHOSTED">
+      <Text>모드</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_OBSERVER_TEAM_NAME">
+      <Text>관전자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PITBOSS_GAME">
+      <Text>피트보스</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PITBOSS_GAME_TT">
+      <Text>전용 서버가 오랫동안 게임을 운영하는 멀티플레이 게임을 즐기세요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PITBOSS_LOBBY">
+      <Text>피트보스 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PLAYER_STATUS_READY">
+      <Text>준비</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_PRIVATE_GAME">
+      <Text>비공개 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_RECONNECT">
+      <Text>마지막 게임으로 다시 연결하기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_REFRESH_GAME_LIST">
+      <Text>새로고침</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_REFRESH_GAME_LIST_TT">
+      <Text>최신 게임 목록 정보를 받아옵니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_RESUME_LAST_GAME">
+      <Text>마지막 게임 계속하기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_SEARCHING_GAME">
+      <Text>게임 검색 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_SELECT_MULTIPLAYER_TYPE">
+      <Text>멀티 플레이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_SELECT_SAVED_GAME">
+      <Text>저장한 게임 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_SERVER_NAME">
+      <Text>서버 이름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM">
+      <Text>대기실</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_GAME_OPTIONS_TT">
+      <Text>게임 설정을 변경합니다. (주최자 전용)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_HEADER_CIVILIZATION">
+      <Text>문명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_HEADER_PLAYER">
+      <Text>플레이어</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STAGING_ROOM_HEADER_PLAYER_TT">
+      <Text>플레이어 목록을 표시합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STANDARD_GAME">
+      <Text>일반 게임</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STANDARD_GAME_TT">
+      <Text>플레이어가 차례로 턴을 가져가는 멀티 플레이 게임을 즐기세요.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STATUS_LISTING">
+      <Text>상태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STOP_REFRESH_GAME_LIST">
+      <Text>새로 고침 정지</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STOP_REFRESH_GAME_LIST_TT">
+      <Text>게임목록 정보검색 기능을 정지합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_STRING">
+      <Text>멀티 플레이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_TO_ALL">
+      <Text>모두에게 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_TT">
+      <Text>랜 또는 인터넷 멀티 플레이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NAME_CIV_TITLE">
+      <Text>문명 이름을 지으십시오!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NAME_REENTER_MAIL_PASSWORD">
+      <Text>이메일 비밀번호 재입력</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_REPLAYS">
+      <Text>리플레이 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_SAVED_GAMES">
+      <Text>저장한 게임 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NUMBERING_FORMAT">
+      <Text>{1_number}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPTIONS">
+      <Text>설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPTIONS_TT">
+      <Text>게임 및 시스템 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OTHER">
+      <Text>기타</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OTHER_MENU_VIEW_REPLAYS">
+      <Text>리플레이 보기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OTHER_MENU_VIEW_REPLAYS_TT">
+      <Text>이전 게임의 리플레이를 봅니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OTHER_TT">
+      <Text>기타 정보</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_CHIEFTAN">
+      <Text>족장</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_CIVILIZATION_POINTS">
+      <Text>내 문명 점수 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_CIVNAME">
+      <Text>문명 이름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_CONTINENTS">
+      <Text>대륙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_DEBUG_MICRO">
+      <Text>디버그 마이크로</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_DIFFICULTY">
+      <Text>난이도 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_DIPLOSTATUS">
+      <Text>외교 상태</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_EMPEROR">
+      <Text>황제</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_FRACTAL">
+      <Text>프랙탈</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_GAME_SPEED">
+      <Text>게임 속도 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_HUB">
+      <Text>허브</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_IMMORTAL">
+      <Text>불멸자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_LEADERNAME">
+      <Text>지도자 이름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_MAPSIZE">
+      <Text>지도 크기 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_MAPTYPE">
+      <Text>지도 종류 선택</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_SMALL">
+      <Text>소형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_SPEED_EPIC">
+      <Text>서사시</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_SPEED_QUICK">
+      <Text>빠름</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_SPEED_STANDARD">
+      <Text>보통</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_STANDARD">
+      <Text>보통</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_TINY">
+      <Text>초소형</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PGSCREEN_WHEEL">
+      <Text>바퀴</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAY_NOW">
+      <Text>바로 시작</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAY_NOW_SETTINGS">
+      <Text>현재 설정대로 게임 시작 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAY_NOW_TT">
+      <Text>이전 설정대로 게임을 시작합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_TYPE_HUMAN">
+      <Text>인간</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_CIV">
+      <Text>무작위 문명</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_LEADER">
+      <Text>무작위 지도자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_LEADER_CIV">
+      <Text>{1_Leader} - {2_Civ}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_LEADER_HELP">
+      <Text>플레이할 지도자를 무작위로 선택합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_MAP_SCRIPT">
+      <Text>무작위 지도 종류</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_MAP_SCRIPT_HELP">
+      <Text>목록에서 지구를 제외하고 무작위로 특정 지도 종류를 선택합니다. 선택된 지도의 종류를 알려주지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_MAP_SIZE">
+      <Text>무작위 지도 크기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANDOM_MAP_SIZE_HELP">
+      <Text>목록에서 무작위로 지도의 크기를 선택합니다. 선택된 지도의 크기를 알려주지 않습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REFRESH_GAME_LIST_TT">
+      <Text>게임 설정으로 돌아가기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SAVE_GAME_CONFIGURATION_TT">
+      <Text>게임 시작 설정을 저장합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCENARIOS">
+      <Text>시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SECONDS">
+      <Text>초</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_MAP_TYPE_BACK">
+      <Text>돌아가기</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_MAP_TYPE_BACK_HELP">
+      <Text>상위 폴더로 돌아갑니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_SAVE_GAME">
+      <Text>저장한 게임을 선택해주십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SETUP_GAME">
+      <Text>게임 설정</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SETUP_GAME_TT">
+      <Text>게임 설정 변경</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SINGLE_PLAYER">
+      <Text>싱글 플레이</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_AI">
+      <Text>AI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_AI_TT">
+      <Text>AI 플레이어</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_CLOSED">
+      <Text>닫힘</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_CLOSED_TT">
+      <Text>닫힌 슬롯은 플레이어가 사용할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_HUMAN_TT">
+      <Text>인간 플레이어</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_HUMANREQ">
+      <Text>인간 필요</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_HUMANREQ_TT">
+      <Text>게임을 시작하려면 필요한 슬롯에 인간 플레이어가 참여해야 합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_OBSERVER">
+      <Text>관전자</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_OBSERVER_TT">
+      <Text>관전자는 게임에 참가하지 않고 관전합니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_OPEN">
+      <Text>열림</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SLOTTYPE_OPEN_TT">
+      <Text>열린 슬롯에는 플레이어가 참가할 수 있습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SOMEONE_STILL_LOADING">
+      <Text>다른 플레이어가 아직 로딩 중입니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SORTBY_LASTMODIFIED">
+      <Text>마지막 변경 기준 정렬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SORTBY_NAME">
+      <Text>이름 기준 정렬</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STAGING_ROOM_TIME_MS">
+      <Text>ms</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STAGING_ROOM_TIME_S">
+      <Text>s</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STAGING_ROOM_UNDER_1_MS">
+      <Text>&lt;1ms</Text>
+    </Row>
+    <Row Tag="TXT_KEY_START_ERA_FORMAT">
+      <Text>시작 시대 : {1_string}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_START_GAME">
+      <Text>게임 시작</Text>
+    </Row>
+    <Row Tag="TXT_KEY_START_SCENARIO">
+      <Text>시나리오 시작</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAM_EMPTY_SAVE">
+      <Text>빈 저장 슬롯</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMCLOUD">
+      <Text>Steam Cloud</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMCLOUD_SAVE">
+      <Text>{1_SaveNumber}. {2_SaveName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TITLE_BAR">
+      <Text>제목</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TITLE_BODY_DESCRIPTION">
+      <Text>제목 아래 본문이 있어야 하는 경우의 본문</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL">
+      <Text>튜토리얼</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_TT">
+      <Text>게임 플레이 개념 소개를 위한 시나리오</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNAVAILABLE_LEADER">
+      <Text>지도자 없음</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNAVAILABLE_LEADER_HELP">
+      <Text>'{1_string}' DLC 패키지 설치 안 됨.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNAVAILABLE_LEADER_TT">
+      <Text>일부 플레이어가 '{1_string}' DLC 패키지를 설치하지 않아 지도자를 사용할 수 없습니다.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPDATING_GAME_DATA">
+      <Text>게임 데이터를 구성하고 있습니다. 잠시만 기다려 주십시오.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORYS_FORMAT">
+      <Text>승리 유형 :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAITING_FOR_INVITE_RESPONSE">
+      <Text>{1_player} 님을 기다리는 중</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_SIZE">
+      <Text>세계 규모</Text>
+    </Row>
+  </Language_KO_KR>
+</GameData>

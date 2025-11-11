@@ -1,0 +1,1365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--CIV METROPOLIS KOREAN PATCH-->
+<GameData>
+    <Language_KO_KR>
+        <Row Tag="TXT_KEY_ABLTY_BRIDGE_STRING">
+            <Text>강 위에 다리 건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_D_PACT_STRING">
+            <Text>방위 조약 가능</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_DEFENSIVE_EMBARK_STRING">
+            <Text>승선한 유닛의 자체 방어 가능</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_FAST_EMBARK_STRING">
+            <Text>승선시 빠른 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_FASTER_MOVEMENT_STRING">
+            <Text>빠른 이동 활성화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_FRESH_WATER_STRING">
+            <Text>담수</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_NO_FRESH_WATER_STRING">
+            <Text>담수 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_OCEAN_EMBARK_STRING">
+            <Text>승선 유닛이 바다를 건너도록 허용</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_OPEN_BORDER_STRING">
+            <Text>국경 개방 가능</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_R_PACT_STRING">
+            <Text>연구 협정 허용</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_T_PACT_STRING">
+            <Text>거래 협정 허용</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ABLTY_YIELD_IMPRVD_STRING">
+            <Text>산출량 증가 :</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ACCEPT_BUTTON">
+            <Text>확인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISOR_ECON_TITLE">
+            <Text>경제 보좌관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISOR_FOREIGN_TITLE">
+            <Text>외교 보좌관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISOR_MILITARY_TITLE">
+            <Text>군사 보좌관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISOR_RESET_TEXT">
+            <Text>제 연구에 의하면 국민은 당신의 지도력을 신뢰합니다. 계속해서 탐험하고 다른 문명과 교류한다면 미래가 어떻게 될지 누가 알겠습니까? 언젠간 불가능한 일도 해낼 수 있을 것입니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISOR_RESET_TITLE">
+            <Text>잘 하고 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISOR_SCIENCE_TITLE">
+            <Text>과학 보좌관</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISOR_THANK_YOU">
+            <Text>감사합니다</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISOR_TY_TT">
+            <Text>조언 창 닫기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISORINFOPOPUP_BACK">
+            <Text>돌아가기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISORINFOPOPUP_CIVILOPEDIA">
+            <Text>문명 백과사전</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ADVISORINFOPOPUP_FORWARD">
+            <Text>앞으로 가기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ALWAYS_AT_WAR_WITH_CITY">
+            <Text>당신은 이 문명과 항상 전쟁 상태에 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ALWAYS_WAR_TT">
+            <Text>모든 문명이 항상 전쟁 중입니다.[NEWLINE]외교는 고려하지 않아도 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AUTOCRACY_TITLE">
+            <Text>{2_CivName:textkey}의 악랄한 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BACK_BUTTON">
+            <Text>뒤로</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_FEATURE_PRODUCTION">
+            <Text>, 가장 가까운 도시에 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 제공합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_FOOD_STRING">
+            <Text>{1_Num} [ENDCOLOR][ICON_FOOD]식량</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_GOLD_STRING">
+            <Text>{1_Num} [ENDCOLOR][ICON_GOLD]골드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_PRODUCTION_STRING">
+            <Text>{1_Num} [ENDCOLOR][ICON_PRODUCTION]생산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_SCIENCE_STRING">
+            <Text>{1_Num} [ENDCOLOR][ICON_RESEARCH]과학</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CANCEL_BUTTON">
+            <Text>취소</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CANNOT_PURCHASE_NO_GOLD">
+            <Text>[NEWLINE]구매하는 데 필요한 [ICON_GOLD]골드가 부족합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CANNOT_PURCHASE_UNIT_HERE">
+            <Text>[NEWLINE]다른 유닛이 이 도시에 배치되어 있는 동안은 구매할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_FREE_GREAT_PERSON">
+            <Text>위인 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_FREE_GREAT_PERSON_TT">
+            <Text>무료로 위인을 선택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_FREE_TECH">
+            <Text>무료 기술 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_FREE_TECH_TT">
+            <Text>무료로 기술을 추가할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_POLICY">
+            <Text>정책 도입</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_POLICY_TT">
+            <Text>새로운 사회 정책을 채택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_PRODUCTION">
+            <Text>생산 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_PRODUCTION_TT">
+            <Text>도시 중 하나에서 새로운 생산을 할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_RESEARCH">
+            <Text>연구 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CHOOSE_RESEARCH_TT">
+            <Text>새로운 연구 과제를 선택할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_RANGE_ATTACK">
+            <Text>도시 공격 가능</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_RANGE_ATTACK_TT">
+            <Text>근처의 적에게 원거리 공격을 가합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_SCREEN_PROD_PER_TURN">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num} [ICON_PRODUCTION]생산/턴[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIAN">
+            <Text>민간인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COMMERCE_TITLE">
+            <Text>{2_CivName:textkey}의 총독 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_DENOUNCE">
+            <Text>{@1_LeaderName} 지도자를 공개적으로 비난하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_DISABLE_MOD">
+            <Text>이 모드를 비활성화하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_ENABLE_MOD">
+            <Text>이 모드를 활성화하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_KICK">
+            <Text>{1_PlayerName:textkey} 님을 게임에서 추방하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_POLICY">
+            <Text>이 사회 정책을 채택하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_TXT">
+            <Text>저장 파일이 영구적으로 삭제됩니다. 계속하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_WAR">
+            <Text>[COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CONFIRM_WAR_PROTECTED_CITY_STATE">
+            <Text>{1_CivName:textkey}에게 [COLOR_NEGATIVE_TEXT]선전포고[ENDCOLOR]를 하시겠습니까? 이들은 다음과 같은 문명의 보호를 받고 있습니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_CITY_MOD">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_CULTURE]  도시 내 시설이 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_FROM_BUILDINGS">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  건물에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_FROM_POLICIES">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  사회 정책에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_FROM_SPECIALISTS">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  전문가에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_FROM_TERRAIN">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  지형에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_FROM_TRAITS">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE]  문명 특성에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_HELP_INFO">
+            <Text>[ICON_CULTURE]문화는 도시의 영토를 확장시켜 도시 산출량을 높일 수 있게 합니다.  [COLOR_POSITIVE_TEXT]사회 정책[ENDCOLOR]을 채택하는 데에도 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_INFO">
+            <Text>국경 확장까지 [ENDCOLOR][COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_PLAYER_MOD">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_CULTURE]  문명 특성이 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_TURNS">
+            <Text>([COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR])</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CULTURE_WONDER_BONUS">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_CULTURE]  세계 불가사의가 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CUR_ERA_TURNS_FORMAT">
+            <Text>{2_number} 턴 - 현재 시대 : {1_era}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CURRENTLY_SELECTED_UNIT">
+            <Text>현재 선택된 유닛입니다.[NEWLINE][NEWLINE]클릭하면 이 유닛으로 화면이 이동합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_ACCEPTED">
+            <Text>거래를 수락</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_ACCEPTED_BY_THEM">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자가 당신의 제안을 수락했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_ACCEPTED_BY_YOU">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자의 제안을 수락했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_COUNTER_BY_THEM">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자가 당신에게 대안을 제안했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_COUNTER_BY_YOU">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자에게 대안을 제안했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_COUNTER_RECIEVED">
+            <Text>대안을 제안받음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_COUNTER_SENT">
+            <Text>대안을 제안함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_EXPIRED">
+            <Text>거래가 더 이상 유효하지 않음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_EXPIRED_FROM_THEM">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자가 제안한 거래가 더 이상 유효하지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_EXPIRED_FROM_YOU">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자에게 제안한 거래가 더 이상 유효하지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_OFFERED">
+            <Text>거래를 제안</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_OFFERED_BY_THEM">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자가 당신에게 거래를 제안합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_OFFERED_BY_YOU">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자에게 거래를 제안합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_REJECTED">
+            <Text>제안을 거부</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_REJECTED_BY_THEM">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자가 당신의 제안을 거부했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_REJECTED_BY_YOU">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자의 제안을 거절했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_WITHDRAWN">
+            <Text>제안을 철회</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_WITHDRAWN_BY_THEM">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자가 제안을 철회했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEAL_WITHDRAWN_BY_YOU">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Player}[ENDCOLOR] 지도자에게 했던 제안을 철회했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DEFAULT_BUTTON">
+            <Text>기본값</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DELETE_BUTTON">
+            <Text>삭제</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DELETE_MOD_TXT">
+            <Text>이 모드가 영구적으로 삭제됩니다. 계속하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ADDITIONAL">
+            <Text>추가 정보</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_CITIES">
+            <Text>도시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_CIVILIZATION_NAME">
+            <Text>문명 이름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_CLOSE_CHAT">
+            <Text>채팅 닫기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_CLOSE_CHAT_TT">
+            <Text>채팅 패널을 열거나 닫습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_CSTATE_GIVE_UNIT_TT">
+            <Text>도시 국가에 유닛을 선물합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_CSTATE_SPEAK_WITH">
+            <Text>도시 국가와 대화합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_DIPLOMACY_BUTTON">
+            <Text>외교</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ITEMS_LABEL">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerName}[ENDCOLOR]의 항목</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ITEMS_LUXURY_RESOURCES">
+            <Text>사치 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ITEMS_OTHER_PLAYERS">
+            <Text>다른 플레이어</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_ITEMS_STRATEGIC_RESOURCES">
+            <Text>전략 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_LEADER_NAME">
+            <Text>지도자 이름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_AFRAID">
+            <Text>두려워함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_DENOUNCING">
+            <Text>[COLOR_WARNING_TEXT]비난 중![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_FRIENDLY">
+            <Text>우호적</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_GUARDED">
+            <Text>방어적</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_HOSTILE">
+            <Text>적대적</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_LIBERATED">
+            <Text>해방됨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_NEUTRAL">
+            <Text>중립적</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_WAR">
+            <Text>[COLOR_WARNING_TEXT]전쟁 중![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MY_INFO">
+            <Text>당신의 정보:</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MY_SCORE">
+            <Text>당신의 점수:</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MY_SCORE_CITIES">
+            <Text>도시에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MY_SCORE_FUTURE_TECH">
+            <Text>미래기술에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MY_SCORE_LAND">
+            <Text>영토에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MY_SCORE_POPULATION">
+            <Text>시민에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MY_SCORE_TECH">
+            <Text>기술에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_MY_SCORE_WONDERS">
+            <Text>불가사의에서 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NAME">
+            <Text>이름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NOTIFICATION_LOG_TT">
+            <Text>알림 기록</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_NUM_CSTATE_MET">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR]의 도시 국가를 만남</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_OPEN_ADVISORS_TT">
+            <Text>보좌관에게 현재 상황에 대한 조언을 구합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_OPEN_CHAT">
+            <Text>채팅 열기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_OPEN_CHAT_TT">
+            <Text>큰 채팅 창을 열거나 닫습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_OPEN_SOCIAL_POLICY_TT">
+            <Text>사회 정책</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_SPEAK_TO">
+            <Text>대화할 지도자를 선택합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_STATUS">
+            <Text>외교 관계</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_TO_ALL">
+            <Text>모두에게</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_TO_PLAYER">
+            <Text>[COLOR_POSITIVE_TEXT]{1_player}[/COLOR]에게</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_TO_TEAM">
+            <Text>팀에게</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM">
+            <Text>상대는 거래 가능한 도시가 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_TO_TRADE_CITY_NO_TT">
+            <Text>당신은 거래 가능한 도시가 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_TO_TRADE_CITY_TT">
+            <Text>도시를 거래합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE">
+            <Text>국제 연합 투표</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_VOTE_TT">
+            <Text>국제 연합 투표에 참여해야 합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DIPLO_YOUR_ITEMS_LABEL">
+            <Text>[COLOR_POSITIVE_TEXT]당신[ENDCOLOR]의 항목</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EDIT_BUTTON">
+            <Text>편집</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EFFECTED_MODS_TXT">
+            <Text>영향을 미치는 모드: </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EMPTY">
+            <Text>모두 닫기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ERA_TURNS_FORMAT">
+            <Text>시작 시대 : {1_era}  -  {2_number} 턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EXPERIENCE_POPUP">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [COLOR:0:0:255:255]경험치[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FOOD_HELP_INFO">
+            <Text>[ICON_FOOD]식량은 도시의 [ICON_CITIZEN]시민 증가 속도를 결정합니다. [ICON_CITIZEN]시민은 도시 주변 타일에서 [ICON_FOOD]식량, [ICON_PRODUCTION]생산, [ICON_GOLD]골드 등을 획득합니다. 그러므로 도시는 클수록 좋은 법이죠!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FOOD_PROGRESS">
+            <Text>진행상황 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_FOOD]식량</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FOOD_USAGE">
+            <Text>([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] - [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_CITIZEN]시민이 소모함)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FOODMOD_CAPITAL">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  정책이 [ICON_CAPITAL]수도에 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FOODMOD_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FOODMOD_RELIGION">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  [ICON_PEACE]종교가 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FOODMOD_UNHAPPY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]{1_Num}%[ENDCOLOR]  [ICON_HAPPINESS_4]불행이 주는 불이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FOODMOD_WLTKD">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  국왕 경축일이 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FORWARD_BUTTON">
+            <Text>앞으로</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FREE">
+            <Text>무료</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FREEDOM_TITLE">
+            <Text>{2_CivName:textkey}의 대통령 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOLD_HELP_INFO">
+            <Text>[ICON_GOLD]골드가 국고에 쌓여 있습니다. [ICON_GOLD]골드로 영토의 확장, 유닛과 건물의 구매, 도시 국가에 대한 영향력을 높이는 것과 같은 활동을 할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOLDEN_AGE_FLAVOR">
+            <Text>축하합니다! 시민들이 당신의 통치에 오랫동안 만족하여 문명의 [ICON_GOLDEN_AGE]황금기가 시작되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOODBYE_BUTTON">
+            <Text>나가기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HAVENT_MET">
+            <Text>당신은 이 문명을 만나지 못했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HOF_RESULTS">
+            <Text>결과</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HOF_SETTINGS">
+            <Text>설정</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HONOR_TITLE">
+            <Text>{2_CivName:textkey}의 위대한 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HOST_MIGRATED">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR] 님이 게임 주최자가 되었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_HOTSEAT_NEXT_PLAYER">
+            <Text>다음 플레이어 턴!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_IC_RESOURCE">
+            <Text>자원 목록</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_OF_CIV">
+            <Text>{@2_CivName}의 [COLOR_POSITIVE_TEXT]{@1_LeaderName}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LIBERTY_TITLE">
+            <Text>{2_CivName:textkey}의 집정관 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAX_TURNS">
+            <Text>최대 턴 : {1_maxTurns}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MINOR_QUEST_BLOCKING">
+            <Text>도시 국가 메시지</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MINOR_QUEST_BLOCKING_TT">
+            <Text>메시지를 닫으려면 [COLOR_POSITIVE_TEXT]오른쪽 클릭[ENDCOLOR]합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_GREAT_PERSON_CHOOSE_TECH">
+            <Text>위인이 새로운 기술을 발견했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_PLAYERS_SIGN_RESEARCH_AGREEMENT">
+            <Text>문명들이 연구 협정을 맺었습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISC_UNKNOWN">
+            <Text>알 수 없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_VERSION_AVAILABLE">
+            <Text>{1_VersionNumber} 버전이 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH1">
+            <Text>1월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH10">
+            <Text>10월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH11">
+            <Text>11월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH12">
+            <Text>12월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH2">
+            <Text>2월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH3">
+            <Text>3월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH4">
+            <Text>4월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH5">
+            <Text>5월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH6">
+            <Text>6월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH7">
+            <Text>7월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH8">
+            <Text>8월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MONTH9">
+            <Text>9월</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOVE_STACKED_UNIT">
+            <Text>겹쳐진 유닛 이동</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOVE_STACKED_UNIT_TT">
+            <Text>다른 유닛과 겹쳐져 있는 유닛 하나를 선택합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MULTIPLAYER_UNIT_TT">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerHandle}[ENDCOLOR] : {@2_Adjective} [COLOR_POSITIVE_TEXT]{3_UnitName}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NAME_CITY_TITLE">
+            <Text>도시 이름을 정하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NAME_UNIT_TITLE">
+            <Text>유닛 이름을 정하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NEW_GAME">
+            <Text>새 게임</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NEXT_TURN">
+            <Text>다음 턴</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NEXT_TURN_TT">
+            <Text>턴을 종료하고 다른 플레이어에게 턴을 넘깁니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_BUILDING_COUNT_NEEDED">
+            <Text>[NEWLINE]{2_BuildingName:textkey}{2: plural 1?이; 2?가;} {1_Num}개 더 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_BUILDING_LACKS_RESOURCES">
+            <Text>[NEWLINE]이 건물을 건설하기 위해서는 {2_ResourceIcon}{3_ResourceName:textkey}{3: plural 1?이; 2?가;} {1_Num}개가 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_RESOURCE">
+            <Text>[NEWLINE]이 도시 근처에 개발된 {2_ResourceIcon}{1_ResourceName:textkey}{1: plural 1?이; 2?가;} 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_GAME_COUNT_MAX">
+            <Text>[NEWLINE]전 세계에서 오직 {1_Num}개만 건설할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_NUKES">
+            <Text>[NEWLINE]핵무기를 생산할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_PLAYER_COUNT_MAX">
+            <Text>[NEWLINE]문명당 {1_Num}개만 가능합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT">
+            <Text>[NEWLINE]개척자는 [ICON_CITIZEN]시민이 {1_Num}명 이상 있는 도시에서만 생산할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED">
+            <Text>[NEWLINE]개척자는 [ICON_CITIZEN]시민이 2명 이상 있는 도시에서만 생산할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_SPECIAL_UNIT">
+            <Text>[NEWLINE]특수 유닛은 생산할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_TEAM_COUNT_MAX">
+            <Text>[NEWLINE]팀당 {1_Num}개만 허용됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_UNIT_LACKS_RESOURCES">
+            <Text>[NEWLINE]이 유닛을 생산하려면 {1_Num} {2_ResourceIcon}{3_ResourceName:textkey}{3: plural 1?이; 2?가;} 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_UNIT_PROJECT_REQUIRED">
+            <Text>[NEWLINE]이 유닛을 생산하려면 {1_ProjectName:textkey}의 완료가 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING">
+            <Text>[NEWLINE]도시에 {1_BuildingName:textkey}{1: plural 1?을; 2?를;} 필요로 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_ACTION_VERY_UNHAPPY_SETTLERS">
+            <Text>[NEWLINE]문명이 [ICON_HAPPINESS_4]매우 불행한 상태일 때는 생산할 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NO_BUTTON">
+            <Text>아니오</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_ENEMY">
+            <Text>우리 영토에서 적을 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_ENEMY_SUMMARY">
+            <Text>적이 근처에 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_REBELS">
+            <Text>문명의 [ICON_HAPPINESS_4]불행이 20을 넘어서 나라에 반란이 일어났습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_REBELS_SUMMARY">
+            <Text>반란군 등장!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_TURN_MODE_SEQUENTIAL">
+            <Text>현재 인간 플레이어와 전쟁 중입니다. 전쟁이 끝날 때까지, 참전 중인 모든 문명이 순차적으로 턴을 넘겨받게 됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_TURN_MODE_SEQUENTIAL_SUMMARY">
+            <Text>순차 턴제</Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_TURN_MODE_SIMULTANEOUS">
+            <Text>인간 플레이어와의 전쟁이 끝났습니다. 참전 중이 아닌 모든 문명이 동시에 턴을 진행하게 됩니다. </Text>
+        </Row>
+        <Row Tag="TXT_KEY_NOTIFICATION_TURN_MODE_SIMULTANEOUS_SUMMARY">
+            <Text>동시 턴제</Text>
+        </Row>
+        <Row Tag="TXT_KEY_OK_BUTTON">
+            <Text>확인</Text>
+        </Row>
+        <Row Tag="TXT_KEY_OPEN_TECH_TREE">
+            <Text>테크 트리 열기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ORDER_TITLE">
+            <Text>{2_CivName:textkey}의 의장 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_OVERWRITE_TXT">
+            <Text>현재 저장된 파일을 덮어씁니다. 계속하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PATRONAGE_TITLE">
+            <Text>{2_CivName:textkey}의 계몽된 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PIETY_TITLE">
+            <Text>{2_CivName:textkey}의 경건한 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_CONNECTING">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR] 님이 게임에 참가하고 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_DISCONNECTED">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR] 님의 접속이 끊겼습니다. AI가 대신 플레이합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_DISCONNECTED_PITBOSS">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR] 님의 연결이 끊어졌습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_KICKED">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR] 님을 추방했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_RECONNECTED">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR] 님이 접속했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLAYER_TURN_ENDED">
+            <Text>[COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR] 님의 턴이 끝났습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLEASE_WAIT">
+            <Text>잠시만 기다리십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PLEASE_WAIT_TT">
+            <Text>다른 플레이어의 턴이 진행 중입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_BARBARIAN_CLEARED">
+            <Text>야만인 주둔지를 파괴했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_BUILDINGS">
+            <Text>건물</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CITY_PLOT_MANAGEMENT">
+            <Text>[ICON_CITIZEN]시민을 다른 타일에 배치하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_GET_CULTURE">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR][ICON_CULTURE]문화[NEWLINE]+ 국경 개방[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_GET_HAPPINESS">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR][ICON_HAPPINESS_1]행복(좋아하는 문명!)[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_GET_SCIENCE">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR][ICON_RESEARCH]과학[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_QUEST_DEFEAT_UNITS">
+            <Text>[COLOR:0:0:255:255]퀘스트[ENDCOLOR] : {2_PlayerName}의 유닛을 [COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR] 파괴하십시오.[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_QUEST_DESTROY_BARBARIANS_NEAR">
+            <Text>[COLOR:0:0:255:255]퀘스트[ENDCOLOR]: {1_Name} 근처의 야만인을 소탕하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_QUEST_ROAD_ACTIVE">
+            <Text>[COLOR:0:0:255:255]퀘스트[ENDCOLOR]: 플레이어의 수도와 도로로 연결하십시오.[NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATE_QUEST_ROAD_COMPLETE">
+            <Text>[COLOR:0:0:255:255]퀘스트 완료[ENDCOLOR]: 도로가 연결되었습니다![NEWLINE]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_CSTATES">
+            <Text>도시 국가</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_GIVE_UNIT_CONFIRMATION">
+            <Text>{1_CivName}에게 [COLOR_POSITIVE_TEXT]{2_UnitName}[ENDCOLOR]{2: plural 1?을; 2?를;} 제공하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_GOLDEN_AGE_BEGIN">
+            <Text>[ICON_GOLDEN_AGE]황금기가 시작되었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_GREAT_PERSON_BORN">
+            <Text>위인이 탄생했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FIRST_FOUND_GOLD">
+            <Text>[NEWLINE]이 자연 불가사의를 최초로 발견하여 {1_Num} [ICON_GOLD]골드를 획득했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND">
+            <Text>자연 불가사의를 발견했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_HAPPY">
+            <Text>[NEWLINE]영토 내에 편입 시 {1_Num} [ICON_HAPPINESS_1]행복을 획득합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_PROMOTE">
+            <Text>[NEWLINE]이 불가사의와 인접할 때 얻는 무료 승급 :[NEWLINE]  ※  {1_PromoteString}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_TT">
+            <Text>축하합니다! 당신은 {@1_NWName}의 발견으로 [ICON_HAPPINESS_1]행복이 증가하였습니다.[NEWLINE][NEWLINE]시민 배치 시 얻는 산출량 : </Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NATURAL_WONDER_SUBSEQUENT_FOUND_GOLD">
+            <Text>[NEWLINE]이 자연 불가사의를 발견하여 {1_Num} [ICON_GOLD]골드를 획득했습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NEW_ERA_DESCRIPTION">
+            <Text>{@1_EraDescription}에 오신 것을 환영합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NEW_ERA_TITLE">
+            <Text>새로운 시대</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_NORMAL_VIEW">
+            <Text>일반 시점</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_AI">
+            <Text>민간인을 돌려주면 매우 감사해할 것입니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_CITY_STATE">
+            <Text>민간인을 돌려주면 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_INFLUENCE]영향력을 얻습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_CONFIRMATION">
+            <Text>{1_CivName}의 소속이었던 민간인을 생포했습니다. 당신은 민간인을 {1_CivName}에게 돌려주거나 {@2_NewUnitName}{@2: plural 1?로; 2?으로;} 당신이 소유할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_CONFIRMATION_RETURN">
+            <Text>유닛을 돌려줌</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_RETURN_CIVILIAN_CONFIRMATION_TAKE">
+            <Text>유닛을 소유함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_RUINS_EXPLORED">
+            <Text>유적을 탐사했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_SCORE">
+            <Text>점수</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_STRATEGIC_VIEW">
+            <Text>전략 시점</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_STRATEGIC_VIEW_TT">
+            <Text>전략 시점과 일반 시점을 전환합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_UN_ELEC_RESULTS">
+            <Text>국제 연합 선거 결과</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_UN_PLAYER">
+            <Text>당신</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_UN_TEAM">
+            <Text>팀</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_UN_TEAM_LABEL">
+            <Text>{1_TeamNum}팀</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_UN_VOTED_FOR">
+            <Text>투표 대상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_UN_VOTES">
+            <Text>투표</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_UNITED_NATIONS_VOTE">
+            <Text>국제 연합 투표!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_UNITS">
+            <Text>유닛</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_VOTE_RESULTS_UNMET_PLAYER">
+            <Text>만나지 못한 문명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_VOTE_RESULTS_UNMET_TEAM">
+            <Text>만나지 못한 팀</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_VOTE_RESULTS_YOU">
+            <Text>당신</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_VOTE_RESULTS_YOUR_TEAM">
+            <Text>당신 팀</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_VOTES_TO_WIN">
+            <Text>승리에 필요한 표</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_WHOS_WINNING">
+            <Text>이기고 있는 플레이어</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POP_WONDERS">
+            <Text>불가사의</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_GREAT_PERSON">
+            <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} {1_CityName:textkey}에서 탄생했습니다![NEWLINE]위인을 소모하여 문명 점수 [COLOR_POSITIVE_TEXT]2[ENDCOLOR]점을 얻거나 유닛으로 활용해 도시에서 특수 능력을 사용할 수 있습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_GREAT_PERSON_UNIT">
+            <Text>유닛</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_GREAT_PERSON_VPS">
+            <Text>문명 점수</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_MINOR_GOLD_GIFT">
+            <Text>{1_CivName:textkey}에게 [ICON_GOLD]골드를 선물할 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_MINOR_GOLD_GIFT_AMOUNT">
+            <Text>{1_NumGold} [ICON_GOLD]골드로 {2_NumFriendship} [ICON_INFLUENCE]영향력을 얻을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_POPUP_MINOR_GOLD_GIFT_CANT">
+            <Text>[ICON_GOLD]골드를 {2_CivName:textkey}에 선물하기 위해서는 [COLOR_POSITIVE_TEXT]{1_NumGold}[ENDCOLOR] [ICON_GOLD]골드 이상이 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_BUILDING_CITY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  건물 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_BUILDING_POLICY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  사회 정책이 건물 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_BUILDING_POLICY_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  사회 정책이 건물 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_BUILDING_TRAIT">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명 특성이 건물 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_CAPITAL_BUILDING_TRAIT">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  [ICON_CAPITAL]수도에 있는 건물 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_CAPITAL_SETTLER_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  [ICON_CAPITAL]수도에서 개척자 생산 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_FOOD_CONVERSION">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  여분의 [ICON_FOOD]식량에서 얻는 증가량</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_MILITARY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 군사 유닛 생산시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_MILITARY_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 군사 유닛 생산시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_NATIONAL_WONDER_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 국가 불가사의 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_RAILROAD_CONNECTION">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  철도 연결 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_RELIGION_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 종교 건물 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_SETTLER_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 개척자 생산 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_SPACE">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 우주선 부품 생산 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_SPACE_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 우주선 부품 생산 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_SPECIALIST_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 전문가에게 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_TEAM_WONDER_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 팀 불가사의 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_UNIT_COBMAT_CLASS_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 특정 군사 유닛 생산 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_UNIT_COMBAT_TYPE">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  특정 군사 유닛 생산 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_UNIT_DOMAIN">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  유닛 생산 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_UNIT_SUPPLY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}%[ENDCOLOR]  보급품 부족으로 받는 불이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_UNIT_TRAIT">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명 특성이 특정 유닛 생산 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_UNIT_WITH_BUILDING">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  {2_BuildingName} 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_WONDER_CITY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  도시에서 불가사의 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_WONDER_LOCAL_RES">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  [ICON_RES_MARBLE]대리석으로 {2_ResourceName} 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_WONDER_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 불가사의 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_WONDER_POLICY">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  사회 정책이 불가사의 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_WONDER_RELIGION">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  종교가 불가사의 건설시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_WORLD_WONDER_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  문명에서 세계 불가사의 건설 시 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_YIELD">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  도시 내 시설이 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_YIELD_AREA">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  도시에서 특정 지역에 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_YIELD_CAPITAL">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  [ICON_CAPITAL]수도가 도시에 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  [ICON_GOLDEN_AGE]황금기가 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_YIELD_HAPPINESS">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]{1_Num}%[ENDCOLOR]  [ICON_HAPPINESS_4]불행이 주는 불이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_YIELD_PLAYER">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  기타 당신이 받는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODMOD_YIELD_RESOURCES">
+            <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]  도시에서 자원이 주는 이익</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODPANEL_CITY_NAME">
+            <Text>도시 이름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE">
+            <Text>[ICON_CULTURE]문화 : [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE">
+            <Text>[ICON_STRENGTH]방어력 : [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD">
+            <Text>[ICON_FOOD]식량 : [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_GOLD">
+            <Text>[ICON_GOLD]골드 : [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_GOLD_CHANGE">
+            <Text>[ICON_GOLD]골드 : [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS">
+            <Text>[ICON_HAPPINESS_1]행복 : [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_MAINTENANCE">
+            <Text>[ICON_GOLD]유지비 : [COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRODUCTION">
+            <Text>[ICON_PRODUCTION]생산 : [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRODUCTION_CHANGE">
+            <Text>[ICON_PRODUCTION]생산 : [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_SCIENCE">
+            <Text>[ICON_RESEARCH]과학 : [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_BUILDING_SCIENCE_CHANGE">
+            <Text>[ICON_RESEARCH]과학 : [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_COST">
+            <Text>[ICON_PRODUCTION]생산 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_HELP_99PLUS_TURNS">
+            <Text>[COLOR_POSITIVE_TEXT]99 턴[ENDCOLOR] 이상</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_HELP_INFINITE_TURNS">
+            <Text>[COLOR_POSITIVE_TEXT]??? 턴[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_HELP_INFO">
+            <Text>[ICON_PRODUCTION]생산은 도시에서 유닛, 건물 등의 생산 속도를 결정합니다. [ICON_PRODUCTION]생산은 지형, 건물 등에서 얻을 수 있습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_HELP_NOTHING">
+            <Text>현재 아무것도 생산하고 있지 않습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_HELP_NUM_TURNS">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_HELP_TEXT">
+            <Text>{1_BuildItem:textkey}{1: plural 1?이; 2?가;} [COLOR_POSITIVE_TEXT]{2_NumTurnsString}[ENDCOLOR] 후에 생산됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_MOVEMENT">
+            <Text>[ICON_MOVES]이동력 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_PROGRESS">
+            <Text>진행상황 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_PRODUCTION]생산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_RANGE">
+            <Text>[ICON_BULLET]사거리 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_RANGED_STRENGTH">
+            <Text>[ICON_RANGE_STRENGTH]원거리 공격력 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_RESOURCES_REQUIRED">
+            <Text>[ICON_BULLET]필요 자원 : </Text>
+        </Row>
+        <Row Tag="TXT_KEY_PRODUCTION_STRENGTH">
+            <Text>[ICON_STRENGTH]전투력 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_QUICKSAVING">
+            <Text>빠른 저장 중</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RANSOM_POPUP_ABANDON">
+            <Text>골드의 가치가 없습니다. 유닛을 포기합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RANSOM_POPUP_INFO">
+            <Text>야만인이 당신의 민간인을 생포했습니다! 유닛을 돌려주는 조건으로 야만인이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_GOLD]골드를 요구하고 있습니다. 어떻게 하시겠습니까?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RANSOM_POPUP_PAY">
+            <Text>몸값을 지불합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RATIONALISM_TITLE">
+            <Text>{2_CivName:textkey}의 현명한 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RAZED_CITY">
+            <Text>초토화된 도시</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_BUDDHISM">
+            <Text>불교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_CHRISTIANITY">
+            <Text>기독교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_HINDUISM">
+            <Text>힌두교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_ISLAM">
+            <Text>이슬람교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_POLYTHEISM">
+            <Text>다신교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_SHINTOISM">
+            <Text>신토교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_SPIRITUALISM">
+            <Text>정신주의</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_RELIGION_ZOROASTRIANISM">
+            <Text>조로아스터교</Text>
+            <Plurality>2</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_REPORT_BUTTON">
+            <Text>보고</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESEARCHED">
+            <Text>연구 완료</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_BONUS_DETAILS">
+            <Text>[ICON_PLUS] 보너스 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_BONUS_DETAILS_COLLAPSE">
+            <Text>[ICON_MINUS] 보너스 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_EXPORTS">
+            <Text>[COLOR_NEGATIVE_TEXT]{1_Num} 수출[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_IMPORTS">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Num} 수입[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_LUXURY_DETAILS">
+            <Text>[ICON_PLUS] 사치 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_LUXURY_DETAILS_COLLAPSE">
+            <Text>[ICON_MINUS] 사치 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_STRATEGIC_DETAILS">
+            <Text>[ICON_PLUS] 전략 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_STRATEGIC_DETAILS_COLLAPSE">
+            <Text>[ICON_MINUS] 전략 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_RESOURCE_USED">
+            <Text>[COLOR_WARNING_TEXT]{1_Num} 사용됨[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SAVE_DATE_FORMAT_UTC">
+            <Text>{1_month} {2_day}, {3_year} {4_hour}:{5_minute} {6_amPm} UTC</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SCIENCE_HELP_INFO">
+            <Text>[ICON_RESEARCH]과학은 문명의 기술을 개발해서 새 유닛과 건물 등을 생산할 수 있게 해줍니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SECONDARY_C_TEXT">
+            <Text>추가 행동창을 표시합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SECONDARY_O_TEXT">
+            <Text>추가 행동창을 숨깁니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SELECT_CIVILIZATION">
+            <Text>문명 선택</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SKIP_TURN">
+            <Text>유닛 턴 건너뛰기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SKIP_TURN_TT">
+            <Text>선택한 유닛이 이번 턴에 아무 행동도 하지 않도록 지시합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SMALL_AWARD_CITY">
+            <Text>도시 보상!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SMALL_AWARD_CITY_NOTIFICATION">
+            <Text>당신의 제국이 [COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR]의 도시를 소유했습니다! 이 업적을 통해 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]문명 점수를 얻었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SMALL_AWARD_CITY_TEAM_NOTIFICATION">
+            <Text>당신의 팀이 [COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR]의 도시를 소유했습니다! 이 업적을 통해 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]문명 점수를 얻었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SMALL_AWARD_POPULATION">
+            <Text>인구 보상!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SMALL_AWARD_POPULATION_NOTIFICATION">
+            <Text>당신은 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민을 가진 도시를 소유했습니다! 이 업적을 통해 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]문명 점수를 얻었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SMALL_AWARD_POPULATION_TEAM_NOTIFICATION">
+            <Text>당신의 팀이 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_CITIZEN]시민을 가진 도시를 소유했습니다! 이 업적을 통해 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]문명 점수를 얻었습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SORT_NAME">
+            <Text>이름 기준 정렬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SORT_TRADE">
+            <Text>자원량 기준 정렬</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_ADD_TO_BUILDING">
+            <Text>{2_BuildingName}에 [COLOR_POSITIVE_TEXT]{1_SpecialistName}[ENDCOLOR]를 추가함 ([COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR])</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_MANAGEMENT">
+            <Text>도시 전문가 관리</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_NOT_AVAILABLE">
+            <Text>활용할 수 있는 [COLOR_POSITIVE_TEXT]전문가[ENDCOLOR]가 없습니다![NEWLINE][NEWLINE][NEWLINE][NEWLINE]전문가 슬롯이 있는 건물을 건설하십시오.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPECIALIST_REMOVE_FROM_BUILDING">
+            <Text>{2_BuildingName}에서 [COLOR_POSITIVE_TEXT]{1_SpecialistName}[ENDCOLOR]를 빼냄 ([COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR])</Text>
+        </Row>
+        <Row Tag="TXT_KEY_START_ERA">
+            <Text>시작 시대 : {1_era}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_START_TUTORIAL_BUTTON">
+            <Text>선택한 튜토리얼 시작</Text>
+        </Row>
+        <Row Tag="TXT_KEY_STATIONED_AIRCRAFT">
+            <Text>[COLOR_POSITIVE_TEXT]{1_number}[ENDCOLOR]대의 항공기 또는 미사일이 배치됨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_STR_TURNS">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Num} 턴[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SWITCH_POLICY_BRANCHES">
+            <Text>[COLOR_POSITIVE_TEXT]{1_NewBranchName:textkey}[ENDCOLOR]{1: plural 1?을; 2?를;} 채택하시겠습니까? {1_NewBranchName:textkey}{1: plural 1?을; 2?를;} 선택하시면, {2_OldBranches}에서 받던 모든 효과를 잃게 됩니다.  한 턴 동안 [COLOR_WARNING_TEXT]무정부 상태[ENDCOLOR]가 되어, 이 기간동안 [ICON_PRODUCTION]생산, [ICON_RESEARCH]과학, [ICON_GOLD]골드를 얻을 수 없습니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TALK_TO_PLAYER">
+            <Text>[COLOR_YELLOW]클릭하면 이 도시의 지도자와 대화합니다![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_AWARD_BUTTON">
+            <Text>계속</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_AWARD_TITLE">
+            <Text>기술 연구를 완료했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_HELP_COST">
+            <Text>[ICON_BULLET][ICON_RESEARCH]과학 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][ICON_RESEARCH]과학</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_HELP_COST_WITH_PROGRESS">
+            <Text>[ICON_BULLET]진행 상황 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_RESEARCH]과학</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_HELP_LEADS_TO">
+            <Text>[ICON_BULLET][COLOR_RESEARCH_STORED]{1_TechsString}[ENDCOLOR] 연구에 필요합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_POPUP_CLOSE_RESEARCH">
+            <Text>연구 닫기</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_POPUP_HEADER">
+            <Text>새로 연구할 기술을 선택하세요.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRADE_INFO">
+            <Text>거래 정보</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRADE_ITEM_LUXURY_RESOURCES">
+            <Text>사치 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRADE_ITEM_OTHER_PLAYERS">
+            <Text>다른 문명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRADE_ITEM_STRATEGIC_RESOURCES">
+            <Text>전략 자원</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRADITION_TITLE">
+            <Text>{2_CivName:textkey}의 군주 [COLOR_POSITIVE_TEXT]{1_PlayerName:textkey}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TURN_TIMER_ACTIVE_TT">
+            <Text>플레이어 턴의 남은 시간입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TURN_TIMER_WAITING_TT">
+            <Text>플레이어 턴이 되기까지 남은 시간입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TUTORIAL_INSTRUCT">
+            <Text>튜토리얼 - 플레이하면서 배워봅시다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TUTORIAL_TITLE_BAR">
+            <Text>튜토리얼</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CAPTURED">
+            <Text>민간인이 생포당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CAPTURED_BARBS">
+            <Text>민간인이 야만인에게 생포당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CAPTURED_BARBS_DETAILED">
+            <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} 야만인에게 생포당했습니다! 야만인은 {@1_UnitName}{@1_UnitName: plural 1?을; 2?를;} 가장 가까운 야만인 주둔지로 데려갈 것입니다. {@1_UnitName}{@1_UnitName: plural 1?을; 2?를;} 되찾으려면 야만인을 추적해야 합니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CAPTURED_DETAILED">
+            <Text>{@1_UnitName}{@1: plural 1?이; 2?가;} {2_CivName:textkey}에게 생포당했습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_EXPERIENCE_INFO">
+            <Text>레벨 : [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR][NEWLINE]경험치 : [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]/[COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_LOST">
+            <Text>유닛이 전멸하였습니다!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NEEDS_ORDERS">
+            <Text>명령이 필요한 유닛</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_NEEDS_ORDERS_TT">
+            <Text>턴을 종료하기 전에 아직 명령을 내리지 않은 유닛을 선택합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_PROMOTION">
+            <Text>승급 대기 중인 유닛</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_PROMOTION_TT">
+            <Text>승급 대기 중인 유닛을 선택하십시오. 모든 유닛은 당신이 턴을 넘기기 전에 승급해야 합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_SUPPLY_REACHED">
+            <Text>[COLOR_WARNING_TEXT]보급품 한도 초과![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_SUPPLY_REACHED_TOOLTIP">
+            <Text>당신의 문명은 [COLOR_POSITIVE_TEXT]{1_Num}개[ENDCOLOR]의 유닛까지 보급할 수 있습니다. [COLOR_NEGATIVE_TEXT]{2_Num}개[ENDCOLOR]의 유닛이 보급 한계를 초과하여 모든 도시에서 [ICON_PRODUCTION]생산이 [COLOR_NEGATIVE_TEXT]{3_Num}%[ENDCOLOR] 감소합니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNMET_PLAYER">
+            <Text>만나지 못한 문명</Text>
+        </Row>
+        <Row Tag="TXT_KEY_VICTORY_CATEGORY_CULTURE">
+            <Text>문화</Text>
+        </Row>
+        <Row Tag="TXT_KEY_VICTORY_CATEGORY_GOLD">
+            <Text>골드</Text>
+        </Row>
+        <Row Tag="TXT_KEY_VICTORY_CATEGORY_PRODUCTION">
+            <Text>생산</Text>
+        </Row>
+        <Row Tag="TXT_KEY_VICTORY_CATEGORY_TECHNOLOGIES">
+            <Text>기술</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WAITING_FOR_PLAYERS">
+            <Text>다른 플레이어를 기다리는 중</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WAITING_FOR_PLAYERS_TT">
+            <Text>다른 플레이어가 턴을 종료하기를 기다리는 중입니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WILL_ALSO_DISABLE_MODS">
+            <Text>이 설정으로 다음 모드가 비활성화됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WILL_ALSO_ENABLE_MODS">
+            <Text>이 설정으로 다음 모드가 활성화됩니다.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORKERACTION_TEXT">
+            <Text>건설</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YES_BUTTON">
+            <Text>예</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_AFTER_EATEN">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}  [ICON_CITIZEN]시민이 소모하고 남은 양</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_AFTER_EATEN_NEGATIVE">
+            <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString}  [ICON_CITIZEN]시민이 소모하고 남은 양</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_BASE">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] {2_IconString}  기본 획득량</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_EATEN_BY_POP">
+            <Text>[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString}  [ICON_CITIZEN]시민이 소모함 ([ICON_CITIZEN]시민 당 2)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_FROM_BUILDINGS">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}  건물에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_FROM_MISC">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}  기타 출처에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_FROM_POP">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}  [ICON_CITIZEN]시민에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_FROM_POP_EXTRA">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}  [ICON_CITIZEN]시민에서 추가 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_FROM_RELIGION">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}  종교에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_FROM_SPECIALISTS">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}  전문가에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_FROM_TERRAIN">
+            <Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] {2_IconString}  지형에서 획득</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_TOTAL">
+            <Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] {2_IconString}  [COLOR_POSITIVE_TEXT]최종 획득량[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YIELD_TOTAL_NEGATIVE">
+            <Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] {2_IconString}  [COLOR_NEGATIVE_TEXT]최종 획득량[ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_YOU">
+            <Text>당신</Text>
+        </Row>
+    </Language_KO_KR>
+</GameData>
