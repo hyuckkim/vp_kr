@@ -355,7 +355,8 @@
 			<Text>날란다</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NALANDA_HELP">
-			<Text></Text>
+			<Text>가능한 테마 보너스:
+  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NALANDA_TEXT">
 			<Text>날란다 대승원은 인도 동부 비하르 주에 위치한 30에이커 규모의 수도원, 도서관, 천문대, 원형극장으로 이루어진 복합 단지였습니다. 대학으로 간주될 수 있는 가장 초기의 기관 중 하나인 날란다 대학은 철학, 인식론, 신학, 의학, 수학, 점성술, 연금술을 포함한 커리큘럼을 자랑했습니다. 날란다 사원은 교육적 역할 외에도 7세기 이상 불교계에서 가장 영향력 있는 사상가와 강사들을 초청했으며, 아시아 전역에서 학자들을 방문했습니다. 이 대학은 6세기에 굽타 제국이 멸망한 후에도 살아남았고, 팔라 제국이 부상하면서 강력한 후원자를 얻었지만, 무슬림이 인도를 침략하면서 폭력적으로 종말을 맞이했습니다. 고고학적 증거에 따르면 이슬람 침략자들은 3차례에 걸쳐 날란다를 약탈했고, 승려와 학자들은 살해되거나 도망쳐야 했습니다. 인도 정부는 옛 캠퍼스 유적지 근처에 현대식 대학인 새로운 날란다를 설립하기로 약속했습니다. 부활한 날란다 대학은 2020년에 첫 신입생을 받았습니다.</Text>
@@ -366,7 +367,8 @@
 
 		<!-- Notre Dame -->
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_HELP">
-			<Text></Text>
+			<Text>가능한 테마 보너스:
+  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]서로 다른 문명[ENDCOLOR]의 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GW_MUSIC] 걸작 음악 2개에서 [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8을 얻습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_ROMAN_FORUM">
@@ -958,16 +960,17 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CHARTARIUM">
-			<Text>기록실</Text>
+			<Text>차타리움</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CHARTAIUM_STRATEGY">
-			<Text>기록실을 건설해 기술을 연구할 때마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 얻고, 모든 성지를 강화하십시오. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 개혁 교리를 선택할 수 있게 합니다.</Text>
+		<Row Tag="TXT_KEY_BUILDING_CHARTARIUM_STRATEGY">
+			<Text>차타리움을 건설해 기술을 연구할 때마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 얻고, 모든 성지를 강화하십시오. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CHARTAIUM_HELP">
-			<Text></Text>
+		<Row Tag="TXT_KEY_BUILDING_CHARTARIUM_HELP">
+			<Text>가능한 테마 보너스:
+ 			[NEWLINE][ICON_BULLET] +8 [ICON_CULTURE] and [ICON_TOURISM] for three [ICON_GW_WRITING] from the [COLOR_POSITIVE_TEXT]same Civilization[ENDCOLOR].</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CHARTAIUM_TEXT">
-			<Text>기록실은 교황청에서 개인적으로 보관하는 서신과 의사록의 모음집이었습니다. 이 컬렉션은 바티칸 비밀 기록 보관소의 시초가 되었습니다.</Text>
+		<Row Tag="TXT_KEY_BUILDING_CHARTARIUM_TEXT">
+			<Text>차타리움은 교황청에서 개인적으로 보관하는 서신과 의사록의 모음집이었습니다. 이 컬렉션은 바티칸 비밀 기록 보관소의 시초가 되었습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT">
@@ -1100,7 +1103,7 @@
 			<Text>점성술은, 가장 넓은 의미에서, 하늘에서 의미를 찾는 것입니다. 인류가 천문 주기를 참조하여 계절 변화를 측정하고, 기록하고, 예측하려고 의식적으로 시도했다는 초기 증거는 뼈와 동굴 벽에 있는 표시로 나타나는데, 이것은 달의 주기가 이미 25,000년 전에 기록되었다는 것을 보여줍니다. 이것은 조수와 강에 대한 달의 영향을 기록하고, 공동 달력을 조직하기 위한 첫 번째 단계였습니다. 농부들은 다양한 계절에 나타나는 별자리에 대한 증가하는 지식으로 농업의 필요를 해결했고, 매년 홍수나 계절적 활동을 예고하기 위해 특정 별들의 증가를 사용했습니다. 기원전 3천년 무렵, 문명은 천체의 주기에 대한 정교한 인식을 가지고 있었고, 별들의 태양 상승과 맞춰 신전을 필요로 했을지도 모릅니다.</Text>
 		</Row>
 
-		<!-- Theming bonuses -->
+		<!-- Theming bonuses flavor text -->
 		<Row Tag="TXT_KEY_THEMING_BONUS_AMPHITHEATER_NATIONAL">
 			<Text>국가서사시</Text>
 		</Row>

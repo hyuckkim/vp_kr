@@ -156,8 +156,8 @@ WHERE Tag = 'TXT_KEY_YIELD_FROM_RELIGION';
 UPDATE Language_ko_KR
 SET Text = '[ICON_BULLET] [ICON_CITIZEN] 인구에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_POP';
-UPDATE Language_ko_KR
 
+UPDATE Language_ko_KR
 SET Text = '[ICON_BULLET] 그외 다른 출처에서 {2_IconString} {1_Num}'
 WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC';
 

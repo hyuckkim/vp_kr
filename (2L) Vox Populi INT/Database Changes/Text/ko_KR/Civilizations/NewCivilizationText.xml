@@ -6,7 +6,9 @@
 			<Text>독립 기념관</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDEPENDENCE_HALL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]슬레이터 방앗간[ENDCOLOR], [COLOR_POSITIVE_TEXT]미국 육군사관학교[ENDCOLOR], [COLOR_POSITIVE_TEXT]스미스소니언 협회[ENDCOLOR]를 [COLOR_CYAN]현대 시대[ENDCOLOR]에 지을 수 있습니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]슬레이터 방앗간[ENDCOLOR], [COLOR_POSITIVE_TEXT]미국 육군사관학교[ENDCOLOR], [COLOR_POSITIVE_TEXT]스미스소니언 협회[ENDCOLOR]를 [COLOR_CYAN]산업 시대[ENDCOLOR]에 지을 수 있습니다.
+				[NEWLINE]가능한 테마 보너스:
+  				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GW_ART] 걸작 예술품 2개에서 [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDEPENDENCE_HALL_TEXT">
 			<Text>원래 펜실베니아 주의 저택으로 지어진 독립 기념관은 미국 독립 선언과 헌법 선언이 논의되고 공식적으로 채택되어 미국의 탄생지가 된 곳입니다. 오늘날 독립 기념관은 박물관이자 필라델피아 중심부에 있는 독립 국립공원의 중심입니다.</Text>
@@ -266,7 +268,7 @@
 			<Text>게임 초반에는 탐험을 (합리적인 범위 내에서) 피하세요. 그러면 탐험하지 않은 영토를 많이 남겨두게 되고 반데이란테스가 이 타일을 공개함으로써 엄청난 양의 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화를 얻을 수 있습니다. 참고로, 표준 지도의 60%를 탐험하면 각각 약 10,000개의 산출량을 얻을 수 있습니다. 이러한 산출량은 가장 가까운 소유 도시에 추가됩니다.[NEWLINE][NEWLINE]반데이란테스는 더 빠르고, 매 턴마다 회복하며, 약탈에 이동력을 사용하지 않으므로 이 용도로 사용하되, 주의하세요. 평화로운 시기에 세계를 탐험한 후 이를 사용하여 국경 도시에 광산, 채석장, 브라질 소방목 야영지, 요새를 건설하세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTE_HELP">
-			<Text> {TXT_KEY_UNIT_EXPLORER}를 대체하는 브라질의 고유 유닛입니다. {TXT_KEY_IMPROVEMENT_MINE}, {TXT_KEY_CIV5_IMPROVEMENTS_QUARRY}, {TXT_KEY_CIV5_IMPROVEMENTS_FORT}, {TXT_KEY_IMPROVEMENT_BRAZILWOOD_CAMP}를 건설할 수 있습니다. 새 타일을 드러낼 시 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화를 얻습니다.[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SURVIVALISM_3}[ENDCOLOR] 진급을 보유합니다.</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_EMBRAPA">
@@ -306,7 +308,7 @@
 			<Text>시민 3명당 [ICON_PEACE] 신앙 +1 보너스가 매우 강력하므로 인구가 많은 것이 좋습니다. 이는 여러분의 신앙 생성량을 상당히 증가시킬 것이므로, 신앙을 많이 쓸 수 있다는 사실을 알고 신앙과 정책을 고려하세요. 예를 들어, 광신 교리는 비잔티움에 있어서는 흔치 않지만 매우 강력한 선택이 될 수 있습니다. 무역로를 받는 도시에 종교적 압력이 100% 더 추가되므로, 교역로 목적지를 선택할 때 자신이 소유한 도시나 외국 도시 중 어느 도시에 더 많은 종교적 압력이 필요한지 고려하세요. 골드 유지 관리가 필요 없고, 문화도 추가되고, 위에서 언급한 보너스도 있기 때문에 이 건물은 우선순위가 높아야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TETRACONCH_HELP">
-			<Text>[ICON_CITIZEN] 시민 3명마다 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. 교역로가 제공하는 종교 압력이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_GW_MUSIC] 걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE][ICON_RELIGION] 종교 분쟁에서 오는 [ICON_HAPPINESS_3] 불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE] 문화 +1 [ICON_GOLD] 골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE] 문화 +1 [ICON_GOLD] 골드 +1[NEWLINE][ICON_RES_AMBER] 호박석: [ICON_CULTURE] 문화 +1 [ICON_GOLD] 골드 +1</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_APLEKTON">
@@ -339,7 +341,7 @@
 			<Text>카르타고는 무역로의 양을 극대화하는 것을 우선순위로 삼았습니다. 자원 다양성으로 인한 교역로 [ICON_GOLD] 골드 생성 보너스 덕분에 수익성이 훨씬 높아졌기 때문입니다. 그레이트 코톤은 2개의 추가 무역로와 여러 다른 강력한 보너스를 제공하므로, 이 불가사의는 절대적인 우선순위입니다. 특히 화폐 연구로 더 일찍 해제할 수 있기 때문입니다.[NEWLINE][NEWLINE]교역로의 수익성을 결정하는 주요 요소인 고유한 사치 자원이 가장 많은 도시에 건설하세요. 특허 회사와 마찬가지로 그레이트 코톤은 건설된 도시의 보너스를 더욱 증가시키고, 이러한 자원 각각에 대한 추가 사본을 제공합니다. 이 도시는 교역로의 주요 발신지가 되어야 합니다.[NEWLINE][NEWLINE]이 국가 불가사의는 모든 등대와 항구에 [ICON_PRODUCTION] 생산력과 [ICON_CULTURE] 문화를 부여하고 모든 해안 도시에 무료 항구를 부여하므로 내륙 도시보다 해안 도시를 건설하는 것이 적극 권장됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_HELP">
-			<Text>이 도시의 모든 사치 자원을 추가로 한 개씩 [COLOR_POSITIVE_TEXT]복제[ENDCOLOR]하고 모든 도시에 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR] {TXT_KEY_BUILDING_HARBOR}을 제공합니다. 이 도시로 향하는 [ICON_ARROW_LEFT] 교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가하고 [ICON_ARROW_RIGHT] 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_INTERNATIONAL_TRADE]교역로의 자원 다양성 수치가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]  모든 항만의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고, 모든 등대의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]추가 [ICON_INTERNATIONAL_TRADE]교역로를 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]이 도시에서 [ICON_GOLD] 빈곤 [ICON_HAPPINESS_3] 불행이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 감소하고, 다른 모든 도시에서 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. [NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION] 생산이 증가합니다.</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_ASAMU">
@@ -357,7 +359,7 @@
 
 		<!-- 켈트 -->
 		<Row Tag="TXT_KEY_BUILDING_CEILIDH_HALL_HELP">
-			<Text>건물이 완성되면 도시에 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]150[ENDCOLOR] 제공하고 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [NEWLINE][NEWLINE][ICON_GW_MUSIC] 걸작 음악 슬롯을 하나 보유합니다.[NEWLINE][NEWLINE][ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE][ICON_RES_IVORY] 상아: [ICON_CULTURE]문화 +3</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_SCYTHED_CHARIOT">
@@ -446,7 +448,7 @@
 			<Text>룬스톤은 일반적으로 룬 문자가 새겨진 돌출된 돌이지만, 이 용어는 바위와 암반에 새겨진 글에도 적용될 수 있습니다. 그 전통은 4세기에 시작되었고 12세기까지 지속되었지만, 대부분의 룬돌들은 바이킹 시대 후기로 거슬러 올라갑니다. 대부분의 룬돌은 스칸디나비아에 있지만, 바이킹 시대에 노르드인들이 방문했던 장소에도 산재해 있습니다. 룬돌은 종종 죽은 사람의 기념물입니다. 룬돌은 세울 때 대개 밝은 색을 띠었지만, 색이 닳아 더 이상 뚜렷하지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RUNESTONE_HELP">
-			<Text>이 도시에서 생산하는 유닛이 타일을 약탈할 때 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 근접, 화약 및 해상 근접 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE]도시 주변 해양 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 이 도시에서 출발하는 국내 [ICON_TURNS_REMAINING]교역로의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 증가합니다. [ICON_WAR] 군사 유닛 보급 한도 +1[NEWLINE][NEWLINE][ICON_CONNECTED]육상으로 연결되지 않은 도시와 [ICON_CAPITAL]수도를 [ICON_CONNECTED]해안 도시로 연결합니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RUNESTONE_STRATEGY">
 			<Text> {TXT_KEY_BUILDING_LIGHTHOUSE}를 대체하는 덴마크의 고유 건물입니다. {TXT_KEY_BUILDING_RUNESTONE}은 {TXT_KEY_BUILDING_LIGHTHOUSE}의 보너스에 추가로, 약탈 시마다 [ICON_CULTURE] 문화를 얻습니다. (도로와 철도는 제외) 해양 타일의 [ICON_FOOD] 식량이 증가하고, 지상 및 해양 근접 유닛 생산 시 [ICON_PRODUCTION] 생산력이 증가합니다. {TXT_KEY_BUILDING_LIGHTHOUSE}와 달리, {TXT_KEY_BUILDING_RUNESTONE}은 해안이 아닌 도시에도 건설할 수 있습니다.</Text>
@@ -519,7 +521,7 @@
 			<Text>화이트 타워는 런던 타워의 오래된 건물입니다. 그것은 1080년대 초에 정복자 윌리엄에 의해 지어졌고 나중에 확장되었습니다. 하얀 탑은 성의 가장 강력한 방어 지점이었고, 원래 왕과 그의 대리인들을 수용했습니다. 오랜 역사를 통해, 타워는 영국에 많은 것들이 되었습니다. 폭정의 상징, 금고, 관리소, 조폐소, 궁전, 감옥입니다. 오늘날, 런던탑은 많은 보물들 중, 영국 왕실의 왕관 보석을 자랑하는 거대한 박물관입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_HELP">
-			<Text>[ICON_RES_IRON]철 2개를 [COLOR_POSITIVE_TEXT]무료[ENDCOLOR]로 제공합니다. [NEWLINE][NEWLINE] 스파이를 체포하거나, 발견하거나 스파이 작전을 성공하면 [ICON_RESEARCH]과학 및 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]40[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시 국가에서 선거 조작에 성공하면 [ICON_RESEARCH]과학 및 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.[NEWLINE][NEWLINE][ICON_GW_ART]걸작 예술품이 들어 있는 [ICON_GREAT_WORK]걸작 예술품 또는 유물 슬롯을 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR] 포함합니다.[NEWLINE][NEWLINE]모든 경찰대, 성, 무기고의 [ICON_CULTURE] 문화가 1 증가합니다. [NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION] 생산이 증가합니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_STRATEGY">
 			<Text>{TXT_KEY_BUILDING_IRONWORKS}를 대체하는 영국의 고유 건물입니다. {TXT_KEY_BUILDING_WHITE_TOWER}는 {TXT_KEY_BUILDING_IRONWORKS}의 보너스에 더해, 경찰대, 성, 무기고를 강화합니다. 첩보 활동 시 [ICON_GOLD] 골드와 [ICON_RESEARCH] 과학을 생성합니다. 무료 [ICON_GW_ART] 예술품을 제공합니다.</Text>
@@ -615,10 +617,10 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALON_HELP">
 			<Text>가능한 테마 보너스:
-				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]프랑스[ENDCOLOR] [ICON_VP_GREATART] 걸작 미술품 2개: [ICON_CULTURE] 문화 +2, [ICON_TOURISM] 관광 +2
-				[NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]프랑스[ENDCOLOR] [ICON_VP_GREATART] 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4
-				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]같은 외국 문명[ENDCOLOR] 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4
-				[NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]같은 외국 문명[ENDCOLOR] 걸작 미술품 2개: [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8
+				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GW_ART] 걸작 미술품 2개: [ICON_CULTURE] 문화 +2, [ICON_TOURISM] 관광 +2
+				[NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GW_ART] 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4
+				[NEWLINE][ICON_BULLET] 같은 문명의 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GW_ART] 걸작 미술품 2개: [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4
+				[NEWLINE][ICON_BULLET] 같은 문명의 [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GW_ART] 걸작 미술품 2개: [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALON_TEXT">
@@ -688,7 +690,9 @@
 			<Text>김나시온</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GYMNASION_HELP">
-			<Text></Text>
+			<Text>가능한 테마 보너스:
+  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 2개에서 [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4를 얻습니다.
+  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]해외 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 2개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GYMNASION_TEXT">
 			<Text>김나시온은 그리스 성인 남성들이 사교 활동을 하고 대중 경기를 연습하는 데 사용했던 훈련 시설이었습니다. 이름은 대략 "벌거벗은 훈련장"으로 번역되는데, 모든 운동선수가 벌거벗은 채로, 대개 올리브 오일을 온몸에 바른 채로 훈련했기 때문입니다. 김나시온은 원래 도시 경계 밖의 열린 운동장으로 시작했지만, 나중에는 그리스 공공 생활의 중심이 되는 밀폐된 공간으로 계획되었습니다. 대중이 참여하는 게임과 축제 자체가 중요했지만, 김나시온 예술과 학습의 중심지이기도 했습니다. 아테네의 유명한 철학 학파인 플라톤이 창시한 아카데미아학파, 아리스토텔레스가 창시한 소요학파, 안티스테네스가 창시한 견유(키니코스)학파는 모두 그들이 모인 김나시온의 이름을 따서 창시되고 명명되었습니다.</Text>
@@ -768,7 +772,7 @@
 			<Text>{TXT_KEY_UNIT_WARAKAQ}은 {TXT_KEY_UNIT_INCAN_SLINGER}을 대체하는 잉카 고유 유닛입니다. 사거리가 뛰어나며 적군을 기절시켜 장시간 [ICON_STRENGTH] 전투력을 낮춥니다.[NEWLINE][NEWLINE]이를 사용해 적을 괴롭히고 야만인 주둔지를 빠르게 무너뜨리세요.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_WARAKAQ_HELP">
-			<Text>[ICON_RANGE_STRENGTH] 공격 사거리가 증가하고, 적의 [COLOR_POSITIVE_TEXT통제 구역(ZOC)[ENDCOLOR]을 무시하며, 적 부대를 기절시켜 [ICON_STRENGTH] 전투력을 감소시킬 수 있는 잉카 고유 {TXT_KEY_UNIT_INCAN_SLINGER}입니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERRACE_FARM_HELP">
 			<Text>인접한 계단식 농장 또는 산 마다 [ICON_FOOD] 식량이 +1 증가합니다. 모든 인접한 농장의 [ICON_FOOD] 식량이 +1 증가합니다.</Text>
@@ -811,7 +815,7 @@
 			<Text>파키스탄과 인도의 일부를 포함한 서북남아시아의 고대 하라판 및 인더스 계곡 문명은 수력 공학에서 두드러졌고, 최초의 물 공급과 위생 장치를 많이 가지고 있었습니다. 무엇보다도, 그것들은 세계에서 가장 오래된 수세식 화장실 시스템을 포함하고 있었습니다. 이것들은 많은 가정에서 존재했고, 일반적인 하수관과 연결되어 있었습니다. 대부분의 집에는 개인 우물도 있었습니다. 도시 성벽은 홍수에 대한 장벽으로 기능했고, 가뭄을 막기 위해 이 홍수 물을 모으기 위해 거대한 저수지가 종종 이 벽을 따라 건설되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR_HELP">
-			<Text>[ICON_CITIZEN]시민이 증가할 때 사용한 [ICON_FOOD]식량의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]가 저장됩니다.  [ICON_CITIZEN]시민이 증가할 때 현재 [ICON_PRODUCTION]생산 산출량의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]를 즉시 제공합니다. 도시 주변 오아시스 및 호수 타일의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 농장의 [ICON_FOOD]식량 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION] 대중 종교를 믿는 신도 1명마다 [ICON_FOOD] 식량이 +1% 증가합니다.[NEWLINE][NEWLINE][ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR_STRATEGY">
 			<Text>{TXT_KEY_BUILDING_AQUEDUCT}를 대체하는 인도의 고유 건물입니다. {TXT_KEY_BUILDING_HARAPPAN_RESERVOIR}는 {TXT_KEY_BUILDING_AQUEDUCT}의 보너스에 추가로, [ICON_CITIZEN] 인구 성장 시 더 많은 [ICON_FOOD] 식량을 보존합니다. 농장을 강화합니다. 도시의 [ICON_RELIGION] 대중 종교의 신자 수에 비례해 [ICON_FOOD] 식량을 증가시킵니다.</Text>
@@ -899,7 +903,7 @@
 			<Text>도장은 일본어로 "길을 가는 곳"을 뜻합니다. 원래 도장은 사찰에 부속된 시설이었습니다. 이 용어는 모든 일본 무술에 대한 공식적인 훈련 장소를 의미할 수 있지만, 일반적으로는 가라테, 유도, 사무라이 등 모든 일본 무술 스타일을 수련하는 학생들이 훈련, 시험 및 기타 관련 활동을 하는 공식적인 모임 장소로 간주됩니다. 도장이 단순히 아시아 무술을 훈련하는 장소라는 개념은 서양의 개념입니다. 일본에서는 프로레슬링 학교를 포함한 모든 체육 시설을 도장이라고 부르는데, 이는 무술과 밀접한 관련이 있기 때문입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
-			<Text>도시에서 생산하는 모든 유닛의 경험치가 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 증가합니다. [ICON_WAR] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]무기고를 대체하는 일본의 고유 건물입니다. 도시에서 생산하는 모든 기마, 근접, 화약, 기갑 유닛에 [COLOR_PLAYER_PURPLE]무사도[ENDCOLOR] 진급을 부여합니다.[NEWLINE][NEWLINE]유닛이 얻은 경험치의 140% 만큼 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학을 제공합니다.[NEWLINE][NEWLINE][ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
 			<Text>{TXT_KEY_BUILDING_ARMORY}를 대체하는 일본의 고유 건물입니다. {TXT_KEY_BUILDING_DOJO}는 {TXT_KEY_BUILDING_ARMORY}의 보너스에 더해, 생산된 유닛에 경험치 보너스를 더 제공하며 군사 유닛 보급 한도 보너스가 더 많습니다. 모든 근접, 화약, 기마, 기갑 유닛에 {TXT_KEY_PROMOTION_BUSHIDO} 진급을 부여해 첫 전투 후에 밝혀지는 여덟 효과 중 하나를 적용하고 유닛이 피해를 받았을 때 전투력이 증가하도록 합니다. 유닛이 전투에서 경험치를 얻으면 [ICON_RESEARCH] 과학과 [ICON_CULTURE] 문화를 생성합니다.</Text>
@@ -939,7 +943,7 @@
 			<Text>서원은 조선 중후기에 한국에서 가장 흔한 교육 기관이었습니다. 그들은 사립 기관이었고, 유교 사당과 예비 학교의 기능을 결합했습니다. 교육적인 측면에서, 서원은 주로 국가 공무원 시험을 준비하는 학생들로 채워졌습니다. 대부분의 경우, 서원은 귀족 양반 계급의 학생들만 섬겼습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_HELP">
-			<Text>도시 주변 정글 타일과 설원 타일의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK] 걸작과 근처 위인 타일에서 오는 [ICON_PRODUCTION] 생산 및 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_CITIZEN] 시민이 증가할 때 현재 [ICON_RESEARCH] 과학 산출량의 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR]를 즉시 제공합니다. [NEWLINE][NEWLINE][ICON_RESEARCH] 문맹에서 오는 [ICON_HAPPINESS_3] 불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_STRATEGY">
 			<Text>{TXT_KEY_BUILDING_UNIVERSITY}를 대체하는 한국의 고유 유닛입니다. {TXT_KEY_BUILDING_SEOWON}은 {TXT_KEY_BUILDING_UNIVERSITY}의 보너스에 더해, [ICON_GREAT_WORK] 걸작과 위인 타일을 강화하며, [ICON_CITIZEN] 시민 탄생 시 큰 [ICON_RESEARCH] 과학 보너스를 얻습니다.</Text>
@@ -1012,7 +1016,7 @@
 			<Text>몽골 사람들에 의해 '게르'라고 불리는 유르트는 중앙아시아 스텝의 유목민들에 의해 전통적으로 그들의 보금자리로 사용되는 이동 가능하고 구부러진 주거 구조입니다. 구조는 크라운 또는 압축 휠(보통 증기가 휘어짐)로 구성되며, 루프 리브에 의해 지지되며, 루프 리브는 격자 벽과 만나는 단부에서 아래로 휘어집니다(다시 증기가 휘어짐). 루프 리브의 힘에 대항하는 장력 밴드를 사용하여 벽 상단이 퍼지는 것을 방지합니다. 그 구조물은 보통 단열과 내후성을 위해 천과 양의 털 펠트 층으로 덮여 있습니다. 유르트의 전통적인 장식은 주로 패턴에 기반합니다. 이러한 문양은 일반적으로 취향에 따라 만들어진 것이 아니라, 특정한 상징성을 지닌 신성한 장신구에서 파생된 것입니다. 힘을 나타내는 상징은 카(사자, 호랑이, 가루다, 용)와 다섯 가지 요소(불, 물, 흙, 금속, 나무)의 양식화된 표현뿐만 아니라 우주의 기본적이고 변하지 않는 요소라고 여겨지는 카(사자, 호랑이, 가루다, 용)를 포함한 가장 일반적인 것들 중 하나입니다. 이러한 패턴은 힘을 가져오고 보호를 제공한다는 믿음과 함께 가정에서 일반적으로 사용됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GER_HELP">
-			<Text>야영지와 목장에서 [ICON_PRODUCTION] 생산을 +1 얻습니다. 이 도시의 [ICON_CULTURE_LOCAL] 국경 확장 속도가 40% 증가하고 확장에 필요한 [ICON_GOLD] 골드가 25% 감소합니다. 도시 영역이 확장될 때 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 5 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] [NEWLINE][NEWLINE][ICON_RES_DEER] 사슴: [ICON_FOOD] 식량 +1[NEWLINE][ICON_RES_BISON] 들소: [ICON_FOOD] 식량 +1</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GER_STRATEGY">
 			<Text> {TXT_KEY_BUILDING_SMOKEHOUSE}을 대체하는 몽골의 고유 건물입니다. {TXT_KEY_BUILDING_GER}는 {TXT_KEY_BUILDING_SMOKEHOUSE}의 보너스에 더해, [ICON_PEACE] 신앙을 생성하고, 야영지를 강화합니다. 국경 확장 시 [ICON_PRODUCTION] 생산력을 생성하며, 국경 확장 속도를 증가시킵니다.</Text>
@@ -1134,7 +1138,7 @@
 			<Text>주조 공장은 금속 주물을 생산하는 공장입니다. 금속은 액체로 녹여 금형에 부은 다음 금속이 냉각되면서 굳어진 후 금형 재료나 주물을 제거함으로써 모양으로 주조됩니다. 가장 일반적으로 가공되는 금속은 알루미늄과 주철입니다. 그러나 청동, 황동, 강철, 마그네슘 및 아연과 같은 다른 금속도 주조 공장에서 주물을 생산하는 데 사용됩니다. 이 과정에서 원하는 모양과 크기의 부품이 형성될 수 있습니다. 전쟁 상황에서 주조 공장은 대포 및 기타 필수 포위 장비 생산에 필수적이었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_FOUNDRY_HELP">
-			<Text>도시의 광산의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 공성 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 제공하고 도시에서 생산하는 모든 공성 유닛에 [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_VOLLEY}[ENDCOLOR] 진급을 부여합니다.[NEWLINE][NEWLINE]도시에서 유닛을 생산할 때 유닛 [ICON_PRODUCTION]생산 비용의 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR]를 [ICON_RESEARCH]과학으로 전환합니다.[NEWLINE][NEWLINE][ICON_RES_IRON] 철: [ICON_PRODUCTION]생산 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_COPPER] 구리: [ICON_GOLD]골드 +2</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_FOUNDRY_STRATEGY">
 			<Text>{TXT_KEY_BUILDING_FORGE}을 대체하는 오스만의 고유 건물입니다. {TXT_KEY_BUILDING_SIEGE_FOUNDRY}는 {TXT_KEY_BUILDING_FORGE}의 보너스에 더해, 군사 유닛 생성 시 [ICON_RESEARCH] 과학을 얻고, 공성 유닛을 더 빨리 생산할 수 있게 하며, 공성 유닛에 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_VOLLEY}[ENDCOLOR] 진급을 부여합니다.[NEWLINE][NEWLINE]능력을 이용해 대규모 포병 부대를 구축하여 적의 성벽을 무너뜨리고 그들의 땅을 정복하세요!</Text>
@@ -1528,7 +1532,7 @@
 			<Text>스웨덴의 바트 슈투가(Bad Stuga, 목욕탕) 또는 바스투(Bastu, 사우나)는 목욕과 건열 스파로 설계된 작은 오두막입니다. 손님이 들어오기 전에 난로나 화덕이 방을 200°F까지 데우고, 손님은 누워서 땀을 흘립니다. 바스투는 사회적 모임이자 가족 및 친구들과 토론하고 휴식을 취하는 장소이지만, 예전에는 음식을 숙성하고 아이를 낳는 장소이기도 했습니다.[NEWLINE][NEWLINE]스칸디나비아의 사우나가 언제 어디서 처음 만들어졌는지는 알려져 있지 않지만, 스칸디나비아가 기독교화되기 훨씬 이전이라는 사실은 중세 유럽 전역에 널리 퍼져 있었다는 사실에서 알 수 있습니다. 스칸디나비아의 사우나에 대한 기록이 처음으로 문서로 기록되었을 당시, 북유럽 국가들은 이미 사우나를 중심으로 다양하고 독특한 문화를 만들어냈습니다.[NEWLINE][NEWLINE]열탕욕의 건강상 이점은 다양하고 많습니다. 세션(Session)은 감기 증상을 완화하고 통증 역치를 높이는 데 효과가 있는 것으로 나타났습니다. 또한 류마티스성 통증과 피로를 완화하는 데 도움이 되며, 치매 위험을 줄이는 데에도 도움이 될 수 있습니다. 사우나를 장기간 사용하면 남성의 생식력이 감소하는 것으로 알려져 있으므로, 술을 마신 상태에서는 절대로 열탕 목욕을 해서는 안 됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASTU_STRATEGY">
-			<Text></Text>
+			<Text>바스투의 주요 고유 이점은 담수가 필요하지 않고, 툰드라 타일을 개발하면 추가 [ICON_RESEARCH] 과학을 얻으며, 시대에 따라 [ICON_GREAT_PEOPLE] 위인을 소모할 때마다 [ICON_CULTURE] 문화를 생성한다는 것입니다. 첫 번째 두 가지 보너스는 주로 도시를 건설하는 위치에 초점을 맞추고 있는데, 이를 통해 담수 지역에 도시를 건설하는 우선순위를 낮추고 툰드라 타일을 경작하여 얻는 생산량을 늘릴 수 있으며, 이는 스웨덴의 시작 특성과도 잘 맞아떨어집니다. 세 번째 보너스는 가장 영향력이 큰데, 시대에 따라 그리고 바스투를 건설한 도시의 수에 비례하여 상당한 양의 [ICON_CULTURE] 문화를 생성하기 때문입니다. 즉, 가능한 한 자주 이러한 현상을 유발하기 위해 모든 유형의 [ICON_GREAT_PEOPLE] 위인을 육성하는 데 집중해야 하며, 이는 스웨덴의 고유한 능력 및 노벨상 위원회와 시너지 효과를 냅니다. 또한 스웨덴의 군사 보너스를 활용하여 공격적으로 영토를 확장하고, 다른 문명들이 우선시하지 않을 수 있는 담수 자원이 없는 도시나 툰드라 지역에도 기꺼이 정착하여 바스투를 최대한 많이 건설하는 것이 좋습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_NOBEL_COMMITTEE">
@@ -1541,7 +1545,7 @@
 			<Text>노벨상은 노벨 재단이 주관하는 상이며, "인류에게 최대의 이익을 가져다주는" 원칙에 따라 수여됩니다. 이 상은 알프레드 노벨이 사망한 지 5주년이 되는 해인 1901년에 처음 수여되었습니다. 각 수상자는 자신이 받은 상의 주제와 관련된 주제에 대해 공개 강연을 해야 합니다. 수상자들은 노벨 재단이 매년 수여할 수 있는 금액에 따라 상을 받을 때 일정 금액을 받습니다. 2023년 기준으로, 각 상금 부문별 상금은 1,100만 스웨덴 크로나(SEK)로, 약 103만 5천 미국 달러에 해당합니다. 스웨덴에서 시상식이 끝나면 스톡홀름 시청 블루홀에서 연회가 열리는데, 스웨덴 왕실과 약 1,300명의 손님이 참석합니다. 노벨 평화상 시상식 후 노르웨이의 오슬로 그랜드 호텔에서 시상식 연회가 열립니다. 노벨상은 각 분야에서 가장 권위 있는 상으로 널리 인정받고 있으며, 학술 일정에서 중요한 역할을 하며 전 세계적으로 널리 보도됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NOBEL_COMMITTEE_STRATEGY">
-			<Text></Text>
+			<Text>노벨상 위원회의 주요 고유 보너스는 기술 단계가 두 단계 더 일찍 활성화된다는 점, 각 [ICON_GREAT_WORK] 걸작에 추가 [ICON_RESEARCH] 과학을 부여한다는 점, 각 아카데미에 추가 [ICON_CULTURE] 문화를 부여한다는 점, 각 공립학교에 추가 [ICON_RESEARCH] 과학과 [ICON_CULTURE] 문화를 부여한다는 점, 그리고 [ICON_GREAT_PEOPLE] 위인을 소모할 때 만난 모든 도시 국가에 시대에 비례하는 [ICON_GOLD] 골드와 [ICON_INFLUENCE] 영향력을 제공한다는 점입니다. 이러한 모든 보너스를 활용하려면 무엇보다 모든 도시에 공립학교를 건설하고 최대한 많은 [ICON_GREAT_PEOPLE] 위인을 양성하는 데 집중해야 합니다. 이는 스웨덴의 고유 능력 및 바스투와 시너지 효과를 잘 내는데, 이들 모두 [ICON_GREAT_PEOPLE] 위인을 소모할수록 보너스를 제공하기 때문입니다. [ICON_GREAT_PEOPLE] 위인을 자주 배출한다면, 만났던 모든 도시 국가에 얻는 [ICON_INFLUENCE] 영향력 보너스는 상당히 클 수 있습니다. 이를 통해 스웨덴은 여러 도시 국가와 동맹을 맺어 외교적 승리를 향해 나아가거나, 적에 대한 추가 전선을 열어 정복 승리를 향해 나아갈 수 있습니다.</Text>
 		</Row>
 
 		<!-- 베네치아 -->
@@ -1555,7 +1559,9 @@
 			<Text>{TXT_KEY_BUILDING_NATIONAL_EPIC}를 대체하는 베네치아의 고유 건물입니다. {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 {TXT_KEY_BUILDING_NATIONAL_EPIC}의 보너스에 더해, 추가로 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CITY_SECURITY] 도시 보안,[ICON_WAR] 군사 유닛 보급 한도, 도시의 [ICON_GREAT_PEOPLE] 위인 생성 속도를 증가시킵니다. 또한 민간 유닛 구매 대기시간을 감소시키고, 군사 유닛 구매 대기시간을 제거합니다. [COLOR_CYAN]길드[ENDCOLOR]를 연구하면 베네치아의 세 고유 건물 중 하나를 건설할 수 있는 능력을 잠금 해제합니다. {TXT_KEY_BUILDING_NATIONAL_EPIC}와 달리, {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 [COLOR_CYAN]{TXT_KEY_TECH_WRITING_TITLE}[ENDCOLOR] 연구 시 생산이 가능하며, {TXT_KEY_BUILDING_MONUMENT}를 요구하지 않습니다. 하지만 [ICON_CAPITAL] 수도에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_HELP">
-			<Text>[ICON_CAPITAL] 수도[ENDCOLOR]에만 건설할 수 있습니다.[NEWLINE][NEWLINE]도시의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 증가합니다. 도시에 [ICON_CITIZEN] 시민이 탄생할 때마다 [ICON_CULTURE] 문화를 15 얻습니다. 정책을 채택할 때마다 [ICON_GOLDEN_AGE] 황금기 점수를 50 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] [ICON_WAR] 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_CITY_SECURITY] 도시 보안이 10 증가합니다. [NEWLINE][NEWLINE]도시의 민간 유닛 구매 대기시간이 3턴으로 감소하고, 군사 유닛 구매 대기시간은 사라집니다.[NEWLINE][NEWLINE][COLOR_RESEARCH_STORED]{TXT_KEY_TECH_GUILDS_TITLE}[ENDCOLOR]를 연구하면 [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_MURANO_GLASSWORKS}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_BUILDING_RIALTO_DISTRICT}[ENDCOLOR] 중 하나를 건설할 수 있습니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.</Text>
+			<Text>[COLOR_CYAN]길드[ENDCOLOR] 연구를 완료하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아르세날레 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR]에 접근할 수 있습니다.[NEWLINE]
+				가능한 테마 보너스:
+  				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GREAT_WORK] 걸작 2개에서 [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT">
 			<Text>리알토 지구</Text>
@@ -1567,19 +1573,19 @@
 			<Text>수도에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}를 건설하면 셋 중 하나만 건설할 수 있는 베네치아의 고유 건물입니다. 추가 [ICON_INTERNATIONAL_TRADE] 교역로를 제공합니다. [ICON_INTERNATIONAL_TRADE] 교역로의 가치를 증가시킵니다. 제국 인구에 비례해 [ICON_GOLD] 골드를 얻습니다. 제국 전체의 유닛 및 건물 구매 [ICON_GOLD] 비용을 감소시킵니다. [ICON_GOLD] 골드 산출에 비례해 [ICON_DIPLOMAT] 세계 의회 대표단을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}가 건설되어 있어야 합니다.[NEWLINE][NEWLINE]모든 도시에서 [ICON_GOLD]골드로 유닛을 구매하거나 건물 건설에 투자하는 비용이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] ([ICON_CAPITAL]수도는 15%) 감소합니다.  제국 전체의 [ICON_CITIZEN] 시민 3명마다 [ICON_GOLD] 골드를 +1 얻습니다. [COLOR_POSITIVE_TEXT]추가[ENDCOLOR] [ICON_INTERNATIONAL_TRADE] 교역로 슬롯을 얻습니다. 도시의 턴당 [ICON_GOLD]골드 [COLOR_POSITIVE_TEXT]200[ENDCOLOR]마다 세계 의회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 [COLOR:105:105:105:255](한도: 현존 모든 [ICON_CITY_STATE]도시 국가 수의 [COLOR_NEGATIVE_TEXTTIVE_TEXT]25%)[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE]이 도시로 향하는 [ICON_ARROW_LEFT]교역로마다 도시의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 [ICON_ARROW_RIGHT] 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA">
-			<Text>아스넬 디 베네치아</Text>
+			<Text>아르세날레 디 베네치아</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA_TEXT">
-			<Text>아스넬 디 베네치아는 이탈리아 북부 베네치아 시에 있는 옛 조선소와 무기고가 모여 있는 복합 건물입니다. 국가 소유의 이 건물은 서기 2천년 중반 동안 베네치아 공화국의 해군 전력 대부분을 책임졌습니다. 그것은 역사상 최초의 대규모 산업체 중 하나였습니다.</Text>
+			<Text>아르세날레 디 베네치아는 이탈리아 북부 베네치아 시에 있는 옛 조선소와 무기고가 모여 있는 복합 건물입니다. 국가 소유의 이 건물은 서기 2천년 중반 동안 베네치아 공화국의 해군 전력 대부분을 책임졌습니다. 그것은 역사상 최초의 대규모 산업체 중 하나였습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA_STRATEGY">
 			<Text>수도에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}를 건설하면 셋 중 하나만 건설할 수 있는 베네치아의 고유 건물입니다. [ICON_PRODUCTION] 생산력과 [ICON_INTERNATIONAL_TRADE] 국내 교역을 강화합니다. [ICON_STRENGTH] 도시 전투력과 인구에서 오는 [ICON_SILVER_FIST] 군사 유닛 보급 한도를 증가시킵니다. 모든 해군 유닛의 [ICON_STRENGTH] 전투력과 [ICON_MOVES] 이동력을 강화합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}가 건설되어 있어야 합니다.[NEWLINE][NEWLINE]모든 도시의 [ICON_STRENGTH] 전투력과 [ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. ([ICON_CAPITAL] 수도는 15%).[NEWLINE][NEWLINE]이 도시에서 출발하는 [ICON_INTERNATIONAL_TRADE] 국내 교역로의 [ICON_PRODUCTION] 생산이 +4 증가합니다.[NEWLINE][NEWLINE]모든 해상 유닛에 [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_VENETIAN_CRAFTSMANSHIP}[ENDCOLOR] 진급을 부여합니다.[NEWLINE][NEWLINE][NEWLINE]문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION] 생산이 증가합니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS">
 			<Text>무라노 유리공방</Text>
@@ -1591,7 +1597,7 @@
 			<Text>수도에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}를 건설하면 셋 중 하나만 건설할 수 있는 베네치아의 고유 건물입니다. 모든 도시의 위인 타일 시설과 마을을 강화합니다. [ICON_INTERNATIONAL_TRADE] 교역로 완성 시 발생하는 역사적 사건을 활성화하거나 강화합니다. [ICON_GREAT_WORK] 위대한 예술품 또는 유물 슬롯 2개를 보유합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_HELP">
-			<Text>셋 중 [COLOR_NEGATIVE_TEXT]하나만[ENDCOLOR] 건설할 수 있는 베네치아의 고유 건물입니다. 도시에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}가 건설되어 있어야 합니다.[NEWLINE][NEWLINE]모든 위인 시설 및 마을의 [ICON_FOOD]식량 및 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE] [ICON_CARAVAN]/[ICON_CARGO_SHIP] 교역로 완료 시 [COLOR_POSITIVE_TEXT]역사적 사건[ENDCOLOR]을 발동시킵니다. (또는 강화시킵니다)[NEWLINE][NEWLINE][ICON_GREAT_WORK]걸작 예술품 슬롯 [COLOR_POSITIVE_TEXT]2개[ENDCOLOR]를 포함합니다. [COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스: [ICON_RESEARCH]과학 +5[NEWLINE][NEWLINE] 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION] 생산이 증가합니다.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_MURANO_GLASSWORKS">
 			<Text>무라노 명작 컬렉션</Text>
@@ -1731,13 +1737,16 @@
 			<Text>이지코</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_IZIKO_HELP">
-			<Text></Text>
+			<Text>가능한 테마 보너스:
+  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4를 얻습니다.
+  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4를 얻습니다.
+			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_IZIKO_TEXT">
 			<Text>이지코(Iziko)는 줄루족이 모이는 장소로 사용하던 단순한 난로입니다. 벽난로는 음식, 따뜻함, 꿈, 조상과의 유대감을 가져다주는 것으로 존경받았습니다. 이런 모임을 통해 공동체 의식과 정체성이 형성되었고, 젊은 줄루족은 공연을 하고 유대감을 형성할 수 있었습니다.[NEWLINE][NEWLINE]벽난로는 이시카타미야(Isicathamiya) 무대 공연에서 "노래를 요리하는 것"을 은유적으로 표현하는데, 이는 전통 줄루 음악의 현대적 파생물입니다. 꿈은 조상과 소통하는 데 필수적인 부분이었으며, 뿌리 깊은 줄루 종교의 일부를 형성했습니다. 일부 이시카타미야 음악가들은 그들의 노래 중 일부가 영적인 세계에서 창조되었거나 조상으로부터 전수받았다고 주장합니다.[NEWLINE][NEWLINE]"사람은 다른 사람 때문에 사람이다."[NEWLINE][TAB] - 줄루 속담</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_IZIKO_STRATEGY">
-			<Text></Text>
+			<Text>이지코의 가장 큰 고유 보너스는 모든 유닛이 레벨업할 때마다 문화를 제공하며, 문명 내에 건설한 도시의 수에 비례하여 문화 제공량이 증가한다는 점입니다. 이는 줄루 고유 능력과 시너지 효과를 내는데, 유닛 레벨당 필요한 경험치가 더 적기 때문입니다. 보너스를 극대화하려면 군사 유닛을 구매하는 대신 직접 생산하는 것이 좋습니다. 그러면 유닛이 최대 경험치를 가지고 시작하고, 시작 경험치를 제공하는 건물과 기타 보너스를 최대한 많이 확보할 수 있습니다. 줄루로 플레이할 때는 일반적으로 공격적인 플레이를 하는 것이 좋습니다. 전투를 통해 경험치를 적극적으로 획득하여 기존 유닛의 레벨을 올리고, 도시를 확장하여 이지코를 건설할 수 있도록 해야 합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_INDUNA">
@@ -1750,7 +1759,7 @@
 			<Text>인두나(InDuna)는 상업, 정치, 전쟁 등 각 분야에서 활동하는 모든 지도자를 가리키는 말로 널리 번역될 수 있습니다. 인두나는 젊은 줄루족 남자들로 구성된 각 연대, 즉 '이부토(Ibutho)'를 지휘했고, 그는 다시 군단을 지휘하는 선임 이진두나(izinDuna, 인두나의 복수형)에게 보고했습니다. 이들 원로 족장 중 한 명 이상이 중요한 임무에 대규모 부대를 수행했을 수는 있지만, 줄루족 전체의 군대를 지휘하는 단일 "야전 사령관"은 존재하지 않았습니다. 오늘날 군대의 부사관과 마찬가지로 연대의 이진두나도 사기와 규율을 유지하는 데 중요했습니다. 이는 이산들와나(Isandlwana) 전투에서 잘 드러났는데, 은칭와요 카마홀레(Ntshingwayo kaMahole)가 이끄는 군대가 영국군 부대를 따돌리고 격파했기 때문입니다. 은팅와요 카마홀레와 그의 동료 이진두나는 2만 명의 줄루군을 영국군 뒤로 몰래 숨겨 영국군 진영에서 불과 7마일 떨어진 계곡에 숨겼습니다. 정찰병들이 그들이 완전히 침묵한 채 앉아 있는 것을 발견하자, 이진두나는 부하들을 행동에 나서도록 독려하고 번개같이 빠른 속도로 남은 거리를 좁혔습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_STRATEGY">
-			<Text></Text>
+			<Text>인두나가 위대한 장군에 비해 갖는 주요 고유 보너스는 소모 시 함께 배치된 유닛에게 경험치를 제공하고, 인접한 목장에 [ICON_RES_COW] 소 자원을 배치하는 이시바야를 생성하며, 인접한 목장에 [ICON_CULTURE] 문화 +1을 부여한다는 점입니다. 이시바야는 여전히 요새처럼 주로 군사 목적으로 사용해야 하지만, 가능하면 도시의 활동 범위 내에 목장과 인접하게 건설하여 경제적 보너스를 얻는 것을 고려해야 합니다. 이시바야를 건설할 때는 항상 인두나를 장착한 군사 유닛을 함께 배치해야 하며, 특히 원거리 유닛이나 공성 유닛과 같이 레벨이 높은 유닛에게 보너스 경험치를 주는 것이 가장 좋습니다. 이는 이러한 유형의 유닛이 근접 유닛에 비해 더 오래 생존시키기 쉽고, 경험치 획득 속도가 느리기 때문에 추가 경험치가 더 큰 효과를 발휘하기 때문입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_01">
 			<Text>음질리카지</Text>

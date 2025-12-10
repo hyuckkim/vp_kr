@@ -40,6 +40,11 @@ SET Text = '{TXT_KEY_BUILDING_NATIONAL_COLLEGE}을 대체하는 아라비아의 
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY';
 
 UPDATE Language_ko_KR
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]외국 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 3개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP';
+
+UPDATE Language_ko_KR
 SET Text = '{TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER}의 고유 지원 유닛입니다. [NEWLINE][NEWLINE]{TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER}이 도시에 인접한다면, 모든 유닛이 도시를 공격할 때 강력한 전투력 보너스를 얻습니다. 도시에서 두 타일 떨어져 있다면 이 효과는 절반이 됩니다. 또한 이 유닛은 더욱 멀리 볼 수 있고, 주변 유닛의 회복을 빠르게 합니다. [COLOR_NEGATIVE_TEXT]하지만 스스로를 보호할 수 없습니다.[ENDCOLOR] 온 힘을 다해 공성탑을 보호하십시오! {TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER}을 근거리 또는 원거리 유닛으로 보호하며 목표물에 도달하십시오. 도시가 더욱 빨리 함락될 것입니다.[NEWLINE][NEWLINE]이 유닛은 퇴보되지 않습니다. 한 번에 둘을 넘는 공성탑을 가질 수 없습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY';
 
@@ -379,7 +384,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 -- Inca
 --------------------
 UPDATE Language_ko_KR
-SET Text = '언덕이 포함된 모든 지형의 유닛 이동 페널티를 무시하고 산 타일로 이동할 수 있습니다. 산 타일에 도시/도로/철도를 건설할 수 있고 산 타일의 [ICON_PRODUCTION] 생산력, [ICON_GOLD]골드, [ICON_RESEARCH]과학이 증가합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]'
+SET Text = '언덕이 포함된 모든 지형의 유닛 이동 페널티를 무시하고 산 타일로 이동할 수 있습니다. 산 타일에 도시/도로/철도를 건설할 수 있고 산 타일의 [ICON_PRODUCTION] 생산력, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학이 증가합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD';
 
 UPDATE Language_ko_KR
@@ -387,7 +392,7 @@ SET Text = '파타파타'
 WHERE Tag = 'TXT_KEY_IMPROVEMENT_TERRACE_FARM';
 
 UPDATE Language_ko_KR
-SET Text = '언덕 위에만 건설할 수 있으며 인접한 산 또는 {TXT_KEY_IMPROVEMENT_TERRACE_FARM}마다 [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 인접한 모든 농장의 [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '언덕 위에만 건설할 수 있습니다. 산, 농장, 파타파타 또는 제조소가 있는 인접한 두 타일마다 [ICON_FOOD] 식량 +1이 추가됩니다. 농장은 인접한 농장 2개 또는 파타파타 1개당 [ICON_FOOD] 식량 +1을 추가로 얻습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP';
 
 UPDATE Language_ko_KR

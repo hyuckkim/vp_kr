@@ -271,6 +271,11 @@
 			<Text>{1_Num} [ICON_GOLDEN_AGE] 황금기 점수</Text>
 		</Row>
 
+		<!-- Civilopedia -->
+		<Row Tag="TXT_KEY_PEDIA_BASE_COST_LABEL">
+			<Text>기본 비용:</Text>
+		</Row>
+
 		<!-- Info tooltip -->
 		<!-- Common -->
 		<Row Tag="TXT_KEY_INVESTED">
@@ -710,8 +715,8 @@
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER">
 			<Text>건물에서 [ICON_STRENGTH] 도시 전투력 {2_Sign}{1_Num}%</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER_GLOBAL">
-			<Text>모든 도시의 [ICON_STRENGTH] 도시 전투력 {2_Sign}{1_Num}%</Text>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER_TEAM">
+			<Text>팀에 속한 모든 도시의 건물에서 얻는 [ICON_STRENGTH] 도시 전투력 {2_Sign}{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
 			<Text>[ICON_STRENGTH] 피해 감소: {2_Sign}{1_Num}</Text>
@@ -765,7 +770,7 @@
 			<Text>{2_Sign}{1_Num} XP for [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] per [ICON_GREAT_WORK] Great Work in City</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WRITING_GLOBAL">
-			<Text>{2_Sign}{1_Num} XP for [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] in all Cities per [ICON_GW_WRITING] Great Work of Writing in Empire</Text>
+			<Text>{2_Sign}{1_Num} XP for [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] in all Cities per [ICON_GW_WRITING] Great Work of Writing in Empire, capped at 45 XP</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_KEPT">
 			<Text>도시 성장시 이월되는 [ICON_FOOD] 식량 {2_Sign}{1_Num}%</Text>
@@ -1608,7 +1613,7 @@
 			<Text>({1_Num} more from Accomplishments)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_ERA">
-			<Text>[ICON_BULLET] Every new Era: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET] Every new Era after Classical Era: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STRENGTH">
 			<Text>[ICON_BULLET] Each point of [ICON_STRENGTH] City Strength: {1_YieldBoosts}</Text>
@@ -1692,6 +1697,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_PROCESS">
 			<Text>[ICON_BULLET]{1_Num} {2_IconString} from [ICON_SWAP] Process</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TERRAIN_WONDERS">
+			<Text>[ICON_BULLET]{1_Num} [ICON_TOURISM] from {2_Num}% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_TRADE_ROUTES">
 			<Text>[ICON_BULLET]{1_Num} {2_IconString} from [ICON_INTERNATIONAL_TRADE] Trade Routes</Text>
@@ -1858,6 +1866,9 @@
 		<Row Tag="TXT_KEY_YIELD_MOD_TECHNOLOGIES">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Technologies</Text>
 		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_ERA">
+            <Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Era</Text>
+        </Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_UNHAPPINESS">
 			<Text>[NEWLINE][ICON_BULLET]{1_Num}% from [ICON_HAPPINESS_3] Unhappiness</Text>
 		</Row>
@@ -1919,7 +1930,7 @@
 		<Row Tag="TXT_KEY_GPP_MOD_IMPROVEMENT">
 			<Text>[NEWLINE][ICON_BULLET] 작업한 시설에서 {1: number "'+'##;'-'##"}%</Text>
 		</Row>
-		<Row Tag="TXT_KEY_GP_MOD_LEAGUE">
+		<Row Tag="TXT_KEY_GPP_MOD_LEAGUE">
 			<Text>[NEWLINE][ICON_BULLET] 활성화된 결의안에서 {1: number "'+'##;'-'##"}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GPP_MOD_MONOPOLY">
@@ -1936,7 +1947,7 @@
 		<Row Tag="TXT_KEY_TOURISM_HELP_INFO">
 			<Text>[ICON_TOURISM] 관광은 다른 문명에 문화적 영향력을 미치기 위해 걸작, 불가사의 및 기타 문화적 업적을 통해 창출됩니다. 당신이 축적한 [ICON_TOURISM] 관광이 다른 문명의 축적된 [ICON_CULTURE] 문화 생산량을 초과하면, 당신은 그 문명에 대한 영향력을 얻게 되고, 문화 승리에 한 걸음 더 가까워집니다.</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_BORDER_GROWTH_HELP_INFO">
 			<Text>[ICON_CULTURE_LOCAL] 국경 성장 점수는 도시의 문화 생산과 특정 건물, 교리를 통해 생성됩니다. 누적된 국경 성장 점수가 필요한 임계값을 초과하면 도시는 새로운 타일을 얻습니다.</Text>
 		</Row>
@@ -2358,8 +2369,38 @@
 		</Row>
 
 		<!-- Religion overview -->
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
+			<Text>Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
+			<Text>Followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_YEAR_FOUNDED">
+			<Text>Founded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_OWNED_CITIES">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of all Cities follows {2_Name}.[NEWLINE][NEWLINE]{3_Num} of your Cities have {4_Name} as the [ICON_RELIGION] Majority Religion. They account for [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] of the Majority Religion of your Cities. These cities also accounts for [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] of {7_Name}'s majority presence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_WR_OWNED_FOLLOWERS">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of the World's Population follows {2_Name}.[NEWLINE][NEWLINE]{3_Num} of your [ICON_CITIZEN] Population follows {4_Name}. They make up [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] of your [ICON_CITIZEN] Population. They also make up for [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] of {7_Name}'s followers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_TAB_MAP">
+			<Text>Map</Text>
+		</Row>
 		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET_PARAM">
 			<Text>{1_UNITCLASS_PROPHET}를 위해 모으기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_DISABLE_AUTO_PURCHASE">
+			<Text>Notify Only</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_DISABLE_AUTO_PURCHASE_TT">
+			<Text>When checked, religious units and buildings will not be purchased automatically. Instead, you will receive a notification when enough Faith has been collected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FAITH_PURCHASE_AVAILABLE">
+			<Text>You have collected enough Faith to buy {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_Name}}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FAITH_PURCHASE_AVAILABLE">
+			<Text>Faith Purchase available</Text>
 		</Row>
 
 		<!-- Espionage overview -->
@@ -3069,7 +3110,10 @@
 			<Text>둘 중의 누군가 연구 협정을 체결하는 데 필요한 자금이 부족합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT">
-			<Text>일시불 항목 (골드 등) 과 턴당 항목 (자원 등)을 교환할 수 없습니다.</Text>
+			<Text>일시불 항목(골드 등)과 턴 당 항목(자원 등)을 교환할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GOLD_ONLY_TRADE_TT">
+			<Text>Cannot trade Gold for Gold per Turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_AI_TEAMMATE_TRADE_TT">
 			<Text>플레이어 팀원에 의해 불가능합니다.</Text>
@@ -3311,6 +3355,11 @@
 			<Text>{1_City}{1: plural 1?을; 2?를;} 정복해주길 바랍니다.</Text>
 		</Row>
 
+		<!-- Debug score -->
+		<Row Tag="TXT_KEY_DEBUG_SCORE">
+			<Text>점수: [COLOR_CYAN]{1_Score}[ENDCOLOR]</Text>
+		</Row>
+
 		<!-- Plot popup -->
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_PILLAGE">
 			<Text>바이킹</Text>
@@ -3421,7 +3470,7 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST_TT">
 			<Text>다른 문명에게서 온 외교 서신이 당신을 기다리고 있습니다.</Text>
 		</Row>
-		
+
 		<!-- New columns -->
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS">
 			<Text>[ICON_HAPPINESS_3] 불행: {2_Sign}{1_Num}</Text>
