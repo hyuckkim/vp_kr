@@ -1440,22 +1440,22 @@
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1">
 			<Text>승선함 I</Text>
 		</Row>
--		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1_HELP">
--			<Text>[ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]-2[ENDCOLOR][NEWLINE]1턴 동안 지속</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]-2[ENDCOLOR][NEWLINE]1턴 동안 지속</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_2">
 			<Text>승선함 II</Text>
 		</Row>
--		<Row Tag="TXT_KEY_PROMOTION_BOARDED_2_HELP">
--			<Text>[ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]-4[ENDCOLOR][NEWLINE]1턴 동안 지속</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDED_2_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_NEGATIVE_TEXT]-4[ENDCOLOR][NEWLINE]1턴 동안 지속</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DAZED">
 			<Text>멍함</Text>
 		</Row>
--		<Row Tag="TXT_KEY_PROMOTION_DAZED_HELP">
--			<Text>[ICON_STRENGTH] 전투력 보너스 [COLOR_NEGATIVE_TEXT]-15%[ENDCOLOR][NEWLINE]5턴 동안 지속</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAZED_HELP">
+			<Text>[ICON_STRENGTH] 전투력 보너스 [COLOR_NEGATIVE_TEXT]-15%[ENDCOLOR][NEWLINE]5턴 동안 지속</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ON_FIRE">
 			<Text>불타오르네</Text>
@@ -1465,29 +1465,29 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MAIMED">
--			<Text>불구</Text>
--		</Row>
--		<Row Tag="TXT_KEY_PROMOTION_MAIMED_HELP">
--			<Text>[ICON_MOVES] 이동력 -1[NEWLINE]1턴 동안 지속</Text>
+			<Text>불구</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MAIMED_HELP">
+			<Text>[ICON_MOVES] 이동력 -1[NEWLINE]1턴 동안 지속</Text>
  		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PRISONERS_OF_WAR">
 			<Text>전쟁 포로</Text>
 		</Row>
--		<Row Tag="TXT_KEY_PROMOTION_PRISONERS_OF_WAR_HELP">
--			<Text>시설 및 도로 건설 속도 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR] 느려짐[NEWLINE]50턴 동안 지속</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRISONERS_OF_WAR_HELP">
+			<Text>시설 및 도로 건설 속도 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR] 느려짐[NEWLINE]50턴 동안 지속</Text>
+		</Row>
 
--		<Row Tag="TXT_KEY_PROMOTION_FERVOR">
--			<Text>열의</Text>
--		</Row>
--		<Row Tag="TXT_KEY_PROMOTION_FERVOR_HELP">
--			<Text>[ICON_STRENGTH] 전투력 +10% 증가[NEWLINE]30턴 동안 지속</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FERVOR">
+			<Text>열의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FERVOR_HELP">
+			<Text>[ICON_STRENGTH] 전투력 +10% 증가[NEWLINE]30턴 동안 지속</Text>
+		</Row>
 
--		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
--			<Text>습지 보행</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
+			<Text>습지 보행</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]습지[ENDCOLOR]에서 지형 비용 무시.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
 		</Row>
@@ -1499,39 +1499,39 @@
 			<Text>[COLOR_POSITIVE_TEXT]설원[ENDCOLOR]에서 지형 비용 무시.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
 		</Row>
 
--		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER">
--			<Text>숲/정글 보행</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER">
+			<Text>숲/정글 보행</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]숲[ENDCOLOR], [COLOR_POSITIVE_TEXT]정글[ENDCOLOR]에서 지형 비용 무시.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
 		</Row>
 
--		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER">
--			<Text>사막 보행</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER">
+			<Text>사막 보행</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]사막[ENDCOLOR]에서 지형 비용 무시.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
 		</Row>
 
--		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
--			<Text>언덕 보행</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
+			<Text>언덕 보행</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]언덕[ENDCOLOR]에서 지형 비용 무시.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
 		</Row>
 
--		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT">
--			<Text>징집</Text>
--		</Row>
--		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT_HELP">
--			<Text>[ICON_WAR] 유닛 보급 한도를 차지하지 않음[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT">
+			<Text>징집</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT_HELP">
+			<Text>[ICON_WAR] 유닛 보급 한도를 차지하지 않음[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
 
--		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT">
--			<Text>절대적인 힘</Text>
--		</Row>
--		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT_HELP">
--			<Text>체력 +25</Text>
--		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT">
+			<Text>절대적인 힘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT_HELP">
+			<Text>체력 +25</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>

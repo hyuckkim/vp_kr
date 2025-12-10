@@ -97,16 +97,16 @@
 			<Text>[ICON_PEACE] 신앙 +4[NEWLINE][ICON_CULTURE] 문화 +2[NEWLINE][NEWLINE]도시 내 모든 [ICON_GREAT_WORK] 걸작에 대해 [ICON_PEACE] 신앙 +1을 받습니다.[NEWLINE][NEWLINE]건물이 완성되면 15턴 동안 [ICON_HAPPINESS_1] "국왕 경축일"을 진행합니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +40% 증가합니다.[NEWLINE][NEWLINE][ICON_CULTURE] 무료로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_TOOLTIP">
-			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_FOOD] 식량 +3[NEWLINE][ICON_FOOD] 식량 +10%[NEWLINE][NEWLINE]건물로 인한 도시 [ICON_STRENGTH] 전투력 10% 증가.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] Distress로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
+			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_FOOD] 식량 +3[NEWLINE][ICON_FOOD] 식량 +10%[NEWLINE][NEWLINE]건물로 인한 도시 [ICON_STRENGTH] 전투력 10% 증가.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] 낙후로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_TOOLTIP">
-			<Text>[ICON_PEACE] 신앙 +3[NEWLINE][ICON_FOOD] 식량 +2[NEWLINE][NEWLINE]이 도시에서 [ICON_CITIZEN] 시민이 태어날 때마다 모든 산출량이 +5 증가합니다. [COLOR:110:110:110:255](시대별 보정)[NEWLINE][NEWLINE]해당 종교가 도시의 다수 종교일 경우, 다른 도시에 대한 종교적 압력이 +15% 증가하고, 다른 종교를 믿거나 다른 종교가 활발하게 확산되는 도시로부터는 해당 도시에 대한 종교적 압력이 -10% 감소합니다.[NEWLINE][NEWLINE][ICON_GOLD] Poverty으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
+			<Text>[ICON_PEACE] 신앙 +3[NEWLINE][ICON_FOOD] 식량 +2[NEWLINE][NEWLINE]이 도시에서 [ICON_CITIZEN] 시민이 태어날 때마다 모든 산출량이 +5 증가합니다. [COLOR:110:110:110:255](시대별 보정)[NEWLINE][NEWLINE]해당 종교가 도시의 다수 종교일 경우, 다른 도시에 대한 종교적 압력이 +15% 증가하고, 다른 종교를 믿거나 다른 종교가 활발하게 확산되는 도시로부터는 해당 도시에 대한 종교적 압력이 -10% 감소합니다.[NEWLINE][NEWLINE][ICON_GOLD] 빈곤으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOSQUE_TOOLTIP">
 			<Text>[ICON_PEACE] 신앙 +3[NEWLINE][ICON_RESEARCH] 과학 +2[NEWLINE][NEWLINE][ICON_GOLDEN_AGE] 황금기 동안 [ICON_CULTURE] 문화가 +15% 증가합니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_RESEARCH] 문맹으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_TOOLTIP">
-			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_GOLD] 골드 +3[NEWLINE][NEWLINE]군사 유닛 생산을 완료할 때마다 [ICON_PRODUCTION] 생산 비용의 10%에 해당하는 [ICON_PEACE] 신앙을 얻습니다.[NEWLINE][NEWLINE][ICON_RANGE_STRENGTH] 도시 공격력이 +10% 증가합니다.[NEWLINE][NEWLINE]이 도시에서 훈련받은 모든 기존 및 앞으로의 해당하는 유닛은 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MORALE}[ENDCOLOR] 승급을 받게 됩니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] Distress로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
+			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_GOLD] 골드 +3[NEWLINE][NEWLINE]군사 유닛 생산을 완료할 때마다 [ICON_PRODUCTION] 생산 비용의 10%에 해당하는 [ICON_PEACE] 신앙을 얻습니다.[NEWLINE][NEWLINE][ICON_RANGE_STRENGTH] 도시 공격력이 +10% 증가합니다.[NEWLINE][NEWLINE]이 도시에서 훈련받은 모든 기존 및 앞으로의 해당하는 유닛은 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MORALE}[ENDCOLOR] 승급을 받게 됩니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] 낙후로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PAGODA_TOOLTIP">
 			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][NEWLINE]도시에 추종자가 한 명 이상 있는 모든 [ICON_RELIGION] 종교의 모든 산출량이 +1 추가됩니다.[NEWLINE][NEWLINE][ICON_CULTURE] 무료로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소하고 [ICON_RELIGION] 종교 분쟁으로 인한 [ICON_HAPPINESS_3] 불행이 -2 감소합니다.</Text>
@@ -115,10 +115,10 @@
 			<Text>[ICON_PEACE] 신앙 +3[NEWLINE][ICON_GOLDEN_AGE] 황금기 점수 +3[NEWLINE][ICON_TOURISM] 관광 +5[NEWLINE][ICON_HAPPINESS_1] 행복 +1[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_RESEARCH] 문맹으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TOOLTIP">
-			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_PRODUCTION] 생산 +3[NEWLINE][NEWLINE][ICON_HAPPINESS_1] "국왕 경축일" 동안 [ICON_RESEARCH] 과학이 +10% 증가합니다.[NEWLINE][NEWLINE]다른 종교를 믿는 도시 또는 다른 종교가 활발하게 확산되는 도시들로부터 이 도시에 대한 종교적 압력이 -15% 감소합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] Distress로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
+			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_PRODUCTION] 생산 +3[NEWLINE][NEWLINE][ICON_HAPPINESS_1] "국왕 경축일" 동안 [ICON_RESEARCH] 과학이 +10% 증가합니다.[NEWLINE][NEWLINE]다른 종교를 믿는 도시 또는 다른 종교가 활발하게 확산되는 도시들로부터 이 도시에 대한 종교적 압력이 -15% 감소합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] 낙후로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
-			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_WAR] 군사 보급 제한 +1[NEWLINE][NEWLINE]보유한 유닛이 군사 유닛을 물리칠 때마다 [ICON_PEACE] 신앙이 +5 증가합니다.[NEWLINE][NEWLINE]도시에서 훈련된 군사 유닛에 경험치를 +15 추가합니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] Distress로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
+			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_WAR] 군사 보급 제한 +1[NEWLINE][NEWLINE]보유한 유닛이 군사 유닛을 물리칠 때마다 [ICON_PEACE] 신앙이 +5 증가합니다.[NEWLINE][NEWLINE]도시에서 훈련된 군사 유닛에 경험치를 +15 추가합니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] 낙후로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>
