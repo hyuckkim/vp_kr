@@ -924,10 +924,10 @@
 			<Text>핵무기로 파괴 불가</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG">
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_FLANKING">
 			<Text>강력한 측면 공격</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_BONUS_STRONG_HELP">
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_FLANKING_HELP">
 			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
 		</Row>
 
@@ -991,7 +991,7 @@
 			<Text>후퇴 불가 시 평소보다 피해 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_GRENADIER_KILL">
+		<Row Tag="TXT_KEY_PROMOTION_GRENADIER">
 			<Text>척탄병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GRENADIER_HELP">
@@ -1488,7 +1488,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
 			<Text>습지 보행</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER_HELP">
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]습지[ENDCOLOR]에서 지형 비용 무시.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
 		</Row>
 
