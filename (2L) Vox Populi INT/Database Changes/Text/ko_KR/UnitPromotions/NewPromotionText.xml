@@ -174,14 +174,14 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_1_HELP">
-			<Text>[ICON_VISION]시야 및 승선 시 시야 +1[NEWLINE]숲, 정글 및 언덕에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]패널티 무시[ENDCOLOR]</Text>
+			<Text>[ICON_VISION]시야 및 승선 시 시야 +1[NEWLINE]숲, 정글 및 언덕에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]페널티 무시[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_2">
 			<Text>개척 II</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_2_HELP">
-			<Text>[ICON_MOVES]이동력 및 승선 시 이동력 +1[NEWLINE]사막, 설원 및 습지에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]패널티 무시[ENDCOLOR][NEWLINE]강을 건널 시 [ICON_MOVES]이동력 및 전투력 패널티 없음</Text>
+			<Text>[ICON_MOVES]이동력 및 승선 시 이동력 +1[NEWLINE]사막, 설원 및 습지에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]페널티 무시[ENDCOLOR][NEWLINE]강을 건널 시 [ICON_MOVES]이동력 및 전투력 페널티 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_3">
 			<Text>개척 III</Text>
@@ -417,7 +417,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FROGMAN_HELP">
-			<Text>해양에서 공격 시 전투력 패널티 없음[COLOR_POSITIVE_TEXT][NEWLINE]승선[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]하선[ENDCOLOR]이 [ICON_MOVES] 이동력을 1만 소모합니다.[NEWLINE]승선 중 방어 시 [ICON_STRENGTH]전투력 +50%</Text>
+			<Text>해양에서 공격 시 전투력 페널티 없음[COLOR_POSITIVE_TEXT][NEWLINE]승선[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]하선[ENDCOLOR]이 [ICON_MOVES] 이동력을 1만 소모합니다.[NEWLINE]승선 중 방어 시 [ICON_STRENGTH]전투력 +50%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SCREENING">
@@ -555,7 +555,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BANZAI_HELP">
 			<Text>최대 체력에서 감소한 체력 3마다 
-			[ICON_STRENGTH] 전투력 보너스 +1%[NEWLINE][ICON_POSITIVE_TEXT]승선[ENDCOLOR] 시 전투력 패널티 삭제.</Text>
+			[ICON_STRENGTH] 전투력 보너스 +1%[NEWLINE][ICON_POSITIVE_TEXT]승선[ENDCOLOR] 시 전투력 페널티 삭제.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUNPOWDER">
@@ -924,10 +924,10 @@
 			<Text>핵무기로 파괴 불가</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG">
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_FLANKING">
 			<Text>강력한 측면 공격</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_BONUS_STRONG_HELP">
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_FLANKING_HELP">
 			<Text>측면 공격 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
 		</Row>
 
@@ -963,7 +963,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE">
-			<Text>놈들의 목을 쳐라!(Hakkaa Päälle!)</Text>
+			<Text>놈들의 목을 쳐라!</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE_HELP">
@@ -991,7 +991,7 @@
 			<Text>후퇴 불가 시 평소보다 피해 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_GRENADIER_KILL">
+		<Row Tag="TXT_KEY_PROMOTION_GRENADIER">
 			<Text>척탄병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GRENADIER_HELP">
@@ -1320,7 +1320,7 @@
 			<Text>싸움닭</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIGHTING_COCK_HELP">
-			<Text>최대 체력이 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 패널티 제거</Text>
+			<Text>최대 체력이 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 페널티 제거</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LEGATUS_LEGIONIS">
@@ -1348,7 +1348,7 @@
 			<Text>대형 기마 무용</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_HORSE_DANCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]요새화[ENDCOLOR]시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 패널티 제거</Text>
+			<Text>[COLOR_POSITIVE_TEXT]요새화[ENDCOLOR]시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 페널티 제거</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CROUCHING_TIGER">
@@ -1384,14 +1384,14 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
-			<Text>+20% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Units at or below 50% HP[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].[NEWLINE]Heal 10 HP after defeating an Enemy Unit.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]적 유닛이 체력 50% 이하[ENDCOLOR]일 때 공격 시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
 			<Text>용기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
-			<Text>+15% [ICON_STRENGTH] Combat Strength when attacking.[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].[NEWLINE]Heal 10 HP after defeating an Enemy Unit.</Text>
+			<Text>공격 시 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
@@ -1399,42 +1399,42 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
-			<Text>+5 HP when [COLOR_POSITIVE_TEXT]Healing[ENDCOLOR] for Units [COLOR_POSITIVE_TEXT]adjacent to this tile[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].[NEWLINE]Heal 10 HP after defeating an Enemy Unit.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]이 타일에 인접한[ENDCOLOR] 유닛 [COLOR_POSITIVE_TEXT]회복[ENDCOLOR] 시 체력 +5 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
 			<Text>존경</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
-			<Text>+20% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Units above 50% HP[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].[NEWLINE]Heal 10 HP after defeating an Enemy Unit.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]체력 50% 이상 유닛[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
 			<Text>진심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
-			<Text>+50% Experience gained from Combat.[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].[NEWLINE]Heal 10 HP after defeating an Enemy Unit.</Text>
+			<Text>전투에서 얻는 경험치 +50%[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HONOR">
 			<Text>명예</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_HELP">
-			<Text>+15% [ICON_STRENGTH] Combat Strength [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].[NEWLINE]Heal 10 HP after defeating an Enemy Unit.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]아군 영토 밖[ENDCOLOR]에서 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
 			<Text>충성심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
-			<Text>+15% [ICON_STRENGTH] Combat Strength [COLOR_POSITIVE_TEXT]Inside Friendly Territory[ENDCOLOR].[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].[NEWLINE]Heal 10 HP after defeating an Enemy Unit.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]아군 영토 내[ENDCOLOR]에서 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
 			<Text>자제력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
-			<Text>+15% [ICON_STRENGTH] Combat Strength when defending.[NEWLINE]+1% [ICON_STRENGTH] Combat Strength for every 3 HP below maximum health.[NEWLINE]Eliminate combat penalties for attacking or defending against Melee Attacks while [ICON_POSITIVE_TEXT]Wounded[ENDCOLOR].[NEWLINE]Heal 10 HP after defeating an Enemy Unit.</Text>
+			<Text>방어 시 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1">
@@ -1488,7 +1488,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
 			<Text>습지 보행</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER_HELP">
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]습지[ENDCOLOR]에서 지형 비용 무시.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]야만인만 해당[ENDCOLOR]</Text>
 		</Row>
 

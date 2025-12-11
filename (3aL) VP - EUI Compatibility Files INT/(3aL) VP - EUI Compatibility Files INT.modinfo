@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="4d22275e-c50f-4550-9c33-97a813b8559f" version="1">
+<Mod id="61add98c-bb39-4a15-a2b8-007abfcbd93d" version="1">
   <Properties>
     <Name>(3aL) VP - EUI Compatibility Files INT</Name>
-    <Stability>beta</Stability>
+    <Stability>Beta</Stability>
     <Teaser>(5.0) Vox Populi 호환성 및 LUA(EUI 버전)</Teaser>
     <Description>EUI를 사용할 때의 Vox Populi에 대한 LUA 및 모드 호환성 파일이 포함되어 있습니다.</Description>
     <Authors>hyuckkim, HANDANI</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
-    <Homepage>http://github.com/hyuckkim/vp_kr/</Homepage>
+    <Homepage>http://github.com/handanikr/vp_kr/</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
@@ -20,22 +20,22 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
-    <Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" minversion="0" maxversion="999" title="Community Patch Localized" />
-    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Vox Populi" />
-    <Mod id="559f86b1-5b57-4975-a9ed-b9f3855506f5" minversion="0" maxversion="999" title="Vox Populi Localized" />
-    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="VP - EUI Compatibility Files" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="147" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="Vox Populi" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="1" maxversion="999" title="VP - EUI Compatibility Files" />
+    <Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" minversion="147" maxversion="999" title="Community Patch Localized" />
+    <Mod id="564564cb-3972-4c03-b355-ff551b703f5d" minversion="17" maxversion="999" title="Vox Populi Localized" />
   </Dependencies>
   <References />
   <Blocks />
   <Files>
-    <File md5="9ca34ba55c0f2dffe0de424c4f9b848e" import="0">EUI/EUI_text_ko_kr.xml</File>
-    <File md5="8e1d1e5f541a82cbff211cb43486c2c2" import="0">EUI/NeededText.xml</File>
-    <File md5="f3c443ca87aa0d3cc3ff623134842baf" import="0">ImprovedTopPanel/Text.xml</File>
+    <File md5="9CA34BA55C0F2DFFE0DE424C4F9B848E" import="0">EUI/EUI_text_ko_KR.xml</File>
+    <File md5="78F3E67C66EF0BC1B34789BDC7A545F8" import="0">EUI/NeededText.xml</File>
+    <File md5="9AF0B8A7D4586FE32E59DABD1C7C2944" import="0">ImprovedTopPanel/Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>EUI/EUI_text_ko_kr.xml</UpdateDatabase>
+      <UpdateDatabase>EUI/EUI_text_ko_KR.xml</UpdateDatabase>
       <UpdateDatabase>EUI/NeededText.xml</UpdateDatabase>
       <UpdateDatabase>ImprovedTopPanel/Text.xml</UpdateDatabase>
     </OnModActivated>

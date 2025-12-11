@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="3a5a79ae-24f6-4e80-b486-35c8d66a2844" version="1">
+<Mod id="b2add056-4251-424d-98da-2d71d6001eb9" version="1">
   <Properties>
     <Name>(4aL) Squads for VP INT</Name>
-    <Stability>beta</Stability>
+    <Stability>Beta</Stability>
     <Teaser>(5.0) RTS 스타일의 부대 지정 및 부대 이동</Teaser>
     <Description>여러 개의 유닛을 한꺼번에 구성하고 이동할 수 있는 QoL 모드입니다. 분대는 두 가지 모드로 사용합니다: [COLOR_GREEN]관리 모드[ENDCOLOR] 그리고 [COLOR_GREEN]이동 모드[ENDCOLOR]입니다.[NEWLINE][NEWLINE][COLOR_GREEN]관리 모드[ENDCOLOR]에서는 유닛이나 깃발에 [COLOR_YELLOW]왼쪽 클릭[ENDCOLOR]을 눌러 유닛을 추가하거나 제거할 수 있습니다. [COLOR_YELLOW]오른쪽 클릭[ENDCOLOR]를 누르고 추가할 유닛 위에 마우스를 드래그해 상자를 만들어서 유닛 그룹을 한 번에 분대에 추가할 수 있습니다. [COLOR_GREEN]관리 모드[ENDCOLOR]는 해당 분대를 선택한 상태에서 UI에서 [COLOR_BLUE]분대 관리[ENDCOLOR] 버튼을 누르거나, [COLOR_YELLOW]CTRL + 숫자[ENDCOLOR]키 조합을 사용하여 들어갈 수 있습니다. 여기서 숫자는 분대 번호 키입니다.[NEWLINE][NEWLINE][COLOR_GREEN]이동 모드[ENDCOLOR]에서 지역에 [COLOR_YELLOW]오른쪽 클릭[ENDCOLOR]하는 것은 해당 분대의 모든 유닛에게 해당 지역으로 이동하라는 이동 명령을 내립니다. [COLOR_GREEN]이동 모드[ENDCOLOR]는 해당 분대를 선택한 상태에서 UI에서 [COLOR_BLUE]분대 이동[ENDCOLOR] 버튼을 누르거나 키 조합 [COLOR_YELLOW]숫자 + 숫자[ENDCOLOR](키를 두 번 누름)를 사용하여 분대에 입력할 수 있습니다. 여기서 숫자는 분대 번호 키입니다.[NEWLINE][NEWLINE]분대 UI를 사용하면 분대 이름 변경, 분대에서 모든 유닛 제거, [COLOR_YELLOW]오른쪽 클릭[ENDCOLOR]을 사용하여 유닛 목록에서 개별 유닛 제거, 표시 및 이동 완료 설정 구성이 가능합니다.</Description>
     <Authors>HANDANI</Authors>
     <SpecialThanks>hyuckkim, 디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
-    <Homepage>http://github.com/HANDANI/vp_kr</Homepage>
+    <Homepage>http://github.com/handanikr/vp_kr</Homepage>
     <AffectsSavedGames>0</AffectsSavedGames>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
@@ -20,21 +20,21 @@
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
-    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Vox Populi" />
-    <Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" minversion="0" maxversion="999" title="Community Patch Localized" />
-    <Mod id="559f86b1-5b57-4975-a9ed-b9f3855506f5" minversion="0" maxversion="999" title="Vox Populi Localized" />
-    <Mod id="3645dbca-bdfb-4d86-bdc5-46cb5a426cc2" minversion="0" maxversion="999" title="Squads for VP" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="147" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="Vox Populi" />
+    <Mod id="3645dbca-bdfb-4d86-bdc5-46cb5a426cc2" minversion="1" maxversion="999" title="Squads for VP" />
+    <Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" minversion="147" maxversion="999" title="Community Patch Localized" />
+    <Mod id="564564cb-3972-4c03-b355-ff551b703f5d" minversion="17" maxversion="999" title="Vox Populi Localized" />
   </Dependencies>
   <References />
   <Blocks />
   <Files>
-    <File md5="5a20a648e604b1d79c307a5d126a5613" import="0">UI/SquadNames.lua</File>
-    <File md5="7286ec9bc6b18d531111c9be0606bb90" import="0">XML/Squads_KO_KR.xml</File>
+    <File md5="5A20A648E604B1D79C307A5D126A5613" import="0">UI/SquadNames.lua</File>
+    <File md5="7286EC9BC6B18D531111C9BE0606BB90" import="0">XML/Squads_ko_KR.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>XML/Squads_KO_KR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Squads_ko_KR.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="559f86b1-5b57-4975-a9ed-b9f3855506f5" version="17">
+<Mod id="564564cb-3972-4c03-b355-ff551b703f5d" version="17">
   <Properties>
     <Name>(2L) Vox Populi INT</Name>
-    <Stability>beta</Stability>
+    <Stability>Beta</Stability>
     <Teaser>(5.0) 문명 5: 멋진 신세계의 비공식 확장 및 재조정 프로젝트</Teaser>
     <Description>문명 5를 더욱 즐겁고 흥미진진한 게임으로 만들기 위해 밸런스 변경, 게임플레이 개선, 완전히 새로운 게임 시스템이 포함되었습니다.</Description>
     <Authors>hyuckkim, HANDANI</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
-    <Homepage>http://github.com/hyuckkim/vp_kr/</Homepage>
+    <Homepage>http://github.com/handanikr/vp_kr/</Homepage>
     <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>17</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -21,68 +21,70 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
-    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Vox Populi" />
-    <Mod id="7e5f1de1-bb2f-4b4d-b326-06e2969d0738" minversion="0" maxversion="999" title="Community Patch Localized" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="147" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="Vox Populi" />
+    <Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" minversion="147" maxversion="999" title="(1L) Community Patch INT" />
   </Dependencies>
   <References />
   <Blocks />
   <Files>
-    <File md5="92294566CE3D10972C19003813F82991" import="0">Core Files/Overrides/CivilopediaScreen.lua</File>
+    <File md5="7720F73EA1C18A98A755EB7F9792A873" import="0">Core Files/Overrides/CivilopediaScreen.lua</File>
     <File md5="91EA30067A01B6A388F3F5B590557608" import="0">Database Changes/Text/ko_KR/AI/DiplomacyResponseTextChanges.sql</File>
     <File md5="1EA879F80F8818532A8A3CB6CBBFA4FB" import="0">Database Changes/Text/ko_KR/AI/NewDiplomacyResponseText.xml</File>
-    <File md5="390FE2AFCDB32342E1C1B72D8DBCA542" import="0">Database Changes/Text/ko_KR/Beliefs/BeliefTextChanges.sql</File>
-    <File md5="8D810D5D6BBC12A1FFE720AAA88667DB" import="0">Database Changes/Text/ko_KR/Beliefs/NewBeliefText.xml</File>
-    <File md5="B98E9780CBE91198FEF3DD88394572D1" import="0">Database Changes/Text/ko_KR/City/BuildingTextChanges.sql</File>
-    <File md5="383AA4DE2EDB001867149817E232D4F3" import="0">Database Changes/Text/ko_KR/City/NewBuildingText.xml</File>
-    <File md5="94CC3308CC22585FF98AA2172FDDCC4E" import="0">Database Changes/Text/ko_KR/City/NewGreatWorkText.xml</File>
+    <File md5="A3FA48F29B2096ADE35190764B5428F4" import="0">Database Changes/Text/ko_KR/Beliefs/BeliefTextChanges.sql</File>
+    <File md5="FE58E6EB466DD0A09F483BBBB9BB35D6" import="0">Database Changes/Text/ko_KR/Beliefs/NewBeliefText.xml</File>
+    <File md5="E847D725AB845A7EC4756B59BABFF047" import="0">Database Changes/Text/ko_KR/City/BuildingTextChanges.sql</File>
+    <File md5="8549C95BA47DA8C7B408EF6A226747AD" import="0">Database Changes/Text/ko_KR/City/NewBuildingText.xml</File>
+    <File md5="12DA64C9D1160FC68FF12F7C16EA4072" import="0">Database Changes/Text/ko_KR/City/NewGreatWorkText.xml</File>
     <File md5="A3EE502CEFC9493F630E4E25D51E690D" import="0">Database Changes/Text/ko_KR/City/NewProcessText.xml</File>
-    <File md5="FC0CC8A6854F79FA30C8E60BA9E6A99C" import="0">Database Changes/Text/ko_KR/City/NewProjectText.xml</File>
-    <File md5="9C53850EA17B35AACDCAA5A06CB454E7" import="0">Database Changes/Text/ko_KR/City/NewSpecialistText.xml</File>
+    <File md5="CAD7D1273B9B80C831B28C717E14C254" import="0">Database Changes/Text/ko_KR/City/NewProjectText.xml</File>
+    <File md5="03FC40A748555F4D47EF6E4179EE48B2" import="0">Database Changes/Text/ko_KR/City/NewSpecialistText.xml</File>
+    <File md5="E7AFE309A6589B31E5670F73443F53E1" import="0">Database Changes/Text/ko_KR/City/PreBuildingTextChanges.sql</File>
     <File md5="6D7D2224EB0D1D7F2B7F907FD21A0B91" import="0">Database Changes/Text/ko_KR/City/ProcessTextChanges.sql</File>
     <File md5="E5524DB01775B7099456D4EC88539099" import="0">Database Changes/Text/ko_KR/City/ProjectTextChanges.sql</File>
     <File md5="74EA508852BC4402615B5085E58CDCBE" import="0">Database Changes/Text/ko_KR/City/SpecialistTextChanges.sql</File>
-    <File md5="f8891b9d4cc533888dc9e24826b6037e" import="0">Database Changes/Text/ko_KR/Civilizations/CivilizationTextChanges.sql</File>
-    <File md5="1831b8df0a967a69cd70231502e8c144" import="0">Database Changes/Text/ko_KR/Civilizations/NewCivilizationText.xml</File>
-    <File md5="C463CC9093C438F64A93531AE7D6377E" import="0">Database Changes/Text/ko_KR/Concepts/ConceptTextChanges.sql</File>
-    <File md5="139234B61834C1CEE93DE6C964E7B75B" import="0">Database Changes/Text/ko_KR/Concepts/NewConceptText.xml</File>
-    <File md5="8F7F9829B167A8B278D6112D84BF819D" import="0">Database Changes/Text/ko_KR/Corporations/NewCorporationText.xml</File>
+    <File md5="8C6B048BB8A15109BCD3581CC346120D" import="0">Database Changes/Text/ko_KR/Civilizations/CivilizationTextChanges.sql</File>
+    <File md5="4364FDA7D6397EBAA24228264668D23A" import="0">Database Changes/Text/ko_KR/Civilizations/NewCivilizationText.xml</File>
+    <File md5="6D84E966DAF9E9F94EABA439215AAAA0" import="0">Database Changes/Text/ko_KR/Concepts/ConceptTextChanges.sql</File>
+    <File md5="EA905BE7B8868360EA47893160491D0F" import="0">Database Changes/Text/ko_KR/Concepts/NewConceptText.xml</File>
+    <File md5="F733EA23F6CE8ABEA9A60772B4A5022C" import="0">Database Changes/Text/ko_KR/Corporations/NewCorporationText.xml</File>
     <File md5="A12CCE32BEEECA72737C26A2BE2D95E6" import="0">Database Changes/Text/ko_KR/Difficulty/DifficultyTextChanges.sql</File>
     <File md5="3702F1D4455BFC90BA46A56CA7C0CAB1" import="0">Database Changes/Text/ko_KR/Espionage/NewEspionageText.xml</File>
-    <File md5="96B2B6D1F7C40980C4F338BDB8C54D0D" import="0">Database Changes/Text/ko_KR/Events/NewEventText.xml</File>
-    <File md5="5BA672FDC75C2FF88F6F4726D638EDD6" import="0">Database Changes/Text/ko_KR/GameOptionTextChanges.sql</File>
-	<File md5="dc3ea3f919cbaa5b8e5b5d335c9e62ca" import="0">Database Changes/Text/ko_KR/Minors/MinorTextChanges.sql</File>
-	<File md5="d3a2905508c890b3ec253d1df0a83d03" import="0">Database Changes/Text/ko_KR/Minors/NewMinorText.xml</File>
+    <File md5="C841933EEFE186625F862762297129A3" import="0">Database Changes/Text/ko_KR/Events/NewEventText.xml</File>
+    <File md5="0089D3395BB8A95657367DE416336006" import="0">Database Changes/Text/ko_KR/GameOptionTextChanges.sql</File>
+    <File md5="6558F3BA06586A1B675BE8BB3FC75195" import="0">Database Changes/Text/ko_KR/Minors/MinorTextChanges.sql</File>
+    <File md5="8BAE45F7ADFB9205AE9E97D8DE9C951F" import="0">Database Changes/Text/ko_KR/Minors/NewMinorText.xml</File>
     <File md5="F5DFD5D839B553A12FC8ED753850AA6F" import="0">Database Changes/Text/ko_KR/NewAutomateText.xml</File>
-    <File md5="98FCB97AB9D18F4B5408AF0A2F56178A" import="0">Database Changes/Text/ko_KR/NewGameOptionText.xml</File>
+    <File md5="178991F272F984B538B094EAEE51EA89" import="0">Database Changes/Text/ko_KR/NewGameOptionText.xml</File>
     <File md5="F87723F9B36853DA21FA4F709E32C689" import="0">Database Changes/Text/ko_KR/NewMapscriptText.xml</File>
-    <File md5="CC0838B7F9D50C2ECC6A9FAB609B6F08" import="0">Database Changes/Text/ko_KR/Notifications/NewNotificationText.xml</File>
-    <File md5="372386BE649966ED70F59F242A9E5029" import="0">Database Changes/Text/ko_KR/Notifications/NotificationTextChanges.sql</File>
-    <File md5="245B643212E4E351279F22BA4B478D05" import="0">Database Changes/Text/ko_KR/Policies/NewPolicyText.xml</File>
-    <File md5="A1025E0D3E8756B9C095A6004E3AFEEA" import="0">Database Changes/Text/ko_KR/Policies/PolicyTextChanges.sql</File>
-    <File md5="496E228FE914649A108F2C0B76DF8385" import="0">Database Changes/Text/ko_KR/Tech/NewTechText.xml</File>
-    <File md5="9D843DB706EEF1D7B3DD2BB03EDB1046" import="0">Database Changes/Text/ko_KR/Tech/TechTextChanges.sql</File>
+    <File md5="EDF124515B971A4CA2B37976142F2B5C" import="0">Database Changes/Text/ko_KR/Notifications/NewNotificationText.xml</File>
+    <File md5="D7A44E20C083DC84380CF4199276B467" import="0">Database Changes/Text/ko_KR/Notifications/NotificationTextChanges.sql</File>
+    <File md5="18C921FB10C1E0A9653E5EAE2D958095" import="0">Database Changes/Text/ko_KR/Policies/NewPolicyText.xml</File>
+    <File md5="59E76FE8BDB20396BD52BC70B99A1587" import="0">Database Changes/Text/ko_KR/Policies/PolicyTextChanges.sql</File>
+    <File md5="C16B9C374EC0193A0B9816054B5C0929" import="0">Database Changes/Text/ko_KR/Tech/NewTechText.xml</File>
+    <File md5="77E8B35E2F457FFDF88D4E867A175BBA" import="0">Database Changes/Text/ko_KR/Tech/TechTextChanges.sql</File>
     <File md5="6048F2549BA5E6F204D1C8F447F5CA55" import="0">Database Changes/Text/ko_KR/UI/InterfaceModeTextChanges.sql</File>
     <File md5="D218BE3F8790ADD0321A764C2B72D75A" import="0">Database Changes/Text/ko_KR/UI/NewUIText.sql</File>
-    <File md5="F666D5C771808592C5091C4C015799E5" import="0">Database Changes/Text/ko_KR/UI/NewUIText.xml</File>
-    <File md5="245D8AFB786A6938A895D642F669DEFA" import="0">Database Changes/Text/ko_KR/UI/UITextChanges.sql</File>
-    <File md5="3AC92E1DBC9078F321EC083596FDC1D8" import="0">Database Changes/Text/ko_KR/UnitPromotions/NewPromotionText.xml</File>
-    <File md5="AAD095533A40F0B5C5B8E3102B5157BB" import="0">Database Changes/Text/ko_KR/UnitPromotions/PromotionTextChanges.sql</File>
-    <File md5="83B6D1EF63621F3920C39AB6C3590278" import="0">Database Changes/Text/ko_KR/Units/MissionTextChanges.sql</File>
+    <File md5="829BA6F43ED79D425CD7FBFF82ECF17C" import="0">Database Changes/Text/ko_KR/UI/NewUIText.xml</File>
+    <File md5="025CA5B9CE8663B23FEC604BA5D52FBE" import="0">Database Changes/Text/ko_KR/UI/UITextChanges.sql</File>
+    <File md5="ED4664230A618801FD93E4FF4DA82740" import="0">Database Changes/Text/ko_KR/UnitPromotions/NewPromotionText.xml</File>
+    <File md5="A6110F4622E191B6D449E5A8FD697561" import="0">Database Changes/Text/ko_KR/UnitPromotions/PromotionTextChanges.sql</File>
+    <File md5="0ADE5EE796C59042466F5615427CB78F" import="0">Database Changes/Text/ko_KR/Units/MissionTextChanges.sql</File>
     <File md5="BB7ABA7D22D3FAAFE5466CF44F96629F" import="0">Database Changes/Text/ko_KR/Units/NewMissionText.xml</File>
-    <File md5="98EA3E7C15DD6CB11EF8119C68D94C85" import="0">Database Changes/Text/ko_KR/Units/NewUnitText.xml</File>
-    <File md5="40475D96144835BCAE3C53C683307ABB" import="0">Database Changes/Text/ko_KR/Units/UnitTextChanges.sql</File>
-    <File md5="834ED1F523EC44BA005DF4554215CA9B" import="0">Database Changes/Text/ko_KR/WorldCongress/NewProjectText.xml</File>
-    <File md5="10A4E9734E19E7B240BB1C9B7FB16114" import="0">Database Changes/Text/ko_KR/WorldCongress/NewResolutionText.xml</File>
+    <File md5="A1242A91042395D646126FF59181C22C" import="0">Database Changes/Text/ko_KR/Units/NewUnitText.xml</File>
+    <File md5="63654DEF030D74E2833C104BE7459356" import="0">Database Changes/Text/ko_KR/Units/PreUnitTextChanges.sql</File>
+    <File md5="339EB5FC76C505BE6632F10114152494" import="0">Database Changes/Text/ko_KR/Units/UnitTextChanges.sql</File>
+    <File md5="7257628BF89C347DD95F39787144C3B4" import="0">Database Changes/Text/ko_KR/WorldCongress/NewProjectText.xml</File>
+    <File md5="403D3A07768644E10410511D139FF072" import="0">Database Changes/Text/ko_KR/WorldCongress/NewResolutionText.xml</File>
     <File md5="DB1B39788D686FE892B4B2C85D5084EA" import="0">Database Changes/Text/ko_KR/WorldCongress/ProjectTextChanges.sql</File>
-    <File md5="4DABE8523B3A00A63377C1DC6950D51D" import="0">Database Changes/Text/ko_KR/WorldCongress/ResolutionTextChanges.sql</File>
+    <File md5="BA8502F75770CFDF1CFA522E95FCF545" import="0">Database Changes/Text/ko_KR/WorldCongress/ResolutionTextChanges.sql</File>
     <File md5="6962B9D92AE428BA1C43BEE7DB7FE04C" import="0">Database Changes/Text/ko_KR/WorldCongress/SpecialSessionTextChanges.sql</File>
-    <File md5="228C63FC873C1D137E17C6BFC57DC194" import="0">Database Changes/Text/ko_KR/WorldMap/FeatureTextChanges.sql</File>
+    <File md5="7201742B348769409A8770DF1CDAEE2B" import="0">Database Changes/Text/ko_KR/WorldMap/FeatureTextChanges.sql</File>
     <File md5="3F4F20A875E94BB541AF69FB97CA1427" import="0">Database Changes/Text/ko_KR/WorldMap/ImprovementTextChanges.sql</File>
     <File md5="597AADD7D957CAA61138688B14512C57" import="0">Database Changes/Text/ko_KR/WorldMap/NewFeatureText.xml</File>
-    <File md5="EFE2EA8957FF910725E409C3686BFA47" import="0">Database Changes/Text/ko_KR/WorldMap/NewGoodyHutText.xml</File>
-    <File md5="FA21677AB57AA8CB1F58BF9E7DC06441" import="0">Database Changes/Text/ko_KR/WorldMap/NewImprovementText.xml</File>
-    <File md5="F785087E7CB298BAE9A3A72AD04CB973" import="0">Database Changes/Text/ko_KR/WorldMap/NewResourceText.xml</File>
+    <File md5="5F0319294DB812A320F07A7BBEE09928" import="0">Database Changes/Text/ko_KR/WorldMap/NewGoodyHutText.xml</File>
+    <File md5="C5DA2F82156941361931DF82A6314128" import="0">Database Changes/Text/ko_KR/WorldMap/NewImprovementText.xml</File>
+    <File md5="CCC234607860466F212D5E38059F064C" import="0">Database Changes/Text/ko_KR/WorldMap/NewResourceText.xml</File>
     <File md5="898EACBF8051D95162754B5A7C3C3233" import="0">Database Changes/Text/ko_KR/WorldMap/ResourceTextChanges.sql</File>
     <File md5="F5F087DF969F29786A16FA6E59B60BFF" import="0">Database Changes/Text/ko_KR/WorldMap/RouteTextChanges.sql</File>
   </Files>
@@ -98,6 +100,7 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/City/NewProcessText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/City/NewProjectText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/City/NewSpecialistText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/City/PreBuildingTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/City/ProcessTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/City/ProjectTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/City/SpecialistTextChanges.sql</UpdateDatabase>
@@ -109,8 +112,8 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/Difficulty/DifficultyTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Espionage/NewEspionageText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Events/NewEventText.xml</UpdateDatabase>
-	  <UpdateDatabase>Database Changes/Text/ko_KR/Minors/MinorTextChanges.sql</UpdateDatabase>
-	  <UpdateDatabase>Database Changes/Text/ko_KR/Minors/NewMinorText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Minors/MinorTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Minors/NewMinorText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Notifications/NewNotificationText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Notifications/NotificationTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Policies/NewPolicyText.xml</UpdateDatabase>
@@ -126,6 +129,7 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/MissionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/NewMissionText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/NewUnitText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/Units/PreUnitTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/UnitTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldCongress/NewProjectText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldCongress/NewResolutionText.xml</UpdateDatabase>
