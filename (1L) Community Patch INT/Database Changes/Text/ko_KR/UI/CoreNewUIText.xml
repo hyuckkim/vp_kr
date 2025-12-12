@@ -2370,13 +2370,13 @@
 
 		<!-- Religion overview -->
 		<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
-			<Text>Cities</Text>
+			<Text>도시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
-			<Text>Followers</Text>
+			<Text>추종자</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_YEAR_FOUNDED">
-			<Text>Founded</Text>
+			<Text>창설됨</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_WR_OWNED_CITIES">
 			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of all Cities follows {2_Name}.[NEWLINE][NEWLINE]{3_Num} of your Cities have {4_Name} as the [ICON_RELIGION] Majority Religion. They account for [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] of the Majority Religion of your Cities. These cities also accounts for [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] of {7_Name}'s majority presence.</Text>
@@ -2385,22 +2385,22 @@
 			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] of the World's Population follows {2_Name}.[NEWLINE][NEWLINE]{3_Num} of your [ICON_CITIZEN] Population follows {4_Name}. They make up [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR] of your [ICON_CITIZEN] Population. They also make up for [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] of {7_Name}'s followers.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_TAB_MAP">
-			<Text>Map</Text>
+			<Text>지도</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET_PARAM">
 			<Text>{1_UNITCLASS_PROPHET}를 위해 모으기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_DISABLE_AUTO_PURCHASE">
-			<Text>Notify Only</Text>
+			<Text>알림 전용</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_DISABLE_AUTO_PURCHASE_TT">
-			<Text>When checked, religious units and buildings will not be purchased automatically. Instead, you will receive a notification when enough Faith has been collected.</Text>
+			<Text>이 설정을 선택하면 종교 관련 유닛과 건물이 자동으로 구매되지 않습니다. 대신, 충분한 신앙이 모이면 알림을 받게 됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_FAITH_PURCHASE_AVAILABLE">
-			<Text>You have collected enough Faith to buy {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_Name}}.</Text>
+			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_Name}{1: plural 1?을; 2?을;}} 구매할 수 있을 만큼 충분한 신앙을 모았습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FAITH_PURCHASE_AVAILABLE">
-			<Text>Faith Purchase available</Text>
+			<Text>신앙 구매 가능</Text>
 		</Row>
 
 		<!-- Espionage overview -->
