@@ -40,6 +40,11 @@ SET Text = 'Unique Assyrian replacement for the {TXT_KEY_BUILDING_NATIONAL_COLLE
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY';
 
 UPDATE Language_en_US
+SET Text = 'Possible Theming Bonuses:
+  [NEWLINE][ICON_BULLET] +6 [ICON_CULTURE] and [ICON_TOURISM] for three [COLOR_POSITIVE_TEXT]Foreign[ENDCOLOR] [ICON_GW_WRITING].'
+WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP';
+
+UPDATE Language_en_US
 SET Text = 'The {TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER} is the Assyrian unique unit.[NEWLINE][NEWLINE]If adjacent to a City, the {TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER} confers a huge combat bonus to all owned units also attacking the City. If it is two tiles away from the City, all owned units attacking the City receive half of this bonus. It can see further, and nearby units heal at a faster rate. It cannot attack or defend itself, so protect it at all costs! Complement a {TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER} with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly.[NEWLINE][NEWLINE]Does not obsolete. You cannot have more than 2 active Siege Towers at one time.'
 WHERE Tag = 'TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY';
 
@@ -387,7 +392,7 @@ SET Text = 'Pata-Pata'
 WHERE Tag = 'TXT_KEY_IMPROVEMENT_TERRACE_FARM';
 
 UPDATE Language_en_US
-SET Text = 'Can only be built on Hill. +1 [ICON_FOOD] Food for each adjacent Mountain or {TXT_KEY_IMPROVEMENT_TERRACE_FARM}. All adjacent Farms gain +1 [ICON_FOOD] Food.'
+SET Text = 'Can only be built on Hill. +1 [ICON_FOOD] Food for every two adjacent tiles with a Mountain, a Farm, a Pata-Pata or a Manufactory. Farms get +1 [ICON_FOOD] Food per 2 adjacent Farms or Pata-Pata.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP';
 
 UPDATE Language_en_US

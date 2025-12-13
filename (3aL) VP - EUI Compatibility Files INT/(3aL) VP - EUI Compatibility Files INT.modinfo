@@ -20,11 +20,11 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="147" maxversion="999" title="Community Patch" />
-    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="Vox Populi" />
-    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="1" maxversion="999" title="VP - EUI Compatibility Files" />
-    <Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" minversion="147" maxversion="999" title="Community Patch Localized" />
-    <Mod id="564564cb-3972-4c03-b355-ff551b703f5d" minversion="17" maxversion="999" title="Vox Populi Localized" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Vox Populi" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="VP - EUI Compatibility Files" />
+    <Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" minversion="0" maxversion="999" title="Community Patch Localized" />
+    <Mod id="564564cb-3972-4c03-b355-ff551b703f5d" minversion="0" maxversion="999" title="Vox Populi Localized" />
   </Dependencies>
   <References />
   <Blocks />

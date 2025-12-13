@@ -70,25 +70,25 @@
 			<Text>하늘로부터 온 선물은 분할하여 사제들에게 나눠줘야 한다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_2_HELP">
-			<Text>모든 성소에서 [ICON_PEACE]신앙 +1.</Text>
+			<Text>모든 성소에서 [ICON_PEACE] 신앙 +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_3">
 			<Text>장식을 새겨서 내 옥좌 앞에 둬라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_3_HELP">
-			<Text>궁전에서 [ICON_CULTURE]문화 +2.</Text>
+			<Text>궁전에서 [ICON_CULTURE] 문화 +2.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_4">
 			<Text>연구를 위해 대학에 기증해라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_4_HELP">
-			<Text>모든 대학에서 [ICON_RESEARCH]과학 +1.</Text>
+			<Text>모든 대학에서 [ICON_RESEARCH] 과학 +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_5">
 			<Text>박물관에 기증하라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_5_HELP">
-			<Text>모든 박물관에서 [ICON_CULTURE]문화 +1.</Text>
+			<Text>모든 박물관에서 [ICON_CULTURE] 문화 +1.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_DESCRIPTION">
@@ -327,7 +327,7 @@
 			<Text>수입품에 높은 관세를 부과하라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_2_HELP">
-			<Text>모든 시장에서 [ICON_GOLD]골드 +1.</Text>
+			<Text>모든 시장에서 [ICON_GOLD] 골드 +1.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT">
@@ -340,19 +340,19 @@
 			<Text>기념비를 바쳐 우리의 풍요를 기원하라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_1_HELP">
-			<Text>모든 기념비에서 [ICON_FOOD]식량 +1.</Text>
+			<Text>모든 기념비에서 [ICON_FOOD] 식량 +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_2">
 			<Text>지금 중요한 건 신들이다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_2_HELP">
-			<Text>모든 기념비에서 [ICON_PEACE]신앙 +1.</Text>
+			<Text>모든 기념비에서 [ICON_PEACE] 신앙 +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_3">
 			<Text>어느 것도 충분치 않다. 기념비는 수익을 올려야 한다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_3_HELP">
-			<Text>모든 기념비에서 [ICON_GOLD]골드 +1.</Text>
+			<Text>모든 기념비에서 [ICON_GOLD] 골드 +1.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_DESCRIPTION">
@@ -383,7 +383,7 @@
 			<Text>신의 뜻에 따라 성직자들이다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_4_HELP">
-			<Text>모든 성에서 [ICON_PEACE]신앙 +1.</Text>
+			<Text>모든 성에서 [ICON_PEACE] 신앙 +1.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_DESCRIPTION">
@@ -408,7 +408,7 @@
 			<Text>신학 교육이 가장 큰 도움이 될 것이다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_3_HELP">
-			<Text>모든 대학에서 [ICON_PEACE]신앙 +1.</Text>
+			<Text>모든 대학에서 [ICON_PEACE] 신앙 +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_4">
 			<Text>군사 교육이 가장 중요하다.</Text>
@@ -768,25 +768,25 @@
 			<Text>잘 가게.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_1_HELP">
-			<Text>도시의 [ICON_CITIZEN]시민 -1, {2_InstantYield}. 도시가 2턴 동안 [ICON_RESISTANCE]저항합니다.</Text>
+			<Text>도시의 [ICON_CITIZEN] 시민 -1, {2_InstantYield}. 도시가 2턴 동안 [ICON_RESISTANCE] 저항합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_2">
 			<Text>그들을 들여라. 다만 비용을 내야 한다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_2_HELP">
-			<Text>사원에서 [ICON_GOLD]골드 +2, [ICON_PEACE]신앙 +1. 도시의 [ICON_HAPPINESS_1]행복 -1.</Text>
+			<Text>사원에서 [ICON_GOLD] 골드 +2, [ICON_PEACE] 신앙 +1. 도시의 [ICON_HAPPINESS_1] 행복 -1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3">
 			<Text>불신자들을 거부해라.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_HELP">
-			<Text>50% 확률로 사원이 파괴될 것입니다. 그 결과 도시의 [ICON_PEACE]신앙 +1, [ICON_HAPPINESS_1]행복 +1.</Text>
+			<Text>50% 확률로 사원이 파괴될 것입니다. 그 결과 도시의 [ICON_PEACE] 신앙 +1, [ICON_HAPPINESS_1] 행복 +1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL_S">
 			<Text>{2_City}의 사원이 파괴되었습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL">
-			<Text>{2_City}에서 불신자들이 항의의 표시로 사원을 불태웠습니다. 하지만 당신의 시민들은 흔들리지 않았습니다. 도시의 [ICON_HAPPINESS_1]행복 +1, {5_Help}</Text>
+			<Text>{2_City}에서 불신자들이 항의의 표시로 사원을 불태웠습니다. 하지만 당신의 시민들은 흔들리지 않았습니다. 도시의 [ICON_HAPPINESS_1] 행복 +1, {5_Help}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4">

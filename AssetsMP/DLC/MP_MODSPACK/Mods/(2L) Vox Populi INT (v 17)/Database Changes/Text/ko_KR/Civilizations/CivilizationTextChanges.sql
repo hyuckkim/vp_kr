@@ -40,6 +40,11 @@ SET Text = '{TXT_KEY_BUILDING_NATIONAL_COLLEGE}을 대체하는 아라비아의 
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY';
 
 UPDATE Language_ko_KR
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]외국 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 3개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP';
+
+UPDATE Language_ko_KR
 SET Text = '{TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER}의 고유 지원 유닛입니다. [NEWLINE][NEWLINE]{TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER}이 도시에 인접한다면, 모든 유닛이 도시를 공격할 때 강력한 전투력 보너스를 얻습니다. 도시에서 두 타일 떨어져 있다면 이 효과는 절반이 됩니다. 또한 이 유닛은 더욱 멀리 볼 수 있고, 주변 유닛의 회복을 빠르게 합니다. [COLOR_NEGATIVE_TEXT]하지만 스스로를 보호할 수 없습니다.[ENDCOLOR] 온 힘을 다해 공성탑을 보호하십시오! {TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER}을 근거리 또는 원거리 유닛으로 보호하며 목표물에 도달하십시오. 도시가 더욱 빨리 함락될 것입니다.[NEWLINE][NEWLINE]이 유닛은 퇴보되지 않습니다. 한 번에 둘을 넘는 공성탑을 가질 수 없습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY';
 
@@ -62,7 +67,7 @@ WHERE Tag = 'TXT_KEY_UNIT_AUSTRIAN_HUSSAR_STRATEGY';
 -- Aztecs
 --------------------
 UPDATE Language_ko_KR
-SET Text = '적 유닛을 처치할 때 [ICON_STRENGTH] 전투력의 150%만큼 [ICON_PEACE]신앙 및 [ICON_GOLD]골드를 제공합니다. 유리한 [COLOR_POSITIVE_TEXT]평화 조약[ENDCOLOR]을 맺으면 (전쟁 점수 25+) [ICON_GOLDEN_AGE]황금기를 맞이합니다.'
+SET Text = '적 유닛을 처치할 때 [ICON_STRENGTH] 전투력의 150%만큼 [ICON_PEACE] 신앙 및 [ICON_GOLD] 골드를 제공합니다. 유리한 [COLOR_POSITIVE_TEXT]평화 조약[ENDCOLOR]을 맺으면 (전쟁 점수 25+) [ICON_GOLDEN_AGE] 황금기를 맞이합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CULTURE_FROM_KILLS';
 
 UPDATE Language_ko_KR
@@ -111,7 +116,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_TEXT';
 -- Byzantium
 --------------------
 UPDATE Language_ko_KR
-SET Text = '무조건 [ICON_RELIGION]종교를 창시할 수 있습니다. 종교를 창시할 때 교리를 [COLOR_POSITIVE_TEXT]한 개[ENDCOLOR] 더 고를 수 있으며 다른 문명의 [ICON_RELIGION]종교 교리 중에서도 고를 수 있습니다. [ICON_PEACE]신앙으로 구매하는 비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소하고 고전 시대부터 [ICON_PEACE]신앙으로 [ICON_GREAT_PEOPLE]위인을 구매할 수 있습니다.'
+SET Text = '무조건 [ICON_RELIGION] 종교를 창시할 수 있습니다. 종교를 창시할 때 교리를 [COLOR_POSITIVE_TEXT]한 개[ENDCOLOR] 더 고를 수 있으며 다른 문명의 [ICON_RELIGION] 종교 교리 중에서도 고를 수 있습니다. [ICON_PEACE] 신앙으로 구매하는 비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소하고 고전 시대부터 [ICON_PEACE] 신앙으로 [ICON_GREAT_PEOPLE] 위인을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_BELIEF';
 
 UPDATE Language_ko_KR
@@ -149,7 +154,7 @@ WHERE Tag = 'TXT_KEY_CIV5_CARTHAGINIAN_FOREST_ELEPHANT_TEXT';
 -- Celts
 --------------------
 UPDATE Language_ko_KR
-SET Text = '다른 누구도 혜택을 받을 수 없는 고유의 [COLOR_POSITIVE_TEXT]종교관[ENDCOLOR]을 선택할 수 있습니다. 당신 문명의 [ICON_RELIGION_PANTHEON]종교관 또는 [ICON_RELIGION]종교를 따르는 도시는 다른 종교의 [COLOR_POSITIVE_TEXT]압력[ENDCOLOR]을 받지도 제공하지도 않고, [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
+SET Text = '다른 누구도 혜택을 받을 수 없는 고유의 [COLOR_POSITIVE_TEXT]종교관[ENDCOLOR]을 선택할 수 있습니다. 당신 문명의 [ICON_RELIGION_PANTHEON] 종교관 또는 [ICON_RELIGION] 종교를 따르는 도시는 다른 종교의 [COLOR_POSITIVE_TEXT]압력[ENDCOLOR]을 받지도 제공하지도 않고, [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_FAITH_FROM_NATURE';
 
 UPDATE Language_ko_KR
@@ -379,7 +384,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 -- Inca
 --------------------
 UPDATE Language_ko_KR
-SET Text = '언덕이 포함된 모든 지형의 유닛 이동 페널티를 무시하고 산 타일로 이동할 수 있습니다. 산 타일에 도시/도로/철도를 건설할 수 있고 산 타일의 [ICON_PRODUCTION] 생산력, [ICON_GOLD]골드, [ICON_RESEARCH]과학이 증가합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]'
+SET Text = '언덕이 포함된 모든 지형의 유닛 이동 페널티를 무시하고 산 타일로 이동할 수 있습니다. 산 타일에 도시/도로/철도를 건설할 수 있고 산 타일의 [ICON_PRODUCTION] 생산력, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학이 증가합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD';
 
 UPDATE Language_ko_KR
@@ -387,7 +392,7 @@ SET Text = '파타파타'
 WHERE Tag = 'TXT_KEY_IMPROVEMENT_TERRACE_FARM';
 
 UPDATE Language_ko_KR
-SET Text = '언덕 위에만 건설할 수 있으며 인접한 산 또는 {TXT_KEY_IMPROVEMENT_TERRACE_FARM}마다 [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 인접한 모든 농장의 [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '언덕 위에만 건설할 수 있습니다. 산, 농장, 파타파타 또는 제조소가 있는 인접한 두 타일마다 [ICON_FOOD] 식량 +1이 추가됩니다. 농장은 인접한 농장 2개 또는 파타파타 1개당 [ICON_FOOD] 식량 +1을 추가로 얻습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP';
 
 UPDATE Language_ko_KR
@@ -429,7 +434,7 @@ SET Text = '팔라파 맹세'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 출현합니다. [[ICON_MONOPOLY]] 글로벌 독점 기업의 고유한 [ICON_GOLDEN_AGE] 산출량과 [ICON_GOLDEN_AGE] 황금기 지속 시간 수정치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 산출량과 [ICON_HAPPINESS_1] 행복도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 출현합니다. [ICON_MONOPOLY] 글로벌 독점 기업의 고유한 [ICON_GOLDEN_AGE] 산출량과 [ICON_GOLDEN_AGE] 황금기 지속 시간 수정치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 산출량과 [ICON_HAPPINESS_1] 행복도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE';
 
 UPDATE Language_ko_KR
@@ -702,7 +707,7 @@ SET Text = '이상을 향해서'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '타일을 획득하면 [ICON_GOLD]골드가 10, [ICON_PEACE]신앙이 4 증가합니다. 새로 설립한 도시가 [ICON_CAPITAL] 수도의 대중 종교를 믿습니다. [ICON_PEACE]신앙으로 해상 유닛을 구매할 수 있습니다.'
+SET Text = '타일을 획득하면 [ICON_GOLD] 골드가 10, [ICON_PEACE] 신앙이 4 증가합니다. 새로 설립한 도시가 [ICON_CAPITAL] 수도의 대중 종교를 믿습니다. [ICON_PEACE] 신앙으로 해상 유닛을 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES';
 
 UPDATE Language_ko_KR

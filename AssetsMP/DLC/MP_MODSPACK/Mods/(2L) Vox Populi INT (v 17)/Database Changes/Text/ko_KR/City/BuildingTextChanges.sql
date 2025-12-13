@@ -306,17 +306,17 @@ WHERE Tag = 'TXT_KEY_BUILDING_UNITED_NATIONS_STRATEGY';
 
 -- Cathedral
 UPDATE Language_ko_KR
-SET Text = '대성당 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 빈곤을 감소시키고 농장과 목장의 [ICON_GOLD] 골드를 증가시킵니다. 국경이 확장될 때 [ICON_GOLD] 골드를 제공합니다.'
+SET Text = '대성당 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE] 신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 빈곤을 감소시키고 농장과 목장의 [ICON_GOLD] 골드를 증가시킵니다. 국경이 확장될 때 [ICON_GOLD] 골드를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CATHEDRAL_STRATEGY';
 
 -- Mosque
 UPDATE Language_ko_KR
-SET Text = '모스크 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 문맹을 감소시키고 [ICON_GOLDEN_AGE] 황금기 동안 문화를 제공합니다.'
+SET Text = '모스크 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE] 신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 문맹을 감소시키고 [ICON_GOLDEN_AGE] 황금기 동안 문화를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_STRATEGY';
 
 -- Pagoda
 UPDATE Language_ko_KR
-SET Text = '파고다 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 무료를 감소시키고 도시의 종교의 수에 따라 추가 산출을 제공합니다.'
+SET Text = '파고다 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE] 신앙으로 구매해 건설할 수 있습니다. [ICON_HAPPINESS_3] 무료를 감소시키고 도시의 종교의 수에 따라 추가 산출을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_PAGODA_STRATEGY';
 
 -- Corporation franchises
@@ -349,6 +349,72 @@ SET Text = '{TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS}'
 WHERE Tag = 'TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP';
 
 -- Theming bonuses
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4를 얻습니다.
+  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4를 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [ICON_GW_MUSIC] 걸작 음악에서 [ICON_CULTURE] 문화 +14, [ICON_TOURISM] 관광 +14를 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]같은 문명[ENDCOLOR]의 [ICON_GW_MUSIC] 걸작 음악 3개에서 [ICON_CULTURE] 문화 +25, [ICON_TOURISM] 관광 +25를 얻습니다.'
+WHERE Tag = 'TXT_KEY_WONDER_BROADWAY_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]같은 문명[ENDCOLOR]의 [ICON_GW_WRITING] 걸작 문학 3개에서 [ICON_CULTURE] 문화 +10, [ICON_TOURISM] 관광 +10을 얻습니다.'
+WHERE Tag = 'TXT_KEY_WONDER_GLOBE_THEATER_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]다른 시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]의 [ICON_GW_WRITING] 걸작 문학 3개에서 [ICON_CULTURE] 문화 +10, [ICON_TOURISM] 관광 +10을 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_GREAT_LIBRARY_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]다른 시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품 3개에서 [ICON_CULTURE] 문화 +15, [ICON_TOURISM] 관광 +15를 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]다른 시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품 2개, [ICON_ARTIFACT] 유물 2개에서 [ICON_CULTURE] 문화 +15, [ICON_TOURISM] 관광 +15를 얻습니다.'
+WHERE Tag = 'TXT_KEY_WONDER_LOUVRE_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품 2개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_ARTIFACT] 유물 2개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품과 [ICON_ARTIFACT] 유물 한 쌍에서 [ICON_CULTURE] 문화 +5, [ICON_TOURISM] 관광 +5를 얻습니다.
+  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품 2개에서 [ICON_CULTURE] 문화 +5, [ICON_TOURISM] 관광 +5를 얻습니다.
+  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_ARTIFACT] 유물 2개에서 [ICON_CULTURE] 문화 +5, [ICON_TOURISM] 관광 +5를 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_MUSEUM_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]다른 시대[ENDCOLOR]의 [COLOR_POSITIVE_TEXT]해외 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 2개에서 [ICON_CULTURE] 문화 +10, [ICON_TOURISM] 관광 +10을 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]같은 문명[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품 2개에서 [ICON_CULTURE] 문화 +15, [ICON_TOURISM] 관광 +15를 얻습니다.'
+WHERE Tag = 'TXT_KEY_WONDER_SISTINE_CHAPEL_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]다른 시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]같은 문명[ENDCOLOR]의 [ICON_GW_MUSIC] 걸작 음악 2개에서 [ICON_CULTURE] 문화 +25, [ICON_TOURISM] 관광 +25를 얻습니다.'
+WHERE Tag = 'TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP';
+
+UPDATE Language_ko_KR 
+SET Text = '가능한 테마 보너스:
+  [NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]같은 문명[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품 3개에서 [ICON_CULTURE] 문화 +15, [ICON_TOURISM] 관광 +15를 얻습니다.'
+WHERE Tag = 'TXT_KEY_WONDER_UFFIZI_HELP';
+
+-- Theming bonus flavor text
 UPDATE Language_ko_KR
 SET Text = '{2_CivAdjective} {1_EraAdjective} 시대 박물관'
 WHERE Tag = 'TXT_KEY_THEMING_BONUS_MUSEUM_5';

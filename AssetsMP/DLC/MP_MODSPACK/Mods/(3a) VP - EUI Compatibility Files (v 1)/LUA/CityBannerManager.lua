@@ -220,10 +220,7 @@ local g_cityToolTips = {
 
 				local cultureStored = city:GetJONSCultureStoredTimes100() / 100
 				local cultureNeeded = city:GetJONSCultureThreshold()
-				local culturePerTurn = city:GetYieldRateTimes100(YieldTypes.YIELD_CULTURE) / 100
-				local borderGrowthRate = culturePerTurn + city:GetBaseYieldRateTimes100(YieldTypes.YIELD_CULTURE_LOCAL) / 100
-				local borderGrowthRateIncrease = city:GetBorderGrowthRateIncreaseTotal()
-				borderGrowthRate = math_floor(borderGrowthRate * (100 + borderGrowthRateIncrease) / 100)
+				local borderGrowthRate = city:GetYieldRateTimes100(YieldTypes.YIELD_CULTURE_LOCAL) / 100
 
 				local turnsRemaining
 				if borderGrowthRate > 0 then
@@ -435,9 +432,9 @@ local g_cityToolTips = {
 			if weLoveTheKingDayCounter > 0 then
 				--- CBP
 				if(cityOwner:IsGPWLTKD()) then
-					return L( "TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA", weLoveTheKingDayCounter );
+					return L( "TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_1", weLoveTheKingDayCounter );
 				elseif(cityOwner:IsCarnaval())then
-					return L( "TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_CARNAVAL", weLoveTheKingDayCounter );
+					return L( "TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_2", weLoveTheKingDayCounter );
 				else
 				-- END
 					return L( "TXT_KEY_CITYVIEW_WLTKD_COUNTER", weLoveTheKingDayCounter )

@@ -685,14 +685,14 @@
 			<Text>프로크세노스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PROXENOS_HELP">
-			<Text>+2 [ICON_GOLD] Gold to [COLOR_YIELD_FOOD]{TXT_KEY_BUILDING_PARTHENON}[ENDCOLOR] when this Unit completes a [ICON_INFLUENCE] Diplomatic Mission.</Text>
+			<Text>이 유닛이 [ICON_INFLUENCE] 외교 임무를 완료하면 [COLOR_YIELD_FOOD]{TXT_KEY_BUILDING_PARTHENON}[ENDCOLOR]에 [ICON_GOLD] 골드 +2를 추가합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AGE_OF_DISCOVERY">
 			<Text>대항해시대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AGE_OF_DISCOVERY_HELP">
-			<Text>Gain 1 [ICON_GOLD] Gold and 0.1 XP when revealing a tile.[NEWLINE]This value is multiplied by 12 for Natural Wonders, 4 for {TXT_KEY_IMPROVEMENT_GOODY_HUT}, and 3 for Resources.[NEWLINE]Can claim [COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_GOODY_HUT}[ENDCOLOR].</Text>
+			<Text>타일을 공개할 때마다 [ICON_GOLD] 골드 1과 경험치 0.1을 얻습니다.[NEWLINE]이 값은 자연 경관의 경우 12, {TXT_KEY_IMPROVEMENT_GOODY_HUT}의 경우 4, 자원의 경우 3을 곱합니다.[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_GOODY_HUT}[ENDCOLOR]을 얻습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_VENETIAN_CRAFTSMANSHIP">
@@ -1201,7 +1201,7 @@
 			<Text>마인베르퍼</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MINENWERFER_HELP">
-			<Text>[COLOR_NEGATIVE_TEXT]요새화된 유닛[ENDCOLOR] 공격시 [ICON_STRENGTH] 전투력 +50% 증가[NEWLINE]적 유닛을 무찌르면 타일에 있는 모든 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]를 [ICON_RAZING] 약탈합니다.</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]요새화된 유닛[ENDCOLOR] 공격시 [ICON_STRENGTH] 전투력 +50% 증가[NEWLINE]적 유닛을 물리치면 타일에 있는 모든 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]를 [ICON_RAZING] 약탈합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TROMMELFEUER">
@@ -1236,7 +1236,7 @@
 			<Text>서사시</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EPIC_HELP">
-			<Text>적을 무찌를 시 경험치 5 획득[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드시 소실[ENDCOLOR]</Text>
+			<Text>적을 물리칠 시 경험치 5 획득[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드시 소실[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DHANURVIDYA">

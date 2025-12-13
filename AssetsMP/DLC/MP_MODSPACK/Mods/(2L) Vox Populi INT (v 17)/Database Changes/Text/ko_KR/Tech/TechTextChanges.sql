@@ -191,7 +191,7 @@ WHERE Tag = 'TXT_KEY_TECH_MATHEMATICS_HELP';
 
 -- Philosophy
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_PEACE]신앙 산출량을 증가시키는 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]을 건설할 수 있고 점령한 도시의 [ICON_HAPPINESS_4]불행을 줄여주는 [COLOR_POSITIVE_TEXT]법원[ENDCOLOR]을 건설할 수 있습니다.'
+SET Text = '도시의 [ICON_PEACE] 신앙 산출량을 증가시키는 [COLOR_POSITIVE_TEXT]사원[ENDCOLOR]을 건설할 수 있고 점령한 도시의 [ICON_HAPPINESS_4] 불행을 줄여주는 [COLOR_POSITIVE_TEXT]법원[ENDCOLOR]을 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_PHILOSOPHY_HELP';
 
 -- Railroad
