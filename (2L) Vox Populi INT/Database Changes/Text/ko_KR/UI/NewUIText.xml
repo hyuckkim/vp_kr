@@ -1585,13 +1585,13 @@
 
 		<!-- Buildings -->
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_NEED">
-			<Text>{1: number "'+'##;'-'##"}% 전환율 and {1: number "'-'##;'+'##"}% {2_Yields} 중앙값 수정자 from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% {2_Yields} Median Modifier from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_DISTRESS">
-			<Text>{1: number "'+'##;'-'##"}% 전환율 and {1: number "'-'##;'+'##"}% [ICON_FOOD]/[ICON_PRODUCTION] Basic Needs 중앙값 수정자 from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% [ICON_FOOD]/[ICON_PRODUCTION] Basic Needs Median Modifier from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_RELIGIOUS_UNREST">
-			<Text>{1: number "'+'##;'-'##"}% 전환율 and {1: number "'-'##;'+'##"}% 종교 분쟁 from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% Religious Unrest from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MEDIAN_CHANGES">
 			<Text>예상 수요 중간값 변화:</Text>
