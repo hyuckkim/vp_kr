@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING">
+			<Text>기술 거래 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING_HELP">
+			<Text>문명 간의 기술 거래를 비활성화합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS">
+			<Text>연구 협정 가능</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS_HELP">
+			<Text>다른 문명과 연구 협정을 체결할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING">
+			<Text>기술 중개 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP">
+			<Text>거래를 통해 얻은 기술을 다른 문명에게 팔 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE">
+			<Text>종속국 협정 없음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VASSALAGE_HELP">
+			<Text>종속국 시스템을 비활성화합니다. 종속국이 만들어질 수 없습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE">
+			<Text>소극적인 스파이</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE_HELP">
+			<Text>고급 첩보 임무가 비활성화됩니다</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

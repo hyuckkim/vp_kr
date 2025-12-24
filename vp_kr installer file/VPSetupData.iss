@@ -2,7 +2,7 @@
 ; INNO SETUP 스크립트 파일을 만드는 방법에 대한 자세한 내용은 설명서를 참조하세요!
 
 #define MyAppName "VP 한국어"
-#define MyAppVersion "5.0"
+#define MyAppVersion "5.0.1"
 #define MyAppPublisher "HANDANI"
 #define MyAppURL "https://github.com/handanikr/vp_kr"
 
@@ -24,10 +24,10 @@ VersionInfoDescription={#MyAppName}
 VersionInfoProductName={#MyAppName}
 VersionInfoProductVersion={#MyAppVersion}
 VersionInfoCopyright=2025
-LicenseFile=License.rtf
-InfoBeforeFile=Opener.rtf
 OutputBaseFilename={#MyAppName} ({#MyAppVersion})
 DefaultDirName={userdocs}\My Games\Sid Meier's Civilization 5\
+LicenseFile=License.rtf
+InfoBeforeFile=Opener.rtf
 SetupIconFile=installer.ico
 WizardImageStretch=no
 Compression=lzma2
@@ -89,24 +89,41 @@ var
 procedure CurPageChanged(CurPageID: Integer);
 begin
   if CurPageID = wpFinished then
-    WizardForm.FinishedLabel.Caption := '설치 프로그램이 컴퓨터에 Vox Populi 한국어 모드 설치를 완료했습니다. 모드를 실행하려면 문명 5를 열고 모드 메뉴에서 설치된 모든 모드를 활성화한 후 ''다음''을 클릭합니다(''뒤로''를 클릭하지 마세요). 즐거운 시간 되세요!';
+  begin
+    if WizardIsComponentSelected('Uninstall') then
+    begin
+      WizardForm.FinishedLabel.Caption := '제거 완료';
+    end
+    else
+    begin
+      WizardForm.FinishedLabel.Caption := '설치 프로그램이 컴퓨터에 Vox Populi 한국어 모드 설치를 완료했습니다. 모드를 실행하려면 문명 5를 열고 모드 메뉴에서 설치된 모든 모드를 활성화한 후 ''다음''을 클릭합니다(''뒤로''를 클릭하지 마세요). 즐거운 시간 되세요!';
+    end;
+  end; 
 end;
 
 procedure InitializeWizard;
-
 begin
   // DLC 경로 페이지 만들기
 
   CIVDirPage := CreateInputDirPage(wpSelectComponents,
-    '문명 5 폴더를 선택하세요.', 'UI 파일은 어디에 설치해야 합니까?',
+    '문명 5 폴더를 선택하세요.', '',
     '문명 5 설치 폴더를 선택한 후 "다음"을 클릭합니다. 설치 프로그램이 기본적으로 폴더를 선택하지 않으면 "찾아보기"를 클릭하고 올바른 폴더를 선택하세요. 찾으려면 스팀에서 Sid Meier''s Civilization V를 마우스 오른쪽 버튼으로 클릭하고 "관리 >" 에서 "로컬 파일 탐색"을 선택하세요.',
     False, '');
   CIVDirPage.Add('');
 
   CIVDirPage.Values[0] := GetPreviousData('CIVDir', '');
 end;
-
+(*
+procedure RegisterPreviousData(PreviousDataKey: Integer);
+begin
+  // 선택한 폴더를 향후 재설치/업그레이드를 위해 저장합니다. //balparmak: 지금은 이것을 보관할 필요가 없습니다.
+  SetPreviousData(PreviousDataKey, 'CIVDir', CIVDirPage.Values[0]);
+end;
+ *)
 function NextButtonClick(CurPageID: Integer): Boolean;
+var
+  MissingFolders: TStringList;
+  BaseDir: string;
 begin
   // 비어 있으면 기본 폴더를 설정합니다. 게임이 기본 위치에 설치되지 않은 경우 기본 폴더를 선택하지 마세요.
   if CIVDirPage.Values[0] = '' then
@@ -115,21 +132,44 @@ begin
   Result := not (CurPageID = CIVDirPage.ID) or DirExists(CIVDirPage.Values[0] + '\Assets\DLC');
   if Result = False then
     MsgBox('문명 5 폴더로 가는 올바른 경로를 찾지 못했습니다. 폴더를 찾으려면 스팀에서 Sid Meier''s Civilization V를 마우스 오른쪽 버튼으로 클릭하고 "관리 >" 에서 "로컬 파일 탐색"을 선택하세요.', mbInformation, MB_OK)
-  else
+  else if CurPageID = CIVDirPage.ID then
   begin
-    // 필요한 DLC가 모두 설치되었는지 확인합니다.
-    Result := not (CurPageID = CIVDirPage.ID) or (DirExists(CIVDirPage.Values[0] + '\Assets\DLC\DLC_01') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\DLC_02') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\DLC_03') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\DLC_04') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\DLC_05') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\DLC_06') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\DLC_07') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\DLC_Deluxe') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\Expansion') and
-              DirExists(CIVDirPage.Values[0] + '\Assets\DLC\Expansion2')); 
-    if Result = False then
-      MsgBox('필요한 모든 DLC가 설치되어 있지 않습니다. DLC가 없으면 Vox Populi를 설치할 수 없으므로 Vox Populi 한국어 모드도 설치할 수 없습니다.', mbInformation, MB_OK);
+    // check if all required DLC are installed
+    MissingFolders := TStringList.Create;
+    BaseDir := CIVDirPage.Values[0] + '\Assets\DLC\';
+    
+    if not DirExists(BaseDir + 'DLC_01') then
+      MissingFolders.Add('문명 & 시나리오: 몽골 (칭기즈 칸)');
+    if not DirExists(BaseDir + 'DLC_02') then
+      MissingFolders.Add('더블 문명 & 시나리오: 스페인, 잉카');
+    if not DirExists(BaseDir + 'DLC_03') then
+      MissingFolders.Add('문명 & 시나리오: 폴리네시아');
+    if not DirExists(BaseDir + 'DLC_04') then
+      MissingFolders.Add('문명 & 시나리오: 덴마크 - 바이킹');
+    if not DirExists(BaseDir + 'DLC_05') then
+      MissingFolders.Add('문명 & 시나리오: 한국');
+    if not DirExists(BaseDir + 'DLC_06') then
+      MissingFolders.Add('시나리오: 고대 세계의 불가사의');
+    if not DirExists(BaseDir + 'DLC_07') then
+      MissingFolders.Add('시나리오: 신대륙 정복');
+    if not DirExists(BaseDir + 'DLC_Deluxe') then
+      MissingFolders.Add('문명: 바빌론 (네부카드네자르 2세)');
+    if not DirExists(BaseDir + 'Expansion') then
+      MissingFolders.Add('신과 왕');
+    if not DirExists(BaseDir + 'Expansion2') then
+      MissingFolders.Add('멋진 신세계');
+
+    if MissingFolders.Count > 0 then
+    begin
+      MsgBox('필수 DLC가 모두 설치되어 있지 않습니다. 다음 DLC가 누락되었습니다:' + #13#10 + #13#10 + MissingFolders.Text + #13#10 + #13#10 + 'Vox Populi는 DLC가 누락된 경우 설치할 수 없으므로 Vox Populi 한국어 모드도 설치할 수 없습니다.', mbInformation, MB_OK);
+      Result := False;
+    end
+    else
+    begin
+      Result := True;
+    end;
+
+    MissingFolders.Free;
   end;
 end;
 
@@ -142,7 +182,7 @@ begin
   S := '';
 
   S := S + MemoDirInfo + NewLine + NewLine;
-  S := S + '문명 5 위치:' + NewLine;
+  S := S + '문명 5 위치' + NewLine;
   S := S + Space + CIVDirPage.Values[0] + NewLine + NewLine;
 
   S := S + MemoComponentsInfo
@@ -153,18 +193,4 @@ function GetCIVDir(Param: String): String;
 begin
   { Return the selected CIVDir }
   Result := CIVDirPage.Values[0];
-end;
-
-function IsUI: Boolean;
-begin
-  Result := true;
-end;
-
-function ShouldSkipPage(CIVDirPageID: Integer): Boolean;
-begin
-  Result := False;
-  if CIVDirPageID = CIVDirPage.ID then
-  begin
-    Result := not IsUI;
-  end;
 end;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT">
+			<Text>외교 임무 (자동화)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_HELP">
+			<Text>모든 [COLOR_UNIT_TEXT]외교 유닛[ENDCOLOR]의 행동을 자동화 합니다. 자동화를 비활성화하기 전까지 계속해서 행동합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_DISABLED_HELP">
+			<Text>더 이상 임무를 수행할 수 있는 지역이 없습니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

@@ -801,7 +801,7 @@ g_cities = g_RibbonManager( "CityInstance", Controls.CityStack, Controls.Scrap,
 
 			elseif orderID == OrderTypes.ORDER_CREATE then
 				itemInfo = GameInfo.Projects
-				strToolTip = GetHelpTextForProject( itemID, true, city )
+				strToolTip = GetHelpTextForProject( itemID, city )
 			elseif orderID == OrderTypes.ORDER_MAINTAIN then
 				itemInfo = GameInfo.Processes
 				strToolTip = GetHelpTextForProcess( itemID, true )
@@ -2049,6 +2049,10 @@ function ActionToolTipHandler( control )
 			elseif action.Type == "MISSION_CULTURE_BOMB" and g_activePlayer:GetCultureBombTimer() > 0 then
 
 				disabledTip:insertLocalized( "TXT_KEY_MISSION_CULTURE_BOMB_DISABLED_COOLDOWN", g_activePlayer:GetCultureBombTimer() )
+
+			elseif (action.Type == "MISSION_PLUNDER_TRADE_ROUTE") then
+
+				disabledTip:insertLocalized( g_activePlayer:GetReasonPlunderTradeRouteDisabled(unit:GetID()) )
 
 			elseif action.Type == "COMMAND_DELETE" then
 				

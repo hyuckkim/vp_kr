@@ -422,115 +422,247 @@
 			<Text>{1_City}의 산출량 보너스</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH">
-			<Text>[ICON_CITIZEN]시민 탄생:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_CITIZEN] 시민 탄생:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BIRTH_SHORT">
+			<Text>시민 탄생</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BIRTH_HOLY_CITY_SHORT">
+			<Text>시민 탄생 (성도)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BAKTUN_END">
 			<Text>바'악'툰의 끝:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BAKTUN_END_SHORT">
+			<Text>바'악'툰의 끝</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_ANCIENT_RUIN">
 			<Text>고대 유적:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_ANCIENT_RUIN_SHORT">
+			<Text>고대 유적 발굴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PLUNDER_TRADE_ROUTE">
 			<Text>교역로 약탈:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_PLUNDER_TRADE_ROUTE_SHORT">
+			<Text>교역로 약탈</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_WLTKD_START">
 			<Text>국왕 경축일 시작:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_WLTKD_START_SHORT">
+			<Text>국왕 경축일 시작</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH_RETROACTIVE">
-			<Text>도시의 총 [ICON_CITIZEN]시민 :[NEWLINE]{1_YieldString}</Text>
+			<Text>도시의 총 [ICON_CITIZEN] 시민 :[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BIRTH_RETROACTIVE_SHORT">
+			<Text>시민 탄생 (소급 적용)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TECH_RETROACTIVE">
 			<Text>연구한 총 기술 수 :[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_TECH_RETROACTIVE_SHORT">
+			<Text>기술 연구 (소급 적용)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_ERA">
-			<Text>새로운 [ICON_RESEARCH]시대 진입:[NEWLINE]{1_YieldString}</Text>
+			<Text>새로운 [ICON_RESEARCH] 시대 진입:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_ERA_UNLOCK_SHORT">
+			<Text>새로운 시대 진입</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_POLICY">
-			<Text>[ICON_CULTURE]정책 채택:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_CULTURE] 정책 채택:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_POLICY_UNLOCK_SHORT">
+			<Text>정책 채택</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_INSTANT">
 			<Text>일시적 산출량:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_INSTANT_SHORT">
+			<Text>그 외 일시적 산출량</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TECH">
-			<Text>[ICON_RESEARCH]기술 연구:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_RESEARCH] 기술 연구:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_TECH_SHORT">
+			<Text>기술 연구</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CONSTRUCTION">
-			<Text>{@2_Building} 건설:[NEWLINE]{1_YieldString}</Text>
+			<Text>{@2_Building} 건물 건설:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CONSTRUCTION_SHORT">
+			<Text>건물 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CONSTRUCTION_WONDER_SHORT">
+			<Text>불가사의 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BORDERS">
-			<Text>[ICON_CULTURE]국경 확장:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_CULTURE] 국경 확장:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BORDERS_SHORT">
+			<Text>국경 확장</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PROPOSAL">
-			<Text>[ICON_INFLUENCE]제안 통과:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_INFLUENCE] 제안 통과:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_PROPOSAL_SHORT">
+			<Text>제안 통과</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_GP_USE">
-			<Text>[ICON_GREAT_PEOPLE]위인 소비:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GREAT_PEOPLE] 위인 소비:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_GP_USE_SHORT">
+			<Text>위인 소비</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_GP_BORN">
-			<Text>[ICON_GREAT_PEOPLE]위인 탄생:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GREAT_PEOPLE] 위인 탄생:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_GP_BORN_SHORT">
+			<Text>위인 탄생</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CONQUEST">
-			<Text>[ICON_VICTORY_DOMINATION]도시 정복:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_VICTORY_DOMINATION] 도시 정복:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_F_CONQUEST_SHORT">
+			<Text>도시 정복</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_VICTORY">
-			<Text>[ICON_VICTORY_DOMINATION]전투 승리:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_VICTORY_DOMINATION] 전투 승리:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_VICTORY_SHORT">
+			<Text>전투 승리</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_VICTORY_GLOBAL_SHORT">
+			<Text>전투 승리 (글로벌 산출량)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PILLAGE">
-			<Text>[ICON_RAZING]타일 약탈:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_RAZING] 타일 약탈:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_PILLAGE_SHORT">
+			<Text>타일 약탈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_PILLAGE_UNIT_SHORT">
+			<Text>타일 약탈 (특정 유닛)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_PILLAGE_GLOBAL_SHORT">
+			<Text>타일 약탈 (글로벌 산출량)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_UNIT_PRODUCTION">
-			<Text>[ICON_PRODUCTION]군사 유닛 생산:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PRODUCTION] 군사 유닛 생산:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_U_PROD_SHORT">
+			<Text>군사 유닛 생산</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PURCHASE">
-			<Text>[ICON_GOLD]유닛 또는 건물 구매:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLD] 건물 또는 유닛 구매:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_PURCHASE_SHORT">
+			<Text>건물 또는 유닛 구매</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TILE_PURCHASE">
-			<Text>[ICON_GOLD]타일 구매:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLD] 타일 구매:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_TILE_PURCHASE_SHORT">
+			<Text>타일 구매</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FOUND">
-			<Text>[ICON_GOLDEN_AGE]도시 개척:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLDEN_AGE] 도시 개척:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_FOUND_SHORT">
+			<Text>도시 개척</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TRADE_ROUTE">
-			<Text>[ICON_INTERNATIONAL_TRADE]교역로 완성:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] 교역로 완성:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_TR_END_SHORT">
+			<Text>교역로 완성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CONVERSION">
-			<Text>[ICON_RELIGION]종교 개종:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_RELIGION] 종교 개종:[NEWLINE]{1_YieldString}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_INSTANT_YIELD_GROWTH_EXTRA">
-			<Text>[ICON_CITY_STATE]도시 국가에서 산출량 전환:[NEWLINE]{1_YieldString}</Text>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CONVERSION_SHORT">
+			<Text>종교 개종</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CONVERSION_EXPO_SHORT">
+			<Text>종교 개종 (보정)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DEATH">
-			<Text>[ICON_PIRATE]군사 유닛 전멸:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PIRATE] 군사 유닛 전멸:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_DEATH_SHORT">
+			<Text>군사 유닛 전멸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BULLY">
-			<Text>[ICON_PIRATE]도시 국가 {2_MinorName}의 괴롭힘:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PIRATE] 도시 국가 {2_MinorName}의 괴롭힘:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BULLY_SHORT">
+			<Text>도시 국가의 괴롭힘</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SPREAD">
-			<Text>소유한 도시에 [ICON_RELIGION]종교 전파:[NEWLINE]{1_YieldString}</Text>
+			<Text>소유한 도시에 [ICON_RELIGION] 종교 전파:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SPREAD_SHORT">
+			<Text>종교 전파</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FOREIGN_SPREAD">
 			<Text>다른 문명의 도시에 [ICON_RELIGION]종교 전파:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_MOVEMENT">
-			<Text>[ICON_INTERNATIONAL_TRADE]교역로 이동:[NEWLINE]{1_YieldString}</Text>
+			<Text>활성화된 [ICON_INTERNATIONAL_TRADE] 교역로:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_TR_MOVEMENT_SHORT">
+			<Text>활성화된 교역로</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_MOVEMENT_IN_FOREIGN">
-			<Text>다른 문명 영토 내 [ICON_INTERNATIONAL_TRADE]교역로 이동:[NEWLINE]{1_YieldString}</Text>
+			<Text>외국 영토 내 활성화된 [ICON_INTERNATIONAL_TRADE] 교역로:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_TR_MOVEMENT_IN_FOREIGN_SHORT">
+			<Text>활성화된 교역로 (외국 영토)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SCOUTING">
-			<Text>[ICON_MOVES 탐험:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_MOVES] 탐험:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SCOUTING_SHORT">
+			<Text>타일 탐험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_LEVEL_UP">
-			<Text>[ICON_STRENGTH]{2_Unit} 레벨 업:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_STRENGTH] {2_Unit} 유닛 승급:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_LEVEL_UP_SHORT">
+			<Text>유닛 승급</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DELEGATES">
 			<Text>총 [ICON_DIPLOMAT] 대표단:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_DELEGATES_SHORT">
+			<Text>제어 가능한 세계 의회 대표단</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SPIES">
 			<Text>[ICON_SPY] 첩보 활동:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SPY_ATTACK_SHORT">
+			<Text>첩보 임무 수행</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SPY_DEFENSE_SHORT">
+			<Text>외국 스파이 검거</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SPY_IDENTIFY_SHORT">
+			<Text>외국 스파이 식별</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SPY_DEFENSE_OR_ID_SHORT">
+			<Text>외국 스파이 식별 또는 검거</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SPY_RIG_ELECTION_SHORT">
+			<Text>선거 조작</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_MINOR_QUEST">
 			<Text>[ICON_CITY_STATE] 도시 국가 {2_MinorName}의 퀘스트: ({1_Data})[NEWLINE]{2_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_MINOR_QUEST_REWARD_SHORT">
+			<Text>도시 국가 퀘스트 완료</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_HEAVY_TRIBUTE_QUEST">
 			<Text>[ICON_PIRATE] {2_MinorName}에게 공물을 요구 - 퀘스트 보상 ({1_Data}):[NEWLINE]{3_YieldString}</Text>
@@ -538,41 +670,80 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CULTURE_BOMB">
 			<Text>위인의 문화 폭탄으로 [ICON_CULTURE] 국경 확장:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CULTURE_BOMB_SHORT">
+			<Text>위대한 작가로 국경 확장</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_REMOVE_HERESY">
 			<Text>[ICON_INQUISITOR] 이단 제거:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_REMOVE_HERESY_SHORT">
+			<Text>이단 제거</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_PURCHASE">
 			<Text>[ICON_PEACE] 신앙으로 구매:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_FAITH_PURCHASE_SHORT">
+			<Text>신앙으로 건물이나 유닛 구매</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PROMOTION_OBTAINED">
-			<Text>[ICON_STRENGTH] 승급 부여:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_STRENGTH] 승급 획득:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_PROMOTION_OBTAINED_SHORT">
+			<Text>유닛 승급</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BARBARIAN_CAMP_CLEARED">
-			<Text>[ICON_VICTORY_DOMINATION] 야만인 주둔지 처치:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_VICTORY_DOMINATION] 야만인 주둔지 소탕:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_BARBARIAN_CAMP_CLEARED_SHORT">
+			<Text>야만인 주둔지 소탕</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_PRODUCTION_SIPHON">
 			<Text>[ICON_INTERNATIONAL_TRADE] 교역로와 연결된 목적지:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_TR_PRODUCTION_SIPHON_SHORT">
+			<Text>교역로를 이용한 생산량 옮기기</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_IMPROVEMENT_BUILD">
 			<Text>시설 건설:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_IMPROVEMENT_BUILD_SHORT">
+			<Text>시설 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_RESEARCH_AGREEMENT">
 			<Text>[ICON_RESEARCH] 연구 협약:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_RESEARCH_AGREMEENT_SHORT">
+			<Text>연구 협약 완료</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_LUXURY_RESOURCE_GAIN">
 			<Text>사치 자원 획득:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IINSTANT_YIELD_TYPE_LUXURY_RESOURCE_GAIN_SHORT">
+			<Text>사치 자원 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_GOLDEN_AGE_START">
 			<Text>황금기 시작:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_GOLDEN_AGE_START_SHORT">
+			<Text>황금기 시작</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_UNIT_GIFT">
 			<Text>도시 국가에 유닛 선물:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_UNIT_GIFT_SHORT">
+			<Text>도시 국가에 유닛 선물</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_REFUND">
 			<Text>[ICON_PRODUCTION] 무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_REFUND_SHORT">
+			<Text>무료 건물 교체로 환불 (생산력)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_REFUND">
 			<Text>[ICON_PEACE] 무료 건물 교체로 환불:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_FAITH_REFUND_SHORT">
+			<Text>무료 건물 교체로 환불 (신앙)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
 			<Text>도로 설립</Text>
@@ -679,6 +850,18 @@
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ACQUIRE_CITY_NAME">
 			<Text>정복</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_UNKNOWN">
+			<Text>알 수 없는 일시적 수확량 유형 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_LUA_SHORT">
+			<Text>모드모드에서의 일시적 수확량</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_COMBAT_EXPERIENCE_SHORT">
+			<Text>전투에서 획득한 경험치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CITY_DAMAGE_SHORT">
+			<Text>도시에 가해진 피해</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CITY">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_City}: [ENDCOLOR]</Text>
 		</Row>
@@ -686,19 +869,19 @@
 			<Text>+{3_Num} {2_Icon} {1_Name}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
-			<Text>+{1_Num} [ICON_HAPPINESS_1]행복</Text>
+			<Text>+{1_Num} [ICON_HAPPINESS_1] 행복</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_INFLUENCE">
-			<Text>+{1_Num} [ICON_INFLUENCE]영향력</Text>
+			<Text>+{1_Num} [ICON_INFLUENCE] 영향력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_EXPERIENCE">
-			<Text>+{1_Num} [ICON_STRENGTH]모든 유닛 경험치</Text>
+			<Text>+{1_Num} [ICON_STRENGTH] 모든 유닛 경험치</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP_GLOBAL">
-			<Text>+{1_Num} [ICON_GREAT_PEOPLE]모든 도시의 위인 점수</Text>
+			<Text>+{1_Num} [ICON_GREAT_PEOPLE] 모든 도시의 위인 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP">
-			<Text>+{1_Num} [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 점수</Text>
+			<Text>+{1_Num} [ICON_CAPITAL] 수도의 [ICON_GREAT_PEOPLE] 위인 점수</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_ADDENDUM">
 			<Text>[NEWLINE]{1_Num}</Text>

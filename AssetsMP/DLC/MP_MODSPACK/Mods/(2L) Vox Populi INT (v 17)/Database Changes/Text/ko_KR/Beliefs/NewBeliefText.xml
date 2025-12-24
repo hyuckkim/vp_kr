@@ -91,7 +91,7 @@
 
 		<!-- Tooltips -->
 		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP">
-			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_GOLD] 골드 +2[NEWLINE][NEWLINE]도시에서 작업 중인 농장, 목장, 채석장에 [ICON_FOOD] 식량 +1 보너스를 제공합니다.[NEWLINE][NEWLINE]도시가 자연적으로 확장될 때 [ICON_GOLD] 골드 +10이 추가됩니다. [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_GOLD] 빈곤으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
+			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_GOLD] 골드 +2[NEWLINE][NEWLINE]도시에서 작업 중인 농장, 목장, 채석장에 [ICON_GOLD] 골드 +1 보너스를 제공합니다.[NEWLINE][NEWLINE]도시가 자연적으로 확장될 때 [ICON_GOLD] 골드 +10이 추가됩니다. [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_GOLD] 빈곤으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_TOOLTIP">
 			<Text>[ICON_PEACE] 신앙 +4[NEWLINE][ICON_CULTURE] 문화 +2[NEWLINE][NEWLINE]도시 내 모든 [ICON_GREAT_WORK] 걸작에 대해 [ICON_PEACE] 신앙 +1을 받습니다.[NEWLINE][NEWLINE]건물이 완성되면 15턴 동안 [ICON_HAPPINESS_1] "국왕 경축일"을 진행합니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +40% 증가합니다.[NEWLINE][NEWLINE][ICON_CULTURE] 무료로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>

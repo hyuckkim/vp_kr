@@ -3620,10 +3620,10 @@ CivilopediaCategory[CategoryPromotions].SelectArticle = function( promotionID, s
 		-- Classess
 		for row in DB.Query("SELECT UnitClasses.Description, Modifier, Attack, Defense FROM UnitPromotions_UnitClasses INNER JOIN UnitClasses ON UnitPromotions_UnitClasses.UnitClassType = UnitClasses.Type WHERE PromotionType = ?", thisPromotion.Type) do
 			sText = sText.."[NEWLINE][ICON_BULLET]";
-			sText = sText.."[COLOR_CYAN]"..Locale.Lookup(row.Description).."[ENDCOLOR]에 ";
 			if row.Modifier ~= nil then sText = sText..string.format("%+d", row.Modifier).."% 더 강함"; end
 			if row.Attack ~= nil then sText = sText..string.format(" %+d", row.Attack).."% 공격"; end
 			if row.Defense ~= nil then sText = sText..string.format(" %+d", row.Defense).."% 방어"; end
+			sText = sText.."[COLOR_CYAN]"..Locale.Lookup(row.Description).."[ENDCOLOR]에 ";
 		end
 		-- Combat Mods
 		for row in DB.Query("SELECT UnitCombatInfos.Description, Modifier FROM UnitPromotions_UnitCombatMods INNER JOIN UnitCombatInfos ON UnitPromotions_UnitCombatMods.UnitCombatType = UnitCombatInfos.Type WHERE PromotionType = ?", thisPromotion.Type) do
@@ -3639,9 +3639,9 @@ CivilopediaCategory[CategoryPromotions].SelectArticle = function( promotionID, s
 			end
 			if row.Attack ~= 0 or row.Defense ~= 0 then
 				sText = sText.."[NEWLINE][ICON_BULLET]";
-				sText = sText..sTerrain.."에서 ";
-				if row.Attack ~= 0 then sText = sText..string.format("%+d", row.Attack).."% 공격"; end
+			if row.Attack ~= 0 then sText = sText..string.format("%+d", row.Attack).."% 공격"; end
 				if row.Defense ~= 0 then sText = sText..string.format(" %+d", row.Defense).."% 방어"; end
+				sText = sText..sTerrain.."에서 ";
 			end
 		end
 		-- Features
@@ -3654,9 +3654,9 @@ CivilopediaCategory[CategoryPromotions].SelectArticle = function( promotionID, s
 			end
 			if row.Attack ~= 0 or row.Defense ~= 0 then
 				sText = sText.."[NEWLINE][ICON_BULLET]";
-				sText = sText..sFeature.."에 ";
 				if row.Attack ~= 0 then sText = sText..string.format("%+d", row.Attack).."% 공격"; end
 				if row.Defense ~= 0 then sText = sText..string.format(" %+d", row.Defense).."% 방어"; end
+				sText = sText..sFeature.."에 ";
 			end
 		end
 		-- Pillage Yields
@@ -4903,9 +4903,7 @@ CivilopediaCategory[CategoryWonders].SelectArticle = function( wonderID, shouldA
 			UpdateButtonFrame( buttonAdded, Controls.RequiredBuildingsInnerFrame, Controls.RequiredBuildingsFrame );
 
 			-- update the game info
-			if thisProject.Help then
-				UpdateTextBlock( Locale.ConvertTextKey( thisProject.Help ), Controls.GameInfoLabel, Controls.GameInfoInnerFrame, Controls.GameInfoFrame );
-			end
+			UpdateTextBlock(GetHelpTextForProject(projectID, nil, true), Controls.GameInfoLabel, Controls.GameInfoInnerFrame, Controls.GameInfoFrame);
 
 			-- update the strategy info
 			if (thisProject.Strategy) then
