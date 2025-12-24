@@ -43,8 +43,6 @@ Overhaul 모드란 게임 전체를 전반적으로 수정하는 모드를 말�
 
 ### 공식 배포 [[바로가기]](https://github.com/handanikr/vp_kr/releases)
 
-### 나이틀리 버전 자동 배포 [[모드]](https://nightly.link/handanikr/vp_kr/workflows/inno-build/beta/Vox%20Populi%20INT.zip) [[모드팩]](https://nightly.link/handanikr/vp_kr/workflows/inno-mpbuild/beta/VP%20INT%20Modpack.zip)
-
 VP와 마찬가지로 [Inno Setup](https://jrsoftware.org/isinfo.php)으로 만들어진 설치 프로그램으로 모드를 자동으로 설치할 수 있습니다.
 
 ## 저장소에 올라와 있는 파일들은 다음과 같습니다 :
@@ -93,16 +91,11 @@ VP와 마찬가지로 [Inno Setup](https://jrsoftware.org/isinfo.php)으로 만�
     이 폴더는 문명 5의 UI를 개선해주는 EUI 모드를 Vox Populi와 호환되게 수정한 VP - EUI 호환 파일 모드를 한국어로 번역한 모드입니다.
   - **(4aL) Squads for VP INT**
     
-    VP 모드를 실시간 전략 게임처럼 드래그해 CTRL + 숫자키 조합으로 분대 번호를 지정해 추가하고 오른쪽 클릭으로 분대를 이동시키거나 분대 관리로 분대 전체를 관리할 수 있도록 만들어주는 모드입니다. 
-    
+    VP 모드를 실시간 전략 게임처럼 드래그해 CTRL + 숫자키 조합으로 분대 번호를 지정해 추가하고 오른쪽 클릭으로 분대를 이동시키거나 분대 관리로 분대 전체를 관리할 수 있도록 만들어주는 모드입니다.
+
     이 폴더는 VP용 분대 모드를 한국어로 번역한 모드입니다.
-	**(overL) More Unique Components for VP (v 89)**
-  - **(overL) More Unique Components for VP (v 89) INT**
     
-    고유 구성요소(Unique Components)는 단일 문명에만 존재하는 건물, 유닛, 타일 시설을 말합니다. 4UC, 혹은 34UC(3rd and 4th Unique Components)라고도 불리는 이 모드는 기본 43개 문명의 고유 구성요소 숫자를 2개에서 4개로 늘려줍니다. 새로운 구성요소를 VP와 원활하게 통합하고 게임의 밸런스를 조정하기 위해 문명의 일부 기본 구성요소도 수정되었습니다. 또한, AI가 새로운 도구에 적응할 수 있도록 여러 AI 유형이 조정되었습니다. 조만간 VP 5.0 버전에 추가될 예정입니다.
-    
-    이 폴더는 본래 CAYM님이 계몽 모드를 위해 번역했던 모드였으나, 이를 온전히 VP에만 맞춰서 수정한 한국어 번역 모드입니다.
-- **Firaxis ModBuddy**
+- **ModBuddy**
   
   비주얼 스튜디오 2010을 기반으로 만들어진 모드 개발 도구인 파이락시스 모드버디로 생성한 솔루션 파일들입니다. 다른 모든 문명 5 모드가 그러하듯, 한국어 모드 또한 이 솔루션 파일들로 빌드 및 컴파일해 제작합니다.
 - **VPUI Text**
@@ -112,7 +105,10 @@ VP와 마찬가지로 [Inno Setup](https://jrsoftware.org/isinfo.php)으로 만�
   기본 경로는 `C:\Users\<사용자 계정명>\Documents\My Games\Sid Meier's Civilization 5\Text` 입니다.
 - **vp_kr installer file**
   
-  설치 프로그램인 .exe 파일을 만들기 위한 Inno Setup용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
+  모드 설치 프로그램인 .exe 파일을 만들기 위한 Inno Setup용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
+- **vp_kr mpinstaller file**
+  
+  모드팩 설치 프로그램인 .exe 파일을 만들기 위한 Inno Setup용 설정 파일입니다. 게임 플레이와는 연관이 없습니다.
 - 기존의 추가 모드용 Other Mods.zip은 [다른 깃허브 저장소](https://github.com/handanikr/vp_modmods_kr) 로 옮겨졌으며 이전엔 VP용 모드의 아카이빙 역할을 했으나 지금은 VP용 한국어 모드들의 깃허브가 되었습니다. 
 
 
