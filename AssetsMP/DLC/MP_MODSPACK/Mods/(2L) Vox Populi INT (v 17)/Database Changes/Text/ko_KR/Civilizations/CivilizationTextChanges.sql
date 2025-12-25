@@ -203,7 +203,7 @@ SET Text = '위대한 조상'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]을 연구하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
+SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, [ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]을 연구하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 
 UPDATE Language_ko_KR

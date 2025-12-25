@@ -1969,13 +1969,13 @@
 			<Text>도시 공습 전투력: [ICON_RANGE_STRENGTH] {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_1">
-			<Text>"여왕경축일"! ({1_Num})</Text>
+			<Text>"황후 경축일"! ({1_Num}턴 남음)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_1">
-			<Text>이 도시는 "여왕경축일"이라는 기념일을 맞이하여 도시의 [ICON_FOOD] 식량 성장 수정치를 높여줍니다!</Text>
+			<Text>이 도시는 "황후 경축일"이라는 기념일을 맞이하여 도시의 [ICON_FOOD] 식량 성장 수정치를 높여줍니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_1">
-			<Text>이 자원을 당신의 교역망에 연결하면 이 도시는 "여왕경축일"을 맞이합니다.</Text>
+			<Text>이 자원을 당신의 교역망에 연결하면 이 도시는 "황후 경축일"을 맞이합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_2">
 			<Text>카니발! ({1_Num})</Text>
