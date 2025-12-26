@@ -105,7 +105,7 @@ WHERE Tag = 'TXT_KEY_PRODUCTION_RESOURCES_REQUIRED';
 
 -- Building
 UPDATE Language_ko_KR
-SET Text = '{1: number "''[ICON_HAPPINESS_1] 행복: ''#,''[ICON_HAPPINESS_3] 불행: ''#"}'
+SET Text = '{1: number "''[ICON_HAPPINESS_1] 행복: ''#;''[ICON_HAPPINESS_3] 불행: ''#"}'
 WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_HAPPINESS';
 
 UPDATE Language_ko_KR

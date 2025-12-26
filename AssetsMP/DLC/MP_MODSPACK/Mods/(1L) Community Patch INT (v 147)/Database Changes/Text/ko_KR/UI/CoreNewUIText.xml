@@ -1004,13 +1004,13 @@
 			<Text>{1: number "'+'##;'-'##"}% conversion rate from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES">
-			<Text>{2_Sign}{1_Num} [ICON_DIPLOMAT] {1: plural 1?Delegate; other?Delegates;} in the World Congress</Text>
+			<Text>세계 의회 [ICON_DIPLOMAT] 대표단 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_SCALING">
-			<Text>{2_Sign}1 [ICON_DIPLOMAT] Delegate in the World Congress for every {1: plural 1?[ICON_CITY_STATE] City-State; other?{1_Num} [ICON_CITY_STATE] City-States;} originally in the World</Text>
+			<Text>원래부터 세계에 있었던 [ICON_CITY_STATE] 도시 국가마다 세계 의회에 [ICON_DIPLOMAT] 대표단 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_GPT">
-			<Text>+1 [ICON_DIPLOMAT] Delegate in the World Congress for every {1_Gold} Gross [ICON_GOLD] Gold per turn, capped at 1/4 of the number of [ICON_CITY_STATE] City-States originally in the World</Text>
+			<Text>턴 당 총 [ICON_GOLD] 골드 {1_Gold}당 세계 의회 [ICON_DIPLOMAT] 대표단, 원래 세계에 있었던 [ICON_CITY_STATE] 도시 국가 수의 1/4로 제한</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DOF">
 			<Text>+{1_Num} [ICON_DIPLOMAT] Delegate in the World Congress for every [COLOR_POSITIVE_TEXT]2[ENDCOLOR] active Declarations of Friendship with your Empire</Text>
@@ -1061,19 +1061,19 @@
 			<Text>{2_Sign}{1_Num} Sight for Trade Units</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_SPEED_MULTIPLIER">
-			<Text>{1_Num}x Speed for Trade Units</Text>
+			<Text>교역 유닛 속도 {1_Num}x</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_TRADE_ROUTE_IMMUNITY">
-			<Text>[ICON_INTERNATIONAL_TRADE] Trade Routes cannot be plundered</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] 교역로를 약탈할 수 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE_TO_TOURISM_TERRAIN_WONDER">
 			<Text>{1_Num}% of [ICON_CULTURE] Culture from Terrain and [ICON_WONDER] World Wonders is added to [ICON_TOURISM] Tourism output</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_TOURISM_MODIFIER">
-			<Text>{2_Sign}{1_Num}% [ICON_TOURISM] Tourism from [ICON_GREAT_WORK] Great Works</Text>
+			<Text>[ICON_GREAT_WORK] 걸작에서 [ICON_TOURISM] 관광 {2_Sign}{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NULLIFY_TECH_TOURISM_MODIFIER">
-			<Text>-{1_Num}% [ICON_TOURISM] Tourism from Civilizatons that have researched [ICON_CYAN]{2_Tech:textkey}[ENDCOLOR]</Text>
+			<Text>[ICON_CYAN]{2_Tech:textkey}[ENDCOLOR] 연구를 마친 문명에서 [ICON_TOURISM] 관광 -{1_Num}% </Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_FRANCHISE_TOURISM_MODIFIER">
 			<Text>{2_Sign}{1_Num}% [ICON_TOURISM] Tourism to another Civilization for each [ICON_FRANCHISE] Established Franchise in its territory</Text>
@@ -1457,67 +1457,67 @@
 			<Text>[ICON_RELIGION] 주요 종교가 되기 위해 필요한 세계의 추종자 수: 세계 인구의 [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] (지도 크기에 따라 보정)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HOLY_CITY_BELIEF_NEEDED">
-			<Text>Must be built in Holy City of [ICON_RELIGION] Primary Religion with one of the following Beliefs: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+			<Text>다음 교리 중 하나를 믿는 [ICON_RELIGION] 다수 종교의 성도에 건설되어야 함: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MAJORITY_RELIGION_BELIEF_NEEDED">
-			<Text>Requires one of following Beliefs in [ICON_RELIGION] Majority Religion: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+			<Text>[ICON_RELIGION] 다수 종교에서 다음 중 하나의 교리를 가져야 함: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PURCHASE_BUILDING_MAJORITY_RELIGION_BELIEF_NEEDED">
-			<Text>Faith Purchase requires one of following Beliefs in [ICON_RELIGION] Majority Religion: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+			<Text>신앙 구매를 하려면 [ICON_RELIGION] 다수 종교의 다음 교리 중 하나를 충족해야 함: [COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PURCHASE_BUILDING_OWN_HOLY_CITY">
-			<Text>Faith Purchase requires owning the Holy City of [ICON_RELIGION] Majority Religion</Text>
+			<Text>신앙 구매를 하려면 [ICON_RELIGION] 다수 종교의 성도를 소유해야 함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PURCHASE_BUILDING_OWN_HOLY_CITY_OR_STATE_RELIGION">
-			<Text>Faith Purchase requires owning the Holy City of [ICON_RELIGION] Majority Religion or having that be your [ICON_RELIGION] Primary Religion</Text>
+			<Text>신앙 구매를 하려면 [ICON_RELIGION] 다수 종교의 성도를 소유하거나 해당 종교가 [ICON_RELIGION] 주 종교여야 함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_OBSOLETE_TECH_REMARK">
-			<Text>[COLOR_WARNING_TEXT]Note: all ongoing Effects of this Building will be removed when the above Technology is researched![ENDCOLOR]</Text>
+			<Text>[COLOR_WARNING_TEXT]참고: 위의 기술이 연구되면 이 건물의 현재 모든 효과가 제거됨![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_BOOST">
-			<Text>{2_YieldBoosts} to [COLOR_YIELD_FOOD]{1_BuildingClass:textkey}[ENDCOLOR]</Text>
+			<Text>[COLOR_YIELD_FOOD]{1_BuildingClass:textkey}[ENDCOLOR]에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_HAPPINESS">
-			<Text>{2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness to [COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]</Text>
+			<Text>[COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]에 [ICON_HAPPINESS_1] 행복 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WORLD_WONDER_BOOST">
-			<Text>{1_YieldBoosts} to [ICON_WONDER] World Wonders</Text>
+			<Text>[ICON_WONDER] 세계 불가사의에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLOT_BOOST">
-			<Text>{2_YieldBoosts} to [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Plot:textkey}[ENDCOLOR]</Text>
+			<Text>[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Plot:textkey}[ENDCOLOR]에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TERRAIN_BOOST">
-			<Text>{2_YieldBoosts} to [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]</Text>
+			<Text>[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FEATURE_BOOST">
-			<Text>{2_YieldBoosts} to [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Feature:textkey}[ENDCOLOR]</Text>
+			<Text>[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Feature:textkey}[ENDCOLOR]에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESOURCE_BOOST">
-			<Text>{2_YieldBoosts} to {3_ResourceIcon} {1_Resource:textkey}</Text>
+			<Text>{3_ResourceIcon} {1_Resource:textkey}에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_IMPROVEMENT_BOOST">
-			<Text>{2_YieldBoosts} to [COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR] 에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LUXURY_BOOST">
-			<Text>{1_YieldBoosts} to Luxury Resource Tiles</Text>
+			<Text>사치 자원 타일에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RIVER_BOOST">
-			<Text>{1_YieldBoosts} to [COLOR_POSITIVE_TEXT]River[ENDCOLOR] Tiles</Text>
+			<Text>[COLOR_POSITIVE_TEXT]강[ENDCOLOR] 타일에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LAKE_BOOST">
-			<Text>{1_YieldBoosts} to [COLOR_POSITIVE_TEXT]Lake[ENDCOLOR] Tiles</Text>
+			<Text>[COLOR_POSITIVE_TEXT]호수[ENDCOLOR] 타일에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEA_BOOST">
-			<Text>{1_YieldBoosts} to [COLOR_POSITIVE_TEXT]Sea[ENDCOLOR] Tiles</Text>
+			<Text>[COLOR_POSITIVE_TEXT]대양[ENDCOLOR] 타일에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_RESOURCE_BOOST">
-			<Text>{1_YieldBoosts} to Resource Tiles in [COLOR_POSITIVE_TEXT]Water[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]물[ENDCOLOR]에 있는 자원 타일에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIALIST_BOOST">
-			<Text>{2_YieldBoosts} to [COLOR_POSITIVE_TEXT]{1_Specialist * 2}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Specialist * 2}[ENDCOLOR]에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_BOOST">
-			<Text>{1_YieldBoosts} to [ICON_GREAT_WORK] Great Works</Text>
+			<Text>[ICON_GREAT_WORK] 걸작에 {1_YieldBoosts} </Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_BOOST">
 			<Text>{1_YieldBoosts} to [ICON_INTERNATIONAL_TRADE] Internal Trade Routes from this City</Text>
@@ -1526,10 +1526,10 @@
 			<Text>{1_YieldModifiers} during [ICON_GOLDEN_AGE] Golden Age</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_WLTKD">
-			<Text>{1_YieldModifiers} during [ICON_HAPPINESS_1] "We Love the King Day"</Text>
+			<Text>[ICON_HAPPINESS_1] "국왕 경축일" 동안 {1_YieldModifiers}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_AREA">
-			<Text>{1_YieldModifiers} to Cities in the same Area</Text>
+			<Text>같은 지역 내 도시에 {1_YieldModifiers}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_YIELD_MODIFIER_TR_WITH_FRANCHISE">
 			<Text>{1_YieldModifiers} to [ICON_INTERNATIONAL_TRADE] Trade Routes targeting Cities with [ICON_FRANCHISE] Established Franchise of this Corporation</Text>
@@ -1616,22 +1616,22 @@
 			<Text>({1_Num} more from Accomplishments)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_ERA">
-			<Text>[ICON_BULLET]Every new Era after Classical Era: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET] 고전 시대 이후 모든 새 시대: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STRENGTH">
-			<Text>[ICON_BULLET]Each point of [ICON_STRENGTH] City Strength: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET] 각 [ICON_STRENGTH] 도시 전투력 점수: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_ACCOMPLISHMENT">
 			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{1_Accomplishment:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_PASSING_TR">
-			<Text>[ICON_BULLET]Any Trade Route passing through this City: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET] 이 도시를 통과하는 어떠한 교역로든지: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_GOLDEN_AGE_START">
-			<Text>[ICON_BULLET]Adding [ICON_GOLDEN_AGE] Golden Age Turns: {1_YieldBoosts} (capped at {2_YieldBoostCaps})</Text>
+			<Text>[ICON_BULLET] [ICON_GOLDEN_AGE] 황금기 턴 추가: {1_YieldBoosts} (제한: {2_YieldBoostCaps})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_THEMES">
-			<Text>[ICON_BULLET]Each themed [ICON_GREAT_WORK] Great Work set in City: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET] 도시에 있는 각 테마별 [ICON_GREAT_WORK] 걸작: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_MONOPOLIES">
 			<Text>[ICON_BULLET] 각 [ICON_MONOPOLY] 글로벌 독점: {1_YieldBoosts}</Text>
