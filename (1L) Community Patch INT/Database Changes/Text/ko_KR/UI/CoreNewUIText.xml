@@ -1067,7 +1067,7 @@
 			<Text>[ICON_INTERNATIONAL_TRADE] 교역로를 약탈할 수 없음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE_TO_TOURISM_TERRAIN_WONDER">
-			<Text>{1_Num}% of [ICON_CULTURE] Culture from Terrain and [ICON_WONDER] World Wonders is added to [ICON_TOURISM] Tourism output</Text>
+			<Text>지형과 [ICON_WONDER] 세계 불가사의에서 비롯된 [ICON_CULTURE] 문화의 {1_Num}%를 [ICON_TOURISM] 관광 산출량에 추가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_TOURISM_MODIFIER">
 			<Text>[ICON_GREAT_WORK] 걸작에서 [ICON_TOURISM] 관광 {2_Sign}{1_Num}%</Text>
@@ -1079,7 +1079,7 @@
 			<Text>{2_Sign}{1_Num}% [ICON_TOURISM] Tourism to another Civilization for each [ICON_FRANCHISE] Established Franchise in its territory</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REDUCED_GLOBAL_FOLLOWER_REQUIREMENT">
-			<Text>{2_Sign}{1_Num}% Worldwide Follower Requirement for all Buildings</Text>
+			<Text>모든 건물에 대한 필요 세계 추종자 {2_Sign}{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_FROM_OTHER_YIELD">
 			<Text>{1_Num}% of City {2_YieldIcon} {3_Yield:textkey} output (pre-Modifiers) is added to City {4_YieldIcon} {5_Yield:textkey} output (post-Modifiers)</Text>
@@ -1088,157 +1088,157 @@
 			<Text>{1_Num}% of {2_YieldIcon} {3_Yield:textkey} output of each City (pre-Modifiers) is added to its {4_YieldIcon} {5_Yield:textkey} output (post-Modifiers)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_TECHS">
-			<Text>On Completion: Gain {1_Num} Free {1: plural 1?Technology; other?Technologies;}</Text>
+			<Text>완성 시: 무료 기술 {1_Num}개 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_POLICIES">
-			<Text>On Completion: Gain {1_Num} Free {1: plural 1?Policy; other?Policies;}</Text>
+			<Text>완성 시: 무료 정책 {1_Num}개 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_GP">
-			<Text>On Completion: {1_Num} Free [ICON_GREAT_PEOPLE] Great {1: plural 1?Person; other?People;} of your choice {1: plural 1?appears; other?appear;} in [ICON_CAPITAL] Capital</Text>
+			<Text>완성 시: 선택 가능한 무료 [ICON_GREAT_PEOPLE] 위인 {1_Num}명 [ICON_CAPITAL] 수도에 출현</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPY_POINTS">
-			<Text>On Completion: Gain {1_Num} [ICON_SPY] Spy {1: plural 1?Point; other?Points;}</Text>
+			<Text>완성 시: [ICON_SPY] 스파이 점수 {1_Num}점 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPIES">
-			<Text>On Completion: Gain {1_Num} [ICON_SPY] {1: plural 1?Spy; other?Spies;}</Text>
+			<Text>완성 시: [ICON_SPY] 스파이 {1_Num}명 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_UNIT">
-			<Text>On Completion: {1_Num} [COLOR_YELLOW]{2_Unit:textkey}[ENDCOLOR] {1: plural 1?appears; other?appear;} in or near City</Text>
+			<Text>완성 시: [COLOR_YELLOW]{2_Unit:textkey}[ENDCOLOR] {1_Num}기 도시에 출현</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_BUILDING">
-			<Text>On Completion: Gain Free [COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR]</Text>
+			<Text>완성 시: 무료 [COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR] 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_GREAT_WORK">
-			<Text>On Completion: Gain Free [ICON_GREAT_WORK] Great Work: [COLOR_POSITIVE_TEXT]{1_GreatWork:textkey}[ENDCOLOR] (placed in nearest compatible slot)</Text>
+			<Text>완성 시: 무료 [ICON_GREAT_WORK] 걸작 [COLOR_POSITIVE_TEXT]{1_GreatWork:textkey}[ENDCOLOR] 획득 (가장 가까운 호환 슬롯에 장착)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_ARTIFACT">
-			<Text>On Completion: Gain {1_Num} Free [ICON_ARTIFACT] {1: plural 1?Artifact; other?Artifacts;} (placed in this Building)</Text>
+			<Text>완성 시: {1_Num} 무료 [ICON_ARTIFACT] 유물 획득 (이 건물에 배치)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_START_GOLDEN_AGE">
-			<Text>On Completion: Start a [ICON_GOLDEN_AGE] Golden Age</Text>
+			<Text>완성 시: [ICON_GOLDEN_AGE] 황금기 시작</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_START_WLTKD">
-			<Text>On Completion: +{1_NumTurn} {1: plural 1?Turn; other?Turns;} of [ICON_HAPPINESS_1] "We Love the King Day"</Text>
+			<Text>완성 시: [ICON_HAPPINESS_1] "국왕 경축일" +{1_NumTurn}턴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_ON_COMPLETION">
-			<Text>On Completion: {1_InstantYield}</Text>
+			<Text>완성 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_ON_COMPLETION_FROM_POPULATION">
-			<Text>On Completion: {1_InstantYield} for every [ICON_CITIZEN] Population in City</Text>
+			<Text>완성 시: 도시 내 모든 [ICON_CITIZEN] 인구에게 {1_InstantYield} 제공</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_POPULATION">
-			<Text>On Completion: {2_Sign}{1_Num} [ICON_CITIZEN] Population</Text>
+			<Text>완성 시: [ICON_CITIZEN] 시민 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AUTOMATON">
-			<Text>On Completion: {2_Sign}{1_Num} Automaton Worker</Text>
+			<Text>완성 시: 자동화 노동자 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INFLUENCE_ON_COMPLETION">
-			<Text>On Completion: {2_Sign}{1_Num} [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City-States</Text>
+			<Text>완성 시: 모든 [ICON_CITY_STATE] 도시 국가에 대한 [ICON_INFLUENCE] 영향력 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VICTORY_POINTS_ON_COMPLETION">
-			<Text>On Completion: {2_Sign}{1_Num} Victory Points</Text>
+			<Text>완성 시: 승리 점수 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_SPY_RANK">
-			<Text>On Completion: All [ICON_SPY] Spies level up {1: plural 1?once; 2?twice; other?{1_Num} times;}</Text>
+			<Text>완성 시: 모든 [ICON_SPY] 스파이 {1_Num}번 레벨 업 </Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REFORMATION">
-			<Text>On Completion: Allow you to select a [COLOR_POSITIVE_TEXT]Reformation Belief[ENDCOLOR]</Text>
+			<Text>완성 시: [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR] 선택 허용</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_PRESSURE">
-			<Text>On Completion: Add {1_Num} Religious Pressure of your [ICON_CAPITAL] Capital's Majority Religion to City</Text>
+			<Text>완성 시: [ICON_CAPITAL] 수도의 다수 종교가 도시에 주는 종교적 압력 수치 {1_Num} 추가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_LUXURY">
-			<Text>On Completion: Add {1_Num} random {1: plural 1?copy; other?copies;} of the following Resources in City working range, or on City tile if impossible: {2_Resources}</Text>
+			<Text>완성 시: {2_Resources} {1_Num}개를 도시 작업 범위 내에 무작위로 추가, 불가능한 경우 도시 타일에 추가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_LUXURY_GENERIC">
-			<Text>On Completion: Add {1_Num} random {1: plural 1?copy; other?copies;} of your unique Resources (if any) in City working range, or on City tile if impossible</Text>
+			<Text>완성 시: 고유 자원(있는 경우)의 무작위 사본 {1_Num}개를 도시 작업 범위 내에 추가, 불가능한 경우 도시 타일에 추가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_RESOURCE">
-			<Text>On Completion: Add {1_Num} {1: plural 1?copy; other?copies;} of {2_ResourceIcon} {3_Resource:textkey} to random eligible Tiles in City working range</Text>
+			<Text>완성 시: 임의의 적합한 타일에 {2_ResourceIcon} {3_Resource:textkey} 복사본 {1_Num}개를 도시 작업 범위 내에 추가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_RESOURCE_SUFFIX">
-			<Text>(Quantity: {1_Num})</Text>
+			<Text>(수량: {1_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_COPY">
-			<Text>On Completion: Gain a copy of each distinct owned Land Military Unit around City</Text>
+			<Text>완성 시: 도시 내 각기 다른 종류의 지상 군사 유닛 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEARBY_RESOURCE_CLAIM">
-			<Text>On Completion: Claim all unowned Tiles with {1_Resources} within working range, triggering instant yields from Tile Purchase (if applicable)</Text>
+			<Text>완성 시: 작업 범위 내에 있는 모든 소유하지 않은 {1_Resources} 타일을 확보, 타일 구매(해당되는 경우)로 인한 일시적 산출량 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEARBY_RESOURCE_STEAL">
-			<Text>On Completion: Claim all Tiles with {1_Resources} within working range, triggering instant yields from Tile Purchase (if applicable)</Text>
+			<Text>완성 시: 작업 범위 내에 있는 모든 {1_Resources} 타일을 확보, 타일 구매(해당되는 경우)로 인한 일시적 산출량 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_WRITER">
-			<Text>When a [ICON_GREAT_PEOPLE] Great Person is born in this City: Gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of the amount of [ICON_CULTURE] Culture from its [COLOR_MAGENTA]{TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR] Mission (if applicable)</Text>
+			<Text>이 도시에 [ICON_GREAT_PEOPLE] 위인 탄생 시: [COLOR_MAGENTA]{TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR] 임무(해당되는 경우)에서 받는 [ICON_CULTURE] 문화의 {1_Num}%에 해당하는 {2_YieldIcon} {3_Yield:textkey} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_ARTIST">
-			<Text>When a [ICON_GREAT_PEOPLE] Great Person is born in this City: Gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of the amount of [ICON_GOLDEN_AGE] Golden Age Points from its [COLOR_POSITIVE_TEXT]{TXT_KEY_MISSION_START_GOLDENAGE}[ENDCOLOR] Mission (if applicable)</Text>
+			<Text>이 도시에 [ICON_GREAT_PEOPLE] 위인 탄생 시: [COLOR_POSITIVE_TEXT]{TXT_KEY_MISSION_START_GOLDENAGE}[ENDCOLOR] 임무(해당되는 경우)에서 받는 [ICON_GOLDEN_AGE] 황금기 점수의 {1_Num}%에 해당하는 {2_YieldIcon} {3_Yield:textkey} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_SCALING">
-			<Text>When a {2_GreatPersonIcon} {3_GreatPerson:textkey} is born in this City: Gain {6_YieldIcon} {7_Yield:textkey} equal to {1_Num}% of your {4_YieldIcon} {5_Yield:textkey} output</Text>
+			<Text>이 도시에 {2_GreatPersonIcon} {3_GreatPerson:textkey} 탄생 시: {4_YieldIcon} {5_Yield:textkey} 산출량의 {1_Num}%에 해당하는 {6_YieldIcon} {7_Yield:textkey} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_EXPEND">
-			<Text>When expending a [ICON_GREAT_PEOPLE] Great Person: {1_InstantYield} in [ICON_CAPITAL] Capital</Text>
+			<Text>[ICON_GREAT_PEOPLE] 위신 소모 시: [ICON_CAPITAL] 수도에 {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_INFLUENCE_ON_GP_EXPEND">
-			<Text>When expending a [ICON_GREAT_PEOPLE] Great Person: {2_Sign}{1_Num} [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City-States</Text>
+			<Text>[ICON_GREAT_PEOPLE] 위인 소모 시: 모든 [ICON_CITY_STATE] 도시 국가에 대한 [ICON_INFLUENCE] 영향력 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VASSAL_UNIT_PER_ERA">
-			<Text>When entering a new Era: Receive {1_Num} {1: plural 1?Unit; other?Units;} from each Vassal near City</Text>
+			<Text>새 시대 진입 시: 근처 종속 도시에서 유닛 {1_Num}기 받음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_TECH">
-			<Text>When researching a Technology: {1_InstantYield}</Text>
+			<Text>기술 연구 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_POLICY">
-			<Text>When adopting a Policy: {1_InstantYield}</Text>
+			<Text>정책 채택 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLDEN_AGE_START">
-			<Text>When starting a [ICON_GOLDEN_AGE] Golden Age: {1_InstantYield}</Text>
+			<Text>[ICON_GOLDEN_AGE] 황금기 시작 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ON_GOLDEN_AGE_START">
-			<Text>When starting a [ICON_GOLDEN_AGE] Golden Age: {2_Sign}{1_Num} XP for all future Units trained in this City, capped at {3_Num} XP</Text>
+			<Text>[ICON_GOLDEN_AGE] 황금기 시작 시: 앞으로 이 도시에서 훈련되는 모든 유닛 경험치 {2_Sign}{1_Num}, 최대 {3_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_WLTKD">
-			<Text>When this City starts a [ICON_HAPPINESS_1] "We Love the King Day": {1_InstantYield}</Text>
+			<Text>이 도시에서 [ICON_HAPPINESS_1] "국왕 경축일" 시작 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_ON_GROWTH">
-			<Text>When a [ICON_CITIZEN] Citizen is born in this City: +{1_Num} [ICON_GREAT_PEOPLE] Great Person Points towards the Great Person with the most Points, scaling with Era</Text>
+			<Text>이 도시에서 [ICON_CITIZEN] 시민이 태어날 시: 가장 많은 점수를 획득한 [ICON_GREAT_PEOPLE] 위인에게 위인 점수 +{1_Num} 부여, 시대에 따라 보정</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GROWTH">
-			<Text>When a [ICON_CITIZEN] Citizen is born in this City: {1_InstantYield}</Text>
+			<Text>이 도시에서 [ICON_CITIZEN] 시민이 태어날 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GROWTH_SCALING">
-			<Text>When a [ICON_CITIZEN] Citizen is born in this City: Gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of City output</Text>
+			<Text>이 도시에서 [ICON_CITIZEN] 시민이 태어날 시: 도시 산출량의 {1_Num}%에 해당하는 {2_YieldIcon} {3_Yield:textkey} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_BORDER_GROWTH">
-			<Text>When this City naturally expands: {1_InstantYield}</Text>
+			<Text>이 도시가 자연적으로 확장 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLD_PURCHASE">
-			<Text>When purchasing/investing with [ICON_GOLD] Gold in this City: Gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of [ICON_GOLD] Gold cost</Text>
+			<Text>[ICON_GOLD] 골드로 이 도시에서 구매/투자 시: [ICON_GOLD] 골드 비용의 {1_Num}%에 해당하는 {2_YieldIcon} {3_Yield:textkey} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLD_PURCHASE_GLOBAL">
-			<Text>When purchasing/investing with [ICON_GOLD] Gold in any City: Gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of [ICON_GOLD] Gold cost</Text>
+			<Text>[ICON_GOLD] 골드로 어느 도시에서든 구매/투자 시: [ICON_GOLD] 골드 비용의 {1_Num}%에 해당하는 {2_YieldIcon} {3_Yield:textkey} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_FAITH_PURCHASE">
-			<Text>When purchasing a Unit or Building with [ICON_PEACE] Faith in this City: Gain {2_YieldIcon} {3_Yield:textkey} equal to {1_Num}% of [ICON_PEACE] Faith cost</Text>
+			<Text>[ICON_PEACE] 신앙으로 이 도시에서 유닛 혹은 건물 구매 시: [ICON_PEACE] 신앙 비용의 {1_Num}%에 해당하는 {2_YieldIcon} {3_Yield:textkey} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_CONSTRUCTION">
-			<Text>When completing a Building in this City: {1_InstantYield}</Text>
+			<Text>이 도시에서 건물 완공 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_ON_CONSTRUCTION">
-			<Text>When completing a Building unlocked in {2_Era:textkey} or later in this City: Gain {3_GreatPersonIcon} {4_GreatPerson:textkey} Points equal to {1_Num}% of Building cost</Text>
+			<Text>이 도시에서 {2_Era:textkey} 혹은 이후 해제된 건물 완공 시: 건물 비용의 {1_Num}%에 해당하는 {3_GreatPersonIcon} {4_GreatPerson:textkey} 점수 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GP_PROGRESS_ON_CONSTRUCTION">
-			<Text>When completing a Building unlocked in {2_Era:textkey} or later in this City: +{1_Num}% Points towards the next {3_GreatPersonIcon} {4_GreatPerson:textkey}</Text>
+			<Text>이 도시에서 {2_Era:textkey} 혹은 이후 해제된 건물 완공 시: {3_GreatPersonIcon} {4_GreatPerson:textkey}에게 점수 +{1_Num}% </Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WLTKD_FROM_PROJECT">
-			<Text>When completing {3_Project:textkey}: {2_Sign}{1_Num} {1: plural 1?Turn; other?Turns;} of [ICON_HAPPINESS_1] "We Love the King Day"</Text>
+			<Text>{3_Project:textkey} 완료 시: [ICON_HAPPINESS_1] "국왕 경축일" {2_Sign}{1_Num}턴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_ITR_COMPLETION">
-			<Text>When completing an [ICON_INTERNATIONAL_TRADE] Internal Trade Route from or to this City: {1_InstantYield}</Text>
+			<Text>이 도시를 출발지 혹은 도착지로 하는 [ICON_INTERNATIONAL_TRADE] 내부 교역로 완성 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_ETR_COMPLETION">
-			<Text>이 도시에서 [ICON_INTERNATIONAL_TRADE] 국제 교역로를 완성할 시: {1_InstantYield}</Text>
+			<Text>이 도시에서 출발하는 [ICON_INTERNATIONAL_TRADE] 국제 교역로를 완성할 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_COMPLETION">
 			<Text>이 도시에서 군사 유닛 생산 완료 시: [ICON_PRODUCTION] 생산 비용의 {1_Num}%에 해당하는 {2_YieldIcon} {3_Yield:textkey} 획득</Text>
@@ -1520,10 +1520,10 @@
 			<Text>[ICON_GREAT_WORK] 걸작에 {1_YieldBoosts} </Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_BOOST">
-			<Text>{1_YieldBoosts} to [ICON_INTERNATIONAL_TRADE] Internal Trade Routes from this City</Text>
+			<Text>이 도시에서 출발하는 [ICON_INTERNATIONAL_TRADE] 교역로에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_GOLDEN_AGE">
-			<Text>{1_YieldModifiers} during [ICON_GOLDEN_AGE] Golden Age</Text>
+			<Text>[ICON_GOLDEN_AGE] 황금기 동안 {1_YieldModifiers}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_WLTKD">
 			<Text>[ICON_HAPPINESS_1] "국왕 경축일" 동안 {1_YieldModifiers}</Text>
@@ -1556,10 +1556,10 @@
 			<Text>[ICON_BULLET]Each {3_ResourceIcon} {4_Resource:textkey} connected to City: {2_Sign}{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_MOUNTAINS">
-			<Text>[ICON_BULLET]Each Mountain within 3 Tiles of City: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]도시에서 3타일 이내에 있는 각 산: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_SNOW">
-			<Text>[ICON_BULLET]Each Snow Tile owned by City: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]각 도시가 소유한 설원 타일: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_WORKED_TERRAIN">
 			<Text>[ICON_BULLET]Each worked [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
@@ -1625,7 +1625,7 @@
 			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{1_Accomplishment:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_PASSING_TR">
-			<Text>[ICON_BULLET] 이 도시를 통과하는 어떠한 교역로든지: {1_YieldBoosts}</Text>
+			<Text>[ICON_BULLET] 이 도시를 통과하는 어떠한 교역로든: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_GOLDEN_AGE_START">
 			<Text>[ICON_BULLET] [ICON_GOLDEN_AGE] 황금기 턴 추가: {1_YieldBoosts} (제한: {2_YieldBoostCaps})</Text>
@@ -1805,10 +1805,10 @@
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from [ICON_INTERNATIONAL_TRADE] Trade Routes with [ICON_FRANCHISE] Established Franchise</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_EVENT">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from Active Events</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 활성화된 이벤트에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_GA">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% [ICON_GOLDEN_AGE] 황금기(Base)</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% [ICON_GOLDEN_AGE] 황금기(기본)에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_GA_BELIEF">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% [ICON_GOLDEN_AGE] 황금기(종교 교리)에서</Text>
