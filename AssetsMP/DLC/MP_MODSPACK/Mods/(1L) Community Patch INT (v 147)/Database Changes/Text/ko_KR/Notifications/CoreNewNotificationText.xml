@@ -608,7 +608,10 @@
 			<Text>종교 전파</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FOREIGN_SPREAD">
-			<Text>다른 문명의 도시에 [ICON_RELIGION]종교 전파:[NEWLINE]{1_YieldString}</Text>
+			<Text>다른 문명의 도시에 [ICON_RELIGION] 종교 전파:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_F_SPREAD_SHORT">
+			<Text>다른 문명의 도시에 종교 전파</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TR_MOVEMENT">
 			<Text>활성화된 [ICON_INTERNATIONAL_TRADE] 교역로:[NEWLINE]{1_YieldString}</Text>

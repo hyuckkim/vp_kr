@@ -52,6 +52,16 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>Core Files/Overrides/NotificationLogPopup.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Core Files/Overrides/NotiText.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>Database Changes/Text/ko_KR/AI/CoreDiplomacyResponseTextChanges.sql</FileName>
       </Action>
       <Action>
@@ -233,6 +243,8 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Core Files\" />
+    <Folder Include="Core Files\Overrides\" />
     <Folder Include="Database Changes\" />
     <Folder Include="Database Changes\Text\" />
     <Folder Include="Database Changes\Text\ko_KR\" />
@@ -250,6 +262,14 @@
     <Folder Include="Database Changes\Text\ko_KR\WorldMap\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Core Files\Overrides\NotificationLogPopup.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Core Files\Overrides\NotiText.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Database Changes\Text\ko_KR\AI\CoreDiplomacyResponseTextChanges.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>

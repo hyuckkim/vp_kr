@@ -315,7 +315,7 @@
 			<Text>필요 정책: [COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH">
-			<Text>모든 [COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책 필요</Text>
+			<Text>어느 [COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책이든 필요</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH_OPENER">
 			<Text>[COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책 개방 필요</Text>
@@ -785,7 +785,7 @@
 			<Text>문명 규모 [ICON_HAPPINESS_4] 불행 {2_Sign}{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_GLOBAL">
-			<Text>[ICON_HAPPINESS_1] 모든 도시의 불행 {2_Sign}{1_Num}</Text>
+			<Text>[ICON_HAPPINESS_1] 모든 도시의 행복 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_POLICY_CAPITAL">
 			<Text>모든 정책 채택시 [ICON_CAPITAL] 수도의 [ICON_HAPPINESS_1] 행복 {1: plural 1?+1; other?+1/{1_Num};}</Text>

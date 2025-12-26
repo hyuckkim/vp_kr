@@ -173,7 +173,7 @@ SET Text = '천명'
 WHERE Tag = 'TXT_KEY_TRAIT_ART_OF_WAR_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_WORK]걸작을 제작하거나 도시를 획득하면 5턴의 [COLOR_POSITIVE_TEXT]황후 경축일[ENDCOLOR]을 맞이하고 모든 도시의 [ICON_FOOD]식량이 영구히 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 해당 보너스는 시대가 바뀔 때마다 [COLOR_NEGATIVE_TEXT]50%[ENDCOLOR]씩 감소합니다. "황후 경축일"이 열리는 동안 도시의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_GREAT_WORK]걸작을 제작하거나 도시를 획득하면 5턴의 [COLOR_POSITIVE_TEXT]황후 경축일[ENDCOLOR]을 맞이하고 모든 도시의 [ICON_FOOD]식량이 영구히 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 해당 보너스는 시대가 바뀔 때마다 [COLOR_NEGATIVE_TEXT]50%[ENDCOLOR]씩 감소합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ART_OF_WAR';
 
 UPDATE Language_ko_KR
@@ -203,7 +203,7 @@ SET Text = '위대한 조상'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]을 연구하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
+SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, [ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]을 연구하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 
 UPDATE Language_ko_KR
@@ -248,7 +248,7 @@ SET Text = '단결심'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '근접 및 화약 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 보급을 필요로 하지 않습니다. 군사 유닛 10명마다 [ICON_CULTURE] 문화 및 [ICON_TOURISM]관광 +1을 얻습니다. [ICON_CITIZEN] 시민에 의한 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 25% 증가합니다.'
+SET Text = '근접 및 화약 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 군사 보급을 필요로 하지 않습니다. 군사 유닛 10개마다 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 +1을 얻습니다. [ICON_CITIZEN] 시민에 의한 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 +15% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE';
 
 UPDATE Language_ko_KR
@@ -411,7 +411,7 @@ SET Text = '마하트마'
 WHERE Tag = 'TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT][ICON_RELIGION_PANTHEON] 종교관[ENDCOLOR]을 보유하고 시작합니다. 위대한 선지자의 첫 번째 종교 전파 행동을 사용해 [ICON_RELIGION] 종교를 창시하거나 강화하거나, 성지를 건설할 수 있으며 이 경우 선지자가 소모되지 않습니다. [COLOR_NEGATIVE_TEXT]선교사를 생산할 수 없습니다.[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT][ICON_RELIGION_PANTHEON] 종교관[ENDCOLOR]을 보유하고 시작합니다. [ICON_PROPHET] 위대한 선지자는 [ICON_PEACE] 신앙을 35% 적게 필요로 합니다. 위대한 선지자의 첫 번째 종교 전파 행동을 사용해 [ICON_RELIGION] 종교를 창시하거나 강화하거나, 성지를 건설할 수 있으며 이 경우 선지자가 소모되지 않습니다. [COLOR_NEGATIVE_TEXT]선교사를 생산할 수 없습니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TRAIT_POPULATION_GROWTH';
 
 UPDATE Language_ko_KR
@@ -434,7 +434,7 @@ SET Text = '팔라파 맹세'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 얻을 때 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 출현합니다. [ICON_MONOPOLY] 글로벌 독점 기업의 고유한 [ICON_GOLDEN_AGE] 산출량과 [ICON_GOLDEN_AGE] 황금기 지속 시간 수정치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 산출량과 [ICON_HAPPINESS_1] 행복도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 획득하면 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 근처에 나타납니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 고유한 [ICON_GOLDEN_AGE] 산출량과 [ICON_GOLDEN_AGE] 황금기 지속 시간 수정치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 산출량과 [ICON_HAPPINESS_1] 행복도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE';
 
 UPDATE Language_ko_KR
@@ -449,7 +449,7 @@ WHERE Tag = 'TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_STRATEGY';
 -- Iroquois
 --------------------
 UPDATE Language_ko_KR
-SET Text = '유닛이 숲 및 [정글 타일에서 도로가 설치된 것처럼 이동하고 숲 및 정글 타일을 [ICON_CONNECTED][COLOR_POSITIVE_TEXT]도시 연결[ENDCOLOR]에 사용할 수 있습니다. 지상 군사 유닛에 [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_WOODSMAN}[ENDCOLOR] 승급을 부여합니다. 사회 정책을 채택하면 [ICON_CAPITAL] 수도의 다음 [ICON_DIPLOMAT] {TXT_KEY_UNIT_TADODAHO}에 대한 진행률이 15% 증가합니다.'
+SET Text = '유닛이 숲 및 정글 타일에서 도로가 설치된 것처럼 이동하고 숲 및 정글 타일을 [ICON_CONNECTED][COLOR_POSITIVE_TEXT]도시 연결[ENDCOLOR]에 사용할 수 있습니다. 지상 군사 유닛에 [COLOR_PLAYER_PURPLE]{TXT_KEY_PROMOTION_WOODSMAN}[ENDCOLOR] 승급을 부여합니다. 사회 정책을 채택하면 [ICON_CAPITAL] 수도의 다음 [ICON_DIPLOMAT] {TXT_KEY_UNIT_TADODAHO}에 대한 진행률이 15% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST';
 
 UPDATE Language_ko_KR

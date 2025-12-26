@@ -315,7 +315,7 @@
 			<Text>필요 정책: [COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH">
-			<Text>모든 [COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책 필요</Text>
+			<Text>어느 [COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책이든 필요</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH_OPENER">
 			<Text>[COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 정책 개방 필요</Text>
@@ -785,7 +785,7 @@
 			<Text>문명 규모 [ICON_HAPPINESS_4] 불행 {2_Sign}{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_GLOBAL">
-			<Text>[ICON_HAPPINESS_1] 모든 도시의 불행 {2_Sign}{1_Num}</Text>
+			<Text>[ICON_HAPPINESS_1] 모든 도시의 행복 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_POLICY_CAPITAL">
 			<Text>모든 정책 채택시 [ICON_CAPITAL] 수도의 [ICON_HAPPINESS_1] 행복 {1: plural 1?+1; other?+1/{1_Num};}</Text>
@@ -1969,13 +1969,13 @@
 			<Text>도시 공습 전투력: [ICON_RANGE_STRENGTH] {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_1">
-			<Text>"여왕경축일"! ({1_Num})</Text>
+			<Text>"황후 경축일"! ({1_Num}턴 남음)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_1">
-			<Text>이 도시는 "여왕경축일"이라는 기념일을 맞이하여 도시의 [ICON_FOOD] 식량 성장 수정치를 높여줍니다!</Text>
+			<Text>이 도시는 "황후 경축일"이라는 기념일을 맞이하여 도시의 [ICON_FOOD] 식량 성장 수정치를 높여줍니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_1">
-			<Text>이 자원을 당신의 교역망에 연결하면 이 도시는 "여왕경축일"을 맞이합니다.</Text>
+			<Text>이 자원을 당신의 교역망에 연결하면 이 도시는 "황후 경축일"을 맞이합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_2">
 			<Text>카니발! ({1_Num})</Text>

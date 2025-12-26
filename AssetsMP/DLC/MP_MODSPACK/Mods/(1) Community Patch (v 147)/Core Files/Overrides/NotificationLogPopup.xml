@@ -88,10 +88,10 @@
         <Box Size="880,20" Color="0,0,0,0">
           <Stack Size="880,20" StackGrowth="Right">
             <Box Size="780,18" Color="0,0,0,0">
-              <Label Font="TwCenMT18" FontStyle="Shadow" String="Instant Yield Type" />
+              <Label Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_LABEL_INSTANT_YIELD_TYPE" />
             </Box>
             <Box Size="100,18" Color="0,0,0,0">
-              <Label Font="TwCenMT18" FontStyle="Shadow" String="Notification" />
+              <Label Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_LABEL_INSTANT_YIELD_NOTI" />
             </Box>
           </Stack>
         </Box>

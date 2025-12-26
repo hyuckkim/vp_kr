@@ -28,6 +28,8 @@
   <References />
   <Blocks />
   <Files>
+    <File md5="D7511D37979C68F1EFECF42FF58C24BC" import="0">Core Files/Overrides/NotificationLogPopup.xml</File>
+    <File md5="57CD19F293F9C8F51516F38AE03CBDD1" import="0">Core Files/Overrides/NotiText.xml</File>
     <File md5="1CF5819F789BE76FB319FB0B8C85B885" import="0">Database Changes/Text/ko_KR/AI/CoreDiplomacyResponseTextChanges.sql</File>
     <File md5="D5AD4B060575DBBA33CAE53C415DADC3" import="0">Database Changes/Text/ko_KR/AI/CoreNewDiplomacyResponseText.xml</File>
     <File md5="3C3017852F924A2B47BEDC3B9E4B1258" import="0">Database Changes/Text/ko_KR/AI/CoreStrategyTextChanges.sql</File>
@@ -45,10 +47,10 @@
     <File md5="4EB63557369D8EEBE7447FA64FA5E96B" import="0">Database Changes/Text/ko_KR/CoreNewReplayDataSetText.xml</File>
     <File md5="C2DED458FD34CC809EF3D0A4DBFFA3B0" import="0">Database Changes/Text/ko_KR/Espionage/CoreNewEspionageText.xml</File>
     <File md5="88BA7EE5D5D0D67AACDC174715DD307B" import="0">Database Changes/Text/ko_KR/Minors/CoreMinorTextChanges.sql</File>
-    <File md5="5AF967894132ED59FAD3AD79BAC2B6C2" import="0">Database Changes/Text/ko_KR/Notifications/CoreNewNotificationText.xml</File>
+    <File md5="C67F9E7D314CFCAC2FEA10E20EDC7E48" import="0">Database Changes/Text/ko_KR/Notifications/CoreNewNotificationText.xml</File>
     <File md5="2D12EE2E0BA6421576C6DFEEA03A6D91" import="0">Database Changes/Text/ko_KR/Notifications/CoreNotificationTextChanges.sql</File>
     <File md5="A97EE5FDC48E2C0E8649655B2C3DC84F" import="0">Database Changes/Text/ko_KR/Religions/CoreReligionTextChanges.sql</File>
-    <File md5="E0EC5379209FC087F0042E0883483DAB" import="0">Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</File>
+    <File md5="7E7B996F3E64A1DF5A7063B53A4F2E2B" import="0">Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</File>
     <File md5="4A48253946F24AABECC055C520503218" import="0">Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</File>
     <File md5="E372544E55E72833364159A9E4A545CC" import="0">Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</File>
     <File md5="E47E09BD0E27E51D337B6DF2954F041A" import="0">Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</File>
@@ -65,6 +67,8 @@
   </Files>
   <Actions>
     <OnModActivated>
+      <UpdateDatabase>Core Files/Overrides/NotificationLogPopup.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Overrides/NotiText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/AI/CoreDiplomacyResponseTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/AI/CoreNewDiplomacyResponseText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/AI/CoreStrategyTextChanges.sql</UpdateDatabase>
