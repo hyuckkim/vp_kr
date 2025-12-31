@@ -18,6 +18,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_INDEPENDENCEHALL">
 			<Text>국보</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_INDEPENDENCE_HALL_THEMING_BONUS_HELP">
 			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 [COLOR_POSITIVE_TEXT]당신 문명[ENDCOLOR]이 만든 [COLOR_YELLOW]예술품[ENDCOLOR]으로 채우십시오.</Text>
@@ -36,6 +37,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WEST_POINT">
 			<Text>웨스트 포인트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WEST_POINT_HELP">
 			<Text></Text>
@@ -64,6 +66,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_HOMESTEAD">
 			<Text>홈스테드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOMESTEAD_HELP">
 			<Text></Text>
@@ -104,6 +107,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_HASHEMITE_RAIDER">
 			<Text>하심 레이더</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HASHEMITE_RAIDER_HELP">
 			<Text></Text>
@@ -138,6 +142,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_IRON_CHARIOT">
 			<Text>철제 전차</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_IRON_CHARIOT_HELP">
 			<Text></Text>
@@ -165,6 +170,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_BALLHAUSPLATZ">
 			<Text>발하우스플라츠</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BALLHAUSPLATZ_HELP">
 			<Text></Text>
@@ -178,6 +184,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_GRENZER">
 			<Text>그렌처</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GRENZER_HELP">
 			<Text></Text>
@@ -192,6 +199,7 @@
 		<!-- 아즈텍 -->
 		<Row Tag="TXT_KEY_BUILDING_TELPOCHCALLI">
 			<Text>텔포치칼리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TELPOCHCALLI_HELP">
 			<Text></Text>
@@ -205,6 +213,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_HUEY_TEOCALLI">
 			<Text>우에이 테오칼리</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HUEY_TEOCALLI_HELP">
 			<Text></Text>
@@ -218,6 +227,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_OTOMI">
 			<Text>오토미</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OTOMI_HELP">
 			<Text></Text>
@@ -245,6 +255,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_ETEMENANKI">
 			<Text>에테멘앙키</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ETEMENANKI_HELP">
 			<Text></Text>
@@ -260,6 +271,7 @@
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTE">
 			<Text>반데이란테</Text>
 			<Plurality>2</Plurality>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTE_TEXT">
 			<Text>반데이란테(국기를 들고 다니는 사람들)는 17세기 브라질에 정착한 포르투갈인 정착민이자 행운의 사냥꾼이었습니다. 그들은 공식적으로 카스티야 또는 후에 스페인 (서쪽) 영토를 남아메리카의 포르투갈 (동쪽) 영토로부터 분할한 1494년 토르데시야스 선의 남쪽과 서쪽 멀리 브라질 내륙을 관통하는 반데이라스("깃발")라고 불리는 탐험대를 이끌었습니다. 비록 그들이 원래 아메리카 원주민들을 사로잡고 노예로 강제하는 것을 목표로 했지만, 밴더란테들은 나중에 금, 은, 그리고 다이아몬드 광산을 찾는 데 그들의 탐험에 초점을 맞추기 시작했습니다. 그들이 이윤과 모험을 찾아 지도에 없는 지역으로 모험을 떠나면서, 그들은 브라질 식민지의 효과적인 국경을 확장했습니다.</Text>
@@ -273,6 +285,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_EMBRAPA">
 			<Text>엠브라파</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EMBRAPA_HELP">
 			<Text></Text>
@@ -286,6 +299,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_AMAZONAS">
 			<Text>아마조나스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AMAZONAS_HELP">
 			<Text></Text>
@@ -300,6 +314,7 @@
 		<!-- 비잔티움 -->
 		<Row Tag="TXT_KEY_BUILDING_TETRACONCH">
 			<Text>테트라콘치</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TETRACONCH_TEXT">
 			<Text>수세기에 걸쳐, 비잔틴 건축은 점차 더 오래된 로마 양식에서 멀어져 갔습니다. 비잔틴 양식의 건물들은 종종 높은 돔과 복잡한 모자이크 작업과 훨씬 더 많은 돌과 벽돌 건축물로 유명합니다. 그리스어로 "네 개의 껍질"을 의미하는 테트라콘 교회들은 비잔틴 건축의 가장 높은 업적을 나타냅니다. 이 건물들의 평면도는 4개의 돔형 아파스를 포함하고 있으며, 중앙 공간은 높은 돔으로 덮인 십자가 모양을 하고 있습니다. 그 형태는 무덤과 세례원에서 널리 사용되었고 이후의 오스만과 르네상스의 건축 전통을 알렸습니다.</Text>
@@ -346,6 +361,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_ASAMU">
 			<Text>아사무</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ASAMU_HELP">
 			<Text></Text>
@@ -364,6 +380,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_SCYTHED_CHARIOT">
 			<Text>낫전차</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SCYTHED_CHARIOT_HELP">
 			<Text></Text>
@@ -453,6 +470,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_ANDELSBEVAEGELSE">
 			<Text>안델스베베겔세</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ANDELSBEVAEGELSE_HELP">
 			<Text></Text>
@@ -480,6 +498,7 @@
 		<!-- 이집트 -->
 		<Row Tag="TXT_KEY_UNIT_MAMLUK">
 			<Text>맘루크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MAMLUK_HELP">
 			<Text></Text>
@@ -493,6 +512,7 @@
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_OBELISK">
 			<Text>오벨리스크</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_OBELISK_HELP">
 			<Text>이집트의 고유 시설입니다.[NEWLINE][NEWLINE]랜드마크처럼 고대 유적지에만 건설할 수 있지만, 유적지를 제거하지는 않습니다. [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙, [ICON_GOLDEN_AGE] 황금기 점수를 제공합니다.</Text>
@@ -513,6 +533,7 @@
 		<!-- 영국 -->
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER">
 			<Text>화이트 타워</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_TEXT">
 			<Text>화이트 타워는 런던 타워의 오래된 건물입니다. 그것은 1080년대 초에 정복자 윌리엄에 의해 지어졌고 나중에 확장되었습니다. 하얀 탑은 성의 가장 강력한 방어 지점이었고, 원래 왕과 그의 대리인들을 수용했습니다. 오랜 역사를 통해, 타워는 영국에 많은 것들이 되었습니다. 폭정의 상징, 금고, 관리소, 조폐소, 궁전, 감옥입니다. 오늘날, 런던탑은 많은 보물들 중, 영국 왕실의 왕관 보석을 자랑하는 거대한 박물관입니다.</Text>
@@ -539,6 +560,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_REDCOAT">
 			<Text>레드코트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_REDCOAT_HELP">
 			<Text></Text>
@@ -557,6 +579,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_CHEWA">
 			<Text>체와</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHEWA_HELP">
 			<Text></Text>
@@ -570,6 +593,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_OROMO_CAVALRY">
 			<Text>오로모족 기병대</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OROMO_CAVALRY_HELP">
 			<Text></Text>
@@ -583,6 +607,7 @@
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_MONOLITHIC_CHURCH">
 			<Text>암굴 교회</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_MONOLITHIC_CHURCH_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_MONOLITHIC_CHURCH_HELP}[NEWLINE][NEWLINE]"모놀리식 교회"(또는 "암굴 교회")라는 용어는 단일 돌로 지어진 교회를 지칭하지만, 에티오피아 랄리벨라에 있는 11개 교회 단지를 지칭하는 데 가장 많이 사용됩니다. 이 교회들은 12세기에 독실한 기독교인이었던 게브레 메스켈 랄리벨라 왕에 의해 건설되었습니다. 이 '새로운 예루살렘'은 에티오피아 중심부의 산악 지역에 위치하고 있으며, 오늘날까지도 기독교 순례의 중요한 중심지입니다.[NEWLINE][NEWLINE]랄리벨라 외에도 티그라이를 비롯한 여러 곳에서 모놀리식 교회가 발견됩니다. 이러한 교회는 가톨릭 사제인 아바 테웰데 메딘 요셉이 120개가 넘는 암굴 교회가 존재하고, 그 중 90개가 아직도 사용되고 있다고 발표하기 전까지 외부 세계에 거의 알려지지 않았습니다. 그 후 몇 년 동안 알려진 교회의 수는 153개로 늘어났습니다.[NEWLINE][NEWLINE]암굴 교회는 [ICON_RES_STONE] 석재, 언덕 위에 자원 없이 지을 수 있으며, 다른 암굴 교회 옆에 지을 수 없습니다.</Text>
@@ -628,15 +653,19 @@
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_SALON_1">
 			<Text>승전화 갤러리(Galerie des Batailles)</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_SALON_2">
 			<Text>건축 삽화(Illustrations Architecturales)</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_SALON_3">
 			<Text>복수 전공(Ensemble de Diplômes)</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_SALON_4">
 			<Text>이국적인 컬렉션(Collection Exotique)</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SALON_THEMING_BONUS_HELP">
 			<Text>보너스를 극대화하려면 모든 걸작 슬롯이 같은 외국 문명과 같은 시대의 예술품으로 채워져 있는지 확인하세요.</Text>
@@ -671,6 +700,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_KRUPP_GUN">
 			<Text>크루프 포</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KRUPP_GUN_HELP">
 			<Text></Text>
@@ -700,6 +730,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_KLEPHT">
 			<Text>클레프테스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KLEPHT_HELP">
 			<Text></Text>
@@ -714,6 +745,7 @@
 		<!-- 훈족 -->
 		<Row Tag="TXT_KEY_IMPROVEMENT_EKI">
 			<Text>에키</Text>
+			<Plurality>2</Plurality>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_EKI_TEXT">
@@ -747,6 +779,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_ULTICUR">
 			<Text>울티쿠</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ULTICUR_HELP">
 			<Text></Text>
@@ -780,6 +813,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_QULLQA">
 			<Text>퀄카</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_QULLQA_HELP">
 			<Text></Text>
@@ -807,6 +841,7 @@
 		<!-- 인도 -->
 		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR">
 			<Text>하라파 저수지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR_TEXT">
 			<Text>파키스탄과 인도의 일부를 포함한 서북남아시아의 고대 하라판 및 인더스 계곡 문명은 수력 공학에서 두드러졌고, 최초의 물 공급과 위생 장치를 많이 가지고 있었습니다. 무엇보다도, 그것들은 세계에서 가장 오래된 수세식 화장실 시스템을 포함하고 있었습니다. 이것들은 많은 가정에서 존재했고, 일반적인 하수관과 연결되어 있었습니다. 대부분의 집에는 개인 우물도 있었습니다. 도시 성벽은 홍수에 대한 장벽으로 기능했고, 가뭄을 막기 위해 이 홍수 물을 모으기 위해 거대한 저수지가 종종 이 벽을 따라 건설되었습니다.</Text>
@@ -820,6 +855,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_DHANURDHARA">
 			<Text>다누르다라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DHANURDHARA_HELP">
 			<Text></Text>
@@ -868,6 +904,7 @@
 		<!-- 이로쿼이 -->
 		<Row Tag="TXT_KEY_UNIT_PROWLER">
 			<Text>프라울러</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROWLER_HELP">
 			<Text></Text>
@@ -881,6 +918,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_TADODAHO">
 			<Text>타도다호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TADODAHO_HELP">
 			<Text></Text>
@@ -962,6 +1000,7 @@
 		<!-- 마야 -->
 		<Row Tag="TXT_KEY_IMPROVEMENT_KUNA">
 			<Text>쿠나</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_KUNA_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_KUNA_HELP}[NEWLINE][NEWLINE]'쿠나'는 마야어로 사원이나 교회를 뜻합니다. 쿠나는 유라시아의 지구라트나 피라미드와 디자인이 비슷했습니다. 쿠나 그 자체로도 이러한 고대 유적지들 중 대부분으로 남아있지만, 한때는 대도시의 중심지이기도 했습니다. 가장 유명한 것은 치첸이사인데, 세계 불가사의의 자격이 될 정도로 웅장합니다!</Text>
@@ -981,6 +1020,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_PITZ_COURT">
 			<Text>피츠 코트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PITZ_COURT_HELP">
 			<Text></Text>
@@ -1008,6 +1048,7 @@
 		<!-- 몽골 -->
 		<Row Tag="TXT_KEY_BUILDING_GER">
 			<Text>게르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GER_TEXT">
 			<Text>몽골 사람들에 의해 '게르'라고 불리는 유르트는 중앙아시아 스텝의 유목민들에 의해 전통적으로 그들의 보금자리로 사용되는 이동 가능하고 구부러진 주거 구조입니다. 구조는 크라운 또는 압축 휠(보통 증기가 휘어짐)로 구성되며, 루프 리브에 의해 지지되며, 루프 리브는 격자 벽과 만나는 단부에서 아래로 휘어집니다(다시 증기가 휘어짐). 루프 리브의 힘에 대항하는 장력 밴드를 사용하여 벽 상단이 퍼지는 것을 방지합니다. 그 구조물은 보통 단열과 내후성을 위해 천과 양의 털 펠트 층으로 덮여 있습니다. 유르트의 전통적인 장식은 주로 패턴에 기반합니다. 이러한 문양은 일반적으로 취향에 따라 만들어진 것이 아니라, 특정한 상징성을 지닌 신성한 장신구에서 파생된 것입니다. 힘을 나타내는 상징은 카(사자, 호랑이, 가루다, 용)와 다섯 가지 요소(불, 물, 흙, 금속, 나무)의 양식화된 표현뿐만 아니라 우주의 기본적이고 변하지 않는 요소라고 여겨지는 카(사자, 호랑이, 가루다, 용)를 포함한 가장 일반적인 것들 중 하나입니다. 이러한 패턴은 힘을 가져오고 보호를 제공한다는 믿음과 함께 가정에서 일반적으로 사용됩니다.</Text>
@@ -1020,6 +1061,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_ORDO">
 			<Text>오르도</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_ORDO_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_ORDO_HELP}[NEWLINE][NEWLINE]간단히 번역하면, "오르도"는 "궁전의 텐트"를 의미합니다. 하지만, 오르도는 단순한 텐트 이상의 것이었습니다. 그것은 유목민 몽골인 부족의 중심이었습니다.[NEWLINE][NEWLINE]오르도는 칸과 그의 전사들을 위한 본부이자 주요 야영지 역할을 했습니다. 비록 여행을 위해 지어졌지만, 그것은 단순한 장식에서부터 정성스럽게 바느질된 패턴에 이르기까지 스타일을 가지고 있었습니다. 오르도는 칸과 그의 전사들과 함께 그들이 어디를 여행하든 항상 편안함을 느끼도록 했습니다.[NEWLINE][NEWLINE]영토 내 또는 영토에 바로 인접한 곳에 오르도를 건설할 수 있습니다. 오르도를 건설하면 군사 유닛 공급 한도가 1 증가하고 문화적 경계도 오르도를 사방으로 둘러싼 육각형 1개로 확장됩니다. 새로운 문화적 경계가 다른 문명이 이미 소유한 육각형을 차지하면 외교적 페널티가 부과됩니다. 시타델과 달리 오르도 옆에서 턴을 끝낸 적 유닛은 피해를 입지 않습니다.</Text>
@@ -1036,6 +1078,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_BLACK_TUG">
 			<Text>검은 터그</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BLACK_TUG_HELP">
 			<Text></Text>
@@ -1063,6 +1106,7 @@
 		<!-- 모로코 -->
 		<Row Tag="TXT_KEY_BUILDING_RIAD">
 			<Text>리야드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIAD_HELP">
 			<Text></Text>
@@ -1076,6 +1120,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_CORSAIR">
 			<Text>커세어</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CORSAIR_HELP">
 			<Text></Text>
@@ -1142,6 +1187,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD">
 			<Text>대형 사석포</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_HELP">
 			<Text></Text>
@@ -1154,22 +1200,28 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_1">
 			<Text>바실리카</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_2">
 			<Text>다르다넬스 대포</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_3">
 			<Text>무함마드의 거포</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_4">
 			<Text>오르반의 대포</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_BOMBARD_5">
 			<Text>칼레 아시치</Text>
+			<Plurality>2</Plurality>
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_TERSANE">
 			<Text>테르사네</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_TERSANE_HELP">
 			<Text>오스만 고유 위인 타일 시설입니다. 도시에 인접해 있지만 다른 테르사네에 인접해 있지 않은 [ICON_GREAT_ADMIRAL] 위대한 제독이나 탑승한 [ICON_GREAT_GENERAL] 위대한 장군을 소모하여 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_GOLD] 골드, [ICON_PRODUCTION] 생산력, [ICON_RESEARCH] 과학, [ICON_GREAT_ADMIRAL] 위대한 제독 점수를 제공합니다. 인접 도시에 건설된 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 +15 증가합니다. 같은 도시 옆에 여러 개의 테르사네가 있는 경우 중첩되지 않습니다.[NEWLINE][NEWLINE]테르사네를 건설하면 인접한 타일도 차지합니다. 테르사네 위에 서 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 50% 증가합니다. 인접한 적군 유닛에 30의 피해를 입힙니다.</Text>
@@ -1189,6 +1241,7 @@
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_CHARBAGH">
 			<Text>차르바그</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_CHARBAGH_TEXT">
 			<Text>차르바그는 인도-페르시아 문화의 특징인 4개의 정사각형 구역으로 나뉜 벽으로 둘러싸인 정원입니다. 이 정원의 뿌리는 아케메네스 제국의 파이리다에자에서 찾을 수 있으며, 어쩌면 그보다 더 먼 옛날 아시리아의 정원 디자인까지 거슬러 올라갈 수도 있습니다. 차르바그 건축은 국가의 귀중한 도구였으며, 황무지였던 지역에 생명을 불어넣는 왕의 능력을 보여주는 것이었습니다. 각진 형태의 질서 있는 건축은 자연의 혼돈과 대조를 이루었습니다. 페르시아와 그 이후의 페르시아 문화권에서는 정원을 건설하여 왕이 자신의 영역과 그 안의 자연에 대한 지배력을 은밀하게 보여주는 방식으로 공공 공간을 조성했습니다.[NEWLINE][NEWLINE]페르시아 정원은 지중해와 서양 사상가들의 상상력을 사로잡았습니다. 파이리다에자는 그리스어의 "낙원"의 어근으로, 현대 예술과 시에서 지상의 에덴에 대한 개념을 형성하는 데 기여했습니다.[NEWLINE][NEWLINE]차르바그는 깨끗한 물을 이용할 수 있는 땅에 [ICON_WORKER] 노동자가 건설할 수 있으며, 다른 차르바그 옆에 건설할 수 없습니다.[NEWLINE][NEWLINE]각 차르바그는 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화를 생산합니다. [ICON_GOLDEN_AGE] 황금기에는 차르바그의 산출량이 [ICON_GOLD] 골드 +1에 더해 [ICON_PRODUCTION] 생산력 +1과 [ICON_CULTURE] 문화 +1이 증가합니다. [NEWLINE][NEWLINE]작업한 차르바그 하나당 도시의 [ICON_GREAT_PEOPLE] 위인 점수가 +5% 증가합니다.</Text>
@@ -1208,6 +1261,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_QIZILBASH">
 			<Text>키질바시</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_QIZILBASH_HELP">
 			<Text></Text>
@@ -1235,6 +1289,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_PANCERNY">
 			<Text>판체르니</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PANCERNY_HELP">
 			<Text></Text>
@@ -1249,6 +1304,7 @@
 		<!-- 폴리네시아 -->
 		<Row Tag="TXT_KEY_BUILDING_MARAE">
 			<Text>마라이</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MARAE_HELP">
 			<Text></Text>
@@ -1262,6 +1318,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_VAKA_NUI">
 			<Text>바카 누이</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_VAKA_NUI_HELP">
 			<Text></Text>
@@ -1276,6 +1333,7 @@
 		<!-- 포르투갈 -->
 		<Row Tag="TXT_KEY_UNIT_CACADOR">
 			<Text>카사도르</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CACADOR_HELP">
 			<Text></Text>
@@ -1289,6 +1347,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_COIMBRA">
 			<Text>코임브라 대학교</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_COIMBRA_HELP">
 			<Text></Text>
@@ -1303,6 +1362,7 @@
 		<!-- 로마 -->
 		<Row Tag="TXT_KEY_BUILDING_FORNIX">
 			<Text>포르닉스</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FORNIX_HELP">
 			<Text></Text>
@@ -1316,6 +1376,7 @@
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_VILLA">
 			<Text>빌라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_VILLA_HELP">
 			<Text>로마 고유 시설입니다. 자원 위에 건설할 수 없으며, 도시나 다른 빌라 근처에도 건설할 수 없습니다.[NEWLINE][NEWLINE]빌라 건설 시, 빌라 옆에 있는 자원이 없는 타일에 [ICON_RES_FIGS] 무화과 자원이 나타나며, 해당 타일이 소유자가 없으면 해당 타일을 차지합니다. 빌라가 제거되면 [ICON_RES_FIGS] 무화과 자원도 제거됩니다.[NEWLINE]타일에 추가 [ICON_CULTURE] 문화를 제공하고, [ICON_CAPITAL] 수도에 [ICON_FOOD] 식량을 +2 제공합니다.[NEWLINE]인접한 재배지의 [ICON_CULTURE] 문화와 [ICON_GOLD] 골드가 +1 증가합니다.[NEWLINE]인접한 농장의 [ICON_FOOD] 식량과 [ICON_GOLD] 골드가 +1 증가합니다.</Text>
@@ -1336,6 +1397,7 @@
 		<!-- 러시아 -->
 		<Row Tag="TXT_KEY_BUILDING_POGOST">
 			<Text>포고스트</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_POGOST_HELP">
 			<Text></Text>
@@ -1363,6 +1425,7 @@
 		<!-- 쇼숀 -->
 		<Row Tag="TXT_KEY_IMPROVEMENT_VP_ENCAMPMENT">
 			<Text>티피</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_VP_ENCAMPMENT_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_VP_ENCAMPMENT_HELP}[NEWLINE][NEWLINE]티피는 전통적으로 동물의 가죽과 나무 막대기로 만들어진 원뿔형 텐트이다. 티피는 북아메리카의 대평원의 유목민 부족들의 야영지에서 사용되었다. 티피는 일반적으로 미국 원주민과 연관되어 있지만, 그레이트 플레인스 이외의 지역에서 온 아메리카 원주민들은 대부분 다른 종류의 주거지를 사용했다. 티피는 내구성이 강하고, 겨울에는 따뜻함과 편안함을 제공하며, 여름의 더위에는 시원하고, 폭우 시에는 건조하다. 티피스는 한 부족이 이주하기로 결정했을 때 빠르게 분해되고 포장될 수 있었고 새로운 지역에 정착했을 때 빠르게 재건될 수 있었다. 이러한 이동성은 유목 생활을 하는 평원 인디언들에게 중요했다. 현대의 티피 커버는 보통 캔버스로 만들어진다. 현대의 티피 이용자는 역사적 재현자, 전원 생활의 신자, 그리고 그들의 유산과 전통의 일부를 보존하고 물려주기를 원하는 집회나 캠프에 참석하는 아메리카 원주민 가족들을 포함한다.</Text>
@@ -1382,6 +1445,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_BUFFALO_POUND">
 			<Text>버팔로 파운드</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BUFFALO_POUND_HELP">
 			<Text></Text>
@@ -1395,6 +1459,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_YELLOW_BROW">
 			<Text>오하무페</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_YELLOW_BROW_HELP">
 			<Text></Text>
@@ -1409,6 +1474,7 @@
 		<!-- 시암 -->
 		<Row Tag="TXT_KEY_BUILDING_ELEPHANT_CAMP">
 			<Text>코끼리 야영지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ELEPHANT_CAMP_HELP">
 			<Text></Text>
@@ -1436,6 +1502,7 @@
 		<!-- 송가이 -->
 		<Row Tag="TXT_KEY_BUILDING_GUMEY">
 			<Text>구메이</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GUMEY_HELP">
 			<Text></Text>
@@ -1449,6 +1516,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_SOFA">
 			<Text>소파</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SOFA_HELP">
 			<Text></Text>
@@ -1466,9 +1534,11 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_SPAIN_INQUISITOR">
 			<Text>{TXT_KEY_UNIT_HELP_INQUISITOR}[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]스페인 종교재판은 아무도 예상 못하지![ENDCOLOR]</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_HACIENDA">
 			<Text>하시엔다</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_HACIENDA_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_HACIENDA_HELP}[NEWLINE][NEWLINE]하시엔다는 스페인인들이 원주민들로부터 자원을 얻고 관리하기 위해 건설한 식민지이다. 하시엔다는 이전의 엔코미엔다 제도에 의해 기술된 토착 노동력의 엄격한 부여보다는 재산과 기업의 부여에 기반을 두었다. 하시엔다는 일반적으로 큰 사유지였지만, 그 일의 성격은 플랜테이션, 광업, 공장까지 다양했다.[NEWLINE][NEWLINE]하시엔다의 소유자는 하켄다도라고 불렸지만, 부유한 지주들은 그들의 소유지를 거의 방문하지 않았고 근처의 도시에서 사는 것을 선호했다. 하시엔다의 일상적인 운영은 고용된 관리자의 책임이었다. 몇몇 비정상적으로 크고 수익성이 높은 아시엔다들은 로마 가톨릭 교회의 재산이었고, 토착 노동자들과 그들의 기독교 작업 주인들 사이의 긴장을 악화시켰다.[NEWLINE][NEWLINE]아시엔다 제도는 스페인 제국이 해체된 후 대부분의 국가에서 폐지되었지만, 결과는 엇갈렸다. 대규모 사유지를 자급자족하는 농부들을 위한 개별 소유지로 분리하려는 노력은 일부 남미 국가들에서 극심한 빈곤을 초래했다. 이와는 대조적으로, 라틴 아메리카와 필리핀의 하시엔다는 대부분 온전하게 남아있었지만, 그들의 식민지 시대에 대한 동일한 법적 지위나 허가가 없었다.</Text>
@@ -1501,6 +1571,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_ARMADA">
 			<Text>아르마다</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ARMADA_HELP">
 			<Text></Text>
@@ -1515,6 +1586,7 @@
 		<!-- 스웨덴 -->
 		<Row Tag="TXT_KEY_BUILDING_BASTU">
 			<Text>바스투</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASTU_HELP">
 			<Text></Text>
@@ -1528,6 +1600,7 @@
 
 		<Row Tag="TXT_KEY_BUILDING_NOBEL_COMMITTEE">
 			<Text>노벨상 위원회</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NOBEL_COMMITTEE_HELP">
 			<Text></Text>
@@ -1542,6 +1615,7 @@
 		<!-- 베네치아 -->
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO">
 			<Text>피아자 산 마르코</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_TEXT">
 			<Text>피아자 산 마르코(산 마르코 광장)는 이탈리아 베네치아의 광장입니다. 도시의 다른 모든 공간은 "캄피"(밭)라고 불립니다. 피아제타('작은 광장')는 광장의 남동쪽 구석에 있는 석호를 향해 연장된 것입니다. 이 두 공간은 함께 베네치아의 사회적, 종교적, 정치적 중심지를 형성하며 일반적으로 함께 건설됩니다.</Text>
@@ -1556,6 +1630,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT">
 			<Text>리알토 지구</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_TEXT">
 			<Text>리알토는 수세기 동안 베네치아의 금융과 상업의 중심지였고 지금도 그렇습니다. 리알토는 시장과 대운하를 가로지르는 리알토 다리로도 유명한 이탈리아 베네치아의 산 폴로 세스티에 지역입니다. 이 지역은 리오 부시니아쿠스의 양쪽에 있는 레알티네 제도 중앙의 작은 지역이 리보알투스 또는 "높은 은행"으로 알려졌을 때 9세기에 정착했습니다. 결국 부시니아쿠스는 대운하로 알려지게 되었고, 리알토 지역은 왼쪽 둑의 지역만을 지칭하게 되었습니다.</Text>
@@ -1568,6 +1643,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA">
 			<Text>아르세날레 디 베네치아</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA_TEXT">
 			<Text>아르세날레 디 베네치아는 이탈리아 북부 베네치아 시에 있는 옛 조선소와 무기고가 모여 있는 복합 건물입니다. 국가 소유의 이 건물은 서기 2천년 중반 동안 베네치아 공화국의 해군 전력 대부분을 책임졌습니다. 그것은 역사상 최초의 대규모 산업체 중 하나였습니다.</Text>
@@ -1599,9 +1675,11 @@
 		<Row Tag="TXT_KEY_CITY_NAME_CATTARO">
 			<Text>카타로 </Text>
 			<Plurality>2</Plurality>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CORFU">
 			<Text>코르푸</Text>
+			<Plurality>2</Plurality>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CORON">
@@ -1610,9 +1688,11 @@
 		<Row Tag="TXT_KEY_CITY_NAME_CANDIA">
 			<Text>칸디아</Text>
 			<Plurality>2</Plurality>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_CHIOGGIA">
 			<Text>키오자</Text>
+			<Plurality>2</Plurality>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_MODON">
@@ -1621,22 +1701,27 @@
 		<Row Tag="TXT_KEY_CITY_NAME_ERACLEA">
 			<Text>에라끌레아</Text>
 			<Plurality>2</Plurality>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_AQUILEA">
 			<Text>아퀼리아</Text>
+			<Plurality>2</Plurality>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_SPALATO">
 			<Text>스팔라토</Text>
 			<Plurality>2</Plurality>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_NAME_ZADAR">
 			<Text>자다르</Text>
+			<Plurality>2</Plurality>
 			<Plurality>2</Plurality>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_FUSTA">
 			<Text>푸스타</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FUSTA_HELP">
 			<Text></Text>
@@ -1649,83 +1734,109 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_01">
 			<Text>아르메라호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_02">
 			<Text>베르나르다호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_03">
 			<Text>코레사호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_04">
 			<Text>콘타리나호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_05">
 			<Text>콘테사호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_06">
 			<Text>도나다호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_07">
 			<Text>피가호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_08">
 			<Text>그라데니가호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_09">
 			<Text>그리마나호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_10">
 			<Text>라이오나호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_11">
 			<Text>말리피에라호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_12">
 			<Text>마르셀라호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_13">
 			<Text>마르젤라호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_14">
 			<Text>모스타호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_15">
 			<Text>판도라호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_16">
 			<Text>판테아호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_17">
 			<Text>파스칼리가호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_18">
 			<Text>페르마리나호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_19">
 			<Text>시미테콜라호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_20">
 			<Text>소란자호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_21">
 			<Text>벤드라미나호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_22">
 			<Text>베니에라호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_23">
 			<Text>주스티냐나호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_24">
 			<Text>미셀라호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREAT_GALLEASS_25">
 			<Text>메마호</Text>
+			<Plurality>2</Plurality>
 		</Row>
 
 		<!-- 줄루 -->
 		<Row Tag="TXT_KEY_BUILDING_IZIKO">
 			<Text>이지코</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_IZIKO_HELP">
 			<Text>가능한 테마 보너스:
@@ -1742,6 +1853,7 @@
 
 		<Row Tag="TXT_KEY_UNIT_INDUNA">
 			<Text>인두나</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_HELP">
 			<Text></Text>
@@ -1754,58 +1866,75 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_01">
 			<Text>음질리카지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_02">
 			<Text>음보파</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_03">
 			<Text>은칭와요 카마홀레</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_04">
 			<Text>나다니엘 아이작</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_05">
 			<Text>은들라 카솜피시</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_06">
 			<Text>움고보지 오벨라 엔타베니</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_07">
 			<Text>농갈라자 카논델라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_08">
 			<Text>다불라만지 캄판데</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_09">
 			<Text>담부자 은조보</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_10">
 			<Text>은코보카 음티야네</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_11">
 			<Text>마보들라 음부야지</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_12">
 			<Text>멘지웨 비옐라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_13">
 			<Text>갈라 카 노다데</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_14">
 			<Text>부민다바 칸타티</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_15">
 			<Text>마부멩와나 카은들렐라</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_16">
 			<Text>지브헤부 카마피타</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INDUNA_17">
 			<Text>마뇨시</Text>
+			<Plurality>2</Plurality>
 		</Row>
 
 		<Row Tag="TXT_KEY_IMPROVEMENT_ISIBAYA">
 			<Text>이시바야</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_ISIBAYA_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_ISIBAYA_HELP}[NEWLINE][NEWLINE]이시바야(Isibaya)는 줄루족의 홈스테드이자 방어 시설입니다. 이시바야는 중앙에 가축 우리를 두고 그 주변을 오두막, 울타리, 흙담으로 둘러싼 원형 구조로 되어 있습니다. 그 배치와 기능은 유럽의 목장을 연상시키는데, 따라서 아마바야(Amabaya)를 아프리칸스어로 "크랄(Kraal)"이라고 부르기도 합니다.[NEWLINE][NEWLINE]소는 줄루 왕국의 삶과 경제에 있어서 핵심적인 역할을 했습니다. 소는 지위, 부, 권력의 상징이었으며, 줄루 군대의 아마부토(Amabutho) 연대에 식량을 공급하고 무장시키는 데 중요한 역할을 했습니다.</Text>

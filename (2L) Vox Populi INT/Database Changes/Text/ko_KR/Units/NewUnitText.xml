@@ -300,9 +300,11 @@
 		<!-- Unit Combats -->
 		<Row Tag="TXT_KEY_UNITCOMBAT_SETTLER">
 			<Text>개척자</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNITCOMBAT_WORKER">
 			<Text>노동자</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNITCOMBAT_WORKBOAT">
 			<Text>작업선</Text>
@@ -318,9 +320,11 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNITCOMBAT_MISSIONARY">
 			<Text>선교사</Text>
+			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNITCOMBAT_DIPLOMACY">
 			<Text>외교</Text>
+			<Plurality>2</Plurality>
 		</Row>
 
 		<!-- Great Diplomat names -->
