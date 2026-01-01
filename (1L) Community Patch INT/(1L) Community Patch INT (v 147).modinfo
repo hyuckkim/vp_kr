@@ -28,7 +28,6 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="D7511D37979C68F1EFECF42FF58C24BC" import="0">Core Files/Overrides/NotificationLogPopup.xml</File>
     <File md5="57CD19F293F9C8F51516F38AE03CBDD1" import="0">Core Files/Overrides/NotiText.xml</File>
     <File md5="AD20E8730CADEAD6C20114232768FBF4" import="0">Database Changes/Text/ko_KR/AI/CoreDiplomacyResponseTextChanges.sql</File>
     <File md5="14C617366B030DAE8264E9DA67B624F9" import="0">Database Changes/Text/ko_KR/AI/CoreNewDiplomacyResponseText.xml</File>
@@ -67,7 +66,6 @@
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>Core Files/Overrides/NotificationLogPopup.xml</UpdateDatabase>
       <UpdateDatabase>Core Files/Overrides/NotiText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/AI/CoreDiplomacyResponseTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/AI/CoreNewDiplomacyResponseText.xml</UpdateDatabase>
