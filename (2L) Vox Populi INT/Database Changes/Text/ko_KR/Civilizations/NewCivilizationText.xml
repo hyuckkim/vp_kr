@@ -845,9 +845,6 @@
 		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR_TEXT">
 			<Text>파키스탄과 인도의 일부를 포함한 서북남아시아의 고대 하라판 및 인더스 계곡 문명은 수력 공학에서 두드러졌고, 최초의 물 공급과 위생 장치를 많이 가지고 있었습니다. 무엇보다도, 그것들은 세계에서 가장 오래된 수세식 화장실 시스템을 포함하고 있었습니다. 이것들은 많은 가정에서 존재했고, 일반적인 하수관과 연결되어 있었습니다. 대부분의 집에는 개인 우물도 있었습니다. 도시 성벽은 홍수에 대한 장벽으로 기능했고, 가뭄을 막기 위해 이 홍수 물을 모으기 위해 거대한 저수지가 종종 이 벽을 따라 건설되었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR_HELP">
-			<Text></Text>
-		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR_STRATEGY">
 			<Text>{TXT_KEY_BUILDING_AQUEDUCT}를 대체하는 인도의 고유 건물입니다. {TXT_KEY_BUILDING_HARAPPAN_RESERVOIR}는 {TXT_KEY_BUILDING_AQUEDUCT}의 보너스에 추가로, [ICON_CITIZEN] 인구 성장 시 더 많은 [ICON_FOOD] 식량을 보존합니다. 농장을 강화합니다. 도시의 [ICON_RELIGION] 대중 종교의 신자 수에 비례해 [ICON_FOOD] 식량을 증가시킵니다.</Text>
 		</Row>
