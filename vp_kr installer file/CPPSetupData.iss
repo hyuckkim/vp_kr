@@ -1,10 +1,10 @@
 ﻿; Inno Script Studio Wizard로 생성된 스크립트입니다.
 ; INNO SETUP 스크립트 파일을 만드는 방법에 대한 자세한 내용은 설명서를 참조하세요!
 
-#define MyAppName "Vox Populi INT"
+#define MyAppName "VP 한국어"
 #define MyAppVersion "4.22"
-#define MyAppPublisher "DCinside Civilization Gallery"
-#define MyAppURL "https://github.com/hyuckkim/vp_kr"
+#define MyAppPublisher "HANDANI"
+#define MyAppURL "https://github.com/handanikr/vp_kr"
 
 [Setup]
 ; 참고: AppId 값은 이 애플리케이션을 고유하게 식별합니다.
@@ -29,10 +29,10 @@ InfoBeforeFile=Opener.rtf
 OutputBaseFilename={#MyAppName} ({#MyAppVersion})
 DefaultDirName={userdocs}\My Games\Sid Meier's Civilization 5\
 SetupIconFile=installer.ico
-WizardImageStretch=False
-Compression=lzma
+WizardImageStretch=no
+Compression=lzma2
 SolidCompression=yes
-ShowComponentSizes=False
+ShowComponentSizes=yes
 AllowNoIcons=yes
 Uninstallable=no
 PrivilegesRequired=admin
@@ -47,7 +47,8 @@ Source: "..\(1L) Community Patch INT\*"; DestDir: "{app}\MODS\(1L) Community Pat
 Source: "..\(2L) Vox Populi INT\*"; DestDir: "{app}\MODS\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP34UC VP34UCNVC VP VPNVC
 Source: "..\(3aL) VP - EUI Compatibility Files INT\*"; DestDir: "{app}\MODS\(3aL) VP - EUI Compatibility Files INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC VP VPNVC
 Source: "..\(4aL) Squads for VP INT\*"; DestDir: "{app}\MODS\(4aL) Squads for VP INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP34UC VP34UCNVC VP VPNVC
-Source: "..\(overL) More Unique Components for VP (v 88) INT\*"; DestDir: "{app}\MODS\(overL) More Unique Components for VP (v 88) INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC
+Source: "..\(over) More Unique Components for VP (v 89)\*"; DestDir: "{app}\MODS\(over) More Unique Components for VP (v 89)"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC
+Source: "..\(overL) More Unique Components for VP (v 89) INT\*"; DestDir: "{app}\MODS\(overL) More Unique Components for VP (v 89) INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP34UCNVC
 Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UC VP
 Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP34UCNVC VPNVC
 Source: "..\VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion; Components: VP34UC VP34UCNVC VP VPNVC
@@ -72,7 +73,10 @@ Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(2L) Vox Populi INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(3aL) VP - EUI Compatibility Files INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(4aL) Squads for VP INT"
+Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(overL) More Unique Components for VP (v 88)"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(overL) More Unique Components for VP (v 88) INT"
+Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(overL) More Unique Components for VP (v 89)"
+Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(overL) More Unique Components for VP (v 89) INT"
 
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(1a) Community Patch INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(2a) Vox Populi INT"
@@ -92,7 +96,7 @@ var
 procedure CurPageChanged(CurPageID: Integer);
 begin
   if CurPageID = wpFinished then
-    WizardForm.FinishedLabel.Caption := '설치 프로그램이 컴퓨터에 Vox Populi 한국어 번역 모드 설치를 완료했습니다. 모드를 실행하려면 문명 5를 열고 모드 메뉴에서 설치된 모든 모드를 활성화한 후 ''다음''을 클릭합니다(''뒤로''를 클릭하지 마세요). 즐거운 시간 되세요!';
+    WizardForm.FinishedLabel.Caption := '설치 프로그램이 컴퓨터에 Vox Populi 한국어 모드 설치를 완료했습니다. 모드를 실행하려면 문명 5를 열고 모드 메뉴에서 설치된 모든 모드를 활성화한 후 ''다음''을 클릭합니다(''뒤로''를 클릭하지 마세요). 즐거운 시간 되세요!';
 end;
 
 procedure InitializeWizard;

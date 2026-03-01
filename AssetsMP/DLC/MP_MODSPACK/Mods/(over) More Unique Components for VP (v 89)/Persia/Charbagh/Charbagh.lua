@@ -1,0 +1,26 @@
+-- Pairidaeza/charbagh
+-- Author: adan_eslavo
+-- DateCreated: 19/12/2017
+-- 2018-01-25 updated by Infixo
+-- 2024-05-29 updated by pineappledan
+--------------------------------------------------------------
+--local eBuildingCharbaghLocalDummy = GameInfoTypes.BUILDING_D_FOR_CHARBAGH_2
+--local eImprovementCharbagh = GameInfoTypes.IMPROVEMENT_PERSIA_CHARBAGH
+--local eCivilizationPersia = GameInfoTypes.CIVILIZATION_PERSIA
+
+--give charbagh GPrate bonus to all players if they are working charbaghs
+--function CharbaghGPRateBonus(iPlayer)
+--	local pPlayer = Players[iPlayer]
+--	local pCapital = pPlayer:GetCapitalCity()
+--	
+--	for city in pPlayer:Cities() do
+--		local iNumCharbaghDummies = city:CountNumWorkedImprovement(eImprovementCharbagh, false)
+--		if iNumCharbaghDummies > 0 then
+--			city:SetNumRealBuilding(eBuildingCharbaghLocalDummy, iNumCharbaghDummies)
+--		end
+--	end
+--end
+
+--if Game.IsCivEverActive(eCivilizationPersia) then
+--	GameEvents.PlayerDoTurn.Add(CharbaghGPRateBonus)
+--end

@@ -234,7 +234,7 @@
 			<Text>지형</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_FEATURES_AND_WONDERS">
-			<Text>특징과 자연 불가사의</Text>
+			<Text>특징과 자연경관</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_RESOURCES">
 			<Text>자원</Text>
@@ -416,19 +416,19 @@
 			<Text>모든 지도 밝히기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_REVEAL_MAP_BUTTON_HELP">
-			<Text>모든 지도를 밝힙니다. 자연 불가사의, 고대 유적, 문명 만남 등이 활성화됩니다.</Text>
+			<Text>모든 지도를 밝힙니다. 자연경관, 고대 유적, 문명 만남 등이 활성화됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_EXPLORE_MAP_BUTTON">
 			<Text>모든 지도 탐험</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_EXPLORE_MAP_BUTTON_HELP">
-			<Text>모든 지도의 안개를 없앱니다. 자연 불가사의 등은 발견되지만 문명 만남이 활성화되지 않습니다.</Text>
+			<Text>모든 지도의 안개를 없앱니다. 자연경관 등은 발견되지만 문명 만남이 활성화되지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON">
 			<Text>탐험하지 않은 지도</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON_HELP">
-			<Text>모든 지도를 탐험하지 않은 상태로 만듭니다. 자연 불가사의 발견과 문명 만남 등이 이전 상태로 되돌아가지는 않습니다.</Text>
+			<Text>모든 지도를 탐험하지 않은 상태로 만듭니다. 자연경관 발견과 문명 만남 등이 이전 상태로 되돌아가지는 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_KILL_UNITS_BUTTON">
 			<Text>유닛 지우기</Text>
@@ -701,7 +701,7 @@
 			<Text>유럽 타일셋</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_NATIONAL_WONDER">
-			<Text>[COLOR:125:250:250:255]자연 불가사의[ENDCOLOR]</Text>
+			<Text>[COLOR:125:250:250:255]자연경관[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IGE_WONDER">
 			<Text>[COLOR_CYAN]불가사의[ENDCOLOR]</Text>

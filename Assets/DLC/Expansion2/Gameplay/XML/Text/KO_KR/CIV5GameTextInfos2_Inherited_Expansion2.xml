@@ -212,7 +212,7 @@
       <Text>[ICON_PEACE]신앙을 사용하여 모스크 건설([ICON_PEACE]신앙 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] [ICON_CULTURE]문화 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_HAPPINESS_1]행복 [COLOR_POSITIVE_TEXT]1[ENDCOLOR])</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE"> <!--자연합일-->
-      <Text>자연 경관의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가</Text>
+      <Text>자연경관의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_OPEN_SKY">
       <Text>목장의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가</Text>
@@ -581,7 +581,7 @@
       <Text>{TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC}</Text>
     </Row>
     <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_SUMMARY">
-      <Text>게임 내의 어떤 문명이든 르네상스 시대에 들어서면 당신에게 첫 스파이가 주어집니다. 스파이는 상대 문명의 도시에 잠입해 기술을 훔치고 정보를 모으는 임무를 수행합니다. 당신어의 도시에 스파이를 배치하면 적 스파이를 지연시키거나 발견하거나 처치할 수 있습니다.[NEWLINE][NEWLINE]다른 문명의 수도에 잠입한 스파이는 외교관으로 활동할 수 있습니다. 외교관은 정보를 모을 뿐 기술을 훔치거나 하지는 않습니다. 해당 문명이 다른 이념을 믿는다면 외교관을 통해 선전 공작을 펼쳐 해당 문명에 대해 [ICON_TOURISM]관광 보너스를 받을 수 있습니다. 외교관은 다른 문명의 스파이로부터 안전합니다. 세계 대회가 창설되면 외교관이 더욱 유용해지는데, 다른 문명과 대표단 관련 정보를 교환하고 외교를 통해 찬성표나 반대표를 거래할 수 있기 때문입니다.[NEWLINE][NEWLINE]스파이나 외교관을 보내려면 "첩보 개요"에 있는 "추가 정보" 메뉴를 선택하십시오.</Text>
+      <Text>게임 내의 어떤 문명이든 르네상스 시대에 들어서면 당신에게 첫 스파이가 주어집니다. 스파이는 상대 문명의 도시에 잠입해 기술을 훔치고 정보를 모으는 임무를 수행합니다. 당신어의 도시에 스파이를 배치하면 적 스파이를 지연시키거나 발견하거나 처치할 수 있습니다.[NEWLINE][NEWLINE]다른 문명의 수도에 잠입한 스파이는 외교관으로 활동할 수 있습니다. 외교관은 정보를 모을 뿐 기술을 훔치거나 하지는 않습니다. 해당 문명이 다른 이념을 믿는다면 외교관을 통해 선전 공작을 펼쳐 해당 문명에 대해 [ICON_TOURISM]관광 보너스를 받을 수 있습니다. 외교관은 다른 문명의 스파이로부터 안전합니다. 세계 의회가 창설되면 외교관이 더욱 유용해지는데, 다른 문명과 대표단 관련 정보를 교환하고 외교를 통해 찬성표나 반대표를 거래할 수 있기 때문입니다.[NEWLINE][NEWLINE]스파이나 외교관을 보내려면 "첩보 개요"에 있는 "추가 정보" 메뉴를 선택하십시오.</Text>
     </Row>
     <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC">
       <Text>스파이 및 외교관</Text>
@@ -672,7 +672,7 @@
       <Text>{TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC}</Text>
     </Row>
     <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_SUMMARY">
-      <Text>[ICON_PEACE]신앙은 종교관을 세우고 위대한 선지자를 출현하게 하고 종교 유닛이나 건물을 구입할 때 쓰는 골드와 같은 기능을 합니다.[NEWLINE][NEWLINE]신앙 점수를 얻는 여러 가지 방법이 있습니다. 먼저, 도시에 건설하면 턴마다 일정한 양의 신앙을 생산하는 건물이나 불가사의가 있습니다. 시민을 투입하면 신앙을 생산하는 자연 경관도 있습니다. 고대 유적을 방문하면 신앙을 얻을 수 있습니다. 종교 도시 국가와의 영향력이 높다면 일정한 간격으로 문명의 신앙을 올려주는 선물을 보냅니다. 마지막으로 위대한 선지자로 성지를 건설하면 신앙을 얻을 수 있습니다. </Text>
+      <Text>[ICON_PEACE]신앙은 종교관을 세우고 위대한 선지자를 출현하게 하고 종교 유닛이나 건물을 구입할 때 쓰는 골드와 같은 기능을 합니다.[NEWLINE][NEWLINE]신앙 점수를 얻는 여러 가지 방법이 있습니다. 먼저, 도시에 건설하면 턴마다 일정한 양의 신앙을 생산하는 건물이나 불가사의가 있습니다. 시민을 투입하면 신앙을 생산하는 자연경관도 있습니다. 고대 유적을 방문하면 신앙을 얻을 수 있습니다. 종교 도시 국가와의 영향력이 높다면 일정한 간격으로 문명의 신앙을 올려주는 선물을 보냅니다. 마지막으로 위대한 선지자로 성지를 건설하면 신앙을 얻을 수 있습니다. </Text>
     </Row>
     <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC">
       <Text>신앙 얻기</Text>
@@ -806,7 +806,7 @@
       <Text>위대한 제독 진행 상황</Text>
     </Row>
     <Row Tag="TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY">
-      <Text>다음은 문명의 행복을 증가시킵니다.[NEWLINE][NEWLINE]자연 경관: 자연 경관을 발견할 때마다 문명의 행복이 영구히 증가합니다.[NEWLINE][NEWLINE]사치 자원: 영토 안에 있는 자원을 개발하거나 타 문명과 교역으로 사치 자원을 얻으면 자원 종류 하나당 행복이 증가합니다. 같은 자원이 여러 개 있다고 행복이 그만큼 증가하지는 않습니다.[NEWLINE][NEWLINE]건물: 특정 건물은 행복을 생산합니다. 콜로세움, 서커스, 극장 등이 그 예입니다. 문명 어디에 건물을 건설하든 보너스가 중첩됩니다. 즉, 문명 전체에 콜로세움이 두 개 있으면 한 개 있을 때보다 행복이 두 배로 증가합니다.[NEWLINE][NEWLINE]불가사의: 노트르담이나 프로라 해변 리조트와 같은 일부 불가사의를 건설하면 행복이 크게 증가합니다.[NEWLINE][NEWLINE]사회 정책: 행복 증가에 집중하는 사회 정책 계열은 없지만, 다양한 정책으로 행복을 증가시키거나 불행을 감소시킬 수 있습니다.[NEWLINE][NEWLINE]기술: 기술을 개발하는 것 자체로 행복이 증가하지는 않지만, 기술을 개발하면 행복을 증가시켜주는 건물이나 불가사의, 자원, 사회 정책을 사용할 수 있게 됩니다.[NEWLINE][NEWLINE]종교: 일부 교리와 [ICON_PEACE]신앙을 구입하는 종교 건물은 행복을 증가시켜줍니다.</Text>
+      <Text>다음은 문명의 행복을 증가시킵니다.[NEWLINE][NEWLINE]자연경관: 자연경관을 발견할 때마다 문명의 행복이 영구히 증가합니다.[NEWLINE][NEWLINE]사치 자원: 영토 안에 있는 자원을 개발하거나 타 문명과 교역으로 사치 자원을 얻으면 자원 종류 하나당 행복이 증가합니다. 같은 자원이 여러 개 있다고 행복이 그만큼 증가하지는 않습니다.[NEWLINE][NEWLINE]건물: 특정 건물은 행복을 생산합니다. 콜로세움, 서커스, 극장 등이 그 예입니다. 문명 어디에 건물을 건설하든 보너스가 중첩됩니다. 즉, 문명 전체에 콜로세움이 두 개 있으면 한 개 있을 때보다 행복이 두 배로 증가합니다.[NEWLINE][NEWLINE]불가사의: 노트르담이나 프로라 해변 리조트와 같은 일부 불가사의를 건설하면 행복이 크게 증가합니다.[NEWLINE][NEWLINE]사회 정책: 행복 증가에 집중하는 사회 정책 계열은 없지만, 다양한 정책으로 행복을 증가시키거나 불행을 감소시킬 수 있습니다.[NEWLINE][NEWLINE]기술: 기술을 개발하는 것 자체로 행복이 증가하지는 않지만, 기술을 개발하면 행복을 증가시켜주는 건물이나 불가사의, 자원, 사회 정책을 사용할 수 있게 됩니다.[NEWLINE][NEWLINE]종교: 일부 교리와 [ICON_PEACE]신앙을 구입하는 종교 건물은 행복을 증가시켜줍니다.</Text>
     </Row>
     <Row Tag="TXT_KEY_HOLY_CITY_TOOLTIP_LINE">
       <Text>{1_ReligionIcon} {2_ReligionName}의 성도</Text>

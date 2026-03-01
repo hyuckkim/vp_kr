@@ -440,7 +440,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY_STRATEGY';
 
 -- B17
 UPDATE Language_ko_KR
-SET Text = '적의 유닛과 도시 위로 죽음의 비를 내리는 비행 유닛입니다. 폭격기에 비해 요격을 어느정도 막아낼 수 있으며 도시에 더 큰 피해를 줍니다. 군사 보급을 차지하지 않습니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 따르는 문명만 생산할 수 있고 [COLOR_MAGENTA]최상의 시간[ENDCOLOR] 이념 주의를 채택해야 합니다.'
+SET Text = '적의 유닛과 도시 위로 죽음의 비를 내리는 비행 유닛입니다. 폭격기에 비해 요격을 어느정도 막아낼 수 있으며 도시에 더 큰 피해를 줍니다. 군사 보급을 차지하지 않습니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 따르는 문명만 생산할 수 있고 [COLOR_MAGENTA]최고의 순간[ENDCOLOR] 이념 주의를 채택해야 합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_B17';
 
 UPDATE Language_ko_KR

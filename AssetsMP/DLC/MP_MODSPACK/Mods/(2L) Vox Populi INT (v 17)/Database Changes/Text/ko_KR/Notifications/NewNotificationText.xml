@@ -574,7 +574,7 @@
 			<Text>{2_City}에서 {@1_BldgName}{@1_BldgName: plural 1?을; 2?를;} 제거했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY">
-			<Text>세계 대회 결의안 또는 이념 주의 때문에 {2_City}에 있는 {3_Civ}의 {@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 강제적으로 문을 닫았습니다.</Text>
+			<Text>세계 의회 결의안 또는 이념 주의 때문에 {2_City}에 있는 {3_Civ}의 {@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 강제적으로 문을 닫았습니다.</Text>
 		</Row>
 
 		<!-- Events and Espionage -->

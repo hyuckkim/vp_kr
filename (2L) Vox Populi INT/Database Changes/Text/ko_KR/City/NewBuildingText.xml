@@ -201,7 +201,7 @@
 
 		<!-- Temple -->
 		<Row Tag="TXT_KEY_BUILDING_TEMPLE_HELP">
-			<Text>[ICON_RELIGION]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD] 골드 +1[NEWLINE][ICON_RES_AMBER] 호박석: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1</Text>
+			<Text>[ICON_RELIGION]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_VP_GREATMUSIC]걸작 음악 슬롯 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]를 포함합니다.[NEWLINE][NEWLINE][ICON_RES_INCENSE] 향: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1[NEWLINE][ICON_RES_WINE] 와인: [ICON_CULTURE]문화 +1 [ICON_GOLD] 골드 +1[NEWLINE][ICON_RES_AMBER] 호박석: [ICON_CULTURE]문화 +1 [ICON_GOLD]골드 +1</Text>
 		</Row>
 
 		<!-- Amphitheater -->
@@ -315,7 +315,7 @@
 			<Text>이 국가 불가사의는 문명이 모든 도시에 증권거래소를 건설해야 건설할 수 있습니다. 현재 다른 플레이어들과 맺은 우호 선언의 수에 따라 세계 의회에서 추가 투표를 받을 수 있도록 이 국가 불가사의를 건설하십시오. 건설된 도시의 식량과 골드 생산량이 크게 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_HELP">
-			<Text>도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]친선 관계[ENDCOLOR]를 맺은 문명 2개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 증권거래소가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
+			<Text>도시의 [ICON_FOOD]식량 및 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]친선 관계[ENDCOLOR]를 맺은 문명 2개마다 세계 의회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_FREEDOM][COLOR_MAGENTA]평등[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 증권거래소가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FINANCE_CENTER_TEXT">
 			<Text>금융 센터는 국제적으로 중요한 은행, 기업 및 증권 거래소가 많이 있는 글로벌 도시입니다. 국제 금융 센터는 국제 금융 시장 거래의 중요한 참가자를 묘사하기 위해 사용되는 비특이적인 용어이며, 보통 적어도 하나의 주요 주식 시장을 가지고 있습니다. 20세기 대부분의 기간 동안, 미국과 금융 수도 뉴욕시가 리더였습니다. 그러나 1990년대 이후, 새로운 지역 강국들과 글로벌 자본주의의 부상과 함께, 많은 금융 센터들이 월스트리트의 우위에 도전해 왔습니다. 특히 일부 분석가들은 월스트리트가 새로운 세계 성장의 초점이 될 것이라고 믿고 있습니다.</Text>
@@ -328,7 +328,7 @@
 			<Text>이 국가 불사가의는 모든 도시에 공립대학을 건설해야 건설할 수 있습니다. 다른 플레이어와 맺은 연구 협정마다 세계 의회의 추가 투표를 얻기 위해 이 국가 불사가의를 건설하십시오. 건설된 도시의 문화와 과학 생산량이 크게 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
-			<Text>도시의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 다른 문명과 맺은 모든 [COLOR_POSITIVE_TEXT]연구 협약[ENDCOLOR] 1개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 공립 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
+			<Text>도시의 [ICON_CULTURE]문화 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 다른 문명과 맺은 모든 [COLOR_POSITIVE_TEXT]연구 협약[ENDCOLOR] 1개마다 세계 의회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_ORDER][COLOR_MAGENTA]질서[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 공립 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALACE_SCIENCE_CULTURE_TEXT">
 			<Text>바르샤바에 있는 문화과학궁전은 폴란드에서 가장 높은 건물이며, 유럽연합에서 8번째로 높은 건물입니다. 이 건물은 원래 요제프 스탈린 문화 과학 궁전으로 알려졌으나, 스탈린에 대한 헌납은 취소되었습니다. 스탈린의 이름은 내부 로비에서 제거되었고 건물의 조각품 중 하나였습니다. 현재 그것은 세계에서 187번째로 높은 건물입니다.</Text>
@@ -341,7 +341,7 @@
 			<Text>이 국가 불가사의는 문명이 모든 도시에 사관학교를 건설해야 건설할 수 있습니다. 정복한 적국의 수도의 수에 따라 세계 의회에서 추가 투표를 받을 수 있도록 이 국가 불가사의를 건설하십시오. 건설된 도시의 관광과 신앙 생산량이 크게 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_HELP">
-			<Text>도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 당신 문명의 통제하는 적 수도 1개마다 세계 대회 추가 대표단을 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 사관 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
+			<Text>도시의 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 당신 문명의 통제하는 적 수도 1개마다 세계 의회 추가 대표단을 [COLOR_POSITIVE_TEXT]2명[ENDCOLOR] 확보합니다.[NEWLINE][NEWLINE][ICON_IDEOLOGY_AUTOCRACY][COLOR_MAGENTA]독재[ENDCOLOR] 이념을 채택해야 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 도시에 사관 학교가 있어야 건설할 수 있습니다. 문명에 도시가 많을수록 건설에 필요한 [ICON_PRODUCTION]생산이 증가합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EHRENHALLE_TEXT">
 			<Text>영예의 전당은 독일 건축가 프리츠 메이어의 계획에 따라 뉘른베르크 시에 의해 지어졌습니다. 그것은 바이마르 공화국 기간 동안 히틀러 시대 이전인 1930년에 설립되었습니다. 그것은 화덕을 위한 두 줄의 받침대가 있는 인접한 자갈돌 테라스가 있는 아케이드 홀입니다. 14개의 기둥들 모두 사실상 온전한 상태로 남아 있고 1938년 9월 마지막 나치당 집회 이후로 점화되지 않았습니다. 원래 이 홀은 제1차 세계 대전에서 전사한 뉘른베르크 출신 군인 9,855명의 기념비가 될 예정이었습니다. 1929년 당 대회 동안, 당시 완성되지 않은 "영예의 전당"은 국가사회주의자들에 의한 죽은 사람에 대한 숭배의 제정으로 처음으로 사용되었습니다. 제3제국 시기, 나치는 주로 제1차 세계 대전의 전사자들을 추모하는 장소와 1923년 11월 9일 뮌헨에서 16명의 사망자를 추모하는 장소로 사용하였습니다. 히틀러는 친위대 지도자 하인리히 힘러와 SA 지도자 빅토르 루체와 함께 메인 스탠드부터 에렌할레 테라스까지 240미터 길이의 화강암 길을 지나 경기장 안을 성큼성큼 거닐며 나치의 경례를 보여주었습니다. 그 의식은 그 기념행사의 절정이엇습니다.</Text>
@@ -354,7 +354,7 @@
 			<Text>영사관은 세계 의회에서 추가 대표자를 세계의 원래 도시 국가 8개마다 부여함으로써 소유자에게 약간의 우위를 제공합니다. 세계 의회를 통해서만 공동으로 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONSULATE_HELP">
-			<Text>세계의 원래 도시 국가 8개마다 세계 대회 추가 [ICON_DIPLOMAT] 대표단을 1명 확보합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
+			<Text>세계의 원래 도시 국가 8개마다 세계 의회 추가 [ICON_DIPLOMAT] 대표단을 1명 확보합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 의회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONSULATE_DESC">
 			<Text>영사관은 보통 주재국의 수도에 있는 영연방 국가 간의 대사관과 같은 외국에서 국가의 주요 대표부에 종속됩니다. 대사관이라는 용어와 같이 영사관이라는 단어는 영사 사무실뿐만 아니라 영사와 그 직원이 점유하고 있는 건물을 지칭할 수도 있습니다. 영사관은 대사관 자체와 구내를 공유할 수 있습니다. 현대에는 많은 영사관이 유엔 및/또는 기타 국제기구에 소속되어 있습니다.</Text>
@@ -483,7 +483,7 @@
 			<Text>추가 교역로를 확보하고 [COLOR_POSITION_TEXT]보물 선단[ENDCOLOR] 승급을 통해 해군의 전투력과 내구성을 높이십시오. 세계 의회를 통해서만 공동으로 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_HELP">
-			<Text>추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 1개 제공합니다. 잠수함 및 항공모함을 제외한 모든 해상 유닛에 [COLOR_PLAYER_PURPLE]보물 선단[ENDCOLOR] 승급을 부여합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
+			<Text>추가 [ICON_INTERNATIONAL_TRADE][COLOR_YELLOW]교역로[ENDCOLOR]를 1개 제공합니다. 잠수함 및 항공모함을 제외한 모든 해상 유닛에 [COLOR_PLAYER_PURPLE]보물 선단[ENDCOLOR] 승급을 부여합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]세계 의회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GRAND_CANAL_TEXT">
 			<Text>대운하는 이탈리아 베니스에서 가장 큰 운하이고, 가장 중요한 무역과 교통 통로 중 하나로 남아 있습니다. 작은 섬들의 도시로서, 베네치아는 중세 동안 밀물 위로 습지를 끌어올리기 위해 흙을 준설함으로써 강화되었고, 그 결과 일련의 홍수 수로가 생겼습니다. 이 수로들, 또는 운하는 중세부터 오늘날까지 도시의 경제의 중심임을 증명한 항해 문화의 번영을 장려했습니다. 오늘날 그 운하들은 여전히 도시 내에서 상품과 사람들의 운송 수단을 제공합니다. 도시를 가로지르는 미로의 운하는 보행의 흐름을 허용하기 위해 400개 이상의 다리를 사용해야 합니다. 2011년, 그 도시는 피아잘레 로마 버스 터미널 지역과 스타지오네 페로비아리아 (기차역)를 연결하는 그랜드 운하를 가로지르는 네 번째 다리인 폰테 델라 코스티투지오네를 열었고, 다른 것들은 원래의 폰테 디 리알토, 폰테 델리 아카데미아, 그리고 폰테 델리 스칼지입니다.</Text>
@@ -500,7 +500,7 @@
 			<Text>방어적인 불가사의입니다. 요새, 성채 및 랜드마크의 산출량을 강화합니다. 메닌 게이트는 또한 전투에서 처치되는 유닛마다 작은 보너스를 줍니다. 세계 의회를 통해서만 공동으로 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_HELP">
-			<Text>이 불가사의가 지어진 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.  아군 유닛이 사망할 때 [ICON_CULTURE]문화 및 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 요새, 성채, 랜드마크의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
+			<Text>이 불가사의가 지어진 도시의 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.  아군 유닛이 사망할 때 [ICON_CULTURE]문화 및 [ICON_GOLDEN_AGE]황금기 점수를 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 요새, 성채, 랜드마크의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 의회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_TEXT">
 			<Text>실종자 위령비 메닝 문은 벨기에 이프르에 있는 전쟁 기념물로, 제1차 세계 대전의 이프르 돌출부에서 전사한 영국과 영연방 군인들을 기리는 곳입니다. 통으로 만든 높은 통로는 돌출부에서 전사한 영연방 군인 54,395명의 이름이 새겨져 있지만 시신은 발견되지 않았습니다. 이 기념비는 마을 동쪽 출구에 세워져 있으며, 양측의 45만 명 이상이 사망한 최전선의 출발점이 됩니다.</Text>
@@ -516,7 +516,7 @@
 			<Text>호텔, 경기장, 에르미타주 등의 장점을 하나로 합친 올림픽촌은 게임 후반 문화의 동력입니다. 세계 의회를 통해서만 공동으로 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_HELP">
-			<Text>이 불가사의가 지어진 도시의 [ICON_HAPPINESS_1]행복 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_WONDER]세계 불가사의 및 타일이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]가 이 불가사의가 지어진 도시의 [ICON_TOURISM]관광에 추가됩니다. 모든 경기장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
+			<Text>이 불가사의가 지어진 도시의 [ICON_HAPPINESS_1]행복 및 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_WONDER]세계 불가사의 및 타일이 제공하는 [ICON_CULTURE]문화의 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR]가 이 불가사의가 지어진 도시의 [ICON_TOURISM]관광에 추가됩니다. 모든 경기장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 의회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_OLYMPIC_VILLAGE_TEXT">
 			<Text>올림픽 선수촌은 올림픽 경기를 위해 지어진 숙박 시설로, 보통 올림픽 공원이나 개최 도시의 다른 곳에 있습니다. 올림픽 선수촌은 관계자 및 운동 트레이너뿐만 아니라 모든 참가 선수들을 수용하기 위해 지어졌습니다. 올림픽 마을에 대한 아이디어는 피에르 드 쿠베르탱에게서 나왔습니다. 1924년 하계 올림픽까지, 올림픽 위원회는 참가자들을 수용하기 위해 개최 도시 주변의 장소를 임대했는데, 그것은 비쌌습니다. 1924년 하계 올림픽을 위해, 주최자들은 선수들이 경기장에 쉽게 접근할 수 있도록 하기 위해 스타드 올림피크 드 콜럼버스 근처에 오두막을 지었습니다. 1932년 하계 올림픽의 올림픽 선수촌은 오늘날의 올림픽 선수촌의 기본 틀이 되었습니다. 선수들을 숙박시킬 수 있는 방이 있는 건물들과 다른 숙박 시설들이 있는 건물들로 구성되었습니다.</Text>
@@ -532,7 +532,7 @@
 			<Text>실제 세계와 마찬가지로 수정궁은 다양한 보너스를 받고 있습니다. 많은 수의 도시와 공장이 있는 플레이어는 수정궁의 혜택을 가장 많이 받을 수 있지만, 추가 문화 및 기술자 슬롯은 어느 문명에서도 유용합니다. 세계 의회를 통해서만 공동으로 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE_HELP">
-			<Text>모든 공장의 [ICON_PRODUCTION]생산 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 불가사의가 완성되면 제국이 즉시 [ICON_GOLDEN_AGE]황금기를 맞이합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
+			<Text>모든 공장의 [ICON_PRODUCTION]생산 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 이 불가사의가 완성되면 제국이 즉시 [ICON_GOLDEN_AGE]황금기를 맞이합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 의회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CRYSTAL_PALACE_TEXT">
 			<Text>수정궁은 1851년의 대전을 개최하기 위해 원래 영국 런던의 하이드 파크에 세워진 주철과 판유리 건물입니다. 전 세계에서 온 14,000명 이상의 전시자들이 산업 혁명에서 개발된 최신 기술의 예를 전시하기 위해 궁전의 전시 공간에 모였습니다. 조지프 팩스턴 경이 디자인한 이 대전시관은 길이가 1,851피트이고 내부 높이는 128피트입니다. 1848년의 값싸지만 강한 유리의 큰 시트를 가능하게 한 주조판 유리법의 발명 때문에, 그것은 그 당시 건물에서 본 가장 많은 양의 유리가 사용되었으며 내부 조명이 필요하지 않은 맑은 벽과 천장으로 방문객들을 놀라게 했습니다. 그래서 "수정궁"이 되었습니다.</Text>
@@ -548,7 +548,7 @@
 			<Text>높은 비율의 위인 생산과 함께 유엔은 세계 의회에서 그것의 소유자를 위해 외교력에 상당한 힘을 실어줍니다. 또한 추가 대표단을 제공하고 황금기가 시작됩니다. [NEWLINE][NEWLINE]이러한 즉각적인 혜택과 더불어, 유엔의 건설은 외교 승리를 가능하게 하는 세계 의회의 유엔 특별 회의의 시작을 촉발합니다. 세계 의회를 통해서만 공동으로 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UN_HELP">
-			<Text>세계의 원래 도시 국가 8개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 마주친 모든 [ICON_CITY_STATE]도시 국가에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다. [ICON_GOLDEN_AGE]황금기를 가속할 뿐만 아니라 세계 대회에 [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR] 안건을 제안할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 대회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
+			<Text>세계의 원래 도시 국가 8개마다 세계 의회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 마주친 모든 [ICON_CITY_STATE]도시 국가에 대한 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다. [ICON_GOLDEN_AGE]황금기를 가속할 뿐만 아니라 세계 의회에 [COLOR_POSITIVE_TEXT]국제 연합[ENDCOLOR] 안건을 제안할 수 있습니다.[NEWLINE][NEWLINE][COLOR_YELLOW]세계 의회 결의안[ENDCOLOR]으로 비준되어야만 건설할 수 있습니다.</Text>
 		</Row>
 
 		<!-- Corporation buildings common pedia entry -->
@@ -808,7 +808,7 @@
 			<Text>사리탑 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 사리탑은 도시에 신앙, 황금기 점수와 관광을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
-			<Text>도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_TEXT">
 			<Text>사리탑은 불교에서 명상의 장소로 사용되는, 일반적으로 승려의 유골인 불교 유물을 담고 있는 봉분이나 반구형의 구조입니다.</Text>
@@ -821,7 +821,7 @@
 			<Text>교회 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 교회는 도시의 종교 압력을 증가시킵니다. 국왕 경축일을 시작합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_HELP">
-			<Text>건물이 완성되면 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>건물이 완성되면 [COLOR_POSITIVE_TEXT]15턴[ENDCOLOR] 동안 "국왕 경축일"을 맞이합니다. [ICON_GREAT_WORK]걸작에서 오는 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]40%[ENDCOLOR] 증가합니다. [ICON_CULTURE]무료에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_TEXT">
 			<Text>교회 건물은 종교 활동, 특히 예배에 사용되는 건물입니다. 건축적인 의미에서 이 용어는 기독교인들이 그들의 종교적 건물을 언급하기 위해 가장 자주 사용되지만 다른 종교에서도 사용될 수 있습니다. 전통적인 기독교 건축에서, 교회는 종종 기독교 십자가 모양으로 배열됩니다. 평면뷰에서 볼 때 십자가의 가장 긴 부분은 통로로 표현되며 십자가의 접합부는 제단 영역에 위치합니다.</Text>
@@ -834,7 +834,7 @@
 			<Text>만디르 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 만디르는 도시에 신앙과 식량을 제공합니다. 도시가 성장할 때 산출을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_HELP">
-			<Text>[ICON_FOOD]식량이 5 증가하고 도시에 새 시민이 탄생하면 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙을 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>[ICON_FOOD]식량이 5 증가하고 도시에 새 시민이 탄생하면 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙을 얻습니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_TEXT">
 			<Text>힌두 사원은 신의 집입니다. 그것은 힌두교의 사상과 신념을 표현하기 위한 상징성이 배어 있는 인간과 신을 하나로 모으기 위해 고안된 공간이자 구조입니다.</Text>
@@ -860,7 +860,7 @@
 			<Text>기사단 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 기사단은 신앙과 골드를 제공하고 전투 유닛에 사기 승급을 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
-			<Text>이 도시에서 유닛을 생산하면, 유닛의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_PEACE] 신앙을 제공합니다. 유닛을 [ICON_PEACE] 신앙으로 구매하면 유닛을 생산했을 때의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_GOLD] 골드를 제공합니다. 이 도시에서 생산한 유닛이 [COLOR_PLAYER_PURPLE]사기[ENDCOLOR] 승급을 얻습니다. [NEWLINE][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 3 증가하고 [ICON_RANGE_STRENGTH] 포격의 공격력이 10% 증가합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>이 도시에서 유닛을 생산하면, 유닛의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_PEACE] 신앙을 제공합니다. 유닛을 [ICON_PEACE] 신앙으로 구매하면 유닛을 생산했을 때의 [ICON_PRODUCTION]생산 비용의 10%만큼 [ICON_GOLD] 골드를 제공합니다. 이 도시에서 생산한 유닛이 [COLOR_PLAYER_PURPLE]사기[ENDCOLOR] 승급을 얻습니다. [NEWLINE][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 3 증가하고 [ICON_RANGE_STRENGTH] 포격의 공격력이 10% 증가합니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_TEXT">
 			<Text>기사단은 중세부터 십자군 원정을 목적으로 설립된 다양한 기독교 단체 중 하나이며, 성지 또는 이슬람교(예를 들어 레콘키스타 기간 동안) 또는 이교도들 (주로 발트해 지역)에 대항하여 신앙을 전파하거나 방어합니다. 십자군 전쟁이 끝나고 오스만 제국이 침공한 이후 많은 수도회가 세속화되었으며, 현대에 와서는 보통 로마 가톨릭의 의식, 선교 및 자선 단체로 대표됩니다.</Text>
@@ -872,7 +872,7 @@
 			<Text>테오칼리 교리를 선택한 종교를 믿는 도시에서만 지을 수 있는 건물입니다. [ICON_PEACE]신앙으로 구매해 건설할 수 있습니다. 테오칼리는 신앙을 제공하고 전투 유닛을 훈련시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_HELP">
-			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 제공합니다. 도시의 [ICON_SILVER_FIST] 군사 유닛 보급 한도를 1 증가시킵니다. 도시에서 생산하는 모든 군사 유닛의 경험치가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 제공합니다. 도시의 [ICON_SILVER_FIST] 군사 유닛 보급 한도를 1 증가시킵니다. 도시에서 생산하는 모든 군사 유닛의 경험치가 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_FOOD]/[ICON_PRODUCTION]낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_PEDIA">
 			<Text>테오칼리는 아즈텍인들의 사원입니다. 테오칼리는 메소 아메리카의 전형적인 구조를 따르는데, 한 쪽에 계단이 있는 거대한 계단식 피라미드 꼭대기에 작은 폐쇄 공간이 있습니다. 이 피라미드 중 가장 큰 것은 기자의 이집트 피라미드보다 부피가 큽니다. 메소포타미아 종교에서처럼 아즈텍인들은 테오칼리를 신들의 거처로 여겼고, 사제들만이 의식과 특별한 행사를 위해서만 오를 수 있었습니다. 의식 중 가장 악명 높은 것은 아즈텍 신들을 달래기 위해 매월 행햊지는 인간 제사로, 그곳에서 전쟁 포로들의 심장을 적출하고 참수했습니다. 제물의 두개골은 촘판틀리라고 불리는 두개골 선반에 전시되었고, 내장과 살은 신에게 바쳐졌습니다.</Text>
@@ -886,7 +886,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
 			<Text>
-			도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량이 +10% 증가하고 도시의 [ICON_STRENGTH] 방어력이 +10% 증가합니다. 낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. </Text>
+			도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] 식량이 +10% 증가하고 도시의 [ICON_STRENGTH] 방어력이 +10% 증가합니다. 낙후에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_PEDIA">
 			<Text>"구루의 문"을 의미하는 구루드와라는 시크교도의 예배 장소입니다. 모든 구루드와라에는 높은 연단에 놓인 신성한 시크교 경전인 구루 그란트 사히브가 포함되어 있습니다. 이 연단에서 라디스는 회중을 위해 경전을 암송하고 노래하고 설명합니다. 모든 구루드와라의 또 다른 보편적인 기능은 랑가르라는 커뮤니티 식당입니다. 시크교도는 인종, 카스트, 지위 또는 종교에 관계없이 모든 커뮤니티 구성원이 무료로 식사와 자원 봉사를 할 수 있도록 무료 채식 식사를 제공하는 것을 매우 중요하게 생각합니다.</Text>
@@ -894,12 +894,12 @@
 
 		<!-- Cathedral -->
 		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
-			<Text>농장, 목장, 채석장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 국경이 확장될 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>농장, 목장, 채석장의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 도시의 국경이 확장될 때 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_GOLD]빈곤에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 
 		<!-- Mosque -->
 		<Row Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
-			<Text>[ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
+			<Text>[ICON_GOLDEN_AGE]황금기 동안 도시의 [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다. [ICON_RESEARCH]문맹에서 오는 [ICON_HAPPINESS_3]불행이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 감소합니다.</Text>
 		</Row>
 
 		<!-- Pagoda -->
@@ -914,7 +914,7 @@
 			<Text>마우솔레움을 건설해 전쟁의 희생자에서 신앙을 얻고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_HELP">
-			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>적 유닛을 처치할 때 [ICON_PEACE]신앙을 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_TEXT">
 			<Text>마우솔레움은 죽은 사람이나 사람들의 매장 공간이나 묘실을 둘러싼 기념물로 지어진 외부 독립 건물입니다. 장막이 없는 기념비는 위령비입니다. 마우솔레움은 무덤의 한 종류로 여겨질 수도 있고, 무덤이 마우솔레움 안에 있다고 여겨질 수도 있습니다. 마우솔레움에는 때때로 예배당이 있습니다.</Text>
@@ -927,7 +927,7 @@
 			<Text>천상의 옥좌를 건설해 성도의 산출을 크게 증가시키고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_HELP">
-			<Text>모든 성지의 [ICON_GOLDEN_AGE] 황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>모든 성지의 [ICON_GOLDEN_AGE] 황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_TEXT">
 			<Text>왕좌는 국가의 권력자나 고위 관료가 앉는 자리이며, 특히 국가 행사에서는 군주가 차지하는 자리 또는 의례적인 행사에서는 교황이나 주교가 차지하는 자리입니다. "왕좌"는 추상적인 의미에서 군주제나 왕위 그 자체를 의미할 수도 있으며, "왕좌 뒤에 있는 권력"과 같은 많은 표현에도 사용됩니다.</Text>
@@ -940,7 +940,7 @@
 			<Text>위대한 제단을 건설해 군사 유닛 생산 보너스를 받고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
-			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>군사 유닛을 생산할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다. 모든 성지의 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_TEXT">
 			<Text>제단은 종교적인 목적을 위해 제물과 같은 것들을 제공하는 모든 구조물입니다. 제단은 보통 성지에서 발견되며, 그것들은 사원, 교회 그리고 다른 예배 장소에 위치할 수 있습니다. 오늘날 그것들은 특히 기독교, 불교, 힌두교, 신도, 도교뿐만 아니라 신이교주의와 의식 마법에서 사용됩니다. 유대교는 제2성전이 파괴될 때까지 그러한 구조를 사용했습니다. 그리스와 노르드 종교를 포함한 많은 역사적인 신앙들도 그것들을 사용했습니다.</Text>
@@ -953,7 +953,7 @@
 			<Text>기록실을 건설해 기술을 연구할 때마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 얻고, 모든 성지를 강화하십시오. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_HELP">
-			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 대회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE][ICON_VP_GREATWRITING] 걸작 문학 슬롯 3개를 포함합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>모든 성지의 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. [NEWLINE][NEWLINE]도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 10개마다 세계 의회 추가 [COLOR_YELLOW]대표단[ENDCOLOR]을 1명 확보합니다. [NEWLINE][NEWLINE][ICON_VP_GREATWRITING] 걸작 문학 슬롯 3개를 포함합니다.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]테마[ENDCOLOR]보너스:  [ICON_PEACE][ICON_RESEARCH] 과학 +6, [ICON_PEACE] 신앙 +4 [NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_PEDIA">
 			<Text>기록실은 교황청에서 개인적으로 보관하는 서신과 의사록의 모음집이었습니다. 이 컬렉션은 바티칸 비밀 기록 보관소의 시초가 되었습니다.</Text>
@@ -966,7 +966,7 @@
 			<Text>성스러운 법정을 건설하여 골드 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_HELP">
-			<Text>모든 성지의 [ICON_CULUTRE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>모든 성지의 [ICON_CULUTRE]문화가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_TEXT">
 			<Text>베스딘 (심판의 집)은 유대교의 랍비 궁정입니다. 고대에, 그것은 성경의 이스라엘 땅에서 법체계의 기초가 되었습니다. 오늘날, 그것은 이스라엘과 디아스포라의 유대인 공동체 모두에서 많은 종교적 문제에 법적 권력이 투자되고 있으며, 판결은 유대인 종교 생활과 특별히 관련된 문제에 대해 다양한 권한(관할권과 주제에 따라)을 보유하고 있습니다.</Text>
@@ -979,7 +979,7 @@
 			<Text>신성한 정원을 건설하여 문화 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_HELP">
-			<Text>모든 성지의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>모든 성지의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_TEXT">
 			<Text>종교는 정원 디자인에 중요한 영향을 끼쳤습니다. 사원 정원은 메소포타미아와 고대 이집트에서 처음 만들어졌습니다. 신성한 숲은 고대 인도, 그리스, 로마, 중국 그리고 일본에서 만들어졌습니다. 성스러운 나무는 켈트족과 게르만족 유럽에서는 중요했고 인도에서는 여전히 중요합니다. 숲은 고대 인도에서 신성했고 현대 힌두교 예배에서도 여전히 신성했습니다. 불교는 중국과 일본의 선정원을 유명한 예로 들며 정원 디자인에 큰 영향을 끼쳤습니다. 기독교, 특히 가톨릭과 성공회에서, 마리아 정원은 교회와 기관들 사이에서 흔합니다. 신성한 정원을 만드는 관습은 러시아 작가 블라디미르 메그레의 책 링잉 시더스 시리즈에 현대 시대에 맞게 재활성화되고 각색되었습니다.</Text>
@@ -992,7 +992,7 @@
 			<Text>종교 공의회를 건설하여 식량 산출을 늘리고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_HELP">
-			<Text>모든 성지의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>모든 성지의 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_TEXT">
 			<Text>기독교 의회(또는 공의회)는 투표권이 있는 사람들이 전 세계에서 소집되고 교회 전체의 승인을 확보하는 교회 교리와 실천 문제를 논의하고 해결하기 위해 소집된 교회 고위 인사들과 신학 전문가들로 구성된 의회입니다.</Text>
@@ -1005,7 +1005,7 @@
 			<Text>사도 궁전을 건설하여 황금기를 더 많이 이어가고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP">
-			<Text>도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 모든 성지의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>도시의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 모든 성지의 [ICON_GOLDEN_AGE]황금기 점수가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다. [ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_TEXT">
 			<Text>바실리카는 현대 영어에서 세 가지 다른 용법을 가지고 있습니다. 이 단어는 원래 개방적이고 로마적인 공공 법원 건물을 묘사하기 위해 사용되었는데, 보통 로마 마을의 포럼 근처에 위치해 있습니다. 그 연장선상에서 그것은 같은 형태의 기독교 건물들에 적용되었고 중앙의 마당과 통로를 가진 그 건물들을 묘사하기 위해 건축적인 의미로 계속 사용되고 있습니다. 나중에, 그 용어는 특별히 교황에 의해 특별한 의식권을 부여받은 크고 중요한 교회인 사도 궁전을 지칭하게 되었습니다.</Text>
@@ -1018,7 +1018,7 @@
 			<Text>대 납골당을 건설하여 많은 신앙을 얻고 모든 성지를 강화하십시오. 이 국가 불가사의를 건설하면 개혁 교리를 선택할 수 있습니다. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 종교 불안을 감소시키고, 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
-			<Text>모든 성지의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION]종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
+			<Text>모든 성지의 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE]종교 분쟁에서 오는 [ICON_HAPPINESS_3]불행이 감소하고, [COLOR_POSITIVE_TEXT개혁 교리[ENDCOLOR]를 선택할 수 있습니다. 도시의 [ICON_RELIGION] 종교 압력이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 개종에 대한 도시의 저항이 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE][COLOR_YELLOW]성도[ENDCOLOR]에만 건설할 수 있습니다. 전 세계에 당신 문명의 종교를 따르는 신도 수가 적어도 15% 이상 있어야 합니다. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_TEXT">
 			<Text>유골함은 사람의 유골의 마지막 안식처 역할을 하기 위해 만들어진 상자, 상자, 건물, 우물 또는 장소입니다. 그것들은 매장 공간이 부족한 곳에서 자주 사용됩니다. 시신은 먼저 임시 무덤에 묻히고, 몇 년 후에 뼈의 잔해가 제거되어 유골함에 안치됩니다. 유골함이 차지하는 공간이 작다는 것은 원래의 관을 그대로 두었을 때보다 더 많은 사람들의 유해를 한 무덤에 보관할 수 있다는 것을 의미합니다. 페르시아에서, 조로아스터인들은 초기 (약 3,000년 전)부터 이 기능을 위해 깊은 우물을 사용했고, 그것을 말 그대로, "뼈가 있는 장소"라고 불렀습니다. 조로아스터교 신앙에는 아스투단들에 관한 많은 의식과 규정이 있습니다. 중앙아시아 지역의 7세기 이전의 소그드인들 사이에서, 유골함의 이름은 탄바르였습니다.</Text>
