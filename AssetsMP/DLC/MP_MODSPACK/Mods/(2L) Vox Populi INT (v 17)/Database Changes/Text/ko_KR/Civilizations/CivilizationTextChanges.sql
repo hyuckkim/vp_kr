@@ -41,7 +41,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY';
 
 UPDATE Language_ko_KR
 SET Text = '가능한 테마 보너스:
-  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]외국 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 3개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.'
+  [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]외국[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 3개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP';
 
 UPDATE Language_ko_KR
@@ -56,7 +56,7 @@ SET Text = '합스부르크 외교술'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITY_STATE] 도시 국가 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 5턴 동안 동맹을 맺은 후 [ICON_GOLD] 골드로 [ICON_CITY_STATE] 도시 국가와의 [ICON_RES_MARRIAGE] 결혼을 주선할 수 있습니다. 평화 상태일 때 [ICON_RES_MARRIAGE] 결혼한 도시 국가로부터 200의 휴식 [ICON_INFLUENCE] 영향력을 얻습니다.'
+SET Text = '[ICON_CITY_STATE] 도시 국가 퀘스트 보상이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 10턴 동안 동맹을 맺은 후 [ICON_GOLD] 골드로 [ICON_CITY_STATE] 도시 국가와의 [ICON_RES_MARRIAGE] 결혼을 주선할 수 있습니다. 평화 상태일 때 [ICON_RES_MARRIAGE] 결혼한 도시 국가로부터 200의 휴식 [ICON_INFLUENCE] 영향력을 얻습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE';
 
 UPDATE Language_ko_KR
@@ -203,7 +203,7 @@ SET Text = '위대한 조상'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, [ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]을 연구하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
+SET Text = '[ICON_WONDER] 불가사의 [ICON_PRODUCTION] 생산력이 +20%, [ICON_GOLDEN_AGE] 황금기에는 2배 증가 합니다. 도시를 건설하거나 (누구든지 [COLOR_CYAN]고고학[ENDCOLOR]에 도달하기 전에) [ICON_WONDER] 세계 불가사의를 완성할 때 근처의 [ICON_RES_ARTIFACTS] 고대 유적지를 드러내세요. [ICON_RES_ARTIFACTS] 고대 유적지는 [ICON_GOLDEN_AGE] 황금기가 시작될 때마다 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙이 +1 증가합니다. (최대 +5)'
 WHERE Tag = 'TXT_KEY_TRAIT_WONDER_BUILDER';
 
 UPDATE Language_ko_KR
@@ -425,6 +425,18 @@ WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT_STRATEGY';
 UPDATE Language_ko_KR
 SET Text = '전쟁터에서 종종 적에게 그랬던 것처럼 자기 편에게도 위험한 무서운 광경인 나가-말라(전투 코끼리를 뜻하는 힌두어 용어)는 대량 살상 무기의 첫 번째 무기로 여겨질 수 있습니다. 인도인들은 화약의 출현으로 코끼리가 쓸모없게 될 때까지 코끼리를 전쟁에 사용했습니다. 화약전 전투에서 전투 코끼리는 두 가지 주요 목적을 달성했습니다. 먼저, 그들의 냄새는 말들을 완전히 겁먹게 했고, 적 기병을 쓸모없게 만들었습니다. 둘째, 그들은 어떤 말도 넘을 수 없는 창들의 벽을 부수면서 가장 강력한 보병 대열도 뚫을 수 있었습니다. 코끼리는 죽이기 매우 어려웠고 역사는 코끼리가 60개 이상의 화살에서 살아남았다고 기록하고 있습니다. 코끼리의 주된 문제는 고통이나 분노로 광란하는 그들의 성향이었습니다. 그 때 코끼리는 타는 사람이 통제할 수 없게 되었습니다. 코끼리 기수들은 종종 그들의 병력을 공격하면 동물을 죽이는 데 사용할 수 있는 스파이크와 망치를 들고 다녔습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_ANTIQUITY_INDIANWARELEPHANT_TEXT';
+
+UPDATE Language_en_US
+SET Text = '킬라'
+WHERE Tag = 'TXT_KEY_BUILDING_MUGHAL_FORT_DESC';
+
+UPDATE Language_en_US
+SET Text = '킬라는 성을 대체하는 인도 고유의 건축물입니다. 성의 일반적인 보너스 외에도, 킬라는 문화와 위대한 예술가 점수를 생성합니다. 도시 방어력의 10%가 매 턴마다 문화로 전환되며, 도시에 건설된 불가사의 하나당 도시의 방어력이 증가합니다. 가장 웅장한 도시들을 점령하는 것 또한 더욱 어려워집니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY';
+
+UPDATE Language_en_US
+SET Text = '무굴 제국은 15세기에 인도를 침략하여 19세기 중반까지 인도 아대륙의 대부분을 통치했던 이슬람 제국입니다. 그들은 통치 기간 동안 행정 중심지이자 점령자들의 거주지 역할을 하는 킬라라고 불리는 정교한 요새를 시골 곳곳에 건설했습니다. 이 요새들은 광대한 제국의 통치자들에게 어울리는 궁전과 같은 아름다운 건축물이었습니다. 웅장한 "라호르 성"과 아그라의 붉은 요새를 비롯한 여러 요새가 오늘날까지 남아 인도의 주요 관광 명소이자 무굴 제국의 권력과 건축 양식을 보여주는 기념물로 자리매김하고 있습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_MUGHAL_FORT_PEDIA';
 
 --------------------
 -- Indonesia
@@ -711,7 +723,7 @@ SET Text = '타일을 획득하면 [ICON_GOLD] 골드가 10, [ICON_PEACE] 신앙
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_SPANISH_CONQUISTADOR}는 {TXT_KEY_UNIT_EXPLORER}를 대체하는 스페인의 고유 유닛입니다. 강력하며 측면 공격 시와 도시 공격 시에 보너스를 얻습니다. 그 엄청난 이동력과 조합하면,{TXT_KEY_UNIT_SPANISH_CONQUISTADOR}는 중세 시대에서 가장 무서운 유닛이 됩니다.[NEWLINE][NEWLINE][ICON_CAPITAL] 수도와 다른 대륙에서 새 도시를 건설할 수 있는 능력이 있습니다. {TXT_KEY_UNIT_SPANISH_CONQUISTADOR}로 건설된 도시는 [ICON_CITIZEN] 시민 3으로 시작하고, 3개 타일을 추가로 얻으며, 다음 건물들이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_COLOSSEUM}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_ARMORY}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_BARRACKS}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_COUNCIL}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_FORGE}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_GRANARY}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_HERBALIST}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_LIBRARY}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_LIGHTHOUSE}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_MARKET}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_MONUMENT_DESC}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_SHRINE}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_SMOKEHOUSE}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_WATERMILL} (가능하다면)[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_WELL} (가능하다면)[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 자동으로 건설된 건물에 적용되지 않습니다!'
+SET Text = '{TXT_KEY_UNIT_SPANISH_CONQUISTADOR}는 {TXT_KEY_UNIT_EXPLORER}를 대체하는 스페인의 고유 유닛입니다. 강력하며 측면 공격 시와 도시 공격 시에 보너스를 얻습니다. 그 엄청난 이동력과 조합하면,{TXT_KEY_UNIT_SPANISH_CONQUISTADOR}는 중세 시대에서 가장 무서운 유닛이 됩니다.[NEWLINE][NEWLINE]또한, 새 도시를 건설할 수 있는 능력이 있습니다. {TXT_KEY_UNIT_SPANISH_CONQUISTADOR}로 건설된 도시는 [ICON_CITIZEN] 시민 3으로 시작하고, 3개 타일을 추가로 얻으며, 다음 건물들이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_COLOSSEUM}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_ARMORY}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_BARRACKS}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_COUNCIL}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_FORGE}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_GRANARY}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_HERBALIST}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_LIBRARY}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_LIGHTHOUSE}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_MARKET}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_MONUMENT_DESC}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_SHRINE}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_SMOKEHOUSE}[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_WATERMILL} (가능하다면)[NEWLINE][ICON_BULLET] {TXT_KEY_BUILDING_WELL} (가능하다면)[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 자동으로 건설된 건물에 적용되지 않습니다!'
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY';
 
 --------------------

@@ -940,11 +940,11 @@ SET Text = '"우리의 바다"라는 뜻의 마레 노스트룸은 로마 제국
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 법원 1개마다 지역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1]도시 보안이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다. 평소의 [COLOR_POSITIVE_TEXT]두배[ENDCOLOR] 속도로 법원과 경찰서를 건설할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 법원 1개마다 지역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1] 도시 보안이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다. 평소의 [COLOR_POSITIVE_TEXT]두배[ENDCOLOR] 속도로 법원과 경찰서를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_POLICE_STATE_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]제삼의 수단[ENDCOLOR]: 문명이 생산하는 전략 자원의 양이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 유닛 [ICON_GOLD]유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]제삼의 수단[ENDCOLOR]: 문명이 생산하는 전략 자원([ICON_RES_PAPER] 종이 포함)의 양이 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 유닛 [ICON_GOLD] 유지비가 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP';
 
 UPDATE Language_ko_KR
@@ -956,7 +956,7 @@ SET Text = '공영권'
 WHERE Tag = 'TXT_KEY_POLICY_GUNBOAT_DIPLOMACY';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]공영권[ENDCOLOR]: 우호적인 [ICON_CITY_STATE]도시 국가에 공물을 요구할 때 페널티가 없습니다. 그렇게 하는 것은 도시 국가에 대한 다른 모든 문명의 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소시키고 당신 문명의 [ICON_INFLUENCE]영향력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가시킵니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]공영권[ENDCOLOR]: 우호적인 [ICON_CITY_STATE]도시 국가에 공물을 요구할 때 페널티가 없습니다. 그렇게 하는 것은 도시 국가에 대한 다른 모든 문명의 [ICON_INFLUENCE] 영향력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 감소시키고 당신 문명의 [ICON_INFLUENCE] 영향력을 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP';
 
 UPDATE Language_ko_KR
@@ -964,5 +964,5 @@ SET Text = '폭군은 법률이나 사람의 제약을 받지 않는 절대적�
 WHERE Tag = 'TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]통일 전선[ENDCOLOR]: [ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 전쟁 중일 때 동맹인 [ICON_CITY_STATE]도시 국가와의 [ICON_INFLUENCE]영향력이 100까지 증가하며, 군사적 도시 국가의 유닛 선물 비율이 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR] 증가합니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]통일 전선[ENDCOLOR]: [ICON_SILVER_FIST] 인구수에 따른 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. 전쟁 중일 때 동맹인 [ICON_CITY_STATE] 도시 국가와의 [ICON_INFLUENCE]영향력이 100까지 증가하며, 군사적 도시 국가의 유닛 선물 비율이 [COLOR_POSITIVE_TEXT]세 배[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_POLICY_UNITED_FRONT_HELP';

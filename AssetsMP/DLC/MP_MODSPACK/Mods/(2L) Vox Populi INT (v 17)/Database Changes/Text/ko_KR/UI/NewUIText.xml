@@ -330,13 +330,13 @@
 			<Text>[COLOR_POSITIVE_TEXT]대사관 건설 가능[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_TT">
-			<Text>{1_BuyoutCost} [ICON_GOLD] 골드를 소비하여 이 도시 국가와의 [ICON_RES_MARRIAGE] 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 [ICON_RES_MARRIAGE] 정략 결혼을 할 때마다 [ICON_GOLD] 비용이 증가합니다.</Text>
+			<Text>{1_BuyoutCost} [ICON_GOLD] 골드를 소비하여 이 도시 국가와의 [ICON_RES_MARRIAGE] 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 200 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 [ICON_RES_MARRIAGE] 정략 결혼을 할 때마다 [ICON_GOLD] 비용이 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_TT">
-			<Text>{2_BuyoutCost} [ICON_GOLD] 골드를 소비하여 이 도시 국가와의 [ICON_RES_MARRIAGE] 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 [ICON_RES_MARRIAGE] 정략 결혼에 필요한 {2_BuyoutCost} [ICON_GOLD] 골드가 있어야 합니다.[ENDCOLOR]</Text>
+			<Text>{2_BuyoutCost} [ICON_GOLD] 골드를 소비하여 이 도시 국가와의 [ICON_RES_MARRIAGE] 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 200 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 [ICON_RES_MARRIAGE] 정략 결혼에 필요한 {2_BuyoutCost} [ICON_GOLD] 골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_ALLY_TT">
-			<Text>{3_BuyoutCost} [ICON_GOLD] 골드를 소비하여 이 도시 국가와의 [ICON_RES_MARRIAGE] 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 75 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]로 증가하고, 그들 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 15% 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 [ICON_RES_MARRIAGE] 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 (현재 {2_TurnsAllied}턴 동안 지속됨) 정략 결혼에 필요한 {3_BuyoutCost} [ICON_GOLD] 골드가 있어야 합니다.[ENDCOLOR]</Text>
+			<Text>{3_BuyoutCost} [ICON_GOLD] 골드를 소비하여 이 도시 국가와의 [ICON_RES_MARRIAGE] 정략 결혼을 주선할 수 있습니다. 정략 결혼을 하면 기본 [ICON_INFLUENCE] 영향력이 200 증가합니다.[NEWLINE][NEWLINE]도시 국가마다 한 번만 할 수 있고 [ICON_RES_MARRIAGE] 정략 결혼을 할 때마다 [ICON_GOLD]비용이 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]동맹이 {1_NumTurns}턴 동안 지속된 상태여야 하고 (현재 {2_TurnsAllied}턴 동안 지속됨) 정략 결혼에 필요한 {3_BuyoutCost} [ICON_GOLD] 골드가 있어야 합니다.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT_ANNEX">
 			<Text>도시 국가 강제 합병</Text>
@@ -765,7 +765,7 @@
 			<Text>도시 수 감소</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY">
-			<Text>군사 유닛 수: {12_Num} (군사 보급 {2_Num} 사용) [NEWLINE] 총 군사 보급 한도: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]전쟁 피로도 보급 감소율: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]군사 보급:[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{4_Num}[ENDCOLOR]  [ICON_CITY_STATE]소유한 도시에서 ([ICON_WAR] {13_Num} - [ICON_RESEARCH] 기술에 의해 {14_Num})[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{3_Num}[ENDCOLOR]  [ICON_CITIZEN]총 시민 수에서 ([ICON_SILVER_FIST] {15_Num} -  [ICON_RESEARCH] 기술에 의해 {16_Num})[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{5_Num}[ENDCOLOR]  [ICON_CHECKBOX] 난이도에서 ([ICON_CAPITAL] {17_Num} - [ICON_RESEARCH] 시대에 의해 {18_Num})[NEWLINE]  [ICON_BULLET]+{11_Num} [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] 위인에서[NEWLINE][NEWLINE][NEWLINE]군사 보급 감소:[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{8_Num}[ENDCOLOR]  [ICON_RESEARCH]기술 수준에서[NEWLINE][ICON_BULLET] -{9_Num} [ICON_CITY_STATE] 도시 수에서[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{7_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서[NEWLINE][NEWLINE]각 ([ICON_PUPPET] 종속국이 아닌) 도시를 소유한 경우: +5% [ICON_CITY_STATE] 도시 수 패널티.[NEWLINE][ICON_WAR]전쟁 피로도 때문에 군사 유닛의 [ICON_GOLD]/[ICON_PEACE]비용이 [COLOR_NEGATIVE_TEXT]{10_Num}%[ENDCOLOR] 증가합니다.</Text>
+			<Text>군사 유닛 수: {12_Num} (군사 보급 {2_Num} 사용) [NEWLINE]총 군사 보급 한도: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]전쟁 피로도 보급 감소율: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]군사 보급:[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{4_Num}[ENDCOLOR]  [ICON_CITY_STATE]소유한 도시에서 ([ICON_WAR] {13_Num} - [ICON_RESEARCH] 기술에 의해 {14_Num})[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{3_Num}[ENDCOLOR]  [ICON_CITIZEN]총 시민 수에서 ([ICON_SILVER_FIST] {15_Num} -  [ICON_RESEARCH] 기술에 의해 {16_Num})[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{5_Num}[ENDCOLOR]  [ICON_CHECKBOX] 난이도에서 ([ICON_CAPITAL] {17_Num} - [ICON_RESEARCH] 시대에 의해 {18_Num})[NEWLINE]  [ICON_BULLET]+{11_Num} [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] 위인에서[NEWLINE][NEWLINE][NEWLINE]군사 보급 감소:[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{8_Num}[ENDCOLOR]  [ICON_RESEARCH]기술 수준에서[NEWLINE]  [ICON_BULLET]-{9_Num} [ICON_CITY_STATE] 도시 수에서[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{7_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서[NEWLINE][NEWLINE]각 ([ICON_PUPPET] 종속국이 아닌) 도시를 소유한 경우: +5% [ICON_CITY_STATE] 도시 수 패널티.[NEWLINE][ICON_WAR]전쟁 피로도 때문에 군사 유닛의 [ICON_GOLD]/[ICON_PEACE]비용이 [COLOR_NEGATIVE_TEXT]{10_Num}%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
 			<Text>{TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY}[NEWLINE]Highest War Weariness: {18_CivName} {19_Num}%</Text>
@@ -1585,16 +1585,16 @@
 
 		<!-- Buildings -->
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_NEED">
-			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% {2_Yields} Median Modifier from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>[COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] 프로세스 전환율 {1: number "'+'##;'-'##"}% 및 {2_Yields} 중앙값 보정 {1: number "'-'##;'+'##"}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_DISTRESS">
-			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% [ICON_FOOD]/[ICON_PRODUCTION] Basic Needs Median Modifier from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>[COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] 프로세스 전환율 {1: number "'+'##;'-'##"}% 및 [ICON_FOOD]/[ICON_PRODUCTION] 기본 욕구 중앙값 보정 {1: number "'-'##;'+'##"}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER_RELIGIOUS_UNREST">
-			<Text>{1: number "'+'##;'-'##"}% conversion rate and {1: number "'-'##;'+'##"}% Religious Unrest from [COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] Process</Text>
+			<Text>[COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR] 프로세스 전환율 {1: number "'+'##;'-'##"}% 및 종교적 불안 {1: number "'-'##;'+'##"}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MEDIAN_CHANGES">
-			<Text>예상 수요 중간값 변화:</Text>
+			<Text>예상 수요 중앙값 변화:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BASIC_NEEDS_MEDIAN_MODIFIER">
 			<Text>{2_Sign}{1_Num}% [ICON_FOOD]/[ICON_PRODUCTION] 기본 요구 중앙값</Text>
@@ -1927,11 +1927,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_ARCHAEOLOGY_QUEST_LONG">
 			<Text>{1_CivName:textkey}의 도시 국가에서 이 타일을 연구하기 위해 당신에게 고고학자를 보내줄 것을 요청합니다.</Text>
-		</Row>
-
-		<!-- Religion picker -->
-		<Row Tag="TXT_KEY_RELIGION_CHOOSER_ADVISOR_RECOMMENDATION">
-			<Text>[COLOR_POSITIVE_TEXT]보좌관은 이 교리를 추천합니다.[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Economic overview -->
@@ -2746,6 +2741,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_NEED_RESOURCE_LOCAL">
 			<Text>[NEWLINE] [ICON_BULLET] 도시 주변에 {1_Desc} 자원이 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEED_RESOURCE_AMOUNT">
+			<Text>[NEWLINE] [ICON_BULLET] {2_Desc} 자원이 {1_Num} 만큼 필요합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_IMPROVEMENT">
 			<Text>[NEWLINE] [ICON_BULLET] {1_Desc} 시설이 있어야 합니다.</Text>
