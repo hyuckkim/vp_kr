@@ -16,7 +16,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]도시와 주둔군[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '도시에 군사 유닛을 주둔시켜 도시 방어를 강화할 수 있습니다. 도시에 유닛을 주둔시키면 유닛 전투력 일부가 도시 전투력에 더해집니다. [COLOR_YELLOW]도시가 공격받으면 주둔군이 받는 피해의 일부가 도시로 분산됩니다. 이렇게 하면 주둔군이 파괴될 수 있으니 조심하십시오![ENDCOLOR] 만약 적이 도시를 정복하면 주둔한 유닛은 파괴됩니다.[NEWLINE][NEWLINE]'
+SET Text = '한 번에 하나의 지상 유닛과 하나의 해상 유닛을 도시에 주둔할 수 있습니다. 도시에 주둔한 군사 유닛은 "주둔군"을 구성하며, 지상 유닛일 경우 자체 [ICON_STRENGTH] 전투력의 50% 또는 [ICON_RANGE_STRENGTH] 원거리 전투력의 50% 중 더 큰 값을 도시의 전투력에 추가하고, 해상 유닛일 경우 25%[ENDCOLOR_YELLOW]를 추가합니다.[NEWLINE][NEWLINE]도시가 공격을 받을 때 주둔군이 도시에 있다면, 주둔군이 공격의 일부를 자신에게 집중시켜 도시를 더욱 보호합니다. 하지만 이런 식으로 주둔군 또한 파괴될 수 있으니 주의해야 합니다.[NEWLINE][NEWLINE]도시에 지상군과 해상군 유닛이 모두 주둔하고 있는 경우, 두 유닛의 기여도는 합산되지 않습니다. 전투력 기여도가 더 높은 유닛만 해당 기여도를 적용받으며, 해당 유닛이 공격을 흡수하는 주둔군이 됩니다.[NEWLINE][NEWLINE]추가 전투 유닛은 도시를 통과할 수 있지만, 도시에서 턴을 종료할 수는 없습니다. 동일한 영지의 주둔군이 있는 도시에 새로운 전투 유닛을 건설하면, 새 유닛은 도시 인접 지역에 배치됩니다. [NEWLINE][NEWLINE]도시에 주둔한 부대는 [COLOR_YELLOW]해양 유닛이 아니라면[ENDCOLOR] 주변의 적 부대를 공격할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY';
 
 UPDATE Language_ko_KR

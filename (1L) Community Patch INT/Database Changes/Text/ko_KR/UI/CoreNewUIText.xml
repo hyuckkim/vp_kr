@@ -352,6 +352,15 @@
 		<Row Tag="TXT_KEY_PRODUCTION_GLOBAL_SUFFIX">
 			<Text>모든 도시에서</Text>
 		</Row>
+		<Row Tag="TXT_KEY_LIST_COMBINE_TWO">
+			<Text>{1_String1}, {2_String2}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIST_COMBINE_NONFINAL">
+			<Text>{1_String1}, {2_String2}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIST_COMBINE_FINAL">
+			<Text>{1_String1}, {2_String2}</Text>
+		</Row>
 		<!-- Unit -->
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_CLASS">
 			<Text>({1:textkey} 유닛)</Text>
@@ -661,13 +670,13 @@
 			<Text>지역 효과:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_EFFECTS">
-			<Text>문명 전역 효과:</Text>
+			<Text>[COLOR_POSITIVE_TEXT]문명 전역 효과:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TEAM_EFFECTS">
-			<Text>팀 전역 효과:</Text>
+			<Text>[COLOR_POSITIVE_TEXT]팀 전역 효과:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_EFFECTS">
-			<Text>기업 혜택:</Text>
+			<Text>[COLOR_POSITIVE_TEXT]기업 혜택:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENTS">
 			<Text>다음 역사적 사건을 발동하거나 강화:</Text>
@@ -700,7 +709,7 @@
 			<Text>이 건물의 잠재적 이점:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_CHANGE">
-			<Text>{3_YieldIcon} {4_Yield:textkey}: {2_Sign}{1_Num}</Text>
+			<Text>[ICON_BULLET]{3_YieldIcon} {4_Yield:textkey}: {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROJECTED_YIELD_CHANGE">
 			<Text>건설 시 예상 산출량: {1_YieldChanges}</Text>
@@ -715,7 +724,7 @@
 			<Text>건설 시 예상 [ICON_HAPPINESS_1] 행복: {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIR_DEFENSE">
-			<Text>[ICON_AIRSTRIKE_DEFENSE] 도시 공습 방어: +{1_Num}</Text>
+			<Text>[ICON_BULLET][ICON_AIRSTRIKE_DEFENSE] 도시 공습 방어: +{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_YIELD_TYPE">
 			<Text>이 건물의 [ICON_GREAT_WORK] 걸작이 [ICON_CULTURE] 문화 대신 제공하는 {1_YieldIcon} {2_Yield:textkey}</Text>
@@ -776,21 +785,27 @@
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_COMBAT">
 			<Text>[COLOR_YELLOW]{3_Combat:textkey}[ENDCOLOR] 유닛에 경험치 {2_Sign}{1_Num}</Text>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAINS">
+			<Text>{3_Domains} 유닛에 경험치 {2_Sign}{1_Num}</Text>
+		</Row>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN">
 			<Text>[COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] 경험치 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WORK">
-			<Text>{2_Sign}{1_Num} XP for [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] per [ICON_GREAT_WORK] Great Work in City</Text>
+			<Text>건물에 배치된 [ICON_GREAT_WORK] 걸작 당 {3_Domains} 유닛에 경험치 {2_Sign}{1_Num}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WRITING_GLOBAL">
-			<Text>{2_Sign}{1_Num} XP for [COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] in all Cities per [ICON_GW_WRITING] Great Work of Writing in Empire, capped at 45 XP</Text>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WORK_CITY">
+			<Text>도시의 [ICON_GREAT_WORK] 걸작 당 경험치 {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAINS_FROM_GREAT_WRITING_GLOBAL">
+			<Text>제국의 모든 [ICON_GREAT_WORK] 걸작 당 {3_Domains}의 경험치 {2_Sign}{1_Num} (최대 45)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_KEPT">
 			<Text>도시 성장시 이월되는 [ICON_FOOD] 식량 {2_Sign}{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER">
-			<Text>[ICON_HAPPINESS_4] 불행 {2_Sign}{1_Num}%</Text>
+			<Text>[ICON_BULLET][ICON_HAPPINESS_4] 불행 {2_Sign}{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER_LOCAL">
 			<Text>[ICON_HAPPINESS_4] 도시의 불행 {2_Sign}{1_Num}%</Text>
@@ -823,7 +838,7 @@
 			<Text>팀과 함께 문명 전체 효과 공유</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TECH_SHARE">
-			<Text>다른 팀이 연구한 기술을 팀이 {1_Num} 획득</Text>
+			<Text>다른 팀이 연구한 기술을 내 팀이 {1_Num} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_CONNECTION">
 			<Text>물 위로 [ICON_CONNECTED] 도시 연결 허용</Text>
@@ -1111,7 +1126,7 @@
 			<Text>완성 시: 선택 가능한 무료 [ICON_GREAT_PEOPLE] 위인 {1_Num}명 [ICON_CAPITAL] 수도에 출현</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPY_POINTS">
-			<Text>완성 시: [ICON_SPY] 스파이 점수 {1_Num}점 획득</Text>
+			<Text>완성 시: [ICON_SPY_POINT] 스파이 점수 {1_Num}점 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPIES">
 			<Text>완성 시: [ICON_SPY] 스파이 {1_Num}명 획득</Text>
@@ -1489,7 +1504,7 @@
 			<Text>[COLOR_WARNING_TEXT]참고: 위의 기술이 연구되면 이 건물의 현재 모든 효과가 제거됨![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_BOOST">
-			<Text>[COLOR_YIELD_FOOD]{1_BuildingClass:textkey}[ENDCOLOR]에 {2_YieldBoosts}</Text>
+			<Text>{1_Buildings}에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_HAPPINESS">
 			<Text>[COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]에 [ICON_HAPPINESS_1] 행복 {2_Sign}{1_Num}</Text>
@@ -1498,19 +1513,19 @@
 			<Text>[ICON_WONDER] 세계 불가사의에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLOT_BOOST">
-			<Text>[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Plot:textkey}[ENDCOLOR]에 {2_YieldBoosts}</Text>
+			<Text>{1_Plots}에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TERRAIN_BOOST">
-			<Text>[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]에 {2_YieldBoosts}</Text>
+			<Text>{1_Terrains}에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FEATURE_BOOST">
-			<Text>[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Feature:textkey}[ENDCOLOR]에 {2_YieldBoosts}</Text>
+			<Text>{1_Features}에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESOURCE_BOOST">
-			<Text>{3_ResourceIcon} {1_Resource:textkey}에 {2_YieldBoosts}</Text>
+			<Text>{1_Resource:textkey}에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_IMPROVEMENT_BOOST">
-			<Text>[COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR] 에 {2_YieldBoosts}</Text>
+			<Text>{1_Improvements}에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LUXURY_BOOST">
 			<Text>사치 자원 타일에 {1_YieldBoosts}</Text>
@@ -1528,13 +1543,16 @@
 			<Text>[COLOR_POSITIVE_TEXT]물[ENDCOLOR]에 있는 자원 타일에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIALIST_BOOST">
-			<Text>[COLOR_POSITIVE_TEXT]{1_Specialist * 2}[ENDCOLOR]에 {2_YieldBoosts}</Text>
+			<Text>{1_Items}에 {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_BOOST">
 			<Text>[ICON_GREAT_WORK] 걸작에 {1_YieldBoosts} </Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_BOOST">
 			<Text>이 도시에서 출발하는 [ICON_INTERNATIONAL_TRADE] 교역로에 {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FAITH_PURCHASABLE_BUILDING_YIELDS">
+			<Text>이 도시의 [ICON_PEACE] 신앙으로 구매 가능한 건물에 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_GOLDEN_AGE">
 			<Text>[ICON_GOLDEN_AGE] 황금기 동안 {1_YieldModifiers}</Text>
@@ -1558,13 +1576,13 @@
 			<Text>[ICON_BULLET] 모든 도시의 [COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]: {2_Sign}{1_Num} [ICON_HAPPINESS_1] 행복</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BUILDING">
-			<Text>[ICON_BULLET][COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]{1_Items}: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BUILDING_GLOBAL">
-			<Text>[ICON_BULLET]모든 도시의 [COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]모든 도시의 {1_Items}: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_LOCAL_RESOURCE">
-			<Text>[ICON_BULLET]도시로 연결된 각 {3_ResourceIcon} {1_Resource:textkey}: {2_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]도시로 연결된 각 {1_Items}: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_LOCAL_RESOURCE">
 			<Text>[ICON_BULLET]도시로 연결된 각 {3_ResourceIcon} {4_Resource:textkey}: [ICON_HAPPINESS_1] 행복 {2_Sign}{1_Num}</Text>
@@ -1576,16 +1594,16 @@
 			<Text>[ICON_BULLET]각 도시가 소유한 설원 타일: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_WORKED_TERRAIN">
-			<Text>[ICON_BULLET]작업중인 각 [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]작업중인 각 {1_Items}: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_WORKED_FEATURE">
-			<Text>[ICON_BULLET]작업중인 각 [COLOR_PLAYER_DARK_GREEN_TEXT]{1_Feature:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]작업중인 각 {1_Items}: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_IMPROVEMENT">
-			<Text>[ICON_BULLET]도시가 보유중인 각 [COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]도시가 보유중인 각 {1_Items}: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_IMPROVEMENT_GLOBAL">
-			<Text>[ICON_BULLET]문명의 각 [COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
+			<Text>[ICON_BULLET]문명의 각 {1_Items}: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_TECH">
 			<Text>[ICON_BULLET][COLOR_CYAN]{1_Tech:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
@@ -1669,7 +1687,7 @@
 			<Text>[ICON_BULLET]Each [ICON_FRANCHISE] Established Franchise: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_FRIENDS">
-			<Text>[ICON_BULLET]Each [ICON_CITY_STATE] City-State Friend: {1_YieldBoosts} (NOTE: Allies are not Friends)</Text>
+			<Text>[ICON_BULLET] 우호적인 [ICON_CITY_STATE] 도시 국가: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_ALLIES">
 			<Text>[ICON_BULLET] 각 [ICON_CITY_STATE] 도시 국가 동맹: {1_YieldBoosts}</Text>
@@ -1760,6 +1778,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_POST_MODIFIER">
 			<Text>{1: number "'[COLOR_POSITIVE_TEXT]'#,##0.00;'[COLOR_NEGATIVE_TEXT]-'#,##0.00"} {2_IconString} 수정자 이후[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_SUBTOTAL">
+			<Text>{1: number "'[COLOR_POSITIVE_TEXT]'#,##0.00;'[COLOR_NEGATIVE_TEXT]-'#,##0.00"} {2_IconString}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_PUPPET_MODIFIER_MULTIPLICATIVE">
+			<Text>[ICON_BULLET] {2_IconString} 괴뢰 도시 수정치 {1: number "'+'##;'-'##"}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EATEN_FOOD">
 			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_CITIZEN] 시민의 [ICON_FOOD] 식량 소모</Text>
@@ -2178,6 +2202,71 @@
 		</Row>
 		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_RESOURCES_NET_NEGATIVE">
 			<Text>유닛을 업그레이드 하려면 {1_ResourcesString}{1: plural 1?이; 2?가;} 필요합니다.</Text>
+		</Row>
+
+		<!-- Heal action disabled tooltips -->
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_CANNOT_HEAL">
+			<Text>이 유닛은 회복할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_RESOURCE_SHORTAGE">
+			<Text>이 유닛은 자원 부족으로 인해 회복할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_HOVERING_WATER">
+			<Text>호버링 유닛은 지상에서만 회복할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_MOUNTAIN">
+			<Text>산에서는 회복할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_EMBARKED">
+			<Text>승선한 유닛은 회복할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_NAVAL_TERRITORY">
+			<Text>이 유닛은 우호적인 영토에서만 회복할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_NO_HEAL_RATE">
+			<Text>이 유닛은 현재 위치에서 회복력이 0입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_BLOCKADED">
+			<Text>봉쇄된 도시에서는 회복할 수 없습니다.</Text>
+		</Row>
+		<!-- Build action disabled tooltips -->
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_OTHER_UNIT_WORKING">
+			<Text>이미 다른 유닛이 이곳에서 작업 중입니다.</Text>
+		</Row>
+		<!-- Upgrade action disabled tooltips -->
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_EMBARKED">
+			<Text>승선한 유닛은 업그레이드할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_HAS_CARGO">
+			<Text>다른 유닛을 운반하는 유닛은 업그레이드할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_CARGO_INCOMPATIBLE">
+			<Text>이 유닛을 운반하는 유닛이 업그레이드된 유닛의 운반을 지원하지 않습니다.</Text>
+		</Row>
+		<!-- Paradrop action disabled tooltips -->
+		<Row Tag="TXT_KEY_MISSION_PARADROP_DISABLED_MOVED">
+			<Text>이 유닛은 이동한 후에는 강하할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_PARADROP_DISABLED_EMBARKED">
+			<Text>승선한 유닛은 강하할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_PARADROP_DISABLED_TERRITORY">
+			<Text>우호적인 영토에서만 강하할 수 있습니다.</Text>
+		</Row>
+		<!-- Culture Bomb disabled tooltips -->
+		<Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_DISABLED_FOREIGN_TERRITORY">
+			<Text>이 능력은 다른 플레이어의 영토에서 사용할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_DISABLED_NOT_ADJACENT">
+			<Text>이 유닛은 이 행동을 수행하려면 자신의 영토 내부 또는 인접한 타일에 있어야 합니다.</Text>
+		</Row>
+		<!-- Found City action disabled tooltips -->
+		<Row Tag="TXT_KEY_MISSION_BUILD_CITY_DISABLED_TOO_CLOSE">
+			<Text>다른 도시의 {1_Num} 타일 이내에는 도시를 설립할 수 없습니다.</Text>
+		</Row>
+		<!-- Other disabled tooltips -->
+		<Row Tag="TXT_KEY_MISSION_DISABLED_CANNOT_END_TURN">
+			<Text>이 유닛은 여기서 턴을 종료할 수 없습니다.</Text>
 		</Row>
 
 		<!-- Combat simulator -->
