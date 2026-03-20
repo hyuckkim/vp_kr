@@ -1,3 +1,0 @@
-UPDATE Language_en_US
-SET Text = 'Crom'
-WHERE Tag = 'TXT_KEY_LEADER_BARBARIAN';

@@ -43,22 +43,19 @@ UsedUserAreasWarning=no
 Name: "korean"; MessagesFile: "compiler:Languages\Korean.isl"
 
 [Files]
-Source: "..\(1L) Community Patch INT\*"; Excludes: "\*.civ5proj,*.civ5sln,*.civ5suo"; DestDir: "{app}\MODS\(1L) Community Patch INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP VPNVC
-Source: "..\(2L) Vox Populi INT\*"; Excludes: "\*.civ5proj,*.civ5sln,*.civ5suo"; DestDir: "{app}\MODS\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP VPNVC
-Source: "..\(3aL) VP - EUI Compatibility Files INT\*"; Excludes: "\*.civ5proj,*.civ5sln,*.civ5suo"; DestDir: "{app}\MODS\(3aL) VP - EUI Compatibility Files INT"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP VPNVC
-Source: "..\(4aL) Squads for VP INT\*"; Excludes: "\*.civ5proj,*.civ5sln,*.civ5suo"; DestDir: "{app}\MODS\(4aL) Squads for VP INT"; Flags: ignoreversion createallsubdirs recursesubdirs;	Components: VP VPNVC
+Source: "..\(1L) Community Patch INT\*"; Excludes: "\*.civ5proj,*.civ5sln,*.civ5suo"; DestDir: "{app}\MODS\(1L) Community Patch INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
+Source: "..\(2L) Vox Populi INT\*"; Excludes: "\*.civ5proj,*.civ5sln,*.civ5suo"; DestDir: "{app}\MODS\(2L) Vox Populi INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
+Source: "..\(3aL) VP - EUI Compatibility Files INT\*"; Excludes: "\*.civ5proj,*.civ5sln,*.civ5suo"; DestDir: "{app}\MODS\(3aL) VP - EUI Compatibility Files INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
+Source: "..\(4aL) Squads for VP INT\*"; Excludes: "\*.civ5proj,*.civ5sln,*.civ5suo"; DestDir: "{app}\MODS\(4aL) Squads for VP INT"; Flags: ignoreversion createallsubdirs recursesubdirs;
 Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP
-Source: "..\Assets_votes\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VPNVC
-Source: "..\VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion; Components: VP VPNVC
+Source: "..\VPUI Text\VPUI_tips_ko_kr.xml"; DestDir: "{app}\Text"; Flags: ignoreversion;
 ; 참고: 공유 시스템 파일에서 "Flags: ignoreversion"을 사용하지 마십시오.
 
 [Components]
 Name: "VP"; Description: "Vox Populi 한국어 번역"; Types: VP; Flags: exclusive disablenouninstallwarning
-Name: "VPNVC"; Description: "Vox Populi 한국어 번역 (투표 문명색 제거)"; Types: VPNVC; Flags: exclusive disablenouninstallwarning
 
 [Types]
 Name: "VP"; Description: "Vox Populi 한국어 번역";
-Name: "VPNVC"; Description: "Vox Populi 한국어 번역 (투표 문명색 제거)";
 
 [InstallDelete]
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\cache"
