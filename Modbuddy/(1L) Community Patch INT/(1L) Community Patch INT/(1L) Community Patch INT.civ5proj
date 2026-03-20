@@ -5,9 +5,9 @@
     <ProjectGuid>{d16a1f9c-4f5d-4c32-b63f-2f6906bf8026}</ProjectGuid>
     <Name>(1L) Community Patch INT</Name>
     <Guid>781c4891-2f7e-421a-b08e-7c389d0ca158</Guid>
-    <ModVersion>147</ModVersion>
+    <ModVersion>148</ModVersion>
     <Stability>Beta</Stability>
-    <Teaser>(5.0.1) 문명 5의 버그 수정, AI 개선, 게임 최적화 및 API 확장</Teaser>
+    <Teaser>(5.1.3) 문명 5의 버그 수정, AI 개선, 게임 최적화 및 API 확장</Teaser>
     <Description>문명 5 멋진 신세계 DLL에 대한 핵심 AI 개선 사항과 버그 수정 사항이 포함되어 있습니다. 또한 Vox Populi 비공식 확장팩과 관련 모드에 대한 지원도 포함되어 있습니다.</Description>
     <Authors>hyuckkim, HANDANI</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
@@ -128,6 +128,11 @@
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>Database Changes/Text/ko_KR/Notifications/CoreNotificationTextChanges.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Database Changes/Text/ko_KR/Policies/CorePolicyTextChanges.sql</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -255,6 +260,7 @@
     <Folder Include="Database Changes\Text\ko_KR\Espionage\" />
     <Folder Include="Database Changes\Text\ko_KR\Minors\" />
     <Folder Include="Database Changes\Text\ko_KR\Notifications\" />
+    <Folder Include="Database Changes\Text\ko_KR\Policies\" />
     <Folder Include="Database Changes\Text\ko_KR\Religions\" />
     <Folder Include="Database Changes\Text\ko_KR\UI\" />
     <Folder Include="Database Changes\Text\ko_KR\UnitPromotions\" />
@@ -343,6 +349,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Database Changes\Text\ko_KR\Notifications\CoreNotificationTextChanges.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Database Changes\Text\ko_KR\Policies\CorePolicyTextChanges.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

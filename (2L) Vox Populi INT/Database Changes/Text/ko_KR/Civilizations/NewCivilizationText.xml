@@ -717,8 +717,8 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GYMNASION_HELP">
 			<Text>가능한 테마 보너스:
-  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 2개에서 [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4를 얻습니다.
-  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]해외 걸작[ENDCOLOR] [ICON_GW_WRITING] 문학 2개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.</Text>
+  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4를 얻습니다.
+  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GYMNASION_TEXT">
 			<Text>김나시온은 그리스 성인 남성들이 사교 활동을 하고 대중 경기를 연습하는 데 사용했던 훈련 시설이었습니다. 이름은 대략 "벌거벗은 훈련장"으로 번역되는데, 모든 운동선수가 벌거벗은 채로, 대개 올리브 오일을 온몸에 바른 채로 훈련했기 때문입니다. 김나시온은 원래 도시 경계 밖의 열린 운동장으로 시작했지만, 나중에는 그리스 공공 생활의 중심이 되는 밀폐된 공간으로 계획되었습니다. 대중이 참여하는 게임과 축제 자체가 중요했지만, 김나시온 예술과 학습의 중심지이기도 했습니다. 아테네의 유명한 철학 학파인 플라톤이 창시한 아카데미아학파, 아리스토텔레스가 창시한 소요학파, 안티스테네스가 창시한 견유(키니코스)학파는 모두 그들이 모인 김나시온의 이름을 따서 창시되고 명명되었습니다.</Text>
@@ -1220,7 +1220,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_TERSANE_HELP">
-			<Text>오스만 고유 위인 타일 시설입니다. 도시에 인접해 있지만 다른 테르사네에 인접해 있지 않은 [ICON_GREAT_ADMIRAL] 위대한 제독이나 탑승한 [ICON_GREAT_GENERAL] 위대한 장군을 소모하여 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_GOLD] 골드, [ICON_PRODUCTION] 생산력, [ICON_RESEARCH] 과학, [ICON_GREAT_ADMIRAL] 위대한 제독 점수를 제공합니다. 인접 도시에 건설된 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 +15 증가합니다. 같은 도시 옆에 여러 개의 테르사네가 있는 경우 중첩되지 않습니다.[NEWLINE][NEWLINE]테르사네를 건설하면 인접한 타일도 차지합니다. 테르사네 위에 서 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 50% 증가합니다. 인접한 적군 유닛에 30의 피해를 입힙니다.</Text>
+			<Text>오스만 고유 위인 타일 시설입니다. 도시에 인접해 있지만 다른 테르사네에 인접해 있지 않은 [ICON_GREAT_ADMIRAL] 위대한 제독이나 탑승한 [ICON_GREAT_GENERAL] 위대한 장군을 소모하여 건설할 수 있습니다.[NEWLINE][NEWLINE][ICON_GOLD] 골드, [ICON_PRODUCTION] 생산력, [ICON_RESEARCH] 과학을 제공합니다. 이 타일을 소유한 도시에서 생산되는 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 +10 증가합니다.[NEWLINE][NEWLINE]테르사네를 건설하면 인접한 타일도 차지합니다. 테르사네 위에 서 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 50% 증가합니다. 인접한 적군 유닛에 30의 피해를 입힙니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_TERSANE_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_TERSANE_HELP}터키어 '테르사네(Tersane)'는 베네치아어 '다르사네(Darsane)'에서 유래되었으며, 영어 단어 '아스널(Arsenal)'도 이 단어에서 유래되었습니다. 오스만 제국은 조선 기술의 선두에 있지는 않았지만, 1453년 콘스탄티노플을 정복한 이후 지중해에서 1세기 이상 해상 지배력을 누렸습니다. 콘스탄티노플 맞은편 금각만에 건설된 가장 큰 테르사네에는 160개가 넘는 부두, 건조도크, 창고, 보급창고가 있어 지중해에서 가장 큰 상업과 산업의 중심지 중 하나였습니다.[NEWLINE][NEWLINE]오스만 제국의 해군력은 엄청난 조선 능력과 북아프리카의 바르바리 해적과의 동맹을 통해 유지되었습니다. 이러한 우월성은 레판토 해전에서 마침내 끝났습니다. 이 해전에서 스페인과 베네치아의 연합 함대는 오스만 제국에 참패를 안기고 오스만 해군의 3분의 2 이상을 나포하거나 파괴했습니다. 이에 대응하여 오스만 제국은 6개월 만에 250척의 새로운 선박을 건조했습니다.[NEWLINE][NEWLINE]"당신은 우리가 불행을 어떻게 견디는지 보러 오셨구려. 하지만 당신의 손실과 우리의 손실의 차이를 알려드리고 싶소. 당신들로부터 키프로스를 탈취한 것은 우리가 당신의 팔을 뽑아 버린 것과 같고 우리 함대가 패한 것은 단지 우리의 수염을 깎은 것이나 다름없소."[NEWLINE][TAB] - 레판토 전투의 패배와 오스만 제국이 같은 해 초에 점령했던 키프로스의 함락에 대한 대재상 소콜루 메흐메트의 연설
@@ -1230,7 +1230,7 @@
 			<Text>[LINK=IMPROVEMENT_OTTOMAN_TERSANE]테르사네[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERSANE_HELP">
-			<Text>소유한 도시 옆의 수역에만 건설할 수 있으며, 다른 테르사네에 인접할 수 없습니다.[NEWLINE][NEWLINE]테르사네를 건설하면 문화 경계가 확장되어 테르사네를 둘러싸게 되며, [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 이 유닛이 소모됩니다.[NEWLINE][NEWLINE]인접 도시에서 건조된 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 +10 증가합니다. 같은 도시 옆에 여러 개의 테르사네가 겹쳐서 설치되지 않습니다. 테르사네 위에 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 +50% 증가합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 포함되어, 공격 후에도 아군 유닛이 이 타일에 계속 주둔할 수 있습니다. 인접한 적 유닛에게 30의 피해를 줍니다.</Text>
+			<Text>소유한 도시 옆의 수역에만 건설할 수 있으며, 다른 테르사네에 인접할 수 없습니다.[NEWLINE][NEWLINE]테르사네를 건설하면 문화 경계가 확장되어 테르사네를 둘러싸게 되며, [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 이 유닛이 소모됩니다.[NEWLINE][NEWLINE]이 타일을 소유한 도시에서 생산되는 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 +10 증가합니다. 테르사네 위에 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 +50% 증가합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 포함되어, 공격 후에도 아군 유닛이 이 타일에 계속 주둔할 수 있습니다. 인접한 적 유닛에게 30의 피해를 줍니다.</Text>
 		</Row>
 
 		<!-- 페르시아 -->
@@ -1346,7 +1346,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_COIMBRA_HELP">
-			<Text></Text>
+			<Text>가능한 테마 보너스:[NEWLINE][ICON_BULLET][COLOR_CYAN]다른 시대[ENDCOLOR]의 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +10, [ICON_TOURISM] 관광 +10을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_OF_COIMBRA_TEXT">
 			<Text>1290년에 개교한 코임브라 대학교는 세계에서 가장 오래된 고등 교육 센터 중 하나입니다. 이 대학은 디니스 1세 국왕이 리스본 에스투두 제랄(Estudo Geral, 일반학교)이라는 이름으로 설립했으며, 원래 예술학부, 법학부, 교회법학부, 의학부로 구성되었습니다. 350년 동안 포르투갈 최초이자 유일한 대학이었던 코임브라 대학은 포르투갈의 교육, 정치, 사회적 영향력의 중심지가 되었습니다.</Text>
@@ -1617,12 +1617,10 @@
 			<Text>피아자 산 마르코(산 마르코 광장)는 이탈리아 베네치아의 광장입니다. 도시의 다른 모든 공간은 "캄피"(밭)라고 불립니다. 피아제타('작은 광장')는 광장의 남동쪽 구석에 있는 석호를 향해 연장된 것입니다. 이 두 공간은 함께 베네치아의 사회적, 종교적, 정치적 중심지를 형성하며 일반적으로 함께 건설됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_STRATEGY">
-			<Text>{TXT_KEY_BUILDING_NATIONAL_EPIC}를 대체하는 베네치아의 고유 건물입니다. {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 {TXT_KEY_BUILDING_NATIONAL_EPIC}의 보너스에 더해, 추가로 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CITY_SECURITY] 도시 보안,[ICON_WAR] 군사 유닛 보급 한도, 도시의 [ICON_GREAT_PEOPLE] 위인 생성 속도를 증가시킵니다. 또한 민간 유닛 구매 대기시간을 감소시키고, 군사 유닛 구매 대기시간을 제거합니다. [COLOR_CYAN]길드[ENDCOLOR]를 연구하면 베네치아의 세 고유 건물 중 하나를 건설할 수 있는 능력을 잠금 해제합니다. {TXT_KEY_BUILDING_NATIONAL_EPIC}와 달리, {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 [COLOR_CYAN]{TXT_KEY_TECH_WRITING_TITLE}[ENDCOLOR] 연구 시 생산이 가능하며, {TXT_KEY_BUILDING_MONUMENT}를 요구하지 않습니다. 하지만 [ICON_CAPITAL] 수도에만 건설할 수 있습니다.</Text>
+			<Text>{TXT_KEY_BUILDING_NATIONAL_EPIC}를 대체하는 베네치아의 고유 건물입니다. {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 {TXT_KEY_BUILDING_NATIONAL_EPIC}의 보너스에 더해, 추가로 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CITY_SECURITY] 도시 보안,[ICON_WAR] 군사 유닛 보급 한도, 도시의 [ICON_GREAT_PEOPLE] 위인 생성 속도를 증가시킵니다. 또한 민간 유닛 구매 대기시간을 감소시키고, 군사 유닛 구매 대기시간을 제거합니다. [COLOR_CYAN]길드[ENDCOLOR]를 연구하면 베네치아의 세 고유 건물 중 하나를 건설할 수 있는 능력을 잠금 해제합니다. {TXT_KEY_BUILDING_NATIONAL_EPIC}와 달리, {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 [COLOR_CYAN]{TXT_KEY_TECH_WRITING_TITLE}[ENDCOLOR] 연구 시 생산이 가능하며, {TXT_KEY_BUILDING_MONUMENT_DESC}를 요구하지 않습니다. 하지만 [ICON_CAPITAL] 수도에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_HELP">
-			<Text>[COLOR_CYAN]길드[ENDCOLOR] 연구를 완료하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아르세날레 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR]에 접근할 수 있습니다.[NEWLINE]
-				가능한 테마 보너스:
-  				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GREAT_WORK] 걸작 2개에서 [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8을 얻습니다.</Text>
+			<Text>[COLOR_CYAN]길드[ENDCOLOR] 연구를 완료하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아르세날레 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR]에 접근할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT">
 			<Text>리알토 지구</Text>
@@ -1660,7 +1658,7 @@
 			<Text>수도에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}를 건설하면 셋 중 하나만 건설할 수 있는 베네치아의 고유 건물입니다. 모든 도시의 위인 타일 시설과 마을을 강화합니다. [ICON_INTERNATIONAL_TRADE] 교역로 완성 시 발생하는 역사적 사건을 활성화하거나 강화합니다. [ICON_GREAT_WORK] 위대한 예술품 또는 유물 슬롯 2개를 보유합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_HELP">
-			<Text></Text>
+			<Text>가능한 테마 보너스:[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GREAT_WORK] 걸작 2개에서 [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8을 얻습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_MURANO_GLASSWORKS">
 			<Text>무라노 명작 컬렉션</Text>

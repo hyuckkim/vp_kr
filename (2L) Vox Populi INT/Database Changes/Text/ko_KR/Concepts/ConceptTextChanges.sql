@@ -228,7 +228,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]경험치 제한[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_BARBARIAN_POINTLIMITS_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '야만인 유닛과 싸울 때, 훈련이 덜 된 유닛은 경험치를 얻습니다. 그러나 이미 [COLOR_YELLOW]45 XP[ENDCOLOR]를 획득한 (또는 그만큼을 진급으로 교환한) 유닛은 더 이상 야만인과의 전투에서 XP를 얻을 수 없습니다.'
+SET Text = '야만인 유닛과 싸울 때, 훈련이 덜 된 유닛은 경험치를 얻습니다. 그러나, 이미 경험치를 [COLOR_YELLOW]45[ENDCOLOR] 획득한 유닛은 더 이상 야만인과의 전투에서 경험치를 얻을 수 없고 경험치를 [COLOR_YELLOW]70[ENDCOLOR] 획득한 유닛은 더 이상 도시 국가와의 전투에서 경험치를 얻을 수 없습니다.'
 WHERE Tag = 'TXT_KEY_BARBARIAN_POINTLIMITS_HEADING3_BODY';
 
 UPDATE Language_ko_KR

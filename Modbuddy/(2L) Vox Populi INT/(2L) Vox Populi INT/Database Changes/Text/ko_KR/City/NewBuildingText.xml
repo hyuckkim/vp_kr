@@ -216,7 +216,7 @@
 
 		<!-- Museum -->
 		<Row Tag="TXT_KEY_BUILDING_MUSEUM_HELP">
-			<Text></Text>
+			<Text>가능한 테마 보너스:[NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품 2개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.[NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_ARTIFACT] 유물 2개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.[NEWLINE][ICON_BULLET] [COLOR_CYAN]동시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품과 [ICON_ARTIFACT] 유물 한 쌍에서 [ICON_CULTURE] 문화 +5, [ICON_TOURISM] 관광 +5를 얻습니다.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_GW_ART] 걸작 예술품 2개에서 [ICON_CULTURE] 문화 +5, [ICON_TOURISM] 관광 +5를 얻습니다.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] 혹은 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR]의 [ICON_ARTIFACT] 유물 2개에서 [ICON_CULTURE] 문화 +5, [ICON_TOURISM] 관광 +5를 얻습니다.</Text>
 		</Row>
 
 		<!-- Market -->
@@ -367,8 +367,9 @@
 
 		<!-- Notre Dame -->
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_HELP">
-			<Text>가능한 테마 보너스:
-  			[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]서로 다른 문명[ENDCOLOR]의 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GW_MUSIC] 걸작 음악 2개에서 [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8을 얻습니다.</Text>
+			<Text>
+				가능한 테마 보너스:
+				[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]서로 다른 문명[ENDCOLOR]의 [COLOR_POSITIVE_TEXT]해외[ENDCOLOR] [ICON_GREAT_WORK] 걸작 2개에서 [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8을 얻습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_ROMAN_FORUM">
@@ -966,8 +967,10 @@
 			<Text>차타리움을 건설해 기술을 연구할 때마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_TOURISM] 관광, [ICON_CULTURE] 문화를 얻고, 모든 성지를 강화하십시오. 성도에만 건설할 수 있으며, 전 세계의 15% 이상이 당신의 종교를 따라야 합니다. (맵 크기에 따라 보정) [ICON_HAPPINESS_3] 개혁 교리를 선택할 수 있게 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHARTARIUM_HELP">
-			<Text>가능한 테마 보너스:
- 			[NEWLINE][ICON_BULLET] +8 [ICON_CULTURE] and [ICON_TOURISM] for three [ICON_GW_WRITING] from the [COLOR_POSITIVE_TEXT]same Civilization[ENDCOLOR].</Text>
+			<Text>
+				가능한 테마 보너스:
+				[NEWLINE][ICON_BULLET][COLOR_CYAN]같은 문명[ENDCOLOR]의 [ICON_GW_WRITING] 걸작 문학 3개에서 [ICON_CULTURE] 문화 +8, [ICON_TOURISM] 관광 +8을 얻습니다.
+			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHARTARIUM_TEXT">
 			<Text>차타리움은 교황청에서 개인적으로 보관하는 서신과 의사록의 모음집이었습니다. 이 컬렉션은 바티칸 비밀 기록 보관소의 시초가 되었습니다.</Text>
