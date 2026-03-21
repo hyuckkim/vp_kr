@@ -819,5 +819,31 @@
 		<Row Tag="TXT_KEY_BALANCE_ANNEXED_CS_SUMMARY">
 			<Text>{1_CS}{1: plural 1?을; 2?를;} 위협했습니다!</Text>
 		</Row>
+
+		<!-- Generic CS yield notifications -->
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_GENERIC">
+			<Text>이 도시 국가는 이제 당신과 우호 관계입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_GENERIC">
+			<Text>이 도시 국가는 이제 당신의 동맹입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_FRIENDS_GENERIC">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_ALLIES_GENERIC">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_HAPPINESS">
+			<Text>{1_NumHappiness} [ICON_HAPPINESS_1] 행복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_PLAYER_YIELDS">
+			<Text>[NEWLINE]매 턴 {1_YieldList}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_CITY_YIELDS">
+			<Text>[NEWLINE]도시에 기여: {1_YieldList}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_CITY_YIELDS_CAPITAL">
+			<Text>[NEWLINE] [ICON_CAPITAL]수도에 기여: {1_YieldList}.</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>

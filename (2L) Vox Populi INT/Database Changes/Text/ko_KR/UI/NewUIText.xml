@@ -1547,7 +1547,7 @@
 			<Text>무료 교역로:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATION_RESOURCE_BONUS_LABEL">
-			<Text>프랜차이즈 자원 보너스:</Text>
+			<Text>자원 보너스:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATION_OFFICE_BONUS_LABEL">
 			<Text>오피스 보너스:</Text>
@@ -1806,13 +1806,13 @@
 			<Text>이 문명이 발견한 모든 땅을 드러냅니다.[NEWLINE][NEWLINE]참고: 만나지 못한 문명 및 도시 국가와 접촉할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_BOTH">
-			<Text>[NEWLINE][NEWLINE]두 문명 모두 이 항목을 거래할 수 있는 기술(군사 과학)을 가지고 있지 않습니다.</Text>
+			<Text>[NEWLINE][NEWLINE]두 문명 모두 이 항목을 거래할 수 있는 기술({1_Tech:textkey})을 가지고 있지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_OTHER_PLAYER">
-			<Text>[NEWLINE][NEWLINE]그들은 아직 이 항목을 거래할 수 있는 기술(군사 과학)을 가지고 있지 않습니다.</Text>
+			<Text>[NEWLINE][NEWLINE]그들은 아직 이 항목을 거래할 수 있는 기술({1_Tech:textkey})을 가지고 있지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_PLAYER">
-			<Text>[NEWLINE][NEWLINE]당신은 아직 이 항목을 거래할 수 있는 기술(군사 과학)을 가지고 있지 않습니다.</Text>
+			<Text>[NEWLINE][NEWLINE]당신은 아직 이 항목을 거래할 수 있는 기술({1_Tech:textkey})을 가지고 있지 않습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_THEY_ALREADY_EXPLORED">
 			<Text>[NEWLINE][NEWLINE]그들은 이미 당신의 세계 지도에 드러난 모든 땅을 탐험했습니다.</Text>
@@ -2455,6 +2455,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_APPLY_CHANGES">
 			<Text>변경 적용</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SET_TAXES">
+			<Text>세금 지정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SET_TAXES_TT">
+			<Text>종속국의 세율을 지정합니다. 변경 사항은 다음 턴에 적용됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_APPLY_CHANGES_TT">
 			<Text>종속국의 세율 변경을 적용합니다. 다음 턴에 적용될 것입니다.</Text>
