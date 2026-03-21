@@ -1,5 +1,5 @@
 UPDATE Language_ko_KR
-SET Text = '습지는 생물학적 다양성이 풍부하지만, 배고프고 성장하는 문명에 제공할 수 있는 것은 음식 외에는 거의 없습니다. 도시 보너스를 제공하기 전에 물을 빼내거나 다른 방식으로 변경해야 하기 때문입니다.'
+SET Text = '생물 다양성이 풍부하지만, 습지를 활용하려면 상당한 기반 시설이나 독특한 사회적 결정(정책 또는 신념)이 필요합니다. 습지 타일을 개발하려면 먼저 물을 빼내야 하는데, 이는 시간적으로 비용이 많이 들고 (숲이나 정글과는 달리) 그 자체로는 아무런 이점이 없습니다. 자원 개발 캠프는 예외이지만, 습지에 캠프를 설치하면 사냥꾼들이 자연 생태계를 파괴하여 해당 타일의 식량 생산량이 2만큼 감소합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_MARSH_TEXT';
 
 UPDATE Language_ko_KR
@@ -56,7 +56,7 @@ SET Text = '고대 시대 이후 매 시대마다 이 자연 경관의 [ICON_FOO
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_LAKE_VICTORIA_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '모든 군사 유닛에게 이동력을 2배 늘리고 언덕에서 전투력 보너스를 증가시키는 [COLOR_PLAYER_PURPLE]고산지 훈련[ENDCOLOR] 승급을 부여합니다.'
+SET Text = '모든 군사 유닛에게 언덕에서 전투력 보너스를 증가시키는 [COLOR_PLAYER_PURPLE]고산지 훈련[ENDCOLOR] 승급을 부여합니다.'
 WHERE Tag = 'TXT_KEY_CIV5_FEATURES_KILIMANJARO_HELP';
 
 UPDATE Language_ko_KR

@@ -86,6 +86,7 @@
     <File md5="CCC234607860466F212D5E38059F064C" import="0">Database Changes/Text/ko_KR/WorldMap/NewResourceText.xml</File>
     <File md5="898EACBF8051D95162754B5A7C3C3233" import="0">Database Changes/Text/ko_KR/WorldMap/ResourceTextChanges.sql</File>
     <File md5="F5F087DF969F29786A16FA6E59B60BFF" import="0">Database Changes/Text/ko_KR/WorldMap/RouteTextChanges.sql</File>
+    <File md5="F5F087DF969F29786A16FA6E59B60BFF" import="0">Database Changes/Text/ko_KR/WorldMap/TerrainTextChanges.sql</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -143,6 +144,7 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/NewResourceText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/ResourceTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/RouteTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/TerrainTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/GameOptionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/NewAutomateText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/NewGameOptionText.xml</UpdateDatabase>

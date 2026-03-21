@@ -108,7 +108,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
-			<Text>이 유닛으로 도시를 세울 수 있습니다. 스스로를 방어할 수 없으므로, 전투 유닛으로 보호해야 합니다. 도시를 세우면, 식민지 개척자로 세워진 도시는 5 시민으로 시작하고, 추가 영토를 얻고 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 등대[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 사원[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 송수로[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][ICON_BULLET] 원형 극장[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 작업장[NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 풍차[NEWLINE][ICON_BULLET] 항만[NEWLINE][ICON_BULLET] 훈제실[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 식민지 개척자로 건설한 건물에 적용되지 않습니다!</Text>
+			<Text>이 유닛으로 도시를 세울 수 있습니다. 이전 개척자 계열 유닛과는 달리, 식민지 개척자가 건설한 도시는 괴뢰 도시로 간주되어 기술 및 정책 비용과 같은 제국 규모 페널티가 증가하지 않습니다. 이 괴뢰 도시는 비용 없이 합병할 수 있으며, 법원도 필요하지 않습니다.[NEWLINE][NEWLINE]스스로를 방어할 수 없으므로, 전투 유닛으로 보호해야 합니다. 도시를 세우면, 식민지 개척자로 세워진 도시는 5 시민으로 시작하고, 추가 영토를 얻고 자동으로 다음 건물이 건설됩니다:[NEWLINE][NEWLINE][ICON_BULLET] 곡창[NEWLINE][ICON_BULLET] 기념비[NEWLINE][ICON_BULLET] 대장간[NEWLINE][ICON_BULLET] 도서관[NEWLINE][ICON_BULLET] 등대[NEWLINE][ICON_BULLET] 물레방앗간 (가능하다면)[NEWLINE][ICON_BULLET] 병영[NEWLINE][ICON_BULLET] 사원[NEWLINE][ICON_BULLET] 성소[NEWLINE][ICON_BULLET] 송수로[NEWLINE][ICON_BULLET] 시장[NEWLINE][ICON_BULLET] 약초상[NEWLINE][ICON_BULLET] 우물 (가능하다면)[NEWLINE][ICON_BULLET] 원형 극장[NEWLINE][ICON_BULLET] 자문회[NEWLINE][ICON_BULLET] 작업장[NEWLINE][ICON_BULLET] 투기장[NEWLINE][ICON_BULLET] 풍차[NEWLINE][ICON_BULLET] 항만[NEWLINE][ICON_BULLET] 훈제실[NEWLINE][NEWLINE]참고: 진보와 산업 정책의 건물 건설 보너스는 식민지 개척자로 건설한 건물에 적용되지 않습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST_TEXT">
 			<Text>역사를 통해 연구하면, 정착민의 일종인 식민지 개척자들이 원주민으로 지정된 오랜 정착민들의 고향인 땅을 얼마나 자주 점령했는지 목격할 수 있습니다('원주민', '토착민', 또는 아메리카에서 '인디언'이라고도 합니다). 일부 경우(호주 등) 식민주의적 사고방식과 법이 바뀌면서 일부 토지의 법적 소유권은 원주민들이 전통적인 사용법, 토지 권리, 원주민 소유권 및 관련 형태의 법적 소유권 또는 부분적 통제의 복원을 주장하거나 요구하는 것에 대해 이의를 제기합니다. "정착자"라는 단어는 원래 노예(예: 미국), 계약 노동자(예: 식민지 아메리카), 또는 죄수(예: 영국 아메리카, c. 1615–1775; 호주 1788-1868)와 같은 자유 노동 이민자와 관련하여 사용되지 않았습니다. 더 최근에 이러한 이민자들의 후손들은 자유 이민자들의 후손들만큼 "정착자"라는 단어를 사용할 권리가 있다고 주장할 수 있습니다. 비유적 용법에서, "먼저 가거나 무언가를 먼저 하는 사람"은 1605년에 영어로 처음 기록되었듯이 정착민을 지칭하기 위해 "개척자"를 사용하는 미국 영어에도 적용됩니다. 미국 역사에서 그것은 새로운 땅에 정착하는 것을 도운 사람들을 말합니다. 이 용법에서 개척자들은 보통 한 지역에 처음 온 사람들 중 하나이지만, 정착자들은 첫 번째 정착 후에 도착하고 다른 사람들과 함께 인간 정착의 과정에 참여할 수 있습니다. 이것은 군대의 주체가 지정된 야영지에 도착하기 전에 야영지를 건설하는 임무를 맡았던 군사 개척자들의 작업과 관련이 있습니다.</Text>
@@ -179,7 +179,7 @@
 			<Text>노급전함</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_STRATEGY">
-			<Text>노급전함은 2타일 사거리에서 발사할 수 있지만 시야가 필요합니다. 공격에 매우 강하고 수비에 약합니다.</Text>
+			<Text>노급전함은 기존 순양함과는 달리 [COLOR_POSITIVE_TEXT]간접 사격[ENDCOLOR] 승급을 보유하고 있습니다. 강력한 [ICON_RANGE_STRENGTH] 원거리 전투력과 결합된 이 능력은 더욱 공격적인 해안 포격을 가능하게 합니다. 노급전함으로 지상 목표물이나 근접 해군 유닛을 타격하는 동안, 아군 근접 해군 유닛이 적의 원거리 해군 유닛을 견제하도록 운용할 때 가장 효과적입니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_TEXT">
 			<Text>노급전함은 20세기 초반에 가장 많이 사용된 전함 유형입니다. 그것의 디자인은 두 가지 혁명적인 특징을 가지고 있습니다. 이전 배보다 더 많은 중구경을 가진 전대포(all-big-gun) 무장 계획과 증기 터빈 추진력입니다. 최초의 영국 해군의 노급전함은 12인치(305mm) 함포 10문을 탑재했습니다. 미 해군은 1910년에 처음으로 석유 연소 방식을 채택하기로 결정하고 1911년에 Nevada 급에 석유 연소 보일러를 주문했습니다. 다른 주요 해군은 제1차 세계 대전이 끝날 때까지 석탄과 석유 혼합 연소 방식을 유지했습니다. .[NEWLINE]노급전함의 시운전 후 5년 이내에 더욱 강력한 차세대 전함이 건조되었습니다. 최초의 전함은 일반적으로 영국의 오리온급으로 간주됩니다. 그들을 슈퍼로 만든 것은 더 무거운 13.5인치(343mm) 주포의 도입과 모든 주포가 중앙선에 배치되었기 때문입니다. 1917년 일본의 "Nagato"급이 주문되었으며, 이는 16인치(406mm) 함포를 탑재한 최초의 드레드노트였으며, 이는 틀림없이 세계에서 가장 강력한 전함입니다.</Text>
@@ -297,7 +297,36 @@
 			<Text>이 유닛의 외교 임무는 대상 [ICON_CITY_STATE] 도시 국가에 100의 기본 [ICON_INFLUENCE] 영향력을 부여하고, 시대가 지날 때마다 15의 추가 [ICON_INFLUENCE] 영향력을 부여하며, 대상 [ICON_CITY_STATE] 도시 국가가 다른 모든 문명에 갖는 [ICON_INFLUENCE] 영향력을 같은 양만큼 감소시킵니다.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_UNIT_REDCOAT">
+			<Text>레드코트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_REDCOAT_TEXT">
+			<Text>유럽 ​​군사 역사 전반에 걸쳐 (덴마크와 심지어 프랑스 부대조차 선명한 붉은색 제복을 입었던 적이 있을 정도로) 붉은색 제복은 드문 일이 아니었지만, 영국 육군과 해군 보병의 붉은색 제복은 국내외적으로 영국 군사력의 상징으로 확고하게 자리 잡았습니다. 원래 제작 비용 절감을 위해 도입된 붉은색 제복은 15세기 장미 전쟁까지 거슬러 올라가는 느린 과정을 거쳐 널리 보급되었습니다. 신형군 창설로 이어진 개혁 과정에서 붉은색은 영국 정체성의 핵심 요소로 자리 잡았고, 이후 수 세기 동안 그 자리를 유지했습니다. 붉은색 제복은 아메리카에서 오세아니아, 아프리카에서 유럽과 아시아에 이르기까지 영국 제국주의 정책 시대 내내 영국 보병이 착용하면서 그 명성을 얻게 되었습니다. 제복 색상에 대한 주요 변화는 화력의 위력이 훨씬 더 커지면서 붉은색 제복이 더 이상 식별 수단이 아닌 오히려 불리한 요소가 된 후에야 이루어졌습니다. 그럼에도 불구하고, 이 훈장은 영국 군사 의식에서 중요한 역할을 계속 수행했으며, 왕실 근위병들은 복무 중에 여전히 이 훈장을 착용했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_REDCOAT_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_REDCOAT_HELP">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_YAMATO">
+			<Text>Yamato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_YAMATO_TEXT">
+			<Text>야마토급 전함은 제2차 세계 대전 당시 일본 제국 해군의 자랑이었습니다. 만재 배수량 73,000톤에 달하는 이 전함들은 역사상 가장 무겁고 강력한 무장을 갖춘 전함이었습니다. 각 야마토급 전함은 9문의 18.1인치 함포를 탑재했는데, 이는 당시 군함에 장착된 함포 중 가장 큰 크기였으며, 각 함포는 3,000파운드(약 1,366kg)의 포탄을 26마일(약 42km) 이상 사거리까지 발사할 수 있었습니다. 야마토급 전함 중 2척(야마토와 무사시)이 완성되었고, 나머지 1척(시나노)은 건조 도중 항공모함으로 개조되었습니다. 야마토급 전함 3척 모두 제2차 세계 대전 중 미군에 의해 격침되었습니다.[NEWLINE][NEWLINE]야마토급 전함은 그 크기, 속도, 그리고 화력 덕분에 서구 열강, 특히 미국에 맞서 일본의 이익을 지키려는 결의와 준비 태세를 명확하게 보여주는 상징이었습니다. 이 전함이 일본 문화에서 그토록 중요한 의미를 지니는 이유 중 하나는 '야마토'라는 단어가 일본 자체를 시적으로 지칭하는 데 자주 사용되었기 때문입니다. 따라서 야마토급 전함의 건조와 파괴는 일본 제국주의적 열망의 흥망성쇠를 상징하는 사건이 되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPAN_YAMATO_STRATEGY">
+			<Text>야마토는 일반적인 전함에 비해 더 높은 [ICON_STRENGTH] 전투력과 [ICON_RANGE_STRENGTH] 원거리 전투력을 보유하고 있으며, 4타일의 사거리와 [COLOR_POSITIVE_TEXT]장갑 판금 I[ENDCOLOR] 승급을 갖추고 있습니다. 다만, 이 함선이 파괴될 경우 적 문명은 [ICON_GOLDEN_AGE] 황금기 점수와 [ICON_CULTURE] 문화 보너스를 획득하게 됩니다.[NEWLINE][NEWLINE]압도적인 사거리를 활용해 안전한 거리에서 원거리의 주요 목표물을 타격하되, 승기가 확실하지 않다면 거리를 유지하며 운용하는 것이 좋습니다. 야마토는 매우 강력하지만 집중 공격, 특히 공중 공격에 취약하므로 전투기를 탑재한 항공모함의 지원을 받는 것을 추천합니다.</Text>
+		</Row>
+
 		<!-- Unit Combats -->
+		<Row Tag="TXT_KEY_UNITCOMBAT_MISSILE">
+			<Text>미사일</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_UNITCOMBAT_NUKE">
+			<Text>핵무기</Text>
+		</Row>
 		<Row Tag="TXT_KEY_UNITCOMBAT_SETTLER">
 			<Text>개척자</Text>
 			<Plurality>2</Plurality>
@@ -325,6 +354,15 @@
 		<Row Tag="TXT_KEY_UNITCOMBAT_DIPLOMACY">
 			<Text>외교</Text>
 			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_ARCHAEOLOGIST">
+			<Text>고고학자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_SPECIAL_PEOPLE">
+			<Text>위인</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_UNITCOMBAT_SPACESHIP">
+			<Text>우주선 부품</Text>
 		</Row>
 
 		<!-- Great Diplomat names -->

@@ -61,6 +61,11 @@ UPDATE Language_ko_KR
 SET Text = '소유 영토 내부 또는 소유하지 않은 국경 타일과 인접한 곳에 건설할 수 있으며 다른 성채와 서로 인접하여 건설할 수 없습니다. 성채를 건설하면 군사 유닛 보급 한도가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고 성채 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 건설 시 유닛이 소모됩니다. [NEWLINE][NEWLINE]해당 타일에 주둔한 유닛은 [ICON_STRENGTH]방어력 보너스가 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다. 이 타일에 인접하여 턴을 종료하는 모든 적 유닛은 피해를 [COLOR_POSITIVE_TEXT]30[ENDCOLOR] 입습니다. (유닛 옆에 시설물이 여럿 있어도 이 피해는 한 번만 적용됩니다.)'
 WHERE Tag = 'TXT_KEY_BUILD_CITADEL_HELP';
 
+-- Holy Site
+UPDATE Language_ko_KR
+SET Text = '유닛이 소모됩니다.[NEWLINE][NEWLINE]인접한 [COLOR_POSITIVE_TEXT]산[ENDCOLOR] 타일 하나당 1 [ICON_PEACE] 신앙을 추가로 제공합니다.[NEWLINE][NEWLINE]해당 타일에 있는 자원을 무역망에 연결합니다.'
+WHERE Tag = 'TXT_KEY_BUILD_HOLY_SITE_HELP';
+
 -- Landmark
 UPDATE Language_ko_KR
 SET Text = '랜드마크를 건설하면 타일 소유주 및 건설 문명의 전역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 또한 유물의 본래 시대와 비교하여 시대가 바뀔 때마다 [ICON_CULTURE]문화 및 [ICON_GOLD]골드가 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]랜드마크는 관광객을 끌어들이는 장엄한 유물이나 건물, 예술작품, 자연경관입니다. 영국의 넬슨 기념비와 미국의 러시모어 산과 같은 것을 랜드마크라고 할 수 있습니다. 그렇지만 크기가 커야 랜드마크라고 할 수 있는 것은 아닙니다. 세계에서 가장 큰 실로 만든 공은 구경거리가 되겠지만 랜드마크라고 부르지 않습니다.'

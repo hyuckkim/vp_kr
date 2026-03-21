@@ -1,11 +1,11 @@
 -- Great Writer
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_WRITER] 위대한 작가는 [ICON_GW_WRITING] [COLOR_POSITIVE_TEXT]걸작 문학[ENDCOLOR]([ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 제공)을 만들 수 있습니다. 걸작 문학은 빈 슬롯이 있는 적절한 건물(원형극장, 영웅 서사시, 왕립 도서관 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 작가는 [COLOR_POSITIVE_TEXT]정치 논문[ENDCOLOR]을 집필하여 대량의 [ICON_CULTURE] 문화를 획득할 수도 있습니다. 해당 문화는 소유한 [ICON_GREAT_WORK]걸작의 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 작가는 사라집니다.'
+SET Text = '[ICON_GREAT_WRITER] 위대한 작가는 [ICON_GW_WRITING] [COLOR_POSITIVE_TEXT]걸작 문학[ENDCOLOR]([ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 제공)을 만들 수 있습니다. 걸작 문학은 빈 슬롯이 있는 적절한 건물(극장, 영웅 서사시, 왕립 도서관 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 작가는 [COLOR_POSITIVE_TEXT]정치 논문[ENDCOLOR]을 집필하여 대량의 [ICON_CULTURE] 문화를 획득할 수도 있습니다. 해당 문화는 소유한 [ICON_GREAT_WORK]걸작의 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 작가는 사라집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_WRITER_STRATEGY';
 
 -- Great Artist
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_ARTIST] 위대한 예술가는 [ICON_GW_ART] [COLOR_POSITIVE_TEXT]걸작 예술품[ENDCOLOR]([ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 제공)을 만들 수 있습니다. 걸작 예술품은 빈 슬롯이 있는 적절한 건물(궁전, 박물관, 대성당 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 예술가는 대량의 황금기를 제공합니다. 이 점수는 [ICON_GOLDEN_AGE] 황금기 점수 산출량, [ICON_TOURISM] 관광 산출량, 테마가 맞춰진 [ICON_GREAT_WORK] 걸작의 세트 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 예술가는 사라집니다.' 
+SET Text = '[ICON_GREAT_ARTIST] 위대한 예술가는 [ICON_GW_ART] [COLOR_POSITIVE_TEXT]걸작 예술품[ENDCOLOR]([ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 제공)을 만들 수 있습니다. 걸작 예술품은 빈 슬롯이 있는 적절한 건물(기념비, 갤러리, 박물관 등)이 건설된 가장 가까운 도시에 배치됩니다. 또한 위대한 예술가는 대량의 황금기를 제공합니다. 이 점수는 [ICON_GOLDEN_AGE] 황금기 점수 산출량, [ICON_TOURISM] 관광 산출량, 테마가 맞춰진 [ICON_GREAT_WORK] 걸작의 세트 수에 따라 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 예술가는 사라집니다.' 
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY';
 
 -- Great Musician
@@ -15,17 +15,17 @@ WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY';
 
 -- Great Scientist
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_SCIENTIST] 위대한 과학자는 특별한 [COLOR_POSITIVE_TEXT]아카데미[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 아카데미는 대량의 [ICON_RESEARCH] 과학을 제공합니다. 또한 위대한 과학자로 다음 기술의 발견을 돕는 [COLOR_POSITIVE_TEXT]연구 가속[ENDCOLOR]을 수행할 수 있습니다. 연구 가속은 소유한 아카데미마다 효과가 10% 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 과학자가 사라집니다.'
+SET Text = '[ICON_GREAT_SCIENTIST] 위대한 과학자는 특별한 [COLOR_POSITIVE_TEXT]아카데미[ENDCOLOR] 시설을 건설할 수 있습니다. 아카데미는 인접 보너스를 활성화하고 대량의 [ICON_RESEARCH] 과학을 제공합니다. 또한 위대한 과학자로 다음 기술의 발견을 돕는 [COLOR_POSITIVE_TEXT]연구 가속[ENDCOLOR]을 수행할 수 있습니다. 연구 가속은 소유한 아카데미마다 효과가 10% 증가합니다.[NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 과학자가 사라집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY';
 
 -- Great Merchant
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_MERCHANT] 위대한 상인은 특별한 [COLOR_POSITIVE_TEXT]소도시[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 소도시는 많은 [ICON_GOLD] 골드와 [ICON_FOOD] 식량을 제공합니다. 또한 위대한 상인은 도시 국가로 이동하여 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 할 수 있습니다. 무역 임무는 대량의 [ICON_GOLD] 골드를 벌어들이고 즉시 모든 도시가 국왕 경축일을 맞이하게 합니다. 무역 임무는 소유한 소도시마다 효과가 25% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.[NEWLINE][NEWLINE]소도시는 두 도시 사이를 연결하는 도로 위에 있다면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +1 제공합니다. 철도라면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +2 제공합니다. 소도시를 지나가는 교역로가 있다면 추가 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 제공합니다(도로에서 +1, 철도에서 +2).'
+SET Text = '[ICON_GREAT_MERCHANT] 위대한 상인은 특별한 [COLOR_POSITIVE_TEXT]소도시[ENDCOLOR] 시설을 건설할 수 있습니다. 소도시는 인접 보너스를 활성화하고 많은 [ICON_GOLD] 골드와 [ICON_FOOD] 식량을 제공합니다. 또한 위대한 상인은 도시 국가로 이동하여 [COLOR_POSITIVE_TEXT]무역 임무[ENDCOLOR]를 할 수 있습니다. 무역 임무는 대량의 [ICON_GOLD] 골드를 벌어들이고 즉시 모든 도시가 국왕 경축일을 맞이하게 합니다. 무역 임무는 소유한 소도시마다 효과가 25% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 상인이 사라집니다.[NEWLINE][NEWLINE]소도시는 두 도시 사이를 연결하는 도로 위에 있다면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +1 제공합니다. 철도라면 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 +2 제공합니다. 소도시를 지나가는 교역로가 있다면 추가 [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산을 제공합니다(도로에서 +1, 철도에서 +2).'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY';
 
 -- Great Engineer
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_ENGINEER] 위대한 기술자는 특별한 [COLOR_POSITIVE_TEXT]제조소[ENDCOLOR] 시설을 건설할 수 있습니다. 시민을 투입한 제조소는 대량의 [ICON_PRODUCTION] 생산을 제공합니다. 또한 위대한 기술자로 도시의 유닛, 건물, 불가사의의 생산 속도를 증가시키는 [COLOR_POSITIVE_TEXT]생산 가속[ENDCOLOR]을 수행할 수 있습니다. 생산 가속은 소유한 제조소마다 효과가 10% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 기술자가 사라집니다.'
+SET Text = '[ICON_GREAT_ENGINEER] 위대한 기술자는 특별한 [COLOR_POSITIVE_TEXT]제조소[ENDCOLOR] 시설을 건설할 수 있습니다. 제조소는 인접 보너스를 활성화하고 대량의 [ICON_PRODUCTION] 생산을 제공합니다. 또한 위대한 기술자로 도시의 유닛, 건물, 불가사의의 생산 속도를 증가시키는 [COLOR_POSITIVE_TEXT]생산 가속[ENDCOLOR]을 수행할 수 있습니다. 생산 가속은 소유한 제조소마다 효과가 10% 증가합니다. [NEWLINE][NEWLINE]위 능력 중 하나를 사용하면 위대한 기술자가 사라집니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY';
 
 -- Great General
@@ -35,7 +35,7 @@ WHERE Tag = 'TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY';
 
 -- Great Admiral
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_ADMIRAL] 위대한 제독은 즉시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있어 유용한 탐사선이 될 수 있습니다. 국내 영토에서 [COLOR_POSITIVE_TEXT]발견 항해[ENDCOLOR]를 수행할 수 있습니다. 이는 위인을 소모해 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다. 또한 위대한 제독은 자신과 같은 타일과 주변 타일의 모든 해상 및 승선 유닛의 피해를 즉시 회복시키는 [COLOR_POSITIVE_TEXT]함대 수리[ENDCOLOR]를 수행할 수 있습니다. 2타일 이내의 모든 아군 해상 유닛에 [ICON_STRENGTH] 전투력 보너스를 15% 제공합니다. [NEWLINE][NEWLINE]함대 수리 또는 발견 항해 능력을 사용한 위대한 제독은 소모되어 사라지며 군사 유닛 보급 한도를 1 증가시킵니다.'
+SET Text = '[ICON_GREAT_ADMIRAL] 위대한 제독은 즉시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있어 유용한 탐사선이 될 수 있습니다. 2타일 이내의 모든 아군 해상 유닛에 [ICON_STRENGTH] 전투력 보너스를 15% 제공하고 매 턴 체력을 3 회복시킵니다. 국내 영토에서 [COLOR_POSITIVE_TEXT]발견 항해[ENDCOLOR]를 수행할 수 있습니다. 이는 위인을 소모해 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다.  [NEWLINE][NEWLINE]발견 항해 능력을 사용한 위대한 제독은 소모되어 사라지며 군사 유닛 보급 한도를 1 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY';
 
 -- Inquisitor
@@ -228,12 +228,12 @@ WHERE Tag = 'TXT_KEY_UNIT_CARRIER_STRATEGY';
 
 -- Battleship
 UPDATE Language_ko_KR
-SET Text = '전함은 강력한 전투력을 갖춘 강력한 원거리 해상 유닛입니다. 공중 유닛을 요격하지 않습니다. 간접 사격 능력으로 볼 수 없는 목표물을 폭격할 수 있습니다(다른 아군 유닛이 볼 수 있는 한). 전함은 공중 및 잠수함 공격에 취약합니다.'
+SET Text = '전함은 노급전함보다 우수한 3타일의 사거리와 5 [ICON_MOVES] 이동력을 보유하고 있습니다. 여기에 [COLOR_POSITIVE_TEXT]간접 사격[ENDCOLOR] 승급이 결합되어, 도시와 유닛에 화력을 집중하기에 용이하며 해안의 반격으로부터 안전하게 대응할 수 있습니다. 전함은 모든 대상을 상대로 효과적이지만 공중 공격, 잠수함, 근접 공격에는 취약하므로, 위협이 되는 유닛을 미리 탐지하여 제거하는 것이 함대를 안전하게 유지하는 핵심입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BATTLESHIP_STRATEGY';
 
 -- Missile Cruiser
 UPDATE Language_ko_KR
-SET Text = '미사일 순양함은 현대 군함입니다. 빠르고 강력한 펀치를 날립니다. 가장 중요한 것은 미사일 순양함이 유도 미사일과 핵 미사일을 운반할 수 있다는 것입니다. 따라서 이 치명적인 무기를 적의 해안까지 운반할 수 있습니다. 미사일 순양함은 항공모함, 잠수함 및 전함과 결합하여 무시무시한 강력한 함대를 만듭니다.'
+SET Text = '미사일 순양함은 전함보다 강력한 [ICON_STRENGTH] 전투력과 [ICON_RANGE_STRENGTH] 원거리 전투력을 보유하고 있을 뿐만 아니라, 3기의 유도 미사일이나 핵 미사일을 탑재할 수 있어 적의 해안에 접근한 뒤 적진 깊숙이 치명적인 공격을 가할 수 있습니다. 3타일의 사거리는 도시와 유닛에 화력을 집중하기에 용이하며 해안의 원거리 반격으로부터 안전하게 대응할 수 있게 해줍니다. 또한, 추가된 1 [ICON_MOVES] 이동력은 더욱 신속한 작전 수행을 가능하게 합니다.[NEWLINE][NEWLINE]여전히 공중 공격이나 잠수함, 근접 공격에는 취약한 편이지만, [COLOR_POSITIVE_TEXT]철갑 I[ENDCOLOR] 승급을 기본적으로 갖추고 있어 전함보다는 훨씬 견고한 생존력을 보여줍니다.'
 WHERE Tag = 'TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY';
 
 -- Destroyer

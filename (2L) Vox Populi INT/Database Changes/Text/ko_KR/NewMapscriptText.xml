@@ -56,6 +56,178 @@
 		<Row Tag="TXT_KEY_MAP_WEST_VS_EAST_VP">
 			<Text>동서분쟁 for VP</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_CONTINENTAL_DRIFT">
+			<Text>대륙 이동</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONTINENTAL_DRIFT_HELP">
+			<Text>판 구조 기반의 다양한 세계.</Text>
+		</Row>
+
+		<!-- Map Options for Continental Drift -->
+		<Row Tag="TXT_KEY_MAP_OPTION_MAP_RATIO">
+			<Text>맵 비율</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_MODIFIER">
+			<Text>맵 크기 조정자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_MODIFIER_HELP">
+			<Text>맵 크기를 변경합니다. 이는 또한 총 땅의 양에도 영향을 미칩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_OCEAN_RIFTS">
+			<Text>바다 균열</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_OCEAN_RIFTS_HELP">
+			<Text>이 옵션을 활성화하면 지도는 남북 방향의 해양 열곡으로 분리된 두 부분으로 나뉘게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_ARCTIC_OCEAN_WIDTH">
+			<Text>극지방 해양 크기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_ARCTIC_OCEAN_WIDTH_HELP">
+			<Text>지도의 최북단과 최남단에 있는 극지방 해양의 크기를 조정합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_ISLANDS_HELP">
+			<Text>작은 섬의 개수에 영향을 미칩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_PLATE_MOTION">
+			<Text>판 동작</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_PLATE_MOTION_HELP">
+			<Text>지각판의 이동 속도에 영향을 미칩니다. 이동 속도가 빠를수록 산맥이 더 높고 빈번하게 형성되며, 해저 열곡도 더 깊어집니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_CONTINENTS">
+			<Text>토지 응집력</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_CONTINENTS_HELP">
+			<Text>대륙판의 응집 정도에 영향을 미칩니다. 대륙판 응집력이 높으면 대륙이 적고 크기가 큰 대륙들이 많이 나타나는 지도가 됩니다. 반대로 대륙판 응집력이 낮으면 크기가 작은 대륙들이 많이 나타나는 지도가 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_LAND">
+			<Text>토지 양</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_LAND_HELP">
+			<Text>지도상의 전체 토지 면적을 변경합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_PLATES">
+			<Text>판 개수</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_PLATES_HELP">
+			<Text>지도 생성에 사용될 지각판의 개수에 영향을 미칩니다. 지각판의 수가 많을수록 더 복잡한 구조가 생성됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_COASTAL_START">
+			<Text>강제 해안 시작</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_COASTAL_START_HELP">
+			<Text>가능한 경우 모든 문명이 해안에 시작하도록 강제합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_START_PLACEMENT">
+			<Text>시작 위치 배치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_START_PLACEMENT_HELP">
+			<Text>주요 문명의 시작 위치에 영향을 미치는 지역 분할 방법을 선택합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MAP_OPTION_SQUARED">
+			<Text>정사각형</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SQUARISH">
+			<Text>사각형에 가까운</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_RECTANGULAR">
+			<Text>사각형 (보통)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_WIDE_RECTANGULAR">
+			<Text>넓은 사각형</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_RECTILINEAR">
+			<Text>직선형</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_80">
+			<Text>압축된 - 80%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_85">
+			<Text>좁은 - 85%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_90">
+			<Text>줄인 - 90%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_95">
+			<Text>작은 - 95%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_100">
+			<Text>보통 - 100%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_105">
+			<Text>추가 - 105%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_110">
+			<Text>확장된 - 110%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_115">
+			<Text>매우 큰 - 115%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTION_SIZE_120">
+			<Text>거대한 - 120%</Text>
+		</Row><Row Tag="TXT_KEY_MAP_OPTION_TIGHT">
+            <Text>좁게</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_NARROW">
+            <Text>가늘게</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_WIDE">
+            <Text>넓게</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_NONE">
+            <Text>없음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_FEW">
+            <Text>매우 적음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_LESS">
+            <Text>적음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_MORE">
+            <Text>많음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_MUCH_MORE">
+            <Text>매우 많음</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_SHALLOW">
+            <Text>얕게</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_EXTREME">
+            <Text>극심함</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_SLOW">
+            <Text>느림</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_AVERAGE">
+            <Text>보통</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_FAST">
+            <Text>빠름</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_RAMMING_SPEED">
+            <Text>충돌 속도로!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_FRAGMENTED">
+            <Text>파편화됨</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_BALANCED">
+            <Text>균형 잡힘</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_CLUSTERED">
+            <Text>군집형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_CONTIGUOUS">
+            <Text>인접형</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_ANY_CONTINENTS">
+            <Text>모든 대륙</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MAP_OPTION_LARGEST_LANDMASS">
+            <Text>최대 육지</Text>
+        </Row>
+
 		<Row Tag="TXT_KEY_MAP_PLAYERS_START_IN">
             <Text>플레이어 시작 위치</Text>
         </Row>
