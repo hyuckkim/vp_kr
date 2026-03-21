@@ -19,7 +19,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_GREEN]전문가와 도시 성장[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_TITLE';
 UPDATE Language_ko_KR
-SET Text = '특정 건물은 "전문가"를 배치할 수 있게 합니다. 전문가는 건물의 생산량을 늘리고, 위인 점수를 증가시킵니다. [COLOR_YELLOW] 하지만 전문가는 식량을 생산할 수 없고 다른 시민들보다 더 많은 식량을 소모하므로 도시의 성장을 감소시킵니다. 전문가의 식량 소모량은 현재 시대를 기반으로 합니다.[NEWLINE][NEWLINE]    [COLOR_CYAN]고대-중세[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 3[NEWLINE]    [COLOR_CYAN]르네상스[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 4[NEWLINE]    [COLOR_CYAN]산업[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 5[NEWLINE]    [COLOR_CYAN]현대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 6[NEWLINE]    [COLOR_CYAN]원자력[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 7[NEWLINE]    [COLOR_CYAN]정보화[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 8[NEWLINE][NEWLINE]모든 전문가들은 기본 산출량으로 게임을 시작합니다. 해당 산출량은 게임이 진행됨에 따라 기술, 정책, 건물, 이념별로 달라집니다.'
+SET Text = '특정 건물은 "전문가"를 배치할 수 있게 합니다. 전문가는 건물의 생산량을 늘리고, 위인 점수를 증가시킵니다. [COLOR_YELLOW] 하지만 전문가는 식량을 생산할 수 없고 다른 시민들보다 더 많은 식량을 소모하므로 도시의 성장을 감소시킵니다. 전문가의 식량 소모량은 현재 시대를 기반으로 합니다.[ENDCOLOR][NEWLINE][NEWLINE]    [COLOR_CYAN]고대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 3[NEWLINE]    [COLOR_CYAN]고전[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 4[NEWLINE]    [COLOR_CYAN]중세[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 5[NEWLINE]    [COLOR_CYAN]르네상스[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 6[NEWLINE]    [COLOR_CYAN]산업[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 7[NEWLINE]    [COLOR_CYAN]현대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 8[NEWLINE]    [COLOR_CYAN]원자력[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 9[NEWLINE]    [COLOR_CYAN]정보화[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 10'
 WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_BODY';
 
 UPDATE Language_ko_KR
@@ -47,14 +47,14 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 작가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 [ICON_GW_WRITING] 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (원형극장, 국가 서사시, 영웅 서사시, 왕립 도서관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 [ICON_GW_WRITING] 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (극장이나 국가 서사시 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 예술가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 예술가는 [ICON_GW_ART] 걸작 예술품 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성) 을 만들 수 있고, 예술품은 빈 슬롯이 있는 적절한 건물 (궁전, 박물관, 대성당 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 예술가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 황금기 점수[ENDCOLOR][NEWLINE]위대한 예술가를 소모해 [COLOR_YELLOW]황금기 점수를 얻을 수 있고, 이것은 [ICON_GOLDEN_AGE] 황금기를 시작할 수 있습니다. (추가 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화). 생성되는 황금기 점수의 양은 직전 15턴 동안의 [ICON_TOURISM] 관광과 [ICON_GOLDEN_AGE] 황금기 점수로 결정되며, 걸작 예술품마다 20%씩 증가합니다.[ENDCOLOR]'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 예술가는 [ICON_GW_ART] 걸작 예술품 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성) 을 만들 수 있고, 예술품은 빈 슬롯이 있는 적절한 건물 (기념비, 갤러리, 박물관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 예술가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 황금기 점수[ENDCOLOR][NEWLINE]위대한 예술가를 소모해 [COLOR_YELLOW]황금기 점수를 얻을 수 있고, 이것은 [ICON_GOLDEN_AGE] 황금기를 시작할 수 있습니다. (추가 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화). 생성되는 황금기 점수의 양은 직전 15턴 동안의 [ICON_TOURISM] 관광과 [ICON_GOLDEN_AGE] 황금기 점수로 결정되며, 걸작 예술품마다 20%씩 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -68,21 +68,21 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 과학자[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 시설: 아카데미[ENDCOLOR][NEWLINE]위대한 과학자를 사용해 아카데미를 만들 수 있습니다. 작업 중인 아카데미는 도시에 많은 과학을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무료 과학[ENDCOLOR][NEWLINE]위대한 과학자를 일시불 과학을 얻기 위해 사용할 수 있습니다. [COLOR_YELLOW]보유한 아카데미마다 무료 과학의 효과가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 시설: 아카데미[ENDCOLOR][NEWLINE]위대한 과학자를 사용해 아카데미를 만들 수 있습니다. 아카데미는 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR], 도시에 많은 과학을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무료 과학[ENDCOLOR][NEWLINE]위대한 과학자를 일시불 과학을 얻기 위해 사용할 수 있습니다. [COLOR_YELLOW]보유한 아카데미마다 무료 과학의 효과가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 상인[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMERCHANT_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 시설: 소도시[ENDCOLOR][NEWLINE]위대한 상인을 사용하여 작업 시 [ICON_GOLD] 골드와 [COLOR_YELLOW][ICON_FOOD] 식량[ENCDOLOR]을 공급하는 소도시 시설을 만들 수 있습니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무역 임무[ENDCOLOR][NEWLINE]만약 위대한 상인이 당신이 전쟁 중이 아닌 도시 국가 영토 안에 있다면, 무역 임무를 수행하기 위해 사용할 수 있습니다.[NEWLINE][NEWLINE]당신은 많은 [ICON_GOLD] 골드를 얻고 [COLOR_YELLOW]즉시 모든 도시에서 국왕 경축일이 시작됩니다. 보유한 소도시마다 골드와 국왕 경축일의 길이가 25% 증가합니다.[ENDCOLOR] 이 능력은 유닛을 소모합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 시설: 소도시[ENDCOLOR][NEWLINE]위대한 상인을 사용하여 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR] [ICON_GOLD] 골드와 [COLOR_YELLOW][ICON_FOOD] 식량[ENCDOLOR]을 공급하는 소도시 시설을 만들 수 있습니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무역 임무[ENDCOLOR][NEWLINE]만약 위대한 상인이 당신이 전쟁 중이 아닌 도시 국가 영토 안에 있다면, 무역 임무를 수행하기 위해 사용할 수 있습니다.[NEWLINE][NEWLINE]당신은 많은 [ICON_GOLD] 골드를 얻고 [COLOR_YELLOW]즉시 모든 도시에서 국왕 경축일이 시작됩니다. 보유한 소도시마다 골드와 국왕 경축일의 길이가 25% 증가합니다.[ENDCOLOR] 이 능력은 유닛을 소모합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMERCHANT_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 기술자[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATENGINEER_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 시설: 제조소[ENDCOLOR][NEWLINE]위대한 기술자를 사용하여 제조소를 만들 수 있습니다. 작업 중인 제조소는 많은 생산(망치)을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 생산 가속[ENDCOLOR][NEWLINE]위대한 기술자를 도시의 생산 가속을 위해 사용할 수 있습니다. [COLOR_YELLOW]가속하면 가장 생산이 높은 도시의 최근 5턴 분량의 생산을 제공합니다. 보유한 제조소마다 생산 가속의 효과가 10% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 시설: 제조소[ENDCOLOR][NEWLINE]위대한 기술자를 사용하여 제조소를 만들 수 있습니다. 제조소는 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR] 많은 생산(망치)을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 생산 가속[ENDCOLOR][NEWLINE]위대한 기술자를 도시의 생산 가속을 위해 사용할 수 있습니다. [COLOR_YELLOW]가속하면 가장 생산이 높은 도시의 최근 5턴 분량의 생산을 제공합니다. 보유한 제조소마다 생산 가속의 효과가 10% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATENGINEER_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -96,7 +96,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 제독[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 제독 근처 2타일의 모든 아군 해상 유닛은 15%의 전투력 보너스를 얻습니다. 이 보너스는 모든 해상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 함대 수리[ENDCOLOR][NEWLINE]위대한 제독을 사용하여 이 타일과 인접한 모든 타일의 모든 해상 유닛과 승선한 유닛을 치료할 수 있습니다.[COLOR_YELLOW]이 명령은 또한 군사 유닛 보급 한도를 1 증가시킵니다.[ENDCOLOR] 위대한 제독은 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 발견 항해[ENDCOLOR][NEWLINE][COLOR_GREEN]위대한 제독을 발견 항해에 보낼 수 있습니다. 그러면 현재 지도에 없는 사치 자원을 둘 제공합니다. 또한 군사 유닛 보급 한도를 1 증가시킵니다. 위대한 제독은 이 과정에서 소모됩니다.[ENDCOLOR]'
+SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 제독 근처 2타일의 모든 아군 해상 유닛은 15%의 전투력 보너스를 얻고 회복 시 [COLOR_POSITIVE_TEXT]3[ENDCOLOR]만큼 더 회복합니다. 이 보너스는 모든 해상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 발견 항해[ENDCOLOR][NEWLINE][COLOR_GREEN]위대한 제독을 발견 항해에 보낼 수 있습니다. 그러면 현재 지도에 없는 사치 자원을 둘 제공합니다. 또한 군사 유닛 보급 한도를 1 증가시킵니다. 위대한 제독은 이 과정에서 소모됩니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY';
 
 UPDATE Language_ko_KR
@@ -176,7 +176,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]관광[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문명에 퍼뜨리는 데 사용할 주요 재화입니다. [COLOR_POSITIVE_TEXT]걸작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]유물[ENDCOLOR]에 의해 수동적으로 생성되고 [COLOR_POSITIVE_TEXT]역사적 사건[COLOR_YELLOW]에 의해, 또는 [COLOR_POSITIVE_TEXT]교역로[COLOR_YELLOW] 완료(이러한 보너스를 제공하는 건물을 건설한 경우) 능동적으로 생성됩니다(자세한 내용은 이 섹션의''역사적 사건''을 참조하십시오).[ENDCOLOR] 박물관, 원형 극장, 오페라 극장 등에 더 많은 위대한 작품과 유물을 배치하면 [ICON_TOURISM] 관광이 계속 증가할 것입니다. 또한 개방된 국경, 무역로, 종교 공유 및 특정 이념 주의를 통해 [ICON_TOURISM] 관광 산출을 상당히 높일 수 있습니다. 
+SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문명에 퍼뜨리는 데 사용할 주요 재화입니다. [COLOR_POSITIVE_TEXT]걸작[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]유물[ENDCOLOR]에 의해 수동적으로 생성되고 [COLOR_POSITIVE_TEXT]역사적 사건[COLOR_YELLOW]에 의해, 또는 [COLOR_POSITIVE_TEXT]교역로[COLOR_YELLOW] 완료(이러한 보너스를 제공하는 건물을 건설한 경우) 능동적으로 생성됩니다(자세한 내용은 이 섹션의''역사적 사건''을 참조하십시오).[ENDCOLOR] 박물관, 극장, 오페라 극장 등에 더 많은 위대한 작품과 유물을 배치하면 [ICON_TOURISM] 관광이 계속 증가할 것입니다. 또한 개방된 국경, 무역로, 종교 공유 및 특정 이념 주의를 통해 [ICON_TOURISM] 관광 산출을 상당히 높일 수 있습니다. 
 
 [NEWLINE][NEWLINE]당신의 [ICON_TOURISM] 관광은 다음과 같은 이유로 각 플레이어별로 변화할 수 있습니다. [COLOR_YELLOW](최소 [COLOR_NEGATIVE_TEXT]-100%[COLOR_YELLOW])[ENDCOLOR]:
 [NEWLINE][ICON_BULLET]당신의 도시에서 그들의 도시로 교역로 연결 [COLOR_YELLOW]([COLOR_POSITIVE_TEXT]+10%[COLOR_YELLOW])[ENDCOLOR]
@@ -191,6 +191,22 @@ SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문
 
 [NEWLINE][NEWLINE][COLOR_YELLOW]추가로 고유 능력, 정책, 이념 주의, 기업, 세계 의회 결의안에 따라 변동될 수 있습니다. [ENDCOLOR]다른 능력은 도시의 관광을 직접 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '위대한 예술가들은 제국 내 빈 예술 작품 슬롯이 있는 적절한 건물에 배치할 걸작 예술품을 만들 수 있습니다. 적절한 건물에는 기념물, 미술관, 박물관, 그리고 다양한 불가사의가 포함됩니다.[NEWLINE][NEWLINE]위대한 예술 작품을 만들려면, 위대한 예술가를 선택하여 문명 내 도시에서 1칸 이내의 위치로 이동시키세요. 도시 내에 적절한 건물을 지을 수 있는 빈 슬롯이 있다면, 유닛 패널에서 "걸작 생성" 아이콘을 클릭할 수 있습니다. 갈직(예: 레오나르도 다빈치의 모나리자)이 화면에 표시되고, 위대한 예술가는 소모됩니다.'
+WHERE Tag = 'TXT_KEY_CULTURE_GREAT_WORK_ART_HEADING2_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '아티팩트는 당신이 기념물, 갤러리, 박물관, 또는 특정 불가사의에서 빈 걸작 예술품 슬롯에 배치할 수 있는 역사적 유물입니다. 배치되면, 그들은 문화와 관광을 모두 생성합니다.[NEWLINE][NEWLINE]또한 특별한 저서 유물이 있으며, 이는 숨겨진 고대 유적지에서만 발견할 수 있습니다 (자세한 정보는 고대 유적지를 참조하세요).'
+WHERE Tag = 'TXT_KEY_CULTURE_ARTIFACTS_HEADING2_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '위대한 예술가, 작가, 음악가는 모두 걸작을 만들 수 있는 능력을 가지고 있습니다. 이러한 걸작들은 레오나르도 다빈치의 모나리자나 찰스 딕킨스의 크리스마스 캐롤과 같은 시대를 넘어선 걸작들입니다.[NEWLINE][NEWLINE]만들어진 후에는 적절한 건물에 빈 걸작 슬롯이 있다면 배치할 수 있습니다 (예: 미술관은 걸작 예술품을 위해, 연극장은 걸작 문학을 위해, 오페라하우스는 걸작 음악을 위해). 배치되면 각 걸작은 문화와 관광을 모두 생성합니다.'
+WHERE Tag = 'TXT_KEY_CULTURE_GREAT_WORKS_HEADING2_BODY';
+
+UPDATE Language_ko_KR
+SET Text = '위대한 작가는 당신의 제국 내 적절한 건물에 빈 걸작 문학 슬롯에 배치할 수 있는 걸작 문학 작품을 만들 수 있습니다. 이는 연극장, 영웅 서사, 왕실 도서관, 그리고 다양한 불가사의를 포함합니다.[NEWLINE][NEWLINE]걸작 문학 작품을 만들려면, 위대한 작가를 선택하여 문명 내 도시에서 1칸 이내의 위치로 이동시키세요. 도시 내에 적절한 건물을 지을 수 있는 빈 슬롯이 있다면, 유닛 패널에서 "걸작 생성" 아이콘을 클릭할 수 있습니다. 걸작 문학 작품은 화면에 표시되고, 위대한 작가는 소모됩니다.'
+WHERE Tag = 'TXT_KEY_CULTURE_GREAT_WORK_WRITING_HEADING2_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '근로자'
