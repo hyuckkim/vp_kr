@@ -1,8 +1,3 @@
--- Palace
-UPDATE Language_ko_KR
-SET Text = '[ICON_CAPITAL] 수도에 자동으로 건설됩니다.'
-WHERE Tag = 'TXT_KEY_BUILDING_PALACE_HELP';
-
 -- Water Mill
 UPDATE Language_ko_KR
 SET Text = '물레방앗간은 오직 강 옆에 있는 도시에서만 건설할 수 있습니다. 물레방앗간은 도시의 [ICON_PRODUCTION] 생산을 우물보다 더 효율적으로 증가시킵니다.'
@@ -25,12 +20,19 @@ WHERE Tag = 'TXT_KEY_BUILDING_GARDEN_STRATEGY';
 
 -- Amphitheater
 UPDATE Language_ko_KR
-SET Text = '원형극장을 건설하면 도시의 [ICON_CULTURE] 문화가 증가합니다. 주변의 모든 [ICON_RES_DYE] 염료, [ICON_RES_SILK] 비단, [ICON_RES_LAPIS] 청금석, [ICON_RES_BRAZILWOOD] 브라질 소방목에 보너스를 제공합니다. 도시의 [ICON_GW_WRITING] 위대한 작가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 문학 슬롯 2개를 제공합니다.'
+SET Text = '극장'
+WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER';
+
+UPDATE Language_ko_KR
+SET Text = '극장은 연극 공연, 음악회, 시민 모임 등을 위해 설계된 도시형 공연장입니다. 고대 그리스와 로마인들은 반원형 오케스트라석과 높이 솟은 무대를 갖춘 이러한 건축물을 널리 보급했으며, 이곳에서 정교한 연극, 비극, 웅변 대회 등이 대중 관객을 위해 공연되었습니다.'
+WHERE Tag = 'TXT_KEY_CIV5_BUILDINGS_AMPHITHEATER_TEXT';
+UPDATE Language_ko_KR
+SET Text = '극장을 건설하면 도시의 [ICON_CULTURE] 문화가 증가합니다. 주변의 모든 [ICON_RES_DYE] 염료, [ICON_RES_SILK] 비단, [ICON_RES_LAPIS] 청금석, [ICON_RES_BRAZILWOOD] 브라질 소방목에 보너스를 제공합니다. 도시의 [ICON_GW_WRITING] 위대한 작가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 문학 슬롯 2개를 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY';
 
 -- Opera House
 UPDATE Language_ko_KR
-SET Text = '오페라 극장은 도시의 [ICON_CULTURE] 문화를 늘려주는 르네상스 시대 건물입니다. 도시의 위대한 음악가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 음악 슬롯 1개를 제공합니다. 오페라 극장을 건설하려면 도시에 원형극장이 있어야 합니다.'
+SET Text = '오페라 극장은 도시의 [ICON_CULTURE] 문화를 늘려주는 르네상스 시대 건물입니다. 도시의 위대한 음악가 출현율이 증가하고 작가 길드에 보너스를 제공합니다. 걸작 음악 슬롯 1개를 제공합니다. 오페라 극장을 건설하려면 도시에 극장이 있어야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY';
 
 -- Museum
@@ -107,7 +109,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_LABORATORY_STRATEGY';
 
 -- Observatory
 UPDATE Language_ko_KR
-SET Text = '천문대는 [ICON_RESEARCH] 과학 산출을 증가시키고, 특히 도시 근처에 산이 있을 때 과학을 특히 더 증가시킵니다. 건설하려면 [COLOR_MAGENTA]{TXT_KEY_POLICY_SECULARISM}[ENDCOLOR] 정책을 채택해야 합니다.'
+SET Text = '천문대는 [ICON_RESEARCH] 과학 산출을 증가시키고, 특히 도시 근처에 산이 있을 때 과학을 특히 더 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_STRATEGY';
 
 -- Windmill
@@ -348,7 +350,15 @@ UPDATE Language_ko_KR
 SET Text = '{TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS}'
 WHERE Tag = 'TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP';
 
+UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_POPULI_MEDICINE}'
+WHERE Tag = 'TXT_KEY_BUILDING_POPULI_MEDICINE_FRANCHISE_HELP';
+
 -- Theming bonuses
+UPDATE Language_ko_KR
+SET Text = '[ICON_CAPITAL] 수도에 자동으로 건설됩니다.[NEWLINE]가능한 테마 보너스:[NEWLINE][ICON_BULLET] [ICON_GW_WRITING] 걸작 문학 3개에서 [ICON_CULTURE] 문화 +6, [ICON_TOURISM] 관광 +6을 얻습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_PALACE_HELP';
+
 UPDATE Language_ko_KR 
 SET Text = '가능한 테마 보너스:
   [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]국내[ENDCOLOR] [ICON_GW_WRITING] 걸작 문학 2개에서 [ICON_CULTURE] 문화 +4, [ICON_TOURISM] 관광 +4를 얻습니다.
@@ -373,7 +383,7 @@ WHERE Tag = 'TXT_KEY_WONDER_GLOBE_THEATER_HELP';
 UPDATE Language_ko_KR 
 SET Text = '가능한 테마 보너스:
   [NEWLINE][ICON_BULLET] [COLOR_CYAN]다른 시대[ENDCOLOR] [COLOR_POSITIVE_TEXT]다른 문명[ENDCOLOR]의 [ICON_GW_WRITING] 걸작 문학 3개에서 [ICON_CULTURE] 문화 +10, [ICON_TOURISM] 관광 +10을 얻습니다.'
-WHERE Tag = 'TXT_KEY_BUILDING_GREAT_LIBRARY_HELP';
+WHERE Tag = 'TXT_KEY_WONDER_GREAT_LIBRARY_HELP';
 
 UPDATE Language_ko_KR 
 SET Text = '가능한 테마 보너스:

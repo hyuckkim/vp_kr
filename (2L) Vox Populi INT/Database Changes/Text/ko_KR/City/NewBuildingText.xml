@@ -18,7 +18,7 @@
 			<Text>목욕탕</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH_STRATEGY">
-			<Text>목욕탕은 문화를 제공하며, 사원, 원형극장, 정원의 골드와 문화를 증가시킵니다. 또한 황금기에 추가 문화를 제공합니다. 목욕탕은 오직 담수 옆에 있는 도시에서만 건설할 수 있습니다.</Text>
+			<Text>목욕탕은 문화를 제공하며, 사원, 극장, 정원의 골드와 문화를 증가시킵니다. 또한 황금기에 추가 문화를 제공합니다. 목욕탕은 오직 담수 옆에 있는 도시에서만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH_HELP">
 			<Text></Text>
@@ -785,7 +785,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_STRATEGY">
-			<Text>시빌 보석를 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
+			<Text>시빌 보석을 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_HELP">
 			<Text></Text>
@@ -813,6 +813,66 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP">
 			<Text>{TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_HQ">
+			<Text>포풀리 제약 본부</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_HQ_STRATEGY">
+			<Text>포풀리 제약을 설립하려면 이 건물을 당신의 도시 중 하나에 건설해야 합니다. 자세한 내용은 [COLOR_POSITIVE_TEXT]기업[ENDCOLOR] 섹션을 참조하십시오. [NEWLINE][NEWLINE]각 문명은 [COLOR_POSITIVE_TEXT]하나의[ENDCOLOR] 기업만 가질 수 있으므로, 이 혜택이 당신의 승리 전략에 이득을 가져다줄 수 있게 하십시오!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_HQ_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_POPULI_MEDICINE_HQ_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"담배를 끊는 것은 정말 쉽다. 난 백번도 더 해봤다."[NEWLINE][TAB][TAB] - 마크 트웨인[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE">
+			<Text>포풀리 제약 오피스</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_STRATEGY">
+			<Text>이 도시와 외국 도시의 [ICON_INTERNATIONAL_TRADE]교역로가 완료되면, 포풀리 제약 프랜차이즈를 외국 도시에 건설합니다.[NEWLINE][NEWLINE]포풀리 제약은 팔거나 파괴될 수 없고, 모든 포풀리 제약 오피스에서 [ICON_GREAT_PEOPLE] 위인 출현율을 +5% 증가시킵니다.[NEWLINE][NEWLINE]프랜차이즈 한도보다 많은 프랜차이즈를 가질 수 없습니다. 자세한 내용은 회사 및 독점 개요를 참조하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_HELP">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_FRANCHISE">
+			<Text>포풀리 제약 프랜차이즈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_FRANCHISE_STRATEGY">
+			<Text>이 건물은 당신이 포풀리 제약의 설립자일 때만 외국 도시에 건설할 수 있습니다. 이 건물을 외국 도시에 건설하려면, 포풀리 제약 오피스가 있는 소유 도시에서 외국 도시로 교역로를 보내십시오. 교역로가 완료되면, 이 건물이 자동으로 건설됩니다. 프랜차이즈가 건설된 확률은 매 턴 5%입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POPULI_MEDICINE_FRANCHISE_HELP">
+			<Text>{TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_POPULI_MEDICINE}</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_BUILDING_SHOPPING_MALL">
+			<Text>쇼핑몰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHOPPING_MALL_STRATEGY">
+			<Text>쇼핑몰은 기업들의 교역로 시스템과 상호작용합니다. 적절한 도시에서 건설하면 프랜차이즈의 비용을 이익으로 전환할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHOPPING_MALL_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHOPPING_MALL_TEXT">
+			<Text>20세기 동안 자동차의 등장으로 사람들은 한 지역에 거주하면서도 쇼핑, 여가 활동, 직장 생활을 할 수 있는 도시 및 교외 지역이 생겨났습니다. 이러한 현상은 특히 미국에서 두드러지게 나타나는데, 미국 시민들은 자동차에 대한 거의 광적인 애착으로 유명합니다. 이는 미국 사회, 환경, 경제에 중요한 영향을 미쳤으며, 그 결과 (무엇보다도) 가장 미국적인 제도인 쇼핑몰이 탄생하게 되었습니다. [NEWLINE][NEWLINE]미국의 쇼핑몰은 넓은 주차장으로 둘러싸여 있으며, 의류부터 보석, 전자제품, 서적, 컴퓨터, 비디오에 이르기까지 모든 것을 판매하는 수십 개(혹은 수백 개)의 매장이 입점해 있습니다. 어떤 면에서 미국의 쇼핑몰은 옛 아랍 시장과 비슷한 분위기를 가지고 있습니다(물론 미국인들은 흥정을 즐기지 않고 가격이 정해져 있는 경우가 많지만요). [NEWLINE][NEWLINE]자동차 중심의 쇼핑센터 중 가장 초기에 등장한 곳은 1916년 일리노이주 시카고에 문을 연 "마켓 스퀘어"입니다. 1992년 미네소타에 건설된 "몰 오브 아메리카"는 현재 세계에서 가장 큰 쇼핑몰입니다. 500개가 넘는 상점, 80개의 레스토랑, 테마파크, 호텔, 영화관 등을 갖추고 있으며, 보잉 747 항공기 30대 이상을 수용할 수 있을 만큼 큰 건물에 자리 잡고 있습니다.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_WORLD_TRADE_CENTER">
+			<Text>세계무역센터</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_WORLD_TRADE_CENTER_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"세계무역센터는 세계 평화를 향한 인류의 헌신을 보여주는 살아있는 상징이며, 인류애, 개인의 존엄성에 대한 필요성, 인간 협력에 대한 믿음, 그리고 협력을 통해 위대함을 이룰 수 있다는 인간의 능력을 나타내는 상징입니다." [NEWLINE]- Minoru Yamasaki[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WORLD_TRADE_CENTER_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WORLD_TRADE_CENTER_TEXT">
+			<Text>세계무역센터는 뉴욕시에 위치한 복합 건물로, 원래 건물이 파괴된 후 현재 새로운 건물로 재건되고 있습니다. 원래의 세계무역센터는 랜드마크인 쌍둥이 빌딩으로, 1973년 4월 4일에 개장했으며, 2001년 9월 11일 테러 공격으로 7번 세계무역센터와 함께 파괴되었습니다. 원래의 세계무역센터는 북미 문화의 상징으로 여겨졌으며, 완공 당시 417미터(1,368피트) 높이의 1번 세계무역센터(북쪽 타워)와 2번 세계무역센터(남쪽 타워)는 세계에서 가장 높은 건물이었습니다. 2001년 9월 11일 아침, 알카에다와 연계된 납치범들이 보잉 767기 두 대를 각각 1번과 2번 세계무역센터에 충돌시키는 동시다발적인 테러 공격을 감행했습니다. 남쪽 타워는 56분간의 화염 끝에 붕괴되었고, 30분 후 북쪽 타워도 무너졌습니다. 세계무역센터 공격으로 2,753명이 사망했습니다. 타워에서 떨어진 잔해와 그 잔해로 인해 주변 건물에 발생한 화재가 합쳐져 ​​복합 단지 내 다른 건물들도 부분적으로 또는 완전히 붕괴되었고, 주변 지역의 다른 대형 건물 10곳(세계금융센터 포함)에도 막대한 피해를 입혔습니다. 세계무역센터 부지의 복구 및 정화 작업은 8개월이 걸렸습니다.</Text>
 		</Row>
 
 		<!-- Belief buildings -->
@@ -1107,6 +1167,13 @@
 		</Row>
 
 		<!-- Theming bonuses flavor text -->
+		<Row Tag="TXT_KEY_THEMING_BONUS_PALACE">
+			<Text>국가서사시</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PALACE_THEMING_BONUS_HELP">
+			<Text>보너스를 극대화 하려면 모든 걸작 슬롯을 걸작 문학 또는 걸작 예술품으로 채우십시오.</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_THEMING_BONUS_AMPHITHEATER_NATIONAL">
 			<Text>국가서사시</Text>
 		</Row>
