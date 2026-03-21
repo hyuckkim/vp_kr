@@ -785,9 +785,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_COMBAT">
 			<Text>[COLOR_YELLOW]{3_Combat:textkey}[ENDCOLOR] 유닛에 경험치 {2_Sign}{1_Num}</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAINS">
 			<Text>{3_Domains} 유닛에 경험치 {2_Sign}{1_Num}</Text>
-		</Row>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN">
 			<Text>[COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR] 경험치 {2_Sign}{1_Num}</Text>

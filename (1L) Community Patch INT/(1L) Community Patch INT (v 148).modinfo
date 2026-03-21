@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" version="148">
+<Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" version="149">
   <Properties>
     <Name>(1L) Community Patch INT</Name>
-    <Teaser>(5.1.4) 문명 5의 버그 수정, AI 개선, 게임 최적화 및 API 확장</Teaser>
+    <Teaser>(5.2) 문명 5의 버그 수정, AI 개선, 게임 최적화 및 API 확장</Teaser>
     <Description>문명 5 멋진 신세계 DLL에 대한 핵심 AI 개선 사항과 버그 수정 사항이 포함되어 있습니다. 또한 Vox Populi 비공식 확장팩과 관련 모드에 대한 지원도 포함되어 있습니다.</Description>
     <Authors>hyuckkim, HANDANI</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
@@ -37,12 +37,12 @@
     <File md5="C99D1B78867064AD9334805EAF001045" import="0">Database Changes/Text/ko_KR/Civilizations/CoreCivilizationTextChanges.sql</File>
     <File md5="574E8A4587591AEE43557FA5F92EA700" import="0">Database Changes/Text/ko_KR/Civilizations/CoreLeaderTextChanges.sql</File>
     <File md5="A0DF9A26108168352B9C85FB6E7E6698" import="0">Database Changes/Text/ko_KR/Civilizations/CoreNewCivilizationText.xml</File>
-    <File md5="AA4B8B35212AAF98C93A791183660D13" import="0">Database Changes/Text/ko_KR/Concepts/CoreConceptTextChanges.sql</File>
+    <File md5="683F84CF57EE50FD2902F9DF9AEFF68E" import="0">Database Changes/Text/ko_KR/Concepts/CoreConceptTextChanges.sql</File>
     <File md5="F8698EF713E672A441A784527E5C6A9B" import="0">Database Changes/Text/ko_KR/Concepts/CoreNewConceptText.xml</File>
     <File md5="47CBCCE7D810B8CAD2F2D47A15C31A5F" import="0">Database Changes/Text/ko_KR/CoreNewAutomateText.xml</File>
     <File md5="2C9FF73A790474D1206CD340292A1A66" import="0">Database Changes/Text/ko_KR/CoreNewChatMessageText.xml</File>
     <File md5="E4883669B81CA4FFF0A08F0933174BDF" import="0">Database Changes/Text/ko_KR/CoreNewEnumText.xml</File>
-    <File md5="0396A97FD10DEDF72000E9FDA458FDD1" import="0">Database Changes/Text/ko_KR/CoreNewGameOptionText.xml</File>
+    <File md5="F734074D67D72AA513EBC622B576D3A5" import="0">Database Changes/Text/ko_KR/CoreNewGameOptionText.xml</File>
     <File md5="07B3DA4DF0EBDF58AC8DEFB4CB825EF8" import="0">Database Changes/Text/ko_KR/CoreNewReplayDataSetText.xml</File>
     <File md5="E4223E451FAA28A4D0C874F307669FBF" import="0">Database Changes/Text/ko_KR/Espionage/CoreNewEspionageText.xml</File>
     <File md5="DF075603D14B08CA6FFD17A176F6F30E" import="0">Database Changes/Text/ko_KR/Minors/CoreMinorTextChanges.sql</File>
@@ -50,7 +50,7 @@
     <File md5="E57C3D4C4767242A559067A9FEA37B0A" import="0">Database Changes/Text/ko_KR/Notifications/CoreNotificationTextChanges.sql</File>
     <File md5="B446E9AA1679F6CAF5F2F6FC227501D2" import="0">Database Changes/Text/ko_KR/Policies/CorePolicyTextChanges.sql</File>
     <File md5="F0D93DDFD5DEF449A339A562975209C1" import="0">Database Changes/Text/ko_KR/Religions/CoreReligionTextChanges.sql</File>
-    <File md5="912EEAD08B498ECD66D4BC4950EF2F1C" import="0">Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</File>
+    <File md5="AE593DF62A2FA032B24080B42D192742" import="0">Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</File>
     <File md5="48820A641B622BE90F68FAB6C65B4060" import="0">Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</File>
     <File md5="1D04FD1F5BCCFDF8F5DC3EAA6C76D6DD" import="0">Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</File>
     <File md5="15133F46A8B9D1A208CDA3F65C00D82B" import="0">Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</File>
