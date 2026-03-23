@@ -311,10 +311,10 @@
 			<Text>{3_YieldIcon} {1: number "'+'##;'-'##"}/{2_Denominator}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_PUPPET_INVESTABLE">
-			<Text>[ICON_PUPPET] 괴뢰국에 투자 가능</Text>
+			<Text>[ICON_PUPPET] 괴뢰 도시에서 투자 가능</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_PUPPET_PURCHASABLE">
-			<Text>[ICON_PUPPET] 괴뢰국에서 구매 가능</Text>
+			<Text>[ICON_PUPPET] 괴뢰 도시에서 구매 가능</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS">
 			<Text>필요 건물: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
@@ -1707,7 +1707,7 @@
 		</Row>
 		<!-- Project -->
 		<Row Tag="TXT_KEY_PRODUCTION_EXCLUSIVE_PROJECT">
-			<Text>{1_CivAdj:textkey} Exclusive Project</Text>
+			<Text>{1_CivAdj:textkey} 고유 프로젝트</Text>
 		</Row>
 		<!-- Yield -->
 		<Row Tag="TXT_KEY_YIELD_FROM_GREAT_WORKS">
@@ -3502,6 +3502,11 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_EXPLORE_AREA_QUEST_LONG">
 			<Text>{1_Civ}{1: plural 1?은; 2?는;} 당신이 이 타일 주변을 탐험하길 바랍니다.</Text>
+		</Row>
+
+		<!-- Path node -->
+		<Row Tag="TXT_KEY_PATHFINDING_ENDING_MOVE_EARLY">
+			<Text>[COLOR_NEGATIVE_TEXT]이동력 남음[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Banner message -->

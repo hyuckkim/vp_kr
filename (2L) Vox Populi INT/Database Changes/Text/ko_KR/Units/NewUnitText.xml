@@ -238,7 +238,7 @@
 		<Row Tag="TXT_KEY_UNIT_EMISSARY_TEXT">
 			<Text>가장 저렴하고 가장 빨리 이용할 수 있는 외교 단위임에도 불구하고, 특사는 꾸준한 영향력의 원천으로서 매우 신뢰할 수 있는 것은 아닙니다. 플레이어는 이미 우호적이거나 동맹 관계에 있는 도시 국가와의 관계를 확보하거나 유지하기 위해 특사를 사용해야 합니다. 따라서 이러한 단위를 사용하여 도시 국가 목표를 달성하기 위한 노력을 강화하는 것이 가장 좋습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_HELP_EMISSARY">
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_HELP">
 			<Text>이 유닛을 전쟁 중이 아닌 [ICON_CITY_STATE] 도시 국가로 [ICON_MOVES] 이동시켜 외교 임무를 수행해 [ICON_INFLUENCE] 영향력을 40 증가시킬 수 있습니다. (시대에 따라 [ICON_PRODUCTION] 생산 비용 증가)</Text>
 		</Row>
 
@@ -265,7 +265,7 @@
 		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_STRATEGY">
 			<Text>외교관은 대사나 특사에 비해 매우 비쌉니다. Paper의 공급을 지속적으로 늘리지 않은 플레이어는 전 세계 도시 국가에 계속 영향력을 행사하는 데 어려움을 겪을 것입니다. 하지만, 만약 여러분이 많은 수의 외교관을 만들 수 있는 자원과 생산량을 가지고 있다면, 세계는 소프트 파워와 설득력 있는 영향력을 가진 여러분의 제국 앞에 굴복할 것입니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_HELP_DIPLOMAT">
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_HELP">
 			<Text>이 유닛을 전쟁 중이 아닌 [ICON_CITY_STATE] 도시 국가로 [ICON_MOVES] 이동시켜 외교 임무를 수행해 [ICON_INFLUENCE] 영향력을 60 증가시킬 수 있습니다. (시대에 따라 [ICON_PRODUCTION] 생산 비용 증가)</Text>
 		</Row>
 
@@ -280,7 +280,7 @@
 		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_STRATEGY">
 			<Text>대사들은 비용이 많이 들지만, 외교적인 승리를 거두기 위해서는 필수적입니다. 도시 국가들에 대한 통제권을 다른 참가자들로부터 빼앗고, 당신 자신의 동맹을 유지하며, 일반적으로 세계 의회의 권력을 당신 손에 쥐게 하는 데 그것들을 사용하십시오. 이 힘은 여러분이 선택한 모든 결심을 실행할 수 있게 해 줄 것이고, 따라서 세계 패권을 여러분의 손아귀에 넣을 것입니다. 세계 의회입니다. 생산 비용은 시대에 따라 확장됩니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_HELP_AMBASSADOR">
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_HELP">
 			<Text>이 유닛을 전쟁 중이 아닌 [ICON_CITY_STATE] 도시 국가로 [ICON_MOVES] 이동시켜 외교 임무를 수행해 [ICON_INFLUENCE] 영향력을 70 증가시킬 수 있습니다. (시대에 따라 [ICON_PRODUCTION] 생산 비용 증가)</Text>
 		</Row>
 
