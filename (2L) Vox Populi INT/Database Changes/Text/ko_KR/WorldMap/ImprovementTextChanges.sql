@@ -45,12 +45,22 @@ SET Text = '소도시'
 WHERE Tag = 'TXT_KEY_IMPROVEMENT_CUSTOMS_HOUSE';
 
 UPDATE Language_ko_KR
-SET Text = '두 도시를 [ICON_CONNECTED]연결하는 [COLOR_POSITIVE_TEXT]도로[ENDCOLOR] 위에 건설된 소도시는 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [COLOR_POSITIVE_TEXT]철도[ENDCOLOR] 위에 건설하면 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다. 해당 소도시를 지나가는 국내 및 국제 [COLOR_POSITIVE_TEXT]교역로[ENDCOLOR]가 있으면 소도시의 [ICON_GOLD]골드 및 [ICON_PRODUCTION]생산이 추가로 [COLOR:105:105:105:255](산업 시대 이전 +2 , 산업 시대부터 +4)[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]소도시는 마을보다 크지만 도시보다 작은 인간의 정착지 입니다. "소도시"를 구성하는 크기에 대한 정의는 세계 각지에 따라 상당히 다릅니다. 소도시라는 단어는 독일어 Zaun, 네덜란드어 tuin, Old Norse tune과 기원을 공유합니다. 독일어 Zaun은 어떤 물질의 울타리라는 단어 본래의 뜻에 가장 가깝습니다.'
+SET Text = '{TXT_KEY_CIV5_IMPROVEMENTS_CUSTOMS_HOUSE_HELP}[NEWLINE][NEWLINE]소도시는 마을보다 크지만 도시보다 작은 인간의 정착지 입니다. "소도시"를 구성하는 크기에 대한 정의는 세계 각지에 따라 상당히 다릅니다. 소도시라는 단어는 독일어 Zaun, 네덜란드어 tuin, Old Norse tune과 기원을 공유합니다. 독일어 Zaun은 어떤 물질의 울타리라는 단어 본래의 뜻에 가장 가깝습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CUSTOMS_HOUSE_TEXT';
 
 UPDATE Language_ko_KR
 SET Text = '[LINK=IMPROVEMENT_CUSTOMS_HOUSE]소도시[\LINK] 건설'
 WHERE Tag = 'TXT_KEY_BUILD_CUSTOMS_HOUSE';
+
+-- Academy
+UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_CIV5_IMPROVEMENTS_ACADEMY_HELP}[NEWLINE][NEWLINE]아카데미는 아이들이 중등 교육을(대학 교육 사전에 받는 교육) 받는 기관입니다. 아카데미는 군사, 종교, 정부, 기타 등 모든 종류의 형태로 제공됩니다. 일부는 부유하거나 강력한 권력을 가지 집안의 자제들만이 갈 수 있는 사립이며 다른 곳은 학교의 철저한 기준에만 맞으면 모두 다닐 수 있습니다. 영국의 이튼 대학은 1440년에 설립되었으며 영국에서 가장 뛰어나고 똑똑한 13세에서 18세 사이의 소년소녀들이 다니는 세계에서 가장 유명한 아카데미입니다.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_ACADEMY_TEXT';
+
+-- Manufactory
+UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_CIV5_IMPROVEMENTS_MANUFACTORY_HELP}[NEWLINE][NEWLINE]제조소는 물건을 생산하는 한 채 이상의 건물로 이루어진 시설입니다. 제조소의 건물은 주조소나 공장, 조립 라인 등으로 구성되며, 주조소에서 강철을 주조하면 공장에서 그것을 얇게 펴고, 조립 라인의 노동자들이 철판을 가지고 깡통을 만드는 것과 같이 모두 하나의 물건을 만들기 위한 곳입니다. 잘 운영되는 제조소는 놀라운 생산성을 낼 수 있습니다.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MANUFACTORY_TEXT';
 
 -- Citadel
 UPDATE Language_ko_KR
