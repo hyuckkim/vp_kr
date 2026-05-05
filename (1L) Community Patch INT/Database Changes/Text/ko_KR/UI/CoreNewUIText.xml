@@ -89,7 +89,7 @@
 			<Text>[ICON_CARGO_SHIP] 해상 교역로 범위 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_TOURISM_MODIFIER">
-			<Text>모든 도시의 [ICON_TOURISM] 관광 {2_Sign}{1_Num}</Text>
+			<Text>모든 도시의 [ICON_TOURISM] 관광 {2_Sign}{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_BUILDING_BOOST">
 			<Text>{1_Building:textkey}: {2_YieldBoosts}</Text>
