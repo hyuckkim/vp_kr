@@ -3508,6 +3508,13 @@
 		<Row Tag="TXT_KEY_PATHFINDING_ENDING_MOVE_EARLY">
 			<Text>[COLOR_NEGATIVE_TEXT]이동력 남음[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PATHFINDING_AIRLIFT">
+			<Text>[ICON_AIRPORT] 공수 작전</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PATHFINDING_CHANGE_PORT">
+			<Text>[ICON_GREAT_ADMIRAL] 항구 변경</Text>
+		</Row>
+
 
 		<!-- Banner message -->
 		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY">
