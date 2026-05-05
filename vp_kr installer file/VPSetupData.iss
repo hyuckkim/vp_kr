@@ -2,9 +2,9 @@
 ; INNO SETUP 스크립트 파일을 만드는 방법에 대한 자세한 내용은 설명서를 참조하세요!
 
 #define MyAppName "VP 한국어"
-#define MyAppVersion "5.2"
-#define MyAppPublisher "HANDANI"
-#define MyAppURL "https://github.com/handanikr/vp_kr"
+#define MyAppVersion "5.2.5"
+#define MyAppPublisher "hyuckkim"
+#define MyAppURL "https://github.com/hyuckkim/vp_kr"
 
 [Setup]
 ; 참고: AppId 값은 이 애플리케이션을 고유하게 식별합니다.
