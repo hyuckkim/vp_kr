@@ -40,6 +40,7 @@
     <File md5="683F84CF57EE50FD2902F9DF9AEFF68E" import="0">Database Changes/Text/ko_KR/Concepts/CoreConceptTextChanges.sql</File>
     <File md5="F8698EF713E672A441A784527E5C6A9B" import="0">Database Changes/Text/ko_KR/Concepts/CoreNewConceptText.xml</File>
     <File md5="47CBCCE7D810B8CAD2F2D47A15C31A5F" import="0">Database Changes/Text/ko_KR/CoreNewAutomateText.xml</File>
+    <File md5="47CBCCE7D810B8CAD2F2D47A15C31A5F" import="0">Database Changes/Text/ko_KR/CoreGameOptionTextChanges.sql.xml</File>
     <File md5="2C9FF73A790474D1206CD340292A1A66" import="0">Database Changes/Text/ko_KR/CoreNewChatMessageText.xml</File>
     <File md5="E4883669B81CA4FFF0A08F0933174BDF" import="0">Database Changes/Text/ko_KR/CoreNewEnumText.xml</File>
     <File md5="F734074D67D72AA513EBC622B576D3A5" import="0">Database Changes/Text/ko_KR/CoreNewGameOptionText.xml</File>
@@ -52,6 +53,7 @@
     <File md5="F0D93DDFD5DEF449A339A562975209C1" import="0">Database Changes/Text/ko_KR/Religions/CoreReligionTextChanges.sql</File>
     <File md5="AE593DF62A2FA032B24080B42D192742" import="0">Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</File>
     <File md5="48820A641B622BE90F68FAB6C65B4060" import="0">Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</File>
+    <File md5="AE593DF62A2FA032B24080B42D192742" import="0">Database Changes/Text/ko_KR/UI/NewInterfaceModeText.xml</File>
     <File md5="1D04FD1F5BCCFDF8F5DC3EAA6C76D6DD" import="0">Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</File>
     <File md5="15133F46A8B9D1A208CDA3F65C00D82B" import="0">Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</File>
     <File md5="816A628B1167E5AAF0974E2D624CD652" import="0">Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</File>
@@ -86,6 +88,7 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/Religions/CoreReligionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/UI/NewInterfaceModeText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</UpdateDatabase>
@@ -98,6 +101,7 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreNewGoodyHutText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreNewPlotText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/WorldMap/CoreNewYieldText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/CoreGameOptionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/CoreNewAutomateText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/CoreNewChatMessageText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/CoreNewEnumText.xml</UpdateDatabase>

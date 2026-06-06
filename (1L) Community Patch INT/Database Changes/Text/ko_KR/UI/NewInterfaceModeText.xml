@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_ko_KR>
+		<!-- Sealift -->
+		<Row Tag="TXT_KEY_INTERFACEMODE_SEALIFT">
+			<Text>수송</Text>
+    	</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_SEALIFT_HELP">
+			<Text>이 명령은 유닛을 [ICON_CONNECTED] 연결된 우호 도시의 육지 타일로 재배치할 수 있도록 합니다. 점령당하거나 적 유닛과 인접한 타일로는 이동할 수 없습니다.</Text>
+		</Row>
+	</Language_ko_KR>
+</GameData>

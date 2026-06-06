@@ -67,5 +67,11 @@
 		<Row Tag="TXT_KEY_ACCOMPLISHMENT_WARS_WON">
 			<Text>전쟁에서 승리</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_CITY_CONVERTED">
+			<Text>도시를 당신의 종교로 전환</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_HISTORIC_EVENT">
+			<Text>역사적 사건 완료</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>

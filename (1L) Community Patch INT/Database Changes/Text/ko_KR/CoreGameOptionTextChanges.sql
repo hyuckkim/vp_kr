@@ -1,0 +1,3 @@
+UPDATE Language_ko_KR
+SET Text = 'AI 무작위 성격'
+WHERE Tag = 'TXT_KEY_GAME_OPTION_RANDOM_PERSONALITIES';

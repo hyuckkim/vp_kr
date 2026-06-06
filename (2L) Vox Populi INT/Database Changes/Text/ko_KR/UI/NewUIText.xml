@@ -1798,52 +1798,6 @@
 			<Text>세계 평균 이하의 점수를 가진 문명에 [ICON_PRODUCTION]/[ICON_CULTURE]보너스. 위인 출현율 ({2_GreatPersonList}) [COLOR_POSITIVE_TEXT]+{1_GreatPersonRateMod}%[ENDCOLOR]</Text>
 		</Row>
 
-		<!-- Trade screen -->
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
-			<Text>세계 지도</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
-			<Text>이 문명이 발견한 모든 땅을 드러냅니다.[NEWLINE][NEWLINE]참고: 만나지 못한 문명 및 도시 국가와 접촉할 수 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_BOTH">
-			<Text>[NEWLINE][NEWLINE]두 문명 모두 이 항목을 거래할 수 있는 기술({1_Tech:textkey})을 가지고 있지 않습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_OTHER_PLAYER">
-			<Text>[NEWLINE][NEWLINE]그들은 아직 이 항목을 거래할 수 있는 기술({1_Tech:textkey})을 가지고 있지 않습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_PLAYER">
-			<Text>[NEWLINE][NEWLINE]당신은 아직 이 항목을 거래할 수 있는 기술({1_Tech:textkey})을 가지고 있지 않습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_THEY_ALREADY_EXPLORED">
-			<Text>[NEWLINE][NEWLINE]그들은 이미 당신의 세계 지도에 드러난 모든 땅을 탐험했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_WE_ALREADY_EXPLORED">
-			<Text>[NEWLINE][NEWLINE]우리는 이미 그들의 세계 지도에 드러난 모든 땅을 탐험했습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_ITEMS_TECHNOLOGIES">
-			<Text>기술</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TECHNOLOGIES">
-			<Text>기술</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES">
-			<Text>우리는 거래할 수 있는 기술을 가지고 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO">
-			<Text>우리는 거래할 수 있는 기술이 없습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES_THEM">
-			<Text>다른 지도자가 거래할 수 있는 기술을 가지고 있습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO_THEM">
-			<Text>다른 지도자가 거래할 수 있는 기술을 가지고 있지 않습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_OTHER_PLAYER">
-			<Text>그들은 아직 이 아이템을 판매할 기술(과학 이론)을 가지고 있지 않습니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_PLAYER">
-			<Text>당신은 아직 이 아이템을 판매할 기술(과학 이론)을 가지고 있지 않습니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_PEACE">
 			<Text>종속국</Text>
 		</Row>

@@ -240,6 +240,9 @@
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GOLDEN_AGE">
 			<Text>당신의 문명이 [ICON_GOLDEN_AGE]황금기에 진입하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TOURISM_EVENT_RELIGION_SPREAD">
+			<Text>도시를 당신의 [ICON_RELIGION] 종교로 처음으로 개종하여, 당신이 만난 모든 문명에 대한 [ICON_TOURISM]관광이 {1_Num} 증가했습니다! (변수를 제외하고)</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI_SUMMARY">
 			<Text>{1_Player:textkey}{1: plural 1?이; 2?가;} {@2_UnitName}{@2: plural 1?을; 2?를;} 반환!</Text>
@@ -862,6 +865,12 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_COMBAT_EXPERIENCE_SHORT">
 			<Text>전투에서 획득한 경험치</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_HEALING_SHORT">
+			<Text>체력 회복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SCRAP_OR_UPGRADE_SHORT">
+			<Text>유닛 해산 또는 강화</Text>
+		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CITY_DAMAGE_SHORT">
 			<Text>도시에 가해진 피해</Text>
 		</Row>
@@ -1163,6 +1172,15 @@
 
 		<!-- You have made peace with {1_TeamName}! -->
 		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED">
+			<Text>당신은 {1_TeamName} 지도자와 평화 협정을 맺었습니다! 양측은 {2_num}턴간 서로의 영토에서 철수합니다. 서로의 모든 동맹과 종속국 또한 평화 협정을 맺었습니다. {3_OurAllies} {4_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_THEIR_DISENGAGEMENT">
+			<Text>당신은 {1_TeamName} 팀과 평화 협정을 맺었습니다! 양측은 {2_num}턴간 서로의 영토에서 철수합니다. 서로의 모든 동맹과 종속국 또한 평화 협정을 맺었습니다. {3_OurAllies} {4_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_OUR_DISENGAGEMENT">
+			<Text>당신은 {1_TeamName} 팀과 평화 협정을 맺었습니다! 양측은 {2_num}턴간 서로의 영토에서 철수합니다. 서로의 모든 동맹과 종속국 또한 평화 협정을 맺었습니다. {3_OurAllies} {4_TheirAllies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_NO_DISENGAGEMENT">
 			<Text>당신은 {1_TeamName} 지도자와 평화 협정을 맺었습니다! 서로의 모든 동맹과 종속국 또한 평화 협정을 맺었습니다. {2_OurAllies} {3_TheirAllies}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_MINOR_DETAILED">
