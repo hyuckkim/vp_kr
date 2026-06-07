@@ -218,7 +218,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_STRATEGY';
 -- Constabulary
 UPDATE Language_ko_KR
 SET Text = '경찰대는 도시 보안을 강화하고 인구로 인한 보안 패널티를 완화하는 방어 건물입니다. 또한 불행을 줄여서 지역 행복을 향상시킵니다.'
-WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE';
+WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE_STRATEGY';
 
 -- Police Station
 UPDATE Language_ko_KR
