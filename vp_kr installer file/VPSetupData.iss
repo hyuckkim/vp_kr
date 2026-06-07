@@ -2,7 +2,7 @@
 ; INNO SETUP 스크립트 파일을 만드는 방법에 대한 자세한 내용은 설명서를 참조하세요!
 
 #define MyAppName "VP 한국어"
-#define MyAppVersion "5.2.5"
+#define MyAppVersion "5.3.1"
 #define MyAppPublisher "hyuckkim"
 #define MyAppURL "https://github.com/hyuckkim/vp_kr"
 

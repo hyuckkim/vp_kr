@@ -835,7 +835,7 @@
 			<Text>제국과 전쟁 중인 모든 주요 문명에 대한 제국의 [ICON_HAPPINESS_1] 행복 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_URBANIZATION_REDUCTION">
-			<Text>[ICON_URBANIZATION] 도시화로 인한 [ICON_HAPPINESS_3] 불행을 만들지 않는 전문가로 감소 {2_Sign}{1_Num}</Text>
+			<Text>[ICON_URBANIZATION] 도시화 [ICON_HAPPINESS_3] 불행을 유발하지 않는 전문가 {2_Sign}{1_Num}명</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEVER_CAPTURE">
 			<Text>정복으로 파괴됨</Text>

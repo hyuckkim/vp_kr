@@ -2,7 +2,7 @@
 <Mod id="61add98c-bb39-4a15-a2b8-007abfcbd93d" version="1">
   <Properties>
     <Name>(3aL) VP - EUI Compatibility Files INT</Name>
-    <Teaser>(5.2.5) Vox Populi 호환성 및 LUA(EUI 버전)</Teaser>
+    <Teaser>(5.3.1) Vox Populi 호환성 및 LUA(EUI 버전)</Teaser>
     <Description>EUI를 사용할 때의 Vox Populi에 대한 LUA 및 모드 호환성 파일이 포함되어 있습니다.</Description>
     <Authors>hyuckkim, HANDANI</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
@@ -29,7 +29,7 @@
   <Blocks />
   <Files>
     <File md5="1ED882588813142E874465E219FDF6AF" import="0">EUI/EUI_text_ko_KR.xml</File>
-    <File md5="78F3E67C66EF0BC1B34789BDC7A545F8" import="0">EUI/NeededText.xml</File>
+    <File md5="BEC484245A887115AC111ACA91AC479A" import="0">EUI/NeededText.xml</File>
     <File md5="83943CAA78C35FA1940EEA2691853436" import="0">ImprovedTopPanel/Text.xml</File>
   </Files>
   <Actions>
