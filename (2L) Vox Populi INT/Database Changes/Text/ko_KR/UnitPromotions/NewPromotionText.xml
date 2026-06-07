@@ -13,6 +13,11 @@
 			<Text>[ICON_WAR] 공격 횟수 +1</Text>
 		</Row>
 
+		<!-- Flat Movement Cost -->
+		<Row Tag="TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST_HELP">
+			<Text>지형에 상관없이 타일마다 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 소모</Text>
+		</Row>
+
 		<!-- Tank Hunter -->
 		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_1_HELP">
 			<Text>기갑 유닛 대항 시 [ICON_STRENGTH] 전투력 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]</Text>
@@ -359,14 +364,14 @@
 			<Text>산탄 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHRAPNEL_ROUNDS_1_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR]을 공격할 때 [ICON_STRENGTH] 전투력 보너스 +35%</Text>
+			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR]을 공격할 때 [ICON_STRENGTH] 전투력 보너스 +50%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SHRAPNEL_ROUNDS_2">
 			<Text>산탄 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHRAPNEL_ROUNDS_2_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR]을 공격할 때 [ICON_STRENGTH] 전투력 보너스 +35%</Text>
+			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR]을 공격할 때 [ICON_STRENGTH] 전투력 보너스 +50%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SHRAPNEL_ROUNDS">
@@ -519,6 +524,13 @@
 		<Row Tag="TXT_KEY_PROMOTION_SUN_NEVER_SETS_HELP">
 			<Text>[ICON_MOVES] 이동력 +1[NEWLINE][ICON_CAPITAL] 수도에서 떨어진 타일마다 [ICON_STRENGTH] 전투력 1% 증가 (최대 30%)</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_CHASQUI_TRAINING">
+			<Text>차스퀴 훈련</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHASQUI_TRAINING_HELP">
+			<Text>산을 건널 수 있습니다.</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER">
 			<Text>빠른 노동자</Text>
@@ -628,6 +640,13 @@
 			<Text>체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_ANIMISM">
+			<Text>애니미즘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANIMISM_HELP">
+			<Text>지형 비용을 무시합니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_ROYAL_SIGNET">
 			<Text>국왕 인장</Text>
 		</Row>
@@ -723,6 +742,13 @@
 			<Text>[ICON_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE]공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 가능</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH">
+			<Text>개선</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH_HELP">
+			<Text>[ICON_STRENGTH] 전투력 +15%.[NEWLINE] 적 처치 시[ICON_STRENGTH] 전투력의 50%만큼 [ICON_GREAT_GENERAL] 위대한 장군 포인트를 얻습니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_FORCE">
 			<Text>무차별 공격</Text>
 		</Row>
@@ -779,7 +805,7 @@
 			<Text>엄호 사격 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_2_HELP">
-			<Text>요새화한 유닛 및 도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE]방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]2타일 이내의 적 지상 유닛의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]원거리 공격 방어 시[ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE] 요새화한 유닛 및 도시 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR][NEWLINE]2타일 이내의 적 지상 유닛의 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TITANIC">
@@ -1113,6 +1139,13 @@
 			<Text>[COLOR_POSITIVE_TEXT]야만인[ENDCOLOR]에 대한 [ICON_STRENGTH] 전투력 +40% 증가</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_SPEAR_WALL">
+			<Text>창벽</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPEAR_WALL_HELP">
+			<Text>턴마다 인접한 적에게  [COLOR_POSITIVE_TEXT]5 피해[ENDCOLOR][NEWLINE]이 피해는 피해 감소를 무시합니다.[NEWLINE][NEWLINE] 이 유닛이 [COLOR_POSITIVE_TEXT]요새화[ENDCOLOR] 상태로 턴 시작 시 인접한 모든 적에게 [COLOR_POSITIVE_TEXT]5 피해[ENDCOLOR]를 줍니다.[NEWLINE]이 피해는 피해 감소를 무시하지만, [COLOR_NEGATIVE_TEXT]도시[ENDCOLOR]와 [COLOR_NEGATIVE_TEXT]요새[ENDCOLOR] 안의 유닛에는 영향을 미치지 않습니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_LEGACY">
 			<Text>유산</Text>
 		</Row>
@@ -1260,6 +1293,13 @@
 			<Text>전투에서 획득한 경험치 1 당 [ICON_CULTURE] 문화 0.5, [ICON_PEACE] 신앙 0.5 획득</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_RETALIATION">
+			<Text>보복</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RETALIATION_HELP">
+			<Text>턴 종료 시 이 유닛에 인접한 적 유닛에게 [COLOR_POSITIVE_TEXT]10 피해[ENDCOLOR]를 줍니다.[NEWLINE]이 피해는 피해 감소를 무시합니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_CETBANG">
 			<Text>쳇방</Text>
 		</Row>
@@ -1306,7 +1346,7 @@
 			<Text>라지아</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAZZIA_HELP">
-			<Text>패배한 적 유닛 [ICON_STRENGTH] 전투력의 200%를 이 유닛이 속한 도시의 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산으로 획득[NEWLINE]시설 [ICON_RAZING] 약탈 시 이 유닛이 속한 도시의 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산력 100 증가[NEWLINE][ICON_INTERNATIONAL_TRADE] 교역로 약탈 시 이 유닛이 속한 도시의 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산력 200 증가</Text>
+			<Text>적 유닛 처치 시 대상 유닛 [ICON_STRENGTH] 전투력의 200%만큼 이 유닛의 출신 도시에 [ICON_PRODUCTION] 생산력 및 [ICON_GOLD] 금 획득.[NEWLINE]시설 [ICON_RAZING] 약탈 시 이 유닛의 출신 도시에 [ICON_PRODUCTION] 생산력 및 [ICON_GOLD] 금 100 획득.[NEWLINE][ICON_INTERNATIONAL_TRADE] 교역로 약탈 시 이 유닛의 출신 도시에 [ICON_PRODUCTION] 생산력 및 [ICON_GOLD] 금 400 획득</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_BURGHER">

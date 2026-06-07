@@ -10,7 +10,7 @@ WHERE Tag = 'TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP';
 
 -- Write Political Treatise
 UPDATE Language_ko_KR 
-SET Text = '이 명령을 통해 대량의 [ICON_CULTURE] 문화를 제공합니다. 이는 소유한 [ICON_GREAT_WORK] 걸작 1개마다 [COLOR_POSITIVE_TEXT]3%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' 
+SET Text = '이 명령을 통해 대량의 [ICON_CULTURE] 문화를 제공합니다. 이는 소유한 [ICON_GREAT_WORK] 걸작 1개마다 [COLOR_POSITIVE_TEXT]8%[ENDCOLOR]씩 증가합니다. 위인은 이 과정에서 소모됩니다.' 
 WHERE Tag = 'TXT_KEY_MISSION_GIVE_POLICIES_HELP';
 
 -- Start a Golden Age

@@ -17,7 +17,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
-			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]를 도시 [ICON_STRENGTH]방어력 및 체력 회복률로 전환시킵니다.</Text>
+			<Text>도시 [ICON_PRODUCTION]생산의 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR]를 도시 [ICON_STRENGTH]방어력 및 체력 회복률로 전환시킵니다. 이 전환률은 지속되는 동안 매 턴 1%씩, 최대 15%만큼 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
 			<Text>생산으로 방어를 향상시키는 것은 도시를 외부의 점령으로부터 보호하기 위한 최후의 수단입니다.</Text>

@@ -316,6 +316,10 @@ WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT';
 -- Espionage overview
 ------------------------------------------------
 UPDATE Language_ko_KR
+SET Text = '스파이 활동은 충분한 [ICON_SPY_POINT] 스파이 포인트를 축적하여 첫 번째 [ICON_SPY] 스파이를 받을 때 시작됩니다.'
+WHERE Tag = 'TXT_KEY_ESPIONAGE_NOT_STARTED_YET';
+
+UPDATE Language_ko_KR
 SET Text = '이름'
 WHERE Tag = 'TXT_KEY_EO_NAME_RANK';
 
@@ -329,7 +333,7 @@ SET Text = '보안 등급'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL';
 
 UPDATE Language_ko_KR
-SET Text = '보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높다면, 외국 스파이가 작전을 완료하는 데 더 오랜 시간이 걸립니다. 보안 등급을 증가시키기 위해 경찰대나 경찰서 등의 첩보 건물을 건설할 수 있습니다.[NEWLINE][NEWLINE]잠재력 순으로 도시를 정렬하려면 클릭하십시오.'
+SET Text = '보안 등급은 스파이 활동에 대한 도시의 취약성을 반영합니다. 보안 등급이 높다면, 외국 스파이가 작전을 완료하는 데 더 오랜 시간이 걸립니다. 보안 등급을 증가시키기 위해 구치소나 경찰대 등의 첩보 건물을 건설할 수 있습니다.[NEWLINE][NEWLINE]잠재력 순으로 도시를 정렬하려면 클릭하십시오.'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL_SORT_TT';
 
 UPDATE Language_ko_KR

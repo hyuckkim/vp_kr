@@ -25,7 +25,7 @@ SET Text = '아라비아의 고유 건물로 {TXT_KEY_BUILDING_MARKET}을 대체
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_ARABIAN_CAMELARCHER}은 아라비아의 고유 유닛으로 {TXT_KEY_UNIT_HEAVY_SKIRMISHER}을 대체합니다. 광역 피해 I 승급을 가지고 시작해 강력한 범위 공격을 가하여, 한 타일 안 범위의 여러 적을 동시에 공격할 수 있습니다. 또한 근접 전투에서 후퇴할 수 있고, [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}을 요구하지 않습니다.'
+SET Text = '{TXT_KEY_UNIT_ARABIAN_CAMELARCHER}은 아라비아의 고유 유닛으로 {TXT_KEY_UNIT_HEAVY_SKIRMISHER}을 대체합니다. 훈련에 {TXT_KEY_RESOURCE_HORSES} 자원을 요구하지 않습니다. 이 유닛은 자신과 인접한 적 무리에게 광역 피해를 줄 수 있습니다. 말을 타는 일반 산악병 유닛들과 달리, {TXT_KEY_UNIT_ARABIAN_CAMELARCHER}은 사막 지형을 손쉽게 이동할 수 있습니다. 게다가 아라비아가 선호하는 지형(사막)에서는 전투력이 증가합니다. 따라서 이 유닛들을 대량으로 운용한다면, 강력한 적군을 상대로도 사막 지역을 훌륭히 방어하거나 공격해 들어갈 수 있을 것입니다.'
 WHERE Tag = 'TXT_KEY_UNIT_ARABIAN_CAMELARCHER_STRATEGY';
 
 --------------------
@@ -384,7 +384,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY';
 -- Inca
 --------------------
 UPDATE Language_ko_KR
-SET Text = '언덕이 포함된 모든 지형의 유닛 이동 페널티를 무시하고 산 타일로 이동할 수 있습니다. (강을 건널 때를 제외하고) 산 타일에 도시/도로/철도를 건설할 수 있고 산 타일의 [ICON_PRODUCTION] 생산력, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학이 증가합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]'
+SET Text = '시민 유닛 및 정찰 유닛이 산으로 이동할 수 있습니다. 유닛이 [COLOR_POSITIVE_TEXT]언덕[ENDCOLOR]에서 이동 패널티를 무시합니다. 소유한 언덕 또는 산이 [ICON_CONNECTED] 도시 연결 또는 [ICON_INTERNATIONAL_TRADE] 교역로에 사용되었다면 [ICON_GOLD] 골드를 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 얻고, [COLOR_CYAN] 산업 시대에 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 얻습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD';
 
 UPDATE Language_ko_KR
@@ -392,7 +392,7 @@ SET Text = '파타파타'
 WHERE Tag = 'TXT_KEY_IMPROVEMENT_TERRACE_FARM';
 
 UPDATE Language_ko_KR
-SET Text = '언덕 위에만 건설할 수 있습니다. 산, 농장, 파타파타 또는 제조소가 있는 인접한 두 타일마다 [ICON_FOOD] 식량 +1이 추가됩니다. 농장은 인접한 농장 2개 또는 파타파타 1개당 [ICON_FOOD] 식량 +1을 추가로 얻습니다.'
+SET Text = '산 위에만 건설할 수 있습니다. 산이 아닌 모든 지상 타일의 [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]잉카의 영토와 [COLOR_POSITIVE_TEXT]인접한[ENDCOLOR] 타일에도 건설할 수 있습니다. [COLOR_POSITIVE_TEXT]중립 영토[ENDCOLOR]에 건설했다면 그 타일을 얻습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP';
 
 UPDATE Language_ko_KR
@@ -419,7 +419,7 @@ SET Text = '나가말라'
 WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_UNIT_INDIAN_WARELEPHANT}는 {TXT_KEY_UNIT_CUIRASSIER}을 대체하는 인도의 고유 유닛입니다. 코끼리이므로, 주변의 적 유닛에게 공포를 불어넣어 약화시키며, 더 강한 [ICON_STRENGTH] 전투력과 [ICON_RANGE_STRENGTH] 원거리 전투력을 보유하지만, 속도가 느립니다. [ICON_RES_HORSE] {TXT_KEY_RESOURCE_HORSES}을 요구하지 않으며, {TXT_KEY_UNIT_CUIRASSIER}보다 이르게, [COLOR_CYAN]{TXT_KEY_TECH_GUNPOWDER_TITLE}[ENDCOLOR] 개발 시 사용할 수 있습니다. {TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE} 승급을 보유하지 않습니다.'
+SET Text = '{TXT_KEY_UNIT_INDIAN_WARELEPHANT}는 {TXT_KEY_UNIT_CUIRASSIER}을 대체하는 인도의 고유 유닛입니다. 코끼리 유닛 특성상 주변의 적 유닛에게 공포를 불어넣어 약화시키며, 원거리 전투력이 압도적으로 우수한 대신 이동 속도가 느립니다. 훈련에 {TXT_KEY_RESOURCE_HORSES} 자원을 요구하지 않으며, {TXT_KEY_UNIT_CUIRASSIER}보다 이른 타이밍인 {TXT_KEY_TECH_GUNPOWDER_TITLE} 연구 시점부터 사용할 수 있습니다. {TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE} 승급을 가지고 시작하지 않는 대신, {TXT_KEY_PROMOTION_STALWART} 및 {TXT_KEY_PROMOTION_RETALIATION} 승급을 보유한 채로 시작합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -446,7 +446,7 @@ SET Text = '팔라파 맹세'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 획득하면 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 근처에 나타납니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 고유한 [ICON_GOLDEN_AGE] 산출량과 [ICON_GOLDEN_AGE] 황금기 지속 시간 수정치가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. [ICON_MONOPOLY] 글로벌 독점으로 인한 산출량과 [ICON_HAPPINESS_1] 행복도가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '도시를 획득하면 도시 주변에 3개의 고유 [COLOR_POSITIVE_TEXT]사치 자원[ENDCOLOR] ([ICON_RES_CLOVES]/[ICON_RES_PEPPER]/[ICON_RES_NUTMEG]) 중 하나가 근처에 나타납니다. [ICON_MONOPOLY] 글로벌 독점 보너스가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE';
 
 UPDATE Language_ko_KR
@@ -480,7 +480,7 @@ SET Text = '쇼군'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '방어 건물의 [ICON_CULTURE]문화 및 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 출현할 때 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가/작가/음악가 점수가 50% 증가합니다.'
+SET Text = '정찰 유닛이 아닌 지상 유닛이 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BUSHIDO}[ENDCOLOR] 승급을 얻습니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 출현할 때 [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위대한 예술가/작가/음악가 점수가 50% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED';
 
 UPDATE Language_ko_KR
@@ -536,7 +536,7 @@ WHERE Tag = 'TXT_KEY_CIV5_MONGOLIA_KHAN_STRATEGY';
 -- Morocco
 --------------------
 UPDATE Language_ko_KR
-SET Text = '모로코와 [ICON_INTERNATIONAL_TRADE]교역로를 연결한 문명 1개마다 모로코 [ICON_CAPITAL]수도의 모든 산출량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 모로코의 도시로 들어오고 나가는 [ICON_INTERNATIONAL_TRADE] 교역로는 [COLOR_POSITIVE_TEXT]거리[ENDCOLOR]에 대한 페널티를 받지 않습니다. 소유 중이 아닌 도시에 연결된 전쟁 중이 아닌 다른 문명의 교역로를 [COLOR_POSITIVE_TEXT]약탈[ENDCOLOR]할 수 있습니다.'
+SET Text = '모로코와 [ICON_INTERNATIONAL_TRADE]교역로를 연결한 문명 1개마다 모로코 [ICON_CAPITAL]수도의 모든 산출량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 증가합니다. 모로코의 도시로 들어오고 나가는 [ICON_INTERNATIONAL_TRADE] 교역로는 [COLOR_POSITIVE_TEXT]거리[ENDCOLOR]에 대한 페널티를 받지 않습니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_GATEWAY_AFRICA';
 
 UPDATE Language_ko_KR
@@ -685,7 +685,7 @@ WHERE Tag = 'TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY';
 -- Rome
 --------------------
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITY_STATE] 도시 국가와 전투 시 +30%의 [ICON_STRENGTH] 전투력을 얻습니다. 정복된 도시 국가는 [COLOR_POSITIVE_TEXT]동맹[ENDCOLOR] 수준의 산출을 제공합니다.[ICON_CAPITAL]수도에 건설된 건물을 다른 도시에 건설할 때 [ICON_PRODUCTION]생산 보너스를 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 제공합니다.'
+SET Text = '[ICON_CAPITAL] 수도에 건설된 건물을 다른 도시에 건설할 때 [ICON_PRODUCTION] 생산 보너스를 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 제공합니다.  [ICON_CAPITAL] 수도 근처 8타일 내에 지어진 도시마다 [ICON_GOLD] 골드 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_CULTURE] 문화 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_TOURISM] 관광 [COLOR_POSITIVE_TEXT]1[ENDCOLOR]을 제공합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER';
 
 UPDATE Language_ko_KR
@@ -795,7 +795,7 @@ SET Text = '북방의 사자'
 WHERE Tag = 'TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '근접 지상 유닛은 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN}[ENDCOLOR] 승급을 가지고, 공성 유닛은 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MOBILITY}[ENDCOLOR] 승급을 가지고 시작합니다. [ICON_GREAT_GENERAL] 위대한 장군이 출현하면 모든 군사 유닛이 [COLOR_POSITIVE_TEXT]체력[ENDCOLOR]을 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 회복하고 경험치를 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 획득합니다. [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] [COLOR_POSITIVE_TEXT]지도력[ENDCOLOR] 오라로 인해 [ICON_STRENGTH] 전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.'
+SET Text = '근접 지상 유닛은 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN}[ENDCOLOR] 승급을 가지고, 공성 유닛은 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_MOBILITY}[ENDCOLOR] 승급을 가지고 시작합니다. [ICON_GREAT_GENERAL] 위대한 장군이 출현하면 모든 군사 유닛이 [COLOR_POSITIVE_TEXT]체력[ENDCOLOR]을 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 회복하고 경험치를 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 획득합니다. [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] [COLOR_POSITIVE_TEXT]지도력[ENDCOLOR] 오라로 인해 [ICON_STRENGTH] 전투력이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE';
 
 UPDATE Language_ko_KR

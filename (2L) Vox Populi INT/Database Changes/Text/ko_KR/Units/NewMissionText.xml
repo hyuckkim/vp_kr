@@ -11,5 +11,15 @@
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP_DISABLED">
 			<Text>이 능력을 사용하려면 유닛이 해당 영토에 있어야 합니다.</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_MISSION_SEALIFT">
+			<Text>수송</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SEALIFT_HELP">
+			<Text>수송은 지상 유닛이 한 턴 내에 물을 통해 큰 거리로 이동할 수 있게 해줍니다.[NEWLINE][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]수송 규칙:[ENDCOLOR] 수송은 지상 유닛의 전체 [ICON_MOVES] 이동력을 필요로 하므로, 유닛이 해당 턴에 이미 일부 [ICON_MOVES] 이동력을 사용했다면 활성화할 수 없습니다. 유닛은 수도와 수송이 활성화된 도시의 같은 타일에 있거나 인접한 타일에 있어야 합니다. 수송은 유닛의 모든 [ICON_MOVES] 이동력을 소모하므로, 더 이상 이동하려면 다음 턴까지 기다려야 합니다.[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]허용되는 대상:[ENDCOLOR] 수송은 목적지 도시(즉, 도시 타일과 인접한 타일)에서 위에서 언급한 타일들을 대상으로 할 수 있지만, 다른 지상 유닛이 없는 통행 가능한 지상 타일만 가능합니다. 이는 명백하지 않지만, 규칙은 단일 턴 내에 한 도시에서 다른 도시로 운반할 수 있는 유닛 수에 대한 제한을 둡니다. 물 타일을 통해 직접 [ICON_CONNECTED] 연결된 도시만 수송의 목적지로 적격합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SEALIFT_HELP_DISABLED">
+			<Text>수송할 수 있는 유효한 대상이 없습니다.</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>

@@ -36,7 +36,7 @@ SET Text = '장인의 신'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '채석장의 [ICON_PEACE] 신앙 및 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 궁전의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 석재 공장의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '채석장의 [ICON_PEACE] 신앙, [ICON_PRODUCTION] 생산 및 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 궁전의 [ICON_PEACE]신앙 및 [ICON_RESEARCH]과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 석재 공장의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES';
 
 UPDATE Language_ko_KR
@@ -62,7 +62,7 @@ SET Text = '별과 하늘의 신'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '툰드라 또는 설원 위 자원 타일의 [ICON_PEACE]신앙, [ICON_FOOD]식량, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '툰드라 또는 설원 위 자원 타일의 [ICON_PEACE]신앙, [ICON_FOOD]식량, [ICON_CULTURE]문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 설원 또는 툰드라에 인접한 도시의 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR], [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA';
 
 UPDATE Language_ko_KR
@@ -70,7 +70,7 @@ SET Text = '태양의 신'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '곡창의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 농장이 건설된 시설 자원 타일의 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '곡창의 [ICON_PEACE]신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_PRODUCTION] 생산과 [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 농장이 건설된 시설 자원 타일의 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] [ICON_FOOD] 식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD';
 
 -- God of War
@@ -138,12 +138,12 @@ SET Text = '가정의 여신'
 WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '성소의 [ICON_PEACE]신앙 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 건물의 건설을 완료하면 [ICON_PEACE]신앙 및 [ICON_FOOD]식량을 [COLOR_POSITIVE_TEXT]8[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시의 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가합니다.'
+SET Text = '성소의 [ICON_PEACE]신앙 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 건물의 건설을 완료하면 [ICON_PEACE]신앙 및 [ICON_FOOD]식량을 [COLOR_POSITIVE_TEXT]8[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다. 도시의 [ICON_FOOD]성장률이 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고 [ICON_HAPPINESS_1] 행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES';
 
 -- Goddess of the Hunt
 UPDATE Language_ko_KR
-SET Text = '야영지의 [ICON_PEACE]신앙, [ICON_CULTURE]문화, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 훈제실의 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '야영지의 [ICON_PEACE]신앙, [ICON_CULTURE]문화, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 훈제실의 [ICON_PEACE] 신앙 및 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_HUNT';
 
 UPDATE Language_ko_KR
@@ -178,12 +178,12 @@ SET Text = '복음 전도'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '당신 문명의 [ICON_RELIGION]종교를 전파할 때 +15 [ICON_FOOD]식량을 성도에 제공하고, [COLOR:110:110:110:255](새로운 신도 수에 따라 보정)[ENDCOLOR] 해당 도시가 외국에 있는 경우 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:110:110:110:255](다른 종교의 신도 수에 따라 보정) [ENDCOLOR]제공합니다. [NEWLINE][COLOR_YELLOW]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +4 [ICON_GOLDEN_AGE] 황금기 점수;  [ICON_RELIGION]성지에서 +5 [ICON_TOURISM] 관광; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '당신 문명의 [ICON_RELIGION]종교를 전파할 때 +15 [ICON_FOOD]식량을 성도에 제공하고, [COLOR:110:110:110:255](새로운 신도 수에 따라 보정)[ENDCOLOR] 해당 도시가 외국에 있는 경우 [ICON_TOURISM]관광을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:110:110:110:255](다른 종교의 신도 수에 따라 보정) [ENDCOLOR]제공합니다. [NEWLINE][COLOR_YELLOW]사도 궁전 [ENDCOLOR] 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +4 [ICON_GOLDEN_AGE] 황금기 점수; [ICON_PUPPET] 도시 국가 선거 조작 시 [ICON_TOURISM] 관광 +25, [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]; [ICON_RELIGION]성지에서 +5 [ICON_TOURISM] 관광; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE';
 
 -- Ceremonial Burial
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_PEOPLE]위인을 소모할 때 당신의 [ICON_RELIGION]종교를 따르는 도시에 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_PEACE]신앙 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 제공합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][COLOR_YELLOW]마우솔레움[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙, 전투로 인해 유닛이 사망 시 [ICON_PEACE] 신앙, [ICON_RELIGION]성지에서 +5 [ICON_PEACE] 신앙; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '[ICON_GREAT_PEOPLE]위인을 소모할 때 당신의 [ICON_RELIGION]종교를 따르는 도시에 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_PEACE]신앙 및 [ICON_CULTURE]문화를 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 제공합니다. [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR][NEWLINE][COLOR_YELLOW]마우솔레움[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙; 전투로 인해 유닛이 사망 시 [ICON_PEACE] 신앙; [ICON_RELIGION]성지에서 +5 [ICON_PEACE] 신앙; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_CEREMONIAL_BURIAL';
 
 UPDATE Language_ko_KR
@@ -191,7 +191,7 @@ SET Text = '원로회'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '당신 문명의 종교를 처음 채택한 도시는 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 당신의 성도에 [ICON_RESEARCH]과학 및 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:110:110:110:255](종교를 따르는 도시의 수에 따라 보정)[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]종교 공의회[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +5 [ICON_FOOD] 식량;  [ICON_RELIGION]성지에서 +5 [ICON_RESEARCH] 과학; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '당신 문명의 종교를 처음 채택한 도시는 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 당신의 성도에 [ICON_RESEARCH]과학 및 [ICON_PRODUCTION]생산을 [COLOR_POSITIVE_TEXT]20[ENDCOLOR] [COLOR:110:110:110:255](종교를 따르는 도시의 수에 따라 보정)[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]종교 공의회[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙; 모든 도시의 [ICON_CITY_SECURITY] 도시 보안 +10; +5 [ICON_FOOD] 식량;  [ICON_RELIGION]성지에서 +5 [ICON_RESEARCH] 과학; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY';
 
 UPDATE Language_ko_KR
@@ -199,7 +199,7 @@ SET Text = '신성한 유산'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GOLDEN_AGE]황금기 동안 성도의 산출량이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. [NEWLINE][COLOR_YELLOW]천상의 옥좌[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다.(+2 [ICON_PEACE] 신앙, [ICON_CULTURE] 문화, [ICON_FOOD] 식량, [ICON_RESEARCH] 과학, [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산; [ICON_RELIGION]성지에서 +5 [ICON_GOLDEN_AGE] 황금기 점수; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '[ICON_GOLDEN_AGE]황금기 동안 성도의 산출량이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. [NEWLINE][COLOR_YELLOW]천상의 옥좌[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다.(+2 [ICON_PEACE] 신앙, [ICON_CULTURE] 문화, [ICON_FOOD] 식량, [ICON_RESEARCH] 과학, [ICON_GOLD] 골드, [ICON_PRODUCTION] 생산; [ICON_SPY_POINT] 스파이 포인트 +80; [ICON_RELIGION]성지에서 +5 [ICON_GOLDEN_AGE] 황금기 점수; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING';
 
 UPDATE Language_ko_KR
@@ -207,7 +207,7 @@ SET Text = '영웅 숭배'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '도시를 정복했을 때 [ICON_GOLDEN_AGE]황금기 점수, [ICON_PEACE]신앙을 100, [ICON_GREAT_GENERAL] 위대한 장군 점수 [COLOR:110:110:110:255](내륙 도시)[ENDCOLOR] 위대한 제독 점수 [COLOR:110:110:110:255](해안 도시)[ENDCOLOR]를 25 제공합니다. [COLOR:110:110:110:255](시대 및 시민 수에 따라 보정)[ENDCOLOR][NEWLINE][COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙, 군사 유닛 [ICON_PRODUCTION]생산 +15%; [ICON_RELIGION]성지에서 +5 [ICON_PRODUCTION] 생산; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '[ICON_GREAT_GENERAL]위대한 장군과 [ICON_GREAT_ADMIRAL]위대한 제독 점수를 33% 더 얻습니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 탄생할 때마다 당신의 [ICON_RELIGION]종교를 따르는 도시마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_GOLD]골드와 [ICON_PEACE]신앙을 각각 75씩 제공합니다. [NEWLINE][COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙, 군사 유닛의 [ICON_PRODUCTION] 생산 +15%; [ICON_RELIGION]성지에서 +5 [ICON_PRODUCTION] 생산; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE';
 
 UPDATE Language_ko_KR
@@ -215,7 +215,7 @@ SET Text = '신성한 법'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '정책을 채택할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 신도 1명마다 [COLOR:110:110:110:255](한도: 250명)[ENDCOLOR] [ICON_PEACE]신앙, [ICON_RESEARCH]과학, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]5[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]성스러운 법정[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +6 [ICON_GOLD] 골드;  [ICON_RELIGION]성지에서 +5 [ICON_CULTURE] 문화; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '정책을 채택할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 신도 1명마다 [COLOR:110:110:110:255](한도: 250명)[ENDCOLOR] [ICON_PEACE]신앙, [ICON_RESEARCH]과학, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]6[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]성스러운 법정[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+4 [ICON_PEACE] 신앙, +6 [ICON_GOLD] 골드; [ICON_SPY_POINT] 스파이 포인트 +50; [ICON_RELIGION]성지에서 +5 [ICON_CULTURE] 문화; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY';
 
 UPDATE Language_ko_KR
@@ -223,7 +223,7 @@ SET Text = '신권정치'
 WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '"국왕 경축일"이 열리는 동안 [ICON_PEACE]신앙, [ICON_CULTURE]문화, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. [NEWLINE][COLOR_YELLOW]대 납골당[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+10 [ICON_PEACE] 신앙;  [ICON_RELIGION]성지에서 +5 [ICON_GOLD] 골드; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '"국왕 경축일"이 열리는 동안 [ICON_PEACE]신앙, [ICON_CULTURE]문화, [ICON_GOLD]골드가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다. [NEWLINE][COLOR_YELLOW]대 납골당[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+10 [ICON_PEACE] 신앙; [ICON_SPY] 스파이 처치 시  [ICON_CULTURE] 문화 및 [ICON_PEACE] 신앙 100 제공 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]; [ICON_RELIGION]성지에서 +5 [ICON_GOLD] 골드; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH';
 
 UPDATE Language_ko_KR
@@ -231,7 +231,7 @@ SET Text = '초월적인 판단'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '새로운 시대로 진입할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 각 산출량을 [COLOR_POSITIVE_TEXT]12[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]신성한 정원[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+3 [ICON_PEACE] 신앙, +5 [ICON_CULTURE] 문화;  [ICON_RELIGION]성지에서 +5 [ICON_FOOD] 식량; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '새로운 시대로 진입할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 각 산출량을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]신성한 정원[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+3 [ICON_PEACE] 신앙, +5 [ICON_CULTURE] 문화; [ICON_SPY] 스파이 발견 시 모든 산출량 +20 [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] [ICON_RELIGION]성지에서 +5 [ICON_FOOD] 식량; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES';
 
 UPDATE Language_ko_KR
@@ -239,7 +239,7 @@ SET Text = '시현'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '새로운 [ICON_RESEARCH]기술을 연구하면, [ICON_RELIGION]종교의 신도마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_PEACE]신앙, [ICON_CULTURE] 문화를 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 제공합니다. [COLOR:105:105:105:255](한도: 250명)[ENDCOLOR] [NEWLINE][COLOR_YELLOW]기록저장소[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. ([ICON_RELIGION]성지에서 +5 [ICON_RESEARCH] 과학; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '새로운 [ICON_RESEARCH]기술을 연구하면, [ICON_RELIGION]종교의 신도마다 [ICON_GOLDEN_AGE] 황금기 점수, [ICON_PEACE]신앙, [ICON_CULTURE] 문화를 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 제공합니다. [COLOR:105:105:105:255](한도: 250명)[ENDCOLOR] [NEWLINE][COLOR_YELLOW]기록저장소[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. ([ICON_RELIGION]성지에서 +5 [ICON_RESEARCH] 과학; 도시의 [ICON_CITIZEN] 시민 2명마다 [ICON_CITY_SECURITY] 도시 보안 +1; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE';
 
 ----------------------------------------------
@@ -445,12 +445,12 @@ SET Text = '십자군 정신'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '적 영토 내 지상 유닛과 전투 시 지상 유닛의 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 추가로 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 도시를 정복했을 때 [ICON_CULTURE] 문화 및 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]50[ENDCOLOR] 제공합니다. [COLOR:105:105:105:255](시대와 도시의 인구수에 따라 보정)[ENDCOLOR]'
+SET Text = '적 영토 내 지상 유닛과 전투 시 지상 유닛의 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 추가로 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 병영, 무기고, 사관 학교의 [ICON_GOLD] 골드와 [ICON_CULTURE] 몬화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM';
 
 -- Defender of the Faith
 UPDATE Language_ko_KR
-SET Text = '우호 영토 내 지상 유닛과 전투 시 지상 유닛의 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 추가로 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.  모든 방어 건물의 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
+SET Text = '우호 영토 내 지상 유닛과 전투 시 지상 유닛의 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다. 추가로 당신 문명의 종교를 따르지 않는 적 지상 유닛과 전투 시 [ICON_STRENGTH] 전투력 보너스가 [COLOR_POSITIVE_TEXT]5%[ENDCOLOR] 증가합니다. 모든 방어 건물의 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_DEFENDER_FAITH';
 
 UPDATE Language_ko_KR
@@ -474,7 +474,7 @@ SET Text = '범인류적 계명'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '종교 전파 속도가 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가하고 ([COLOR_RESEARCH_STORED]인쇄술[ENDCOLOR] 연구 시 [COLOR_POSITIVE_TEXT]30%[ENDCOLOR]), 세계 대회 또는 유엔에서 결의안이 통과되면 [ICON_RESEARCH]과학, [ICON_CULTURE]문화, [ICON_GOLD]골드, [ICON_PEACE] 신앙, [ICON_GOLDEN_AGE] 황금기 점수가 [COLOR_POSITIVE_TEXT]350[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다.'
+SET Text = '외교 청사, 인쇄국, 통신사를 [ICON_PEACE] 신앙으로 구매할 수 있습니다. 이 건물들은 각각 +1 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화를 생산합니다. 외교 유닛의 [ICON_PRODUCTION] 생산이 [COLOR_POSITIVE_TEXT]20%[ENDCOLOR] 증가합니다. 세계 대회 또는 국제 연합에서 제안이 통과될 때마다 당신 문명의 종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 350 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_GOLD] 골드, [ICON_PEACE] 신앙, [ICON_GOLDEN_AGE] 황금기 점수를 제공합니다. [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] '
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS';
 
 UPDATE Language_ko_KR
@@ -490,7 +490,7 @@ SET Text = '영감을 받은 작품'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '랜드마크 및 위인 시설의 [ICON_PEACE] 신앙 및 [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK] 걸작에서 오는 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가하고 [ICON_PEACE] 신앙으로 고고학자를 구매할 수 있습니다.'
+SET Text = '랜드마크 및 위인 시설의 [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR], [ICON_RESEARCH] 과학이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [ICON_GREAT_WORK] 걸작에서 오는 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 [ICON_PEACE] 신앙으로 고고학자를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS';
 
 -- Sacred Sites
@@ -500,5 +500,5 @@ WHERE Tag = 'TXT_KEY_BELIEF_SACRED_SITES';
 
 -- To the Glory of God
 UPDATE Language_ko_KR
-SET Text = '산업 시대부터 [ICON_PEACE] 신앙으로 [ICON_GREAT_PEOPLE]위인을 구매할 수 있습니다. [ICON_GREAT_PEOPLE]위인을 소모할 때 당신 문명의 종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 20도시)[ENDCOLOR] [ICON_CULTURE]문화, [ICON_RESEARCH]과학, [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 얻습니다.'
+SET Text = '산업 시대부터 [ICON_PEACE] 신앙으로 [ICON_GREAT_PEOPLE]위인을 구매할 수 있습니다. 단, 정책에 의해 잠금 해제되지 않은 경우 비용이 [COLOR_NEGATIVE_TEXT]50%[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_TO_GLORY_OF_GOD';

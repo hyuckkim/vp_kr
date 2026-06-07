@@ -66,7 +66,7 @@ WHERE Tag = 'TXT_KEY_TECH_CHEMISTRY_HELP';
 
 -- Metallurgy
 UPDATE Language_ko_KR
-SET Text = '르네상스 시대의 강력한 공성 유닛인 [COLOR_YELLOW]대포[ENDCOLOR]를 만들 수 있습니다.'
+SET Text = '르네상스 시대의 강력한 기병 유닛인 [COLOR_YELLOW]창기병[ENDCOLOR]을 만들 수 있습니다.'
 WHERE Tag = 'TXT_KEY_TECH_METALLURGY_HELP';
 
 -- Industrialization

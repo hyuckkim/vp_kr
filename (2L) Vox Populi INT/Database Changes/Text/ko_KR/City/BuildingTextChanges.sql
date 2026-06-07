@@ -5,13 +5,17 @@ WHERE Tag = 'TXT_KEY_BUILDING_WATERMILL_STRATEGY';
 
 -- Aqueduct
 UPDATE Language_ko_KR
-SET Text = '송수로는 도시가 규모를 늘리기 데 필요한 [ICON_FOOD]식량의 양을 15% 감소시킵니다. 당신이 크게 성장하길 원하는 도시에 송수로를 건설하십시오. 송수로는 곡창이 있는 도시에만 건설할 수 있습니다.'
+SET Text = '송수로는 도시가 규모를 늘리기 데 필요한 [ICON_FOOD]식량의 양을 15% 감소시키며, 인구 성장 시 [ICON_PRODUCTION] 생산을 제공합니다. 당신이 크게 성장하길 원하는 도시에 송수로를 건설하십시오. 송수로는 곡창이 있는 도시에만 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_STRATEGY';
 
 -- Medical Lab
 UPDATE Language_ko_KR
 SET Text = '의학연구소는 게임 후반 건물입니다. 이것은 도시 성장에 필요한 [ICON_FOOD] 식량을 15% 감소시키고 도시가 즉시 확장되며, 도시에서 태어난 모든 시민에게 즉시 [ICON_RESEARCH] 과학을 생성합니다. (소급 적용) 도시는 의학연구소를 건설하기 위해서는 병원을 보유해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY';
+
+UPDATE Language_ko_KR
+SET Text = '이 도시에서 {TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_POISON} [ICON_SPY] 작전을 막습니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_HELP';
 
 -- Garden
 UPDATE Language_ko_KR
@@ -50,10 +54,20 @@ UPDATE Language_ko_KR
 SET Text = '대장간은 근처의 [ICON_RES_IRON] 철과 [ICON_RES_COPPER] 구리를 강화하고, 광산에 [ICON_PRODUCTION] 생산을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_FORGE_STRATEGY';
 
+-- Factory
+UPDATE Language_ko_KR
+SET Text = '도시의 인구에 비례한 [ICON_PRODUCTION] 생산 보너스를 제공하는 산업 시대 건물입니다. 도시의 불행을 완화하기 위해 도시화 없는 전문가 슬롯을 제공합니다.[NEWLINE][NEWLINE]또한 [ICON_RES_COAL] 석탄이 필요하므로 Coaling Stations와 엄격한 자원 트레이드오프를 제공합니다. 지역 백분율 수정자에 의존하는 대신, 공장은 글로벌 Coaling Station 네트워크의 크기에 의존하여 기본 수확량에 막대한 평면 [ICON_PRODUCTION] 생산 보너스를 주입합니다. 제국 전역의 산업 생산량을 극대화하려면 시민 규모 조정 및 도시화 감소를 완전히 활용할 수 있는 고인구 도시와 수도에 공장 네트워크를 집중하십시오.'
+WHERE Tag = 'TXT_KEY_BUILDING_FACTORY_STRATEGY';
+
 -- Stone Works
 UPDATE Language_ko_KR
-SET Text = '석재공장을 건설하려면 도시 근처에 개발된 [ICON_RES_STONE] 석재, [ICON_RES_SALT] 소금, [ICON_RES_MARBLE] 대리석, [ICON_RES_JADE] 옥, [ICON_RES_AMBER] 호박석, [ICON_RES_LAPIS] 청금석 또는 [ICON_RES_URANIUM] 우라늄 자원이 있어야 합니다. 석재공장은 도시의 생산을 증가시키고 교역로를 통해 당신의 다른 도시로 생산력을 옮길 수 있도록 합니다.'
+SET Text = '석재공장을 건설하려면 도시 근처에 개발된 [ICON_RES_STONE] 석재, [ICON_RES_SALT] 소금, [ICON_RES_MARBLE] 대리석, [ICON_RES_JADE] 옥, [ICON_RES_AMBER] 호박석, [ICON_RES_LAPIS] 청금석 또는 [ICON_RES_URANIUM] 우라늄 자원이 있어야 합니다. 석재공장은 도시의 [ICON_PRODUCTION] 생산을 증가시키고 교역로를 통해 당신의 다른 도시로 생산력을 옮길 수 있도록 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_STRATEGY';
+
+-- Stable
+UPDATE Language_ko_KR
+SET Text = '대장간은 도시 근처에 개발된 [ICON_RES_HORSE] 말, [ICON_RES_SHEEP] 양, 또는 [ICON_RES_COW] 소 자원이 있어야 건설할 수 있습니다. 이 건물은 위의 자원 생산량을 증가시키고 [ICON_WAR] 군사 보급을 제공합니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_STABLE_STRATEGY';
 
 -- Lighthouse
 UPDATE Language_ko_KR
@@ -144,7 +158,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_WALLS_STRATEGY';
 
 -- Castle
 UPDATE Language_ko_KR
-SET Text = '성은 도시의 방어력을 증가시키고 받는 피해를 2만큼 감소시키는 중세 시대 건물입니다. 군사 유닛 보급 한도를 도시 인구의 10%만큼 증가시키고, 채석장의 생산을 1 증가시킵니다. 또한 도시 규모 요구치를 조절하는 데 도움을 줍니다. 성을 건설하려면 먼저 성벽을 건설해야 합니다.'
+SET Text = '성은 도시의 방어력을 증가시키고 받는 피해를 2만큼 감소시키는 중세 시대 건물입니다. 군사 유닛 보급 한도를 도시 인구의 10%만큼 증가시키고, 이 도시의 구치소와 경찰대에 관광을 제공합니다. 또한 도시 규모 요구치를 조절하는 데 도움을 줍니다. 성을 건설하려면 먼저 성벽을 건설해야 합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_STRATEGY';
 
 -- Arsenal
@@ -184,7 +198,7 @@ SET Text = '투기장'
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM';
 
 UPDATE Language_ko_KR
-SET Text = '투기장은 추가 문화를 제공하고, 인구에 비례해 관광을 창출하고, 도시의 무료를 줄이고, 근처 [ICON_RES_PERFUME] 향수와 [ICON_RES_OLIVE] 올리브의 산출을 향상시킵니다. 무료에서 오는 불행과 싸우고, 문화를 발전시키고, 군사 건물의 생산을 향상시키려면 투기장을 건설하십시오.'
+SET Text = '투기장은 추가 문화를 제공하고, 도시의 무료를 줄이고, 근처 [ICON_RES_PERFUME] 향수와 [ICON_RES_OLIVE] 올리브의 산출을 향상시킵니다. 무료에서 오는 불행과 싸우고, 문화를 발전시키고, 군사 건물의 생산을 향상시키려면 투기장을 건설하십시오.'
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM_STRATEGY';
 
 UPDATE Language_ko_KR
@@ -200,6 +214,16 @@ WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_STRATEGY';
 UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]문화 승리[ENDCOLOR]를 목표로 한다면 경기장을 건설하세요. 완성시 모든 도시 국가의 영향력이 20 증가합니다. 문명 전역에 경기장을 건설해 세계와의 외교 관계를 증진시키십시오.'
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_STRATEGY';
+
+-- Constabulary
+UPDATE Language_ko_KR
+SET Text = '경찰대는 도시 보안을 강화하고 인구로 인한 보안 패널티를 완화하는 방어 건물입니다. 또한 불행을 줄여서 지역 행복을 향상시킵니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE';
+
+-- Police Station
+UPDATE Language_ko_KR
+SET Text = '경찰서는 도시 보안을 제공하여 적 스파이 작동을 현저히 느리게 합니다. 경찰대에서 제공하는 인구 비례 보안과 결합하여, 경찰서는 도시가 성장함에 따라 자연스럽게 겪는 정보 수집 취약성을 대부분 해소합니다. 동시에, 이 건물은 불행을 전반적으로 줄여서 행복 관리에 있어서 뛰어난 도구로 작용합니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_STRATEGY';
 
 -- Monastery
 UPDATE Language_ko_KR

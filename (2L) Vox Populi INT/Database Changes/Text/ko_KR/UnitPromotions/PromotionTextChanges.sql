@@ -494,7 +494,7 @@ SET Text = '산 타일 상공 통과 가능, 승선 없이 물 타일 통과 가
 WHERE Tag = 'TXT_KEY_PROMOTION_HOVERING_UNIT_HELP';
 
 UPDATE Language_ko_KR
-SET Text = '지형에 상관없이 타일마다 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 소모'
+SET Text = '평지 이동 비용'
 WHERE Tag = 'TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST';
 
 UPDATE Language_ko_KR

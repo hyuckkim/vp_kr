@@ -76,6 +76,10 @@ UPDATE Language_ko_KR
 SET Text = '유닛이 소모됩니다.[NEWLINE][NEWLINE]인접한 [COLOR_POSITIVE_TEXT]산[ENDCOLOR] 타일 하나당 1 [ICON_PEACE] 신앙을 추가로 제공합니다.[NEWLINE][NEWLINE]해당 타일에 있는 자원을 무역망에 연결합니다.'
 WHERE Tag = 'TXT_KEY_BUILD_HOLY_SITE_HELP';
 
+UPDATE Language_en_US
+SET Text = '{TXT_KEY_CIV5_IMPROVEMENTS_HOLY_SITE_HELP}[NEWLINE][NEWLINE]종교적으로 중요한 의미를 지닌 성지는 특정 종교의 신, 예언자, 전통을 기리는 신성한 장소입니다. 종교 순례자들이 자주 찾는 이 성지들은 신과의 연결을 강화하고 경의를 표하기 위해 신자들이 방문하는 곳입니다.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_HOLY_SITE_TEXT';
+
 -- Landmark
 UPDATE Language_ko_KR
 SET Text = '랜드마크를 건설하면 타일 소유주 및 건설 문명의 전역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. 또한 유물의 본래 시대와 비교하여 시대가 바뀔 때마다 [ICON_CULTURE]문화 및 [ICON_GOLD]골드가 추가로 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][NEWLINE]랜드마크는 관광객을 끌어들이는 장엄한 유물이나 건물, 예술작품, 자연경관입니다. 영국의 넬슨 기념비와 미국의 러시모어 산과 같은 것을 랜드마크라고 할 수 있습니다. 그렇지만 크기가 커야 랜드마크라고 할 수 있는 것은 아닙니다. 세계에서 가장 큰 실로 만든 공은 구경거리가 되겠지만 랜드마크라고 부르지 않습니다.'

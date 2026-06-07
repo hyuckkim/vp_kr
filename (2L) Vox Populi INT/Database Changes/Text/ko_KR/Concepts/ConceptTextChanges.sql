@@ -47,7 +47,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 작가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 [ICON_GW_WRITING] 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (극장이나 국가 서사시 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 걸작 문학마다 3%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 [ICON_GW_WRITING] 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (극장이나 국가 서사시 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 [ICON_GW_WRITING] 걸작 문학마다 8%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -353,7 +353,12 @@ SET Text = '[COLOR_YELLOW]이념[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_TITLE';
 UPDATE Language_ko_KR
 SET Text = '평등, 체제, 독재 체제가 Brave New World에서 크게 확장되었습니다. [COLOR_YELLOW]문명이 정책 18개를 채택하거나 원자력 시대에 들어가면 [ENDCOLOR]이념을 선택해야 합니다. 각 이념에는 플레이어가 채택할 수 있는 3가지 사상 단계가 있으며, 세 번째와 마지막 단계에 가장 큰 혜택이 있습니다. 일반적인 사회 정책처럼, 플레이어는 게임을 하면서 문화로 추가 주의를 구입할 수 있습니다.[NEWLINE][NEWLINE]공통된 이념을 가진 문명은 외교 관계에 혜택을 받습니다. 대립하는 이념을 가진 문명은 여러 가지 부작용을 겪습니다. 예를 들어 대립하는 이념의 문화적 영향력이 더 강하다면 외교관계는 불리해지고 행복 페널티를 받게 됩니다. 시민이 불행해지면 도시가 적대국에 가담할 가능성이 높아집니다. 마지막 수단으로 혁명에 의지하여 시민이 선호하는 사상으로 이념을 바꿀 수 있습니다.[NEWLINE][NEWLINE]자세한 이념 정보는 문명 백과사전 상단에 있는 ''사회 정책'' 탭을 클릭하고 체제, 평등, 독재 부분을 보십시오.'
-WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY';
+WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY';;
+
+-- Open Borders Agreement
+UPDATE Language_ko_KR
+SET Text = '한쪽 문명이 공공 행정을 연구하면 대사를 파견한 문명과 국경 개방 조약을 체결할 수 있습니다. 도시 국가는 국경 개방 조약을 체결할 수 없습니다. 국경을 개방하면 다른 문명의 유닛이 플레이어의 영토에 들어와도 자동으로 전쟁이 시작되지 않습니다. 상호 국경 개방 조약이라면 양쪽 모두 상대방의 영토에 마음대로 들어갈 수 있습니다. 국경 개방 조약은 반드시 상호적일 필요는 없으며 한쪽이 다른 한쪽에 국경을 일방적으로 개방할 수도 있습니다.[NEWLINE][NEWLINE]국경 개방 조약은 50턴 동안 유지됩니다. 50턴이 지나고 조약을 갱신하지 않으면 무효가 됩니다.'
+WHERE Tag = 'TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY';
 
 -- Fortification
 UPDATE Language_ko_KR
