@@ -91,7 +91,7 @@
 			<Text>[COLOR_GREEN]스파이 점수[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_BODY">
-			<Text>[ICON_SPY_POINT] 스파이 점수가 특정 임계치 (기본: 100)에 다다랐을 때 새로운 스파이를 얻습니다. 이 값은 게임이 시작할 때의 주요 문명과 도시 국가의 수에 따라 감소합니다. 어떤 문명이 처음으로 르네상스 시대에 도달하거나 당신이 그 다음 시대에 도달할 때마다 [ICON_SPY_POINT] 스파이 점수를 100 얻습니다. 일부 건물과 시설도 [ICON_SPY_POINT] 스파이 점수를 제공합니다.</Text>
+			<Text>[ICON_SPY_POINT] 스파이 포인트가 100에 도달하면 새 [ICON_SPY]를 얻게 됩니다. 일부 국가 불가사의, 세계 불가사의, 정책은 [ICON_SPY_POINT] 스파이 포인트를 제공합니다. 또한 [ICON_DIPLOMAT] 위대한 외교관 무역 임무에서도 얻을 수 있으므로, 첩보 활동에 완전히 참여하려면 [ICON_CIVIL_SERVANT] 공무원을 투입해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_ADV_QUEST">
 			<Text>스파이 점수가 무엇입니까?</Text>

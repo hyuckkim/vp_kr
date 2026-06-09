@@ -293,11 +293,135 @@ UPDATE Language_ko_KR
 SET Text = '플레이어의 수도와 다른 도시 사이에 길이 있다면, 그 도시는 ''도시 연결'' 상태입니다. 도시 연결이 되어 있으면 턴마다 골드를 보너스로 받습니다. 보너스로 받는 골드의 양은 연결된 도시의 크기에 따라 달라집니다([COLOR_YELLOW]등대와 해안 도시 사이[ENDCOLOR]도 연결할 수 있음). 자세한 사항은 도시 연결 섹션을 참고하십시오.'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADEROUTES_HEADING3_BODY';
 
+-- espionage section w/ old names in comment
+UPDATE Language_ko_KR 
+SET Text = '[COLOR_YELLOW]스파이와 외교관[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '스파이는 [ICON_SPY_POINT] 스파이 포인트를 축적하여 얻으며, 네 가지 다른 방식으로 배치할 수 있습니다: 자신의 도시에서 역스파이로, 외국 [ICON_CAPITAL] 수도에서 외교관으로, 또는 외국 도시에서 요원으로 사용하거나 [ICON_CITY_STATE] 도시 국가에서 선거 조작을 위해 사용할 수 있습니다.[NEWLINE][NEWLINE]역스파이[NEWLINE][ICON_BULLET] 도시에서 외국 스파이가 식별되거나 죽었을 때 산출물을 생성합니다.[NEWLINE][ICON_BULLET] 패시브 효과를 제공하는 집중을 선택할 수 있습니다. 예를 들어, [ICON_HAPPINESS_3] 요구가 감소하는 대신 [ICON_TOURISM] 관광 산출이 감소하는 집중과 같은 효과입니다.[NEWLINE][ICON_BULLET] 집중에 따라 외국 스파이가 특정 작전을 선택하지 못하도록 차단합니다.[NEWLINE][NEWLINE]외교관[NEWLINE][ICON_BULLET] 그 문명과의 [ICON_TOURISM] 관광이 +20% 증가합니다.[NEWLINE][ICON_BULLET] 세계 의회에서 그 플레이어로부터 투표를 구매할 수 있게 됩니다.[NEWLINE][ICON_BULLET] 국내 및 군사 계획에 대한 정보인 음모를 얻고, 이 정보는 제3자와 공유하여 우호적인 관계를 얻을 수 있습니다.[NEWLINE][ICON_BULLET] 다른 플레이어의 군사 디스플레이와 같은 다양한 화면에 접근할 수 있는 능력, 해당 화면에서는 유닛의 수(및 유형)를 볼 수 있습니다.[NEWLINE][NEWLINE]주요 도시의 요원[NEWLINE][ICON_BULLET] 스파이 미션을 수행하기 위한 네트워크 포인트를 얻습니다[NEWLINE]도시에서 [ICON_RESEARCH] 과학을 빨아들여 턴마다 도시의 일정 비율에 해당하는 산출물을 제공합니다(소유자가 얻는 산출량은 줄어들지 않습니다).[NEWLINE][ICON_BULLET] 도시 화면과 인근 타일에 대한 시야를 얻습니다.[NEWLINE][NEWLINE]도시 국가의 요원[NEWLINE][ICON_BULLET] 반복되는 선거 이벤트를 조작하여 도시 국가에서 당신의 [ICON_INFLUENCE] 영향력을 증가시키고 모든 다른 플레이어의 영향력을 감소시킵니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_SPIES_SUMMARY';
+
+UPDATE Language_ko_KR 
+SET Text = '스파이 이동'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_TOPIC';
+UPDATE Language_ko_KR
+SET Text = Text || '[NEWLINE][NEWLINE]스파이 이동에 걸리는 턴은 대상 문명에 대한 [ICON_TOURISM] 문화적 영향력을 높여서 줄일 수 있습니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_SUMMARY';
+
+-- Less Advanced Civilizations
+UPDATE Language_ko_KR 
+SET Text = '[COLOR_POSITIVE_TEXT]네트워크 포인트[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '네트워크 포인트는 주요 문명의 도시에 있는 스파이들이 매 턴마다 수동적으로 얻습니다. 얻는 네트워크 포인트의 양은 관련 문명에 대한 [ICON_TOURISM] 문화적 영향력과 특정 정책을 채택하거나 특정 불가사의를 건설함으로써 증가시킬 수 있습니다. 네트워크 포인트의 양은 [ICON_CITY_SECURITY] 보안 수준에 의해 감소되며, 소유자는 특정 건물, 불가사의 및 정책을 통해 이 수준을 높일 수 있습니다. 도시 보안은 도시 내 [ICON_CITIZEN] 시민 수마다 낮아지고, 각 [ICON_INTERNATIONAL_TRADE] 무역로가 도시로 보내질 때마다 감소합니다.'
+WHERE Tag = 'TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_SUMMARY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]감시[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '주요 문명의 됫에 주둔한 스파이가 특정 네트워크 포인트 임계값에 처음 도달하면 도시를 떠나거나 사망할 때까지 지속되는 영구 보너스를 얻습니다:[NEWLINE][ICON_BULLET] 요원은[ICON_RESEARCH] 과학을 흡수하고 도시 타일에 대한 시야를 제공합니다.[NEWLINE][ICON_BULLET] 외교관은 이 보너스를 통해 더 많은 세계 의회 표를 구매할 수 있으며 상대 플레이어의 기술 트리 및 정책 화면과 같은 다양한 화면을 볼 수 있습니다. 높은 레벨에서는 [ICON_INTERNATIONAL_TRADE] 국제 교역로에서 얻는 [ICON_GOLD] 골드가 20% 증가하여 상당한 이점을 얻습니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_SUMMARY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]스파이 미션[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '주요 문명의 도시에 배치된 스파이는 네트워크 포인트를 사용하여 스파이 미션을 수행할 수 있습니다. 미션은 여러 단계로 구성되어 있으며 비싼 미션일수록 더 강력하고, 가장 비싼 단계에는 강력한 "기술 훔치기" 미션이 포함됩니다.[NEWLINE][NEWLINE] 많은 미션은 수행되는 도시(또는 문명)의 요구사항을 가지고 있습니다. 예를 들어, "{TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY}"는 [ICON_CAPITAL] 수도에서만 수행할 수 있습니다.[NEWLINE][NEWLINE]일부 건물과 불가사의는 스파이 미션을 수행할 때 수익을 제공합니다. 따라서 간谍는 미션 자체의 효과뿐만 아니라 과정에서 얻는 수익으로 인해 진보의 엔진이 될 수 있습니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_STEALING_TECHS_SUMMARY';
+
+UPDATE Language_ko_KR
+SET Text = Text || '[NEWLINE][NEWLINE]' || '[ICON_SPY] 스파이 미션 목록: ' || '[NEWLINE][NEWLINE]' || 
+    (
+        SELECT group_concat(
+            '{' || Description || '} ([COLOR_POSITIVE_TEXT]' || NetworkPointsNeeded || ' NP[ENDCOLOR])' || '[NEWLINE]' || '{' || Pedia || '} ',
+            '[NEWLINE][NEWLINE]'
+        )
+        FROM CityEventChoices
+   	WHERE IsEspionageMission = 1
+    )
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_STEALING_TECHS_SUMMARY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]도시 국가 선거 조작[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '스파이를 활용하면 [ICON_CITY_STATE] 도시 국가에 대한 영향력을 [ICON_PUPPET] "선거 조작"으로 높일 수 있습니다. 선거 조작은 스파이가 도시 국가에 있는 동안 15턴마다 발생하는 패시브 능력입니다. 도시 국가에 스파이가 자신뿐일 경우, 자신의 [ICON_INFLUENCE] 영향력이 증가하는 반면 다른 모든 문명의 영향력은 감소합니다.[NEWLINE][NEWLINE] 적대 세력의 스파이가 존재할 경우 이 임무는 실패할 수 있습니다. 선거 조작은 한 문명만 성공할 수 있기 때문입니다. 스파이가 선거 주기 동안 도시 국가에 머무르는 턴이 많을수록 성공 확률이 높아집니다. 하지만 실패하더라도 스파이에게는 아무런 위험이 없으므로 걱정하지 마세요. 마지막으로, 연속으로 선거를 조작하면 보너스가 증가합니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_SUMMARY';
+
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]스파이 식별 및 처치[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '첩보 임무는 선거 조작과 달리 항상 성공합니다. 하지만 다음과 같은 두 가지 부정적인 결과가 발생할 수 있습니다:[NEWLINE][ICON_BULLET][COLOR_YELLOW]발각[ENDCOLOR]될 수 있습니다. 이 경우 상대방은 외교적으로 당신의 행동에 대응할 수 있습니다. 발각될 확률이 높은 첩보 임무를 사용하면 목표물이 더욱 적대적으로 변할 수 있습니다. 목표물에 부정적인 영향을 미치는 임무일수록 발각될 확률이 높습니다.[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]처치[ENDCOLOR]될 수 있습니다.이 경우 누적된 모든 보너스를 잃을 뿐만 아니라, 대체 스파이를 모집하기까지 일정 턴을 기다려야 합니다. 자신에게 긍정적인 영향을 미치는 임무일수록 사망할 확률이 높습니다.[NEWLINE]참고: 스파이는 같은 임무에서 발각되고 사망할 수 있습니다. 각 첩보 임무에는 이러한 사건의 독립적인 확률이 표시됩니다.[NEWLINE][NEWLINE]스파이가 발각되거나 사살되면 방어 플레이어는 보상으로 이득을 얻을 수 있습니다. 이러한 이득은 건물, 불가사의, 정책, 그리고 마지막으로 역스파이의 존재 여부와 같은 요소에 따라 결정됩니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_SUMMARY';
+
+UPDATE Language_ko_KR 
+SET Text = '[COLOR_YELLOW]스파이 색출[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '기본적으로 4가지 방첩 집중 옵션이 있습니다. 각 옵션은 도시에 있는 외국 스파이를 발견했을 때 일정량의 자원을 제공하며, 처치했을 때는 세 배로 늘립니다. 따라서 방첩을 사용하는 첫 번째 이유는 도시에서 음모가 발생할 가능성이 있다고 판단될 때입니다.[NEWLINE][NEWLINE]두 번째 이유는 예방 차원입니다. 특정 방첩 집중 작전이 진행 중일 때는 특정 스파이 임무를 수행할 수 없습니다. 예를 들어, [ICON_VICTORY_CULTURE] 문화 승리를 목표로 할 때 [ICON_GREAT_WORK] 걸작을 도난당하는 것은 매우 짜증날 것입니다.  따라서 "이단 추적" 집중을 선택한 스파이를 사용하여 걸작을 보호하는 것이 좋습니다.[NEWLINE][NEWLINE]마지막으로, 각 집중에는 지속적인 효과가 있습니다. 위대한 작품을 보호하는 대신, 해당 집중을 실행하는 동안 도시의 [ICON_FOOD] 식량 성장률이 감소할 수 있습니다. 하지만 모든 집중 패시브 효과에는 보너스가 포함되어 있으며, "이단자 추적"의 경우 [ICON_RELIGION] 압력이 25% 증가합니다. 따라서 특히 집중력이 뛰어난 플레이어는 특정 집중 선택을 통해 추가적인 이점을 얻을 수 있습니다!'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_SUMMARY';
+
+UPDATE Language_ko_KR
+SET Text = Text || '[NEWLINE][NEWLINE]' || '[ICON_SPY] 역스파이 옵션 목록: ' || '[NEWLINE][NEWLINE]' || 
+    (
+        SELECT group_concat(
+            '{' || c.Description || '} ([COLOR_CYAN]{' || t.Description || '}[ENDCOLOR])' || '[NEWLINE]' || '{' || c.Help || '} ',
+            '[NEWLINE][NEWLINE]'
+        )
+        FROM CityEventChoices c, Technologies t
+   	    WHERE IsCounterSpyMission = 1
+	      AND t.Type = c.PrereqTech
+    )
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_SUMMARY';
+
+-- Constabularies and Police
+UPDATE Language_ko_KR
+SET Text = '[COLOR_POSITIVE_TEXT]도시 보안[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '다른 문명의 첩보 활동이 걱정되시나요? 가장 좋은 대응책은 주요 도시의 [ICON_CITY_SECURITY] 도시 보안을 높이는 것입니다. 도시 보안은 적 스파이의 네트워크 포인트 생산을 퍼센트로 깎으므로 [ICON_CITY_SECURITY] 보안이 100에 도달하면 아무 네트워크 포인트도 생성되지 않습니다. [ICON_CITY_SECURITY] 도시 보안은 도시별로 20에서 시작하며 [ICON_CITIZEN] 인구마다 2씩, [ICON_INTERNATIONAL_TRADE] 무역로마다 5씩 감소합니다. [NEWLINE][NEWLINE] 경찰대같은 특정 건물은 [ICON_CITY_SECURITY] 도시 보안을 제공하지만, 투자 대상으로는 그렇게 매력적이진 않습니다. 먼저 건설하면 다른 스파이의 염탐 시도를 막을 수 있긴 하지만 다른 건물들이 더 높은 수익을 제공하기 때문입니다.[NEWLINE][NEWLINE][ICON_CITY_SECURITY] 도시 보안은 자금성 같은 불가사의나 합리주의 완성 효과 같은 정책에서도 얻을 수 있습니다. 과학 중심 플레이어에게는 이것이 더 중요한데, "기술 훔치기" 가 이점을 모두 없앨 수 있기 때문입니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_SUMMARY';
+
+-- National Intelligence Agency
+UPDATE Language_ko_KR 
+SET Text = '[COLOR_YELLOW]국가 불가사의[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '첩보와 관련된 국가 불가사의도 핵심 개념 중 하나입니다. 문자 기술에서 해금되는 법무소부터, 컴퓨터 기술의 국가 정보국까지 다양한 불가사의가 [ICON_SPY_POINT] 스파이 포인트를 제공합니다. 뿐만 아니라 [ICON_PUPPET] 선거 조작과 [ICON_SPY] 첩보 임무에서 추가 보상을 제공하기도 합니다.더욱이, 국가 불가사의에 있는 [ICON_CIVIL_SERVANT] 공무원 슬롯은 [ICON_DIPLOMAT] 위대한 외교관 생산량을 늘릴 수 있는 몇 안 되는 방법 중 하나이며, 이는 [ICON_SPY_POINT] 첩보 포인트를 극대화하고 세계 무대에서 첩보 활동을 최대한 발휘하는 데 매우 중요합니다!'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_SUMMARY';
+
+-- The Great Firewall
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]세계 불가사의[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '일부 [ICON_WONDER]세계 불가사의는 [ICON_SPY_POINT] 스파이 포인트를 증가시키고, 첩보 임무 수행 시 추가 자원 획득과 같은 유용한 보너스를 제공할 수 있습니다. 오직 한 플레이어만 건설할 수 있는 불가사의를 통해 자신의 첩보 능력을 향상시키고 적에게는 이러한 보너스를 제공하지 않을 수 있습니다. 지도상에서 당신의 기술력을 탐내는 수상한 세력이 있습니까? 그들의 핵심 전력을 빼앗기 위해 가능한 모든 수단을 동원하십시오. 어쩌면 그들의 총독을 암살하는 것도 하나의 방법이 될 수 있습니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_SUMMARY';
+
+UPDATE Language_ko_KR 
+SET Text = '[COLOR_POSITIVE_TEXT]외교[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_MORE_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '첩보 시스템을 최대한 활용하려는 제국은 외교 정책을 채택해야 합니다. 도시 국가 영향력과 무역 증진 외에도, 첩보 활동을 직접적으로 강화하는 정책들이 있습니다. 이러한 정책들은 스파이 포인트를 즉시 증가시키고 위대한 외교관 생산 속도를 높여줍니다. 또한, 수도는 누적된 스파이 포인트에 비례하여 더 많은 문화를 제공합니다. [NEWLINE][NEWLINE]무역로는 관광 혜택을 제공하며, 이는 다시 첩보원의 능력을 향상시킵니다. 따라서 가장 노련한 운영자는 여러 가지 방법을 조합하여 자신의 야심찬 목표를 달성할 것입니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_MORE_SUMMARY';
+
+-- Spy Experience
+UPDATE Language_ko_KR 
+SET Text = '[COLOR_POSITIVE_TEXT]이념[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_TOPIC';
+UPDATE Language_ko_KR
+SET Text = '외교 정책 외에도, 게임 후반부에 등장하는 다양한 이념들은 모두 첩보 시스템과 상호작용하는 교리를 제공합니다. 각 이념마다 다른 보너스가 주어지므로, 첩보 활동에 관심이 많다면 이념 선택 시 이를 고려하는 것이 좋습니다. 예를 들어, 평등 이념은 도시 국가 선거 조작에 강력한 보너스를 제공하는 반면, 질서 이념은 연구에 중점을 두고, 과학 포인트를 수동적으로 더 많이 획득하고 외국 첩보원을 식별하여 과학 포인트를 생성합니다.'
+WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_SUMMARY';
+
+-- end of espionage section
+
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]스파이와 도시 국가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC';
 UPDATE Language_ko_KR
-SET Text = '스파이는 도시 국가에서 부정선거를 조장하거나 쿠데타를 부추겨 당신의 도시 국가에 대한 영향력을 높입니다. 도시 국가에 스파이를 심으려면 먼저 스파이를 도시로 이동시키십시오. 스파이가 도시 국가에 도착하면 그들이 ‘감시망 구축’을 할 때까지 약간의 시간이 걸립니다 (‘행동’에서 확인 가능). 감시망이 구축되고 나면 첩보 작전을 수행할 수 있게 됩니다. 스파이는 매 15턴마다 부정선거를 조장할 수 있습니다. 만약 도시 국가 내에 당신의 스파이밖에 없다면 다른 문명이 해당 도시 국가에 끼치는 영향력은 감소하고, 당신이 해당 도시 국가에 끼치는 영향력은 증가합니다. 도시 국가 내에 만약 당신의 스파이보다 높은 등급의 스파이가 있다면 부정선거 조장이 실패할 수도 있습니다. 하지만 부정선거 조장에 실패하더라도 스파이가 위험해 처하는 일은 없으므로 걱정하지 않아도 됩니다. [NEWLINE][NEWLINE]쿠데타 부추김은 부정선거 조장보다 강력하지만, 더욱 위험하기도 합니다. 도시 국가에서의 성공적인 쿠데타는 해당 도시 국가와 다른 문명과의 동맹 관계를 ''빼앗을'' 수 있게 해줍니다. 다른 문명과 동맹 관계에 있는 도시 국가에 스파이를 심고, 감시망이 구축되고 나면 ''쿠데타'' 버튼을 사용할 수 있게 됩니다. 버튼을 클릭하면 성공 확률을 보여주는 새로운 알림창이 표시됩니다. 상대 문명에 대한 영향력이 높을수록 성공률도 높아지게 됩니다. 높은 레벨의 스파이 [COLOR_YELLOW]또는 도시 국가의 선거 조작 성공[ENDCOLOR]으로 쿠데타 성공 확률을 높일 수 있습니다. 주의할 점은, 만약 쿠데타가 실패하면 스파이가 처형된다는 점입니다. '
+SET Text = '스파이는 도시 국가에서 부정선거를 조장해 당신의 도시 국가에 대한 영향력을 높입니다. 도시 국가에 스파이를 심으려면 먼저 스파이를 도시로 이동시키십시오. 스파이가 도시 국가에 도착하면 그들이 ‘감시망 구축’을 할 때까지 약간의 시간이 걸립니다 (‘행동’에서 확인 가능). 감시망이 구축되고 나면 첩보 작전을 수행할 수 있게 됩니다. 스파이는 매 15턴마다 부정선거를 조장할 수 있습니다. 만약 도시 국가 내에 당신의 스파이밖에 없다면 다른 문명이 해당 도시 국가에 끼치는 영향력은 감소하고, 당신이 해당 도시 국가에 끼치는 영향력은 증가합니다. 도시 국가 내에 만약 당신의 스파이보다 높은 등급의 스파이가 있다면 부정선거 조장이 실패할 수도 있습니다. 하지만 부정선거 조장에 실패하더라도 스파이가 위험해 처하는 일은 없으므로 걱정하지 않아도 됩니다.'
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_SUMMARY';
 
 UPDATE Language_ko_KR
@@ -455,3 +579,6 @@ WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_20';
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]승리[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_21';
+UPDATE Language_ko_KR
+SET Text = '[COLOR_YELLOW]첩보[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_22';

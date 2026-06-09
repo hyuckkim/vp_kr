@@ -1317,6 +1317,9 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_POISON_WATER">
 			<Text>[ICON_FOOD] 수도망 오염</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_POISON_WATER_PEDIA">
+			<Text>이 도시는 식량 생산량이 50% 감소합니다. 10턴 동안 지속됩니다 (표준 속도). 이 기간의 절반 동안 도시는 [ICON_BLOCKADED] 봉쇄되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.[NEWLINE]도시는 담수나 의료 연구소를 이용할 수 없습니다.[NEWLINE]식별 확률 50% / 처치 확률 25%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_POISON_WATER_HELP">
 			<Text>도시의 식량 생산이 {5_Duration} 동안 -50% 감소하고, 그 기간의 절반 동안 도시는 [ICON_BLOCKADED] 봉쇄되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
 		</Row>
@@ -1325,6 +1328,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION">
 			<Text>[ICON_STAR] 시장 암살</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_PEDIA">
+			<Text>이 도시는 건물, 불가사의, 프로젝트에 대한 건설이나 투자를 할 수 없습니다. 지속 시간 10턴 (표준 속도). 처음 2턴 동안 [ICON_RESISTANCE] 저항 상태에 들어가며, [ICON_BLOCKADED] 봉쇄 상태가 되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.[NEWLINE]식별 확률 75% / 처치 확률 5%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_HELP">
 			<Text>도시가 {8_Num}턴간 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다. 도시가 2턴동안 [ICON_RESISTANCE] 저항하며 [ICON_BLOCKADED] 봉쇄되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
@@ -1335,17 +1341,23 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH">
 			<Text>[ICON_PEACE] 종교 유물 빼내기</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_PEDIA">
+			<Text>이 도시에서 생성된 [ICON_PEACE] 신앙을 100% 흡수합니다. 이 도시는 -100% [ICON_RELIGION] 종교적 압박을 발산합니다. 지속 시간 15 턴 (표준 속도).[NEWLINE]이 도시에 사원이 있어야 합니다.[NEWLINE]식별 확률 25% / 처치 확률 25%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_HELP">
-			<Text>{5_Duration}간 목표 도시의 턴 당 [ICON_PEACE] 신앙의 100%를 훔칩니다. 목표 도시의 종교 압력이 -100% 감소합니다.</Text>
+			<Text>{5_Duration}간 목표 도시의 턴 당 [ICON_PEACE] 신앙의 100%를 훔칩니다. 목표 도시의 [ICON_RELIGION] 종교 압력이 -100% 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_EFFECT">
-			<Text>각 턴마다, 100%의 [ICON_PEACE] 신앙을 훔쳤습니다. 도시의 종교 압력이 100% 감소했습니다. {5_DurationText}</Text>
+			<Text>각 턴마다, 100%의 [ICON_PEACE] 신앙을 훔쳤습니다. 도시의 [ICON_RELIGION] 종교 압력이 100% 감소했습니다. {5_DurationText}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY">
 			<Text>[ICON_GOLD] 국고 절도</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_HELP">
 			<Text>제국 국고 [ICON_GOLD] 골드의 {8_Num}%를 훔칩니다. {7_AmountToSteal}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_PEDIA">
+			<Text>대상 제국의 국고에서 [ICON_GOLD] 금의 35%를 훔칩니다.[NEWLINE]해당 도시는 [ICON_CAPITAL] 수도여야 합니다.[NEWLINE]식별 확률 25% / 처치 확률 25%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY_EFFECT">
 			<Text>국고에서 {3_Num} [ICON_GOLD] 골드를 훔쳐냈습니다.</Text>
@@ -1356,6 +1368,9 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK">
 			<Text>[ICON_PIRATE] 상단 습격</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK_PEDIA">
+			<Text>[ICON_TEAM_2] 반란군 부대가 도시 근처에 둘 출현합니다. 이 도시는 [ICON_TOURISM] 관광을 생성하지 않습니다. 지속 시간: 10 턴 (표준 속도).[NEWLINE]해당 도시는 [ICON_INTERNATIONAL_TRADE] 무역로가 연결되어야 합니다 합니다.[NEWLINE]식별 확률 25% / 처치 확률 5%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK_HELP">
 			<Text>대상 도시 근처에 [ICON_TEAM_2] 반란군 유닛이 둘 나타납니다. {8_Num}턴 동안 도시는 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
 		</Row>
@@ -1364,6 +1379,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE">
 			<Text>[ICON_PUPPET] 시장실 잠입</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]이 도시에서 생산되는 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화의 10%를 흡수합니다. 15턴 동안 지속됩니다 (표준 속도).[NEWLINE]이 도시는 [ICON_CAPITAL] 수도일 수 없습니다.[NEWLINE]식별 확률 5% / 처치 확률 5%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE_HELP">
 			<Text>{5_Duration}간 도시 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화 생산량의 10%를 [COLOR_POSITIVE_TEXT]훔칩니다[ENDCOLOR]..</Text>
@@ -1374,6 +1392,9 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_LEAFLETS">
 			<Text>[ICON_HAPPINESS_4] 선동성 전단 배포</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_LEAFLETS_PEDIA">
+			<Text>도시의 [ICON_HAPPINESS_3] 요구 블헹을 25% 증가시킵니다. 지속 시간 15턴 (표준 속도).[NEWLINE][COLOR_CYAN]인쇄기[ENDCOLOR]가 연구되어야 합니다.[NEWLINE]식별 확률 75% / 처치 확률 5%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_LEAFLETS_HELP">
 			<Text>{5_Duration}간 도시의 [ICON_HAPPINESS_3] 요구 불행을 25% 증가시킵니다.</Text>
 		</Row>
@@ -1382,6 +1403,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE">
 			<Text>[ICON_GREAT_PEOPLE] 전문가 납치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_PEDIA">
+			<Text>전문가들은 목표 도시에서 턴 당 -1 [ICON_GREAT_PEOPLE] 위인 점수를 생성합니다. 내 수도의 전문가들은 턴 당 +1 [ICON_GREAT_PEOPLE] 위인 점수를 생성합니다. 15턴 동안 지속됩니다 (표준 속도).[NEWLINE]해당 도시는 [ICON_PUPPET] 장기일 수 없습니다.[NEWLINE]식별 확률 25% / 처치 확률 50%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SCIENTIFIC_GREATPEOPLE_HELP">
 			<Text>전문가의 [ICON_GREAT_PEOPLE] 위인 점수 -1.  {6_PlayerEventEffect}</Text>
@@ -1404,6 +1428,9 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
 			<Text>[ICON_CITIZEN] 시골 주민 선동</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_PEDIA">
+			<Text>도시가 소유한 모든 개발된 자원 타일이 약탈됩니다. 각 도로나 철도는 50% 확률로 약탈됩니다.[NEWLINE]식별 확률 50% / 처치 확률 5%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_HELP">
 			<Text>개발된 모든 자원 타일을 약탈합니다. 도로나 철도가 50% 확률로 약탈됩니다.</Text>
 		</Row>
@@ -1412,6 +1439,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST">
 			<Text>[ICON_RESISTANCE] 지역 분란 조장</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_PEDIA">
+			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항합니다. 지역에 반란군 유닛 5개가 출현하며, 경과된 시대마다 하나씩 추가됩니다. 도시는 [ICON_TOURISM] 관광을 생성하지 못합니다. 10턴 동안 지속됩니다 (표준 속도).[NEWLINE]식별 확률 75% / 처치 확률 25%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
 			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항하며 근처에 반란군 유닛이 출현합니다. 도시는 {8_Num}턴 동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
@@ -1422,14 +1452,20 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES">
 			<Text>[ICON_STRENGTH] 방어 시설 파괴</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_PEDIA">
+			<Text>이 도시가 소유한 모든 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 [ICON_RAZING] 약탈됩니다. 도시는 [ICON_BLOCKADED] 봉쇄되며 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다. 5턴 동안 지속됩니다 (표준 속도).[NEWLINE]식별 확률 75% / 처치 확률 75%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_HELP">
 			<Text>이 도시의 모든 요새를 [ICON_RAZING] 약탈합니다. 도시를 [ICON_BLOCKADED] 봉쇄해 {8_Num}턴 동안 [ICON_RANGE_STRENGTH] 원거리 공격을 막습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_EFFECT">
 			<Text>도시 주변의 요새가 [ICON_RAZING]  =약탈당했습니다. 도시가 [ICON_BLOCKADED] 봉쇄되어 {8_Num} 턴 동안 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
 		</Row>
-				<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW">
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW">
 			<Text>[ICON_GREAT_WORK] 걸작 훔치기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_PEDIA">
+			<Text>목표 도시에서 무작위로 [ICON_GREAT_WORK] 걸작을 훔칩니다.[NEWLINE]95% 식별 확률 / 75% 처치 확률</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_HELP">
 			<Text>목표 도시의 무작위 [ICON_GREAT_WORK] 걸작을 훔칩니다.</Text>
@@ -1440,11 +1476,14 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH">
 			<Text>[ICON_RESEARCH] 기술 훔치기</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_PEDIA">
+			<Text>목표 제국이 알고 있는 무작위 기술을 해제합니다.[NEWLINE]5% 식별 확률 / 95% 처치 확률</Text>
+		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_HELP">
-			<Text>선택된 무작위 기술을 훔칩니다.</Text>
+			<Text>목표 제국이 알고 있는 무작위 기술을 해제합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_TECH_EFFECT">
-			<Text>기술 "{1_TechName}" 을 훔쳐냈습니다.</Text>
+			<Text>기술 [COLOR_CYAN]"{1_TechName}"[ENDCOLOR]의 비밀을 훔쳐냈습니다.</Text>
 		</Row>
 
 		<!-- Counterspy -->

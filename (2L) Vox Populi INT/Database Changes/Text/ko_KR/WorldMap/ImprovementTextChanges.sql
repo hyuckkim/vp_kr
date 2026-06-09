@@ -76,7 +76,7 @@ UPDATE Language_ko_KR
 SET Text = '유닛이 소모됩니다.[NEWLINE][NEWLINE]인접한 [COLOR_POSITIVE_TEXT]산[ENDCOLOR] 타일 하나당 1 [ICON_PEACE] 신앙을 추가로 제공합니다.[NEWLINE][NEWLINE]해당 타일에 있는 자원을 무역망에 연결합니다.'
 WHERE Tag = 'TXT_KEY_BUILD_HOLY_SITE_HELP';
 
-UPDATE Language_en_US
+UPDATE Language_ko_KR
 SET Text = '{TXT_KEY_CIV5_IMPROVEMENTS_HOLY_SITE_HELP}[NEWLINE][NEWLINE]종교적으로 중요한 의미를 지닌 성지는 특정 종교의 신, 예언자, 전통을 기리는 신성한 장소입니다. 종교 순례자들이 자주 찾는 이 성지들은 신과의 연결을 강화하고 경의를 표하기 위해 신자들이 방문하는 곳입니다.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_HOLY_SITE_TEXT';
 
