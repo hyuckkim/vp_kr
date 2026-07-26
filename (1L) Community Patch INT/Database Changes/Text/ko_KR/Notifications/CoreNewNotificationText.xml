@@ -718,7 +718,7 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_RESEARCH_AGREEMENT">
 			<Text>[ICON_RESEARCH] 연구 협약:[NEWLINE]{1_YieldString}</Text>
 		</Row>
-		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_RESEARCH_AGREMEENT_SHORT">
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_RESEARCH_AGREEMENT_SHORT">
 			<Text>연구 협약 완료</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_LUXURY_RESOURCE_GAIN">
@@ -826,6 +826,12 @@
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_TOURISM_NAME">
 			<Text>[ICON_TOURISM]관광 경쟁</Text>
 		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_ARTSY_UNITS_NAME">
+			<Text>예술가 콘테스트</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_SCIENCEY_UNITS_NAME">
+			<Text>과학자 콘테스트</Text>
+		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ARCHAEOLOGY_NAME">
 			<Text>유물 발굴</Text>
 		</Row>
@@ -846,6 +852,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BUILD_X_BUILDINGS_NAME">
 			<Text>건물 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_SPY_MISSION_NAME">
+			<Text>스파이 임무 수행</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_SPY_ON_MAJOR_NAME">
 			<Text>스파이</Text>
@@ -914,6 +923,236 @@
 		</Row>
 
 		<!-- City-State quests -->
+
+		<!-- City-State quests -->
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_WAR">
+			<Text>{@2_MinorCivName}{@2: plural 1?이; 2?가;} {1_TargetName:textkey}{1: plural 1?과; 2?와;}의 전쟁을 요청했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_WAR">
+			<Text>{@2_MinorCivName}{@2: plural 1?이; 2?가;} 최근 괴롭힘을 당했습니다. 그들의 시민들은 {1_TargetName:textkey}에 보복하길 원합니다. 당신 문명이 그들을 도와 {1_TargetName:textkey}{1: plural 1?과; 2?와;} 전쟁을 일으킨다면 큰 보상이 주어질 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_WAR">
+			<Text>{@1_MinorCivName}{@1: plural 1?을; 2?를;} 위한 전쟁 시작!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_WAR">
+			<Text>{@1_MinorCivName}의 시민들이 그들을 대신하여 전쟁에 나갔다는 사실을 기뻐하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_NATIONAL_WONDER">
+			<Text>{@2_CivName}{@2: plural 1?이; 2?가;} {@1_NationalWonderName}{@1: plural 1?을; 2?를;} 갈망합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_NATIONAL_WONDER">
+			<Text>{@2_CivName}의 역사가들은 세계의 문명들이 퇴폐적이고 지나친 확장만을 추구하고 있다고 한탄합니다. 그들은 {@1_NationalWonderName}{@1: plural 1?을; 2?를;} 건설하는 문명이 그들의 위엄을 되찾을 것이며 그와 함께 도시 국가의 호의도 되찾을 것이라고 말하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
+			<Text>{@2_CivName}{@2: plural 1?을; 2?를;} 위한 {@1_NationalWonderName} 건설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
+			<Text>{@2_CivName}{@2: plural 1?이; 2?가;} 부탁한대로 {@1_NationalWonderName}{@1: plural 1?을; 2?를;} 건설했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIFT_SPECIFIC_UNIT">
+			<Text>{@2_CivName}의 {1_UnitName}에 대한 갈망</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIFT_SPECIFIC_UNIT">
+			<Text>{@3_CivName}의 지도자들이 군대를 강화하고자 합니다. {2_XP} 경험치 이상의 {1_UnitName}{@1: plural 1?을; 2?를;} 보낸다면 그들에게 제국의 위엄을 보이고, 이 도시 국가의 호의를 얻을 수 있을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GIFT_SPECIFIC_UNIT">
+			<Text>{1_UnitName}을 {@2_CivName}에 보냈습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIFT_SPECIFIC_UNIT">
+			<Text>{@2_CivName}의 부탁대로, {1_UnitName}{@1: plural 1?을; 2?를;} 보냈습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_CITY_STATE">
+			<Text>{2_CivName:textkey}{2: plural 1?이; 2?가;} {1_TargetName:textkey}{1: plural 1?을; 2?를;} 발견하길 원합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_CITY_STATE">
+			<Text>{2_CivName:textkey}의 상인들은 {1_TargetName:textkey}{1: plural 1?으로; 2?로;} 알려진 먼 도시에 대해 들어본 적이 있습니다. {2_CivName:textkey}{2: plural 1?은; 2?는;} 현재 이 도시를 발견하는 데 도움을 줄 탐험가를 찾고 있으며 해당 도시를 발견하면 보상을 받을 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_CITY_STATE">
+			<Text>{2_CivName:textkey}{2: plural 1?을; 2?를;} 위한 {1_TargetName:textkey} 발견!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_CITY_STATE">
+			<Text>{@2_CivName}{@2: plural 1?이; 2?가;} 부탁한대로 {1_TargetName:textkey}{1: plural 1?을; 2?를;} 발견했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INFLUENCE">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 정상회담을 주최했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_INFLUENCE">
+			<Text>{3_MinorCivName:textkey}{3: plural 1?이; 2?가;} 외교에 대한 포럼을 개최하고 있으며 모든 문명의 대표단이 참석하길 권장하고 있습니다. 이 기간 동안 이들에 대한 외교 임무의 효율이 [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR] 더 증가하고 더 많은 [ICON_IFFUENCY]영향력을 제공할 것입니다. ([COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남음[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INFLUENCE">
+			<Text>{1_MinorCivName:textkey}의 정상회담이 종료되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INFLUENCE">
+			<Text>{1_MinorCivName:textkey}의 정상회담이 종료되었습니다. 외교 임무의 [ICON_INFLUENCE]영향력이 평소로 돌아갑니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_TOURISM">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 국제 축제를 준비하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_TOURISM">
+			<Text>{3_MinorCivName:textkey}의 시민들이 곧 국제 축제를 개최할 예정입니다. 축제의 준비를 위해 그들은 알려진 세계의 모든 주요 문명에 사절단을 보냈습니다. {2_TurnsDuration}턴 후 [ICON_TOURISM]관광 산출량이 가장 높은 문명이 사절단에 가장 깊은 인상을 남길 것입니다. 축제가 열리기 전까지 ([COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남음[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TOURISM">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 당신의 관광에 감명받았습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TOURISM">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 당신 문명의 [ICON_TOURISM]관광에 깊은 인상을 받았습니다! 그들은 이제 다른 문명에는 전혀 감흥이 없습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TOURISM">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 당신의 관광에 관심없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TOURISM">
+			<Text>다른 문명이 {1_MinorCivName:textkey}에 깊은 인상을 남겼습니다. 당신의 [ICON_TOURISM]관광 산출량이 충분하지 않았습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ARTSY_UNITS">
+			<Text>{3_MinorCivName:textkey}{1: plural 1?은; 2?는;} 예술가 콘테스트를 준비하고 있습니다. 다음 {2_TurnsDuration}턴 동안 가장 많은 위대한 예술가, 위대한 작가, 위대한 음악가, 그리고 고고학자를 배출한 문명이 그들과의 [ICON_INFLUENCE]영향력을 얻을 것입니다. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남음.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ARTSY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 에술가 콘테스트를 준비하고 있습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_ARTSY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 당신의 문명의 예술가들에게 감동받았습니다! 성공한 문명(동점 허용):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_ARTSY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 당신의 문화에 감동받았습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_ARTSY_UNITS">
+			<Text>{1_MinorCivName:textkey}의 예술가 콘테스트에서 다른 문명의 예술가, 작가, 음악가, 그리고 고고학자가 우승했습니다. 당신의 문화적 대표단은 충분하지 않았으며, [ICON_INFLUENCE]영향력은 이전과 같습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_ARTSY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명을 칭찬합니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SCIENCEY_UNITS">
+			<Text>{3_MinorCivName:textkey}는 혁신, 상업, 그리고 공학의 대규모 전시회를 준비하고 있습니다. 다음 {2_TurnsDuration}턴 동안 가장 많은 위대한 과학자, 위대한 상인, 그리고 위대한 엔지니어를 배출한 문명이 그들과의 [ICON_INFLUENCE]영향력을 얻을 것입니다. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}턴 남음.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SCIENCEY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 진보의 전시회를 준비하고 있습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_SCIENCEY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 당신의 혁신에 감동받았습니다! 성공한 문명(동점 허용):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_SCIENCEY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 당신의 혁신에 감동받았습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_SCIENCEY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명의 혁신에 감동받았습니다. 당신의 문명은 충분하지 않았으며, [ICON_INFLUENCE]영향력은 이전과 같습니다. 성공한 문명(동점 허용):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_SCIENCEY_UNITS">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?은; 2?는;} 다른 문명을 칭찬합니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ARCHAEOLOGY">
+			<Text>{1_MinorCivName:textkey}에서 고고학자를 요청함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ARCHAEOLOGY">
+			<Text>{1_MinorCivName:textkey}의 뛰어난 교수진이 인근에서 귀중한 유물을 탐사해달라고 국제적으로 요청했습니다. 고고학자를 보내 이 지역을 탐사한 첫번째 문명에게 큰 보상이 주어질 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_ARCHAEOLOGY">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 요청한 고고학적 발굴 완료!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_ARCHAEOLOGY">
+			<Text>{1_MinorCivName:textkey}의 교수진은 당신의 발굴 결과에 흥분하며 발견한 것을 박물관에 소장해야한다고 주장합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_ARCHAEOLOGY">
+			<Text>다른 문명이 발굴한 사적지!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_ARCHAEOLOGY">
+			<Text>다른 문명의 고고학자가 당신 문명보다 한 발 앞서서 먼저 {1_MinorCivName:textkey} 주변의 현장을 발굴했습니다. {1_MinorCivName:textkey}의 교수진이 이들의 작업에 깊은 인상을 받았기 때문에 해당 문명의 [ICON_INFLUENCE]영향력이 증가했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CIRCUMNAVIGATION">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 용감무쌍한 항해를 요청합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CIRCUMNAVIGATION">
+			<Text>{1_MinorCivName:textkey}의 선원들은 누군가에게 지구가 둥글지도 모른다는 주장을 들은 적이 있으며 당신이 그 진실을 찾아주길 원합니다. 만약 세계가 둥글다는 것을 증명할 수 있다면 도시 국가에 대한 [ICON_INFLUENCE]영향력이 증가할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CIRCUMNAVIGATION">
+			<Text>{1_MinorCivName:textkey}{1: plural 1?이; 2?가;} 요청한 세계 일주 완료!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CIRCUMNAVIGATION">
+			<Text>{1_MinorCivName:textkey}의 선원들이 당신 문명의 능숙한 항해사들을 경외합니다. 그들은 세상이 평평하지도 않고 원반 형태도 아니라는 것을 알게되어 감격하고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CIRCUMNAVIGATION">
+			<Text>다른 누군가가 먼저 세계 일주를 완료했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CIRCUMNAVIGATION">
+			<Text>다른 문명이 {1_MinorCivName:textkey}{1: plural 1?을; 2?를;} 위한 세계 일주를 완료했습니다. 항해자들은 낙담하고 있습니다. 이 도시 국가에 대한 당신의 [ICON_INFLUENCE]영향력이 증가하지 않습니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_LIBERATION">
+			<Text>{2_MinorCivName:textkey}에서 {1_MinorCivName:textkey}의 해방을 요청합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_LIBERATION">
+			<Text>정복된 도시 {1_MinorCivName:textkey}의 지지자가 {2_MinorCivName:textkey}의 지도자와 연합했습니다. 그들의 수도를 되찾기 위해 도움을 요청합니다. {1_MinorCivName:textkey}의 지지자가 수도를 해방하도록 도와주면 두 도시 국가 모두와의 [ICON_INFLUENCE]영향력이 크게 증가할 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_LIBERATION">
+			<Text>{2_MinorCivName:textkey}{2: plural 1?이; 2?가;} 요청한 {1_MinorCivName:textkey}의 해방 달성!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_LIBERATION">
+			<Text>{2_MinorCivName:textkey}의 지도자는 당신의 영웅적인 행동을 칭찬하며 {1_MinorCivName:textkey}의 해방을 고마워 하고 있습니다. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_LIBERATION">
+			<Text>더이상 {1_MinorCivName:textkey}의 해방에 대한 지원이 필요하지 않습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_LIBERATION">
+			<Text>{1_CityStateName:textkey}의 지지자들이 더이상 당신의 도움을 바라지 않습니다. 그 결과 {2_MinorCivName:textkey}의 지도자가 지원 요청이 취소되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_HORDE">
+			<Text>야만인 무리가 {1_MinorCivName:textkey}{1: plural 1?을; 2?를;} 공격하고 있습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_HORDE">
+			<Text>{2_MinorCivName:textkey} 근처에 야만인 무리가 나타났습니다! [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR]턴 후에도 야만인들이 도시에 인접해 있다면 [COLOR_NEGATIVE_TEXT]도시는 점령될 것입니다[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_HORDE">
+			<Text>{1_MinorCivName:textkey} 주변의 야만인 무리가 흩어졌습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_HORDE">
+			<Text>{1_MinorCivName:textkey} 주변의 야만인 무리들이 도시를 약탈하는데 실패하고 흩어졌습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_HORDE">
+			<Text>야만인이 {1_MinorCivName:textkey}{1: plural 1?을; 2?를;} 점령했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_HORDE">
+			<Text>{1_CityStateName:textkey}{1: plural 1?이; 2?가;} 야만인으로 전락하여 도시가 점령되었습니다! 그들은 재정복 전까지 야만인의 통제하에 있을 것입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION">
+			<Text>{2_MinorCivName:textkey}에서 {1_TargetName:textkey}에 대한 혁명 발생</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION_BLANK">
+			<Text>{2_MinorCivName:textkey}에서 {1_TargetName:textkey}에 대한 혁명 발생</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION_BLANK_RANDOM">
+			<Text>{1_MinorCivName:textkey}에서 혁명 발생</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL">
+			<Text>{3_MinorCivName:textkey}의 시민들이 {2_TargetName:textkey}에 대항하는 혁명을 시작했습니다! 반란군이 {1_TurnsRemaining}턴 동안 유지되면 도시는 혁명으로 전락하고 동맹이 바뀌게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL_BLANK">
+			<Text>{3_MinorCivName:textkey}의 시민들이 {2_TargetName:textkey}에 대항하는 혁명을 시작했습니다! 반란군이 {1_TurnsRemaining}턴 동안 유지되면 도시는 혁명으로 전락하고 동맹이 바뀌게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL_BLANK_RANDOM">
+			<Text>{2_MinorCivName:textkey}의 시민들이 현재의 통치자에 대항하여 혁명을 시작했습니다! 반란군이 {1_TurnsRemaining}턴 동안 유지되면 도시는 혁명으로 전락하고 동맹이 바뀌게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_FREEDOM">
+			<Text>{3_MinorCivName:textkey}의 자유의 투사들이 {2_TargetName:textkey}에 대항하는 혁명을 주도합니다! 반란군이 {1_TurnsRemaining}턴 동안 유지되면 도시는 혁명으로 전락하고 동맹이 바뀌게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_ORDER">
+			<Text>{3_MinorCivName:textkey}의 프롤레타리아들은 {2_TargetName:textkey}에 대항하는 혁명을 주도합니다! 반란군이 {1_TurnsRemaining}턴 동안 유지되면 도시는 혁명으로 전락하고 동맹이 바뀌게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_AUTOCRACY">
+			<Text>{3_MinorCivName:textkey}의 게릴라들이 {2_TargetName:textkey}에 대항하는 혁명을 주도합니다! 반란군이 {1_TurnsRemaining}턴 동안 유지되면 도시는 혁명으로 전락하고 동맹이 바뀌게 됩니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_REBELLION">
+			<Text>{1_MinorCivName:textkey}에서의 혁명 진압!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_REBELLION">
+			<Text>{1_MinorCivName:textkey}의 혁명이 실패하여 그들의 사기가 꺾였습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REBELLION">
+			<Text>{1_MinorCivName:textkey}에서 혁명 승리!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REBELLION">
+			<Text>{2_CityStateName:textkey}에서의 혁명이 성공했으며 {1_TargetName:textkey}와의 동맹이 끝났습니다. {2_CityStateName:textkey}{2: plural 1?은; 2?는;} 이제 새로운 친선 및 보호를 위해 다른 문명을 찾고 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REBELLION_BLANK">
+			<Text>{1_CityStateName:textkey}에서의 혁명이 종료되었습니다. {1_CityStateName:textkey}{1: plural 1?이; 2?가;}이제 다른 문명에 친선 및 보호를 요청합니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_CITY">
 			<Text>{@2_CivName}{@2: plural 1?은; 2?는;} {@1_CityName}를 찾습니다.</Text>
 		</Row>
@@ -973,6 +1212,18 @@
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_B_S">
 			<Text>당신의 스파이가 죽었거나 {@1_City}{@1: plural 1?이; 2?가;} 더 이상 유효한 목표가 아니어서 당신의 쿠데타는 실패했습니다. {@1_Civname}의 퀘스트는 철회되었습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPY_MISSION">
+			<Text>{@1_Civ}의 첩보 기회</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_MISSION">
+			<Text>{@2_Civ}의 요청으로 외국에서 정보를 수집해야 합니다. [COLOR_POSITIVE_TEXT]{@1_SpyMission}[ENDCOLOR] 임무를 수행하여 그들의 감사를 얻으세요.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_MISSION_COMPLETE">
+			<Text>스파이 임무 완료!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPY_MISSION_COMPLETE">
+			<Text>{@2_Civ}는 당신의 에이전트들이 수집한 정보에 만족합니다. 성공적인 [COLOR_POSITIVE_TEXT]{@1_SpyMission}[ENDCOLOR] 임무를 통해 그들의 호의를 얻었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPY_ON_MAJOR">
 			<Text>{@1_Civ}에서 첩보 갱신</Text>
@@ -1096,6 +1347,62 @@
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_SCIENCE">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET][ICON_RESEARCH] 과학 {1_Num}[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Corporations -->
+		<Row Tag="TXT_KEY_TECH_CORP_ENABLED_S">
+			<Text>기업을 설립할 수 있습니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CORP_ENABLED">
+			<Text>이제 회사를 설립하는 것이 가능합니다! 현재 자원 독점, 설립 가능한 모든 기업 및 해당 기업에 대한 정보는 기업 및 독점 개요를 참조하십시오.[NEWLINE][NEWLINE]기업을 설립하기 위해 당신 문명의 도시 중 하나에 기업 본부를 건설하십시오! 오직 [COLOR_POSITIVE_TEXT]하나[ENDCOLOR]의 회사만 설립할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_SUMMARY">
+			<Text>기업을 설립했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FOUNDED">
+			<Text>당신 문명이 [COLOR_POSITIVE_TEXT]{@1_CorporationName}[ENDCOLOR]{@1: plural 1?을; 2?를;} 설립했습니다! 당신 문명의 기업을 널리 확장시키기 위해, 소유 도시에 기업 오피스를 설립하고 이 도시에서 외국 도시로[ICON_INTERNATIONAL_TRADE] 교역로를 보내십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_OTHER_PLAYER_SUMMARY">
+			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} 기업을 설립했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_OTHER_PLAYER">
+			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} [COLOR_POSITIVE_TEXT]{@2_CorporationName}[ENDCOLOR]{@2: plural 1?을; 2?를;} 설립했습니다! 다른 문명의 기업 본부가 파괴되지 않는 한 이 기업은 더이상 설립할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_SUMMARY">
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING">
+			<Text>{@3_City}와의 교역으로 인한 결과, {@2_BldgName}{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;}로 확장되었습니다. 이것은 당신 문명의 모든 기업 오피스 가치를 증가시킵니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_SUMMARY">
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN">
+			<Text>{@3_City}{@3: plural 1?과; 2?와;}의 교역으로 인한 결과, {@2_BldgName}[COLOR:105:105:105:255](외국 기업)[ENDCOLOR]{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 확장되었습니다. 이것은 그들의 기업 가치를 증가시킵니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM_SUMMARY">
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM">
+			<Text>{@2_BldgName}{@2: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다! 이것은 당신 문명의 모든 기업 오피스 가치를 증가시킵니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM_SUMMARY">
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} {@2_City}{@2: plural 1?으로; 2?로;} 확장했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM">
+			<Text>{@2_BldgName}[COLOR:105:105:105:255](외국 기업)[ENDCOLOR]{@2: plural 1?이; 2?가;} {@1_City}{@1: plural 1?으로; 2?로;} 확장되었습니다! 이것은 그들의 기업 가치를 증가시킵니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_DESTROYED_SUMMARY">
+			<Text>{@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 모든 오피스와 프랜차이즈를 닫았습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_DESTROYED">
+			<Text>본부가 파괴되었기 때문에 {@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 모든 글로벌 오피스와 프랜차이즈를 닫았습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY_S">
+			<Text>{2_City}에서 {@1_BldgName}{@1_BldgName: plural 1?을; 2?를;} 제거했습니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY">
+			<Text>세계 의회 결의안 또는 이념 주의 때문에 {2_City}에 있는 {3_Civ}의 {@1_BldgName}{@1_BldgName: plural 1?이; 2?가;} 강제적으로 문을 닫았습니다.</Text>
 		</Row>
 
 		<!-- Project completion -->

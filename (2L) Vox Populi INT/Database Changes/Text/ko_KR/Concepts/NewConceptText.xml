@@ -61,7 +61,7 @@
 			<Text>[COLOR_GREEN]전쟁 피로도[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COMBAT_WAR_WEARINESS_HEADING3_BODY">
-			<Text>전쟁, 전쟁은 절대 변하지 않습니다. 글쎄요, 실제로 그렇습니다. 전쟁 진행됨에 따라 제국의 시민들은 장기간의 분쟁의 위험을 점점 더 인식하게 되며 [COLOR_NEGATIVE_TEXT]전쟁 피로도[ENDCOLOR]를 증가시킬 것입니다. 전쟁 피로도는 우선 각 플레이어마다 세 가지 요인을 기반으로 계산됩니다. 그 플레이어와의 전쟁 턴수, 당신이 그 플레이어에게 입은 피해, 그들에게 입힌 피해의 절반입니다. 이 값을 유닛 및 도시의 현재 전력과 비교하여 (최대 100%) 각 플레이어 중 가장 높은 % 패널티를 당신 제국에 적용합니다. 플레이어의 유리한 평화 협정을 막기 위해, 플레이어가 도시 점령 시 해당 플레이어와의 전쟁 피로도 갱신은 2턴 동안 일시 중지됩니다. AI는 평화 협정이 가능하지만, 평화 협정을 원하지 않는다면 마찬가지로 무시될 것입니다. [NEWLINE][NEWLINE]추가로, 평화 협정을 진행하면 다른 문명과의 전쟁 피로도가 즉시 절반으로 줄어들고, 도시를 해방하면 모든 문명과의 전쟁 피로도가 25% 줄어듭니다. [NEWLINE][NEWLINE]전쟁 피로도가 발생하면 세 가지 주요 효과가 발생합니다.[NEWLINE][ICON_BULLET] 전쟁 피로로 인한 불행[NEWLINE][ICON_BULLET] 군사 유닛의 생산 및 골드 비용 증가[NEWLINE][ICON_BULLET] 군사 보급 한도 최대값 감소[NEWLINE]후자의 두 상한은 75%입니다. 단일 충돌 시 과도한 확장에 주의하십시오!</Text>
+			<Text>전쟁, 전쟁은 절대 변하지 않습니다. 글쎄요, 실제로 그렇습니다. 전쟁 진행됨에 따라 제국의 시민들은 장기간의 분쟁의 위험을 점점 더 인식하게 되며 [COLOR_NEGATIVE_TEXT]전쟁 피로도[ENDCOLOR]를 증가시킬 것입니다. 전쟁 피로도는 우선 각 플레이어마다 세 가지 요인을 기반으로 계산됩니다. 그 플레이어와의 전쟁 턴수, 당신이 그 플레이어에게 입은 피해, 그들에게 입힌 피해의 절반입니다. 이 값을 유닛 및 도시의 현재 전력과 비교하여 (최대 100%) 각 플레이어 중 가장 높은 % 패널티를 당신 제국에 적용합니다. [NEWLINE][NEWLINE]추가로, 평화 협정을 진행하면 다른 문명과의 전쟁 피로도가 즉시 절반으로 줄어들고, 도시를 해방하면 모든 문명과의 전쟁 피로도가 25% 줄어듭니다. [NEWLINE][NEWLINE]전쟁 피로도가 발생하면 세 가지 주요 효과가 발생합니다.[NEWLINE][ICON_BULLET] 전쟁 피로로 인한 불행[NEWLINE][ICON_BULLET] 군사 유닛의 생산 및 골드 비용 증가[NEWLINE][ICON_BULLET] 군사 보급 한도 최대값 감소[NEWLINE]후자의 두 상한은 75%입니다. 단일 충돌 시 과도한 확장에 주의하십시오!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_WAR_WEARINESS_ADV_QUEST">
 			<Text>전쟁 피로도가 무엇입니까?</Text>
@@ -88,13 +88,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_TITLE">
-			<Text>[COLOR_GREEN]스파이 점수[ENDCOLOR]</Text>
+			<Text>[COLOR_GREEN]스파이 포인트[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_BODY">
 			<Text>[ICON_SPY_POINT] 스파이 포인트가 100에 도달하면 새 [ICON_SPY]를 얻게 됩니다. 일부 국가 불가사의, 세계 불가사의, 정책은 [ICON_SPY_POINT] 스파이 포인트를 제공합니다. 또한 [ICON_DIPLOMAT] 위대한 외교관 무역 임무에서도 얻을 수 있으므로, 첩보 활동에 완전히 참여하려면 [ICON_CIVIL_SERVANT] 공무원을 투입해야 합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_SPY_POINTS_ADV_QUEST">
-			<Text>스파이 점수가 무엇입니까?</Text>
+			<Text>스파이 포인트가 무엇입니까?</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_TITLE">
@@ -111,7 +111,7 @@
 			<Text>[COLOR_GREEN]요구 임계값 계산[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_BODY">
-			<Text>요구 불행은 인구당 도시의 산출량을 특정 기준인 요구 임계값과 비교해 발생합니다. 이러한 값은 인구당 산출량의 전역 중간값 (즉, 전 세계 도시의 정확히 50%를 초과하는 인구당 산출량)을 기반으로 합니다. 중앙값을 계산할 때 인구가 최소 3명인 도시만 계산해 극초반 불행이 완화됩니다. 요구 입계값은 각 도시의 여러 보정치에 의해 수정됩니다. 긍정적인 요구 보정치는 임계값에 도달하는 것을 어렵계 하는 반면 부정적인 요구 보정치는 임계값을 감소시킵니다. 다음 보정치들이 항상 적용됩니다: [NEWLINE] [COLOR_NEGATIVE_TEXT]수도 상태[ENDCOLOR]: 수도에서는 요구 임계값이 25% 증가합니다.[NEWLINE][COLOR_NEGATIVE_TEXT]기술 진행도[ENDCOLOR]: 전 세계 평균보다 더 많이 연구한 기술 하나당 모든 요구 임계치가 1% 증가하고, 평균보다 적게 연구한 기술 하나당 요구 임계치가 2% 감소합니다.[NEWLINE] [COLOR_NEGATIVE_TEXT]제국 크기[ENDCOLOR]: 제국의 각 도시 (수도 및 괴뢰 도시 제외)마다 요구 임계값이 5% 증가합니다. 또한, 제국의 각 시민 (수도 및 괴뢰 도시 제외) 8명마다 1% 증가합니다.[NEWLINE] [COLOR_POSITIVE_TEXT]난이도[ENDCOLOR]: "개척자" 난이도와 "족장" 난이도에서 플레이어의 임계값이 줄어듭니다. 족장 난이도보다 높은 난이도에서는 이 변동치는 없습니다.[NEWLINE][NEWLINE]브라질의 카니발 능력은 모든 도시의 요구 임계값을 50% 감소시킬 수 있습니다. 또한 생산을 다른 산출로 변환하면 변환 비율과 동일하게 요구 임계값을 감소시킵니다. (발전소를 사용해 비율을 증가시킬 수 있습니다) 예를 들어 농업은 생산의 25%를 식량으로 바꾸고 낙후 요구 임계값을 25% 감소시킵니다.
+			<Text>요구 불행은 인구당 도시의 산출량을 특정 기준인 요구 임계값과 비교해 발생합니다. 이러한 값은 인구당 산출량의 전역 중간값 (즉, 전 세계 도시의 정확히 50%를 초과하는 인구당 산출량)을 기반으로 합니다. 중앙값을 계산할 때 인구가 최소 3명인 도시만 계산해 극초반 불행이 완화됩니다. 요구 입계값은 각 도시의 여러 보정치에 의해 수정됩니다. 긍정적인 요구 보정치는 임계값에 도달하는 것을 어렵계 하는 반면 부정적인 요구 보정치는 임계값을 감소시킵니다. 다음 보정치들이 항상 적용됩니다: [NEWLINE] [COLOR_NEGATIVE_TEXT]수도 상태[ENDCOLOR]: 수도에서는 요구 임계값이 25% 증가합니다.[NEWLINE][COLOR_NEGATIVE_TEXT]기술 진행도[ENDCOLOR]: 전 세계 평균보다 더 많이 연구한 기술 하나당 모든 요구 임계치가 1% 증가하고, 평균보다 적게 연구한 기술 하나당 요구 임계치가 2% 감소합니다.[NEWLINE] [COLOR_NEGATIVE_TEXT]제국 크기[ENDCOLOR]: 제국의 각 도시 (수도 및 괴뢰 도시 제외)마다 요구 임계값이 5% [COLOR_NEGATIVE_TEXT]증가합니다[ENDCOLOR]. 또한, 제국의 각 시민 (수도 및 괴뢰 도시 제외) 8명마다 1% 증가합니다.[NEWLINE] [COLOR_POSITIVE_TEXT]난이도[ENDCOLOR]: "개척자" 난이도와 "족장" 난이도에서 플레이어의 임계값이 [COLOR_POSITIVE_TEXT]줄어듭니다[ENDCOLOR]. 족장 난이도보다 높은 난이도에서는 이 변동치는 없습니다.[NEWLINE][NEWLINE]브라질의 카니발 능력은 모든 도시의 요구 임계값을 50% 감소시킬 수 있습니다. 또한 생산을 다른 산출로 변환하면 변환 비율과 동일하게 요구 임계값을 감소시킵니다. (발전소를 사용해 비율을 증가시킬 수 있습니다) 예를 들어 농업은 생산의 25%를 식량으로 바꾸고 낙후 요구 임계값을 25% 감소시킵니다.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_ADV_QUEST">
@@ -231,7 +231,7 @@
 			<Text>[COLOR_GREEN]위대한 외교관[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_SUMMARY">
-			<Text>[COLOR_CYAN]특수 능력: 대사관 설립[ENDCOLOR][NEWLINE]당신은 위대한 외교관을 도시국가로 이동시키고 지상 타일에 대사관을 건설할 수 있습니다. 단 대사관이 설립되지 않은 도시국가에만 가능합니다. 각 대사관은 세계 의회에서 1표를 받습니다. 대사관 설립은 위대한 외교관을 소모합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 외교 임무[ENDCOLOR][NEWLINE]도시 국가에서 위대한 외교관을 사용해 외교 임무를 수행할 수 있습니다. 도시 국가에 대한 많은 영량력을 얻게 되고, 그만큼 다른 문명의 영향력이 감소합니다. 추가로, 당신은 영구적으로 종이를 1 얻게 됩니다. 이 작업은 위대한 외교관을 소모합니다.</Text>
+			<Text>[COLOR_CYAN]특수 능력: 대사관 설립[ENDCOLOR][NEWLINE]당신은 위대한 외교관을 도시국가로 이동시키고 지상 타일에 대사관을 건설할 수 있습니다. 단 대사관이 설립되지 않은 도시국가에만 가능합니다. 각 대사관은 세계 의회에서 1표를 받습니다. 대사관 설립은 위대한 외교관을 소모합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 외교 임무[ENDCOLOR][NEWLINE]도시 국가에서 위대한 외교관을 사용해 외교 임무를 수행할 수 있습니다. 도시 국가에 대한 많은 영량력을 얻게 되고, 그만큼 다른 문명의 영향력이 감소합니다. 추가로 [ICON_SPY_POINT] 스파이 포인트를 50 얻습니다.[NEWLINE][NEWLINE]추가로, 당신은 영구적으로 종이를 1 얻게 됩니다. 이 작업은 위대한 외교관을 소모합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_DESCRIPTION">
 			<Text>{TXT_KEY_CONCEPT_GREAT_DIPLOMAT_TOPIC}</Text>

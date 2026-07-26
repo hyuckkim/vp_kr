@@ -540,7 +540,7 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WHITE_TOWER_STRATEGY">
-			<Text>{TXT_KEY_BUILDING_IRONWORKS}를 대체하는 영국의 고유 건물입니다. {TXT_KEY_BUILDING_WHITE_TOWER}는 {TXT_KEY_BUILDING_IRONWORKS}의 보너스에 더해, 경찰대, 성, 무기고를 강화합니다. 첩보 활동 시 [ICON_GOLD] 골드와 [ICON_RESEARCH] 과학을 생성합니다. 무료 [ICON_GW_ART] 예술품을 제공합니다.</Text>
+			<Text>{TXT_KEY_BUILDING_MINISTERIAL_DISTRICT}를 대체하는 영국의 고유 건물입니다. 산출을 제공하며, 추가 [ICON_SPY] 스파이를 확보할 수 있는 [ICON_SPY_POINT] 스파이를 제공합니다. {TXT_KEY_BUILDING_MINISTERIAL_DISTRICT}의 보너스에 더해, {TXT_KEY_BUILDING_WHITE_TOWER}는 경찰대, 성, 무기고에 추가 [ICON_CULTURE] 문화를 제공하며 추가 [ICON_GW_ART] 걸작 예술품을 제공합니다. 또한 가장 중요한 보너스는 이 국가 불가사의가 스파이들의 공격 및 방어 작전 또는 선거 조작이 성공했을 때 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, 뿐만 아니라 [ICON_GREAT_ADMIRAL] 위대한 제독 포인트를 얻어 세계 해역을 지배할 기반이 된다는 것입니다!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL">
@@ -961,10 +961,10 @@
 			<Text>일본의 고유 시설입니다. 위대한 작가, 위대한 예술가 또는 위대한 음악가가 건설할 수 있습니다. [NEWLINE][NEWLINE]모든 위인의 임무에 보너스를 제공하고, 건설 시 전역 [ICON_HAPPINESS_1] 행복을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 제공합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TORII">
-			<Text>Construct an [LINK=IMPROVEMENT_TORII]Torii[\LINK]</Text>
+			<Text>[LINK=IMPROVEMENT_TORII]토리이[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TORII_HELP">
-			<Text>Removes any feature on the tile.[NEWLINE][NEWLINE]Constructing the Torii will increase your Empire-Wide [ICON_HAPPINESS_1] Happiness by 1, will increase the yields of [ICON_GREAT_WRITER], [ICON_GREAT_ARTIST], and [ICON_GREAT_MUSICIAN] Missions (by a reduced amount compared to the respective Great Work), and will consume this unit.</Text>
+			<Text>건설 시 모든 타일의 특징을 제거합니다.[NEWLINE][NEWLINE]토리이 건설 시 제국 전역 [ICON_HAPPINESS_1] 행복이 1 증가하고, [ICON_GREAT_WRITER], [ICON_GREAT_ARTIST], [ICON_GREAT_MUSICIAN]의 산출을 증가시키고 (걸작보다는 적게), 유닛이 소모됩니다.</Text>
 		</Row>
 
 		<!-- 한국 -->

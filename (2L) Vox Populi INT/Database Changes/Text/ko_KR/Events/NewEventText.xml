@@ -613,7 +613,7 @@
 			<Text>은행원의 투자가 아버지의 투자와 맞기 때문에 그의 주장이 더 설득력 있군.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_2_HELP">
-			<Text>수도에 대상 1명이 무료로 출현합니다.</Text>
+			<Text>[ICON_CAPITAL] 수도에 대상 1명이 무료로 출현합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_DEATH_MERCHANT_CHOICE_3">
 			<Text>선원이 우리의 모든 해안 도시에 이익을 줄 것 같군.</Text>
@@ -1342,7 +1342,7 @@
 			<Text>[ICON_PEACE] 종교 유물 빼내기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_PEDIA">
-			<Text>이 도시에서 생성된 [ICON_PEACE] 신앙을 100% 흡수합니다. 이 도시는 -100% [ICON_RELIGION] 종교적 압박을 발산합니다. 지속 시간 15 턴 (표준 속도).[NEWLINE]이 도시에 사원이 있어야 합니다.[NEWLINE]식별 확률 25% / 처치 확률 25%</Text>
+			<Text>이 도시에서 생성된 [ICON_PEACE] 신앙을 100% 훔칩니다. 이 도시는 -100% [ICON_RELIGION] 종교적 압박을 제공합니다. 지속 시간 15턴 (표준 속도).[NEWLINE]이 도시에 사원이 있어야 합니다.[NEWLINE]식별 확률 25% / 처치 확률 25%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH_HELP">
 			<Text>{5_Duration}간 목표 도시의 턴 당 [ICON_PEACE] 신앙의 100%를 훔칩니다. 목표 도시의 [ICON_RELIGION] 종교 압력이 -100% 감소합니다.</Text>
@@ -1381,7 +1381,7 @@
 			<Text>[ICON_PUPPET] 시장실 잠입</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE_PEDIA">
-			<Text>[COLOR_POSITIVE_TEXT]이 도시에서 생산되는 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화의 10%를 흡수합니다. 15턴 동안 지속됩니다 (표준 속도).[NEWLINE]이 도시는 [ICON_CAPITAL] 수도일 수 없습니다.[NEWLINE]식별 확률 5% / 처치 확률 5%</Text>
+			<Text>[COLOR_POSITIVE_TEXT]이 도시에서 생산되는 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화의 10%를 훔칩니다. 15턴 동안 지속됩니다 (표준 속도).[NEWLINE]이 도시는 [ICON_CAPITAL] 수도일 수 없습니다.[NEWLINE]식별 확률 5% / 처치 확률 5%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE_HELP">
 			<Text>{5_Duration}간 도시 [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화 생산량의 10%를 [COLOR_POSITIVE_TEXT]훔칩니다[ENDCOLOR]..</Text>
@@ -1465,7 +1465,7 @@
 			<Text>[ICON_GREAT_WORK] 걸작 훔치기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_PEDIA">
-			<Text>목표 도시에서 무작위로 [ICON_GREAT_WORK] 걸작을 훔칩니다.[NEWLINE]95% 식별 확률 / 75% 처치 확률</Text>
+			<Text>목표 도시에서 무작위로 [ICON_GREAT_WORK] 걸작을 훔칩니다.[NEWLINE][ICON_CAPITAL] 수도여야 합니다.[NEWLINE]95% 식별 확률 / 75% 처치 확률</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW_HELP">
 			<Text>목표 도시의 무작위 [ICON_GREAT_WORK] 걸작을 훔칩니다.</Text>
@@ -1500,9 +1500,6 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_HELP">
 			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 [COLOR_POSITIVE_TEXT]-20[ENDCOLOR]만큼 얻습니다. [ICON_CIVIL_SERVANT] 공무원의 산출량이 [COLOR_NEGATIVE_TEXT]-1[ENDCOLOR]만큼 감소합니다. [NEWLINE][NEWLINE]외국 스파이의 "전문가 납치", "시골 주민 선동", "국고 절도"를 막습니다. [NEWLINE][NEWLINE]적 [ICON_SPY] 스파이 발견 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 50 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 처치 시 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화를 150 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_EFFECT">
-			<Text>외국 [ICON_SPY] 스파이가 매 턴 네트워크 포인트를 [COLOR_POSITIVE_TEXT]-20[ENDCOLOR]만큼 얻습니다. [ICON_CIVIL_SERVANT] 공무원의 산출량이 [COLOR_NEGATIVE_TEXT]-1[ENDCOLOR]만큼 감소합니다. 외국 스파이의 "전문가 납치", "시골 주민 선동", "국고 절도"를 막습니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_NETWORK_MISSION">
 			<Text>첩보망 개설</Text>
 		</Row>
@@ -1511,9 +1508,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_HELP">
 			<Text>도시의 원거리 공격이 30% 강화됩니다. 방어 시설에서 +2 생산력 및 국경 확장 포인트를 얻습니다.[NEWLINE][NEWLINE]적 스파이가 "방어 시설 파괴", "수도망 오염", "시장 암살" 임무를 수행할 수 없습니다.[NEWLINE][NEWLINE]적 스파이 발견 시 50 생산력 및 문화를, 처치 시 150 생산력 및 문화를 제공하며 이 보너스는 시대에 비례해 증가합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_EFFECTS">
-			<Text>도시 [ICON_RANGE_STRENGTH] 범위 공격이 30% 강화됩니다. 방어 시설의 [ICON_PRODUCTION] 생산력 및 [ICON_BORDER] 국경 확장 포인트가 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다. 적 스파이가 "방어 시설 파괴" 임무를 수행할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DEFENSE_MISSION">
 			<Text>방비 강화</Text>
@@ -1524,9 +1518,6 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_RELIGION_HELP">
 			<Text>도시의 [ICON_RELIGION] 주요 종교의 영향력이 +25% 증가하지만,  [ICON_FOOD] 식량 생산량이 [COLOR_NEGATIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]적 스파이가 "종교 유물 빼내기", "걸작 훔치기", 또는 "선동성 전단 배포" 임무를 수행할 수 없습니다.[NEWLINE][NEWLINE]적 [ICON_SPY] 스파이 발견 시 [ICON_FAITH] 신앙 및 [ICON_CULTURE] 문화를 50 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 처치 시 [ICON_FAITH] 신앙 및 [ICON_CULTURE] 문화를 150 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_RELIGION_EFFECTS">
-			<Text>도시의 [ICON_RELIGION] 주요 종교의 영향력이 +25% 증가하지만,  [ICON_FOOD] 식량 생산량이 [COLOR_NEGATIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]적 스파이가 "종교 유물 빼내기", "걸작 훔치기", 또는 "선동성 전단 배포" 임무를 수행할 수 없습니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_RELIGION_MISSION">
 			<Text>이단 추적</Text>
 		</Row>
@@ -1536,11 +1527,17 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_TOURISM_HELP">
 			<Text>도시의 [ICON_HAPPINESS_3] 요구 불행이 25% 감소하지만  [ICON_TOURISM] 관광이 [COLOR_NEGATIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]외국 스파이가 "상단 습격", "지역 분란 조장" 작전을 수행할 수 없습니다.[NEWLINE][NEWLINE]적 [ICON_SPY] 스파이 발견 시 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광을 50 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 처치 시 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광을 150 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR] 제공합니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_TOURISM_EFFECTS">
-			<Text>도시의 [ICON_HAPPINESS_3] 요구 불행이 25% 감소하지만  [ICON_TOURISM] 관광이 [COLOR_NEGATIVE_TEXT]15%[ENDCOLOR] 감소합니다.[NEWLINE][NEWLINE]외국 스파이가 "상단 습격", "지역 분란 조장" 작전을 수행할 수 없습니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_TOURISM_MISSION">
 			<Text>검문소 배치</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DOUBLE_CROSS">
+			<Text>[ICON_PIRATE] 이중 간첩</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DOUBLE_CROSS_HELP">
+			<Text>당신의 스파이가 외국 도시에서 스파이 임무를 수행할 때 식별될 확률이 20% 감소하지만, [ICON_CAPITAL] 수도의 [ICON_CITY_SECURITY] 도시 보안이 30 감소합니다.[NEWLINE][NEWLINE]외국 [ICON_SPY] 스파이를 식별하면 100 [ICON_GOLD] 골드를 얻고, 처치하면 150 [ICON_GOLD] 골드를 얻습니다. 이 보너스는 시대에 따라 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_COUNTERSPY_DOUBLE_CROSS_MISSION">
+			<Text>이중 간첩</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

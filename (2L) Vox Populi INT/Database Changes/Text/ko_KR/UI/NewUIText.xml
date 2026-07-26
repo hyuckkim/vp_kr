@@ -204,6 +204,9 @@
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_PREVIOUS_SPY_MISSIONS_TT">
 			<Text>[NEWLINE][ICON_BULLET]도시에서의 이전 작전: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SECURITY_COUNTERSPY_TT">
+			<Text>[NEWLINE][ICON_BULLET]현재 역스파이 집중: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
 		
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_POPULATION_TT">
 			<Text>[NEWLINE][ICON_BULLET]도시 인구: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
@@ -240,6 +243,9 @@
 		
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_POLICIES_TT">
 			<Text>[NEWLINE][ICON_BULLET]정책: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_RELIGION_TT">
+			<Text>[NEWLINE][ICON_BULLET]종교: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_COUNTERSPY_NETWORK_TT">
@@ -363,7 +369,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]정략 결혼[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED_TT">
-			<Text>[COLOR_POSITIVE_TEXT]정략 결혼:[ENDCOLOR] 당신의 최소 [ICON_INFLUENCE]영향력이 75[COLOR:105:105:105:255](시대별 보정)[ENDCOLOR]가 됩니다. [ICON_CAPITAL]수도의 [ICON_GREAT_PEOPLE]위인 출현율이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 증가합니다.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]정략 결혼:[ENDCOLOR] 당신의 최소 [ICON_INFLUENCE]영향력이 200이 됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_PROTECTED_BY">
 			<Text>보호 선언:</Text>
@@ -406,46 +412,6 @@
 			<Text>불행히도 그들은 당신에게 제공할 것이 없습니다. 그러나 {2_Personality} 특성으로 인해 영향력이 [COLOR_POSITIVE_TEXT]{1_NumFriendship}[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<!-- Quests -->
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_FORMAL">
-			<Text>그들은 당신의 문명이 {1_TargetName:textkey}에 전쟁을 선포하길 원합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER_FORMAL">
-			<Text>그들은 당신이 {1_NationalWonderName:textkey}{1: plural 1?을; 2?를;} 건설하길 원합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_SPECIFIC_UNIT_FORMAL">
-			<Text>그들은 당신이 최소 {2_XP} 경험치의 {1_UnitName}{@1: plural 1?을; 2?를;} 보내길 원합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
-			<Text>그들은 당신이 {1_CityStateName:textkey}{1: plural 1?을; 2?를;} 발견하길 원합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_FORMAL">
-			<Text>일시적으로 외교 임무의 효율성이 증가합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL">
-			<Text>그들은 턴당 [ICON_TOURISM]관광이 가장 많은 문명에게 보상하겠다고 합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_WINNING_FORMAL">
-			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} 현재 당신의 문명이 1위이며 턴당 [ICON_TOURISM]관광 점수가 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_LOSING_FORMAL">
-			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} 현재 1위 문명의 턴당 [ICON_TOURISM]관광 점수는 {1_LeaderScore}이며 당신의 문명의 턴당 [ICON_TOURISM]관광 점수는 [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]입니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ARCHAEOLOGY_FORMAL">
-			<Text>고고학자를 이 도시 국가 주변으로 보내십시오.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CIRCUMNAVIGATION_FORMAL">
-			<Text>세계 일주를 완료하는 첫번째 문명이 되십시오.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LIBERATION_FORMAL">
-			<Text>그들은 당신이 {1_CityStateName:textkey}{1: plural 1?을; 2?를;} 해방해주길 요청합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE_FORMAL">
-			<Text>야만인 무리로부터 그들을 보호하십시오! 퀘스트가 끝날 때에 야만인이 이 도시에 인접해 있다면, 도시가 야만인으로 전락할 것입니다!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION_FORMAL">
-			<Text>그들의 동맹에 대항하는 혁명이 발생하고 있습니다!</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GLOBAL_HEADER">
 			<Text>전역 퀘스트:</Text>
 		</Row>
@@ -593,11 +559,12 @@
 		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_NEGATIVE">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] 적 [ICON_SPY] 스파이의 도둑질에서</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MINOR_SCIENCE_FROM_LEAGUE_ALLIES">
-			<Text>[ICON_BULLET] [COLOR_NAGATIVE_TEXT]-{1_Num}%[ENDCOLOR] 다른 문명에 알려진 [ICON_RESEARCH]기술 비용에서</Text>
+		
+		<Row Tag="TXT_KEY_TP_TECH_SCHOLAR_DISCOUNT">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] 상주 학자에서</Text>
 		</Row>
-		<Row Tag="TXT_KEY_SCIENCE_FUNDING_FROM_LEAGUE">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] [ICON_RESEARCH]결의안에서</Text>
+		<Row Tag="TXT_KEY_TP_TECH_ALLIES_DISCOUNT">
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] [ICON_RESEARCH]동맹 도시국가에서</Text>
 		</Row>
 		<!-- Culture -->
 		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">
@@ -783,7 +750,7 @@
 			<Text>군사 유닛 수: {12_Num} (군사 보급 {2_Num} 사용) [NEWLINE]총 군사 보급 한도: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]전쟁 피로도 보급 감소율: {6_Num}%[ENDCOLOR][NEWLINE][NEWLINE]군사 보급:[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{4_Num}[ENDCOLOR]  [ICON_CITY_STATE]소유한 도시에서 ([ICON_WAR] {13_Num} - [ICON_RESEARCH] 기술에 의해 {14_Num})[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{3_Num}[ENDCOLOR]  [ICON_CITIZEN]총 시민 수에서 ([ICON_SILVER_FIST] {15_Num} -  [ICON_RESEARCH] 기술에 의해 {16_Num})[NEWLINE]  [ICON_BULLET][COLOR_POSITIVE_TEXT]+{5_Num}[ENDCOLOR]  [ICON_CHECKBOX] 난이도에서 ([ICON_CAPITAL] {17_Num} - [ICON_RESEARCH] 시대에 의해 {18_Num})[NEWLINE]  [ICON_BULLET]+{11_Num} [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL] 위인에서[NEWLINE][NEWLINE][NEWLINE]군사 보급 감소:[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{8_Num}[ENDCOLOR]  [ICON_RESEARCH]기술 수준에서[NEWLINE]  [ICON_BULLET]-{9_Num} [ICON_CITY_STATE] 도시 수에서[NEWLINE]  [ICON_BULLET][COLOR_NEGATIVE_TEXT]-{7_Num}[ENDCOLOR]  [ICON_WAR]전쟁 피로도에서[NEWLINE][NEWLINE]각 ([ICON_PUPPET] 종속국이 아닌) 도시를 소유한 경우: +5% [ICON_CITY_STATE] 도시 수 패널티.[NEWLINE][ICON_WAR]전쟁 피로도 때문에 군사 유닛의 [ICON_GOLD]/[ICON_PEACE]비용이 [COLOR_NEGATIVE_TEXT]{10_Num}%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
-			<Text>{TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY}[NEWLINE]Highest War Weariness: {18_CivName} {19_Num}%</Text>
+			<Text>{TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP_NOT_WEARY}[NEWLINE]가장 높은 전쟁 피로도: {18_CivName} {19_Num}%</Text>
 		</Row>
 		<!-- Conquest picker -->
 		<Row Tag="TXT_KEY_POPUP_REMOVE_SPHERE_CAPTURED_CITY">
@@ -1134,7 +1101,7 @@
 		</Row>
 		<!-- Yield -->
 		<Row Tag="TXT_KEY_GROWTH_MOD_HAPPY">
-			<Text>[NEWLINE][ICON_BULLET]{1_Num}% [ICON_HAPPINESS_1] 지역 행복에서</Text>
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% [ICON_HAPPINESS_1] 지역 행복에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_OVER_SUPPLY">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% [COLOR_NEGATIVE_TEXT]공급 한도 초과 에서[ENDCOLOR]</Text>

@@ -327,7 +327,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]스파이 미션[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_TOPIC';
 UPDATE Language_ko_KR
-SET Text = '주요 문명의 도시에 배치된 스파이는 네트워크 포인트를 사용하여 스파이 미션을 수행할 수 있습니다. 미션은 여러 단계로 구성되어 있으며 비싼 미션일수록 더 강력하고, 가장 비싼 단계에는 강력한 "기술 훔치기" 미션이 포함됩니다.[NEWLINE][NEWLINE] 많은 미션은 수행되는 도시(또는 문명)의 요구사항을 가지고 있습니다. 예를 들어, "{TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY}"는 [ICON_CAPITAL] 수도에서만 수행할 수 있습니다.[NEWLINE][NEWLINE]일부 건물과 불가사의는 스파이 미션을 수행할 때 수익을 제공합니다. 따라서 간谍는 미션 자체의 효과뿐만 아니라 과정에서 얻는 수익으로 인해 진보의 엔진이 될 수 있습니다.'
+SET Text = '주요 문명의 도시에 배치된 스파이는 네트워크 포인트를 사용하여 스파이 미션을 수행할 수 있습니다. 미션은 여러 단계로 구성되어 있으며 비싼 미션일수록 더 강력하고, 가장 비싼 단계에는 강력한 "기술 훔치기" 미션이 포함됩니다.[NEWLINE][NEWLINE] 많은 미션은 수행되는 도시(또는 문명)의 요구사항을 가지고 있습니다. 예를 들어, "{TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FROM_TREASURY}"는 [ICON_CAPITAL] 수도에서만 수행할 수 있습니다.[NEWLINE][NEWLINE]스파이는 임무를 수행하기 전에 15턴(선거 조작 간격과 동일, 아래 참조)의 내부 대기시간이 있습니다. 또한, 일부 임무 세트는 대기시간을 공유하여 여러 문명이 연속해서 사용할 수 없도록 되어 있습니다. 대기시간을 공유하는 임무 그룹은 아래 {TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC} 페이지에 나열되어 있습니다.[NEWLINE][NEWLINE]일부 건물과 불가사의는 스파이 미션을 수행할 때 수익을 제공합니다. 따라서 스파이는 미션 자체의 효과뿐만 아니라 과정에서 얻는 수익으로 인해 진보의 엔진이 될 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_STEALING_TECHS_SUMMARY';
 
 UPDATE Language_ko_KR
@@ -360,7 +360,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]스파이 색출[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC';
 UPDATE Language_ko_KR
-SET Text = '기본적으로 4가지 방첩 집중 옵션이 있습니다. 각 옵션은 도시에 있는 외국 스파이를 발견했을 때 일정량의 자원을 제공하며, 처치했을 때는 세 배로 늘립니다. 따라서 방첩을 사용하는 첫 번째 이유는 도시에서 음모가 발생할 가능성이 있다고 판단될 때입니다.[NEWLINE][NEWLINE]두 번째 이유는 예방 차원입니다. 특정 방첩 집중 작전이 진행 중일 때는 특정 스파이 임무를 수행할 수 없습니다. 예를 들어, [ICON_VICTORY_CULTURE] 문화 승리를 목표로 할 때 [ICON_GREAT_WORK] 걸작을 도난당하는 것은 매우 짜증날 것입니다.  따라서 "이단 추적" 집중을 선택한 스파이를 사용하여 걸작을 보호하는 것이 좋습니다.[NEWLINE][NEWLINE]마지막으로, 각 집중에는 지속적인 효과가 있습니다. 위대한 작품을 보호하는 대신, 해당 집중을 실행하는 동안 도시의 [ICON_FOOD] 식량 성장률이 감소할 수 있습니다. 하지만 모든 집중 패시브 효과에는 보너스가 포함되어 있으며, "이단자 추적"의 경우 [ICON_RELIGION] 압력이 25% 증가합니다. 따라서 특히 집중력이 뛰어난 플레이어는 특정 집중 선택을 통해 추가적인 이점을 얻을 수 있습니다!'
+SET Text = '기본적으로 5가지 방첩 집중 옵션이 있습니다. 각 옵션은 도시에 있는 외국 스파이를 발견했을 때 일정량의 자원을 제공하며, 처치했을 때는 세 배로 늘립니다. 따라서 방첩을 사용하는 첫 번째 이유는 도시에서 음모가 발생할 가능성이 있다고 판단될 때입니다.[NEWLINE][NEWLINE]두 번째 이유는 예방 차원입니다. 특정 방첩 집중 작전이 진행 중일 때는 특정 스파이 임무를 수행할 수 없습니다. 예를 들어, [ICON_VICTORY_CULTURE] 문화 승리를 목표로 할 때 [ICON_GREAT_WORK] 걸작을 도난당하는 것은 매우 짜증날 것입니다.  따라서 "이단 추적" 집중을 선택한 스파이를 사용하여 걸작을 보호하는 것이 좋습니다.[NEWLINE][NEWLINE]마지막으로, 각 집중에는 지속적인 효과가 있습니다. 위대한 작품을 보호하는 대신, 해당 집중을 실행하는 동안 도시의 [ICON_FOOD] 식량 성장률이 감소할 수 있습니다. 하지만 모든 집중 패시브 효과에는 보너스가 포함되어 있으며, "이단자 추적"의 경우 [ICON_RELIGION] 압력이 25% 증가합니다. "이중 간첩" 집중은 [ICON_CAPITAL] 수도에서만 가능하며, 당신 스파이를 발견되지 않게 하지만 [ICON_CITY_SECURITY] 도시 보안을 감소시키는 양면성을 가집니다. 특히 집중력이 뛰어난 플레이어는 추가적인 이점을 얻을 수 있습니다!'
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_SUMMARY';
 
 UPDATE Language_ko_KR
@@ -381,7 +381,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]도시 보안[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_TOPIC';
 UPDATE Language_ko_KR
-SET Text = '다른 문명의 첩보 활동이 걱정되시나요? 가장 좋은 대응책은 주요 도시의 [ICON_CITY_SECURITY] 도시 보안을 높이는 것입니다. 도시 보안은 적 스파이의 네트워크 포인트 생산을 퍼센트로 깎으므로 [ICON_CITY_SECURITY] 보안이 100에 도달하면 아무 네트워크 포인트도 생성되지 않습니다. [ICON_CITY_SECURITY] 도시 보안은 도시별로 20에서 시작하며 [ICON_CITIZEN] 인구마다 2씩, [ICON_INTERNATIONAL_TRADE] 무역로마다 5씩 감소합니다. [NEWLINE][NEWLINE] 경찰대같은 특정 건물은 [ICON_CITY_SECURITY] 도시 보안을 제공하지만, 투자 대상으로는 그렇게 매력적이진 않습니다. 먼저 건설하면 다른 스파이의 염탐 시도를 막을 수 있긴 하지만 다른 건물들이 더 높은 수익을 제공하기 때문입니다.[NEWLINE][NEWLINE][ICON_CITY_SECURITY] 도시 보안은 자금성 같은 불가사의나 합리주의 완성 효과 같은 정책에서도 얻을 수 있습니다. 과학 중심 플레이어에게는 이것이 더 중요한데, "기술 훔치기" 가 이점을 모두 없앨 수 있기 때문입니다.'
+SET Text = '다른 문명의 첩보 활동이 걱정되시나요? 가장 좋은 대응책은 주요 도시의 [ICON_CITY_SECURITY] 도시 보안을 높이는 것입니다. 도시 보안은 적 스파이의 네트워크 포인트 생산을 퍼센트로 깎으므로 [ICON_CITY_SECURITY] 보안이 100에 도달하면 아무 네트워크 포인트도 생성되지 않습니다. [ICON_CITY_SECURITY] 도시 보안은 도시별로 20에서 시작하며 [ICON_CITIZEN] 인구마다 2씩, [ICON_INTERNATIONAL_TRADE] 무역로마다 5씩 감소합니다. [NEWLINE][NEWLINE] 경찰대같은 특정 건물은 [ICON_CITY_SECURITY] 도시 보안을 제공하지만, 투자 대상으로는 그렇게 매력적이진 않습니다. 먼저 건설하면 다른 스파이의 염탐 시도를 막을 수 있긴 하지만 다른 건물들이 더 높은 수익을 제공하기 때문입니다.[NEWLINE][NEWLINE][ICON_CITY_SECURITY] 도시 보안은 자금성 같은 불가사의나 합리주의 완성 효과 같은 정책에서도 얻을 수 있습니다. 반면 "이중 간첩" 역스파이 집중을 선택한다면 [ICON_CAPITAL] 수도의 [ICON_CITY_SECURITY] 도시 보안이 감소합니다. 과학 중심 플레이어에게는 이것이 더 중요한데, "기술 훔치기" 가 이점을 모두 없앨 수 있기 때문입니다.'
 WHERE Tag = 'TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_SUMMARY';
 
 -- National Intelligence Agency

@@ -8,6 +8,13 @@
 			<Text>종속국 시스템을 활성화하여 더 약한 문명이 더 강한 문명의 종속국이 될 수 있도록 합니다.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VOLUNTARY_VASSALAGE">
+			<Text>자발적 종속국 시스템 비활성화</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_VOLUNTARY_VASSALAGE_HELP">
+			<Text>평화 협정에서의 항복만이 다른 문명을 종속국으로 만드는 유일한 방법입니다. 참고: '종속국 시스템 활성화'가 비활성화된 경우 이 옵션은 작동하지 않습니다.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE">
 			<Text>소극적인 스파이</Text>
 		</Row>

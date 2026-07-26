@@ -493,7 +493,7 @@
 			<Text>전-진!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR]</Text>
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COERCION">
@@ -501,28 +501,28 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
-			<Text>패배한 적 지상 유닛이 아군으로 합류함[NEWLINE]합류한 유닛은 [COLOR_POSITIVE_TEXT]보급 한도를 차지하지 않고[ENDCOLOR] 25%의 체력과 경험치 0으로 시작하며 즉시 이동할 수 있습니다. (단 공격은 불가)</Text>
+			<Text>패배한 적 지상 유닛이 아군으로 합류함[NEWLINE]합류한 유닛은 [COLOR_POSITIVE_TEXT]보급 한도를 차지하지 않고[ENDCOLOR] 25%의 체력과 경험치 0으로 시작하며 즉시 이동할 수 있습니다. (단 공격은 불가)[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_VIKING">
 			<Text>바이킹 (지상)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
-			<Text>[ICON_RAZING] 약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 [ICON_RAZING] 약탈 시 [ICON_GOLD] 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 피해</Text>
+			<Text>[ICON_RAZING] 약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 [ICON_RAZING] 약탈 시 [ICON_GOLD] 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 피해[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
 			<Text>바이킹 (해상)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
-			<Text>[ICON_RAZING] 약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 [ICON_RAZING] 약탈 시 [ICON_GOLD] 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 피해</Text>
+			<Text>[ICON_RAZING] 약탈 시 [ICON_MOVES]이동력 소모 없음, 도로가 아닌 시설 약탈 시 추가 [COLOR_POSITIVE_TEXT]체력 10[ENDCOLOR] 회복.[NEWLINE]도로가 아닌 시설 [ICON_RAZING] 약탈 시 [ICON_GOLD] 골드 30 [COLOR:105:105:105:255](시대별 보정)[ENDCOLOR], 근처 적 유닛에게 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 피해[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SUN_NEVER_SETS">
 			<Text>지지않는 태양</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUN_NEVER_SETS_HELP">
-			<Text>[ICON_MOVES] 이동력 +1[NEWLINE][ICON_CAPITAL] 수도에서 떨어진 타일마다 [ICON_STRENGTH] 전투력 1% 증가 (최대 30%)</Text>
+			<Text>[ICON_MOVES] 이동력 +1[NEWLINE][ICON_CAPITAL] 수도에서 떨어진 타일마다 [ICON_STRENGTH] 전투력 1% 증가 (최대 30%)[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROMOTION_CHASQUI_TRAINING">
@@ -544,14 +544,14 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENDURANCE_HELP">
-			<Text>적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR]</Text>
+			<Text>적 유닛 처치 시 체력 회복 [COLOR_POSITIVE_TEXT]+15[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPTION">
 			<Text>징병</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPTION_HELP">
-			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM">
@@ -559,7 +559,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_HELP">
-			<Text>[ICON_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+			<Text>[ICON_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL">
@@ -581,28 +581,28 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BANZAI_HELP">
 			<Text>최대 체력에서 감소한 체력 3마다 
-			[ICON_STRENGTH] 전투력 보너스 +1%[NEWLINE][ICON_POSITIVE_TEXT]승선[ENDCOLOR] 시 전투력 페널티 삭제.</Text>
+			[ICON_STRENGTH] 전투력 보너스 +1%[NEWLINE][COLOR_POSITIVE_TEXT]승선[ENDCOLOR] 시 전투력 페널티 삭제.[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUNPOWDER">
 			<Text>전격전 (화약)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUNPOWDER_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMORED">
 			<Text>전격전 (기갑)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMORED_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM">
 			<Text>마레 노스트룸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 보너스 +25%.[NEWLINE][COLOR_POSITIVE_TEXT]아군 영토[ENDCOLOR]에서 회복 시 체력 +5</Text>
+			<Text>[COLOR_POSITIVE_TEXT]도시[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 보너스 +25%.[NEWLINE][COLOR_POSITIVE_TEXT]아군 영토[ENDCOLOR]에서 회복 시 체력 +5[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ENGINEERING_CORP">
@@ -630,14 +630,14 @@
 			<Text>신성한 걸음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS_HELP">
-			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]</Text>
+			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH">
 			<Text>영원한 젊음</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
-			<Text>체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+			<Text>체력 회복 시 턴마다 추가 회복 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ANIMISM">
@@ -695,7 +695,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_JINETE_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]가능하다면 각 턴 첫 근접 공격 후퇴</Text>
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]가능하다면 각 턴 첫 근접 공격 후퇴[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA">
@@ -703,7 +703,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA_HELP">
-			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
+			<Text>공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
@@ -711,7 +711,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
-			<Text>첫 전투를 완료하면 기존 승급이 다음 승급 중 무작위 승급으로 교체됩니다:[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_HONOR}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR]</Text>
+			<Text>첫 전투를 완료하면 기존 승급이 다음 승급 중 무작위 승급으로 교체됩니다:[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_HONOR}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PROXENOS">
@@ -725,35 +725,35 @@
 			<Text>대항해시대</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AGE_OF_DISCOVERY_HELP">
-			<Text>타일을 공개할 때마다 [ICON_GOLD] 골드 1과 경험치 0.1을 얻습니다.[NEWLINE]이 값은 자연 경관의 경우 12, {TXT_KEY_IMPROVEMENT_GOODY_HUT}의 경우 4, 자원의 경우 3을 곱합니다.[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_GOODY_HUT}[ENDCOLOR]을 얻습니다.</Text>
+			<Text>타일을 공개할 때마다 [ICON_GOLD] 골드 1과 경험치 0.1을 얻습니다.[NEWLINE]이 값은 자연 경관의 경우 12, {TXT_KEY_IMPROVEMENT_GOODY_HUT}의 경우 4, 자원의 경우 3을 곱합니다.[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_GOODY_HUT}[ENDCOLOR]을 얻습니다.[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_VENETIAN_CRAFTSMANSHIP">
 			<Text>베네치아 공작술</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VENETIAN_CRAFTSMANSHIP_HELP">
-			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
+			<Text>[ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET">
 			<Text>보물 선단</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
-			<Text>[ICON_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE]공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 가능</Text>
+			<Text>[ICON_VISION] 시야 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE]공격 시 [ICON_STRENGTH] 전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]우호 영토 밖 체력 회복 가능[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH">
 			<Text>개선</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH_HELP">
-			<Text>[ICON_STRENGTH] 전투력 +15%.[NEWLINE] 적 처치 시[ICON_STRENGTH] 전투력의 50%만큼 [ICON_GREAT_GENERAL] 위대한 장군 포인트를 얻습니다.</Text>
+			<Text>[ICON_STRENGTH] 전투력 +15%.[NEWLINE] 적 처치 시[ICON_STRENGTH] 전투력의 50%만큼 [ICON_GREAT_GENERAL] 위대한 장군 포인트를 얻습니다.[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_FORCE">
 			<Text>무차별 공격</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_FORCE_HELP">
-			<Text>야만인 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR]</Text>
+			<Text>야만인 대항 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_0">
@@ -819,7 +819,7 @@
 			<Text>빔 액슬</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BEAM_AXLE_HELP">
-			<Text>[ICON_NEGATIVE_TEXT]숲[ENDCOLOR], [ICON_NEGATIVE_TEXT]정글[ENDCOLOR], [ICON_NEGATIVE_TEXT]습지[ENDCOLOR], [ICON_NEGATIVE_TEXT]언덕[ENDCOLOR]으로 이동 시 [ICON_MOVES] 이동력 소모 +1 (중복되지 않음)[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]숲[ENDCOLOR], [COLOR_NEGATIVE_TEXT]정글[ENDCOLOR], [COLOR_NEGATIVE_TEXT]습지[ENDCOLOR], [COLOR_NEGATIVE_TEXT]언덕[ENDCOLOR]으로 이동 시 [ICON_MOVES] 이동력 소모 +1 (중복되지 않음)[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE">
@@ -1129,7 +1129,7 @@
 			<Text>득점왕</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCHUTZENKONIG_HELP">
-			<Text>적이 아닌 [ICON_RES_MARRIAGE] 결혼한 도시 국가 하나당 [ICON_STRENGTH] 전투력 +2% 증가 (최대 30%)</Text>
+			<Text>적이 아닌 [ICON_RES_MARRIAGE] 결혼한 도시 국가 하나당 [ICON_STRENGTH] 전투력 +2% 증가 (최대 30%)[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_STRENGTH">
@@ -1381,7 +1381,7 @@
 			<Text>싸움닭</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIGHTING_COCK_HELP">
-			<Text>최대 체력이 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 페널티 제거</Text>
+			<Text>최대 체력이 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 페널티 제거</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LEGATUS_LEGIONIS">
@@ -1409,7 +1409,7 @@
 			<Text>대형 기마 무용</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_HORSE_DANCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]요새화[ENDCOLOR]시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 페널티 제거</Text>
+			<Text>[COLOR_POSITIVE_TEXT]요새화[ENDCOLOR]시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 페널티 제거</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CROUCHING_TIGER">
@@ -1437,7 +1437,7 @@
 			<Text>봉합 카누</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SEWN_CANOES_HELP">
-			<Text>강을 건너 공격할 때 발생하는 전투력 페널티 제거[NEWLINE]강을 따라 이동할 때 [ICON_MOVES] 이동력이 2배로 증가</Text>
+			<Text>강을 건너 공격할 때 발생하는 전투력 페널티 제거[NEWLINE]강을 따라 이동할 때 [ICON_MOVES] 이동력이 2배로 증가[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_INVINCIBLE">
@@ -1447,19 +1447,33 @@
 			<Text>유닛이 턴을 최대 체력으로 시작했다면 [ICON_STRENGTH] 기본 전투력 +6 증가</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_LOST_PROTOTYPE">
+			<Text>잊혀진 프로토타입</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOST_PROTOTYPE_HELP">
+			<Text>방어 시 [ICON_STRENGTH] 전투력 +20%[NEWLINE]업그레이드 비용 -100%.[NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Eight Virtues of Bushido -->
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS">
 			<Text>정도</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]적 유닛이 체력 50% 이하[ENDCOLOR]일 때 공격 시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
+			<Text>[COLOR_POSITIVE_TEXT]적 유닛이 체력 50% 이하[ENDCOLOR]일 때 공격 시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] 정도</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
 			<Text>용기</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
-			<Text>공격 시 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
+			<Text>공격 시 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COURAGE_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] 용기</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
@@ -1467,44 +1481,83 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]이 타일에 인접한[ENDCOLOR] 유닛 [COLOR_POSITIVE_TEXT]회복[ENDCOLOR] 시 체력 +5 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
+			<Text>[COLOR_POSITIVE_TEXT]이 타일에 인접한[ENDCOLOR] 유닛 [COLOR_POSITIVE_TEXT]회복[ENDCOLOR] 시 체력 +5 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] 자애</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
 			<Text>존경</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]체력 50% 이상 유닛[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
+			<Text>[COLOR_POSITIVE_TEXT]체력 50% 이상 유닛[ENDCOLOR] 공격 시 [ICON_STRENGTH] 전투력 +20% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESPECT_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] 존경</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
 			<Text>진심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
-			<Text>전투에서 얻는 경험치 +50%[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
+			<Text>전투에서 얻는 경험치 +50%[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] 진심</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HONOR">
 			<Text>명예</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]아군 영토 밖[ENDCOLOR]에서 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
+			<Text>[COLOR_POSITIVE_TEXT]아군 영토 밖[ENDCOLOR]에서 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HONOR_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] 명예</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
 			<Text>충성심</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]아군 영토 내[ENDCOLOR]에서 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
+			<Text>[COLOR_POSITIVE_TEXT]아군 영토 내[ENDCOLOR]에서 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] 충성심</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
 			<Text>자제력</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
-			<Text>방어 시 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][ICON_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복</Text>
+			<Text>방어 시 [ICON_STRENGTH] 전투력 +15% 증가[NEWLINE]최대 체력보다 3 낮을 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 공격에 맞서 공격, 방어할 때 발생하는 전투 페널티 제거[NEWLINE]적 유닛을 물리칠 때마다 체력 10 회복[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT})[ENDCOLOR] 자제력</Text>
 		</Row>
 
+		<!-- Kris Swordsman pedia entries -->
+		<Row Tag="TXT_KEY_PROMOTION_INVULNERABIILITY_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] 무적</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SNEAK_ATTACK_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] 기습 공격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBITION_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] 결의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESTLESSNESS_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] 불안정</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENEMY_BLADE_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] 사기꾼의 무기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVIL_SPIRITS_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]({TXT_KEY_PROMOTION_MYSTIC_BLADE})[ENDCOLOR] 조상의 보호</Text>
+		</Row>
+
+		<!-- Plagues -->
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1">
 			<Text>승선함 I</Text>
 		</Row>
@@ -1550,7 +1603,7 @@
 			<Text>열의</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FERVOR_HELP">
-			<Text>[ICON_STRENGTH] 전투력 +10% 증가[NEWLINE]30턴 동안 지속</Text>
+			<Text>[ICON_STRENGTH] 전투력 +10% 증가[NEWLINE]30턴 동안 지속[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">

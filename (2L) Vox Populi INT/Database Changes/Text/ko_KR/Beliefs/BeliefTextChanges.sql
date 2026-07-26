@@ -231,7 +231,7 @@ SET Text = '초월적인 판단'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '새로운 시대로 진입할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 각 산출량을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]신성한 정원[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+3 [ICON_PEACE] 신앙, +5 [ICON_CULTURE] 문화; [ICON_SPY] 스파이 발견 시 모든 산출량 +20 [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] [ICON_RELIGION]성지에서 +5 [ICON_FOOD] 식량; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '새로운 시대로 진입할 때 당신 문명의 [ICON_RELIGION]종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] 각 산출량을 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] 제공합니다. [NEWLINE][COLOR_YELLOW]신성한 정원[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+3 [ICON_PEACE] 신앙, +5 [ICON_CULTURE] 문화; [ICON_SPY] 스파이가 발견당하거나 처치될 시 모든 산출량 +20 [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR] [ICON_RELIGION]성지에서 +5 [ICON_FOOD] 식량; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES';
 
 UPDATE Language_ko_KR
@@ -378,7 +378,7 @@ SET Text = '종교 재판'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_INQUISITOR]이단심문관의 구매 [ICON_PEACE] 비용이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다. 이단 제거 시 개종된 [ICON_CITIZEN]시민 1명마다 [ICON_GOLD]골드를 [COLOR_POSITIVE_TEXT]25[ENDCOLOR] 제공합니다. 당신 문명의 [ICON_SPY]스파이가 배치된 도시에 종교 압력을 [COLOR_POSITIVE_TEXT]52[ENDCOLOR] [COLOR:110:110:110:255](표준 속도)[ENDCOLOR] 행사하고 외국 도시에 주둔하면 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 증가합니다.'
+SET Text = '[ICON_INQUISITOR]이단심문관의 구매 [ICON_PEACE] 비용이 [COLOR_POSITIVE_TEXT]33%[ENDCOLOR] 감소합니다. 만약에 도시에 주둔한다면, 당신의 [ICON_SPY] 스파이가 [ICON_HAPPINESS_1] 행복을 2 제공하며 매 턴 다른 종교의 영향력을 26 감소시킵니다 [COLOR:110:110:110:255](보통 속도 기준)[ENDCOLOR] 스파이가 외국 도시에서 대기 시 매 턴 네트워크 포인트를 +8 얻습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS';
 
 UPDATE Language_ko_KR

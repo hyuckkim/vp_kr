@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" version="149">
+<Mod id="781c4891-2f7e-421a-b08e-7c389d0ca158" version="151">
   <Properties>
     <Name>(1L) Community Patch INT</Name>
-    <Teaser>(5.3.2) 문명 5의 버그 수정, AI 개선, 게임 최적화 및 API 확장</Teaser>
+    <Teaser>(5.4.1) 문명 5의 버그 수정, AI 개선, 게임 최적화 및 API 확장</Teaser>
     <Description>문명 5 멋진 신세계 DLL에 대한 핵심 AI 개선 사항과 버그 수정 사항이 포함되어 있습니다. 또한 Vox Populi 비공식 확장팩과 관련 모드에 대한 지원도 포함되어 있습니다.</Description>
     <Authors>hyuckkim, HANDANI</Authors>
     <SpecialThanks>디시인사이드 문명 갤러리(DCinside Civilization Gallery)</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <Homepage>http://github.com/handanikr/vp_kr/</Homepage>
     <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>147</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>151</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -53,6 +53,7 @@
     <File md5="F0D93DDFD5DEF449A339A562975209C1" import="0">Database Changes/Text/ko_KR/Religions/CoreReligionTextChanges.sql</File>
     <File md5="9B92371AA2F065BFFF5643AC36B26C6B" import="0">Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</File>
     <File md5="48820A641B622BE90F68FAB6C65B4060" import="0">Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</File>
+    <File md5="F4D766E29B2AA13CC8DBA67F16BF421A" import="0">Database Changes/Text/ko_KR/UI/CoreNewMissionText.xml</File>
     <File md5="F4D766E29B2AA13CC8DBA67F16BF421A" import="0">Database Changes/Text/ko_KR/UI/NewInterfaceModeText.xml</File>
     <File md5="1D04FD1F5BCCFDF8F5DC3EAA6C76D6DD" import="0">Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</File>
     <File md5="15133F46A8B9D1A208CDA3F65C00D82B" import="0">Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</File>
@@ -88,6 +89,7 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/Religions/CoreReligionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreNewUIText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreNewMissionText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UI/NewInterfaceModeText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</UpdateDatabase>

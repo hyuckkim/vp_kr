@@ -143,6 +143,9 @@
 		<Row Tag="TXT_KEY_ABLTY_CITY_INDIRECT_INCREASE">
 			<Text>도시 간접 사격 범위: +1</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_EXTRA_LUXURIES">
+			<Text>지역 사치 자원 복제 프로젝트 가능</Text>
+		</Row>
 
 		<!-- Theming bonus -->
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
@@ -230,9 +233,54 @@
 		<Row Tag="TXT_KEY_TP_CULTURE_PER_TURN">
 			<Text>턴 당 [ICON_CULTURE] 문화 +{1_Num}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_CITY_COST_DETAIL">
+			<Text>[ICON_BULLET]다음 정책 비용: {1_Num} [ICON_CULTURE] 문화 = 기본 {2_Num} [ICON_CULTURE] + {3_Num} [ICON_CULTURE] ({7_Num} 도시에서 +{5_Str}%)[NEWLINE][ICON_BULLET]새 도시는 비용을 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_CULTURE] (+{6_Str}%) 늘립니다.</Text>	
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY_EXPLAINER">
+			<Text>Each Tenet increases future Policy costs: Tier 1 [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR], Tier 2 [COLOR_NEGATIVE_TEXT]+{2_Num}%[ENDCOLOR], Tier 3 [COLOR_NEGATIVE_TEXT]+{3_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_HEADER">
+			<Text>정책 비용 변경:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_POLICIES">
+			<Text>[ICON_BULLET] 정책 및 이념 주의에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_BUILDINGS">
+			<Text>[ICON_BULLET] 건물에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_MINOR_CIVS">
+			<Text>[ICON_BULLET] 도시 국가에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_TRAITS">
+			<Text>[ICON_BULLET] 문명 특성에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY">
+			<Text>[ICON_BULLET]채택된 이념 주의 {2_Num}개에서 [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FORMULA">
+			<Text>기본 [ICON_CULTURE] 정책 비용 조정: {1_Num} [ICON_CULTURE]{2_Str}{3_Str}{4_Str} = {5_Num} [ICON_CULTURE].</Text>
+		</Row>
 		<!-- Science -->
 		<Row Tag="TXT_KEY_TP_SCIENCE_PER_TURN">
 			<Text>턴 당 [ICON_RESEARCH] 과학 +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_CITY_COST_DETAIL">
+			<Text>[ICON_BULLET]현재 기술 비용: {1_Num} [ICON_RESEARCH] 과학 = 기본 {2_Num} [ICON_RESEARCH] + {3_Num} [ICON_RESEARCH] ({7_Num} 도시에서 +{5_Str}%)[NEWLINE][ICON_BULLET]새 도시는 비용을 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_RESEARCH] (+{6_Str}% of base) 늘립니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_HEADER">
+			<Text>기술 비용 변경:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_CATCHUP_DISCOUNT">
+			<Text>[ICON_BULLET] 알려지지 않은 문명의 기술 발전 {2_Num}/{3_Num}에서 [COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_PREREQ_DISCOUNT">
+			<Text>[ICON_BULLET] 개발된 선택적 기술에서 [COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_FORMULA_NO_SCHOLAR">
+			<Text>기본 [ICON_RESEARCH] 기술 ​​비용 감소: {1_Num} [ICON_RESEARCH] / [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR] = {4_Num} [ICON_RESEARCH].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_FORMULA_WITH_SCHOLAR">
+			<Text>기본 [ICON_RESEARCH] 기술 ​​비용 감소: {1_Num} [ICON_RESEARCH] / ([COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] x [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR]) = {5_Num} [ICON_RESEARCH].</Text>
 		</Row>
 		<!-- Tourism -->
 		<Row Tag="TXT_KEY_TP_TOURISM_PER_TURN">
@@ -907,7 +955,7 @@
 			<Text>[ICON_CITY_SECURITY] 도시 보안 {2_Sign}{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY_PER_X_POPULATION">
-			<Text>[ICON_CITIZEN] 도시 인구 {1: number #.##}인당 [ICON_CITY_SECURITY] 도시 보안 {2_Sign}</Text>
+			<Text>{2_Sign} [ICON_CITIZEN] 도시 인구 {1: number #.##}당 [ICON_CITY_SECURITY] 도시 보안</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_STRIKE_STRENGTH_MODIFIER">
 			<Text>[ICON_RANGE_STRENGTH] 도시 공습 전투력 {2_Sign}{1_Num}%</Text>
@@ -1125,6 +1173,9 @@
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REDUCED_GLOBAL_FOLLOWER_REQUIREMENT">
 			<Text>모든 건물에 대한 필요 세계 추종자 {2_Sign}{1_Num}%</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_FRANCHISE_CHANCE">
+			<Text>이 도시에서 외국 [ICON_FRANCHISE] 프랜차이즈가 설립될 확률 {2_Sign}{1_Num}%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_FROM_OTHER_YIELD">
 			<Text>{1_Num}% of City {2_YieldIcon} {3_Yield:textkey} output (pre-Modifiers) is added to City {4_YieldIcon} {5_Yield:textkey} output (post-Modifiers)</Text>
 		</Row>
@@ -1141,7 +1192,7 @@
 			<Text>완성 시: 선택 가능한 무료 [ICON_GREAT_PEOPLE] 위인 {1_Num}명 [ICON_CAPITAL] 수도에 출현</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPY_POINTS">
-			<Text>완성 시: [ICON_SPY_POINT] 스파이 점수 {1_Num}점 획득</Text>
+			<Text>완성 시: [ICON_SPY_POINT] 스파이 포인트 {1_Num}점 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPIES">
 			<Text>완성 시: [ICON_SPY] 스파이 {1_Num}명 획득</Text>
@@ -1237,10 +1288,10 @@
 			<Text>정책 채택 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLDEN_AGE_START">
-			<Text>[ICON_GOLDEN_AGE] 황금기 시작 시: {1_InstantYield}</Text>
+			<Text>[ICON_GOLDEN_AGE] 황금기 시작 및 연장 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ON_GOLDEN_AGE_START">
-			<Text>[ICON_GOLDEN_AGE] 황금기 시작 시: 앞으로 이 도시에서 훈련되는 모든 유닛 경험치 {2_Sign}{1_Num}, 최대 {3_Num}</Text>
+			<Text>[ICON_GOLDEN_AGE] 황금기 시작 및 연장 시: 앞으로 이 도시에서 훈련되는 모든 유닛 경험치 {2_Sign}{1_Num}, 최대 {3_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_WLTKD">
 			<Text>이 도시에서 [ICON_HAPPINESS_1] "국왕 경축일" 시작 시: {1_InstantYield}</Text>
@@ -1324,7 +1375,7 @@
 			<Text>적 [ICON_SPY] 스파이 처치 시: {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_LUXURIES">
-			<Text>이 도시가 소유한 시설 타일에서 사치 자원 +100% 추가 획득</Text>
+			<Text>이 도시가 소유한 시설 타일에서 사치 자원 +1개 추가 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REMOVE_OCCUPIED_UNHAPPINESS">
 			<Text>[ICON_OCCUPIED] 점령에서 오는 [ICON_HAPPINESS_3] 불행 제거</Text>
@@ -1442,6 +1493,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INDUSTRIAL_CONNECTION">
 			<Text>도시가 [ICON_CAPITAL] 수도와 연결된 [ICON_INDUSTRIAL_CONNECTED] 산업 도시여야 함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PUPPET">
+			<Text>도시가 [ICON_PUPPET] 괴뢰여야 함</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_FRANCHISES">
+			<Text>필요한 글로벌 [ICON_FRANCHISE] 프랜차이즈 수: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PERCENT_MONOPOLIES">
+			<Text>필요한 글로벌 [ICON_MONOPOLY] 독점 수: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REQUIRED_BUILDINGS_GLOBAL">
 			<Text>어떤 도시든 건물 필요: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
@@ -1690,7 +1750,19 @@
 			<Text>[ICON_BULLET] 이 도시를 통과하는 어떠한 교역로든: {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_GOLDEN_AGE_START">
-			<Text>[ICON_BULLET] [ICON_GOLDEN_AGE] 황금기 턴 추가: {1_YieldBoosts} (제한: {2_YieldBoostCaps})</Text>
+			<Text>[ICON_BULLET] 시작 또는 연장된 [ICON_GOLDEN_AGE] 황금기 수마다 매 턴 {1_YieldBoosts} (제한: {2_YieldBoostCaps})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_INCREASING">
+			<Text>[ICON_BULLET]수도와의 거리에 따라 {1_YieldBoosts} (제한: {2_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_DECREASING">
+			<Text>[ICON_BULLET]수도와의 거리에 따라 {1_YieldBoosts} (제한: {2_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_INCREASING_WITH_BASE_VALUE">
+			<Text>[ICON_BULLET]{1_YieldBoostsBase}, 수도와의 거리에 따라 +{2_YieldBoosts}% (제한: {3_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_DECREASING_WITH_BASE_VALUE">
+			<Text>[ICON_BULLET]{1_YieldBoostsBase}, 수도와의 거리에 따라 -{2_YieldBoosts}% (제한: {3_YieldBoostCaps}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_THEMES">
 			<Text>[ICON_BULLET] 도시에 있는 각 테마별 [ICON_GREAT_WORK] 걸작: {1_YieldBoosts}</Text>
@@ -1865,9 +1937,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_BUILDINGS">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 건물에서</Text>
-		</Row>
-		<Row Tag="TXT_KEY_YIELD_MOD_CAPITAL">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% for [ICON_CAPITAL] Capital from Policies</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CONQUEST">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% from City Conquest ({2_Num} {2: plural 1?Turn; other?Turns;} remaining)</Text>
@@ -2099,8 +2168,8 @@
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
 			<Text>[NEWLINE][ICON_BULLET] 기업: {1_Num}%</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
-			<Text>[NEWLINE][ICON_BULLET] 문명화 사명에 의한 수치: {1_Num}%</Text>
+		<Row Tag="TXT_KEY_PRODMOD_BUILDINGS_PRIOR_ERAS">
+			<Text>[NEWLINE][ICON_BULLET] 이른 시대 건물: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_WONDER_UNITPROMOTION">
 			<Text>[NEWLINE][ICON_BULLET] 주둔 중인 유닛의 승급: {1_Num}%</Text>
@@ -2268,6 +2337,12 @@
 		<!-- Build action disabled tooltips -->
 		<Row Tag="TXT_KEY_BUILD_BLOCKED_OTHER_UNIT_WORKING">
 			<Text>이미 다른 유닛이 이곳에서 작업 중입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_ENEMY_TERRITORY">
+			<Text>{@1_ImprovementName} {1: plural 1?은; 2?는;} 적 영토에서 건설할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_TILE_IMPROVEMENT">
+			<Text>이 타일의 기존 시설이 타일 획득을 막습니다.</Text>
 		</Row>
 		<!-- Upgrade action disabled tooltips -->
 		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_EMBARKED">
@@ -2587,34 +2662,34 @@
 
 		<!-- World Congress screen -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_PATRONAGE_FINISHER_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 정책으로 부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 정책으로 부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 종교 개혁으로 부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 종교 개혁으로 부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_TRAIT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 문명 특성으로 부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 문명 특성으로 부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_FAITH_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 종교적 권위로부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 종교적 권위로부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CAPITALS_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 정복당한 수도들로부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 정복당한 수도들로부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DOF_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 우정 선언으로부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 우정 선언으로부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RA_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 연구 협약으로부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 연구 협약으로부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DP_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 방위 조약으로부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 방위 조약으로부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_IMPROVEMENT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 도시 국가 대사관으로부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 도시 국가 대사관으로부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET] 턴 당 골드로부터 {1_NumVotes}</Text>
+			<Text>[NEWLINE][ICON_BULLET] 턴 당 골드로부터 [COLOR_POSITIVE_TEXT]{1_NumVotes}표[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEUTRAL">
 			<Text>[NEWLINE][NEWLINE]영향을 거의 받지 않은 문명:</Text>
@@ -3524,6 +3599,63 @@
 			<Text>수도 없음</Text>
 		</Row>
 		<!-- Quests -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_FORMAL">
+			<Text>그들은 당신의 문명이 {1_TargetName:textkey}에 전쟁을 선포하길 원합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER_FORMAL">
+			<Text>그들은 당신이 {1_NationalWonderName:textkey}{1: plural 1?을; 2?를;} 건설하길 원합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_SPECIFIC_UNIT_FORMAL">
+			<Text>그들은 당신이 최소 {2_XP} 경험치의 {1_UnitName}{@1: plural 1?을; 2?를;} 보내길 원합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
+			<Text>그들은 당신이 {1_CityStateName:textkey}{1: plural 1?을; 2?를;} 발견하길 원합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_FORMAL">
+			<Text>일시적으로 외교 임무의 효율성이 증가합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL">
+			<Text>그들은 턴당 [ICON_TOURISM]관광이 가장 많은 문명에게 보상하겠다고 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} 현재 당신의 문명이 1위이며 턴당 [ICON_TOURISM]관광 점수가 [COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} 현재 1위 문명의 턴당 [ICON_TOURISM]관광 점수는 {1_LeaderScore}이며 당신의 문명의 턴당 [ICON_TOURISM]관광 점수는 [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]입니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL">
+			<Text>그들은 [ICON_GREAT_PEOPLE] 위대한 예술가, 위대한 작가, 위대한 음악가, 그리고 고고학자들을 가장 많이 배출한 플레이어에게 보상을 하겠다고 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL} 현재 플레이어의 문명이 1위이며 [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]명을 배출했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL} 현재 1위 문명이 배출한 유닛은 [ICON_GREAT_PEOPLE]{1_LeaderScore}명이며, 당신은 [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]명을 배출했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL">
+			<Text>그들은 [ICON_GREAT_PEOPLE] 위대한 과학자, 위대한 상인, 그리고 위대한 엔지니어들을 가장 많이 배출한 플레이어에게 보상을 하겠다고 합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL} 현재 플레이어의 문명이 1위이며 [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]명을 배출했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL} 현재 1위 문명이 배출한 유닛은 [ICON_GREAT_PEOPLE]{1_LeaderScore}명이며, 당신은 [ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]명을 배출했습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ARCHAEOLOGY_FORMAL">
+			<Text>고고학자를 이 도시 국가 주변으로 보내십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CIRCUMNAVIGATION_FORMAL">
+			<Text>세계 일주를 완료하는 첫번째 문명이 되십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LIBERATION_FORMAL">
+			<Text>그들은 당신이 {1_CityStateName:textkey}{1: plural 1?을; 2?를;} 해방해주길 요청합니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE_FORMAL">
+			<Text>야만인 무리로부터 그들을 보호하십시오! 퀘스트가 끝날 때에 야만인이 이 도시에 인접해 있다면, 도시가 야만인으로 전락할 것입니다!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION_FORMAL">
+			<Text>그들의 동맹에 대항하는 혁명이 발생하고 있습니다!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_FORMAL">
 			<Text>{@1_CityName}를 찾아주길 원합니다.</Text>
 		</Row>
@@ -3532,6 +3664,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_BUILD_X_BUILDINGS_FORMAL">
 			<Text>{@1_Building} [COLOR_POSITIVE_TEXT]{2_Num}개[ENDCOLOR]를 건설하십시오.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_MISSION_FORMAL">
+			<Text>[COLOR_POSITIVE_TEXT]{@1_SpyMission}[ENDCOLOR] 작전을 수행하십시오.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
 			<Text>{1_Civ}에 대한 첩보 활동을 수행하십시오.</Text>

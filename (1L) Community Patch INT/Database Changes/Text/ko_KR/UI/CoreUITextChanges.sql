@@ -635,10 +635,19 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_NEGATIVE_TEXT]이념 변경 때문에 앞으로 {1_Turns}턴간 제국이 무정부주의 상태입니다. 무정부주의 상태에서는 [ICON_RESEARCH]과학, [ICON_GOLD]골드, [ICON_CULTURE]문화, [ICON_PEACE 신앙을 얻을 수 없으며, 도시에서 아무것도 [ICON_PRODUCTION]생산하지 못합니다[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_TP_ANARCHY';
 
+-- Science
+UPDATE Language_ko_KR
+SET Text = '각 도시는 [ICON_RESEARCH] 기술 비용을 +{1_Str}% 증가시킵니다.'
+WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST';
+
 -- Culture
 UPDATE Language_ko_KR
 SET Text = '다음 정책 채택 : [COLOR_POSITIVE_TEXT]{1_Num: number #}턴[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_NEXT_POLICY_TURN_LABEL';
+
+UPDATE Language_ko_KR
+SET Text = '각 괴뢰가 아닌 도시는 [ICON_CULTURE] 정책 비율을 +{1_Str}% 증가시킵니다.'
+WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST';
 
 -- Faith
 UPDATE Language_ko_KR
