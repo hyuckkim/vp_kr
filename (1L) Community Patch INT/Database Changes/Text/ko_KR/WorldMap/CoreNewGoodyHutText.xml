@@ -13,6 +13,9 @@
 		<Row Tag="TXT_KEY_GOODY_SCIENCE">
 			<Text>당신 문명을 진보시킬 기술을 담고 있는 유물을 발견했습니다!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_GOODY_LOST_PROTOTYPE">
+			<Text>잃어버린 프로토타입을 되찾았습니다! 유닛은 일시적인 방어력 보너스를 얻고 다음 업그레이드는 무료가 됩니다.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GOODY_CHOOSE_PRODUCTION">
 			<Text>가장 가까운 도시에 [ICON_PRODUCTION] 생산을 제공하십시오.</Text>
 		</Row>

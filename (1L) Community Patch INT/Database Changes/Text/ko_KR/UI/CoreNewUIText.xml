@@ -1273,7 +1273,7 @@
 			<Text>이 도시에 {2_GreatPersonIcon} {3_GreatPerson:textkey} 탄생 시: {4_YieldIcon} {5_Yield:textkey} 산출량의 {1_Num}%에 해당하는 {6_YieldIcon} {7_Yield:textkey} 획득</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_EXPEND">
-			<Text>[ICON_GREAT_PEOPLE] 위신 소모 시: [ICON_CAPITAL] 수도에 {1_InstantYield}</Text>
+			<Text>[ICON_GREAT_PEOPLE] 위인 소모 시: [ICON_CAPITAL] 수도에 {1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_INFLUENCE_ON_GP_EXPEND">
 			<Text>[ICON_GREAT_PEOPLE] 위인 소모 시: 모든 [ICON_CITY_STATE] 도시 국가에 대한 [ICON_INFLUENCE] 영향력 {2_Sign}{1_Num}</Text>
