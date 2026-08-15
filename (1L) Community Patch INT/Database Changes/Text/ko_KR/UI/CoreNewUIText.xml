@@ -2637,6 +2637,9 @@
 		<Row Tag="TXT_KEY_ALLY_CBP_SPY">
 			<Text>{1_Player}{1: plural 1?과; 2?와;} 동맹을 맺었습니다.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_ALREADY_IN_CITY">
+			<Text>당신의 스파이 {2_SpyName}{2: plural 1?이; 2?가;} 이미 {1_CityName}에 있습니다.</Text>
+		</Row>
 		<!-- Intrigue list -->
 		<Row Tag="TXT_KEY_INTRIGUE_BRIBE_WAR_US">
 			<Text>{1_PlayerName}{1: plural 1?이; 2?가;} {2_PlayerName}에게 당신을 향해 전쟁을 사주했습니다.</Text>
