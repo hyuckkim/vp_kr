@@ -42,7 +42,10 @@ CreateAppDir=no
 Name: "korean"; MessagesFile: "compiler:Languages\Korean.isl"
 
 [Files]
-Source: "..\AssetsMP\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP
+Source: "..\Assets\*"; DestDir: "{code:GetCIVDir}\Assets"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP
+Source: "..\VP_MODPACK\*"; DestDir: "{code:GetCIVDir}\Assets\DLC\VP_MODPACK"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP
+Source: "..\VPUI\*"; DestDir: "{code:GetCIVDir}\Assets\DLC\VPUI"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP
+Source: "..\UI_bc1\*"; DestDir: "{code:GetCIVDir}\Assets\DLC\UI_bc1"; Flags: ignoreversion createallsubdirs recursesubdirs; Components: VP
 ; 참고: 공유 시스템 파일에서 "Flags: ignoreversion"을 사용하지 마십시오.
 
 [Components]
@@ -72,6 +75,10 @@ Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(5a) More Luxuries INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(6b) Community Balance Overhaul - CF (EUI) INT"
 Type: filesandordirs; Name: "{userdocs}\My Games\Sid Meier's Civilization 5\MODS\(7bL) UI - Promotion Tree for VP Localized (v 1)"
+
+Type: filesandordirs; Name: "{code:GetCIVDir}\Assets\DLC\VP_MODPACK"
+Type: filesandordirs; Name: "{code:GetCIVDir}\Assets\DLC\VPUI"
+Type: filesandordirs; Name: "{code:GetCIVDir}\Assets\DLC\UI_bc1"
 
 [Code]
 

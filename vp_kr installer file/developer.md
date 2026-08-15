@@ -1,13 +1,15 @@
 # 모드팩 배포용 가이드
 까먹을거같아서
 
-### [모드팩 만들기](https://gall.dcinside.com/civilization/428523)  
-일단 모드팩을 만듭니다. 만든 폴더 이름은 적당히 바꿉니다.
+### 모드팩 만들기
+vp에 모드팩 메이커 모드가 나와서 그거 쓰면 오류 없이 잘됨  
+Ctrl + Shift + M ->
+DLC 자리에 VP_MODPACK으로 생성됨
 
-### AssetsMP에 들어가야 할 것들  
-일단 지우고...
-- Assets 폴더를 그대로 복사합니다.
-- /DLC에
-  - 아까 만든 모드팩
-  - UI_bc1
-  - VPUI
+`VP_MODPACK\Mods\(1)\Core Files\Overrides\Ingame.lua` 지우기
+
+VP_KR 리포지토리 (이폴더)에  
+VP_MODPACK (모드팩)  
+VPUI (VP 툴팁용 UI)  
+UI_bc1 (EUI)  
+복사해놓기
