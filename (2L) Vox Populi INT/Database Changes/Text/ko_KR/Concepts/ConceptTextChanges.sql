@@ -19,7 +19,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_GREEN]전문가와 도시 성장[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_TITLE';
 UPDATE Language_ko_KR
-SET Text = '특정 건물은 "전문가"를 배치할 수 있게 합니다. 전문가는 건물의 생산량을 늘리고, 위인 점수를 증가시킵니다. [COLOR_YELLOW] 하지만 전문가는 식량을 생산할 수 없고 다른 시민들보다 더 많은 식량을 소모하므로 도시의 성장을 감소시킵니다. 전문가의 식량 소모량은 현재 시대를 기반으로 합니다.[ENDCOLOR][NEWLINE][NEWLINE]    [COLOR_CYAN]고대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 3[NEWLINE]    [COLOR_CYAN]고전[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 4[NEWLINE]    [COLOR_CYAN]중세[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 5[NEWLINE]    [COLOR_CYAN]르네상스[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 6[NEWLINE]    [COLOR_CYAN]산업[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 7[NEWLINE]    [COLOR_CYAN]현대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 8[NEWLINE]    [COLOR_CYAN]원자력[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 9[NEWLINE]    [COLOR_CYAN]정보화[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 10'
+SET Text = '특정 건물은 "전문가"를 배치할 수 있게 합니다. 전문가는 건물의 생산량을 늘리고, 위인 점수를 증가시킵니다. [COLOR_YELLOW] 하지만 전문가는 [ICON_FOOD] 식량을 생산할 수 없고 다른 시민들보다 더 많은 식량을 소모하므로 도시의 성장을 감소시킵니다. 전문가의 [ICON_FOOD] 식량 소모량은 현재 시대를 기반으로 합니다.[ENDCOLOR][NEWLINE][NEWLINE]    [COLOR_CYAN]고대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 3[NEWLINE]    [COLOR_CYAN]고전[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 4[NEWLINE]    [COLOR_CYAN]중세[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 5[NEWLINE]    [COLOR_CYAN]르네상스[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 6[NEWLINE]    [COLOR_CYAN]산업[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 7[NEWLINE]    [COLOR_CYAN]현대[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 8[NEWLINE]    [COLOR_CYAN]원자력[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 9[NEWLINE]    [COLOR_CYAN]정보화[ENDCOLOR]: 전문가 소비 [ICON_FOOD]식량 10'
 WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_BODY';
 
 UPDATE Language_ko_KR
@@ -40,49 +40,49 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위인 탄생[ENDCOLOR]'
 WHERE Tag="TXT_KEY_SPECIALISTSANDGP_GENERATING_HEADING3_TITLE";
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]위대한 작가, 예술가, 음악가, 기술자, 과학자, 상인[ENDCOLOR]은 전문가와 불가사의가 생산한 위인 점수에 의해 생성됩니다. 각 도시의 위인 점수는 별도로 계산되며, 각 위인 점수는 합쳐지지 않습니다.[NEWLINE][NEWLINE]도시가 특정 위인의 위인 점수를 충분히 보유하면, 해당 유형의 위인을 생성하기 위해 점수가 소모됩니다. 다른 도시의 위인 점수는 사용되지 않습니다. 위인이 생성되면 모든 도시에서 해당 유형의 다음 위인을 생성하기 위한 요구 위인 점수가 증가합니다. 일부 건물 및 정책은 위인을 생성하는 속도를 증가시킵니다.[NEWLINE][NEWLINE][COLOR_CYAN]위대한 장군과 제독[ENDCOLOR]은 다른 위인과 조금 다르게 생성됩니다. 도시의 전문가 대신, 위대한 장군과 제독은 전투를 통해 생성됩니다. 지상 유닛이 경험치를 얻으면, 당신 문명의 위대한 장군 점수가 증가합니다. (야만인과의 전투를 제외하고) 해상 유닛이 경험치를 얻으면, 당신 문명의 위대한 제독 점수가 증가합니다. 충분한 점수를 얻으면, 위인을 얻고 다음 위인을 생성하기 위한 요구 위인 점수가 증가합니다.[NEWLINE][NEWLINE][COLOR_CYAN]위대한 선지자[ENDCOLOR]는 [ICON_PEACE] 신앙을 모은 결과로 등장하며, 종교를 창시하거나 강화할 수 있는 유일한 유닛입니다. 충분한 신앙 (표준 속도에서 [COLOR_YELLOW]800[ENDCOLOR])을 얻으면, 위대한 선지자가 생성됩니다. 다음 선지자에 필요한 신앙이 증가합니다. [COLOR_YELLOW]첫 선지자는 항상 수도에 등장하며, 이후 선지자는 가장 신앙 생산이 높은 도시에서 생성됩니다.[ENDCOLOR] 산업 시대에 진입하면, 위대한 선지자는 자동으로 생성되지 않으며, 도시에서 신앙으로 즉시 구매할 수 있습니다.[NEWLINE][NEWLINE]또한, 산업 시대에 진입하면, 선택한 사회 정책에 따라 남는 신앙을 사용해 위인을 즉시 구매할 수 있습니다.'
+SET Text = '[COLOR_CYAN]위대한 작가, 예술가, 음악가, 기술자, 과학자, 상인[ENDCOLOR]은 전문가와 불가사의가 생산한 [ICON_GREAT_PEOPLE] 위인 점수에 의해 생성됩니다. 각 도시의 위인 점수는 별도로 계산되며, 각 위인 점수는 합쳐지지 않습니다.[NEWLINE][NEWLINE]도시가 특정 위인의 위인 점수를 충분히 보유하면, 해당 유형의 위인을 생성하기 위해 점수가 소모됩니다. 다른 도시의 위인 점수는 사용되지 않습니다. 위인이 생성되면 모든 도시에서 해당 유형의 다음 위인을 생성하기 위한 요구 위인 점수가 증가합니다. 일부 건물 및 정책은 위인을 생성하는 속도를 증가시킵니다.[NEWLINE][NEWLINE][COLOR_CYAN]위대한 장군과 제독[ENDCOLOR]은 다른 위인과 조금 다르게 생성됩니다. 도시의 전문가 대신, 위대한 장군과 제독은 전투를 통해 생성됩니다. 지상 유닛이 경험치를 얻으면, 당신 문명의 위대한 장군 점수가 증가합니다. (야만인과의 전투를 제외하고) 해상 유닛이 경험치를 얻으면, 당신 문명의 위대한 제독 점수가 증가합니다. 충분한 점수를 얻으면, 위인을 얻고 다음 위인을 생성하기 위한 요구 위인 점수가 증가합니다.[NEWLINE][NEWLINE][COLOR_CYAN]위대한 선지자[ENDCOLOR]는 [ICON_PEACE] 신앙을 모은 결과로 등장하며, 종교를 창시하거나 강화할 수 있는 유일한 유닛입니다. 충분한 신앙 (표준 속도에서 [COLOR_YELLOW]800[ENDCOLOR])을 얻으면, 위대한 선지자가 생성됩니다. 다음 선지자에 필요한 신앙이 증가합니다. [COLOR_YELLOW]첫 선지자는 항상 수도에 등장하며, 이후 선지자는 가장 신앙 생산이 높은 도시에서 생성됩니다.[ENDCOLOR] 산업 시대에 진입하면, 위대한 선지자는 자동으로 생성되지 않으며, 도시에서 신앙으로 즉시 구매할 수 있습니다.[NEWLINE][NEWLINE]또한, 산업 시대에 진입하면, 선택한 사회 정책에 따라 남는 신앙을 사용해 위인을 즉시 구매할 수 있습니다.'
 WHERE Tag="TXT_KEY_SPECIALISTSANDGP_GENERATING_HEADING3_BODY";
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 작가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 [ICON_GW_WRITING] 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (극장이나 국가 서사시 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 많은 양의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 [ICON_GW_WRITING] 걸작 문학마다 8%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 작가는 [ICON_GW_WRITING] 걸작 문학 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성)을 만들 수 있고, 문학은 빈 슬롯이 있는 적절한 건물 (극장이나 국가 서사시 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 작가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: {TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR][NEWLINE]위대한 작가는 정치 논문을 작성해, 최근 ' || (SELECT BaseCultureTurnsToCount FROM Units WHERE Type = 'UNIT_WRITER') || '턴간 생산한 양만큼의 [ICON_CULTURE] 문화를 얻을 수 있으며, [COLOR_YELLOW]이 양은 [ICON_GW_WRITING] 걸작 문학마다 ' || (SELECT ScaleFromNumGWs FROM Units WHERE Type = 'UNIT_WRITER') || '%씩 증가합니다[ENDCOLOR]. 위대한 작가는 이 과정에서 소모됩니다.'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATWRITER_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 예술가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 예술가는 [ICON_GW_ART] 걸작 예술품 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성) 을 만들 수 있고, 예술품은 빈 슬롯이 있는 적절한 건물 (기념비, 갤러리, 박물관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 예술가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 황금기 점수[ENDCOLOR][NEWLINE]위대한 예술가를 소모해 [COLOR_YELLOW]황금기 점수를 얻을 수 있고, 이것은 [ICON_GOLDEN_AGE] 황금기를 시작할 수 있습니다. (추가 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화). 생성되는 황금기 점수의 양은 직전 15턴 동안의 [ICON_TOURISM] 관광과 [ICON_GOLDEN_AGE] 황금기 점수로 결정되며, 걸작 예술품마다 20%씩 증가합니다.[ENDCOLOR]'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 예술가는 [ICON_GW_ART] 걸작 예술품 ([ICON_CULTURE] 문화와 [ICON_TOURISM] 관광을 각각 생성) 을 만들 수 있고, 예술품은 빈 슬롯이 있는 적절한 건물 (기념비, 갤러리, 박물관 등)이 있는 가장 가까운 도시에 배치됩니다. 위대한 예술가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 황금기 점수[ENDCOLOR][NEWLINE]위대한 예술가를 소모해 [COLOR_YELLOW]황금기 점수를 얻을 수 있고, 이것은 [ICON_GOLDEN_AGE] 황금기를 시작할 수 있습니다. (추가 [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_CULTURE] 문화). 생성되는 황금기 점수의 양은 직전 ' || (SELECT BaseTurnsForGAPToCount FROM Units WHERE Type = 'UNIT_ARTIST') || '턴 동안의 [ICON_TOURISM] 관광과 [ICON_GOLDEN_AGE] 황금기 점수로 결정되며, 걸작 예술품마다 '|| (SELECT ScaleFromNumThemes FROM Units WHERE Type = 'UNIT_ARTIST') || '%씩 증가합니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATARTIST_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 음악가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 극장 또는 방송탑)이 있는 가장 가까운 도시에 [ICON_GW_MUSIC] 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 10턴 동안 100% 증가시킵니다. (보유한 [ICON_GW_MUSIC] 걸작 음악마다 1턴 추가) 또한 모든 도시에서 [ICON_HAPPINESS_1] 행복을 1 얻습니다. 대상 문명과 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 극장 또는 방송탑)이 있는 가장 가까운 도시에 [ICON_GW_MUSIC] 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 ' || (SELECT TourismBonusTurns FROM Units WHERE Type = 'UNIT_MUSICIAN') || '턴 동안 100% 증가시킵니다. (보유한 [ICON_GW_MUSIC] 걸작 음악마다 1턴 추가) 또한 모든 도시에서 [ICON_HAPPINESS_1] 행복을 1 얻습니다. 대상 문명과 [ICON_WAR] 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 과학자[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 시설: 아카데미[ENDCOLOR][NEWLINE]위대한 과학자를 사용해 아카데미를 만들 수 있습니다. 아카데미는 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR], 도시에 많은 과학을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무료 과학[ENDCOLOR][NEWLINE]위대한 과학자를 일시불 과학을 얻기 위해 사용할 수 있습니다. [COLOR_YELLOW]보유한 아카데미마다 무료 과학의 효과가 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR] 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 시설: 아카데미[ENDCOLOR][NEWLINE]위대한 과학자를 사용해 아카데미를 만들 수 있습니다. 아카데미는 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR], 도시에 많은 과학을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무료 과학[ENDCOLOR][NEWLINE]위대한 과학자를 일시불 과학을 얻기 위해 사용할 수 있습니다. 과학은 최근 ' || (SELECT BaseBeakersTurnsToCount FROM Units WHERE Type = 'UNIT_SCIENTIST') || '턴간 생산한 만큼 제공되며, [COLOR_YELLOW]보유한 아카데미마다 무료 과학의 효과가 [COLOR_POSITIVE_TEXT] ' || (SELECT Amount FROM Unit_ScalingFromOwnedImprovements WHERE ImprovementType = 'IMPROVEMENT_ACADEMY' AND UnitType = 'UNIT_SCIENTIST') || '%[ENDCOLOR] 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATSCIENTIST_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 상인[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMERCHANT_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 시설: 소도시[ENDCOLOR][NEWLINE]위대한 상인을 사용하여 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR] [ICON_GOLD] 골드와 [COLOR_YELLOW][ICON_FOOD] 식량[ENCDOLOR]을 공급하는 소도시 시설을 만들 수 있습니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무역 임무[ENDCOLOR][NEWLINE]만약 위대한 상인이 당신이 전쟁 중이 아닌 도시 국가 영토 안에 있다면, 무역 임무를 수행하기 위해 사용할 수 있습니다.[NEWLINE][NEWLINE]당신은 많은 [ICON_GOLD] 골드를 얻고 [COLOR_YELLOW]즉시 모든 도시에서 국왕 경축일이 시작됩니다. 보유한 소도시마다 골드와 국왕 경축일의 길이가 25% 증가합니다.[ENDCOLOR] 이 능력은 유닛을 소모합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 시설: 소도시[ENDCOLOR][NEWLINE]위대한 상인을 사용하여 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR] [ICON_GOLD] 골드와 [COLOR_YELLOW][ICON_FOOD] 식량[ENCDOLOR]을 공급하는 소도시 시설을 만들 수 있습니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 무역 임무[ENDCOLOR][NEWLINE]만약 위대한 상인이 당신이 전쟁 중이 아닌 도시 국가 영토 안에 있다면, 무역 임무를 수행하기 위해 사용할 수 있습니다.[NEWLINE][NEWLINE]당신은 ' || (SELECT BaseGoldTurnsToCount FROM Units WHERE Type = 'UNIT_MERCHANT') ||  '턴 동안 생산한 만큼 [ICON_GOLD] 골드를 얻고 [COLOR_YELLOW]즉시 모든 도시에서 ' || (SELECT BaseWLTKDTurns FROM Units WHERE Type = 'UNIT_MERCHANT') ||'턴 동안 국왕 경축일이 시작됩니다. 보유한 소도시마다 골드와 국왕 경축일의 길이가 ' || (SELECT Amount FROM Unit_ScalingFromOwnedImprovements WHERE ImprovementType = 'IMPROVEMENT_CUSTOMS_HOUSE' AND UnitType = 'UNIT_MERCHANT') || '% 증가합니다.[ENDCOLOR] 이 능력은 유닛을 소모합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMERCHANT_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 기술자[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATENGINEER_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 시설: 제조소[ENDCOLOR][NEWLINE]위대한 기술자를 사용하여 제조소를 만들 수 있습니다. 제조소는 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR] 많은 생산(망치)을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 생산 가속[ENDCOLOR][NEWLINE]위대한 기술자를 도시의 생산 가속을 위해 사용할 수 있습니다. [COLOR_YELLOW]가속하면 가장 생산이 높은 도시의 최근 5턴 분량의 생산을 제공합니다. 보유한 제조소마다 생산 가속의 효과가 10% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 시설: 제조소[ENDCOLOR][NEWLINE]위대한 기술자를 사용하여 제조소를 만들 수 있습니다. 제조소는 [COLOR_YELLOW]인접 보너스를 가진 모든 시설에서 시설로 계산되며[ENDCOLOR] 많은 [ICON_PRODUCTION] 생산을 공급합니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 생산 가속[ENDCOLOR][NEWLINE]위대한 기술자를 도시의 생산 가속을 위해 사용할 수 있습니다. [COLOR_YELLOW]가속하면 가장 생산이 높은 도시의 최근 ' || (SELECT BaseProductionTurnsToCount FROM Units WHERE Type = 'UNIT_ENGINEER') || '턴 분량의 생산을 제공합니다. 보유한 제조소마다 생산 가속의 효과가 ' || (SELECT Amount FROM Unit_ScalingFromOwnedImprovements WHERE ImprovementType = 'IMPROVEMENT_MANUFACTORY' AND UnitType = 'UNIT_ENGINEER') || '% 증가합니다.[ENDCOLOR][NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATENGINEER_HEADING3_BODY';
 
 UPDATE Language_ko_KR

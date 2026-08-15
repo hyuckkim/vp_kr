@@ -715,6 +715,10 @@ SET Text = '다음 세계 대회에서 이 지도자가 대표단 [COLOR_POSITIV
 WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT';
 
 UPDATE Language_ko_KR
+SET Text = '아직 두 플레이어 모두 이 항목을 거래할 수 있는 기술(철학)을 보유하고 있지 않습니다.'
+WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_NO_TECH';
+
+UPDATE Language_ko_KR
 SET Text = '다른 문명의 군사 유닛이나 민간 유닛이 당신의 영토를 [COLOR_POSITIVE_TEXT]{1_Num}턴[ENDCOLOR] 동안 자유롭게 드나들 수 있도록 허락합니다.[NEWLINE][NEWLINE]다른 문명이 당신 문명의 영역을 통과하도록 허용하면 해당 문명에 대한 [ICON_TOURISM]관광 수치가 증가합니다.[NEWLINE][NEWLINE]참고 : 당신의 군사 유닛은 다른 문명의 유닛이 차지하고 있는 타일로 이동할 수 없습니다.'
 WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_TT';
 
