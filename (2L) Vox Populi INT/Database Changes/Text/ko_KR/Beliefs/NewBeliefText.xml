@@ -69,7 +69,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BELIEF_CITY_OF_GOD">
-			<Text>성도에서 [ICON_CITIZEN] 시민이 탄생할 때마다 당신 문명의 [ICON_RELIGION] 종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_CULUTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. [NEWLINE][COLOR_YELLOW]천상의 동굴[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. ([ICON_PEACE] 신앙 +2, [ICON_GOLD] 골드 +2,[ICON_HAPPINESS_1] 행복 +2; [ICON_RELIGION] 성지의 [ICON_FOOD] 식량 +5; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)</Text>
+			<Text>성도에서 [ICON_CITIZEN] 시민이 탄생할 때마다 당신 문명의 [ICON_RELIGION] 종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. [NEWLINE][COLOR_YELLOW]천상의 동굴[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. ([ICON_PEACE] 신앙 +2, [ICON_GOLD] 골드 +2,[ICON_HAPPINESS_1] 행복 +2; [ICON_RELIGION] 성지의 [ICON_FOOD] 식량 +5; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CITY_OF_GOD_SHORT">
 			<Text>신의 도시</Text>
@@ -128,7 +128,7 @@
 			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_FOOD] 식량 +3[NEWLINE][ICON_FOOD] 식량 +10%[NEWLINE][NEWLINE][ICON_STRENGTH]도시 전투력 +3[NEWLINE]건물로 인한 도시 [ICON_STRENGTH] 전투력 10% 증가.[NEWLINE][ICON_RANGE_STRENGTH] 도시 공격력 10% 증가.[NEWLINE][NEWLINE]이 도시에 주둔한 유닛은 행동 여부에 상관없이 체력을 +5 회복합니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] 낙후로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_TOOLTIP">
-			<Text>[ICON_PEACE] 신앙 +3[NEWLINE][ICON_FOOD] 식량 +2[NEWLINE][NEWLINE]이 도시에서 [ICON_CITIZEN] 시민이 태어날 때마다 모든 산출량이 +5 증가합니다. [COLOR:110:110:110:255](시대별 보정)[NEWLINE][NEWLINE]해당 종교가 도시의 다수 종교일 경우, 다른 도시에 대한 종교적 압력이 +15% 증가하고, 다른 종교를 믿거나 다른 종교가 활발하게 확산되는 도시로부터는 해당 도시에 대한 종교적 압력이 -10% 감소합니다.[NEWLINE][NEWLINE][ICON_GOLD] 빈곤으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
+			<Text>[ICON_PEACE] 신앙 +3[NEWLINE][ICON_FOOD] 식량 +2[NEWLINE][NEWLINE]이 도시에서 [ICON_CITIZEN] 시민이 태어날 때마다 모든 산출량이 +5 증가합니다. [COLOR:110:110:110:255](시대별 보정)[ENDCOLOR][NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +15% 증가하고, 다른 종교를 믿거나 다른 종교가 활발하게 확산되는 도시로부터는 해당 도시에 대한 종교적 압력이 -10% 감소합니다.[NEWLINE][NEWLINE][ICON_GOLD] 빈곤으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOSQUE_TOOLTIP">
 			<Text>[ICON_PEACE] 신앙 +3[NEWLINE][ICON_RESEARCH] 과학 +2[NEWLINE][NEWLINE][ICON_GOLDEN_AGE] 황금기 동안 [ICON_CULTURE] 문화가 +15% 증가합니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_RESEARCH] 문맹으로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
