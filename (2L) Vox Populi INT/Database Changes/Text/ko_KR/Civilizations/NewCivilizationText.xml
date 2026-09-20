@@ -329,7 +329,7 @@
 			<Text>애플렉톤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_APLEKTON_HELP">
-			<Text>요새를 대체하는 비잔티움 고유 건물입니다.[NEWLINE][NEWLINE]이 타일에 주둔한 모든 유닛의 [ICON_STRENGTH] 방어력이 +50% 증가하고 다른 문명이 이를 [COLOR_NEGATIVE_TEXT]약탈[ENDCOLOR]할 수 없습니다. 공격 후에도 소유한 유닛이 이 타일에 주둔할 수 있는 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]와 아군 [COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛이 통과할 수 있는 [COLOR_POSITIVE_TEXT]운하[ENDCOLOR]가 포함되어 있습니다. [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 포함하여 대체하는 요새에 비해 산출량이 향상되었습니다.</Text>
+			<Text>요새를 대체하는 비잔티움 고유 건물입니다.[NEWLINE][NEWLINE]이 타일에 주둔한 모든 유닛의 [ICON_STRENGTH] 방어력이 +50% 증가하고 다른 문명이 이를 [COLOR_NEGATIVE_TEXT]강탈[ENDCOLOR]할 수 없습니다. 공격 후에도 소유한 유닛이 이 타일에 주둔할 수 있는 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]와 아군 [COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛이 통과할 수 있는 [COLOR_POSITIVE_TEXT]운하[ENDCOLOR]가 포함되어 있습니다. [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산을 포함하여 대체하는 요새에 비해 산출량이 향상되었습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_APLEKTON_TEXT">
 			<Text>{TXT_KEY_IMPROVEMENT_APLEKTON_HELP}[NEWLINE][NEWLINE]라틴어 'Applicatum'에서 유래한 애플렉톤(Aplekton)은 10~14세기에 요새화된 군사 기지를 뜻하는 비잔티움 용어였습니다. (이런 의미에서 그리스어 metaton과 유사합니다.) 애플렉톤은 주요 집결 장소였으며, 물자를 보관하고 테마타(Themata)의 지방 군대가 주요 제국군에 합류하여 원정을 벌이는 곳이었습니다. 원래 건축은 아마도 콘스탄티누스 5세 황제(재위 741~775)의 통치 기간에 이루어졌을 것으로 추정됩니다. 콘스탄티누스 7세 포르피로게니투스 황제(재위 945~959)는 제국 원정에 관한 논문에서 서쪽에서 동쪽으로의 애플렉톤을 다음과 같이 기록합니다. 말라기나(Malagina), 도릴라이온(Dorylaion), 카보르킨(Kaborkin), 콜로네이아(Koloneia), 카이사레이아(Kaisareia), 다지몬(Dazimon).</Text>
@@ -338,7 +338,7 @@
 			<Text>[LINK=IMPROVEMENT_APLEKTON]애플렉톤[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_APLEKTON_HELP">
-			<Text>이 타일에 주둔한 모든 유닛의 [ICON_STRENGTH] 방어력이 +50% 증가하고, 다른 문명이 이를 [COLOR_NEGATIVE_TEXT]약탈[ENDCOLOR]할 수 없습니다. 공격 후에도 소유한 유닛이 이 타일에 주둔할 수 있는 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]와 아군 [COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛이 통과할 수 있는 [COLOR_POSITIVE_TEXT]운하[ENDCOLOR]가 포함되어 있습니다.</Text>
+			<Text>이 타일에 주둔한 모든 유닛의 [ICON_STRENGTH] 방어력이 +50% 증가하고, 다른 문명이 이를 [COLOR_NEGATIVE_TEXT]강탈[ENDCOLOR]할 수 없습니다. 공격 후에도 소유한 유닛이 이 타일에 주둔할 수 있는 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]와 아군 [COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛이 통과할 수 있는 [COLOR_POSITIVE_TEXT]운하[ENDCOLOR]가 포함되어 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_APLEKTON_REC">
 			<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_CULTURE_LOCAL] 국경 성장 점수가 증가하고 타일을 방어할 수 있습니다.</Text>
