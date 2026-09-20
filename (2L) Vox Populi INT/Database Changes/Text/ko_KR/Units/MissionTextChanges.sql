@@ -47,7 +47,7 @@ WHERE Tag = 'TXT_KEY_MISSION_HURRY_PRODUCTION_HELP';
 
 -- Repair Fleet
 UPDATE Language_ko_KR 
-SET Text = '이 명령을 내리면 같은 타일과 주변 타일에 있는 모든 해상 및 승선 유닛이 받은 피해를 완전히 회복하고 [ICON_WAR] 군사 유닛 보급 한도를 1 증가시킵니다. 위인은 이 과정에서 소모됩니다.' 
+SET Text = '이 명령을 내리면 같은 타일과 주변 타일에 있는 모든 해상 및 승선 유닛이 받은 피해를 완전히 회복하고 [ICON_SILVER_FIST] 군사 유닛 보급 한도를 1 증가시킵니다. 위인은 이 과정에서 소모됩니다.' 
 WHERE Tag = 'TXT_KEY_MISSION_REPAIR_FLEET_HELP';
 
 -- Remove Heresy

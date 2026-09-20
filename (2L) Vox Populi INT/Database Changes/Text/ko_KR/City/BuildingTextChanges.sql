@@ -66,7 +66,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_STRATEGY';
 
 -- Stable
 UPDATE Language_ko_KR
-SET Text = '대장간은 도시 근처에 개발된 [ICON_RES_HORSE] 말, [ICON_RES_SHEEP] 양, 또는 [ICON_RES_COW] 소 자원이 있어야 건설할 수 있습니다. 이 건물은 위의 자원 생산량을 증가시키고 [ICON_WAR] 군사 보급을 제공합니다.'
+SET Text = '대장간은 도시 근처에 개발된 [ICON_RES_HORSE] 말, [ICON_RES_SHEEP] 양, 또는 [ICON_RES_COW] 소 자원이 있어야 건설할 수 있습니다. 이 건물은 위의 자원 생산량을 증가시키고 [ICON_SILVER_FIST] 군사 보급을 제공합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_STABLE_STRATEGY';
 
 -- Lighthouse

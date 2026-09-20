@@ -146,7 +146,7 @@
 			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][ICON_PRODUCTION] 생산 +3[NEWLINE][NEWLINE][ICON_HAPPINESS_1] "국왕 경축일" 동안 [ICON_RESEARCH] 과학이 +10% 증가합니다.[NEWLINE][NEWLINE]다른 종교를 믿는 도시 또는 다른 종교가 활발하게 확산되는 도시들로부터 이 도시에 대한 종교적 압력이 -15% 감소합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] 낙후로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
-			<Text>[ICON_PEACE] 신앙 +2[NEWLINE][NEWLINE]보유한 유닛이 군사 유닛을 물리칠 때마다 [ICON_PEACE] 신앙이 +2 증가하고,그 유닛이 이 도시에서 생산되었다면 추가로 +8 [ICON_PEACE]신앙을 얻습니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] 낙후로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
+			<Text>[ICON_PEACE] 신앙 +2 [ICON_SILVER_FIST] 군사 유닛 보급 한도 +1 [NEWLINE][NEWLINE]보유한 유닛이 군사 유닛을 물리칠 때마다 [ICON_PEACE] 신앙이 +2 증가하고,그 유닛이 이 도시에서 생산되었다면 추가로 +8 [ICON_PEACE]신앙을 얻습니다.[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE][NEWLINE][ICON_FOOD] / [ICON_PRODUCTION] 낙후로 인한 [ICON_HAPPINESS_3] 불행이 -1 감소합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DAOGUAN_TOOLTIP">
 			<Text>[ICON_PEACE] 신앙 +4[NEWLINE][ICON_CITY_SECURITY] 도시 보안 +10[NEWLINE][NEWLINE]건설 시 [ICON_SPY_POINT] 스파이 포인트 +10[NEWLINE][NEWLINE]해당 도시의 다수 종교가 이 종교일 경우, 다른 도시에 대한 종교적 압력이 +25% 증가합니다.[NEWLINE]다른 종교를 믿는 도시 또는 다른 종교가 활발하게 확산되는 도시들로부터 이 도시에 대한 종교적 압력이 -15% 감소합니다.[NEWLINE][NEWLINE]이 도시의 전문가 1명은 더 이상 [ICON_HAPPINESS_3] 도시화로 인한 불행을 발생시키지 않습니다.</Text>

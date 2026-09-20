@@ -80,6 +80,10 @@ SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_CULTURE]�
 WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST';
 
 UPDATE Language_ko_KR
+SET Text = '[ICON_BULLET]다음 정책 비용: {1_Num} [ICON_CULTURE] 문화 = {2_Num} [ICON_CULTURE] {8_Str} + {3_Num} [ICON_CULTURE] ({7_Num} 도시에서 +{5_Str}%)[NEWLINE][ICON_BULLET]새 도시는 비용을 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_CULTURE] (+{6_Str}% + {8_Str}) 늘립니다.'
+WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST_DETAIL';
+
+UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]  일시적인 [ICON_CULTURE]문화 보너스에서 (남은 턴: {2_TurnsLeft})'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS';
 
