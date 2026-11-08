@@ -45,7 +45,7 @@ VP와 마찬가지로 [Inno Setup](https://jrsoftware.org/isinfo.php)으로 만�
 
 ## 저장소에 올라와 있는 파일들은 다음과 같습니다 :
 
-**<> Code ▼ 버튼을 누르고 Download ZIP**을 누르면 모드와 전체 소스를 받을 수 있습니다.
+**<> Code ▼ 버튼을 누르고 Download ZIP**을 누르면 모드에 필요한 파일만 받을 수 있습니다. (아이콘, 설치 프로그램 설정 파일 등은 포함되지 않으며, 전체 소스는 `git clone`으로 받을 수 있습니다.)
 
 
 

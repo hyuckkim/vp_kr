@@ -1,0 +1,5 @@
+# GitHub의 Download ZIP(git archive)에서 제외할 파일들
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/icon export-ignore
+"/vp_kr installer file" export-ignore
