@@ -400,5 +400,29 @@
 		<Row Tag="TXT_KEY_CORPORATION_SPREADING_QUESTION">
 			<Text>내 기업을 어떻게 확장시키나요?</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TOPIC_RELIGION_HOLY_CITY">
+			<Text>성도</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_HOLY_CITY_TITLE">
+			<Text>[COLOR_YELLOW]{TXT_KEY_TOPIC_RELIGION_HOLY_CITY}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_HOLY_CITY_BODY">
+			<Text>위대한 선지자가 종교를 창시하면, 종교를 창시한 도시는 새 종교의 성도가 됩니다. 성도는 따로 신자 없이도 당신 종교의 종교 압력을 생성합니다.[NEWLINE][NEWLINE]창시자, 강화, 개혁 교리는 성도를 소유한 경우에만 혜택을 받을 수 있습니다. [COLOR_YELLOW]종교를 통제하지 않는 경우, 성도를 정복하여 종교를 통제할 수 있습니다. 이렇게 하면 창시한 것처럼 모든 교리의 혜택을 누릴 수 있지만, [ICON_RELIGION] 주 종교가 변경되는 순간에 가지고 있었던 모든 [ICON_PEACE] 신앙은 [ICON_GOLDEN_AGE] 황금기 점수로 전환됩니다.[ENDCOLOR][NEWLINE][NEWLINE]성도 상태를 제거하려면, 성도를 정복하고 다른 종교의 이단심문관이 이단 제거 행동을 수행해야 합니다(위대한 선지자는 작동하지 않습니다!).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_HOLY_CITY_ADV_QUEST">
+			<Text>성도가 무엇인가요?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOPIC_RELIGION_REFORMATION">
+			<Text>[COLOR_GREEN]종교 개혁하기[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_REFORMATION_TITLE">
+			<Text>[COLOR_GREEN]{TXT_KEY_TOPIC_RELIGION_REFORMATION}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_REFORMATION_BODY">
+			<Text>창시자 교리는 성도에 새 국가 불가사의를 건설할 수 있게 해 줍니다. 이러한 불가사의를 건설하려면 전 세계 인구의 일정 비율(지도 크기에 따라 달라짐)이 해당 종교를 따라야 합니다. 불가사의를 완성하면 개혁 교리를 선택할 수 있습니다. 개혁 교리는 특정 승리 조건을 추구하는 데 도움이 되는 강력한 보너스를 제공하며, [ICON_PEACE] 신앙으로 다양한 유형의 건물과 유닛을 구매할 수 있게 해 줄 수도 있습니다.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_REFORMATION_ADV_QUEST">
+			<Text>어떻게 종교를 개혁하나요?</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>

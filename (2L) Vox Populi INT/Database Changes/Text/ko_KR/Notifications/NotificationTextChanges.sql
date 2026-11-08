@@ -107,7 +107,7 @@ SET Text = '세계 패권이 장악되지 않았습니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL';
 
 UPDATE Language_ko_KR
-SET Text = '어느 문명도 세계 패권 결의안의 조건을 충족시킬 {1_NumDelegates}표를 얻지 못했습니다. 대신 가장 많은 지지를 확보한 상위 {2_NumCivilizations}개의 문명이 영구적으로 세계 대회 추가 대표단을 확보합니다.'
+SET Text = '어느 문명도 세계 패권 결의안의 조건을 충족시킬 {1_NumDelegates}표를 얻지 못했습니다. 대신 가장 많은 지지를 확보한 상위 {2_NumCivilizations}개의 문명이 영구적으로 5개의 세계 대회 추가 대표단을 확보합니다.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL_DETAILS';
 
 UPDATE Language_ko_KR
