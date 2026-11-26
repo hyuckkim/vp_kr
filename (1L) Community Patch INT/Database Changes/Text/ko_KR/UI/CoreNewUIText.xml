@@ -2097,6 +2097,9 @@
 		<Row Tag="TXT_KEY_GPP_MOD_CAPITAL">
 			<Text>[NEWLINE][ICON_BULLET] [ICON_RES_MARRIAGE] 외교적 결혼으로부터 [ICON_CAPITAL] 수도에서 {1: number "'+'##;'-'##"}%</Text>
 		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET] 종교 교리에서 {1: number "'+'##;'-'##"}%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GPP_MOD_GA_BELIEF">
 			<Text>[NEWLINE][ICON_BULLET] [ICON_GOLDEN_AGE] 황금기(종교 교리)에서 {1: number "'+'##;'-'##"}%</Text>
 		</Row>
