@@ -1514,7 +1514,7 @@
 
 		<!-- A City Revolts! -->
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT_UNKNOWN">
-			<Text>{3_CivName}{3: plural 1?이; 2?가;} 반란을 일으켜 합류했습니다!</Text>
+			<Text>한 도시가 반란을 일으켜 {1_CivName}에 합류했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT_FREE_CITY">
 			<Text>{1_CivAdjective} {2_CityName}에 폭동이 발생했습니다. 그들 스스로 {3_CivName}의 도시 국가가 되길 선언했습니다!</Text>

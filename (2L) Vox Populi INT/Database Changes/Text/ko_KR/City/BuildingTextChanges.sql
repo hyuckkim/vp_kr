@@ -14,7 +14,7 @@ SET Text = '의학연구소는 게임 후반 건물입니다. 이것은 도시 �
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '이 도시에서 {TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_POISON} [ICON_SPY] 작전을 막습니다.'
+SET Text = '이 도시에서 {TXT_KEY_ESPIONAGE_EVENT_CHOICE_POISON_WATER} [ICON_SPY] 작전을 막습니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_HELP';
 
 -- Garden

@@ -1320,7 +1320,7 @@
 			<Text>[ICON_BULLET] [ICON_CULTURE] 기타에서: {1: number "'+'##;'-'##"}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_RELIGIOUS_UNREST_UNHAPPINESS_MOD">
-			<Text>[ICON_BULLET] {1_Icon} 기타에서: {1: number "'+'##;'-'##"}%</Text>
+			<Text>[ICON_BULLET] {1_Icon} 기타에서: {2: number "'+'##;'-'##"}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYCOUNT_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 도시의 수에서</Text>
