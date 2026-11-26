@@ -883,7 +883,14 @@
 			<Text>공성 부정확성</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
-			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-33%[ENDCOLOR]</Text>
+			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_PARABOLIC_PAYLOAD">
+			<Text>포물선 탄도</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PARABOLIC_PAYLOAD_HELP">
+			<Text>장애물을 [COLOR_POSITIVE_TEXT]한 단계 더[ENDCOLOR] 넘어 [ICON_RANGE_STRENGTH]원거리 공격 가능</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RECONNAISSANCE">
