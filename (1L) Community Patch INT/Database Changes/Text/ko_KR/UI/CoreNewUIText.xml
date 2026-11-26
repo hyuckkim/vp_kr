@@ -3913,5 +3913,13 @@
 		<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_TURN_ON_ALL_BUTTON">
 			<Text>모두 켜기</Text>
 		</Row>
+
+		<!-- Staging room -->
+		<Row Tag="TXT_KEY_MP_FILL_AI_BUTTON">
+			<Text>AI로 채우기</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_FILL_AI_BUTTON_TT">
+			<Text>아무도 참가하지 않은 빈 슬롯을 맵의 플레이어 한도까지 모두 AI 플레이어로 바꿉니다.</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>
