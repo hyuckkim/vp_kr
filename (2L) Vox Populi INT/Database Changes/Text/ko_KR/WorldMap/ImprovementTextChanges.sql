@@ -44,6 +44,32 @@ UPDATE Language_ko_KR
 SET Text = '이 타일에 주둔하는 유닛의 [ICON_STRENGTH]방어력이 [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_BUILD_FORT_HELP';
 
+-- Fishing Boat
+UPDATE Language_ko_KR
+SET Text = '해양 자원에 어선을 건설하여 자원에 따라 산출량을 증가시킵니다.'
+WHERE Tag = 'TXT_KEY_BUILD_FISHING_BOAT_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '이 해양 자원의 산출량을 증가시킵니다.'
+WHERE Tag = 'TXT_KEY_BUILD_FISHING_BOAT_REC';
+
+UPDATE Language_ko_KR
+SET Text = '어선을 이용하면 귀중한 사치 자원인 [ICON_RES_CRAB] 게, [ICON_RES_WHALE] 고래, [ICON_RES_CORAL] 산호, [ICON_RES_PEARLS] 진주를 수확할 수 있으며, [ICON_RES_FISH] 물고기 자원도 개선할 수 있습니다. 어선을 건설하려면 노동자가 승선할 수 있게 해주는 어업을 연구해야 합니다. 이 시설은 [COLOR_NEGATIVE_TEXT]약탈당하면 파괴됩니다[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FISHINGBOATS_TEXT';
+
+-- Offshore Platform
+UPDATE Language_ko_KR
+SET Text = '해상 타일에 있는 석유 전략 자원을 개선하는 해양 구조물을 건설합니다. [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산이 크게 증가합니다.'
+WHERE Tag = 'TXT_KEY_BUILD_OFFSHORE_PLATFORMS_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '이 [ICON_RES_OIL] 석유 자원을 연결하고 생산과 골드 산출량을 높여줍니다.'
+WHERE Tag = 'TXT_KEY_BUILD_OFFSHORE_PLATFORMS_REC';
+
+UPDATE Language_ko_KR
+SET Text = '해양 구조물은 귀중한 [ICON_RES_OIL] 석유 전략 자원이 해상에 있을 때, 그 자원을 채취할 수 있게 해주는 게임 후반부의 중요한 시설입니다. 이 시설은 [COLOR_NEGATIVE_TEXT]약탈당하면 파괴됩니다[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_OFFSHOREPLATFORM_TEXT';
+
 -- Town
 UPDATE Language_ko_KR
 SET Text = '소도시'
