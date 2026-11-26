@@ -44,11 +44,11 @@
 		<Row Tag="TXT_KEY_EVENT_NOT_ENOUGH_NP">
 			<Text>[NEWLINE] [ICON_BULLET] 네트워크 포인트가 충분하지 않습니다.</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_SPY_EXPERIENCE">
 			<Text>경험치: {1_Num} / {2_Denom}</Text>
 		</Row>
-		
+
 		<!-- Offensive Spies -->
 		<Row Tag="TXT_KEY_EO_MISSIONS_TRAVELING_TOOLTIP">
 			<Text>{1_Rank} {2_Spy}{2: plural 1?이; 2?가;} {3_City}에 도착했으며, 네트워크 포인트를 모으기 시작합니다. 네트워크 포인트는 스파이가 도시에 있는 동안 패시브 보너스를 제공하거나, 스파이 미션을 수행하는데 사용할 수 있습니다.</Text>
@@ -179,94 +179,94 @@
 		<Row Tag="TXT_KEY_EO_ACTIVE_TRADE_DEALS">
 			<Text>활성화된 거래</Text>
 		</Row>
-		
+
 		<!-- City Security -->
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_BASE_TT">
 			<Text>[NEWLINE][ICON_BULLET]기본 보안: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_DIFFICULTY_TT">
 			<Text>[NEWLINE][ICON_BULLET]난이도 단계: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_NOT_ALL_HAVE_SPIES_TT">
 			<Text>[NEWLINE][ICON_BULLET]모든 플레이어가 스파이를 보유하지 않음: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_BUILDINGS_TT">
 			<Text>[NEWLINE][ICON_BULLET]도시 건물: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_POLICIES_WONDERS_TT">
 			<Text>[NEWLINE][ICON_BULLET]정책 및 불가사의: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_PREVIOUS_SPY_MISSIONS_TT">
 			<Text>[NEWLINE][ICON_BULLET]도시에서의 이전 작전: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_COUNTERSPY_TT">
 			<Text>[NEWLINE][ICON_BULLET]현재 역스파이 집중: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_POPULATION_TT">
 			<Text>[NEWLINE][ICON_BULLET]도시 인구: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_TRADE_ROUTES_TT">
 			<Text>[NEWLINE][ICON_BULLET]도시를 거치는 교역로: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_UNHAPPINESS_TT">
 			<Text>[NEWLINE][ICON_BULLET]초과 불행: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<!-- Network Points -->
 		<Row Tag="TXT_KEY_NETWORK_POINTS">
 			<Text>{1_NumStored} 포인트 (+{2_NumPerTurn})</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_BASE_TT">
 			<Text>[NEWLINE][ICON_BULLET]턴 당 기본 네트워크 포인트: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_SPY_RANK_TT">
 			<Text>[NEWLINE][ICON_BULLET]스파이 등급: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_CULTURAL_INFLUENCE_TT">
 			<Text>[NEWLINE][ICON_BULLET]대상에 대한 문화적 영향력: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_TECH_DIFFERENCE_TT">
 			<Text>[NEWLINE][ICON_BULLET]대상과의 기술 차이: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_POLICIES_TT">
 			<Text>[NEWLINE][ICON_BULLET]정책: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_RELIGION_TT">
 			<Text>[NEWLINE][ICON_BULLET]종교: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_COUNTERSPY_NETWORK_TT">
 			<Text>[NEWLINE][ICON_BULLET]적의 역스파이망: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_POLICYMOD_FASTER_TT">
 			<Text>[NEWLINE][ICON_BULLET]정책으로: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_TRAIT_MOD_TT">
 			<Text>[NEWLINE][ICON_BULLET]특성으로: [COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_BEFORE_SECURITY_TT">
 			<Text>[NEWLINE]총 기본 네트워크 포인트: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_SECURITY_MOD_TT">
 			<Text>[NEWLINE][ICON_BULLET]도시 보안에 의해 감소: [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_EO_NETWORK_POINTS_FINAL_TT">
 			<Text>[NEWLINE][COLOR_POSITIVE_TEXT]턴당 최종 네트워크 포인트: {1_Num}[ENDCOLOR]</Text>
 		</Row>
@@ -559,7 +559,7 @@
 		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ESPIONAGE_NEGATIVE">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] 적 [ICON_SPY] 스파이의 도둑질에서</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_TP_TECH_SCHOLAR_DISCOUNT">
 			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] 상주 학자에서</Text>
 		</Row>
@@ -3147,7 +3147,7 @@
 			<Text>숨겨진 사적지</Text>
 		</Row>
 
-		<!-- Action tooltips -->
+		<!-- These conditionally replace TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_HELP -->
 		<Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_WITHOUT_WAR_HELP">
 			<Text>자기 도시로 향하는 교역로는 약탈할 수 없습니다.</Text>
 		</Row>

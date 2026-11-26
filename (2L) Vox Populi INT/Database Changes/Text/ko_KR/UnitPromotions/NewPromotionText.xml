@@ -573,7 +573,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_SUN_NEVER_SETS_HELP">
 			<Text>[ICON_MOVES] 이동력 +1[NEWLINE][ICON_CAPITAL] 수도에서 떨어진 타일마다 [ICON_STRENGTH] 전투력 1% 증가 (최대 30%)[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_PROMOTION_CHASQUI_TRAINING">
 			<Text>차스퀴 훈련</Text>
 		</Row>
@@ -587,7 +587,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER_HELP">
 			<Text>[ICON_MOVES] 이동력 +1</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_PROMOTION_ENDURANCE">
 			<Text>유지력</Text>
 			<Plurality>2</Plurality>
@@ -797,7 +797,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH_HELP">
 			<Text>[ICON_STRENGTH] 전투력 +5%.[NEWLINE] 적 처치 시[ICON_STRENGTH] 전투력의 50%만큼 [ICON_GREAT_GENERAL] 위대한 장군 포인트를 얻습니다.[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_PROMOTION_STRATEGIC_STUDY">
 			<Text>전략 연구</Text>
 		</Row>
@@ -892,7 +892,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
 			<Text>지상 유닛 공격 시 [ICON_STRENGTH]전투력 보너스 [COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_PROMOTION_PARABOLIC_PAYLOAD">
 			<Text>포물선 탄도</Text>
 		</Row>
@@ -1151,7 +1151,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_PRIDE_OF_THE_NATION_HELP">
 			<Text>적 유닛 처치 시 [ICON_GOLDEN_AGE]황금기 점수 제공</Text>
 		</Row>
-		
+
 
 		<Row Tag="TXT_KEY_PROMOTION_HARDENED">
 			<Text>경화</Text>
@@ -1418,7 +1418,7 @@
 		<Row Tag="TXT_KEY_PROMOTION_RAZZIA_HELP">
 			<Text>적 유닛 처치 시 대상 유닛 [ICON_STRENGTH] 전투력의 200%만큼 이 유닛의 출신 도시에 [ICON_PRODUCTION] 생산력 및 [ICON_GOLD] 금 획득.[NEWLINE]시설 [ICON_RAZING] 약탈 시 이 유닛의 출신 도시에 [ICON_PRODUCTION] 생산력 및 [ICON_GOLD] 금 100 획득.[NEWLINE][ICON_INTERNATIONAL_TRADE] 교역로 약탈 시 이 유닛의 출신 도시에 [ICON_PRODUCTION] 생산력 및 [ICON_GOLD] 금 400 획득</Text>
 		</Row>
-		
+
 		<Row Tag="TXT_KEY_PROMOTION_BURGHER">
 			<Text>버거</Text>
 		</Row>

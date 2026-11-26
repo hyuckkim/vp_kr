@@ -219,6 +219,11 @@ UPDATE Language_ko_KR
 SET Text = '대공 무력화 수행 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+34%[ENDCOLOR][NEWLINE]대공 무력화로 요격 불가 시 목표 유닛에 인접한 모든 적 공중 유닛에 피해 [COLOR_POSITIVE_TEXT]10[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_PROMOTION_DOGFIGHTING_3_HELP';
 
+-- Range (Air)
+UPDATE Language_ko_KR
+SET Text = '작전 반경 [COLOR_POSITIVE_TEXT]+2[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_PROMOTION_AIR_RANGE_HELP';
+
 -- Siege (Air)
 UPDATE Language_ko_KR
 SET Text = '도시 공격 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR]'

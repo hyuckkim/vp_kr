@@ -15,7 +15,7 @@ SET Text = '어업은 물고기를 잡으려 시도하는 활동입니다. 어�
 WHERE Tag = 'TXT_KEY_TECH_SAILING_DESC';
 
 UPDATE Language_ko_KR
-SET Text = '지상 유닛이 [COLOR_POSITIVE_TEXT]승선[ENDCOLOR]할 수 있게 합니다. 작업선을 생산해 [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]물고기[ENDCOLOR]나 [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]진주[ENDCOLOR]같은 자원을 개발할 수 있게 합니다.'
+SET Text = '지상 유닛이 [COLOR_POSITIVE_TEXT]승선[ENDCOLOR]할 수 있게 합니다. 노동자로 어선을 건설해 [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]물고기[ENDCOLOR]나 [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]진주[ENDCOLOR]같은 해양 자원을 연결할 수 있게 합니다.'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_HELP';
 
 UPDATE Language_ko_KR
@@ -146,7 +146,7 @@ WHERE Tag = 'TXT_KEY_TECH_COMBINED_ARMS_HELP';
 
 -- Refrigeration
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_HAPPINESS_1]행복을 증가시키는 [COLOR_POSITIVE_TEXT]경기장[ENDCOLOR]을 건설할 수 있습니다. 작업선이 유정을 건설할 수 있고, [ICON_INTERNATIONAL_TRADE]교역로의 거리가 증가합니다.'
+SET Text = '도시의 [ICON_HAPPINESS_1]행복을 증가시키는 [COLOR_POSITIVE_TEXT]경기장[ENDCOLOR]을 건설할 수 있습니다. 노동자가 해양 구조물을 건설할 수 있고, [ICON_INTERNATIONAL_TRADE]교역로의 거리가 증가합니다.'
 WHERE Tag = 'TXT_KEY_TECH_REFRIGERATION_HELP';
 
 -- Flight

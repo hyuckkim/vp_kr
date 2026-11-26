@@ -279,7 +279,7 @@ SET Text = '철혈'
 WHERE Tag = 'TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_CITY_STATE] 도시 국가에 선물한 각 유닛들은 턴마다 [ICON_INFLUENCE] 영향력을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 상승시킵니다. (처치되거나 업그레이드 되면 사라집니다) 군사 유닛, 노동자, 작업선의 [ICON_PRODUCTION] 생산 비용과 [ICON_GOLD] 골드 비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.'
+SET Text = '[ICON_CITY_STATE] 도시 국가에 선물한 각 유닛들은 턴마다 [ICON_INFLUENCE] 영향력을 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 상승시킵니다. (처치되거나 업그레이드 되면 사라집니다) 군사 유닛 및 노동자의 [ICON_PRODUCTION] 생산 비용과 [ICON_GOLD] 골드 비용이 [COLOR_POSITIVE_TEXT]15%[ENDCOLOR] 감소합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS';
 
 UPDATE Language_ko_KR
