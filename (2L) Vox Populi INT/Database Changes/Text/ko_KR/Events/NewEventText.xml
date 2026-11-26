@@ -1437,18 +1437,6 @@
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES_EFFECT">
 			<Text>도시의 모든 자원 타일과 일부 도로 및 철도가 약탈되었습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST">
-			<Text>[ICON_RESISTANCE] 지역 분란 조장</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_PEDIA">
-			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항합니다. 지역에 반란군 유닛 5개가 출현하며, 경과된 시대마다 하나씩 추가됩니다. 도시는 [ICON_TOURISM] 관광을 생성하지 못합니다. 10턴 동안 지속됩니다 (표준 속도).[NEWLINE]식별 확률 75% / 처치 확률 25%</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
-			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항하며 근처에 반란군 유닛이 출현합니다. 도시는 {8_Num}턴 동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_EFFECT">
-			<Text>도시가 2턴동안 [ICON_RESISTANCE] 저항했으며 반란군 유닛이 지역에 출현했습니다. 도시는 {8_Num}턴동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES">
 			<Text>[ICON_STRENGTH] 방어 시설 파괴</Text>
 		</Row>
