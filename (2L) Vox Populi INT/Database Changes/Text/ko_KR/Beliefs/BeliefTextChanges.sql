@@ -246,7 +246,10 @@ WHERE Tag = 'TXT_KEY_BELIEF_TITHE';
 -- Followers
 ----------------------------------------------
 
--- Asceticism
+UPDATE Language_ko_KR
+SET Text = '단식'
+WHERE Tag = 'TXT_KEY_BELIEF_ASCETISM_SHORT';
+
 UPDATE Language_ko_KR
 SET Text = '신도 2명마다 [ICON_FOOD]식량이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. 전문가가 있는 도시의 식량이 [COLOR_POSITIVE_TEXT]4[ENDCOLOR] 증가합니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_ASCETISM';
@@ -297,7 +300,7 @@ SET Text = '[ICON_PEACE]신앙으로 만디르를 구매할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_BELIEF_GURUSHIP';
 
 UPDATE Language_ko_KR
-SET Text = '통달'
+SET Text = '절제'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT';
 
 UPDATE Language_ko_KR

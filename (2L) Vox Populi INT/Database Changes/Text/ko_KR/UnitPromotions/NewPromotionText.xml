@@ -797,6 +797,13 @@
 		<Row Tag="TXT_KEY_PROMOTION_TRIUMPH_HELP">
 			<Text>[ICON_STRENGTH] 전투력 +5%.[NEWLINE] 적 처치 시[ICON_STRENGTH] 전투력의 50%만큼 [ICON_GREAT_GENERAL] 위대한 장군 포인트를 얻습니다.[NEWLINE][NEWLINE][COLOR_CYAN]다른 플레이어에게 선물 시 소멸[ENDCOLOR]</Text>
 		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_STRATEGIC_STUDY">
+			<Text>전략 연구</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRATEGIC_STUDY_HELP">
+			<Text>1레벨을 초과하는 레벨마다 [ICON_STRENGTH] 전투력 +3%</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BRUTE_FORCE">
 			<Text>무차별 공격</Text>
