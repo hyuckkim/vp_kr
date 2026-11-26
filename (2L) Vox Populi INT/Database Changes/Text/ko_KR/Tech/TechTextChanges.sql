@@ -146,7 +146,7 @@ WHERE Tag = 'TXT_KEY_TECH_COMBINED_ARMS_HELP';
 
 -- Refrigeration
 UPDATE Language_ko_KR
-SET Text = '도시의 [ICON_HAPPINESS_1]행복을 증가시키는 [COLOR_POSITIVE_TEXT]경기장[ENDCOLOR]을 건설할 수 있습니다. 노동자가 해양 구조물을 건설할 수 있고, [ICON_INTERNATIONAL_TRADE]교역로의 거리가 증가합니다.'
+SET Text = '노동자가 해양 구조물을 건설할 수 있고, [ICON_INTERNATIONAL_TRADE]교역로의 거리가 증가합니다.'
 WHERE Tag = 'TXT_KEY_TECH_REFRIGERATION_HELP';
 
 -- Flight
