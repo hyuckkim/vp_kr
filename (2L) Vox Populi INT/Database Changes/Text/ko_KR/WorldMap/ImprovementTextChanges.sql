@@ -59,7 +59,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FISHINGBOATS_TEXT';
 
 -- Offshore Platform
 UPDATE Language_ko_KR
-SET Text = '해상 타일에 있는 석유 전략 자원을 개선하는 해양 구조물을 건설합니다. [ICON_GOLD] 골드와 [ICON_PRODUCTION] 생산이 크게 증가합니다.'
+SET Text = '해상 타일에 있는 석유 전략 자원을 개선하는 해양 구조물을 건설합니다. [ICON_PRODUCTION] 생산과 [ICON_GOLD] 골드가 크게 증가합니다.'
 WHERE Tag = 'TXT_KEY_BUILD_OFFSHORE_PLATFORMS_HELP';
 
 UPDATE Language_ko_KR

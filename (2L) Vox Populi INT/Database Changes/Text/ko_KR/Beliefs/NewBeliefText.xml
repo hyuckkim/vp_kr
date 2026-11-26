@@ -76,14 +76,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BELIEF_ETERNAL_GLORY">
-			<Text>당신의 [ICON_RELIGION]종교를 따르는 외국 도시 1개마다 성도의 [ICON_PRODUCTION] 생산, [ICON_PEACE] 신앙, [ICON_CULTURE_LOCAL] 국경 확장 포인트가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다.[NEWLINE][COLOR_YELLOW]천국의 계단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙, +10 [ICON_CULTURE_LOCAL] 국경 확장 포인트; 성벽에서 +2 [ICON_PRODUCTION] 생산, [ICON_PEACE] 신앙, [ICON_CULTURE_LOCAL] 국경 확장 포인트; [ICON_RELIGION]성지에서 +10 [ICON_CULTURE_LOCAL] 국경 확장 포인트; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)</Text>
+			<Text>당신의 [ICON_RELIGION]종교를 따르는 외국 도시 1개마다 성도의 [ICON_PRODUCTION] 생산, [ICON_PEACE] 신앙, [ICON_CULTURE_LOCAL] 국경 확장 포인트가 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]천국의 계단[ENDCOLOR]을 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ETERNAL_GLORY_SHORT">
 			<Text>영원한 영광</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_BELIEF_MASTERY">
-			<Text>외국 도시에서 당신의 [ICON_RELIGION]종교를 따르는 신도 10명마다 [ICON_HAPPINESS_1] 행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고, [ICON_CITY_STATE] 도시 국가의 신도 2명마다 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다.[NEWLINE][COLOR_YELLOW]무예의 성소[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+3 [ICON_RESEARCH] 과학, [ICON_CULTURE] 문화, [ICON_PEACE] 신앙; 모든 유닛이 [COLOR_POSITIVE_TEXT]전략 연구[ENDCOLOR] 승급 획득; [ICON_RELIGION]성지에서 +5 [ICON_GREAT_GENERAL] 위대한 장군 점수; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)</Text>
+			<Text>외국 도시에서 당신의 [ICON_RELIGION]종교를 따르는 신도 10명마다 [ICON_HAPPINESS_1] 행복이 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가하고, [ICON_CITY_STATE] 도시 국가의 신도 2명마다 [ICON_RESEARCH] 과학 및 [ICON_CULTURE] 문화가 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]무예의 성소[ENDCOLOR]를 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MASTERY_SHORT">
 			<Text>통달</Text>
