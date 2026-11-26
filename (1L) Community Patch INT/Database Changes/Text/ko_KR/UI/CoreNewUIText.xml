@@ -2560,6 +2560,14 @@
 			<Text>강제 재동기화 예약</Text>
 		</Row>
 
+		<!-- Enable FireTuner shortcut -->
+		<Row Tag="TXT_KEY_MP_FIRETUNER_ALREADY_ENABLED">
+			<Text>[COLOR_WARNING_TEXT]이 컴퓨터에서 이미 FireTuner가 활성화되어 있습니다.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_FIRETUNER_REFUSED">
+			<Text>[COLOR_NEGATIVE_TEXT]FireTuner를 활성화할 수 없습니다. ({1_Reason})[ENDCOLOR]</Text>
+		</Row>
+
 		<!-- Cultural overview -->
 		<!-- Tourism/Happiness screen -->
 		<Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_CIVS_WITH_OTHER_IDEOLOGY">

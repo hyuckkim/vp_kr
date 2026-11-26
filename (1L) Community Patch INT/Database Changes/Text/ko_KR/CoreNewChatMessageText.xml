@@ -6,6 +6,10 @@
 		<Row Tag="TXT_KEY_VP_MP_WARNING_RESYNC_SCHEDULED">
 			<Text>강제 재동기화를 예약했습니다. 다음 턴에, 세션을 다시 불러옵니다.</Text>
 		</Row>
+		<!-- A player enabled FireTuner -->
+		<Row Tag="TXT_KEY_VP_MP_WARNING_FIRETUNER_ENABLED">
+			<Text>[COLOR_NEGATIVE_TEXT]이 멀티플레이어 게임에서 FireTuner를 활성화했습니다! (디버깅 또는 치트 시도)[ENDCOLOR]</Text>
+		</Row>
 		<!-- Desync warning -->
 		<Row Tag="TXT_KEY_VP_MP_WARNING_DESYNC">
 			<Text>내 클라이언트가 동기화되지 않았으므로, 정의되지 않은 동작이 발생할 수 있습니다. GitHub에서 버그 리포트를 열어주세요: https://github.com/LoneGazebo/Community-Patch-DLL/issues</Text>
