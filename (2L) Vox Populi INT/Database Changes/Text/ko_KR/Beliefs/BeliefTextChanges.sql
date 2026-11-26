@@ -207,7 +207,7 @@ SET Text = '영웅 숭배'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_GENERAL]위대한 장군과 [ICON_GREAT_ADMIRAL]위대한 제독 점수를 33% 더 얻습니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 탄생할 때마다 당신의 [ICON_RELIGION]종교를 따르는 도시마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_GOLD]골드와 [ICON_PEACE]신앙을 각각 75씩 제공합니다. [NEWLINE][COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙, 군사 유닛의 [ICON_PRODUCTION] 생산 +15%; [ICON_RELIGION]성지에서 +5 [ICON_PRODUCTION] 생산; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
+SET Text = '[ICON_GREAT_GENERAL]위대한 장군과 [ICON_GREAT_ADMIRAL]위대한 제독 점수를 33% 더 얻습니다. [ICON_GREAT_GENERAL]위대한 장군 또는 [ICON_GREAT_ADMIRAL]위대한 제독이 탄생할 때마다 당신의 [ICON_RELIGION]종교를 따르는 도시마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_GOLD]골드와 [ICON_PEACE]신앙을 각각 40씩 제공합니다. [NEWLINE][COLOR_YELLOW]위대한 제단[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. (+5 [ICON_PEACE] 신앙, 군사 유닛의 [ICON_PRODUCTION] 생산 +15%; [ICON_RELIGION]성지에서 +5 [ICON_PRODUCTION] 생산; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE';
 
 UPDATE Language_ko_KR
