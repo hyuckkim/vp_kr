@@ -174,28 +174,6 @@
 			<Text>공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR][NEWLINE]평지에서 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_1">
-			<Text>개척 I</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_1_HELP">
-			<Text>[ICON_VISION]시야 및 승선 시 시야 +1[NEWLINE]숲, 정글 및 언덕에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]페널티 무시[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_2">
-			<Text>개척 II</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_2_HELP">
-			<Text>[ICON_MOVES]이동력 및 승선 시 이동력 +1[NEWLINE]사막, 설원 및 습지에서 [ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]페널티 무시[ENDCOLOR][NEWLINE]강을 건널 시 [ICON_MOVES]이동력 및 전투력 페널티 없음</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_3">
-			<Text>개척 III</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_TRAILBLAZER_3_HELP">
-			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR][NEWLINE]승선 가능, 산 타일에서 이동 가능, 적 도로 이용 가능. [NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_ARTILLERY">
 			<Text>해안 포병</Text>
 		</Row>
@@ -295,6 +273,112 @@
 			<Text>우호 영토 밖 전투 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR][NEWLINE]부상 유닛 공격 시 [ICON_STRENGTH]전투력 [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR][NEWLINE]우호 유닛이 인접하지 않을 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR]</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_PARTHIAN_TACTICS">
+			<Text>파르티안 전술</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PARTHIAN_TACTICS_HELP">
+			<Text>[ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COUP_DE_GRACE">
+			<Text>최후의 일격</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COUP_DE_GRACE_HELP">
+			<Text>체력 [COLOR_POSITIVE_TEXT]50% 이하[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT">
+			<Text>포위</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공격할 때[ENDCOLOR] 측면 공격으로 인한 이득을 얻습니다.[NEWLINE][COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR] +10%.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_VERDANT_TREKKER">
+			<Text>푸른 숲의 여행자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VERDANT_TREKKER_HELP">
+			<Text>초원에서 [ICON_MOVES]이동력 두 배[NEWLINE]유닛이 [COLOR_POSITIVE_TEXT]초원[ENDCOLOR]에서 턴을 마치면 HP 5 회복</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_RUNNER">
+			<Text>필드 러너</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_RUNNER_HELP">
+			<Text>평원에서 [ICON_MOVES]이동력 두 배[NEWLINE]유닛이 [COLOR_POSITIVE_TEXT]평원[ENDCOLOR]에서 턴을 마치면 HP 5 회복</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_DWELLER">
+			<Text>사막의 주민</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_DWELLER_HELP">
+			<Text>사막에서 [ICON_MOVES]이동력 두 배[NEWLINE]유닛이 [COLOR_POSITIVE_TEXT]사막[ENDCOLOR]에서 턴을 마치면 HP 5 회복</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FROST_WALKER">
+			<Text>서리 걸음</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FROST_WALKER_HELP">
+			<Text>툰드라 또는 설원에서 [ICON_MOVES]이동력 두 배[NEWLINE]유닛이 [COLOR_POSITIVE_TEXT]툰드라[ENDCOLOR] 또는 [COLOR_POSITIVE_TEXT]설원[ENDCOLOR]에서 턴을 마치면 HP 5 회복</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTAINEER">
+			<Text>등산가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTAINEER_HELP">
+			<Text>언덕에서 [ICON_MOVES]이동력 두 배[NEWLINE]산을 넘어갈 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_WATERBORNE">
+			<Text>수인성</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WATERBORNE_HELP">
+			<Text>강을 따라 이동 시 [ICON_MOVES]이동력 두 배[NEWLINE]승선 / 하선이 [ICON_MOVES] 이동력을 1만 소모합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FORAGER">
+			<Text>채집가</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORAGER_HELP">
+			<Text>약탈이 [ICON_MOVES]이동력을 절반만 소모하고, 추가로 [COLOR_POSITIVE_TEXT]10 HP[ENDCOLOR]를 회복합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM">
+			<Text>생존주의</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR]를 무시합니다.[NEWLINE]한 턴에 한 번씩 근접 공격에서 후퇴할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_1">
+			<Text>선별 I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_1_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR]가 8% 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_2">
+			<Text>선별 II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_2_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR]가 10% 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_3">
+			<Text>선별 III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCREENING_3_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR]가 12% 증가합니다.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_HALO_JUMPER">
+			<Text>HALO 유격대</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HALO_JUMPER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]요격 회피[ENDCOLOR] 확률 +100%.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_INDOMITABLE">
 			<Text>굳건함</Text>
 		</Row>
@@ -346,19 +430,6 @@
 			<Text>처치한 적 유닛 [ICON_STRENGTH]전투력의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드 제공[NEWLINE]도시에 주는 피해의 [COLOR_POSITIVE_TEXT]100%[ENDCOLOR]만큼 [ICON_GOLD]골드를 약탈[NEWLINE][COLOR:105:105:105:255](한도: 도시[ICON_STRENGTH]전투력의 10배)</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_PARTHIAN_TACTICS">
-			<Text>파르티안 전술</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_PARTHIAN_TACTICS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]ZOC[ENDCOLOR] 무시[NEWLINE][ICON_MOVES]이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR]</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_PROMOTION_COUP_DE_GRACE">
-			<Text>최후의 일격</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_COUP_DE_GRACE_HELP">
-			<Text>체력 [COLOR_POSITIVE_TEXT]50% 이하[ENDCOLOR] 유닛 공격 시 [ICON_RANGE_STRENGTH]원거리 전투력 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR]</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SHRAPNEL_ROUNDS_1">
 			<Text>산탄 I</Text>
@@ -431,28 +502,6 @@
 			<Text>[COLOR_POSITIVE_TEXT]지상 유닛[ENDCOLOR] 대항 시 [ICON_STRENGTH] 전투력 +33%.</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_FROGMAN">
-			<Text>잠수부</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_FROGMAN_HELP">
-			<Text>해양에서 공격 시 전투력 페널티 없음[COLOR_POSITIVE_TEXT][NEWLINE]승선[ENDCOLOR]과 [COLOR_POSITIVE_TEXT]하선[ENDCOLOR]이 [ICON_MOVES] 이동력을 1만 소모합니다.[NEWLINE]승선 중 방어 시 [ICON_STRENGTH]전투력 +50%</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_PROMOTION_SCREENING">
-			<Text>선별</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_SCREENING_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR]가 10% 증가합니다.[NEWLINE]측면 공격 시 2기로 취급</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT">
-			<Text>포위</Text>
-			<Plurality>2</Plurality>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]공격할 때[ENDCOLOR] 측면 공격으로 인한 이득을 얻습니다.[NEWLINE][COLOR_POSITIVE_TEXT]측면 공격 보너스[ENDCOLOR] +10%.</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HUNTER_KILLER">
 			<Text>헌터 킬러</Text>
@@ -842,7 +891,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECONNAISSANCE_HELP">
-			<Text>타일 개방 시 경험치 0.1 획득 [NEWLINE]자연경관에서 12배, {TXT_KEY_IMPROVEMENT_GOODY_HUT}에서 4배, 자원에서 3배[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_ANTIQUITY_LEGEND_GOODY_HUT}[ENDCOLOR] 획득 가능</Text>
+			<Text>방어 시 [ICON_STRENGTH]전투력 보너스 [COLOR_POSITIVE_TEXT]+30%[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_ANTIQUITY_LEGEND_GOODY_HUT}[ENDCOLOR] 획득 가능</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_OCEAN_EXPLORER">
@@ -858,14 +907,21 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCAVENGER_HELP">
-			<Text>타일 [ICON_RAZING] 약탈 시 경험치 [COLOR_POSITIVE_TEXT]+5[ENDCOLOR]</Text>
+			<Text>타일 [ICON_RAZING] 약탈 시 경험치 [COLOR_POSITIVE_TEXT]+3[ENDCOLOR]</Text>
 		</Row>
 
-		<Row Tag="TXT_KEY_PROMOTION_COMMANDO">
-			<Text>특공대</Text>
+		<Row Tag="TXT_KEY_PROMOTION_VOYAGER">
+			<Text>항해</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_HELP">
-			<Text>이 유닛 뒤에 빈 타일이 있을 시 매 턴 1번 회피 가능[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_PROMOTION_VOYAGER_HELP">
+			<Text>승선 시 전투력 보너스 [COLOR_POSITIVE_TEXT]+50%[ENDCOLOR] [NEWLINE]승선 시 [ICON_MOVES] 이동력 [COLOR_POSITIVE_TEXT]+1[ENDCOLOR][NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]업그레이드 시 소멸[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_JAMMER">
+			<Text>방해자</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JAMMER_HELP">
+			<Text>적 지상 유닛이 [COLOR_POSITIVE_TEXT]2[ENDCOLOR]타일 내의 아군 유닛을 [COLOR_POSITIVE_TEXT]요격[ENDCOLOR]할 수 없습니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
@@ -1381,7 +1437,7 @@
 			<Text>싸움닭</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIGHTING_COCK_HELP">
-			<Text>최대 체력이 3 미만일시 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 페널티 제거</Text>
+			<Text>체력이 3 감소할 때마다 [ICON_STRENGTH] 전투력 +1% 증가[NEWLINE][COLOR_POSITIVE_TEXT]부상[ENDCOLOR] 상태에서 근접 전투시 발생하는 전투 페널티 제거[NEWLINE]공격 후 이동 가능</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LEGATUS_LEGIONIS">

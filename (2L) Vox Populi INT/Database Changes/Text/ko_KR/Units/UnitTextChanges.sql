@@ -141,8 +141,13 @@ WHERE Tag = 'TXT_KEY_UNIT_INFANTRY_STRATEGY';
 
 -- Pathfinder
 UPDATE Language_ko_KR
-SET Text = '길잡이는 게임의 첫 번째 정찰 유닛입니다. 전사에 비해 전투력은 형편없지만, 이동과 시야 확보에는 더 낫습니다.'
+SET Text = '길잡이는 게임의 첫 번째 정찰 유닛입니다. 전사에 비해 전투력은 형편없지만, 이동에는 더 낫습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_SHOSHONE_PATHFINDER_STRATEGY';
+
+-- Scout
+UPDATE Language_ko_KR
+SET Text = '정찰병은 길잡이에서 업그레이드되어 더 나은 시야를 확보합니다. 공격력은 상당히 약하지만, 다양한 이동성, 생존성 및 군사 지원 승급을 사용할 수 있어 탐험, 적 방해 및 측면 지원에 가장 적합한 유닛 중 하나입니다.'
+WHERE Tag = 'TXT_KEY_UNIT_SCOUT_STRATEGY';
 
 -- Explorer
 UPDATE Language_ko_KR
@@ -158,21 +163,26 @@ SET Text = '특수 부대'
 WHERE Tag = 'TXT_KEY_UNIT_MARINE';
 
 UPDATE Language_ko_KR
-SET Text = '특수 부대는 해양에 승선 시 전투력과 시야가 높아지는 승급을 보유합니다. 또한 일반적인 화약 유닛들보다 강하고, 아군 영토의 9 타일 이내에 낙하할 수 있습니다.'
+SET Text = '특수부대는 2칸 이내의 모든 지상 요격기를 무력화시키는 특수 능력을 보유하고 있습니다. 적 유닛이 밀집해 있는 곳 근처에 낙하산 투하로 유닛을 투입한 뒤, 공군으로 적을 일소하세요! 단, 적 전투기에는 각별히 주의하세요.'
 WHERE Tag = 'TXT_KEY_UNIT_MARINE_STRATEGY';
 
 UPDATE Language_ko_KR
 SET Text = '특수 부대와 특수 작전 부대는 비전통적인 임무를 수행하기 위해 훈련된 군부대입니다. 현재 인식되고 있는 특수부대는 제2차 세계 대전 동안 그 분야에서 상당한 성장과 함께 20세기 초에 등장했습니다. 국가에 따라 특수부대는 공중작전, 반항쟁, "대테러", 은밀한 작전, 직접 행동, 인질 구출, 고부가가치 목표물/인질 구출, 정보 작전, 기동 작전 및 비전통적인 전쟁 등의 기능을 수행할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_CIV5_MARINE_TEXT';
 
+-- XCOM Squad
+UPDATE Language_ko_KR
+SET Text = 'XCOM 분대는 XCOM 이니셔티브가 개척한 기술을 바탕으로 구성된 정예 병력입니다. 이 분대는 특수부대와 동일한 능력을 갖추고 있어, 반경 2 타일 내의 모든 지상 요격기를 무력화시킵니다. 또한 40 타일의 공중 투하 사거리를 가지고 있어, 거의 모든 곳에서 투입될 수 있습니다.'
+WHERE Tag = 'TXT_KEY_UNIT_XCOM_SQUAD_STRATEGY';
+
 -- Anti-Aircraft Gun
 UPDATE Language_ko_KR
-SET Text = '이 특수 포병 부대는 3개의 타일 안에 있는 목표물을 폭격하는 모든 공군 부대를 자동으로 공격할 것입니다. (한 턴에 한 유닛만 막아낼 수 있습니다.) 그들은 다른 지상 부대에 대한 전투에서 매우 약하며 지상 공격의 위협을 받을 때 더 강한 부대에 의해 방어되어야 합니다.'
+SET Text = '이 특수 포병 부대는 3개의 타일 안에 있는 목표물을 폭격하는 모든 공군 부대를 자동으로 공격할 것입니다. (한 턴에 한 유닛만 막아낼 수 있습니다.) 그들은 다른 지상 부대에 대한 전투에서 매우 약하며 지상 공격의 위협을 받을 때 더 강한 부대에 의해 방어되어야 합니다. 또한 특수부대나 XCOM 분대가 2 타일 이내로 접근하면 작동을 멈추므로 주의하세요!'
 WHERE Tag = 'TXT_KEY_UNIT_ANTI_AIRCRAFT_STRATEGY';
 
 -- Mobile SAM
 UPDATE Language_ko_KR
-SET Text = '이동식 SAM(지상 대 공중) 유닛은 방공으로 전진하는 군대를 제공합니다. 이동식 SAM 유닛은 4개의 타일 이내의 적 항공기 폭격 목표물을 요격할 수 있습니다(한 턴에 한 유닛만 막아낼 수 있습니다.). 이러한 부대는 공습이 아닌 공격에 상당히 취약하므로 보병이나 기갑 유닛을 동반해야 합니다.'
+SET Text = '이동식 SAM(지상 대 공중) 유닛은 방공으로 전진하는 군대를 제공합니다. 이동식 SAM 유닛은 4개의 타일 이내의 적 항공기 폭격 목표물을 요격할 수 있습니다(한 턴에 한 유닛만 막아낼 수 있습니다.). 이러한 부대는 공습이 아닌 공격에 상당히 취약하므로 보병이나 기갑 유닛을 동반해야 합니다. 또한 특수부대나 XCOM 분대가 2 타일 이내로 접근하면 작동을 멈추므로 주의하세요!'
 WHERE Tag = 'TXT_KEY_UNIT_MOBILE_SAM_STRATEGY';
 
 -- Galley
@@ -316,7 +326,7 @@ WHERE Tag = 'TXT_KEY_UNIT_AMERICAN_B17_STRATEGY';
 
 -- Pracinha
 UPDATE Language_ko_KR
-SET Text = '적 유닛을 처치해 황금기를 불러오는 근접 유닛입니다. 해외 영토에서 적을 처치해 당신의 문명이 문화 승리를 달성하도록 도우십시오. 도시 국가에서만 선물로 받을 수 있습니다.'
+SET Text = '이 원자 시대 유닛은 충실 승급으로 전선에서 살아남을 수 있습니다. 약해진 적을 처치하여 [ICON_GOLDEN_AGE] 황금기 포인트를 획득할 수도 있습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY';
 
 -- Norwegian Ski Infantry

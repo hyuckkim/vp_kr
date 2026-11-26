@@ -647,6 +647,9 @@
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_LUXURY">
 			<Text>{TXT_KEY_MISSION_FREE_LUXURY}: 무작위 사치 자원 +{1_Num}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_XP_FROM_EXPLORATION">
+			<Text>전체 맵 탐험 시 {1_Num} 경험치 [COLOR:105:105:105:255](드러낸 타일의 수에 따라 보정)[ENDCOLOR]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS_PURCHASE">
 			<Text>구매에 필요한 건물: [COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
 		</Row>
