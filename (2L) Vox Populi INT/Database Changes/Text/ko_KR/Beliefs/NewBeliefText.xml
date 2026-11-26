@@ -69,7 +69,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BELIEF_CITY_OF_GOD">
-			<Text>성도에서 [ICON_CITIZEN] 시민이 탄생할 때마다 당신 문명의 [ICON_RELIGION] 종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. [NEWLINE][COLOR_YELLOW]천상의 동굴[ENDCOLOR] 국가 불가사의를 건설할 수 있습니다. ([ICON_PEACE] 신앙 +2, [ICON_GOLD] 골드 +2,[ICON_HAPPINESS_1] 행복 +2; [ICON_RELIGION] 성지의 [ICON_FOOD] 식량 +5; [COLOR_POSITIVE_TEXT]개혁 교리[ENDCOLOR]를 선택할 수 있습니다.)</Text>
+			<Text>성도에서 [ICON_CITIZEN] 시민이 탄생할 때마다 당신 문명의 [ICON_RELIGION] 종교를 따르는 도시 1개마다 [COLOR:110:110:110:255](한도: 25도시)[ENDCOLOR] [ICON_CULTURE] 문화, [ICON_RESEARCH] 과학, [ICON_PEACE] 신앙이 [COLOR_POSITIVE_TEXT]15[ENDCOLOR] 증가합니다. [COLOR_POSITIVE_TEXT]신성한 정원[ENDCOLOR]을 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CITY_OF_GOD_SHORT">
 			<Text>신의 도시</Text>
