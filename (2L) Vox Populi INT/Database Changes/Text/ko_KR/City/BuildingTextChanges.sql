@@ -280,7 +280,11 @@ SET Text = '특허 회사'
 WHERE Tag = 'TXT_KEY_BUILDING_EAST_INDIA';
 
 UPDATE Language_ko_KR
-SET Text = '동인도 회사는 도시가 생성하는 [ICON_GOLD] 골드를 증가시키고 [ICON_HAPPINESS_3] 빈곤을 감소시킵니다. 이 도시 교역로의 자원 다양성 수치가 양수면 25% 증가시키고 음수면 25% 감소시킵니다. 동인도 회사가 건설된 도시로 향하는 [ICON_INTERNATIONAL_TRADE]교역로는 도시의 주인에게 [ICON_GOLD]골드를 추가로 4 생성하고 교역로를 개설한 상대 문명의 [ICON_GOLD]골드도 2 증가합니다.'
+SET Text = '이 도시에서 {TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK} [ICON_SPY] 스파이 임무를 차단합니다.'
+WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP';
+
+UPDATE Language_ko_KR
+SET Text = '{TXT_KEY_BUILDING_EAST_INDIA}는 도시가 생성하는 [ICON_GOLD] 골드를 증가시키고, 교역로의 목적지로서 도시의 수익성을 크게 높여줍니다. 교역로 계산에 더해지는 골드를 직접 늘리는 동시에, 자원 다양성 수치에 영향을 주어 간접적으로도 늘립니다. 교역로의 중심지가 된 도시는 근처에 적대 유닛을 생성하는 효과에 취약해집니다. 다행히 {TXT_KEY_BUILDING_EAST_INDIA}는 적대 세력의 {TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK}을 막아 어느 정도 보호해 줍니다.[NEWLINE][NEWLINE]또한 도시 주변의 모든 사치 자원 사본을 무료로 얻습니다. 사치 자원이 많은 도시는 자원 다양성이 높으므로 두 효과는 서로 잘 맞물립니다. 하지만 특정 [ICON_MONOPOLY] 독점을 확보하기 위해 다른 면에서는 최적이 아닌 위치에 {TXT_KEY_BUILDING_EAST_INDIA}를 건설하고 싶을 때도 있을 것입니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_EAST_INDIA_STRATEGY';
 
 UPDATE Language_ko_KR
