@@ -173,6 +173,10 @@ UPDATE Language_ko_KR
 SET Text = '문명과 현재 가지고 있는 모든 종속국과의 활성화된 방어 협정마다 세계 의회에서 [ICON_DIPLOMAT] 표 +{1_Num}'
 WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DP';
 
+UPDATE Language_ko_KR
+SET Text = '보유 유닛 승급 시: {1_InstantYield}, 유닛의 원래 레벨에 따라 보정. [COLOR_POSITIVE_TEXT]{TXT_KEY_UNITCOMBAT_RECON}[ENDCOLOR] 유닛은 시작 경험치로 얻은 승급으로는 발동하지 않음'
+WHERE Tag = 'TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_PROMOTION_GLOBAL';
+
 ------------------------------------------------
 -- City screen/banner
 ------------------------------------------------
