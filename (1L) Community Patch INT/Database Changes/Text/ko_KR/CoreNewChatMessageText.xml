@@ -12,7 +12,15 @@
 		</Row>
 		<!-- Desync warning -->
 		<Row Tag="TXT_KEY_VP_MP_WARNING_DESYNC">
-			<Text>내 클라이언트가 동기화되지 않았으므로, 정의되지 않은 동작이 발생할 수 있습니다. GitHub에서 버그 리포트를 열어주세요: https://github.com/LoneGazebo/Community-Patch-DLL/issues</Text>
+			<Text>내 클라이언트가 동기화되지 않았으므로, 정의되지 않은 동작이 발생할 수 있습니다. GitHub에서 버그 리포트를 열어주세요: [COLOR_CYAN]https://github.com/LoneGazebo/Community-Patch-DLL/issues[ENDCOLOR]</Text>
+		</Row>
+		<!-- The engine's LocalMachine event buffer is close to full -->
+		<Row Tag="TXT_KEY_VP_EVENT_STREAM_NEAR_FULL">
+			<Text>[COLOR_YELLOW]내 엔진의 이벤트 버퍼가 용량의 {1_Num}%에 도달했습니다. 넘치면 정의되지 않은 동작이나 충돌, 또는 둘 다 발생할 수 있습니다.[ENDCOLOR][NEWLINE]이 자체로는 버그가 아니지만, 흔하지 않은 일입니다.[NEWLINE]GitHub에 제보할 수 있습니다: [COLOR_CYAN]https://github.com/LoneGazebo/Community-Patch-DLL/issues[ENDCOLOR]</Text>
+		</Row>
+		<!-- The engine's LocalMachine event buffer overflowed and corrupted memory -->
+		<Row Tag="TXT_KEY_VP_EVENT_STREAM_OVERFLOW">
+			<Text>[COLOR_RED]내 엔진의 이벤트 버퍼가 넘쳐서({2_Num} KB 중 {1_Num} KB) 메모리가 손상되었습니다.[ENDCOLOR] [COLOR_MAGENTA]게임을 종료할 때까지 정의되지 않은 동작이나 충돌, 또는 둘 다 곧 발생합니다![ENDCOLOR][NEWLINE]저장 파일을 불러와도 소용없습니다: 저장한 뒤 바탕화면으로 나가서 게임을 다시 시작하고, GitHub에서 버그 리포트를 열어주세요: [COLOR_CYAN]https://github.com/LoneGazebo/Community-Patch-DLL/issues[ENDCOLOR]</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

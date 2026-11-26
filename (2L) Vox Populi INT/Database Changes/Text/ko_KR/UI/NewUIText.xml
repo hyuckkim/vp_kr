@@ -3154,5 +3154,9 @@
 		<Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_CORPORATION_HELP">
 			<Text>교역로 소유자의 기업이 보호하는 교역로는 약탈할 수 없습니다.</Text>
 		</Row>
+		<!-- Load screen, while deferred map graphics are laid out -->
+		<Row Tag="TXT_KEY_VP_LOADSCREEN_PREPARING_MAP">
+			<Text>지도 준비 중: {1_Percent}%</Text>
+		</Row>
 	</Language_ko_KR>
 </GameData>
