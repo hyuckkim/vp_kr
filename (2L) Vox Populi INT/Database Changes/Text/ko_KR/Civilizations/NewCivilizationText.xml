@@ -1070,7 +1070,7 @@
 			<Text>[LINK=IMPROVEMENT_ORDO]오르도[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ORDO_HELP">
-			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 이 타일의 특징이 사라집니다.[NEWLINE][NEWLINE]오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화적 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50%를 얻습니다. 이 타일로 이동할 때에는 [ICON_MOVES] 이동력을 소모하지 않습니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
+			<Text>영토 내의 아무 곳 또는 영토와 인접한 타일에 오르도를 건설할 수 있고, 다른 오르도와 인접할 수 없습니다. 이 타일의 특징이 사라집니다.[NEWLINE][NEWLINE]오르도를 건설하면 유닛을 소모하고, 당신의 [ICON_WAR] 군사 보급이 1 증가하고, 오르도 주위로 해당 문명의 영토가 한 타일씩 증가합니다. 이런 식으로 다른 문명의 문화적 경계를 잠식했다면 해당 문명과의 외교관계가 악화됩니다. [NEWLINE][NEWLINE]이 타일에 주둔한 유닛은 [ICON_STRENGTH] 방어력 +50%를 얻습니다. 이 타일로 이동할 때에는 [ICON_MOVES] 이동력을 소모하지 않습니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR] 역할을 제공해, 공격 후에도 그 타일에 계속 주둔할 수 있습니다. [COLOR_POSITIVE_TEXT]운하[ENDCOLOR] 역할을 제공해, 아군 [COLOR_POSITIVE_TEXT]해양[ENDCOLOR] 유닛이 이 타일을 통과할 수 있게 합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_BLACK_TUG">
@@ -1231,7 +1231,7 @@
 			<Text>[LINK=IMPROVEMENT_OTTOMAN_TERSANE]테르사네[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_TERSANE_HELP">
-			<Text>소유한 도시 옆의 수역에만 건설할 수 있으며, 다른 테르사네에 인접할 수 없습니다.[NEWLINE][NEWLINE]테르사네를 건설하면 문화 경계가 확장되어 테르사네를 둘러싸게 되며, [ICON_WAR] 군사 유닛 보급 한도가 1 증가하고, 이 유닛이 소모됩니다.[NEWLINE][NEWLINE]이 타일을 소유한 도시에서 생산되는 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 +10 증가합니다. 테르사네 위에 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 +50% 증가합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 포함되어, 공격 후에도 아군 유닛이 이 타일에 계속 주둔할 수 있습니다. 인접한 적 유닛에게 30의 피해를 줍니다.</Text>
+			<Text>소유한 도시 옆의 수역에만 건설할 수 있으며, 다른 테르사네에 인접할 수 없습니다.[NEWLINE][NEWLINE]테르사네를 건설하면 문화 경계가 확장되어 테르사네를 둘러싸게 되며, [ICON_WAR] 군사 보급이 1 증가하고, 이 유닛이 소모됩니다.[NEWLINE][NEWLINE]이 타일을 소유한 도시에서 생산되는 해군 유닛의 [ICON_PRODUCTION] 생산력이 +25% 증가하고 경험치가 +10 증가합니다. 테르사네 위에 있는 유닛은 [ICON_STRENGTH] 타일 방어력이 +50% 증가합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 포함되어, 공격 후에도 아군 유닛이 이 타일에 계속 주둔할 수 있습니다. 인접한 적 유닛에게 30의 피해를 줍니다.</Text>
 		</Row>
 
 		<!-- 페르시아 -->
@@ -1618,7 +1618,7 @@
 			<Text>피아자 산 마르코(산 마르코 광장)는 이탈리아 베네치아의 광장입니다. 도시의 다른 모든 공간은 "캄피"(밭)라고 불립니다. 피아제타('작은 광장')는 광장의 남동쪽 구석에 있는 석호를 향해 연장된 것입니다. 이 두 공간은 함께 베네치아의 사회적, 종교적, 정치적 중심지를 형성하며 일반적으로 함께 건설됩니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_STRATEGY">
-			<Text>{TXT_KEY_BUILDING_NATIONAL_EPIC}를 대체하는 베네치아의 고유 건물입니다. {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 {TXT_KEY_BUILDING_NATIONAL_EPIC}의 보너스에 더해, 추가로 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CITY_SECURITY] 도시 보안,[ICON_WAR] 군사 유닛 보급 한도, 도시의 [ICON_GREAT_PEOPLE] 위인 생성 속도를 증가시킵니다. 또한 민간 유닛 구매 대기시간을 감소시키고, 군사 유닛 구매 대기시간을 제거합니다. [COLOR_CYAN]길드[ENDCOLOR]를 연구하면 베네치아의 세 고유 건물 중 하나를 건설할 수 있는 능력을 잠금 해제합니다. {TXT_KEY_BUILDING_NATIONAL_EPIC}와 달리, {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 [COLOR_CYAN]{TXT_KEY_TECH_WRITING_TITLE}[ENDCOLOR] 연구 시 생산이 가능하며, {TXT_KEY_BUILDING_MONUMENT_DESC}를 요구하지 않습니다. 하지만 [ICON_CAPITAL] 수도에만 건설할 수 있습니다.</Text>
+			<Text>{TXT_KEY_BUILDING_NATIONAL_EPIC}를 대체하는 베네치아의 고유 건물입니다. {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 {TXT_KEY_BUILDING_NATIONAL_EPIC}의 보너스에 더해, 추가로 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드, [ICON_RESEARCH] 과학, [ICON_CITY_SECURITY] 도시 보안,[ICON_WAR] 군사 보급, 도시의 [ICON_GREAT_PEOPLE] 위인 생성 속도를 증가시킵니다. 또한 민간 유닛 구매 대기시간을 감소시키고, 군사 유닛 구매 대기시간을 제거합니다. [COLOR_CYAN]길드[ENDCOLOR]를 연구하면 베네치아의 세 고유 건물 중 하나를 건설할 수 있는 능력을 잠금 해제합니다. {TXT_KEY_BUILDING_NATIONAL_EPIC}와 달리, {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}는 [COLOR_CYAN]{TXT_KEY_TECH_WRITING_TITLE}[ENDCOLOR] 연구 시 생산이 가능하며, {TXT_KEY_BUILDING_MONUMENT_DESC}를 요구하지 않습니다. 하지만 [ICON_CAPITAL] 수도에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO_HELP">
 			<Text>[COLOR_CYAN]길드[ENDCOLOR] 연구를 완료하면 [COLOR_POSITIVE_TEXT]무라노 유리공방[ENDCOLOR], [COLOR_POSITIVE_TEXT]아르세날레 디 베네치아[ENDCOLOR], [COLOR_POSITIVE_TEXT]리알토 지구[ENDCOLOR]에 접근할 수 있습니다.</Text>
@@ -1644,7 +1644,7 @@
 			<Text>아르세날레 디 베네치아는 이탈리아 북부 베네치아 시에 있는 옛 조선소와 무기고가 모여 있는 복합 건물입니다. 국가 소유의 이 건물은 서기 2천년 중반 동안 베네치아 공화국의 해군 전력 대부분을 책임졌습니다. 그것은 역사상 최초의 대규모 산업체 중 하나였습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA_STRATEGY">
-			<Text>수도에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}를 건설하면 셋 중 하나만 건설할 수 있는 베네치아의 고유 건물입니다. [ICON_PRODUCTION] 생산력과 [ICON_INTERNATIONAL_TRADE] 국내 교역을 강화합니다. [ICON_STRENGTH] 도시 전투력과 인구에서 오는 [ICON_SILVER_FIST] 군사 유닛 보급 한도를 증가시킵니다. 모든 해군 유닛의 [ICON_STRENGTH] 전투력과 [ICON_MOVES] 이동력을 강화합니다.</Text>
+			<Text>수도에 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}를 건설하면 셋 중 하나만 건설할 수 있는 베네치아의 고유 건물입니다. [ICON_PRODUCTION] 생산력과 [ICON_INTERNATIONAL_TRADE] 국내 교역을 강화합니다. [ICON_STRENGTH] 도시 전투력과 [ICON_SILVER_FIST] 군사 보급을 증가시킵니다. 모든 해군 유닛의 [ICON_STRENGTH] 전투력과 [ICON_MOVES] 이동력을 강화합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ARSENALE_DI_VENEZIA_HELP">
 			<Text></Text>
@@ -1933,7 +1933,7 @@
 			<Text>[LINK=IMPROVEMENT_ISIBAYA]이시바야[\LINK] 건설</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ISIBAYA_HELP">
-			<Text>소유한 영토 또는 소유하지 않은 타일에서 자신의 경계에 인접한 곳에만 건설할 수 있으며, 다른 이시바야에 인접할 수 없습니다. 타일의 모든 기능을 제거합니다.[NEWLINE][NEWLINE]이시바야를 건설하면 문화 경계가 이시바야를 둘러싸도록 확장되고, [ICON_WAR] 군사 유닛 보급 한도가 1 증가하며, 인접한 타일에 [ICON_RES_COW] 소 자원이 배치되고, 이 유닛이 소모됩니다. 새로운 문화 경계선이 다른 문명이 이미 소유한 육각형 타일을 차지하게 되면 외교적 불이익을 받게 됩니다.[NEWLINE][NEWLINE]이 타일에 배치된 모든 유닛의 [ICON_STRENGTH] 방어력이 +100% 증가합니다. 인접한 적 유닛에게 30의 피해를 줍니다. 인접한 목장에 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_CULTURE] 문화를 제공합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 있어 아군 유닛이 공격 후에도 이 타일에 주둔할 수 있으며, [COLOR_POSITIVE_TEXT]운하[ENDCOLOR]가 있어 아군 [COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛이 통과할 수 있습니다.</Text>
+			<Text>소유한 영토 또는 소유하지 않은 타일에서 자신의 경계에 인접한 곳에만 건설할 수 있으며, 다른 이시바야에 인접할 수 없습니다. 타일의 모든 기능을 제거합니다.[NEWLINE][NEWLINE]이시바야를 건설하면 문화 경계가 이시바야를 둘러싸도록 확장되고, [ICON_WAR] 군사 보급이 1 증가하며, 인접한 타일에 [ICON_RES_COW] 소 자원이 배치되고, 이 유닛이 소모됩니다. 새로운 문화 경계선이 다른 문명이 이미 소유한 육각형 타일을 차지하게 되면 외교적 불이익을 받게 됩니다.[NEWLINE][NEWLINE]이 타일에 배치된 모든 유닛의 [ICON_STRENGTH] 방어력이 +100% 증가합니다. 인접한 적 유닛에게 30의 피해를 줍니다. 인접한 목장에 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_CULTURE] 문화를 제공합니다. [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 있어 아군 유닛이 공격 후에도 이 타일에 주둔할 수 있으며, [COLOR_POSITIVE_TEXT]운하[ENDCOLOR]가 있어 아군 [COLOR_POSITIVE_TEXT]해상[ENDCOLOR] 유닛이 통과할 수 있습니다.</Text>
 		</Row>
 	</Language_ko_KR>
 </GameData>

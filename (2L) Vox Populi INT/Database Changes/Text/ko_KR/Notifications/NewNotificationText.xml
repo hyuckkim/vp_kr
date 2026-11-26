@@ -54,10 +54,10 @@
 			<Text>다른 문명의 {1_UnitType}{1: plural 1?이; 2?가;} 임무를 완료했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY">
-			<Text>{1_UnitName}{1: plural 1?을; 2?를;} 소모하여 군사 유닛 보급 한도가 {2_Num} 증가했습니다!</Text>
+			<Text>{1_UnitName}{1: plural 1?을; 2?를;} 소모하여 군사 보급이 {2_Num} 증가했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY_S">
-			<Text>군사 유닛 보급 한도 증가!</Text>
+			<Text>군사 보급 증가!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR">
 			<Text>당신의 음악가들이 {1_PlayerAdj} 사람들에게 좋은 반응을 얻었습니다. 그들에 대한 [ICON_TOURISM]관광이 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 증가하고 [ICON_CAPITAL]수도의 [ICON_HAPPINESS_1]행복이 {3_num} 증가합니다.</Text>

@@ -30,12 +30,12 @@ WHERE Tag = 'TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY';
 
 -- Great General
 UPDATE Language_ko_KR
-SET Text = '위대한 장군은 [COLOR_POSITIVE_TEXT]성채[ENDCOLOR]라는 특수 시설을 건설할 수 있는데, 성채와 같은 타일에 있는 유닛은 큰 방어 보너스를 받습니다. 성채를 건설하면 주변 타일이 플레이어의 영토가 되며 성채 옆에서 턴을 마치는 적 유닛에게 피해를 주고, 군사 유닛 보급 한도를 1 증가시킵니다. 성채를 건설하면 위대한 장군이 사라집니다. 위대한 장군은 2타일 내의 모든 플레이어 소유 유닛에 [ICON_STRENGY] 15%의 전투력 보너스를 제공합니다. 보너스 제공 때문에 장군이 사라지지는 않습니다.'
+SET Text = '위대한 장군은 [COLOR_POSITIVE_TEXT]성채[ENDCOLOR]라는 특수 시설을 건설할 수 있는데, 성채와 같은 타일에 있는 유닛은 큰 방어 보너스를 받습니다. 성채를 건설하면 주변 타일이 플레이어의 영토가 되며 성채 옆에서 턴을 마치는 적 유닛에게 피해를 주고, 군사 보급을 1 증가시킵니다. 성채를 건설하면 위대한 장군이 사라집니다. 위대한 장군은 2타일 내의 모든 플레이어 소유 유닛에 [ICON_STRENGY] 15%의 전투력 보너스를 제공합니다. 보너스 제공 때문에 장군이 사라지지는 않습니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY';
 
 -- Great Admiral
 UPDATE Language_ko_KR
-SET Text = '[ICON_GREAT_ADMIRAL] 위대한 제독은 즉시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있어 유용한 탐사선이 될 수 있습니다. 2타일 이내의 모든 아군 해상 유닛에 [ICON_STRENGTH] 전투력 보너스를 15% 제공하고 매 턴 체력을 3 회복시킵니다. 국내 영토에서 [COLOR_POSITIVE_TEXT]발견 항해[ENDCOLOR]를 수행할 수 있습니다. 이는 위인을 소모해 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다.  [NEWLINE][NEWLINE]발견 항해 능력을 사용한 위대한 제독은 소모되어 사라지며 군사 유닛 보급 한도를 1 증가시킵니다.'
+SET Text = '[ICON_GREAT_ADMIRAL] 위대한 제독은 즉시 [COLOR_POSITIVE_TEXT]대양[ENDCOLOR]을 건널 수 있어 유용한 탐사선이 될 수 있습니다. 2타일 이내의 모든 아군 해상 유닛에 [ICON_STRENGTH] 전투력 보너스를 15% 제공하고 매 턴 체력을 3 회복시킵니다. 국내 영토에서 [COLOR_POSITIVE_TEXT]발견 항해[ENDCOLOR]를 수행할 수 있습니다. 이는 위인을 소모해 지도상에 드러나지 않은 사치 자원 복제품 2개를 제공합니다.  [NEWLINE][NEWLINE]발견 항해 능력을 사용한 위대한 제독은 소모되어 사라지며 군사 보급을 1 증가시킵니다.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY';
 
 -- Inquisitor
@@ -50,7 +50,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHAEOLOGIST';
 
 -- Guided Missile
 UPDATE Language_ko_KR
-SET Text = '적 유닛 또는 도시에 주둔한 유닛을 손상시키는 데 한 번 사용될 수 있는 값싼 유닛입니다. [COLOR_POSITIVE_TEXT]군사 유닛 보급 한도를 차지하지 않습니다.[ENDCOLOR][NEWLINE][NEWLINE][ICON_RES_OIL]석유 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]가 필요합니다.'
+SET Text = '적 유닛 또는 도시에 주둔한 유닛을 손상시키는 데 한 번 사용될 수 있는 값싼 유닛입니다. [COLOR_POSITIVE_TEXT]군사 보급을 차지하지 않습니다.[ENDCOLOR][NEWLINE][NEWLINE][ICON_RES_OIL]석유 [COLOR_POSITIVE_TEXT]1개[ENDCOLOR]가 필요합니다.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_GUIDED_MISSILE';
 
 UPDATE Language_ko_KR

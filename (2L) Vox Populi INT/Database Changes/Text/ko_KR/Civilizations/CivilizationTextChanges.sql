@@ -248,7 +248,7 @@ SET Text = '단결심'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT';
 
 UPDATE Language_ko_KR
-SET Text = '근접 및 화약 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 [ICON_SILVER_FIST] 군사 보급을 필요로 하지 않습니다. 군사 유닛 10개마다 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 +1을 얻습니다. [ICON_CITIZEN] 시민에 의한 [ICON_SILVER_FIST] 군사 유닛 보급 한도가 +15% 증가합니다.'
+SET Text = '근접 및 화약 유닛에 패배한 적 유닛이 아군에 [COLOR_POSITIVE_TEXT]합류[ENDCOLOR]할 수 있고, 합류한 유닛은 [ICON_SILVER_FIST] 군사 보급을 필요로 하지 않습니다. 군사 유닛 10개마다 [ICON_CULTURE] 문화 및 [ICON_TOURISM] 관광 +1을 얻습니다. [ICON_CITIZEN] 시민에 의한 [ICON_SILVER_FIST] 군사 보급이 +15% 증가합니다.'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE';
 
 UPDATE Language_ko_KR
@@ -834,7 +834,7 @@ SET Text = '근접 및 화약 유닛의 [ICON_GOLD] 유지비가 [COLOR_POSITIVE
 WHERE Tag = 'TXT_KEY_TRAIT_BUFFALO_HORNS';
 
 UPDATE Language_ko_KR
-SET Text = '{TXT_KEY_BUILDING_BARRACKS}를 대체하는 줄루의 고유 건물입니다. {TXT_KEY_BUILDING_IKANDA_DESC}는 {TXT_KEY_BUILDING_BARRACKS}의 보너스에 더해, [ICON_WAR] 군사 유닛 보급 한도를 증가시키고 모든 근접 및 화약 유닛에게 {TXT_KEY_PROMOTION_IKLWA} 승급을 부여해 최대 체력을 증가시키고 [ICON_MOVES] 이동력이 증가하며 측면 공격 보너스를 얻는 새로운 승급 트리를 잠금 해제합니다. [COLOR_CYAN]{TXT_KEY_TECH_ARCHERY_TITLE}[ENDCOLOR] 대신 [COLOR_CYAN]{TXT_KEY_TECH_BRONZE_WORKING_TITLE}[ENDCOLOR] 기술 연구 시 생산 가능합니다.'
+SET Text = '{TXT_KEY_BUILDING_BARRACKS}를 대체하는 줄루의 고유 건물입니다. {TXT_KEY_BUILDING_IKANDA_DESC}는 {TXT_KEY_BUILDING_BARRACKS}의 보너스에 더해, [ICON_WAR] 군사 보급을 증가시키고 모든 근접 및 화약 유닛에게 {TXT_KEY_PROMOTION_IKLWA} 승급을 부여해 최대 체력을 증가시키고 [ICON_MOVES] 이동력이 증가하며 측면 공격 보너스를 얻는 새로운 승급 트리를 잠금 해제합니다. [COLOR_CYAN]{TXT_KEY_TECH_ARCHERY_TITLE}[ENDCOLOR] 대신 [COLOR_CYAN]{TXT_KEY_TECH_BRONZE_WORKING_TITLE}[ENDCOLOR] 기술 연구 시 생산 가능합니다.'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_STRATEGY';
 
 UPDATE Language_ko_KR

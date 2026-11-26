@@ -89,14 +89,14 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 장군[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATGENERAL_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 장군 근처 2타일의 모든 지상 유닛은 15%의 전투력 보너스를 얻습니다. 이 보너스는 모든 지상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 시설: 성채[ENDCOLOR][NEWLINE]성채를 건설하면 당신의 문화 경계가 성채에 맞춰 확장되어 주변 타일의 소유권을 얻습니다. 추가로, 성채는 차지한 유닛에게 큰 방어 보너스를 제공합니다. 또한, 성채 근처에서 턴을 마치는 유닛은 피해를 입습니다. (성채 피해가 중복되지는 않습니다) 성채는 자신의 영역에서만 효과적이라는 점을 명심하십시오. 인근 도시가 정복되었을 때 성채의 소유권이 바뀐다면 새로운 주인에게만 효과가 있을 것입니다. 만약 성채로 인해 확장되는 문화 경계가 다른 문명의 타일을 침범한다면, 당신은 그 결과로 외교적 처벌을 받게 됩니다. 성채를 건설하면 위대한 장군이 소모되고 [COLOR_YELLOW]군사 유닛 보급 한도가 1 증가합니다[ENDCOLOR].'
+SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 장군 근처 2타일의 모든 지상 유닛은 15%의 전투력 보너스를 얻습니다. 이 보너스는 모든 지상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 시설: 성채[ENDCOLOR][NEWLINE]성채를 건설하면 당신의 문화 경계가 성채에 맞춰 확장되어 주변 타일의 소유권을 얻습니다. 추가로, 성채는 차지한 유닛에게 큰 방어 보너스를 제공합니다. 또한, 성채 근처에서 턴을 마치는 유닛은 피해를 입습니다. (성채 피해가 중복되지는 않습니다) 성채는 자신의 영역에서만 효과적이라는 점을 명심하십시오. 인근 도시가 정복되었을 때 성채의 소유권이 바뀐다면 새로운 주인에게만 효과가 있을 것입니다. 만약 성채로 인해 확장되는 문화 경계가 다른 문명의 타일을 침범한다면, 당신은 그 결과로 외교적 처벌을 받게 됩니다. 성채를 건설하면 위대한 장군이 소모되고 [COLOR_YELLOW]군사 보급이 1 증가합니다[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATGENERAL_HEADING3_BODY';
 
 UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 제독[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 제독 근처 2타일의 모든 아군 해상 유닛은 15%의 전투력 보너스를 얻고 회복 시 [COLOR_POSITIVE_TEXT]3[ENDCOLOR]만큼 더 회복합니다. 이 보너스는 모든 해상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 발견 항해[ENDCOLOR][NEWLINE][COLOR_GREEN]위대한 제독을 발견 항해에 보낼 수 있습니다. 그러면 현재 지도에 없는 사치 자원을 둘 제공합니다. 또한 군사 유닛 보급 한도를 1 증가시킵니다. 위대한 제독은 이 과정에서 소모됩니다.[ENDCOLOR]'
+SET Text = '[COLOR_CYAN]특수 능력: 전투력 보너스[ENDCOLOR][NEWLINE]위대한 제독 근처 2타일의 모든 아군 해상 유닛은 15%의 전투력 보너스를 얻고 회복 시 [COLOR_POSITIVE_TEXT]3[ENDCOLOR]만큼 더 회복합니다. 이 보너스는 모든 해상 전투에 적용됩니다: 근접, 원거리, 방어 등.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 발견 항해[ENDCOLOR][NEWLINE][COLOR_GREEN]위대한 제독을 발견 항해에 보낼 수 있습니다. 그러면 현재 지도에 없는 사치 자원을 둘 제공합니다. 또한 군사 보급을 1 증가시킵니다. 위대한 제독은 이 과정에서 소모됩니다.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY';
 
 UPDATE Language_ko_KR
