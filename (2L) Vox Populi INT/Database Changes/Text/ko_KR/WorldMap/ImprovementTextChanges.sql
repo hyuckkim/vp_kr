@@ -17,6 +17,11 @@ UPDATE Language_ko_KR
 SET Text = '숲/정글을 그대로 유지하면서 이 타일에서 제공하는 [ICON_PRODUCTION] 생산(숲) 또는 [ICON_GOLD] 골드(정글)의 양이 증가합니다. 두 개의 다른 제재소에 인접한 제재소는 +1 [ICON_PRODUCTION] 생산 및 [ICON_GOLD] 골드를 얻습니다.'
 WHERE Tag = 'TXT_KEY_BUILD_LUMBERMILL_REC';
 
+-- Remove Jungle (now grants Production like Forests)
+UPDATE Language_ko_KR
+SET Text = '[LINK=FEATURE_JUNGLE]정글[\LINK] 벌목'
+WHERE Tag = 'TXT_KEY_BUILD_REMOVE_JUNGLE';
+
 -- Village
 UPDATE Language_ko_KR
 SET Text = '마을'
