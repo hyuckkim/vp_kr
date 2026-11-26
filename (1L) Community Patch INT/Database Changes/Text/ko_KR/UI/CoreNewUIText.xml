@@ -638,7 +638,7 @@
 			<Text>{TXT_KEY_PRODUCTION_UNIT_ONE_SHOT_TOURISM &lt;&lt; {1_Tourism}}, 그리고 다른 플레이어에게 {2_Percent}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CONCERT_TOUR">
-			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM}: 목표한 플레이어에게 [ICON_TOURISM] 관광 +{1_NumTurn}턴, 다른 플레이어에게 +50%</Text>
+			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM}: 목표 플레이어에 대한 [ICON_TOURISM] 관광 +50%, 다른 플레이어에 대한 관광 +25%가 {1_NumTurn}턴 추가</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_TRADE_MISSION_GOLD">
 			<Text>{1_Num} [ICON_GOLD] 골드</Text>
@@ -2597,10 +2597,10 @@
 			<Text>그들의 건물에서 {1: number "'+'##;'-'##"}%[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
-			<Text>콘서트 투어에서 보너스 +100% ({1_NumTurns} 턴)[NEWLINE]</Text>
+			<Text>콘서트 투어에서 보너스 +50% ({1_NumTurns} 턴)[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
-			<Text>콘서트 투어에서 보너스 +50% ({1_NumTurns} 턴)[NEWLINE]</Text>
+			<Text>콘서트 투어에서 보너스 +25% ({1_NumTurns} 턴)[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_EXOTIC_THEY">
 			<Text>[NEWLINE][NEWLINE]{1_Civ}에 대한 [ICON_TOURISM]관광: [COLOR_CYAN]신비한[ENDCOLOR]</Text>

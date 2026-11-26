@@ -72,13 +72,13 @@
 			<Text>{1_PlayerName} 음악가가 도착했습니다!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS">
-			<Text>당신의 음악가들이 {1_PlayerAdj} 사람들에게 좋은 반응을 얻었습니다. 모든 문명에 대한 [ICON_TOURISM]관광이 {2_Num}턴 동안 +[COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가하고, 대상 문명에 대한 [ICON_TOURISM]관광이 {2_Num}턴 동안 +[COLOR_POSITIVE_TEXT]100%[ENDCOLOR] 증가합니다.</Text>
+			<Text>당신의 음악가들이 {1_PlayerAdj} 사람들에게 좋은 반응을 얻었습니다. 모든 문명에 대한 [ICON_TOURISM]관광이 {2_Num}턴 동안 +[COLOR_POSITIVE_TEXT]25%[ENDCOLOR] 증가하고, 대상 문명에 대한 [ICON_TOURISM]관광이 {2_Num}턴 동안 +[COLOR_POSITIVE_TEXT]50%[ENDCOLOR] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_S">
 			<Text>{1_PlayerAdj} 지역 순회 공연 완료!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET">
-			<Text>{1_PlayerAdj} 음악가들이 최근 당신의 문명에 순회 공연을 다녀갔고 열렬한 환영을 받았습니다. 당신에 대한 {2_Player} 문화 영향력이 [COLOR_NEGATIVE_TEXT]{3_Num}[ENDCOLOR]턴 동안 [COLOR_NEGATIVE_TEXT]100%[ENDCOLOR] [ICON_TOURISM] 증가합니다.</Text>
+			<Text>{1_PlayerAdj} 음악가들이 최근 당신의 문명에 순회 공연을 다녀갔고 열렬한 환영을 받았습니다. 당신에 대한 {2_Player} 문화 영향력이 [COLOR_NEGATIVE_TEXT]{3_Num}[ENDCOLOR]턴 동안 [COLOR_NEGATIVE_TEXT]50%[ENDCOLOR] [ICON_TOURISM] 증가합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET_S">
 			<Text>{1_PlayerName} 음악가가 도착했습니다!</Text>

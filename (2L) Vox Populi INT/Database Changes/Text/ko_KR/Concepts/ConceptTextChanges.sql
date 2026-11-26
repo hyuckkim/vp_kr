@@ -61,7 +61,7 @@ UPDATE Language_ko_KR
 SET Text = '[COLOR_YELLOW]위대한 음악가[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_TITLE';
 UPDATE Language_ko_KR
-SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 극장 또는 방송탑)이 있는 가장 가까운 도시에 [ICON_GW_MUSIC] 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 ' || (SELECT TourismBonusTurns FROM Units WHERE Type = 'UNIT_MUSICIAN') || '턴 동안 100% 증가시킵니다. (보유한 [ICON_GW_MUSIC] 걸작 음악마다 1턴 추가) 또한 모든 도시에서 [ICON_HAPPINESS_1] 행복을 1 얻습니다. 대상 문명과 [ICON_WAR] 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
+SET Text = '[COLOR_CYAN]특수 능력: 걸작 생성[ENDCOLOR][NEWLINE]위대한 음악가를 사용해 빈 슬롯 (오페라 극장 또는 방송탑)이 있는 가장 가까운 도시에 [ICON_GW_MUSIC] 걸작 음악을 만들 수 있습니다. 위대한 음악가는 이 과정에서 소모됩니다.[NEWLINE][NEWLINE][COLOR_CYAN]특수 능력: 콘서트 투어[ENDCOLOR][NEWLINE]위대한 음악가는 다른 문명으로 여행해 콘서트 투어를 해,  [COLOR_YELLOW]대상 문명으로의 관광을 50%, 다른 모든 문명으로의 관광을 25%만큼 ' || (SELECT TourismBonusTurns FROM Units WHERE Type = 'UNIT_MUSICIAN') || '턴 동안 증가시킵니다. (보유한 [ICON_GW_MUSIC] 걸작 음악마다 1턴 추가) 또한 모든 도시에서 [ICON_HAPPINESS_1] 행복을 1 얻습니다. 대상 문명과 [ICON_WAR] 전쟁 중이거나[ICON_TOURISM] 대상 문명에게로의 문화적 영향력이 [ENDCOLOR][COLOR_MAGENTA]매우 유명함[ENDCOLOR][COLOR_YELLOW] 이상이면 능력을 사용할 수 없습니다.[ENDCOLOR] 이 능력은 위인을 소모합니다.[NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_BODY';
 
 UPDATE Language_ko_KR
@@ -180,13 +180,13 @@ SET Text = '[ICON_TOURISM] 관광은 당신의 문화적 영향력을 다른 문
 
 [NEWLINE][NEWLINE]당신의 [ICON_TOURISM] 관광은 다음과 같은 이유로 각 플레이어별로 변화할 수 있습니다. [COLOR_YELLOW](최소 [COLOR_NEGATIVE_TEXT]-100%[COLOR_YELLOW])[ENDCOLOR]:
 [NEWLINE][ICON_BULLET]당신의 도시에서 그들의 도시로 교역로 연결 [COLOR_YELLOW]([COLOR_POSITIVE_TEXT]+10%[COLOR_YELLOW])[ENDCOLOR]
-[NEWLINE][ICON_BULLET][COLOR_YELLOW]서로간 국경 개방 ([COLOR_POSITIVE_TEXT]+15%[COLOR_YELLOW])[ENDCOLOR]
-[NEWLINE][ICON_BULLET]플레이어와 종교 공유 [COLOR_YELLOW]([COLOR_POSITIVE_TEXT]+X%[COLOR_YELLOW], 신자의 수에 비례하며 최대 [COLOR_POSITIVE_TEXT]+50%[COLOR_YELLOW])[ENDCOLOR]
+[NEWLINE][ICON_BULLET][COLOR_YELLOW]서로간 국경 개방 ([COLOR_POSITIVE_TEXT]+10%[COLOR_YELLOW])[ENDCOLOR]
+[NEWLINE][ICON_BULLET]플레이어와 종교 공유 [COLOR_YELLOW]([COLOR_POSITIVE_TEXT]+X%[COLOR_YELLOW], 신자의 수에 비례하며 최대 [COLOR_POSITIVE_TEXT]+40%[COLOR_YELLOW])[ENDCOLOR]
 [NEWLINE][ICON_BULLET][COLOR_YELLOW]수도에 외교관 보유 ([COLOR_POSITIVE_TEXT]+20%[COLOR_YELLOW]).[ENDCOLOR]
 [NEWLINE][ICON_BULLET][COLOR_YELLOW]당신이 그들보다 더 적은 무료를 가짐 ([COLOR_POSITIVE_TEXT]+X%[COLOR_YELLOW], 두 제국의 무료 차이만큼)[ENDCOLOR]
-[NEWLINE][ICON_BULLET][COLOR_YELLOW]그들의 국경 안에서 위대한 음악가 발동 ([COLOR_POSITIVE_TEXT]+100%[COLOR_YELLOW], 다른 국가의 국경에서 발동 시 [COLOR_POSITIVE_TEXT]+50%[COLOR_YELLOW]).[ENDCOLOR]
+[NEWLINE][ICON_BULLET][COLOR_YELLOW]그들의 국경 안에서 위대한 음악가 발동 ([COLOR_POSITIVE_TEXT]+50%[COLOR_YELLOW], 다른 모든 문명에게는 [COLOR_POSITIVE_TEXT]+25%[COLOR_YELLOW]).[ENDCOLOR]
 [NEWLINE][ICON_BULLET][COLOR_YELLOW]그들을 종속국으로 지배 ([COLOR_POSITIVE_TEXT]+33%[COLOR_YELLOW]).[ENDCOLOR]
-[NEWLINE][ICON_BULLET]서로 다른 이념 채택 [COLOR_YELLOW]([COLOR_NEGATIVE_TEXT]-10%[COLOR_YELLOW])[ENDCOLOR].
+[NEWLINE][ICON_BULLET]서로 다른 이념 채택 [COLOR_YELLOW]([COLOR_NEGATIVE_TEXT]-20%[COLOR_YELLOW])[ENDCOLOR].
 [NEWLINE][ICON_BULLET][COLOR_YELLOW]그들의 원래 도시를 괴뢰 도시가 아닌 도시로 소유 ([COLOR_NEGATIVE_TEXT]도시당 -5%[COLOR_YELLOW]).[ENDCOLOR]
 
 [NEWLINE][NEWLINE][COLOR_YELLOW]추가로 고유 능력, 정책, 이념 주의, 기업, 세계 의회 결의안에 따라 변동될 수 있습니다. [ENDCOLOR]다른 능력은 도시의 관광을 직접 증가시킵니다.'
