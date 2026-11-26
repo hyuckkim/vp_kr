@@ -288,6 +288,14 @@ SET Text = '[ICON_RES_HIDDEN_ARTIFACTS]숨겨진 미발굴 사적지: {1_Num}'
 WHERE Tag = 'TXT_KEY_HIDDEN_SITES_TO_EXCAVATE';
 
 UPDATE Language_ko_KR
+SET Text = '{1_Civ}의 {3_Civ}에 대한 [ICON_TOURISM] 관광은 상대 문명 전체 [ICON_CULTURE] 문화의 {2_Num: number #.#}%입니다.'
+WHERE Tag = 'TXT_KEY_CO_THIRD_PARTY_CULTURE_INFLUENCE';
+
+UPDATE Language_ko_KR
+SET Text = '{1_Civ}의 아직 만나지 못한 문명에 대한 [ICON_TOURISM] 관광은 상대 문명 전체 [ICON_CULTURE] 문화의 {2_Num: number #.#}%입니다.'
+WHERE Tag = 'TXT_KEY_CO_THIRD_PARTY_CULTURE_INFLUENCE_UNMET';
+
+UPDATE Language_ko_KR
 SET Text = '[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CO_PUBLIC_OPINION_HAPPINESS';
 
