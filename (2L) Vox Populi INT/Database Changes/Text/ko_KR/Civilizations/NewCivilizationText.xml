@@ -823,15 +823,18 @@
 		</Row>
 
 		<!-- 인도 -->
-		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR">
-			<Text>하라파 저수지</Text>
+		<Row Tag="TXT_KEY_BUILDING_STEPWELL">
+			<Text>계단식 우물</Text>
 			<Plurality>2</Plurality>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR_TEXT">
-			<Text>파키스탄과 인도의 일부를 포함한 서북남아시아의 고대 하라판 및 인더스 계곡 문명은 수력 공학에서 두드러졌고, 최초의 물 공급과 위생 장치를 많이 가지고 있었습니다. 무엇보다도, 그것들은 세계에서 가장 오래된 수세식 화장실 시스템을 포함하고 있었습니다. 이것들은 많은 가정에서 존재했고, 일반적인 하수관과 연결되어 있었습니다. 대부분의 집에는 개인 우물도 있었습니다. 도시 성벽은 홍수에 대한 장벽으로 기능했고, 가뭄을 막기 위해 이 홍수 물을 모으기 위해 거대한 저수지가 종종 이 벽을 따라 건설되었습니다.</Text>
+		<Row Tag="TXT_KEY_BUILDING_STEPWELL_TEXT">
+			<Text>인도의 계단식 우물(바오리, 바올리, 바브, 또는 바아브라고도 함)은 일 년 내내 지하수를 이용할 수 있도록 설계된 전통적인 물 구조물입니다. 일반 우물과 달리 계단식 우물은 수면까지 이어지는 긴 계단으로 지어지며, 지붕이 덮인 통로, 기둥, 회랑, 작은 방들로 둘러싸인 경우가 많습니다. 그 건축은 실용적인 물 관리와 예술적, 사회적 목적을 함께 담고 있습니다. 많은 계단식 우물은 사암이나 그 밖의 내구성 있는 지역 석재로 지어졌으며, 꽃, 동물, 신, 기하학적 무늬의 조각으로 장식되었습니다. 물을 모으고 저장하는 것 외에도, 계단식 우물은 사람들이 쉬고, 만나고, 종교 활동이나 공동체 활동을 하는 시원한 모임 장소 역할을 했습니다.[NEWLINE][NEWLINE]계단식 우물의 가장 초기 형태는 고대 인도의 물 관리 전통으로 거슬러 올라가며, 계단이 있는 물 구조물은 기원전 3천년기부터 알려져 있습니다. 그러나 긴 계단을 통해 우물에 접근하는 독특한 구조의 계단식 우물은 기원후 6세기경 인도 서부에서 보다 뚜렷하게 발전했으며, 이후 라자스탄, 구자라트, 델리, 마디아프라데시 등 여러 지역으로 퍼져 나갔습니다. 계단식 우물은 물 저장이 농업과 일상생활에 필수적이었던, 덥고 건조한 기후와 계절성 강우를 가진 지역에서 특히 중요해졌습니다. 중세 시대에는 통치자, 부유한 상인, 종교 후원자들이 점점 더 정교한 계단식 우물을 의뢰했으며, 그중 일부는 인도 건축의 놀라운 사례가 되었습니다. 대표적인 예로는 구자라트의 라니 키 바브, 라자스탄의 찬드 바오리, 델리의 아그라센 키 바올리가 있습니다.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_HARAPPAN_RESERVOIR_STRATEGY">
-			<Text>{TXT_KEY_BUILDING_AQUEDUCT}를 대체하는 인도의 고유 건물입니다. {TXT_KEY_BUILDING_HARAPPAN_RESERVOIR}는 {TXT_KEY_BUILDING_AQUEDUCT}의 보너스에 추가로, [ICON_CITIZEN] 인구 성장 시 더 많은 [ICON_FOOD] 식량을 보존합니다. 농장을 강화합니다. 도시의 [ICON_RELIGION] 대중 종교의 신자 수에 비례해 [ICON_FOOD] 식량을 증가시킵니다.</Text>
+		<Row Tag="TXT_KEY_BUILDING_STEPWELL_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STEPWELL_STRATEGY">
+			<Text>{TXT_KEY_BUILDING_AQUEDUCT}를 대체하는 인도의 고유 건물입니다. {TXT_KEY_BUILDING_STEPWELL}은 {TXT_KEY_BUILDING_AQUEDUCT}의 보너스에 추가로, [ICON_CITIZEN] 인구 성장 시 더 많은 [ICON_FOOD] 식량을 보존합니다. 농장을 강화합니다. 도시의 [ICON_RELIGION] 대중 종교의 신자 수에 비례해 [ICON_FOOD] 식량을 증가시킵니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_DHANURDHARA">
