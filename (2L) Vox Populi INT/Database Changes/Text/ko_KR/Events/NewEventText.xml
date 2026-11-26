@@ -1335,10 +1335,10 @@
 			<Text>이 도시는 [ICON_TOURISM] 관광을 생성하지 않습니다. 지속 시간 10턴 (표준 속도). 처음 5턴 동안 건물, 불가사의, 프로젝트에 대한 건설이나 투자를 할 수 없습니다.[NEWLINE]식별 확률 50% / 처치 확률 25%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_HELP">
-			<Text>도시가 {8_Num}턴간 [ICON_TOURISM] 관광을 생성하지 않으며, 그 기간의 절반 동안 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다.</Text>
+			<Text>도시가 {5_Duration}턴간 [ICON_TOURISM] 관광을 생성하지 않으며, 그 기간의 절반 동안 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SABOTAGE_PRODUCTION_EFFECT">
-			<Text>도시가 {8_Num}턴간 [ICON_TOURISM] 관광을 생성하지 않습니다. 도시 이벤트의 전반부 동안 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다.</Text>
+			<Text>도시가 {5_Duration}턴간 [ICON_TOURISM] 관광을 생성하지 않습니다. 도시 이벤트의 전반부 동안 건물, 불가사의 및 프로젝트를 생산하거나 투자할 수 없습니다.</Text>
 		</Row>
 		<!-- Pilfer Relics -->
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_FAITH">
@@ -1377,10 +1377,10 @@
 			<Text>[ICON_TEAM_2] 반란군 부대가 도시 근처에 둘 출현합니다. 이 도시는 [ICON_TOURISM] 관광을 생성하지 않습니다. 지속 시간: 5 턴 (표준 속도).[NEWLINE]해당 도시는 [ICON_INTERNATIONAL_TRADE] 무역로가 연결되어 있어야 하며, {TXT_KEY_BUILDING_EAST_INDIA}가 없어야 합니다.[NEWLINE]식별 확률 25% / 처치 확률 5%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK_HELP">
-			<Text>대상 도시 근처에 [ICON_TEAM_2] 반란군 유닛이 둘 나타납니다. {8_Num}턴 동안 도시는 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
+			<Text>대상 도시 근처에 [ICON_TEAM_2] 반란군 유닛이 둘 나타납니다. {5_Duration}턴 동안 도시는 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_HIJACK_EFFECT">
-			<Text>[ICON_TEAM_2] 반란군 유닛이 지역에 나타났습니다. 도시는 {8_Num}턴 동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
+			<Text>[ICON_TEAM_2] 반란군 유닛이 지역에 나타났습니다. 도시는 {5_Duration}턴 동안 [ICON_TOURISM] 관광을 생성하지 못합니다.</Text>
 		</Row>
 		<!-- Infiltrate the Governor's Office -->
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_INFILTRATE">
@@ -1441,10 +1441,10 @@
 			<Text> 도시의 [ICON_PRODUCTION] 생산력과 [ICON_GOLD] 골드가 20% 감소합니다. 지속 시간 10턴 (표준 속도). 처음 5턴 동안 도시는 [ICON_BLOCKADED] 봉쇄되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.[NEWLINE]도시에 항구가 있어야 합니다.[NEWLINE]식별 확률 75% / 처치 확률 50%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ARSON_DOCKS_HELP">
-			<Text>도시의 [ICON_PRODUCTION] 생산력과 [ICON_GOLD] 골드가 {8_Num}턴간 20% 감소하며, 그 기간의 절반 동안 도시는 [ICON_BLOCKADED] 봉쇄되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
+			<Text>도시의 [ICON_PRODUCTION] 생산력과 [ICON_GOLD] 골드가 {5_Duration}턴간 20% 감소하며, 그 기간의 절반 동안 도시는 [ICON_BLOCKADED] 봉쇄되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ARSON_DOCKS_EFFECT">
-			<Text>{8_Num}턴간 도시의 [ICON_PRODUCTION] 생산력과 [ICON_GOLD] 골드가 20% 감소합니다. 도시 이벤트의 전반부 동안 도시는 [ICON_BLOCKADED] 봉쇄되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
+			<Text>{5_Duration}턴간 도시의 [ICON_PRODUCTION] 생산력과 [ICON_GOLD] 골드가 20% 감소합니다. 도시 이벤트의 전반부 동안 도시는 [ICON_BLOCKADED] 봉쇄되어 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
 		</Row>
 		<!-- Radicalize the Rural Citizenry -->
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_ECONOMIC_TILES">
@@ -1467,10 +1467,10 @@
 			<Text>이 도시가 소유한 모든 [COLOR_POSITIVE_TEXT]요새[ENDCOLOR]가 [ICON_RAZING] 약탈됩니다. 도시는 [ICON_BLOCKADED] 봉쇄되며 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다. 10턴 동안 지속됩니다 (표준 속도).[NEWLINE]식별 확률 75% / 처치 확률 75%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_HELP">
-			<Text>이 도시의 모든 요새를 [ICON_RAZING] 약탈합니다. 도시를 [ICON_BLOCKADED] 봉쇄해 {8_Num}턴 동안 [ICON_RANGE_STRENGTH] 원거리 공격을 막습니다.</Text>
+			<Text>이 도시의 모든 요새를 [ICON_RAZING] 약탈합니다. 도시를 [ICON_BLOCKADED] 봉쇄해 {5_Duration}턴 동안 [ICON_RANGE_STRENGTH] 원거리 공격을 막습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES_EFFECT">
-			<Text>도시 주변의 요새가 [ICON_RAZING]  =약탈당했습니다. 도시가 [ICON_BLOCKADED] 봉쇄되어 {8_Num} 턴 동안 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
+			<Text>도시 주변의 요새가 [ICON_RAZING]  =약탈당했습니다. 도시가 [ICON_BLOCKADED] 봉쇄되어 {5_Duration} 턴 동안 [ICON_RANGE_STRENGTH] 원거리 공격을 수행할 수 없습니다.</Text>
 		</Row>
 		<!-- Steal a GW -->
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_STEAL_GW">
