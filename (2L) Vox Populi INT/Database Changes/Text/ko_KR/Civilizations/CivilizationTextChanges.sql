@@ -571,7 +571,7 @@ SET Text = '{TXT_KEY_UNIT_SEA_BEGGAR}은 {TXT_KEY_UNIT_PRIVATEER}을 대체하�
 WHERE Tag = 'TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY';
 
 UPDATE Language_ko_KR
-SET Text = '습지 또는 지상 타일에 세 타일 이상 인접한 물 타일에만 건설할 수 있습니다. 지상 유닛이 승선 없이 지상 타일을 이동하듯 이동할 수 있습니다. '
+SET Text = '습지 또는 지상 타일에 두 타일 이상 인접한 물 타일에만 건설할 수 있습니다. 지상 유닛이 승선 없이 지상 타일을 이동하듯 이동할 수 있습니다. '
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP';
 
 UPDATE Language_ko_KR

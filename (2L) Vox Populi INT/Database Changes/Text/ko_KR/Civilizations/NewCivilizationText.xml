@@ -1131,16 +1131,16 @@
 
 		<!-- 네덜란드 -->
 		<Row Tag="TXT_KEY_BUILD_POLDER_HELP">
-			<Text>습지 또는 지상 타일에 3타일 이상 인접한 특징이 없는 호수/해양 타일에만 건설할 수 있습니다.</Text>
+			<Text>습지 또는 지상 타일에 2타일 이상 인접한 특징이 없는 호수/해양 타일에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_POLDER_REC">
-			<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드를 증가시킵니다.</Text>
+			<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산을 증가시키며, [COLOR_CYAN]{TXT_KEY_TECH_ECONOMICS_TITLE}[ENDCOLOR] 연구 시 [ICON_GOLD] 골드도 증가시킵니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_POLDER_WATER_HELP">
-			<Text>지상 유닛이 해양 타일을 지날 수 있게 합니다. 습지 또는 지상 타일에 3타일 이상 인접한 특징이 없는 호수/해양 타일에만 건설할 수 있습니다.</Text>
+			<Text>지상 유닛이 해양 타일을 지날 수 있게 합니다. 습지 또는 지상 타일에 2타일 이상 인접한 특징이 없는 호수/해양 타일에만 건설할 수 있습니다.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_POLDER_WATER_REC">
-			<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_GOLD] 골드를 증가시킵니다.[NEWLINE]Allows land 지상 유닛이 해양 타일을 지날 수 있게 합니다.</Text>
+			<Text>[ICON_FOOD] 식량, [ICON_PRODUCTION] 생산을 증가시키며, [COLOR_CYAN]{TXT_KEY_TECH_ECONOMICS_TITLE}[ENDCOLOR] 연구 시 [ICON_GOLD] 골드도 증가시킵니다.[NEWLINE]지상 유닛이 해양 타일을 지날 수 있게 합니다.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DOELEN">
