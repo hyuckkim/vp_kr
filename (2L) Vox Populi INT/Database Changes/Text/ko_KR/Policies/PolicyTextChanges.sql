@@ -947,7 +947,7 @@ SET Text = '"우리의 바다"라는 뜻의 마레 노스트룸은 로마 제국
 WHERE Tag = 'TXT_KEY_POLICY_NATIONALISM_TEXT';
 
 UPDATE Language_ko_KR
-SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 법원 1개마다 지역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1] 도시 보안이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다. 평소의 [COLOR_POSITIVE_TEXT]두배[ENDCOLOR] 속도로 법원과 경찰서를 건설할 수 있습니다.'
+SET Text = '[COLOR_POSITIVE_TEXT]경찰국가[ENDCOLOR]: 종속국이 다른 문명, 세계 의회에 의해 해방될 수 없고, 항복한 종속국은 반란을 일으킬 수 없습니다. 법원 1개마다 지역 [ICON_HAPPINESS_1]행복이 [COLOR_POSITIVE_TEXT]3[ENDCOLOR] 증가하고 경찰서의 [ICON_HAPPINESS_1] 도시 보안이 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 증가합니다. 평소의 [COLOR_POSITIVE_TEXT]두배[ENDCOLOR] 속도로 법원과 경찰서를 건설할 수 있습니다.'
 WHERE Tag = 'TXT_KEY_POLICY_POLICE_STATE_HELP';
 
 UPDATE Language_ko_KR
