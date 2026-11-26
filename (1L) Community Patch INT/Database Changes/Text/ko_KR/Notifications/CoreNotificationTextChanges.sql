@@ -117,16 +117,58 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS';
 
 -- Pantheon Founded
 UPDATE Language_ko_KR
-SET Text = '당신의 문명이 종교관을 숭배하기 시작했습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR] ({@2_BeliefDesc})'
+SET Text = '당신의 문명이 종교관을 숭배하기 시작했습니다. 선택한 교리: {@1_Belief}'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_ACTIVE_PLAYER';
 
 UPDATE Language_ko_KR
-SET Text = '{@1_CivName}{@1: plural 1?이; 2?가;} 종교관을 숭배하기 시작했습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{2_BeliefName}[ENDCOLOR] ({@3_BeliefDesc})'
+SET Text = '{@1_CivName}{@1: plural 1?이; 2?가;} 종교관을 숭배하기 시작했습니다. 선택한 교리: {@2_Belief}'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED';
 
 UPDATE Language_ko_KR
-SET Text = '아직 만나지 못한 문명이 종교관을 숭배하기 시작했습니다. 선택한 교리: [COLOR_POSITIVE_TEXT]{1_BeliefName}[ENDCOLOR] ({@2_BeliefDesc})'
+SET Text = '아직 만나지 못한 문명이 종교관을 숭배하기 시작했습니다. 선택한 교리: {@1_Belief}'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_UNKNOWN';
+
+
+-- Religion Founded
+UPDATE Language_ko_KR
+SET Text = '성도 {@2_CityName}에서 새 종교인 {@1_ReligionName}{@1: plural 1?을; 2?를;} 창시했습니다. 선택한 교리: {@3_Beliefs}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_ACTIVE_PLAYER';
+
+UPDATE Language_ko_KR
+SET Text = '{1_CivName}{1: plural 1?이; 2?가;} 성도 {@3_CityName}에서 새 종교인 {@2_ReligionName}{@2: plural 1?을; 2?를;} 창시했습니다. 선택한 교리: {@4_Beliefs}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_RELIGION_FOUNDED';
+
+UPDATE Language_ko_KR
+SET Text = '아직 만나지 못한 문명이 자신의 도시 중 하나에서 새 종교인 {@1_ReligionName}{@1: plural 1?을; 2?를;} 창시했습니다. 선택한 교리: {@2_Beliefs}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_UNKNOWN';
+
+-- Religion Enhanced
+UPDATE Language_ko_KR
+SET Text = '새 교리를 추가해 {@1_ReligionName}{@1: plural 1?을; 2?를;} 강화했습니다. 선택한 교리: {@2_Beliefs}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_ACTIVE_PLAYER';
+
+UPDATE Language_ko_KR
+SET Text = '{1_CivName}{1: plural 1?이; 2?가;} 새 교리를 추가해 {@2_ReligionName}{@2: plural 1?을; 2?를;} 강화했습니다. 선택한 교리: {@3_Beliefs}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_RELIGION_ENHANCED';
+
+UPDATE Language_ko_KR
+SET Text = '아직 만나지 못한 문명이 새 교리를 추가해 {@1_ReligionName}{@1: plural 1?을; 2?를;} 강화했습니다. 선택한 교리: {@2_Beliefs}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_UNKNOWN';
+
+
+-- Reformation Belief added
+UPDATE Language_ko_KR
+SET Text = '{@1_ReligionName}에 개혁 교리를 추가했습니다. 선택한 교리: {@2_Belief}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_ACTIVE_PLAYER';
+
+UPDATE Language_ko_KR
+SET Text = '{1_CivName}{1: plural 1?이; 2?가;} {@2_ReligionName}에 개혁 교리를 추가했습니다. 선택한 교리: {@3_Belief}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED';
+
+UPDATE Language_ko_KR
+SET Text = '아직 만나지 못한 문명이 {@1_ReligionName}에 개혁 교리를 추가했습니다. 선택한 교리: {@2_Belief}'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_UNKNOWN';
+
 
 -- BALANCE_RESOURCE_SHORTAGE_UNIT_HEALING
 UPDATE Language_ko_KR
