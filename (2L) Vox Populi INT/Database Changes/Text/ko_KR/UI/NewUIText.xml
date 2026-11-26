@@ -561,10 +561,10 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_TP_TECH_SCHOLAR_DISCOUNT">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] 상주 학자에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] 상주 학자에서</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECH_ALLIES_DISCOUNT">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] [ICON_RESEARCH]동맹 도시국가에서</Text>
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] [ICON_RESEARCH]동맹 도시국가에서</Text>
 		</Row>
 		<!-- Culture -->
 		<Row Tag="TXT_KEY_TP_CULTURE_FROM_ANNEXED_MINORS">

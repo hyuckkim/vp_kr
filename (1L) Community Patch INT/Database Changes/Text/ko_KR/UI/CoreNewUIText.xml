@@ -245,6 +245,12 @@
 		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY_EXPLAINER">
 			<Text>각 이념 주의는 다음 정책 비용을 증가시킵니다: 레벨 1: [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR], 레벨 2: [COLOR_NEGATIVE_TEXT]+{2_Num}%[ENDCOLOR], 레벨 3: [COLOR_NEGATIVE_TEXT]+{3_Num}%[ENDCOLOR].</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TP_COST_FACTOR_TIMES">
+			<Text>×{1_Str}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_COST_FACTOR_DIVIDED">
+			<Text>÷{1_Str}</Text>
+		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_COST_BASE">
 			<Text>기본 정책 비용: {1_Num} [ICON_CULTURE]</Text>
 		</Row>
@@ -252,28 +258,28 @@
 			<Text>({1_Num}%로 제한)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_HEADER">
-			<Text>[ICON_BULLET]x {1_Str}: 정책 비용 변경 {2_Str}:</Text>
+			<Text>{1_Str}: 정책 비용 변경 {2_Str}:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_POLICIES">
-			<Text>[ICON_BULLET] 정책 및 이념 주의에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
+			<Text>정책 및 이념 주의에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_BUILDINGS">
-			<Text>[ICON_BULLET] 건물에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
+			<Text>건물에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_MINOR_CIVS">
-			<Text>[ICON_BULLET] 도시 국가에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
+			<Text>도시 국가에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_TRAITS">
-			<Text>[ICON_BULLET] 문명 특성에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
+			<Text>문명 특성에서 [COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY">
-			<Text>[ICON_BULLET]채택된 이념 주의 {2_Num}개에서 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
+			<Text>채택된 이념 주의 {2_Num}개에서 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_DIFFICULTY">
-			<Text>[ICON_BULLET]x {1_Str}: 시대와 난이도에서.</Text>
+			<Text>{1_Str}: 시대와 난이도에서.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_COST_TOTAL">
-			<Text>[ICON_BULLET]= {1_Num} [ICON_CULTURE]</Text>
+			<Text>{1_Num} [ICON_CULTURE]</Text>
 		</Row>
 		<!-- Science -->
 		<Row Tag="TXT_KEY_TP_SCIENCE_PER_TURN">
@@ -286,25 +292,19 @@
 			<Text>Base Technology cost: {1_Num} [ICON_RESEARCH]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_HEADER">
-			<Text>[ICON_BULLET]/ {1_Str}{2_Str}: 기술 비용 변경:</Text>
+			<Text>{1_Str}{2_Str}: 기술 비용 변경:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_SCHOLAR_SPLIT">
-			<Text>([COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] x [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR])</Text>
+			<Text>([COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR] × [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECH_CATCHUP_DISCOUNT">
-			<Text>[ICON_BULLET] 알려지지 않은 문명의 기술 발전 {2_Num}/{3_Num}에서 [COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR]</Text>
+			<Text>알려지지 않은 문명의 기술 발전 {2_Num}/{3_Num}에서 [COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECH_PREREQ_DISCOUNT">
-			<Text>[ICON_BULLET] 개발된 선택적 기술에서 [COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_FORMULA_NO_SCHOLAR">
-			<Text>기본 [ICON_RESEARCH] 기술 ​​비용 감소: {1_Num} [ICON_RESEARCH] / [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR] = {4_Num} [ICON_RESEARCH].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_FORMULA_WITH_SCHOLAR">
-			<Text>기본 [ICON_RESEARCH] 기술 ​​비용 감소: {1_Num} [ICON_RESEARCH] / ([COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] x [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR]) = {5_Num} [ICON_RESEARCH].</Text>
+			<Text>개발된 선택적 기술에서 [COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECH_COST_TOTAL">
-			<Text>[ICON_BULLET]= {1_Num} [ICON_RESEARCH]</Text>
+			<Text>{1_Num} [ICON_RESEARCH]</Text>
 		</Row>
 		<!-- Tourism -->
 		<Row Tag="TXT_KEY_TP_TOURISM_PER_TURN">

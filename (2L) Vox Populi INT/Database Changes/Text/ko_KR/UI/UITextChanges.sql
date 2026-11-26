@@ -63,7 +63,7 @@ WHERE Tag = 'TXT_KEY_MAYA_DATE_TOOLTIP';
 
 -- Science
 UPDATE Language_ko_KR
-SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_RESEARCH]연구 비용이 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] 증가합니다.'
+SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_RESEARCH]연구 비용이 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] × 도시 수 만큼 증가합니다.'
 WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST';
 
 UPDATE Language_ko_KR
@@ -76,7 +76,7 @@ WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_MINORS';
 
 -- Culture
 UPDATE Language_ko_KR
-SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_CULTURE]정책 비용이 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] 증가합니다.'
+SET Text = '소유한 ([ICON_PUPPET]괴뢰 제외) 도시마다 [ICON_CULTURE]정책 비용이 [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] × 도시 수 만큼 증가합니다.'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST';
 
 UPDATE Language_ko_KR
