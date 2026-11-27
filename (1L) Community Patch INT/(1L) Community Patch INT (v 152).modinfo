@@ -55,6 +55,7 @@
     <File md5="48820A641B622BE90F68FAB6C65B4060" import="0">Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</File>
     <File md5="F4D766E29B2AA13CC8DBA67F16BF421A" import="0">Database Changes/Text/ko_KR/UI/CoreNewMissionText.xml</File>
     <File md5="F4D766E29B2AA13CC8DBA67F16BF421A" import="0">Database Changes/Text/ko_KR/UI/NewInterfaceModeText.xml</File>
+    <File md5="26C33A8323E6B6B28BDA5AA46D302A2A" import="0">Database Changes/Text/ko_KR/UI/WorkerPlannerText.sql</File>
     <File md5="1D04FD1F5BCCFDF8F5DC3EAA6C76D6DD" import="0">Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</File>
     <File md5="15133F46A8B9D1A208CDA3F65C00D82B" import="0">Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</File>
     <File md5="816A628B1167E5AAF0974E2D624CD652" import="0">Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</File>
@@ -91,6 +92,7 @@
       <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreUITextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UI/CoreNewMissionText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UI/NewInterfaceModeText.xml</UpdateDatabase>
+      <UpdateDatabase>Database Changes/Text/ko_KR/UI/WorkerPlannerText.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CoreNewPromotionText.xml</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/UnitPromotions/CorePromotionTextChanges.sql</UpdateDatabase>
       <UpdateDatabase>Database Changes/Text/ko_KR/Units/CoreMissionTextChanges.sql</UpdateDatabase>
